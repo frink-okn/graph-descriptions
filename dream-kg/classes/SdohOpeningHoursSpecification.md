@@ -1,0 +1,233 @@
+
+
+# Class: TODO -- what's a good name for what this class (type) describes? (sdoh_OpeningHoursSpecification)
+
+
+_TODO -- tell the world what this class (type) describes._
+
+
+
+
+
+URI: [sdoh:OpeningHoursSpecification](http://schema.org/OpeningHoursSpecification)
+
+
+
+
+
+
+```mermaid
+ classDiagram
+    class SdohOpeningHoursSpecification
+    click SdohOpeningHoursSpecification href "../SdohOpeningHoursSpecification"
+      SdohOpeningHoursSpecification : sdoh_closes
+        
+          
+    
+    
+    SdohOpeningHoursSpecification --> "0..1" String : sdoh_closes
+    click String href "../String"
+
+        
+      SdohOpeningHoursSpecification : sdoh_dayOfWeek
+        
+          
+    
+    
+    SdohOpeningHoursSpecification --> "0..1" String : sdoh_dayOfWeek
+    click String href "../String"
+
+        
+      SdohOpeningHoursSpecification : sdoh_opens
+        
+          
+    
+    
+    SdohOpeningHoursSpecification --> "0..1" String : sdoh_opens
+    click String href "../String"
+
+        
+      
+```
+
+
+
+
+<!-- no inheritance hierarchy -->
+
+
+## Slots
+
+| Name | Cardinality and Range | Description | Inheritance |
+| ---  | --- | --- | --- |
+| [sdoh_opens](../slots/sdoh_opens.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_closes](../slots/sdoh_closes.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_dayOfWeek](../slots/sdoh_dayOfWeek.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+
+
+
+
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [SdohService](../classes/SdohService.md) | [sdoh_hoursAvailable](../slots/sdoh_hoursAvailable.md) | range | [SdohOpeningHoursSpecification](../classes/SdohOpeningHoursSpecification.md) |
+
+
+
+
+
+
+
+## Examples
+
+| Value |
+| --- |
+| dreamkg:service/hours/sunday/5552002522939392 |
+
+## TODOs
+
+* TODO -- Todos for this class go here
+* or you can delete the todos
+* if you think the class is perfect.
+
+## Identifier and Mapping Information
+
+
+
+
+
+
+
+### Schema Source
+
+
+* from schema: dream-kg
+
+
+
+
+## Mappings
+
+| Mapping Type | Mapped Value |
+| ---  | ---  |
+| self | sdoh:OpeningHoursSpecification |
+| native | dream-kg/:SdohOpeningHoursSpecification |
+
+
+
+
+
+
+
+## LinkML Source
+
+<!-- TODO: investigate https://stackoverflow.com/questions/37606292/how-to-create-tabbed-code-blocks-in-mkdocs-or-sphinx -->
+
+### Direct
+
+<details>
+```yaml
+name: sdoh_OpeningHoursSpecification
+description: TODO -- tell the world what this class (type) describes.
+title: TODO -- what's a good name for what this class (type) describes?
+todos:
+- TODO -- Todos for this class go here
+- or you can delete the todos
+- if you think the class is perfect.
+notes:
+- There are 609 instances of this class.
+examples:
+- value: dreamkg:service/hours/sunday/5552002522939392
+from_schema: dream-kg
+slots:
+- sdoh_opens
+- sdoh_closes
+- sdoh_dayOfWeek
+class_uri: sdoh:OpeningHoursSpecification
+
+```
+</details>
+
+### Induced
+
+<details>
+```yaml
+name: sdoh_OpeningHoursSpecification
+description: TODO -- tell the world what this class (type) describes.
+title: TODO -- what's a good name for what this class (type) describes?
+todos:
+- TODO -- Todos for this class go here
+- or you can delete the todos
+- if you think the class is perfect.
+notes:
+- There are 609 instances of this class.
+examples:
+- value: dreamkg:service/hours/sunday/5552002522939392
+from_schema: dream-kg
+attributes:
+  sdoh_opens:
+    name: sdoh_opens
+    description: TODO -- tell the world what this slot (predicate) describes.
+    todos:
+    - TODO -- Todos for this slot go here
+    - or you can delete the todos
+    - if you think the class is perfect.
+    comments:
+    - 631 occurrences with subject type sdoh_OpeningHoursSpecification and object
+      type string.
+    examples:
+    - value: dreamkg:service/hours/tuesday/5089660355477504 sdoh:opens 08:00
+    from_schema: dream-kg
+    rank: 1000
+    slot_uri: sdoh:opens
+    alias: sdoh_opens
+    owner: sdoh_OpeningHoursSpecification
+    domain_of:
+    - sdoh_OpeningHoursSpecification
+    range: string
+  sdoh_closes:
+    name: sdoh_closes
+    description: TODO -- tell the world what this slot (predicate) describes.
+    todos:
+    - TODO -- Todos for this slot go here
+    - or you can delete the todos
+    - if you think the class is perfect.
+    comments:
+    - 623 occurrences with subject type sdoh_OpeningHoursSpecification and object
+      type string.
+    examples:
+    - value: dreamkg:service/hours/saturday/4874573658193920 sdoh:closes 17:00
+    from_schema: dream-kg
+    rank: 1000
+    slot_uri: sdoh:closes
+    alias: sdoh_closes
+    owner: sdoh_OpeningHoursSpecification
+    domain_of:
+    - sdoh_OpeningHoursSpecification
+    range: string
+  sdoh_dayOfWeek:
+    name: sdoh_dayOfWeek
+    description: TODO -- tell the world what this slot (predicate) describes.
+    todos:
+    - TODO -- Todos for this slot go here
+    - or you can delete the todos
+    - if you think the class is perfect.
+    comments:
+    - 609 occurrences with subject type sdoh_OpeningHoursSpecification and object
+      type string.
+    examples:
+    - value: dreamkg:service/hours/monday/4874573658193920 sdoh:dayOfWeek Monday
+    from_schema: dream-kg
+    rank: 1000
+    slot_uri: sdoh:dayOfWeek
+    alias: sdoh_dayOfWeek
+    owner: sdoh_OpeningHoursSpecification
+    domain_of:
+    - sdoh_OpeningHoursSpecification
+    range: string
+class_uri: sdoh:OpeningHoursSpecification
+
+```
+</details>
