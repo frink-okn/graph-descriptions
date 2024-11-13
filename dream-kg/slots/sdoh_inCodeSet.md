@@ -23,7 +23,7 @@ URI: [sdoh:inCodeSet](http://schema.org/inCodeSet)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohCategoryCode](../classes/SdohCategoryCode.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohCategoryCode](../classes/SdohCategoryCode.md) | A Category Code |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:inCodeSet](http://schema.org/inCodeSet)
 
 | Value |
 | --- |
-| dreamkg:category/language/Russian sdoh:inCodeSet dreamkg:_CategoryCodeSet_Languages |
+| dreamkg:category/service/main/AfterSchoolCare sdoh:inCodeSet dreamkg:_CategoryCodeSet_Services_Main |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 157 occurrences with subject type sdoh_CategoryCode and object type uri.
 examples:
-- value: dreamkg:category/language/Russian sdoh:inCodeSet dreamkg:_CategoryCodeSet_Languages
+- value: dreamkg:category/service/main/AfterSchoolCare sdoh:inCodeSet dreamkg:_CategoryCodeSet_Services_Main
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:inCodeSet

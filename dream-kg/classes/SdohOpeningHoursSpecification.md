@@ -1,9 +1,13 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (sdoh_OpeningHoursSpecification)
+# Class: OpeningHoursSpecification (sdoh_OpeningHoursSpecification)
 
 
-_TODO -- tell the world what this class (type) describes._
+_A structured value providing information about the opening hours of a place or a certain service inside a place.\n\n_
+
+_The place is __open__ if the [[opens]] property is specified, and __closed__ otherwise.\n\nIf the value for the [[closes]] property is less than the value for the [[opens]] property then the hour range is assumed to span over the next day._
+
+_      _
 
 
 
@@ -84,7 +88,7 @@ URI: [sdoh:OpeningHoursSpecification](http://schema.org/OpeningHoursSpecificatio
 
 | Value |
 | --- |
-| dreamkg:service/hours/sunday/5552002522939392 |
+| dreamkg:service/hours/monday/6139716755783680 |
 
 ## TODOs
 
@@ -130,8 +134,12 @@ URI: [sdoh:OpeningHoursSpecification](http://schema.org/OpeningHoursSpecificatio
 <details>
 ```yaml
 name: sdoh_OpeningHoursSpecification
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: "A structured value providing information about the opening hours of\
+  \ a place or a certain service inside a place.\\n\\n\nThe place is __open__ if the\
+  \ [[opens]] property is specified, and __closed__ otherwise.\\n\\nIf the value for\
+  \ the [[closes]] property is less than the value for the [[opens]] property then\
+  \ the hour range is assumed to span over the next day.\n      "
+title: OpeningHoursSpecification
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
@@ -139,7 +147,7 @@ todos:
 notes:
 - There are 609 instances of this class.
 examples:
-- value: dreamkg:service/hours/sunday/5552002522939392
+- value: dreamkg:service/hours/monday/6139716755783680
 from_schema: dream-kg
 slots:
 - sdoh_opens
@@ -155,8 +163,12 @@ class_uri: sdoh:OpeningHoursSpecification
 <details>
 ```yaml
 name: sdoh_OpeningHoursSpecification
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: "A structured value providing information about the opening hours of\
+  \ a place or a certain service inside a place.\\n\\n\nThe place is __open__ if the\
+  \ [[opens]] property is specified, and __closed__ otherwise.\\n\\nIf the value for\
+  \ the [[closes]] property is less than the value for the [[opens]] property then\
+  \ the hour range is assumed to span over the next day.\n      "
+title: OpeningHoursSpecification
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
@@ -164,7 +176,7 @@ todos:
 notes:
 - There are 609 instances of this class.
 examples:
-- value: dreamkg:service/hours/sunday/5552002522939392
+- value: dreamkg:service/hours/monday/6139716755783680
 from_schema: dream-kg
 attributes:
   sdoh_opens:
@@ -178,7 +190,7 @@ attributes:
     - 631 occurrences with subject type sdoh_OpeningHoursSpecification and object
       type string.
     examples:
-    - value: dreamkg:service/hours/tuesday/5089660355477504 sdoh:opens 08:00
+    - value: dreamkg:service/hours/saturday/5704371963166720 sdoh:opens 00:00
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:opens
@@ -198,7 +210,7 @@ attributes:
     - 623 occurrences with subject type sdoh_OpeningHoursSpecification and object
       type string.
     examples:
-    - value: dreamkg:service/hours/saturday/4874573658193920 sdoh:closes 17:00
+    - value: dreamkg:service/hours/thursday/5711255900520448 sdoh:closes 17:00
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:closes
@@ -218,7 +230,7 @@ attributes:
     - 609 occurrences with subject type sdoh_OpeningHoursSpecification and object
       type string.
     examples:
-    - value: dreamkg:service/hours/monday/4874573658193920 sdoh:dayOfWeek Monday
+    - value: dreamkg:service/hours/saturday/5147295688687616 sdoh:dayOfWeek Saturday
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:dayOfWeek

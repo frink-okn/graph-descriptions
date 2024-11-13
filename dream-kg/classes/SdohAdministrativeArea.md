@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (sdoh_AdministrativeArea)
+# Class: AdministrativeArea (sdoh_AdministrativeArea)
 
 
-_TODO -- tell the world what this class (type) describes._
+_A geographical region, typically under the jurisdiction of a particular government._
 
 
 
@@ -64,7 +64,7 @@ URI: [sdoh:AdministrativeArea](http://schema.org/AdministrativeArea)
 
 | Value |
 | --- |
-| dreamkg:zip/19134 |
+| dreamkg:zip/19145 |
 
 ## TODOs
 
@@ -110,8 +110,9 @@ URI: [sdoh:AdministrativeArea](http://schema.org/AdministrativeArea)
 <details>
 ```yaml
 name: sdoh_AdministrativeArea
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: A geographical region, typically under the jurisdiction of a particular
+  government.
+title: AdministrativeArea
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
@@ -119,7 +120,7 @@ todos:
 notes:
 - There are 39 instances of this class.
 examples:
-- value: dreamkg:zip/19134
+- value: dreamkg:zip/19145
 from_schema: dream-kg
 slots:
 - sdoh_identifier
@@ -133,8 +134,9 @@ class_uri: sdoh:AdministrativeArea
 <details>
 ```yaml
 name: sdoh_AdministrativeArea
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: A geographical region, typically under the jurisdiction of a particular
+  government.
+title: AdministrativeArea
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
@@ -142,7 +144,7 @@ todos:
 notes:
 - There are 39 instances of this class.
 examples:
-- value: dreamkg:zip/19134
+- value: dreamkg:zip/19145
 from_schema: dream-kg
 attributes:
   sdoh_identifier:
@@ -153,11 +155,11 @@ attributes:
     - or you can delete the todos
     - if you think the class is perfect.
     comments:
-    - 87 occurrences with subject type sdoh_Service and object type string.
     - 39 occurrences with subject type sdoh_AdministrativeArea and object type string.
+    - 87 occurrences with subject type sdoh_Service and object type string.
     examples:
-    - value: dreamkg:service/6139716755783680 sdoh:identifier 6139716755783680
-    - value: dreamkg:zip/19154 sdoh:identifier 19154
+    - value: dreamkg:zip/19050 sdoh:identifier 19050
+    - value: dreamkg:service/5711255900520448 sdoh:identifier 5711255900520448
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:identifier

@@ -23,7 +23,7 @@ URI: [sdoh:codeValue](http://schema.org/codeValue)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohCategoryCode](../classes/SdohCategoryCode.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohCategoryCode](../classes/SdohCategoryCode.md) | A Category Code |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:codeValue](http://schema.org/codeValue)
 
 | Value |
 | --- |
-| dreamkg:category/service/other/VirtualSupport sdoh:codeValue virtual support |
+| dreamkg:category/language/Ukrainian sdoh:codeValue Ukrainian |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 158 occurrences with subject type sdoh_CategoryCode and object type string.
 examples:
-- value: dreamkg:category/service/other/VirtualSupport sdoh:codeValue virtual support
+- value: dreamkg:category/language/Ukrainian sdoh:codeValue Ukrainian
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:codeValue

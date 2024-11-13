@@ -23,7 +23,7 @@ URI: [sdoh:serviceUrl](http://schema.org/serviceUrl)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohServiceChannel](../classes/SdohServiceChannel.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohServiceChannel](../classes/SdohServiceChannel.md) | A means for accessing a service, e |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:serviceUrl](http://schema.org/serviceUrl)
 
 | Value |
 | --- |
-| dreamkg:service/channel/P-4785885511417856 sdoh:serviceUrl https://www.bebashi.org/hunger-relief/ |
+| dreamkg:service/channel/P-4795404263882752 sdoh:serviceUrl https://bewellctr.org/inpatient-drug-alcohol/ |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 188 occurrences with subject type sdoh_ServiceChannel and object type uri.
 examples:
-- value: dreamkg:service/channel/P-4785885511417856 sdoh:serviceUrl https://www.bebashi.org/hunger-relief/
+- value: dreamkg:service/channel/P-4795404263882752 sdoh:serviceUrl https://bewellctr.org/inpatient-drug-alcohol/
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:serviceUrl

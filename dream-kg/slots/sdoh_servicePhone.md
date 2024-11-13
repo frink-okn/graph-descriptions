@@ -23,7 +23,7 @@ URI: [sdoh:servicePhone](http://schema.org/servicePhone)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohServiceChannel](../classes/SdohServiceChannel.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohServiceChannel](../classes/SdohServiceChannel.md) | A means for accessing a service, e |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:servicePhone](http://schema.org/servicePhone)
 
 | Value |
 | --- |
-| dreamkg:service/channel/P-6494806799548416 sdoh:servicePhone dreamkg:service/phone/6494806799548416 |
+| dreamkg:service/channel/P-4721819823112192 sdoh:servicePhone dreamkg:service/phone/4721819823112192 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 87 occurrences with subject type sdoh_ServiceChannel and object type sdoh_ContactPoint.
 examples:
-- value: dreamkg:service/channel/P-6494806799548416 sdoh:servicePhone dreamkg:service/phone/6494806799548416
+- value: dreamkg:service/channel/P-4721819823112192 sdoh:servicePhone dreamkg:service/phone/4721819823112192
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:servicePhone

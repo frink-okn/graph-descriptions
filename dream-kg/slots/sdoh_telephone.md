@@ -23,7 +23,7 @@ URI: [sdoh:telephone](http://schema.org/telephone)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohContactPoint](../classes/SdohContactPoint.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohContactPoint](../classes/SdohContactPoint.md) | A contact point&#x2014;for example, a Customer Complaints department |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:telephone](http://schema.org/telephone)
 
 | Value |
 | --- |
-| dreamkg:service/phone/4921265385242624 sdoh:telephone 215-563-0652 |
+| dreamkg:service/phone/5671175268335616 sdoh:telephone 215-242-2235 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 87 occurrences with subject type sdoh_ContactPoint and object type string.
 examples:
-- value: dreamkg:service/phone/4921265385242624 sdoh:telephone 215-563-0652
+- value: dreamkg:service/phone/5671175268335616 sdoh:telephone 215-242-2235
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:telephone

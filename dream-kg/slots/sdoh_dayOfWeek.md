@@ -23,7 +23,7 @@ URI: [sdoh:dayOfWeek](http://schema.org/dayOfWeek)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohOpeningHoursSpecification](../classes/SdohOpeningHoursSpecification.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohOpeningHoursSpecification](../classes/SdohOpeningHoursSpecification.md) | A structured value providing information about the opening hours of a place o... |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:dayOfWeek](http://schema.org/dayOfWeek)
 
 | Value |
 | --- |
-| dreamkg:service/hours/monday/4874573658193920 sdoh:dayOfWeek Monday |
+| dreamkg:service/hours/saturday/5147295688687616 sdoh:dayOfWeek Saturday |
 
 ## Comments
 
@@ -96,7 +96,7 @@ comments:
 - 609 occurrences with subject type sdoh_OpeningHoursSpecification and object type
   string.
 examples:
-- value: dreamkg:service/hours/monday/4874573658193920 sdoh:dayOfWeek Monday
+- value: dreamkg:service/hours/saturday/5147295688687616 sdoh:dayOfWeek Saturday
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:dayOfWeek

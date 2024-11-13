@@ -23,7 +23,7 @@ URI: [sdoh:availableChannel](http://schema.org/availableChannel)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohService](../classes/SdohService.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohService](../classes/SdohService.md) | A service provided by an organization, e |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:availableChannel](http://schema.org/availableChannel)
 
 | Value |
 | --- |
-| dreamkg:service/4542572480692224 sdoh:availableChannel dreamkg:service/channel/P-4542572480692224 |
+| dreamkg:service/5992920927698944 sdoh:availableChannel dreamkg:service/channel/P-5992920927698944 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 174 occurrences with subject type sdoh_Service and object type sdoh_ServiceChannel.
 examples:
-- value: dreamkg:service/4542572480692224 sdoh:availableChannel dreamkg:service/channel/P-4542572480692224
+- value: dreamkg:service/5992920927698944 sdoh:availableChannel dreamkg:service/channel/P-5992920927698944
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:availableChannel

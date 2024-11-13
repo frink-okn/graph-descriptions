@@ -23,7 +23,7 @@ URI: [sdoh:longitude](http://schema.org/longitude)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohPlace](../classes/SdohPlace.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohPlace](../classes/SdohPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:longitude](http://schema.org/longitude)
 
 | Value |
 | --- |
-| dreamkg:service/location/5367371355914240 sdoh:longitude -75.2001349 |
+| dreamkg:service/location/4955538569953280 sdoh:longitude -75.112315 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 89 occurrences with subject type sdoh_Place and object type decimal.
 examples:
-- value: dreamkg:service/location/5367371355914240 sdoh:longitude -75.2001349
+- value: dreamkg:service/location/4955538569953280 sdoh:longitude -75.112315
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:longitude

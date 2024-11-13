@@ -23,7 +23,7 @@ URI: [sdoh:category](http://schema.org/category)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohService](../classes/SdohService.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohService](../classes/SdohService.md) | A service provided by an organization, e |  no  |
 
 
 
@@ -44,8 +44,8 @@ URI: [sdoh:category](http://schema.org/category)
 
 | Value |
 | --- |
-| dreamkg:service/6032260047568896 sdoh:category dreamkg:category/audience/Adults18 |
-| dreamkg:service/6378689670414336 sdoh:category dreamkg:category/cost/ReducedCost |
+| dreamkg:service/6032260047568896 sdoh:category dreamkg:category/audience/BenefitRecipients |
+| dreamkg:service/5089660355477504 sdoh:category dreamkg:category/service/main/AdvocacyAndLegalAid |
 
 ## Comments
 
@@ -98,8 +98,8 @@ comments:
 - 539 occurrences with subject type sdoh_Service and object type sdoh_Audience.
 - 806 occurrences with subject type sdoh_Service and object type sdoh_CategoryCode.
 examples:
-- value: dreamkg:service/6032260047568896 sdoh:category dreamkg:category/audience/Adults18
-- value: dreamkg:service/6378689670414336 sdoh:category dreamkg:category/cost/ReducedCost
+- value: dreamkg:service/6032260047568896 sdoh:category dreamkg:category/audience/BenefitRecipients
+- value: dreamkg:service/5089660355477504 sdoh:category dreamkg:category/service/main/AdvocacyAndLegalAid
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:category

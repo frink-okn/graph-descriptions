@@ -23,7 +23,7 @@ URI: [sdoh:areaServed](http://schema.org/areaServed)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohService](../classes/SdohService.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohService](../classes/SdohService.md) | A service provided by an organization, e |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:areaServed](http://schema.org/areaServed)
 
 | Value |
 | --- |
-| dreamkg:service/4721819823112192 sdoh:areaServed This program covers residents of the following counties: Bucks County, PA, Burlington County, PA, Camden County, PA, Cecil County, PA, Chester County, PA, Delaware County, PA, Gloucester County, PA, Montgomery County, PA, New Castle County, PA, Philadelphia County, PA and Salem County, PA. |
+| dreamkg:service/5477271096786944 sdoh:areaServed This program covers residents of the following counties: Philadelphia County, PA. |
 
 ## Comments
 
@@ -95,11 +95,8 @@ todos:
 comments:
 - 87 occurrences with subject type sdoh_Service and object type string.
 examples:
-- value: 'dreamkg:service/4721819823112192 sdoh:areaServed This program covers residents
-    of the following counties: Bucks County, PA, Burlington County, PA, Camden County,
-    PA, Cecil County, PA, Chester County, PA, Delaware County, PA, Gloucester County,
-    PA, Montgomery County, PA, New Castle County, PA, Philadelphia County, PA and
-    Salem County, PA.'
+- value: 'dreamkg:service/5477271096786944 sdoh:areaServed This program covers residents
+    of the following counties: Philadelphia County, PA.'
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:areaServed

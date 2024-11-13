@@ -23,7 +23,7 @@ URI: [sdoh:audienceType](http://schema.org/audienceType)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohAudience](../classes/SdohAudience.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohAudience](../classes/SdohAudience.md) | Intended audience for an item, i |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:audienceType](http://schema.org/audienceType)
 
 | Value |
 | --- |
-| dreamkg:category/audience/Underinsured sdoh:audienceType underinsured |
+| dreamkg:category/audience/Families sdoh:audienceType families |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 81 occurrences with subject type sdoh_Audience and object type string.
 examples:
-- value: dreamkg:category/audience/Underinsured sdoh:audienceType underinsured
+- value: dreamkg:category/audience/Families sdoh:audienceType families
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:audienceType

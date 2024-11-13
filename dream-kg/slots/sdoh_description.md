@@ -23,7 +23,7 @@ URI: [sdoh:description](http://schema.org/description)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohService](../classes/SdohService.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohService](../classes/SdohService.md) | A service provided by an organization, e |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:description](http://schema.org/description)
 
 | Value |
 | --- |
-| dreamkg:service/6566876511207424 sdoh:description dreamkg:service/desc/6566876511207424 |
+| dreamkg:service/4721819823112192 sdoh:description dreamkg:service/desc/4721819823112192 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 87 occurrences with subject type sdoh_Service and object type sdoh_TextObject.
 examples:
-- value: dreamkg:service/6566876511207424 sdoh:description dreamkg:service/desc/6566876511207424
+- value: dreamkg:service/4721819823112192 sdoh:description dreamkg:service/desc/4721819823112192
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:description

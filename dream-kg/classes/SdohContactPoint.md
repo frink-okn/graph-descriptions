@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (sdoh_ContactPoint)
+# Class: ContactPoint (sdoh_ContactPoint)
 
 
-_TODO -- tell the world what this class (type) describes._
+_A contact point&#x2014;for example, a Customer Complaints department._
 
 
 
@@ -64,7 +64,7 @@ URI: [sdoh:ContactPoint](http://schema.org/ContactPoint)
 
 | Value |
 | --- |
-| dreamkg:service/phone/5643194546257920 |
+| dreamkg:service/phone/4689179354857472 |
 
 ## TODOs
 
@@ -110,8 +110,8 @@ URI: [sdoh:ContactPoint](http://schema.org/ContactPoint)
 <details>
 ```yaml
 name: sdoh_ContactPoint
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: A contact point&#x2014;for example, a Customer Complaints department.
+title: ContactPoint
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
@@ -119,7 +119,7 @@ todos:
 notes:
 - There are 87 instances of this class.
 examples:
-- value: dreamkg:service/phone/5643194546257920
+- value: dreamkg:service/phone/4689179354857472
 from_schema: dream-kg
 slots:
 - sdoh_telephone
@@ -133,8 +133,8 @@ class_uri: sdoh:ContactPoint
 <details>
 ```yaml
 name: sdoh_ContactPoint
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: A contact point&#x2014;for example, a Customer Complaints department.
+title: ContactPoint
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
@@ -142,7 +142,7 @@ todos:
 notes:
 - There are 87 instances of this class.
 examples:
-- value: dreamkg:service/phone/5643194546257920
+- value: dreamkg:service/phone/4689179354857472
 from_schema: dream-kg
 attributes:
   sdoh_telephone:
@@ -155,7 +155,7 @@ attributes:
     comments:
     - 87 occurrences with subject type sdoh_ContactPoint and object type string.
     examples:
-    - value: dreamkg:service/phone/4921265385242624 sdoh:telephone 215-563-0652
+    - value: dreamkg:service/phone/5671175268335616 sdoh:telephone 215-242-2235
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:telephone

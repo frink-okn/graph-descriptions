@@ -23,7 +23,7 @@ URI: [sdoh:latitude](http://schema.org/latitude)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohPlace](../classes/SdohPlace.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohPlace](../classes/SdohPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:latitude](http://schema.org/latitude)
 
 | Value |
 | --- |
-| dreamkg:service/location/5367371355914240 sdoh:latitude 39.9479816 |
+| dreamkg:service/location/5312579722018816 sdoh:latitude 39.9677192 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 89 occurrences with subject type sdoh_Place and object type decimal.
 examples:
-- value: dreamkg:service/location/5367371355914240 sdoh:latitude 39.9479816
+- value: dreamkg:service/location/5312579722018816 sdoh:latitude 39.9677192
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:latitude

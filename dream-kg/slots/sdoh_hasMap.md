@@ -23,7 +23,7 @@ URI: [sdoh:hasMap](http://schema.org/hasMap)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohPlace](../classes/SdohPlace.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohPlace](../classes/SdohPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:hasMap](http://schema.org/hasMap)
 
 | Value |
 | --- |
-| dreamkg:service/location/5348732074983424 sdoh:hasMap https://www.google.com/maps/?q=4301+Rising+Sun+Avenue,+Philadelphia,+PA+19140/ |
+| dreamkg:service/location/5017006984921088 sdoh:hasMap https://www.google.com/maps/?q=6161+North+5th+Street,+Philadelphia,+PA+19120/ |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 88 occurrences with subject type sdoh_Place and object type uri.
 examples:
-- value: dreamkg:service/location/5348732074983424 sdoh:hasMap https://www.google.com/maps/?q=4301+Rising+Sun+Avenue,+Philadelphia,+PA+19140/
+- value: dreamkg:service/location/5017006984921088 sdoh:hasMap https://www.google.com/maps/?q=6161+North+5th+Street,+Philadelphia,+PA+19120/
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:hasMap

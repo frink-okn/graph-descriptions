@@ -23,7 +23,7 @@ URI: [sdoh:serviceLocation](http://schema.org/serviceLocation)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohServiceChannel](../classes/SdohServiceChannel.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohServiceChannel](../classes/SdohServiceChannel.md) | A means for accessing a service, e |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:serviceLocation](http://schema.org/serviceLocation)
 
 | Value |
 | --- |
-| dreamkg:service/channel/P-6566876511207424 sdoh:serviceLocation dreamkg:service/location/6566876511207424 |
+| dreamkg:service/channel/P-4692155605712896 sdoh:serviceLocation dreamkg:service/location/4692155605712896 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 87 occurrences with subject type sdoh_ServiceChannel and object type sdoh_Place.
 examples:
-- value: dreamkg:service/channel/P-6566876511207424 sdoh:serviceLocation dreamkg:service/location/6566876511207424
+- value: dreamkg:service/channel/P-4692155605712896 sdoh:serviceLocation dreamkg:service/location/4692155605712896
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:serviceLocation

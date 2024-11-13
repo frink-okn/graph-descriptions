@@ -23,7 +23,7 @@ URI: [sdoh:conditionsOfAccess](http://schema.org/conditionsOfAccess)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohTextObject](../classes/SdohTextObject.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohTextObject](../classes/SdohTextObject.md) | A text file |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:conditionsOfAccess](http://schema.org/conditionsOfAccess)
 
 | Value |
 | --- |
-| dreamkg:service/desc/6453846037626880 sdoh:conditionsOfAccess This program helps people who are older than 59 years old. |
+| dreamkg:service/desc/4744972327714816 sdoh:conditionsOfAccess This program serves veterans. |
 
 ## Comments
 
@@ -95,8 +95,8 @@ todos:
 comments:
 - 88 occurrences with subject type sdoh_TextObject and object type string.
 examples:
-- value: dreamkg:service/desc/6453846037626880 sdoh:conditionsOfAccess This program
-    helps people who are older than 59 years old.
+- value: dreamkg:service/desc/4744972327714816 sdoh:conditionsOfAccess This program
+    serves veterans.
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:conditionsOfAccess

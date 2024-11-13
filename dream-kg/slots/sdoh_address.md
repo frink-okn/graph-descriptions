@@ -23,7 +23,7 @@ URI: [sdoh:address](http://schema.org/address)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohPlace](../classes/SdohPlace.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohPlace](../classes/SdohPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:address](http://schema.org/address)
 
 | Value |
 | --- |
-| dreamkg:service/location/5929367212130304 sdoh:address 5501 Market Street, Philadelphia, PA 19139 |
+| dreamkg:service/location/6260879273361408 sdoh:address 6150 Cedar Avenue, Philadelphia, PA 19143 |
 
 ## Comments
 
@@ -95,8 +95,8 @@ todos:
 comments:
 - 93 occurrences with subject type sdoh_Place and object type string.
 examples:
-- value: dreamkg:service/location/5929367212130304 sdoh:address 5501 Market Street,
-    Philadelphia, PA 19139
+- value: dreamkg:service/location/6260879273361408 sdoh:address 6150 Cedar Avenue,
+    Philadelphia, PA 19143
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:address

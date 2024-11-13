@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (sdoh_Organization)
+# Class: Organization (sdoh_Organization)
 
 
-_TODO -- tell the world what this class (type) describes._
+_An organization such as a school, NGO, corporation, club, etc._
 
 
 
@@ -51,8 +51,8 @@ URI: [sdoh:Organization](http://schema.org/Organization)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_sameAs](../slots/sdoh_sameAs.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
 | [sdoh_name](../slots/sdoh_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_sameAs](../slots/sdoh_sameAs.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
 
 
 
@@ -74,7 +74,7 @@ URI: [sdoh:Organization](http://schema.org/Organization)
 
 | Value |
 | --- |
-| dreamkg:service/provider/5185303560585216 |
+| dreamkg:service/provider/6032260047568896 |
 
 ## TODOs
 
@@ -120,8 +120,8 @@ URI: [sdoh:Organization](http://schema.org/Organization)
 <details>
 ```yaml
 name: sdoh_Organization
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: An organization such as a school, NGO, corporation, club, etc.
+title: Organization
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
@@ -129,11 +129,11 @@ todos:
 notes:
 - There are 87 instances of this class.
 examples:
-- value: dreamkg:service/provider/5185303560585216
+- value: dreamkg:service/provider/6032260047568896
 from_schema: dream-kg
 slots:
-- sdoh_sameAs
 - sdoh_name
+- sdoh_sameAs
 class_uri: sdoh:Organization
 
 ```
@@ -144,8 +144,8 @@ class_uri: sdoh:Organization
 <details>
 ```yaml
 name: sdoh_Organization
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: An organization such as a school, NGO, corporation, club, etc.
+title: Organization
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
@@ -153,9 +153,32 @@ todos:
 notes:
 - There are 87 instances of this class.
 examples:
-- value: dreamkg:service/provider/5185303560585216
+- value: dreamkg:service/provider/6032260047568896
 from_schema: dream-kg
 attributes:
+  sdoh_name:
+    name: sdoh_name
+    description: TODO -- tell the world what this slot (predicate) describes.
+    todos:
+    - TODO -- Todos for this slot go here
+    - or you can delete the todos
+    - if you think the class is perfect.
+    comments:
+    - 89 occurrences with subject type sdoh_Organization and object type string.
+    - 88 occurrences with subject type sdoh_Service and object type string.
+    examples:
+    - value: dreamkg:service/provider/5385341432496128 sdoh:name Better Living Center
+    - value: dreamkg:service/4829363626049536 sdoh:name Adult Inpatient Mental Health
+        Services
+    from_schema: dream-kg
+    rank: 1000
+    slot_uri: sdoh:name
+    alias: sdoh_name
+    owner: sdoh_Organization
+    domain_of:
+    - sdoh_Organization
+    - sdoh_Service
+    range: string
   sdoh_sameAs:
     name: sdoh_sameAs
     description: TODO -- tell the world what this slot (predicate) describes.
@@ -166,7 +189,7 @@ attributes:
     comments:
     - 127 occurrences with subject type sdoh_Organization and object type uri.
     examples:
-    - value: dreamkg:service/provider/5929367212130304 sdoh:sameAs https://twitter.com/SalArmyPhilly
+    - value: dreamkg:service/provider/5715375002484736 sdoh:sameAs https://www.facebook.com/livengrin
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:sameAs
@@ -175,28 +198,6 @@ attributes:
     domain_of:
     - sdoh_Organization
     range: uri
-  sdoh_name:
-    name: sdoh_name
-    description: TODO -- tell the world what this slot (predicate) describes.
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 88 occurrences with subject type sdoh_Service and object type string.
-    - 89 occurrences with subject type sdoh_Organization and object type string.
-    examples:
-    - value: dreamkg:service/5112554392387584 sdoh:name Coffee House
-    - value: dreamkg:service/provider/5477271096786944 sdoh:name Self Help Movement
-    from_schema: dream-kg
-    rank: 1000
-    slot_uri: sdoh:name
-    alias: sdoh_name
-    owner: sdoh_Organization
-    domain_of:
-    - sdoh_Organization
-    - sdoh_Service
-    range: string
 class_uri: sdoh:Organization
 
 ```

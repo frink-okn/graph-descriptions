@@ -23,7 +23,7 @@ URI: [sdoh:closes](http://schema.org/closes)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohOpeningHoursSpecification](../classes/SdohOpeningHoursSpecification.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohOpeningHoursSpecification](../classes/SdohOpeningHoursSpecification.md) | A structured value providing information about the opening hours of a place o... |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:closes](http://schema.org/closes)
 
 | Value |
 | --- |
-| dreamkg:service/hours/saturday/4874573658193920 sdoh:closes 17:00 |
+| dreamkg:service/hours/thursday/5711255900520448 sdoh:closes 17:00 |
 
 ## Comments
 
@@ -96,7 +96,7 @@ comments:
 - 623 occurrences with subject type sdoh_OpeningHoursSpecification and object type
   string.
 examples:
-- value: dreamkg:service/hours/saturday/4874573658193920 sdoh:closes 17:00
+- value: dreamkg:service/hours/thursday/5711255900520448 sdoh:closes 17:00
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:closes

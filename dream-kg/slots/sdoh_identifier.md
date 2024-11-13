@@ -23,8 +23,8 @@ URI: [sdoh:identifier](http://schema.org/identifier)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohAdministrativeArea](../classes/SdohAdministrativeArea.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohService](../classes/SdohService.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohService](../classes/SdohService.md) | A service provided by an organization, e |  no  |
+| [SdohAdministrativeArea](../classes/SdohAdministrativeArea.md) | A geographical region, typically under the jurisdiction of a particular gover... |  no  |
 
 
 
@@ -45,13 +45,13 @@ URI: [sdoh:identifier](http://schema.org/identifier)
 
 | Value |
 | --- |
-| dreamkg:service/6139716755783680 sdoh:identifier 6139716755783680 |
-| dreamkg:zip/19154 sdoh:identifier 19154 |
+| dreamkg:zip/19050 sdoh:identifier 19050 |
+| dreamkg:service/5711255900520448 sdoh:identifier 5711255900520448 |
 
 ## Comments
 
-* 87 occurrences with subject type sdoh_Service and object type string.
 * 39 occurrences with subject type sdoh_AdministrativeArea and object type string.
+* 87 occurrences with subject type sdoh_Service and object type string.
 
 ## TODOs
 
@@ -96,11 +96,11 @@ todos:
 - or you can delete the todos
 - if you think the class is perfect.
 comments:
-- 87 occurrences with subject type sdoh_Service and object type string.
 - 39 occurrences with subject type sdoh_AdministrativeArea and object type string.
+- 87 occurrences with subject type sdoh_Service and object type string.
 examples:
-- value: dreamkg:service/6139716755783680 sdoh:identifier 6139716755783680
-- value: dreamkg:zip/19154 sdoh:identifier 19154
+- value: dreamkg:zip/19050 sdoh:identifier 19050
+- value: dreamkg:service/5711255900520448 sdoh:identifier 5711255900520448
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:identifier

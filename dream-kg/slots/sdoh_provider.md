@@ -23,7 +23,7 @@ URI: [sdoh:provider](http://schema.org/provider)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohService](../classes/SdohService.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohService](../classes/SdohService.md) | A service provided by an organization, e |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:provider](http://schema.org/provider)
 
 | Value |
 | --- |
-| dreamkg:service/4955538569953280 sdoh:provider dreamkg:service/provider/4955538569953280 |
+| dreamkg:service/4689179354857472 sdoh:provider dreamkg:service/provider/4689179354857472 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 87 occurrences with subject type sdoh_Service and object type sdoh_Organization.
 examples:
-- value: dreamkg:service/4955538569953280 sdoh:provider dreamkg:service/provider/4955538569953280
+- value: dreamkg:service/4689179354857472 sdoh:provider dreamkg:service/provider/4689179354857472
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:provider

@@ -23,7 +23,7 @@ URI: [sdoh:containedInPlace](http://schema.org/containedInPlace)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohPlace](../classes/SdohPlace.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohPlace](../classes/SdohPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:containedInPlace](http://schema.org/containedInPlace)
 
 | Value |
 | --- |
-| dreamkg:service/location/5112554392387584 sdoh:containedInPlace dreamkg:zip/19103 |
+| dreamkg:service/location/4780892498952192 sdoh:containedInPlace dreamkg:zip/19143 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 88 occurrences with subject type sdoh_Place and object type sdoh_AdministrativeArea.
 examples:
-- value: dreamkg:service/location/5112554392387584 sdoh:containedInPlace dreamkg:zip/19103
+- value: dreamkg:service/location/4780892498952192 sdoh:containedInPlace dreamkg:zip/19143
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:containedInPlace

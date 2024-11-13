@@ -23,7 +23,7 @@ URI: [sdoh:hoursAvailable](http://schema.org/hoursAvailable)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohService](../classes/SdohService.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohService](../classes/SdohService.md) | A service provided by an organization, e |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:hoursAvailable](http://schema.org/hoursAvailable)
 
 | Value |
 | --- |
-| dreamkg:service/5385341432496128 sdoh:hoursAvailable dreamkg:service/hours/thursday/5385341432496128 |
+| dreamkg:service/5181712996761600 sdoh:hoursAvailable dreamkg:service/hours/tuesday/5181712996761600 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 609 occurrences with subject type sdoh_Service and object type sdoh_OpeningHoursSpecification.
 examples:
-- value: dreamkg:service/5385341432496128 sdoh:hoursAvailable dreamkg:service/hours/thursday/5385341432496128
+- value: dreamkg:service/5181712996761600 sdoh:hoursAvailable dreamkg:service/hours/tuesday/5181712996761600
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:hoursAvailable

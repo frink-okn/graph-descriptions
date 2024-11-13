@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (sdoh_ServiceChannel)
+# Class: ServiceChannel (sdoh_ServiceChannel)
 
 
-_TODO -- tell the world what this class (type) describes._
+_A means for accessing a service, e.g. a government office location, web site, or phone number._
 
 
 
@@ -94,7 +94,7 @@ URI: [sdoh:ServiceChannel](http://schema.org/ServiceChannel)
 
 | Value |
 | --- |
-| dreamkg:service/channel/AB-4955538569953280 |
+| dreamkg:service/channel/P-4964759830003712 |
 
 ## TODOs
 
@@ -140,8 +140,9 @@ URI: [sdoh:ServiceChannel](http://schema.org/ServiceChannel)
 <details>
 ```yaml
 name: sdoh_ServiceChannel
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: A means for accessing a service, e.g. a government office location, web
+  site, or phone number.
+title: ServiceChannel
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
@@ -149,7 +150,7 @@ todos:
 notes:
 - There are 174 instances of this class.
 examples:
-- value: dreamkg:service/channel/AB-4955538569953280
+- value: dreamkg:service/channel/P-4964759830003712
 from_schema: dream-kg
 slots:
 - sdoh_serviceLocation
@@ -166,8 +167,9 @@ class_uri: sdoh:ServiceChannel
 <details>
 ```yaml
 name: sdoh_ServiceChannel
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: A means for accessing a service, e.g. a government office location, web
+  site, or phone number.
+title: ServiceChannel
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
@@ -175,7 +177,7 @@ todos:
 notes:
 - There are 174 instances of this class.
 examples:
-- value: dreamkg:service/channel/AB-4955538569953280
+- value: dreamkg:service/channel/P-4964759830003712
 from_schema: dream-kg
 attributes:
   sdoh_serviceLocation:
@@ -188,7 +190,7 @@ attributes:
     comments:
     - 87 occurrences with subject type sdoh_ServiceChannel and object type sdoh_Place.
     examples:
-    - value: dreamkg:service/channel/P-6566876511207424 sdoh:serviceLocation dreamkg:service/location/6566876511207424
+    - value: dreamkg:service/channel/P-4692155605712896 sdoh:serviceLocation dreamkg:service/location/4692155605712896
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:serviceLocation
@@ -207,7 +209,7 @@ attributes:
     comments:
     - 87 occurrences with subject type sdoh_ServiceChannel and object type sdoh_ContactPoint.
     examples:
-    - value: dreamkg:service/channel/P-6494806799548416 sdoh:servicePhone dreamkg:service/phone/6494806799548416
+    - value: dreamkg:service/channel/P-4721819823112192 sdoh:servicePhone dreamkg:service/phone/4721819823112192
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:servicePhone
@@ -226,7 +228,7 @@ attributes:
     comments:
     - 174 occurrences with subject type sdoh_ServiceChannel and object type string.
     examples:
-    - value: dreamkg:service/channel/P-4895435468308480 sdoh:disambiguatingDescription
+    - value: dreamkg:service/channel/P-4955538569953280 sdoh:disambiguatingDescription
         Provider
     from_schema: dream-kg
     rank: 1000
@@ -246,7 +248,7 @@ attributes:
     comments:
     - 188 occurrences with subject type sdoh_ServiceChannel and object type uri.
     examples:
-    - value: dreamkg:service/channel/P-4785885511417856 sdoh:serviceUrl https://www.bebashi.org/hunger-relief/
+    - value: dreamkg:service/channel/P-4795404263882752 sdoh:serviceUrl https://bewellctr.org/inpatient-drug-alcohol/
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:serviceUrl

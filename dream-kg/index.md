@@ -13,16 +13,18 @@ Name: dream-kg
 | Class | Description |
 | --- | --- |
 | [Any](classes/Any.md) | None |
-| [SdohAdministrativeArea](classes/SdohAdministrativeArea.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohAudience](classes/SdohAudience.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohCategoryCode](classes/SdohCategoryCode.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohContactPoint](classes/SdohContactPoint.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohOpeningHoursSpecification](classes/SdohOpeningHoursSpecification.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohOrganization](classes/SdohOrganization.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohPlace](classes/SdohPlace.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohService](classes/SdohService.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohServiceChannel](classes/SdohServiceChannel.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohTextObject](classes/SdohTextObject.md) | TODO -- tell the world what this class (type) describes. |
+| [SdohAdministrativeArea](classes/SdohAdministrativeArea.md) | A geographical region, typically under the jurisdiction of a particular government. |
+| [SdohAudience](classes/SdohAudience.md) | Intended audience for an item, i.e. the group for whom the item was created. |
+| [SdohCategoryCode](classes/SdohCategoryCode.md) | A Category Code. |
+| [SdohContactPoint](classes/SdohContactPoint.md) | A contact point&#x2014;for example, a Customer Complaints department. |
+| [SdohOpeningHoursSpecification](classes/SdohOpeningHoursSpecification.md) | A structured value providing information about the opening hours of a place or a certain service inside a place.\n\n
+The place is __open__ if the [[opens]] property is specified, and __closed__ otherwise.\n\nIf the value for the [[closes]] property is less than the value for the [[opens]] property then the hour range is assumed to span over the next day.
+       |
+| [SdohOrganization](classes/SdohOrganization.md) | An organization such as a school, NGO, corporation, club, etc. |
+| [SdohPlace](classes/SdohPlace.md) | Entities that have a somewhat fixed, physical extension. |
+| [SdohService](classes/SdohService.md) | A service provided by an organization, e.g. delivery service, print services, etc. |
+| [SdohServiceChannel](classes/SdohServiceChannel.md) | A means for accessing a service, e.g. a government office location, web site, or phone number. |
+| [SdohTextObject](classes/SdohTextObject.md) | A text file. The text can be unformatted or contain markup, html, etc. |
 
 
 

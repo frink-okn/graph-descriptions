@@ -23,7 +23,7 @@ URI: [sdoh:disambiguatingDescription](http://schema.org/disambiguatingDescriptio
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohServiceChannel](../classes/SdohServiceChannel.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohServiceChannel](../classes/SdohServiceChannel.md) | A means for accessing a service, e |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:disambiguatingDescription](http://schema.org/disambiguatingDescriptio
 
 | Value |
 | --- |
-| dreamkg:service/channel/P-4895435468308480 sdoh:disambiguatingDescription Provider |
+| dreamkg:service/channel/P-4955538569953280 sdoh:disambiguatingDescription Provider |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 174 occurrences with subject type sdoh_ServiceChannel and object type string.
 examples:
-- value: dreamkg:service/channel/P-4895435468308480 sdoh:disambiguatingDescription
+- value: dreamkg:service/channel/P-4955538569953280 sdoh:disambiguatingDescription
     Provider
 from_schema: dream-kg
 rank: 1000

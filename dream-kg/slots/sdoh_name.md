@@ -23,8 +23,8 @@ URI: [sdoh:name](http://schema.org/name)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohOrganization](../classes/SdohOrganization.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohService](../classes/SdohService.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohService](../classes/SdohService.md) | A service provided by an organization, e |  no  |
+| [SdohOrganization](../classes/SdohOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
 
 
 
@@ -45,13 +45,13 @@ URI: [sdoh:name](http://schema.org/name)
 
 | Value |
 | --- |
-| dreamkg:service/5112554392387584 sdoh:name Coffee House |
-| dreamkg:service/provider/5477271096786944 sdoh:name Self Help Movement |
+| dreamkg:service/provider/5385341432496128 sdoh:name Better Living Center |
+| dreamkg:service/4829363626049536 sdoh:name Adult Inpatient Mental Health Services |
 
 ## Comments
 
-* 88 occurrences with subject type sdoh_Service and object type string.
 * 89 occurrences with subject type sdoh_Organization and object type string.
+* 88 occurrences with subject type sdoh_Service and object type string.
 
 ## TODOs
 
@@ -96,11 +96,12 @@ todos:
 - or you can delete the todos
 - if you think the class is perfect.
 comments:
-- 88 occurrences with subject type sdoh_Service and object type string.
 - 89 occurrences with subject type sdoh_Organization and object type string.
+- 88 occurrences with subject type sdoh_Service and object type string.
 examples:
-- value: dreamkg:service/5112554392387584 sdoh:name Coffee House
-- value: dreamkg:service/provider/5477271096786944 sdoh:name Self Help Movement
+- value: dreamkg:service/provider/5385341432496128 sdoh:name Better Living Center
+- value: dreamkg:service/4829363626049536 sdoh:name Adult Inpatient Mental Health
+    Services
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:name

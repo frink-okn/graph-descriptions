@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (sdoh_CategoryCode)
+# Class: CategoryCode (sdoh_CategoryCode)
 
 
-_TODO -- tell the world what this class (type) describes._
+_A Category Code._
 
 
 
@@ -74,7 +74,7 @@ URI: [sdoh:CategoryCode](http://schema.org/CategoryCode)
 
 | Value |
 | --- |
-| dreamkg:category/language/Ukrainian |
+| dreamkg:category/service/main/CounselingCounseling |
 
 ## TODOs
 
@@ -120,8 +120,8 @@ URI: [sdoh:CategoryCode](http://schema.org/CategoryCode)
 <details>
 ```yaml
 name: sdoh_CategoryCode
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: A Category Code.
+title: CategoryCode
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
@@ -129,7 +129,7 @@ todos:
 notes:
 - There are 157 instances of this class.
 examples:
-- value: dreamkg:category/language/Ukrainian
+- value: dreamkg:category/service/main/CounselingCounseling
 from_schema: dream-kg
 slots:
 - sdoh_codeValue
@@ -144,8 +144,8 @@ class_uri: sdoh:CategoryCode
 <details>
 ```yaml
 name: sdoh_CategoryCode
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: A Category Code.
+title: CategoryCode
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
@@ -153,7 +153,7 @@ todos:
 notes:
 - There are 157 instances of this class.
 examples:
-- value: dreamkg:category/language/Ukrainian
+- value: dreamkg:category/service/main/CounselingCounseling
 from_schema: dream-kg
 attributes:
   sdoh_codeValue:
@@ -166,8 +166,7 @@ attributes:
     comments:
     - 158 occurrences with subject type sdoh_CategoryCode and object type string.
     examples:
-    - value: dreamkg:category/service/other/VirtualSupport sdoh:codeValue virtual
-        support
+    - value: dreamkg:category/language/Ukrainian sdoh:codeValue Ukrainian
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:codeValue
@@ -186,7 +185,7 @@ attributes:
     comments:
     - 157 occurrences with subject type sdoh_CategoryCode and object type uri.
     examples:
-    - value: dreamkg:category/language/Russian sdoh:inCodeSet dreamkg:_CategoryCodeSet_Languages
+    - value: dreamkg:category/service/main/AfterSchoolCare sdoh:inCodeSet dreamkg:_CategoryCodeSet_Services_Main
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:inCodeSet

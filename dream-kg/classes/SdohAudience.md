@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (sdoh_Audience)
+# Class: Audience (sdoh_Audience)
 
 
-_TODO -- tell the world what this class (type) describes._
+_Intended audience for an item, i.e. the group for whom the item was created._
 
 
 
@@ -64,7 +64,7 @@ URI: [sdoh:Audience](http://schema.org/Audience)
 
 | Value |
 | --- |
-| dreamkg:category/audience/AlcoholDependency |
+| dreamkg:category/audience/Employed |
 
 ## TODOs
 
@@ -110,8 +110,8 @@ URI: [sdoh:Audience](http://schema.org/Audience)
 <details>
 ```yaml
 name: sdoh_Audience
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: Intended audience for an item, i.e. the group for whom the item was created.
+title: Audience
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
@@ -119,7 +119,7 @@ todos:
 notes:
 - There are 81 instances of this class.
 examples:
-- value: dreamkg:category/audience/AlcoholDependency
+- value: dreamkg:category/audience/Employed
 from_schema: dream-kg
 slots:
 - sdoh_audienceType
@@ -133,8 +133,8 @@ class_uri: sdoh:Audience
 <details>
 ```yaml
 name: sdoh_Audience
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: Intended audience for an item, i.e. the group for whom the item was created.
+title: Audience
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
@@ -142,7 +142,7 @@ todos:
 notes:
 - There are 81 instances of this class.
 examples:
-- value: dreamkg:category/audience/AlcoholDependency
+- value: dreamkg:category/audience/Employed
 from_schema: dream-kg
 attributes:
   sdoh_audienceType:
@@ -155,7 +155,7 @@ attributes:
     comments:
     - 81 occurrences with subject type sdoh_Audience and object type string.
     examples:
-    - value: dreamkg:category/audience/Underinsured sdoh:audienceType underinsured
+    - value: dreamkg:category/audience/Families sdoh:audienceType families
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:audienceType

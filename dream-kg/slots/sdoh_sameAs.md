@@ -23,7 +23,7 @@ URI: [sdoh:sameAs](http://schema.org/sameAs)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohOrganization](../classes/SdohOrganization.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohOrganization](../classes/SdohOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:sameAs](http://schema.org/sameAs)
 
 | Value |
 | --- |
-| dreamkg:service/provider/5929367212130304 sdoh:sameAs https://twitter.com/SalArmyPhilly |
+| dreamkg:service/provider/5715375002484736 sdoh:sameAs https://www.facebook.com/livengrin |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 127 occurrences with subject type sdoh_Organization and object type uri.
 examples:
-- value: dreamkg:service/provider/5929367212130304 sdoh:sameAs https://twitter.com/SalArmyPhilly
+- value: dreamkg:service/provider/5715375002484736 sdoh:sameAs https://www.facebook.com/livengrin
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:sameAs
