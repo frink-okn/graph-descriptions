@@ -44,7 +44,7 @@ URI: [sdoh:dayOfWeek](http://schema.org/dayOfWeek)
 
 | Value |
 | --- |
-| dreamkg:service/hours/saturday/5147295688687616 sdoh:dayOfWeek Saturday |
+| dreamkg:service/hours/wednesday/5552002522939392 sdoh:dayOfWeek Wednesday |
 
 ## Comments
 
@@ -96,7 +96,7 @@ comments:
 - 609 occurrences with subject type sdoh_OpeningHoursSpecification and object type
   string.
 examples:
-- value: dreamkg:service/hours/saturday/5147295688687616 sdoh:dayOfWeek Saturday
+- value: dreamkg:service/hours/wednesday/5552002522939392 sdoh:dayOfWeek Wednesday
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:dayOfWeek

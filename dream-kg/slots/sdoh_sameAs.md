@@ -44,7 +44,7 @@ URI: [sdoh:sameAs](http://schema.org/sameAs)
 
 | Value |
 | --- |
-| dreamkg:service/provider/5715375002484736 sdoh:sameAs https://www.facebook.com/livengrin |
+| dreamkg:service/provider/6260879273361408 sdoh:sameAs https://www.facebook.com/communityofcompassioncdc |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 127 occurrences with subject type sdoh_Organization and object type uri.
 examples:
-- value: dreamkg:service/provider/5715375002484736 sdoh:sameAs https://www.facebook.com/livengrin
+- value: dreamkg:service/provider/6260879273361408 sdoh:sameAs https://www.facebook.com/communityofcompassioncdc
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:sameAs

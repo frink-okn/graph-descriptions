@@ -44,7 +44,7 @@ URI: [sdoh:latitude](http://schema.org/latitude)
 
 | Value |
 | --- |
-| dreamkg:service/location/5312579722018816 sdoh:latitude 39.9677192 |
+| dreamkg:service/location/4909220273061888 sdoh:latitude 40.0356379 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 89 occurrences with subject type sdoh_Place and object type decimal.
 examples:
-- value: dreamkg:service/location/5312579722018816 sdoh:latitude 39.9677192
+- value: dreamkg:service/location/4909220273061888 sdoh:latitude 40.0356379
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:latitude

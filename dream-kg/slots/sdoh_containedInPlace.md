@@ -44,7 +44,7 @@ URI: [sdoh:containedInPlace](http://schema.org/containedInPlace)
 
 | Value |
 | --- |
-| dreamkg:service/location/4780892498952192 sdoh:containedInPlace dreamkg:zip/19143 |
+| dreamkg:service/location/6213025361821696 sdoh:containedInPlace dreamkg:zip/19149 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 88 occurrences with subject type sdoh_Place and object type sdoh_AdministrativeArea.
 examples:
-- value: dreamkg:service/location/4780892498952192 sdoh:containedInPlace dreamkg:zip/19143
+- value: dreamkg:service/location/6213025361821696 sdoh:containedInPlace dreamkg:zip/19149
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:containedInPlace

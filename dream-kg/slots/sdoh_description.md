@@ -44,7 +44,7 @@ URI: [sdoh:description](http://schema.org/description)
 
 | Value |
 | --- |
-| dreamkg:service/4721819823112192 sdoh:description dreamkg:service/desc/4721819823112192 |
+| dreamkg:service/5112554392387584 sdoh:description dreamkg:service/desc/5112554392387584 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 87 occurrences with subject type sdoh_Service and object type sdoh_TextObject.
 examples:
-- value: dreamkg:service/4721819823112192 sdoh:description dreamkg:service/desc/4721819823112192
+- value: dreamkg:service/5112554392387584 sdoh:description dreamkg:service/desc/5112554392387584
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:description

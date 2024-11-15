@@ -44,7 +44,7 @@ URI: [sdoh:codeValue](http://schema.org/codeValue)
 
 | Value |
 | --- |
-| dreamkg:category/language/Ukrainian sdoh:codeValue Ukrainian |
+| dreamkg:category/service/other/HomeGoods sdoh:codeValue home goods |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 158 occurrences with subject type sdoh_CategoryCode and object type string.
 examples:
-- value: dreamkg:category/language/Ukrainian sdoh:codeValue Ukrainian
+- value: dreamkg:category/service/other/HomeGoods sdoh:codeValue home goods
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:codeValue

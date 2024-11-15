@@ -80,9 +80,9 @@ URI: [sdoh:Place](http://schema.org/Place)
 | ---  | --- | --- | --- |
 | [sdoh_containedInPlace](../slots/sdoh_containedInPlace.md) | 0..1 <br/> [SdohAdministrativeArea](../classes/SdohAdministrativeArea.md) | TODO -- tell the world what this slot (predicate) describes | direct |
 | [sdoh_latitude](../slots/sdoh_latitude.md) | 0..1 <br/> [xsd:decimal](http://www.w3.org/2001/XMLSchema#decimal) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_address](../slots/sdoh_address.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
 | [sdoh_longitude](../slots/sdoh_longitude.md) | 0..1 <br/> [xsd:decimal](http://www.w3.org/2001/XMLSchema#decimal) | TODO -- tell the world what this slot (predicate) describes | direct |
 | [sdoh_hasMap](../slots/sdoh_hasMap.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_address](../slots/sdoh_address.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
 
 
 
@@ -104,7 +104,7 @@ URI: [sdoh:Place](http://schema.org/Place)
 
 | Value |
 | --- |
-| dreamkg:service/location/4967372504694784 |
+| dreamkg:service/location/5175494499368960 |
 
 ## TODOs
 
@@ -159,14 +159,14 @@ todos:
 notes:
 - There are 87 instances of this class.
 examples:
-- value: dreamkg:service/location/4967372504694784
+- value: dreamkg:service/location/5175494499368960
 from_schema: dream-kg
 slots:
 - sdoh_containedInPlace
 - sdoh_latitude
+- sdoh_address
 - sdoh_longitude
 - sdoh_hasMap
-- sdoh_address
 class_uri: sdoh:Place
 
 ```
@@ -186,7 +186,7 @@ todos:
 notes:
 - There are 87 instances of this class.
 examples:
-- value: dreamkg:service/location/4967372504694784
+- value: dreamkg:service/location/5175494499368960
 from_schema: dream-kg
 attributes:
   sdoh_containedInPlace:
@@ -199,7 +199,7 @@ attributes:
     comments:
     - 88 occurrences with subject type sdoh_Place and object type sdoh_AdministrativeArea.
     examples:
-    - value: dreamkg:service/location/4780892498952192 sdoh:containedInPlace dreamkg:zip/19143
+    - value: dreamkg:service/location/6213025361821696 sdoh:containedInPlace dreamkg:zip/19149
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:containedInPlace
@@ -218,7 +218,7 @@ attributes:
     comments:
     - 89 occurrences with subject type sdoh_Place and object type decimal.
     examples:
-    - value: dreamkg:service/location/5312579722018816 sdoh:latitude 39.9677192
+    - value: dreamkg:service/location/4909220273061888 sdoh:latitude 40.0356379
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:latitude
@@ -227,44 +227,6 @@ attributes:
     domain_of:
     - sdoh_Place
     range: decimal
-  sdoh_longitude:
-    name: sdoh_longitude
-    description: TODO -- tell the world what this slot (predicate) describes.
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 89 occurrences with subject type sdoh_Place and object type decimal.
-    examples:
-    - value: dreamkg:service/location/4955538569953280 sdoh:longitude -75.112315
-    from_schema: dream-kg
-    rank: 1000
-    slot_uri: sdoh:longitude
-    alias: sdoh_longitude
-    owner: sdoh_Place
-    domain_of:
-    - sdoh_Place
-    range: decimal
-  sdoh_hasMap:
-    name: sdoh_hasMap
-    description: TODO -- tell the world what this slot (predicate) describes.
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 88 occurrences with subject type sdoh_Place and object type uri.
-    examples:
-    - value: dreamkg:service/location/5017006984921088 sdoh:hasMap https://www.google.com/maps/?q=6161+North+5th+Street,+Philadelphia,+PA+19120/
-    from_schema: dream-kg
-    rank: 1000
-    slot_uri: sdoh:hasMap
-    alias: sdoh_hasMap
-    owner: sdoh_Place
-    domain_of:
-    - sdoh_Place
-    range: uri
   sdoh_address:
     name: sdoh_address
     description: TODO -- tell the world what this slot (predicate) describes.
@@ -285,6 +247,44 @@ attributes:
     domain_of:
     - sdoh_Place
     range: string
+  sdoh_longitude:
+    name: sdoh_longitude
+    description: TODO -- tell the world what this slot (predicate) describes.
+    todos:
+    - TODO -- Todos for this slot go here
+    - or you can delete the todos
+    - if you think the class is perfect.
+    comments:
+    - 89 occurrences with subject type sdoh_Place and object type decimal.
+    examples:
+    - value: dreamkg:service/location/5480325573640192 sdoh:longitude -75.1461026
+    from_schema: dream-kg
+    rank: 1000
+    slot_uri: sdoh:longitude
+    alias: sdoh_longitude
+    owner: sdoh_Place
+    domain_of:
+    - sdoh_Place
+    range: decimal
+  sdoh_hasMap:
+    name: sdoh_hasMap
+    description: TODO -- tell the world what this slot (predicate) describes.
+    todos:
+    - TODO -- Todos for this slot go here
+    - or you can delete the todos
+    - if you think the class is perfect.
+    comments:
+    - 88 occurrences with subject type sdoh_Place and object type uri.
+    examples:
+    - value: dreamkg:service/location/5715375002484736 sdoh:hasMap https://www.google.com/maps/?q=1500+Walnut+Street,+Philadelphia,+PA+19102/
+    from_schema: dream-kg
+    rank: 1000
+    slot_uri: sdoh:hasMap
+    alias: sdoh_hasMap
+    owner: sdoh_Place
+    domain_of:
+    - sdoh_Place
+    range: uri
 class_uri: sdoh:Place
 
 ```

@@ -64,7 +64,7 @@ URI: [sdoh:Audience](http://schema.org/Audience)
 
 | Value |
 | --- |
-| dreamkg:category/audience/Employed |
+| dreamkg:category/audience/IndividualsBenefit |
 
 ## TODOs
 
@@ -119,7 +119,7 @@ todos:
 notes:
 - There are 81 instances of this class.
 examples:
-- value: dreamkg:category/audience/Employed
+- value: dreamkg:category/audience/IndividualsBenefit
 from_schema: dream-kg
 slots:
 - sdoh_audienceType
@@ -142,7 +142,7 @@ todos:
 notes:
 - There are 81 instances of this class.
 examples:
-- value: dreamkg:category/audience/Employed
+- value: dreamkg:category/audience/IndividualsBenefit
 from_schema: dream-kg
 attributes:
   sdoh_audienceType:
@@ -155,7 +155,7 @@ attributes:
     comments:
     - 81 occurrences with subject type sdoh_Audience and object type string.
     examples:
-    - value: dreamkg:category/audience/Families sdoh:audienceType families
+    - value: dreamkg:category/audience/AllAges sdoh:audienceType all ages
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:audienceType

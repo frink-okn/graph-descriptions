@@ -44,7 +44,7 @@ URI: [sdoh:areaServed](http://schema.org/areaServed)
 
 | Value |
 | --- |
-| dreamkg:service/5477271096786944 sdoh:areaServed This program covers residents of the following counties: Philadelphia County, PA. |
+| dreamkg:service/4785885511417856 sdoh:areaServed This program covers residents of the following cities: Philadelphia, PA. |
 
 ## Comments
 
@@ -95,8 +95,8 @@ todos:
 comments:
 - 87 occurrences with subject type sdoh_Service and object type string.
 examples:
-- value: 'dreamkg:service/5477271096786944 sdoh:areaServed This program covers residents
-    of the following counties: Philadelphia County, PA.'
+- value: 'dreamkg:service/4785885511417856 sdoh:areaServed This program covers residents
+    of the following cities: Philadelphia, PA.'
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:areaServed

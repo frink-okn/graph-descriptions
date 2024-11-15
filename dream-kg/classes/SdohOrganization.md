@@ -74,7 +74,7 @@ URI: [sdoh:Organization](http://schema.org/Organization)
 
 | Value |
 | --- |
-| dreamkg:service/provider/6032260047568896 |
+| dreamkg:service/provider/5638513518444544 |
 
 ## TODOs
 
@@ -129,7 +129,7 @@ todos:
 notes:
 - There are 87 instances of this class.
 examples:
-- value: dreamkg:service/provider/6032260047568896
+- value: dreamkg:service/provider/5638513518444544
 from_schema: dream-kg
 slots:
 - sdoh_name
@@ -153,7 +153,7 @@ todos:
 notes:
 - There are 87 instances of this class.
 examples:
-- value: dreamkg:service/provider/6032260047568896
+- value: dreamkg:service/provider/5638513518444544
 from_schema: dream-kg
 attributes:
   sdoh_name:
@@ -167,9 +167,8 @@ attributes:
     - 89 occurrences with subject type sdoh_Organization and object type string.
     - 88 occurrences with subject type sdoh_Service and object type string.
     examples:
-    - value: dreamkg:service/provider/5385341432496128 sdoh:name Better Living Center
-    - value: dreamkg:service/4829363626049536 sdoh:name Adult Inpatient Mental Health
-        Services
+    - value: dreamkg:service/provider/4666716061171712 sdoh:name Horizon House
+    - value: dreamkg:service/6410727744077824 sdoh:name Opioid Treatment Program
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:name
@@ -189,7 +188,7 @@ attributes:
     comments:
     - 127 occurrences with subject type sdoh_Organization and object type uri.
     examples:
-    - value: dreamkg:service/provider/5715375002484736 sdoh:sameAs https://www.facebook.com/livengrin
+    - value: dreamkg:service/provider/6260879273361408 sdoh:sameAs https://www.facebook.com/communityofcompassioncdc
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:sameAs

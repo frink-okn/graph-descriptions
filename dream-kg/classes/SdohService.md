@@ -108,11 +108,11 @@ URI: [sdoh:Service](http://schema.org/Service)
 | [sdoh_category](../slots/sdoh_category.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[SdohAudience](../classes/SdohAudience.md)&nbsp;or&nbsp;<br />[SdohCategoryCode](../classes/SdohCategoryCode.md) | TODO -- tell the world what this slot (predicate) describes | direct |
 | [sdoh_hoursAvailable](../slots/sdoh_hoursAvailable.md) | 0..1 <br/> [SdohOpeningHoursSpecification](../classes/SdohOpeningHoursSpecification.md) | TODO -- tell the world what this slot (predicate) describes | direct |
 | [sdoh_availableChannel](../slots/sdoh_availableChannel.md) | 0..1 <br/> [SdohServiceChannel](../classes/SdohServiceChannel.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_provider](../slots/sdoh_provider.md) | 0..1 <br/> [SdohOrganization](../classes/SdohOrganization.md) | TODO -- tell the world what this slot (predicate) describes | direct |
 | [sdoh_description](../slots/sdoh_description.md) | 0..1 <br/> [SdohTextObject](../classes/SdohTextObject.md) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_provider](../slots/sdoh_provider.md) | 0..1 <br/> [SdohOrganization](../classes/SdohOrganization.md) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_name](../slots/sdoh_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
 | [sdoh_identifier](../slots/sdoh_identifier.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
 | [sdoh_areaServed](../slots/sdoh_areaServed.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_name](../slots/sdoh_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
 
 
 
@@ -127,7 +127,7 @@ URI: [sdoh:Service](http://schema.org/Service)
 
 | Value |
 | --- |
-| dreamkg:service/5348732074983424 |
+| dreamkg:service/5186727883833344 |
 
 ## TODOs
 
@@ -183,17 +183,17 @@ todos:
 notes:
 - There are 87 instances of this class.
 examples:
-- value: dreamkg:service/5348732074983424
+- value: dreamkg:service/5186727883833344
 from_schema: dream-kg
 slots:
 - sdoh_category
 - sdoh_hoursAvailable
 - sdoh_availableChannel
-- sdoh_provider
 - sdoh_description
+- sdoh_provider
+- sdoh_name
 - sdoh_identifier
 - sdoh_areaServed
-- sdoh_name
 class_uri: sdoh:Service
 
 ```
@@ -214,7 +214,7 @@ todos:
 notes:
 - There are 87 instances of this class.
 examples:
-- value: dreamkg:service/5348732074983424
+- value: dreamkg:service/5186727883833344
 from_schema: dream-kg
 attributes:
   sdoh_category:
@@ -228,8 +228,8 @@ attributes:
     - 539 occurrences with subject type sdoh_Service and object type sdoh_Audience.
     - 806 occurrences with subject type sdoh_Service and object type sdoh_CategoryCode.
     examples:
-    - value: dreamkg:service/6032260047568896 sdoh:category dreamkg:category/audience/BenefitRecipients
-    - value: dreamkg:service/5089660355477504 sdoh:category dreamkg:category/service/main/AdvocacyAndLegalAid
+    - value: dreamkg:service/4780892498952192 sdoh:category dreamkg:category/audience/YoungAdults
+    - value: dreamkg:service/4964759830003712 sdoh:category dreamkg:category/service/main/AddictionAndRecovery
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:category
@@ -251,7 +251,7 @@ attributes:
     comments:
     - 609 occurrences with subject type sdoh_Service and object type sdoh_OpeningHoursSpecification.
     examples:
-    - value: dreamkg:service/5181712996761600 sdoh:hoursAvailable dreamkg:service/hours/tuesday/5181712996761600
+    - value: dreamkg:service/4955538569953280 sdoh:hoursAvailable dreamkg:service/hours/monday/4955538569953280
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:hoursAvailable
@@ -270,7 +270,7 @@ attributes:
     comments:
     - 174 occurrences with subject type sdoh_Service and object type sdoh_ServiceChannel.
     examples:
-    - value: dreamkg:service/5992920927698944 sdoh:availableChannel dreamkg:service/channel/P-5992920927698944
+    - value: dreamkg:service/5161629360586752 sdoh:availableChannel dreamkg:service/channel/P-5161629360586752
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:availableChannel
@@ -279,25 +279,6 @@ attributes:
     domain_of:
     - sdoh_Service
     range: sdoh_ServiceChannel
-  sdoh_provider:
-    name: sdoh_provider
-    description: TODO -- tell the world what this slot (predicate) describes.
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 87 occurrences with subject type sdoh_Service and object type sdoh_Organization.
-    examples:
-    - value: dreamkg:service/4689179354857472 sdoh:provider dreamkg:service/provider/4689179354857472
-    from_schema: dream-kg
-    rank: 1000
-    slot_uri: sdoh:provider
-    alias: sdoh_provider
-    owner: sdoh_Service
-    domain_of:
-    - sdoh_Service
-    range: sdoh_Organization
   sdoh_description:
     name: sdoh_description
     description: TODO -- tell the world what this slot (predicate) describes.
@@ -308,7 +289,7 @@ attributes:
     comments:
     - 87 occurrences with subject type sdoh_Service and object type sdoh_TextObject.
     examples:
-    - value: dreamkg:service/4721819823112192 sdoh:description dreamkg:service/desc/4721819823112192
+    - value: dreamkg:service/5112554392387584 sdoh:description dreamkg:service/desc/5112554392387584
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:description
@@ -317,6 +298,47 @@ attributes:
     domain_of:
     - sdoh_Service
     range: sdoh_TextObject
+  sdoh_provider:
+    name: sdoh_provider
+    description: TODO -- tell the world what this slot (predicate) describes.
+    todos:
+    - TODO -- Todos for this slot go here
+    - or you can delete the todos
+    - if you think the class is perfect.
+    comments:
+    - 87 occurrences with subject type sdoh_Service and object type sdoh_Organization.
+    examples:
+    - value: dreamkg:service/5128979153944576 sdoh:provider dreamkg:service/provider/5128979153944576
+    from_schema: dream-kg
+    rank: 1000
+    slot_uri: sdoh:provider
+    alias: sdoh_provider
+    owner: sdoh_Service
+    domain_of:
+    - sdoh_Service
+    range: sdoh_Organization
+  sdoh_name:
+    name: sdoh_name
+    description: TODO -- tell the world what this slot (predicate) describes.
+    todos:
+    - TODO -- Todos for this slot go here
+    - or you can delete the todos
+    - if you think the class is perfect.
+    comments:
+    - 89 occurrences with subject type sdoh_Organization and object type string.
+    - 88 occurrences with subject type sdoh_Service and object type string.
+    examples:
+    - value: dreamkg:service/provider/4666716061171712 sdoh:name Horizon House
+    - value: dreamkg:service/6410727744077824 sdoh:name Opioid Treatment Program
+    from_schema: dream-kg
+    rank: 1000
+    slot_uri: sdoh:name
+    alias: sdoh_name
+    owner: sdoh_Service
+    domain_of:
+    - sdoh_Organization
+    - sdoh_Service
+    range: string
   sdoh_identifier:
     name: sdoh_identifier
     description: TODO -- tell the world what this slot (predicate) describes.
@@ -325,11 +347,11 @@ attributes:
     - or you can delete the todos
     - if you think the class is perfect.
     comments:
-    - 39 occurrences with subject type sdoh_AdministrativeArea and object type string.
     - 87 occurrences with subject type sdoh_Service and object type string.
+    - 39 occurrences with subject type sdoh_AdministrativeArea and object type string.
     examples:
-    - value: dreamkg:zip/19050 sdoh:identifier 19050
-    - value: dreamkg:service/5711255900520448 sdoh:identifier 5711255900520448
+    - value: dreamkg:service/4955538569953280 sdoh:identifier 4955538569953280
+    - value: dreamkg:zip/19134 sdoh:identifier 19134
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:identifier
@@ -349,37 +371,14 @@ attributes:
     comments:
     - 87 occurrences with subject type sdoh_Service and object type string.
     examples:
-    - value: 'dreamkg:service/5477271096786944 sdoh:areaServed This program covers
-        residents of the following counties: Philadelphia County, PA.'
+    - value: 'dreamkg:service/4785885511417856 sdoh:areaServed This program covers
+        residents of the following cities: Philadelphia, PA.'
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:areaServed
     alias: sdoh_areaServed
     owner: sdoh_Service
     domain_of:
-    - sdoh_Service
-    range: string
-  sdoh_name:
-    name: sdoh_name
-    description: TODO -- tell the world what this slot (predicate) describes.
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 89 occurrences with subject type sdoh_Organization and object type string.
-    - 88 occurrences with subject type sdoh_Service and object type string.
-    examples:
-    - value: dreamkg:service/provider/5385341432496128 sdoh:name Better Living Center
-    - value: dreamkg:service/4829363626049536 sdoh:name Adult Inpatient Mental Health
-        Services
-    from_schema: dream-kg
-    rank: 1000
-    slot_uri: sdoh:name
-    alias: sdoh_name
-    owner: sdoh_Service
-    domain_of:
-    - sdoh_Organization
     - sdoh_Service
     range: string
 class_uri: sdoh:Service

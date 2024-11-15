@@ -44,7 +44,7 @@ URI: [sdoh:availableChannel](http://schema.org/availableChannel)
 
 | Value |
 | --- |
-| dreamkg:service/5992920927698944 sdoh:availableChannel dreamkg:service/channel/P-5992920927698944 |
+| dreamkg:service/5161629360586752 sdoh:availableChannel dreamkg:service/channel/P-5161629360586752 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 174 occurrences with subject type sdoh_Service and object type sdoh_ServiceChannel.
 examples:
-- value: dreamkg:service/5992920927698944 sdoh:availableChannel dreamkg:service/channel/P-5992920927698944
+- value: dreamkg:service/5161629360586752 sdoh:availableChannel dreamkg:service/channel/P-5161629360586752
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:availableChannel

@@ -44,7 +44,7 @@ URI: [sdoh:audienceType](http://schema.org/audienceType)
 
 | Value |
 | --- |
-| dreamkg:category/audience/Families sdoh:audienceType families |
+| dreamkg:category/audience/AllAges sdoh:audienceType all ages |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 81 occurrences with subject type sdoh_Audience and object type string.
 examples:
-- value: dreamkg:category/audience/Families sdoh:audienceType families
+- value: dreamkg:category/audience/AllAges sdoh:audienceType all ages
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:audienceType

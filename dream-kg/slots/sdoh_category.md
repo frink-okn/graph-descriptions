@@ -44,8 +44,8 @@ URI: [sdoh:category](http://schema.org/category)
 
 | Value |
 | --- |
-| dreamkg:service/6032260047568896 sdoh:category dreamkg:category/audience/BenefitRecipients |
-| dreamkg:service/5089660355477504 sdoh:category dreamkg:category/service/main/AdvocacyAndLegalAid |
+| dreamkg:service/4780892498952192 sdoh:category dreamkg:category/audience/YoungAdults |
+| dreamkg:service/4964759830003712 sdoh:category dreamkg:category/service/main/AddictionAndRecovery |
 
 ## Comments
 
@@ -98,8 +98,8 @@ comments:
 - 539 occurrences with subject type sdoh_Service and object type sdoh_Audience.
 - 806 occurrences with subject type sdoh_Service and object type sdoh_CategoryCode.
 examples:
-- value: dreamkg:service/6032260047568896 sdoh:category dreamkg:category/audience/BenefitRecipients
-- value: dreamkg:service/5089660355477504 sdoh:category dreamkg:category/service/main/AdvocacyAndLegalAid
+- value: dreamkg:service/4780892498952192 sdoh:category dreamkg:category/audience/YoungAdults
+- value: dreamkg:service/4964759830003712 sdoh:category dreamkg:category/service/main/AddictionAndRecovery
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:category

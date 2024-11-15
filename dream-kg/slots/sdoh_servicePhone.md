@@ -44,7 +44,7 @@ URI: [sdoh:servicePhone](http://schema.org/servicePhone)
 
 | Value |
 | --- |
-| dreamkg:service/channel/P-4721819823112192 sdoh:servicePhone dreamkg:service/phone/4721819823112192 |
+| dreamkg:service/channel/P-5704371963166720 sdoh:servicePhone dreamkg:service/phone/5704371963166720 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 87 occurrences with subject type sdoh_ServiceChannel and object type sdoh_ContactPoint.
 examples:
-- value: dreamkg:service/channel/P-4721819823112192 sdoh:servicePhone dreamkg:service/phone/4721819823112192
+- value: dreamkg:service/channel/P-5704371963166720 sdoh:servicePhone dreamkg:service/phone/5704371963166720
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:servicePhone

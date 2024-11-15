@@ -44,7 +44,7 @@ URI: [sdoh:longitude](http://schema.org/longitude)
 
 | Value |
 | --- |
-| dreamkg:service/location/4955538569953280 sdoh:longitude -75.112315 |
+| dreamkg:service/location/5480325573640192 sdoh:longitude -75.1461026 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 89 occurrences with subject type sdoh_Place and object type decimal.
 examples:
-- value: dreamkg:service/location/4955538569953280 sdoh:longitude -75.112315
+- value: dreamkg:service/location/5480325573640192 sdoh:longitude -75.1461026
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:longitude

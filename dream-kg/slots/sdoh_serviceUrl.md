@@ -44,7 +44,7 @@ URI: [sdoh:serviceUrl](http://schema.org/serviceUrl)
 
 | Value |
 | --- |
-| dreamkg:service/channel/P-4795404263882752 sdoh:serviceUrl https://bewellctr.org/inpatient-drug-alcohol/ |
+| dreamkg:service/channel/P-6378689670414336 sdoh:serviceUrl http://netcenters.org/services/addiction-recovery-programs/#ffs-tabbed-14 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 188 occurrences with subject type sdoh_ServiceChannel and object type uri.
 examples:
-- value: dreamkg:service/channel/P-4795404263882752 sdoh:serviceUrl https://bewellctr.org/inpatient-drug-alcohol/
+- value: dreamkg:service/channel/P-6378689670414336 sdoh:serviceUrl http://netcenters.org/services/addiction-recovery-programs/#ffs-tabbed-14
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:serviceUrl

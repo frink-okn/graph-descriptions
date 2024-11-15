@@ -64,9 +64,9 @@ URI: [sdoh:OpeningHoursSpecification](http://schema.org/OpeningHoursSpecificatio
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_opens](../slots/sdoh_opens.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
 | [sdoh_closes](../slots/sdoh_closes.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
 | [sdoh_dayOfWeek](../slots/sdoh_dayOfWeek.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_opens](../slots/sdoh_opens.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
 
 
 
@@ -88,7 +88,7 @@ URI: [sdoh:OpeningHoursSpecification](http://schema.org/OpeningHoursSpecificatio
 
 | Value |
 | --- |
-| dreamkg:service/hours/monday/6139716755783680 |
+| dreamkg:service/hours/monday/6213025361821696 |
 
 ## TODOs
 
@@ -147,12 +147,12 @@ todos:
 notes:
 - There are 609 instances of this class.
 examples:
-- value: dreamkg:service/hours/monday/6139716755783680
+- value: dreamkg:service/hours/monday/6213025361821696
 from_schema: dream-kg
 slots:
-- sdoh_opens
 - sdoh_closes
 - sdoh_dayOfWeek
+- sdoh_opens
 class_uri: sdoh:OpeningHoursSpecification
 
 ```
@@ -176,29 +176,9 @@ todos:
 notes:
 - There are 609 instances of this class.
 examples:
-- value: dreamkg:service/hours/monday/6139716755783680
+- value: dreamkg:service/hours/monday/6213025361821696
 from_schema: dream-kg
 attributes:
-  sdoh_opens:
-    name: sdoh_opens
-    description: TODO -- tell the world what this slot (predicate) describes.
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 631 occurrences with subject type sdoh_OpeningHoursSpecification and object
-      type string.
-    examples:
-    - value: dreamkg:service/hours/saturday/5704371963166720 sdoh:opens 00:00
-    from_schema: dream-kg
-    rank: 1000
-    slot_uri: sdoh:opens
-    alias: sdoh_opens
-    owner: sdoh_OpeningHoursSpecification
-    domain_of:
-    - sdoh_OpeningHoursSpecification
-    range: string
   sdoh_closes:
     name: sdoh_closes
     description: TODO -- tell the world what this slot (predicate) describes.
@@ -210,7 +190,7 @@ attributes:
     - 623 occurrences with subject type sdoh_OpeningHoursSpecification and object
       type string.
     examples:
-    - value: dreamkg:service/hours/thursday/5711255900520448 sdoh:closes 17:00
+    - value: dreamkg:service/hours/wednesday/5802794918608896 sdoh:closes 18:00
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:closes
@@ -230,11 +210,31 @@ attributes:
     - 609 occurrences with subject type sdoh_OpeningHoursSpecification and object
       type string.
     examples:
-    - value: dreamkg:service/hours/saturday/5147295688687616 sdoh:dayOfWeek Saturday
+    - value: dreamkg:service/hours/wednesday/5552002522939392 sdoh:dayOfWeek Wednesday
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:dayOfWeek
     alias: sdoh_dayOfWeek
+    owner: sdoh_OpeningHoursSpecification
+    domain_of:
+    - sdoh_OpeningHoursSpecification
+    range: string
+  sdoh_opens:
+    name: sdoh_opens
+    description: TODO -- tell the world what this slot (predicate) describes.
+    todos:
+    - TODO -- Todos for this slot go here
+    - or you can delete the todos
+    - if you think the class is perfect.
+    comments:
+    - 631 occurrences with subject type sdoh_OpeningHoursSpecification and object
+      type string.
+    examples:
+    - value: dreamkg:service/hours/thursday/5147295688687616 sdoh:opens 08:00
+    from_schema: dream-kg
+    rank: 1000
+    slot_uri: sdoh:opens
+    alias: sdoh_opens
     owner: sdoh_OpeningHoursSpecification
     domain_of:
     - sdoh_OpeningHoursSpecification

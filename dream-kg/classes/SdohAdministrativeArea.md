@@ -64,7 +64,7 @@ URI: [sdoh:AdministrativeArea](http://schema.org/AdministrativeArea)
 
 | Value |
 | --- |
-| dreamkg:zip/19145 |
+| dreamkg:zip/19124 |
 
 ## TODOs
 
@@ -120,7 +120,7 @@ todos:
 notes:
 - There are 39 instances of this class.
 examples:
-- value: dreamkg:zip/19145
+- value: dreamkg:zip/19124
 from_schema: dream-kg
 slots:
 - sdoh_identifier
@@ -144,7 +144,7 @@ todos:
 notes:
 - There are 39 instances of this class.
 examples:
-- value: dreamkg:zip/19145
+- value: dreamkg:zip/19124
 from_schema: dream-kg
 attributes:
   sdoh_identifier:
@@ -155,11 +155,11 @@ attributes:
     - or you can delete the todos
     - if you think the class is perfect.
     comments:
-    - 39 occurrences with subject type sdoh_AdministrativeArea and object type string.
     - 87 occurrences with subject type sdoh_Service and object type string.
+    - 39 occurrences with subject type sdoh_AdministrativeArea and object type string.
     examples:
-    - value: dreamkg:zip/19050 sdoh:identifier 19050
-    - value: dreamkg:service/5711255900520448 sdoh:identifier 5711255900520448
+    - value: dreamkg:service/4955538569953280 sdoh:identifier 4955538569953280
+    - value: dreamkg:zip/19134 sdoh:identifier 19134
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:identifier

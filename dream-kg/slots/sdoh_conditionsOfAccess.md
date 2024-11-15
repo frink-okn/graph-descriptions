@@ -44,7 +44,7 @@ URI: [sdoh:conditionsOfAccess](http://schema.org/conditionsOfAccess)
 
 | Value |
 | --- |
-| dreamkg:service/desc/4744972327714816 sdoh:conditionsOfAccess This program serves veterans. |
+| dreamkg:service/desc/6206753615380480 sdoh:conditionsOfAccess All families must be referred to us through the City of Philadelphias Office of Supportive Housing central intake. |
 
 ## Comments
 
@@ -95,8 +95,9 @@ todos:
 comments:
 - 88 occurrences with subject type sdoh_TextObject and object type string.
 examples:
-- value: dreamkg:service/desc/4744972327714816 sdoh:conditionsOfAccess This program
-    serves veterans.
+- value: dreamkg:service/desc/6206753615380480 sdoh:conditionsOfAccess All families
+    must be referred to us through the City of Philadelphias Office of Supportive
+    Housing central intake.
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:conditionsOfAccess

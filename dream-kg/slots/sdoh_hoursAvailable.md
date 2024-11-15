@@ -44,7 +44,7 @@ URI: [sdoh:hoursAvailable](http://schema.org/hoursAvailable)
 
 | Value |
 | --- |
-| dreamkg:service/5181712996761600 sdoh:hoursAvailable dreamkg:service/hours/tuesday/5181712996761600 |
+| dreamkg:service/4955538569953280 sdoh:hoursAvailable dreamkg:service/hours/monday/4955538569953280 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 609 occurrences with subject type sdoh_Service and object type sdoh_OpeningHoursSpecification.
 examples:
-- value: dreamkg:service/5181712996761600 sdoh:hoursAvailable dreamkg:service/hours/tuesday/5181712996761600
+- value: dreamkg:service/4955538569953280 sdoh:hoursAvailable dreamkg:service/hours/monday/4955538569953280
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:hoursAvailable

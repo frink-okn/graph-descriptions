@@ -44,7 +44,7 @@ URI: [sdoh:provider](http://schema.org/provider)
 
 | Value |
 | --- |
-| dreamkg:service/4689179354857472 sdoh:provider dreamkg:service/provider/4689179354857472 |
+| dreamkg:service/5128979153944576 sdoh:provider dreamkg:service/provider/5128979153944576 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 87 occurrences with subject type sdoh_Service and object type sdoh_Organization.
 examples:
-- value: dreamkg:service/4689179354857472 sdoh:provider dreamkg:service/provider/4689179354857472
+- value: dreamkg:service/5128979153944576 sdoh:provider dreamkg:service/provider/5128979153944576
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:provider

@@ -71,8 +71,8 @@ URI: [sdoh:ServiceChannel](http://schema.org/ServiceChannel)
 | ---  | --- | --- | --- |
 | [sdoh_serviceLocation](../slots/sdoh_serviceLocation.md) | 0..1 <br/> [SdohPlace](../classes/SdohPlace.md) | TODO -- tell the world what this slot (predicate) describes | direct |
 | [sdoh_servicePhone](../slots/sdoh_servicePhone.md) | 0..1 <br/> [SdohContactPoint](../classes/SdohContactPoint.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_disambiguatingDescription](../slots/sdoh_disambiguatingDescription.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
 | [sdoh_serviceUrl](../slots/sdoh_serviceUrl.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_disambiguatingDescription](../slots/sdoh_disambiguatingDescription.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
 
 
 
@@ -94,7 +94,7 @@ URI: [sdoh:ServiceChannel](http://schema.org/ServiceChannel)
 
 | Value |
 | --- |
-| dreamkg:service/channel/P-4964759830003712 |
+| dreamkg:service/channel/AB-4744972327714816 |
 
 ## TODOs
 
@@ -150,13 +150,13 @@ todos:
 notes:
 - There are 174 instances of this class.
 examples:
-- value: dreamkg:service/channel/P-4964759830003712
+- value: dreamkg:service/channel/AB-4744972327714816
 from_schema: dream-kg
 slots:
 - sdoh_serviceLocation
 - sdoh_servicePhone
-- sdoh_disambiguatingDescription
 - sdoh_serviceUrl
+- sdoh_disambiguatingDescription
 class_uri: sdoh:ServiceChannel
 
 ```
@@ -177,7 +177,7 @@ todos:
 notes:
 - There are 174 instances of this class.
 examples:
-- value: dreamkg:service/channel/P-4964759830003712
+- value: dreamkg:service/channel/AB-4744972327714816
 from_schema: dream-kg
 attributes:
   sdoh_serviceLocation:
@@ -190,7 +190,7 @@ attributes:
     comments:
     - 87 occurrences with subject type sdoh_ServiceChannel and object type sdoh_Place.
     examples:
-    - value: dreamkg:service/channel/P-4692155605712896 sdoh:serviceLocation dreamkg:service/location/4692155605712896
+    - value: dreamkg:service/channel/P-6354456388829184 sdoh:serviceLocation dreamkg:service/location/6354456388829184
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:serviceLocation
@@ -209,7 +209,7 @@ attributes:
     comments:
     - 87 occurrences with subject type sdoh_ServiceChannel and object type sdoh_ContactPoint.
     examples:
-    - value: dreamkg:service/channel/P-4721819823112192 sdoh:servicePhone dreamkg:service/phone/4721819823112192
+    - value: dreamkg:service/channel/P-5704371963166720 sdoh:servicePhone dreamkg:service/phone/5704371963166720
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:servicePhone
@@ -218,26 +218,6 @@ attributes:
     domain_of:
     - sdoh_ServiceChannel
     range: sdoh_ContactPoint
-  sdoh_disambiguatingDescription:
-    name: sdoh_disambiguatingDescription
-    description: TODO -- tell the world what this slot (predicate) describes.
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 174 occurrences with subject type sdoh_ServiceChannel and object type string.
-    examples:
-    - value: dreamkg:service/channel/P-4955538569953280 sdoh:disambiguatingDescription
-        Provider
-    from_schema: dream-kg
-    rank: 1000
-    slot_uri: sdoh:disambiguatingDescription
-    alias: sdoh_disambiguatingDescription
-    owner: sdoh_ServiceChannel
-    domain_of:
-    - sdoh_ServiceChannel
-    range: string
   sdoh_serviceUrl:
     name: sdoh_serviceUrl
     description: TODO -- tell the world what this slot (predicate) describes.
@@ -248,7 +228,7 @@ attributes:
     comments:
     - 188 occurrences with subject type sdoh_ServiceChannel and object type uri.
     examples:
-    - value: dreamkg:service/channel/P-4795404263882752 sdoh:serviceUrl https://bewellctr.org/inpatient-drug-alcohol/
+    - value: dreamkg:service/channel/P-6378689670414336 sdoh:serviceUrl http://netcenters.org/services/addiction-recovery-programs/#ffs-tabbed-14
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:serviceUrl
@@ -257,6 +237,26 @@ attributes:
     domain_of:
     - sdoh_ServiceChannel
     range: uri
+  sdoh_disambiguatingDescription:
+    name: sdoh_disambiguatingDescription
+    description: TODO -- tell the world what this slot (predicate) describes.
+    todos:
+    - TODO -- Todos for this slot go here
+    - or you can delete the todos
+    - if you think the class is perfect.
+    comments:
+    - 174 occurrences with subject type sdoh_ServiceChannel and object type string.
+    examples:
+    - value: dreamkg:service/channel/AB-5355967947210752 sdoh:disambiguatingDescription
+        Aunt Bertha
+    from_schema: dream-kg
+    rank: 1000
+    slot_uri: sdoh:disambiguatingDescription
+    alias: sdoh_disambiguatingDescription
+    owner: sdoh_ServiceChannel
+    domain_of:
+    - sdoh_ServiceChannel
+    range: string
 class_uri: sdoh:ServiceChannel
 
 ```

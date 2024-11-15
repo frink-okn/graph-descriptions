@@ -51,8 +51,8 @@ URI: [sdoh:CategoryCode](http://schema.org/CategoryCode)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_codeValue](../slots/sdoh_codeValue.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
 | [sdoh_inCodeSet](../slots/sdoh_inCodeSet.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_codeValue](../slots/sdoh_codeValue.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
 
 
 
@@ -74,7 +74,7 @@ URI: [sdoh:CategoryCode](http://schema.org/CategoryCode)
 
 | Value |
 | --- |
-| dreamkg:category/service/main/CounselingCounseling |
+| dreamkg:category/service/other/ComputerClass |
 
 ## TODOs
 
@@ -129,11 +129,11 @@ todos:
 notes:
 - There are 157 instances of this class.
 examples:
-- value: dreamkg:category/service/main/CounselingCounseling
+- value: dreamkg:category/service/other/ComputerClass
 from_schema: dream-kg
 slots:
-- sdoh_codeValue
 - sdoh_inCodeSet
+- sdoh_codeValue
 class_uri: sdoh:CategoryCode
 
 ```
@@ -153,28 +153,9 @@ todos:
 notes:
 - There are 157 instances of this class.
 examples:
-- value: dreamkg:category/service/main/CounselingCounseling
+- value: dreamkg:category/service/other/ComputerClass
 from_schema: dream-kg
 attributes:
-  sdoh_codeValue:
-    name: sdoh_codeValue
-    description: TODO -- tell the world what this slot (predicate) describes.
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 158 occurrences with subject type sdoh_CategoryCode and object type string.
-    examples:
-    - value: dreamkg:category/language/Ukrainian sdoh:codeValue Ukrainian
-    from_schema: dream-kg
-    rank: 1000
-    slot_uri: sdoh:codeValue
-    alias: sdoh_codeValue
-    owner: sdoh_CategoryCode
-    domain_of:
-    - sdoh_CategoryCode
-    range: string
   sdoh_inCodeSet:
     name: sdoh_inCodeSet
     description: TODO -- tell the world what this slot (predicate) describes.
@@ -185,7 +166,7 @@ attributes:
     comments:
     - 157 occurrences with subject type sdoh_CategoryCode and object type uri.
     examples:
-    - value: dreamkg:category/service/main/AfterSchoolCare sdoh:inCodeSet dreamkg:_CategoryCodeSet_Services_Main
+    - value: dreamkg:category/language/Ukrainian sdoh:inCodeSet dreamkg:_CategoryCodeSet_Languages
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:inCodeSet
@@ -194,6 +175,25 @@ attributes:
     domain_of:
     - sdoh_CategoryCode
     range: uri
+  sdoh_codeValue:
+    name: sdoh_codeValue
+    description: TODO -- tell the world what this slot (predicate) describes.
+    todos:
+    - TODO -- Todos for this slot go here
+    - or you can delete the todos
+    - if you think the class is perfect.
+    comments:
+    - 158 occurrences with subject type sdoh_CategoryCode and object type string.
+    examples:
+    - value: dreamkg:category/service/other/HomeGoods sdoh:codeValue home goods
+    from_schema: dream-kg
+    rank: 1000
+    slot_uri: sdoh:codeValue
+    alias: sdoh_codeValue
+    owner: sdoh_CategoryCode
+    domain_of:
+    - sdoh_CategoryCode
+    range: string
 class_uri: sdoh:CategoryCode
 
 ```

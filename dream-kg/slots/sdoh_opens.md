@@ -44,7 +44,7 @@ URI: [sdoh:opens](http://schema.org/opens)
 
 | Value |
 | --- |
-| dreamkg:service/hours/saturday/5704371963166720 sdoh:opens 00:00 |
+| dreamkg:service/hours/thursday/5147295688687616 sdoh:opens 08:00 |
 
 ## Comments
 
@@ -96,7 +96,7 @@ comments:
 - 631 occurrences with subject type sdoh_OpeningHoursSpecification and object type
   string.
 examples:
-- value: dreamkg:service/hours/saturday/5704371963166720 sdoh:opens 00:00
+- value: dreamkg:service/hours/thursday/5147295688687616 sdoh:opens 08:00
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:opens

@@ -44,7 +44,7 @@ URI: [sdoh:disambiguatingDescription](http://schema.org/disambiguatingDescriptio
 
 | Value |
 | --- |
-| dreamkg:service/channel/P-4955538569953280 sdoh:disambiguatingDescription Provider |
+| dreamkg:service/channel/AB-5355967947210752 sdoh:disambiguatingDescription Aunt Bertha |
 
 ## Comments
 
@@ -95,8 +95,8 @@ todos:
 comments:
 - 174 occurrences with subject type sdoh_ServiceChannel and object type string.
 examples:
-- value: dreamkg:service/channel/P-4955538569953280 sdoh:disambiguatingDescription
-    Provider
+- value: dreamkg:service/channel/AB-5355967947210752 sdoh:disambiguatingDescription
+    Aunt Bertha
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:disambiguatingDescription

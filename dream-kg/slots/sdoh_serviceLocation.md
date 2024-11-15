@@ -44,7 +44,7 @@ URI: [sdoh:serviceLocation](http://schema.org/serviceLocation)
 
 | Value |
 | --- |
-| dreamkg:service/channel/P-4692155605712896 sdoh:serviceLocation dreamkg:service/location/4692155605712896 |
+| dreamkg:service/channel/P-6354456388829184 sdoh:serviceLocation dreamkg:service/location/6354456388829184 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 87 occurrences with subject type sdoh_ServiceChannel and object type sdoh_Place.
 examples:
-- value: dreamkg:service/channel/P-4692155605712896 sdoh:serviceLocation dreamkg:service/location/4692155605712896
+- value: dreamkg:service/channel/P-6354456388829184 sdoh:serviceLocation dreamkg:service/location/6354456388829184
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:serviceLocation

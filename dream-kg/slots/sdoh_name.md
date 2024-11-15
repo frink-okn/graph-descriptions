@@ -45,8 +45,8 @@ URI: [sdoh:name](http://schema.org/name)
 
 | Value |
 | --- |
-| dreamkg:service/provider/5385341432496128 sdoh:name Better Living Center |
-| dreamkg:service/4829363626049536 sdoh:name Adult Inpatient Mental Health Services |
+| dreamkg:service/provider/4666716061171712 sdoh:name Horizon House |
+| dreamkg:service/6410727744077824 sdoh:name Opioid Treatment Program |
 
 ## Comments
 
@@ -99,9 +99,8 @@ comments:
 - 89 occurrences with subject type sdoh_Organization and object type string.
 - 88 occurrences with subject type sdoh_Service and object type string.
 examples:
-- value: dreamkg:service/provider/5385341432496128 sdoh:name Better Living Center
-- value: dreamkg:service/4829363626049536 sdoh:name Adult Inpatient Mental Health
-    Services
+- value: dreamkg:service/provider/4666716061171712 sdoh:name Horizon House
+- value: dreamkg:service/6410727744077824 sdoh:name Opioid Treatment Program
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:name

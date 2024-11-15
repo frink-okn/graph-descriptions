@@ -64,7 +64,7 @@ URI: [sdoh:ContactPoint](http://schema.org/ContactPoint)
 
 | Value |
 | --- |
-| dreamkg:service/phone/4689179354857472 |
+| dreamkg:service/phone/5348732074983424 |
 
 ## TODOs
 
@@ -119,7 +119,7 @@ todos:
 notes:
 - There are 87 instances of this class.
 examples:
-- value: dreamkg:service/phone/4689179354857472
+- value: dreamkg:service/phone/5348732074983424
 from_schema: dream-kg
 slots:
 - sdoh_telephone
@@ -142,7 +142,7 @@ todos:
 notes:
 - There are 87 instances of this class.
 examples:
-- value: dreamkg:service/phone/4689179354857472
+- value: dreamkg:service/phone/5348732074983424
 from_schema: dream-kg
 attributes:
   sdoh_telephone:
@@ -155,7 +155,7 @@ attributes:
     comments:
     - 87 occurrences with subject type sdoh_ContactPoint and object type string.
     examples:
-    - value: dreamkg:service/phone/5671175268335616 sdoh:telephone 215-242-2235
+    - value: dreamkg:service/phone/6566876511207424 sdoh:telephone 484-238-0437
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:telephone

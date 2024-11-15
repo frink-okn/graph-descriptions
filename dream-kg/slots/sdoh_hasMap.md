@@ -44,7 +44,7 @@ URI: [sdoh:hasMap](http://schema.org/hasMap)
 
 | Value |
 | --- |
-| dreamkg:service/location/5017006984921088 sdoh:hasMap https://www.google.com/maps/?q=6161+North+5th+Street,+Philadelphia,+PA+19120/ |
+| dreamkg:service/location/5715375002484736 sdoh:hasMap https://www.google.com/maps/?q=1500+Walnut+Street,+Philadelphia,+PA+19102/ |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 88 occurrences with subject type sdoh_Place and object type uri.
 examples:
-- value: dreamkg:service/location/5017006984921088 sdoh:hasMap https://www.google.com/maps/?q=6161+North+5th+Street,+Philadelphia,+PA+19120/
+- value: dreamkg:service/location/5715375002484736 sdoh:hasMap https://www.google.com/maps/?q=1500+Walnut+Street,+Philadelphia,+PA+19102/
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:hasMap
