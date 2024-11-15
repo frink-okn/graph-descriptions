@@ -1,9 +1,9 @@
 
 
-# Slot: sdoh_name
+# Slot: name (sdoh_name)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_The name of the item._
 
 
 
@@ -45,8 +45,8 @@ URI: [sdoh:name](http://schema.org/name)
 
 | Value |
 | --- |
-| dreamkg:service/provider/4666716061171712 sdoh:name Horizon House |
-| dreamkg:service/6410727744077824 sdoh:name Opioid Treatment Program |
+| dreamkg:service/provider/4967372504694784 sdoh:name Church World Service Inc |
+| dreamkg:service/4873770804707328 sdoh:name Food Assistance and Relief |
 
 ## Comments
 
@@ -90,7 +90,8 @@ URI: [sdoh:name](http://schema.org/name)
 <details>
 ```yaml
 name: sdoh_name
-description: TODO -- tell the world what this slot (predicate) describes.
+description: The name of the item.
+title: name
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -99,8 +100,9 @@ comments:
 - 89 occurrences with subject type sdoh_Organization and object type string.
 - 88 occurrences with subject type sdoh_Service and object type string.
 examples:
-- value: dreamkg:service/provider/4666716061171712 sdoh:name Horizon House
-- value: dreamkg:service/6410727744077824 sdoh:name Opioid Treatment Program
+- value: dreamkg:service/provider/4967372504694784 sdoh:name Church World Service
+    Inc
+- value: dreamkg:service/4873770804707328 sdoh:name Food Assistance and Relief
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:name

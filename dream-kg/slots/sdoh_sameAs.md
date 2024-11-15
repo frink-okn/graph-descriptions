@@ -1,9 +1,9 @@
 
 
-# Slot: sdoh_sameAs
+# Slot: sameAs (sdoh_sameAs)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:sameAs](http://schema.org/sameAs)
 
 | Value |
 | --- |
-| dreamkg:service/provider/6260879273361408 sdoh:sameAs https://www.facebook.com/communityofcompassioncdc |
+| dreamkg:service/provider/4874573658193920 sdoh:sameAs https://www.twitter.com/@WedgeRecovery |
 
 ## Comments
 
@@ -87,7 +87,9 @@ URI: [sdoh:sameAs](http://schema.org/sameAs)
 <details>
 ```yaml
 name: sdoh_sameAs
-description: TODO -- tell the world what this slot (predicate) describes.
+description: URL of a reference Web page that unambiguously indicates the item's identity.
+  E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website.
+title: sameAs
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -95,7 +97,7 @@ todos:
 comments:
 - 127 occurrences with subject type sdoh_Organization and object type uri.
 examples:
-- value: dreamkg:service/provider/6260879273361408 sdoh:sameAs https://www.facebook.com/communityofcompassioncdc
+- value: dreamkg:service/provider/4874573658193920 sdoh:sameAs https://www.twitter.com/@WedgeRecovery
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:sameAs

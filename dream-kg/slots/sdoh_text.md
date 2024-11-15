@@ -1,9 +1,9 @@
 
 
-# Slot: sdoh_text
+# Slot: text (sdoh_text)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_The textual content of this CreativeWork._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:text](http://schema.org/text)
 
 | Value |
 | --- |
-| dreamkg:service/desc/5181712996761600 sdoh:text The Bridge provides quality, accessible treatment while preparing clients to re-enter their communities as drug-and alcohol-free members of society.  Individualized treatment plans are created to meet clients' needs and clients have access to the comprehensive addictions, mental health, educational and life skills services provided at The Bridge.This program provides:- Individual Counseling- Substance Abuse Counseling- Mental Health Care- Short term housing- Long term housing- Addiction & Recovery |
+| dreamkg:service/desc/6272068172382208 sdoh:text Wedge Recovery Center offers the Early Intervention Program for Philadelphia residents between the ages 12-21 who are currently using substances or who are otherwise at risk for substance abuse because of factors in the environmental, school, legal, family, mental health, peer & social, and dependency system domains.We offer:- Substance Use Screening and Assessment- Evidenced-based Substance Abuse Education- Intervention Counseling- Family Counseling- Community/School/Child service outreach- Individualized Service Planning- Group Psychoeducational Sessions- Parental Education/Consultation- Service Linkage |
 
 ## Comments
 
@@ -87,7 +87,8 @@ URI: [sdoh:text](http://schema.org/text)
 <details>
 ```yaml
 name: sdoh_text
-description: TODO -- tell the world what this slot (predicate) describes.
+description: The textual content of this CreativeWork.
+title: text
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -95,13 +96,15 @@ todos:
 comments:
 - 90 occurrences with subject type sdoh_TextObject and object type string.
 examples:
-- value: dreamkg:service/desc/5181712996761600 sdoh:text The Bridge provides quality,
-    accessible treatment while preparing clients to re-enter their communities as
-    drug-and alcohol-free members of society.  Individualized treatment plans are
-    created to meet clients' needs and clients have access to the comprehensive addictions,
-    mental health, educational and life skills services provided at The Bridge.This
-    program provides:- Individual Counseling- Substance Abuse Counseling- Mental Health
-    Care- Short term housing- Long term housing- Addiction & Recovery
+- value: dreamkg:service/desc/6272068172382208 sdoh:text Wedge Recovery Center offers
+    the Early Intervention Program for Philadelphia residents between the ages 12-21
+    who are currently using substances or who are otherwise at risk for substance
+    abuse because of factors in the environmental, school, legal, family, mental health,
+    peer & social, and dependency system domains.We offer:- Substance Use Screening
+    and Assessment- Evidenced-based Substance Abuse Education- Intervention Counseling-
+    Family Counseling- Community/School/Child service outreach- Individualized Service
+    Planning- Group Psychoeducational Sessions- Parental Education/Consultation- Service
+    Linkage
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:text

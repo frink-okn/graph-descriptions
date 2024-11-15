@@ -42,7 +42,7 @@ URI: [sdoh:ContactPoint](http://schema.org/ContactPoint)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_telephone](../slots/sdoh_telephone.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_telephone](../slots/sdoh_telephone.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | The telephone number | direct |
 
 
 
@@ -64,7 +64,7 @@ URI: [sdoh:ContactPoint](http://schema.org/ContactPoint)
 
 | Value |
 | --- |
-| dreamkg:service/phone/5348732074983424 |
+| dreamkg:service/phone/5518091445075968 |
 
 ## TODOs
 
@@ -119,7 +119,7 @@ todos:
 notes:
 - There are 87 instances of this class.
 examples:
-- value: dreamkg:service/phone/5348732074983424
+- value: dreamkg:service/phone/5518091445075968
 from_schema: dream-kg
 slots:
 - sdoh_telephone
@@ -142,12 +142,13 @@ todos:
 notes:
 - There are 87 instances of this class.
 examples:
-- value: dreamkg:service/phone/5348732074983424
+- value: dreamkg:service/phone/5518091445075968
 from_schema: dream-kg
 attributes:
   sdoh_telephone:
     name: sdoh_telephone
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: The telephone number.
+    title: telephone
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -155,7 +156,7 @@ attributes:
     comments:
     - 87 occurrences with subject type sdoh_ContactPoint and object type string.
     examples:
-    - value: dreamkg:service/phone/6566876511207424 sdoh:telephone 484-238-0437
+    - value: dreamkg:service/phone/4692155605712896 sdoh:telephone 833-976-4357
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:telephone

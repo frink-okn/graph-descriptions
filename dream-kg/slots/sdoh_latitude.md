@@ -1,9 +1,9 @@
 
 
-# Slot: sdoh_latitude
+# Slot: latitude (sdoh_latitude)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_The latitude of a location. For example ```37.42242``` ([WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System))._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:latitude](http://schema.org/latitude)
 
 | Value |
 | --- |
-| dreamkg:service/location/4909220273061888 sdoh:latitude 40.0356379 |
+| dreamkg:service/location/5175494499368960 sdoh:latitude 39.9879752 |
 
 ## Comments
 
@@ -87,7 +87,8 @@ URI: [sdoh:latitude](http://schema.org/latitude)
 <details>
 ```yaml
 name: sdoh_latitude
-description: TODO -- tell the world what this slot (predicate) describes.
+description: The latitude of a location. For example ```37.42242``` ([WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System)).
+title: latitude
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -95,7 +96,7 @@ todos:
 comments:
 - 89 occurrences with subject type sdoh_Place and object type decimal.
 examples:
-- value: dreamkg:service/location/4909220273061888 sdoh:latitude 40.0356379
+- value: dreamkg:service/location/5175494499368960 sdoh:latitude 39.9879752
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:latitude

@@ -1,9 +1,9 @@
 
 
-# Slot: sdoh_dayOfWeek
+# Slot: dayOfWeek (sdoh_dayOfWeek)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_The day of the week for which these opening hours are valid._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:dayOfWeek](http://schema.org/dayOfWeek)
 
 | Value |
 | --- |
-| dreamkg:service/hours/wednesday/5552002522939392 sdoh:dayOfWeek Wednesday |
+| dreamkg:service/hours/monday/5715375002484736 sdoh:dayOfWeek Monday |
 
 ## Comments
 
@@ -87,7 +87,8 @@ URI: [sdoh:dayOfWeek](http://schema.org/dayOfWeek)
 <details>
 ```yaml
 name: sdoh_dayOfWeek
-description: TODO -- tell the world what this slot (predicate) describes.
+description: The day of the week for which these opening hours are valid.
+title: dayOfWeek
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -96,7 +97,7 @@ comments:
 - 609 occurrences with subject type sdoh_OpeningHoursSpecification and object type
   string.
 examples:
-- value: dreamkg:service/hours/wednesday/5552002522939392 sdoh:dayOfWeek Wednesday
+- value: dreamkg:service/hours/monday/5715375002484736 sdoh:dayOfWeek Monday
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:dayOfWeek

@@ -1,9 +1,9 @@
 
 
-# Slot: sdoh_address
+# Slot: address (sdoh_address)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_Physical address of the item._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:address](http://schema.org/address)
 
 | Value |
 | --- |
-| dreamkg:service/location/6260879273361408 sdoh:address 6150 Cedar Avenue, Philadelphia, PA 19143 |
+| dreamkg:service/location/5518091445075968 sdoh:address 4943 North 5th Street, Philadelphia, PA 19120 |
 
 ## Comments
 
@@ -87,7 +87,8 @@ URI: [sdoh:address](http://schema.org/address)
 <details>
 ```yaml
 name: sdoh_address
-description: TODO -- tell the world what this slot (predicate) describes.
+description: Physical address of the item.
+title: address
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -95,8 +96,8 @@ todos:
 comments:
 - 93 occurrences with subject type sdoh_Place and object type string.
 examples:
-- value: dreamkg:service/location/6260879273361408 sdoh:address 6150 Cedar Avenue,
-    Philadelphia, PA 19143
+- value: dreamkg:service/location/5518091445075968 sdoh:address 4943 North 5th Street,
+    Philadelphia, PA 19120
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:address

@@ -64,9 +64,9 @@ URI: [sdoh:OpeningHoursSpecification](http://schema.org/OpeningHoursSpecificatio
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_closes](../slots/sdoh_closes.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_dayOfWeek](../slots/sdoh_dayOfWeek.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_opens](../slots/sdoh_opens.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_closes](../slots/sdoh_closes.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | The closing hour of the place or service on the given day(s) of the week | direct |
+| [sdoh_opens](../slots/sdoh_opens.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | The opening hour of the place or service on the given day(s) of the week | direct |
+| [sdoh_dayOfWeek](../slots/sdoh_dayOfWeek.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | The day of the week for which these opening hours are valid | direct |
 
 
 
@@ -88,7 +88,7 @@ URI: [sdoh:OpeningHoursSpecification](http://schema.org/OpeningHoursSpecificatio
 
 | Value |
 | --- |
-| dreamkg:service/hours/monday/6213025361821696 |
+| dreamkg:service/hours/tuesday/6615452957540352 |
 
 ## TODOs
 
@@ -147,12 +147,12 @@ todos:
 notes:
 - There are 609 instances of this class.
 examples:
-- value: dreamkg:service/hours/monday/6213025361821696
+- value: dreamkg:service/hours/tuesday/6615452957540352
 from_schema: dream-kg
 slots:
 - sdoh_closes
-- sdoh_dayOfWeek
 - sdoh_opens
+- sdoh_dayOfWeek
 class_uri: sdoh:OpeningHoursSpecification
 
 ```
@@ -176,12 +176,14 @@ todos:
 notes:
 - There are 609 instances of this class.
 examples:
-- value: dreamkg:service/hours/monday/6213025361821696
+- value: dreamkg:service/hours/tuesday/6615452957540352
 from_schema: dream-kg
 attributes:
   sdoh_closes:
     name: sdoh_closes
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: The closing hour of the place or service on the given day(s) of the
+      week.
+    title: closes
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -190,7 +192,7 @@ attributes:
     - 623 occurrences with subject type sdoh_OpeningHoursSpecification and object
       type string.
     examples:
-    - value: dreamkg:service/hours/wednesday/5802794918608896 sdoh:closes 18:00
+    - value: dreamkg:service/hours/sunday/5792020391002112 sdoh:closes 00:00
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:closes
@@ -199,29 +201,11 @@ attributes:
     domain_of:
     - sdoh_OpeningHoursSpecification
     range: string
-  sdoh_dayOfWeek:
-    name: sdoh_dayOfWeek
-    description: TODO -- tell the world what this slot (predicate) describes.
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 609 occurrences with subject type sdoh_OpeningHoursSpecification and object
-      type string.
-    examples:
-    - value: dreamkg:service/hours/wednesday/5552002522939392 sdoh:dayOfWeek Wednesday
-    from_schema: dream-kg
-    rank: 1000
-    slot_uri: sdoh:dayOfWeek
-    alias: sdoh_dayOfWeek
-    owner: sdoh_OpeningHoursSpecification
-    domain_of:
-    - sdoh_OpeningHoursSpecification
-    range: string
   sdoh_opens:
     name: sdoh_opens
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: The opening hour of the place or service on the given day(s) of the
+      week.
+    title: opens
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -230,11 +214,32 @@ attributes:
     - 631 occurrences with subject type sdoh_OpeningHoursSpecification and object
       type string.
     examples:
-    - value: dreamkg:service/hours/thursday/5147295688687616 sdoh:opens 08:00
+    - value: dreamkg:service/hours/tuesday/5161629360586752 sdoh:opens 08:00
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:opens
     alias: sdoh_opens
+    owner: sdoh_OpeningHoursSpecification
+    domain_of:
+    - sdoh_OpeningHoursSpecification
+    range: string
+  sdoh_dayOfWeek:
+    name: sdoh_dayOfWeek
+    description: The day of the week for which these opening hours are valid.
+    title: dayOfWeek
+    todos:
+    - TODO -- Todos for this slot go here
+    - or you can delete the todos
+    - if you think the class is perfect.
+    comments:
+    - 609 occurrences with subject type sdoh_OpeningHoursSpecification and object
+      type string.
+    examples:
+    - value: dreamkg:service/hours/monday/5715375002484736 sdoh:dayOfWeek Monday
+    from_schema: dream-kg
+    rank: 1000
+    slot_uri: sdoh:dayOfWeek
+    alias: sdoh_dayOfWeek
     owner: sdoh_OpeningHoursSpecification
     domain_of:
     - sdoh_OpeningHoursSpecification

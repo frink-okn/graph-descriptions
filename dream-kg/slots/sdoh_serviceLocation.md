@@ -1,9 +1,9 @@
 
 
-# Slot: sdoh_serviceLocation
+# Slot: serviceLocation (sdoh_serviceLocation)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_The location (e.g. civic structure, local business, etc.) where a person can go to access the service._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:serviceLocation](http://schema.org/serviceLocation)
 
 | Value |
 | --- |
-| dreamkg:service/channel/P-6354456388829184 sdoh:serviceLocation dreamkg:service/location/6354456388829184 |
+| dreamkg:service/channel/P-5643194546257920 sdoh:serviceLocation dreamkg:service/location/5643194546257920 |
 
 ## Comments
 
@@ -87,7 +87,9 @@ URI: [sdoh:serviceLocation](http://schema.org/serviceLocation)
 <details>
 ```yaml
 name: sdoh_serviceLocation
-description: TODO -- tell the world what this slot (predicate) describes.
+description: The location (e.g. civic structure, local business, etc.) where a person
+  can go to access the service.
+title: serviceLocation
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -95,7 +97,7 @@ todos:
 comments:
 - 87 occurrences with subject type sdoh_ServiceChannel and object type sdoh_Place.
 examples:
-- value: dreamkg:service/channel/P-6354456388829184 sdoh:serviceLocation dreamkg:service/location/6354456388829184
+- value: dreamkg:service/channel/P-5643194546257920 sdoh:serviceLocation dreamkg:service/location/5643194546257920
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:serviceLocation

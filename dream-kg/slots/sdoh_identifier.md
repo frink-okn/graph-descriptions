@@ -1,9 +1,11 @@
 
 
-# Slot: sdoh_identifier
+# Slot: identifier (sdoh_identifier)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_The identifier property represents any kind of identifier for any kind of [[Thing]], such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See [background notes](/docs/datamodel.html#identifierBg) for more details._
+
+_        _
 
 
 
@@ -23,8 +25,8 @@ URI: [sdoh:identifier](http://schema.org/identifier)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohService](../classes/SdohService.md) | A service provided by an organization, e |  no  |
 | [SdohAdministrativeArea](../classes/SdohAdministrativeArea.md) | A geographical region, typically under the jurisdiction of a particular gover... |  no  |
+| [SdohService](../classes/SdohService.md) | A service provided by an organization, e |  no  |
 
 
 
@@ -45,8 +47,8 @@ URI: [sdoh:identifier](http://schema.org/identifier)
 
 | Value |
 | --- |
-| dreamkg:service/4955538569953280 sdoh:identifier 4955538569953280 |
-| dreamkg:zip/19134 sdoh:identifier 19134 |
+| dreamkg:service/4542572480692224 sdoh:identifier 4542572480692224 |
+| dreamkg:zip/19130 sdoh:identifier 19130 |
 
 ## Comments
 
@@ -90,7 +92,12 @@ URI: [sdoh:identifier](http://schema.org/identifier)
 <details>
 ```yaml
 name: sdoh_identifier
-description: TODO -- tell the world what this slot (predicate) describes.
+description: "The identifier property represents any kind of identifier for any kind\
+  \ of [[Thing]], such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated\
+  \ properties for representing many of these, either as textual strings or as URL\
+  \ (URI) links. See [background notes](/docs/datamodel.html#identifierBg) for more\
+  \ details.\n        "
+title: identifier
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -99,8 +106,8 @@ comments:
 - 87 occurrences with subject type sdoh_Service and object type string.
 - 39 occurrences with subject type sdoh_AdministrativeArea and object type string.
 examples:
-- value: dreamkg:service/4955538569953280 sdoh:identifier 4955538569953280
-- value: dreamkg:zip/19134 sdoh:identifier 19134
+- value: dreamkg:service/4542572480692224 sdoh:identifier 4542572480692224
+- value: dreamkg:zip/19130 sdoh:identifier 19130
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:identifier

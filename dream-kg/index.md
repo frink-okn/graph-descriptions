@@ -32,33 +32,33 @@ The place is __open__ if the [[opens]] property is specified, and __closed__ oth
 
 | Slot | Description |
 | --- | --- |
-| [sdoh_address](slots/sdoh_address.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_areaServed](slots/sdoh_areaServed.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_audienceType](slots/sdoh_audienceType.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_availableChannel](slots/sdoh_availableChannel.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_category](slots/sdoh_category.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_closes](slots/sdoh_closes.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_codeValue](slots/sdoh_codeValue.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_conditionsOfAccess](slots/sdoh_conditionsOfAccess.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_containedInPlace](slots/sdoh_containedInPlace.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_dayOfWeek](slots/sdoh_dayOfWeek.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_description](slots/sdoh_description.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_disambiguatingDescription](slots/sdoh_disambiguatingDescription.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_hasMap](slots/sdoh_hasMap.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_hoursAvailable](slots/sdoh_hoursAvailable.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_identifier](slots/sdoh_identifier.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_inCodeSet](slots/sdoh_inCodeSet.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_latitude](slots/sdoh_latitude.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_longitude](slots/sdoh_longitude.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_name](slots/sdoh_name.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_opens](slots/sdoh_opens.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_provider](slots/sdoh_provider.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_sameAs](slots/sdoh_sameAs.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_serviceLocation](slots/sdoh_serviceLocation.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_servicePhone](slots/sdoh_servicePhone.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_serviceUrl](slots/sdoh_serviceUrl.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_telephone](slots/sdoh_telephone.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sdoh_text](slots/sdoh_text.md) | TODO -- tell the world what this slot (predicate) describes |
+| [sdoh_address](slots/sdoh_address.md) | Physical address of the item |
+| [sdoh_areaServed](slots/sdoh_areaServed.md) | The geographic area where a service or offered item is provided |
+| [sdoh_audienceType](slots/sdoh_audienceType.md) | The target group associated with a given audience (e |
+| [sdoh_availableChannel](slots/sdoh_availableChannel.md) | A means of accessing the service (e |
+| [sdoh_category](slots/sdoh_category.md) | A category for the item |
+| [sdoh_closes](slots/sdoh_closes.md) | The closing hour of the place or service on the given day(s) of the week |
+| [sdoh_codeValue](slots/sdoh_codeValue.md) | A short textual code that uniquely identifies the value |
+| [sdoh_conditionsOfAccess](slots/sdoh_conditionsOfAccess.md) | Conditions that affect the availability of, or method(s) of access to, an ite... |
+| [sdoh_containedInPlace](slots/sdoh_containedInPlace.md) | The basic containment relation between a place and one that contains it |
+| [sdoh_dayOfWeek](slots/sdoh_dayOfWeek.md) | The day of the week for which these opening hours are valid |
+| [sdoh_description](slots/sdoh_description.md) | A description of the item |
+| [sdoh_disambiguatingDescription](slots/sdoh_disambiguatingDescription.md) | A sub property of description |
+| [sdoh_hasMap](slots/sdoh_hasMap.md) | A URL to a map of the place |
+| [sdoh_hoursAvailable](slots/sdoh_hoursAvailable.md) | The hours during which this service or contact is available |
+| [sdoh_identifier](slots/sdoh_identifier.md) | The identifier property represents any kind of identifier for any kind of [[T... |
+| [sdoh_inCodeSet](slots/sdoh_inCodeSet.md) | A [[CategoryCodeSet]] that contains this category code |
+| [sdoh_latitude](slots/sdoh_latitude.md) | The latitude of a location |
+| [sdoh_longitude](slots/sdoh_longitude.md) | The longitude of a location |
+| [sdoh_name](slots/sdoh_name.md) | The name of the item |
+| [sdoh_opens](slots/sdoh_opens.md) | The opening hour of the place or service on the given day(s) of the week |
+| [sdoh_provider](slots/sdoh_provider.md) | The service provider, service operator, or service performer; the goods produ... |
+| [sdoh_sameAs](slots/sdoh_sameAs.md) | URL of a reference Web page that unambiguously indicates the item's identity |
+| [sdoh_serviceLocation](slots/sdoh_serviceLocation.md) | The location (e |
+| [sdoh_servicePhone](slots/sdoh_servicePhone.md) | The phone number to use to access the service |
+| [sdoh_serviceUrl](slots/sdoh_serviceUrl.md) | The website to access the service |
+| [sdoh_telephone](slots/sdoh_telephone.md) | The telephone number |
+| [sdoh_text](slots/sdoh_text.md) | The textual content of this CreativeWork |
 
 
 ## Enumerations

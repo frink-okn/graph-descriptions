@@ -1,9 +1,9 @@
 
 
-# Slot: sdoh_hasMap
+# Slot: hasMap (sdoh_hasMap)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_A URL to a map of the place._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:hasMap](http://schema.org/hasMap)
 
 | Value |
 | --- |
-| dreamkg:service/location/5715375002484736 sdoh:hasMap https://www.google.com/maps/?q=1500+Walnut+Street,+Philadelphia,+PA+19102/ |
+| dreamkg:service/location/6494806799548416 sdoh:hasMap https://www.google.com/maps/?q=900+West+Jefferson+Street,+Philadelphia,+PA+19122/ |
 
 ## Comments
 
@@ -87,7 +87,8 @@ URI: [sdoh:hasMap](http://schema.org/hasMap)
 <details>
 ```yaml
 name: sdoh_hasMap
-description: TODO -- tell the world what this slot (predicate) describes.
+description: A URL to a map of the place.
+title: hasMap
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -95,7 +96,7 @@ todos:
 comments:
 - 88 occurrences with subject type sdoh_Place and object type uri.
 examples:
-- value: dreamkg:service/location/5715375002484736 sdoh:hasMap https://www.google.com/maps/?q=1500+Walnut+Street,+Philadelphia,+PA+19102/
+- value: dreamkg:service/location/6494806799548416 sdoh:hasMap https://www.google.com/maps/?q=900+West+Jefferson+Street,+Philadelphia,+PA+19122/
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:hasMap

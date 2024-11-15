@@ -1,9 +1,9 @@
 
 
-# Slot: sdoh_telephone
+# Slot: telephone (sdoh_telephone)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_The telephone number._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:telephone](http://schema.org/telephone)
 
 | Value |
 | --- |
-| dreamkg:service/phone/6566876511207424 sdoh:telephone 484-238-0437 |
+| dreamkg:service/phone/4692155605712896 sdoh:telephone 833-976-4357 |
 
 ## Comments
 
@@ -87,7 +87,8 @@ URI: [sdoh:telephone](http://schema.org/telephone)
 <details>
 ```yaml
 name: sdoh_telephone
-description: TODO -- tell the world what this slot (predicate) describes.
+description: The telephone number.
+title: telephone
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -95,7 +96,7 @@ todos:
 comments:
 - 87 occurrences with subject type sdoh_ContactPoint and object type string.
 examples:
-- value: dreamkg:service/phone/6566876511207424 sdoh:telephone 484-238-0437
+- value: dreamkg:service/phone/4692155605712896 sdoh:telephone 833-976-4357
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:telephone

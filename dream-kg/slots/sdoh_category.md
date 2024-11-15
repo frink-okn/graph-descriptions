@@ -1,9 +1,9 @@
 
 
-# Slot: sdoh_category
+# Slot: category (sdoh_category)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy._
 
 
 
@@ -44,8 +44,8 @@ URI: [sdoh:category](http://schema.org/category)
 
 | Value |
 | --- |
-| dreamkg:service/4780892498952192 sdoh:category dreamkg:category/audience/YoungAdults |
-| dreamkg:service/4964759830003712 sdoh:category dreamkg:category/service/main/AddictionAndRecovery |
+| dreamkg:service/6453846037626880 sdoh:category dreamkg:category/audience/LowIncome |
+| dreamkg:service/5997720409997312 sdoh:category dreamkg:category/service/main/TemporaryShelter |
 
 ## Comments
 
@@ -89,7 +89,9 @@ URI: [sdoh:category](http://schema.org/category)
 <details>
 ```yaml
 name: sdoh_category
-description: TODO -- tell the world what this slot (predicate) describes.
+description: A category for the item. Greater signs or slashes can be used to informally
+  indicate a category hierarchy.
+title: category
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -98,8 +100,8 @@ comments:
 - 539 occurrences with subject type sdoh_Service and object type sdoh_Audience.
 - 806 occurrences with subject type sdoh_Service and object type sdoh_CategoryCode.
 examples:
-- value: dreamkg:service/4780892498952192 sdoh:category dreamkg:category/audience/YoungAdults
-- value: dreamkg:service/4964759830003712 sdoh:category dreamkg:category/service/main/AddictionAndRecovery
+- value: dreamkg:service/6453846037626880 sdoh:category dreamkg:category/audience/LowIncome
+- value: dreamkg:service/5997720409997312 sdoh:category dreamkg:category/service/main/TemporaryShelter
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:category

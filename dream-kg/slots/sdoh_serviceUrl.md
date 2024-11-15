@@ -1,9 +1,9 @@
 
 
-# Slot: sdoh_serviceUrl
+# Slot: serviceUrl (sdoh_serviceUrl)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_The website to access the service._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:serviceUrl](http://schema.org/serviceUrl)
 
 | Value |
 | --- |
-| dreamkg:service/channel/P-6378689670414336 sdoh:serviceUrl http://netcenters.org/services/addiction-recovery-programs/#ffs-tabbed-14 |
+| dreamkg:service/channel/AB-6453846037626880 sdoh:serviceUrl https://www.auntbertha.com//helping-hands-ministry%252C-inc.--philadelphia-pa--social-services---basic-needs-assistance/6453846037626880?postal=19135 |
 
 ## Comments
 
@@ -87,7 +87,8 @@ URI: [sdoh:serviceUrl](http://schema.org/serviceUrl)
 <details>
 ```yaml
 name: sdoh_serviceUrl
-description: TODO -- tell the world what this slot (predicate) describes.
+description: The website to access the service.
+title: serviceUrl
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -95,7 +96,7 @@ todos:
 comments:
 - 188 occurrences with subject type sdoh_ServiceChannel and object type uri.
 examples:
-- value: dreamkg:service/channel/P-6378689670414336 sdoh:serviceUrl http://netcenters.org/services/addiction-recovery-programs/#ffs-tabbed-14
+- value: dreamkg:service/channel/AB-6453846037626880 sdoh:serviceUrl https://www.auntbertha.com//helping-hands-ministry%252C-inc.--philadelphia-pa--social-services---basic-needs-assistance/6453846037626880?postal=19135
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:serviceUrl

@@ -1,9 +1,9 @@
 
 
-# Slot: sdoh_areaServed
+# Slot: areaServed (sdoh_areaServed)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_The geographic area where a service or offered item is provided._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:areaServed](http://schema.org/areaServed)
 
 | Value |
 | --- |
-| dreamkg:service/4785885511417856 sdoh:areaServed This program covers residents of the following cities: Philadelphia, PA. |
+| dreamkg:service/6383660694765568 sdoh:areaServed This program covers residents of the following counties: Philadelphia County, PA. |
 
 ## Comments
 
@@ -87,7 +87,8 @@ URI: [sdoh:areaServed](http://schema.org/areaServed)
 <details>
 ```yaml
 name: sdoh_areaServed
-description: TODO -- tell the world what this slot (predicate) describes.
+description: The geographic area where a service or offered item is provided.
+title: areaServed
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -95,8 +96,8 @@ todos:
 comments:
 - 87 occurrences with subject type sdoh_Service and object type string.
 examples:
-- value: 'dreamkg:service/4785885511417856 sdoh:areaServed This program covers residents
-    of the following cities: Philadelphia, PA.'
+- value: 'dreamkg:service/6383660694765568 sdoh:areaServed This program covers residents
+    of the following counties: Philadelphia County, PA.'
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:areaServed

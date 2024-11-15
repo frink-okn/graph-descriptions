@@ -42,7 +42,7 @@ URI: [sdoh:Audience](http://schema.org/Audience)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_audienceType](../slots/sdoh_audienceType.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_audienceType](../slots/sdoh_audienceType.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | The target group associated with a given audience (e | direct |
 
 
 
@@ -64,7 +64,7 @@ URI: [sdoh:Audience](http://schema.org/Audience)
 
 | Value |
 | --- |
-| dreamkg:category/audience/IndividualsBenefit |
+| dreamkg:category/audience/FosterYouth |
 
 ## TODOs
 
@@ -119,7 +119,7 @@ todos:
 notes:
 - There are 81 instances of this class.
 examples:
-- value: dreamkg:category/audience/IndividualsBenefit
+- value: dreamkg:category/audience/FosterYouth
 from_schema: dream-kg
 slots:
 - sdoh_audienceType
@@ -142,12 +142,14 @@ todos:
 notes:
 - There are 81 instances of this class.
 examples:
-- value: dreamkg:category/audience/IndividualsBenefit
+- value: dreamkg:category/audience/FosterYouth
 from_schema: dream-kg
 attributes:
   sdoh_audienceType:
     name: sdoh_audienceType
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: The target group associated with a given audience (e.g. veterans,
+      car owners, musicians, etc.).
+    title: audienceType
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -155,7 +157,7 @@ attributes:
     comments:
     - 81 occurrences with subject type sdoh_Audience and object type string.
     examples:
-    - value: dreamkg:category/audience/AllAges sdoh:audienceType all ages
+    - value: dreamkg:category/audience/Female sdoh:audienceType female
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:audienceType

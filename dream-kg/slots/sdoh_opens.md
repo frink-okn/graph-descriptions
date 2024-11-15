@@ -1,9 +1,9 @@
 
 
-# Slot: sdoh_opens
+# Slot: opens (sdoh_opens)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_The opening hour of the place or service on the given day(s) of the week._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:opens](http://schema.org/opens)
 
 | Value |
 | --- |
-| dreamkg:service/hours/thursday/5147295688687616 sdoh:opens 08:00 |
+| dreamkg:service/hours/tuesday/5161629360586752 sdoh:opens 08:00 |
 
 ## Comments
 
@@ -87,7 +87,8 @@ URI: [sdoh:opens](http://schema.org/opens)
 <details>
 ```yaml
 name: sdoh_opens
-description: TODO -- tell the world what this slot (predicate) describes.
+description: The opening hour of the place or service on the given day(s) of the week.
+title: opens
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -96,7 +97,7 @@ comments:
 - 631 occurrences with subject type sdoh_OpeningHoursSpecification and object type
   string.
 examples:
-- value: dreamkg:service/hours/thursday/5147295688687616 sdoh:opens 08:00
+- value: dreamkg:service/hours/tuesday/5161629360586752 sdoh:opens 08:00
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:opens

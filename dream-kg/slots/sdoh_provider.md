@@ -1,9 +1,9 @@
 
 
-# Slot: sdoh_provider
+# Slot: provider (sdoh_provider)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:provider](http://schema.org/provider)
 
 | Value |
 | --- |
-| dreamkg:service/5128979153944576 sdoh:provider dreamkg:service/provider/5128979153944576 |
+| dreamkg:service/6032260047568896 sdoh:provider dreamkg:service/provider/6032260047568896 |
 
 ## Comments
 
@@ -87,7 +87,10 @@ URI: [sdoh:provider](http://schema.org/provider)
 <details>
 ```yaml
 name: sdoh_provider
-description: TODO -- tell the world what this slot (predicate) describes.
+description: The service provider, service operator, or service performer; the goods
+  producer. Another party (a seller) may offer those services or goods on behalf of
+  the provider. A provider may also serve as the seller.
+title: provider
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -95,7 +98,7 @@ todos:
 comments:
 - 87 occurrences with subject type sdoh_Service and object type sdoh_Organization.
 examples:
-- value: dreamkg:service/5128979153944576 sdoh:provider dreamkg:service/provider/5128979153944576
+- value: dreamkg:service/6032260047568896 sdoh:provider dreamkg:service/provider/6032260047568896
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:provider

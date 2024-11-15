@@ -51,8 +51,8 @@ URI: [sdoh:TextObject](http://schema.org/TextObject)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_conditionsOfAccess](../slots/sdoh_conditionsOfAccess.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_text](../slots/sdoh_text.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_text](../slots/sdoh_text.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | The textual content of this CreativeWork | direct |
+| [sdoh_conditionsOfAccess](../slots/sdoh_conditionsOfAccess.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | Conditions that affect the availability of, or method(s) of access to, an ite... | direct |
 
 
 
@@ -74,7 +74,7 @@ URI: [sdoh:TextObject](http://schema.org/TextObject)
 
 | Value |
 | --- |
-| dreamkg:service/desc/5630846852399104 |
+| dreamkg:service/desc/4921265385242624 |
 
 ## TODOs
 
@@ -129,11 +129,11 @@ todos:
 notes:
 - There are 87 instances of this class.
 examples:
-- value: dreamkg:service/desc/5630846852399104
+- value: dreamkg:service/desc/4921265385242624
 from_schema: dream-kg
 slots:
-- sdoh_conditionsOfAccess
 - sdoh_text
+- sdoh_conditionsOfAccess
 class_uri: sdoh:TextObject
 
 ```
@@ -153,33 +153,13 @@ todos:
 notes:
 - There are 87 instances of this class.
 examples:
-- value: dreamkg:service/desc/5630846852399104
+- value: dreamkg:service/desc/4921265385242624
 from_schema: dream-kg
 attributes:
-  sdoh_conditionsOfAccess:
-    name: sdoh_conditionsOfAccess
-    description: TODO -- tell the world what this slot (predicate) describes.
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 88 occurrences with subject type sdoh_TextObject and object type string.
-    examples:
-    - value: dreamkg:service/desc/6206753615380480 sdoh:conditionsOfAccess All families
-        must be referred to us through the City of Philadelphias Office of Supportive
-        Housing central intake.
-    from_schema: dream-kg
-    rank: 1000
-    slot_uri: sdoh:conditionsOfAccess
-    alias: sdoh_conditionsOfAccess
-    owner: sdoh_TextObject
-    domain_of:
-    - sdoh_TextObject
-    range: string
   sdoh_text:
     name: sdoh_text
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: The textual content of this CreativeWork.
+    title: text
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -187,18 +167,45 @@ attributes:
     comments:
     - 90 occurrences with subject type sdoh_TextObject and object type string.
     examples:
-    - value: dreamkg:service/desc/5181712996761600 sdoh:text The Bridge provides quality,
-        accessible treatment while preparing clients to re-enter their communities
-        as drug-and alcohol-free members of society.  Individualized treatment plans
-        are created to meet clients' needs and clients have access to the comprehensive
-        addictions, mental health, educational and life skills services provided at
-        The Bridge.This program provides:- Individual Counseling- Substance Abuse
-        Counseling- Mental Health Care- Short term housing- Long term housing- Addiction
-        & Recovery
+    - value: dreamkg:service/desc/6272068172382208 sdoh:text Wedge Recovery Center
+        offers the Early Intervention Program for Philadelphia residents between the
+        ages 12-21 who are currently using substances or who are otherwise at risk
+        for substance abuse because of factors in the environmental, school, legal,
+        family, mental health, peer & social, and dependency system domains.We offer:-
+        Substance Use Screening and Assessment- Evidenced-based Substance Abuse Education-
+        Intervention Counseling- Family Counseling- Community/School/Child service
+        outreach- Individualized Service Planning- Group Psychoeducational Sessions-
+        Parental Education/Consultation- Service Linkage
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:text
     alias: sdoh_text
+    owner: sdoh_TextObject
+    domain_of:
+    - sdoh_TextObject
+    range: string
+  sdoh_conditionsOfAccess:
+    name: sdoh_conditionsOfAccess
+    description: 'Conditions that affect the availability of, or method(s) of access
+      to, an item. Typically used for real world items such as an [[ArchiveComponent]]
+      held by an [[ArchiveOrganization]]. This property is not suitable for use as
+      a general Web access control mechanism. It is expressed only in natural language.\n\nFor
+      example "Available by appointment from the Reading Room" or "Accessible only
+      from logged-in accounts ". '
+    title: conditionsOfAccess
+    todos:
+    - TODO -- Todos for this slot go here
+    - or you can delete the todos
+    - if you think the class is perfect.
+    comments:
+    - 88 occurrences with subject type sdoh_TextObject and object type string.
+    examples:
+    - value: dreamkg:service/desc/5481658659373056 sdoh:conditionsOfAccess Anyone
+        can access this service.
+    from_schema: dream-kg
+    rank: 1000
+    slot_uri: sdoh:conditionsOfAccess
+    alias: sdoh_conditionsOfAccess
     owner: sdoh_TextObject
     domain_of:
     - sdoh_TextObject
