@@ -23,7 +23,7 @@ URI: [rural:settlementtype/hasRUCC](http://sail.ua.edu/ruralkg/settlementtype/ha
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSettlementtypeCountyStatus](../classes/RuralSettlementtypeCountyStatus.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralSettlementtypeCountyStatus](../classes/RuralSettlementtypeCountyStatus.md) | Status of a county in terms of rural or urban classification |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [rural:settlementtype/hasRUCC](http://sail.ua.edu/ruralkg/settlementtype/ha
 
 | Value |
 | --- |
-| rural:settlementtype/CountyStatus_36061_2013 rural:settlementtype/hasRUCC rural:settlementtype/RUCC_2013_1 |
+| rural:settlementtype/CountyStatus_46043_2013 rural:settlementtype/hasRUCC rural:settlementtype/RUCC_2013_9 |
 
 ## Comments
 
@@ -96,8 +96,8 @@ comments:
 - 3234 occurrences with subject type rural_settlementtype_CountyStatus and object
   type rural_settlementtype_RUCC.
 examples:
-- value: rural:settlementtype/CountyStatus_36061_2013 rural:settlementtype/hasRUCC
-    rural:settlementtype/RUCC_2013_1
+- value: rural:settlementtype/CountyStatus_46043_2013 rural:settlementtype/hasRUCC
+    rural:settlementtype/RUCC_2013_9
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:settlementtype/hasRUCC

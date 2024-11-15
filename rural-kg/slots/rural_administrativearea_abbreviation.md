@@ -23,7 +23,7 @@ URI: [rural:administrativearea/abbreviation](http://sail.ua.edu/ruralkg/administ
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralAdministrativeareaState](../classes/RuralAdministrativeareaState.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralAdministrativeareaState](../classes/RuralAdministrativeareaState.md) | Represents individual states within U |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [rural:administrativearea/abbreviation](http://sail.ua.edu/ruralkg/administ
 
 | Value |
 | --- |
-| rural:administrativearea/State_MO rural:administrativearea/abbreviation MO |
+| rural:administrativearea/State_MN rural:administrativearea/abbreviation MN |
 
 ## Comments
 
@@ -96,7 +96,7 @@ comments:
 - 56 occurrences with subject type rural_administrativearea_State and object type
   string.
 examples:
-- value: rural:administrativearea/State_MO rural:administrativearea/abbreviation MO
+- value: rural:administrativearea/State_MN rural:administrativearea/abbreviation MN
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:administrativearea/abbreviation

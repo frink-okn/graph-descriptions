@@ -23,7 +23,7 @@ URI: [rural:substanceabuse/code](http://sail.ua.edu/ruralkg/substanceabuse/code)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | Types of substances that can be abused |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [rural:substanceabuse/code](http://sail.ua.edu/ruralkg/substanceabuse/code)
 
 | Value |
 | --- |
-| rural:substanceabuse/Substance_6 rural:substanceabuse/code None |
+| rural:substanceabuse/Substance_17 rural:substanceabuse/code 7405 |
 
 ## Comments
 
@@ -96,7 +96,7 @@ comments:
 - 25 occurrences with subject type rural_substanceabuse_Substance and object type
   string.
 examples:
-- value: rural:substanceabuse/Substance_6 rural:substanceabuse/code None
+- value: rural:substanceabuse/Substance_17 rural:substanceabuse/code 7405
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:substanceabuse/code

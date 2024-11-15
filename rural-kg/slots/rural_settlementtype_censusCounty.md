@@ -23,7 +23,7 @@ URI: [rural:settlementtype/censusCounty](http://sail.ua.edu/ruralkg/settlementty
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSettlementtypeCountyStatus](../classes/RuralSettlementtypeCountyStatus.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralSettlementtypeCountyStatus](../classes/RuralSettlementtypeCountyStatus.md) | Status of a county in terms of rural or urban classification |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [rural:settlementtype/censusCounty](http://sail.ua.edu/ruralkg/settlementty
 
 | Value |
 | --- |
-| rural:settlementtype/CountyStatus_13237_2013 rural:settlementtype/censusCounty rural:administrativearea/County_13237 |
+| rural:settlementtype/CountyStatus_28135_2013 rural:settlementtype/censusCounty rural:administrativearea/County_28135 |
 
 ## Comments
 
@@ -96,8 +96,8 @@ comments:
 - 3234 occurrences with subject type rural_settlementtype_CountyStatus and object
   type rural_administrativearea_County.
 examples:
-- value: rural:settlementtype/CountyStatus_13237_2013 rural:settlementtype/censusCounty
-    rural:administrativearea/County_13237
+- value: rural:settlementtype/CountyStatus_28135_2013 rural:settlementtype/censusCounty
+    rural:administrativearea/County_28135
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:settlementtype/censusCounty

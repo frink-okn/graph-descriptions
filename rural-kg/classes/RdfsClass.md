@@ -94,7 +94,7 @@ URI: [rdfs:Class](http://www.w3.org/2000/01/rdf-schema#Class)
 
 | Value |
 | --- |
-| rural:administrativearea/AdministrativeArea |
+| rural:substanceabuse/Substance |
 
 ## TODOs
 
@@ -149,7 +149,7 @@ todos:
 notes:
 - There are 14 instances of this class.
 examples:
-- value: rural:administrativearea/AdministrativeArea
+- value: rural:substanceabuse/Substance
 from_schema: rural-kg
 slots:
 - rdfs_subClassOf
@@ -175,7 +175,7 @@ todos:
 notes:
 - There are 14 instances of this class.
 examples:
-- value: rural:administrativearea/AdministrativeArea
+- value: rural:substanceabuse/Substance
 from_schema: rural-kg
 attributes:
   rdfs_subClassOf:
@@ -188,7 +188,7 @@ attributes:
     comments:
     - 9 occurrences with subject type rdfs_Class and object type rdfs_Class.
     examples:
-    - value: rural:administrativearea/State rdfs:subClassOf rural:administrativearea/AdministrativeArea
+    - value: rural:administrativearea/County rdfs:subClassOf rural:administrativearea/AdministrativeArea
     from_schema: rural-kg
     rank: 1000
     slot_uri: rdfs:subClassOf
@@ -207,7 +207,7 @@ attributes:
     comments:
     - 5 occurrences with subject type rdfs_Class and object type owl_Ontology.
     examples:
-    - value: rural:settlementtype/SettlementType rdfs:isDefinedBy rural:ontology
+    - value: rural:treatmentprovider/TreatmentProvider rdfs:isDefinedBy rural:ontology
     from_schema: rural-kg
     rank: 1000
     slot_uri: rdfs:isDefinedBy
@@ -226,8 +226,8 @@ attributes:
     comments:
     - 14 occurrences with subject type rdfs_Class and object type string.
     examples:
-    - value: rural:substanceabuse/Substance rdfs:comment Types of substances that
-        can be abused.
+    - value: rural:mentalhealthservice/MentalHealthServiceCategory rdfs:comment Categories
+        of mental health services.
     from_schema: rural-kg
     rank: 1000
     slot_uri: rdfs:comment
@@ -246,7 +246,7 @@ attributes:
     comments:
     - 5 occurrences with subject type rdfs_Class and object type string.
     examples:
-    - value: rural:substanceabuse/SubstanceAbuse rdfs:label Substance Abuse
+    - value: rural:treatmentprovider/TreatmentProvider rdfs:label Treatment Provider
     from_schema: rural-kg
     rank: 1000
     slot_uri: rdfs:label

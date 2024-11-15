@@ -23,7 +23,7 @@ URI: [rural:treatmentprovider/inCity](http://sail.ua.edu/ruralkg/treatmentprovid
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralTreatmentproviderTreatmentProvider](../classes/RuralTreatmentproviderTreatmentProvider.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralTreatmentproviderTreatmentProvider](../classes/RuralTreatmentproviderTreatmentProvider.md) | Entities that provide treatment services, sourcing from National Directory Of... |  no  |
 
 
 
@@ -44,8 +44,8 @@ URI: [rural:treatmentprovider/inCity](http://sail.ua.edu/ruralkg/treatmentprovid
 
 | Value |
 | --- |
-| rural:treatmentprovider/TP_5424 rural:treatmentprovider/inCity rural:administrativearea/City_1840034030 |
-| rural:treatmentprovider/TP_8417 rural:treatmentprovider/inCity rural:administrativearea/City_None |
+| rural:treatmentprovider/TP_2390 rural:treatmentprovider/inCity rural:administrativearea/City_1840000494 |
+| rural:treatmentprovider/TP_1871 rural:treatmentprovider/inCity rural:administrativearea/City_None |
 
 ## Comments
 
@@ -100,8 +100,8 @@ comments:
 - 920 occurrences with subject type rural_treatmentprovider_TreatmentProvider and
   object type uri.
 examples:
-- value: rural:treatmentprovider/TP_5424 rural:treatmentprovider/inCity rural:administrativearea/City_1840034030
-- value: rural:treatmentprovider/TP_8417 rural:treatmentprovider/inCity rural:administrativearea/City_None
+- value: rural:treatmentprovider/TP_2390 rural:treatmentprovider/inCity rural:administrativearea/City_1840000494
+- value: rural:treatmentprovider/TP_1871 rural:treatmentprovider/inCity rural:administrativearea/City_None
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:treatmentprovider/inCity

@@ -23,7 +23,7 @@ URI: [rural:settlementtype/population](http://sail.ua.edu/ruralkg/settlementtype
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSettlementtypeCountyStatus](../classes/RuralSettlementtypeCountyStatus.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralSettlementtypeCountyStatus](../classes/RuralSettlementtypeCountyStatus.md) | Status of a county in terms of rural or urban classification |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [rural:settlementtype/population](http://sail.ua.edu/ruralkg/settlementtype
 
 | Value |
 | --- |
-| rural:settlementtype/CountyStatus_48311_2013 rural:settlementtype/population 707 |
+| rural:settlementtype/CountyStatus_36089_2013 rural:settlementtype/population 111944 |
 
 ## Comments
 
@@ -96,8 +96,8 @@ comments:
 - 3234 occurrences with subject type rural_settlementtype_CountyStatus and object
   type integer.
 examples:
-- value: rural:settlementtype/CountyStatus_48311_2013 rural:settlementtype/population
-    707
+- value: rural:settlementtype/CountyStatus_36089_2013 rural:settlementtype/population
+    111944
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:settlementtype/population

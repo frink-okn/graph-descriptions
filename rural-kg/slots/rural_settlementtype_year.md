@@ -23,8 +23,8 @@ URI: [rural:settlementtype/year](http://sail.ua.edu/ruralkg/settlementtype/year)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSettlementtypeCountyStatus](../classes/RuralSettlementtypeCountyStatus.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [RuralSettlementtypeRUCC](../classes/RuralSettlementtypeRUCC.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralSettlementtypeCountyStatus](../classes/RuralSettlementtypeCountyStatus.md) | Status of a county in terms of rural or urban classification |  no  |
+| [RuralSettlementtypeRUCC](../classes/RuralSettlementtypeRUCC.md) | Rural-Urban Continuum Code classification |  no  |
 
 
 
@@ -45,8 +45,8 @@ URI: [rural:settlementtype/year](http://sail.ua.edu/ruralkg/settlementtype/year)
 
 | Value |
 | --- |
-| rural:settlementtype/CountyStatus_13299_2013 rural:settlementtype/year 2013 |
-| rural:settlementtype/RUCC_2013_8 rural:settlementtype/year 2013 |
+| rural:settlementtype/CountyStatus_46019_2013 rural:settlementtype/year 2013 |
+| rural:settlementtype/RUCC_2013_5 rural:settlementtype/year 2013 |
 
 ## Comments
 
@@ -100,8 +100,8 @@ comments:
   type integer.
 - 10 occurrences with subject type rural_settlementtype_RUCC and object type integer.
 examples:
-- value: rural:settlementtype/CountyStatus_13299_2013 rural:settlementtype/year 2013
-- value: rural:settlementtype/RUCC_2013_8 rural:settlementtype/year 2013
+- value: rural:settlementtype/CountyStatus_46019_2013 rural:settlementtype/year 2013
+- value: rural:settlementtype/RUCC_2013_5 rural:settlementtype/year 2013
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:settlementtype/year

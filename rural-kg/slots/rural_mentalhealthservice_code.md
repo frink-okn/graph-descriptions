@@ -23,8 +23,8 @@ URI: [rural:mentalhealthservice/code](http://sail.ua.edu/ruralkg/mentalhealthser
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralMentalhealthserviceMentalHealthServiceCategory](../classes/RuralMentalhealthserviceMentalHealthServiceCategory.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [RuralMentalhealthserviceMentalHealthService](../classes/RuralMentalhealthserviceMentalHealthService.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralMentalhealthserviceMentalHealthServiceCategory](../classes/RuralMentalhealthserviceMentalHealthServiceCategory.md) | Categories of mental health services |  no  |
+| [RuralMentalhealthserviceMentalHealthService](../classes/RuralMentalhealthserviceMentalHealthService.md) | Specific mental health services offered |  no  |
 
 
 
@@ -45,13 +45,13 @@ URI: [rural:mentalhealthservice/code](http://sail.ua.edu/ruralkg/mentalhealthser
 
 | Value |
 | --- |
-| rural:mentalhealthservice/MHSC_AGE rural:mentalhealthservice/code AGE |
-| rural:mentalhealthservice/MHS_FED rural:mentalhealthservice/code FED |
+| rural:mentalhealthservice/MHS_AH rural:mentalhealthservice/code AH |
+| rural:mentalhealthservice/MHSC_OL rural:mentalhealthservice/code OL |
 
 ## Comments
 
-* 21 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory and object type string.
 * 176 occurrences with subject type rural_mentalhealthservice_MentalHealthService and object type string.
+* 21 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory and object type string.
 
 ## TODOs
 
@@ -96,13 +96,13 @@ todos:
 - or you can delete the todos
 - if you think the class is perfect.
 comments:
-- 21 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory
-  and object type string.
 - 176 occurrences with subject type rural_mentalhealthservice_MentalHealthService
   and object type string.
+- 21 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory
+  and object type string.
 examples:
-- value: rural:mentalhealthservice/MHSC_AGE rural:mentalhealthservice/code AGE
-- value: rural:mentalhealthservice/MHS_FED rural:mentalhealthservice/code FED
+- value: rural:mentalhealthservice/MHS_AH rural:mentalhealthservice/code AH
+- value: rural:mentalhealthservice/MHSC_OL rural:mentalhealthservice/code OL
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:mentalhealthservice/code

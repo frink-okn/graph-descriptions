@@ -23,8 +23,8 @@ URI: [rural:substanceabuse/sourceDataset](http://sail.ua.edu/ruralkg/substanceab
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSubstanceabuseSubstanceRelatedIncident](../classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralSubstanceabuseSubstanceRelatedIncident](../classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | Types of incidents related to substance abuse |  no  |
+| [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | Types of substances that can be abused |  no  |
 
 
 
@@ -45,13 +45,13 @@ URI: [rural:substanceabuse/sourceDataset](http://sail.ua.edu/ruralkg/substanceab
 
 | Value |
 | --- |
-| rural:substanceabuse/Substance_9 rural:substanceabuse/sourceDataset NSDUH |
-| rural:substanceabuse/SIT_8 rural:substanceabuse/sourceDataset NSDUH |
+| rural:substanceabuse/SIT_4 rural:substanceabuse/sourceDataset NSDUH |
+| rural:substanceabuse/Substance_2 rural:substanceabuse/sourceDataset NSDUH |
 
 ## Comments
 
-* 25 occurrences with subject type rural_substanceabuse_Substance and object type string.
 * 17 occurrences with subject type rural_substanceabuse_SubstanceRelatedIncident and object type string.
+* 25 occurrences with subject type rural_substanceabuse_Substance and object type string.
 
 ## TODOs
 
@@ -96,13 +96,13 @@ todos:
 - or you can delete the todos
 - if you think the class is perfect.
 comments:
-- 25 occurrences with subject type rural_substanceabuse_Substance and object type
-  string.
 - 17 occurrences with subject type rural_substanceabuse_SubstanceRelatedIncident and
   object type string.
+- 25 occurrences with subject type rural_substanceabuse_Substance and object type
+  string.
 examples:
-- value: rural:substanceabuse/Substance_9 rural:substanceabuse/sourceDataset NSDUH
-- value: rural:substanceabuse/SIT_8 rural:substanceabuse/sourceDataset NSDUH
+- value: rural:substanceabuse/SIT_4 rural:substanceabuse/sourceDataset NSDUH
+- value: rural:substanceabuse/Substance_2 rural:substanceabuse/sourceDataset NSDUH
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:substanceabuse/sourceDataset

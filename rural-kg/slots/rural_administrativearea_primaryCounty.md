@@ -23,7 +23,7 @@ URI: [rural:administrativearea/primaryCounty](http://sail.ua.edu/ruralkg/adminis
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralAdministrativeareaCity](../classes/RuralAdministrativeareaCity.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralAdministrativeareaCity](../classes/RuralAdministrativeareaCity.md) | City entities within a county or state |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [rural:administrativearea/primaryCounty](http://sail.ua.edu/ruralkg/adminis
 
 | Value |
 | --- |
-| rural:administrativearea/City_1840007376 rural:administrativearea/primaryCounty rural:administrativearea/County_18105 |
+| rural:administrativearea/City_1840009099 rural:administrativearea/primaryCounty rural:administrativearea/County_19055 |
 
 ## Comments
 
@@ -96,8 +96,8 @@ comments:
 - 31120 occurrences with subject type rural_administrativearea_City and object type
   rural_administrativearea_County.
 examples:
-- value: rural:administrativearea/City_1840007376 rural:administrativearea/primaryCounty
-    rural:administrativearea/County_18105
+- value: rural:administrativearea/City_1840009099 rural:administrativearea/primaryCounty
+    rural:administrativearea/County_19055
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:administrativearea/primaryCounty

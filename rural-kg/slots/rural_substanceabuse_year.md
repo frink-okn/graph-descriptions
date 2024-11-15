@@ -23,8 +23,8 @@ URI: [rural:substanceabuse/year](http://sail.ua.edu/ruralkg/substanceabuse/year)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSubstanceabuseSubstanceRelatedIncident](../classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralSubstanceabuseSubstanceRelatedIncident](../classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | Types of incidents related to substance abuse |  no  |
+| [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | Types of substances that can be abused |  no  |
 
 
 
@@ -45,8 +45,8 @@ URI: [rural:substanceabuse/year](http://sail.ua.edu/ruralkg/substanceabuse/year)
 
 | Value |
 | --- |
-| rural:substanceabuse/Substance_8 rural:substanceabuse/year 2022 |
-| rural:substanceabuse/SIT_8 rural:substanceabuse/year 2022 |
+| rural:substanceabuse/Substance_13 rural:substanceabuse/year 2022 |
+| rural:substanceabuse/SIT_4 rural:substanceabuse/year 2022 |
 
 ## Comments
 
@@ -101,8 +101,8 @@ comments:
 - 17 occurrences with subject type rural_substanceabuse_SubstanceRelatedIncident and
   object type integer.
 examples:
-- value: rural:substanceabuse/Substance_8 rural:substanceabuse/year 2022
-- value: rural:substanceabuse/SIT_8 rural:substanceabuse/year 2022
+- value: rural:substanceabuse/Substance_13 rural:substanceabuse/year 2022
+- value: rural:substanceabuse/SIT_4 rural:substanceabuse/year 2022
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:substanceabuse/year

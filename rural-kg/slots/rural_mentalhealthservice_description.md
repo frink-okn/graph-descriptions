@@ -23,7 +23,7 @@ URI: [rural:mentalhealthservice/description](http://sail.ua.edu/ruralkg/mentalhe
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralMentalhealthserviceMentalHealthService](../classes/RuralMentalhealthserviceMentalHealthService.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralMentalhealthserviceMentalHealthService](../classes/RuralMentalhealthserviceMentalHealthService.md) | Specific mental health services offered |  no  |
 
 
 
@@ -44,7 +44,8 @@ URI: [rural:mentalhealthservice/description](http://sail.ua.edu/ruralkg/mentalhe
 
 | Value |
 | --- |
-| rural:mentalhealthservice/MHS_IPC rural:mentalhealthservice/description Address the general health care needs of persons with mental health and substance use problems. These general health care needs include the prevention and treatment of chronic illnesses (e.g., hypertension, diabetes, obesity, and cardiovascular disease) that can be aggravated by poor health habits such as inadequate physical activity, poor nutrition, and smoking. The services include screening, coordinating care among behavioral health care staff and medical staff; and providing linkages to ensure that all patient needs are met in order to promote wellness and produce the best outcomes. |
+| rural:mentalhealthservice/MHS_PVTN rural:mentalhealthservice/description A charitable organization that does not qualify as a public charity.
+ |
 
 ## Comments
 
@@ -96,15 +97,10 @@ comments:
 - 176 occurrences with subject type rural_mentalhealthservice_MentalHealthService
   and object type string.
 examples:
-- value: rural:mentalhealthservice/MHS_IPC rural:mentalhealthservice/description Address
-    the general health care needs of persons with mental health and substance use
-    problems. These general health care needs include the prevention and treatment
-    of chronic illnesses (e.g., hypertension, diabetes, obesity, and cardiovascular
-    disease) that can be aggravated by poor health habits such as inadequate physical
-    activity, poor nutrition, and smoking. The services include screening, coordinating
-    care among behavioral health care staff and medical staff; and providing linkages
-    to ensure that all patient needs are met in order to promote wellness and produce
-    the best outcomes.
+- value: 'rural:mentalhealthservice/MHS_PVTN rural:mentalhealthservice/description
+    A charitable organization that does not qualify as a public charity.
+
+    '
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:mentalhealthservice/description

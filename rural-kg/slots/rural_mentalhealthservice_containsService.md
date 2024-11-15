@@ -23,7 +23,7 @@ URI: [rural:mentalhealthservice/containsService](http://sail.ua.edu/ruralkg/ment
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralMentalhealthserviceMentalHealthServiceCategory](../classes/RuralMentalhealthserviceMentalHealthServiceCategory.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralMentalhealthserviceMentalHealthServiceCategory](../classes/RuralMentalhealthserviceMentalHealthServiceCategory.md) | Categories of mental health services |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [rural:mentalhealthservice/containsService](http://sail.ua.edu/ruralkg/ment
 
 | Value |
 | --- |
-| rural:mentalhealthservice/MHSC_AS rural:mentalhealthservice/containsService rural:mentalhealthservice/MHS_COOT |
+| rural:mentalhealthservice/MHSC_ECS rural:mentalhealthservice/containsService rural:mentalhealthservice/MHS_TCC |
 
 ## Comments
 
@@ -96,8 +96,8 @@ comments:
 - 176 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory
   and object type rural_mentalhealthservice_MentalHealthService.
 examples:
-- value: rural:mentalhealthservice/MHSC_AS rural:mentalhealthservice/containsService
-    rural:mentalhealthservice/MHS_COOT
+- value: rural:mentalhealthservice/MHSC_ECS rural:mentalhealthservice/containsService
+    rural:mentalhealthservice/MHS_TCC
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:mentalhealthservice/containsService

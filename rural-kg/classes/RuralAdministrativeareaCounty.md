@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for what this class (type) describes? (rural_administrativearea_County)
 
 
-_TODO -- tell the world what this class (type) describes._
+_Defines counties within a state._
 
 
 
@@ -20,6 +20,9 @@ URI: [rural:administrativearea/County](http://sail.ua.edu/ruralkg/administrative
  classDiagram
     class RuralAdministrativeareaCounty
     click RuralAdministrativeareaCounty href "../RuralAdministrativeareaCounty"
+      RuralAdministrativeareaAdministrativeArea <|-- RuralAdministrativeareaCounty
+        click RuralAdministrativeareaAdministrativeArea href "../RuralAdministrativeareaAdministrativeArea"
+      
       RuralAdministrativeareaCounty : rural_administrativearea_fips
         
           
@@ -44,7 +47,11 @@ URI: [rural:administrativearea/County](http://sail.ua.edu/ruralkg/administrative
 
 
 
-<!-- no inheritance hierarchy -->
+
+## Inheritance
+* [RuralAdministrativeareaAdministrativeArea](../classes/RuralAdministrativeareaAdministrativeArea.md)
+    * **RuralAdministrativeareaCounty**
+
 
 
 ## Slots
@@ -76,7 +83,7 @@ URI: [rural:administrativearea/County](http://sail.ua.edu/ruralkg/administrative
 
 | Value |
 | --- |
-| rural:administrativearea/County_53073 |
+| rural:administrativearea/County_29197 |
 
 ## TODOs
 
@@ -122,7 +129,7 @@ URI: [rural:administrativearea/County](http://sail.ua.edu/ruralkg/administrative
 <details>
 ```yaml
 name: rural_administrativearea_County
-description: TODO -- tell the world what this class (type) describes.
+description: Defines counties within a state.
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -131,8 +138,9 @@ todos:
 notes:
 - There are 3253 instances of this class.
 examples:
-- value: rural:administrativearea/County_53073
+- value: rural:administrativearea/County_29197
 from_schema: rural-kg
+is_a: rural_administrativearea_AdministrativeArea
 slots:
 - rural_administrativearea_fips
 - rural_administrativearea_name
@@ -146,7 +154,7 @@ class_uri: rural:administrativearea/County
 <details>
 ```yaml
 name: rural_administrativearea_County
-description: TODO -- tell the world what this class (type) describes.
+description: Defines counties within a state.
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -155,8 +163,9 @@ todos:
 notes:
 - There are 3253 instances of this class.
 examples:
-- value: rural:administrativearea/County_53073
+- value: rural:administrativearea/County_29197
 from_schema: rural-kg
+is_a: rural_administrativearea_AdministrativeArea
 attributes:
   rural_administrativearea_fips:
     name: rural_administrativearea_fips
@@ -171,8 +180,8 @@ attributes:
     - 56 occurrences with subject type rural_administrativearea_State and object type
       string.
     examples:
-    - value: rural:administrativearea/County_20185 rural:administrativearea/fips 20185
-    - value: rural:administrativearea/State_OR rural:administrativearea/fips 41
+    - value: rural:administrativearea/County_48409 rural:administrativearea/fips 48409
+    - value: rural:administrativearea/State_UT rural:administrativearea/fips 49
     from_schema: rural-kg
     rank: 1000
     slot_uri: rural:administrativearea/fips
@@ -197,10 +206,10 @@ attributes:
     - 56 occurrences with subject type rural_administrativearea_State and object type
       string.
     examples:
-    - value: rural:administrativearea/City_1840017624 rural:administrativearea/name
-        El Granada
-    - value: rural:administrativearea/County_37133 rural:administrativearea/name Onslow
-    - value: rural:administrativearea/State_AR rural:administrativearea/name Arkansas
+    - value: rural:administrativearea/City_1840007332 rural:administrativearea/name
+        Greenwood
+    - value: rural:administrativearea/County_54083 rural:administrativearea/name Randolph
+    - value: rural:administrativearea/State_CO rural:administrativearea/name Colorado
     from_schema: rural-kg
     rank: 1000
     slot_uri: rural:administrativearea/name

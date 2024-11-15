@@ -23,8 +23,8 @@ URI: [rural:mentalhealthservice/name](http://sail.ua.edu/ruralkg/mentalhealthser
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralMentalhealthserviceMentalHealthServiceCategory](../classes/RuralMentalhealthserviceMentalHealthServiceCategory.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [RuralMentalhealthserviceMentalHealthService](../classes/RuralMentalhealthserviceMentalHealthService.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralMentalhealthserviceMentalHealthServiceCategory](../classes/RuralMentalhealthserviceMentalHealthServiceCategory.md) | Categories of mental health services |  no  |
+| [RuralMentalhealthserviceMentalHealthService](../classes/RuralMentalhealthserviceMentalHealthService.md) | Specific mental health services offered |  no  |
 
 
 
@@ -45,8 +45,8 @@ URI: [rural:mentalhealthservice/name](http://sail.ua.edu/ruralkg/mentalhealthser
 
 | Value |
 | --- |
-| rural:mentalhealthservice/MHS_DV rural:mentalhealthservice/name Clients who have experienced intimate partner violence, domestic violence |
-| rural:mentalhealthservice/MHSC_ECS rural:mentalhealthservice/name Education and Counseling Services |
+| rural:mentalhealthservice/MHS_HIVT rural:mentalhealthservice/name HIV testing |
+| rural:mentalhealthservice/MHSC_FOP rural:mentalhealthservice/name Facility Operation (e.g., Private, Public) |
 
 ## Comments
 
@@ -101,10 +101,9 @@ comments:
 - 21 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory
   and object type string.
 examples:
-- value: rural:mentalhealthservice/MHS_DV rural:mentalhealthservice/name Clients who
-    have experienced intimate partner violence, domestic violence
-- value: rural:mentalhealthservice/MHSC_ECS rural:mentalhealthservice/name Education
-    and Counseling Services
+- value: rural:mentalhealthservice/MHS_HIVT rural:mentalhealthservice/name HIV testing
+- value: rural:mentalhealthservice/MHSC_FOP rural:mentalhealthservice/name Facility
+    Operation (e.g., Private, Public)
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:mentalhealthservice/name

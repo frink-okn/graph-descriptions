@@ -23,7 +23,7 @@ URI: [rural:treatmentprovider/name](http://sail.ua.edu/ruralkg/treatmentprovider
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralTreatmentproviderTreatmentProvider](../classes/RuralTreatmentproviderTreatmentProvider.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralTreatmentproviderTreatmentProvider](../classes/RuralTreatmentproviderTreatmentProvider.md) | Entities that provide treatment services, sourcing from National Directory Of... |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [rural:treatmentprovider/name](http://sail.ua.edu/ruralkg/treatmentprovider
 
 | Value |
 | --- |
-| rural:treatmentprovider/TP_6853 rural:treatmentprovider/name Lifeways Inc |
+| rural:treatmentprovider/TP_4974 rural:treatmentprovider/name Greater Nashua Mental Health |
 
 ## Comments
 
@@ -96,7 +96,8 @@ comments:
 - 9037 occurrences with subject type rural_treatmentprovider_TreatmentProvider and
   object type string.
 examples:
-- value: rural:treatmentprovider/TP_6853 rural:treatmentprovider/name Lifeways Inc
+- value: rural:treatmentprovider/TP_4974 rural:treatmentprovider/name Greater Nashua
+    Mental Health
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:treatmentprovider/name

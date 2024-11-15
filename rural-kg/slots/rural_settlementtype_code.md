@@ -23,7 +23,7 @@ URI: [rural:settlementtype/code](http://sail.ua.edu/ruralkg/settlementtype/code)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSettlementtypeRUCC](../classes/RuralSettlementtypeRUCC.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralSettlementtypeRUCC](../classes/RuralSettlementtypeRUCC.md) | Rural-Urban Continuum Code classification |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [rural:settlementtype/code](http://sail.ua.edu/ruralkg/settlementtype/code)
 
 | Value |
 | --- |
-| rural:settlementtype/RUCC_2013_8 rural:settlementtype/code 8 |
+| rural:settlementtype/RUCC_2013_9 rural:settlementtype/code 9 |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 10 occurrences with subject type rural_settlementtype_RUCC and object type string.
 examples:
-- value: rural:settlementtype/RUCC_2013_8 rural:settlementtype/code 8
+- value: rural:settlementtype/RUCC_2013_9 rural:settlementtype/code 9
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:settlementtype/code

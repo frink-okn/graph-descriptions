@@ -23,7 +23,7 @@ URI: [rural:administrativearea/containsPlace](http://sail.ua.edu/ruralkg/adminis
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralAdministrativeareaState](../classes/RuralAdministrativeareaState.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralAdministrativeareaState](../classes/RuralAdministrativeareaState.md) | Represents individual states within U |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [rural:administrativearea/containsPlace](http://sail.ua.edu/ruralkg/adminis
 
 | Value |
 | --- |
-| rural:administrativearea/State_IN rural:administrativearea/containsPlace rural:administrativearea/County_18103 |
+| rural:administrativearea/State_TX rural:administrativearea/containsPlace rural:administrativearea/County_48021 |
 
 ## Comments
 
@@ -96,8 +96,8 @@ comments:
 - 3253 occurrences with subject type rural_administrativearea_State and object type
   rural_administrativearea_County.
 examples:
-- value: rural:administrativearea/State_IN rural:administrativearea/containsPlace
-    rural:administrativearea/County_18103
+- value: rural:administrativearea/State_TX rural:administrativearea/containsPlace
+    rural:administrativearea/County_48021
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:administrativearea/containsPlace

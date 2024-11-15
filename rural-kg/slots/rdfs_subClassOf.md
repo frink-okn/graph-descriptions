@@ -44,7 +44,7 @@ URI: [rdfs:subClassOf](http://www.w3.org/2000/01/rdf-schema#subClassOf)
 
 | Value |
 | --- |
-| rural:administrativearea/State rdfs:subClassOf rural:administrativearea/AdministrativeArea |
+| rural:administrativearea/County rdfs:subClassOf rural:administrativearea/AdministrativeArea |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 9 occurrences with subject type rdfs_Class and object type rdfs_Class.
 examples:
-- value: rural:administrativearea/State rdfs:subClassOf rural:administrativearea/AdministrativeArea
+- value: rural:administrativearea/County rdfs:subClassOf rural:administrativearea/AdministrativeArea
 from_schema: rural-kg
 rank: 1000
 slot_uri: rdfs:subClassOf

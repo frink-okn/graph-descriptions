@@ -23,8 +23,8 @@ URI: [rural:substanceabuse/name](http://sail.ua.edu/ruralkg/substanceabuse/name)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSubstanceabuseSubstanceRelatedIncident](../classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralSubstanceabuseSubstanceRelatedIncident](../classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | Types of incidents related to substance abuse |  no  |
+| [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | Types of substances that can be abused |  no  |
 
 
 
@@ -45,13 +45,13 @@ URI: [rural:substanceabuse/name](http://sail.ua.edu/ruralkg/substanceabuse/name)
 
 | Value |
 | --- |
-| rural:substanceabuse/SIT_10 rural:substanceabuse/name Used an Illicit Drug |
-| rural:substanceabuse/Substance_12 rural:substanceabuse/name tranquilizer |
+| rural:substanceabuse/Substance_16 rural:substanceabuse/name pcp |
+| rural:substanceabuse/SIT_13 rural:substanceabuse/name On Parole |
 
 ## Comments
 
-* 17 occurrences with subject type rural_substanceabuse_SubstanceRelatedIncident and object type string.
 * 25 occurrences with subject type rural_substanceabuse_Substance and object type string.
+* 17 occurrences with subject type rural_substanceabuse_SubstanceRelatedIncident and object type string.
 
 ## TODOs
 
@@ -96,13 +96,13 @@ todos:
 - or you can delete the todos
 - if you think the class is perfect.
 comments:
-- 17 occurrences with subject type rural_substanceabuse_SubstanceRelatedIncident and
-  object type string.
 - 25 occurrences with subject type rural_substanceabuse_Substance and object type
   string.
+- 17 occurrences with subject type rural_substanceabuse_SubstanceRelatedIncident and
+  object type string.
 examples:
-- value: rural:substanceabuse/SIT_10 rural:substanceabuse/name Used an Illicit Drug
-- value: rural:substanceabuse/Substance_12 rural:substanceabuse/name tranquilizer
+- value: rural:substanceabuse/Substance_16 rural:substanceabuse/name pcp
+- value: rural:substanceabuse/SIT_13 rural:substanceabuse/name On Parole
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:substanceabuse/name

@@ -23,8 +23,8 @@ URI: [rural:mentalhealthservice/year](http://sail.ua.edu/ruralkg/mentalhealthser
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralMentalhealthserviceMentalHealthServiceCategory](../classes/RuralMentalhealthserviceMentalHealthServiceCategory.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [RuralMentalhealthserviceMentalHealthService](../classes/RuralMentalhealthserviceMentalHealthService.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralMentalhealthserviceMentalHealthServiceCategory](../classes/RuralMentalhealthserviceMentalHealthServiceCategory.md) | Categories of mental health services |  no  |
+| [RuralMentalhealthserviceMentalHealthService](../classes/RuralMentalhealthserviceMentalHealthService.md) | Specific mental health services offered |  no  |
 
 
 
@@ -45,7 +45,7 @@ URI: [rural:mentalhealthservice/year](http://sail.ua.edu/ruralkg/mentalhealthser
 
 | Value |
 | --- |
-| rural:mentalhealthservice/MHS_F19 rural:mentalhealthservice/year 2022 |
+| rural:mentalhealthservice/MHS_PEER rural:mentalhealthservice/year 2022 |
 | rural:mentalhealthservice/MHSC_SCR rural:mentalhealthservice/year 2022 |
 
 ## Comments
@@ -101,7 +101,7 @@ comments:
 - 21 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory
   and object type integer.
 examples:
-- value: rural:mentalhealthservice/MHS_F19 rural:mentalhealthservice/year 2022
+- value: rural:mentalhealthservice/MHS_PEER rural:mentalhealthservice/year 2022
 - value: rural:mentalhealthservice/MHSC_SCR rural:mentalhealthservice/year 2022
 from_schema: rural-kg
 rank: 1000

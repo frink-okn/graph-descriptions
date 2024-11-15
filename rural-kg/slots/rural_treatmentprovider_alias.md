@@ -23,7 +23,7 @@ URI: [rural:treatmentprovider/alias](http://sail.ua.edu/ruralkg/treatmentprovide
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralTreatmentproviderTreatmentProvider](../classes/RuralTreatmentproviderTreatmentProvider.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralTreatmentproviderTreatmentProvider](../classes/RuralTreatmentproviderTreatmentProvider.md) | Entities that provide treatment services, sourcing from National Directory Of... |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [rural:treatmentprovider/alias](http://sail.ua.edu/ruralkg/treatmentprovide
 
 | Value |
 | --- |
-| rural:treatmentprovider/TP_3675 rural:treatmentprovider/alias NaN |
+| rural:treatmentprovider/TP_174 rural:treatmentprovider/alias NaN |
 
 ## Comments
 
@@ -96,7 +96,7 @@ comments:
 - 9037 occurrences with subject type rural_treatmentprovider_TreatmentProvider and
   object type string.
 examples:
-- value: rural:treatmentprovider/TP_3675 rural:treatmentprovider/alias NaN
+- value: rural:treatmentprovider/TP_174 rural:treatmentprovider/alias NaN
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:treatmentprovider/alias

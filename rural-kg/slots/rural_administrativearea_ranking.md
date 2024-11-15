@@ -23,7 +23,7 @@ URI: [rural:administrativearea/ranking](http://sail.ua.edu/ruralkg/administrativ
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralAdministrativeareaCity](../classes/RuralAdministrativeareaCity.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralAdministrativeareaCity](../classes/RuralAdministrativeareaCity.md) | City entities within a county or state |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [rural:administrativearea/ranking](http://sail.ua.edu/ruralkg/administrativ
 
 | Value |
 | --- |
-| rural:administrativearea/City_1840017024 rural:administrativearea/ranking 3 |
+| rural:administrativearea/City_1840007531 rural:administrativearea/ranking 3 |
 
 ## Comments
 
@@ -96,7 +96,7 @@ comments:
 - 31120 occurrences with subject type rural_administrativearea_City and object type
   integer.
 examples:
-- value: rural:administrativearea/City_1840017024 rural:administrativearea/ranking
+- value: rural:administrativearea/City_1840007531 rural:administrativearea/ranking
     3
 from_schema: rural-kg
 rank: 1000

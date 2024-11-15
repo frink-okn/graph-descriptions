@@ -44,7 +44,7 @@ URI: [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label)
 
 | Value |
 | --- |
-| rural:substanceabuse/SubstanceAbuse rdfs:label Substance Abuse |
+| rural:treatmentprovider/TreatmentProvider rdfs:label Treatment Provider |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 5 occurrences with subject type rdfs_Class and object type string.
 examples:
-- value: rural:substanceabuse/SubstanceAbuse rdfs:label Substance Abuse
+- value: rural:treatmentprovider/TreatmentProvider rdfs:label Treatment Provider
 from_schema: rural-kg
 rank: 1000
 slot_uri: rdfs:label

@@ -1,6 +1,6 @@
-# rural-kg
+# RuralKG Ontology
 
-TODO -- tell the world what this schema describes.
+An ontology which serves the schema for the cross-domain knowledge graph (Rural-KG) to integrate health and justice data for rural resilience.
 
 URI: rural-kg
 
@@ -13,18 +13,20 @@ Name: rural-kg
 | Class | Description |
 | --- | --- |
 | [Any](classes/Any.md) | None |
-| [OwlOntology](classes/OwlOntology.md) | TODO -- tell the world what this class (type) describes. |
-| [RdfsClass](classes/RdfsClass.md) | TODO -- tell the world what this class (type) describes. |
-| [RuralAdministrativeareaCity](classes/RuralAdministrativeareaCity.md) | TODO -- tell the world what this class (type) describes. |
-| [RuralAdministrativeareaCounty](classes/RuralAdministrativeareaCounty.md) | TODO -- tell the world what this class (type) describes. |
-| [RuralAdministrativeareaState](classes/RuralAdministrativeareaState.md) | TODO -- tell the world what this class (type) describes. |
-| [RuralMentalhealthserviceMentalHealthService](classes/RuralMentalhealthserviceMentalHealthService.md) | TODO -- tell the world what this class (type) describes. |
-| [RuralMentalhealthserviceMentalHealthServiceCategory](classes/RuralMentalhealthserviceMentalHealthServiceCategory.md) | TODO -- tell the world what this class (type) describes. |
-| [RuralSettlementtypeCountyStatus](classes/RuralSettlementtypeCountyStatus.md) | TODO -- tell the world what this class (type) describes. |
-| [RuralSettlementtypeRUCC](classes/RuralSettlementtypeRUCC.md) | TODO -- tell the world what this class (type) describes. |
-| [RuralSubstanceabuseSubstance](classes/RuralSubstanceabuseSubstance.md) | TODO -- tell the world what this class (type) describes. |
-| [RuralSubstanceabuseSubstanceRelatedIncident](classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | TODO -- tell the world what this class (type) describes. |
-| [RuralTreatmentproviderTreatmentProvider](classes/RuralTreatmentproviderTreatmentProvider.md) | TODO -- tell the world what this class (type) describes. |
+| [RuralAdministrativeareaAdministrativeArea](classes/RuralAdministrativeareaAdministrativeArea.md) | None |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[RuralAdministrativeareaCity](classes/RuralAdministrativeareaCity.md) | City entities within a county or state. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[RuralAdministrativeareaCounty](classes/RuralAdministrativeareaCounty.md) | Defines counties within a state. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[RuralAdministrativeareaState](classes/RuralAdministrativeareaState.md) | Represents individual states within U.S. |
+| [RuralMentalhealthserviceMentalHealth](classes/RuralMentalhealthserviceMentalHealth.md) | Mental health services, sourcing from services defined in National Directory Of Mental Health Treatment Facilities. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[RuralMentalhealthserviceMentalHealthService](classes/RuralMentalhealthserviceMentalHealthService.md) | Specific mental health services offered. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[RuralMentalhealthserviceMentalHealthServiceCategory](classes/RuralMentalhealthserviceMentalHealthServiceCategory.md) | Categories of mental health services. |
+| [RuralSettlementtypeSettlementType](classes/RuralSettlementtypeSettlementType.md) | None |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[RuralSettlementtypeCountyStatus](classes/RuralSettlementtypeCountyStatus.md) | Status of a county in terms of rural or urban classification. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[RuralSettlementtypeRUCC](classes/RuralSettlementtypeRUCC.md) | Rural-Urban Continuum Code classification. |
+| [RuralSubstanceabuseSubstanceAbuse](classes/RuralSubstanceabuseSubstanceAbuse.md) | Categories of substance type and related incident types, extracted from National Survey on Drug Use and Health (NSDUH). |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[RuralSubstanceabuseSubstance](classes/RuralSubstanceabuseSubstance.md) | Types of substances that can be abused. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[RuralSubstanceabuseSubstanceRelatedIncident](classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | Types of incidents related to substance abuse. |
+| [RuralTreatmentproviderTreatmentProvider](classes/RuralTreatmentproviderTreatmentProvider.md) | Entities that provide treatment services, sourcing from National Directory Of Mental Health Treatment Facilities. |
 
 
 
@@ -32,15 +34,6 @@ Name: rural-kg
 
 | Slot | Description |
 | --- | --- |
-| [dct_created](slots/dct_created.md) | TODO -- tell the world what this slot (predicate) describes |
-| [dct_creator](slots/dct_creator.md) | TODO -- tell the world what this slot (predicate) describes |
-| [dct_description](slots/dct_description.md) | TODO -- tell the world what this slot (predicate) describes |
-| [dct_hasVersion](slots/dct_hasVersion.md) | TODO -- tell the world what this slot (predicate) describes |
-| [dct_title](slots/dct_title.md) | TODO -- tell the world what this slot (predicate) describes |
-| [rdfs_comment](slots/rdfs_comment.md) | TODO -- tell the world what this slot (predicate) describes |
-| [rdfs_isDefinedBy](slots/rdfs_isDefinedBy.md) | TODO -- tell the world what this slot (predicate) describes |
-| [rdfs_label](slots/rdfs_label.md) | TODO -- tell the world what this slot (predicate) describes |
-| [rdfs_subClassOf](slots/rdfs_subClassOf.md) | TODO -- tell the world what this slot (predicate) describes |
 | [rural_administrativearea_abbreviation](slots/rural_administrativearea_abbreviation.md) | TODO -- tell the world what this slot (predicate) describes |
 | [rural_administrativearea_containsPlace](slots/rural_administrativearea_containsPlace.md) | TODO -- tell the world what this slot (predicate) describes |
 | [rural_administrativearea_fips](slots/rural_administrativearea_fips.md) | TODO -- tell the world what this slot (predicate) describes |

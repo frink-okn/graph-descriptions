@@ -44,7 +44,7 @@ URI: [rdfs:isDefinedBy](http://www.w3.org/2000/01/rdf-schema#isDefinedBy)
 
 | Value |
 | --- |
-| rural:settlementtype/SettlementType rdfs:isDefinedBy rural:ontology |
+| rural:treatmentprovider/TreatmentProvider rdfs:isDefinedBy rural:ontology |
 
 ## Comments
 
@@ -95,7 +95,7 @@ todos:
 comments:
 - 5 occurrences with subject type rdfs_Class and object type owl_Ontology.
 examples:
-- value: rural:settlementtype/SettlementType rdfs:isDefinedBy rural:ontology
+- value: rural:treatmentprovider/TreatmentProvider rdfs:isDefinedBy rural:ontology
 from_schema: rural-kg
 rank: 1000
 slot_uri: rdfs:isDefinedBy

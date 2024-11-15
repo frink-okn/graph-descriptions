@@ -23,7 +23,7 @@ URI: [rural:administrativearea/latitude](http://sail.ua.edu/ruralkg/administrati
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralAdministrativeareaCity](../classes/RuralAdministrativeareaCity.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralAdministrativeareaCity](../classes/RuralAdministrativeareaCity.md) | City entities within a county or state |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [rural:administrativearea/latitude](http://sail.ua.edu/ruralkg/administrati
 
 | Value |
 | --- |
-| rural:administrativearea/City_1840038822 rural:administrativearea/latitude 40.249 |
+| rural:administrativearea/City_1840034298 rural:administrativearea/latitude 40.9497 |
 
 ## Comments
 
@@ -96,8 +96,8 @@ comments:
 - 31120 occurrences with subject type rural_administrativearea_City and object type
   float.
 examples:
-- value: rural:administrativearea/City_1840038822 rural:administrativearea/latitude
-    40.249
+- value: rural:administrativearea/City_1840034298 rural:administrativearea/latitude
+    40.9497
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:administrativearea/latitude

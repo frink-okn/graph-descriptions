@@ -23,7 +23,7 @@ URI: [rural:settlementtype/description](http://sail.ua.edu/ruralkg/settlementtyp
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSettlementtypeRUCC](../classes/RuralSettlementtypeRUCC.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralSettlementtypeRUCC](../classes/RuralSettlementtypeRUCC.md) | Rural-Urban Continuum Code classification |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [rural:settlementtype/description](http://sail.ua.edu/ruralkg/settlementtyp
 
 | Value |
 | --- |
-| rural:settlementtype/RUCC_2013_5 rural:settlementtype/description Nonmetro - Urban population of 20,000 or more, not adjacent to a metro area |
+| rural:settlementtype/RUCC_2013_9 rural:settlementtype/description Nonmetro - Completely rural or less than 2,500 urban population, not adjacent to a metro area |
 
 ## Comments
 
@@ -95,8 +95,9 @@ todos:
 comments:
 - 10 occurrences with subject type rural_settlementtype_RUCC and object type string.
 examples:
-- value: rural:settlementtype/RUCC_2013_5 rural:settlementtype/description Nonmetro
-    - Urban population of 20,000 or more, not adjacent to a metro area
+- value: rural:settlementtype/RUCC_2013_9 rural:settlementtype/description Nonmetro
+    - Completely rural or less than 2,500 urban population, not adjacent to a metro
+    area
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:settlementtype/description

@@ -23,8 +23,8 @@ URI: [rural:administrativearea/fips](http://sail.ua.edu/ruralkg/administrativear
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralAdministrativeareaState](../classes/RuralAdministrativeareaState.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [RuralAdministrativeareaCounty](../classes/RuralAdministrativeareaCounty.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralAdministrativeareaState](../classes/RuralAdministrativeareaState.md) | Represents individual states within U |  no  |
+| [RuralAdministrativeareaCounty](../classes/RuralAdministrativeareaCounty.md) | Defines counties within a state |  no  |
 
 
 
@@ -45,8 +45,8 @@ URI: [rural:administrativearea/fips](http://sail.ua.edu/ruralkg/administrativear
 
 | Value |
 | --- |
-| rural:administrativearea/County_20185 rural:administrativearea/fips 20185 |
-| rural:administrativearea/State_OR rural:administrativearea/fips 41 |
+| rural:administrativearea/County_48409 rural:administrativearea/fips 48409 |
+| rural:administrativearea/State_UT rural:administrativearea/fips 49 |
 
 ## Comments
 
@@ -101,8 +101,8 @@ comments:
 - 56 occurrences with subject type rural_administrativearea_State and object type
   string.
 examples:
-- value: rural:administrativearea/County_20185 rural:administrativearea/fips 20185
-- value: rural:administrativearea/State_OR rural:administrativearea/fips 41
+- value: rural:administrativearea/County_48409 rural:administrativearea/fips 48409
+- value: rural:administrativearea/State_UT rural:administrativearea/fips 49
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:administrativearea/fips

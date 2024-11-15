@@ -44,7 +44,7 @@ URI: [rdfs:comment](http://www.w3.org/2000/01/rdf-schema#comment)
 
 | Value |
 | --- |
-| rural:substanceabuse/Substance rdfs:comment Types of substances that can be abused. |
+| rural:mentalhealthservice/MentalHealthServiceCategory rdfs:comment Categories of mental health services. |
 
 ## Comments
 
@@ -95,8 +95,8 @@ todos:
 comments:
 - 14 occurrences with subject type rdfs_Class and object type string.
 examples:
-- value: rural:substanceabuse/Substance rdfs:comment Types of substances that can
-    be abused.
+- value: rural:mentalhealthservice/MentalHealthServiceCategory rdfs:comment Categories
+    of mental health services.
 from_schema: rural-kg
 rank: 1000
 slot_uri: rdfs:comment

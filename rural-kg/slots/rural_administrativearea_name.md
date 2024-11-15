@@ -23,9 +23,9 @@ URI: [rural:administrativearea/name](http://sail.ua.edu/ruralkg/administrativear
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralAdministrativeareaState](../classes/RuralAdministrativeareaState.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [RuralAdministrativeareaCity](../classes/RuralAdministrativeareaCity.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [RuralAdministrativeareaCounty](../classes/RuralAdministrativeareaCounty.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [RuralAdministrativeareaState](../classes/RuralAdministrativeareaState.md) | Represents individual states within U |  no  |
+| [RuralAdministrativeareaCity](../classes/RuralAdministrativeareaCity.md) | City entities within a county or state |  no  |
+| [RuralAdministrativeareaCounty](../classes/RuralAdministrativeareaCounty.md) | Defines counties within a state |  no  |
 
 
 
@@ -46,9 +46,9 @@ URI: [rural:administrativearea/name](http://sail.ua.edu/ruralkg/administrativear
 
 | Value |
 | --- |
-| rural:administrativearea/City_1840017624 rural:administrativearea/name El Granada |
-| rural:administrativearea/County_37133 rural:administrativearea/name Onslow |
-| rural:administrativearea/State_AR rural:administrativearea/name Arkansas |
+| rural:administrativearea/City_1840007332 rural:administrativearea/name Greenwood |
+| rural:administrativearea/County_54083 rural:administrativearea/name Randolph |
+| rural:administrativearea/State_CO rural:administrativearea/name Colorado |
 
 ## Comments
 
@@ -106,10 +106,9 @@ comments:
 - 56 occurrences with subject type rural_administrativearea_State and object type
   string.
 examples:
-- value: rural:administrativearea/City_1840017624 rural:administrativearea/name El
-    Granada
-- value: rural:administrativearea/County_37133 rural:administrativearea/name Onslow
-- value: rural:administrativearea/State_AR rural:administrativearea/name Arkansas
+- value: rural:administrativearea/City_1840007332 rural:administrativearea/name Greenwood
+- value: rural:administrativearea/County_54083 rural:administrativearea/name Randolph
+- value: rural:administrativearea/State_CO rural:administrativearea/name Colorado
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:administrativearea/name
