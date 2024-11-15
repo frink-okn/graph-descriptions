@@ -17,9 +17,7 @@ Name: dream-kg
 | [SdohAudience](classes/SdohAudience.md) | Intended audience for an item, i.e. the group for whom the item was created. |
 | [SdohCategoryCode](classes/SdohCategoryCode.md) | A Category Code. |
 | [SdohContactPoint](classes/SdohContactPoint.md) | A contact point&#x2014;for example, a Customer Complaints department. |
-| [SdohOpeningHoursSpecification](classes/SdohOpeningHoursSpecification.md) | A structured value providing information about the opening hours of a place or a certain service inside a place.\n\n
-The place is __open__ if the [[opens]] property is specified, and __closed__ otherwise.\n\nIf the value for the [[closes]] property is less than the value for the [[opens]] property then the hour range is assumed to span over the next day.
-       |
+| [SdohOpeningHoursSpecification](classes/SdohOpeningHoursSpecification.md) | A structured value providing information about the opening hours of a place or a certain service inside a place.\n\n The place is __open__ if the [[opens]] property is specified, and __closed__ otherwise.\n\nIf the value for the [[closes]] property is less than the value for the [[opens]] property then the hour range is assumed to span over the next day. |
 | [SdohOrganization](classes/SdohOrganization.md) | An organization such as a school, NGO, corporation, club, etc. |
 | [SdohPlace](classes/SdohPlace.md) | Entities that have a somewhat fixed, physical extension. |
 | [SdohService](classes/SdohService.md) | A service provided by an organization, e.g. delivery service, print services, etc. |
