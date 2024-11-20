@@ -51,8 +51,8 @@ URI: [sdoh:CategoryCode](http://schema.org/CategoryCode)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_inCodeSet](../slots/sdoh_inCodeSet.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | A [[CategoryCodeSet]] that contains this category code | direct |
-| [sdoh_codeValue](../slots/sdoh_codeValue.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | A short textual code that uniquely identifies the value | direct |
+| [sdoh_codeValue](../slots/sdoh_codeValue.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_inCodeSet](../slots/sdoh_inCodeSet.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
 
 
 
@@ -74,7 +74,7 @@ URI: [sdoh:CategoryCode](http://schema.org/CategoryCode)
 
 | Value |
 | --- |
-| dreamkg:category/service/main/UnderstandMentalHealth |
+| dreamkg:category/service/other/MoreEducation |
 
 ## TODOs
 
@@ -127,13 +127,13 @@ todos:
 - or you can delete the todos
 - if you think the class is perfect.
 notes:
-- There are 157 instances of this class.
+- Class with 157 occurences.
 examples:
-- value: dreamkg:category/service/main/UnderstandMentalHealth
+- value: dreamkg:category/service/other/MoreEducation
 from_schema: dream-kg
 slots:
-- sdoh_inCodeSet
 - sdoh_codeValue
+- sdoh_inCodeSet
 class_uri: sdoh:CategoryCode
 
 ```
@@ -151,35 +151,14 @@ todos:
 - or you can delete the todos
 - if you think the class is perfect.
 notes:
-- There are 157 instances of this class.
+- Class with 157 occurences.
 examples:
-- value: dreamkg:category/service/main/UnderstandMentalHealth
+- value: dreamkg:category/service/other/MoreEducation
 from_schema: dream-kg
 attributes:
-  sdoh_inCodeSet:
-    name: sdoh_inCodeSet
-    description: A [[CategoryCodeSet]] that contains this category code.
-    title: inCodeSet
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 157 occurrences with subject type sdoh_CategoryCode and object type uri.
-    examples:
-    - value: dreamkg:category/service/main/Treatment sdoh:inCodeSet dreamkg:_CategoryCodeSet_Services_Main
-    from_schema: dream-kg
-    rank: 1000
-    slot_uri: sdoh:inCodeSet
-    alias: sdoh_inCodeSet
-    owner: sdoh_CategoryCode
-    domain_of:
-    - sdoh_CategoryCode
-    range: uri
   sdoh_codeValue:
     name: sdoh_codeValue
-    description: A short textual code that uniquely identifies the value.
-    title: codeValue
+    description: TODO -- tell the world what this slot (predicate) describes.
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -187,8 +166,7 @@ attributes:
     comments:
     - 158 occurrences with subject type sdoh_CategoryCode and object type string.
     examples:
-    - value: dreamkg:category/service/main/CounselingMedicalCare sdoh:codeValue counseling
-        medical care
+    - value: dreamkg:category/language/Armenian sdoh:codeValue Armenian
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:codeValue
@@ -197,6 +175,25 @@ attributes:
     domain_of:
     - sdoh_CategoryCode
     range: string
+  sdoh_inCodeSet:
+    name: sdoh_inCodeSet
+    description: TODO -- tell the world what this slot (predicate) describes.
+    todos:
+    - TODO -- Todos for this slot go here
+    - or you can delete the todos
+    - if you think the class is perfect.
+    comments:
+    - 157 occurrences with subject type sdoh_CategoryCode and object type uri.
+    examples:
+    - value: dreamkg:category/service/other/SkillsAndTraining sdoh:inCodeSet dreamkg:_CategoryCodeSet_Services_Other
+    from_schema: dream-kg
+    rank: 1000
+    slot_uri: sdoh:inCodeSet
+    alias: sdoh_inCodeSet
+    owner: sdoh_CategoryCode
+    domain_of:
+    - sdoh_CategoryCode
+    range: uri
 class_uri: sdoh:CategoryCode
 
 ```

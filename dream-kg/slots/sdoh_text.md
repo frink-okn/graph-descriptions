@@ -1,9 +1,9 @@
 
 
-# Slot: text (sdoh_text)
+# Slot: sdoh_text
 
 
-_The textual content of this CreativeWork._
+_TODO -- tell the world what this slot (predicate) describes._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:text](http://schema.org/text)
 
 | Value |
 | --- |
-| dreamkg:service/desc/6272068172382208 sdoh:text Wedge Recovery Center offers the Early Intervention Program for Philadelphia residents between the ages 12-21 who are currently using substances or who are otherwise at risk for substance abuse because of factors in the environmental, school, legal, family, mental health, peer & social, and dependency system domains.We offer:- Substance Use Screening and Assessment- Evidenced-based Substance Abuse Education- Intervention Counseling- Family Counseling- Community/School/Child service outreach- Individualized Service Planning- Group Psychoeducational Sessions- Parental Education/Consultation- Service Linkage |
+| dreamkg:service/desc/5373543795916800 sdoh:text The Adult Outpatient Services provide assessment, diagnosis, and treatment to individuals requiring mental health or dual diagnosis treatment (treatment of mental health plus substance use). The outpatient treatment team consists of trained professionals including psychiatrists, licensed therapists, psychiatric technicians, counselors, and support staff. Focus areas include mental health and substance use assessment, psychiatric assessment and evaluation for medication, medication monitoring, limited individual counseling, group counseling, bilingual counseling services, interpreter services, benefits services, and community services referral.Common diagnoses for clients at HCCS include disorders of mood, anxiety, personality, addiction and psychosis. HCCS currently offers the following services within the traditional outpatient menu of services:- Psychiatric Evaluation- Medication Managemen- Individual Counseling- Family Therapy- Group Therapy- Psychological Testing and evaluation- Co-occurring Services - Mobile Therapy - Perinatal Depression Treatment servicesHispanic Community Counseling Services accepts Medicare and Medicaid. |
 
 ## Comments
 
@@ -87,8 +87,7 @@ URI: [sdoh:text](http://schema.org/text)
 <details>
 ```yaml
 name: sdoh_text
-description: The textual content of this CreativeWork.
-title: text
+description: TODO -- tell the world what this slot (predicate) describes.
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -96,15 +95,21 @@ todos:
 comments:
 - 90 occurrences with subject type sdoh_TextObject and object type string.
 examples:
-- value: dreamkg:service/desc/6272068172382208 sdoh:text Wedge Recovery Center offers
-    the Early Intervention Program for Philadelphia residents between the ages 12-21
-    who are currently using substances or who are otherwise at risk for substance
-    abuse because of factors in the environmental, school, legal, family, mental health,
-    peer & social, and dependency system domains.We offer:- Substance Use Screening
-    and Assessment- Evidenced-based Substance Abuse Education- Intervention Counseling-
-    Family Counseling- Community/School/Child service outreach- Individualized Service
-    Planning- Group Psychoeducational Sessions- Parental Education/Consultation- Service
-    Linkage
+- value: dreamkg:service/desc/5373543795916800 sdoh:text The Adult Outpatient Services
+    provide assessment, diagnosis, and treatment to individuals requiring mental health
+    or dual diagnosis treatment (treatment of mental health plus substance use). The
+    outpatient treatment team consists of trained professionals including psychiatrists,
+    licensed therapists, psychiatric technicians, counselors, and support staff. Focus
+    areas include mental health and substance use assessment, psychiatric assessment
+    and evaluation for medication, medication monitoring, limited individual counseling,
+    group counseling, bilingual counseling services, interpreter services, benefits
+    services, and community services referral.Common diagnoses for clients at HCCS
+    include disorders of mood, anxiety, personality, addiction and psychosis. HCCS
+    currently offers the following services within the traditional outpatient menu
+    of services:- Psychiatric Evaluation- Medication Managemen- Individual Counseling-
+    Family Therapy- Group Therapy- Psychological Testing and evaluation- Co-occurring
+    Services - Mobile Therapy - Perinatal Depression Treatment servicesHispanic Community
+    Counseling Services accepts Medicare and Medicaid.
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:text

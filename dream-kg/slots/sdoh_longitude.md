@@ -1,9 +1,9 @@
 
 
-# Slot: longitude (sdoh_longitude)
+# Slot: sdoh_longitude
 
 
-_The longitude of a location. For example ```-122.08585``` ([WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System))._
+_TODO -- tell the world what this slot (predicate) describes._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:longitude](http://schema.org/longitude)
 
 | Value |
 | --- |
-| dreamkg:service/location/5552002522939392 sdoh:longitude -75.1637779 |
+| dreamkg:service/location/5671175268335616 sdoh:longitude -75.2187346 |
 
 ## Comments
 
@@ -87,8 +87,7 @@ URI: [sdoh:longitude](http://schema.org/longitude)
 <details>
 ```yaml
 name: sdoh_longitude
-description: The longitude of a location. For example ```-122.08585``` ([WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System)).
-title: longitude
+description: TODO -- tell the world what this slot (predicate) describes.
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -96,7 +95,7 @@ todos:
 comments:
 - 89 occurrences with subject type sdoh_Place and object type decimal.
 examples:
-- value: dreamkg:service/location/5552002522939392 sdoh:longitude -75.1637779
+- value: dreamkg:service/location/5671175268335616 sdoh:longitude -75.2187346
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:longitude

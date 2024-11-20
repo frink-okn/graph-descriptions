@@ -8,6 +8,63 @@ Name: secure-chain-kg
 
 
 
+## Schema Diagram
+
+```mermaid
+erDiagram
+Any {
+
+}
+SecurechainHardware {
+    string sdoh_name  
+}
+SecurechainHardwareVersion {
+    string securechain_versionName  
+}
+SecurechainSoftware {
+    string sdoh_name  
+}
+SecurechainSoftwareVersion {
+    string securechain_versionName  
+}
+SecurechainVulnerability {
+    string sdoh_identifier  
+}
+SecurechainVulnerabilityType {
+    string sdoh_identifier  
+}
+RdfProperty {
+
+}
+RdfsClass {
+
+}
+SdohCreativeWork {
+    string sdoh_name  
+    string sdoh_identifier  
+}
+SdohOrganization {
+    string sdoh_name  
+    string sdoh_identifier  
+    string sdoh_url  
+}
+SdohPerson {
+    string sdoh_identifier  
+}
+
+SecurechainHardware ||--|o SecurechainHardwareVersion : "securechain_hasHardwareVersion"
+SecurechainHardwareVersion ||--|o Any : "securechain_vulnerableTo"
+SecurechainSoftware ||--|o SecurechainSoftwareVersion : "securechain_hasSoftwareVersion"
+SecurechainSoftware ||--|o SdohPerson : "sdoh_contributor"
+SecurechainSoftwareVersion ||--|o Any : "securechain_dependsOn"
+SecurechainSoftwareVersion ||--|o Any : "securechain_vulnerableTo"
+SecurechainVulnerability ||--|o SecurechainVulnerabilityType : "securechain_vulnerabilityType"
+RdfsClass ||--|o Any : "rdfs_subClassOf"
+SdohOrganization ||--|o SecurechainHardware : "sdoh_manufacturer"
+
+```
+
+
 ## Classes
 
 | Class | Description |

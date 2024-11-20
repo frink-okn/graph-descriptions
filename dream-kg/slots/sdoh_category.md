@@ -1,9 +1,9 @@
 
 
-# Slot: category (sdoh_category)
+# Slot: sdoh_category
 
 
-_A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy._
+_TODO -- tell the world what this slot (predicate) describes._
 
 
 
@@ -33,7 +33,7 @@ URI: [sdoh:category](http://schema.org/category)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[SdohAudience](../classes/SdohAudience.md)&nbsp;or&nbsp;<br />[SdohCategoryCode](../classes/SdohCategoryCode.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[SdohCategoryCode](../classes/SdohCategoryCode.md)&nbsp;or&nbsp;<br />[SdohAudience](../classes/SdohAudience.md)
 
 
 
@@ -44,13 +44,13 @@ URI: [sdoh:category](http://schema.org/category)
 
 | Value |
 | --- |
-| dreamkg:service/6453846037626880 sdoh:category dreamkg:category/audience/LowIncome |
-| dreamkg:service/5997720409997312 sdoh:category dreamkg:category/service/main/TemporaryShelter |
+| dreamkg:service/5929367212130304 sdoh:category dreamkg:category/language/English |
+| dreamkg:service/5390636500647936 sdoh:category dreamkg:category/audience/Children |
 
 ## Comments
 
-* 539 occurrences with subject type sdoh_Service and object type sdoh_Audience.
 * 806 occurrences with subject type sdoh_Service and object type sdoh_CategoryCode.
+* 539 occurrences with subject type sdoh_Service and object type sdoh_Audience.
 
 ## TODOs
 
@@ -89,19 +89,17 @@ URI: [sdoh:category](http://schema.org/category)
 <details>
 ```yaml
 name: sdoh_category
-description: A category for the item. Greater signs or slashes can be used to informally
-  indicate a category hierarchy.
-title: category
+description: TODO -- tell the world what this slot (predicate) describes.
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
 - if you think the class is perfect.
 comments:
-- 539 occurrences with subject type sdoh_Service and object type sdoh_Audience.
 - 806 occurrences with subject type sdoh_Service and object type sdoh_CategoryCode.
+- 539 occurrences with subject type sdoh_Service and object type sdoh_Audience.
 examples:
-- value: dreamkg:service/6453846037626880 sdoh:category dreamkg:category/audience/LowIncome
-- value: dreamkg:service/5997720409997312 sdoh:category dreamkg:category/service/main/TemporaryShelter
+- value: dreamkg:service/5929367212130304 sdoh:category dreamkg:category/language/English
+- value: dreamkg:service/5390636500647936 sdoh:category dreamkg:category/audience/Children
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:category
@@ -110,8 +108,8 @@ domain_of:
 - sdoh_Service
 range: Any
 any_of:
-- range: sdoh_Audience
 - range: sdoh_CategoryCode
+- range: sdoh_Audience
 
 ```
 </details>

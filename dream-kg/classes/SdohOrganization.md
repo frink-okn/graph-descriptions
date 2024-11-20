@@ -51,8 +51,8 @@ URI: [sdoh:Organization](http://schema.org/Organization)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_sameAs](../slots/sdoh_sameAs.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | URL of a reference Web page that unambiguously indicates the item's identity | direct |
-| [sdoh_name](../slots/sdoh_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | The name of the item | direct |
+| [sdoh_sameAs](../slots/sdoh_sameAs.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_name](../slots/sdoh_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
 
 
 
@@ -74,7 +74,7 @@ URI: [sdoh:Organization](http://schema.org/Organization)
 
 | Value |
 | --- |
-| dreamkg:service/provider/5730442313465856 |
+| dreamkg:service/provider/6272068172382208 |
 
 ## TODOs
 
@@ -127,9 +127,9 @@ todos:
 - or you can delete the todos
 - if you think the class is perfect.
 notes:
-- There are 87 instances of this class.
+- Class with 87 occurences.
 examples:
-- value: dreamkg:service/provider/5730442313465856
+- value: dreamkg:service/provider/6272068172382208
 from_schema: dream-kg
 slots:
 - sdoh_sameAs
@@ -151,17 +151,14 @@ todos:
 - or you can delete the todos
 - if you think the class is perfect.
 notes:
-- There are 87 instances of this class.
+- Class with 87 occurences.
 examples:
-- value: dreamkg:service/provider/5730442313465856
+- value: dreamkg:service/provider/6272068172382208
 from_schema: dream-kg
 attributes:
   sdoh_sameAs:
     name: sdoh_sameAs
-    description: URL of a reference Web page that unambiguously indicates the item's
-      identity. E.g. the URL of the item's Wikipedia page, Wikidata entry, or official
-      website.
-    title: sameAs
+    description: TODO -- tell the world what this slot (predicate) describes.
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -169,7 +166,7 @@ attributes:
     comments:
     - 127 occurrences with subject type sdoh_Organization and object type uri.
     examples:
-    - value: dreamkg:service/provider/4874573658193920 sdoh:sameAs https://www.twitter.com/@WedgeRecovery
+    - value: dreamkg:service/provider/5518091445075968 sdoh:sameAs https://www.facebook.com/gpass19120/
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:sameAs
@@ -180,19 +177,17 @@ attributes:
     range: uri
   sdoh_name:
     name: sdoh_name
-    description: The name of the item.
-    title: name
+    description: TODO -- tell the world what this slot (predicate) describes.
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
     - if you think the class is perfect.
     comments:
-    - 89 occurrences with subject type sdoh_Organization and object type string.
     - 88 occurrences with subject type sdoh_Service and object type string.
+    - 89 occurrences with subject type sdoh_Organization and object type string.
     examples:
-    - value: dreamkg:service/provider/4967372504694784 sdoh:name Church World Service
-        Inc
-    - value: dreamkg:service/4873770804707328 sdoh:name Food Assistance and Relief
+    - value: dreamkg:service/5175494499368960 sdoh:name Food Baskets
+    - value: dreamkg:service/provider/5680777996009472 sdoh:name Youth Service Inc
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:name

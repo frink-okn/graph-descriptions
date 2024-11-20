@@ -23,10 +23,10 @@ URI: [sdoh:name](http://schema.org/name)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SecurechainSoftware](../classes/SecurechainSoftware.md) | TODO -- tell the world what this class (type) describes |  no  |
 | [SdohOrganization](../classes/SdohOrganization.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SecurechainHardware](../classes/SecurechainHardware.md) | TODO -- tell the world what this class (type) describes |  no  |
 | [SdohCreativeWork](../classes/SdohCreativeWork.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SecurechainHardware](../classes/SecurechainHardware.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SecurechainSoftware](../classes/SecurechainSoftware.md) | TODO -- tell the world what this class (type) describes |  no  |
 
 
 

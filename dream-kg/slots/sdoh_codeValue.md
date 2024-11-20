@@ -1,9 +1,9 @@
 
 
-# Slot: codeValue (sdoh_codeValue)
+# Slot: sdoh_codeValue
 
 
-_A short textual code that uniquely identifies the value._
+_TODO -- tell the world what this slot (predicate) describes._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:codeValue](http://schema.org/codeValue)
 
 | Value |
 | --- |
-| dreamkg:category/service/main/CounselingMedicalCare sdoh:codeValue counseling medical care |
+| dreamkg:category/language/Armenian sdoh:codeValue Armenian |
 
 ## Comments
 
@@ -87,8 +87,7 @@ URI: [sdoh:codeValue](http://schema.org/codeValue)
 <details>
 ```yaml
 name: sdoh_codeValue
-description: A short textual code that uniquely identifies the value.
-title: codeValue
+description: TODO -- tell the world what this slot (predicate) describes.
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -96,8 +95,7 @@ todos:
 comments:
 - 158 occurrences with subject type sdoh_CategoryCode and object type string.
 examples:
-- value: dreamkg:category/service/main/CounselingMedicalCare sdoh:codeValue counseling
-    medical care
+- value: dreamkg:category/language/Armenian sdoh:codeValue Armenian
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:codeValue

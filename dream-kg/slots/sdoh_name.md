@@ -1,9 +1,9 @@
 
 
-# Slot: name (sdoh_name)
+# Slot: sdoh_name
 
 
-_The name of the item._
+_TODO -- tell the world what this slot (predicate) describes._
 
 
 
@@ -23,8 +23,8 @@ URI: [sdoh:name](http://schema.org/name)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohService](../classes/SdohService.md) | A service provided by an organization, e |  no  |
 | [SdohOrganization](../classes/SdohOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
+| [SdohService](../classes/SdohService.md) | A service provided by an organization, e |  no  |
 
 
 
@@ -45,13 +45,13 @@ URI: [sdoh:name](http://schema.org/name)
 
 | Value |
 | --- |
-| dreamkg:service/provider/4967372504694784 sdoh:name Church World Service Inc |
-| dreamkg:service/4873770804707328 sdoh:name Food Assistance and Relief |
+| dreamkg:service/5175494499368960 sdoh:name Food Baskets |
+| dreamkg:service/provider/5680777996009472 sdoh:name Youth Service Inc |
 
 ## Comments
 
-* 89 occurrences with subject type sdoh_Organization and object type string.
 * 88 occurrences with subject type sdoh_Service and object type string.
+* 89 occurrences with subject type sdoh_Organization and object type string.
 
 ## TODOs
 
@@ -90,19 +90,17 @@ URI: [sdoh:name](http://schema.org/name)
 <details>
 ```yaml
 name: sdoh_name
-description: The name of the item.
-title: name
+description: TODO -- tell the world what this slot (predicate) describes.
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
 - if you think the class is perfect.
 comments:
-- 89 occurrences with subject type sdoh_Organization and object type string.
 - 88 occurrences with subject type sdoh_Service and object type string.
+- 89 occurrences with subject type sdoh_Organization and object type string.
 examples:
-- value: dreamkg:service/provider/4967372504694784 sdoh:name Church World Service
-    Inc
-- value: dreamkg:service/4873770804707328 sdoh:name Food Assistance and Relief
+- value: dreamkg:service/5175494499368960 sdoh:name Food Baskets
+- value: dreamkg:service/provider/5680777996009472 sdoh:name Youth Service Inc
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:name

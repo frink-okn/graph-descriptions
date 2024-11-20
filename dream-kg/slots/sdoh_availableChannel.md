@@ -1,9 +1,9 @@
 
 
-# Slot: availableChannel (sdoh_availableChannel)
+# Slot: sdoh_availableChannel
 
 
-_A means of accessing the service (e.g. a phone bank, a web site, a location, etc.)._
+_TODO -- tell the world what this slot (predicate) describes._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:availableChannel](http://schema.org/availableChannel)
 
 | Value |
 | --- |
-| dreamkg:service/5671175268335616 sdoh:availableChannel dreamkg:service/channel/AB-5671175268335616 |
+| dreamkg:service/6494806799548416 sdoh:availableChannel dreamkg:service/channel/AB-6494806799548416 |
 
 ## Comments
 
@@ -87,9 +87,7 @@ URI: [sdoh:availableChannel](http://schema.org/availableChannel)
 <details>
 ```yaml
 name: sdoh_availableChannel
-description: A means of accessing the service (e.g. a phone bank, a web site, a location,
-  etc.).
-title: availableChannel
+description: TODO -- tell the world what this slot (predicate) describes.
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -97,7 +95,7 @@ todos:
 comments:
 - 174 occurrences with subject type sdoh_Service and object type sdoh_ServiceChannel.
 examples:
-- value: dreamkg:service/5671175268335616 sdoh:availableChannel dreamkg:service/channel/AB-5671175268335616
+- value: dreamkg:service/6494806799548416 sdoh:availableChannel dreamkg:service/channel/AB-6494806799548416
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:availableChannel

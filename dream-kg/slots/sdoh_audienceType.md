@@ -1,9 +1,9 @@
 
 
-# Slot: audienceType (sdoh_audienceType)
+# Slot: sdoh_audienceType
 
 
-_The target group associated with a given audience (e.g. veterans, car owners, musicians, etc.)._
+_TODO -- tell the world what this slot (predicate) describes._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:audienceType](http://schema.org/audienceType)
 
 | Value |
 | --- |
-| dreamkg:category/audience/Female sdoh:audienceType female |
+| dreamkg:category/audience/TraumaSurvivors sdoh:audienceType trauma survivors |
 
 ## Comments
 
@@ -87,9 +87,7 @@ URI: [sdoh:audienceType](http://schema.org/audienceType)
 <details>
 ```yaml
 name: sdoh_audienceType
-description: The target group associated with a given audience (e.g. veterans, car
-  owners, musicians, etc.).
-title: audienceType
+description: TODO -- tell the world what this slot (predicate) describes.
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -97,7 +95,7 @@ todos:
 comments:
 - 81 occurrences with subject type sdoh_Audience and object type string.
 examples:
-- value: dreamkg:category/audience/Female sdoh:audienceType female
+- value: dreamkg:category/audience/TraumaSurvivors sdoh:audienceType trauma survivors
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:audienceType

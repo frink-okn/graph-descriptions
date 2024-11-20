@@ -42,7 +42,7 @@ URI: [sdoh:AdministrativeArea](http://schema.org/AdministrativeArea)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_identifier](../slots/sdoh_identifier.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | The identifier property represents any kind of identifier for any kind of [[T... | direct |
+| [sdoh_identifier](../slots/sdoh_identifier.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
 
 
 
@@ -64,7 +64,7 @@ URI: [sdoh:AdministrativeArea](http://schema.org/AdministrativeArea)
 
 | Value |
 | --- |
-| dreamkg:zip/19153 |
+| dreamkg:zip/19013 |
 
 ## TODOs
 
@@ -118,9 +118,9 @@ todos:
 - or you can delete the todos
 - if you think the class is perfect.
 notes:
-- There are 39 instances of this class.
+- Class with 39 occurences.
 examples:
-- value: dreamkg:zip/19153
+- value: dreamkg:zip/19013
 from_schema: dream-kg
 slots:
 - sdoh_identifier
@@ -142,29 +142,24 @@ todos:
 - or you can delete the todos
 - if you think the class is perfect.
 notes:
-- There are 39 instances of this class.
+- Class with 39 occurences.
 examples:
-- value: dreamkg:zip/19153
+- value: dreamkg:zip/19013
 from_schema: dream-kg
 attributes:
   sdoh_identifier:
     name: sdoh_identifier
-    description: "The identifier property represents any kind of identifier for any\
-      \ kind of [[Thing]], such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides\
-      \ dedicated properties for representing many of these, either as textual strings\
-      \ or as URL (URI) links. See [background notes](/docs/datamodel.html#identifierBg)\
-      \ for more details.\n        "
-    title: identifier
+    description: TODO -- tell the world what this slot (predicate) describes.
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
     - if you think the class is perfect.
     comments:
-    - 87 occurrences with subject type sdoh_Service and object type string.
     - 39 occurrences with subject type sdoh_AdministrativeArea and object type string.
+    - 87 occurrences with subject type sdoh_Service and object type string.
     examples:
-    - value: dreamkg:service/4542572480692224 sdoh:identifier 4542572480692224
-    - value: dreamkg:zip/19130 sdoh:identifier 19130
+    - value: dreamkg:zip/19120 sdoh:identifier 19120
+    - value: dreamkg:service/5398794886447104 sdoh:identifier 5398794886447104
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:identifier

@@ -1,11 +1,9 @@
 
 
-# Slot: identifier (sdoh_identifier)
+# Slot: sdoh_identifier
 
 
-_The identifier property represents any kind of identifier for any kind of [[Thing]], such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See [background notes](/docs/datamodel.html#identifierBg) for more details._
-
-_        _
+_TODO -- tell the world what this slot (predicate) describes._
 
 
 
@@ -47,13 +45,13 @@ URI: [sdoh:identifier](http://schema.org/identifier)
 
 | Value |
 | --- |
-| dreamkg:service/4542572480692224 sdoh:identifier 4542572480692224 |
-| dreamkg:zip/19130 sdoh:identifier 19130 |
+| dreamkg:zip/19120 sdoh:identifier 19120 |
+| dreamkg:service/5398794886447104 sdoh:identifier 5398794886447104 |
 
 ## Comments
 
-* 87 occurrences with subject type sdoh_Service and object type string.
 * 39 occurrences with subject type sdoh_AdministrativeArea and object type string.
+* 87 occurrences with subject type sdoh_Service and object type string.
 
 ## TODOs
 
@@ -92,22 +90,17 @@ URI: [sdoh:identifier](http://schema.org/identifier)
 <details>
 ```yaml
 name: sdoh_identifier
-description: "The identifier property represents any kind of identifier for any kind\
-  \ of [[Thing]], such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated\
-  \ properties for representing many of these, either as textual strings or as URL\
-  \ (URI) links. See [background notes](/docs/datamodel.html#identifierBg) for more\
-  \ details.\n        "
-title: identifier
+description: TODO -- tell the world what this slot (predicate) describes.
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
 - if you think the class is perfect.
 comments:
-- 87 occurrences with subject type sdoh_Service and object type string.
 - 39 occurrences with subject type sdoh_AdministrativeArea and object type string.
+- 87 occurrences with subject type sdoh_Service and object type string.
 examples:
-- value: dreamkg:service/4542572480692224 sdoh:identifier 4542572480692224
-- value: dreamkg:zip/19130 sdoh:identifier 19130
+- value: dreamkg:zip/19120 sdoh:identifier 19120
+- value: dreamkg:service/5398794886447104 sdoh:identifier 5398794886447104
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:identifier

@@ -1,9 +1,9 @@
 
 
-# Slot: containedInPlace (sdoh_containedInPlace)
+# Slot: sdoh_containedInPlace
 
 
-_The basic containment relation between a place and one that contains it._
+_TODO -- tell the world what this slot (predicate) describes._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:containedInPlace](http://schema.org/containedInPlace)
 
 | Value |
 | --- |
-| dreamkg:service/location/5922109384294400 sdoh:containedInPlace dreamkg:zip/19103 |
+| dreamkg:service/location/5640139036164096 sdoh:containedInPlace dreamkg:zip/19124 |
 
 ## Comments
 
@@ -87,9 +87,7 @@ URI: [sdoh:containedInPlace](http://schema.org/containedInPlace)
 <details>
 ```yaml
 name: sdoh_containedInPlace
-description: The basic containment relation between a place and one that contains
-  it.
-title: containedInPlace
+description: TODO -- tell the world what this slot (predicate) describes.
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -97,7 +95,7 @@ todos:
 comments:
 - 88 occurrences with subject type sdoh_Place and object type sdoh_AdministrativeArea.
 examples:
-- value: dreamkg:service/location/5922109384294400 sdoh:containedInPlace dreamkg:zip/19103
+- value: dreamkg:service/location/5640139036164096 sdoh:containedInPlace dreamkg:zip/19124
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:containedInPlace

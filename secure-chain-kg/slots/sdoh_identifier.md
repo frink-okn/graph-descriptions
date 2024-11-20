@@ -23,11 +23,11 @@ URI: [sdoh:identifier](http://schema.org/identifier)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohCreativeWork](../classes/SdohCreativeWork.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SecurechainVulnerability](../classes/SecurechainVulnerability.md) | TODO -- tell the world what this class (type) describes |  no  |
 | [SecurechainVulnerabilityType](../classes/SecurechainVulnerabilityType.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohPerson](../classes/SdohPerson.md) | TODO -- tell the world what this class (type) describes |  no  |
 | [SdohOrganization](../classes/SdohOrganization.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SecurechainVulnerability](../classes/SecurechainVulnerability.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohCreativeWork](../classes/SdohCreativeWork.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohPerson](../classes/SdohPerson.md) | TODO -- tell the world what this class (type) describes |  no  |
 
 
 

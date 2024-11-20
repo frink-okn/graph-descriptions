@@ -1,9 +1,9 @@
 
 
-# Slot: hoursAvailable (sdoh_hoursAvailable)
+# Slot: sdoh_hoursAvailable
 
 
-_The hours during which this service or contact is available._
+_TODO -- tell the world what this slot (predicate) describes._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:hoursAvailable](http://schema.org/hoursAvailable)
 
 | Value |
 | --- |
-| dreamkg:service/5671175268335616 sdoh:hoursAvailable dreamkg:service/hours/monday/5671175268335616 |
+| dreamkg:service/4874573658193920 sdoh:hoursAvailable dreamkg:service/hours/thursday/4874573658193920 |
 
 ## Comments
 
@@ -87,8 +87,7 @@ URI: [sdoh:hoursAvailable](http://schema.org/hoursAvailable)
 <details>
 ```yaml
 name: sdoh_hoursAvailable
-description: The hours during which this service or contact is available.
-title: hoursAvailable
+description: TODO -- tell the world what this slot (predicate) describes.
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -96,7 +95,7 @@ todos:
 comments:
 - 609 occurrences with subject type sdoh_Service and object type sdoh_OpeningHoursSpecification.
 examples:
-- value: dreamkg:service/5671175268335616 sdoh:hoursAvailable dreamkg:service/hours/monday/5671175268335616
+- value: dreamkg:service/4874573658193920 sdoh:hoursAvailable dreamkg:service/hours/thursday/4874573658193920
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:hoursAvailable

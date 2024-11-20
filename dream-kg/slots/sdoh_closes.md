@@ -1,9 +1,9 @@
 
 
-# Slot: closes (sdoh_closes)
+# Slot: sdoh_closes
 
 
-_The closing hour of the place or service on the given day(s) of the week._
+_TODO -- tell the world what this slot (predicate) describes._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:closes](http://schema.org/closes)
 
 | Value |
 | --- |
-| dreamkg:service/hours/sunday/5792020391002112 sdoh:closes 00:00 |
+| dreamkg:service/hours/tuesday/4666716061171712 sdoh:closes 17:00 |
 
 ## Comments
 
@@ -87,8 +87,7 @@ URI: [sdoh:closes](http://schema.org/closes)
 <details>
 ```yaml
 name: sdoh_closes
-description: The closing hour of the place or service on the given day(s) of the week.
-title: closes
+description: TODO -- tell the world what this slot (predicate) describes.
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -97,7 +96,7 @@ comments:
 - 623 occurrences with subject type sdoh_OpeningHoursSpecification and object type
   string.
 examples:
-- value: dreamkg:service/hours/sunday/5792020391002112 sdoh:closes 00:00
+- value: dreamkg:service/hours/tuesday/4666716061171712 sdoh:closes 17:00
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:closes

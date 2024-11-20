@@ -23,8 +23,8 @@ URI: [securechain:versionName](https://w3id.org/secure-chain/versionName)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | TODO -- tell the world what this class (type) describes |  no  |
 | [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | TODO -- tell the world what this class (type) describes |  no  |
 
 
 

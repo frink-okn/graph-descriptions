@@ -1,9 +1,9 @@
 
 
-# Slot: description (sdoh_description)
+# Slot: sdoh_description
 
 
-_A description of the item._
+_TODO -- tell the world what this slot (predicate) describes._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:description](http://schema.org/description)
 
 | Value |
 | --- |
-| dreamkg:service/5062487914577920 sdoh:description dreamkg:service/desc/5062487914577920 |
+| dreamkg:service/5367371355914240 sdoh:description dreamkg:service/desc/5367371355914240 |
 
 ## Comments
 
@@ -87,8 +87,7 @@ URI: [sdoh:description](http://schema.org/description)
 <details>
 ```yaml
 name: sdoh_description
-description: A description of the item.
-title: description
+description: TODO -- tell the world what this slot (predicate) describes.
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -96,7 +95,7 @@ todos:
 comments:
 - 87 occurrences with subject type sdoh_Service and object type sdoh_TextObject.
 examples:
-- value: dreamkg:service/5062487914577920 sdoh:description dreamkg:service/desc/5062487914577920
+- value: dreamkg:service/5367371355914240 sdoh:description dreamkg:service/desc/5367371355914240
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:description

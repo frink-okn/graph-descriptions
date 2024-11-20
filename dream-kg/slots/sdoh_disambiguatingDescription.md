@@ -1,9 +1,9 @@
 
 
-# Slot: disambiguatingDescription (sdoh_disambiguatingDescription)
+# Slot: sdoh_disambiguatingDescription
 
 
-_A sub property of description. A short description of the item used to disambiguate from other, similar items. Information from other properties (in particular, name) may be necessary for the description to be useful for disambiguation._
+_TODO -- tell the world what this slot (predicate) describes._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:disambiguatingDescription](http://schema.org/disambiguatingDescriptio
 
 | Value |
 | --- |
-| dreamkg:service/channel/P-5552002522939392 sdoh:disambiguatingDescription Provider |
+| dreamkg:service/channel/P-5147295688687616 sdoh:disambiguatingDescription Provider |
 
 ## Comments
 
@@ -87,10 +87,7 @@ URI: [sdoh:disambiguatingDescription](http://schema.org/disambiguatingDescriptio
 <details>
 ```yaml
 name: sdoh_disambiguatingDescription
-description: A sub property of description. A short description of the item used to
-  disambiguate from other, similar items. Information from other properties (in particular,
-  name) may be necessary for the description to be useful for disambiguation.
-title: disambiguatingDescription
+description: TODO -- tell the world what this slot (predicate) describes.
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -98,7 +95,7 @@ todos:
 comments:
 - 174 occurrences with subject type sdoh_ServiceChannel and object type string.
 examples:
-- value: dreamkg:service/channel/P-5552002522939392 sdoh:disambiguatingDescription
+- value: dreamkg:service/channel/P-5147295688687616 sdoh:disambiguatingDescription
     Provider
 from_schema: dream-kg
 rank: 1000

@@ -1,9 +1,9 @@
 
 
-# Slot: inCodeSet (sdoh_inCodeSet)
+# Slot: sdoh_inCodeSet
 
 
-_A [[CategoryCodeSet]] that contains this category code._
+_TODO -- tell the world what this slot (predicate) describes._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:inCodeSet](http://schema.org/inCodeSet)
 
 | Value |
 | --- |
-| dreamkg:category/service/main/Treatment sdoh:inCodeSet dreamkg:_CategoryCodeSet_Services_Main |
+| dreamkg:category/service/other/SkillsAndTraining sdoh:inCodeSet dreamkg:_CategoryCodeSet_Services_Other |
 
 ## Comments
 
@@ -87,8 +87,7 @@ URI: [sdoh:inCodeSet](http://schema.org/inCodeSet)
 <details>
 ```yaml
 name: sdoh_inCodeSet
-description: A [[CategoryCodeSet]] that contains this category code.
-title: inCodeSet
+description: TODO -- tell the world what this slot (predicate) describes.
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -96,7 +95,7 @@ todos:
 comments:
 - 157 occurrences with subject type sdoh_CategoryCode and object type uri.
 examples:
-- value: dreamkg:category/service/main/Treatment sdoh:inCodeSet dreamkg:_CategoryCodeSet_Services_Main
+- value: dreamkg:category/service/other/SkillsAndTraining sdoh:inCodeSet dreamkg:_CategoryCodeSet_Services_Other
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:inCodeSet

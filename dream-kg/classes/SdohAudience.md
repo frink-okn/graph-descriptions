@@ -42,7 +42,7 @@ URI: [sdoh:Audience](http://schema.org/Audience)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_audienceType](../slots/sdoh_audienceType.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | The target group associated with a given audience (e | direct |
+| [sdoh_audienceType](../slots/sdoh_audienceType.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
 
 
 
@@ -64,7 +64,7 @@ URI: [sdoh:Audience](http://schema.org/Audience)
 
 | Value |
 | --- |
-| dreamkg:category/audience/FosterYouth |
+| dreamkg:category/audience/DomesticViolenceSurvivors |
 
 ## TODOs
 
@@ -117,9 +117,9 @@ todos:
 - or you can delete the todos
 - if you think the class is perfect.
 notes:
-- There are 81 instances of this class.
+- Class with 81 occurences.
 examples:
-- value: dreamkg:category/audience/FosterYouth
+- value: dreamkg:category/audience/DomesticViolenceSurvivors
 from_schema: dream-kg
 slots:
 - sdoh_audienceType
@@ -140,16 +140,14 @@ todos:
 - or you can delete the todos
 - if you think the class is perfect.
 notes:
-- There are 81 instances of this class.
+- Class with 81 occurences.
 examples:
-- value: dreamkg:category/audience/FosterYouth
+- value: dreamkg:category/audience/DomesticViolenceSurvivors
 from_schema: dream-kg
 attributes:
   sdoh_audienceType:
     name: sdoh_audienceType
-    description: The target group associated with a given audience (e.g. veterans,
-      car owners, musicians, etc.).
-    title: audienceType
+    description: TODO -- tell the world what this slot (predicate) describes.
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -157,7 +155,7 @@ attributes:
     comments:
     - 81 occurrences with subject type sdoh_Audience and object type string.
     examples:
-    - value: dreamkg:category/audience/Female sdoh:audienceType female
+    - value: dreamkg:category/audience/TraumaSurvivors sdoh:audienceType trauma survivors
     from_schema: dream-kg
     rank: 1000
     slot_uri: sdoh:audienceType

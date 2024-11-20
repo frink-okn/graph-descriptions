@@ -1,9 +1,9 @@
 
 
-# Slot: serviceUrl (sdoh_serviceUrl)
+# Slot: sdoh_serviceUrl
 
 
-_The website to access the service._
+_TODO -- tell the world what this slot (predicate) describes._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:serviceUrl](http://schema.org/serviceUrl)
 
 | Value |
 | --- |
-| dreamkg:service/channel/AB-6453846037626880 sdoh:serviceUrl https://www.auntbertha.com//helping-hands-ministry%252C-inc.--philadelphia-pa--social-services---basic-needs-assistance/6453846037626880?postal=19135 |
+| dreamkg:service/channel/P-5390636500647936 sdoh:serviceUrl https://www.vccphilly.org/ccdc.php |
 
 ## Comments
 
@@ -87,8 +87,7 @@ URI: [sdoh:serviceUrl](http://schema.org/serviceUrl)
 <details>
 ```yaml
 name: sdoh_serviceUrl
-description: The website to access the service.
-title: serviceUrl
+description: TODO -- tell the world what this slot (predicate) describes.
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -96,7 +95,7 @@ todos:
 comments:
 - 188 occurrences with subject type sdoh_ServiceChannel and object type uri.
 examples:
-- value: dreamkg:service/channel/AB-6453846037626880 sdoh:serviceUrl https://www.auntbertha.com//helping-hands-ministry%252C-inc.--philadelphia-pa--social-services---basic-needs-assistance/6453846037626880?postal=19135
+- value: dreamkg:service/channel/P-5390636500647936 sdoh:serviceUrl https://www.vccphilly.org/ccdc.php
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:serviceUrl

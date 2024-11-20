@@ -1,9 +1,9 @@
 
 
-# Slot: servicePhone (sdoh_servicePhone)
+# Slot: sdoh_servicePhone
 
 
-_The phone number to use to access the service._
+_TODO -- tell the world what this slot (predicate) describes._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:servicePhone](http://schema.org/servicePhone)
 
 | Value |
 | --- |
-| dreamkg:service/channel/P-4689179354857472 sdoh:servicePhone dreamkg:service/phone/4689179354857472 |
+| dreamkg:service/channel/P-5728648493531136 sdoh:servicePhone dreamkg:service/phone/5728648493531136 |
 
 ## Comments
 
@@ -87,8 +87,7 @@ URI: [sdoh:servicePhone](http://schema.org/servicePhone)
 <details>
 ```yaml
 name: sdoh_servicePhone
-description: The phone number to use to access the service.
-title: servicePhone
+description: TODO -- tell the world what this slot (predicate) describes.
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -96,7 +95,7 @@ todos:
 comments:
 - 87 occurrences with subject type sdoh_ServiceChannel and object type sdoh_ContactPoint.
 examples:
-- value: dreamkg:service/channel/P-4689179354857472 sdoh:servicePhone dreamkg:service/phone/4689179354857472
+- value: dreamkg:service/channel/P-5728648493531136 sdoh:servicePhone dreamkg:service/phone/5728648493531136
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:servicePhone

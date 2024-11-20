@@ -1,9 +1,9 @@
 
 
-# Slot: conditionsOfAccess (sdoh_conditionsOfAccess)
+# Slot: sdoh_conditionsOfAccess
 
 
-_Conditions that affect the availability of, or method(s) of access to, an item. Typically used for real world items such as an [[ArchiveComponent]] held by an [[ArchiveOrganization]]. This property is not suitable for use as a general Web access control mechanism. It is expressed only in natural language.\n\nFor example "Available by appointment from the Reading Room" or "Accessible only from logged-in accounts ". _
+_TODO -- tell the world what this slot (predicate) describes._
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:conditionsOfAccess](http://schema.org/conditionsOfAccess)
 
 | Value |
 | --- |
-| dreamkg:service/desc/5481658659373056 sdoh:conditionsOfAccess Anyone can access this service. |
+| dreamkg:service/desc/4721819823112192 sdoh:conditionsOfAccess Follow the Next Steps to find out if this program has eligibility criteria. |
 
 ## Comments
 
@@ -87,13 +87,7 @@ URI: [sdoh:conditionsOfAccess](http://schema.org/conditionsOfAccess)
 <details>
 ```yaml
 name: sdoh_conditionsOfAccess
-description: 'Conditions that affect the availability of, or method(s) of access to,
-  an item. Typically used for real world items such as an [[ArchiveComponent]] held
-  by an [[ArchiveOrganization]]. This property is not suitable for use as a general
-  Web access control mechanism. It is expressed only in natural language.\n\nFor example
-  "Available by appointment from the Reading Room" or "Accessible only from logged-in
-  accounts ". '
-title: conditionsOfAccess
+description: TODO -- tell the world what this slot (predicate) describes.
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -101,8 +95,8 @@ todos:
 comments:
 - 88 occurrences with subject type sdoh_TextObject and object type string.
 examples:
-- value: dreamkg:service/desc/5481658659373056 sdoh:conditionsOfAccess Anyone can
-    access this service.
+- value: dreamkg:service/desc/4721819823112192 sdoh:conditionsOfAccess Follow the
+    Next Steps to find out if this program has eligibility criteria.
 from_schema: dream-kg
 rank: 1000
 slot_uri: sdoh:conditionsOfAccess
