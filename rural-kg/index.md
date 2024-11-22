@@ -8,6 +8,90 @@ Name: rural-kg
 
 
 
+## Schema Diagram
+
+```mermaid
+erDiagram
+Any {
+
+}
+RuralAdministrativeareaAdministrativeArea {
+
+}
+RuralAdministrativeareaCity {
+    integer rural_administrativearea_ranking  
+    float rural_administrativearea_longitude  
+    string rural_administrativearea_name  
+    float rural_administrativearea_latitude  
+}
+RuralAdministrativeareaCounty {
+    string rural_administrativearea_fips  
+    string rural_administrativearea_name  
+}
+RuralAdministrativeareaState {
+    string rural_administrativearea_abbreviation  
+    string rural_administrativearea_fips  
+    string rural_administrativearea_name  
+}
+RuralMentalhealthserviceMentalHealth {
+
+}
+RuralMentalhealthserviceMentalHealthService {
+    string rural_mentalhealthservice_description  
+    string rural_mentalhealthservice_code  
+    integer rural_mentalhealthservice_year  
+    string rural_mentalhealthservice_name  
+}
+RuralMentalhealthserviceMentalHealthServiceCategory {
+    string rural_mentalhealthservice_code  
+    string rural_mentalhealthservice_name  
+    integer rural_mentalhealthservice_year  
+}
+RuralSettlementtypeCountyStatus {
+    integer rural_settlementtype_year  
+    integer rural_settlementtype_population  
+}
+RuralSettlementtypeRUCC {
+    string rural_settlementtype_code  
+    integer rural_settlementtype_year  
+    string rural_settlementtype_description  
+}
+RuralSettlementtypeSettlementType {
+
+}
+RuralSubstanceabuseSubstance {
+    string rural_substanceabuse_name  
+    integer rural_substanceabuse_year  
+    string rural_substanceabuse_sourceDataset  
+    string rural_substanceabuse_code  
+}
+RuralSubstanceabuseSubstanceAbuse {
+
+}
+RuralSubstanceabuseSubstanceRelatedIncident {
+    string rural_substanceabuse_name  
+    string rural_substanceabuse_sourceDataset  
+    integer rural_substanceabuse_year  
+}
+RuralTreatmentproviderTreatmentProvider {
+    string rural_treatmentprovider_name  
+    string rural_treatmentprovider_alias  
+    string rural_treatmentprovider_address  
+    string rural_treatmentprovider_phone  
+    string rural_treatmentprovider_zipcode  
+}
+
+RuralAdministrativeareaCity ||--|o RuralAdministrativeareaCounty : "rural_administrativearea_primaryCounty"
+RuralAdministrativeareaState ||--|o RuralAdministrativeareaCounty : "rural_administrativearea_containsPlace"
+RuralMentalhealthserviceMentalHealthServiceCategory ||--|o RuralMentalhealthserviceMentalHealthService : "rural_mentalhealthservice_containsService"
+RuralSettlementtypeCountyStatus ||--|o RuralAdministrativeareaCounty : "rural_settlementtype_censusCounty"
+RuralSettlementtypeCountyStatus ||--|o RuralSettlementtypeRUCC : "rural_settlementtype_hasRUCC"
+RuralTreatmentproviderTreatmentProvider ||--|o RuralMentalhealthserviceMentalHealthService : "rural_treatmentprovider_providesService"
+RuralTreatmentproviderTreatmentProvider ||--|o Any : "rural_treatmentprovider_inCity"
+
+```
+
+
 ## Classes
 
 | Class | Description |
