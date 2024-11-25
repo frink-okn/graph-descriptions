@@ -14,8 +14,9 @@ We have observed the following IRI prefixes, and thus they will be appropriately
 
 <details>
 <summary>Click here to view the list of prefixes, along with notes about some of them</summary>
+
 | prefix | IRI | notes |
-| --- | --- |  |
+| --- | --- | --- |
 | sosa: | http://www.w3.org/ns/sosa/ |  |
 | umls: | https://identifiers.org/umls: |  |
 | niehs: | https://ice.ntp.niehs.nih.gov/property/ |  |
