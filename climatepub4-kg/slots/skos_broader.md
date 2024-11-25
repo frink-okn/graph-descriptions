@@ -23,35 +23,35 @@ URI: [skos:broader](http://www.w3.org/2004/02/skos/core#broader)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohActivity](../classes/SdohActivity.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohInstitution](../classes/SdohInstitution.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohRealm](../classes/SdohRealm.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohCmip6SourceId](../classes/SdohCmip6SourceId.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohFrequency](../classes/SdohFrequency.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohTemporalResolutionRange](../classes/SdohTemporalResolutionRange.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohNominalResolution](../classes/SdohNominalResolution.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohLocation](../classes/SdohLocation.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohVerticalResolutionRange](../classes/SdohVerticalResolutionRange.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohPlatform](../classes/SdohPlatform.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohDataset](../classes/SdohDataset.md) | A body of structured information describing some topic(s) of interest |  no  |
-| [SdohVariable](../classes/SdohVariable.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohHorizontalResolutionRange](../classes/SdohHorizontalResolutionRange.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohProject](../classes/SdohProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  no  |
-| [SdohSourceType](../classes/SdohSourceType.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohMeasurementName](../classes/SdohMeasurementName.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohInstrument](../classes/SdohInstrument.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohScienceKeyword](../classes/SdohScienceKeyword.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohChronostratigraphicUnit](../classes/SdohChronostratigraphicUnit.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohMimeType](../classes/SdohMimeType.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohLicense](../classes/SdohLicense.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohProvider](../classes/SdohProvider.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohModel](../classes/SdohModel.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohSubExperimentId](../classes/SdohSubExperimentId.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohDataFormat](../classes/SdohDataFormat.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoModels](../classes/HsdoModels.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoProject](../classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  no  |
+| [HsdoVariable](../classes/HsdoVariable.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoHorizontalResolutionRange](../classes/HsdoHorizontalResolutionRange.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoTemporalResolutionRange](../classes/HsdoTemporalResolutionRange.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoScienceKeyword](../classes/HsdoScienceKeyword.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoExperiment](../classes/HsdoExperiment.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoSourceType](../classes/HsdoSourceType.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoModel](../classes/HsdoModel.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoFrequency](../classes/HsdoFrequency.md) | TODO -- tell the world what this class (type) describes |  no  |
 | [SkosConcept](../classes/SkosConcept.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohRelatedUrlContentType](../classes/SdohRelatedUrlContentType.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohModels](../classes/SdohModels.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohExperiment](../classes/SdohExperiment.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoPlatform](../classes/HsdoPlatform.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoLocation](../classes/HsdoLocation.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoSubExperimentId](../classes/HsdoSubExperimentId.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoDataFormat](../classes/HsdoDataFormat.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoProvider](../classes/HsdoProvider.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoRelatedUrlContentType](../classes/HsdoRelatedUrlContentType.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoRealm](../classes/HsdoRealm.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoMimeType](../classes/HsdoMimeType.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoNominalResolution](../classes/HsdoNominalResolution.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoActivity](../classes/HsdoActivity.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoVerticalResolutionRange](../classes/HsdoVerticalResolutionRange.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoInstrument](../classes/HsdoInstrument.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoChronostratigraphicUnit](../classes/HsdoChronostratigraphicUnit.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoInstitution](../classes/HsdoInstitution.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoDataset](../classes/HsdoDataset.md) | A body of structured information describing some topic(s) of interest |  no  |
+| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoLicense](../classes/HsdoLicense.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoMeasurementName](../classes/HsdoMeasurementName.md) | TODO -- tell the world what this class (type) describes |  no  |
 
 
 
@@ -61,7 +61,7 @@ URI: [skos:broader](http://www.w3.org/2004/02/skos/core#broader)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[SdohInstrument](../classes/SdohInstrument.md)&nbsp;or&nbsp;<br />[SdohMeasurementName](../classes/SdohMeasurementName.md)&nbsp;or&nbsp;<br />[SdohDataFormat](../classes/SdohDataFormat.md)&nbsp;or&nbsp;<br />[SdohChronostratigraphicUnit](../classes/SdohChronostratigraphicUnit.md)&nbsp;or&nbsp;<br />[SdohMimeType](../classes/SdohMimeType.md)&nbsp;or&nbsp;<br />[SdohModel](../classes/SdohModel.md)&nbsp;or&nbsp;<br />[SdohNominalResolution](../classes/SdohNominalResolution.md)&nbsp;or&nbsp;<br />[SdohExperiment](../classes/SdohExperiment.md)&nbsp;or&nbsp;<br />[SdohTemporalResolutionRange](../classes/SdohTemporalResolutionRange.md)&nbsp;or&nbsp;<br />[SdohVariable](../classes/SdohVariable.md)&nbsp;or&nbsp;<br />[SdohSourceType](../classes/SdohSourceType.md)&nbsp;or&nbsp;<br />[SdohDataset](../classes/SdohDataset.md)&nbsp;or&nbsp;<br />[SkosConcept](../classes/SkosConcept.md)&nbsp;or&nbsp;<br />[SdohHorizontalResolutionRange](../classes/SdohHorizontalResolutionRange.md)&nbsp;or&nbsp;<br />[SdohProject](../classes/SdohProject.md)&nbsp;or&nbsp;<br />[SdohModels](../classes/SdohModels.md)&nbsp;or&nbsp;<br />[SdohSubExperimentId](../classes/SdohSubExperimentId.md)&nbsp;or&nbsp;<br />[SdohPlatform](../classes/SdohPlatform.md)&nbsp;or&nbsp;<br />[SdohRelatedUrlContentType](../classes/SdohRelatedUrlContentType.md)&nbsp;or&nbsp;<br />[SdohProvider](../classes/SdohProvider.md)&nbsp;or&nbsp;<br />[SdohLocation](../classes/SdohLocation.md)&nbsp;or&nbsp;<br />[SdohScienceKeyword](../classes/SdohScienceKeyword.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HsdoScienceKeyword](../classes/HsdoScienceKeyword.md)&nbsp;or&nbsp;<br />[HsdoModels](../classes/HsdoModels.md)&nbsp;or&nbsp;<br />[SkosConcept](../classes/SkosConcept.md)&nbsp;or&nbsp;<br />[HsdoDataFormat](../classes/HsdoDataFormat.md)&nbsp;or&nbsp;<br />[HsdoVariable](../classes/HsdoVariable.md)&nbsp;or&nbsp;<br />[HsdoDataset](../classes/HsdoDataset.md)&nbsp;or&nbsp;<br />[HsdoModel](../classes/HsdoModel.md)&nbsp;or&nbsp;<br />[HsdoChronostratigraphicUnit](../classes/HsdoChronostratigraphicUnit.md)&nbsp;or&nbsp;<br />[HsdoLocation](../classes/HsdoLocation.md)&nbsp;or&nbsp;<br />[HsdoExperiment](../classes/HsdoExperiment.md)&nbsp;or&nbsp;<br />[HsdoTemporalResolutionRange](../classes/HsdoTemporalResolutionRange.md)&nbsp;or&nbsp;<br />[HsdoMeasurementName](../classes/HsdoMeasurementName.md)&nbsp;or&nbsp;<br />[HsdoPlatform](../classes/HsdoPlatform.md)&nbsp;or&nbsp;<br />[HsdoMimeType](../classes/HsdoMimeType.md)&nbsp;or&nbsp;<br />[HsdoRelatedUrlContentType](../classes/HsdoRelatedUrlContentType.md)&nbsp;or&nbsp;<br />[HsdoProvider](../classes/HsdoProvider.md)&nbsp;or&nbsp;<br />[HsdoProject](../classes/HsdoProject.md)&nbsp;or&nbsp;<br />[HsdoNominalResolution](../classes/HsdoNominalResolution.md)&nbsp;or&nbsp;<br />[HsdoSubExperimentId](../classes/HsdoSubExperimentId.md)&nbsp;or&nbsp;<br />[HsdoInstrument](../classes/HsdoInstrument.md)&nbsp;or&nbsp;<br />[HsdoHorizontalResolutionRange](../classes/HsdoHorizontalResolutionRange.md)&nbsp;or&nbsp;<br />[HsdoSourceType](../classes/HsdoSourceType.md)
 
 
 
@@ -185,116 +185,116 @@ URI: [skos:broader](http://www.w3.org/2004/02/skos/core#broader)
 
 ## Comments
 
-* 2245 occurrences with subject type sdoh_Location and object type sdoh_Location.
-* 261 occurrences with subject type sdoh_Location and object type sdoh_Instrument.
-* 8109 occurrences with subject type sdoh_Science_Keyword and object type sdoh_Science_Keyword.
-* 2953 occurrences with subject type sdoh_Science_Keyword and object type sdoh_Provider.
-* 1937 occurrences with subject type sdoh_Science_Keyword and object type sdoh_Location.
-* 312 occurrences with subject type sdoh_Science_Keyword and object type sdoh_Model.
-* 1761 occurrences with subject type sdoh_Platform and object type sdoh_Instrument.
-* 2153 occurrences with subject type sdoh_Platform and object type sdoh_Platform.
-* 102 occurrences with subject type sdoh_Location and object type sdoh_Project.
-* 48 occurrences with subject type sdoh_Activity and object type sdoh_Project.
-* 40 occurrences with subject type sdoh_Model and object type sdoh_Instrument.
-* 34 occurrences with subject type sdoh_Model and object type sdoh_Platform.
-* 789 occurrences with subject type sdoh_Chronostratigraphic_Unit and object type sdoh_Chronostratigraphic_Unit.
-* 47 occurrences with subject type sdoh_Experiment and object type sdoh_Project.
-* 8707 occurrences with subject type sdoh_Provider and object type sdoh_Provider.
-* 86 occurrences with subject type sdoh_Model and object type sdoh_Project.
-* 6114 occurrences with subject type sdoh_Instrument and object type sdoh_Instrument.
-* 2038 occurrences with subject type sdoh_Instrument and object type sdoh_Experiment.
-* 57 occurrences with subject type sdoh_Experiment and object type sdoh_Provider.
-* 475 occurrences with subject type sdoh_Location and object type sdoh_Science_Keyword.
-* 311 occurrences with subject type sdoh_Location and object type sdoh_Provider.
-* 26 occurrences with subject type sdoh_Location and object type sdoh_Model.
-* 3416 occurrences with subject type sdoh_Project and object type sdoh_Project.
-* 4 occurrences with subject type sdoh_Realm and object type sdoh_Location.
-* 304 occurrences with subject type sdoh_Provider and object type sdoh_Location.
-* 180 occurrences with subject type sdoh_Instrument and object type sdoh_Project.
-* 891 occurrences with subject type sdoh_Models and object type sdoh_Science_Keyword.
-* 286 occurrences with subject type sdoh_Science_Keyword and object type sdoh_Instrument.
-* 355 occurrences with subject type sdoh_Experiment and object type sdoh_Experiment.
-* 131 occurrences with subject type sdoh_Model and object type sdoh_Science_Keyword.
-* 32 occurrences with subject type sdoh_Model and object type sdoh_Model.
-* 9 occurrences with subject type sdoh_Model and object type sdoh_Experiment.
-* 80 occurrences with subject type sdoh_Model and object type sdoh_Provider.
-* 317 occurrences with subject type sdoh_Measurement_Name and object type sdoh_Instrument.
-* 20 occurrences with subject type sdoh_Measurement_Name and object type sdoh_Location.
-* 75 occurrences with subject type sdoh_Institution and object type sdoh_Provider.
-* 38 occurrences with subject type sdoh_Model and object type sdoh_Location.
-* 12 occurrences with subject type sdoh_Instrument and object type sdoh_Variable.
-* 352 occurrences with subject type sdoh_Instrument and object type sdoh_Science_Keyword.
-* 160 occurrences with subject type sdoh_Instrument and object type sdoh_Provider.
-* 137 occurrences with subject type sdoh_Experiment and object type sdoh_Science_Keyword.
-* 31 occurrences with subject type sdoh_Experiment and object type sdoh_Location.
-* 54 occurrences with subject type sdoh_Sub_Experiment_Id and object type sdoh_Sub_Experiment_Id.
-* 227 occurrences with subject type sdoh_Measurement_Name and object type sdoh_Measurement_Name.
-* 130 occurrences with subject type sdoh_Instrument and object type sdoh_Location.
-* 154 occurrences with subject type sdoh_Provider and object type sdoh_Science_Keyword.
-* 182 occurrences with subject type sdoh_Provider and object type sdoh_Model.
-* 183 occurrences with subject type sdoh_Provider and object type sdoh_Instrument.
-* 43 occurrences with subject type sdoh_Location and object type sdoh_Platform.
-* 242 occurrences with subject type sdoh_Data_Format and object type sdoh_Data_Format.
-* 63 occurrences with subject type sdoh_Location and object type sdoh_Experiment.
-* 1281 occurrences with subject type sdoh_Variable and object type sdoh_Variable.
-* 55 occurrences with subject type sdoh_Platform and object type sdoh_Science_Keyword.
-* 25 occurrences with subject type sdoh_Platform and object type sdoh_Location.
-* 33 occurrences with subject type sdoh_Platform and object type sdoh_Provider.
-* 84 occurrences with subject type sdoh_Instrument and object type sdoh_Platform.
-* 27 occurrences with subject type sdoh_Science_Keyword and object type sdoh_Project.
-* 22 occurrences with subject type sdoh_Provider and object type sdoh_Related_Url_Content_Type.
-* 402 occurrences with subject type sdoh_Cmip6_Source_Id and object type sdoh_Science_Keyword.
-* 15 occurrences with subject type sdoh_Provider and object type sdoh_Sub_Experiment_Id.
-* 3 occurrences with subject type sdoh_Model and object type sdoh_Source_Type.
-* 58 occurrences with subject type sdoh_Experiment and object type sdoh_Instrument.
-* 6 occurrences with subject type sdoh_Experiment and object type sdoh_Platform.
-* 34 occurrences with subject type sdoh_Instrument and object type sdoh_Model.
-* 5 occurrences with subject type sdoh_Location and object type sdoh_Sub_Experiment_Id.
-* 220 occurrences with subject type sdoh_Science_Keyword and object type sdoh_Experiment.
-* 42 occurrences with subject type sdoh_Science_Keyword and object type sdoh_Platform.
-* 7 occurrences with subject type sdoh_Model and object type sdoh_Variable.
-* 13 occurrences with subject type sdoh_Provider and object type sdoh_Variable.
-* 4 occurrences with subject type sdoh_Provider and object type sdoh_Experiment.
-* 211 occurrences with subject type sdoh_Related_Url_Content_Type and object type sdoh_Related_Url_Content_Type.
-* 106 occurrences with subject type sdoh_Dataset and object type sdoh_Dataset.
-* 26 occurrences with subject type sdoh_Project and object type sdoh_Science_Keyword.
-* 4 occurrences with subject type sdoh_Project and object type sdoh_Location.
-* 15 occurrences with subject type sdoh_Project and object type sdoh_Provider.
-* 4 occurrences with subject type sdoh_Platform and object type sdoh_Experiment.
-* 7 occurrences with subject type sdoh_Location and object type sdoh_Related_Url_Content_Type.
-* 16 occurrences with subject type sdoh_Models and object type sdoh_Instrument.
-* 10 occurrences with subject type sdoh_Location and object type sdoh_Measurement_Name.
-* 1 occurrences with subject type sdoh_Provider and object type sdoh_Source_Type.
-* 14 occurrences with subject type sdoh_Instrument and object type sdoh_Related_Url_Content_Type.
-* 12 occurrences with subject type sdoh_Experiment and object type sdoh_Model.
-* 85 occurrences with subject type sdoh_Platform and object type sdoh_Model.
-* 18 occurrences with subject type sdoh_Temporal_Resolution_Range and object type sdoh_Temporal_Resolution_Range.
-* 4 occurrences with subject type sdoh_Project and object type sdoh_Model.
-* 17 occurrences with subject type sdoh_Platform and object type sdoh_Project.
-* 2 occurrences with subject type sdoh_Experiment and object type sdoh_Variable.
-* 3 occurrences with subject type sdoh_Provider and object type sdoh_Platform.
-* 12 occurrences with subject type sdoh_Location and object type sdoh_Variable.
-* 2 occurrences with subject type sdoh_Institution and object type sdoh_Location.
-* 4 occurrences with subject type sdoh_Source_Type and object type sdoh_Source_Type.
-* 15 occurrences with subject type sdoh_Nominal_Resolution and object type sdoh_Nominal_Resolution.
-* 3 occurrences with subject type sdoh_Experiment and object type sdoh_Source_Type.
-* 16 occurrences with subject type sdoh_Frequency and object type sdoh_Temporal_Resolution_Range.
-* 4 occurrences with subject type sdoh_License and object type sdoh_Instrument.
-* 1 occurrences with subject type sdoh_Instrument and object type sdoh_Models.
-* 3 occurrences with subject type sdoh_Location and object type sdoh_Source_Type.
-* 3 occurrences with subject type sdoh_Model and object type sdoh_Related_Url_Content_Type.
-* 24 occurrences with subject type sdoh_Related_Url_Content_Type and object type sdoh_Provider.
-* 1 occurrences with subject type sdoh_Project and object type sdoh_Experiment.
-* 1 occurrences with subject type sdoh_Project and object type sdoh_Variable.
-* 1 occurrences with subject type sdoh_Model and object type sdoh_Temporal_Resolution_Range.
-* 3 occurrences with subject type sdoh_Models and object type sdoh_Models.
-* 1 occurrences with subject type sdoh_Provider and object type sdoh_Project.
-* 2 occurrences with subject type sdoh_Experiment and object type sdoh_Measurement_Name.
+* 2245 occurrences with subject type hsdo_Location and object type hsdo_Location.
+* 261 occurrences with subject type hsdo_Location and object type hsdo_Instrument.
+* 8109 occurrences with subject type hsdo_Science_Keyword and object type hsdo_Science_Keyword.
+* 2953 occurrences with subject type hsdo_Science_Keyword and object type hsdo_Provider.
+* 1937 occurrences with subject type hsdo_Science_Keyword and object type hsdo_Location.
+* 312 occurrences with subject type hsdo_Science_Keyword and object type hsdo_Model.
+* 1761 occurrences with subject type hsdo_Platform and object type hsdo_Instrument.
+* 2153 occurrences with subject type hsdo_Platform and object type hsdo_Platform.
+* 102 occurrences with subject type hsdo_Location and object type hsdo_Project.
+* 48 occurrences with subject type hsdo_Activity and object type hsdo_Project.
+* 40 occurrences with subject type hsdo_Model and object type hsdo_Instrument.
+* 34 occurrences with subject type hsdo_Model and object type hsdo_Platform.
+* 789 occurrences with subject type hsdo_Chronostratigraphic_Unit and object type hsdo_Chronostratigraphic_Unit.
+* 47 occurrences with subject type hsdo_Experiment and object type hsdo_Project.
+* 8707 occurrences with subject type hsdo_Provider and object type hsdo_Provider.
+* 86 occurrences with subject type hsdo_Model and object type hsdo_Project.
+* 6114 occurrences with subject type hsdo_Instrument and object type hsdo_Instrument.
+* 2038 occurrences with subject type hsdo_Instrument and object type hsdo_Experiment.
+* 57 occurrences with subject type hsdo_Experiment and object type hsdo_Provider.
+* 475 occurrences with subject type hsdo_Location and object type hsdo_Science_Keyword.
+* 311 occurrences with subject type hsdo_Location and object type hsdo_Provider.
+* 26 occurrences with subject type hsdo_Location and object type hsdo_Model.
+* 3416 occurrences with subject type hsdo_Project and object type hsdo_Project.
+* 4 occurrences with subject type hsdo_Realm and object type hsdo_Location.
+* 304 occurrences with subject type hsdo_Provider and object type hsdo_Location.
+* 180 occurrences with subject type hsdo_Instrument and object type hsdo_Project.
+* 891 occurrences with subject type hsdo_Models and object type hsdo_Science_Keyword.
+* 286 occurrences with subject type hsdo_Science_Keyword and object type hsdo_Instrument.
+* 355 occurrences with subject type hsdo_Experiment and object type hsdo_Experiment.
+* 131 occurrences with subject type hsdo_Model and object type hsdo_Science_Keyword.
+* 32 occurrences with subject type hsdo_Model and object type hsdo_Model.
+* 9 occurrences with subject type hsdo_Model and object type hsdo_Experiment.
+* 80 occurrences with subject type hsdo_Model and object type hsdo_Provider.
+* 317 occurrences with subject type hsdo_Measurement_Name and object type hsdo_Instrument.
+* 20 occurrences with subject type hsdo_Measurement_Name and object type hsdo_Location.
+* 75 occurrences with subject type hsdo_Institution and object type hsdo_Provider.
+* 38 occurrences with subject type hsdo_Model and object type hsdo_Location.
+* 12 occurrences with subject type hsdo_Instrument and object type hsdo_Variable.
+* 352 occurrences with subject type hsdo_Instrument and object type hsdo_Science_Keyword.
+* 160 occurrences with subject type hsdo_Instrument and object type hsdo_Provider.
+* 137 occurrences with subject type hsdo_Experiment and object type hsdo_Science_Keyword.
+* 31 occurrences with subject type hsdo_Experiment and object type hsdo_Location.
+* 54 occurrences with subject type hsdo_Sub_Experiment_Id and object type hsdo_Sub_Experiment_Id.
+* 227 occurrences with subject type hsdo_Measurement_Name and object type hsdo_Measurement_Name.
+* 130 occurrences with subject type hsdo_Instrument and object type hsdo_Location.
+* 154 occurrences with subject type hsdo_Provider and object type hsdo_Science_Keyword.
+* 182 occurrences with subject type hsdo_Provider and object type hsdo_Model.
+* 183 occurrences with subject type hsdo_Provider and object type hsdo_Instrument.
+* 43 occurrences with subject type hsdo_Location and object type hsdo_Platform.
+* 242 occurrences with subject type hsdo_Data_Format and object type hsdo_Data_Format.
+* 63 occurrences with subject type hsdo_Location and object type hsdo_Experiment.
+* 1281 occurrences with subject type hsdo_Variable and object type hsdo_Variable.
+* 55 occurrences with subject type hsdo_Platform and object type hsdo_Science_Keyword.
+* 25 occurrences with subject type hsdo_Platform and object type hsdo_Location.
+* 33 occurrences with subject type hsdo_Platform and object type hsdo_Provider.
+* 84 occurrences with subject type hsdo_Instrument and object type hsdo_Platform.
+* 27 occurrences with subject type hsdo_Science_Keyword and object type hsdo_Project.
+* 22 occurrences with subject type hsdo_Provider and object type hsdo_Related_Url_Content_Type.
+* 402 occurrences with subject type hsdo_Cmip6_Source_Id and object type hsdo_Science_Keyword.
+* 15 occurrences with subject type hsdo_Provider and object type hsdo_Sub_Experiment_Id.
+* 3 occurrences with subject type hsdo_Model and object type hsdo_Source_Type.
+* 58 occurrences with subject type hsdo_Experiment and object type hsdo_Instrument.
+* 6 occurrences with subject type hsdo_Experiment and object type hsdo_Platform.
+* 34 occurrences with subject type hsdo_Instrument and object type hsdo_Model.
+* 5 occurrences with subject type hsdo_Location and object type hsdo_Sub_Experiment_Id.
+* 220 occurrences with subject type hsdo_Science_Keyword and object type hsdo_Experiment.
+* 42 occurrences with subject type hsdo_Science_Keyword and object type hsdo_Platform.
+* 7 occurrences with subject type hsdo_Model and object type hsdo_Variable.
+* 13 occurrences with subject type hsdo_Provider and object type hsdo_Variable.
+* 4 occurrences with subject type hsdo_Provider and object type hsdo_Experiment.
+* 211 occurrences with subject type hsdo_Related_Url_Content_Type and object type hsdo_Related_Url_Content_Type.
+* 106 occurrences with subject type hsdo_Dataset and object type hsdo_Dataset.
+* 26 occurrences with subject type hsdo_Project and object type hsdo_Science_Keyword.
+* 4 occurrences with subject type hsdo_Project and object type hsdo_Location.
+* 15 occurrences with subject type hsdo_Project and object type hsdo_Provider.
+* 4 occurrences with subject type hsdo_Platform and object type hsdo_Experiment.
+* 7 occurrences with subject type hsdo_Location and object type hsdo_Related_Url_Content_Type.
+* 16 occurrences with subject type hsdo_Models and object type hsdo_Instrument.
+* 10 occurrences with subject type hsdo_Location and object type hsdo_Measurement_Name.
+* 1 occurrences with subject type hsdo_Provider and object type hsdo_Source_Type.
+* 14 occurrences with subject type hsdo_Instrument and object type hsdo_Related_Url_Content_Type.
+* 12 occurrences with subject type hsdo_Experiment and object type hsdo_Model.
+* 85 occurrences with subject type hsdo_Platform and object type hsdo_Model.
+* 18 occurrences with subject type hsdo_Temporal_Resolution_Range and object type hsdo_Temporal_Resolution_Range.
+* 4 occurrences with subject type hsdo_Project and object type hsdo_Model.
+* 17 occurrences with subject type hsdo_Platform and object type hsdo_Project.
+* 2 occurrences with subject type hsdo_Experiment and object type hsdo_Variable.
+* 3 occurrences with subject type hsdo_Provider and object type hsdo_Platform.
+* 12 occurrences with subject type hsdo_Location and object type hsdo_Variable.
+* 2 occurrences with subject type hsdo_Institution and object type hsdo_Location.
+* 4 occurrences with subject type hsdo_Source_Type and object type hsdo_Source_Type.
+* 15 occurrences with subject type hsdo_Nominal_Resolution and object type hsdo_Nominal_Resolution.
+* 3 occurrences with subject type hsdo_Experiment and object type hsdo_Source_Type.
+* 16 occurrences with subject type hsdo_Frequency and object type hsdo_Temporal_Resolution_Range.
+* 4 occurrences with subject type hsdo_License and object type hsdo_Instrument.
+* 1 occurrences with subject type hsdo_Instrument and object type hsdo_Models.
+* 3 occurrences with subject type hsdo_Location and object type hsdo_Source_Type.
+* 3 occurrences with subject type hsdo_Model and object type hsdo_Related_Url_Content_Type.
+* 24 occurrences with subject type hsdo_Related_Url_Content_Type and object type hsdo_Provider.
+* 1 occurrences with subject type hsdo_Project and object type hsdo_Experiment.
+* 1 occurrences with subject type hsdo_Project and object type hsdo_Variable.
+* 1 occurrences with subject type hsdo_Model and object type hsdo_Temporal_Resolution_Range.
+* 3 occurrences with subject type hsdo_Models and object type hsdo_Models.
+* 1 occurrences with subject type hsdo_Provider and object type hsdo_Project.
+* 2 occurrences with subject type hsdo_Experiment and object type hsdo_Measurement_Name.
 * 16338 occurrences with subject type skos_Concept and object type skos_Concept.
-* 37 occurrences with subject type sdoh_Mime_Type and object type sdoh_Mime_Type.
-* 14 occurrences with subject type sdoh_Horizontal_Resolution_Range and object type sdoh_Horizontal_Resolution_Range.
-* 6 occurrences with subject type sdoh_Vertical_Resolution_Range and object type sdoh_Variable.
-* 2 occurrences with subject type sdoh_Related_Url_Content_Type and object type sdoh_Instrument.
+* 37 occurrences with subject type hsdo_Mime_Type and object type hsdo_Mime_Type.
+* 14 occurrences with subject type hsdo_Horizontal_Resolution_Range and object type hsdo_Horizontal_Resolution_Range.
+* 6 occurrences with subject type hsdo_Vertical_Resolution_Range and object type hsdo_Variable.
+* 2 occurrences with subject type hsdo_Related_Url_Content_Type and object type hsdo_Instrument.
 
 ## TODOs
 
@@ -339,120 +339,120 @@ todos:
 - or you can delete the todos
 - if you think the class is perfect.
 comments:
-- 2245 occurrences with subject type sdoh_Location and object type sdoh_Location.
-- 261 occurrences with subject type sdoh_Location and object type sdoh_Instrument.
-- 8109 occurrences with subject type sdoh_Science_Keyword and object type sdoh_Science_Keyword.
-- 2953 occurrences with subject type sdoh_Science_Keyword and object type sdoh_Provider.
-- 1937 occurrences with subject type sdoh_Science_Keyword and object type sdoh_Location.
-- 312 occurrences with subject type sdoh_Science_Keyword and object type sdoh_Model.
-- 1761 occurrences with subject type sdoh_Platform and object type sdoh_Instrument.
-- 2153 occurrences with subject type sdoh_Platform and object type sdoh_Platform.
-- 102 occurrences with subject type sdoh_Location and object type sdoh_Project.
-- 48 occurrences with subject type sdoh_Activity and object type sdoh_Project.
-- 40 occurrences with subject type sdoh_Model and object type sdoh_Instrument.
-- 34 occurrences with subject type sdoh_Model and object type sdoh_Platform.
-- 789 occurrences with subject type sdoh_Chronostratigraphic_Unit and object type
-  sdoh_Chronostratigraphic_Unit.
-- 47 occurrences with subject type sdoh_Experiment and object type sdoh_Project.
-- 8707 occurrences with subject type sdoh_Provider and object type sdoh_Provider.
-- 86 occurrences with subject type sdoh_Model and object type sdoh_Project.
-- 6114 occurrences with subject type sdoh_Instrument and object type sdoh_Instrument.
-- 2038 occurrences with subject type sdoh_Instrument and object type sdoh_Experiment.
-- 57 occurrences with subject type sdoh_Experiment and object type sdoh_Provider.
-- 475 occurrences with subject type sdoh_Location and object type sdoh_Science_Keyword.
-- 311 occurrences with subject type sdoh_Location and object type sdoh_Provider.
-- 26 occurrences with subject type sdoh_Location and object type sdoh_Model.
-- 3416 occurrences with subject type sdoh_Project and object type sdoh_Project.
-- 4 occurrences with subject type sdoh_Realm and object type sdoh_Location.
-- 304 occurrences with subject type sdoh_Provider and object type sdoh_Location.
-- 180 occurrences with subject type sdoh_Instrument and object type sdoh_Project.
-- 891 occurrences with subject type sdoh_Models and object type sdoh_Science_Keyword.
-- 286 occurrences with subject type sdoh_Science_Keyword and object type sdoh_Instrument.
-- 355 occurrences with subject type sdoh_Experiment and object type sdoh_Experiment.
-- 131 occurrences with subject type sdoh_Model and object type sdoh_Science_Keyword.
-- 32 occurrences with subject type sdoh_Model and object type sdoh_Model.
-- 9 occurrences with subject type sdoh_Model and object type sdoh_Experiment.
-- 80 occurrences with subject type sdoh_Model and object type sdoh_Provider.
-- 317 occurrences with subject type sdoh_Measurement_Name and object type sdoh_Instrument.
-- 20 occurrences with subject type sdoh_Measurement_Name and object type sdoh_Location.
-- 75 occurrences with subject type sdoh_Institution and object type sdoh_Provider.
-- 38 occurrences with subject type sdoh_Model and object type sdoh_Location.
-- 12 occurrences with subject type sdoh_Instrument and object type sdoh_Variable.
-- 352 occurrences with subject type sdoh_Instrument and object type sdoh_Science_Keyword.
-- 160 occurrences with subject type sdoh_Instrument and object type sdoh_Provider.
-- 137 occurrences with subject type sdoh_Experiment and object type sdoh_Science_Keyword.
-- 31 occurrences with subject type sdoh_Experiment and object type sdoh_Location.
-- 54 occurrences with subject type sdoh_Sub_Experiment_Id and object type sdoh_Sub_Experiment_Id.
-- 227 occurrences with subject type sdoh_Measurement_Name and object type sdoh_Measurement_Name.
-- 130 occurrences with subject type sdoh_Instrument and object type sdoh_Location.
-- 154 occurrences with subject type sdoh_Provider and object type sdoh_Science_Keyword.
-- 182 occurrences with subject type sdoh_Provider and object type sdoh_Model.
-- 183 occurrences with subject type sdoh_Provider and object type sdoh_Instrument.
-- 43 occurrences with subject type sdoh_Location and object type sdoh_Platform.
-- 242 occurrences with subject type sdoh_Data_Format and object type sdoh_Data_Format.
-- 63 occurrences with subject type sdoh_Location and object type sdoh_Experiment.
-- 1281 occurrences with subject type sdoh_Variable and object type sdoh_Variable.
-- 55 occurrences with subject type sdoh_Platform and object type sdoh_Science_Keyword.
-- 25 occurrences with subject type sdoh_Platform and object type sdoh_Location.
-- 33 occurrences with subject type sdoh_Platform and object type sdoh_Provider.
-- 84 occurrences with subject type sdoh_Instrument and object type sdoh_Platform.
-- 27 occurrences with subject type sdoh_Science_Keyword and object type sdoh_Project.
-- 22 occurrences with subject type sdoh_Provider and object type sdoh_Related_Url_Content_Type.
-- 402 occurrences with subject type sdoh_Cmip6_Source_Id and object type sdoh_Science_Keyword.
-- 15 occurrences with subject type sdoh_Provider and object type sdoh_Sub_Experiment_Id.
-- 3 occurrences with subject type sdoh_Model and object type sdoh_Source_Type.
-- 58 occurrences with subject type sdoh_Experiment and object type sdoh_Instrument.
-- 6 occurrences with subject type sdoh_Experiment and object type sdoh_Platform.
-- 34 occurrences with subject type sdoh_Instrument and object type sdoh_Model.
-- 5 occurrences with subject type sdoh_Location and object type sdoh_Sub_Experiment_Id.
-- 220 occurrences with subject type sdoh_Science_Keyword and object type sdoh_Experiment.
-- 42 occurrences with subject type sdoh_Science_Keyword and object type sdoh_Platform.
-- 7 occurrences with subject type sdoh_Model and object type sdoh_Variable.
-- 13 occurrences with subject type sdoh_Provider and object type sdoh_Variable.
-- 4 occurrences with subject type sdoh_Provider and object type sdoh_Experiment.
-- 211 occurrences with subject type sdoh_Related_Url_Content_Type and object type
-  sdoh_Related_Url_Content_Type.
-- 106 occurrences with subject type sdoh_Dataset and object type sdoh_Dataset.
-- 26 occurrences with subject type sdoh_Project and object type sdoh_Science_Keyword.
-- 4 occurrences with subject type sdoh_Project and object type sdoh_Location.
-- 15 occurrences with subject type sdoh_Project and object type sdoh_Provider.
-- 4 occurrences with subject type sdoh_Platform and object type sdoh_Experiment.
-- 7 occurrences with subject type sdoh_Location and object type sdoh_Related_Url_Content_Type.
-- 16 occurrences with subject type sdoh_Models and object type sdoh_Instrument.
-- 10 occurrences with subject type sdoh_Location and object type sdoh_Measurement_Name.
-- 1 occurrences with subject type sdoh_Provider and object type sdoh_Source_Type.
-- 14 occurrences with subject type sdoh_Instrument and object type sdoh_Related_Url_Content_Type.
-- 12 occurrences with subject type sdoh_Experiment and object type sdoh_Model.
-- 85 occurrences with subject type sdoh_Platform and object type sdoh_Model.
-- 18 occurrences with subject type sdoh_Temporal_Resolution_Range and object type
-  sdoh_Temporal_Resolution_Range.
-- 4 occurrences with subject type sdoh_Project and object type sdoh_Model.
-- 17 occurrences with subject type sdoh_Platform and object type sdoh_Project.
-- 2 occurrences with subject type sdoh_Experiment and object type sdoh_Variable.
-- 3 occurrences with subject type sdoh_Provider and object type sdoh_Platform.
-- 12 occurrences with subject type sdoh_Location and object type sdoh_Variable.
-- 2 occurrences with subject type sdoh_Institution and object type sdoh_Location.
-- 4 occurrences with subject type sdoh_Source_Type and object type sdoh_Source_Type.
-- 15 occurrences with subject type sdoh_Nominal_Resolution and object type sdoh_Nominal_Resolution.
-- 3 occurrences with subject type sdoh_Experiment and object type sdoh_Source_Type.
-- 16 occurrences with subject type sdoh_Frequency and object type sdoh_Temporal_Resolution_Range.
-- 4 occurrences with subject type sdoh_License and object type sdoh_Instrument.
-- 1 occurrences with subject type sdoh_Instrument and object type sdoh_Models.
-- 3 occurrences with subject type sdoh_Location and object type sdoh_Source_Type.
-- 3 occurrences with subject type sdoh_Model and object type sdoh_Related_Url_Content_Type.
-- 24 occurrences with subject type sdoh_Related_Url_Content_Type and object type sdoh_Provider.
-- 1 occurrences with subject type sdoh_Project and object type sdoh_Experiment.
-- 1 occurrences with subject type sdoh_Project and object type sdoh_Variable.
-- 1 occurrences with subject type sdoh_Model and object type sdoh_Temporal_Resolution_Range.
-- 3 occurrences with subject type sdoh_Models and object type sdoh_Models.
-- 1 occurrences with subject type sdoh_Provider and object type sdoh_Project.
-- 2 occurrences with subject type sdoh_Experiment and object type sdoh_Measurement_Name.
+- 2245 occurrences with subject type hsdo_Location and object type hsdo_Location.
+- 261 occurrences with subject type hsdo_Location and object type hsdo_Instrument.
+- 8109 occurrences with subject type hsdo_Science_Keyword and object type hsdo_Science_Keyword.
+- 2953 occurrences with subject type hsdo_Science_Keyword and object type hsdo_Provider.
+- 1937 occurrences with subject type hsdo_Science_Keyword and object type hsdo_Location.
+- 312 occurrences with subject type hsdo_Science_Keyword and object type hsdo_Model.
+- 1761 occurrences with subject type hsdo_Platform and object type hsdo_Instrument.
+- 2153 occurrences with subject type hsdo_Platform and object type hsdo_Platform.
+- 102 occurrences with subject type hsdo_Location and object type hsdo_Project.
+- 48 occurrences with subject type hsdo_Activity and object type hsdo_Project.
+- 40 occurrences with subject type hsdo_Model and object type hsdo_Instrument.
+- 34 occurrences with subject type hsdo_Model and object type hsdo_Platform.
+- 789 occurrences with subject type hsdo_Chronostratigraphic_Unit and object type
+  hsdo_Chronostratigraphic_Unit.
+- 47 occurrences with subject type hsdo_Experiment and object type hsdo_Project.
+- 8707 occurrences with subject type hsdo_Provider and object type hsdo_Provider.
+- 86 occurrences with subject type hsdo_Model and object type hsdo_Project.
+- 6114 occurrences with subject type hsdo_Instrument and object type hsdo_Instrument.
+- 2038 occurrences with subject type hsdo_Instrument and object type hsdo_Experiment.
+- 57 occurrences with subject type hsdo_Experiment and object type hsdo_Provider.
+- 475 occurrences with subject type hsdo_Location and object type hsdo_Science_Keyword.
+- 311 occurrences with subject type hsdo_Location and object type hsdo_Provider.
+- 26 occurrences with subject type hsdo_Location and object type hsdo_Model.
+- 3416 occurrences with subject type hsdo_Project and object type hsdo_Project.
+- 4 occurrences with subject type hsdo_Realm and object type hsdo_Location.
+- 304 occurrences with subject type hsdo_Provider and object type hsdo_Location.
+- 180 occurrences with subject type hsdo_Instrument and object type hsdo_Project.
+- 891 occurrences with subject type hsdo_Models and object type hsdo_Science_Keyword.
+- 286 occurrences with subject type hsdo_Science_Keyword and object type hsdo_Instrument.
+- 355 occurrences with subject type hsdo_Experiment and object type hsdo_Experiment.
+- 131 occurrences with subject type hsdo_Model and object type hsdo_Science_Keyword.
+- 32 occurrences with subject type hsdo_Model and object type hsdo_Model.
+- 9 occurrences with subject type hsdo_Model and object type hsdo_Experiment.
+- 80 occurrences with subject type hsdo_Model and object type hsdo_Provider.
+- 317 occurrences with subject type hsdo_Measurement_Name and object type hsdo_Instrument.
+- 20 occurrences with subject type hsdo_Measurement_Name and object type hsdo_Location.
+- 75 occurrences with subject type hsdo_Institution and object type hsdo_Provider.
+- 38 occurrences with subject type hsdo_Model and object type hsdo_Location.
+- 12 occurrences with subject type hsdo_Instrument and object type hsdo_Variable.
+- 352 occurrences with subject type hsdo_Instrument and object type hsdo_Science_Keyword.
+- 160 occurrences with subject type hsdo_Instrument and object type hsdo_Provider.
+- 137 occurrences with subject type hsdo_Experiment and object type hsdo_Science_Keyword.
+- 31 occurrences with subject type hsdo_Experiment and object type hsdo_Location.
+- 54 occurrences with subject type hsdo_Sub_Experiment_Id and object type hsdo_Sub_Experiment_Id.
+- 227 occurrences with subject type hsdo_Measurement_Name and object type hsdo_Measurement_Name.
+- 130 occurrences with subject type hsdo_Instrument and object type hsdo_Location.
+- 154 occurrences with subject type hsdo_Provider and object type hsdo_Science_Keyword.
+- 182 occurrences with subject type hsdo_Provider and object type hsdo_Model.
+- 183 occurrences with subject type hsdo_Provider and object type hsdo_Instrument.
+- 43 occurrences with subject type hsdo_Location and object type hsdo_Platform.
+- 242 occurrences with subject type hsdo_Data_Format and object type hsdo_Data_Format.
+- 63 occurrences with subject type hsdo_Location and object type hsdo_Experiment.
+- 1281 occurrences with subject type hsdo_Variable and object type hsdo_Variable.
+- 55 occurrences with subject type hsdo_Platform and object type hsdo_Science_Keyword.
+- 25 occurrences with subject type hsdo_Platform and object type hsdo_Location.
+- 33 occurrences with subject type hsdo_Platform and object type hsdo_Provider.
+- 84 occurrences with subject type hsdo_Instrument and object type hsdo_Platform.
+- 27 occurrences with subject type hsdo_Science_Keyword and object type hsdo_Project.
+- 22 occurrences with subject type hsdo_Provider and object type hsdo_Related_Url_Content_Type.
+- 402 occurrences with subject type hsdo_Cmip6_Source_Id and object type hsdo_Science_Keyword.
+- 15 occurrences with subject type hsdo_Provider and object type hsdo_Sub_Experiment_Id.
+- 3 occurrences with subject type hsdo_Model and object type hsdo_Source_Type.
+- 58 occurrences with subject type hsdo_Experiment and object type hsdo_Instrument.
+- 6 occurrences with subject type hsdo_Experiment and object type hsdo_Platform.
+- 34 occurrences with subject type hsdo_Instrument and object type hsdo_Model.
+- 5 occurrences with subject type hsdo_Location and object type hsdo_Sub_Experiment_Id.
+- 220 occurrences with subject type hsdo_Science_Keyword and object type hsdo_Experiment.
+- 42 occurrences with subject type hsdo_Science_Keyword and object type hsdo_Platform.
+- 7 occurrences with subject type hsdo_Model and object type hsdo_Variable.
+- 13 occurrences with subject type hsdo_Provider and object type hsdo_Variable.
+- 4 occurrences with subject type hsdo_Provider and object type hsdo_Experiment.
+- 211 occurrences with subject type hsdo_Related_Url_Content_Type and object type
+  hsdo_Related_Url_Content_Type.
+- 106 occurrences with subject type hsdo_Dataset and object type hsdo_Dataset.
+- 26 occurrences with subject type hsdo_Project and object type hsdo_Science_Keyword.
+- 4 occurrences with subject type hsdo_Project and object type hsdo_Location.
+- 15 occurrences with subject type hsdo_Project and object type hsdo_Provider.
+- 4 occurrences with subject type hsdo_Platform and object type hsdo_Experiment.
+- 7 occurrences with subject type hsdo_Location and object type hsdo_Related_Url_Content_Type.
+- 16 occurrences with subject type hsdo_Models and object type hsdo_Instrument.
+- 10 occurrences with subject type hsdo_Location and object type hsdo_Measurement_Name.
+- 1 occurrences with subject type hsdo_Provider and object type hsdo_Source_Type.
+- 14 occurrences with subject type hsdo_Instrument and object type hsdo_Related_Url_Content_Type.
+- 12 occurrences with subject type hsdo_Experiment and object type hsdo_Model.
+- 85 occurrences with subject type hsdo_Platform and object type hsdo_Model.
+- 18 occurrences with subject type hsdo_Temporal_Resolution_Range and object type
+  hsdo_Temporal_Resolution_Range.
+- 4 occurrences with subject type hsdo_Project and object type hsdo_Model.
+- 17 occurrences with subject type hsdo_Platform and object type hsdo_Project.
+- 2 occurrences with subject type hsdo_Experiment and object type hsdo_Variable.
+- 3 occurrences with subject type hsdo_Provider and object type hsdo_Platform.
+- 12 occurrences with subject type hsdo_Location and object type hsdo_Variable.
+- 2 occurrences with subject type hsdo_Institution and object type hsdo_Location.
+- 4 occurrences with subject type hsdo_Source_Type and object type hsdo_Source_Type.
+- 15 occurrences with subject type hsdo_Nominal_Resolution and object type hsdo_Nominal_Resolution.
+- 3 occurrences with subject type hsdo_Experiment and object type hsdo_Source_Type.
+- 16 occurrences with subject type hsdo_Frequency and object type hsdo_Temporal_Resolution_Range.
+- 4 occurrences with subject type hsdo_License and object type hsdo_Instrument.
+- 1 occurrences with subject type hsdo_Instrument and object type hsdo_Models.
+- 3 occurrences with subject type hsdo_Location and object type hsdo_Source_Type.
+- 3 occurrences with subject type hsdo_Model and object type hsdo_Related_Url_Content_Type.
+- 24 occurrences with subject type hsdo_Related_Url_Content_Type and object type hsdo_Provider.
+- 1 occurrences with subject type hsdo_Project and object type hsdo_Experiment.
+- 1 occurrences with subject type hsdo_Project and object type hsdo_Variable.
+- 1 occurrences with subject type hsdo_Model and object type hsdo_Temporal_Resolution_Range.
+- 3 occurrences with subject type hsdo_Models and object type hsdo_Models.
+- 1 occurrences with subject type hsdo_Provider and object type hsdo_Project.
+- 2 occurrences with subject type hsdo_Experiment and object type hsdo_Measurement_Name.
 - 16338 occurrences with subject type skos_Concept and object type skos_Concept.
-- 37 occurrences with subject type sdoh_Mime_Type and object type sdoh_Mime_Type.
-- 14 occurrences with subject type sdoh_Horizontal_Resolution_Range and object type
-  sdoh_Horizontal_Resolution_Range.
-- 6 occurrences with subject type sdoh_Vertical_Resolution_Range and object type sdoh_Variable.
-- 2 occurrences with subject type sdoh_Related_Url_Content_Type and object type sdoh_Instrument.
+- 37 occurrences with subject type hsdo_Mime_Type and object type hsdo_Mime_Type.
+- 14 occurrences with subject type hsdo_Horizontal_Resolution_Range and object type
+  hsdo_Horizontal_Resolution_Range.
+- 6 occurrences with subject type hsdo_Vertical_Resolution_Range and object type hsdo_Variable.
+- 2 occurrences with subject type hsdo_Related_Url_Content_Type and object type hsdo_Instrument.
 examples:
 - value: https://climateKG.org/entity/ffcee960-5527-43e0-bfd0-ad48b1151cf0 skos:broader
     https://climateKG.org/entity/713eb469-abe4-4b6b-bad6-134187deabd8
@@ -679,59 +679,59 @@ rank: 1000
 slot_uri: skos:broader
 alias: skos_broader
 domain_of:
-- sdoh_Activity
-- sdoh_Chronostratigraphic_Unit
-- sdoh_Cmip6_Source_Id
-- sdoh_Data_Format
-- sdoh_Dataset
-- sdoh_Experiment
-- sdoh_Frequency
-- sdoh_Horizontal_Resolution_Range
-- sdoh_Institution
-- sdoh_Instrument
-- sdoh_License
-- sdoh_Location
-- sdoh_Measurement_Name
-- sdoh_Mime_Type
-- sdoh_Model
-- sdoh_Models
-- sdoh_Nominal_Resolution
-- sdoh_Platform
-- sdoh_Project
-- sdoh_Provider
-- sdoh_Realm
-- sdoh_Related_Url_Content_Type
-- sdoh_Science_Keyword
-- sdoh_Source_Type
-- sdoh_Sub_Experiment_Id
-- sdoh_Temporal_Resolution_Range
-- sdoh_Variable
-- sdoh_Vertical_Resolution_Range
+- hsdo_Activity
+- hsdo_Chronostratigraphic_Unit
+- hsdo_Cmip6_Source_Id
+- hsdo_Data_Format
+- hsdo_Dataset
+- hsdo_Experiment
+- hsdo_Frequency
+- hsdo_Horizontal_Resolution_Range
+- hsdo_Institution
+- hsdo_Instrument
+- hsdo_License
+- hsdo_Location
+- hsdo_Measurement_Name
+- hsdo_Mime_Type
+- hsdo_Model
+- hsdo_Models
+- hsdo_Nominal_Resolution
+- hsdo_Platform
+- hsdo_Project
+- hsdo_Provider
+- hsdo_Realm
+- hsdo_Related_Url_Content_Type
+- hsdo_Science_Keyword
+- hsdo_Source_Type
+- hsdo_Sub_Experiment_Id
+- hsdo_Temporal_Resolution_Range
+- hsdo_Variable
+- hsdo_Vertical_Resolution_Range
 - skos_Concept
 range: Any
 any_of:
-- range: sdoh_Instrument
-- range: sdoh_Measurement_Name
-- range: sdoh_Data_Format
-- range: sdoh_Chronostratigraphic_Unit
-- range: sdoh_Mime_Type
-- range: sdoh_Model
-- range: sdoh_Nominal_Resolution
-- range: sdoh_Experiment
-- range: sdoh_Temporal_Resolution_Range
-- range: sdoh_Variable
-- range: sdoh_Source_Type
-- range: sdoh_Dataset
+- range: hsdo_Science_Keyword
+- range: hsdo_Models
 - range: skos_Concept
-- range: sdoh_Horizontal_Resolution_Range
-- range: sdoh_Project
-- range: sdoh_Models
-- range: sdoh_Sub_Experiment_Id
-- range: sdoh_Platform
-- range: sdoh_Related_Url_Content_Type
-- range: sdoh_Provider
-- range: sdoh_Location
-- range: sdoh_Science_Keyword
+- range: hsdo_Data_Format
+- range: hsdo_Variable
+- range: hsdo_Dataset
+- range: hsdo_Model
+- range: hsdo_Chronostratigraphic_Unit
+- range: hsdo_Location
+- range: hsdo_Experiment
+- range: hsdo_Temporal_Resolution_Range
+- range: hsdo_Measurement_Name
+- range: hsdo_Platform
+- range: hsdo_Mime_Type
+- range: hsdo_Related_Url_Content_Type
+- range: hsdo_Provider
+- range: hsdo_Project
+- range: hsdo_Nominal_Resolution
+- range: hsdo_Sub_Experiment_Id
+- range: hsdo_Instrument
+- range: hsdo_Horizontal_Resolution_Range
+- range: hsdo_Source_Type
 
 ```
 </details>

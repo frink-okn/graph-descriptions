@@ -15,327 +15,327 @@ erDiagram
 Any {
 
 }
-SdohActivity {
+HsdoActivity {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohChronostratigraphicUnit {
+HsdoChronostratigraphicUnit {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohCmip6SourceId {
+HsdoCmip6SourceId {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohDataFormat {
+HsdoDataFormat {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohDataset {
+HsdoDataset {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohExperiment {
-    string http___attribute.org_end_year  
-    string http___attribute.org_experiment  
+HsdoExperiment {
+    string attribute_tier  
+    string skos_definition  
+    string attribute_start_year  
+    string attribute_experiment  
     string skos_prefLabel  
-    string http___attribute.org_tier  
-    string http___attribute.org_start_year  
+    string attribute_end_year  
+}
+HsdoFrequency {
+    string skos_prefLabel  
     string skos_definition  
 }
-SdohFrequency {
-    string skos_prefLabel  
-    string skos_definition  
-}
-SdohGridLabel {
+HsdoGridLabel {
 
 }
-SdohHorizontalResolutionRange {
+HsdoHorizontalResolutionRange {
     string skos_prefLabel  
 }
-SdohInstitution {
-    string skos_prefLabel  
-    string skos_definition  
-}
-SdohInstrument {
+HsdoInstitution {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohLicense {
+HsdoInstrument {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohLocation {
+HsdoLicense {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohMeasurementName {
+HsdoLocation {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohMimeType {
+HsdoMeasurementName {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohModel {
+HsdoMimeType {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohModels {
+HsdoModel {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohNominalResolution {
+HsdoModels {
+    string skos_prefLabel  
+    string skos_definition  
+}
+HsdoNominalResolution {
     string skos_prefLabel  
 }
-SdohObs4MipsSourceId {
+HsdoObs4MipsSourceId {
 
 }
-SdohPlatform {
+HsdoPlatform {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohProject {
+HsdoProject {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohProvider {
+HsdoProvider {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohRealm {
+HsdoRealm {
     string skos_prefLabel  
 }
-SdohRegion {
+HsdoRegion {
 
 }
-SdohRelatedUrlContentType {
+HsdoRelatedUrlContentType {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohScienceKeyword {
+HsdoScienceKeyword {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohSourceType {
+HsdoSourceType {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohSubExperimentId {
+HsdoSubExperimentId {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohTemporalResolutionRange {
+HsdoTemporalResolutionRange {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohVariable {
+HsdoVariable {
     string skos_prefLabel  
     string skos_definition  
 }
-SdohVerticalResolutionRange {
+HsdoVerticalResolutionRange {
     string skos_prefLabel  
 }
-SdohPaper {
-    string http___attribute.org_title  
-    string http___attribute.org_authors  
-    string http___attribute.org_doi  
-    string http___attribute.org_pub_date  
+HsdoPaper {
+    string attribute_title  
+    string attribute_authors  
+    string attribute_pub_date  
+    string attribute_doi  
 }
 SkosConcept {
-    uri skos_inScheme  
     string skos_prefLabel  
     string skos_definition  
+    uri skos_inScheme  
 }
 
-SdohActivity ||--|o Any : "http___relation.org_UsedIn"
-SdohActivity ||--|o SdohProject : "http___relation.org_HasProjectName"
-SdohActivity ||--|o Any : "http___relation.org_RunBy"
-SdohActivity ||--|o Any : "skos_broader"
-SdohActivity ||--|o Any : "http___relation.org_TargetsLocation"
-SdohActivity ||--|o Any : "http___relation.org_ProvidedBy"
-SdohActivity ||--|o Any : "http___relation.org_MeasuredAt"
-SdohActivity ||--|o Any : "http___relation.org_ComparedTo"
-SdohChronostratigraphicUnit ||--|o Any : "http___relation.org_UsedIn"
-SdohChronostratigraphicUnit ||--|o Any : "http___relation.org_RunBy"
-SdohChronostratigraphicUnit ||--|o Any : "skos_broader"
-SdohChronostratigraphicUnit ||--|o Any : "http___relation.org_TargetsLocation"
-SdohChronostratigraphicUnit ||--|o Any : "http___relation.org_MeasuredAt"
-SdohChronostratigraphicUnit ||--|o Any : "http___relation.org_ComparedTo"
-SdohCmip6SourceId ||--|o Any : "http___relation.org_HasModelComponent"
-SdohCmip6SourceId ||--|o SdohProject : "http___relation.org_HasProjectName"
-SdohCmip6SourceId ||--|o Any : "http___relation.org_UsedIn"
-SdohCmip6SourceId ||--|o Any : "http___relation.org_RunBy"
-SdohCmip6SourceId ||--|o Any : "skos_broader"
-SdohCmip6SourceId ||--|o Any : "http___relation.org_ComparedTo"
-SdohCmip6SourceId ||--|o Any : "http___relation.org_Outputs"
-SdohCmip6SourceId ||--|o Any : "http___relation.org_TargetsLocation"
-SdohCmip6SourceId ||--|o Any : "http___relation.org_ProvidedBy"
-SdohCmip6SourceId ||--|o SdohActivity : "http___relation.org_HasActivityParticipation"
-SdohCmip6SourceId ||--|o Any : "http___relation.org_ValidatedBy"
-SdohCmip6SourceId ||--|o SdohLicense : "http___relation.org_HasLicenseInfo"
-SdohCmip6SourceId ||--|o SdohInstitution : "http___relation.org_HasInstitution"
-SdohDataFormat ||--|o Any : "http___relation.org_UsedIn"
-SdohDataFormat ||--|o Any : "skos_broader"
-SdohDataFormat ||--|o Any : "http___relation.org_Outputs"
-SdohDataFormat ||--|o Any : "http___relation.org_TargetsLocation"
-SdohDataFormat ||--|o Any : "http___relation.org_ProvidedBy"
-SdohDataFormat ||--|o Any : "http___relation.org_MeasuredAt"
-SdohDataFormat ||--|o Any : "http___relation.org_ComparedTo"
-SdohDataset ||--|o Any : "http___relation.org_UsedIn"
-SdohDataset ||--|o SdohProject : "http___relation.org_HasProjectName"
-SdohDataset ||--|o Any : "http___relation.org_HasSourceType"
-SdohDataset ||--|o Any : "skos_broader"
-SdohDataset ||--|o Any : "http___relation.org_Outputs"
-SdohDataset ||--|o Any : "http___relation.org_ComparedTo"
-SdohDataset ||--|o Any : "http___relation.org_TargetsLocation"
-SdohDataset ||--|o Any : "http___relation.org_ProvidedBy"
-SdohDataset ||--|o Any : "http___relation.org_MeasuredAt"
-SdohDataset ||--|o SdohLocation : "http___relation.org_HasRegion"
-SdohDataset ||--|o SdohInstitution : "http___relation.org_HasInstitution"
-SdohExperiment ||--|o Any : "skos_broader"
-SdohExperiment ||--|o Any : "http___relation.org_Outputs"
-SdohExperiment ||--|o Any : "http___relation.org_ValidatedBy"
-SdohExperiment ||--|o Any : "http___relation.org_ProvidedBy"
-SdohExperiment ||--|o Any : "http___relation.org_UsedIn"
-SdohExperiment ||--|o Any : "http___relation.org_MountedOn"
-SdohExperiment ||--|o SdohProject : "http___relation.org_HasProjectName"
-SdohExperiment ||--|o SdohActivity : "http___relation.org_HasActivity"
-SdohExperiment ||--|o SdohActivity : "http___relation.org_HasParentActivity"
-SdohExperiment ||--|o SdohExperiment : "http___relation.org_HasParentExperiment"
-SdohExperiment ||--|o Any : "http___relation.org_HasAdditionalAllowedModelComponents"
-SdohExperiment ||--|o Any : "http___relation.org_ComparedTo"
-SdohExperiment ||--|o Any : "http___relation.org_RunBy"
-SdohExperiment ||--|o Any : "http___relation.org_TargetsLocation"
-SdohExperiment ||--|o Any : "http___relation.org_HasRequiredModelComponents"
-SdohExperiment ||--|o Any : "http___relation.org_MeasuredAt"
-SdohFrequency ||--|o Any : "skos_broader"
-SdohFrequency ||--|o Any : "http___relation.org_MeasuredAt"
-SdohHorizontalResolutionRange ||--|o Any : "skos_broader"
-SdohHorizontalResolutionRange ||--|o Any : "http___relation.org_MeasuredAt"
-SdohInstitution ||--|o Any : "http___relation.org_UsedIn"
-SdohInstitution ||--|o Any : "skos_broader"
-SdohInstitution ||--|o Any : "http___relation.org_ComparedTo"
-SdohInstitution ||--|o Any : "http___relation.org_Outputs"
-SdohInstitution ||--|o Any : "http___relation.org_TargetsLocation"
-SdohInstitution ||--|o Any : "http___relation.org_MeasuredAt"
-SdohInstitution ||--|o Any : "http___relation.org_ValidatedBy"
-SdohInstitution ||--|o Any : "http___relation.org_ProvidedBy"
-SdohInstrument ||--|o Any : "http___relation.org_UsedIn"
-SdohInstrument ||--|o SdohProject : "http___relation.org_HasProjectName"
-SdohInstrument ||--|o Any : "http___relation.org_RunBy"
-SdohInstrument ||--|o Any : "skos_broader"
-SdohInstrument ||--|o Any : "http___relation.org_MountedOn"
-SdohInstrument ||--|o Any : "http___relation.org_Outputs"
-SdohInstrument ||--|o Any : "http___relation.org_TargetsLocation"
-SdohInstrument ||--|o Any : "http___relation.org_ProvidedBy"
-SdohInstrument ||--|o Any : "http___relation.org_MeasuredAt"
-SdohInstrument ||--|o Any : "http___relation.org_ValidatedBy"
-SdohInstrument ||--|o Any : "http___relation.org_ComparedTo"
-SdohLicense ||--|o Any : "skos_broader"
-SdohLocation ||--|o Any : "http___relation.org_UsedIn"
-SdohLocation ||--|o SdohProject : "http___relation.org_HasProjectName"
-SdohLocation ||--|o Any : "http___relation.org_RunBy"
-SdohLocation ||--|o Any : "skos_broader"
-SdohLocation ||--|o Any : "http___relation.org_MountedOn"
-SdohLocation ||--|o Any : "http___relation.org_Outputs"
-SdohLocation ||--|o Any : "http___relation.org_TargetsLocation"
-SdohLocation ||--|o Any : "http___relation.org_ProvidedBy"
-SdohLocation ||--|o Any : "http___relation.org_MeasuredAt"
-SdohLocation ||--|o Any : "http___relation.org_ValidatedBy"
-SdohLocation ||--|o Any : "http___relation.org_ComparedTo"
-SdohMeasurementName ||--|o Any : "http___relation.org_UsedIn"
-SdohMeasurementName ||--|o Any : "skos_broader"
-SdohMeasurementName ||--|o Any : "http___relation.org_TargetsLocation"
-SdohMeasurementName ||--|o Any : "http___relation.org_MeasuredAt"
-SdohMeasurementName ||--|o Any : "http___relation.org_ComparedTo"
-SdohMimeType ||--|o Any : "skos_broader"
-SdohModel ||--|o Any : "http___relation.org_UsedIn"
-SdohModel ||--|o SdohProject : "http___relation.org_HasProjectName"
-SdohModel ||--|o Any : "http___relation.org_RunBy"
-SdohModel ||--|o Any : "skos_broader"
-SdohModel ||--|o Any : "http___relation.org_ComparedTo"
-SdohModel ||--|o Any : "http___relation.org_Outputs"
-SdohModel ||--|o Any : "http___relation.org_TargetsLocation"
-SdohModel ||--|o Any : "http___relation.org_MeasuredAt"
-SdohModel ||--|o Any : "http___relation.org_ValidatedBy"
-SdohModel ||--|o Any : "http___relation.org_ProvidedBy"
-SdohModels ||--|o Any : "http___relation.org_UsedIn"
-SdohModels ||--|o SdohProject : "http___relation.org_HasProjectName"
-SdohModels ||--|o Any : "http___relation.org_RunBy"
-SdohModels ||--|o Any : "skos_broader"
-SdohModels ||--|o Any : "http___relation.org_ComparedTo"
-SdohModels ||--|o Any : "http___relation.org_Outputs"
-SdohModels ||--|o Any : "http___relation.org_TargetsLocation"
-SdohModels ||--|o Any : "http___relation.org_MeasuredAt"
-SdohModels ||--|o Any : "http___relation.org_ValidatedBy"
-SdohModels ||--|o Any : "http___relation.org_ProvidedBy"
-SdohNominalResolution ||--|o Any : "skos_broader"
-SdohPlatform ||--|o Any : "http___relation.org_UsedIn"
-SdohPlatform ||--|o Any : "http___relation.org_RunBy"
-SdohPlatform ||--|o Any : "skos_broader"
-SdohPlatform ||--|o Any : "http___relation.org_ComparedTo"
-SdohPlatform ||--|o Any : "http___relation.org_MountedOn"
-SdohPlatform ||--|o Any : "http___relation.org_Outputs"
-SdohPlatform ||--|o Any : "http___relation.org_TargetsLocation"
-SdohPlatform ||--|o Any : "http___relation.org_MeasuredAt"
-SdohPlatform ||--|o Any : "http___relation.org_ProvidedBy"
-SdohProject ||--|o Any : "http___relation.org_UsedIn"
-SdohProject ||--|o SdohProject : "http___relation.org_HasProjectName"
-SdohProject ||--|o Any : "http___relation.org_RunBy"
-SdohProject ||--|o Any : "skos_broader"
-SdohProject ||--|o Any : "http___relation.org_MountedOn"
-SdohProject ||--|o Any : "http___relation.org_Outputs"
-SdohProject ||--|o Any : "http___relation.org_TargetsLocation"
-SdohProject ||--|o Any : "http___relation.org_ProvidedBy"
-SdohProject ||--|o Any : "http___relation.org_MeasuredAt"
-SdohProject ||--|o Any : "http___relation.org_ValidatedBy"
-SdohProject ||--|o Any : "http___relation.org_ComparedTo"
-SdohProvider ||--|o Any : "http___relation.org_UsedIn"
-SdohProvider ||--|o SdohProject : "http___relation.org_HasProjectName"
-SdohProvider ||--|o Any : "skos_broader"
-SdohProvider ||--|o Any : "http___relation.org_MountedOn"
-SdohProvider ||--|o Any : "http___relation.org_Outputs"
-SdohProvider ||--|o Any : "http___relation.org_TargetsLocation"
-SdohProvider ||--|o Any : "http___relation.org_ProvidedBy"
-SdohProvider ||--|o Any : "http___relation.org_MeasuredAt"
-SdohProvider ||--|o Any : "http___relation.org_ValidatedBy"
-SdohProvider ||--|o Any : "http___relation.org_ComparedTo"
-SdohRealm ||--|o SdohProject : "http___relation.org_HasProjectName"
-SdohRealm ||--|o Any : "skos_broader"
-SdohRelatedUrlContentType ||--|o Any : "http___relation.org_UsedIn"
-SdohRelatedUrlContentType ||--|o Any : "skos_broader"
-SdohRelatedUrlContentType ||--|o Any : "http___relation.org_TargetsLocation"
-SdohRelatedUrlContentType ||--|o Any : "http___relation.org_MeasuredAt"
-SdohRelatedUrlContentType ||--|o Any : "http___relation.org_ComparedTo"
-SdohScienceKeyword ||--|o Any : "http___relation.org_UsedIn"
-SdohScienceKeyword ||--|o Any : "http___relation.org_RunBy"
-SdohScienceKeyword ||--|o Any : "skos_broader"
-SdohScienceKeyword ||--|o Any : "http___relation.org_Outputs"
-SdohScienceKeyword ||--|o Any : "http___relation.org_TargetsLocation"
-SdohScienceKeyword ||--|o Any : "http___relation.org_ProvidedBy"
-SdohScienceKeyword ||--|o Any : "http___relation.org_MeasuredAt"
-SdohScienceKeyword ||--|o Any : "http___relation.org_ComparedTo"
-SdohSourceType ||--|o Any : "skos_broader"
-SdohSubExperimentId ||--|o Any : "skos_broader"
-SdohSubExperimentId ||--|o Any : "http___relation.org_TargetsLocation"
-SdohSubExperimentId ||--|o Any : "http___relation.org_MeasuredAt"
-SdohSubExperimentId ||--|o Any : "http___relation.org_ComparedTo"
-SdohTemporalResolutionRange ||--|o Any : "http___relation.org_UsedIn"
-SdohTemporalResolutionRange ||--|o Any : "skos_broader"
-SdohTemporalResolutionRange ||--|o Any : "http___relation.org_TargetsLocation"
-SdohTemporalResolutionRange ||--|o Any : "http___relation.org_MeasuredAt"
-SdohVariable ||--|o Any : "http___relation.org_UsedIn"
-SdohVariable ||--|o SdohProject : "http___relation.org_HasProjectName"
-SdohVariable ||--|o Any : "skos_broader"
-SdohVariable ||--|o Any : "http___relation.org_Outputs"
-SdohVariable ||--|o Any : "http___relation.org_TargetsLocation"
-SdohVariable ||--|o Any : "http___relation.org_ProvidedBy"
-SdohVariable ||--|o Any : "http___relation.org_MeasuredAt"
-SdohVariable ||--|o Any : "http___relation.org_ValidatedBy"
-SdohVariable ||--|o Any : "http___relation.org_ComparedTo"
-SdohVerticalResolutionRange ||--|o Any : "skos_broader"
-SdohPaper ||--|o Any : "http___relation.org_Mention"
+HsdoActivity ||--|o HsdoProject : "relation_HasProjectName"
+HsdoActivity ||--|o Any : "relation_TargetsLocation"
+HsdoActivity ||--|o Any : "relation_MeasuredAt"
+HsdoActivity ||--|o Any : "relation_RunBy"
+HsdoActivity ||--|o Any : "relation_ComparedTo"
+HsdoActivity ||--|o Any : "relation_UsedIn"
+HsdoActivity ||--|o Any : "skos_broader"
+HsdoActivity ||--|o Any : "relation_ProvidedBy"
+HsdoChronostratigraphicUnit ||--|o Any : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o Any : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o Any : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o Any : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o Any : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o Any : "relation_RunBy"
+HsdoCmip6SourceId ||--|o HsdoLicense : "relation_HasLicenseInfo"
+HsdoCmip6SourceId ||--|o HsdoProject : "relation_HasProjectName"
+HsdoCmip6SourceId ||--|o HsdoActivity : "relation_HasActivityParticipation"
+HsdoCmip6SourceId ||--|o Any : "relation_HasModelComponent"
+HsdoCmip6SourceId ||--|o Any : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o Any : "relation_RunBy"
+HsdoCmip6SourceId ||--|o Any : "relation_Outputs"
+HsdoCmip6SourceId ||--|o Any : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o Any : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoInstitution : "relation_HasInstitution"
+HsdoCmip6SourceId ||--|o Any : "skos_broader"
+HsdoCmip6SourceId ||--|o Any : "relation_ValidatedBy"
+HsdoCmip6SourceId ||--|o Any : "relation_ProvidedBy"
+HsdoDataFormat ||--|o Any : "relation_TargetsLocation"
+HsdoDataFormat ||--|o Any : "relation_MeasuredAt"
+HsdoDataFormat ||--|o Any : "relation_Outputs"
+HsdoDataFormat ||--|o Any : "relation_ComparedTo"
+HsdoDataFormat ||--|o Any : "relation_UsedIn"
+HsdoDataFormat ||--|o Any : "skos_broader"
+HsdoDataFormat ||--|o Any : "relation_ProvidedBy"
+HsdoDataset ||--|o Any : "relation_HasSourceType"
+HsdoDataset ||--|o HsdoProject : "relation_HasProjectName"
+HsdoDataset ||--|o Any : "relation_TargetsLocation"
+HsdoDataset ||--|o Any : "relation_MeasuredAt"
+HsdoDataset ||--|o Any : "relation_Outputs"
+HsdoDataset ||--|o Any : "relation_ComparedTo"
+HsdoDataset ||--|o Any : "relation_UsedIn"
+HsdoDataset ||--|o HsdoInstitution : "relation_HasInstitution"
+HsdoDataset ||--|o HsdoLocation : "relation_HasRegion"
+HsdoDataset ||--|o Any : "skos_broader"
+HsdoDataset ||--|o Any : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoActivity : "relation_HasParentActivity"
+HsdoExperiment ||--|o Any : "relation_TargetsLocation"
+HsdoExperiment ||--|o Any : "relation_ValidatedBy"
+HsdoExperiment ||--|o Any : "relation_HasAdditionalAllowedModelComponents"
+HsdoExperiment ||--|o Any : "relation_MeasuredAt"
+HsdoExperiment ||--|o Any : "relation_Outputs"
+HsdoExperiment ||--|o Any : "skos_broader"
+HsdoExperiment ||--|o Any : "relation_RunBy"
+HsdoExperiment ||--|o Any : "relation_UsedIn"
+HsdoExperiment ||--|o Any : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoExperiment : "relation_HasParentExperiment"
+HsdoExperiment ||--|o Any : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoProject : "relation_HasProjectName"
+HsdoExperiment ||--|o Any : "relation_MountedOn"
+HsdoExperiment ||--|o HsdoActivity : "relation_HasActivity"
+HsdoExperiment ||--|o Any : "relation_HasRequiredModelComponents"
+HsdoFrequency ||--|o Any : "skos_broader"
+HsdoFrequency ||--|o Any : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o Any : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o Any : "relation_MeasuredAt"
+HsdoInstitution ||--|o Any : "relation_TargetsLocation"
+HsdoInstitution ||--|o Any : "relation_MeasuredAt"
+HsdoInstitution ||--|o Any : "relation_Outputs"
+HsdoInstitution ||--|o Any : "relation_ComparedTo"
+HsdoInstitution ||--|o Any : "relation_UsedIn"
+HsdoInstitution ||--|o Any : "skos_broader"
+HsdoInstitution ||--|o Any : "relation_ValidatedBy"
+HsdoInstitution ||--|o Any : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoProject : "relation_HasProjectName"
+HsdoInstrument ||--|o Any : "relation_MountedOn"
+HsdoInstrument ||--|o Any : "relation_TargetsLocation"
+HsdoInstrument ||--|o Any : "relation_MeasuredAt"
+HsdoInstrument ||--|o Any : "relation_RunBy"
+HsdoInstrument ||--|o Any : "relation_Outputs"
+HsdoInstrument ||--|o Any : "relation_ComparedTo"
+HsdoInstrument ||--|o Any : "relation_UsedIn"
+HsdoInstrument ||--|o Any : "skos_broader"
+HsdoInstrument ||--|o Any : "relation_ValidatedBy"
+HsdoInstrument ||--|o Any : "relation_ProvidedBy"
+HsdoLicense ||--|o Any : "skos_broader"
+HsdoLocation ||--|o HsdoProject : "relation_HasProjectName"
+HsdoLocation ||--|o Any : "relation_MountedOn"
+HsdoLocation ||--|o Any : "relation_TargetsLocation"
+HsdoLocation ||--|o Any : "relation_MeasuredAt"
+HsdoLocation ||--|o Any : "relation_RunBy"
+HsdoLocation ||--|o Any : "relation_Outputs"
+HsdoLocation ||--|o Any : "relation_ComparedTo"
+HsdoLocation ||--|o Any : "relation_UsedIn"
+HsdoLocation ||--|o Any : "skos_broader"
+HsdoLocation ||--|o Any : "relation_ValidatedBy"
+HsdoLocation ||--|o Any : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o Any : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o Any : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o Any : "relation_ComparedTo"
+HsdoMeasurementName ||--|o Any : "relation_UsedIn"
+HsdoMeasurementName ||--|o Any : "skos_broader"
+HsdoMimeType ||--|o Any : "skos_broader"
+HsdoModel ||--|o Any : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoProject : "relation_HasProjectName"
+HsdoModel ||--|o Any : "relation_TargetsLocation"
+HsdoModel ||--|o Any : "relation_MeasuredAt"
+HsdoModel ||--|o Any : "relation_Outputs"
+HsdoModel ||--|o Any : "relation_ComparedTo"
+HsdoModel ||--|o Any : "relation_UsedIn"
+HsdoModel ||--|o Any : "skos_broader"
+HsdoModel ||--|o Any : "relation_ValidatedBy"
+HsdoModel ||--|o Any : "relation_RunBy"
+HsdoModels ||--|o HsdoProject : "relation_HasProjectName"
+HsdoModels ||--|o Any : "relation_ProvidedBy"
+HsdoModels ||--|o Any : "relation_TargetsLocation"
+HsdoModels ||--|o Any : "relation_MeasuredAt"
+HsdoModels ||--|o Any : "relation_Outputs"
+HsdoModels ||--|o Any : "relation_ComparedTo"
+HsdoModels ||--|o Any : "relation_UsedIn"
+HsdoModels ||--|o Any : "skos_broader"
+HsdoModels ||--|o Any : "relation_ValidatedBy"
+HsdoModels ||--|o Any : "relation_RunBy"
+HsdoNominalResolution ||--|o Any : "skos_broader"
+HsdoPlatform ||--|o Any : "relation_MountedOn"
+HsdoPlatform ||--|o Any : "relation_TargetsLocation"
+HsdoPlatform ||--|o Any : "relation_MeasuredAt"
+HsdoPlatform ||--|o Any : "relation_RunBy"
+HsdoPlatform ||--|o Any : "relation_Outputs"
+HsdoPlatform ||--|o Any : "relation_ComparedTo"
+HsdoPlatform ||--|o Any : "relation_UsedIn"
+HsdoPlatform ||--|o Any : "skos_broader"
+HsdoPlatform ||--|o Any : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoProject : "relation_HasProjectName"
+HsdoProject ||--|o Any : "relation_MountedOn"
+HsdoProject ||--|o Any : "relation_TargetsLocation"
+HsdoProject ||--|o Any : "relation_MeasuredAt"
+HsdoProject ||--|o Any : "relation_RunBy"
+HsdoProject ||--|o Any : "relation_Outputs"
+HsdoProject ||--|o Any : "relation_ComparedTo"
+HsdoProject ||--|o Any : "relation_UsedIn"
+HsdoProject ||--|o Any : "skos_broader"
+HsdoProject ||--|o Any : "relation_ValidatedBy"
+HsdoProject ||--|o Any : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoProject : "relation_HasProjectName"
+HsdoProvider ||--|o Any : "relation_MountedOn"
+HsdoProvider ||--|o Any : "relation_TargetsLocation"
+HsdoProvider ||--|o Any : "relation_MeasuredAt"
+HsdoProvider ||--|o Any : "relation_Outputs"
+HsdoProvider ||--|o Any : "relation_ComparedTo"
+HsdoProvider ||--|o Any : "relation_UsedIn"
+HsdoProvider ||--|o Any : "skos_broader"
+HsdoProvider ||--|o Any : "relation_ValidatedBy"
+HsdoProvider ||--|o Any : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoProject : "relation_HasProjectName"
+HsdoRealm ||--|o Any : "skos_broader"
+HsdoRelatedUrlContentType ||--|o Any : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o Any : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o Any : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o Any : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o Any : "skos_broader"
+HsdoScienceKeyword ||--|o Any : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o Any : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o Any : "relation_RunBy"
+HsdoScienceKeyword ||--|o Any : "relation_Outputs"
+HsdoScienceKeyword ||--|o Any : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o Any : "relation_UsedIn"
+HsdoScienceKeyword ||--|o Any : "skos_broader"
+HsdoScienceKeyword ||--|o Any : "relation_ProvidedBy"
+HsdoSourceType ||--|o Any : "skos_broader"
+HsdoSubExperimentId ||--|o Any : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o Any : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o Any : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o Any : "skos_broader"
+HsdoTemporalResolutionRange ||--|o Any : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o Any : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o Any : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o Any : "skos_broader"
+HsdoVariable ||--|o HsdoProject : "relation_HasProjectName"
+HsdoVariable ||--|o Any : "relation_TargetsLocation"
+HsdoVariable ||--|o Any : "relation_MeasuredAt"
+HsdoVariable ||--|o Any : "relation_Outputs"
+HsdoVariable ||--|o Any : "relation_ComparedTo"
+HsdoVariable ||--|o Any : "relation_UsedIn"
+HsdoVariable ||--|o Any : "skos_broader"
+HsdoVariable ||--|o Any : "relation_ValidatedBy"
+HsdoVariable ||--|o Any : "relation_ProvidedBy"
+HsdoVerticalResolutionRange ||--|o Any : "skos_broader"
+HsdoPaper ||--|o Any : "relation_Mention"
 SkosConcept ||--|o SkosConcept : "skos_narrower"
 SkosConcept ||--|o Any : "skos_broader"
 
@@ -347,40 +347,40 @@ SkosConcept ||--|o Any : "skos_broader"
 | Class | Description |
 | --- | --- |
 | [Any](classes/Any.md) | None |
-| [SdohActivity](classes/SdohActivity.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohChronostratigraphicUnit](classes/SdohChronostratigraphicUnit.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohCmip6SourceId](classes/SdohCmip6SourceId.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohDataFormat](classes/SdohDataFormat.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohDataset](classes/SdohDataset.md) | A body of structured information describing some topic(s) of interest. |
-| [SdohExperiment](classes/SdohExperiment.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohFrequency](classes/SdohFrequency.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohGridLabel](classes/SdohGridLabel.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohHorizontalResolutionRange](classes/SdohHorizontalResolutionRange.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohInstitution](classes/SdohInstitution.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohInstrument](classes/SdohInstrument.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohLicense](classes/SdohLicense.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohLocation](classes/SdohLocation.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohMeasurementName](classes/SdohMeasurementName.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohMimeType](classes/SdohMimeType.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohModel](classes/SdohModel.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohModels](classes/SdohModels.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohNominalResolution](classes/SdohNominalResolution.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohObs4MipsSourceId](classes/SdohObs4MipsSourceId.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohPaper](classes/SdohPaper.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohPlatform](classes/SdohPlatform.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohProject](classes/SdohProject.md) | An enterprise (potentially individual but typically collaborative), planned to achieve a particular aim.
+| [HsdoActivity](classes/HsdoActivity.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoChronostratigraphicUnit](classes/HsdoChronostratigraphicUnit.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoCmip6SourceId](classes/HsdoCmip6SourceId.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoDataFormat](classes/HsdoDataFormat.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoDataset](classes/HsdoDataset.md) | A body of structured information describing some topic(s) of interest. |
+| [HsdoExperiment](classes/HsdoExperiment.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoFrequency](classes/HsdoFrequency.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoGridLabel](classes/HsdoGridLabel.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoHorizontalResolutionRange](classes/HsdoHorizontalResolutionRange.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoInstitution](classes/HsdoInstitution.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoInstrument](classes/HsdoInstrument.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoLicense](classes/HsdoLicense.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoLocation](classes/HsdoLocation.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoMeasurementName](classes/HsdoMeasurementName.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoMimeType](classes/HsdoMimeType.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoModel](classes/HsdoModel.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoModels](classes/HsdoModels.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoNominalResolution](classes/HsdoNominalResolution.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoObs4MipsSourceId](classes/HsdoObs4MipsSourceId.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoPaper](classes/HsdoPaper.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoPlatform](classes/HsdoPlatform.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoProject](classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned to achieve a particular aim.
 Use properties from [[Organization]], [[subOrganization]]/[[parentOrganization]] to indicate project sub-structures. 
     |
-| [SdohProvider](classes/SdohProvider.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohRealm](classes/SdohRealm.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohRegion](classes/SdohRegion.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohRelatedUrlContentType](classes/SdohRelatedUrlContentType.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohScienceKeyword](classes/SdohScienceKeyword.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohSourceType](classes/SdohSourceType.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohSubExperimentId](classes/SdohSubExperimentId.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohTemporalResolutionRange](classes/SdohTemporalResolutionRange.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohVariable](classes/SdohVariable.md) | TODO -- tell the world what this class (type) describes. |
-| [SdohVerticalResolutionRange](classes/SdohVerticalResolutionRange.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoProvider](classes/HsdoProvider.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoRealm](classes/HsdoRealm.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoRegion](classes/HsdoRegion.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoRelatedUrlContentType](classes/HsdoRelatedUrlContentType.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoScienceKeyword](classes/HsdoScienceKeyword.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoSourceType](classes/HsdoSourceType.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoSubExperimentId](classes/HsdoSubExperimentId.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoTemporalResolutionRange](classes/HsdoTemporalResolutionRange.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoVariable](classes/HsdoVariable.md) | TODO -- tell the world what this class (type) describes. |
+| [HsdoVerticalResolutionRange](classes/HsdoVerticalResolutionRange.md) | TODO -- tell the world what this class (type) describes. |
 | [SkosConcept](classes/SkosConcept.md) | TODO -- tell the world what this class (type) describes. |
 
 
@@ -389,43 +389,43 @@ Use properties from [[Organization]], [[subOrganization]]/[[parentOrganization]]
 
 | Slot | Description |
 | --- | --- |
-| [http___attribute.org_authors](slots/http___attribute.org_authors.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___attribute.org_doi](slots/http___attribute.org_doi.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___attribute.org_end_year](slots/http___attribute.org_end_year.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___attribute.org_experiment](slots/http___attribute.org_experiment.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___attribute.org_pub_date](slots/http___attribute.org_pub_date.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___attribute.org_start_year](slots/http___attribute.org_start_year.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___attribute.org_tier](slots/http___attribute.org_tier.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___attribute.org_title](slots/http___attribute.org_title.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___example.org_ontology_definition](slots/http___example.org_ontology_definition.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___example.org_ontology_id](slots/http___example.org_ontology_id.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___example.org_ontology_path_id](slots/http___example.org_ontology_path_id.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___example.org_ontology_path_label](slots/http___example.org_ontology_path_label.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___example.org_ontology_prefLabel](slots/http___example.org_ontology_prefLabel.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___example.org_ontology_reference](slots/http___example.org_ontology_reference.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___example.org_ontology_tag](slots/http___example.org_ontology_tag.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_ComparedTo](slots/http___relation.org_ComparedTo.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_HasActivity](slots/http___relation.org_HasActivity.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_HasActivityParticipation](slots/http___relation.org_HasActivityParticipation.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_HasAdditionalAllowedModelComponents](slots/http___relation.org_HasAdditionalAllowedModelComponents.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_HasInstitution](slots/http___relation.org_HasInstitution.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_HasLicenseInfo](slots/http___relation.org_HasLicenseInfo.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_HasModelComponent](slots/http___relation.org_HasModelComponent.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_HasParentActivity](slots/http___relation.org_HasParentActivity.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_HasParentExperiment](slots/http___relation.org_HasParentExperiment.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_HasProjectName](slots/http___relation.org_HasProjectName.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_HasRegion](slots/http___relation.org_HasRegion.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_HasRequiredModelComponents](slots/http___relation.org_HasRequiredModelComponents.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_HasSourceType](slots/http___relation.org_HasSourceType.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_MeasuredAt](slots/http___relation.org_MeasuredAt.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_Mention](slots/http___relation.org_Mention.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_MountedOn](slots/http___relation.org_MountedOn.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_Outputs](slots/http___relation.org_Outputs.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_ProvidedBy](slots/http___relation.org_ProvidedBy.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_RunBy](slots/http___relation.org_RunBy.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_TargetsLocation](slots/http___relation.org_TargetsLocation.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_UsedIn](slots/http___relation.org_UsedIn.md) | TODO -- tell the world what this slot (predicate) describes |
-| [http___relation.org_ValidatedBy](slots/http___relation.org_ValidatedBy.md) | TODO -- tell the world what this slot (predicate) describes |
+| [attribute_authors](slots/attribute_authors.md) | TODO -- tell the world what this slot (predicate) describes |
+| [attribute_doi](slots/attribute_doi.md) | TODO -- tell the world what this slot (predicate) describes |
+| [attribute_end_year](slots/attribute_end_year.md) | TODO -- tell the world what this slot (predicate) describes |
+| [attribute_experiment](slots/attribute_experiment.md) | TODO -- tell the world what this slot (predicate) describes |
+| [attribute_pub_date](slots/attribute_pub_date.md) | TODO -- tell the world what this slot (predicate) describes |
+| [attribute_start_year](slots/attribute_start_year.md) | TODO -- tell the world what this slot (predicate) describes |
+| [attribute_tier](slots/attribute_tier.md) | TODO -- tell the world what this slot (predicate) describes |
+| [attribute_title](slots/attribute_title.md) | TODO -- tell the world what this slot (predicate) describes |
+| [example_ontology_definition](slots/example_ontology_definition.md) | TODO -- tell the world what this slot (predicate) describes |
+| [example_ontology_id](slots/example_ontology_id.md) | TODO -- tell the world what this slot (predicate) describes |
+| [example_ontology_path_id](slots/example_ontology_path_id.md) | TODO -- tell the world what this slot (predicate) describes |
+| [example_ontology_path_label](slots/example_ontology_path_label.md) | TODO -- tell the world what this slot (predicate) describes |
+| [example_ontology_prefLabel](slots/example_ontology_prefLabel.md) | TODO -- tell the world what this slot (predicate) describes |
+| [example_ontology_reference](slots/example_ontology_reference.md) | TODO -- tell the world what this slot (predicate) describes |
+| [example_ontology_tag](slots/example_ontology_tag.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_ComparedTo](slots/relation_ComparedTo.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_HasActivity](slots/relation_HasActivity.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_HasActivityParticipation](slots/relation_HasActivityParticipation.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_HasAdditionalAllowedModelComponents](slots/relation_HasAdditionalAllowedModelComponents.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_HasInstitution](slots/relation_HasInstitution.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_HasLicenseInfo](slots/relation_HasLicenseInfo.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_HasModelComponent](slots/relation_HasModelComponent.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_HasParentActivity](slots/relation_HasParentActivity.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_HasParentExperiment](slots/relation_HasParentExperiment.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_HasProjectName](slots/relation_HasProjectName.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_HasRegion](slots/relation_HasRegion.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_HasRequiredModelComponents](slots/relation_HasRequiredModelComponents.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_HasSourceType](slots/relation_HasSourceType.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_MeasuredAt](slots/relation_MeasuredAt.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_Mention](slots/relation_Mention.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_MountedOn](slots/relation_MountedOn.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_Outputs](slots/relation_Outputs.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_ProvidedBy](slots/relation_ProvidedBy.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_RunBy](slots/relation_RunBy.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_TargetsLocation](slots/relation_TargetsLocation.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_UsedIn](slots/relation_UsedIn.md) | TODO -- tell the world what this slot (predicate) describes |
+| [relation_ValidatedBy](slots/relation_ValidatedBy.md) | TODO -- tell the world what this slot (predicate) describes |
 | [skos_broader](slots/skos_broader.md) | TODO -- tell the world what this slot (predicate) describes |
 | [skos_definition](slots/skos_definition.md) | TODO -- tell the world what this slot (predicate) describes |
 | [skos_inScheme](slots/skos_inScheme.md) | TODO -- tell the world what this slot (predicate) describes |

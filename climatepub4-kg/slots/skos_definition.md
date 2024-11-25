@@ -23,31 +23,31 @@ URI: [skos:definition](http://www.w3.org/2004/02/skos/core#definition)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohActivity](../classes/SdohActivity.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohInstitution](../classes/SdohInstitution.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohCmip6SourceId](../classes/SdohCmip6SourceId.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohFrequency](../classes/SdohFrequency.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohTemporalResolutionRange](../classes/SdohTemporalResolutionRange.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohLocation](../classes/SdohLocation.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohPlatform](../classes/SdohPlatform.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohDataset](../classes/SdohDataset.md) | A body of structured information describing some topic(s) of interest |  no  |
-| [SdohVariable](../classes/SdohVariable.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohProject](../classes/SdohProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  no  |
-| [SdohSourceType](../classes/SdohSourceType.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohMeasurementName](../classes/SdohMeasurementName.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohInstrument](../classes/SdohInstrument.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohScienceKeyword](../classes/SdohScienceKeyword.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohChronostratigraphicUnit](../classes/SdohChronostratigraphicUnit.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohMimeType](../classes/SdohMimeType.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohLicense](../classes/SdohLicense.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohProvider](../classes/SdohProvider.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohModel](../classes/SdohModel.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohSubExperimentId](../classes/SdohSubExperimentId.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohDataFormat](../classes/SdohDataFormat.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoModels](../classes/HsdoModels.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoProject](../classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  no  |
+| [HsdoVariable](../classes/HsdoVariable.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoTemporalResolutionRange](../classes/HsdoTemporalResolutionRange.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoScienceKeyword](../classes/HsdoScienceKeyword.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoExperiment](../classes/HsdoExperiment.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoSourceType](../classes/HsdoSourceType.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoModel](../classes/HsdoModel.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoFrequency](../classes/HsdoFrequency.md) | TODO -- tell the world what this class (type) describes |  no  |
 | [SkosConcept](../classes/SkosConcept.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohRelatedUrlContentType](../classes/SdohRelatedUrlContentType.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohModels](../classes/SdohModels.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohExperiment](../classes/SdohExperiment.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoPlatform](../classes/HsdoPlatform.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoLocation](../classes/HsdoLocation.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoSubExperimentId](../classes/HsdoSubExperimentId.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoDataFormat](../classes/HsdoDataFormat.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoProvider](../classes/HsdoProvider.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoRelatedUrlContentType](../classes/HsdoRelatedUrlContentType.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoMimeType](../classes/HsdoMimeType.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoActivity](../classes/HsdoActivity.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoInstrument](../classes/HsdoInstrument.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoChronostratigraphicUnit](../classes/HsdoChronostratigraphicUnit.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoInstitution](../classes/HsdoInstitution.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoDataset](../classes/HsdoDataset.md) | A body of structured information describing some topic(s) of interest |  no  |
+| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoLicense](../classes/HsdoLicense.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoMeasurementName](../classes/HsdoMeasurementName.md) | TODO -- tell the world what this class (type) describes |  no  |
 
 
 
@@ -97,31 +97,31 @@ An arm of the Atlantic Ocean between Greenland and Labrador, Canada. |
 
 ## Comments
 
-* 368 occurrences with subject type sdoh_Location and object type string.
-* 2792 occurrences with subject type sdoh_Science_Keyword and object type string.
-* 1114 occurrences with subject type sdoh_Platform and object type string.
-* 24 occurrences with subject type sdoh_Activity and object type string.
-* 141 occurrences with subject type sdoh_Model and object type string.
-* 422 occurrences with subject type sdoh_Experiment and object type string.
-* 3483 occurrences with subject type sdoh_Provider and object type string.
-* 1913 occurrences with subject type sdoh_Instrument and object type string.
-* 1560 occurrences with subject type sdoh_Project and object type string.
-* 168 occurrences with subject type sdoh_Chronostratigraphic_Unit and object type string.
-* 93 occurrences with subject type sdoh_Measurement_Name and object type string.
-* 75 occurrences with subject type sdoh_Institution and object type string.
-* 54 occurrences with subject type sdoh_Sub_Experiment_Id and object type string.
-* 37 occurrences with subject type sdoh_Models and object type string.
-* 187 occurrences with subject type sdoh_Data_Format and object type string.
-* 1280 occurrences with subject type sdoh_Variable and object type string.
-* 134 occurrences with subject type sdoh_Cmip6_Source_Id and object type string.
-* 5 occurrences with subject type sdoh_Source_Type and object type string.
-* 106 occurrences with subject type sdoh_Dataset and object type string.
-* 68 occurrences with subject type sdoh_Related_Url_Content_Type and object type string.
-* 16 occurrences with subject type sdoh_Frequency and object type string.
-* 4 occurrences with subject type sdoh_License and object type string.
-* 1 occurrences with subject type sdoh_Temporal_Resolution_Range and object type string.
+* 368 occurrences with subject type hsdo_Location and object type string.
+* 2792 occurrences with subject type hsdo_Science_Keyword and object type string.
+* 1114 occurrences with subject type hsdo_Platform and object type string.
+* 24 occurrences with subject type hsdo_Activity and object type string.
+* 141 occurrences with subject type hsdo_Model and object type string.
+* 422 occurrences with subject type hsdo_Experiment and object type string.
+* 3483 occurrences with subject type hsdo_Provider and object type string.
+* 1913 occurrences with subject type hsdo_Instrument and object type string.
+* 1560 occurrences with subject type hsdo_Project and object type string.
+* 168 occurrences with subject type hsdo_Chronostratigraphic_Unit and object type string.
+* 93 occurrences with subject type hsdo_Measurement_Name and object type string.
+* 75 occurrences with subject type hsdo_Institution and object type string.
+* 54 occurrences with subject type hsdo_Sub_Experiment_Id and object type string.
+* 37 occurrences with subject type hsdo_Models and object type string.
+* 187 occurrences with subject type hsdo_Data_Format and object type string.
+* 1280 occurrences with subject type hsdo_Variable and object type string.
+* 134 occurrences with subject type hsdo_Cmip6_Source_Id and object type string.
+* 5 occurrences with subject type hsdo_Source_Type and object type string.
+* 106 occurrences with subject type hsdo_Dataset and object type string.
+* 68 occurrences with subject type hsdo_Related_Url_Content_Type and object type string.
+* 16 occurrences with subject type hsdo_Frequency and object type string.
+* 4 occurrences with subject type hsdo_License and object type string.
+* 1 occurrences with subject type hsdo_Temporal_Resolution_Range and object type string.
 * 16359 occurrences with subject type skos_Concept and object type string.
-* 32 occurrences with subject type sdoh_Mime_Type and object type string.
+* 32 occurrences with subject type hsdo_Mime_Type and object type string.
 
 ## TODOs
 
@@ -166,32 +166,32 @@ todos:
 - or you can delete the todos
 - if you think the class is perfect.
 comments:
-- 368 occurrences with subject type sdoh_Location and object type string.
-- 2792 occurrences with subject type sdoh_Science_Keyword and object type string.
-- 1114 occurrences with subject type sdoh_Platform and object type string.
-- 24 occurrences with subject type sdoh_Activity and object type string.
-- 141 occurrences with subject type sdoh_Model and object type string.
-- 422 occurrences with subject type sdoh_Experiment and object type string.
-- 3483 occurrences with subject type sdoh_Provider and object type string.
-- 1913 occurrences with subject type sdoh_Instrument and object type string.
-- 1560 occurrences with subject type sdoh_Project and object type string.
-- 168 occurrences with subject type sdoh_Chronostratigraphic_Unit and object type
+- 368 occurrences with subject type hsdo_Location and object type string.
+- 2792 occurrences with subject type hsdo_Science_Keyword and object type string.
+- 1114 occurrences with subject type hsdo_Platform and object type string.
+- 24 occurrences with subject type hsdo_Activity and object type string.
+- 141 occurrences with subject type hsdo_Model and object type string.
+- 422 occurrences with subject type hsdo_Experiment and object type string.
+- 3483 occurrences with subject type hsdo_Provider and object type string.
+- 1913 occurrences with subject type hsdo_Instrument and object type string.
+- 1560 occurrences with subject type hsdo_Project and object type string.
+- 168 occurrences with subject type hsdo_Chronostratigraphic_Unit and object type
   string.
-- 93 occurrences with subject type sdoh_Measurement_Name and object type string.
-- 75 occurrences with subject type sdoh_Institution and object type string.
-- 54 occurrences with subject type sdoh_Sub_Experiment_Id and object type string.
-- 37 occurrences with subject type sdoh_Models and object type string.
-- 187 occurrences with subject type sdoh_Data_Format and object type string.
-- 1280 occurrences with subject type sdoh_Variable and object type string.
-- 134 occurrences with subject type sdoh_Cmip6_Source_Id and object type string.
-- 5 occurrences with subject type sdoh_Source_Type and object type string.
-- 106 occurrences with subject type sdoh_Dataset and object type string.
-- 68 occurrences with subject type sdoh_Related_Url_Content_Type and object type string.
-- 16 occurrences with subject type sdoh_Frequency and object type string.
-- 4 occurrences with subject type sdoh_License and object type string.
-- 1 occurrences with subject type sdoh_Temporal_Resolution_Range and object type string.
+- 93 occurrences with subject type hsdo_Measurement_Name and object type string.
+- 75 occurrences with subject type hsdo_Institution and object type string.
+- 54 occurrences with subject type hsdo_Sub_Experiment_Id and object type string.
+- 37 occurrences with subject type hsdo_Models and object type string.
+- 187 occurrences with subject type hsdo_Data_Format and object type string.
+- 1280 occurrences with subject type hsdo_Variable and object type string.
+- 134 occurrences with subject type hsdo_Cmip6_Source_Id and object type string.
+- 5 occurrences with subject type hsdo_Source_Type and object type string.
+- 106 occurrences with subject type hsdo_Dataset and object type string.
+- 68 occurrences with subject type hsdo_Related_Url_Content_Type and object type string.
+- 16 occurrences with subject type hsdo_Frequency and object type string.
+- 4 occurrences with subject type hsdo_License and object type string.
+- 1 occurrences with subject type hsdo_Temporal_Resolution_Range and object type string.
 - 16359 occurrences with subject type skos_Concept and object type string.
-- 32 occurrences with subject type sdoh_Mime_Type and object type string.
+- 32 occurrences with subject type hsdo_Mime_Type and object type string.
 examples:
 - value: https://climateKG.org/entity/0006e246-4296-448c-9b81-a0831cad7f1c skos:definition
     An arm of the Atlantic Ocean between Greenland and Labrador Canada
@@ -393,30 +393,30 @@ rank: 1000
 slot_uri: skos:definition
 alias: skos_definition
 domain_of:
-- sdoh_Activity
-- sdoh_Chronostratigraphic_Unit
-- sdoh_Cmip6_Source_Id
-- sdoh_Data_Format
-- sdoh_Dataset
-- sdoh_Experiment
-- sdoh_Frequency
-- sdoh_Institution
-- sdoh_Instrument
-- sdoh_License
-- sdoh_Location
-- sdoh_Measurement_Name
-- sdoh_Mime_Type
-- sdoh_Model
-- sdoh_Models
-- sdoh_Platform
-- sdoh_Project
-- sdoh_Provider
-- sdoh_Related_Url_Content_Type
-- sdoh_Science_Keyword
-- sdoh_Source_Type
-- sdoh_Sub_Experiment_Id
-- sdoh_Temporal_Resolution_Range
-- sdoh_Variable
+- hsdo_Activity
+- hsdo_Chronostratigraphic_Unit
+- hsdo_Cmip6_Source_Id
+- hsdo_Data_Format
+- hsdo_Dataset
+- hsdo_Experiment
+- hsdo_Frequency
+- hsdo_Institution
+- hsdo_Instrument
+- hsdo_License
+- hsdo_Location
+- hsdo_Measurement_Name
+- hsdo_Mime_Type
+- hsdo_Model
+- hsdo_Models
+- hsdo_Platform
+- hsdo_Project
+- hsdo_Provider
+- hsdo_Related_Url_Content_Type
+- hsdo_Science_Keyword
+- hsdo_Source_Type
+- hsdo_Sub_Experiment_Id
+- hsdo_Temporal_Resolution_Range
+- hsdo_Variable
 - skos_Concept
 range: string
 
