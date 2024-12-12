@@ -3,7 +3,7 @@
 # Class: ISO 14000  certificate (sudokn_ISO14000Certificate)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -52,7 +52,7 @@ URI: [sudokn:ISO14000Certificate](http://asu.edu/semantics/SUDOKN/ISO14000Certif
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -121,7 +121,7 @@ URI: [sudokn:ISO14000Certificate](http://asu.edu/semantics/SUDOKN/ISO14000Certif
 <details>
 ```yaml
 name: sudokn_ISO14000Certificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: ISO 14000  certificate
 todos:
 - TODO -- Todos for this class go here
@@ -132,6 +132,7 @@ notes:
 examples:
 - value: sudokn:ABIFOUNDRY-ISO14000Certificate
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ISOCertificate
 slots:
 - rdfs_label
@@ -145,7 +146,7 @@ class_uri: sudokn:ISO14000Certificate
 <details>
 ```yaml
 name: sudokn_ISO14000Certificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: ISO 14000  certificate
 todos:
 - TODO -- Todos for this class go here
@@ -156,11 +157,12 @@ notes:
 examples:
 - value: sudokn:ABIFOUNDRY-ISO14000Certificate
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ISOCertificate
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

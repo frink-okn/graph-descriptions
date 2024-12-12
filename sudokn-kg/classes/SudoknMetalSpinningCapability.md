@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (sudokn_MetalSpinningCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -42,7 +42,7 @@ URI: [sudokn:MetalSpinningCapability](http://asu.edu/semantics/SUDOKN/MetalSpinn
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -111,7 +111,7 @@ URI: [sudokn:MetalSpinningCapability](http://asu.edu/semantics/SUDOKN/MetalSpinn
 <details>
 ```yaml
 name: sudokn_MetalSpinningCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -122,6 +122,7 @@ notes:
 examples:
 - value: sudokn:ClaroLux-MetalSpinning
 from_schema: sudokn-kg
+rank: 1000
 slots:
 - rdfs_label
 class_uri: sudokn:MetalSpinningCapability
@@ -134,7 +135,7 @@ class_uri: sudokn:MetalSpinningCapability
 <details>
 ```yaml
 name: sudokn_MetalSpinningCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -145,10 +146,11 @@ notes:
 examples:
 - value: sudokn:ClaroLux-MetalSpinning
 from_schema: sudokn-kg
+rank: 1000
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

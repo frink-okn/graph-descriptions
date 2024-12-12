@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (neo4j_Location)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -69,10 +69,10 @@ URI: [neo4j:Location](neo4j://graph.schema#Location)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [neo4j_name](../slots/neo4j_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [neo4j_PARTOF_LpL](../slots/neo4j_PARTOF_LpL.md) | 0..1 <br/> [Neo4jLocation](../classes/Neo4jLocation.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [neo4j_identifier](../slots/neo4j_identifier.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [neo4j_sources](../slots/neo4j_sources.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [neo4j_name](../slots/neo4j_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [neo4j_PARTOF_LpL](../slots/neo4j_PARTOF_LpL.md) | 0..1 <br/> [Neo4jLocation](../classes/Neo4jLocation.md) | No slot description provided | direct |
+| [neo4j_identifier](../slots/neo4j_identifier.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [neo4j_sources](../slots/neo4j_sources.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
 
 
 
@@ -146,7 +146,7 @@ URI: [neo4j:Location](neo4j://graph.schema#Location)
 <details>
 ```yaml
 name: neo4j_Location
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -157,6 +157,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#123229
 from_schema: spoke-kg
+rank: 1000
 slots:
 - neo4j_name
 - neo4j_PARTOF_LpL
@@ -172,7 +173,7 @@ class_uri: neo4j:Location
 <details>
 ```yaml
 name: neo4j_Location
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -183,10 +184,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#123229
 from_schema: spoke-kg
+rank: 1000
 attributes:
   neo4j_name:
     name: neo4j_name
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -222,7 +224,7 @@ attributes:
     range: string
   neo4j_PARTOF_LpL:
     name: neo4j_PARTOF_LpL
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -241,7 +243,7 @@ attributes:
     range: neo4j_Location
   neo4j_identifier:
     name: neo4j_identifier
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -275,7 +277,7 @@ attributes:
     range: string
   neo4j_sources:
     name: neo4j_sources
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

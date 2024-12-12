@@ -3,7 +3,7 @@
 # Slot: sockg_soilTemp5cm_degC
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:soilTemp5cm_degC](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sockg:soilTemp5cm_degC](http://www.semanticweb.org/sockg/ontologies/2024/0
 <details>
 ```yaml
 name: sockg_soilTemp5cm_degC
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

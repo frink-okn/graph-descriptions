@@ -3,7 +3,7 @@
 # Slot: rdf__36
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [rdf:_36](http://www.w3.org/1999/02/22-rdf-syntax-ns#_36)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesDocketTable](../classes/ScalesDocketTable.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [ScalesDocketTable](../classes/ScalesDocketTable.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [rdf:_36](http://www.w3.org/1999/02/22-rdf-syntax-ns#_36)
 <details>
 ```yaml
 name: rdf__36
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

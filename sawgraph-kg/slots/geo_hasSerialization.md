@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (geo_hasSerialization)
+# Slot: No slot description provided (geo_hasSerialization)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,27 +23,27 @@ URI: [geo:hasSerialization](http://www.opengis.net/ont/geosparql#hasSerializatio
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [UssdwisPublicWaterSystem](../classes/UssdwisPublicWaterSystem.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [GeoGeometry](../classes/GeoGeometry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoPoint](../classes/ContaminosoPoint.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MeegadEGAD-SamplePoint](../classes/MeegadEGAD-SamplePoint.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoSamplePoint](../classes/ContaminosoSamplePoint.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoFeature](../classes/ContaminosoFeature.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [UssdwisCombinedDistributionSystem](../classes/UssdwisCombinedDistributionSystem.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [UssdwisPublicWaterSystem-CWS](../classes/UssdwisPublicWaterSystem-CWS.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [UssdwisPublicWaterSystem-GW](../classes/UssdwisPublicWaterSystem-GW.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoSampledFeaure](../classes/ContaminosoSampledFeaure.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [UssdwisPublicWaterSystem-TNCWS](../classes/UssdwisPublicWaterSystem-TNCWS.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [UssdwisPWS-SamplePoint](../classes/UssdwisPWS-SamplePoint.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [UssdwisPublicWaterSystem-NTNCWS](../classes/UssdwisPublicWaterSystem-NTNCWS.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [UssdwisPublicWaterSystem-SW](../classes/UssdwisPublicWaterSystem-SW.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [GeoFeature](../classes/GeoFeature.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [IlisgsISGS-Well](../classes/IlisgsISGS-Well.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoReleasePoint](../classes/ContaminosoReleasePoint.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoReleaseFeature](../classes/ContaminosoReleaseFeature.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [GeoSpatialObject](../classes/GeoSpatialObject.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MemgsMGS-Well](../classes/MemgsMGS-Well.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [UssdwisPublicWaterSystem-GW](../classes/UssdwisPublicWaterSystem-GW.md) | No type description provided |  no  |
+| [GeoGeometry](../classes/GeoGeometry.md) | No type description provided |  no  |
+| [UssdwisPWS-SamplePoint](../classes/UssdwisPWS-SamplePoint.md) | No type description provided |  no  |
+| [ContaminosoPoint](../classes/ContaminosoPoint.md) | No type description provided |  no  |
+| [UssdwisPublicWaterSystem-CWS](../classes/UssdwisPublicWaterSystem-CWS.md) | No type description provided |  no  |
+| [ContaminosoSamplePoint](../classes/ContaminosoSamplePoint.md) | No type description provided |  no  |
+| [UssdwisCombinedDistributionSystem](../classes/UssdwisCombinedDistributionSystem.md) | No type description provided |  no  |
+| [MeegadEGAD-SamplePoint](../classes/MeegadEGAD-SamplePoint.md) | No type description provided |  no  |
+| [MemgsMGS-Well](../classes/MemgsMGS-Well.md) | No type description provided |  no  |
+| [ContaminosoFeature](../classes/ContaminosoFeature.md) | No type description provided |  no  |
+| [ContaminosoSampledFeaure](../classes/ContaminosoSampledFeaure.md) | No type description provided |  no  |
+| [GeoFeature](../classes/GeoFeature.md) | No type description provided |  no  |
+| [UssdwisPublicWaterSystem-TNCWS](../classes/UssdwisPublicWaterSystem-TNCWS.md) | No type description provided |  no  |
+| [UssdwisPublicWaterSystem](../classes/UssdwisPublicWaterSystem.md) | No type description provided |  no  |
+| [UssdwisPublicWaterSystem-NTNCWS](../classes/UssdwisPublicWaterSystem-NTNCWS.md) | No type description provided |  no  |
+| [GeoSpatialObject](../classes/GeoSpatialObject.md) | No type description provided |  no  |
+| [ContaminosoReleaseFeature](../classes/ContaminosoReleaseFeature.md) | No type description provided |  no  |
+| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | No type description provided |  no  |
+| [IlisgsISGS-Well](../classes/IlisgsISGS-Well.md) | No type description provided |  no  |
+| [ContaminosoReleasePoint](../classes/ContaminosoReleasePoint.md) | No type description provided |  no  |
+| [UssdwisPublicWaterSystem-SW](../classes/UssdwisPublicWaterSystem-SW.md) | No type description provided |  no  |
 
 
 
@@ -111,8 +111,8 @@ URI: [geo:hasSerialization](http://www.opengis.net/ont/geosparql#hasSerializatio
 <details>
 ```yaml
 name: geo_hasSerialization
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

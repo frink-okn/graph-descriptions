@@ -3,7 +3,7 @@
 # Slot: relation_Mention
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [relation:Mention](http://relation.org/Mention)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoPaper](../classes/HsdoPaper.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoPaper](../classes/HsdoPaper.md) | No type description provided |  no  |
 
 
 
@@ -131,7 +131,7 @@ URI: [relation:Mention](http://relation.org/Mention)
 <details>
 ```yaml
 name: relation_Mention
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

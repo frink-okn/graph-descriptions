@@ -76,10 +76,10 @@ URI: [rural:mentalhealthservice/MentalHealthServiceCategory](http://sail.ua.edu/
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rural_mentalhealthservice_containsService](../slots/rural_mentalhealthservice_containsService.md) | 0..1 <br/> [RuralMentalhealthserviceMentalHealthService](../classes/RuralMentalhealthserviceMentalHealthService.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [rural_mentalhealthservice_code](../slots/rural_mentalhealthservice_code.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [rural_mentalhealthservice_name](../slots/rural_mentalhealthservice_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [rural_mentalhealthservice_year](../slots/rural_mentalhealthservice_year.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [rural_mentalhealthservice_containsService](../slots/rural_mentalhealthservice_containsService.md) | 0..1 <br/> [RuralMentalhealthserviceMentalHealthService](../classes/RuralMentalhealthserviceMentalHealthService.md) | No slot description provided | direct |
+| [rural_mentalhealthservice_code](../slots/rural_mentalhealthservice_code.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [rural_mentalhealthservice_name](../slots/rural_mentalhealthservice_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [rural_mentalhealthservice_year](../slots/rural_mentalhealthservice_year.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot description provided | direct |
 
 
 
@@ -151,6 +151,7 @@ notes:
 examples:
 - value: rural:mentalhealthservice/MHSC_SCR
 from_schema: rural-kg
+rank: 1000
 is_a: rural_mentalhealthservice_MentalHealth
 slots:
 - rural_mentalhealthservice_containsService
@@ -178,11 +179,12 @@ notes:
 examples:
 - value: rural:mentalhealthservice/MHSC_SCR
 from_schema: rural-kg
+rank: 1000
 is_a: rural_mentalhealthservice_MentalHealth
 attributes:
   rural_mentalhealthservice_containsService:
     name: rural_mentalhealthservice_containsService
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -203,7 +205,7 @@ attributes:
     range: rural_mentalhealthservice_MentalHealthService
   rural_mentalhealthservice_code:
     name: rural_mentalhealthservice_code
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -227,7 +229,7 @@ attributes:
     range: string
   rural_mentalhealthservice_name:
     name: rural_mentalhealthservice_name
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -253,7 +255,7 @@ attributes:
     range: string
   rural_mentalhealthservice_year:
     name: rural_mentalhealthservice_year
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

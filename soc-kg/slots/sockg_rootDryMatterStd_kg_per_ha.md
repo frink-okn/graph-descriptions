@@ -3,7 +3,7 @@
 # Slot: sockg_rootDryMatterStd_kg_per_ha
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:rootDryMatterStd_kg_per_ha](http://www.semanticweb.org/sockg/ontolog
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgHarvest](../classes/SockgHarvest.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgHarvest](../classes/SockgHarvest.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sockg:rootDryMatterStd_kg_per_ha](http://www.semanticweb.org/sockg/ontolog
 <details>
 ```yaml
 name: sockg_rootDryMatterStd_kg_per_ha
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

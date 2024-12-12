@@ -3,7 +3,7 @@
 # Slot: sockg_alkPhosphataseStd_mg_per_kg_per_hr
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:alkPhosphataseStd_mg_per_kg_per_hr](http://www.semanticweb.org/sockg
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSoilBiologicalSample](../classes/SockgSoilBiologicalSample.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgSoilBiologicalSample](../classes/SockgSoilBiologicalSample.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sockg:alkPhosphataseStd_mg_per_kg_per_hr](http://www.semanticweb.org/sockg
 <details>
 ```yaml
 name: sockg_alkPhosphataseStd_mg_per_kg_per_hr
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

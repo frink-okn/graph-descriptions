@@ -3,7 +3,7 @@
 # Slot: scales_isInCourtSystem
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [scales:isInCourtSystem](http://schemas.scales-okn.org/rdf/scales#isInCourt
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCourt](../classes/ScalesCourt.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [ScalesCourt](../classes/ScalesCourt.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [scales:isInCourtSystem](http://schemas.scales-okn.org/rdf/scales#isInCourt
 <details>
 ```yaml
 name: scales_isInCourtSystem
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

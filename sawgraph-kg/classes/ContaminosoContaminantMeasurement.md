@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (contaminoso_ContaminantMeasurement)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -103,13 +103,13 @@ URI: [contaminoso:ContaminantMeasurement](http://sawgraph.spatialai.org/v1/conta
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [meegad_validationQualifier](../slots/meegad_validationQualifier.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ContaminosoResultQualifier](../classes/ContaminosoResultQualifier.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [meegad_labQualifier](../slots/meegad_labQualifier.md) | 0..1 <br/> [ContaminosoResultQualifier](../classes/ContaminosoResultQualifier.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [contaminoso_resultAnnotation](../slots/contaminoso_resultAnnotation.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ContaminosoResultQualifier](../classes/ContaminosoResultQualifier.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [meegad_validationLevel](../slots/meegad_validationLevel.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ContaminosoResultQualifier](../classes/ContaminosoResultQualifier.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [https___qudt.org_schema_qudt_quantityValue](../slots/https___qudt.org_schema_qudt_quantityValue.md) | 0..1 <br/> [UssdwisAmount](../classes/UssdwisAmount.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [qudt_quantityValue](../slots/qudt_quantityValue.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [meegad_validationQualifier](../slots/meegad_validationQualifier.md) | 0..1 <br/> [ContaminosoResultQualifier](../classes/ContaminosoResultQualifier.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [meegad_labQualifier](../slots/meegad_labQualifier.md) | 0..1 <br/> [ContaminosoResultQualifier](../classes/ContaminosoResultQualifier.md) | No slot description provided | direct |
+| [contaminoso_resultAnnotation](../slots/contaminoso_resultAnnotation.md) | 0..1 <br/> [ContaminosoResultQualifier](../classes/ContaminosoResultQualifier.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [meegad_validationLevel](../slots/meegad_validationLevel.md) | 0..1 <br/> [ContaminosoResultQualifier](../classes/ContaminosoResultQualifier.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [https___qudt.org_schema_qudt_quantityValue](../slots/https___qudt.org_schema_qudt_quantityValue.md) | 0..1 <br/> [UssdwisAmount](../classes/UssdwisAmount.md) | No slot description provided | direct |
+| [qudt_quantityValue](../slots/qudt_quantityValue.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
 
 
 
@@ -170,7 +170,7 @@ URI: [contaminoso:ContaminantMeasurement](http://sawgraph.spatialai.org/v1/conta
 <details>
 ```yaml
 name: contaminoso_ContaminantMeasurement
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -179,6 +179,7 @@ todos:
 notes:
 - Class with 143064 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: sosa_Result
 slots:
 - meegad_validationQualifier
@@ -198,7 +199,7 @@ class_uri: contaminoso:ContaminantMeasurement
 <details>
 ```yaml
 name: contaminoso_ContaminantMeasurement
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -207,12 +208,13 @@ todos:
 notes:
 - Class with 143064 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: sosa_Result
 attributes:
   meegad_validationQualifier:
     name: meegad_validationQualifier
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -250,8 +252,8 @@ attributes:
     - range: uri
   meegad_labQualifier:
     name: meegad_labQualifier
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -278,8 +280,8 @@ attributes:
     range: contaminoso_ResultQualifier
   contaminoso_resultAnnotation:
     name: contaminoso_resultAnnotation
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -321,8 +323,8 @@ attributes:
     - range: uri
   meegad_validationLevel:
     name: meegad_validationLevel
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -360,8 +362,8 @@ attributes:
     - range: uri
   https___qudt.org_schema_qudt_quantityValue:
     name: https___qudt.org_schema_qudt_quantityValue
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -382,8 +384,8 @@ attributes:
     range: ussdwis_Amount
   qudt_quantityValue:
     name: qudt_quantityValue
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -409,8 +411,8 @@ attributes:
     range: uri
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

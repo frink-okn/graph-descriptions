@@ -3,7 +3,7 @@
 # Slot: rural_treatmentprovider_inCity
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -89,7 +89,7 @@ URI: [rural:treatmentprovider/inCity](http://sail.ua.edu/ruralkg/treatmentprovid
 <details>
 ```yaml
 name: rural_treatmentprovider_inCity
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

@@ -3,7 +3,7 @@
 # Slot: has spatial coordinates (sudokn_hasSpatialCoordinates)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sudokn:hasSpatialCoordinates](http://asu.edu/semantics/SUDOKN/hasSpatialCo
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknGeospatialLocation](../classes/SudoknGeospatialLocation.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SudoknGeospatialLocation](../classes/SudoknGeospatialLocation.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sudokn:hasSpatialCoordinates](http://asu.edu/semantics/SUDOKN/hasSpatialCo
 <details>
 ```yaml
 name: sudokn_hasSpatialCoordinates
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 title: has spatial coordinates
 todos:
 - TODO -- Todos for this slot go here

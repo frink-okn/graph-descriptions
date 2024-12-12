@@ -3,7 +3,7 @@
 # Slot: sockg_suffix
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:suffix](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carb
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPerson](../classes/SockgPerson.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgPerson](../classes/SockgPerson.md) | No type description provided |  no  |
 
 
 
@@ -89,7 +89,7 @@ URI: [sockg:suffix](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carb
 <details>
 ```yaml
 name: sockg_suffix
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

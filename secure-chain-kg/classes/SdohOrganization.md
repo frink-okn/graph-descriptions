@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (sdoh_Organization)
+# Class: Organization (sdoh_Organization)
 
 
-_TODO -- tell the world what this class (type) describes._
+_An organization such as a school, NGO, corporation, club, etc._
 
 
 
@@ -69,10 +69,10 @@ URI: [sdoh:Organization](http://schema.org/Organization)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_manufacturer](../slots/sdoh_manufacturer.md) | 0..1 <br/> [SecurechainHardware](../classes/SecurechainHardware.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_name](../slots/sdoh_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_identifier](../slots/sdoh_identifier.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_url](../slots/sdoh_url.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_identifier](../slots/sdoh_identifier.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [sdoh_url](../slots/sdoh_url.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [sdoh_name](../slots/sdoh_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [sdoh_manufacturer](../slots/sdoh_manufacturer.md) | 0..1 <br/> [SecurechainHardware](../classes/SecurechainHardware.md) | No slot description provided | direct |
 
 
 
@@ -87,7 +87,7 @@ URI: [sdoh:Organization](http://schema.org/Organization)
 
 | Value |
 | --- |
-| schema:Organization/xfce |
+| schema:Organization/anusthanokarehasya |
 
 ## TODOs
 
@@ -106,7 +106,7 @@ URI: [sdoh:Organization](http://schema.org/Organization)
 ### Schema Source
 
 
-* from schema: secure-chain-kg/develop
+* from schema: secure-chain-kg
 
 
 
@@ -116,7 +116,7 @@ URI: [sdoh:Organization](http://schema.org/Organization)
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | sdoh:Organization |
-| native | secure-chain-kg/develop/:SdohOrganization |
+| native | secure-chain-kg/:SdohOrganization |
 
 
 
@@ -133,22 +133,23 @@ URI: [sdoh:Organization](http://schema.org/Organization)
 <details>
 ```yaml
 name: sdoh_Organization
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: An organization such as a school, NGO, corporation, club, etc.
+title: Organization
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
 - if you think the class is perfect.
 notes:
-- There are 22889 instances of this class.
+- Class with 22889 occurences.
 examples:
-- value: schema:Organization/xfce
-from_schema: secure-chain-kg/develop
+- value: schema:Organization/anusthanokarehasya
+from_schema: secure-chain-kg
+rank: 1000
 slots:
-- sdoh_manufacturer
-- sdoh_name
 - sdoh_identifier
 - sdoh_url
+- sdoh_name
+- sdoh_manufacturer
 class_uri: sdoh:Organization
 
 ```
@@ -159,70 +160,22 @@ class_uri: sdoh:Organization
 <details>
 ```yaml
 name: sdoh_Organization
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: An organization such as a school, NGO, corporation, club, etc.
+title: Organization
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
 - if you think the class is perfect.
 notes:
-- There are 22889 instances of this class.
+- Class with 22889 occurences.
 examples:
-- value: schema:Organization/xfce
-from_schema: secure-chain-kg/develop
+- value: schema:Organization/anusthanokarehasya
+from_schema: secure-chain-kg
+rank: 1000
 attributes:
-  sdoh_manufacturer:
-    name: sdoh_manufacturer
-    description: TODO -- tell the world what this slot (predicate) describes.
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 54369 occurrences with subject type sdoh_Organization and object type securechain_Hardware.
-    examples:
-    - value: schema:Organization/intel sdoh:manufacturer securechain:Hardware/xeon_e7420
-    from_schema: secure-chain-kg/develop
-    rank: 1000
-    slot_uri: sdoh:manufacturer
-    alias: sdoh_manufacturer
-    owner: sdoh_Organization
-    domain_of:
-    - sdoh_Organization
-    range: securechain_Hardware
-  sdoh_name:
-    name: sdoh_name
-    description: TODO -- tell the world what this slot (predicate) describes.
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 53378 occurrences with subject type securechain_Hardware and object type string.
-    - 22002 occurrences with subject type sdoh_Organization and object type string.
-    - 34469 occurrences with subject type securechain_Software and object type string.
-    - 20 occurrences with subject type sdoh_CreativeWork and object type string.
-    examples:
-    - value: securechain:Hardware/field_programmable_gate_array_programmable_acceleration_card_n3000
-        sdoh:name field_programmable_gate_array_programmable_acceleration_card_n3000
-    - value: schema:Organization/social_microblogging_pro_project sdoh:name social_microblogging_pro_project
-    - value: securechain:Software/libcupscgi1 sdoh:name libcupscgi1
-    - value: securechain:License/unlicense sdoh:name This is free and unencumbered
-        software released into the public domain.
-    from_schema: secure-chain-kg/develop
-    rank: 1000
-    slot_uri: sdoh:name
-    alias: sdoh_name
-    owner: sdoh_Organization
-    domain_of:
-    - securechain_Hardware
-    - securechain_Software
-    - sdoh_CreativeWork
-    - sdoh_Organization
-    range: string
   sdoh_identifier:
     name: sdoh_identifier
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -236,26 +189,26 @@ attributes:
     - 887 occurrences with subject type sdoh_Organization and object type string.
     - 20 occurrences with subject type sdoh_CreativeWork and object type string.
     examples:
-    - value: securechain:Vulnerability/CVE-2023-52458 sdoh:identifier CVE-2023-52458
-    - value: schema:Person/Touhou-fan sdoh:identifier Touhou-fan
-    - value: securechain:VulnerabilityType/CWE-842 sdoh:identifier CWE-842
-    - value: schema:Organization/Basecamp sdoh:identifier Q36908
-    - value: securechain:License/bsl-1.0 sdoh:identifier bsl-1.0
-    from_schema: secure-chain-kg/develop
+    - value: securechain:Vulnerability/CVE-2019-9484 sdoh:identifier CVE-2019-9484
+    - value: schema:Person/rncbc sdoh:identifier rncbc
+    - value: securechain:VulnerabilityType/CWE-228 sdoh:identifier CWE-228
+    - value: schema:Organization/Jgraph sdoh:identifier Q59339175
+    - value: securechain:License/mpl-2.0 sdoh:identifier mpl-2.0
+    from_schema: secure-chain-kg
     rank: 1000
     slot_uri: sdoh:identifier
     alias: sdoh_identifier
     owner: sdoh_Organization
     domain_of:
-    - securechain_Vulnerability
-    - securechain_VulnerabilityType
     - sdoh_CreativeWork
     - sdoh_Organization
     - sdoh_Person
+    - securechain_Vulnerability
+    - securechain_VulnerabilityType
     range: string
   sdoh_url:
     name: sdoh_url
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -263,8 +216,8 @@ attributes:
     comments:
     - 887 occurrences with subject type sdoh_Organization and object type string.
     examples:
-    - value: schema:Organization/Cipi sdoh:url []
-    from_schema: secure-chain-kg/develop
+    - value: schema:Organization/Es sdoh:url []
+    from_schema: secure-chain-kg
     rank: 1000
     slot_uri: sdoh:url
     alias: sdoh_url
@@ -272,6 +225,53 @@ attributes:
     domain_of:
     - sdoh_Organization
     range: string
+  sdoh_name:
+    name: sdoh_name
+    description: No slot description provided
+    todos:
+    - TODO -- Todos for this slot go here
+    - or you can delete the todos
+    - if you think the class is perfect.
+    comments:
+    - 53378 occurrences with subject type securechain_Hardware and object type string.
+    - 22002 occurrences with subject type sdoh_Organization and object type string.
+    - 34469 occurrences with subject type securechain_Software and object type string.
+    - 20 occurrences with subject type sdoh_CreativeWork and object type string.
+    examples:
+    - value: securechain:Hardware/nvr1xxx sdoh:name nvr1xxx
+    - value: schema:Organization/opencaching sdoh:name opencaching
+    - value: securechain:Software/libdime sdoh:name libdime
+    - value: securechain:License/mit sdoh:name MIT License
+    from_schema: secure-chain-kg
+    rank: 1000
+    slot_uri: sdoh:name
+    alias: sdoh_name
+    owner: sdoh_Organization
+    domain_of:
+    - sdoh_CreativeWork
+    - sdoh_Organization
+    - securechain_Hardware
+    - securechain_Software
+    range: string
+  sdoh_manufacturer:
+    name: sdoh_manufacturer
+    description: No slot description provided
+    todos:
+    - TODO -- Todos for this slot go here
+    - or you can delete the todos
+    - if you think the class is perfect.
+    comments:
+    - 54369 occurrences with subject type sdoh_Organization and object type securechain_Hardware.
+    examples:
+    - value: schema:Organization/hp sdoh:manufacturer securechain:Hardware/laptop_15-da0xxx
+    from_schema: secure-chain-kg
+    rank: 1000
+    slot_uri: sdoh:manufacturer
+    alias: sdoh_manufacturer
+    owner: sdoh_Organization
+    domain_of:
+    - sdoh_Organization
+    range: securechain_Hardware
 class_uri: sdoh:Organization
 
 ```

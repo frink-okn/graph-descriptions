@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (memgs_WellUse)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -86,7 +86,7 @@ URI: [memgs:WellUse](http://sawgraph.spatialai.org/v1/me-mgs#WellUse)
 <details>
 ```yaml
 name: memgs_WellUse
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -95,6 +95,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 class_uri: memgs:WellUse
 
 ```
@@ -105,7 +106,7 @@ class_uri: memgs:WellUse
 <details>
 ```yaml
 name: memgs_WellUse
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -114,6 +115,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 class_uri: memgs:WellUse
 
 ```

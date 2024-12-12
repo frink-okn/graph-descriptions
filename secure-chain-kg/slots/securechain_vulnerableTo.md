@@ -3,7 +3,7 @@
 # Slot: securechain_vulnerableTo
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,8 +23,8 @@ URI: [securechain:vulnerableTo](https://w3id.org/secure-chain/vulnerableTo)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | No type description provided |  no  |
+| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | No type description provided |  no  |
 
 
 
@@ -34,7 +34,7 @@ URI: [securechain:vulnerableTo](https://w3id.org/secure-chain/vulnerableTo)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[SecurechainVulnerability](../classes/SecurechainVulnerability.md)&nbsp;or&nbsp;<br />[SecurechainVulnerability](../classes/SecurechainVulnerability.md)
+* Range: [SecurechainVulnerability](../classes/SecurechainVulnerability.md)
 
 
 
@@ -45,14 +45,15 @@ URI: [securechain:vulnerableTo](https://w3id.org/secure-chain/vulnerableTo)
 
 | Value |
 | --- |
-| securechain:HardwareVersion/xeon_e5-2699r_v4#- securechain:vulnerableTo securechain:Vulnerability/CVE-2021-0114 |
-| securechain:SoftwareVersion/mapserver#4.10.0-5%2Betch1 securechain:vulnerableTo securechain:Vulnerability/CVE-2009-0839 |
+| securechain:HardwareVersion/x12dpl-i6#- securechain:vulnerableTo securechain:Vulnerability/CVE-2023-33412 |
+| securechain:HardwareVersion/wireless-n_7260#- securechain:vulnerableTo securechain:Vulnerability/CVE-2018-12177 |
+| securechain:SoftwareVersion/freetype#2.2.1-5 securechain:vulnerableTo securechain:Vulnerability/CVE-2011-0226 |
 
 ## Comments
 
 * 445386 occurrences with subject type securechain_HardwareVersion and object type securechain_Vulnerability.
+* 21897 occurrences with untyped subjects and object type https://w3id.org/secure-chain/Vulnerability.
 * 5067 occurrences with subject type securechain_SoftwareVersion and object type securechain_Vulnerability.
-* 21897 occurrences on untyped entities with type securechain_Vulnerability.
 
 ## TODOs
 
@@ -71,7 +72,7 @@ URI: [securechain:vulnerableTo](https://w3id.org/secure-chain/vulnerableTo)
 ### Schema Source
 
 
-* from schema: secure-chain-kg/develop
+* from schema: secure-chain-kg
 
 
 
@@ -81,7 +82,7 @@ URI: [securechain:vulnerableTo](https://w3id.org/secure-chain/vulnerableTo)
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | securechain:vulnerableTo |
-| native | secure-chain-kg/develop/:securechain_vulnerableTo |
+| native | secure-chain-kg/:securechain_vulnerableTo |
 
 
 
@@ -91,7 +92,7 @@ URI: [securechain:vulnerableTo](https://w3id.org/secure-chain/vulnerableTo)
 <details>
 ```yaml
 name: securechain_vulnerableTo
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -99,23 +100,20 @@ todos:
 comments:
 - 445386 occurrences with subject type securechain_HardwareVersion and object type
   securechain_Vulnerability.
+- 21897 occurrences with untyped subjects and object type https://w3id.org/secure-chain/Vulnerability.
 - 5067 occurrences with subject type securechain_SoftwareVersion and object type securechain_Vulnerability.
-- 21897 occurrences on untyped entities with type securechain_Vulnerability.
 examples:
-- value: securechain:HardwareVersion/xeon_e5-2699r_v4#- securechain:vulnerableTo securechain:Vulnerability/CVE-2021-0114
-- value: securechain:SoftwareVersion/mapserver#4.10.0-5%2Betch1 securechain:vulnerableTo
-    securechain:Vulnerability/CVE-2009-0839
-from_schema: secure-chain-kg/develop
+- value: securechain:HardwareVersion/x12dpl-i6#- securechain:vulnerableTo securechain:Vulnerability/CVE-2023-33412
+- value: securechain:HardwareVersion/wireless-n_7260#- securechain:vulnerableTo securechain:Vulnerability/CVE-2018-12177
+- value: securechain:SoftwareVersion/freetype#2.2.1-5 securechain:vulnerableTo securechain:Vulnerability/CVE-2011-0226
+from_schema: secure-chain-kg
 rank: 1000
 slot_uri: securechain:vulnerableTo
 alias: securechain_vulnerableTo
 domain_of:
 - securechain_HardwareVersion
 - securechain_SoftwareVersion
-range: Any
-any_of:
-- range: securechain_Vulnerability
-- range: securechain_Vulnerability
+range: securechain_Vulnerability
 
 ```
 </details>

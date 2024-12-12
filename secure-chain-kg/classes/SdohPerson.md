@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (sdoh_Person)
+# Class: Person (sdoh_Person)
 
 
-_TODO -- tell the world what this class (type) describes._
+_A person (alive, dead, undead, or fictional)._
 
 
 
@@ -42,7 +42,7 @@ URI: [sdoh:Person](http://schema.org/Person)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_identifier](../slots/sdoh_identifier.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_identifier](../slots/sdoh_identifier.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
 
 
 
@@ -53,6 +53,7 @@ URI: [sdoh:Person](http://schema.org/Person)
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
 | [SecurechainSoftware](../classes/SecurechainSoftware.md) | [sdoh_contributor](../slots/sdoh_contributor.md) | range | [SdohPerson](../classes/SdohPerson.md) |
+| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | [sdoh_contributor](../slots/sdoh_contributor.md) | range | [SdohPerson](../classes/SdohPerson.md) |
 
 
 
@@ -64,7 +65,7 @@ URI: [sdoh:Person](http://schema.org/Person)
 
 | Value |
 | --- |
-| schema:Person/johnlunney |
+| schema:Person/jam3sward |
 
 ## TODOs
 
@@ -83,7 +84,7 @@ URI: [sdoh:Person](http://schema.org/Person)
 ### Schema Source
 
 
-* from schema: secure-chain-kg/develop
+* from schema: secure-chain-kg
 
 
 
@@ -93,7 +94,7 @@ URI: [sdoh:Person](http://schema.org/Person)
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | sdoh:Person |
-| native | secure-chain-kg/develop/:SdohPerson |
+| native | secure-chain-kg/:SdohPerson |
 
 
 
@@ -110,17 +111,18 @@ URI: [sdoh:Person](http://schema.org/Person)
 <details>
 ```yaml
 name: sdoh_Person
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: A person (alive, dead, undead, or fictional).
+title: Person
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
 - if you think the class is perfect.
 notes:
-- There are 30434 instances of this class.
+- Class with 30434 occurences.
 examples:
-- value: schema:Person/johnlunney
-from_schema: secure-chain-kg/develop
+- value: schema:Person/jam3sward
+from_schema: secure-chain-kg
+rank: 1000
 slots:
 - sdoh_identifier
 class_uri: sdoh:Person
@@ -133,21 +135,22 @@ class_uri: sdoh:Person
 <details>
 ```yaml
 name: sdoh_Person
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: A person (alive, dead, undead, or fictional).
+title: Person
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
 - if you think the class is perfect.
 notes:
-- There are 30434 instances of this class.
+- Class with 30434 occurences.
 examples:
-- value: schema:Person/johnlunney
-from_schema: secure-chain-kg/develop
+- value: schema:Person/jam3sward
+from_schema: secure-chain-kg
+rank: 1000
 attributes:
   sdoh_identifier:
     name: sdoh_identifier
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -161,22 +164,22 @@ attributes:
     - 887 occurrences with subject type sdoh_Organization and object type string.
     - 20 occurrences with subject type sdoh_CreativeWork and object type string.
     examples:
-    - value: securechain:Vulnerability/CVE-2023-52458 sdoh:identifier CVE-2023-52458
-    - value: schema:Person/Touhou-fan sdoh:identifier Touhou-fan
-    - value: securechain:VulnerabilityType/CWE-842 sdoh:identifier CWE-842
-    - value: schema:Organization/Basecamp sdoh:identifier Q36908
-    - value: securechain:License/bsl-1.0 sdoh:identifier bsl-1.0
-    from_schema: secure-chain-kg/develop
+    - value: securechain:Vulnerability/CVE-2019-9484 sdoh:identifier CVE-2019-9484
+    - value: schema:Person/rncbc sdoh:identifier rncbc
+    - value: securechain:VulnerabilityType/CWE-228 sdoh:identifier CWE-228
+    - value: schema:Organization/Jgraph sdoh:identifier Q59339175
+    - value: securechain:License/mpl-2.0 sdoh:identifier mpl-2.0
+    from_schema: secure-chain-kg
     rank: 1000
     slot_uri: sdoh:identifier
     alias: sdoh_identifier
     owner: sdoh_Person
     domain_of:
-    - securechain_Vulnerability
-    - securechain_VulnerabilityType
     - sdoh_CreativeWork
     - sdoh_Organization
     - sdoh_Person
+    - securechain_Vulnerability
+    - securechain_VulnerabilityType
     range: string
 class_uri: sdoh:Person
 

@@ -3,7 +3,7 @@
 # Slot: sockg_experimentName
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:experimentName](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgExperiment](../classes/SockgExperiment.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgExperiment](../classes/SockgExperiment.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sockg:experimentName](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 <details>
 ```yaml
 name: sockg_experimentName
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

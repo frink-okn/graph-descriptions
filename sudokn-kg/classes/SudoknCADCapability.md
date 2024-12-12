@@ -3,7 +3,7 @@
 # Class: CAD capability (sudokn_CADCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -50,7 +50,7 @@ URI: [sudokn:CADCapability](http://asu.edu/semantics/SUDOKN/CADCapability)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -112,7 +112,7 @@ URI: [sudokn:CADCapability](http://asu.edu/semantics/SUDOKN/CADCapability)
 <details>
 ```yaml
 name: sudokn_CADCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: CAD capability
 todos:
 - TODO -- Todos for this class go here
@@ -121,6 +121,7 @@ todos:
 notes:
 - Class with 3 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_EngineeringCapability
 slots:
 - rdfs_label
@@ -134,7 +135,7 @@ class_uri: sudokn:CADCapability
 <details>
 ```yaml
 name: sudokn_CADCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: CAD capability
 todos:
 - TODO -- Todos for this class go here
@@ -143,11 +144,12 @@ todos:
 notes:
 - Class with 3 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_EngineeringCapability
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

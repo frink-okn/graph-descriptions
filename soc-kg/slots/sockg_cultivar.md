@@ -3,7 +3,7 @@
 # Slot: sockg_cultivar
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:cultivar](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-ca
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPlantingEvent](../classes/SockgPlantingEvent.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgPlantingEvent](../classes/SockgPlantingEvent.md) | No type description provided |  no  |
 
 
 
@@ -89,7 +89,7 @@ URI: [sockg:cultivar](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-ca
 <details>
 ```yaml
 name: sockg_cultivar
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

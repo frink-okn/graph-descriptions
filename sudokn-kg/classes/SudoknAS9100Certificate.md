@@ -3,7 +3,7 @@
 # Class: AS-9100 certificate (sudokn_AS9100Certificate)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -61,8 +61,8 @@ URI: [sudokn:AS9100Certificate](http://asu.edu/semantics/SUDOKN/AS9100Certificat
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sudokn_attestsTo](../slots/sudokn_attestsTo.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[SudoknQualityManagementCapability](../classes/SudoknQualityManagementCapability.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sudokn_attestsTo](../slots/sudokn_attestsTo.md) | 0..1 <br/> [SudoknQualityManagementCapability](../classes/SudoknQualityManagementCapability.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -131,7 +131,7 @@ URI: [sudokn:AS9100Certificate](http://asu.edu/semantics/SUDOKN/AS9100Certificat
 <details>
 ```yaml
 name: sudokn_AS9100Certificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: AS-9100 certificate
 todos:
 - TODO -- Todos for this class go here
@@ -142,6 +142,7 @@ notes:
 examples:
 - value: sudokn:3D-CAM-AS9100Certificate
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ASCertificate
 slots:
 - sudokn_attestsTo
@@ -156,7 +157,7 @@ class_uri: sudokn:AS9100Certificate
 <details>
 ```yaml
 name: sudokn_AS9100Certificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: AS-9100 certificate
 todos:
 - TODO -- Todos for this class go here
@@ -167,11 +168,12 @@ notes:
 examples:
 - value: sudokn:3D-CAM-AS9100Certificate
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ASCertificate
 attributes:
   sudokn_attestsTo:
     name: sudokn_attestsTo
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     title: attests to
     todos:
     - TODO -- Todos for this slot go here
@@ -198,7 +200,7 @@ attributes:
     - range: uri
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

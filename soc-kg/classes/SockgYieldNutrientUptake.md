@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for what this class (type) describes? (sockg_YieldNutrientUptake)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -438,51 +438,51 @@ URI: [sockg:YieldNutrientUptake](http://www.semanticweb.org/sockg/ontologies/202
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sockg_hasYieldNutrUptakeData](../slots/sockg_hasYieldNutrUptakeData.md) | 0..1 <br/> [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_yieldNutrUptakeDataAt](../slots/sockg_yieldNutrUptakeDataAt.md) | 0..1 <br/> [SockgField](../classes/SockgField.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_yieldNutrUptakeTreatment](../slots/sockg_yieldNutrUptakeTreatment.md) | 0..1 <br/> [SockgTreatment](../classes/SockgTreatment.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracBoron_gB_ha](../slots/sockg_fracBoron_gB_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracProductivityStd_kg_ha](../slots/sockg_fracProductivityStd_kg_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracCarbonStd_kgC_ha](../slots/sockg_fracCarbonStd_kgC_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracNitrogenStd_kgN_ha](../slots/sockg_fracNitrogenStd_kgN_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracZincStd_gZn_ha](../slots/sockg_fracZincStd_gZn_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_crop](../slots/sockg_crop.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_measYieldNutUptake_UID](../slots/sockg_measYieldNutUptake_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracSulfur_kgS_ha](../slots/sockg_fracSulfur_kgS_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_modelIfSimulated](../slots/sockg_modelIfSimulated.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracMolybdenumStd_gMo_ha](../slots/sockg_fracMolybdenumStd_gMo_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracPotassiumStd_kgK_ha](../slots/sockg_fracPotassiumStd_kgK_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_plantFraction](../slots/sockg_plantFraction.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_grainWeightKernelYnu_mg](../slots/sockg_grainWeightKernelYnu_mg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracMagnesium_kgMg_ha](../slots/sockg_fracMagnesium_kgMg_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracCarbon_kgC_ha](../slots/sockg_fracCarbon_kgC_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracManganeseStd_gMn_ha](../slots/sockg_fracManganeseStd_gMn_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracCopperStd_gCu_ha](../slots/sockg_fracCopperStd_gCu_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracMagnesiumStd_kgMg_ha](../slots/sockg_fracMagnesiumStd_kgMg_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracIron_gFe_ha](../slots/sockg_fracIron_gFe_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracCalcium_kgCa_ha](../slots/sockg_fracCalcium_kgCa_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracPhosphorus_kgP_ha](../slots/sockg_fracPhosphorus_kgP_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fieldId](../slots/sockg_fieldId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracIronStd_gFe_ha](../slots/sockg_fracIronStd_gFe_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracMoisturePercentStd](../slots/sockg_fracMoisturePercentStd.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_expUnit_UID](../slots/sockg_expUnit_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracZinc_gZn_ha](../slots/sockg_fracZinc_gZn_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracSulfurStd_kgS_ha](../slots/sockg_fracSulfurStd_kgS_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracPotassium_kgK_ha](../slots/sockg_fracPotassium_kgK_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracMoisturePercent](../slots/sockg_fracMoisturePercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracCopper_gCu_ha](../slots/sockg_fracCopper_gCu_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracMolybdenum_gMo_ha](../slots/sockg_fracMolybdenum_gMo_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracCalciumStd_kgCa_ha](../slots/sockg_fracCalciumStd_kgCa_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracBoronStd_gB_ha](../slots/sockg_fracBoronStd_gB_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_expUnitId](../slots/sockg_expUnitId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_grainWeightKernelYnuStd_mg](../slots/sockg_grainWeightKernelYnuStd_mg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracCropProductivity_kg_ha](../slots/sockg_fracCropProductivity_kg_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracManganese_gMn_ha](../slots/sockg_fracManganese_gMn_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_growthStage](../slots/sockg_growthStage.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracPhosphorusStd_kgP_ha](../slots/sockg_fracPhosphorusStd_kgP_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fracNitrogen_kgN_ha](../slots/sockg_fracNitrogen_kgN_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sockg_hasYieldNutrUptakeData](../slots/sockg_hasYieldNutrUptakeData.md) | 0..1 <br/> [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | No slot description provided | direct |
+| [sockg_yieldNutrUptakeDataAt](../slots/sockg_yieldNutrUptakeDataAt.md) | 0..1 <br/> [SockgField](../classes/SockgField.md) | No slot description provided | direct |
+| [sockg_yieldNutrUptakeTreatment](../slots/sockg_yieldNutrUptakeTreatment.md) | 0..1 <br/> [SockgTreatment](../classes/SockgTreatment.md) | No slot description provided | direct |
+| [sockg_fracBoron_gB_ha](../slots/sockg_fracBoron_gB_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracProductivityStd_kg_ha](../slots/sockg_fracProductivityStd_kg_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracCarbonStd_kgC_ha](../slots/sockg_fracCarbonStd_kgC_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracNitrogenStd_kgN_ha](../slots/sockg_fracNitrogenStd_kgN_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracZincStd_gZn_ha](../slots/sockg_fracZincStd_gZn_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_crop](../slots/sockg_crop.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_measYieldNutUptake_UID](../slots/sockg_measYieldNutUptake_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_fracSulfur_kgS_ha](../slots/sockg_fracSulfur_kgS_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_modelIfSimulated](../slots/sockg_modelIfSimulated.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_fracMolybdenumStd_gMo_ha](../slots/sockg_fracMolybdenumStd_gMo_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracPotassiumStd_kgK_ha](../slots/sockg_fracPotassiumStd_kgK_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_plantFraction](../slots/sockg_plantFraction.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_grainWeightKernelYnu_mg](../slots/sockg_grainWeightKernelYnu_mg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracMagnesium_kgMg_ha](../slots/sockg_fracMagnesium_kgMg_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracCarbon_kgC_ha](../slots/sockg_fracCarbon_kgC_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracManganeseStd_gMn_ha](../slots/sockg_fracManganeseStd_gMn_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_fracCopperStd_gCu_ha](../slots/sockg_fracCopperStd_gCu_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracMagnesiumStd_kgMg_ha](../slots/sockg_fracMagnesiumStd_kgMg_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracIron_gFe_ha](../slots/sockg_fracIron_gFe_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracCalcium_kgCa_ha](../slots/sockg_fracCalcium_kgCa_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracPhosphorus_kgP_ha](../slots/sockg_fracPhosphorus_kgP_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fieldId](../slots/sockg_fieldId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_fracIronStd_gFe_ha](../slots/sockg_fracIronStd_gFe_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracMoisturePercentStd](../slots/sockg_fracMoisturePercentStd.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_expUnit_UID](../slots/sockg_expUnit_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_fracZinc_gZn_ha](../slots/sockg_fracZinc_gZn_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracSulfurStd_kgS_ha](../slots/sockg_fracSulfurStd_kgS_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracPotassium_kgK_ha](../slots/sockg_fracPotassium_kgK_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracMoisturePercent](../slots/sockg_fracMoisturePercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracCopper_gCu_ha](../slots/sockg_fracCopper_gCu_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracMolybdenum_gMo_ha](../slots/sockg_fracMolybdenum_gMo_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracCalciumStd_kgCa_ha](../slots/sockg_fracCalciumStd_kgCa_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracBoronStd_gB_ha](../slots/sockg_fracBoronStd_gB_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_expUnitId](../slots/sockg_expUnitId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_grainWeightKernelYnuStd_mg](../slots/sockg_grainWeightKernelYnuStd_mg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracCropProductivity_kg_ha](../slots/sockg_fracCropProductivity_kg_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracManganese_gMn_ha](../slots/sockg_fracManganese_gMn_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_growthStage](../slots/sockg_growthStage.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracPhosphorusStd_kgP_ha](../slots/sockg_fracPhosphorusStd_kgP_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fracNitrogen_kgN_ha](../slots/sockg_fracNitrogen_kgN_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
 
 
 
@@ -543,7 +543,7 @@ URI: [sockg:YieldNutrientUptake](http://www.semanticweb.org/sockg/ontologies/202
 <details>
 ```yaml
 name: sockg_YieldNutrientUptake
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -554,6 +554,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#509686
 from_schema: soc-kg/main
+rank: 1000
 slots:
 - sockg_hasYieldNutrUptakeData
 - sockg_yieldNutrUptakeDataAt
@@ -610,7 +611,7 @@ class_uri: sockg:YieldNutrientUptake
 <details>
 ```yaml
 name: sockg_YieldNutrientUptake
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -621,10 +622,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#509686
 from_schema: soc-kg/main
+rank: 1000
 attributes:
   sockg_hasYieldNutrUptakeData:
     name: sockg_hasYieldNutrUptakeData
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -644,7 +646,7 @@ attributes:
     range: sockg_ExperimentalUnit
   sockg_yieldNutrUptakeDataAt:
     name: sockg_yieldNutrUptakeDataAt
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -664,7 +666,7 @@ attributes:
     range: sockg_Field
   sockg_yieldNutrUptakeTreatment:
     name: sockg_yieldNutrUptakeTreatment
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -684,7 +686,7 @@ attributes:
     range: sockg_Treatment
   sockg_fracBoron_gB_ha:
     name: sockg_fracBoron_gB_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -704,7 +706,7 @@ attributes:
     range: double
   sockg_fracProductivityStd_kg_ha:
     name: sockg_fracProductivityStd_kg_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -724,7 +726,7 @@ attributes:
     range: double
   sockg_fracCarbonStd_kgC_ha:
     name: sockg_fracCarbonStd_kgC_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -744,7 +746,7 @@ attributes:
     range: double
   sockg_fracNitrogenStd_kgN_ha:
     name: sockg_fracNitrogenStd_kgN_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -764,7 +766,7 @@ attributes:
     range: double
   sockg_fracZincStd_gZn_ha:
     name: sockg_fracZincStd_gZn_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -784,7 +786,7 @@ attributes:
     range: double
   sockg_crop:
     name: sockg_crop
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -842,7 +844,7 @@ attributes:
     - range: double
   sockg_measYieldNutUptake_UID:
     name: sockg_measYieldNutUptake_UID
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -862,7 +864,7 @@ attributes:
     range: string
   sockg_fracSulfur_kgS_ha:
     name: sockg_fracSulfur_kgS_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -882,7 +884,7 @@ attributes:
     range: double
   sockg_modelIfSimulated:
     name: sockg_modelIfSimulated
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -924,7 +926,7 @@ attributes:
     - range: string
   sockg_fracMolybdenumStd_gMo_ha:
     name: sockg_fracMolybdenumStd_gMo_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -944,7 +946,7 @@ attributes:
     range: double
   sockg_fracPotassiumStd_kgK_ha:
     name: sockg_fracPotassiumStd_kgK_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -964,7 +966,7 @@ attributes:
     range: double
   sockg_plantFraction:
     name: sockg_plantFraction
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1006,7 +1008,7 @@ attributes:
     - range: double
   sockg_grainWeightKernelYnu_mg:
     name: sockg_grainWeightKernelYnu_mg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1026,7 +1028,7 @@ attributes:
     range: double
   sockg_fracMagnesium_kgMg_ha:
     name: sockg_fracMagnesium_kgMg_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1046,7 +1048,7 @@ attributes:
     range: double
   sockg_fracCarbon_kgC_ha:
     name: sockg_fracCarbon_kgC_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1066,7 +1068,7 @@ attributes:
     range: double
   sockg_fracManganeseStd_gMn_ha:
     name: sockg_fracManganeseStd_gMn_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1086,7 +1088,7 @@ attributes:
     range: double
   sockg_treatmentId:
     name: sockg_treatmentId
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1173,7 +1175,7 @@ attributes:
     range: string
   sockg_fracCopperStd_gCu_ha:
     name: sockg_fracCopperStd_gCu_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1193,7 +1195,7 @@ attributes:
     range: double
   sockg_fracMagnesiumStd_kgMg_ha:
     name: sockg_fracMagnesiumStd_kgMg_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1213,7 +1215,7 @@ attributes:
     range: double
   sockg_fracIron_gFe_ha:
     name: sockg_fracIron_gFe_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1233,7 +1235,7 @@ attributes:
     range: double
   sockg_fracCalcium_kgCa_ha:
     name: sockg_fracCalcium_kgCa_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1253,7 +1255,7 @@ attributes:
     range: double
   sockg_fracPhosphorus_kgP_ha:
     name: sockg_fracPhosphorus_kgP_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1273,7 +1275,7 @@ attributes:
     range: double
   sockg_fieldId:
     name: sockg_fieldId
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1312,7 +1314,7 @@ attributes:
     range: string
   sockg_fracIronStd_gFe_ha:
     name: sockg_fracIronStd_gFe_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1332,7 +1334,7 @@ attributes:
     range: double
   sockg_fracMoisturePercentStd:
     name: sockg_fracMoisturePercentStd
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1352,7 +1354,7 @@ attributes:
     range: double
   sockg_expUnit_UID:
     name: sockg_expUnit_UID
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1388,7 +1390,7 @@ attributes:
     range: string
   sockg_fracZinc_gZn_ha:
     name: sockg_fracZinc_gZn_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1408,7 +1410,7 @@ attributes:
     range: double
   sockg_fracSulfurStd_kgS_ha:
     name: sockg_fracSulfurStd_kgS_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1428,7 +1430,7 @@ attributes:
     range: double
   sockg_fracPotassium_kgK_ha:
     name: sockg_fracPotassium_kgK_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1448,7 +1450,7 @@ attributes:
     range: double
   sockg_fracMoisturePercent:
     name: sockg_fracMoisturePercent
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1468,7 +1470,7 @@ attributes:
     range: double
   sockg_fracCopper_gCu_ha:
     name: sockg_fracCopper_gCu_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1488,7 +1490,7 @@ attributes:
     range: double
   sockg_fracMolybdenum_gMo_ha:
     name: sockg_fracMolybdenum_gMo_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1508,7 +1510,7 @@ attributes:
     range: double
   sockg_fracCalciumStd_kgCa_ha:
     name: sockg_fracCalciumStd_kgCa_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1528,7 +1530,7 @@ attributes:
     range: double
   sockg_date:
     name: sockg_date
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1616,7 +1618,7 @@ attributes:
     - range: double
   sockg_fracBoronStd_gB_ha:
     name: sockg_fracBoronStd_gB_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1636,7 +1638,7 @@ attributes:
     range: double
   sockg_expUnitId:
     name: sockg_expUnitId
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1675,7 +1677,7 @@ attributes:
     range: string
   sockg_grainWeightKernelYnuStd_mg:
     name: sockg_grainWeightKernelYnuStd_mg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1695,7 +1697,7 @@ attributes:
     range: double
   sockg_fracCropProductivity_kg_ha:
     name: sockg_fracCropProductivity_kg_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1715,7 +1717,7 @@ attributes:
     range: double
   sockg_fracManganese_gMn_ha:
     name: sockg_fracManganese_gMn_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1735,7 +1737,7 @@ attributes:
     range: double
   sockg_growthStage:
     name: sockg_growthStage
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1806,7 +1808,7 @@ attributes:
     - range: double
   sockg_fracPhosphorusStd_kgP_ha:
     name: sockg_fracPhosphorusStd_kgP_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1826,7 +1828,7 @@ attributes:
     range: double
   sockg_fracNitrogen_kgN_ha:
     name: sockg_fracNitrogen_kgN_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

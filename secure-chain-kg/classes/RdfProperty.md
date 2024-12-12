@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (rdf_Property)
+# Class: TODO -- what's a good name for this class (type)? (rdf_Property)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -47,7 +47,7 @@ URI: [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property)
 
 | Value |
 | --- |
-| securechain:hasSoftwareVersion |
+| securechain:vulnerableTo |
 
 ## TODOs
 
@@ -66,7 +66,7 @@ URI: [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property)
 ### Schema Source
 
 
-* from schema: secure-chain-kg/develop
+* from schema: secure-chain-kg
 
 
 
@@ -76,7 +76,7 @@ URI: [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property)
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | rdf:Property |
-| native | secure-chain-kg/develop/:RdfProperty |
+| native | secure-chain-kg/:RdfProperty |
 
 
 
@@ -93,17 +93,18 @@ URI: [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property)
 <details>
 ```yaml
 name: rdf_Property
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: No type description provided
+title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
 - if you think the class is perfect.
 notes:
-- There are 7 instances of this class.
+- Class with 7 occurences.
 examples:
-- value: securechain:hasSoftwareVersion
-from_schema: secure-chain-kg/develop
+- value: securechain:vulnerableTo
+from_schema: secure-chain-kg
+rank: 1000
 class_uri: rdf:Property
 
 ```
@@ -114,17 +115,18 @@ class_uri: rdf:Property
 <details>
 ```yaml
 name: rdf_Property
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: No type description provided
+title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
 - if you think the class is perfect.
 notes:
-- There are 7 instances of this class.
+- Class with 7 occurences.
 examples:
-- value: securechain:hasSoftwareVersion
-from_schema: secure-chain-kg/develop
+- value: securechain:vulnerableTo
+from_schema: secure-chain-kg
+rank: 1000
 class_uri: rdf:Property
 
 ```

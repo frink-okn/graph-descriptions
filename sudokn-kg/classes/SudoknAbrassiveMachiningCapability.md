@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (sudokn_AbrassiveMachiningCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -60,7 +60,7 @@ URI: [sudokn:AbrassiveMachiningCapability](http://asu.edu/semantics/SUDOKN/Abras
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | [SudoknMachiningCapability](../classes/SudoknMachiningCapability.md) |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | [SudoknMachiningCapability](../classes/SudoknMachiningCapability.md) |
 
 
 
@@ -114,7 +114,7 @@ URI: [sudokn:AbrassiveMachiningCapability](http://asu.edu/semantics/SUDOKN/Abras
 <details>
 ```yaml
 name: sudokn_AbrassiveMachiningCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -123,6 +123,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_MachiningCapability
 class_uri: sudokn:AbrassiveMachiningCapability
 
@@ -134,7 +135,7 @@ class_uri: sudokn:AbrassiveMachiningCapability
 <details>
 ```yaml
 name: sudokn_AbrassiveMachiningCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -143,11 +144,12 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_MachiningCapability
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

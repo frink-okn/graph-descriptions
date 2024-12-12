@@ -3,7 +3,7 @@
 # Slot: sockg_belowgroundNetPrimaryProductivityNitrogenStd_kgN_per_ha_per_yr
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:belowgroundNetPrimaryProductivityNitrogenStd_kgN_per_ha_per_yr](http
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGrazing](../classes/SockgGrazing.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgGrazing](../classes/SockgGrazing.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sockg:belowgroundNetPrimaryProductivityNitrogenStd_kgN_per_ha_per_yr](http
 <details>
 ```yaml
 name: sockg_belowgroundNetPrimaryProductivityNitrogenStd_kgN_per_ha_per_yr
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

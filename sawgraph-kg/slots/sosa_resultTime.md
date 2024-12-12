@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (sosa_resultTime)
+# Slot: No slot description provided (sosa_resultTime)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sosa:resultTime](http://www.w3.org/ns/sosa/resultTime)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ContaminosoContaminantObservation](../classes/ContaminosoContaminantObservation.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [ContaminosoContaminantObservation](../classes/ContaminosoContaminantObservation.md) | No type description provided |  no  |
 
 
 
@@ -87,8 +87,8 @@ URI: [sosa:resultTime](http://www.w3.org/ns/sosa/resultTime)
 <details>
 ```yaml
 name: sosa_resultTime
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

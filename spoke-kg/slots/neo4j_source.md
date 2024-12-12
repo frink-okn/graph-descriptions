@@ -3,7 +3,7 @@
 # Slot: neo4j_source
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [neo4j:source](neo4j://graph.schema#source)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Neo4jDisease](../classes/Neo4jDisease.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [Neo4jDisease](../classes/Neo4jDisease.md) | No type description provided |  no  |
 
 
 
@@ -33,7 +33,7 @@ URI: [neo4j:source](neo4j://graph.schema#source)
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -87,7 +87,7 @@ URI: [neo4j:source](neo4j://graph.schema#source)
 <details>
 ```yaml
 name: neo4j_source
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

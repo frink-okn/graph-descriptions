@@ -3,7 +3,7 @@
 # Slot: relation_ValidatedBy
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,16 +23,16 @@ URI: [relation:ValidatedBy](http://relation.org/ValidatedBy)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoModels](../classes/HsdoModels.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoInstrument](../classes/HsdoInstrument.md) | No type description provided |  no  |
+| [HsdoInstitution](../classes/HsdoInstitution.md) | No type description provided |  no  |
+| [HsdoVariable](../classes/HsdoVariable.md) | No type description provided |  no  |
+| [HsdoProvider](../classes/HsdoProvider.md) | No type description provided |  no  |
+| [HsdoModels](../classes/HsdoModels.md) | No type description provided |  no  |
+| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | No type description provided |  no  |
 | [HsdoProject](../classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  no  |
-| [HsdoInstrument](../classes/HsdoInstrument.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoLocation](../classes/HsdoLocation.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoModel](../classes/HsdoModel.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoInstitution](../classes/HsdoInstitution.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoVariable](../classes/HsdoVariable.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoProvider](../classes/HsdoProvider.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoExperiment](../classes/HsdoExperiment.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoModel](../classes/HsdoModel.md) | No type description provided |  no  |
+| [HsdoExperiment](../classes/HsdoExperiment.md) | No type description provided |  no  |
+| [HsdoLocation](../classes/HsdoLocation.md) | No type description provided |  no  |
 
 
 
@@ -150,7 +150,7 @@ URI: [relation:ValidatedBy](http://relation.org/ValidatedBy)
 <details>
 ```yaml
 name: relation_ValidatedBy
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

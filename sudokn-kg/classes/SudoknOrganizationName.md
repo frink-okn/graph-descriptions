@@ -3,7 +3,7 @@
 # Class: organization name (sudokn_OrganizationName)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -108,7 +108,7 @@ URI: [sudokn:OrganizationName](http://asu.edu/semantics/SUDOKN/OrganizationName)
 <details>
 ```yaml
 name: sudokn_OrganizationName
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: organization name
 todos:
 - TODO -- Todos for this class go here
@@ -119,6 +119,7 @@ notes:
 examples:
 - value: sudokn:/OrganizationName_1
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_DesignativeName
 class_uri: sudokn:OrganizationName
 
@@ -130,7 +131,7 @@ class_uri: sudokn:OrganizationName
 <details>
 ```yaml
 name: sudokn_OrganizationName
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: organization name
 todos:
 - TODO -- Todos for this class go here
@@ -141,6 +142,7 @@ notes:
 examples:
 - value: sudokn:/OrganizationName_1
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_DesignativeName
 class_uri: sudokn:OrganizationName
 

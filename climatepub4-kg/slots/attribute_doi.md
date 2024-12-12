@@ -3,7 +3,7 @@
 # Slot: attribute_doi
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [attribute:doi](http://attribute.org/doi)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoPaper](../classes/HsdoPaper.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoPaper](../classes/HsdoPaper.md) | No type description provided |  no  |
 
 
 
@@ -33,7 +33,7 @@ URI: [attribute:doi](http://attribute.org/doi)
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -87,7 +87,7 @@ URI: [attribute:doi](http://attribute.org/doi)
 <details>
 ```yaml
 name: attribute_doi
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

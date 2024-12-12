@@ -1,6 +1,6 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (meegad_sampleID)
+# Slot: No slot description provided (meegad_sampleID)
 
 
 _Sample identifier in the EGAD dataset from the state of Maine._
@@ -23,7 +23,7 @@ URI: [meegad:sampleID](http://sawgraph.spatialai.org/v1/me-egad#sampleID)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ContaminosoMaterialSample](../classes/ContaminosoMaterialSample.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [ContaminosoMaterialSample](../classes/ContaminosoMaterialSample.md) | No type description provided |  no  |
 
 
 
@@ -88,7 +88,7 @@ URI: [meegad:sampleID](http://sawgraph.spatialai.org/v1/me-egad#sampleID)
 ```yaml
 name: meegad_sampleID
 description: Sample identifier in the EGAD dataset from the state of Maine.
-title: TODO -- tell the world what this slot (predicate) describes.
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

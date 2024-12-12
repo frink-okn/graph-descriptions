@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for what this class (type) describes? (sockg_SoilPhysicalSample)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -222,27 +222,27 @@ URI: [sockg:SoilPhysicalSample](http://www.semanticweb.org/sockg/ontologies/2024
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sockg_wiltingPoint_percent_volume](../slots/sockg_wiltingPoint_percent_volume.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_aggregationPercent](../slots/sockg_aggregationPercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_upperDepth_cm](../slots/sockg_upperDepth_cm.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_wiltingPointStd_percent_volume](../slots/sockg_wiltingPointStd_percent_volume.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_lowerDepth_cm](../slots/sockg_lowerDepth_cm.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_clayPercent](../slots/sockg_clayPercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_saturatedHydraulicConductivityStd_cm_per_sec](../slots/sockg_saturatedHydraulicConductivityStd_cm_per_sec.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_macroAggregatesPercentStd](../slots/sockg_macroAggregatesPercentStd.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_sandPercent](../slots/sockg_sandPercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_siltPercent](../slots/sockg_siltPercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_waterStableAggregatesPercentStd](../slots/sockg_waterStableAggregatesPercentStd.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_waterStableAggregatePercent](../slots/sockg_waterStableAggregatePercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_moistureReleaseCurve](../slots/sockg_moistureReleaseCurve.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_saturatedHydraulicConductivity_cm_per_sec](../slots/sockg_saturatedHydraulicConductivity_cm_per_sec.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_nearInfraredCarbonStd_gC_per_kg](../slots/sockg_nearInfraredCarbonStd_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_measSoilPhys_UID](../slots/sockg_measSoilPhys_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_bulkDensity_g_per_cm_cubed](../slots/sockg_bulkDensity_g_per_cm_cubed.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_bulkDensityStd_g_per_cm_cubed](../slots/sockg_bulkDensityStd_g_per_cm_cubed.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_nearInfraredCarbon_gC_per_kg](../slots/sockg_nearInfraredCarbon_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sockg_wiltingPoint_percent_volume](../slots/sockg_wiltingPoint_percent_volume.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_aggregationPercent](../slots/sockg_aggregationPercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_upperDepth_cm](../slots/sockg_upperDepth_cm.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot description provided | direct |
+| [sockg_wiltingPointStd_percent_volume](../slots/sockg_wiltingPointStd_percent_volume.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_lowerDepth_cm](../slots/sockg_lowerDepth_cm.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot description provided | direct |
+| [sockg_clayPercent](../slots/sockg_clayPercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_saturatedHydraulicConductivityStd_cm_per_sec](../slots/sockg_saturatedHydraulicConductivityStd_cm_per_sec.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_macroAggregatesPercentStd](../slots/sockg_macroAggregatesPercentStd.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_sandPercent](../slots/sockg_sandPercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_siltPercent](../slots/sockg_siltPercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_waterStableAggregatesPercentStd](../slots/sockg_waterStableAggregatesPercentStd.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_waterStableAggregatePercent](../slots/sockg_waterStableAggregatePercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_moistureReleaseCurve](../slots/sockg_moistureReleaseCurve.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_saturatedHydraulicConductivity_cm_per_sec](../slots/sockg_saturatedHydraulicConductivity_cm_per_sec.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_nearInfraredCarbonStd_gC_per_kg](../slots/sockg_nearInfraredCarbonStd_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_measSoilPhys_UID](../slots/sockg_measSoilPhys_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_bulkDensity_g_per_cm_cubed](../slots/sockg_bulkDensity_g_per_cm_cubed.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_bulkDensityStd_g_per_cm_cubed](../slots/sockg_bulkDensityStd_g_per_cm_cubed.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_nearInfraredCarbon_gC_per_kg](../slots/sockg_nearInfraredCarbon_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
 
 
 
@@ -310,7 +310,7 @@ URI: [sockg:SoilPhysicalSample](http://www.semanticweb.org/sockg/ontologies/2024
 <details>
 ```yaml
 name: sockg_SoilPhysicalSample
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -321,6 +321,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#311176
 from_schema: soc-kg/main
+rank: 1000
 slots:
 - sockg_wiltingPoint_percent_volume
 - sockg_aggregationPercent
@@ -353,7 +354,7 @@ class_uri: sockg:SoilPhysicalSample
 <details>
 ```yaml
 name: sockg_SoilPhysicalSample
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -364,10 +365,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#311176
 from_schema: soc-kg/main
+rank: 1000
 attributes:
   sockg_wiltingPoint_percent_volume:
     name: sockg_wiltingPoint_percent_volume
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -387,7 +389,7 @@ attributes:
     range: double
   sockg_aggregationPercent:
     name: sockg_aggregationPercent
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -407,7 +409,7 @@ attributes:
     range: double
   sockg_upperDepth_cm:
     name: sockg_upperDepth_cm
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -438,7 +440,7 @@ attributes:
     - range: integer
   sockg_wiltingPointStd_percent_volume:
     name: sockg_wiltingPointStd_percent_volume
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -459,7 +461,7 @@ attributes:
     range: double
   sockg_lowerDepth_cm:
     name: sockg_lowerDepth_cm
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -490,7 +492,7 @@ attributes:
     - range: integer
   sockg_clayPercent:
     name: sockg_clayPercent
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -510,7 +512,7 @@ attributes:
     range: double
   sockg_date:
     name: sockg_date
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -598,7 +600,7 @@ attributes:
     - range: double
   sockg_saturatedHydraulicConductivityStd_cm_per_sec:
     name: sockg_saturatedHydraulicConductivityStd_cm_per_sec
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -619,7 +621,7 @@ attributes:
     range: double
   sockg_macroAggregatesPercentStd:
     name: sockg_macroAggregatesPercentStd
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -639,7 +641,7 @@ attributes:
     range: double
   sockg_sandPercent:
     name: sockg_sandPercent
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -659,7 +661,7 @@ attributes:
     range: double
   sockg_siltPercent:
     name: sockg_siltPercent
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -679,7 +681,7 @@ attributes:
     range: double
   sockg_waterStableAggregatesPercentStd:
     name: sockg_waterStableAggregatesPercentStd
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -700,7 +702,7 @@ attributes:
     range: double
   sockg_treatmentId:
     name: sockg_treatmentId
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -787,7 +789,7 @@ attributes:
     range: string
   sockg_waterStableAggregatePercent:
     name: sockg_waterStableAggregatePercent
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -807,7 +809,7 @@ attributes:
     range: double
   sockg_moistureReleaseCurve:
     name: sockg_moistureReleaseCurve
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -827,7 +829,7 @@ attributes:
     range: double
   sockg_saturatedHydraulicConductivity_cm_per_sec:
     name: sockg_saturatedHydraulicConductivity_cm_per_sec
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -848,7 +850,7 @@ attributes:
     range: double
   sockg_nearInfraredCarbonStd_gC_per_kg:
     name: sockg_nearInfraredCarbonStd_gC_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -869,7 +871,7 @@ attributes:
     range: double
   sockg_measSoilPhys_UID:
     name: sockg_measSoilPhys_UID
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -889,7 +891,7 @@ attributes:
     range: string
   sockg_bulkDensity_g_per_cm_cubed:
     name: sockg_bulkDensity_g_per_cm_cubed
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -909,7 +911,7 @@ attributes:
     range: double
   sockg_bulkDensityStd_g_per_cm_cubed:
     name: sockg_bulkDensityStd_g_per_cm_cubed
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -930,7 +932,7 @@ attributes:
     range: double
   sockg_nearInfraredCarbon_gC_per_kg:
     name: sockg_nearInfraredCarbon_gC_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

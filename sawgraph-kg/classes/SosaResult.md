@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (sosa_Result)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -132,7 +132,7 @@ URI: [sosa:Result](http://www.w3.org/ns/sosa/Result)
 <details>
 ```yaml
 name: sosa_Result
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -141,6 +141,7 @@ todos:
 notes:
 - Class with 143064 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 class_uri: sosa:Result
 
 ```
@@ -151,7 +152,7 @@ class_uri: sosa:Result
 <details>
 ```yaml
 name: sosa_Result
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -160,6 +161,7 @@ todos:
 notes:
 - Class with 143064 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 class_uri: sosa:Result
 
 ```

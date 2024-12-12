@@ -3,7 +3,7 @@
 # Class: die design capability (sudokn_DieDesignCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -95,7 +95,7 @@ URI: [sudokn:DieDesignCapability](http://asu.edu/semantics/SUDOKN/DieDesignCapab
 <details>
 ```yaml
 name: sudokn_DieDesignCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: die design capability
 todos:
 - TODO -- Todos for this class go here
@@ -104,6 +104,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ToolDesignCapability
 class_uri: sudokn:DieDesignCapability
 
@@ -115,7 +116,7 @@ class_uri: sudokn:DieDesignCapability
 <details>
 ```yaml
 name: sudokn_DieDesignCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: die design capability
 todos:
 - TODO -- Todos for this class go here
@@ -124,6 +125,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ToolDesignCapability
 class_uri: sudokn:DieDesignCapability
 

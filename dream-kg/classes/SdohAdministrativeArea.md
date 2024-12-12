@@ -42,7 +42,7 @@ URI: [sdoh:AdministrativeArea](http://schema.org/AdministrativeArea)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_identifier](../slots/sdoh_identifier.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_identifier](../slots/sdoh_identifier.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
 
 
 
@@ -122,6 +122,7 @@ notes:
 examples:
 - value: dreamkg:zip/19013
 from_schema: dream-kg
+rank: 1000
 slots:
 - sdoh_identifier
 class_uri: sdoh:AdministrativeArea
@@ -146,10 +147,11 @@ notes:
 examples:
 - value: dreamkg:zip/19013
 from_schema: dream-kg
+rank: 1000
 attributes:
   sdoh_identifier:
     name: sdoh_identifier
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

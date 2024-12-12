@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (scales_Agent)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -132,17 +132,17 @@ URI: [scales:Agent](http://schemas.scales-okn.org/rdf/scales#Agent)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [scales_hasExtraInfo](../slots/scales_hasExtraInfo.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [scales_hasName](../slots/scales_hasName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [scales_hasAgentType](../slots/scales_hasAgentType.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [scales_hasReferenceInExtraInfo](../slots/scales_hasReferenceInExtraInfo.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [scales_isInFirm](../slots/scales_isInFirm.md) | 0..1 <br/> [ScalesAgent](../classes/ScalesAgent.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [scales_assignedToDefendant](../slots/scales_assignedToDefendant.md) | 0..1 <br/> [ScalesAgent](../classes/ScalesAgent.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [scales_hasCharge](../slots/scales_hasCharge.md) | 0..1 <br/> [ScalesCharge](../classes/ScalesCharge.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [scales_isInstanceOfEntity](../slots/scales_isInstanceOfEntity.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [scales_hasRoleInCase](../slots/scales_hasRoleInCase.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [scales_hasRepresentation](../slots/scales_hasRepresentation.md) | 0..1 <br/> [ScalesAgent](../classes/ScalesAgent.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [scales_hasAddress](../slots/scales_hasAddress.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [scales_hasExtraInfo](../slots/scales_hasExtraInfo.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [scales_hasName](../slots/scales_hasName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [scales_hasAgentType](../slots/scales_hasAgentType.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [scales_hasReferenceInExtraInfo](../slots/scales_hasReferenceInExtraInfo.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [scales_isInFirm](../slots/scales_isInFirm.md) | 0..1 <br/> [ScalesAgent](../classes/ScalesAgent.md) | No slot description provided | direct |
+| [scales_assignedToDefendant](../slots/scales_assignedToDefendant.md) | 0..1 <br/> [ScalesAgent](../classes/ScalesAgent.md) | No slot description provided | direct |
+| [scales_hasCharge](../slots/scales_hasCharge.md) | 0..1 <br/> [ScalesCharge](../classes/ScalesCharge.md) | No slot description provided | direct |
+| [scales_isInstanceOfEntity](../slots/scales_isInstanceOfEntity.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [scales_hasRoleInCase](../slots/scales_hasRoleInCase.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [scales_hasRepresentation](../slots/scales_hasRepresentation.md) | 0..1 <br/> [ScalesAgent](../classes/ScalesAgent.md) | No slot description provided | direct |
+| [scales_hasAddress](../slots/scales_hasAddress.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -207,7 +207,7 @@ URI: [scales:Agent](http://schemas.scales-okn.org/rdf/scales#Agent)
 <details>
 ```yaml
 name: scales_Agent
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -216,6 +216,7 @@ todos:
 notes:
 - Class with 11020149 occurences.
 from_schema: scales-kg
+rank: 1000
 slots:
 - scales_hasExtraInfo
 - scales_hasName
@@ -238,7 +239,7 @@ class_uri: scales:Agent
 <details>
 ```yaml
 name: scales_Agent
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -247,10 +248,11 @@ todos:
 notes:
 - Class with 11020149 occurences.
 from_schema: scales-kg
+rank: 1000
 attributes:
   scales_hasExtraInfo:
     name: scales_hasExtraInfo
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -272,7 +274,7 @@ attributes:
     range: string
   scales_hasName:
     name: scales_hasName
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -296,7 +298,7 @@ attributes:
     range: string
   scales_hasAgentType:
     name: scales_hasAgentType
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -315,7 +317,7 @@ attributes:
     range: string
   scales_hasReferenceInExtraInfo:
     name: scales_hasReferenceInExtraInfo
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -334,7 +336,7 @@ attributes:
     range: uri
   scales_isInFirm:
     name: scales_isInFirm
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -353,7 +355,7 @@ attributes:
     range: scales_Agent
   scales_assignedToDefendant:
     name: scales_assignedToDefendant
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -372,7 +374,7 @@ attributes:
     range: scales_Agent
   scales_hasCharge:
     name: scales_hasCharge
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -394,7 +396,7 @@ attributes:
     range: scales_Charge
   scales_isInstanceOfEntity:
     name: scales_isInstanceOfEntity
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -413,7 +415,7 @@ attributes:
     range: uri
   scales_hasRoleInCase:
     name: scales_hasRoleInCase
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -432,7 +434,7 @@ attributes:
     range: string
   scales_hasRepresentation:
     name: scales_hasRepresentation
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -451,7 +453,7 @@ attributes:
     range: scales_Agent
   scales_hasAddress:
     name: scales_hasAddress
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

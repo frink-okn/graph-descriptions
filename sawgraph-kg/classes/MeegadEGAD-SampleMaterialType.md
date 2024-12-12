@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (meegad_EGAD-SampleMaterialType)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -49,7 +49,7 @@ URI: [meegad:EGAD-SampleMaterialType](http://sawgraph.spatialai.org/v1/me-egad#E
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | [ContaminosoMaterialType](../classes/ContaminosoMaterialType.md) |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | [ContaminosoMaterialType](../classes/ContaminosoMaterialType.md) |
 
 
 
@@ -103,7 +103,7 @@ URI: [meegad:EGAD-SampleMaterialType](http://sawgraph.spatialai.org/v1/me-egad#E
 <details>
 ```yaml
 name: meegad_EGAD-SampleMaterialType
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -112,6 +112,7 @@ todos:
 notes:
 - Class with 97 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: contaminoso_MaterialType
 class_uri: meegad:EGAD-SampleMaterialType
 
@@ -123,7 +124,7 @@ class_uri: meegad:EGAD-SampleMaterialType
 <details>
 ```yaml
 name: meegad_EGAD-SampleMaterialType
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -132,12 +133,13 @@ todos:
 notes:
 - Class with 97 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: contaminoso_MaterialType
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

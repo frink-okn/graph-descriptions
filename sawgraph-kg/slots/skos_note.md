@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (skos_note)
+# Slot: No slot description provided (skos_note)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -71,8 +71,8 @@ URI: [skos:note](http://www.w3.org/2004/02/skos/core#note)
 <details>
 ```yaml
 name: skos_note
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

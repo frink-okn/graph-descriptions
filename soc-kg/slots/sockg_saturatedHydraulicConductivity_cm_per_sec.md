@@ -3,7 +3,7 @@
 # Slot: sockg_saturatedHydraulicConductivity_cm_per_sec
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:saturatedHydraulicConductivity_cm_per_sec](http://www.semanticweb.or
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSoilPhysicalSample](../classes/SockgSoilPhysicalSample.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgSoilPhysicalSample](../classes/SockgSoilPhysicalSample.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sockg:saturatedHydraulicConductivity_cm_per_sec](http://www.semanticweb.or
 <details>
 ```yaml
 name: sockg_saturatedHydraulicConductivity_cm_per_sec
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

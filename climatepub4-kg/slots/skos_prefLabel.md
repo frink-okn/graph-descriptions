@@ -3,7 +3,7 @@
 # Slot: skos_prefLabel
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,35 +23,35 @@ URI: [skos:prefLabel](http://www.w3.org/2004/02/skos/core#prefLabel)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoModels](../classes/HsdoModels.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoProject](../classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  no  |
-| [HsdoVariable](../classes/HsdoVariable.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoHorizontalResolutionRange](../classes/HsdoHorizontalResolutionRange.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoTemporalResolutionRange](../classes/HsdoTemporalResolutionRange.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoScienceKeyword](../classes/HsdoScienceKeyword.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoExperiment](../classes/HsdoExperiment.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoSourceType](../classes/HsdoSourceType.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoModel](../classes/HsdoModel.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoFrequency](../classes/HsdoFrequency.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SkosConcept](../classes/SkosConcept.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoPlatform](../classes/HsdoPlatform.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoLocation](../classes/HsdoLocation.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoSubExperimentId](../classes/HsdoSubExperimentId.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoDataFormat](../classes/HsdoDataFormat.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoProvider](../classes/HsdoProvider.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoRelatedUrlContentType](../classes/HsdoRelatedUrlContentType.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoRealm](../classes/HsdoRealm.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoMimeType](../classes/HsdoMimeType.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoNominalResolution](../classes/HsdoNominalResolution.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoActivity](../classes/HsdoActivity.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoVerticalResolutionRange](../classes/HsdoVerticalResolutionRange.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoInstrument](../classes/HsdoInstrument.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoChronostratigraphicUnit](../classes/HsdoChronostratigraphicUnit.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoInstitution](../classes/HsdoInstitution.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoInstrument](../classes/HsdoInstrument.md) | No type description provided |  no  |
 | [HsdoDataset](../classes/HsdoDataset.md) | A body of structured information describing some topic(s) of interest |  no  |
-| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoLicense](../classes/HsdoLicense.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoMeasurementName](../classes/HsdoMeasurementName.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoMimeType](../classes/HsdoMimeType.md) | No type description provided |  no  |
+| [HsdoSourceType](../classes/HsdoSourceType.md) | No type description provided |  no  |
+| [HsdoProject](../classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  no  |
+| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | No type description provided |  no  |
+| [HsdoProvider](../classes/HsdoProvider.md) | No type description provided |  no  |
+| [HsdoRelatedUrlContentType](../classes/HsdoRelatedUrlContentType.md) | No type description provided |  no  |
+| [HsdoSubExperimentId](../classes/HsdoSubExperimentId.md) | No type description provided |  no  |
+| [HsdoVerticalResolutionRange](../classes/HsdoVerticalResolutionRange.md) | No type description provided |  no  |
+| [HsdoChronostratigraphicUnit](../classes/HsdoChronostratigraphicUnit.md) | No type description provided |  no  |
+| [HsdoModel](../classes/HsdoModel.md) | No type description provided |  no  |
+| [HsdoActivity](../classes/HsdoActivity.md) | No type description provided |  no  |
+| [HsdoHorizontalResolutionRange](../classes/HsdoHorizontalResolutionRange.md) | No type description provided |  no  |
+| [HsdoLocation](../classes/HsdoLocation.md) | No type description provided |  no  |
+| [HsdoDataFormat](../classes/HsdoDataFormat.md) | No type description provided |  no  |
+| [HsdoRealm](../classes/HsdoRealm.md) | No type description provided |  no  |
+| [HsdoInstitution](../classes/HsdoInstitution.md) | No type description provided |  no  |
+| [SkosConcept](../classes/SkosConcept.md) | No type description provided |  no  |
+| [HsdoPlatform](../classes/HsdoPlatform.md) | No type description provided |  no  |
+| [HsdoVariable](../classes/HsdoVariable.md) | No type description provided |  no  |
+| [HsdoModels](../classes/HsdoModels.md) | No type description provided |  no  |
+| [HsdoNominalResolution](../classes/HsdoNominalResolution.md) | No type description provided |  no  |
+| [HsdoLicense](../classes/HsdoLicense.md) | No type description provided |  no  |
+| [HsdoScienceKeyword](../classes/HsdoScienceKeyword.md) | No type description provided |  no  |
+| [HsdoMeasurementName](../classes/HsdoMeasurementName.md) | No type description provided |  no  |
+| [HsdoTemporalResolutionRange](../classes/HsdoTemporalResolutionRange.md) | No type description provided |  no  |
+| [HsdoFrequency](../classes/HsdoFrequency.md) | No type description provided |  no  |
+| [HsdoExperiment](../classes/HsdoExperiment.md) | No type description provided |  no  |
 
 
 
@@ -61,7 +61,7 @@ URI: [skos:prefLabel](http://www.w3.org/2004/02/skos/core#prefLabel)
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -171,7 +171,7 @@ URI: [skos:prefLabel](http://www.w3.org/2004/02/skos/core#prefLabel)
 <details>
 ```yaml
 name: skos_prefLabel
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

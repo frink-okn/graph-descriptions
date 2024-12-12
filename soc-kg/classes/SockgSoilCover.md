@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for what this class (type) describes? (sockg_SoilCover)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -60,9 +60,9 @@ URI: [sockg:SoilCover](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sockg_soilWithResidueCoverPercent](../slots/sockg_soilWithResidueCoverPercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_measSoilCover_UID](../slots/sockg_measSoilCover_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sockg_soilWithResidueCoverPercent](../slots/sockg_soilWithResidueCoverPercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_measSoilCover_UID](../slots/sockg_measSoilCover_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
 
 
 
@@ -123,7 +123,7 @@ URI: [sockg:SoilCover](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 <details>
 ```yaml
 name: sockg_SoilCover
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -134,6 +134,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#303209
 from_schema: soc-kg/main
+rank: 1000
 slots:
 - sockg_soilWithResidueCoverPercent
 - sockg_measSoilCover_UID
@@ -148,7 +149,7 @@ class_uri: sockg:SoilCover
 <details>
 ```yaml
 name: sockg_SoilCover
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -159,10 +160,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#303209
 from_schema: soc-kg/main
+rank: 1000
 attributes:
   sockg_soilWithResidueCoverPercent:
     name: sockg_soilWithResidueCoverPercent
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -181,7 +183,7 @@ attributes:
     range: double
   sockg_measSoilCover_UID:
     name: sockg_measSoilCover_UID
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -200,7 +202,7 @@ attributes:
     range: string
   sockg_date:
     name: sockg_date
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

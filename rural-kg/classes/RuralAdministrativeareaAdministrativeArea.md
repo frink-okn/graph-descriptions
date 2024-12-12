@@ -91,6 +91,7 @@ name: rural_administrativearea_AdministrativeArea
 title: TODO -- this class is noted as a superclass of another class in this graph
   but has not itself been defined.
 from_schema: rural-kg
+rank: 1000
 class_uri: rural:administrativearea/AdministrativeArea
 
 ```
@@ -104,6 +105,7 @@ name: rural_administrativearea_AdministrativeArea
 title: TODO -- this class is noted as a superclass of another class in this graph
   but has not itself been defined.
 from_schema: rural-kg
+rank: 1000
 class_uri: rural:administrativearea/AdministrativeArea
 
 ```

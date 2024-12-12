@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (schema_url)
+# Slot: No slot description provided (schema_url)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -71,8 +71,8 @@ URI: [schema:url](https://schema.org/url)
 <details>
 ```yaml
 name: schema_url
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

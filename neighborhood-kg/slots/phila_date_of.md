@@ -3,7 +3,7 @@
 # Slot: phila_date_of
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [phila:date_of](https://metadata.phila.gov/date_of)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [PhilaIncident](../classes/PhilaIncident.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [PhilaIncident](../classes/PhilaIncident.md) | No type description provided |  no  |
 
 
 
@@ -33,7 +33,7 @@ URI: [phila:date_of](https://metadata.phila.gov/date_of)
 
 ## Properties
 
-* Range: [xsd:date](http://www.w3.org/2001/XMLSchema#date)
+* Range: [xsd:date](xsd:date)
 
 
 
@@ -87,7 +87,7 @@ URI: [phila:date_of](https://metadata.phila.gov/date_of)
 <details>
 ```yaml
 name: phila_date_of
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

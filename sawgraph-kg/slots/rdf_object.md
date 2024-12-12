@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (rdf_object)
+# Slot: No slot description provided (rdf_object)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -71,8 +71,8 @@ URI: [rdf:object](http://www.w3.org/1999/02/22-rdf-syntax-ns#object)
 <details>
 ```yaml
 name: rdf_object
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

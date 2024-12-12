@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (rdfs_label)
+# Slot: No slot description provided (rdfs_label)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,35 +23,35 @@ URI: [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [IlisgsWellPurpose](../classes/IlisgsWellPurpose.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoObservationAnnotation](../classes/ContaminosoObservationAnnotation.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MeegadEGAD-AnalysisMethod](../classes/MeegadEGAD-AnalysisMethod.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoMaterialType](../classes/ContaminosoMaterialType.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MeegadEGAD-SiteType](../classes/MeegadEGAD-SiteType.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoPoint](../classes/ContaminosoPoint.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoResultQualifier](../classes/ContaminosoResultQualifier.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoMaterialSample](../classes/ContaminosoMaterialSample.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MeegadEGAD-SampleCollectionMethod](../classes/MeegadEGAD-SampleCollectionMethod.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoSampleAnnotation](../classes/ContaminosoSampleAnnotation.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MeegadEGAD-SamplePointType](../classes/MeegadEGAD-SamplePointType.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoFeature](../classes/ContaminosoFeature.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MeegadEGAD-SampleMaterialType](../classes/MeegadEGAD-SampleMaterialType.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [PfasQuantitationLimit](../classes/PfasQuantitationLimit.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoContaminantObservation](../classes/ContaminosoContaminantObservation.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoContaminantMeasurement](../classes/ContaminosoContaminantMeasurement.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MeegadEGAD-LabQualifier](../classes/MeegadEGAD-LabQualifier.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [PfasMethodDetectionLimit](../classes/PfasMethodDetectionLimit.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoAggregateContaminantMeasurement](../classes/ContaminosoAggregateContaminantMeasurement.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoSubstance](../classes/ContaminosoSubstance.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MeegadEGAD-ResultType](../classes/MeegadEGAD-ResultType.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ProvOrganization](../classes/ProvOrganization.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MeegadEGAD-Site](../classes/MeegadEGAD-Site.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MeegadEGAD-SampleDetailedLocation](../classes/MeegadEGAD-SampleDetailedLocation.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MeegadEGAD-ValidationLevel](../classes/MeegadEGAD-ValidationLevel.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MeegadEGAD-SampleTreatmentStatus](../classes/MeegadEGAD-SampleTreatmentStatus.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [PfasReportingLimit](../classes/PfasReportingLimit.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HttpQudt.orgVocabUnitUnit](../classes/HttpQudt.orgVocabUnitUnit.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MeegadEGAD-ValidationQualifier](../classes/MeegadEGAD-ValidationQualifier.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [ContaminosoAggregateContaminantMeasurement](../classes/ContaminosoAggregateContaminantMeasurement.md) | No type description provided |  no  |
+| [MeegadEGAD-AnalysisMethod](../classes/MeegadEGAD-AnalysisMethod.md) | No type description provided |  no  |
+| [MeegadEGAD-SampleMaterialType](../classes/MeegadEGAD-SampleMaterialType.md) | No type description provided |  no  |
+| [MeegadEGAD-SiteType](../classes/MeegadEGAD-SiteType.md) | No type description provided |  no  |
+| [ContaminosoMaterialSample](../classes/ContaminosoMaterialSample.md) | No type description provided |  no  |
+| [ContaminosoPoint](../classes/ContaminosoPoint.md) | No type description provided |  no  |
+| [ContaminosoObservationAnnotation](../classes/ContaminosoObservationAnnotation.md) | No type description provided |  no  |
+| [ContaminosoContaminantObservation](../classes/ContaminosoContaminantObservation.md) | No type description provided |  no  |
+| [MeegadEGAD-ValidationQualifier](../classes/MeegadEGAD-ValidationQualifier.md) | No type description provided |  no  |
+| [MeegadEGAD-SampleTreatmentStatus](../classes/MeegadEGAD-SampleTreatmentStatus.md) | No type description provided |  no  |
+| [PfasMethodDetectionLimit](../classes/PfasMethodDetectionLimit.md) | No type description provided |  no  |
+| [ContaminosoFeature](../classes/ContaminosoFeature.md) | No type description provided |  no  |
+| [ContaminosoResultQualifier](../classes/ContaminosoResultQualifier.md) | No type description provided |  no  |
+| [MeegadEGAD-SampleDetailedLocation](../classes/MeegadEGAD-SampleDetailedLocation.md) | No type description provided |  no  |
+| [ContaminosoContaminantMeasurement](../classes/ContaminosoContaminantMeasurement.md) | No type description provided |  no  |
+| [MeegadEGAD-SamplePointType](../classes/MeegadEGAD-SamplePointType.md) | No type description provided |  no  |
+| [MeegadEGAD-LabQualifier](../classes/MeegadEGAD-LabQualifier.md) | No type description provided |  no  |
+| [PfasQuantitationLimit](../classes/PfasQuantitationLimit.md) | No type description provided |  no  |
+| [ContaminosoSubstance](../classes/ContaminosoSubstance.md) | No type description provided |  no  |
+| [MeegadEGAD-SampleCollectionMethod](../classes/MeegadEGAD-SampleCollectionMethod.md) | No type description provided |  no  |
+| [MeegadEGAD-ValidationLevel](../classes/MeegadEGAD-ValidationLevel.md) | No type description provided |  no  |
+| [IlisgsWellPurpose](../classes/IlisgsWellPurpose.md) | No type description provided |  no  |
+| [ProvOrganization](../classes/ProvOrganization.md) | No type description provided |  no  |
+| [ContaminosoSampleAnnotation](../classes/ContaminosoSampleAnnotation.md) | No type description provided |  no  |
+| [HttpQudt.orgVocabUnitUnit](../classes/HttpQudt.orgVocabUnitUnit.md) | No type description provided |  no  |
+| [MeegadEGAD-Site](../classes/MeegadEGAD-Site.md) | No type description provided |  no  |
+| [MeegadEGAD-ResultType](../classes/MeegadEGAD-ResultType.md) | No type description provided |  no  |
+| [PfasReportingLimit](../classes/PfasReportingLimit.md) | No type description provided |  no  |
+| [ContaminosoMaterialType](../classes/ContaminosoMaterialType.md) | No type description provided |  no  |
 
 
 
@@ -149,8 +149,8 @@ URI: [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label)
 <details>
 ```yaml
 name: rdfs_label
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

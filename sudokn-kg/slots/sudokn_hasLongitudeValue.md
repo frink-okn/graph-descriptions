@@ -3,7 +3,7 @@
 # Slot: has logitude value (sudokn_hasLongitudeValue)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sudokn:hasLongitudeValue](http://asu.edu/semantics/SUDOKN/hasLongitudeValu
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknTwoDimensionalCartesianSpatialCoordinateDatum](../classes/SudoknTwoDimensionalCartesianSpatialCoordinateDatum.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SudoknTwoDimensionalCartesianSpatialCoordinateDatum](../classes/SudoknTwoDimensionalCartesianSpatialCoordinateDatum.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sudokn:hasLongitudeValue](http://asu.edu/semantics/SUDOKN/hasLongitudeValu
 <details>
 ```yaml
 name: sudokn_hasLongitudeValue
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 title: has logitude value
 todos:
 - TODO -- Todos for this slot go here

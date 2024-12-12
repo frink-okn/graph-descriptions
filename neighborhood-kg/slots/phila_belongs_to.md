@@ -3,7 +3,7 @@
 # Slot: phila_belongs_to
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [phila:belongs_to](https://metadata.phila.gov/belongs_to)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [PhilaBlockGroup](../classes/PhilaBlockGroup.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [PhilaBlockGroup](../classes/PhilaBlockGroup.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [phila:belongs_to](https://metadata.phila.gov/belongs_to)
 <details>
 ```yaml
 name: phila_belongs_to
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

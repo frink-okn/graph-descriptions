@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for what this class (type) describes? (sockg_Book)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -42,7 +42,7 @@ URI: [sockg:Book](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sockg_bookName](../slots/sockg_bookName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sockg_bookName](../slots/sockg_bookName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -103,7 +103,7 @@ URI: [sockg:Book](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 <details>
 ```yaml
 name: sockg_Book
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -114,6 +114,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#46685
 from_schema: soc-kg/main
+rank: 1000
 slots:
 - sockg_bookName
 class_uri: sockg:Book
@@ -126,7 +127,7 @@ class_uri: sockg:Book
 <details>
 ```yaml
 name: sockg_Book
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -137,10 +138,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#46685
 from_schema: soc-kg/main
+rank: 1000
 attributes:
   sockg_bookName:
     name: sockg_bookName
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

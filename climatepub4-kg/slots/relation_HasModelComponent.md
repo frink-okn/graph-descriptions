@@ -3,7 +3,7 @@
 # Slot: relation_HasModelComponent
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [relation:HasModelComponent](http://relation.org/HasModelComponent)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | No type description provided |  no  |
 
 
 
@@ -93,7 +93,7 @@ URI: [relation:HasModelComponent](http://relation.org/HasModelComponent)
 <details>
 ```yaml
 name: relation_HasModelComponent
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

@@ -3,7 +3,7 @@
 # Class: TODO -- this class is noted as a superclass of another class in this graph but has not itself been defined. (sudokn_DiffusionHardeningCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -62,7 +62,7 @@ URI: [sudokn:DiffusionHardeningCapability](http://asu.edu/semantics/SUDOKN/Diffu
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | [SudoknHeatTreatingCapability](../classes/SudoknHeatTreatingCapability.md), [SudoknHardeningCapability](../classes/SudoknHardeningCapability.md) |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | [SudoknHardeningCapability](../classes/SudoknHardeningCapability.md), [SudoknHeatTreatingCapability](../classes/SudoknHeatTreatingCapability.md) |
 
 
 
@@ -116,7 +116,7 @@ URI: [sudokn:DiffusionHardeningCapability](http://asu.edu/semantics/SUDOKN/Diffu
 <details>
 ```yaml
 name: sudokn_DiffusionHardeningCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- this class is noted as a superclass of another class in this graph
   but has not itself been defined.
 todos:
@@ -126,6 +126,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_SurfaceHardeningCapability
 class_uri: sudokn:DiffusionHardeningCapability
 
@@ -137,7 +138,7 @@ class_uri: sudokn:DiffusionHardeningCapability
 <details>
 ```yaml
 name: sudokn_DiffusionHardeningCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- this class is noted as a superclass of another class in this graph
   but has not itself been defined.
 todos:
@@ -147,11 +148,12 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_SurfaceHardeningCapability
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

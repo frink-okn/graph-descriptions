@@ -3,7 +3,7 @@
 # Slot: sdoh_serviceLocation
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -87,7 +87,7 @@ URI: [sdoh:serviceLocation](http://schema.org/serviceLocation)
 <details>
 ```yaml
 name: sdoh_serviceLocation
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

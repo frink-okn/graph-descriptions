@@ -3,7 +3,7 @@
 # Slot: has certificate (sudokn_hasCertificate)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,8 +23,8 @@ URI: [sudokn:hasCertificate](http://asu.edu/semantics/SUDOKN/hasCertificate)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [IoManufacturer](../classes/IoManufacturer.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No type description provided |  no  |
+| [IoManufacturer](../classes/IoManufacturer.md) | No type description provided |  no  |
 
 
 
@@ -154,7 +154,7 @@ URI: [sudokn:hasCertificate](http://asu.edu/semantics/SUDOKN/hasCertificate)
 <details>
 ```yaml
 name: sudokn_hasCertificate
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 title: has certificate
 todos:
 - TODO -- Todos for this slot go here

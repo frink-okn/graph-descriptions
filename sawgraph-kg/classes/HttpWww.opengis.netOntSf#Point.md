@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (http___www.opengis.net_ont_sf#Point)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -93,7 +93,7 @@ URI: [http://www.opengis.net/ont/sf#Point](http://www.opengis.net/ont/sf#Point)
 <details>
 ```yaml
 name: http___www.opengis.net_ont_sf#Point
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -104,6 +104,7 @@ notes:
 examples:
 - value: http://sawgraph.spatialai.org/v1/me-egad-data#samplePoint.geometry.100410
 from_schema: sawgraph-kg
+rank: 1000
 class_uri: http://www.opengis.net/ont/sf#Point
 
 ```
@@ -114,7 +115,7 @@ class_uri: http://www.opengis.net/ont/sf#Point
 <details>
 ```yaml
 name: http___www.opengis.net_ont_sf#Point
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -125,6 +126,7 @@ notes:
 examples:
 - value: http://sawgraph.spatialai.org/v1/me-egad-data#samplePoint.geometry.100410
 from_schema: sawgraph-kg
+rank: 1000
 class_uri: http://www.opengis.net/ont/sf#Point
 
 ```

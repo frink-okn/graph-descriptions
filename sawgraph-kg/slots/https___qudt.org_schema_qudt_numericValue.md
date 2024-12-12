@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (https___qudt.org_schema_qudt_numericValue)
+# Slot: No slot description provided (https___qudt.org_schema_qudt_numericValue)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,15 +23,15 @@ URI: [https://qudt.org/schema/qudt/numericValue](https://qudt.org/schema/qudt/nu
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpSawgraph.spatialai.orgV1Stad#StatisticalAggregateData](../classes/HttpSawgraph.spatialai.orgV1Stad#StatisticalAggregateData.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HttpSawgraph.spatialai.orgV1Us-epa-ghg#Amount](../classes/HttpSawgraph.spatialai.orgV1Us-epa-ghg#Amount.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HttpSawgraph.spatialai.orgV1Stad#Quantity](../classes/HttpSawgraph.spatialai.orgV1Stad#Quantity.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [IlisgsWellYield](../classes/IlisgsWellYield.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [IlisgsWellDepthInFt](../classes/IlisgsWellDepthInFt.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MemgsWellOverburdenThicknessInFt](../classes/MemgsWellOverburdenThicknessInFt.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [UssdwisAmount](../classes/UssdwisAmount.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MemgsWellDepthInFt](../classes/MemgsWellDepthInFt.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HttpSawgraph.spatialai.orgV1Stad#SingleData](../classes/HttpSawgraph.spatialai.orgV1Stad#SingleData.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HttpSawgraph.spatialai.orgV1Us-epa-ghg#Amount](../classes/HttpSawgraph.spatialai.orgV1Us-epa-ghg#Amount.md) | No type description provided |  no  |
+| [HttpSawgraph.spatialai.orgV1Stad#StatisticalAggregateData](../classes/HttpSawgraph.spatialai.orgV1Stad#StatisticalAggregateData.md) | No type description provided |  no  |
+| [MemgsWellDepthInFt](../classes/MemgsWellDepthInFt.md) | No type description provided |  no  |
+| [HttpSawgraph.spatialai.orgV1Stad#SingleData](../classes/HttpSawgraph.spatialai.orgV1Stad#SingleData.md) | No type description provided |  no  |
+| [UssdwisAmount](../classes/UssdwisAmount.md) | No type description provided |  no  |
+| [IlisgsWellYield](../classes/IlisgsWellYield.md) | No type description provided |  no  |
+| [HttpSawgraph.spatialai.orgV1Stad#Quantity](../classes/HttpSawgraph.spatialai.orgV1Stad#Quantity.md) | No type description provided |  no  |
+| [IlisgsWellDepthInFt](../classes/IlisgsWellDepthInFt.md) | No type description provided |  no  |
+| [MemgsWellOverburdenThicknessInFt](../classes/MemgsWellOverburdenThicknessInFt.md) | No type description provided |  no  |
 
 
 
@@ -101,8 +101,8 @@ URI: [https://qudt.org/schema/qudt/numericValue](https://qudt.org/schema/qudt/nu
 <details>
 ```yaml
 name: https___qudt.org_schema_qudt_numericValue
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

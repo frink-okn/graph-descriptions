@@ -3,7 +3,7 @@
 # Slot: sockg_ammoniaNitrogenStd_kg_ha
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:ammoniaNitrogenStd_kg_ha](http://www.semanticweb.org/sockg/ontologie
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sockg:ammoniaNitrogenStd_kg_ha](http://www.semanticweb.org/sockg/ontologie
 <details>
 ```yaml
 name: sockg_ammoniaNitrogenStd_kg_ha
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

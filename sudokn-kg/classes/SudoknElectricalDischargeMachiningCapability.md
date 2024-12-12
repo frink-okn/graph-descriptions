@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (sudokn_ElectricalDischargeMachiningCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -42,7 +42,7 @@ URI: [sudokn:ElectricalDischargeMachiningCapability](http://asu.edu/semantics/SU
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -111,7 +111,7 @@ URI: [sudokn:ElectricalDischargeMachiningCapability](http://asu.edu/semantics/SU
 <details>
 ```yaml
 name: sudokn_ElectricalDischargeMachiningCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -122,6 +122,7 @@ notes:
 examples:
 - value: sudokn:3DIMENSIONAL-ElectricalDischargeMachiningCapability-inst
 from_schema: sudokn-kg
+rank: 1000
 slots:
 - rdfs_label
 class_uri: sudokn:ElectricalDischargeMachiningCapability
@@ -134,7 +135,7 @@ class_uri: sudokn:ElectricalDischargeMachiningCapability
 <details>
 ```yaml
 name: sudokn_ElectricalDischargeMachiningCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -145,10 +146,11 @@ notes:
 examples:
 - value: sudokn:3DIMENSIONAL-ElectricalDischargeMachiningCapability-inst
 from_schema: sudokn-kg
+rank: 1000
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

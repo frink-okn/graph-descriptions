@@ -3,7 +3,7 @@
 # Slot: sockg_fracSulfurStd_kgS_ha
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:fracSulfurStd_kgS_ha](http://www.semanticweb.org/sockg/ontologies/20
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sockg:fracSulfurStd_kgS_ha](http://www.semanticweb.org/sockg/ontologies/20
 <details>
 ```yaml
 name: sockg_fracSulfurStd_kgS_ha
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

@@ -3,7 +3,7 @@
 # Slot: has management capability (sudokn_hasManagementCapability)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sudokn:hasManagementCapability](http://asu.edu/semantics/SUDOKN/hasManagem
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sudokn:hasManagementCapability](http://asu.edu/semantics/SUDOKN/hasManagem
 <details>
 ```yaml
 name: sudokn_hasManagementCapability
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 title: has management capability
 todos:
 - TODO -- Todos for this slot go here

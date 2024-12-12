@@ -3,7 +3,7 @@
 # Slot: neo4j_RESPONDS_TO_OrC
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [neo4j:RESPONDS_TO_OrC](neo4j://graph.schema#RESPONDS_TO_OrC)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Neo4jOrganism](../classes/Neo4jOrganism.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [Neo4jOrganism](../classes/Neo4jOrganism.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [neo4j:RESPONDS_TO_OrC](neo4j://graph.schema#RESPONDS_TO_OrC)
 <details>
 ```yaml
 name: neo4j_RESPONDS_TO_OrC
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

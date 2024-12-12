@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (usfrs_hasGHGId)
+# Slot: No slot description provided (usfrs_hasGHGId)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [usfrs:hasGHGId](http://sawgraph.spatialai.org/v1/us-frs#hasGHGId)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ContaminosoFeature](../classes/ContaminosoFeature.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [ContaminosoFeature](../classes/ContaminosoFeature.md) | No type description provided |  no  |
 
 
 
@@ -87,8 +87,8 @@ URI: [usfrs:hasGHGId](http://sawgraph.spatialai.org/v1/us-frs#hasGHGId)
 <details>
 ```yaml
 name: usfrs_hasGHGId
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

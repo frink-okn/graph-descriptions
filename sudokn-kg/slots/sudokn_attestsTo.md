@@ -3,7 +3,7 @@
 # Slot: attests to (sudokn_attestsTo)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,8 +23,8 @@ URI: [sudokn:attestsTo](http://asu.edu/semantics/SUDOKN/attestsTo)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknISO9000Certificate](../classes/SudoknISO9000Certificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAS9100Certificate](../classes/SudoknAS9100Certificate.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SudoknAS9100Certificate](../classes/SudoknAS9100Certificate.md) | No type description provided |  no  |
+| [SudoknISO9000Certificate](../classes/SudoknISO9000Certificate.md) | No type description provided |  no  |
 
 
 
@@ -90,7 +90,7 @@ URI: [sudokn:attestsTo](http://asu.edu/semantics/SUDOKN/attestsTo)
 <details>
 ```yaml
 name: sudokn_attestsTo
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 title: attests to
 todos:
 - TODO -- Todos for this slot go here

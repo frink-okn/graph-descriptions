@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (phila_Location)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -86,7 +86,7 @@ URI: [phila:Location](https://metadata.phila.gov/Location)
 <details>
 ```yaml
 name: phila_Location
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -95,6 +95,7 @@ todos:
 notes:
 - Class with 9131 occurences.
 from_schema: neighborhood-kg
+rank: 1000
 class_uri: phila:Location
 
 ```
@@ -105,7 +106,7 @@ class_uri: phila:Location
 <details>
 ```yaml
 name: phila_Location
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -114,6 +115,7 @@ todos:
 notes:
 - Class with 9131 occurences.
 from_schema: neighborhood-kg
+rank: 1000
 class_uri: phila:Location
 
 ```

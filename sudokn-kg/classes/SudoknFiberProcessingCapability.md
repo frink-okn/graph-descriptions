@@ -3,7 +3,7 @@
 # Class: fiber processing capability (sudokn_FiberProcessingCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -103,7 +103,7 @@ URI: [sudokn:FiberProcessingCapability](http://asu.edu/semantics/SUDOKN/FiberPro
 <details>
 ```yaml
 name: sudokn_FiberProcessingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: fiber processing capability
 todos:
 - TODO -- Todos for this class go here
@@ -112,6 +112,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_MaterialProcessingCapability
 class_uri: sudokn:FiberProcessingCapability
 
@@ -123,7 +124,7 @@ class_uri: sudokn:FiberProcessingCapability
 <details>
 ```yaml
 name: sudokn_FiberProcessingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: fiber processing capability
 todos:
 - TODO -- Todos for this class go here
@@ -132,6 +133,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_MaterialProcessingCapability
 class_uri: sudokn:FiberProcessingCapability
 

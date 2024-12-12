@@ -69,10 +69,10 @@ URI: [sdoh:ServiceChannel](http://schema.org/ServiceChannel)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_disambiguatingDescription](../slots/sdoh_disambiguatingDescription.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_serviceUrl](../slots/sdoh_serviceUrl.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_servicePhone](../slots/sdoh_servicePhone.md) | 0..1 <br/> [SdohContactPoint](../classes/SdohContactPoint.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_serviceLocation](../slots/sdoh_serviceLocation.md) | 0..1 <br/> [SdohPlace](../classes/SdohPlace.md) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_disambiguatingDescription](../slots/sdoh_disambiguatingDescription.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [sdoh_serviceUrl](../slots/sdoh_serviceUrl.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI) | No slot description provided | direct |
+| [sdoh_servicePhone](../slots/sdoh_servicePhone.md) | 0..1 <br/> [SdohContactPoint](../classes/SdohContactPoint.md) | No slot description provided | direct |
+| [sdoh_serviceLocation](../slots/sdoh_serviceLocation.md) | 0..1 <br/> [SdohPlace](../classes/SdohPlace.md) | No slot description provided | direct |
 
 
 
@@ -152,6 +152,7 @@ notes:
 examples:
 - value: dreamkg:service/channel/AB-5925873791401984
 from_schema: dream-kg
+rank: 1000
 slots:
 - sdoh_disambiguatingDescription
 - sdoh_serviceUrl
@@ -179,10 +180,11 @@ notes:
 examples:
 - value: dreamkg:service/channel/AB-5925873791401984
 from_schema: dream-kg
+rank: 1000
 attributes:
   sdoh_disambiguatingDescription:
     name: sdoh_disambiguatingDescription
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -202,7 +204,7 @@ attributes:
     range: string
   sdoh_serviceUrl:
     name: sdoh_serviceUrl
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -221,7 +223,7 @@ attributes:
     range: uri
   sdoh_servicePhone:
     name: sdoh_servicePhone
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -240,7 +242,7 @@ attributes:
     range: sdoh_ContactPoint
   sdoh_serviceLocation:
     name: sdoh_serviceLocation
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (ussdwis_hasPWSID)
+# Slot: No slot description provided (ussdwis_hasPWSID)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [ussdwis:hasPWSID](http://sawgraph.spatialai.org/v1/us-sdwis#hasPWSID)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ContaminosoFeature](../classes/ContaminosoFeature.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [ContaminosoFeature](../classes/ContaminosoFeature.md) | No type description provided |  no  |
 
 
 
@@ -87,8 +87,8 @@ URI: [ussdwis:hasPWSID](http://sawgraph.spatialai.org/v1/us-sdwis#hasPWSID)
 <details>
 ```yaml
 name: ussdwis_hasPWSID
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

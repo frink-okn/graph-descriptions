@@ -3,7 +3,7 @@
 # Slot: scales_hasContents
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,8 +23,8 @@ URI: [scales:hasContents](http://schemas.scales-okn.org/rdf/scales#hasContents)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesDocketEntry](../classes/ScalesDocketEntry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ScalesCharge](../classes/ScalesCharge.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [ScalesCharge](../classes/ScalesCharge.md) | No type description provided |  no  |
+| [ScalesDocketEntry](../classes/ScalesDocketEntry.md) | No type description provided |  no  |
 
 
 
@@ -90,7 +90,7 @@ URI: [scales:hasContents](http://schemas.scales-okn.org/rdf/scales#hasContents)
 <details>
 ```yaml
 name: scales_hasContents
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

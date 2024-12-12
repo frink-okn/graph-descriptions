@@ -105,14 +105,14 @@ URI: [sdoh:Service](http://schema.org/Service)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_name](../slots/sdoh_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_hoursAvailable](../slots/sdoh_hoursAvailable.md) | 0..1 <br/> [SdohOpeningHoursSpecification](../classes/SdohOpeningHoursSpecification.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_description](../slots/sdoh_description.md) | 0..1 <br/> [SdohTextObject](../classes/SdohTextObject.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_availableChannel](../slots/sdoh_availableChannel.md) | 0..1 <br/> [SdohServiceChannel](../classes/SdohServiceChannel.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_provider](../slots/sdoh_provider.md) | 0..1 <br/> [SdohOrganization](../classes/SdohOrganization.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_identifier](../slots/sdoh_identifier.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_category](../slots/sdoh_category.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[SdohCategoryCode](../classes/SdohCategoryCode.md)&nbsp;or&nbsp;<br />[SdohAudience](../classes/SdohAudience.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_areaServed](../slots/sdoh_areaServed.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_name](../slots/sdoh_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [sdoh_hoursAvailable](../slots/sdoh_hoursAvailable.md) | 0..1 <br/> [SdohOpeningHoursSpecification](../classes/SdohOpeningHoursSpecification.md) | No slot description provided | direct |
+| [sdoh_description](../slots/sdoh_description.md) | 0..1 <br/> [SdohTextObject](../classes/SdohTextObject.md) | No slot description provided | direct |
+| [sdoh_availableChannel](../slots/sdoh_availableChannel.md) | 0..1 <br/> [SdohServiceChannel](../classes/SdohServiceChannel.md) | No slot description provided | direct |
+| [sdoh_provider](../slots/sdoh_provider.md) | 0..1 <br/> [SdohOrganization](../classes/SdohOrganization.md) | No slot description provided | direct |
+| [sdoh_identifier](../slots/sdoh_identifier.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [sdoh_category](../slots/sdoh_category.md) | 0..1 <br/> [SdohCategoryCode](../classes/SdohCategoryCode.md)&nbsp;or&nbsp;<br />[SdohAudience](../classes/SdohAudience.md) | No slot description provided | direct |
+| [sdoh_areaServed](../slots/sdoh_areaServed.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
 
 
 
@@ -185,6 +185,7 @@ notes:
 examples:
 - value: dreamkg:service/4964759830003712
 from_schema: dream-kg
+rank: 1000
 slots:
 - sdoh_name
 - sdoh_hoursAvailable
@@ -216,10 +217,11 @@ notes:
 examples:
 - value: dreamkg:service/4964759830003712
 from_schema: dream-kg
+rank: 1000
 attributes:
   sdoh_name:
     name: sdoh_name
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -241,7 +243,7 @@ attributes:
     range: string
   sdoh_hoursAvailable:
     name: sdoh_hoursAvailable
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -260,7 +262,7 @@ attributes:
     range: sdoh_OpeningHoursSpecification
   sdoh_description:
     name: sdoh_description
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -279,7 +281,7 @@ attributes:
     range: sdoh_TextObject
   sdoh_availableChannel:
     name: sdoh_availableChannel
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -298,7 +300,7 @@ attributes:
     range: sdoh_ServiceChannel
   sdoh_provider:
     name: sdoh_provider
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -317,7 +319,7 @@ attributes:
     range: sdoh_Organization
   sdoh_identifier:
     name: sdoh_identifier
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -339,7 +341,7 @@ attributes:
     range: string
   sdoh_category:
     name: sdoh_category
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -363,7 +365,7 @@ attributes:
     - range: sdoh_Audience
   sdoh_areaServed:
     name: sdoh_areaServed
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (contaminoso_Point)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -148,18 +148,18 @@ URI: [contaminoso:Point](http://sawgraph.spatialai.org/v1/contaminoso#Point)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [ussdwis_SamplePointID](../slots/ussdwis_SamplePointID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [ussdwis_SamplePointID](../slots/ussdwis_SamplePointID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 | [meegad_samplePointNumber](../slots/meegad_samplePointNumber.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | Sample point number in the EGAD dataset from the state of Maine | direct |
-| [meegad_samplePointType](../slots/meegad_samplePointType.md) | 0..1 <br/> [MeegadEGAD-SamplePointType](../classes/MeegadEGAD-SamplePointType.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [meegad_associatedSite](../slots/meegad_associatedSite.md) | 0..1 <br/> [MeegadEGAD-Site](../classes/MeegadEGAD-Site.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [http___stko_kwg.geog.ucsb.edu_lod_ontology_spatialRelation](../slots/http___stko_kwg.geog.ucsb.edu_lod_ontology_spatialRelation.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ContaminosoFeature](../classes/ContaminosoFeature.md)&nbsp;or&nbsp;<br />[HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13](../classes/HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13.md)&nbsp;or&nbsp;<br />[MeegadEGAD-Site](../classes/MeegadEGAD-Site.md)&nbsp;or&nbsp;<br />[ContaminosoPoint](../classes/ContaminosoPoint.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [meegad_samplePointType](../slots/meegad_samplePointType.md) | 0..1 <br/> [MeegadEGAD-SamplePointType](../classes/MeegadEGAD-SamplePointType.md) | No slot description provided | direct |
+| [meegad_associatedSite](../slots/meegad_associatedSite.md) | 0..1 <br/> [MeegadEGAD-Site](../classes/MeegadEGAD-Site.md) | No slot description provided | direct |
+| [http___stko_kwg.geog.ucsb.edu_lod_ontology_spatialRelation](../slots/http___stko_kwg.geog.ucsb.edu_lod_ontology_spatialRelation.md) | 0..1 <br/> [ContaminosoFeature](../classes/ContaminosoFeature.md)&nbsp;or&nbsp;<br />[HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13](../classes/HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13.md)&nbsp;or&nbsp;<br />[MeegadEGAD-Site](../classes/MeegadEGAD-Site.md)&nbsp;or&nbsp;<br />[ContaminosoPoint](../classes/ContaminosoPoint.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
 | [meegad_samplePointWebName](../slots/meegad_samplePointWebName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | Sample point web name in the EGAD dataset from the state of Maine | direct |
-| [contaminoso_pointFromFeature](../slots/contaminoso_pointFromFeature.md) | 0..1 <br/> [ContaminosoFeature](../classes/ContaminosoFeature.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [geo_hasGeometry](../slots/geo_hasGeometry.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[GeoSpatialObject](../classes/GeoSpatialObject.md)&nbsp;or&nbsp;<br />[GeoGeometry](../classes/GeoGeometry.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [http___stko_kwg.geog.ucsb.edu_lod_ontology_sfWithin](../slots/http___stko_kwg.geog.ucsb.edu_lod_ontology_sfWithin.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13](../classes/HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [geo_hasDefaultGeometry](../slots/geo_hasDefaultGeometry.md) | 0..1 <br/> [GeoGeometry](../classes/GeoGeometry.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [geo_hasSerialization](../slots/geo_hasSerialization.md) | 0..1 <br/> [GeoWktLiteral](../classes/GeoWktLiteral.md) | TODO -- tell the world what this slot (predicate) describes | [GeoSpatialObject](../classes/GeoSpatialObject.md) |
+| [contaminoso_pointFromFeature](../slots/contaminoso_pointFromFeature.md) | 0..1 <br/> [ContaminosoFeature](../classes/ContaminosoFeature.md) | No slot description provided | direct |
+| [geo_hasGeometry](../slots/geo_hasGeometry.md) | 0..1 <br/> [GeoSpatialObject](../classes/GeoSpatialObject.md)&nbsp;or&nbsp;<br />[GeoGeometry](../classes/GeoGeometry.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [http___stko_kwg.geog.ucsb.edu_lod_ontology_sfWithin](../slots/http___stko_kwg.geog.ucsb.edu_lod_ontology_sfWithin.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13](../classes/HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13.md) | No slot description provided | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [geo_hasDefaultGeometry](../slots/geo_hasDefaultGeometry.md) | 0..1 <br/> [GeoGeometry](../classes/GeoGeometry.md) | No slot description provided | direct |
+| [geo_hasSerialization](../slots/geo_hasSerialization.md) | 0..1 <br/> [GeoWktLiteral](../classes/GeoWktLiteral.md) | No slot description provided | [GeoSpatialObject](../classes/GeoSpatialObject.md) |
 
 
 
@@ -226,7 +226,7 @@ URI: [contaminoso:Point](http://sawgraph.spatialai.org/v1/contaminoso#Point)
 <details>
 ```yaml
 name: contaminoso_Point
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -235,6 +235,7 @@ todos:
 notes:
 - Class with 8480 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: geo_SpatialObject
 slots:
 - ussdwis_SamplePointID
@@ -258,7 +259,7 @@ class_uri: contaminoso:Point
 <details>
 ```yaml
 name: contaminoso_Point
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -267,12 +268,13 @@ todos:
 notes:
 - Class with 8480 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: geo_SpatialObject
 attributes:
   ussdwis_SamplePointID:
     name: ussdwis_SamplePointID
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -293,7 +295,7 @@ attributes:
   meegad_samplePointNumber:
     name: meegad_samplePointNumber
     description: Sample point number in the EGAD dataset from the state of Maine.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -313,8 +315,8 @@ attributes:
     range: integer
   meegad_samplePointType:
     name: meegad_samplePointType
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -334,8 +336,8 @@ attributes:
     range: meegad_EGAD-SamplePointType
   meegad_associatedSite:
     name: meegad_associatedSite
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -355,8 +357,8 @@ attributes:
     range: meegad_EGAD-Site
   http___stko-kwg.geog.ucsb.edu_lod_ontology_spatialRelation:
     name: http___stko-kwg.geog.ucsb.edu_lod_ontology_spatialRelation
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -422,7 +424,7 @@ attributes:
   meegad_samplePointWebName:
     name: meegad_samplePointWebName
     description: Sample point web name in the EGAD dataset from the state of Maine.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -442,8 +444,8 @@ attributes:
     range: string
   contaminoso_pointFromFeature:
     name: contaminoso_pointFromFeature
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -463,8 +465,8 @@ attributes:
     range: contaminoso_Feature
   geo_hasGeometry:
     name: geo_hasGeometry
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -508,8 +510,8 @@ attributes:
     - range: uri
   http___stko-kwg.geog.ucsb.edu_lod_ontology_sfWithin:
     name: http___stko-kwg.geog.ucsb.edu_lod_ontology_sfWithin
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -550,8 +552,8 @@ attributes:
     - range: http___stko-kwg.geog.ucsb.edu_lod_ontology_S2Cell_Level13
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -644,8 +646,8 @@ attributes:
     - range: uri
   geo_hasDefaultGeometry:
     name: geo_hasDefaultGeometry
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -674,8 +676,8 @@ attributes:
     range: geo_Geometry
   geo_hasSerialization:
     name: geo_hasSerialization
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

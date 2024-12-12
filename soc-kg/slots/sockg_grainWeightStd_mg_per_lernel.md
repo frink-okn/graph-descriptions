@@ -3,7 +3,7 @@
 # Slot: sockg_grainWeightStd_mg_per_lernel
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:grainWeightStd_mg_per_lernel](http://www.semanticweb.org/sockg/ontol
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgHarvestFraction](../classes/SockgHarvestFraction.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgHarvestFraction](../classes/SockgHarvestFraction.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sockg:grainWeightStd_mg_per_lernel](http://www.semanticweb.org/sockg/ontol
 <details>
 ```yaml
 name: sockg_grainWeightStd_mg_per_lernel
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

@@ -3,7 +3,7 @@
 # Slot: relation_HasRequiredModelComponents
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [relation:HasRequiredModelComponents](http://relation.org/HasRequiredModelC
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoExperiment](../classes/HsdoExperiment.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoExperiment](../classes/HsdoExperiment.md) | No type description provided |  no  |
 
 
 
@@ -95,7 +95,7 @@ URI: [relation:HasRequiredModelComponents](http://relation.org/HasRequiredModelC
 <details>
 ```yaml
 name: relation_HasRequiredModelComponents
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

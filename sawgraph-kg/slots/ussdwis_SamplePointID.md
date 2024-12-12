@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (ussdwis_SamplePointID)
+# Slot: No slot description provided (ussdwis_SamplePointID)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [ussdwis:SamplePointID](http://sawgraph.spatialai.org/v1/us-sdwis#SamplePoi
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ContaminosoPoint](../classes/ContaminosoPoint.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [ContaminosoPoint](../classes/ContaminosoPoint.md) | No type description provided |  no  |
 
 
 
@@ -87,8 +87,8 @@ URI: [ussdwis:SamplePointID](http://sawgraph.spatialai.org/v1/us-sdwis#SamplePoi
 <details>
 ```yaml
 name: ussdwis_SamplePointID
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

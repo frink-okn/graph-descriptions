@@ -3,7 +3,7 @@
 # Slot: sdoh_name
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,10 +23,13 @@ URI: [sdoh:name](http://schema.org/name)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohOrganization](../classes/SdohOrganization.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SdohCreativeWork](../classes/SdohCreativeWork.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SecurechainHardware](../classes/SecurechainHardware.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SecurechainSoftware](../classes/SecurechainSoftware.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | No type description provided |  no  |
+| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | No type description provided |  no  |
+| [SecurechainHardware](../classes/SecurechainHardware.md) | No type description provided |  no  |
+| [SdohOrganization](../classes/SdohOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
+| [SdohCreativeWork](../classes/SdohCreativeWork.md) | The most generic kind of creative work, including books, movies, photographs,... |  no  |
+| [SecurechainLicense](../classes/SecurechainLicense.md) | No type description provided |  no  |
+| [SecurechainSoftware](../classes/SecurechainSoftware.md) | No type description provided |  no  |
 
 
 
@@ -36,7 +39,7 @@ URI: [sdoh:name](http://schema.org/name)
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -47,10 +50,10 @@ URI: [sdoh:name](http://schema.org/name)
 
 | Value |
 | --- |
-| securechain:Hardware/field_programmable_gate_array_programmable_acceleration_card_n3000 sdoh:name field_programmable_gate_array_programmable_acceleration_card_n3000 |
-| schema:Organization/social_microblogging_pro_project sdoh:name social_microblogging_pro_project |
-| securechain:Software/libcupscgi1 sdoh:name libcupscgi1 |
-| securechain:License/unlicense sdoh:name This is free and unencumbered software released into the public domain. |
+| securechain:Hardware/nvr1xxx sdoh:name nvr1xxx |
+| schema:Organization/opencaching sdoh:name opencaching |
+| securechain:Software/libdime sdoh:name libdime |
+| securechain:License/mit sdoh:name MIT License |
 
 ## Comments
 
@@ -76,7 +79,7 @@ URI: [sdoh:name](http://schema.org/name)
 ### Schema Source
 
 
-* from schema: secure-chain-kg/develop
+* from schema: secure-chain-kg
 
 
 
@@ -86,7 +89,7 @@ URI: [sdoh:name](http://schema.org/name)
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | sdoh:name |
-| native | secure-chain-kg/develop/:sdoh_name |
+| native | secure-chain-kg/:sdoh_name |
 
 
 
@@ -96,7 +99,7 @@ URI: [sdoh:name](http://schema.org/name)
 <details>
 ```yaml
 name: sdoh_name
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -107,21 +110,19 @@ comments:
 - 34469 occurrences with subject type securechain_Software and object type string.
 - 20 occurrences with subject type sdoh_CreativeWork and object type string.
 examples:
-- value: securechain:Hardware/field_programmable_gate_array_programmable_acceleration_card_n3000
-    sdoh:name field_programmable_gate_array_programmable_acceleration_card_n3000
-- value: schema:Organization/social_microblogging_pro_project sdoh:name social_microblogging_pro_project
-- value: securechain:Software/libcupscgi1 sdoh:name libcupscgi1
-- value: securechain:License/unlicense sdoh:name This is free and unencumbered software
-    released into the public domain.
-from_schema: secure-chain-kg/develop
+- value: securechain:Hardware/nvr1xxx sdoh:name nvr1xxx
+- value: schema:Organization/opencaching sdoh:name opencaching
+- value: securechain:Software/libdime sdoh:name libdime
+- value: securechain:License/mit sdoh:name MIT License
+from_schema: secure-chain-kg
 rank: 1000
 slot_uri: sdoh:name
 alias: sdoh_name
 domain_of:
-- securechain_Hardware
-- securechain_Software
 - sdoh_CreativeWork
 - sdoh_Organization
+- securechain_Hardware
+- securechain_Software
 range: string
 
 ```

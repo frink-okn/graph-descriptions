@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (contaminoso_SampledFeature)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -93,7 +93,7 @@ URI: [contaminoso:SampledFeature](http://sawgraph.spatialai.org/v1/contaminoso#S
 <details>
 ```yaml
 name: contaminoso_SampledFeature
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -102,6 +102,7 @@ todos:
 notes:
 - Class with 8196 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: sosa_FeatureOfInterest
 class_uri: contaminoso:SampledFeature
 
@@ -113,7 +114,7 @@ class_uri: contaminoso:SampledFeature
 <details>
 ```yaml
 name: contaminoso_SampledFeature
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -122,6 +123,7 @@ todos:
 notes:
 - Class with 8196 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: sosa_FeatureOfInterest
 class_uri: contaminoso:SampledFeature
 

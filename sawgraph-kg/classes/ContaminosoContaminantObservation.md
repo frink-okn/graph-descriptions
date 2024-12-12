@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (contaminoso_ContaminantObservation)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -247,29 +247,29 @@ URI: [contaminoso:ContaminantObservation](http://sawgraph.spatialai.org/v1/conta
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [contaminoso_hasResult](../slots/contaminoso_hasResult.md) | 0..1 <br/> [ContaminosoAggregateContaminantMeasurement](../classes/ContaminosoAggregateContaminantMeasurement.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [contaminoso_analysisMethod](../slots/contaminoso_analysisMethod.md) | 0..1 <br/> [MeegadEGAD-AnalysisMethod](../classes/MeegadEGAD-AnalysisMethod.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [contaminoso_hasFeatureOfInterest](../slots/contaminoso_hasFeatureOfInterest.md) | 0..1 <br/> [ContaminosoFeature](../classes/ContaminosoFeature.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [contaminoso_analyzedBy](../slots/contaminoso_analyzedBy.md) | 0..1 <br/> [ProvOrganization](../classes/ProvOrganization.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [contaminoso_analysisDate](../slots/contaminoso_analysisDate.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sosa_hasFeatureOfInterest](../slots/sosa_hasFeatureOfInterest.md) | 0..1 <br/> [ContaminosoFeature](../classes/ContaminosoFeature.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [meegad_analyzedSample](../slots/meegad_analyzedSample.md) | 0..1 <br/> [ContaminosoMaterialSample](../classes/ContaminosoMaterialSample.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [contaminoso_sampleTime](../slots/contaminoso_sampleTime.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [contaminoso_fromSampledFeature](../slots/contaminoso_fromSampledFeature.md) | 0..1 <br/> [ContaminosoFeature](../classes/ContaminosoFeature.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [contaminoso_analyzedSample](../slots/contaminoso_analyzedSample.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ContaminosoMaterialSample](../classes/ContaminosoMaterialSample.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [contaminoso_hasTemporalCoverage](../slots/contaminoso_hasTemporalCoverage.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [contaminoso_ofSubstance](../slots/contaminoso_ofSubstance.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ContaminosoSubstance](../classes/ContaminosoSubstance.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sosa_hasResult](../slots/sosa_hasResult.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ContaminosoContaminantMeasurement](../classes/ContaminosoContaminantMeasurement.md)&nbsp;or&nbsp;<br />[ContaminosoAggregateContaminantMeasurement](../classes/ContaminosoAggregateContaminantMeasurement.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sosa_resultTime](../slots/sosa_resultTime.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [contaminoso_hasAggregationPeriod](../slots/contaminoso_hasAggregationPeriod.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [contaminoso_observedAtSamplePoint](../slots/contaminoso_observedAtSamplePoint.md) | 0..1 <br/> [ContaminosoPoint](../classes/ContaminosoPoint.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [http___sawgraph.spatialai.org_v1_us_epa_ghg#GHG_Subpart](../slots/http___sawgraph.spatialai.org_v1_us_epa_ghg#GHG_Subpart.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [contaminoso_sampledFeature](../slots/contaminoso_sampledFeature.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ContaminosoFeature](../classes/ContaminosoFeature.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [meegad_resultType](../slots/meegad_resultType.md) | 0..1 <br/> [ContaminosoObservationAnnotation](../classes/ContaminosoObservationAnnotation.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sosa_observedProperty](../slots/sosa_observedProperty.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ContaminosoSubstance](../classes/ContaminosoSubstance.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [contaminoso_observationAnnotation](../slots/contaminoso_observationAnnotation.md) | 0..1 <br/> [ContaminosoObservationAnnotation](../classes/ContaminosoObservationAnnotation.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [contaminoso_sampledTime](../slots/contaminoso_sampledTime.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [contaminoso_hasResult](../slots/contaminoso_hasResult.md) | 0..1 <br/> [ContaminosoAggregateContaminantMeasurement](../classes/ContaminosoAggregateContaminantMeasurement.md) | No slot description provided | direct |
+| [contaminoso_analysisMethod](../slots/contaminoso_analysisMethod.md) | 0..1 <br/> [MeegadEGAD-AnalysisMethod](../classes/MeegadEGAD-AnalysisMethod.md) | No slot description provided | direct |
+| [contaminoso_hasFeatureOfInterest](../slots/contaminoso_hasFeatureOfInterest.md) | 0..1 <br/> [ContaminosoFeature](../classes/ContaminosoFeature.md) | No slot description provided | direct |
+| [contaminoso_analyzedBy](../slots/contaminoso_analyzedBy.md) | 0..1 <br/> [ProvOrganization](../classes/ProvOrganization.md) | No slot description provided | direct |
+| [contaminoso_analysisDate](../slots/contaminoso_analysisDate.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot description provided | direct |
+| [sosa_hasFeatureOfInterest](../slots/sosa_hasFeatureOfInterest.md) | 0..1 <br/> [ContaminosoFeature](../classes/ContaminosoFeature.md) | No slot description provided | direct |
+| [meegad_analyzedSample](../slots/meegad_analyzedSample.md) | 0..1 <br/> [ContaminosoMaterialSample](../classes/ContaminosoMaterialSample.md) | No slot description provided | direct |
+| [contaminoso_sampleTime](../slots/contaminoso_sampleTime.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot description provided | direct |
+| [contaminoso_fromSampledFeature](../slots/contaminoso_fromSampledFeature.md) | 0..1 <br/> [ContaminosoFeature](../classes/ContaminosoFeature.md) | No slot description provided | direct |
+| [contaminoso_analyzedSample](../slots/contaminoso_analyzedSample.md) | 0..1 <br/> [ContaminosoMaterialSample](../classes/ContaminosoMaterialSample.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [contaminoso_hasTemporalCoverage](../slots/contaminoso_hasTemporalCoverage.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [contaminoso_ofSubstance](../slots/contaminoso_ofSubstance.md) | 0..1 <br/> [ContaminosoSubstance](../classes/ContaminosoSubstance.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [sosa_hasResult](../slots/sosa_hasResult.md) | 0..1 <br/> [ContaminosoContaminantMeasurement](../classes/ContaminosoContaminantMeasurement.md)&nbsp;or&nbsp;<br />[ContaminosoAggregateContaminantMeasurement](../classes/ContaminosoAggregateContaminantMeasurement.md) | No slot description provided | direct |
+| [sosa_resultTime](../slots/sosa_resultTime.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot description provided | direct |
+| [contaminoso_hasAggregationPeriod](../slots/contaminoso_hasAggregationPeriod.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [contaminoso_observedAtSamplePoint](../slots/contaminoso_observedAtSamplePoint.md) | 0..1 <br/> [ContaminosoPoint](../classes/ContaminosoPoint.md) | No slot description provided | direct |
+| [http___sawgraph.spatialai.org_v1_us_epa_ghg#GHG_Subpart](../slots/http___sawgraph.spatialai.org_v1_us_epa_ghg#GHG_Subpart.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [contaminoso_sampledFeature](../slots/contaminoso_sampledFeature.md) | 0..1 <br/> [ContaminosoFeature](../classes/ContaminosoFeature.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [meegad_resultType](../slots/meegad_resultType.md) | 0..1 <br/> [ContaminosoObservationAnnotation](../classes/ContaminosoObservationAnnotation.md) | No slot description provided | direct |
+| [sosa_observedProperty](../slots/sosa_observedProperty.md) | 0..1 <br/> [ContaminosoSubstance](../classes/ContaminosoSubstance.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [contaminoso_observationAnnotation](../slots/contaminoso_observationAnnotation.md) | 0..1 <br/> [ContaminosoObservationAnnotation](../classes/ContaminosoObservationAnnotation.md) | No slot description provided | direct |
+| [contaminoso_sampledTime](../slots/contaminoso_sampledTime.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot description provided | direct |
 
 
 
@@ -330,7 +330,7 @@ URI: [contaminoso:ContaminantObservation](http://sawgraph.spatialai.org/v1/conta
 <details>
 ```yaml
 name: contaminoso_ContaminantObservation
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -339,6 +339,7 @@ todos:
 notes:
 - Class with 143064 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: sosa_Observation
 slots:
 - contaminoso_hasResult
@@ -374,7 +375,7 @@ class_uri: contaminoso:ContaminantObservation
 <details>
 ```yaml
 name: contaminoso_ContaminantObservation
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -383,12 +384,13 @@ todos:
 notes:
 - Class with 143064 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: sosa_Observation
 attributes:
   contaminoso_hasResult:
     name: contaminoso_hasResult
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -409,8 +411,8 @@ attributes:
     range: contaminoso_AggregateContaminantMeasurement
   contaminoso_analysisMethod:
     name: contaminoso_analysisMethod
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -431,8 +433,8 @@ attributes:
     range: meegad_EGAD-AnalysisMethod
   contaminoso_hasFeatureOfInterest:
     name: contaminoso_hasFeatureOfInterest
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -453,8 +455,8 @@ attributes:
     range: contaminoso_Feature
   contaminoso_analyzedBy:
     name: contaminoso_analyzedBy
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -475,8 +477,8 @@ attributes:
     range: prov_Organization
   contaminoso_analysisDate:
     name: contaminoso_analysisDate
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -498,8 +500,8 @@ attributes:
     range: date
   sosa_hasFeatureOfInterest:
     name: sosa_hasFeatureOfInterest
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -520,8 +522,8 @@ attributes:
     range: contaminoso_Feature
   meegad_analyzedSample:
     name: meegad_analyzedSample
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -542,8 +544,8 @@ attributes:
     range: contaminoso_MaterialSample
   contaminoso_sampleTime:
     name: contaminoso_sampleTime
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -564,8 +566,8 @@ attributes:
     range: date
   contaminoso_fromSampledFeature:
     name: contaminoso_fromSampledFeature
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -586,8 +588,8 @@ attributes:
     range: contaminoso_Feature
   contaminoso_analyzedSample:
     name: contaminoso_analyzedSample
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -612,8 +614,8 @@ attributes:
     - range: uri
   contaminoso_hasTemporalCoverage:
     name: contaminoso_hasTemporalCoverage
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -636,8 +638,8 @@ attributes:
     range: uri
   contaminoso_ofSubstance:
     name: contaminoso_ofSubstance
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -666,8 +668,8 @@ attributes:
     - range: uri
   sosa_hasResult:
     name: sosa_hasResult
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -695,8 +697,8 @@ attributes:
     - range: contaminoso_AggregateContaminantMeasurement
   sosa_resultTime:
     name: sosa_resultTime
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -717,8 +719,8 @@ attributes:
     range: date
   contaminoso_hasAggregationPeriod:
     name: contaminoso_hasAggregationPeriod
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -741,8 +743,8 @@ attributes:
     range: uri
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -835,8 +837,8 @@ attributes:
     - range: uri
   contaminoso_observedAtSamplePoint:
     name: contaminoso_observedAtSamplePoint
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -857,8 +859,8 @@ attributes:
     range: contaminoso_Point
   http___sawgraph.spatialai.org_v1_us-epa-ghg#GHG-Subpart:
     name: http___sawgraph.spatialai.org_v1_us-epa-ghg#GHG-Subpart
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -880,8 +882,8 @@ attributes:
     range: string
   contaminoso_sampledFeature:
     name: contaminoso_sampledFeature
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -907,8 +909,8 @@ attributes:
     - range: uri
   meegad_resultType:
     name: meegad_resultType
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -930,8 +932,8 @@ attributes:
     range: contaminoso_ObservationAnnotation
   sosa_observedProperty:
     name: sosa_observedProperty
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -959,8 +961,8 @@ attributes:
     - range: uri
   contaminoso_observationAnnotation:
     name: contaminoso_observationAnnotation
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -981,8 +983,8 @@ attributes:
     range: contaminoso_ObservationAnnotation
   contaminoso_sampledTime:
     name: contaminoso_sampledTime
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

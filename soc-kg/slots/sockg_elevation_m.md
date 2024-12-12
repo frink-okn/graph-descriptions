@@ -3,7 +3,7 @@
 # Slot: sockg_elevation_m
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,8 +23,8 @@ URI: [sockg:elevation_m](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgField](../classes/SockgField.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgWeatherStation](../classes/SockgWeatherStation.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgField](../classes/SockgField.md) | No type description provided |  no  |
+| [SockgWeatherStation](../classes/SockgWeatherStation.md) | No type description provided |  no  |
 
 
 
@@ -90,7 +90,7 @@ URI: [sockg:elevation_m](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 <details>
 ```yaml
 name: sockg_elevation_m
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

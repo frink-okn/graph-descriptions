@@ -3,7 +3,7 @@
 # Slot: schema_elevation
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -33,7 +33,7 @@ URI: [schema:elevation](https://schema.org/elevation)
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:double](xsd:double)
 
 
 
@@ -87,7 +87,7 @@ URI: [schema:elevation](https://schema.org/elevation)
 <details>
 ```yaml
 name: schema_elevation
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

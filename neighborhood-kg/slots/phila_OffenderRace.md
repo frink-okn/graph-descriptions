@@ -3,7 +3,7 @@
 # Slot: phila_OffenderRace
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [phila:OffenderRace](https://metadata.phila.gov/OffenderRace)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [PhilaIncident](../classes/PhilaIncident.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [PhilaIncident](../classes/PhilaIncident.md) | No type description provided |  no  |
 
 
 
@@ -33,7 +33,7 @@ URI: [phila:OffenderRace](https://metadata.phila.gov/OffenderRace)
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -87,7 +87,7 @@ URI: [phila:OffenderRace](https://metadata.phila.gov/OffenderRace)
 <details>
 ```yaml
 name: phila_OffenderRace
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

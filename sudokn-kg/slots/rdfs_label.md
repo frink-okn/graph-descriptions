@@ -3,7 +3,7 @@
 # Slot: rdfs_label
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,452 +23,452 @@ URI: [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknEndFormingCapability](../classes/SudoknEndFormingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknBritishRetailConsortiumAccreditation](../classes/SudoknBritishRetailConsortiumAccreditation.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknBrassBlackeningCapability](../classes/SudoknBrassBlackeningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknRAMEDMCapability](../classes/SudoknRAMEDMCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFixturingCapability](../classes/SudoknFixturingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknGearCuttingCapability](../classes/SudoknGearCuttingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSinkerEDMCapability](../classes/SudoknSinkerEDMCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSmeltingCapability](../classes/SudoknSmeltingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknHoleMakingCapability](../classes/SudoknHoleMakingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknDiffusionHardeningCapability](../classes/SudoknDiffusionHardeningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPowderCoatingCapability](../classes/SudoknPowderCoatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknGasBrazingCapability](../classes/SudoknGasBrazingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknVacuumHardeningCapability](../classes/SudoknVacuumHardeningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMillingCapability](../classes/SudoknMillingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMechanicalAssemblyCapability](../classes/SudoknMechanicalAssemblyCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknOxy-FuelCuttingCapability](../classes/SudoknOxy-FuelCuttingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknEDMCapability](../classes/SudoknEDMCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknIndustrialMachineryandEquipmentIndustry](../classes/SudoknIndustrialMachineryandEquipmentIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknIndustry](../classes/SudoknIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMIGWeldingCapability](../classes/SudoknMIGWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknWaterAndSewerUtilitiesIndustry](../classes/SudoknWaterAndSewerUtilitiesIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknKovarProcessingCapability](../classes/SudoknKovarProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknDipBrazingCapability](../classes/SudoknDipBrazingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMetalSpinningCapability](../classes/SudoknMetalSpinningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCNCVerticalMillingCapability](../classes/SudoknCNCVerticalMillingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSinglePointCuttingCapability](../classes/SudoknSinglePointCuttingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCity](../classes/SudoknCity.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknElectricalDischargeMachiningCapability](../classes/SudoknElectricalDischargeMachiningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCarbonArcWeldingCapability](../classes/SudoknCarbonArcWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknVaporizedMetalCoatingCapability](../classes/SudoknVaporizedMetalCoatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAS9000Certificate](../classes/SudoknAS9000Certificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknConstructionIndustry](../classes/SudoknConstructionIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCNCGrindingCapability](../classes/SudoknCNCGrindingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPaperboardProductsIndustry](../classes/SudoknPaperboardProductsIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCombustableGasWeldingCapability](../classes/SudoknCombustableGasWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknButtWeldingCapability](../classes/SudoknButtWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMetalProductionIndustry](../classes/SudoknMetalProductionIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSolderingCapability](../classes/SudoknSolderingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknTungstenProcessingCapability](../classes/SudoknTungstenProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknTubeFormingCapability](../classes/SudoknTubeFormingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAcetalProcessingCapability](../classes/SudoknAcetalProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPaperIndustry](../classes/SudoknPaperIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknASMECertificate](../classes/SudoknASMECertificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknChemicalProcessingCapability](../classes/SudoknChemicalProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknTinProcessingCapability](../classes/SudoknTinProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknISO9000](../classes/SudoknISO9000.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCNCPressBrakeCapability](../classes/SudoknCNCPressBrakeCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCenterlessGrindingCapability](../classes/SudoknCenterlessGrindingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAddtiveManufacturingCapability](../classes/SudoknAddtiveManufacturingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknDrawingCapability](../classes/SudoknDrawingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknWireFormingCapability](../classes/SudoknWireFormingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknBrassProcessingCapability](../classes/SudoknBrassProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknRecyclingIndustry](../classes/SudoknRecyclingIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknVacuumCastingCapability](../classes/SudoknVacuumCastingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknChemicalsProcessingCapability](../classes/SudoknChemicalsProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPrototypeManufacturingCapability](../classes/SudoknPrototypeManufacturingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNotchingCapability](../classes/SudoknNotchingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknBeltSandingCapability](../classes/SudoknBeltSandingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFDAGMPCompliant](../classes/SudoknFDAGMPCompliant.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknEndMillingCapability](../classes/SudoknEndMillingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPrintingCapability](../classes/SudoknPrintingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknKnurlingCapability](../classes/SudoknKnurlingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknWireEDMCapability](../classes/SudoknWireEDMCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCylindricalGrindingCapability](../classes/SudoknCylindricalGrindingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMechanicalCoatingCapability](../classes/SudoknMechanicalCoatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknBusinessEquipmentIndustry](../classes/SudoknBusinessEquipmentIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMoldingCapability](../classes/SudoknMoldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknContinuousCastingCapability](../classes/SudoknContinuousCastingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknHarperizingCapability](../classes/SudoknHarperizingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAnodizingCapability](../classes/SudoknAnodizingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCeramicMoldCastingCapability](../classes/SudoknCeramicMoldCastingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknHAACPCertificate](../classes/SudoknHAACPCertificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknShearingCapability](../classes/SudoknShearingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknStampingCapability](../classes/SudoknStampingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMultiPointCuttingCapability](../classes/SudoknMultiPointCuttingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFurnaceBrazingCapability](../classes/SudoknFurnaceBrazingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCarbideProcessingCapability](../classes/SudoknCarbideProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMagnesiumAlloyProcessingCapability](../classes/SudoknMagnesiumAlloyProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSurfaceHardeningCapability](../classes/SudoknSurfaceHardeningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMolybdenumProcessingCapability](../classes/SudoknMolybdenumProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCommunicationAndElectronicPowerUtilitiesIndustry](../classes/SudoknCommunicationAndElectronicPowerUtilitiesIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAS9102Certificate](../classes/SudoknAS9102Certificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknElectropolishingCapability](../classes/SudoknElectropolishingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknElectrolessPlatingCapability](../classes/SudoknElectrolessPlatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAdditiveManufacturingCapability](../classes/SudoknAdditiveManufacturingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknExplosiveWeldingCapability](../classes/SudoknExplosiveWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknOffshoreWindIndustry](../classes/SudoknOffshoreWindIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknDieMakingCapability](../classes/SudoknDieMakingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSportsandLeisureIndustry](../classes/SudoknSportsandLeisureIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSwissTurningCapability](../classes/SudoknSwissTurningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknDeburringCapability](../classes/SudoknDeburringCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknTorchBrazingCapability](../classes/SudoknTorchBrazingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknKaptonProcessingCapability](../classes/SudoknKaptonProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknWiringCapability](../classes/SudoknWiringCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknIS-TS16949](../classes/SudoknIS-TS16949.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknTubingCapability](../classes/SudoknTubingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCNCmillingCapability](../classes/SudoknCNCmillingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknGovernmentIndustry](../classes/SudoknGovernmentIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknShotPeeningCapability](../classes/SudoknShotPeeningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknRamEDMCapability](../classes/SudoknRamEDMCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCNCCylindricalGrindingCapability](../classes/SudoknCNCCylindricalGrindingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFoamProcessingCapability](../classes/SudoknFoamProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknWeldingCapability](../classes/SudoknWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSilkScreeningCapability](../classes/SudoknSilkScreeningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknGoldProcessingCapability](../classes/SudoknGoldProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknJoiningCapability](../classes/SudoknJoiningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSpinningCapability](../classes/SudoknSpinningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSurfacePreparationCapability](../classes/SudoknSurfacePreparationCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknElectricAutomotiveIndustry](../classes/SudoknElectricAutomotiveIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMigWeldingCapability](../classes/SudoknMigWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknInjectionMoldingCapability](../classes/SudoknInjectionMoldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknBlackOxideCoatingCapability](../classes/SudoknBlackOxideCoatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknKittingCapability](../classes/SudoknKittingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPlasticsandRubberProductsIndustry](../classes/SudoknPlasticsandRubberProductsIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknRAMEdmCapability](../classes/SudoknRAMEdmCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknExtrudingCapability](../classes/SudoknExtrudingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknElectronBeamWeldingCapability](../classes/SudoknElectronBeamWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknInfraredBrazingCapability](../classes/SudoknInfraredBrazingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAluminumProcessingCapability](../classes/SudoknAluminumProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknWoodProductManufacturingIndustry](../classes/SudoknWoodProductManufacturingIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSpotWeldingCapability](../classes/SudoknSpotWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknDigitalPrintingCapability](../classes/SudoknDigitalPrintingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCNCLaserCuttingCapability](../classes/SudoknCNCLaserCuttingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAutomotiveIndustry](../classes/SudoknAutomotiveIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknStainlessSteelProcessingCapability](../classes/SudoknStainlessSteelProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPolycarbonateProcessingCapability](../classes/SudoknPolycarbonateProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCuttingCapability](../classes/SudoknCuttingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAS9100](../classes/SudoknAS9100.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknLEEDCertificate](../classes/SudoknLEEDCertificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCNCWireBendingCapability](../classes/SudoknCNCWireBendingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFixtureDesignCapability](../classes/SudoknFixtureDesignCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMilitaryIndustry](../classes/SudoknMilitaryIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknRivettingCapability](../classes/SudoknRivettingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknWaterJetCuttingCapability](../classes/SudoknWaterJetCuttingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSwissMachiningCapability](../classes/SudoknSwissMachiningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [Sudokn2-AxisCNCTurningCapability](../classes/Sudokn2-AxisCNCTurningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknElectolessNickelPlatingCapability](../classes/SudoknElectolessNickelPlatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFlameSprayingCapability](../classes/SudoknFlameSprayingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknDrillingCapability](../classes/SudoknDrillingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknLaserProcessingCapability](../classes/SudoknLaserProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknHorizontalMillingCapability](../classes/SudoknHorizontalMillingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCarbonitridingCapability](../classes/SudoknCarbonitridingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknChromateConversionCoatingCapability](../classes/SudoknChromateConversionCoatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [Sudokn3DPrintingCapability](../classes/Sudokn3DPrintingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSheetMetalFabricationCapability](../classes/SudoknSheetMetalFabricationCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknWaspaloyProcessingCapability](../classes/SudoknWaspaloyProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMetalFabricationCapability](../classes/SudoknMetalFabricationCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPLCProgrammingCapability](../classes/SudoknPLCProgrammingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknStretchFormingCapability](../classes/SudoknStretchFormingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCompositeProcessingCapability](../classes/SudoknCompositeProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPressBrakingCapability](../classes/SudoknPressBrakingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknIATF16949Certificate](../classes/SudoknIATF16949Certificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknHastelloyProcessingCapability](../classes/SudoknHastelloyProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPressingCapability](../classes/SudoknPressingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSeamWeldingCapability](../classes/SudoknSeamWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAbrasiveCleaningCapability](../classes/SudoknAbrasiveCleaningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPhosBronzeProcessingCapability](../classes/SudoknPhosBronzeProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknTurningCapability](../classes/SudoknTurningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknExtrusionCapability](../classes/SudoknExtrusionCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknInconelProcessingCapability](../classes/SudoknInconelProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCNCCuttingCapability](../classes/SudoknCNCCuttingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknRollingCapability](../classes/SudoknRollingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknWetPaintingCapability](../classes/SudoknWetPaintingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknGearHobbingCapability](../classes/SudoknGearHobbingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknIronProcessingCapability](../classes/SudoknIronProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAssemblyCapability](../classes/SudoknAssemblyCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknBroachingCapability](../classes/SudoknBroachingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknGraphiteProcessingCapability](../classes/SudoknGraphiteProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMagnesiumProcessingCapability](../classes/SudoknMagnesiumProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPlasmaArcWeldingCapability](../classes/SudoknPlasmaArcWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknISOCertificate](../classes/SudoknISOCertificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknExoticMaterialProcessingCapability](../classes/SudoknExoticMaterialProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknISTS16949Certificate](../classes/SudoknISTS16949Certificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAnnealingCapability](../classes/SudoknAnnealingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknChemicalCoatingCapability](../classes/SudoknChemicalCoatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMoldMakingCapability](../classes/SudoknMoldMakingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknRivetingCapability](../classes/SudoknRivetingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknThermaJoiningCapability](../classes/SudoknThermaJoiningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPemInsertionCapability](../classes/SudoknPemInsertionCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMachinaryAndEquipmentIndustry](../classes/SudoknMachinaryAndEquipmentIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPhosphorBronzeProcessingCapability](../classes/SudoknPhosphorBronzeProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSewingCapability](../classes/SudoknSewingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknHoleDrillingEDMCapability](../classes/SudoknHoleDrillingEDMCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMetalsProductsIndustry](../classes/SudoknMetalsProductsIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknTextilesIndustry](../classes/SudoknTextilesIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPaperandPaperboardProductsIndustry](../classes/SudoknPaperandPaperboardProductsIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknThermalWeldingCapability](../classes/SudoknThermalWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCNCMillingCapability](../classes/SudoknCNCMillingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknHotDipGalvanizingCapability](../classes/SudoknHotDipGalvanizingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknLaserWeldingCapability](../classes/SudoknLaserWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPermanentMoldCastingCapability](../classes/SudoknPermanentMoldCastingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknProjectionWeldingCapability](../classes/SudoknProjectionWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSheeringCapability](../classes/SudoknSheeringCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknDeepFreezingCapability](../classes/SudoknDeepFreezingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSinteringCapability](../classes/SudoknSinteringCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSportsAndLeisureIndustry](../classes/SudoknSportsAndLeisureIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAlloySteelProcessingCapability](../classes/SudoknAlloySteelProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSubmergedArcWeldingCapability](../classes/SudoknSubmergedArcWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPlasterMoldCastingCapability](../classes/SudoknPlasterMoldCastingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMIGWeldinCapability](../classes/SudoknMIGWeldinCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknWoodWorkingCapability](../classes/SudoknWoodWorkingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknBrazeWeldingCapability](../classes/SudoknBrazeWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMetalStampingCapability](../classes/SudoknMetalStampingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknEducationalInstitutionsIndustry](../classes/SudoknEducationalInstitutionsIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknHardeningCapability](../classes/SudoknHardeningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknLiveToolingCapability](../classes/SudoknLiveToolingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknRestaurantIndustry](../classes/SudoknRestaurantIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknHighGradeAluminumProcessingCapability](../classes/SudoknHighGradeAluminumProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMiningIndustry](../classes/SudoknMiningIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPrototypingCapability](../classes/SudoknPrototypingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFasteningCapability](../classes/SudoknFasteningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknWoodworkingCapability](../classes/SudoknWoodworkingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMachineBuildingCapability](../classes/SudoknMachineBuildingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknWireHarnessAssemblyCapability](../classes/SudoknWireHarnessAssemblyCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknEngineeringDesignCapability](../classes/SudoknEngineeringDesignCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCentrifugalCastingCapability](../classes/SudoknCentrifugalCastingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknZincAlloyProcessingCapability](../classes/SudoknZincAlloyProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknVacuumFormingCapability](../classes/SudoknVacuumFormingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknZincProcessingCapability](../classes/SudoknZincProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknElectrolessNickelPlating](../classes/SudoknElectrolessNickelPlating.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknZirconProcessingCapability](../classes/SudoknZirconProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknDeepHoleDrillingCapability](../classes/SudoknDeepHoleDrillingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSilverProcessingCapability](../classes/SudoknSilverProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPolycrystallineDiamondMachiningCapability](../classes/SudoknPolycrystallineDiamondMachiningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAWSWelderCertificate](../classes/SudoknAWSWelderCertificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPlasticMachiningCapability](../classes/SudoknPlasticMachiningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCobaltProcessingCapability](../classes/SudoknCobaltProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknLaserEtchingCapability](../classes/SudoknLaserEtchingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFDA-GMPCertificate](../classes/SudoknFDA-GMPCertificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknTextiles](../classes/SudoknTextiles.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknTubeBendingCapability](../classes/SudoknTubeBendingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknWoodProcessingCapability](../classes/SudoknWoodProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknElectricArcWeldingCapability](../classes/SudoknElectricArcWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknRubberProcessingCapability](../classes/SudoknRubberProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCopperProcessingCapability](../classes/SudoknCopperProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknClyndricalGrindingCapability](../classes/SudoknClyndricalGrindingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCNCBendingCapability](../classes/SudoknCNCBendingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPlasmaCuttingCapability](../classes/SudoknPlasmaCuttingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknISO14001](../classes/SudoknISO14001.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPackagingCapability](../classes/SudoknPackagingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknWaterjetCuttingCapability](../classes/SudoknWaterjetCuttingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknBendingCapability](../classes/SudoknBendingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSandCastingCapability](../classes/SudoknSandCastingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknBeverageIndustry](../classes/SudoknBeverageIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPercussionWeldingCapability](../classes/SudoknPercussionWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCerakoteCoatingCapability](../classes/SudoknCerakoteCoatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknRetailIndustry](../classes/SudoknRetailIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCNCPlasmaCuttingCapability](../classes/SudoknCNCPlasmaCuttingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSanitaryWeldingCapability](../classes/SudoknSanitaryWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNickelProcessingCapability](../classes/SudoknNickelProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknTI9000Certificate](../classes/SudoknTI9000Certificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPrintingAndInformationIndustry](../classes/SudoknPrintingAndInformationIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPassivationCapability](../classes/SudoknPassivationCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSiliconeProcessingCapability](../classes/SudoknSiliconeProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCNCTurningCapability](../classes/SudoknCNCTurningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPlaningCapability](../classes/SudoknPlaningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknGrindingCapability](../classes/SudoknGrindingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFurnitureIndustry](../classes/SudoknFurnitureIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknGasTungstenArcWeldingCapability](../classes/SudoknGasTungstenArcWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNaturalFiberProcessingCapability](../classes/SudoknNaturalFiberProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPulsedElectrochemicalMachiningCapability](../classes/SudoknPulsedElectrochemicalMachiningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSheetMetalProcessingCapability](../classes/SudoknSheetMetalProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSteelManufacturingCapability](../classes/SudoknSteelManufacturingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknElectronicProductIndustry](../classes/SudoknElectronicProductIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknThermoformingCapability](../classes/SudoknThermoformingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknKOSHERApproved](../classes/SudoknKOSHERApproved.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknTitaniumProcessingCapability](../classes/SudoknTitaniumProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknThermalCoatingCapability](../classes/SudoknThermalCoatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAcrylicFabricationCapability](../classes/SudoknAcrylicFabricationCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPolishingCapability](../classes/SudoknPolishingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknLatheWorkCapability](../classes/SudoknLatheWorkCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAgricultureIndustry](../classes/SudoknAgricultureIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknLaserCuttingCapability](../classes/SudoknLaserCuttingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknISO27001Certificate](../classes/SudoknISO27001Certificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknGlassProcessingCapability](../classes/SudoknGlassProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [IoMaterialProduct](../classes/IoMaterialProduct.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFabricationCapability](../classes/SudoknFabricationCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPipingFabricationCapability](../classes/SudoknPipingFabricationCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknElectroPlatingCapability](../classes/SudoknElectroPlatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknConsumerGoods](../classes/SudoknConsumerGoods.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknElectroSlagWeldingCapability](../classes/SudoknElectroSlagWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknVerticalMillingCapability](../classes/SudoknVerticalMillingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFiberOpticLaserCuttingCapability](../classes/SudoknFiberOpticLaserCuttingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknQS9000](../classes/SudoknQS9000.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknISO13485](../classes/SudoknISO13485.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknElectronicAutomotiveInudstry](../classes/SudoknElectronicAutomotiveInudstry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAbrassiveMachiningCapability](../classes/SudoknAbrassiveMachiningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknWaterandSewerUtilitiesIndustry](../classes/SudoknWaterandSewerUtilitiesIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNickelPlatingCapability](../classes/SudoknNickelPlatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknUtilitiesIndustry](../classes/SudoknUtilitiesIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNylonProcessingCapability](../classes/SudoknNylonProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknState](../classes/SudoknState.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknTurretPunchingCapability](../classes/SudoknTurretPunchingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknISO9001](../classes/SudoknISO9001.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknColdRolledSteelProcessingCapability](../classes/SudoknColdRolledSteelProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSteelProcessingCapability](../classes/SudoknSteelProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSurfaceGrindingCapability](../classes/SudoknSurfaceGrindingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknManMadeFiberProcessingCapability](../classes/SudoknManMadeFiberProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCustomFoamCuttingCapability](../classes/SudoknCustomFoamCuttingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknElectrolessNickelPlatingCapability](../classes/SudoknElectrolessNickelPlatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSteelAlloyProcessingCapability](../classes/SudoknSteelAlloyProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknISO13485Certificate](../classes/SudoknISO13485Certificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPhosphateCoatingCapability](../classes/SudoknPhosphateCoatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknExtremelyHardMaterialProcessingCapability](../classes/SudoknExtremelyHardMaterialProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCeramicProcessingCapability](../classes/SudoknCeramicProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNitridingCapability](../classes/SudoknNitridingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknLaserBeamWeldingCapability](../classes/SudoknLaserBeamWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknProfessionalServicesIndustry](../classes/SudoknProfessionalServicesIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMachiningCapability](../classes/SudoknMachiningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCommunicationandElectronicPowerUtilitiesIndustry](../classes/SudoknCommunicationandElectronicPowerUtilitiesIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknGasWeldingCapability](../classes/SudoknGasWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknStudWeldingCapability](../classes/SudoknStudWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknDifficultToMachineMaterialsProcessingCapability](../classes/SudoknDifficultToMachineMaterialsProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFormingCapability](../classes/SudoknFormingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknRapidPrototypingCapability](../classes/SudoknRapidPrototypingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSheetMetalFormingCapability](../classes/SudoknSheetMetalFormingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknScreenPrintingCapability](../classes/SudoknScreenPrintingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknInductionHeatingCapability](../classes/SudoknInductionHeatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknHealthCareServicesIndustry](../classes/SudoknHealthCareServicesIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknComputersandElectronicProductsIndustry](../classes/SudoknComputersandElectronicProductsIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknWaterjetCuttimgCapability](../classes/SudoknWaterjetCuttimgCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMetalworkingCapability](../classes/SudoknMetalworkingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMechanicalWeldingCapability](../classes/SudoknMechanicalWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFinishingCapability](../classes/SudoknFinishingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknResistanceBrazingCapability](../classes/SudoknResistanceBrazingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknGovermentIndustry](../classes/SudoknGovermentIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknWireBendingCapability](../classes/SudoknWireBendingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCounterSinkingCapability](../classes/SudoknCounterSinkingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknLiquidCoatingCapability](../classes/SudoknLiquidCoatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknDieCastingCapability](../classes/SudoknDieCastingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknBrazingCapability](../classes/SudoknBrazingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknISO14001Certificate](../classes/SudoknISO14001Certificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknTeflonProcessingCapability](../classes/SudoknTeflonProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknZincArcSprayCapability](../classes/SudoknZincArcSprayCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknGasMetalArcWeldingCapability](../classes/SudoknGasMetalArcWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMechanicalJoiningCapability](../classes/SudoknMechanicalJoiningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknOwnershipStatusClassifier](../classes/SudoknOwnershipStatusClassifier.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknReamingCapability](../classes/SudoknReamingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPackingCapability](../classes/SudoknPackingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknElectricalResistanceWeldingCapability](../classes/SudoknElectricalResistanceWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknLowAlloySteelProcessingCapability](../classes/SudoknLowAlloySteelProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCarbonArcBrazingCapability](../classes/SudoknCarbonArcBrazingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknConsumerGoodsIndustry](../classes/SudoknConsumerGoodsIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknOilGroovingCapability](../classes/SudoknOilGroovingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFrictionWeldingCapability](../classes/SudoknFrictionWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknBoringCapability](../classes/SudoknBoringCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPlasticProcessingCapability](../classes/SudoknPlasticProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknInvarProcessingCapability](../classes/SudoknInvarProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNADCAPAC7004](../classes/SudoknNADCAPAC7004.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknShrinkFittingCapability](../classes/SudoknShrinkFittingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCNCHorizontalTurningCapability](../classes/SudoknCNCHorizontalTurningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknToolMakingCapability](../classes/SudoknToolMakingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSandBlastingCapability](../classes/SudoknSandBlastingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCNCFormingCapability](../classes/SudoknCNCFormingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknEtchingCapability](../classes/SudoknEtchingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknTantalumProcessingCapability](../classes/SudoknTantalumProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknApparelIndustry](../classes/SudoknApparelIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknISO9000Certificate](../classes/SudoknISO9000Certificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPlasticAndRubberIndustry](../classes/SudoknPlasticAndRubberIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCarburizingCapability](../classes/SudoknCarburizingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknLexanProcessingCapability](../classes/SudoknLexanProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCarbonGraphiteProcessingCapability](../classes/SudoknCarbonGraphiteProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPaintingCapability](../classes/SudoknPaintingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAerospaceIndustry](../classes/SudoknAerospaceIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknHighEnergyBeamWeldingCapability](../classes/SudoknHighEnergyBeamWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPlatingCapability](../classes/SudoknPlatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknUltrasonicWeldingCapability](../classes/SudoknUltrasonicWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFDA-PMACertificate](../classes/SudoknFDA-PMACertificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknISO17265Certificate](../classes/SudoknISO17265Certificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPressureWeldingCapability](../classes/SudoknPressureWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknChromiumProcessingCapability](../classes/SudoknChromiumProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAtomicHydrogenWeldingCapability](../classes/SudoknAtomicHydrogenWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPlasmaSprayingCapability](../classes/SudoknPlasmaSprayingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSlabMillingCapability](../classes/SudoknSlabMillingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSinkerEdmCapability](../classes/SudoknSinkerEdmCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknShieldedMetalArcWeldingCapability](../classes/SudoknShieldedMetalArcWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFillingCapability](../classes/SudoknFillingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPlatinumProcessingCapability](../classes/SudoknPlatinumProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMetalProcessingCapability](../classes/SudoknMetalProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPunchingCapability](../classes/SudoknPunchingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCNCLatheCapability](../classes/SudoknCNCLatheCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknInvestmentCastingCapability](../classes/SudoknInvestmentCastingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSawingCapability](../classes/SudoknSawingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknTIGWeldingCapability](../classes/SudoknTIGWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFaceMillingCapability](../classes/SudoknFaceMillingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFDACertificate](../classes/SudoknFDACertificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknInductionBrazingCapability](../classes/SudoknInductionBrazingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknQS9000Certificate](../classes/SudoknQS9000Certificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknForgingCapability](../classes/SudoknForgingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknVacuumPackagingCapability](../classes/SudoknVacuumPackagingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknHeatTreatingCapability](../classes/SudoknHeatTreatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknISO14000Certificate](../classes/SudoknISO14000Certificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknHealthcareServicesIndustry](../classes/SudoknHealthcareServicesIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknITARCertificate](../classes/SudoknITARCertificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknUrethaneProcessingCapability](../classes/SudoknUrethaneProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknTappingCapability](../classes/SudoknTappingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPalladiumProcessingCapability](../classes/SudoknPalladiumProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCounterBoringCapability](../classes/SudoknCounterBoringCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknShellMoldCastingCapability](../classes/SudoknShellMoldCastingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAS9100Certificate](../classes/SudoknAS9100Certificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPhysicalVaporDepositionCapability](../classes/SudoknPhysicalVaporDepositionCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCommunicationIndustry](../classes/SudoknCommunicationIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknChemicalCleaningCapability](../classes/SudoknChemicalCleaningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknChemicalAndPetrochemicalIndustry](../classes/SudoknChemicalAndPetrochemicalIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknDiffusionBondingCapability](../classes/SudoknDiffusionBondingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknElectricVehiclesIndustry](../classes/SudoknElectricVehiclesIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknLeadProcessingCapability](../classes/SudoknLeadProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknDelrinProcessingCapability](../classes/SudoknDelrinProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknEmbossingCapability](../classes/SudoknEmbossingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCreepFeedGrindingCapability](../classes/SudoknCreepFeedGrindingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknRetailTradeIndustry](../classes/SudoknRetailTradeIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknBABACertificate](../classes/SudoknBABACertificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknComputerIndustry](../classes/SudoknComputerIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCNCMachiningCapability](../classes/SudoknCNCMachiningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknShapingCapability](../classes/SudoknShapingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknReverseEngineeringCapability](../classes/SudoknReverseEngineeringCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCNCClyndricalGrindingCapability](../classes/SudoknCNCClyndricalGrindingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknASME](../classes/SudoknASME.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMediaBlastingCapability](../classes/SudoknMediaBlastingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFoodIndustry](../classes/SudoknFoodIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknElectroplatingCapability](../classes/SudoknElectroplatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknBerylliumProcessingCapability](../classes/SudoknBerylliumProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknEducationIndustry](../classes/SudoknEducationIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPreciousMaterialProcessingCapability](../classes/SudoknPreciousMaterialProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknInstallationCapability](../classes/SudoknInstallationCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknGalvanizingCapability](../classes/SudoknGalvanizingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknWarehousingAndStorageIndustry](../classes/SudoknWarehousingAndStorageIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknRoboticWeldingCapability](../classes/SudoknRoboticWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCADCapability](../classes/SudoknCADCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknResistanceWeldingCapability](../classes/SudoknResistanceWeldingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNomexProcessingCapability](../classes/SudoknNomexProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknISO9001Certificate](../classes/SudoknISO9001Certificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknKnittingCapability](../classes/SudoknKnittingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCoatingCapability](../classes/SudoknCoatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknOilAndGasIndustry](../classes/SudoknOilAndGasIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [IoManufacturer](../classes/IoManufacturer.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNADCAPCertificate](../classes/SudoknNADCAPCertificate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknTransportationIndustry](../classes/SudoknTransportationIndustry.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSurfaceFinishingCapability](../classes/SudoknSurfaceFinishingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknBronzeProcessingCapability](../classes/SudoknBronzeProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknProductDesignCapability](../classes/SudoknProductDesignCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknHoningCapability](../classes/SudoknHoningCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFabricatingCapability](../classes/SudoknFabricatingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknCastingCapability](../classes/SudoknCastingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknSpecialMaterialsProcessingCapability](../classes/SudoknSpecialMaterialsProcessingCapability.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknITARCompliant](../classes/SudoknITARCompliant.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SudoknISO14000Certificate](../classes/SudoknISO14000Certificate.md) | No type description provided |  no  |
+| [SudoknWiringCapability](../classes/SudoknWiringCapability.md) | No type description provided |  no  |
+| [SudoknVacuumPackagingCapability](../classes/SudoknVacuumPackagingCapability.md) | No type description provided |  no  |
+| [SudoknISO9000Certificate](../classes/SudoknISO9000Certificate.md) | No type description provided |  no  |
+| [SudoknFinishingCapability](../classes/SudoknFinishingCapability.md) | No type description provided |  no  |
+| [SudoknPalladiumProcessingCapability](../classes/SudoknPalladiumProcessingCapability.md) | No type description provided |  no  |
+| [SudoknBeverageIndustry](../classes/SudoknBeverageIndustry.md) | No type description provided |  no  |
+| [SudoknChemicalsProcessingCapability](../classes/SudoknChemicalsProcessingCapability.md) | No type description provided |  no  |
+| [SudoknResistanceWeldingCapability](../classes/SudoknResistanceWeldingCapability.md) | No type description provided |  no  |
+| [SudoknPolishingCapability](../classes/SudoknPolishingCapability.md) | No type description provided |  no  |
+| [SudoknRoboticWeldingCapability](../classes/SudoknRoboticWeldingCapability.md) | No type description provided |  no  |
+| [SudoknGraphiteProcessingCapability](../classes/SudoknGraphiteProcessingCapability.md) | No type description provided |  no  |
+| [SudoknZirconProcessingCapability](../classes/SudoknZirconProcessingCapability.md) | No type description provided |  no  |
+| [SudoknFixtureDesignCapability](../classes/SudoknFixtureDesignCapability.md) | No type description provided |  no  |
+| [SudoknSinkerEDMCapability](../classes/SudoknSinkerEDMCapability.md) | No type description provided |  no  |
+| [SudoknEmbossingCapability](../classes/SudoknEmbossingCapability.md) | No type description provided |  no  |
+| [SudoknISO9000](../classes/SudoknISO9000.md) | No type description provided |  no  |
+| [SudoknGovermentIndustry](../classes/SudoknGovermentIndustry.md) | No type description provided |  no  |
+| [SudoknThermalWeldingCapability](../classes/SudoknThermalWeldingCapability.md) | No type description provided |  no  |
+| [SudoknMetalworkingCapability](../classes/SudoknMetalworkingCapability.md) | No type description provided |  no  |
+| [SudoknCNCPressBrakeCapability](../classes/SudoknCNCPressBrakeCapability.md) | No type description provided |  no  |
+| [SudoknExtremelyHardMaterialProcessingCapability](../classes/SudoknExtremelyHardMaterialProcessingCapability.md) | No type description provided |  no  |
+| [SudoknNylonProcessingCapability](../classes/SudoknNylonProcessingCapability.md) | No type description provided |  no  |
+| [SudoknTransportationIndustry](../classes/SudoknTransportationIndustry.md) | No type description provided |  no  |
+| [SudoknBABACertificate](../classes/SudoknBABACertificate.md) | No type description provided |  no  |
+| [SudoknKittingCapability](../classes/SudoknKittingCapability.md) | No type description provided |  no  |
+| [SudoknLiveToolingCapability](../classes/SudoknLiveToolingCapability.md) | No type description provided |  no  |
+| [SudoknPhosphorBronzeProcessingCapability](../classes/SudoknPhosphorBronzeProcessingCapability.md) | No type description provided |  no  |
+| [SudoknZincAlloyProcessingCapability](../classes/SudoknZincAlloyProcessingCapability.md) | No type description provided |  no  |
+| [SudoknGasMetalArcWeldingCapability](../classes/SudoknGasMetalArcWeldingCapability.md) | No type description provided |  no  |
+| [SudoknMetalFabricationCapability](../classes/SudoknMetalFabricationCapability.md) | No type description provided |  no  |
+| [SudoknWoodworkingCapability](../classes/SudoknWoodworkingCapability.md) | No type description provided |  no  |
+| [SudoknCNCMillingCapability](../classes/SudoknCNCMillingCapability.md) | No type description provided |  no  |
+| [Sudokn2-AxisCNCTurningCapability](../classes/Sudokn2-AxisCNCTurningCapability.md) | No type description provided |  no  |
+| [SudoknEndFormingCapability](../classes/SudoknEndFormingCapability.md) | No type description provided |  no  |
+| [SudoknPaperboardProductsIndustry](../classes/SudoknPaperboardProductsIndustry.md) | No type description provided |  no  |
+| [SudoknISO14001](../classes/SudoknISO14001.md) | No type description provided |  no  |
+| [SudoknMechanicalCoatingCapability](../classes/SudoknMechanicalCoatingCapability.md) | No type description provided |  no  |
+| [SudoknExoticMaterialProcessingCapability](../classes/SudoknExoticMaterialProcessingCapability.md) | No type description provided |  no  |
+| [SudoknMediaBlastingCapability](../classes/SudoknMediaBlastingCapability.md) | No type description provided |  no  |
+| [SudoknBrazingCapability](../classes/SudoknBrazingCapability.md) | No type description provided |  no  |
+| [SudoknCreepFeedGrindingCapability](../classes/SudoknCreepFeedGrindingCapability.md) | No type description provided |  no  |
+| [SudoknPrototypingCapability](../classes/SudoknPrototypingCapability.md) | No type description provided |  no  |
+| [SudoknWaspaloyProcessingCapability](../classes/SudoknWaspaloyProcessingCapability.md) | No type description provided |  no  |
+| [SudoknWaterAndSewerUtilitiesIndustry](../classes/SudoknWaterAndSewerUtilitiesIndustry.md) | No type description provided |  no  |
+| [SudoknCoatingCapability](../classes/SudoknCoatingCapability.md) | No type description provided |  no  |
+| [SudoknPowderCoatingCapability](../classes/SudoknPowderCoatingCapability.md) | No type description provided |  no  |
+| [SudoknBendingCapability](../classes/SudoknBendingCapability.md) | No type description provided |  no  |
+| [SudoknMetalProductionIndustry](../classes/SudoknMetalProductionIndustry.md) | No type description provided |  no  |
+| [SudoknNickelProcessingCapability](../classes/SudoknNickelProcessingCapability.md) | No type description provided |  no  |
+| [SudoknSpinningCapability](../classes/SudoknSpinningCapability.md) | No type description provided |  no  |
+| [SudoknBusinessEquipmentIndustry](../classes/SudoknBusinessEquipmentIndustry.md) | No type description provided |  no  |
+| [SudoknIndustrialMachineryandEquipmentIndustry](../classes/SudoknIndustrialMachineryandEquipmentIndustry.md) | No type description provided |  no  |
+| [SudoknUrethaneProcessingCapability](../classes/SudoknUrethaneProcessingCapability.md) | No type description provided |  no  |
+| [SudoknWoodProcessingCapability](../classes/SudoknWoodProcessingCapability.md) | No type description provided |  no  |
+| [SudoknNomexProcessingCapability](../classes/SudoknNomexProcessingCapability.md) | No type description provided |  no  |
+| [SudoknPreciousMaterialProcessingCapability](../classes/SudoknPreciousMaterialProcessingCapability.md) | No type description provided |  no  |
+| [SudoknRivettingCapability](../classes/SudoknRivettingCapability.md) | No type description provided |  no  |
+| [SudoknAbrassiveMachiningCapability](../classes/SudoknAbrassiveMachiningCapability.md) | No type description provided |  no  |
+| [SudoknDelrinProcessingCapability](../classes/SudoknDelrinProcessingCapability.md) | No type description provided |  no  |
+| [SudoknWireBendingCapability](../classes/SudoknWireBendingCapability.md) | No type description provided |  no  |
+| [SudoknFoamProcessingCapability](../classes/SudoknFoamProcessingCapability.md) | No type description provided |  no  |
+| [SudoknWaterjetCuttimgCapability](../classes/SudoknWaterjetCuttimgCapability.md) | No type description provided |  no  |
+| [SudoknNADCAPCertificate](../classes/SudoknNADCAPCertificate.md) | No type description provided |  no  |
+| [SudoknHotDipGalvanizingCapability](../classes/SudoknHotDipGalvanizingCapability.md) | No type description provided |  no  |
+| [SudoknFDACertificate](../classes/SudoknFDACertificate.md) | No type description provided |  no  |
+| [SudoknTinProcessingCapability](../classes/SudoknTinProcessingCapability.md) | No type description provided |  no  |
+| [SudoknHarperizingCapability](../classes/SudoknHarperizingCapability.md) | No type description provided |  no  |
+| [SudoknExtrudingCapability](../classes/SudoknExtrudingCapability.md) | No type description provided |  no  |
+| [SudoknReamingCapability](../classes/SudoknReamingCapability.md) | No type description provided |  no  |
+| [SudoknPemInsertionCapability](../classes/SudoknPemInsertionCapability.md) | No type description provided |  no  |
+| [SudoknNADCAPAC7004](../classes/SudoknNADCAPAC7004.md) | No type description provided |  no  |
+| [SudoknBritishRetailConsortiumAccreditation](../classes/SudoknBritishRetailConsortiumAccreditation.md) | No type description provided |  no  |
+| [SudoknSiliconeProcessingCapability](../classes/SudoknSiliconeProcessingCapability.md) | No type description provided |  no  |
+| [SudoknHastelloyProcessingCapability](../classes/SudoknHastelloyProcessingCapability.md) | No type description provided |  no  |
+| [SudoknWeldingCapability](../classes/SudoknWeldingCapability.md) | No type description provided |  no  |
+| [SudoknCommunicationandElectronicPowerUtilitiesIndustry](../classes/SudoknCommunicationandElectronicPowerUtilitiesIndustry.md) | No type description provided |  no  |
+| [SudoknFormingCapability](../classes/SudoknFormingCapability.md) | No type description provided |  no  |
+| [SudoknCNCCylindricalGrindingCapability](../classes/SudoknCNCCylindricalGrindingCapability.md) | No type description provided |  no  |
+| [SudoknState](../classes/SudoknState.md) | No type description provided |  no  |
+| [SudoknGasWeldingCapability](../classes/SudoknGasWeldingCapability.md) | No type description provided |  no  |
+| [SudoknTappingCapability](../classes/SudoknTappingCapability.md) | No type description provided |  no  |
+| [SudoknCobaltProcessingCapability](../classes/SudoknCobaltProcessingCapability.md) | No type description provided |  no  |
+| [SudoknScreenPrintingCapability](../classes/SudoknScreenPrintingCapability.md) | No type description provided |  no  |
+| [SudoknPipingFabricationCapability](../classes/SudoknPipingFabricationCapability.md) | No type description provided |  no  |
+| [SudoknPercussionWeldingCapability](../classes/SudoknPercussionWeldingCapability.md) | No type description provided |  no  |
+| [SudoknNaturalFiberProcessingCapability](../classes/SudoknNaturalFiberProcessingCapability.md) | No type description provided |  no  |
+| [SudoknUtilitiesIndustry](../classes/SudoknUtilitiesIndustry.md) | No type description provided |  no  |
+| [SudoknCNCHorizontalTurningCapability](../classes/SudoknCNCHorizontalTurningCapability.md) | No type description provided |  no  |
+| [SudoknElectrolessPlatingCapability](../classes/SudoknElectrolessPlatingCapability.md) | No type description provided |  no  |
+| [SudoknWaterJetCuttingCapability](../classes/SudoknWaterJetCuttingCapability.md) | No type description provided |  no  |
+| [SudoknMechanicalWeldingCapability](../classes/SudoknMechanicalWeldingCapability.md) | No type description provided |  no  |
+| [SudoknStretchFormingCapability](../classes/SudoknStretchFormingCapability.md) | No type description provided |  no  |
+| [SudoknBronzeProcessingCapability](../classes/SudoknBronzeProcessingCapability.md) | No type description provided |  no  |
+| [SudoknStudWeldingCapability](../classes/SudoknStudWeldingCapability.md) | No type description provided |  no  |
+| [SudoknElectropolishingCapability](../classes/SudoknElectropolishingCapability.md) | No type description provided |  no  |
+| [SudoknDipBrazingCapability](../classes/SudoknDipBrazingCapability.md) | No type description provided |  no  |
+| [SudoknSinglePointCuttingCapability](../classes/SudoknSinglePointCuttingCapability.md) | No type description provided |  no  |
+| [SudoknPulsedElectrochemicalMachiningCapability](../classes/SudoknPulsedElectrochemicalMachiningCapability.md) | No type description provided |  no  |
+| [SudoknMechanicalAssemblyCapability](../classes/SudoknMechanicalAssemblyCapability.md) | No type description provided |  no  |
+| [SudoknKovarProcessingCapability](../classes/SudoknKovarProcessingCapability.md) | No type description provided |  no  |
+| [SudoknWoodWorkingCapability](../classes/SudoknWoodWorkingCapability.md) | No type description provided |  no  |
+| [Sudokn3DPrintingCapability](../classes/Sudokn3DPrintingCapability.md) | No type description provided |  no  |
+| [SudoknAerospaceIndustry](../classes/SudoknAerospaceIndustry.md) | No type description provided |  no  |
+| [SudoknISTS16949Certificate](../classes/SudoknISTS16949Certificate.md) | No type description provided |  no  |
+| [SudoknSpotWeldingCapability](../classes/SudoknSpotWeldingCapability.md) | No type description provided |  no  |
+| [SudoknITARCompliant](../classes/SudoknITARCompliant.md) | No type description provided |  no  |
+| [SudoknAtomicHydrogenWeldingCapability](../classes/SudoknAtomicHydrogenWeldingCapability.md) | No type description provided |  no  |
+| [SudoknRollingCapability](../classes/SudoknRollingCapability.md) | No type description provided |  no  |
+| [SudoknTeflonProcessingCapability](../classes/SudoknTeflonProcessingCapability.md) | No type description provided |  no  |
+| [SudoknConsumerGoodsIndustry](../classes/SudoknConsumerGoodsIndustry.md) | No type description provided |  no  |
+| [SudoknPlaningCapability](../classes/SudoknPlaningCapability.md) | No type description provided |  no  |
+| [SudoknQS9000](../classes/SudoknQS9000.md) | No type description provided |  no  |
+| [SudoknReverseEngineeringCapability](../classes/SudoknReverseEngineeringCapability.md) | No type description provided |  no  |
+| [SudoknMiningIndustry](../classes/SudoknMiningIndustry.md) | No type description provided |  no  |
+| [SudoknSheeringCapability](../classes/SudoknSheeringCapability.md) | No type description provided |  no  |
+| [SudoknTitaniumProcessingCapability](../classes/SudoknTitaniumProcessingCapability.md) | No type description provided |  no  |
+| [SudoknPlasticMachiningCapability](../classes/SudoknPlasticMachiningCapability.md) | No type description provided |  no  |
+| [SudoknPhysicalVaporDepositionCapability](../classes/SudoknPhysicalVaporDepositionCapability.md) | No type description provided |  no  |
+| [SudoknISO14001Certificate](../classes/SudoknISO14001Certificate.md) | No type description provided |  no  |
+| [SudoknTubeBendingCapability](../classes/SudoknTubeBendingCapability.md) | No type description provided |  no  |
+| [SudoknPhosphateCoatingCapability](../classes/SudoknPhosphateCoatingCapability.md) | No type description provided |  no  |
+| [SudoknAS9102Certificate](../classes/SudoknAS9102Certificate.md) | No type description provided |  no  |
+| [SudoknGasTungstenArcWeldingCapability](../classes/SudoknGasTungstenArcWeldingCapability.md) | No type description provided |  no  |
+| [SudoknMetalStampingCapability](../classes/SudoknMetalStampingCapability.md) | No type description provided |  no  |
+| [SudoknSlabMillingCapability](../classes/SudoknSlabMillingCapability.md) | No type description provided |  no  |
+| [SudoknCNCmillingCapability](../classes/SudoknCNCmillingCapability.md) | No type description provided |  no  |
+| [SudoknCity](../classes/SudoknCity.md) | No type description provided |  no  |
+| [SudoknPolycrystallineDiamondMachiningCapability](../classes/SudoknPolycrystallineDiamondMachiningCapability.md) | No type description provided |  no  |
+| [SudoknHighGradeAluminumProcessingCapability](../classes/SudoknHighGradeAluminumProcessingCapability.md) | No type description provided |  no  |
+| [SudoknGovernmentIndustry](../classes/SudoknGovernmentIndustry.md) | No type description provided |  no  |
+| [SudoknManMadeFiberProcessingCapability](../classes/SudoknManMadeFiberProcessingCapability.md) | No type description provided |  no  |
+| [SudoknRetailTradeIndustry](../classes/SudoknRetailTradeIndustry.md) | No type description provided |  no  |
+| [SudoknCarbonitridingCapability](../classes/SudoknCarbonitridingCapability.md) | No type description provided |  no  |
+| [SudoknKnittingCapability](../classes/SudoknKnittingCapability.md) | No type description provided |  no  |
+| [SudoknSurfaceGrindingCapability](../classes/SudoknSurfaceGrindingCapability.md) | No type description provided |  no  |
+| [SudoknISO27001Certificate](../classes/SudoknISO27001Certificate.md) | No type description provided |  no  |
+| [IoManufacturer](../classes/IoManufacturer.md) | No type description provided |  no  |
+| [SudoknPassivationCapability](../classes/SudoknPassivationCapability.md) | No type description provided |  no  |
+| [SudoknCNCFormingCapability](../classes/SudoknCNCFormingCapability.md) | No type description provided |  no  |
+| [SudoknLeadProcessingCapability](../classes/SudoknLeadProcessingCapability.md) | No type description provided |  no  |
+| [SudoknElectricVehiclesIndustry](../classes/SudoknElectricVehiclesIndustry.md) | No type description provided |  no  |
+| [SudoknOffshoreWindIndustry](../classes/SudoknOffshoreWindIndustry.md) | No type description provided |  no  |
+| [SudoknResistanceBrazingCapability](../classes/SudoknResistanceBrazingCapability.md) | No type description provided |  no  |
+| [SudoknASMECertificate](../classes/SudoknASMECertificate.md) | No type description provided |  no  |
+| [SudoknMIGWeldinCapability](../classes/SudoknMIGWeldinCapability.md) | No type description provided |  no  |
+| [SudoknTungstenProcessingCapability](../classes/SudoknTungstenProcessingCapability.md) | No type description provided |  no  |
+| [SudoknMetalProcessingCapability](../classes/SudoknMetalProcessingCapability.md) | No type description provided |  no  |
+| [SudoknBrazeWeldingCapability](../classes/SudoknBrazeWeldingCapability.md) | No type description provided |  no  |
+| [SudoknRubberProcessingCapability](../classes/SudoknRubberProcessingCapability.md) | No type description provided |  no  |
+| [SudoknWaterjetCuttingCapability](../classes/SudoknWaterjetCuttingCapability.md) | No type description provided |  no  |
+| [SudoknConsumerGoods](../classes/SudoknConsumerGoods.md) | No type description provided |  no  |
+| [SudoknShotPeeningCapability](../classes/SudoknShotPeeningCapability.md) | No type description provided |  no  |
+| [SudoknProfessionalServicesIndustry](../classes/SudoknProfessionalServicesIndustry.md) | No type description provided |  no  |
+| [SudoknTantalumProcessingCapability](../classes/SudoknTantalumProcessingCapability.md) | No type description provided |  no  |
+| [SudoknColdRolledSteelProcessingCapability](../classes/SudoknColdRolledSteelProcessingCapability.md) | No type description provided |  no  |
+| [SudoknCNCClyndricalGrindingCapability](../classes/SudoknCNCClyndricalGrindingCapability.md) | No type description provided |  no  |
+| [SudoknPackingCapability](../classes/SudoknPackingCapability.md) | No type description provided |  no  |
+| [SudoknPrintingAndInformationIndustry](../classes/SudoknPrintingAndInformationIndustry.md) | No type description provided |  no  |
+| [SudoknCarburizingCapability](../classes/SudoknCarburizingCapability.md) | No type description provided |  no  |
+| [SudoknTubingCapability](../classes/SudoknTubingCapability.md) | No type description provided |  no  |
+| [SudoknGalvanizingCapability](../classes/SudoknGalvanizingCapability.md) | No type description provided |  no  |
+| [SudoknHoningCapability](../classes/SudoknHoningCapability.md) | No type description provided |  no  |
+| [SudoknVerticalMillingCapability](../classes/SudoknVerticalMillingCapability.md) | No type description provided |  no  |
+| [SudoknLowAlloySteelProcessingCapability](../classes/SudoknLowAlloySteelProcessingCapability.md) | No type description provided |  no  |
+| [SudoknPackagingCapability](../classes/SudoknPackagingCapability.md) | No type description provided |  no  |
+| [SudoknShapingCapability](../classes/SudoknShapingCapability.md) | No type description provided |  no  |
+| [SudoknCustomFoamCuttingCapability](../classes/SudoknCustomFoamCuttingCapability.md) | No type description provided |  no  |
+| [SudoknFixturingCapability](../classes/SudoknFixturingCapability.md) | No type description provided |  no  |
+| [SudoknCarbonGraphiteProcessingCapability](../classes/SudoknCarbonGraphiteProcessingCapability.md) | No type description provided |  no  |
+| [SudoknDifficultToMachineMaterialsProcessingCapability](../classes/SudoknDifficultToMachineMaterialsProcessingCapability.md) | No type description provided |  no  |
+| [SudoknGearCuttingCapability](../classes/SudoknGearCuttingCapability.md) | No type description provided |  no  |
+| [SudoknOilAndGasIndustry](../classes/SudoknOilAndGasIndustry.md) | No type description provided |  no  |
+| [SudoknVaporizedMetalCoatingCapability](../classes/SudoknVaporizedMetalCoatingCapability.md) | No type description provided |  no  |
+| [SudoknSubmergedArcWeldingCapability](../classes/SudoknSubmergedArcWeldingCapability.md) | No type description provided |  no  |
+| [SudoknSwissTurningCapability](../classes/SudoknSwissTurningCapability.md) | No type description provided |  no  |
+| [SudoknCeramicProcessingCapability](../classes/SudoknCeramicProcessingCapability.md) | No type description provided |  no  |
+| [SudoknAS9000Certificate](../classes/SudoknAS9000Certificate.md) | No type description provided |  no  |
+| [SudoknPlasmaArcWeldingCapability](../classes/SudoknPlasmaArcWeldingCapability.md) | No type description provided |  no  |
+| [SudoknCNCLatheCapability](../classes/SudoknCNCLatheCapability.md) | No type description provided |  no  |
+| [SudoknAbrasiveCleaningCapability](../classes/SudoknAbrasiveCleaningCapability.md) | No type description provided |  no  |
+| [SudoknLiquidCoatingCapability](../classes/SudoknLiquidCoatingCapability.md) | No type description provided |  no  |
+| [SudoknJoiningCapability](../classes/SudoknJoiningCapability.md) | No type description provided |  no  |
+| [SudoknCounterSinkingCapability](../classes/SudoknCounterSinkingCapability.md) | No type description provided |  no  |
+| [SudoknExtrusionCapability](../classes/SudoknExtrusionCapability.md) | No type description provided |  no  |
+| [SudoknMachiningCapability](../classes/SudoknMachiningCapability.md) | No type description provided |  no  |
+| [SudoknProductDesignCapability](../classes/SudoknProductDesignCapability.md) | No type description provided |  no  |
+| [SudoknOilGroovingCapability](../classes/SudoknOilGroovingCapability.md) | No type description provided |  no  |
+| [SudoknElectricAutomotiveIndustry](../classes/SudoknElectricAutomotiveIndustry.md) | No type description provided |  no  |
+| [SudoknDeepHoleDrillingCapability](../classes/SudoknDeepHoleDrillingCapability.md) | No type description provided |  no  |
+| [SudoknCerakoteCoatingCapability](../classes/SudoknCerakoteCoatingCapability.md) | No type description provided |  no  |
+| [SudoknRetailIndustry](../classes/SudoknRetailIndustry.md) | No type description provided |  no  |
+| [SudoknCuttingCapability](../classes/SudoknCuttingCapability.md) | No type description provided |  no  |
+| [SudoknCarbideProcessingCapability](../classes/SudoknCarbideProcessingCapability.md) | No type description provided |  no  |
+| [SudoknInfraredBrazingCapability](../classes/SudoknInfraredBrazingCapability.md) | No type description provided |  no  |
+| [SudoknAssemblyCapability](../classes/SudoknAssemblyCapability.md) | No type description provided |  no  |
+| [SudoknCompositeProcessingCapability](../classes/SudoknCompositeProcessingCapability.md) | No type description provided |  no  |
+| [SudoknKnurlingCapability](../classes/SudoknKnurlingCapability.md) | No type description provided |  no  |
+| [SudoknMigWeldingCapability](../classes/SudoknMigWeldingCapability.md) | No type description provided |  no  |
+| [SudoknSheetMetalFormingCapability](../classes/SudoknSheetMetalFormingCapability.md) | No type description provided |  no  |
+| [SudoknDrawingCapability](../classes/SudoknDrawingCapability.md) | No type description provided |  no  |
+| [SudoknEndMillingCapability](../classes/SudoknEndMillingCapability.md) | No type description provided |  no  |
+| [SudoknSheetMetalFabricationCapability](../classes/SudoknSheetMetalFabricationCapability.md) | No type description provided |  no  |
+| [SudoknMetalSpinningCapability](../classes/SudoknMetalSpinningCapability.md) | No type description provided |  no  |
+| [SudoknElectroSlagWeldingCapability](../classes/SudoknElectroSlagWeldingCapability.md) | No type description provided |  no  |
+| [SudoknAutomotiveIndustry](../classes/SudoknAutomotiveIndustry.md) | No type description provided |  no  |
+| [SudoknSilkScreeningCapability](../classes/SudoknSilkScreeningCapability.md) | No type description provided |  no  |
+| [SudoknFiberOpticLaserCuttingCapability](../classes/SudoknFiberOpticLaserCuttingCapability.md) | No type description provided |  no  |
+| [SudoknOxy-FuelCuttingCapability](../classes/SudoknOxy-FuelCuttingCapability.md) | No type description provided |  no  |
+| [SudoknCADCapability](../classes/SudoknCADCapability.md) | No type description provided |  no  |
+| [SudoknNotchingCapability](../classes/SudoknNotchingCapability.md) | No type description provided |  no  |
+| [SudoknFaceMillingCapability](../classes/SudoknFaceMillingCapability.md) | No type description provided |  no  |
+| [SudoknPhosBronzeProcessingCapability](../classes/SudoknPhosBronzeProcessingCapability.md) | No type description provided |  no  |
+| [SudoknLaserBeamWeldingCapability](../classes/SudoknLaserBeamWeldingCapability.md) | No type description provided |  no  |
+| [SudoknLaserCuttingCapability](../classes/SudoknLaserCuttingCapability.md) | No type description provided |  no  |
+| [SudoknPaperIndustry](../classes/SudoknPaperIndustry.md) | No type description provided |  no  |
+| [SudoknRAMEdmCapability](../classes/SudoknRAMEdmCapability.md) | No type description provided |  no  |
+| [SudoknCNCLaserCuttingCapability](../classes/SudoknCNCLaserCuttingCapability.md) | No type description provided |  no  |
+| [SudoknPlasticAndRubberIndustry](../classes/SudoknPlasticAndRubberIndustry.md) | No type description provided |  no  |
+| [SudoknSmeltingCapability](../classes/SudoknSmeltingCapability.md) | No type description provided |  no  |
+| [SudoknShieldedMetalArcWeldingCapability](../classes/SudoknShieldedMetalArcWeldingCapability.md) | No type description provided |  no  |
+| [SudoknBroachingCapability](../classes/SudoknBroachingCapability.md) | No type description provided |  no  |
+| [SudoknComputerIndustry](../classes/SudoknComputerIndustry.md) | No type description provided |  no  |
+| [SudoknCopperProcessingCapability](../classes/SudoknCopperProcessingCapability.md) | No type description provided |  no  |
+| [SudoknLaserWeldingCapability](../classes/SudoknLaserWeldingCapability.md) | No type description provided |  no  |
+| [SudoknIS-TS16949](../classes/SudoknIS-TS16949.md) | No type description provided |  no  |
+| [SudoknLatheWorkCapability](../classes/SudoknLatheWorkCapability.md) | No type description provided |  no  |
+| [SudoknRivetingCapability](../classes/SudoknRivetingCapability.md) | No type description provided |  no  |
+| [SudoknQS9000Certificate](../classes/SudoknQS9000Certificate.md) | No type description provided |  no  |
+| [SudoknAnnealingCapability](../classes/SudoknAnnealingCapability.md) | No type description provided |  no  |
+| [SudoknPlatingCapability](../classes/SudoknPlatingCapability.md) | No type description provided |  no  |
+| [SudoknPressureWeldingCapability](../classes/SudoknPressureWeldingCapability.md) | No type description provided |  no  |
+| [SudoknTurretPunchingCapability](../classes/SudoknTurretPunchingCapability.md) | No type description provided |  no  |
+| [SudoknMagnesiumAlloyProcessingCapability](../classes/SudoknMagnesiumAlloyProcessingCapability.md) | No type description provided |  no  |
+| [SudoknPlasticProcessingCapability](../classes/SudoknPlasticProcessingCapability.md) | No type description provided |  no  |
+| [SudoknPlasmaSprayingCapability](../classes/SudoknPlasmaSprayingCapability.md) | No type description provided |  no  |
+| [SudoknDieCastingCapability](../classes/SudoknDieCastingCapability.md) | No type description provided |  no  |
+| [SudoknConstructionIndustry](../classes/SudoknConstructionIndustry.md) | No type description provided |  no  |
+| [SudoknHAACPCertificate](../classes/SudoknHAACPCertificate.md) | No type description provided |  no  |
+| [SudoknOwnershipStatusClassifier](../classes/SudoknOwnershipStatusClassifier.md) | No type description provided |  no  |
+| [SudoknForgingCapability](../classes/SudoknForgingCapability.md) | No type description provided |  no  |
+| [SudoknSilverProcessingCapability](../classes/SudoknSilverProcessingCapability.md) | No type description provided |  no  |
+| [SudoknSpecialMaterialsProcessingCapability](../classes/SudoknSpecialMaterialsProcessingCapability.md) | No type description provided |  no  |
+| [SudoknCombustableGasWeldingCapability](../classes/SudoknCombustableGasWeldingCapability.md) | No type description provided |  no  |
+| [SudoknBoringCapability](../classes/SudoknBoringCapability.md) | No type description provided |  no  |
+| [SudoknStampingCapability](../classes/SudoknStampingCapability.md) | No type description provided |  no  |
+| [SudoknComputersandElectronicProductsIndustry](../classes/SudoknComputersandElectronicProductsIndustry.md) | No type description provided |  no  |
+| [SudoknISO9001](../classes/SudoknISO9001.md) | No type description provided |  no  |
+| [SudoknEtchingCapability](../classes/SudoknEtchingCapability.md) | No type description provided |  no  |
+| [SudoknSandBlastingCapability](../classes/SudoknSandBlastingCapability.md) | No type description provided |  no  |
+| [SudoknPlasticsandRubberProductsIndustry](../classes/SudoknPlasticsandRubberProductsIndustry.md) | No type description provided |  no  |
+| [SudoknElectricArcWeldingCapability](../classes/SudoknElectricArcWeldingCapability.md) | No type description provided |  no  |
+| [SudoknPaperandPaperboardProductsIndustry](../classes/SudoknPaperandPaperboardProductsIndustry.md) | No type description provided |  no  |
+| [SudoknMetalsProductsIndustry](../classes/SudoknMetalsProductsIndustry.md) | No type description provided |  no  |
+| [SudoknGearHobbingCapability](../classes/SudoknGearHobbingCapability.md) | No type description provided |  no  |
+| [SudoknFrictionWeldingCapability](../classes/SudoknFrictionWeldingCapability.md) | No type description provided |  no  |
+| [SudoknSurfaceFinishingCapability](../classes/SudoknSurfaceFinishingCapability.md) | No type description provided |  no  |
+| [SudoknCentrifugalCastingCapability](../classes/SudoknCentrifugalCastingCapability.md) | No type description provided |  no  |
+| [SudoknPLCProgrammingCapability](../classes/SudoknPLCProgrammingCapability.md) | No type description provided |  no  |
+| [SudoknHoleMakingCapability](../classes/SudoknHoleMakingCapability.md) | No type description provided |  no  |
+| [SudoknInstallationCapability](../classes/SudoknInstallationCapability.md) | No type description provided |  no  |
+| [SudoknUltrasonicWeldingCapability](../classes/SudoknUltrasonicWeldingCapability.md) | No type description provided |  no  |
+| [SudoknAnodizingCapability](../classes/SudoknAnodizingCapability.md) | No type description provided |  no  |
+| [SudoknContinuousCastingCapability](../classes/SudoknContinuousCastingCapability.md) | No type description provided |  no  |
+| [SudoknInvarProcessingCapability](../classes/SudoknInvarProcessingCapability.md) | No type description provided |  no  |
+| [SudoknCNCPlasmaCuttingCapability](../classes/SudoknCNCPlasmaCuttingCapability.md) | No type description provided |  no  |
+| [SudoknPlasmaCuttingCapability](../classes/SudoknPlasmaCuttingCapability.md) | No type description provided |  no  |
+| [SudoknPaintingCapability](../classes/SudoknPaintingCapability.md) | No type description provided |  no  |
+| [SudoknMoldMakingCapability](../classes/SudoknMoldMakingCapability.md) | No type description provided |  no  |
+| [SudoknBrassBlackeningCapability](../classes/SudoknBrassBlackeningCapability.md) | No type description provided |  no  |
+| [SudoknDrillingCapability](../classes/SudoknDrillingCapability.md) | No type description provided |  no  |
+| [SudoknChemicalCleaningCapability](../classes/SudoknChemicalCleaningCapability.md) | No type description provided |  no  |
+| [SudoknEducationalInstitutionsIndustry](../classes/SudoknEducationalInstitutionsIndustry.md) | No type description provided |  no  |
+| [SudoknSeamWeldingCapability](../classes/SudoknSeamWeldingCapability.md) | No type description provided |  no  |
+| [SudoknFabricatingCapability](../classes/SudoknFabricatingCapability.md) | No type description provided |  no  |
+| [SudoknSanitaryWeldingCapability](../classes/SudoknSanitaryWeldingCapability.md) | No type description provided |  no  |
+| [SudoknSteelManufacturingCapability](../classes/SudoknSteelManufacturingCapability.md) | No type description provided |  no  |
+| [SudoknShrinkFittingCapability](../classes/SudoknShrinkFittingCapability.md) | No type description provided |  no  |
+| [SudoknFasteningCapability](../classes/SudoknFasteningCapability.md) | No type description provided |  no  |
+| [SudoknDeepFreezingCapability](../classes/SudoknDeepFreezingCapability.md) | No type description provided |  no  |
+| [SudoknCNCCuttingCapability](../classes/SudoknCNCCuttingCapability.md) | No type description provided |  no  |
+| [SudoknGrindingCapability](../classes/SudoknGrindingCapability.md) | No type description provided |  no  |
+| [SudoknShellMoldCastingCapability](../classes/SudoknShellMoldCastingCapability.md) | No type description provided |  no  |
+| [SudoknCNCVerticalMillingCapability](../classes/SudoknCNCVerticalMillingCapability.md) | No type description provided |  no  |
+| [SudoknSheetMetalProcessingCapability](../classes/SudoknSheetMetalProcessingCapability.md) | No type description provided |  no  |
+| [SudoknElectricalDischargeMachiningCapability](../classes/SudoknElectricalDischargeMachiningCapability.md) | No type description provided |  no  |
+| [SudoknExplosiveWeldingCapability](../classes/SudoknExplosiveWeldingCapability.md) | No type description provided |  no  |
+| [SudoknASME](../classes/SudoknASME.md) | No type description provided |  no  |
+| [SudoknElectronicProductIndustry](../classes/SudoknElectronicProductIndustry.md) | No type description provided |  no  |
+| [SudoknElectricalResistanceWeldingCapability](../classes/SudoknElectricalResistanceWeldingCapability.md) | No type description provided |  no  |
+| [SudoknCounterBoringCapability](../classes/SudoknCounterBoringCapability.md) | No type description provided |  no  |
+| [SudoknRamEDMCapability](../classes/SudoknRamEDMCapability.md) | No type description provided |  no  |
+| [SudoknPressingCapability](../classes/SudoknPressingCapability.md) | No type description provided |  no  |
+| [SudoknMillingCapability](../classes/SudoknMillingCapability.md) | No type description provided |  no  |
+| [SudoknWaterandSewerUtilitiesIndustry](../classes/SudoknWaterandSewerUtilitiesIndustry.md) | No type description provided |  no  |
+| [SudoknCNCMachiningCapability](../classes/SudoknCNCMachiningCapability.md) | No type description provided |  no  |
+| [SudoknIndustry](../classes/SudoknIndustry.md) | No type description provided |  no  |
+| [SudoknInductionHeatingCapability](../classes/SudoknInductionHeatingCapability.md) | No type description provided |  no  |
+| [SudoknVacuumCastingCapability](../classes/SudoknVacuumCastingCapability.md) | No type description provided |  no  |
+| [SudoknTurningCapability](../classes/SudoknTurningCapability.md) | No type description provided |  no  |
+| [SudoknGlassProcessingCapability](../classes/SudoknGlassProcessingCapability.md) | No type description provided |  no  |
+| [SudoknCeramicMoldCastingCapability](../classes/SudoknCeramicMoldCastingCapability.md) | No type description provided |  no  |
+| [SudoknNickelPlatingCapability](../classes/SudoknNickelPlatingCapability.md) | No type description provided |  no  |
+| [SudoknCarbonArcBrazingCapability](../classes/SudoknCarbonArcBrazingCapability.md) | No type description provided |  no  |
+| [SudoknISO9001Certificate](../classes/SudoknISO9001Certificate.md) | No type description provided |  no  |
+| [SudoknMIGWeldingCapability](../classes/SudoknMIGWeldingCapability.md) | No type description provided |  no  |
+| [SudoknSwissMachiningCapability](../classes/SudoknSwissMachiningCapability.md) | No type description provided |  no  |
+| [SudoknLexanProcessingCapability](../classes/SudoknLexanProcessingCapability.md) | No type description provided |  no  |
+| [SudoknSawingCapability](../classes/SudoknSawingCapability.md) | No type description provided |  no  |
+| [SudoknCommunicationAndElectronicPowerUtilitiesIndustry](../classes/SudoknCommunicationAndElectronicPowerUtilitiesIndustry.md) | No type description provided |  no  |
+| [SudoknZincProcessingCapability](../classes/SudoknZincProcessingCapability.md) | No type description provided |  no  |
+| [SudoknFlameSprayingCapability](../classes/SudoknFlameSprayingCapability.md) | No type description provided |  no  |
+| [SudoknPolycarbonateProcessingCapability](../classes/SudoknPolycarbonateProcessingCapability.md) | No type description provided |  no  |
+| [SudoknCNCWireBendingCapability](../classes/SudoknCNCWireBendingCapability.md) | No type description provided |  no  |
+| [SudoknWireEDMCapability](../classes/SudoknWireEDMCapability.md) | No type description provided |  no  |
+| [IoMaterialProduct](../classes/IoMaterialProduct.md) | No type description provided |  no  |
+| [SudoknGasBrazingCapability](../classes/SudoknGasBrazingCapability.md) | No type description provided |  no  |
+| [SudoknThermoformingCapability](../classes/SudoknThermoformingCapability.md) | No type description provided |  no  |
+| [SudoknDieMakingCapability](../classes/SudoknDieMakingCapability.md) | No type description provided |  no  |
+| [SudoknNitridingCapability](../classes/SudoknNitridingCapability.md) | No type description provided |  no  |
+| [SudoknPlatinumProcessingCapability](../classes/SudoknPlatinumProcessingCapability.md) | No type description provided |  no  |
+| [SudoknPressBrakingCapability](../classes/SudoknPressBrakingCapability.md) | No type description provided |  no  |
+| [SudoknAdditiveManufacturingCapability](../classes/SudoknAdditiveManufacturingCapability.md) | No type description provided |  no  |
+| [SudoknSandCastingCapability](../classes/SudoknSandCastingCapability.md) | No type description provided |  no  |
+| [SudoknPrintingCapability](../classes/SudoknPrintingCapability.md) | No type description provided |  no  |
+| [SudoknBrassProcessingCapability](../classes/SudoknBrassProcessingCapability.md) | No type description provided |  no  |
+| [SudoknTorchBrazingCapability](../classes/SudoknTorchBrazingCapability.md) | No type description provided |  no  |
+| [SudoknBerylliumProcessingCapability](../classes/SudoknBerylliumProcessingCapability.md) | No type description provided |  no  |
+| [SudoknAgricultureIndustry](../classes/SudoknAgricultureIndustry.md) | No type description provided |  no  |
+| [SudoknElectronicAutomotiveInudstry](../classes/SudoknElectronicAutomotiveInudstry.md) | No type description provided |  no  |
+| [SudoknDiffusionHardeningCapability](../classes/SudoknDiffusionHardeningCapability.md) | No type description provided |  no  |
+| [SudoknElectroplatingCapability](../classes/SudoknElectroplatingCapability.md) | No type description provided |  no  |
+| [SudoknThermalCoatingCapability](../classes/SudoknThermalCoatingCapability.md) | No type description provided |  no  |
+| [SudoknApparelIndustry](../classes/SudoknApparelIndustry.md) | No type description provided |  no  |
+| [SudoknTIGWeldingCapability](../classes/SudoknTIGWeldingCapability.md) | No type description provided |  no  |
+| [SudoknSewingCapability](../classes/SudoknSewingCapability.md) | No type description provided |  no  |
+| [SudoknElectrolessNickelPlating](../classes/SudoknElectrolessNickelPlating.md) | No type description provided |  no  |
+| [SudoknGoldProcessingCapability](../classes/SudoknGoldProcessingCapability.md) | No type description provided |  no  |
+| [SudoknSurfacePreparationCapability](../classes/SudoknSurfacePreparationCapability.md) | No type description provided |  no  |
+| [SudoknCNCBendingCapability](../classes/SudoknCNCBendingCapability.md) | No type description provided |  no  |
+| [SudoknInvestmentCastingCapability](../classes/SudoknInvestmentCastingCapability.md) | No type description provided |  no  |
+| [SudoknInconelProcessingCapability](../classes/SudoknInconelProcessingCapability.md) | No type description provided |  no  |
+| [SudoknAddtiveManufacturingCapability](../classes/SudoknAddtiveManufacturingCapability.md) | No type description provided |  no  |
+| [SudoknProjectionWeldingCapability](../classes/SudoknProjectionWeldingCapability.md) | No type description provided |  no  |
+| [SudoknKaptonProcessingCapability](../classes/SudoknKaptonProcessingCapability.md) | No type description provided |  no  |
+| [SudoknChromateConversionCoatingCapability](../classes/SudoknChromateConversionCoatingCapability.md) | No type description provided |  no  |
+| [SudoknChromiumProcessingCapability](../classes/SudoknChromiumProcessingCapability.md) | No type description provided |  no  |
+| [SudoknTextiles](../classes/SudoknTextiles.md) | No type description provided |  no  |
+| [SudoknThermaJoiningCapability](../classes/SudoknThermaJoiningCapability.md) | No type description provided |  no  |
+| [SudoknHoleDrillingEDMCapability](../classes/SudoknHoleDrillingEDMCapability.md) | No type description provided |  no  |
+| [SudoknEDMCapability](../classes/SudoknEDMCapability.md) | No type description provided |  no  |
+| [SudoknFDA-PMACertificate](../classes/SudoknFDA-PMACertificate.md) | No type description provided |  no  |
+| [SudoknLEEDCertificate](../classes/SudoknLEEDCertificate.md) | No type description provided |  no  |
+| [SudoknCenterlessGrindingCapability](../classes/SudoknCenterlessGrindingCapability.md) | No type description provided |  no  |
+| [SudoknSurfaceHardeningCapability](../classes/SudoknSurfaceHardeningCapability.md) | No type description provided |  no  |
+| [SudoknSteelAlloyProcessingCapability](../classes/SudoknSteelAlloyProcessingCapability.md) | No type description provided |  no  |
+| [SudoknHardeningCapability](../classes/SudoknHardeningCapability.md) | No type description provided |  no  |
+| [SudoknPlasterMoldCastingCapability](../classes/SudoknPlasterMoldCastingCapability.md) | No type description provided |  no  |
+| [SudoknInductionBrazingCapability](../classes/SudoknInductionBrazingCapability.md) | No type description provided |  no  |
+| [SudoknAcrylicFabricationCapability](../classes/SudoknAcrylicFabricationCapability.md) | No type description provided |  no  |
+| [SudoknChemicalProcessingCapability](../classes/SudoknChemicalProcessingCapability.md) | No type description provided |  no  |
+| [SudoknLaserEtchingCapability](../classes/SudoknLaserEtchingCapability.md) | No type description provided |  no  |
+| [SudoknSteelProcessingCapability](../classes/SudoknSteelProcessingCapability.md) | No type description provided |  no  |
+| [SudoknVacuumHardeningCapability](../classes/SudoknVacuumHardeningCapability.md) | No type description provided |  no  |
+| [SudoknSinteringCapability](../classes/SudoknSinteringCapability.md) | No type description provided |  no  |
+| [SudoknInjectionMoldingCapability](../classes/SudoknInjectionMoldingCapability.md) | No type description provided |  no  |
+| [SudoknToolMakingCapability](../classes/SudoknToolMakingCapability.md) | No type description provided |  no  |
+| [SudoknCNCTurningCapability](../classes/SudoknCNCTurningCapability.md) | No type description provided |  no  |
+| [SudoknElectroPlatingCapability](../classes/SudoknElectroPlatingCapability.md) | No type description provided |  no  |
+| [SudoknHorizontalMillingCapability](../classes/SudoknHorizontalMillingCapability.md) | No type description provided |  no  |
+| [SudoknBlackOxideCoatingCapability](../classes/SudoknBlackOxideCoatingCapability.md) | No type description provided |  no  |
+| [SudoknSportsAndLeisureIndustry](../classes/SudoknSportsAndLeisureIndustry.md) | No type description provided |  no  |
+| [SudoknAS9100Certificate](../classes/SudoknAS9100Certificate.md) | No type description provided |  no  |
+| [SudoknWireHarnessAssemblyCapability](../classes/SudoknWireHarnessAssemblyCapability.md) | No type description provided |  no  |
+| [SudoknElectrolessNickelPlatingCapability](../classes/SudoknElectrolessNickelPlatingCapability.md) | No type description provided |  no  |
+| [SudoknSinkerEdmCapability](../classes/SudoknSinkerEdmCapability.md) | No type description provided |  no  |
+| [SudoknITARCertificate](../classes/SudoknITARCertificate.md) | No type description provided |  no  |
+| [SudoknButtWeldingCapability](../classes/SudoknButtWeldingCapability.md) | No type description provided |  no  |
+| [SudoknAcetalProcessingCapability](../classes/SudoknAcetalProcessingCapability.md) | No type description provided |  no  |
+| [SudoknMultiPointCuttingCapability](../classes/SudoknMultiPointCuttingCapability.md) | No type description provided |  no  |
+| [SudoknElectolessNickelPlatingCapability](../classes/SudoknElectolessNickelPlatingCapability.md) | No type description provided |  no  |
+| [SudoknISO13485Certificate](../classes/SudoknISO13485Certificate.md) | No type description provided |  no  |
+| [SudoknAS9100](../classes/SudoknAS9100.md) | No type description provided |  no  |
+| [SudoknDeburringCapability](../classes/SudoknDeburringCapability.md) | No type description provided |  no  |
+| [SudoknMechanicalJoiningCapability](../classes/SudoknMechanicalJoiningCapability.md) | No type description provided |  no  |
+| [SudoknISO13485](../classes/SudoknISO13485.md) | No type description provided |  no  |
+| [SudoknFabricationCapability](../classes/SudoknFabricationCapability.md) | No type description provided |  no  |
+| [SudoknPrototypeManufacturingCapability](../classes/SudoknPrototypeManufacturingCapability.md) | No type description provided |  no  |
+| [SudoknTI9000Certificate](../classes/SudoknTI9000Certificate.md) | No type description provided |  no  |
+| [SudoknTubeFormingCapability](../classes/SudoknTubeFormingCapability.md) | No type description provided |  no  |
+| [SudoknTextilesIndustry](../classes/SudoknTextilesIndustry.md) | No type description provided |  no  |
+| [SudoknEducationIndustry](../classes/SudoknEducationIndustry.md) | No type description provided |  no  |
+| [SudoknSportsandLeisureIndustry](../classes/SudoknSportsandLeisureIndustry.md) | No type description provided |  no  |
+| [SudoknIATF16949Certificate](../classes/SudoknIATF16949Certificate.md) | No type description provided |  no  |
+| [SudoknCNCGrindingCapability](../classes/SudoknCNCGrindingCapability.md) | No type description provided |  no  |
+| [SudoknWireFormingCapability](../classes/SudoknWireFormingCapability.md) | No type description provided |  no  |
+| [SudoknFDA-GMPCertificate](../classes/SudoknFDA-GMPCertificate.md) | No type description provided |  no  |
+| [SudoknMilitaryIndustry](../classes/SudoknMilitaryIndustry.md) | No type description provided |  no  |
+| [SudoknDiffusionBondingCapability](../classes/SudoknDiffusionBondingCapability.md) | No type description provided |  no  |
+| [SudoknFoodIndustry](../classes/SudoknFoodIndustry.md) | No type description provided |  no  |
+| [SudoknAluminumProcessingCapability](../classes/SudoknAluminumProcessingCapability.md) | No type description provided |  no  |
+| [SudoknLaserProcessingCapability](../classes/SudoknLaserProcessingCapability.md) | No type description provided |  no  |
+| [SudoknAWSWelderCertificate](../classes/SudoknAWSWelderCertificate.md) | No type description provided |  no  |
+| [SudoknAlloySteelProcessingCapability](../classes/SudoknAlloySteelProcessingCapability.md) | No type description provided |  no  |
+| [SudoknVacuumFormingCapability](../classes/SudoknVacuumFormingCapability.md) | No type description provided |  no  |
+| [SudoknRecyclingIndustry](../classes/SudoknRecyclingIndustry.md) | No type description provided |  no  |
+| [SudoknChemicalCoatingCapability](../classes/SudoknChemicalCoatingCapability.md) | No type description provided |  no  |
+| [SudoknISO17265Certificate](../classes/SudoknISO17265Certificate.md) | No type description provided |  no  |
+| [SudoknRAMEDMCapability](../classes/SudoknRAMEDMCapability.md) | No type description provided |  no  |
+| [SudoknMachinaryAndEquipmentIndustry](../classes/SudoknMachinaryAndEquipmentIndustry.md) | No type description provided |  no  |
+| [SudoknBeltSandingCapability](../classes/SudoknBeltSandingCapability.md) | No type description provided |  no  |
+| [SudoknEngineeringDesignCapability](../classes/SudoknEngineeringDesignCapability.md) | No type description provided |  no  |
+| [SudoknClyndricalGrindingCapability](../classes/SudoknClyndricalGrindingCapability.md) | No type description provided |  no  |
+| [SudoknElectronBeamWeldingCapability](../classes/SudoknElectronBeamWeldingCapability.md) | No type description provided |  no  |
+| [SudoknStainlessSteelProcessingCapability](../classes/SudoknStainlessSteelProcessingCapability.md) | No type description provided |  no  |
+| [SudoknMolybdenumProcessingCapability](../classes/SudoknMolybdenumProcessingCapability.md) | No type description provided |  no  |
+| [SudoknWoodProductManufacturingIndustry](../classes/SudoknWoodProductManufacturingIndustry.md) | No type description provided |  no  |
+| [SudoknDigitalPrintingCapability](../classes/SudoknDigitalPrintingCapability.md) | No type description provided |  no  |
+| [SudoknChemicalAndPetrochemicalIndustry](../classes/SudoknChemicalAndPetrochemicalIndustry.md) | No type description provided |  no  |
+| [SudoknCommunicationIndustry](../classes/SudoknCommunicationIndustry.md) | No type description provided |  no  |
+| [SudoknHealthCareServicesIndustry](../classes/SudoknHealthCareServicesIndustry.md) | No type description provided |  no  |
+| [SudoknIronProcessingCapability](../classes/SudoknIronProcessingCapability.md) | No type description provided |  no  |
+| [SudoknCarbonArcWeldingCapability](../classes/SudoknCarbonArcWeldingCapability.md) | No type description provided |  no  |
+| [SudoknHealthcareServicesIndustry](../classes/SudoknHealthcareServicesIndustry.md) | No type description provided |  no  |
+| [SudoknCastingCapability](../classes/SudoknCastingCapability.md) | No type description provided |  no  |
+| [SudoknMagnesiumProcessingCapability](../classes/SudoknMagnesiumProcessingCapability.md) | No type description provided |  no  |
+| [SudoknMachineBuildingCapability](../classes/SudoknMachineBuildingCapability.md) | No type description provided |  no  |
+| [SudoknRapidPrototypingCapability](../classes/SudoknRapidPrototypingCapability.md) | No type description provided |  no  |
+| [SudoknWarehousingAndStorageIndustry](../classes/SudoknWarehousingAndStorageIndustry.md) | No type description provided |  no  |
+| [SudoknFurnitureIndustry](../classes/SudoknFurnitureIndustry.md) | No type description provided |  no  |
+| [SudoknFillingCapability](../classes/SudoknFillingCapability.md) | No type description provided |  no  |
+| [SudoknRestaurantIndustry](../classes/SudoknRestaurantIndustry.md) | No type description provided |  no  |
+| [SudoknKOSHERApproved](../classes/SudoknKOSHERApproved.md) | No type description provided |  no  |
+| [SudoknShearingCapability](../classes/SudoknShearingCapability.md) | No type description provided |  no  |
+| [SudoknPunchingCapability](../classes/SudoknPunchingCapability.md) | No type description provided |  no  |
+| [SudoknMoldingCapability](../classes/SudoknMoldingCapability.md) | No type description provided |  no  |
+| [SudoknCylindricalGrindingCapability](../classes/SudoknCylindricalGrindingCapability.md) | No type description provided |  no  |
+| [SudoknWetPaintingCapability](../classes/SudoknWetPaintingCapability.md) | No type description provided |  no  |
+| [SudoknHeatTreatingCapability](../classes/SudoknHeatTreatingCapability.md) | No type description provided |  no  |
+| [SudoknSolderingCapability](../classes/SudoknSolderingCapability.md) | No type description provided |  no  |
+| [SudoknHighEnergyBeamWeldingCapability](../classes/SudoknHighEnergyBeamWeldingCapability.md) | No type description provided |  no  |
+| [SudoknISOCertificate](../classes/SudoknISOCertificate.md) | No type description provided |  no  |
+| [SudoknFurnaceBrazingCapability](../classes/SudoknFurnaceBrazingCapability.md) | No type description provided |  no  |
+| [SudoknZincArcSprayCapability](../classes/SudoknZincArcSprayCapability.md) | No type description provided |  no  |
+| [SudoknFDAGMPCompliant](../classes/SudoknFDAGMPCompliant.md) | No type description provided |  no  |
+| [SudoknPermanentMoldCastingCapability](../classes/SudoknPermanentMoldCastingCapability.md) | No type description provided |  no  |
 
 
 
@@ -1274,7 +1274,7 @@ URI: [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label)
 <details>
 ```yaml
 name: rdfs_label
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

@@ -3,7 +3,7 @@
 # Slot: sockg_fracNitrogen_kg_ha
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:fracNitrogen_kg_ha](http://www.semanticweb.org/sockg/ontologies/2024
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sockg:fracNitrogen_kg_ha](http://www.semanticweb.org/sockg/ontologies/2024
 <details>
 ```yaml
 name: sockg_fracNitrogen_kg_ha
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

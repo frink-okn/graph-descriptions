@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (contaminoso_MaterialSample)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -121,15 +121,15 @@ URI: [contaminoso:MaterialSample](http://sawgraph.spatialai.org/v1/contaminoso#M
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [meegad_sampleCollectionMethod](../slots/meegad_sampleCollectionMethod.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ContaminosoSampleAnnotation](../classes/ContaminosoSampleAnnotation.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [contaminoso_ofSampleMaterialType](../slots/contaminoso_ofSampleMaterialType.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ContaminosoMaterialType](../classes/ContaminosoMaterialType.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [meegad_sampleCollectionMethod](../slots/meegad_sampleCollectionMethod.md) | 0..1 <br/> [ContaminosoSampleAnnotation](../classes/ContaminosoSampleAnnotation.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [contaminoso_ofSampleMaterialType](../slots/contaminoso_ofSampleMaterialType.md) | 0..1 <br/> [ContaminosoMaterialType](../classes/ContaminosoMaterialType.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
 | [meegad_sampleID](../slots/meegad_sampleID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | Sample identifier in the EGAD dataset from the state of Maine | direct |
-| [contaminoso_sampleAnnotation](../slots/contaminoso_sampleAnnotation.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ContaminosoSampleAnnotation](../classes/ContaminosoSampleAnnotation.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [meegad_sampleTreatmentStatus](../slots/meegad_sampleTreatmentStatus.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ContaminosoSampleAnnotation](../classes/ContaminosoSampleAnnotation.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [ussdwis_sampleID](../slots/ussdwis_sampleID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [contaminoso_fromSamplePoint](../slots/contaminoso_fromSamplePoint.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ContaminosoPoint](../classes/ContaminosoPoint.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [meegad_sampleCollectionLocation](../slots/meegad_sampleCollectionLocation.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ContaminosoSampleAnnotation](../classes/ContaminosoSampleAnnotation.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [contaminoso_sampleAnnotation](../slots/contaminoso_sampleAnnotation.md) | 0..1 <br/> [ContaminosoSampleAnnotation](../classes/ContaminosoSampleAnnotation.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [meegad_sampleTreatmentStatus](../slots/meegad_sampleTreatmentStatus.md) | 0..1 <br/> [ContaminosoSampleAnnotation](../classes/ContaminosoSampleAnnotation.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [ussdwis_sampleID](../slots/ussdwis_sampleID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [contaminoso_fromSamplePoint](../slots/contaminoso_fromSamplePoint.md) | 0..1 <br/> [ContaminosoPoint](../classes/ContaminosoPoint.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [meegad_sampleCollectionLocation](../slots/meegad_sampleCollectionLocation.md) | 0..1 <br/> [ContaminosoSampleAnnotation](../classes/ContaminosoSampleAnnotation.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
 
 
 
@@ -192,7 +192,7 @@ URI: [contaminoso:MaterialSample](http://sawgraph.spatialai.org/v1/contaminoso#M
 <details>
 ```yaml
 name: contaminoso_MaterialSample
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -201,6 +201,7 @@ todos:
 notes:
 - Class with 23180 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: sosa_Sample
 slots:
 - meegad_sampleCollectionMethod
@@ -222,7 +223,7 @@ class_uri: contaminoso:MaterialSample
 <details>
 ```yaml
 name: contaminoso_MaterialSample
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -231,12 +232,13 @@ todos:
 notes:
 - Class with 23180 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: sosa_Sample
 attributes:
   meegad_sampleCollectionMethod:
     name: meegad_sampleCollectionMethod
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -265,8 +267,8 @@ attributes:
     - range: uri
   contaminoso_ofSampleMaterialType:
     name: contaminoso_ofSampleMaterialType
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -292,7 +294,7 @@ attributes:
   meegad_sampleID:
     name: meegad_sampleID
     description: Sample identifier in the EGAD dataset from the state of Maine.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -313,8 +315,8 @@ attributes:
     range: string
   contaminoso_sampleAnnotation:
     name: contaminoso_sampleAnnotation
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -342,8 +344,8 @@ attributes:
     - range: uri
   meegad_sampleTreatmentStatus:
     name: meegad_sampleTreatmentStatus
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -372,8 +374,8 @@ attributes:
     - range: uri
   ussdwis_sampleID:
     name: ussdwis_sampleID
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -394,8 +396,8 @@ attributes:
     range: string
   contaminoso_fromSamplePoint:
     name: contaminoso_fromSamplePoint
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -419,8 +421,8 @@ attributes:
     - range: uri
   meegad_sampleCollectionLocation:
     name: meegad_sampleCollectionLocation
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -449,8 +451,8 @@ attributes:
     - range: uri
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

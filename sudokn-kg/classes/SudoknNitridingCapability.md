@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (sudokn_NitridingCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -54,7 +54,7 @@ URI: [sudokn:NitridingCapability](http://asu.edu/semantics/SUDOKN/NitridingCapab
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -123,7 +123,7 @@ URI: [sudokn:NitridingCapability](http://asu.edu/semantics/SUDOKN/NitridingCapab
 <details>
 ```yaml
 name: sudokn_NitridingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -134,6 +134,7 @@ notes:
 examples:
 - value: sudokn:ACCURATESTEELTREATING-NitridingCapability-inst
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_DiffusionHardeningCapability
 slots:
 - rdfs_label
@@ -147,7 +148,7 @@ class_uri: sudokn:NitridingCapability
 <details>
 ```yaml
 name: sudokn_NitridingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -158,11 +159,12 @@ notes:
 examples:
 - value: sudokn:ACCURATESTEELTREATING-NitridingCapability-inst
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_DiffusionHardeningCapability
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

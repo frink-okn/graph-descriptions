@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (ussdwis_PWS-PFASConcentration)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -93,7 +93,7 @@ URI: [ussdwis:PWS-PFASConcentration](http://sawgraph.spatialai.org/v1/us-sdwis#P
 <details>
 ```yaml
 name: ussdwis_PWS-PFASConcentration
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -102,6 +102,7 @@ todos:
 notes:
 - Class with 156 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: sosa_Result
 class_uri: ussdwis:PWS-PFASConcentration
 
@@ -113,7 +114,7 @@ class_uri: ussdwis:PWS-PFASConcentration
 <details>
 ```yaml
 name: ussdwis_PWS-PFASConcentration
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -122,6 +123,7 @@ todos:
 notes:
 - Class with 156 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: sosa_Result
 class_uri: ussdwis:PWS-PFASConcentration
 

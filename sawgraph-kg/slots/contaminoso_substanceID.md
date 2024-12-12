@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (contaminoso_substanceID)
+# Slot: No slot description provided (contaminoso_substanceID)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [contaminoso:substanceID](http://sawgraph.spatialai.org/v1/contaminoso#subs
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ContaminosoSubstance](../classes/ContaminosoSubstance.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [ContaminosoSubstance](../classes/ContaminosoSubstance.md) | No type description provided |  no  |
 
 
 
@@ -87,8 +87,8 @@ URI: [contaminoso:substanceID](http://sawgraph.spatialai.org/v1/contaminoso#subs
 <details>
 ```yaml
 name: contaminoso_substanceID
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

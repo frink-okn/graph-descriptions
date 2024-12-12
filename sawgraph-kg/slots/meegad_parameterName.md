@@ -1,6 +1,6 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (meegad_parameterName)
+# Slot: No slot description provided (meegad_parameterName)
 
 
 _Name of the PFAS parameter (single chemical or aggregate set of chemicals) measured in the EGAD dataset from the state of Maine._
@@ -23,7 +23,7 @@ URI: [meegad:parameterName](http://sawgraph.spatialai.org/v1/me-egad#parameterNa
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ContaminosoSubstance](../classes/ContaminosoSubstance.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [ContaminosoSubstance](../classes/ContaminosoSubstance.md) | No type description provided |  no  |
 
 
 
@@ -89,7 +89,7 @@ URI: [meegad:parameterName](http://sawgraph.spatialai.org/v1/me-egad#parameterNa
 name: meegad_parameterName
 description: Name of the PFAS parameter (single chemical or aggregate set of chemicals)
   measured in the EGAD dataset from the state of Maine.
-title: TODO -- tell the world what this slot (predicate) describes.
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

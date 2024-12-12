@@ -3,7 +3,7 @@
 # Slot: example_ontology_tag
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -24,7 +24,7 @@ URI: [example:ontology/tag](http://example.org/ontology/tag)
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -78,7 +78,7 @@ URI: [example:ontology/tag](http://example.org/ontology/tag)
 <details>
 ```yaml
 name: example_ontology_tag
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

@@ -3,7 +3,7 @@
 # Slot: sdoh_url
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sdoh:url](http://schema.org/url)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohOrganization](../classes/SdohOrganization.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohOrganization](../classes/SdohOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
 
 
 
@@ -33,7 +33,7 @@ URI: [sdoh:url](http://schema.org/url)
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:url](http://schema.org/url)
 
 | Value |
 | --- |
-| schema:Organization/Cipi sdoh:url [] |
+| schema:Organization/Es sdoh:url [] |
 
 ## Comments
 
@@ -67,7 +67,7 @@ URI: [sdoh:url](http://schema.org/url)
 ### Schema Source
 
 
-* from schema: secure-chain-kg/develop
+* from schema: secure-chain-kg
 
 
 
@@ -77,7 +77,7 @@ URI: [sdoh:url](http://schema.org/url)
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | sdoh:url |
-| native | secure-chain-kg/develop/:sdoh_url |
+| native | secure-chain-kg/:sdoh_url |
 
 
 
@@ -87,7 +87,7 @@ URI: [sdoh:url](http://schema.org/url)
 <details>
 ```yaml
 name: sdoh_url
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -95,8 +95,8 @@ todos:
 comments:
 - 887 occurrences with subject type sdoh_Organization and object type string.
 examples:
-- value: schema:Organization/Cipi sdoh:url []
-from_schema: secure-chain-kg/develop
+- value: schema:Organization/Es sdoh:url []
+from_schema: secure-chain-kg
 rank: 1000
 slot_uri: sdoh:url
 alias: sdoh_url

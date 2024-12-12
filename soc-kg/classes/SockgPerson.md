@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for what this class (type) describes? (sockg_Person)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -168,21 +168,21 @@ URI: [sockg:Person](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carb
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sockg_worksIn](../slots/sockg_worksIn.md) | 0..1 <br/> [SockgSite](../classes/SockgSite.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_worksAtDepartment](../slots/sockg_worksAtDepartment.md) | 0..1 <br/> [SockgDepartment](../classes/SockgDepartment.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_worksFor](../slots/sockg_worksFor.md) | 0..1 <br/> [SockgOrganization](../classes/SockgOrganization.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_email](../slots/sockg_email.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_note](../slots/sockg_note.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_persons_UID](../slots/sockg_persons_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_phoneNumber](../slots/sockg_phoneNumber.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_website](../slots/sockg_website.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_middleName](../slots/sockg_middleName.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_suffix](../slots/sockg_suffix.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_roleInStudy](../slots/sockg_roleInStudy.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_firstName](../slots/sockg_firstName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_lastName](../slots/sockg_lastName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_isPrimaryContact](../slots/sockg_isPrimaryContact.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_profession](../slots/sockg_profession.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sockg_worksIn](../slots/sockg_worksIn.md) | 0..1 <br/> [SockgSite](../classes/SockgSite.md) | No slot description provided | direct |
+| [sockg_worksAtDepartment](../slots/sockg_worksAtDepartment.md) | 0..1 <br/> [SockgDepartment](../classes/SockgDepartment.md) | No slot description provided | direct |
+| [sockg_worksFor](../slots/sockg_worksFor.md) | 0..1 <br/> [SockgOrganization](../classes/SockgOrganization.md) | No slot description provided | direct |
+| [sockg_email](../slots/sockg_email.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_note](../slots/sockg_note.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_persons_UID](../slots/sockg_persons_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_phoneNumber](../slots/sockg_phoneNumber.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_website](../slots/sockg_website.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_middleName](../slots/sockg_middleName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_suffix](../slots/sockg_suffix.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_roleInStudy](../slots/sockg_roleInStudy.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_firstName](../slots/sockg_firstName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_lastName](../slots/sockg_lastName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_isPrimaryContact](../slots/sockg_isPrimaryContact.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_profession](../slots/sockg_profession.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
 
 
 
@@ -243,7 +243,7 @@ URI: [sockg:Person](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carb
 <details>
 ```yaml
 name: sockg_Person
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -254,6 +254,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#203289
 from_schema: soc-kg/main
+rank: 1000
 slots:
 - sockg_worksIn
 - sockg_worksAtDepartment
@@ -280,7 +281,7 @@ class_uri: sockg:Person
 <details>
 ```yaml
 name: sockg_Person
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -291,10 +292,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#203289
 from_schema: soc-kg/main
+rank: 1000
 attributes:
   sockg_worksIn:
     name: sockg_worksIn
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -313,7 +315,7 @@ attributes:
     range: sockg_Site
   sockg_worksAtDepartment:
     name: sockg_worksAtDepartment
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -332,7 +334,7 @@ attributes:
     range: sockg_Department
   sockg_worksFor:
     name: sockg_worksFor
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -351,7 +353,7 @@ attributes:
     range: sockg_Organization
   sockg_email:
     name: sockg_email
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -375,7 +377,7 @@ attributes:
     - range: double
   sockg_note:
     name: sockg_note
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -400,7 +402,7 @@ attributes:
     - range: string
   sockg_persons_UID:
     name: sockg_persons_UID
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -419,7 +421,7 @@ attributes:
     range: string
   sockg_phoneNumber:
     name: sockg_phoneNumber
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -443,7 +445,7 @@ attributes:
     - range: string
   sockg_website:
     name: sockg_website
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -467,7 +469,7 @@ attributes:
     - range: double
   sockg_middleName:
     name: sockg_middleName
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -491,7 +493,7 @@ attributes:
     - range: double
   sockg_suffix:
     name: sockg_suffix
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -515,7 +517,7 @@ attributes:
     - range: double
   sockg_roleInStudy:
     name: sockg_roleInStudy
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -539,7 +541,7 @@ attributes:
     - range: double
   sockg_firstName:
     name: sockg_firstName
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -558,7 +560,7 @@ attributes:
     range: string
   sockg_lastName:
     name: sockg_lastName
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -577,7 +579,7 @@ attributes:
     range: string
   sockg_isPrimaryContact:
     name: sockg_isPrimaryContact
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -601,7 +603,7 @@ attributes:
     - range: double
   sockg_profession:
     name: sockg_profession
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

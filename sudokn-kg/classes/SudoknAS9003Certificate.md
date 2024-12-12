@@ -3,7 +3,7 @@
 # Class: AS-9003 certificate (sudokn_AS9003Certificate)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -96,7 +96,7 @@ URI: [sudokn:AS9003Certificate](http://asu.edu/semantics/SUDOKN/AS9003Certificat
 <details>
 ```yaml
 name: sudokn_AS9003Certificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: AS-9003 certificate
 todos:
 - TODO -- Todos for this class go here
@@ -105,6 +105,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ASCertificate
 class_uri: sudokn:AS9003Certificate
 
@@ -116,7 +117,7 @@ class_uri: sudokn:AS9003Certificate
 <details>
 ```yaml
 name: sudokn_AS9003Certificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: AS-9003 certificate
 todos:
 - TODO -- Todos for this class go here
@@ -125,6 +126,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ASCertificate
 class_uri: sudokn:AS9003Certificate
 

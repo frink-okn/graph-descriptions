@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (sudokn_BrazeWeldingCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -62,7 +62,7 @@ URI: [sudokn:BrazeWeldingCapability](http://asu.edu/semantics/SUDOKN/BrazeWeldin
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | [SudoknJoiningCapability](../classes/SudoknJoiningCapability.md) |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | [SudoknJoiningCapability](../classes/SudoknJoiningCapability.md) |
 
 
 
@@ -116,7 +116,7 @@ URI: [sudokn:BrazeWeldingCapability](http://asu.edu/semantics/SUDOKN/BrazeWeldin
 <details>
 ```yaml
 name: sudokn_BrazeWeldingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -125,6 +125,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ThermalWeldingCapability
 class_uri: sudokn:BrazeWeldingCapability
 
@@ -136,7 +137,7 @@ class_uri: sudokn:BrazeWeldingCapability
 <details>
 ```yaml
 name: sudokn_BrazeWeldingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -145,11 +146,12 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ThermalWeldingCapability
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

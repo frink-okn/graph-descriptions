@@ -3,7 +3,7 @@
 # Slot: relation_MountedOn
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,12 +23,12 @@ URI: [relation:MountedOn](http://relation.org/MountedOn)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
+| [HsdoInstrument](../classes/HsdoInstrument.md) | No type description provided |  no  |
+| [HsdoPlatform](../classes/HsdoPlatform.md) | No type description provided |  no  |
+| [HsdoProvider](../classes/HsdoProvider.md) | No type description provided |  no  |
 | [HsdoProject](../classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  no  |
-| [HsdoInstrument](../classes/HsdoInstrument.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoPlatform](../classes/HsdoPlatform.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoLocation](../classes/HsdoLocation.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoProvider](../classes/HsdoProvider.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoExperiment](../classes/HsdoExperiment.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoExperiment](../classes/HsdoExperiment.md) | No type description provided |  no  |
+| [HsdoLocation](../classes/HsdoLocation.md) | No type description provided |  no  |
 
 
 
@@ -120,7 +120,7 @@ URI: [relation:MountedOn](http://relation.org/MountedOn)
 <details>
 ```yaml
 name: relation_MountedOn
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

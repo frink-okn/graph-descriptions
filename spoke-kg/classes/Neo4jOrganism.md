@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (neo4j_Organism)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -78,11 +78,11 @@ URI: [neo4j:Organism](neo4j://graph.schema#Organism)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [neo4j_ISOLATEDIN_OiL](../slots/neo4j_ISOLATEDIN_OiL.md) | 0..1 <br/> [Neo4jLocation](../classes/Neo4jLocation.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [neo4j_RESPONDS_TO_OrC](../slots/neo4j_RESPONDS_TO_OrC.md) | 0..1 <br/> [Neo4jCompound](../classes/Neo4jCompound.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [neo4j_identifier](../slots/neo4j_identifier.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [neo4j_name](../slots/neo4j_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [neo4j_sources](../slots/neo4j_sources.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [neo4j_ISOLATEDIN_OiL](../slots/neo4j_ISOLATEDIN_OiL.md) | 0..1 <br/> [Neo4jLocation](../classes/Neo4jLocation.md) | No slot description provided | direct |
+| [neo4j_RESPONDS_TO_OrC](../slots/neo4j_RESPONDS_TO_OrC.md) | 0..1 <br/> [Neo4jCompound](../classes/Neo4jCompound.md) | No slot description provided | direct |
+| [neo4j_identifier](../slots/neo4j_identifier.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [neo4j_name](../slots/neo4j_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [neo4j_sources](../slots/neo4j_sources.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
 
 
 
@@ -143,7 +143,7 @@ URI: [neo4j:Organism](neo4j://graph.schema#Organism)
 <details>
 ```yaml
 name: neo4j_Organism
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -154,6 +154,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#105042
 from_schema: spoke-kg
+rank: 1000
 slots:
 - neo4j_ISOLATEDIN_OiL
 - neo4j_RESPONDS_TO_OrC
@@ -170,7 +171,7 @@ class_uri: neo4j:Organism
 <details>
 ```yaml
 name: neo4j_Organism
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -181,10 +182,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#105042
 from_schema: spoke-kg
+rank: 1000
 attributes:
   neo4j_ISOLATEDIN_OiL:
     name: neo4j_ISOLATEDIN_OiL
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -203,7 +205,7 @@ attributes:
     range: neo4j_Location
   neo4j_RESPONDS_TO_OrC:
     name: neo4j_RESPONDS_TO_OrC
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -222,7 +224,7 @@ attributes:
     range: neo4j_Compound
   neo4j_identifier:
     name: neo4j_identifier
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -256,7 +258,7 @@ attributes:
     range: string
   neo4j_name:
     name: neo4j_name
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -292,7 +294,7 @@ attributes:
     range: string
   neo4j_sources:
     name: neo4j_sources
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

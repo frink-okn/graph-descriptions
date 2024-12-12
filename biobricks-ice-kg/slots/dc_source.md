@@ -3,7 +3,7 @@
 # Slot: dc_source
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,9 +23,9 @@ URI: [dc:source](http://purl.org/dc/elements/1.1/source)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Cheminf000446](../classes/Cheminf000446.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [Bao0000015](../classes/Bao0000015.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [Cheminf000568](../classes/Cheminf000568.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [Cheminf000446](../classes/Cheminf000446.md) | No type description provided |  no  |
+| [Bao0000015](../classes/Bao0000015.md) | No type description provided |  no  |
+| [Cheminf000568](../classes/Cheminf000568.md) | No type description provided |  no  |
 
 
 
@@ -35,7 +35,7 @@ URI: [dc:source](http://purl.org/dc/elements/1.1/source)
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -93,7 +93,7 @@ URI: [dc:source](http://purl.org/dc/elements/1.1/source)
 <details>
 ```yaml
 name: dc_source
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

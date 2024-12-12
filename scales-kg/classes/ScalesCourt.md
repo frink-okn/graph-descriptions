@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (scales_Court)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -60,9 +60,9 @@ URI: [scales:Court](http://schemas.scales-okn.org/rdf/scales#Court)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [scales_isInCourtSystem](../slots/scales_isInCourtSystem.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [scales_hasName](../slots/scales_hasName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [scales_isInCircuit](../slots/scales_isInCircuit.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [scales_isInCourtSystem](../slots/scales_isInCourtSystem.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [scales_hasName](../slots/scales_hasName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [scales_isInCircuit](../slots/scales_isInCircuit.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -124,7 +124,7 @@ URI: [scales:Court](http://schemas.scales-okn.org/rdf/scales#Court)
 <details>
 ```yaml
 name: scales_Court
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -133,6 +133,7 @@ todos:
 notes:
 - Class with 94 occurences.
 from_schema: scales-kg
+rank: 1000
 slots:
 - scales_isInCourtSystem
 - scales_hasName
@@ -147,7 +148,7 @@ class_uri: scales:Court
 <details>
 ```yaml
 name: scales_Court
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -156,10 +157,11 @@ todos:
 notes:
 - Class with 94 occurences.
 from_schema: scales-kg
+rank: 1000
 attributes:
   scales_isInCourtSystem:
     name: scales_isInCourtSystem
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -178,7 +180,7 @@ attributes:
     range: string
   scales_hasName:
     name: scales_hasName
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -202,7 +204,7 @@ attributes:
     range: string
   scales_isInCircuit:
     name: scales_isInCircuit
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

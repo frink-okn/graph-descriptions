@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (geo_hasDefaultGeometry)
+# Slot: No slot description provided (geo_hasDefaultGeometry)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,9 +23,9 @@ URI: [geo:hasDefaultGeometry](http://www.opengis.net/ont/geosparql#hasDefaultGeo
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ContaminosoPoint](../classes/ContaminosoPoint.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoFeature](../classes/ContaminosoFeature.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MeegadEGAD-Site](../classes/MeegadEGAD-Site.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [ContaminosoPoint](../classes/ContaminosoPoint.md) | No type description provided |  no  |
+| [MeegadEGAD-Site](../classes/MeegadEGAD-Site.md) | No type description provided |  no  |
+| [ContaminosoFeature](../classes/ContaminosoFeature.md) | No type description provided |  no  |
 
 
 
@@ -93,8 +93,8 @@ URI: [geo:hasDefaultGeometry](http://www.opengis.net/ont/geosparql#hasDefaultGeo
 <details>
 ```yaml
 name: geo_hasDefaultGeometry
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

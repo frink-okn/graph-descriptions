@@ -1,6 +1,6 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (http___sawgraph.spatialai.org_v1_sdwis#pwsidNumber)
+# Slot: No slot description provided (http___sawgraph.spatialai.org_v1_sdwis#pwsidNumber)
 
 
 _Uniquely identifies the water system within a specific state. Format: SSXXXXXXXXXX where: SS = the Federal Information Processing Standard (FIPS) Pub 5-2 State abbreviation in which the water system is located, or the region number of the EPA region responsible for an Indian reservation, and XXXXXXXXXX = the water system identification code assigned by the State._
@@ -23,7 +23,7 @@ URI: [http://sawgraph.spatialai.org/v1/sdwis#pwsidNumber](http://sawgraph.spatia
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [MeegadEGAD-Site](../classes/MeegadEGAD-Site.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [MeegadEGAD-Site](../classes/MeegadEGAD-Site.md) | No type description provided |  no  |
 
 
 
@@ -92,7 +92,7 @@ description: 'Uniquely identifies the water system within a specific state. Form
   5-2 State abbreviation in which the water system is located, or the region number
   of the EPA region responsible for an Indian reservation, and XXXXXXXXXX = the water
   system identification code assigned by the State.'
-title: TODO -- tell the world what this slot (predicate) describes.
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

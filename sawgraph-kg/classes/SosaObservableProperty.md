@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (sosa_ObservableProperty)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -102,7 +102,7 @@ URI: [sosa:ObservableProperty](http://www.w3.org/ns/sosa/ObservableProperty)
 <details>
 ```yaml
 name: sosa_ObservableProperty
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -111,6 +111,7 @@ todos:
 notes:
 - Class with 169 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 class_uri: sosa:ObservableProperty
 
 ```
@@ -121,7 +122,7 @@ class_uri: sosa:ObservableProperty
 <details>
 ```yaml
 name: sosa_ObservableProperty
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -130,6 +131,7 @@ todos:
 notes:
 - Class with 169 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 class_uri: sosa:ObservableProperty
 
 ```

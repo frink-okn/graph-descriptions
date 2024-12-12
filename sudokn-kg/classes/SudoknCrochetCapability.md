@@ -3,7 +3,7 @@
 # Class: crochet capability (sudokn_CrochetCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -95,7 +95,7 @@ URI: [sudokn:CrochetCapability](http://asu.edu/semantics/SUDOKN/CrochetCapabilit
 <details>
 ```yaml
 name: sudokn_CrochetCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: crochet capability
 todos:
 - TODO -- Todos for this class go here
@@ -104,6 +104,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_TextileProcessCapability
 class_uri: sudokn:CrochetCapability
 
@@ -115,7 +116,7 @@ class_uri: sudokn:CrochetCapability
 <details>
 ```yaml
 name: sudokn_CrochetCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: crochet capability
 todos:
 - TODO -- Todos for this class go here
@@ -124,6 +125,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_TextileProcessCapability
 class_uri: sudokn:CrochetCapability
 

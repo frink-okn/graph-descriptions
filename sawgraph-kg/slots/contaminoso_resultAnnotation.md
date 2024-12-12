@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (contaminoso_resultAnnotation)
+# Slot: No slot description provided (contaminoso_resultAnnotation)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,15 +23,15 @@ URI: [contaminoso:resultAnnotation](http://sawgraph.spatialai.org/v1/contaminoso
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ContaminosoResultQualifier](../classes/ContaminosoResultQualifier.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MeegadEGAD-ValidationLevel](../classes/MeegadEGAD-ValidationLevel.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [PfasQuantitationLimit](../classes/PfasQuantitationLimit.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoContaminantMeasurement](../classes/ContaminosoContaminantMeasurement.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MeegadEGAD-LabQualifier](../classes/MeegadEGAD-LabQualifier.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [PfasMethodDetectionLimit](../classes/PfasMethodDetectionLimit.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoAggregateContaminantMeasurement](../classes/ContaminosoAggregateContaminantMeasurement.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [PfasReportingLimit](../classes/PfasReportingLimit.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MeegadEGAD-ValidationQualifier](../classes/MeegadEGAD-ValidationQualifier.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [ContaminosoAggregateContaminantMeasurement](../classes/ContaminosoAggregateContaminantMeasurement.md) | No type description provided |  no  |
+| [MeegadEGAD-ValidationQualifier](../classes/MeegadEGAD-ValidationQualifier.md) | No type description provided |  no  |
+| [ContaminosoContaminantMeasurement](../classes/ContaminosoContaminantMeasurement.md) | No type description provided |  no  |
+| [PfasReportingLimit](../classes/PfasReportingLimit.md) | No type description provided |  no  |
+| [MeegadEGAD-LabQualifier](../classes/MeegadEGAD-LabQualifier.md) | No type description provided |  no  |
+| [PfasMethodDetectionLimit](../classes/PfasMethodDetectionLimit.md) | No type description provided |  no  |
+| [ContaminosoResultQualifier](../classes/ContaminosoResultQualifier.md) | No type description provided |  no  |
+| [PfasQuantitationLimit](../classes/PfasQuantitationLimit.md) | No type description provided |  no  |
+| [MeegadEGAD-ValidationLevel](../classes/MeegadEGAD-ValidationLevel.md) | No type description provided |  no  |
 
 
 
@@ -103,8 +103,8 @@ URI: [contaminoso:resultAnnotation](http://sawgraph.spatialai.org/v1/contaminoso
 <details>
 ```yaml
 name: contaminoso_resultAnnotation
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

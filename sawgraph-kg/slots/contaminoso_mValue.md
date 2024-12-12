@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (contaminoso_mValue)
+# Slot: No slot description provided (contaminoso_mValue)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -71,8 +71,8 @@ URI: [contaminoso:mValue](http://sawgraph.spatialai.org/v1/contaminoso#mValue)
 <details>
 ```yaml
 name: contaminoso_mValue
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

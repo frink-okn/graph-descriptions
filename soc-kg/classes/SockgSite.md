@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for what this class (type) describes? (sockg_Site)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -141,18 +141,18 @@ URI: [sockg:Site](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sockg_locatedInCounty](../slots/sockg_locatedInCounty.md) | 0..1 <br/> [SockgCounty](../classes/SockgCounty.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_locatedInState](../slots/sockg_locatedInState.md) | 0..1 <br/> [SockgState](../classes/SockgState.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_locatedInCity](../slots/sockg_locatedInCity.md) | 0..1 <br/> [SockgCity](../classes/SockgCity.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_locatedInCountry](../slots/sockg_locatedInCountry.md) | 0..1 <br/> [SockgCountry](../classes/SockgCountry.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_hasField](../slots/sockg_hasField.md) | 0..1 <br/> [SockgField](../classes/SockgField.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_siteIdDescriptor](../slots/sockg_siteIdDescriptor.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_majorLandResourceArea](../slots/sockg_majorLandResourceArea.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_siteSpatialDescription](../slots/sockg_siteSpatialDescription.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_siteNativeVegetation](../slots/sockg_siteNativeVegetation.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_siteId](../slots/sockg_siteId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_postalCodeNumber](../slots/sockg_postalCodeNumber.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_siteHistory](../slots/sockg_siteHistory.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sockg_locatedInCounty](../slots/sockg_locatedInCounty.md) | 0..1 <br/> [SockgCounty](../classes/SockgCounty.md) | No slot description provided | direct |
+| [sockg_locatedInState](../slots/sockg_locatedInState.md) | 0..1 <br/> [SockgState](../classes/SockgState.md) | No slot description provided | direct |
+| [sockg_locatedInCity](../slots/sockg_locatedInCity.md) | 0..1 <br/> [SockgCity](../classes/SockgCity.md) | No slot description provided | direct |
+| [sockg_locatedInCountry](../slots/sockg_locatedInCountry.md) | 0..1 <br/> [SockgCountry](../classes/SockgCountry.md) | No slot description provided | direct |
+| [sockg_hasField](../slots/sockg_hasField.md) | 0..1 <br/> [SockgField](../classes/SockgField.md) | No slot description provided | direct |
+| [sockg_siteIdDescriptor](../slots/sockg_siteIdDescriptor.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_majorLandResourceArea](../slots/sockg_majorLandResourceArea.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_siteSpatialDescription](../slots/sockg_siteSpatialDescription.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_siteNativeVegetation](../slots/sockg_siteNativeVegetation.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_siteId](../slots/sockg_siteId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_postalCodeNumber](../slots/sockg_postalCodeNumber.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_siteHistory](../slots/sockg_siteHistory.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
 
 
 
@@ -224,7 +224,7 @@ URI: [sockg:Site](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 <details>
 ```yaml
 name: sockg_Site
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -235,6 +235,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#230717
 from_schema: soc-kg/main
+rank: 1000
 slots:
 - sockg_locatedInCounty
 - sockg_locatedInState
@@ -258,7 +259,7 @@ class_uri: sockg:Site
 <details>
 ```yaml
 name: sockg_Site
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -269,10 +270,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#230717
 from_schema: soc-kg/main
+rank: 1000
 attributes:
   sockg_locatedInCounty:
     name: sockg_locatedInCounty
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -291,7 +293,7 @@ attributes:
     range: sockg_County
   sockg_locatedInState:
     name: sockg_locatedInState
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -310,7 +312,7 @@ attributes:
     range: sockg_State
   sockg_locatedInCity:
     name: sockg_locatedInCity
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -329,7 +331,7 @@ attributes:
     range: sockg_City
   sockg_locatedInCountry:
     name: sockg_locatedInCountry
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -348,7 +350,7 @@ attributes:
     range: sockg_Country
   sockg_hasField:
     name: sockg_hasField
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -367,7 +369,7 @@ attributes:
     range: sockg_Field
   sockg_siteIdDescriptor:
     name: sockg_siteIdDescriptor
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -386,7 +388,7 @@ attributes:
     range: double
   sockg_majorLandResourceArea:
     name: sockg_majorLandResourceArea
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -405,7 +407,7 @@ attributes:
     range: double
   sockg_siteSpatialDescription:
     name: sockg_siteSpatialDescription
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -425,7 +427,7 @@ attributes:
     range: string
   sockg_siteNativeVegetation:
     name: sockg_siteNativeVegetation
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -444,7 +446,7 @@ attributes:
     range: double
   sockg_siteId:
     name: sockg_siteId
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -463,7 +465,7 @@ attributes:
     range: string
   sockg_postalCodeNumber:
     name: sockg_postalCodeNumber
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -482,7 +484,7 @@ attributes:
     range: double
   sockg_siteHistory:
     name: sockg_siteHistory
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

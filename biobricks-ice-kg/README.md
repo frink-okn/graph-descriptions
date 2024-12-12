@@ -12,9 +12,6 @@ Name: biobricks-ice-kg
 
 ```mermaid
 erDiagram
-Any {
-
-}
 Bao0000015 {
     string dc_source  
     string rdfs_label  
@@ -61,26 +58,44 @@ Bao0000015 ||--|o EdamData1181 : "niehs_throughMechanisticTarget_NCIm"
 Bao0000015 ||--|o EdamData1181 : "umls_C1708327"
 Bao0000040 ||--|o Cheminf000000 : "obo_RO_0000057"
 Bao0000040 ||--|o Bao0000179 : "obo_OBI_0000299"
-Cheminf000000 ||--|o Any : "edam_has_identifier"
+Cheminf000000 ||--|o Cheminf000568 : "edam_has_identifier"
+Cheminf000000 ||--|o Cheminf000446 : "edam_has_identifier"
 Cheminf000000 ||--|o Bao0000040 : "obo_RO_0000056"
 
 ```
+
+
+## IRI prefixes
+
+* bao: http://www.bioassayontology.org/bao#BAO_
+* cheminf: http://purl.obolibrary.org/obo/CHEMINF_
+* dc: http://purl.org/dc/elements/1.1/
+* edam: http://edamontology.org/
+* linkml: https://w3id.org/linkml/
+* niehs: https://ice.ntp.niehs.nih.gov/property/
+* obo: http://purl.obolibrary.org/obo/
+* rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+* rdfs: http://www.w3.org/2000/01/rdf-schema#
+* semsci: http://semanticscience.org/resource/SIO_
+* umls: https://identifiers.org/umls:
+
 
 
 ## Classes
 
 | Class | Description |
 | --- | --- |
-| [Any](classes/Any.md) | None |
-| [Bao0000015](classes/Bao0000015.md) | TODO -- tell the world what this class (type) describes. |
-| [Bao0000040](classes/Bao0000040.md) | TODO -- tell the world what this class (type) describes. |
-| [Bao0000179](classes/Bao0000179.md) | TODO -- tell the world what this class (type) describes. |
-| [Bao0003064](classes/Bao0003064.md) | TODO -- tell the world what this class (type) describes. |
-| [Cheminf000000](classes/Cheminf000000.md) | TODO -- tell the world what this class (type) describes. |
-| [Cheminf000446](classes/Cheminf000446.md) | TODO -- tell the world what this class (type) describes. |
-| [Cheminf000568](classes/Cheminf000568.md) | TODO -- tell the world what this class (type) describes. |
-| [EdamData1027](classes/EdamData1027.md) | TODO -- tell the world what this class (type) describes. |
-| [EdamData1181](classes/EdamData1181.md) | TODO -- tell the world what this class (type) describes. |
+| [Bao0000015](classes/Bao0000015.md) | No type description provided<br/>Class with 2063 occurences.| 
+| [Bao0000040](classes/Bao0000040.md) | No type description provided<br/>Class with 202322 occurences.| 
+| [Bao0000179](classes/Bao0000179.md) | No type description provided<br/>Class with 413168 occurences.| 
+| [Bao0003064](classes/Bao0003064.md) | No type description provided<br/>Class with 59 occurences.| 
+| [Cheminf000000](classes/Cheminf000000.md) | No type description provided<br/>Class with 197214 occurences.| 
+| [Cheminf000446](classes/Cheminf000446.md) | No type description provided<br/>Class with 538147 occurences.| 
+| [Cheminf000568](classes/Cheminf000568.md) | No type description provided<br/>Class with 538131 occurences.| 
+| [EdamData1027](classes/EdamData1027.md) | No type description provided<br/>Class with 526 occurences.| 
+| [EdamData1181](classes/EdamData1181.md) | No type description provided<br/>Class with 59 occurences.| 
+
+
 
 
 
@@ -88,40 +103,29 @@ Cheminf000000 ||--|o Bao0000040 : "obo_RO_0000056"
 
 | Slot | Description |
 | --- | --- |
-| [bao_0000209](slots/bao_0000209.md) | TODO -- tell the world what this slot (predicate) describes |
-| [dc_source](slots/dc_source.md) | TODO -- tell the world what this slot (predicate) describes |
-| [edam_has_identifier](slots/edam_has_identifier.md) | TODO -- tell the world what this slot (predicate) describes |
-| [niehs_assay_entrez_gene_id](slots/niehs_assay_entrez_gene_id.md) | TODO -- tell the world what this slot (predicate) describes |
-| [niehs_assay_invitro_assay_format](slots/niehs_assay_invitro_assay_format.md) | TODO -- tell the world what this slot (predicate) describes |
-| [niehs_assay_source](slots/niehs_assay_source.md) | TODO -- tell the world what this slot (predicate) describes |
-| [niehs_assay_species](slots/niehs_assay_species.md) | TODO -- tell the world what this slot (predicate) describes |
-| [niehs_assay_tissue](slots/niehs_assay_tissue.md) | TODO -- tell the world what this slot (predicate) describes |
-| [niehs_mayInformOn](slots/niehs_mayInformOn.md) | TODO -- tell the world what this slot (predicate) describes |
-| [niehs_throughMechanisticTarget](slots/niehs_throughMechanisticTarget.md) | TODO -- tell the world what this slot (predicate) describes |
-| [niehs_throughMechanisticTarget_NCIm](slots/niehs_throughMechanisticTarget_NCIm.md) | TODO -- tell the world what this slot (predicate) describes |
-| [obo_ExO_0000055](slots/obo_ExO_0000055.md) | TODO -- tell the world what this slot (predicate) describes |
-| [obo_OBI_0000299](slots/obo_OBI_0000299.md) | TODO -- tell the world what this slot (predicate) describes |
-| [obo_RO_0000056](slots/obo_RO_0000056.md) | TODO -- tell the world what this slot (predicate) describes |
-| [obo_RO_0000057](slots/obo_RO_0000057.md) | TODO -- tell the world what this slot (predicate) describes |
-| [rdfs_label](slots/rdfs_label.md) | TODO -- tell the world what this slot (predicate) describes |
-| [semsci_has_unit](slots/semsci_has_unit.md) | TODO -- tell the world what this slot (predicate) describes |
-| [semsci_has_value](slots/semsci_has_value.md) | TODO -- tell the world what this slot (predicate) describes |
-| [umls_C1708327](slots/umls_C1708327.md) | TODO -- tell the world what this slot (predicate) describes |
+| [bao_0000209](slots/bao_0000209.md) | No slot description provided<br/>8208 occurrences with subject type bao_0000015 and object type bao_0000040.|
+| [dc_source](slots/dc_source.md) | No slot description provided<br/>538147 occurrences with subject type cheminf_000446 and object type string.<br/>538131 occurrences with subject type cheminf_000568 and object type string.<br/>3990 occurrences with subject type bao_0000015 and object type string.|
+| [edam_has_identifier](slots/edam_has_identifier.md) | No slot description provided<br/>197214 occurrences with subject type cheminf_000000 and object type cheminf_000446.<br/>197214 occurrences with subject type cheminf_000000 and object type cheminf_000568.|
+| [niehs_assay_entrez_gene_id](slots/niehs_assay_entrez_gene_id.md) | No slot description provided<br/>1814 occurrences with subject type bao_0000015 and object type edam_data_1027.|
+| [niehs_assay_invitro_assay_format](slots/niehs_assay_invitro_assay_format.md) | No slot description provided<br/>1814 occurrences with subject type bao_0000015 and object type string.|
+| [niehs_assay_source](slots/niehs_assay_source.md) | No slot description provided<br/>1814 occurrences with subject type bao_0000015 and object type string.|
+| [niehs_assay_species](slots/niehs_assay_species.md) | No slot description provided<br/>1814 occurrences with subject type bao_0000015 and object type string.|
+| [niehs_assay_tissue](slots/niehs_assay_tissue.md) | No slot description provided<br/>1814 occurrences with subject type bao_0000015 and object type string.|
+| [niehs_mayInformOn](slots/niehs_mayInformOn.md) | No slot description provided<br/>3570 occurrences with subject type bao_0000015 and object type string.|
+| [niehs_throughMechanisticTarget](slots/niehs_throughMechanisticTarget.md) | No slot description provided<br/>2753 occurrences with subject type bao_0000015 and object type string.|
+| [niehs_throughMechanisticTarget_NCIm](slots/niehs_throughMechanisticTarget_NCIm.md) | No slot description provided<br/>3015 occurrences with subject type bao_0000015 and object type edam_data_1181.|
+| [obo_ExO_0000055](slots/obo_ExO_0000055.md) | No slot description provided<br/>135113 occurrences with subject type bao_0000179 and object type string.|
+| [obo_OBI_0000299](slots/obo_OBI_0000299.md) | No slot description provided<br/>414162 occurrences with subject type bao_0000040 and object type bao_0000179.|
+| [obo_RO_0000056](slots/obo_RO_0000056.md) | No slot description provided<br/>202322 occurrences with subject type cheminf_000000 and object type bao_0000040.|
+| [obo_RO_0000057](slots/obo_RO_0000057.md) | No slot description provided<br/>202322 occurrences with subject type bao_0000040 and object type cheminf_000000.|
+| [rdfs_label](slots/rdfs_label.md) | No slot description provided<br/>197214 occurrences with subject type cheminf_000000 and object type string.<br/>413168 occurrences with subject type bao_0000179 and object type string.<br/>542470 occurrences with subject type cheminf_000446 and object type string.<br/>542456 occurrences with subject type cheminf_000568 and object type string.<br/>2063 occurrences with subject type bao_0000015 and object type string.|
+| [semsci_has_unit](slots/semsci_has_unit.md) | No slot description provided<br/>413168 occurrences with subject type bao_0000179 and object type string.|
+| [semsci_has_value](slots/semsci_has_value.md) | No slot description provided<br/>413647 occurrences with subject type bao_0000179 and object type string.|
+| [umls_C1708327](slots/umls_C1708327.md) | No slot description provided<br/>3015 occurrences with subject type bao_0000015 and object type edam_data_1181.|
 
 
-## Enumerations
-
-| Enumeration | Description |
-| --- | --- |
 
 
-## Types
-
-| Type | Description |
-| --- | --- |
 
 
-## Subsets
 
-| Subset | Description |
-| --- | --- |

@@ -3,7 +3,7 @@
 # Class: heat treating capability (sudokn_HeatTreatingCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -56,7 +56,7 @@ URI: [sudokn:HeatTreatingCapability](http://asu.edu/semantics/SUDOKN/HeatTreatin
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -125,7 +125,7 @@ URI: [sudokn:HeatTreatingCapability](http://asu.edu/semantics/SUDOKN/HeatTreatin
 <details>
 ```yaml
 name: sudokn_HeatTreatingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: heat treating capability
 todos:
 - TODO -- Todos for this class go here
@@ -136,6 +136,7 @@ notes:
 examples:
 - value: sudokn:4MPROTOTYPE-HeatTreatingCapability-inst
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ManufacturingProcessCapability
 slots:
 - rdfs_label
@@ -149,7 +150,7 @@ class_uri: sudokn:HeatTreatingCapability
 <details>
 ```yaml
 name: sudokn_HeatTreatingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: heat treating capability
 todos:
 - TODO -- Todos for this class go here
@@ -160,11 +161,12 @@ notes:
 examples:
 - value: sudokn:4MPROTOTYPE-HeatTreatingCapability-inst
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ManufacturingProcessCapability
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

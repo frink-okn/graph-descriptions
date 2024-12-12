@@ -3,7 +3,7 @@
 # Slot: https___spec.industrialontologies.org_ontology_core_meta_AnnotationVocabulary_replacedBy
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -67,7 +67,7 @@ URI: [https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabul
 <details>
 ```yaml
 name: https___spec.industrialontologies.org_ontology_core_meta_AnnotationVocabulary_replacedBy
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

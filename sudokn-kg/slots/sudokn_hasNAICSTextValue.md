@@ -3,7 +3,7 @@
 # Slot: has NAICS text value (sudokn_hasNAICSTextValue)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,68 +23,68 @@ URI: [sudokn:hasNAICSTextValue](http://asu.edu/semantics/SUDOKN/hasNAICSTextValu
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknNAICS332214](../classes/SudoknNAICS332214.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332116](../classes/SudoknNAICS332116.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAdministrativeAndSupportAndWasteServices](../classes/SudoknAdministrativeAndSupportAndWasteServices.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332812](../classes/SudoknNAICS332812.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICSClassifier](../classes/SudoknNAICSClassifier.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknManagementOfCompaniesAndEnterprise](../classes/SudoknManagementOfCompaniesAndEnterprise.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332992](../classes/SudoknNAICS332992.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332912](../classes/SudoknNAICS332912.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknRetailTrade](../classes/SudoknRetailTrade.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknFinanceAndInsurance](../classes/SudoknFinanceAndInsurance.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknInformation](../classes/SudoknInformation.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknMining](../classes/SudoknMining.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332431](../classes/SudoknNAICS332431.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknPublicAdministration](../classes/SudoknPublicAdministration.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332991](../classes/SudoknNAICS332991.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332212](../classes/SudoknNAICS332212.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknWholesaleTrade](../classes/SudoknWholesaleTrade.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332111](../classes/SudoknNAICS332111.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332612](../classes/SudoknNAICS332612.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332323](../classes/SudoknNAICS332323.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332311](../classes/SudoknNAICS332311.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332420](../classes/SudoknNAICS332420.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332313](../classes/SudoknNAICS332313.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332618](../classes/SudoknNAICS332618.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332117](../classes/SudoknNAICS332117.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332994](../classes/SudoknNAICS332994.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332996](../classes/SudoknNAICS332996.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332114](../classes/SudoknNAICS332114.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332710](../classes/SudoknNAICS332710.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAccommodationAndFoodServices](../classes/SudoknAccommodationAndFoodServices.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknRealEstateRentalAndLeasing](../classes/SudoknRealEstateRentalAndLeasing.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332213](../classes/SudoknNAICS332213.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332115](../classes/SudoknNAICS332115.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332722](../classes/SudoknNAICS332722.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332911](../classes/SudoknNAICS332911.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknUtilities](../classes/SudoknUtilities.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332321](../classes/SudoknNAICS332321.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknAgricultureForestryFishingAndHunting](../classes/SudoknAgricultureForestryFishingAndHunting.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332439](../classes/SudoknNAICS332439.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332811](../classes/SudoknNAICS332811.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknArtsEnterntainmentAndRecreation](../classes/SudoknArtsEnterntainmentAndRecreation.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332312](../classes/SudoknNAICS332312.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknTransportationAndWarehousing](../classes/SudoknTransportationAndWarehousing.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332999](../classes/SudoknNAICS332999.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknHealthcareAndSocialAssistance](../classes/SudoknHealthcareAndSocialAssistance.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknConstruction](../classes/SudoknConstruction.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332211](../classes/SudoknNAICS332211.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332721](../classes/SudoknNAICS332721.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332998](../classes/SudoknNAICS332998.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332997](../classes/SudoknNAICS332997.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332919](../classes/SudoknNAICS332919.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknProfessionalScientificAndTechnicalServices](../classes/SudoknProfessionalScientificAndTechnicalServices.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332813](../classes/SudoknNAICS332813.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332322](../classes/SudoknNAICS332322.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332510](../classes/SudoknNAICS332510.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknEducationalServices](../classes/SudoknEducationalServices.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332995](../classes/SudoknNAICS332995.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknManufacturing](../classes/SudoknManufacturing.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332611](../classes/SudoknNAICS332611.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332913](../classes/SudoknNAICS332913.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332410](../classes/SudoknNAICS332410.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SudoknNAICS332112](../classes/SudoknNAICS332112.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SudoknNAICS332322](../classes/SudoknNAICS332322.md) | No type description provided |  no  |
+| [SudoknNAICSClassifier](../classes/SudoknNAICSClassifier.md) | No type description provided |  no  |
+| [SudoknNAICS332112](../classes/SudoknNAICS332112.md) | No type description provided |  no  |
+| [SudoknNAICS332211](../classes/SudoknNAICS332211.md) | No type description provided |  no  |
+| [SudoknNAICS332710](../classes/SudoknNAICS332710.md) | No type description provided |  no  |
+| [SudoknAccommodationAndFoodServices](../classes/SudoknAccommodationAndFoodServices.md) | No type description provided |  no  |
+| [SudoknEducationalServices](../classes/SudoknEducationalServices.md) | No type description provided |  no  |
+| [SudoknInformation](../classes/SudoknInformation.md) | No type description provided |  no  |
+| [SudoknNAICS332311](../classes/SudoknNAICS332311.md) | No type description provided |  no  |
+| [SudoknNAICS332999](../classes/SudoknNAICS332999.md) | No type description provided |  no  |
+| [SudoknNAICS332312](../classes/SudoknNAICS332312.md) | No type description provided |  no  |
+| [SudoknNAICS332214](../classes/SudoknNAICS332214.md) | No type description provided |  no  |
+| [SudoknNAICS332323](../classes/SudoknNAICS332323.md) | No type description provided |  no  |
+| [SudoknNAICS332410](../classes/SudoknNAICS332410.md) | No type description provided |  no  |
+| [SudoknNAICS332439](../classes/SudoknNAICS332439.md) | No type description provided |  no  |
+| [SudoknPublicAdministration](../classes/SudoknPublicAdministration.md) | No type description provided |  no  |
+| [SudoknNAICS332213](../classes/SudoknNAICS332213.md) | No type description provided |  no  |
+| [SudoknNAICS332812](../classes/SudoknNAICS332812.md) | No type description provided |  no  |
+| [SudoknWholesaleTrade](../classes/SudoknWholesaleTrade.md) | No type description provided |  no  |
+| [SudoknNAICS332618](../classes/SudoknNAICS332618.md) | No type description provided |  no  |
+| [SudoknNAICS332321](../classes/SudoknNAICS332321.md) | No type description provided |  no  |
+| [SudoknNAICS332116](../classes/SudoknNAICS332116.md) | No type description provided |  no  |
+| [SudoknNAICS332722](../classes/SudoknNAICS332722.md) | No type description provided |  no  |
+| [SudoknMining](../classes/SudoknMining.md) | No type description provided |  no  |
+| [SudoknTransportationAndWarehousing](../classes/SudoknTransportationAndWarehousing.md) | No type description provided |  no  |
+| [SudoknNAICS332114](../classes/SudoknNAICS332114.md) | No type description provided |  no  |
+| [SudoknNAICS332612](../classes/SudoknNAICS332612.md) | No type description provided |  no  |
+| [SudoknNAICS332111](../classes/SudoknNAICS332111.md) | No type description provided |  no  |
+| [SudoknNAICS332912](../classes/SudoknNAICS332912.md) | No type description provided |  no  |
+| [SudoknNAICS332813](../classes/SudoknNAICS332813.md) | No type description provided |  no  |
+| [SudoknNAICS332911](../classes/SudoknNAICS332911.md) | No type description provided |  no  |
+| [SudoknNAICS332992](../classes/SudoknNAICS332992.md) | No type description provided |  no  |
+| [SudoknNAICS332811](../classes/SudoknNAICS332811.md) | No type description provided |  no  |
+| [SudoknNAICS332919](../classes/SudoknNAICS332919.md) | No type description provided |  no  |
+| [SudoknNAICS332998](../classes/SudoknNAICS332998.md) | No type description provided |  no  |
+| [SudoknManagementOfCompaniesAndEnterprise](../classes/SudoknManagementOfCompaniesAndEnterprise.md) | No type description provided |  no  |
+| [SudoknNAICS332212](../classes/SudoknNAICS332212.md) | No type description provided |  no  |
+| [SudoknRetailTrade](../classes/SudoknRetailTrade.md) | No type description provided |  no  |
+| [SudoknNAICS332995](../classes/SudoknNAICS332995.md) | No type description provided |  no  |
+| [SudoknHealthcareAndSocialAssistance](../classes/SudoknHealthcareAndSocialAssistance.md) | No type description provided |  no  |
+| [SudoknProfessionalScientificAndTechnicalServices](../classes/SudoknProfessionalScientificAndTechnicalServices.md) | No type description provided |  no  |
+| [SudoknManufacturing](../classes/SudoknManufacturing.md) | No type description provided |  no  |
+| [SudoknNAICS332611](../classes/SudoknNAICS332611.md) | No type description provided |  no  |
+| [SudoknNAICS332913](../classes/SudoknNAICS332913.md) | No type description provided |  no  |
+| [SudoknNAICS332431](../classes/SudoknNAICS332431.md) | No type description provided |  no  |
+| [SudoknNAICS332721](../classes/SudoknNAICS332721.md) | No type description provided |  no  |
+| [SudoknNAICS332996](../classes/SudoknNAICS332996.md) | No type description provided |  no  |
+| [SudoknNAICS332994](../classes/SudoknNAICS332994.md) | No type description provided |  no  |
+| [SudoknNAICS332997](../classes/SudoknNAICS332997.md) | No type description provided |  no  |
+| [SudoknArtsEnterntainmentAndRecreation](../classes/SudoknArtsEnterntainmentAndRecreation.md) | No type description provided |  no  |
+| [SudoknConstruction](../classes/SudoknConstruction.md) | No type description provided |  no  |
+| [SudoknNAICS332313](../classes/SudoknNAICS332313.md) | No type description provided |  no  |
+| [SudoknNAICS332991](../classes/SudoknNAICS332991.md) | No type description provided |  no  |
+| [SudoknFinanceAndInsurance](../classes/SudoknFinanceAndInsurance.md) | No type description provided |  no  |
+| [SudoknUtilities](../classes/SudoknUtilities.md) | No type description provided |  no  |
+| [SudoknNAICS332117](../classes/SudoknNAICS332117.md) | No type description provided |  no  |
+| [SudoknAgricultureForestryFishingAndHunting](../classes/SudoknAgricultureForestryFishingAndHunting.md) | No type description provided |  no  |
+| [SudoknNAICS332115](../classes/SudoknNAICS332115.md) | No type description provided |  no  |
+| [SudoknNAICS332510](../classes/SudoknNAICS332510.md) | No type description provided |  no  |
+| [SudoknRealEstateRentalAndLeasing](../classes/SudoknRealEstateRentalAndLeasing.md) | No type description provided |  no  |
+| [SudoknAdministrativeAndSupportAndWasteServices](../classes/SudoknAdministrativeAndSupportAndWasteServices.md) | No type description provided |  no  |
+| [SudoknNAICS332420](../classes/SudoknNAICS332420.md) | No type description provided |  no  |
 
 
 
@@ -232,7 +232,7 @@ URI: [sudokn:hasNAICSTextValue](http://asu.edu/semantics/SUDOKN/hasNAICSTextValu
 <details>
 ```yaml
 name: sudokn_hasNAICSTextValue
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 title: has NAICS text value
 todos:
 - TODO -- Todos for this slot go here

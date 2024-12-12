@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (ussdwis_populationServed)
+# Slot: No slot description provided (ussdwis_populationServed)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [ussdwis:populationServed](http://sawgraph.spatialai.org/v1/us-sdwis#popula
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ContaminosoFeature](../classes/ContaminosoFeature.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [ContaminosoFeature](../classes/ContaminosoFeature.md) | No type description provided |  no  |
 
 
 
@@ -87,8 +87,8 @@ URI: [ussdwis:populationServed](http://sawgraph.spatialai.org/v1/us-sdwis#popula
 <details>
 ```yaml
 name: ussdwis_populationServed
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (meegad_EGAD-SampledFeature)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -93,7 +93,7 @@ URI: [meegad:EGAD-SampledFeature](http://sawgraph.spatialai.org/v1/me-egad#EGAD-
 <details>
 ```yaml
 name: meegad_EGAD-SampledFeature
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -102,6 +102,7 @@ todos:
 notes:
 - Class with 8040 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: sosa_FeatureOfInterest
 class_uri: meegad:EGAD-SampledFeature
 
@@ -113,7 +114,7 @@ class_uri: meegad:EGAD-SampledFeature
 <details>
 ```yaml
 name: meegad_EGAD-SampledFeature
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -122,6 +123,7 @@ todos:
 notes:
 - Class with 8040 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: sosa_FeatureOfInterest
 class_uri: meegad:EGAD-SampledFeature
 

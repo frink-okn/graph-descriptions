@@ -3,7 +3,7 @@
 # Slot: example_ontology_path_id
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -24,7 +24,7 @@ URI: [example:ontology/path_id](http://example.org/ontology/path_id)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [xsd:anyURI](xsd:anyURI)
 
 
 
@@ -78,7 +78,7 @@ URI: [example:ontology/path_id](http://example.org/ontology/path_id)
 <details>
 ```yaml
 name: example_ontology_path_id
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

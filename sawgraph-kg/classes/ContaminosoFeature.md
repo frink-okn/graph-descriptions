@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (contaminoso_Feature)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -283,33 +283,33 @@ URI: [contaminoso:Feature](http://sawgraph.spatialai.org/v1/contaminoso#Feature)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [usfrs_hasGHGId](../slots/usfrs_hasGHGId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [meegad_sampledFeatureType](../slots/meegad_sampledFeatureType.md) | 0..1 <br/> [MeegadEGAD-SamplePointType](../classes/MeegadEGAD-SamplePointType.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [http___stko_kwg.geog.ucsb.edu_lod_ontology_spatialRelation](../slots/http___stko_kwg.geog.ucsb.edu_lod_ontology_spatialRelation.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ContaminosoFeature](../classes/ContaminosoFeature.md)&nbsp;or&nbsp;<br />[HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13](../classes/HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13.md)&nbsp;or&nbsp;<br />[MeegadEGAD-Site](../classes/MeegadEGAD-Site.md)&nbsp;or&nbsp;<br />[ContaminosoPoint](../classes/ContaminosoPoint.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [ussdwis_inCombinedSystem](../slots/ussdwis_inCombinedSystem.md) | 0..1 <br/> [ContaminosoFeature](../classes/ContaminosoFeature.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [ussdwis_lastReport](../slots/ussdwis_lastReport.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [geo_hasGeometry](../slots/geo_hasGeometry.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[GeoSpatialObject](../classes/GeoSpatialObject.md)&nbsp;or&nbsp;<br />[GeoGeometry](../classes/GeoGeometry.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [ilisgs_wellPurpose](../slots/ilisgs_wellPurpose.md) | 0..1 <br/> [IlisgsWellPurpose](../classes/IlisgsWellPurpose.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [ussdwis_pwsName](../slots/ussdwis_pwsName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [ussdwis_hasPWSID](../slots/ussdwis_hasPWSID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [ussdwis_firstReport](../slots/ussdwis_firstReport.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [ussdwis_hasOwnership](../slots/ussdwis_hasOwnership.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [ussdwis_sizeCategory](../slots/ussdwis_sizeCategory.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [ussdwis_primarySource](../slots/ussdwis_primarySource.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [geo_hasDefaultGeometry](../slots/geo_hasDefaultGeometry.md) | 0..1 <br/> [GeoGeometry](../classes/GeoGeometry.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [ilisgs_hasOwner](../slots/ilisgs_hasOwner.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [ilisgs_wellDepth](../slots/ilisgs_wellDepth.md) | 0..1 <br/> [IlisgsWellDepthInFt](../classes/IlisgsWellDepthInFt.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [ilisgs_wellYield](../slots/ilisgs_wellYield.md) | 0..1 <br/> [IlisgsWellYield](../classes/IlisgsWellYield.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [ussdwis_populationServed](../slots/ussdwis_populationServed.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [ussdwis_hasActivity](../slots/ussdwis_hasActivity.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [geo_defaultGeometry](../slots/geo_defaultGeometry.md) | 0..1 <br/> [GeoGeometry](../classes/GeoGeometry.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [ilisgs_hasISWSId](../slots/ilisgs_hasISWSId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [ussdwis_hasName](../slots/ussdwis_hasName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [ussdwis_deactivationDate](../slots/ussdwis_deactivationDate.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [ussdwis_serviceConnections](../slots/ussdwis_serviceConnections.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [http___stko_kwg.geog.ucsb.edu_lod_ontology_sfWithin](../slots/http___stko_kwg.geog.ucsb.edu_lod_ontology_sfWithin.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13](../classes/HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [geo_hasSerialization](../slots/geo_hasSerialization.md) | 0..1 <br/> [GeoWktLiteral](../classes/GeoWktLiteral.md) | TODO -- tell the world what this slot (predicate) describes | [GeoSpatialObject](../classes/GeoSpatialObject.md) |
+| [usfrs_hasGHGId](../slots/usfrs_hasGHGId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [meegad_sampledFeatureType](../slots/meegad_sampledFeatureType.md) | 0..1 <br/> [MeegadEGAD-SamplePointType](../classes/MeegadEGAD-SamplePointType.md) | No slot description provided | direct |
+| [http___stko_kwg.geog.ucsb.edu_lod_ontology_spatialRelation](../slots/http___stko_kwg.geog.ucsb.edu_lod_ontology_spatialRelation.md) | 0..1 <br/> [ContaminosoFeature](../classes/ContaminosoFeature.md)&nbsp;or&nbsp;<br />[HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13](../classes/HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13.md)&nbsp;or&nbsp;<br />[MeegadEGAD-Site](../classes/MeegadEGAD-Site.md)&nbsp;or&nbsp;<br />[ContaminosoPoint](../classes/ContaminosoPoint.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [ussdwis_inCombinedSystem](../slots/ussdwis_inCombinedSystem.md) | 0..1 <br/> [ContaminosoFeature](../classes/ContaminosoFeature.md) | No slot description provided | direct |
+| [ussdwis_lastReport](../slots/ussdwis_lastReport.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot description provided | direct |
+| [geo_hasGeometry](../slots/geo_hasGeometry.md) | 0..1 <br/> [GeoSpatialObject](../classes/GeoSpatialObject.md)&nbsp;or&nbsp;<br />[GeoGeometry](../classes/GeoGeometry.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [ilisgs_wellPurpose](../slots/ilisgs_wellPurpose.md) | 0..1 <br/> [IlisgsWellPurpose](../classes/IlisgsWellPurpose.md) | No slot description provided | direct |
+| [ussdwis_pwsName](../slots/ussdwis_pwsName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [ussdwis_hasPWSID](../slots/ussdwis_hasPWSID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [ussdwis_firstReport](../slots/ussdwis_firstReport.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot description provided | direct |
+| [ussdwis_hasOwnership](../slots/ussdwis_hasOwnership.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [ussdwis_sizeCategory](../slots/ussdwis_sizeCategory.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [ussdwis_primarySource](../slots/ussdwis_primarySource.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [geo_hasDefaultGeometry](../slots/geo_hasDefaultGeometry.md) | 0..1 <br/> [GeoGeometry](../classes/GeoGeometry.md) | No slot description provided | direct |
+| [ilisgs_hasOwner](../slots/ilisgs_hasOwner.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [ilisgs_wellDepth](../slots/ilisgs_wellDepth.md) | 0..1 <br/> [IlisgsWellDepthInFt](../classes/IlisgsWellDepthInFt.md) | No slot description provided | direct |
+| [ilisgs_wellYield](../slots/ilisgs_wellYield.md) | 0..1 <br/> [IlisgsWellYield](../classes/IlisgsWellYield.md) | No slot description provided | direct |
+| [ussdwis_populationServed](../slots/ussdwis_populationServed.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot description provided | direct |
+| [ussdwis_hasActivity](../slots/ussdwis_hasActivity.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [geo_defaultGeometry](../slots/geo_defaultGeometry.md) | 0..1 <br/> [GeoGeometry](../classes/GeoGeometry.md) | No slot description provided | direct |
+| [ilisgs_hasISWSId](../slots/ilisgs_hasISWSId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [ussdwis_hasName](../slots/ussdwis_hasName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [ussdwis_deactivationDate](../slots/ussdwis_deactivationDate.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot description provided | direct |
+| [ussdwis_serviceConnections](../slots/ussdwis_serviceConnections.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot description provided | direct |
+| [http___stko_kwg.geog.ucsb.edu_lod_ontology_sfWithin](../slots/http___stko_kwg.geog.ucsb.edu_lod_ontology_sfWithin.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13](../classes/HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13.md) | No slot description provided | direct |
+| [geo_hasSerialization](../slots/geo_hasSerialization.md) | 0..1 <br/> [GeoWktLiteral](../classes/GeoWktLiteral.md) | No slot description provided | [GeoSpatialObject](../classes/GeoSpatialObject.md) |
 
 
 
@@ -380,7 +380,7 @@ URI: [contaminoso:Feature](http://sawgraph.spatialai.org/v1/contaminoso#Feature)
 <details>
 ```yaml
 name: contaminoso_Feature
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -389,6 +389,7 @@ todos:
 notes:
 - Class with 568821 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: geo_SpatialObject
 slots:
 - usfrs_hasGHGId
@@ -427,7 +428,7 @@ class_uri: contaminoso:Feature
 <details>
 ```yaml
 name: contaminoso_Feature
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -436,12 +437,13 @@ todos:
 notes:
 - Class with 568821 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: geo_SpatialObject
 attributes:
   usfrs_hasGHGId:
     name: usfrs_hasGHGId
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -460,8 +462,8 @@ attributes:
     range: string
   meegad_sampledFeatureType:
     name: meegad_sampledFeatureType
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -481,8 +483,8 @@ attributes:
     range: meegad_EGAD-SamplePointType
   http___stko-kwg.geog.ucsb.edu_lod_ontology_spatialRelation:
     name: http___stko-kwg.geog.ucsb.edu_lod_ontology_spatialRelation
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -547,8 +549,8 @@ attributes:
     - range: uri
   ussdwis_inCombinedSystem:
     name: ussdwis_inCombinedSystem
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -567,8 +569,8 @@ attributes:
     range: contaminoso_Feature
   ussdwis_lastReport:
     name: ussdwis_lastReport
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -587,8 +589,8 @@ attributes:
     range: date
   geo_hasGeometry:
     name: geo_hasGeometry
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -632,8 +634,8 @@ attributes:
     - range: uri
   ilisgs_wellPurpose:
     name: ilisgs_wellPurpose
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -653,8 +655,8 @@ attributes:
     range: ilisgs_WellPurpose
   ussdwis_pwsName:
     name: ussdwis_pwsName
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -673,8 +675,8 @@ attributes:
     range: string
   ussdwis_hasPWSID:
     name: ussdwis_hasPWSID
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -694,8 +696,8 @@ attributes:
     range: string
   ussdwis_firstReport:
     name: ussdwis_firstReport
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -714,8 +716,8 @@ attributes:
     range: date
   ussdwis_hasOwnership:
     name: ussdwis_hasOwnership
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -734,8 +736,8 @@ attributes:
     range: string
   ussdwis_sizeCategory:
     name: ussdwis_sizeCategory
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -755,8 +757,8 @@ attributes:
     range: string
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -849,8 +851,8 @@ attributes:
     - range: uri
   ussdwis_primarySource:
     name: ussdwis_primarySource
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -869,8 +871,8 @@ attributes:
     range: string
   geo_hasDefaultGeometry:
     name: geo_hasDefaultGeometry
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -899,8 +901,8 @@ attributes:
     range: geo_Geometry
   ilisgs_hasOwner:
     name: ilisgs_hasOwner
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -920,8 +922,8 @@ attributes:
     range: string
   ilisgs_wellDepth:
     name: ilisgs_wellDepth
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -941,8 +943,8 @@ attributes:
     range: ilisgs_WellDepthInFt
   ilisgs_wellYield:
     name: ilisgs_wellYield
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -962,8 +964,8 @@ attributes:
     range: ilisgs_WellYield
   ussdwis_populationServed:
     name: ussdwis_populationServed
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -983,8 +985,8 @@ attributes:
     range: integer
   ussdwis_hasActivity:
     name: ussdwis_hasActivity
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1003,8 +1005,8 @@ attributes:
     range: string
   geo_defaultGeometry:
     name: geo_defaultGeometry
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1025,8 +1027,8 @@ attributes:
     range: geo_Geometry
   ilisgs_hasISWSId:
     name: ilisgs_hasISWSId
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1046,8 +1048,8 @@ attributes:
     range: string
   ussdwis_hasName:
     name: ussdwis_hasName
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1067,8 +1069,8 @@ attributes:
     range: string
   ussdwis_deactivationDate:
     name: ussdwis_deactivationDate
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1087,8 +1089,8 @@ attributes:
     range: date
   ussdwis_serviceConnections:
     name: ussdwis_serviceConnections
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1107,8 +1109,8 @@ attributes:
     range: integer
   http___stko-kwg.geog.ucsb.edu_lod_ontology_sfWithin:
     name: http___stko-kwg.geog.ucsb.edu_lod_ontology_sfWithin
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1149,8 +1151,8 @@ attributes:
     - range: http___stko-kwg.geog.ucsb.edu_lod_ontology_S2Cell_Level13
   geo_hasSerialization:
     name: geo_hasSerialization
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

@@ -3,7 +3,7 @@
 # Slot: has web address (sudokn_hasWebAddress)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sudokn:hasWebAddress](http://asu.edu/semantics/SUDOKN/hasWebAddress)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sudokn:hasWebAddress](http://asu.edu/semantics/SUDOKN/hasWebAddress)
 <details>
 ```yaml
 name: sudokn_hasWebAddress
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 title: has web address
 todos:
 - TODO -- Todos for this slot go here

@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (sudokn_County)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -94,7 +94,7 @@ URI: [sudokn:County](http://asu.edu/semantics/SUDOKN/County)
 <details>
 ```yaml
 name: sudokn_County
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -103,6 +103,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_GeopoliticalSite
 class_uri: sudokn:County
 
@@ -114,7 +115,7 @@ class_uri: sudokn:County
 <details>
 ```yaml
 name: sudokn_County
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -123,6 +124,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_GeopoliticalSite
 class_uri: sudokn:County
 

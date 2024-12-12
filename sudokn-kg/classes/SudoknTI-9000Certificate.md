@@ -3,7 +3,7 @@
 # Class: TI-9000  certificate (sudokn_TI-9000Certificate)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -96,7 +96,7 @@ URI: [sudokn:TI-9000Certificate](http://asu.edu/semantics/SUDOKN/TI-9000Certific
 <details>
 ```yaml
 name: sudokn_TI-9000Certificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TI-9000  certificate
 todos:
 - TODO -- Todos for this class go here
@@ -105,6 +105,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_TICertificate
 class_uri: sudokn:TI-9000Certificate
 
@@ -116,7 +117,7 @@ class_uri: sudokn:TI-9000Certificate
 <details>
 ```yaml
 name: sudokn_TI-9000Certificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TI-9000  certificate
 todos:
 - TODO -- Todos for this class go here
@@ -125,6 +126,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_TICertificate
 class_uri: sudokn:TI-9000Certificate
 

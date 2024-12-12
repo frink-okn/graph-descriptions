@@ -3,7 +3,7 @@
 # Slot: relation_TargetsLocation
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,26 +23,26 @@ URI: [relation:TargetsLocation](http://relation.org/TargetsLocation)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoModels](../classes/HsdoModels.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoProject](../classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  no  |
-| [HsdoVariable](../classes/HsdoVariable.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoTemporalResolutionRange](../classes/HsdoTemporalResolutionRange.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoScienceKeyword](../classes/HsdoScienceKeyword.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoExperiment](../classes/HsdoExperiment.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoModel](../classes/HsdoModel.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoPlatform](../classes/HsdoPlatform.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoLocation](../classes/HsdoLocation.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoSubExperimentId](../classes/HsdoSubExperimentId.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoDataFormat](../classes/HsdoDataFormat.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoProvider](../classes/HsdoProvider.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoRelatedUrlContentType](../classes/HsdoRelatedUrlContentType.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoActivity](../classes/HsdoActivity.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoInstrument](../classes/HsdoInstrument.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoChronostratigraphicUnit](../classes/HsdoChronostratigraphicUnit.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoInstitution](../classes/HsdoInstitution.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoInstrument](../classes/HsdoInstrument.md) | No type description provided |  no  |
 | [HsdoDataset](../classes/HsdoDataset.md) | A body of structured information describing some topic(s) of interest |  no  |
-| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoMeasurementName](../classes/HsdoMeasurementName.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoProject](../classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  no  |
+| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | No type description provided |  no  |
+| [HsdoProvider](../classes/HsdoProvider.md) | No type description provided |  no  |
+| [HsdoRelatedUrlContentType](../classes/HsdoRelatedUrlContentType.md) | No type description provided |  no  |
+| [HsdoSubExperimentId](../classes/HsdoSubExperimentId.md) | No type description provided |  no  |
+| [HsdoChronostratigraphicUnit](../classes/HsdoChronostratigraphicUnit.md) | No type description provided |  no  |
+| [HsdoModel](../classes/HsdoModel.md) | No type description provided |  no  |
+| [HsdoActivity](../classes/HsdoActivity.md) | No type description provided |  no  |
+| [HsdoLocation](../classes/HsdoLocation.md) | No type description provided |  no  |
+| [HsdoDataFormat](../classes/HsdoDataFormat.md) | No type description provided |  no  |
+| [HsdoInstitution](../classes/HsdoInstitution.md) | No type description provided |  no  |
+| [HsdoPlatform](../classes/HsdoPlatform.md) | No type description provided |  no  |
+| [HsdoVariable](../classes/HsdoVariable.md) | No type description provided |  no  |
+| [HsdoModels](../classes/HsdoModels.md) | No type description provided |  no  |
+| [HsdoScienceKeyword](../classes/HsdoScienceKeyword.md) | No type description provided |  no  |
+| [HsdoMeasurementName](../classes/HsdoMeasurementName.md) | No type description provided |  no  |
+| [HsdoTemporalResolutionRange](../classes/HsdoTemporalResolutionRange.md) | No type description provided |  no  |
+| [HsdoExperiment](../classes/HsdoExperiment.md) | No type description provided |  no  |
 
 
 
@@ -396,7 +396,7 @@ URI: [relation:TargetsLocation](http://relation.org/TargetsLocation)
 <details>
 ```yaml
 name: relation_TargetsLocation
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

@@ -3,7 +3,7 @@
 # Class: NIST-800-171 certificate (sudokn_NIST-800-171Certificate)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -96,7 +96,7 @@ URI: [sudokn:NIST-800-171Certificate](http://asu.edu/semantics/SUDOKN/NIST-800-1
 <details>
 ```yaml
 name: sudokn_NIST-800-171Certificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: NIST-800-171 certificate
 todos:
 - TODO -- Todos for this class go here
@@ -105,6 +105,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_NISTCertificate
 class_uri: sudokn:NIST-800-171Certificate
 
@@ -116,7 +117,7 @@ class_uri: sudokn:NIST-800-171Certificate
 <details>
 ```yaml
 name: sudokn_NIST-800-171Certificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: NIST-800-171 certificate
 todos:
 - TODO -- Todos for this class go here
@@ -125,6 +126,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_NISTCertificate
 class_uri: sudokn:NIST-800-171Certificate
 

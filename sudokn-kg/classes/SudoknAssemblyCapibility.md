@@ -3,7 +3,7 @@
 # Class: assembly capability (sudokn_AssemblyCapibility)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -121,7 +121,7 @@ URI: [sudokn:AssemblyCapibility](http://asu.edu/semantics/SUDOKN/AssemblyCapibil
 <details>
 ```yaml
 name: sudokn_AssemblyCapibility
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: assembly capability
 todos:
 - TODO -- Todos for this class go here
@@ -132,6 +132,7 @@ notes:
 examples:
 - value: sudokn:/AssemblyCapability_1
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ManufacturingProcessCapability
 class_uri: sudokn:AssemblyCapibility
 
@@ -143,7 +144,7 @@ class_uri: sudokn:AssemblyCapibility
 <details>
 ```yaml
 name: sudokn_AssemblyCapibility
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: assembly capability
 todos:
 - TODO -- Todos for this class go here
@@ -154,6 +155,7 @@ notes:
 examples:
 - value: sudokn:/AssemblyCapability_1
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ManufacturingProcessCapability
 class_uri: sudokn:AssemblyCapibility
 

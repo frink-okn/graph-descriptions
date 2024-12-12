@@ -42,7 +42,7 @@ URI: [sdoh:ContactPoint](http://schema.org/ContactPoint)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_telephone](../slots/sdoh_telephone.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_telephone](../slots/sdoh_telephone.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
 
 
 
@@ -121,6 +121,7 @@ notes:
 examples:
 - value: dreamkg:service/phone/5792020391002112
 from_schema: dream-kg
+rank: 1000
 slots:
 - sdoh_telephone
 class_uri: sdoh:ContactPoint
@@ -144,10 +145,11 @@ notes:
 examples:
 - value: dreamkg:service/phone/5792020391002112
 from_schema: dream-kg
+rank: 1000
 attributes:
   sdoh_telephone:
     name: sdoh_telephone
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

@@ -3,7 +3,7 @@
 # Class: manufacturing process capability (sudokn_ManufacturingProcessCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -141,7 +141,7 @@ URI: [sudokn:ManufacturingProcessCapability](http://asu.edu/semantics/SUDOKN/Man
 <details>
 ```yaml
 name: sudokn_ManufacturingProcessCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: manufacturing process capability
 todos:
 - TODO -- Todos for this class go here
@@ -150,6 +150,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: iosc_ProductionCapability
 class_uri: sudokn:ManufacturingProcessCapability
 
@@ -161,7 +162,7 @@ class_uri: sudokn:ManufacturingProcessCapability
 <details>
 ```yaml
 name: sudokn_ManufacturingProcessCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: manufacturing process capability
 todos:
 - TODO -- Todos for this class go here
@@ -170,6 +171,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: iosc_ProductionCapability
 class_uri: sudokn:ManufacturingProcessCapability
 

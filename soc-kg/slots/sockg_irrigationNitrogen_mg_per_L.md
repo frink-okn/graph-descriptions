@@ -3,7 +3,7 @@
 # Slot: sockg_irrigationNitrogen_mg_per_L
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:irrigationNitrogen_mg_per_L](http://www.semanticweb.org/sockg/ontolo
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgAmendment](../classes/SockgAmendment.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgAmendment](../classes/SockgAmendment.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sockg:irrigationNitrogen_mg_per_L](http://www.semanticweb.org/sockg/ontolo
 <details>
 ```yaml
 name: sockg_irrigationNitrogen_mg_per_L
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

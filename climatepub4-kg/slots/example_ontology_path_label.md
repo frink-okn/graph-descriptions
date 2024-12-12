@@ -3,7 +3,7 @@
 # Slot: example_ontology_path_label
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -24,7 +24,7 @@ URI: [example:ontology/path_label](http://example.org/ontology/path_label)
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -78,7 +78,7 @@ URI: [example:ontology/path_label](http://example.org/ontology/path_label)
 <details>
 ```yaml
 name: example_ontology_path_label
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

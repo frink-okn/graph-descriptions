@@ -3,7 +3,7 @@
 # Class: ISTS-16949 certificate (sudokn_ISTS-16949Certificate)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -96,7 +96,7 @@ URI: [sudokn:ISTS-16949Certificate](http://asu.edu/semantics/SUDOKN/ISTS-16949Ce
 <details>
 ```yaml
 name: sudokn_ISTS-16949Certificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: ISTS-16949 certificate
 todos:
 - TODO -- Todos for this class go here
@@ -105,6 +105,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ISTSCertificate
 class_uri: sudokn:ISTS-16949Certificate
 
@@ -116,7 +117,7 @@ class_uri: sudokn:ISTS-16949Certificate
 <details>
 ```yaml
 name: sudokn_ISTS-16949Certificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: ISTS-16949 certificate
 todos:
 - TODO -- Todos for this class go here
@@ -125,6 +126,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ISTSCertificate
 class_uri: sudokn:ISTS-16949Certificate
 

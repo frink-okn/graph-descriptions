@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (geo_asWKT)
+# Slot: No slot description provided (geo_asWKT)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [geo:asWKT](http://www.opengis.net/ont/geosparql#asWKT)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [GeoGeometry](../classes/GeoGeometry.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [GeoGeometry](../classes/GeoGeometry.md) | No type description provided |  no  |
 
 
 
@@ -89,8 +89,8 @@ URI: [geo:asWKT](http://www.opengis.net/ont/geosparql#asWKT)
 <details>
 ```yaml
 name: geo_asWKT
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

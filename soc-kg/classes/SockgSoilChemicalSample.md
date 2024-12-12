@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for what this class (type) describes? (sockg_SoilChemicalSample)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -447,52 +447,52 @@ URI: [sockg:SoilChemicalSample](http://www.semanticweb.org/sockg/ontologies/2024
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sockg_extractableZinc_mgZn_per_kg](../slots/sockg_extractableZinc_mgZn_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_nitrateStd_mgN_per_kg](../slots/sockg_nitrateStd_mgN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_lowerDepth_cm](../slots/sockg_lowerDepth_cm.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_inorganicCarbon_gC_per_kg](../slots/sockg_inorganicCarbon_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_measSoilChem_UID](../slots/sockg_measSoilChem_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_extractableCalciumStd_mgCa_per_kg](../slots/sockg_extractableCalciumStd_mgCa_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_extractableManganese_mgMN_per_kg](../slots/sockg_extractableManganese_mgMN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_nitrites_mgN_per_kg](../slots/sockg_nitrites_mgN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_organicCarbonStd_gC_per_kg](../slots/sockg_organicCarbonStd_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_extractableIronStd_mgFe_per_kg](../slots/sockg_extractableIronStd_mgFe_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_mineralCarbon_gC_per_kg](../slots/sockg_mineralCarbon_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_ammoniumStd_mgN_per_kg](../slots/sockg_ammoniumStd_mgN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_extractableCalcium_mgCa_per_kg](../slots/sockg_extractableCalcium_mgCa_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_potassium_mgK_per_kg](../slots/sockg_potassium_mgK_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_electricalConductivity_siemens_per_m](../slots/sockg_electricalConductivity_siemens_per_m.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_ph](../slots/sockg_ph.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_extractableIron_mgFe_per_kg](../slots/sockg_extractableIron_mgFe_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_solubleOrganicCarbonStd_mgC_per_kg](../slots/sockg_solubleOrganicCarbonStd_mgC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_electricalConductivityStd_siemens_per_m](../slots/sockg_electricalConductivityStd_siemens_per_m.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_inorganicCarbonStd_gC_per_kg](../slots/sockg_inorganicCarbonStd_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_extractableZincStd_mgZn_per_kg](../slots/sockg_extractableZincStd_mgZn_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_organicCarbon_gC_per_kg](../slots/sockg_organicCarbon_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_nitrate_mgN_per_kg](../slots/sockg_nitrate_mgN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_potassiumStd_mgK_per_kg](../slots/sockg_potassiumStd_mgK_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_mineralizableNitrogen_gN_per_kg](../slots/sockg_mineralizableNitrogen_gN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_totalSoilNitrogenStd_gN_per_kg](../slots/sockg_totalSoilNitrogenStd_gN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_mineralizableNitrogenStd_gN_per_kg](../slots/sockg_mineralizableNitrogenStd_gN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_solubleOrganicCarbon_mgC_per_kg](../slots/sockg_solubleOrganicCarbon_mgC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_extractableCopperStd_mgCu_per_kg](../slots/sockg_extractableCopperStd_mgCu_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_upperDepth_cm](../slots/sockg_upperDepth_cm.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_phosphorus_mgP_per_kg](../slots/sockg_phosphorus_mgP_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_extractableCopper_mgCu_per_kg](../slots/sockg_extractableCopper_mgCu_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_cationExchangeCapacityStd_cmol_per_kg](../slots/sockg_cationExchangeCapacityStd_cmol_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_extractableManganeseStd_mgMN_per_kg](../slots/sockg_extractableManganeseStd_mgMN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_totalSoilNitrogen_gN_per_kg](../slots/sockg_totalSoilNitrogen_gN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_nitritesStd_mgN_per_kg](../slots/sockg_nitritesStd_mgN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_extractableMagnesium_mgMg_per_kg](../slots/sockg_extractableMagnesium_mgMg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_cationExchangeCapacity_cmol_per_kg](../slots/sockg_cationExchangeCapacity_cmol_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_mineralCarbonStd_gC_per_kg](../slots/sockg_mineralCarbonStd_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_totalSoilCarbonStd_gC_per_kg](../slots/sockg_totalSoilCarbonStd_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_extractableMagnesiumStd_mgMg_per_kg](../slots/sockg_extractableMagnesiumStd_mgMg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_phosphorusStd_mgP_per_kg](../slots/sockg_phosphorusStd_mgP_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_totalSoilCarbon_gC_per_kg](../slots/sockg_totalSoilCarbon_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_ammonium_mgN_per_kg](../slots/sockg_ammonium_mgN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sockg_extractableZinc_mgZn_per_kg](../slots/sockg_extractableZinc_mgZn_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_nitrateStd_mgN_per_kg](../slots/sockg_nitrateStd_mgN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_lowerDepth_cm](../slots/sockg_lowerDepth_cm.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot description provided | direct |
+| [sockg_inorganicCarbon_gC_per_kg](../slots/sockg_inorganicCarbon_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_measSoilChem_UID](../slots/sockg_measSoilChem_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_extractableCalciumStd_mgCa_per_kg](../slots/sockg_extractableCalciumStd_mgCa_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_extractableManganese_mgMN_per_kg](../slots/sockg_extractableManganese_mgMN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_nitrites_mgN_per_kg](../slots/sockg_nitrites_mgN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_organicCarbonStd_gC_per_kg](../slots/sockg_organicCarbonStd_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_extractableIronStd_mgFe_per_kg](../slots/sockg_extractableIronStd_mgFe_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_mineralCarbon_gC_per_kg](../slots/sockg_mineralCarbon_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_ammoniumStd_mgN_per_kg](../slots/sockg_ammoniumStd_mgN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_extractableCalcium_mgCa_per_kg](../slots/sockg_extractableCalcium_mgCa_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_potassium_mgK_per_kg](../slots/sockg_potassium_mgK_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_electricalConductivity_siemens_per_m](../slots/sockg_electricalConductivity_siemens_per_m.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_ph](../slots/sockg_ph.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_extractableIron_mgFe_per_kg](../slots/sockg_extractableIron_mgFe_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_solubleOrganicCarbonStd_mgC_per_kg](../slots/sockg_solubleOrganicCarbonStd_mgC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_electricalConductivityStd_siemens_per_m](../slots/sockg_electricalConductivityStd_siemens_per_m.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_inorganicCarbonStd_gC_per_kg](../slots/sockg_inorganicCarbonStd_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_extractableZincStd_mgZn_per_kg](../slots/sockg_extractableZincStd_mgZn_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_organicCarbon_gC_per_kg](../slots/sockg_organicCarbon_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_nitrate_mgN_per_kg](../slots/sockg_nitrate_mgN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_potassiumStd_mgK_per_kg](../slots/sockg_potassiumStd_mgK_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_mineralizableNitrogen_gN_per_kg](../slots/sockg_mineralizableNitrogen_gN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_totalSoilNitrogenStd_gN_per_kg](../slots/sockg_totalSoilNitrogenStd_gN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_mineralizableNitrogenStd_gN_per_kg](../slots/sockg_mineralizableNitrogenStd_gN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_solubleOrganicCarbon_mgC_per_kg](../slots/sockg_solubleOrganicCarbon_mgC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_extractableCopperStd_mgCu_per_kg](../slots/sockg_extractableCopperStd_mgCu_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_upperDepth_cm](../slots/sockg_upperDepth_cm.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot description provided | direct |
+| [sockg_phosphorus_mgP_per_kg](../slots/sockg_phosphorus_mgP_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_extractableCopper_mgCu_per_kg](../slots/sockg_extractableCopper_mgCu_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_cationExchangeCapacityStd_cmol_per_kg](../slots/sockg_cationExchangeCapacityStd_cmol_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_extractableManganeseStd_mgMN_per_kg](../slots/sockg_extractableManganeseStd_mgMN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_totalSoilNitrogen_gN_per_kg](../slots/sockg_totalSoilNitrogen_gN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_nitritesStd_mgN_per_kg](../slots/sockg_nitritesStd_mgN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_extractableMagnesium_mgMg_per_kg](../slots/sockg_extractableMagnesium_mgMg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_cationExchangeCapacity_cmol_per_kg](../slots/sockg_cationExchangeCapacity_cmol_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_mineralCarbonStd_gC_per_kg](../slots/sockg_mineralCarbonStd_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_totalSoilCarbonStd_gC_per_kg](../slots/sockg_totalSoilCarbonStd_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_extractableMagnesiumStd_mgMg_per_kg](../slots/sockg_extractableMagnesiumStd_mgMg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_phosphorusStd_mgP_per_kg](../slots/sockg_phosphorusStd_mgP_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_totalSoilCarbon_gC_per_kg](../slots/sockg_totalSoilCarbon_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_ammonium_mgN_per_kg](../slots/sockg_ammonium_mgN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
 
 
 
@@ -560,7 +560,7 @@ URI: [sockg:SoilChemicalSample](http://www.semanticweb.org/sockg/ontologies/2024
 <details>
 ```yaml
 name: sockg_SoilChemicalSample
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -571,6 +571,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#259887
 from_schema: soc-kg/main
+rank: 1000
 slots:
 - sockg_extractableZinc_mgZn_per_kg
 - sockg_nitrateStd_mgN_per_kg
@@ -628,7 +629,7 @@ class_uri: sockg:SoilChemicalSample
 <details>
 ```yaml
 name: sockg_SoilChemicalSample
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -639,10 +640,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#259887
 from_schema: soc-kg/main
+rank: 1000
 attributes:
   sockg_extractableZinc_mgZn_per_kg:
     name: sockg_extractableZinc_mgZn_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -662,7 +664,7 @@ attributes:
     range: double
   sockg_nitrateStd_mgN_per_kg:
     name: sockg_nitrateStd_mgN_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -682,7 +684,7 @@ attributes:
     range: double
   sockg_date:
     name: sockg_date
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -770,7 +772,7 @@ attributes:
     - range: double
   sockg_lowerDepth_cm:
     name: sockg_lowerDepth_cm
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -801,7 +803,7 @@ attributes:
     - range: integer
   sockg_inorganicCarbon_gC_per_kg:
     name: sockg_inorganicCarbon_gC_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -821,7 +823,7 @@ attributes:
     range: double
   sockg_measSoilChem_UID:
     name: sockg_measSoilChem_UID
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -841,7 +843,7 @@ attributes:
     range: string
   sockg_extractableCalciumStd_mgCa_per_kg:
     name: sockg_extractableCalciumStd_mgCa_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -862,7 +864,7 @@ attributes:
     range: double
   sockg_extractableManganese_mgMN_per_kg:
     name: sockg_extractableManganese_mgMN_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -883,7 +885,7 @@ attributes:
     range: double
   sockg_nitrites_mgN_per_kg:
     name: sockg_nitrites_mgN_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -903,7 +905,7 @@ attributes:
     range: double
   sockg_organicCarbonStd_gC_per_kg:
     name: sockg_organicCarbonStd_gC_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -923,7 +925,7 @@ attributes:
     range: double
   sockg_extractableIronStd_mgFe_per_kg:
     name: sockg_extractableIronStd_mgFe_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -944,7 +946,7 @@ attributes:
     range: double
   sockg_mineralCarbon_gC_per_kg:
     name: sockg_mineralCarbon_gC_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -964,7 +966,7 @@ attributes:
     range: double
   sockg_ammoniumStd_mgN_per_kg:
     name: sockg_ammoniumStd_mgN_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -984,7 +986,7 @@ attributes:
     range: double
   sockg_extractableCalcium_mgCa_per_kg:
     name: sockg_extractableCalcium_mgCa_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1005,7 +1007,7 @@ attributes:
     range: double
   sockg_potassium_mgK_per_kg:
     name: sockg_potassium_mgK_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1025,7 +1027,7 @@ attributes:
     range: double
   sockg_electricalConductivity_siemens_per_m:
     name: sockg_electricalConductivity_siemens_per_m
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1046,7 +1048,7 @@ attributes:
     range: double
   sockg_ph:
     name: sockg_ph
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1075,7 +1077,7 @@ attributes:
     range: double
   sockg_extractableIron_mgFe_per_kg:
     name: sockg_extractableIron_mgFe_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1095,7 +1097,7 @@ attributes:
     range: double
   sockg_solubleOrganicCarbonStd_mgC_per_kg:
     name: sockg_solubleOrganicCarbonStd_mgC_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1116,7 +1118,7 @@ attributes:
     range: double
   sockg_electricalConductivityStd_siemens_per_m:
     name: sockg_electricalConductivityStd_siemens_per_m
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1137,7 +1139,7 @@ attributes:
     range: double
   sockg_inorganicCarbonStd_gC_per_kg:
     name: sockg_inorganicCarbonStd_gC_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1157,7 +1159,7 @@ attributes:
     range: double
   sockg_extractableZincStd_mgZn_per_kg:
     name: sockg_extractableZincStd_mgZn_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1178,7 +1180,7 @@ attributes:
     range: double
   sockg_organicCarbon_gC_per_kg:
     name: sockg_organicCarbon_gC_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1198,7 +1200,7 @@ attributes:
     range: double
   sockg_nitrate_mgN_per_kg:
     name: sockg_nitrate_mgN_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1218,7 +1220,7 @@ attributes:
     range: double
   sockg_potassiumStd_mgK_per_kg:
     name: sockg_potassiumStd_mgK_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1238,7 +1240,7 @@ attributes:
     range: double
   sockg_mineralizableNitrogen_gN_per_kg:
     name: sockg_mineralizableNitrogen_gN_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1259,7 +1261,7 @@ attributes:
     range: double
   sockg_totalSoilNitrogenStd_gN_per_kg:
     name: sockg_totalSoilNitrogenStd_gN_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1280,7 +1282,7 @@ attributes:
     range: double
   sockg_mineralizableNitrogenStd_gN_per_kg:
     name: sockg_mineralizableNitrogenStd_gN_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1301,7 +1303,7 @@ attributes:
     range: double
   sockg_solubleOrganicCarbon_mgC_per_kg:
     name: sockg_solubleOrganicCarbon_mgC_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1322,7 +1324,7 @@ attributes:
     range: double
   sockg_extractableCopperStd_mgCu_per_kg:
     name: sockg_extractableCopperStd_mgCu_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1343,7 +1345,7 @@ attributes:
     range: double
   sockg_treatmentId:
     name: sockg_treatmentId
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1430,7 +1432,7 @@ attributes:
     range: string
   sockg_upperDepth_cm:
     name: sockg_upperDepth_cm
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1461,7 +1463,7 @@ attributes:
     - range: integer
   sockg_phosphorus_mgP_per_kg:
     name: sockg_phosphorus_mgP_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1481,7 +1483,7 @@ attributes:
     range: double
   sockg_extractableCopper_mgCu_per_kg:
     name: sockg_extractableCopper_mgCu_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1502,7 +1504,7 @@ attributes:
     range: double
   sockg_cationExchangeCapacityStd_cmol_per_kg:
     name: sockg_cationExchangeCapacityStd_cmol_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1523,7 +1525,7 @@ attributes:
     range: double
   sockg_extractableManganeseStd_mgMN_per_kg:
     name: sockg_extractableManganeseStd_mgMN_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1544,7 +1546,7 @@ attributes:
     range: double
   sockg_totalSoilNitrogen_gN_per_kg:
     name: sockg_totalSoilNitrogen_gN_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1564,7 +1566,7 @@ attributes:
     range: double
   sockg_nitritesStd_mgN_per_kg:
     name: sockg_nitritesStd_mgN_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1584,7 +1586,7 @@ attributes:
     range: double
   sockg_extractableMagnesium_mgMg_per_kg:
     name: sockg_extractableMagnesium_mgMg_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1605,7 +1607,7 @@ attributes:
     range: double
   sockg_cationExchangeCapacity_cmol_per_kg:
     name: sockg_cationExchangeCapacity_cmol_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1626,7 +1628,7 @@ attributes:
     range: double
   sockg_mineralCarbonStd_gC_per_kg:
     name: sockg_mineralCarbonStd_gC_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1646,7 +1648,7 @@ attributes:
     range: double
   sockg_totalSoilCarbonStd_gC_per_kg:
     name: sockg_totalSoilCarbonStd_gC_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1666,7 +1668,7 @@ attributes:
     range: double
   sockg_extractableMagnesiumStd_mgMg_per_kg:
     name: sockg_extractableMagnesiumStd_mgMg_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1687,7 +1689,7 @@ attributes:
     range: double
   sockg_phosphorusStd_mgP_per_kg:
     name: sockg_phosphorusStd_mgP_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1707,7 +1709,7 @@ attributes:
     range: double
   sockg_totalSoilCarbon_gC_per_kg:
     name: sockg_totalSoilCarbon_gC_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1727,7 +1729,7 @@ attributes:
     range: double
   sockg_ammonium_mgN_per_kg:
     name: sockg_ammonium_mgN_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

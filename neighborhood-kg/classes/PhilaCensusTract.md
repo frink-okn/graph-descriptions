@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (phila_CensusTract)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -101,7 +101,7 @@ URI: [phila:CensusTract](https://metadata.phila.gov/CensusTract)
 <details>
 ```yaml
 name: phila_CensusTract
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -112,6 +112,7 @@ notes:
 examples:
 - value: phila:CT_100
 from_schema: neighborhood-kg
+rank: 1000
 class_uri: phila:CensusTract
 
 ```
@@ -122,7 +123,7 @@ class_uri: phila:CensusTract
 <details>
 ```yaml
 name: phila_CensusTract
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -133,6 +134,7 @@ notes:
 examples:
 - value: phila:CT_100
 from_schema: neighborhood-kg
+rank: 1000
 class_uri: phila:CensusTract
 
 ```

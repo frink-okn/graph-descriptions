@@ -3,7 +3,7 @@
 # Class: electronic processing capability (sudokn_ElectronicProcessingCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -94,7 +94,7 @@ URI: [sudokn:ElectronicProcessingCapability](http://asu.edu/semantics/SUDOKN/Ele
 <details>
 ```yaml
 name: sudokn_ElectronicProcessingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: electronic processing capability
 todos:
 - TODO -- Todos for this class go here
@@ -103,6 +103,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_MaterialProcessingCapability
 class_uri: sudokn:ElectronicProcessingCapability
 
@@ -114,7 +115,7 @@ class_uri: sudokn:ElectronicProcessingCapability
 <details>
 ```yaml
 name: sudokn_ElectronicProcessingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: electronic processing capability
 todos:
 - TODO -- Todos for this class go here
@@ -123,6 +124,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_MaterialProcessingCapability
 class_uri: sudokn:ElectronicProcessingCapability
 

@@ -3,7 +3,7 @@
 # Slot: securechain_versionName
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,8 +23,8 @@ URI: [securechain:versionName](https://w3id.org/secure-chain/versionName)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | No type description provided |  no  |
+| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | No type description provided |  no  |
 
 
 
@@ -34,7 +34,7 @@ URI: [securechain:versionName](https://w3id.org/secure-chain/versionName)
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -45,8 +45,8 @@ URI: [securechain:versionName](https://w3id.org/secure-chain/versionName)
 
 | Value |
 | --- |
-| securechain:SoftwareVersion/gee-0.8#0.8 securechain:versionName 0.8 |
-| securechain:HardwareVersion/wsr-600dhp#- securechain:versionName - |
+| securechain:SoftwareVersion/libaudcore5#%3E%3D+3.9 securechain:versionName >= 3.9 |
+| securechain:HardwareVersion/vantage_velocity#- securechain:versionName - |
 
 ## Comments
 
@@ -70,7 +70,7 @@ URI: [securechain:versionName](https://w3id.org/secure-chain/versionName)
 ### Schema Source
 
 
-* from schema: secure-chain-kg/develop
+* from schema: secure-chain-kg
 
 
 
@@ -80,7 +80,7 @@ URI: [securechain:versionName](https://w3id.org/secure-chain/versionName)
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | securechain:versionName |
-| native | secure-chain-kg/develop/:securechain_versionName |
+| native | secure-chain-kg/:securechain_versionName |
 
 
 
@@ -90,7 +90,7 @@ URI: [securechain:versionName](https://w3id.org/secure-chain/versionName)
 <details>
 ```yaml
 name: securechain_versionName
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -101,9 +101,10 @@ comments:
 - 57295 occurrences with subject type securechain_HardwareVersion and object type
   string.
 examples:
-- value: securechain:SoftwareVersion/gee-0.8#0.8 securechain:versionName 0.8
-- value: securechain:HardwareVersion/wsr-600dhp#- securechain:versionName -
-from_schema: secure-chain-kg/develop
+- value: securechain:SoftwareVersion/libaudcore5#%3E%3D+3.9 securechain:versionName
+    >= 3.9
+- value: securechain:HardwareVersion/vantage_velocity#- securechain:versionName -
+from_schema: secure-chain-kg
 rank: 1000
 slot_uri: securechain:versionName
 alias: securechain_versionName

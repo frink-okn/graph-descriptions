@@ -3,7 +3,7 @@
 # Slot: sockg_date
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,25 +23,25 @@ URI: [sockg:date](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgGasSample](../classes/SockgGasSample.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgCropGrowthStage](../classes/SockgCropGrowthStage.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgResidueManagementEvent](../classes/SockgResidueManagementEvent.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgBioMassCarbohydrate](../classes/SockgBioMassCarbohydrate.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgSoilBiologicalSample](../classes/SockgSoilBiologicalSample.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgHarvest](../classes/SockgHarvest.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgGrazing](../classes/SockgGrazing.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgSoilPhysicalSample](../classes/SockgSoilPhysicalSample.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgBioMassEnergy](../classes/SockgBioMassEnergy.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgSoilCover](../classes/SockgSoilCover.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgSoilPhysicalSample](../classes/SockgSoilPhysicalSample.md) | No type description provided |  no  |
+| [SockgGrazing](../classes/SockgGrazing.md) | No type description provided |  no  |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | No type description provided |  no  |
+| [SockgGasSample](../classes/SockgGasSample.md) | No type description provided |  no  |
+| [SockgResidueManagementEvent](../classes/SockgResidueManagementEvent.md) | No type description provided |  no  |
+| [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | No type description provided |  no  |
+| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | No type description provided |  no  |
+| [SockgCropGrowthStage](../classes/SockgCropGrowthStage.md) | No type description provided |  no  |
+| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | No type description provided |  no  |
+| [SockgSoilCover](../classes/SockgSoilCover.md) | No type description provided |  no  |
+| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | No type description provided |  no  |
+| [SockgBioMassEnergy](../classes/SockgBioMassEnergy.md) | No type description provided |  no  |
+| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | No type description provided |  no  |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | No type description provided |  no  |
+| [SockgSoilBiologicalSample](../classes/SockgSoilBiologicalSample.md) | No type description provided |  no  |
+| [SockgHarvest](../classes/SockgHarvest.md) | No type description provided |  no  |
+| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | No type description provided |  no  |
+| [SockgBioMassCarbohydrate](../classes/SockgBioMassCarbohydrate.md) | No type description provided |  no  |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | No type description provided |  no  |
 
 
 
@@ -145,7 +145,7 @@ URI: [sockg:date](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 <details>
 ```yaml
 name: sockg_date
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (http___sawgraph.spatialai.org_v1_stad#StatisticalQuantityKind)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -96,7 +96,7 @@ URI: [http://sawgraph.spatialai.org/v1/stad#StatisticalQuantityKind](http://sawg
 <details>
 ```yaml
 name: http___sawgraph.spatialai.org_v1_stad#StatisticalQuantityKind
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -105,6 +105,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 class_uri: http://sawgraph.spatialai.org/v1/stad#StatisticalQuantityKind
 
 ```
@@ -115,7 +116,7 @@ class_uri: http://sawgraph.spatialai.org/v1/stad#StatisticalQuantityKind
 <details>
 ```yaml
 name: http___sawgraph.spatialai.org_v1_stad#StatisticalQuantityKind
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -124,6 +125,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 class_uri: http://sawgraph.spatialai.org/v1/stad#StatisticalQuantityKind
 
 ```

@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (sosa_Observation)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -120,7 +120,7 @@ URI: [sosa:Observation](http://www.w3.org/ns/sosa/Observation)
 <details>
 ```yaml
 name: sosa_Observation
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -129,6 +129,7 @@ todos:
 notes:
 - Class with 143064 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 class_uri: sosa:Observation
 
 ```
@@ -139,7 +140,7 @@ class_uri: sosa:Observation
 <details>
 ```yaml
 name: sosa_Observation
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -148,6 +149,7 @@ todos:
 notes:
 - Class with 143064 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 class_uri: sosa:Observation
 
 ```

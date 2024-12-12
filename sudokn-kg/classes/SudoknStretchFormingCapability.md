@@ -3,7 +3,7 @@
 # Class: stretch forming capability (sudokn_StretchFormingCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -51,7 +51,7 @@ URI: [sudokn:StretchFormingCapability](http://asu.edu/semantics/SUDOKN/StretchFo
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | [SudoknSheetMetalProcessingCapability](../classes/SudoknSheetMetalProcessingCapability.md) |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | [SudoknSheetMetalProcessingCapability](../classes/SudoknSheetMetalProcessingCapability.md) |
 
 
 
@@ -105,7 +105,7 @@ URI: [sudokn:StretchFormingCapability](http://asu.edu/semantics/SUDOKN/StretchFo
 <details>
 ```yaml
 name: sudokn_StretchFormingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: stretch forming capability
 todos:
 - TODO -- Todos for this class go here
@@ -114,6 +114,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_SheetMetalProcessingCapability
 class_uri: sudokn:StretchFormingCapability
 
@@ -125,7 +126,7 @@ class_uri: sudokn:StretchFormingCapability
 <details>
 ```yaml
 name: sudokn_StretchFormingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: stretch forming capability
 todos:
 - TODO -- Todos for this class go here
@@ -134,11 +135,12 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_SheetMetalProcessingCapability
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

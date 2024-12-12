@@ -3,7 +3,7 @@
 # Slot: sockg_volatileMatter_g_per_kg
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:volatileMatter_g_per_kg](http://www.semanticweb.org/sockg/ontologies
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgBioMassEnergy](../classes/SockgBioMassEnergy.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgBioMassEnergy](../classes/SockgBioMassEnergy.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sockg:volatileMatter_g_per_kg](http://www.semanticweb.org/sockg/ontologies
 <details>
 ```yaml
 name: sockg_volatileMatter_g_per_kg
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

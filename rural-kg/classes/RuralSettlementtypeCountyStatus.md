@@ -76,10 +76,10 @@ URI: [rural:settlementtype/CountyStatus](http://sail.ua.edu/ruralkg/settlementty
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rural_settlementtype_censusCounty](../slots/rural_settlementtype_censusCounty.md) | 0..1 <br/> [RuralAdministrativeareaCounty](../classes/RuralAdministrativeareaCounty.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [rural_settlementtype_hasRUCC](../slots/rural_settlementtype_hasRUCC.md) | 0..1 <br/> [RuralSettlementtypeRUCC](../classes/RuralSettlementtypeRUCC.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [rural_settlementtype_year](../slots/rural_settlementtype_year.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [rural_settlementtype_population](../slots/rural_settlementtype_population.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [rural_settlementtype_censusCounty](../slots/rural_settlementtype_censusCounty.md) | 0..1 <br/> [RuralAdministrativeareaCounty](../classes/RuralAdministrativeareaCounty.md) | No slot description provided | direct |
+| [rural_settlementtype_hasRUCC](../slots/rural_settlementtype_hasRUCC.md) | 0..1 <br/> [RuralSettlementtypeRUCC](../classes/RuralSettlementtypeRUCC.md) | No slot description provided | direct |
+| [rural_settlementtype_year](../slots/rural_settlementtype_year.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot description provided | direct |
+| [rural_settlementtype_population](../slots/rural_settlementtype_population.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot description provided | direct |
 
 
 
@@ -151,6 +151,7 @@ notes:
 examples:
 - value: rural:settlementtype/CountyStatus_35035_2013
 from_schema: rural-kg
+rank: 1000
 is_a: rural_settlementtype_SettlementType
 slots:
 - rural_settlementtype_censusCounty
@@ -178,11 +179,12 @@ notes:
 examples:
 - value: rural:settlementtype/CountyStatus_35035_2013
 from_schema: rural-kg
+rank: 1000
 is_a: rural_settlementtype_SettlementType
 attributes:
   rural_settlementtype_censusCounty:
     name: rural_settlementtype_censusCounty
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -203,7 +205,7 @@ attributes:
     range: rural_administrativearea_County
   rural_settlementtype_hasRUCC:
     name: rural_settlementtype_hasRUCC
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -224,7 +226,7 @@ attributes:
     range: rural_settlementtype_RUCC
   rural_settlementtype_year:
     name: rural_settlementtype_year
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -248,7 +250,7 @@ attributes:
     range: integer
   rural_settlementtype_population:
     name: rural_settlementtype_population
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

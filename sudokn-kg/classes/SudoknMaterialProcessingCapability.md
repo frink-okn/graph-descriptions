@@ -3,7 +3,7 @@
 # Class: material processing capability (sudokn_MaterialProcessingCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -138,7 +138,7 @@ URI: [sudokn:MaterialProcessingCapability](http://asu.edu/semantics/SUDOKN/Mater
 <details>
 ```yaml
 name: sudokn_MaterialProcessingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: material processing capability
 todos:
 - TODO -- Todos for this class go here
@@ -147,6 +147,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: iosc_ProductionCapability
 class_uri: sudokn:MaterialProcessingCapability
 
@@ -158,7 +159,7 @@ class_uri: sudokn:MaterialProcessingCapability
 <details>
 ```yaml
 name: sudokn_MaterialProcessingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: material processing capability
 todos:
 - TODO -- Todos for this class go here
@@ -167,6 +168,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: iosc_ProductionCapability
 class_uri: sudokn:MaterialProcessingCapability
 

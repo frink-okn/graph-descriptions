@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (contaminoso_Substance)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -112,14 +112,14 @@ URI: [contaminoso:Substance](http://sawgraph.spatialai.org/v1/contaminoso#Substa
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [http___sawgraph.spatialai.org_v1_us_epa_ghg#chemicalFormula](../slots/http___sawgraph.spatialai.org_v1_us_epa_ghg#chemicalFormula.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [http___sawgraph.spatialai.org_v1_me_egad_data#dep_chemicalID](../slots/http___sawgraph.spatialai.org_v1_me_egad_data#dep_chemicalID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [contaminoso_substanceID](../slots/contaminoso_substanceID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [http___sawgraph.spatialai.org_v1_us_epa_ghg#chemicalFormula](../slots/http___sawgraph.spatialai.org_v1_us_epa_ghg#chemicalFormula.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [http___sawgraph.spatialai.org_v1_me_egad_data#dep_chemicalID](../slots/http___sawgraph.spatialai.org_v1_me_egad_data#dep_chemicalID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [contaminoso_substanceID](../slots/contaminoso_substanceID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 | [meegad_parameterName](../slots/meegad_parameterName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | Name of the PFAS parameter (single chemical or aggregate set of chemicals) me... | direct |
-| [http___sawgraph.spatialai.org_v1_us_epa_ghg#casNumber](../slots/http___sawgraph.spatialai.org_v1_us_epa_ghg#casNumber.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [http___sawgraph.spatialai.org_v1_us_epa_ghg#casNumber](../slots/http___sawgraph.spatialai.org_v1_us_epa_ghg#casNumber.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 | [meegad_parameterAbbreviation](../slots/meegad_parameterAbbreviation.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | Abbreviation of the PFAS parameter (single chemical or aggregate set of chemi... | direct |
-| [contaminoso_casNumber](../slots/contaminoso_casNumber.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [contaminoso_casNumber](../slots/contaminoso_casNumber.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -181,7 +181,7 @@ URI: [contaminoso:Substance](http://sawgraph.spatialai.org/v1/contaminoso#Substa
 <details>
 ```yaml
 name: contaminoso_Substance
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -190,6 +190,7 @@ todos:
 notes:
 - Class with 169 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: sosa_ObservableProperty
 slots:
 - http___sawgraph.spatialai.org_v1_us-epa-ghg#chemicalFormula
@@ -210,7 +211,7 @@ class_uri: contaminoso:Substance
 <details>
 ```yaml
 name: contaminoso_Substance
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -219,12 +220,13 @@ todos:
 notes:
 - Class with 169 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: sosa_ObservableProperty
 attributes:
   http___sawgraph.spatialai.org_v1_us-epa-ghg#chemicalFormula:
     name: http___sawgraph.spatialai.org_v1_us-epa-ghg#chemicalFormula
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -244,8 +246,8 @@ attributes:
     range: string
   http___sawgraph.spatialai.org_v1_me-egad-data#dep_chemicalID:
     name: http___sawgraph.spatialai.org_v1_me-egad-data#dep_chemicalID
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -268,8 +270,8 @@ attributes:
     range: string
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -362,8 +364,8 @@ attributes:
     - range: uri
   contaminoso_substanceID:
     name: contaminoso_substanceID
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -384,7 +386,7 @@ attributes:
     name: meegad_parameterName
     description: Name of the PFAS parameter (single chemical or aggregate set of chemicals)
       measured in the EGAD dataset from the state of Maine.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -404,8 +406,8 @@ attributes:
     range: string
   http___sawgraph.spatialai.org_v1_us-epa-ghg#casNumber:
     name: http___sawgraph.spatialai.org_v1_us-epa-ghg#casNumber
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -427,7 +429,7 @@ attributes:
     name: meegad_parameterAbbreviation
     description: Abbreviation of the PFAS parameter (single chemical or aggregate
       set of chemicals) measured in the EGAD dataset from the state of Maine.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -446,8 +448,8 @@ attributes:
     range: string
   contaminoso_casNumber:
     name: contaminoso_casNumber
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

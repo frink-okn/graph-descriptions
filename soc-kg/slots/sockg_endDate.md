@@ -3,7 +3,7 @@
 # Slot: sockg_endDate
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,10 +23,10 @@ URI: [sockg:endDate](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgAmendment](../classes/SockgAmendment.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgExperiment](../classes/SockgExperiment.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgGrazingManagementEvent](../classes/SockgGrazingManagementEvent.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgAmendment](../classes/SockgAmendment.md) | No type description provided |  no  |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | No type description provided |  no  |
+| [SockgGrazingManagementEvent](../classes/SockgGrazingManagementEvent.md) | No type description provided |  no  |
+| [SockgExperiment](../classes/SockgExperiment.md) | No type description provided |  no  |
 
 
 
@@ -98,7 +98,7 @@ URI: [sockg:endDate](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 <details>
 ```yaml
 name: sockg_endDate
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

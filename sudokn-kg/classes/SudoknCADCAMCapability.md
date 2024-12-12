@@ -3,7 +3,7 @@
 # Class: CAD/CAM capability (sudokn_CADCAMCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -94,7 +94,7 @@ URI: [sudokn:CADCAMCapability](http://asu.edu/semantics/SUDOKN/CADCAMCapability)
 <details>
 ```yaml
 name: sudokn_CADCAMCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: CAD/CAM capability
 todos:
 - TODO -- Todos for this class go here
@@ -103,6 +103,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_EngineeringCapability
 class_uri: sudokn:CADCAMCapability
 
@@ -114,7 +115,7 @@ class_uri: sudokn:CADCAMCapability
 <details>
 ```yaml
 name: sudokn_CADCAMCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: CAD/CAM capability
 todos:
 - TODO -- Todos for this class go here
@@ -123,6 +124,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_EngineeringCapability
 class_uri: sudokn:CADCAMCapability
 

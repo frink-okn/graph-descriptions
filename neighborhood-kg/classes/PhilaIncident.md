@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (phila_Incident)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -132,17 +132,17 @@ URI: [phila:Incident](https://metadata.phila.gov/Incident)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [phila_OffenderInjured](../slots/phila_OffenderInjured.md) | 0..1 <br/> [xsd:boolean](http://www.w3.org/2001/XMLSchema#boolean) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [phila_age_of](../slots/phila_age_of.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [phila_OffenderRace](../slots/phila_OffenderRace.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [phila_OfficerInvolved](../slots/phila_OfficerInvolved.md) | 0..1 <br/> [xsd:boolean](http://www.w3.org/2001/XMLSchema#boolean) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [phila_OffenderWound](../slots/phila_OffenderWound.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [phila_date_of](../slots/phila_date_of.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [phila_time_of](../slots/phila_time_of.md) | 0..1 <br/> [xsd:time](http://www.w3.org/2001/XMLSchema#time) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [phila_happened_at](../slots/phila_happened_at.md) | 0..1 <br/> [PhilaCensusTract](../classes/PhilaCensusTract.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [phila_OffenderSex](../slots/phila_OffenderSex.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [phila_OffenderDeceased](../slots/phila_OffenderDeceased.md) | 0..1 <br/> [xsd:boolean](http://www.w3.org/2001/XMLSchema#boolean) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [phila_is_fatal](../slots/phila_is_fatal.md) | 0..1 <br/> [xsd:boolean](http://www.w3.org/2001/XMLSchema#boolean) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [phila_OffenderInjured](../slots/phila_OffenderInjured.md) | 0..1 <br/> [xsd:boolean](xsd:boolean) | No slot description provided | direct |
+| [phila_age_of](../slots/phila_age_of.md) | 0..1 <br/> [xsd:integer](xsd:integer) | No slot description provided | direct |
+| [phila_OffenderRace](../slots/phila_OffenderRace.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [phila_OfficerInvolved](../slots/phila_OfficerInvolved.md) | 0..1 <br/> [xsd:boolean](xsd:boolean) | No slot description provided | direct |
+| [phila_OffenderWound](../slots/phila_OffenderWound.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [phila_date_of](../slots/phila_date_of.md) | 0..1 <br/> [xsd:date](xsd:date) | No slot description provided | direct |
+| [phila_time_of](../slots/phila_time_of.md) | 0..1 <br/> [xsd:time](xsd:time) | No slot description provided | direct |
+| [phila_happened_at](../slots/phila_happened_at.md) | 0..1 <br/> [PhilaCensusTract](../classes/PhilaCensusTract.md) | No slot description provided | direct |
+| [phila_OffenderSex](../slots/phila_OffenderSex.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [phila_OffenderDeceased](../slots/phila_OffenderDeceased.md) | 0..1 <br/> [xsd:boolean](xsd:boolean) | No slot description provided | direct |
+| [phila_is_fatal](../slots/phila_is_fatal.md) | 0..1 <br/> [xsd:boolean](xsd:boolean) | No slot description provided | direct |
 
 
 
@@ -196,7 +196,7 @@ URI: [phila:Incident](https://metadata.phila.gov/Incident)
 <details>
 ```yaml
 name: phila_Incident
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -205,6 +205,7 @@ todos:
 notes:
 - Class with 15328 occurences.
 from_schema: neighborhood-kg
+rank: 1000
 slots:
 - phila_OffenderInjured
 - phila_age_of
@@ -227,7 +228,7 @@ class_uri: phila:Incident
 <details>
 ```yaml
 name: phila_Incident
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -236,10 +237,11 @@ todos:
 notes:
 - Class with 15328 occurences.
 from_schema: neighborhood-kg
+rank: 1000
 attributes:
   phila_OffenderInjured:
     name: phila_OffenderInjured
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -258,7 +260,7 @@ attributes:
     range: boolean
   phila_age_of:
     name: phila_age_of
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -277,7 +279,7 @@ attributes:
     range: integer
   phila_OffenderRace:
     name: phila_OffenderRace
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -296,7 +298,7 @@ attributes:
     range: string
   phila_OfficerInvolved:
     name: phila_OfficerInvolved
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -315,7 +317,7 @@ attributes:
     range: boolean
   phila_OffenderWound:
     name: phila_OffenderWound
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -334,7 +336,7 @@ attributes:
     range: string
   phila_date_of:
     name: phila_date_of
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -353,7 +355,7 @@ attributes:
     range: date
   phila_time_of:
     name: phila_time_of
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -372,7 +374,7 @@ attributes:
     range: time
   phila_happened_at:
     name: phila_happened_at
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -391,7 +393,7 @@ attributes:
     range: phila_CensusTract
   phila_OffenderSex:
     name: phila_OffenderSex
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -410,7 +412,7 @@ attributes:
     range: string
   phila_OffenderDeceased:
     name: phila_OffenderDeceased
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -429,7 +431,7 @@ attributes:
     range: boolean
   phila_is_fatal:
     name: phila_is_fatal
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

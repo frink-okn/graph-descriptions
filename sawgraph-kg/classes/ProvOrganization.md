@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (prov_Organization)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -42,7 +42,7 @@ URI: [prov:Organization](http://www.w3.org/ns/prov#Organization)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
 
 
 
@@ -110,7 +110,7 @@ URI: [prov:Organization](http://www.w3.org/ns/prov#Organization)
 <details>
 ```yaml
 name: prov_Organization
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -121,6 +121,7 @@ notes:
 examples:
 - value: http://sawgraph.spatialai.org/v1/me-egad-data#organization.lab.AA
 from_schema: sawgraph-kg
+rank: 1000
 slots:
 - rdfs_label
 class_uri: prov:Organization
@@ -133,7 +134,7 @@ class_uri: prov:Organization
 <details>
 ```yaml
 name: prov_Organization
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -144,11 +145,12 @@ notes:
 examples:
 - value: http://sawgraph.spatialai.org/v1/me-egad-data#organization.lab.AA
 from_schema: sawgraph-kg
+rank: 1000
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

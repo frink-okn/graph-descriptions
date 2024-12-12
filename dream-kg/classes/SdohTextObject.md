@@ -51,8 +51,8 @@ URI: [sdoh:TextObject](http://schema.org/TextObject)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_conditionsOfAccess](../slots/sdoh_conditionsOfAccess.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_text](../slots/sdoh_text.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_conditionsOfAccess](../slots/sdoh_conditionsOfAccess.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [sdoh_text](../slots/sdoh_text.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
 
 
 
@@ -131,6 +131,7 @@ notes:
 examples:
 - value: dreamkg:service/desc/6494806799548416
 from_schema: dream-kg
+rank: 1000
 slots:
 - sdoh_conditionsOfAccess
 - sdoh_text
@@ -155,10 +156,11 @@ notes:
 examples:
 - value: dreamkg:service/desc/6494806799548416
 from_schema: dream-kg
+rank: 1000
 attributes:
   sdoh_conditionsOfAccess:
     name: sdoh_conditionsOfAccess
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -178,7 +180,7 @@ attributes:
     range: string
   sdoh_text:
     name: sdoh_text
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

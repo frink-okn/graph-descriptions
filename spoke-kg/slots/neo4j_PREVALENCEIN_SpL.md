@@ -3,7 +3,7 @@
 # Slot: neo4j_PREVALENCEIN_SpL
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [neo4j:PREVALENCEIN_SpL](neo4j://graph.schema#PREVALENCEIN_SpL)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Neo4jSDoH](../classes/Neo4jSDoH.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [Neo4jSDoH](../classes/Neo4jSDoH.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [neo4j:PREVALENCEIN_SpL](neo4j://graph.schema#PREVALENCEIN_SpL)
 <details>
 ```yaml
 name: neo4j_PREVALENCEIN_SpL
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

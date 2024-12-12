@@ -3,7 +3,7 @@
 # Slot: securechain_hasHardwareVersion
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,8 @@ URI: [securechain:hasHardwareVersion](https://w3id.org/secure-chain/hasHardwareV
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SecurechainHardware](../classes/SecurechainHardware.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SecurechainHardware](../classes/SecurechainHardware.md) | No type description provided |  no  |
+| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | No type description provided |  no  |
 
 
 
@@ -44,7 +45,7 @@ URI: [securechain:hasHardwareVersion](https://w3id.org/secure-chain/hasHardwareV
 
 | Value |
 | --- |
-| securechain:Hardware/catalyst_3750x-48p-e securechain:hasHardwareVersion securechain:HardwareVersion/catalyst_3750x-48p-e#- |
+| securechain:Hardware/core_i5 securechain:hasHardwareVersion securechain:HardwareVersion/core_i5#2557m |
 
 ## Comments
 
@@ -67,7 +68,7 @@ URI: [securechain:hasHardwareVersion](https://w3id.org/secure-chain/hasHardwareV
 ### Schema Source
 
 
-* from schema: secure-chain-kg/develop
+* from schema: secure-chain-kg
 
 
 
@@ -77,7 +78,7 @@ URI: [securechain:hasHardwareVersion](https://w3id.org/secure-chain/hasHardwareV
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | securechain:hasHardwareVersion |
-| native | secure-chain-kg/develop/:securechain_hasHardwareVersion |
+| native | secure-chain-kg/:securechain_hasHardwareVersion |
 
 
 
@@ -87,7 +88,7 @@ URI: [securechain:hasHardwareVersion](https://w3id.org/secure-chain/hasHardwareV
 <details>
 ```yaml
 name: securechain_hasHardwareVersion
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -95,9 +96,8 @@ todos:
 comments:
 - 57295 occurrences with subject type securechain_Hardware and object type securechain_HardwareVersion.
 examples:
-- value: securechain:Hardware/catalyst_3750x-48p-e securechain:hasHardwareVersion
-    securechain:HardwareVersion/catalyst_3750x-48p-e#-
-from_schema: secure-chain-kg/develop
+- value: securechain:Hardware/core_i5 securechain:hasHardwareVersion securechain:HardwareVersion/core_i5#2557m
+from_schema: secure-chain-kg
 rank: 1000
 slot_uri: securechain:hasHardwareVersion
 alias: securechain_hasHardwareVersion

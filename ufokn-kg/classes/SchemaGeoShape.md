@@ -51,8 +51,8 @@ URI: [schema:GeoShape](https://schema.org/GeoShape)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [geo_asWKT](../slots/geo_asWKT.md) | 0..1 <br/> [GeoWktLiteral](../classes/GeoWktLiteral.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [schema_identifier](../slots/schema_identifier.md) | 0..1 <br/> [SchemaPropertyValue](../classes/SchemaPropertyValue.md) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [geo_asWKT](../slots/geo_asWKT.md) | 0..1 <br/> [GeoWktLiteral](../classes/GeoWktLiteral.md) | No slot description provided | direct |
+| [schema_identifier](../slots/schema_identifier.md) | 0..1 <br/> [SchemaPropertyValue](../classes/SchemaPropertyValue.md) | No slot description provided | direct |
 
 
 
@@ -125,6 +125,7 @@ todos:
 notes:
 - Class with 5858958 occurences.
 from_schema: ufokn-kg
+rank: 1000
 slots:
 - geo_asWKT
 - schema_identifier
@@ -150,10 +151,11 @@ todos:
 notes:
 - Class with 5858958 occurences.
 from_schema: ufokn-kg
+rank: 1000
 attributes:
   geo_asWKT:
     name: geo_asWKT
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -173,7 +175,7 @@ attributes:
     range: geo_wktLiteral
   schema_identifier:
     name: schema_identifier
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

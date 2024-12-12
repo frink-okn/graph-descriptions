@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (http___www.w3.org_2008_05_skos#definition)
+# Slot: No slot description provided (http___www.w3.org_2008_05_skos#definition)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [http://www.w3.org/2008/05/skos#definition](http://www.w3.org/2008/05/skos#
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [MeegadEGAD-SiteType](../classes/MeegadEGAD-SiteType.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [MeegadEGAD-SiteType](../classes/MeegadEGAD-SiteType.md) | No type description provided |  no  |
 
 
 
@@ -87,8 +87,8 @@ URI: [http://www.w3.org/2008/05/skos#definition](http://www.w3.org/2008/05/skos#
 <details>
 ```yaml
 name: http___www.w3.org_2008_05_skos#definition
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

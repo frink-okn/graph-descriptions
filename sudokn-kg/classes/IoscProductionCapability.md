@@ -3,7 +3,7 @@
 # Class: TODO -- this class is noted as a superclass of another class in this graph but has not itself been defined. (iosc_ProductionCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -102,7 +102,7 @@ URI: [iosc:ProductionCapability](https://spec.industrialontologies.org/ontology/
 <details>
 ```yaml
 name: iosc_ProductionCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- this class is noted as a superclass of another class in this graph
   but has not itself been defined.
 todos:
@@ -112,6 +112,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 class_uri: iosc:ProductionCapability
 
 ```
@@ -122,7 +123,7 @@ class_uri: iosc:ProductionCapability
 <details>
 ```yaml
 name: iosc_ProductionCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- this class is noted as a superclass of another class in this graph
   but has not itself been defined.
 todos:
@@ -132,6 +133,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 class_uri: iosc:ProductionCapability
 
 ```

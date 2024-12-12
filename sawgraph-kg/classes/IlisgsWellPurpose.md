@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (ilisgs_WellPurpose)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -42,7 +42,7 @@ URI: [ilisgs:WellPurpose](http://sawgraph.spatialai.org/v1/il-isgs#WellPurpose)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
 
 
 
@@ -103,7 +103,7 @@ URI: [ilisgs:WellPurpose](http://sawgraph.spatialai.org/v1/il-isgs#WellPurpose)
 <details>
 ```yaml
 name: ilisgs_WellPurpose
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -112,6 +112,7 @@ todos:
 notes:
 - Class with 33 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 slots:
 - rdfs_label
 class_uri: ilisgs:WellPurpose
@@ -124,7 +125,7 @@ class_uri: ilisgs:WellPurpose
 <details>
 ```yaml
 name: ilisgs_WellPurpose
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -133,11 +134,12 @@ todos:
 notes:
 - Class with 33 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

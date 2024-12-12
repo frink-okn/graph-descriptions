@@ -3,7 +3,7 @@
 # Class: TODO -- this class is noted as a superclass of another class in this graph but has not itself been defined. (sudokn_GeopoliticalSite)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -108,7 +108,7 @@ URI: [sudokn:GeopoliticalSite](http://asu.edu/semantics/SUDOKN/GeopoliticalSite)
 <details>
 ```yaml
 name: sudokn_GeopoliticalSite
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- this class is noted as a superclass of another class in this graph
   but has not itself been defined.
 todos:
@@ -118,6 +118,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: obo_BFO_0000029
 class_uri: sudokn:GeopoliticalSite
 
@@ -129,7 +130,7 @@ class_uri: sudokn:GeopoliticalSite
 <details>
 ```yaml
 name: sudokn_GeopoliticalSite
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- this class is noted as a superclass of another class in this graph
   but has not itself been defined.
 todos:
@@ -139,6 +140,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: obo_BFO_0000029
 class_uri: sudokn:GeopoliticalSite
 

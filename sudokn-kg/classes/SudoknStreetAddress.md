@@ -3,7 +3,7 @@
 # Class: street of address (sudokn_StreetAddress)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -93,7 +93,7 @@ URI: [sudokn:StreetAddress](http://asu.edu/semantics/SUDOKN/StreetAddress)
 <details>
 ```yaml
 name: sudokn_StreetAddress
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: street of address
 todos:
 - TODO -- Todos for this class go here
@@ -102,6 +102,7 @@ todos:
 notes:
 - Class with 1 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: io_PhysicalLocationIdentifier
 class_uri: sudokn:StreetAddress
 
@@ -113,7 +114,7 @@ class_uri: sudokn:StreetAddress
 <details>
 ```yaml
 name: sudokn_StreetAddress
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: street of address
 todos:
 - TODO -- Todos for this class go here
@@ -122,6 +123,7 @@ todos:
 notes:
 - Class with 1 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: io_PhysicalLocationIdentifier
 class_uri: sudokn:StreetAddress
 

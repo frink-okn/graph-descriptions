@@ -3,7 +3,7 @@
 # Slot: sockg_mgtTillage_UID
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:mgtTillage_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgTillage](../classes/SockgTillage.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgTillage](../classes/SockgTillage.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sockg:mgtTillage_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 <details>
 ```yaml
 name: sockg_mgtTillage_UID
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

@@ -3,7 +3,7 @@
 # Class: textile process capability (sudokn_TextileProcessCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -109,7 +109,7 @@ URI: [sudokn:TextileProcessCapability](http://asu.edu/semantics/SUDOKN/TextilePr
 <details>
 ```yaml
 name: sudokn_TextileProcessCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: textile process capability
 todos:
 - TODO -- Todos for this class go here
@@ -118,6 +118,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ManufacturingProcessCapability
 class_uri: sudokn:TextileProcessCapability
 
@@ -129,7 +130,7 @@ class_uri: sudokn:TextileProcessCapability
 <details>
 ```yaml
 name: sudokn_TextileProcessCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: textile process capability
 todos:
 - TODO -- Todos for this class go here
@@ -138,6 +139,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ManufacturingProcessCapability
 class_uri: sudokn:TextileProcessCapability
 

@@ -3,7 +3,7 @@
 # Slot: neo4j_PREVALENCE_DpL
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [neo4j:PREVALENCE_DpL](neo4j://graph.schema#PREVALENCE_DpL)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Neo4jDisease](../classes/Neo4jDisease.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [Neo4jDisease](../classes/Neo4jDisease.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [neo4j:PREVALENCE_DpL](neo4j://graph.schema#PREVALENCE_DpL)
 <details>
 ```yaml
 name: neo4j_PREVALENCE_DpL
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

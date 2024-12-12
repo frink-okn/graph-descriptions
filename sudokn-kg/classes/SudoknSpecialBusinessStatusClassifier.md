@@ -3,7 +3,7 @@
 # Class: special business status classifier (sudokn_SpecialBusinessStatusClassifier)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -100,7 +100,7 @@ URI: [sudokn:SpecialBusinessStatusClassifier](http://asu.edu/semantics/SUDOKN/Sp
 <details>
 ```yaml
 name: sudokn_SpecialBusinessStatusClassifier
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: special business status classifier
 todos:
 - TODO -- Todos for this class go here
@@ -109,6 +109,7 @@ todos:
 notes:
 - Class with 1 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_Classifier
 class_uri: sudokn:SpecialBusinessStatusClassifier
 
@@ -120,7 +121,7 @@ class_uri: sudokn:SpecialBusinessStatusClassifier
 <details>
 ```yaml
 name: sudokn_SpecialBusinessStatusClassifier
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: special business status classifier
 todos:
 - TODO -- Todos for this class go here
@@ -129,6 +130,7 @@ todos:
 notes:
 - Class with 1 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_Classifier
 class_uri: sudokn:SpecialBusinessStatusClassifier
 

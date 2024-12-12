@@ -3,7 +3,7 @@
 # Slot: has address part (sudokn_hasAddressPart)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -67,7 +67,7 @@ URI: [sudokn:hasAddressPart](http://asu.edu/semantics/SUDOKN/hasAddressPart)
 <details>
 ```yaml
 name: sudokn_hasAddressPart
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 title: has address part
 todos:
 - TODO -- Todos for this slot go here

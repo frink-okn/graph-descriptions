@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (rdf_List)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -93,7 +93,7 @@ URI: [rdf:List](http://www.w3.org/1999/02/22-rdf-syntax-ns#List)
 <details>
 ```yaml
 name: rdf_List
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -104,6 +104,7 @@ notes:
 examples:
 - value: rdf:nil
 from_schema: sawgraph-kg
+rank: 1000
 class_uri: rdf:List
 
 ```
@@ -114,7 +115,7 @@ class_uri: rdf:List
 <details>
 ```yaml
 name: rdf_List
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -125,6 +126,7 @@ notes:
 examples:
 - value: rdf:nil
 from_schema: sawgraph-kg
+rank: 1000
 class_uri: rdf:List
 
 ```

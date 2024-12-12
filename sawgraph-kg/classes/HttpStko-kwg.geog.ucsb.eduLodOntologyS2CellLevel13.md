@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (http___stko-kwg.geog.ucsb.edu_lod_ontology_S2Cell_Level13)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -51,8 +51,8 @@ URI: [http://stko-kwg.geog.ucsb.edu/lod/ontology/S2Cell_Level13](http://stko-kwg
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [http___stko_kwg.geog.ucsb.edu_lod_ontology_spatialRelation](../slots/http___stko_kwg.geog.ucsb.edu_lod_ontology_spatialRelation.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ContaminosoFeature](../classes/ContaminosoFeature.md)&nbsp;or&nbsp;<br />[HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13](../classes/HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13.md)&nbsp;or&nbsp;<br />[MeegadEGAD-Site](../classes/MeegadEGAD-Site.md)&nbsp;or&nbsp;<br />[ContaminosoPoint](../classes/ContaminosoPoint.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [http___stko_kwg.geog.ucsb.edu_lod_ontology_sfContains](../slots/http___stko_kwg.geog.ucsb.edu_lod_ontology_sfContains.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ContaminosoFeature](../classes/ContaminosoFeature.md)&nbsp;or&nbsp;<br />[MeegadEGAD-Site](../classes/MeegadEGAD-Site.md)&nbsp;or&nbsp;<br />[ContaminosoPoint](../classes/ContaminosoPoint.md) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [http___stko_kwg.geog.ucsb.edu_lod_ontology_spatialRelation](../slots/http___stko_kwg.geog.ucsb.edu_lod_ontology_spatialRelation.md) | 0..1 <br/> [ContaminosoFeature](../classes/ContaminosoFeature.md)&nbsp;or&nbsp;<br />[HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13](../classes/HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13.md)&nbsp;or&nbsp;<br />[MeegadEGAD-Site](../classes/MeegadEGAD-Site.md)&nbsp;or&nbsp;<br />[ContaminosoPoint](../classes/ContaminosoPoint.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [http___stko_kwg.geog.ucsb.edu_lod_ontology_sfContains](../slots/http___stko_kwg.geog.ucsb.edu_lod_ontology_sfContains.md) | 0..1 <br/> [ContaminosoFeature](../classes/ContaminosoFeature.md)&nbsp;or&nbsp;<br />[MeegadEGAD-Site](../classes/MeegadEGAD-Site.md)&nbsp;or&nbsp;<br />[ContaminosoPoint](../classes/ContaminosoPoint.md) | No slot description provided | direct |
 
 
 
@@ -119,7 +119,7 @@ URI: [http://stko-kwg.geog.ucsb.edu/lod/ontology/S2Cell_Level13](http://stko-kwg
 <details>
 ```yaml
 name: http___stko-kwg.geog.ucsb.edu_lod_ontology_S2Cell_Level13
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -128,6 +128,7 @@ todos:
 notes:
 - Class with 86332 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 slots:
 - http___stko-kwg.geog.ucsb.edu_lod_ontology_spatialRelation
 - http___stko-kwg.geog.ucsb.edu_lod_ontology_sfContains
@@ -141,7 +142,7 @@ class_uri: http://stko-kwg.geog.ucsb.edu/lod/ontology/S2Cell_Level13
 <details>
 ```yaml
 name: http___stko-kwg.geog.ucsb.edu_lod_ontology_S2Cell_Level13
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -150,11 +151,12 @@ todos:
 notes:
 - Class with 86332 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 attributes:
   http___stko-kwg.geog.ucsb.edu_lod_ontology_spatialRelation:
     name: http___stko-kwg.geog.ucsb.edu_lod_ontology_spatialRelation
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -219,8 +221,8 @@ attributes:
     - range: uri
   http___stko-kwg.geog.ucsb.edu_lod_ontology_sfContains:
     name: http___stko-kwg.geog.ucsb.edu_lod_ontology_sfContains
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

@@ -3,7 +3,7 @@
 # Slot: securechain_hasSoftwareVersion
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,8 @@ URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareV
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SecurechainSoftware](../classes/SecurechainSoftware.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SecurechainSoftware](../classes/SecurechainSoftware.md) | No type description provided |  no  |
+| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | No type description provided |  no  |
 
 
 
@@ -44,7 +45,7 @@ URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareV
 
 | Value |
 | --- |
-| securechain:Software/platform_system_core securechain:hasSoftwareVersion securechain:SoftwareVersion/platform_system_core#android-wear-o-preview-4 |
+| securechain:Software/intel-vaapi-driver securechain:hasSoftwareVersion securechain:SoftwareVersion/intel-vaapi-driver#1.0.17-1 |
 
 ## Comments
 
@@ -67,7 +68,7 @@ URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareV
 ### Schema Source
 
 
-* from schema: secure-chain-kg/develop
+* from schema: secure-chain-kg
 
 
 
@@ -77,7 +78,7 @@ URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareV
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | securechain:hasSoftwareVersion |
-| native | secure-chain-kg/develop/:securechain_hasSoftwareVersion |
+| native | secure-chain-kg/:securechain_hasSoftwareVersion |
 
 
 
@@ -87,7 +88,7 @@ URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareV
 <details>
 ```yaml
 name: securechain_hasSoftwareVersion
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -95,9 +96,8 @@ todos:
 comments:
 - 164001 occurrences with subject type securechain_Software and object type securechain_SoftwareVersion.
 examples:
-- value: securechain:Software/platform_system_core securechain:hasSoftwareVersion
-    securechain:SoftwareVersion/platform_system_core#android-wear-o-preview-4
-from_schema: secure-chain-kg/develop
+- value: securechain:Software/intel-vaapi-driver securechain:hasSoftwareVersion securechain:SoftwareVersion/intel-vaapi-driver#1.0.17-1
+from_schema: secure-chain-kg
 rank: 1000
 slot_uri: securechain:hasSoftwareVersion
 alias: securechain_hasSoftwareVersion

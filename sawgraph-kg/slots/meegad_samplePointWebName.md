@@ -1,6 +1,6 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (meegad_samplePointWebName)
+# Slot: No slot description provided (meegad_samplePointWebName)
 
 
 _Sample point web name in the EGAD dataset from the state of Maine._
@@ -23,7 +23,7 @@ URI: [meegad:samplePointWebName](http://sawgraph.spatialai.org/v1/me-egad#sample
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ContaminosoPoint](../classes/ContaminosoPoint.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [ContaminosoPoint](../classes/ContaminosoPoint.md) | No type description provided |  no  |
 
 
 
@@ -88,7 +88,7 @@ URI: [meegad:samplePointWebName](http://sawgraph.spatialai.org/v1/me-egad#sample
 ```yaml
 name: meegad_samplePointWebName
 description: Sample point web name in the EGAD dataset from the state of Maine.
-title: TODO -- tell the world what this slot (predicate) describes.
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

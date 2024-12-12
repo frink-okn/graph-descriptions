@@ -3,7 +3,7 @@
 # Slot: sockg_fieldId
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,13 +23,13 @@ URI: [sockg:fieldId](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgField](../classes/SockgField.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | No type description provided |  no  |
+| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | No type description provided |  no  |
+| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | No type description provided |  no  |
+| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | No type description provided |  no  |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | No type description provided |  no  |
+| [SockgField](../classes/SockgField.md) | No type description provided |  no  |
+| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | No type description provided |  no  |
 
 
 
@@ -105,7 +105,7 @@ URI: [sockg:fieldId](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 <details>
 ```yaml
 name: sockg_fieldId
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

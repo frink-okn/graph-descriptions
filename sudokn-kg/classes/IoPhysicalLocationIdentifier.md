@@ -3,7 +3,7 @@
 # Class: TODO -- this class is noted as a superclass of another class in this graph but has not itself been defined. (io_PhysicalLocationIdentifier)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -111,7 +111,7 @@ URI: [io:PhysicalLocationIdentifier](https://spec.industrialontologies.org/ontol
 <details>
 ```yaml
 name: io_PhysicalLocationIdentifier
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- this class is noted as a superclass of another class in this graph
   but has not itself been defined.
 todos:
@@ -121,6 +121,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 class_uri: io:PhysicalLocationIdentifier
 
 ```
@@ -131,7 +132,7 @@ class_uri: io:PhysicalLocationIdentifier
 <details>
 ```yaml
 name: io_PhysicalLocationIdentifier
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- this class is noted as a superclass of another class in this graph
   but has not itself been defined.
 todos:
@@ -141,6 +142,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 class_uri: io:PhysicalLocationIdentifier
 
 ```

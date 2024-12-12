@@ -3,7 +3,7 @@
 # Class: US postal code (sudokn_UnitedStatesPostalCode)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -109,7 +109,7 @@ URI: [sudokn:UnitedStatesPostalCode](http://asu.edu/semantics/SUDOKN/UnitedState
 <details>
 ```yaml
 name: sudokn_UnitedStatesPostalCode
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: US postal code
 todos:
 - TODO -- Todos for this class go here
@@ -120,6 +120,7 @@ notes:
 examples:
 - value: sudokn:/UnitedStatesPostalCode_1
 from_schema: sudokn-kg
+rank: 1000
 is_a: io_PhysicalLocationIdentifier
 class_uri: sudokn:UnitedStatesPostalCode
 
@@ -131,7 +132,7 @@ class_uri: sudokn:UnitedStatesPostalCode
 <details>
 ```yaml
 name: sudokn_UnitedStatesPostalCode
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: US postal code
 todos:
 - TODO -- Todos for this class go here
@@ -142,6 +143,7 @@ notes:
 examples:
 - value: sudokn:/UnitedStatesPostalCode_1
 from_schema: sudokn-kg
+rank: 1000
 is_a: io_PhysicalLocationIdentifier
 class_uri: sudokn:UnitedStatesPostalCode
 

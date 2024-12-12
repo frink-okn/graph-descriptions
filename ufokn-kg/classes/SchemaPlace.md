@@ -87,12 +87,12 @@ URI: [schema:Place](https://schema.org/Place)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [schema_additionalType](../slots/schema_additionalType.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [schema_name](../slots/schema_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [schema_description](../slots/schema_description.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [schema_geo](../slots/schema_geo.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[SchemaGeoCoordinates](../classes/SchemaGeoCoordinates.md)&nbsp;or&nbsp;<br />[SchemaGeoShape](../classes/SchemaGeoShape.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [schema_variableMeasured](../slots/schema_variableMeasured.md) | 0..1 <br/> [SchemaPropertyValue](../classes/SchemaPropertyValue.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [schema_identifier](../slots/schema_identifier.md) | 0..1 <br/> [SchemaPropertyValue](../classes/SchemaPropertyValue.md) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [schema_additionalType](../slots/schema_additionalType.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI)&nbsp;or&nbsp;<br />[xsd:string](xsd:string) | No slot description provided | direct |
+| [schema_name](../slots/schema_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [schema_description](../slots/schema_description.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [schema_geo](../slots/schema_geo.md) | 0..1 <br/> [SchemaGeoCoordinates](../classes/SchemaGeoCoordinates.md)&nbsp;or&nbsp;<br />[SchemaGeoShape](../classes/SchemaGeoShape.md) | No slot description provided | direct |
+| [schema_variableMeasured](../slots/schema_variableMeasured.md) | 0..1 <br/> [SchemaPropertyValue](../classes/SchemaPropertyValue.md) | No slot description provided | direct |
+| [schema_identifier](../slots/schema_identifier.md) | 0..1 <br/> [SchemaPropertyValue](../classes/SchemaPropertyValue.md) | No slot description provided | direct |
 
 
 
@@ -164,6 +164,7 @@ notes:
 examples:
 - value: https://ufokn.org/id/urmi/dngwmzszm7nt
 from_schema: ufokn-kg
+rank: 1000
 slots:
 - schema_additionalType
 - schema_name
@@ -192,10 +193,11 @@ notes:
 examples:
 - value: https://ufokn.org/id/urmi/dngwmzszm7nt
 from_schema: ufokn-kg
+rank: 1000
 attributes:
   schema_additionalType:
     name: schema_additionalType
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -221,7 +223,7 @@ attributes:
     - range: string
   schema_name:
     name: schema_name
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -244,7 +246,7 @@ attributes:
     range: string
   schema_description:
     name: schema_description
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -268,7 +270,7 @@ attributes:
     range: string
   schema_geo:
     name: schema_geo
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -292,7 +294,7 @@ attributes:
     - range: schema_GeoShape
   schema_variableMeasured:
     name: schema_variableMeasured
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -311,7 +313,7 @@ attributes:
     range: schema_PropertyValue
   schema_identifier:
     name: schema_identifier
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

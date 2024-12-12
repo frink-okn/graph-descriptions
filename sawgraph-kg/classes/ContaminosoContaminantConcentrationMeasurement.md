@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (contaminoso_ContaminantConcentrationMeasurement)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -93,7 +93,7 @@ URI: [contaminoso:ContaminantConcentrationMeasurement](http://sawgraph.spatialai
 <details>
 ```yaml
 name: contaminoso_ContaminantConcentrationMeasurement
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -102,6 +102,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: sosa_Result
 class_uri: contaminoso:ContaminantConcentrationMeasurement
 
@@ -113,7 +114,7 @@ class_uri: contaminoso:ContaminantConcentrationMeasurement
 <details>
 ```yaml
 name: contaminoso_ContaminantConcentrationMeasurement
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -122,6 +123,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: sosa_Result
 class_uri: contaminoso:ContaminantConcentrationMeasurement
 

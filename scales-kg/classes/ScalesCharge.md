@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (scales_Charge)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -51,8 +51,8 @@ URI: [scales:Charge](http://schemas.scales-okn.org/rdf/scales#Charge)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [scales_hasPacerID](../slots/scales_hasPacerID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [scales_hasContents](../slots/scales_hasContents.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [scales_hasPacerID](../slots/scales_hasPacerID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [scales_hasContents](../slots/scales_hasContents.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -114,7 +114,7 @@ URI: [scales:Charge](http://schemas.scales-okn.org/rdf/scales#Charge)
 <details>
 ```yaml
 name: scales_Charge
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -123,6 +123,7 @@ todos:
 notes:
 - Class with 262292 occurences.
 from_schema: scales-kg
+rank: 1000
 slots:
 - scales_hasPacerID
 - scales_hasContents
@@ -136,7 +137,7 @@ class_uri: scales:Charge
 <details>
 ```yaml
 name: scales_Charge
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -145,10 +146,11 @@ todos:
 notes:
 - Class with 262292 occurences.
 from_schema: scales-kg
+rank: 1000
 attributes:
   scales_hasPacerID:
     name: scales_hasPacerID
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -176,7 +178,7 @@ attributes:
     range: string
   scales_hasContents:
     name: scales_hasContents
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

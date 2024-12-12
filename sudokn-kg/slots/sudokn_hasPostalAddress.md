@@ -3,7 +3,7 @@
 # Slot: has postal address (sudokn_hasPostalAddress)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,9 +23,9 @@ URI: [sudokn:hasPostalAddress](http://asu.edu/semantics/SUDOKN/hasPostalAddress)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknGeospatialLocation](../classes/SudoknGeospatialLocation.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [IoManufacturer](../classes/IoManufacturer.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No type description provided |  no  |
+| [SudoknGeospatialLocation](../classes/SudoknGeospatialLocation.md) | No type description provided |  no  |
+| [IoManufacturer](../classes/IoManufacturer.md) | No type description provided |  no  |
 
 
 
@@ -95,7 +95,7 @@ URI: [sudokn:hasPostalAddress](http://asu.edu/semantics/SUDOKN/hasPostalAddress)
 <details>
 ```yaml
 name: sudokn_hasPostalAddress
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 title: has postal address
 todos:
 - TODO -- Todos for this slot go here

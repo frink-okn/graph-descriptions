@@ -3,7 +3,7 @@
 # Class: electronic product Industry (sudokn_ElectronicProductIndustry)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -55,7 +55,7 @@ URI: [sudokn:ElectronicProductIndustry](http://asu.edu/semantics/SUDOKN/Electron
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -117,7 +117,7 @@ URI: [sudokn:ElectronicProductIndustry](http://asu.edu/semantics/SUDOKN/Electron
 <details>
 ```yaml
 name: sudokn_ElectronicProductIndustry
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: electronic product Industry
 todos:
 - TODO -- Todos for this class go here
@@ -126,6 +126,7 @@ todos:
 notes:
 - Class with 1 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: iosc_Industry
 slots:
 - rdfs_label
@@ -139,7 +140,7 @@ class_uri: sudokn:ElectronicProductIndustry
 <details>
 ```yaml
 name: sudokn_ElectronicProductIndustry
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: electronic product Industry
 todos:
 - TODO -- Todos for this class go here
@@ -148,11 +149,12 @@ todos:
 notes:
 - Class with 1 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: iosc_Industry
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

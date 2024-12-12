@@ -3,7 +3,7 @@
 # Slot: manufactures (sudokn_manufactures)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sudokn:manufactures](http://asu.edu/semantics/SUDOKN/manufactures)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [IoManufacturer](../classes/IoManufacturer.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [IoManufacturer](../classes/IoManufacturer.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sudokn:manufactures](http://asu.edu/semantics/SUDOKN/manufactures)
 <details>
 ```yaml
 name: sudokn_manufactures
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 title: manufactures
 todos:
 - TODO -- Todos for this slot go here

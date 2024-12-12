@@ -3,7 +3,7 @@
 # Slot: sdoh_manufacturer
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sdoh:manufacturer](http://schema.org/manufacturer)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdohOrganization](../classes/SdohOrganization.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SdohOrganization](../classes/SdohOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
 
 
 
@@ -44,7 +44,7 @@ URI: [sdoh:manufacturer](http://schema.org/manufacturer)
 
 | Value |
 | --- |
-| schema:Organization/intel sdoh:manufacturer securechain:Hardware/xeon_e7420 |
+| schema:Organization/hp sdoh:manufacturer securechain:Hardware/laptop_15-da0xxx |
 
 ## Comments
 
@@ -67,7 +67,7 @@ URI: [sdoh:manufacturer](http://schema.org/manufacturer)
 ### Schema Source
 
 
-* from schema: secure-chain-kg/develop
+* from schema: secure-chain-kg
 
 
 
@@ -77,7 +77,7 @@ URI: [sdoh:manufacturer](http://schema.org/manufacturer)
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | sdoh:manufacturer |
-| native | secure-chain-kg/develop/:sdoh_manufacturer |
+| native | secure-chain-kg/:sdoh_manufacturer |
 
 
 
@@ -87,7 +87,7 @@ URI: [sdoh:manufacturer](http://schema.org/manufacturer)
 <details>
 ```yaml
 name: sdoh_manufacturer
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
@@ -95,8 +95,8 @@ todos:
 comments:
 - 54369 occurrences with subject type sdoh_Organization and object type securechain_Hardware.
 examples:
-- value: schema:Organization/intel sdoh:manufacturer securechain:Hardware/xeon_e7420
-from_schema: secure-chain-kg/develop
+- value: schema:Organization/hp sdoh:manufacturer securechain:Hardware/laptop_15-da0xxx
+from_schema: secure-chain-kg
 rank: 1000
 slot_uri: sdoh:manufacturer
 alias: sdoh_manufacturer

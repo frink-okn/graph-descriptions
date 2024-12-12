@@ -3,7 +3,7 @@
 # Class: engineering capability (sudokn_EngineeringCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -117,7 +117,7 @@ URI: [sudokn:EngineeringCapability](http://asu.edu/semantics/SUDOKN/EngineeringC
 <details>
 ```yaml
 name: sudokn_EngineeringCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: engineering capability
 todos:
 - TODO -- Todos for this class go here
@@ -126,6 +126,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: iosc_ProductionCapability
 class_uri: sudokn:EngineeringCapability
 
@@ -137,7 +138,7 @@ class_uri: sudokn:EngineeringCapability
 <details>
 ```yaml
 name: sudokn_EngineeringCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: engineering capability
 todos:
 - TODO -- Todos for this class go here
@@ -146,6 +147,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: iosc_ProductionCapability
 class_uri: sudokn:EngineeringCapability
 

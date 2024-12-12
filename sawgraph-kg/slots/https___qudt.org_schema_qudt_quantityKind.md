@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (https___qudt.org_schema_qudt_quantityKind)
+# Slot: No slot description provided (https___qudt.org_schema_qudt_quantityKind)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [https://qudt.org/schema/qudt/quantityKind](https://qudt.org/schema/qudt/qu
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ContaminosoAggregateContaminantMeasurement](../classes/ContaminosoAggregateContaminantMeasurement.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [ContaminosoAggregateContaminantMeasurement](../classes/ContaminosoAggregateContaminantMeasurement.md) | No type description provided |  no  |
 
 
 
@@ -87,8 +87,8 @@ URI: [https://qudt.org/schema/qudt/quantityKind](https://qudt.org/schema/qudt/qu
 <details>
 ```yaml
 name: https___qudt.org_schema_qudt_quantityKind
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

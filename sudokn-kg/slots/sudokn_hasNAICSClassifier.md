@@ -3,7 +3,7 @@
 # Slot: has NAICS classifier (sudokn_hasNAICSClassifier)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sudokn:hasNAICSClassifier](http://asu.edu/semantics/SUDOKN/hasNAICSClassif
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sudokn:hasNAICSClassifier](http://asu.edu/semantics/SUDOKN/hasNAICSClassif
 <details>
 ```yaml
 name: sudokn_hasNAICSClassifier
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 title: has NAICS classifier
 todos:
 - TODO -- Todos for this slot go here

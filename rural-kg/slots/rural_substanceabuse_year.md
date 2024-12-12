@@ -3,7 +3,7 @@
 # Slot: rural_substanceabuse_year
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -90,7 +90,7 @@ URI: [rural:substanceabuse/year](http://sail.ua.edu/ruralkg/substanceabuse/year)
 <details>
 ```yaml
 name: rural_substanceabuse_year
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

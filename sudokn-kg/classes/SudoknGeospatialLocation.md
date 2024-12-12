@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (sudokn_GeospatialLocation)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -69,10 +69,10 @@ URI: [sudokn:GeospatialLocation](http://asu.edu/semantics/SUDOKN/GeospatialLocat
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sudokn_hasZIPcode](../slots/sudokn_hasZIPcode.md) | 0..1 <br/> [SudoknUSPostalCode](../classes/SudoknUSPostalCode.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sudokn_hasPostalAddress](../slots/sudokn_hasPostalAddress.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[SudoknPostalAddress](../classes/SudoknPostalAddress.md)&nbsp;or&nbsp;<br />[SudoknUnitedStatesPostalCode](../classes/SudoknUnitedStatesPostalCode.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sudokn_hasSpatialCoordinates](../slots/sudokn_hasSpatialCoordinates.md) | 0..1 <br/> [SudoknTwoDimensionalCartesianSpatialCoordinateDatum](../classes/SudoknTwoDimensionalCartesianSpatialCoordinateDatum.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sudokn_locatedInCity](../slots/sudokn_locatedInCity.md) | 0..1 <br/> [SudoknCity](../classes/SudoknCity.md) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sudokn_hasZIPcode](../slots/sudokn_hasZIPcode.md) | 0..1 <br/> [SudoknUSPostalCode](../classes/SudoknUSPostalCode.md) | No slot description provided | direct |
+| [sudokn_hasPostalAddress](../slots/sudokn_hasPostalAddress.md) | 0..1 <br/> [SudoknPostalAddress](../classes/SudoknPostalAddress.md)&nbsp;or&nbsp;<br />[SudoknUnitedStatesPostalCode](../classes/SudoknUnitedStatesPostalCode.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [sudokn_hasSpatialCoordinates](../slots/sudokn_hasSpatialCoordinates.md) | 0..1 <br/> [SudoknTwoDimensionalCartesianSpatialCoordinateDatum](../classes/SudoknTwoDimensionalCartesianSpatialCoordinateDatum.md) | No slot description provided | direct |
+| [sudokn_locatedInCity](../slots/sudokn_locatedInCity.md) | 0..1 <br/> [SudoknCity](../classes/SudoknCity.md) | No slot description provided | direct |
 
 
 
@@ -133,7 +133,7 @@ URI: [sudokn:GeospatialLocation](http://asu.edu/semantics/SUDOKN/GeospatialLocat
 <details>
 ```yaml
 name: sudokn_GeospatialLocation
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -142,6 +142,7 @@ todos:
 notes:
 - Class with 20728 occurences.
 from_schema: sudokn-kg
+rank: 1000
 slots:
 - sudokn_hasZIPcode
 - sudokn_hasPostalAddress
@@ -157,7 +158,7 @@ class_uri: sudokn:GeospatialLocation
 <details>
 ```yaml
 name: sudokn_GeospatialLocation
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -166,10 +167,11 @@ todos:
 notes:
 - Class with 20728 occurences.
 from_schema: sudokn-kg
+rank: 1000
 attributes:
   sudokn_hasZIPcode:
     name: sudokn_hasZIPcode
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -189,7 +191,7 @@ attributes:
     range: sudokn_USPostalCode
   sudokn_hasPostalAddress:
     name: sudokn_hasPostalAddress
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     title: has postal address
     todos:
     - TODO -- Todos for this slot go here
@@ -224,7 +226,7 @@ attributes:
     - range: uri
   sudokn_hasSpatialCoordinates:
     name: sudokn_hasSpatialCoordinates
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     title: has spatial coordinates
     todos:
     - TODO -- Todos for this slot go here
@@ -246,7 +248,7 @@ attributes:
     range: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
   sudokn_locatedInCity:
     name: sudokn_locatedInCity
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

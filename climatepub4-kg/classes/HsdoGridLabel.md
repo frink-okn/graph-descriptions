@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (hsdo_Grid_Label)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -93,7 +93,7 @@ URI: [hsdo:Grid_Label](http://schema.org/Grid_Label)
 <details>
 ```yaml
 name: hsdo_Grid_Label
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -104,6 +104,7 @@ notes:
 examples:
 - value: https://climateKG.org/entity/a42a0f2b-365b-42a9-b285-cf549596188d
 from_schema: climatepub4-kg
+rank: 1000
 class_uri: hsdo:Grid_Label
 
 ```
@@ -114,7 +115,7 @@ class_uri: hsdo:Grid_Label
 <details>
 ```yaml
 name: hsdo_Grid_Label
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -125,6 +126,7 @@ notes:
 examples:
 - value: https://climateKG.org/entity/a42a0f2b-365b-42a9-b285-cf549596188d
 from_schema: climatepub4-kg
+rank: 1000
 class_uri: hsdo:Grid_Label
 
 ```

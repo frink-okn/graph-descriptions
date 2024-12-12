@@ -106,6 +106,7 @@ todos:
 notes:
 - There are 0 instances of this class.
 from_schema: rural-kg
+rank: 1000
 class_uri: rural:substanceabuse/SubstanceAbuse
 
 ```
@@ -126,6 +127,7 @@ todos:
 notes:
 - There are 0 instances of this class.
 from_schema: rural-kg
+rank: 1000
 class_uri: rural:substanceabuse/SubstanceAbuse
 
 ```

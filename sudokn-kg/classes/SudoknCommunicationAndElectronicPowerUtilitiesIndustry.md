@@ -3,7 +3,7 @@
 # Class: communication and electronic power utilities industry (sudokn_CommunicationAndElectronicPowerUtilitiesIndustry)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -50,7 +50,7 @@ URI: [sudokn:CommunicationAndElectronicPowerUtilitiesIndustry](http://asu.edu/se
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | [SudoknUtilitiesIndustry](../classes/SudoknUtilitiesIndustry.md) |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | [SudoknUtilitiesIndustry](../classes/SudoknUtilitiesIndustry.md) |
 
 
 
@@ -104,7 +104,7 @@ URI: [sudokn:CommunicationAndElectronicPowerUtilitiesIndustry](http://asu.edu/se
 <details>
 ```yaml
 name: sudokn_CommunicationAndElectronicPowerUtilitiesIndustry
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: communication and electronic power utilities industry
 todos:
 - TODO -- Todos for this class go here
@@ -113,6 +113,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_UtilitiesIndustry
 class_uri: sudokn:CommunicationAndElectronicPowerUtilitiesIndustry
 
@@ -124,7 +125,7 @@ class_uri: sudokn:CommunicationAndElectronicPowerUtilitiesIndustry
 <details>
 ```yaml
 name: sudokn_CommunicationAndElectronicPowerUtilitiesIndustry
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: communication and electronic power utilities industry
 todos:
 - TODO -- Todos for this class go here
@@ -133,11 +134,12 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_UtilitiesIndustry
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

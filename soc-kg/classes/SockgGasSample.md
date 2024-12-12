@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for what this class (type) describes? (sockg_GasSample)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -222,27 +222,27 @@ URI: [sockg:GasSample](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sockg_methane_gC_per_ha_per_d](../slots/sockg_methane_gC_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_airTemperature_degC](../slots/sockg_airTemperature_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_time](../slots/sockg_time.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_methaneStd_gC_per_ha_per_d](../slots/sockg_methaneStd_gC_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_carbonDioxide_gC_per_ha_per_d](../slots/sockg_carbonDioxide_gC_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_soilMoistureDepth_cm](../slots/sockg_soilMoistureDepth_cm.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_soilTemperatureStd_degC](../slots/sockg_soilTemperatureStd_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_soilTemperature_degC](../slots/sockg_soilTemperature_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_isNitrousOxideInterpolated](../slots/sockg_isNitrousOxideInterpolated.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_soilMoisture_percent_volume](../slots/sockg_soilMoisture_percent_volume.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_isCarbonDioxideInterpolated](../slots/sockg_isCarbonDioxideInterpolated.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_chamberPlacement](../slots/sockg_chamberPlacement.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_carbonDioxideStd_gC_per_ha_per_d](../slots/sockg_carbonDioxideStd_gC_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_nitrousOxideStd_gN_per_ha_per_d](../slots/sockg_nitrousOxideStd_gN_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_airTemperatureStd_degC](../slots/sockg_airTemperatureStd_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_measGHGFlux_UID](../slots/sockg_measGHGFlux_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_nitrousOxide_gN_per_ha_per_d](../slots/sockg_nitrousOxide_gN_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_crop](../slots/sockg_crop.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_isMethaneInterpolated](../slots/sockg_isMethaneInterpolated.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sockg_methane_gC_per_ha_per_d](../slots/sockg_methane_gC_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_airTemperature_degC](../slots/sockg_airTemperature_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_time](../slots/sockg_time.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_methaneStd_gC_per_ha_per_d](../slots/sockg_methaneStd_gC_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_carbonDioxide_gC_per_ha_per_d](../slots/sockg_carbonDioxide_gC_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_soilMoistureDepth_cm](../slots/sockg_soilMoistureDepth_cm.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot description provided | direct |
+| [sockg_soilTemperatureStd_degC](../slots/sockg_soilTemperatureStd_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_soilTemperature_degC](../slots/sockg_soilTemperature_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_isNitrousOxideInterpolated](../slots/sockg_isNitrousOxideInterpolated.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot description provided | direct |
+| [sockg_soilMoisture_percent_volume](../slots/sockg_soilMoisture_percent_volume.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_isCarbonDioxideInterpolated](../slots/sockg_isCarbonDioxideInterpolated.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot description provided | direct |
+| [sockg_chamberPlacement](../slots/sockg_chamberPlacement.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_carbonDioxideStd_gC_per_ha_per_d](../slots/sockg_carbonDioxideStd_gC_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_nitrousOxideStd_gN_per_ha_per_d](../slots/sockg_nitrousOxideStd_gN_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_airTemperatureStd_degC](../slots/sockg_airTemperatureStd_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_measGHGFlux_UID](../slots/sockg_measGHGFlux_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_nitrousOxide_gN_per_ha_per_d](../slots/sockg_nitrousOxide_gN_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_crop](../slots/sockg_crop.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_isMethaneInterpolated](../slots/sockg_isMethaneInterpolated.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot description provided | direct |
 
 
 
@@ -310,7 +310,7 @@ URI: [sockg:GasSample](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 <details>
 ```yaml
 name: sockg_GasSample
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -321,6 +321,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#131435
 from_schema: soc-kg/main
+rank: 1000
 slots:
 - sockg_methane_gC_per_ha_per_d
 - sockg_airTemperature_degC
@@ -353,7 +354,7 @@ class_uri: sockg:GasSample
 <details>
 ```yaml
 name: sockg_GasSample
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -364,10 +365,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#131435
 from_schema: soc-kg/main
+rank: 1000
 attributes:
   sockg_methane_gC_per_ha_per_d:
     name: sockg_methane_gC_per_ha_per_d
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -386,7 +388,7 @@ attributes:
     range: double
   sockg_airTemperature_degC:
     name: sockg_airTemperature_degC
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -405,7 +407,7 @@ attributes:
     range: double
   sockg_time:
     name: sockg_time
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -441,7 +443,7 @@ attributes:
     - range: string
   sockg_methaneStd_gC_per_ha_per_d:
     name: sockg_methaneStd_gC_per_ha_per_d
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -460,7 +462,7 @@ attributes:
     range: double
   sockg_carbonDioxide_gC_per_ha_per_d:
     name: sockg_carbonDioxide_gC_per_ha_per_d
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -480,7 +482,7 @@ attributes:
     range: double
   sockg_soilMoistureDepth_cm:
     name: sockg_soilMoistureDepth_cm
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -499,7 +501,7 @@ attributes:
     range: integer
   sockg_soilTemperatureStd_degC:
     name: sockg_soilTemperatureStd_degC
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -518,7 +520,7 @@ attributes:
     range: double
   sockg_soilTemperature_degC:
     name: sockg_soilTemperature_degC
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -537,7 +539,7 @@ attributes:
     range: double
   sockg_treatmentId:
     name: sockg_treatmentId
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -624,7 +626,7 @@ attributes:
     range: string
   sockg_isNitrousOxideInterpolated:
     name: sockg_isNitrousOxideInterpolated
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -643,7 +645,7 @@ attributes:
     range: integer
   sockg_soilMoisture_percent_volume:
     name: sockg_soilMoisture_percent_volume
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -662,7 +664,7 @@ attributes:
     range: double
   sockg_date:
     name: sockg_date
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -750,7 +752,7 @@ attributes:
     - range: double
   sockg_isCarbonDioxideInterpolated:
     name: sockg_isCarbonDioxideInterpolated
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -769,7 +771,7 @@ attributes:
     range: integer
   sockg_chamberPlacement:
     name: sockg_chamberPlacement
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -793,7 +795,7 @@ attributes:
     - range: double
   sockg_carbonDioxideStd_gC_per_ha_per_d:
     name: sockg_carbonDioxideStd_gC_per_ha_per_d
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -813,7 +815,7 @@ attributes:
     range: double
   sockg_nitrousOxideStd_gN_per_ha_per_d:
     name: sockg_nitrousOxideStd_gN_per_ha_per_d
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -833,7 +835,7 @@ attributes:
     range: double
   sockg_airTemperatureStd_degC:
     name: sockg_airTemperatureStd_degC
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -852,7 +854,7 @@ attributes:
     range: double
   sockg_measGHGFlux_UID:
     name: sockg_measGHGFlux_UID
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -871,7 +873,7 @@ attributes:
     range: string
   sockg_nitrousOxide_gN_per_ha_per_d:
     name: sockg_nitrousOxide_gN_per_ha_per_d
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -890,7 +892,7 @@ attributes:
     range: double
   sockg_crop:
     name: sockg_crop
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -948,7 +950,7 @@ attributes:
     - range: double
   sockg_isMethaneInterpolated:
     name: sockg_isMethaneInterpolated
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

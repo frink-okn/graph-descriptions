@@ -3,7 +3,7 @@
 # Slot: example_ontology_id
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -24,7 +24,7 @@ URI: [example:ontology/id](http://example.org/ontology/id)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](xsd:string)&nbsp;or&nbsp;<br />[xsd:integer](xsd:integer)
 
 
 
@@ -80,7 +80,7 @@ URI: [example:ontology/id](http://example.org/ontology/id)
 <details>
 ```yaml
 name: example_ontology_id
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

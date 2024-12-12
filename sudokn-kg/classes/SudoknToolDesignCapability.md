@@ -3,7 +3,7 @@
 # Class: tool design capability (sudokn_ToolDesignCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -103,7 +103,7 @@ URI: [sudokn:ToolDesignCapability](http://asu.edu/semantics/SUDOKN/ToolDesignCap
 <details>
 ```yaml
 name: sudokn_ToolDesignCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: tool design capability
 todos:
 - TODO -- Todos for this class go here
@@ -112,6 +112,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_EngineeringCapability
 class_uri: sudokn:ToolDesignCapability
 
@@ -123,7 +124,7 @@ class_uri: sudokn:ToolDesignCapability
 <details>
 ```yaml
 name: sudokn_ToolDesignCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: tool design capability
 todos:
 - TODO -- Todos for this class go here
@@ -132,6 +133,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_EngineeringCapability
 class_uri: sudokn:ToolDesignCapability
 

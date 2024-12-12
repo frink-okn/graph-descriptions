@@ -98,13 +98,13 @@ URI: [schema:PropertyValue](https://schema.org/PropertyValue)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [schema_additionalType](../slots/schema_additionalType.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [schema_unitCode](../slots/schema_unitCode.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [schema_name](../slots/schema_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [schema_description](../slots/schema_description.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [schema_propertyID](../slots/schema_propertyID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [schema_unitText](../slots/schema_unitText.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [schema_value](../slots/schema_value.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [schema_additionalType](../slots/schema_additionalType.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI)&nbsp;or&nbsp;<br />[xsd:string](xsd:string) | No slot description provided | direct |
+| [schema_unitCode](../slots/schema_unitCode.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [schema_name](../slots/schema_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [schema_description](../slots/schema_description.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [schema_propertyID](../slots/schema_propertyID.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [schema_unitText](../slots/schema_unitText.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [schema_value](../slots/schema_value.md) | 0..1 <br/> [xsd:string](xsd:string)&nbsp;or&nbsp;<br />[xsd:double](xsd:double) | No slot description provided | direct |
 
 
 
@@ -190,6 +190,7 @@ notes:
 examples:
 - value: _:1000004ffdfdf77e2c97998ea1e8da86
 from_schema: ufokn-kg
+rank: 1000
 slots:
 - schema_additionalType
 - schema_unitCode
@@ -224,10 +225,11 @@ notes:
 examples:
 - value: _:1000004ffdfdf77e2c97998ea1e8da86
 from_schema: ufokn-kg
+rank: 1000
 attributes:
   schema_additionalType:
     name: schema_additionalType
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -253,7 +255,7 @@ attributes:
     - range: string
   schema_unitCode:
     name: schema_unitCode
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -272,7 +274,7 @@ attributes:
     range: string
   schema_name:
     name: schema_name
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -295,7 +297,7 @@ attributes:
     range: string
   schema_description:
     name: schema_description
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -319,7 +321,7 @@ attributes:
     range: string
   schema_propertyID:
     name: schema_propertyID
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -338,7 +340,7 @@ attributes:
     range: string
   schema_unitText:
     name: schema_unitText
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -357,7 +359,7 @@ attributes:
     range: string
   schema_value:
     name: schema_value
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

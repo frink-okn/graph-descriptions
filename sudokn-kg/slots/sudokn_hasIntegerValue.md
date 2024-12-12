@@ -3,7 +3,7 @@
 # Slot: sudokn_hasIntegerValue
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sudokn:hasIntegerValue](http://asu.edu/semantics/SUDOKN/hasIntegerValue)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknUSPostalCode](../classes/SudoknUSPostalCode.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SudoknUSPostalCode](../classes/SudoknUSPostalCode.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sudokn:hasIntegerValue](http://asu.edu/semantics/SUDOKN/hasIntegerValue)
 <details>
 ```yaml
 name: sudokn_hasIntegerValue
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

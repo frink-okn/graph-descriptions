@@ -12,9 +12,6 @@ Name: neighborhood-kg
 
 ```mermaid
 erDiagram
-Any {
-
-}
 PhilaBlockGroup {
 
 }
@@ -43,15 +40,25 @@ PhilaIncident ||--|o PhilaCensusTract : "phila_happened_at"
 ```
 
 
+## IRI prefixes
+
+* linkml: https://w3id.org/linkml/
+* phila: https://metadata.phila.gov/
+* rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+* rdfs: http://www.w3.org/2000/01/rdf-schema#
+
+
+
 ## Classes
 
 | Class | Description |
 | --- | --- |
-| [Any](classes/Any.md) | None |
-| [PhilaBlockGroup](classes/PhilaBlockGroup.md) | TODO -- tell the world what this class (type) describes. |
-| [PhilaCensusTract](classes/PhilaCensusTract.md) | TODO -- tell the world what this class (type) describes. |
-| [PhilaIncident](classes/PhilaIncident.md) | TODO -- tell the world what this class (type) describes. |
-| [PhilaLocation](classes/PhilaLocation.md) | TODO -- tell the world what this class (type) describes. |
+| [PhilaBlockGroup](classes/PhilaBlockGroup.md) | No type description provided<br/>Class with 8 occurences.| 
+| [PhilaCensusTract](classes/PhilaCensusTract.md) | No type description provided<br/>Class with 361 occurences.| 
+| [PhilaIncident](classes/PhilaIncident.md) | No type description provided<br/>Class with 15328 occurences.| 
+| [PhilaLocation](classes/PhilaLocation.md) | No type description provided<br/>Class with 9131 occurences.| 
+
+
 
 
 
@@ -59,33 +66,22 @@ PhilaIncident ||--|o PhilaCensusTract : "phila_happened_at"
 
 | Slot | Description |
 | --- | --- |
-| [phila_age_of](slots/phila_age_of.md) | TODO -- tell the world what this slot (predicate) describes |
-| [phila_belongs_to](slots/phila_belongs_to.md) | TODO -- tell the world what this slot (predicate) describes |
-| [phila_date_of](slots/phila_date_of.md) | TODO -- tell the world what this slot (predicate) describes |
-| [phila_happened_at](slots/phila_happened_at.md) | TODO -- tell the world what this slot (predicate) describes |
-| [phila_is_fatal](slots/phila_is_fatal.md) | TODO -- tell the world what this slot (predicate) describes |
-| [phila_OffenderDeceased](slots/phila_OffenderDeceased.md) | TODO -- tell the world what this slot (predicate) describes |
-| [phila_OffenderInjured](slots/phila_OffenderInjured.md) | TODO -- tell the world what this slot (predicate) describes |
-| [phila_OffenderRace](slots/phila_OffenderRace.md) | TODO -- tell the world what this slot (predicate) describes |
-| [phila_OffenderSex](slots/phila_OffenderSex.md) | TODO -- tell the world what this slot (predicate) describes |
-| [phila_OffenderWound](slots/phila_OffenderWound.md) | TODO -- tell the world what this slot (predicate) describes |
-| [phila_OfficerInvolved](slots/phila_OfficerInvolved.md) | TODO -- tell the world what this slot (predicate) describes |
-| [phila_time_of](slots/phila_time_of.md) | TODO -- tell the world what this slot (predicate) describes |
+| [phila_age_of](slots/phila_age_of.md) | No slot description provided<br/>15093 occurrences with subject type phila_Incident and object type integer.|
+| [phila_belongs_to](slots/phila_belongs_to.md) | No slot description provided<br/>1250 occurrences with subject type phila_BlockGroup and object type phila_CensusTract.|
+| [phila_date_of](slots/phila_date_of.md) | No slot description provided<br/>15328 occurrences with subject type phila_Incident and object type date.|
+| [phila_happened_at](slots/phila_happened_at.md) | No slot description provided<br/>15328 occurrences with subject type phila_Incident and object type phila_CensusTract.|
+| [phila_is_fatal](slots/phila_is_fatal.md) | No slot description provided<br/>15205 occurrences with subject type phila_Incident and object type boolean.|
+| [phila_OffenderDeceased](slots/phila_OffenderDeceased.md) | No slot description provided<br/>15328 occurrences with subject type phila_Incident and object type boolean.|
+| [phila_OffenderInjured](slots/phila_OffenderInjured.md) | No slot description provided<br/>15328 occurrences with subject type phila_Incident and object type boolean.|
+| [phila_OffenderRace](slots/phila_OffenderRace.md) | No slot description provided<br/>15205 occurrences with subject type phila_Incident and object type string.|
+| [phila_OffenderSex](slots/phila_OffenderSex.md) | No slot description provided<br/>15328 occurrences with subject type phila_Incident and object type string.|
+| [phila_OffenderWound](slots/phila_OffenderWound.md) | No slot description provided<br/>15200 occurrences with subject type phila_Incident and object type string.|
+| [phila_OfficerInvolved](slots/phila_OfficerInvolved.md) | No slot description provided<br/>15328 occurrences with subject type phila_Incident and object type boolean.|
+| [phila_time_of](slots/phila_time_of.md) | No slot description provided<br/>15205 occurrences with subject type phila_Incident and object type time.|
 
 
-## Enumerations
-
-| Enumeration | Description |
-| --- | --- |
 
 
-## Types
-
-| Type | Description |
-| --- | --- |
 
 
-## Subsets
 
-| Subset | Description |
-| --- | --- |

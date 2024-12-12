@@ -3,7 +3,7 @@
 # Class: postal address (sudokn_PostalAddress)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -49,7 +49,7 @@ URI: [sudokn:PostalAddress](http://asu.edu/semantics/SUDOKN/PostalAddress)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [iosc_hasTextValue](../slots/iosc_hasTextValue.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [iosc_hasTextValue](../slots/iosc_hasTextValue.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -119,7 +119,7 @@ URI: [sudokn:PostalAddress](http://asu.edu/semantics/SUDOKN/PostalAddress)
 <details>
 ```yaml
 name: sudokn_PostalAddress
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: postal address
 todos:
 - TODO -- Todos for this class go here
@@ -130,6 +130,7 @@ notes:
 examples:
 - value: sudokn:101PIPE-PostalAddress
 from_schema: sudokn-kg
+rank: 1000
 is_a: io_PhysicalLocationIdentifier
 slots:
 - iosc_hasTextValue
@@ -143,7 +144,7 @@ class_uri: sudokn:PostalAddress
 <details>
 ```yaml
 name: sudokn_PostalAddress
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: postal address
 todos:
 - TODO -- Todos for this class go here
@@ -154,11 +155,12 @@ notes:
 examples:
 - value: sudokn:101PIPE-PostalAddress
 from_schema: sudokn-kg
+rank: 1000
 is_a: io_PhysicalLocationIdentifier
 attributes:
   iosc_hasTextValue:
     name: iosc_hasTextValue
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

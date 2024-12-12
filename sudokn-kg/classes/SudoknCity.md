@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (sudokn_City)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -59,8 +59,8 @@ URI: [sudokn:City](http://asu.edu/semantics/SUDOKN/City)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sudokn_locatedInState](../slots/sudokn_locatedInState.md) | 0..1 <br/> [SudoknState](../classes/SudoknState.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sudokn_locatedInState](../slots/sudokn_locatedInState.md) | 0..1 <br/> [SudoknState](../classes/SudoknState.md) | No slot description provided | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -121,7 +121,7 @@ URI: [sudokn:City](http://asu.edu/semantics/SUDOKN/City)
 <details>
 ```yaml
 name: sudokn_City
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -130,6 +130,7 @@ todos:
 notes:
 - Class with 2994 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_GeopoliticalSite
 slots:
 - sudokn_locatedInState
@@ -144,7 +145,7 @@ class_uri: sudokn:City
 <details>
 ```yaml
 name: sudokn_City
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -153,11 +154,12 @@ todos:
 notes:
 - Class with 2994 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_GeopoliticalSite
 attributes:
   sudokn_locatedInState:
     name: sudokn_locatedInState
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -176,7 +178,7 @@ attributes:
     range: sudokn_State
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

@@ -3,7 +3,7 @@
 # Slot: has ownership status classifier (sudokn_hasOwnershipStatusClassifier)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,8 +23,8 @@ URI: [sudokn:hasOwnershipStatusClassifier](http://asu.edu/semantics/SUDOKN/hasOw
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [IoManufacturer](../classes/IoManufacturer.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No type description provided |  no  |
+| [IoManufacturer](../classes/IoManufacturer.md) | No type description provided |  no  |
 
 
 
@@ -90,7 +90,7 @@ URI: [sudokn:hasOwnershipStatusClassifier](http://asu.edu/semantics/SUDOKN/hasOw
 <details>
 ```yaml
 name: sudokn_hasOwnershipStatusClassifier
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 title: has ownership status classifier
 todos:
 - TODO -- Todos for this slot go here

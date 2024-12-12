@@ -3,7 +3,7 @@
 # Slot: schema_identifier
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,8 +23,8 @@ URI: [schema:identifier](https://schema.org/identifier)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SchemaGeoShape](../classes/SchemaGeoShape.md) | The geographic shape of a place |  no  |
 | [SchemaPlace](../classes/SchemaPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
+| [SchemaGeoShape](../classes/SchemaGeoShape.md) | The geographic shape of a place |  no  |
 
 
 
@@ -90,7 +90,7 @@ URI: [schema:identifier](https://schema.org/identifier)
 <details>
 ```yaml
 name: schema_identifier
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (edam_data_1027)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -100,7 +100,7 @@ URI: [edam:data_1027](http://edamontology.org/data_1027)
 <details>
 ```yaml
 name: edam_data_1027
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -111,6 +111,7 @@ notes:
 examples:
 - value: https://www.ncbi.nlm.nih.gov/gene/10000
 from_schema: biobricks-ice-kg
+rank: 1000
 class_uri: edam:data_1027
 
 ```
@@ -121,7 +122,7 @@ class_uri: edam:data_1027
 <details>
 ```yaml
 name: edam_data_1027
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -132,6 +133,7 @@ notes:
 examples:
 - value: https://www.ncbi.nlm.nih.gov/gene/10000
 from_schema: biobricks-ice-kg
+rank: 1000
 class_uri: edam:data_1027
 
 ```

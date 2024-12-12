@@ -3,7 +3,7 @@
 # Slot: scales_hasIdbTsev2
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [scales:hasIdbTsev2](http://schemas.scales-okn.org/rdf/scales#hasIdbTsev2)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCaseCriminal](../classes/ScalesCaseCriminal.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [ScalesCaseCriminal](../classes/ScalesCaseCriminal.md) | No type description provided |  no  |
 
 
 
@@ -89,7 +89,7 @@ URI: [scales:hasIdbTsev2](http://schemas.scales-okn.org/rdf/scales#hasIdbTsev2)
 <details>
 ```yaml
 name: scales_hasIdbTsev2
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

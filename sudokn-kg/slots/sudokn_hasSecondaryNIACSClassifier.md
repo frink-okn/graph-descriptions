@@ -3,7 +3,7 @@
 # Slot: has secondary NIACS classifier (sudokn_hasSecondaryNIACSClassifier)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -67,7 +67,7 @@ URI: [sudokn:hasSecondaryNIACSClassifier](http://asu.edu/semantics/SUDOKN/hasSec
 <details>
 ```yaml
 name: sudokn_hasSecondaryNIACSClassifier
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 title: has secondary NIACS classifier
 todos:
 - TODO -- Todos for this slot go here

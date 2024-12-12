@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (geo_geoJSONLiteral)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -86,7 +86,7 @@ URI: [geo:geoJSONLiteral](http://www.opengis.net/ont/geosparql#geoJSONLiteral)
 <details>
 ```yaml
 name: geo_geoJSONLiteral
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -95,6 +95,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 class_uri: geo:geoJSONLiteral
 
 ```
@@ -105,7 +106,7 @@ class_uri: geo:geoJSONLiteral
 <details>
 ```yaml
 name: geo_geoJSONLiteral
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -114,6 +115,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 class_uri: geo:geoJSONLiteral
 
 ```

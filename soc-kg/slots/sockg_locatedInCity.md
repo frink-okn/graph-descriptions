@@ -3,7 +3,7 @@
 # Slot: sockg_locatedInCity
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:locatedInCity](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSite](../classes/SockgSite.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgSite](../classes/SockgSite.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sockg:locatedInCity](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 <details>
 ```yaml
 name: sockg_locatedInCity
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

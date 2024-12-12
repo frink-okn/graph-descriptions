@@ -3,7 +3,7 @@
 # Slot: edam_has_identifier
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [edam:has_identifier](http://edamontology.org/has_identifier)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Cheminf000000](../classes/Cheminf000000.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [Cheminf000000](../classes/Cheminf000000.md) | No type description provided |  no  |
 
 
 
@@ -89,7 +89,7 @@ URI: [edam:has_identifier](http://edamontology.org/has_identifier)
 <details>
 ```yaml
 name: edam_has_identifier
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

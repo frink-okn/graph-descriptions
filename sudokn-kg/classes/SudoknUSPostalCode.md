@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (sudokn_USPostalCode)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -42,7 +42,7 @@ URI: [sudokn:USPostalCode](http://asu.edu/semantics/SUDOKN/USPostalCode)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sudokn_hasIntegerValue](../slots/sudokn_hasIntegerValue.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sudokn_hasIntegerValue](../slots/sudokn_hasIntegerValue.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -103,7 +103,7 @@ URI: [sudokn:USPostalCode](http://asu.edu/semantics/SUDOKN/USPostalCode)
 <details>
 ```yaml
 name: sudokn_USPostalCode
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -112,6 +112,7 @@ todos:
 notes:
 - Class with 20424 occurences.
 from_schema: sudokn-kg
+rank: 1000
 slots:
 - sudokn_hasIntegerValue
 class_uri: sudokn:USPostalCode
@@ -124,7 +125,7 @@ class_uri: sudokn:USPostalCode
 <details>
 ```yaml
 name: sudokn_USPostalCode
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -133,10 +134,11 @@ todos:
 notes:
 - Class with 20424 occurences.
 from_schema: sudokn-kg
+rank: 1000
 attributes:
   sudokn_hasIntegerValue:
     name: sudokn_hasIntegerValue
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

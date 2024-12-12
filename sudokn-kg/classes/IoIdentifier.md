@@ -3,7 +3,7 @@
 # Class: TODO -- this class is noted as a superclass of another class in this graph but has not itself been defined. (io_Identifier)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -96,7 +96,7 @@ URI: [io:Identifier](https://spec.industrialontologies.org/ontology/core/Core/Id
 <details>
 ```yaml
 name: io_Identifier
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- this class is noted as a superclass of another class in this graph
   but has not itself been defined.
 todos:
@@ -106,6 +106,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 class_uri: io:Identifier
 
 ```
@@ -116,7 +117,7 @@ class_uri: io:Identifier
 <details>
 ```yaml
 name: io_Identifier
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- this class is noted as a superclass of another class in this graph
   but has not itself been defined.
 todos:
@@ -126,6 +127,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 class_uri: io:Identifier
 
 ```

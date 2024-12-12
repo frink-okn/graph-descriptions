@@ -3,7 +3,7 @@
 # Slot: sudokn_organizationLocatedIn
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sudokn:organizationLocatedIn](http://asu.edu/semantics/SUDOKN/organization
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [IoManufacturer](../classes/IoManufacturer.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [IoManufacturer](../classes/IoManufacturer.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sudokn:organizationLocatedIn](http://asu.edu/semantics/SUDOKN/organization
 <details>
 ```yaml
 name: sudokn_organizationLocatedIn
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

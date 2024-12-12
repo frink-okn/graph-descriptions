@@ -3,7 +3,7 @@
 # Slot: neo4j_identifier
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,12 +23,12 @@ URI: [neo4j:identifier](neo4j://graph.schema#identifier)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Neo4jSDoH](../classes/Neo4jSDoH.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [Neo4jDisease](../classes/Neo4jDisease.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [Neo4jOrganism](../classes/Neo4jOrganism.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [Neo4jEnvironment](../classes/Neo4jEnvironment.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [Neo4jLocation](../classes/Neo4jLocation.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [Neo4jCompound](../classes/Neo4jCompound.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [Neo4jLocation](../classes/Neo4jLocation.md) | No type description provided |  no  |
+| [Neo4jDisease](../classes/Neo4jDisease.md) | No type description provided |  no  |
+| [Neo4jCompound](../classes/Neo4jCompound.md) | No type description provided |  no  |
+| [Neo4jEnvironment](../classes/Neo4jEnvironment.md) | No type description provided |  no  |
+| [Neo4jOrganism](../classes/Neo4jOrganism.md) | No type description provided |  no  |
+| [Neo4jSDoH](../classes/Neo4jSDoH.md) | No type description provided |  no  |
 
 
 
@@ -38,7 +38,7 @@ URI: [neo4j:identifier](neo4j://graph.schema#identifier)
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -102,7 +102,7 @@ URI: [neo4j:identifier](neo4j://graph.schema#identifier)
 <details>
 ```yaml
 name: neo4j_identifier
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

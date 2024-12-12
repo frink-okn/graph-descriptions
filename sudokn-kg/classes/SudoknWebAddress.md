@@ -3,7 +3,7 @@
 # Class: web address (sudokn_WebAddress)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -108,7 +108,7 @@ URI: [sudokn:WebAddress](http://asu.edu/semantics/SUDOKN/WebAddress)
 <details>
 ```yaml
 name: sudokn_WebAddress
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: web address
 todos:
 - TODO -- Todos for this class go here
@@ -119,6 +119,7 @@ notes:
 examples:
 - value: sudokn:/WebAddress_1
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_VitualLocationIdentifier
 class_uri: sudokn:WebAddress
 
@@ -130,7 +131,7 @@ class_uri: sudokn:WebAddress
 <details>
 ```yaml
 name: sudokn_WebAddress
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: web address
 todos:
 - TODO -- Todos for this class go here
@@ -141,6 +142,7 @@ notes:
 examples:
 - value: sudokn:/WebAddress_1
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_VitualLocationIdentifier
 class_uri: sudokn:WebAddress
 

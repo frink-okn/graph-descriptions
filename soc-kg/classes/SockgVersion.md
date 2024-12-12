@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for what this class (type) describes? (sockg_Version)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -42,7 +42,7 @@ URI: [sockg:Version](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sockg_versionDate](../slots/sockg_versionDate.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sockg_versionDate](../slots/sockg_versionDate.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -103,7 +103,7 @@ URI: [sockg:Version](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 <details>
 ```yaml
 name: sockg_Version
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -114,6 +114,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#359837
 from_schema: soc-kg/main
+rank: 1000
 slots:
 - sockg_versionDate
 class_uri: sockg:Version
@@ -126,7 +127,7 @@ class_uri: sockg:Version
 <details>
 ```yaml
 name: sockg_Version
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -137,10 +138,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#359837
 from_schema: soc-kg/main
+rank: 1000
 attributes:
   sockg_versionDate:
     name: sockg_versionDate
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

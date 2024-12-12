@@ -3,7 +3,7 @@
 # Class: email address (sudokn_EmailAddress)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -108,7 +108,7 @@ URI: [sudokn:EmailAddress](http://asu.edu/semantics/SUDOKN/EmailAddress)
 <details>
 ```yaml
 name: sudokn_EmailAddress
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: email address
 todos:
 - TODO -- Todos for this class go here
@@ -119,6 +119,7 @@ notes:
 examples:
 - value: sudokn:/EmailAddress_1
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_VitualLocationIdentifier
 class_uri: sudokn:EmailAddress
 
@@ -130,7 +131,7 @@ class_uri: sudokn:EmailAddress
 <details>
 ```yaml
 name: sudokn_EmailAddress
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: email address
 todos:
 - TODO -- Todos for this class go here
@@ -141,6 +142,7 @@ notes:
 examples:
 - value: sudokn:/EmailAddress_1
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_VitualLocationIdentifier
 class_uri: sudokn:EmailAddress
 

@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for what this class (type) describes? (sockg_Pesticide)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -78,11 +78,11 @@ URI: [sockg:Pesticide](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sockg_pesticidePlacement](../slots/sockg_pesticidePlacement.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_pesticideActiveIngredientType](../slots/sockg_pesticideActiveIngredientType.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_pesticideTarget](../slots/sockg_pesticideTarget.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_pesticide_UID](../slots/sockg_pesticide_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_totalPesticideAmount_kg_per_ha](../slots/sockg_totalPesticideAmount_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sockg_pesticidePlacement](../slots/sockg_pesticidePlacement.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_pesticideActiveIngredientType](../slots/sockg_pesticideActiveIngredientType.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_pesticideTarget](../slots/sockg_pesticideTarget.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_pesticide_UID](../slots/sockg_pesticide_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_totalPesticideAmount_kg_per_ha](../slots/sockg_totalPesticideAmount_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
 
 
 
@@ -150,7 +150,7 @@ URI: [sockg:Pesticide](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 <details>
 ```yaml
 name: sockg_Pesticide
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -161,6 +161,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#203598
 from_schema: soc-kg/main
+rank: 1000
 slots:
 - sockg_pesticidePlacement
 - sockg_pesticideActiveIngredientType
@@ -177,7 +178,7 @@ class_uri: sockg:Pesticide
 <details>
 ```yaml
 name: sockg_Pesticide
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -188,10 +189,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#203598
 from_schema: soc-kg/main
+rank: 1000
 attributes:
   sockg_pesticidePlacement:
     name: sockg_pesticidePlacement
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -216,7 +218,7 @@ attributes:
     - range: string
   sockg_pesticideActiveIngredientType:
     name: sockg_pesticideActiveIngredientType
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -242,7 +244,7 @@ attributes:
     - range: double
   sockg_pesticideTarget:
     name: sockg_pesticideTarget
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -267,7 +269,7 @@ attributes:
     - range: string
   sockg_pesticide_UID:
     name: sockg_pesticide_UID
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -286,7 +288,7 @@ attributes:
     range: string
   sockg_totalPesticideAmount_kg_per_ha:
     name: sockg_totalPesticideAmount_kg_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

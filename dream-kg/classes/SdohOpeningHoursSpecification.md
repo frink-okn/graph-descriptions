@@ -64,9 +64,9 @@ URI: [sdoh:OpeningHoursSpecification](http://schema.org/OpeningHoursSpecificatio
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_closes](../slots/sdoh_closes.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_opens](../slots/sdoh_opens.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_dayOfWeek](../slots/sdoh_dayOfWeek.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_closes](../slots/sdoh_closes.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [sdoh_opens](../slots/sdoh_opens.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [sdoh_dayOfWeek](../slots/sdoh_dayOfWeek.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
 
 
 
@@ -149,6 +149,7 @@ notes:
 examples:
 - value: dreamkg:service/hours/tuesday/5480325573640192
 from_schema: dream-kg
+rank: 1000
 slots:
 - sdoh_closes
 - sdoh_opens
@@ -178,10 +179,11 @@ notes:
 examples:
 - value: dreamkg:service/hours/tuesday/5480325573640192
 from_schema: dream-kg
+rank: 1000
 attributes:
   sdoh_closes:
     name: sdoh_closes
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -201,7 +203,7 @@ attributes:
     range: string
   sdoh_opens:
     name: sdoh_opens
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -221,7 +223,7 @@ attributes:
     range: string
   sdoh_dayOfWeek:
     name: sdoh_dayOfWeek
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

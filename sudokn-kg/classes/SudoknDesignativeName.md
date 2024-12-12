@@ -3,7 +3,7 @@
 # Class: designative name (sudokn_DesignativeName)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -102,7 +102,7 @@ URI: [sudokn:DesignativeName](http://asu.edu/semantics/SUDOKN/DesignativeName)
 <details>
 ```yaml
 name: sudokn_DesignativeName
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: designative name
 todos:
 - TODO -- Todos for this class go here
@@ -111,6 +111,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: io_Identifier
 class_uri: sudokn:DesignativeName
 
@@ -122,7 +123,7 @@ class_uri: sudokn:DesignativeName
 <details>
 ```yaml
 name: sudokn_DesignativeName
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: designative name
 todos:
 - TODO -- Todos for this class go here
@@ -131,6 +132,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: io_Identifier
 class_uri: sudokn:DesignativeName
 

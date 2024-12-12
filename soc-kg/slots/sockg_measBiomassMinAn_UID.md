@@ -3,7 +3,7 @@
 # Slot: sockg_measBiomassMinAn_UID
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:measBiomassMinAn_UID](http://www.semanticweb.org/sockg/ontologies/20
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sockg:measBiomassMinAn_UID](http://www.semanticweb.org/sockg/ontologies/20
 <details>
 ```yaml
 name: sockg_measBiomassMinAn_UID
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

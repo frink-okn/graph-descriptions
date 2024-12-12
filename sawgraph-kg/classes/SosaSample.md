@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (sosa_Sample)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -99,7 +99,7 @@ URI: [sosa:Sample](http://www.w3.org/ns/sosa/Sample)
 <details>
 ```yaml
 name: sosa_Sample
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -108,6 +108,7 @@ todos:
 notes:
 - Class with 23180 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 class_uri: sosa:Sample
 
 ```
@@ -118,7 +119,7 @@ class_uri: sosa:Sample
 <details>
 ```yaml
 name: sosa_Sample
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -127,6 +128,7 @@ todos:
 notes:
 - Class with 23180 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 class_uri: sosa:Sample
 
 ```

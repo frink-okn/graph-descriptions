@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (qudt_unit)
+# Slot: No slot description provided (qudt_unit)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -80,8 +80,8 @@ URI: [qudt:unit](http://qudt.org/schema/qudt/unit)
 <details>
 ```yaml
 name: qudt_unit
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

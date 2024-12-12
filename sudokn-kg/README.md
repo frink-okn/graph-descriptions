@@ -12,9 +12,6 @@ Name: sudokn-kg
 
 ```mermaid
 erDiagram
-Any {
-
-}
 IoGroupOfPersons {
 
 }
@@ -25,8 +22,17 @@ IoInformationContentEntity {
 
 }
 IoManufacturer {
+    uri sudokn_manufactures  
+    uri sudokn_hasCertificate  
+    uri sudokn_hasProcessCapability  
     string sudokn_hasOrganizationYearOfEstablishment  
+    uri sudokn_hasPostalAddress  
+    integer sudokn_hasNumberOfEmployees  
+    uri sudokn_hasNumberOfEmployees  
     string rdfs_label  
+    uri sudokn_hasOwnershipStatusClassifier  
+    uri sudokn_hasMaterialCapability  
+    uri sudokn_suppliesToIndustry  
 }
 IoMaterialProduct {
     string rdfs_label  
@@ -47,7 +53,16 @@ OboBFO0000029 {
 
 }
 OwlNamedIndividual {
-
+    uri sudokn_hasCertificate  
+    uri sudokn_hasProcessCapability  
+    uri sudokn_hasPostalAddress  
+    uri sudokn_hasWebAddress  
+    uri sudokn_hasOwnershipStatusClassifier  
+    uri sudokn_hasMaterialCapability  
+    uri sudokn_hasManagementCapability  
+    uri sudokn_suppliesToIndustry  
+    uri sudokn_hasNAICSClassifier  
+    uri sudokn_hasEmailAddress  
 }
 Sudokn2-AxisCNCTurningCapability {
     string rdfs_label  
@@ -65,6 +80,7 @@ SudoknAS9100 {
     string rdfs_label  
 }
 SudoknAS9100Certificate {
+    uri sudokn_attestsTo  
     string rdfs_label  
 }
 SudoknAS9102Certificate {
@@ -89,7 +105,10 @@ SudoknAbrassiveMachiningCapability {
     string rdfs_label  
 }
 SudoknAccommodationAndFoodServices {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknAcetalProcessingCapability {
     string rdfs_label  
@@ -104,13 +123,19 @@ SudoknAddtiveManufacturingCapability {
     string rdfs_label  
 }
 SudoknAdministrativeAndSupportAndWasteServices {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknAerospaceIndustry {
     string rdfs_label  
 }
 SudoknAgricultureForestryFishingAndHunting {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknAgricultureIndustry {
     string rdfs_label  
@@ -131,7 +156,10 @@ SudoknApparelIndustry {
     string rdfs_label  
 }
 SudoknArtsEnterntainmentAndRecreation {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknAssemblyCapability {
     string rdfs_label  
@@ -371,7 +399,10 @@ SudoknComputersandElectronicProductsIndustry {
     string rdfs_label  
 }
 SudoknConstruction {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknConstructionIndustry {
     string rdfs_label  
@@ -476,7 +507,10 @@ SudoknEducationalInstitutionsIndustry {
     string rdfs_label  
 }
 SudoknEducationalServices {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknElectolessNickelPlatingCapability {
     string rdfs_label  
@@ -599,7 +633,10 @@ SudoknFillingCapability {
     string rdfs_label  
 }
 SudoknFinanceAndInsurance {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknFinishingCapability {
     string rdfs_label  
@@ -662,7 +699,7 @@ SudoknGeopoliticalSite {
 
 }
 SudoknGeospatialLocation {
-
+    uri sudokn_hasPostalAddress  
 }
 SudoknGlassProcessingCapability {
     string rdfs_label  
@@ -698,7 +735,10 @@ SudoknHealthCareServicesIndustry {
     string rdfs_label  
 }
 SudoknHealthcareAndSocialAssistance {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknHealthcareServices {
 
@@ -764,6 +804,7 @@ SudoknISO9000 {
     string rdfs_label  
 }
 SudoknISO9000Certificate {
+    uri sudokn_attestsTo  
     string rdfs_label  
 }
 SudoknISO9001 {
@@ -806,7 +847,10 @@ SudoknIndustry {
     string rdfs_label  
 }
 SudoknInformation {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknInfraredBrazingCapability {
     string rdfs_label  
@@ -911,10 +955,16 @@ SudoknManMadeFiberProcessingCapability {
     string rdfs_label  
 }
 SudoknManagementOfCompaniesAndEnterprise {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknManufacturing {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknManufacturingProcessCapability {
 
@@ -971,7 +1021,10 @@ SudoknMillingCapability {
     string rdfs_label  
 }
 SudoknMining {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknMiningIndustry {
     string rdfs_label  
@@ -995,133 +1048,262 @@ SudoknNADCAPCertificate {
     string rdfs_label  
 }
 SudoknNAICS332111 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332112 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332114 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332115 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332116 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332117 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332211 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332212 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332213 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332214 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332311 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332312 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332313 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332321 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332322 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332323 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332410 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332420 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332431 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332439 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332510 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332611 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332612 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332618 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332710 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332721 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332722 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332811 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332812 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332813 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332911 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332912 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332913 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332919 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332991 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332992 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332994 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332995 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332996 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332997 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332998 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332999 {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNAICSClassifier {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknNIST-800-171Certificate {
 
@@ -1290,7 +1472,10 @@ SudoknProductDesignCapability {
     string rdfs_label  
 }
 SudoknProfessionalScientificAndTechnicalServices {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknProfessionalServices {
 
@@ -1308,7 +1493,10 @@ SudoknPrototypingCapability {
     string rdfs_label  
 }
 SudoknPublicAdministration {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknPulsedElectrochemicalMachiningCapability {
     string rdfs_label  
@@ -1344,7 +1532,10 @@ SudoknRapidPrototypingCapability {
     string rdfs_label  
 }
 SudoknRealEstateRentalAndLeasing {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknReamingCapability {
     string rdfs_label  
@@ -1365,7 +1556,10 @@ SudoknRetailIndustry {
     string rdfs_label  
 }
 SudoknRetailTrade {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknRetailTradeIndustry {
     string rdfs_label  
@@ -1602,7 +1796,10 @@ SudoknTorchCuttingCapability {
 
 }
 SudoknTransportationAndWarehousing {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknTransportationIndustry {
     string rdfs_label  
@@ -1626,7 +1823,10 @@ SudoknTurretPunchingCapability {
     string rdfs_label  
 }
 SudoknTwoDimensionalCartesianSpatialCoordinateDatum {
-
+    uri sudokn_hasLatitudeValue  
+    string sudokn_hasLatitudeValue  
+    uri sudokn_hasLongitudeValue  
+    string sudokn_hasLongitudeValue  
 }
 SudoknUSPostalCode {
     string sudokn_hasIntegerValue  
@@ -1641,7 +1841,10 @@ SudoknUrethaneProcessingCapability {
     string rdfs_label  
 }
 SudoknUtilities {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknUtilitiesIndustry {
     string rdfs_label  
@@ -1701,7 +1904,10 @@ SudoknWetPaintingCapability {
     string rdfs_label  
 }
 SudoknWholesaleTrade {
-
+    uri sudokn_hasNAICSTextValue  
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+    uri sudokn_hasNAICSCodeValue  
 }
 SudoknWireBendingCapability {
     string rdfs_label  
@@ -1746,746 +1952,1411 @@ SudoknOrganizationSize {
 
 }
 
-IoManufacturer ||--|o Any : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o Any : "sudokn_manufactures"
-IoManufacturer ||--|o Any : "sudokn_hasCertificate"
-IoManufacturer ||--|o Any : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o Any : "sudokn_hasPostalAddress"
-IoManufacturer ||--|o Any : "sudokn_hasNumberOfEmployees"
-IoManufacturer ||--|o Any : "sudokn_hasOwnershipStatusClassifier"
-IoManufacturer ||--|o Any : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o Any : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknNAICS332618 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332612 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332321 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332115 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332510 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332919 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332999 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332992 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332994 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332997 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332117 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332995 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332813 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332211 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332722 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332721 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332212 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332311 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332991 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332913 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332313 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332213 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332116 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332410 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332998 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332811 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332312 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332431 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332323 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332214 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332112 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICSClassifier : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332996 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332611 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332420 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332912 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332911 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332114 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332710 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332812 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332322 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332439 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332111 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o IoMaterialProduct : "sudokn_manufactures"
+IoManufacturer ||--|o SudoknISO9000 : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknKOSHERApproved : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknISO14001 : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknISO13485 : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknAS9000Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknQS9000Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknNADCAPCertificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknISO14001Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknISO9001 : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknITARCertificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknISO9000Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknASME : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknHAACPCertificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknISO9001Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknIS-TS16949 : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknIATF16949Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknAWSWelderCertificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknNADCAPAC7004 : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknISTS16949Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknISO14000Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknBritishRetailConsortiumAccreditation : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknISOCertificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknASMECertificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknAS9102Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknBABACertificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknITARCompliant : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknAS9100 : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknFDACertificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknFDAGMPCompliant : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknQS9000 : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknISO13485Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknTI9000Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknAS9100Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknLEEDCertificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknLaserCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknAssemblyCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknLaserProcessingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWaterjetCuttimgCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPulsedElectrochemicalMachiningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknFixturingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCHorizontalTurningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCarbonitridingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSolderingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknGearCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknElectronBeamWeldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMachineBuildingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPunchingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMetalStampingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknFabricatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSmeltingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknDieCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknVerticalMillingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknDigitalPrintingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknRivettingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPassivationCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknAcrylicFabricationCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknFlameSprayingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknKnurlingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWireFormingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCMachiningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknGalvanizingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknAssemblyCapibility : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWireHarnessAssemblyCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCeramicMoldCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknDieMakingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMetalSpinningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknVacuumCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSilkScreeningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknChemicalCoatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMoldMakingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPlasterMoldCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSheetMetalFormingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknChemicalCleaningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPhosphateCoatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknRapidPrototypingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPolishingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknVacuumHardeningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPrintingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSandCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknTubingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknElectroplatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknTubeBendingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknKnittingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknToolMakingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknNickelPlatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknBrazingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCPressBrakeCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWireEDMCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSinkerEDMCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknVacuumFormingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknElectropolishingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCustomFoamCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o Sudokn3DPrintingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknBendingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCarburizingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMillingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCoatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknAddtiveManufacturingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWeldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSinteringCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMIGWeldinCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknVacuumPackagingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPlasticMachiningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPressingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSwissMachiningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCLatheCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknTurningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknAbrasiveCleaningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknFabricationCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknInvestmentCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknEmbossingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPackingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknShearingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknShrinkFittingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknLatheWorkCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCWireBendingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknChromateConversionCoatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknLiveToolingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMediaBlastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCMillingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPressBrakingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknInstallationCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknDeepFreezingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCFormingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknRollingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknNotchingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPipingFabricationCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknBoringCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWetPaintingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCentrifugalCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMIGWeldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknHardeningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknRoboticWeldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknElectricalDischargeMachiningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknTappingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknProductDesignCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o Sudokn2-AxisCNCTurningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMetalFabricationCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWireBendingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknHoningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknExtrudingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknLaserEtchingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCreepFeedGrindingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPlaningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknShellMoldCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMetalworkingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPrototypingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCPlasmaCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWaterjetCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPlasmaCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknElectolessNickelPlatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknHotDipGalvanizingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknElectrolessPlatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknRAMEdmCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknChemicalProcessingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknFiberOpticLaserCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCVerticalMillingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknContinuousCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMechanicalAssemblyCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknJoiningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCADCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCenterlessGrindingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCmillingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknHeatTreatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknElectrolessNickelPlatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknGrindingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPLCProgrammingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMoldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknDrawingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknExtrusionCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknEtchingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSwissTurningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknScreenPrintingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknShapingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPlasmaSprayingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknFinishingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPaintingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWiringCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPackagingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPlatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPrototypeManufacturingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknZincArcSprayCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknVaporizedMetalCoatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknRivetingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknRamEDMCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknTurretPunchingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknTIGWeldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSheetMetalProcessingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSurfaceGrindingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknFasteningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknReverseEngineeringCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknAdditiveManufacturingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknDeepHoleDrillingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknDeburringCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknOilGroovingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknInductionHeatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknForgingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknElectroPlatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSheetMetalFabricationCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPowderCoatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknEDMCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknAnnealingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknTubeFormingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSandBlastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSurfaceFinishingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknNitridingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknFormingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknOxy-FuelCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMechanicalJoiningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknKittingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSanitaryWeldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCBendingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCerakoteCoatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknReamingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknLiquidCoatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknHorizontalMillingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknEngineeringDesignCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknStampingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknFixtureDesignCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWaterJetCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSewingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPemInsertionCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPermanentMoldCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSinkerEdmCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknBrassBlackeningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknBlackOxideCoatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknAnodizingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknFillingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWoodWorkingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMigWeldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCGrindingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWoodworkingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknResistanceWeldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknEndFormingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCLaserCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPhysicalVaporDepositionCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknBroachingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCCylindricalGrindingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSurfacePreparationCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPolycrystallineDiamondMachiningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknDrillingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSpinningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknThermoformingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCylindricalGrindingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknHarperizingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknLaserWeldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSpotWeldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCTurningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSteelManufacturingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMachiningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPostalAddress : "sudokn_hasPostalAddress"
+IoManufacturer ||--|o SudoknUnitedStatesPostalCode : "sudokn_hasPostalAddress"
+IoManufacturer ||--|o SudoknOwnershipStatusClassifier : "sudokn_hasOwnershipStatusClassifier"
+IoManufacturer ||--|o SudoknWoodProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknBronzeProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknPhosphorBronzeProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknCarbonGraphiteProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknDelrinProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknSteelProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknInvarProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknMetalProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknTantalumProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknManMadeFiberProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknBerylliumProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknCeramicProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknTinProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknExoticMaterialProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknPalladiumProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknMagnesiumProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknDifficultToMachineMaterialsProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknSpecialMaterialsProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknChromiumProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknStainlessSteelProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknSteelAlloyProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknZincAlloyProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknPhosBronzeProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknMolybdenumProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknZirconProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknSilverProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknFoamProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknLowAlloySteelProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknCompositeProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknLexanProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknTungstenProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknHighGradeAluminumProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknGlassProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknIronProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknBrassProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknColdRolledSteelProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknRubberProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknKovarProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknChemicalsProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknLeadProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknNickelProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknNylonProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknPolycarbonateProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknGoldProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknNomexProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknAluminumProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknCopperProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknKaptonProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknPlasticProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknNaturalFiberProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknTeflonProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknZincProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknHastelloyProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknPlatinumProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknPreciousMaterialProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknWaspaloyProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknAcetalProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknAlloySteelProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknUrethaneProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknSiliconeProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknCarbideProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknExtremelyHardMaterialProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknTitaniumProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknCobaltProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknGraphiteProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknInconelProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknHealthCareServicesIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknTextiles : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknSportsandLeisureIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknOffshoreWindIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknUtilitiesIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknPaperIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknElectronicAutomotiveInudstry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknTransportationIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknMachinaryAndEquipmentIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknEducationalInstitutionsIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknProfessionalServicesIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknMetalProductionIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknOilAndGasIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknAgricultureIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknFurnitureIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknRecyclingIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknAerospaceIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknPaperandPaperboardProductsIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknChemicalAndPetrochemicalIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknPrintingAndInformationIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknComputersandElectronicProductsIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknRetailIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknCommunicationandElectronicPowerUtilitiesIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknWoodProductManufacturingIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknMetalsProductsIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknWaterandSewerUtilitiesIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknConsumerGoods : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknGovermentIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknPlasticsandRubberProductsIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknConsumerGoodsIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknApparelIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknHealthcareServicesIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknEducationIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknMilitaryIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknTextilesIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknIndustrialMachineryandEquipmentIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknGovernmentIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknElectronicProductIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknSportsAndLeisureIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknRetailTradeIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknWarehousingAndStorageIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknPlasticAndRubberIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknConstructionIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknFoodIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknCommunicationIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknMiningIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknAutomotiveIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknElectricVehiclesIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknBusinessEquipmentIndustry : "sudokn_suppliesToIndustry"
 IoManufacturer ||--|o SudoknGeospatialLocation : "sudokn_organizationLocatedIn"
 IoManufacturer ||--|o SudoknNAICSClassifier : "sudokn_hasSecondaryNAICSClassifier"
-OwlNamedIndividual ||--|o Any : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o Any : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o Any : "sudokn_hasPostalAddress"
+OwlNamedIndividual ||--|o SudoknISO9000 : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknKOSHERApproved : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknISO14001 : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknISO13485 : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknAS9000Certificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknQS9000Certificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknNADCAPCertificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknISO14001Certificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknISO9001 : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknITARCertificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknISO9000Certificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknASME : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknHAACPCertificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknISO9001Certificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknIS-TS16949 : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknIATF16949Certificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknAWSWelderCertificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknNADCAPAC7004 : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknISTS16949Certificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknISO14000Certificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknBritishRetailConsortiumAccreditation : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknISOCertificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknASMECertificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknAS9102Certificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknBABACertificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknITARCompliant : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknAS9100 : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknFDACertificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknFDAGMPCompliant : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknQS9000 : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknISO13485Certificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknTI9000Certificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknAS9100Certificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknLEEDCertificate : "sudokn_hasCertificate"
+OwlNamedIndividual ||--|o SudoknLaserCuttingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknAssemblyCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknLaserProcessingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknWaterjetCuttimgCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPulsedElectrochemicalMachiningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknFixturingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCNCHorizontalTurningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCarbonitridingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSolderingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknGearCuttingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknElectronBeamWeldingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknMachineBuildingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPunchingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknMetalStampingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknFabricatingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSmeltingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknDieCastingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknVerticalMillingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknDigitalPrintingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknRivettingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPassivationCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknAcrylicFabricationCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknFlameSprayingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknKnurlingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknWireFormingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCNCMachiningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknGalvanizingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknAssemblyCapibility : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknWireHarnessAssemblyCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCastingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCeramicMoldCastingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknDieMakingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknMetalSpinningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCNCCuttingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknVacuumCastingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSilkScreeningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknChemicalCoatingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknMoldMakingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPlasterMoldCastingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSheetMetalFormingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknChemicalCleaningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPhosphateCoatingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknRapidPrototypingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPolishingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknVacuumHardeningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPrintingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSandCastingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknTubingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknElectroplatingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknTubeBendingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknKnittingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknToolMakingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknNickelPlatingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknBrazingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCNCPressBrakeCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknWireEDMCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSinkerEDMCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknVacuumFormingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknElectropolishingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCustomFoamCuttingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o Sudokn3DPrintingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknBendingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCarburizingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknMillingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCoatingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknAddtiveManufacturingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknWeldingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSinteringCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknMIGWeldinCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknVacuumPackagingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPlasticMachiningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPressingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSwissMachiningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCNCLatheCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknTurningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknAbrasiveCleaningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknFabricationCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknInvestmentCastingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknEmbossingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPackingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknShearingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknShrinkFittingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknLatheWorkCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCNCWireBendingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknChromateConversionCoatingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknLiveToolingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknMediaBlastingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCNCMillingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPressBrakingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknInstallationCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknDeepFreezingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCNCFormingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknRollingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknNotchingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPipingFabricationCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknBoringCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknWetPaintingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCentrifugalCastingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknMIGWeldingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknHardeningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknRoboticWeldingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknElectricalDischargeMachiningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknTappingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknProductDesignCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o Sudokn2-AxisCNCTurningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknMetalFabricationCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknWireBendingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknHoningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknExtrudingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknLaserEtchingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCreepFeedGrindingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPlaningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknShellMoldCastingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknMetalworkingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPrototypingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCNCPlasmaCuttingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknWaterjetCuttingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPlasmaCuttingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknElectolessNickelPlatingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknHotDipGalvanizingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknElectrolessPlatingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknRAMEdmCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknChemicalProcessingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknFiberOpticLaserCuttingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCNCVerticalMillingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknContinuousCastingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknMechanicalAssemblyCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknJoiningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCADCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCenterlessGrindingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCNCmillingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknHeatTreatingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknElectrolessNickelPlatingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknGrindingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPLCProgrammingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknMoldingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknDrawingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknExtrusionCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknEtchingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSwissTurningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknScreenPrintingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknShapingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPlasmaSprayingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknFinishingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPaintingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknWiringCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPackagingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPlatingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPrototypeManufacturingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknZincArcSprayCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknVaporizedMetalCoatingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknRivetingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknRamEDMCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknTurretPunchingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknTIGWeldingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSheetMetalProcessingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSurfaceGrindingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknFasteningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknReverseEngineeringCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknAdditiveManufacturingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknDeepHoleDrillingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknDeburringCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknOilGroovingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknInductionHeatingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknForgingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknElectroPlatingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSheetMetalFabricationCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPowderCoatingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCuttingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknEDMCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknAnnealingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknTubeFormingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSandBlastingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSurfaceFinishingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknNitridingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknFormingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknOxy-FuelCuttingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknMechanicalJoiningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknKittingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSanitaryWeldingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCNCBendingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCerakoteCoatingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknReamingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknLiquidCoatingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknHorizontalMillingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknEngineeringDesignCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknStampingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknFixtureDesignCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknWaterJetCuttingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSewingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPemInsertionCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPermanentMoldCastingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSinkerEdmCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknBrassBlackeningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknBlackOxideCoatingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknAnodizingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknFillingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknWoodWorkingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknMigWeldingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCNCGrindingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknWoodworkingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknResistanceWeldingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknEndFormingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCNCLaserCuttingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPhysicalVaporDepositionCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknBroachingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCNCCylindricalGrindingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSurfacePreparationCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPolycrystallineDiamondMachiningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknDrillingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSpinningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknThermoformingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCylindricalGrindingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknHarperizingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknLaserWeldingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSpotWeldingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknCNCTurningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknSteelManufacturingCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknMachiningCapability : "sudokn_hasProcessCapability"
+OwlNamedIndividual ||--|o SudoknPostalAddress : "sudokn_hasPostalAddress"
+OwlNamedIndividual ||--|o SudoknUnitedStatesPostalCode : "sudokn_hasPostalAddress"
 OwlNamedIndividual ||--|o SudoknOrganizationName : "sudokn_hasName"
-OwlNamedIndividual ||--|o Any : "sudokn_hasWebAddress"
-OwlNamedIndividual ||--|o Any : "sudokn_hasOwnershipStatusClassifier"
-OwlNamedIndividual ||--|o Any : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o Any : "sudokn_hasManagementCapability"
-OwlNamedIndividual ||--|o Any : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o Any : "sudokn_hasNAICSClassifier"
-OwlNamedIndividual ||--|o Any : "sudokn_hasEmailAddress"
-SudoknAS9100Certificate ||--|o Any : "sudokn_attestsTo"
-SudoknAccommodationAndFoodServices ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknAccommodationAndFoodServices ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknAdministrativeAndSupportAndWasteServices ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknAdministrativeAndSupportAndWasteServices ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknAgricultureForestryFishingAndHunting ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknAgricultureForestryFishingAndHunting ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknArtsEnterntainmentAndRecreation ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknArtsEnterntainmentAndRecreation ||--|o Any : "sudokn_hasNAICSCodeValue"
+OwlNamedIndividual ||--|o SudoknWebAddress : "sudokn_hasWebAddress"
+OwlNamedIndividual ||--|o SudoknOwnershipStatusClassifier : "sudokn_hasOwnershipStatusClassifier"
+OwlNamedIndividual ||--|o SudoknWoodProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknBronzeProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknPhosphorBronzeProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknCarbonGraphiteProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknDelrinProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknSteelProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknInvarProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknMetalProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknTantalumProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknManMadeFiberProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknBerylliumProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknCeramicProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknTinProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknExoticMaterialProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknPalladiumProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknMagnesiumProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknDifficultToMachineMaterialsProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknSpecialMaterialsProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknChromiumProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknStainlessSteelProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknSteelAlloyProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknZincAlloyProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknPhosBronzeProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknMolybdenumProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknZirconProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknSilverProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknFoamProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknLowAlloySteelProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknCompositeProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknLexanProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknTungstenProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknHighGradeAluminumProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknGlassProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknIronProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknBrassProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknColdRolledSteelProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknRubberProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknKovarProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknChemicalsProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknLeadProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknNickelProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknNylonProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknPolycarbonateProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknGoldProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknNomexProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknAluminumProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknCopperProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknKaptonProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknPlasticProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknNaturalFiberProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknTeflonProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknZincProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknHastelloyProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknPlatinumProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknPreciousMaterialProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknWaspaloyProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknAcetalProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknAlloySteelProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknUrethaneProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknSiliconeProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknCarbideProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknExtremelyHardMaterialProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknTitaniumProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknCobaltProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknGraphiteProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknInconelProcessingCapability : "sudokn_hasMaterialCapability"
+OwlNamedIndividual ||--|o SudoknQualityManagementCapability : "sudokn_hasManagementCapability"
+OwlNamedIndividual ||--|o SudoknHealthCareServicesIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknTextiles : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknSportsandLeisureIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknOffshoreWindIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknUtilitiesIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknPaperIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknElectronicAutomotiveInudstry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknTransportationIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknMachinaryAndEquipmentIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknEducationalInstitutionsIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknProfessionalServicesIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknMetalProductionIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknOilAndGasIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknAgricultureIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknFurnitureIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknRecyclingIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknAerospaceIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknPaperandPaperboardProductsIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknChemicalAndPetrochemicalIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknPrintingAndInformationIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknComputersandElectronicProductsIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknRetailIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknCommunicationandElectronicPowerUtilitiesIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknWoodProductManufacturingIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknMetalsProductsIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknWaterandSewerUtilitiesIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknConsumerGoods : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknGovermentIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknPlasticsandRubberProductsIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknConsumerGoodsIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknApparelIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknHealthcareServicesIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknEducationIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknMilitaryIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknTextilesIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknIndustrialMachineryandEquipmentIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknGovernmentIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknElectronicProductIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknSportsAndLeisureIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknRetailTradeIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknWarehousingAndStorageIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknPlasticAndRubberIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknConstructionIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknFoodIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknCommunicationIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknMiningIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknAutomotiveIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknElectricVehiclesIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknBusinessEquipmentIndustry : "sudokn_suppliesToIndustry"
+OwlNamedIndividual ||--|o SudoknNAICSClassifier : "sudokn_hasNAICSClassifier"
+OwlNamedIndividual ||--|o SudoknEmailAddress : "sudokn_hasEmailAddress"
+SudoknAS9100Certificate ||--|o SudoknQualityManagementCapability : "sudokn_attestsTo"
 SudoknCity ||--|o SudoknState : "sudokn_locatedInState"
-SudoknConstruction ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknConstruction ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknEducationalServices ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknEducationalServices ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknFinanceAndInsurance ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknFinanceAndInsurance ||--|o Any : "sudokn_hasNAICSCodeValue"
 SudoknGeospatialLocation ||--|o SudoknUSPostalCode : "sudokn_hasZIPcode"
-SudoknGeospatialLocation ||--|o Any : "sudokn_hasPostalAddress"
+SudoknGeospatialLocation ||--|o SudoknPostalAddress : "sudokn_hasPostalAddress"
+SudoknGeospatialLocation ||--|o SudoknUnitedStatesPostalCode : "sudokn_hasPostalAddress"
 SudoknGeospatialLocation ||--|o SudoknTwoDimensionalCartesianSpatialCoordinateDatum : "sudokn_hasSpatialCoordinates"
 SudoknGeospatialLocation ||--|o SudoknCity : "sudokn_locatedInCity"
-SudoknHealthcareAndSocialAssistance ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknHealthcareAndSocialAssistance ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknISO9000Certificate ||--|o Any : "sudokn_attestsTo"
-SudoknInformation ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknInformation ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknManagementOfCompaniesAndEnterprise ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknManagementOfCompaniesAndEnterprise ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknManufacturing ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknManufacturing ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknMining ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknMining ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332111 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332111 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332112 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332112 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332114 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332114 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332115 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332115 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332116 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332116 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332117 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332117 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332211 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332211 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332212 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332212 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332213 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332213 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332214 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332214 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332311 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332311 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332312 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332312 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332313 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332313 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332321 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332321 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332322 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332322 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332323 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332323 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332410 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332410 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332420 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332420 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332431 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332431 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332439 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332439 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332510 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332510 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332611 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332611 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332612 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332612 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332618 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332618 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332710 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332710 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332721 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332721 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332722 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332722 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332811 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332811 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332812 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332812 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332813 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332813 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332911 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332911 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332912 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332912 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332913 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332913 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332919 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332919 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332991 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332991 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332992 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332992 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332994 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332994 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332995 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332995 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332996 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332996 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332997 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332997 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332998 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332998 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICS332999 ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICS332999 ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknNAICSClassifier ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknNAICSClassifier ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknProfessionalScientificAndTechnicalServices ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknProfessionalScientificAndTechnicalServices ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknPublicAdministration ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknPublicAdministration ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknRealEstateRentalAndLeasing ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknRealEstateRentalAndLeasing ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknRetailTrade ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknRetailTrade ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknTransportationAndWarehousing ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknTransportationAndWarehousing ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknTwoDimensionalCartesianSpatialCoordinateDatum ||--|o Any : "sudokn_hasLatitudeValue"
-SudoknTwoDimensionalCartesianSpatialCoordinateDatum ||--|o Any : "sudokn_hasLongitudeValue"
-SudoknUtilities ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknUtilities ||--|o Any : "sudokn_hasNAICSCodeValue"
-SudoknWholesaleTrade ||--|o Any : "sudokn_hasNAICSTextValue"
-SudoknWholesaleTrade ||--|o Any : "sudokn_hasNAICSCodeValue"
+SudoknISO9000Certificate ||--|o SudoknQualityManagementCapability : "sudokn_attestsTo"
 
 ```
+
+
+## IRI prefixes
+
+* dct: http://purl.org/dc/terms/
+* io: https://spec.industrialontologies.org/ontology/core/Core/
+* iosc: https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/
+* linkml: https://w3id.org/linkml/
+* obo: http://purl.obolibrary.org/obo/
+* owl: http://www.w3.org/2002/07/owl#
+* rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+* rdfs: http://www.w3.org/2000/01/rdf-schema#
+* skos: http://www.w3.org/2004/02/skos/core#
+* sudokn: http://asu.edu/semantics/SUDOKN/
+* xsd: http://www.w3.org/2001/XMLSchema#
+
 
 
 ## Classes
 
 | Class | Description |
 | --- | --- |
-| [Any](classes/Any.md) | None |
-| [IoGroupOfPersons](classes/IoGroupOfPersons.md) | TODO -- tell the world what this class (type) describes. |
-| [IoIdentifier](classes/IoIdentifier.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDesignativeName](classes/SudoknDesignativeName.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBrandName](classes/SudoknBrandName.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOrganizationName](classes/SudoknOrganizationName.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVitualLocationIdentifier](classes/SudoknVitualLocationIdentifier.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEmailAddress](classes/SudoknEmailAddress.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWebAddress](classes/SudoknWebAddress.md) | TODO -- tell the world what this class (type) describes. |
-| [IoInformationContentEntity](classes/IoInformationContentEntity.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCertificate](classes/SudoknCertificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknQualityCertificate](classes/SudoknQualityCertificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknASCertificate](classes/SudoknASCertificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAS9003Certificate](classes/SudoknAS9003Certificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAS9100Certificate](classes/SudoknAS9100Certificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAS9102Certificate](classes/SudoknAS9102Certificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknASMECertificate](classes/SudoknASMECertificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBABACertificate](classes/SudoknBABACertificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBritishRetailConsortiumCertificate](classes/SudoknBritishRetailConsortiumCertificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFDACertificate](classes/SudoknFDACertificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFDA-GMPCertificate](classes/SudoknFDA-GMPCertificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFDA-PMACertificate](classes/SudoknFDA-PMACertificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGWOCertificate](classes/SudoknGWOCertificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHAACPCertificate](classes/SudoknHAACPCertificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISOCertificate](classes/SudoknISOCertificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO13485Certificate](classes/SudoknISO13485Certificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO14000Certificate](classes/SudoknISO14000Certificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO14001Certificate](classes/SudoknISO14001Certificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO17265Certificate](classes/SudoknISO17265Certificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO27001Certificate](classes/SudoknISO27001Certificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO9000Certificate](classes/SudoknISO9000Certificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO9001Certificate](classes/SudoknISO9001Certificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISTSCertificate](classes/SudoknISTSCertificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISTS-16949Certificate](classes/SudoknISTS-16949Certificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknITARCertificate](classes/SudoknITARCertificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknKosherApprovedCertificate](classes/SudoknKosherApprovedCertificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNADCAPCertificate](classes/SudoknNADCAPCertificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNISTCertificate](classes/SudoknNISTCertificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNIST-800-171Certificate](classes/SudoknNIST-800-171Certificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknQSCertificate](classes/SudoknQSCertificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknQS9000Certificate](classes/SudoknQS9000Certificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTICertificate](classes/SudoknTICertificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTI-9000Certificate](classes/SudoknTI-9000Certificate.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknClassifier](classes/SudoknClassifier.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICSClassifier](classes/SudoknNAICSClassifier.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAccommodationAndFoodServices](classes/SudoknAccommodationAndFoodServices.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAdministrativeAndSupportAndWasteServices](classes/SudoknAdministrativeAndSupportAndWasteServices.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAgricultureForestryFishingAndHunting](classes/SudoknAgricultureForestryFishingAndHunting.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknArtsEnterntainmentAndRecreation](classes/SudoknArtsEnterntainmentAndRecreation.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknConstruction](classes/SudoknConstruction.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEducationalServices](classes/SudoknEducationalServices.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFinanceAndInsurance](classes/SudoknFinanceAndInsurance.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHealthcareAndSocialAssistance](classes/SudoknHealthcareAndSocialAssistance.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknInformation](classes/SudoknInformation.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknManagementOfCompaniesAndEnterprise](classes/SudoknManagementOfCompaniesAndEnterprise.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknManufacturing](classes/SudoknManufacturing.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMining](classes/SudoknMining.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknProfessionalScientificAndTechnicalServices](classes/SudoknProfessionalScientificAndTechnicalServices.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPublicAdministration](classes/SudoknPublicAdministration.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRealEstateRentalAndLeasing](classes/SudoknRealEstateRentalAndLeasing.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRetailTrade](classes/SudoknRetailTrade.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTransportationAndWarehousing](classes/SudoknTransportationAndWarehousing.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknUtilities](classes/SudoknUtilities.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWholesaleTrade](classes/SudoknWholesaleTrade.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSpecialBusinessStatusClassifier](classes/SudoknSpecialBusinessStatusClassifier.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOwnershipStatusClassifier](classes/SudoknOwnershipStatusClassifier.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTwoDimensionalCartesianSpatialCoordinateDatum](classes/SudoknTwoDimensionalCartesianSpatialCoordinateDatum.md) | TODO -- tell the world what this class (type) describes. |
-| [IoManufacturer](classes/IoManufacturer.md) | TODO -- tell the world what this class (type) describes. |
-| [IoMaterialProduct](classes/IoMaterialProduct.md) | TODO -- tell the world what this class (type) describes. |
-| [IoPhysicalLocationIdentifier](classes/IoPhysicalLocationIdentifier.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBuildingNumber](classes/SudoknBuildingNumber.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCityOfAddress](classes/SudoknCityOfAddress.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCountryOfAddress](classes/SudoknCountryOfAddress.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPostalAddress](classes/SudoknPostalAddress.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStateOfAddress](classes/SudoknStateOfAddress.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStreetAddress](classes/SudoknStreetAddress.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknUnitedStatesPostalCode](classes/SudoknUnitedStatesPostalCode.md) | TODO -- tell the world what this class (type) describes. |
-| [IoscIndustry](classes/IoscIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAerospaceIndustry](classes/SudoknAerospaceIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAgricultureIndustry](classes/SudoknAgricultureIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknApparelIndustry](classes/SudoknApparelIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAutomotiveIndustry](classes/SudoknAutomotiveIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectricAutomotiveIndustry](classes/SudoknElectricAutomotiveIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBusinessEquipmentIndustry](classes/SudoknBusinessEquipmentIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCommunicationsIndustry](classes/SudoknCommunicationsIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknConstructionIndustry](classes/SudoknConstructionIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknConsumerGoodsIndustry](classes/SudoknConsumerGoodsIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEducationIndustry](classes/SudoknEducationIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectronicProductIndustry](classes/SudoknElectronicProductIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknComputerIndustry](classes/SudoknComputerIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFoodIndustry](classes/SudoknFoodIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBeverageIndustry](classes/SudoknBeverageIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRestaurantIndustry](classes/SudoknRestaurantIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFurnitureIndustry](classes/SudoknFurnitureIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGovernmentIndustry](classes/SudoknGovernmentIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHealthcareServices](classes/SudoknHealthcareServices.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMachinaryAndEquipmentIndustry](classes/SudoknMachinaryAndEquipmentIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMetalProductsIndustry](classes/SudoknMetalProductsIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMilitaryIndustry](classes/SudoknMilitaryIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMiningIndustry](classes/SudoknMiningIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOffshoreWindIndustry](classes/SudoknOffshoreWindIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPaperIndustry](classes/SudoknPaperIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPaperboardProductsIndustry](classes/SudoknPaperboardProductsIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlasticAndRubberIndustry](classes/SudoknPlasticAndRubberIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPrintingAndInformationIndustry](classes/SudoknPrintingAndInformationIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknProfessionalServices](classes/SudoknProfessionalServices.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRecyclingIndustry](classes/SudoknRecyclingIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRetailIndustry](classes/SudoknRetailIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSportsAndLeisureIndustry](classes/SudoknSportsAndLeisureIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTextilesIndustry](classes/SudoknTextilesIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTransportationIndustry](classes/SudoknTransportationIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknUtilitiesIndustry](classes/SudoknUtilitiesIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCommunicationAndElectronicPowerUtilitiesIndustry](classes/SudoknCommunicationAndElectronicPowerUtilitiesIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWaterAndSewerUtilitiesIndustry](classes/SudoknWaterAndSewerUtilitiesIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [IoscProductionCapability](classes/IoscProductionCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEngineeringCapability](classes/SudoknEngineeringCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCADCAMCapability](classes/SudoknCADCAMCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCADCapability](classes/SudoknCADCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCAECapability](classes/SudoknCAECapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEngineeringDesignCapability](classes/SudoknEngineeringDesignCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPLCProgrammingCapability](classes/SudoknPLCProgrammingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknReverseEngineeringCapability](classes/SudoknReverseEngineeringCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknToolDesignCapability](classes/SudoknToolDesignCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDieDesignCapability](classes/SudoknDieDesignCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFixtureDesignCapability](classes/SudoknFixtureDesignCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknManufacturingProcessCapability](classes/SudoknManufacturingProcessCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAssemblyCapibility](classes/SudoknAssemblyCapibility.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFabricatingCapability](classes/SudoknFabricatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknKittingCapability](classes/SudoknKittingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWireHarnessAssemblyCapability](classes/SudoknWireHarnessAssemblyCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCastingCapability](classes/SudoknCastingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFinishingCapability](classes/SudoknFinishingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCoatingCapability](classes/SudoknCoatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBlackOxideCoatingCapability](classes/SudoknBlackOxideCoatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknChemicalCoatingCapability](classes/SudoknChemicalCoatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectroPlatingCapability](classes/SudoknElectroPlatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectrolessNickelPlating](classes/SudoknElectrolessNickelPlating.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGalvanizingCapability](classes/SudoknGalvanizingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMechanicalCoatingCapability](classes/SudoknMechanicalCoatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPowderCoatingCapability](classes/SudoknPowderCoatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPhosphateCoatingCapability](classes/SudoknPhosphateCoatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPrintingCapability](classes/SudoknPrintingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWetPaintingCapability](classes/SudoknWetPaintingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknThermalCoatingCapability](classes/SudoknThermalCoatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVaporizedMetalCoatingCapability](classes/SudoknVaporizedMetalCoatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPhysicalVaporDepositionCapability](classes/SudoknPhysicalVaporDepositionCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSurfacePreparationCapability](classes/SudoknSurfacePreparationCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBeltSandingCapability](classes/SudoknBeltSandingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSandBlastingCapability](classes/SudoknSandBlastingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknShotPeeningCapability](classes/SudoknShotPeeningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknForgingCapability](classes/SudoknForgingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFormingCapability](classes/SudoknFormingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDrawingCapability](classes/SudoknDrawingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknExtrudingCapability](classes/SudoknExtrudingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRollingCapability](classes/SudoknRollingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHeatTreatingCapability](classes/SudoknHeatTreatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHardeningCapability](classes/SudoknHardeningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSurfaceHardeningCapability](classes/SudoknSurfaceHardeningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDiffusionHardeningCapability](classes/SudoknDiffusionHardeningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCarburizingCapability](classes/SudoknCarburizingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNitridingCapability](classes/SudoknNitridingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVacuumHardeningCapability](classes/SudoknVacuumHardeningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknJoiningCapability](classes/SudoknJoiningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMechanicalJoiningCapability](classes/SudoknMechanicalJoiningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMechanicalWeldingCapability](classes/SudoknMechanicalWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknExplosiveWeldingCapability](classes/SudoknExplosiveWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFrictionWeldingCapability](classes/SudoknFrictionWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPressureWeldingCapability](classes/SudoknPressureWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknUltrasonicWeldingCapability](classes/SudoknUltrasonicWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRivetingCapability](classes/SudoknRivetingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknThermaJoiningCapability](classes/SudoknThermaJoiningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBrazingCapability](classes/SudoknBrazingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDipBrazingCapability](classes/SudoknDipBrazingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFurnaceBrazingCapability](classes/SudoknFurnaceBrazingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknInductionBrazingCapability](classes/SudoknInductionBrazingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknInfraredBrazingCapability](classes/SudoknInfraredBrazingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknResistanceBrazingCapability](classes/SudoknResistanceBrazingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTorchBrazingCapability](classes/SudoknTorchBrazingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSolderingCapability](classes/SudoknSolderingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknThermalWeldingCapability](classes/SudoknThermalWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBrazeWeldingCapability](classes/SudoknBrazeWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCarbonArcBrazingCapability](classes/SudoknCarbonArcBrazingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGasBrazingCapability](classes/SudoknGasBrazingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDiffusionBondingCapability](classes/SudoknDiffusionBondingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectricalResistanceWeldingCapability](classes/SudoknElectricalResistanceWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknButtWeldingCapability](classes/SudoknButtWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectroSlagWeldingCapability](classes/SudoknElectroSlagWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPercussionWeldingCapability](classes/SudoknPercussionWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknProjectionWeldingCapability](classes/SudoknProjectionWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSeamWeldingCapability](classes/SudoknSeamWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSpotWeldingCapability](classes/SudoknSpotWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectricArcWeldingCapability](classes/SudoknElectricArcWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCarbonArcWeldingCapability](classes/SudoknCarbonArcWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGasMetalArcWeldingCapability](classes/SudoknGasMetalArcWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMIGWeldingCapability](classes/SudoknMIGWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGasTungstenArcWeldingCapability](classes/SudoknGasTungstenArcWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTIGWeldingCapability](classes/SudoknTIGWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknShieldedMetalArcWeldingCapability](classes/SudoknShieldedMetalArcWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStudWeldingCapability](classes/SudoknStudWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSubmergedArcWeldingCapability](classes/SudoknSubmergedArcWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGasWeldingCapability](classes/SudoknGasWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAtomicHydrogenWeldingCapability](classes/SudoknAtomicHydrogenWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCombustableGasWeldingCapability](classes/SudoknCombustableGasWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHighEnergyBeamWeldingCapability](classes/SudoknHighEnergyBeamWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectronBeamWeldingCapability](classes/SudoknElectronBeamWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknLaserBeamWeldingCapability](classes/SudoknLaserBeamWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlasmaArcWeldingCapability](classes/SudoknPlasmaArcWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMachiningCapability](classes/SudoknMachiningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAbrassiveMachiningCapability](classes/SudoknAbrassiveMachiningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGrindingCapability](classes/SudoknGrindingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCenterlessGrindingCapability](classes/SudoknCenterlessGrindingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknClyndricalGrindingCapability](classes/SudoknClyndricalGrindingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCClyndricalGrindingCapability](classes/SudoknCNCClyndricalGrindingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHoningCapability](classes/SudoknHoningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCMachiningCapability](classes/SudoknCNCMachiningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMultiPointCuttingCapability](classes/SudoknMultiPointCuttingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBroachingCapability](classes/SudoknBroachingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGearCuttingCapability](classes/SudoknGearCuttingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGearHobbingCapability](classes/SudoknGearHobbingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHoleMakingCapability](classes/SudoknHoleMakingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCounterBoringCapability](classes/SudoknCounterBoringCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCounterSinkingCapability](classes/SudoknCounterSinkingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDrillingCapability](classes/SudoknDrillingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDeepHoleDrillingCapability](classes/SudoknDeepHoleDrillingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknReamingCapability](classes/SudoknReamingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTappingCapability](classes/SudoknTappingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMillingCapability](classes/SudoknMillingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCMillingCapability](classes/SudoknCNCMillingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHorizontalMillingCapability](classes/SudoknHorizontalMillingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSlabMillingCapability](classes/SudoknSlabMillingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVerticalMillingCapability](classes/SudoknVerticalMillingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEndMillingCapability](classes/SudoknEndMillingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFaceMillingCapability](classes/SudoknFaceMillingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSawingCapability](classes/SudoknSawingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSinglePointCuttingCapability](classes/SudoknSinglePointCuttingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlaningCapability](classes/SudoknPlaningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknShapingCapability](classes/SudoknShapingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTurningCapability](classes/SudoknTurningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCTurningCapability](classes/SudoknCNCTurningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMoldingCapability](classes/SudoknMoldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknInjectionMoldingCapability](classes/SudoknInjectionMoldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPackingCapability](classes/SudoknPackingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSheetMetalProcessingCapability](classes/SudoknSheetMetalProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBendingCapability](classes/SudoknBendingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWireBendingCapability](classes/SudoknWireBendingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEmbossingCapability](classes/SudoknEmbossingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPunchingCapability](classes/SudoknPunchingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSheeringCapability](classes/SudoknSheeringCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSpinningCapability](classes/SudoknSpinningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStampingCapability](classes/SudoknStampingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStretchFormingCapability](classes/SudoknStretchFormingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTextileProcessCapability](classes/SudoknTextileProcessCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCrochetCapability](classes/SudoknCrochetCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDyeingCapability](classes/SudoknDyeingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknKnittingCapability](classes/SudoknKnittingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWeavingCapability](classes/SudoknWeavingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknThermalSubtractionCapability](classes/SudoknThermalSubtractionCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEDMCapability](classes/SudoknEDMCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHoleDrillingEDMCapability](classes/SudoknHoleDrillingEDMCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRAMEDMCapability](classes/SudoknRAMEDMCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSinkerEDMCapability](classes/SudoknSinkerEDMCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWireEDMCapability](classes/SudoknWireEDMCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHighEnergyBeamMachiningCapability](classes/SudoknHighEnergyBeamMachiningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknLaserCuttingCapability](classes/SudoknLaserCuttingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCLaserCuttingCapability](classes/SudoknCNCLaserCuttingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTorchCuttingCapability](classes/SudoknTorchCuttingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlasmaCuttingCapability](classes/SudoknPlasmaCuttingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknToolMakingCapability](classes/SudoknToolMakingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMoldMakingCapability](classes/SudoknMoldMakingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWoodWorkingCapability](classes/SudoknWoodWorkingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMaterialProcessingCapability](classes/SudoknMaterialProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCarbonProcessingCapability](classes/SudoknCarbonProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCeramicProcessingCapability](classes/SudoknCeramicProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknChemicalsProcessingCapability](classes/SudoknChemicalsProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCompositeProcessingCapability](classes/SudoknCompositeProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectronicProcessingCapability](classes/SudoknElectronicProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFiberProcessingCapability](classes/SudoknFiberProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknManMadeFiberProcessingCapability](classes/SudoknManMadeFiberProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNaturalFiberProcessingCapability](classes/SudoknNaturalFiberProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFoamProcessingCapability](classes/SudoknFoamProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGlassProcessingCapability](classes/SudoknGlassProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMetalProcessingCapability](classes/SudoknMetalProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAluminumProcessingCapability](classes/SudoknAluminumProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBrassProcessingCapability](classes/SudoknBrassProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBronzeProcessingCapability](classes/SudoknBronzeProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCopperProcessingCapability](classes/SudoknCopperProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknIronProcessingCapability](classes/SudoknIronProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMagnesiumAlloyProcessingCapability](classes/SudoknMagnesiumAlloyProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSteelProcessingCapability](classes/SudoknSteelProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStainlessSteelProcessingCapability](classes/SudoknStainlessSteelProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTitaniumProcessingCapability](classes/SudoknTitaniumProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknZincAlloyProcessingCapability](classes/SudoknZincAlloyProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlasticProcessingCapability](classes/SudoknPlasticProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRubberProcessingCapability](classes/SudoknRubberProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSiliconeProcessingCapability](classes/SudoknSiliconeProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknUrethaneProcessingCapability](classes/SudoknUrethaneProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWoodProcessingCapability](classes/SudoknWoodProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknQualityManagementCapability](classes/SudoknQualityManagementCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [OboBFO0000019](classes/OboBFO0000019.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOrganizationSize](classes/SudoknOrganizationSize.md) | TODO -- tell the world what this class (type) describes. |
-| [OboBFO0000029](classes/OboBFO0000029.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGeopoliticalSite](classes/SudoknGeopoliticalSite.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCity](classes/SudoknCity.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCountry](classes/SudoknCountry.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCounty](classes/SudoknCounty.md) | TODO -- tell the world what this class (type) describes. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknState](classes/SudoknState.md) | TODO -- tell the world what this class (type) describes. |
-| [OwlNamedIndividual](classes/OwlNamedIndividual.md) | TODO -- tell the world what this class (type) describes. |
-| [Sudokn2-AxisCNCTurningCapability](classes/Sudokn2-AxisCNCTurningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [Sudokn3DPrintingCapability](classes/Sudokn3DPrintingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknAbrasiveCleaningCapability](classes/SudoknAbrasiveCleaningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknAcetalProcessingCapability](classes/SudoknAcetalProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknAcrylicFabricationCapability](classes/SudoknAcrylicFabricationCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknAdditiveManufacturingCapability](classes/SudoknAdditiveManufacturingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknAddtiveManufacturingCapability](classes/SudoknAddtiveManufacturingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknAlloySteelProcessingCapability](classes/SudoknAlloySteelProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknAnnealingCapability](classes/SudoknAnnealingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknAnodizingCapability](classes/SudoknAnodizingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknAS9000Certificate](classes/SudoknAS9000Certificate.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknAS9100](classes/SudoknAS9100.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknASME](classes/SudoknASME.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknAssemblyCapability](classes/SudoknAssemblyCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknAWSWelderCertificate](classes/SudoknAWSWelderCertificate.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknBerylliumProcessingCapability](classes/SudoknBerylliumProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknBoringCapability](classes/SudoknBoringCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknBrassBlackeningCapability](classes/SudoknBrassBlackeningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknBritishRetailConsortiumAccreditation](classes/SudoknBritishRetailConsortiumAccreditation.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCarbideProcessingCapability](classes/SudoknCarbideProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCarbonGraphiteProcessingCapability](classes/SudoknCarbonGraphiteProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCarbonitridingCapability](classes/SudoknCarbonitridingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCentrifugalCastingCapability](classes/SudoknCentrifugalCastingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCerakoteCoatingCapability](classes/SudoknCerakoteCoatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCeramicMoldCastingCapability](classes/SudoknCeramicMoldCastingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknChemicalAndPetrochemicalIndustry](classes/SudoknChemicalAndPetrochemicalIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknChemicalCleaningCapability](classes/SudoknChemicalCleaningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknChemicalProcessingCapability](classes/SudoknChemicalProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknChromateConversionCoatingCapability](classes/SudoknChromateConversionCoatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknChromiumProcessingCapability](classes/SudoknChromiumProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCNCBendingCapability](classes/SudoknCNCBendingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCNCCuttingCapability](classes/SudoknCNCCuttingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCNCCylindricalGrindingCapability](classes/SudoknCNCCylindricalGrindingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCNCFormingCapability](classes/SudoknCNCFormingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCNCGrindingCapability](classes/SudoknCNCGrindingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCNCHorizontalTurningCapability](classes/SudoknCNCHorizontalTurningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCNCLatheCapability](classes/SudoknCNCLatheCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCNCmillingCapability](classes/SudoknCNCmillingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCNCPlasmaCuttingCapability](classes/SudoknCNCPlasmaCuttingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCNCPressBrakeCapability](classes/SudoknCNCPressBrakeCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCNCVerticalMillingCapability](classes/SudoknCNCVerticalMillingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCNCWireBendingCapability](classes/SudoknCNCWireBendingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCobaltProcessingCapability](classes/SudoknCobaltProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknColdRolledSteelProcessingCapability](classes/SudoknColdRolledSteelProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCommunicationandElectronicPowerUtilitiesIndustry](classes/SudoknCommunicationandElectronicPowerUtilitiesIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCommunicationIndustry](classes/SudoknCommunicationIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknComputersandElectronicProductsIndustry](classes/SudoknComputersandElectronicProductsIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknConsumerGoods](classes/SudoknConsumerGoods.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknContinuousCastingCapability](classes/SudoknContinuousCastingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCreepFeedGrindingCapability](classes/SudoknCreepFeedGrindingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCustomFoamCuttingCapability](classes/SudoknCustomFoamCuttingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCuttingCapability](classes/SudoknCuttingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknCylindricalGrindingCapability](classes/SudoknCylindricalGrindingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknDeburringCapability](classes/SudoknDeburringCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknDeepFreezingCapability](classes/SudoknDeepFreezingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknDelrinProcessingCapability](classes/SudoknDelrinProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknDieCastingCapability](classes/SudoknDieCastingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknDieMakingCapability](classes/SudoknDieMakingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknDifficultToMachineMaterialsProcessingCapability](classes/SudoknDifficultToMachineMaterialsProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknDigitalPrintingCapability](classes/SudoknDigitalPrintingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknEducationalInstitutionsIndustry](classes/SudoknEducationalInstitutionsIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknElectolessNickelPlatingCapability](classes/SudoknElectolessNickelPlatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknElectricalDischargeMachiningCapability](classes/SudoknElectricalDischargeMachiningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknElectricVehiclesIndustry](classes/SudoknElectricVehiclesIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknElectrolessNickelPlatingCapability](classes/SudoknElectrolessNickelPlatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknElectrolessPlatingCapability](classes/SudoknElectrolessPlatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknElectronicAutomotiveInudstry](classes/SudoknElectronicAutomotiveInudstry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknElectroplatingCapability](classes/SudoknElectroplatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknElectropolishingCapability](classes/SudoknElectropolishingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknEndFormingCapability](classes/SudoknEndFormingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknEtchingCapability](classes/SudoknEtchingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknExoticMaterialProcessingCapability](classes/SudoknExoticMaterialProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknExtremelyHardMaterialProcessingCapability](classes/SudoknExtremelyHardMaterialProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknExtrusionCapability](classes/SudoknExtrusionCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknFabricationCapability](classes/SudoknFabricationCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknFasteningCapability](classes/SudoknFasteningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknFDAGMPCompliant](classes/SudoknFDAGMPCompliant.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknFiberOpticLaserCuttingCapability](classes/SudoknFiberOpticLaserCuttingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknFillingCapability](classes/SudoknFillingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknFixturingCapability](classes/SudoknFixturingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknFlameSprayingCapability](classes/SudoknFlameSprayingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknGeospatialLocation](classes/SudoknGeospatialLocation.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknGoldProcessingCapability](classes/SudoknGoldProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknGovermentIndustry](classes/SudoknGovermentIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknGraphiteProcessingCapability](classes/SudoknGraphiteProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknHarperizingCapability](classes/SudoknHarperizingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknHastelloyProcessingCapability](classes/SudoknHastelloyProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknHealthcareServicesIndustry](classes/SudoknHealthcareServicesIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknHealthCareServicesIndustry](classes/SudoknHealthCareServicesIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknHighGradeAluminumProcessingCapability](classes/SudoknHighGradeAluminumProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknHotDipGalvanizingCapability](classes/SudoknHotDipGalvanizingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknIATF16949Certificate](classes/SudoknIATF16949Certificate.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknInconelProcessingCapability](classes/SudoknInconelProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknInductionHeatingCapability](classes/SudoknInductionHeatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknIndustrialMachineryandEquipmentIndustry](classes/SudoknIndustrialMachineryandEquipmentIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknIndustry](classes/SudoknIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknInstallationCapability](classes/SudoknInstallationCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknInvarProcessingCapability](classes/SudoknInvarProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknInvestmentCastingCapability](classes/SudoknInvestmentCastingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknIS-TS16949](classes/SudoknIS-TS16949.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknISO13485](classes/SudoknISO13485.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknISO14001](classes/SudoknISO14001.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknISO9000](classes/SudoknISO9000.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknISO9001](classes/SudoknISO9001.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknISTS16949Certificate](classes/SudoknISTS16949Certificate.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknITARCompliant](classes/SudoknITARCompliant.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknKaptonProcessingCapability](classes/SudoknKaptonProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknKnurlingCapability](classes/SudoknKnurlingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknKOSHERApproved](classes/SudoknKOSHERApproved.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknKovarProcessingCapability](classes/SudoknKovarProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknLaserEtchingCapability](classes/SudoknLaserEtchingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknLaserProcessingCapability](classes/SudoknLaserProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknLaserWeldingCapability](classes/SudoknLaserWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknLatheWorkCapability](classes/SudoknLatheWorkCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknLeadProcessingCapability](classes/SudoknLeadProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknLEEDCertificate](classes/SudoknLEEDCertificate.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknLexanProcessingCapability](classes/SudoknLexanProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknLiquidCoatingCapability](classes/SudoknLiquidCoatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknLiveToolingCapability](classes/SudoknLiveToolingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknLowAlloySteelProcessingCapability](classes/SudoknLowAlloySteelProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknMachineBuildingCapability](classes/SudoknMachineBuildingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknMagnesiumProcessingCapability](classes/SudoknMagnesiumProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknMechanicalAssemblyCapability](classes/SudoknMechanicalAssemblyCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknMediaBlastingCapability](classes/SudoknMediaBlastingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknMetalFabricationCapability](classes/SudoknMetalFabricationCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknMetalProductionIndustry](classes/SudoknMetalProductionIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknMetalSpinningCapability](classes/SudoknMetalSpinningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknMetalsProductsIndustry](classes/SudoknMetalsProductsIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknMetalStampingCapability](classes/SudoknMetalStampingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknMetalworkingCapability](classes/SudoknMetalworkingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknMIGWeldinCapability](classes/SudoknMIGWeldinCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknMigWeldingCapability](classes/SudoknMigWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknMolybdenumProcessingCapability](classes/SudoknMolybdenumProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNADCAPAC7004](classes/SudoknNADCAPAC7004.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332111](classes/SudoknNAICS332111.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332112](classes/SudoknNAICS332112.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332114](classes/SudoknNAICS332114.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332115](classes/SudoknNAICS332115.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332116](classes/SudoknNAICS332116.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332117](classes/SudoknNAICS332117.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332211](classes/SudoknNAICS332211.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332212](classes/SudoknNAICS332212.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332213](classes/SudoknNAICS332213.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332214](classes/SudoknNAICS332214.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332311](classes/SudoknNAICS332311.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332312](classes/SudoknNAICS332312.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332313](classes/SudoknNAICS332313.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332321](classes/SudoknNAICS332321.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332322](classes/SudoknNAICS332322.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332323](classes/SudoknNAICS332323.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332410](classes/SudoknNAICS332410.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332420](classes/SudoknNAICS332420.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332431](classes/SudoknNAICS332431.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332439](classes/SudoknNAICS332439.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332510](classes/SudoknNAICS332510.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332611](classes/SudoknNAICS332611.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332612](classes/SudoknNAICS332612.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332618](classes/SudoknNAICS332618.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332710](classes/SudoknNAICS332710.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332721](classes/SudoknNAICS332721.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332722](classes/SudoknNAICS332722.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332811](classes/SudoknNAICS332811.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332812](classes/SudoknNAICS332812.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332813](classes/SudoknNAICS332813.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332911](classes/SudoknNAICS332911.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332912](classes/SudoknNAICS332912.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332913](classes/SudoknNAICS332913.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332919](classes/SudoknNAICS332919.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332991](classes/SudoknNAICS332991.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332992](classes/SudoknNAICS332992.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332994](classes/SudoknNAICS332994.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332995](classes/SudoknNAICS332995.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332996](classes/SudoknNAICS332996.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332997](classes/SudoknNAICS332997.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332998](classes/SudoknNAICS332998.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNAICS332999](classes/SudoknNAICS332999.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNickelPlatingCapability](classes/SudoknNickelPlatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNickelProcessingCapability](classes/SudoknNickelProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNomexProcessingCapability](classes/SudoknNomexProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNotchingCapability](classes/SudoknNotchingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknNylonProcessingCapability](classes/SudoknNylonProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknOilAndGasIndustry](classes/SudoknOilAndGasIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknOilGroovingCapability](classes/SudoknOilGroovingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknOxy-FuelCuttingCapability](classes/SudoknOxy-FuelCuttingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPackagingCapability](classes/SudoknPackagingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPaintingCapability](classes/SudoknPaintingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPalladiumProcessingCapability](classes/SudoknPalladiumProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPaperandPaperboardProductsIndustry](classes/SudoknPaperandPaperboardProductsIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPassivationCapability](classes/SudoknPassivationCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPemInsertionCapability](classes/SudoknPemInsertionCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPermanentMoldCastingCapability](classes/SudoknPermanentMoldCastingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPhosBronzeProcessingCapability](classes/SudoknPhosBronzeProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPhosphorBronzeProcessingCapability](classes/SudoknPhosphorBronzeProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPipingFabricationCapability](classes/SudoknPipingFabricationCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPlasmaSprayingCapability](classes/SudoknPlasmaSprayingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPlasterMoldCastingCapability](classes/SudoknPlasterMoldCastingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPlasticMachiningCapability](classes/SudoknPlasticMachiningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPlasticsandRubberProductsIndustry](classes/SudoknPlasticsandRubberProductsIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPlatingCapability](classes/SudoknPlatingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPlatinumProcessingCapability](classes/SudoknPlatinumProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPolishingCapability](classes/SudoknPolishingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPolycarbonateProcessingCapability](classes/SudoknPolycarbonateProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPolycrystallineDiamondMachiningCapability](classes/SudoknPolycrystallineDiamondMachiningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPreciousMaterialProcessingCapability](classes/SudoknPreciousMaterialProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPressBrakingCapability](classes/SudoknPressBrakingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPressingCapability](classes/SudoknPressingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknProductDesignCapability](classes/SudoknProductDesignCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknProfessionalServicesIndustry](classes/SudoknProfessionalServicesIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPrototypeManufacturingCapability](classes/SudoknPrototypeManufacturingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPrototypingCapability](classes/SudoknPrototypingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknPulsedElectrochemicalMachiningCapability](classes/SudoknPulsedElectrochemicalMachiningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknQS9000](classes/SudoknQS9000.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknRamEDMCapability](classes/SudoknRamEDMCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknRAMEdmCapability](classes/SudoknRAMEdmCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknRapidPrototypingCapability](classes/SudoknRapidPrototypingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknResistanceWeldingCapability](classes/SudoknResistanceWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknRetailTradeIndustry](classes/SudoknRetailTradeIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknRivettingCapability](classes/SudoknRivettingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknRoboticWeldingCapability](classes/SudoknRoboticWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknSandCastingCapability](classes/SudoknSandCastingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknSanitaryWeldingCapability](classes/SudoknSanitaryWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknScreenPrintingCapability](classes/SudoknScreenPrintingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknSewingCapability](classes/SudoknSewingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknShearingCapability](classes/SudoknShearingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknSheetMetalFabricationCapability](classes/SudoknSheetMetalFabricationCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknSheetMetalFormingCapability](classes/SudoknSheetMetalFormingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknShellMoldCastingCapability](classes/SudoknShellMoldCastingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknShrinkFittingCapability](classes/SudoknShrinkFittingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknSilkScreeningCapability](classes/SudoknSilkScreeningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknSilverProcessingCapability](classes/SudoknSilverProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknSinkerEdmCapability](classes/SudoknSinkerEdmCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknSinteringCapability](classes/SudoknSinteringCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknSmeltingCapability](classes/SudoknSmeltingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknSpecialMaterialsProcessingCapability](classes/SudoknSpecialMaterialsProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknSportsandLeisureIndustry](classes/SudoknSportsandLeisureIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknSteelAlloyProcessingCapability](classes/SudoknSteelAlloyProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknSteelManufacturingCapability](classes/SudoknSteelManufacturingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknSurfaceFinishingCapability](classes/SudoknSurfaceFinishingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknSurfaceGrindingCapability](classes/SudoknSurfaceGrindingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknSwissMachiningCapability](classes/SudoknSwissMachiningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknSwissTurningCapability](classes/SudoknSwissTurningCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknTantalumProcessingCapability](classes/SudoknTantalumProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknTeflonProcessingCapability](classes/SudoknTeflonProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknTextiles](classes/SudoknTextiles.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknThermoformingCapability](classes/SudoknThermoformingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknTI9000Certificate](classes/SudoknTI9000Certificate.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknTinProcessingCapability](classes/SudoknTinProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknTubeBendingCapability](classes/SudoknTubeBendingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknTubeFormingCapability](classes/SudoknTubeFormingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknTubingCapability](classes/SudoknTubingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknTungstenProcessingCapability](classes/SudoknTungstenProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknTurretPunchingCapability](classes/SudoknTurretPunchingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknUSPostalCode](classes/SudoknUSPostalCode.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknVacuumCastingCapability](classes/SudoknVacuumCastingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknVacuumFormingCapability](classes/SudoknVacuumFormingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknVacuumPackagingCapability](classes/SudoknVacuumPackagingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknWarehousingAndStorageIndustry](classes/SudoknWarehousingAndStorageIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknWaspaloyProcessingCapability](classes/SudoknWaspaloyProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknWaterandSewerUtilitiesIndustry](classes/SudoknWaterandSewerUtilitiesIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknWaterjetCuttimgCapability](classes/SudoknWaterjetCuttimgCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknWaterjetCuttingCapability](classes/SudoknWaterjetCuttingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknWaterJetCuttingCapability](classes/SudoknWaterJetCuttingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknWeldingCapability](classes/SudoknWeldingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknWireFormingCapability](classes/SudoknWireFormingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknWiringCapability](classes/SudoknWiringCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknWoodProductManufacturingIndustry](classes/SudoknWoodProductManufacturingIndustry.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknWoodworkingCapability](classes/SudoknWoodworkingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknZincArcSprayCapability](classes/SudoknZincArcSprayCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknZincProcessingCapability](classes/SudoknZincProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
-| [SudoknZirconProcessingCapability](classes/SudoknZirconProcessingCapability.md) | TODO -- tell the world what this class (type) describes. |
+| [IoGroupOfPersons](classes/IoGroupOfPersons.md) | No type description provided<br/>Class with 0 occurences.| 
+| [IoIdentifier](classes/IoIdentifier.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDesignativeName](classes/SudoknDesignativeName.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBrandName](classes/SudoknBrandName.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOrganizationName](classes/SudoknOrganizationName.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVitualLocationIdentifier](classes/SudoknVitualLocationIdentifier.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEmailAddress](classes/SudoknEmailAddress.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWebAddress](classes/SudoknWebAddress.md) | No type description provided<br/>Class with 1 occurences.| 
+| [IoInformationContentEntity](classes/IoInformationContentEntity.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCertificate](classes/SudoknCertificate.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknQualityCertificate](classes/SudoknQualityCertificate.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknASCertificate](classes/SudoknASCertificate.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAS9003Certificate](classes/SudoknAS9003Certificate.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAS9100Certificate](classes/SudoknAS9100Certificate.md) | No type description provided<br/>Class with 1220 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAS9102Certificate](classes/SudoknAS9102Certificate.md) | No type description provided<br/>Class with 9 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknASMECertificate](classes/SudoknASMECertificate.md) | No type description provided<br/>Class with 804 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBABACertificate](classes/SudoknBABACertificate.md) | No type description provided<br/>Class with 3 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBritishRetailConsortiumCertificate](classes/SudoknBritishRetailConsortiumCertificate.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFDACertificate](classes/SudoknFDACertificate.md) | No type description provided<br/>Class with 5 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFDA-GMPCertificate](classes/SudoknFDA-GMPCertificate.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFDA-PMACertificate](classes/SudoknFDA-PMACertificate.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGWOCertificate](classes/SudoknGWOCertificate.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHAACPCertificate](classes/SudoknHAACPCertificate.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISOCertificate](classes/SudoknISOCertificate.md) | No type description provided<br/>Class with 67 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO13485Certificate](classes/SudoknISO13485Certificate.md) | No type description provided<br/>Class with 326 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO14000Certificate](classes/SudoknISO14000Certificate.md) | No type description provided<br/>Class with 12 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO14001Certificate](classes/SudoknISO14001Certificate.md) | No type description provided<br/>Class with 321 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO17265Certificate](classes/SudoknISO17265Certificate.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO27001Certificate](classes/SudoknISO27001Certificate.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO9000Certificate](classes/SudoknISO9000Certificate.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO9001Certificate](classes/SudoknISO9001Certificate.md) | No type description provided<br/>Class with 3466 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISTSCertificate](classes/SudoknISTSCertificate.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISTS-16949Certificate](classes/SudoknISTS-16949Certificate.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknITARCertificate](classes/SudoknITARCertificate.md) | No type description provided<br/>Class with 127 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknKosherApprovedCertificate](classes/SudoknKosherApprovedCertificate.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNADCAPCertificate](classes/SudoknNADCAPCertificate.md) | No type description provided<br/>Class with 467 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNISTCertificate](classes/SudoknNISTCertificate.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNIST-800-171Certificate](classes/SudoknNIST-800-171Certificate.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknQSCertificate](classes/SudoknQSCertificate.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknQS9000Certificate](classes/SudoknQS9000Certificate.md) | No type description provided<br/>Class with 41 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTICertificate](classes/SudoknTICertificate.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTI-9000Certificate](classes/SudoknTI-9000Certificate.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknClassifier](classes/SudoknClassifier.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICSClassifier](classes/SudoknNAICSClassifier.md) | No type description provided<br/>Class with 23 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAccommodationAndFoodServices](classes/SudoknAccommodationAndFoodServices.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAdministrativeAndSupportAndWasteServices](classes/SudoknAdministrativeAndSupportAndWasteServices.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAgricultureForestryFishingAndHunting](classes/SudoknAgricultureForestryFishingAndHunting.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknArtsEnterntainmentAndRecreation](classes/SudoknArtsEnterntainmentAndRecreation.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknConstruction](classes/SudoknConstruction.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEducationalServices](classes/SudoknEducationalServices.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFinanceAndInsurance](classes/SudoknFinanceAndInsurance.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHealthcareAndSocialAssistance](classes/SudoknHealthcareAndSocialAssistance.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknInformation](classes/SudoknInformation.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknManagementOfCompaniesAndEnterprise](classes/SudoknManagementOfCompaniesAndEnterprise.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknManufacturing](classes/SudoknManufacturing.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMining](classes/SudoknMining.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknProfessionalScientificAndTechnicalServices](classes/SudoknProfessionalScientificAndTechnicalServices.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPublicAdministration](classes/SudoknPublicAdministration.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRealEstateRentalAndLeasing](classes/SudoknRealEstateRentalAndLeasing.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRetailTrade](classes/SudoknRetailTrade.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTransportationAndWarehousing](classes/SudoknTransportationAndWarehousing.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknUtilities](classes/SudoknUtilities.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWholesaleTrade](classes/SudoknWholesaleTrade.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSpecialBusinessStatusClassifier](classes/SudoknSpecialBusinessStatusClassifier.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOwnershipStatusClassifier](classes/SudoknOwnershipStatusClassifier.md) | No type description provided<br/>Class with 8 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTwoDimensionalCartesianSpatialCoordinateDatum](classes/SudoknTwoDimensionalCartesianSpatialCoordinateDatum.md) | No type description provided<br/>Class with 20728 occurences.| 
+| [IoManufacturer](classes/IoManufacturer.md) | No type description provided<br/>Class with 11367 occurences.| 
+| [IoMaterialProduct](classes/IoMaterialProduct.md) | No type description provided<br/>Class with 44818 occurences.| 
+| [IoPhysicalLocationIdentifier](classes/IoPhysicalLocationIdentifier.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBuildingNumber](classes/SudoknBuildingNumber.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCityOfAddress](classes/SudoknCityOfAddress.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCountryOfAddress](classes/SudoknCountryOfAddress.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPostalAddress](classes/SudoknPostalAddress.md) | No type description provided<br/>Class with 20728 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStateOfAddress](classes/SudoknStateOfAddress.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStreetAddress](classes/SudoknStreetAddress.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknUnitedStatesPostalCode](classes/SudoknUnitedStatesPostalCode.md) | No type description provided<br/>Class with 1 occurences.| 
+| [IoscIndustry](classes/IoscIndustry.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAerospaceIndustry](classes/SudoknAerospaceIndustry.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAgricultureIndustry](classes/SudoknAgricultureIndustry.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknApparelIndustry](classes/SudoknApparelIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAutomotiveIndustry](classes/SudoknAutomotiveIndustry.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectricAutomotiveIndustry](classes/SudoknElectricAutomotiveIndustry.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBusinessEquipmentIndustry](classes/SudoknBusinessEquipmentIndustry.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCommunicationsIndustry](classes/SudoknCommunicationsIndustry.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknConstructionIndustry](classes/SudoknConstructionIndustry.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknConsumerGoodsIndustry](classes/SudoknConsumerGoodsIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEducationIndustry](classes/SudoknEducationIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectronicProductIndustry](classes/SudoknElectronicProductIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknComputerIndustry](classes/SudoknComputerIndustry.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFoodIndustry](classes/SudoknFoodIndustry.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBeverageIndustry](classes/SudoknBeverageIndustry.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRestaurantIndustry](classes/SudoknRestaurantIndustry.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFurnitureIndustry](classes/SudoknFurnitureIndustry.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGovernmentIndustry](classes/SudoknGovernmentIndustry.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHealthcareServices](classes/SudoknHealthcareServices.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMachinaryAndEquipmentIndustry](classes/SudoknMachinaryAndEquipmentIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMetalProductsIndustry](classes/SudoknMetalProductsIndustry.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMilitaryIndustry](classes/SudoknMilitaryIndustry.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMiningIndustry](classes/SudoknMiningIndustry.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOffshoreWindIndustry](classes/SudoknOffshoreWindIndustry.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPaperIndustry](classes/SudoknPaperIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPaperboardProductsIndustry](classes/SudoknPaperboardProductsIndustry.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlasticAndRubberIndustry](classes/SudoknPlasticAndRubberIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPrintingAndInformationIndustry](classes/SudoknPrintingAndInformationIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknProfessionalServices](classes/SudoknProfessionalServices.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRecyclingIndustry](classes/SudoknRecyclingIndustry.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRetailIndustry](classes/SudoknRetailIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSportsAndLeisureIndustry](classes/SudoknSportsAndLeisureIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTextilesIndustry](classes/SudoknTextilesIndustry.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTransportationIndustry](classes/SudoknTransportationIndustry.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknUtilitiesIndustry](classes/SudoknUtilitiesIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCommunicationAndElectronicPowerUtilitiesIndustry](classes/SudoknCommunicationAndElectronicPowerUtilitiesIndustry.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWaterAndSewerUtilitiesIndustry](classes/SudoknWaterAndSewerUtilitiesIndustry.md) | No type description provided<br/>Class with 0 occurences.| 
+| [IoscProductionCapability](classes/IoscProductionCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEngineeringCapability](classes/SudoknEngineeringCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCADCAMCapability](classes/SudoknCADCAMCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCADCapability](classes/SudoknCADCapability.md) | No type description provided<br/>Class with 3 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCAECapability](classes/SudoknCAECapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEngineeringDesignCapability](classes/SudoknEngineeringDesignCapability.md) | No type description provided<br/>Class with 28 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPLCProgrammingCapability](classes/SudoknPLCProgrammingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknReverseEngineeringCapability](classes/SudoknReverseEngineeringCapability.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknToolDesignCapability](classes/SudoknToolDesignCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDieDesignCapability](classes/SudoknDieDesignCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFixtureDesignCapability](classes/SudoknFixtureDesignCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknManufacturingProcessCapability](classes/SudoknManufacturingProcessCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAssemblyCapibility](classes/SudoknAssemblyCapibility.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFabricatingCapability](classes/SudoknFabricatingCapability.md) | No type description provided<br/>Class with 2518 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknKittingCapability](classes/SudoknKittingCapability.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWireHarnessAssemblyCapability](classes/SudoknWireHarnessAssemblyCapability.md) | No type description provided<br/>Class with 23 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCastingCapability](classes/SudoknCastingCapability.md) | No type description provided<br/>Class with 1195 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFinishingCapability](classes/SudoknFinishingCapability.md) | No type description provided<br/>Class with 1615 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCoatingCapability](classes/SudoknCoatingCapability.md) | No type description provided<br/>Class with 1744 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBlackOxideCoatingCapability](classes/SudoknBlackOxideCoatingCapability.md) | No type description provided<br/>Class with 228 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknChemicalCoatingCapability](classes/SudoknChemicalCoatingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectroPlatingCapability](classes/SudoknElectroPlatingCapability.md) | No type description provided<br/>Class with 1339 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectrolessNickelPlating](classes/SudoknElectrolessNickelPlating.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGalvanizingCapability](classes/SudoknGalvanizingCapability.md) | No type description provided<br/>Class with 72 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMechanicalCoatingCapability](classes/SudoknMechanicalCoatingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPowderCoatingCapability](classes/SudoknPowderCoatingCapability.md) | No type description provided<br/>Class with 679 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPhosphateCoatingCapability](classes/SudoknPhosphateCoatingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPrintingCapability](classes/SudoknPrintingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWetPaintingCapability](classes/SudoknWetPaintingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknThermalCoatingCapability](classes/SudoknThermalCoatingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVaporizedMetalCoatingCapability](classes/SudoknVaporizedMetalCoatingCapability.md) | No type description provided<br/>Class with 13 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPhysicalVaporDepositionCapability](classes/SudoknPhysicalVaporDepositionCapability.md) | No type description provided<br/>Class with 10 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSurfacePreparationCapability](classes/SudoknSurfacePreparationCapability.md) | No type description provided<br/>Class with 550 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBeltSandingCapability](classes/SudoknBeltSandingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSandBlastingCapability](classes/SudoknSandBlastingCapability.md) | No type description provided<br/>Class with 340 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknShotPeeningCapability](classes/SudoknShotPeeningCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknForgingCapability](classes/SudoknForgingCapability.md) | No type description provided<br/>Class with 609 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFormingCapability](classes/SudoknFormingCapability.md) | No type description provided<br/>Class with 1802 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDrawingCapability](classes/SudoknDrawingCapability.md) | No type description provided<br/>Class with 1449 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknExtrudingCapability](classes/SudoknExtrudingCapability.md) | No type description provided<br/>Class with 602 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRollingCapability](classes/SudoknRollingCapability.md) | No type description provided<br/>Class with 605 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHeatTreatingCapability](classes/SudoknHeatTreatingCapability.md) | No type description provided<br/>Class with 923 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHardeningCapability](classes/SudoknHardeningCapability.md) | No type description provided<br/>Class with 269 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSurfaceHardeningCapability](classes/SudoknSurfaceHardeningCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDiffusionHardeningCapability](classes/SudoknDiffusionHardeningCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCarburizingCapability](classes/SudoknCarburizingCapability.md) | No type description provided<br/>Class with 81 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNitridingCapability](classes/SudoknNitridingCapability.md) | No type description provided<br/>Class with 45 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVacuumHardeningCapability](classes/SudoknVacuumHardeningCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknJoiningCapability](classes/SudoknJoiningCapability.md) | No type description provided<br/>Class with 437 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMechanicalJoiningCapability](classes/SudoknMechanicalJoiningCapability.md) | No type description provided<br/>Class with 3 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMechanicalWeldingCapability](classes/SudoknMechanicalWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknExplosiveWeldingCapability](classes/SudoknExplosiveWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFrictionWeldingCapability](classes/SudoknFrictionWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPressureWeldingCapability](classes/SudoknPressureWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknUltrasonicWeldingCapability](classes/SudoknUltrasonicWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRivetingCapability](classes/SudoknRivetingCapability.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknThermaJoiningCapability](classes/SudoknThermaJoiningCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBrazingCapability](classes/SudoknBrazingCapability.md) | No type description provided<br/>Class with 147 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDipBrazingCapability](classes/SudoknDipBrazingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFurnaceBrazingCapability](classes/SudoknFurnaceBrazingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknInductionBrazingCapability](classes/SudoknInductionBrazingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknInfraredBrazingCapability](classes/SudoknInfraredBrazingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknResistanceBrazingCapability](classes/SudoknResistanceBrazingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTorchBrazingCapability](classes/SudoknTorchBrazingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSolderingCapability](classes/SudoknSolderingCapability.md) | No type description provided<br/>Class with 271 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknThermalWeldingCapability](classes/SudoknThermalWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBrazeWeldingCapability](classes/SudoknBrazeWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCarbonArcBrazingCapability](classes/SudoknCarbonArcBrazingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGasBrazingCapability](classes/SudoknGasBrazingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDiffusionBondingCapability](classes/SudoknDiffusionBondingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectricalResistanceWeldingCapability](classes/SudoknElectricalResistanceWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknButtWeldingCapability](classes/SudoknButtWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectroSlagWeldingCapability](classes/SudoknElectroSlagWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPercussionWeldingCapability](classes/SudoknPercussionWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknProjectionWeldingCapability](classes/SudoknProjectionWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSeamWeldingCapability](classes/SudoknSeamWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSpotWeldingCapability](classes/SudoknSpotWeldingCapability.md) | No type description provided<br/>Class with 3 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectricArcWeldingCapability](classes/SudoknElectricArcWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCarbonArcWeldingCapability](classes/SudoknCarbonArcWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGasMetalArcWeldingCapability](classes/SudoknGasMetalArcWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMIGWeldingCapability](classes/SudoknMIGWeldingCapability.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGasTungstenArcWeldingCapability](classes/SudoknGasTungstenArcWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTIGWeldingCapability](classes/SudoknTIGWeldingCapability.md) | No type description provided<br/>Class with 3 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknShieldedMetalArcWeldingCapability](classes/SudoknShieldedMetalArcWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStudWeldingCapability](classes/SudoknStudWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSubmergedArcWeldingCapability](classes/SudoknSubmergedArcWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGasWeldingCapability](classes/SudoknGasWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAtomicHydrogenWeldingCapability](classes/SudoknAtomicHydrogenWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCombustableGasWeldingCapability](classes/SudoknCombustableGasWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHighEnergyBeamWeldingCapability](classes/SudoknHighEnergyBeamWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectronBeamWeldingCapability](classes/SudoknElectronBeamWeldingCapability.md) | No type description provided<br/>Class with 6 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknLaserBeamWeldingCapability](classes/SudoknLaserBeamWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlasmaArcWeldingCapability](classes/SudoknPlasmaArcWeldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMachiningCapability](classes/SudoknMachiningCapability.md) | No type description provided<br/>Class with 3494 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAbrassiveMachiningCapability](classes/SudoknAbrassiveMachiningCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGrindingCapability](classes/SudoknGrindingCapability.md) | No type description provided<br/>Class with 1654 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCenterlessGrindingCapability](classes/SudoknCenterlessGrindingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknClyndricalGrindingCapability](classes/SudoknClyndricalGrindingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCClyndricalGrindingCapability](classes/SudoknCNCClyndricalGrindingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHoningCapability](classes/SudoknHoningCapability.md) | No type description provided<br/>Class with 460 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCMachiningCapability](classes/SudoknCNCMachiningCapability.md) | No type description provided<br/>Class with 1427 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMultiPointCuttingCapability](classes/SudoknMultiPointCuttingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBroachingCapability](classes/SudoknBroachingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGearCuttingCapability](classes/SudoknGearCuttingCapability.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGearHobbingCapability](classes/SudoknGearHobbingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHoleMakingCapability](classes/SudoknHoleMakingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCounterBoringCapability](classes/SudoknCounterBoringCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCounterSinkingCapability](classes/SudoknCounterSinkingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDrillingCapability](classes/SudoknDrillingCapability.md) | No type description provided<br/>Class with 1361 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDeepHoleDrillingCapability](classes/SudoknDeepHoleDrillingCapability.md) | No type description provided<br/>Class with 81 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknReamingCapability](classes/SudoknReamingCapability.md) | No type description provided<br/>Class with 278 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTappingCapability](classes/SudoknTappingCapability.md) | No type description provided<br/>Class with 860 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMillingCapability](classes/SudoknMillingCapability.md) | No type description provided<br/>Class with 2311 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCMillingCapability](classes/SudoknCNCMillingCapability.md) | No type description provided<br/>Class with 1105 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHorizontalMillingCapability](classes/SudoknHorizontalMillingCapability.md) | No type description provided<br/>Class with 181 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSlabMillingCapability](classes/SudoknSlabMillingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVerticalMillingCapability](classes/SudoknVerticalMillingCapability.md) | No type description provided<br/>Class with 437 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEndMillingCapability](classes/SudoknEndMillingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFaceMillingCapability](classes/SudoknFaceMillingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSawingCapability](classes/SudoknSawingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSinglePointCuttingCapability](classes/SudoknSinglePointCuttingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlaningCapability](classes/SudoknPlaningCapability.md) | No type description provided<br/>Class with 17 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknShapingCapability](classes/SudoknShapingCapability.md) | No type description provided<br/>Class with 504 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTurningCapability](classes/SudoknTurningCapability.md) | No type description provided<br/>Class with 2077 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCTurningCapability](classes/SudoknCNCTurningCapability.md) | No type description provided<br/>Class with 16 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMoldingCapability](classes/SudoknMoldingCapability.md) | No type description provided<br/>Class with 644 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknInjectionMoldingCapability](classes/SudoknInjectionMoldingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPackingCapability](classes/SudoknPackingCapability.md) | No type description provided<br/>Class with 1765 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSheetMetalProcessingCapability](classes/SudoknSheetMetalProcessingCapability.md) | No type description provided<br/>Class with 28 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBendingCapability](classes/SudoknBendingCapability.md) | No type description provided<br/>Class with 945 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWireBendingCapability](classes/SudoknWireBendingCapability.md) | No type description provided<br/>Class with 3 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEmbossingCapability](classes/SudoknEmbossingCapability.md) | No type description provided<br/>Class with 69 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPunchingCapability](classes/SudoknPunchingCapability.md) | No type description provided<br/>Class with 7 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSheeringCapability](classes/SudoknSheeringCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSpinningCapability](classes/SudoknSpinningCapability.md) | No type description provided<br/>Class with 38 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStampingCapability](classes/SudoknStampingCapability.md) | No type description provided<br/>Class with 1216 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStretchFormingCapability](classes/SudoknStretchFormingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTextileProcessCapability](classes/SudoknTextileProcessCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCrochetCapability](classes/SudoknCrochetCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDyeingCapability](classes/SudoknDyeingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknKnittingCapability](classes/SudoknKnittingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWeavingCapability](classes/SudoknWeavingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknThermalSubtractionCapability](classes/SudoknThermalSubtractionCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEDMCapability](classes/SudoknEDMCapability.md) | No type description provided<br/>Class with 1114 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHoleDrillingEDMCapability](classes/SudoknHoleDrillingEDMCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRAMEDMCapability](classes/SudoknRAMEDMCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSinkerEDMCapability](classes/SudoknSinkerEDMCapability.md) | No type description provided<br/>Class with 148 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWireEDMCapability](classes/SudoknWireEDMCapability.md) | No type description provided<br/>Class with 644 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHighEnergyBeamMachiningCapability](classes/SudoknHighEnergyBeamMachiningCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknLaserCuttingCapability](classes/SudoknLaserCuttingCapability.md) | No type description provided<br/>Class with 581 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCLaserCuttingCapability](classes/SudoknCNCLaserCuttingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTorchCuttingCapability](classes/SudoknTorchCuttingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlasmaCuttingCapability](classes/SudoknPlasmaCuttingCapability.md) | No type description provided<br/>Class with 235 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknToolMakingCapability](classes/SudoknToolMakingCapability.md) | No type description provided<br/>Class with 6 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMoldMakingCapability](classes/SudoknMoldMakingCapability.md) | No type description provided<br/>Class with 8 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWoodWorkingCapability](classes/SudoknWoodWorkingCapability.md) | No type description provided<br/>Class with 12 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMaterialProcessingCapability](classes/SudoknMaterialProcessingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCarbonProcessingCapability](classes/SudoknCarbonProcessingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCeramicProcessingCapability](classes/SudoknCeramicProcessingCapability.md) | No type description provided<br/>Class with 1051 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknChemicalsProcessingCapability](classes/SudoknChemicalsProcessingCapability.md) | No type description provided<br/>Class with 1344 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCompositeProcessingCapability](classes/SudoknCompositeProcessingCapability.md) | No type description provided<br/>Class with 1196 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectronicProcessingCapability](classes/SudoknElectronicProcessingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFiberProcessingCapability](classes/SudoknFiberProcessingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknManMadeFiberProcessingCapability](classes/SudoknManMadeFiberProcessingCapability.md) | No type description provided<br/>Class with 2 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNaturalFiberProcessingCapability](classes/SudoknNaturalFiberProcessingCapability.md) | No type description provided<br/>Class with 15 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFoamProcessingCapability](classes/SudoknFoamProcessingCapability.md) | No type description provided<br/>Class with 1065 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGlassProcessingCapability](classes/SudoknGlassProcessingCapability.md) | No type description provided<br/>Class with 2866 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMetalProcessingCapability](classes/SudoknMetalProcessingCapability.md) | No type description provided<br/>Class with 6560 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAluminumProcessingCapability](classes/SudoknAluminumProcessingCapability.md) | No type description provided<br/>Class with 5647 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBrassProcessingCapability](classes/SudoknBrassProcessingCapability.md) | No type description provided<br/>Class with 2596 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBronzeProcessingCapability](classes/SudoknBronzeProcessingCapability.md) | No type description provided<br/>Class with 1754 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCopperProcessingCapability](classes/SudoknCopperProcessingCapability.md) | No type description provided<br/>Class with 2784 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknIronProcessingCapability](classes/SudoknIronProcessingCapability.md) | No type description provided<br/>Class with 5903 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMagnesiumAlloyProcessingCapability](classes/SudoknMagnesiumAlloyProcessingCapability.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSteelProcessingCapability](classes/SudoknSteelProcessingCapability.md) | No type description provided<br/>Class with 7200 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStainlessSteelProcessingCapability](classes/SudoknStainlessSteelProcessingCapability.md) | No type description provided<br/>Class with 4796 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTitaniumProcessingCapability](classes/SudoknTitaniumProcessingCapability.md) | No type description provided<br/>Class with 1349 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknZincAlloyProcessingCapability](classes/SudoknZincAlloyProcessingCapability.md) | No type description provided<br/>Class with 80 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlasticProcessingCapability](classes/SudoknPlasticProcessingCapability.md) | No type description provided<br/>Class with 4159 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRubberProcessingCapability](classes/SudoknRubberProcessingCapability.md) | No type description provided<br/>Class with 1830 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSiliconeProcessingCapability](classes/SudoknSiliconeProcessingCapability.md) | No type description provided<br/>Class with 690 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknUrethaneProcessingCapability](classes/SudoknUrethaneProcessingCapability.md) | No type description provided<br/>Class with 1039 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWoodProcessingCapability](classes/SudoknWoodProcessingCapability.md) | No type description provided<br/>Class with 2918 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknQualityManagementCapability](classes/SudoknQualityManagementCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [OboBFO0000019](classes/OboBFO0000019.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOrganizationSize](classes/SudoknOrganizationSize.md) | No type description provided<br/>Class with 1 occurences.| 
+| [OboBFO0000029](classes/OboBFO0000029.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGeopoliticalSite](classes/SudoknGeopoliticalSite.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCity](classes/SudoknCity.md) | No type description provided<br/>Class with 2994 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCountry](classes/SudoknCountry.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCounty](classes/SudoknCounty.md) | No type description provided<br/>Class with 0 occurences.| 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknState](classes/SudoknState.md) | No type description provided<br/>Class with 129 occurences.| 
+| [OwlNamedIndividual](classes/OwlNamedIndividual.md) | No type description provided<br/>Class with 29 occurences.| 
+| [Sudokn2-AxisCNCTurningCapability](classes/Sudokn2-AxisCNCTurningCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [Sudokn3DPrintingCapability](classes/Sudokn3DPrintingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknAbrasiveCleaningCapability](classes/SudoknAbrasiveCleaningCapability.md) | No type description provided<br/>Class with 9 occurences.| 
+| [SudoknAcetalProcessingCapability](classes/SudoknAcetalProcessingCapability.md) | No type description provided<br/>Class with 362 occurences.| 
+| [SudoknAcrylicFabricationCapability](classes/SudoknAcrylicFabricationCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknAdditiveManufacturingCapability](classes/SudoknAdditiveManufacturingCapability.md) | No type description provided<br/>Class with 209 occurences.| 
+| [SudoknAddtiveManufacturingCapability](classes/SudoknAddtiveManufacturingCapability.md) | No type description provided<br/>Class with 337 occurences.| 
+| [SudoknAlloySteelProcessingCapability](classes/SudoknAlloySteelProcessingCapability.md) | No type description provided<br/>Class with 825 occurences.| 
+| [SudoknAnnealingCapability](classes/SudoknAnnealingCapability.md) | No type description provided<br/>Class with 99 occurences.| 
+| [SudoknAnodizingCapability](classes/SudoknAnodizingCapability.md) | No type description provided<br/>Class with 659 occurences.| 
+| [SudoknAS9000Certificate](classes/SudoknAS9000Certificate.md) | No type description provided<br/>Class with 5 occurences.| 
+| [SudoknAS9100](classes/SudoknAS9100.md) | No type description provided<br/>Class with 20 occurences.| 
+| [SudoknASME](classes/SudoknASME.md) | No type description provided<br/>Class with 10 occurences.| 
+| [SudoknAssemblyCapability](classes/SudoknAssemblyCapability.md) | No type description provided<br/>Class with 2931 occurences.| 
+| [SudoknAWSWelderCertificate](classes/SudoknAWSWelderCertificate.md) | No type description provided<br/>Class with 48 occurences.| 
+| [SudoknBerylliumProcessingCapability](classes/SudoknBerylliumProcessingCapability.md) | No type description provided<br/>Class with 360 occurences.| 
+| [SudoknBoringCapability](classes/SudoknBoringCapability.md) | No type description provided<br/>Class with 857 occurences.| 
+| [SudoknBrassBlackeningCapability](classes/SudoknBrassBlackeningCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknBritishRetailConsortiumAccreditation](classes/SudoknBritishRetailConsortiumAccreditation.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknCarbideProcessingCapability](classes/SudoknCarbideProcessingCapability.md) | No type description provided<br/>Class with 786 occurences.| 
+| [SudoknCarbonGraphiteProcessingCapability](classes/SudoknCarbonGraphiteProcessingCapability.md) | No type description provided<br/>Class with 13 occurences.| 
+| [SudoknCarbonitridingCapability](classes/SudoknCarbonitridingCapability.md) | No type description provided<br/>Class with 43 occurences.| 
+| [SudoknCentrifugalCastingCapability](classes/SudoknCentrifugalCastingCapability.md) | No type description provided<br/>Class with 17 occurences.| 
+| [SudoknCerakoteCoatingCapability](classes/SudoknCerakoteCoatingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknCeramicMoldCastingCapability](classes/SudoknCeramicMoldCastingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknChemicalAndPetrochemicalIndustry](classes/SudoknChemicalAndPetrochemicalIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknChemicalCleaningCapability](classes/SudoknChemicalCleaningCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknChemicalProcessingCapability](classes/SudoknChemicalProcessingCapability.md) | No type description provided<br/>Class with 194 occurences.| 
+| [SudoknChromateConversionCoatingCapability](classes/SudoknChromateConversionCoatingCapability.md) | No type description provided<br/>Class with 139 occurences.| 
+| [SudoknChromiumProcessingCapability](classes/SudoknChromiumProcessingCapability.md) | No type description provided<br/>Class with 551 occurences.| 
+| [SudoknCNCBendingCapability](classes/SudoknCNCBendingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknCNCCuttingCapability](classes/SudoknCNCCuttingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknCNCCylindricalGrindingCapability](classes/SudoknCNCCylindricalGrindingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknCNCFormingCapability](classes/SudoknCNCFormingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknCNCGrindingCapability](classes/SudoknCNCGrindingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknCNCHorizontalTurningCapability](classes/SudoknCNCHorizontalTurningCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknCNCLatheCapability](classes/SudoknCNCLatheCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknCNCmillingCapability](classes/SudoknCNCmillingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknCNCPlasmaCuttingCapability](classes/SudoknCNCPlasmaCuttingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknCNCPressBrakeCapability](classes/SudoknCNCPressBrakeCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknCNCVerticalMillingCapability](classes/SudoknCNCVerticalMillingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknCNCWireBendingCapability](classes/SudoknCNCWireBendingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknCobaltProcessingCapability](classes/SudoknCobaltProcessingCapability.md) | No type description provided<br/>Class with 303 occurences.| 
+| [SudoknColdRolledSteelProcessingCapability](classes/SudoknColdRolledSteelProcessingCapability.md) | No type description provided<br/>Class with 252 occurences.| 
+| [SudoknCommunicationandElectronicPowerUtilitiesIndustry](classes/SudoknCommunicationandElectronicPowerUtilitiesIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknCommunicationIndustry](classes/SudoknCommunicationIndustry.md) | No type description provided<br/>Class with 2 occurences.| 
+| [SudoknComputersandElectronicProductsIndustry](classes/SudoknComputersandElectronicProductsIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknConsumerGoods](classes/SudoknConsumerGoods.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknContinuousCastingCapability](classes/SudoknContinuousCastingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknCreepFeedGrindingCapability](classes/SudoknCreepFeedGrindingCapability.md) | No type description provided<br/>Class with 8 occurences.| 
+| [SudoknCustomFoamCuttingCapability](classes/SudoknCustomFoamCuttingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknCuttingCapability](classes/SudoknCuttingCapability.md) | No type description provided<br/>Class with 19 occurences.| 
+| [SudoknCylindricalGrindingCapability](classes/SudoknCylindricalGrindingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknDeburringCapability](classes/SudoknDeburringCapability.md) | No type description provided<br/>Class with 86 occurences.| 
+| [SudoknDeepFreezingCapability](classes/SudoknDeepFreezingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknDelrinProcessingCapability](classes/SudoknDelrinProcessingCapability.md) | No type description provided<br/>Class with 289 occurences.| 
+| [SudoknDieCastingCapability](classes/SudoknDieCastingCapability.md) | No type description provided<br/>Class with 220 occurences.| 
+| [SudoknDieMakingCapability](classes/SudoknDieMakingCapability.md) | No type description provided<br/>Class with 6 occurences.| 
+| [SudoknDifficultToMachineMaterialsProcessingCapability](classes/SudoknDifficultToMachineMaterialsProcessingCapability.md) | No type description provided<br/>Class with 28 occurences.| 
+| [SudoknDigitalPrintingCapability](classes/SudoknDigitalPrintingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknEducationalInstitutionsIndustry](classes/SudoknEducationalInstitutionsIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknElectolessNickelPlatingCapability](classes/SudoknElectolessNickelPlatingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknElectricalDischargeMachiningCapability](classes/SudoknElectricalDischargeMachiningCapability.md) | No type description provided<br/>Class with 197 occurences.| 
+| [SudoknElectricVehiclesIndustry](classes/SudoknElectricVehiclesIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknElectrolessNickelPlatingCapability](classes/SudoknElectrolessNickelPlatingCapability.md) | No type description provided<br/>Class with 214 occurences.| 
+| [SudoknElectrolessPlatingCapability](classes/SudoknElectrolessPlatingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknElectronicAutomotiveInudstry](classes/SudoknElectronicAutomotiveInudstry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknElectroplatingCapability](classes/SudoknElectroplatingCapability.md) | No type description provided<br/>Class with 3 occurences.| 
+| [SudoknElectropolishingCapability](classes/SudoknElectropolishingCapability.md) | No type description provided<br/>Class with 61 occurences.| 
+| [SudoknEndFormingCapability](classes/SudoknEndFormingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknEtchingCapability](classes/SudoknEtchingCapability.md) | No type description provided<br/>Class with 487 occurences.| 
+| [SudoknExoticMaterialProcessingCapability](classes/SudoknExoticMaterialProcessingCapability.md) | No type description provided<br/>Class with 317 occurences.| 
+| [SudoknExtremelyHardMaterialProcessingCapability](classes/SudoknExtremelyHardMaterialProcessingCapability.md) | No type description provided<br/>Class with 12 occurences.| 
+| [SudoknExtrusionCapability](classes/SudoknExtrusionCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknFabricationCapability](classes/SudoknFabricationCapability.md) | No type description provided<br/>Class with 121 occurences.| 
+| [SudoknFasteningCapability](classes/SudoknFasteningCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknFDAGMPCompliant](classes/SudoknFDAGMPCompliant.md) | No type description provided<br/>Class with 2 occurences.| 
+| [SudoknFiberOpticLaserCuttingCapability](classes/SudoknFiberOpticLaserCuttingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknFillingCapability](classes/SudoknFillingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknFixturingCapability](classes/SudoknFixturingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknFlameSprayingCapability](classes/SudoknFlameSprayingCapability.md) | No type description provided<br/>Class with 6 occurences.| 
+| [SudoknGeospatialLocation](classes/SudoknGeospatialLocation.md) | No type description provided<br/>Class with 20728 occurences.| 
+| [SudoknGoldProcessingCapability](classes/SudoknGoldProcessingCapability.md) | No type description provided<br/>Class with 1302 occurences.| 
+| [SudoknGovermentIndustry](classes/SudoknGovermentIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknGraphiteProcessingCapability](classes/SudoknGraphiteProcessingCapability.md) | No type description provided<br/>Class with 472 occurences.| 
+| [SudoknHarperizingCapability](classes/SudoknHarperizingCapability.md) | No type description provided<br/>Class with 2 occurences.| 
+| [SudoknHastelloyProcessingCapability](classes/SudoknHastelloyProcessingCapability.md) | No type description provided<br/>Class with 321 occurences.| 
+| [SudoknHealthcareServicesIndustry](classes/SudoknHealthcareServicesIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknHealthCareServicesIndustry](classes/SudoknHealthCareServicesIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknHighGradeAluminumProcessingCapability](classes/SudoknHighGradeAluminumProcessingCapability.md) | No type description provided<br/>Class with 5 occurences.| 
+| [SudoknHotDipGalvanizingCapability](classes/SudoknHotDipGalvanizingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknIATF16949Certificate](classes/SudoknIATF16949Certificate.md) | No type description provided<br/>Class with 330 occurences.| 
+| [SudoknInconelProcessingCapability](classes/SudoknInconelProcessingCapability.md) | No type description provided<br/>Class with 906 occurences.| 
+| [SudoknInductionHeatingCapability](classes/SudoknInductionHeatingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknIndustrialMachineryandEquipmentIndustry](classes/SudoknIndustrialMachineryandEquipmentIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknIndustry](classes/SudoknIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknInstallationCapability](classes/SudoknInstallationCapability.md) | No type description provided<br/>Class with 2 occurences.| 
+| [SudoknInvarProcessingCapability](classes/SudoknInvarProcessingCapability.md) | No type description provided<br/>Class with 219 occurences.| 
+| [SudoknInvestmentCastingCapability](classes/SudoknInvestmentCastingCapability.md) | No type description provided<br/>Class with 83 occurences.| 
+| [SudoknIS-TS16949](classes/SudoknIS-TS16949.md) | No type description provided<br/>Class with 6 occurences.| 
+| [SudoknISO13485](classes/SudoknISO13485.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknISO14001](classes/SudoknISO14001.md) | No type description provided<br/>Class with 7 occurences.| 
+| [SudoknISO9000](classes/SudoknISO9000.md) | No type description provided<br/>Class with 31 occurences.| 
+| [SudoknISO9001](classes/SudoknISO9001.md) | No type description provided<br/>Class with 82 occurences.| 
+| [SudoknISTS16949Certificate](classes/SudoknISTS16949Certificate.md) | No type description provided<br/>Class with 4 occurences.| 
+| [SudoknITARCompliant](classes/SudoknITARCompliant.md) | No type description provided<br/>Class with 8 occurences.| 
+| [SudoknKaptonProcessingCapability](classes/SudoknKaptonProcessingCapability.md) | No type description provided<br/>Class with 32 occurences.| 
+| [SudoknKnurlingCapability](classes/SudoknKnurlingCapability.md) | No type description provided<br/>Class with 64 occurences.| 
+| [SudoknKOSHERApproved](classes/SudoknKOSHERApproved.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknKovarProcessingCapability](classes/SudoknKovarProcessingCapability.md) | No type description provided<br/>Class with 197 occurences.| 
+| [SudoknLaserEtchingCapability](classes/SudoknLaserEtchingCapability.md) | No type description provided<br/>Class with 81 occurences.| 
+| [SudoknLaserProcessingCapability](classes/SudoknLaserProcessingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknLaserWeldingCapability](classes/SudoknLaserWeldingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknLatheWorkCapability](classes/SudoknLatheWorkCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknLeadProcessingCapability](classes/SudoknLeadProcessingCapability.md) | No type description provided<br/>Class with 2484 occurences.| 
+| [SudoknLEEDCertificate](classes/SudoknLEEDCertificate.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknLexanProcessingCapability](classes/SudoknLexanProcessingCapability.md) | No type description provided<br/>Class with 461 occurences.| 
+| [SudoknLiquidCoatingCapability](classes/SudoknLiquidCoatingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknLiveToolingCapability](classes/SudoknLiveToolingCapability.md) | No type description provided<br/>Class with 287 occurences.| 
+| [SudoknLowAlloySteelProcessingCapability](classes/SudoknLowAlloySteelProcessingCapability.md) | No type description provided<br/>Class with 120 occurences.| 
+| [SudoknMachineBuildingCapability](classes/SudoknMachineBuildingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknMagnesiumProcessingCapability](classes/SudoknMagnesiumProcessingCapability.md) | No type description provided<br/>Class with 419 occurences.| 
+| [SudoknMechanicalAssemblyCapability](classes/SudoknMechanicalAssemblyCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknMediaBlastingCapability](classes/SudoknMediaBlastingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknMetalFabricationCapability](classes/SudoknMetalFabricationCapability.md) | No type description provided<br/>Class with 6 occurences.| 
+| [SudoknMetalProductionIndustry](classes/SudoknMetalProductionIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknMetalSpinningCapability](classes/SudoknMetalSpinningCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknMetalsProductsIndustry](classes/SudoknMetalsProductsIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknMetalStampingCapability](classes/SudoknMetalStampingCapability.md) | No type description provided<br/>Class with 2 occurences.| 
+| [SudoknMetalworkingCapability](classes/SudoknMetalworkingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknMIGWeldinCapability](classes/SudoknMIGWeldinCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknMigWeldingCapability](classes/SudoknMigWeldingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknMolybdenumProcessingCapability](classes/SudoknMolybdenumProcessingCapability.md) | No type description provided<br/>Class with 382 occurences.| 
+| [SudoknNADCAPAC7004](classes/SudoknNADCAPAC7004.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332111](classes/SudoknNAICS332111.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332112](classes/SudoknNAICS332112.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332114](classes/SudoknNAICS332114.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332115](classes/SudoknNAICS332115.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332116](classes/SudoknNAICS332116.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332117](classes/SudoknNAICS332117.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332211](classes/SudoknNAICS332211.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332212](classes/SudoknNAICS332212.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332213](classes/SudoknNAICS332213.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332214](classes/SudoknNAICS332214.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332311](classes/SudoknNAICS332311.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332312](classes/SudoknNAICS332312.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332313](classes/SudoknNAICS332313.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332321](classes/SudoknNAICS332321.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332322](classes/SudoknNAICS332322.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332323](classes/SudoknNAICS332323.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332410](classes/SudoknNAICS332410.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332420](classes/SudoknNAICS332420.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332431](classes/SudoknNAICS332431.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332439](classes/SudoknNAICS332439.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332510](classes/SudoknNAICS332510.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332611](classes/SudoknNAICS332611.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332612](classes/SudoknNAICS332612.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332618](classes/SudoknNAICS332618.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332710](classes/SudoknNAICS332710.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332721](classes/SudoknNAICS332721.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332722](classes/SudoknNAICS332722.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332811](classes/SudoknNAICS332811.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332812](classes/SudoknNAICS332812.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332813](classes/SudoknNAICS332813.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332911](classes/SudoknNAICS332911.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332912](classes/SudoknNAICS332912.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332913](classes/SudoknNAICS332913.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332919](classes/SudoknNAICS332919.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332991](classes/SudoknNAICS332991.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332992](classes/SudoknNAICS332992.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332994](classes/SudoknNAICS332994.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332995](classes/SudoknNAICS332995.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332996](classes/SudoknNAICS332996.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332997](classes/SudoknNAICS332997.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332998](classes/SudoknNAICS332998.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNAICS332999](classes/SudoknNAICS332999.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNickelPlatingCapability](classes/SudoknNickelPlatingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknNickelProcessingCapability](classes/SudoknNickelProcessingCapability.md) | No type description provided<br/>Class with 1603 occurences.| 
+| [SudoknNomexProcessingCapability](classes/SudoknNomexProcessingCapability.md) | No type description provided<br/>Class with 58 occurences.| 
+| [SudoknNotchingCapability](classes/SudoknNotchingCapability.md) | No type description provided<br/>Class with 109 occurences.| 
+| [SudoknNylonProcessingCapability](classes/SudoknNylonProcessingCapability.md) | No type description provided<br/>Class with 1177 occurences.| 
+| [SudoknOilAndGasIndustry](classes/SudoknOilAndGasIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknOilGroovingCapability](classes/SudoknOilGroovingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknOxy-FuelCuttingCapability](classes/SudoknOxy-FuelCuttingCapability.md) | No type description provided<br/>Class with 27 occurences.| 
+| [SudoknPackagingCapability](classes/SudoknPackagingCapability.md) | No type description provided<br/>Class with 3 occurences.| 
+| [SudoknPaintingCapability](classes/SudoknPaintingCapability.md) | No type description provided<br/>Class with 3 occurences.| 
+| [SudoknPalladiumProcessingCapability](classes/SudoknPalladiumProcessingCapability.md) | No type description provided<br/>Class with 78 occurences.| 
+| [SudoknPaperandPaperboardProductsIndustry](classes/SudoknPaperandPaperboardProductsIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknPassivationCapability](classes/SudoknPassivationCapability.md) | No type description provided<br/>Class with 280 occurences.| 
+| [SudoknPemInsertionCapability](classes/SudoknPemInsertionCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknPermanentMoldCastingCapability](classes/SudoknPermanentMoldCastingCapability.md) | No type description provided<br/>Class with 10 occurences.| 
+| [SudoknPhosBronzeProcessingCapability](classes/SudoknPhosBronzeProcessingCapability.md) | No type description provided<br/>Class with 12 occurences.| 
+| [SudoknPhosphorBronzeProcessingCapability](classes/SudoknPhosphorBronzeProcessingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknPipingFabricationCapability](classes/SudoknPipingFabricationCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknPlasmaSprayingCapability](classes/SudoknPlasmaSprayingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknPlasterMoldCastingCapability](classes/SudoknPlasterMoldCastingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknPlasticMachiningCapability](classes/SudoknPlasticMachiningCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknPlasticsandRubberProductsIndustry](classes/SudoknPlasticsandRubberProductsIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknPlatingCapability](classes/SudoknPlatingCapability.md) | No type description provided<br/>Class with 2 occurences.| 
+| [SudoknPlatinumProcessingCapability](classes/SudoknPlatinumProcessingCapability.md) | No type description provided<br/>Class with 225 occurences.| 
+| [SudoknPolishingCapability](classes/SudoknPolishingCapability.md) | No type description provided<br/>Class with 456 occurences.| 
+| [SudoknPolycarbonateProcessingCapability](classes/SudoknPolycarbonateProcessingCapability.md) | No type description provided<br/>Class with 693 occurences.| 
+| [SudoknPolycrystallineDiamondMachiningCapability](classes/SudoknPolycrystallineDiamondMachiningCapability.md) | No type description provided<br/>Class with 70 occurences.| 
+| [SudoknPreciousMaterialProcessingCapability](classes/SudoknPreciousMaterialProcessingCapability.md) | No type description provided<br/>Class with 6 occurences.| 
+| [SudoknPressBrakingCapability](classes/SudoknPressBrakingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknPressingCapability](classes/SudoknPressingCapability.md) | No type description provided<br/>Class with 6 occurences.| 
+| [SudoknProductDesignCapability](classes/SudoknProductDesignCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknProfessionalServicesIndustry](classes/SudoknProfessionalServicesIndustry.md) | No type description provided<br/>Class with 2 occurences.| 
+| [SudoknPrototypeManufacturingCapability](classes/SudoknPrototypeManufacturingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknPrototypingCapability](classes/SudoknPrototypingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknPulsedElectrochemicalMachiningCapability](classes/SudoknPulsedElectrochemicalMachiningCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknQS9000](classes/SudoknQS9000.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknRamEDMCapability](classes/SudoknRamEDMCapability.md) | No type description provided<br/>Class with 28 occurences.| 
+| [SudoknRAMEdmCapability](classes/SudoknRAMEdmCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknRapidPrototypingCapability](classes/SudoknRapidPrototypingCapability.md) | No type description provided<br/>Class with 256 occurences.| 
+| [SudoknResistanceWeldingCapability](classes/SudoknResistanceWeldingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknRetailTradeIndustry](classes/SudoknRetailTradeIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknRivettingCapability](classes/SudoknRivettingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknRoboticWeldingCapability](classes/SudoknRoboticWeldingCapability.md) | No type description provided<br/>Class with 2 occurences.| 
+| [SudoknSandCastingCapability](classes/SudoknSandCastingCapability.md) | No type description provided<br/>Class with 4 occurences.| 
+| [SudoknSanitaryWeldingCapability](classes/SudoknSanitaryWeldingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknScreenPrintingCapability](classes/SudoknScreenPrintingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknSewingCapability](classes/SudoknSewingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknShearingCapability](classes/SudoknShearingCapability.md) | No type description provided<br/>Class with 13 occurences.| 
+| [SudoknSheetMetalFabricationCapability](classes/SudoknSheetMetalFabricationCapability.md) | No type description provided<br/>Class with 5 occurences.| 
+| [SudoknSheetMetalFormingCapability](classes/SudoknSheetMetalFormingCapability.md) | No type description provided<br/>Class with 2 occurences.| 
+| [SudoknShellMoldCastingCapability](classes/SudoknShellMoldCastingCapability.md) | No type description provided<br/>Class with 2 occurences.| 
+| [SudoknShrinkFittingCapability](classes/SudoknShrinkFittingCapability.md) | No type description provided<br/>Class with 9 occurences.| 
+| [SudoknSilkScreeningCapability](classes/SudoknSilkScreeningCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknSilverProcessingCapability](classes/SudoknSilverProcessingCapability.md) | No type description provided<br/>Class with 1251 occurences.| 
+| [SudoknSinkerEdmCapability](classes/SudoknSinkerEdmCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknSinteringCapability](classes/SudoknSinteringCapability.md) | No type description provided<br/>Class with 56 occurences.| 
+| [SudoknSmeltingCapability](classes/SudoknSmeltingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknSpecialMaterialsProcessingCapability](classes/SudoknSpecialMaterialsProcessingCapability.md) | No type description provided<br/>Class with 71 occurences.| 
+| [SudoknSportsandLeisureIndustry](classes/SudoknSportsandLeisureIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknSteelAlloyProcessingCapability](classes/SudoknSteelAlloyProcessingCapability.md) | No type description provided<br/>Class with 365 occurences.| 
+| [SudoknSteelManufacturingCapability](classes/SudoknSteelManufacturingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknSurfaceFinishingCapability](classes/SudoknSurfaceFinishingCapability.md) | No type description provided<br/>Class with 76 occurences.| 
+| [SudoknSurfaceGrindingCapability](classes/SudoknSurfaceGrindingCapability.md) | No type description provided<br/>Class with 2 occurences.| 
+| [SudoknSwissMachiningCapability](classes/SudoknSwissMachiningCapability.md) | No type description provided<br/>Class with 19 occurences.| 
+| [SudoknSwissTurningCapability](classes/SudoknSwissTurningCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknTantalumProcessingCapability](classes/SudoknTantalumProcessingCapability.md) | No type description provided<br/>Class with 234 occurences.| 
+| [SudoknTeflonProcessingCapability](classes/SudoknTeflonProcessingCapability.md) | No type description provided<br/>Class with 538 occurences.| 
+| [SudoknTextiles](classes/SudoknTextiles.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknThermoformingCapability](classes/SudoknThermoformingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknTI9000Certificate](classes/SudoknTI9000Certificate.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknTinProcessingCapability](classes/SudoknTinProcessingCapability.md) | No type description provided<br/>Class with 417 occurences.| 
+| [SudoknTubeBendingCapability](classes/SudoknTubeBendingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknTubeFormingCapability](classes/SudoknTubeFormingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknTubingCapability](classes/SudoknTubingCapability.md) | No type description provided<br/>Class with 533 occurences.| 
+| [SudoknTungstenProcessingCapability](classes/SudoknTungstenProcessingCapability.md) | No type description provided<br/>Class with 820 occurences.| 
+| [SudoknTurretPunchingCapability](classes/SudoknTurretPunchingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknUSPostalCode](classes/SudoknUSPostalCode.md) | No type description provided<br/>Class with 20424 occurences.| 
+| [SudoknVacuumCastingCapability](classes/SudoknVacuumCastingCapability.md) | No type description provided<br/>Class with 16 occurences.| 
+| [SudoknVacuumFormingCapability](classes/SudoknVacuumFormingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknVacuumPackagingCapability](classes/SudoknVacuumPackagingCapability.md) | No type description provided<br/>Class with 2 occurences.| 
+| [SudoknWarehousingAndStorageIndustry](classes/SudoknWarehousingAndStorageIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknWaspaloyProcessingCapability](classes/SudoknWaspaloyProcessingCapability.md) | No type description provided<br/>Class with 66 occurences.| 
+| [SudoknWaterandSewerUtilitiesIndustry](classes/SudoknWaterandSewerUtilitiesIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknWaterjetCuttimgCapability](classes/SudoknWaterjetCuttimgCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknWaterjetCuttingCapability](classes/SudoknWaterjetCuttingCapability.md) | No type description provided<br/>Class with 373 occurences.| 
+| [SudoknWaterJetCuttingCapability](classes/SudoknWaterJetCuttingCapability.md) | No type description provided<br/>Class with 2 occurences.| 
+| [SudoknWeldingCapability](classes/SudoknWeldingCapability.md) | No type description provided<br/>Class with 2700 occurences.| 
+| [SudoknWireFormingCapability](classes/SudoknWireFormingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknWiringCapability](classes/SudoknWiringCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknWoodProductManufacturingIndustry](classes/SudoknWoodProductManufacturingIndustry.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknWoodworkingCapability](classes/SudoknWoodworkingCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknZincArcSprayCapability](classes/SudoknZincArcSprayCapability.md) | No type description provided<br/>Class with 1 occurences.| 
+| [SudoknZincProcessingCapability](classes/SudoknZincProcessingCapability.md) | No type description provided<br/>Class with 1266 occurences.| 
+| [SudoknZirconProcessingCapability](classes/SudoknZirconProcessingCapability.md) | No type description provided<br/>Class with 240 occurences.| 
+
+
 
 
 
@@ -2493,57 +3364,46 @@ SudoknWholesaleTrade ||--|o Any : "sudokn_hasNAICSCodeValue"
 
 | Slot | Description |
 | --- | --- |
-| [https___spec.industrialontologies.org_ontology_core_meta_AnnotationVocabulary_replacedBy](slots/https___spec.industrialontologies.org_ontology_core_meta_AnnotationVocabulary_replacedBy.md) | TODO -- tell the world what this slot (predicate) describes |
-| [iosc_hasTextValue](slots/iosc_hasTextValue.md) | TODO -- tell the world what this slot (predicate) describes |
-| [rdfs_label](slots/rdfs_label.md) | TODO -- tell the world what this slot (predicate) describes |
-| [skos_altLabel](slots/skos_altLabel.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_attestsTo](slots/sudokn_attestsTo.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasAddressPart](slots/sudokn_hasAddressPart.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasCertificate](slots/sudokn_hasCertificate.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasEmailAddress](slots/sudokn_hasEmailAddress.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasIntegerValue](slots/sudokn_hasIntegerValue.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasLatitudeValue](slots/sudokn_hasLatitudeValue.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasLongitudeValue](slots/sudokn_hasLongitudeValue.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasManagementCapability](slots/sudokn_hasManagementCapability.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasMaterialCapability](slots/sudokn_hasMaterialCapability.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasNAICSClassifier](slots/sudokn_hasNAICSClassifier.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasNAICSCodeValue](slots/sudokn_hasNAICSCodeValue.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasNAICSTextValue](slots/sudokn_hasNAICSTextValue.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasName](slots/sudokn_hasName.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasNumberOfEmployees](slots/sudokn_hasNumberOfEmployees.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasOrganizationYearOfEstablishment](slots/sudokn_hasOrganizationYearOfEstablishment.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasOwnershipStatusClassifier](slots/sudokn_hasOwnershipStatusClassifier.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasPostalAddress](slots/sudokn_hasPostalAddress.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasPrimaryNAICSClassifier](slots/sudokn_hasPrimaryNAICSClassifier.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasPrimaryNIACSClassifier](slots/sudokn_hasPrimaryNIACSClassifier.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasProcessCapability](slots/sudokn_hasProcessCapability.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasSecondaryNAICSClassifier](slots/sudokn_hasSecondaryNAICSClassifier.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasSecondaryNIACSClassifier](slots/sudokn_hasSecondaryNIACSClassifier.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasSpatialCoordinates](slots/sudokn_hasSpatialCoordinates.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasSpecialBusinessStatusClassifier](slots/sudokn_hasSpecialBusinessStatusClassifier.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasWebAddress](slots/sudokn_hasWebAddress.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_hasZIPcode](slots/sudokn_hasZIPcode.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_locatedInCity](slots/sudokn_locatedInCity.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_locatedInState](slots/sudokn_locatedInState.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_manufactures](slots/sudokn_manufactures.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_OrganizationLocatedIn](slots/sudokn_OrganizationLocatedIn.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_organizationLocatedIn](slots/sudokn_organizationLocatedIn.md) | TODO -- tell the world what this slot (predicate) describes |
-| [sudokn_suppliesToIndustry](slots/sudokn_suppliesToIndustry.md) | TODO -- tell the world what this slot (predicate) describes |
+| [https___spec.industrialontologies.org_ontology_core_meta_AnnotationVocabulary_replacedBy](slots/https___spec.industrialontologies.org_ontology_core_meta_AnnotationVocabulary_replacedBy.md) | No slot description provided<br/>|
+| [iosc_hasTextValue](slots/iosc_hasTextValue.md) | No slot description provided<br/>19102 occurrences with subject type sudokn_PostalAddress and object type string.|
+| [rdfs_label](slots/rdfs_label.md) | No slot description provided<br/>2994 occurrences with subject type sudokn_City and object type string.<br/>1 occurrences with subject type sudokn_Industry and object type string.<br/>1754 occurrences with subject type sudokn_BronzeProcessingCapability and object type string.<br/>2866 occurrences with subject type sudokn_GlassProcessingCapability and object type string.<br/>472 occurrences with subject type sudokn_GraphiteProcessingCapability and object type string.<br/>5903 occurrences with subject type sudokn_IronProcessingCapability and object type string.<br/>1830 occurrences with subject type sudokn_RubberProcessingCapability and object type string.<br/>4795 occurrences with subject type sudokn_StainlessSteelProcessingCapability and object type string.<br/>7200 occurrences with subject type sudokn_SteelProcessingCapability and object type string.<br/>1065 occurrences with subject type sudokn_FoamProcessingCapability and object type string.<br/>3466 occurrences with subject type sudokn_ISO9001Certificate and object type string.<br/>4159 occurrences with subject type sudokn_PlasticProcessingCapability and object type string.<br/>1427 occurrences with subject type sudokn_CNCMachiningCapability and object type string.<br/>2784 occurrences with subject type sudokn_CopperProcessingCapability and object type string.<br/>2518 occurrences with subject type sudokn_FabricatingCapability and object type string.<br/>1614 occurrences with subject type sudokn_FinishingCapability and object type string.<br/>1802 occurrences with subject type sudokn_FormingCapability and object type string.<br/>3508 occurrences with subject type sudokn_MachiningCapability and object type string.<br/>6560 occurrences with subject type sudokn_MetalProcessingCapability and object type string.<br/>2918 occurrences with subject type sudokn_WoodProcessingCapability and object type string.<br/>2931 occurrences with subject type sudokn_AssemblyCapability and object type string.<br/>1449 occurrences with subject type sudokn_DrawingCapability and object type string.<br/>1114 occurrences with subject type sudokn_EDMCapability and object type string.<br/>330 occurrences with subject type sudokn_IATF16949Certificate and object type string.<br/>581 occurrences with subject type sudokn_LaserCuttingCapability and object type string.<br/>1216 occurrences with subject type sudokn_StampingCapability and object type string.<br/>2700 occurrences with subject type sudokn_WeldingCapability and object type string.<br/>644 occurrences with subject type sudokn_WireEDMCapability and object type string.<br/>129 occurrences with subject type sudokn_State and object type string.<br/>5646 occurrences with subject type sudokn_AluminumProcessingCapability and object type string.<br/>2484 occurrences with subject type sudokn_LeadProcessingCapability and object type string.<br/>1039 occurrences with subject type sudokn_UrethaneProcessingCapability and object type string.<br/>1219 occurrences with subject type sudokn_AS9100Certificate and object type string.<br/>1051 occurrences with subject type sudokn_CeramicProcessingCapability and object type string.<br/>289 occurrences with subject type sudokn_DelrinProcessingCapability and object type string.<br/>1177 occurrences with subject type sudokn_NylonProcessingCapability and object type string.<br/>693 occurrences with subject type sudokn_PolycarbonateProcessingCapability and object type string.<br/>538 occurrences with subject type sudokn_TeflonProcessingCapability and object type string.<br/>1266 occurrences with subject type sudokn_ZincProcessingCapability and object type string.<br/>825 occurrences with subject type sudokn_AlloySteelProcessingCapability and object type string.<br/>945 occurrences with subject type sudokn_BendingCapability and object type string.<br/>857 occurrences with subject type sudokn_BoringCapability and object type string.<br/>1195 occurrences with subject type sudokn_CastingCapability and object type string.<br/>197 occurrences with subject type sudokn_ElectricalDischargeMachiningCapability and object type string.<br/>2311 occurrences with subject type sudokn_MillingCapability and object type string.<br/>1765 occurrences with subject type sudokn_PackingCapability and object type string.<br/>690 occurrences with subject type sudokn_SiliconeProcessingCapability and object type string.<br/>365 occurrences with subject type sudokn_SteelAlloyProcessingCapability and object type string.<br/>533 occurrences with subject type sudokn_TubingCapability and object type string.<br/>373 occurrences with subject type sudokn_WaterjetCuttingCapability and object type string.<br/>659 occurrences with subject type sudokn_AnodizingCapability and object type string.<br/>1105 occurrences with subject type sudokn_CNCMillingCapability and object type string.<br/>1196 occurrences with subject type sudokn_CompositeProcessingCapability and object type string.<br/>1361 occurrences with subject type sudokn_DrillingCapability and object type string.<br/>1339 occurrences with subject type sudokn_ElectroPlatingCapability and object type string.<br/>487 occurrences with subject type sudokn_EtchingCapability and object type string.<br/>1654 occurrences with subject type sudokn_GrindingCapability and object type string.<br/>225 occurrences with subject type sudokn_PlatinumProcessingCapability and object type string.<br/>2077 occurrences with subject type sudokn_TurningCapability and object type string.<br/>209 occurrences with subject type sudokn_AdditiveManufacturingCapability and object type string.<br/>337 occurrences with subject type sudokn_AddtiveManufacturingCapability and object type string.<br/>1344 occurrences with subject type sudokn_ChemicalsProcessingCapability and object type string.<br/>303 occurrences with subject type sudokn_CobaltProcessingCapability and object type string.<br/>220 occurrences with subject type sudokn_DieCastingCapability and object type string.<br/>602 occurrences with subject type sudokn_ExtrudingCapability and object type string.<br/>326 occurrences with subject type sudokn_ISO13485Certificate and object type string.<br/>83 occurrences with subject type sudokn_InvestmentCastingCapability and object type string.<br/>1603 occurrences with subject type sudokn_NickelProcessingCapability and object type string.<br/>278 occurrences with subject type sudokn_ReamingCapability and object type string.<br/>504 occurrences with subject type sudokn_ShapingCapability and object type string.<br/>28 occurrences with subject type sudokn_SheetMetalProcessingCapability and object type string.<br/>56 occurrences with subject type sudokn_SinteringCapability and object type string.<br/>16 occurrences with subject type sudokn_VacuumCastingCapability and object type string.<br/>906 occurrences with subject type sudokn_InconelProcessingCapability and object type string.<br/>256 occurrences with subject type sudokn_RapidPrototypingCapability and object type string.<br/>1349 occurrences with subject type sudokn_TitaniumProcessingCapability and object type string.<br/>820 occurrences with subject type sudokn_TungstenProcessingCapability and object type string.<br/>362 occurrences with subject type sudokn_AcetalProcessingCapability and object type string.<br/>360 occurrences with subject type sudokn_BerylliumProcessingCapability and object type string.<br/>228 occurrences with subject type sudokn_BlackOxideCoatingCapability and object type string.<br/>2596 occurrences with subject type sudokn_BrassProcessingCapability and object type string.<br/>17 occurrences with subject type sudokn_CentrifugalCastingCapability and object type string.<br/>69 occurrences with subject type sudokn_EmbossingCapability and object type string.<br/>72 occurrences with subject type sudokn_GalvanizingCapability and object type string.<br/>461 occurrences with subject type sudokn_LexanProcessingCapability and object type string.<br/>382 occurrences with subject type sudokn_MolybdenumProcessingCapability and object type string.<br/>10 occurrences with subject type sudokn_PermanentMoldCastingCapability and object type string.<br/>1744 occurrences with subject type sudokn_CoatingCapability and object type string.<br/>679 occurrences with subject type sudokn_PowderCoatingCapability and object type string.<br/>550 occurrences with subject type sudokn_SurfacePreparationCapability and object type string.<br/>1251 occurrences with subject type sudokn_SilverProcessingCapability and object type string.<br/>437 occurrences with subject type sudokn_VerticalMillingCapability and object type string.<br/>923 occurrences with subject type sudokn_HeatTreatingCapability and object type string.<br/>786 occurrences with subject type sudokn_CarbideProcessingCapability and object type string.<br/>127 occurrences with subject type sudokn_ITARCertificate and object type string.<br/>1302 occurrences with subject type sudokn_GoldProcessingCapability and object type string.<br/>609 occurrences with subject type sudokn_ForgingCapability and object type string.<br/>644 occurrences with subject type sudokn_MoldingCapability and object type string.<br/>287 occurrences with subject type sudokn_LiveToolingCapability and object type string.<br/>109 occurrences with subject type sudokn_NotchingCapability and object type string.<br/>605 occurrences with subject type sudokn_RollingCapability and object type string.<br/>417 occurrences with subject type sudokn_TinProcessingCapability and object type string.<br/>81 occurrences with subject type sudokn_LaserEtchingCapability and object type string.<br/>121 occurrences with subject type sudokn_FabricationCapability and object type string.<br/>235 occurrences with subject type sudokn_PlasmaCuttingCapability and object type string.<br/>340 occurrences with subject type sudokn_SandBlastingCapability and object type string.<br/>551 occurrences with subject type sudokn_ChromiumProcessingCapability and object type string.<br/>460 occurrences with subject type sudokn_HoningCapability and object type string.<br/>219 occurrences with subject type sudokn_InvarProcessingCapability and object type string.<br/>197 occurrences with subject type sudokn_KovarProcessingCapability and object type string.<br/>419 occurrences with subject type sudokn_MagnesiumProcessingCapability and object type string.<br/>148 occurrences with subject type sudokn_SinkerEDMCapability and object type string.<br/>234 occurrences with subject type sudokn_TantalumProcessingCapability and object type string.<br/>860 occurrences with subject type sudokn_TappingCapability and object type string.<br/>66 occurrences with subject type sudokn_WaspaloyProcessingCapability and object type string.<br/>456 occurrences with subject type sudokn_PolishingCapability and object type string.<br/>64 occurrences with subject type sudokn_KnurlingCapability and object type string.<br/>9 occurrences with subject type sudokn_AbrasiveCleaningCapability and object type string.<br/>194 occurrences with subject type sudokn_ChemicalProcessingCapability and object type string.<br/>437 occurrences with subject type sudokn_JoiningCapability and object type string.<br/>467 occurrences with subject type sudokn_NADCAPCertificate and object type string.<br/>280 occurrences with subject type sudokn_PassivationCapability and object type string.<br/>76 occurrences with subject type sudokn_SurfaceFinishingCapability and object type string.<br/>321 occurrences with subject type sudokn_ISO14001Certificate and object type string.<br/>804 occurrences with subject type sudokn_ASMECertificate and object type string.<br/>181 occurrences with subject type sudokn_HorizontalMillingCapability and object type string.<br/>70 occurrences with subject type sudokn_PolycrystallineDiamondMachiningCapability and object type string.<br/>321 occurrences with subject type sudokn_HastelloyProcessingCapability and object type string.<br/>317 occurrences with subject type sudokn_ExoticMaterialProcessingCapability and object type string.<br/>78 occurrences with subject type sudokn_PalladiumProcessingCapability and object type string.<br/>31 occurrences with subject type sudokn_ISO9000 and object type string.<br/>147 occurrences with subject type sudokn_BrazingCapability and object type string.<br/>28 occurrences with subject type sudokn_RamEDMCapability and object type string.<br/>80 occurrences with subject type sudokn_ZincAlloyProcessingCapability and object type string.<br/>269 occurrences with subject type sudokn_HardeningCapability and object type string.<br/>81 occurrences with subject type sudokn_DeepHoleDrillingCapability and object type string.<br/>99 occurrences with subject type sudokn_AnnealingCapability and object type string.<br/>12 occurrences with subject type sudokn_ISO14000Certificate and object type string.<br/>271 occurrences with subject type sudokn_SolderingCapability and object type string.<br/>240 occurrences with subject type sudokn_ZirconProcessingCapability and object type string.<br/>71 occurrences with subject type sudokn_SpecialMaterialsProcessingCapability and object type string.<br/>86 occurrences with subject type sudokn_DeburringCapability and object type string.<br/>81 occurrences with subject type sudokn_CarburizingCapability and object type string.<br/>8 occurrences with subject type sudokn_CreepFeedGrindingCapability and object type string.<br/>120 occurrences with subject type sudokn_LowAlloySteelProcessingCapability and object type string.<br/>139 occurrences with subject type sudokn_ChromateConversionCoatingCapability and object type string.<br/>10 occurrences with subject type sudokn_PhysicalVaporDepositionCapability and object type string.<br/>252 occurrences with subject type sudokn_ColdRolledSteelProcessingCapability and object type string.<br/>214 occurrences with subject type sudokn_ElectrolessNickelPlatingCapability and object type string.<br/>45 occurrences with subject type sudokn_NitridingCapability and object type string.<br/>5 occurrences with subject type sudokn_FDACertificate and object type string.<br/>58 occurrences with subject type sudokn_NomexProcessingCapability and object type string.<br/>38 occurrences with subject type sudokn_SpinningCapability and object type string.<br/>61 occurrences with subject type sudokn_ElectropolishingCapability and object type string.<br/>67 occurrences with subject type sudokn_ISOCertificate and object type string.<br/>23 occurrences with subject type sudokn_WireHarnessAssemblyCapability and object type string.<br/>13 occurrences with subject type sudokn_VaporizedMetalCoatingCapability and object type string.<br/>48 occurrences with subject type sudokn_AWSWelderCertificate and object type string.<br/>5 occurrences with subject type sudokn_AS9000Certificate and object type string.<br/>28 occurrences with subject type sudokn_DifficultToMachineMaterialsProcessingCapability and object type string.<br/>44836 occurrences with subject type io_MaterialProduct and object type string.<br/>41 occurrences with subject type sudokn_QS9000Certificate and object type string.<br/>27 occurrences with subject type sudokn_Oxy-FuelCuttingCapability and object type string.<br/>1 occurrences with subject type sudokn_LaserProcessingCapability and object type string.<br/>32 occurrences with subject type sudokn_KaptonProcessingCapability and object type string.<br/>5 occurrences with subject type sudokn_HighGradeAluminumProcessingCapability and object type string.<br/>6 occurrences with subject type sudokn_PreciousMaterialProcessingCapability and object type string.<br/>17 occurrences with subject type sudokn_PlaningCapability and object type string.<br/>1 occurrences with subject type sudokn_PlasmaSprayingCapability and object type string.<br/>19 occurrences with subject type sudokn_CuttingCapability and object type string.<br/>12 occurrences with subject type sudokn_ExtremelyHardMaterialProcessingCapability and object type string.<br/>6 occurrences with subject type sudokn_FlameSprayingCapability and object type string.<br/>16 occurrences with subject type sudokn_CNCTurningCapability and object type string.<br/>6 occurrences with subject type sudokn_ElectronBeamWeldingCapability and object type string.<br/>82 occurrences with subject type sudokn_ISO9001 and object type string.<br/>1 occurrences with subject type sudokn_ScreenPrintingCapability and object type string.<br/>1 occurrences with subject type sudokn_WetPaintingCapability and object type string.<br/>20 occurrences with subject type sudokn_AS9100 and object type string.<br/>8 occurrences with subject type sudokn_ITARCompliant and object type string.<br/>1 occurrences with subject type sudokn_AerospaceIndustry and object type string.<br/>2 occurrences with subject type sudokn_AgricultureIndustry and object type string.<br/>28 occurrences with subject type sudokn_EngineeringDesignCapability and object type string.<br/>1 occurrences with subject type sudokn_ElectolessNickelPlatingCapability and object type string.<br/>1 occurrences with subject type sudokn_NickelPlatingCapability and object type string.<br/>2 occurrences with subject type sudokn_PlatingCapability and object type string.<br/>6 occurrences with subject type sudokn_DieMakingCapability and object type string.<br/>8 occurrences with subject type sudokn_MoldMakingCapability and object type string.<br/>2 occurrences with subject type sudokn_RivetingCapability and object type string.<br/>6 occurrences with subject type sudokn_ToolMakingCapability and object type string.<br/>1 occurrences with subject type sudokn_PLCProgrammingCapability and object type string.<br/>1 occurrences with subject type sudokn_ContinuousCastingCapability and object type string.<br/>7 occurrences with subject type sudokn_PunchingCapability and object type string.<br/>1 occurrences with subject type sudokn_SmeltingCapability and object type string.<br/>10 occurrences with subject type sudokn_ASME and object type string.<br/>1 occurrences with subject type sudokn_DeepFreezingCapability and object type string.<br/>1 occurrences with subject type sudokn_VacuumHardeningCapability and object type string.<br/>7 occurrences with subject type sudokn_ISO14001 and object type string.<br/>13 occurrences with subject type sudokn_ShearingCapability and object type string.<br/>2 occurrences with subject type sudokn_AutomotiveIndustry and object type string.<br/>1 occurrences with subject type sudokn_PrototypingCapability and object type string.<br/>12 occurrences with subject type sudokn_WoodWorkingCapability and object type string.<br/>15 occurrences with subject type sudokn_NaturalFiberProcessingCapability and object type string.<br/>43 occurrences with subject type sudokn_CarbonitridingCapability and object type string.<br/>9 occurrences with subject type sudokn_ShrinkFittingCapability and object type string.<br/>3 occurrences with subject type sudokn_MechanicalJoiningCapability and object type string.<br/>1 occurrences with subject type sudokn_OilGroovingCapability and object type string.<br/>1 occurrences with subject type sudokn_PressBrakingCapability and object type string.<br/>2 occurrences with subject type sudokn_RoboticWeldingCapability and object type string.<br/>2 occurrences with subject type sudokn_GearCuttingCapability and object type string.<br/>6 occurrences with subject type sudokn_MetalFabricationCapability and object type string.<br/>2 occurrences with subject type sudokn_BusinessEquipmentIndustry and object type string.<br/>12 occurrences with subject type sudokn_PhosBronzeProcessingCapability and object type string.<br/>13 occurrences with subject type sudokn_CarbonGraphiteProcessingCapability and object type string.<br/>1 occurrences with subject type sudokn_CNCmillingCapability and object type string.<br/>5 occurrences with subject type sudokn_SheetMetalFabricationCapability and object type string.<br/>2 occurrences with subject type sudokn_HAACPCertificate and object type string.<br/>9 occurrences with subject type sudokn_AS9102Certificate and object type string.<br/>2 occurrences with subject type sudokn_ManMadeFiberProcessingCapability and object type string.<br/>1 occurrences with subject type sudokn_PrintingCapability and object type string.<br/>1 occurrences with subject type sudokn_LatheWorkCapability and object type string.<br/>1 occurrences with subject type sudokn_MechanicalAssemblyCapability and object type string.<br/>1 occurrences with subject type sudokn_BrassBlackeningCapability and object type string.<br/>1 occurrences with subject type sudokn_MetalSpinningCapability and object type string.<br/>1 occurrences with subject type sudokn_KnittingCapability and object type string.<br/>2 occurrences with subject type sudokn_CommunicationIndustry and object type string.<br/>1 occurrences with subject type sudokn_CommunicationandElectronicPowerUtilitiesIndustry and object type string.<br/>1 occurrences with subject type sudokn_2-AxisCNCTurningCapability and object type string.<br/>3 occurrences with subject type sudokn_TIGWeldingCapability and object type string.<br/>1 occurrences with subject type sudokn_ComputersandElectronicProductsIndustry and object type string.<br/>2 occurrences with subject type sudokn_ConstructionIndustry and object type string.<br/>1 occurrences with subject type sudokn_ConsumerGoodsIndustry and object type string.<br/>1 occurrences with subject type sudokn_BritishRetailConsortiumAccreditation and object type string.<br/>1 occurrences with subject type sudokn_CNCPlasmaCuttingCapability and object type string.<br/>3 occurrences with subject type sudokn_BABACertificate and object type string.<br/>6 occurrences with subject type sudokn_PressingCapability and object type string.<br/>1 occurrences with subject type sudokn_VacuumFormingCapability and object type string.<br/>19 occurrences with subject type sudokn_SwissMachiningCapability and object type string.<br/>1 occurrences with subject type sudokn_ThermoformingCapability and object type string.<br/>1 occurrences with subject type sudokn_ISO13485 and object type string.<br/>2 occurrences with subject type sudokn_ShellMoldCastingCapability and object type string.<br/>1 occurrences with subject type sudokn_EducationalInstitutionsIndustry and object type string.<br/>1 occurrences with subject type sudokn_ElectricVehiclesIndustry and object type string.<br/>2 occurrences with subject type sudokn_InstallationCapability and object type string.<br/>6 occurrences with subject type sudokn_IS-TS16949 and object type string.<br/>4 occurrences with subject type sudokn_ISTS16949Certificate and object type string.<br/>2 occurrences with subject type sudokn_KittingCapability and object type string.<br/>1 occurrences with subject type sudokn_CNCPressBrakeCapability and object type string.<br/>2 occurrences with subject type sudokn_FoodIndustry and object type string.<br/>1 occurrences with subject type sudokn_SteelManufacturingCapability and object type string.<br/>1 occurrences with subject type sudokn_TurretPunchingCapability and object type string.<br/>2 occurrences with subject type sudokn_FurnitureIndustry and object type string.<br/>4 occurrences with subject type sudokn_SandCastingCapability and object type string.<br/>1 occurrences with subject type sudokn_QS9000 and object type string.<br/>1 occurrences with subject type sudokn_CenterlessGrindingCapability and object type string.<br/>2 occurrences with subject type sudokn_GovernmentIndustry and object type string.<br/>3 occurrences with subject type sudokn_PaintingCapability and object type string.<br/>1 occurrences with subject type sudokn_WiringCapability and object type string.<br/>1 occurrences with subject type sudokn_PlasterMoldCastingCapability and object type string.<br/>1 occurrences with subject type sudokn_FasteningCapability and object type string.<br/>1 occurrences with subject type sudokn_HealthCareServicesIndustry and object type string.<br/>2 occurrences with subject type sudokn_MetalStampingCapability and object type string.<br/>1 occurrences with subject type sudokn_SinkerEdmCapability and object type string.<br/>1 occurrences with subject type sudokn_FillingCapability and object type string.<br/>3 occurrences with subject type sudokn_PackagingCapability and object type string.<br/>1 occurrences with subject type sudokn_CNCCylindricalGrindingCapability and object type string.<br/>1 occurrences with subject type sudokn_EndFormingCapability and object type string.<br/>1 occurrences with subject type sudokn_IndustrialMachineryandEquipmentIndustry and object type string.<br/>2 occurrences with subject type sudokn_FDAGMPCompliant and object type string.<br/>1 occurrences with subject type sudokn_DigitalPrintingCapability and object type string.<br/>1 occurrences with subject type sudokn_SwissTurningCapability and object type string.<br/>1 occurrences with subject type sudokn_PipingFabricationCapability and object type string.<br/>2 occurrences with subject type sudokn_HarperizingCapability and object type string.<br/>1 occurrences with subject type sudokn_BroachingCapability and object type string.<br/>2 occurrences with subject type sudokn_WaterJetCuttingCapability and object type string.<br/>1 occurrences with subject type sudokn_PrototypeManufacturingCapability and object type string.<br/>1 occurrences with subject type sudokn_MIGWeldinCapability and object type string.<br/>3 occurrences with subject type sudokn_SpotWeldingCapability and object type string.<br/>2 occurrences with subject type sudokn_MIGWeldingCapability and object type string.<br/>3 occurrences with subject type sudokn_CADCapability and object type string.<br/>1 occurrences with subject type sudokn_PhosphorBronzeProcessingCapability and object type string.<br/>1 occurrences with subject type sudokn_LEEDCertificate and object type string.<br/>1 occurrences with subject type sudokn_CeramicMoldCastingCapability and object type string.<br/>1 occurrences with subject type sudokn_CNCBendingCapability and object type string.<br/>1 occurrences with subject type sudokn_WaterjetCuttimgCapability and object type string.<br/>1 occurrences with subject type sudokn_LiquidCoatingCapability and object type string.<br/>1 occurrences with subject type sudokn_MetalsProductsIndustry and object type string.<br/>2 occurrences with subject type sudokn_MilitaryIndustry and object type string.<br/>2 occurrences with subject type sudokn_MiningIndustry and object type string.<br/>4 occurrences with subject type sudokn_OwnershipStatusClassifier and object type string.<br/>2 occurrences with subject type sudokn_VacuumPackagingCapability and object type string.<br/>1 occurrences with subject type sudokn_ChemicalCoatingCapability and object type string.<br/>3 occurrences with subject type sudokn_OffshoreWindIndustry and object type string.<br/>1 occurrences with subject type sudokn_CNCCuttingCapability and object type string.<br/>1 occurrences with subject type sudokn_SewingCapability and object type string.<br/>1 occurrences with subject type sudokn_PaperandPaperboardProductsIndustry and object type string.<br/>2 occurrences with subject type sudokn_SheetMetalFormingCapability and object type string.<br/>1 occurrences with subject type sudokn_CNCFormingCapability and object type string.<br/>1 occurrences with subject type sudokn_ProductDesignCapability and object type string.<br/>1 occurrences with subject type sudokn_PlasticsandRubberProductsIndustry and object type string.<br/>1 occurrences with subject type sudokn_RivettingCapability and object type string.<br/>2 occurrences with subject type sudokn_ProfessionalServicesIndustry and object type string.<br/>1 occurrences with subject type sudokn_SilkScreeningCapability and object type string.<br/>2 occurrences with subject type sudokn_RecyclingIndustry and object type string.<br/>1 occurrences with subject type sudokn_CNCWireBendingCapability and object type string.<br/>3 occurrences with subject type sudokn_WireBendingCapability and object type string.<br/>1 occurrences with subject type sudokn_WireFormingCapability and object type string.<br/>1 occurrences with subject type sudokn_RetailTradeIndustry and object type string.<br/>2 occurrences with subject type sudokn_ReverseEngineeringCapability and object type string.<br/>1 occurrences with subject type sudokn_FixtureDesignCapability and object type string.<br/>1 occurrences with subject type sudokn_FixturingCapability and object type string.<br/>1 occurrences with subject type sudokn_PemInsertionCapability and object type string.<br/>1 occurrences with subject type sudokn_TI9000Certificate and object type string.<br/>1 occurrences with subject type sudokn_CNCGrindingCapability and object type string.<br/>1 occurrences with subject type sudokn_ExtrusionCapability and object type string.<br/>1 occurrences with subject type sudokn_KOSHERApproved and object type string.<br/>1 occurrences with subject type sudokn_SanitaryWeldingCapability and object type string.<br/>1 occurrences with subject type sudokn_SportsandLeisureIndustry and object type string.<br/>1 occurrences with subject type sudokn_CNCHorizontalTurningCapability and object type string.<br/>1 occurrences with subject type sudokn_CNCLaserCuttingCapability and object type string.<br/>1 occurrences with subject type sudokn_CNCVerticalMillingCapability and object type string.<br/>3 occurrences with subject type sudokn_ElectroplatingCapability and object type string.<br/>1 occurrences with subject type sudokn_NADCAPAC7004 and object type string.<br/>1 occurrences with subject type sudokn_TubeBendingCapability and object type string.<br/>1 occurrences with subject type sudokn_MediaBlastingCapability and object type string.<br/>1 occurrences with subject type sudokn_MigWeldingCapability and object type string.<br/>1 occurrences with subject type sudokn_ResistanceWeldingCapability and object type string.<br/>2 occurrences with subject type sudokn_TextilesIndustry and object type string.<br/>1 occurrences with subject type sudokn_InductionHeatingCapability and object type string.<br/>1 occurrences with subject type sudokn_PhosphateCoatingCapability and object type string.<br/>2 occurrences with subject type sudokn_TransportationIndustry and object type string.<br/>1 occurrences with subject type sudokn_CerakoteCoatingCapability and object type string.<br/>1 occurrences with subject type sudokn_TubeFormingCapability and object type string.<br/>2 occurrences with subject type sudokn_SurfaceGrindingCapability and object type string.<br/>1 occurrences with subject type sudokn_CylindricalGrindingCapability and object type string.<br/>1 occurrences with subject type sudokn_PulsedElectrochemicalMachiningCapability and object type string.<br/>1 occurrences with subject type sudokn_CNCLatheCapability and object type string.<br/>1 occurrences with subject type sudokn_WaterandSewerUtilitiesIndustry and object type string.<br/>1 occurrences with subject type sudokn_FiberOpticLaserCuttingCapability and object type string.<br/>1 occurrences with subject type sudokn_ZincArcSprayCapability and object type string.<br/>1 occurrences with subject type sudokn_PlasticMachiningCapability and object type string.<br/>1 occurrences with subject type sudokn_MachineBuildingCapability and object type string.<br/>1 occurrences with subject type sudokn_ChemicalCleaningCapability and object type string.<br/>1 occurrences with subject type sudokn_ElectrolessPlatingCapability and object type string.<br/>1 occurrences with subject type sudokn_HotDipGalvanizingCapability and object type string.<br/>1 occurrences with subject type sudokn_LaserWeldingCapability and object type string.<br/>1 occurrences with subject type sudokn_RAMEdmCapability and object type string.<br/>1 occurrences with subject type sudokn_CustomFoamCuttingCapability and object type string.<br/>1 occurrences with subject type sudokn_ApparelIndustry and object type string.<br/>1 occurrences with subject type sudokn_3DPrintingCapability and object type string.<br/>1 occurrences with subject type sudokn_AcrylicFabricationCapability and object type string.<br/>1 occurrences with subject type sudokn_MetalworkingCapability and object type string.<br/>1 occurrences with subject type sudokn_WoodworkingCapability and object type string.<br/>1 occurrences with subject type sudokn_ChemicalAndPetrochemicalIndustry and object type string.<br/>1 occurrences with subject type sudokn_ConsumerGoods and object type string.<br/>1 occurrences with subject type sudokn_EducationIndustry and object type string.<br/>1 occurrences with subject type sudokn_ElectronicAutomotiveInudstry and object type string.<br/>1 occurrences with subject type sudokn_ElectronicProductIndustry and object type string.<br/>1 occurrences with subject type sudokn_GovermentIndustry and object type string.<br/>1 occurrences with subject type sudokn_HealthcareServicesIndustry and object type string.<br/>1 occurrences with subject type sudokn_MachinaryAndEquipmentIndustry and object type string.<br/>1 occurrences with subject type sudokn_MetalProductionIndustry and object type string.<br/>1 occurrences with subject type sudokn_OilAndGasIndustry and object type string.<br/>1 occurrences with subject type sudokn_PaperIndustry and object type string.<br/>1 occurrences with subject type sudokn_PlasticAndRubberIndustry and object type string.<br/>1 occurrences with subject type sudokn_PrintingAndInformationIndustry and object type string.<br/>1 occurrences with subject type sudokn_RetailIndustry and object type string.<br/>1 occurrences with subject type sudokn_SportsAndLeisureIndustry and object type string.<br/>1 occurrences with subject type sudokn_Textiles and object type string.<br/>1 occurrences with subject type sudokn_UtilitiesIndustry and object type string.<br/>1 occurrences with subject type sudokn_WarehousingAndStorageIndustry and object type string.<br/>1 occurrences with subject type sudokn_WoodProductManufacturingIndustry and object type string.<br/>11813 occurrences with subject type io_Manufacturer and object type string.|
+| [skos_altLabel](slots/skos_altLabel.md) | No slot description provided<br/>1 occurrences with subject type sudokn_OwnershipStatusClassifier and object type string.|
+| [sudokn_attestsTo](slots/sudokn_attestsTo.md) | No slot description provided<br/>1 occurrences with subject type sudokn_ISO9000Certificate and object type sudokn_QualityManagementCapability.<br/>1 occurrences with subject type sudokn_AS9100Certificate and object type sudokn_QualityManagementCapability.|
+| [sudokn_hasAddressPart](slots/sudokn_hasAddressPart.md) | No slot description provided<br/>|
+| [sudokn_hasCertificate](slots/sudokn_hasCertificate.md) | No slot description provided<br/>1 occurrences with subject type owl_NamedIndividual and object type sudokn_ISO9000Certificate.<br/>3466 occurrences with subject type io_Manufacturer and object type sudokn_ISO9001Certificate.<br/>330 occurrences with subject type io_Manufacturer and object type sudokn_IATF16949Certificate.<br/>1219 occurrences with subject type io_Manufacturer and object type sudokn_AS9100Certificate.<br/>326 occurrences with subject type io_Manufacturer and object type sudokn_ISO13485Certificate.<br/>127 occurrences with subject type io_Manufacturer and object type sudokn_ITARCertificate.<br/>467 occurrences with subject type io_Manufacturer and object type sudokn_NADCAPCertificate.<br/>321 occurrences with subject type io_Manufacturer and object type sudokn_ISO14001Certificate.<br/>804 occurrences with subject type io_Manufacturer and object type sudokn_ASMECertificate.<br/>31 occurrences with subject type io_Manufacturer and object type sudokn_ISO9000.<br/>12 occurrences with subject type io_Manufacturer and object type sudokn_ISO14000Certificate.<br/>5 occurrences with subject type io_Manufacturer and object type sudokn_FDACertificate.<br/>67 occurrences with subject type io_Manufacturer and object type sudokn_ISOCertificate.<br/>48 occurrences with subject type io_Manufacturer and object type sudokn_AWSWelderCertificate.<br/>5 occurrences with subject type io_Manufacturer and object type sudokn_AS9000Certificate.<br/>41 occurrences with subject type io_Manufacturer and object type sudokn_QS9000Certificate.<br/>82 occurrences with subject type io_Manufacturer and object type sudokn_ISO9001.<br/>20 occurrences with subject type io_Manufacturer and object type sudokn_AS9100.<br/>8 occurrences with subject type io_Manufacturer and object type sudokn_ITARCompliant.<br/>10 occurrences with subject type io_Manufacturer and object type sudokn_ASME.<br/>7 occurrences with subject type io_Manufacturer and object type sudokn_ISO14001.<br/>2 occurrences with subject type io_Manufacturer and object type sudokn_HAACPCertificate.<br/>9 occurrences with subject type io_Manufacturer and object type sudokn_AS9102Certificate.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_BritishRetailConsortiumAccreditation.<br/>3 occurrences with subject type io_Manufacturer and object type sudokn_BABACertificate.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_ISO13485.<br/>6 occurrences with subject type io_Manufacturer and object type sudokn_IS-TS16949.<br/>4 occurrences with subject type io_Manufacturer and object type sudokn_ISTS16949Certificate.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_QS9000.<br/>2 occurrences with subject type io_Manufacturer and object type sudokn_FDAGMPCompliant.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_LEEDCertificate.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_TI9000Certificate.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_KOSHERApproved.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_NADCAPAC7004.|
+| [sudokn_hasEmailAddress](slots/sudokn_hasEmailAddress.md) | No slot description provided<br/>1 occurrences with subject type owl_NamedIndividual and object type sudokn_EmailAddress.|
+| [sudokn_hasIntegerValue](slots/sudokn_hasIntegerValue.md) | No slot description provided<br/>18729 occurrences with subject type sudokn_USPostalCode and object type string.|
+| [sudokn_hasLatitudeValue](slots/sudokn_hasLatitudeValue.md) | No slot description provided<br/>19082 occurrences with subject type sudokn_TwoDimensionalCartesianSpatialCoordinateDatum and object type string.|
+| [sudokn_hasLongitudeValue](slots/sudokn_hasLongitudeValue.md) | No slot description provided<br/>19083 occurrences with subject type sudokn_TwoDimensionalCartesianSpatialCoordinateDatum and object type string.|
+| [sudokn_hasManagementCapability](slots/sudokn_hasManagementCapability.md) | No slot description provided<br/>1 occurrences with subject type owl_NamedIndividual and object type sudokn_QualityManagementCapability.|
+| [sudokn_hasMaterialCapability](slots/sudokn_hasMaterialCapability.md) | No slot description provided<br/>1 occurrences with subject type owl_NamedIndividual and object type sudokn_AluminumProcessingCapability.<br/>1 occurrences with subject type owl_NamedIndividual and object type sudokn_StainlessSteelProcessingCapability.<br/>1754 occurrences with subject type io_Manufacturer and object type sudokn_BronzeProcessingCapability.<br/>2866 occurrences with subject type io_Manufacturer and object type sudokn_GlassProcessingCapability.<br/>472 occurrences with subject type io_Manufacturer and object type sudokn_GraphiteProcessingCapability.<br/>5903 occurrences with subject type io_Manufacturer and object type sudokn_IronProcessingCapability.<br/>1830 occurrences with subject type io_Manufacturer and object type sudokn_RubberProcessingCapability.<br/>4795 occurrences with subject type io_Manufacturer and object type sudokn_StainlessSteelProcessingCapability.<br/>7200 occurrences with subject type io_Manufacturer and object type sudokn_SteelProcessingCapability.<br/>1065 occurrences with subject type io_Manufacturer and object type sudokn_FoamProcessingCapability.<br/>4159 occurrences with subject type io_Manufacturer and object type sudokn_PlasticProcessingCapability.<br/>2784 occurrences with subject type io_Manufacturer and object type sudokn_CopperProcessingCapability.<br/>6560 occurrences with subject type io_Manufacturer and object type sudokn_MetalProcessingCapability.<br/>2918 occurrences with subject type io_Manufacturer and object type sudokn_WoodProcessingCapability.<br/>5646 occurrences with subject type io_Manufacturer and object type sudokn_AluminumProcessingCapability.<br/>2484 occurrences with subject type io_Manufacturer and object type sudokn_LeadProcessingCapability.<br/>1039 occurrences with subject type io_Manufacturer and object type sudokn_UrethaneProcessingCapability.<br/>1051 occurrences with subject type io_Manufacturer and object type sudokn_CeramicProcessingCapability.<br/>289 occurrences with subject type io_Manufacturer and object type sudokn_DelrinProcessingCapability.<br/>1177 occurrences with subject type io_Manufacturer and object type sudokn_NylonProcessingCapability.<br/>693 occurrences with subject type io_Manufacturer and object type sudokn_PolycarbonateProcessingCapability.<br/>538 occurrences with subject type io_Manufacturer and object type sudokn_TeflonProcessingCapability.<br/>1266 occurrences with subject type io_Manufacturer and object type sudokn_ZincProcessingCapability.<br/>825 occurrences with subject type io_Manufacturer and object type sudokn_AlloySteelProcessingCapability.<br/>690 occurrences with subject type io_Manufacturer and object type sudokn_SiliconeProcessingCapability.<br/>365 occurrences with subject type io_Manufacturer and object type sudokn_SteelAlloyProcessingCapability.<br/>1196 occurrences with subject type io_Manufacturer and object type sudokn_CompositeProcessingCapability.<br/>225 occurrences with subject type io_Manufacturer and object type sudokn_PlatinumProcessingCapability.<br/>1344 occurrences with subject type io_Manufacturer and object type sudokn_ChemicalsProcessingCapability.<br/>303 occurrences with subject type io_Manufacturer and object type sudokn_CobaltProcessingCapability.<br/>1603 occurrences with subject type io_Manufacturer and object type sudokn_NickelProcessingCapability.<br/>906 occurrences with subject type io_Manufacturer and object type sudokn_InconelProcessingCapability.<br/>1349 occurrences with subject type io_Manufacturer and object type sudokn_TitaniumProcessingCapability.<br/>820 occurrences with subject type io_Manufacturer and object type sudokn_TungstenProcessingCapability.<br/>362 occurrences with subject type io_Manufacturer and object type sudokn_AcetalProcessingCapability.<br/>360 occurrences with subject type io_Manufacturer and object type sudokn_BerylliumProcessingCapability.<br/>2596 occurrences with subject type io_Manufacturer and object type sudokn_BrassProcessingCapability.<br/>461 occurrences with subject type io_Manufacturer and object type sudokn_LexanProcessingCapability.<br/>382 occurrences with subject type io_Manufacturer and object type sudokn_MolybdenumProcessingCapability.<br/>1251 occurrences with subject type io_Manufacturer and object type sudokn_SilverProcessingCapability.<br/>786 occurrences with subject type io_Manufacturer and object type sudokn_CarbideProcessingCapability.<br/>1302 occurrences with subject type io_Manufacturer and object type sudokn_GoldProcessingCapability.<br/>417 occurrences with subject type io_Manufacturer and object type sudokn_TinProcessingCapability.<br/>551 occurrences with subject type io_Manufacturer and object type sudokn_ChromiumProcessingCapability.<br/>219 occurrences with subject type io_Manufacturer and object type sudokn_InvarProcessingCapability.<br/>197 occurrences with subject type io_Manufacturer and object type sudokn_KovarProcessingCapability.<br/>419 occurrences with subject type io_Manufacturer and object type sudokn_MagnesiumProcessingCapability.<br/>234 occurrences with subject type io_Manufacturer and object type sudokn_TantalumProcessingCapability.<br/>66 occurrences with subject type io_Manufacturer and object type sudokn_WaspaloyProcessingCapability.<br/>321 occurrences with subject type io_Manufacturer and object type sudokn_HastelloyProcessingCapability.<br/>317 occurrences with subject type io_Manufacturer and object type sudokn_ExoticMaterialProcessingCapability.<br/>78 occurrences with subject type io_Manufacturer and object type sudokn_PalladiumProcessingCapability.<br/>80 occurrences with subject type io_Manufacturer and object type sudokn_ZincAlloyProcessingCapability.<br/>240 occurrences with subject type io_Manufacturer and object type sudokn_ZirconProcessingCapability.<br/>71 occurrences with subject type io_Manufacturer and object type sudokn_SpecialMaterialsProcessingCapability.<br/>120 occurrences with subject type io_Manufacturer and object type sudokn_LowAlloySteelProcessingCapability.<br/>252 occurrences with subject type io_Manufacturer and object type sudokn_ColdRolledSteelProcessingCapability.<br/>58 occurrences with subject type io_Manufacturer and object type sudokn_NomexProcessingCapability.<br/>28 occurrences with subject type io_Manufacturer and object type sudokn_DifficultToMachineMaterialsProcessingCapability.<br/>32 occurrences with subject type io_Manufacturer and object type sudokn_KaptonProcessingCapability.<br/>5 occurrences with subject type io_Manufacturer and object type sudokn_HighGradeAluminumProcessingCapability.<br/>6 occurrences with subject type io_Manufacturer and object type sudokn_PreciousMaterialProcessingCapability.<br/>12 occurrences with subject type io_Manufacturer and object type sudokn_ExtremelyHardMaterialProcessingCapability.<br/>15 occurrences with subject type io_Manufacturer and object type sudokn_NaturalFiberProcessingCapability.<br/>12 occurrences with subject type io_Manufacturer and object type sudokn_PhosBronzeProcessingCapability.<br/>13 occurrences with subject type io_Manufacturer and object type sudokn_CarbonGraphiteProcessingCapability.<br/>2 occurrences with subject type io_Manufacturer and object type sudokn_ManMadeFiberProcessingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_PhosphorBronzeProcessingCapability.|
+| [sudokn_hasNAICSClassifier](slots/sudokn_hasNAICSClassifier.md) | No slot description provided<br/>1 occurrences with subject type owl_NamedIndividual and object type sudokn_NAICSClassifier.|
+| [sudokn_hasNAICSCodeValue](slots/sudokn_hasNAICSCodeValue.md) | No slot description provided<br/>22 occurrences with subject type sudokn_NAICSClassifier and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332111 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332112 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332114 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332115 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332116 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332117 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332211 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332212 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332213 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332214 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332311 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332312 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332313 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332321 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332322 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332323 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332410 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332420 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332431 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332439 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332510 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332611 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332612 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332618 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332710 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332721 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332722 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332811 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332812 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332813 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332911 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332912 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332913 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332919 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332991 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332992 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332994 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332995 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332996 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332997 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332998 and object type integer.<br/>1 occurrences with subject type sudokn_NAICS332999 and object type integer.|
+| [sudokn_hasNAICSTextValue](slots/sudokn_hasNAICSTextValue.md) | No slot description provided<br/>23 occurrences with subject type sudokn_NAICSClassifier and object type string.<br/>1 occurrences with subject type sudokn_NAICS332111 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332112 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332114 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332115 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332116 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332117 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332211 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332212 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332213 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332214 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332311 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332312 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332313 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332321 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332322 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332323 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332410 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332420 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332431 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332439 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332510 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332611 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332612 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332618 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332710 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332721 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332722 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332811 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332812 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332813 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332911 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332912 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332913 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332919 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332991 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332992 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332994 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332995 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332996 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332997 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332998 and object type string.<br/>1 occurrences with subject type sudokn_NAICS332999 and object type string.|
+| [sudokn_hasName](slots/sudokn_hasName.md) | No slot description provided<br/>1 occurrences with subject type owl_NamedIndividual and object type sudokn_OrganizationName.|
+| [sudokn_hasNumberOfEmployees](slots/sudokn_hasNumberOfEmployees.md) | No slot description provided<br/>6931 occurrences with subject type io_Manufacturer and object type integer.|
+| [sudokn_hasOrganizationYearOfEstablishment](slots/sudokn_hasOrganizationYearOfEstablishment.md) | No slot description provided<br/>280 occurrences with subject type io_Manufacturer and object type string.|
+| [sudokn_hasOwnershipStatusClassifier](slots/sudokn_hasOwnershipStatusClassifier.md) | No slot description provided<br/>1 occurrences with subject type owl_NamedIndividual and object type sudokn_OwnershipStatusClassifier.<br/>1119 occurrences with subject type io_Manufacturer and object type sudokn_OwnershipStatusClassifier.|
+| [sudokn_hasPostalAddress](slots/sudokn_hasPostalAddress.md) | No slot description provided<br/>6948 occurrences with subject type sudokn_GeospatialLocation and object type sudokn_PostalAddress.<br/>2414 occurrences with subject type sudokn_GeospatialLocation and object type uri.<br/>1 occurrences with subject type owl_NamedIndividual and object type sudokn_UnitedStatesPostalCode.<br/>11366 occurrences with subject type io_Manufacturer and object type sudokn_PostalAddress.|
+| [sudokn_hasPrimaryNAICSClassifier](slots/sudokn_hasPrimaryNAICSClassifier.md) | No slot description provided<br/>150 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332996.<br/>49 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332997.<br/>172 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332812.<br/>202 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332321.<br/>249 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332312.<br/>579 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332322.<br/>338 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332813.<br/>69 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332439.<br/>1745 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332710.<br/>304 occurrences with subject type io_Manufacturer and object type sudokn_NAICSClassifier.<br/>223 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332618.<br/>127 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332323.<br/>121 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332510.<br/>377 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332116.<br/>556 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332999.<br/>18 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332998.<br/>69 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332111.<br/>133 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332311.<br/>143 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332919.<br/>35 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332721.<br/>92 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332811.<br/>25 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332214.<br/>15 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332211.<br/>103 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332212.<br/>102 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332410.<br/>80 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332912.<br/>87 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332420.<br/>13 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332117.<br/>11 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332114.<br/>86 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332911.<br/>114 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332722.<br/>72 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332611.<br/>42 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332994.<br/>6 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332313.<br/>16 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332992.<br/>39 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332991.<br/>16 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332431.<br/>19 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332213.<br/>9 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332913.<br/>3 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332612.<br/>3 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332115.<br/>6 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332112.<br/>6 occurrences with subject type io_Manufacturer and object type sudokn_NAICS332995.|
+| [sudokn_hasPrimaryNIACSClassifier](slots/sudokn_hasPrimaryNIACSClassifier.md) | No slot description provided<br/>|
+| [sudokn_hasProcessCapability](slots/sudokn_hasProcessCapability.md) | No slot description provided<br/>1 occurrences with subject type owl_NamedIndividual and object type sudokn_AssemblyCapibility.<br/>1 occurrences with subject type owl_NamedIndividual and object type sudokn_FinishingCapability.<br/>1 occurrences with subject type owl_NamedIndividual and object type sudokn_MachiningCapability.<br/>1427 occurrences with subject type io_Manufacturer and object type sudokn_CNCMachiningCapability.<br/>2518 occurrences with subject type io_Manufacturer and object type sudokn_FabricatingCapability.<br/>1614 occurrences with subject type io_Manufacturer and object type sudokn_FinishingCapability.<br/>1802 occurrences with subject type io_Manufacturer and object type sudokn_FormingCapability.<br/>3493 occurrences with subject type io_Manufacturer and object type sudokn_MachiningCapability.<br/>2931 occurrences with subject type io_Manufacturer and object type sudokn_AssemblyCapability.<br/>1449 occurrences with subject type io_Manufacturer and object type sudokn_DrawingCapability.<br/>1114 occurrences with subject type io_Manufacturer and object type sudokn_EDMCapability.<br/>581 occurrences with subject type io_Manufacturer and object type sudokn_LaserCuttingCapability.<br/>1216 occurrences with subject type io_Manufacturer and object type sudokn_StampingCapability.<br/>2700 occurrences with subject type io_Manufacturer and object type sudokn_WeldingCapability.<br/>644 occurrences with subject type io_Manufacturer and object type sudokn_WireEDMCapability.<br/>945 occurrences with subject type io_Manufacturer and object type sudokn_BendingCapability.<br/>857 occurrences with subject type io_Manufacturer and object type sudokn_BoringCapability.<br/>1195 occurrences with subject type io_Manufacturer and object type sudokn_CastingCapability.<br/>197 occurrences with subject type io_Manufacturer and object type sudokn_ElectricalDischargeMachiningCapability.<br/>2311 occurrences with subject type io_Manufacturer and object type sudokn_MillingCapability.<br/>1765 occurrences with subject type io_Manufacturer and object type sudokn_PackingCapability.<br/>533 occurrences with subject type io_Manufacturer and object type sudokn_TubingCapability.<br/>373 occurrences with subject type io_Manufacturer and object type sudokn_WaterjetCuttingCapability.<br/>659 occurrences with subject type io_Manufacturer and object type sudokn_AnodizingCapability.<br/>1105 occurrences with subject type io_Manufacturer and object type sudokn_CNCMillingCapability.<br/>1361 occurrences with subject type io_Manufacturer and object type sudokn_DrillingCapability.<br/>1339 occurrences with subject type io_Manufacturer and object type sudokn_ElectroPlatingCapability.<br/>487 occurrences with subject type io_Manufacturer and object type sudokn_EtchingCapability.<br/>1654 occurrences with subject type io_Manufacturer and object type sudokn_GrindingCapability.<br/>2077 occurrences with subject type io_Manufacturer and object type sudokn_TurningCapability.<br/>209 occurrences with subject type io_Manufacturer and object type sudokn_AdditiveManufacturingCapability.<br/>337 occurrences with subject type io_Manufacturer and object type sudokn_AddtiveManufacturingCapability.<br/>220 occurrences with subject type io_Manufacturer and object type sudokn_DieCastingCapability.<br/>602 occurrences with subject type io_Manufacturer and object type sudokn_ExtrudingCapability.<br/>83 occurrences with subject type io_Manufacturer and object type sudokn_InvestmentCastingCapability.<br/>278 occurrences with subject type io_Manufacturer and object type sudokn_ReamingCapability.<br/>504 occurrences with subject type io_Manufacturer and object type sudokn_ShapingCapability.<br/>28 occurrences with subject type io_Manufacturer and object type sudokn_SheetMetalProcessingCapability.<br/>56 occurrences with subject type io_Manufacturer and object type sudokn_SinteringCapability.<br/>16 occurrences with subject type io_Manufacturer and object type sudokn_VacuumCastingCapability.<br/>256 occurrences with subject type io_Manufacturer and object type sudokn_RapidPrototypingCapability.<br/>228 occurrences with subject type io_Manufacturer and object type sudokn_BlackOxideCoatingCapability.<br/>17 occurrences with subject type io_Manufacturer and object type sudokn_CentrifugalCastingCapability.<br/>69 occurrences with subject type io_Manufacturer and object type sudokn_EmbossingCapability.<br/>72 occurrences with subject type io_Manufacturer and object type sudokn_GalvanizingCapability.<br/>10 occurrences with subject type io_Manufacturer and object type sudokn_PermanentMoldCastingCapability.<br/>1744 occurrences with subject type io_Manufacturer and object type sudokn_CoatingCapability.<br/>679 occurrences with subject type io_Manufacturer and object type sudokn_PowderCoatingCapability.<br/>550 occurrences with subject type io_Manufacturer and object type sudokn_SurfacePreparationCapability.<br/>437 occurrences with subject type io_Manufacturer and object type sudokn_VerticalMillingCapability.<br/>923 occurrences with subject type io_Manufacturer and object type sudokn_HeatTreatingCapability.<br/>609 occurrences with subject type io_Manufacturer and object type sudokn_ForgingCapability.<br/>644 occurrences with subject type io_Manufacturer and object type sudokn_MoldingCapability.<br/>287 occurrences with subject type io_Manufacturer and object type sudokn_LiveToolingCapability.<br/>109 occurrences with subject type io_Manufacturer and object type sudokn_NotchingCapability.<br/>605 occurrences with subject type io_Manufacturer and object type sudokn_RollingCapability.<br/>81 occurrences with subject type io_Manufacturer and object type sudokn_LaserEtchingCapability.<br/>121 occurrences with subject type io_Manufacturer and object type sudokn_FabricationCapability.<br/>235 occurrences with subject type io_Manufacturer and object type sudokn_PlasmaCuttingCapability.<br/>340 occurrences with subject type io_Manufacturer and object type sudokn_SandBlastingCapability.<br/>460 occurrences with subject type io_Manufacturer and object type sudokn_HoningCapability.<br/>148 occurrences with subject type io_Manufacturer and object type sudokn_SinkerEDMCapability.<br/>860 occurrences with subject type io_Manufacturer and object type sudokn_TappingCapability.<br/>456 occurrences with subject type io_Manufacturer and object type sudokn_PolishingCapability.<br/>64 occurrences with subject type io_Manufacturer and object type sudokn_KnurlingCapability.<br/>9 occurrences with subject type io_Manufacturer and object type sudokn_AbrasiveCleaningCapability.<br/>194 occurrences with subject type io_Manufacturer and object type sudokn_ChemicalProcessingCapability.<br/>437 occurrences with subject type io_Manufacturer and object type sudokn_JoiningCapability.<br/>280 occurrences with subject type io_Manufacturer and object type sudokn_PassivationCapability.<br/>76 occurrences with subject type io_Manufacturer and object type sudokn_SurfaceFinishingCapability.<br/>181 occurrences with subject type io_Manufacturer and object type sudokn_HorizontalMillingCapability.<br/>70 occurrences with subject type io_Manufacturer and object type sudokn_PolycrystallineDiamondMachiningCapability.<br/>147 occurrences with subject type io_Manufacturer and object type sudokn_BrazingCapability.<br/>28 occurrences with subject type io_Manufacturer and object type sudokn_RamEDMCapability.<br/>269 occurrences with subject type io_Manufacturer and object type sudokn_HardeningCapability.<br/>81 occurrences with subject type io_Manufacturer and object type sudokn_DeepHoleDrillingCapability.<br/>99 occurrences with subject type io_Manufacturer and object type sudokn_AnnealingCapability.<br/>271 occurrences with subject type io_Manufacturer and object type sudokn_SolderingCapability.<br/>86 occurrences with subject type io_Manufacturer and object type sudokn_DeburringCapability.<br/>81 occurrences with subject type io_Manufacturer and object type sudokn_CarburizingCapability.<br/>8 occurrences with subject type io_Manufacturer and object type sudokn_CreepFeedGrindingCapability.<br/>139 occurrences with subject type io_Manufacturer and object type sudokn_ChromateConversionCoatingCapability.<br/>10 occurrences with subject type io_Manufacturer and object type sudokn_PhysicalVaporDepositionCapability.<br/>214 occurrences with subject type io_Manufacturer and object type sudokn_ElectrolessNickelPlatingCapability.<br/>45 occurrences with subject type io_Manufacturer and object type sudokn_NitridingCapability.<br/>38 occurrences with subject type io_Manufacturer and object type sudokn_SpinningCapability.<br/>61 occurrences with subject type io_Manufacturer and object type sudokn_ElectropolishingCapability.<br/>23 occurrences with subject type io_Manufacturer and object type sudokn_WireHarnessAssemblyCapability.<br/>13 occurrences with subject type io_Manufacturer and object type sudokn_VaporizedMetalCoatingCapability.<br/>27 occurrences with subject type io_Manufacturer and object type sudokn_Oxy-FuelCuttingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_LaserProcessingCapability.<br/>17 occurrences with subject type io_Manufacturer and object type sudokn_PlaningCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_PlasmaSprayingCapability.<br/>19 occurrences with subject type io_Manufacturer and object type sudokn_CuttingCapability.<br/>6 occurrences with subject type io_Manufacturer and object type sudokn_FlameSprayingCapability.<br/>16 occurrences with subject type io_Manufacturer and object type sudokn_CNCTurningCapability.<br/>6 occurrences with subject type io_Manufacturer and object type sudokn_ElectronBeamWeldingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_ScreenPrintingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_WetPaintingCapability.<br/>28 occurrences with subject type io_Manufacturer and object type sudokn_EngineeringDesignCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_ElectolessNickelPlatingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_NickelPlatingCapability.<br/>2 occurrences with subject type io_Manufacturer and object type sudokn_PlatingCapability.<br/>6 occurrences with subject type io_Manufacturer and object type sudokn_DieMakingCapability.<br/>8 occurrences with subject type io_Manufacturer and object type sudokn_MoldMakingCapability.<br/>2 occurrences with subject type io_Manufacturer and object type sudokn_RivetingCapability.<br/>6 occurrences with subject type io_Manufacturer and object type sudokn_ToolMakingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_PLCProgrammingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_ContinuousCastingCapability.<br/>7 occurrences with subject type io_Manufacturer and object type sudokn_PunchingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_SmeltingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_DeepFreezingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_VacuumHardeningCapability.<br/>13 occurrences with subject type io_Manufacturer and object type sudokn_ShearingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_PrototypingCapability.<br/>12 occurrences with subject type io_Manufacturer and object type sudokn_WoodWorkingCapability.<br/>43 occurrences with subject type io_Manufacturer and object type sudokn_CarbonitridingCapability.<br/>9 occurrences with subject type io_Manufacturer and object type sudokn_ShrinkFittingCapability.<br/>3 occurrences with subject type io_Manufacturer and object type sudokn_MechanicalJoiningCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_OilGroovingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_PressBrakingCapability.<br/>2 occurrences with subject type io_Manufacturer and object type sudokn_RoboticWeldingCapability.<br/>2 occurrences with subject type io_Manufacturer and object type sudokn_GearCuttingCapability.<br/>6 occurrences with subject type io_Manufacturer and object type sudokn_MetalFabricationCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_CNCmillingCapability.<br/>5 occurrences with subject type io_Manufacturer and object type sudokn_SheetMetalFabricationCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_PrintingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_LatheWorkCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_MechanicalAssemblyCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_BrassBlackeningCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_MetalSpinningCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_KnittingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_2-AxisCNCTurningCapability.<br/>3 occurrences with subject type io_Manufacturer and object type sudokn_TIGWeldingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_CNCPlasmaCuttingCapability.<br/>6 occurrences with subject type io_Manufacturer and object type sudokn_PressingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_VacuumFormingCapability.<br/>19 occurrences with subject type io_Manufacturer and object type sudokn_SwissMachiningCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_ThermoformingCapability.<br/>2 occurrences with subject type io_Manufacturer and object type sudokn_ShellMoldCastingCapability.<br/>2 occurrences with subject type io_Manufacturer and object type sudokn_InstallationCapability.<br/>2 occurrences with subject type io_Manufacturer and object type sudokn_KittingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_CNCPressBrakeCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_SteelManufacturingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_TurretPunchingCapability.<br/>4 occurrences with subject type io_Manufacturer and object type sudokn_SandCastingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_CenterlessGrindingCapability.<br/>3 occurrences with subject type io_Manufacturer and object type sudokn_PaintingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_WiringCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_PlasterMoldCastingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_FasteningCapability.<br/>2 occurrences with subject type io_Manufacturer and object type sudokn_MetalStampingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_SinkerEdmCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_FillingCapability.<br/>3 occurrences with subject type io_Manufacturer and object type sudokn_PackagingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_CNCCylindricalGrindingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_EndFormingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_DigitalPrintingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_SwissTurningCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_PipingFabricationCapability.<br/>2 occurrences with subject type io_Manufacturer and object type sudokn_HarperizingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_BroachingCapability.<br/>2 occurrences with subject type io_Manufacturer and object type sudokn_WaterJetCuttingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_PrototypeManufacturingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_MIGWeldinCapability.<br/>3 occurrences with subject type io_Manufacturer and object type sudokn_SpotWeldingCapability.<br/>2 occurrences with subject type io_Manufacturer and object type sudokn_MIGWeldingCapability.<br/>3 occurrences with subject type io_Manufacturer and object type sudokn_CADCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_CeramicMoldCastingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_CNCBendingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_WaterjetCuttimgCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_LiquidCoatingCapability.<br/>2 occurrences with subject type io_Manufacturer and object type sudokn_VacuumPackagingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_ChemicalCoatingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_CNCCuttingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_SewingCapability.<br/>2 occurrences with subject type io_Manufacturer and object type sudokn_SheetMetalFormingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_CNCFormingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_ProductDesignCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_RivettingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_SilkScreeningCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_CNCWireBendingCapability.<br/>3 occurrences with subject type io_Manufacturer and object type sudokn_WireBendingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_WireFormingCapability.<br/>2 occurrences with subject type io_Manufacturer and object type sudokn_ReverseEngineeringCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_FixtureDesignCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_FixturingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_PemInsertionCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_CNCGrindingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_ExtrusionCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_SanitaryWeldingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_CNCHorizontalTurningCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_CNCLaserCuttingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_CNCVerticalMillingCapability.<br/>3 occurrences with subject type io_Manufacturer and object type sudokn_ElectroplatingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_TubeBendingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_MediaBlastingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_MigWeldingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_ResistanceWeldingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_InductionHeatingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_PhosphateCoatingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_CerakoteCoatingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_TubeFormingCapability.<br/>2 occurrences with subject type io_Manufacturer and object type sudokn_SurfaceGrindingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_CylindricalGrindingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_PulsedElectrochemicalMachiningCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_CNCLatheCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_FiberOpticLaserCuttingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_ZincArcSprayCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_PlasticMachiningCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_MachineBuildingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_ChemicalCleaningCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_ElectrolessPlatingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_HotDipGalvanizingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_LaserWeldingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_RAMEdmCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_CustomFoamCuttingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_3DPrintingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_AcrylicFabricationCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_MetalworkingCapability.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_WoodworkingCapability.|
+| [sudokn_hasSecondaryNAICSClassifier](slots/sudokn_hasSecondaryNAICSClassifier.md) | No slot description provided<br/>112 occurrences with subject type io_Manufacturer and object type sudokn_NAICSClassifier.|
+| [sudokn_hasSecondaryNIACSClassifier](slots/sudokn_hasSecondaryNIACSClassifier.md) | No slot description provided<br/>|
+| [sudokn_hasSpatialCoordinates](slots/sudokn_hasSpatialCoordinates.md) | No slot description provided<br/>20728 occurrences with subject type sudokn_GeospatialLocation and object type sudokn_TwoDimensionalCartesianSpatialCoordinateDatum.|
+| [sudokn_hasSpecialBusinessStatusClassifier](slots/sudokn_hasSpecialBusinessStatusClassifier.md) | No slot description provided<br/>|
+| [sudokn_hasWebAddress](slots/sudokn_hasWebAddress.md) | No slot description provided<br/>1 occurrences with subject type owl_NamedIndividual and object type sudokn_WebAddress.|
+| [sudokn_hasZIPcode](slots/sudokn_hasZIPcode.md) | No slot description provided<br/>20424 occurrences with subject type sudokn_GeospatialLocation and object type sudokn_USPostalCode.|
+| [sudokn_locatedInCity](slots/sudokn_locatedInCity.md) | No slot description provided<br/>19022 occurrences with subject type sudokn_GeospatialLocation and object type sudokn_City.|
+| [sudokn_locatedInState](slots/sudokn_locatedInState.md) | No slot description provided<br/>3734 occurrences with subject type sudokn_City and object type sudokn_State.|
+| [sudokn_manufactures](slots/sudokn_manufactures.md) | No slot description provided<br/>71660 occurrences with subject type io_Manufacturer and object type io_MaterialProduct.|
+| [sudokn_OrganizationLocatedIn](slots/sudokn_OrganizationLocatedIn.md) | No slot description provided<br/>|
+| [sudokn_organizationLocatedIn](slots/sudokn_organizationLocatedIn.md) | No slot description provided<br/>20728 occurrences with subject type io_Manufacturer and object type sudokn_GeospatialLocation.|
+| [sudokn_suppliesToIndustry](slots/sudokn_suppliesToIndustry.md) | No slot description provided<br/>1 occurrences with subject type owl_NamedIndividual and object type sudokn_AerospaceIndustry.<br/>2228 occurrences with subject type io_Manufacturer and object type sudokn_TransportationIndustry.<br/>2916 occurrences with subject type io_Manufacturer and object type sudokn_AutomotiveIndustry.<br/>1001 occurrences with subject type io_Manufacturer and object type sudokn_FurnitureIndustry.<br/>3873 occurrences with subject type io_Manufacturer and object type sudokn_ConstructionIndustry.<br/>2314 occurrences with subject type io_Manufacturer and object type sudokn_FoodIndustry.<br/>2603 occurrences with subject type io_Manufacturer and object type sudokn_GovernmentIndustry.<br/>2774 occurrences with subject type io_Manufacturer and object type sudokn_MilitaryIndustry.<br/>248 occurrences with subject type io_Manufacturer and object type sudokn_UtilitiesIndustry.<br/>1910 occurrences with subject type io_Manufacturer and object type sudokn_MiningIndustry.<br/>372 occurrences with subject type io_Manufacturer and object type sudokn_ConsumerGoods.<br/>527 occurrences with subject type io_Manufacturer and object type sudokn_HealthcareServicesIndustry.<br/>398 occurrences with subject type io_Manufacturer and object type sudokn_ProfessionalServicesIndustry.<br/>342 occurrences with subject type io_Manufacturer and object type sudokn_SportsAndLeisureIndustry.<br/>1208 occurrences with subject type io_Manufacturer and object type sudokn_CommunicationIndustry.<br/>671 occurrences with subject type io_Manufacturer and object type sudokn_RecyclingIndustry.<br/>121 occurrences with subject type io_Manufacturer and object type sudokn_ElectronicProductIndustry.<br/>1293 occurrences with subject type io_Manufacturer and object type sudokn_AgricultureIndustry.<br/>226 occurrences with subject type io_Manufacturer and object type sudokn_TextilesIndustry.<br/>525 occurrences with subject type io_Manufacturer and object type sudokn_ChemicalAndPetrochemicalIndustry.<br/>14 occurrences with subject type io_Manufacturer and object type sudokn_HealthCareServicesIndustry.<br/>90 occurrences with subject type io_Manufacturer and object type sudokn_IndustrialMachineryandEquipmentIndustry.<br/>157 occurrences with subject type io_Manufacturer and object type sudokn_ApparelIndustry.<br/>40 occurrences with subject type io_Manufacturer and object type sudokn_AerospaceIndustry.<br/>63 occurrences with subject type io_Manufacturer and object type sudokn_MachinaryAndEquipmentIndustry.<br/>79 occurrences with subject type io_Manufacturer and object type sudokn_EducationIndustry.<br/>127 occurrences with subject type io_Manufacturer and object type sudokn_ElectronicAutomotiveInudstry.<br/>9 occurrences with subject type io_Manufacturer and object type sudokn_WarehousingAndStorageIndustry.<br/>20 occurrences with subject type io_Manufacturer and object type sudokn_CommunicationandElectronicPowerUtilitiesIndustry.<br/>36 occurrences with subject type io_Manufacturer and object type sudokn_MetalProductionIndustry.<br/>60 occurrences with subject type io_Manufacturer and object type sudokn_MetalsProductsIndustry.<br/>10 occurrences with subject type io_Manufacturer and object type sudokn_ComputersandElectronicProductsIndustry.<br/>4 occurrences with subject type io_Manufacturer and object type sudokn_ElectricVehiclesIndustry.<br/>5 occurrences with subject type io_Manufacturer and object type sudokn_WaterandSewerUtilitiesIndustry.<br/>23 occurrences with subject type io_Manufacturer and object type sudokn_ConsumerGoodsIndustry.<br/>7 occurrences with subject type io_Manufacturer and object type sudokn_PlasticsandRubberProductsIndustry.<br/>24 occurrences with subject type io_Manufacturer and object type sudokn_OffshoreWindIndustry.<br/>10 occurrences with subject type io_Manufacturer and object type sudokn_RetailTradeIndustry.<br/>12 occurrences with subject type io_Manufacturer and object type sudokn_Textiles.<br/>16 occurrences with subject type io_Manufacturer and object type sudokn_SportsandLeisureIndustry.<br/>3 occurrences with subject type io_Manufacturer and object type sudokn_RetailIndustry.<br/>14 occurrences with subject type io_Manufacturer and object type sudokn_PaperIndustry.<br/>3 occurrences with subject type io_Manufacturer and object type sudokn_OilAndGasIndustry.<br/>4 occurrences with subject type io_Manufacturer and object type sudokn_WoodProductManufacturingIndustry.<br/>14 occurrences with subject type io_Manufacturer and object type sudokn_BusinessEquipmentIndustry.<br/>8 occurrences with subject type io_Manufacturer and object type sudokn_PaperandPaperboardProductsIndustry.<br/>3 occurrences with subject type io_Manufacturer and object type sudokn_PlasticAndRubberIndustry.<br/>2 occurrences with subject type io_Manufacturer and object type sudokn_EducationalInstitutionsIndustry.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_PrintingAndInformationIndustry.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_GovermentIndustry.<br/>1 occurrences with subject type io_Manufacturer and object type sudokn_Industry.|
 
 
-## Enumerations
-
-| Enumeration | Description |
-| --- | --- |
 
 
-## Types
-
-| Type | Description |
-| --- | --- |
 
 
-## Subsets
 
-| Subset | Description |
-| --- | --- |

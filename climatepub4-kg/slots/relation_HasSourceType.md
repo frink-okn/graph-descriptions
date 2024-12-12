@@ -3,7 +3,7 @@
 # Slot: relation_HasSourceType
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -89,7 +89,7 @@ URI: [relation:HasSourceType](http://relation.org/HasSourceType)
 <details>
 ```yaml
 name: relation_HasSourceType
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

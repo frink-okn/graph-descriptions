@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (cheminf_000568)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -51,8 +51,8 @@ URI: [cheminf:000568](http://purl.obolibrary.org/obo/CHEMINF_000568)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [dc_source](../slots/dc_source.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [dc_source](../slots/dc_source.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
 
 
 
@@ -113,7 +113,7 @@ URI: [cheminf:000568](http://purl.obolibrary.org/obo/CHEMINF_000568)
 <details>
 ```yaml
 name: cheminf_000568
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -122,6 +122,7 @@ todos:
 notes:
 - Class with 538131 occurences.
 from_schema: biobricks-ice-kg
+rank: 1000
 slots:
 - dc_source
 - rdfs_label
@@ -135,7 +136,7 @@ class_uri: cheminf:000568
 <details>
 ```yaml
 name: cheminf_000568
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -144,10 +145,11 @@ todos:
 notes:
 - Class with 538131 occurences.
 from_schema: biobricks-ice-kg
+rank: 1000
 attributes:
   dc_source:
     name: dc_source
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -174,7 +176,7 @@ attributes:
     range: string
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

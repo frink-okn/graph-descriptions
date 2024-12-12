@@ -3,7 +3,7 @@
 # Slot: sudokn_locatedInState
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sudokn:locatedInState](http://asu.edu/semantics/SUDOKN/locatedInState)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknCity](../classes/SudoknCity.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SudoknCity](../classes/SudoknCity.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sudokn:locatedInState](http://asu.edu/semantics/SUDOKN/locatedInState)
 <details>
 ```yaml
 name: sudokn_locatedInState
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

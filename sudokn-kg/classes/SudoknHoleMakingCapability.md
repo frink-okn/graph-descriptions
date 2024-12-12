@@ -3,7 +3,7 @@
 # Class: TODO -- this class is noted as a superclass of another class in this graph but has not itself been defined. (sudokn_HoleMakingCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -70,7 +70,7 @@ URI: [sudokn:HoleMakingCapability](http://asu.edu/semantics/SUDOKN/HoleMakingCap
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | [SudoknMachiningCapability](../classes/SudoknMachiningCapability.md) |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | [SudoknMachiningCapability](../classes/SudoknMachiningCapability.md) |
 
 
 
@@ -124,7 +124,7 @@ URI: [sudokn:HoleMakingCapability](http://asu.edu/semantics/SUDOKN/HoleMakingCap
 <details>
 ```yaml
 name: sudokn_HoleMakingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- this class is noted as a superclass of another class in this graph
   but has not itself been defined.
 todos:
@@ -134,6 +134,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_MultiPointCuttingCapability
 class_uri: sudokn:HoleMakingCapability
 
@@ -145,7 +146,7 @@ class_uri: sudokn:HoleMakingCapability
 <details>
 ```yaml
 name: sudokn_HoleMakingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- this class is noted as a superclass of another class in this graph
   but has not itself been defined.
 todos:
@@ -155,11 +156,12 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_MultiPointCuttingCapability
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

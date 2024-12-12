@@ -3,7 +3,7 @@
 # Slot: sockg_carbonDioxide_gC_per_ha_per_d
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:carbonDioxide_gC_per_ha_per_d](http://www.semanticweb.org/sockg/onto
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGasSample](../classes/SockgGasSample.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgGasSample](../classes/SockgGasSample.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sockg:carbonDioxide_gC_per_ha_per_d](http://www.semanticweb.org/sockg/onto
 <details>
 ```yaml
 name: sockg_carbonDioxide_gC_per_ha_per_d
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

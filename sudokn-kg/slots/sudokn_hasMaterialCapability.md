@@ -3,7 +3,7 @@
 # Slot: has material capability (sudokn_hasMaterialCapability)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,8 +23,8 @@ URI: [sudokn:hasMaterialCapability](http://asu.edu/semantics/SUDOKN/hasMaterialC
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [IoManufacturer](../classes/IoManufacturer.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No type description provided |  no  |
+| [IoManufacturer](../classes/IoManufacturer.md) | No type description provided |  no  |
 
 
 
@@ -222,7 +222,7 @@ URI: [sudokn:hasMaterialCapability](http://asu.edu/semantics/SUDOKN/hasMaterialC
 <details>
 ```yaml
 name: sudokn_hasMaterialCapability
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 title: has material capability
 todos:
 - TODO -- Todos for this slot go here

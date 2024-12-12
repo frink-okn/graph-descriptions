@@ -3,7 +3,7 @@
 # Slot: relation_HasInstitution
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -24,7 +24,7 @@ URI: [relation:HasInstitution](http://relation.org/HasInstitution)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [HsdoDataset](../classes/HsdoDataset.md) | A body of structured information describing some topic(s) of interest |  no  |
-| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | No type description provided |  no  |
 
 
 
@@ -90,7 +90,7 @@ URI: [relation:HasInstitution](http://relation.org/HasInstitution)
 <details>
 ```yaml
 name: relation_HasInstitution
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

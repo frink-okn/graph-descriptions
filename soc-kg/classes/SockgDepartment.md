@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for what this class (type) describes? (sockg_Department)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -51,8 +51,8 @@ URI: [sockg:Department](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sockg_departmentOf](../slots/sockg_departmentOf.md) | 0..1 <br/> [SockgOrganization](../classes/SockgOrganization.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_departmentName](../slots/sockg_departmentName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sockg_departmentOf](../slots/sockg_departmentOf.md) | 0..1 <br/> [SockgOrganization](../classes/SockgOrganization.md) | No slot description provided | direct |
+| [sockg_departmentName](../slots/sockg_departmentName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -120,7 +120,7 @@ URI: [sockg:Department](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-
 <details>
 ```yaml
 name: sockg_Department
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -131,6 +131,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#51681
 from_schema: soc-kg/main
+rank: 1000
 slots:
 - sockg_departmentOf
 - sockg_departmentName
@@ -144,7 +145,7 @@ class_uri: sockg:Department
 <details>
 ```yaml
 name: sockg_Department
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -155,10 +156,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#51681
 from_schema: soc-kg/main
+rank: 1000
 attributes:
   sockg_departmentOf:
     name: sockg_departmentOf
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -177,7 +179,7 @@ attributes:
     range: sockg_Organization
   sockg_departmentName:
     name: sockg_departmentName
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

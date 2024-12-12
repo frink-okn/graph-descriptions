@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (http___proton.semanticweb.org_protonsys#transitiveOver)
+# Slot: No slot description provided (http___proton.semanticweb.org_protonsys#transitiveOver)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -71,8 +71,8 @@ URI: [http://proton.semanticweb.org/protonsys#transitiveOver](http://proton.sema
 <details>
 ```yaml
 name: http___proton.semanticweb.org_protonsys#transitiveOver
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

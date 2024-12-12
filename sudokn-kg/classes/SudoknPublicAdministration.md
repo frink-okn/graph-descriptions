@@ -3,7 +3,7 @@
 # Class: public administration (sudokn_PublicAdministration)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -60,8 +60,8 @@ URI: [sudokn:PublicAdministration](http://asu.edu/semantics/SUDOKN/PublicAdminis
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sudokn_hasNAICSTextValue](../slots/sudokn_hasNAICSTextValue.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | [SudoknNAICSClassifier](../classes/SudoknNAICSClassifier.md) |
-| [sudokn_hasNAICSCodeValue](../slots/sudokn_hasNAICSCodeValue.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | [SudoknNAICSClassifier](../classes/SudoknNAICSClassifier.md) |
+| [sudokn_hasNAICSTextValue](../slots/sudokn_hasNAICSTextValue.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | [SudoknNAICSClassifier](../classes/SudoknNAICSClassifier.md) |
+| [sudokn_hasNAICSCodeValue](../slots/sudokn_hasNAICSCodeValue.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | [SudoknNAICSClassifier](../classes/SudoknNAICSClassifier.md) |
 
 
 
@@ -115,7 +115,7 @@ URI: [sudokn:PublicAdministration](http://asu.edu/semantics/SUDOKN/PublicAdminis
 <details>
 ```yaml
 name: sudokn_PublicAdministration
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: public administration
 todos:
 - TODO -- Todos for this class go here
@@ -124,6 +124,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_NAICSClassifier
 class_uri: sudokn:PublicAdministration
 
@@ -135,7 +136,7 @@ class_uri: sudokn:PublicAdministration
 <details>
 ```yaml
 name: sudokn_PublicAdministration
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: public administration
 todos:
 - TODO -- Todos for this class go here
@@ -144,11 +145,12 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_NAICSClassifier
 attributes:
   sudokn_hasNAICSTextValue:
     name: sudokn_hasNAICSTextValue
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     title: has NAICS text value
     todos:
     - TODO -- Todos for this slot go here
@@ -328,7 +330,7 @@ attributes:
     - range: string
   sudokn_hasNAICSCodeValue:
     name: sudokn_hasNAICSCodeValue
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     title: has NAICS code value
     todos:
     - TODO -- Todos for this slot go here

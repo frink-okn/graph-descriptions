@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (sosa_isSampleOf)
+# Slot: No slot description provided (sosa_isSampleOf)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -71,8 +71,8 @@ URI: [sosa:isSampleOf](http://www.w3.org/ns/sosa/isSampleOf)
 <details>
 ```yaml
 name: sosa_isSampleOf
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

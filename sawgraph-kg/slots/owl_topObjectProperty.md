@@ -3,7 +3,7 @@
 # Slot: TODO -- this slot is noted as a subproperty of another slot in this graph but has not itself been defined. (owl_topObjectProperty)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -71,7 +71,7 @@ URI: []()
 <details>
 ```yaml
 name: owl_topObjectProperty
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 title: TODO -- this slot is noted as a subproperty of another slot in this graph but
   has not itself been defined.
 todos:

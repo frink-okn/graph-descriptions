@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (http___stko-kwg.geog.ucsb.edu_lod_ontology_sfContains)
+# Slot: No slot description provided (http___stko-kwg.geog.ucsb.edu_lod_ontology_sfContains)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [http://stko-kwg.geog.ucsb.edu/lod/ontology/sfContains](http://stko-kwg.geo
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13](../classes/HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13](../classes/HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13.md) | No type description provided |  no  |
 
 
 
@@ -97,8 +97,8 @@ URI: [http://stko-kwg.geog.ucsb.edu/lod/ontology/sfContains](http://stko-kwg.geo
 <details>
 ```yaml
 name: http___stko-kwg.geog.ucsb.edu_lod_ontology_sfContains
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

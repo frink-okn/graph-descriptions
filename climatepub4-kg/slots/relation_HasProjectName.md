@@ -3,7 +3,7 @@
 # Slot: relation_HasProjectName
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,18 +23,18 @@ URI: [relation:HasProjectName](http://relation.org/HasProjectName)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoModels](../classes/HsdoModels.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoProject](../classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  no  |
-| [HsdoInstrument](../classes/HsdoInstrument.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoLocation](../classes/HsdoLocation.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoModel](../classes/HsdoModel.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoVariable](../classes/HsdoVariable.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoProvider](../classes/HsdoProvider.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoRealm](../classes/HsdoRealm.md) | No type description provided |  no  |
+| [HsdoInstrument](../classes/HsdoInstrument.md) | No type description provided |  no  |
 | [HsdoDataset](../classes/HsdoDataset.md) | A body of structured information describing some topic(s) of interest |  no  |
-| [HsdoRealm](../classes/HsdoRealm.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoExperiment](../classes/HsdoExperiment.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HsdoActivity](../classes/HsdoActivity.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoVariable](../classes/HsdoVariable.md) | No type description provided |  no  |
+| [HsdoProvider](../classes/HsdoProvider.md) | No type description provided |  no  |
+| [HsdoLocation](../classes/HsdoLocation.md) | No type description provided |  no  |
+| [HsdoModels](../classes/HsdoModels.md) | No type description provided |  no  |
+| [HsdoProject](../classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  no  |
+| [HsdoModel](../classes/HsdoModel.md) | No type description provided |  no  |
+| [HsdoActivity](../classes/HsdoActivity.md) | No type description provided |  no  |
+| [HsdoExperiment](../classes/HsdoExperiment.md) | No type description provided |  no  |
+| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | No type description provided |  no  |
 
 
 
@@ -120,7 +120,7 @@ URI: [relation:HasProjectName](http://relation.org/HasProjectName)
 <details>
 ```yaml
 name: relation_HasProjectName
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

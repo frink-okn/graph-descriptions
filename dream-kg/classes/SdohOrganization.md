@@ -51,8 +51,8 @@ URI: [sdoh:Organization](http://schema.org/Organization)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_sameAs](../slots/sdoh_sameAs.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_name](../slots/sdoh_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_sameAs](../slots/sdoh_sameAs.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI) | No slot description provided | direct |
+| [sdoh_name](../slots/sdoh_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
 
 
 
@@ -131,6 +131,7 @@ notes:
 examples:
 - value: dreamkg:service/provider/6272068172382208
 from_schema: dream-kg
+rank: 1000
 slots:
 - sdoh_sameAs
 - sdoh_name
@@ -155,10 +156,11 @@ notes:
 examples:
 - value: dreamkg:service/provider/6272068172382208
 from_schema: dream-kg
+rank: 1000
 attributes:
   sdoh_sameAs:
     name: sdoh_sameAs
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -177,7 +179,7 @@ attributes:
     range: uri
   sdoh_name:
     name: sdoh_name
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

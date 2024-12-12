@@ -3,7 +3,7 @@
 # Slot: scales_hasAgentType
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [scales:hasAgentType](http://schemas.scales-okn.org/rdf/scales#hasAgentType
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesAgent](../classes/ScalesAgent.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [ScalesAgent](../classes/ScalesAgent.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [scales:hasAgentType](http://schemas.scales-okn.org/rdf/scales#hasAgentType
 <details>
 ```yaml
 name: scales_hasAgentType
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

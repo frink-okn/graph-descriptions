@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (ilisgs_WellYield)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -59,8 +59,8 @@ URI: [ilisgs:WellYield](http://sawgraph.spatialai.org/v1/il-isgs#WellYield)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [https___qudt.org_schema_qudt_unit](../slots/https___qudt.org_schema_qudt_unit.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [https___qudt.org_schema_qudt_numericValue](../slots/https___qudt.org_schema_qudt_numericValue.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [https___qudt.org_schema_qudt_unit](../slots/https___qudt.org_schema_qudt_unit.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [https___qudt.org_schema_qudt_numericValue](../slots/https___qudt.org_schema_qudt_numericValue.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot description provided | direct |
 
 
 
@@ -121,7 +121,7 @@ URI: [ilisgs:WellYield](http://sawgraph.spatialai.org/v1/il-isgs#WellYield)
 <details>
 ```yaml
 name: ilisgs_WellYield
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -130,6 +130,7 @@ todos:
 notes:
 - Class with 265368 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: http___sawgraph.spatialai.org_v1_stad#SingleData
 slots:
 - https___qudt.org_schema_qudt_unit
@@ -144,7 +145,7 @@ class_uri: ilisgs:WellYield
 <details>
 ```yaml
 name: ilisgs_WellYield
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -153,12 +154,13 @@ todos:
 notes:
 - Class with 265368 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: http___sawgraph.spatialai.org_v1_stad#SingleData
 attributes:
   https___qudt.org_schema_qudt_unit:
     name: https___qudt.org_schema_qudt_unit
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -187,8 +189,8 @@ attributes:
     range: uri
   https___qudt.org_schema_qudt_numericValue:
     name: https___qudt.org_schema_qudt_numericValue
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

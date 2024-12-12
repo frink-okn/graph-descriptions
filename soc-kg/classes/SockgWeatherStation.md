@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for what this class (type) describes? (sockg_WeatherStation)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -78,11 +78,11 @@ URI: [sockg:WeatherStation](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sockg_weatherRecordedBy](../slots/sockg_weatherRecordedBy.md) | 0..1 <br/> [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_recordsWeatherForField](../slots/sockg_recordsWeatherForField.md) | 0..1 <br/> [SockgField](../classes/SockgField.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_recordsWeatherForSite](../slots/sockg_recordsWeatherForSite.md) | 0..1 <br/> [SockgSite](../classes/SockgSite.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_elevation_m](../slots/sockg_elevation_m.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_weatherStationId](../slots/sockg_weatherStationId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sockg_weatherRecordedBy](../slots/sockg_weatherRecordedBy.md) | 0..1 <br/> [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | No slot description provided | direct |
+| [sockg_recordsWeatherForField](../slots/sockg_recordsWeatherForField.md) | 0..1 <br/> [SockgField](../classes/SockgField.md) | No slot description provided | direct |
+| [sockg_recordsWeatherForSite](../slots/sockg_recordsWeatherForSite.md) | 0..1 <br/> [SockgSite](../classes/SockgSite.md) | No slot description provided | direct |
+| [sockg_elevation_m](../slots/sockg_elevation_m.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_weatherStationId](../slots/sockg_weatherStationId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -143,7 +143,7 @@ URI: [sockg:WeatherStation](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 <details>
 ```yaml
 name: sockg_WeatherStation
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -154,6 +154,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#509294
 from_schema: soc-kg/main
+rank: 1000
 slots:
 - sockg_weatherRecordedBy
 - sockg_recordsWeatherForField
@@ -170,7 +171,7 @@ class_uri: sockg:WeatherStation
 <details>
 ```yaml
 name: sockg_WeatherStation
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -181,10 +182,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#509294
 from_schema: soc-kg/main
+rank: 1000
 attributes:
   sockg_weatherRecordedBy:
     name: sockg_weatherRecordedBy
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -203,7 +205,7 @@ attributes:
     range: sockg_WeatherObservation
   sockg_recordsWeatherForField:
     name: sockg_recordsWeatherForField
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -222,7 +224,7 @@ attributes:
     range: sockg_Field
   sockg_recordsWeatherForSite:
     name: sockg_recordsWeatherForSite
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -241,7 +243,7 @@ attributes:
     range: sockg_Site
   sockg_elevation_m:
     name: sockg_elevation_m
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -263,7 +265,7 @@ attributes:
     range: double
   sockg_weatherStationId:
     name: sockg_weatherStationId
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

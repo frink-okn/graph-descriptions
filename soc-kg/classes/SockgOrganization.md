@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for what this class (type) describes? (sockg_Organization)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -51,8 +51,8 @@ URI: [sockg:Organization](http://www.semanticweb.org/sockg/ontologies/2024/0/soi
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sockg_fundsExperiment](../slots/sockg_fundsExperiment.md) | 0..1 <br/> [SockgExperiment](../classes/SockgExperiment.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_organizationName](../slots/sockg_organizationName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sockg_fundsExperiment](../slots/sockg_fundsExperiment.md) | 0..1 <br/> [SockgExperiment](../classes/SockgExperiment.md) | No slot description provided | direct |
+| [sockg_organizationName](../slots/sockg_organizationName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -121,7 +121,7 @@ URI: [sockg:Organization](http://www.semanticweb.org/sockg/ontologies/2024/0/soi
 <details>
 ```yaml
 name: sockg_Organization
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -132,6 +132,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#203275
 from_schema: soc-kg/main
+rank: 1000
 slots:
 - sockg_fundsExperiment
 - sockg_organizationName
@@ -145,7 +146,7 @@ class_uri: sockg:Organization
 <details>
 ```yaml
 name: sockg_Organization
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -156,10 +157,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#203275
 from_schema: soc-kg/main
+rank: 1000
 attributes:
   sockg_fundsExperiment:
     name: sockg_fundsExperiment
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -178,7 +180,7 @@ attributes:
     range: sockg_Experiment
   sockg_organizationName:
     name: sockg_organizationName
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

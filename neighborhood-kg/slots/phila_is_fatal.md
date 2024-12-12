@@ -3,7 +3,7 @@
 # Slot: phila_is_fatal
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [phila:is_fatal](https://metadata.phila.gov/is_fatal)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [PhilaIncident](../classes/PhilaIncident.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [PhilaIncident](../classes/PhilaIncident.md) | No type description provided |  no  |
 
 
 
@@ -33,7 +33,7 @@ URI: [phila:is_fatal](https://metadata.phila.gov/is_fatal)
 
 ## Properties
 
-* Range: [xsd:boolean](http://www.w3.org/2001/XMLSchema#boolean)
+* Range: [xsd:boolean](xsd:boolean)
 
 
 
@@ -87,7 +87,7 @@ URI: [phila:is_fatal](https://metadata.phila.gov/is_fatal)
 <details>
 ```yaml
 name: phila_is_fatal
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

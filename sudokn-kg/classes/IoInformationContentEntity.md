@@ -3,7 +3,7 @@
 # Class: TODO -- this class is noted as a superclass of another class in this graph but has not itself been defined. (io_InformationContentEntity)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -99,7 +99,7 @@ URI: [io:InformationContentEntity](https://spec.industrialontologies.org/ontolog
 <details>
 ```yaml
 name: io_InformationContentEntity
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- this class is noted as a superclass of another class in this graph
   but has not itself been defined.
 todos:
@@ -109,6 +109,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 class_uri: io:InformationContentEntity
 
 ```
@@ -119,7 +120,7 @@ class_uri: io:InformationContentEntity
 <details>
 ```yaml
 name: io_InformationContentEntity
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- this class is noted as a superclass of another class in this graph
   but has not itself been defined.
 todos:
@@ -129,6 +130,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 class_uri: io:InformationContentEntity
 
 ```

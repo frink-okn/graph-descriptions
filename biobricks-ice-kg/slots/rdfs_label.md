@@ -3,7 +3,7 @@
 # Slot: rdfs_label
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,11 +23,11 @@ URI: [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Cheminf000568](../classes/Cheminf000568.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [Bao0000179](../classes/Bao0000179.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [Cheminf000446](../classes/Cheminf000446.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [Bao0000015](../classes/Bao0000015.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [Cheminf000000](../classes/Cheminf000000.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [Cheminf000000](../classes/Cheminf000000.md) | No type description provided |  no  |
+| [Bao0000015](../classes/Bao0000015.md) | No type description provided |  no  |
+| [Cheminf000568](../classes/Cheminf000568.md) | No type description provided |  no  |
+| [Cheminf000446](../classes/Cheminf000446.md) | No type description provided |  no  |
+| [Bao0000179](../classes/Bao0000179.md) | No type description provided |  no  |
 
 
 
@@ -37,7 +37,7 @@ URI: [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label)
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -99,7 +99,7 @@ URI: [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label)
 <details>
 ```yaml
 name: rdfs_label
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

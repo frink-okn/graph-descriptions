@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for what this class (type) describes? (sockg_PlantingEvent)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -87,12 +87,12 @@ URI: [sockg:PlantingEvent](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sockg_plantingAt](../slots/sockg_plantingAt.md) | 0..1 <br/> [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_plantingMethod](../slots/sockg_plantingMethod.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_rowWidth_cm](../slots/sockg_rowWidth_cm.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_cultivar](../slots/sockg_cultivar.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_depth_cm](../slots/sockg_depth_cm.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_mgtPlanting_UID](../slots/sockg_mgtPlanting_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sockg_plantingAt](../slots/sockg_plantingAt.md) | 0..1 <br/> [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | No slot description provided | direct |
+| [sockg_plantingMethod](../slots/sockg_plantingMethod.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_rowWidth_cm](../slots/sockg_rowWidth_cm.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_cultivar](../slots/sockg_cultivar.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_depth_cm](../slots/sockg_depth_cm.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_mgtPlanting_UID](../slots/sockg_mgtPlanting_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -153,7 +153,7 @@ URI: [sockg:PlantingEvent](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 <details>
 ```yaml
 name: sockg_PlantingEvent
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -164,6 +164,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#220255
 from_schema: soc-kg/main
+rank: 1000
 slots:
 - sockg_plantingAt
 - sockg_plantingMethod
@@ -181,7 +182,7 @@ class_uri: sockg:PlantingEvent
 <details>
 ```yaml
 name: sockg_PlantingEvent
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -192,10 +193,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#220255
 from_schema: soc-kg/main
+rank: 1000
 attributes:
   sockg_plantingAt:
     name: sockg_plantingAt
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -214,7 +216,7 @@ attributes:
     range: sockg_ExperimentalUnit
   sockg_plantingMethod:
     name: sockg_plantingMethod
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -238,7 +240,7 @@ attributes:
     - range: string
   sockg_rowWidth_cm:
     name: sockg_rowWidth_cm
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -257,7 +259,7 @@ attributes:
     range: double
   sockg_cultivar:
     name: sockg_cultivar
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -281,7 +283,7 @@ attributes:
     - range: double
   sockg_depth_cm:
     name: sockg_depth_cm
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -300,7 +302,7 @@ attributes:
     range: double
   sockg_mgtPlanting_UID:
     name: sockg_mgtPlanting_UID
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

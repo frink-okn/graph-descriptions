@@ -3,7 +3,7 @@
 # Slot: neo4j_PARTOF_LpL
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [neo4j:PARTOF_LpL](neo4j://graph.schema#PARTOF_LpL)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Neo4jLocation](../classes/Neo4jLocation.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [Neo4jLocation](../classes/Neo4jLocation.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [neo4j:PARTOF_LpL](neo4j://graph.schema#PARTOF_LpL)
 <details>
 ```yaml
 name: neo4j_PARTOF_LpL
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

@@ -3,7 +3,7 @@
 # Class: carbon processing capability (sudokn_CarbonProcessingCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -94,7 +94,7 @@ URI: [sudokn:CarbonProcessingCapability](http://asu.edu/semantics/SUDOKN/CarbonP
 <details>
 ```yaml
 name: sudokn_CarbonProcessingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: carbon processing capability
 todos:
 - TODO -- Todos for this class go here
@@ -103,6 +103,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_MaterialProcessingCapability
 class_uri: sudokn:CarbonProcessingCapability
 
@@ -114,7 +115,7 @@ class_uri: sudokn:CarbonProcessingCapability
 <details>
 ```yaml
 name: sudokn_CarbonProcessingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: carbon processing capability
 todos:
 - TODO -- Todos for this class go here
@@ -123,6 +124,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_MaterialProcessingCapability
 class_uri: sudokn:CarbonProcessingCapability
 

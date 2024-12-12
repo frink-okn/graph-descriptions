@@ -3,7 +3,7 @@
 # Class: NAICS classifier (sudokn_NAICSClassifier)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -119,8 +119,8 @@ URI: [sudokn:NAICSClassifier](http://asu.edu/semantics/SUDOKN/NAICSClassifier)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sudokn_hasNAICSTextValue](../slots/sudokn_hasNAICSTextValue.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sudokn_hasNAICSCodeValue](../slots/sudokn_hasNAICSCodeValue.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sudokn_hasNAICSTextValue](../slots/sudokn_hasNAICSTextValue.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sudokn_hasNAICSCodeValue](../slots/sudokn_hasNAICSCodeValue.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
 
 
 
@@ -314,7 +314,7 @@ URI: [sudokn:NAICSClassifier](http://asu.edu/semantics/SUDOKN/NAICSClassifier)
 <details>
 ```yaml
 name: sudokn_NAICSClassifier
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: NAICS classifier
 todos:
 - TODO -- Todos for this class go here
@@ -325,6 +325,7 @@ notes:
 examples:
 - value: sudokn:/NAICSClassifier_1
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_Classifier
 slots:
 - sudokn_hasNAICSTextValue
@@ -339,7 +340,7 @@ class_uri: sudokn:NAICSClassifier
 <details>
 ```yaml
 name: sudokn_NAICSClassifier
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: NAICS classifier
 todos:
 - TODO -- Todos for this class go here
@@ -350,11 +351,12 @@ notes:
 examples:
 - value: sudokn:/NAICSClassifier_1
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_Classifier
 attributes:
   sudokn_hasNAICSTextValue:
     name: sudokn_hasNAICSTextValue
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     title: has NAICS text value
     todos:
     - TODO -- Todos for this slot go here
@@ -534,7 +536,7 @@ attributes:
     - range: string
   sudokn_hasNAICSCodeValue:
     name: sudokn_hasNAICSCodeValue
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     title: has NAICS code value
     todos:
     - TODO -- Todos for this slot go here

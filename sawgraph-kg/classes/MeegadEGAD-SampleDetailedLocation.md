@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (meegad_EGAD-SampleDetailedLocation)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -49,7 +49,7 @@ URI: [meegad:EGAD-SampleDetailedLocation](http://sawgraph.spatialai.org/v1/me-eg
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | [ContaminosoSampleAnnotation](../classes/ContaminosoSampleAnnotation.md) |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | [ContaminosoSampleAnnotation](../classes/ContaminosoSampleAnnotation.md) |
 
 
 
@@ -103,7 +103,7 @@ URI: [meegad:EGAD-SampleDetailedLocation](http://sawgraph.spatialai.org/v1/me-eg
 <details>
 ```yaml
 name: meegad_EGAD-SampleDetailedLocation
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -112,6 +112,7 @@ todos:
 notes:
 - Class with 43 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: contaminoso_SampleAnnotation
 class_uri: meegad:EGAD-SampleDetailedLocation
 
@@ -123,7 +124,7 @@ class_uri: meegad:EGAD-SampleDetailedLocation
 <details>
 ```yaml
 name: meegad_EGAD-SampleDetailedLocation
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -132,12 +133,13 @@ todos:
 notes:
 - Class with 43 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: contaminoso_SampleAnnotation
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

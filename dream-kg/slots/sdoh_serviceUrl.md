@@ -3,7 +3,7 @@
 # Slot: sdoh_serviceUrl
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -33,7 +33,7 @@ URI: [sdoh:serviceUrl](http://schema.org/serviceUrl)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [xsd:anyURI](xsd:anyURI)
 
 
 
@@ -87,7 +87,7 @@ URI: [sdoh:serviceUrl](http://schema.org/serviceUrl)
 <details>
 ```yaml
 name: sdoh_serviceUrl
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

@@ -3,7 +3,7 @@
 # Class: ISO 17265 certificate (sudokn_ISO17265Certificate)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -52,7 +52,7 @@ URI: [sudokn:ISO17265Certificate](http://asu.edu/semantics/SUDOKN/ISO17265Certif
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | [SudoknISOCertificate](../classes/SudoknISOCertificate.md) |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | [SudoknISOCertificate](../classes/SudoknISOCertificate.md) |
 
 
 
@@ -106,7 +106,7 @@ URI: [sudokn:ISO17265Certificate](http://asu.edu/semantics/SUDOKN/ISO17265Certif
 <details>
 ```yaml
 name: sudokn_ISO17265Certificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: ISO 17265 certificate
 todos:
 - TODO -- Todos for this class go here
@@ -115,6 +115,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ISOCertificate
 class_uri: sudokn:ISO17265Certificate
 
@@ -126,7 +127,7 @@ class_uri: sudokn:ISO17265Certificate
 <details>
 ```yaml
 name: sudokn_ISO17265Certificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: ISO 17265 certificate
 todos:
 - TODO -- Todos for this class go here
@@ -135,11 +136,12 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ISOCertificate
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

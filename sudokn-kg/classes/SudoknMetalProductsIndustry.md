@@ -3,7 +3,7 @@
 # Class: metal production Industry (sudokn_MetalProductsIndustry)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -93,7 +93,7 @@ URI: [sudokn:MetalProductsIndustry](http://asu.edu/semantics/SUDOKN/MetalProduct
 <details>
 ```yaml
 name: sudokn_MetalProductsIndustry
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: metal production Industry
 todos:
 - TODO -- Todos for this class go here
@@ -102,6 +102,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: iosc_Industry
 class_uri: sudokn:MetalProductsIndustry
 
@@ -113,7 +114,7 @@ class_uri: sudokn:MetalProductsIndustry
 <details>
 ```yaml
 name: sudokn_MetalProductsIndustry
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: metal production Industry
 todos:
 - TODO -- Todos for this class go here
@@ -122,6 +123,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: iosc_Industry
 class_uri: sudokn:MetalProductsIndustry
 

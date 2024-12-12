@@ -3,7 +3,7 @@
 # Class: surface preparation capability (sudokn_SurfacePreparationCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -63,7 +63,7 @@ URI: [sudokn:SurfacePreparationCapability](http://asu.edu/semantics/SUDOKN/Surfa
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -132,7 +132,7 @@ URI: [sudokn:SurfacePreparationCapability](http://asu.edu/semantics/SUDOKN/Surfa
 <details>
 ```yaml
 name: sudokn_SurfacePreparationCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: surface preparation capability
 todos:
 - TODO -- Todos for this class go here
@@ -143,6 +143,7 @@ notes:
 examples:
 - value: sudokn:3PINDUSTRIES-SurfacePreparationCapability-inst
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_FinishingCapability
 slots:
 - rdfs_label
@@ -156,7 +157,7 @@ class_uri: sudokn:SurfacePreparationCapability
 <details>
 ```yaml
 name: sudokn_SurfacePreparationCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: surface preparation capability
 todos:
 - TODO -- Todos for this class go here
@@ -167,11 +168,12 @@ notes:
 examples:
 - value: sudokn:3PINDUSTRIES-SurfacePreparationCapability-inst
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_FinishingCapability
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

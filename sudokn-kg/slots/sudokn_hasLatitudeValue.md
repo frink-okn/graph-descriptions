@@ -3,7 +3,7 @@
 # Slot: has latitude value (sudokn_hasLatitudeValue)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sudokn:hasLatitudeValue](http://asu.edu/semantics/SUDOKN/hasLatitudeValue)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknTwoDimensionalCartesianSpatialCoordinateDatum](../classes/SudoknTwoDimensionalCartesianSpatialCoordinateDatum.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SudoknTwoDimensionalCartesianSpatialCoordinateDatum](../classes/SudoknTwoDimensionalCartesianSpatialCoordinateDatum.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sudokn:hasLatitudeValue](http://asu.edu/semantics/SUDOKN/hasLatitudeValue)
 <details>
 ```yaml
 name: sudokn_hasLatitudeValue
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 title: has latitude value
 todos:
 - TODO -- Todos for this slot go here

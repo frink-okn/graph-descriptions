@@ -3,7 +3,7 @@
 # Slot: rural_administrativearea_fips
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -90,7 +90,7 @@ URI: [rural:administrativearea/fips](http://sail.ua.edu/ruralkg/administrativear
 <details>
 ```yaml
 name: rural_administrativearea_fips
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

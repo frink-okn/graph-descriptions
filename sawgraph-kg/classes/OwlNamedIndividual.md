@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (owl_NamedIndividual)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -93,7 +93,7 @@ URI: [owl:NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual)
 <details>
 ```yaml
 name: owl_NamedIndividual
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -104,6 +104,7 @@ notes:
 examples:
 - value: http://sawgraph.spatialai.org/me-egad#concentrationQualifier.*
 from_schema: sawgraph-kg
+rank: 1000
 class_uri: owl:NamedIndividual
 
 ```
@@ -114,7 +115,7 @@ class_uri: owl:NamedIndividual
 <details>
 ```yaml
 name: owl_NamedIndividual
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -125,6 +126,7 @@ notes:
 examples:
 - value: http://sawgraph.spatialai.org/me-egad#concentrationQualifier.*
 from_schema: sawgraph-kg
+rank: 1000
 class_uri: owl:NamedIndividual
 
 ```

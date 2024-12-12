@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (securechain_Hardware)
+# Class: TODO -- what's a good name for this class (type)? (securechain_Hardware)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -20,6 +20,14 @@ URI: [securechain:Hardware](https://w3id.org/secure-chain/Hardware)
  classDiagram
     class SecurechainHardware
     click SecurechainHardware href "../SecurechainHardware"
+      SdohProduct <|-- SecurechainHardware
+        click SdohProduct href "../SdohProduct"
+      
+
+      SecurechainHardware <|-- SecurechainHardwareVersion
+        click SecurechainHardwareVersion href "../SecurechainHardwareVersion"
+      
+      
       SecurechainHardware : sdoh_name
         
           
@@ -44,15 +52,20 @@ URI: [securechain:Hardware](https://w3id.org/secure-chain/Hardware)
 
 
 
-<!-- no inheritance hierarchy -->
+
+## Inheritance
+* [SdohProduct](../classes/SdohProduct.md)
+    * **SecurechainHardware**
+        * [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md)
+
 
 
 ## Slots
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [securechain_hasHardwareVersion](../slots/securechain_hasHardwareVersion.md) | 0..1 <br/> [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_name](../slots/sdoh_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [securechain_hasHardwareVersion](../slots/securechain_hasHardwareVersion.md) | 0..1 <br/> [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | No slot description provided | direct |
+| [sdoh_name](../slots/sdoh_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
 
 
 
@@ -74,7 +87,7 @@ URI: [securechain:Hardware](https://w3id.org/secure-chain/Hardware)
 
 | Value |
 | --- |
-| securechain:Hardware/fx0-gpnt00000 |
+| securechain:Hardware/xeon_gold_6222 |
 
 ## TODOs
 
@@ -93,7 +106,7 @@ URI: [securechain:Hardware](https://w3id.org/secure-chain/Hardware)
 ### Schema Source
 
 
-* from schema: secure-chain-kg/develop
+* from schema: secure-chain-kg
 
 
 
@@ -103,7 +116,7 @@ URI: [securechain:Hardware](https://w3id.org/secure-chain/Hardware)
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | securechain:Hardware |
-| native | secure-chain-kg/develop/:SecurechainHardware |
+| native | secure-chain-kg/:SecurechainHardware |
 
 
 
@@ -120,17 +133,19 @@ URI: [securechain:Hardware](https://w3id.org/secure-chain/Hardware)
 <details>
 ```yaml
 name: securechain_Hardware
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: No type description provided
+title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
 - if you think the class is perfect.
 notes:
-- There are 53378 instances of this class.
+- Class with 53378 occurences.
 examples:
-- value: securechain:Hardware/fx0-gpnt00000
-from_schema: secure-chain-kg/develop
+- value: securechain:Hardware/xeon_gold_6222
+from_schema: secure-chain-kg
+rank: 1000
+is_a: sdoh_Product
 slots:
 - securechain_hasHardwareVersion
 - sdoh_name
@@ -144,21 +159,23 @@ class_uri: securechain:Hardware
 <details>
 ```yaml
 name: securechain_Hardware
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for what this class (type) describes?
+description: No type description provided
+title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
 - or you can delete the todos
 - if you think the class is perfect.
 notes:
-- There are 53378 instances of this class.
+- Class with 53378 occurences.
 examples:
-- value: securechain:Hardware/fx0-gpnt00000
-from_schema: secure-chain-kg/develop
+- value: securechain:Hardware/xeon_gold_6222
+from_schema: secure-chain-kg
+rank: 1000
+is_a: sdoh_Product
 attributes:
   securechain_hasHardwareVersion:
     name: securechain_hasHardwareVersion
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -166,9 +183,8 @@ attributes:
     comments:
     - 57295 occurrences with subject type securechain_Hardware and object type securechain_HardwareVersion.
     examples:
-    - value: securechain:Hardware/catalyst_3750x-48p-e securechain:hasHardwareVersion
-        securechain:HardwareVersion/catalyst_3750x-48p-e#-
-    from_schema: secure-chain-kg/develop
+    - value: securechain:Hardware/core_i5 securechain:hasHardwareVersion securechain:HardwareVersion/core_i5#2557m
+    from_schema: secure-chain-kg
     rank: 1000
     slot_uri: securechain:hasHardwareVersion
     alias: securechain_hasHardwareVersion
@@ -178,7 +194,7 @@ attributes:
     range: securechain_HardwareVersion
   sdoh_name:
     name: sdoh_name
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -189,22 +205,20 @@ attributes:
     - 34469 occurrences with subject type securechain_Software and object type string.
     - 20 occurrences with subject type sdoh_CreativeWork and object type string.
     examples:
-    - value: securechain:Hardware/field_programmable_gate_array_programmable_acceleration_card_n3000
-        sdoh:name field_programmable_gate_array_programmable_acceleration_card_n3000
-    - value: schema:Organization/social_microblogging_pro_project sdoh:name social_microblogging_pro_project
-    - value: securechain:Software/libcupscgi1 sdoh:name libcupscgi1
-    - value: securechain:License/unlicense sdoh:name This is free and unencumbered
-        software released into the public domain.
-    from_schema: secure-chain-kg/develop
+    - value: securechain:Hardware/nvr1xxx sdoh:name nvr1xxx
+    - value: schema:Organization/opencaching sdoh:name opencaching
+    - value: securechain:Software/libdime sdoh:name libdime
+    - value: securechain:License/mit sdoh:name MIT License
+    from_schema: secure-chain-kg
     rank: 1000
     slot_uri: sdoh:name
     alias: sdoh_name
     owner: securechain_Hardware
     domain_of:
-    - securechain_Hardware
-    - securechain_Software
     - sdoh_CreativeWork
     - sdoh_Organization
+    - securechain_Hardware
+    - securechain_Software
     range: string
 class_uri: securechain:Hardware
 

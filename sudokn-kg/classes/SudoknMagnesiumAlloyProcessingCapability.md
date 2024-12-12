@@ -3,7 +3,7 @@
 # Class: magnesium alloy processing capability (sudokn_MagnesiumAlloyProcessingCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -51,7 +51,7 @@ URI: [sudokn:MagnesiumAlloyProcessingCapability](http://asu.edu/semantics/SUDOKN
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | [SudoknMetalProcessingCapability](../classes/SudoknMetalProcessingCapability.md) |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | [SudoknMetalProcessingCapability](../classes/SudoknMetalProcessingCapability.md) |
 
 
 
@@ -105,7 +105,7 @@ URI: [sudokn:MagnesiumAlloyProcessingCapability](http://asu.edu/semantics/SUDOKN
 <details>
 ```yaml
 name: sudokn_MagnesiumAlloyProcessingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: magnesium alloy processing capability
 todos:
 - TODO -- Todos for this class go here
@@ -114,6 +114,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_MetalProcessingCapability
 class_uri: sudokn:MagnesiumAlloyProcessingCapability
 
@@ -125,7 +126,7 @@ class_uri: sudokn:MagnesiumAlloyProcessingCapability
 <details>
 ```yaml
 name: sudokn_MagnesiumAlloyProcessingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: magnesium alloy processing capability
 todos:
 - TODO -- Todos for this class go here
@@ -134,11 +135,12 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_MetalProcessingCapability
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

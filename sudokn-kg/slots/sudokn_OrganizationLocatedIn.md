@@ -3,7 +3,7 @@
 # Slot: organization located in (sudokn_OrganizationLocatedIn)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -67,7 +67,7 @@ URI: [sudokn:OrganizationLocatedIn](http://asu.edu/semantics/SUDOKN/Organization
 <details>
 ```yaml
 name: sudokn_OrganizationLocatedIn
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 title: organization located in
 todos:
 - TODO -- Todos for this slot go here

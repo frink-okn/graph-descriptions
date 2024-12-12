@@ -3,7 +3,7 @@
 # Slot: iosc_hasTextValue
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [iosc:hasTextValue](https://spec.industrialontologies.org/ontology/supplych
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknPostalAddress](../classes/SudoknPostalAddress.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SudoknPostalAddress](../classes/SudoknPostalAddress.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [iosc:hasTextValue](https://spec.industrialontologies.org/ontology/supplych
 <details>
 ```yaml
 name: iosc_hasTextValue
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

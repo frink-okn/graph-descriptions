@@ -3,7 +3,7 @@
 # Class: quality certificate (sudokn_QualityCertificate)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -142,7 +142,7 @@ URI: [sudokn:QualityCertificate](http://asu.edu/semantics/SUDOKN/QualityCertific
 <details>
 ```yaml
 name: sudokn_QualityCertificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: quality certificate
 todos:
 - TODO -- Todos for this class go here
@@ -151,6 +151,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_Certificate
 class_uri: sudokn:QualityCertificate
 
@@ -162,7 +163,7 @@ class_uri: sudokn:QualityCertificate
 <details>
 ```yaml
 name: sudokn_QualityCertificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: quality certificate
 todos:
 - TODO -- Todos for this class go here
@@ -171,6 +172,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_Certificate
 class_uri: sudokn:QualityCertificate
 

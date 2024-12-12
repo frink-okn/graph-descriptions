@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (sudokn_MIGWeldingCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -55,7 +55,7 @@ URI: [sudokn:MIGWeldingCapability](http://asu.edu/semantics/SUDOKN/MIGWeldingCap
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -124,7 +124,7 @@ URI: [sudokn:MIGWeldingCapability](http://asu.edu/semantics/SUDOKN/MIGWeldingCap
 <details>
 ```yaml
 name: sudokn_MIGWeldingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -135,6 +135,7 @@ notes:
 examples:
 - value: sudokn:LlewellynMetalFabricators-MIGWelding
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_GasMetalArcWeldingCapability
 slots:
 - rdfs_label
@@ -148,7 +149,7 @@ class_uri: sudokn:MIGWeldingCapability
 <details>
 ```yaml
 name: sudokn_MIGWeldingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -159,11 +160,12 @@ notes:
 examples:
 - value: sudokn:LlewellynMetalFabricators-MIGWelding
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_GasMetalArcWeldingCapability
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

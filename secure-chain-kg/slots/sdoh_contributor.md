@@ -3,7 +3,7 @@
 # Slot: sdoh_contributor
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,8 @@ URI: [sdoh:contributor](http://schema.org/contributor)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SecurechainSoftware](../classes/SecurechainSoftware.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SecurechainSoftware](../classes/SecurechainSoftware.md) | No type description provided |  no  |
+| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | No type description provided |  no  |
 
 
 
@@ -44,12 +45,13 @@ URI: [sdoh:contributor](http://schema.org/contributor)
 
 | Value |
 | --- |
-| securechain:Software/filesystem sdoh:contributor schema:Person/nightlark |
+| securechain:Software/cuml sdoh:contributor schema:Person/minseokl |
+| securechain:Software/velox sdoh:contributor schema:Person/DavidSGK |
 
 ## Comments
 
 * 33048 occurrences with subject type securechain_Software and object type sdoh_Person.
-* 3668 occurrences on untyped entities with type sdoh_Person.
+* 3668 occurrences with untyped subjects and object type http://schema.org/Person.
 
 ## TODOs
 
@@ -68,7 +70,7 @@ URI: [sdoh:contributor](http://schema.org/contributor)
 ### Schema Source
 
 
-* from schema: secure-chain-kg/develop
+* from schema: secure-chain-kg
 
 
 
@@ -78,7 +80,7 @@ URI: [sdoh:contributor](http://schema.org/contributor)
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | sdoh:contributor |
-| native | secure-chain-kg/develop/:sdoh_contributor |
+| native | secure-chain-kg/:sdoh_contributor |
 
 
 
@@ -88,17 +90,18 @@ URI: [sdoh:contributor](http://schema.org/contributor)
 <details>
 ```yaml
 name: sdoh_contributor
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
 - if you think the class is perfect.
 comments:
 - 33048 occurrences with subject type securechain_Software and object type sdoh_Person.
-- 3668 occurrences on untyped entities with type sdoh_Person.
+- 3668 occurrences with untyped subjects and object type http://schema.org/Person.
 examples:
-- value: securechain:Software/filesystem sdoh:contributor schema:Person/nightlark
-from_schema: secure-chain-kg/develop
+- value: securechain:Software/cuml sdoh:contributor schema:Person/minseokl
+- value: securechain:Software/velox sdoh:contributor schema:Person/DavidSGK
+from_schema: secure-chain-kg
 rank: 1000
 slot_uri: sdoh:contributor
 alias: sdoh_contributor

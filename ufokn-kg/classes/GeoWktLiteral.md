@@ -85,6 +85,7 @@ name: geo_wktLiteral
 title: TODO -- this class is noted as a superclass of another class in this graph
   but has not itself been defined.
 from_schema: ufokn-kg
+rank: 1000
 class_uri: geo:wktLiteral
 
 ```
@@ -98,6 +99,7 @@ name: geo_wktLiteral
 title: TODO -- this class is noted as a superclass of another class in this graph
   but has not itself been defined.
 from_schema: ufokn-kg
+rank: 1000
 class_uri: geo:wktLiteral
 
 ```

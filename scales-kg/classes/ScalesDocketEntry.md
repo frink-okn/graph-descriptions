@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (scales_DocketEntry)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -96,13 +96,13 @@ URI: [scales:DocketEntry](http://schemas.scales-okn.org/rdf/scales#DocketEntry)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [scales_hasFilingDate](../slots/scales_hasFilingDate.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [scales_hasIfpLabel](../slots/scales_hasIfpLabel.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [scales_hasPacerID](../slots/scales_hasPacerID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [scales_hasReference](../slots/scales_hasReference.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[ScalesDocketEntry](../classes/ScalesDocketEntry.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [scales_hasContents](../slots/scales_hasContents.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [scales_hasOntologyLabel](../slots/scales_hasOntologyLabel.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [scales_hasIfpJudgeAttribution](../slots/scales_hasIfpJudgeAttribution.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [scales_hasFilingDate](../slots/scales_hasFilingDate.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [scales_hasIfpLabel](../slots/scales_hasIfpLabel.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [scales_hasPacerID](../slots/scales_hasPacerID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [scales_hasReference](../slots/scales_hasReference.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[ScalesDocketEntry](../classes/ScalesDocketEntry.md) | No slot description provided | direct |
+| [scales_hasContents](../slots/scales_hasContents.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [scales_hasOntologyLabel](../slots/scales_hasOntologyLabel.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [scales_hasIfpJudgeAttribution](../slots/scales_hasIfpJudgeAttribution.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
 
 
 
@@ -5005,7 +5005,7 @@ URI: [scales:DocketEntry](http://schemas.scales-okn.org/rdf/scales#DocketEntry)
 <details>
 ```yaml
 name: scales_DocketEntry
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -5014,6 +5014,7 @@ todos:
 notes:
 - Class with 23661271 occurences.
 from_schema: scales-kg
+rank: 1000
 slots:
 - scales_hasFilingDate
 - scales_hasIfpLabel
@@ -5032,7 +5033,7 @@ class_uri: scales:DocketEntry
 <details>
 ```yaml
 name: scales_DocketEntry
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -5041,10 +5042,11 @@ todos:
 notes:
 - Class with 23661271 occurences.
 from_schema: scales-kg
+rank: 1000
 attributes:
   scales_hasFilingDate:
     name: scales_hasFilingDate
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -5078,7 +5080,7 @@ attributes:
     - range: string
   scales_hasIfpLabel:
     name: scales_hasIfpLabel
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -5097,7 +5099,7 @@ attributes:
     range: uri
   scales_hasPacerID:
     name: scales_hasPacerID
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -5125,7 +5127,7 @@ attributes:
     range: string
   scales_hasReference:
     name: scales_hasReference
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -5149,7 +5151,7 @@ attributes:
     - range: scales_DocketEntry
   scales_hasContents:
     name: scales_hasContents
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -5174,7 +5176,7 @@ attributes:
     range: string
   scales_hasOntologyLabel:
     name: scales_hasOntologyLabel
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -5193,7 +5195,7 @@ attributes:
     range: uri
   scales_hasIfpJudgeAttribution:
     name: scales_hasIfpJudgeAttribution
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

@@ -3,7 +3,7 @@
 # Class: quality management capability (sudokn_QualityManagementCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -109,7 +109,7 @@ URI: [sudokn:QualityManagementCapability](http://asu.edu/semantics/SUDOKN/Qualit
 <details>
 ```yaml
 name: sudokn_QualityManagementCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: quality management capability
 todos:
 - TODO -- Todos for this class go here
@@ -120,6 +120,7 @@ notes:
 examples:
 - value: sudokn:/QualityManagementCapabiliy_1
 from_schema: sudokn-kg
+rank: 1000
 is_a: iosc_ProductionCapability
 class_uri: sudokn:QualityManagementCapability
 
@@ -131,7 +132,7 @@ class_uri: sudokn:QualityManagementCapability
 <details>
 ```yaml
 name: sudokn_QualityManagementCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: quality management capability
 todos:
 - TODO -- Todos for this class go here
@@ -142,6 +143,7 @@ notes:
 examples:
 - value: sudokn:/QualityManagementCapabiliy_1
 from_schema: sudokn-kg
+rank: 1000
 is_a: iosc_ProductionCapability
 class_uri: sudokn:QualityManagementCapability
 

@@ -3,7 +3,7 @@
 # Slot: schema_latitude
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -33,7 +33,7 @@ URI: [schema:latitude](https://schema.org/latitude)
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:double](xsd:double)
 
 
 
@@ -87,7 +87,7 @@ URI: [schema:latitude](https://schema.org/latitude)
 <details>
 ```yaml
 name: schema_latitude
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

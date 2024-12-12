@@ -78,11 +78,11 @@ URI: [sdoh:Place](http://schema.org/Place)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sdoh_containedInPlace](../slots/sdoh_containedInPlace.md) | 0..1 <br/> [SdohAdministrativeArea](../classes/SdohAdministrativeArea.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_longitude](../slots/sdoh_longitude.md) | 0..1 <br/> [xsd:decimal](http://www.w3.org/2001/XMLSchema#decimal) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_latitude](../slots/sdoh_latitude.md) | 0..1 <br/> [xsd:decimal](http://www.w3.org/2001/XMLSchema#decimal) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_hasMap](../slots/sdoh_hasMap.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sdoh_address](../slots/sdoh_address.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sdoh_containedInPlace](../slots/sdoh_containedInPlace.md) | 0..1 <br/> [SdohAdministrativeArea](../classes/SdohAdministrativeArea.md) | No slot description provided | direct |
+| [sdoh_longitude](../slots/sdoh_longitude.md) | 0..1 <br/> [xsd:decimal](xsd:decimal) | No slot description provided | direct |
+| [sdoh_latitude](../slots/sdoh_latitude.md) | 0..1 <br/> [xsd:decimal](xsd:decimal) | No slot description provided | direct |
+| [sdoh_hasMap](../slots/sdoh_hasMap.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI) | No slot description provided | direct |
+| [sdoh_address](../slots/sdoh_address.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
 
 
 
@@ -161,6 +161,7 @@ notes:
 examples:
 - value: dreamkg:service/location/6615452957540352
 from_schema: dream-kg
+rank: 1000
 slots:
 - sdoh_containedInPlace
 - sdoh_longitude
@@ -188,10 +189,11 @@ notes:
 examples:
 - value: dreamkg:service/location/6615452957540352
 from_schema: dream-kg
+rank: 1000
 attributes:
   sdoh_containedInPlace:
     name: sdoh_containedInPlace
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -210,7 +212,7 @@ attributes:
     range: sdoh_AdministrativeArea
   sdoh_longitude:
     name: sdoh_longitude
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -229,7 +231,7 @@ attributes:
     range: decimal
   sdoh_latitude:
     name: sdoh_latitude
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -248,7 +250,7 @@ attributes:
     range: decimal
   sdoh_hasMap:
     name: sdoh_hasMap
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -267,7 +269,7 @@ attributes:
     range: uri
   sdoh_address:
     name: sdoh_address
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

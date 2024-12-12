@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (sudokn_ElectrolessNickelPlating)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -54,7 +54,7 @@ URI: [sudokn:ElectrolessNickelPlating](http://asu.edu/semantics/SUDOKN/Electrole
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | [SudoknElectroPlatingCapability](../classes/SudoknElectroPlatingCapability.md), [SudoknChemicalCoatingCapability](../classes/SudoknChemicalCoatingCapability.md), [SudoknFinishingCapability](../classes/SudoknFinishingCapability.md), [SudoknCoatingCapability](../classes/SudoknCoatingCapability.md) |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | [SudoknChemicalCoatingCapability](../classes/SudoknChemicalCoatingCapability.md), [SudoknCoatingCapability](../classes/SudoknCoatingCapability.md), [SudoknElectroPlatingCapability](../classes/SudoknElectroPlatingCapability.md), [SudoknFinishingCapability](../classes/SudoknFinishingCapability.md) |
 
 
 
@@ -108,7 +108,7 @@ URI: [sudokn:ElectrolessNickelPlating](http://asu.edu/semantics/SUDOKN/Electrole
 <details>
 ```yaml
 name: sudokn_ElectrolessNickelPlating
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -117,6 +117,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ElectroPlatingCapability
 class_uri: sudokn:ElectrolessNickelPlating
 
@@ -128,7 +129,7 @@ class_uri: sudokn:ElectrolessNickelPlating
 <details>
 ```yaml
 name: sudokn_ElectrolessNickelPlating
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -137,11 +138,12 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ElectroPlatingCapability
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

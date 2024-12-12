@@ -3,7 +3,7 @@
 # Class: ISTS certificate (sudokn_ISTSCertificate)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -101,7 +101,7 @@ URI: [sudokn:ISTSCertificate](http://asu.edu/semantics/SUDOKN/ISTSCertificate)
 <details>
 ```yaml
 name: sudokn_ISTSCertificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: ISTS certificate
 todos:
 - TODO -- Todos for this class go here
@@ -110,6 +110,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_QualityCertificate
 class_uri: sudokn:ISTSCertificate
 
@@ -121,7 +122,7 @@ class_uri: sudokn:ISTSCertificate
 <details>
 ```yaml
 name: sudokn_ISTSCertificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: ISTS certificate
 todos:
 - TODO -- Todos for this class go here
@@ -130,6 +131,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_QualityCertificate
 class_uri: sudokn:ISTSCertificate
 

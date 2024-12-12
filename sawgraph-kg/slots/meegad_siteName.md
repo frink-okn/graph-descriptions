@@ -1,6 +1,6 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (meegad_siteName)
+# Slot: No slot description provided (meegad_siteName)
 
 
 _Site name in the EGAD dataset from the state of Maine._
@@ -23,7 +23,7 @@ URI: [meegad:siteName](http://sawgraph.spatialai.org/v1/me-egad#siteName)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [MeegadEGAD-Site](../classes/MeegadEGAD-Site.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [MeegadEGAD-Site](../classes/MeegadEGAD-Site.md) | No type description provided |  no  |
 
 
 
@@ -88,7 +88,7 @@ URI: [meegad:siteName](http://sawgraph.spatialai.org/v1/me-egad#siteName)
 ```yaml
 name: meegad_siteName
 description: Site name in the EGAD dataset from the state of Maine.
-title: TODO -- tell the world what this slot (predicate) describes.
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

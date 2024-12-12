@@ -3,7 +3,7 @@
 # Slot: skos_altLabel
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [skos:altLabel](http://www.w3.org/2004/02/skos/core#altLabel)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknOwnershipStatusClassifier](../classes/SudoknOwnershipStatusClassifier.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SudoknOwnershipStatusClassifier](../classes/SudoknOwnershipStatusClassifier.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [skos:altLabel](http://www.w3.org/2004/02/skos/core#altLabel)
 <details>
 ```yaml
 name: skos_altLabel
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

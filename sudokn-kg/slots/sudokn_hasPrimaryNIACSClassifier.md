@@ -3,7 +3,7 @@
 # Slot: has primary NIACS classifier (sudokn_hasPrimaryNIACSClassifier)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -67,7 +67,7 @@ URI: [sudokn:hasPrimaryNIACSClassifier](http://asu.edu/semantics/SUDOKN/hasPrima
 <details>
 ```yaml
 name: sudokn_hasPrimaryNIACSClassifier
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 title: has primary NIACS classifier
 todos:
 - TODO -- Todos for this slot go here

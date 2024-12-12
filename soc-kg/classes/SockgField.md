@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for what this class (type) describes? (sockg_Field)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -69,10 +69,10 @@ URI: [sockg:Field](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbo
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sockg_longitude_decimal_deg](../slots/sockg_longitude_decimal_deg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_elevation_m](../slots/sockg_elevation_m.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_fieldId](../slots/sockg_fieldId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_latitude_decimal_deg](../slots/sockg_latitude_decimal_deg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sockg_longitude_decimal_deg](../slots/sockg_longitude_decimal_deg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_elevation_m](../slots/sockg_elevation_m.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_fieldId](../slots/sockg_fieldId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_latitude_decimal_deg](../slots/sockg_latitude_decimal_deg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
 
 
 
@@ -147,7 +147,7 @@ URI: [sockg:Field](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbo
 <details>
 ```yaml
 name: sockg_Field
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -158,6 +158,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#55585
 from_schema: soc-kg/main
+rank: 1000
 slots:
 - sockg_longitude_decimal_deg
 - sockg_elevation_m
@@ -173,7 +174,7 @@ class_uri: sockg:Field
 <details>
 ```yaml
 name: sockg_Field
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -184,10 +185,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#55585
 from_schema: soc-kg/main
+rank: 1000
 attributes:
   sockg_longitude_decimal_deg:
     name: sockg_longitude_decimal_deg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -206,7 +208,7 @@ attributes:
     range: double
   sockg_elevation_m:
     name: sockg_elevation_m
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -228,7 +230,7 @@ attributes:
     range: double
   sockg_fieldId:
     name: sockg_fieldId
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -267,7 +269,7 @@ attributes:
     range: string
   sockg_latitude_decimal_deg:
     name: sockg_latitude_decimal_deg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

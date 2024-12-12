@@ -3,7 +3,7 @@
 # Class: ISO 9000 certificate (sudokn_ISO9000Certificate)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -61,8 +61,8 @@ URI: [sudokn:ISO9000Certificate](http://asu.edu/semantics/SUDOKN/ISO9000Certific
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sudokn_attestsTo](../slots/sudokn_attestsTo.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[SudoknQualityManagementCapability](../classes/SudoknQualityManagementCapability.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | [SudoknISOCertificate](../classes/SudoknISOCertificate.md) |
+| [sudokn_attestsTo](../slots/sudokn_attestsTo.md) | 0..1 <br/> [SudoknQualityManagementCapability](../classes/SudoknQualityManagementCapability.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | [SudoknISOCertificate](../classes/SudoknISOCertificate.md) |
 
 
 
@@ -124,7 +124,7 @@ URI: [sudokn:ISO9000Certificate](http://asu.edu/semantics/SUDOKN/ISO9000Certific
 <details>
 ```yaml
 name: sudokn_ISO9000Certificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: ISO 9000 certificate
 todos:
 - TODO -- Todos for this class go here
@@ -133,6 +133,7 @@ todos:
 notes:
 - Class with 1 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ISOCertificate
 slots:
 - sudokn_attestsTo
@@ -146,7 +147,7 @@ class_uri: sudokn:ISO9000Certificate
 <details>
 ```yaml
 name: sudokn_ISO9000Certificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: ISO 9000 certificate
 todos:
 - TODO -- Todos for this class go here
@@ -155,11 +156,12 @@ todos:
 notes:
 - Class with 1 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ISOCertificate
 attributes:
   sudokn_attestsTo:
     name: sudokn_attestsTo
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     title: attests to
     todos:
     - TODO -- Todos for this slot go here
@@ -186,7 +188,7 @@ attributes:
     - range: uri
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

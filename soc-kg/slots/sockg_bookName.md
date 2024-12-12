@@ -3,7 +3,7 @@
 # Slot: sockg_bookName
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:bookName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-ca
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgBook](../classes/SockgBook.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgBook](../classes/SockgBook.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sockg:bookName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-ca
 <details>
 ```yaml
 name: sockg_bookName
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

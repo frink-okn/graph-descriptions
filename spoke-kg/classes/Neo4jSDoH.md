@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (neo4j_SDoH)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -87,12 +87,12 @@ URI: [neo4j:SDoH](neo4j://graph.schema#SDoH)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [neo4j_identifier](../slots/neo4j_identifier.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [neo4j_name](../slots/neo4j_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [neo4j_ISA_SiS](../slots/neo4j_ISA_SiS.md) | 0..1 <br/> [Neo4jSDoH](../classes/Neo4jSDoH.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [neo4j_ASSOCIATES_SaD](../slots/neo4j_ASSOCIATES_SaD.md) | 0..1 <br/> [Neo4jDisease](../classes/Neo4jDisease.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [neo4j_sources](../slots/neo4j_sources.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [neo4j_PREVALENCEIN_SpL](../slots/neo4j_PREVALENCEIN_SpL.md) | 0..1 <br/> [Neo4jLocation](../classes/Neo4jLocation.md) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [neo4j_identifier](../slots/neo4j_identifier.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [neo4j_name](../slots/neo4j_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [neo4j_ISA_SiS](../slots/neo4j_ISA_SiS.md) | 0..1 <br/> [Neo4jSDoH](../classes/Neo4jSDoH.md) | No slot description provided | direct |
+| [neo4j_ASSOCIATES_SaD](../slots/neo4j_ASSOCIATES_SaD.md) | 0..1 <br/> [Neo4jDisease](../classes/Neo4jDisease.md) | No slot description provided | direct |
+| [neo4j_sources](../slots/neo4j_sources.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [neo4j_PREVALENCEIN_SpL](../slots/neo4j_PREVALENCEIN_SpL.md) | 0..1 <br/> [Neo4jLocation](../classes/Neo4jLocation.md) | No slot description provided | direct |
 
 
 
@@ -160,7 +160,7 @@ URI: [neo4j:SDoH](neo4j://graph.schema#SDoH)
 <details>
 ```yaml
 name: neo4j_SDoH
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -171,6 +171,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#119274
 from_schema: spoke-kg
+rank: 1000
 slots:
 - neo4j_identifier
 - neo4j_name
@@ -188,7 +189,7 @@ class_uri: neo4j:SDoH
 <details>
 ```yaml
 name: neo4j_SDoH
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -199,10 +200,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#119274
 from_schema: spoke-kg
+rank: 1000
 attributes:
   neo4j_identifier:
     name: neo4j_identifier
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -236,7 +238,7 @@ attributes:
     range: string
   neo4j_name:
     name: neo4j_name
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -272,7 +274,7 @@ attributes:
     range: string
   neo4j_ISA_SiS:
     name: neo4j_ISA_SiS
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -291,7 +293,7 @@ attributes:
     range: neo4j_SDoH
   neo4j_ASSOCIATES_SaD:
     name: neo4j_ASSOCIATES_SaD
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -310,7 +312,7 @@ attributes:
     range: neo4j_Disease
   neo4j_sources:
     name: neo4j_sources
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -341,7 +343,7 @@ attributes:
     range: string
   neo4j_PREVALENCEIN_SpL:
     name: neo4j_PREVALENCEIN_SpL
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

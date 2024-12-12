@@ -3,7 +3,7 @@
 # Slot: relation_HasLicenseInfo
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [relation:HasLicenseInfo](http://relation.org/HasLicenseInfo)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [relation:HasLicenseInfo](http://relation.org/HasLicenseInfo)
 <details>
 ```yaml
 name: relation_HasLicenseInfo
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

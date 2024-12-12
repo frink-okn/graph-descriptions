@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for what this class (type) describes? (sockg_County)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -51,8 +51,8 @@ URI: [sockg:County](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carb
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sockg_hasCity](../slots/sockg_hasCity.md) | 0..1 <br/> [SockgCity](../classes/SockgCity.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_countyName](../slots/sockg_countyName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sockg_hasCity](../slots/sockg_hasCity.md) | 0..1 <br/> [SockgCity](../classes/SockgCity.md) | No slot description provided | direct |
+| [sockg_countyName](../slots/sockg_countyName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
 
 
 
@@ -121,7 +121,7 @@ URI: [sockg:County](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carb
 <details>
 ```yaml
 name: sockg_County
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -132,6 +132,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#46730
 from_schema: soc-kg/main
+rank: 1000
 slots:
 - sockg_hasCity
 - sockg_countyName
@@ -145,7 +146,7 @@ class_uri: sockg:County
 <details>
 ```yaml
 name: sockg_County
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -156,10 +157,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#46730
 from_schema: soc-kg/main
+rank: 1000
 attributes:
   sockg_hasCity:
     name: sockg_hasCity
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -178,7 +180,7 @@ attributes:
     range: sockg_City
   sockg_countyName:
     name: sockg_countyName
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

@@ -3,7 +3,7 @@
 # Slot: sockg_pesticidePlacement
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:pesticidePlacement](http://www.semanticweb.org/sockg/ontologies/2024
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPesticide](../classes/SockgPesticide.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgPesticide](../classes/SockgPesticide.md) | No type description provided |  no  |
 
 
 
@@ -89,7 +89,7 @@ URI: [sockg:pesticidePlacement](http://www.semanticweb.org/sockg/ontologies/2024
 <details>
 ```yaml
 name: sockg_pesticidePlacement
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (cheminf_000000)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -60,9 +60,9 @@ URI: [cheminf:000000](http://purl.obolibrary.org/obo/CHEMINF_000000)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [edam_has_identifier](../slots/edam_has_identifier.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[Cheminf000568](../classes/Cheminf000568.md)&nbsp;or&nbsp;<br />[Cheminf000446](../classes/Cheminf000446.md) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [obo_RO_0000056](../slots/obo_RO_0000056.md) | 0..1 <br/> [Bao0000040](../classes/Bao0000040.md) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [edam_has_identifier](../slots/edam_has_identifier.md) | 0..1 <br/> [Cheminf000568](../classes/Cheminf000568.md)&nbsp;or&nbsp;<br />[Cheminf000446](../classes/Cheminf000446.md) | No slot description provided | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [obo_RO_0000056](../slots/obo_RO_0000056.md) | 0..1 <br/> [Bao0000040](../classes/Bao0000040.md) | No slot description provided | direct |
 
 
 
@@ -123,7 +123,7 @@ URI: [cheminf:000000](http://purl.obolibrary.org/obo/CHEMINF_000000)
 <details>
 ```yaml
 name: cheminf_000000
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -132,6 +132,7 @@ todos:
 notes:
 - Class with 197214 occurences.
 from_schema: biobricks-ice-kg
+rank: 1000
 slots:
 - edam_has_identifier
 - rdfs_label
@@ -146,7 +147,7 @@ class_uri: cheminf:000000
 <details>
 ```yaml
 name: cheminf_000000
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -155,10 +156,11 @@ todos:
 notes:
 - Class with 197214 occurences.
 from_schema: biobricks-ice-kg
+rank: 1000
 attributes:
   edam_has_identifier:
     name: edam_has_identifier
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -184,7 +186,7 @@ attributes:
     - range: cheminf_000446
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -219,7 +221,7 @@ attributes:
     range: string
   obo_RO_0000056:
     name: obo_RO_0000056
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

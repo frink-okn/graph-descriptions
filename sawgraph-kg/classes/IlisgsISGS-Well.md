@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (ilisgs_ISGS-Well)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -49,7 +49,7 @@ URI: [ilisgs:ISGS-Well](http://sawgraph.spatialai.org/v1/il-isgs#ISGS-Well)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [geo_hasSerialization](../slots/geo_hasSerialization.md) | 0..1 <br/> [GeoWktLiteral](../classes/GeoWktLiteral.md) | TODO -- tell the world what this slot (predicate) describes | [GeoSpatialObject](../classes/GeoSpatialObject.md) |
+| [geo_hasSerialization](../slots/geo_hasSerialization.md) | 0..1 <br/> [GeoWktLiteral](../classes/GeoWktLiteral.md) | No slot description provided | [GeoSpatialObject](../classes/GeoSpatialObject.md) |
 
 
 
@@ -103,7 +103,7 @@ URI: [ilisgs:ISGS-Well](http://sawgraph.spatialai.org/v1/il-isgs#ISGS-Well)
 <details>
 ```yaml
 name: ilisgs_ISGS-Well
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -112,6 +112,7 @@ todos:
 notes:
 - Class with 379496 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: geo_SpatialObject
 class_uri: ilisgs:ISGS-Well
 
@@ -123,7 +124,7 @@ class_uri: ilisgs:ISGS-Well
 <details>
 ```yaml
 name: ilisgs_ISGS-Well
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -132,12 +133,13 @@ todos:
 notes:
 - Class with 379496 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 is_a: geo_SpatialObject
 attributes:
   geo_hasSerialization:
     name: geo_hasSerialization
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

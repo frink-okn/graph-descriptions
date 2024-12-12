@@ -3,7 +3,7 @@
 # Slot: phila_age_of
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [phila:age_of](https://metadata.phila.gov/age_of)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [PhilaIncident](../classes/PhilaIncident.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [PhilaIncident](../classes/PhilaIncident.md) | No type description provided |  no  |
 
 
 
@@ -33,7 +33,7 @@ URI: [phila:age_of](https://metadata.phila.gov/age_of)
 
 ## Properties
 
-* Range: [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
+* Range: [xsd:integer](xsd:integer)
 
 
 
@@ -87,7 +87,7 @@ URI: [phila:age_of](https://metadata.phila.gov/age_of)
 <details>
 ```yaml
 name: phila_age_of
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

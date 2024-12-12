@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (http___purl.org_vocab_vann_preferredNamespacePrefix)
+# Slot: No slot description provided (http___purl.org_vocab_vann_preferredNamespacePrefix)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -71,8 +71,8 @@ URI: [http://purl.org/vocab/vann/preferredNamespacePrefix](http://purl.org/vocab
 <details>
 ```yaml
 name: http___purl.org_vocab_vann_preferredNamespacePrefix
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

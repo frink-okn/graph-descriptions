@@ -3,7 +3,7 @@
 # Slot: sockg_totalPesticideAmount_kg_per_ha
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:totalPesticideAmount_kg_per_ha](http://www.semanticweb.org/sockg/ont
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPesticide](../classes/SockgPesticide.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgPesticide](../classes/SockgPesticide.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sockg:totalPesticideAmount_kg_per_ha](http://www.semanticweb.org/sockg/ont
 <details>
 ```yaml
 name: sockg_totalPesticideAmount_kg_per_ha
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

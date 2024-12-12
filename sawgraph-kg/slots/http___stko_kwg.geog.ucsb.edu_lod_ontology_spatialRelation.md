@@ -1,9 +1,9 @@
 
 
-# Slot: TODO -- tell the world what this slot (predicate) describes. (http___stko-kwg.geog.ucsb.edu_lod_ontology_spatialRelation)
+# Slot: No slot description provided (http___stko-kwg.geog.ucsb.edu_lod_ontology_spatialRelation)
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,10 +23,10 @@ URI: [http://stko-kwg.geog.ucsb.edu/lod/ontology/spatialRelation](http://stko-kw
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ContaminosoPoint](../classes/ContaminosoPoint.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13](../classes/HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [ContaminosoFeature](../classes/ContaminosoFeature.md) | TODO -- tell the world what this class (type) describes |  no  |
-| [MeegadEGAD-Site](../classes/MeegadEGAD-Site.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [ContaminosoPoint](../classes/ContaminosoPoint.md) | No type description provided |  no  |
+| [HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13](../classes/HttpStko-kwg.geog.ucsb.eduLodOntologyS2CellLevel13.md) | No type description provided |  no  |
+| [MeegadEGAD-Site](../classes/MeegadEGAD-Site.md) | No type description provided |  no  |
+| [ContaminosoFeature](../classes/ContaminosoFeature.md) | No type description provided |  no  |
 
 
 
@@ -112,8 +112,8 @@ URI: [http://stko-kwg.geog.ucsb.edu/lod/ontology/spatialRelation](http://stko-kw
 <details>
 ```yaml
 name: http___stko-kwg.geog.ucsb.edu_lod_ontology_spatialRelation
-description: TODO -- tell the world what this slot (predicate) describes.
-title: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
+title: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

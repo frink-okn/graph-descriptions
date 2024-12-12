@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (https___stko-kwg.geog.ucsb.edu_lod_ontologyS2Cell)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -93,7 +93,7 @@ URI: [https://stko-kwg.geog.ucsb.edu/lod/ontology#S2Cell](https://stko-kwg.geog.
 <details>
 ```yaml
 name: https___stko-kwg.geog.ucsb.edu_lod_ontologyS2Cell
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -104,6 +104,7 @@ notes:
 examples:
 - value: _:1000004ffdfdf77e2c97998ea1e8da86
 from_schema: ufokn-kg
+rank: 1000
 class_uri: https://stko-kwg.geog.ucsb.edu/lod/ontology#S2Cell
 
 ```
@@ -114,7 +115,7 @@ class_uri: https://stko-kwg.geog.ucsb.edu/lod/ontology#S2Cell
 <details>
 ```yaml
 name: https___stko-kwg.geog.ucsb.edu_lod_ontologyS2Cell
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -125,6 +126,7 @@ notes:
 examples:
 - value: _:1000004ffdfdf77e2c97998ea1e8da86
 from_schema: ufokn-kg
+rank: 1000
 class_uri: https://stko-kwg.geog.ucsb.edu/lod/ontology#S2Cell
 
 ```

@@ -3,7 +3,7 @@
 # Class: TODO -- this class is noted as a superclass of another class in this graph but has not itself been defined. (sudokn_TorchCuttingCapability)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -101,7 +101,7 @@ URI: [sudokn:TorchCuttingCapability](http://asu.edu/semantics/SUDOKN/TorchCuttin
 <details>
 ```yaml
 name: sudokn_TorchCuttingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- this class is noted as a superclass of another class in this graph
   but has not itself been defined.
 todos:
@@ -111,6 +111,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ThermalSubtractionCapability
 class_uri: sudokn:TorchCuttingCapability
 
@@ -122,7 +123,7 @@ class_uri: sudokn:TorchCuttingCapability
 <details>
 ```yaml
 name: sudokn_TorchCuttingCapability
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- this class is noted as a superclass of another class in this graph
   but has not itself been defined.
 todos:
@@ -132,6 +133,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_ThermalSubtractionCapability
 class_uri: sudokn:TorchCuttingCapability
 

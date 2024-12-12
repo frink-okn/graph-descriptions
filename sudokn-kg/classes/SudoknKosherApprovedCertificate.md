@@ -3,7 +3,7 @@
 # Class: kosher approved certificate (sudokn_KosherApprovedCertificate)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -95,7 +95,7 @@ URI: [sudokn:KosherApprovedCertificate](http://asu.edu/semantics/SUDOKN/KosherAp
 <details>
 ```yaml
 name: sudokn_KosherApprovedCertificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: kosher approved certificate
 todos:
 - TODO -- Todos for this class go here
@@ -104,6 +104,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_QualityCertificate
 class_uri: sudokn:KosherApprovedCertificate
 
@@ -115,7 +116,7 @@ class_uri: sudokn:KosherApprovedCertificate
 <details>
 ```yaml
 name: sudokn_KosherApprovedCertificate
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: kosher approved certificate
 todos:
 - TODO -- Todos for this class go here
@@ -124,6 +125,7 @@ todos:
 notes:
 - Class with 0 occurences.
 from_schema: sudokn-kg
+rank: 1000
 is_a: sudokn_QualityCertificate
 class_uri: sudokn:KosherApprovedCertificate
 

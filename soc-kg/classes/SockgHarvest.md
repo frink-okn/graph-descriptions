@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for what this class (type) describes? (sockg_Harvest)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -366,43 +366,43 @@ URI: [sockg:Harvest](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sockg_aboveGroundBiomassStd_kg_per_ha](../slots/sockg_aboveGroundBiomassStd_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_unitGrainWeightStd_mg](../slots/sockg_unitGrainWeightStd_mg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_grainMoisturePercentStd](../slots/sockg_grainMoisturePercentStd.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_grainCarbon_kgC_per_ha](../slots/sockg_grainCarbon_kgC_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_rootNitrogenContentStd_kgN_per_ha](../slots/sockg_rootNitrogenContentStd_kgN_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_unitGrainWeight_mg](../slots/sockg_unitGrainWeight_mg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_aboveGroundBiomass_kg_per_ha](../slots/sockg_aboveGroundBiomass_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_grainNitrogen_kgN_per_ha](../slots/sockg_grainNitrogen_kgN_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_rootMoisturePercentStd](../slots/sockg_rootMoisturePercentStd.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_grainYield_kg_per_ha](../slots/sockg_grainYield_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_nonHarvestedResidueMoisturePercent](../slots/sockg_nonHarvestedResidueMoisturePercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_cornEarHeight_cm](../slots/sockg_cornEarHeight_cm.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_driedHarvestedResidue_kg_per_ha](../slots/sockg_driedHarvestedResidue_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_nonHarvestedResidueMoisturePercentStd](../slots/sockg_nonHarvestedResidueMoisturePercentStd.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_rootDryMatterStd_kg_per_ha](../slots/sockg_rootDryMatterStd_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_harvestedFrac](../slots/sockg_harvestedFrac.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_growthStage](../slots/sockg_growthStage.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_cornEarHeightStd_cm](../slots/sockg_cornEarHeightStd_cm.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_rootMoisturePercent](../slots/sockg_rootMoisturePercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha](../slots/sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_nonHarvestedResidueCarbonContentStd_kgC_per_ha](../slots/sockg_nonHarvestedResidueCarbonContentStd_kgC_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_nonHarvestedResidueCarbonContent_kgC_per_ha](../slots/sockg_nonHarvestedResidueCarbonContent_kgC_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_grainNitrogenStd_kgN_per_ha](../slots/sockg_grainNitrogenStd_kgN_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_rootNitrogenContent_kgN_per_ha](../slots/sockg_rootNitrogenContent_kgN_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_driedHarvestedResidueStd_kg_per_ha](../slots/sockg_driedHarvestedResidueStd_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_rootCarbonContentStd_kgC_per_ha](../slots/sockg_rootCarbonContentStd_kgC_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_rootCarbonContent_kgC_per_ha](../slots/sockg_rootCarbonContent_kgC_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_nonHarvestedResidueMassStd_kg_per_ha](../slots/sockg_nonHarvestedResidueMassStd_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_measResidueMgnt_UID](../slots/sockg_measResidueMgnt_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_grainYieldStd_kg_per_ha](../slots/sockg_grainYieldStd_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_rootDryMatter_kg_per_ha](../slots/sockg_rootDryMatter_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_grainMoisturePercent](../slots/sockg_grainMoisturePercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_grainCarbonStd_kgC_per_ha](../slots/sockg_grainCarbonStd_kgC_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_nonHarvestedResidueMass_kg_per_ha](../slots/sockg_nonHarvestedResidueMass_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_nonHarvestedResidueNitrogenContentStd_kgN_per_ha](../slots/sockg_nonHarvestedResidueNitrogenContentStd_kgN_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sockg_aboveGroundBiomassStd_kg_per_ha](../slots/sockg_aboveGroundBiomassStd_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_unitGrainWeightStd_mg](../slots/sockg_unitGrainWeightStd_mg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_grainMoisturePercentStd](../slots/sockg_grainMoisturePercentStd.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_grainCarbon_kgC_per_ha](../slots/sockg_grainCarbon_kgC_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_rootNitrogenContentStd_kgN_per_ha](../slots/sockg_rootNitrogenContentStd_kgN_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_unitGrainWeight_mg](../slots/sockg_unitGrainWeight_mg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_aboveGroundBiomass_kg_per_ha](../slots/sockg_aboveGroundBiomass_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_grainNitrogen_kgN_per_ha](../slots/sockg_grainNitrogen_kgN_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_rootMoisturePercentStd](../slots/sockg_rootMoisturePercentStd.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_grainYield_kg_per_ha](../slots/sockg_grainYield_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_nonHarvestedResidueMoisturePercent](../slots/sockg_nonHarvestedResidueMoisturePercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_cornEarHeight_cm](../slots/sockg_cornEarHeight_cm.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_driedHarvestedResidue_kg_per_ha](../slots/sockg_driedHarvestedResidue_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_nonHarvestedResidueMoisturePercentStd](../slots/sockg_nonHarvestedResidueMoisturePercentStd.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_rootDryMatterStd_kg_per_ha](../slots/sockg_rootDryMatterStd_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_harvestedFrac](../slots/sockg_harvestedFrac.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_growthStage](../slots/sockg_growthStage.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_cornEarHeightStd_cm](../slots/sockg_cornEarHeightStd_cm.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_rootMoisturePercent](../slots/sockg_rootMoisturePercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha](../slots/sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_nonHarvestedResidueCarbonContentStd_kgC_per_ha](../slots/sockg_nonHarvestedResidueCarbonContentStd_kgC_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_nonHarvestedResidueCarbonContent_kgC_per_ha](../slots/sockg_nonHarvestedResidueCarbonContent_kgC_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_grainNitrogenStd_kgN_per_ha](../slots/sockg_grainNitrogenStd_kgN_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_rootNitrogenContent_kgN_per_ha](../slots/sockg_rootNitrogenContent_kgN_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_driedHarvestedResidueStd_kg_per_ha](../slots/sockg_driedHarvestedResidueStd_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_rootCarbonContentStd_kgC_per_ha](../slots/sockg_rootCarbonContentStd_kgC_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_rootCarbonContent_kgC_per_ha](../slots/sockg_rootCarbonContent_kgC_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_nonHarvestedResidueMassStd_kg_per_ha](../slots/sockg_nonHarvestedResidueMassStd_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_measResidueMgnt_UID](../slots/sockg_measResidueMgnt_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_grainYieldStd_kg_per_ha](../slots/sockg_grainYieldStd_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_rootDryMatter_kg_per_ha](../slots/sockg_rootDryMatter_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_grainMoisturePercent](../slots/sockg_grainMoisturePercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_grainCarbonStd_kgC_per_ha](../slots/sockg_grainCarbonStd_kgC_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_nonHarvestedResidueMass_kg_per_ha](../slots/sockg_nonHarvestedResidueMass_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_nonHarvestedResidueNitrogenContentStd_kgN_per_ha](../slots/sockg_nonHarvestedResidueNitrogenContentStd_kgN_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
 
 
 
@@ -470,7 +470,7 @@ URI: [sockg:Harvest](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 <details>
 ```yaml
 name: sockg_Harvest
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -481,6 +481,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#185205
 from_schema: soc-kg/main
+rank: 1000
 slots:
 - sockg_aboveGroundBiomassStd_kg_per_ha
 - sockg_unitGrainWeightStd_mg
@@ -529,7 +530,7 @@ class_uri: sockg:Harvest
 <details>
 ```yaml
 name: sockg_Harvest
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -540,10 +541,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#185205
 from_schema: soc-kg/main
+rank: 1000
 attributes:
   sockg_aboveGroundBiomassStd_kg_per_ha:
     name: sockg_aboveGroundBiomassStd_kg_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -563,7 +565,7 @@ attributes:
     range: double
   sockg_unitGrainWeightStd_mg:
     name: sockg_unitGrainWeightStd_mg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -582,7 +584,7 @@ attributes:
     range: double
   sockg_grainMoisturePercentStd:
     name: sockg_grainMoisturePercentStd
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -601,7 +603,7 @@ attributes:
     range: double
   sockg_grainCarbon_kgC_per_ha:
     name: sockg_grainCarbon_kgC_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -620,7 +622,7 @@ attributes:
     range: double
   sockg_rootNitrogenContentStd_kgN_per_ha:
     name: sockg_rootNitrogenContentStd_kgN_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -640,7 +642,7 @@ attributes:
     range: double
   sockg_unitGrainWeight_mg:
     name: sockg_unitGrainWeight_mg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -659,7 +661,7 @@ attributes:
     range: double
   sockg_aboveGroundBiomass_kg_per_ha:
     name: sockg_aboveGroundBiomass_kg_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -678,7 +680,7 @@ attributes:
     range: double
   sockg_grainNitrogen_kgN_per_ha:
     name: sockg_grainNitrogen_kgN_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -697,7 +699,7 @@ attributes:
     range: double
   sockg_rootMoisturePercentStd:
     name: sockg_rootMoisturePercentStd
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -716,7 +718,7 @@ attributes:
     range: double
   sockg_grainYield_kg_per_ha:
     name: sockg_grainYield_kg_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -735,7 +737,7 @@ attributes:
     range: double
   sockg_nonHarvestedResidueMoisturePercent:
     name: sockg_nonHarvestedResidueMoisturePercent
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -755,7 +757,7 @@ attributes:
     range: double
   sockg_cornEarHeight_cm:
     name: sockg_cornEarHeight_cm
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -774,7 +776,7 @@ attributes:
     range: double
   sockg_driedHarvestedResidue_kg_per_ha:
     name: sockg_driedHarvestedResidue_kg_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -794,7 +796,7 @@ attributes:
     range: double
   sockg_nonHarvestedResidueMoisturePercentStd:
     name: sockg_nonHarvestedResidueMoisturePercentStd
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -814,7 +816,7 @@ attributes:
     range: double
   sockg_rootDryMatterStd_kg_per_ha:
     name: sockg_rootDryMatterStd_kg_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -833,7 +835,7 @@ attributes:
     range: double
   sockg_harvestedFrac:
     name: sockg_harvestedFrac
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -857,7 +859,7 @@ attributes:
     - range: double
   sockg_growthStage:
     name: sockg_growthStage
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -928,7 +930,7 @@ attributes:
     - range: double
   sockg_cornEarHeightStd_cm:
     name: sockg_cornEarHeightStd_cm
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -947,7 +949,7 @@ attributes:
     range: double
   sockg_rootMoisturePercent:
     name: sockg_rootMoisturePercent
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -966,7 +968,7 @@ attributes:
     range: double
   sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha:
     name: sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -986,7 +988,7 @@ attributes:
     range: double
   sockg_nonHarvestedResidueCarbonContentStd_kgC_per_ha:
     name: sockg_nonHarvestedResidueCarbonContentStd_kgC_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1006,7 +1008,7 @@ attributes:
     range: double
   sockg_nonHarvestedResidueCarbonContent_kgC_per_ha:
     name: sockg_nonHarvestedResidueCarbonContent_kgC_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1026,7 +1028,7 @@ attributes:
     range: double
   sockg_grainNitrogenStd_kgN_per_ha:
     name: sockg_grainNitrogenStd_kgN_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1045,7 +1047,7 @@ attributes:
     range: double
   sockg_rootNitrogenContent_kgN_per_ha:
     name: sockg_rootNitrogenContent_kgN_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1065,7 +1067,7 @@ attributes:
     range: double
   sockg_driedHarvestedResidueStd_kg_per_ha:
     name: sockg_driedHarvestedResidueStd_kg_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1085,7 +1087,7 @@ attributes:
     range: double
   sockg_rootCarbonContentStd_kgC_per_ha:
     name: sockg_rootCarbonContentStd_kgC_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1105,7 +1107,7 @@ attributes:
     range: double
   sockg_rootCarbonContent_kgC_per_ha:
     name: sockg_rootCarbonContent_kgC_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1124,7 +1126,7 @@ attributes:
     range: double
   sockg_nonHarvestedResidueMassStd_kg_per_ha:
     name: sockg_nonHarvestedResidueMassStd_kg_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1144,7 +1146,7 @@ attributes:
     range: double
   sockg_measResidueMgnt_UID:
     name: sockg_measResidueMgnt_UID
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1163,7 +1165,7 @@ attributes:
     range: string
   sockg_grainYieldStd_kg_per_ha:
     name: sockg_grainYieldStd_kg_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1182,7 +1184,7 @@ attributes:
     range: double
   sockg_rootDryMatter_kg_per_ha:
     name: sockg_rootDryMatter_kg_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1201,7 +1203,7 @@ attributes:
     range: double
   sockg_grainMoisturePercent:
     name: sockg_grainMoisturePercent
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1220,7 +1222,7 @@ attributes:
     range: double
   sockg_treatmentId:
     name: sockg_treatmentId
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1307,7 +1309,7 @@ attributes:
     range: string
   sockg_date:
     name: sockg_date
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1395,7 +1397,7 @@ attributes:
     - range: double
   sockg_grainCarbonStd_kgC_per_ha:
     name: sockg_grainCarbonStd_kgC_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1414,7 +1416,7 @@ attributes:
     range: double
   sockg_nonHarvestedResidueMass_kg_per_ha:
     name: sockg_nonHarvestedResidueMass_kg_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1434,7 +1436,7 @@ attributes:
     range: double
   sockg_nonHarvestedResidueNitrogenContentStd_kgN_per_ha:
     name: sockg_nonHarvestedResidueNitrogenContentStd_kgN_per_ha
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

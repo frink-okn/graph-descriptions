@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (phila_BlockGroup)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -42,7 +42,7 @@ URI: [phila:BlockGroup](https://metadata.phila.gov/BlockGroup)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [phila_belongs_to](../slots/phila_belongs_to.md) | 0..1 <br/> [PhilaCensusTract](../classes/PhilaCensusTract.md) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [phila_belongs_to](../slots/phila_belongs_to.md) | 0..1 <br/> [PhilaCensusTract](../classes/PhilaCensusTract.md) | No slot description provided | direct |
 
 
 
@@ -96,7 +96,7 @@ URI: [phila:BlockGroup](https://metadata.phila.gov/BlockGroup)
 <details>
 ```yaml
 name: phila_BlockGroup
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -105,6 +105,7 @@ todos:
 notes:
 - Class with 8 occurences.
 from_schema: neighborhood-kg
+rank: 1000
 slots:
 - phila_belongs_to
 class_uri: phila:BlockGroup
@@ -117,7 +118,7 @@ class_uri: phila:BlockGroup
 <details>
 ```yaml
 name: phila_BlockGroup
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -126,10 +127,11 @@ todos:
 notes:
 - Class with 8 occurences.
 from_schema: neighborhood-kg
+rank: 1000
 attributes:
   phila_belongs_to:
     name: phila_belongs_to
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

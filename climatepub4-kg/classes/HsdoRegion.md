@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for this class (type)? (hsdo_Region)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -93,7 +93,7 @@ URI: [hsdo:Region](http://schema.org/Region)
 <details>
 ```yaml
 name: hsdo_Region
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -104,6 +104,7 @@ notes:
 examples:
 - value: https://climateKG.org/entity/0ad9d595-8e1d-478b-873e-5b4a112354d4
 from_schema: climatepub4-kg
+rank: 1000
 class_uri: hsdo:Region
 
 ```
@@ -114,7 +115,7 @@ class_uri: hsdo:Region
 <details>
 ```yaml
 name: hsdo_Region
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for this class (type)?
 todos:
 - TODO -- Todos for this class go here
@@ -125,6 +126,7 @@ notes:
 examples:
 - value: https://climateKG.org/entity/0ad9d595-8e1d-478b-873e-5b4a112354d4
 from_schema: climatepub4-kg
+rank: 1000
 class_uri: hsdo:Region
 
 ```

@@ -3,7 +3,7 @@
 # Slot: sockg_latitude_decimal_deg
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -23,7 +23,7 @@ URI: [sockg:latitude_decimal_deg](http://www.semanticweb.org/sockg/ontologies/20
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgField](../classes/SockgField.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [SockgField](../classes/SockgField.md) | No type description provided |  no  |
 
 
 
@@ -87,7 +87,7 @@ URI: [sockg:latitude_decimal_deg](http://www.semanticweb.org/sockg/ontologies/20
 <details>
 ```yaml
 name: sockg_latitude_decimal_deg
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos

@@ -3,7 +3,7 @@
 # Class: TODO -- what's a good name for what this class (type) describes? (sockg_SoilBiologicalSample)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -240,29 +240,29 @@ URI: [sockg:SoilBiologicalSample](http://www.semanticweb.org/sockg/ontologies/20
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [sockg_particulateOrganicMatterStd_gC_per_kg](../slots/sockg_particulateOrganicMatterStd_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_carbonMicrobialBiomassStd_mgC_per_kg](../slots/sockg_carbonMicrobialBiomassStd_mgC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_organicPlantMaterial_gC_per_kg](../slots/sockg_organicPlantMaterial_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_alkPhosphatase_mg_per_kg_per_hr](../slots/sockg_alkPhosphatase_mg_per_kg_per_hr.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_acidPhosphatase_mg_per_kg_per_hr](../slots/sockg_acidPhosphatase_mg_per_kg_per_hr.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_glomalinStd_g_per_kg](../slots/sockg_glomalinStd_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_glucosidaseStd_mg_per_kg_per_hr](../slots/sockg_glucosidaseStd_mg_per_kg_per_hr.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_glucosidase_mg_per_kg_per_hr](../slots/sockg_glucosidase_mg_per_kg_per_hr.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_carbonMicrobialBiomass_mgC_per_kg](../slots/sockg_carbonMicrobialBiomass_mgC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_lowerDepth_cm](../slots/sockg_lowerDepth_cm.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_glucosaminidase_mg_per_kg_per_hr](../slots/sockg_glucosaminidase_mg_per_kg_per_hr.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_glomalin_g_per_kg](../slots/sockg_glomalin_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_upperDepth_cm](../slots/sockg_upperDepth_cm.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_glucosaminidaseStd_mg_per_kg_per_hr](../slots/sockg_glucosaminidaseStd_mg_per_kg_per_hr.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_particulateOrganicMatter_gC_per_kg](../slots/sockg_particulateOrganicMatter_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_organicPlantMaterialStd_gC_per_kg](../slots/sockg_organicPlantMaterialStd_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_nitrogenMicrobialBiomass_mgN_per_kg](../slots/sockg_nitrogenMicrobialBiomass_mgN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_nitrogenMicrobialBiomassStd_mgN_per_kg](../slots/sockg_nitrogenMicrobialBiomassStd_mgN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_alkPhosphataseStd_mg_per_kg_per_hr](../slots/sockg_alkPhosphataseStd_mg_per_kg_per_hr.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_measSoilBiol_UID](../slots/sockg_measSoilBiol_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [sockg_acidPhosphataseStd_mg_per_kg_per_hr](../slots/sockg_acidPhosphataseStd_mg_per_kg_per_hr.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [sockg_particulateOrganicMatterStd_gC_per_kg](../slots/sockg_particulateOrganicMatterStd_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_carbonMicrobialBiomassStd_mgC_per_kg](../slots/sockg_carbonMicrobialBiomassStd_mgC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_organicPlantMaterial_gC_per_kg](../slots/sockg_organicPlantMaterial_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_alkPhosphatase_mg_per_kg_per_hr](../slots/sockg_alkPhosphatase_mg_per_kg_per_hr.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_acidPhosphatase_mg_per_kg_per_hr](../slots/sockg_acidPhosphatase_mg_per_kg_per_hr.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_glomalinStd_g_per_kg](../slots/sockg_glomalinStd_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_glucosidaseStd_mg_per_kg_per_hr](../slots/sockg_glucosidaseStd_mg_per_kg_per_hr.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_glucosidase_mg_per_kg_per_hr](../slots/sockg_glucosidase_mg_per_kg_per_hr.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_carbonMicrobialBiomass_mgC_per_kg](../slots/sockg_carbonMicrobialBiomass_mgC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_lowerDepth_cm](../slots/sockg_lowerDepth_cm.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot description provided | direct |
+| [sockg_glucosaminidase_mg_per_kg_per_hr](../slots/sockg_glucosaminidase_mg_per_kg_per_hr.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_glomalin_g_per_kg](../slots/sockg_glomalin_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_upperDepth_cm](../slots/sockg_upperDepth_cm.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot description provided | direct |
+| [sockg_glucosaminidaseStd_mg_per_kg_per_hr](../slots/sockg_glucosaminidaseStd_mg_per_kg_per_hr.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_particulateOrganicMatter_gC_per_kg](../slots/sockg_particulateOrganicMatter_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_organicPlantMaterialStd_gC_per_kg](../slots/sockg_organicPlantMaterialStd_gC_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_nitrogenMicrobialBiomass_mgN_per_kg](../slots/sockg_nitrogenMicrobialBiomass_mgN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_nitrogenMicrobialBiomassStd_mgN_per_kg](../slots/sockg_nitrogenMicrobialBiomassStd_mgN_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_alkPhosphataseStd_mg_per_kg_per_hr](../slots/sockg_alkPhosphataseStd_mg_per_kg_per_hr.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [sockg_measSoilBiol_UID](../slots/sockg_measSoilBiol_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [sockg_acidPhosphataseStd_mg_per_kg_per_hr](../slots/sockg_acidPhosphataseStd_mg_per_kg_per_hr.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
 
 
 
@@ -330,7 +330,7 @@ URI: [sockg:SoilBiologicalSample](http://www.semanticweb.org/sockg/ontologies/20
 <details>
 ```yaml
 name: sockg_SoilBiologicalSample
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -341,6 +341,7 @@ notes:
 examples:
 - value: neo4j://graph.individuals#244262
 from_schema: soc-kg/main
+rank: 1000
 slots:
 - sockg_particulateOrganicMatterStd_gC_per_kg
 - sockg_carbonMicrobialBiomassStd_mgC_per_kg
@@ -375,7 +376,7 @@ class_uri: sockg:SoilBiologicalSample
 <details>
 ```yaml
 name: sockg_SoilBiologicalSample
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: TODO -- what's a good name for what this class (type) describes?
 todos:
 - TODO -- Todos for this class go here
@@ -386,10 +387,11 @@ notes:
 examples:
 - value: neo4j://graph.individuals#244262
 from_schema: soc-kg/main
+rank: 1000
 attributes:
   sockg_particulateOrganicMatterStd_gC_per_kg:
     name: sockg_particulateOrganicMatterStd_gC_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -410,7 +412,7 @@ attributes:
     range: double
   sockg_carbonMicrobialBiomassStd_mgC_per_kg:
     name: sockg_carbonMicrobialBiomassStd_mgC_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -431,7 +433,7 @@ attributes:
     range: double
   sockg_organicPlantMaterial_gC_per_kg:
     name: sockg_organicPlantMaterial_gC_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -452,7 +454,7 @@ attributes:
     range: double
   sockg_alkPhosphatase_mg_per_kg_per_hr:
     name: sockg_alkPhosphatase_mg_per_kg_per_hr
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -473,7 +475,7 @@ attributes:
     range: double
   sockg_acidPhosphatase_mg_per_kg_per_hr:
     name: sockg_acidPhosphatase_mg_per_kg_per_hr
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -494,7 +496,7 @@ attributes:
     range: double
   sockg_glomalinStd_g_per_kg:
     name: sockg_glomalinStd_g_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -514,7 +516,7 @@ attributes:
     range: double
   sockg_glucosidaseStd_mg_per_kg_per_hr:
     name: sockg_glucosidaseStd_mg_per_kg_per_hr
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -535,7 +537,7 @@ attributes:
     range: double
   sockg_glucosidase_mg_per_kg_per_hr:
     name: sockg_glucosidase_mg_per_kg_per_hr
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -555,7 +557,7 @@ attributes:
     range: double
   sockg_carbonMicrobialBiomass_mgC_per_kg:
     name: sockg_carbonMicrobialBiomass_mgC_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -576,7 +578,7 @@ attributes:
     range: double
   sockg_lowerDepth_cm:
     name: sockg_lowerDepth_cm
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -607,7 +609,7 @@ attributes:
     - range: integer
   sockg_glucosaminidase_mg_per_kg_per_hr:
     name: sockg_glucosaminidase_mg_per_kg_per_hr
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -628,7 +630,7 @@ attributes:
     range: double
   sockg_glomalin_g_per_kg:
     name: sockg_glomalin_g_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -648,7 +650,7 @@ attributes:
     range: double
   sockg_upperDepth_cm:
     name: sockg_upperDepth_cm
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -679,7 +681,7 @@ attributes:
     - range: integer
   sockg_glucosaminidaseStd_mg_per_kg_per_hr:
     name: sockg_glucosaminidaseStd_mg_per_kg_per_hr
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -700,7 +702,7 @@ attributes:
     range: double
   sockg_date:
     name: sockg_date
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -788,7 +790,7 @@ attributes:
     - range: double
   sockg_particulateOrganicMatter_gC_per_kg:
     name: sockg_particulateOrganicMatter_gC_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -809,7 +811,7 @@ attributes:
     range: double
   sockg_organicPlantMaterialStd_gC_per_kg:
     name: sockg_organicPlantMaterialStd_gC_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -830,7 +832,7 @@ attributes:
     range: double
   sockg_treatmentId:
     name: sockg_treatmentId
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -917,7 +919,7 @@ attributes:
     range: string
   sockg_nitrogenMicrobialBiomass_mgN_per_kg:
     name: sockg_nitrogenMicrobialBiomass_mgN_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -938,7 +940,7 @@ attributes:
     range: double
   sockg_nitrogenMicrobialBiomassStd_mgN_per_kg:
     name: sockg_nitrogenMicrobialBiomassStd_mgN_per_kg
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -959,7 +961,7 @@ attributes:
     range: double
   sockg_alkPhosphataseStd_mg_per_kg_per_hr:
     name: sockg_alkPhosphataseStd_mg_per_kg_per_hr
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -980,7 +982,7 @@ attributes:
     range: double
   sockg_measSoilBiol_UID:
     name: sockg_measSoilBiol_UID
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -1000,7 +1002,7 @@ attributes:
     range: string
   sockg_acidPhosphataseStd_mg_per_kg_per_hr:
     name: sockg_acidPhosphataseStd_mg_per_kg_per_hr
-    description: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

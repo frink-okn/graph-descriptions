@@ -3,7 +3,7 @@
 # Class: EGAD - Site Type (meegad_EGAD-SiteType)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No type description provided_
 
 
 
@@ -51,8 +51,8 @@ URI: [meegad:EGAD-SiteType](http://sawgraph.spatialai.org/v1/me-egad#EGAD-SiteTy
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [http___www.w3.org_2008_05_skos#definition](../slots/http___www.w3.org_2008_05_skos#definition.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | TODO -- tell the world what this slot (predicate) describes | direct |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
+| [http___www.w3.org_2008_05_skos#definition](../slots/http___www.w3.org_2008_05_skos#definition.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
 
 
 
@@ -106,7 +106,7 @@ URI: [meegad:EGAD-SiteType](http://sawgraph.spatialai.org/v1/me-egad#EGAD-SiteTy
 <details>
 ```yaml
 name: meegad_EGAD-SiteType
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: EGAD - Site Type
 todos:
 - TODO -- Todos for this class go here
@@ -115,6 +115,7 @@ todos:
 notes:
 - Class with 62 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 slots:
 - http___www.w3.org_2008_05_skos#definition
 - rdfs_label
@@ -128,7 +129,7 @@ class_uri: meegad:EGAD-SiteType
 <details>
 ```yaml
 name: meegad_EGAD-SiteType
-description: TODO -- tell the world what this class (type) describes.
+description: No type description provided
 title: EGAD - Site Type
 todos:
 - TODO -- Todos for this class go here
@@ -137,11 +138,12 @@ todos:
 notes:
 - Class with 62 occurences.
 from_schema: sawgraph-kg
+rank: 1000
 attributes:
   http___www.w3.org_2008_05_skos#definition:
     name: http___www.w3.org_2008_05_skos#definition
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos
@@ -164,8 +166,8 @@ attributes:
     range: string
   rdfs_label:
     name: rdfs_label
-    description: TODO -- tell the world what this slot (predicate) describes.
-    title: TODO -- tell the world what this slot (predicate) describes.
+    description: No slot description provided
+    title: No slot description provided
     todos:
     - TODO -- Todos for this slot go here
     - or you can delete the todos

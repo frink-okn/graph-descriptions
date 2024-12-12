@@ -3,7 +3,7 @@
 # Slot: rural_settlementtype_description
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot description provided_
 
 
 
@@ -87,7 +87,7 @@ URI: [rural:settlementtype/description](http://sail.ua.edu/ruralkg/settlementtyp
 <details>
 ```yaml
 name: rural_settlementtype_description
-description: TODO -- tell the world what this slot (predicate) describes.
+description: No slot description provided
 todos:
 - TODO -- Todos for this slot go here
 - or you can delete the todos
