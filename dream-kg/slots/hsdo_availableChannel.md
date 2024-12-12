@@ -44,7 +44,7 @@ URI: [hsdo:availableChannel](hsdo:availableChannel)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Service → hsdo_ServiceChannel | dreamkg:service/6710596967858176 | hsdo:availableChannel | dreamkg:service/channel/P-6710596967858176 |
+| hsdo_Service → hsdo_ServiceChannel | dreamkg:service/5715375002484736 | hsdo:availableChannel | dreamkg:service/channel/AB-5715375002484736 |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_Service → hsdo_ServiceChannel
   object:
-    example_object: dreamkg:service/channel/P-6710596967858176
+    example_object: dreamkg:service/channel/AB-5715375002484736
     example_predicate: hsdo:availableChannel
-    example_subject: dreamkg:service/6710596967858176
+    example_subject: dreamkg:service/5715375002484736
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:availableChannel

@@ -44,7 +44,7 @@ URI: [hsdo:sameAs](hsdo:sameAs)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Organization → uri | dreamkg:service/provider/4542572480692224 | hsdo:sameAs | https://www.facebook.com/ChildGuidanceResourceCenters |
+| hsdo_Organization → uri | dreamkg:service/provider/6378689670414336 | hsdo:sameAs | https://www.facebook.com/NorthEastTreatmentCenters/ |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_Organization → uri
   object:
-    example_object: https://www.facebook.com/ChildGuidanceResourceCenters
+    example_object: https://www.facebook.com/NorthEastTreatmentCenters/
     example_predicate: hsdo:sameAs
-    example_subject: dreamkg:service/provider/4542572480692224
+    example_subject: dreamkg:service/provider/6378689670414336
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:sameAs

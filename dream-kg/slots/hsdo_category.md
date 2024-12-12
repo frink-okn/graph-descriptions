@@ -44,14 +44,14 @@ URI: [hsdo:category](hsdo:category)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Service → hsdo_Audience | dreamkg:service/6710596967858176 | hsdo:category | dreamkg:category/audience/Veterans |
-| hsdo_Service → hsdo_CategoryCode | dreamkg:service/6710596967858176 | hsdo:category | dreamkg:category/service/other/SkillsAndTraining |
+| hsdo_Service → hsdo_CategoryCode | dreamkg:service/5181712996761600 | hsdo:category | dreamkg:category/service/main/OneOnOneSupport |
+| hsdo_Service → hsdo_Audience | dreamkg:service/6272068172382208 | hsdo:category | dreamkg:category/audience/YoungAdults |
 
 
 ## Comments
 
-* 539 occurrences with subject type hsdo_Service and object type hsdo_Audience.
 * 806 occurrences with subject type hsdo_Service and object type hsdo_CategoryCode.
+* 539 occurrences with subject type hsdo_Service and object type hsdo_Audience.
 
 ## Identifier and Mapping Information
 
@@ -86,19 +86,19 @@ URI: [hsdo:category](hsdo:category)
 name: hsdo_category
 description: No slot (predicate) description specified
 comments:
-- 539 occurrences with subject type hsdo_Service and object type hsdo_Audience.
 - 806 occurrences with subject type hsdo_Service and object type hsdo_CategoryCode.
+- 539 occurrences with subject type hsdo_Service and object type hsdo_Audience.
 examples:
-- description: hsdo_Service → hsdo_Audience
-  object:
-    example_object: dreamkg:category/audience/Veterans
-    example_predicate: hsdo:category
-    example_subject: dreamkg:service/6710596967858176
 - description: hsdo_Service → hsdo_CategoryCode
   object:
-    example_object: dreamkg:category/service/other/SkillsAndTraining
+    example_object: dreamkg:category/service/main/OneOnOneSupport
     example_predicate: hsdo:category
-    example_subject: dreamkg:service/6710596967858176
+    example_subject: dreamkg:service/5181712996761600
+- description: hsdo_Service → hsdo_Audience
+  object:
+    example_object: dreamkg:category/audience/YoungAdults
+    example_predicate: hsdo:category
+    example_subject: dreamkg:service/6272068172382208
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:category

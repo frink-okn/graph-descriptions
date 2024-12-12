@@ -165,9 +165,9 @@ attributes:
     examples:
     - description: hsdo_ServiceChannel → hsdo_ContactPoint
       object:
-        example_object: dreamkg:service/phone/6710596967858176
+        example_object: dreamkg:service/phone/5017006984921088
         example_predicate: hsdo:servicePhone
-        example_subject: dreamkg:service/channel/P-6710596967858176
+        example_subject: dreamkg:service/channel/P-5017006984921088
     from_schema: dream-kg
     rank: 1000
     slot_uri: hsdo:servicePhone
@@ -184,9 +184,9 @@ attributes:
     examples:
     - description: hsdo_ServiceChannel → hsdo_Place
       object:
-        example_object: dreamkg:service/location/6710596967858176
+        example_object: dreamkg:service/location/5640139036164096
         example_predicate: hsdo:serviceLocation
-        example_subject: dreamkg:service/channel/P-6710596967858176
+        example_subject: dreamkg:service/channel/P-5640139036164096
     from_schema: dream-kg
     rank: 1000
     slot_uri: hsdo:serviceLocation
@@ -203,9 +203,9 @@ attributes:
     examples:
     - description: hsdo_ServiceChannel → uri
       object:
-        example_object: https://www.auntbertha.com//child-guidance-resource-centers-%2528cgrc%2529--philadelphia-pa--drug-and-alcohol-services/4542572480692224?postal=19139
+        example_object: https://www.auntbertha.com//northeast-treatment-centers---otp--philadelphia-pa--medication-assisted-treatment/6378689670414336?postal=19141
         example_predicate: hsdo:serviceUrl
-        example_subject: dreamkg:service/channel/AB-4542572480692224
+        example_subject: dreamkg:service/channel/AB-6378689670414336
     from_schema: dream-kg
     rank: 1000
     slot_uri: hsdo:serviceUrl
@@ -224,7 +224,7 @@ attributes:
       object:
         example_object: Aunt Bertha
         example_predicate: hsdo:disambiguatingDescription
-        example_subject: dreamkg:service/channel/AB-4542572480692224
+        example_subject: dreamkg:service/channel/AB-5922109384294400
     from_schema: dream-kg
     rank: 1000
     slot_uri: hsdo:disambiguatingDescription

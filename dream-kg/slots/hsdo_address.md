@@ -44,7 +44,7 @@ URI: [hsdo:address](hsdo:address)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Place → string | dreamkg:service/location/4542572480692224 | hsdo:address | 2901 Island Avenue, Philadelphia, PA 19153 |
+| hsdo_Place → string | dreamkg:service/location/5552002522939392 | hsdo:address | 2107 West Tioga Street, Philadelphia, PA 19140 |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_Place → string
   object:
-    example_object: 2901 Island Avenue, Philadelphia, PA 19153
+    example_object: 2107 West Tioga Street, Philadelphia, PA 19140
     example_predicate: hsdo:address
-    example_subject: dreamkg:service/location/4542572480692224
+    example_subject: dreamkg:service/location/5552002522939392
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:address

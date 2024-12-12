@@ -44,7 +44,7 @@ URI: [hsdo:codeValue](hsdo:codeValue)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_CategoryCode → string | dreamkg:category/availability/Available | hsdo:codeValue | available |
+| hsdo_CategoryCode → string | dreamkg:category/service/other/HelpFindSchool | hsdo:codeValue | help find school |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_CategoryCode → string
   object:
-    example_object: available
+    example_object: help find school
     example_predicate: hsdo:codeValue
-    example_subject: dreamkg:category/availability/Available
+    example_subject: dreamkg:category/service/other/HelpFindSchool
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:codeValue

@@ -44,7 +44,7 @@ URI: [hsdo:telephone](hsdo:telephone)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_ContactPoint → string | dreamkg:service/phone/4542572480692224 | hsdo:telephone | 484-454-8720 |
+| hsdo_ContactPoint → string | dreamkg:service/phone/5992920927698944 | hsdo:telephone | 215-496-9610 |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_ContactPoint → string
   object:
-    example_object: 484-454-8720
+    example_object: 215-496-9610
     example_predicate: hsdo:telephone
-    example_subject: dreamkg:service/phone/4542572480692224
+    example_subject: dreamkg:service/phone/5992920927698944
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:telephone

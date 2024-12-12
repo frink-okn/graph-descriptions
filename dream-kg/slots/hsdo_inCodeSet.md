@@ -44,7 +44,7 @@ URI: [hsdo:inCodeSet](hsdo:inCodeSet)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_CategoryCode → uri | dreamkg:category/availability/Available | hsdo:inCodeSet | dreamkg:__CategoryCodeSet_Availability |
+| hsdo_CategoryCode → uri | dreamkg:category/availability/TemporarilyClosed | hsdo:inCodeSet | dreamkg:__CategoryCodeSet_Availability |
 
 
 ## Comments
@@ -90,7 +90,7 @@ examples:
   object:
     example_object: dreamkg:__CategoryCodeSet_Availability
     example_predicate: hsdo:inCodeSet
-    example_subject: dreamkg:category/availability/Available
+    example_subject: dreamkg:category/availability/TemporarilyClosed
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:inCodeSet

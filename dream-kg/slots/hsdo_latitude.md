@@ -44,7 +44,7 @@ URI: [hsdo:latitude](hsdo:latitude)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Place → decimal | dreamkg:service/location/4542572480692224 | hsdo:latitude | 39.9028317 |
+| hsdo_Place → decimal | dreamkg:service/location/5017006984921088 | hsdo:latitude | 40.0453383 |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_Place → decimal
   object:
-    example_object: '39.9028317'
+    example_object: '40.0453383'
     example_predicate: hsdo:latitude
-    example_subject: dreamkg:service/location/4542572480692224
+    example_subject: dreamkg:service/location/5017006984921088
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:latitude

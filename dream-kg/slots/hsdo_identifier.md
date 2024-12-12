@@ -45,8 +45,8 @@ URI: [hsdo:identifier](hsdo:identifier)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Service → string | dreamkg:service/4542572480692224 | hsdo:identifier | 4542572480692224 |
-| hsdo_AdministrativeArea → string | dreamkg:zip/17602 | hsdo:identifier | 17602 |
+| hsdo_Service → string | dreamkg:service/5367371355914240 | hsdo:identifier | 5367371355914240 |
+| hsdo_AdministrativeArea → string | dreamkg:zip/19320 | hsdo:identifier | 19320 |
 
 
 ## Comments
@@ -92,14 +92,14 @@ comments:
 examples:
 - description: hsdo_Service → string
   object:
-    example_object: '4542572480692224'
+    example_object: '5367371355914240'
     example_predicate: hsdo:identifier
-    example_subject: dreamkg:service/4542572480692224
+    example_subject: dreamkg:service/5367371355914240
 - description: hsdo_AdministrativeArea → string
   object:
-    example_object: '17602'
+    example_object: '19320'
     example_predicate: hsdo:identifier
-    example_subject: dreamkg:zip/17602
+    example_subject: dreamkg:zip/19320
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:identifier

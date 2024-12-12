@@ -44,7 +44,7 @@ URI: [hsdo:conditionsOfAccess](hsdo:conditionsOfAccess)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_TextObject → string | dreamkg:service/desc/4542572480692224 | hsdo:conditionsOfAccess | Must have Medical Assistance (Medicaid). This program helps people who are 13 to 19 years old. |
+| hsdo_TextObject → string | dreamkg:service/desc/4829363626049536 | hsdo:conditionsOfAccess | Must have Medicare or Medicaid. |
 
 
 ## Comments
@@ -88,10 +88,9 @@ comments:
 examples:
 - description: hsdo_TextObject → string
   object:
-    example_object: Must have Medical Assistance (Medicaid). This program helps people
-      who are 13 to 19 years old.
+    example_object: Must have Medicare or Medicaid.
     example_predicate: hsdo:conditionsOfAccess
-    example_subject: dreamkg:service/desc/4542572480692224
+    example_subject: dreamkg:service/desc/4829363626049536
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:conditionsOfAccess

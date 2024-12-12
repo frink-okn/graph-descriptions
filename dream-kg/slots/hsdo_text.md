@@ -44,7 +44,7 @@ URI: [hsdo:text](hsdo:text)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_TextObject → string | dreamkg:service/desc/4542572480692224 | hsdo:text | Child Guidance Resource Centers offers a supportive and effective program specifically for teenagers struggling with addiction. The Drug and Alcohol Service (D and A) is an extensive, family-based program that focuses on education, treatment and recovery from substance abuse. We supportively confront and coach our clients through the personal, academic, social and family problems created by and participating in the use of drugs and alcohol.Our treatment includes- Individual therapy- Family therapy- Group therapy- Relapse prevention techniques - After-care planningChild Guidance Resource Centers accepts Medicaid for their services. |
+| hsdo_TextObject → string | dreamkg:service/desc/6032260047568896 | hsdo:text | Merakey offers comprehensive clinical, evidence-based practice, and therapeutic programs in both community based and clinic based settings to address the impact of addiction on the community, family, and individual.Services Include:- Group, Family, and Individual Counseling- Outpatient and Intensive Outpatient Programs- Drug Free and Medication Assisted Modalities- Co-Occurring Disorders Treatment- Pharmacotherapy Programs- Drug and Alcohol Education- Life Skills Management- Relapse Prevention Planning- Drug ScreeningMerakey accepts Medicaid. |
 
 
 ## Comments
@@ -88,17 +88,16 @@ comments:
 examples:
 - description: hsdo_TextObject → string
   object:
-    example_object: Child Guidance Resource Centers offers a supportive and effective
-      program specifically for teenagers struggling with addiction. The Drug and Alcohol
-      Service (D and A) is an extensive, family-based program that focuses on education,
-      treatment and recovery from substance abuse. We supportively confront and coach
-      our clients through the personal, academic, social and family problems created
-      by and participating in the use of drugs and alcohol.Our treatment includes-
-      Individual therapy- Family therapy- Group therapy- Relapse prevention techniques
-      - After-care planningChild Guidance Resource Centers accepts Medicaid for their
-      services.
+    example_object: Merakey offers comprehensive clinical, evidence-based practice,
+      and therapeutic programs in both community based and clinic based settings to
+      address the impact of addiction on the community, family, and individual.Services
+      Include:- Group, Family, and Individual Counseling- Outpatient and Intensive
+      Outpatient Programs- Drug Free and Medication Assisted Modalities- Co-Occurring
+      Disorders Treatment- Pharmacotherapy Programs- Drug and Alcohol Education- Life
+      Skills Management- Relapse Prevention Planning- Drug ScreeningMerakey accepts
+      Medicaid.
     example_predicate: hsdo:text
-    example_subject: dreamkg:service/desc/4542572480692224
+    example_subject: dreamkg:service/desc/6032260047568896
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:text

@@ -44,7 +44,7 @@ URI: [hsdo:hoursAvailable](hsdo:hoursAvailable)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Service → hsdo_OpeningHoursSpecification | dreamkg:service/6710596967858176 | hsdo:hoursAvailable | dreamkg:service/hours/wednesday/6710596967858176 |
+| hsdo_Service → hsdo_OpeningHoursSpecification | dreamkg:service/5348732074983424 | hsdo:hoursAvailable | dreamkg:service/hours/monday/5348732074983424 |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_Service → hsdo_OpeningHoursSpecification
   object:
-    example_object: dreamkg:service/hours/wednesday/6710596967858176
+    example_object: dreamkg:service/hours/monday/5348732074983424
     example_predicate: hsdo:hoursAvailable
-    example_subject: dreamkg:service/6710596967858176
+    example_subject: dreamkg:service/5348732074983424
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:hoursAvailable

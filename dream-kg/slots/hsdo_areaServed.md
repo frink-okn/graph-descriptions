@@ -44,7 +44,7 @@ URI: [hsdo:areaServed](hsdo:areaServed)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Service → string | dreamkg:service/4542572480692224 | hsdo:areaServed | This program covers residents of the following counties: Chester County, PA, Delaware County, PA, Montgomery County, PA and Philadelphia County, PA. |
+| hsdo_Service → string | dreamkg:service/5385341432496128 | hsdo:areaServed | This program covers residents of the following counties: Chester County, PA and Delaware County, PA. |
 
 
 ## Comments
@@ -89,10 +89,9 @@ examples:
 - description: hsdo_Service → string
   object:
     example_object: 'This program covers residents of the following counties: Chester
-      County, PA, Delaware County, PA, Montgomery County, PA and Philadelphia County,
-      PA.'
+      County, PA and Delaware County, PA.'
     example_predicate: hsdo:areaServed
-    example_subject: dreamkg:service/4542572480692224
+    example_subject: dreamkg:service/5385341432496128
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:areaServed

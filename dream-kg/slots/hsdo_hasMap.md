@@ -44,7 +44,7 @@ URI: [hsdo:hasMap](hsdo:hasMap)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Place → uri | dreamkg:service/location/4542572480692224 | hsdo:hasMap | https://www.google.com/maps/?q=2901+Island+Avenue,+Philadelphia,+PA+19153/ |
+| hsdo_Place → uri | dreamkg:service/location/5997720409997312 | hsdo:hasMap | https://www.google.com/maps/?q=2212+Spruce+Street,+Philadelphia,+PA+19103/ |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_Place → uri
   object:
-    example_object: https://www.google.com/maps/?q=2901+Island+Avenue,+Philadelphia,+PA+19153/
+    example_object: https://www.google.com/maps/?q=2212+Spruce+Street,+Philadelphia,+PA+19103/
     example_predicate: hsdo:hasMap
-    example_subject: dreamkg:service/location/4542572480692224
+    example_subject: dreamkg:service/location/5997720409997312
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:hasMap
