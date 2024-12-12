@@ -9,7 +9,7 @@ _A geographical region, typically under the jurisdiction of a particular governm
 
 
 
-URI: [hsdo:AdministrativeArea](hsdo:AdministrativeArea)
+URI: [hsdo:AdministrativeArea](http://schema.org/AdministrativeArea)
 
 
 
@@ -59,14 +59,6 @@ URI: [hsdo:AdministrativeArea](hsdo:AdministrativeArea)
 
 
 
-
-## Examples
-
-| Value |
-| --- |
-| dreamkg:zip/19143 |
-
-
 ## Identifier and Mapping Information
 
 
@@ -110,8 +102,6 @@ description: A geographical region, typically under the jurisdiction of a partic
 title: AdministrativeArea
 notes:
 - Class with 39 occurrences.
-examples:
-- value: dreamkg:zip/19143
 from_schema: dream-kg
 rank: 1000
 slots:
@@ -131,8 +121,6 @@ description: A geographical region, typically under the jurisdiction of a partic
 title: AdministrativeArea
 notes:
 - Class with 39 occurrences.
-examples:
-- value: dreamkg:zip/19143
 from_schema: dream-kg
 rank: 1000
 attributes:
@@ -140,19 +128,19 @@ attributes:
     name: hsdo_identifier
     description: No slot (predicate) description specified
     comments:
-    - 87 occurrences with subject type hsdo_Service and object type string.
     - 39 occurrences with subject type hsdo_AdministrativeArea and object type string.
+    - 87 occurrences with subject type hsdo_Service and object type string.
     examples:
-    - description: hsdo_Service → string
-      object:
-        example_object: '5367371355914240'
-        example_predicate: hsdo:identifier
-        example_subject: dreamkg:service/5367371355914240
     - description: hsdo_AdministrativeArea → string
       object:
         example_object: '19320'
         example_predicate: hsdo:identifier
         example_subject: dreamkg:zip/19320
+    - description: hsdo_Service → string
+      object:
+        example_object: '6213025361821696'
+        example_predicate: hsdo:identifier
+        example_subject: dreamkg:service/6213025361821696
     from_schema: dream-kg
     rank: 1000
     slot_uri: hsdo:identifier

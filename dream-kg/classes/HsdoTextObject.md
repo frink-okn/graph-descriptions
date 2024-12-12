@@ -9,7 +9,7 @@ _A text file. The text can be unformatted or contain markup, html, etc._
 
 
 
-URI: [hsdo:TextObject](hsdo:TextObject)
+URI: [hsdo:TextObject](http://schema.org/TextObject)
 
 
 
@@ -69,6 +69,14 @@ URI: [hsdo:TextObject](hsdo:TextObject)
 
 
 
+
+## Examples
+
+| Value |
+| --- |
+| dreamkg:service/desc/5355967947210752 |
+
+
 ## Identifier and Mapping Information
 
 
@@ -111,6 +119,8 @@ description: A text file. The text can be unformatted or contain markup, html, e
 title: TextObject
 notes:
 - Class with 87 occurrences.
+examples:
+- value: dreamkg:service/desc/5355967947210752
 from_schema: dream-kg
 rank: 1000
 slots:
@@ -130,6 +140,8 @@ description: A text file. The text can be unformatted or contain markup, html, e
 title: TextObject
 notes:
 - Class with 87 occurrences.
+examples:
+- value: dreamkg:service/desc/5355967947210752
 from_schema: dream-kg
 rank: 1000
 attributes:
@@ -141,16 +153,17 @@ attributes:
     examples:
     - description: hsdo_TextObject → string
       object:
-        example_object: Merakey offers comprehensive clinical, evidence-based practice,
-          and therapeutic programs in both community based and clinic based settings
-          to address the impact of addiction on the community, family, and individual.Services
-          Include:- Group, Family, and Individual Counseling- Outpatient and Intensive
-          Outpatient Programs- Drug Free and Medication Assisted Modalities- Co-Occurring
-          Disorders Treatment- Pharmacotherapy Programs- Drug and Alcohol Education-
-          Life Skills Management- Relapse Prevention Planning- Drug ScreeningMerakey
-          accepts Medicaid.
+        example_object: Child Guidance Resource Centers offers a supportive and effective
+          program specifically for teenagers struggling with addiction. The Drug and
+          Alcohol Service (D and A) is an extensive, family-based program that focuses
+          on education, treatment and recovery from substance abuse. We supportively
+          confront and coach our clients through the personal, academic, social and
+          family problems created by and participating in the use of drugs and alcohol.Our
+          treatment includes- Individual therapy- Family therapy- Group therapy- Relapse
+          prevention techniques - After-care planningChild Guidance Resource Centers
+          accepts Medicaid for their services.
         example_predicate: hsdo:text
-        example_subject: dreamkg:service/desc/6032260047568896
+        example_subject: dreamkg:service/desc/4542572480692224
     from_schema: dream-kg
     rank: 1000
     slot_uri: hsdo:text
@@ -167,9 +180,9 @@ attributes:
     examples:
     - description: hsdo_TextObject → string
       object:
-        example_object: Must have Medicare or Medicaid.
+        example_object: This program accepts Medicaid and Medicare.
         example_predicate: hsdo:conditionsOfAccess
-        example_subject: dreamkg:service/desc/4829363626049536
+        example_subject: dreamkg:service/desc/5373543795916800
     from_schema: dream-kg
     rank: 1000
     slot_uri: hsdo:conditionsOfAccess

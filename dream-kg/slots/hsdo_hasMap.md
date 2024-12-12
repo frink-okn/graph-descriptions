@@ -9,7 +9,7 @@ _No slot (predicate) description specified_
 
 
 
-URI: [hsdo:hasMap](hsdo:hasMap)
+URI: [hsdo:hasMap](http://schema.org/hasMap)
 
 
 
@@ -44,7 +44,7 @@ URI: [hsdo:hasMap](hsdo:hasMap)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Place → uri | dreamkg:service/location/5997720409997312 | hsdo:hasMap | https://www.google.com/maps/?q=2212+Spruce+Street,+Philadelphia,+PA+19103/ |
+| hsdo_Place → uri | dreamkg:service/location/5348732074983424 | hsdo:hasMap | https://www.google.com/maps/?q=4301+Rising+Sun+Avenue,+Philadelphia,+PA+19140/ |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_Place → uri
   object:
-    example_object: https://www.google.com/maps/?q=2212+Spruce+Street,+Philadelphia,+PA+19103/
+    example_object: https://www.google.com/maps/?q=4301+Rising+Sun+Avenue,+Philadelphia,+PA+19140/
     example_predicate: hsdo:hasMap
-    example_subject: dreamkg:service/location/5997720409997312
+    example_subject: dreamkg:service/location/5348732074983424
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:hasMap

@@ -9,7 +9,7 @@ _No slot (predicate) description specified_
 
 
 
-URI: [hsdo:name](hsdo:name)
+URI: [hsdo:name](http://schema.org/name)
 
 
 
@@ -45,8 +45,8 @@ URI: [hsdo:name](hsdo:name)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Service → string | dreamkg:service/5398794886447104 | hsdo:name | Emergency Shelter |
-| hsdo_Organization → string | dreamkg:service/provider/4829363626049536 | hsdo:name | Belmont Behavioral Health System |
+| hsdo_Service → string | dreamkg:service/4909220273061888 | hsdo:name | Youth Services |
+| hsdo_Organization → string | dreamkg:service/provider/4692155605712896 | hsdo:name | Gaudenzia |
 
 
 ## Comments
@@ -92,14 +92,14 @@ comments:
 examples:
 - description: hsdo_Service → string
   object:
-    example_object: Emergency Shelter
+    example_object: Youth Services
     example_predicate: hsdo:name
-    example_subject: dreamkg:service/5398794886447104
+    example_subject: dreamkg:service/4909220273061888
 - description: hsdo_Organization → string
   object:
-    example_object: Belmont Behavioral Health System
+    example_object: Gaudenzia
     example_predicate: hsdo:name
-    example_subject: dreamkg:service/provider/4829363626049536
+    example_subject: dreamkg:service/provider/4692155605712896
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:name

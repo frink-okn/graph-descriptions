@@ -9,7 +9,7 @@ _A contact point&#x2014;for example, a Customer Complaints department._
 
 
 
-URI: [hsdo:ContactPoint](hsdo:ContactPoint)
+URI: [hsdo:ContactPoint](http://schema.org/ContactPoint)
 
 
 
@@ -64,7 +64,7 @@ URI: [hsdo:ContactPoint](hsdo:ContactPoint)
 
 | Value |
 | --- |
-| dreamkg:service/phone/5518091445075968 |
+| dreamkg:service/phone/5385341432496128 |
 
 
 ## Identifier and Mapping Information
@@ -110,7 +110,7 @@ title: ContactPoint
 notes:
 - Class with 87 occurrences.
 examples:
-- value: dreamkg:service/phone/5518091445075968
+- value: dreamkg:service/phone/5385341432496128
 from_schema: dream-kg
 rank: 1000
 slots:
@@ -130,7 +130,7 @@ title: ContactPoint
 notes:
 - Class with 87 occurrences.
 examples:
-- value: dreamkg:service/phone/5518091445075968
+- value: dreamkg:service/phone/5385341432496128
 from_schema: dream-kg
 rank: 1000
 attributes:
@@ -142,9 +142,9 @@ attributes:
     examples:
     - description: hsdo_ContactPoint → string
       object:
-        example_object: 215-496-9610
+        example_object: 833-976-4357
         example_predicate: hsdo:telephone
-        example_subject: dreamkg:service/phone/5992920927698944
+        example_subject: dreamkg:service/phone/4692155605712896
     from_schema: dream-kg
     rank: 1000
     slot_uri: hsdo:telephone

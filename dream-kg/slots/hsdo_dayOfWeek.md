@@ -9,7 +9,7 @@ _No slot (predicate) description specified_
 
 
 
-URI: [hsdo:dayOfWeek](hsdo:dayOfWeek)
+URI: [hsdo:dayOfWeek](http://schema.org/dayOfWeek)
 
 
 
@@ -44,7 +44,7 @@ URI: [hsdo:dayOfWeek](hsdo:dayOfWeek)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_OpeningHoursSpecification → string | dreamkg:service/hours/wednesday/4964759830003712 | hsdo:dayOfWeek | Wednesday |
+| hsdo_OpeningHoursSpecification → string | dreamkg:service/hours/thursday/5639251868516352 | hsdo:dayOfWeek | Thursday |
 
 
 ## Comments
@@ -89,9 +89,9 @@ comments:
 examples:
 - description: hsdo_OpeningHoursSpecification → string
   object:
-    example_object: Wednesday
+    example_object: Thursday
     example_predicate: hsdo:dayOfWeek
-    example_subject: dreamkg:service/hours/wednesday/4964759830003712
+    example_subject: dreamkg:service/hours/thursday/5639251868516352
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:dayOfWeek

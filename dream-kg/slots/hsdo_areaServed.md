@@ -9,7 +9,7 @@ _No slot (predicate) description specified_
 
 
 
-URI: [hsdo:areaServed](hsdo:areaServed)
+URI: [hsdo:areaServed](http://schema.org/areaServed)
 
 
 

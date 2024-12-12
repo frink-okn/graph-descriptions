@@ -9,7 +9,7 @@ _No slot (predicate) description specified_
 
 
 
-URI: [hsdo:serviceUrl](hsdo:serviceUrl)
+URI: [hsdo:serviceUrl](http://schema.org/serviceUrl)
 
 
 
@@ -44,7 +44,7 @@ URI: [hsdo:serviceUrl](hsdo:serviceUrl)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_ServiceChannel → uri | dreamkg:service/channel/AB-6378689670414336 | hsdo:serviceUrl | https://www.auntbertha.com//northeast-treatment-centers---otp--philadelphia-pa--medication-assisted-treatment/6378689670414336?postal=19141 |
+| hsdo_ServiceChannel → uri | dreamkg:service/channel/AB-6032260047568896 | hsdo:serviceUrl | https://www.auntbertha.com//merakey---pennsylvania--philadelphia-pa--adult-substance-use-disorder-services/6032260047568896?postal=19139 |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_ServiceChannel → uri
   object:
-    example_object: https://www.auntbertha.com//northeast-treatment-centers---otp--philadelphia-pa--medication-assisted-treatment/6378689670414336?postal=19141
+    example_object: https://www.auntbertha.com//merakey---pennsylvania--philadelphia-pa--adult-substance-use-disorder-services/6032260047568896?postal=19139
     example_predicate: hsdo:serviceUrl
-    example_subject: dreamkg:service/channel/AB-6378689670414336
+    example_subject: dreamkg:service/channel/AB-6032260047568896
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:serviceUrl

@@ -9,7 +9,7 @@ _No slot (predicate) description specified_
 
 
 
-URI: [hsdo:provider](hsdo:provider)
+URI: [hsdo:provider](http://schema.org/provider)
 
 
 
@@ -44,7 +44,7 @@ URI: [hsdo:provider](hsdo:provider)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Service → hsdo_Organization | dreamkg:service/6206753615380480 | hsdo:provider | dreamkg:service/provider/6206753615380480 |
+| hsdo_Service → hsdo_Organization | dreamkg:service/4689179354857472 | hsdo:provider | dreamkg:service/provider/4689179354857472 |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_Service → hsdo_Organization
   object:
-    example_object: dreamkg:service/provider/6206753615380480
+    example_object: dreamkg:service/provider/4689179354857472
     example_predicate: hsdo:provider
-    example_subject: dreamkg:service/6206753615380480
+    example_subject: dreamkg:service/4689179354857472
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:provider

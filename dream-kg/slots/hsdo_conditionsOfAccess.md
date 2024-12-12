@@ -9,7 +9,7 @@ _No slot (predicate) description specified_
 
 
 
-URI: [hsdo:conditionsOfAccess](hsdo:conditionsOfAccess)
+URI: [hsdo:conditionsOfAccess](http://schema.org/conditionsOfAccess)
 
 
 
@@ -44,7 +44,7 @@ URI: [hsdo:conditionsOfAccess](hsdo:conditionsOfAccess)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_TextObject → string | dreamkg:service/desc/4829363626049536 | hsdo:conditionsOfAccess | Must have Medicare or Medicaid. |
+| hsdo_TextObject → string | dreamkg:service/desc/5373543795916800 | hsdo:conditionsOfAccess | This program accepts Medicaid and Medicare. |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_TextObject → string
   object:
-    example_object: Must have Medicare or Medicaid.
+    example_object: This program accepts Medicaid and Medicare.
     example_predicate: hsdo:conditionsOfAccess
-    example_subject: dreamkg:service/desc/4829363626049536
+    example_subject: dreamkg:service/desc/5373543795916800
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:conditionsOfAccess

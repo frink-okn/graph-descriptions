@@ -9,7 +9,7 @@ _No slot (predicate) description specified_
 
 
 
-URI: [hsdo:audienceType](hsdo:audienceType)
+URI: [hsdo:audienceType](http://schema.org/audienceType)
 
 
 
@@ -44,7 +44,7 @@ URI: [hsdo:audienceType](hsdo:audienceType)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Audience → string | dreamkg:category/audience/HumanTraffickingSurvivors | hsdo:audienceType | human trafficking survivors |
+| hsdo_Audience → string | dreamkg:category/audience/SuicidalThoughts | hsdo:audienceType | suicidal thoughts |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_Audience → string
   object:
-    example_object: human trafficking survivors
+    example_object: suicidal thoughts
     example_predicate: hsdo:audienceType
-    example_subject: dreamkg:category/audience/HumanTraffickingSurvivors
+    example_subject: dreamkg:category/audience/SuicidalThoughts
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:audienceType

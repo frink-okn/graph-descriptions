@@ -9,7 +9,7 @@ _No slot (predicate) description specified_
 
 
 
-URI: [hsdo:sameAs](hsdo:sameAs)
+URI: [hsdo:sameAs](http://schema.org/sameAs)
 
 
 
@@ -44,7 +44,7 @@ URI: [hsdo:sameAs](hsdo:sameAs)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Organization → uri | dreamkg:service/provider/6378689670414336 | hsdo:sameAs | https://www.facebook.com/NorthEastTreatmentCenters/ |
+| hsdo_Organization → uri | dreamkg:service/provider/5161629360586752 | hsdo:sameAs | https://www.twitter.com/@SalArmyEDS |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_Organization → uri
   object:
-    example_object: https://www.facebook.com/NorthEastTreatmentCenters/
+    example_object: https://www.twitter.com/@SalArmyEDS
     example_predicate: hsdo:sameAs
-    example_subject: dreamkg:service/provider/6378689670414336
+    example_subject: dreamkg:service/provider/5161629360586752
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:sameAs

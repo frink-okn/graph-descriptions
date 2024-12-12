@@ -9,7 +9,7 @@ _No slot (predicate) description specified_
 
 
 
-URI: [hsdo:closes](hsdo:closes)
+URI: [hsdo:closes](http://schema.org/closes)
 
 
 
@@ -44,7 +44,7 @@ URI: [hsdo:closes](hsdo:closes)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_OpeningHoursSpecification → string | dreamkg:service/hours/wednesday/6354456388829184 | hsdo:closes | 17:00 |
+| hsdo_OpeningHoursSpecification → string | dreamkg:service/hours/saturday/5185303560585216 | hsdo:closes | 00:00 |
 
 
 ## Comments
@@ -89,9 +89,9 @@ comments:
 examples:
 - description: hsdo_OpeningHoursSpecification → string
   object:
-    example_object: '17:00'
+    example_object: 00:00
     example_predicate: hsdo:closes
-    example_subject: dreamkg:service/hours/wednesday/6354456388829184
+    example_subject: dreamkg:service/hours/saturday/5185303560585216
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:closes

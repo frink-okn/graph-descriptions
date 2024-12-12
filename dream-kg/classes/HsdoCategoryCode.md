@@ -9,7 +9,7 @@ _A Category Code._
 
 
 
-URI: [hsdo:CategoryCode](hsdo:CategoryCode)
+URI: [hsdo:CategoryCode](http://schema.org/CategoryCode)
 
 
 
@@ -69,14 +69,6 @@ URI: [hsdo:CategoryCode](hsdo:CategoryCode)
 
 
 
-
-## Examples
-
-| Value |
-| --- |
-| dreamkg:category/service/other/HelpFindSchool |
-
-
 ## Identifier and Mapping Information
 
 
@@ -119,8 +111,6 @@ description: A Category Code.
 title: CategoryCode
 notes:
 - Class with 157 occurrences.
-examples:
-- value: dreamkg:category/service/other/HelpFindSchool
 from_schema: dream-kg
 rank: 1000
 slots:
@@ -140,8 +130,6 @@ description: A Category Code.
 title: CategoryCode
 notes:
 - Class with 157 occurrences.
-examples:
-- value: dreamkg:category/service/other/HelpFindSchool
 from_schema: dream-kg
 rank: 1000
 attributes:
@@ -153,9 +141,9 @@ attributes:
     examples:
     - description: hsdo_CategoryCode → uri
       object:
-        example_object: dreamkg:__CategoryCodeSet_Availability
+        example_object: dreamkg:_CategoryCodeSet_Services_Main
         example_predicate: hsdo:inCodeSet
-        example_subject: dreamkg:category/availability/TemporarilyClosed
+        example_subject: dreamkg:category/service/main/HelpHotlines
     from_schema: dream-kg
     rank: 1000
     slot_uri: hsdo:inCodeSet
@@ -172,9 +160,9 @@ attributes:
     examples:
     - description: hsdo_CategoryCode → string
       object:
-        example_object: help find school
+        example_object: counseling medical care
         example_predicate: hsdo:codeValue
-        example_subject: dreamkg:category/service/other/HelpFindSchool
+        example_subject: dreamkg:category/service/main/CounselingMedicalCare
     from_schema: dream-kg
     rank: 1000
     slot_uri: hsdo:codeValue

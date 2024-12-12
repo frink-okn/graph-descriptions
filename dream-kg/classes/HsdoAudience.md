@@ -9,7 +9,7 @@ _Intended audience for an item, i.e. the group for whom the item was created._
 
 
 
-URI: [hsdo:Audience](hsdo:Audience)
+URI: [hsdo:Audience](http://schema.org/Audience)
 
 
 
@@ -64,7 +64,7 @@ URI: [hsdo:Audience](hsdo:Audience)
 
 | Value |
 | --- |
-| dreamkg:category/audience/Latino |
+| dreamkg:category/audience/EatingDisorder |
 
 
 ## Identifier and Mapping Information
@@ -110,7 +110,7 @@ title: Audience
 notes:
 - Class with 81 occurrences.
 examples:
-- value: dreamkg:category/audience/Latino
+- value: dreamkg:category/audience/EatingDisorder
 from_schema: dream-kg
 rank: 1000
 slots:
@@ -130,7 +130,7 @@ title: Audience
 notes:
 - Class with 81 occurrences.
 examples:
-- value: dreamkg:category/audience/Latino
+- value: dreamkg:category/audience/EatingDisorder
 from_schema: dream-kg
 rank: 1000
 attributes:
@@ -142,9 +142,9 @@ attributes:
     examples:
     - description: hsdo_Audience → string
       object:
-        example_object: human trafficking survivors
+        example_object: suicidal thoughts
         example_predicate: hsdo:audienceType
-        example_subject: dreamkg:category/audience/HumanTraffickingSurvivors
+        example_subject: dreamkg:category/audience/SuicidalThoughts
     from_schema: dream-kg
     rank: 1000
     slot_uri: hsdo:audienceType

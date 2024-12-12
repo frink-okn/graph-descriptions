@@ -9,7 +9,7 @@ _No slot (predicate) description specified_
 
 
 
-URI: [hsdo:serviceLocation](hsdo:serviceLocation)
+URI: [hsdo:serviceLocation](http://schema.org/serviceLocation)
 
 
 
@@ -44,7 +44,7 @@ URI: [hsdo:serviceLocation](hsdo:serviceLocation)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_ServiceChannel → hsdo_Place | dreamkg:service/channel/P-5640139036164096 | hsdo:serviceLocation | dreamkg:service/location/5640139036164096 |
+| hsdo_ServiceChannel → hsdo_Place | dreamkg:service/channel/P-5138871176658944 | hsdo:serviceLocation | dreamkg:service/location/5138871176658944 |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_ServiceChannel → hsdo_Place
   object:
-    example_object: dreamkg:service/location/5640139036164096
+    example_object: dreamkg:service/location/5138871176658944
     example_predicate: hsdo:serviceLocation
-    example_subject: dreamkg:service/channel/P-5640139036164096
+    example_subject: dreamkg:service/channel/P-5138871176658944
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:serviceLocation

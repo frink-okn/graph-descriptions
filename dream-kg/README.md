@@ -22,24 +22,24 @@ HsdoContactPoint {
     string hsdo_telephone  
 }
 HsdoOpeningHoursSpecification {
+    string hsdo_opens  
     string hsdo_closes  
     string hsdo_dayOfWeek  
-    string hsdo_opens  
 }
 HsdoOrganization {
     uri hsdo_sameAs  
     string hsdo_name  
 }
 HsdoPlace {
-    decimal hsdo_longitude  
     string hsdo_address  
-    uri hsdo_hasMap  
     decimal hsdo_latitude  
+    decimal hsdo_longitude  
+    uri hsdo_hasMap  
 }
 HsdoService {
-    string hsdo_areaServed  
     string hsdo_identifier  
     string hsdo_name  
+    string hsdo_areaServed  
 }
 HsdoServiceChannel {
     uri hsdo_serviceUrl  
@@ -51,24 +51,24 @@ HsdoTextObject {
 }
 
 HsdoPlace ||--|o HsdoAdministrativeArea : "hsdo_containedInPlace"
-HsdoService ||--|o HsdoCategoryCode : "hsdo_category"
+HsdoService ||--|o HsdoServiceChannel : "hsdo_availableChannel"
+HsdoService ||--|o HsdoTextObject : "hsdo_description"
 HsdoService ||--|o HsdoAudience : "hsdo_category"
+HsdoService ||--|o HsdoCategoryCode : "hsdo_category"
 HsdoService ||--|o HsdoOpeningHoursSpecification : "hsdo_hoursAvailable"
 HsdoService ||--|o HsdoOrganization : "hsdo_provider"
-HsdoService ||--|o HsdoTextObject : "hsdo_description"
-HsdoService ||--|o HsdoServiceChannel : "hsdo_availableChannel"
-HsdoServiceChannel ||--|o HsdoContactPoint : "hsdo_servicePhone"
 HsdoServiceChannel ||--|o HsdoPlace : "hsdo_serviceLocation"
+HsdoServiceChannel ||--|o HsdoContactPoint : "hsdo_servicePhone"
 
 ```
 
 
 ## IRI prefixes
 
-* dreamk: http://www.semanticweb.org/dreamkg/ijcai/
-* hsd: http://schema.org/
+* dreamkg: http://www.semanticweb.org/dreamkg/ijcai/
+* hsdo: http://schema.org/
 * linkml: https://w3id.org/linkml/
-* rd: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+* rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
 
 
 
@@ -101,7 +101,7 @@ The place is __open__ if the [[opens]] property is specified, and __closed__ oth
 | [hsdo_areaServed](slots/hsdo_areaServed.md) | No slot (predicate) description specified<br/>87 occurrences with subject type hsdo_Service and object type string.|
 | [hsdo_audienceType](slots/hsdo_audienceType.md) | No slot (predicate) description specified<br/>81 occurrences with subject type hsdo_Audience and object type string.|
 | [hsdo_availableChannel](slots/hsdo_availableChannel.md) | No slot (predicate) description specified<br/>174 occurrences with subject type hsdo_Service and object type hsdo_ServiceChannel.|
-| [hsdo_category](slots/hsdo_category.md) | No slot (predicate) description specified<br/>806 occurrences with subject type hsdo_Service and object type hsdo_CategoryCode.<br/>539 occurrences with subject type hsdo_Service and object type hsdo_Audience.|
+| [hsdo_category](slots/hsdo_category.md) | No slot (predicate) description specified<br/>539 occurrences with subject type hsdo_Service and object type hsdo_Audience.<br/>806 occurrences with subject type hsdo_Service and object type hsdo_CategoryCode.|
 | [hsdo_closes](slots/hsdo_closes.md) | No slot (predicate) description specified<br/>623 occurrences with subject type hsdo_OpeningHoursSpecification and object type string.|
 | [hsdo_codeValue](slots/hsdo_codeValue.md) | No slot (predicate) description specified<br/>158 occurrences with subject type hsdo_CategoryCode and object type string.|
 | [hsdo_conditionsOfAccess](slots/hsdo_conditionsOfAccess.md) | No slot (predicate) description specified<br/>88 occurrences with subject type hsdo_TextObject and object type string.|
@@ -111,7 +111,7 @@ The place is __open__ if the [[opens]] property is specified, and __closed__ oth
 | [hsdo_disambiguatingDescription](slots/hsdo_disambiguatingDescription.md) | No slot (predicate) description specified<br/>174 occurrences with subject type hsdo_ServiceChannel and object type string.|
 | [hsdo_hasMap](slots/hsdo_hasMap.md) | No slot (predicate) description specified<br/>88 occurrences with subject type hsdo_Place and object type uri.|
 | [hsdo_hoursAvailable](slots/hsdo_hoursAvailable.md) | No slot (predicate) description specified<br/>609 occurrences with subject type hsdo_Service and object type hsdo_OpeningHoursSpecification.|
-| [hsdo_identifier](slots/hsdo_identifier.md) | No slot (predicate) description specified<br/>87 occurrences with subject type hsdo_Service and object type string.<br/>39 occurrences with subject type hsdo_AdministrativeArea and object type string.|
+| [hsdo_identifier](slots/hsdo_identifier.md) | No slot (predicate) description specified<br/>39 occurrences with subject type hsdo_AdministrativeArea and object type string.<br/>87 occurrences with subject type hsdo_Service and object type string.|
 | [hsdo_inCodeSet](slots/hsdo_inCodeSet.md) | No slot (predicate) description specified<br/>157 occurrences with subject type hsdo_CategoryCode and object type uri.|
 | [hsdo_latitude](slots/hsdo_latitude.md) | No slot (predicate) description specified<br/>89 occurrences with subject type hsdo_Place and object type decimal.|
 | [hsdo_longitude](slots/hsdo_longitude.md) | No slot (predicate) description specified<br/>89 occurrences with subject type hsdo_Place and object type decimal.|

@@ -9,7 +9,7 @@ _No slot (predicate) description specified_
 
 
 
-URI: [hsdo:inCodeSet](hsdo:inCodeSet)
+URI: [hsdo:inCodeSet](http://schema.org/inCodeSet)
 
 
 
@@ -44,7 +44,7 @@ URI: [hsdo:inCodeSet](hsdo:inCodeSet)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_CategoryCode → uri | dreamkg:category/availability/TemporarilyClosed | hsdo:inCodeSet | dreamkg:__CategoryCodeSet_Availability |
+| hsdo_CategoryCode → uri | dreamkg:category/service/main/HelpHotlines | hsdo:inCodeSet | dreamkg:_CategoryCodeSet_Services_Main |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_CategoryCode → uri
   object:
-    example_object: dreamkg:__CategoryCodeSet_Availability
+    example_object: dreamkg:_CategoryCodeSet_Services_Main
     example_predicate: hsdo:inCodeSet
-    example_subject: dreamkg:category/availability/TemporarilyClosed
+    example_subject: dreamkg:category/service/main/HelpHotlines
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:inCodeSet

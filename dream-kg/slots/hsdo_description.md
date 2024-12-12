@@ -9,7 +9,7 @@ _No slot (predicate) description specified_
 
 
 
-URI: [hsdo:description](hsdo:description)
+URI: [hsdo:description](http://schema.org/description)
 
 
 
@@ -44,7 +44,7 @@ URI: [hsdo:description](hsdo:description)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Service → hsdo_TextObject | dreamkg:service/5128979153944576 | hsdo:description | dreamkg:service/desc/5128979153944576 |
+| hsdo_Service → hsdo_TextObject | dreamkg:service/4666716061171712 | hsdo:description | dreamkg:service/desc/4666716061171712 |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_Service → hsdo_TextObject
   object:
-    example_object: dreamkg:service/desc/5128979153944576
+    example_object: dreamkg:service/desc/4666716061171712
     example_predicate: hsdo:description
-    example_subject: dreamkg:service/5128979153944576
+    example_subject: dreamkg:service/4666716061171712
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:description

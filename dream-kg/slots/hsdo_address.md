@@ -9,7 +9,7 @@ _No slot (predicate) description specified_
 
 
 
-URI: [hsdo:address](hsdo:address)
+URI: [hsdo:address](http://schema.org/address)
 
 
 
@@ -44,7 +44,7 @@ URI: [hsdo:address](hsdo:address)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Place → string | dreamkg:service/location/5552002522939392 | hsdo:address | 2107 West Tioga Street, Philadelphia, PA 19140 |
+| hsdo_Place → string | dreamkg:service/location/5186727883833344 | hsdo:address | 1300 East Tulpehocken Street,  Philadelphia,  PA  19138 |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_Place → string
   object:
-    example_object: 2107 West Tioga Street, Philadelphia, PA 19140
+    example_object: 1300 East Tulpehocken Street,  Philadelphia,  PA  19138
     example_predicate: hsdo:address
-    example_subject: dreamkg:service/location/5552002522939392
+    example_subject: dreamkg:service/location/5186727883833344
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:address

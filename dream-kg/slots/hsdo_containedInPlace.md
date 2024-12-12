@@ -9,7 +9,7 @@ _No slot (predicate) description specified_
 
 
 
-URI: [hsdo:containedInPlace](hsdo:containedInPlace)
+URI: [hsdo:containedInPlace](http://schema.org/containedInPlace)
 
 
 
@@ -44,7 +44,7 @@ URI: [hsdo:containedInPlace](hsdo:containedInPlace)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Place → hsdo_AdministrativeArea | dreamkg:service/location/6410727744077824 | hsdo:containedInPlace | dreamkg:zip/19114 |
+| hsdo_Place → hsdo_AdministrativeArea | dreamkg:service/location/5680777996009472 | hsdo:containedInPlace | dreamkg:zip/19130 |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_Place → hsdo_AdministrativeArea
   object:
-    example_object: dreamkg:zip/19114
+    example_object: dreamkg:zip/19130
     example_predicate: hsdo:containedInPlace
-    example_subject: dreamkg:service/location/6410727744077824
+    example_subject: dreamkg:service/location/5680777996009472
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:containedInPlace

@@ -9,7 +9,7 @@ _No slot (predicate) description specified_
 
 
 
-URI: [hsdo:longitude](hsdo:longitude)
+URI: [hsdo:longitude](http://schema.org/longitude)
 
 
 
@@ -44,7 +44,7 @@ URI: [hsdo:longitude](hsdo:longitude)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Place → decimal | dreamkg:service/location/6139716755783680 | hsdo:longitude | -75.1619304 |
+| hsdo_Place → decimal | dreamkg:service/location/5186727883833344 | hsdo:longitude | -75.1647762 |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_Place → decimal
   object:
-    example_object: '-75.1619304'
+    example_object: '-75.1647762'
     example_predicate: hsdo:longitude
-    example_subject: dreamkg:service/location/6139716755783680
+    example_subject: dreamkg:service/location/5186727883833344
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:longitude

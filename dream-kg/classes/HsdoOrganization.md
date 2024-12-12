@@ -9,7 +9,7 @@ _An organization such as a school, NGO, corporation, club, etc._
 
 
 
-URI: [hsdo:Organization](hsdo:Organization)
+URI: [hsdo:Organization](http://schema.org/Organization)
 
 
 
@@ -69,6 +69,14 @@ URI: [hsdo:Organization](hsdo:Organization)
 
 
 
+
+## Examples
+
+| Value |
+| --- |
+| dreamkg:service/provider/4692155605712896 |
+
+
 ## Identifier and Mapping Information
 
 
@@ -111,6 +119,8 @@ description: An organization such as a school, NGO, corporation, club, etc.
 title: Organization
 notes:
 - Class with 87 occurrences.
+examples:
+- value: dreamkg:service/provider/4692155605712896
 from_schema: dream-kg
 rank: 1000
 slots:
@@ -130,6 +140,8 @@ description: An organization such as a school, NGO, corporation, club, etc.
 title: Organization
 notes:
 - Class with 87 occurrences.
+examples:
+- value: dreamkg:service/provider/4692155605712896
 from_schema: dream-kg
 rank: 1000
 attributes:
@@ -141,9 +153,9 @@ attributes:
     examples:
     - description: hsdo_Organization → uri
       object:
-        example_object: https://www.facebook.com/NorthEastTreatmentCenters/
+        example_object: https://www.twitter.com/@SalArmyEDS
         example_predicate: hsdo:sameAs
-        example_subject: dreamkg:service/provider/6378689670414336
+        example_subject: dreamkg:service/provider/5161629360586752
     from_schema: dream-kg
     rank: 1000
     slot_uri: hsdo:sameAs
@@ -161,14 +173,14 @@ attributes:
     examples:
     - description: hsdo_Service → string
       object:
-        example_object: Emergency Shelter
+        example_object: Youth Services
         example_predicate: hsdo:name
-        example_subject: dreamkg:service/5398794886447104
+        example_subject: dreamkg:service/4909220273061888
     - description: hsdo_Organization → string
       object:
-        example_object: Belmont Behavioral Health System
+        example_object: Gaudenzia
         example_predicate: hsdo:name
-        example_subject: dreamkg:service/provider/4829363626049536
+        example_subject: dreamkg:service/provider/4692155605712896
     from_schema: dream-kg
     rank: 1000
     slot_uri: hsdo:name

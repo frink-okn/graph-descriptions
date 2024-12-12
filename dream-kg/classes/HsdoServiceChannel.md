@@ -9,7 +9,7 @@ _A means for accessing a service, e.g. a government office location, web site, o
 
 
 
-URI: [hsdo:ServiceChannel](hsdo:ServiceChannel)
+URI: [hsdo:ServiceChannel](http://schema.org/ServiceChannel)
 
 
 
@@ -69,10 +69,10 @@ URI: [hsdo:ServiceChannel](hsdo:ServiceChannel)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [hsdo_servicePhone](../slots/hsdo_servicePhone.md) | 0..1 <br/> [HsdoContactPoint](../classes/HsdoContactPoint.md) | No slot (predicate) description specified | direct |
 | [hsdo_serviceLocation](../slots/hsdo_serviceLocation.md) | 0..1 <br/> [HsdoPlace](../classes/HsdoPlace.md) | No slot (predicate) description specified | direct |
 | [hsdo_serviceUrl](../slots/hsdo_serviceUrl.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI) | No slot (predicate) description specified | direct |
 | [hsdo_disambiguatingDescription](../slots/hsdo_disambiguatingDescription.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified | direct |
+| [hsdo_servicePhone](../slots/hsdo_servicePhone.md) | 0..1 <br/> [HsdoContactPoint](../classes/HsdoContactPoint.md) | No slot (predicate) description specified | direct |
 
 
 
@@ -135,10 +135,10 @@ notes:
 from_schema: dream-kg
 rank: 1000
 slots:
-- hsdo_servicePhone
 - hsdo_serviceLocation
 - hsdo_serviceUrl
 - hsdo_disambiguatingDescription
+- hsdo_servicePhone
 class_uri: hsdo:ServiceChannel
 
 ```
@@ -157,25 +157,6 @@ notes:
 from_schema: dream-kg
 rank: 1000
 attributes:
-  hsdo_servicePhone:
-    name: hsdo_servicePhone
-    description: No slot (predicate) description specified
-    comments:
-    - 87 occurrences with subject type hsdo_ServiceChannel and object type hsdo_ContactPoint.
-    examples:
-    - description: hsdo_ServiceChannel → hsdo_ContactPoint
-      object:
-        example_object: dreamkg:service/phone/5017006984921088
-        example_predicate: hsdo:servicePhone
-        example_subject: dreamkg:service/channel/P-5017006984921088
-    from_schema: dream-kg
-    rank: 1000
-    slot_uri: hsdo:servicePhone
-    alias: hsdo_servicePhone
-    owner: hsdo_ServiceChannel
-    domain_of:
-    - hsdo_ServiceChannel
-    range: hsdo_ContactPoint
   hsdo_serviceLocation:
     name: hsdo_serviceLocation
     description: No slot (predicate) description specified
@@ -184,9 +165,9 @@ attributes:
     examples:
     - description: hsdo_ServiceChannel → hsdo_Place
       object:
-        example_object: dreamkg:service/location/5640139036164096
+        example_object: dreamkg:service/location/5138871176658944
         example_predicate: hsdo:serviceLocation
-        example_subject: dreamkg:service/channel/P-5640139036164096
+        example_subject: dreamkg:service/channel/P-5138871176658944
     from_schema: dream-kg
     rank: 1000
     slot_uri: hsdo:serviceLocation
@@ -203,9 +184,9 @@ attributes:
     examples:
     - description: hsdo_ServiceChannel → uri
       object:
-        example_object: https://www.auntbertha.com//northeast-treatment-centers---otp--philadelphia-pa--medication-assisted-treatment/6378689670414336?postal=19141
+        example_object: https://www.auntbertha.com//merakey---pennsylvania--philadelphia-pa--adult-substance-use-disorder-services/6032260047568896?postal=19139
         example_predicate: hsdo:serviceUrl
-        example_subject: dreamkg:service/channel/AB-6378689670414336
+        example_subject: dreamkg:service/channel/AB-6032260047568896
     from_schema: dream-kg
     rank: 1000
     slot_uri: hsdo:serviceUrl
@@ -222,9 +203,9 @@ attributes:
     examples:
     - description: hsdo_ServiceChannel → string
       object:
-        example_object: Aunt Bertha
+        example_object: Provider
         example_predicate: hsdo:disambiguatingDescription
-        example_subject: dreamkg:service/channel/AB-5922109384294400
+        example_subject: dreamkg:service/channel/P-5181712996761600
     from_schema: dream-kg
     rank: 1000
     slot_uri: hsdo:disambiguatingDescription
@@ -233,6 +214,25 @@ attributes:
     domain_of:
     - hsdo_ServiceChannel
     range: string
+  hsdo_servicePhone:
+    name: hsdo_servicePhone
+    description: No slot (predicate) description specified
+    comments:
+    - 87 occurrences with subject type hsdo_ServiceChannel and object type hsdo_ContactPoint.
+    examples:
+    - description: hsdo_ServiceChannel → hsdo_ContactPoint
+      object:
+        example_object: dreamkg:service/phone/5671175268335616
+        example_predicate: hsdo:servicePhone
+        example_subject: dreamkg:service/channel/P-5671175268335616
+    from_schema: dream-kg
+    rank: 1000
+    slot_uri: hsdo:servicePhone
+    alias: hsdo_servicePhone
+    owner: hsdo_ServiceChannel
+    domain_of:
+    - hsdo_ServiceChannel
+    range: hsdo_ContactPoint
 class_uri: hsdo:ServiceChannel
 
 ```

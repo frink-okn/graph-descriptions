@@ -9,7 +9,7 @@ _No slot (predicate) description specified_
 
 
 
-URI: [hsdo:codeValue](hsdo:codeValue)
+URI: [hsdo:codeValue](http://schema.org/codeValue)
 
 
 
@@ -44,7 +44,7 @@ URI: [hsdo:codeValue](hsdo:codeValue)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_CategoryCode → string | dreamkg:category/service/other/HelpFindSchool | hsdo:codeValue | help find school |
+| hsdo_CategoryCode → string | dreamkg:category/service/main/CounselingMedicalCare | hsdo:codeValue | counseling medical care |
 
 
 ## Comments
@@ -88,9 +88,9 @@ comments:
 examples:
 - description: hsdo_CategoryCode → string
   object:
-    example_object: help find school
+    example_object: counseling medical care
     example_predicate: hsdo:codeValue
-    example_subject: dreamkg:category/service/other/HelpFindSchool
+    example_subject: dreamkg:category/service/main/CounselingMedicalCare
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:codeValue
