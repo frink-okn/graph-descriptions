@@ -23,8 +23,8 @@ URI: [rural:substanceabuse/name](http://sail.ua.edu/ruralkg/substanceabuse/name)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | Types of substances that can be abused |  no  |
 | [RuralSubstanceabuseSubstanceRelatedIncident](../classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | Types of incidents related to substance abuse |  no  |
+| [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | Types of substances that can be abused |  no  |
 
 
 
