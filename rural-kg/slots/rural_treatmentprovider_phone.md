@@ -42,9 +42,10 @@ URI: [rural:treatmentprovider/phone](http://sail.ua.edu/ruralkg/treatmentprovide
 
 ## Examples
 
-| Value |
-| --- |
-| rural:treatmentprovider/TP_2685 rural:treatmentprovider/phone 574-533-1234 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+
 
 ## Comments
 

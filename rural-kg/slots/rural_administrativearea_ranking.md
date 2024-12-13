@@ -42,9 +42,10 @@ URI: [rural:administrativearea/ranking](http://sail.ua.edu/ruralkg/administrativ
 
 ## Examples
 
-| Value |
-| --- |
-| rural:administrativearea/City_1840007531 rural:administrativearea/ranking 3 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+
 
 ## Comments
 

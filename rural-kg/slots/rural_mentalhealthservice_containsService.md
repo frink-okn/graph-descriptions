@@ -42,9 +42,10 @@ URI: [rural:mentalhealthservice/containsService](http://sail.ua.edu/ruralkg/ment
 
 ## Examples
 
-| Value |
-| --- |
-| rural:mentalhealthservice/MHSC_ECS rural:mentalhealthservice/containsService rural:mentalhealthservice/MHS_TCC |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+
 
 ## Comments
 

@@ -42,9 +42,10 @@ URI: [rural:administrativearea/primaryCounty](http://sail.ua.edu/ruralkg/adminis
 
 ## Examples
 
-| Value |
-| --- |
-| rural:administrativearea/City_1840009099 rural:administrativearea/primaryCounty rural:administrativearea/County_19055 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+
 
 ## Comments
 

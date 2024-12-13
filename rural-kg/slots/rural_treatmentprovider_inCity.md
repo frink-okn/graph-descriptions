@@ -42,10 +42,11 @@ URI: [rural:treatmentprovider/inCity](http://sail.ua.edu/ruralkg/treatmentprovid
 
 ## Examples
 
-| Value |
-| --- |
-| rural:treatmentprovider/TP_2390 rural:treatmentprovider/inCity rural:administrativearea/City_1840000494 |
-| rural:treatmentprovider/TP_1871 rural:treatmentprovider/inCity rural:administrativearea/City_None |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+| None |  |  |  |
+
 
 ## Comments
 

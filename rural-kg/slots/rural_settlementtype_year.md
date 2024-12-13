@@ -43,10 +43,11 @@ URI: [rural:settlementtype/year](http://sail.ua.edu/ruralkg/settlementtype/year)
 
 ## Examples
 
-| Value |
-| --- |
-| rural:settlementtype/CountyStatus_46019_2013 rural:settlementtype/year 2013 |
-| rural:settlementtype/RUCC_2013_5 rural:settlementtype/year 2013 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+| None |  |  |  |
+
 
 ## Comments
 

@@ -85,6 +85,7 @@ URI: [rural:administrativearea/County](http://sail.ua.edu/ruralkg/administrative
 | --- |
 | rural:administrativearea/County_29197 |
 
+
 ## TODOs
 
 * TODO -- Todos for this class go here

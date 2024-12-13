@@ -42,9 +42,10 @@ URI: [rural:settlementtype/hasRUCC](http://sail.ua.edu/ruralkg/settlementtype/ha
 
 ## Examples
 
-| Value |
-| --- |
-| rural:settlementtype/CountyStatus_46043_2013 rural:settlementtype/hasRUCC rural:settlementtype/RUCC_2013_9 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+
 
 ## Comments
 

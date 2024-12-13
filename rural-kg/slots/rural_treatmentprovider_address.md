@@ -42,9 +42,10 @@ URI: [rural:treatmentprovider/address](http://sail.ua.edu/ruralkg/treatmentprovi
 
 ## Examples
 
-| Value |
-| --- |
-| rural:treatmentprovider/TP_3251 rural:treatmentprovider/address 10425 Plaza Americana Drive, NaN |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+
 
 ## Comments
 

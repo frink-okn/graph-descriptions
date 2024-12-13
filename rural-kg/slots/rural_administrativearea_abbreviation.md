@@ -42,9 +42,10 @@ URI: [rural:administrativearea/abbreviation](http://sail.ua.edu/ruralkg/administ
 
 ## Examples
 
-| Value |
-| --- |
-| rural:administrativearea/State_MN rural:administrativearea/abbreviation MN |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+
 
 ## Comments
 

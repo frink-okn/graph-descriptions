@@ -93,6 +93,7 @@ URI: [rural:settlementtype/RUCC](http://sail.ua.edu/ruralkg/settlementtype/RUCC)
 | --- |
 | rural:settlementtype/RUCC_2013_5 |
 
+
 ## TODOs
 
 * TODO -- Todos for this class go here

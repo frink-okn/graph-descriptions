@@ -42,9 +42,10 @@ URI: [rural:treatmentprovider/alias](http://sail.ua.edu/ruralkg/treatmentprovide
 
 ## Examples
 
-| Value |
-| --- |
-| rural:treatmentprovider/TP_174 rural:treatmentprovider/alias NaN |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+
 
 ## Comments
 

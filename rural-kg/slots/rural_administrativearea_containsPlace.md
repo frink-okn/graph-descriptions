@@ -42,9 +42,10 @@ URI: [rural:administrativearea/containsPlace](http://sail.ua.edu/ruralkg/adminis
 
 ## Examples
 
-| Value |
-| --- |
-| rural:administrativearea/State_TX rural:administrativearea/containsPlace rural:administrativearea/County_48021 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+
 
 ## Comments
 

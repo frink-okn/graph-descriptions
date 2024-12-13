@@ -96,6 +96,7 @@ URI: [rural:settlementtype/CountyStatus](http://sail.ua.edu/ruralkg/settlementty
 | --- |
 | rural:settlementtype/CountyStatus_35035_2013 |
 
+
 ## TODOs
 
 * TODO -- Todos for this class go here

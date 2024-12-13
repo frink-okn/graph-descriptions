@@ -43,10 +43,11 @@ URI: [rural:administrativearea/fips](http://sail.ua.edu/ruralkg/administrativear
 
 ## Examples
 
-| Value |
-| --- |
-| rural:administrativearea/County_48409 rural:administrativearea/fips 48409 |
-| rural:administrativearea/State_UT rural:administrativearea/fips 49 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+| None |  |  |  |
+
 
 ## Comments
 

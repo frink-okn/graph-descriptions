@@ -42,9 +42,10 @@ URI: [rural:settlementtype/population](http://sail.ua.edu/ruralkg/settlementtype
 
 ## Examples
 
-| Value |
-| --- |
-| rural:settlementtype/CountyStatus_36089_2013 rural:settlementtype/population 111944 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+
 
 ## Comments
 

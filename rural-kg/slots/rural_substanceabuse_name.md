@@ -23,8 +23,8 @@ URI: [rural:substanceabuse/name](http://sail.ua.edu/ruralkg/substanceabuse/name)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSubstanceabuseSubstanceRelatedIncident](../classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | Types of incidents related to substance abuse |  no  |
 | [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | Types of substances that can be abused |  no  |
+| [RuralSubstanceabuseSubstanceRelatedIncident](../classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | Types of incidents related to substance abuse |  no  |
 
 
 
@@ -43,10 +43,11 @@ URI: [rural:substanceabuse/name](http://sail.ua.edu/ruralkg/substanceabuse/name)
 
 ## Examples
 
-| Value |
-| --- |
-| rural:substanceabuse/Substance_16 rural:substanceabuse/name pcp |
-| rural:substanceabuse/SIT_13 rural:substanceabuse/name On Parole |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+| None |  |  |  |
+
 
 ## Comments
 

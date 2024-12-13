@@ -42,9 +42,10 @@ URI: [rural:settlementtype/code](http://sail.ua.edu/ruralkg/settlementtype/code)
 
 ## Examples
 
-| Value |
-| --- |
-| rural:settlementtype/RUCC_2013_9 rural:settlementtype/code 9 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+
 
 ## Comments
 

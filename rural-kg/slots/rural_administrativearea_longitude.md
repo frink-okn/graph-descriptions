@@ -42,9 +42,10 @@ URI: [rural:administrativearea/longitude](http://sail.ua.edu/ruralkg/administrat
 
 ## Examples
 
-| Value |
-| --- |
-| rural:administrativearea/City_1840006391 rural:administrativearea/longitude -77.3285 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+
 
 ## Comments
 

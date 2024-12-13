@@ -96,6 +96,7 @@ URI: [rural:substanceabuse/Substance](http://sail.ua.edu/ruralkg/substanceabuse/
 | --- |
 | rural:substanceabuse/Substance_16 |
 
+
 ## TODOs
 
 * TODO -- Todos for this class go here

@@ -42,10 +42,10 @@ URI: [rural:mentalhealthservice/description](http://sail.ua.edu/ruralkg/mentalhe
 
 ## Examples
 
-| Value |
-| --- |
-| rural:mentalhealthservice/MHS_PVTN rural:mentalhealthservice/description A charitable organization that does not qualify as a public charity.
- |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+
 
 ## Comments
 

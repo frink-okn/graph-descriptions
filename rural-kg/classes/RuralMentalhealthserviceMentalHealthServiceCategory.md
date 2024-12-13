@@ -96,6 +96,7 @@ URI: [rural:mentalhealthservice/MentalHealthServiceCategory](http://sail.ua.edu/
 | --- |
 | rural:mentalhealthservice/MHSC_SCR |
 
+
 ## TODOs
 
 * TODO -- Todos for this class go here

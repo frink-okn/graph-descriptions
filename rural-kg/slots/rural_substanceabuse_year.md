@@ -23,8 +23,8 @@ URI: [rural:substanceabuse/year](http://sail.ua.edu/ruralkg/substanceabuse/year)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSubstanceabuseSubstanceRelatedIncident](../classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | Types of incidents related to substance abuse |  no  |
 | [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | Types of substances that can be abused |  no  |
+| [RuralSubstanceabuseSubstanceRelatedIncident](../classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | Types of incidents related to substance abuse |  no  |
 
 
 
@@ -43,10 +43,11 @@ URI: [rural:substanceabuse/year](http://sail.ua.edu/ruralkg/substanceabuse/year)
 
 ## Examples
 
-| Value |
-| --- |
-| rural:substanceabuse/Substance_13 rural:substanceabuse/year 2022 |
-| rural:substanceabuse/SIT_4 rural:substanceabuse/year 2022 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+| None |  |  |  |
+
 
 ## Comments
 

@@ -42,9 +42,10 @@ URI: [rural:settlementtype/description](http://sail.ua.edu/ruralkg/settlementtyp
 
 ## Examples
 
-| Value |
-| --- |
-| rural:settlementtype/RUCC_2013_9 rural:settlementtype/description Nonmetro - Completely rural or less than 2,500 urban population, not adjacent to a metro area |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+
 
 ## Comments
 

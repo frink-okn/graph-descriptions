@@ -42,9 +42,10 @@ URI: [rural:substanceabuse/code](http://sail.ua.edu/ruralkg/substanceabuse/code)
 
 ## Examples
 
-| Value |
-| --- |
-| rural:substanceabuse/Substance_17 rural:substanceabuse/code 7405 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+
 
 ## Comments
 

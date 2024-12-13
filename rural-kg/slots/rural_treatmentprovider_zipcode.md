@@ -42,9 +42,10 @@ URI: [rural:treatmentprovider/zipcode](http://sail.ua.edu/ruralkg/treatmentprovi
 
 ## Examples
 
-| Value |
-| --- |
-| rural:treatmentprovider/TP_4583 rural:treatmentprovider/zipcode 64108 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+
 
 ## Comments
 

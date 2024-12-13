@@ -44,11 +44,12 @@ URI: [rural:administrativearea/name](http://sail.ua.edu/ruralkg/administrativear
 
 ## Examples
 
-| Value |
-| --- |
-| rural:administrativearea/City_1840007332 rural:administrativearea/name Greenwood |
-| rural:administrativearea/County_54083 rural:administrativearea/name Randolph |
-| rural:administrativearea/State_CO rural:administrativearea/name Colorado |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+| None |  |  |  |
+| None |  |  |  |
+
 
 ## Comments
 

@@ -113,6 +113,7 @@ URI: [rural:administrativearea/City](http://sail.ua.edu/ruralkg/administrativear
 | --- |
 | rural:administrativearea/City_1840011974 |
 
+
 ## TODOs
 
 * TODO -- Todos for this class go here

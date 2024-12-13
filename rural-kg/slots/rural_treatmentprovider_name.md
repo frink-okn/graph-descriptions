@@ -42,9 +42,10 @@ URI: [rural:treatmentprovider/name](http://sail.ua.edu/ruralkg/treatmentprovider
 
 ## Examples
 
-| Value |
-| --- |
-| rural:treatmentprovider/TP_4974 rural:treatmentprovider/name Greater Nashua Mental Health |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+
 
 ## Comments
 

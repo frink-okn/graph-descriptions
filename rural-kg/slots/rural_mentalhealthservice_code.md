@@ -23,8 +23,8 @@ URI: [rural:mentalhealthservice/code](http://sail.ua.edu/ruralkg/mentalhealthser
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralMentalhealthserviceMentalHealthService](../classes/RuralMentalhealthserviceMentalHealthService.md) | Specific mental health services offered |  no  |
 | [RuralMentalhealthserviceMentalHealthServiceCategory](../classes/RuralMentalhealthserviceMentalHealthServiceCategory.md) | Categories of mental health services |  no  |
+| [RuralMentalhealthserviceMentalHealthService](../classes/RuralMentalhealthserviceMentalHealthService.md) | Specific mental health services offered |  no  |
 
 
 
@@ -43,10 +43,11 @@ URI: [rural:mentalhealthservice/code](http://sail.ua.edu/ruralkg/mentalhealthser
 
 ## Examples
 
-| Value |
-| --- |
-| rural:mentalhealthservice/MHS_AH rural:mentalhealthservice/code AH |
-| rural:mentalhealthservice/MHSC_OL rural:mentalhealthservice/code OL |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+| None |  |  |  |
+
 
 ## Comments
 

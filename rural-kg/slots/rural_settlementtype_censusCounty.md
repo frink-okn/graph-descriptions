@@ -42,9 +42,10 @@ URI: [rural:settlementtype/censusCounty](http://sail.ua.edu/ruralkg/settlementty
 
 ## Examples
 
-| Value |
-| --- |
-| rural:settlementtype/CountyStatus_28135_2013 rural:settlementtype/censusCounty rural:administrativearea/County_28135 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+
 
 ## Comments
 

@@ -42,9 +42,10 @@ URI: [rural:treatmentprovider/providesService](http://sail.ua.edu/ruralkg/treatm
 
 ## Examples
 
-| Value |
-| --- |
-| rural:treatmentprovider/TP_2411 rural:treatmentprovider/providesService rural:mentalhealthservice/MHS_FPSY |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+
 
 ## Comments
 

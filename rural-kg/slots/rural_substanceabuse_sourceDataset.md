@@ -23,8 +23,8 @@ URI: [rural:substanceabuse/sourceDataset](http://sail.ua.edu/ruralkg/substanceab
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSubstanceabuseSubstanceRelatedIncident](../classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | Types of incidents related to substance abuse |  no  |
 | [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | Types of substances that can be abused |  no  |
+| [RuralSubstanceabuseSubstanceRelatedIncident](../classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | Types of incidents related to substance abuse |  no  |
 
 
 
@@ -43,10 +43,11 @@ URI: [rural:substanceabuse/sourceDataset](http://sail.ua.edu/ruralkg/substanceab
 
 ## Examples
 
-| Value |
-| --- |
-| rural:substanceabuse/SIT_4 rural:substanceabuse/sourceDataset NSDUH |
-| rural:substanceabuse/Substance_2 rural:substanceabuse/sourceDataset NSDUH |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None |  |  |  |
+| None |  |  |  |
+
 
 ## Comments
 
