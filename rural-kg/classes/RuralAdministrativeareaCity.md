@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (rural_administrativearea_City)
+# Class: No class (type) name specified (rural_administrativearea_City)
 
 
-_City entities within a county or state._
+_No class (type) description specified_
 
 
 
@@ -85,11 +85,11 @@ URI: [rural:administrativearea/City](http://sail.ua.edu/ruralkg/administrativear
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rural_administrativearea_primaryCounty](../slots/rural_administrativearea_primaryCounty.md) | 0..1 <br/> [RuralAdministrativeareaCounty](../classes/RuralAdministrativeareaCounty.md) | No slot description provided <br/> 31120 occurrences with subject type rural_administrativearea_City and object type rural_administrativearea_County. | direct |
-| [rural_administrativearea_ranking](../slots/rural_administrativearea_ranking.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot description provided <br/> 31120 occurrences with subject type rural_administrativearea_City and object type integer. | direct |
-| [rural_administrativearea_longitude](../slots/rural_administrativearea_longitude.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot description provided <br/> 31120 occurrences with subject type rural_administrativearea_City and object type float. | direct |
-| [rural_administrativearea_name](../slots/rural_administrativearea_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided <br/> 31120 occurrences with subject type rural_administrativearea_City and object type string.<br/>3253 occurrences with subject type rural_administrativearea_County and object type string.<br/>56 occurrences with subject type rural_administrativearea_State and object type string. | direct |
-| [rural_administrativearea_latitude](../slots/rural_administrativearea_latitude.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot description provided <br/> 31120 occurrences with subject type rural_administrativearea_City and object type float. | direct |
+| [rural_administrativearea_latitude](../slots/rural_administrativearea_latitude.md) | 0..1 <br/> [xsd:float](xsd:float) | No slot (predicate) description specified <br/> 31120 occurrences with subject type rural_administrativearea_City and object type float. | direct |
+| [rural_administrativearea_primaryCounty](../slots/rural_administrativearea_primaryCounty.md) | 0..1 <br/> [RuralAdministrativeareaCounty](../classes/RuralAdministrativeareaCounty.md) | No slot (predicate) description specified <br/> 31120 occurrences with subject type rural_administrativearea_City and object type rural_administrativearea_County. | direct |
+| [rural_administrativearea_longitude](../slots/rural_administrativearea_longitude.md) | 0..1 <br/> [xsd:float](xsd:float) | No slot (predicate) description specified <br/> 31120 occurrences with subject type rural_administrativearea_City and object type float. | direct |
+| [rural_administrativearea_ranking](../slots/rural_administrativearea_ranking.md) | 0..1 <br/> [xsd:integer](xsd:integer) | No slot (predicate) description specified <br/> 31120 occurrences with subject type rural_administrativearea_City and object type integer. | direct |
+| [rural_administrativearea_name](../slots/rural_administrativearea_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 31120 occurrences with subject type rural_administrativearea_City and object type string.<br/>3253 occurrences with subject type rural_administrativearea_County and object type string.<br/>56 occurrences with subject type rural_administrativearea_State and object type string. | direct |
 
 
 
@@ -106,19 +106,9 @@ URI: [rural:administrativearea/City](http://sail.ua.edu/ruralkg/administrativear
 
 
 
+## Comments
 
-## Examples
-
-| Value |
-| --- |
-| rural:administrativearea/City_1840011974 |
-
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
+* City entities within a county or state.
 
 ## Identifier and Mapping Information
 
@@ -158,25 +148,22 @@ URI: [rural:administrativearea/City](http://sail.ua.edu/ruralkg/administrativear
 <details>
 ```yaml
 name: rural_administrativearea_City
-description: City entities within a county or state.
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class (type) name specified
 notes:
-- There are 31120 instances of this class.
-examples:
-- value: rural:administrativearea/City_1840011974
+- Class with 31120 occurrences.
+comments:
+- City entities within a county or state.
 from_schema: rural-kg
 rank: 1000
 is_a: rural_administrativearea_AdministrativeArea
 slots:
-- rural_administrativearea_primaryCounty
-- rural_administrativearea_ranking
-- rural_administrativearea_longitude
-- rural_administrativearea_name
 - rural_administrativearea_latitude
+- rural_administrativearea_primaryCounty
+- rural_administrativearea_longitude
+- rural_administrativearea_ranking
+- rural_administrativearea_name
 class_uri: rural:administrativearea/City
 
 ```
@@ -187,33 +174,49 @@ class_uri: rural:administrativearea/City
 <details>
 ```yaml
 name: rural_administrativearea_City
-description: City entities within a county or state.
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class (type) name specified
 notes:
-- There are 31120 instances of this class.
-examples:
-- value: rural:administrativearea/City_1840011974
+- Class with 31120 occurrences.
+comments:
+- City entities within a county or state.
 from_schema: rural-kg
 rank: 1000
 is_a: rural_administrativearea_AdministrativeArea
 attributes:
+  rural_administrativearea_latitude:
+    name: rural_administrativearea_latitude
+    description: No slot (predicate) description specified
+    comments:
+    - 31120 occurrences with subject type rural_administrativearea_City and object
+      type float.
+    examples:
+    - description: rural_administrativearea_City → float
+      object:
+        example_object: '18.2319'
+        example_predicate: rural:administrativearea/latitude
+        example_subject: rural:administrativearea/City_1630023540
+    from_schema: rural-kg
+    rank: 1000
+    slot_uri: rural:administrativearea/latitude
+    alias: rural_administrativearea_latitude
+    owner: rural_administrativearea_City
+    domain_of:
+    - rural_administrativearea_City
+    range: float
   rural_administrativearea_primaryCounty:
     name: rural_administrativearea_primaryCounty
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
+    description: No slot (predicate) description specified
     comments:
     - 31120 occurrences with subject type rural_administrativearea_City and object
       type rural_administrativearea_County.
     examples:
-    - value: rural:administrativearea/City_1840009099 rural:administrativearea/primaryCounty
-        rural:administrativearea/County_19055
+    - description: rural_administrativearea_City → rural_administrativearea_County
+      object:
+        example_object: rural:administrativearea/County_06083
+        example_predicate: rural:administrativearea/primaryCounty
+        example_subject: rural:administrativearea/City_1840153164
     from_schema: rural-kg
     rank: 1000
     slot_uri: rural:administrativearea/primaryCounty
@@ -222,40 +225,18 @@ attributes:
     domain_of:
     - rural_administrativearea_City
     range: rural_administrativearea_County
-  rural_administrativearea_ranking:
-    name: rural_administrativearea_ranking
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 31120 occurrences with subject type rural_administrativearea_City and object
-      type integer.
-    examples:
-    - value: rural:administrativearea/City_1840007531 rural:administrativearea/ranking
-        3
-    from_schema: rural-kg
-    rank: 1000
-    slot_uri: rural:administrativearea/ranking
-    alias: rural_administrativearea_ranking
-    owner: rural_administrativearea_City
-    domain_of:
-    - rural_administrativearea_City
-    range: integer
   rural_administrativearea_longitude:
     name: rural_administrativearea_longitude
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
+    description: No slot (predicate) description specified
     comments:
     - 31120 occurrences with subject type rural_administrativearea_City and object
       type float.
     examples:
-    - value: rural:administrativearea/City_1840006391 rural:administrativearea/longitude
-        -77.3285
+    - description: rural_administrativearea_City → float
+      object:
+        example_object: '-66.0388'
+        example_predicate: rural:administrativearea/longitude
+        example_subject: rural:administrativearea/City_1630023540
     from_schema: rural-kg
     rank: 1000
     slot_uri: rural:administrativearea/longitude
@@ -264,13 +245,29 @@ attributes:
     domain_of:
     - rural_administrativearea_City
     range: float
+  rural_administrativearea_ranking:
+    name: rural_administrativearea_ranking
+    description: No slot (predicate) description specified
+    comments:
+    - 31120 occurrences with subject type rural_administrativearea_City and object
+      type integer.
+    examples:
+    - description: rural_administrativearea_City → integer
+      object:
+        example_object: '2'
+        example_predicate: rural:administrativearea/ranking
+        example_subject: rural:administrativearea/City_1630023540
+    from_schema: rural-kg
+    rank: 1000
+    slot_uri: rural:administrativearea/ranking
+    alias: rural_administrativearea_ranking
+    owner: rural_administrativearea_City
+    domain_of:
+    - rural_administrativearea_City
+    range: integer
   rural_administrativearea_name:
     name: rural_administrativearea_name
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
+    description: No slot (predicate) description specified
     comments:
     - 31120 occurrences with subject type rural_administrativearea_City and object
       type string.
@@ -279,10 +276,21 @@ attributes:
     - 56 occurrences with subject type rural_administrativearea_State and object type
       string.
     examples:
-    - value: rural:administrativearea/City_1840007332 rural:administrativearea/name
-        Greenwood
-    - value: rural:administrativearea/County_54083 rural:administrativearea/name Randolph
-    - value: rural:administrativearea/State_CO rural:administrativearea/name Colorado
+    - description: rural_administrativearea_City → string
+      object:
+        example_object: Caguas
+        example_predicate: rural:administrativearea/name
+        example_subject: rural:administrativearea/City_1630023540
+    - description: rural_administrativearea_County → string
+      object:
+        example_object: Autauga
+        example_predicate: rural:administrativearea/name
+        example_subject: rural:administrativearea/County_01001
+    - description: rural_administrativearea_State → string
+      object:
+        example_object: Alaska
+        example_predicate: rural:administrativearea/name
+        example_subject: rural:administrativearea/State_AK
     from_schema: rural-kg
     rank: 1000
     slot_uri: rural:administrativearea/name
@@ -293,27 +301,6 @@ attributes:
     - rural_administrativearea_County
     - rural_administrativearea_State
     range: string
-  rural_administrativearea_latitude:
-    name: rural_administrativearea_latitude
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 31120 occurrences with subject type rural_administrativearea_City and object
-      type float.
-    examples:
-    - value: rural:administrativearea/City_1840034298 rural:administrativearea/latitude
-        40.9497
-    from_schema: rural-kg
-    rank: 1000
-    slot_uri: rural:administrativearea/latitude
-    alias: rural_administrativearea_latitude
-    owner: rural_administrativearea_City
-    domain_of:
-    - rural_administrativearea_City
-    range: float
 class_uri: rural:administrativearea/City
 
 ```

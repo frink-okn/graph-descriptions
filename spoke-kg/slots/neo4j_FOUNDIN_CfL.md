@@ -3,7 +3,7 @@
 # Slot: neo4j_FOUNDIN_CfL
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [neo4j:FOUNDIN_CfL](neo4j://graph.schema#FOUNDIN_CfL)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Neo4jCompound](../classes/Neo4jCompound.md) | No type description provided |  no  |
+| [Neo4jCompound](../classes/Neo4jCompound.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [neo4j:FOUNDIN_CfL](neo4j://graph.schema#FOUNDIN_CfL)
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#778857 neo4j:FOUNDIN_CfL neo4j://graph.individuals#30670081 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| neo4j_Compound → neo4j_Location | neo4j://graph.individuals#778857 | neo4j:FOUNDIN_CfL | neo4j://graph.individuals#30670081 |
+
 
 ## Comments
 
 * 563803 occurrences with subject type neo4j_Compound and object type neo4j_Location.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,15 +82,15 @@ URI: [neo4j:FOUNDIN_CfL](neo4j://graph.schema#FOUNDIN_CfL)
 <details>
 ```yaml
 name: neo4j_FOUNDIN_CfL
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 563803 occurrences with subject type neo4j_Compound and object type neo4j_Location.
 examples:
-- value: neo4j://graph.individuals#778857 neo4j:FOUNDIN_CfL neo4j://graph.individuals#30670081
+- description: neo4j_Compound → neo4j_Location
+  object:
+    example_object: neo4j://graph.individuals#30670081
+    example_predicate: neo4j:FOUNDIN_CfL
+    example_subject: neo4j://graph.individuals#778857
 from_schema: spoke-kg
 rank: 1000
 slot_uri: neo4j:FOUNDIN_CfL

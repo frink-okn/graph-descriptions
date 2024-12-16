@@ -3,7 +3,7 @@
 # Slot: rural_settlementtype_censusCounty
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [rural:settlementtype/censusCounty](http://sail.ua.edu/ruralkg/settlementty
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSettlementtypeCountyStatus](../classes/RuralSettlementtypeCountyStatus.md) | Status of a county in terms of rural or urban classification |  no  |
+| [RuralSettlementtypeCountyStatus](../classes/RuralSettlementtypeCountyStatus.md) | No class (type) description specified |  no  |
 
 
 
@@ -44,18 +44,12 @@ URI: [rural:settlementtype/censusCounty](http://sail.ua.edu/ruralkg/settlementty
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| None |  |  |  |
+| rural_settlementtype_CountyStatus → rural_administrativearea_County | rural:settlementtype/CountyStatus_78030_2013 | rural:settlementtype/censusCounty | rural:administrativearea/County_78030 |
 
 
 ## Comments
 
 * 3234 occurrences with subject type rural_settlementtype_CountyStatus and object type rural_administrativearea_County.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -88,17 +82,16 @@ URI: [rural:settlementtype/censusCounty](http://sail.ua.edu/ruralkg/settlementty
 <details>
 ```yaml
 name: rural_settlementtype_censusCounty
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 3234 occurrences with subject type rural_settlementtype_CountyStatus and object
   type rural_administrativearea_County.
 examples:
-- value: rural:settlementtype/CountyStatus_28135_2013 rural:settlementtype/censusCounty
-    rural:administrativearea/County_28135
+- description: rural_settlementtype_CountyStatus → rural_administrativearea_County
+  object:
+    example_object: rural:administrativearea/County_78030
+    example_predicate: rural:settlementtype/censusCounty
+    example_subject: rural:settlementtype/CountyStatus_78030_2013
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:settlementtype/censusCounty

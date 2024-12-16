@@ -3,7 +3,7 @@
 # Slot: neo4j_HASROLE_ChC
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [neo4j:HASROLE_ChC](neo4j://graph.schema#HASROLE_ChC)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Neo4jCompound](../classes/Neo4jCompound.md) | No type description provided |  no  |
+| [Neo4jCompound](../classes/Neo4jCompound.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [neo4j:HASROLE_ChC](neo4j://graph.schema#HASROLE_ChC)
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#397113 neo4j:HASROLE_ChC neo4j://graph.individuals#2469017 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| neo4j_Compound → neo4j_Compound | neo4j://graph.individuals#397113 | neo4j:HASROLE_ChC | neo4j://graph.individuals#2469017 |
+
 
 ## Comments
 
 * 34 occurrences with subject type neo4j_Compound and object type neo4j_Compound.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,15 +82,15 @@ URI: [neo4j:HASROLE_ChC](neo4j://graph.schema#HASROLE_ChC)
 <details>
 ```yaml
 name: neo4j_HASROLE_ChC
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 34 occurrences with subject type neo4j_Compound and object type neo4j_Compound.
 examples:
-- value: neo4j://graph.individuals#397113 neo4j:HASROLE_ChC neo4j://graph.individuals#2469017
+- description: neo4j_Compound → neo4j_Compound
+  object:
+    example_object: neo4j://graph.individuals#2469017
+    example_predicate: neo4j:HASROLE_ChC
+    example_subject: neo4j://graph.individuals#397113
 from_schema: spoke-kg
 rank: 1000
 slot_uri: neo4j:HASROLE_ChC

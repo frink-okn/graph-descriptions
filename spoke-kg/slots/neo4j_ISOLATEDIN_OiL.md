@@ -3,7 +3,7 @@
 # Slot: neo4j_ISOLATEDIN_OiL
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [neo4j:ISOLATEDIN_OiL](neo4j://graph.schema#ISOLATEDIN_OiL)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Neo4jOrganism](../classes/Neo4jOrganism.md) | No type description provided |  no  |
+| [Neo4jOrganism](../classes/Neo4jOrganism.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [neo4j:ISOLATEDIN_OiL](neo4j://graph.schema#ISOLATEDIN_OiL)
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#38641 neo4j:ISOLATEDIN_OiL neo4j://graph.individuals#80505 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| neo4j_Organism → neo4j_Location | neo4j://graph.individuals#38641 | neo4j:ISOLATEDIN_OiL | neo4j://graph.individuals#80505 |
+
 
 ## Comments
 
 * 321442 occurrences with subject type neo4j_Organism and object type neo4j_Location.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,15 +82,15 @@ URI: [neo4j:ISOLATEDIN_OiL](neo4j://graph.schema#ISOLATEDIN_OiL)
 <details>
 ```yaml
 name: neo4j_ISOLATEDIN_OiL
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 321442 occurrences with subject type neo4j_Organism and object type neo4j_Location.
 examples:
-- value: neo4j://graph.individuals#38641 neo4j:ISOLATEDIN_OiL neo4j://graph.individuals#80505
+- description: neo4j_Organism → neo4j_Location
+  object:
+    example_object: neo4j://graph.individuals#80505
+    example_predicate: neo4j:ISOLATEDIN_OiL
+    example_subject: neo4j://graph.individuals#38641
 from_schema: spoke-kg
 rank: 1000
 slot_uri: neo4j:ISOLATEDIN_OiL

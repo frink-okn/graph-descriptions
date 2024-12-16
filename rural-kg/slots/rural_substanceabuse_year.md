@@ -3,7 +3,7 @@
 # Slot: rural_substanceabuse_year
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,8 +23,8 @@ URI: [rural:substanceabuse/year](http://sail.ua.edu/ruralkg/substanceabuse/year)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSubstanceabuseSubstanceRelatedIncident](../classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | Types of incidents related to substance abuse |  no  |
-| [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | Types of substances that can be abused |  no  |
+| [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | No class (type) description specified |  no  |
+| [RuralSubstanceabuseSubstanceRelatedIncident](../classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | No class (type) description specified |  no  |
 
 
 
@@ -34,7 +34,7 @@ URI: [rural:substanceabuse/year](http://sail.ua.edu/ruralkg/substanceabuse/year)
 
 ## Properties
 
-* Range: [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
+* Range: [xsd:integer](xsd:integer)
 
 
 
@@ -45,20 +45,14 @@ URI: [rural:substanceabuse/year](http://sail.ua.edu/ruralkg/substanceabuse/year)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| None |  |  |  |
-| None |  |  |  |
+| rural_substanceabuse_SubstanceRelatedIncident → integer | rural:substanceabuse/SIT_1 | rural:substanceabuse/year | 2022 |
+| rural_substanceabuse_Substance → integer | rural:substanceabuse/Substance_1 | rural:substanceabuse/year | 2022 |
 
 
 ## Comments
 
-* 25 occurrences with subject type rural_substanceabuse_Substance and object type integer.
 * 17 occurrences with subject type rural_substanceabuse_SubstanceRelatedIncident and object type integer.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
+* 25 occurrences with subject type rural_substanceabuse_Substance and object type integer.
 
 ## Identifier and Mapping Information
 
@@ -91,19 +85,23 @@ URI: [rural:substanceabuse/year](http://sail.ua.edu/ruralkg/substanceabuse/year)
 <details>
 ```yaml
 name: rural_substanceabuse_year
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
-- 25 occurrences with subject type rural_substanceabuse_Substance and object type
-  integer.
 - 17 occurrences with subject type rural_substanceabuse_SubstanceRelatedIncident and
   object type integer.
+- 25 occurrences with subject type rural_substanceabuse_Substance and object type
+  integer.
 examples:
-- value: rural:substanceabuse/Substance_13 rural:substanceabuse/year 2022
-- value: rural:substanceabuse/SIT_4 rural:substanceabuse/year 2022
+- description: rural_substanceabuse_SubstanceRelatedIncident → integer
+  object:
+    example_object: '2022'
+    example_predicate: rural:substanceabuse/year
+    example_subject: rural:substanceabuse/SIT_1
+- description: rural_substanceabuse_Substance → integer
+  object:
+    example_object: '2022'
+    example_predicate: rural:substanceabuse/year
+    example_subject: rural:substanceabuse/Substance_1
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:substanceabuse/year

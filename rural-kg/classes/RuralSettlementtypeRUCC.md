@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (rural_settlementtype_RUCC)
+# Class: No class (type) name specified (rural_settlementtype_RUCC)
 
 
-_Rural-Urban Continuum Code classification._
+_No class (type) description specified_
 
 
 
@@ -67,9 +67,9 @@ URI: [rural:settlementtype/RUCC](http://sail.ua.edu/ruralkg/settlementtype/RUCC)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rural_settlementtype_code](../slots/rural_settlementtype_code.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided <br/> 10 occurrences with subject type rural_settlementtype_RUCC and object type string. | direct |
-| [rural_settlementtype_year](../slots/rural_settlementtype_year.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot description provided <br/> 3234 occurrences with subject type rural_settlementtype_CountyStatus and object type integer.<br/>10 occurrences with subject type rural_settlementtype_RUCC and object type integer. | direct |
-| [rural_settlementtype_description](../slots/rural_settlementtype_description.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided <br/> 10 occurrences with subject type rural_settlementtype_RUCC and object type string. | direct |
+| [rural_settlementtype_year](../slots/rural_settlementtype_year.md) | 0..1 <br/> [xsd:integer](xsd:integer) | No slot (predicate) description specified <br/> 10 occurrences with subject type rural_settlementtype_RUCC and object type integer.<br/>3234 occurrences with subject type rural_settlementtype_CountyStatus and object type integer. | direct |
+| [rural_settlementtype_code](../slots/rural_settlementtype_code.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 10 occurrences with subject type rural_settlementtype_RUCC and object type string. | direct |
+| [rural_settlementtype_description](../slots/rural_settlementtype_description.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 10 occurrences with subject type rural_settlementtype_RUCC and object type string. | direct |
 
 
 
@@ -86,19 +86,9 @@ URI: [rural:settlementtype/RUCC](http://sail.ua.edu/ruralkg/settlementtype/RUCC)
 
 
 
+## Comments
 
-## Examples
-
-| Value |
-| --- |
-| rural:settlementtype/RUCC_2013_5 |
-
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
+* Rural-Urban Continuum Code classification.
 
 ## Identifier and Mapping Information
 
@@ -138,22 +128,19 @@ URI: [rural:settlementtype/RUCC](http://sail.ua.edu/ruralkg/settlementtype/RUCC)
 <details>
 ```yaml
 name: rural_settlementtype_RUCC
-description: Rural-Urban Continuum Code classification.
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class (type) name specified
 notes:
-- There are 10 instances of this class.
-examples:
-- value: rural:settlementtype/RUCC_2013_5
+- Class with 10 occurrences.
+comments:
+- Rural-Urban Continuum Code classification.
 from_schema: rural-kg
 rank: 1000
 is_a: rural_settlementtype_SettlementType
 slots:
-- rural_settlementtype_code
 - rural_settlementtype_year
+- rural_settlementtype_code
 - rural_settlementtype_description
 class_uri: rural:settlementtype/RUCC
 
@@ -165,54 +152,35 @@ class_uri: rural:settlementtype/RUCC
 <details>
 ```yaml
 name: rural_settlementtype_RUCC
-description: Rural-Urban Continuum Code classification.
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class (type) name specified
 notes:
-- There are 10 instances of this class.
-examples:
-- value: rural:settlementtype/RUCC_2013_5
+- Class with 10 occurrences.
+comments:
+- Rural-Urban Continuum Code classification.
 from_schema: rural-kg
 rank: 1000
 is_a: rural_settlementtype_SettlementType
 attributes:
-  rural_settlementtype_code:
-    name: rural_settlementtype_code
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 10 occurrences with subject type rural_settlementtype_RUCC and object type string.
-    examples:
-    - value: rural:settlementtype/RUCC_2013_9 rural:settlementtype/code 9
-    from_schema: rural-kg
-    rank: 1000
-    slot_uri: rural:settlementtype/code
-    alias: rural_settlementtype_code
-    owner: rural_settlementtype_RUCC
-    domain_of:
-    - rural_settlementtype_RUCC
-    range: string
   rural_settlementtype_year:
     name: rural_settlementtype_year
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
+    description: No slot (predicate) description specified
     comments:
+    - 10 occurrences with subject type rural_settlementtype_RUCC and object type integer.
     - 3234 occurrences with subject type rural_settlementtype_CountyStatus and object
       type integer.
-    - 10 occurrences with subject type rural_settlementtype_RUCC and object type integer.
     examples:
-    - value: rural:settlementtype/CountyStatus_46019_2013 rural:settlementtype/year
-        2013
-    - value: rural:settlementtype/RUCC_2013_5 rural:settlementtype/year 2013
+    - description: rural_settlementtype_RUCC → integer
+      object:
+        example_object: '2013'
+        example_predicate: rural:settlementtype/year
+        example_subject: rural:settlementtype/RUCC_2013_0
+    - description: rural_settlementtype_CountyStatus → integer
+      object:
+        example_object: '2013'
+        example_predicate: rural:settlementtype/year
+        example_subject: rural:settlementtype/CountyStatus_01001_2013
     from_schema: rural-kg
     rank: 1000
     slot_uri: rural:settlementtype/year
@@ -222,19 +190,36 @@ attributes:
     - rural_settlementtype_CountyStatus
     - rural_settlementtype_RUCC
     range: integer
-  rural_settlementtype_description:
-    name: rural_settlementtype_description
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
+  rural_settlementtype_code:
+    name: rural_settlementtype_code
+    description: No slot (predicate) description specified
     comments:
     - 10 occurrences with subject type rural_settlementtype_RUCC and object type string.
     examples:
-    - value: rural:settlementtype/RUCC_2013_9 rural:settlementtype/description Nonmetro
-        - Completely rural or less than 2,500 urban population, not adjacent to a
-        metro area
+    - description: rural_settlementtype_RUCC → string
+      object:
+        example_object: '0'
+        example_predicate: rural:settlementtype/code
+        example_subject: rural:settlementtype/RUCC_2013_0
+    from_schema: rural-kg
+    rank: 1000
+    slot_uri: rural:settlementtype/code
+    alias: rural_settlementtype_code
+    owner: rural_settlementtype_RUCC
+    domain_of:
+    - rural_settlementtype_RUCC
+    range: string
+  rural_settlementtype_description:
+    name: rural_settlementtype_description
+    description: No slot (predicate) description specified
+    comments:
+    - 10 occurrences with subject type rural_settlementtype_RUCC and object type string.
+    examples:
+    - description: rural_settlementtype_RUCC → string
+      object:
+        example_object: Not Applicable
+        example_predicate: rural:settlementtype/description
+        example_subject: rural:settlementtype/RUCC_2013_0
     from_schema: rural-kg
     rank: 1000
     slot_uri: rural:settlementtype/description

@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (rural_administrativearea_County)
+# Class: No class (type) name specified (rural_administrativearea_County)
 
 
-_Defines counties within a state._
+_No class (type) description specified_
 
 
 
@@ -58,8 +58,8 @@ URI: [rural:administrativearea/County](http://sail.ua.edu/ruralkg/administrative
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rural_administrativearea_fips](../slots/rural_administrativearea_fips.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided <br/> 3253 occurrences with subject type rural_administrativearea_County and object type string.<br/>56 occurrences with subject type rural_administrativearea_State and object type string. | direct |
-| [rural_administrativearea_name](../slots/rural_administrativearea_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided <br/> 31120 occurrences with subject type rural_administrativearea_City and object type string.<br/>3253 occurrences with subject type rural_administrativearea_County and object type string.<br/>56 occurrences with subject type rural_administrativearea_State and object type string. | direct |
+| [rural_administrativearea_fips](../slots/rural_administrativearea_fips.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 3253 occurrences with subject type rural_administrativearea_County and object type string.<br/>56 occurrences with subject type rural_administrativearea_State and object type string. | direct |
+| [rural_administrativearea_name](../slots/rural_administrativearea_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 31120 occurrences with subject type rural_administrativearea_City and object type string.<br/>3253 occurrences with subject type rural_administrativearea_County and object type string.<br/>56 occurrences with subject type rural_administrativearea_State and object type string. | direct |
 
 
 
@@ -78,19 +78,9 @@ URI: [rural:administrativearea/County](http://sail.ua.edu/ruralkg/administrative
 
 
 
+## Comments
 
-## Examples
-
-| Value |
-| --- |
-| rural:administrativearea/County_29197 |
-
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
+* Defines counties within a state.
 
 ## Identifier and Mapping Information
 
@@ -130,16 +120,13 @@ URI: [rural:administrativearea/County](http://sail.ua.edu/ruralkg/administrative
 <details>
 ```yaml
 name: rural_administrativearea_County
-description: Defines counties within a state.
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class (type) name specified
 notes:
-- There are 3253 instances of this class.
-examples:
-- value: rural:administrativearea/County_29197
+- Class with 3253 occurrences.
+comments:
+- Defines counties within a state.
 from_schema: rural-kg
 rank: 1000
 is_a: rural_administrativearea_AdministrativeArea
@@ -156,35 +143,36 @@ class_uri: rural:administrativearea/County
 <details>
 ```yaml
 name: rural_administrativearea_County
-description: Defines counties within a state.
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class (type) name specified
 notes:
-- There are 3253 instances of this class.
-examples:
-- value: rural:administrativearea/County_29197
+- Class with 3253 occurrences.
+comments:
+- Defines counties within a state.
 from_schema: rural-kg
 rank: 1000
 is_a: rural_administrativearea_AdministrativeArea
 attributes:
   rural_administrativearea_fips:
     name: rural_administrativearea_fips
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
+    description: No slot (predicate) description specified
     comments:
     - 3253 occurrences with subject type rural_administrativearea_County and object
       type string.
     - 56 occurrences with subject type rural_administrativearea_State and object type
       string.
     examples:
-    - value: rural:administrativearea/County_48409 rural:administrativearea/fips 48409
-    - value: rural:administrativearea/State_UT rural:administrativearea/fips 49
+    - description: rural_administrativearea_County → string
+      object:
+        example_object: '01001'
+        example_predicate: rural:administrativearea/fips
+        example_subject: rural:administrativearea/County_01001
+    - description: rural_administrativearea_State → string
+      object:
+        example_object: '02'
+        example_predicate: rural:administrativearea/fips
+        example_subject: rural:administrativearea/State_AK
     from_schema: rural-kg
     rank: 1000
     slot_uri: rural:administrativearea/fips
@@ -196,11 +184,7 @@ attributes:
     range: string
   rural_administrativearea_name:
     name: rural_administrativearea_name
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
+    description: No slot (predicate) description specified
     comments:
     - 31120 occurrences with subject type rural_administrativearea_City and object
       type string.
@@ -209,10 +193,21 @@ attributes:
     - 56 occurrences with subject type rural_administrativearea_State and object type
       string.
     examples:
-    - value: rural:administrativearea/City_1840007332 rural:administrativearea/name
-        Greenwood
-    - value: rural:administrativearea/County_54083 rural:administrativearea/name Randolph
-    - value: rural:administrativearea/State_CO rural:administrativearea/name Colorado
+    - description: rural_administrativearea_City → string
+      object:
+        example_object: Caguas
+        example_predicate: rural:administrativearea/name
+        example_subject: rural:administrativearea/City_1630023540
+    - description: rural_administrativearea_County → string
+      object:
+        example_object: Autauga
+        example_predicate: rural:administrativearea/name
+        example_subject: rural:administrativearea/County_01001
+    - description: rural_administrativearea_State → string
+      object:
+        example_object: Alaska
+        example_predicate: rural:administrativearea/name
+        example_subject: rural:administrativearea/State_AK
     from_schema: rural-kg
     rank: 1000
     slot_uri: rural:administrativearea/name

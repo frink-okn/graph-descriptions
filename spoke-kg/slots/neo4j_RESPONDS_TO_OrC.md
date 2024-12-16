@@ -3,7 +3,7 @@
 # Slot: neo4j_RESPONDS_TO_OrC
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [neo4j:RESPONDS_TO_OrC](neo4j://graph.schema#RESPONDS_TO_OrC)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Neo4jOrganism](../classes/Neo4jOrganism.md) | No type description provided |  no  |
+| [Neo4jOrganism](../classes/Neo4jOrganism.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [neo4j:RESPONDS_TO_OrC](neo4j://graph.schema#RESPONDS_TO_OrC)
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#31108418 neo4j:RESPONDS_TO_OrC neo4j://graph.individuals#1961711 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| neo4j_Organism → neo4j_Compound | neo4j://graph.individuals#31108418 | neo4j:RESPONDS_TO_OrC | neo4j://graph.individuals#1961711 |
+
 
 ## Comments
 
 * 5138 occurrences with subject type neo4j_Organism and object type neo4j_Compound.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,15 +82,15 @@ URI: [neo4j:RESPONDS_TO_OrC](neo4j://graph.schema#RESPONDS_TO_OrC)
 <details>
 ```yaml
 name: neo4j_RESPONDS_TO_OrC
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 5138 occurrences with subject type neo4j_Organism and object type neo4j_Compound.
 examples:
-- value: neo4j://graph.individuals#31108418 neo4j:RESPONDS_TO_OrC neo4j://graph.individuals#1961711
+- description: neo4j_Organism → neo4j_Compound
+  object:
+    example_object: neo4j://graph.individuals#1961711
+    example_predicate: neo4j:RESPONDS_TO_OrC
+    example_subject: neo4j://graph.individuals#31108418
 from_schema: spoke-kg
 rank: 1000
 slot_uri: neo4j:RESPONDS_TO_OrC

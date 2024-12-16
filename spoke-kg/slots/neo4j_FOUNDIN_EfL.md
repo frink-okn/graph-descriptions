@@ -3,7 +3,7 @@
 # Slot: neo4j_FOUNDIN_EfL
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [neo4j:FOUNDIN_EfL](neo4j://graph.schema#FOUNDIN_EfL)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Neo4jEnvironment](../classes/Neo4jEnvironment.md) | No type description provided |  no  |
+| [Neo4jEnvironment](../classes/Neo4jEnvironment.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [neo4j:FOUNDIN_EfL](neo4j://graph.schema#FOUNDIN_EfL)
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#105030 neo4j:FOUNDIN_EfL neo4j://graph.individuals#29671883 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| neo4j_Environment → neo4j_Location | neo4j://graph.individuals#105030 | neo4j:FOUNDIN_EfL | neo4j://graph.individuals#29671883 |
+
 
 ## Comments
 
 * 11367 occurrences with subject type neo4j_Environment and object type neo4j_Location.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,15 +82,15 @@ URI: [neo4j:FOUNDIN_EfL](neo4j://graph.schema#FOUNDIN_EfL)
 <details>
 ```yaml
 name: neo4j_FOUNDIN_EfL
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 11367 occurrences with subject type neo4j_Environment and object type neo4j_Location.
 examples:
-- value: neo4j://graph.individuals#105030 neo4j:FOUNDIN_EfL neo4j://graph.individuals#29671883
+- description: neo4j_Environment → neo4j_Location
+  object:
+    example_object: neo4j://graph.individuals#29671883
+    example_predicate: neo4j:FOUNDIN_EfL
+    example_subject: neo4j://graph.individuals#105030
 from_schema: spoke-kg
 rank: 1000
 slot_uri: neo4j:FOUNDIN_EfL

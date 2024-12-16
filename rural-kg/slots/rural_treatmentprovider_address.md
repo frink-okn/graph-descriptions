@@ -3,7 +3,7 @@
 # Slot: rural_treatmentprovider_address
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [rural:treatmentprovider/address](http://sail.ua.edu/ruralkg/treatmentprovi
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralTreatmentproviderTreatmentProvider](../classes/RuralTreatmentproviderTreatmentProvider.md) | Entities that provide treatment services, sourcing from National Directory Of... |  no  |
+| [RuralTreatmentproviderTreatmentProvider](../classes/RuralTreatmentproviderTreatmentProvider.md) | No class (type) description specified |  no  |
 
 
 
@@ -33,7 +33,7 @@ URI: [rural:treatmentprovider/address](http://sail.ua.edu/ruralkg/treatmentprovi
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -44,18 +44,12 @@ URI: [rural:treatmentprovider/address](http://sail.ua.edu/ruralkg/treatmentprovi
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| None |  |  |  |
+| rural_treatmentprovider_TreatmentProvider → string | rural:treatmentprovider/TP_1 | rural:treatmentprovider/address | 219 Dothan Road, NaN |
 
 
 ## Comments
 
 * 9037 occurrences with subject type rural_treatmentprovider_TreatmentProvider and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -88,17 +82,16 @@ URI: [rural:treatmentprovider/address](http://sail.ua.edu/ruralkg/treatmentprovi
 <details>
 ```yaml
 name: rural_treatmentprovider_address
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 9037 occurrences with subject type rural_treatmentprovider_TreatmentProvider and
   object type string.
 examples:
-- value: rural:treatmentprovider/TP_3251 rural:treatmentprovider/address 10425 Plaza
-    Americana Drive, NaN
+- description: rural_treatmentprovider_TreatmentProvider → string
+  object:
+    example_object: 219 Dothan Road, NaN
+    example_predicate: rural:treatmentprovider/address
+    example_subject: rural:treatmentprovider/TP_1
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:treatmentprovider/address

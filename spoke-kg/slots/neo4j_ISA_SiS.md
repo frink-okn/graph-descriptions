@@ -3,7 +3,7 @@
 # Slot: neo4j_ISA_SiS
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [neo4j:ISA_SiS](neo4j://graph.schema#ISA_SiS)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Neo4jSDoH](../classes/Neo4jSDoH.md) | No type description provided |  no  |
+| [Neo4jSDoH](../classes/Neo4jSDoH.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [neo4j:ISA_SiS](neo4j://graph.schema#ISA_SiS)
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#29697525 neo4j:ISA_SiS neo4j://graph.individuals#29589218 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| neo4j_SDoH → neo4j_SDoH | neo4j://graph.individuals#29697525 | neo4j:ISA_SiS | neo4j://graph.individuals#29589218 |
+
 
 ## Comments
 
 * 999 occurrences with subject type neo4j_SDoH and object type neo4j_SDoH.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,15 +82,15 @@ URI: [neo4j:ISA_SiS](neo4j://graph.schema#ISA_SiS)
 <details>
 ```yaml
 name: neo4j_ISA_SiS
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 999 occurrences with subject type neo4j_SDoH and object type neo4j_SDoH.
 examples:
-- value: neo4j://graph.individuals#29697525 neo4j:ISA_SiS neo4j://graph.individuals#29589218
+- description: neo4j_SDoH → neo4j_SDoH
+  object:
+    example_object: neo4j://graph.individuals#29589218
+    example_predicate: neo4j:ISA_SiS
+    example_subject: neo4j://graph.individuals#29697525
 from_schema: spoke-kg
 rank: 1000
 slot_uri: neo4j:ISA_SiS

@@ -3,7 +3,7 @@
 # Slot: rural_settlementtype_population
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [rural:settlementtype/population](http://sail.ua.edu/ruralkg/settlementtype
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSettlementtypeCountyStatus](../classes/RuralSettlementtypeCountyStatus.md) | Status of a county in terms of rural or urban classification |  no  |
+| [RuralSettlementtypeCountyStatus](../classes/RuralSettlementtypeCountyStatus.md) | No class (type) description specified |  no  |
 
 
 
@@ -33,7 +33,7 @@ URI: [rural:settlementtype/population](http://sail.ua.edu/ruralkg/settlementtype
 
 ## Properties
 
-* Range: [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
+* Range: [xsd:integer](xsd:integer)
 
 
 
@@ -44,18 +44,12 @@ URI: [rural:settlementtype/population](http://sail.ua.edu/ruralkg/settlementtype
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| None |  |  |  |
+| rural_settlementtype_CountyStatus → integer | rural:settlementtype/CountyStatus_01001_2013 | rural:settlementtype/population | 54571 |
 
 
 ## Comments
 
 * 3234 occurrences with subject type rural_settlementtype_CountyStatus and object type integer.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -88,17 +82,16 @@ URI: [rural:settlementtype/population](http://sail.ua.edu/ruralkg/settlementtype
 <details>
 ```yaml
 name: rural_settlementtype_population
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 3234 occurrences with subject type rural_settlementtype_CountyStatus and object
   type integer.
 examples:
-- value: rural:settlementtype/CountyStatus_36089_2013 rural:settlementtype/population
-    111944
+- description: rural_settlementtype_CountyStatus → integer
+  object:
+    example_object: '54571'
+    example_predicate: rural:settlementtype/population
+    example_subject: rural:settlementtype/CountyStatus_01001_2013
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:settlementtype/population

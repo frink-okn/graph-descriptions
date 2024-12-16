@@ -3,7 +3,7 @@
 # Slot: rural_administrativearea_latitude
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [rural:administrativearea/latitude](http://sail.ua.edu/ruralkg/administrati
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralAdministrativeareaCity](../classes/RuralAdministrativeareaCity.md) | City entities within a county or state |  no  |
+| [RuralAdministrativeareaCity](../classes/RuralAdministrativeareaCity.md) | No class (type) description specified |  no  |
 
 
 
@@ -33,7 +33,7 @@ URI: [rural:administrativearea/latitude](http://sail.ua.edu/ruralkg/administrati
 
 ## Properties
 
-* Range: [xsd:float](http://www.w3.org/2001/XMLSchema#float)
+* Range: [xsd:float](xsd:float)
 
 
 
@@ -44,18 +44,12 @@ URI: [rural:administrativearea/latitude](http://sail.ua.edu/ruralkg/administrati
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| None |  |  |  |
+| rural_administrativearea_City → float | rural:administrativearea/City_1630023540 | rural:administrativearea/latitude | 18.2319 |
 
 
 ## Comments
 
 * 31120 occurrences with subject type rural_administrativearea_City and object type float.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -88,17 +82,16 @@ URI: [rural:administrativearea/latitude](http://sail.ua.edu/ruralkg/administrati
 <details>
 ```yaml
 name: rural_administrativearea_latitude
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 31120 occurrences with subject type rural_administrativearea_City and object type
   float.
 examples:
-- value: rural:administrativearea/City_1840034298 rural:administrativearea/latitude
-    40.9497
+- description: rural_administrativearea_City → float
+  object:
+    example_object: '18.2319'
+    example_predicate: rural:administrativearea/latitude
+    example_subject: rural:administrativearea/City_1630023540
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:administrativearea/latitude

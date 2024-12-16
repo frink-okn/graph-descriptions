@@ -3,7 +3,7 @@
 # Class: Substance Abuse (rural_substanceabuse_SubstanceAbuse)
 
 
-_Categories of substance type and related incident types, extracted from National Survey on Drug Use and Health (NSDUH)._
+_No class (type) description specified_
 
 
 
@@ -52,11 +52,9 @@ URI: [rural:substanceabuse/SubstanceAbuse](http://sail.ua.edu/ruralkg/substancea
 
 
 
-## TODOs
+## Comments
 
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
+* Categories of substance type and related incident types, extracted from National Survey on Drug Use and Health (NSDUH).
 
 ## Identifier and Mapping Information
 
@@ -96,16 +94,16 @@ URI: [rural:substanceabuse/SubstanceAbuse](http://sail.ua.edu/ruralkg/substancea
 <details>
 ```yaml
 name: rural_substanceabuse_SubstanceAbuse
-description: Categories of substance type and related incident types, extracted from
-  National Survey on Drug Use and Health (NSDUH).
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
 title: Substance Abuse
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
 notes:
-- There are 0 instances of this class.
+- Class with 0 occurrences.
+comments:
+- Categories of substance type and related incident types, extracted from National
+  Survey on Drug Use and Health (NSDUH).
 from_schema: rural-kg
+source: http://sail.ua.edu/ruralkg/ontology
 rank: 1000
 class_uri: rural:substanceabuse/SubstanceAbuse
 
@@ -117,16 +115,16 @@ class_uri: rural:substanceabuse/SubstanceAbuse
 <details>
 ```yaml
 name: rural_substanceabuse_SubstanceAbuse
-description: Categories of substance type and related incident types, extracted from
-  National Survey on Drug Use and Health (NSDUH).
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
 title: Substance Abuse
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
 notes:
-- There are 0 instances of this class.
+- Class with 0 occurrences.
+comments:
+- Categories of substance type and related incident types, extracted from National
+  Survey on Drug Use and Health (NSDUH).
 from_schema: rural-kg
+source: http://sail.ua.edu/ruralkg/ontology
 rank: 1000
 class_uri: rural:substanceabuse/SubstanceAbuse
 

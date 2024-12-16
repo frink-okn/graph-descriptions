@@ -3,7 +3,7 @@
 # Slot: neo4j_TREATS_CtD
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [neo4j:TREATS_CtD](neo4j://graph.schema#TREATS_CtD)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Neo4jCompound](../classes/Neo4jCompound.md) | No type description provided |  no  |
+| [Neo4jCompound](../classes/Neo4jCompound.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [neo4j:TREATS_CtD](neo4j://graph.schema#TREATS_CtD)
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#399981 neo4j:TREATS_CtD neo4j://graph.individuals#145652 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| neo4j_Compound → neo4j_Disease | neo4j://graph.individuals#399981 | neo4j:TREATS_CtD | neo4j://graph.individuals#145652 |
+
 
 ## Comments
 
 * 163 occurrences with subject type neo4j_Compound and object type neo4j_Disease.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,15 +82,15 @@ URI: [neo4j:TREATS_CtD](neo4j://graph.schema#TREATS_CtD)
 <details>
 ```yaml
 name: neo4j_TREATS_CtD
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 163 occurrences with subject type neo4j_Compound and object type neo4j_Disease.
 examples:
-- value: neo4j://graph.individuals#399981 neo4j:TREATS_CtD neo4j://graph.individuals#145652
+- description: neo4j_Compound → neo4j_Disease
+  object:
+    example_object: neo4j://graph.individuals#145652
+    example_predicate: neo4j:TREATS_CtD
+    example_subject: neo4j://graph.individuals#399981
 from_schema: spoke-kg
 rank: 1000
 slot_uri: neo4j:TREATS_CtD

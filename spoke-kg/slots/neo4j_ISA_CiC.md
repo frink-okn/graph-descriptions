@@ -3,7 +3,7 @@
 # Slot: neo4j_ISA_CiC
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [neo4j:ISA_CiC](neo4j://graph.schema#ISA_CiC)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Neo4jCompound](../classes/Neo4jCompound.md) | No type description provided |  no  |
+| [Neo4jCompound](../classes/Neo4jCompound.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [neo4j:ISA_CiC](neo4j://graph.schema#ISA_CiC)
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#556433 neo4j:ISA_CiC neo4j://graph.individuals#388216 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| neo4j_Compound → neo4j_Compound | neo4j://graph.individuals#556433 | neo4j:ISA_CiC | neo4j://graph.individuals#388216 |
+
 
 ## Comments
 
 * 56 occurrences with subject type neo4j_Compound and object type neo4j_Compound.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,15 +82,15 @@ URI: [neo4j:ISA_CiC](neo4j://graph.schema#ISA_CiC)
 <details>
 ```yaml
 name: neo4j_ISA_CiC
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 56 occurrences with subject type neo4j_Compound and object type neo4j_Compound.
 examples:
-- value: neo4j://graph.individuals#556433 neo4j:ISA_CiC neo4j://graph.individuals#388216
+- description: neo4j_Compound → neo4j_Compound
+  object:
+    example_object: neo4j://graph.individuals#388216
+    example_predicate: neo4j:ISA_CiC
+    example_subject: neo4j://graph.individuals#556433
 from_schema: spoke-kg
 rank: 1000
 slot_uri: neo4j:ISA_CiC

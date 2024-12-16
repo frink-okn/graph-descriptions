@@ -3,7 +3,7 @@
 # Class: Mental Health (rural_mentalhealthservice_MentalHealth)
 
 
-_Mental health services, sourcing from services defined in National Directory Of Mental Health Treatment Facilities._
+_No class (type) description specified_
 
 
 
@@ -52,11 +52,9 @@ URI: [rural:mentalhealthservice/MentalHealth](http://sail.ua.edu/ruralkg/mentalh
 
 
 
-## TODOs
+## Comments
 
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
+* Mental health services, sourcing from services defined in National Directory Of Mental Health Treatment Facilities.
 
 ## Identifier and Mapping Information
 
@@ -96,16 +94,16 @@ URI: [rural:mentalhealthservice/MentalHealth](http://sail.ua.edu/ruralkg/mentalh
 <details>
 ```yaml
 name: rural_mentalhealthservice_MentalHealth
-description: Mental health services, sourcing from services defined in National Directory
-  Of Mental Health Treatment Facilities.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
 title: Mental Health
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
 notes:
-- There are 0 instances of this class.
+- Class with 0 occurrences.
+comments:
+- Mental health services, sourcing from services defined in National Directory Of
+  Mental Health Treatment Facilities.
 from_schema: rural-kg
+source: http://sail.ua.edu/ruralkg/ontology
 rank: 1000
 class_uri: rural:mentalhealthservice/MentalHealth
 
@@ -117,16 +115,16 @@ class_uri: rural:mentalhealthservice/MentalHealth
 <details>
 ```yaml
 name: rural_mentalhealthservice_MentalHealth
-description: Mental health services, sourcing from services defined in National Directory
-  Of Mental Health Treatment Facilities.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
 title: Mental Health
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
 notes:
-- There are 0 instances of this class.
+- Class with 0 occurrences.
+comments:
+- Mental health services, sourcing from services defined in National Directory Of
+  Mental Health Treatment Facilities.
 from_schema: rural-kg
+source: http://sail.ua.edu/ruralkg/ontology
 rank: 1000
 class_uri: rural:mentalhealthservice/MentalHealth
 

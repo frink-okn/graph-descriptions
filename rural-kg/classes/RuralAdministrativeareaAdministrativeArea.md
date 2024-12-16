@@ -1,6 +1,11 @@
 
 
-# Class: TODO -- this class is noted as a superclass of another class in this graph but has not itself been defined. (rural_administrativearea_AdministrativeArea)
+# Class: Administrative Area (rural_administrativearea_AdministrativeArea)
+
+
+_No class (type) description specified_
+
+
 
 
 
@@ -50,6 +55,10 @@ URI: [rural:administrativearea/AdministrativeArea](http://sail.ua.edu/ruralkg/ad
 
 
 
+## Comments
+
+* Covers all administrative regions, including State, City, County, and MSA (undergoing).
+
 ## Identifier and Mapping Information
 
 
@@ -88,9 +97,15 @@ URI: [rural:administrativearea/AdministrativeArea](http://sail.ua.edu/ruralkg/ad
 <details>
 ```yaml
 name: rural_administrativearea_AdministrativeArea
-title: TODO -- this class is noted as a superclass of another class in this graph
-  but has not itself been defined.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: Administrative Area
+notes:
+- Class with 0 occurrences.
+comments:
+- Covers all administrative regions, including State, City, County, and MSA (undergoing).
 from_schema: rural-kg
+source: http://sail.ua.edu/ruralkg/ontology
 rank: 1000
 class_uri: rural:administrativearea/AdministrativeArea
 
@@ -102,9 +117,15 @@ class_uri: rural:administrativearea/AdministrativeArea
 <details>
 ```yaml
 name: rural_administrativearea_AdministrativeArea
-title: TODO -- this class is noted as a superclass of another class in this graph
-  but has not itself been defined.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: Administrative Area
+notes:
+- Class with 0 occurrences.
+comments:
+- Covers all administrative regions, including State, City, County, and MSA (undergoing).
 from_schema: rural-kg
+source: http://sail.ua.edu/ruralkg/ontology
 rank: 1000
 class_uri: rural:administrativearea/AdministrativeArea
 

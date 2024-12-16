@@ -3,7 +3,7 @@
 # Slot: rural_treatmentprovider_providesService
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [rural:treatmentprovider/providesService](http://sail.ua.edu/ruralkg/treatm
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralTreatmentproviderTreatmentProvider](../classes/RuralTreatmentproviderTreatmentProvider.md) | Entities that provide treatment services, sourcing from National Directory Of... |  no  |
+| [RuralTreatmentproviderTreatmentProvider](../classes/RuralTreatmentproviderTreatmentProvider.md) | No class (type) description specified |  no  |
 
 
 
@@ -44,18 +44,12 @@ URI: [rural:treatmentprovider/providesService](http://sail.ua.edu/ruralkg/treatm
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| None |  |  |  |
+| rural_treatmentprovider_TreatmentProvider → rural_mentalhealthservice_MentalHealthService | rural:treatmentprovider/TP_999 | rural:treatmentprovider/providesService | rural:mentalhealthservice/MHS_YAD |
 
 
 ## Comments
 
 * 442841 occurrences with subject type rural_treatmentprovider_TreatmentProvider and object type rural_mentalhealthservice_MentalHealthService.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -88,16 +82,16 @@ URI: [rural:treatmentprovider/providesService](http://sail.ua.edu/ruralkg/treatm
 <details>
 ```yaml
 name: rural_treatmentprovider_providesService
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 442841 occurrences with subject type rural_treatmentprovider_TreatmentProvider and
   object type rural_mentalhealthservice_MentalHealthService.
 examples:
-- value: rural:treatmentprovider/TP_2411 rural:treatmentprovider/providesService rural:mentalhealthservice/MHS_FPSY
+- description: rural_treatmentprovider_TreatmentProvider → rural_mentalhealthservice_MentalHealthService
+  object:
+    example_object: rural:mentalhealthservice/MHS_YAD
+    example_predicate: rural:treatmentprovider/providesService
+    example_subject: rural:treatmentprovider/TP_999
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:treatmentprovider/providesService

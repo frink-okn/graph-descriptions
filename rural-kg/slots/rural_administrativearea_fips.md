@@ -3,7 +3,7 @@
 # Slot: rural_administrativearea_fips
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,8 +23,8 @@ URI: [rural:administrativearea/fips](http://sail.ua.edu/ruralkg/administrativear
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralAdministrativeareaState](../classes/RuralAdministrativeareaState.md) | Represents individual states within U |  no  |
-| [RuralAdministrativeareaCounty](../classes/RuralAdministrativeareaCounty.md) | Defines counties within a state |  no  |
+| [RuralAdministrativeareaState](../classes/RuralAdministrativeareaState.md) | No class (type) description specified |  no  |
+| [RuralAdministrativeareaCounty](../classes/RuralAdministrativeareaCounty.md) | No class (type) description specified |  no  |
 
 
 
@@ -34,7 +34,7 @@ URI: [rural:administrativearea/fips](http://sail.ua.edu/ruralkg/administrativear
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -45,20 +45,14 @@ URI: [rural:administrativearea/fips](http://sail.ua.edu/ruralkg/administrativear
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| None |  |  |  |
-| None |  |  |  |
+| rural_administrativearea_County → string | rural:administrativearea/County_01001 | rural:administrativearea/fips | 01001 |
+| rural_administrativearea_State → string | rural:administrativearea/State_AK | rural:administrativearea/fips | 02 |
 
 
 ## Comments
 
 * 3253 occurrences with subject type rural_administrativearea_County and object type string.
 * 56 occurrences with subject type rural_administrativearea_State and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -91,19 +85,23 @@ URI: [rural:administrativearea/fips](http://sail.ua.edu/ruralkg/administrativear
 <details>
 ```yaml
 name: rural_administrativearea_fips
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 3253 occurrences with subject type rural_administrativearea_County and object type
   string.
 - 56 occurrences with subject type rural_administrativearea_State and object type
   string.
 examples:
-- value: rural:administrativearea/County_48409 rural:administrativearea/fips 48409
-- value: rural:administrativearea/State_UT rural:administrativearea/fips 49
+- description: rural_administrativearea_County → string
+  object:
+    example_object: '01001'
+    example_predicate: rural:administrativearea/fips
+    example_subject: rural:administrativearea/County_01001
+- description: rural_administrativearea_State → string
+  object:
+    example_object: '02'
+    example_predicate: rural:administrativearea/fips
+    example_subject: rural:administrativearea/State_AK
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:administrativearea/fips

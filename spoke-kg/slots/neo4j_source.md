@@ -3,7 +3,7 @@
 # Slot: neo4j_source
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [neo4j:source](neo4j://graph.schema#source)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Neo4jDisease](../classes/Neo4jDisease.md) | No type description provided |  no  |
+| [Neo4jDisease](../classes/Neo4jDisease.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [neo4j:source](neo4j://graph.schema#source)
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#142359 neo4j:source Disease Ontology |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| neo4j_Disease → string | neo4j://graph.individuals#142359 | neo4j:source | Disease Ontology |
+
 
 ## Comments
 
 * 180 occurrences with subject type neo4j_Disease and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,15 +82,15 @@ URI: [neo4j:source](neo4j://graph.schema#source)
 <details>
 ```yaml
 name: neo4j_source
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 180 occurrences with subject type neo4j_Disease and object type string.
 examples:
-- value: neo4j://graph.individuals#142359 neo4j:source Disease Ontology
+- description: neo4j_Disease → string
+  object:
+    example_object: Disease Ontology
+    example_predicate: neo4j:source
+    example_subject: neo4j://graph.individuals#142359
 from_schema: spoke-kg
 rank: 1000
 slot_uri: neo4j:source

@@ -3,7 +3,7 @@
 # Slot: rural_substanceabuse_name
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,8 +23,8 @@ URI: [rural:substanceabuse/name](http://sail.ua.edu/ruralkg/substanceabuse/name)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSubstanceabuseSubstanceRelatedIncident](../classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | Types of incidents related to substance abuse |  no  |
-| [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | Types of substances that can be abused |  no  |
+| [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | No class (type) description specified |  no  |
+| [RuralSubstanceabuseSubstanceRelatedIncident](../classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | No class (type) description specified |  no  |
 
 
 
@@ -34,7 +34,7 @@ URI: [rural:substanceabuse/name](http://sail.ua.edu/ruralkg/substanceabuse/name)
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -45,20 +45,14 @@ URI: [rural:substanceabuse/name](http://sail.ua.edu/ruralkg/substanceabuse/name)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| None |  |  |  |
-| None |  |  |  |
+| rural_substanceabuse_SubstanceRelatedIncident → string | rural:substanceabuse/SIT_1 | rural:substanceabuse/name | Drive Under Influence |
+| rural_substanceabuse_Substance → string | rural:substanceabuse/Substance_1 | rural:substanceabuse/name | nicotine |
 
 
 ## Comments
 
-* 25 occurrences with subject type rural_substanceabuse_Substance and object type string.
 * 17 occurrences with subject type rural_substanceabuse_SubstanceRelatedIncident and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
+* 25 occurrences with subject type rural_substanceabuse_Substance and object type string.
 
 ## Identifier and Mapping Information
 
@@ -91,19 +85,23 @@ URI: [rural:substanceabuse/name](http://sail.ua.edu/ruralkg/substanceabuse/name)
 <details>
 ```yaml
 name: rural_substanceabuse_name
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
-- 25 occurrences with subject type rural_substanceabuse_Substance and object type
-  string.
 - 17 occurrences with subject type rural_substanceabuse_SubstanceRelatedIncident and
   object type string.
+- 25 occurrences with subject type rural_substanceabuse_Substance and object type
+  string.
 examples:
-- value: rural:substanceabuse/Substance_16 rural:substanceabuse/name pcp
-- value: rural:substanceabuse/SIT_13 rural:substanceabuse/name On Parole
+- description: rural_substanceabuse_SubstanceRelatedIncident → string
+  object:
+    example_object: Drive Under Influence
+    example_predicate: rural:substanceabuse/name
+    example_subject: rural:substanceabuse/SIT_1
+- description: rural_substanceabuse_Substance → string
+  object:
+    example_object: nicotine
+    example_predicate: rural:substanceabuse/name
+    example_subject: rural:substanceabuse/Substance_1
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:substanceabuse/name

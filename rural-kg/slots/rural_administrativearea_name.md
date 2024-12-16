@@ -3,7 +3,7 @@
 # Slot: rural_administrativearea_name
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,9 +23,9 @@ URI: [rural:administrativearea/name](http://sail.ua.edu/ruralkg/administrativear
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralAdministrativeareaCity](../classes/RuralAdministrativeareaCity.md) | City entities within a county or state |  no  |
-| [RuralAdministrativeareaState](../classes/RuralAdministrativeareaState.md) | Represents individual states within U |  no  |
-| [RuralAdministrativeareaCounty](../classes/RuralAdministrativeareaCounty.md) | Defines counties within a state |  no  |
+| [RuralAdministrativeareaState](../classes/RuralAdministrativeareaState.md) | No class (type) description specified |  no  |
+| [RuralAdministrativeareaCity](../classes/RuralAdministrativeareaCity.md) | No class (type) description specified |  no  |
+| [RuralAdministrativeareaCounty](../classes/RuralAdministrativeareaCounty.md) | No class (type) description specified |  no  |
 
 
 
@@ -35,7 +35,7 @@ URI: [rural:administrativearea/name](http://sail.ua.edu/ruralkg/administrativear
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -46,9 +46,9 @@ URI: [rural:administrativearea/name](http://sail.ua.edu/ruralkg/administrativear
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| None |  |  |  |
-| None |  |  |  |
-| None |  |  |  |
+| rural_administrativearea_City → string | rural:administrativearea/City_1630023540 | rural:administrativearea/name | Caguas |
+| rural_administrativearea_County → string | rural:administrativearea/County_01001 | rural:administrativearea/name | Autauga |
+| rural_administrativearea_State → string | rural:administrativearea/State_AK | rural:administrativearea/name | Alaska |
 
 
 ## Comments
@@ -56,12 +56,6 @@ URI: [rural:administrativearea/name](http://sail.ua.edu/ruralkg/administrativear
 * 31120 occurrences with subject type rural_administrativearea_City and object type string.
 * 3253 occurrences with subject type rural_administrativearea_County and object type string.
 * 56 occurrences with subject type rural_administrativearea_State and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -94,11 +88,7 @@ URI: [rural:administrativearea/name](http://sail.ua.edu/ruralkg/administrativear
 <details>
 ```yaml
 name: rural_administrativearea_name
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 31120 occurrences with subject type rural_administrativearea_City and object type
   string.
@@ -107,9 +97,21 @@ comments:
 - 56 occurrences with subject type rural_administrativearea_State and object type
   string.
 examples:
-- value: rural:administrativearea/City_1840007332 rural:administrativearea/name Greenwood
-- value: rural:administrativearea/County_54083 rural:administrativearea/name Randolph
-- value: rural:administrativearea/State_CO rural:administrativearea/name Colorado
+- description: rural_administrativearea_City → string
+  object:
+    example_object: Caguas
+    example_predicate: rural:administrativearea/name
+    example_subject: rural:administrativearea/City_1630023540
+- description: rural_administrativearea_County → string
+  object:
+    example_object: Autauga
+    example_predicate: rural:administrativearea/name
+    example_subject: rural:administrativearea/County_01001
+- description: rural_administrativearea_State → string
+  object:
+    example_object: Alaska
+    example_predicate: rural:administrativearea/name
+    example_subject: rural:administrativearea/State_AK
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:administrativearea/name

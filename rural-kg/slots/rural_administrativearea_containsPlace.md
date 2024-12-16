@@ -3,7 +3,7 @@
 # Slot: rural_administrativearea_containsPlace
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [rural:administrativearea/containsPlace](http://sail.ua.edu/ruralkg/adminis
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralAdministrativeareaState](../classes/RuralAdministrativeareaState.md) | Represents individual states within U |  no  |
+| [RuralAdministrativeareaState](../classes/RuralAdministrativeareaState.md) | No class (type) description specified |  no  |
 
 
 
@@ -44,18 +44,12 @@ URI: [rural:administrativearea/containsPlace](http://sail.ua.edu/ruralkg/adminis
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| None |  |  |  |
+| rural_administrativearea_State → rural_administrativearea_County | rural:administrativearea/State_WY | rural:administrativearea/containsPlace | rural:administrativearea/County_56045 |
 
 
 ## Comments
 
 * 3253 occurrences with subject type rural_administrativearea_State and object type rural_administrativearea_County.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -88,17 +82,16 @@ URI: [rural:administrativearea/containsPlace](http://sail.ua.edu/ruralkg/adminis
 <details>
 ```yaml
 name: rural_administrativearea_containsPlace
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 3253 occurrences with subject type rural_administrativearea_State and object type
   rural_administrativearea_County.
 examples:
-- value: rural:administrativearea/State_TX rural:administrativearea/containsPlace
-    rural:administrativearea/County_48021
+- description: rural_administrativearea_State → rural_administrativearea_County
+  object:
+    example_object: rural:administrativearea/County_56045
+    example_predicate: rural:administrativearea/containsPlace
+    example_subject: rural:administrativearea/State_WY
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:administrativearea/containsPlace

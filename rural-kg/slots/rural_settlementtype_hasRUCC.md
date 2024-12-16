@@ -3,7 +3,7 @@
 # Slot: rural_settlementtype_hasRUCC
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [rural:settlementtype/hasRUCC](http://sail.ua.edu/ruralkg/settlementtype/ha
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSettlementtypeCountyStatus](../classes/RuralSettlementtypeCountyStatus.md) | Status of a county in terms of rural or urban classification |  no  |
+| [RuralSettlementtypeCountyStatus](../classes/RuralSettlementtypeCountyStatus.md) | No class (type) description specified |  no  |
 
 
 
@@ -44,18 +44,12 @@ URI: [rural:settlementtype/hasRUCC](http://sail.ua.edu/ruralkg/settlementtype/ha
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| None |  |  |  |
+| rural_settlementtype_CountyStatus → rural_settlementtype_RUCC | rural:settlementtype/CountyStatus_78030_2013 | rural:settlementtype/hasRUCC | rural:settlementtype/RUCC_2013_5 |
 
 
 ## Comments
 
 * 3234 occurrences with subject type rural_settlementtype_CountyStatus and object type rural_settlementtype_RUCC.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -88,17 +82,16 @@ URI: [rural:settlementtype/hasRUCC](http://sail.ua.edu/ruralkg/settlementtype/ha
 <details>
 ```yaml
 name: rural_settlementtype_hasRUCC
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 3234 occurrences with subject type rural_settlementtype_CountyStatus and object
   type rural_settlementtype_RUCC.
 examples:
-- value: rural:settlementtype/CountyStatus_46043_2013 rural:settlementtype/hasRUCC
-    rural:settlementtype/RUCC_2013_9
+- description: rural_settlementtype_CountyStatus → rural_settlementtype_RUCC
+  object:
+    example_object: rural:settlementtype/RUCC_2013_5
+    example_predicate: rural:settlementtype/hasRUCC
+    example_subject: rural:settlementtype/CountyStatus_78030_2013
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:settlementtype/hasRUCC

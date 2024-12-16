@@ -3,7 +3,7 @@
 # Slot: rural_substanceabuse_code
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [rural:substanceabuse/code](http://sail.ua.edu/ruralkg/substanceabuse/code)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | Types of substances that can be abused |  no  |
+| [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | No class (type) description specified |  no  |
 
 
 
@@ -33,7 +33,7 @@ URI: [rural:substanceabuse/code](http://sail.ua.edu/ruralkg/substanceabuse/code)
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -44,18 +44,12 @@ URI: [rural:substanceabuse/code](http://sail.ua.edu/ruralkg/substanceabuse/code)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| None |  |  |  |
+| rural_substanceabuse_Substance → string | rural:substanceabuse/Substance_1 | rural:substanceabuse/code | None |
 
 
 ## Comments
 
 * 25 occurrences with subject type rural_substanceabuse_Substance and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -88,16 +82,16 @@ URI: [rural:substanceabuse/code](http://sail.ua.edu/ruralkg/substanceabuse/code)
 <details>
 ```yaml
 name: rural_substanceabuse_code
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 25 occurrences with subject type rural_substanceabuse_Substance and object type
   string.
 examples:
-- value: rural:substanceabuse/Substance_17 rural:substanceabuse/code 7405
+- description: rural_substanceabuse_Substance → string
+  object:
+    example_object: None
+    example_predicate: rural:substanceabuse/code
+    example_subject: rural:substanceabuse/Substance_1
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:substanceabuse/code

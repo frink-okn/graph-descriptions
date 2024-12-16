@@ -3,7 +3,7 @@
 # Slot: rural_treatmentprovider_inCity
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [rural:treatmentprovider/inCity](http://sail.ua.edu/ruralkg/treatmentprovid
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralTreatmentproviderTreatmentProvider](../classes/RuralTreatmentproviderTreatmentProvider.md) | Entities that provide treatment services, sourcing from National Directory Of... |  no  |
+| [RuralTreatmentproviderTreatmentProvider](../classes/RuralTreatmentproviderTreatmentProvider.md) | No class (type) description specified |  no  |
 
 
 
@@ -33,7 +33,7 @@ URI: [rural:treatmentprovider/inCity](http://sail.ua.edu/ruralkg/treatmentprovid
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[RuralAdministrativeareaCity](../classes/RuralAdministrativeareaCity.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:anyURI](xsd:anyURI)&nbsp;or&nbsp;<br />[RuralAdministrativeareaCity](../classes/RuralAdministrativeareaCity.md)
 
 
 
@@ -44,20 +44,14 @@ URI: [rural:treatmentprovider/inCity](http://sail.ua.edu/ruralkg/treatmentprovid
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| None |  |  |  |
-| None |  |  |  |
+| rural_treatmentprovider_TreatmentProvider → rural_administrativearea_City | rural:treatmentprovider/TP_999 | rural:treatmentprovider/inCity | rural:administrativearea/City_1840020296 |
+| rural_treatmentprovider_TreatmentProvider → uri | rural:treatmentprovider/TP_1107 | rural:treatmentprovider/inCity | rural:administrativearea/City_None |
 
 
 ## Comments
 
 * 8117 occurrences with subject type rural_treatmentprovider_TreatmentProvider and object type rural_administrativearea_City.
 * 920 occurrences with subject type rural_treatmentprovider_TreatmentProvider and object type uri.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -90,19 +84,23 @@ URI: [rural:treatmentprovider/inCity](http://sail.ua.edu/ruralkg/treatmentprovid
 <details>
 ```yaml
 name: rural_treatmentprovider_inCity
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 8117 occurrences with subject type rural_treatmentprovider_TreatmentProvider and
   object type rural_administrativearea_City.
 - 920 occurrences with subject type rural_treatmentprovider_TreatmentProvider and
   object type uri.
 examples:
-- value: rural:treatmentprovider/TP_2390 rural:treatmentprovider/inCity rural:administrativearea/City_1840000494
-- value: rural:treatmentprovider/TP_1871 rural:treatmentprovider/inCity rural:administrativearea/City_None
+- description: rural_treatmentprovider_TreatmentProvider → rural_administrativearea_City
+  object:
+    example_object: rural:administrativearea/City_1840020296
+    example_predicate: rural:treatmentprovider/inCity
+    example_subject: rural:treatmentprovider/TP_999
+- description: rural_treatmentprovider_TreatmentProvider → uri
+  object:
+    example_object: rural:administrativearea/City_None
+    example_predicate: rural:treatmentprovider/inCity
+    example_subject: rural:treatmentprovider/TP_1107
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:treatmentprovider/inCity
@@ -111,8 +109,8 @@ domain_of:
 - rural_treatmentprovider_TreatmentProvider
 range: Any
 any_of:
-- range: rural_administrativearea_City
 - range: uri
+- range: rural_administrativearea_City
 
 ```
 </details>

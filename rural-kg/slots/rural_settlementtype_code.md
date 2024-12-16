@@ -3,7 +3,7 @@
 # Slot: rural_settlementtype_code
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [rural:settlementtype/code](http://sail.ua.edu/ruralkg/settlementtype/code)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSettlementtypeRUCC](../classes/RuralSettlementtypeRUCC.md) | Rural-Urban Continuum Code classification |  no  |
+| [RuralSettlementtypeRUCC](../classes/RuralSettlementtypeRUCC.md) | No class (type) description specified |  no  |
 
 
 
@@ -33,7 +33,7 @@ URI: [rural:settlementtype/code](http://sail.ua.edu/ruralkg/settlementtype/code)
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -44,18 +44,12 @@ URI: [rural:settlementtype/code](http://sail.ua.edu/ruralkg/settlementtype/code)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| None |  |  |  |
+| rural_settlementtype_RUCC → string | rural:settlementtype/RUCC_2013_0 | rural:settlementtype/code | 0 |
 
 
 ## Comments
 
 * 10 occurrences with subject type rural_settlementtype_RUCC and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -88,15 +82,15 @@ URI: [rural:settlementtype/code](http://sail.ua.edu/ruralkg/settlementtype/code)
 <details>
 ```yaml
 name: rural_settlementtype_code
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 10 occurrences with subject type rural_settlementtype_RUCC and object type string.
 examples:
-- value: rural:settlementtype/RUCC_2013_9 rural:settlementtype/code 9
+- description: rural_settlementtype_RUCC → string
+  object:
+    example_object: '0'
+    example_predicate: rural:settlementtype/code
+    example_subject: rural:settlementtype/RUCC_2013_0
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:settlementtype/code

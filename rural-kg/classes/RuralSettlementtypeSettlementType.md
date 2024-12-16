@@ -1,6 +1,11 @@
 
 
-# Class: TODO -- this class is noted as a superclass of another class in this graph but has not itself been defined. (rural_settlementtype_SettlementType)
+# Class: Settlement Type (rural_settlementtype_SettlementType)
+
+
+_No class (type) description specified_
+
+
 
 
 
@@ -47,6 +52,10 @@ URI: [rural:settlementtype/SettlementType](http://sail.ua.edu/ruralkg/settlement
 
 
 
+## Comments
+
+* Rural-Urban Continuum Code (RUCC) is incorporated. Categorize county-level areas into Metro or Nonmetro. It is an indicator for determining the rural-urban continuum code (RUCC) classification
+
 ## Identifier and Mapping Information
 
 
@@ -85,9 +94,17 @@ URI: [rural:settlementtype/SettlementType](http://sail.ua.edu/ruralkg/settlement
 <details>
 ```yaml
 name: rural_settlementtype_SettlementType
-title: TODO -- this class is noted as a superclass of another class in this graph
-  but has not itself been defined.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: Settlement Type
+notes:
+- Class with 0 occurrences.
+comments:
+- Rural-Urban Continuum Code (RUCC) is incorporated. Categorize county-level areas
+  into Metro or Nonmetro. It is an indicator for determining the rural-urban continuum
+  code (RUCC) classification
 from_schema: rural-kg
+source: http://sail.ua.edu/ruralkg/ontology
 rank: 1000
 class_uri: rural:settlementtype/SettlementType
 
@@ -99,9 +116,17 @@ class_uri: rural:settlementtype/SettlementType
 <details>
 ```yaml
 name: rural_settlementtype_SettlementType
-title: TODO -- this class is noted as a superclass of another class in this graph
-  but has not itself been defined.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: Settlement Type
+notes:
+- Class with 0 occurrences.
+comments:
+- Rural-Urban Continuum Code (RUCC) is incorporated. Categorize county-level areas
+  into Metro or Nonmetro. It is an indicator for determining the rural-urban continuum
+  code (RUCC) classification
 from_schema: rural-kg
+source: http://sail.ua.edu/ruralkg/ontology
 rank: 1000
 class_uri: rural:settlementtype/SettlementType
 

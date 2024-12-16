@@ -3,7 +3,7 @@
 # Slot: rural_mentalhealthservice_code
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,8 +23,8 @@ URI: [rural:mentalhealthservice/code](http://sail.ua.edu/ruralkg/mentalhealthser
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralMentalhealthserviceMentalHealthServiceCategory](../classes/RuralMentalhealthserviceMentalHealthServiceCategory.md) | Categories of mental health services |  no  |
-| [RuralMentalhealthserviceMentalHealthService](../classes/RuralMentalhealthserviceMentalHealthService.md) | Specific mental health services offered |  no  |
+| [RuralMentalhealthserviceMentalHealthService](../classes/RuralMentalhealthserviceMentalHealthService.md) | No class (type) description specified |  no  |
+| [RuralMentalhealthserviceMentalHealthServiceCategory](../classes/RuralMentalhealthserviceMentalHealthServiceCategory.md) | No class (type) description specified |  no  |
 
 
 
@@ -34,7 +34,7 @@ URI: [rural:mentalhealthservice/code](http://sail.ua.edu/ruralkg/mentalhealthser
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -45,20 +45,14 @@ URI: [rural:mentalhealthservice/code](http://sail.ua.edu/ruralkg/mentalhealthser
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| None |  |  |  |
-| None |  |  |  |
+| rural_mentalhealthservice_MentalHealthService → string | rural:mentalhealthservice/MHS_ACT | rural:mentalhealthservice/code | ACT |
+| rural_mentalhealthservice_MentalHealthServiceCategory → string | rural:mentalhealthservice/MHSC_AGE | rural:mentalhealthservice/code | AGE |
 
 
 ## Comments
 
 * 176 occurrences with subject type rural_mentalhealthservice_MentalHealthService and object type string.
 * 21 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -91,19 +85,23 @@ URI: [rural:mentalhealthservice/code](http://sail.ua.edu/ruralkg/mentalhealthser
 <details>
 ```yaml
 name: rural_mentalhealthservice_code
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 176 occurrences with subject type rural_mentalhealthservice_MentalHealthService
   and object type string.
 - 21 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory
   and object type string.
 examples:
-- value: rural:mentalhealthservice/MHS_AH rural:mentalhealthservice/code AH
-- value: rural:mentalhealthservice/MHSC_OL rural:mentalhealthservice/code OL
+- description: rural_mentalhealthservice_MentalHealthService → string
+  object:
+    example_object: ACT
+    example_predicate: rural:mentalhealthservice/code
+    example_subject: rural:mentalhealthservice/MHS_ACT
+- description: rural_mentalhealthservice_MentalHealthServiceCategory → string
+  object:
+    example_object: AGE
+    example_predicate: rural:mentalhealthservice/code
+    example_subject: rural:mentalhealthservice/MHSC_AGE
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:mentalhealthservice/code

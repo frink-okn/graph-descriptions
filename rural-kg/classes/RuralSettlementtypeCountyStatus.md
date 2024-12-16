@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (rural_settlementtype_CountyStatus)
+# Class: No class (type) name specified (rural_settlementtype_CountyStatus)
 
 
-_Status of a county in terms of rural or urban classification._
+_No class (type) description specified_
 
 
 
@@ -76,10 +76,10 @@ URI: [rural:settlementtype/CountyStatus](http://sail.ua.edu/ruralkg/settlementty
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rural_settlementtype_censusCounty](../slots/rural_settlementtype_censusCounty.md) | 0..1 <br/> [RuralAdministrativeareaCounty](../classes/RuralAdministrativeareaCounty.md) | No slot description provided <br/> 3234 occurrences with subject type rural_settlementtype_CountyStatus and object type rural_administrativearea_County. | direct |
-| [rural_settlementtype_hasRUCC](../slots/rural_settlementtype_hasRUCC.md) | 0..1 <br/> [RuralSettlementtypeRUCC](../classes/RuralSettlementtypeRUCC.md) | No slot description provided <br/> 3234 occurrences with subject type rural_settlementtype_CountyStatus and object type rural_settlementtype_RUCC. | direct |
-| [rural_settlementtype_year](../slots/rural_settlementtype_year.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot description provided <br/> 3234 occurrences with subject type rural_settlementtype_CountyStatus and object type integer.<br/>10 occurrences with subject type rural_settlementtype_RUCC and object type integer. | direct |
-| [rural_settlementtype_population](../slots/rural_settlementtype_population.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot description provided <br/> 3234 occurrences with subject type rural_settlementtype_CountyStatus and object type integer. | direct |
+| [rural_settlementtype_censusCounty](../slots/rural_settlementtype_censusCounty.md) | 0..1 <br/> [RuralAdministrativeareaCounty](../classes/RuralAdministrativeareaCounty.md) | No slot (predicate) description specified <br/> 3234 occurrences with subject type rural_settlementtype_CountyStatus and object type rural_administrativearea_County. | direct |
+| [rural_settlementtype_population](../slots/rural_settlementtype_population.md) | 0..1 <br/> [xsd:integer](xsd:integer) | No slot (predicate) description specified <br/> 3234 occurrences with subject type rural_settlementtype_CountyStatus and object type integer. | direct |
+| [rural_settlementtype_year](../slots/rural_settlementtype_year.md) | 0..1 <br/> [xsd:integer](xsd:integer) | No slot (predicate) description specified <br/> 10 occurrences with subject type rural_settlementtype_RUCC and object type integer.<br/>3234 occurrences with subject type rural_settlementtype_CountyStatus and object type integer. | direct |
+| [rural_settlementtype_hasRUCC](../slots/rural_settlementtype_hasRUCC.md) | 0..1 <br/> [RuralSettlementtypeRUCC](../classes/RuralSettlementtypeRUCC.md) | No slot (predicate) description specified <br/> 3234 occurrences with subject type rural_settlementtype_CountyStatus and object type rural_settlementtype_RUCC. | direct |
 
 
 
@@ -89,19 +89,9 @@ URI: [rural:settlementtype/CountyStatus](http://sail.ua.edu/ruralkg/settlementty
 
 
 
+## Comments
 
-## Examples
-
-| Value |
-| --- |
-| rural:settlementtype/CountyStatus_35035_2013 |
-
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
+* Status of a county in terms of rural or urban classification.
 
 ## Identifier and Mapping Information
 
@@ -141,24 +131,21 @@ URI: [rural:settlementtype/CountyStatus](http://sail.ua.edu/ruralkg/settlementty
 <details>
 ```yaml
 name: rural_settlementtype_CountyStatus
-description: Status of a county in terms of rural or urban classification.
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class (type) name specified
 notes:
-- There are 3234 instances of this class.
-examples:
-- value: rural:settlementtype/CountyStatus_35035_2013
+- Class with 3234 occurrences.
+comments:
+- Status of a county in terms of rural or urban classification.
 from_schema: rural-kg
 rank: 1000
 is_a: rural_settlementtype_SettlementType
 slots:
 - rural_settlementtype_censusCounty
-- rural_settlementtype_hasRUCC
-- rural_settlementtype_year
 - rural_settlementtype_population
+- rural_settlementtype_year
+- rural_settlementtype_hasRUCC
 class_uri: rural:settlementtype/CountyStatus
 
 ```
@@ -169,33 +156,29 @@ class_uri: rural:settlementtype/CountyStatus
 <details>
 ```yaml
 name: rural_settlementtype_CountyStatus
-description: Status of a county in terms of rural or urban classification.
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class (type) name specified
 notes:
-- There are 3234 instances of this class.
-examples:
-- value: rural:settlementtype/CountyStatus_35035_2013
+- Class with 3234 occurrences.
+comments:
+- Status of a county in terms of rural or urban classification.
 from_schema: rural-kg
 rank: 1000
 is_a: rural_settlementtype_SettlementType
 attributes:
   rural_settlementtype_censusCounty:
     name: rural_settlementtype_censusCounty
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
+    description: No slot (predicate) description specified
     comments:
     - 3234 occurrences with subject type rural_settlementtype_CountyStatus and object
       type rural_administrativearea_County.
     examples:
-    - value: rural:settlementtype/CountyStatus_28135_2013 rural:settlementtype/censusCounty
-        rural:administrativearea/County_28135
+    - description: rural_settlementtype_CountyStatus → rural_administrativearea_County
+      object:
+        example_object: rural:administrativearea/County_78030
+        example_predicate: rural:settlementtype/censusCounty
+        example_subject: rural:settlementtype/CountyStatus_78030_2013
     from_schema: rural-kg
     rank: 1000
     slot_uri: rural:settlementtype/censusCounty
@@ -204,42 +187,44 @@ attributes:
     domain_of:
     - rural_settlementtype_CountyStatus
     range: rural_administrativearea_County
-  rural_settlementtype_hasRUCC:
-    name: rural_settlementtype_hasRUCC
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 3234 occurrences with subject type rural_settlementtype_CountyStatus and object
-      type rural_settlementtype_RUCC.
-    examples:
-    - value: rural:settlementtype/CountyStatus_46043_2013 rural:settlementtype/hasRUCC
-        rural:settlementtype/RUCC_2013_9
-    from_schema: rural-kg
-    rank: 1000
-    slot_uri: rural:settlementtype/hasRUCC
-    alias: rural_settlementtype_hasRUCC
-    owner: rural_settlementtype_CountyStatus
-    domain_of:
-    - rural_settlementtype_CountyStatus
-    range: rural_settlementtype_RUCC
-  rural_settlementtype_year:
-    name: rural_settlementtype_year
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
+  rural_settlementtype_population:
+    name: rural_settlementtype_population
+    description: No slot (predicate) description specified
     comments:
     - 3234 occurrences with subject type rural_settlementtype_CountyStatus and object
       type integer.
-    - 10 occurrences with subject type rural_settlementtype_RUCC and object type integer.
     examples:
-    - value: rural:settlementtype/CountyStatus_46019_2013 rural:settlementtype/year
-        2013
-    - value: rural:settlementtype/RUCC_2013_5 rural:settlementtype/year 2013
+    - description: rural_settlementtype_CountyStatus → integer
+      object:
+        example_object: '54571'
+        example_predicate: rural:settlementtype/population
+        example_subject: rural:settlementtype/CountyStatus_01001_2013
+    from_schema: rural-kg
+    rank: 1000
+    slot_uri: rural:settlementtype/population
+    alias: rural_settlementtype_population
+    owner: rural_settlementtype_CountyStatus
+    domain_of:
+    - rural_settlementtype_CountyStatus
+    range: integer
+  rural_settlementtype_year:
+    name: rural_settlementtype_year
+    description: No slot (predicate) description specified
+    comments:
+    - 10 occurrences with subject type rural_settlementtype_RUCC and object type integer.
+    - 3234 occurrences with subject type rural_settlementtype_CountyStatus and object
+      type integer.
+    examples:
+    - description: rural_settlementtype_RUCC → integer
+      object:
+        example_object: '2013'
+        example_predicate: rural:settlementtype/year
+        example_subject: rural:settlementtype/RUCC_2013_0
+    - description: rural_settlementtype_CountyStatus → integer
+      object:
+        example_object: '2013'
+        example_predicate: rural:settlementtype/year
+        example_subject: rural:settlementtype/CountyStatus_01001_2013
     from_schema: rural-kg
     rank: 1000
     slot_uri: rural:settlementtype/year
@@ -249,27 +234,26 @@ attributes:
     - rural_settlementtype_CountyStatus
     - rural_settlementtype_RUCC
     range: integer
-  rural_settlementtype_population:
-    name: rural_settlementtype_population
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
+  rural_settlementtype_hasRUCC:
+    name: rural_settlementtype_hasRUCC
+    description: No slot (predicate) description specified
     comments:
     - 3234 occurrences with subject type rural_settlementtype_CountyStatus and object
-      type integer.
+      type rural_settlementtype_RUCC.
     examples:
-    - value: rural:settlementtype/CountyStatus_36089_2013 rural:settlementtype/population
-        111944
+    - description: rural_settlementtype_CountyStatus → rural_settlementtype_RUCC
+      object:
+        example_object: rural:settlementtype/RUCC_2013_5
+        example_predicate: rural:settlementtype/hasRUCC
+        example_subject: rural:settlementtype/CountyStatus_78030_2013
     from_schema: rural-kg
     rank: 1000
-    slot_uri: rural:settlementtype/population
-    alias: rural_settlementtype_population
+    slot_uri: rural:settlementtype/hasRUCC
+    alias: rural_settlementtype_hasRUCC
     owner: rural_settlementtype_CountyStatus
     domain_of:
     - rural_settlementtype_CountyStatus
-    range: integer
+    range: rural_settlementtype_RUCC
 class_uri: rural:settlementtype/CountyStatus
 
 ```

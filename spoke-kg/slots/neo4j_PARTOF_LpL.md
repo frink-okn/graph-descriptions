@@ -3,7 +3,7 @@
 # Slot: neo4j_PARTOF_LpL
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [neo4j:PARTOF_LpL](neo4j://graph.schema#PARTOF_LpL)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Neo4jLocation](../classes/Neo4jLocation.md) | No type description provided |  no  |
+| [Neo4jLocation](../classes/Neo4jLocation.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [neo4j:PARTOF_LpL](neo4j://graph.schema#PARTOF_LpL)
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#84571 neo4j:PARTOF_LpL neo4j://graph.individuals#80740 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| neo4j_Location → neo4j_Location | neo4j://graph.individuals#84571 | neo4j:PARTOF_LpL | neo4j://graph.individuals#80740 |
+
 
 ## Comments
 
 * 119810 occurrences with subject type neo4j_Location and object type neo4j_Location.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,15 +82,15 @@ URI: [neo4j:PARTOF_LpL](neo4j://graph.schema#PARTOF_LpL)
 <details>
 ```yaml
 name: neo4j_PARTOF_LpL
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 119810 occurrences with subject type neo4j_Location and object type neo4j_Location.
 examples:
-- value: neo4j://graph.individuals#84571 neo4j:PARTOF_LpL neo4j://graph.individuals#80740
+- description: neo4j_Location → neo4j_Location
+  object:
+    example_object: neo4j://graph.individuals#80740
+    example_predicate: neo4j:PARTOF_LpL
+    example_subject: neo4j://graph.individuals#84571
 from_schema: spoke-kg
 rank: 1000
 slot_uri: neo4j:PARTOF_LpL

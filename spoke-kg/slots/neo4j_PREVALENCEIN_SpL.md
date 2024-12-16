@@ -3,7 +3,7 @@
 # Slot: neo4j_PREVALENCEIN_SpL
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [neo4j:PREVALENCEIN_SpL](neo4j://graph.schema#PREVALENCEIN_SpL)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Neo4jSDoH](../classes/Neo4jSDoH.md) | No type description provided |  no  |
+| [Neo4jSDoH](../classes/Neo4jSDoH.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [neo4j:PREVALENCEIN_SpL](neo4j://graph.schema#PREVALENCEIN_SpL)
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#29697526 neo4j:PREVALENCEIN_SpL neo4j://graph.individuals#29671883 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| neo4j_SDoH → neo4j_Location | neo4j://graph.individuals#29697526 | neo4j:PREVALENCEIN_SpL | neo4j://graph.individuals#29671883 |
+
 
 ## Comments
 
 * 2999117 occurrences with subject type neo4j_SDoH and object type neo4j_Location.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,15 +82,15 @@ URI: [neo4j:PREVALENCEIN_SpL](neo4j://graph.schema#PREVALENCEIN_SpL)
 <details>
 ```yaml
 name: neo4j_PREVALENCEIN_SpL
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 2999117 occurrences with subject type neo4j_SDoH and object type neo4j_Location.
 examples:
-- value: neo4j://graph.individuals#29697526 neo4j:PREVALENCEIN_SpL neo4j://graph.individuals#29671883
+- description: neo4j_SDoH → neo4j_Location
+  object:
+    example_object: neo4j://graph.individuals#29671883
+    example_predicate: neo4j:PREVALENCEIN_SpL
+    example_subject: neo4j://graph.individuals#29697526
 from_schema: spoke-kg
 rank: 1000
 slot_uri: neo4j:PREVALENCEIN_SpL

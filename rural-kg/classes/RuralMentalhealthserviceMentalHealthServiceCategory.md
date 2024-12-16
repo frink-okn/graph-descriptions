@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (rural_mentalhealthservice_MentalHealthServiceCategory)
+# Class: No class (type) name specified (rural_mentalhealthservice_MentalHealthServiceCategory)
 
 
-_Categories of mental health services._
+_No class (type) description specified_
 
 
 
@@ -76,10 +76,10 @@ URI: [rural:mentalhealthservice/MentalHealthServiceCategory](http://sail.ua.edu/
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [rural_mentalhealthservice_containsService](../slots/rural_mentalhealthservice_containsService.md) | 0..1 <br/> [RuralMentalhealthserviceMentalHealthService](../classes/RuralMentalhealthserviceMentalHealthService.md) | No slot description provided <br/> 176 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory and object type rural_mentalhealthservice_MentalHealthService. | direct |
-| [rural_mentalhealthservice_code](../slots/rural_mentalhealthservice_code.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided <br/> 176 occurrences with subject type rural_mentalhealthservice_MentalHealthService and object type string.<br/>21 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory and object type string. | direct |
-| [rural_mentalhealthservice_name](../slots/rural_mentalhealthservice_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided <br/> 176 occurrences with subject type rural_mentalhealthservice_MentalHealthService and object type string.<br/>21 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory and object type string. | direct |
-| [rural_mentalhealthservice_year](../slots/rural_mentalhealthservice_year.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot description provided <br/> 176 occurrences with subject type rural_mentalhealthservice_MentalHealthService and object type integer.<br/>21 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory and object type integer. | direct |
+| [rural_mentalhealthservice_name](../slots/rural_mentalhealthservice_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 176 occurrences with subject type rural_mentalhealthservice_MentalHealthService and object type string.<br/>21 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory and object type string. | direct |
+| [rural_mentalhealthservice_containsService](../slots/rural_mentalhealthservice_containsService.md) | 0..1 <br/> [RuralMentalhealthserviceMentalHealthService](../classes/RuralMentalhealthserviceMentalHealthService.md) | No slot (predicate) description specified <br/> 176 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory and object type rural_mentalhealthservice_MentalHealthService. | direct |
+| [rural_mentalhealthservice_year](../slots/rural_mentalhealthservice_year.md) | 0..1 <br/> [xsd:integer](xsd:integer) | No slot (predicate) description specified <br/> 176 occurrences with subject type rural_mentalhealthservice_MentalHealthService and object type integer.<br/>21 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory and object type integer. | direct |
+| [rural_mentalhealthservice_code](../slots/rural_mentalhealthservice_code.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 176 occurrences with subject type rural_mentalhealthservice_MentalHealthService and object type string.<br/>21 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory and object type string. | direct |
 
 
 
@@ -89,19 +89,9 @@ URI: [rural:mentalhealthservice/MentalHealthServiceCategory](http://sail.ua.edu/
 
 
 
+## Comments
 
-## Examples
-
-| Value |
-| --- |
-| rural:mentalhealthservice/MHSC_SCR |
-
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
+* Categories of mental health services.
 
 ## Identifier and Mapping Information
 
@@ -141,24 +131,21 @@ URI: [rural:mentalhealthservice/MentalHealthServiceCategory](http://sail.ua.edu/
 <details>
 ```yaml
 name: rural_mentalhealthservice_MentalHealthServiceCategory
-description: Categories of mental health services.
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class (type) name specified
 notes:
-- There are 21 instances of this class.
-examples:
-- value: rural:mentalhealthservice/MHSC_SCR
+- Class with 21 occurrences.
+comments:
+- Categories of mental health services.
 from_schema: rural-kg
 rank: 1000
 is_a: rural_mentalhealthservice_MentalHealth
 slots:
-- rural_mentalhealthservice_containsService
-- rural_mentalhealthservice_code
 - rural_mentalhealthservice_name
+- rural_mentalhealthservice_containsService
 - rural_mentalhealthservice_year
+- rural_mentalhealthservice_code
 class_uri: rural:mentalhealthservice/MentalHealthServiceCategory
 
 ```
@@ -169,82 +156,36 @@ class_uri: rural:mentalhealthservice/MentalHealthServiceCategory
 <details>
 ```yaml
 name: rural_mentalhealthservice_MentalHealthServiceCategory
-description: Categories of mental health services.
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class (type) name specified
 notes:
-- There are 21 instances of this class.
-examples:
-- value: rural:mentalhealthservice/MHSC_SCR
+- Class with 21 occurrences.
+comments:
+- Categories of mental health services.
 from_schema: rural-kg
 rank: 1000
 is_a: rural_mentalhealthservice_MentalHealth
 attributes:
-  rural_mentalhealthservice_containsService:
-    name: rural_mentalhealthservice_containsService
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 176 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory
-      and object type rural_mentalhealthservice_MentalHealthService.
-    examples:
-    - value: rural:mentalhealthservice/MHSC_ECS rural:mentalhealthservice/containsService
-        rural:mentalhealthservice/MHS_TCC
-    from_schema: rural-kg
-    rank: 1000
-    slot_uri: rural:mentalhealthservice/containsService
-    alias: rural_mentalhealthservice_containsService
-    owner: rural_mentalhealthservice_MentalHealthServiceCategory
-    domain_of:
-    - rural_mentalhealthservice_MentalHealthServiceCategory
-    range: rural_mentalhealthservice_MentalHealthService
-  rural_mentalhealthservice_code:
-    name: rural_mentalhealthservice_code
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 176 occurrences with subject type rural_mentalhealthservice_MentalHealthService
-      and object type string.
-    - 21 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory
-      and object type string.
-    examples:
-    - value: rural:mentalhealthservice/MHS_AH rural:mentalhealthservice/code AH
-    - value: rural:mentalhealthservice/MHSC_OL rural:mentalhealthservice/code OL
-    from_schema: rural-kg
-    rank: 1000
-    slot_uri: rural:mentalhealthservice/code
-    alias: rural_mentalhealthservice_code
-    owner: rural_mentalhealthservice_MentalHealthServiceCategory
-    domain_of:
-    - rural_mentalhealthservice_MentalHealthService
-    - rural_mentalhealthservice_MentalHealthServiceCategory
-    range: string
   rural_mentalhealthservice_name:
     name: rural_mentalhealthservice_name
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
+    description: No slot (predicate) description specified
     comments:
     - 176 occurrences with subject type rural_mentalhealthservice_MentalHealthService
       and object type string.
     - 21 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory
       and object type string.
     examples:
-    - value: rural:mentalhealthservice/MHS_HIVT rural:mentalhealthservice/name HIV
-        testing
-    - value: rural:mentalhealthservice/MHSC_FOP rural:mentalhealthservice/name Facility
-        Operation (e.g., Private, Public)
+    - description: rural_mentalhealthservice_MentalHealthService → string
+      object:
+        example_object: Assertive community treatment
+        example_predicate: rural:mentalhealthservice/name
+        example_subject: rural:mentalhealthservice/MHS_ACT
+    - description: rural_mentalhealthservice_MentalHealthServiceCategory → string
+      object:
+        example_object: Age Groups Accepted
+        example_predicate: rural:mentalhealthservice/name
+        example_subject: rural:mentalhealthservice/MHSC_AGE
     from_schema: rural-kg
     rank: 1000
     slot_uri: rural:mentalhealthservice/name
@@ -254,21 +195,45 @@ attributes:
     - rural_mentalhealthservice_MentalHealthService
     - rural_mentalhealthservice_MentalHealthServiceCategory
     range: string
+  rural_mentalhealthservice_containsService:
+    name: rural_mentalhealthservice_containsService
+    description: No slot (predicate) description specified
+    comments:
+    - 176 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory
+      and object type rural_mentalhealthservice_MentalHealthService.
+    examples:
+    - description: rural_mentalhealthservice_MentalHealthServiceCategory → rural_mentalhealthservice_MentalHealthService
+      object:
+        example_object: rural:mentalhealthservice/MHS_SUMH
+        example_predicate: rural:mentalhealthservice/containsService
+        example_subject: rural:mentalhealthservice/MHSC_TC
+    from_schema: rural-kg
+    rank: 1000
+    slot_uri: rural:mentalhealthservice/containsService
+    alias: rural_mentalhealthservice_containsService
+    owner: rural_mentalhealthservice_MentalHealthServiceCategory
+    domain_of:
+    - rural_mentalhealthservice_MentalHealthServiceCategory
+    range: rural_mentalhealthservice_MentalHealthService
   rural_mentalhealthservice_year:
     name: rural_mentalhealthservice_year
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
+    description: No slot (predicate) description specified
     comments:
     - 176 occurrences with subject type rural_mentalhealthservice_MentalHealthService
       and object type integer.
     - 21 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory
       and object type integer.
     examples:
-    - value: rural:mentalhealthservice/MHS_PEER rural:mentalhealthservice/year 2022
-    - value: rural:mentalhealthservice/MHSC_SCR rural:mentalhealthservice/year 2022
+    - description: rural_mentalhealthservice_MentalHealthService → integer
+      object:
+        example_object: '2022'
+        example_predicate: rural:mentalhealthservice/year
+        example_subject: rural:mentalhealthservice/MHS_ACT
+    - description: rural_mentalhealthservice_MentalHealthServiceCategory → integer
+      object:
+        example_object: '2022'
+        example_predicate: rural:mentalhealthservice/year
+        example_subject: rural:mentalhealthservice/MHSC_AGE
     from_schema: rural-kg
     rank: 1000
     slot_uri: rural:mentalhealthservice/year
@@ -278,6 +243,34 @@ attributes:
     - rural_mentalhealthservice_MentalHealthService
     - rural_mentalhealthservice_MentalHealthServiceCategory
     range: integer
+  rural_mentalhealthservice_code:
+    name: rural_mentalhealthservice_code
+    description: No slot (predicate) description specified
+    comments:
+    - 176 occurrences with subject type rural_mentalhealthservice_MentalHealthService
+      and object type string.
+    - 21 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory
+      and object type string.
+    examples:
+    - description: rural_mentalhealthservice_MentalHealthService → string
+      object:
+        example_object: ACT
+        example_predicate: rural:mentalhealthservice/code
+        example_subject: rural:mentalhealthservice/MHS_ACT
+    - description: rural_mentalhealthservice_MentalHealthServiceCategory → string
+      object:
+        example_object: AGE
+        example_predicate: rural:mentalhealthservice/code
+        example_subject: rural:mentalhealthservice/MHSC_AGE
+    from_schema: rural-kg
+    rank: 1000
+    slot_uri: rural:mentalhealthservice/code
+    alias: rural_mentalhealthservice_code
+    owner: rural_mentalhealthservice_MentalHealthServiceCategory
+    domain_of:
+    - rural_mentalhealthservice_MentalHealthService
+    - rural_mentalhealthservice_MentalHealthServiceCategory
+    range: string
 class_uri: rural:mentalhealthservice/MentalHealthServiceCategory
 
 ```

@@ -3,7 +3,7 @@
 # Slot: neo4j_MORTALITY_DmL
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [neo4j:MORTALITY_DmL](neo4j://graph.schema#MORTALITY_DmL)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Neo4jDisease](../classes/Neo4jDisease.md) | No type description provided |  no  |
+| [Neo4jDisease](../classes/Neo4jDisease.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [neo4j:MORTALITY_DmL](neo4j://graph.schema#MORTALITY_DmL)
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#152579 neo4j:MORTALITY_DmL neo4j://graph.individuals#80756 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| neo4j_Disease → neo4j_Location | neo4j://graph.individuals#152579 | neo4j:MORTALITY_DmL | neo4j://graph.individuals#80756 |
+
 
 ## Comments
 
 * 10802 occurrences with subject type neo4j_Disease and object type neo4j_Location.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,15 +82,15 @@ URI: [neo4j:MORTALITY_DmL](neo4j://graph.schema#MORTALITY_DmL)
 <details>
 ```yaml
 name: neo4j_MORTALITY_DmL
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 10802 occurrences with subject type neo4j_Disease and object type neo4j_Location.
 examples:
-- value: neo4j://graph.individuals#152579 neo4j:MORTALITY_DmL neo4j://graph.individuals#80756
+- description: neo4j_Disease → neo4j_Location
+  object:
+    example_object: neo4j://graph.individuals#80756
+    example_predicate: neo4j:MORTALITY_DmL
+    example_subject: neo4j://graph.individuals#152579
 from_schema: spoke-kg
 rank: 1000
 slot_uri: neo4j:MORTALITY_DmL

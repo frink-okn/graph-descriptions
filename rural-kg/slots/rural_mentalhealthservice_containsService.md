@@ -3,7 +3,7 @@
 # Slot: rural_mentalhealthservice_containsService
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [rural:mentalhealthservice/containsService](http://sail.ua.edu/ruralkg/ment
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralMentalhealthserviceMentalHealthServiceCategory](../classes/RuralMentalhealthserviceMentalHealthServiceCategory.md) | Categories of mental health services |  no  |
+| [RuralMentalhealthserviceMentalHealthServiceCategory](../classes/RuralMentalhealthserviceMentalHealthServiceCategory.md) | No class (type) description specified |  no  |
 
 
 
@@ -44,18 +44,12 @@ URI: [rural:mentalhealthservice/containsService](http://sail.ua.edu/ruralkg/ment
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| None |  |  |  |
+| rural_mentalhealthservice_MentalHealthServiceCategory → rural_mentalhealthservice_MentalHealthService | rural:mentalhealthservice/MHSC_TC | rural:mentalhealthservice/containsService | rural:mentalhealthservice/MHS_SUMH |
 
 
 ## Comments
 
 * 176 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory and object type rural_mentalhealthservice_MentalHealthService.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -88,17 +82,16 @@ URI: [rural:mentalhealthservice/containsService](http://sail.ua.edu/ruralkg/ment
 <details>
 ```yaml
 name: rural_mentalhealthservice_containsService
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 176 occurrences with subject type rural_mentalhealthservice_MentalHealthServiceCategory
   and object type rural_mentalhealthservice_MentalHealthService.
 examples:
-- value: rural:mentalhealthservice/MHSC_ECS rural:mentalhealthservice/containsService
-    rural:mentalhealthservice/MHS_TCC
+- description: rural_mentalhealthservice_MentalHealthServiceCategory → rural_mentalhealthservice_MentalHealthService
+  object:
+    example_object: rural:mentalhealthservice/MHS_SUMH
+    example_predicate: rural:mentalhealthservice/containsService
+    example_subject: rural:mentalhealthservice/MHSC_TC
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:mentalhealthservice/containsService

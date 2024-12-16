@@ -3,7 +3,7 @@
 # Slot: rural_settlementtype_description
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [rural:settlementtype/description](http://sail.ua.edu/ruralkg/settlementtyp
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSettlementtypeRUCC](../classes/RuralSettlementtypeRUCC.md) | Rural-Urban Continuum Code classification |  no  |
+| [RuralSettlementtypeRUCC](../classes/RuralSettlementtypeRUCC.md) | No class (type) description specified |  no  |
 
 
 
@@ -33,7 +33,7 @@ URI: [rural:settlementtype/description](http://sail.ua.edu/ruralkg/settlementtyp
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -44,18 +44,12 @@ URI: [rural:settlementtype/description](http://sail.ua.edu/ruralkg/settlementtyp
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| None |  |  |  |
+| rural_settlementtype_RUCC → string | rural:settlementtype/RUCC_2013_0 | rural:settlementtype/description | Not Applicable |
 
 
 ## Comments
 
 * 10 occurrences with subject type rural_settlementtype_RUCC and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -88,17 +82,15 @@ URI: [rural:settlementtype/description](http://sail.ua.edu/ruralkg/settlementtyp
 <details>
 ```yaml
 name: rural_settlementtype_description
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 10 occurrences with subject type rural_settlementtype_RUCC and object type string.
 examples:
-- value: rural:settlementtype/RUCC_2013_9 rural:settlementtype/description Nonmetro
-    - Completely rural or less than 2,500 urban population, not adjacent to a metro
-    area
+- description: rural_settlementtype_RUCC → string
+  object:
+    example_object: Not Applicable
+    example_predicate: rural:settlementtype/description
+    example_subject: rural:settlementtype/RUCC_2013_0
 from_schema: rural-kg
 rank: 1000
 slot_uri: rural:settlementtype/description
