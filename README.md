@@ -19,50 +19,82 @@ We have observed the following IRI prefixes, and thus they will be appropriately
 
 | prefix | IRI | notes |
 | --- | --- | --- |
-| sosa: | http://www.w3.org/ns/sosa/ |  |
-| umls: | https://identifiers.org/umls: |  |
-| niehs: | https://ice.ntp.niehs.nih.gov/property/ |  |
-| semsci: | http://semanticscience.org/resource/SIO_ |  |
 | dc: | http://purl.org/dc/elements/1.1/ |  |
-| sockg: | http://www.semanticweb.org/zzy/ontologies/2024/0/soil-carbon-ontology/ | Should be substituted with a working IRI prefix. |
-| dreamkg: | http://www.semanticweb.org/dreamkg/ijcai/ | Should be substituted with a working IRI prefix. |
 | dct: | http://purl.org/dc/terms/ |  |
-| xsd: | http://www.w3.org/2001/XMLSchema# |  |
 | geo: | http://www.opengis.net/ont/geosparql# |  |
-| cheminf: | http://purl.obolibrary.org/obo/CHEMINF_ |  |
-| obo: | http://purl.obolibrary.org/obo/ |  |
 | owl: | http://www.w3.org/2002/07/owl# |  |
-| rdf: | http://www.w3.org/1999/02/22-rdf-syntax-ns# |  |
-| scales: | http://schemas.scales-okn.org/rdf/scales# | Should be substituted with a working IRI prefix. |
-| hsdo: | http://schema.org/ | This prefix should be substituted with schema: wherever it occurs. |
-| schema: | https://schema.org/ |  |
-| neo4j: | neo4j://graph.schema# | Not a real prefix; should be substituted wherever it occurs. |
-| rural: | http://sail.ua.edu/ruralkg/ | Should be substituted with a working IRI prefix. |
-| example: | http://example.org/ns# | Not a real prefix; should be substituted wherever it occurs. |
-| securechain: | https://w3id.org/secure-chain/ |  |
 | prov: | http://www.w3.org/ns/prov# |  |
-| io: | https://spec.industrialontologies.org/ontology/core/Core/ |  |
-| iosc: | https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/ |  |
-| sudokn: | http://asu.edu/semantics/SUDOKN/ | Should be substituted with a working IRI prefix. |
+| rdf: | http://www.w3.org/1999/02/22-rdf-syntax-ns# |  |
+| rdfs: | http://www.w3.org/2000/01/rdf-schema# |  |
+| schema: | https://schema.org/ |  |
+| skos: | http://www.w3.org/2004/02/skos/core# |  |
+| sosa: | http://www.w3.org/ns/sosa/ |  |
+| xsd: | http://www.w3.org/2001/XMLSchema# |  |
+| kwg: | https://stko-kwg.geog.ucsb.edu/lod/ontology | KnowWhereGraph |
+| niem50: | http://release.niem.gov/niem/niem-core/5.0/ | NIEM Core 5.0 |
+| jxdm72: | http://release.niem.gov/niem/domains/jxdm/7.2/# | NIEM Justice 7.2 |
+| obo: | http://purl.obolibrary.org/obo/ | OBO Foundry (general) |
+| cheminf: | http://purl.obolibrary.org/obo/CHEMINF_ | Chemical Information Ontology |
+| bao: | http://www.bioassayontology.org/bao#BAO_ | Bioassay Ontology |
+| edam: | http://edamontology.org/ | EDAM ontology |
+| semsci: | http://semanticscience.org/resource/SIO_ | Semanticscience Integrated Ontology |
+| niehs: | https://ice.ntp.niehs.nih.gov/property/ | Integrated Chemical Environment |
+| umls: | https://identifiers.org/umls: | Unified Medical Language System |
+| hyf: | https://www.opengis.net/def/schema/hy_features/hyf | OGC ontology |
+| sf: | http://www.opengis.net/ont/sf | OGC ontology |
+| gwml22: | http://www.opengis.net/gwml-main/2.2/ | OGC ontology |
+| hyfo: | https://www.opengis.net/def/hy_features/ontology/hyf/ | OGC ontology |
+| hyfa: | https://www.opengis.net/def/appschema/hy_features/hyf/ | OGC ontology |
+| phila: | https://metadata.phila.gov/ | City of Philadelphia |
+| qudt: | http://qudt.org/schema/qudt/ | QUDT ontology |
+| wdp: | http://www.wikidata.org/prop/ | Wikidata-related (from https://w.wiki/4Byv) |
+| wdpq: | http://www.wikidata.org/prop/qualifier/ | Wikidata-related (from https://w.wiki/4Byv) |
+| wdpqn: | http://www.wikidata.org/prop/qualifier/value-normalized/ | Wikidata-related (from https://w.wiki/4Byv) |
+| wdpqv: | http://www.wikidata.org/prop/qualifier/value/ | Wikidata-related (from https://w.wiki/4Byv) |
+| wdpr: | http://www.wikidata.org/prop/reference/ | Wikidata-related (from https://w.wiki/4Byv) |
+| wdprn: | http://www.wikidata.org/prop/reference/value-normalized/ | Wikidata-related (from https://w.wiki/4Byv) |
+| wdprv: | http://www.wikidata.org/prop/reference/value/ | Wikidata-related (from https://w.wiki/4Byv) |
+| wdpsv: | http://www.wikidata.org/prop/statement/value/ | Wikidata-related (from https://w.wiki/4Byv) |
+| wdps: | http://www.wikidata.org/prop/statement/ | Wikidata-related (from https://w.wiki/4Byv) |
+| wdpsn: | http://www.wikidata.org/prop/statement/value-normalized/ | Wikidata-related (from https://w.wiki/4Byv) |
+| wd: | http://www.wikidata.org/entity/ | Wikidata-related (from https://w.wiki/4Byv) |
+| wdata: | http://www.wikidata.org/wiki/Special:EntityData/ | Wikidata-related (from https://w.wiki/4Byv) |
+| wdno: | http://www.wikidata.org/prop/novalue/ | Wikidata-related (from https://w.wiki/4Byv) |
+| wdref: | http://www.wikidata.org/reference/ | Wikidata-related (from https://w.wiki/4Byv) |
+| wds: | http://www.wikidata.org/entity/statement/ | Wikidata-related (from https://w.wiki/4Byv) |
+| wdt: | http://www.wikidata.org/prop/direct/ | Wikidata-related (from https://w.wiki/4Byv) |
+| wdtn: | http://www.wikidata.org/prop/direct-normalized/ | Wikidata-related (from https://w.wiki/4Byv) |
+| wdv: | http://www.wikidata.org/value/ | Wikidata-related (from https://w.wiki/4Byv) |
+| wikibase: | http://wikiba.se/ontology# | Wikidata-related (from https://w.wiki/4Byv) |
+| hsdo: | http://schema.org/ | This prefix should be substituted with schema: wherever it occurs. |
+| neo4j: | neo4j://graph.schema# | Not a real prefix; should be substituted wherever it occurs. |
+| example: | http://example.org/ | Not a real prefix; should be substituted wherever it occurs. |
+| attribute: | http://attribute.org/ | Not a real prefix; should be substituted wherever it occurs. |
+| relation: | http://relation.org/ | Not a real prefix; should be substituted wherever it occurs. |
+| badwdt: | https://www.wikidata.org/wiki/Property: | Not a real RDF prefix; should be substituted wherever it occurs. |
+| dreamkg: | http://www.semanticweb.org/dreamkg/ijcai/ | from DREAM-KG; should be substituted with a working IRI prefix. |
+| scales: | http://schemas.scales-okn.org/rdf/scales# | from SCALES; should be substituted with a working IRI prefix. |
+| sockg: | http://www.semanticweb.org/zzy/ontologies/2024/0/soil-carbon-ontology/ | from SOC-KG; should be substituted with a working IRI prefix. |
+| securechain: | https://w3id.org/secure-chain/ | from Secure Chain-KG |
+| rural: | http://sail.ua.edu/ruralkg/ | from RURAL-KG; should be substituted with a working IRI prefix. |
+| contaminoso: | http://sawgraph.spatialai.org/v1/contaminoso# | from SAWGRAPH; should be substituted with a working IRI prefix. |
+| usfrs: | http://sawgraph.spatialai.org/v1/us-frs# | from SAWGRAPH; should be substituted with a working IRI prefix. |
+| usfrsdata: | http://sawgraph.spatialai.org/v1/us-frs-data# | from SAWGRAPH; should be substituted with a working IRI prefix. |
+| naics: | http://sawgraph.spatialai.org/v1/fio/naics# | from SAWGRAPH; should be substituted with a working IRI prefix. |
+| ilisgs: | http://sawgraph.spatialai.org/v1/il-isgs# | from SAWGRAPH; should be substituted with a working IRI prefix. |
+| meegad: | http://sawgraph.spatialai.org/v1/me-egad# | from SAWGRAPH; should be substituted with a working IRI prefix. |
+| memgs: | http://sawgraph.spatialai.org/v1/me-mgs# | from SAWGRAPH; should be substituted with a working IRI prefix. |
+| memgs2: | http://sawgraph.spatialai.org/v1/me_mgs# | from SAWGRAPH; should be substituted with a working IRI prefix. |
+| ussdwis: | http://sawgraph.spatialai.org/v1/us-sdwis# | from SAWGRAPH; should be substituted with a working IRI prefix. |
+| pfas: | http://sawgraph.spatialai.org/v1/pfas# | from SAWGRAPH; should be substituted with a working IRI prefix. |
+| sawwater: | http://sawgraph.spatialai.org/v1/saw_water# | from SAWGRAPH; should be substituted with a working IRI prefix. |
+| fio: | http://sawgraph.spatialai.org/v1/fio# | from SAWGRAPH; should be substituted with a working IRI prefix. |
+| psys: | http://proton.semanticweb.org/protonsys# | from SAWGRAPH; should be substituted with a working IRI prefix. |
+| io: | https://spec.industrialontologies.org/ontology/core/Core/ | Industrial Ontologies Foundry |
+| iosc: | https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/ | Industrial Ontologies Foundry |
+| sudokn: | http://asu.edu/semantics/SUDOKN/ | from SUDOKN: should be substituted with a working IRI prefix. |
 | sudokn2: | Utilities:communication/ | Not a real prefix; should be substituted wherever it occurs. |
 | sudokn3: | Utilities:water/ | Not a real prefix; should be substituted wherever it occurs. |
-| usfrsdata: | http://sawgraph.spatialai.org/v1/us-frs-data# | Should be substituted with a working IRI prefix. |
-| usfrs: | http://sawgraph.spatialai.org/v1/us-frs# | Should be substituted with a working IRI prefix. |
-| naics: | http://sawgraph.spatialai.org/v1/fio/naics# | Should be substituted with a working IRI prefix. |
-| skos: | http://www.w3.org/2004/02/skos/core# |  |
-| rdfs: | http://www.w3.org/2000/01/rdf-schema# |  |
-| bao: | http://www.bioassayontology.org/bao#BAO_ |  |
-| edam: | http://edamontology.org/ |  |
-| qudt: | http://qudt.org/schema/qudt/ |  |
-| ilisgs: | http://sawgraph.spatialai.org/v1/il-isgs# | Should be substituted with a working IRI prefix. |
-| meegad: | http://sawgraph.spatialai.org/v1/me-egad# | Should be substituted with a working IRI prefix. |
-| memgs: | http://sawgraph.spatialai.org/v1/me-mgs# | Should be substituted with a working IRI prefix. |
-| ussdwis: | http://sawgraph.spatialai.org/v1/us-sdwis# | Should be substituted with a working IRI prefix. |
-| pfas: | http://sawgraph.spatialai.org/v1/pfas# | Should be substituted with a working IRI prefix. |
-| contaminoso: | http://sawgraph.spatialai.org/v1/contaminoso# | Should be substituted with a working IRI prefix. |
-| relation: | http://relation.org/ | Not a real prefix; should be substituted wherever it occurs. |
-| attribute: | http://attribute.org/ | Not a real prefix; should be substituted wherever it occurs. |
-| phila: | https://metadata.phila.gov/ |  |
 </details>
 
 Please let [Mahir](mailto:mmorshed@scripps.edu) know if you introduce any new IRI prefixes not in the above list that should also be substituted.
