@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for this class (type)? (hsdo_Obs4Mips_Source_Id)
+# Class: No class name specified (hsdo_Obs4Mips_Source_Id)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
@@ -49,11 +49,6 @@ URI: [hsdo:Obs4Mips_Source_Id](http://schema.org/Obs4Mips_Source_Id)
 | --- |
 | https://climateKG.org/entity/2892e23f-5249-439d-8c0e-6c1d190b3beb |
 
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -93,14 +88,11 @@ URI: [hsdo:Obs4Mips_Source_Id](http://schema.org/Obs4Mips_Source_Id)
 <details>
 ```yaml
 name: hsdo_Obs4Mips_Source_Id
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class name specified
 notes:
-- Class with 106 occurences.
+- Class with 106 occurrences.
 examples:
 - value: https://climateKG.org/entity/2892e23f-5249-439d-8c0e-6c1d190b3beb
 from_schema: climatepub4-kg
@@ -115,14 +107,11 @@ class_uri: hsdo:Obs4Mips_Source_Id
 <details>
 ```yaml
 name: hsdo_Obs4Mips_Source_Id
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class name specified
 notes:
-- Class with 106 occurences.
+- Class with 106 occurrences.
 examples:
 - value: https://climateKG.org/entity/2892e23f-5249-439d-8c0e-6c1d190b3beb
 from_schema: climatepub4-kg

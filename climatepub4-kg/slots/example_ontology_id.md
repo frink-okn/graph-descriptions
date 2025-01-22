@@ -3,7 +3,7 @@
 # Slot: example_ontology_id
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -33,21 +33,16 @@ URI: [example:ontology/id](http://example.org/ontology/id)
 
 ## Examples
 
-| Value |
-| --- |
-| example:resource/0006e246-4296-448c-9b81-a0831cad7f1c example:ontology/id 1648687 |
-| example:resource/00100b67-f930-4f88-84d8-2c271a59d168 example:ontology/id None |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None → integer | example:resource/0006e246-4296-448c-9b81-a0831cad7f1c | example:ontology/id | 1648687 |
+| None → string | example:resource/00100b67-f930-4f88-84d8-2c271a59d168 | example:ontology/id | None |
+
 
 ## Comments
 
 * 13840 occurrences with untyped subjects and object type integer.
 * 2520 occurrences with untyped subjects and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -80,19 +75,25 @@ URI: [example:ontology/id](http://example.org/ontology/id)
 <details>
 ```yaml
 name: example_ontology_id
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 13840 occurrences with untyped subjects and object type integer.
 - 2520 occurrences with untyped subjects and object type string.
 examples:
-- value: example:resource/0006e246-4296-448c-9b81-a0831cad7f1c example:ontology/id
-    1648687
-- value: example:resource/00100b67-f930-4f88-84d8-2c271a59d168 example:ontology/id
-    None
+- description: None → integer
+  object:
+    example_object: '1648687'
+    example_object_type: integer
+    example_predicate: example:ontology/id
+    example_subject: example:resource/0006e246-4296-448c-9b81-a0831cad7f1c
+    example_subject_type: None
+- description: None → string
+  object:
+    example_object: None
+    example_object_type: string
+    example_predicate: example:ontology/id
+    example_subject: example:resource/00100b67-f930-4f88-84d8-2c271a59d168
+    example_subject_type: None
 from_schema: climatepub4-kg
 rank: 1000
 slot_uri: example:ontology/id

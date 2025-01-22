@@ -3,7 +3,7 @@
 # Slot: skos_inScheme
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [skos:inScheme](http://www.w3.org/2004/02/skos/core#inScheme)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SkosConcept](../classes/SkosConcept.md) | No type description provided |  no  |
+| [SkosConcept](../classes/SkosConcept.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [skos:inScheme](http://www.w3.org/2004/02/skos/core#inScheme)
 
 ## Examples
 
-| Value |
-| --- |
-| https://gcmd.earthdata.nasa.gov/kms/concept/0006e246-4296-448c-9b81-a0831cad7f1c skos:inScheme https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/ |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| skos_Concept → uri | https://gcmd.earthdata.nasa.gov/kms/concept/0006e246-4296-448c-9b81-a0831cad7f1c | skos:inScheme | https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/ |
+
 
 ## Comments
 
 * 16359 occurrences with subject type skos_Concept and object type uri.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,16 +82,17 @@ URI: [skos:inScheme](http://www.w3.org/2004/02/skos/core#inScheme)
 <details>
 ```yaml
 name: skos_inScheme
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 16359 occurrences with subject type skos_Concept and object type uri.
 examples:
-- value: https://gcmd.earthdata.nasa.gov/kms/concept/0006e246-4296-448c-9b81-a0831cad7f1c
-    skos:inScheme https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/
+- description: skos_Concept → uri
+  object:
+    example_object: https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/
+    example_object_type: uri
+    example_predicate: skos:inScheme
+    example_subject: https://gcmd.earthdata.nasa.gov/kms/concept/0006e246-4296-448c-9b81-a0831cad7f1c
+    example_subject_type: skos_Concept
 from_schema: climatepub4-kg
 rank: 1000
 slot_uri: skos:inScheme

@@ -3,7 +3,7 @@
 # Slot: relation_HasRegion
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -42,19 +42,14 @@ URI: [relation:HasRegion](http://relation.org/HasRegion)
 
 ## Examples
 
-| Value |
-| --- |
-| https://climateKG.org/entity/fe64cea2-19de-470c-a919-b24c744c696b relation:HasRegion https://climateKG.org/entity/86163a89-c736-4f6a-a48e-a6ca7a1a06af |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| hsdo_Dataset → hsdo_Location | https://climateKG.org/entity/fe64cea2-19de-470c-a919-b24c744c696b | relation:HasRegion | https://climateKG.org/entity/86163a89-c736-4f6a-a48e-a6ca7a1a06af |
+
 
 ## Comments
 
 * 109 occurrences with subject type hsdo_Dataset and object type hsdo_Location.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,16 +82,17 @@ URI: [relation:HasRegion](http://relation.org/HasRegion)
 <details>
 ```yaml
 name: relation_HasRegion
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 109 occurrences with subject type hsdo_Dataset and object type hsdo_Location.
 examples:
-- value: https://climateKG.org/entity/fe64cea2-19de-470c-a919-b24c744c696b relation:HasRegion
-    https://climateKG.org/entity/86163a89-c736-4f6a-a48e-a6ca7a1a06af
+- description: hsdo_Dataset → hsdo_Location
+  object:
+    example_object: https://climateKG.org/entity/86163a89-c736-4f6a-a48e-a6ca7a1a06af
+    example_object_type: hsdo_Location
+    example_predicate: relation:HasRegion
+    example_subject: https://climateKG.org/entity/fe64cea2-19de-470c-a919-b24c744c696b
+    example_subject_type: hsdo_Dataset
 from_schema: climatepub4-kg
 rank: 1000
 slot_uri: relation:HasRegion

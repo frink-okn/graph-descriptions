@@ -3,7 +3,7 @@
 # Slot: relation_HasParentExperiment
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [relation:HasParentExperiment](http://relation.org/HasParentExperiment)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoExperiment](../classes/HsdoExperiment.md) | No type description provided |  no  |
+| [HsdoExperiment](../classes/HsdoExperiment.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [relation:HasParentExperiment](http://relation.org/HasParentExperiment)
 
 ## Examples
 
-| Value |
-| --- |
-| https://climateKG.org/entity/ffcfde92-a161-4705-a7c6-7e400b5fb4e9 relation:HasParentExperiment https://climateKG.org/entity/9cb8f903-708a-4b88-be4a-ee05926e86c4 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| hsdo_Experiment → hsdo_Experiment | https://climateKG.org/entity/ffcfde92-a161-4705-a7c6-7e400b5fb4e9 | relation:HasParentExperiment | https://climateKG.org/entity/9cb8f903-708a-4b88-be4a-ee05926e86c4 |
+
 
 ## Comments
 
 * 251 occurrences with subject type hsdo_Experiment and object type hsdo_Experiment.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,16 +82,17 @@ URI: [relation:HasParentExperiment](http://relation.org/HasParentExperiment)
 <details>
 ```yaml
 name: relation_HasParentExperiment
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 251 occurrences with subject type hsdo_Experiment and object type hsdo_Experiment.
 examples:
-- value: https://climateKG.org/entity/ffcfde92-a161-4705-a7c6-7e400b5fb4e9 relation:HasParentExperiment
-    https://climateKG.org/entity/9cb8f903-708a-4b88-be4a-ee05926e86c4
+- description: hsdo_Experiment → hsdo_Experiment
+  object:
+    example_object: https://climateKG.org/entity/9cb8f903-708a-4b88-be4a-ee05926e86c4
+    example_object_type: hsdo_Experiment
+    example_predicate: relation:HasParentExperiment
+    example_subject: https://climateKG.org/entity/ffcfde92-a161-4705-a7c6-7e400b5fb4e9
+    example_subject_type: hsdo_Experiment
 from_schema: climatepub4-kg
 rank: 1000
 slot_uri: relation:HasParentExperiment

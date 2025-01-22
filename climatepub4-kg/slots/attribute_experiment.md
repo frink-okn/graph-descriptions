@@ -3,7 +3,7 @@
 # Slot: attribute_experiment
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [attribute:experiment](http://attribute.org/experiment)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoExperiment](../classes/HsdoExperiment.md) | No type description provided |  no  |
+| [HsdoExperiment](../classes/HsdoExperiment.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [attribute:experiment](http://attribute.org/experiment)
 
 ## Examples
 
-| Value |
-| --- |
-| https://climateKG.org/entity/033c6854-b6b0-47b7-b41d-6c482932f336 attribute:experiment pre-industrial control (spin-up; CMIP5-era [1850-2005] forcing) |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| hsdo_Experiment → string | https://climateKG.org/entity/033c6854-b6b0-47b7-b41d-6c482932f336 | attribute:experiment | pre-industrial control (spin-up; CMIP5-era [1850-2005] forcing) |
+
 
 ## Comments
 
 * 322 occurrences with subject type hsdo_Experiment and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,16 +82,17 @@ URI: [attribute:experiment](http://attribute.org/experiment)
 <details>
 ```yaml
 name: attribute_experiment
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 322 occurrences with subject type hsdo_Experiment and object type string.
 examples:
-- value: https://climateKG.org/entity/033c6854-b6b0-47b7-b41d-6c482932f336 attribute:experiment
-    pre-industrial control (spin-up; CMIP5-era [1850-2005] forcing)
+- description: hsdo_Experiment → string
+  object:
+    example_object: pre-industrial control (spin-up; CMIP5-era [1850-2005] forcing)
+    example_object_type: string
+    example_predicate: attribute:experiment
+    example_subject: https://climateKG.org/entity/033c6854-b6b0-47b7-b41d-6c482932f336
+    example_subject_type: hsdo_Experiment
 from_schema: climatepub4-kg
 rank: 1000
 slot_uri: attribute:experiment

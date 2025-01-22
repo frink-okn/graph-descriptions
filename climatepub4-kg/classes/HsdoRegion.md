@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for this class (type)? (hsdo_Region)
+# Class: No class name specified (hsdo_Region)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
@@ -49,11 +49,6 @@ URI: [hsdo:Region](http://schema.org/Region)
 | --- |
 | https://climateKG.org/entity/0ad9d595-8e1d-478b-873e-5b4a112354d4 |
 
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -93,14 +88,11 @@ URI: [hsdo:Region](http://schema.org/Region)
 <details>
 ```yaml
 name: hsdo_Region
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class name specified
 notes:
-- Class with 69 occurences.
+- Class with 69 occurrences.
 examples:
 - value: https://climateKG.org/entity/0ad9d595-8e1d-478b-873e-5b4a112354d4
 from_schema: climatepub4-kg
@@ -115,14 +107,11 @@ class_uri: hsdo:Region
 <details>
 ```yaml
 name: hsdo_Region
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class name specified
 notes:
-- Class with 69 occurences.
+- Class with 69 occurrences.
 examples:
 - value: https://climateKG.org/entity/0ad9d595-8e1d-478b-873e-5b4a112354d4
 from_schema: climatepub4-kg

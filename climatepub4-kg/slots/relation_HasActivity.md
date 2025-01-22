@@ -3,7 +3,7 @@
 # Slot: relation_HasActivity
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [relation:HasActivity](http://relation.org/HasActivity)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoExperiment](../classes/HsdoExperiment.md) | No type description provided |  no  |
+| [HsdoExperiment](../classes/HsdoExperiment.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [relation:HasActivity](http://relation.org/HasActivity)
 
 ## Examples
 
-| Value |
-| --- |
-| https://climateKG.org/entity/ffcfde92-a161-4705-a7c6-7e400b5fb4e9 relation:HasActivity https://climateKG.org/entity/a219681a-8eb1-4d8d-8b63-1103afa1127c |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| hsdo_Experiment → hsdo_Activity | https://climateKG.org/entity/ffcfde92-a161-4705-a7c6-7e400b5fb4e9 | relation:HasActivity | https://climateKG.org/entity/a219681a-8eb1-4d8d-8b63-1103afa1127c |
+
 
 ## Comments
 
 * 334 occurrences with subject type hsdo_Experiment and object type hsdo_Activity.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,16 +82,17 @@ URI: [relation:HasActivity](http://relation.org/HasActivity)
 <details>
 ```yaml
 name: relation_HasActivity
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 334 occurrences with subject type hsdo_Experiment and object type hsdo_Activity.
 examples:
-- value: https://climateKG.org/entity/ffcfde92-a161-4705-a7c6-7e400b5fb4e9 relation:HasActivity
-    https://climateKG.org/entity/a219681a-8eb1-4d8d-8b63-1103afa1127c
+- description: hsdo_Experiment → hsdo_Activity
+  object:
+    example_object: https://climateKG.org/entity/a219681a-8eb1-4d8d-8b63-1103afa1127c
+    example_object_type: hsdo_Activity
+    example_predicate: relation:HasActivity
+    example_subject: https://climateKG.org/entity/ffcfde92-a161-4705-a7c6-7e400b5fb4e9
+    example_subject_type: hsdo_Experiment
 from_schema: climatepub4-kg
 rank: 1000
 slot_uri: relation:HasActivity

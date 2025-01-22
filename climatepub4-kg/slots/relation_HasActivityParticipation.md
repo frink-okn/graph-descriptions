@@ -3,7 +3,7 @@
 # Slot: relation_HasActivityParticipation
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [relation:HasActivityParticipation](http://relation.org/HasActivityParticip
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | No type description provided |  no  |
+| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [relation:HasActivityParticipation](http://relation.org/HasActivityParticip
 
 ## Examples
 
-| Value |
-| --- |
-| https://climateKG.org/entity/ffa6f7e9-e7e0-494d-84e4-41544a1762e7 relation:HasActivityParticipation https://climateKG.org/entity/09347fb2-7842-4939-836e-6b8b2c35f5b1 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| hsdo_Cmip6_Source_Id → hsdo_Activity | https://climateKG.org/entity/ffa6f7e9-e7e0-494d-84e4-41544a1762e7 | relation:HasActivityParticipation | https://climateKG.org/entity/09347fb2-7842-4939-836e-6b8b2c35f5b1 |
+
 
 ## Comments
 
 * 685 occurrences with subject type hsdo_Cmip6_Source_Id and object type hsdo_Activity.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,16 +82,17 @@ URI: [relation:HasActivityParticipation](http://relation.org/HasActivityParticip
 <details>
 ```yaml
 name: relation_HasActivityParticipation
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 685 occurrences with subject type hsdo_Cmip6_Source_Id and object type hsdo_Activity.
 examples:
-- value: https://climateKG.org/entity/ffa6f7e9-e7e0-494d-84e4-41544a1762e7 relation:HasActivityParticipation
-    https://climateKG.org/entity/09347fb2-7842-4939-836e-6b8b2c35f5b1
+- description: hsdo_Cmip6_Source_Id → hsdo_Activity
+  object:
+    example_object: https://climateKG.org/entity/09347fb2-7842-4939-836e-6b8b2c35f5b1
+    example_object_type: hsdo_Activity
+    example_predicate: relation:HasActivityParticipation
+    example_subject: https://climateKG.org/entity/ffa6f7e9-e7e0-494d-84e4-41544a1762e7
+    example_subject_type: hsdo_Cmip6_Source_Id
 from_schema: climatepub4-kg
 rank: 1000
 slot_uri: relation:HasActivityParticipation

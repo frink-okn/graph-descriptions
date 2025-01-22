@@ -3,7 +3,7 @@
 # Slot: skos_narrower
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [skos:narrower](http://www.w3.org/2004/02/skos/core#narrower)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SkosConcept](../classes/SkosConcept.md) | No type description provided |  no  |
+| [SkosConcept](../classes/SkosConcept.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [skos:narrower](http://www.w3.org/2004/02/skos/core#narrower)
 
 ## Examples
 
-| Value |
-| --- |
-| https://gcmd.earthdata.nasa.gov/kms/concept/ffccf1c0-f25d-4747-ac4a-f09444383031 skos:narrower https://gcmd.earthdata.nasa.gov/kms/concept/c1c61697-b4bd-467c-9db4-5bd0115545a3 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| skos_Concept → skos_Concept | https://gcmd.earthdata.nasa.gov/kms/concept/ffccf1c0-f25d-4747-ac4a-f09444383031 | skos:narrower | https://gcmd.earthdata.nasa.gov/kms/concept/c1c61697-b4bd-467c-9db4-5bd0115545a3 |
+
 
 ## Comments
 
 * 16338 occurrences with subject type skos_Concept and object type skos_Concept.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,16 +82,17 @@ URI: [skos:narrower](http://www.w3.org/2004/02/skos/core#narrower)
 <details>
 ```yaml
 name: skos_narrower
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 16338 occurrences with subject type skos_Concept and object type skos_Concept.
 examples:
-- value: https://gcmd.earthdata.nasa.gov/kms/concept/ffccf1c0-f25d-4747-ac4a-f09444383031
-    skos:narrower https://gcmd.earthdata.nasa.gov/kms/concept/c1c61697-b4bd-467c-9db4-5bd0115545a3
+- description: skos_Concept → skos_Concept
+  object:
+    example_object: https://gcmd.earthdata.nasa.gov/kms/concept/c1c61697-b4bd-467c-9db4-5bd0115545a3
+    example_object_type: skos_Concept
+    example_predicate: skos:narrower
+    example_subject: https://gcmd.earthdata.nasa.gov/kms/concept/ffccf1c0-f25d-4747-ac4a-f09444383031
+    example_subject_type: skos_Concept
 from_schema: climatepub4-kg
 rank: 1000
 slot_uri: skos:narrower

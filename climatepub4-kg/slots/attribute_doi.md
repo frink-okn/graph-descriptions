@@ -3,7 +3,7 @@
 # Slot: attribute_doi
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [attribute:doi](http://attribute.org/doi)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoPaper](../classes/HsdoPaper.md) | No type description provided |  no  |
+| [HsdoPaper](../classes/HsdoPaper.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [attribute:doi](http://attribute.org/doi)
 
 ## Examples
 
-| Value |
-| --- |
-| https://climateKG.org/entity/008b3eddfa29b8dc6e8d97472e4526bec2c9c2cb attribute:doi 10.1093/icesjms/fsr010 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| hsdo_paper → string | https://climateKG.org/entity/008b3eddfa29b8dc6e8d97472e4526bec2c9c2cb | attribute:doi | 10.1093/icesjms/fsr010 |
+
 
 ## Comments
 
 * 284 occurrences with subject type hsdo_paper and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,16 +82,17 @@ URI: [attribute:doi](http://attribute.org/doi)
 <details>
 ```yaml
 name: attribute_doi
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 284 occurrences with subject type hsdo_paper and object type string.
 examples:
-- value: https://climateKG.org/entity/008b3eddfa29b8dc6e8d97472e4526bec2c9c2cb attribute:doi
-    10.1093/icesjms/fsr010
+- description: hsdo_paper → string
+  object:
+    example_object: 10.1093/icesjms/fsr010
+    example_object_type: string
+    example_predicate: attribute:doi
+    example_subject: https://climateKG.org/entity/008b3eddfa29b8dc6e8d97472e4526bec2c9c2cb
+    example_subject_type: hsdo_paper
 from_schema: climatepub4-kg
 rank: 1000
 slot_uri: attribute:doi

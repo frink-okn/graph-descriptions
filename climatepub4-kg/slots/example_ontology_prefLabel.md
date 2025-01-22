@@ -3,7 +3,7 @@
 # Slot: example_ontology_prefLabel
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -33,19 +33,14 @@ URI: [example:ontology/prefLabel](http://example.org/ontology/prefLabel)
 
 ## Examples
 
-| Value |
-| --- |
-| example:resource/0006e246-4296-448c-9b81-a0831cad7f1c example:ontology/prefLabel LABRADOR SEA |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None → string | example:resource/0006e246-4296-448c-9b81-a0831cad7f1c | example:ontology/prefLabel | LABRADOR SEA |
+
 
 ## Comments
 
 * 16360 occurrences with untyped subjects and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -78,16 +73,17 @@ URI: [example:ontology/prefLabel](http://example.org/ontology/prefLabel)
 <details>
 ```yaml
 name: example_ontology_prefLabel
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 16360 occurrences with untyped subjects and object type string.
 examples:
-- value: example:resource/0006e246-4296-448c-9b81-a0831cad7f1c example:ontology/prefLabel
-    LABRADOR SEA
+- description: None → string
+  object:
+    example_object: LABRADOR SEA
+    example_object_type: string
+    example_predicate: example:ontology/prefLabel
+    example_subject: example:resource/0006e246-4296-448c-9b81-a0831cad7f1c
+    example_subject_type: None
 from_schema: climatepub4-kg
 rank: 1000
 slot_uri: example:ontology/prefLabel

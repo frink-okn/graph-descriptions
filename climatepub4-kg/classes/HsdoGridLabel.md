@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for this class (type)? (hsdo_Grid_Label)
+# Class: No class name specified (hsdo_Grid_Label)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
@@ -49,11 +49,6 @@ URI: [hsdo:Grid_Label](http://schema.org/Grid_Label)
 | --- |
 | https://climateKG.org/entity/a42a0f2b-365b-42a9-b285-cf549596188d |
 
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -93,14 +88,11 @@ URI: [hsdo:Grid_Label](http://schema.org/Grid_Label)
 <details>
 ```yaml
 name: hsdo_Grid_Label
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class name specified
 notes:
-- Class with 45 occurences.
+- Class with 45 occurrences.
 examples:
 - value: https://climateKG.org/entity/a42a0f2b-365b-42a9-b285-cf549596188d
 from_schema: climatepub4-kg
@@ -115,14 +107,11 @@ class_uri: hsdo:Grid_Label
 <details>
 ```yaml
 name: hsdo_Grid_Label
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class name specified
 notes:
-- Class with 45 occurences.
+- Class with 45 occurrences.
 examples:
 - value: https://climateKG.org/entity/a42a0f2b-365b-42a9-b285-cf549596188d
 from_schema: climatepub4-kg

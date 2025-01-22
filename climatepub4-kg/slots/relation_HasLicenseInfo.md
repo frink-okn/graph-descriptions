@@ -3,7 +3,7 @@
 # Slot: relation_HasLicenseInfo
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [relation:HasLicenseInfo](http://relation.org/HasLicenseInfo)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | No type description provided |  no  |
+| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [relation:HasLicenseInfo](http://relation.org/HasLicenseInfo)
 
 ## Examples
 
-| Value |
-| --- |
-| https://climateKG.org/entity/ffa6f7e9-e7e0-494d-84e4-41544a1762e7 relation:HasLicenseInfo https://climateKG.org/entity/95c7e601-fcfe-4fc9-9994-8105a1e11428 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| hsdo_Cmip6_Source_Id → hsdo_License | https://climateKG.org/entity/ffa6f7e9-e7e0-494d-84e4-41544a1762e7 | relation:HasLicenseInfo | https://climateKG.org/entity/95c7e601-fcfe-4fc9-9994-8105a1e11428 |
+
 
 ## Comments
 
 * 131 occurrences with subject type hsdo_Cmip6_Source_Id and object type hsdo_License.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -87,16 +82,17 @@ URI: [relation:HasLicenseInfo](http://relation.org/HasLicenseInfo)
 <details>
 ```yaml
 name: relation_HasLicenseInfo
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 131 occurrences with subject type hsdo_Cmip6_Source_Id and object type hsdo_License.
 examples:
-- value: https://climateKG.org/entity/ffa6f7e9-e7e0-494d-84e4-41544a1762e7 relation:HasLicenseInfo
-    https://climateKG.org/entity/95c7e601-fcfe-4fc9-9994-8105a1e11428
+- description: hsdo_Cmip6_Source_Id → hsdo_License
+  object:
+    example_object: https://climateKG.org/entity/95c7e601-fcfe-4fc9-9994-8105a1e11428
+    example_object_type: hsdo_License
+    example_predicate: relation:HasLicenseInfo
+    example_subject: https://climateKG.org/entity/ffa6f7e9-e7e0-494d-84e4-41544a1762e7
+    example_subject_type: hsdo_Cmip6_Source_Id
 from_schema: climatepub4-kg
 rank: 1000
 slot_uri: relation:HasLicenseInfo

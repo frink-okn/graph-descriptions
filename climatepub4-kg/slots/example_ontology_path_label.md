@@ -3,7 +3,7 @@
 # Slot: example_ontology_path_label
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -33,19 +33,14 @@ URI: [example:ontology/path_label](http://example.org/ontology/path_label)
 
 ## Examples
 
-| Value |
-| --- |
-| example:resource/0006e246-4296-448c-9b81-a0831cad7f1c example:ontology/path_label ATLANTIC OCEAN |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| None → string | example:resource/0006e246-4296-448c-9b81-a0831cad7f1c | example:ontology/path_label | ATLANTIC OCEAN |
+
 
 ## Comments
 
 * 49749 occurrences with untyped subjects and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -78,16 +73,17 @@ URI: [example:ontology/path_label](http://example.org/ontology/path_label)
 <details>
 ```yaml
 name: example_ontology_path_label
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 49749 occurrences with untyped subjects and object type string.
 examples:
-- value: example:resource/0006e246-4296-448c-9b81-a0831cad7f1c example:ontology/path_label
-    ATLANTIC OCEAN
+- description: None → string
+  object:
+    example_object: ATLANTIC OCEAN
+    example_object_type: string
+    example_predicate: example:ontology/path_label
+    example_subject: example:resource/0006e246-4296-448c-9b81-a0831cad7f1c
+    example_subject_type: None
 from_schema: climatepub4-kg
 rank: 1000
 slot_uri: example:ontology/path_label
