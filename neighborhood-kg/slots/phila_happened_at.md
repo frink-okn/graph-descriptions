@@ -3,7 +3,7 @@
 # Slot: phila_happened_at
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [phila:happened_at](https://metadata.phila.gov/happened_at)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [PhilaIncident](../classes/PhilaIncident.md) | No type description provided |  no  |
+| [PhilaIncident](../classes/PhilaIncident.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [phila:happened_at](https://metadata.phila.gov/happened_at)
 
 ## Examples
 
-| Value |
-| --- |
-| phila:OBJ_11871866 phila:happened_at phila:CT_28902 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| phila_Incident → phila_CensusTract | phila:OBJ_11871866 | phila:happened_at | phila:CT_28902 |
+
 
 ## Comments
 
 * 15328 occurrences with subject type phila_Incident and object type phila_CensusTract.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -67,7 +62,7 @@ URI: [phila:happened_at](https://metadata.phila.gov/happened_at)
 ### Schema Source
 
 
-* from schema: neighborhood-kg
+* from schema: neighborhood-information-kg
 
 
 
@@ -77,7 +72,7 @@ URI: [phila:happened_at](https://metadata.phila.gov/happened_at)
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | phila:happened_at |
-| native | neighborhood-kg/:phila_happened_at |
+| native | neighborhood-information-kg/:phila_happened_at |
 
 
 
@@ -87,16 +82,18 @@ URI: [phila:happened_at](https://metadata.phila.gov/happened_at)
 <details>
 ```yaml
 name: phila_happened_at
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 15328 occurrences with subject type phila_Incident and object type phila_CensusTract.
 examples:
-- value: phila:OBJ_11871866 phila:happened_at phila:CT_28902
-from_schema: neighborhood-kg
+- description: phila_Incident → phila_CensusTract
+  object:
+    example_object: phila:CT_28902
+    example_object_type: phila_CensusTract
+    example_predicate: phila:happened_at
+    example_subject: phila:OBJ_11871866
+    example_subject_type: phila_Incident
+from_schema: neighborhood-information-kg
 rank: 1000
 slot_uri: phila:happened_at
 alias: phila_happened_at

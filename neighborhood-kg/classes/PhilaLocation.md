@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for this class (type)? (phila_Location)
+# Class: No class (type) name specified (phila_Location)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
@@ -42,24 +42,11 @@ URI: [phila:Location](https://metadata.phila.gov/Location)
 
 
 
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
 ## Identifier and Mapping Information
 
 
 
 
-
-
-
-### Schema Source
-
-
-* from schema: neighborhood-kg
 
 
 
@@ -69,7 +56,7 @@ URI: [phila:Location](https://metadata.phila.gov/Location)
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | phila:Location |
-| native | neighborhood-kg/:PhilaLocation |
+| native | neighborhood-information-kg/:PhilaLocation |
 
 
 
@@ -86,15 +73,11 @@ URI: [phila:Location](https://metadata.phila.gov/Location)
 <details>
 ```yaml
 name: phila_Location
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class (type) name specified
 notes:
-- Class with 9131 occurences.
-from_schema: neighborhood-kg
+- Class with 9131 occurrences.
 rank: 1000
 class_uri: phila:Location
 
@@ -106,15 +89,11 @@ class_uri: phila:Location
 <details>
 ```yaml
 name: phila_Location
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class (type) name specified
 notes:
-- Class with 9131 occurences.
-from_schema: neighborhood-kg
+- Class with 9131 occurrences.
 rank: 1000
 class_uri: phila:Location
 

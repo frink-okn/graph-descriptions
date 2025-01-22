@@ -3,7 +3,7 @@
 # Slot: phila_OffenderInjured
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [phila:OffenderInjured](https://metadata.phila.gov/OffenderInjured)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [PhilaIncident](../classes/PhilaIncident.md) | No type description provided |  no  |
+| [PhilaIncident](../classes/PhilaIncident.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [phila:OffenderInjured](https://metadata.phila.gov/OffenderInjured)
 
 ## Examples
 
-| Value |
-| --- |
-| phila:OBJ_11856539 phila:OffenderInjured false |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| phila_Incident → boolean | phila:OBJ_11856539 | phila:OffenderInjured | false |
+
 
 ## Comments
 
 * 15328 occurrences with subject type phila_Incident and object type boolean.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -67,7 +62,7 @@ URI: [phila:OffenderInjured](https://metadata.phila.gov/OffenderInjured)
 ### Schema Source
 
 
-* from schema: neighborhood-kg
+* from schema: neighborhood-information-kg
 
 
 
@@ -77,7 +72,7 @@ URI: [phila:OffenderInjured](https://metadata.phila.gov/OffenderInjured)
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | phila:OffenderInjured |
-| native | neighborhood-kg/:phila_OffenderInjured |
+| native | neighborhood-information-kg/:phila_OffenderInjured |
 
 
 
@@ -87,16 +82,18 @@ URI: [phila:OffenderInjured](https://metadata.phila.gov/OffenderInjured)
 <details>
 ```yaml
 name: phila_OffenderInjured
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 15328 occurrences with subject type phila_Incident and object type boolean.
 examples:
-- value: phila:OBJ_11856539 phila:OffenderInjured false
-from_schema: neighborhood-kg
+- description: phila_Incident → boolean
+  object:
+    example_object: 'false'
+    example_object_type: boolean
+    example_predicate: phila:OffenderInjured
+    example_subject: phila:OBJ_11856539
+    example_subject_type: phila_Incident
+from_schema: neighborhood-information-kg
 rank: 1000
 slot_uri: phila:OffenderInjured
 alias: phila_OffenderInjured

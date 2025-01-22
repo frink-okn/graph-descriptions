@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for this class (type)? (phila_BlockGroup)
+# Class: No class (type) name specified (phila_BlockGroup)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
@@ -42,7 +42,7 @@ URI: [phila:BlockGroup](https://metadata.phila.gov/BlockGroup)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [phila_belongs_to](../slots/phila_belongs_to.md) | 0..1 <br/> [PhilaCensusTract](../classes/PhilaCensusTract.md) | No slot description provided | direct |
+| [phila_belongs_to](../slots/phila_belongs_to.md) | 0..1 <br/> [PhilaCensusTract](../classes/PhilaCensusTract.md) | No slot (predicate) description specified <br/> 1250 occurrences with subject type phila_BlockGroup and object type phila_CensusTract. | direct |
 
 
 
@@ -51,12 +51,6 @@ URI: [phila:BlockGroup](https://metadata.phila.gov/BlockGroup)
 
 
 
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -66,20 +60,13 @@ URI: [phila:BlockGroup](https://metadata.phila.gov/BlockGroup)
 
 
 
-### Schema Source
-
-
-* from schema: neighborhood-kg
-
-
-
 
 ## Mappings
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | phila:BlockGroup |
-| native | neighborhood-kg/:PhilaBlockGroup |
+| native | neighborhood-information-kg/:PhilaBlockGroup |
 
 
 
@@ -96,15 +83,11 @@ URI: [phila:BlockGroup](https://metadata.phila.gov/BlockGroup)
 <details>
 ```yaml
 name: phila_BlockGroup
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class (type) name specified
 notes:
-- Class with 8 occurences.
-from_schema: neighborhood-kg
+- Class with 8 occurrences.
 rank: 1000
 slots:
 - phila_belongs_to
@@ -118,29 +101,27 @@ class_uri: phila:BlockGroup
 <details>
 ```yaml
 name: phila_BlockGroup
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class (type) name specified
 notes:
-- Class with 8 occurences.
-from_schema: neighborhood-kg
+- Class with 8 occurrences.
 rank: 1000
 attributes:
   phila_belongs_to:
     name: phila_belongs_to
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
+    description: No slot (predicate) description specified
     comments:
     - 1250 occurrences with subject type phila_BlockGroup and object type phila_CensusTract.
     examples:
-    - value: phila:BG_8 phila:belongs_to phila:CT_39000
-    from_schema: neighborhood-kg
+    - description: phila_BlockGroup → phila_CensusTract
+      object:
+        example_object: phila:CT_39000
+        example_object_type: phila_CensusTract
+        example_predicate: phila:belongs_to
+        example_subject: phila:BG_8
+        example_subject_type: phila_BlockGroup
+    from_schema: neighborhood-information-kg
     rank: 1000
     slot_uri: phila:belongs_to
     alias: phila_belongs_to

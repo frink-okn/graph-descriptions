@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for this class (type)? (phila_CensusTract)
+# Class: No class (type) name specified (phila_CensusTract)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
@@ -50,31 +50,11 @@ URI: [phila:CensusTract](https://metadata.phila.gov/CensusTract)
 
 
 
-
-## Examples
-
-| Value |
-| --- |
-| phila:CT_100 |
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
 ## Identifier and Mapping Information
 
 
 
 
-
-
-
-### Schema Source
-
-
-* from schema: neighborhood-kg
 
 
 
@@ -84,7 +64,7 @@ URI: [phila:CensusTract](https://metadata.phila.gov/CensusTract)
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | phila:CensusTract |
-| native | neighborhood-kg/:PhilaCensusTract |
+| native | neighborhood-information-kg/:PhilaCensusTract |
 
 
 
@@ -101,17 +81,11 @@ URI: [phila:CensusTract](https://metadata.phila.gov/CensusTract)
 <details>
 ```yaml
 name: phila_CensusTract
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class (type) name specified
 notes:
-- Class with 361 occurences.
-examples:
-- value: phila:CT_100
-from_schema: neighborhood-kg
+- Class with 361 occurrences.
 rank: 1000
 class_uri: phila:CensusTract
 
@@ -123,17 +97,11 @@ class_uri: phila:CensusTract
 <details>
 ```yaml
 name: phila_CensusTract
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class (type) name specified
 notes:
-- Class with 361 occurences.
-examples:
-- value: phila:CT_100
-from_schema: neighborhood-kg
+- Class with 361 occurrences.
 rank: 1000
 class_uri: phila:CensusTract
 

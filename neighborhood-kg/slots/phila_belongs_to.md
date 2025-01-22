@@ -3,7 +3,7 @@
 # Slot: phila_belongs_to
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [phila:belongs_to](https://metadata.phila.gov/belongs_to)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [PhilaBlockGroup](../classes/PhilaBlockGroup.md) | No type description provided |  no  |
+| [PhilaBlockGroup](../classes/PhilaBlockGroup.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [phila:belongs_to](https://metadata.phila.gov/belongs_to)
 
 ## Examples
 
-| Value |
-| --- |
-| phila:BG_8 phila:belongs_to phila:CT_39000 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| phila_BlockGroup → phila_CensusTract | phila:BG_8 | phila:belongs_to | phila:CT_39000 |
+
 
 ## Comments
 
 * 1250 occurrences with subject type phila_BlockGroup and object type phila_CensusTract.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -67,7 +62,7 @@ URI: [phila:belongs_to](https://metadata.phila.gov/belongs_to)
 ### Schema Source
 
 
-* from schema: neighborhood-kg
+* from schema: neighborhood-information-kg
 
 
 
@@ -77,7 +72,7 @@ URI: [phila:belongs_to](https://metadata.phila.gov/belongs_to)
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | phila:belongs_to |
-| native | neighborhood-kg/:phila_belongs_to |
+| native | neighborhood-information-kg/:phila_belongs_to |
 
 
 
@@ -87,16 +82,18 @@ URI: [phila:belongs_to](https://metadata.phila.gov/belongs_to)
 <details>
 ```yaml
 name: phila_belongs_to
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 1250 occurrences with subject type phila_BlockGroup and object type phila_CensusTract.
 examples:
-- value: phila:BG_8 phila:belongs_to phila:CT_39000
-from_schema: neighborhood-kg
+- description: phila_BlockGroup → phila_CensusTract
+  object:
+    example_object: phila:CT_39000
+    example_object_type: phila_CensusTract
+    example_predicate: phila:belongs_to
+    example_subject: phila:BG_8
+    example_subject_type: phila_BlockGroup
+from_schema: neighborhood-information-kg
 rank: 1000
 slot_uri: phila:belongs_to
 alias: phila_belongs_to

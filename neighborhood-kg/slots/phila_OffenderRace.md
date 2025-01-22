@@ -3,7 +3,7 @@
 # Slot: phila_OffenderRace
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [phila:OffenderRace](https://metadata.phila.gov/OffenderRace)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [PhilaIncident](../classes/PhilaIncident.md) | No type description provided |  no  |
+| [PhilaIncident](../classes/PhilaIncident.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [phila:OffenderRace](https://metadata.phila.gov/OffenderRace)
 
 ## Examples
 
-| Value |
-| --- |
-| phila:OBJ_11856539 phila:OffenderRace B |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| phila_Incident → string | phila:OBJ_11856539 | phila:OffenderRace | B |
+
 
 ## Comments
 
 * 15205 occurrences with subject type phila_Incident and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -67,7 +62,7 @@ URI: [phila:OffenderRace](https://metadata.phila.gov/OffenderRace)
 ### Schema Source
 
 
-* from schema: neighborhood-kg
+* from schema: neighborhood-information-kg
 
 
 
@@ -77,7 +72,7 @@ URI: [phila:OffenderRace](https://metadata.phila.gov/OffenderRace)
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | phila:OffenderRace |
-| native | neighborhood-kg/:phila_OffenderRace |
+| native | neighborhood-information-kg/:phila_OffenderRace |
 
 
 
@@ -87,16 +82,18 @@ URI: [phila:OffenderRace](https://metadata.phila.gov/OffenderRace)
 <details>
 ```yaml
 name: phila_OffenderRace
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 15205 occurrences with subject type phila_Incident and object type string.
 examples:
-- value: phila:OBJ_11856539 phila:OffenderRace B
-from_schema: neighborhood-kg
+- description: phila_Incident → string
+  object:
+    example_object: B
+    example_object_type: string
+    example_predicate: phila:OffenderRace
+    example_subject: phila:OBJ_11856539
+    example_subject_type: phila_Incident
+from_schema: neighborhood-information-kg
 rank: 1000
 slot_uri: phila:OffenderRace
 alias: phila_OffenderRace

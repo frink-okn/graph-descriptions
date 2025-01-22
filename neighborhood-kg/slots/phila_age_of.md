@@ -3,7 +3,7 @@
 # Slot: phila_age_of
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [phila:age_of](https://metadata.phila.gov/age_of)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [PhilaIncident](../classes/PhilaIncident.md) | No type description provided |  no  |
+| [PhilaIncident](../classes/PhilaIncident.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,19 +42,14 @@ URI: [phila:age_of](https://metadata.phila.gov/age_of)
 
 ## Examples
 
-| Value |
-| --- |
-| phila:OBJ_11856539 phila:age_of 64 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| phila_Incident → integer | phila:OBJ_11856539 | phila:age_of | 64 |
+
 
 ## Comments
 
 * 15093 occurrences with subject type phila_Incident and object type integer.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -67,7 +62,7 @@ URI: [phila:age_of](https://metadata.phila.gov/age_of)
 ### Schema Source
 
 
-* from schema: neighborhood-kg
+* from schema: neighborhood-information-kg
 
 
 
@@ -77,7 +72,7 @@ URI: [phila:age_of](https://metadata.phila.gov/age_of)
 | Mapping Type | Mapped Value |
 | ---  | ---  |
 | self | phila:age_of |
-| native | neighborhood-kg/:phila_age_of |
+| native | neighborhood-information-kg/:phila_age_of |
 
 
 
@@ -87,16 +82,18 @@ URI: [phila:age_of](https://metadata.phila.gov/age_of)
 <details>
 ```yaml
 name: phila_age_of
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 15093 occurrences with subject type phila_Incident and object type integer.
 examples:
-- value: phila:OBJ_11856539 phila:age_of 64
-from_schema: neighborhood-kg
+- description: phila_Incident → integer
+  object:
+    example_object: '64'
+    example_object_type: integer
+    example_predicate: phila:age_of
+    example_subject: phila:OBJ_11856539
+    example_subject_type: phila_Incident
+from_schema: neighborhood-information-kg
 rank: 1000
 slot_uri: phila:age_of
 alias: phila_age_of
