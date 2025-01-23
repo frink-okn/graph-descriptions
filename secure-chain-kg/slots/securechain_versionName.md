@@ -3,7 +3,7 @@
 # Slot: securechain_versionName
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,8 +23,8 @@ URI: [securechain:versionName](https://w3id.org/secure-chain/versionName)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | No type description provided |  no  |
-| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | No type description provided |  no  |
+| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | No class (type) description specified |  no  |
+| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | No class (type) description specified |  no  |
 
 
 
@@ -43,21 +43,16 @@ URI: [securechain:versionName](https://w3id.org/secure-chain/versionName)
 
 ## Examples
 
-| Value |
-| --- |
-| securechain:SoftwareVersion/libaudcore5#%3E%3D+3.9 securechain:versionName >= 3.9 |
-| securechain:HardwareVersion/vantage_velocity#- securechain:versionName - |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| securechain_HardwareVersion → string | securechain:HardwareVersion/-#- | securechain:versionName | - |
+| securechain_SoftwareVersion → string | securechain:SoftwareVersion/#%22%2F%2Fapi%23%2A | securechain:versionName | "//api#* |
+
 
 ## Comments
 
-* 164001 occurrences with subject type securechain_SoftwareVersion and object type string.
 * 57295 occurrences with subject type securechain_HardwareVersion and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
+* 164000 occurrences with subject type securechain_SoftwareVersion and object type string.
 
 ## Identifier and Mapping Information
 
@@ -90,20 +85,27 @@ URI: [securechain:versionName](https://w3id.org/secure-chain/versionName)
 <details>
 ```yaml
 name: securechain_versionName
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
-- 164001 occurrences with subject type securechain_SoftwareVersion and object type
-  string.
 - 57295 occurrences with subject type securechain_HardwareVersion and object type
   string.
+- 164000 occurrences with subject type securechain_SoftwareVersion and object type
+  string.
 examples:
-- value: securechain:SoftwareVersion/libaudcore5#%3E%3D+3.9 securechain:versionName
-    >= 3.9
-- value: securechain:HardwareVersion/vantage_velocity#- securechain:versionName -
+- description: securechain_HardwareVersion → string
+  object:
+    example_object: '-'
+    example_object_type: string
+    example_predicate: securechain:versionName
+    example_subject: securechain:HardwareVersion/-#-
+    example_subject_type: securechain_HardwareVersion
+- description: securechain_SoftwareVersion → string
+  object:
+    example_object: '"//api#*'
+    example_object_type: string
+    example_predicate: securechain:versionName
+    example_subject: securechain:SoftwareVersion/#%22%2F%2Fapi%23%2A
+    example_subject_type: securechain_SoftwareVersion
 from_schema: secure-chain-kg
 rank: 1000
 slot_uri: securechain:versionName

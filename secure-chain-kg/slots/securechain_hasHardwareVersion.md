@@ -3,7 +3,7 @@
 # Slot: securechain_hasHardwareVersion
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,8 +23,8 @@ URI: [securechain:hasHardwareVersion](https://w3id.org/secure-chain/hasHardwareV
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SecurechainHardware](../classes/SecurechainHardware.md) | No type description provided |  no  |
-| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | No type description provided |  no  |
+| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | No class (type) description specified |  no  |
+| [SecurechainHardware](../classes/SecurechainHardware.md) | No class (type) description specified |  no  |
 
 
 
@@ -43,19 +43,14 @@ URI: [securechain:hasHardwareVersion](https://w3id.org/secure-chain/hasHardwareV
 
 ## Examples
 
-| Value |
-| --- |
-| securechain:Hardware/core_i5 securechain:hasHardwareVersion securechain:HardwareVersion/core_i5#2557m |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| securechain_Hardware → securechain_HardwareVersion | securechain:Hardware/zz_qcs605 | securechain:hasHardwareVersion | securechain:HardwareVersion/zz_qcs605#- |
+
 
 ## Comments
 
 * 57295 occurrences with subject type securechain_Hardware and object type securechain_HardwareVersion.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -88,15 +83,17 @@ URI: [securechain:hasHardwareVersion](https://w3id.org/secure-chain/hasHardwareV
 <details>
 ```yaml
 name: securechain_hasHardwareVersion
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 57295 occurrences with subject type securechain_Hardware and object type securechain_HardwareVersion.
 examples:
-- value: securechain:Hardware/core_i5 securechain:hasHardwareVersion securechain:HardwareVersion/core_i5#2557m
+- description: securechain_Hardware → securechain_HardwareVersion
+  object:
+    example_object: securechain:HardwareVersion/zz_qcs605#-
+    example_object_type: securechain_HardwareVersion
+    example_predicate: securechain:hasHardwareVersion
+    example_subject: securechain:Hardware/zz_qcs605
+    example_subject_type: securechain_Hardware
 from_schema: secure-chain-kg
 rank: 1000
 slot_uri: securechain:hasHardwareVersion

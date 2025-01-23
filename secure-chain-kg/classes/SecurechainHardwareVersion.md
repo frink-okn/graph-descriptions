@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for this class (type)? (securechain_HardwareVersion)
+# Class: No class (type) name specified (securechain_HardwareVersion)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
@@ -23,12 +23,12 @@ URI: [securechain:HardwareVersion](https://w3id.org/secure-chain/HardwareVersion
       SecurechainHardware <|-- SecurechainHardwareVersion
         click SecurechainHardware href "../SecurechainHardware"
       
-      SecurechainHardwareVersion : sdoh_name
+      SecurechainHardwareVersion : hsdo_name
         
           
     
     
-    SecurechainHardwareVersion --> "0..1" String : sdoh_name
+    SecurechainHardwareVersion --> "0..1" String : hsdo_name
     click String href "../String"
 
         
@@ -67,7 +67,7 @@ URI: [securechain:HardwareVersion](https://w3id.org/secure-chain/HardwareVersion
 
 
 ## Inheritance
-* [SdohProduct](../classes/SdohProduct.md)
+* [HsdoProduct](../classes/HsdoProduct.md)
     * [SecurechainHardware](../classes/SecurechainHardware.md)
         * **SecurechainHardwareVersion**
 
@@ -77,10 +77,10 @@ URI: [securechain:HardwareVersion](https://w3id.org/secure-chain/HardwareVersion
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [securechain_vulnerableTo](../slots/securechain_vulnerableTo.md) | 0..1 <br/> [SecurechainVulnerability](../classes/SecurechainVulnerability.md) | No slot description provided | direct |
-| [securechain_versionName](../slots/securechain_versionName.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
-| [securechain_hasHardwareVersion](../slots/securechain_hasHardwareVersion.md) | 0..1 <br/> [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | No slot description provided | [SecurechainHardware](../classes/SecurechainHardware.md) |
-| [sdoh_name](../slots/sdoh_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | [SecurechainHardware](../classes/SecurechainHardware.md) |
+| [securechain_vulnerableTo](../slots/securechain_vulnerableTo.md) | 0..1 <br/> [SecurechainVulnerability](../classes/SecurechainVulnerability.md) | No slot (predicate) description specified <br/> 445386 occurrences with subject type securechain_HardwareVersion and object type securechain_Vulnerability.<br/>5067 occurrences with subject type securechain_SoftwareVersion and object type securechain_Vulnerability.<br/>21897 occurrences with untyped subjects and object type https://w3id.org/secure-chain/Vulnerability. | direct |
+| [securechain_versionName](../slots/securechain_versionName.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 57295 occurrences with subject type securechain_HardwareVersion and object type string.<br/>164000 occurrences with subject type securechain_SoftwareVersion and object type string. | direct |
+| [hsdo_name](../slots/hsdo_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified | [SecurechainHardware](../classes/SecurechainHardware.md) |
+| [securechain_hasHardwareVersion](../slots/securechain_hasHardwareVersion.md) | 0..1 <br/> [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | No slot (predicate) description specified | [SecurechainHardware](../classes/SecurechainHardware.md) |
 
 
 
@@ -98,31 +98,11 @@ URI: [securechain:HardwareVersion](https://w3id.org/secure-chain/HardwareVersion
 
 
 
-
-## Examples
-
-| Value |
-| --- |
-| securechain:HardwareVersion/wcn3991#- |
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
 ## Identifier and Mapping Information
 
 
 
 
-
-
-
-### Schema Source
-
-
-* from schema: secure-chain-kg
 
 
 
@@ -149,17 +129,11 @@ URI: [securechain:HardwareVersion](https://w3id.org/secure-chain/HardwareVersion
 <details>
 ```yaml
 name: securechain_HardwareVersion
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class (type) name specified
 notes:
-- Class with 57295 occurences.
-examples:
-- value: securechain:HardwareVersion/wcn3991#-
-from_schema: secure-chain-kg
+- Class with 57295 occurrences.
 rank: 1000
 is_a: securechain_Hardware
 slots:
@@ -175,39 +149,45 @@ class_uri: securechain:HardwareVersion
 <details>
 ```yaml
 name: securechain_HardwareVersion
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class (type) name specified
 notes:
-- Class with 57295 occurences.
-examples:
-- value: securechain:HardwareVersion/wcn3991#-
-from_schema: secure-chain-kg
+- Class with 57295 occurrences.
 rank: 1000
 is_a: securechain_Hardware
 attributes:
   securechain_vulnerableTo:
     name: securechain_vulnerableTo
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
+    description: No slot (predicate) description specified
     comments:
     - 445386 occurrences with subject type securechain_HardwareVersion and object
       type securechain_Vulnerability.
-    - 21897 occurrences with untyped subjects and object type https://w3id.org/secure-chain/Vulnerability.
     - 5067 occurrences with subject type securechain_SoftwareVersion and object type
       securechain_Vulnerability.
+    - 21897 occurrences with untyped subjects and object type https://w3id.org/secure-chain/Vulnerability.
     examples:
-    - value: securechain:HardwareVersion/x12dpl-i6#- securechain:vulnerableTo securechain:Vulnerability/CVE-2023-33412
-    - value: securechain:HardwareVersion/wireless-n_7260#- securechain:vulnerableTo
-        securechain:Vulnerability/CVE-2018-12177
-    - value: securechain:SoftwareVersion/freetype#2.2.1-5 securechain:vulnerableTo
-        securechain:Vulnerability/CVE-2011-0226
+    - description: securechain_HardwareVersion → securechain_Vulnerability
+      object:
+        example_object: securechain:Vulnerability/CVE-2018-13888
+        example_object_type: securechain_Vulnerability
+        example_predicate: securechain:vulnerableTo
+        example_subject: securechain:HardwareVersion/zz_qcs605#-
+        example_subject_type: securechain_HardwareVersion
+    - description: securechain_SoftwareVersion → securechain_Vulnerability
+      object:
+        example_object: securechain:Vulnerability/CVE-2018-1000637
+        example_object_type: securechain_Vulnerability
+        example_predicate: securechain:vulnerableTo
+        example_subject: securechain:SoftwareVersion/zutils#1.8-3
+        example_subject_type: securechain_SoftwareVersion
+    - description: None → securechain_Vulnerability
+      object:
+        example_object: securechain:Vulnerability/CVE-2007-4319
+        example_object_type: securechain_Vulnerability
+        example_predicate: securechain:vulnerableTo
+        example_subject: securechain:HardwareVersion/zywall_2#%2A
+        example_subject_type: None
     from_schema: secure-chain-kg
     rank: 1000
     slot_uri: securechain:vulnerableTo
@@ -219,21 +199,27 @@ attributes:
     range: securechain_Vulnerability
   securechain_versionName:
     name: securechain_versionName
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
+    description: No slot (predicate) description specified
     comments:
-    - 164001 occurrences with subject type securechain_SoftwareVersion and object
-      type string.
     - 57295 occurrences with subject type securechain_HardwareVersion and object type
       string.
+    - 164000 occurrences with subject type securechain_SoftwareVersion and object
+      type string.
     examples:
-    - value: securechain:SoftwareVersion/libaudcore5#%3E%3D+3.9 securechain:versionName
-        >= 3.9
-    - value: securechain:HardwareVersion/vantage_velocity#- securechain:versionName
-        -
+    - description: securechain_HardwareVersion → string
+      object:
+        example_object: '-'
+        example_object_type: string
+        example_predicate: securechain:versionName
+        example_subject: securechain:HardwareVersion/-#-
+        example_subject_type: securechain_HardwareVersion
+    - description: securechain_SoftwareVersion → string
+      object:
+        example_object: '"//api#*'
+        example_object_type: string
+        example_predicate: securechain:versionName
+        example_subject: securechain:SoftwareVersion/#%22%2F%2Fapi%23%2A
+        example_subject_type: securechain_SoftwareVersion
     from_schema: secure-chain-kg
     rank: 1000
     slot_uri: securechain:versionName
@@ -243,17 +229,68 @@ attributes:
     - securechain_HardwareVersion
     - securechain_SoftwareVersion
     range: string
+  hsdo_name:
+    name: hsdo_name
+    description: No slot (predicate) description specified
+    comments:
+    - 53378 occurrences with subject type securechain_Hardware and object type string.
+    - 22002 occurrences with subject type hsdo_Organization and object type string.
+    - 20 occurrences with subject type hsdo_CreativeWork and object type string.
+    - 34466 occurrences with subject type securechain_Software and object type string.
+    examples:
+    - description: securechain_Hardware → string
+      object:
+        example_object: '-'
+        example_object_type: string
+        example_predicate: hsdo:name
+        example_subject: securechain:Hardware/-
+        example_subject_type: securechain_Hardware
+    - description: hsdo_Organization → string
+      object:
+        example_object: '%240.99_kindle_books_project'
+        example_object_type: string
+        example_predicate: hsdo:name
+        example_subject: schema:Organization/%25240.99_kindle_books_project
+        example_subject_type: hsdo_Organization
+    - description: hsdo_CreativeWork → string
+      object:
+        example_object: Permission to use, copy, modify, and/or distribute this software
+          for any
+        example_object_type: string
+        example_predicate: hsdo:name
+        example_subject: securechain:License/0bsd
+        example_subject_type: hsdo_CreativeWork
+    - description: securechain_Software → string
+      object:
+        example_object: ''
+        example_object_type: string
+        example_predicate: hsdo:name
+        example_subject: securechain:Software/
+        example_subject_type: securechain_Software
+    from_schema: secure-chain-kg
+    rank: 1000
+    slot_uri: hsdo:name
+    alias: hsdo_name
+    owner: securechain_HardwareVersion
+    domain_of:
+    - hsdo_CreativeWork
+    - hsdo_Organization
+    - securechain_Hardware
+    - securechain_Software
+    range: string
   securechain_hasHardwareVersion:
     name: securechain_hasHardwareVersion
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
+    description: No slot (predicate) description specified
     comments:
     - 57295 occurrences with subject type securechain_Hardware and object type securechain_HardwareVersion.
     examples:
-    - value: securechain:Hardware/core_i5 securechain:hasHardwareVersion securechain:HardwareVersion/core_i5#2557m
+    - description: securechain_Hardware → securechain_HardwareVersion
+      object:
+        example_object: securechain:HardwareVersion/zz_qcs605#-
+        example_object_type: securechain_HardwareVersion
+        example_predicate: securechain:hasHardwareVersion
+        example_subject: securechain:Hardware/zz_qcs605
+        example_subject_type: securechain_Hardware
     from_schema: secure-chain-kg
     rank: 1000
     slot_uri: securechain:hasHardwareVersion
@@ -262,34 +299,6 @@ attributes:
     domain_of:
     - securechain_Hardware
     range: securechain_HardwareVersion
-  sdoh_name:
-    name: sdoh_name
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 53378 occurrences with subject type securechain_Hardware and object type string.
-    - 22002 occurrences with subject type sdoh_Organization and object type string.
-    - 34469 occurrences with subject type securechain_Software and object type string.
-    - 20 occurrences with subject type sdoh_CreativeWork and object type string.
-    examples:
-    - value: securechain:Hardware/nvr1xxx sdoh:name nvr1xxx
-    - value: schema:Organization/opencaching sdoh:name opencaching
-    - value: securechain:Software/libdime sdoh:name libdime
-    - value: securechain:License/mit sdoh:name MIT License
-    from_schema: secure-chain-kg
-    rank: 1000
-    slot_uri: sdoh:name
-    alias: sdoh_name
-    owner: securechain_HardwareVersion
-    domain_of:
-    - sdoh_CreativeWork
-    - sdoh_Organization
-    - securechain_Hardware
-    - securechain_Software
-    range: string
 class_uri: securechain:HardwareVersion
 
 ```

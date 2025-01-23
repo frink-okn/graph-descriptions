@@ -3,7 +3,7 @@
 # Slot: securechain_vulnerableTo
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,8 +23,8 @@ URI: [securechain:vulnerableTo](https://w3id.org/secure-chain/vulnerableTo)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | No type description provided |  no  |
-| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | No type description provided |  no  |
+| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | No class (type) description specified |  no  |
+| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | No class (type) description specified |  no  |
 
 
 
@@ -43,23 +43,18 @@ URI: [securechain:vulnerableTo](https://w3id.org/secure-chain/vulnerableTo)
 
 ## Examples
 
-| Value |
-| --- |
-| securechain:HardwareVersion/x12dpl-i6#- securechain:vulnerableTo securechain:Vulnerability/CVE-2023-33412 |
-| securechain:HardwareVersion/wireless-n_7260#- securechain:vulnerableTo securechain:Vulnerability/CVE-2018-12177 |
-| securechain:SoftwareVersion/freetype#2.2.1-5 securechain:vulnerableTo securechain:Vulnerability/CVE-2011-0226 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| securechain_HardwareVersion → securechain_Vulnerability | securechain:HardwareVersion/zz_qcs605#- | securechain:vulnerableTo | securechain:Vulnerability/CVE-2018-13888 |
+| securechain_SoftwareVersion → securechain_Vulnerability | securechain:SoftwareVersion/zutils#1.8-3 | securechain:vulnerableTo | securechain:Vulnerability/CVE-2018-1000637 |
+| None → securechain_Vulnerability | securechain:HardwareVersion/zywall_2#%2A | securechain:vulnerableTo | securechain:Vulnerability/CVE-2007-4319 |
+
 
 ## Comments
 
 * 445386 occurrences with subject type securechain_HardwareVersion and object type securechain_Vulnerability.
-* 21897 occurrences with untyped subjects and object type https://w3id.org/secure-chain/Vulnerability.
 * 5067 occurrences with subject type securechain_SoftwareVersion and object type securechain_Vulnerability.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
+* 21897 occurrences with untyped subjects and object type https://w3id.org/secure-chain/Vulnerability.
 
 ## Identifier and Mapping Information
 
@@ -92,20 +87,34 @@ URI: [securechain:vulnerableTo](https://w3id.org/secure-chain/vulnerableTo)
 <details>
 ```yaml
 name: securechain_vulnerableTo
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 445386 occurrences with subject type securechain_HardwareVersion and object type
   securechain_Vulnerability.
-- 21897 occurrences with untyped subjects and object type https://w3id.org/secure-chain/Vulnerability.
 - 5067 occurrences with subject type securechain_SoftwareVersion and object type securechain_Vulnerability.
+- 21897 occurrences with untyped subjects and object type https://w3id.org/secure-chain/Vulnerability.
 examples:
-- value: securechain:HardwareVersion/x12dpl-i6#- securechain:vulnerableTo securechain:Vulnerability/CVE-2023-33412
-- value: securechain:HardwareVersion/wireless-n_7260#- securechain:vulnerableTo securechain:Vulnerability/CVE-2018-12177
-- value: securechain:SoftwareVersion/freetype#2.2.1-5 securechain:vulnerableTo securechain:Vulnerability/CVE-2011-0226
+- description: securechain_HardwareVersion → securechain_Vulnerability
+  object:
+    example_object: securechain:Vulnerability/CVE-2018-13888
+    example_object_type: securechain_Vulnerability
+    example_predicate: securechain:vulnerableTo
+    example_subject: securechain:HardwareVersion/zz_qcs605#-
+    example_subject_type: securechain_HardwareVersion
+- description: securechain_SoftwareVersion → securechain_Vulnerability
+  object:
+    example_object: securechain:Vulnerability/CVE-2018-1000637
+    example_object_type: securechain_Vulnerability
+    example_predicate: securechain:vulnerableTo
+    example_subject: securechain:SoftwareVersion/zutils#1.8-3
+    example_subject_type: securechain_SoftwareVersion
+- description: None → securechain_Vulnerability
+  object:
+    example_object: securechain:Vulnerability/CVE-2007-4319
+    example_object_type: securechain_Vulnerability
+    example_predicate: securechain:vulnerableTo
+    example_subject: securechain:HardwareVersion/zywall_2#%2A
+    example_subject_type: None
 from_schema: secure-chain-kg
 rank: 1000
 slot_uri: securechain:vulnerableTo

@@ -1,15 +1,15 @@
 
 
-# Class: No class (type) name specified (securechain_VulnerabilityType)
+# Class: Person (hsdo_Person)
 
 
-_No class (type) description specified_
+_A person (alive, dead, undead, or fictional)._
 
 
 
 
 
-URI: [securechain:VulnerabilityType](https://w3id.org/secure-chain/VulnerabilityType)
+URI: [hsdo:Person](http://schema.org/Person)
 
 
 
@@ -18,17 +18,14 @@ URI: [securechain:VulnerabilityType](https://w3id.org/secure-chain/Vulnerability
 
 ```mermaid
  classDiagram
-    class SecurechainVulnerabilityType
-    click SecurechainVulnerabilityType href "../SecurechainVulnerabilityType"
-      HsdoIntangible <|-- SecurechainVulnerabilityType
-        click HsdoIntangible href "../HsdoIntangible"
-      
-      SecurechainVulnerabilityType : hsdo_identifier
+    class HsdoPerson
+    click HsdoPerson href "../HsdoPerson"
+      HsdoPerson : hsdo_identifier
         
           
     
     
-    SecurechainVulnerabilityType --> "0..1" String : hsdo_identifier
+    HsdoPerson --> "0..1" String : hsdo_identifier
     click String href "../String"
 
         
@@ -38,11 +35,7 @@ URI: [securechain:VulnerabilityType](https://w3id.org/secure-chain/Vulnerability
 
 
 
-
-## Inheritance
-* [HsdoIntangible](../classes/HsdoIntangible.md)
-    * **SecurechainVulnerabilityType**
-
+<!-- no inheritance hierarchy -->
 
 
 ## Slots
@@ -59,7 +52,8 @@ URI: [securechain:VulnerabilityType](https://w3id.org/secure-chain/Vulnerability
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [SecurechainVulnerability](../classes/SecurechainVulnerability.md) | [securechain_vulnerabilityType](../slots/securechain_vulnerabilityType.md) | range | [SecurechainVulnerabilityType](../classes/SecurechainVulnerabilityType.md) |
+| [SecurechainSoftware](../classes/SecurechainSoftware.md) | [hsdo_contributor](../slots/hsdo_contributor.md) | range | [HsdoPerson](../classes/HsdoPerson.md) |
+| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | [hsdo_contributor](../slots/hsdo_contributor.md) | range | [HsdoPerson](../classes/HsdoPerson.md) |
 
 
 
@@ -74,13 +68,20 @@ URI: [securechain:VulnerabilityType](https://w3id.org/secure-chain/Vulnerability
 
 
 
+### Schema Source
+
+
+* from schema: secure-chain-kg
+
+
+
 
 ## Mappings
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | securechain:VulnerabilityType |
-| native | secure-chain-kg/:SecurechainVulnerabilityType |
+| self | hsdo:Person |
+| native | secure-chain-kg/:HsdoPerson |
 
 
 
@@ -96,17 +97,17 @@ URI: [securechain:VulnerabilityType](https://w3id.org/secure-chain/Vulnerability
 
 <details>
 ```yaml
-name: securechain_VulnerabilityType
+name: hsdo_Person
 conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (type) name specified
+description: A person (alive, dead, undead, or fictional).
+title: Person
 notes:
-- Class with 445 occurrences.
+- Class with 30434 occurrences.
+from_schema: secure-chain-kg
 rank: 1000
-is_a: hsdo_Intangible
 slots:
 - hsdo_identifier
-class_uri: securechain:VulnerabilityType
+class_uri: hsdo:Person
 
 ```
 </details>
@@ -115,14 +116,14 @@ class_uri: securechain:VulnerabilityType
 
 <details>
 ```yaml
-name: securechain_VulnerabilityType
+name: hsdo_Person
 conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (type) name specified
+description: A person (alive, dead, undead, or fictional).
+title: Person
 notes:
-- Class with 445 occurrences.
+- Class with 30434 occurrences.
+from_schema: secure-chain-kg
 rank: 1000
-is_a: hsdo_Intangible
 attributes:
   hsdo_identifier:
     name: hsdo_identifier
@@ -175,7 +176,7 @@ attributes:
     rank: 1000
     slot_uri: hsdo:identifier
     alias: hsdo_identifier
-    owner: securechain_VulnerabilityType
+    owner: hsdo_Person
     domain_of:
     - hsdo_CreativeWork
     - hsdo_Organization
@@ -183,7 +184,7 @@ attributes:
     - securechain_Vulnerability
     - securechain_VulnerabilityType
     range: string
-class_uri: securechain:VulnerabilityType
+class_uri: hsdo:Person
 
 ```
 </details>

@@ -3,7 +3,7 @@
 # Slot: securechain_hasSoftwareVersion
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,8 +23,8 @@ URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareV
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SecurechainSoftware](../classes/SecurechainSoftware.md) | No type description provided |  no  |
-| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | No type description provided |  no  |
+| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | No class (type) description specified |  no  |
+| [SecurechainSoftware](../classes/SecurechainSoftware.md) | No class (type) description specified |  no  |
 
 
 
@@ -43,19 +43,14 @@ URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareV
 
 ## Examples
 
-| Value |
-| --- |
-| securechain:Software/intel-vaapi-driver securechain:hasSoftwareVersion securechain:SoftwareVersion/intel-vaapi-driver#1.0.17-1 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| securechain_Software → securechain_SoftwareVersion | securechain:Software/zzuf | securechain:hasSoftwareVersion | securechain:SoftwareVersion/zzuf#0.15-4 |
+
 
 ## Comments
 
 * 164001 occurrences with subject type securechain_Software and object type securechain_SoftwareVersion.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
@@ -88,15 +83,17 @@ URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareV
 <details>
 ```yaml
 name: securechain_hasSoftwareVersion
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 164001 occurrences with subject type securechain_Software and object type securechain_SoftwareVersion.
 examples:
-- value: securechain:Software/intel-vaapi-driver securechain:hasSoftwareVersion securechain:SoftwareVersion/intel-vaapi-driver#1.0.17-1
+- description: securechain_Software → securechain_SoftwareVersion
+  object:
+    example_object: securechain:SoftwareVersion/zzuf#0.15-4
+    example_object_type: securechain_SoftwareVersion
+    example_predicate: securechain:hasSoftwareVersion
+    example_subject: securechain:Software/zzuf
+    example_subject_type: securechain_Software
 from_schema: secure-chain-kg
 rank: 1000
 slot_uri: securechain:hasSoftwareVersion

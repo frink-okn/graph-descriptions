@@ -1,9 +1,9 @@
 
 
-# Class: TODO -- what's a good name for this class (type)? (securechain_Software)
+# Class: No class (type) name specified (securechain_Software)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
@@ -20,29 +20,29 @@ URI: [securechain:Software](https://w3id.org/secure-chain/Software)
  classDiagram
     class SecurechainSoftware
     click SecurechainSoftware href "../SecurechainSoftware"
-      SdohSoftwareApplication <|-- SecurechainSoftware
-        click SdohSoftwareApplication href "../SdohSoftwareApplication"
+      HsdoSoftwareApplication <|-- SecurechainSoftware
+        click HsdoSoftwareApplication href "../HsdoSoftwareApplication"
       
 
       SecurechainSoftware <|-- SecurechainSoftwareVersion
         click SecurechainSoftwareVersion href "../SecurechainSoftwareVersion"
       
       
-      SecurechainSoftware : sdoh_contributor
+      SecurechainSoftware : hsdo_contributor
         
           
     
     
-    SecurechainSoftware --> "0..1" SdohPerson : sdoh_contributor
-    click SdohPerson href "../SdohPerson"
+    SecurechainSoftware --> "0..1" HsdoPerson : hsdo_contributor
+    click HsdoPerson href "../HsdoPerson"
 
         
-      SecurechainSoftware : sdoh_name
+      SecurechainSoftware : hsdo_name
         
           
     
     
-    SecurechainSoftware --> "0..1" String : sdoh_name
+    SecurechainSoftware --> "0..1" String : hsdo_name
     click String href "../String"
 
         
@@ -63,7 +63,7 @@ URI: [securechain:Software](https://w3id.org/secure-chain/Software)
 
 
 ## Inheritance
-* [SdohSoftwareApplication](../classes/SdohSoftwareApplication.md)
+* [HsdoSoftwareApplication](../classes/HsdoSoftwareApplication.md)
     * **SecurechainSoftware**
         * [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md)
 
@@ -73,9 +73,9 @@ URI: [securechain:Software](https://w3id.org/secure-chain/Software)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [securechain_hasSoftwareVersion](../slots/securechain_hasSoftwareVersion.md) | 0..1 <br/> [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | No slot description provided | direct |
-| [sdoh_contributor](../slots/sdoh_contributor.md) | 0..1 <br/> [SdohPerson](../classes/SdohPerson.md) | No slot description provided | direct |
-| [sdoh_name](../slots/sdoh_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot description provided | direct |
+| [securechain_hasSoftwareVersion](../slots/securechain_hasSoftwareVersion.md) | 0..1 <br/> [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | No slot (predicate) description specified <br/> 164001 occurrences with subject type securechain_Software and object type securechain_SoftwareVersion. | direct |
+| [hsdo_name](../slots/hsdo_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 53378 occurrences with subject type securechain_Hardware and object type string.<br/>22002 occurrences with subject type hsdo_Organization and object type string.<br/>20 occurrences with subject type hsdo_CreativeWork and object type string.<br/>34466 occurrences with subject type securechain_Software and object type string. | direct |
+| [hsdo_contributor](../slots/hsdo_contributor.md) | 0..1 <br/> [HsdoPerson](../classes/HsdoPerson.md) | No slot (predicate) description specified <br/> 3668 occurrences with untyped subjects and object type http://schema.org/Person.<br/>33048 occurrences with subject type securechain_Software and object type hsdo_Person. | direct |
 
 
 
@@ -84,32 +84,12 @@ URI: [securechain:Software](https://w3id.org/secure-chain/Software)
 
 
 
-
-
-## Examples
-
-| Value |
-| --- |
-| securechain:Software/imlib1 |
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
 
 ## Identifier and Mapping Information
 
 
 
 
-
-
-
-### Schema Source
-
-
-* from schema: secure-chain-kg
 
 
 
@@ -136,23 +116,17 @@ URI: [securechain:Software](https://w3id.org/secure-chain/Software)
 <details>
 ```yaml
 name: securechain_Software
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class (type) name specified
 notes:
-- Class with 34469 occurences.
-examples:
-- value: securechain:Software/imlib1
-from_schema: secure-chain-kg
+- Class with 34469 occurrences.
 rank: 1000
-is_a: sdoh_SoftwareApplication
+is_a: hsdo_SoftwareApplication
 slots:
 - securechain_hasSoftwareVersion
-- sdoh_contributor
-- sdoh_name
+- hsdo_name
+- hsdo_contributor
 class_uri: securechain:Software
 
 ```
@@ -163,32 +137,27 @@ class_uri: securechain:Software
 <details>
 ```yaml
 name: securechain_Software
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
+conforms_to: No schema conformance document specified
+description: No class (type) description specified
+title: No class (type) name specified
 notes:
-- Class with 34469 occurences.
-examples:
-- value: securechain:Software/imlib1
-from_schema: secure-chain-kg
+- Class with 34469 occurrences.
 rank: 1000
-is_a: sdoh_SoftwareApplication
+is_a: hsdo_SoftwareApplication
 attributes:
   securechain_hasSoftwareVersion:
     name: securechain_hasSoftwareVersion
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
+    description: No slot (predicate) description specified
     comments:
     - 164001 occurrences with subject type securechain_Software and object type securechain_SoftwareVersion.
     examples:
-    - value: securechain:Software/intel-vaapi-driver securechain:hasSoftwareVersion
-        securechain:SoftwareVersion/intel-vaapi-driver#1.0.17-1
+    - description: securechain_Software → securechain_SoftwareVersion
+      object:
+        example_object: securechain:SoftwareVersion/zzuf#0.15-4
+        example_object_type: securechain_SoftwareVersion
+        example_predicate: securechain:hasSoftwareVersion
+        example_subject: securechain:Software/zzuf
+        example_subject_type: securechain_Software
     from_schema: secure-chain-kg
     rank: 1000
     slot_uri: securechain:hasSoftwareVersion
@@ -197,55 +166,84 @@ attributes:
     domain_of:
     - securechain_Software
     range: securechain_SoftwareVersion
-  sdoh_contributor:
-    name: sdoh_contributor
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 33048 occurrences with subject type securechain_Software and object type sdoh_Person.
-    - 3668 occurrences with untyped subjects and object type http://schema.org/Person.
-    examples:
-    - value: securechain:Software/cuml sdoh:contributor schema:Person/minseokl
-    - value: securechain:Software/velox sdoh:contributor schema:Person/DavidSGK
-    from_schema: secure-chain-kg
-    rank: 1000
-    slot_uri: sdoh:contributor
-    alias: sdoh_contributor
-    owner: securechain_Software
-    domain_of:
-    - securechain_Software
-    range: sdoh_Person
-  sdoh_name:
-    name: sdoh_name
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
+  hsdo_name:
+    name: hsdo_name
+    description: No slot (predicate) description specified
     comments:
     - 53378 occurrences with subject type securechain_Hardware and object type string.
-    - 22002 occurrences with subject type sdoh_Organization and object type string.
-    - 34469 occurrences with subject type securechain_Software and object type string.
-    - 20 occurrences with subject type sdoh_CreativeWork and object type string.
+    - 22002 occurrences with subject type hsdo_Organization and object type string.
+    - 20 occurrences with subject type hsdo_CreativeWork and object type string.
+    - 34466 occurrences with subject type securechain_Software and object type string.
     examples:
-    - value: securechain:Hardware/nvr1xxx sdoh:name nvr1xxx
-    - value: schema:Organization/opencaching sdoh:name opencaching
-    - value: securechain:Software/libdime sdoh:name libdime
-    - value: securechain:License/mit sdoh:name MIT License
+    - description: securechain_Hardware → string
+      object:
+        example_object: '-'
+        example_object_type: string
+        example_predicate: hsdo:name
+        example_subject: securechain:Hardware/-
+        example_subject_type: securechain_Hardware
+    - description: hsdo_Organization → string
+      object:
+        example_object: '%240.99_kindle_books_project'
+        example_object_type: string
+        example_predicate: hsdo:name
+        example_subject: schema:Organization/%25240.99_kindle_books_project
+        example_subject_type: hsdo_Organization
+    - description: hsdo_CreativeWork → string
+      object:
+        example_object: Permission to use, copy, modify, and/or distribute this software
+          for any
+        example_object_type: string
+        example_predicate: hsdo:name
+        example_subject: securechain:License/0bsd
+        example_subject_type: hsdo_CreativeWork
+    - description: securechain_Software → string
+      object:
+        example_object: ''
+        example_object_type: string
+        example_predicate: hsdo:name
+        example_subject: securechain:Software/
+        example_subject_type: securechain_Software
     from_schema: secure-chain-kg
     rank: 1000
-    slot_uri: sdoh:name
-    alias: sdoh_name
+    slot_uri: hsdo:name
+    alias: hsdo_name
     owner: securechain_Software
     domain_of:
-    - sdoh_CreativeWork
-    - sdoh_Organization
+    - hsdo_CreativeWork
+    - hsdo_Organization
     - securechain_Hardware
     - securechain_Software
     range: string
+  hsdo_contributor:
+    name: hsdo_contributor
+    description: No slot (predicate) description specified
+    comments:
+    - 3668 occurrences with untyped subjects and object type http://schema.org/Person.
+    - 33048 occurrences with subject type securechain_Software and object type hsdo_Person.
+    examples:
+    - description: None → hsdo_Person
+      object:
+        example_object: schema:Person/yrnkrn
+        example_object_type: hsdo_Person
+        example_predicate: hsdo:contributor
+        example_subject: securechain:Software/zapcc
+        example_subject_type: None
+    - description: securechain_Software → hsdo_Person
+      object:
+        example_object: schema:Person/zander
+        example_object_type: hsdo_Person
+        example_predicate: hsdo:contributor
+        example_subject: securechain:Software/zxing-cpp
+        example_subject_type: securechain_Software
+    from_schema: secure-chain-kg
+    rank: 1000
+    slot_uri: hsdo:contributor
+    alias: hsdo_contributor
+    owner: securechain_Software
+    domain_of:
+    - securechain_Software
+    range: hsdo_Person
 class_uri: securechain:Software
 
 ```

@@ -1,15 +1,15 @@
 
 
-# Class: No class (type) name specified (securechain_License)
+# Class: CreativeWork (hsdo_CreativeWork)
 
 
-_No class (type) description specified_
+_The most generic kind of creative work, including books, movies, photographs, software programs, etc._
 
 
 
 
 
-URI: [securechain:License](https://w3id.org/secure-chain/License)
+URI: [hsdo:CreativeWork](http://schema.org/CreativeWork)
 
 
 
@@ -18,26 +18,26 @@ URI: [securechain:License](https://w3id.org/secure-chain/License)
 
 ```mermaid
  classDiagram
-    class SecurechainLicense
-    click SecurechainLicense href "../SecurechainLicense"
+    class HsdoCreativeWork
+    click HsdoCreativeWork href "../HsdoCreativeWork"
       HsdoCreativeWork <|-- SecurechainLicense
-        click HsdoCreativeWork href "../HsdoCreativeWork"
+        click SecurechainLicense href "../SecurechainLicense"
       
-      SecurechainLicense : hsdo_identifier
+      HsdoCreativeWork : hsdo_identifier
         
           
     
     
-    SecurechainLicense --> "0..1" String : hsdo_identifier
+    HsdoCreativeWork --> "0..1" String : hsdo_identifier
     click String href "../String"
 
         
-      SecurechainLicense : hsdo_name
+      HsdoCreativeWork : hsdo_name
         
           
     
     
-    SecurechainLicense --> "0..1" String : hsdo_name
+    HsdoCreativeWork --> "0..1" String : hsdo_name
     click String href "../String"
 
         
@@ -49,8 +49,8 @@ URI: [securechain:License](https://w3id.org/secure-chain/License)
 
 
 ## Inheritance
-* [HsdoCreativeWork](../classes/HsdoCreativeWork.md)
-    * **SecurechainLicense**
+* **HsdoCreativeWork**
+    * [SecurechainLicense](../classes/SecurechainLicense.md)
 
 
 
@@ -58,8 +58,8 @@ URI: [securechain:License](https://w3id.org/secure-chain/License)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [hsdo_name](../slots/hsdo_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified | [HsdoCreativeWork](../classes/HsdoCreativeWork.md) |
-| [hsdo_identifier](../slots/hsdo_identifier.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified | [HsdoCreativeWork](../classes/HsdoCreativeWork.md) |
+| [hsdo_name](../slots/hsdo_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 53378 occurrences with subject type securechain_Hardware and object type string.<br/>22002 occurrences with subject type hsdo_Organization and object type string.<br/>20 occurrences with subject type hsdo_CreativeWork and object type string.<br/>34466 occurrences with subject type securechain_Software and object type string. | direct |
+| [hsdo_identifier](../slots/hsdo_identifier.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 30434 occurrences with subject type hsdo_Person and object type string.<br/>259334 occurrences with subject type securechain_Vulnerability and object type string.<br/>445 occurrences with subject type securechain_VulnerabilityType and object type string.<br/>887 occurrences with subject type hsdo_Organization and object type string.<br/>20 occurrences with subject type hsdo_CreativeWork and object type string. | direct |
 
 
 
@@ -77,13 +77,20 @@ URI: [securechain:License](https://w3id.org/secure-chain/License)
 
 
 
+### Schema Source
+
+
+* from schema: secure-chain-kg
+
+
+
 
 ## Mappings
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | securechain:License |
-| native | secure-chain-kg/:SecurechainLicense |
+| self | hsdo:CreativeWork |
+| native | secure-chain-kg/:HsdoCreativeWork |
 
 
 
@@ -99,15 +106,19 @@ URI: [securechain:License](https://w3id.org/secure-chain/License)
 
 <details>
 ```yaml
-name: securechain_License
+name: hsdo_CreativeWork
 conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (type) name specified
+description: The most generic kind of creative work, including books, movies, photographs,
+  software programs, etc.
+title: CreativeWork
 notes:
-- Class with 0 occurrences.
+- Class with 20 occurrences.
+from_schema: secure-chain-kg
 rank: 1000
-is_a: hsdo_CreativeWork
-class_uri: securechain:License
+slots:
+- hsdo_name
+- hsdo_identifier
+class_uri: hsdo:CreativeWork
 
 ```
 </details>
@@ -116,14 +127,15 @@ class_uri: securechain:License
 
 <details>
 ```yaml
-name: securechain_License
+name: hsdo_CreativeWork
 conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (type) name specified
+description: The most generic kind of creative work, including books, movies, photographs,
+  software programs, etc.
+title: CreativeWork
 notes:
-- Class with 0 occurrences.
+- Class with 20 occurrences.
+from_schema: secure-chain-kg
 rank: 1000
-is_a: hsdo_CreativeWork
 attributes:
   hsdo_name:
     name: hsdo_name
@@ -167,7 +179,7 @@ attributes:
     rank: 1000
     slot_uri: hsdo:name
     alias: hsdo_name
-    owner: securechain_License
+    owner: hsdo_CreativeWork
     domain_of:
     - hsdo_CreativeWork
     - hsdo_Organization
@@ -225,7 +237,7 @@ attributes:
     rank: 1000
     slot_uri: hsdo:identifier
     alias: hsdo_identifier
-    owner: securechain_License
+    owner: hsdo_CreativeWork
     domain_of:
     - hsdo_CreativeWork
     - hsdo_Organization
@@ -233,7 +245,7 @@ attributes:
     - securechain_Vulnerability
     - securechain_VulnerabilityType
     range: string
-class_uri: securechain:License
+class_uri: hsdo:CreativeWork
 
 ```
 </details>

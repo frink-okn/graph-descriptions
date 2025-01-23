@@ -3,7 +3,7 @@
 # Slot: securechain_dependsOn
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
@@ -23,7 +23,7 @@ URI: [securechain:dependsOn](https://w3id.org/secure-chain/dependsOn)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | No type description provided |  no  |
+| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | No class (type) description specified |  no  |
 
 
 
@@ -42,25 +42,20 @@ URI: [securechain:dependsOn](https://w3id.org/secure-chain/dependsOn)
 
 ## Examples
 
-| Value |
-| --- |
-| securechain:SoftwareVersion/RedPanda-CPP#1.0.6 securechain:dependsOn securechain:SoftwareVersion/debhelper#%3D12~ |
-| securechain:SoftwareVersion/dde-qt5integration#5.5.23-1build3 securechain:dependsOn securechain:SoftwareVersion/libqt5x11extras5#%3E%3D+5.6.0 |
-| securechain:SoftwareVersion/kstars#4%3A3.5.5-1 securechain:dependsOn securechain:SoftwareVersion/indi#4%3A3.5.5-1 |
-| securechain:SoftwareVersion/dosbox-staging#svn_RELEASE_0_74_2 securechain:dependsOn securechain:SoftwareVersion/dosbox#0.74-2 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| securechain_SoftwareVersion → securechain_SoftwareVersion | securechain:SoftwareVersion/zzuf#0.15-4 | securechain:dependsOn | securechain:SoftwareVersion/libc6#%3E%3E+2.39%26%3C%3C+2.40 |
+| None → securechain_SoftwareVersion | securechain:SoftwareVersion/zzuf#0.15-4%2Bb3 | securechain:dependsOn | securechain:SoftwareVersion/libc6#%3E%3E+2.39%26%3C%3C+2.40 |
+| securechain_SoftwareVersion → uri | securechain:SoftwareVersion/dosbox-staging#svn_RELEASE_0_74_2 | securechain:dependsOn | securechain:SoftwareVersion/dosbox#0.74-2 |
+| None → uri | securechain:SoftwareVersion/glaze#v0.0.1 | securechain:dependsOn | securechain:SoftwareVersion/fast_float#v3.4.0 |
+
 
 ## Comments
 
 * 696916 occurrences with subject type securechain_SoftwareVersion and object type securechain_SoftwareVersion.
 * 982961 occurrences with untyped subjects and object type https://w3id.org/secure-chain/SoftwareVersion.
-* 39 occurrences with untyped subjects and object type uri.
 * 2 occurrences with subject type securechain_SoftwareVersion and object type uri.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
+* 39 occurrences with untyped subjects and object type uri.
 
 ## Identifier and Mapping Information
 
@@ -93,24 +88,42 @@ URI: [securechain:dependsOn](https://w3id.org/secure-chain/dependsOn)
 <details>
 ```yaml
 name: securechain_dependsOn
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
 comments:
 - 696916 occurrences with subject type securechain_SoftwareVersion and object type
   securechain_SoftwareVersion.
 - 982961 occurrences with untyped subjects and object type https://w3id.org/secure-chain/SoftwareVersion.
-- 39 occurrences with untyped subjects and object type uri.
 - 2 occurrences with subject type securechain_SoftwareVersion and object type uri.
+- 39 occurrences with untyped subjects and object type uri.
 examples:
-- value: securechain:SoftwareVersion/RedPanda-CPP#1.0.6 securechain:dependsOn securechain:SoftwareVersion/debhelper#%3D12~
-- value: securechain:SoftwareVersion/dde-qt5integration#5.5.23-1build3 securechain:dependsOn
-    securechain:SoftwareVersion/libqt5x11extras5#%3E%3D+5.6.0
-- value: securechain:SoftwareVersion/kstars#4%3A3.5.5-1 securechain:dependsOn securechain:SoftwareVersion/indi#4%3A3.5.5-1
-- value: securechain:SoftwareVersion/dosbox-staging#svn_RELEASE_0_74_2 securechain:dependsOn
-    securechain:SoftwareVersion/dosbox#0.74-2
+- description: securechain_SoftwareVersion → securechain_SoftwareVersion
+  object:
+    example_object: securechain:SoftwareVersion/libc6#%3E%3E+2.39%26%3C%3C+2.40
+    example_object_type: securechain_SoftwareVersion
+    example_predicate: securechain:dependsOn
+    example_subject: securechain:SoftwareVersion/zzuf#0.15-4
+    example_subject_type: securechain_SoftwareVersion
+- description: None → securechain_SoftwareVersion
+  object:
+    example_object: securechain:SoftwareVersion/libc6#%3E%3E+2.39%26%3C%3C+2.40
+    example_object_type: securechain_SoftwareVersion
+    example_predicate: securechain:dependsOn
+    example_subject: securechain:SoftwareVersion/zzuf#0.15-4%2Bb3
+    example_subject_type: None
+- description: securechain_SoftwareVersion → uri
+  object:
+    example_object: securechain:SoftwareVersion/dosbox#0.74-2
+    example_object_type: uri
+    example_predicate: securechain:dependsOn
+    example_subject: securechain:SoftwareVersion/dosbox-staging#svn_RELEASE_0_74_2
+    example_subject_type: securechain_SoftwareVersion
+- description: None → uri
+  object:
+    example_object: securechain:SoftwareVersion/fast_float#v3.4.0
+    example_object_type: uri
+    example_predicate: securechain:dependsOn
+    example_subject: securechain:SoftwareVersion/glaze#v0.0.1
+    example_subject_type: None
 from_schema: secure-chain-kg
 rank: 1000
 slot_uri: securechain:dependsOn

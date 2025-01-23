@@ -1,6 +1,6 @@
 # secure-chain-kg
 
-TODO -- tell the world what this schema describes.
+No schema description specified
 
 URI: secure-chain-kg
 

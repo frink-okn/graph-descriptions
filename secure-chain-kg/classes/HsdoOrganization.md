@@ -1,15 +1,15 @@
 
 
-# Class: No class (type) name specified (securechain_License)
+# Class: Organization (hsdo_Organization)
 
 
-_No class (type) description specified_
+_An organization such as a school, NGO, corporation, club, etc._
 
 
 
 
 
-URI: [securechain:License](https://w3id.org/secure-chain/License)
+URI: [hsdo:Organization](http://schema.org/Organization)
 
 
 
@@ -18,26 +18,41 @@ URI: [securechain:License](https://w3id.org/secure-chain/License)
 
 ```mermaid
  classDiagram
-    class SecurechainLicense
-    click SecurechainLicense href "../SecurechainLicense"
-      HsdoCreativeWork <|-- SecurechainLicense
-        click HsdoCreativeWork href "../HsdoCreativeWork"
-      
-      SecurechainLicense : hsdo_identifier
+    class HsdoOrganization
+    click HsdoOrganization href "../HsdoOrganization"
+      HsdoOrganization : hsdo_identifier
         
           
     
     
-    SecurechainLicense --> "0..1" String : hsdo_identifier
+    HsdoOrganization --> "0..1" String : hsdo_identifier
     click String href "../String"
 
         
-      SecurechainLicense : hsdo_name
+      HsdoOrganization : hsdo_manufacturer
         
           
     
     
-    SecurechainLicense --> "0..1" String : hsdo_name
+    HsdoOrganization --> "0..1" SecurechainHardware : hsdo_manufacturer
+    click SecurechainHardware href "../SecurechainHardware"
+
+        
+      HsdoOrganization : hsdo_name
+        
+          
+    
+    
+    HsdoOrganization --> "0..1" String : hsdo_name
+    click String href "../String"
+
+        
+      HsdoOrganization : hsdo_url
+        
+          
+    
+    
+    HsdoOrganization --> "0..1" String : hsdo_url
     click String href "../String"
 
         
@@ -47,19 +62,17 @@ URI: [securechain:License](https://w3id.org/secure-chain/License)
 
 
 
-
-## Inheritance
-* [HsdoCreativeWork](../classes/HsdoCreativeWork.md)
-    * **SecurechainLicense**
-
+<!-- no inheritance hierarchy -->
 
 
 ## Slots
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [hsdo_name](../slots/hsdo_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified | [HsdoCreativeWork](../classes/HsdoCreativeWork.md) |
-| [hsdo_identifier](../slots/hsdo_identifier.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified | [HsdoCreativeWork](../classes/HsdoCreativeWork.md) |
+| [hsdo_name](../slots/hsdo_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 53378 occurrences with subject type securechain_Hardware and object type string.<br/>22002 occurrences with subject type hsdo_Organization and object type string.<br/>20 occurrences with subject type hsdo_CreativeWork and object type string.<br/>34466 occurrences with subject type securechain_Software and object type string. | direct |
+| [hsdo_url](../slots/hsdo_url.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 887 occurrences with subject type hsdo_Organization and object type string. | direct |
+| [hsdo_manufacturer](../slots/hsdo_manufacturer.md) | 0..1 <br/> [SecurechainHardware](../classes/SecurechainHardware.md) | No slot (predicate) description specified <br/> 54369 occurrences with subject type hsdo_Organization and object type securechain_Hardware. | direct |
+| [hsdo_identifier](../slots/hsdo_identifier.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 30434 occurrences with subject type hsdo_Person and object type string.<br/>259334 occurrences with subject type securechain_Vulnerability and object type string.<br/>445 occurrences with subject type securechain_VulnerabilityType and object type string.<br/>887 occurrences with subject type hsdo_Organization and object type string.<br/>20 occurrences with subject type hsdo_CreativeWork and object type string. | direct |
 
 
 
@@ -77,13 +90,20 @@ URI: [securechain:License](https://w3id.org/secure-chain/License)
 
 
 
+### Schema Source
+
+
+* from schema: secure-chain-kg
+
+
+
 
 ## Mappings
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | securechain:License |
-| native | secure-chain-kg/:SecurechainLicense |
+| self | hsdo:Organization |
+| native | secure-chain-kg/:HsdoOrganization |
 
 
 
@@ -99,15 +119,20 @@ URI: [securechain:License](https://w3id.org/secure-chain/License)
 
 <details>
 ```yaml
-name: securechain_License
+name: hsdo_Organization
 conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (type) name specified
+description: An organization such as a school, NGO, corporation, club, etc.
+title: Organization
 notes:
-- Class with 0 occurrences.
+- Class with 22889 occurrences.
+from_schema: secure-chain-kg
 rank: 1000
-is_a: hsdo_CreativeWork
-class_uri: securechain:License
+slots:
+- hsdo_name
+- hsdo_url
+- hsdo_manufacturer
+- hsdo_identifier
+class_uri: hsdo:Organization
 
 ```
 </details>
@@ -116,14 +141,14 @@ class_uri: securechain:License
 
 <details>
 ```yaml
-name: securechain_License
+name: hsdo_Organization
 conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (type) name specified
+description: An organization such as a school, NGO, corporation, club, etc.
+title: Organization
 notes:
-- Class with 0 occurrences.
+- Class with 22889 occurrences.
+from_schema: secure-chain-kg
 rank: 1000
-is_a: hsdo_CreativeWork
 attributes:
   hsdo_name:
     name: hsdo_name
@@ -167,13 +192,56 @@ attributes:
     rank: 1000
     slot_uri: hsdo:name
     alias: hsdo_name
-    owner: securechain_License
+    owner: hsdo_Organization
     domain_of:
     - hsdo_CreativeWork
     - hsdo_Organization
     - securechain_Hardware
     - securechain_Software
     range: string
+  hsdo_url:
+    name: hsdo_url
+    description: No slot (predicate) description specified
+    comments:
+    - 887 occurrences with subject type hsdo_Organization and object type string.
+    examples:
+    - description: hsdo_Organization → string
+      object:
+        example_object: '[''https://1password.com'', ''http://1passwd.com'', ''https://1password.com/zh-tw'',
+          ''https://1password.com/zh-cn'']'
+        example_object_type: string
+        example_predicate: hsdo:url
+        example_subject: schema:Organization/1Password
+        example_subject_type: hsdo_Organization
+    from_schema: secure-chain-kg
+    rank: 1000
+    slot_uri: hsdo:url
+    alias: hsdo_url
+    owner: hsdo_Organization
+    domain_of:
+    - hsdo_Organization
+    range: string
+  hsdo_manufacturer:
+    name: hsdo_manufacturer
+    description: No slot (predicate) description specified
+    comments:
+    - 54369 occurrences with subject type hsdo_Organization and object type securechain_Hardware.
+    examples:
+    - description: hsdo_Organization → securechain_Hardware
+      object:
+        example_object: securechain:Hardware/keymouse
+        example_object_type: securechain_Hardware
+        example_predicate: hsdo:manufacturer
+        example_subject: schema:Organization/zzinc
+        example_subject_type: hsdo_Organization
+    from_schema: secure-chain-kg
+    rank: 1000
+    slot_uri: hsdo:manufacturer
+    alias: hsdo_manufacturer
+    owner: hsdo_Organization
+    domain_of:
+    - hsdo_Organization
+    range: securechain_Hardware
   hsdo_identifier:
     name: hsdo_identifier
     description: No slot (predicate) description specified
@@ -225,7 +293,7 @@ attributes:
     rank: 1000
     slot_uri: hsdo:identifier
     alias: hsdo_identifier
-    owner: securechain_License
+    owner: hsdo_Organization
     domain_of:
     - hsdo_CreativeWork
     - hsdo_Organization
@@ -233,7 +301,7 @@ attributes:
     - securechain_Vulnerability
     - securechain_VulnerabilityType
     range: string
-class_uri: securechain:License
+class_uri: hsdo:Organization
 
 ```
 </details>
