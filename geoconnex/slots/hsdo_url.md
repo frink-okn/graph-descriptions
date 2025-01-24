@@ -23,10 +23,10 @@ URI: [hsdo:url](http://schema.org/url)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoOrganization](../classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
+| [HsdoWebSite](../classes/HsdoWebSite.md) | A WebSite is a set of related web pages and other items typically served from... |  no  |
 | [HsdoImageObject](../classes/HsdoImageObject.md) | An image file |  no  |
 | [HsdoWebPage](../classes/HsdoWebPage.md) | A web page |  no  |
-| [HsdoWebSite](../classes/HsdoWebSite.md) | A WebSite is a set of related web pages and other items typically served from... |  no  |
+| [HsdoOrganization](../classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
 
 
 

@@ -23,8 +23,8 @@ URI: [hsdo:inLanguage](http://schema.org/inLanguage)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoWebPage](../classes/HsdoWebPage.md) | A web page |  no  |
 | [HsdoWebSite](../classes/HsdoWebSite.md) | A WebSite is a set of related web pages and other items typically served from... |  no  |
+| [HsdoWebPage](../classes/HsdoWebPage.md) | A web page |  no  |
 
 
 

@@ -23,9 +23,9 @@ URI: [dct:conformsTo](http://purl.org/dc/terms/conformsTo)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RdfsResource](../classes/RdfsResource.md) | No class (type) description specified |  no  |
 | [SchemaDataDownload](../classes/SchemaDataDownload.md) | All or part of a [[Dataset]] in downloadable form |  no  |
 | [HttpRdfs.orgNsVoid#Dataset](../classes/HttpRdfs.orgNsVoid#Dataset.md) | No class (type) description specified |  no  |
+| [RdfsResource](../classes/RdfsResource.md) | No class (type) description specified |  no  |
 
 
 

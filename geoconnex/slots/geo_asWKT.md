@@ -24,10 +24,10 @@ URI: [geo:asWKT](http://www.opengis.net/ont/geosparql#asWKT)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [Sf#GeometryCollection](../classes/Sf#GeometryCollection.md) | No class (type) description specified |  no  |
+| [Sf#LineString](../classes/Sf#LineString.md) | No class (type) description specified |  no  |
 | [Sf#MultiPolygon](../classes/Sf#MultiPolygon.md) | No class (type) description specified |  no  |
 | [Sf#Point](../classes/Sf#Point.md) | No class (type) description specified |  no  |
 | [Sf#Polygon](../classes/Sf#Polygon.md) | No class (type) description specified |  no  |
-| [Sf#LineString](../classes/Sf#LineString.md) | No class (type) description specified |  no  |
 
 
 

@@ -24,9 +24,9 @@ URI: [hsdo:subjectOf](http://schema.org/subjectOf)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [HttpGeosciences.caDefGroundwater#GWWell](../classes/HttpGeosciences.caDefGroundwater#GWWell.md) | No class (type) description specified |  no  |
+| [HttpRdfs.orgNsVoid#Dataset](../classes/HttpRdfs.orgNsVoid#Dataset.md) | No class (type) description specified |  no  |
 | [RdfsResource](../classes/RdfsResource.md) | No class (type) description specified |  no  |
 | [HttpGeosciences.caDefGroundwater#GWAquiferSystem](../classes/HttpGeosciences.caDefGroundwater#GWAquiferSystem.md) | No class (type) description specified |  no  |
-| [HttpRdfs.orgNsVoid#Dataset](../classes/HttpRdfs.orgNsVoid#Dataset.md) | No class (type) description specified |  no  |
 
 
 

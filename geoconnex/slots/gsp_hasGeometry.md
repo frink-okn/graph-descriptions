@@ -23,8 +23,8 @@ URI: [gsp:hasGeometry](gsp:hasGeometry)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HyfHYHydroLocation](../classes/HyfHYHydroLocation.md) | No class (type) description specified |  no  |
 | [SchemaPlace](../classes/SchemaPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
+| [HyfHYHydroLocation](../classes/HyfHYHydroLocation.md) | No class (type) description specified |  no  |
 
 
 

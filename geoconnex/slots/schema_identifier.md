@@ -23,10 +23,10 @@ URI: [schema:identifier](https://schema.org/identifier)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
+| [SchemaCreativeWork](../classes/SchemaCreativeWork.md) | The most generic kind of creative work, including books, movies, photographs,... |  no  |
+| [SchemaOrganization](../classes/SchemaOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
 | [HttpWww.opengeospatial.orgStandardsWaterml2HyFeaturesHYHydroLocation](../classes/HttpWww.opengeospatial.orgStandardsWaterml2HyFeaturesHYHydroLocation.md) | No class (type) description specified |  no  |
 | [HyfHYHydroLocation](../classes/HyfHYHydroLocation.md) | No class (type) description specified |  no  |
-| [SchemaOrganization](../classes/SchemaOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
-| [SchemaCreativeWork](../classes/SchemaCreativeWork.md) | The most generic kind of creative work, including books, movies, photographs,... |  no  |
 
 
 

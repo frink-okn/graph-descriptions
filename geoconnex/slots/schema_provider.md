@@ -23,11 +23,11 @@ URI: [schema:provider](https://schema.org/provider)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SchemaDataset](../classes/SchemaDataset.md) | A body of structured information describing some topic(s) of interest |  no  |
-| [HttpRdfs.orgNsVoid#Dataset](../classes/HttpRdfs.orgNsVoid#Dataset.md) | No class (type) description specified |  no  |
-| [RdfsResource](../classes/RdfsResource.md) | No class (type) description specified |  no  |
-| [HyfHYHydroLocation](../classes/HyfHYHydroLocation.md) | No class (type) description specified |  no  |
 | [SchemaPlace](../classes/SchemaPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
+| [SchemaDataset](../classes/SchemaDataset.md) | A body of structured information describing some topic(s) of interest |  no  |
+| [HyfHYHydroLocation](../classes/HyfHYHydroLocation.md) | No class (type) description specified |  no  |
+| [RdfsResource](../classes/RdfsResource.md) | No class (type) description specified |  no  |
+| [HttpRdfs.orgNsVoid#Dataset](../classes/HttpRdfs.orgNsVoid#Dataset.md) | No class (type) description specified |  no  |
 
 
 

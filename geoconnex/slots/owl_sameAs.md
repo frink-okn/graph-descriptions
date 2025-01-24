@@ -24,8 +24,8 @@ URI: [owl:sameAs](http://www.w3.org/2002/07/owl#sameAs)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [HttpGeosciences.caDefGroundwater#GWWell](../classes/HttpGeosciences.caDefGroundwater#GWWell.md) | No class (type) description specified |  no  |
-| [RdfsResource](../classes/RdfsResource.md) | No class (type) description specified |  no  |
 | [HttpGeosciences.caDefGroundwater#GWHydrogeoUnit](../classes/HttpGeosciences.caDefGroundwater#GWHydrogeoUnit.md) | No class (type) description specified |  no  |
+| [RdfsResource](../classes/RdfsResource.md) | No class (type) description specified |  no  |
 | [HttpGeosciences.caDefGroundwater#GWAquiferSystem](../classes/HttpGeosciences.caDefGroundwater#GWAquiferSystem.md) | No class (type) description specified |  no  |
 
 

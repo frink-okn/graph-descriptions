@@ -24,8 +24,8 @@ URI: [hsdo:provider](http://schema.org/provider)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [RdfsResource](../classes/RdfsResource.md) | No class (type) description specified |  no  |
-| [HsdoWebPage](../classes/HsdoWebPage.md) | A web page |  no  |
 | [HttpRdfs.orgNsVoid#Dataset](../classes/HttpRdfs.orgNsVoid#Dataset.md) | No class (type) description specified |  no  |
+| [HsdoWebPage](../classes/HsdoWebPage.md) | A web page |  no  |
 
 
 

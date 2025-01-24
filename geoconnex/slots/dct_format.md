@@ -23,8 +23,8 @@ URI: [dct:format](http://purl.org/dc/terms/format)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RdfsResource](../classes/RdfsResource.md) | No class (type) description specified |  no  |
 | [HttpRdfs.orgNsVoid#Dataset](../classes/HttpRdfs.orgNsVoid#Dataset.md) | No class (type) description specified |  no  |
+| [RdfsResource](../classes/RdfsResource.md) | No class (type) description specified |  no  |
 
 
 

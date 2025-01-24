@@ -23,8 +23,8 @@ URI: [hsdo:dateModified](http://schema.org/dateModified)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoWebPage](../classes/HsdoWebPage.md) | A web page |  no  |
 | [HsdoNewsArticle](../classes/HsdoNewsArticle.md) | A NewsArticle is an article whose content reports news, or provides backgroun... |  no  |
+| [HsdoWebPage](../classes/HsdoWebPage.md) | A web page |  no  |
 
 
 

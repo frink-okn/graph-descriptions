@@ -23,15 +23,15 @@ URI: [schema:name](https://schema.org/name)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpWww.opengeospatial.orgStandardsWaterml2HyFeaturesHYHydroLocation](../classes/HttpWww.opengeospatial.orgStandardsWaterml2HyFeaturesHYHydroLocation.md) | No class (type) description specified |  no  |
-| [SchemaOrganization](../classes/SchemaOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
-| [SchemaDataDownload](../classes/SchemaDataDownload.md) | All or part of a [[Dataset]] in downloadable form |  no  |
-| [SchemaPropertyValue](../classes/SchemaPropertyValue.md) | A property-value pair, e |  no  |
-| [SchemaDataset](../classes/SchemaDataset.md) | A body of structured information describing some topic(s) of interest |  no  |
-| [SchemaGovernmentOrganization](../classes/SchemaGovernmentOrganization.md) | A governmental organization or agency |  no  |
 | [SchemaCreativeWork](../classes/SchemaCreativeWork.md) | The most generic kind of creative work, including books, movies, photographs,... |  no  |
-| [HyfHYHydroLocation](../classes/HyfHYHydroLocation.md) | No class (type) description specified |  no  |
+| [SchemaDataDownload](../classes/SchemaDataDownload.md) | All or part of a [[Dataset]] in downloadable form |  no  |
 | [SchemaPlace](../classes/SchemaPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
+| [SchemaDataset](../classes/SchemaDataset.md) | A body of structured information describing some topic(s) of interest |  no  |
+| [HyfHYHydroLocation](../classes/HyfHYHydroLocation.md) | No class (type) description specified |  no  |
+| [SchemaOrganization](../classes/SchemaOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
+| [HttpWww.opengeospatial.orgStandardsWaterml2HyFeaturesHYHydroLocation](../classes/HttpWww.opengeospatial.orgStandardsWaterml2HyFeaturesHYHydroLocation.md) | No class (type) description specified |  no  |
+| [SchemaPropertyValue](../classes/SchemaPropertyValue.md) | A property-value pair, e |  no  |
+| [SchemaGovernmentOrganization](../classes/SchemaGovernmentOrganization.md) | A governmental organization or agency |  no  |
 
 
 

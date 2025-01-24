@@ -23,10 +23,10 @@ URI: [schema:description](https://schema.org/description)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
+| [SchemaPlace](../classes/SchemaPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
 | [SchemaDataset](../classes/SchemaDataset.md) | A body of structured information describing some topic(s) of interest |  no  |
 | [SchemaPropertyValue](../classes/SchemaPropertyValue.md) | A property-value pair, e |  no  |
 | [HyfHYHydroLocation](../classes/HyfHYHydroLocation.md) | No class (type) description specified |  no  |
-| [SchemaPlace](../classes/SchemaPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
 
 
 

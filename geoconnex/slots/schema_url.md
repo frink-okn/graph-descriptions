@@ -23,11 +23,11 @@ URI: [schema:url](https://schema.org/url)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
+| [SchemaPlace](../classes/SchemaPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
+| [SchemaDataset](../classes/SchemaDataset.md) | A body of structured information describing some topic(s) of interest |  no  |
 | [SchemaOrganization](../classes/SchemaOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
 | [SchemaPropertyValue](../classes/SchemaPropertyValue.md) | A property-value pair, e |  no  |
-| [SchemaDataset](../classes/SchemaDataset.md) | A body of structured information describing some topic(s) of interest |  no  |
 | [SchemaGovernmentOrganization](../classes/SchemaGovernmentOrganization.md) | A governmental organization or agency |  no  |
-| [SchemaPlace](../classes/SchemaPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
 
 
 

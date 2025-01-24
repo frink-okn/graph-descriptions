@@ -23,15 +23,15 @@ URI: [hsdo:name](http://schema.org/name)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpGeosciences.caDefGroundwater#GWHydrogeoUnit](../classes/HttpGeosciences.caDefGroundwater#GWHydrogeoUnit.md) | No class (type) description specified |  no  |
-| [HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYCatchment](../classes/HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYCatchment.md) | No class (type) description specified |  no  |
-| [HsdoWebPage](../classes/HsdoWebPage.md) | A web page |  no  |
-| [RdfsResource](../classes/RdfsResource.md) | No class (type) description specified |  no  |
-| [HsdoListItem](../classes/HsdoListItem.md) | An list item, e |  no  |
 | [HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYHydrometricNetwork](../classes/HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYHydrometricNetwork.md) | No class (type) description specified |  no  |
 | [HsdoWebSite](../classes/HsdoWebSite.md) | A WebSite is a set of related web pages and other items typically served from... |  no  |
-| [HsdoPerson](../classes/HsdoPerson.md) | A person (alive, dead, undead, or fictional) |  no  |
 | [HsdoOrganization](../classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
+| [HsdoPerson](../classes/HsdoPerson.md) | A person (alive, dead, undead, or fictional) |  no  |
+| [HsdoWebPage](../classes/HsdoWebPage.md) | A web page |  no  |
+| [HsdoListItem](../classes/HsdoListItem.md) | An list item, e |  no  |
+| [RdfsResource](../classes/RdfsResource.md) | No class (type) description specified |  no  |
+| [HttpGeosciences.caDefGroundwater#GWHydrogeoUnit](../classes/HttpGeosciences.caDefGroundwater#GWHydrogeoUnit.md) | No class (type) description specified |  no  |
+| [HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYCatchment](../classes/HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYCatchment.md) | No class (type) description specified |  no  |
 
 
 

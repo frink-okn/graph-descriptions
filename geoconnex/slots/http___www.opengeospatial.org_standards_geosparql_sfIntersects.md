@@ -23,8 +23,8 @@ URI: [http://www.opengeospatial.org/standards/geosparql/sfIntersects](http://www
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RdfsResource](../classes/RdfsResource.md) | No class (type) description specified |  no  |
 | [HttpGeosciences.caDefGroundwater#GWHydrogeoUnit](../classes/HttpGeosciences.caDefGroundwater#GWHydrogeoUnit.md) | No class (type) description specified |  no  |
+| [RdfsResource](../classes/RdfsResource.md) | No class (type) description specified |  no  |
 | [HttpGeosciences.caDefGroundwater#GWAquiferSystem](../classes/HttpGeosciences.caDefGroundwater#GWAquiferSystem.md) | No class (type) description specified |  no  |
 
 
