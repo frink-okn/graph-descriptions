@@ -70,111 +70,111 @@ HsdoWebSite {
 HsdoError {
     string hsdo_description  
 }
-HttpGeosciences.caDefGroundwater#GWAquiferSystem {
+HttpGeosciencesCaDefGroundwaterCaGWAquiferSystem {
     string rdfs_label  
-    uri http___www.opengeospatial.org_standards_geosparql_sfIntersects  
+    uri http___wwwopengeospatialorg_standards_geosparql_sfIntersects  
     uri hsdo_subjectOf  
 }
-HttpGeosciences.caDefGroundwater#GWAquiferUnit {
+HttpGeosciencesCaDefGroundwaterCaGWAquiferUnit {
 
 }
-HttpGeosciences.caDefGroundwater#GWHydrogeoUnit {
+HttpGeosciencesCaDefGroundwaterCaGWHydrogeoUnit {
     string rdfs_label  
-    uri http___www.opengeospatial.org_standards_geosparql_sfIntersects  
+    uri http___wwwopengeospatialorg_standards_geosparql_sfIntersects  
     uri hsdo_image  
     string hsdo_image  
     string hsdo_name  
     string hsdo_description  
-    uri http___geosciences.ca_def_groundwater#gwAquiferSystem  
+    uri http___geosciencesCa_def_groundwaterCagwAquiferSystem  
 }
-HttpGeosciences.caDefGroundwater#GWWell {
+HttpGeosciencesCaDefGroundwaterCaGWWell {
     string rdfs_label  
     uri hsdo_subjectOf  
 }
-HttpGeosciences.caDefHydraulic#HYCatchment {
+HttpGeosciencesCaDefHydraulicCaHYCatchment {
 
 }
-HttpRdfs.orgNsVoid#Dataset {
+HttpRdfsorgNsVoidCaDataset {
     string dc_description  
     uri dct_conformsTo  
     string dct_conformsTo  
     uri schema_provider  
     schema_url schema_provider  
-    uri https___geoconnex.ca_id_connectedTo  
+    uri https___geoconnexCa_id_connectedTo  
     string rdfs_label  
     string dct_format  
     uri hsdo_provider  
     string hsdo_provider  
     uri hsdo_subjectOf  
 }
-HttpRdfs.orgNsVoid#LinkSet {
+HttpRdfsorgNsVoidCaLinkSet {
 
 }
-HttpRdfs.orgNsVoid#Linkset {
+HttpRdfsorgNsVoidCaLinkset {
 
 }
-HttpWww.opengeospatial.orgStandardsWaterml2HyFeaturesHYHydroLocation {
+HttpWwwopengeospatialorgStandardsWaterml2HyFeaturesHYHydroLocation {
     uri schema_geo  
     string schema_name  
-    uri http___www.opengeospatial.org_standards_waterml2_hy_features_flowpath  
+    uri http___wwwopengeospatialorg_standards_waterml2_hy_features_flowpath  
     string schema_identifier  
     uri schema_geoWithin  
     string schema_geoWithin  
     string hyf_HY_HydroLocationType  
     uri schema_subjectOf  
-    uri http___www.opengeospatial.org_standards_waterml2_hy_features_HY_HydroLocationType  
+    uri http___wwwopengeospatialorg_standards_waterml2_hy_features_HY_HydroLocationType  
 }
-HttpsOpengeospatial.github.ioSELFIEDataNodeConnectionLinkSet {
+HttpsOpengeospatialgithubioSELFIEDataNodeConnectionLinkSet {
 
 }
-HttpsOpengeospatial.github.ioSELFIEDataNodeFeatureCatalog {
+HttpsOpengeospatialgithubioSELFIEDataNodeFeatureCatalog {
 
 }
-HttpsOpengeospatial.github.ioSELFIEDataNodeFeatureLinkSet {
+HttpsOpengeospatialgithubioSELFIEDataNodeFeatureLinkSet {
 
 }
-HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYCatchment {
+HttpsWwwopengisnetDefAppschemaHyFeaturesHyfHYCatchment {
     string hsdo_description  
     string hsdo_name  
 }
-HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYCatchmentDivide {
+HttpsWwwopengisnetDefAppschemaHyFeaturesHyfHYCatchmentDivide {
 
 }
-HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYHydrographicNetwork {
+HttpsWwwopengisnetDefAppschemaHyFeaturesHyfHYHydrographicNetwork {
 
 }
-HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYHydrometricFeature {
+HttpsWwwopengisnetDefAppschemaHyFeaturesHyfHYHydrometricFeature {
 
 }
-HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYHydrometricNetwork {
+HttpsWwwopengisnetDefAppschemaHyFeaturesHyfHYHydrometricNetwork {
     string hsdo_description  
     string hsdo_name  
 }
-HttpsWww.opengis.netDefHyFeaturesOntologyHyfHYCatchment {
+HttpsWwwopengisnetDefHyFeaturesOntologyHyfHYCatchment {
 
 }
-HttpsWww.opengis.netDefHyFeaturesOntologyHyfHYCatchmentAggregate {
+HttpsWwwopengisnetDefHyFeaturesOntologyHyfHYCatchmentAggregate {
 
 }
-HttpsWww.opengis.netDefHyFeaturesOntologyHyfHYDendriticCatchment {
+HttpsWwwopengisnetDefHyFeaturesOntologyHyfHYDendriticCatchment {
 
 }
-HttpsWww.opengis.netDefHyFeaturesOntologyHyfHYFlowpath {
+HttpsWwwopengisnetDefHyFeaturesOntologyHyfHYFlowpath {
 
 }
-HttpsWww.opengis.netDefHyFeaturesOntologyHyfHYHydroNetwork {
+HttpsWwwopengisnetDefHyFeaturesOntologyHyfHYHydroNetwork {
 
 }
-HttpsWww.opengis.netDefHyFeaturesOntologyHyfHYHydroNexus {
+HttpsWwwopengisnetDefHyFeaturesOntologyHyfHYHydroNexus {
 
 }
-HttpsWww.opengis.netDefHyFeaturesOntologyHyfHYHydroloLocation {
+HttpsWwwopengisnetDefHyFeaturesOntologyHyfHYHydroloLocation {
 
 }
-HttpsWww.opengis.netDefHyFeaturesOntologyHyfHYHydrometricFeature {
+HttpsWwwopengisnetDefHyFeaturesOntologyHyfHYHydrometricFeature {
 
 }
-HttpsWww.opengis.netDefHyFeaturesOntologyHyfHYHydrometricNetwork {
+HttpsWwwopengisnetDefHyFeaturesOntologyHyfHYHydrometricNetwork {
 
 }
 HyfHYFlowPath {
@@ -260,17 +260,17 @@ OwlThing {
 
 }
 RdfsResource {
-    uri http___geosciences.ca_def_hydraulic#contains  
+    uri http___geosciencesCa_def_hydraulicCacontains  
     string dc_description  
     string rdfs_label  
     uri rdf_type  
-    uri http___rdfs.org_ns_void#target  
+    uri http___rdfsorg_ns_voidCatarget  
     string dct_format  
-    uri http___www.opengeospatial.org_standards_geosparql_sfIntersects  
-    uri https___www.opengis.net_def_hy_features_ontology_hyf_upperCatchment  
-    uri https___www.opengis.net_def_hy_features_ontology_hyf_contributingCatchment  
+    uri http___wwwopengeospatialorg_standards_geosparql_sfIntersects  
+    uri https___wwwopengisnet_def_hy_features_ontology_hyf_upperCatchment  
+    uri https___wwwopengisnet_def_hy_features_ontology_hyf_contributingCatchment  
     uri hsdo_subjectOf  
-    uri http___rdfs.org_ns_void#property  
+    uri http___rdfsorg_ns_voidCaproperty  
     uri dct_conformsTo  
     string dct_conformsTo  
     uri schema_provider  
@@ -328,7 +328,7 @@ SchemaPlace {
     uri sosa_hasFeatureOfInterest  
     string sosa_hasFeatureOfInterest  
     uri schema_subjectOf  
-    uri http___www.opengeospatial.org_standards_waterml2_hy_features_flowpath  
+    uri http___wwwopengeospatialorg_standards_waterml2_hy_features_flowpath  
     string schema_description  
     string schema_geoIntersects  
     uri schema_geoWithin  
@@ -356,19 +356,19 @@ SchemaPropertyValue {
     string schema_PropertyID  
     string schema_value  
 }
-Sf#GeometryCollection {
+SfCaGeometryCollection {
 
 }
-Sf#LineString {
+SfCaLineString {
 
 }
-Sf#MultiPolygon {
+SfCaMultiPolygon {
 
 }
-Sf#Point {
+SfCaPoint {
     uri geo_crs  
 }
-Sf#Polygon {
+SfCaPolygon {
 
 }
 
@@ -393,92 +393,92 @@ HsdoWebPage ||--|o HsdoDate : "hsdo_dateModified"
 HsdoWebSite ||--|o HsdoSearchAction : "hsdo_potentialAction"
 HsdoWebSite ||--|o HsdoOrganization : "hsdo_publisher"
 HsdoWebSite ||--|o HsdoWebPage : "hsdo_url"
-HttpGeosciences.caDefGroundwater#GWAquiferSystem ||--|o HttpGeosciences.caDefGroundwater#GWHydrogeoUnit : "owl_sameAs"
-HttpGeosciences.caDefGroundwater#GWAquiferSystem ||--|o HttpGeosciences.caDefGroundwater#GWAquiferSystem : "owl_sameAs"
-HttpGeosciences.caDefGroundwater#GWAquiferSystem ||--|o RdfsResource : "owl_sameAs"
-HttpGeosciences.caDefGroundwater#GWAquiferSystem ||--|o HttpGeosciences.caDefGroundwater#GWWell : "owl_sameAs"
-HttpGeosciences.caDefGroundwater#GWAquiferSystem ||--|o HttpGeosciences.caDefGroundwater#GWAquiferSystem : "http___www.opengeospatial.org_standards_geosparql_sfIntersects"
-HttpGeosciences.caDefGroundwater#GWAquiferSystem ||--|o RdfsResource : "http___www.opengeospatial.org_standards_geosparql_sfIntersects"
-HttpGeosciences.caDefGroundwater#GWAquiferSystem ||--|o HttpGeosciences.caDefGroundwater#GWHydrogeoUnit : "http___www.opengeospatial.org_standards_geosparql_sfIntersects"
-HttpGeosciences.caDefGroundwater#GWAquiferSystem ||--|o HttpGeosciences.caDefGroundwater#GWWell : "http___www.opengeospatial.org_standards_geosparql_sfContains"
-HttpGeosciences.caDefGroundwater#GWAquiferSystem ||--|o RdfsResource : "hsdo_subjectOf"
-HttpGeosciences.caDefGroundwater#GWAquiferSystem ||--|o HttpRdfs.orgNsVoid#Dataset : "hsdo_subjectOf"
-HttpGeosciences.caDefGroundwater#GWHydrogeoUnit ||--|o HttpGeosciences.caDefGroundwater#GWHydrogeoUnit : "owl_sameAs"
-HttpGeosciences.caDefGroundwater#GWHydrogeoUnit ||--|o HttpGeosciences.caDefGroundwater#GWAquiferSystem : "owl_sameAs"
-HttpGeosciences.caDefGroundwater#GWHydrogeoUnit ||--|o RdfsResource : "owl_sameAs"
-HttpGeosciences.caDefGroundwater#GWHydrogeoUnit ||--|o HttpGeosciences.caDefGroundwater#GWWell : "owl_sameAs"
-HttpGeosciences.caDefGroundwater#GWHydrogeoUnit ||--|o HttpGeosciences.caDefGroundwater#GWAquiferSystem : "http___www.opengeospatial.org_standards_geosparql_sfIntersects"
-HttpGeosciences.caDefGroundwater#GWHydrogeoUnit ||--|o RdfsResource : "http___www.opengeospatial.org_standards_geosparql_sfIntersects"
-HttpGeosciences.caDefGroundwater#GWHydrogeoUnit ||--|o HttpGeosciences.caDefGroundwater#GWHydrogeoUnit : "http___www.opengeospatial.org_standards_geosparql_sfIntersects"
-HttpGeosciences.caDefGroundwater#GWHydrogeoUnit ||--|o HsdoImageObject : "hsdo_image"
-HttpGeosciences.caDefGroundwater#GWWell ||--|o HttpGeosciences.caDefGroundwater#GWAquiferSystem : "http___www.opengeospatial.org_standards_geosparql_sfWithin"
-HttpGeosciences.caDefGroundwater#GWWell ||--|o RdfsResource : "http___www.opengeospatial.org_standards_geosparql_sfWithin"
-HttpGeosciences.caDefGroundwater#GWWell ||--|o RdfsResource : "hsdo_subjectOf"
-HttpGeosciences.caDefGroundwater#GWWell ||--|o HttpRdfs.orgNsVoid#Dataset : "hsdo_subjectOf"
-HttpGeosciences.caDefGroundwater#GWWell ||--|o HttpGeosciences.caDefGroundwater#GWHydrogeoUnit : "owl_sameAs"
-HttpGeosciences.caDefGroundwater#GWWell ||--|o HttpGeosciences.caDefGroundwater#GWAquiferSystem : "owl_sameAs"
-HttpGeosciences.caDefGroundwater#GWWell ||--|o RdfsResource : "owl_sameAs"
-HttpGeosciences.caDefGroundwater#GWWell ||--|o HttpGeosciences.caDefGroundwater#GWWell : "owl_sameAs"
-HttpRdfs.orgNsVoid#Dataset ||--|o SchemaGovernmentOrganization : "schema_provider"
-HttpRdfs.orgNsVoid#Dataset ||--|o RdfsResource : "hsdo_subjectOf"
-HttpRdfs.orgNsVoid#Dataset ||--|o HttpRdfs.orgNsVoid#Dataset : "hsdo_subjectOf"
-HttpWww.opengeospatial.orgStandardsWaterml2HyFeaturesHYHydroLocation ||--|o Sf#LineString : "geo_hasGeometry"
-HttpWww.opengeospatial.orgStandardsWaterml2HyFeaturesHYHydroLocation ||--|o Sf#Point : "geo_hasGeometry"
-HttpWww.opengeospatial.orgStandardsWaterml2HyFeaturesHYHydroLocation ||--|o Sf#GeometryCollection : "geo_hasGeometry"
-HttpWww.opengeospatial.orgStandardsWaterml2HyFeaturesHYHydroLocation ||--|o Sf#MultiPolygon : "geo_hasGeometry"
-HttpWww.opengeospatial.orgStandardsWaterml2HyFeaturesHYHydroLocation ||--|o Sf#Polygon : "geo_hasGeometry"
-HttpWww.opengeospatial.orgStandardsWaterml2HyFeaturesHYHydroLocation ||--|o SchemaGeoShape : "schema_geo"
-HttpWww.opengeospatial.orgStandardsWaterml2HyFeaturesHYHydroLocation ||--|o SchemaGeoCoordinates : "schema_geo"
-HttpWww.opengeospatial.orgStandardsWaterml2HyFeaturesHYHydroLocation ||--|o SchemaPropertyValue : "schema_identifier"
-HttpWww.opengeospatial.orgStandardsWaterml2HyFeaturesHYHydroLocation ||--|o SchemaPlace : "schema_geoWithin"
-HttpWww.opengeospatial.orgStandardsWaterml2HyFeaturesHYHydroLocation ||--|o SchemaDataset : "schema_subjectOf"
-HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYCatchment ||--|o HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYHydrometricNetwork : "https___www.opengis.net_def_appschema_hy_features_hyf_catchmentRealization"
-HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYCatchment ||--|o HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYCatchmentDivide : "https___www.opengis.net_def_appschema_hy_features_hyf_catchmentRealization"
-HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYCatchment ||--|o HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYHydrographicNetwork : "https___www.opengis.net_def_appschema_hy_features_hyf_catchmentRealization"
-HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYHydrometricNetwork ||--|o HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYHydrometricFeature : "https___www.opengis.net_def_appschema_hy_features_hyf_networkStation"
-HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYHydrometricNetwork ||--|o HttpsWww.opengis.netDefAppschemaHyFeaturesHyfHYCatchment : "https___www.opengis.net_def_appschema_hy_features_hyf_realizedCatchment"
-HyfHYHydroLocation ||--|o Sf#LineString : "geo_hasGeometry"
-HyfHYHydroLocation ||--|o Sf#Point : "geo_hasGeometry"
-HyfHYHydroLocation ||--|o Sf#GeometryCollection : "geo_hasGeometry"
-HyfHYHydroLocation ||--|o Sf#MultiPolygon : "geo_hasGeometry"
-HyfHYHydroLocation ||--|o Sf#Polygon : "geo_hasGeometry"
+HttpGeosciencesCaDefGroundwaterCaGWAquiferSystem ||--|o HttpGeosciencesCaDefGroundwaterCaGWHydrogeoUnit : "owl_sameAs"
+HttpGeosciencesCaDefGroundwaterCaGWAquiferSystem ||--|o HttpGeosciencesCaDefGroundwaterCaGWAquiferSystem : "owl_sameAs"
+HttpGeosciencesCaDefGroundwaterCaGWAquiferSystem ||--|o RdfsResource : "owl_sameAs"
+HttpGeosciencesCaDefGroundwaterCaGWAquiferSystem ||--|o HttpGeosciencesCaDefGroundwaterCaGWWell : "owl_sameAs"
+HttpGeosciencesCaDefGroundwaterCaGWAquiferSystem ||--|o HttpGeosciencesCaDefGroundwaterCaGWAquiferSystem : "http___wwwopengeospatialorg_standards_geosparql_sfIntersects"
+HttpGeosciencesCaDefGroundwaterCaGWAquiferSystem ||--|o RdfsResource : "http___wwwopengeospatialorg_standards_geosparql_sfIntersects"
+HttpGeosciencesCaDefGroundwaterCaGWAquiferSystem ||--|o HttpGeosciencesCaDefGroundwaterCaGWHydrogeoUnit : "http___wwwopengeospatialorg_standards_geosparql_sfIntersects"
+HttpGeosciencesCaDefGroundwaterCaGWAquiferSystem ||--|o HttpGeosciencesCaDefGroundwaterCaGWWell : "http___wwwopengeospatialorg_standards_geosparql_sfContains"
+HttpGeosciencesCaDefGroundwaterCaGWAquiferSystem ||--|o RdfsResource : "hsdo_subjectOf"
+HttpGeosciencesCaDefGroundwaterCaGWAquiferSystem ||--|o HttpRdfsorgNsVoidCaDataset : "hsdo_subjectOf"
+HttpGeosciencesCaDefGroundwaterCaGWHydrogeoUnit ||--|o HttpGeosciencesCaDefGroundwaterCaGWHydrogeoUnit : "owl_sameAs"
+HttpGeosciencesCaDefGroundwaterCaGWHydrogeoUnit ||--|o HttpGeosciencesCaDefGroundwaterCaGWAquiferSystem : "owl_sameAs"
+HttpGeosciencesCaDefGroundwaterCaGWHydrogeoUnit ||--|o RdfsResource : "owl_sameAs"
+HttpGeosciencesCaDefGroundwaterCaGWHydrogeoUnit ||--|o HttpGeosciencesCaDefGroundwaterCaGWWell : "owl_sameAs"
+HttpGeosciencesCaDefGroundwaterCaGWHydrogeoUnit ||--|o HttpGeosciencesCaDefGroundwaterCaGWAquiferSystem : "http___wwwopengeospatialorg_standards_geosparql_sfIntersects"
+HttpGeosciencesCaDefGroundwaterCaGWHydrogeoUnit ||--|o RdfsResource : "http___wwwopengeospatialorg_standards_geosparql_sfIntersects"
+HttpGeosciencesCaDefGroundwaterCaGWHydrogeoUnit ||--|o HttpGeosciencesCaDefGroundwaterCaGWHydrogeoUnit : "http___wwwopengeospatialorg_standards_geosparql_sfIntersects"
+HttpGeosciencesCaDefGroundwaterCaGWHydrogeoUnit ||--|o HsdoImageObject : "hsdo_image"
+HttpGeosciencesCaDefGroundwaterCaGWWell ||--|o HttpGeosciencesCaDefGroundwaterCaGWAquiferSystem : "http___wwwopengeospatialorg_standards_geosparql_sfWithin"
+HttpGeosciencesCaDefGroundwaterCaGWWell ||--|o RdfsResource : "http___wwwopengeospatialorg_standards_geosparql_sfWithin"
+HttpGeosciencesCaDefGroundwaterCaGWWell ||--|o RdfsResource : "hsdo_subjectOf"
+HttpGeosciencesCaDefGroundwaterCaGWWell ||--|o HttpRdfsorgNsVoidCaDataset : "hsdo_subjectOf"
+HttpGeosciencesCaDefGroundwaterCaGWWell ||--|o HttpGeosciencesCaDefGroundwaterCaGWHydrogeoUnit : "owl_sameAs"
+HttpGeosciencesCaDefGroundwaterCaGWWell ||--|o HttpGeosciencesCaDefGroundwaterCaGWAquiferSystem : "owl_sameAs"
+HttpGeosciencesCaDefGroundwaterCaGWWell ||--|o RdfsResource : "owl_sameAs"
+HttpGeosciencesCaDefGroundwaterCaGWWell ||--|o HttpGeosciencesCaDefGroundwaterCaGWWell : "owl_sameAs"
+HttpRdfsorgNsVoidCaDataset ||--|o SchemaGovernmentOrganization : "schema_provider"
+HttpRdfsorgNsVoidCaDataset ||--|o RdfsResource : "hsdo_subjectOf"
+HttpRdfsorgNsVoidCaDataset ||--|o HttpRdfsorgNsVoidCaDataset : "hsdo_subjectOf"
+HttpWwwopengeospatialorgStandardsWaterml2HyFeaturesHYHydroLocation ||--|o SfCaLineString : "geo_hasGeometry"
+HttpWwwopengeospatialorgStandardsWaterml2HyFeaturesHYHydroLocation ||--|o SfCaPoint : "geo_hasGeometry"
+HttpWwwopengeospatialorgStandardsWaterml2HyFeaturesHYHydroLocation ||--|o SfCaGeometryCollection : "geo_hasGeometry"
+HttpWwwopengeospatialorgStandardsWaterml2HyFeaturesHYHydroLocation ||--|o SfCaMultiPolygon : "geo_hasGeometry"
+HttpWwwopengeospatialorgStandardsWaterml2HyFeaturesHYHydroLocation ||--|o SfCaPolygon : "geo_hasGeometry"
+HttpWwwopengeospatialorgStandardsWaterml2HyFeaturesHYHydroLocation ||--|o SchemaGeoShape : "schema_geo"
+HttpWwwopengeospatialorgStandardsWaterml2HyFeaturesHYHydroLocation ||--|o SchemaGeoCoordinates : "schema_geo"
+HttpWwwopengeospatialorgStandardsWaterml2HyFeaturesHYHydroLocation ||--|o SchemaPropertyValue : "schema_identifier"
+HttpWwwopengeospatialorgStandardsWaterml2HyFeaturesHYHydroLocation ||--|o SchemaPlace : "schema_geoWithin"
+HttpWwwopengeospatialorgStandardsWaterml2HyFeaturesHYHydroLocation ||--|o SchemaDataset : "schema_subjectOf"
+HttpsWwwopengisnetDefAppschemaHyFeaturesHyfHYCatchment ||--|o HttpsWwwopengisnetDefAppschemaHyFeaturesHyfHYHydrometricNetwork : "https___wwwopengisnet_def_appschema_hy_features_hyf_catchmentRealization"
+HttpsWwwopengisnetDefAppschemaHyFeaturesHyfHYCatchment ||--|o HttpsWwwopengisnetDefAppschemaHyFeaturesHyfHYCatchmentDivide : "https___wwwopengisnet_def_appschema_hy_features_hyf_catchmentRealization"
+HttpsWwwopengisnetDefAppschemaHyFeaturesHyfHYCatchment ||--|o HttpsWwwopengisnetDefAppschemaHyFeaturesHyfHYHydrographicNetwork : "https___wwwopengisnet_def_appschema_hy_features_hyf_catchmentRealization"
+HttpsWwwopengisnetDefAppschemaHyFeaturesHyfHYHydrometricNetwork ||--|o HttpsWwwopengisnetDefAppschemaHyFeaturesHyfHYHydrometricFeature : "https___wwwopengisnet_def_appschema_hy_features_hyf_networkStation"
+HttpsWwwopengisnetDefAppschemaHyFeaturesHyfHYHydrometricNetwork ||--|o HttpsWwwopengisnetDefAppschemaHyFeaturesHyfHYCatchment : "https___wwwopengisnet_def_appschema_hy_features_hyf_realizedCatchment"
+HyfHYHydroLocation ||--|o SfCaLineString : "geo_hasGeometry"
+HyfHYHydroLocation ||--|o SfCaPoint : "geo_hasGeometry"
+HyfHYHydroLocation ||--|o SfCaGeometryCollection : "geo_hasGeometry"
+HyfHYHydroLocation ||--|o SfCaMultiPolygon : "geo_hasGeometry"
+HyfHYHydroLocation ||--|o SfCaPolygon : "geo_hasGeometry"
 HyfHYHydroLocation ||--|o SchemaGeoShape : "schema_geo"
 HyfHYHydroLocation ||--|o SchemaGeoCoordinates : "schema_geo"
 HyfHYHydroLocation ||--|o SchemaGovernmentOrganization : "schema_provider"
 HyfHYHydroLocation ||--|o SchemaPropertyValue : "schema_identifier"
 HyfHYHydroLocation ||--|o SchemaPlace : "schema_geoWithin"
 HyfHYHydroLocation ||--|o SchemaDataset : "schema_subjectOf"
-HyfHYHydroLocation ||--|o Sf#Point : "gsp_hasGeometry"
-HyfHYHydroLocation ||--|o Sf#Polygon : "gsp_hasGeometry"
-HyfHYHydroLocation ||--|o Sf#MultiPolygon : "gsp_hasGeometry"
-RdfsResource ||--|o RdfsResource : "https___www.opengis.net_def_hy_features_ontology_hyf_inflow"
-RdfsResource ||--|o HttpGeosciences.caDefGroundwater#GWHydrogeoUnit : "owl_sameAs"
-RdfsResource ||--|o HttpGeosciences.caDefGroundwater#GWAquiferSystem : "owl_sameAs"
+HyfHYHydroLocation ||--|o SfCaPoint : "gsp_hasGeometry"
+HyfHYHydroLocation ||--|o SfCaPolygon : "gsp_hasGeometry"
+HyfHYHydroLocation ||--|o SfCaMultiPolygon : "gsp_hasGeometry"
+RdfsResource ||--|o RdfsResource : "https___wwwopengisnet_def_hy_features_ontology_hyf_inflow"
+RdfsResource ||--|o HttpGeosciencesCaDefGroundwaterCaGWHydrogeoUnit : "owl_sameAs"
+RdfsResource ||--|o HttpGeosciencesCaDefGroundwaterCaGWAquiferSystem : "owl_sameAs"
 RdfsResource ||--|o RdfsResource : "owl_sameAs"
-RdfsResource ||--|o HttpGeosciences.caDefGroundwater#GWWell : "owl_sameAs"
-RdfsResource ||--|o RdfsResource : "https___www.opengis.net_def_hy_features_ontology_hyf_realizedCatchment"
-RdfsResource ||--|o HttpGeosciences.caDefGroundwater#GWWell : "http___www.opengeospatial.org_standards_geosparql_sfContains"
-RdfsResource ||--|o RdfsResource : "https___www.opengis.net_def_hy_features_ontology_hyf_networkStation"
-RdfsResource ||--|o RdfsResource : "https___www.opengis.net_def_hy_features_ontology_hyf_realizedNexus"
-RdfsResource ||--|o HttpRdfs.orgNsVoid#Dataset : "http___rdfs.org_ns_void#target"
-RdfsResource ||--|o RdfsResource : "https___www.opengis.net_def_hy_features_ontology_hyf_exorheicDrainage"
+RdfsResource ||--|o HttpGeosciencesCaDefGroundwaterCaGWWell : "owl_sameAs"
+RdfsResource ||--|o RdfsResource : "https___wwwopengisnet_def_hy_features_ontology_hyf_realizedCatchment"
+RdfsResource ||--|o HttpGeosciencesCaDefGroundwaterCaGWWell : "http___wwwopengeospatialorg_standards_geosparql_sfContains"
+RdfsResource ||--|o RdfsResource : "https___wwwopengisnet_def_hy_features_ontology_hyf_networkStation"
+RdfsResource ||--|o RdfsResource : "https___wwwopengisnet_def_hy_features_ontology_hyf_realizedNexus"
+RdfsResource ||--|o HttpRdfsorgNsVoidCaDataset : "http___rdfsorg_ns_voidCatarget"
+RdfsResource ||--|o RdfsResource : "https___wwwopengisnet_def_hy_features_ontology_hyf_exorheicDrainage"
 RdfsResource ||--|o RdfsResource : "rdfs_subClassOf"
-RdfsResource ||--|o HttpGeosciences.caDefGroundwater#GWAquiferSystem : "http___www.opengeospatial.org_standards_geosparql_sfIntersects"
-RdfsResource ||--|o RdfsResource : "http___www.opengeospatial.org_standards_geosparql_sfIntersects"
-RdfsResource ||--|o HttpGeosciences.caDefGroundwater#GWHydrogeoUnit : "http___www.opengeospatial.org_standards_geosparql_sfIntersects"
-RdfsResource ||--|o RdfsResource : "https___www.opengis.net_def_hy_features_ontology_hyf_upperCatchment"
-RdfsResource ||--|o RdfsResource : "https___www.opengis.net_def_hy_features_ontology_hyf_nexusRealization"
-RdfsResource ||--|o RdfsResource : "https___www.opengis.net_def_hy_features_ontology_hyf_contributingCatchment"
-RdfsResource ||--|o RdfsResource : "https___www.opengis.net_def_hy_features_ontology_hyf_outflow"
+RdfsResource ||--|o HttpGeosciencesCaDefGroundwaterCaGWAquiferSystem : "http___wwwopengeospatialorg_standards_geosparql_sfIntersects"
+RdfsResource ||--|o RdfsResource : "http___wwwopengeospatialorg_standards_geosparql_sfIntersects"
+RdfsResource ||--|o HttpGeosciencesCaDefGroundwaterCaGWHydrogeoUnit : "http___wwwopengeospatialorg_standards_geosparql_sfIntersects"
+RdfsResource ||--|o RdfsResource : "https___wwwopengisnet_def_hy_features_ontology_hyf_upperCatchment"
+RdfsResource ||--|o RdfsResource : "https___wwwopengisnet_def_hy_features_ontology_hyf_nexusRealization"
+RdfsResource ||--|o RdfsResource : "https___wwwopengisnet_def_hy_features_ontology_hyf_contributingCatchment"
+RdfsResource ||--|o RdfsResource : "https___wwwopengisnet_def_hy_features_ontology_hyf_outflow"
 RdfsResource ||--|o RdfsResource : "hsdo_subjectOf"
-RdfsResource ||--|o HttpRdfs.orgNsVoid#Dataset : "hsdo_subjectOf"
-RdfsResource ||--|o RdfsResource : "https___www.opengis.net_def_hy_features_ontology_hyf_receivingCatchment"
+RdfsResource ||--|o HttpRdfsorgNsVoidCaDataset : "hsdo_subjectOf"
+RdfsResource ||--|o RdfsResource : "https___wwwopengisnet_def_hy_features_ontology_hyf_receivingCatchment"
 RdfsResource ||--|o SchemaGovernmentOrganization : "schema_provider"
 RdfsResource ||--|o RdfsResource : "owl_equivalentClass"
-RdfsResource ||--|o RdfsResource : "https___www.opengis.net_def_hy_features_ontology_hyf_catchmentRealization"
-RdfsResource ||--|o RdfsResource : "https___www.opengis.net_def_hy_features_ontology_hyf_encompassingCatchment"
-RdfsResource ||--|o RdfsResource : "https___www.opengis.net_def_hy_features_ontology_hyf_lowerCatchment"
-RdfsResource ||--|o RdfsResource : "https___www.opengis.net_def_hy_features_ontology_hyf_hydrometricNetwork"
+RdfsResource ||--|o RdfsResource : "https___wwwopengisnet_def_hy_features_ontology_hyf_catchmentRealization"
+RdfsResource ||--|o RdfsResource : "https___wwwopengisnet_def_hy_features_ontology_hyf_encompassingCatchment"
+RdfsResource ||--|o RdfsResource : "https___wwwopengisnet_def_hy_features_ontology_hyf_lowerCatchment"
+RdfsResource ||--|o RdfsResource : "https___wwwopengisnet_def_hy_features_ontology_hyf_hydrometricNetwork"
 SchemaCreativeWork ||--|o SchemaPropertyValue : "schema_identifier"
 SchemaDataset ||--|o SchemaPropertyValue : "schema_variableMeasured"
 SchemaDataset ||--|o SchemaGovernmentOrganization : "schema_provider"
@@ -487,30 +487,30 @@ SchemaOrganization ||--|o SchemaPropertyValue : "schema_identifier"
 SchemaPlace ||--|o SchemaGeoShape : "schema_geo"
 SchemaPlace ||--|o SchemaGeoCoordinates : "schema_geo"
 SchemaPlace ||--|o SchemaPlace : "schema_sameAs"
-SchemaPlace ||--|o Sf#LineString : "geo_hasGeometry"
-SchemaPlace ||--|o Sf#Point : "geo_hasGeometry"
-SchemaPlace ||--|o Sf#GeometryCollection : "geo_hasGeometry"
-SchemaPlace ||--|o Sf#MultiPolygon : "geo_hasGeometry"
-SchemaPlace ||--|o Sf#Polygon : "geo_hasGeometry"
+SchemaPlace ||--|o SfCaLineString : "geo_hasGeometry"
+SchemaPlace ||--|o SfCaPoint : "geo_hasGeometry"
+SchemaPlace ||--|o SfCaGeometryCollection : "geo_hasGeometry"
+SchemaPlace ||--|o SfCaMultiPolygon : "geo_hasGeometry"
+SchemaPlace ||--|o SfCaPolygon : "geo_hasGeometry"
 SchemaPlace ||--|o SchemaPlace : "hyf_encompassingCatchment"
 SchemaPlace ||--|o SchemaDataset : "schema_subjectOf"
 SchemaPlace ||--|o SchemaPlace : "hyf_downstreamWaterbody"
 SchemaPlace ||--|o SchemaPlace : "schema_geoWithin"
 SchemaPlace ||--|o SchemaPlace : "schema_supersededBy"
-SchemaPlace ||--|o Sf#Point : "gsp_hasGeometry"
-SchemaPlace ||--|o Sf#Polygon : "gsp_hasGeometry"
-SchemaPlace ||--|o Sf#MultiPolygon : "gsp_hasGeometry"
+SchemaPlace ||--|o SfCaPoint : "gsp_hasGeometry"
+SchemaPlace ||--|o SfCaPolygon : "gsp_hasGeometry"
+SchemaPlace ||--|o SfCaMultiPolygon : "gsp_hasGeometry"
 SchemaPlace ||--|o SchemaGovernmentOrganization : "schema_provider"
 SchemaPlace ||--|o SchemaPlace : "hyf__containingCatchment"
-Sf#GeometryCollection ||--|o GeoWktLiteral : "geo_asWKT"
-Sf#LineString ||--|o GeoWktLiteral : "geo_asWKT"
-Sf#MultiPolygon ||--|o GeoWktLiteral : "geo_asWKT"
-Sf#MultiPolygon ||--|o GeoWktLiteral : "gsp_asWKT"
-Sf#Point ||--|o GeoWktLiteral : "geo_asWKT"
-Sf#Point ||--|o GeoWktLiteral : "gsp_asWKT"
-Sf#Point ||--|o GeoWktLiteral : "geosparql_asWKT"
-Sf#Polygon ||--|o GeoWktLiteral : "geo_asWKT"
-Sf#Polygon ||--|o GeoWktLiteral : "gsp_asWKT"
+SfCaGeometryCollection ||--|o GeoWktLiteral : "geo_asWKT"
+SfCaLineString ||--|o GeoWktLiteral : "geo_asWKT"
+SfCaMultiPolygon ||--|o GeoWktLiteral : "geo_asWKT"
+SfCaMultiPolygon ||--|o GeoWktLiteral : "gsp_asWKT"
+SfCaPoint ||--|o GeoWktLiteral : "geo_asWKT"
+SfCaPoint ||--|o GeoWktLiteral : "gsp_asWKT"
+SfCaPoint ||--|o GeoWktLiteral : "geosparql_asWKT"
+SfCaPolygon ||--|o GeoWktLiteral : "geo_asWKT"
+SfCaPolygon ||--|o GeoWktLiteral : "gsp_asWKT"
 
 ```
 
