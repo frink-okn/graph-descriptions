@@ -538,17 +538,13 @@ Sf#Polygon ||--|o GeoWktLiteral : "gsp_asWKT"
 | Class | Description |
 | --- | --- |
 | [GeoWktLiteral](classes/GeoWktLiteral.md) | None<br/>| 
-| [HsdoBreadcrumbList](classes/HsdoBreadcrumbList.md) | A BreadcrumbList is an ItemList consisting of a chain of linked Web pages, typically described using at least their URL and their name, and typically ending with the current page.\n\nThe [[position]] property is used to reconstruct the order of the items in a BreadcrumbList. The convention is that a breadcrumb list has an [[itemListOrder]] of [[ItemListOrderAscending]] (lower values listed first), and that the first items in this list correspond to the "top" or beginning of the breadcrumb trail, e.g. with a site or section homepage. The specific values of 'position' are not assigned meaning for a BreadcrumbList, but they should be integers, e.g. beginning with '1' for the first item in the list.
-      <br/>Class with 3 occurrences.| 
+| [HsdoBreadcrumbList](classes/HsdoBreadcrumbList.md) | A BreadcrumbList is an ItemList consisting of a chain of linked Web pages, typically described using at least their URL and their name, and typically ending with the current page.\n\nThe [[position]] property is used to reconstruct the order of the items in a BreadcrumbList. The convention is that a breadcrumb list has an [[itemListOrder]] of [[ItemListOrderAscending]] (lower values listed first), and that the first items in this list correspond to the "top" or beginning of the breadcrumb trail, e.g. with a site or section homepage. The specific values of 'position' are not assigned meaning for a BreadcrumbList, but they should be integers, e.g. beginning with '1' for the first item in the list.      <br/>Class with 3 occurrences.| 
 | [HsdoDate](classes/HsdoDate.md) | None<br/>| 
 | [HsdoEntryPoint](classes/HsdoEntryPoint.md) | An entry point, within some Web-based protocol.<br/>Class with 1 occurrences.| 
 | [HsdoError](classes/HsdoError.md) | For failed actions, more information on the cause of the failure.<br/>Class with 17 occurrences.| 
 | [HsdoImageObject](classes/HsdoImageObject.md) | An image file.<br/>Class with 5 occurrences.| 
 | [HsdoListItem](classes/HsdoListItem.md) | An list item, e.g. a step in a checklist or how-to description.<br/>Class with 3 occurrences.| 
-| [HsdoNewsArticle](classes/HsdoNewsArticle.md) | A NewsArticle is an article whose content reports news, or provides background context and supporting materials for understanding the news.
-
-A more detailed overview of [schema.org News markup](/docs/news.html) is also available.
-<br/>Class with 2 occurrences.| 
+| [HsdoNewsArticle](classes/HsdoNewsArticle.md) | A NewsArticle is an article whose content reports news, or provides background context and supporting materials for understanding the news. A more detailed overview of [schema.org News markup](/docs/news.html) is also available.<br/>Class with 2 occurrences.| 
 | [HsdoOrganization](classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc.<br/>Class with 3 occurrences.| 
 | [HsdoPerson](classes/HsdoPerson.md) | A person (alive, dead, undead, or fictional).<br/>Class with 2 occurrences.| 
 | [HsdoSearchAction](classes/HsdoSearchAction.md) | The act of searching for an object.\n\nRelated actions:\n\n* [[FindAction]]: SearchAction generally leads to a FindAction, but not necessarily.<br/>Class with 1 occurrences.| 
@@ -612,8 +608,7 @@ A more detailed overview of [schema.org News markup](/docs/news.html) is also av
 | [SchemaGovernmentOrganization](classes/SchemaGovernmentOrganization.md) | A governmental organization or agency.<br/>Class with 41703 occurrences.| 
 | [SchemaOrganization](classes/SchemaOrganization.md) | An organization such as a school, NGO, corporation, club, etc.<br/>Class with 247 occurrences.| 
 | [SchemaPlace](classes/SchemaPlace.md) | Entities that have a somewhat fixed, physical extension.<br/>Class with 253321 occurrences.| 
-| [SchemaPropertyValue](classes/SchemaPropertyValue.md) | A property-value pair, e.g. representing a feature of a product or place. Use the 'name' property for the name of the property. If there is an additional human-readable version of the value, put that into the 'description' property.\n\n Always use specific schema.org properties when a) they exist and b) you can populate them. Using PropertyValue as a substitute will typically not trigger the same effect as using the original, specific property.
-    <br/>Class with 82692 occurrences.| 
+| [SchemaPropertyValue](classes/SchemaPropertyValue.md) | A property-value pair, e.g. representing a feature of a product or place. Use the 'name' property for the name of the property. If there is an additional human-readable version of the value, put that into the 'description' property.\n\n Always use specific schema.org properties when a) they exist and b) you can populate them. Using PropertyValue as a substitute will typically not trigger the same effect as using the original, specific property.<br/>Class with 82692 occurrences.| 
 | [Sf#GeometryCollection](classes/Sf#GeometryCollection.md) | No class (type) description specified<br/>Class with 5 occurrences.| 
 | [Sf#LineString](classes/Sf#LineString.md) | No class (type) description specified<br/>Class with 101788 occurrences.| 
 | [Sf#MultiPolygon](classes/Sf#MultiPolygon.md) | No class (type) description specified<br/>Class with 320382 occurrences.| 
