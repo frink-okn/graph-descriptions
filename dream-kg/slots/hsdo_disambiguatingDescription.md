@@ -44,7 +44,7 @@ URI: [hsdo:disambiguatingDescription](http://schema.org/disambiguatingDescriptio
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_ServiceChannel → string | dreamkg:service/channel/P-5181712996761600 | hsdo:disambiguatingDescription | Provider |
+| hsdo_ServiceChannel → string | dreamkg:service/channel/AB-4542572480692224 | hsdo:disambiguatingDescription | Aunt Bertha |
 
 
 ## Comments
@@ -88,9 +88,11 @@ comments:
 examples:
 - description: hsdo_ServiceChannel → string
   object:
-    example_object: Provider
+    example_object: Aunt Bertha
+    example_object_type: string
     example_predicate: hsdo:disambiguatingDescription
-    example_subject: dreamkg:service/channel/P-5181712996761600
+    example_subject: dreamkg:service/channel/AB-4542572480692224
+    example_subject_type: hsdo_ServiceChannel
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:disambiguatingDescription

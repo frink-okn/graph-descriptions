@@ -44,7 +44,7 @@ URI: [hsdo:codeValue](http://schema.org/codeValue)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_CategoryCode → string | dreamkg:category/service/main/CounselingMedicalCare | hsdo:codeValue | counseling medical care |
+| hsdo_CategoryCode → string | dreamkg:category/availability/Available | hsdo:codeValue | available |
 
 
 ## Comments
@@ -88,9 +88,11 @@ comments:
 examples:
 - description: hsdo_CategoryCode → string
   object:
-    example_object: counseling medical care
+    example_object: available
+    example_object_type: string
     example_predicate: hsdo:codeValue
-    example_subject: dreamkg:category/service/main/CounselingMedicalCare
+    example_subject: dreamkg:category/availability/Available
+    example_subject_type: hsdo_CategoryCode
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:codeValue

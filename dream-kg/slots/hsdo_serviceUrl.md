@@ -44,7 +44,7 @@ URI: [hsdo:serviceUrl](http://schema.org/serviceUrl)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_ServiceChannel → uri | dreamkg:service/channel/AB-6032260047568896 | hsdo:serviceUrl | https://www.auntbertha.com//merakey---pennsylvania--philadelphia-pa--adult-substance-use-disorder-services/6032260047568896?postal=19139 |
+| hsdo_ServiceChannel → uri | dreamkg:service/channel/AB-4542572480692224 | hsdo:serviceUrl | https://www.auntbertha.com//child-guidance-resource-centers-%2528cgrc%2529--philadelphia-pa--drug-and-alcohol-services/4542572480692224?postal=19139 |
 
 
 ## Comments
@@ -88,9 +88,11 @@ comments:
 examples:
 - description: hsdo_ServiceChannel → uri
   object:
-    example_object: https://www.auntbertha.com//merakey---pennsylvania--philadelphia-pa--adult-substance-use-disorder-services/6032260047568896?postal=19139
+    example_object: https://www.auntbertha.com//child-guidance-resource-centers-%2528cgrc%2529--philadelphia-pa--drug-and-alcohol-services/4542572480692224?postal=19139
+    example_object_type: uri
     example_predicate: hsdo:serviceUrl
-    example_subject: dreamkg:service/channel/AB-6032260047568896
+    example_subject: dreamkg:service/channel/AB-4542572480692224
+    example_subject_type: hsdo_ServiceChannel
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:serviceUrl

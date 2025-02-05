@@ -44,7 +44,7 @@ URI: [hsdo:address](http://schema.org/address)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Place → string | dreamkg:service/location/5186727883833344 | hsdo:address | 1300 East Tulpehocken Street,  Philadelphia,  PA  19138 |
+| hsdo_Place → string | dreamkg:service/location/4542572480692224 | hsdo:address | 2901 Island Avenue, Philadelphia, PA 19153 |
 
 
 ## Comments
@@ -88,9 +88,11 @@ comments:
 examples:
 - description: hsdo_Place → string
   object:
-    example_object: 1300 East Tulpehocken Street,  Philadelphia,  PA  19138
+    example_object: 2901 Island Avenue, Philadelphia, PA 19153
+    example_object_type: string
     example_predicate: hsdo:address
-    example_subject: dreamkg:service/location/5186727883833344
+    example_subject: dreamkg:service/location/4542572480692224
+    example_subject_type: hsdo_Place
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:address

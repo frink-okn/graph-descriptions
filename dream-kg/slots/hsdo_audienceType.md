@@ -44,7 +44,7 @@ URI: [hsdo:audienceType](http://schema.org/audienceType)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Audience → string | dreamkg:category/audience/SuicidalThoughts | hsdo:audienceType | suicidal thoughts |
+| hsdo_Audience → string | dreamkg:category/audience/AbuseOrNeglectSurvivors | hsdo:audienceType | abuse or neglect survivors |
 
 
 ## Comments
@@ -88,9 +88,11 @@ comments:
 examples:
 - description: hsdo_Audience → string
   object:
-    example_object: suicidal thoughts
+    example_object: abuse or neglect survivors
+    example_object_type: string
     example_predicate: hsdo:audienceType
-    example_subject: dreamkg:category/audience/SuicidalThoughts
+    example_subject: dreamkg:category/audience/AbuseOrNeglectSurvivors
+    example_subject_type: hsdo_Audience
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:audienceType
