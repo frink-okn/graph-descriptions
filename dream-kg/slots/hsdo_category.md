@@ -33,7 +33,7 @@ URI: [hsdo:category](http://schema.org/category)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HsdoAudience](../classes/HsdoAudience.md)&nbsp;or&nbsp;<br />[HsdoCategoryCode](../classes/HsdoCategoryCode.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HsdoCategoryCode](../classes/HsdoCategoryCode.md)&nbsp;or&nbsp;<br />[HsdoAudience](../classes/HsdoAudience.md)
 
 
 
@@ -44,8 +44,8 @@ URI: [hsdo:category](http://schema.org/category)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Service → hsdo_Audience | dreamkg:service/4780892498952192 | hsdo:category | dreamkg:category/audience/WithChildren |
-| hsdo_Service → hsdo_CategoryCode | dreamkg:service/5138871176658944 | hsdo:category | dreamkg:category/service/main/MentalHealthCare |
+| hsdo_Service → hsdo_Audience | dreamkg:service/6710596967858176 | hsdo:category | dreamkg:category/audience/Veterans |
+| hsdo_Service → hsdo_CategoryCode | dreamkg:service/6710596967858176 | hsdo:category | dreamkg:category/service/other/SkillsAndTraining |
 
 
 ## Comments
@@ -91,14 +91,18 @@ comments:
 examples:
 - description: hsdo_Service → hsdo_Audience
   object:
-    example_object: dreamkg:category/audience/WithChildren
+    example_object: dreamkg:category/audience/Veterans
+    example_object_type: hsdo_Audience
     example_predicate: hsdo:category
-    example_subject: dreamkg:service/4780892498952192
+    example_subject: dreamkg:service/6710596967858176
+    example_subject_type: hsdo_Service
 - description: hsdo_Service → hsdo_CategoryCode
   object:
-    example_object: dreamkg:category/service/main/MentalHealthCare
+    example_object: dreamkg:category/service/other/SkillsAndTraining
+    example_object_type: hsdo_CategoryCode
     example_predicate: hsdo:category
-    example_subject: dreamkg:service/5138871176658944
+    example_subject: dreamkg:service/6710596967858176
+    example_subject_type: hsdo_Service
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:category
@@ -107,8 +111,8 @@ domain_of:
 - hsdo_Service
 range: Any
 any_of:
-- range: hsdo_Audience
 - range: hsdo_CategoryCode
+- range: hsdo_Audience
 
 ```
 </details>

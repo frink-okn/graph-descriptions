@@ -23,8 +23,8 @@ URI: [hsdo:identifier](http://schema.org/identifier)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoAdministrativeArea](../classes/HsdoAdministrativeArea.md) | A geographical region, typically under the jurisdiction of a particular gover... |  no  |
 | [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  no  |
+| [HsdoAdministrativeArea](../classes/HsdoAdministrativeArea.md) | A geographical region, typically under the jurisdiction of a particular gover... |  no  |
 
 
 
@@ -45,14 +45,14 @@ URI: [hsdo:identifier](http://schema.org/identifier)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_AdministrativeArea → string | dreamkg:zip/19320 | hsdo:identifier | 19320 |
-| hsdo_Service → string | dreamkg:service/6213025361821696 | hsdo:identifier | 6213025361821696 |
+| hsdo_Service → string | dreamkg:service/4542572480692224 | hsdo:identifier | 4542572480692224 |
+| hsdo_AdministrativeArea → string | dreamkg:zip/17602 | hsdo:identifier | 17602 |
 
 
 ## Comments
 
-* 39 occurrences with subject type hsdo_AdministrativeArea and object type string.
 * 87 occurrences with subject type hsdo_Service and object type string.
+* 39 occurrences with subject type hsdo_AdministrativeArea and object type string.
 
 ## Identifier and Mapping Information
 
@@ -87,19 +87,23 @@ URI: [hsdo:identifier](http://schema.org/identifier)
 name: hsdo_identifier
 description: No slot (predicate) description specified
 comments:
-- 39 occurrences with subject type hsdo_AdministrativeArea and object type string.
 - 87 occurrences with subject type hsdo_Service and object type string.
+- 39 occurrences with subject type hsdo_AdministrativeArea and object type string.
 examples:
-- description: hsdo_AdministrativeArea → string
-  object:
-    example_object: '19320'
-    example_predicate: hsdo:identifier
-    example_subject: dreamkg:zip/19320
 - description: hsdo_Service → string
   object:
-    example_object: '6213025361821696'
+    example_object: '4542572480692224'
+    example_object_type: string
     example_predicate: hsdo:identifier
-    example_subject: dreamkg:service/6213025361821696
+    example_subject: dreamkg:service/4542572480692224
+    example_subject_type: hsdo_Service
+- description: hsdo_AdministrativeArea → string
+  object:
+    example_object: '17602'
+    example_object_type: string
+    example_predicate: hsdo:identifier
+    example_subject: dreamkg:zip/17602
+    example_subject_type: hsdo_AdministrativeArea
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:identifier

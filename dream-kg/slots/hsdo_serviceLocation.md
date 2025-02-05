@@ -44,7 +44,7 @@ URI: [hsdo:serviceLocation](http://schema.org/serviceLocation)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_ServiceChannel → hsdo_Place | dreamkg:service/channel/P-5138871176658944 | hsdo:serviceLocation | dreamkg:service/location/5138871176658944 |
+| hsdo_ServiceChannel → hsdo_Place | dreamkg:service/channel/P-6710596967858176 | hsdo:serviceLocation | dreamkg:service/location/6710596967858176 |
 
 
 ## Comments
@@ -88,9 +88,11 @@ comments:
 examples:
 - description: hsdo_ServiceChannel → hsdo_Place
   object:
-    example_object: dreamkg:service/location/5138871176658944
+    example_object: dreamkg:service/location/6710596967858176
+    example_object_type: hsdo_Place
     example_predicate: hsdo:serviceLocation
-    example_subject: dreamkg:service/channel/P-5138871176658944
+    example_subject: dreamkg:service/channel/P-6710596967858176
+    example_subject_type: hsdo_ServiceChannel
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:serviceLocation

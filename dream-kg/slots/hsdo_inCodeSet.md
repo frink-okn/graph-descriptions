@@ -44,7 +44,7 @@ URI: [hsdo:inCodeSet](http://schema.org/inCodeSet)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_CategoryCode → uri | dreamkg:category/service/main/HelpHotlines | hsdo:inCodeSet | dreamkg:_CategoryCodeSet_Services_Main |
+| hsdo_CategoryCode → uri | dreamkg:category/availability/Available | hsdo:inCodeSet | dreamkg:__CategoryCodeSet_Availability |
 
 
 ## Comments
@@ -88,9 +88,11 @@ comments:
 examples:
 - description: hsdo_CategoryCode → uri
   object:
-    example_object: dreamkg:_CategoryCodeSet_Services_Main
+    example_object: dreamkg:__CategoryCodeSet_Availability
+    example_object_type: uri
     example_predicate: hsdo:inCodeSet
-    example_subject: dreamkg:category/service/main/HelpHotlines
+    example_subject: dreamkg:category/availability/Available
+    example_subject_type: hsdo_CategoryCode
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:inCodeSet

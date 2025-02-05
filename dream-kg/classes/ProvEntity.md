@@ -1,15 +1,15 @@
 
 
-# Class: Audience (hsdo_Audience)
+# Class: No class name specified (prov_Entity)
 
 
-_Intended audience for an item, i.e. the group for whom the item was created._
+_No class (type) description specified_
 
 
 
 
 
-URI: [hsdo:Audience](http://schema.org/Audience)
+URI: [prov:Entity](http://www.w3.org/ns/prov#Entity)
 
 
 
@@ -18,41 +18,41 @@ URI: [hsdo:Audience](http://schema.org/Audience)
 
 ```mermaid
  classDiagram
-    class HsdoAudience
-    click HsdoAudience href "../HsdoAudience"
-      HsdoAudience : hsdo_audienceType
+    class ProvEntity
+    click ProvEntity href "../ProvEntity"
+      ProvEntity : prov_influenced
         
           
     
     
-    HsdoAudience --> "0..1" String : hsdo_audienceType
-    click String href "../String"
+    ProvEntity --> "0..1" Any : prov_influenced
+    click Any href "../Any"
 
         
-      HsdoAudience : prov_wasDerivedFrom
+      ProvEntity : prov_wasDerivedFrom
         
           
     
     
-    HsdoAudience --> "0..1" ProvEntity : prov_wasDerivedFrom
+    ProvEntity --> "0..1" ProvEntity : prov_wasDerivedFrom
     click ProvEntity href "../ProvEntity"
 
         
-      HsdoAudience : prov_wasGeneratedBy
+      ProvEntity : prov_wasGeneratedBy
         
           
     
     
-    HsdoAudience --> "0..1" ProvActivity : prov_wasGeneratedBy
+    ProvEntity --> "0..1" ProvActivity : prov_wasGeneratedBy
     click ProvActivity href "../ProvActivity"
 
         
-      HsdoAudience : prov_wasInfluencedBy
+      ProvEntity : prov_wasInfluencedBy
         
           
     
     
-    HsdoAudience --> "0..1" Any : prov_wasInfluencedBy
+    ProvEntity --> "0..1" Any : prov_wasInfluencedBy
     click Any href "../Any"
 
         
@@ -69,7 +69,7 @@ URI: [hsdo:Audience](http://schema.org/Audience)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [hsdo_audienceType](../slots/hsdo_audienceType.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 81 occurrences with subject type hsdo_Audience and object type string. | direct |
+| [prov_influenced](../slots/prov_influenced.md) | 0..1 <br/> [ProvEntity](../classes/ProvEntity.md)&nbsp;or&nbsp;<br />[HsdoService](../classes/HsdoService.md)&nbsp;or&nbsp;<br />[HsdoPlace](../classes/HsdoPlace.md)&nbsp;or&nbsp;<br />[HsdoOrganization](../classes/HsdoOrganization.md)&nbsp;or&nbsp;<br />[HsdoTextObject](../classes/HsdoTextObject.md)&nbsp;or&nbsp;<br />[HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md)&nbsp;or&nbsp;<br />[HsdoContactPoint](../classes/HsdoContactPoint.md)&nbsp;or&nbsp;<br />[HsdoAdministrativeArea](../classes/HsdoAdministrativeArea.md)&nbsp;or&nbsp;<br />[HsdoAudience](../classes/HsdoAudience.md)&nbsp;or&nbsp;<br />[ProvCollection](../classes/ProvCollection.md)&nbsp;or&nbsp;<br />[HsdoCategoryCode](../classes/HsdoCategoryCode.md) | No slot (predicate) description specified <br/> 162 occurrences with subject type prov_Entity and object type hsdo_Audience.<br/>314 occurrences with subject type prov_Entity and object type hsdo_CategoryCode.<br/>174 occurrences with subject type prov_Entity and object type hsdo_Service.<br/>348 occurrences with subject type prov_Entity and object type prov_Entity.<br/>174 occurrences with subject type prov_Entity and object type hsdo_TextObject.<br/>1218 occurrences with subject type prov_Entity and object type hsdo_OpeningHoursSpecification.<br/>174 occurrences with subject type prov_Entity and object type hsdo_Place.<br/>174 occurrences with subject type prov_Entity and object type hsdo_ContactPoint.<br/>174 occurrences with subject type prov_Entity and object type hsdo_Organization.<br/>78 occurrences with subject type prov_Entity and object type hsdo_AdministrativeArea.<br/>243 occurrences with untyped subjects and object type hsdo_Audience.<br/>471 occurrences with untyped subjects and object type hsdo_CategoryCode.<br/>117 occurrences with untyped subjects and object type hsdo_AdministrativeArea.<br/>81 occurrences with subject type prov_Activity and object type hsdo_Audience.<br/>157 occurrences with subject type prov_Activity and object type hsdo_CategoryCode.<br/>87 occurrences with subject type prov_Activity and object type hsdo_Service.<br/>174 occurrences with subject type prov_Activity and object type prov_Entity.<br/>87 occurrences with subject type prov_Activity and object type hsdo_TextObject.<br/>609 occurrences with subject type prov_Activity and object type hsdo_OpeningHoursSpecification.<br/>87 occurrences with subject type prov_Activity and object type hsdo_Place.<br/>87 occurrences with subject type prov_Activity and object type hsdo_ContactPoint.<br/>87 occurrences with subject type prov_Activity and object type hsdo_Organization.<br/>39 occurrences with subject type prov_Activity and object type hsdo_AdministrativeArea.<br/>87 occurrences with subject type hsdo_Service and object type prov_Collection.<br/>174 occurrences with subject type prov_Entity and object type prov_Collection.<br/>87 occurrences with subject type hsdo_TextObject and object type prov_Collection.<br/>609 occurrences with subject type hsdo_OpeningHoursSpecification and object type prov_Collection.<br/>87 occurrences with subject type hsdo_Place and object type prov_Collection.<br/>87 occurrences with subject type hsdo_ContactPoint and object type prov_Collection.<br/>87 occurrences with subject type hsdo_Organization and object type prov_Collection.<br/>87 occurrences with subject type hsdo_WebPage and object type prov_Collection.<br/>87 occurrences with subject type hsdo_WebPage and object type hsdo_Service.<br/>174 occurrences with subject type hsdo_WebPage and object type prov_Entity.<br/>87 occurrences with subject type hsdo_WebPage and object type hsdo_TextObject.<br/>609 occurrences with subject type hsdo_WebPage and object type hsdo_OpeningHoursSpecification.<br/>87 occurrences with subject type hsdo_WebPage and object type hsdo_Place.<br/>87 occurrences with subject type hsdo_WebPage and object type hsdo_ContactPoint.<br/>87 occurrences with subject type hsdo_WebPage and object type hsdo_Organization. | direct |
 | [prov_wasDerivedFrom](../slots/prov_wasDerivedFrom.md) | 0..1 <br/> [ProvEntity](../classes/ProvEntity.md) | No slot (predicate) description specified <br/> 162 occurrences with subject type hsdo_Audience and object type prov_Entity.<br/>314 occurrences with subject type hsdo_CategoryCode and object type prov_Entity.<br/>174 occurrences with subject type hsdo_Service and object type prov_Entity.<br/>348 occurrences with subject type prov_Entity and object type prov_Entity.<br/>174 occurrences with subject type hsdo_TextObject and object type prov_Entity.<br/>1218 occurrences with subject type hsdo_OpeningHoursSpecification and object type prov_Entity.<br/>174 occurrences with subject type hsdo_Place and object type prov_Entity.<br/>174 occurrences with subject type hsdo_ContactPoint and object type prov_Entity.<br/>174 occurrences with subject type hsdo_Organization and object type prov_Entity.<br/>78 occurrences with subject type hsdo_AdministrativeArea and object type prov_Entity. | direct |
 | [prov_wasGeneratedBy](../slots/prov_wasGeneratedBy.md) | 0..1 <br/> [ProvActivity](../classes/ProvActivity.md) | No slot (predicate) description specified <br/> 81 occurrences with subject type hsdo_Audience and object type prov_Activity.<br/>157 occurrences with subject type hsdo_CategoryCode and object type prov_Activity.<br/>87 occurrences with subject type hsdo_Service and object type prov_Activity.<br/>174 occurrences with subject type prov_Entity and object type prov_Activity.<br/>87 occurrences with subject type hsdo_TextObject and object type prov_Activity.<br/>609 occurrences with subject type hsdo_OpeningHoursSpecification and object type prov_Activity.<br/>87 occurrences with subject type hsdo_Place and object type prov_Activity.<br/>87 occurrences with subject type hsdo_ContactPoint and object type prov_Activity.<br/>87 occurrences with subject type hsdo_Organization and object type prov_Activity.<br/>39 occurrences with subject type hsdo_AdministrativeArea and object type prov_Activity. | direct |
 | [prov_wasInfluencedBy](../slots/prov_wasInfluencedBy.md) | 0..1 <br/> [ProvEntity](../classes/ProvEntity.md)&nbsp;or&nbsp;<br />[ProvActivity](../classes/ProvActivity.md)&nbsp;or&nbsp;<br />[xsd:anyURI](xsd:anyURI)&nbsp;or&nbsp;<br />[HsdoService](../classes/HsdoService.md)&nbsp;or&nbsp;<br />[HsdoPlace](../classes/HsdoPlace.md)&nbsp;or&nbsp;<br />[HsdoOrganization](../classes/HsdoOrganization.md)&nbsp;or&nbsp;<br />[HsdoWebPage](../classes/HsdoWebPage.md)&nbsp;or&nbsp;<br />[HsdoTextObject](../classes/HsdoTextObject.md)&nbsp;or&nbsp;<br />[HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md)&nbsp;or&nbsp;<br />[HsdoContactPoint](../classes/HsdoContactPoint.md) | No slot (predicate) description specified <br/> 162 occurrences with subject type hsdo_Audience and object type prov_Entity.<br/>243 occurrences with subject type hsdo_Audience and object type uri.<br/>81 occurrences with subject type hsdo_Audience and object type prov_Activity.<br/>314 occurrences with subject type hsdo_CategoryCode and object type prov_Entity.<br/>471 occurrences with subject type hsdo_CategoryCode and object type uri.<br/>157 occurrences with subject type hsdo_CategoryCode and object type prov_Activity.<br/>87 occurrences with subject type prov_Collection and object type hsdo_Service.<br/>174 occurrences with subject type prov_Collection and object type prov_Entity.<br/>87 occurrences with subject type prov_Collection and object type hsdo_TextObject.<br/>609 occurrences with subject type prov_Collection and object type hsdo_OpeningHoursSpecification.<br/>87 occurrences with subject type prov_Collection and object type hsdo_Place.<br/>87 occurrences with subject type prov_Collection and object type hsdo_ContactPoint.<br/>87 occurrences with subject type prov_Collection and object type hsdo_Organization.<br/>87 occurrences with subject type prov_Collection and object type hsdo_WebPage.<br/>174 occurrences with subject type hsdo_Service and object type prov_Entity.<br/>87 occurrences with subject type hsdo_Service and object type prov_Activity.<br/>87 occurrences with subject type hsdo_Service and object type hsdo_WebPage.<br/>348 occurrences with subject type prov_Entity and object type prov_Entity.<br/>174 occurrences with subject type prov_Entity and object type prov_Activity.<br/>174 occurrences with subject type prov_Entity and object type hsdo_WebPage.<br/>174 occurrences with subject type hsdo_TextObject and object type prov_Entity.<br/>87 occurrences with subject type hsdo_TextObject and object type prov_Activity.<br/>87 occurrences with subject type hsdo_TextObject and object type hsdo_WebPage.<br/>1218 occurrences with subject type hsdo_OpeningHoursSpecification and object type prov_Entity.<br/>609 occurrences with subject type hsdo_OpeningHoursSpecification and object type prov_Activity.<br/>609 occurrences with subject type hsdo_OpeningHoursSpecification and object type hsdo_WebPage.<br/>174 occurrences with subject type hsdo_Place and object type prov_Entity.<br/>87 occurrences with subject type hsdo_Place and object type prov_Activity.<br/>87 occurrences with subject type hsdo_Place and object type hsdo_WebPage.<br/>174 occurrences with subject type hsdo_ContactPoint and object type prov_Entity.<br/>87 occurrences with subject type hsdo_ContactPoint and object type prov_Activity.<br/>87 occurrences with subject type hsdo_ContactPoint and object type hsdo_WebPage.<br/>174 occurrences with subject type hsdo_Organization and object type prov_Entity.<br/>87 occurrences with subject type hsdo_Organization and object type prov_Activity.<br/>87 occurrences with subject type hsdo_Organization and object type hsdo_WebPage.<br/>78 occurrences with subject type hsdo_AdministrativeArea and object type prov_Entity.<br/>117 occurrences with subject type hsdo_AdministrativeArea and object type uri.<br/>39 occurrences with subject type hsdo_AdministrativeArea and object type prov_Activity. | direct |
@@ -82,21 +82,50 @@ URI: [hsdo:Audience](http://schema.org/Audience)
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [HsdoContactPoint](../classes/HsdoContactPoint.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [HsdoAudience](../classes/HsdoAudience.md) |
-| [HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [HsdoAudience](../classes/HsdoAudience.md) |
-| [HsdoOrganization](../classes/HsdoOrganization.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [HsdoAudience](../classes/HsdoAudience.md) |
-| [HsdoPlace](../classes/HsdoPlace.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [HsdoAudience](../classes/HsdoAudience.md) |
-| [HsdoService](../classes/HsdoService.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [HsdoAudience](../classes/HsdoAudience.md) |
-| [HsdoService](../classes/HsdoService.md) | [hsdo_category](../slots/hsdo_category.md) | any_of[range] | [HsdoAudience](../classes/HsdoAudience.md) |
-| [HsdoTextObject](../classes/HsdoTextObject.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [HsdoAudience](../classes/HsdoAudience.md) |
-| [HsdoWebPage](../classes/HsdoWebPage.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [HsdoAudience](../classes/HsdoAudience.md) |
-| [ProvActivity](../classes/ProvActivity.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [HsdoAudience](../classes/HsdoAudience.md) |
-| [ProvActivity](../classes/ProvActivity.md) | [prov_generated](../slots/prov_generated.md) | any_of[range] | [HsdoAudience](../classes/HsdoAudience.md) |
-| [ProvEntity](../classes/ProvEntity.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [HsdoAudience](../classes/HsdoAudience.md) |
+| [HsdoAdministrativeArea](../classes/HsdoAdministrativeArea.md) | [prov_wasDerivedFrom](../slots/prov_wasDerivedFrom.md) | range | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoAdministrativeArea](../classes/HsdoAdministrativeArea.md) | [prov_wasInfluencedBy](../slots/prov_wasInfluencedBy.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoAudience](../classes/HsdoAudience.md) | [prov_wasDerivedFrom](../slots/prov_wasDerivedFrom.md) | range | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoAudience](../classes/HsdoAudience.md) | [prov_wasInfluencedBy](../slots/prov_wasInfluencedBy.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoCategoryCode](../classes/HsdoCategoryCode.md) | [prov_wasInfluencedBy](../slots/prov_wasInfluencedBy.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoCategoryCode](../classes/HsdoCategoryCode.md) | [prov_wasDerivedFrom](../slots/prov_wasDerivedFrom.md) | range | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoContactPoint](../classes/HsdoContactPoint.md) | [prov_wasInfluencedBy](../slots/prov_wasInfluencedBy.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoContactPoint](../classes/HsdoContactPoint.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoContactPoint](../classes/HsdoContactPoint.md) | [prov_wasDerivedFrom](../slots/prov_wasDerivedFrom.md) | range | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md) | [prov_wasInfluencedBy](../slots/prov_wasInfluencedBy.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md) | [prov_wasDerivedFrom](../slots/prov_wasDerivedFrom.md) | range | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoOrganization](../classes/HsdoOrganization.md) | [prov_wasInfluencedBy](../slots/prov_wasInfluencedBy.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoOrganization](../classes/HsdoOrganization.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoOrganization](../classes/HsdoOrganization.md) | [prov_wasDerivedFrom](../slots/prov_wasDerivedFrom.md) | range | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoPlace](../classes/HsdoPlace.md) | [prov_wasDerivedFrom](../slots/prov_wasDerivedFrom.md) | range | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoPlace](../classes/HsdoPlace.md) | [prov_wasInfluencedBy](../slots/prov_wasInfluencedBy.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoPlace](../classes/HsdoPlace.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoService](../classes/HsdoService.md) | [prov_wasInfluencedBy](../slots/prov_wasInfluencedBy.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoService](../classes/HsdoService.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoService](../classes/HsdoService.md) | [prov_wasDerivedFrom](../slots/prov_wasDerivedFrom.md) | range | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoTextObject](../classes/HsdoTextObject.md) | [prov_wasInfluencedBy](../slots/prov_wasInfluencedBy.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoTextObject](../classes/HsdoTextObject.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoTextObject](../classes/HsdoTextObject.md) | [prov_wasDerivedFrom](../slots/prov_wasDerivedFrom.md) | range | [ProvEntity](../classes/ProvEntity.md) |
+| [HsdoWebPage](../classes/HsdoWebPage.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [ProvActivity](../classes/ProvActivity.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [ProvActivity](../classes/ProvActivity.md) | [prov_generated](../slots/prov_generated.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [ProvCollection](../classes/ProvCollection.md) | [prov_hadMember](../slots/prov_hadMember.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [ProvCollection](../classes/ProvCollection.md) | [prov_wasInfluencedBy](../slots/prov_wasInfluencedBy.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [ProvEntity](../classes/ProvEntity.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
+| [ProvEntity](../classes/ProvEntity.md) | [prov_wasDerivedFrom](../slots/prov_wasDerivedFrom.md) | range | [ProvEntity](../classes/ProvEntity.md) |
+| [ProvEntity](../classes/ProvEntity.md) | [prov_wasInfluencedBy](../slots/prov_wasInfluencedBy.md) | any_of[range] | [ProvEntity](../classes/ProvEntity.md) |
 
 
 
 
+
+
+
+## Examples
+
+| Value |
+| --- |
+| dreamkg:category/audience/AbuseOrNeglectSurvivors |
 
 
 ## Identifier and Mapping Information
@@ -119,8 +148,8 @@ URI: [hsdo:Audience](http://schema.org/Audience)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | hsdo:Audience |
-| native | dream-kg/:HsdoAudience |
+| self | prov:Entity |
+| native | dream-kg/:ProvEntity |
 
 
 
@@ -136,20 +165,22 @@ URI: [hsdo:Audience](http://schema.org/Audience)
 
 <details>
 ```yaml
-name: hsdo_Audience
+name: prov_Entity
 conforms_to: No schema conformance document specified
-description: Intended audience for an item, i.e. the group for whom the item was created.
-title: Audience
+description: No class (type) description specified
+title: No class name specified
 notes:
-- Class with 81 occurrences.
+- Class with 1586 occurrences.
+examples:
+- value: dreamkg:category/audience/AbuseOrNeglectSurvivors
 from_schema: dream-kg
 rank: 1000
 slots:
-- hsdo_audienceType
+- prov_influenced
 - prov_wasDerivedFrom
 - prov_wasGeneratedBy
 - prov_wasInfluencedBy
-class_uri: hsdo:Audience
+class_uri: prov:Entity
 
 ```
 </details>
@@ -158,36 +189,355 @@ class_uri: hsdo:Audience
 
 <details>
 ```yaml
-name: hsdo_Audience
+name: prov_Entity
 conforms_to: No schema conformance document specified
-description: Intended audience for an item, i.e. the group for whom the item was created.
-title: Audience
+description: No class (type) description specified
+title: No class name specified
 notes:
-- Class with 81 occurrences.
+- Class with 1586 occurrences.
+examples:
+- value: dreamkg:category/audience/AbuseOrNeglectSurvivors
 from_schema: dream-kg
 rank: 1000
 attributes:
-  hsdo_audienceType:
-    name: hsdo_audienceType
+  prov_influenced:
+    name: prov_influenced
     description: No slot (predicate) description specified
     comments:
-    - 81 occurrences with subject type hsdo_Audience and object type string.
+    - 162 occurrences with subject type prov_Entity and object type hsdo_Audience.
+    - 314 occurrences with subject type prov_Entity and object type hsdo_CategoryCode.
+    - 174 occurrences with subject type prov_Entity and object type hsdo_Service.
+    - 348 occurrences with subject type prov_Entity and object type prov_Entity.
+    - 174 occurrences with subject type prov_Entity and object type hsdo_TextObject.
+    - 1218 occurrences with subject type prov_Entity and object type hsdo_OpeningHoursSpecification.
+    - 174 occurrences with subject type prov_Entity and object type hsdo_Place.
+    - 174 occurrences with subject type prov_Entity and object type hsdo_ContactPoint.
+    - 174 occurrences with subject type prov_Entity and object type hsdo_Organization.
+    - 78 occurrences with subject type prov_Entity and object type hsdo_AdministrativeArea.
+    - 243 occurrences with untyped subjects and object type hsdo_Audience.
+    - 471 occurrences with untyped subjects and object type hsdo_CategoryCode.
+    - 117 occurrences with untyped subjects and object type hsdo_AdministrativeArea.
+    - 81 occurrences with subject type prov_Activity and object type hsdo_Audience.
+    - 157 occurrences with subject type prov_Activity and object type hsdo_CategoryCode.
+    - 87 occurrences with subject type prov_Activity and object type hsdo_Service.
+    - 174 occurrences with subject type prov_Activity and object type prov_Entity.
+    - 87 occurrences with subject type prov_Activity and object type hsdo_TextObject.
+    - 609 occurrences with subject type prov_Activity and object type hsdo_OpeningHoursSpecification.
+    - 87 occurrences with subject type prov_Activity and object type hsdo_Place.
+    - 87 occurrences with subject type prov_Activity and object type hsdo_ContactPoint.
+    - 87 occurrences with subject type prov_Activity and object type hsdo_Organization.
+    - 39 occurrences with subject type prov_Activity and object type hsdo_AdministrativeArea.
+    - 87 occurrences with subject type hsdo_Service and object type prov_Collection.
+    - 174 occurrences with subject type prov_Entity and object type prov_Collection.
+    - 87 occurrences with subject type hsdo_TextObject and object type prov_Collection.
+    - 609 occurrences with subject type hsdo_OpeningHoursSpecification and object
+      type prov_Collection.
+    - 87 occurrences with subject type hsdo_Place and object type prov_Collection.
+    - 87 occurrences with subject type hsdo_ContactPoint and object type prov_Collection.
+    - 87 occurrences with subject type hsdo_Organization and object type prov_Collection.
+    - 87 occurrences with subject type hsdo_WebPage and object type prov_Collection.
+    - 87 occurrences with subject type hsdo_WebPage and object type hsdo_Service.
+    - 174 occurrences with subject type hsdo_WebPage and object type prov_Entity.
+    - 87 occurrences with subject type hsdo_WebPage and object type hsdo_TextObject.
+    - 609 occurrences with subject type hsdo_WebPage and object type hsdo_OpeningHoursSpecification.
+    - 87 occurrences with subject type hsdo_WebPage and object type hsdo_Place.
+    - 87 occurrences with subject type hsdo_WebPage and object type hsdo_ContactPoint.
+    - 87 occurrences with subject type hsdo_WebPage and object type hsdo_Organization.
     examples:
-    - description: hsdo_Audience → string
+    - description: prov_Entity → hsdo_Audience
       object:
-        example_object: abuse or neglect survivors
-        example_object_type: string
-        example_predicate: hsdo:audienceType
-        example_subject: dreamkg:category/audience/AbuseOrNeglectSurvivors
-        example_subject_type: hsdo_Audience
+        example_object: dreamkg:category/audience/YoungAdults
+        example_object_type: hsdo_Audience
+        example_predicate: prov:influenced
+        example_subject: dreamkg:file/IJCAI/mappings/ontology.obda
+        example_subject_type: prov_Entity
+    - description: prov_Entity → hsdo_CategoryCode
+      object:
+        example_object: dreamkg:category/service/other/WeatherRelief
+        example_object_type: hsdo_CategoryCode
+        example_predicate: prov:influenced
+        example_subject: dreamkg:file/IJCAI/mappings/ontology.obda
+        example_subject_type: prov_Entity
+    - description: prov_Entity → hsdo_Service
+      object:
+        example_object: dreamkg:service/6710596967858176
+        example_object_type: hsdo_Service
+        example_predicate: prov:influenced
+        example_subject: dreamkg:file/IJCAI/mappings/ontology.obda
+        example_subject_type: prov_Entity
+    - description: prov_Entity → prov_Entity
+      object:
+        example_object: dreamkg:service/channel/P--6710596967858176
+        example_object_type: prov_Entity
+        example_predicate: prov:influenced
+        example_subject: dreamkg:file/IJCAI/mappings/ontology.obda
+        example_subject_type: prov_Entity
+    - description: prov_Entity → hsdo_TextObject
+      object:
+        example_object: dreamkg:service/desc/6710596967858176
+        example_object_type: hsdo_TextObject
+        example_predicate: prov:influenced
+        example_subject: dreamkg:file/IJCAI/mappings/ontology.obda
+        example_subject_type: prov_Entity
+    - description: prov_Entity → hsdo_OpeningHoursSpecification
+      object:
+        example_object: dreamkg:service/hours/wednesday/6710596967858176
+        example_object_type: hsdo_OpeningHoursSpecification
+        example_predicate: prov:influenced
+        example_subject: dreamkg:file/IJCAI/mappings/ontology.obda
+        example_subject_type: prov_Entity
+    - description: prov_Entity → hsdo_Place
+      object:
+        example_object: dreamkg:service/location/6710596967858176
+        example_object_type: hsdo_Place
+        example_predicate: prov:influenced
+        example_subject: dreamkg:file/IJCAI/mappings/ontology.obda
+        example_subject_type: prov_Entity
+    - description: prov_Entity → hsdo_ContactPoint
+      object:
+        example_object: dreamkg:service/phone/6710596967858176
+        example_object_type: hsdo_ContactPoint
+        example_predicate: prov:influenced
+        example_subject: dreamkg:file/IJCAI/mappings/ontology.obda
+        example_subject_type: prov_Entity
+    - description: prov_Entity → hsdo_Organization
+      object:
+        example_object: dreamkg:service/provider/6710596967858176
+        example_object_type: hsdo_Organization
+        example_predicate: prov:influenced
+        example_subject: dreamkg:file/IJCAI/mappings/ontology.obda
+        example_subject_type: prov_Entity
+    - description: prov_Entity → hsdo_AdministrativeArea
+      object:
+        example_object: dreamkg:zip/19320
+        example_object_type: hsdo_AdministrativeArea
+        example_predicate: prov:influenced
+        example_subject: dreamkg:file/IJCAI/mappings/ontology.obda
+        example_subject_type: prov_Entity
+    - description: None → hsdo_Audience
+      object:
+        example_object: dreamkg:category/audience/YoungAdults
+        example_object_type: hsdo_Audience
+        example_predicate: prov:influenced
+        example_subject: dreamkg:file/AuntBertha/UpToDateVersions/Final_Temporary_Shelter_20240109.csv
+        example_subject_type: None
+    - description: None → hsdo_CategoryCode
+      object:
+        example_object: dreamkg:category/service/other/WeatherRelief
+        example_object_type: hsdo_CategoryCode
+        example_predicate: prov:influenced
+        example_subject: dreamkg:file/AuntBertha/UpToDateVersions/Final_Temporary_Shelter_20240109.csv
+        example_subject_type: None
+    - description: None → hsdo_AdministrativeArea
+      object:
+        example_object: dreamkg:zip/19320
+        example_object_type: hsdo_AdministrativeArea
+        example_predicate: prov:influenced
+        example_subject: dreamkg:file/AuntBertha/UpToDateVersions/Final_Temporary_Shelter_20240109.csv
+        example_subject_type: None
+    - description: prov_Activity → hsdo_Audience
+      object:
+        example_object: dreamkg:category/audience/YoungAdults
+        example_object_type: hsdo_Audience
+        example_predicate: prov:influenced
+        example_subject: dreamkg:process/run/ontop-CM
+        example_subject_type: prov_Activity
+    - description: prov_Activity → hsdo_CategoryCode
+      object:
+        example_object: dreamkg:category/service/other/WeatherRelief
+        example_object_type: hsdo_CategoryCode
+        example_predicate: prov:influenced
+        example_subject: dreamkg:process/run/ontop-CM
+        example_subject_type: prov_Activity
+    - description: prov_Activity → hsdo_Service
+      object:
+        example_object: dreamkg:service/6710596967858176
+        example_object_type: hsdo_Service
+        example_predicate: prov:influenced
+        example_subject: dreamkg:process/run/ontop-CM
+        example_subject_type: prov_Activity
+    - description: prov_Activity → prov_Entity
+      object:
+        example_object: dreamkg:service/channel/P--6710596967858176
+        example_object_type: prov_Entity
+        example_predicate: prov:influenced
+        example_subject: dreamkg:process/run/ontop-CM
+        example_subject_type: prov_Activity
+    - description: prov_Activity → hsdo_TextObject
+      object:
+        example_object: dreamkg:service/desc/6710596967858176
+        example_object_type: hsdo_TextObject
+        example_predicate: prov:influenced
+        example_subject: dreamkg:process/run/ontop-CM
+        example_subject_type: prov_Activity
+    - description: prov_Activity → hsdo_OpeningHoursSpecification
+      object:
+        example_object: dreamkg:service/hours/wednesday/6710596967858176
+        example_object_type: hsdo_OpeningHoursSpecification
+        example_predicate: prov:influenced
+        example_subject: dreamkg:process/run/ontop-CM
+        example_subject_type: prov_Activity
+    - description: prov_Activity → hsdo_Place
+      object:
+        example_object: dreamkg:service/location/6710596967858176
+        example_object_type: hsdo_Place
+        example_predicate: prov:influenced
+        example_subject: dreamkg:process/run/ontop-CM
+        example_subject_type: prov_Activity
+    - description: prov_Activity → hsdo_ContactPoint
+      object:
+        example_object: dreamkg:service/phone/6710596967858176
+        example_object_type: hsdo_ContactPoint
+        example_predicate: prov:influenced
+        example_subject: dreamkg:process/run/ontop-CM
+        example_subject_type: prov_Activity
+    - description: prov_Activity → hsdo_Organization
+      object:
+        example_object: dreamkg:service/provider/6710596967858176
+        example_object_type: hsdo_Organization
+        example_predicate: prov:influenced
+        example_subject: dreamkg:process/run/ontop-CM
+        example_subject_type: prov_Activity
+    - description: prov_Activity → hsdo_AdministrativeArea
+      object:
+        example_object: dreamkg:zip/19320
+        example_object_type: hsdo_AdministrativeArea
+        example_predicate: prov:influenced
+        example_subject: dreamkg:process/run/ontop-CM
+        example_subject_type: prov_Activity
+    - description: hsdo_Service → prov_Collection
+      object:
+        example_object: dreamkg:file/kg.ttl
+        example_object_type: prov_Collection
+        example_predicate: prov:influenced
+        example_subject: dreamkg:service/6710596967858176
+        example_subject_type: hsdo_Service
+    - description: prov_Entity → prov_Collection
+      object:
+        example_object: dreamkg:file/kg.ttl
+        example_object_type: prov_Collection
+        example_predicate: prov:influenced
+        example_subject: dreamkg:service/channel/P--6710596967858176
+        example_subject_type: prov_Entity
+    - description: hsdo_TextObject → prov_Collection
+      object:
+        example_object: dreamkg:file/kg.ttl
+        example_object_type: prov_Collection
+        example_predicate: prov:influenced
+        example_subject: dreamkg:service/desc/6710596967858176
+        example_subject_type: hsdo_TextObject
+    - description: hsdo_OpeningHoursSpecification → prov_Collection
+      object:
+        example_object: dreamkg:file/kg.ttl
+        example_object_type: prov_Collection
+        example_predicate: prov:influenced
+        example_subject: dreamkg:service/hours/wednesday/6710596967858176
+        example_subject_type: hsdo_OpeningHoursSpecification
+    - description: hsdo_Place → prov_Collection
+      object:
+        example_object: dreamkg:file/kg.ttl
+        example_object_type: prov_Collection
+        example_predicate: prov:influenced
+        example_subject: dreamkg:service/location/6710596967858176
+        example_subject_type: hsdo_Place
+    - description: hsdo_ContactPoint → prov_Collection
+      object:
+        example_object: dreamkg:file/kg.ttl
+        example_object_type: prov_Collection
+        example_predicate: prov:influenced
+        example_subject: dreamkg:service/phone/6710596967858176
+        example_subject_type: hsdo_ContactPoint
+    - description: hsdo_Organization → prov_Collection
+      object:
+        example_object: dreamkg:file/kg.ttl
+        example_object_type: prov_Collection
+        example_predicate: prov:influenced
+        example_subject: dreamkg:service/provider/6710596967858176
+        example_subject_type: hsdo_Organization
+    - description: hsdo_WebPage → prov_Collection
+      object:
+        example_object: dreamkg:outside/ab
+        example_object_type: prov_Collection
+        example_predicate: prov:influenced
+        example_subject: https://www.auntbertha.com//youth-service%252C-inc--philadelphia-pa--youth-emergency-service-%2528yes%2529/5680777996009472
+        example_subject_type: hsdo_WebPage
+    - description: hsdo_WebPage → hsdo_Service
+      object:
+        example_object: dreamkg:service/5680777996009472
+        example_object_type: hsdo_Service
+        example_predicate: prov:influenced
+        example_subject: https://www.auntbertha.com//youth-service%252C-inc--philadelphia-pa--youth-emergency-service-%2528yes%2529/5680777996009472
+        example_subject_type: hsdo_WebPage
+    - description: hsdo_WebPage → prov_Entity
+      object:
+        example_object: dreamkg:service/channel/P--5680777996009472
+        example_object_type: prov_Entity
+        example_predicate: prov:influenced
+        example_subject: https://www.auntbertha.com//youth-service%252C-inc--philadelphia-pa--youth-emergency-service-%2528yes%2529/5680777996009472
+        example_subject_type: hsdo_WebPage
+    - description: hsdo_WebPage → hsdo_TextObject
+      object:
+        example_object: dreamkg:service/desc/5680777996009472
+        example_object_type: hsdo_TextObject
+        example_predicate: prov:influenced
+        example_subject: https://www.auntbertha.com//youth-service%252C-inc--philadelphia-pa--youth-emergency-service-%2528yes%2529/5680777996009472
+        example_subject_type: hsdo_WebPage
+    - description: hsdo_WebPage → hsdo_OpeningHoursSpecification
+      object:
+        example_object: dreamkg:service/hours/wednesday/5680777996009472
+        example_object_type: hsdo_OpeningHoursSpecification
+        example_predicate: prov:influenced
+        example_subject: https://www.auntbertha.com//youth-service%252C-inc--philadelphia-pa--youth-emergency-service-%2528yes%2529/5680777996009472
+        example_subject_type: hsdo_WebPage
+    - description: hsdo_WebPage → hsdo_Place
+      object:
+        example_object: dreamkg:service/location/5680777996009472
+        example_object_type: hsdo_Place
+        example_predicate: prov:influenced
+        example_subject: https://www.auntbertha.com//youth-service%252C-inc--philadelphia-pa--youth-emergency-service-%2528yes%2529/5680777996009472
+        example_subject_type: hsdo_WebPage
+    - description: hsdo_WebPage → hsdo_ContactPoint
+      object:
+        example_object: dreamkg:service/phone/5680777996009472
+        example_object_type: hsdo_ContactPoint
+        example_predicate: prov:influenced
+        example_subject: https://www.auntbertha.com//youth-service%252C-inc--philadelphia-pa--youth-emergency-service-%2528yes%2529/5680777996009472
+        example_subject_type: hsdo_WebPage
+    - description: hsdo_WebPage → hsdo_Organization
+      object:
+        example_object: dreamkg:service/provider/5680777996009472
+        example_object_type: hsdo_Organization
+        example_predicate: prov:influenced
+        example_subject: https://www.auntbertha.com//youth-service%252C-inc--philadelphia-pa--youth-emergency-service-%2528yes%2529/5680777996009472
+        example_subject_type: hsdo_WebPage
     from_schema: dream-kg
     rank: 1000
-    slot_uri: hsdo:audienceType
-    alias: hsdo_audienceType
-    owner: hsdo_Audience
+    slot_uri: prov:influenced
+    alias: prov_influenced
+    owner: prov_Entity
     domain_of:
-    - hsdo_Audience
-    range: string
+    - hsdo_ContactPoint
+    - hsdo_OpeningHoursSpecification
+    - hsdo_Organization
+    - hsdo_Place
+    - hsdo_Service
+    - hsdo_TextObject
+    - hsdo_WebPage
+    - prov_Activity
+    - prov_Entity
+    range: Any
+    any_of:
+    - range: prov_Entity
+    - range: hsdo_Service
+    - range: hsdo_Place
+    - range: hsdo_Organization
+    - range: hsdo_TextObject
+    - range: hsdo_OpeningHoursSpecification
+    - range: hsdo_ContactPoint
+    - range: hsdo_AdministrativeArea
+    - range: hsdo_Audience
+    - range: prov_Collection
+    - range: hsdo_CategoryCode
   prov_wasDerivedFrom:
     name: prov_wasDerivedFrom
     description: No slot (predicate) description specified
@@ -278,7 +628,7 @@ attributes:
     rank: 1000
     slot_uri: prov:wasDerivedFrom
     alias: prov_wasDerivedFrom
-    owner: hsdo_Audience
+    owner: prov_Entity
     domain_of:
     - hsdo_AdministrativeArea
     - hsdo_Audience
@@ -381,7 +731,7 @@ attributes:
     rank: 1000
     slot_uri: prov:wasGeneratedBy
     alias: prov_wasGeneratedBy
-    owner: hsdo_Audience
+    owner: prov_Entity
     domain_of:
     - hsdo_AdministrativeArea
     - hsdo_Audience
@@ -710,7 +1060,7 @@ attributes:
     rank: 1000
     slot_uri: prov:wasInfluencedBy
     alias: prov_wasInfluencedBy
-    owner: hsdo_Audience
+    owner: prov_Entity
     domain_of:
     - hsdo_AdministrativeArea
     - hsdo_Audience
@@ -735,7 +1085,7 @@ attributes:
     - range: hsdo_TextObject
     - range: hsdo_OpeningHoursSpecification
     - range: hsdo_ContactPoint
-class_uri: hsdo:Audience
+class_uri: prov:Entity
 
 ```
 </details>

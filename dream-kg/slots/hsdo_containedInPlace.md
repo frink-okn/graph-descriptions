@@ -44,7 +44,7 @@ URI: [hsdo:containedInPlace](http://schema.org/containedInPlace)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Place → hsdo_AdministrativeArea | dreamkg:service/location/5680777996009472 | hsdo:containedInPlace | dreamkg:zip/19130 |
+| hsdo_Place → hsdo_AdministrativeArea | dreamkg:service/location/6710596967858176 | hsdo:containedInPlace | dreamkg:zip/19104 |
 
 
 ## Comments
@@ -88,9 +88,11 @@ comments:
 examples:
 - description: hsdo_Place → hsdo_AdministrativeArea
   object:
-    example_object: dreamkg:zip/19130
+    example_object: dreamkg:zip/19104
+    example_object_type: hsdo_AdministrativeArea
     example_predicate: hsdo:containedInPlace
-    example_subject: dreamkg:service/location/5680777996009472
+    example_subject: dreamkg:service/location/6710596967858176
+    example_subject_type: hsdo_Place
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:containedInPlace

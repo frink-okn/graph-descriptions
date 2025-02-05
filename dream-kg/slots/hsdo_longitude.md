@@ -44,7 +44,7 @@ URI: [hsdo:longitude](http://schema.org/longitude)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Place → decimal | dreamkg:service/location/5186727883833344 | hsdo:longitude | -75.1647762 |
+| hsdo_Place → decimal | dreamkg:service/location/4542572480692224 | hsdo:longitude | -75.239064 |
 
 
 ## Comments
@@ -88,9 +88,11 @@ comments:
 examples:
 - description: hsdo_Place → decimal
   object:
-    example_object: '-75.1647762'
+    example_object: '-75.239064'
+    example_object_type: decimal
     example_predicate: hsdo:longitude
-    example_subject: dreamkg:service/location/5186727883833344
+    example_subject: dreamkg:service/location/4542572480692224
+    example_subject_type: hsdo_Place
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:longitude

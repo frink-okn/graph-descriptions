@@ -97,8 +97,10 @@ examples:
       Individual therapy- Family therapy- Group therapy- Relapse prevention techniques
       - After-care planningChild Guidance Resource Centers accepts Medicaid for their
       services.
+    example_object_type: string
     example_predicate: hsdo:text
     example_subject: dreamkg:service/desc/4542572480692224
+    example_subject_type: hsdo_TextObject
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:text

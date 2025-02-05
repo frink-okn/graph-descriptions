@@ -44,7 +44,7 @@ URI: [hsdo:hasMap](http://schema.org/hasMap)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Place → uri | dreamkg:service/location/5348732074983424 | hsdo:hasMap | https://www.google.com/maps/?q=4301+Rising+Sun+Avenue,+Philadelphia,+PA+19140/ |
+| hsdo_Place → uri | dreamkg:service/location/4542572480692224 | hsdo:hasMap | https://www.google.com/maps/?q=2901+Island+Avenue,+Philadelphia,+PA+19153/ |
 
 
 ## Comments
@@ -88,9 +88,11 @@ comments:
 examples:
 - description: hsdo_Place → uri
   object:
-    example_object: https://www.google.com/maps/?q=4301+Rising+Sun+Avenue,+Philadelphia,+PA+19140/
+    example_object: https://www.google.com/maps/?q=2901+Island+Avenue,+Philadelphia,+PA+19153/
+    example_object_type: uri
     example_predicate: hsdo:hasMap
-    example_subject: dreamkg:service/location/5348732074983424
+    example_subject: dreamkg:service/location/4542572480692224
+    example_subject_type: hsdo_Place
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:hasMap

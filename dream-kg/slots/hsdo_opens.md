@@ -44,7 +44,7 @@ URI: [hsdo:opens](http://schema.org/opens)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_OpeningHoursSpecification → string | dreamkg:service/hours/sunday/5147295688687616 | hsdo:opens | 00:00 |
+| hsdo_OpeningHoursSpecification → string | dreamkg:service/hours/friday/4542572480692224 | hsdo:opens | 08:00 |
 
 
 ## Comments
@@ -89,9 +89,11 @@ comments:
 examples:
 - description: hsdo_OpeningHoursSpecification → string
   object:
-    example_object: 00:00
+    example_object: 08:00
+    example_object_type: string
     example_predicate: hsdo:opens
-    example_subject: dreamkg:service/hours/sunday/5147295688687616
+    example_subject: dreamkg:service/hours/friday/4542572480692224
+    example_subject_type: hsdo_OpeningHoursSpecification
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:opens

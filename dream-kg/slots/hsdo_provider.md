@@ -44,7 +44,7 @@ URI: [hsdo:provider](http://schema.org/provider)
 
 | Types involved | Subject | Predicate | Object |
 | --- | --- | --- | --- |
-| hsdo_Service → hsdo_Organization | dreamkg:service/4689179354857472 | hsdo:provider | dreamkg:service/provider/4689179354857472 |
+| hsdo_Service → hsdo_Organization | dreamkg:service/6710596967858176 | hsdo:provider | dreamkg:service/provider/6710596967858176 |
 
 
 ## Comments
@@ -88,9 +88,11 @@ comments:
 examples:
 - description: hsdo_Service → hsdo_Organization
   object:
-    example_object: dreamkg:service/provider/4689179354857472
+    example_object: dreamkg:service/provider/6710596967858176
+    example_object_type: hsdo_Organization
     example_predicate: hsdo:provider
-    example_subject: dreamkg:service/4689179354857472
+    example_subject: dreamkg:service/6710596967858176
+    example_subject_type: hsdo_Service
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:provider
