@@ -23,16 +23,16 @@ URI: [prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
+| [HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md) | A structured value providing information about the opening hours of a place o... |  no  |
+| [ProvEntity](../classes/ProvEntity.md) | No class (type) description specified |  no  |
+| [HsdoCategoryCode](../classes/HsdoCategoryCode.md) | A Category Code |  no  |
+| [HsdoAdministrativeArea](../classes/HsdoAdministrativeArea.md) | A geographical region, typically under the jurisdiction of a particular gover... |  no  |
 | [HsdoOrganization](../classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
 | [HsdoPlace](../classes/HsdoPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
-| [HsdoTextObject](../classes/HsdoTextObject.md) | A text file |  no  |
 | [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  no  |
-| [HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md) | A structured value providing information about the opening hours of a place o... |  no  |
-| [HsdoCategoryCode](../classes/HsdoCategoryCode.md) | A Category Code |  no  |
 | [HsdoAudience](../classes/HsdoAudience.md) | Intended audience for an item, i |  no  |
+| [HsdoTextObject](../classes/HsdoTextObject.md) | A text file |  no  |
 | [HsdoContactPoint](../classes/HsdoContactPoint.md) | A contact point&#x2014;for example, a Customer Complaints department |  no  |
-| [ProvEntity](../classes/ProvEntity.md) | No class (type) description specified |  no  |
-| [HsdoAdministrativeArea](../classes/HsdoAdministrativeArea.md) | A geographical region, typically under the jurisdiction of a particular gover... |  no  |
 
 
 
