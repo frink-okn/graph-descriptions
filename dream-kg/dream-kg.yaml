@@ -1,0 +1,18 @@
+classes:
+  Any:
+    class_uri: linkml:Any
+    name: Any
+conforms_to: No schema conformance document specified
+created_on: '2025-02-07T19:24:20.301703'
+description: No schema description specified
+id: dream-kg
+imports:
+- linkml:types
+last_updated_on: '2025-02-07T19:24:20.301703'
+license: No schema license specified
+name: dream-kg
+prefixes:
+  linkml: https://w3id.org/linkml/
+slots: {}
+title: dream-kg
+version: No schema version available
