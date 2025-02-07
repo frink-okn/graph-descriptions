@@ -24,15 +24,15 @@ URI: [prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  no  |
-| [HsdoAudience](../classes/HsdoAudience.md) | Intended audience for an item, i |  no  |
 | [HsdoPlace](../classes/HsdoPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
-| [HsdoCategoryCode](../classes/HsdoCategoryCode.md) | A Category Code |  no  |
-| [ProvEntity](../classes/ProvEntity.md) | No class (type) description specified |  no  |
-| [HsdoContactPoint](../classes/HsdoContactPoint.md) | A contact point&#x2014;for example, a Customer Complaints department |  no  |
 | [HsdoOrganization](../classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
+| [ProvEntity](../classes/ProvEntity.md) | No class (type) description specified |  no  |
 | [HsdoAdministrativeArea](../classes/HsdoAdministrativeArea.md) | A geographical region, typically under the jurisdiction of a particular gover... |  no  |
-| [HsdoTextObject](../classes/HsdoTextObject.md) | A text file |  no  |
 | [HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md) | A structured value providing information about the opening hours of a place o... |  no  |
+| [HsdoTextObject](../classes/HsdoTextObject.md) | A text file |  no  |
+| [HsdoCategoryCode](../classes/HsdoCategoryCode.md) | A Category Code |  no  |
+| [HsdoAudience](../classes/HsdoAudience.md) | Intended audience for an item, i |  no  |
+| [HsdoContactPoint](../classes/HsdoContactPoint.md) | A contact point&#x2014;for example, a Customer Complaints department |  no  |
 
 
 
