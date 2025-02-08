@@ -23,8 +23,8 @@ URI: [jxdm72:RegisterOfActions](http://release.niem.gov/niem/domains/jxdm/7.2/#R
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72Case](../classes/Jxdm72Case.md) | No class (type) description specified |  no  |
 | [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [Jxdm72Case](../classes/Jxdm72Case.md) | No class (type) description specified |  no  |
 
 
 
@@ -91,6 +91,7 @@ URI: [jxdm72:RegisterOfActions](http://release.niem.gov/niem/domains/jxdm/7.2/#R
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: jxdm72_RegisterOfActions
 description: No slot (predicate) description specified

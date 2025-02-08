@@ -80,6 +80,7 @@ URI: [scales:hasUVAJudgeDirID](http://schemas.scales-okn.org/rdf/scales#hasUVAJu
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: scales_hasUVAJudgeDirID
 description: No slot (predicate) description specified

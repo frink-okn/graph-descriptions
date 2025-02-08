@@ -80,6 +80,7 @@ URI: [jxdm72:ChargeDescriptionText](http://release.niem.gov/niem/domains/jxdm/7.
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: jxdm72_ChargeDescriptionText
 description: No slot (predicate) description specified

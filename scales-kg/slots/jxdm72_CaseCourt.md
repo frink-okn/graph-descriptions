@@ -80,6 +80,7 @@ URI: [jxdm72:CaseCourt](http://release.niem.gov/niem/domains/jxdm/7.2/#CaseCourt
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: jxdm72_CaseCourt
 description: No slot (predicate) description specified

@@ -71,6 +71,7 @@ URI: [scales:Firm](http://schemas.scales-okn.org/rdf/scales#Firm)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: scales_Firm
 description: No slot (predicate) description specified

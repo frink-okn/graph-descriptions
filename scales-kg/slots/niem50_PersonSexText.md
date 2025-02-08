@@ -80,6 +80,7 @@ URI: [niem50:PersonSexText](http://release.niem.gov/niem/niem-core/5.0/PersonSex
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_PersonSexText
 description: No slot (predicate) description specified

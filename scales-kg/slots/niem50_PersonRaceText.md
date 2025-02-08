@@ -80,6 +80,7 @@ URI: [niem50:PersonRaceText](http://release.niem.gov/niem/niem-core/5.0/PersonRa
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_PersonRaceText
 description: No slot (predicate) description specified

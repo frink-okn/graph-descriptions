@@ -82,6 +82,7 @@ URI: [scales:isInCircuit](http://schemas.scales-okn.org/rdf/scales#isInCircuit)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: scales_isInCircuit
 description: No slot (predicate) description specified

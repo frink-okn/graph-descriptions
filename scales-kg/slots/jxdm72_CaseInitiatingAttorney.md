@@ -71,6 +71,7 @@ URI: [jxdm72:CaseInitiatingAttorney](http://release.niem.gov/niem/domains/jxdm/7
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: jxdm72_CaseInitiatingAttorney
 description: No slot (predicate) description specified

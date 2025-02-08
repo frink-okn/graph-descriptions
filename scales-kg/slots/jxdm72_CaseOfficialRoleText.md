@@ -71,6 +71,7 @@ URI: [jxdm72:CaseOfficialRoleText](http://release.niem.gov/niem/domains/jxdm/7.2
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: jxdm72_CaseOfficialRoleText
 description: No slot (predicate) description specified

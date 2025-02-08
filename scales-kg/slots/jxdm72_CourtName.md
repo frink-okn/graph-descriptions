@@ -82,6 +82,7 @@ URI: [jxdm72:CourtName](http://release.niem.gov/niem/domains/jxdm/7.2/#CourtName
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: jxdm72_CourtName
 description: No slot (predicate) description specified

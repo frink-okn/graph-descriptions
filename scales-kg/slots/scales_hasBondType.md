@@ -80,6 +80,7 @@ URI: [scales:hasBondType](http://schemas.scales-okn.org/rdf/scales#hasBondType)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: scales_hasBondType
 description: No slot (predicate) description specified

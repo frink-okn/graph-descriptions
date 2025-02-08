@@ -71,6 +71,7 @@ URI: [niem50:EntityName](http://release.niem.gov/niem/niem-core/5.0/EntityName)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_EntityName
 description: No slot (predicate) description specified

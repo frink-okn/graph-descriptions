@@ -80,6 +80,7 @@ URI: [niem50:StartDate](http://release.niem.gov/niem/niem-core/5.0/StartDate)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_StartDate
 description: No slot (predicate) description specified

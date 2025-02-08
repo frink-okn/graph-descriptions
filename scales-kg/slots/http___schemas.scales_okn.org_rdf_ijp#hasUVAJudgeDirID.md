@@ -71,6 +71,7 @@ URI: [http://schemas.scales-okn.org/rdf/ijp#hasUVAJudgeDirID](http://schemas.sca
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: http___schemas.scales-okn.org_rdf_ijp#hasUVAJudgeDirID
 description: No slot (predicate) description specified

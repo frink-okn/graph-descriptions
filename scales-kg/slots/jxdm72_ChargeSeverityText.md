@@ -80,6 +80,7 @@ URI: [jxdm72:ChargeSeverityText](http://release.niem.gov/niem/domains/jxdm/7.2/#
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: jxdm72_ChargeSeverityText
 description: No slot (predicate) description specified

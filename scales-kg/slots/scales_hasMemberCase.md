@@ -82,6 +82,7 @@ URI: [scales:hasMemberCase](http://schemas.scales-okn.org/rdf/scales#hasMemberCa
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: scales_hasMemberCase
 description: No slot (predicate) description specified

@@ -80,6 +80,7 @@ URI: [niem50:AddressState](http://release.niem.gov/niem/niem-core/5.0/AddressSta
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_AddressState
 description: No slot (predicate) description specified

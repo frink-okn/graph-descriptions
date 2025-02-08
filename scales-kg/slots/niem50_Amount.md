@@ -71,6 +71,7 @@ URI: [niem50:Amount](http://release.niem.gov/niem/niem-core/5.0/Amount)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_Amount
 description: No slot (predicate) description specified

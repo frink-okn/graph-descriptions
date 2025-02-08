@@ -91,6 +91,7 @@ URI: [jxdm72:RegisterAction](http://release.niem.gov/niem/domains/jxdm/7.2/#Regi
 ### Direct
 
 <details>
+
 ```yaml
 name: jxdm72_RegisterAction
 conforms_to: No schema conformance document specified
@@ -110,6 +111,7 @@ class_uri: jxdm72:RegisterAction
 ### Induced
 
 <details>
+
 ```yaml
 name: jxdm72_RegisterAction
 conforms_to: No schema conformance document specified

@@ -23,8 +23,8 @@ URI: [niem50:CaseDocketID](http://release.niem.gov/niem/niem-core/5.0/CaseDocket
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72Case](../classes/Jxdm72Case.md) | No class (type) description specified |  no  |
 | [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [Jxdm72Case](../classes/Jxdm72Case.md) | No class (type) description specified |  no  |
 
 
 
@@ -83,6 +83,7 @@ URI: [niem50:CaseDocketID](http://release.niem.gov/niem/niem-core/5.0/CaseDocket
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_CaseDocketID
 description: No slot (predicate) description specified

@@ -80,6 +80,7 @@ URI: [scales:ChargeCase](http://schemas.scales-okn.org/rdf/scales#ChargeCase)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: scales_ChargeCase
 description: No slot (predicate) description specified

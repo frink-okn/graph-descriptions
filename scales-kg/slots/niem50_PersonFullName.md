@@ -82,6 +82,7 @@ URI: [niem50:PersonFullName](http://release.niem.gov/niem/niem-core/5.0/PersonFu
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_PersonFullName
 description: No slot (predicate) description specified

@@ -71,6 +71,7 @@ URI: [jxdm72:BailBondAmount](http://release.niem.gov/niem/domains/jxdm/7.2/#Bail
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: jxdm72_BailBondAmount
 description: No slot (predicate) description specified

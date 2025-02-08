@@ -138,6 +138,7 @@ URI: [jxdm72:Charge](http://release.niem.gov/niem/domains/jxdm/7.2/#Charge)
 ### Direct
 
 <details>
+
 ```yaml
 name: jxdm72_Charge
 conforms_to: No schema conformance document specified
@@ -162,6 +163,7 @@ class_uri: jxdm72:Charge
 ### Induced
 
 <details>
+
 ```yaml
 name: jxdm72_Charge
 conforms_to: No schema conformance document specified

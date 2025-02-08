@@ -73,6 +73,7 @@ URI: [scales:hasJudgeReference](http://schemas.scales-okn.org/rdf/scales#hasJudg
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: scales_hasJudgeReference
 description: No slot (predicate) description specified

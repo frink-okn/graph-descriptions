@@ -72,6 +72,7 @@ Jose Antonio Yanez Lincona |
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: scales_hasExtraInfo
 description: No slot (predicate) description specified

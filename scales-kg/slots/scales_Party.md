@@ -80,6 +80,7 @@ URI: [scales:Party](http://schemas.scales-okn.org/rdf/scales#Party)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: scales_Party
 description: No slot (predicate) description specified

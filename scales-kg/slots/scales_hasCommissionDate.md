@@ -80,6 +80,7 @@ URI: [scales:hasCommissionDate](http://schemas.scales-okn.org/rdf/scales#hasComm
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: scales_hasCommissionDate
 description: No slot (predicate) description specified

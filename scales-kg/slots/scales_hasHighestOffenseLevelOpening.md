@@ -71,6 +71,7 @@ URI: [scales:hasHighestOffenseLevelOpening](http://schemas.scales-okn.org/rdf/sc
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: scales_hasHighestOffenseLevelOpening
 description: No slot (predicate) description specified

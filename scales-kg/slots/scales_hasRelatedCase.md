@@ -82,6 +82,7 @@ URI: [scales:hasRelatedCase](http://schemas.scales-okn.org/rdf/scales#hasRelated
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: scales_hasRelatedCase
 description: No slot (predicate) description specified

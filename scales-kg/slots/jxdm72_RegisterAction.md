@@ -71,6 +71,7 @@ URI: [jxdm72:RegisterAction](http://release.niem.gov/niem/domains/jxdm/7.2/#Regi
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: jxdm72_RegisterAction
 description: No slot (predicate) description specified

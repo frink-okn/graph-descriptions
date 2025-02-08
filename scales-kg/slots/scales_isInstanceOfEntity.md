@@ -73,6 +73,7 @@ URI: [scales:isInstanceOfEntity](http://schemas.scales-okn.org/rdf/scales#isInst
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: scales_isInstanceOfEntity
 description: No slot (predicate) description specified

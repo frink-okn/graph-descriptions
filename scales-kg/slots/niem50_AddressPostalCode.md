@@ -80,6 +80,7 @@ URI: [niem50:AddressPostalCode](http://release.niem.gov/niem/niem-core/5.0/Addre
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_AddressPostalCode
 description: No slot (predicate) description specified

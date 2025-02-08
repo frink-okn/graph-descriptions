@@ -71,6 +71,7 @@ URI: [http://schemas.scales-okn.org/rdf/ijp#hasFJCNodeID](http://schemas.scales-
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: http___schemas.scales-okn.org_rdf_ijp#hasFJCNodeID
 description: No slot (predicate) description specified

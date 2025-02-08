@@ -82,6 +82,7 @@ URI: [rdf:Type](http://www.w3.org/1999/02/22-rdf-syntax-ns#Type)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: rdf_Type
 description: No slot (predicate) description specified

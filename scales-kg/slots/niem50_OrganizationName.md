@@ -71,6 +71,7 @@ URI: [niem50:OrganizationName](http://release.niem.gov/niem/niem-core/5.0/Organi
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_OrganizationName
 description: No slot (predicate) description specified

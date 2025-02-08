@@ -71,6 +71,7 @@ URI: [jxdm72:CaseDefenseAttorney](http://release.niem.gov/niem/domains/jxdm/7.2/
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: jxdm72_CaseDefenseAttorney
 description: No slot (predicate) description specified

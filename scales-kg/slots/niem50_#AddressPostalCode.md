@@ -71,6 +71,7 @@ URI: [niem50:#AddressPostalCode](http://release.niem.gov/niem/niem-core/5.0/#Add
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_#AddressPostalCode
 description: No slot (predicate) description specified

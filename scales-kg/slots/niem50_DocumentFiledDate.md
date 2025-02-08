@@ -80,6 +80,7 @@ URI: [niem50:DocumentFiledDate](http://release.niem.gov/niem/niem-core/5.0/Docum
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_DocumentFiledDate
 description: No slot (predicate) description specified

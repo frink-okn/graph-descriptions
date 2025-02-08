@@ -80,6 +80,7 @@ URI: [scales:hasFJCNodeID](http://schemas.scales-okn.org/rdf/scales#hasFJCNodeID
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: scales_hasFJCNodeID
 description: No slot (predicate) description specified

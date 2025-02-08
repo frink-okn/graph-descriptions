@@ -80,6 +80,7 @@ URI: [niem50:StatusDescriptionText](http://release.niem.gov/niem/niem-core/5.0/S
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_StatusDescriptionText
 description: No slot (predicate) description specified

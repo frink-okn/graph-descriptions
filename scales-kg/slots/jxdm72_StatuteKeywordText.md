@@ -80,6 +80,7 @@ URI: [jxdm72:StatuteKeywordText](http://release.niem.gov/niem/domains/jxdm/7.2/#
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: jxdm72_StatuteKeywordText
 description: No slot (predicate) description specified

@@ -87,6 +87,7 @@ URI: [jxdm72:ChargeInstrument](http://release.niem.gov/niem/domains/jxdm/7.2/#Ch
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: jxdm72_ChargeInstrument
 description: No slot (predicate) description specified

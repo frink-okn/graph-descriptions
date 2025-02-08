@@ -71,6 +71,7 @@ URI: [jxdm72:PersonCharge](http://release.niem.gov/niem/domains/jxdm/7.2/#Person
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: jxdm72_PersonCharge
 description: No slot (predicate) description specified

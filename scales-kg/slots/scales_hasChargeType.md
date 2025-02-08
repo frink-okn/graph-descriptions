@@ -71,6 +71,7 @@ URI: [scales:hasChargeType](http://schemas.scales-okn.org/rdf/scales#hasChargeTy
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: scales_hasChargeType
 description: No slot (predicate) description specified

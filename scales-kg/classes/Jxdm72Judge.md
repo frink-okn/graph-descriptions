@@ -158,6 +158,7 @@ URI: [jxdm72:Judge](http://release.niem.gov/niem/domains/jxdm/7.2/#Judge)
 ### Direct
 
 <details>
+
 ```yaml
 name: jxdm72_Judge
 conforms_to: No schema conformance document specified
@@ -184,6 +185,7 @@ class_uri: jxdm72:Judge
 ### Induced
 
 <details>
+
 ```yaml
 name: jxdm72_Judge
 conforms_to: No schema conformance document specified

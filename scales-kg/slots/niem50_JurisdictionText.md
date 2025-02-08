@@ -80,6 +80,7 @@ URI: [niem50:JurisdictionText](http://release.niem.gov/niem/niem-core/5.0/Jurisd
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_JurisdictionText
 description: No slot (predicate) description specified

@@ -71,6 +71,7 @@ URI: [http://release.niem.gov/niem/codes/fips/5.0/#CountyCode](http://release.ni
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: http___release.niem.gov_niem_codes_fips_5.0_#CountyCode
 description: No slot (predicate) description specified

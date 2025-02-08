@@ -266,6 +266,7 @@ URI: [scales:Case](http://schemas.scales-okn.org/rdf/scales#Case)
 ### Direct
 
 <details>
+
 ```yaml
 name: scales_Case
 conforms_to: No schema conformance document specified
@@ -302,6 +303,7 @@ class_uri: scales:Case
 ### Induced
 
 <details>
+
 ```yaml
 name: scales_Case
 conforms_to: No schema conformance document specified

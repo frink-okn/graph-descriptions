@@ -80,6 +80,7 @@ URI: [niem50:FacilityName](http://release.niem.gov/niem/niem-core/5.0/FacilityNa
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_FacilityName
 description: No slot (predicate) description specified

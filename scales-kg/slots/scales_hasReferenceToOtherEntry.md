@@ -71,6 +71,7 @@ URI: [scales:hasReferenceToOtherEntry](http://schemas.scales-okn.org/rdf/scales#
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: scales_hasReferenceToOtherEntry
 description: No slot (predicate) description specified

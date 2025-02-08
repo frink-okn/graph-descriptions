@@ -80,6 +80,7 @@ URI: [niem50:CaseSubCategoryText](http://release.niem.gov/niem/niem-core/5.0/Cas
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_CaseSubCategoryText
 description: No slot (predicate) description specified

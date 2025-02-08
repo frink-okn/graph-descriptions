@@ -71,6 +71,7 @@ URI: [jxdm72:ParticipantRoleCategoryText](http://release.niem.gov/niem/domains/j
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: jxdm72_ParticipantRoleCategoryText
 description: No slot (predicate) description specified

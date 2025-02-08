@@ -71,6 +71,7 @@ URI: [jxdm72:BailBondChargeAssociation](http://release.niem.gov/niem/domains/jxd
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: jxdm72_BailBondChargeAssociation
 description: No slot (predicate) description specified

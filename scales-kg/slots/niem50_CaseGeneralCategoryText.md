@@ -80,6 +80,7 @@ URI: [niem50:CaseGeneralCategoryText](http://release.niem.gov/niem/niem-core/5.0
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_CaseGeneralCategoryText
 description: No slot (predicate) description specified

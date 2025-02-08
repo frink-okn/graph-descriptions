@@ -80,6 +80,7 @@ URI: [niem50:DocumentEffectiveDate](http://release.niem.gov/niem/niem-core/5.0/D
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_DocumentEffectiveDate
 description: No slot (predicate) description specified

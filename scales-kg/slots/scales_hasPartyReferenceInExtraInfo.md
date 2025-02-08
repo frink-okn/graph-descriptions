@@ -71,6 +71,7 @@ URI: [scales:hasPartyReferenceInExtraInfo](http://schemas.scales-okn.org/rdf/sca
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: scales_hasPartyReferenceInExtraInfo
 description: No slot (predicate) description specified

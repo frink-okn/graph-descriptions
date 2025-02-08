@@ -80,6 +80,7 @@ URI: [niem50:AdministrationId](http://release.niem.gov/niem/niem-core/5.0/Admini
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_AdministrationId
 description: No slot (predicate) description specified

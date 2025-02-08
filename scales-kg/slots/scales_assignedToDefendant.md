@@ -71,6 +71,7 @@ URI: [scales:assignedToDefendant](http://schemas.scales-okn.org/rdf/scales#assig
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: scales_assignedToDefendant
 description: No slot (predicate) description specified

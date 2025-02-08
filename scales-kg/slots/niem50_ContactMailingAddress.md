@@ -72,6 +72,7 @@ Montgomery, AL 36104 |
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_ContactMailingAddress
 description: No slot (predicate) description specified

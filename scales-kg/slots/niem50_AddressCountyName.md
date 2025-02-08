@@ -80,6 +80,7 @@ URI: [niem50:AddressCountyName](http://release.niem.gov/niem/niem-core/5.0/Addre
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niem50_AddressCountyName
 description: No slot (predicate) description specified
