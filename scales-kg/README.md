@@ -28,7 +28,7 @@ Jxdm72ChargeInstrument {
 Jxdm72Court {
     string jxdm72_CourtCategoryCode  
     string scales_isInCircuit  
-    string http___release.niem.gov_niem_codes_fips_5.0_CountyCode  
+    string http___releaseniemgov_niem_codes_fips_50_CountyCode  
     string jxdm72_CourtName  
     string niem50_AddressPostalCode  
 }
