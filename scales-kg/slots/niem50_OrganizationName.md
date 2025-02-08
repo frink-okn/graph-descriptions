@@ -42,30 +42,6 @@ URI: [niem50:OrganizationName](http://release.niem.gov/niem/niem-core/5.0/Organi
 
 * 1920883 occurrences with untyped subjects and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | niem50:OrganizationName |
-| native | scales-kg-new/:niem50_OrganizationName |
-
-
 
 
 ## LinkML Source

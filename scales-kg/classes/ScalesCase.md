@@ -230,30 +230,6 @@ URI: [scales:Case](http://schemas.scales-okn.org/rdf/scales#Case)
 
 
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | scales:Case |
-| native | scales-kg-new/:ScalesCase |
-
-
 
 
 

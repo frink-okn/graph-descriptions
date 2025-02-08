@@ -42,30 +42,6 @@ URI: [niem50:EntityName](http://release.niem.gov/niem/niem-core/5.0/EntityName)
 
 * 3004657 occurrences with untyped subjects and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | niem50:EntityName |
-| native | scales-kg-new/:niem50_EntityName |
-
-
 
 
 ## LinkML Source

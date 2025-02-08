@@ -53,30 +53,6 @@ URI: [scales:hasMemberCase](http://schemas.scales-okn.org/rdf/scales#hasMemberCa
 * 2 occurrences with subject type scales_Case and object type scales_Case.
 * 1 occurrences with untyped subjects and object type scales_Case.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | scales:hasMemberCase |
-| native | scales-kg-new/:scales_hasMemberCase |
-
-
 
 
 ## LinkML Source

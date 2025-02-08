@@ -42,30 +42,6 @@ URI: [http://release.niem.gov/niem/codes/fips/5.0/#CountyCode](http://release.ni
 
 * 3035 occurrences with untyped subjects and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | http://release.niem.gov/niem/codes/fips/5.0/#CountyCode |
-| native | scales-kg-new/:http___release.niem.gov_niem_codes_fips_5.0_#CountyCode |
-
-
 
 
 ## LinkML Source

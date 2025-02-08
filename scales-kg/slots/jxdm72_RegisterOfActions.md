@@ -62,30 +62,6 @@ URI: [jxdm72:RegisterOfActions](http://release.niem.gov/niem/domains/jxdm/7.2/#R
 * 581243 occurrences with subject type scales_Case and object type uri.
 * 94929 occurrences with subject type jxdm72_Case and object type jxdm72_RegisterOfActions.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:RegisterOfActions |
-| native | scales-kg-new/:Jxdm72RegisterOfActions |
-
-
 
 
 ## LinkML Source

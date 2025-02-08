@@ -42,30 +42,6 @@ URI: [niem50:#AddressPostalCode](http://release.niem.gov/niem/niem-core/5.0/#Add
 
 * 40932 occurrences with untyped subjects and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | niem50:#AddressPostalCode |
-| native | scales-kg-new/:niem50_#AddressPostalCode |
-
-
 
 
 ## LinkML Source

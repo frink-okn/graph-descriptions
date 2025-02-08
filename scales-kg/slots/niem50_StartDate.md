@@ -51,30 +51,6 @@ URI: [niem50:StartDate](http://release.niem.gov/niem/niem-core/5.0/StartDate)
 
 * 6852 occurrences with subject type scales_Case and object type date.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | niem50:StartDate |
-| native | scales-kg-new/:niem50_StartDate |
-
-
 
 
 ## LinkML Source

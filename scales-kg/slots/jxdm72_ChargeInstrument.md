@@ -58,30 +58,6 @@ URI: [jxdm72:ChargeInstrument](http://release.niem.gov/niem/domains/jxdm/7.2/#Ch
 
 * 199210 occurrences with subject type jxdm72_Charge and object type jxdm72_ChargeInstrument.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:ChargeInstrument |
-| native | scales-kg-new/:Jxdm72ChargeInstrument |
-
-
 
 
 ## LinkML Source

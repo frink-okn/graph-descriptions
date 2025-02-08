@@ -42,30 +42,6 @@ URI: [http://schemas.scales-okn.org/rdf/ijp#hasUVAJudgeDirID](http://schemas.sca
 
 * 988 occurrences with untyped subjects and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | http://schemas.scales-okn.org/rdf/ijp#hasUVAJudgeDirID |
-| native | scales-kg-new/:http___schemas.scales_okn.org_rdf_ijp#hasUVAJudgeDirID |
-
-
 
 
 ## LinkML Source

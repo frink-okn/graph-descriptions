@@ -51,30 +51,6 @@ URI: [scales:hasCommissionDate](http://schemas.scales-okn.org/rdf/scales#hasComm
 
 * 4257 occurrences with subject type jxdm72_Judge and object type date.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | scales:hasCommissionDate |
-| native | scales-kg-new/:scales_hasCommissionDate |
-
-
 
 
 ## LinkML Source

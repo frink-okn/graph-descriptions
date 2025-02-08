@@ -42,30 +42,6 @@ URI: [jxdm72:CaseInitiatingAttorney](http://release.niem.gov/niem/domains/jxdm/7
 
 * 1854513 occurrences with untyped subjects and object type uri.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:CaseInitiatingAttorney |
-| native | scales-kg-new/:jxdm72_CaseInitiatingAttorney |
-
-
 
 
 ## LinkML Source

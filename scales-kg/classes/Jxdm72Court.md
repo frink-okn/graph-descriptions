@@ -99,30 +99,6 @@ URI: [jxdm72:Court](http://release.niem.gov/niem/domains/jxdm/7.2/#Court)
 
 
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:Court |
-| native | scales-kg-new/:Jxdm72Court |
-
-
 
 
 

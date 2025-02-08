@@ -51,30 +51,6 @@ URI: [jxdm72:CaseCourt](http://release.niem.gov/niem/domains/jxdm/7.2/#CaseCourt
 
 * 143 occurrences with subject type scales_Case and object type jxdm72_Court.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:CaseCourt |
-| native | scales-kg-new/:jxdm72_CaseCourt |
-
-
 
 
 ## LinkML Source

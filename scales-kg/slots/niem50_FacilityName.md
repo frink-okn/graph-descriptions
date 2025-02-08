@@ -51,30 +51,6 @@ URI: [niem50:FacilityName](http://release.niem.gov/niem/niem-core/5.0/FacilityNa
 
 * 1 occurrences with subject type jxdm72_DetentionFacility and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | niem50:FacilityName |
-| native | scales-kg-new/:niem50_FacilityName |
-
-
 
 
 ## LinkML Source

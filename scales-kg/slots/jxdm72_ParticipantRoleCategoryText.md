@@ -42,30 +42,6 @@ URI: [jxdm72:ParticipantRoleCategoryText](http://release.niem.gov/niem/domains/j
 
 * 2993003 occurrences with untyped subjects and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:ParticipantRoleCategoryText |
-| native | scales-kg-new/:jxdm72_ParticipantRoleCategoryText |
-
-
 
 
 ## LinkML Source

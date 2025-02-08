@@ -42,30 +42,6 @@ URI: [jxdm72:RegisterAction](http://release.niem.gov/niem/domains/jxdm/7.2/#Regi
 
 * 19671603 occurrences with untyped subjects and object type uri.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:RegisterAction |
-| native | scales-kg-new/:Jxdm72RegisterAction |
-
-
 
 
 ## LinkML Source

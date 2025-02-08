@@ -89,23 +89,6 @@ URI: [jxdm72:ChargeInstrument](http://release.niem.gov/niem/domains/jxdm/7.2/#Ch
 
 
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:ChargeInstrument |
-| native | scales-kg-new/:Jxdm72ChargeInstrument |
-
-
 
 
 

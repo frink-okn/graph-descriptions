@@ -43,30 +43,6 @@ Jose Antonio Yanez Lincona |
 
 * 625618 occurrences with untyped subjects and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | scales:hasExtraInfo |
-| native | scales-kg-new/:scales_hasExtraInfo |
-
-
 
 
 ## LinkML Source

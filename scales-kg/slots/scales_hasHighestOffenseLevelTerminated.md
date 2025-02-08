@@ -42,30 +42,6 @@ URI: [scales:hasHighestOffenseLevelTerminated](http://schemas.scales-okn.org/rdf
 
 * 38306 occurrences with untyped subjects and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | scales:hasHighestOffenseLevelTerminated |
-| native | scales-kg-new/:scales_hasHighestOffenseLevelTerminated |
-
-
 
 
 ## LinkML Source

@@ -42,30 +42,6 @@ URI: [scales:hasReferenceToOtherEntry](http://schemas.scales-okn.org/rdf/scales#
 
 * 7002793 occurrences with untyped subjects and object type uri.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | scales:hasReferenceToOtherEntry |
-| native | scales-kg-new/:scales_hasReferenceToOtherEntry |
-
-
 
 
 ## LinkML Source

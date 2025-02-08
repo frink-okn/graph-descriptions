@@ -42,30 +42,6 @@ URI: [niem50:Amount](http://release.niem.gov/niem/niem-core/5.0/Amount)
 
 * 73497 occurrences with untyped subjects and object type float.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | niem50:Amount |
-| native | scales-kg-new/:niem50_Amount |
-
-
 
 
 ## LinkML Source

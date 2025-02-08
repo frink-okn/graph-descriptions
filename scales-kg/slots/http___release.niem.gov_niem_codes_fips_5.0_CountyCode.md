@@ -51,30 +51,6 @@ URI: [http://release.niem.gov/niem/codes/fips/5.0/CountyCode](http://release.nie
 
 * 3035 occurrences with subject type jxdm72_Court and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | http://release.niem.gov/niem/codes/fips/5.0/CountyCode |
-| native | scales-kg-new/:http___release.niem.gov_niem_codes_fips_5.0_CountyCode |
-
-
 
 
 ## LinkML Source

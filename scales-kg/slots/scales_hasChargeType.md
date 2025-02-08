@@ -42,30 +42,6 @@ URI: [scales:hasChargeType](http://schemas.scales-okn.org/rdf/scales#hasChargeTy
 
 * 213743 occurrences with untyped subjects and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | scales:hasChargeType |
-| native | scales-kg-new/:scales_hasChargeType |
-
-
 
 
 ## LinkML Source

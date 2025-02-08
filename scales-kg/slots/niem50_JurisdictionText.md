@@ -51,30 +51,6 @@ URI: [niem50:JurisdictionText](http://release.niem.gov/niem/niem-core/5.0/Jurisd
 
 * 32 occurrences with subject type scales_Case and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | niem50:JurisdictionText |
-| native | scales-kg-new/:niem50_JurisdictionText |
-
-
 
 
 ## LinkML Source

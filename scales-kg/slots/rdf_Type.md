@@ -53,30 +53,6 @@ URI: [rdf:Type](http://www.w3.org/1999/02/22-rdf-syntax-ns#Type)
 * 10426705 occurrences with untyped subjects and object type uri.
 * 2 occurrences with subject type scales_Case and object type uri.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | rdf:Type |
-| native | scales-kg-new/:rdf_Type |
-
-
 
 
 ## LinkML Source

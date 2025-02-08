@@ -51,30 +51,6 @@ URI: [jxdm72:StatuteKeywordText](http://release.niem.gov/niem/domains/jxdm/7.2/#
 
 * 2680 occurrences with subject type scales_Case and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:StatuteKeywordText |
-| native | scales-kg-new/:jxdm72_StatuteKeywordText |
-
-
 
 
 ## LinkML Source

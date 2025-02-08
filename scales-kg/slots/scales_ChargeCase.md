@@ -51,30 +51,6 @@ URI: [scales:ChargeCase](http://schemas.scales-okn.org/rdf/scales#ChargeCase)
 
 * 218359 occurrences with subject type jxdm72_Charge and object type jxdm72_Case.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | scales:ChargeCase |
-| native | scales-kg-new/:scales_ChargeCase |
-
-
 
 
 ## LinkML Source

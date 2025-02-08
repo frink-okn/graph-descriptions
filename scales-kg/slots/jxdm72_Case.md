@@ -49,30 +49,6 @@ URI: [jxdm72:Case](http://release.niem.gov/niem/domains/jxdm/7.2/#Case)
 
 * 266314 occurrences with untyped subjects and object type scales_Case.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:Case |
-| native | scales-kg-new/:Jxdm72Case |
-
-
 
 
 ## LinkML Source

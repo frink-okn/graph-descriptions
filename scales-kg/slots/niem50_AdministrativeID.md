@@ -42,30 +42,6 @@ URI: [niem50:AdministrativeID](http://release.niem.gov/niem/niem-core/5.0/Admini
 
 * 19671603 occurrences with untyped subjects and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | niem50:AdministrativeID |
-| native | scales-kg-new/:niem50_AdministrativeID |
-
-
 
 
 ## LinkML Source

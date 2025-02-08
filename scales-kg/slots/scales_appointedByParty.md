@@ -51,30 +51,6 @@ URI: [scales:appointedByParty](http://schemas.scales-okn.org/rdf/scales#appointe
 
 * 3912 occurrences with subject type jxdm72_Judge and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | scales:appointedByParty |
-| native | scales-kg-new/:scales_appointedByParty |
-
-
 
 
 ## LinkML Source

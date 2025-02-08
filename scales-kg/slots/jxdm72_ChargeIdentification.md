@@ -51,30 +51,6 @@ URI: [jxdm72:ChargeIdentification](http://release.niem.gov/niem/domains/jxdm/7.2
 
 * 218359 occurrences with subject type jxdm72_Charge and object type integer.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:ChargeIdentification |
-| native | scales-kg-new/:jxdm72_ChargeIdentification |
-
-
 
 
 ## LinkML Source

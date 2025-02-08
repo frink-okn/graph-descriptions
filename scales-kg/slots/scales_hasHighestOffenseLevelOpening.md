@@ -42,30 +42,6 @@ URI: [scales:hasHighestOffenseLevelOpening](http://schemas.scales-okn.org/rdf/sc
 
 * 93222 occurrences with untyped subjects and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | scales:hasHighestOffenseLevelOpening |
-| native | scales-kg-new/:scales_hasHighestOffenseLevelOpening |
-
-
 
 
 ## LinkML Source

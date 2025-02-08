@@ -51,30 +51,6 @@ URI: [niem50:AddressPostalCode](http://release.niem.gov/niem/niem-core/5.0/Addre
 
 * 40932 occurrences with subject type jxdm72_Court and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | niem50:AddressPostalCode |
-| native | scales-kg-new/:niem50_AddressPostalCode |
-
-
 
 
 ## LinkML Source

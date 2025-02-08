@@ -42,30 +42,6 @@ URI: [scales:Firm](http://schemas.scales-okn.org/rdf/scales#Firm)
 
 * 1920886 occurrences with untyped subjects and object type uri.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | scales:Firm |
-| native | scales-kg-new/:scales_Firm |
-
-
 
 
 ## LinkML Source

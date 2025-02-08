@@ -51,30 +51,6 @@ URI: [scales:hasFJCNodeID](http://schemas.scales-okn.org/rdf/scales#hasFJCNodeID
 
 * 3855 occurrences with subject type jxdm72_Judge and object type double.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | scales:hasFJCNodeID |
-| native | scales-kg-new/:scales_hasFJCNodeID |
-
-
 
 
 ## LinkML Source

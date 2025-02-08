@@ -51,30 +51,6 @@ URI: [jxdm72:ChargeSeverityText](http://release.niem.gov/niem/domains/jxdm/7.2/#
 
 * 218372 occurrences with subject type jxdm72_Charge and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:ChargeSeverityText |
-| native | scales-kg-new/:jxdm72_ChargeSeverityText |
-
-
 
 
 ## LinkML Source

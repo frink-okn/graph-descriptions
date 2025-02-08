@@ -51,30 +51,6 @@ URI: [niem50:EndDate](http://release.niem.gov/niem/niem-core/5.0/EndDate)
 
 * 9629 occurrences with subject type scales_Case and object type date.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | niem50:EndDate |
-| native | scales-kg-new/:niem50_EndDate |
-
-
 
 
 ## LinkML Source

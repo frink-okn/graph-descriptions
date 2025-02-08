@@ -51,30 +51,6 @@ URI: [niem50:CaseSubCategoryText](http://release.niem.gov/niem/niem-core/5.0/Cas
 
 * 104 occurrences with subject type scales_Case and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | niem50:CaseSubCategoryText |
-| native | scales-kg-new/:niem50_CaseSubCategoryText |
-
-
 
 
 ## LinkML Source

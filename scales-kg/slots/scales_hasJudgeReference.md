@@ -44,30 +44,6 @@ URI: [scales:hasJudgeReference](http://schemas.scales-okn.org/rdf/scales#hasJudg
 * 6256896 occurrences with untyped subjects and object type jxdm72_Judge.
 * 23177 occurrences with untyped subjects and object type uri.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | scales:hasJudgeReference |
-| native | scales-kg-new/:scales_hasJudgeReference |
-
-
 
 
 ## LinkML Source

@@ -42,30 +42,6 @@ URI: [jxdm72:CaseOfficialRoleText](http://release.niem.gov/niem/domains/jxdm/7.2
 
 * 1119175 occurrences with untyped subjects and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:CaseOfficialRoleText |
-| native | scales-kg-new/:jxdm72_CaseOfficialRoleText |
-
-
 
 
 ## LinkML Source

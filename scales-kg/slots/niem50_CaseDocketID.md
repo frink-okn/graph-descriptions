@@ -54,30 +54,6 @@ URI: [niem50:CaseDocketID](http://release.niem.gov/niem/niem-core/5.0/CaseDocket
 * 272547 occurrences with subject type scales_Case and object type string.
 * 96011 occurrences with subject type jxdm72_Case and object type integer.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | niem50:CaseDocketID |
-| native | scales-kg-new/:niem50_CaseDocketID |
-
-
 
 
 ## LinkML Source

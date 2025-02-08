@@ -122,30 +122,6 @@ URI: [jxdm72:Judge](http://release.niem.gov/niem/domains/jxdm/7.2/#Judge)
 
 
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:Judge |
-| native | scales-kg-new/:Jxdm72Judge |
-
-
 
 
 

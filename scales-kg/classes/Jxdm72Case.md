@@ -69,23 +69,6 @@ URI: [jxdm72:Case](http://release.niem.gov/niem/domains/jxdm/7.2/#Case)
 
 
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:Case |
-| native | scales-kg-new/:Jxdm72Case |
-
-
 
 
 

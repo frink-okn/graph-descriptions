@@ -102,30 +102,6 @@ URI: [jxdm72:Charge](http://release.niem.gov/niem/domains/jxdm/7.2/#Charge)
 
 
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:Charge |
-| native | scales-kg-new/:Jxdm72Charge |
-
-
 
 
 

@@ -42,30 +42,6 @@ URI: [http://schemas.scales-okn.org/rdf/ijp#hasFJCNodeID](http://schemas.scales-
 
 * 3855 occurrences with untyped subjects and object type double.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | http://schemas.scales-okn.org/rdf/ijp#hasFJCNodeID |
-| native | scales-kg-new/:http___schemas.scales_okn.org_rdf_ijp#hasFJCNodeID |
-
-
 
 
 ## LinkML Source

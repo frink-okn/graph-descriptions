@@ -51,30 +51,6 @@ URI: [scales:hasUVAJudgeDirID](http://schemas.scales-okn.org/rdf/scales#hasUVAJu
 
 * 988 occurrences with subject type jxdm72_Judge and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | scales:hasUVAJudgeDirID |
-| native | scales-kg-new/:scales_hasUVAJudgeDirID |
-
-
 
 
 ## LinkML Source

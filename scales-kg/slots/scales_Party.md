@@ -51,30 +51,6 @@ URI: [scales:Party](http://schemas.scales-okn.org/rdf/scales#Party)
 
 * 231186 occurrences with subject type scales_Case and object type uri.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | scales:Party |
-| native | scales-kg-new/:scales_Party |
-
-
 
 
 ## LinkML Source

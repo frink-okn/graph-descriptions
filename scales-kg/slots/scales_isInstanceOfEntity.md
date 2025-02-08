@@ -44,30 +44,6 @@ URI: [scales:isInstanceOfEntity](http://schemas.scales-okn.org/rdf/scales#isInst
 * 939873 occurrences with untyped subjects and object type uri.
 * 715622 occurrences with untyped subjects and object type jxdm72_Judge.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | scales:isInstanceOfEntity |
-| native | scales-kg-new/:scales_isInstanceOfEntity |
-
-
 
 
 ## LinkML Source

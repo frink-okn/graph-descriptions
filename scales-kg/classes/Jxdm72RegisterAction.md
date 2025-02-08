@@ -62,23 +62,6 @@ URI: [jxdm72:RegisterAction](http://release.niem.gov/niem/domains/jxdm/7.2/#Regi
 
 
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:RegisterAction |
-| native | scales-kg-new/:Jxdm72RegisterAction |
-
-
 
 
 

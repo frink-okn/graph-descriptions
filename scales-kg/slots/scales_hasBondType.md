@@ -51,30 +51,6 @@ URI: [scales:hasBondType](http://schemas.scales-okn.org/rdf/scales#hasBondType)
 
 * 76888 occurrences with subject type jxdm72_Charge and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | scales:hasBondType |
-| native | scales-kg-new/:scales_hasBondType |
-
-
 
 
 ## LinkML Source

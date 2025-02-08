@@ -53,30 +53,6 @@ URI: [jxdm72:RegisterActionDate](http://release.niem.gov/niem/domains/jxdm/7.2/#
 * 421518 occurrences with subject type jxdm72_RegisterAction and object type date.
 * 19671603 occurrences with untyped subjects and object type date.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:RegisterActionDate |
-| native | scales-kg-new/:jxdm72_RegisterActionDate |
-
-
 
 
 ## LinkML Source

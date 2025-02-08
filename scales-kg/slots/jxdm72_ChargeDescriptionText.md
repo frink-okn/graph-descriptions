@@ -51,30 +51,6 @@ URI: [jxdm72:ChargeDescriptionText](http://release.niem.gov/niem/domains/jxdm/7.
 
 * 218535 occurrences with subject type jxdm72_Charge and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:ChargeDescriptionText |
-| native | scales-kg-new/:jxdm72_ChargeDescriptionText |
-
-
 
 
 ## LinkML Source

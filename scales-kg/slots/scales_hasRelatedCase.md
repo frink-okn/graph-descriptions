@@ -53,30 +53,6 @@ URI: [scales:hasRelatedCase](http://schemas.scales-okn.org/rdf/scales#hasRelated
 * 4 occurrences with subject type scales_Case and object type scales_Case.
 * 1 occurrences with subject type scales_Case and object type uri.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | scales:hasRelatedCase |
-| native | scales-kg-new/:scales_hasRelatedCase |
-
-
 
 
 ## LinkML Source

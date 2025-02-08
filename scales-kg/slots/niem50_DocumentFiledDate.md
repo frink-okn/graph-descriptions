@@ -51,30 +51,6 @@ URI: [niem50:DocumentFiledDate](http://release.niem.gov/niem/niem-core/5.0/Docum
 
 * 86007 occurrences with subject type jxdm72_ChargeInstrument and object type date.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | niem50:DocumentFiledDate |
-| native | scales-kg-new/:niem50_DocumentFiledDate |
-
-
 
 
 ## LinkML Source

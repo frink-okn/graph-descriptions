@@ -43,30 +43,6 @@ Montgomery, AL 36104 |
 
 * 2023829 occurrences with untyped subjects and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | niem50:ContactMailingAddress |
-| native | scales-kg-new/:niem50_ContactMailingAddress |
-
-
 
 
 ## LinkML Source

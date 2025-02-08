@@ -53,30 +53,6 @@ URI: [jxdm72:RegisterActionDescriptionText](http://release.niem.gov/niem/domains
 * 561095 occurrences with subject type jxdm72_RegisterAction and object type string.
 * 19671841 occurrences with untyped subjects and object type string.
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: scales-kg-new
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:RegisterActionDescriptionText |
-| native | scales-kg-new/:jxdm72_RegisterActionDescriptionText |
-
-
 
 
 ## LinkML Source

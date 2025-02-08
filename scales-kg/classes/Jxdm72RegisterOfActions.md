@@ -58,23 +58,6 @@ URI: [jxdm72:RegisterOfActions](http://release.niem.gov/niem/domains/jxdm/7.2/#R
 | scales/DocketTable/DocketTable/ga-fulton-01-100271 |
 
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | jxdm72:RegisterOfActions |
-| native | scales-kg-new/:Jxdm72RegisterOfActions |
-
-
 
 
 
