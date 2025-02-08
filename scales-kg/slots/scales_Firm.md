@@ -24,7 +24,7 @@ URI: [scales:Firm](http://schemas.scales-okn.org/rdf/scales#Firm)
 
 ## Properties
 
-* Range: [xsd:anyURI](xsd:anyURI)
+* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
 
 
 

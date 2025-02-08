@@ -33,7 +33,7 @@ URI: [jxdm72:ChargeIdentification](http://release.niem.gov/niem/domains/jxdm/7.2
 
 ## Properties
 
-* Range: [xsd:integer](xsd:integer)
+* Range: [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
 
 
 

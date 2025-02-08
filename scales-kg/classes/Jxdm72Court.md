@@ -78,11 +78,11 @@ URI: [jxdm72:Court](http://release.niem.gov/niem/domains/jxdm/7.2/#Court)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [jxdm72_CourtCategoryCode](../slots/jxdm72_CourtCategoryCode.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 94 occurrences with subject type jxdm72_Court and object type string.<br/>94 occurrences with untyped subjects and object type string. | direct |
-| [scales_isInCircuit](../slots/scales_isInCircuit.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 94 occurrences with subject type jxdm72_Court and object type string.<br/>94 occurrences with untyped subjects and object type string. | direct |
-| [http___release.niem.gov_niem_codes_fips_5.0_CountyCode](../slots/http___release.niem.gov_niem_codes_fips_5.0_CountyCode.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 3035 occurrences with subject type jxdm72_Court and object type string. | direct |
-| [jxdm72_CourtName](../slots/jxdm72_CourtName.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 94 occurrences with subject type jxdm72_Court and object type string.<br/>94 occurrences with untyped subjects and object type string. | direct |
-| [niem50_AddressPostalCode](../slots/niem50_AddressPostalCode.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 40932 occurrences with subject type jxdm72_Court and object type string. | direct |
+| [jxdm72_CourtCategoryCode](../slots/jxdm72_CourtCategoryCode.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 94 occurrences with subject type jxdm72_Court and object type string.<br/>94 occurrences with untyped subjects and object type string. | direct |
+| [scales_isInCircuit](../slots/scales_isInCircuit.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 94 occurrences with subject type jxdm72_Court and object type string.<br/>94 occurrences with untyped subjects and object type string. | direct |
+| [http___release.niem.gov_niem_codes_fips_5.0_CountyCode](../slots/http___release.niem.gov_niem_codes_fips_5.0_CountyCode.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 3035 occurrences with subject type jxdm72_Court and object type string. | direct |
+| [jxdm72_CourtName](../slots/jxdm72_CourtName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 94 occurrences with subject type jxdm72_Court and object type string.<br/>94 occurrences with untyped subjects and object type string. | direct |
+| [niem50_AddressPostalCode](../slots/niem50_AddressPostalCode.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 40932 occurrences with subject type jxdm72_Court and object type string. | direct |
 
 
 

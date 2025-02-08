@@ -33,7 +33,7 @@ URI: [rdf:Type](http://www.w3.org/1999/02/22-rdf-syntax-ns#Type)
 
 ## Properties
 
-* Range: [xsd:anyURI](xsd:anyURI)
+* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
 
 
 

@@ -33,7 +33,7 @@ URI: [scales:hasRelatedCase](http://schemas.scales-okn.org/rdf/scales#hasRelated
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ScalesCase](../classes/ScalesCase.md)&nbsp;or&nbsp;<br />[xsd:anyURI](xsd:anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ScalesCase](../classes/ScalesCase.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
 
 
 

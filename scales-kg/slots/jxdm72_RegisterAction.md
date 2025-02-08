@@ -24,7 +24,7 @@ URI: [jxdm72:RegisterAction](http://release.niem.gov/niem/domains/jxdm/7.2/#Regi
 
 ## Properties
 
-* Range: [xsd:anyURI](xsd:anyURI)
+* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
 
 
 

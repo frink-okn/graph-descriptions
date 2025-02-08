@@ -87,12 +87,12 @@ URI: [jxdm72:DetentionFacility](http://release.niem.gov/niem/domains/jxdm/7.2/#D
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [niem50_AddressState](../slots/niem50_AddressState.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 1 occurrences with subject type jxdm72_DetentionFacility and object type string. | direct |
-| [niem50_FacilityDescriptionText](../slots/niem50_FacilityDescriptionText.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 1 occurrences with subject type jxdm72_DetentionFacility and object type string. | direct |
-| [niem50_FacilityName](../slots/niem50_FacilityName.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 1 occurrences with subject type jxdm72_DetentionFacility and object type string. | direct |
-| [niem50_AddressCountyName](../slots/niem50_AddressCountyName.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 1 occurrences with subject type jxdm72_DetentionFacility and object type string. | direct |
-| [niem50_AdministrationId](../slots/niem50_AdministrationId.md) | 0..1 <br/> [xsd:integer](xsd:integer) | No slot (predicate) description specified <br/> 1 occurrences with subject type jxdm72_DetentionFacility and object type integer. | direct |
-| [niem50_AddressCityName](../slots/niem50_AddressCityName.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 1 occurrences with subject type jxdm72_DetentionFacility and object type string. | direct |
+| [niem50_AddressState](../slots/niem50_AddressState.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 1 occurrences with subject type jxdm72_DetentionFacility and object type string. | direct |
+| [niem50_FacilityDescriptionText](../slots/niem50_FacilityDescriptionText.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 1 occurrences with subject type jxdm72_DetentionFacility and object type string. | direct |
+| [niem50_FacilityName](../slots/niem50_FacilityName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 1 occurrences with subject type jxdm72_DetentionFacility and object type string. | direct |
+| [niem50_AddressCountyName](../slots/niem50_AddressCountyName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 1 occurrences with subject type jxdm72_DetentionFacility and object type string. | direct |
+| [niem50_AdministrationId](../slots/niem50_AdministrationId.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot (predicate) description specified <br/> 1 occurrences with subject type jxdm72_DetentionFacility and object type integer. | direct |
+| [niem50_AddressCityName](../slots/niem50_AddressCityName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 1 occurrences with subject type jxdm72_DetentionFacility and object type string. | direct |
 
 
 

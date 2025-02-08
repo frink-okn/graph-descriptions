@@ -33,7 +33,7 @@ URI: [jxdm72:ChargeDescriptionText](http://release.niem.gov/niem/domains/jxdm/7.
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 

@@ -24,7 +24,7 @@ URI: [jxdm72:ChargeText](http://release.niem.gov/niem/domains/jxdm/7.2/#ChargeTe
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 

@@ -88,15 +88,6 @@ ScalesCase ||--|o ScalesCase : "scales_hasRelatedCase"
 ```
 
 
-## IRI prefixes
-
-* jxdm72: http://release.niem.gov/niem/domains/jxdm/7.2/#
-* linkml: https://w3id.org/linkml/
-* niem50: http://release.niem.gov/niem/niem-core/5.0/
-* rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
-* scales: http://schemas.scales-okn.org/rdf/scales#
-
-
 
 ## Classes
 
@@ -208,3 +199,15 @@ ScalesCase ||--|o ScalesCase : "scales_hasRelatedCase"
 
 
 
+
+
+## IRI prefixes
+
+* jxdm72: http://release.niem.gov/niem/domains/jxdm/7.2/#
+* linkml: https://w3id.org/linkml/
+* niem50: http://release.niem.gov/niem/niem-core/5.0/
+* rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+* scales: http://schemas.scales-okn.org/rdf/scales#
+* xsd: http://www.w3.org/2001/XMLSchema#
+* shex: http://www.w3.org/ns/shex#
+* schema: http://schema.org/

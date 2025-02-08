@@ -24,7 +24,7 @@ URI: [scales:hasReferenceToOtherEntry](http://schemas.scales-okn.org/rdf/scales#
 
 ## Properties
 
-* Range: [xsd:anyURI](xsd:anyURI)
+* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
 
 
 

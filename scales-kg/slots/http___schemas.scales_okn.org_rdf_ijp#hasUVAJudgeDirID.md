@@ -24,7 +24,7 @@ URI: [http://schemas.scales-okn.org/rdf/ijp#hasUVAJudgeDirID](http://schemas.sca
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 

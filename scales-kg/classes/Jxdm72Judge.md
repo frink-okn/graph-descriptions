@@ -105,14 +105,14 @@ URI: [jxdm72:Judge](http://release.niem.gov/niem/domains/jxdm/7.2/#Judge)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [jxdm72_JudicialOfficialCategoryText](../slots/jxdm72_JudicialOfficialCategoryText.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 5385 occurrences with subject type jxdm72_Judge and object type string.<br/>5385 occurrences with untyped subjects and object type string. | direct |
-| [scales_hasCommissionDate](../slots/scales_hasCommissionDate.md) | 0..1 <br/> [xsd:date](xsd:date) | No slot (predicate) description specified <br/> 4257 occurrences with subject type jxdm72_Judge and object type date. | direct |
-| [niem50_PersonRaceText](../slots/niem50_PersonRaceText.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 3762 occurrences with subject type jxdm72_Judge and object type string. | direct |
-| [scales_hasUVAJudgeDirID](../slots/scales_hasUVAJudgeDirID.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 988 occurrences with subject type jxdm72_Judge and object type string. | direct |
-| [niem50_PersonFullName](../slots/niem50_PersonFullName.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 4973752 occurrences with untyped subjects and object type string.<br/>5385 occurrences with subject type jxdm72_Judge and object type string. | direct |
-| [niem50_PersonSexText](../slots/niem50_PersonSexText.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 3762 occurrences with subject type jxdm72_Judge and object type string. | direct |
-| [scales_hasFJCNodeID](../slots/scales_hasFJCNodeID.md) | 0..1 <br/> [xsd:double](xsd:double) | No slot (predicate) description specified <br/> 3855 occurrences with subject type jxdm72_Judge and object type double. | direct |
-| [scales_appointedByParty](../slots/scales_appointedByParty.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 3912 occurrences with subject type jxdm72_Judge and object type string. | direct |
+| [jxdm72_JudicialOfficialCategoryText](../slots/jxdm72_JudicialOfficialCategoryText.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 5385 occurrences with subject type jxdm72_Judge and object type string.<br/>5385 occurrences with untyped subjects and object type string. | direct |
+| [scales_hasCommissionDate](../slots/scales_hasCommissionDate.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot (predicate) description specified <br/> 4257 occurrences with subject type jxdm72_Judge and object type date. | direct |
+| [niem50_PersonRaceText](../slots/niem50_PersonRaceText.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 3762 occurrences with subject type jxdm72_Judge and object type string. | direct |
+| [scales_hasUVAJudgeDirID](../slots/scales_hasUVAJudgeDirID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 988 occurrences with subject type jxdm72_Judge and object type string. | direct |
+| [niem50_PersonFullName](../slots/niem50_PersonFullName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 4973752 occurrences with untyped subjects and object type string.<br/>5385 occurrences with subject type jxdm72_Judge and object type string. | direct |
+| [niem50_PersonSexText](../slots/niem50_PersonSexText.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 3762 occurrences with subject type jxdm72_Judge and object type string. | direct |
+| [scales_hasFJCNodeID](../slots/scales_hasFJCNodeID.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/> 3855 occurrences with subject type jxdm72_Judge and object type double. | direct |
+| [scales_appointedByParty](../slots/scales_appointedByParty.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 3912 occurrences with subject type jxdm72_Judge and object type string. | direct |
 
 
 

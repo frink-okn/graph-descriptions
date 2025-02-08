@@ -33,7 +33,7 @@ URI: [http://release.niem.gov/niem/codes/fips/5.0/CountyCode](http://release.nie
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 

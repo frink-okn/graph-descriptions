@@ -33,7 +33,7 @@ URI: [scales:Party](http://schemas.scales-okn.org/rdf/scales#Party)
 
 ## Properties
 
-* Range: [xsd:anyURI](xsd:anyURI)
+* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
 
 
 

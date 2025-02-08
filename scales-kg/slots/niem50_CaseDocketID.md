@@ -23,8 +23,8 @@ URI: [niem50:CaseDocketID](http://release.niem.gov/niem/niem-core/5.0/CaseDocket
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
 | [Jxdm72Case](../classes/Jxdm72Case.md) | No class (type) description specified |  no  |
+| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
 
 
 
@@ -34,7 +34,7 @@ URI: [niem50:CaseDocketID](http://release.niem.gov/niem/niem-core/5.0/CaseDocket
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:integer](xsd:integer)&nbsp;or&nbsp;<br />[xsd:string](xsd:string)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 

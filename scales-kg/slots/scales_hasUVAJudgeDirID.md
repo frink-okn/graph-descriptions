@@ -33,7 +33,7 @@ URI: [scales:hasUVAJudgeDirID](http://schemas.scales-okn.org/rdf/scales#hasUVAJu
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 

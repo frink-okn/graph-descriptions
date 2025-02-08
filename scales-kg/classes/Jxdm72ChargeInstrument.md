@@ -69,10 +69,10 @@ URI: [jxdm72:ChargeInstrument](http://release.niem.gov/niem/domains/jxdm/7.2/#Ch
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [niem50_DocumentFiledDate](../slots/niem50_DocumentFiledDate.md) | 0..1 <br/> [xsd:date](xsd:date) | No slot (predicate) description specified <br/> 86007 occurrences with subject type jxdm72_ChargeInstrument and object type date. | direct |
-| [niem50_DocumentStatus](../slots/niem50_DocumentStatus.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 101588 occurrences with subject type jxdm72_ChargeInstrument and object type string. | direct |
-| [niem50_DocumentEffectiveDate](../slots/niem50_DocumentEffectiveDate.md) | 0..1 <br/> [xsd:date](xsd:date) | No slot (predicate) description specified <br/> 92142 occurrences with subject type jxdm72_ChargeInstrument and object type date. | direct |
-| [niem50_DocumentDescriptionText](../slots/niem50_DocumentDescriptionText.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 94949 occurrences with subject type jxdm72_ChargeInstrument and object type string. | direct |
+| [niem50_DocumentFiledDate](../slots/niem50_DocumentFiledDate.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot (predicate) description specified <br/> 86007 occurrences with subject type jxdm72_ChargeInstrument and object type date. | direct |
+| [niem50_DocumentStatus](../slots/niem50_DocumentStatus.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 101588 occurrences with subject type jxdm72_ChargeInstrument and object type string. | direct |
+| [niem50_DocumentEffectiveDate](../slots/niem50_DocumentEffectiveDate.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot (predicate) description specified <br/> 92142 occurrences with subject type jxdm72_ChargeInstrument and object type date. | direct |
+| [niem50_DocumentDescriptionText](../slots/niem50_DocumentDescriptionText.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 94949 occurrences with subject type jxdm72_ChargeInstrument and object type string. | direct |
 
 
 

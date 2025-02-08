@@ -33,7 +33,7 @@ URI: [jxdm72:CourtName](http://release.niem.gov/niem/domains/jxdm/7.2/#CourtName
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 

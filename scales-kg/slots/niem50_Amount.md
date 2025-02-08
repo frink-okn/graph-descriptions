@@ -24,7 +24,7 @@ URI: [niem50:Amount](http://release.niem.gov/niem/niem-core/5.0/Amount)
 
 ## Properties
 
-* Range: [xsd:float](xsd:float)
+* Range: [xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 

@@ -89,10 +89,10 @@ URI: [jxdm72:Charge](http://release.niem.gov/niem/domains/jxdm/7.2/#Charge)
 | ---  | --- | --- | --- |
 | [jxdm72_ChargeInstrument](../slots/jxdm72_ChargeInstrument.md) | 0..1 <br/> [Jxdm72ChargeInstrument](../classes/Jxdm72ChargeInstrument.md) | No slot (predicate) description specified <br/> 199210 occurrences with subject type jxdm72_Charge and object type jxdm72_ChargeInstrument. | direct |
 | [scales_ChargeCase](../slots/scales_ChargeCase.md) | 0..1 <br/> [Jxdm72Case](../classes/Jxdm72Case.md) | No slot (predicate) description specified <br/> 218359 occurrences with subject type jxdm72_Charge and object type jxdm72_Case. | direct |
-| [scales_hasBondType](../slots/scales_hasBondType.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 76888 occurrences with subject type jxdm72_Charge and object type string. | direct |
-| [jxdm72_ChargeIdentification](../slots/jxdm72_ChargeIdentification.md) | 0..1 <br/> [xsd:integer](xsd:integer) | No slot (predicate) description specified <br/> 218359 occurrences with subject type jxdm72_Charge and object type integer. | direct |
-| [jxdm72_ChargeDescriptionText](../slots/jxdm72_ChargeDescriptionText.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 218535 occurrences with subject type jxdm72_Charge and object type string. | direct |
-| [jxdm72_ChargeSeverityText](../slots/jxdm72_ChargeSeverityText.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 218372 occurrences with subject type jxdm72_Charge and object type string. | direct |
+| [scales_hasBondType](../slots/scales_hasBondType.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 76888 occurrences with subject type jxdm72_Charge and object type string. | direct |
+| [jxdm72_ChargeIdentification](../slots/jxdm72_ChargeIdentification.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot (predicate) description specified <br/> 218359 occurrences with subject type jxdm72_Charge and object type integer. | direct |
+| [jxdm72_ChargeDescriptionText](../slots/jxdm72_ChargeDescriptionText.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 218535 occurrences with subject type jxdm72_Charge and object type string. | direct |
+| [jxdm72_ChargeSeverityText](../slots/jxdm72_ChargeSeverityText.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 218372 occurrences with subject type jxdm72_Charge and object type string. | direct |
 
 
 

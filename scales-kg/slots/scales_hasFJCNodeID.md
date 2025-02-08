@@ -33,7 +33,7 @@ URI: [scales:hasFJCNodeID](http://schemas.scales-okn.org/rdf/scales#hasFJCNodeID
 
 ## Properties
 
-* Range: [xsd:double](xsd:double)
+* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
 
 
 

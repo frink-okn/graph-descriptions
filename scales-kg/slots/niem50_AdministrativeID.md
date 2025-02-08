@@ -24,7 +24,7 @@ URI: [niem50:AdministrativeID](http://release.niem.gov/niem/niem-core/5.0/Admini
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 

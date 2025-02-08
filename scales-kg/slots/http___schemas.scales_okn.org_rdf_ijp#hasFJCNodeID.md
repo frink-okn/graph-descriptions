@@ -24,7 +24,7 @@ URI: [http://schemas.scales-okn.org/rdf/ijp#hasFJCNodeID](http://schemas.scales-
 
 ## Properties
 
-* Range: [xsd:double](xsd:double)
+* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
 
 
 

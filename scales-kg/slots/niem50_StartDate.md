@@ -33,7 +33,7 @@ URI: [niem50:StartDate](http://release.niem.gov/niem/niem-core/5.0/StartDate)
 
 ## Properties
 
-* Range: [xsd:date](xsd:date)
+* Range: [xsd:date](http://www.w3.org/2001/XMLSchema#date)
 
 
 

@@ -33,7 +33,7 @@ URI: [niem50:CaseSubCategoryText](http://release.niem.gov/niem/niem-core/5.0/Cas
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 

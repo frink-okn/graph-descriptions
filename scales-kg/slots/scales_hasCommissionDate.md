@@ -33,7 +33,7 @@ URI: [scales:hasCommissionDate](http://schemas.scales-okn.org/rdf/scales#hasComm
 
 ## Properties
 
-* Range: [xsd:date](xsd:date)
+* Range: [xsd:date](http://www.w3.org/2001/XMLSchema#date)
 
 
 

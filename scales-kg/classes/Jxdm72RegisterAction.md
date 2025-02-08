@@ -51,8 +51,8 @@ URI: [jxdm72:RegisterAction](http://release.niem.gov/niem/domains/jxdm/7.2/#Regi
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [jxdm72_RegisterActionDate](../slots/jxdm72_RegisterActionDate.md) | 0..1 <br/> [xsd:date](xsd:date) | No slot (predicate) description specified <br/> 421518 occurrences with subject type jxdm72_RegisterAction and object type date.<br/>19671603 occurrences with untyped subjects and object type date. | direct |
-| [jxdm72_RegisterActionDescriptionText](../slots/jxdm72_RegisterActionDescriptionText.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 561095 occurrences with subject type jxdm72_RegisterAction and object type string.<br/>19671841 occurrences with untyped subjects and object type string. | direct |
+| [jxdm72_RegisterActionDate](../slots/jxdm72_RegisterActionDate.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot (predicate) description specified <br/> 421518 occurrences with subject type jxdm72_RegisterAction and object type date.<br/>19671603 occurrences with untyped subjects and object type date. | direct |
+| [jxdm72_RegisterActionDescriptionText](../slots/jxdm72_RegisterActionDescriptionText.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/> 561095 occurrences with subject type jxdm72_RegisterAction and object type string.<br/>19671841 occurrences with untyped subjects and object type string. | direct |
 
 
 

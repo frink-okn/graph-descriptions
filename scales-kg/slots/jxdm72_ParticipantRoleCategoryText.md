@@ -24,7 +24,7 @@ URI: [jxdm72:ParticipantRoleCategoryText](http://release.niem.gov/niem/domains/j
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 

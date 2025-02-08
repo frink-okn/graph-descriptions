@@ -33,7 +33,7 @@ URI: [jxdm72:RegisterActionDate](http://release.niem.gov/niem/domains/jxdm/7.2/#
 
 ## Properties
 
-* Range: [xsd:date](xsd:date)
+* Range: [xsd:date](http://www.w3.org/2001/XMLSchema#date)
 
 
 

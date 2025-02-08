@@ -33,7 +33,7 @@ URI: [niem50:AdministrationId](http://release.niem.gov/niem/niem-core/5.0/Admini
 
 ## Properties
 
-* Range: [xsd:integer](xsd:integer)
+* Range: [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
 
 
 

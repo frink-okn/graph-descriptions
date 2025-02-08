@@ -33,7 +33,7 @@ URI: [jxdm72:JudicialOfficialCategoryText](http://release.niem.gov/niem/domains/
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
