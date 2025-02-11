@@ -51,8 +51,8 @@ URI: [hsdo:Organization](http://schema.org/Organization)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [hsdo_sameAs](../slots/hsdo_sameAs.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI) | No slot (predicate) description specified <br/> 127 occurrences with subject type hsdo_Organization and object type uri. | direct |
 | [hsdo_name](../slots/hsdo_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 89 occurrences with subject type hsdo_Organization and object type string.<br/>88 occurrences with subject type hsdo_Service and object type string. | direct |
+| [hsdo_sameAs](../slots/hsdo_sameAs.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI) | No slot (predicate) description specified <br/> 127 occurrences with subject type hsdo_Organization and object type uri. | direct |
 
 
 
@@ -115,8 +115,8 @@ notes:
 from_schema: kg-name
 rank: 1000
 slots:
-- hsdo_sameAs
 - hsdo_name
+- hsdo_sameAs
 class_uri: hsdo:Organization
 
 ```
@@ -135,27 +135,6 @@ notes:
 from_schema: kg-name
 rank: 1000
 attributes:
-  hsdo_sameAs:
-    name: hsdo_sameAs
-    description: No slot (predicate) description specified
-    comments:
-    - 127 occurrences with subject type hsdo_Organization and object type uri.
-    examples:
-    - description: hsdo_Organization → uri
-      object:
-        example_object: https://www.facebook.com/ChildGuidanceResourceCenters
-        example_object_type: uri
-        example_predicate: hsdo:sameAs
-        example_subject: dreamkg:service/provider/4542572480692224
-        example_subject_type: hsdo_Organization
-    from_schema: kg-name
-    rank: 1000
-    slot_uri: hsdo:sameAs
-    alias: hsdo_sameAs
-    owner: hsdo_Organization
-    domain_of:
-    - hsdo_Organization
-    range: uri
   hsdo_name:
     name: hsdo_name
     description: No slot (predicate) description specified
@@ -186,6 +165,27 @@ attributes:
     - hsdo_Organization
     - hsdo_Service
     range: string
+  hsdo_sameAs:
+    name: hsdo_sameAs
+    description: No slot (predicate) description specified
+    comments:
+    - 127 occurrences with subject type hsdo_Organization and object type uri.
+    examples:
+    - description: hsdo_Organization → uri
+      object:
+        example_object: https://www.facebook.com/ChildGuidanceResourceCenters
+        example_object_type: uri
+        example_predicate: hsdo:sameAs
+        example_subject: dreamkg:service/provider/4542572480692224
+        example_subject_type: hsdo_Organization
+    from_schema: kg-name
+    rank: 1000
+    slot_uri: hsdo:sameAs
+    alias: hsdo_sameAs
+    owner: hsdo_Organization
+    domain_of:
+    - hsdo_Organization
+    range: uri
 class_uri: hsdo:Organization
 
 ```
