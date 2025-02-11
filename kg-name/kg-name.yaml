@@ -58,9 +58,9 @@ classes:
     notes:
     - Class with 609 occurrences.
     slots:
+    - hsdo_opens
     - hsdo_dayOfWeek
     - hsdo_closes
-    - hsdo_opens
     title: OpeningHoursSpecification
   hsdo_Organization:
     class_uri: hsdo:Organization
@@ -81,11 +81,11 @@ classes:
     notes:
     - Class with 87 occurrences.
     slots:
-    - hsdo_address
     - hsdo_containedInPlace
     - hsdo_hasMap
-    - hsdo_longitude
     - hsdo_latitude
+    - hsdo_longitude
+    - hsdo_address
     title: Place
   hsdo_Service:
     class_uri: hsdo:Service
@@ -96,14 +96,14 @@ classes:
     notes:
     - Class with 87 occurrences.
     slots:
-    - hsdo_category
-    - hsdo_identifier
-    - hsdo_description
-    - hsdo_areaServed
     - hsdo_hoursAvailable
-    - hsdo_name
+    - hsdo_areaServed
     - hsdo_provider
+    - hsdo_name
     - hsdo_availableChannel
+    - hsdo_description
+    - hsdo_identifier
+    - hsdo_category
     title: Service
   hsdo_ServiceChannel:
     class_uri: hsdo:ServiceChannel
@@ -115,9 +115,9 @@ classes:
     - Class with 174 occurrences.
     slots:
     - hsdo_disambiguatingDescription
-    - hsdo_servicePhone
-    - hsdo_serviceLocation
     - hsdo_serviceUrl
+    - hsdo_serviceLocation
+    - hsdo_servicePhone
     title: ServiceChannel
   hsdo_TextObject:
     class_uri: hsdo:TextObject
@@ -132,12 +132,12 @@ classes:
     - hsdo_conditionsOfAccess
     title: TextObject
 conforms_to: No schema conformance document specified
-created_on: '2025-02-11T17:48:16.789770'
+created_on: '2025-02-11T23:45:24.090114'
 description: No schema description specified
 id: kg-name
 imports:
 - linkml:types
-last_updated_on: '2025-02-11T17:48:16.789770'
+last_updated_on: '2025-02-11T23:45:24.090114'
 license: No schema license specified
 name: kg-name
 prefixes:
@@ -206,8 +206,8 @@ slots:
     slot_uri: hsdo:availableChannel
   hsdo_category:
     any_of:
-    - range: hsdo_Audience
     - range: hsdo_CategoryCode
+    - range: hsdo_Audience
     comments:
     - 539 occurrences with subject type hsdo_Service and object type hsdo_Audience.
     - 806 occurrences with subject type hsdo_Service and object type hsdo_CategoryCode.
