@@ -32,8 +32,8 @@ classes:
     notes:
     - Class with 157 occurrences.
     slots:
-    - hsdo_codeValue
     - hsdo_inCodeSet
+    - hsdo_codeValue
     title: CategoryCode
   hsdo_ContactPoint:
     class_uri: hsdo:ContactPoint
@@ -58,9 +58,9 @@ classes:
     notes:
     - Class with 609 occurrences.
     slots:
-    - hsdo_dayOfWeek
-    - hsdo_opens
     - hsdo_closes
+    - hsdo_opens
+    - hsdo_dayOfWeek
     title: OpeningHoursSpecification
   hsdo_Organization:
     class_uri: hsdo:Organization
@@ -70,8 +70,8 @@ classes:
     notes:
     - Class with 87 occurrences.
     slots:
-    - hsdo_name
     - hsdo_sameAs
+    - hsdo_name
     title: Organization
   hsdo_Place:
     class_uri: hsdo:Place
@@ -81,11 +81,11 @@ classes:
     notes:
     - Class with 87 occurrences.
     slots:
+    - hsdo_latitude
     - hsdo_address
     - hsdo_longitude
-    - hsdo_hasMap
     - hsdo_containedInPlace
-    - hsdo_latitude
+    - hsdo_hasMap
     title: Place
   hsdo_Service:
     class_uri: hsdo:Service
@@ -96,13 +96,13 @@ classes:
     notes:
     - Class with 87 occurrences.
     slots:
-    - hsdo_hoursAvailable
-    - hsdo_provider
-    - hsdo_name
-    - hsdo_availableChannel
-    - hsdo_identifier
     - hsdo_description
     - hsdo_category
+    - hsdo_provider
+    - hsdo_availableChannel
+    - hsdo_name
+    - hsdo_identifier
+    - hsdo_hoursAvailable
     - hsdo_areaServed
     title: Service
   hsdo_ServiceChannel:
@@ -114,9 +114,9 @@ classes:
     notes:
     - Class with 174 occurrences.
     slots:
-    - hsdo_serviceLocation
-    - hsdo_serviceUrl
     - hsdo_disambiguatingDescription
+    - hsdo_serviceUrl
+    - hsdo_serviceLocation
     - hsdo_servicePhone
     title: ServiceChannel
   hsdo_TextObject:
@@ -132,12 +132,12 @@ classes:
     - hsdo_text
     title: TextObject
 conforms_to: No schema conformance document specified
-created_on: '2025-02-11T23:45:44.528351'
+created_on: '2025-02-11T23:46:17.811533'
 description: No schema description specified
 id: kg-name
 imports:
 - linkml:types
-last_updated_on: '2025-02-11T23:45:44.528351'
+last_updated_on: '2025-02-11T23:46:17.811533'
 license: No schema license specified
 name: kg-name
 prefixes:
