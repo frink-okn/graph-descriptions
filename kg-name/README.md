@@ -15,15 +15,15 @@ HsdoAudience {
     string hsdo_audienceType  
 }
 HsdoCategoryCode {
-    uri hsdo_inCodeSet  
     string hsdo_codeValue  
+    uri hsdo_inCodeSet  
 }
 HsdoContactPoint {
     string hsdo_telephone  
 }
 HsdoOpeningHoursSpecification {
-    string hsdo_dayOfWeek  
     string hsdo_opens  
+    string hsdo_dayOfWeek  
     string hsdo_closes  
 }
 HsdoOrganization {
@@ -31,32 +31,32 @@ HsdoOrganization {
     uri hsdo_sameAs  
 }
 HsdoPlace {
-    uri hsdo_hasMap  
-    string hsdo_address  
     decimal hsdo_longitude  
+    string hsdo_address  
     decimal hsdo_latitude  
+    uri hsdo_hasMap  
 }
 HsdoService {
+    string hsdo_identifier  
     string hsdo_name  
     string hsdo_areaServed  
-    string hsdo_identifier  
 }
 HsdoServiceChannel {
     string hsdo_disambiguatingDescription  
     uri hsdo_serviceUrl  
 }
 HsdoTextObject {
-    string hsdo_conditionsOfAccess  
     string hsdo_text  
+    string hsdo_conditionsOfAccess  
 }
 
 HsdoPlace ||--|o HsdoAdministrativeArea : "hsdo_containedInPlace"
-HsdoService ||--|o HsdoTextObject : "hsdo_description"
-HsdoService ||--|o HsdoOrganization : "hsdo_provider"
-HsdoService ||--|o HsdoOpeningHoursSpecification : "hsdo_hoursAvailable"
 HsdoService ||--|o HsdoServiceChannel : "hsdo_availableChannel"
-HsdoService ||--|o HsdoAudience : "hsdo_category"
+HsdoService ||--|o HsdoOrganization : "hsdo_provider"
+HsdoService ||--|o HsdoTextObject : "hsdo_description"
 HsdoService ||--|o HsdoCategoryCode : "hsdo_category"
+HsdoService ||--|o HsdoAudience : "hsdo_category"
+HsdoService ||--|o HsdoOpeningHoursSpecification : "hsdo_hoursAvailable"
 HsdoServiceChannel ||--|o HsdoContactPoint : "hsdo_servicePhone"
 HsdoServiceChannel ||--|o HsdoPlace : "hsdo_serviceLocation"
 
