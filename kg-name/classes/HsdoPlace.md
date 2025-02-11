@@ -79,10 +79,10 @@ URI: [hsdo:Place](http://schema.org/Place)
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
 | [hsdo_latitude](../slots/hsdo_latitude.md) | 0..1 <br/> [xsd:decimal](xsd:decimal) | No slot (predicate) description specified <br/> 89 occurrences with subject type hsdo_Place and object type decimal. | direct |
-| [hsdo_address](../slots/hsdo_address.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 93 occurrences with subject type hsdo_Place and object type string. | direct |
 | [hsdo_longitude](../slots/hsdo_longitude.md) | 0..1 <br/> [xsd:decimal](xsd:decimal) | No slot (predicate) description specified <br/> 89 occurrences with subject type hsdo_Place and object type decimal. | direct |
 | [hsdo_containedInPlace](../slots/hsdo_containedInPlace.md) | 0..1 <br/> [HsdoAdministrativeArea](../classes/HsdoAdministrativeArea.md) | No slot (predicate) description specified <br/> 88 occurrences with subject type hsdo_Place and object type hsdo_AdministrativeArea. | direct |
 | [hsdo_hasMap](../slots/hsdo_hasMap.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI) | No slot (predicate) description specified <br/> 88 occurrences with subject type hsdo_Place and object type uri. | direct |
+| [hsdo_address](../slots/hsdo_address.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 93 occurrences with subject type hsdo_Place and object type string. | direct |
 
 
 
@@ -146,10 +146,10 @@ from_schema: kg-name
 rank: 1000
 slots:
 - hsdo_latitude
-- hsdo_address
 - hsdo_longitude
 - hsdo_containedInPlace
 - hsdo_hasMap
+- hsdo_address
 class_uri: hsdo:Place
 
 ```
@@ -189,27 +189,6 @@ attributes:
     domain_of:
     - hsdo_Place
     range: decimal
-  hsdo_address:
-    name: hsdo_address
-    description: No slot (predicate) description specified
-    comments:
-    - 93 occurrences with subject type hsdo_Place and object type string.
-    examples:
-    - description: hsdo_Place → string
-      object:
-        example_object: 2901 Island Avenue, Philadelphia, PA 19153
-        example_object_type: string
-        example_predicate: hsdo:address
-        example_subject: dreamkg:service/location/4542572480692224
-        example_subject_type: hsdo_Place
-    from_schema: kg-name
-    rank: 1000
-    slot_uri: hsdo:address
-    alias: hsdo_address
-    owner: hsdo_Place
-    domain_of:
-    - hsdo_Place
-    range: string
   hsdo_longitude:
     name: hsdo_longitude
     description: No slot (predicate) description specified
@@ -273,6 +252,27 @@ attributes:
     domain_of:
     - hsdo_Place
     range: uri
+  hsdo_address:
+    name: hsdo_address
+    description: No slot (predicate) description specified
+    comments:
+    - 93 occurrences with subject type hsdo_Place and object type string.
+    examples:
+    - description: hsdo_Place → string
+      object:
+        example_object: 2901 Island Avenue, Philadelphia, PA 19153
+        example_object_type: string
+        example_predicate: hsdo:address
+        example_subject: dreamkg:service/location/4542572480692224
+        example_subject_type: hsdo_Place
+    from_schema: kg-name
+    rank: 1000
+    slot_uri: hsdo:address
+    alias: hsdo_address
+    owner: hsdo_Place
+    domain_of:
+    - hsdo_Place
+    range: string
 class_uri: hsdo:Place
 
 ```

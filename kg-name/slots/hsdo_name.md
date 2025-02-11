@@ -23,8 +23,8 @@ URI: [hsdo:name](http://schema.org/name)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  no  |
 | [HsdoOrganization](../classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
+| [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  no  |
 
 
 

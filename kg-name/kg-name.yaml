@@ -58,8 +58,8 @@ classes:
     notes:
     - Class with 609 occurrences.
     slots:
-    - hsdo_closes
     - hsdo_opens
+    - hsdo_closes
     - hsdo_dayOfWeek
     title: OpeningHoursSpecification
   hsdo_Organization:
@@ -82,10 +82,10 @@ classes:
     - Class with 87 occurrences.
     slots:
     - hsdo_latitude
-    - hsdo_address
     - hsdo_longitude
     - hsdo_containedInPlace
     - hsdo_hasMap
+    - hsdo_address
     title: Place
   hsdo_Service:
     class_uri: hsdo:Service
@@ -96,14 +96,14 @@ classes:
     notes:
     - Class with 87 occurrences.
     slots:
+    - hsdo_availableChannel
+    - hsdo_provider
+    - hsdo_identifier
+    - hsdo_areaServed
+    - hsdo_name
     - hsdo_description
     - hsdo_category
-    - hsdo_provider
-    - hsdo_availableChannel
-    - hsdo_name
-    - hsdo_identifier
     - hsdo_hoursAvailable
-    - hsdo_areaServed
     title: Service
   hsdo_ServiceChannel:
     class_uri: hsdo:ServiceChannel
@@ -114,10 +114,10 @@ classes:
     notes:
     - Class with 174 occurrences.
     slots:
+    - hsdo_servicePhone
+    - hsdo_serviceLocation
     - hsdo_disambiguatingDescription
     - hsdo_serviceUrl
-    - hsdo_serviceLocation
-    - hsdo_servicePhone
     title: ServiceChannel
   hsdo_TextObject:
     class_uri: hsdo:TextObject
@@ -132,12 +132,12 @@ classes:
     - hsdo_text
     title: TextObject
 conforms_to: No schema conformance document specified
-created_on: '2025-02-11T23:46:17.811533'
+created_on: '2025-02-11T23:47:17.062868'
 description: No schema description specified
 id: kg-name
 imports:
 - linkml:types
-last_updated_on: '2025-02-11T23:46:17.811533'
+last_updated_on: '2025-02-11T23:47:17.062868'
 license: No schema license specified
 name: kg-name
 prefixes:
@@ -206,8 +206,8 @@ slots:
     slot_uri: hsdo:availableChannel
   hsdo_category:
     any_of:
-    - range: hsdo_Audience
     - range: hsdo_CategoryCode
+    - range: hsdo_Audience
     comments:
     - 539 occurrences with subject type hsdo_Service and object type hsdo_Audience.
     - 806 occurrences with subject type hsdo_Service and object type hsdo_CategoryCode.
