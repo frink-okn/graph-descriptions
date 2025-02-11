@@ -33,7 +33,7 @@ URI: [hsdo:category](http://schema.org/category)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HsdoCategoryCode](../classes/HsdoCategoryCode.md)&nbsp;or&nbsp;<br />[HsdoAudience](../classes/HsdoAudience.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HsdoAudience](../classes/HsdoAudience.md)&nbsp;or&nbsp;<br />[HsdoCategoryCode](../classes/HsdoCategoryCode.md)
 
 
 
@@ -111,8 +111,8 @@ domain_of:
 - hsdo_Service
 range: Any
 any_of:
-- range: hsdo_CategoryCode
 - range: hsdo_Audience
+- range: hsdo_CategoryCode
 
 ```
 </details>
