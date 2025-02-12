@@ -23,8 +23,8 @@ URI: [hsdo:identifier](http://schema.org/identifier)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoAdministrativeArea](../classes/HsdoAdministrativeArea.md) | A geographical region, typically under the jurisdiction of a particular gover... |  no  |
 | [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  no  |
+| [HsdoAdministrativeArea](../classes/HsdoAdministrativeArea.md) | A geographical region, typically under the jurisdiction of a particular gover... |  no  |
 
 
 
