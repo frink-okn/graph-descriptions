@@ -78,11 +78,11 @@ URI: [hsdo:Place](http://schema.org/Place)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [hsdo_latitude](../slots/hsdo_latitude.md) | 0..1 <br/> [xsd:decimal](xsd:decimal) | No slot (predicate) description specified <br/> 89 occurrences with subject type hsdo_Place and object type decimal. | direct |
-| [hsdo_containedInPlace](../slots/hsdo_containedInPlace.md) | 0..1 <br/> [HsdoAdministrativeArea](../classes/HsdoAdministrativeArea.md) | No slot (predicate) description specified <br/> 88 occurrences with subject type hsdo_Place and object type hsdo_AdministrativeArea. | direct |
 | [hsdo_hasMap](../slots/hsdo_hasMap.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI) | No slot (predicate) description specified <br/> 88 occurrences with subject type hsdo_Place and object type uri. | direct |
-| [hsdo_longitude](../slots/hsdo_longitude.md) | 0..1 <br/> [xsd:decimal](xsd:decimal) | No slot (predicate) description specified <br/> 89 occurrences with subject type hsdo_Place and object type decimal. | direct |
 | [hsdo_address](../slots/hsdo_address.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 93 occurrences with subject type hsdo_Place and object type string. | direct |
+| [hsdo_containedInPlace](../slots/hsdo_containedInPlace.md) | 0..1 <br/> [HsdoAdministrativeArea](../classes/HsdoAdministrativeArea.md) | No slot (predicate) description specified <br/> 88 occurrences with subject type hsdo_Place and object type hsdo_AdministrativeArea. | direct |
+| [hsdo_latitude](../slots/hsdo_latitude.md) | 0..1 <br/> [xsd:decimal](xsd:decimal) | No slot (predicate) description specified <br/> 89 occurrences with subject type hsdo_Place and object type decimal. | direct |
+| [hsdo_longitude](../slots/hsdo_longitude.md) | 0..1 <br/> [xsd:decimal](xsd:decimal) | No slot (predicate) description specified <br/> 89 occurrences with subject type hsdo_Place and object type decimal. | direct |
 
 
 
@@ -145,11 +145,11 @@ notes:
 from_schema: kg-name
 rank: 1000
 slots:
-- hsdo_latitude
-- hsdo_containedInPlace
 - hsdo_hasMap
-- hsdo_longitude
 - hsdo_address
+- hsdo_containedInPlace
+- hsdo_latitude
+- hsdo_longitude
 class_uri: hsdo:Place
 
 ```
@@ -168,48 +168,6 @@ notes:
 from_schema: kg-name
 rank: 1000
 attributes:
-  hsdo_latitude:
-    name: hsdo_latitude
-    description: No slot (predicate) description specified
-    comments:
-    - 89 occurrences with subject type hsdo_Place and object type decimal.
-    examples:
-    - description: hsdo_Place → decimal
-      object:
-        example_object: '39.9028317'
-        example_object_type: decimal
-        example_predicate: hsdo:latitude
-        example_subject: dreamkg:service/location/4542572480692224
-        example_subject_type: hsdo_Place
-    from_schema: kg-name
-    rank: 1000
-    slot_uri: hsdo:latitude
-    alias: hsdo_latitude
-    owner: hsdo_Place
-    domain_of:
-    - hsdo_Place
-    range: decimal
-  hsdo_containedInPlace:
-    name: hsdo_containedInPlace
-    description: No slot (predicate) description specified
-    comments:
-    - 88 occurrences with subject type hsdo_Place and object type hsdo_AdministrativeArea.
-    examples:
-    - description: hsdo_Place → hsdo_AdministrativeArea
-      object:
-        example_object: dreamkg:zip/19104
-        example_object_type: hsdo_AdministrativeArea
-        example_predicate: hsdo:containedInPlace
-        example_subject: dreamkg:service/location/6710596967858176
-        example_subject_type: hsdo_Place
-    from_schema: kg-name
-    rank: 1000
-    slot_uri: hsdo:containedInPlace
-    alias: hsdo_containedInPlace
-    owner: hsdo_Place
-    domain_of:
-    - hsdo_Place
-    range: hsdo_AdministrativeArea
   hsdo_hasMap:
     name: hsdo_hasMap
     description: No slot (predicate) description specified
@@ -231,27 +189,6 @@ attributes:
     domain_of:
     - hsdo_Place
     range: uri
-  hsdo_longitude:
-    name: hsdo_longitude
-    description: No slot (predicate) description specified
-    comments:
-    - 89 occurrences with subject type hsdo_Place and object type decimal.
-    examples:
-    - description: hsdo_Place → decimal
-      object:
-        example_object: '-75.239064'
-        example_object_type: decimal
-        example_predicate: hsdo:longitude
-        example_subject: dreamkg:service/location/4542572480692224
-        example_subject_type: hsdo_Place
-    from_schema: kg-name
-    rank: 1000
-    slot_uri: hsdo:longitude
-    alias: hsdo_longitude
-    owner: hsdo_Place
-    domain_of:
-    - hsdo_Place
-    range: decimal
   hsdo_address:
     name: hsdo_address
     description: No slot (predicate) description specified
@@ -273,6 +210,69 @@ attributes:
     domain_of:
     - hsdo_Place
     range: string
+  hsdo_containedInPlace:
+    name: hsdo_containedInPlace
+    description: No slot (predicate) description specified
+    comments:
+    - 88 occurrences with subject type hsdo_Place and object type hsdo_AdministrativeArea.
+    examples:
+    - description: hsdo_Place → hsdo_AdministrativeArea
+      object:
+        example_object: dreamkg:zip/19104
+        example_object_type: hsdo_AdministrativeArea
+        example_predicate: hsdo:containedInPlace
+        example_subject: dreamkg:service/location/6710596967858176
+        example_subject_type: hsdo_Place
+    from_schema: kg-name
+    rank: 1000
+    slot_uri: hsdo:containedInPlace
+    alias: hsdo_containedInPlace
+    owner: hsdo_Place
+    domain_of:
+    - hsdo_Place
+    range: hsdo_AdministrativeArea
+  hsdo_latitude:
+    name: hsdo_latitude
+    description: No slot (predicate) description specified
+    comments:
+    - 89 occurrences with subject type hsdo_Place and object type decimal.
+    examples:
+    - description: hsdo_Place → decimal
+      object:
+        example_object: '39.9028317'
+        example_object_type: decimal
+        example_predicate: hsdo:latitude
+        example_subject: dreamkg:service/location/4542572480692224
+        example_subject_type: hsdo_Place
+    from_schema: kg-name
+    rank: 1000
+    slot_uri: hsdo:latitude
+    alias: hsdo_latitude
+    owner: hsdo_Place
+    domain_of:
+    - hsdo_Place
+    range: decimal
+  hsdo_longitude:
+    name: hsdo_longitude
+    description: No slot (predicate) description specified
+    comments:
+    - 89 occurrences with subject type hsdo_Place and object type decimal.
+    examples:
+    - description: hsdo_Place → decimal
+      object:
+        example_object: '-75.239064'
+        example_object_type: decimal
+        example_predicate: hsdo:longitude
+        example_subject: dreamkg:service/location/4542572480692224
+        example_subject_type: hsdo_Place
+    from_schema: kg-name
+    rank: 1000
+    slot_uri: hsdo:longitude
+    alias: hsdo_longitude
+    owner: hsdo_Place
+    domain_of:
+    - hsdo_Place
+    range: decimal
 class_uri: hsdo:Place
 
 ```
