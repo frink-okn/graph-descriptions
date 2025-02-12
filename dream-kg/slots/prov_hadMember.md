@@ -33,7 +33,7 @@ URI: [prov:hadMember](http://www.w3.org/ns/prov#hadMember)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HsdoWebPage](../classes/HsdoWebPage.md)&nbsp;or&nbsp;<br />[HsdoOrganization](../classes/HsdoOrganization.md)&nbsp;or&nbsp;<br />[HsdoPlace](../classes/HsdoPlace.md)&nbsp;or&nbsp;<br />[HsdoService](../classes/HsdoService.md)&nbsp;or&nbsp;<br />[ProvEntity](../classes/ProvEntity.md)&nbsp;or&nbsp;<br />[HsdoTextObject](../classes/HsdoTextObject.md)&nbsp;or&nbsp;<br />[HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md)&nbsp;or&nbsp;<br />[HsdoContactPoint](../classes/HsdoContactPoint.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HsdoPlace](../classes/HsdoPlace.md)&nbsp;or&nbsp;<br />[HsdoService](../classes/HsdoService.md)&nbsp;or&nbsp;<br />[HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md)&nbsp;or&nbsp;<br />[HsdoTextObject](../classes/HsdoTextObject.md)&nbsp;or&nbsp;<br />[HsdoWebPage](../classes/HsdoWebPage.md)&nbsp;or&nbsp;<br />[ProvEntity](../classes/ProvEntity.md)&nbsp;or&nbsp;<br />[HsdoContactPoint](../classes/HsdoContactPoint.md)&nbsp;or&nbsp;<br />[HsdoOrganization](../classes/HsdoOrganization.md)
 
 
 
@@ -171,14 +171,14 @@ domain_of:
 - prov_Collection
 range: Any
 any_of:
-- range: hsdo_WebPage
-- range: hsdo_Organization
 - range: hsdo_Place
 - range: hsdo_Service
-- range: prov_Entity
-- range: hsdo_TextObject
 - range: hsdo_OpeningHoursSpecification
+- range: hsdo_TextObject
+- range: hsdo_WebPage
+- range: prov_Entity
 - range: hsdo_ContactPoint
+- range: hsdo_Organization
 
 ```
 </details>
