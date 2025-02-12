@@ -6,7 +6,7 @@ It is generated first by assembling a [LinkML schema](https://linkml.io/linkml/s
 
 ## Improving graph descriptions
 
-If you wish to improve the descriptions of your graph's entity types and predicates, then you may introduce certain information (in the form of triples) to the data you submit to LakeFS. This information will then update any indicators of absent informatoin that you may encounter in the generated graph documentation.
+If you wish to improve the descriptions of your graph's entity types and predicates, then you may introduce certain information (in the form of triples) to the data you submit to LakeFS. This information will then update any indicators of absent information that you may encounter in the generated graph documentation.
 
 All [CURIEs](https://www.w3.org/TR/curie/) below are defined through the URLs of the hyperlinks when those CURIEs are first introduced.
 
@@ -107,8 +107,9 @@ In the following table, only one triple of each type will be reflected in the do
 
 | Subject | Predicate | Object | Notes |
 | --- | --- | --- | --- |
-| example:myClass | [dct:description](http://purl.org/dc/terms/description) | "Description of the class" | :white_check_mark: Required (either this or skos:definition) |
-| example:myClass | [skos:definition](http://www.w3.org/2004/02/skos/core#definition) | "Description of the class" | :white_check_mark: Required (either this or dct:description) |
+| example:myClass | [dct:description](http://purl.org/dc/terms/description) | "Description of the class" | :white_check_mark: Required (either this, skos:definition, or rdfs:comment) |
+| example:myClass | [skos:definition](http://www.w3.org/2004/02/skos/core#definition) | "Description of the class" | :white_check_mark: Required (either this, dct:description, or rdfs:comment) |
+| example:myClass | [rdfs:comment](http://www.w3.org/2000/01/rdf-schema#comment) | "Description of the class" | :white_check_mark: Required (either this, dct:description, or skos:definition) |
 | example:myClass | [dct:title](http://purl.org/dc/terms/title) | "Title of the class" | :white_check_mark: Required (either this or rdfs:label) |
 | example:myClass | [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label) | "Title of the class" | :white_check_mark: Required (either this or dct:title) |
 | example:myClass | [owl:deprecated](http://www.w3.org/2002/07/owl#deprecated) | "This element has been deprecated since ... because ..." | |
@@ -129,7 +130,6 @@ In the following table, multiple triples of each type will be reflected in the d
 | example:myClass | [skos:editorialNote](http://www.w3.org/2004/02/skos/core#editorialNote) | "Here's an editorial note about this class..." | [^1] |
 | example:myClass | [skos:historyNote](http://www.w3.org/2004/02/skos/core#historyNote) | "Here's a note about the history of this class..." | [^1] |
 | example:myClass | [skos:scopeNote](http://www.w3.org/2004/02/skos/core#scopeNote) | "Here's a note about the scope of this class..." | [^1] |
-| example:myClass | [rdfs:comment](http://www.w3.org/2000/01/rdf-schema#comment) | "Here's a comment about this class..." | [^1] |
 | example:myClass | [rdfs:seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso) | https://path.to/another/relevant/uri/of/some/kind |  |
 | example:myClass | [skos:altLabel](http://www.w3.org/2004/02/skos/core#altLabel) | "Alternate name for this class" |  |
 | example:myClass | [skos:mappingRelation](http://www.w3.org/2004/02/skos/core#altLabel) | https://path.to/uri/that/maps/to/myClass | Object must be a URI. |
@@ -138,7 +138,6 @@ In the following table, multiple triples of each type will be reflected in the d
 | example:myClass | [skos:relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) | https://path.to/uri/that/is/related/to/myClass | Object must be a URI. |
 | example:myClass | [skos:narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) | https://path.to/uri/that/narrowly/matches/myClass | Object must be a URI. |
 | example:myClass | [skos:broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) | https://path.to/uri/that/broadly/matches/myClass | Object must be a URI. |
-| example:myClass | [dct:contributor](http://purl.org/dc/terms/contributor) | http://github.com/nsf-open | Object must be a URI. |
 | example:myClass | [dct:contributor](http://purl.org/dc/terms/contributor) | http://github.com/nsf-open | Object must be a URI. |
 | example:myClass | [dcat:theme](https://www.w3.org/ns/dcat#theme) | https://path.to/category/in/some/scheme | Object must be a URI. |
 | example:myClass | [dcat:keyword](https://www.w3.org/ns/dcat#keyword) | "exemplary class" | |
@@ -160,12 +159,15 @@ Please let [Mahir](mailto:mmorshed@scripps.edu) know if the graph documentation 
 
 ### Classes (owl:Class or rdfs:Class)
 
-Each entity type in your graph should be an [rdfs:Class](http://www.w3.org/2000/01/rdf-schema#Class) or an [owl:Class](http://www.w3.org/2002/07/owl#Class). Thus either of the following triples must be present for an entity type with the CURIE "example:myClass"--it is not necessary to have both:
+Each entity type in your graph should have at least one of the following triples present. The example type in the following has the CURIE "example:myClass".
 
-| Subject | Predicate | Object |
-| --- | --- | --- |
-| example:myClass | [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | rdfs:Class |
-| example:myClass | [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | owl:Class |
+| Subject | Predicate | Object | Notes |
+| --- | --- | --- | --- |
+| example:myClass | [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | [rdfs:Class](http://www.w3.org/2000/01/rdf-schema#Class) | :white_check_mark: Required (either this or owl:Class) |
+| example:myClass | [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | [owl:Class](http://www.w3.org/2002/07/owl#Class) | :white_check_mark: Required (either this or rdfs:Class) |
+| example:myClass | [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | [owl:DeprecatedClass](http://www.w3.org/2002/07/owl#Class) | [^2] |
+
+[^2]: The named characteristic of the class type will be reflected in the class documentation.
 
 In addition to the triples described in the section "Documentation triples for any object" above, the following triples will have the following effects which it is hoped are understood from the examples given:
 
@@ -186,14 +188,14 @@ Each predicate in your graph should be at least one of a number of possible type
 | example:myPredicate | [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | [owl:DatatypeProperty](http://www.w3.org/2002/07/owl#DatatypeProperty) | |
 | example:myPredicate | [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | [owl:AnnotationProperty](http://www.w3.org/2002/07/owl#AnnotationProperty) | |
 | example:myPredicate | [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty) | |
-| example:myPredicate | [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | [owl:SymmetricProperty](http://www.w3.org/2002/07/owl#SymmetricProperty) | [^2] |
-| example:myPredicate | [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | [owl:AsymmetricProperty](http://www.w3.org/2002/07/owl#AsymmetricProperty) | [^2] |
-| example:myPredicate | [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | [owl:IrreflexiveProperty](http://www.w3.org/2002/07/owl#IrreflexiveProperty) | [^2] |
-| example:myPredicate | [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | [owl:ReflexiveProperty](http://www.w3.org/2002/07/owl#ReflexiveProperty) | [^2] |
-| example:myPredicate | [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | [owl:TransitiveProperty](http://www.w3.org/2002/07/owl#TransitiveProperty) | [^2] |
-| example:myPredicate | [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | [owl:FunctionalProperty](http://www.w3.org/2002/07/owl#FunctionalProperty) | [^2] |
+| example:myPredicate | [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | [owl:SymmetricProperty](http://www.w3.org/2002/07/owl#SymmetricProperty) | [^3] |
+| example:myPredicate | [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | [owl:AsymmetricProperty](http://www.w3.org/2002/07/owl#AsymmetricProperty) | [^3] |
+| example:myPredicate | [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | [owl:IrreflexiveProperty](http://www.w3.org/2002/07/owl#IrreflexiveProperty) | [^3] |
+| example:myPredicate | [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | [owl:ReflexiveProperty](http://www.w3.org/2002/07/owl#ReflexiveProperty) | [^3] |
+| example:myPredicate | [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | [owl:TransitiveProperty](http://www.w3.org/2002/07/owl#TransitiveProperty) | [^3] |
+| example:myPredicate | [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | [owl:FunctionalProperty](http://www.w3.org/2002/07/owl#FunctionalProperty) | [^3] |
 
-[^2]: The named characteristic of the predicate type will be reflected in the predicate documentation.
+[^3]: The named characteristic of the predicate type will be reflected in the predicate documentation.
 
 The following triples will have the following effects which it is hoped are understood from the examples given:
 
