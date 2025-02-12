@@ -2,7 +2,7 @@
 
 This repository holds information about individual Theme 1 graphs based on the data provided for those graphs in FRINK's LakeFS repository.
 
-It is generated first by assembling a [LinkML schema](https://linkml.io/linkml/schemas/index.html), compiling information about the graph through iteration over its triples, and then using a modification of [this documentation generator](https://linkml.io/linkml/generators/markdown.html) to produce readable pages with class diagrams from that schema.
+It is generated first by assembling a [LinkML schema](https://linkml.io/linkml/schemas/index.html), compiling information about the graph through iteration over its triples, and then using [a modification of](https://github.com/frink-okn/schema-gen) [LinkML's Markdown documentation generator](https://linkml.io/linkml/generators/markdown.html) to produce readable pages with class diagrams from that schema.
 
 ## Improving graph descriptions
 
@@ -143,7 +143,7 @@ In the following table, multiple triples of each type will be reflected in the d
 | example:myClass | [dcat:keyword](https://www.w3.org/ns/dcat#keyword) | "exemplary class" | |
 | example:myClass | [schema:keywords](https://schema.org/keywords) | "exemplary class" | |
 
-[^1]: LinkML specifies that notes be intended either for internal consumption (e.g. for other ontology developers) or for external consumption (e.g. for end-users of the ontology). At the moment all skos: note triples are treated as internal notes while rdfs:comment triples are treated as external notes; let [Mahir](mailto:mmorshed@scripps.edu) know if you think they should be treated in some other way.
+[^1]: LinkML specifies that notes be intended either for internal consumption (e.g. for other ontology developers) or for external consumption (e.g. for end-users of the ontology). At the moment all skos: note triples are treated as internal notes; let [Mahir](mailto:mmorshed@scripps.edu) know if you think they should be treated in some other way.
 
 ### Ontology (owl:Ontology)
 
