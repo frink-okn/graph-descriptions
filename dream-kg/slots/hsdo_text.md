@@ -1,12 +1,16 @@
 
 
-# Slot: hsdo_text
+# Slot: text (hsdo_text)
 
 
-_No slot (predicate) description specified_
+_The textual content of this CreativeWork._
 
 
 
+
+
+
+This slot occurs 90 times.
 
 
 URI: [hsdo:text](http://schema.org/text)
@@ -23,7 +27,7 @@ URI: [hsdo:text](http://schema.org/text)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoTextObject](../classes/HsdoTextObject.md) | A text file |  no  |
+| [HsdoTextObject](../classes/HsdoTextObject.md) | A text file |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [hsdo:text](http://schema.org/text)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,37 +46,9 @@ URI: [hsdo:text](http://schema.org/text)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| hsdo_TextObject → string | dreamkg:service/desc/4542572480692224 | hsdo:text | Child Guidance Resource Centers offers a supportive and effective program specifically for teenagers struggling with addiction. The Drug and Alcohol Service (D and A) is an extensive, family-based program that focuses on education, treatment and recovery from substance abuse. We supportively confront and coach our clients through the personal, academic, social and family problems created by and participating in the use of drugs and alcohol.Our treatment includes- Individual therapy- Family therapy- Group therapy- Relapse prevention techniques - After-care planningChild Guidance Resource Centers accepts Medicaid for their services. |
-
-
-## Comments
-
-* 90 occurrences with subject type hsdo_TextObject and object type string.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: dream-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | hsdo:text |
-| native | dream-kg/:hsdo_text |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| hsdo_TextObject | string | dreamkg:service/desc/6354456388829184 | Centralized Homeless Intake Services includes an assessment of eligibility and service needs of persons and families presenting for placement into emergency housing. If eligible, persons and families are placed in appropriate emergency housing, boarding homes, or other alternative housing. Services include:- Temporary shelter- Ongoing case management services- Assistance with obtaining transitional and/or permanent housing- Supportive housing for special populations- An optional savings program which allows households to save a part of their income for future housing expensesMental health assessments and referrals to drug/alcohol treatment, health services, children and youth services, legal services and veteran's services, etc., are provided as needed to clients of the program.- Connecting Services to other community resources- ScreeningIf you are currently experiencing homelessness, please call us during business hours. You must go through central intake for an initial assessment of your housing needs before placement into the homeless housing system. | 90 |
 
 
 
@@ -80,26 +56,35 @@ URI: [hsdo:text](http://schema.org/text)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: hsdo_text
-description: No slot (predicate) description specified
-comments:
-- 90 occurrences with subject type hsdo_TextObject and object type string.
+annotations:
+  count:
+    tag: count
+    value: 90
+description: The textual content of this CreativeWork.
+title: text
 examples:
-- description: hsdo_TextObject → string
+- description: hsdo_TextObject→string
   object:
-    example_object: Child Guidance Resource Centers offers a supportive and effective
-      program specifically for teenagers struggling with addiction. The Drug and Alcohol
-      Service (D and A) is an extensive, family-based program that focuses on education,
-      treatment and recovery from substance abuse. We supportively confront and coach
-      our clients through the personal, academic, social and family problems created
-      by and participating in the use of drugs and alcohol.Our treatment includes-
-      Individual therapy- Family therapy- Group therapy- Relapse prevention techniques
-      - After-care planningChild Guidance Resource Centers accepts Medicaid for their
-      services.
+    example_object: Centralized Homeless Intake Services includes an assessment of
+      eligibility and service needs of persons and families presenting for placement
+      into emergency housing. If eligible, persons and families are placed in appropriate
+      emergency housing, boarding homes, or other alternative housing. Services include:-
+      Temporary shelter- Ongoing case management services- Assistance with obtaining
+      transitional and/or permanent housing- Supportive housing for special populations-
+      An optional savings program which allows households to save a part of their
+      income for future housing expensesMental health assessments and referrals to
+      drug/alcohol treatment, health services, children and youth services, legal
+      services and veteran's services, etc., are provided as needed to clients of
+      the program.- Connecting Services to other community resources- ScreeningIf
+      you are currently experiencing homelessness, please call us during business
+      hours. You must go through central intake for an initial assessment of your
+      housing needs before placement into the homeless housing system.
     example_object_type: string
     example_predicate: hsdo:text
-    example_subject: dreamkg:service/desc/4542572480692224
+    example_subject: dreamkg:service/desc/6354456388829184
     example_subject_type: hsdo_TextObject
 from_schema: dream-kg
 rank: 1000

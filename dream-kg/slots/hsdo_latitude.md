@@ -1,12 +1,16 @@
 
 
-# Slot: hsdo_latitude
+# Slot: latitude (hsdo_latitude)
 
 
-_No slot (predicate) description specified_
+_The latitude of a location. For example ```37.42242``` ([WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System))._
 
 
 
+
+
+
+This slot occurs 89 times.
 
 
 URI: [hsdo:latitude](http://schema.org/latitude)
@@ -23,7 +27,7 @@ URI: [hsdo:latitude](http://schema.org/latitude)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoPlace](../classes/HsdoPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
+| [HsdoPlace](../classes/HsdoPlace.md) | Entities that have a somewhat fixed, physical extension |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [hsdo:latitude](http://schema.org/latitude)
 
 ## Properties
 
-* Range: [xsd:decimal](xsd:decimal)
+* Range: [xsd:decimal](http://www.w3.org/2001/XMLSchema#decimal)
 
 
 
@@ -42,37 +46,9 @@ URI: [hsdo:latitude](http://schema.org/latitude)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| hsdo_Place → decimal | dreamkg:service/location/4542572480692224 | hsdo:latitude | 39.9028317 |
-
-
-## Comments
-
-* 89 occurrences with subject type hsdo_Place and object type decimal.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: dream-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | hsdo:latitude |
-| native | dream-kg/:hsdo_latitude |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| hsdo_Place | decimal | dreamkg:service/location/5552002522939392 | 40.0079322 | 89 |
 
 
 
@@ -80,18 +56,22 @@ URI: [hsdo:latitude](http://schema.org/latitude)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: hsdo_latitude
-description: No slot (predicate) description specified
-comments:
-- 89 occurrences with subject type hsdo_Place and object type decimal.
+annotations:
+  count:
+    tag: count
+    value: 89
+description: The latitude of a location. For example ```37.42242``` ([WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System)).
+title: latitude
 examples:
-- description: hsdo_Place → decimal
+- description: hsdo_Place→decimal
   object:
-    example_object: '39.9028317'
+    example_object: '40.0079322'
     example_object_type: decimal
     example_predicate: hsdo:latitude
-    example_subject: dreamkg:service/location/4542572480692224
+    example_subject: dreamkg:service/location/5552002522939392
     example_subject_type: hsdo_Place
 from_schema: dream-kg
 rank: 1000

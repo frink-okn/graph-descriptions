@@ -1,12 +1,16 @@
 
 
-# Slot: hsdo_sameAs
+# Slot: sameAs (hsdo_sameAs)
 
 
-_No slot (predicate) description specified_
+_URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website._
 
 
 
+
+
+
+This slot occurs 127 times.
 
 
 URI: [hsdo:sameAs](http://schema.org/sameAs)
@@ -23,7 +27,7 @@ URI: [hsdo:sameAs](http://schema.org/sameAs)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoOrganization](../classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
+| [HsdoOrganization](../classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [hsdo:sameAs](http://schema.org/sameAs)
 
 ## Properties
 
-* Range: [xsd:anyURI](xsd:anyURI)
+* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
 
 
 
@@ -42,37 +46,9 @@ URI: [hsdo:sameAs](http://schema.org/sameAs)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| hsdo_Organization → uri | dreamkg:service/provider/4542572480692224 | hsdo:sameAs | https://www.facebook.com/ChildGuidanceResourceCenters |
-
-
-## Comments
-
-* 127 occurrences with subject type hsdo_Organization and object type uri.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: dream-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | hsdo:sameAs |
-| native | dream-kg/:hsdo_sameAs |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| hsdo_Organization | uri | dreamkg:service/provider/5017006984921088 | https://www.facebook.com/sainthelenaparish | 127 |
 
 
 
@@ -80,18 +56,23 @@ URI: [hsdo:sameAs](http://schema.org/sameAs)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: hsdo_sameAs
-description: No slot (predicate) description specified
-comments:
-- 127 occurrences with subject type hsdo_Organization and object type uri.
+annotations:
+  count:
+    tag: count
+    value: 127
+description: URL of a reference Web page that unambiguously indicates the item's identity.
+  E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website.
+title: sameAs
 examples:
-- description: hsdo_Organization → uri
+- description: hsdo_Organization→uri
   object:
-    example_object: https://www.facebook.com/ChildGuidanceResourceCenters
+    example_object: https://www.facebook.com/sainthelenaparish
     example_object_type: uri
     example_predicate: hsdo:sameAs
-    example_subject: dreamkg:service/provider/4542572480692224
+    example_subject: dreamkg:service/provider/5017006984921088
     example_subject_type: hsdo_Organization
 from_schema: dream-kg
 rank: 1000

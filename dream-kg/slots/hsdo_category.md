@@ -1,12 +1,16 @@
 
 
-# Slot: hsdo_category
+# Slot: category (hsdo_category)
 
 
-_No slot (predicate) description specified_
+_A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy._
 
 
 
+
+
+
+This slot occurs 1345 times.
 
 
 URI: [hsdo:category](http://schema.org/category)
@@ -23,7 +27,7 @@ URI: [hsdo:category](http://schema.org/category)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  no  |
+| [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [hsdo:category](http://schema.org/category)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HsdoAudience](../classes/HsdoAudience.md)&nbsp;or&nbsp;<br />[HsdoCategoryCode](../classes/HsdoCategoryCode.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HsdoCategoryCode](../classes/HsdoCategoryCode.md)&nbsp;or&nbsp;<br />[HsdoAudience](../classes/HsdoAudience.md)
 
 
 
@@ -42,39 +46,10 @@ URI: [hsdo:category](http://schema.org/category)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| hsdo_Service → hsdo_Audience | dreamkg:service/6710596967858176 | hsdo:category | dreamkg:category/audience/Veterans |
-| hsdo_Service → hsdo_CategoryCode | dreamkg:service/6710596967858176 | hsdo:category | dreamkg:category/service/other/SkillsAndTraining |
-
-
-## Comments
-
-* 539 occurrences with subject type hsdo_Service and object type hsdo_Audience.
-* 806 occurrences with subject type hsdo_Service and object type hsdo_CategoryCode.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: dream-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | hsdo:category |
-| native | dream-kg/:hsdo_category |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| hsdo_Service | hsdo_CategoryCode | dreamkg:service/6379467169595392 | dreamkg:category/service/main/AddictionAndRecovery | 806 |
+| hsdo_Service | hsdo_Audience | dreamkg:service/6379467169595392 | dreamkg:category/audience/SubstanceDependency | 539 |
 
 
 
@@ -82,26 +57,30 @@ URI: [hsdo:category](http://schema.org/category)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: hsdo_category
-description: No slot (predicate) description specified
-comments:
-- 539 occurrences with subject type hsdo_Service and object type hsdo_Audience.
-- 806 occurrences with subject type hsdo_Service and object type hsdo_CategoryCode.
+annotations:
+  count:
+    tag: count
+    value: 1345
+description: A category for the item. Greater signs or slashes can be used to informally
+  indicate a category hierarchy.
+title: category
 examples:
-- description: hsdo_Service → hsdo_Audience
+- description: hsdo_Service→hsdo_CategoryCode
   object:
-    example_object: dreamkg:category/audience/Veterans
-    example_object_type: hsdo_Audience
-    example_predicate: hsdo:category
-    example_subject: dreamkg:service/6710596967858176
-    example_subject_type: hsdo_Service
-- description: hsdo_Service → hsdo_CategoryCode
-  object:
-    example_object: dreamkg:category/service/other/SkillsAndTraining
+    example_object: dreamkg:category/service/main/AddictionAndRecovery
     example_object_type: hsdo_CategoryCode
     example_predicate: hsdo:category
-    example_subject: dreamkg:service/6710596967858176
+    example_subject: dreamkg:service/6379467169595392
+    example_subject_type: hsdo_Service
+- description: hsdo_Service→hsdo_Audience
+  object:
+    example_object: dreamkg:category/audience/SubstanceDependency
+    example_object_type: hsdo_Audience
+    example_predicate: hsdo:category
+    example_subject: dreamkg:service/6379467169595392
     example_subject_type: hsdo_Service
 from_schema: dream-kg
 rank: 1000
@@ -111,8 +90,8 @@ domain_of:
 - hsdo_Service
 range: Any
 any_of:
-- range: hsdo_Audience
 - range: hsdo_CategoryCode
+- range: hsdo_Audience
 
 ```
 </details>

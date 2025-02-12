@@ -1,12 +1,16 @@
 
 
-# Slot: hsdo_conditionsOfAccess
+# Slot: conditionsOfAccess (hsdo_conditionsOfAccess)
 
 
-_No slot (predicate) description specified_
+_Conditions that affect the availability of, or method(s) of access to, an item. Typically used for real world items such as an [[ArchiveComponent]] held by an [[ArchiveOrganization]]. This property is not suitable for use as a general Web access control mechanism. It is expressed only in natural language.\n\nFor example "Available by appointment from the Reading Room" or "Accessible only from logged-in accounts ". _
 
 
 
+
+
+
+This slot occurs 88 times.
 
 
 URI: [hsdo:conditionsOfAccess](http://schema.org/conditionsOfAccess)
@@ -23,7 +27,7 @@ URI: [hsdo:conditionsOfAccess](http://schema.org/conditionsOfAccess)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoTextObject](../classes/HsdoTextObject.md) | A text file |  no  |
+| [HsdoTextObject](../classes/HsdoTextObject.md) | A text file |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [hsdo:conditionsOfAccess](http://schema.org/conditionsOfAccess)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,37 +46,9 @@ URI: [hsdo:conditionsOfAccess](http://schema.org/conditionsOfAccess)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| hsdo_TextObject → string | dreamkg:service/desc/4542572480692224 | hsdo:conditionsOfAccess | Must have Medical Assistance (Medicaid). This program helps people who are 13 to 19 years old. |
-
-
-## Comments
-
-* 88 occurrences with subject type hsdo_TextObject and object type string.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: dream-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | hsdo:conditionsOfAccess |
-| native | dream-kg/:hsdo_conditionsOfAccess |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| hsdo_TextObject | string | dreamkg:service/desc/6354456388829184 | We serve single men experiencing homelessness. | 88 |
 
 
 
@@ -80,19 +56,27 @@ URI: [hsdo:conditionsOfAccess](http://schema.org/conditionsOfAccess)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: hsdo_conditionsOfAccess
-description: No slot (predicate) description specified
-comments:
-- 88 occurrences with subject type hsdo_TextObject and object type string.
+annotations:
+  count:
+    tag: count
+    value: 88
+description: 'Conditions that affect the availability of, or method(s) of access to,
+  an item. Typically used for real world items such as an [[ArchiveComponent]] held
+  by an [[ArchiveOrganization]]. This property is not suitable for use as a general
+  Web access control mechanism. It is expressed only in natural language.\n\nFor example
+  "Available by appointment from the Reading Room" or "Accessible only from logged-in
+  accounts ". '
+title: conditionsOfAccess
 examples:
-- description: hsdo_TextObject → string
+- description: hsdo_TextObject→string
   object:
-    example_object: Must have Medical Assistance (Medicaid). This program helps people
-      who are 13 to 19 years old.
+    example_object: We serve single men experiencing homelessness.
     example_object_type: string
     example_predicate: hsdo:conditionsOfAccess
-    example_subject: dreamkg:service/desc/4542572480692224
+    example_subject: dreamkg:service/desc/6354456388829184
     example_subject_type: hsdo_TextObject
 from_schema: dream-kg
 rank: 1000

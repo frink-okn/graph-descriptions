@@ -1,12 +1,16 @@
 
 
-# Slot: hsdo_opens
+# Slot: opens (hsdo_opens)
 
 
-_No slot (predicate) description specified_
+_The opening hour of the place or service on the given day(s) of the week._
 
 
 
+
+
+
+This slot occurs 631 times.
 
 
 URI: [hsdo:opens](http://schema.org/opens)
@@ -23,7 +27,7 @@ URI: [hsdo:opens](http://schema.org/opens)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md) | A structured value providing information about the opening hours of a place o... |  no  |
+| [HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md) | A structured value providing information about the opening hours of a place o... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [hsdo:opens](http://schema.org/opens)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,37 +46,9 @@ URI: [hsdo:opens](http://schema.org/opens)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| hsdo_OpeningHoursSpecification → string | dreamkg:service/hours/friday/4542572480692224 | hsdo:opens | 08:00 |
-
-
-## Comments
-
-* 631 occurrences with subject type hsdo_OpeningHoursSpecification and object type string.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: dream-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | hsdo:opens |
-| native | dream-kg/:hsdo_opens |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| hsdo_OpeningHoursSpecification | string | dreamkg:service/hours/friday/4689179354857472 | 08:00 | 631 |
 
 
 
@@ -80,19 +56,22 @@ URI: [hsdo:opens](http://schema.org/opens)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: hsdo_opens
-description: No slot (predicate) description specified
-comments:
-- 631 occurrences with subject type hsdo_OpeningHoursSpecification and object type
-  string.
+annotations:
+  count:
+    tag: count
+    value: 631
+description: The opening hour of the place or service on the given day(s) of the week.
+title: opens
 examples:
-- description: hsdo_OpeningHoursSpecification → string
+- description: hsdo_OpeningHoursSpecification→string
   object:
     example_object: 08:00
     example_object_type: string
     example_predicate: hsdo:opens
-    example_subject: dreamkg:service/hours/friday/4542572480692224
+    example_subject: dreamkg:service/hours/friday/4689179354857472
     example_subject_type: hsdo_OpeningHoursSpecification
 from_schema: dream-kg
 rank: 1000

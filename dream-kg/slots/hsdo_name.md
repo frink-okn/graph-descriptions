@@ -1,12 +1,16 @@
 
 
-# Slot: hsdo_name
+# Slot: name (hsdo_name)
 
 
-_No slot (predicate) description specified_
+_The name of the item._
 
 
 
+
+
+
+This slot occurs 177 times.
 
 
 URI: [hsdo:name](http://schema.org/name)
@@ -23,8 +27,8 @@ URI: [hsdo:name](http://schema.org/name)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  no  |
-| [HsdoOrganization](../classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
+| [HsdoOrganization](../classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  yes  |
+| [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  yes  |
 
 
 
@@ -34,7 +38,7 @@ URI: [hsdo:name](http://schema.org/name)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -43,39 +47,10 @@ URI: [hsdo:name](http://schema.org/name)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| hsdo_Service → string | dreamkg:service/4542572480692224 | hsdo:name | Drug and Alcohol Services |
-| hsdo_Organization → string | dreamkg:service/provider/4542572480692224 | hsdo:name | Child Guidance Resource Centers |
-
-
-## Comments
-
-* 88 occurrences with subject type hsdo_Service and object type string.
-* 89 occurrences with subject type hsdo_Organization and object type string.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: dream-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | hsdo:name |
-| native | dream-kg/:hsdo_name |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| hsdo_Service | string | dreamkg:service/6379467169595392 | New Pathways for Women Project | 88 |
+| hsdo_Organization | string | dreamkg:service/provider/4780892498952192 | Circle Counseling | 89 |
 
 
 
@@ -83,26 +58,29 @@ URI: [hsdo:name](http://schema.org/name)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: hsdo_name
-description: No slot (predicate) description specified
-comments:
-- 88 occurrences with subject type hsdo_Service and object type string.
-- 89 occurrences with subject type hsdo_Organization and object type string.
+annotations:
+  count:
+    tag: count
+    value: 177
+description: The name of the item.
+title: name
 examples:
-- description: hsdo_Service → string
+- description: hsdo_Service→string
   object:
-    example_object: Drug and Alcohol Services
+    example_object: New Pathways for Women Project
     example_object_type: string
     example_predicate: hsdo:name
-    example_subject: dreamkg:service/4542572480692224
+    example_subject: dreamkg:service/6379467169595392
     example_subject_type: hsdo_Service
-- description: hsdo_Organization → string
+- description: hsdo_Organization→string
   object:
-    example_object: Child Guidance Resource Centers
+    example_object: Circle Counseling
     example_object_type: string
     example_predicate: hsdo:name
-    example_subject: dreamkg:service/provider/4542572480692224
+    example_subject: dreamkg:service/provider/4780892498952192
     example_subject_type: hsdo_Organization
 from_schema: dream-kg
 rank: 1000

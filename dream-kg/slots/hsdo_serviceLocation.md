@@ -1,12 +1,16 @@
 
 
-# Slot: hsdo_serviceLocation
+# Slot: serviceLocation (hsdo_serviceLocation)
 
 
-_No slot (predicate) description specified_
+_The location (e.g. civic structure, local business, etc.) where a person can go to access the service._
 
 
 
+
+
+
+This slot occurs 87 times.
 
 
 URI: [hsdo:serviceLocation](http://schema.org/serviceLocation)
@@ -23,7 +27,7 @@ URI: [hsdo:serviceLocation](http://schema.org/serviceLocation)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoServiceChannel](../classes/HsdoServiceChannel.md) | A means for accessing a service, e |  no  |
+| [HsdoServiceChannel](../classes/HsdoServiceChannel.md) | A means for accessing a service, e |  yes  |
 
 
 
@@ -42,37 +46,9 @@ URI: [hsdo:serviceLocation](http://schema.org/serviceLocation)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| hsdo_ServiceChannel → hsdo_Place | dreamkg:service/channel/P-6710596967858176 | hsdo:serviceLocation | dreamkg:service/location/6710596967858176 |
-
-
-## Comments
-
-* 87 occurrences with subject type hsdo_ServiceChannel and object type hsdo_Place.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: dream-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | hsdo:serviceLocation |
-| native | dream-kg/:hsdo_serviceLocation |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| hsdo_ServiceChannel | hsdo_Place | dreamkg:service/channel/P-6354456388829184 | dreamkg:service/location/6354456388829184 | 87 |
 
 
 
@@ -80,18 +56,23 @@ URI: [hsdo:serviceLocation](http://schema.org/serviceLocation)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: hsdo_serviceLocation
-description: No slot (predicate) description specified
-comments:
-- 87 occurrences with subject type hsdo_ServiceChannel and object type hsdo_Place.
+annotations:
+  count:
+    tag: count
+    value: 87
+description: The location (e.g. civic structure, local business, etc.) where a person
+  can go to access the service.
+title: serviceLocation
 examples:
-- description: hsdo_ServiceChannel → hsdo_Place
+- description: hsdo_ServiceChannel→hsdo_Place
   object:
-    example_object: dreamkg:service/location/6710596967858176
+    example_object: dreamkg:service/location/6354456388829184
     example_object_type: hsdo_Place
     example_predicate: hsdo:serviceLocation
-    example_subject: dreamkg:service/channel/P-6710596967858176
+    example_subject: dreamkg:service/channel/P-6354456388829184
     example_subject_type: hsdo_ServiceChannel
 from_schema: dream-kg
 rank: 1000

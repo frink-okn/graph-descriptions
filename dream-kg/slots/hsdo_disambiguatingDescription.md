@@ -1,12 +1,16 @@
 
 
-# Slot: hsdo_disambiguatingDescription
+# Slot: disambiguatingDescription (hsdo_disambiguatingDescription)
 
 
-_No slot (predicate) description specified_
+_A sub property of description. A short description of the item used to disambiguate from other, similar items. Information from other properties (in particular, name) may be necessary for the description to be useful for disambiguation._
 
 
 
+
+
+
+This slot occurs 174 times.
 
 
 URI: [hsdo:disambiguatingDescription](http://schema.org/disambiguatingDescription)
@@ -23,7 +27,7 @@ URI: [hsdo:disambiguatingDescription](http://schema.org/disambiguatingDescriptio
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoServiceChannel](../classes/HsdoServiceChannel.md) | A means for accessing a service, e |  no  |
+| [HsdoServiceChannel](../classes/HsdoServiceChannel.md) | A means for accessing a service, e |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [hsdo:disambiguatingDescription](http://schema.org/disambiguatingDescriptio
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,37 +46,9 @@ URI: [hsdo:disambiguatingDescription](http://schema.org/disambiguatingDescriptio
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| hsdo_ServiceChannel → string | dreamkg:service/channel/AB-4542572480692224 | hsdo:disambiguatingDescription | Aunt Bertha |
-
-
-## Comments
-
-* 174 occurrences with subject type hsdo_ServiceChannel and object type string.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: dream-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | hsdo:disambiguatingDescription |
-| native | dream-kg/:hsdo_disambiguatingDescription |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| hsdo_ServiceChannel | string | dreamkg:service/channel/AB-5922109384294400 | Aunt Bertha | 174 |
 
 
 
@@ -80,18 +56,24 @@ URI: [hsdo:disambiguatingDescription](http://schema.org/disambiguatingDescriptio
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: hsdo_disambiguatingDescription
-description: No slot (predicate) description specified
-comments:
-- 174 occurrences with subject type hsdo_ServiceChannel and object type string.
+annotations:
+  count:
+    tag: count
+    value: 174
+description: A sub property of description. A short description of the item used to
+  disambiguate from other, similar items. Information from other properties (in particular,
+  name) may be necessary for the description to be useful for disambiguation.
+title: disambiguatingDescription
 examples:
-- description: hsdo_ServiceChannel → string
+- description: hsdo_ServiceChannel→string
   object:
     example_object: Aunt Bertha
     example_object_type: string
     example_predicate: hsdo:disambiguatingDescription
-    example_subject: dreamkg:service/channel/AB-4542572480692224
+    example_subject: dreamkg:service/channel/AB-5922109384294400
     example_subject_type: hsdo_ServiceChannel
 from_schema: dream-kg
 rank: 1000

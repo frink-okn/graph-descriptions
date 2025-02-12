@@ -1,12 +1,16 @@
 
 
-# Slot: hsdo_audienceType
+# Slot: audienceType (hsdo_audienceType)
 
 
-_No slot (predicate) description specified_
+_The target group associated with a given audience (e.g. veterans, car owners, musicians, etc.)._
 
 
 
+
+
+
+This slot occurs 81 times.
 
 
 URI: [hsdo:audienceType](http://schema.org/audienceType)
@@ -23,7 +27,7 @@ URI: [hsdo:audienceType](http://schema.org/audienceType)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoAudience](../classes/HsdoAudience.md) | Intended audience for an item, i |  no  |
+| [HsdoAudience](../classes/HsdoAudience.md) | Intended audience for an item, i |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [hsdo:audienceType](http://schema.org/audienceType)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,37 +46,9 @@ URI: [hsdo:audienceType](http://schema.org/audienceType)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| hsdo_Audience → string | dreamkg:category/audience/AbuseOrNeglectSurvivors | hsdo:audienceType | abuse or neglect survivors |
-
-
-## Comments
-
-* 81 occurrences with subject type hsdo_Audience and object type string.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: dream-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | hsdo:audienceType |
-| native | dream-kg/:hsdo_audienceType |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| hsdo_Audience | string | dreamkg:category/audience/HivAids | hiv/aids | 81 |
 
 
 
@@ -80,18 +56,23 @@ URI: [hsdo:audienceType](http://schema.org/audienceType)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: hsdo_audienceType
-description: No slot (predicate) description specified
-comments:
-- 81 occurrences with subject type hsdo_Audience and object type string.
+annotations:
+  count:
+    tag: count
+    value: 81
+description: The target group associated with a given audience (e.g. veterans, car
+  owners, musicians, etc.).
+title: audienceType
 examples:
-- description: hsdo_Audience → string
+- description: hsdo_Audience→string
   object:
-    example_object: abuse or neglect survivors
+    example_object: hiv/aids
     example_object_type: string
     example_predicate: hsdo:audienceType
-    example_subject: dreamkg:category/audience/AbuseOrNeglectSurvivors
+    example_subject: dreamkg:category/audience/HivAids
     example_subject_type: hsdo_Audience
 from_schema: dream-kg
 rank: 1000

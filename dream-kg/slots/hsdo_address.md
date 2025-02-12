@@ -1,12 +1,16 @@
 
 
-# Slot: hsdo_address
+# Slot: address (hsdo_address)
 
 
-_No slot (predicate) description specified_
+_Physical address of the item._
 
 
 
+
+
+
+This slot occurs 93 times.
 
 
 URI: [hsdo:address](http://schema.org/address)
@@ -23,7 +27,7 @@ URI: [hsdo:address](http://schema.org/address)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoPlace](../classes/HsdoPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
+| [HsdoPlace](../classes/HsdoPlace.md) | Entities that have a somewhat fixed, physical extension |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [hsdo:address](http://schema.org/address)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,37 +46,9 @@ URI: [hsdo:address](http://schema.org/address)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| hsdo_Place → string | dreamkg:service/location/4542572480692224 | hsdo:address | 2901 Island Avenue, Philadelphia, PA 19153 |
-
-
-## Comments
-
-* 93 occurrences with subject type hsdo_Place and object type string.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: dream-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | hsdo:address |
-| native | dream-kg/:hsdo_address |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| hsdo_Place | string | dreamkg:service/location/5552002522939392 | 2107 West Tioga Street, Philadelphia, PA 19140 | 93 |
 
 
 
@@ -80,18 +56,22 @@ URI: [hsdo:address](http://schema.org/address)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: hsdo_address
-description: No slot (predicate) description specified
-comments:
-- 93 occurrences with subject type hsdo_Place and object type string.
+annotations:
+  count:
+    tag: count
+    value: 93
+description: Physical address of the item.
+title: address
 examples:
-- description: hsdo_Place → string
+- description: hsdo_Place→string
   object:
-    example_object: 2901 Island Avenue, Philadelphia, PA 19153
+    example_object: 2107 West Tioga Street, Philadelphia, PA 19140
     example_object_type: string
     example_predicate: hsdo:address
-    example_subject: dreamkg:service/location/4542572480692224
+    example_subject: dreamkg:service/location/5552002522939392
     example_subject_type: hsdo_Place
 from_schema: dream-kg
 rank: 1000
