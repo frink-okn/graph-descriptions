@@ -60,9 +60,9 @@ URI: [hsdo:OpeningHoursSpecification](http://schema.org/OpeningHoursSpecificatio
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [hsdo_closes](../slots/hsdo_closes.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 623 occurrences with subject type hsdo_OpeningHoursSpecification and object type string. | direct |
-| [hsdo_dayOfWeek](../slots/hsdo_dayOfWeek.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 609 occurrences with subject type hsdo_OpeningHoursSpecification and object type string. | direct |
 | [hsdo_opens](../slots/hsdo_opens.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 631 occurrences with subject type hsdo_OpeningHoursSpecification and object type string. | direct |
+| [hsdo_dayOfWeek](../slots/hsdo_dayOfWeek.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 609 occurrences with subject type hsdo_OpeningHoursSpecification and object type string. | direct |
+| [hsdo_closes](../slots/hsdo_closes.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 623 occurrences with subject type hsdo_OpeningHoursSpecification and object type string. | direct |
 
 
 
@@ -129,9 +129,9 @@ notes:
 from_schema: kg-name
 rank: 1000
 slots:
-- hsdo_closes
-- hsdo_dayOfWeek
 - hsdo_opens
+- hsdo_dayOfWeek
+- hsdo_closes
 class_uri: hsdo:OpeningHoursSpecification
 
 ```
@@ -154,24 +154,24 @@ notes:
 from_schema: kg-name
 rank: 1000
 attributes:
-  hsdo_closes:
-    name: hsdo_closes
+  hsdo_opens:
+    name: hsdo_opens
     description: No slot (predicate) description specified
     comments:
-    - 623 occurrences with subject type hsdo_OpeningHoursSpecification and object
+    - 631 occurrences with subject type hsdo_OpeningHoursSpecification and object
       type string.
     examples:
     - description: hsdo_OpeningHoursSpecification → string
       object:
-        example_object: '17:00'
+        example_object: 08:00
         example_object_type: string
-        example_predicate: hsdo:closes
+        example_predicate: hsdo:opens
         example_subject: dreamkg:service/hours/friday/4542572480692224
         example_subject_type: hsdo_OpeningHoursSpecification
     from_schema: kg-name
     rank: 1000
-    slot_uri: hsdo:closes
-    alias: hsdo_closes
+    slot_uri: hsdo:opens
+    alias: hsdo_opens
     owner: hsdo_OpeningHoursSpecification
     domain_of:
     - hsdo_OpeningHoursSpecification
@@ -198,24 +198,24 @@ attributes:
     domain_of:
     - hsdo_OpeningHoursSpecification
     range: string
-  hsdo_opens:
-    name: hsdo_opens
+  hsdo_closes:
+    name: hsdo_closes
     description: No slot (predicate) description specified
     comments:
-    - 631 occurrences with subject type hsdo_OpeningHoursSpecification and object
+    - 623 occurrences with subject type hsdo_OpeningHoursSpecification and object
       type string.
     examples:
     - description: hsdo_OpeningHoursSpecification → string
       object:
-        example_object: 08:00
+        example_object: '17:00'
         example_object_type: string
-        example_predicate: hsdo:opens
+        example_predicate: hsdo:closes
         example_subject: dreamkg:service/hours/friday/4542572480692224
         example_subject_type: hsdo_OpeningHoursSpecification
     from_schema: kg-name
     rank: 1000
-    slot_uri: hsdo:opens
-    alias: hsdo_opens
+    slot_uri: hsdo:closes
+    alias: hsdo_closes
     owner: hsdo_OpeningHoursSpecification
     domain_of:
     - hsdo_OpeningHoursSpecification
