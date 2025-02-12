@@ -3,12 +3,12 @@ classes:
     class_uri: linkml:Any
     name: Any
 conforms_to: No schema conformance document specified
-created_on: '2025-02-12T18:02:07.288080'
+created_on: '2025-02-12T18:23:30.579154'
 description: No schema description specified
 id: dream-kg
 imports:
 - linkml:types
-last_updated_on: '2025-02-12T18:02:07.288080'
+last_updated_on: '2025-02-12T18:23:30.579154'
 license: No schema license specified
 name: dream-kg
 prefixes:
