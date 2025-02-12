@@ -70,9 +70,9 @@ URI: [hsdo:ServiceChannel](http://schema.org/ServiceChannel)
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
 | [hsdo_serviceUrl](../slots/hsdo_serviceUrl.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI) | No slot (predicate) description specified <br/> 188 occurrences with subject type hsdo_ServiceChannel and object type uri. | direct |
+| [hsdo_servicePhone](../slots/hsdo_servicePhone.md) | 0..1 <br/> [HsdoContactPoint](../classes/HsdoContactPoint.md) | No slot (predicate) description specified <br/> 87 occurrences with subject type hsdo_ServiceChannel and object type hsdo_ContactPoint. | direct |
 | [hsdo_serviceLocation](../slots/hsdo_serviceLocation.md) | 0..1 <br/> [HsdoPlace](../classes/HsdoPlace.md) | No slot (predicate) description specified <br/> 87 occurrences with subject type hsdo_ServiceChannel and object type hsdo_Place. | direct |
 | [hsdo_disambiguatingDescription](../slots/hsdo_disambiguatingDescription.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 174 occurrences with subject type hsdo_ServiceChannel and object type string. | direct |
-| [hsdo_servicePhone](../slots/hsdo_servicePhone.md) | 0..1 <br/> [HsdoContactPoint](../classes/HsdoContactPoint.md) | No slot (predicate) description specified <br/> 87 occurrences with subject type hsdo_ServiceChannel and object type hsdo_ContactPoint. | direct |
 
 
 
@@ -137,9 +137,9 @@ from_schema: kg-name
 rank: 1000
 slots:
 - hsdo_serviceUrl
+- hsdo_servicePhone
 - hsdo_serviceLocation
 - hsdo_disambiguatingDescription
-- hsdo_servicePhone
 class_uri: hsdo:ServiceChannel
 
 ```
@@ -180,6 +180,27 @@ attributes:
     domain_of:
     - hsdo_ServiceChannel
     range: uri
+  hsdo_servicePhone:
+    name: hsdo_servicePhone
+    description: No slot (predicate) description specified
+    comments:
+    - 87 occurrences with subject type hsdo_ServiceChannel and object type hsdo_ContactPoint.
+    examples:
+    - description: hsdo_ServiceChannel → hsdo_ContactPoint
+      object:
+        example_object: dreamkg:service/phone/6710596967858176
+        example_object_type: hsdo_ContactPoint
+        example_predicate: hsdo:servicePhone
+        example_subject: dreamkg:service/channel/P-6710596967858176
+        example_subject_type: hsdo_ServiceChannel
+    from_schema: kg-name
+    rank: 1000
+    slot_uri: hsdo:servicePhone
+    alias: hsdo_servicePhone
+    owner: hsdo_ServiceChannel
+    domain_of:
+    - hsdo_ServiceChannel
+    range: hsdo_ContactPoint
   hsdo_serviceLocation:
     name: hsdo_serviceLocation
     description: No slot (predicate) description specified
@@ -222,27 +243,6 @@ attributes:
     domain_of:
     - hsdo_ServiceChannel
     range: string
-  hsdo_servicePhone:
-    name: hsdo_servicePhone
-    description: No slot (predicate) description specified
-    comments:
-    - 87 occurrences with subject type hsdo_ServiceChannel and object type hsdo_ContactPoint.
-    examples:
-    - description: hsdo_ServiceChannel → hsdo_ContactPoint
-      object:
-        example_object: dreamkg:service/phone/6710596967858176
-        example_object_type: hsdo_ContactPoint
-        example_predicate: hsdo:servicePhone
-        example_subject: dreamkg:service/channel/P-6710596967858176
-        example_subject_type: hsdo_ServiceChannel
-    from_schema: kg-name
-    rank: 1000
-    slot_uri: hsdo:servicePhone
-    alias: hsdo_servicePhone
-    owner: hsdo_ServiceChannel
-    domain_of:
-    - hsdo_ServiceChannel
-    range: hsdo_ContactPoint
 class_uri: hsdo:ServiceChannel
 
 ```
