@@ -51,8 +51,8 @@ URI: [hsdo:CategoryCode](http://schema.org/CategoryCode)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [hsdo_inCodeSet](../slots/hsdo_inCodeSet.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI) | No slot (predicate) description specified <br/> 157 occurrences with subject type hsdo_CategoryCode and object type uri. | direct |
 | [hsdo_codeValue](../slots/hsdo_codeValue.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 158 occurrences with subject type hsdo_CategoryCode and object type string. | direct |
+| [hsdo_inCodeSet](../slots/hsdo_inCodeSet.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI) | No slot (predicate) description specified <br/> 157 occurrences with subject type hsdo_CategoryCode and object type uri. | direct |
 
 
 
@@ -115,8 +115,8 @@ notes:
 from_schema: kg-name
 rank: 1000
 slots:
-- hsdo_inCodeSet
 - hsdo_codeValue
+- hsdo_inCodeSet
 class_uri: hsdo:CategoryCode
 
 ```
@@ -135,27 +135,6 @@ notes:
 from_schema: kg-name
 rank: 1000
 attributes:
-  hsdo_inCodeSet:
-    name: hsdo_inCodeSet
-    description: No slot (predicate) description specified
-    comments:
-    - 157 occurrences with subject type hsdo_CategoryCode and object type uri.
-    examples:
-    - description: hsdo_CategoryCode → uri
-      object:
-        example_object: dreamkg:__CategoryCodeSet_Availability
-        example_object_type: uri
-        example_predicate: hsdo:inCodeSet
-        example_subject: dreamkg:category/availability/Available
-        example_subject_type: hsdo_CategoryCode
-    from_schema: kg-name
-    rank: 1000
-    slot_uri: hsdo:inCodeSet
-    alias: hsdo_inCodeSet
-    owner: hsdo_CategoryCode
-    domain_of:
-    - hsdo_CategoryCode
-    range: uri
   hsdo_codeValue:
     name: hsdo_codeValue
     description: No slot (predicate) description specified
@@ -177,6 +156,27 @@ attributes:
     domain_of:
     - hsdo_CategoryCode
     range: string
+  hsdo_inCodeSet:
+    name: hsdo_inCodeSet
+    description: No slot (predicate) description specified
+    comments:
+    - 157 occurrences with subject type hsdo_CategoryCode and object type uri.
+    examples:
+    - description: hsdo_CategoryCode → uri
+      object:
+        example_object: dreamkg:__CategoryCodeSet_Availability
+        example_object_type: uri
+        example_predicate: hsdo:inCodeSet
+        example_subject: dreamkg:category/availability/Available
+        example_subject_type: hsdo_CategoryCode
+    from_schema: kg-name
+    rank: 1000
+    slot_uri: hsdo:inCodeSet
+    alias: hsdo_inCodeSet
+    owner: hsdo_CategoryCode
+    domain_of:
+    - hsdo_CategoryCode
+    range: uri
 class_uri: hsdo:CategoryCode
 
 ```
