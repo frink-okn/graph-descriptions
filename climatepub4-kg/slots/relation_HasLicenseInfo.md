@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 131 times.
+
+
 URI: [relation:HasLicenseInfo](http://relation.org/HasLicenseInfo)
 
 
@@ -23,7 +27,10 @@ URI: [relation:HasLicenseInfo](http://relation.org/HasLicenseInfo)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | No class (type) description specified |  no  |
+| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | No class (type) description specified |  yes  |
+| [HsdoScienceKeyword](../classes/HsdoScienceKeyword.md) | No class (type) description specified |  yes  |
+| [HsdoExperiment](../classes/HsdoExperiment.md) | No class (type) description specified |  yes  |
+| [HsdoModels](../classes/HsdoModels.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,37 +49,12 @@ URI: [relation:HasLicenseInfo](http://relation.org/HasLicenseInfo)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| hsdo_Cmip6_Source_Id → hsdo_License | https://climateKG.org/entity/ffa6f7e9-e7e0-494d-84e4-41544a1762e7 | relation:HasLicenseInfo | https://climateKG.org/entity/95c7e601-fcfe-4fc9-9994-8105a1e11428 |
-
-
-## Comments
-
-* 131 occurrences with subject type hsdo_Cmip6_Source_Id and object type hsdo_License.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: climatepub4-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | relation:HasLicenseInfo |
-| native | climatepub4-kg/:relation_HasLicenseInfo |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| hsdo_Cmip6_Source_Id | hsdo_License | https://climateKG.org/entity/0cd4d2c4-ebfa-4759-b7aa-f9982122f581 | https://climateKG.org/entity/95c7e601-fcfe-4fc9-9994-8105a1e11428 | 131 |
+| hsdo_Models | hsdo_License | https://climateKG.org/entity/0cd4d2c4-ebfa-4759-b7aa-f9982122f581 | https://climateKG.org/entity/95c7e601-fcfe-4fc9-9994-8105a1e11428 | 131 |
+| hsdo_Science_Keyword | hsdo_License | https://climateKG.org/entity/0cd4d2c4-ebfa-4759-b7aa-f9982122f581 | https://climateKG.org/entity/95c7e601-fcfe-4fc9-9994-8105a1e11428 | 131 |
+| hsdo_Experiment | hsdo_License | https://climateKG.org/entity/f2c510b5-e0dc-413f-a7a2-35791cb07090 | https://climateKG.org/entity/95c7e601-fcfe-4fc9-9994-8105a1e11428 | 1 |
 
 
 
@@ -80,25 +62,52 @@ URI: [relation:HasLicenseInfo](http://relation.org/HasLicenseInfo)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: relation_HasLicenseInfo
+annotations:
+  count:
+    tag: count
+    value: 131
 description: No slot (predicate) description specified
-comments:
-- 131 occurrences with subject type hsdo_Cmip6_Source_Id and object type hsdo_License.
 examples:
-- description: hsdo_Cmip6_Source_Id → hsdo_License
+- description: hsdo_Cmip6_Source_Id→hsdo_License
   object:
     example_object: https://climateKG.org/entity/95c7e601-fcfe-4fc9-9994-8105a1e11428
     example_object_type: hsdo_License
     example_predicate: relation:HasLicenseInfo
-    example_subject: https://climateKG.org/entity/ffa6f7e9-e7e0-494d-84e4-41544a1762e7
+    example_subject: https://climateKG.org/entity/0cd4d2c4-ebfa-4759-b7aa-f9982122f581
     example_subject_type: hsdo_Cmip6_Source_Id
+- description: hsdo_Models→hsdo_License
+  object:
+    example_object: https://climateKG.org/entity/95c7e601-fcfe-4fc9-9994-8105a1e11428
+    example_object_type: hsdo_License
+    example_predicate: relation:HasLicenseInfo
+    example_subject: https://climateKG.org/entity/0cd4d2c4-ebfa-4759-b7aa-f9982122f581
+    example_subject_type: hsdo_Models
+- description: hsdo_Science_Keyword→hsdo_License
+  object:
+    example_object: https://climateKG.org/entity/95c7e601-fcfe-4fc9-9994-8105a1e11428
+    example_object_type: hsdo_License
+    example_predicate: relation:HasLicenseInfo
+    example_subject: https://climateKG.org/entity/0cd4d2c4-ebfa-4759-b7aa-f9982122f581
+    example_subject_type: hsdo_Science_Keyword
+- description: hsdo_Experiment→hsdo_License
+  object:
+    example_object: https://climateKG.org/entity/95c7e601-fcfe-4fc9-9994-8105a1e11428
+    example_object_type: hsdo_License
+    example_predicate: relation:HasLicenseInfo
+    example_subject: https://climateKG.org/entity/f2c510b5-e0dc-413f-a7a2-35791cb07090
+    example_subject_type: hsdo_Experiment
 from_schema: climatepub4-kg
 rank: 1000
 slot_uri: relation:HasLicenseInfo
 alias: relation_HasLicenseInfo
 domain_of:
 - hsdo_Cmip6_Source_Id
+- hsdo_Experiment
+- hsdo_Models
+- hsdo_Science_Keyword
 range: hsdo_License
 
 ```

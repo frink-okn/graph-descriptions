@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 322 times.
+
+
 URI: [attribute:tier](http://attribute.org/tier)
 
 
@@ -23,7 +27,12 @@ URI: [attribute:tier](http://attribute.org/tier)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoExperiment](../classes/HsdoExperiment.md) | No class (type) description specified |  no  |
+| [HsdoExperiment](../classes/HsdoExperiment.md) | No class (type) description specified |  yes  |
+| [HsdoProject](../classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  yes  |
+| [HsdoProvider](../classes/HsdoProvider.md) | No class (type) description specified |  yes  |
+| [HsdoModel](../classes/HsdoModel.md) | No class (type) description specified |  yes  |
+| [HsdoVariable](../classes/HsdoVariable.md) | No class (type) description specified |  yes  |
+| [HsdoLocation](../classes/HsdoLocation.md) | No class (type) description specified |  yes  |
 
 
 
@@ -33,7 +42,7 @@ URI: [attribute:tier](http://attribute.org/tier)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,37 +51,14 @@ URI: [attribute:tier](http://attribute.org/tier)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| hsdo_Experiment → string | https://climateKG.org/entity/033c6854-b6b0-47b7-b41d-6c482932f336 | attribute:tier | 2 |
-
-
-## Comments
-
-* 322 occurrences with subject type hsdo_Experiment and object type string.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: climatepub4-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | attribute:tier |
-| native | climatepub4-kg/:attribute_tier |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| hsdo_Experiment | string | https://climateKG.org/entity/033c6854-b6b0-47b7-b41d-6c482932f336 | 2 | 322 |
+| hsdo_Model | string | https://climateKG.org/entity/0f07d4c2-cfee-43ff-86d1-289058fe5050 | 1 | 4 |
+| hsdo_Provider | string | https://climateKG.org/entity/20dea6db-e5d4-42a9-a1d5-0421c65fced8 | 1 | 2 |
+| hsdo_Variable | string | https://climateKG.org/entity/20dea6db-e5d4-42a9-a1d5-0421c65fced8 | 1 | 5 |
+| hsdo_Location | string | https://climateKG.org/entity/20dea6db-e5d4-42a9-a1d5-0421c65fced8 | 1 | 3 |
+| hsdo_Project | string | https://climateKG.org/entity/4c94cb2e-37fb-4a76-a69b-a9d0731dbe3c | 1 | 4 |
 
 
 
@@ -80,25 +66,68 @@ URI: [attribute:tier](http://attribute.org/tier)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: attribute_tier
+annotations:
+  count:
+    tag: count
+    value: 322
 description: No slot (predicate) description specified
-comments:
-- 322 occurrences with subject type hsdo_Experiment and object type string.
 examples:
-- description: hsdo_Experiment → string
+- description: hsdo_Experiment→string
   object:
     example_object: '2'
     example_object_type: string
     example_predicate: attribute:tier
     example_subject: https://climateKG.org/entity/033c6854-b6b0-47b7-b41d-6c482932f336
     example_subject_type: hsdo_Experiment
+- description: hsdo_Model→string
+  object:
+    example_object: '1'
+    example_object_type: string
+    example_predicate: attribute:tier
+    example_subject: https://climateKG.org/entity/0f07d4c2-cfee-43ff-86d1-289058fe5050
+    example_subject_type: hsdo_Model
+- description: hsdo_Provider→string
+  object:
+    example_object: '1'
+    example_object_type: string
+    example_predicate: attribute:tier
+    example_subject: https://climateKG.org/entity/20dea6db-e5d4-42a9-a1d5-0421c65fced8
+    example_subject_type: hsdo_Provider
+- description: hsdo_Variable→string
+  object:
+    example_object: '1'
+    example_object_type: string
+    example_predicate: attribute:tier
+    example_subject: https://climateKG.org/entity/20dea6db-e5d4-42a9-a1d5-0421c65fced8
+    example_subject_type: hsdo_Variable
+- description: hsdo_Location→string
+  object:
+    example_object: '1'
+    example_object_type: string
+    example_predicate: attribute:tier
+    example_subject: https://climateKG.org/entity/20dea6db-e5d4-42a9-a1d5-0421c65fced8
+    example_subject_type: hsdo_Location
+- description: hsdo_Project→string
+  object:
+    example_object: '1'
+    example_object_type: string
+    example_predicate: attribute:tier
+    example_subject: https://climateKG.org/entity/4c94cb2e-37fb-4a76-a69b-a9d0731dbe3c
+    example_subject_type: hsdo_Project
 from_schema: climatepub4-kg
 rank: 1000
 slot_uri: attribute:tier
 alias: attribute_tier
 domain_of:
 - hsdo_Experiment
+- hsdo_Location
+- hsdo_Model
+- hsdo_Project
+- hsdo_Provider
+- hsdo_Variable
 range: string
 
 ```

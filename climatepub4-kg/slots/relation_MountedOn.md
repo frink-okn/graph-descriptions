@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 74 times.
+
+
 URI: [relation:MountedOn](http://relation.org/MountedOn)
 
 
@@ -23,12 +27,17 @@ URI: [relation:MountedOn](http://relation.org/MountedOn)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoPlatform](../classes/HsdoPlatform.md) | No class (type) description specified |  no  |
-| [HsdoLocation](../classes/HsdoLocation.md) | No class (type) description specified |  no  |
-| [HsdoProject](../classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  no  |
-| [HsdoExperiment](../classes/HsdoExperiment.md) | No class (type) description specified |  no  |
-| [HsdoProvider](../classes/HsdoProvider.md) | No class (type) description specified |  no  |
-| [HsdoInstrument](../classes/HsdoInstrument.md) | No class (type) description specified |  no  |
+| [HsdoRelatedUrlContentType](../classes/HsdoRelatedUrlContentType.md) | No class (type) description specified |  yes  |
+| [HsdoInstrument](../classes/HsdoInstrument.md) | No class (type) description specified |  yes  |
+| [HsdoMeasurementName](../classes/HsdoMeasurementName.md) | No class (type) description specified |  yes  |
+| [HsdoExperiment](../classes/HsdoExperiment.md) | No class (type) description specified |  yes  |
+| [HsdoScienceKeyword](../classes/HsdoScienceKeyword.md) | No class (type) description specified |  yes  |
+| [HsdoPlatform](../classes/HsdoPlatform.md) | No class (type) description specified |  yes  |
+| [HsdoProject](../classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  yes  |
+| [HsdoProvider](../classes/HsdoProvider.md) | No class (type) description specified |  yes  |
+| [HsdoModel](../classes/HsdoModel.md) | No class (type) description specified |  yes  |
+| [HsdoVariable](../classes/HsdoVariable.md) | No class (type) description specified |  yes  |
+| [HsdoLocation](../classes/HsdoLocation.md) | No class (type) description specified |  yes  |
 
 
 
@@ -38,7 +47,7 @@ URI: [relation:MountedOn](http://relation.org/MountedOn)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HsdoModels](../classes/HsdoModels.md)&nbsp;or&nbsp;<br />[HsdoProvider](../classes/HsdoProvider.md)&nbsp;or&nbsp;<br />[HsdoInstitution](../classes/HsdoInstitution.md)&nbsp;or&nbsp;<br />[HsdoInstrument](../classes/HsdoInstrument.md)&nbsp;or&nbsp;<br />[HsdoPlatform](../classes/HsdoPlatform.md)&nbsp;or&nbsp;<br />[HsdoLocation](../classes/HsdoLocation.md)&nbsp;or&nbsp;<br />[HsdoExperiment](../classes/HsdoExperiment.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HsdoProvider](../classes/HsdoProvider.md)&nbsp;or&nbsp;<br />[HsdoScienceKeyword](../classes/HsdoScienceKeyword.md)&nbsp;or&nbsp;<br />[HsdoInstitution](../classes/HsdoInstitution.md)&nbsp;or&nbsp;<br />[HsdoPlatform](../classes/HsdoPlatform.md)&nbsp;or&nbsp;<br />[HsdoRealm](../classes/HsdoRealm.md)&nbsp;or&nbsp;<br />[HsdoExperiment](../classes/HsdoExperiment.md)&nbsp;or&nbsp;<br />[HsdoModel](../classes/HsdoModel.md)&nbsp;or&nbsp;<br />[HsdoLocation](../classes/HsdoLocation.md)&nbsp;or&nbsp;<br />[HsdoModels](../classes/HsdoModels.md)&nbsp;or&nbsp;<br />[HsdoMeasurementName](../classes/HsdoMeasurementName.md)&nbsp;or&nbsp;<br />[HsdoProject](../classes/HsdoProject.md)&nbsp;or&nbsp;<br />[HsdoVariable](../classes/HsdoVariable.md)&nbsp;or&nbsp;<br />[HsdoInstrument](../classes/HsdoInstrument.md)
 
 
 
@@ -47,65 +56,113 @@ URI: [relation:MountedOn](http://relation.org/MountedOn)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| hsdo_Instrument → hsdo_Location | https://climateKG.org/entity/f9fd6f89-9a67-4ece-9514-3803e7787520 | relation:MountedOn | https://climateKG.org/entity/b791f381-1c1c-4958-bc7d-b72a15da1174 |
-| hsdo_Location → hsdo_Instrument | https://climateKG.org/entity/9645d2d7-fcb7-4e34-9433-1328b847048e | relation:MountedOn | https://climateKG.org/entity/8dc44d7b-e349-42ab-860e-18f5acfc1b28 |
-| hsdo_Experiment → hsdo_Instrument | https://climateKG.org/entity/8916dafb-5ad5-45c6-ab64-3500ea1e9577 | relation:MountedOn | https://climateKG.org/entity/f6350232-b1c7-458c-bc43-bda357ebb6db |
-| hsdo_Instrument → hsdo_Platform | https://climateKG.org/entity/8783344a-b6cb-4905-adab-1ae6281fc83d | relation:MountedOn | https://climateKG.org/entity/5d7f7568-bfc3-4c11-b446-c4f6488c8ae9 |
-| hsdo_Platform → hsdo_Instrument | https://climateKG.org/entity/2405ed08-fc64-4251-a242-c879181ebafd | relation:MountedOn | https://climateKG.org/entity/b79c7e06-cd07-442f-bf12-2019cd71c201 |
-| hsdo_Platform → hsdo_Provider | https://climateKG.org/entity/2405ed08-fc64-4251-a242-c879181ebafd | relation:MountedOn | https://climateKG.org/entity/c9003d36-020d-4e86-995a-498945576c23 |
-| hsdo_Instrument → hsdo_Instrument | https://climateKG.org/entity/ee79f1d4-3a73-408f-beea-945b869b3abf | relation:MountedOn | https://climateKG.org/entity/e5fde4c4-15cd-4278-b922-005488df096f |
-| hsdo_Location → hsdo_Location | https://climateKG.org/entity/41191de9-be66-45e2-b4de-95d5090df8d8 | relation:MountedOn | https://climateKG.org/entity/0d209f3c-73b1-412d-828b-22b25da8fc3a |
-| hsdo_Instrument → hsdo_Experiment | https://climateKG.org/entity/efbd1edc-388f-4985-8033-6782ee87d463 | relation:MountedOn | https://climateKG.org/entity/205df2ad-cbc2-46a7-941b-d1b49a1c85fe |
-| hsdo_Location → hsdo_Institution | https://climateKG.org/entity/4c09d43f-68d5-469d-aaed-f9ef8968ef2e | relation:MountedOn | https://climateKG.org/entity/3be6270c-8554-467a-b2c7-9c13bc086b10 |
-| hsdo_Experiment → hsdo_Platform | https://climateKG.org/entity/4f9e19dc-adc1-4c7e-91ab-5947064737e3 | relation:MountedOn | https://climateKG.org/entity/432d2336-1111-4305-a8cb-8d0c8a3af632 |
-| hsdo_Project → hsdo_Location | https://climateKG.org/entity/6831004a-34d7-42f5-a903-6c84a5e7590f | relation:MountedOn | https://climateKG.org/entity/a4aea007-d297-4051-8b41-5cdde00b4d1e |
-| hsdo_Location → hsdo_Experiment | https://climateKG.org/entity/8b7f66ea-d481-4641-9dbf-da90ca3ad9c9 | relation:MountedOn | https://climateKG.org/entity/a6212424-1146-4a79-a14c-8ce88543b08b |
-| hsdo_Provider → hsdo_Models | https://climateKG.org/entity/9c0288cc-864d-40f7-93af-6df413b404f5 | relation:MountedOn | https://climateKG.org/entity/3668de06-8a7d-4667-beb8-d04dcac619b0 |
-| hsdo_Experiment → hsdo_Experiment | https://climateKG.org/entity/d69f7457-db31-48ce-b8c2-98058c412bc6 | relation:MountedOn | https://climateKG.org/entity/3cbb9f17-ddb1-48d3-a507-786887e485af |
-
-
-## Comments
-
-* 22 occurrences with subject type hsdo_Instrument and object type hsdo_Location.
-* 4 occurrences with subject type hsdo_Location and object type hsdo_Instrument.
-* 7 occurrences with subject type hsdo_Experiment and object type hsdo_Instrument.
-* 6 occurrences with subject type hsdo_Instrument and object type hsdo_Platform.
-* 1 occurrences with subject type hsdo_Platform and object type hsdo_Instrument.
-* 1 occurrences with subject type hsdo_Platform and object type hsdo_Provider.
-* 21 occurrences with subject type hsdo_Instrument and object type hsdo_Instrument.
-* 1 occurrences with subject type hsdo_Location and object type hsdo_Location.
-* 5 occurrences with subject type hsdo_Instrument and object type hsdo_Experiment.
-* 1 occurrences with subject type hsdo_Location and object type hsdo_Institution.
-* 1 occurrences with subject type hsdo_Experiment and object type hsdo_Platform.
-* 1 occurrences with subject type hsdo_Project and object type hsdo_Location.
-* 1 occurrences with subject type hsdo_Location and object type hsdo_Experiment.
-* 1 occurrences with subject type hsdo_Provider and object type hsdo_Models.
-* 1 occurrences with subject type hsdo_Experiment and object type hsdo_Experiment.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: climatepub4-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | relation:MountedOn |
-| native | climatepub4-kg/:relation_MountedOn |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| hsdo_Instrument | hsdo_Provider | https://climateKG.org/entity/01cc0beb-7c9a-40ed-ad86-0661b41aee53 | https://climateKG.org/entity/113edd07-7b1a-4082-b054-b58d3f23b93a | 34 |
+| hsdo_Instrument | hsdo_Variable | https://climateKG.org/entity/01cc0beb-7c9a-40ed-ad86-0661b41aee53 | https://climateKG.org/entity/113edd07-7b1a-4082-b054-b58d3f23b93a | 27 |
+| hsdo_Instrument | hsdo_Science_Keyword | https://climateKG.org/entity/01cc0beb-7c9a-40ed-ad86-0661b41aee53 | https://climateKG.org/entity/113edd07-7b1a-4082-b054-b58d3f23b93a | 20 |
+| hsdo_Instrument | hsdo_Location | https://climateKG.org/entity/01cc0beb-7c9a-40ed-ad86-0661b41aee53 | https://climateKG.org/entity/113edd07-7b1a-4082-b054-b58d3f23b93a | 39 |
+| hsdo_Variable | hsdo_Provider | https://climateKG.org/entity/01cc0beb-7c9a-40ed-ad86-0661b41aee53 | https://climateKG.org/entity/113edd07-7b1a-4082-b054-b58d3f23b93a | 10 |
+| hsdo_Variable | hsdo_Variable | https://climateKG.org/entity/01cc0beb-7c9a-40ed-ad86-0661b41aee53 | https://climateKG.org/entity/113edd07-7b1a-4082-b054-b58d3f23b93a | 9 |
+| hsdo_Variable | hsdo_Science_Keyword | https://climateKG.org/entity/01cc0beb-7c9a-40ed-ad86-0661b41aee53 | https://climateKG.org/entity/113edd07-7b1a-4082-b054-b58d3f23b93a | 10 |
+| hsdo_Variable | hsdo_Location | https://climateKG.org/entity/01cc0beb-7c9a-40ed-ad86-0661b41aee53 | https://climateKG.org/entity/113edd07-7b1a-4082-b054-b58d3f23b93a | 16 |
+| hsdo_Instrument | hsdo_Project | https://climateKG.org/entity/0517ae1f-7617-4f3b-80cb-649178032825 | https://climateKG.org/entity/4cf1a3bd-20ce-42d7-95ac-9a4ece7be12c | 14 |
+| hsdo_Science_Keyword | hsdo_Provider | https://climateKG.org/entity/0517ae1f-7617-4f3b-80cb-649178032825 | https://climateKG.org/entity/4cf1a3bd-20ce-42d7-95ac-9a4ece7be12c | 8 |
+| hsdo_Science_Keyword | hsdo_Project | https://climateKG.org/entity/0517ae1f-7617-4f3b-80cb-649178032825 | https://climateKG.org/entity/4cf1a3bd-20ce-42d7-95ac-9a4ece7be12c | 3 |
+| hsdo_Science_Keyword | hsdo_Location | https://climateKG.org/entity/0517ae1f-7617-4f3b-80cb-649178032825 | https://climateKG.org/entity/4cf1a3bd-20ce-42d7-95ac-9a4ece7be12c | 14 |
+| hsdo_Science_Keyword | hsdo_Science_Keyword | https://climateKG.org/entity/0517ae1f-7617-4f3b-80cb-649178032825 | https://climateKG.org/entity/4cf1a3bd-20ce-42d7-95ac-9a4ece7be12c | 11 |
+| hsdo_Science_Keyword | hsdo_Variable | https://climateKG.org/entity/0517ae1f-7617-4f3b-80cb-649178032825 | https://climateKG.org/entity/4cf1a3bd-20ce-42d7-95ac-9a4ece7be12c | 9 |
+| hsdo_Variable | hsdo_Instrument | https://climateKG.org/entity/162e2243-3266-4999-b352-d8a1a9dc82ac | https://climateKG.org/entity/3466eed1-2fbb-49bf-ab0b-dc08731d502b | 18 |
+| hsdo_Variable | hsdo_Platform | https://climateKG.org/entity/162e2243-3266-4999-b352-d8a1a9dc82ac | https://climateKG.org/entity/3466eed1-2fbb-49bf-ab0b-dc08731d502b | 13 |
+| hsdo_Science_Keyword | hsdo_Instrument | https://climateKG.org/entity/162e2243-3266-4999-b352-d8a1a9dc82ac | https://climateKG.org/entity/3466eed1-2fbb-49bf-ab0b-dc08731d502b | 8 |
+| hsdo_Science_Keyword | hsdo_Platform | https://climateKG.org/entity/162e2243-3266-4999-b352-d8a1a9dc82ac | https://climateKG.org/entity/3466eed1-2fbb-49bf-ab0b-dc08731d502b | 6 |
+| hsdo_Location | hsdo_Provider | https://climateKG.org/entity/162e2243-3266-4999-b352-d8a1a9dc82ac | https://climateKG.org/entity/3466eed1-2fbb-49bf-ab0b-dc08731d502b | 11 |
+| hsdo_Location | hsdo_Instrument | https://climateKG.org/entity/162e2243-3266-4999-b352-d8a1a9dc82ac | https://climateKG.org/entity/3466eed1-2fbb-49bf-ab0b-dc08731d502b | 15 |
+| hsdo_Location | hsdo_Platform | https://climateKG.org/entity/162e2243-3266-4999-b352-d8a1a9dc82ac | https://climateKG.org/entity/3466eed1-2fbb-49bf-ab0b-dc08731d502b | 10 |
+| hsdo_Experiment | hsdo_Instrument | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/8be17733-c145-421c-b402-bf3fd0797e15 | 8 |
+| hsdo_Provider | hsdo_Instrument | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/8be17733-c145-421c-b402-bf3fd0797e15 | 19 |
+| hsdo_Platform | hsdo_Instrument | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/8be17733-c145-421c-b402-bf3fd0797e15 | 18 |
+| hsdo_Instrument | hsdo_Instrument | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/8be17733-c145-421c-b402-bf3fd0797e15 | 32 |
+| hsdo_Experiment | hsdo_Provider | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/9cd1c7aa-7949-4b44-bedd-381b1ba9394c | 4 |
+| hsdo_Provider | hsdo_Provider | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/9cd1c7aa-7949-4b44-bedd-381b1ba9394c | 13 |
+| hsdo_Platform | hsdo_Provider | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/9cd1c7aa-7949-4b44-bedd-381b1ba9394c | 15 |
+| hsdo_Experiment | hsdo_Platform | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/dbfa9c1a-1853-4c48-8adf-f51ca6715c43 | 5 |
+| hsdo_Provider | hsdo_Platform | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/dbfa9c1a-1853-4c48-8adf-f51ca6715c43 | 10 |
+| hsdo_Platform | hsdo_Platform | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/dbfa9c1a-1853-4c48-8adf-f51ca6715c43 | 12 |
+| hsdo_Instrument | hsdo_Platform | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/dbfa9c1a-1853-4c48-8adf-f51ca6715c43 | 26 |
+| hsdo_Experiment | hsdo_Measurement_Name | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 1 |
+| hsdo_Experiment | hsdo_Location | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 3 |
+| hsdo_Experiment | hsdo_Model | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 2 |
+| hsdo_Experiment | hsdo_Variable | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 2 |
+| hsdo_Provider | hsdo_Measurement_Name | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 1 |
+| hsdo_Provider | hsdo_Location | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 16 |
+| hsdo_Provider | hsdo_Model | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 5 |
+| hsdo_Provider | hsdo_Variable | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 7 |
+| hsdo_Platform | hsdo_Measurement_Name | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 2 |
+| hsdo_Platform | hsdo_Location | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 20 |
+| hsdo_Platform | hsdo_Model | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 9 |
+| hsdo_Platform | hsdo_Variable | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 11 |
+| hsdo_Location | hsdo_Measurement_Name | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 1 |
+| hsdo_Location | hsdo_Location | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 14 |
+| hsdo_Location | hsdo_Model | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 6 |
+| hsdo_Location | hsdo_Variable | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 7 |
+| hsdo_Instrument | hsdo_Measurement_Name | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 3 |
+| hsdo_Instrument | hsdo_Model | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 7 |
+| hsdo_Variable | hsdo_Measurement_Name | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 1 |
+| hsdo_Variable | hsdo_Model | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 3 |
+| hsdo_Provider | hsdo_Science_Keyword | https://climateKG.org/entity/1ce21438-4c23-4bb5-b99a-da98622cdd02 | https://climateKG.org/entity/5d7f7568-bfc3-4c11-b446-c4f6488c8ae9 | 8 |
+| hsdo_Project | hsdo_Platform | https://climateKG.org/entity/1ce21438-4c23-4bb5-b99a-da98622cdd02 | https://climateKG.org/entity/5d7f7568-bfc3-4c11-b446-c4f6488c8ae9 | 10 |
+| hsdo_Project | hsdo_Science_Keyword | https://climateKG.org/entity/1ce21438-4c23-4bb5-b99a-da98622cdd02 | https://climateKG.org/entity/5d7f7568-bfc3-4c11-b446-c4f6488c8ae9 | 5 |
+| hsdo_Model | hsdo_Platform | https://climateKG.org/entity/1ce21438-4c23-4bb5-b99a-da98622cdd02 | https://climateKG.org/entity/5d7f7568-bfc3-4c11-b446-c4f6488c8ae9 | 7 |
+| hsdo_Model | hsdo_Science_Keyword | https://climateKG.org/entity/1ce21438-4c23-4bb5-b99a-da98622cdd02 | https://climateKG.org/entity/5d7f7568-bfc3-4c11-b446-c4f6488c8ae9 | 7 |
+| hsdo_Project | hsdo_Provider | https://climateKG.org/entity/24d472f8-301f-46b8-8138-06277c30befc | https://climateKG.org/entity/d4313915-2d24-424c-a171-30ee9a6f4bb5 | 13 |
+| hsdo_Project | hsdo_Location | https://climateKG.org/entity/24d472f8-301f-46b8-8138-06277c30befc | https://climateKG.org/entity/d4313915-2d24-424c-a171-30ee9a6f4bb5 | 12 |
+| hsdo_Project | hsdo_Instrument | https://climateKG.org/entity/24d472f8-301f-46b8-8138-06277c30befc | https://climateKG.org/entity/d4313915-2d24-424c-a171-30ee9a6f4bb5 | 12 |
+| hsdo_Project | hsdo_Variable | https://climateKG.org/entity/24d472f8-301f-46b8-8138-06277c30befc | https://climateKG.org/entity/d4313915-2d24-424c-a171-30ee9a6f4bb5 | 9 |
+| hsdo_Platform | hsdo_Science_Keyword | https://climateKG.org/entity/24d472f8-301f-46b8-8138-06277c30befc | https://climateKG.org/entity/d4313915-2d24-424c-a171-30ee9a6f4bb5 | 9 |
+| hsdo_Model | hsdo_Provider | https://climateKG.org/entity/24d472f8-301f-46b8-8138-06277c30befc | https://climateKG.org/entity/d4313915-2d24-424c-a171-30ee9a6f4bb5 | 7 |
+| hsdo_Model | hsdo_Location | https://climateKG.org/entity/24d472f8-301f-46b8-8138-06277c30befc | https://climateKG.org/entity/d4313915-2d24-424c-a171-30ee9a6f4bb5 | 9 |
+| hsdo_Model | hsdo_Instrument | https://climateKG.org/entity/24d472f8-301f-46b8-8138-06277c30befc | https://climateKG.org/entity/d4313915-2d24-424c-a171-30ee9a6f4bb5 | 6 |
+| hsdo_Model | hsdo_Variable | https://climateKG.org/entity/24d472f8-301f-46b8-8138-06277c30befc | https://climateKG.org/entity/d4313915-2d24-424c-a171-30ee9a6f4bb5 | 6 |
+| hsdo_Variable | hsdo_Project | https://climateKG.org/entity/2878f334-35dc-47a7-a3ae-8c5da1adccd3 | https://climateKG.org/entity/d32a5f0f-fedf-4368-b4ba-0ac7b77ce9ca | 5 |
+| hsdo_Measurement_Name | hsdo_Science_Keyword | https://climateKG.org/entity/3a0d1a04-972c-4272-a34e-a57c77112d76 | https://climateKG.org/entity/0d209f3c-73b1-412d-828b-22b25da8fc3a | 1 |
+| hsdo_Measurement_Name | hsdo_Location | https://climateKG.org/entity/3a0d1a04-972c-4272-a34e-a57c77112d76 | https://climateKG.org/entity/0d209f3c-73b1-412d-828b-22b25da8fc3a | 1 |
+| hsdo_Location | hsdo_Science_Keyword | https://climateKG.org/entity/3a0d1a04-972c-4272-a34e-a57c77112d76 | https://climateKG.org/entity/0d209f3c-73b1-412d-828b-22b25da8fc3a | 10 |
+| hsdo_Provider | hsdo_Project | https://climateKG.org/entity/46e4aaa4-349c-4049-a910-035391360010 | https://climateKG.org/entity/eeba88d2-20bf-43b1-bccf-b125485405f4 | 2 |
+| hsdo_Platform | hsdo_Project | https://climateKG.org/entity/46e4aaa4-349c-4049-a910-035391360010 | https://climateKG.org/entity/eeba88d2-20bf-43b1-bccf-b125485405f4 | 4 |
+| hsdo_Project | hsdo_Project | https://climateKG.org/entity/46e4aaa4-349c-4049-a910-035391360010 | https://climateKG.org/entity/eeba88d2-20bf-43b1-bccf-b125485405f4 | 3 |
+| hsdo_Project | hsdo_Model | https://climateKG.org/entity/46e4aaa4-349c-4049-a910-035391360010 | https://climateKG.org/entity/eeba88d2-20bf-43b1-bccf-b125485405f4 | 4 |
+| hsdo_Location | hsdo_Project | https://climateKG.org/entity/46e4aaa4-349c-4049-a910-035391360010 | https://climateKG.org/entity/eeba88d2-20bf-43b1-bccf-b125485405f4 | 4 |
+| hsdo_Science_Keyword | hsdo_Model | https://climateKG.org/entity/46e4aaa4-349c-4049-a910-035391360010 | https://climateKG.org/entity/eeba88d2-20bf-43b1-bccf-b125485405f4 | 4 |
+| hsdo_Instrument | hsdo_Experiment | https://climateKG.org/entity/4b12439a-45fc-42fa-ae19-535826f6247b | https://climateKG.org/entity/b2140059-b3ca-415c-b0a7-3e142783ffe8 | 5 |
+| hsdo_Project | hsdo_Experiment | https://climateKG.org/entity/4b12439a-45fc-42fa-ae19-535826f6247b | https://climateKG.org/entity/b2140059-b3ca-415c-b0a7-3e142783ffe8 | 2 |
+| hsdo_Science_Keyword | hsdo_Experiment | https://climateKG.org/entity/4b12439a-45fc-42fa-ae19-535826f6247b | https://climateKG.org/entity/b2140059-b3ca-415c-b0a7-3e142783ffe8 | 2 |
+| hsdo_Variable | hsdo_Experiment | https://climateKG.org/entity/4b12439a-45fc-42fa-ae19-535826f6247b | https://climateKG.org/entity/b2140059-b3ca-415c-b0a7-3e142783ffe8 | 2 |
+| hsdo_Provider | hsdo_Institution | https://climateKG.org/entity/4c09d43f-68d5-469d-aaed-f9ef8968ef2e | https://climateKG.org/entity/3be6270c-8554-467a-b2c7-9c13bc086b10 | 1 |
+| hsdo_Platform | hsdo_Institution | https://climateKG.org/entity/4c09d43f-68d5-469d-aaed-f9ef8968ef2e | https://climateKG.org/entity/3be6270c-8554-467a-b2c7-9c13bc086b10 | 1 |
+| hsdo_Science_Keyword | hsdo_Institution | https://climateKG.org/entity/4c09d43f-68d5-469d-aaed-f9ef8968ef2e | https://climateKG.org/entity/3be6270c-8554-467a-b2c7-9c13bc086b10 | 1 |
+| hsdo_Location | hsdo_Institution | https://climateKG.org/entity/4c09d43f-68d5-469d-aaed-f9ef8968ef2e | https://climateKG.org/entity/3be6270c-8554-467a-b2c7-9c13bc086b10 | 1 |
+| hsdo_Experiment | hsdo_Project | https://climateKG.org/entity/4f9e19dc-adc1-4c7e-91ab-5947064737e3 | https://climateKG.org/entity/432d2336-1111-4305-a8cb-8d0c8a3af632 | 1 |
+| hsdo_Model | hsdo_Project | https://climateKG.org/entity/4f9e19dc-adc1-4c7e-91ab-5947064737e3 | https://climateKG.org/entity/432d2336-1111-4305-a8cb-8d0c8a3af632 | 2 |
+| hsdo_Instrument | hsdo_Realm | https://climateKG.org/entity/664e984c-b02d-4516-95b5-2afe0b56d7f7 | https://climateKG.org/entity/5668f6df-ab5a-4991-9720-dda2faae7f3e | 2 |
+| hsdo_Platform | hsdo_Realm | https://climateKG.org/entity/664e984c-b02d-4516-95b5-2afe0b56d7f7 | https://climateKG.org/entity/5668f6df-ab5a-4991-9720-dda2faae7f3e | 2 |
+| hsdo_Experiment | hsdo_Science_Keyword | https://climateKG.org/entity/8916dafb-5ad5-45c6-ab64-3500ea1e9577 | https://climateKG.org/entity/f6350232-b1c7-458c-bc43-bda357ebb6db | 1 |
+| hsdo_Model | hsdo_Model | https://climateKG.org/entity/8916dafb-5ad5-45c6-ab64-3500ea1e9577 | https://climateKG.org/entity/f6350232-b1c7-458c-bc43-bda357ebb6db | 4 |
+| hsdo_Platform | hsdo_Experiment | https://climateKG.org/entity/8b7f66ea-d481-4641-9dbf-da90ca3ad9c9 | https://climateKG.org/entity/a6212424-1146-4a79-a14c-8ce88543b08b | 4 |
+| hsdo_Location | hsdo_Experiment | https://climateKG.org/entity/8b7f66ea-d481-4641-9dbf-da90ca3ad9c9 | https://climateKG.org/entity/a6212424-1146-4a79-a14c-8ce88543b08b | 3 |
+| hsdo_Provider | hsdo_Experiment | https://climateKG.org/entity/8fbdb7eb-9857-4942-ac10-58c085de5c68 | https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1 | 4 |
+| hsdo_Provider | hsdo_Models | https://climateKG.org/entity/9c0288cc-864d-40f7-93af-6df413b404f5 | https://climateKG.org/entity/3668de06-8a7d-4667-beb8-d04dcac619b0 | 1 |
+| hsdo_Science_Keyword | hsdo_Models | https://climateKG.org/entity/9c0288cc-864d-40f7-93af-6df413b404f5 | https://climateKG.org/entity/3668de06-8a7d-4667-beb8-d04dcac619b0 | 1 |
+| hsdo_Variable | hsdo_Models | https://climateKG.org/entity/9c0288cc-864d-40f7-93af-6df413b404f5 | https://climateKG.org/entity/3668de06-8a7d-4667-beb8-d04dcac619b0 | 1 |
+| hsdo_Project | hsdo_Realm | https://climateKG.org/entity/ba2cf9cf-36c9-421b-bd6e-339e7cef1092 | https://climateKG.org/entity/5668f6df-ab5a-4991-9720-dda2faae7f3e | 1 |
+| hsdo_Model | hsdo_Realm | https://climateKG.org/entity/ba2cf9cf-36c9-421b-bd6e-339e7cef1092 | https://climateKG.org/entity/5668f6df-ab5a-4991-9720-dda2faae7f3e | 1 |
+| hsdo_Project | hsdo_Measurement_Name | https://climateKG.org/entity/ba2cf9cf-36c9-421b-bd6e-339e7cef1092 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 1 |
+| hsdo_Model | hsdo_Measurement_Name | https://climateKG.org/entity/ba2cf9cf-36c9-421b-bd6e-339e7cef1092 | https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9 | 1 |
+| hsdo_Experiment | hsdo_Experiment | https://climateKG.org/entity/d69f7457-db31-48ce-b8c2-98058c412bc6 | https://climateKG.org/entity/3cbb9f17-ddb1-48d3-a507-786887e485af | 1 |
+| hsdo_Related_Url_Content_Type | hsdo_Experiment | https://climateKG.org/entity/efbd1edc-388f-4985-8033-6782ee87d463 | https://climateKG.org/entity/205df2ad-cbc2-46a7-941b-d1b49a1c85fe | 1 |
+| hsdo_Related_Url_Content_Type | hsdo_Project | https://climateKG.org/entity/efbd1edc-388f-4985-8033-6782ee87d463 | https://climateKG.org/entity/205df2ad-cbc2-46a7-941b-d1b49a1c85fe | 1 |
+| hsdo_Related_Url_Content_Type | hsdo_Model | https://climateKG.org/entity/efbd1edc-388f-4985-8033-6782ee87d463 | https://climateKG.org/entity/205df2ad-cbc2-46a7-941b-d1b49a1c85fe | 1 |
+| hsdo_Model | hsdo_Experiment | https://climateKG.org/entity/efbd1edc-388f-4985-8033-6782ee87d463 | https://climateKG.org/entity/205df2ad-cbc2-46a7-941b-d1b49a1c85fe | 1 |
 
 
 
@@ -113,131 +170,750 @@ URI: [relation:MountedOn](http://relation.org/MountedOn)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: relation_MountedOn
+annotations:
+  count:
+    tag: count
+    value: 74
 description: No slot (predicate) description specified
-comments:
-- 22 occurrences with subject type hsdo_Instrument and object type hsdo_Location.
-- 4 occurrences with subject type hsdo_Location and object type hsdo_Instrument.
-- 7 occurrences with subject type hsdo_Experiment and object type hsdo_Instrument.
-- 6 occurrences with subject type hsdo_Instrument and object type hsdo_Platform.
-- 1 occurrences with subject type hsdo_Platform and object type hsdo_Instrument.
-- 1 occurrences with subject type hsdo_Platform and object type hsdo_Provider.
-- 21 occurrences with subject type hsdo_Instrument and object type hsdo_Instrument.
-- 1 occurrences with subject type hsdo_Location and object type hsdo_Location.
-- 5 occurrences with subject type hsdo_Instrument and object type hsdo_Experiment.
-- 1 occurrences with subject type hsdo_Location and object type hsdo_Institution.
-- 1 occurrences with subject type hsdo_Experiment and object type hsdo_Platform.
-- 1 occurrences with subject type hsdo_Project and object type hsdo_Location.
-- 1 occurrences with subject type hsdo_Location and object type hsdo_Experiment.
-- 1 occurrences with subject type hsdo_Provider and object type hsdo_Models.
-- 1 occurrences with subject type hsdo_Experiment and object type hsdo_Experiment.
 examples:
-- description: hsdo_Instrument → hsdo_Location
+- description: hsdo_Instrument→hsdo_Provider
   object:
-    example_object: https://climateKG.org/entity/b791f381-1c1c-4958-bc7d-b72a15da1174
+    example_object: https://climateKG.org/entity/113edd07-7b1a-4082-b054-b58d3f23b93a
+    example_object_type: hsdo_Provider
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/01cc0beb-7c9a-40ed-ad86-0661b41aee53
+    example_subject_type: hsdo_Instrument
+- description: hsdo_Instrument→hsdo_Variable
+  object:
+    example_object: https://climateKG.org/entity/113edd07-7b1a-4082-b054-b58d3f23b93a
+    example_object_type: hsdo_Variable
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/01cc0beb-7c9a-40ed-ad86-0661b41aee53
+    example_subject_type: hsdo_Instrument
+- description: hsdo_Instrument→hsdo_Science_Keyword
+  object:
+    example_object: https://climateKG.org/entity/113edd07-7b1a-4082-b054-b58d3f23b93a
+    example_object_type: hsdo_Science_Keyword
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/01cc0beb-7c9a-40ed-ad86-0661b41aee53
+    example_subject_type: hsdo_Instrument
+- description: hsdo_Instrument→hsdo_Location
+  object:
+    example_object: https://climateKG.org/entity/113edd07-7b1a-4082-b054-b58d3f23b93a
     example_object_type: hsdo_Location
     example_predicate: relation:MountedOn
-    example_subject: https://climateKG.org/entity/f9fd6f89-9a67-4ece-9514-3803e7787520
+    example_subject: https://climateKG.org/entity/01cc0beb-7c9a-40ed-ad86-0661b41aee53
     example_subject_type: hsdo_Instrument
-- description: hsdo_Location → hsdo_Instrument
+- description: hsdo_Variable→hsdo_Provider
   object:
-    example_object: https://climateKG.org/entity/8dc44d7b-e349-42ab-860e-18f5acfc1b28
+    example_object: https://climateKG.org/entity/113edd07-7b1a-4082-b054-b58d3f23b93a
+    example_object_type: hsdo_Provider
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/01cc0beb-7c9a-40ed-ad86-0661b41aee53
+    example_subject_type: hsdo_Variable
+- description: hsdo_Variable→hsdo_Variable
+  object:
+    example_object: https://climateKG.org/entity/113edd07-7b1a-4082-b054-b58d3f23b93a
+    example_object_type: hsdo_Variable
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/01cc0beb-7c9a-40ed-ad86-0661b41aee53
+    example_subject_type: hsdo_Variable
+- description: hsdo_Variable→hsdo_Science_Keyword
+  object:
+    example_object: https://climateKG.org/entity/113edd07-7b1a-4082-b054-b58d3f23b93a
+    example_object_type: hsdo_Science_Keyword
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/01cc0beb-7c9a-40ed-ad86-0661b41aee53
+    example_subject_type: hsdo_Variable
+- description: hsdo_Variable→hsdo_Location
+  object:
+    example_object: https://climateKG.org/entity/113edd07-7b1a-4082-b054-b58d3f23b93a
+    example_object_type: hsdo_Location
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/01cc0beb-7c9a-40ed-ad86-0661b41aee53
+    example_subject_type: hsdo_Variable
+- description: hsdo_Instrument→hsdo_Project
+  object:
+    example_object: https://climateKG.org/entity/4cf1a3bd-20ce-42d7-95ac-9a4ece7be12c
+    example_object_type: hsdo_Project
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/0517ae1f-7617-4f3b-80cb-649178032825
+    example_subject_type: hsdo_Instrument
+- description: hsdo_Science_Keyword→hsdo_Provider
+  object:
+    example_object: https://climateKG.org/entity/4cf1a3bd-20ce-42d7-95ac-9a4ece7be12c
+    example_object_type: hsdo_Provider
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/0517ae1f-7617-4f3b-80cb-649178032825
+    example_subject_type: hsdo_Science_Keyword
+- description: hsdo_Science_Keyword→hsdo_Project
+  object:
+    example_object: https://climateKG.org/entity/4cf1a3bd-20ce-42d7-95ac-9a4ece7be12c
+    example_object_type: hsdo_Project
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/0517ae1f-7617-4f3b-80cb-649178032825
+    example_subject_type: hsdo_Science_Keyword
+- description: hsdo_Science_Keyword→hsdo_Location
+  object:
+    example_object: https://climateKG.org/entity/4cf1a3bd-20ce-42d7-95ac-9a4ece7be12c
+    example_object_type: hsdo_Location
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/0517ae1f-7617-4f3b-80cb-649178032825
+    example_subject_type: hsdo_Science_Keyword
+- description: hsdo_Science_Keyword→hsdo_Science_Keyword
+  object:
+    example_object: https://climateKG.org/entity/4cf1a3bd-20ce-42d7-95ac-9a4ece7be12c
+    example_object_type: hsdo_Science_Keyword
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/0517ae1f-7617-4f3b-80cb-649178032825
+    example_subject_type: hsdo_Science_Keyword
+- description: hsdo_Science_Keyword→hsdo_Variable
+  object:
+    example_object: https://climateKG.org/entity/4cf1a3bd-20ce-42d7-95ac-9a4ece7be12c
+    example_object_type: hsdo_Variable
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/0517ae1f-7617-4f3b-80cb-649178032825
+    example_subject_type: hsdo_Science_Keyword
+- description: hsdo_Variable→hsdo_Instrument
+  object:
+    example_object: https://climateKG.org/entity/3466eed1-2fbb-49bf-ab0b-dc08731d502b
     example_object_type: hsdo_Instrument
     example_predicate: relation:MountedOn
-    example_subject: https://climateKG.org/entity/9645d2d7-fcb7-4e34-9433-1328b847048e
+    example_subject: https://climateKG.org/entity/162e2243-3266-4999-b352-d8a1a9dc82ac
+    example_subject_type: hsdo_Variable
+- description: hsdo_Variable→hsdo_Platform
+  object:
+    example_object: https://climateKG.org/entity/3466eed1-2fbb-49bf-ab0b-dc08731d502b
+    example_object_type: hsdo_Platform
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/162e2243-3266-4999-b352-d8a1a9dc82ac
+    example_subject_type: hsdo_Variable
+- description: hsdo_Science_Keyword→hsdo_Instrument
+  object:
+    example_object: https://climateKG.org/entity/3466eed1-2fbb-49bf-ab0b-dc08731d502b
+    example_object_type: hsdo_Instrument
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/162e2243-3266-4999-b352-d8a1a9dc82ac
+    example_subject_type: hsdo_Science_Keyword
+- description: hsdo_Science_Keyword→hsdo_Platform
+  object:
+    example_object: https://climateKG.org/entity/3466eed1-2fbb-49bf-ab0b-dc08731d502b
+    example_object_type: hsdo_Platform
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/162e2243-3266-4999-b352-d8a1a9dc82ac
+    example_subject_type: hsdo_Science_Keyword
+- description: hsdo_Location→hsdo_Provider
+  object:
+    example_object: https://climateKG.org/entity/3466eed1-2fbb-49bf-ab0b-dc08731d502b
+    example_object_type: hsdo_Provider
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/162e2243-3266-4999-b352-d8a1a9dc82ac
     example_subject_type: hsdo_Location
-- description: hsdo_Experiment → hsdo_Instrument
+- description: hsdo_Location→hsdo_Instrument
   object:
-    example_object: https://climateKG.org/entity/f6350232-b1c7-458c-bc43-bda357ebb6db
+    example_object: https://climateKG.org/entity/3466eed1-2fbb-49bf-ab0b-dc08731d502b
     example_object_type: hsdo_Instrument
     example_predicate: relation:MountedOn
-    example_subject: https://climateKG.org/entity/8916dafb-5ad5-45c6-ab64-3500ea1e9577
+    example_subject: https://climateKG.org/entity/162e2243-3266-4999-b352-d8a1a9dc82ac
+    example_subject_type: hsdo_Location
+- description: hsdo_Location→hsdo_Platform
+  object:
+    example_object: https://climateKG.org/entity/3466eed1-2fbb-49bf-ab0b-dc08731d502b
+    example_object_type: hsdo_Platform
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/162e2243-3266-4999-b352-d8a1a9dc82ac
+    example_subject_type: hsdo_Location
+- description: hsdo_Experiment→hsdo_Instrument
+  object:
+    example_object: https://climateKG.org/entity/8be17733-c145-421c-b402-bf3fd0797e15
+    example_object_type: hsdo_Instrument
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
     example_subject_type: hsdo_Experiment
-- description: hsdo_Instrument → hsdo_Platform
+- description: hsdo_Provider→hsdo_Instrument
+  object:
+    example_object: https://climateKG.org/entity/8be17733-c145-421c-b402-bf3fd0797e15
+    example_object_type: hsdo_Instrument
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Provider
+- description: hsdo_Platform→hsdo_Instrument
+  object:
+    example_object: https://climateKG.org/entity/8be17733-c145-421c-b402-bf3fd0797e15
+    example_object_type: hsdo_Instrument
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Platform
+- description: hsdo_Instrument→hsdo_Instrument
+  object:
+    example_object: https://climateKG.org/entity/8be17733-c145-421c-b402-bf3fd0797e15
+    example_object_type: hsdo_Instrument
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Instrument
+- description: hsdo_Experiment→hsdo_Provider
+  object:
+    example_object: https://climateKG.org/entity/9cd1c7aa-7949-4b44-bedd-381b1ba9394c
+    example_object_type: hsdo_Provider
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Experiment
+- description: hsdo_Provider→hsdo_Provider
+  object:
+    example_object: https://climateKG.org/entity/9cd1c7aa-7949-4b44-bedd-381b1ba9394c
+    example_object_type: hsdo_Provider
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Provider
+- description: hsdo_Platform→hsdo_Provider
+  object:
+    example_object: https://climateKG.org/entity/9cd1c7aa-7949-4b44-bedd-381b1ba9394c
+    example_object_type: hsdo_Provider
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Platform
+- description: hsdo_Experiment→hsdo_Platform
+  object:
+    example_object: https://climateKG.org/entity/dbfa9c1a-1853-4c48-8adf-f51ca6715c43
+    example_object_type: hsdo_Platform
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Experiment
+- description: hsdo_Provider→hsdo_Platform
+  object:
+    example_object: https://climateKG.org/entity/dbfa9c1a-1853-4c48-8adf-f51ca6715c43
+    example_object_type: hsdo_Platform
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Provider
+- description: hsdo_Platform→hsdo_Platform
+  object:
+    example_object: https://climateKG.org/entity/dbfa9c1a-1853-4c48-8adf-f51ca6715c43
+    example_object_type: hsdo_Platform
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Platform
+- description: hsdo_Instrument→hsdo_Platform
+  object:
+    example_object: https://climateKG.org/entity/dbfa9c1a-1853-4c48-8adf-f51ca6715c43
+    example_object_type: hsdo_Platform
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Instrument
+- description: hsdo_Experiment→hsdo_Measurement_Name
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Measurement_Name
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Experiment
+- description: hsdo_Experiment→hsdo_Location
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Location
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Experiment
+- description: hsdo_Experiment→hsdo_Model
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Model
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Experiment
+- description: hsdo_Experiment→hsdo_Variable
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Variable
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Experiment
+- description: hsdo_Provider→hsdo_Measurement_Name
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Measurement_Name
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Provider
+- description: hsdo_Provider→hsdo_Location
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Location
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Provider
+- description: hsdo_Provider→hsdo_Model
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Model
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Provider
+- description: hsdo_Provider→hsdo_Variable
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Variable
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Provider
+- description: hsdo_Platform→hsdo_Measurement_Name
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Measurement_Name
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Platform
+- description: hsdo_Platform→hsdo_Location
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Location
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Platform
+- description: hsdo_Platform→hsdo_Model
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Model
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Platform
+- description: hsdo_Platform→hsdo_Variable
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Variable
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Platform
+- description: hsdo_Location→hsdo_Measurement_Name
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Measurement_Name
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Location
+- description: hsdo_Location→hsdo_Location
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Location
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Location
+- description: hsdo_Location→hsdo_Model
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Model
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Location
+- description: hsdo_Location→hsdo_Variable
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Variable
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Location
+- description: hsdo_Instrument→hsdo_Measurement_Name
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Measurement_Name
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Instrument
+- description: hsdo_Instrument→hsdo_Model
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Model
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Instrument
+- description: hsdo_Variable→hsdo_Measurement_Name
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Measurement_Name
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Variable
+- description: hsdo_Variable→hsdo_Model
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Model
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_subject_type: hsdo_Variable
+- description: hsdo_Provider→hsdo_Science_Keyword
+  object:
+    example_object: https://climateKG.org/entity/5d7f7568-bfc3-4c11-b446-c4f6488c8ae9
+    example_object_type: hsdo_Science_Keyword
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/1ce21438-4c23-4bb5-b99a-da98622cdd02
+    example_subject_type: hsdo_Provider
+- description: hsdo_Project→hsdo_Platform
   object:
     example_object: https://climateKG.org/entity/5d7f7568-bfc3-4c11-b446-c4f6488c8ae9
     example_object_type: hsdo_Platform
     example_predicate: relation:MountedOn
-    example_subject: https://climateKG.org/entity/8783344a-b6cb-4905-adab-1ae6281fc83d
-    example_subject_type: hsdo_Instrument
-- description: hsdo_Platform → hsdo_Instrument
+    example_subject: https://climateKG.org/entity/1ce21438-4c23-4bb5-b99a-da98622cdd02
+    example_subject_type: hsdo_Project
+- description: hsdo_Project→hsdo_Science_Keyword
   object:
-    example_object: https://climateKG.org/entity/b79c7e06-cd07-442f-bf12-2019cd71c201
-    example_object_type: hsdo_Instrument
+    example_object: https://climateKG.org/entity/5d7f7568-bfc3-4c11-b446-c4f6488c8ae9
+    example_object_type: hsdo_Science_Keyword
     example_predicate: relation:MountedOn
-    example_subject: https://climateKG.org/entity/2405ed08-fc64-4251-a242-c879181ebafd
-    example_subject_type: hsdo_Platform
-- description: hsdo_Platform → hsdo_Provider
+    example_subject: https://climateKG.org/entity/1ce21438-4c23-4bb5-b99a-da98622cdd02
+    example_subject_type: hsdo_Project
+- description: hsdo_Model→hsdo_Platform
   object:
-    example_object: https://climateKG.org/entity/c9003d36-020d-4e86-995a-498945576c23
+    example_object: https://climateKG.org/entity/5d7f7568-bfc3-4c11-b446-c4f6488c8ae9
+    example_object_type: hsdo_Platform
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/1ce21438-4c23-4bb5-b99a-da98622cdd02
+    example_subject_type: hsdo_Model
+- description: hsdo_Model→hsdo_Science_Keyword
+  object:
+    example_object: https://climateKG.org/entity/5d7f7568-bfc3-4c11-b446-c4f6488c8ae9
+    example_object_type: hsdo_Science_Keyword
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/1ce21438-4c23-4bb5-b99a-da98622cdd02
+    example_subject_type: hsdo_Model
+- description: hsdo_Project→hsdo_Provider
+  object:
+    example_object: https://climateKG.org/entity/d4313915-2d24-424c-a171-30ee9a6f4bb5
     example_object_type: hsdo_Provider
     example_predicate: relation:MountedOn
-    example_subject: https://climateKG.org/entity/2405ed08-fc64-4251-a242-c879181ebafd
-    example_subject_type: hsdo_Platform
-- description: hsdo_Instrument → hsdo_Instrument
+    example_subject: https://climateKG.org/entity/24d472f8-301f-46b8-8138-06277c30befc
+    example_subject_type: hsdo_Project
+- description: hsdo_Project→hsdo_Location
   object:
-    example_object: https://climateKG.org/entity/e5fde4c4-15cd-4278-b922-005488df096f
+    example_object: https://climateKG.org/entity/d4313915-2d24-424c-a171-30ee9a6f4bb5
+    example_object_type: hsdo_Location
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/24d472f8-301f-46b8-8138-06277c30befc
+    example_subject_type: hsdo_Project
+- description: hsdo_Project→hsdo_Instrument
+  object:
+    example_object: https://climateKG.org/entity/d4313915-2d24-424c-a171-30ee9a6f4bb5
     example_object_type: hsdo_Instrument
     example_predicate: relation:MountedOn
-    example_subject: https://climateKG.org/entity/ee79f1d4-3a73-408f-beea-945b869b3abf
-    example_subject_type: hsdo_Instrument
-- description: hsdo_Location → hsdo_Location
+    example_subject: https://climateKG.org/entity/24d472f8-301f-46b8-8138-06277c30befc
+    example_subject_type: hsdo_Project
+- description: hsdo_Project→hsdo_Variable
+  object:
+    example_object: https://climateKG.org/entity/d4313915-2d24-424c-a171-30ee9a6f4bb5
+    example_object_type: hsdo_Variable
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/24d472f8-301f-46b8-8138-06277c30befc
+    example_subject_type: hsdo_Project
+- description: hsdo_Platform→hsdo_Science_Keyword
+  object:
+    example_object: https://climateKG.org/entity/d4313915-2d24-424c-a171-30ee9a6f4bb5
+    example_object_type: hsdo_Science_Keyword
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/24d472f8-301f-46b8-8138-06277c30befc
+    example_subject_type: hsdo_Platform
+- description: hsdo_Model→hsdo_Provider
+  object:
+    example_object: https://climateKG.org/entity/d4313915-2d24-424c-a171-30ee9a6f4bb5
+    example_object_type: hsdo_Provider
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/24d472f8-301f-46b8-8138-06277c30befc
+    example_subject_type: hsdo_Model
+- description: hsdo_Model→hsdo_Location
+  object:
+    example_object: https://climateKG.org/entity/d4313915-2d24-424c-a171-30ee9a6f4bb5
+    example_object_type: hsdo_Location
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/24d472f8-301f-46b8-8138-06277c30befc
+    example_subject_type: hsdo_Model
+- description: hsdo_Model→hsdo_Instrument
+  object:
+    example_object: https://climateKG.org/entity/d4313915-2d24-424c-a171-30ee9a6f4bb5
+    example_object_type: hsdo_Instrument
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/24d472f8-301f-46b8-8138-06277c30befc
+    example_subject_type: hsdo_Model
+- description: hsdo_Model→hsdo_Variable
+  object:
+    example_object: https://climateKG.org/entity/d4313915-2d24-424c-a171-30ee9a6f4bb5
+    example_object_type: hsdo_Variable
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/24d472f8-301f-46b8-8138-06277c30befc
+    example_subject_type: hsdo_Model
+- description: hsdo_Variable→hsdo_Project
+  object:
+    example_object: https://climateKG.org/entity/d32a5f0f-fedf-4368-b4ba-0ac7b77ce9ca
+    example_object_type: hsdo_Project
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/2878f334-35dc-47a7-a3ae-8c5da1adccd3
+    example_subject_type: hsdo_Variable
+- description: hsdo_Measurement_Name→hsdo_Science_Keyword
+  object:
+    example_object: https://climateKG.org/entity/0d209f3c-73b1-412d-828b-22b25da8fc3a
+    example_object_type: hsdo_Science_Keyword
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/3a0d1a04-972c-4272-a34e-a57c77112d76
+    example_subject_type: hsdo_Measurement_Name
+- description: hsdo_Measurement_Name→hsdo_Location
   object:
     example_object: https://climateKG.org/entity/0d209f3c-73b1-412d-828b-22b25da8fc3a
     example_object_type: hsdo_Location
     example_predicate: relation:MountedOn
-    example_subject: https://climateKG.org/entity/41191de9-be66-45e2-b4de-95d5090df8d8
-    example_subject_type: hsdo_Location
-- description: hsdo_Instrument → hsdo_Experiment
+    example_subject: https://climateKG.org/entity/3a0d1a04-972c-4272-a34e-a57c77112d76
+    example_subject_type: hsdo_Measurement_Name
+- description: hsdo_Location→hsdo_Science_Keyword
   object:
-    example_object: https://climateKG.org/entity/205df2ad-cbc2-46a7-941b-d1b49a1c85fe
+    example_object: https://climateKG.org/entity/0d209f3c-73b1-412d-828b-22b25da8fc3a
+    example_object_type: hsdo_Science_Keyword
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/3a0d1a04-972c-4272-a34e-a57c77112d76
+    example_subject_type: hsdo_Location
+- description: hsdo_Provider→hsdo_Project
+  object:
+    example_object: https://climateKG.org/entity/eeba88d2-20bf-43b1-bccf-b125485405f4
+    example_object_type: hsdo_Project
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/46e4aaa4-349c-4049-a910-035391360010
+    example_subject_type: hsdo_Provider
+- description: hsdo_Platform→hsdo_Project
+  object:
+    example_object: https://climateKG.org/entity/eeba88d2-20bf-43b1-bccf-b125485405f4
+    example_object_type: hsdo_Project
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/46e4aaa4-349c-4049-a910-035391360010
+    example_subject_type: hsdo_Platform
+- description: hsdo_Project→hsdo_Project
+  object:
+    example_object: https://climateKG.org/entity/eeba88d2-20bf-43b1-bccf-b125485405f4
+    example_object_type: hsdo_Project
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/46e4aaa4-349c-4049-a910-035391360010
+    example_subject_type: hsdo_Project
+- description: hsdo_Project→hsdo_Model
+  object:
+    example_object: https://climateKG.org/entity/eeba88d2-20bf-43b1-bccf-b125485405f4
+    example_object_type: hsdo_Model
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/46e4aaa4-349c-4049-a910-035391360010
+    example_subject_type: hsdo_Project
+- description: hsdo_Location→hsdo_Project
+  object:
+    example_object: https://climateKG.org/entity/eeba88d2-20bf-43b1-bccf-b125485405f4
+    example_object_type: hsdo_Project
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/46e4aaa4-349c-4049-a910-035391360010
+    example_subject_type: hsdo_Location
+- description: hsdo_Science_Keyword→hsdo_Model
+  object:
+    example_object: https://climateKG.org/entity/eeba88d2-20bf-43b1-bccf-b125485405f4
+    example_object_type: hsdo_Model
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/46e4aaa4-349c-4049-a910-035391360010
+    example_subject_type: hsdo_Science_Keyword
+- description: hsdo_Instrument→hsdo_Experiment
+  object:
+    example_object: https://climateKG.org/entity/b2140059-b3ca-415c-b0a7-3e142783ffe8
     example_object_type: hsdo_Experiment
     example_predicate: relation:MountedOn
-    example_subject: https://climateKG.org/entity/efbd1edc-388f-4985-8033-6782ee87d463
+    example_subject: https://climateKG.org/entity/4b12439a-45fc-42fa-ae19-535826f6247b
     example_subject_type: hsdo_Instrument
-- description: hsdo_Location → hsdo_Institution
+- description: hsdo_Project→hsdo_Experiment
+  object:
+    example_object: https://climateKG.org/entity/b2140059-b3ca-415c-b0a7-3e142783ffe8
+    example_object_type: hsdo_Experiment
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/4b12439a-45fc-42fa-ae19-535826f6247b
+    example_subject_type: hsdo_Project
+- description: hsdo_Science_Keyword→hsdo_Experiment
+  object:
+    example_object: https://climateKG.org/entity/b2140059-b3ca-415c-b0a7-3e142783ffe8
+    example_object_type: hsdo_Experiment
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/4b12439a-45fc-42fa-ae19-535826f6247b
+    example_subject_type: hsdo_Science_Keyword
+- description: hsdo_Variable→hsdo_Experiment
+  object:
+    example_object: https://climateKG.org/entity/b2140059-b3ca-415c-b0a7-3e142783ffe8
+    example_object_type: hsdo_Experiment
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/4b12439a-45fc-42fa-ae19-535826f6247b
+    example_subject_type: hsdo_Variable
+- description: hsdo_Provider→hsdo_Institution
+  object:
+    example_object: https://climateKG.org/entity/3be6270c-8554-467a-b2c7-9c13bc086b10
+    example_object_type: hsdo_Institution
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/4c09d43f-68d5-469d-aaed-f9ef8968ef2e
+    example_subject_type: hsdo_Provider
+- description: hsdo_Platform→hsdo_Institution
+  object:
+    example_object: https://climateKG.org/entity/3be6270c-8554-467a-b2c7-9c13bc086b10
+    example_object_type: hsdo_Institution
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/4c09d43f-68d5-469d-aaed-f9ef8968ef2e
+    example_subject_type: hsdo_Platform
+- description: hsdo_Science_Keyword→hsdo_Institution
+  object:
+    example_object: https://climateKG.org/entity/3be6270c-8554-467a-b2c7-9c13bc086b10
+    example_object_type: hsdo_Institution
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/4c09d43f-68d5-469d-aaed-f9ef8968ef2e
+    example_subject_type: hsdo_Science_Keyword
+- description: hsdo_Location→hsdo_Institution
   object:
     example_object: https://climateKG.org/entity/3be6270c-8554-467a-b2c7-9c13bc086b10
     example_object_type: hsdo_Institution
     example_predicate: relation:MountedOn
     example_subject: https://climateKG.org/entity/4c09d43f-68d5-469d-aaed-f9ef8968ef2e
     example_subject_type: hsdo_Location
-- description: hsdo_Experiment → hsdo_Platform
+- description: hsdo_Experiment→hsdo_Project
   object:
     example_object: https://climateKG.org/entity/432d2336-1111-4305-a8cb-8d0c8a3af632
-    example_object_type: hsdo_Platform
+    example_object_type: hsdo_Project
     example_predicate: relation:MountedOn
     example_subject: https://climateKG.org/entity/4f9e19dc-adc1-4c7e-91ab-5947064737e3
     example_subject_type: hsdo_Experiment
-- description: hsdo_Project → hsdo_Location
+- description: hsdo_Model→hsdo_Project
   object:
-    example_object: https://climateKG.org/entity/a4aea007-d297-4051-8b41-5cdde00b4d1e
-    example_object_type: hsdo_Location
+    example_object: https://climateKG.org/entity/432d2336-1111-4305-a8cb-8d0c8a3af632
+    example_object_type: hsdo_Project
     example_predicate: relation:MountedOn
-    example_subject: https://climateKG.org/entity/6831004a-34d7-42f5-a903-6c84a5e7590f
-    example_subject_type: hsdo_Project
-- description: hsdo_Location → hsdo_Experiment
+    example_subject: https://climateKG.org/entity/4f9e19dc-adc1-4c7e-91ab-5947064737e3
+    example_subject_type: hsdo_Model
+- description: hsdo_Instrument→hsdo_Realm
+  object:
+    example_object: https://climateKG.org/entity/5668f6df-ab5a-4991-9720-dda2faae7f3e
+    example_object_type: hsdo_Realm
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/664e984c-b02d-4516-95b5-2afe0b56d7f7
+    example_subject_type: hsdo_Instrument
+- description: hsdo_Platform→hsdo_Realm
+  object:
+    example_object: https://climateKG.org/entity/5668f6df-ab5a-4991-9720-dda2faae7f3e
+    example_object_type: hsdo_Realm
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/664e984c-b02d-4516-95b5-2afe0b56d7f7
+    example_subject_type: hsdo_Platform
+- description: hsdo_Experiment→hsdo_Science_Keyword
+  object:
+    example_object: https://climateKG.org/entity/f6350232-b1c7-458c-bc43-bda357ebb6db
+    example_object_type: hsdo_Science_Keyword
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/8916dafb-5ad5-45c6-ab64-3500ea1e9577
+    example_subject_type: hsdo_Experiment
+- description: hsdo_Model→hsdo_Model
+  object:
+    example_object: https://climateKG.org/entity/f6350232-b1c7-458c-bc43-bda357ebb6db
+    example_object_type: hsdo_Model
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/8916dafb-5ad5-45c6-ab64-3500ea1e9577
+    example_subject_type: hsdo_Model
+- description: hsdo_Platform→hsdo_Experiment
+  object:
+    example_object: https://climateKG.org/entity/a6212424-1146-4a79-a14c-8ce88543b08b
+    example_object_type: hsdo_Experiment
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/8b7f66ea-d481-4641-9dbf-da90ca3ad9c9
+    example_subject_type: hsdo_Platform
+- description: hsdo_Location→hsdo_Experiment
   object:
     example_object: https://climateKG.org/entity/a6212424-1146-4a79-a14c-8ce88543b08b
     example_object_type: hsdo_Experiment
     example_predicate: relation:MountedOn
     example_subject: https://climateKG.org/entity/8b7f66ea-d481-4641-9dbf-da90ca3ad9c9
     example_subject_type: hsdo_Location
-- description: hsdo_Provider → hsdo_Models
+- description: hsdo_Provider→hsdo_Experiment
+  object:
+    example_object: https://climateKG.org/entity/17b1489c-fba7-4252-bf23-b981148343f1
+    example_object_type: hsdo_Experiment
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/8fbdb7eb-9857-4942-ac10-58c085de5c68
+    example_subject_type: hsdo_Provider
+- description: hsdo_Provider→hsdo_Models
   object:
     example_object: https://climateKG.org/entity/3668de06-8a7d-4667-beb8-d04dcac619b0
     example_object_type: hsdo_Models
     example_predicate: relation:MountedOn
     example_subject: https://climateKG.org/entity/9c0288cc-864d-40f7-93af-6df413b404f5
     example_subject_type: hsdo_Provider
-- description: hsdo_Experiment → hsdo_Experiment
+- description: hsdo_Science_Keyword→hsdo_Models
+  object:
+    example_object: https://climateKG.org/entity/3668de06-8a7d-4667-beb8-d04dcac619b0
+    example_object_type: hsdo_Models
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/9c0288cc-864d-40f7-93af-6df413b404f5
+    example_subject_type: hsdo_Science_Keyword
+- description: hsdo_Variable→hsdo_Models
+  object:
+    example_object: https://climateKG.org/entity/3668de06-8a7d-4667-beb8-d04dcac619b0
+    example_object_type: hsdo_Models
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/9c0288cc-864d-40f7-93af-6df413b404f5
+    example_subject_type: hsdo_Variable
+- description: hsdo_Project→hsdo_Realm
+  object:
+    example_object: https://climateKG.org/entity/5668f6df-ab5a-4991-9720-dda2faae7f3e
+    example_object_type: hsdo_Realm
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/ba2cf9cf-36c9-421b-bd6e-339e7cef1092
+    example_subject_type: hsdo_Project
+- description: hsdo_Model→hsdo_Realm
+  object:
+    example_object: https://climateKG.org/entity/5668f6df-ab5a-4991-9720-dda2faae7f3e
+    example_object_type: hsdo_Realm
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/ba2cf9cf-36c9-421b-bd6e-339e7cef1092
+    example_subject_type: hsdo_Model
+- description: hsdo_Project→hsdo_Measurement_Name
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Measurement_Name
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/ba2cf9cf-36c9-421b-bd6e-339e7cef1092
+    example_subject_type: hsdo_Project
+- description: hsdo_Model→hsdo_Measurement_Name
+  object:
+    example_object: https://climateKG.org/entity/e384382c-fb2a-43ea-b064-610e6d4807e9
+    example_object_type: hsdo_Measurement_Name
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/ba2cf9cf-36c9-421b-bd6e-339e7cef1092
+    example_subject_type: hsdo_Model
+- description: hsdo_Experiment→hsdo_Experiment
   object:
     example_object: https://climateKG.org/entity/3cbb9f17-ddb1-48d3-a507-786887e485af
     example_object_type: hsdo_Experiment
     example_predicate: relation:MountedOn
     example_subject: https://climateKG.org/entity/d69f7457-db31-48ce-b8c2-98058c412bc6
     example_subject_type: hsdo_Experiment
+- description: hsdo_Related_Url_Content_Type→hsdo_Experiment
+  object:
+    example_object: https://climateKG.org/entity/205df2ad-cbc2-46a7-941b-d1b49a1c85fe
+    example_object_type: hsdo_Experiment
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/efbd1edc-388f-4985-8033-6782ee87d463
+    example_subject_type: hsdo_Related_Url_Content_Type
+- description: hsdo_Related_Url_Content_Type→hsdo_Project
+  object:
+    example_object: https://climateKG.org/entity/205df2ad-cbc2-46a7-941b-d1b49a1c85fe
+    example_object_type: hsdo_Project
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/efbd1edc-388f-4985-8033-6782ee87d463
+    example_subject_type: hsdo_Related_Url_Content_Type
+- description: hsdo_Related_Url_Content_Type→hsdo_Model
+  object:
+    example_object: https://climateKG.org/entity/205df2ad-cbc2-46a7-941b-d1b49a1c85fe
+    example_object_type: hsdo_Model
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/efbd1edc-388f-4985-8033-6782ee87d463
+    example_subject_type: hsdo_Related_Url_Content_Type
+- description: hsdo_Model→hsdo_Experiment
+  object:
+    example_object: https://climateKG.org/entity/205df2ad-cbc2-46a7-941b-d1b49a1c85fe
+    example_object_type: hsdo_Experiment
+    example_predicate: relation:MountedOn
+    example_subject: https://climateKG.org/entity/efbd1edc-388f-4985-8033-6782ee87d463
+    example_subject_type: hsdo_Model
 from_schema: climatepub4-kg
 rank: 1000
 slot_uri: relation:MountedOn
@@ -246,18 +922,29 @@ domain_of:
 - hsdo_Experiment
 - hsdo_Instrument
 - hsdo_Location
+- hsdo_Measurement_Name
+- hsdo_Model
 - hsdo_Platform
 - hsdo_Project
 - hsdo_Provider
+- hsdo_Related_Url_Content_Type
+- hsdo_Science_Keyword
+- hsdo_Variable
 range: Any
 any_of:
-- range: hsdo_Models
 - range: hsdo_Provider
+- range: hsdo_Science_Keyword
 - range: hsdo_Institution
-- range: hsdo_Instrument
 - range: hsdo_Platform
-- range: hsdo_Location
+- range: hsdo_Realm
 - range: hsdo_Experiment
+- range: hsdo_Model
+- range: hsdo_Location
+- range: hsdo_Models
+- range: hsdo_Measurement_Name
+- range: hsdo_Project
+- range: hsdo_Variable
+- range: hsdo_Instrument
 
 ```
 </details>

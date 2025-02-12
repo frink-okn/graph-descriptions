@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 284 times.
+
+
 URI: [attribute:doi](http://attribute.org/doi)
 
 
@@ -23,7 +27,7 @@ URI: [attribute:doi](http://attribute.org/doi)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoPaper](../classes/HsdoPaper.md) | No class (type) description specified |  no  |
+| [HsdoPaper](../classes/HsdoPaper.md) | No class (type) description specified |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [attribute:doi](http://attribute.org/doi)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,37 +46,9 @@ URI: [attribute:doi](http://attribute.org/doi)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| hsdo_paper → string | https://climateKG.org/entity/008b3eddfa29b8dc6e8d97472e4526bec2c9c2cb | attribute:doi | 10.1093/icesjms/fsr010 |
-
-
-## Comments
-
-* 284 occurrences with subject type hsdo_paper and object type string.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: climatepub4-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | attribute:doi |
-| native | climatepub4-kg/:attribute_doi |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| hsdo_paper | string | https://climateKG.org/entity/008b3eddfa29b8dc6e8d97472e4526bec2c9c2cb | 10.1093/icesjms/fsr010 | 284 |
 
 
 
@@ -80,13 +56,16 @@ URI: [attribute:doi](http://attribute.org/doi)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: attribute_doi
+annotations:
+  count:
+    tag: count
+    value: 284
 description: No slot (predicate) description specified
-comments:
-- 284 occurrences with subject type hsdo_paper and object type string.
 examples:
-- description: hsdo_paper → string
+- description: hsdo_paper→string
   object:
     example_object: 10.1093/icesjms/fsr010
     example_object_type: string

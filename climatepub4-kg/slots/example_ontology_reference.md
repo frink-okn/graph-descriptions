@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 14490 times.
+
+
 URI: [example:ontology/reference](http://example.org/ontology/reference)
 
 
@@ -24,7 +28,7 @@ URI: [example:ontology/reference](http://example.org/ontology/reference)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -33,37 +37,9 @@ URI: [example:ontology/reference](http://example.org/ontology/reference)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → string | example:resource/0006e246-4296-448c-9b81-a0831cad7f1c | example:ontology/reference |  |
-
-
-## Comments
-
-* 14490 occurrences with untyped subjects and object type string.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: climatepub4-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | example:ontology/reference |
-| native | climatepub4-kg/:example_ontology_reference |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| None | string | example:resource/0006e246-4296-448c-9b81-a0831cad7f1c |  | 14490 |
 
 
 
@@ -71,13 +47,19 @@ URI: [example:ontology/reference](http://example.org/ontology/reference)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: example_ontology_reference
+annotations:
+  count:
+    tag: count
+    value: 14490
+  string:
+    tag: string
+    value: 14490
 description: No slot (predicate) description specified
-comments:
-- 14490 occurrences with untyped subjects and object type string.
 examples:
-- description: None → string
+- description: None→string
   object:
     example_object: ''
     example_object_type: string

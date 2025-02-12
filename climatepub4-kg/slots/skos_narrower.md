@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 16338 times.
+
+
 URI: [skos:narrower](http://www.w3.org/2004/02/skos/core#narrower)
 
 
@@ -23,7 +27,7 @@ URI: [skos:narrower](http://www.w3.org/2004/02/skos/core#narrower)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SkosConcept](../classes/SkosConcept.md) | No class (type) description specified |  no  |
+| [SkosConcept](../classes/SkosConcept.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,37 +46,9 @@ URI: [skos:narrower](http://www.w3.org/2004/02/skos/core#narrower)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| skos_Concept → skos_Concept | https://gcmd.earthdata.nasa.gov/kms/concept/ffccf1c0-f25d-4747-ac4a-f09444383031 | skos:narrower | https://gcmd.earthdata.nasa.gov/kms/concept/c1c61697-b4bd-467c-9db4-5bd0115545a3 |
-
-
-## Comments
-
-* 16338 occurrences with subject type skos_Concept and object type skos_Concept.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: climatepub4-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | skos:narrower |
-| native | climatepub4-kg/:skos_narrower |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| skos_Concept | skos_Concept | https://gcmd.earthdata.nasa.gov/kms/concept/005d192a-95b9-4fc2-afed-f87da3c3dc33 | https://gcmd.earthdata.nasa.gov/kms/concept/15029eb0-6342-4066-8ac9-c50f7dbfb392 | 16338 |
 
 
 
@@ -80,18 +56,21 @@ URI: [skos:narrower](http://www.w3.org/2004/02/skos/core#narrower)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: skos_narrower
+annotations:
+  count:
+    tag: count
+    value: 16338
 description: No slot (predicate) description specified
-comments:
-- 16338 occurrences with subject type skos_Concept and object type skos_Concept.
 examples:
-- description: skos_Concept → skos_Concept
+- description: skos_Concept→skos_Concept
   object:
-    example_object: https://gcmd.earthdata.nasa.gov/kms/concept/c1c61697-b4bd-467c-9db4-5bd0115545a3
+    example_object: https://gcmd.earthdata.nasa.gov/kms/concept/15029eb0-6342-4066-8ac9-c50f7dbfb392
     example_object_type: skos_Concept
     example_predicate: skos:narrower
-    example_subject: https://gcmd.earthdata.nasa.gov/kms/concept/ffccf1c0-f25d-4747-ac4a-f09444383031
+    example_subject: https://gcmd.earthdata.nasa.gov/kms/concept/005d192a-95b9-4fc2-afed-f87da3c3dc33
     example_subject_type: skos_Concept
 from_schema: climatepub4-kg
 rank: 1000

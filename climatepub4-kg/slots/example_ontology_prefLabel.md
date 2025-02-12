@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 16360 times.
+
+
 URI: [example:ontology/prefLabel](http://example.org/ontology/prefLabel)
 
 
@@ -24,7 +28,7 @@ URI: [example:ontology/prefLabel](http://example.org/ontology/prefLabel)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -33,37 +37,9 @@ URI: [example:ontology/prefLabel](http://example.org/ontology/prefLabel)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → string | example:resource/0006e246-4296-448c-9b81-a0831cad7f1c | example:ontology/prefLabel | LABRADOR SEA |
-
-
-## Comments
-
-* 16360 occurrences with untyped subjects and object type string.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: climatepub4-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | example:ontology/prefLabel |
-| native | climatepub4-kg/:example_ontology_prefLabel |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| None | string | example:resource/0006e246-4296-448c-9b81-a0831cad7f1c | LABRADOR SEA | 16360 |
 
 
 
@@ -71,13 +47,19 @@ URI: [example:ontology/prefLabel](http://example.org/ontology/prefLabel)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: example_ontology_prefLabel
+annotations:
+  count:
+    tag: count
+    value: 16360
+  string:
+    tag: string
+    value: 16360
 description: No slot (predicate) description specified
-comments:
-- 16360 occurrences with untyped subjects and object type string.
 examples:
-- description: None → string
+- description: None→string
   object:
     example_object: LABRADOR SEA
     example_object_type: string

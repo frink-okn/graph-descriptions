@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 16359 times.
+
+
 URI: [skos:inScheme](http://www.w3.org/2004/02/skos/core#inScheme)
 
 
@@ -23,7 +27,7 @@ URI: [skos:inScheme](http://www.w3.org/2004/02/skos/core#inScheme)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SkosConcept](../classes/SkosConcept.md) | No class (type) description specified |  no  |
+| [SkosConcept](../classes/SkosConcept.md) | No class (type) description specified |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [skos:inScheme](http://www.w3.org/2004/02/skos/core#inScheme)
 
 ## Properties
 
-* Range: [xsd:anyURI](xsd:anyURI)
+* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
 
 
 
@@ -42,37 +46,9 @@ URI: [skos:inScheme](http://www.w3.org/2004/02/skos/core#inScheme)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| skos_Concept → uri | https://gcmd.earthdata.nasa.gov/kms/concept/0006e246-4296-448c-9b81-a0831cad7f1c | skos:inScheme | https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/ |
-
-
-## Comments
-
-* 16359 occurrences with subject type skos_Concept and object type uri.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: climatepub4-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | skos:inScheme |
-| native | climatepub4-kg/:skos_inScheme |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| skos_Concept | uri | https://gcmd.earthdata.nasa.gov/kms/concept/0006e246-4296-448c-9b81-a0831cad7f1c | https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/ | 16359 |
 
 
 
@@ -80,13 +56,16 @@ URI: [skos:inScheme](http://www.w3.org/2004/02/skos/core#inScheme)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: skos_inScheme
+annotations:
+  count:
+    tag: count
+    value: 16359
 description: No slot (predicate) description specified
-comments:
-- 16359 occurrences with subject type skos_Concept and object type uri.
 examples:
-- description: skos_Concept → uri
+- description: skos_Concept→uri
   object:
     example_object: https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/
     example_object_type: uri
