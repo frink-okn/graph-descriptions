@@ -69,9 +69,9 @@ URI: [hsdo:ServiceChannel](http://schema.org/ServiceChannel)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [hsdo_serviceUrl](../slots/hsdo_serviceUrl.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI) | No slot (predicate) description specified <br/> 188 occurrences with subject type hsdo_ServiceChannel and object type uri. | direct |
 | [hsdo_disambiguatingDescription](../slots/hsdo_disambiguatingDescription.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 174 occurrences with subject type hsdo_ServiceChannel and object type string. | direct |
 | [hsdo_servicePhone](../slots/hsdo_servicePhone.md) | 0..1 <br/> [HsdoContactPoint](../classes/HsdoContactPoint.md) | No slot (predicate) description specified <br/> 87 occurrences with subject type hsdo_ServiceChannel and object type hsdo_ContactPoint. | direct |
+| [hsdo_serviceUrl](../slots/hsdo_serviceUrl.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI) | No slot (predicate) description specified <br/> 188 occurrences with subject type hsdo_ServiceChannel and object type uri. | direct |
 | [hsdo_serviceLocation](../slots/hsdo_serviceLocation.md) | 0..1 <br/> [HsdoPlace](../classes/HsdoPlace.md) | No slot (predicate) description specified <br/> 87 occurrences with subject type hsdo_ServiceChannel and object type hsdo_Place. | direct |
 
 
@@ -136,9 +136,9 @@ notes:
 from_schema: kg-name
 rank: 1000
 slots:
-- hsdo_serviceUrl
 - hsdo_disambiguatingDescription
 - hsdo_servicePhone
+- hsdo_serviceUrl
 - hsdo_serviceLocation
 class_uri: hsdo:ServiceChannel
 
@@ -159,27 +159,6 @@ notes:
 from_schema: kg-name
 rank: 1000
 attributes:
-  hsdo_serviceUrl:
-    name: hsdo_serviceUrl
-    description: No slot (predicate) description specified
-    comments:
-    - 188 occurrences with subject type hsdo_ServiceChannel and object type uri.
-    examples:
-    - description: hsdo_ServiceChannel → uri
-      object:
-        example_object: https://www.auntbertha.com//child-guidance-resource-centers-%2528cgrc%2529--philadelphia-pa--drug-and-alcohol-services/4542572480692224?postal=19139
-        example_object_type: uri
-        example_predicate: hsdo:serviceUrl
-        example_subject: dreamkg:service/channel/AB-4542572480692224
-        example_subject_type: hsdo_ServiceChannel
-    from_schema: kg-name
-    rank: 1000
-    slot_uri: hsdo:serviceUrl
-    alias: hsdo_serviceUrl
-    owner: hsdo_ServiceChannel
-    domain_of:
-    - hsdo_ServiceChannel
-    range: uri
   hsdo_disambiguatingDescription:
     name: hsdo_disambiguatingDescription
     description: No slot (predicate) description specified
@@ -222,6 +201,27 @@ attributes:
     domain_of:
     - hsdo_ServiceChannel
     range: hsdo_ContactPoint
+  hsdo_serviceUrl:
+    name: hsdo_serviceUrl
+    description: No slot (predicate) description specified
+    comments:
+    - 188 occurrences with subject type hsdo_ServiceChannel and object type uri.
+    examples:
+    - description: hsdo_ServiceChannel → uri
+      object:
+        example_object: https://www.auntbertha.com//child-guidance-resource-centers-%2528cgrc%2529--philadelphia-pa--drug-and-alcohol-services/4542572480692224?postal=19139
+        example_object_type: uri
+        example_predicate: hsdo:serviceUrl
+        example_subject: dreamkg:service/channel/AB-4542572480692224
+        example_subject_type: hsdo_ServiceChannel
+    from_schema: kg-name
+    rank: 1000
+    slot_uri: hsdo:serviceUrl
+    alias: hsdo_serviceUrl
+    owner: hsdo_ServiceChannel
+    domain_of:
+    - hsdo_ServiceChannel
+    range: uri
   hsdo_serviceLocation:
     name: hsdo_serviceLocation
     description: No slot (predicate) description specified

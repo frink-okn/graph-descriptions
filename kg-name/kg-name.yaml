@@ -58,9 +58,9 @@ classes:
     notes:
     - Class with 609 occurrences.
     slots:
-    - hsdo_dayOfWeek
-    - hsdo_opens
     - hsdo_closes
+    - hsdo_opens
+    - hsdo_dayOfWeek
     title: OpeningHoursSpecification
   hsdo_Organization:
     class_uri: hsdo:Organization
@@ -70,8 +70,8 @@ classes:
     notes:
     - Class with 87 occurrences.
     slots:
-    - hsdo_name
     - hsdo_sameAs
+    - hsdo_name
     title: Organization
   hsdo_Place:
     class_uri: hsdo:Place
@@ -81,10 +81,10 @@ classes:
     notes:
     - Class with 87 occurrences.
     slots:
-    - hsdo_containedInPlace
-    - hsdo_latitude
     - hsdo_hasMap
+    - hsdo_containedInPlace
     - hsdo_longitude
+    - hsdo_latitude
     - hsdo_address
     title: Place
   hsdo_Service:
@@ -96,14 +96,14 @@ classes:
     notes:
     - Class with 87 occurrences.
     slots:
+    - hsdo_provider
+    - hsdo_hoursAvailable
+    - hsdo_availableChannel
     - hsdo_name
     - hsdo_description
-    - hsdo_identifier
-    - hsdo_hoursAvailable
-    - hsdo_areaServed
     - hsdo_category
-    - hsdo_availableChannel
-    - hsdo_provider
+    - hsdo_areaServed
+    - hsdo_identifier
     title: Service
   hsdo_ServiceChannel:
     class_uri: hsdo:ServiceChannel
@@ -114,9 +114,9 @@ classes:
     notes:
     - Class with 174 occurrences.
     slots:
-    - hsdo_serviceUrl
     - hsdo_disambiguatingDescription
     - hsdo_servicePhone
+    - hsdo_serviceUrl
     - hsdo_serviceLocation
     title: ServiceChannel
   hsdo_TextObject:
@@ -128,16 +128,16 @@ classes:
     notes:
     - Class with 87 occurrences.
     slots:
-    - hsdo_text
     - hsdo_conditionsOfAccess
+    - hsdo_text
     title: TextObject
 conforms_to: No schema conformance document specified
-created_on: '2025-02-12T00:53:21.122154'
+created_on: '2025-02-12T00:58:27.740950'
 description: No schema description specified
 id: kg-name
 imports:
 - linkml:types
-last_updated_on: '2025-02-12T00:53:21.122154'
+last_updated_on: '2025-02-12T00:58:27.740950'
 license: No schema license specified
 name: kg-name
 prefixes:
@@ -206,8 +206,8 @@ slots:
     slot_uri: hsdo:availableChannel
   hsdo_category:
     any_of:
-    - range: hsdo_CategoryCode
     - range: hsdo_Audience
+    - range: hsdo_CategoryCode
     comments:
     - 539 occurrences with subject type hsdo_Service and object type hsdo_Audience.
     - 806 occurrences with subject type hsdo_Service and object type hsdo_CategoryCode.

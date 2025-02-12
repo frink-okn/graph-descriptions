@@ -51,8 +51,8 @@ URI: [hsdo:TextObject](http://schema.org/TextObject)
 
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
-| [hsdo_text](../slots/hsdo_text.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 90 occurrences with subject type hsdo_TextObject and object type string. | direct |
 | [hsdo_conditionsOfAccess](../slots/hsdo_conditionsOfAccess.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 88 occurrences with subject type hsdo_TextObject and object type string. | direct |
+| [hsdo_text](../slots/hsdo_text.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 90 occurrences with subject type hsdo_TextObject and object type string. | direct |
 
 
 
@@ -115,8 +115,8 @@ notes:
 from_schema: kg-name
 rank: 1000
 slots:
-- hsdo_text
 - hsdo_conditionsOfAccess
+- hsdo_text
 class_uri: hsdo:TextObject
 
 ```
@@ -135,6 +135,28 @@ notes:
 from_schema: kg-name
 rank: 1000
 attributes:
+  hsdo_conditionsOfAccess:
+    name: hsdo_conditionsOfAccess
+    description: No slot (predicate) description specified
+    comments:
+    - 88 occurrences with subject type hsdo_TextObject and object type string.
+    examples:
+    - description: hsdo_TextObject → string
+      object:
+        example_object: Must have Medical Assistance (Medicaid). This program helps
+          people who are 13 to 19 years old.
+        example_object_type: string
+        example_predicate: hsdo:conditionsOfAccess
+        example_subject: dreamkg:service/desc/4542572480692224
+        example_subject_type: hsdo_TextObject
+    from_schema: kg-name
+    rank: 1000
+    slot_uri: hsdo:conditionsOfAccess
+    alias: hsdo_conditionsOfAccess
+    owner: hsdo_TextObject
+    domain_of:
+    - hsdo_TextObject
+    range: string
   hsdo_text:
     name: hsdo_text
     description: No slot (predicate) description specified
@@ -160,28 +182,6 @@ attributes:
     rank: 1000
     slot_uri: hsdo:text
     alias: hsdo_text
-    owner: hsdo_TextObject
-    domain_of:
-    - hsdo_TextObject
-    range: string
-  hsdo_conditionsOfAccess:
-    name: hsdo_conditionsOfAccess
-    description: No slot (predicate) description specified
-    comments:
-    - 88 occurrences with subject type hsdo_TextObject and object type string.
-    examples:
-    - description: hsdo_TextObject → string
-      object:
-        example_object: Must have Medical Assistance (Medicaid). This program helps
-          people who are 13 to 19 years old.
-        example_object_type: string
-        example_predicate: hsdo:conditionsOfAccess
-        example_subject: dreamkg:service/desc/4542572480692224
-        example_subject_type: hsdo_TextObject
-    from_schema: kg-name
-    rank: 1000
-    slot_uri: hsdo:conditionsOfAccess
-    alias: hsdo_conditionsOfAccess
     owner: hsdo_TextObject
     domain_of:
     - hsdo_TextObject
