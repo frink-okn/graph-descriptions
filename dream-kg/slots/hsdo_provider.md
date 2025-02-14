@@ -1,16 +1,12 @@
 
 
-# Slot: provider (hsdo_provider)
+# Slot: hsdo_provider
 
 
-_The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller._
-
-
-
+_No slot (predicate) description specified_
 
 
 
-This slot occurs 87 times.
 
 
 URI: [hsdo:provider](http://schema.org/provider)
@@ -27,7 +23,7 @@ URI: [hsdo:provider](http://schema.org/provider)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  yes  |
+| [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  no  |
 
 
 
@@ -46,9 +42,37 @@ URI: [hsdo:provider](http://schema.org/provider)
 
 ## Examples
 
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| hsdo_Service | hsdo_Organization | dreamkg:service/6379467169595392 | dreamkg:service/provider/6379467169595392 | 87 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| hsdo_Service → hsdo_Organization | dreamkg:service/6710596967858176 | hsdo:provider | dreamkg:service/provider/6710596967858176 |
+
+
+## Comments
+
+* 87 occurrences with subject type hsdo_Service and object type hsdo_Organization.
+
+## Identifier and Mapping Information
+
+
+
+
+
+
+
+### Schema Source
+
+
+* from schema: dream-kg
+
+
+
+
+## Mappings
+
+| Mapping Type | Mapped Value |
+| ---  | ---  |
+| self | hsdo:provider |
+| native | dream-kg/:hsdo_provider |
 
 
 
@@ -56,24 +80,18 @@ URI: [hsdo:provider](http://schema.org/provider)
 ## LinkML Source
 
 <details>
-
 ```yaml
 name: hsdo_provider
-annotations:
-  count:
-    tag: count
-    value: 87
-description: The service provider, service operator, or service performer; the goods
-  producer. Another party (a seller) may offer those services or goods on behalf of
-  the provider. A provider may also serve as the seller.
-title: provider
+description: No slot (predicate) description specified
+comments:
+- 87 occurrences with subject type hsdo_Service and object type hsdo_Organization.
 examples:
-- description: hsdo_Service→hsdo_Organization
+- description: hsdo_Service → hsdo_Organization
   object:
-    example_object: dreamkg:service/provider/6379467169595392
+    example_object: dreamkg:service/provider/6710596967858176
     example_object_type: hsdo_Organization
     example_predicate: hsdo:provider
-    example_subject: dreamkg:service/6379467169595392
+    example_subject: dreamkg:service/6710596967858176
     example_subject_type: hsdo_Service
 from_schema: dream-kg
 rank: 1000

@@ -1,16 +1,12 @@
 
 
-# Slot: codeValue (hsdo_codeValue)
+# Slot: hsdo_codeValue
 
 
-_A short textual code that uniquely identifies the value._
-
-
-
+_No slot (predicate) description specified_
 
 
 
-This slot occurs 158 times.
 
 
 URI: [hsdo:codeValue](http://schema.org/codeValue)
@@ -27,7 +23,7 @@ URI: [hsdo:codeValue](http://schema.org/codeValue)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoCategoryCode](../classes/HsdoCategoryCode.md) | A Category Code |  yes  |
+| [HsdoCategoryCode](../classes/HsdoCategoryCode.md) | A Category Code |  no  |
 
 
 
@@ -37,7 +33,7 @@ URI: [hsdo:codeValue](http://schema.org/codeValue)
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -46,9 +42,37 @@ URI: [hsdo:codeValue](http://schema.org/codeValue)
 
 ## Examples
 
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| hsdo_CategoryCode | string | dreamkg:category/service/main/ResidentialCare | residential care | 158 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| hsdo_CategoryCode → string | dreamkg:category/availability/Available | hsdo:codeValue | available |
+
+
+## Comments
+
+* 158 occurrences with subject type hsdo_CategoryCode and object type string.
+
+## Identifier and Mapping Information
+
+
+
+
+
+
+
+### Schema Source
+
+
+* from schema: dream-kg
+
+
+
+
+## Mappings
+
+| Mapping Type | Mapped Value |
+| ---  | ---  |
+| self | hsdo:codeValue |
+| native | dream-kg/:hsdo_codeValue |
 
 
 
@@ -56,22 +80,18 @@ URI: [hsdo:codeValue](http://schema.org/codeValue)
 ## LinkML Source
 
 <details>
-
 ```yaml
 name: hsdo_codeValue
-annotations:
-  count:
-    tag: count
-    value: 158
-description: A short textual code that uniquely identifies the value.
-title: codeValue
+description: No slot (predicate) description specified
+comments:
+- 158 occurrences with subject type hsdo_CategoryCode and object type string.
 examples:
-- description: hsdo_CategoryCode→string
+- description: hsdo_CategoryCode → string
   object:
-    example_object: residential care
+    example_object: available
     example_object_type: string
     example_predicate: hsdo:codeValue
-    example_subject: dreamkg:category/service/main/ResidentialCare
+    example_subject: dreamkg:category/availability/Available
     example_subject_type: hsdo_CategoryCode
 from_schema: dream-kg
 rank: 1000

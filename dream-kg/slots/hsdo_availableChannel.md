@@ -1,16 +1,12 @@
 
 
-# Slot: availableChannel (hsdo_availableChannel)
+# Slot: hsdo_availableChannel
 
 
-_A means of accessing the service (e.g. a phone bank, a web site, a location, etc.)._
-
-
-
+_No slot (predicate) description specified_
 
 
 
-This slot occurs 174 times.
 
 
 URI: [hsdo:availableChannel](http://schema.org/availableChannel)
@@ -27,7 +23,7 @@ URI: [hsdo:availableChannel](http://schema.org/availableChannel)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  yes  |
+| [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  no  |
 
 
 
@@ -46,9 +42,37 @@ URI: [hsdo:availableChannel](http://schema.org/availableChannel)
 
 ## Examples
 
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| hsdo_Service | hsdo_ServiceChannel | dreamkg:service/6379467169595392 | dreamkg:service/channel/P-6379467169595392 | 174 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| hsdo_Service → hsdo_ServiceChannel | dreamkg:service/6710596967858176 | hsdo:availableChannel | dreamkg:service/channel/P-6710596967858176 |
+
+
+## Comments
+
+* 174 occurrences with subject type hsdo_Service and object type hsdo_ServiceChannel.
+
+## Identifier and Mapping Information
+
+
+
+
+
+
+
+### Schema Source
+
+
+* from schema: dream-kg
+
+
+
+
+## Mappings
+
+| Mapping Type | Mapped Value |
+| ---  | ---  |
+| self | hsdo:availableChannel |
+| native | dream-kg/:hsdo_availableChannel |
 
 
 
@@ -56,23 +80,18 @@ URI: [hsdo:availableChannel](http://schema.org/availableChannel)
 ## LinkML Source
 
 <details>
-
 ```yaml
 name: hsdo_availableChannel
-annotations:
-  count:
-    tag: count
-    value: 174
-description: A means of accessing the service (e.g. a phone bank, a web site, a location,
-  etc.).
-title: availableChannel
+description: No slot (predicate) description specified
+comments:
+- 174 occurrences with subject type hsdo_Service and object type hsdo_ServiceChannel.
 examples:
-- description: hsdo_Service→hsdo_ServiceChannel
+- description: hsdo_Service → hsdo_ServiceChannel
   object:
-    example_object: dreamkg:service/channel/P-6379467169595392
+    example_object: dreamkg:service/channel/P-6710596967858176
     example_object_type: hsdo_ServiceChannel
     example_predicate: hsdo:availableChannel
-    example_subject: dreamkg:service/6379467169595392
+    example_subject: dreamkg:service/6710596967858176
     example_subject_type: hsdo_Service
 from_schema: dream-kg
 rank: 1000
