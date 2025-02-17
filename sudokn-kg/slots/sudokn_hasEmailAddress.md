@@ -1,12 +1,16 @@
 
 
-# Slot: has email address (sudokn_hasEmailAddress)
+# Slot: No slot (predicate) name specified (sudokn_hasEmailAddress)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 1 times.
 
 
 URI: [sudokn:hasEmailAddress](http://asu.edu/semantics/SUDOKN/hasEmailAddress)
@@ -23,7 +27,8 @@ URI: [sudokn:hasEmailAddress](http://asu.edu/semantics/SUDOKN/hasEmailAddress)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No type description provided |  no  |
+| [IoManufacturer](../classes/IoManufacturer.md) | No class (type) description specified |  yes  |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No class (type) description specified |  yes  |
 
 
 
@@ -33,7 +38,15 @@ URI: [sudokn:hasEmailAddress](http://asu.edu/semantics/SUDOKN/hasEmailAddress)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[SudoknEmailAddress](../classes/SudoknEmailAddress.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[OwlNamedIndividual](../classes/OwlNamedIndividual.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[SudoknEmailAddress](../classes/SudoknEmailAddress.md)
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [IoManufacturer](../classes/IoManufacturer.md) | [sudokn_hasEmailAddress](../slots/sudokn_hasEmailAddress.md) | domain | [sudokn_hasEmailAddress](../slots/sudokn_hasEmailAddress.md) |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | [sudokn_hasEmailAddress](../slots/sudokn_hasEmailAddress.md) | domain | [sudokn_hasEmailAddress](../slots/sudokn_hasEmailAddress.md) |
+
 
 
 
@@ -42,42 +55,12 @@ URI: [sudokn:hasEmailAddress](http://asu.edu/semantics/SUDOKN/hasEmailAddress)
 
 ## Examples
 
-| Value |
-| --- |
-| sudokn:/Manufacturer_1 sudokn:hasEmailAddress sudokn:/EmailAddress_1 |
-
-## Comments
-
-* 1 occurrences with subject type owl_NamedIndividual and object type sudokn_EmailAddress.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:hasEmailAddress |
-| native | sudokn-kg/:sudokn_hasEmailAddress |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| owl_NamedIndividual | owl_NamedIndividual | sudokn:/Manufacturer_1 | sudokn:/EmailAddress_1 | 1 |
+| owl_NamedIndividual | sudokn_EmailAddress | sudokn:/Manufacturer_1 | sudokn:/EmailAddress_1 | 1 |
+| io_Manufacturer | owl_NamedIndividual | sudokn:/Manufacturer_1 | sudokn:/EmailAddress_1 | 1 |
+| io_Manufacturer | sudokn_EmailAddress | sudokn:/Manufacturer_1 | sudokn:/EmailAddress_1 | 1 |
 
 
 
@@ -85,29 +68,53 @@ URI: [sudokn:hasEmailAddress](http://asu.edu/semantics/SUDOKN/hasEmailAddress)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_hasEmailAddress
-description: No slot description provided
-title: has email address
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1 occurrences with subject type owl_NamedIndividual and object type sudokn_EmailAddress.
+annotations:
+  count:
+    tag: count
+    value: 1
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: sudokn:/Manufacturer_1 sudokn:hasEmailAddress sudokn:/EmailAddress_1
+- object:
+    example_object: sudokn:/EmailAddress_1
+    example_object_type: owl_NamedIndividual
+    example_predicate: sudokn:hasEmailAddress
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: owl_NamedIndividual
+- object:
+    example_object: sudokn:/EmailAddress_1
+    example_object_type: sudokn_EmailAddress
+    example_predicate: sudokn:hasEmailAddress
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: owl_NamedIndividual
+- object:
+    example_object: sudokn:/EmailAddress_1
+    example_object_type: owl_NamedIndividual
+    example_predicate: sudokn:hasEmailAddress
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: io_Manufacturer
+- object:
+    example_object: sudokn:/EmailAddress_1
+    example_object_type: sudokn_EmailAddress
+    example_predicate: sudokn:hasEmailAddress
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: io_Manufacturer
 from_schema: sudokn-kg
 rank: 1000
-domain: io_Organization
+domain: sudokn_hasEmailAddress
 slot_uri: sudokn:hasEmailAddress
 alias: sudokn_hasEmailAddress
 domain_of:
+- io_Manufacturer
 - owl_NamedIndividual
 range: Any
 any_of:
-- range: sudokn_EmailAddress
+- range: owl_NamedIndividual
 - range: uri
+- range: sudokn_EmailAddress
 
 ```
 </details>

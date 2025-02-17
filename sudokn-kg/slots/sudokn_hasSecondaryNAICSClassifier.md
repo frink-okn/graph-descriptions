@@ -3,10 +3,14 @@
 # Slot: sudokn_hasSecondaryNAICSClassifier
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 112 times.
 
 
 URI: [sudokn:hasSecondaryNAICSClassifier](http://asu.edu/semantics/SUDOKN/hasSecondaryNAICSClassifier)
@@ -23,7 +27,7 @@ URI: [sudokn:hasSecondaryNAICSClassifier](http://asu.edu/semantics/SUDOKN/hasSec
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [IoManufacturer](../classes/IoManufacturer.md) | No type description provided |  no  |
+| [IoManufacturer](../classes/IoManufacturer.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sudokn:hasSecondaryNAICSClassifier](http://asu.edu/semantics/SUDOKN/hasSec
 
 ## Examples
 
-| Value |
-| --- |
-| sudokn:carportsnshedscom sudokn:hasSecondaryNAICSClassifier sudokn:NAICS-332 |
-
-## Comments
-
-* 112 occurrences with subject type io_Manufacturer and object type sudokn_NAICSClassifier.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:hasSecondaryNAICSClassifier |
-| native | sudokn-kg/:sudokn_hasSecondaryNAICSClassifier |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| io_Manufacturer | sudokn_NAICSClassifier | sudokn:AdkinsTruckEquipmentCo | sudokn:NAICS-336 | 112 |
 
 
 
@@ -85,17 +56,21 @@ URI: [sudokn:hasSecondaryNAICSClassifier](http://asu.edu/semantics/SUDOKN/hasSec
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_hasSecondaryNAICSClassifier
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 112 occurrences with subject type io_Manufacturer and object type sudokn_NAICSClassifier.
+annotations:
+  count:
+    tag: count
+    value: 112
+description: No slot (predicate) description specified
 examples:
-- value: sudokn:carportsnshedscom sudokn:hasSecondaryNAICSClassifier sudokn:NAICS-332
+- object:
+    example_object: sudokn:NAICS-336
+    example_object_type: sudokn_NAICSClassifier
+    example_predicate: sudokn:hasSecondaryNAICSClassifier
+    example_subject: sudokn:AdkinsTruckEquipmentCo
+    example_subject_type: io_Manufacturer
 from_schema: sudokn-kg
 rank: 1000
 slot_uri: sudokn:hasSecondaryNAICSClassifier

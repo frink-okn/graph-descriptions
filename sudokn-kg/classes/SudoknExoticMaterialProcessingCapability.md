@@ -1,12 +1,16 @@
 
 
-# Class: TODO -- what's a good name for this class (type)? (sudokn_ExoticMaterialProcessingCapability)
+# Class: No class (type) name specified (sudokn_ExoticMaterialProcessingCapability)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
+
+
+
+This class occurs 317 times.
 
 
 URI: [sudokn:ExoticMaterialProcessingCapability](http://asu.edu/semantics/SUDOKN/ExoticMaterialProcessingCapability)
@@ -40,9 +44,9 @@ URI: [sudokn:ExoticMaterialProcessingCapability](http://asu.edu/semantics/SUDOKN
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 317 |
 
 
 
@@ -61,43 +65,6 @@ URI: [sudokn:ExoticMaterialProcessingCapability](http://asu.edu/semantics/SUDOKN
 
 
 
-## Examples
-
-| Value |
-| --- |
-| sudokn:AAMACH-ExoticMaterial-inst |
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:ExoticMaterialProcessingCapability |
-| native | sudokn-kg/:SudoknExoticMaterialProcessingCapability |
-
-
-
 
 
 
@@ -109,22 +76,27 @@ URI: [sudokn:ExoticMaterialProcessingCapability](http://asu.edu/semantics/SUDOKN
 ### Direct
 
 <details>
+
 ```yaml
 name: sudokn_ExoticMaterialProcessingCapability
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 317 occurences.
-examples:
-- value: sudokn:AAMACH-ExoticMaterial-inst
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 317
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 slots:
 - rdfs_label
+slot_usage:
+  rdfs_label:
+    name: rdfs_label
+    annotations:
+      string:
+        tag: string
+        value: 317
 class_uri: sudokn:ExoticMaterialProcessingCapability
 
 ```
@@ -133,1125 +105,2272 @@ class_uri: sudokn:ExoticMaterialProcessingCapability
 ### Induced
 
 <details>
+
 ```yaml
 name: sudokn_ExoticMaterialProcessingCapability
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 317 occurences.
-examples:
-- value: sudokn:AAMACH-ExoticMaterial-inst
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 317
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
+slot_usage:
+  rdfs_label:
+    name: rdfs_label
+    annotations:
+      string:
+        tag: string
+        value: 317
 attributes:
   rdfs_label:
     name: rdfs_label
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 2994 occurrences with subject type sudokn_City and object type string.
-    - 1 occurrences with subject type sudokn_Industry and object type string.
-    - 1754 occurrences with subject type sudokn_BronzeProcessingCapability and object
-      type string.
-    - 2866 occurrences with subject type sudokn_GlassProcessingCapability and object
-      type string.
-    - 472 occurrences with subject type sudokn_GraphiteProcessingCapability and object
-      type string.
-    - 5903 occurrences with subject type sudokn_IronProcessingCapability and object
-      type string.
-    - 1830 occurrences with subject type sudokn_RubberProcessingCapability and object
-      type string.
-    - 4795 occurrences with subject type sudokn_StainlessSteelProcessingCapability
-      and object type string.
-    - 7200 occurrences with subject type sudokn_SteelProcessingCapability and object
-      type string.
-    - 1065 occurrences with subject type sudokn_FoamProcessingCapability and object
-      type string.
-    - 3466 occurrences with subject type sudokn_ISO9001Certificate and object type
-      string.
-    - 4159 occurrences with subject type sudokn_PlasticProcessingCapability and object
-      type string.
-    - 1427 occurrences with subject type sudokn_CNCMachiningCapability and object
-      type string.
-    - 2784 occurrences with subject type sudokn_CopperProcessingCapability and object
-      type string.
-    - 2518 occurrences with subject type sudokn_FabricatingCapability and object type
-      string.
-    - 1614 occurrences with subject type sudokn_FinishingCapability and object type
-      string.
-    - 1802 occurrences with subject type sudokn_FormingCapability and object type
-      string.
-    - 3508 occurrences with subject type sudokn_MachiningCapability and object type
-      string.
-    - 6560 occurrences with subject type sudokn_MetalProcessingCapability and object
-      type string.
-    - 2918 occurrences with subject type sudokn_WoodProcessingCapability and object
-      type string.
-    - 2931 occurrences with subject type sudokn_AssemblyCapability and object type
-      string.
-    - 1449 occurrences with subject type sudokn_DrawingCapability and object type
-      string.
-    - 1114 occurrences with subject type sudokn_EDMCapability and object type string.
-    - 330 occurrences with subject type sudokn_IATF16949Certificate and object type
-      string.
-    - 581 occurrences with subject type sudokn_LaserCuttingCapability and object type
-      string.
-    - 1216 occurrences with subject type sudokn_StampingCapability and object type
-      string.
-    - 2700 occurrences with subject type sudokn_WeldingCapability and object type
-      string.
-    - 644 occurrences with subject type sudokn_WireEDMCapability and object type string.
-    - 129 occurrences with subject type sudokn_State and object type string.
-    - 5646 occurrences with subject type sudokn_AluminumProcessingCapability and object
-      type string.
-    - 2484 occurrences with subject type sudokn_LeadProcessingCapability and object
-      type string.
-    - 1039 occurrences with subject type sudokn_UrethaneProcessingCapability and object
-      type string.
-    - 1219 occurrences with subject type sudokn_AS9100Certificate and object type
-      string.
-    - 1051 occurrences with subject type sudokn_CeramicProcessingCapability and object
-      type string.
-    - 289 occurrences with subject type sudokn_DelrinProcessingCapability and object
-      type string.
-    - 1177 occurrences with subject type sudokn_NylonProcessingCapability and object
-      type string.
-    - 693 occurrences with subject type sudokn_PolycarbonateProcessingCapability and
-      object type string.
-    - 538 occurrences with subject type sudokn_TeflonProcessingCapability and object
-      type string.
-    - 1266 occurrences with subject type sudokn_ZincProcessingCapability and object
-      type string.
-    - 825 occurrences with subject type sudokn_AlloySteelProcessingCapability and
-      object type string.
-    - 945 occurrences with subject type sudokn_BendingCapability and object type string.
-    - 857 occurrences with subject type sudokn_BoringCapability and object type string.
-    - 1195 occurrences with subject type sudokn_CastingCapability and object type
-      string.
-    - 197 occurrences with subject type sudokn_ElectricalDischargeMachiningCapability
-      and object type string.
-    - 2311 occurrences with subject type sudokn_MillingCapability and object type
-      string.
-    - 1765 occurrences with subject type sudokn_PackingCapability and object type
-      string.
-    - 690 occurrences with subject type sudokn_SiliconeProcessingCapability and object
-      type string.
-    - 365 occurrences with subject type sudokn_SteelAlloyProcessingCapability and
-      object type string.
-    - 533 occurrences with subject type sudokn_TubingCapability and object type string.
-    - 373 occurrences with subject type sudokn_WaterjetCuttingCapability and object
-      type string.
-    - 659 occurrences with subject type sudokn_AnodizingCapability and object type
-      string.
-    - 1105 occurrences with subject type sudokn_CNCMillingCapability and object type
-      string.
-    - 1196 occurrences with subject type sudokn_CompositeProcessingCapability and
-      object type string.
-    - 1361 occurrences with subject type sudokn_DrillingCapability and object type
-      string.
-    - 1339 occurrences with subject type sudokn_ElectroPlatingCapability and object
-      type string.
-    - 487 occurrences with subject type sudokn_EtchingCapability and object type string.
-    - 1654 occurrences with subject type sudokn_GrindingCapability and object type
-      string.
-    - 225 occurrences with subject type sudokn_PlatinumProcessingCapability and object
-      type string.
-    - 2077 occurrences with subject type sudokn_TurningCapability and object type
-      string.
-    - 209 occurrences with subject type sudokn_AdditiveManufacturingCapability and
-      object type string.
-    - 337 occurrences with subject type sudokn_AddtiveManufacturingCapability and
-      object type string.
-    - 1344 occurrences with subject type sudokn_ChemicalsProcessingCapability and
-      object type string.
-    - 303 occurrences with subject type sudokn_CobaltProcessingCapability and object
-      type string.
-    - 220 occurrences with subject type sudokn_DieCastingCapability and object type
-      string.
-    - 602 occurrences with subject type sudokn_ExtrudingCapability and object type
-      string.
-    - 326 occurrences with subject type sudokn_ISO13485Certificate and object type
-      string.
-    - 83 occurrences with subject type sudokn_InvestmentCastingCapability and object
-      type string.
-    - 1603 occurrences with subject type sudokn_NickelProcessingCapability and object
-      type string.
-    - 278 occurrences with subject type sudokn_ReamingCapability and object type string.
-    - 504 occurrences with subject type sudokn_ShapingCapability and object type string.
-    - 28 occurrences with subject type sudokn_SheetMetalProcessingCapability and object
-      type string.
-    - 56 occurrences with subject type sudokn_SinteringCapability and object type
-      string.
-    - 16 occurrences with subject type sudokn_VacuumCastingCapability and object type
-      string.
-    - 906 occurrences with subject type sudokn_InconelProcessingCapability and object
-      type string.
-    - 256 occurrences with subject type sudokn_RapidPrototypingCapability and object
-      type string.
-    - 1349 occurrences with subject type sudokn_TitaniumProcessingCapability and object
-      type string.
-    - 820 occurrences with subject type sudokn_TungstenProcessingCapability and object
-      type string.
-    - 362 occurrences with subject type sudokn_AcetalProcessingCapability and object
-      type string.
-    - 360 occurrences with subject type sudokn_BerylliumProcessingCapability and object
-      type string.
-    - 228 occurrences with subject type sudokn_BlackOxideCoatingCapability and object
-      type string.
-    - 2596 occurrences with subject type sudokn_BrassProcessingCapability and object
-      type string.
-    - 17 occurrences with subject type sudokn_CentrifugalCastingCapability and object
-      type string.
-    - 69 occurrences with subject type sudokn_EmbossingCapability and object type
-      string.
-    - 72 occurrences with subject type sudokn_GalvanizingCapability and object type
-      string.
-    - 461 occurrences with subject type sudokn_LexanProcessingCapability and object
-      type string.
-    - 382 occurrences with subject type sudokn_MolybdenumProcessingCapability and
-      object type string.
-    - 10 occurrences with subject type sudokn_PermanentMoldCastingCapability and object
-      type string.
-    - 1744 occurrences with subject type sudokn_CoatingCapability and object type
-      string.
-    - 679 occurrences with subject type sudokn_PowderCoatingCapability and object
-      type string.
-    - 550 occurrences with subject type sudokn_SurfacePreparationCapability and object
-      type string.
-    - 1251 occurrences with subject type sudokn_SilverProcessingCapability and object
-      type string.
-    - 437 occurrences with subject type sudokn_VerticalMillingCapability and object
-      type string.
-    - 923 occurrences with subject type sudokn_HeatTreatingCapability and object type
-      string.
-    - 786 occurrences with subject type sudokn_CarbideProcessingCapability and object
-      type string.
-    - 127 occurrences with subject type sudokn_ITARCertificate and object type string.
-    - 1302 occurrences with subject type sudokn_GoldProcessingCapability and object
-      type string.
-    - 609 occurrences with subject type sudokn_ForgingCapability and object type string.
-    - 644 occurrences with subject type sudokn_MoldingCapability and object type string.
-    - 287 occurrences with subject type sudokn_LiveToolingCapability and object type
-      string.
-    - 109 occurrences with subject type sudokn_NotchingCapability and object type
-      string.
-    - 605 occurrences with subject type sudokn_RollingCapability and object type string.
-    - 417 occurrences with subject type sudokn_TinProcessingCapability and object
-      type string.
-    - 81 occurrences with subject type sudokn_LaserEtchingCapability and object type
-      string.
-    - 121 occurrences with subject type sudokn_FabricationCapability and object type
-      string.
-    - 235 occurrences with subject type sudokn_PlasmaCuttingCapability and object
-      type string.
-    - 340 occurrences with subject type sudokn_SandBlastingCapability and object type
-      string.
-    - 551 occurrences with subject type sudokn_ChromiumProcessingCapability and object
-      type string.
-    - 460 occurrences with subject type sudokn_HoningCapability and object type string.
-    - 219 occurrences with subject type sudokn_InvarProcessingCapability and object
-      type string.
-    - 197 occurrences with subject type sudokn_KovarProcessingCapability and object
-      type string.
-    - 419 occurrences with subject type sudokn_MagnesiumProcessingCapability and object
-      type string.
-    - 148 occurrences with subject type sudokn_SinkerEDMCapability and object type
-      string.
-    - 234 occurrences with subject type sudokn_TantalumProcessingCapability and object
-      type string.
-    - 860 occurrences with subject type sudokn_TappingCapability and object type string.
-    - 66 occurrences with subject type sudokn_WaspaloyProcessingCapability and object
-      type string.
-    - 456 occurrences with subject type sudokn_PolishingCapability and object type
-      string.
-    - 64 occurrences with subject type sudokn_KnurlingCapability and object type string.
-    - 9 occurrences with subject type sudokn_AbrasiveCleaningCapability and object
-      type string.
-    - 194 occurrences with subject type sudokn_ChemicalProcessingCapability and object
-      type string.
-    - 437 occurrences with subject type sudokn_JoiningCapability and object type string.
-    - 467 occurrences with subject type sudokn_NADCAPCertificate and object type string.
-    - 280 occurrences with subject type sudokn_PassivationCapability and object type
-      string.
-    - 76 occurrences with subject type sudokn_SurfaceFinishingCapability and object
-      type string.
-    - 321 occurrences with subject type sudokn_ISO14001Certificate and object type
-      string.
-    - 804 occurrences with subject type sudokn_ASMECertificate and object type string.
-    - 181 occurrences with subject type sudokn_HorizontalMillingCapability and object
-      type string.
-    - 70 occurrences with subject type sudokn_PolycrystallineDiamondMachiningCapability
-      and object type string.
-    - 321 occurrences with subject type sudokn_HastelloyProcessingCapability and object
-      type string.
-    - 317 occurrences with subject type sudokn_ExoticMaterialProcessingCapability
-      and object type string.
-    - 78 occurrences with subject type sudokn_PalladiumProcessingCapability and object
-      type string.
-    - 31 occurrences with subject type sudokn_ISO9000 and object type string.
-    - 147 occurrences with subject type sudokn_BrazingCapability and object type string.
-    - 28 occurrences with subject type sudokn_RamEDMCapability and object type string.
-    - 80 occurrences with subject type sudokn_ZincAlloyProcessingCapability and object
-      type string.
-    - 269 occurrences with subject type sudokn_HardeningCapability and object type
-      string.
-    - 81 occurrences with subject type sudokn_DeepHoleDrillingCapability and object
-      type string.
-    - 99 occurrences with subject type sudokn_AnnealingCapability and object type
-      string.
-    - 12 occurrences with subject type sudokn_ISO14000Certificate and object type
-      string.
-    - 271 occurrences with subject type sudokn_SolderingCapability and object type
-      string.
-    - 240 occurrences with subject type sudokn_ZirconProcessingCapability and object
-      type string.
-    - 71 occurrences with subject type sudokn_SpecialMaterialsProcessingCapability
-      and object type string.
-    - 86 occurrences with subject type sudokn_DeburringCapability and object type
-      string.
-    - 81 occurrences with subject type sudokn_CarburizingCapability and object type
-      string.
-    - 8 occurrences with subject type sudokn_CreepFeedGrindingCapability and object
-      type string.
-    - 120 occurrences with subject type sudokn_LowAlloySteelProcessingCapability and
-      object type string.
-    - 139 occurrences with subject type sudokn_ChromateConversionCoatingCapability
-      and object type string.
-    - 10 occurrences with subject type sudokn_PhysicalVaporDepositionCapability and
-      object type string.
-    - 252 occurrences with subject type sudokn_ColdRolledSteelProcessingCapability
-      and object type string.
-    - 214 occurrences with subject type sudokn_ElectrolessNickelPlatingCapability
-      and object type string.
-    - 45 occurrences with subject type sudokn_NitridingCapability and object type
-      string.
-    - 5 occurrences with subject type sudokn_FDACertificate and object type string.
-    - 58 occurrences with subject type sudokn_NomexProcessingCapability and object
-      type string.
-    - 38 occurrences with subject type sudokn_SpinningCapability and object type string.
-    - 61 occurrences with subject type sudokn_ElectropolishingCapability and object
-      type string.
-    - 67 occurrences with subject type sudokn_ISOCertificate and object type string.
-    - 23 occurrences with subject type sudokn_WireHarnessAssemblyCapability and object
-      type string.
-    - 13 occurrences with subject type sudokn_VaporizedMetalCoatingCapability and
-      object type string.
-    - 48 occurrences with subject type sudokn_AWSWelderCertificate and object type
-      string.
-    - 5 occurrences with subject type sudokn_AS9000Certificate and object type string.
-    - 28 occurrences with subject type sudokn_DifficultToMachineMaterialsProcessingCapability
-      and object type string.
-    - 44836 occurrences with subject type io_MaterialProduct and object type string.
-    - 41 occurrences with subject type sudokn_QS9000Certificate and object type string.
-    - 27 occurrences with subject type sudokn_Oxy-FuelCuttingCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_LaserProcessingCapability and object
-      type string.
-    - 32 occurrences with subject type sudokn_KaptonProcessingCapability and object
-      type string.
-    - 5 occurrences with subject type sudokn_HighGradeAluminumProcessingCapability
-      and object type string.
-    - 6 occurrences with subject type sudokn_PreciousMaterialProcessingCapability
-      and object type string.
-    - 17 occurrences with subject type sudokn_PlaningCapability and object type string.
-    - 1 occurrences with subject type sudokn_PlasmaSprayingCapability and object type
-      string.
-    - 19 occurrences with subject type sudokn_CuttingCapability and object type string.
-    - 12 occurrences with subject type sudokn_ExtremelyHardMaterialProcessingCapability
-      and object type string.
-    - 6 occurrences with subject type sudokn_FlameSprayingCapability and object type
-      string.
-    - 16 occurrences with subject type sudokn_CNCTurningCapability and object type
-      string.
-    - 6 occurrences with subject type sudokn_ElectronBeamWeldingCapability and object
-      type string.
-    - 82 occurrences with subject type sudokn_ISO9001 and object type string.
-    - 1 occurrences with subject type sudokn_ScreenPrintingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_WetPaintingCapability and object type
-      string.
-    - 20 occurrences with subject type sudokn_AS9100 and object type string.
-    - 8 occurrences with subject type sudokn_ITARCompliant and object type string.
-    - 1 occurrences with subject type sudokn_AerospaceIndustry and object type string.
-    - 2 occurrences with subject type sudokn_AgricultureIndustry and object type string.
-    - 28 occurrences with subject type sudokn_EngineeringDesignCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_ElectolessNickelPlatingCapability and
-      object type string.
-    - 1 occurrences with subject type sudokn_NickelPlatingCapability and object type
-      string.
-    - 2 occurrences with subject type sudokn_PlatingCapability and object type string.
-    - 6 occurrences with subject type sudokn_DieMakingCapability and object type string.
-    - 8 occurrences with subject type sudokn_MoldMakingCapability and object type
-      string.
-    - 2 occurrences with subject type sudokn_RivetingCapability and object type string.
-    - 6 occurrences with subject type sudokn_ToolMakingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_PLCProgrammingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_ContinuousCastingCapability and object
-      type string.
-    - 7 occurrences with subject type sudokn_PunchingCapability and object type string.
-    - 1 occurrences with subject type sudokn_SmeltingCapability and object type string.
-    - 10 occurrences with subject type sudokn_ASME and object type string.
-    - 1 occurrences with subject type sudokn_DeepFreezingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_VacuumHardeningCapability and object
-      type string.
-    - 7 occurrences with subject type sudokn_ISO14001 and object type string.
-    - 13 occurrences with subject type sudokn_ShearingCapability and object type string.
-    - 2 occurrences with subject type sudokn_AutomotiveIndustry and object type string.
-    - 1 occurrences with subject type sudokn_PrototypingCapability and object type
-      string.
-    - 12 occurrences with subject type sudokn_WoodWorkingCapability and object type
-      string.
-    - 15 occurrences with subject type sudokn_NaturalFiberProcessingCapability and
-      object type string.
-    - 43 occurrences with subject type sudokn_CarbonitridingCapability and object
-      type string.
-    - 9 occurrences with subject type sudokn_ShrinkFittingCapability and object type
-      string.
-    - 3 occurrences with subject type sudokn_MechanicalJoiningCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_OilGroovingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_PressBrakingCapability and object type
-      string.
-    - 2 occurrences with subject type sudokn_RoboticWeldingCapability and object type
-      string.
-    - 2 occurrences with subject type sudokn_GearCuttingCapability and object type
-      string.
-    - 6 occurrences with subject type sudokn_MetalFabricationCapability and object
-      type string.
-    - 2 occurrences with subject type sudokn_BusinessEquipmentIndustry and object
-      type string.
-    - 12 occurrences with subject type sudokn_PhosBronzeProcessingCapability and object
-      type string.
-    - 13 occurrences with subject type sudokn_CarbonGraphiteProcessingCapability and
-      object type string.
-    - 1 occurrences with subject type sudokn_CNCmillingCapability and object type
-      string.
-    - 5 occurrences with subject type sudokn_SheetMetalFabricationCapability and object
-      type string.
-    - 2 occurrences with subject type sudokn_HAACPCertificate and object type string.
-    - 9 occurrences with subject type sudokn_AS9102Certificate and object type string.
-    - 2 occurrences with subject type sudokn_ManMadeFiberProcessingCapability and
-      object type string.
-    - 1 occurrences with subject type sudokn_PrintingCapability and object type string.
-    - 1 occurrences with subject type sudokn_LatheWorkCapability and object type string.
-    - 1 occurrences with subject type sudokn_MechanicalAssemblyCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_BrassBlackeningCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_MetalSpinningCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_KnittingCapability and object type string.
-    - 2 occurrences with subject type sudokn_CommunicationIndustry and object type
-      string.
-    - 1 occurrences with subject type sudokn_CommunicationandElectronicPowerUtilitiesIndustry
-      and object type string.
-    - 1 occurrences with subject type sudokn_2-AxisCNCTurningCapability and object
-      type string.
-    - 3 occurrences with subject type sudokn_TIGWeldingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_ComputersandElectronicProductsIndustry
-      and object type string.
-    - 2 occurrences with subject type sudokn_ConstructionIndustry and object type
-      string.
-    - 1 occurrences with subject type sudokn_ConsumerGoodsIndustry and object type
-      string.
-    - 1 occurrences with subject type sudokn_BritishRetailConsortiumAccreditation
-      and object type string.
-    - 1 occurrences with subject type sudokn_CNCPlasmaCuttingCapability and object
-      type string.
-    - 3 occurrences with subject type sudokn_BABACertificate and object type string.
-    - 6 occurrences with subject type sudokn_PressingCapability and object type string.
-    - 1 occurrences with subject type sudokn_VacuumFormingCapability and object type
-      string.
-    - 19 occurrences with subject type sudokn_SwissMachiningCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_ThermoformingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_ISO13485 and object type string.
-    - 2 occurrences with subject type sudokn_ShellMoldCastingCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_EducationalInstitutionsIndustry and object
-      type string.
-    - 1 occurrences with subject type sudokn_ElectricVehiclesIndustry and object type
-      string.
-    - 2 occurrences with subject type sudokn_InstallationCapability and object type
-      string.
-    - 6 occurrences with subject type sudokn_IS-TS16949 and object type string.
-    - 4 occurrences with subject type sudokn_ISTS16949Certificate and object type
-      string.
-    - 2 occurrences with subject type sudokn_KittingCapability and object type string.
-    - 1 occurrences with subject type sudokn_CNCPressBrakeCapability and object type
-      string.
-    - 2 occurrences with subject type sudokn_FoodIndustry and object type string.
-    - 1 occurrences with subject type sudokn_SteelManufacturingCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_TurretPunchingCapability and object type
-      string.
-    - 2 occurrences with subject type sudokn_FurnitureIndustry and object type string.
-    - 4 occurrences with subject type sudokn_SandCastingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_QS9000 and object type string.
-    - 1 occurrences with subject type sudokn_CenterlessGrindingCapability and object
-      type string.
-    - 2 occurrences with subject type sudokn_GovernmentIndustry and object type string.
-    - 3 occurrences with subject type sudokn_PaintingCapability and object type string.
-    - 1 occurrences with subject type sudokn_WiringCapability and object type string.
-    - 1 occurrences with subject type sudokn_PlasterMoldCastingCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_FasteningCapability and object type string.
-    - 1 occurrences with subject type sudokn_HealthCareServicesIndustry and object
-      type string.
-    - 2 occurrences with subject type sudokn_MetalStampingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_SinkerEdmCapability and object type string.
-    - 1 occurrences with subject type sudokn_FillingCapability and object type string.
-    - 3 occurrences with subject type sudokn_PackagingCapability and object type string.
-    - 1 occurrences with subject type sudokn_CNCCylindricalGrindingCapability and
-      object type string.
-    - 1 occurrences with subject type sudokn_EndFormingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_IndustrialMachineryandEquipmentIndustry
-      and object type string.
-    - 2 occurrences with subject type sudokn_FDAGMPCompliant and object type string.
-    - 1 occurrences with subject type sudokn_DigitalPrintingCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_SwissTurningCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_PipingFabricationCapability and object
-      type string.
-    - 2 occurrences with subject type sudokn_HarperizingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_BroachingCapability and object type string.
-    - 2 occurrences with subject type sudokn_WaterJetCuttingCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_PrototypeManufacturingCapability and
-      object type string.
-    - 1 occurrences with subject type sudokn_MIGWeldinCapability and object type string.
-    - 3 occurrences with subject type sudokn_SpotWeldingCapability and object type
-      string.
-    - 2 occurrences with subject type sudokn_MIGWeldingCapability and object type
-      string.
-    - 3 occurrences with subject type sudokn_CADCapability and object type string.
-    - 1 occurrences with subject type sudokn_PhosphorBronzeProcessingCapability and
-      object type string.
-    - 1 occurrences with subject type sudokn_LEEDCertificate and object type string.
-    - 1 occurrences with subject type sudokn_CeramicMoldCastingCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_CNCBendingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_WaterjetCuttimgCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_LiquidCoatingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_MetalsProductsIndustry and object type
-      string.
-    - 2 occurrences with subject type sudokn_MilitaryIndustry and object type string.
-    - 2 occurrences with subject type sudokn_MiningIndustry and object type string.
-    - 4 occurrences with subject type sudokn_OwnershipStatusClassifier and object
-      type string.
-    - 2 occurrences with subject type sudokn_VacuumPackagingCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_ChemicalCoatingCapability and object
-      type string.
-    - 3 occurrences with subject type sudokn_OffshoreWindIndustry and object type
-      string.
-    - 1 occurrences with subject type sudokn_CNCCuttingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_SewingCapability and object type string.
-    - 1 occurrences with subject type sudokn_PaperandPaperboardProductsIndustry and
-      object type string.
-    - 2 occurrences with subject type sudokn_SheetMetalFormingCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_CNCFormingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_ProductDesignCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_PlasticsandRubberProductsIndustry and
-      object type string.
-    - 1 occurrences with subject type sudokn_RivettingCapability and object type string.
-    - 2 occurrences with subject type sudokn_ProfessionalServicesIndustry and object
-      type string.
-    - 1 occurrences with subject type sudokn_SilkScreeningCapability and object type
-      string.
-    - 2 occurrences with subject type sudokn_RecyclingIndustry and object type string.
-    - 1 occurrences with subject type sudokn_CNCWireBendingCapability and object type
-      string.
-    - 3 occurrences with subject type sudokn_WireBendingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_WireFormingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_RetailTradeIndustry and object type string.
-    - 2 occurrences with subject type sudokn_ReverseEngineeringCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_FixtureDesignCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_FixturingCapability and object type string.
-    - 1 occurrences with subject type sudokn_PemInsertionCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_TI9000Certificate and object type string.
-    - 1 occurrences with subject type sudokn_CNCGrindingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_ExtrusionCapability and object type string.
-    - 1 occurrences with subject type sudokn_KOSHERApproved and object type string.
-    - 1 occurrences with subject type sudokn_SanitaryWeldingCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_SportsandLeisureIndustry and object type
-      string.
-    - 1 occurrences with subject type sudokn_CNCHorizontalTurningCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_CNCLaserCuttingCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_CNCVerticalMillingCapability and object
-      type string.
-    - 3 occurrences with subject type sudokn_ElectroplatingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_NADCAPAC7004 and object type string.
-    - 1 occurrences with subject type sudokn_TubeBendingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_MediaBlastingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_MigWeldingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_ResistanceWeldingCapability and object
-      type string.
-    - 2 occurrences with subject type sudokn_TextilesIndustry and object type string.
-    - 1 occurrences with subject type sudokn_InductionHeatingCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_PhosphateCoatingCapability and object
-      type string.
-    - 2 occurrences with subject type sudokn_TransportationIndustry and object type
-      string.
-    - 1 occurrences with subject type sudokn_CerakoteCoatingCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_TubeFormingCapability and object type
-      string.
-    - 2 occurrences with subject type sudokn_SurfaceGrindingCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_CylindricalGrindingCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_PulsedElectrochemicalMachiningCapability
-      and object type string.
-    - 1 occurrences with subject type sudokn_CNCLatheCapability and object type string.
-    - 1 occurrences with subject type sudokn_WaterandSewerUtilitiesIndustry and object
-      type string.
-    - 1 occurrences with subject type sudokn_FiberOpticLaserCuttingCapability and
-      object type string.
-    - 1 occurrences with subject type sudokn_ZincArcSprayCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_PlasticMachiningCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_MachineBuildingCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_ChemicalCleaningCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_ElectrolessPlatingCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_HotDipGalvanizingCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_LaserWeldingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_RAMEdmCapability and object type string.
-    - 1 occurrences with subject type sudokn_CustomFoamCuttingCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_ApparelIndustry and object type string.
-    - 1 occurrences with subject type sudokn_3DPrintingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_AcrylicFabricationCapability and object
-      type string.
-    - 1 occurrences with subject type sudokn_MetalworkingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_WoodworkingCapability and object type
-      string.
-    - 1 occurrences with subject type sudokn_ChemicalAndPetrochemicalIndustry and
-      object type string.
-    - 1 occurrences with subject type sudokn_ConsumerGoods and object type string.
-    - 1 occurrences with subject type sudokn_EducationIndustry and object type string.
-    - 1 occurrences with subject type sudokn_ElectronicAutomotiveInudstry and object
-      type string.
-    - 1 occurrences with subject type sudokn_ElectronicProductIndustry and object
-      type string.
-    - 1 occurrences with subject type sudokn_GovermentIndustry and object type string.
-    - 1 occurrences with subject type sudokn_HealthcareServicesIndustry and object
-      type string.
-    - 1 occurrences with subject type sudokn_MachinaryAndEquipmentIndustry and object
-      type string.
-    - 1 occurrences with subject type sudokn_MetalProductionIndustry and object type
-      string.
-    - 1 occurrences with subject type sudokn_OilAndGasIndustry and object type string.
-    - 1 occurrences with subject type sudokn_PaperIndustry and object type string.
-    - 1 occurrences with subject type sudokn_PlasticAndRubberIndustry and object type
-      string.
-    - 1 occurrences with subject type sudokn_PrintingAndInformationIndustry and object
-      type string.
-    - 1 occurrences with subject type sudokn_RetailIndustry and object type string.
-    - 1 occurrences with subject type sudokn_SportsAndLeisureIndustry and object type
-      string.
-    - 1 occurrences with subject type sudokn_Textiles and object type string.
-    - 1 occurrences with subject type sudokn_UtilitiesIndustry and object type string.
-    - 1 occurrences with subject type sudokn_WarehousingAndStorageIndustry and object
-      type string.
-    - 1 occurrences with subject type sudokn_WoodProductManufacturingIndustry and
-      object type string.
-    - 11813 occurrences with subject type io_Manufacturer and object type string.
+    annotations:
+      string:
+        tag: string
+        value: 317
+    description: No slot (predicate) description specified
     examples:
-    - value: sudokn:(NO%20CITY)-City rdfs:label (NO CITY)
-    - value: 'sudokn:-Industry rdfs:label '
-    - value: sudokn:101PIPE-Bronze-inst rdfs:label Bronze
-    - value: sudokn:101PIPE-Glass-inst rdfs:label Glass
-    - value: sudokn:101PIPE-Graphite-inst rdfs:label Graphite
-    - value: sudokn:101PIPE-Iron-inst rdfs:label Iron
-    - value: sudokn:101PIPE-Rubber-inst rdfs:label Rubber
-    - value: sudokn:101PIPE-StainlessSteel-inst rdfs:label Stainless Steel
-    - value: sudokn:101PIPE-Steel-inst rdfs:label Steel
-    - value: sudokn:149401-US-Foam-inst rdfs:label Foam
-    - value: sudokn:149401-US-ISO9001Certificate rdfs:label ISO 9001 Certificate
-    - value: sudokn:149401-US-Plastic-inst rdfs:label Plastic
-    - value: sudokn:1776FABRICATION-CNCMachiningCapability-inst rdfs:label CNC Machining
-        Capability
-    - value: sudokn:1776FABRICATION-Copper-inst rdfs:label Copper
-    - value: sudokn:1776FABRICATION-FabricatingCapability-inst rdfs:label Fabricating
-        Capability
-    - value: sudokn:1776FABRICATION-FinishingCapability-inst rdfs:label Finishing
-        Capability
-    - value: sudokn:1776FABRICATION-FormingCapability-inst rdfs:label Forming Capability
-    - value: sudokn:1776FABRICATION-MachiningCapability-inst rdfs:label Machining
-        Capability
-    - value: sudokn:1776FABRICATION-Metal-inst rdfs:label Metal
-    - value: sudokn:1776FABRICATION-Wood-inst rdfs:label Wood
-    - value: sudokn:1DIETECH-AssemblyCapability-inst rdfs:label Assembly Capability
-    - value: sudokn:1DIETECH-DrawingCapability-inst rdfs:label Drawing Capability
-    - value: sudokn:1DIETECH-EDMCapability-inst rdfs:label EDM Capability
-    - value: sudokn:1DIETECH-IATF16949Certificate rdfs:label IATF 16949 Certificate
-    - value: sudokn:1DIETECH-LaserCuttingCapability-inst rdfs:label Laser Cutting
-        Capability
-    - value: sudokn:1DIETECH-StampingCapability-inst rdfs:label Stamping Capability
-    - value: sudokn:1DIETECH-WeldingCapability-inst rdfs:label Welding Capability
-    - value: sudokn:1DIETECH-WireEDMCapability-inst rdfs:label Wire EDM Capability
-    - value: sudokn:28054-State rdfs:label 28054
-    - value: sudokn:2RIVERSUPPLY-Aluminum-inst rdfs:label Aluminum
-    - value: sudokn:2RIVERSUPPLY-Lead-inst rdfs:label  Lead
-    - value: sudokn:3-DTECHNICALSERVICES-Urethane-inst rdfs:label Urethane
-    - value: sudokn:3D-CAM-AS9100Certificate rdfs:label AS 9100 Certificate
-    - value: sudokn:3D-CAM-Ceramic-inst rdfs:label Ceramic
-    - value: sudokn:3D-CAM-Delrin-inst rdfs:label Delrin
-    - value: sudokn:3D-CAM-Nylon-inst rdfs:label Nylon
-    - value: sudokn:3D-CAM-Polycarbonate-inst rdfs:label Polycarbonate
-    - value: sudokn:3D-CAM-Teflon-inst rdfs:label Teflon
-    - value: sudokn:3D-CAM-Zinc-inst rdfs:label Zinc
-    - value: sudokn:3DIMENSIONAL-AlloySteel-inst rdfs:label Alloy Steel
-    - value: sudokn:3DIMENSIONAL-BendingCapability-inst rdfs:label Bending Capability
-    - value: sudokn:3DIMENSIONAL-BoringCapability-inst rdfs:label Boring Capability
-    - value: sudokn:3DIMENSIONAL-CastingCapability-inst rdfs:label Casting Capability
-    - value: sudokn:3DIMENSIONAL-ElectricalDischargeMachiningCapability-inst rdfs:label
-        Electrical Discharge Machining Capability
-    - value: sudokn:3DIMENSIONAL-MillingCapability-inst rdfs:label Milling Capability
-    - value: sudokn:3DIMENSIONAL-PackingCapability-inst rdfs:label Packing Capability
-    - value: sudokn:3DIMENSIONAL-Silicone-inst rdfs:label Silicone
-    - value: sudokn:3DIMENSIONAL-SteelAlloy-inst rdfs:label Steel Alloy
-    - value: sudokn:3DIMENSIONAL-TubingCapability-inst rdfs:label Tubing Capability
-    - value: sudokn:3DIMENSIONAL-WaterjetCuttingCapability-inst rdfs:label Waterjet
-        Cutting Capability
-    - value: sudokn:3DMACH-AnodizingCapability-inst rdfs:label Anodizing Capability
-    - value: sudokn:3DMACH-CNCMillingCapability-inst rdfs:label CNC Milling Capability
-    - value: sudokn:3DMACH-Composite-inst rdfs:label Composite
-    - value: sudokn:3DMACH-DrillingCapability-inst rdfs:label Drilling Capability
-    - value: sudokn:3DMACH-ElectroPlatingCapability-inst rdfs:label Electro Plating
-        Capability
-    - value: sudokn:3DMACH-EtchingCapability-inst rdfs:label Etching Capability
-    - value: sudokn:3DMACH-GrindingCapability-inst rdfs:label Grinding Capability
-    - value: sudokn:3DMACH-Platinum-inst rdfs:label Platinum
-    - value: sudokn:3DMACH-TurningCapability-inst rdfs:label Turning Capability
-    - value: sudokn:3DSYSTEMS-AdditiveManufacturingCapability-inst rdfs:label Additive
-        Manufacturing Capability
-    - value: sudokn:3DSYSTEMS-AddtiveManufacturingCapability-inst rdfs:label Addtive
-        Manufacturing Capability
-    - value: sudokn:3DSYSTEMS-Chemicals-inst rdfs:label Chemicals
-    - value: sudokn:3DSYSTEMS-Cobalt-inst rdfs:label Cobalt
-    - value: sudokn:3DSYSTEMS-DieCastingCapability-inst rdfs:label Die Casting Capability
-    - value: 'sudokn:3DSYSTEMS-ExtrudingCapability-inst rdfs:label Extruding Capability '
-    - value: sudokn:3DSYSTEMS-ISO13485Certificate rdfs:label ISO 13485 Certificate
-    - value: sudokn:3DSYSTEMS-InvestmentCastingCapability-inst rdfs:label Investment
-        Casting Capability
-    - value: sudokn:3DSYSTEMS-Nickel-inst rdfs:label Nickel
-    - value: sudokn:3DSYSTEMS-ReamingCapability-inst rdfs:label Reaming Capability
-    - value: sudokn:3DSYSTEMS-ShapingCapability-inst rdfs:label Shaping Capability
-    - value: sudokn:3DSYSTEMS-SheetMetalProcessingCapability-inst rdfs:label Sheet
-        Metal Processing Capability
-    - value: sudokn:3DSYSTEMS-SinteringCapability-inst rdfs:label Sintering Capability
-    - value: sudokn:3DSYSTEMS-VacuumCastingCapability-inst rdfs:label Vacuum Casting
-        Capability
-    - value: sudokn:3DXINDUSTRIES-Inconel-inst rdfs:label Inconel
-    - value: sudokn:3DXINDUSTRIES-RapidPrototypingCapability-inst rdfs:label Rapid
-        Prototyping Capability
-    - value: sudokn:3DXINDUSTRIES-Titanium-inst rdfs:label Titanium
-    - value: sudokn:3DXINDUSTRIES-Tungsten-inst rdfs:label Tungsten
-    - value: sudokn:3ERP-Acetal-inst rdfs:label Acetal
-    - value: sudokn:3ERP-Beryllium-inst rdfs:label Beryllium
-    - value: sudokn:3ERP-BlackOxideCoatingCapability-inst rdfs:label Black Oxide Coating
-        Capability
-    - value: sudokn:3ERP-Brass-inst rdfs:label Brass
-    - value: sudokn:3ERP-CentrifugalCastingCapability-inst rdfs:label Centrifugal
-        Casting Capability
-    - value: sudokn:3ERP-EmbossingCapability-inst rdfs:label Embossing Capability
-    - value: sudokn:3ERP-GalvanizingCapability-inst rdfs:label Galvanizing Capability
-    - value: sudokn:3ERP-Lexan-inst rdfs:label Lexan
-    - value: sudokn:3ERP-Molybdenum-inst rdfs:label Molybdenum
-    - value: sudokn:3ERP-PermanentMoldCastingCapability-inst rdfs:label Permanent
-        Mold Casting Capability
-    - value: sudokn:3PINDUSTRIES-CoatingCapability-inst rdfs:label Coating Capability
-    - value: sudokn:3PINDUSTRIES-PowderCoatingCapability-inst rdfs:label Powder Coating
-        Capability
-    - value: sudokn:3PINDUSTRIES-SurfacePreparationCapability-inst rdfs:label Surface
-        Preparation Capability
-    - value: sudokn:4FELDCO-Silver-inst rdfs:label Silver
-    - value: sudokn:4JOMAR-VerticalMillingCapability-inst rdfs:label Vertical Milling
-        Capability
-    - value: sudokn:4MPROTOTYPE-HeatTreatingCapability-inst rdfs:label Heat Treating
-        Capability
-    - value: sudokn:4PEABODY-Carbide-inst rdfs:label Carbide
-    - value: sudokn:5HFAB-ITARCertificate rdfs:label ITAR Certificate
-    - value: sudokn:800GOLD-Gold-inst rdfs:label Gold
-    - value: sudokn:889GLOBALSOLUTIONS-ForgingCapability-inst rdfs:label Forging Capability
-    - value: sudokn:889GLOBALSOLUTIONS-MoldingCapability-inst rdfs:label Molding Capability
-    - value: sudokn:A-1PRECISION-LiveToolingCapability-inst rdfs:label Live Tooling
-        Capability
-    - value: sudokn:A-1SHEETMETAL-NotchingCapability-inst rdfs:label Notching Capability
-    - value: sudokn:A-1SHEETMETAL-RollingCapability-inst rdfs:label Rolling Capability
-    - value: sudokn:A-AMERICANCOMPANIES-Tin-inst rdfs:label  Tin
-    - value: sudokn:A-I-CORP-LaserEtchingCapability-inst rdfs:label Laser Etching
-        Capability
-    - value: sudokn:A-LineCorporation-Fabrication rdfs:label Fabrication
-    - value: sudokn:A-M-W-PlasmaCuttingCapability-inst rdfs:label Plasma Cutting Capability
-    - value: sudokn:A-M-W-SandBlastingCapability-inst rdfs:label Sand Blasting Capability
-    - value: sudokn:A1JAYS-Chromium-inst rdfs:label Chromium
-    - value: sudokn:A1JAYS-HoningCapability-inst rdfs:label Honing Capability
-    - value: sudokn:A1JAYS-Invar-inst rdfs:label Invar
-    - value: sudokn:A1JAYS-Kovar-inst rdfs:label Kovar
-    - value: sudokn:A1JAYS-Magnesium-inst rdfs:label Magnesium
-    - value: sudokn:A1JAYS-SinkerEDMCapability-inst rdfs:label Sinker EDM Capability
-    - value: sudokn:A1JAYS-Tantalum-inst rdfs:label Tantalum
-    - value: sudokn:A1JAYS-TappingCapability-inst rdfs:label Tapping Capability
-    - value: sudokn:A1MACHINING-Waspaloy-inst rdfs:label Waspaloy
-    - value: sudokn:A1POLISHING-PolishingCapability-inst rdfs:label Polishing Capability
-    - value: sudokn:AAAIND-KnurlingCapability-inst rdfs:label Knurling Capability
-    - value: sudokn:AAAPLATING-AbrasiveCleaningCapability-inst rdfs:label Abrasive
-        Cleaning Capability
-    - value: sudokn:AAAPLATING-ChemicalProcessingCapability-inst rdfs:label Chemical
-        Processing Capability
-    - value: sudokn:AAAPLATING-JoiningCapability-inst rdfs:label Joining Capability
-    - value: sudokn:AAAPLATING-NADCAPCertificate rdfs:label NADCAP Certificate
-    - value: sudokn:AAAPLATING-PassivationCapability-inst rdfs:label Passivation Capability
-    - value: sudokn:AAAPLATING-SurfaceFinishingCapability-inst rdfs:label Surface
-        Finishing Capability
-    - value: sudokn:AAASE-ISO14001Certificate rdfs:label ISO 14001 Certificate
-    - value: sudokn:AAATECH-ASMECertificate rdfs:label ASME Certificate
-    - value: sudokn:AAE-MFG-HorizontalMillingCapability-inst rdfs:label Horizontal
-        Milling Capability
-    - value: sudokn:AAE-MFG-PolycrystallineDiamondMachiningCapability-inst rdfs:label
-        Polycrystalline Diamond Machining Capability
-    - value: sudokn:AAGROUP-Hastelloy-inst rdfs:label Hastelloy
-    - value: sudokn:AAMACH-ExoticMaterial-inst rdfs:label Exotic Material
-    - value: sudokn:AARONMANUFACTURING-Palladium-inst rdfs:label Palladium
-    - value: sudokn:AAndGMachining-ISO9000 rdfs:label ISO9000
-    - value: sudokn:ABBCOINC-BrazingCapability-inst rdfs:label Brazing Capability
-    - value: sudokn:ABBOTT-TOOL-RamEDMCapability-inst rdfs:label RamEDM Capability
-    - value: sudokn:ABC-ALUMINUM-ZincAlloy-inst rdfs:label Zinc Alloy
-    - value: sudokn:ABERDEENTECH-HardeningCapability-inst rdfs:label Hardening Capability
-    - value: sudokn:ABETECMANUFACTURING-DeepHoleDrillingCapability-inst rdfs:label
-        Deep Hole Drilling Capability
-    - value: sudokn:ABIFOUNDRY-AnnealingCapability-inst rdfs:label Annealing Capability
-    - value: sudokn:ABIFOUNDRY-ISO14000Certificate rdfs:label ISO 14000 Certificate
-    - value: sudokn:ABILITYENGINEERING-SolderingCapability-inst rdfs:label Soldering
-        Capability
-    - value: sudokn:ABILITYENGINEERING-Zircon-inst rdfs:label Zircon
-    - value: sudokn:ABILITYMETAL-SpecialMaterials-inst rdfs:label Special Materials
-    - value: sudokn:ABLEBAR-DeburringCapability-inst rdfs:label Deburring Capability
-    - value: sudokn:ABLPRODUCTS-CarburizingCapability-inst rdfs:label Carburizing
-        Capability
-    - value: sudokn:ABRASIVE-FORM-CreepFeedGrindingCapability-inst rdfs:label Creep
-        Feed Grinding Capability
-    - value: sudokn:ACADEMYPETROLEUM-LowAlloySteel-inst rdfs:label Low Alloy Steel
-    - value: sudokn:ACCENTMETAL-ChromateConversionCoatingCapability-inst rdfs:label
-        Chromate Conversion Coating Capability
-    - value: sudokn:ACCESSOPTICS-PhysicalVaporDepositionCapability-inst rdfs:label
-        Physical Vapor Deposition Capability
-    - value: sudokn:ACCRAFAB-ColdRolledSteel-inst rdfs:label Cold Rolled Steel
-    - value: sudokn:ACCRAFAB-ElectrolessNickelPlatingCapability-inst rdfs:label Electroless
-        Nickel Plating Capability
-    - value: sudokn:ACCURATESTEELTREATING-NitridingCapability-inst rdfs:label Nitriding
-        Capability
-    - value: sudokn:ACIMEDICAL-FDACertificate rdfs:label FDA Certificate
-    - value: sudokn:ACMANUFACTURING-Nomex-inst rdfs:label Nomex
-    - value: sudokn:ACMEMETALSPINNING-SpinningCapability-inst rdfs:label Spinning
-        Capability
-    - value: sudokn:ACMESDI-ElectropolishingCapability-inst rdfs:label Electropolishing
-        Capability
-    - value: sudokn:ACRYLICART-ISOCertificate rdfs:label ISO Certificate
-    - value: sudokn:ADCURAMFG-WireHarnessAssemblyCapability-inst rdfs:label Wire Harness
-        Assembly Capability
-    - value: sudokn:ADDITIVEMANUFACTURINGLLC-VaporizedMetalCoatingCapability-inst
-        rdfs:label Vaporized Metal Coating Capability
-    - value: sudokn:ADVANTAINDUSTRIES-AWSWelderCertificate rdfs:label AWS Welder Certificate
-    - value: sudokn:AEROSPACECOMPONENTS-AS9000Certificate rdfs:label AS 9000 Certificate
-    - value: sudokn:AEROSPACECOMPONENTS-DifficultToMachineMaterials-inst rdfs:label
-        Difficult To Machine Materials
-    - value: sudokn:AEquipment-product rdfs:label A Equipment
-    - value: sudokn:AGMAUTOMATION-QS9000Certificate rdfs:label QS 9000 Certificate
-    - value: 'sudokn:ALABAMAPLATE-Oxy-FuelCuttingCapability-inst rdfs:label Oxy-Fuel
-        Cutting Capability '
-    - value: sudokn:ALCOMETALFABRICATORS-LaserProcessing rdfs:label LaserProcessing
-    - value: sudokn:ALTINC-Kapton-inst rdfs:label Kapton
-    - value: sudokn:ALUMA-HighGradeAluminum-inst rdfs:label High Grade Aluminum
-    - value: sudokn:AMERICANLASERINC-PreciousMaterial-inst rdfs:label Precious Material
-    - value: sudokn:APPALACHIANCAST-PlaningCapability-inst rdfs:label Planing Capability
-    - value: sudokn:APSMATERIALS-PlasmaSprayingCapability-inst rdfs:label Plasma Spraying
-        Capability
-    - value: sudokn:AQUAJETSERVICES-CuttingCapability-inst rdfs:label Cutting Capability
-    - value: sudokn:ARMORCONTRACT-ExtremelyHardMaterial-inst rdfs:label Extremely
-        Hard Material
-    - value: sudokn:ASTROMECHANICS-FlameSprayingCapability-inst rdfs:label Flame Spraying
-        Capability
-    - value: sudokn:ATSMachineSafetySolutions-CNCTurning rdfs:label CNCTurning
-    - value: sudokn:AWS-ElectronBeamWeldingCapability-inst rdfs:label Electron Beam
-        Welding Capability
-    - value: sudokn:Accu-Fab-ISO9001 rdfs:label ISO9001
-    - value: sudokn:Accu-Fab-ScreenPrinting rdfs:label ScreenPrinting
-    - value: sudokn:Accu-Fab-WetPainting rdfs:label WetPainting
-    - value: sudokn:Accu-Tool-AS9100 rdfs:label AS9100
-    - value: sudokn:Accu-Tool-ITARCompliant rdfs:label ITARCompliant
-    - value: sudokn:Aerospace-Industry rdfs:label Aerospace
-    - value: sudokn:Agriculture-Industry rdfs:label Agriculture
-    - value: sudokn:AirSystemComponentsTitus-EngineeringDesign rdfs:label EngineeringDesign
-    - value: sudokn:AlliedMetalFinishing-ElectolessNickelPlating rdfs:label ElectolessNickelPlating
-    - value: sudokn:AlliedMetalFinishing-NickelPlating rdfs:label NickelPlating
-    - value: sudokn:AlliedMetalFinishing-Plating rdfs:label Plating
-    - value: sudokn:AllredMetalStampingWorks-DieMaking rdfs:label DieMaking
-    - value: sudokn:AllredMetalStampingWorks-MoldMaking rdfs:label MoldMaking
-    - value: sudokn:AllredMetalStampingWorks-Riveting rdfs:label Riveting
-    - value: sudokn:AllredMetalStampingWorks-ToolMaking rdfs:label ToolMaking
-    - value: sudokn:Alotech-PLCProgramming rdfs:label PLCProgramming
-    - value: sudokn:Aludisc-ContinuousCasting rdfs:label ContinuousCasting
-    - value: sudokn:Aludisc-Punching rdfs:label Punching
-    - value: sudokn:Aludisc-Smelting rdfs:label Smelting
-    - value: sudokn:AmericanHammer-ASME rdfs:label ASME
-    - value: sudokn:AmericanMetalTreating-DeepFreezing rdfs:label DeepFreezing
-    - value: sudokn:AmericanMetalTreating-VacuumHardening rdfs:label VacuumHardening
-    - value: sudokn:ArcelorMittalPiedmont-ISO14001 rdfs:label ISO14001
-    - value: sudokn:ArcelorMittalPiedmont-Shearing rdfs:label Shearing
-    - value: sudokn:Automotive-Industry rdfs:label Automotive
-    - value: sudokn:B+EManufacturingCo-Prototyping rdfs:label Prototyping
-    - value: sudokn:BCTINT-WoodWorkingCapability-inst rdfs:label Wood Working Capability
-    - value: sudokn:BDCUSTOMMFG-NaturalFiber-inst rdfs:label Natural Fiber
-    - value: sudokn:BLUEWATERTHERMAL-CarbonitridingCapability-inst rdfs:label Carbonitriding
-        Capability
-    - value: sudokn:BRODEURMACHINE-ShrinkFittingCapability-inst rdfs:label Shrink
-        Fitting Capability
-    - value: sudokn:BROWNINDUSTRIES-MechanicalJoiningCapability-inst rdfs:label Mechanical
-        Joining Capability
-    - value: sudokn:BUSCHPRECISION-OilGroovingCapability-inst rdfs:label Oil Grooving
-        Capability
-    - value: sudokn:BarnesMetalCrafters-PressBraking rdfs:label PressBraking
-    - value: sudokn:BarnesMetalCrafters-RoboticWelding rdfs:label RoboticWelding
-    - value: sudokn:BrintleMachineWorks-GearCutting rdfs:label GearCutting
-    - value: sudokn:BroadsightSystems-MetalFabrication rdfs:label MetalFabrication
-    - value: sudokn:BusinessEquipment-Industry rdfs:label Business Equipment
-    - value: sudokn:CAR-ENG-PhosBronze-inst rdfs:label Phos Bronze
-    - value: sudokn:CARBONFIBERGLASS-CarbonGraphite-inst rdfs:label Carbon Graphite
-    - value: sudokn:CAndHTooling-CNCmilling rdfs:label CNCmilling
-    - value: sudokn:CMSToolAndDie-SheetMetalFabrication rdfs:label SheetMetalFabrication
-    - value: sudokn:CMTC-HAACPCertificate rdfs:label HAACP Certificate
-    - value: sudokn:COINING-AS9102Certificate rdfs:label AS 9102 Certificate
-    - value: sudokn:CargoControlUSA-ManMadeFiber-cap rdfs:label ManMadeFiber Processing
-        Capability
-    - value: sudokn:CargoControlUSA-Printing rdfs:label Printing
-    - value: sudokn:CarolinaPrecisionMachining-LatheWork rdfs:label LatheWork
-    - value: sudokn:CarverMachineWorks-MechanicalAssembly rdfs:label MechanicalAssembly
-    - value: sudokn:ClaroLux-BrassBlackening rdfs:label BrassBlackening
-    - value: sudokn:ClaroLux-MetalSpinning rdfs:label MetalSpinning
-    - value: sudokn:CommonPartsGrouping-Knitting rdfs:label Knitting
-    - value: sudokn:Communication-Industry rdfs:label Communication
-    - value: sudokn:CommunicationandElectronicPowerUtilities-Industry rdfs:label Communication
-        and Electronic Power Utilities
-    - value: sudokn:ComposiMoFabrication-2-AxisCNCTurning rdfs:label 2-AxisCNCTurning
-    - value: sudokn:ComposiMoFabrication-TIGWelding rdfs:label TIGWelding
-    - value: sudokn:ComputersandElectronicProducts-Industry rdfs:label Computers and
-        Electronic Products
-    - value: sudokn:Construction-Industry rdfs:label Construction
-    - value: sudokn:ConsumerGoods-Industry rdfs:label Consumer Goods
-    - value: sudokn:ContainerProductsCorporation-BritishRetailConsortiumAccreditation
-        rdfs:label BritishRetailConsortiumAccreditation
-    - value: sudokn:CovingtonIronWorks-CNCPlasmaCutting rdfs:label CNCPlasmaCutting
-    - value: sudokn:DAYTONSUPERIOR-BABACertificate rdfs:label BABA Certificate
-    - value: sudokn:DDMManufacturing-Pressing rdfs:label Pressing
-    - value: sudokn:DDMManufacturing-VacuumForming rdfs:label VacuumForming
-    - value: sudokn:DPMACHINING-SwissMachiningCapability-inst rdfs:label Swiss Machining
-        Capability
-    - value: sudokn:DouglasFabricationandMachine-Thermoforming rdfs:label Thermoforming
-    - value: sudokn:DynamicMachiningxManufacturing-ISO13485 rdfs:label ISO13485
-    - value: sudokn:EAGLEALLOY-ShellMoldCastingCapability-inst rdfs:label Shell Mold
-        Casting Capability
-    - value: sudokn:EducationalInstitutions-Industry rdfs:label Educational Institutions
-    - value: sudokn:ElectricVehicles-Industry rdfs:label Electric Vehicles
-    - value: sudokn:EnvironmentalAirSystems-Installation rdfs:label Installation
-    - value: sudokn:FCCNorthCarolina-IS-TS16949 rdfs:label IS-TS16949
-    - value: sudokn:FEINTOOL-ISTS16949Certificate rdfs:label ISTS 16949 Certificate
-    - value: sudokn:FalconFasteningSolutions-Kitting rdfs:label Kitting
-    - value: sudokn:FarrisFabAndMachining-CNCPressBrake rdfs:label CNCPressBrake
-    - value: sudokn:Food-Industry rdfs:label Food
-    - value: sudokn:ForgedCustomMetalFabrication-SteelManufacturing rdfs:label SteelManufacturing
-    - value: sudokn:Forma-FabMetals-TurretPunching rdfs:label TurretPunching
-    - value: sudokn:Furniture-Industry rdfs:label Furniture
-    - value: sudokn:GENFOUNDRY-SandCastingCapability-inst rdfs:label Sand Casting
-        Capability
-    - value: sudokn:GammaTechnologies-QS9000 rdfs:label QS9000
-    - value: sudokn:GaryJYountsMachineCo-CenterlessGrinding rdfs:label CenterlessGrinding
-    - value: sudokn:Government-Industry rdfs:label Government
-    - value: sudokn:GrowlerManufacturingandEngineering-Painting rdfs:label Painting
-    - value: sudokn:GrowlerManufacturingandEngineering-Wiring rdfs:label Wiring
-    - value: sudokn:HARMONYCASTINGS-PlasterMoldCastingCapability-inst rdfs:label Plaster
-        Mold Casting Capability
-    - value: sudokn:HEICOFASTENERS-Fastening rdfs:label Fastening
-    - value: sudokn:HealthCareServices-Industry rdfs:label Health Care Services
-    - value: sudokn:HermanReevesSheetMetal-MetalStamping rdfs:label MetalStamping
-    - value: sudokn:HighlandToolandGauge-SinkerEdm rdfs:label SinkerEdm
-    - value: sudokn:HorizonTool-Filling rdfs:label Filling
-    - value: sudokn:HorizonTool-Packaging rdfs:label Packaging
-    - value: sudokn:IndTool-CNCCylindricalGrinding rdfs:label CNCCylindricalGrinding
-    - value: sudokn:IndTool-EndForming rdfs:label EndForming
-    - value: sudokn:IndustrialMachineryandEquipment-Industry rdfs:label Industrial
-        Machinery and Equipment
-    - value: sudokn:IntelligentImplantSystems-FDAGMPCompliant rdfs:label FDAGMPCompliant
-    - value: sudokn:JKS-DigitalPrinting rdfs:label DigitalPrinting
-    - value: sudokn:JMCToolAndMachine-SwissTurning rdfs:label SwissTurning
-    - value: sudokn:K-Industries-PipingFabrication rdfs:label PipingFabrication
-    - value: sudokn:KVFCOMPANY-HarperizingCapability-inst rdfs:label Harperizing Capability
-    - value: sudokn:Ketchie-Broaching rdfs:label Broaching
-    - value: sudokn:LaserPrecisionCutting-WaterJetCutting rdfs:label WaterJetCutting
-    - value: sudokn:LeonardFabricationandDesign-PrototypeManufacturing rdfs:label
-        PrototypeManufacturing
-    - value: sudokn:LiquidProcessSystems-MIGWeldin rdfs:label MIGWeldin
-    - value: sudokn:LiquidProcessSystems-SpotWelding rdfs:label SpotWelding
-    - value: sudokn:LlewellynMetalFabricators-MIGWelding rdfs:label MIGWelding
-    - value: sudokn:M2PerformanceSolutions-CAD rdfs:label CAD
-    - value: sudokn:METALKRAFTPM-PhosphorBronze-inst rdfs:label Phosphor Bronze
-    - value: sudokn:MKTFASTENING-LEEDCertificate rdfs:label LEED Certificate
-    - value: sudokn:MODERNALUMINUM-CeramicMoldCastingCapability-inst rdfs:label Ceramic
-        Mold Casting Capability
-    - value: sudokn:MechanicalSpecialty-CNCBending rdfs:label CNCBending
-    - value: sudokn:MechanicalSpecialty-WaterjetCuttimg rdfs:label WaterjetCuttimg
-    - value: sudokn:MetalMasters-LiquidCoating rdfs:label LiquidCoating
-    - value: sudokn:MetalsProducts-Industry rdfs:label Metals Products
-    - value: sudokn:Military-Industry rdfs:label Military
-    - value: sudokn:Mining-Industry rdfs:label Mining
-    - value: sudokn:MinorityOwned rdfs:label Minority Owned
-    - value: sudokn:NEWHORIZONMACHINE-VacuumPackagingCapability-inst rdfs:label Vacuum
-        Packaging Capability
-    - value: sudokn:OXWELL-ChemicalCoatingCapability-inst rdfs:label Chemical Coating
-        Capability
-    - value: sudokn:OffshoreWind-Industry rdfs:label Offshore Wind
-    - value: sudokn:PREMCorp-CNCCutting rdfs:label CNCCutting
-    - value: sudokn:PREMCorp-Sewing rdfs:label Sewing
-    - value: sudokn:PaperandPaperboardProducts-Industry rdfs:label Paper and Paperboard
-        Products
-    - value: sudokn:ParkerIndustries-SheetMetalForming rdfs:label SheetMetalForming
-    - value: sudokn:PerformanceMachineAndFab-CNCForming rdfs:label CNCForming
-    - value: sudokn:PerformanceMachineAndFab-ProductDesign rdfs:label ProductDesign
-    - value: sudokn:PlasticsandRubberProducts-Industry rdfs:label Plastics and Rubber
-        Products
-    - value: sudokn:PrecisionSteelWorks-Rivetting rdfs:label Rivetting
-    - value: sudokn:ProfessionalServices-Industry rdfs:label Professional Services
-    - value: sudokn:QMFMetalAndElectronicSolutions-SilkScreening rdfs:label SilkScreening
-    - value: sudokn:Recycling-Industry rdfs:label Recycling
-    - value: sudokn:RedTailGroup-CNCWireBending rdfs:label CNCWireBending
-    - value: sudokn:RedTailGroup-WireBending rdfs:label WireBending
-    - value: sudokn:RedTailGroup-WireForming rdfs:label WireForming
-    - value: sudokn:RetailTrade-Industry rdfs:label Retail Trade
-    - value: sudokn:ReverseFunctionalPrototypingandManufacturing-ReverseEngineering
-        rdfs:label ReverseEngineering
-    - value: sudokn:RoebuckPrecisionMachine-FixtureDesign rdfs:label FixtureDesign
-    - value: sudokn:RoyalDevelopmentMetalStamping-Fixturing rdfs:label Fixturing
-    - value: sudokn:RoyalDevelopmentMetalStamping-PemInsertion rdfs:label PemInsertion
-    - value: sudokn:SANMINA-TI9000Certificate rdfs:label TI 9000 Certificate
-    - value: sudokn:SEITechnologies-CNCGrinding rdfs:label CNCGrinding
-    - value: sudokn:SignandAwningSystems-Extrusion rdfs:label Extrusion
-    - value: sudokn:SinnovaTek-KOSHERApproved rdfs:label KOSHERApproved
-    - value: sudokn:SinnovaTek-SanitaryWelding rdfs:label SanitaryWelding
-    - value: sudokn:SportsandLeisure-Industry rdfs:label Sports and Leisure
-    - value: sudokn:SurryLogistix-CNCHorizontalTurning rdfs:label CNCHorizontalTurning
-    - value: sudokn:SurryLogistix-CNCLaserCutting rdfs:label CNCLaserCutting
-    - value: sudokn:SurryLogistix-CNCVerticalMilling rdfs:label CNCVerticalMilling
-    - value: sudokn:Surtronics-Electroplating rdfs:label Electroplating
-    - value: sudokn:TEAMAndrews-NADCAPAC7004 rdfs:label NADCAPAC7004
-    - value: sudokn:Tampco-TubeBending rdfs:label TubeBending
-    - value: sudokn:TarheelPowderCoating-MediaBlasting rdfs:label MediaBlasting
-    - value: sudokn:Technibilt-MigWelding rdfs:label MigWelding
-    - value: sudokn:Technibilt-ResistanceWelding rdfs:label ResistanceWelding
-    - value: sudokn:Textiles-Industry rdfs:label Textiles
-    - value: sudokn:TheCouncilToolCompany-InductionHeating rdfs:label InductionHeating
-    - value: sudokn:ThermalMetaltreating-PhosphateCoating rdfs:label PhosphateCoating
-    - value: sudokn:Transportation-Industry rdfs:label Transportation
-    - value: sudokn:TriangleCoatings-CerakoteCoating rdfs:label CerakoteCoating
-    - value: sudokn:TubeSpecialtiesCo-TubeForming rdfs:label TubeForming
-    - value: sudokn:UnitedMachineAndMetalFab-SurfaceGrinding rdfs:label SurfaceGrinding
-    - value: sudokn:Voigt-AbernathyUniversalMachineDivision-CylindricalGrinding rdfs:label
-        CylindricalGrinding
-    - value: sudokn:VoxelInnovations-PulsedElectrochemicalMachining rdfs:label PulsedElectrochemicalMachining
-    - value: sudokn:WDLeeandCompany-CNCLathe rdfs:label CNCLathe
-    - value: sudokn:WaterandSewerUtilities-Industry rdfs:label Water and Sewer Utilities
-    - value: sudokn:WatersBrothersContractors-FiberOpticLaserCutting rdfs:label FiberOpticLaserCutting
-    - value: sudokn:WeathersMfg-ZincArcSpray rdfs:label ZincArcSpray
-    - value: sudokn:WestSideIndustries-PlasticMachining rdfs:label PlasticMachining
-    - value: sudokn:WilliamsMachineandTools-MachineBuilding rdfs:label MachineBuilding
-    - value: sudokn:WilliamsPlatingCompany-ChemicalCleaning rdfs:label ChemicalCleaning
-    - value: sudokn:WilliamsPlatingCompany-ElectrolessPlating rdfs:label ElectrolessPlating
-    - value: sudokn:Wire-Bond-HotDipGalvanizing rdfs:label HotDipGalvanizing
-    - value: sudokn:WirtzWireEDM-LaserWelding rdfs:label LaserWelding
-    - value: sudokn:WirtzWireEDM-RAMEdm rdfs:label RAMEdm
-    - value: sudokn:Zarges-CustomFoamCutting rdfs:label CustomFoamCutting
-    - value: sudokn:apparelindustry-inst rdfs:label Apparel Industry
-    - value: sudokn:applerock-3DPrinting rdfs:label 3DPrinting
-    - value: sudokn:applerock-AcrylicFabrication rdfs:label AcrylicFabrication
-    - value: sudokn:applerock-Metalworking rdfs:label Metalworking
-    - value: sudokn:applerock-Woodworking rdfs:label Woodworking
-    - value: sudokn:chemicalandpetrochemicalindustry-inst rdfs:label Chemical And
-        Petrochemical Industry
-    - value: sudokn:consumergoods-inst rdfs:label Consumer Goods
-    - value: sudokn:educationindustry-inst rdfs:label Education Industry
-    - value: sudokn:electronicautomotiveinudstry-inst rdfs:label Electronic Automotive
-        Inudstry
-    - value: sudokn:electronicproductindustry-inst rdfs:label Electronic Product Industry
-    - value: sudokn:govermentindustry-inst rdfs:label Goverment Industry
-    - value: sudokn:healthcareservicesindustry-inst rdfs:label Healthcare Services
-        Industry
-    - value: sudokn:machinaryandequipmentindustry-inst rdfs:label Machinary And Equipment
-        Industry
-    - value: sudokn:metalproductionindustry-inst rdfs:label Metal Production Industry
-    - value: sudokn:oilandgasindustry-inst rdfs:label Oil And Gas Industry
-    - value: sudokn:paperindustry-inst rdfs:label Paper Industry
-    - value: sudokn:plasticandrubberindustry-inst rdfs:label Plastic And Rubber Industry
-    - value: sudokn:printingandinformationindustry-inst rdfs:label Printing And Information
-        Industry
-    - value: sudokn:retailindustry-inst rdfs:label Retail Industry
-    - value: sudokn:sportsandleisureindustry-inst rdfs:label Sports And Leisure Industry
-    - value: sudokn:textiles-inst rdfs:label Textiles
-    - value: sudokn:utilitiesindustry-inst rdfs:label Utilities Industry
-    - value: sudokn:warehousingandstorageindustry-inst rdfs:label Warehousing And
-        Storage Industry
-    - value: sudokn:woodproductmanufacturingindustry-inst rdfs:label Wood Product
-        Manufacturing Industry
-    - value: sudokn:101PIPE-company-inst rdfs:label 101 VERTICAL FABRICATION, INC.
+    - object:
+        example_object: (NO CITY)
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:(NO%20CITY)-City
+        example_subject_type: sudokn_City
+    - object:
+        example_object: ''
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:-Industry
+        example_subject_type: sudokn_Industry
+    - object:
+        example_object: Bronze
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:101PIPE-Bronze-inst
+        example_subject_type: sudokn_BronzeProcessingCapability
+    - object:
+        example_object: Glass
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:101PIPE-Glass-inst
+        example_subject_type: sudokn_GlassProcessingCapability
+    - object:
+        example_object: Graphite
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:101PIPE-Graphite-inst
+        example_subject_type: sudokn_GraphiteProcessingCapability
+    - object:
+        example_object: Iron
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:101PIPE-Iron-inst
+        example_subject_type: sudokn_IronProcessingCapability
+    - object:
+        example_object: Rubber
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:101PIPE-Rubber-inst
+        example_subject_type: sudokn_RubberProcessingCapability
+    - object:
+        example_object: Stainless Steel
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:101PIPE-StainlessSteel-inst
+        example_subject_type: sudokn_StainlessSteelProcessingCapability
+    - object:
+        example_object: Steel
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:101PIPE-Steel-inst
+        example_subject_type: sudokn_SteelProcessingCapability
+    - object:
+        example_object: Foam
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:149401-US-Foam-inst
+        example_subject_type: sudokn_FoamProcessingCapability
+    - object:
+        example_object: ISO 9001 Certificate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:149401-US-ISO9001Certificate
+        example_subject_type: sudokn_ISO9001Certificate
+    - object:
+        example_object: Plastic
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:149401-US-Plastic-inst
+        example_subject_type: sudokn_PlasticProcessingCapability
+    - object:
+        example_object: CNC Machining Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:1776FABRICATION-CNCMachiningCapability-inst
+        example_subject_type: sudokn_CNCMachiningCapability
+    - object:
+        example_object: Copper
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:1776FABRICATION-Copper-inst
+        example_subject_type: sudokn_CopperProcessingCapability
+    - object:
+        example_object: Fabricating Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:1776FABRICATION-FabricatingCapability-inst
+        example_subject_type: sudokn_FabricatingCapability
+    - object:
+        example_object: Finishing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:1776FABRICATION-FinishingCapability-inst
+        example_subject_type: sudokn_FinishingCapability
+    - object:
+        example_object: Forming Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:1776FABRICATION-FormingCapability-inst
+        example_subject_type: sudokn_FormingCapability
+    - object:
+        example_object: Machining Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:1776FABRICATION-MachiningCapability-inst
+        example_subject_type: sudokn_MachiningCapability
+    - object:
+        example_object: Metal
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:1776FABRICATION-Metal-inst
+        example_subject_type: sudokn_MetalProcessingCapability
+    - object:
+        example_object: Wood
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:1776FABRICATION-Wood-inst
+        example_subject_type: sudokn_WoodProcessingCapability
+    - object:
+        example_object: Assembly Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:1DIETECH-AssemblyCapability-inst
+        example_subject_type: sudokn_AssemblyCapability
+    - object:
+        example_object: Drawing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:1DIETECH-DrawingCapability-inst
+        example_subject_type: sudokn_DrawingCapability
+    - object:
+        example_object: EDM Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:1DIETECH-EDMCapability-inst
+        example_subject_type: sudokn_EDMCapability
+    - object:
+        example_object: IATF 16949 Certificate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:1DIETECH-IATF16949Certificate
+        example_subject_type: sudokn_IATF16949Certificate
+    - object:
+        example_object: Laser Cutting Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:1DIETECH-LaserCuttingCapability-inst
+        example_subject_type: sudokn_LaserCuttingCapability
+    - object:
+        example_object: Stamping Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:1DIETECH-StampingCapability-inst
+        example_subject_type: sudokn_StampingCapability
+    - object:
+        example_object: Welding Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:1DIETECH-WeldingCapability-inst
+        example_subject_type: sudokn_WeldingCapability
+    - object:
+        example_object: Wire EDM Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:1DIETECH-WireEDMCapability-inst
+        example_subject_type: sudokn_WireEDMCapability
+    - object:
+        example_object: '28054'
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:28054-State
+        example_subject_type: sudokn_State
+    - object:
+        example_object: Aluminum
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:2RIVERSUPPLY-Aluminum-inst
+        example_subject_type: sudokn_AluminumProcessingCapability
+    - object:
+        example_object: ' Lead'
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:2RIVERSUPPLY-Lead-inst
+        example_subject_type: sudokn_LeadProcessingCapability
+    - object:
+        example_object: Urethane
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3-DTECHNICALSERVICES-Urethane-inst
+        example_subject_type: sudokn_UrethaneProcessingCapability
+    - object:
+        example_object: AS 9100 Certificate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3D-CAM-AS9100Certificate
+        example_subject_type: sudokn_AS9100Certificate
+    - object:
+        example_object: Ceramic
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3D-CAM-Ceramic-inst
+        example_subject_type: sudokn_CeramicProcessingCapability
+    - object:
+        example_object: Delrin
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3D-CAM-Delrin-inst
+        example_subject_type: sudokn_DelrinProcessingCapability
+    - object:
+        example_object: Nylon
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3D-CAM-Nylon-inst
+        example_subject_type: sudokn_NylonProcessingCapability
+    - object:
+        example_object: Polycarbonate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3D-CAM-Polycarbonate-inst
+        example_subject_type: sudokn_PolycarbonateProcessingCapability
+    - object:
+        example_object: Teflon
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3D-CAM-Teflon-inst
+        example_subject_type: sudokn_TeflonProcessingCapability
+    - object:
+        example_object: Zinc
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3D-CAM-Zinc-inst
+        example_subject_type: sudokn_ZincProcessingCapability
+    - object:
+        example_object: Alloy Steel
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DIMENSIONAL-AlloySteel-inst
+        example_subject_type: sudokn_AlloySteelProcessingCapability
+    - object:
+        example_object: Bending Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DIMENSIONAL-BendingCapability-inst
+        example_subject_type: sudokn_BendingCapability
+    - object:
+        example_object: Boring Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DIMENSIONAL-BoringCapability-inst
+        example_subject_type: sudokn_BoringCapability
+    - object:
+        example_object: Casting Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DIMENSIONAL-CastingCapability-inst
+        example_subject_type: sudokn_CastingCapability
+    - object:
+        example_object: Electrical Discharge Machining Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DIMENSIONAL-ElectricalDischargeMachiningCapability-inst
+        example_subject_type: sudokn_ElectricalDischargeMachiningCapability
+    - object:
+        example_object: Milling Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DIMENSIONAL-MillingCapability-inst
+        example_subject_type: sudokn_MillingCapability
+    - object:
+        example_object: Packing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DIMENSIONAL-PackingCapability-inst
+        example_subject_type: sudokn_PackingCapability
+    - object:
+        example_object: Silicone
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DIMENSIONAL-Silicone-inst
+        example_subject_type: sudokn_SiliconeProcessingCapability
+    - object:
+        example_object: Steel Alloy
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DIMENSIONAL-SteelAlloy-inst
+        example_subject_type: sudokn_SteelAlloyProcessingCapability
+    - object:
+        example_object: Tubing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DIMENSIONAL-TubingCapability-inst
+        example_subject_type: sudokn_TubingCapability
+    - object:
+        example_object: Waterjet Cutting Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DIMENSIONAL-WaterjetCuttingCapability-inst
+        example_subject_type: sudokn_WaterjetCuttingCapability
+    - object:
+        example_object: Anodizing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DMACH-AnodizingCapability-inst
+        example_subject_type: sudokn_AnodizingCapability
+    - object:
+        example_object: CNC Milling Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DMACH-CNCMillingCapability-inst
+        example_subject_type: sudokn_CNCMillingCapability
+    - object:
+        example_object: Composite
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DMACH-Composite-inst
+        example_subject_type: sudokn_CompositeProcessingCapability
+    - object:
+        example_object: Drilling Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DMACH-DrillingCapability-inst
+        example_subject_type: sudokn_DrillingCapability
+    - object:
+        example_object: Electro Plating Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DMACH-ElectroPlatingCapability-inst
+        example_subject_type: sudokn_ElectroPlatingCapability
+    - object:
+        example_object: Etching Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DMACH-EtchingCapability-inst
+        example_subject_type: sudokn_EtchingCapability
+    - object:
+        example_object: Grinding Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DMACH-GrindingCapability-inst
+        example_subject_type: sudokn_GrindingCapability
+    - object:
+        example_object: Platinum
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DMACH-Platinum-inst
+        example_subject_type: sudokn_PlatinumProcessingCapability
+    - object:
+        example_object: Turning Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DMACH-TurningCapability-inst
+        example_subject_type: sudokn_TurningCapability
+    - object:
+        example_object: Additive Manufacturing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DSYSTEMS-AdditiveManufacturingCapability-inst
+        example_subject_type: sudokn_AdditiveManufacturingCapability
+    - object:
+        example_object: Addtive Manufacturing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DSYSTEMS-AddtiveManufacturingCapability-inst
+        example_subject_type: sudokn_AddtiveManufacturingCapability
+    - object:
+        example_object: Chemicals
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DSYSTEMS-Chemicals-inst
+        example_subject_type: sudokn_ChemicalsProcessingCapability
+    - object:
+        example_object: Cobalt
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DSYSTEMS-Cobalt-inst
+        example_subject_type: sudokn_CobaltProcessingCapability
+    - object:
+        example_object: Die Casting Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DSYSTEMS-DieCastingCapability-inst
+        example_subject_type: sudokn_DieCastingCapability
+    - object:
+        example_object: 'Extruding Capability '
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DSYSTEMS-ExtrudingCapability-inst
+        example_subject_type: sudokn_ExtrudingCapability
+    - object:
+        example_object: ISO 13485 Certificate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DSYSTEMS-ISO13485Certificate
+        example_subject_type: sudokn_ISO13485Certificate
+    - object:
+        example_object: Investment Casting Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DSYSTEMS-InvestmentCastingCapability-inst
+        example_subject_type: sudokn_InvestmentCastingCapability
+    - object:
+        example_object: Nickel
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DSYSTEMS-Nickel-inst
+        example_subject_type: sudokn_NickelProcessingCapability
+    - object:
+        example_object: Reaming Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DSYSTEMS-ReamingCapability-inst
+        example_subject_type: sudokn_ReamingCapability
+    - object:
+        example_object: Shaping Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DSYSTEMS-ShapingCapability-inst
+        example_subject_type: sudokn_ShapingCapability
+    - object:
+        example_object: Sheet Metal Processing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DSYSTEMS-SheetMetalProcessingCapability-inst
+        example_subject_type: sudokn_SheetMetalProcessingCapability
+    - object:
+        example_object: Sintering Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DSYSTEMS-SinteringCapability-inst
+        example_subject_type: sudokn_SinteringCapability
+    - object:
+        example_object: Vacuum Casting Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DSYSTEMS-VacuumCastingCapability-inst
+        example_subject_type: sudokn_VacuumCastingCapability
+    - object:
+        example_object: Inconel
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DXINDUSTRIES-Inconel-inst
+        example_subject_type: sudokn_InconelProcessingCapability
+    - object:
+        example_object: Rapid Prototyping Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DXINDUSTRIES-RapidPrototypingCapability-inst
+        example_subject_type: sudokn_RapidPrototypingCapability
+    - object:
+        example_object: Titanium
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DXINDUSTRIES-Titanium-inst
+        example_subject_type: sudokn_TitaniumProcessingCapability
+    - object:
+        example_object: Tungsten
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3DXINDUSTRIES-Tungsten-inst
+        example_subject_type: sudokn_TungstenProcessingCapability
+    - object:
+        example_object: Acetal
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3ERP-Acetal-inst
+        example_subject_type: sudokn_AcetalProcessingCapability
+    - object:
+        example_object: Beryllium
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3ERP-Beryllium-inst
+        example_subject_type: sudokn_BerylliumProcessingCapability
+    - object:
+        example_object: Black Oxide Coating Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3ERP-BlackOxideCoatingCapability-inst
+        example_subject_type: sudokn_BlackOxideCoatingCapability
+    - object:
+        example_object: Brass
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3ERP-Brass-inst
+        example_subject_type: sudokn_BrassProcessingCapability
+    - object:
+        example_object: Centrifugal Casting Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3ERP-CentrifugalCastingCapability-inst
+        example_subject_type: sudokn_CentrifugalCastingCapability
+    - object:
+        example_object: Embossing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3ERP-EmbossingCapability-inst
+        example_subject_type: sudokn_EmbossingCapability
+    - object:
+        example_object: Galvanizing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3ERP-GalvanizingCapability-inst
+        example_subject_type: sudokn_GalvanizingCapability
+    - object:
+        example_object: Lexan
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3ERP-Lexan-inst
+        example_subject_type: sudokn_LexanProcessingCapability
+    - object:
+        example_object: Molybdenum
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3ERP-Molybdenum-inst
+        example_subject_type: sudokn_MolybdenumProcessingCapability
+    - object:
+        example_object: Permanent Mold Casting Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3ERP-PermanentMoldCastingCapability-inst
+        example_subject_type: sudokn_PermanentMoldCastingCapability
+    - object:
+        example_object: Coating Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3PINDUSTRIES-CoatingCapability-inst
+        example_subject_type: sudokn_CoatingCapability
+    - object:
+        example_object: Powder Coating Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3PINDUSTRIES-PowderCoatingCapability-inst
+        example_subject_type: sudokn_PowderCoatingCapability
+    - object:
+        example_object: Surface Preparation Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:3PINDUSTRIES-SurfacePreparationCapability-inst
+        example_subject_type: sudokn_SurfacePreparationCapability
+    - object:
+        example_object: Silver
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:4FELDCO-Silver-inst
+        example_subject_type: sudokn_SilverProcessingCapability
+    - object:
+        example_object: Vertical Milling Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:4JOMAR-VerticalMillingCapability-inst
+        example_subject_type: sudokn_VerticalMillingCapability
+    - object:
+        example_object: Heat Treating Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:4MPROTOTYPE-HeatTreatingCapability-inst
+        example_subject_type: sudokn_HeatTreatingCapability
+    - object:
+        example_object: Carbide
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:4PEABODY-Carbide-inst
+        example_subject_type: sudokn_CarbideProcessingCapability
+    - object:
+        example_object: ITAR Certificate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:5HFAB-ITARCertificate
+        example_subject_type: sudokn_ITARCertificate
+    - object:
+        example_object: Gold
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:800GOLD-Gold-inst
+        example_subject_type: sudokn_GoldProcessingCapability
+    - object:
+        example_object: Forging Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:889GLOBALSOLUTIONS-ForgingCapability-inst
+        example_subject_type: sudokn_ForgingCapability
+    - object:
+        example_object: Molding Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:889GLOBALSOLUTIONS-MoldingCapability-inst
+        example_subject_type: sudokn_MoldingCapability
+    - object:
+        example_object: Live Tooling Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:A-1PRECISION-LiveToolingCapability-inst
+        example_subject_type: sudokn_LiveToolingCapability
+    - object:
+        example_object: Notching Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:A-1SHEETMETAL-NotchingCapability-inst
+        example_subject_type: sudokn_NotchingCapability
+    - object:
+        example_object: Rolling Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:A-1SHEETMETAL-RollingCapability-inst
+        example_subject_type: sudokn_RollingCapability
+    - object:
+        example_object: ' Tin'
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:A-AMERICANCOMPANIES-Tin-inst
+        example_subject_type: sudokn_TinProcessingCapability
+    - object:
+        example_object: Laser Etching Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:A-I-CORP-LaserEtchingCapability-inst
+        example_subject_type: sudokn_LaserEtchingCapability
+    - object:
+        example_object: Fabrication
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:A-LineCorporation-Fabrication
+        example_subject_type: sudokn_FabricationCapability
+    - object:
+        example_object: Plasma Cutting Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:A-M-W-PlasmaCuttingCapability-inst
+        example_subject_type: sudokn_PlasmaCuttingCapability
+    - object:
+        example_object: Sand Blasting Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:A-M-W-SandBlastingCapability-inst
+        example_subject_type: sudokn_SandBlastingCapability
+    - object:
+        example_object: Chromium
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:A1JAYS-Chromium-inst
+        example_subject_type: sudokn_ChromiumProcessingCapability
+    - object:
+        example_object: Honing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:A1JAYS-HoningCapability-inst
+        example_subject_type: sudokn_HoningCapability
+    - object:
+        example_object: Invar
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:A1JAYS-Invar-inst
+        example_subject_type: sudokn_InvarProcessingCapability
+    - object:
+        example_object: Kovar
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:A1JAYS-Kovar-inst
+        example_subject_type: sudokn_KovarProcessingCapability
+    - object:
+        example_object: Magnesium
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:A1JAYS-Magnesium-inst
+        example_subject_type: sudokn_MagnesiumProcessingCapability
+    - object:
+        example_object: Sinker EDM Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:A1JAYS-SinkerEDMCapability-inst
+        example_subject_type: sudokn_SinkerEDMCapability
+    - object:
+        example_object: Tantalum
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:A1JAYS-Tantalum-inst
+        example_subject_type: sudokn_TantalumProcessingCapability
+    - object:
+        example_object: Tapping Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:A1JAYS-TappingCapability-inst
+        example_subject_type: sudokn_TappingCapability
+    - object:
+        example_object: Waspaloy
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:A1MACHINING-Waspaloy-inst
+        example_subject_type: sudokn_WaspaloyProcessingCapability
+    - object:
+        example_object: Polishing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:A1POLISHING-PolishingCapability-inst
+        example_subject_type: sudokn_PolishingCapability
+    - object:
+        example_object: Knurling Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AAAIND-KnurlingCapability-inst
+        example_subject_type: sudokn_KnurlingCapability
+    - object:
+        example_object: Abrasive Cleaning Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AAAPLATING-AbrasiveCleaningCapability-inst
+        example_subject_type: sudokn_AbrasiveCleaningCapability
+    - object:
+        example_object: Chemical Processing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AAAPLATING-ChemicalProcessingCapability-inst
+        example_subject_type: sudokn_ChemicalProcessingCapability
+    - object:
+        example_object: Joining Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AAAPLATING-JoiningCapability-inst
+        example_subject_type: sudokn_JoiningCapability
+    - object:
+        example_object: NADCAP Certificate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AAAPLATING-NADCAPCertificate
+        example_subject_type: sudokn_NADCAPCertificate
+    - object:
+        example_object: Passivation Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AAAPLATING-PassivationCapability-inst
+        example_subject_type: sudokn_PassivationCapability
+    - object:
+        example_object: Surface Finishing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AAAPLATING-SurfaceFinishingCapability-inst
+        example_subject_type: sudokn_SurfaceFinishingCapability
+    - object:
+        example_object: ISO 14001 Certificate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AAASE-ISO14001Certificate
+        example_subject_type: sudokn_ISO14001Certificate
+    - object:
+        example_object: ASME Certificate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AAATECH-ASMECertificate
+        example_subject_type: sudokn_ASMECertificate
+    - object:
+        example_object: Horizontal Milling Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AAE-MFG-HorizontalMillingCapability-inst
+        example_subject_type: sudokn_HorizontalMillingCapability
+    - object:
+        example_object: Polycrystalline Diamond Machining Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AAE-MFG-PolycrystallineDiamondMachiningCapability-inst
+        example_subject_type: sudokn_PolycrystallineDiamondMachiningCapability
+    - object:
+        example_object: Hastelloy
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AAGROUP-Hastelloy-inst
+        example_subject_type: sudokn_HastelloyProcessingCapability
+    - object:
+        example_object: Exotic Material
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AAMACH-ExoticMaterial-inst
+        example_subject_type: sudokn_ExoticMaterialProcessingCapability
+    - object:
+        example_object: Palladium
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AARONMANUFACTURING-Palladium-inst
+        example_subject_type: sudokn_PalladiumProcessingCapability
+    - object:
+        example_object: ISO9000
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AAndGMachining-ISO9000
+        example_subject_type: sudokn_ISO9000
+    - object:
+        example_object: Brazing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ABBCOINC-BrazingCapability-inst
+        example_subject_type: sudokn_BrazingCapability
+    - object:
+        example_object: RamEDM Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ABBOTT-TOOL-RamEDMCapability-inst
+        example_subject_type: sudokn_RamEDMCapability
+    - object:
+        example_object: Zinc Alloy
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ABC-ALUMINUM-ZincAlloy-inst
+        example_subject_type: sudokn_ZincAlloyProcessingCapability
+    - object:
+        example_object: Hardening Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ABERDEENTECH-HardeningCapability-inst
+        example_subject_type: sudokn_HardeningCapability
+    - object:
+        example_object: Deep Hole Drilling Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ABETECMANUFACTURING-DeepHoleDrillingCapability-inst
+        example_subject_type: sudokn_DeepHoleDrillingCapability
+    - object:
+        example_object: Annealing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ABIFOUNDRY-AnnealingCapability-inst
+        example_subject_type: sudokn_AnnealingCapability
+    - object:
+        example_object: ISO 14000 Certificate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ABIFOUNDRY-ISO14000Certificate
+        example_subject_type: sudokn_ISO14000Certificate
+    - object:
+        example_object: Soldering Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ABILITYENGINEERING-SolderingCapability-inst
+        example_subject_type: sudokn_SolderingCapability
+    - object:
+        example_object: Zircon
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ABILITYENGINEERING-Zircon-inst
+        example_subject_type: sudokn_ZirconProcessingCapability
+    - object:
+        example_object: Special Materials
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ABILITYMETAL-SpecialMaterials-inst
+        example_subject_type: sudokn_SpecialMaterialsProcessingCapability
+    - object:
+        example_object: Deburring Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ABLEBAR-DeburringCapability-inst
+        example_subject_type: sudokn_DeburringCapability
+    - object:
+        example_object: Carburizing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ABLPRODUCTS-CarburizingCapability-inst
+        example_subject_type: sudokn_CarburizingCapability
+    - object:
+        example_object: Creep Feed Grinding Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ABRASIVE-FORM-CreepFeedGrindingCapability-inst
+        example_subject_type: sudokn_CreepFeedGrindingCapability
+    - object:
+        example_object: Low Alloy Steel
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ACADEMYPETROLEUM-LowAlloySteel-inst
+        example_subject_type: sudokn_LowAlloySteelProcessingCapability
+    - object:
+        example_object: Chromate Conversion Coating Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ACCENTMETAL-ChromateConversionCoatingCapability-inst
+        example_subject_type: sudokn_ChromateConversionCoatingCapability
+    - object:
+        example_object: Physical Vapor Deposition Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ACCESSOPTICS-PhysicalVaporDepositionCapability-inst
+        example_subject_type: sudokn_PhysicalVaporDepositionCapability
+    - object:
+        example_object: Cold Rolled Steel
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ACCRAFAB-ColdRolledSteel-inst
+        example_subject_type: sudokn_ColdRolledSteelProcessingCapability
+    - object:
+        example_object: Electroless Nickel Plating Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ACCRAFAB-ElectrolessNickelPlatingCapability-inst
+        example_subject_type: sudokn_ElectrolessNickelPlatingCapability
+    - object:
+        example_object: Nitriding Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ACCURATESTEELTREATING-NitridingCapability-inst
+        example_subject_type: sudokn_NitridingCapability
+    - object:
+        example_object: FDA Certificate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ACIMEDICAL-FDACertificate
+        example_subject_type: sudokn_FDACertificate
+    - object:
+        example_object: Nomex
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ACMANUFACTURING-Nomex-inst
+        example_subject_type: sudokn_NomexProcessingCapability
+    - object:
+        example_object: Spinning Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ACMEMETALSPINNING-SpinningCapability-inst
+        example_subject_type: sudokn_SpinningCapability
+    - object:
+        example_object: Electropolishing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ACMESDI-ElectropolishingCapability-inst
+        example_subject_type: sudokn_ElectropolishingCapability
+    - object:
+        example_object: ISO Certificate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ACRYLICART-ISOCertificate
+        example_subject_type: sudokn_ISOCertificate
+    - object:
+        example_object: Wire Harness Assembly Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ADCURAMFG-WireHarnessAssemblyCapability-inst
+        example_subject_type: sudokn_WireHarnessAssemblyCapability
+    - object:
+        example_object: Vaporized Metal Coating Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ADDITIVEMANUFACTURINGLLC-VaporizedMetalCoatingCapability-inst
+        example_subject_type: sudokn_VaporizedMetalCoatingCapability
+    - object:
+        example_object: AWS Welder Certificate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ADVANTAINDUSTRIES-AWSWelderCertificate
+        example_subject_type: sudokn_AWSWelderCertificate
+    - object:
+        example_object: AS 9000 Certificate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AEROSPACECOMPONENTS-AS9000Certificate
+        example_subject_type: sudokn_AS9000Certificate
+    - object:
+        example_object: Difficult To Machine Materials
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AEROSPACECOMPONENTS-DifficultToMachineMaterials-inst
+        example_subject_type: sudokn_DifficultToMachineMaterialsProcessingCapability
+    - object:
+        example_object: A Equipment
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AEquipment-product
+        example_subject_type: io_MaterialProduct
+    - object:
+        example_object: QS 9000 Certificate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AGMAUTOMATION-QS9000Certificate
+        example_subject_type: sudokn_QS9000Certificate
+    - object:
+        example_object: 'Oxy-Fuel Cutting Capability '
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ALABAMAPLATE-Oxy-FuelCuttingCapability-inst
+        example_subject_type: sudokn_Oxy-FuelCuttingCapability
+    - object:
+        example_object: LaserProcessing
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ALCOMETALFABRICATORS-LaserProcessing
+        example_subject_type: sudokn_LaserProcessingCapability
+    - object:
+        example_object: Kapton
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ALTINC-Kapton-inst
+        example_subject_type: sudokn_KaptonProcessingCapability
+    - object:
+        example_object: High Grade Aluminum
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ALUMA-HighGradeAluminum-inst
+        example_subject_type: sudokn_HighGradeAluminumProcessingCapability
+    - object:
+        example_object: Precious Material
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AMERICANLASERINC-PreciousMaterial-inst
+        example_subject_type: sudokn_PreciousMaterialProcessingCapability
+    - object:
+        example_object: Planing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:APPALACHIANCAST-PlaningCapability-inst
+        example_subject_type: sudokn_PlaningCapability
+    - object:
+        example_object: Plasma Spraying Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:APSMATERIALS-PlasmaSprayingCapability-inst
+        example_subject_type: sudokn_PlasmaSprayingCapability
+    - object:
+        example_object: Cutting Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AQUAJETSERVICES-CuttingCapability-inst
+        example_subject_type: sudokn_CuttingCapability
+    - object:
+        example_object: Extremely Hard Material
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ARMORCONTRACT-ExtremelyHardMaterial-inst
+        example_subject_type: sudokn_ExtremelyHardMaterialProcessingCapability
+    - object:
+        example_object: Flame Spraying Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ASTROMECHANICS-FlameSprayingCapability-inst
+        example_subject_type: sudokn_FlameSprayingCapability
+    - object:
+        example_object: CNCTurning
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ATSMachineSafetySolutions-CNCTurning
+        example_subject_type: sudokn_CNCTurningCapability
+    - object:
+        example_object: Electron Beam Welding Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AWS-ElectronBeamWeldingCapability-inst
+        example_subject_type: sudokn_ElectronBeamWeldingCapability
+    - object:
+        example_object: ISO9001
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Accu-Fab-ISO9001
+        example_subject_type: sudokn_ISO9001
+    - object:
+        example_object: ScreenPrinting
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Accu-Fab-ScreenPrinting
+        example_subject_type: sudokn_ScreenPrintingCapability
+    - object:
+        example_object: WetPainting
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Accu-Fab-WetPainting
+        example_subject_type: sudokn_WetPaintingCapability
+    - object:
+        example_object: AS9100
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Accu-Tool-AS9100
+        example_subject_type: sudokn_AS9100
+    - object:
+        example_object: ITARCompliant
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Accu-Tool-ITARCompliant
+        example_subject_type: sudokn_ITARCompliant
+    - object:
+        example_object: Aerospace
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Aerospace-Industry
+        example_subject_type: sudokn_AerospaceIndustry
+    - object:
+        example_object: Agriculture
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Agriculture-Industry
+        example_subject_type: sudokn_AgricultureIndustry
+    - object:
+        example_object: EngineeringDesign
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AirSystemComponentsTitus-EngineeringDesign
+        example_subject_type: sudokn_EngineeringDesignCapability
+    - object:
+        example_object: ElectolessNickelPlating
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AlliedMetalFinishing-ElectolessNickelPlating
+        example_subject_type: sudokn_ElectolessNickelPlatingCapability
+    - object:
+        example_object: NickelPlating
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AlliedMetalFinishing-NickelPlating
+        example_subject_type: sudokn_NickelPlatingCapability
+    - object:
+        example_object: Plating
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AlliedMetalFinishing-Plating
+        example_subject_type: sudokn_PlatingCapability
+    - object:
+        example_object: DieMaking
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AllredMetalStampingWorks-DieMaking
+        example_subject_type: sudokn_DieMakingCapability
+    - object:
+        example_object: MoldMaking
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AllredMetalStampingWorks-MoldMaking
+        example_subject_type: sudokn_MoldMakingCapability
+    - object:
+        example_object: Riveting
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AllredMetalStampingWorks-Riveting
+        example_subject_type: sudokn_RivetingCapability
+    - object:
+        example_object: ToolMaking
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AllredMetalStampingWorks-ToolMaking
+        example_subject_type: sudokn_ToolMakingCapability
+    - object:
+        example_object: PLCProgramming
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Alotech-PLCProgramming
+        example_subject_type: sudokn_PLCProgrammingCapability
+    - object:
+        example_object: ContinuousCasting
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Aludisc-ContinuousCasting
+        example_subject_type: sudokn_ContinuousCastingCapability
+    - object:
+        example_object: Punching
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Aludisc-Punching
+        example_subject_type: sudokn_PunchingCapability
+    - object:
+        example_object: Smelting
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Aludisc-Smelting
+        example_subject_type: sudokn_SmeltingCapability
+    - object:
+        example_object: ASME
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AmericanHammer-ASME
+        example_subject_type: sudokn_ASME
+    - object:
+        example_object: DeepFreezing
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AmericanMetalTreating-DeepFreezing
+        example_subject_type: sudokn_DeepFreezingCapability
+    - object:
+        example_object: VacuumHardening
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:AmericanMetalTreating-VacuumHardening
+        example_subject_type: sudokn_VacuumHardeningCapability
+    - object:
+        example_object: ISO14001
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ArcelorMittalPiedmont-ISO14001
+        example_subject_type: sudokn_ISO14001
+    - object:
+        example_object: Shearing
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ArcelorMittalPiedmont-Shearing
+        example_subject_type: sudokn_ShearingCapability
+    - object:
+        example_object: Automotive
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Automotive-Industry
+        example_subject_type: sudokn_AutomotiveIndustry
+    - object:
+        example_object: Prototyping
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:B+EManufacturingCo-Prototyping
+        example_subject_type: sudokn_PrototypingCapability
+    - object:
+        example_object: Wood Working Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:BCTINT-WoodWorkingCapability-inst
+        example_subject_type: sudokn_WoodWorkingCapability
+    - object:
+        example_object: Natural Fiber
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:BDCUSTOMMFG-NaturalFiber-inst
+        example_subject_type: sudokn_NaturalFiberProcessingCapability
+    - object:
+        example_object: Carbonitriding Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:BLUEWATERTHERMAL-CarbonitridingCapability-inst
+        example_subject_type: sudokn_CarbonitridingCapability
+    - object:
+        example_object: Shrink Fitting Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:BRODEURMACHINE-ShrinkFittingCapability-inst
+        example_subject_type: sudokn_ShrinkFittingCapability
+    - object:
+        example_object: Mechanical Joining Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:BROWNINDUSTRIES-MechanicalJoiningCapability-inst
+        example_subject_type: sudokn_MechanicalJoiningCapability
+    - object:
+        example_object: Oil Grooving Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:BUSCHPRECISION-OilGroovingCapability-inst
+        example_subject_type: sudokn_OilGroovingCapability
+    - object:
+        example_object: PressBraking
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:BarnesMetalCrafters-PressBraking
+        example_subject_type: sudokn_PressBrakingCapability
+    - object:
+        example_object: RoboticWelding
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:BarnesMetalCrafters-RoboticWelding
+        example_subject_type: sudokn_RoboticWeldingCapability
+    - object:
+        example_object: GearCutting
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:BrintleMachineWorks-GearCutting
+        example_subject_type: sudokn_GearCuttingCapability
+    - object:
+        example_object: MetalFabrication
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:BroadsightSystems-MetalFabrication
+        example_subject_type: sudokn_MetalFabricationCapability
+    - object:
+        example_object: Business Equipment
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:BusinessEquipment-Industry
+        example_subject_type: sudokn_BusinessEquipmentIndustry
+    - object:
+        example_object: Phos Bronze
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:CAR-ENG-PhosBronze-inst
+        example_subject_type: sudokn_PhosBronzeProcessingCapability
+    - object:
+        example_object: Carbon Graphite
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:CARBONFIBERGLASS-CarbonGraphite-inst
+        example_subject_type: sudokn_CarbonGraphiteProcessingCapability
+    - object:
+        example_object: CNCmilling
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:CAndHTooling-CNCmilling
+        example_subject_type: sudokn_CNCmillingCapability
+    - object:
+        example_object: SheetMetalFabrication
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:CMSToolAndDie-SheetMetalFabrication
+        example_subject_type: sudokn_SheetMetalFabricationCapability
+    - object:
+        example_object: HAACP Certificate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:CMTC-HAACPCertificate
+        example_subject_type: sudokn_HAACPCertificate
+    - object:
+        example_object: AS 9102 Certificate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:COINING-AS9102Certificate
+        example_subject_type: sudokn_AS9102Certificate
+    - object:
+        example_object: ManMadeFiber Processing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:CargoControlUSA-ManMadeFiber-cap
+        example_subject_type: sudokn_ManMadeFiberProcessingCapability
+    - object:
+        example_object: Printing
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:CargoControlUSA-Printing
+        example_subject_type: sudokn_PrintingCapability
+    - object:
+        example_object: LatheWork
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:CarolinaPrecisionMachining-LatheWork
+        example_subject_type: sudokn_LatheWorkCapability
+    - object:
+        example_object: MechanicalAssembly
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:CarverMachineWorks-MechanicalAssembly
+        example_subject_type: sudokn_MechanicalAssemblyCapability
+    - object:
+        example_object: BrassBlackening
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ClaroLux-BrassBlackening
+        example_subject_type: sudokn_BrassBlackeningCapability
+    - object:
+        example_object: MetalSpinning
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ClaroLux-MetalSpinning
+        example_subject_type: sudokn_MetalSpinningCapability
+    - object:
+        example_object: Knitting
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:CommonPartsGrouping-Knitting
+        example_subject_type: sudokn_KnittingCapability
+    - object:
+        example_object: Communication
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Communication-Industry
+        example_subject_type: sudokn_CommunicationIndustry
+    - object:
+        example_object: Communication and Electronic Power Utilities
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:CommunicationandElectronicPowerUtilities-Industry
+        example_subject_type: sudokn_CommunicationandElectronicPowerUtilitiesIndustry
+    - object:
+        example_object: 2-AxisCNCTurning
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ComposiMoFabrication-2-AxisCNCTurning
+        example_subject_type: sudokn_2-AxisCNCTurningCapability
+    - object:
+        example_object: TIGWelding
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ComposiMoFabrication-TIGWelding
+        example_subject_type: sudokn_TIGWeldingCapability
+    - object:
+        example_object: Computers and Electronic Products
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ComputersandElectronicProducts-Industry
+        example_subject_type: sudokn_ComputersandElectronicProductsIndustry
+    - object:
+        example_object: Construction
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Construction-Industry
+        example_subject_type: sudokn_ConstructionIndustry
+    - object:
+        example_object: Consumer Goods
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ConsumerGoods-Industry
+        example_subject_type: sudokn_ConsumerGoodsIndustry
+    - object:
+        example_object: BritishRetailConsortiumAccreditation
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ContainerProductsCorporation-BritishRetailConsortiumAccreditation
+        example_subject_type: sudokn_BritishRetailConsortiumAccreditation
+    - object:
+        example_object: CNCPlasmaCutting
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:CovingtonIronWorks-CNCPlasmaCutting
+        example_subject_type: sudokn_CNCPlasmaCuttingCapability
+    - object:
+        example_object: BABA Certificate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:DAYTONSUPERIOR-BABACertificate
+        example_subject_type: sudokn_BABACertificate
+    - object:
+        example_object: Pressing
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:DDMManufacturing-Pressing
+        example_subject_type: sudokn_PressingCapability
+    - object:
+        example_object: VacuumForming
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:DDMManufacturing-VacuumForming
+        example_subject_type: sudokn_VacuumFormingCapability
+    - object:
+        example_object: Swiss Machining Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:DPMACHINING-SwissMachiningCapability-inst
+        example_subject_type: sudokn_SwissMachiningCapability
+    - object:
+        example_object: Thermoforming
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:DouglasFabricationandMachine-Thermoforming
+        example_subject_type: sudokn_ThermoformingCapability
+    - object:
+        example_object: ISO13485
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:DynamicMachiningxManufacturing-ISO13485
+        example_subject_type: sudokn_ISO13485
+    - object:
+        example_object: Shell Mold Casting Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:EAGLEALLOY-ShellMoldCastingCapability-inst
+        example_subject_type: sudokn_ShellMoldCastingCapability
+    - object:
+        example_object: Educational Institutions
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:EducationalInstitutions-Industry
+        example_subject_type: sudokn_EducationalInstitutionsIndustry
+    - object:
+        example_object: Electric Vehicles
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ElectricVehicles-Industry
+        example_subject_type: sudokn_ElectricVehiclesIndustry
+    - object:
+        example_object: Installation
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:EnvironmentalAirSystems-Installation
+        example_subject_type: sudokn_InstallationCapability
+    - object:
+        example_object: IS-TS16949
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:FCCNorthCarolina-IS-TS16949
+        example_subject_type: sudokn_IS-TS16949
+    - object:
+        example_object: ISTS 16949 Certificate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:FEINTOOL-ISTS16949Certificate
+        example_subject_type: sudokn_ISTS16949Certificate
+    - object:
+        example_object: Kitting
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:FalconFasteningSolutions-Kitting
+        example_subject_type: sudokn_KittingCapability
+    - object:
+        example_object: CNCPressBrake
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:FarrisFabAndMachining-CNCPressBrake
+        example_subject_type: sudokn_CNCPressBrakeCapability
+    - object:
+        example_object: Food
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Food-Industry
+        example_subject_type: sudokn_FoodIndustry
+    - object:
+        example_object: SteelManufacturing
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ForgedCustomMetalFabrication-SteelManufacturing
+        example_subject_type: sudokn_SteelManufacturingCapability
+    - object:
+        example_object: TurretPunching
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Forma-FabMetals-TurretPunching
+        example_subject_type: sudokn_TurretPunchingCapability
+    - object:
+        example_object: Furniture
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Furniture-Industry
+        example_subject_type: sudokn_FurnitureIndustry
+    - object:
+        example_object: Sand Casting Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:GENFOUNDRY-SandCastingCapability-inst
+        example_subject_type: sudokn_SandCastingCapability
+    - object:
+        example_object: QS9000
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:GammaTechnologies-QS9000
+        example_subject_type: sudokn_QS9000
+    - object:
+        example_object: CenterlessGrinding
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:GaryJYountsMachineCo-CenterlessGrinding
+        example_subject_type: sudokn_CenterlessGrindingCapability
+    - object:
+        example_object: Government
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Government-Industry
+        example_subject_type: sudokn_GovernmentIndustry
+    - object:
+        example_object: Painting
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:GrowlerManufacturingandEngineering-Painting
+        example_subject_type: sudokn_PaintingCapability
+    - object:
+        example_object: Wiring
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:GrowlerManufacturingandEngineering-Wiring
+        example_subject_type: sudokn_WiringCapability
+    - object:
+        example_object: Plaster Mold Casting Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:HARMONYCASTINGS-PlasterMoldCastingCapability-inst
+        example_subject_type: sudokn_PlasterMoldCastingCapability
+    - object:
+        example_object: Fastening
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:HEICOFASTENERS-Fastening
+        example_subject_type: sudokn_FasteningCapability
+    - object:
+        example_object: Health Care Services
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:HealthCareServices-Industry
+        example_subject_type: sudokn_HealthCareServicesIndustry
+    - object:
+        example_object: MetalStamping
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:HermanReevesSheetMetal-MetalStamping
+        example_subject_type: sudokn_MetalStampingCapability
+    - object:
+        example_object: SinkerEdm
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:HighlandToolandGauge-SinkerEdm
+        example_subject_type: sudokn_SinkerEdmCapability
+    - object:
+        example_object: Filling
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:HorizonTool-Filling
+        example_subject_type: sudokn_FillingCapability
+    - object:
+        example_object: Packaging
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:HorizonTool-Packaging
+        example_subject_type: sudokn_PackagingCapability
+    - object:
+        example_object: CNCCylindricalGrinding
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:IndTool-CNCCylindricalGrinding
+        example_subject_type: sudokn_CNCCylindricalGrindingCapability
+    - object:
+        example_object: EndForming
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:IndTool-EndForming
+        example_subject_type: sudokn_EndFormingCapability
+    - object:
+        example_object: Industrial Machinery and Equipment
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:IndustrialMachineryandEquipment-Industry
+        example_subject_type: sudokn_IndustrialMachineryandEquipmentIndustry
+    - object:
+        example_object: FDAGMPCompliant
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:IntelligentImplantSystems-FDAGMPCompliant
+        example_subject_type: sudokn_FDAGMPCompliant
+    - object:
+        example_object: DigitalPrinting
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:JKS-DigitalPrinting
+        example_subject_type: sudokn_DigitalPrintingCapability
+    - object:
+        example_object: SwissTurning
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:JMCToolAndMachine-SwissTurning
+        example_subject_type: sudokn_SwissTurningCapability
+    - object:
+        example_object: PipingFabrication
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:K-Industries-PipingFabrication
+        example_subject_type: sudokn_PipingFabricationCapability
+    - object:
+        example_object: Harperizing Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:KVFCOMPANY-HarperizingCapability-inst
+        example_subject_type: sudokn_HarperizingCapability
+    - object:
+        example_object: Broaching
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Ketchie-Broaching
+        example_subject_type: sudokn_BroachingCapability
+    - object:
+        example_object: WaterJetCutting
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:LaserPrecisionCutting-WaterJetCutting
+        example_subject_type: sudokn_WaterJetCuttingCapability
+    - object:
+        example_object: PrototypeManufacturing
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:LeonardFabricationandDesign-PrototypeManufacturing
+        example_subject_type: sudokn_PrototypeManufacturingCapability
+    - object:
+        example_object: MIGWeldin
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:LiquidProcessSystems-MIGWeldin
+        example_subject_type: sudokn_MIGWeldinCapability
+    - object:
+        example_object: SpotWelding
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:LiquidProcessSystems-SpotWelding
+        example_subject_type: sudokn_SpotWeldingCapability
+    - object:
+        example_object: MIGWelding
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:LlewellynMetalFabricators-MIGWelding
+        example_subject_type: sudokn_MIGWeldingCapability
+    - object:
+        example_object: CAD
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:M2PerformanceSolutions-CAD
+        example_subject_type: sudokn_CADCapability
+    - object:
+        example_object: Phosphor Bronze
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:METALKRAFTPM-PhosphorBronze-inst
+        example_subject_type: sudokn_PhosphorBronzeProcessingCapability
+    - object:
+        example_object: LEED Certificate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:MKTFASTENING-LEEDCertificate
+        example_subject_type: sudokn_LEEDCertificate
+    - object:
+        example_object: Ceramic Mold Casting Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:MODERNALUMINUM-CeramicMoldCastingCapability-inst
+        example_subject_type: sudokn_CeramicMoldCastingCapability
+    - object:
+        example_object: CNCBending
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:MechanicalSpecialty-CNCBending
+        example_subject_type: sudokn_CNCBendingCapability
+    - object:
+        example_object: WaterjetCuttimg
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:MechanicalSpecialty-WaterjetCuttimg
+        example_subject_type: sudokn_WaterjetCuttimgCapability
+    - object:
+        example_object: LiquidCoating
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:MetalMasters-LiquidCoating
+        example_subject_type: sudokn_LiquidCoatingCapability
+    - object:
+        example_object: Metals Products
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:MetalsProducts-Industry
+        example_subject_type: sudokn_MetalsProductsIndustry
+    - object:
+        example_object: Military
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Military-Industry
+        example_subject_type: sudokn_MilitaryIndustry
+    - object:
+        example_object: Mining
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Mining-Industry
+        example_subject_type: sudokn_MiningIndustry
+    - object:
+        example_object: Minority Owned
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:MinorityOwned
+        example_subject_type: owl_NamedIndividual
+    - object:
+        example_object: Minority Owned
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:MinorityOwned
+        example_subject_type: sudokn_OwnershipStatusClassifier
+    - object:
+        example_object: Vacuum Packaging Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:NEWHORIZONMACHINE-VacuumPackagingCapability-inst
+        example_subject_type: sudokn_VacuumPackagingCapability
+    - object:
+        example_object: Chemical Coating Capability
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:OXWELL-ChemicalCoatingCapability-inst
+        example_subject_type: sudokn_ChemicalCoatingCapability
+    - object:
+        example_object: Offshore Wind
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:OffshoreWind-Industry
+        example_subject_type: sudokn_OffshoreWindIndustry
+    - object:
+        example_object: CNCCutting
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:PREMCorp-CNCCutting
+        example_subject_type: sudokn_CNCCuttingCapability
+    - object:
+        example_object: Sewing
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:PREMCorp-Sewing
+        example_subject_type: sudokn_SewingCapability
+    - object:
+        example_object: Paper and Paperboard Products
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:PaperandPaperboardProducts-Industry
+        example_subject_type: sudokn_PaperandPaperboardProductsIndustry
+    - object:
+        example_object: SheetMetalForming
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ParkerIndustries-SheetMetalForming
+        example_subject_type: sudokn_SheetMetalFormingCapability
+    - object:
+        example_object: CNCForming
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:PerformanceMachineAndFab-CNCForming
+        example_subject_type: sudokn_CNCFormingCapability
+    - object:
+        example_object: ProductDesign
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:PerformanceMachineAndFab-ProductDesign
+        example_subject_type: sudokn_ProductDesignCapability
+    - object:
+        example_object: Plastics and Rubber Products
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:PlasticsandRubberProducts-Industry
+        example_subject_type: sudokn_PlasticsandRubberProductsIndustry
+    - object:
+        example_object: Rivetting
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:PrecisionSteelWorks-Rivetting
+        example_subject_type: sudokn_RivettingCapability
+    - object:
+        example_object: Professional Services
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ProfessionalServices-Industry
+        example_subject_type: sudokn_ProfessionalServicesIndustry
+    - object:
+        example_object: SilkScreening
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:QMFMetalAndElectronicSolutions-SilkScreening
+        example_subject_type: sudokn_SilkScreeningCapability
+    - object:
+        example_object: Recycling
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Recycling-Industry
+        example_subject_type: sudokn_RecyclingIndustry
+    - object:
+        example_object: CNCWireBending
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:RedTailGroup-CNCWireBending
+        example_subject_type: sudokn_CNCWireBendingCapability
+    - object:
+        example_object: WireBending
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:RedTailGroup-WireBending
+        example_subject_type: sudokn_WireBendingCapability
+    - object:
+        example_object: WireForming
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:RedTailGroup-WireForming
+        example_subject_type: sudokn_WireFormingCapability
+    - object:
+        example_object: Retail Trade
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:RetailTrade-Industry
+        example_subject_type: sudokn_RetailTradeIndustry
+    - object:
+        example_object: ReverseEngineering
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ReverseFunctionalPrototypingandManufacturing-ReverseEngineering
+        example_subject_type: sudokn_ReverseEngineeringCapability
+    - object:
+        example_object: FixtureDesign
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:RoebuckPrecisionMachine-FixtureDesign
+        example_subject_type: sudokn_FixtureDesignCapability
+    - object:
+        example_object: Fixturing
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:RoyalDevelopmentMetalStamping-Fixturing
+        example_subject_type: sudokn_FixturingCapability
+    - object:
+        example_object: PemInsertion
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:RoyalDevelopmentMetalStamping-PemInsertion
+        example_subject_type: sudokn_PemInsertionCapability
+    - object:
+        example_object: TI 9000 Certificate
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:SANMINA-TI9000Certificate
+        example_subject_type: sudokn_TI9000Certificate
+    - object:
+        example_object: CNCGrinding
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:SEITechnologies-CNCGrinding
+        example_subject_type: sudokn_CNCGrindingCapability
+    - object:
+        example_object: Extrusion
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:SignandAwningSystems-Extrusion
+        example_subject_type: sudokn_ExtrusionCapability
+    - object:
+        example_object: KOSHERApproved
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:SinnovaTek-KOSHERApproved
+        example_subject_type: sudokn_KOSHERApproved
+    - object:
+        example_object: SanitaryWelding
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:SinnovaTek-SanitaryWelding
+        example_subject_type: sudokn_SanitaryWeldingCapability
+    - object:
+        example_object: Sports and Leisure
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:SportsandLeisure-Industry
+        example_subject_type: sudokn_SportsandLeisureIndustry
+    - object:
+        example_object: CNCHorizontalTurning
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:SurryLogistix-CNCHorizontalTurning
+        example_subject_type: sudokn_CNCHorizontalTurningCapability
+    - object:
+        example_object: CNCLaserCutting
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:SurryLogistix-CNCLaserCutting
+        example_subject_type: sudokn_CNCLaserCuttingCapability
+    - object:
+        example_object: CNCVerticalMilling
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:SurryLogistix-CNCVerticalMilling
+        example_subject_type: sudokn_CNCVerticalMillingCapability
+    - object:
+        example_object: Electroplating
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Surtronics-Electroplating
+        example_subject_type: sudokn_ElectroplatingCapability
+    - object:
+        example_object: NADCAPAC7004
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:TEAMAndrews-NADCAPAC7004
+        example_subject_type: sudokn_NADCAPAC7004
+    - object:
+        example_object: TubeBending
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Tampco-TubeBending
+        example_subject_type: sudokn_TubeBendingCapability
+    - object:
+        example_object: MediaBlasting
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:TarheelPowderCoating-MediaBlasting
+        example_subject_type: sudokn_MediaBlastingCapability
+    - object:
+        example_object: MigWelding
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Technibilt-MigWelding
+        example_subject_type: sudokn_MigWeldingCapability
+    - object:
+        example_object: ResistanceWelding
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Technibilt-ResistanceWelding
+        example_subject_type: sudokn_ResistanceWeldingCapability
+    - object:
+        example_object: Textiles
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Textiles-Industry
+        example_subject_type: sudokn_TextilesIndustry
+    - object:
+        example_object: InductionHeating
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:TheCouncilToolCompany-InductionHeating
+        example_subject_type: sudokn_InductionHeatingCapability
+    - object:
+        example_object: PhosphateCoating
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:ThermalMetaltreating-PhosphateCoating
+        example_subject_type: sudokn_PhosphateCoatingCapability
+    - object:
+        example_object: Transportation
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Transportation-Industry
+        example_subject_type: sudokn_TransportationIndustry
+    - object:
+        example_object: CerakoteCoating
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:TriangleCoatings-CerakoteCoating
+        example_subject_type: sudokn_CerakoteCoatingCapability
+    - object:
+        example_object: TubeForming
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:TubeSpecialtiesCo-TubeForming
+        example_subject_type: sudokn_TubeFormingCapability
+    - object:
+        example_object: SurfaceGrinding
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:UnitedMachineAndMetalFab-SurfaceGrinding
+        example_subject_type: sudokn_SurfaceGrindingCapability
+    - object:
+        example_object: CylindricalGrinding
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Voigt-AbernathyUniversalMachineDivision-CylindricalGrinding
+        example_subject_type: sudokn_CylindricalGrindingCapability
+    - object:
+        example_object: PulsedElectrochemicalMachining
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:VoxelInnovations-PulsedElectrochemicalMachining
+        example_subject_type: sudokn_PulsedElectrochemicalMachiningCapability
+    - object:
+        example_object: CNCLathe
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:WDLeeandCompany-CNCLathe
+        example_subject_type: sudokn_CNCLatheCapability
+    - object:
+        example_object: Water and Sewer Utilities
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:WaterandSewerUtilities-Industry
+        example_subject_type: sudokn_WaterandSewerUtilitiesIndustry
+    - object:
+        example_object: FiberOpticLaserCutting
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:WatersBrothersContractors-FiberOpticLaserCutting
+        example_subject_type: sudokn_FiberOpticLaserCuttingCapability
+    - object:
+        example_object: ZincArcSpray
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:WeathersMfg-ZincArcSpray
+        example_subject_type: sudokn_ZincArcSprayCapability
+    - object:
+        example_object: PlasticMachining
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:WestSideIndustries-PlasticMachining
+        example_subject_type: sudokn_PlasticMachiningCapability
+    - object:
+        example_object: MachineBuilding
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:WilliamsMachineandTools-MachineBuilding
+        example_subject_type: sudokn_MachineBuildingCapability
+    - object:
+        example_object: ChemicalCleaning
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:WilliamsPlatingCompany-ChemicalCleaning
+        example_subject_type: sudokn_ChemicalCleaningCapability
+    - object:
+        example_object: ElectrolessPlating
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:WilliamsPlatingCompany-ElectrolessPlating
+        example_subject_type: sudokn_ElectrolessPlatingCapability
+    - object:
+        example_object: HotDipGalvanizing
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Wire-Bond-HotDipGalvanizing
+        example_subject_type: sudokn_HotDipGalvanizingCapability
+    - object:
+        example_object: LaserWelding
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:WirtzWireEDM-LaserWelding
+        example_subject_type: sudokn_LaserWeldingCapability
+    - object:
+        example_object: RAMEdm
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:WirtzWireEDM-RAMEdm
+        example_subject_type: sudokn_RAMEdmCapability
+    - object:
+        example_object: CustomFoamCutting
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:Zarges-CustomFoamCutting
+        example_subject_type: sudokn_CustomFoamCuttingCapability
+    - object:
+        example_object: Apparel Industry
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:apparelindustry-inst
+        example_subject_type: sudokn_ApparelIndustry
+    - object:
+        example_object: 3DPrinting
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:applerock-3DPrinting
+        example_subject_type: sudokn_3DPrintingCapability
+    - object:
+        example_object: AcrylicFabrication
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:applerock-AcrylicFabrication
+        example_subject_type: sudokn_AcrylicFabricationCapability
+    - object:
+        example_object: Metalworking
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:applerock-Metalworking
+        example_subject_type: sudokn_MetalworkingCapability
+    - object:
+        example_object: Woodworking
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:applerock-Woodworking
+        example_subject_type: sudokn_WoodworkingCapability
+    - object:
+        example_object: Chemical And Petrochemical Industry
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:chemicalandpetrochemicalindustry-inst
+        example_subject_type: sudokn_ChemicalAndPetrochemicalIndustry
+    - object:
+        example_object: Consumer Goods
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:consumergoods-inst
+        example_subject_type: sudokn_ConsumerGoods
+    - object:
+        example_object: Education Industry
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:educationindustry-inst
+        example_subject_type: sudokn_EducationIndustry
+    - object:
+        example_object: Electronic Automotive Inudstry
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:electronicautomotiveinudstry-inst
+        example_subject_type: sudokn_ElectronicAutomotiveInudstry
+    - object:
+        example_object: Electronic Product Industry
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:electronicproductindustry-inst
+        example_subject_type: sudokn_ElectronicProductIndustry
+    - object:
+        example_object: Goverment Industry
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:govermentindustry-inst
+        example_subject_type: sudokn_GovermentIndustry
+    - object:
+        example_object: Healthcare Services Industry
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:healthcareservicesindustry-inst
+        example_subject_type: sudokn_HealthcareServicesIndustry
+    - object:
+        example_object: Machinary And Equipment Industry
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:machinaryandequipmentindustry-inst
+        example_subject_type: sudokn_MachinaryAndEquipmentIndustry
+    - object:
+        example_object: Metal Production Industry
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:metalproductionindustry-inst
+        example_subject_type: sudokn_MetalProductionIndustry
+    - object:
+        example_object: Oil And Gas Industry
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:oilandgasindustry-inst
+        example_subject_type: sudokn_OilAndGasIndustry
+    - object:
+        example_object: Paper Industry
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:paperindustry-inst
+        example_subject_type: sudokn_PaperIndustry
+    - object:
+        example_object: Plastic And Rubber Industry
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:plasticandrubberindustry-inst
+        example_subject_type: sudokn_PlasticAndRubberIndustry
+    - object:
+        example_object: Printing And Information Industry
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:printingandinformationindustry-inst
+        example_subject_type: sudokn_PrintingAndInformationIndustry
+    - object:
+        example_object: Retail Industry
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:retailindustry-inst
+        example_subject_type: sudokn_RetailIndustry
+    - object:
+        example_object: Sports And Leisure Industry
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:sportsandleisureindustry-inst
+        example_subject_type: sudokn_SportsAndLeisureIndustry
+    - object:
+        example_object: Textiles
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:textiles-inst
+        example_subject_type: sudokn_Textiles
+    - object:
+        example_object: Utilities Industry
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:utilitiesindustry-inst
+        example_subject_type: sudokn_UtilitiesIndustry
+    - object:
+        example_object: Warehousing And Storage Industry
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:warehousingandstorageindustry-inst
+        example_subject_type: sudokn_WarehousingAndStorageIndustry
+    - object:
+        example_object: Wood Product Manufacturing Industry
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:woodproductmanufacturingindustry-inst
+        example_subject_type: sudokn_WoodProductManufacturingIndustry
+    - object:
+        example_object: 101 VERTICAL FABRICATION, INC.
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: sudokn:101PIPE-company-inst
+        example_subject_type: io_Manufacturer
     from_schema: sudokn-kg
     rank: 1000
     slot_uri: rdfs:label
@@ -1260,6 +2379,7 @@ attributes:
     domain_of:
     - io_Manufacturer
     - io_MaterialProduct
+    - owl_NamedIndividual
     - sudokn_2-AxisCNCTurningCapability
     - sudokn_3DPrintingCapability
     - sudokn_AS9000Certificate

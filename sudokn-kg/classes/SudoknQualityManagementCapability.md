@@ -1,12 +1,16 @@
 
 
-# Class: quality management capability (sudokn_QualityManagementCapability)
+# Class: No class (type) name specified (sudokn_QualityManagementCapability)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
+
+
+
+This class occurs 1 times.
 
 
 URI: [sudokn:QualityManagementCapability](http://asu.edu/semantics/SUDOKN/QualityManagementCapability)
@@ -38,8 +42,8 @@ URI: [sudokn:QualityManagementCapability](http://asu.edu/semantics/SUDOKN/Qualit
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
 
 
 
@@ -49,50 +53,15 @@ URI: [sudokn:QualityManagementCapability](http://asu.edu/semantics/SUDOKN/Qualit
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
+| [IoManufacturer](../classes/IoManufacturer.md) | [sudokn_hasManagementCapability](../slots/sudokn_hasManagementCapability.md) | any_of[range] | [SudoknQualityManagementCapability](../classes/SudoknQualityManagementCapability.md) |
 | [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | [sudokn_hasManagementCapability](../slots/sudokn_hasManagementCapability.md) | any_of[range] | [SudoknQualityManagementCapability](../classes/SudoknQualityManagementCapability.md) |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | [sudokn_attestsTo](../slots/sudokn_attestsTo.md) | any_of[range] | [SudoknQualityManagementCapability](../classes/SudoknQualityManagementCapability.md) |
 | [SudoknAS9100Certificate](../classes/SudoknAS9100Certificate.md) | [sudokn_attestsTo](../slots/sudokn_attestsTo.md) | any_of[range] | [SudoknQualityManagementCapability](../classes/SudoknQualityManagementCapability.md) |
 | [SudoknISO9000Certificate](../classes/SudoknISO9000Certificate.md) | [sudokn_attestsTo](../slots/sudokn_attestsTo.md) | any_of[range] | [SudoknQualityManagementCapability](../classes/SudoknQualityManagementCapability.md) |
 
 
 
 
-
-
-
-## Examples
-
-| Value |
-| --- |
-| sudokn:/QualityManagementCapabiliy_1 |
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:QualityManagementCapability |
-| native | sudokn-kg/:SudoknQualityManagementCapability |
 
 
 
@@ -107,18 +76,16 @@ URI: [sudokn:QualityManagementCapability](http://asu.edu/semantics/SUDOKN/Qualit
 ### Direct
 
 <details>
+
 ```yaml
 name: sudokn_QualityManagementCapability
-description: No type description provided
-title: quality management capability
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 1 occurences.
-examples:
-- value: sudokn:/QualityManagementCapabiliy_1
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 1
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: iosc_ProductionCapability
@@ -130,18 +97,16 @@ class_uri: sudokn:QualityManagementCapability
 ### Induced
 
 <details>
+
 ```yaml
 name: sudokn_QualityManagementCapability
-description: No type description provided
-title: quality management capability
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 1 occurences.
-examples:
-- value: sudokn:/QualityManagementCapabiliy_1
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 1
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: iosc_ProductionCapability

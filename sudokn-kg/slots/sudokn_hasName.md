@@ -1,12 +1,16 @@
 
 
-# Slot: has name (sudokn_hasName)
+# Slot: No slot (predicate) name specified (sudokn_hasName)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 1 times.
 
 
 URI: [sudokn:hasName](http://asu.edu/semantics/SUDOKN/hasName)
@@ -23,7 +27,8 @@ URI: [sudokn:hasName](http://asu.edu/semantics/SUDOKN/hasName)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No type description provided |  no  |
+| [IoManufacturer](../classes/IoManufacturer.md) | No class (type) description specified |  yes  |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No class (type) description specified |  yes  |
 
 
 
@@ -33,7 +38,7 @@ URI: [sudokn:hasName](http://asu.edu/semantics/SUDOKN/hasName)
 
 ## Properties
 
-* Range: [SudoknOrganizationName](../classes/SudoknOrganizationName.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[OwlNamedIndividual](../classes/OwlNamedIndividual.md)&nbsp;or&nbsp;<br />[SudoknOrganizationName](../classes/SudoknOrganizationName.md)
 
 
 
@@ -42,42 +47,12 @@ URI: [sudokn:hasName](http://asu.edu/semantics/SUDOKN/hasName)
 
 ## Examples
 
-| Value |
-| --- |
-| sudokn:/Manufacturer_1 sudokn:hasName sudokn:/OrganizationName_1 |
-
-## Comments
-
-* 1 occurrences with subject type owl_NamedIndividual and object type sudokn_OrganizationName.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:hasName |
-| native | sudokn-kg/:sudokn_hasName |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| owl_NamedIndividual | owl_NamedIndividual | sudokn:/Manufacturer_1 | sudokn:/OrganizationName_1 | 1 |
+| owl_NamedIndividual | sudokn_OrganizationName | sudokn:/Manufacturer_1 | sudokn:/OrganizationName_1 | 1 |
+| io_Manufacturer | owl_NamedIndividual | sudokn:/Manufacturer_1 | sudokn:/OrganizationName_1 | 1 |
+| io_Manufacturer | sudokn_OrganizationName | sudokn:/Manufacturer_1 | sudokn:/OrganizationName_1 | 1 |
 
 
 
@@ -85,26 +60,51 @@ URI: [sudokn:hasName](http://asu.edu/semantics/SUDOKN/hasName)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_hasName
-description: No slot description provided
-title: has name
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1 occurrences with subject type owl_NamedIndividual and object type sudokn_OrganizationName.
+annotations:
+  count:
+    tag: count
+    value: 1
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: sudokn:/Manufacturer_1 sudokn:hasName sudokn:/OrganizationName_1
+- object:
+    example_object: sudokn:/OrganizationName_1
+    example_object_type: owl_NamedIndividual
+    example_predicate: sudokn:hasName
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: owl_NamedIndividual
+- object:
+    example_object: sudokn:/OrganizationName_1
+    example_object_type: sudokn_OrganizationName
+    example_predicate: sudokn:hasName
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: owl_NamedIndividual
+- object:
+    example_object: sudokn:/OrganizationName_1
+    example_object_type: owl_NamedIndividual
+    example_predicate: sudokn:hasName
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: io_Manufacturer
+- object:
+    example_object: sudokn:/OrganizationName_1
+    example_object_type: sudokn_OrganizationName
+    example_predicate: sudokn:hasName
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: io_Manufacturer
 from_schema: sudokn-kg
 rank: 1000
 slot_uri: sudokn:hasName
 alias: sudokn_hasName
 domain_of:
+- io_Manufacturer
 - owl_NamedIndividual
-subproperty_of: io_denotedBy
-range: sudokn_OrganizationName
+range: Any
+any_of:
+- range: owl_NamedIndividual
+- range: sudokn_OrganizationName
 
 ```
 </details>

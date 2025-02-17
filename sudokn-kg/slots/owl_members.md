@@ -3,10 +3,14 @@
 # Slot: owl_members
 
 
-_TODO -- tell the world what this slot (predicate) describes._
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 14 times.
 
 
 URI: [owl:members](http://www.w3.org/2002/07/owl#members)
@@ -23,7 +27,7 @@ URI: [owl:members](http://www.w3.org/2002/07/owl#members)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [OwlAllDisjointClasses](../classes/OwlAllDisjointClasses.md) | TODO -- tell the world what this class (type) describes |  no  |
+| [OwlAllDisjointClasses](../classes/OwlAllDisjointClasses.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [owl:members](http://www.w3.org/2002/07/owl#members)
 
 ## Examples
 
-| Value |
-| --- |
-| _:b0 owl:members _:b1 |
-
-## Comments
-
-* 14 occurrences with subject type owl_AllDisjointClasses and object type uri.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | owl:members |
-| native | sudokn-kg/:owl_members |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| owl_AllDisjointClasses | uri | _:b0 | _:b1 | 14 |
 
 
 
@@ -85,17 +56,21 @@ URI: [owl:members](http://www.w3.org/2002/07/owl#members)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: owl_members
-description: TODO -- tell the world what this slot (predicate) describes.
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 14 occurrences with subject type owl_AllDisjointClasses and object type uri.
+annotations:
+  count:
+    tag: count
+    value: 14
+description: No slot (predicate) description specified
 examples:
-- value: _:b0 owl:members _:b1
+- object:
+    example_object: _:b1
+    example_object_type: uri
+    example_predicate: owl:members
+    example_subject: _:b0
+    example_subject_type: owl_AllDisjointClasses
 from_schema: sudokn-kg
 rank: 1000
 slot_uri: owl:members

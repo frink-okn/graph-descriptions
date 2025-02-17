@@ -1,12 +1,16 @@
 
 
-# Class: ISTS-16949 certificate (sudokn_ISTS-16949Certificate)
+# Class: No class (type) name specified (sudokn_ISTS-16949Certificate)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
+
+
+
+This class occurs 0 times.
 
 
 URI: [sudokn:ISTS-16949Certificate](http://asu.edu/semantics/SUDOKN/ISTS-16949Certificate)
@@ -41,8 +45,8 @@ URI: [sudokn:ISTS-16949Certificate](http://asu.edu/semantics/SUDOKN/ISTS-16949Ce
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
 
 
 
@@ -50,36 +54,6 @@ URI: [sudokn:ISTS-16949Certificate](http://asu.edu/semantics/SUDOKN/ISTS-16949Ce
 
 
 
-
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:ISTS-16949Certificate |
-| native | sudokn-kg/:SudoknISTS-16949Certificate |
 
 
 
@@ -94,16 +68,16 @@ URI: [sudokn:ISTS-16949Certificate](http://asu.edu/semantics/SUDOKN/ISTS-16949Ce
 ### Direct
 
 <details>
+
 ```yaml
 name: sudokn_ISTS-16949Certificate
-description: No type description provided
-title: ISTS-16949 certificate
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 0 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: sudokn_ISTSCertificate
@@ -115,16 +89,16 @@ class_uri: sudokn:ISTS-16949Certificate
 ### Induced
 
 <details>
+
 ```yaml
 name: sudokn_ISTS-16949Certificate
-description: No type description provided
-title: ISTS-16949 certificate
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 0 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: sudokn_ISTSCertificate

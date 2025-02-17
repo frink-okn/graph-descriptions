@@ -1,12 +1,16 @@
 
 
-# Class: city of address (sudokn_CityOfAddress)
+# Class: No class (type) name specified (sudokn_CityOfAddress)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
+
+
+
+This class occurs 1 times.
 
 
 URI: [sudokn:CityOfAddress](http://asu.edu/semantics/SUDOKN/CityOfAddress)
@@ -38,8 +42,8 @@ URI: [sudokn:CityOfAddress](http://asu.edu/semantics/SUDOKN/CityOfAddress)
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
 
 
 
@@ -47,36 +51,6 @@ URI: [sudokn:CityOfAddress](http://asu.edu/semantics/SUDOKN/CityOfAddress)
 
 
 
-
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:CityOfAddress |
-| native | sudokn-kg/:SudoknCityOfAddress |
 
 
 
@@ -91,16 +65,16 @@ URI: [sudokn:CityOfAddress](http://asu.edu/semantics/SUDOKN/CityOfAddress)
 ### Direct
 
 <details>
+
 ```yaml
 name: sudokn_CityOfAddress
-description: No type description provided
-title: city of address
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 1 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 1
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: io_PhysicalLocationIdentifier
@@ -112,16 +86,16 @@ class_uri: sudokn:CityOfAddress
 ### Induced
 
 <details>
+
 ```yaml
 name: sudokn_CityOfAddress
-description: No type description provided
-title: city of address
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 1 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 1
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: io_PhysicalLocationIdentifier

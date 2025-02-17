@@ -1,12 +1,16 @@
 
 
-# Slot: has web address (sudokn_hasWebAddress)
+# Slot: No slot (predicate) name specified (sudokn_hasWebAddress)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 1 times.
 
 
 URI: [sudokn:hasWebAddress](http://asu.edu/semantics/SUDOKN/hasWebAddress)
@@ -23,7 +27,8 @@ URI: [sudokn:hasWebAddress](http://asu.edu/semantics/SUDOKN/hasWebAddress)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No type description provided |  no  |
+| [IoManufacturer](../classes/IoManufacturer.md) | No class (type) description specified |  yes  |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No class (type) description specified |  yes  |
 
 
 
@@ -33,7 +38,15 @@ URI: [sudokn:hasWebAddress](http://asu.edu/semantics/SUDOKN/hasWebAddress)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[SudoknWebAddress](../classes/SudoknWebAddress.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[OwlNamedIndividual](../classes/OwlNamedIndividual.md)&nbsp;or&nbsp;<br />[SudoknWebAddress](../classes/SudoknWebAddress.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [IoManufacturer](../classes/IoManufacturer.md) | [sudokn_hasWebAddress](../slots/sudokn_hasWebAddress.md) | domain | [sudokn_hasWebAddress](../slots/sudokn_hasWebAddress.md) |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | [sudokn_hasWebAddress](../slots/sudokn_hasWebAddress.md) | domain | [sudokn_hasWebAddress](../slots/sudokn_hasWebAddress.md) |
+
 
 
 
@@ -42,42 +55,12 @@ URI: [sudokn:hasWebAddress](http://asu.edu/semantics/SUDOKN/hasWebAddress)
 
 ## Examples
 
-| Value |
-| --- |
-| sudokn:/Manufacturer_1 sudokn:hasWebAddress sudokn:/WebAddress_1 |
-
-## Comments
-
-* 1 occurrences with subject type owl_NamedIndividual and object type sudokn_WebAddress.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:hasWebAddress |
-| native | sudokn-kg/:sudokn_hasWebAddress |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| owl_NamedIndividual | owl_NamedIndividual | sudokn:/Manufacturer_1 | sudokn:/WebAddress_1 | 1 |
+| owl_NamedIndividual | sudokn_WebAddress | sudokn:/Manufacturer_1 | sudokn:/WebAddress_1 | 1 |
+| io_Manufacturer | owl_NamedIndividual | sudokn:/Manufacturer_1 | sudokn:/WebAddress_1 | 1 |
+| io_Manufacturer | sudokn_WebAddress | sudokn:/Manufacturer_1 | sudokn:/WebAddress_1 | 1 |
 
 
 
@@ -85,27 +68,51 @@ URI: [sudokn:hasWebAddress](http://asu.edu/semantics/SUDOKN/hasWebAddress)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_hasWebAddress
-description: No slot description provided
-title: has web address
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1 occurrences with subject type owl_NamedIndividual and object type sudokn_WebAddress.
+annotations:
+  count:
+    tag: count
+    value: 1
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: sudokn:/Manufacturer_1 sudokn:hasWebAddress sudokn:/WebAddress_1
+- object:
+    example_object: sudokn:/WebAddress_1
+    example_object_type: owl_NamedIndividual
+    example_predicate: sudokn:hasWebAddress
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: owl_NamedIndividual
+- object:
+    example_object: sudokn:/WebAddress_1
+    example_object_type: sudokn_WebAddress
+    example_predicate: sudokn:hasWebAddress
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: owl_NamedIndividual
+- object:
+    example_object: sudokn:/WebAddress_1
+    example_object_type: owl_NamedIndividual
+    example_predicate: sudokn:hasWebAddress
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: io_Manufacturer
+- object:
+    example_object: sudokn:/WebAddress_1
+    example_object_type: sudokn_WebAddress
+    example_predicate: sudokn:hasWebAddress
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: io_Manufacturer
 from_schema: sudokn-kg
 rank: 1000
-domain: io_Organization
+domain: sudokn_hasWebAddress
 slot_uri: sudokn:hasWebAddress
 alias: sudokn_hasWebAddress
 domain_of:
+- io_Manufacturer
 - owl_NamedIndividual
 range: Any
 any_of:
+- range: owl_NamedIndividual
 - range: sudokn_WebAddress
 - range: uri
 

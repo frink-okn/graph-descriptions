@@ -3,10 +3,14 @@
 # Slot: sudokn_locatedInState
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 3734 times.
 
 
 URI: [sudokn:locatedInState](http://asu.edu/semantics/SUDOKN/locatedInState)
@@ -23,7 +27,7 @@ URI: [sudokn:locatedInState](http://asu.edu/semantics/SUDOKN/locatedInState)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknCity](../classes/SudoknCity.md) | No type description provided |  no  |
+| [SudoknCity](../classes/SudoknCity.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sudokn:locatedInState](http://asu.edu/semantics/SUDOKN/locatedInState)
 
 ## Examples
 
-| Value |
-| --- |
-| sudokn:hickory-City sudokn:locatedInState sudokn:NorthCarolina-State |
-
-## Comments
-
-* 3734 occurrences with subject type sudokn_City and object type sudokn_State.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:locatedInState |
-| native | sudokn-kg/:sudokn_locatedInState |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sudokn_City | sudokn_State | sudokn:(NO%20CITY)-City | sudokn:HUMB-State | 3734 |
 
 
 
@@ -85,17 +56,21 @@ URI: [sudokn:locatedInState](http://asu.edu/semantics/SUDOKN/locatedInState)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_locatedInState
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 3734 occurrences with subject type sudokn_City and object type sudokn_State.
+annotations:
+  count:
+    tag: count
+    value: 3734
+description: No slot (predicate) description specified
 examples:
-- value: sudokn:hickory-City sudokn:locatedInState sudokn:NorthCarolina-State
+- object:
+    example_object: sudokn:HUMB-State
+    example_object_type: sudokn_State
+    example_predicate: sudokn:locatedInState
+    example_subject: sudokn:(NO%20CITY)-City
+    example_subject_type: sudokn_City
 from_schema: sudokn-kg
 rank: 1000
 slot_uri: sudokn:locatedInState

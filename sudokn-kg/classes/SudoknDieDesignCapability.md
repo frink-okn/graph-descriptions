@@ -1,12 +1,16 @@
 
 
-# Class: die design capability (sudokn_DieDesignCapability)
+# Class: No class (type) name specified (sudokn_DieDesignCapability)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
+
+
+
+This class occurs 0 times.
 
 
 URI: [sudokn:DieDesignCapability](http://asu.edu/semantics/SUDOKN/DieDesignCapability)
@@ -40,8 +44,8 @@ URI: [sudokn:DieDesignCapability](http://asu.edu/semantics/SUDOKN/DieDesignCapab
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
 
 
 
@@ -49,36 +53,6 @@ URI: [sudokn:DieDesignCapability](http://asu.edu/semantics/SUDOKN/DieDesignCapab
 
 
 
-
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:DieDesignCapability |
-| native | sudokn-kg/:SudoknDieDesignCapability |
 
 
 
@@ -93,16 +67,16 @@ URI: [sudokn:DieDesignCapability](http://asu.edu/semantics/SUDOKN/DieDesignCapab
 ### Direct
 
 <details>
+
 ```yaml
 name: sudokn_DieDesignCapability
-description: No type description provided
-title: die design capability
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 0 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: sudokn_ToolDesignCapability
@@ -114,16 +88,16 @@ class_uri: sudokn:DieDesignCapability
 ### Induced
 
 <details>
+
 ```yaml
 name: sudokn_DieDesignCapability
-description: No type description provided
-title: die design capability
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 0 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: sudokn_ToolDesignCapability

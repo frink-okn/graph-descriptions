@@ -1,12 +1,16 @@
 
 
-# Class: TODO -- this class is noted as a superclass of another class in this graph but has not itself been defined. (iosc_ProductionCapability)
+# Class: No class (type) name specified -- this class is noted as a superclass of another class in this graph but has not itself been defined. (iosc_ProductionCapability)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
+
+
+
+This class occurs 0 times.
 
 
 URI: [iosc:ProductionCapability](https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/ProductionCapability)
@@ -47,8 +51,8 @@ URI: [iosc:ProductionCapability](https://spec.industrialontologies.org/ontology/
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
 
 
 
@@ -56,36 +60,6 @@ URI: [iosc:ProductionCapability](https://spec.industrialontologies.org/ontology/
 
 
 
-
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | iosc:ProductionCapability |
-| native | sudokn-kg/:IoscProductionCapability |
 
 
 
@@ -100,17 +74,17 @@ URI: [iosc:ProductionCapability](https://spec.industrialontologies.org/ontology/
 ### Direct
 
 <details>
+
 ```yaml
 name: iosc_ProductionCapability
-description: No type description provided
-title: TODO -- this class is noted as a superclass of another class in this graph
-  but has not itself been defined.
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 0 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No class (type) description specified
+title: No class (type) name specified -- this class is noted as a superclass of another
+  class in this graph but has not itself been defined.
 from_schema: sudokn-kg
 rank: 1000
 class_uri: iosc:ProductionCapability
@@ -121,17 +95,17 @@ class_uri: iosc:ProductionCapability
 ### Induced
 
 <details>
+
 ```yaml
 name: iosc_ProductionCapability
-description: No type description provided
-title: TODO -- this class is noted as a superclass of another class in this graph
-  but has not itself been defined.
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 0 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No class (type) description specified
+title: No class (type) name specified -- this class is noted as a superclass of another
+  class in this graph but has not itself been defined.
 from_schema: sudokn-kg
 rank: 1000
 class_uri: iosc:ProductionCapability

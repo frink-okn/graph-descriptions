@@ -1,12 +1,16 @@
 
 
-# Class: AS-9003 certificate (sudokn_AS9003Certificate)
+# Class: No class (type) name specified (sudokn_AS9003Certificate)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
+
+
+
+This class occurs 0 times.
 
 
 URI: [sudokn:AS9003Certificate](http://asu.edu/semantics/SUDOKN/AS9003Certificate)
@@ -41,8 +45,8 @@ URI: [sudokn:AS9003Certificate](http://asu.edu/semantics/SUDOKN/AS9003Certificat
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
 
 
 
@@ -50,36 +54,6 @@ URI: [sudokn:AS9003Certificate](http://asu.edu/semantics/SUDOKN/AS9003Certificat
 
 
 
-
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:AS9003Certificate |
-| native | sudokn-kg/:SudoknAS9003Certificate |
 
 
 
@@ -94,16 +68,16 @@ URI: [sudokn:AS9003Certificate](http://asu.edu/semantics/SUDOKN/AS9003Certificat
 ### Direct
 
 <details>
+
 ```yaml
 name: sudokn_AS9003Certificate
-description: No type description provided
-title: AS-9003 certificate
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 0 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: sudokn_ASCertificate
@@ -115,16 +89,16 @@ class_uri: sudokn:AS9003Certificate
 ### Induced
 
 <details>
+
 ```yaml
 name: sudokn_AS9003Certificate
-description: No type description provided
-title: AS-9003 certificate
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 0 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: sudokn_ASCertificate

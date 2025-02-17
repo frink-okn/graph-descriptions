@@ -1,12 +1,16 @@
 
 
-# Class: TODO -- what's a good name for this class (type)? (owl_AllDisjointClasses)
+# Class: No class (type) name specified (owl_AllDisjointClasses)
 
 
-_TODO -- tell the world what this class (type) describes._
+_No class (type) description specified_
 
 
 
+
+
+
+This class occurs 14 times.
 
 
 URI: [owl:AllDisjointClasses](http://www.w3.org/2002/07/owl#AllDisjointClasses)
@@ -40,9 +44,9 @@ URI: [owl:AllDisjointClasses](http://www.w3.org/2002/07/owl#AllDisjointClasses)
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [owl_members](../slots/owl_members.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | TODO -- tell the world what this slot (predicate) describes | direct |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
+| [owl_members](../slots/owl_members.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 14 |
 
 
 
@@ -50,43 +54,6 @@ URI: [owl:AllDisjointClasses](http://www.w3.org/2002/07/owl#AllDisjointClasses)
 
 
 
-
-
-
-## Examples
-
-| Value |
-| --- |
-| _:b0 |
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | owl:AllDisjointClasses |
-| native | sudokn-kg/:OwlAllDisjointClasses |
 
 
 
@@ -101,21 +68,27 @@ URI: [owl:AllDisjointClasses](http://www.w3.org/2002/07/owl#AllDisjointClasses)
 ### Direct
 
 <details>
+
 ```yaml
 name: owl_AllDisjointClasses
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 14 occurences.
-examples:
-- value: _:b0
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 14
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
+rank: 1000
 slots:
 - owl_members
+slot_usage:
+  owl_members:
+    name: owl_members
+    annotations:
+      uri:
+        tag: uri
+        value: 14
 class_uri: owl:AllDisjointClasses
 
 ```
@@ -124,31 +97,40 @@ class_uri: owl:AllDisjointClasses
 ### Induced
 
 <details>
+
 ```yaml
 name: owl_AllDisjointClasses
-description: TODO -- tell the world what this class (type) describes.
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 14 occurences.
-examples:
-- value: _:b0
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 14
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
+rank: 1000
+slot_usage:
+  owl_members:
+    name: owl_members
+    annotations:
+      uri:
+        tag: uri
+        value: 14
 attributes:
   owl_members:
     name: owl_members
-    description: TODO -- tell the world what this slot (predicate) describes.
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 14 occurrences with subject type owl_AllDisjointClasses and object type uri.
+    annotations:
+      uri:
+        tag: uri
+        value: 14
+    description: No slot (predicate) description specified
     examples:
-    - value: _:b0 owl:members _:b1
+    - object:
+        example_object: _:b1
+        example_object_type: uri
+        example_predicate: owl:members
+        example_subject: _:b0
+        example_subject_type: owl_AllDisjointClasses
     from_schema: sudokn-kg
     rank: 1000
     slot_uri: owl:members

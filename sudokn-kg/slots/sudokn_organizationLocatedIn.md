@@ -3,10 +3,14 @@
 # Slot: sudokn_organizationLocatedIn
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 20728 times.
 
 
 URI: [sudokn:organizationLocatedIn](http://asu.edu/semantics/SUDOKN/organizationLocatedIn)
@@ -23,7 +27,7 @@ URI: [sudokn:organizationLocatedIn](http://asu.edu/semantics/SUDOKN/organization
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [IoManufacturer](../classes/IoManufacturer.md) | No type description provided |  no  |
+| [IoManufacturer](../classes/IoManufacturer.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sudokn:organizationLocatedIn](http://asu.edu/semantics/SUDOKN/organization
 
 ## Examples
 
-| Value |
-| --- |
-| sudokn:qualityproducts sudokn:organizationLocatedIn sudokn:qualityproducts-Site |
-
-## Comments
-
-* 20728 occurrences with subject type io_Manufacturer and object type sudokn_GeospatialLocation.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:organizationLocatedIn |
-| native | sudokn-kg/:sudokn_organizationLocatedIn |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| io_Manufacturer | sudokn_GeospatialLocation | sudokn:101PIPE-company-inst | sudokn:101PIPE-site | 20728 |
 
 
 
@@ -85,17 +56,21 @@ URI: [sudokn:organizationLocatedIn](http://asu.edu/semantics/SUDOKN/organization
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_organizationLocatedIn
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 20728 occurrences with subject type io_Manufacturer and object type sudokn_GeospatialLocation.
+annotations:
+  count:
+    tag: count
+    value: 20728
+description: No slot (predicate) description specified
 examples:
-- value: sudokn:qualityproducts sudokn:organizationLocatedIn sudokn:qualityproducts-Site
+- object:
+    example_object: sudokn:101PIPE-site
+    example_object_type: sudokn_GeospatialLocation
+    example_predicate: sudokn:organizationLocatedIn
+    example_subject: sudokn:101PIPE-company-inst
+    example_subject_type: io_Manufacturer
 from_schema: sudokn-kg
 rank: 1000
 slot_uri: sudokn:organizationLocatedIn

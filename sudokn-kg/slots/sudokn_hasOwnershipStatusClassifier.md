@@ -1,12 +1,16 @@
 
 
-# Slot: has ownership status classifier (sudokn_hasOwnershipStatusClassifier)
+# Slot: No slot (predicate) name specified (sudokn_hasOwnershipStatusClassifier)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 1120 times.
 
 
 URI: [sudokn:hasOwnershipStatusClassifier](http://asu.edu/semantics/SUDOKN/hasOwnershipStatusClassifier)
@@ -23,8 +27,8 @@ URI: [sudokn:hasOwnershipStatusClassifier](http://asu.edu/semantics/SUDOKN/hasOw
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No type description provided |  no  |
-| [IoManufacturer](../classes/IoManufacturer.md) | No type description provided |  no  |
+| [IoManufacturer](../classes/IoManufacturer.md) | No class (type) description specified |  yes  |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No class (type) description specified |  yes  |
 
 
 
@@ -34,7 +38,15 @@ URI: [sudokn:hasOwnershipStatusClassifier](http://asu.edu/semantics/SUDOKN/hasOw
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[SudoknOwnershipStatusClassifier](../classes/SudoknOwnershipStatusClassifier.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[OwlNamedIndividual](../classes/OwlNamedIndividual.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[SudoknOwnershipStatusClassifier](../classes/SudoknOwnershipStatusClassifier.md)
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [IoManufacturer](../classes/IoManufacturer.md) | [sudokn_hasOwnershipStatusClassifier](../slots/sudokn_hasOwnershipStatusClassifier.md) | domain | [sudokn_hasOwnershipStatusClassifier](../slots/sudokn_hasOwnershipStatusClassifier.md) |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | [sudokn_hasOwnershipStatusClassifier](../slots/sudokn_hasOwnershipStatusClassifier.md) | domain | [sudokn_hasOwnershipStatusClassifier](../slots/sudokn_hasOwnershipStatusClassifier.md) |
+
 
 
 
@@ -43,44 +55,12 @@ URI: [sudokn:hasOwnershipStatusClassifier](http://asu.edu/semantics/SUDOKN/hasOw
 
 ## Examples
 
-| Value |
-| --- |
-| sudokn:/Manufacturer_1 sudokn:hasOwnershipStatusClassifier sudokn:VeteranOwned |
-| sudokn:applerock sudokn:hasOwnershipStatusClassifier sudokn:WomanOwned |
-
-## Comments
-
-* 1 occurrences with subject type owl_NamedIndividual and object type sudokn_OwnershipStatusClassifier.
-* 1119 occurrences with subject type io_Manufacturer and object type sudokn_OwnershipStatusClassifier.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:hasOwnershipStatusClassifier |
-| native | sudokn-kg/:sudokn_hasOwnershipStatusClassifier |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| owl_NamedIndividual | owl_NamedIndividual | sudokn:/Manufacturer_1 | sudokn:VeteranOwned | 1 |
+| owl_NamedIndividual | sudokn_OwnershipStatusClassifier | sudokn:/Manufacturer_1 | sudokn:VeteranOwned | 1 |
+| io_Manufacturer | owl_NamedIndividual | sudokn:/Manufacturer_1 | sudokn:VeteranOwned | 1036 |
+| io_Manufacturer | sudokn_OwnershipStatusClassifier | sudokn:/Manufacturer_1 | sudokn:VeteranOwned | 1120 |
 
 
 
@@ -88,23 +68,43 @@ URI: [sudokn:hasOwnershipStatusClassifier](http://asu.edu/semantics/SUDOKN/hasOw
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_hasOwnershipStatusClassifier
-description: No slot description provided
-title: has ownership status classifier
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1 occurrences with subject type owl_NamedIndividual and object type sudokn_OwnershipStatusClassifier.
-- 1119 occurrences with subject type io_Manufacturer and object type sudokn_OwnershipStatusClassifier.
+annotations:
+  count:
+    tag: count
+    value: 1120
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: sudokn:/Manufacturer_1 sudokn:hasOwnershipStatusClassifier sudokn:VeteranOwned
-- value: sudokn:applerock sudokn:hasOwnershipStatusClassifier sudokn:WomanOwned
+- object:
+    example_object: sudokn:VeteranOwned
+    example_object_type: owl_NamedIndividual
+    example_predicate: sudokn:hasOwnershipStatusClassifier
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: owl_NamedIndividual
+- object:
+    example_object: sudokn:VeteranOwned
+    example_object_type: sudokn_OwnershipStatusClassifier
+    example_predicate: sudokn:hasOwnershipStatusClassifier
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: owl_NamedIndividual
+- object:
+    example_object: sudokn:VeteranOwned
+    example_object_type: owl_NamedIndividual
+    example_predicate: sudokn:hasOwnershipStatusClassifier
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: io_Manufacturer
+- object:
+    example_object: sudokn:VeteranOwned
+    example_object_type: sudokn_OwnershipStatusClassifier
+    example_predicate: sudokn:hasOwnershipStatusClassifier
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: io_Manufacturer
 from_schema: sudokn-kg
 rank: 1000
-domain: io_Organization
+domain: sudokn_hasOwnershipStatusClassifier
 slot_uri: sudokn:hasOwnershipStatusClassifier
 alias: sudokn_hasOwnershipStatusClassifier
 domain_of:
@@ -112,8 +112,9 @@ domain_of:
 - owl_NamedIndividual
 range: Any
 any_of:
-- range: sudokn_OwnershipStatusClassifier
+- range: owl_NamedIndividual
 - range: uri
+- range: sudokn_OwnershipStatusClassifier
 
 ```
 </details>

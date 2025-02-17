@@ -3,10 +3,14 @@
 # Slot: sudokn_locatedInCity
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 19022 times.
 
 
 URI: [sudokn:locatedInCity](http://asu.edu/semantics/SUDOKN/locatedInCity)
@@ -23,7 +27,7 @@ URI: [sudokn:locatedInCity](http://asu.edu/semantics/SUDOKN/locatedInCity)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknGeospatialLocation](../classes/SudoknGeospatialLocation.md) | No type description provided |  no  |
+| [SudoknGeospatialLocation](../classes/SudoknGeospatialLocation.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sudokn:locatedInCity](http://asu.edu/semantics/SUDOKN/locatedInCity)
 
 ## Examples
 
-| Value |
-| --- |
-| sudokn:qualityproducts-Site sudokn:locatedInCity sudokn:Salisbury-City |
-
-## Comments
-
-* 19022 occurrences with subject type sudokn_GeospatialLocation and object type sudokn_City.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:locatedInCity |
-| native | sudokn-kg/:sudokn_locatedInCity |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sudokn_GeospatialLocation | sudokn_City | sudokn:101PIPE-site | sudokn:FONTANA-City | 19022 |
 
 
 
@@ -85,17 +56,21 @@ URI: [sudokn:locatedInCity](http://asu.edu/semantics/SUDOKN/locatedInCity)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_locatedInCity
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 19022 occurrences with subject type sudokn_GeospatialLocation and object type sudokn_City.
+annotations:
+  count:
+    tag: count
+    value: 19022
+description: No slot (predicate) description specified
 examples:
-- value: sudokn:qualityproducts-Site sudokn:locatedInCity sudokn:Salisbury-City
+- object:
+    example_object: sudokn:FONTANA-City
+    example_object_type: sudokn_City
+    example_predicate: sudokn:locatedInCity
+    example_subject: sudokn:101PIPE-site
+    example_subject_type: sudokn_GeospatialLocation
 from_schema: sudokn-kg
 rank: 1000
 slot_uri: sudokn:locatedInCity

@@ -1,12 +1,16 @@
 
 
-# Slot: has NAICS classifier (sudokn_hasNAICSClassifier)
+# Slot: No slot (predicate) name specified (sudokn_hasNAICSClassifier)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 1 times.
 
 
 URI: [sudokn:hasNAICSClassifier](http://asu.edu/semantics/SUDOKN/hasNAICSClassifier)
@@ -23,7 +27,8 @@ URI: [sudokn:hasNAICSClassifier](http://asu.edu/semantics/SUDOKN/hasNAICSClassif
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No type description provided |  no  |
+| [IoManufacturer](../classes/IoManufacturer.md) | No class (type) description specified |  yes  |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No class (type) description specified |  yes  |
 
 
 
@@ -33,7 +38,15 @@ URI: [sudokn:hasNAICSClassifier](http://asu.edu/semantics/SUDOKN/hasNAICSClassif
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[SudoknNAICSClassifier](../classes/SudoknNAICSClassifier.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[OwlNamedIndividual](../classes/OwlNamedIndividual.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[SudoknNAICSClassifier](../classes/SudoknNAICSClassifier.md)
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [IoManufacturer](../classes/IoManufacturer.md) | [sudokn_hasNAICSClassifier](../slots/sudokn_hasNAICSClassifier.md) | domain | [sudokn_hasNAICSClassifier](../slots/sudokn_hasNAICSClassifier.md) |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | [sudokn_hasNAICSClassifier](../slots/sudokn_hasNAICSClassifier.md) | domain | [sudokn_hasNAICSClassifier](../slots/sudokn_hasNAICSClassifier.md) |
+
 
 
 
@@ -42,42 +55,12 @@ URI: [sudokn:hasNAICSClassifier](http://asu.edu/semantics/SUDOKN/hasNAICSClassif
 
 ## Examples
 
-| Value |
-| --- |
-| sudokn:/Manufacturer_1 sudokn:hasNAICSClassifier sudokn:/NAICSClassifier_1 |
-
-## Comments
-
-* 1 occurrences with subject type owl_NamedIndividual and object type sudokn_NAICSClassifier.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:hasNAICSClassifier |
-| native | sudokn-kg/:sudokn_hasNAICSClassifier |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| owl_NamedIndividual | owl_NamedIndividual | sudokn:/Manufacturer_1 | sudokn:/NAICSClassifier_1 | 1 |
+| owl_NamedIndividual | sudokn_NAICSClassifier | sudokn:/Manufacturer_1 | sudokn:/NAICSClassifier_1 | 1 |
+| io_Manufacturer | owl_NamedIndividual | sudokn:/Manufacturer_1 | sudokn:/NAICSClassifier_1 | 1 |
+| io_Manufacturer | sudokn_NAICSClassifier | sudokn:/Manufacturer_1 | sudokn:/NAICSClassifier_1 | 1 |
 
 
 
@@ -85,29 +68,53 @@ URI: [sudokn:hasNAICSClassifier](http://asu.edu/semantics/SUDOKN/hasNAICSClassif
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_hasNAICSClassifier
-description: No slot description provided
-title: has NAICS classifier
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1 occurrences with subject type owl_NamedIndividual and object type sudokn_NAICSClassifier.
+annotations:
+  count:
+    tag: count
+    value: 1
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: sudokn:/Manufacturer_1 sudokn:hasNAICSClassifier sudokn:/NAICSClassifier_1
+- object:
+    example_object: sudokn:/NAICSClassifier_1
+    example_object_type: owl_NamedIndividual
+    example_predicate: sudokn:hasNAICSClassifier
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: owl_NamedIndividual
+- object:
+    example_object: sudokn:/NAICSClassifier_1
+    example_object_type: sudokn_NAICSClassifier
+    example_predicate: sudokn:hasNAICSClassifier
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: owl_NamedIndividual
+- object:
+    example_object: sudokn:/NAICSClassifier_1
+    example_object_type: owl_NamedIndividual
+    example_predicate: sudokn:hasNAICSClassifier
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: io_Manufacturer
+- object:
+    example_object: sudokn:/NAICSClassifier_1
+    example_object_type: sudokn_NAICSClassifier
+    example_predicate: sudokn:hasNAICSClassifier
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: io_Manufacturer
 from_schema: sudokn-kg
 rank: 1000
-domain: io_Organization
+domain: sudokn_hasNAICSClassifier
 slot_uri: sudokn:hasNAICSClassifier
 alias: sudokn_hasNAICSClassifier
 domain_of:
+- io_Manufacturer
 - owl_NamedIndividual
 range: Any
 any_of:
-- range: sudokn_NAICSClassifier
+- range: owl_NamedIndividual
 - range: uri
+- range: sudokn_NAICSClassifier
 
 ```
 </details>

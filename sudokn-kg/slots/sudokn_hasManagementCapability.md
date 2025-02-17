@@ -1,12 +1,16 @@
 
 
-# Slot: has management capability (sudokn_hasManagementCapability)
+# Slot: No slot (predicate) name specified (sudokn_hasManagementCapability)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 1 times.
 
 
 URI: [sudokn:hasManagementCapability](http://asu.edu/semantics/SUDOKN/hasManagementCapability)
@@ -23,7 +27,8 @@ URI: [sudokn:hasManagementCapability](http://asu.edu/semantics/SUDOKN/hasManagem
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No type description provided |  no  |
+| [IoManufacturer](../classes/IoManufacturer.md) | No class (type) description specified |  yes  |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No class (type) description specified |  yes  |
 
 
 
@@ -33,7 +38,15 @@ URI: [sudokn:hasManagementCapability](http://asu.edu/semantics/SUDOKN/hasManagem
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[SudoknQualityManagementCapability](../classes/SudoknQualityManagementCapability.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[OwlNamedIndividual](../classes/OwlNamedIndividual.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[SudoknQualityManagementCapability](../classes/SudoknQualityManagementCapability.md)
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [IoManufacturer](../classes/IoManufacturer.md) | [sudokn_hasManagementCapability](../slots/sudokn_hasManagementCapability.md) | domain | [sudokn_hasManagementCapability](../slots/sudokn_hasManagementCapability.md) |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | [sudokn_hasManagementCapability](../slots/sudokn_hasManagementCapability.md) | domain | [sudokn_hasManagementCapability](../slots/sudokn_hasManagementCapability.md) |
+
 
 
 
@@ -42,42 +55,12 @@ URI: [sudokn:hasManagementCapability](http://asu.edu/semantics/SUDOKN/hasManagem
 
 ## Examples
 
-| Value |
-| --- |
-| sudokn:/Manufacturer_1 sudokn:hasManagementCapability sudokn:/QualityManagementCapabiliy_1 |
-
-## Comments
-
-* 1 occurrences with subject type owl_NamedIndividual and object type sudokn_QualityManagementCapability.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:hasManagementCapability |
-| native | sudokn-kg/:sudokn_hasManagementCapability |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| owl_NamedIndividual | owl_NamedIndividual | sudokn:/Manufacturer_1 | sudokn:/QualityManagementCapabiliy_1 | 1 |
+| owl_NamedIndividual | sudokn_QualityManagementCapability | sudokn:/Manufacturer_1 | sudokn:/QualityManagementCapabiliy_1 | 1 |
+| io_Manufacturer | owl_NamedIndividual | sudokn:/Manufacturer_1 | sudokn:/QualityManagementCapabiliy_1 | 1 |
+| io_Manufacturer | sudokn_QualityManagementCapability | sudokn:/Manufacturer_1 | sudokn:/QualityManagementCapabiliy_1 | 1 |
 
 
 
@@ -85,29 +68,53 @@ URI: [sudokn:hasManagementCapability](http://asu.edu/semantics/SUDOKN/hasManagem
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_hasManagementCapability
-description: No slot description provided
-title: has management capability
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1 occurrences with subject type owl_NamedIndividual and object type sudokn_QualityManagementCapability.
+annotations:
+  count:
+    tag: count
+    value: 1
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: sudokn:/Manufacturer_1 sudokn:hasManagementCapability sudokn:/QualityManagementCapabiliy_1
+- object:
+    example_object: sudokn:/QualityManagementCapabiliy_1
+    example_object_type: owl_NamedIndividual
+    example_predicate: sudokn:hasManagementCapability
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: owl_NamedIndividual
+- object:
+    example_object: sudokn:/QualityManagementCapabiliy_1
+    example_object_type: sudokn_QualityManagementCapability
+    example_predicate: sudokn:hasManagementCapability
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: owl_NamedIndividual
+- object:
+    example_object: sudokn:/QualityManagementCapabiliy_1
+    example_object_type: owl_NamedIndividual
+    example_predicate: sudokn:hasManagementCapability
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: io_Manufacturer
+- object:
+    example_object: sudokn:/QualityManagementCapabiliy_1
+    example_object_type: sudokn_QualityManagementCapability
+    example_predicate: sudokn:hasManagementCapability
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: io_Manufacturer
 from_schema: sudokn-kg
 rank: 1000
-domain: io_Organization
+domain: sudokn_hasManagementCapability
 slot_uri: sudokn:hasManagementCapability
 alias: sudokn_hasManagementCapability
 domain_of:
+- io_Manufacturer
 - owl_NamedIndividual
 range: Any
 any_of:
-- range: sudokn_QualityManagementCapability
+- range: owl_NamedIndividual
 - range: uri
+- range: sudokn_QualityManagementCapability
 
 ```
 </details>

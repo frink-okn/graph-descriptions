@@ -1,12 +1,16 @@
 
 
-# Slot: attests to (sudokn_attestsTo)
+# Slot: No slot (predicate) name specified (sudokn_attestsTo)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 2 times.
 
 
 URI: [sudokn:attestsTo](http://asu.edu/semantics/SUDOKN/attestsTo)
@@ -23,8 +27,9 @@ URI: [sudokn:attestsTo](http://asu.edu/semantics/SUDOKN/attestsTo)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknAS9100Certificate](../classes/SudoknAS9100Certificate.md) | No type description provided |  no  |
-| [SudoknISO9000Certificate](../classes/SudoknISO9000Certificate.md) | No type description provided |  no  |
+| [SudoknAS9100Certificate](../classes/SudoknAS9100Certificate.md) | No class (type) description specified |  yes  |
+| [SudoknISO9000Certificate](../classes/SudoknISO9000Certificate.md) | No class (type) description specified |  yes  |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No class (type) description specified |  yes  |
 
 
 
@@ -34,7 +39,16 @@ URI: [sudokn:attestsTo](http://asu.edu/semantics/SUDOKN/attestsTo)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[SudoknQualityManagementCapability](../classes/SudoknQualityManagementCapability.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[OwlNamedIndividual](../classes/OwlNamedIndividual.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[SudoknQualityManagementCapability](../classes/SudoknQualityManagementCapability.md)
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | [sudokn_attestsTo](../slots/sudokn_attestsTo.md) | domain | [sudokn_attestsTo](../slots/sudokn_attestsTo.md) |
+| [SudoknAS9100Certificate](../classes/SudoknAS9100Certificate.md) | [sudokn_attestsTo](../slots/sudokn_attestsTo.md) | domain | [sudokn_attestsTo](../slots/sudokn_attestsTo.md) |
+| [SudoknISO9000Certificate](../classes/SudoknISO9000Certificate.md) | [sudokn_attestsTo](../slots/sudokn_attestsTo.md) | domain | [sudokn_attestsTo](../slots/sudokn_attestsTo.md) |
+
 
 
 
@@ -43,44 +57,14 @@ URI: [sudokn:attestsTo](http://asu.edu/semantics/SUDOKN/attestsTo)
 
 ## Examples
 
-| Value |
-| --- |
-| sudokn:/ISO-9000Certificate_1 sudokn:attestsTo sudokn:/QualityManagementCapabiliy_1 |
-| sudokn:/AS-9100Certificate_1 sudokn:attestsTo sudokn:/QualityManagementCapabiliy_1 |
-
-## Comments
-
-* 1 occurrences with subject type sudokn_ISO9000Certificate and object type sudokn_QualityManagementCapability.
-* 1 occurrences with subject type sudokn_AS9100Certificate and object type sudokn_QualityManagementCapability.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:attestsTo |
-| native | sudokn-kg/:sudokn_attestsTo |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| owl_NamedIndividual | owl_NamedIndividual | sudokn:/ISO-9000Certificate_1 | sudokn:/QualityManagementCapabiliy_1 | 2 |
+| owl_NamedIndividual | sudokn_QualityManagementCapability | sudokn:/ISO-9000Certificate_1 | sudokn:/QualityManagementCapabiliy_1 | 2 |
+| sudokn_ISO9000Certificate | owl_NamedIndividual | sudokn:/ISO-9000Certificate_1 | sudokn:/QualityManagementCapabiliy_1 | 1 |
+| sudokn_ISO9000Certificate | sudokn_QualityManagementCapability | sudokn:/ISO-9000Certificate_1 | sudokn:/QualityManagementCapabiliy_1 | 1 |
+| sudokn_AS9100Certificate | owl_NamedIndividual | sudokn:/AS-9100Certificate_1 | sudokn:/QualityManagementCapabiliy_1 | 1 |
+| sudokn_AS9100Certificate | sudokn_QualityManagementCapability | sudokn:/AS-9100Certificate_1 | sudokn:/QualityManagementCapabiliy_1 | 1 |
 
 
 
@@ -88,32 +72,66 @@ URI: [sudokn:attestsTo](http://asu.edu/semantics/SUDOKN/attestsTo)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_attestsTo
-description: No slot description provided
-title: attests to
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1 occurrences with subject type sudokn_ISO9000Certificate and object type sudokn_QualityManagementCapability.
-- 1 occurrences with subject type sudokn_AS9100Certificate and object type sudokn_QualityManagementCapability.
+annotations:
+  count:
+    tag: count
+    value: 2
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: sudokn:/ISO-9000Certificate_1 sudokn:attestsTo sudokn:/QualityManagementCapabiliy_1
-- value: sudokn:/AS-9100Certificate_1 sudokn:attestsTo sudokn:/QualityManagementCapabiliy_1
+- object:
+    example_object: sudokn:/QualityManagementCapabiliy_1
+    example_object_type: owl_NamedIndividual
+    example_predicate: sudokn:attestsTo
+    example_subject: sudokn:/ISO-9000Certificate_1
+    example_subject_type: owl_NamedIndividual
+- object:
+    example_object: sudokn:/QualityManagementCapabiliy_1
+    example_object_type: sudokn_QualityManagementCapability
+    example_predicate: sudokn:attestsTo
+    example_subject: sudokn:/ISO-9000Certificate_1
+    example_subject_type: owl_NamedIndividual
+- object:
+    example_object: sudokn:/QualityManagementCapabiliy_1
+    example_object_type: owl_NamedIndividual
+    example_predicate: sudokn:attestsTo
+    example_subject: sudokn:/ISO-9000Certificate_1
+    example_subject_type: sudokn_ISO9000Certificate
+- object:
+    example_object: sudokn:/QualityManagementCapabiliy_1
+    example_object_type: sudokn_QualityManagementCapability
+    example_predicate: sudokn:attestsTo
+    example_subject: sudokn:/ISO-9000Certificate_1
+    example_subject_type: sudokn_ISO9000Certificate
+- object:
+    example_object: sudokn:/QualityManagementCapabiliy_1
+    example_object_type: owl_NamedIndividual
+    example_predicate: sudokn:attestsTo
+    example_subject: sudokn:/AS-9100Certificate_1
+    example_subject_type: sudokn_AS9100Certificate
+- object:
+    example_object: sudokn:/QualityManagementCapabiliy_1
+    example_object_type: sudokn_QualityManagementCapability
+    example_predicate: sudokn:attestsTo
+    example_subject: sudokn:/AS-9100Certificate_1
+    example_subject_type: sudokn_AS9100Certificate
 from_schema: sudokn-kg
 rank: 1000
-domain: sudokn_Certificate
+domain: sudokn_attestsTo
 slot_uri: sudokn:attestsTo
 alias: sudokn_attestsTo
 domain_of:
+- owl_NamedIndividual
 - sudokn_AS9100Certificate
 - sudokn_ISO9000Certificate
 range: Any
 any_of:
-- range: sudokn_QualityManagementCapability
+- range: owl_NamedIndividual
 - range: uri
+- range: sudokn_QualityManagementCapability
 
 ```
 </details>

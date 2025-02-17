@@ -1,12 +1,16 @@
 
 
-# Slot: has special business status classifier (sudokn_hasSpecialBusinessStatusClassifier)
+# Slot: No slot (predicate) name specified (sudokn_hasSpecialBusinessStatusClassifier)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 0 times.
 
 
 URI: [sudokn:hasSpecialBusinessStatusClassifier](http://asu.edu/semantics/SUDOKN/hasSpecialBusinessStatusClassifier)
@@ -30,52 +34,29 @@ URI: [sudokn:hasSpecialBusinessStatusClassifier](http://asu.edu/semantics/SUDOKN
 
 
 
-## TODOs
+## Comments
 
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:hasSpecialBusinessStatusClassifier |
-| native | sudokn-kg/:sudokn_hasSpecialBusinessStatusClassifier |
-
+* No occurrences of this slot in the graph.
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_hasSpecialBusinessStatusClassifier
-description: No slot description provided
-title: has special business status classifier
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
+comments:
+- No occurrences of this slot in the graph.
 from_schema: sudokn-kg
 rank: 1000
-domain: io_Organization
+domain: sudokn_hasSpecialBusinessStatusClassifier
 slot_uri: sudokn:hasSpecialBusinessStatusClassifier
 alias: sudokn_hasSpecialBusinessStatusClassifier
 range: uri

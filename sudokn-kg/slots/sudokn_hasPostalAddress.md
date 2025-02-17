@@ -1,12 +1,16 @@
 
 
-# Slot: has postal address (sudokn_hasPostalAddress)
+# Slot: No slot (predicate) name specified (sudokn_hasPostalAddress)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 20729 times.
 
 
 URI: [sudokn:hasPostalAddress](http://asu.edu/semantics/SUDOKN/hasPostalAddress)
@@ -23,9 +27,9 @@ URI: [sudokn:hasPostalAddress](http://asu.edu/semantics/SUDOKN/hasPostalAddress)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No type description provided |  no  |
-| [SudoknGeospatialLocation](../classes/SudoknGeospatialLocation.md) | No type description provided |  no  |
-| [IoManufacturer](../classes/IoManufacturer.md) | No type description provided |  no  |
+| [SudoknGeospatialLocation](../classes/SudoknGeospatialLocation.md) | No class (type) description specified |  yes  |
+| [IoManufacturer](../classes/IoManufacturer.md) | No class (type) description specified |  yes  |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No class (type) description specified |  yes  |
 
 
 
@@ -35,7 +39,7 @@ URI: [sudokn:hasPostalAddress](http://asu.edu/semantics/SUDOKN/hasPostalAddress)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[SudoknPostalAddress](../classes/SudoknPostalAddress.md)&nbsp;or&nbsp;<br />[SudoknUnitedStatesPostalCode](../classes/SudoknUnitedStatesPostalCode.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[OwlNamedIndividual](../classes/OwlNamedIndividual.md)&nbsp;or&nbsp;<br />[SudoknPostalAddress](../classes/SudoknPostalAddress.md)&nbsp;or&nbsp;<br />[SudoknUnitedStatesPostalCode](../classes/SudoknUnitedStatesPostalCode.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
 
 
 
@@ -44,48 +48,15 @@ URI: [sudokn:hasPostalAddress](http://asu.edu/semantics/SUDOKN/hasPostalAddress)
 
 ## Examples
 
-| Value |
-| --- |
-| sudokn:ZURN-site-SANFORD-27330 sudokn:hasPostalAddress sudokn:ZURN-site-SANFORD-27330-postal-address |
-| sudokn:4FELDCO-site-DESPLAINES-60018 sudokn:hasPostalAddress sudokn:4FELDCO-site-DESPLAINES-60018-postal-address |
-| sudokn:/Manufacturer_1 sudokn:hasPostalAddress sudokn:/UnitedStatesPostalCode_1 |
-| sudokn:qualityproducts sudokn:hasPostalAddress sudokn:qualityproducts-PostalAddress |
-
-## Comments
-
-* 6948 occurrences with subject type sudokn_GeospatialLocation and object type sudokn_PostalAddress.
-* 2414 occurrences with subject type sudokn_GeospatialLocation and object type uri.
-* 1 occurrences with subject type owl_NamedIndividual and object type sudokn_UnitedStatesPostalCode.
-* 11366 occurrences with subject type io_Manufacturer and object type sudokn_PostalAddress.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:hasPostalAddress |
-| native | sudokn-kg/:sudokn_hasPostalAddress |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sudokn_GeospatialLocation | sudokn_PostalAddress | sudokn:101PIPE-site-FONTANA-92335 | sudokn:101PIPE-site-FONTANA-92335-postal-address | 6948 |
+| sudokn_GeospatialLocation | uri | sudokn:4FELDCO-site-DESPLAINES-60018 | sudokn:4FELDCO-site-DESPLAINES-60018-postal-address | 2414 |
+| owl_NamedIndividual | owl_NamedIndividual | sudokn:/Manufacturer_1 | sudokn:/UnitedStatesPostalCode_1 | 1 |
+| owl_NamedIndividual | sudokn_UnitedStatesPostalCode | sudokn:/Manufacturer_1 | sudokn:/UnitedStatesPostalCode_1 | 1 |
+| io_Manufacturer | owl_NamedIndividual | sudokn:/Manufacturer_1 | sudokn:/UnitedStatesPostalCode_1 | 1 |
+| io_Manufacturer | sudokn_UnitedStatesPostalCode | sudokn:/Manufacturer_1 | sudokn:/UnitedStatesPostalCode_1 | 1 |
+| io_Manufacturer | sudokn_PostalAddress | sudokn:101PIPE-company-inst | sudokn:101PIPE-PostalAddress | 11366 |
 
 
 
@@ -93,24 +64,58 @@ URI: [sudokn:hasPostalAddress](http://asu.edu/semantics/SUDOKN/hasPostalAddress)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_hasPostalAddress
-description: No slot description provided
-title: has postal address
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 6948 occurrences with subject type sudokn_GeospatialLocation and object type sudokn_PostalAddress.
-- 2414 occurrences with subject type sudokn_GeospatialLocation and object type uri.
-- 1 occurrences with subject type owl_NamedIndividual and object type sudokn_UnitedStatesPostalCode.
-- 11366 occurrences with subject type io_Manufacturer and object type sudokn_PostalAddress.
+annotations:
+  count:
+    tag: count
+    value: 20729
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: sudokn:ZURN-site-SANFORD-27330 sudokn:hasPostalAddress sudokn:ZURN-site-SANFORD-27330-postal-address
-- value: sudokn:4FELDCO-site-DESPLAINES-60018 sudokn:hasPostalAddress sudokn:4FELDCO-site-DESPLAINES-60018-postal-address
-- value: sudokn:/Manufacturer_1 sudokn:hasPostalAddress sudokn:/UnitedStatesPostalCode_1
-- value: sudokn:qualityproducts sudokn:hasPostalAddress sudokn:qualityproducts-PostalAddress
+- object:
+    example_object: sudokn:101PIPE-site-FONTANA-92335-postal-address
+    example_object_type: sudokn_PostalAddress
+    example_predicate: sudokn:hasPostalAddress
+    example_subject: sudokn:101PIPE-site-FONTANA-92335
+    example_subject_type: sudokn_GeospatialLocation
+- object:
+    example_object: sudokn:4FELDCO-site-DESPLAINES-60018-postal-address
+    example_object_type: uri
+    example_predicate: sudokn:hasPostalAddress
+    example_subject: sudokn:4FELDCO-site-DESPLAINES-60018
+    example_subject_type: sudokn_GeospatialLocation
+- object:
+    example_object: sudokn:/UnitedStatesPostalCode_1
+    example_object_type: owl_NamedIndividual
+    example_predicate: sudokn:hasPostalAddress
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: owl_NamedIndividual
+- object:
+    example_object: sudokn:/UnitedStatesPostalCode_1
+    example_object_type: sudokn_UnitedStatesPostalCode
+    example_predicate: sudokn:hasPostalAddress
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: owl_NamedIndividual
+- object:
+    example_object: sudokn:/UnitedStatesPostalCode_1
+    example_object_type: owl_NamedIndividual
+    example_predicate: sudokn:hasPostalAddress
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: io_Manufacturer
+- object:
+    example_object: sudokn:/UnitedStatesPostalCode_1
+    example_object_type: sudokn_UnitedStatesPostalCode
+    example_predicate: sudokn:hasPostalAddress
+    example_subject: sudokn:/Manufacturer_1
+    example_subject_type: io_Manufacturer
+- object:
+    example_object: sudokn:101PIPE-PostalAddress
+    example_object_type: sudokn_PostalAddress
+    example_predicate: sudokn:hasPostalAddress
+    example_subject: sudokn:101PIPE-company-inst
+    example_subject_type: io_Manufacturer
 from_schema: sudokn-kg
 rank: 1000
 slot_uri: sudokn:hasPostalAddress
@@ -119,9 +124,9 @@ domain_of:
 - io_Manufacturer
 - owl_NamedIndividual
 - sudokn_GeospatialLocation
-subproperty_of: io_denotedBy
 range: Any
 any_of:
+- range: owl_NamedIndividual
 - range: sudokn_PostalAddress
 - range: sudokn_UnitedStatesPostalCode
 - range: uri

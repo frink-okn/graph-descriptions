@@ -1,12 +1,16 @@
 
 
-# Class: ISTS certificate (sudokn_ISTSCertificate)
+# Class: No class (type) name specified (sudokn_ISTSCertificate)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
+
+
+
+This class occurs 0 times.
 
 
 URI: [sudokn:ISTSCertificate](http://asu.edu/semantics/SUDOKN/ISTSCertificate)
@@ -46,8 +50,8 @@ URI: [sudokn:ISTSCertificate](http://asu.edu/semantics/SUDOKN/ISTSCertificate)
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
 
 
 
@@ -55,36 +59,6 @@ URI: [sudokn:ISTSCertificate](http://asu.edu/semantics/SUDOKN/ISTSCertificate)
 
 
 
-
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:ISTSCertificate |
-| native | sudokn-kg/:SudoknISTSCertificate |
 
 
 
@@ -99,16 +73,16 @@ URI: [sudokn:ISTSCertificate](http://asu.edu/semantics/SUDOKN/ISTSCertificate)
 ### Direct
 
 <details>
+
 ```yaml
 name: sudokn_ISTSCertificate
-description: No type description provided
-title: ISTS certificate
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 0 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: sudokn_QualityCertificate
@@ -120,16 +94,16 @@ class_uri: sudokn:ISTSCertificate
 ### Induced
 
 <details>
+
 ```yaml
 name: sudokn_ISTSCertificate
-description: No type description provided
-title: ISTS certificate
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 0 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: sudokn_QualityCertificate

@@ -3,10 +3,14 @@
 # Slot: sudokn_hasIntegerValue
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 18729 times.
 
 
 URI: [sudokn:hasIntegerValue](http://asu.edu/semantics/SUDOKN/hasIntegerValue)
@@ -23,7 +27,7 @@ URI: [sudokn:hasIntegerValue](http://asu.edu/semantics/SUDOKN/hasIntegerValue)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknUSPostalCode](../classes/SudoknUSPostalCode.md) | No type description provided |  no  |
+| [SudoknUSPostalCode](../classes/SudoknUSPostalCode.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sudokn:hasIntegerValue](http://asu.edu/semantics/SUDOKN/hasIntegerValue)
 
 ## Examples
 
-| Value |
-| --- |
-| sudokn:101PIPE-site-FONTANA-92335-site-zip sudokn:hasIntegerValue 92335 |
-
-## Comments
-
-* 18729 occurrences with subject type sudokn_USPostalCode and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:hasIntegerValue |
-| native | sudokn-kg/:sudokn_hasIntegerValue |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sudokn_USPostalCode | string | sudokn:101PIPE-site-FONTANA-92335-site-zip | 92335 | 18729 |
 
 
 
@@ -85,17 +56,21 @@ URI: [sudokn:hasIntegerValue](http://asu.edu/semantics/SUDOKN/hasIntegerValue)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_hasIntegerValue
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 18729 occurrences with subject type sudokn_USPostalCode and object type string.
+annotations:
+  count:
+    tag: count
+    value: 18729
+description: No slot (predicate) description specified
 examples:
-- value: sudokn:101PIPE-site-FONTANA-92335-site-zip sudokn:hasIntegerValue 92335
+- object:
+    example_object: '92335'
+    example_object_type: string
+    example_predicate: sudokn:hasIntegerValue
+    example_subject: sudokn:101PIPE-site-FONTANA-92335-site-zip
+    example_subject_type: sudokn_USPostalCode
 from_schema: sudokn-kg
 rank: 1000
 slot_uri: sudokn:hasIntegerValue

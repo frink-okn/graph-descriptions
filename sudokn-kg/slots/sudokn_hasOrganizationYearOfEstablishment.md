@@ -1,12 +1,16 @@
 
 
-# Slot: sudokn_hasOrganizationYearOfEstablishment
+# Slot: No slot (predicate) name specified (sudokn_hasOrganizationYearOfEstablishment)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 280 times.
 
 
 URI: [sudokn:hasOrganizationYearOfEstablishment](http://asu.edu/semantics/SUDOKN/hasOrganizationYearOfEstablishment)
@@ -23,7 +27,7 @@ URI: [sudokn:hasOrganizationYearOfEstablishment](http://asu.edu/semantics/SUDOKN
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [IoManufacturer](../classes/IoManufacturer.md) | No type description provided |  no  |
+| [IoManufacturer](../classes/IoManufacturer.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sudokn:hasOrganizationYearOfEstablishment](http://asu.edu/semantics/SUDOKN
 
 ## Examples
 
-| Value |
-| --- |
-| sudokn:A-LineCorporation sudokn:hasOrganizationYearOfEstablishment 1995 |
-
-## Comments
-
-* 280 occurrences with subject type io_Manufacturer and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:hasOrganizationYearOfEstablishment |
-| native | sudokn-kg/:sudokn_hasOrganizationYearOfEstablishment |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| io_Manufacturer | string | sudokn:A-LineCorporation | 1995 | 280 |
 
 
 
@@ -85,17 +56,22 @@ URI: [sudokn:hasOrganizationYearOfEstablishment](http://asu.edu/semantics/SUDOKN
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_hasOrganizationYearOfEstablishment
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 280 occurrences with subject type io_Manufacturer and object type string.
+annotations:
+  count:
+    tag: count
+    value: 280
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: sudokn:A-LineCorporation sudokn:hasOrganizationYearOfEstablishment 1995
+- object:
+    example_object: '1995'
+    example_object_type: string
+    example_predicate: sudokn:hasOrganizationYearOfEstablishment
+    example_subject: sudokn:A-LineCorporation
+    example_subject_type: io_Manufacturer
 from_schema: sudokn-kg
 rank: 1000
 slot_uri: sudokn:hasOrganizationYearOfEstablishment

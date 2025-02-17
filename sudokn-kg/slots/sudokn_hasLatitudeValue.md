@@ -1,12 +1,16 @@
 
 
-# Slot: has latitude value (sudokn_hasLatitudeValue)
+# Slot: No slot (predicate) name specified (sudokn_hasLatitudeValue)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 19082 times.
 
 
 URI: [sudokn:hasLatitudeValue](http://asu.edu/semantics/SUDOKN/hasLatitudeValue)
@@ -23,7 +27,7 @@ URI: [sudokn:hasLatitudeValue](http://asu.edu/semantics/SUDOKN/hasLatitudeValue)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknTwoDimensionalCartesianSpatialCoordinateDatum](../classes/SudoknTwoDimensionalCartesianSpatialCoordinateDatum.md) | No type description provided |  no  |
+| [SudoknTwoDimensionalCartesianSpatialCoordinateDatum](../classes/SudoknTwoDimensionalCartesianSpatialCoordinateDatum.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sudokn:hasLatitudeValue](http://asu.edu/semantics/SUDOKN/hasLatitudeValue)
 
 ## Examples
 
-| Value |
-| --- |
-| sudokn:101PIPE-site-FONTANA-92335-coordinates sudokn:hasLatitudeValue 34.0677902 |
-
-## Comments
-
-* 19082 occurrences with subject type sudokn_TwoDimensionalCartesianSpatialCoordinateDatum and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:hasLatitudeValue |
-| native | sudokn-kg/:sudokn_hasLatitudeValue |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sudokn_TwoDimensionalCartesianSpatialCoordinateDatum | string | sudokn:101PIPE-site-FONTANA-92335-coordinates | 34.0677902 | 19082 |
 
 
 
@@ -85,26 +56,28 @@ URI: [sudokn:hasLatitudeValue](http://asu.edu/semantics/SUDOKN/hasLatitudeValue)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_hasLatitudeValue
-description: No slot description provided
-title: has latitude value
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 19082 occurrences with subject type sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
-  and object type string.
+annotations:
+  count:
+    tag: count
+    value: 19082
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: sudokn:101PIPE-site-FONTANA-92335-coordinates sudokn:hasLatitudeValue 34.0677902
+- object:
+    example_object: '34.0677902'
+    example_object_type: string
+    example_predicate: sudokn:hasLatitudeValue
+    example_subject: sudokn:101PIPE-site-FONTANA-92335-coordinates
+    example_subject_type: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
 from_schema: sudokn-kg
 rank: 1000
 slot_uri: sudokn:hasLatitudeValue
 alias: sudokn_hasLatitudeValue
 domain_of:
 - sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
-subproperty_of: owl_topDataProperty
 range: Any
 any_of:
 - range: uri

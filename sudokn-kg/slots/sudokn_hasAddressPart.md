@@ -1,12 +1,16 @@
 
 
-# Slot: has address part (sudokn_hasAddressPart)
+# Slot: No slot (predicate) name specified (sudokn_hasAddressPart)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 0 times.
 
 
 URI: [sudokn:hasAddressPart](http://asu.edu/semantics/SUDOKN/hasAddressPart)
@@ -30,54 +34,30 @@ URI: [sudokn:hasAddressPart](http://asu.edu/semantics/SUDOKN/hasAddressPart)
 
 
 
-## TODOs
+## Comments
 
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:hasAddressPart |
-| native | sudokn-kg/:sudokn_hasAddressPart |
-
+* No occurrences of this slot in the graph.
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_hasAddressPart
-description: No slot description provided
-title: has address part
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
+comments:
+- No occurrences of this slot in the graph.
 from_schema: sudokn-kg
 rank: 1000
 slot_uri: sudokn:hasAddressPart
 alias: sudokn_hasAddressPart
-subproperty_of: obo_BFO_0000178
 range: Any
 
 ```

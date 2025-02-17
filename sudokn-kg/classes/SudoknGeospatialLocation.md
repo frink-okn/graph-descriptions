@@ -1,12 +1,16 @@
 
 
-# Class: TODO -- what's a good name for this class (type)? (sudokn_GeospatialLocation)
+# Class: No class (type) name specified (sudokn_GeospatialLocation)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
+
+
+
+This class occurs 20728 times.
 
 
 URI: [sudokn:GeospatialLocation](http://asu.edu/semantics/SUDOKN/GeospatialLocation)
@@ -67,12 +71,12 @@ URI: [sudokn:GeospatialLocation](http://asu.edu/semantics/SUDOKN/GeospatialLocat
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [sudokn_hasZIPcode](../slots/sudokn_hasZIPcode.md) | 0..1 <br/> [SudoknUSPostalCode](../classes/SudoknUSPostalCode.md) | No slot description provided | direct |
-| [sudokn_hasPostalAddress](../slots/sudokn_hasPostalAddress.md) | 0..1 <br/> [SudoknPostalAddress](../classes/SudoknPostalAddress.md)&nbsp;or&nbsp;<br />[SudoknUnitedStatesPostalCode](../classes/SudoknUnitedStatesPostalCode.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot description provided | direct |
-| [sudokn_hasSpatialCoordinates](../slots/sudokn_hasSpatialCoordinates.md) | 0..1 <br/> [SudoknTwoDimensionalCartesianSpatialCoordinateDatum](../classes/SudoknTwoDimensionalCartesianSpatialCoordinateDatum.md) | No slot description provided | direct |
-| [sudokn_locatedInCity](../slots/sudokn_locatedInCity.md) | 0..1 <br/> [SudoknCity](../classes/SudoknCity.md) | No slot description provided | direct |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
+| [sudokn_hasZIPcode](../slots/sudokn_hasZIPcode.md) | 0..1 <br/> [SudoknUSPostalCode](../classes/SudoknUSPostalCode.md) | No slot (predicate) description specified <br/>  | direct | 20424 |
+| [sudokn_hasSpatialCoordinates](../slots/sudokn_hasSpatialCoordinates.md) | 0..1 <br/> [SudoknTwoDimensionalCartesianSpatialCoordinateDatum](../classes/SudoknTwoDimensionalCartesianSpatialCoordinateDatum.md) | No slot (predicate) description specified <br/>  | direct | 20728 |
+| [sudokn_locatedInCity](../slots/sudokn_locatedInCity.md) | 0..1 <br/> [SudoknCity](../classes/SudoknCity.md) | No slot (predicate) description specified <br/>  | direct | 19022 |
+| [sudokn_hasPostalAddress](../slots/sudokn_hasPostalAddress.md) | 0..1 <br/> [OwlNamedIndividual](../classes/OwlNamedIndividual.md)&nbsp;or&nbsp;<br />[SudoknPostalAddress](../classes/SudoknPostalAddress.md)&nbsp;or&nbsp;<br />[SudoknUnitedStatesPostalCode](../classes/SudoknUnitedStatesPostalCode.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 9362 |
 
 
 
@@ -89,36 +93,6 @@ URI: [sudokn:GeospatialLocation](http://asu.edu/semantics/SUDOKN/GeospatialLocat
 
 
 
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:GeospatialLocation |
-| native | sudokn-kg/:SudoknGeospatialLocation |
-
-
 
 
 
@@ -131,23 +105,51 @@ URI: [sudokn:GeospatialLocation](http://asu.edu/semantics/SUDOKN/GeospatialLocat
 ### Direct
 
 <details>
+
 ```yaml
 name: sudokn_GeospatialLocation
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 20728 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 20728
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 slots:
 - sudokn_hasZIPcode
-- sudokn_hasPostalAddress
 - sudokn_hasSpatialCoordinates
 - sudokn_locatedInCity
+- sudokn_hasPostalAddress
+slot_usage:
+  sudokn_hasPostalAddress:
+    name: sudokn_hasPostalAddress
+    annotations:
+      sudokn_PostalAddress:
+        tag: sudokn_PostalAddress
+        value: 6948
+      uri:
+        tag: uri
+        value: 2414
+  sudokn_hasSpatialCoordinates:
+    name: sudokn_hasSpatialCoordinates
+    annotations:
+      sudokn_TwoDimensionalCartesianSpatialCoordinateDatum:
+        tag: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
+        value: 20728
+  sudokn_hasZIPcode:
+    name: sudokn_hasZIPcode
+    annotations:
+      sudokn_USPostalCode:
+        tag: sudokn_USPostalCode
+        value: 20424
+  sudokn_locatedInCity:
+    name: sudokn_locatedInCity
+    annotations:
+      sudokn_City:
+        tag: sudokn_City
+        value: 19022
 class_uri: sudokn:GeospatialLocation
 
 ```
@@ -156,31 +158,61 @@ class_uri: sudokn:GeospatialLocation
 ### Induced
 
 <details>
+
 ```yaml
 name: sudokn_GeospatialLocation
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 20728 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 20728
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
+slot_usage:
+  sudokn_hasPostalAddress:
+    name: sudokn_hasPostalAddress
+    annotations:
+      sudokn_PostalAddress:
+        tag: sudokn_PostalAddress
+        value: 6948
+      uri:
+        tag: uri
+        value: 2414
+  sudokn_hasSpatialCoordinates:
+    name: sudokn_hasSpatialCoordinates
+    annotations:
+      sudokn_TwoDimensionalCartesianSpatialCoordinateDatum:
+        tag: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
+        value: 20728
+  sudokn_hasZIPcode:
+    name: sudokn_hasZIPcode
+    annotations:
+      sudokn_USPostalCode:
+        tag: sudokn_USPostalCode
+        value: 20424
+  sudokn_locatedInCity:
+    name: sudokn_locatedInCity
+    annotations:
+      sudokn_City:
+        tag: sudokn_City
+        value: 19022
 attributes:
   sudokn_hasZIPcode:
     name: sudokn_hasZIPcode
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 20424 occurrences with subject type sudokn_GeospatialLocation and object type
-      sudokn_USPostalCode.
+    annotations:
+      sudokn_USPostalCode:
+        tag: sudokn_USPostalCode
+        value: 20424
+    description: No slot (predicate) description specified
     examples:
-    - value: sudokn:ZYMACHINING-site sudokn:hasZIPcode sudokn:ZYMACHINING-site-zip
+    - object:
+        example_object: sudokn:101PIPE-site-zip
+        example_object_type: sudokn_USPostalCode
+        example_predicate: sudokn:hasZIPcode
+        example_subject: sudokn:101PIPE-site
+        example_subject_type: sudokn_GeospatialLocation
     from_schema: sudokn-kg
     rank: 1000
     slot_uri: sudokn:hasZIPcode
@@ -189,26 +221,105 @@ attributes:
     domain_of:
     - sudokn_GeospatialLocation
     range: sudokn_USPostalCode
+  sudokn_hasSpatialCoordinates:
+    name: sudokn_hasSpatialCoordinates
+    annotations:
+      sudokn_TwoDimensionalCartesianSpatialCoordinateDatum:
+        tag: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
+        value: 20728
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sudokn:101PIPE-site-coordinates
+        example_object_type: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
+        example_predicate: sudokn:hasSpatialCoordinates
+        example_subject: sudokn:101PIPE-site
+        example_subject_type: sudokn_GeospatialLocation
+    from_schema: sudokn-kg
+    rank: 1000
+    slot_uri: sudokn:hasSpatialCoordinates
+    alias: sudokn_hasSpatialCoordinates
+    owner: sudokn_GeospatialLocation
+    domain_of:
+    - sudokn_GeospatialLocation
+    range: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
+  sudokn_locatedInCity:
+    name: sudokn_locatedInCity
+    annotations:
+      sudokn_City:
+        tag: sudokn_City
+        value: 19022
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: sudokn:FONTANA-City
+        example_object_type: sudokn_City
+        example_predicate: sudokn:locatedInCity
+        example_subject: sudokn:101PIPE-site
+        example_subject_type: sudokn_GeospatialLocation
+    from_schema: sudokn-kg
+    rank: 1000
+    slot_uri: sudokn:locatedInCity
+    alias: sudokn_locatedInCity
+    owner: sudokn_GeospatialLocation
+    domain_of:
+    - sudokn_GeospatialLocation
+    range: sudokn_City
   sudokn_hasPostalAddress:
     name: sudokn_hasPostalAddress
-    description: No slot description provided
-    title: has postal address
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6948 occurrences with subject type sudokn_GeospatialLocation and object type
-      sudokn_PostalAddress.
-    - 2414 occurrences with subject type sudokn_GeospatialLocation and object type
-      uri.
-    - 1 occurrences with subject type owl_NamedIndividual and object type sudokn_UnitedStatesPostalCode.
-    - 11366 occurrences with subject type io_Manufacturer and object type sudokn_PostalAddress.
+    annotations:
+      sudokn_PostalAddress:
+        tag: sudokn_PostalAddress
+        value: 6948
+      uri:
+        tag: uri
+        value: 2414
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: sudokn:ZURN-site-SANFORD-27330 sudokn:hasPostalAddress sudokn:ZURN-site-SANFORD-27330-postal-address
-    - value: sudokn:4FELDCO-site-DESPLAINES-60018 sudokn:hasPostalAddress sudokn:4FELDCO-site-DESPLAINES-60018-postal-address
-    - value: sudokn:/Manufacturer_1 sudokn:hasPostalAddress sudokn:/UnitedStatesPostalCode_1
-    - value: sudokn:qualityproducts sudokn:hasPostalAddress sudokn:qualityproducts-PostalAddress
+    - object:
+        example_object: sudokn:101PIPE-site-FONTANA-92335-postal-address
+        example_object_type: sudokn_PostalAddress
+        example_predicate: sudokn:hasPostalAddress
+        example_subject: sudokn:101PIPE-site-FONTANA-92335
+        example_subject_type: sudokn_GeospatialLocation
+    - object:
+        example_object: sudokn:4FELDCO-site-DESPLAINES-60018-postal-address
+        example_object_type: uri
+        example_predicate: sudokn:hasPostalAddress
+        example_subject: sudokn:4FELDCO-site-DESPLAINES-60018
+        example_subject_type: sudokn_GeospatialLocation
+    - object:
+        example_object: sudokn:/UnitedStatesPostalCode_1
+        example_object_type: owl_NamedIndividual
+        example_predicate: sudokn:hasPostalAddress
+        example_subject: sudokn:/Manufacturer_1
+        example_subject_type: owl_NamedIndividual
+    - object:
+        example_object: sudokn:/UnitedStatesPostalCode_1
+        example_object_type: sudokn_UnitedStatesPostalCode
+        example_predicate: sudokn:hasPostalAddress
+        example_subject: sudokn:/Manufacturer_1
+        example_subject_type: owl_NamedIndividual
+    - object:
+        example_object: sudokn:/UnitedStatesPostalCode_1
+        example_object_type: owl_NamedIndividual
+        example_predicate: sudokn:hasPostalAddress
+        example_subject: sudokn:/Manufacturer_1
+        example_subject_type: io_Manufacturer
+    - object:
+        example_object: sudokn:/UnitedStatesPostalCode_1
+        example_object_type: sudokn_UnitedStatesPostalCode
+        example_predicate: sudokn:hasPostalAddress
+        example_subject: sudokn:/Manufacturer_1
+        example_subject_type: io_Manufacturer
+    - object:
+        example_object: sudokn:101PIPE-PostalAddress
+        example_object_type: sudokn_PostalAddress
+        example_predicate: sudokn:hasPostalAddress
+        example_subject: sudokn:101PIPE-company-inst
+        example_subject_type: io_Manufacturer
     from_schema: sudokn-kg
     rank: 1000
     slot_uri: sudokn:hasPostalAddress
@@ -218,54 +329,12 @@ attributes:
     - io_Manufacturer
     - owl_NamedIndividual
     - sudokn_GeospatialLocation
-    subproperty_of: io_denotedBy
     range: Any
     any_of:
+    - range: owl_NamedIndividual
     - range: sudokn_PostalAddress
     - range: sudokn_UnitedStatesPostalCode
     - range: uri
-  sudokn_hasSpatialCoordinates:
-    name: sudokn_hasSpatialCoordinates
-    description: No slot description provided
-    title: has spatial coordinates
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 20728 occurrences with subject type sudokn_GeospatialLocation and object type
-      sudokn_TwoDimensionalCartesianSpatialCoordinateDatum.
-    examples:
-    - value: sudokn:qualityproducts-Site sudokn:hasSpatialCoordinates sudokn:qualityproducts-Coordinates
-    from_schema: sudokn-kg
-    rank: 1000
-    slot_uri: sudokn:hasSpatialCoordinates
-    alias: sudokn_hasSpatialCoordinates
-    owner: sudokn_GeospatialLocation
-    domain_of:
-    - sudokn_GeospatialLocation
-    subproperty_of: io_denotedBy
-    range: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
-  sudokn_locatedInCity:
-    name: sudokn_locatedInCity
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 19022 occurrences with subject type sudokn_GeospatialLocation and object type
-      sudokn_City.
-    examples:
-    - value: sudokn:qualityproducts-Site sudokn:locatedInCity sudokn:Salisbury-City
-    from_schema: sudokn-kg
-    rank: 1000
-    slot_uri: sudokn:locatedInCity
-    alias: sudokn_locatedInCity
-    owner: sudokn_GeospatialLocation
-    domain_of:
-    - sudokn_GeospatialLocation
-    range: sudokn_City
 class_uri: sudokn:GeospatialLocation
 
 ```

@@ -1,12 +1,16 @@
 
 
-# Class: brand name (sudokn_BrandName)
+# Class: No class (type) name specified (sudokn_BrandName)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
+
+
+
+This class occurs 1 times.
 
 
 URI: [sudokn:BrandName](http://asu.edu/semantics/SUDOKN/BrandName)
@@ -39,8 +43,8 @@ URI: [sudokn:BrandName](http://asu.edu/semantics/SUDOKN/BrandName)
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
 
 
 
@@ -48,36 +52,6 @@ URI: [sudokn:BrandName](http://asu.edu/semantics/SUDOKN/BrandName)
 
 
 
-
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:BrandName |
-| native | sudokn-kg/:SudoknBrandName |
 
 
 
@@ -92,16 +66,16 @@ URI: [sudokn:BrandName](http://asu.edu/semantics/SUDOKN/BrandName)
 ### Direct
 
 <details>
+
 ```yaml
 name: sudokn_BrandName
-description: No type description provided
-title: brand name
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 1 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 1
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: sudokn_DesignativeName
@@ -113,16 +87,16 @@ class_uri: sudokn:BrandName
 ### Induced
 
 <details>
+
 ```yaml
 name: sudokn_BrandName
-description: No type description provided
-title: brand name
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 1 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 1
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: sudokn_DesignativeName

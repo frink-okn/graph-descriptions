@@ -1,12 +1,16 @@
 
 
-# Class: two dimensional cartesian spatial coordinate datum (sudokn_TwoDimensionalCartesianSpatialCoordinateDatum)
+# Class: No class (type) name specified (sudokn_TwoDimensionalCartesianSpatialCoordinateDatum)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
+
+
+
+This class occurs 20728 times.
 
 
 URI: [sudokn:TwoDimensionalCartesianSpatialCoordinateDatum](http://asu.edu/semantics/SUDOKN/TwoDimensionalCartesianSpatialCoordinateDatum)
@@ -56,10 +60,10 @@ URI: [sudokn:TwoDimensionalCartesianSpatialCoordinateDatum](http://asu.edu/seman
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [sudokn_hasLatitudeValue](../slots/sudokn_hasLatitudeValue.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
-| [sudokn_hasLongitudeValue](../slots/sudokn_hasLongitudeValue.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
+| [sudokn_hasLatitudeValue](../slots/sudokn_hasLatitudeValue.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 19082 |
+| [sudokn_hasLongitudeValue](../slots/sudokn_hasLongitudeValue.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 19083 |
 
 
 
@@ -76,36 +80,6 @@ URI: [sudokn:TwoDimensionalCartesianSpatialCoordinateDatum](http://asu.edu/seman
 
 
 
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:TwoDimensionalCartesianSpatialCoordinateDatum |
-| native | sudokn-kg/:SudoknTwoDimensionalCartesianSpatialCoordinateDatum |
-
-
 
 
 
@@ -118,22 +92,35 @@ URI: [sudokn:TwoDimensionalCartesianSpatialCoordinateDatum](http://asu.edu/seman
 ### Direct
 
 <details>
+
 ```yaml
 name: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
-description: No type description provided
-title: two dimensional cartesian spatial coordinate datum
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 20728 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 20728
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: io_InformationContentEntity
 slots:
 - sudokn_hasLatitudeValue
 - sudokn_hasLongitudeValue
+slot_usage:
+  sudokn_hasLatitudeValue:
+    name: sudokn_hasLatitudeValue
+    annotations:
+      string:
+        tag: string
+        value: 19082
+  sudokn_hasLongitudeValue:
+    name: sudokn_hasLongitudeValue
+    annotations:
+      string:
+        tag: string
+        value: 19083
 class_uri: sudokn:TwoDimensionalCartesianSpatialCoordinateDatum
 
 ```
@@ -142,34 +129,48 @@ class_uri: sudokn:TwoDimensionalCartesianSpatialCoordinateDatum
 ### Induced
 
 <details>
+
 ```yaml
 name: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
-description: No type description provided
-title: two dimensional cartesian spatial coordinate datum
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 20728 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 20728
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: io_InformationContentEntity
+slot_usage:
+  sudokn_hasLatitudeValue:
+    name: sudokn_hasLatitudeValue
+    annotations:
+      string:
+        tag: string
+        value: 19082
+  sudokn_hasLongitudeValue:
+    name: sudokn_hasLongitudeValue
+    annotations:
+      string:
+        tag: string
+        value: 19083
 attributes:
   sudokn_hasLatitudeValue:
     name: sudokn_hasLatitudeValue
-    description: No slot description provided
-    title: has latitude value
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 19082 occurrences with subject type sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
-      and object type string.
+    annotations:
+      string:
+        tag: string
+        value: 19082
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: sudokn:101PIPE-site-FONTANA-92335-coordinates sudokn:hasLatitudeValue
-        34.0677902
+    - object:
+        example_object: '34.0677902'
+        example_object_type: string
+        example_predicate: sudokn:hasLatitudeValue
+        example_subject: sudokn:101PIPE-site-FONTANA-92335-coordinates
+        example_subject_type: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
     from_schema: sudokn-kg
     rank: 1000
     slot_uri: sudokn:hasLatitudeValue
@@ -177,25 +178,25 @@ attributes:
     owner: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
     domain_of:
     - sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
-    subproperty_of: owl_topDataProperty
     range: Any
     any_of:
     - range: uri
     - range: string
   sudokn_hasLongitudeValue:
     name: sudokn_hasLongitudeValue
-    description: No slot description provided
-    title: has logitude value
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 19083 occurrences with subject type sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
-      and object type string.
+    annotations:
+      string:
+        tag: string
+        value: 19083
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: sudokn:101PIPE-site-FONTANA-92335-coordinates sudokn:hasLongitudeValue
-        -117.4708951
+    - object:
+        example_object: '-117.4708951'
+        example_object_type: string
+        example_predicate: sudokn:hasLongitudeValue
+        example_subject: sudokn:101PIPE-site-FONTANA-92335-coordinates
+        example_subject_type: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
     from_schema: sudokn-kg
     rank: 1000
     slot_uri: sudokn:hasLongitudeValue
@@ -203,7 +204,6 @@ attributes:
     owner: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
     domain_of:
     - sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
-    subproperty_of: owl_topDataProperty
     range: Any
     any_of:
     - range: uri

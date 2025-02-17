@@ -1,12 +1,16 @@
 
 
-# Slot: has spatial coordinates (sudokn_hasSpatialCoordinates)
+# Slot: No slot (predicate) name specified (sudokn_hasSpatialCoordinates)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 20728 times.
 
 
 URI: [sudokn:hasSpatialCoordinates](http://asu.edu/semantics/SUDOKN/hasSpatialCoordinates)
@@ -23,7 +27,7 @@ URI: [sudokn:hasSpatialCoordinates](http://asu.edu/semantics/SUDOKN/hasSpatialCo
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknGeospatialLocation](../classes/SudoknGeospatialLocation.md) | No type description provided |  no  |
+| [SudoknGeospatialLocation](../classes/SudoknGeospatialLocation.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sudokn:hasSpatialCoordinates](http://asu.edu/semantics/SUDOKN/hasSpatialCo
 
 ## Examples
 
-| Value |
-| --- |
-| sudokn:qualityproducts-Site sudokn:hasSpatialCoordinates sudokn:qualityproducts-Coordinates |
-
-## Comments
-
-* 20728 occurrences with subject type sudokn_GeospatialLocation and object type sudokn_TwoDimensionalCartesianSpatialCoordinateDatum.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:hasSpatialCoordinates |
-| native | sudokn-kg/:sudokn_hasSpatialCoordinates |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sudokn_GeospatialLocation | sudokn_TwoDimensionalCartesianSpatialCoordinateDatum | sudokn:101PIPE-site | sudokn:101PIPE-site-coordinates | 20728 |
 
 
 
@@ -85,25 +56,28 @@ URI: [sudokn:hasSpatialCoordinates](http://asu.edu/semantics/SUDOKN/hasSpatialCo
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_hasSpatialCoordinates
-description: No slot description provided
-title: has spatial coordinates
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 20728 occurrences with subject type sudokn_GeospatialLocation and object type sudokn_TwoDimensionalCartesianSpatialCoordinateDatum.
+annotations:
+  count:
+    tag: count
+    value: 20728
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: sudokn:qualityproducts-Site sudokn:hasSpatialCoordinates sudokn:qualityproducts-Coordinates
+- object:
+    example_object: sudokn:101PIPE-site-coordinates
+    example_object_type: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
+    example_predicate: sudokn:hasSpatialCoordinates
+    example_subject: sudokn:101PIPE-site
+    example_subject_type: sudokn_GeospatialLocation
 from_schema: sudokn-kg
 rank: 1000
 slot_uri: sudokn:hasSpatialCoordinates
 alias: sudokn_hasSpatialCoordinates
 domain_of:
 - sudokn_GeospatialLocation
-subproperty_of: io_denotedBy
 range: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
 
 ```

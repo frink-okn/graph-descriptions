@@ -1,12 +1,16 @@
 
 
-# Slot: has primary NIACS classifier (sudokn_hasPrimaryNIACSClassifier)
+# Slot: No slot (predicate) name specified (sudokn_hasPrimaryNIACSClassifier)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 0 times.
 
 
 URI: [sudokn:hasPrimaryNIACSClassifier](http://asu.edu/semantics/SUDOKN/hasPrimaryNIACSClassifier)
@@ -30,55 +34,31 @@ URI: [sudokn:hasPrimaryNIACSClassifier](http://asu.edu/semantics/SUDOKN/hasPrima
 
 
 
-## TODOs
+## Comments
 
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:hasPrimaryNIACSClassifier |
-| native | sudokn-kg/:sudokn_hasPrimaryNIACSClassifier |
-
+* No occurrences of this slot in the graph.
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_hasPrimaryNIACSClassifier
-description: No slot description provided
-title: has primary NIACS classifier
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
+comments:
+- No occurrences of this slot in the graph.
 from_schema: sudokn-kg
 rank: 1000
-domain: io_Organization
+domain: sudokn_hasPrimaryNIACSClassifier
 slot_uri: sudokn:hasPrimaryNIACSClassifier
 alias: sudokn_hasPrimaryNIACSClassifier
-subproperty_of: sudokn_hasNAICSClassifier
 range: uri
 
 ```

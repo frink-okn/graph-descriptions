@@ -1,12 +1,16 @@
 
 
-# Class: postal address (sudokn_PostalAddress)
+# Class: No class (type) name specified (sudokn_PostalAddress)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
+
+
+
+This class occurs 20728 times.
 
 
 URI: [sudokn:PostalAddress](http://asu.edu/semantics/SUDOKN/PostalAddress)
@@ -47,9 +51,9 @@ URI: [sudokn:PostalAddress](http://asu.edu/semantics/SUDOKN/PostalAddress)
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [iosc_hasTextValue](../slots/iosc_hasTextValue.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
+| [iosc_hasTextValue](../slots/iosc_hasTextValue.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 19102 |
 
 
 
@@ -69,43 +73,6 @@ URI: [sudokn:PostalAddress](http://asu.edu/semantics/SUDOKN/PostalAddress)
 
 
 
-## Examples
-
-| Value |
-| --- |
-| sudokn:101PIPE-PostalAddress |
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:PostalAddress |
-| native | sudokn-kg/:SudoknPostalAddress |
-
-
-
 
 
 
@@ -117,23 +84,28 @@ URI: [sudokn:PostalAddress](http://asu.edu/semantics/SUDOKN/PostalAddress)
 ### Direct
 
 <details>
+
 ```yaml
 name: sudokn_PostalAddress
-description: No type description provided
-title: postal address
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 20728 occurences.
-examples:
-- value: sudokn:101PIPE-PostalAddress
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 20728
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: io_PhysicalLocationIdentifier
 slots:
 - iosc_hasTextValue
+slot_usage:
+  iosc_hasTextValue:
+    name: iosc_hasTextValue
+    annotations:
+      string:
+        tag: string
+        value: 19102
 class_uri: sudokn:PostalAddress
 
 ```
@@ -142,33 +114,41 @@ class_uri: sudokn:PostalAddress
 ### Induced
 
 <details>
+
 ```yaml
 name: sudokn_PostalAddress
-description: No type description provided
-title: postal address
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 20728 occurences.
-examples:
-- value: sudokn:101PIPE-PostalAddress
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 20728
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: io_PhysicalLocationIdentifier
+slot_usage:
+  iosc_hasTextValue:
+    name: iosc_hasTextValue
+    annotations:
+      string:
+        tag: string
+        value: 19102
 attributes:
   iosc_hasTextValue:
     name: iosc_hasTextValue
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 19102 occurrences with subject type sudokn_PostalAddress and object type string.
+    annotations:
+      string:
+        tag: string
+        value: 19102
+    description: No slot (predicate) description specified
     examples:
-    - value: sudokn:101PIPE-PostalAddress iosc:hasTextValue 10255 BEECH AVENUE
+    - object:
+        example_object: 10255 BEECH AVENUE
+        example_object_type: string
+        example_predicate: iosc:hasTextValue
+        example_subject: sudokn:101PIPE-PostalAddress
+        example_subject_type: sudokn_PostalAddress
     from_schema: sudokn-kg
     rank: 1000
     slot_uri: iosc:hasTextValue

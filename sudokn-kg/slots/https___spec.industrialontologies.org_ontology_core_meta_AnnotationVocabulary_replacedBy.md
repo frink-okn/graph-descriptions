@@ -1,12 +1,16 @@
 
 
-# Slot: https___spec.industrialontologies.org_ontology_core_meta_AnnotationVocabulary_replacedBy
+# Slot: No slot (predicate) name specified (https___spec.industrialontologies.org_ontology_core_meta_AnnotationVocabulary_replacedBy)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 0 times.
 
 
 URI: [https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/replacedBy](https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/replacedBy)
@@ -30,48 +34,26 @@ URI: [https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabul
 
 
 
-## TODOs
+## Comments
 
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/replacedBy |
-| native | sudokn-kg/:https___spec.industrialontologies.org_ontology_core_meta_AnnotationVocabulary_replacedBy |
-
+* No occurrences of this slot in the graph.
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: https___spec.industrialontologies.org_ontology_core_meta_AnnotationVocabulary_replacedBy
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
+comments:
+- No occurrences of this slot in the graph.
 from_schema: sudokn-kg
 rank: 1000
 slot_uri: https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/replacedBy

@@ -1,12 +1,16 @@
 
 
-# Class: email address (sudokn_EmailAddress)
+# Class: No class (type) name specified (sudokn_EmailAddress)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
+
+
+
+This class occurs 1 times.
 
 
 URI: [sudokn:EmailAddress](http://asu.edu/semantics/SUDOKN/EmailAddress)
@@ -39,8 +43,8 @@ URI: [sudokn:EmailAddress](http://asu.edu/semantics/SUDOKN/EmailAddress)
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
 
 
 
@@ -50,48 +54,12 @@ URI: [sudokn:EmailAddress](http://asu.edu/semantics/SUDOKN/EmailAddress)
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
+| [IoManufacturer](../classes/IoManufacturer.md) | [sudokn_hasEmailAddress](../slots/sudokn_hasEmailAddress.md) | any_of[range] | [SudoknEmailAddress](../classes/SudoknEmailAddress.md) |
 | [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | [sudokn_hasEmailAddress](../slots/sudokn_hasEmailAddress.md) | any_of[range] | [SudoknEmailAddress](../classes/SudoknEmailAddress.md) |
 
 
 
 
-
-
-
-## Examples
-
-| Value |
-| --- |
-| sudokn:/EmailAddress_1 |
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:EmailAddress |
-| native | sudokn-kg/:SudoknEmailAddress |
 
 
 
@@ -106,18 +74,16 @@ URI: [sudokn:EmailAddress](http://asu.edu/semantics/SUDOKN/EmailAddress)
 ### Direct
 
 <details>
+
 ```yaml
 name: sudokn_EmailAddress
-description: No type description provided
-title: email address
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 1 occurences.
-examples:
-- value: sudokn:/EmailAddress_1
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 1
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: sudokn_VitualLocationIdentifier
@@ -129,18 +95,16 @@ class_uri: sudokn:EmailAddress
 ### Induced
 
 <details>
+
 ```yaml
 name: sudokn_EmailAddress
-description: No type description provided
-title: email address
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 1 occurences.
-examples:
-- value: sudokn:/EmailAddress_1
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 1
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: sudokn_VitualLocationIdentifier

@@ -1,12 +1,16 @@
 
 
-# Class: CAD/CAM capability (sudokn_CADCAMCapability)
+# Class: No class (type) name specified (sudokn_CADCAMCapability)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
+
+
+
+This class occurs 0 times.
 
 
 URI: [sudokn:CADCAMCapability](http://asu.edu/semantics/SUDOKN/CADCAMCapability)
@@ -39,8 +43,8 @@ URI: [sudokn:CADCAMCapability](http://asu.edu/semantics/SUDOKN/CADCAMCapability)
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
 
 
 
@@ -48,36 +52,6 @@ URI: [sudokn:CADCAMCapability](http://asu.edu/semantics/SUDOKN/CADCAMCapability)
 
 
 
-
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:CADCAMCapability |
-| native | sudokn-kg/:SudoknCADCAMCapability |
 
 
 
@@ -92,16 +66,16 @@ URI: [sudokn:CADCAMCapability](http://asu.edu/semantics/SUDOKN/CADCAMCapability)
 ### Direct
 
 <details>
+
 ```yaml
 name: sudokn_CADCAMCapability
-description: No type description provided
-title: CAD/CAM capability
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 0 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: sudokn_EngineeringCapability
@@ -113,16 +87,16 @@ class_uri: sudokn:CADCAMCapability
 ### Induced
 
 <details>
+
 ```yaml
 name: sudokn_CADCAMCapability
-description: No type description provided
-title: CAD/CAM capability
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 0 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: sudokn_EngineeringCapability

@@ -1,12 +1,16 @@
 
 
-# Class: professional services (sudokn_ProfessionalServices)
+# Class: No class (type) name specified (sudokn_ProfessionalServices)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
+
+
+
+This class occurs 0 times.
 
 
 URI: [sudokn:ProfessionalServices](http://asu.edu/semantics/SUDOKN/ProfessionalServices)
@@ -38,8 +42,8 @@ URI: [sudokn:ProfessionalServices](http://asu.edu/semantics/SUDOKN/ProfessionalS
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
 
 
 
@@ -47,36 +51,6 @@ URI: [sudokn:ProfessionalServices](http://asu.edu/semantics/SUDOKN/ProfessionalS
 
 
 
-
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:ProfessionalServices |
-| native | sudokn-kg/:SudoknProfessionalServices |
 
 
 
@@ -91,16 +65,16 @@ URI: [sudokn:ProfessionalServices](http://asu.edu/semantics/SUDOKN/ProfessionalS
 ### Direct
 
 <details>
+
 ```yaml
 name: sudokn_ProfessionalServices
-description: No type description provided
-title: professional services
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 0 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: iosc_Industry
@@ -112,16 +86,16 @@ class_uri: sudokn:ProfessionalServices
 ### Induced
 
 <details>
+
 ```yaml
 name: sudokn_ProfessionalServices
-description: No type description provided
-title: professional services
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 0 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: iosc_Industry

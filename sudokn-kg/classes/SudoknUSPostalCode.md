@@ -1,12 +1,16 @@
 
 
-# Class: TODO -- what's a good name for this class (type)? (sudokn_USPostalCode)
+# Class: No class (type) name specified (sudokn_USPostalCode)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
+
+
+
+This class occurs 20424 times.
 
 
 URI: [sudokn:USPostalCode](http://asu.edu/semantics/SUDOKN/USPostalCode)
@@ -40,9 +44,9 @@ URI: [sudokn:USPostalCode](http://asu.edu/semantics/SUDOKN/USPostalCode)
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [sudokn_hasIntegerValue](../slots/sudokn_hasIntegerValue.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
+| [sudokn_hasIntegerValue](../slots/sudokn_hasIntegerValue.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 18729 |
 
 
 
@@ -59,36 +63,6 @@ URI: [sudokn:USPostalCode](http://asu.edu/semantics/SUDOKN/USPostalCode)
 
 
 
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:USPostalCode |
-| native | sudokn-kg/:SudoknUSPostalCode |
-
-
 
 
 
@@ -101,20 +75,27 @@ URI: [sudokn:USPostalCode](http://asu.edu/semantics/SUDOKN/USPostalCode)
 ### Direct
 
 <details>
+
 ```yaml
 name: sudokn_USPostalCode
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 20424 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 20424
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 slots:
 - sudokn_hasIntegerValue
+slot_usage:
+  sudokn_hasIntegerValue:
+    name: sudokn_hasIntegerValue
+    annotations:
+      string:
+        tag: string
+        value: 18729
 class_uri: sudokn:USPostalCode
 
 ```
@@ -123,30 +104,40 @@ class_uri: sudokn:USPostalCode
 ### Induced
 
 <details>
+
 ```yaml
 name: sudokn_USPostalCode
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 20424 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 20424
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
+slot_usage:
+  sudokn_hasIntegerValue:
+    name: sudokn_hasIntegerValue
+    annotations:
+      string:
+        tag: string
+        value: 18729
 attributes:
   sudokn_hasIntegerValue:
     name: sudokn_hasIntegerValue
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 18729 occurrences with subject type sudokn_USPostalCode and object type string.
+    annotations:
+      string:
+        tag: string
+        value: 18729
+    description: No slot (predicate) description specified
     examples:
-    - value: sudokn:101PIPE-site-FONTANA-92335-site-zip sudokn:hasIntegerValue 92335
+    - object:
+        example_object: '92335'
+        example_object_type: string
+        example_predicate: sudokn:hasIntegerValue
+        example_subject: sudokn:101PIPE-site-FONTANA-92335-site-zip
+        example_subject_type: sudokn_USPostalCode
     from_schema: sudokn-kg
     rank: 1000
     slot_uri: sudokn:hasIntegerValue

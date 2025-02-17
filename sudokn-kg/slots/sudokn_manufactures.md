@@ -1,12 +1,16 @@
 
 
-# Slot: manufactures (sudokn_manufactures)
+# Slot: No slot (predicate) name specified (sudokn_manufactures)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 71660 times.
 
 
 URI: [sudokn:manufactures](http://asu.edu/semantics/SUDOKN/manufactures)
@@ -23,7 +27,7 @@ URI: [sudokn:manufactures](http://asu.edu/semantics/SUDOKN/manufactures)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [IoManufacturer](../classes/IoManufacturer.md) | No type description provided |  no  |
+| [IoManufacturer](../classes/IoManufacturer.md) | No class (type) description specified |  yes  |
 
 
 
@@ -35,6 +39,13 @@ URI: [sudokn:manufactures](http://asu.edu/semantics/SUDOKN/manufactures)
 
 * Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[IoMaterialProduct](../classes/IoMaterialProduct.md)
 
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [IoManufacturer](../classes/IoManufacturer.md) | [sudokn_manufactures](../slots/sudokn_manufactures.md) | domain | [sudokn_manufactures](../slots/sudokn_manufactures.md) |
+
+
 
 
 
@@ -42,42 +53,9 @@ URI: [sudokn:manufactures](http://asu.edu/semantics/SUDOKN/manufactures)
 
 ## Examples
 
-| Value |
-| --- |
-| sudokn:PTPMANUFACTURING-company-inst sudokn:manufactures sudokn:WaterTreatmentComponents-product |
-
-## Comments
-
-* 71660 occurrences with subject type io_Manufacturer and object type io_MaterialProduct.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:manufactures |
-| native | sudokn-kg/:sudokn_manufactures |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| io_Manufacturer | io_MaterialProduct | sudokn:101PIPE-company-inst | sudokn:BlowoffStations-product | 71660 |
 
 
 
@@ -85,21 +63,25 @@ URI: [sudokn:manufactures](http://asu.edu/semantics/SUDOKN/manufactures)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_manufactures
-description: No slot description provided
-title: manufactures
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 71660 occurrences with subject type io_Manufacturer and object type io_MaterialProduct.
+annotations:
+  count:
+    tag: count
+    value: 71660
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: sudokn:PTPMANUFACTURING-company-inst sudokn:manufactures sudokn:WaterTreatmentComponents-product
+- object:
+    example_object: sudokn:BlowoffStations-product
+    example_object_type: io_MaterialProduct
+    example_predicate: sudokn:manufactures
+    example_subject: sudokn:101PIPE-company-inst
+    example_subject_type: io_Manufacturer
 from_schema: sudokn-kg
 rank: 1000
-domain: io_Organization
+domain: sudokn_manufactures
 slot_uri: sudokn:manufactures
 alias: sudokn_manufactures
 domain_of:

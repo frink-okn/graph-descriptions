@@ -3,10 +3,14 @@
 # Slot: iosc_hasTextValue
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 19102 times.
 
 
 URI: [iosc:hasTextValue](https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/hasTextValue)
@@ -23,7 +27,7 @@ URI: [iosc:hasTextValue](https://spec.industrialontologies.org/ontology/supplych
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknPostalAddress](../classes/SudoknPostalAddress.md) | No type description provided |  no  |
+| [SudoknPostalAddress](../classes/SudoknPostalAddress.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [iosc:hasTextValue](https://spec.industrialontologies.org/ontology/supplych
 
 ## Examples
 
-| Value |
-| --- |
-| sudokn:101PIPE-PostalAddress iosc:hasTextValue 10255 BEECH AVENUE |
-
-## Comments
-
-* 19102 occurrences with subject type sudokn_PostalAddress and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | iosc:hasTextValue |
-| native | sudokn-kg/:iosc_hasTextValue |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sudokn_PostalAddress | string | sudokn:101PIPE-PostalAddress | 10255 BEECH AVENUE | 19102 |
 
 
 
@@ -85,17 +56,21 @@ URI: [iosc:hasTextValue](https://spec.industrialontologies.org/ontology/supplych
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: iosc_hasTextValue
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 19102 occurrences with subject type sudokn_PostalAddress and object type string.
+annotations:
+  count:
+    tag: count
+    value: 19102
+description: No slot (predicate) description specified
 examples:
-- value: sudokn:101PIPE-PostalAddress iosc:hasTextValue 10255 BEECH AVENUE
+- object:
+    example_object: 10255 BEECH AVENUE
+    example_object_type: string
+    example_predicate: iosc:hasTextValue
+    example_subject: sudokn:101PIPE-PostalAddress
+    example_subject_type: sudokn_PostalAddress
 from_schema: sudokn-kg
 rank: 1000
 slot_uri: iosc:hasTextValue

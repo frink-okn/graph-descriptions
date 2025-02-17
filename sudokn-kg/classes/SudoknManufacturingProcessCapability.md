@@ -1,12 +1,16 @@
 
 
-# Class: manufacturing process capability (sudokn_ManufacturingProcessCapability)
+# Class: No class (type) name specified (sudokn_ManufacturingProcessCapability)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
+
+
+
+This class occurs 0 times.
 
 
 URI: [sudokn:ManufacturingProcessCapability](http://asu.edu/semantics/SUDOKN/ManufacturingProcessCapability)
@@ -86,8 +90,8 @@ URI: [sudokn:ManufacturingProcessCapability](http://asu.edu/semantics/SUDOKN/Man
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
 
 
 
@@ -95,36 +99,6 @@ URI: [sudokn:ManufacturingProcessCapability](http://asu.edu/semantics/SUDOKN/Man
 
 
 
-
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:ManufacturingProcessCapability |
-| native | sudokn-kg/:SudoknManufacturingProcessCapability |
 
 
 
@@ -139,16 +113,16 @@ URI: [sudokn:ManufacturingProcessCapability](http://asu.edu/semantics/SUDOKN/Man
 ### Direct
 
 <details>
+
 ```yaml
 name: sudokn_ManufacturingProcessCapability
-description: No type description provided
-title: manufacturing process capability
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 0 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: iosc_ProductionCapability
@@ -160,16 +134,16 @@ class_uri: sudokn:ManufacturingProcessCapability
 ### Induced
 
 <details>
+
 ```yaml
 name: sudokn_ManufacturingProcessCapability
-description: No type description provided
-title: manufacturing process capability
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 0 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: sudokn-kg
 rank: 1000
 is_a: iosc_ProductionCapability

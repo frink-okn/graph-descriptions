@@ -1,12 +1,16 @@
 
 
-# Class: TODO -- this class is noted as a superclass of another class in this graph but has not itself been defined. (io_Identifier)
+# Class: No class (type) name specified -- this class is noted as a superclass of another class in this graph but has not itself been defined. (io_Identifier)
 
 
-_No type description provided_
+_No class (type) description specified_
 
 
 
+
+
+
+This class occurs 0 times.
 
 
 URI: [io:Identifier](https://spec.industrialontologies.org/ontology/core/Core/Identifier)
@@ -41,8 +45,8 @@ URI: [io:Identifier](https://spec.industrialontologies.org/ontology/core/Core/Id
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
 
 
 
@@ -50,36 +54,6 @@ URI: [io:Identifier](https://spec.industrialontologies.org/ontology/core/Core/Id
 
 
 
-
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | io:Identifier |
-| native | sudokn-kg/:IoIdentifier |
 
 
 
@@ -94,17 +68,17 @@ URI: [io:Identifier](https://spec.industrialontologies.org/ontology/core/Core/Id
 ### Direct
 
 <details>
+
 ```yaml
 name: io_Identifier
-description: No type description provided
-title: TODO -- this class is noted as a superclass of another class in this graph
-  but has not itself been defined.
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 0 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No class (type) description specified
+title: No class (type) name specified -- this class is noted as a superclass of another
+  class in this graph but has not itself been defined.
 from_schema: sudokn-kg
 rank: 1000
 class_uri: io:Identifier
@@ -115,17 +89,17 @@ class_uri: io:Identifier
 ### Induced
 
 <details>
+
 ```yaml
 name: io_Identifier
-description: No type description provided
-title: TODO -- this class is noted as a superclass of another class in this graph
-  but has not itself been defined.
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 0 occurences.
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
+description: No class (type) description specified
+title: No class (type) name specified -- this class is noted as a superclass of another
+  class in this graph but has not itself been defined.
 from_schema: sudokn-kg
 rank: 1000
 class_uri: io:Identifier

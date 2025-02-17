@@ -1,12 +1,16 @@
 
 
-# Slot: sudokn_hasNumberOfEmployees
+# Slot: No slot (predicate) name specified (sudokn_hasNumberOfEmployees)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 6931 times.
 
 
 URI: [sudokn:hasNumberOfEmployees](http://asu.edu/semantics/SUDOKN/hasNumberOfEmployees)
@@ -23,7 +27,7 @@ URI: [sudokn:hasNumberOfEmployees](http://asu.edu/semantics/SUDOKN/hasNumberOfEm
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [IoManufacturer](../classes/IoManufacturer.md) | No type description provided |  no  |
+| [IoManufacturer](../classes/IoManufacturer.md) | No class (type) description specified |  yes  |
 
 
 
@@ -33,7 +37,14 @@ URI: [sudokn:hasNumberOfEmployees](http://asu.edu/semantics/SUDOKN/hasNumberOfEm
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [IoManufacturer](../classes/IoManufacturer.md) | [sudokn_hasNumberOfEmployees](../slots/sudokn_hasNumberOfEmployees.md) | domain | [sudokn_hasNumberOfEmployees](../slots/sudokn_hasNumberOfEmployees.md) |
+
 
 
 
@@ -42,42 +53,9 @@ URI: [sudokn:hasNumberOfEmployees](http://asu.edu/semantics/SUDOKN/hasNumberOfEm
 
 ## Examples
 
-| Value |
-| --- |
-| sudokn:101PIPE-company-inst sudokn:hasNumberOfEmployees 50 |
-
-## Comments
-
-* 6931 occurrences with subject type io_Manufacturer and object type integer.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sudokn:hasNumberOfEmployees |
-| native | sudokn-kg/:sudokn_hasNumberOfEmployees |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| io_Manufacturer | integer | sudokn:101PIPE-company-inst | 50 | 6931 |
 
 
 
@@ -85,28 +63,33 @@ URI: [sudokn:hasNumberOfEmployees](http://asu.edu/semantics/SUDOKN/hasNumberOfEm
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sudokn_hasNumberOfEmployees
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 6931 occurrences with subject type io_Manufacturer and object type integer.
+annotations:
+  count:
+    tag: count
+    value: 6931
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: sudokn:101PIPE-company-inst sudokn:hasNumberOfEmployees 50
+- object:
+    example_object: '50'
+    example_object_type: integer
+    example_predicate: sudokn:hasNumberOfEmployees
+    example_subject: sudokn:101PIPE-company-inst
+    example_subject_type: io_Manufacturer
 from_schema: sudokn-kg
 rank: 1000
-domain: io_Organization
+domain: sudokn_hasNumberOfEmployees
 slot_uri: sudokn:hasNumberOfEmployees
 alias: sudokn_hasNumberOfEmployees
 domain_of:
 - io_Manufacturer
 range: Any
 any_of:
-- range: integer
 - range: uri
+- range: integer
 
 ```
 </details>

@@ -3,10 +3,14 @@
 # Slot: skos_altLabel
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 1 times.
 
 
 URI: [skos:altLabel](http://www.w3.org/2004/02/skos/core#altLabel)
@@ -23,7 +27,8 @@ URI: [skos:altLabel](http://www.w3.org/2004/02/skos/core#altLabel)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknOwnershipStatusClassifier](../classes/SudoknOwnershipStatusClassifier.md) | No type description provided |  no  |
+| [SudoknOwnershipStatusClassifier](../classes/SudoknOwnershipStatusClassifier.md) | No class (type) description specified |  yes  |
+| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,42 +47,10 @@ URI: [skos:altLabel](http://www.w3.org/2004/02/skos/core#altLabel)
 
 ## Examples
 
-| Value |
-| --- |
-| sudokn:SmallDisadvantagedBusiness skos:altLabel 8(a) |
-
-## Comments
-
-* 1 occurrences with subject type sudokn_OwnershipStatusClassifier and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sudokn-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | skos:altLabel |
-| native | sudokn-kg/:skos_altLabel |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| owl_NamedIndividual | string | sudokn:SmallDisadvantagedBusiness | 8(a) | 1 |
+| sudokn_OwnershipStatusClassifier | string | sudokn:SmallDisadvantagedBusiness | 8(a) | 1 |
 
 
 
@@ -85,23 +58,33 @@ URI: [skos:altLabel](http://www.w3.org/2004/02/skos/core#altLabel)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: skos_altLabel
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1 occurrences with subject type sudokn_OwnershipStatusClassifier and object type
-  string.
+annotations:
+  count:
+    tag: count
+    value: 1
+description: No slot (predicate) description specified
 examples:
-- value: sudokn:SmallDisadvantagedBusiness skos:altLabel 8(a)
+- object:
+    example_object: 8(a)
+    example_object_type: string
+    example_predicate: skos:altLabel
+    example_subject: sudokn:SmallDisadvantagedBusiness
+    example_subject_type: owl_NamedIndividual
+- object:
+    example_object: 8(a)
+    example_object_type: string
+    example_predicate: skos:altLabel
+    example_subject: sudokn:SmallDisadvantagedBusiness
+    example_subject_type: sudokn_OwnershipStatusClassifier
 from_schema: sudokn-kg
 rank: 1000
 slot_uri: skos:altLabel
 alias: skos_altLabel
 domain_of:
+- owl_NamedIndividual
 - sudokn_OwnershipStatusClassifier
 range: string
 
