@@ -1,12 +1,16 @@
 
 
-# Slot: securechain_hasSoftwareVersion
+# Slot: No slot (predicate) name specified (securechain_hasSoftwareVersion)
 
 
 _No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 164001 times.
 
 
 URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareVersion)
@@ -24,7 +28,7 @@ URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareV
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | No class (type) description specified |  no  |
-| [SecurechainSoftware](../classes/SecurechainSoftware.md) | No class (type) description specified |  no  |
+| [SecurechainSoftware](../classes/SecurechainSoftware.md) | No class (type) description specified |  yes  |
 
 
 
@@ -43,37 +47,9 @@ URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareV
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| securechain_Software → securechain_SoftwareVersion | securechain:Software/zzuf | securechain:hasSoftwareVersion | securechain:SoftwareVersion/zzuf#0.15-4 |
-
-
-## Comments
-
-* 164001 occurrences with subject type securechain_Software and object type securechain_SoftwareVersion.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: secure-chain-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | securechain:hasSoftwareVersion |
-| native | secure-chain-kg/:securechain_hasSoftwareVersion |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| securechain_Software | securechain_SoftwareVersion | securechain:Software/ | securechain:SoftwareVersion/#%22%2F%2Fapi%23%2A | 164001 |
 
 
 
@@ -81,18 +57,21 @@ URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareV
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: securechain_hasSoftwareVersion
+annotations:
+  count:
+    tag: count
+    value: 164001
 description: No slot (predicate) description specified
-comments:
-- 164001 occurrences with subject type securechain_Software and object type securechain_SoftwareVersion.
+title: No slot (predicate) name specified
 examples:
-- description: securechain_Software → securechain_SoftwareVersion
-  object:
-    example_object: securechain:SoftwareVersion/zzuf#0.15-4
+- object:
+    example_object: securechain:SoftwareVersion/#%22%2F%2Fapi%23%2A
     example_object_type: securechain_SoftwareVersion
     example_predicate: securechain:hasSoftwareVersion
-    example_subject: securechain:Software/zzuf
+    example_subject: securechain:Software/
     example_subject_type: securechain_Software
 from_schema: secure-chain-kg
 rank: 1000

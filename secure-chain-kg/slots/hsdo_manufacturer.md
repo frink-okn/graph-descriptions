@@ -1,12 +1,16 @@
 
 
-# Slot: hsdo_manufacturer
+# Slot: manufacturer (hsdo_manufacturer)
 
 
-_No slot (predicate) description specified_
+_The manufacturer of the product._
 
 
 
+
+
+
+This slot occurs 54369 times.
 
 
 URI: [hsdo:manufacturer](http://schema.org/manufacturer)
@@ -23,7 +27,7 @@ URI: [hsdo:manufacturer](http://schema.org/manufacturer)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoOrganization](../classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
+| [HsdoOrganization](../classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  yes  |
 
 
 
@@ -42,37 +46,9 @@ URI: [hsdo:manufacturer](http://schema.org/manufacturer)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| hsdo_Organization → securechain_Hardware | schema:Organization/zzinc | hsdo:manufacturer | securechain:Hardware/keymouse |
-
-
-## Comments
-
-* 54369 occurrences with subject type hsdo_Organization and object type securechain_Hardware.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: secure-chain-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | hsdo:manufacturer |
-| native | secure-chain-kg/:hsdo_manufacturer |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| hsdo_Organization | securechain_Hardware | schema:Organization/2n | securechain:Hardware/access_unit_2.0 | 54369 |
 
 
 
@@ -80,18 +56,21 @@ URI: [hsdo:manufacturer](http://schema.org/manufacturer)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: hsdo_manufacturer
-description: No slot (predicate) description specified
-comments:
-- 54369 occurrences with subject type hsdo_Organization and object type securechain_Hardware.
+annotations:
+  count:
+    tag: count
+    value: 54369
+description: The manufacturer of the product.
+title: manufacturer
 examples:
-- description: hsdo_Organization → securechain_Hardware
-  object:
-    example_object: securechain:Hardware/keymouse
+- object:
+    example_object: securechain:Hardware/access_unit_2.0
     example_object_type: securechain_Hardware
     example_predicate: hsdo:manufacturer
-    example_subject: schema:Organization/zzinc
+    example_subject: schema:Organization/2n
     example_subject_type: hsdo_Organization
 from_schema: secure-chain-kg
 rank: 1000

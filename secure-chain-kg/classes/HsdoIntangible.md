@@ -9,6 +9,10 @@ _No class (type) description specified_
 
 
 
+
+This class occurs 0 times.
+
+
 URI: [hsdo:Intangible](http://schema.org/Intangible)
 
 
@@ -41,8 +45,8 @@ URI: [hsdo:Intangible](http://schema.org/Intangible)
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
 
 
 
@@ -50,30 +54,6 @@ URI: [hsdo:Intangible](http://schema.org/Intangible)
 
 
 
-
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: secure-chain-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | hsdo:Intangible |
-| native | secure-chain-kg/:HsdoIntangible |
 
 
 
@@ -88,14 +68,17 @@ URI: [hsdo:Intangible](http://schema.org/Intangible)
 ### Direct
 
 <details>
+
 ```yaml
 name: hsdo_Intangible
 conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
 description: No class (type) description specified
 title: No class (type) name specified -- this class is noted as a superclass of another
   class in this graph but has not itself been defined.
-notes:
-- Class with 0 occurrences.
 from_schema: secure-chain-kg
 rank: 1000
 class_uri: hsdo:Intangible
@@ -106,14 +89,17 @@ class_uri: hsdo:Intangible
 ### Induced
 
 <details>
+
 ```yaml
 name: hsdo_Intangible
 conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
 description: No class (type) description specified
 title: No class (type) name specified -- this class is noted as a superclass of another
   class in this graph but has not itself been defined.
-notes:
-- Class with 0 occurrences.
 from_schema: secure-chain-kg
 rank: 1000
 class_uri: hsdo:Intangible

@@ -1,12 +1,16 @@
 
 
-# Slot: hsdo_url
+# Slot: url (hsdo_url)
 
 
-_No slot (predicate) description specified_
+_URL of the item._
 
 
 
+
+
+
+This slot occurs 887 times.
 
 
 URI: [hsdo:url](http://schema.org/url)
@@ -23,7 +27,7 @@ URI: [hsdo:url](http://schema.org/url)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoOrganization](../classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
+| [HsdoOrganization](../classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [hsdo:url](http://schema.org/url)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,37 +46,9 @@ URI: [hsdo:url](http://schema.org/url)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| hsdo_Organization → string | schema:Organization/1Password | hsdo:url | ['https://1password.com', 'http://1passwd.com', 'https://1password.com/zh-tw', 'https://1password.com/zh-cn'] |
-
-
-## Comments
-
-* 887 occurrences with subject type hsdo_Organization and object type string.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: secure-chain-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | hsdo:url |
-| native | secure-chain-kg/:hsdo_url |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| hsdo_Organization | string | schema:Organization/1Password | ['https://1password.com', 'http://1passwd.com', 'https://1password.com/zh-tw', 'https://1password.com/zh-cn'] | 887 |
 
 
 
@@ -80,14 +56,17 @@ URI: [hsdo:url](http://schema.org/url)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: hsdo_url
-description: No slot (predicate) description specified
-comments:
-- 887 occurrences with subject type hsdo_Organization and object type string.
+annotations:
+  count:
+    tag: count
+    value: 887
+description: URL of the item.
+title: url
 examples:
-- description: hsdo_Organization → string
-  object:
+- object:
     example_object: '[''https://1password.com'', ''http://1passwd.com'', ''https://1password.com/zh-tw'',
       ''https://1password.com/zh-cn'']'
     example_object_type: string

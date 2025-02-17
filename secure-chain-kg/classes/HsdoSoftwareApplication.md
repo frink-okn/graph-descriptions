@@ -9,6 +9,10 @@ _No class (type) description specified_
 
 
 
+
+This class occurs 0 times.
+
+
 URI: [hsdo:SoftwareApplication](http://schema.org/SoftwareApplication)
 
 
@@ -38,8 +42,8 @@ URI: [hsdo:SoftwareApplication](http://schema.org/SoftwareApplication)
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
 
 
 
@@ -47,30 +51,6 @@ URI: [hsdo:SoftwareApplication](http://schema.org/SoftwareApplication)
 
 
 
-
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: secure-chain-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | hsdo:SoftwareApplication |
-| native | secure-chain-kg/:HsdoSoftwareApplication |
 
 
 
@@ -85,14 +65,17 @@ URI: [hsdo:SoftwareApplication](http://schema.org/SoftwareApplication)
 ### Direct
 
 <details>
+
 ```yaml
 name: hsdo_SoftwareApplication
 conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
 description: No class (type) description specified
 title: No class (type) name specified -- this class is noted as a superclass of another
   class in this graph but has not itself been defined.
-notes:
-- Class with 0 occurrences.
 from_schema: secure-chain-kg
 rank: 1000
 class_uri: hsdo:SoftwareApplication
@@ -103,14 +86,17 @@ class_uri: hsdo:SoftwareApplication
 ### Induced
 
 <details>
+
 ```yaml
 name: hsdo_SoftwareApplication
 conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
 description: No class (type) description specified
 title: No class (type) name specified -- this class is noted as a superclass of another
   class in this graph but has not itself been defined.
-notes:
-- Class with 0 occurrences.
 from_schema: secure-chain-kg
 rank: 1000
 class_uri: hsdo:SoftwareApplication

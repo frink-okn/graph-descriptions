@@ -1,12 +1,16 @@
 
 
-# Slot: securechain_hasHardwareVersion
+# Slot: No slot (predicate) name specified (securechain_hasHardwareVersion)
 
 
 _No slot (predicate) description specified_
 
 
 
+
+
+
+This slot occurs 57295 times.
 
 
 URI: [securechain:hasHardwareVersion](https://w3id.org/secure-chain/hasHardwareVersion)
@@ -24,7 +28,7 @@ URI: [securechain:hasHardwareVersion](https://w3id.org/secure-chain/hasHardwareV
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | No class (type) description specified |  no  |
-| [SecurechainHardware](../classes/SecurechainHardware.md) | No class (type) description specified |  no  |
+| [SecurechainHardware](../classes/SecurechainHardware.md) | No class (type) description specified |  yes  |
 
 
 
@@ -43,37 +47,9 @@ URI: [securechain:hasHardwareVersion](https://w3id.org/secure-chain/hasHardwareV
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| securechain_Hardware → securechain_HardwareVersion | securechain:Hardware/zz_qcs605 | securechain:hasHardwareVersion | securechain:HardwareVersion/zz_qcs605#- |
-
-
-## Comments
-
-* 57295 occurrences with subject type securechain_Hardware and object type securechain_HardwareVersion.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: secure-chain-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | securechain:hasHardwareVersion |
-| native | secure-chain-kg/:securechain_hasHardwareVersion |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| securechain_Hardware | securechain_HardwareVersion | securechain:Hardware/- | securechain:HardwareVersion/-#- | 57295 |
 
 
 
@@ -81,18 +57,21 @@ URI: [securechain:hasHardwareVersion](https://w3id.org/secure-chain/hasHardwareV
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: securechain_hasHardwareVersion
+annotations:
+  count:
+    tag: count
+    value: 57295
 description: No slot (predicate) description specified
-comments:
-- 57295 occurrences with subject type securechain_Hardware and object type securechain_HardwareVersion.
+title: No slot (predicate) name specified
 examples:
-- description: securechain_Hardware → securechain_HardwareVersion
-  object:
-    example_object: securechain:HardwareVersion/zz_qcs605#-
+- object:
+    example_object: securechain:HardwareVersion/-#-
     example_object_type: securechain_HardwareVersion
     example_predicate: securechain:hasHardwareVersion
-    example_subject: securechain:Hardware/zz_qcs605
+    example_subject: securechain:Hardware/-
     example_subject_type: securechain_Hardware
 from_schema: secure-chain-kg
 rank: 1000

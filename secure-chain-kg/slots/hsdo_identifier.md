@@ -1,12 +1,16 @@
 
 
-# Slot: hsdo_identifier
+# Slot: identifier (hsdo_identifier)
 
 
-_No slot (predicate) description specified_
+_The identifier property represents any kind of identifier for any kind of [[Thing]], such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See [background notes](/docs/datamodel.html#identifierBg) for more details.␊        _
 
 
 
+
+
+
+This slot occurs 291120 times.
 
 
 URI: [hsdo:identifier](http://schema.org/identifier)
@@ -23,12 +27,12 @@ URI: [hsdo:identifier](http://schema.org/identifier)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SecurechainVulnerability](../classes/SecurechainVulnerability.md) | No class (type) description specified |  no  |
-| [SecurechainVulnerabilityType](../classes/SecurechainVulnerabilityType.md) | No class (type) description specified |  no  |
-| [HsdoOrganization](../classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
+| [HsdoOrganization](../classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  yes  |
+| [HsdoPerson](../classes/HsdoPerson.md) | A person (alive, dead, undead, or fictional) |  yes  |
+| [SecurechainVulnerability](../classes/SecurechainVulnerability.md) | No class (type) description specified |  yes  |
+| [HsdoCreativeWork](../classes/HsdoCreativeWork.md) | The most generic kind of creative work, including books, movies, photographs,... |  yes  |
 | [SecurechainLicense](../classes/SecurechainLicense.md) | No class (type) description specified |  no  |
-| [HsdoPerson](../classes/HsdoPerson.md) | A person (alive, dead, undead, or fictional) |  no  |
-| [HsdoCreativeWork](../classes/HsdoCreativeWork.md) | The most generic kind of creative work, including books, movies, photographs,... |  no  |
+| [SecurechainVulnerabilityType](../classes/SecurechainVulnerabilityType.md) | No class (type) description specified |  yes  |
 
 
 
@@ -38,7 +42,7 @@ URI: [hsdo:identifier](http://schema.org/identifier)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -47,45 +51,13 @@ URI: [hsdo:identifier](http://schema.org/identifier)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| hsdo_Person → string | schema:Person/0----0 | hsdo:identifier | 0----0 |
-| securechain_Vulnerability → string | securechain:Vulnerability/CVE-1999-0043 | hsdo:identifier | CVE-1999-0043 |
-| securechain_VulnerabilityType → string | securechain:VulnerabilityType/CWE-1 | hsdo:identifier | CWE-1 |
-| hsdo_Organization → string | schema:Organization/1Password | hsdo:identifier | Q2150861 |
-| hsdo_CreativeWork → string | securechain:License/0bsd | hsdo:identifier | 0bsd |
-
-
-## Comments
-
-* 30434 occurrences with subject type hsdo_Person and object type string.
-* 259334 occurrences with subject type securechain_Vulnerability and object type string.
-* 445 occurrences with subject type securechain_VulnerabilityType and object type string.
-* 887 occurrences with subject type hsdo_Organization and object type string.
-* 20 occurrences with subject type hsdo_CreativeWork and object type string.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: secure-chain-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | hsdo:identifier |
-| native | secure-chain-kg/:hsdo_identifier |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| hsdo_Person | string | schema:Person/0----0 | 0----0 | 30434 |
+| securechain_Vulnerability | string | securechain:Vulnerability/CVE-1999-0043 | CVE-1999-0043 | 259334 |
+| securechain_VulnerabilityType | string | securechain:VulnerabilityType/CWE-1 | CWE-1 | 445 |
+| hsdo_Organization | string | schema:Organization/1Password | Q2150861 | 887 |
+| hsdo_CreativeWork | string | securechain:License/0bsd | 0bsd | 20 |
 
 
 
@@ -93,47 +65,44 @@ URI: [hsdo:identifier](http://schema.org/identifier)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: hsdo_identifier
-description: No slot (predicate) description specified
-comments:
-- 30434 occurrences with subject type hsdo_Person and object type string.
-- 259334 occurrences with subject type securechain_Vulnerability and object type string.
-- 445 occurrences with subject type securechain_VulnerabilityType and object type
-  string.
-- 887 occurrences with subject type hsdo_Organization and object type string.
-- 20 occurrences with subject type hsdo_CreativeWork and object type string.
+annotations:
+  count:
+    tag: count
+    value: 291120
+description: 'The identifier property represents any kind of identifier for any kind
+  of [[Thing]], such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated
+  properties for representing many of these, either as textual strings or as URL (URI)
+  links. See [background notes](/docs/datamodel.html#identifierBg) for more details.␊        '
+title: identifier
 examples:
-- description: hsdo_Person → string
-  object:
+- object:
     example_object: 0----0
     example_object_type: string
     example_predicate: hsdo:identifier
     example_subject: schema:Person/0----0
     example_subject_type: hsdo_Person
-- description: securechain_Vulnerability → string
-  object:
+- object:
     example_object: CVE-1999-0043
     example_object_type: string
     example_predicate: hsdo:identifier
     example_subject: securechain:Vulnerability/CVE-1999-0043
     example_subject_type: securechain_Vulnerability
-- description: securechain_VulnerabilityType → string
-  object:
+- object:
     example_object: CWE-1
     example_object_type: string
     example_predicate: hsdo:identifier
     example_subject: securechain:VulnerabilityType/CWE-1
     example_subject_type: securechain_VulnerabilityType
-- description: hsdo_Organization → string
-  object:
+- object:
     example_object: Q2150861
     example_object_type: string
     example_predicate: hsdo:identifier
     example_subject: schema:Organization/1Password
     example_subject_type: hsdo_Organization
-- description: hsdo_CreativeWork → string
-  object:
+- object:
     example_object: 0bsd
     example_object_type: string
     example_predicate: hsdo:identifier

@@ -9,6 +9,10 @@ _No class (type) description specified_
 
 
 
+
+This class occurs 0 times.
+
+
 URI: [securechain:License](https://w3id.org/secure-chain/License)
 
 
@@ -56,10 +60,10 @@ URI: [securechain:License](https://w3id.org/secure-chain/License)
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [hsdo_name](../slots/hsdo_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified | [HsdoCreativeWork](../classes/HsdoCreativeWork.md) |
-| [hsdo_identifier](../slots/hsdo_identifier.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified | [HsdoCreativeWork](../classes/HsdoCreativeWork.md) |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
+| [hsdo_name](../slots/hsdo_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | The name of the item | [HsdoCreativeWork](../classes/HsdoCreativeWork.md) |  |
+| [hsdo_identifier](../slots/hsdo_identifier.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | The identifier property represents any kind of identifier for any kind of [[T... | [HsdoCreativeWork](../classes/HsdoCreativeWork.md) |  |
 
 
 
@@ -67,23 +71,6 @@ URI: [securechain:License](https://w3id.org/secure-chain/License)
 
 
 
-
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | securechain:License |
-| native | secure-chain-kg/:SecurechainLicense |
 
 
 
@@ -98,13 +85,17 @@ URI: [securechain:License](https://w3id.org/secure-chain/License)
 ### Direct
 
 <details>
+
 ```yaml
 name: securechain_License
 conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
 description: No class (type) description specified
 title: No class (type) name specified
-notes:
-- Class with 0 occurrences.
+from_schema: secure-chain-kg
 rank: 1000
 is_a: hsdo_CreativeWork
 class_uri: securechain:License
@@ -115,49 +106,49 @@ class_uri: securechain:License
 ### Induced
 
 <details>
+
 ```yaml
 name: securechain_License
 conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 0
 description: No class (type) description specified
 title: No class (type) name specified
-notes:
-- Class with 0 occurrences.
+from_schema: secure-chain-kg
 rank: 1000
 is_a: hsdo_CreativeWork
 attributes:
   hsdo_name:
     name: hsdo_name
-    description: No slot (predicate) description specified
-    comments:
-    - 53378 occurrences with subject type securechain_Hardware and object type string.
-    - 22002 occurrences with subject type hsdo_Organization and object type string.
-    - 20 occurrences with subject type hsdo_CreativeWork and object type string.
-    - 34466 occurrences with subject type securechain_Software and object type string.
+    annotations:
+      string:
+        tag: string
+        value: 20
+    description: The name of the item.
+    title: name
     examples:
-    - description: securechain_Hardware → string
-      object:
+    - object:
         example_object: '-'
         example_object_type: string
         example_predicate: hsdo:name
         example_subject: securechain:Hardware/-
         example_subject_type: securechain_Hardware
-    - description: hsdo_Organization → string
-      object:
+    - object:
         example_object: '%240.99_kindle_books_project'
         example_object_type: string
         example_predicate: hsdo:name
         example_subject: schema:Organization/%25240.99_kindle_books_project
         example_subject_type: hsdo_Organization
-    - description: hsdo_CreativeWork → string
-      object:
+    - object:
         example_object: Permission to use, copy, modify, and/or distribute this software
           for any
         example_object_type: string
         example_predicate: hsdo:name
         example_subject: securechain:License/0bsd
         example_subject_type: hsdo_CreativeWork
-    - description: securechain_Software → string
-      object:
+    - object:
         example_object: ''
         example_object_type: string
         example_predicate: hsdo:name
@@ -176,46 +167,42 @@ attributes:
     range: string
   hsdo_identifier:
     name: hsdo_identifier
-    description: No slot (predicate) description specified
-    comments:
-    - 30434 occurrences with subject type hsdo_Person and object type string.
-    - 259334 occurrences with subject type securechain_Vulnerability and object type
-      string.
-    - 445 occurrences with subject type securechain_VulnerabilityType and object type
-      string.
-    - 887 occurrences with subject type hsdo_Organization and object type string.
-    - 20 occurrences with subject type hsdo_CreativeWork and object type string.
+    annotations:
+      string:
+        tag: string
+        value: 20
+    description: 'The identifier property represents any kind of identifier for any
+      kind of [[Thing]], such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides
+      dedicated properties for representing many of these, either as textual strings
+      or as URL (URI) links. See [background notes](/docs/datamodel.html#identifierBg)
+      for more details.␊        '
+    title: identifier
     examples:
-    - description: hsdo_Person → string
-      object:
+    - object:
         example_object: 0----0
         example_object_type: string
         example_predicate: hsdo:identifier
         example_subject: schema:Person/0----0
         example_subject_type: hsdo_Person
-    - description: securechain_Vulnerability → string
-      object:
+    - object:
         example_object: CVE-1999-0043
         example_object_type: string
         example_predicate: hsdo:identifier
         example_subject: securechain:Vulnerability/CVE-1999-0043
         example_subject_type: securechain_Vulnerability
-    - description: securechain_VulnerabilityType → string
-      object:
+    - object:
         example_object: CWE-1
         example_object_type: string
         example_predicate: hsdo:identifier
         example_subject: securechain:VulnerabilityType/CWE-1
         example_subject_type: securechain_VulnerabilityType
-    - description: hsdo_Organization → string
-      object:
+    - object:
         example_object: Q2150861
         example_object_type: string
         example_predicate: hsdo:identifier
         example_subject: schema:Organization/1Password
         example_subject_type: hsdo_Organization
-    - description: hsdo_CreativeWork → string
-      object:
+    - object:
         example_object: 0bsd
         example_object_type: string
         example_predicate: hsdo:identifier
