@@ -11,10 +11,10 @@ classes:
     notes:
     - Class with 39 occurrences.
     slots:
-    - prov_wasDerivedFrom
-    - hsdo_identifier
-    - prov_wasInfluencedBy
     - prov_wasGeneratedBy
+    - hsdo_identifier
+    - prov_wasDerivedFrom
+    - prov_wasInfluencedBy
     title: AdministrativeArea
   hsdo_Audience:
     class_uri: hsdo:Audience
@@ -25,10 +25,10 @@ classes:
     notes:
     - Class with 81 occurrences.
     slots:
+    - prov_wasGeneratedBy
     - hsdo_audienceType
     - prov_wasDerivedFrom
     - prov_wasInfluencedBy
-    - prov_wasGeneratedBy
     title: Audience
   hsdo_CategoryCode:
     class_uri: hsdo:CategoryCode
@@ -38,11 +38,11 @@ classes:
     notes:
     - Class with 157 occurrences.
     slots:
+    - hsdo_codeValue
     - prov_wasDerivedFrom
+    - prov_wasGeneratedBy
     - prov_wasInfluencedBy
     - hsdo_inCodeSet
-    - hsdo_codeValue
-    - prov_wasGeneratedBy
     title: CategoryCode
   hsdo_ContactPoint:
     class_uri: hsdo:ContactPoint
@@ -54,9 +54,9 @@ classes:
     slots:
     - prov_wasDerivedFrom
     - prov_influenced
+    - prov_wasGeneratedBy
     - prov_wasInfluencedBy
     - hsdo_telephone
-    - prov_wasGeneratedBy
     title: ContactPoint
   hsdo_OpeningHoursSpecification:
     class_uri: hsdo:OpeningHoursSpecification
@@ -71,13 +71,13 @@ classes:
     notes:
     - Class with 609 occurrences.
     slots:
+    - hsdo_dayOfWeek
     - prov_wasDerivedFrom
     - prov_influenced
-    - hsdo_closes
-    - hsdo_opens
-    - prov_wasInfluencedBy
-    - hsdo_dayOfWeek
     - prov_wasGeneratedBy
+    - prov_wasInfluencedBy
+    - hsdo_opens
+    - hsdo_closes
     title: OpeningHoursSpecification
   hsdo_Organization:
     class_uri: hsdo:Organization
@@ -89,10 +89,10 @@ classes:
     slots:
     - prov_wasDerivedFrom
     - prov_influenced
-    - hsdo_sameAs
-    - prov_wasInfluencedBy
     - hsdo_name
     - prov_wasGeneratedBy
+    - prov_wasInfluencedBy
+    - hsdo_sameAs
     title: Organization
   hsdo_Place:
     class_uri: hsdo:Place
@@ -103,14 +103,14 @@ classes:
     - Class with 87 occurrences.
     slots:
     - hsdo_hasMap
-    - prov_influenced
-    - prov_wasDerivedFrom
     - hsdo_containedInPlace
-    - prov_wasInfluencedBy
-    - prov_wasGeneratedBy
-    - hsdo_latitude
+    - prov_wasDerivedFrom
+    - prov_influenced
     - hsdo_longitude
     - hsdo_address
+    - prov_wasGeneratedBy
+    - hsdo_latitude
+    - prov_wasInfluencedBy
     title: Place
   hsdo_Service:
     class_uri: hsdo:Service
@@ -121,18 +121,18 @@ classes:
     notes:
     - Class with 87 occurrences.
     slots:
-    - prov_wasDerivedFrom
-    - prov_influenced
     - hsdo_areaServed
     - hsdo_description
-    - hsdo_provider
-    - prov_wasInfluencedBy
-    - hsdo_identifier
+    - prov_wasDerivedFrom
+    - prov_influenced
     - hsdo_availableChannel
+    - hsdo_identifier
+    - hsdo_provider
     - hsdo_name
-    - hsdo_category
-    - hsdo_hoursAvailable
     - prov_wasGeneratedBy
+    - hsdo_hoursAvailable
+    - prov_wasInfluencedBy
+    - hsdo_category
     title: Service
   hsdo_ServiceChannel:
     class_uri: hsdo:ServiceChannel
@@ -143,10 +143,10 @@ classes:
     notes:
     - Class with 174 occurrences.
     slots:
-    - hsdo_serviceUrl
     - hsdo_servicePhone
-    - hsdo_serviceLocation
     - hsdo_disambiguatingDescription
+    - hsdo_serviceLocation
+    - hsdo_serviceUrl
     title: ServiceChannel
   hsdo_TextObject:
     class_uri: hsdo:TextObject
@@ -159,10 +159,10 @@ classes:
     slots:
     - prov_wasDerivedFrom
     - prov_influenced
-    - prov_wasInfluencedBy
     - hsdo_conditionsOfAccess
     - prov_wasGeneratedBy
     - hsdo_text
+    - prov_wasInfluencedBy
     title: TextObject
   hsdo_WebPage:
     class_uri: hsdo:WebPage
@@ -190,8 +190,8 @@ classes:
     notes:
     - Class with 1 occurrences.
     slots:
-    - prov_influenced
     - prov_generated
+    - prov_influenced
     title: No class name specified
   prov_Collection:
     class_uri: prov:Collection
@@ -203,8 +203,8 @@ classes:
     notes:
     - Class with 2 occurrences.
     slots:
-    - prov_hadMember
     - prov_wasInfluencedBy
+    - prov_hadMember
     title: No class name specified
   prov_Entity:
     class_uri: prov:Entity
@@ -216,18 +216,18 @@ classes:
     notes:
     - Class with 1586 occurrences.
     slots:
+    - prov_wasGeneratedBy
+    - prov_wasInfluencedBy
     - prov_wasDerivedFrom
     - prov_influenced
-    - prov_wasInfluencedBy
-    - prov_wasGeneratedBy
     title: No class name specified
 conforms_to: No schema conformance document specified
-created_on: '2025-02-19T15:42:10.022757'
+created_on: '2025-02-19T15:45:22.676453'
 description: No schema description specified
 id: dream-kg
 imports:
 - linkml:types
-last_updated_on: '2025-02-19T15:42:10.022757'
+last_updated_on: '2025-02-19T15:45:22.676453'
 license: No schema license specified
 name: dream-kg
 prefixes:
@@ -659,15 +659,15 @@ slots:
   prov_generated:
     any_of:
     - range: hsdo_AdministrativeArea
-    - range: hsdo_Audience
-    - range: hsdo_OpeningHoursSpecification
-    - range: hsdo_TextObject
     - range: hsdo_ContactPoint
     - range: hsdo_CategoryCode
-    - range: hsdo_Organization
+    - range: hsdo_Audience
     - range: hsdo_Service
-    - range: prov_Entity
+    - range: hsdo_Organization
+    - range: hsdo_OpeningHoursSpecification
     - range: hsdo_Place
+    - range: prov_Entity
+    - range: hsdo_TextObject
     comments:
     - 81 occurrences with subject type prov_Activity and object type hsdo_Audience.
     - 157 occurrences with subject type prov_Activity and object type hsdo_CategoryCode.
@@ -755,14 +755,14 @@ slots:
     slot_uri: prov:generated
   prov_hadMember:
     any_of:
+    - range: hsdo_ContactPoint
+    - range: hsdo_Service
+    - range: hsdo_Organization
     - range: hsdo_OpeningHoursSpecification
+    - range: hsdo_Place
+    - range: prov_Entity
     - range: hsdo_TextObject
     - range: hsdo_WebPage
-    - range: hsdo_ContactPoint
-    - range: hsdo_Organization
-    - range: hsdo_Service
-    - range: prov_Entity
-    - range: hsdo_Place
     comments:
     - 87 occurrences with subject type prov_Collection and object type hsdo_Service.
     - 174 occurrences with subject type prov_Collection and object type prov_Entity.
@@ -834,17 +834,17 @@ slots:
     slot_uri: prov:hadMember
   prov_influenced:
     any_of:
-    - range: prov_Collection
     - range: hsdo_AdministrativeArea
-    - range: hsdo_Audience
-    - range: hsdo_OpeningHoursSpecification
-    - range: hsdo_TextObject
     - range: hsdo_ContactPoint
     - range: hsdo_CategoryCode
-    - range: hsdo_Organization
+    - range: hsdo_Audience
     - range: hsdo_Service
-    - range: prov_Entity
+    - range: prov_Collection
+    - range: hsdo_Organization
+    - range: hsdo_OpeningHoursSpecification
     - range: hsdo_Place
+    - range: prov_Entity
+    - range: hsdo_TextObject
     comments:
     - 162 occurrences with subject type prov_Entity and object type hsdo_Audience.
     - 314 occurrences with subject type prov_Entity and object type hsdo_CategoryCode.
@@ -1331,16 +1331,16 @@ slots:
     slot_uri: prov:wasGeneratedBy
   prov_wasInfluencedBy:
     any_of:
-    - range: hsdo_OpeningHoursSpecification
-    - range: hsdo_TextObject
-    - range: hsdo_WebPage
     - range: hsdo_ContactPoint
-    - range: prov_Activity
-    - range: hsdo_Organization
     - range: hsdo_Service
-    - range: uri
-    - range: prov_Entity
+    - range: hsdo_Organization
+    - range: hsdo_OpeningHoursSpecification
     - range: hsdo_Place
+    - range: prov_Activity
+    - range: prov_Entity
+    - range: hsdo_TextObject
+    - range: uri
+    - range: hsdo_WebPage
     comments:
     - 162 occurrences with subject type hsdo_Audience and object type prov_Entity.
     - 243 occurrences with subject type hsdo_Audience and object type uri.
