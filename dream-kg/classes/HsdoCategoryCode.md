@@ -79,10 +79,10 @@ URI: [hsdo:CategoryCode](http://schema.org/CategoryCode)
 | Name | Cardinality and Range | Description | Inheritance |
 | ---  | --- | --- | --- |
 | [prov_wasGeneratedBy](../slots/prov_wasGeneratedBy.md) | 0..1 <br/> [ProvActivity](../classes/ProvActivity.md) | No slot (predicate) description specified <br/> 81 occurrences with subject type hsdo_Audience and object type prov_Activity.<br/>157 occurrences with subject type hsdo_CategoryCode and object type prov_Activity.<br/>87 occurrences with subject type hsdo_Service and object type prov_Activity.<br/>174 occurrences with subject type prov_Entity and object type prov_Activity.<br/>87 occurrences with subject type hsdo_TextObject and object type prov_Activity.<br/>609 occurrences with subject type hsdo_OpeningHoursSpecification and object type prov_Activity.<br/>87 occurrences with subject type hsdo_Place and object type prov_Activity.<br/>87 occurrences with subject type hsdo_ContactPoint and object type prov_Activity.<br/>87 occurrences with subject type hsdo_Organization and object type prov_Activity.<br/>39 occurrences with subject type hsdo_AdministrativeArea and object type prov_Activity. | direct |
-| [hsdo_inCodeSet](../slots/hsdo_inCodeSet.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI) | No slot (predicate) description specified <br/> 157 occurrences with subject type hsdo_CategoryCode and object type uri. | direct |
-| [prov_wasInfluencedBy](../slots/prov_wasInfluencedBy.md) | 0..1 <br/> [HsdoService](../classes/HsdoService.md)&nbsp;or&nbsp;<br />[HsdoContactPoint](../classes/HsdoContactPoint.md)&nbsp;or&nbsp;<br />[xsd:anyURI](xsd:anyURI)&nbsp;or&nbsp;<br />[HsdoTextObject](../classes/HsdoTextObject.md)&nbsp;or&nbsp;<br />[HsdoOrganization](../classes/HsdoOrganization.md)&nbsp;or&nbsp;<br />[ProvEntity](../classes/ProvEntity.md)&nbsp;or&nbsp;<br />[HsdoWebPage](../classes/HsdoWebPage.md)&nbsp;or&nbsp;<br />[HsdoPlace](../classes/HsdoPlace.md)&nbsp;or&nbsp;<br />[HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md)&nbsp;or&nbsp;<br />[ProvActivity](../classes/ProvActivity.md) | No slot (predicate) description specified <br/> 162 occurrences with subject type hsdo_Audience and object type prov_Entity.<br/>243 occurrences with subject type hsdo_Audience and object type uri.<br/>81 occurrences with subject type hsdo_Audience and object type prov_Activity.<br/>314 occurrences with subject type hsdo_CategoryCode and object type prov_Entity.<br/>471 occurrences with subject type hsdo_CategoryCode and object type uri.<br/>157 occurrences with subject type hsdo_CategoryCode and object type prov_Activity.<br/>87 occurrences with subject type prov_Collection and object type hsdo_Service.<br/>174 occurrences with subject type prov_Collection and object type prov_Entity.<br/>87 occurrences with subject type prov_Collection and object type hsdo_TextObject.<br/>609 occurrences with subject type prov_Collection and object type hsdo_OpeningHoursSpecification.<br/>87 occurrences with subject type prov_Collection and object type hsdo_Place.<br/>87 occurrences with subject type prov_Collection and object type hsdo_ContactPoint.<br/>87 occurrences with subject type prov_Collection and object type hsdo_Organization.<br/>87 occurrences with subject type prov_Collection and object type hsdo_WebPage.<br/>174 occurrences with subject type hsdo_Service and object type prov_Entity.<br/>87 occurrences with subject type hsdo_Service and object type prov_Activity.<br/>87 occurrences with subject type hsdo_Service and object type hsdo_WebPage.<br/>348 occurrences with subject type prov_Entity and object type prov_Entity.<br/>174 occurrences with subject type prov_Entity and object type prov_Activity.<br/>174 occurrences with subject type prov_Entity and object type hsdo_WebPage.<br/>174 occurrences with subject type hsdo_TextObject and object type prov_Entity.<br/>87 occurrences with subject type hsdo_TextObject and object type prov_Activity.<br/>87 occurrences with subject type hsdo_TextObject and object type hsdo_WebPage.<br/>1218 occurrences with subject type hsdo_OpeningHoursSpecification and object type prov_Entity.<br/>609 occurrences with subject type hsdo_OpeningHoursSpecification and object type prov_Activity.<br/>609 occurrences with subject type hsdo_OpeningHoursSpecification and object type hsdo_WebPage.<br/>174 occurrences with subject type hsdo_Place and object type prov_Entity.<br/>87 occurrences with subject type hsdo_Place and object type prov_Activity.<br/>87 occurrences with subject type hsdo_Place and object type hsdo_WebPage.<br/>174 occurrences with subject type hsdo_ContactPoint and object type prov_Entity.<br/>87 occurrences with subject type hsdo_ContactPoint and object type prov_Activity.<br/>87 occurrences with subject type hsdo_ContactPoint and object type hsdo_WebPage.<br/>174 occurrences with subject type hsdo_Organization and object type prov_Entity.<br/>87 occurrences with subject type hsdo_Organization and object type prov_Activity.<br/>87 occurrences with subject type hsdo_Organization and object type hsdo_WebPage.<br/>78 occurrences with subject type hsdo_AdministrativeArea and object type prov_Entity.<br/>117 occurrences with subject type hsdo_AdministrativeArea and object type uri.<br/>39 occurrences with subject type hsdo_AdministrativeArea and object type prov_Activity. | direct |
-| [hsdo_codeValue](../slots/hsdo_codeValue.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 158 occurrences with subject type hsdo_CategoryCode and object type string. | direct |
+| [prov_wasInfluencedBy](../slots/prov_wasInfluencedBy.md) | 0..1 <br/> [HsdoPlace](../classes/HsdoPlace.md)&nbsp;or&nbsp;<br />[HsdoService](../classes/HsdoService.md)&nbsp;or&nbsp;<br />[HsdoWebPage](../classes/HsdoWebPage.md)&nbsp;or&nbsp;<br />[ProvActivity](../classes/ProvActivity.md)&nbsp;or&nbsp;<br />[ProvEntity](../classes/ProvEntity.md)&nbsp;or&nbsp;<br />[HsdoOrganization](../classes/HsdoOrganization.md)&nbsp;or&nbsp;<br />[HsdoTextObject](../classes/HsdoTextObject.md)&nbsp;or&nbsp;<br />[HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md)&nbsp;or&nbsp;<br />[HsdoContactPoint](../classes/HsdoContactPoint.md)&nbsp;or&nbsp;<br />[xsd:anyURI](xsd:anyURI) | No slot (predicate) description specified <br/> 162 occurrences with subject type hsdo_Audience and object type prov_Entity.<br/>243 occurrences with subject type hsdo_Audience and object type uri.<br/>81 occurrences with subject type hsdo_Audience and object type prov_Activity.<br/>314 occurrences with subject type hsdo_CategoryCode and object type prov_Entity.<br/>471 occurrences with subject type hsdo_CategoryCode and object type uri.<br/>157 occurrences with subject type hsdo_CategoryCode and object type prov_Activity.<br/>87 occurrences with subject type prov_Collection and object type hsdo_Service.<br/>174 occurrences with subject type prov_Collection and object type prov_Entity.<br/>87 occurrences with subject type prov_Collection and object type hsdo_TextObject.<br/>609 occurrences with subject type prov_Collection and object type hsdo_OpeningHoursSpecification.<br/>87 occurrences with subject type prov_Collection and object type hsdo_Place.<br/>87 occurrences with subject type prov_Collection and object type hsdo_ContactPoint.<br/>87 occurrences with subject type prov_Collection and object type hsdo_Organization.<br/>87 occurrences with subject type prov_Collection and object type hsdo_WebPage.<br/>174 occurrences with subject type hsdo_Service and object type prov_Entity.<br/>87 occurrences with subject type hsdo_Service and object type prov_Activity.<br/>87 occurrences with subject type hsdo_Service and object type hsdo_WebPage.<br/>348 occurrences with subject type prov_Entity and object type prov_Entity.<br/>174 occurrences with subject type prov_Entity and object type prov_Activity.<br/>174 occurrences with subject type prov_Entity and object type hsdo_WebPage.<br/>174 occurrences with subject type hsdo_TextObject and object type prov_Entity.<br/>87 occurrences with subject type hsdo_TextObject and object type prov_Activity.<br/>87 occurrences with subject type hsdo_TextObject and object type hsdo_WebPage.<br/>1218 occurrences with subject type hsdo_OpeningHoursSpecification and object type prov_Entity.<br/>609 occurrences with subject type hsdo_OpeningHoursSpecification and object type prov_Activity.<br/>609 occurrences with subject type hsdo_OpeningHoursSpecification and object type hsdo_WebPage.<br/>174 occurrences with subject type hsdo_Place and object type prov_Entity.<br/>87 occurrences with subject type hsdo_Place and object type prov_Activity.<br/>87 occurrences with subject type hsdo_Place and object type hsdo_WebPage.<br/>174 occurrences with subject type hsdo_ContactPoint and object type prov_Entity.<br/>87 occurrences with subject type hsdo_ContactPoint and object type prov_Activity.<br/>87 occurrences with subject type hsdo_ContactPoint and object type hsdo_WebPage.<br/>174 occurrences with subject type hsdo_Organization and object type prov_Entity.<br/>87 occurrences with subject type hsdo_Organization and object type prov_Activity.<br/>87 occurrences with subject type hsdo_Organization and object type hsdo_WebPage.<br/>78 occurrences with subject type hsdo_AdministrativeArea and object type prov_Entity.<br/>117 occurrences with subject type hsdo_AdministrativeArea and object type uri.<br/>39 occurrences with subject type hsdo_AdministrativeArea and object type prov_Activity. | direct |
 | [prov_wasDerivedFrom](../slots/prov_wasDerivedFrom.md) | 0..1 <br/> [ProvEntity](../classes/ProvEntity.md) | No slot (predicate) description specified <br/> 162 occurrences with subject type hsdo_Audience and object type prov_Entity.<br/>314 occurrences with subject type hsdo_CategoryCode and object type prov_Entity.<br/>174 occurrences with subject type hsdo_Service and object type prov_Entity.<br/>348 occurrences with subject type prov_Entity and object type prov_Entity.<br/>174 occurrences with subject type hsdo_TextObject and object type prov_Entity.<br/>1218 occurrences with subject type hsdo_OpeningHoursSpecification and object type prov_Entity.<br/>174 occurrences with subject type hsdo_Place and object type prov_Entity.<br/>174 occurrences with subject type hsdo_ContactPoint and object type prov_Entity.<br/>174 occurrences with subject type hsdo_Organization and object type prov_Entity.<br/>78 occurrences with subject type hsdo_AdministrativeArea and object type prov_Entity. | direct |
+| [hsdo_inCodeSet](../slots/hsdo_inCodeSet.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI) | No slot (predicate) description specified <br/> 157 occurrences with subject type hsdo_CategoryCode and object type uri. | direct |
+| [hsdo_codeValue](../slots/hsdo_codeValue.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 158 occurrences with subject type hsdo_CategoryCode and object type string. | direct |
 
 
 
@@ -96,12 +96,12 @@ URI: [hsdo:CategoryCode](http://schema.org/CategoryCode)
 | [HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [HsdoCategoryCode](../classes/HsdoCategoryCode.md) |
 | [HsdoOrganization](../classes/HsdoOrganization.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [HsdoCategoryCode](../classes/HsdoCategoryCode.md) |
 | [HsdoPlace](../classes/HsdoPlace.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [HsdoCategoryCode](../classes/HsdoCategoryCode.md) |
-| [HsdoService](../classes/HsdoService.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [HsdoCategoryCode](../classes/HsdoCategoryCode.md) |
 | [HsdoService](../classes/HsdoService.md) | [hsdo_category](../slots/hsdo_category.md) | any_of[range] | [HsdoCategoryCode](../classes/HsdoCategoryCode.md) |
+| [HsdoService](../classes/HsdoService.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [HsdoCategoryCode](../classes/HsdoCategoryCode.md) |
 | [HsdoTextObject](../classes/HsdoTextObject.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [HsdoCategoryCode](../classes/HsdoCategoryCode.md) |
 | [HsdoWebPage](../classes/HsdoWebPage.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [HsdoCategoryCode](../classes/HsdoCategoryCode.md) |
-| [ProvActivity](../classes/ProvActivity.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [HsdoCategoryCode](../classes/HsdoCategoryCode.md) |
 | [ProvActivity](../classes/ProvActivity.md) | [prov_generated](../slots/prov_generated.md) | any_of[range] | [HsdoCategoryCode](../classes/HsdoCategoryCode.md) |
+| [ProvActivity](../classes/ProvActivity.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [HsdoCategoryCode](../classes/HsdoCategoryCode.md) |
 | [ProvEntity](../classes/ProvEntity.md) | [prov_influenced](../slots/prov_influenced.md) | any_of[range] | [HsdoCategoryCode](../classes/HsdoCategoryCode.md) |
 
 
@@ -156,10 +156,10 @@ from_schema: dream-kg
 rank: 1000
 slots:
 - prov_wasGeneratedBy
-- hsdo_inCodeSet
 - prov_wasInfluencedBy
-- hsdo_codeValue
 - prov_wasDerivedFrom
+- hsdo_inCodeSet
+- hsdo_codeValue
 class_uri: hsdo:CategoryCode
 
 ```
@@ -281,27 +281,6 @@ attributes:
     - hsdo_TextObject
     - prov_Entity
     range: prov_Activity
-  hsdo_inCodeSet:
-    name: hsdo_inCodeSet
-    description: No slot (predicate) description specified
-    comments:
-    - 157 occurrences with subject type hsdo_CategoryCode and object type uri.
-    examples:
-    - description: hsdo_CategoryCode → uri
-      object:
-        example_object: dreamkg:__CategoryCodeSet_Availability
-        example_object_type: uri
-        example_predicate: hsdo:inCodeSet
-        example_subject: dreamkg:category/availability/Available
-        example_subject_type: hsdo_CategoryCode
-    from_schema: dream-kg
-    rank: 1000
-    slot_uri: hsdo:inCodeSet
-    alias: hsdo_inCodeSet
-    owner: hsdo_CategoryCode
-    domain_of:
-    - hsdo_CategoryCode
-    range: uri
   prov_wasInfluencedBy:
     name: prov_wasInfluencedBy
     description: No slot (predicate) description specified
@@ -633,37 +612,16 @@ attributes:
     - prov_Entity
     range: Any
     any_of:
+    - range: hsdo_Place
     - range: hsdo_Service
+    - range: hsdo_WebPage
+    - range: prov_Activity
+    - range: prov_Entity
+    - range: hsdo_Organization
+    - range: hsdo_TextObject
+    - range: hsdo_OpeningHoursSpecification
     - range: hsdo_ContactPoint
     - range: uri
-    - range: hsdo_TextObject
-    - range: hsdo_Organization
-    - range: prov_Entity
-    - range: hsdo_WebPage
-    - range: hsdo_Place
-    - range: hsdo_OpeningHoursSpecification
-    - range: prov_Activity
-  hsdo_codeValue:
-    name: hsdo_codeValue
-    description: No slot (predicate) description specified
-    comments:
-    - 158 occurrences with subject type hsdo_CategoryCode and object type string.
-    examples:
-    - description: hsdo_CategoryCode → string
-      object:
-        example_object: available
-        example_object_type: string
-        example_predicate: hsdo:codeValue
-        example_subject: dreamkg:category/availability/Available
-        example_subject_type: hsdo_CategoryCode
-    from_schema: dream-kg
-    rank: 1000
-    slot_uri: hsdo:codeValue
-    alias: hsdo_codeValue
-    owner: hsdo_CategoryCode
-    domain_of:
-    - hsdo_CategoryCode
-    range: string
   prov_wasDerivedFrom:
     name: prov_wasDerivedFrom
     description: No slot (predicate) description specified
@@ -767,6 +725,48 @@ attributes:
     - hsdo_TextObject
     - prov_Entity
     range: prov_Entity
+  hsdo_inCodeSet:
+    name: hsdo_inCodeSet
+    description: No slot (predicate) description specified
+    comments:
+    - 157 occurrences with subject type hsdo_CategoryCode and object type uri.
+    examples:
+    - description: hsdo_CategoryCode → uri
+      object:
+        example_object: dreamkg:__CategoryCodeSet_Availability
+        example_object_type: uri
+        example_predicate: hsdo:inCodeSet
+        example_subject: dreamkg:category/availability/Available
+        example_subject_type: hsdo_CategoryCode
+    from_schema: dream-kg
+    rank: 1000
+    slot_uri: hsdo:inCodeSet
+    alias: hsdo_inCodeSet
+    owner: hsdo_CategoryCode
+    domain_of:
+    - hsdo_CategoryCode
+    range: uri
+  hsdo_codeValue:
+    name: hsdo_codeValue
+    description: No slot (predicate) description specified
+    comments:
+    - 158 occurrences with subject type hsdo_CategoryCode and object type string.
+    examples:
+    - description: hsdo_CategoryCode → string
+      object:
+        example_object: available
+        example_object_type: string
+        example_predicate: hsdo:codeValue
+        example_subject: dreamkg:category/availability/Available
+        example_subject_type: hsdo_CategoryCode
+    from_schema: dream-kg
+    rank: 1000
+    slot_uri: hsdo:codeValue
+    alias: hsdo_codeValue
+    owner: hsdo_CategoryCode
+    domain_of:
+    - hsdo_CategoryCode
+    range: string
 class_uri: hsdo:CategoryCode
 
 ```
