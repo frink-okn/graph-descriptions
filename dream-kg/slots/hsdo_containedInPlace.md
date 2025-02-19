@@ -1,16 +1,12 @@
 
 
-# Slot: containedInPlace (hsdo_containedInPlace)
+# Slot: hsdo_containedInPlace
 
 
-_The basic containment relation between a place and one that contains it._
-
-
-
+_No slot (predicate) description specified_
 
 
 
-This slot occurs 88 times.
 
 
 URI: [hsdo:containedInPlace](http://schema.org/containedInPlace)
@@ -27,7 +23,7 @@ URI: [hsdo:containedInPlace](http://schema.org/containedInPlace)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoPlace](../classes/HsdoPlace.md) | Entities that have a somewhat fixed, physical extension |  yes  |
+| [HsdoPlace](../classes/HsdoPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
 
 
 
@@ -46,9 +42,37 @@ URI: [hsdo:containedInPlace](http://schema.org/containedInPlace)
 
 ## Examples
 
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| hsdo_Place | hsdo_AdministrativeArea | dreamkg:service/location/5552002522939392 | dreamkg:zip/19140 | 88 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| hsdo_Place → hsdo_AdministrativeArea | dreamkg:service/location/6710596967858176 | hsdo:containedInPlace | dreamkg:zip/19104 |
+
+
+## Comments
+
+* 88 occurrences with subject type hsdo_Place and object type hsdo_AdministrativeArea.
+
+## Identifier and Mapping Information
+
+
+
+
+
+
+
+### Schema Source
+
+
+* from schema: dream-kg
+
+
+
+
+## Mappings
+
+| Mapping Type | Mapped Value |
+| ---  | ---  |
+| self | hsdo:containedInPlace |
+| native | dream-kg/:hsdo_containedInPlace |
 
 
 
@@ -56,23 +80,18 @@ URI: [hsdo:containedInPlace](http://schema.org/containedInPlace)
 ## LinkML Source
 
 <details>
-
 ```yaml
 name: hsdo_containedInPlace
-annotations:
-  count:
-    tag: count
-    value: 88
-description: The basic containment relation between a place and one that contains
-  it.
-title: containedInPlace
+description: No slot (predicate) description specified
+comments:
+- 88 occurrences with subject type hsdo_Place and object type hsdo_AdministrativeArea.
 examples:
-- description: hsdo_Place→hsdo_AdministrativeArea
+- description: hsdo_Place → hsdo_AdministrativeArea
   object:
-    example_object: dreamkg:zip/19140
+    example_object: dreamkg:zip/19104
     example_object_type: hsdo_AdministrativeArea
     example_predicate: hsdo:containedInPlace
-    example_subject: dreamkg:service/location/5552002522939392
+    example_subject: dreamkg:service/location/6710596967858176
     example_subject_type: hsdo_Place
 from_schema: dream-kg
 rank: 1000

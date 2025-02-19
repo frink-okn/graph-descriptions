@@ -1,16 +1,12 @@
 
 
-# Slot: category (hsdo_category)
+# Slot: hsdo_category
 
 
-_A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy._
-
-
-
+_No slot (predicate) description specified_
 
 
 
-This slot occurs 1345 times.
 
 
 URI: [hsdo:category](http://schema.org/category)
@@ -27,7 +23,7 @@ URI: [hsdo:category](http://schema.org/category)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  yes  |
+| [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  no  |
 
 
 
@@ -46,10 +42,39 @@ URI: [hsdo:category](http://schema.org/category)
 
 ## Examples
 
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| hsdo_Service | hsdo_CategoryCode | dreamkg:service/6379467169595392 | dreamkg:category/service/main/AddictionAndRecovery | 806 |
-| hsdo_Service | hsdo_Audience | dreamkg:service/6379467169595392 | dreamkg:category/audience/SubstanceDependency | 539 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| hsdo_Service → hsdo_Audience | dreamkg:service/6710596967858176 | hsdo:category | dreamkg:category/audience/Veterans |
+| hsdo_Service → hsdo_CategoryCode | dreamkg:service/6710596967858176 | hsdo:category | dreamkg:category/service/other/SkillsAndTraining |
+
+
+## Comments
+
+* 539 occurrences with subject type hsdo_Service and object type hsdo_Audience.
+* 806 occurrences with subject type hsdo_Service and object type hsdo_CategoryCode.
+
+## Identifier and Mapping Information
+
+
+
+
+
+
+
+### Schema Source
+
+
+* from schema: dream-kg
+
+
+
+
+## Mappings
+
+| Mapping Type | Mapped Value |
+| ---  | ---  |
+| self | hsdo:category |
+| native | dream-kg/:hsdo_category |
 
 
 
@@ -57,30 +82,26 @@ URI: [hsdo:category](http://schema.org/category)
 ## LinkML Source
 
 <details>
-
 ```yaml
 name: hsdo_category
-annotations:
-  count:
-    tag: count
-    value: 1345
-description: A category for the item. Greater signs or slashes can be used to informally
-  indicate a category hierarchy.
-title: category
+description: No slot (predicate) description specified
+comments:
+- 539 occurrences with subject type hsdo_Service and object type hsdo_Audience.
+- 806 occurrences with subject type hsdo_Service and object type hsdo_CategoryCode.
 examples:
-- description: hsdo_Service→hsdo_CategoryCode
+- description: hsdo_Service → hsdo_Audience
   object:
-    example_object: dreamkg:category/service/main/AddictionAndRecovery
-    example_object_type: hsdo_CategoryCode
-    example_predicate: hsdo:category
-    example_subject: dreamkg:service/6379467169595392
-    example_subject_type: hsdo_Service
-- description: hsdo_Service→hsdo_Audience
-  object:
-    example_object: dreamkg:category/audience/SubstanceDependency
+    example_object: dreamkg:category/audience/Veterans
     example_object_type: hsdo_Audience
     example_predicate: hsdo:category
-    example_subject: dreamkg:service/6379467169595392
+    example_subject: dreamkg:service/6710596967858176
+    example_subject_type: hsdo_Service
+- description: hsdo_Service → hsdo_CategoryCode
+  object:
+    example_object: dreamkg:category/service/other/SkillsAndTraining
+    example_object_type: hsdo_CategoryCode
+    example_predicate: hsdo:category
+    example_subject: dreamkg:service/6710596967858176
     example_subject_type: hsdo_Service
 from_schema: dream-kg
 rank: 1000

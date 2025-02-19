@@ -1,16 +1,12 @@
 
 
-# Slot: inCodeSet (hsdo_inCodeSet)
+# Slot: hsdo_inCodeSet
 
 
-_A [[CategoryCodeSet]] that contains this category code._
-
-
-
+_No slot (predicate) description specified_
 
 
 
-This slot occurs 157 times.
 
 
 URI: [hsdo:inCodeSet](http://schema.org/inCodeSet)
@@ -27,7 +23,7 @@ URI: [hsdo:inCodeSet](http://schema.org/inCodeSet)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoCategoryCode](../classes/HsdoCategoryCode.md) | A Category Code |  yes  |
+| [HsdoCategoryCode](../classes/HsdoCategoryCode.md) | A Category Code |  no  |
 
 
 
@@ -37,7 +33,7 @@ URI: [hsdo:inCodeSet](http://schema.org/inCodeSet)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [xsd:anyURI](xsd:anyURI)
 
 
 
@@ -46,9 +42,37 @@ URI: [hsdo:inCodeSet](http://schema.org/inCodeSet)
 
 ## Examples
 
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| hsdo_CategoryCode | uri | dreamkg:category/service/main/ResidentialCare | dreamkg:_CategoryCodeSet_Services_Main | 157 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| hsdo_CategoryCode → uri | dreamkg:category/availability/Available | hsdo:inCodeSet | dreamkg:__CategoryCodeSet_Availability |
+
+
+## Comments
+
+* 157 occurrences with subject type hsdo_CategoryCode and object type uri.
+
+## Identifier and Mapping Information
+
+
+
+
+
+
+
+### Schema Source
+
+
+* from schema: dream-kg
+
+
+
+
+## Mappings
+
+| Mapping Type | Mapped Value |
+| ---  | ---  |
+| self | hsdo:inCodeSet |
+| native | dream-kg/:hsdo_inCodeSet |
 
 
 
@@ -56,22 +80,18 @@ URI: [hsdo:inCodeSet](http://schema.org/inCodeSet)
 ## LinkML Source
 
 <details>
-
 ```yaml
 name: hsdo_inCodeSet
-annotations:
-  count:
-    tag: count
-    value: 157
-description: A [[CategoryCodeSet]] that contains this category code.
-title: inCodeSet
+description: No slot (predicate) description specified
+comments:
+- 157 occurrences with subject type hsdo_CategoryCode and object type uri.
 examples:
-- description: hsdo_CategoryCode→uri
+- description: hsdo_CategoryCode → uri
   object:
-    example_object: dreamkg:_CategoryCodeSet_Services_Main
+    example_object: dreamkg:__CategoryCodeSet_Availability
     example_object_type: uri
     example_predicate: hsdo:inCodeSet
-    example_subject: dreamkg:category/service/main/ResidentialCare
+    example_subject: dreamkg:category/availability/Available
     example_subject_type: hsdo_CategoryCode
 from_schema: dream-kg
 rank: 1000

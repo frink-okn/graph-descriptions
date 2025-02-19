@@ -1,16 +1,12 @@
 
 
-# Slot: hoursAvailable (hsdo_hoursAvailable)
+# Slot: hsdo_hoursAvailable
 
 
-_The hours during which this service or contact is available._
-
-
-
+_No slot (predicate) description specified_
 
 
 
-This slot occurs 609 times.
 
 
 URI: [hsdo:hoursAvailable](http://schema.org/hoursAvailable)
@@ -27,7 +23,7 @@ URI: [hsdo:hoursAvailable](http://schema.org/hoursAvailable)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  yes  |
+| [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  no  |
 
 
 
@@ -46,9 +42,37 @@ URI: [hsdo:hoursAvailable](http://schema.org/hoursAvailable)
 
 ## Examples
 
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| hsdo_Service | hsdo_OpeningHoursSpecification | dreamkg:service/6379467169595392 | dreamkg:service/hours/sunday/6379467169595392 | 609 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| hsdo_Service → hsdo_OpeningHoursSpecification | dreamkg:service/6710596967858176 | hsdo:hoursAvailable | dreamkg:service/hours/wednesday/6710596967858176 |
+
+
+## Comments
+
+* 609 occurrences with subject type hsdo_Service and object type hsdo_OpeningHoursSpecification.
+
+## Identifier and Mapping Information
+
+
+
+
+
+
+
+### Schema Source
+
+
+* from schema: dream-kg
+
+
+
+
+## Mappings
+
+| Mapping Type | Mapped Value |
+| ---  | ---  |
+| self | hsdo:hoursAvailable |
+| native | dream-kg/:hsdo_hoursAvailable |
 
 
 
@@ -56,22 +80,18 @@ URI: [hsdo:hoursAvailable](http://schema.org/hoursAvailable)
 ## LinkML Source
 
 <details>
-
 ```yaml
 name: hsdo_hoursAvailable
-annotations:
-  count:
-    tag: count
-    value: 609
-description: The hours during which this service or contact is available.
-title: hoursAvailable
+description: No slot (predicate) description specified
+comments:
+- 609 occurrences with subject type hsdo_Service and object type hsdo_OpeningHoursSpecification.
 examples:
-- description: hsdo_Service→hsdo_OpeningHoursSpecification
+- description: hsdo_Service → hsdo_OpeningHoursSpecification
   object:
-    example_object: dreamkg:service/hours/sunday/6379467169595392
+    example_object: dreamkg:service/hours/wednesday/6710596967858176
     example_object_type: hsdo_OpeningHoursSpecification
     example_predicate: hsdo:hoursAvailable
-    example_subject: dreamkg:service/6379467169595392
+    example_subject: dreamkg:service/6710596967858176
     example_subject_type: hsdo_Service
 from_schema: dream-kg
 rank: 1000
