@@ -23,15 +23,15 @@ URI: [prov:influenced](http://www.w3.org/ns/prov#influenced)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoTextObject](../classes/HsdoTextObject.md) | A text file |  no  |
-| [HsdoOrganization](../classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
-| [HsdoPlace](../classes/HsdoPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
-| [HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md) | A structured value providing information about the opening hours of a place o... |  no  |
-| [ProvEntity](../classes/ProvEntity.md) | No class (type) description specified |  no  |
-| [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  no  |
 | [ProvActivity](../classes/ProvActivity.md) | No class (type) description specified |  no  |
+| [HsdoTextObject](../classes/HsdoTextObject.md) | A text file |  no  |
+| [ProvEntity](../classes/ProvEntity.md) | No class (type) description specified |  no  |
 | [HsdoContactPoint](../classes/HsdoContactPoint.md) | A contact point&#x2014;for example, a Customer Complaints department |  no  |
+| [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  no  |
+| [HsdoPlace](../classes/HsdoPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
 | [HsdoWebPage](../classes/HsdoWebPage.md) | A web page |  no  |
+| [HsdoOrganization](../classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
+| [HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md) | A structured value providing information about the opening hours of a place o... |  no  |
 
 
 
@@ -41,7 +41,7 @@ URI: [prov:influenced](http://www.w3.org/ns/prov#influenced)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md)&nbsp;or&nbsp;<br />[HsdoTextObject](../classes/HsdoTextObject.md)&nbsp;or&nbsp;<br />[HsdoCategoryCode](../classes/HsdoCategoryCode.md)&nbsp;or&nbsp;<br />[HsdoService](../classes/HsdoService.md)&nbsp;or&nbsp;<br />[ProvEntity](../classes/ProvEntity.md)&nbsp;or&nbsp;<br />[HsdoAudience](../classes/HsdoAudience.md)&nbsp;or&nbsp;<br />[ProvCollection](../classes/ProvCollection.md)&nbsp;or&nbsp;<br />[HsdoPlace](../classes/HsdoPlace.md)&nbsp;or&nbsp;<br />[HsdoAdministrativeArea](../classes/HsdoAdministrativeArea.md)&nbsp;or&nbsp;<br />[HsdoContactPoint](../classes/HsdoContactPoint.md)&nbsp;or&nbsp;<br />[HsdoOrganization](../classes/HsdoOrganization.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HsdoService](../classes/HsdoService.md)&nbsp;or&nbsp;<br />[HsdoOrganization](../classes/HsdoOrganization.md)&nbsp;or&nbsp;<br />[HsdoTextObject](../classes/HsdoTextObject.md)&nbsp;or&nbsp;<br />[HsdoAudience](../classes/HsdoAudience.md)&nbsp;or&nbsp;<br />[ProvCollection](../classes/ProvCollection.md)&nbsp;or&nbsp;<br />[HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md)&nbsp;or&nbsp;<br />[HsdoAdministrativeArea](../classes/HsdoAdministrativeArea.md)&nbsp;or&nbsp;<br />[ProvEntity](../classes/ProvEntity.md)&nbsp;or&nbsp;<br />[HsdoPlace](../classes/HsdoPlace.md)&nbsp;or&nbsp;<br />[HsdoContactPoint](../classes/HsdoContactPoint.md)&nbsp;or&nbsp;<br />[HsdoCategoryCode](../classes/HsdoCategoryCode.md)
 
 
 
@@ -488,17 +488,17 @@ domain_of:
 - prov_Entity
 range: Any
 any_of:
-- range: hsdo_OpeningHoursSpecification
-- range: hsdo_TextObject
-- range: hsdo_CategoryCode
 - range: hsdo_Service
-- range: prov_Entity
+- range: hsdo_Organization
+- range: hsdo_TextObject
 - range: hsdo_Audience
 - range: prov_Collection
-- range: hsdo_Place
+- range: hsdo_OpeningHoursSpecification
 - range: hsdo_AdministrativeArea
+- range: prov_Entity
+- range: hsdo_Place
 - range: hsdo_ContactPoint
-- range: hsdo_Organization
+- range: hsdo_CategoryCode
 
 ```
 </details>
