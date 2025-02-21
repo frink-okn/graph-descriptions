@@ -1,16 +1,12 @@
 
 
-# Slot: serviceUrl (hsdo_serviceUrl)
+# Slot: hsdo_serviceUrl
 
 
-_The website to access the service._
-
-
-
+_No slot (predicate) description specified_
 
 
 
-This slot occurs 188 times.
 
 
 URI: [hsdo:serviceUrl](http://schema.org/serviceUrl)
@@ -27,7 +23,7 @@ URI: [hsdo:serviceUrl](http://schema.org/serviceUrl)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoServiceChannel](../classes/HsdoServiceChannel.md) | A means for accessing a service, e |  yes  |
+| [HsdoServiceChannel](../classes/HsdoServiceChannel.md) | A means for accessing a service, e |  no  |
 
 
 
@@ -37,7 +33,7 @@ URI: [hsdo:serviceUrl](http://schema.org/serviceUrl)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [xsd:anyURI](xsd:anyURI)
 
 
 
@@ -46,9 +42,37 @@ URI: [hsdo:serviceUrl](http://schema.org/serviceUrl)
 
 ## Examples
 
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| hsdo_ServiceChannel | uri | dreamkg:service/channel/AB-5922109384294400 | https://www.auntbertha.com//catholic-social-services-of-the-archdiocese-of-philadelphia---saint-john%2527s-hospice-%2528sjh%2529--philadelphia-pa--good-shepherd/5922109384294400?postal=19102 | 188 |
+| Types involved | Subject | Predicate | Object |
+| --- | --- | --- | --- |
+| hsdo_ServiceChannel → uri | dreamkg:service/channel/AB-4542572480692224 | hsdo:serviceUrl | https://www.auntbertha.com//child-guidance-resource-centers-%2528cgrc%2529--philadelphia-pa--drug-and-alcohol-services/4542572480692224?postal=19139 |
+
+
+## Comments
+
+* 188 occurrences with subject type hsdo_ServiceChannel and object type uri.
+
+## Identifier and Mapping Information
+
+
+
+
+
+
+
+### Schema Source
+
+
+* from schema: dream-kg
+
+
+
+
+## Mappings
+
+| Mapping Type | Mapped Value |
+| ---  | ---  |
+| self | hsdo:serviceUrl |
+| native | dream-kg/:hsdo_serviceUrl |
 
 
 
@@ -56,22 +80,18 @@ URI: [hsdo:serviceUrl](http://schema.org/serviceUrl)
 ## LinkML Source
 
 <details>
-
 ```yaml
 name: hsdo_serviceUrl
-annotations:
-  count:
-    tag: count
-    value: 188
-description: The website to access the service.
-title: serviceUrl
+description: No slot (predicate) description specified
+comments:
+- 188 occurrences with subject type hsdo_ServiceChannel and object type uri.
 examples:
-- description: hsdo_ServiceChannel→uri
+- description: hsdo_ServiceChannel → uri
   object:
-    example_object: https://www.auntbertha.com//catholic-social-services-of-the-archdiocese-of-philadelphia---saint-john%2527s-hospice-%2528sjh%2529--philadelphia-pa--good-shepherd/5922109384294400?postal=19102
+    example_object: https://www.auntbertha.com//child-guidance-resource-centers-%2528cgrc%2529--philadelphia-pa--drug-and-alcohol-services/4542572480692224?postal=19139
     example_object_type: uri
     example_predicate: hsdo:serviceUrl
-    example_subject: dreamkg:service/channel/AB-5922109384294400
+    example_subject: dreamkg:service/channel/AB-4542572480692224
     example_subject_type: hsdo_ServiceChannel
 from_schema: dream-kg
 rank: 1000
