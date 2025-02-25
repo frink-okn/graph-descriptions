@@ -37,7 +37,7 @@ URI: [hsdo:serviceLocation](http://schema.org/serviceLocation)
 
 ## Properties
 
-* Range: [HsdoPlace](../classes/HsdoPlace.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ProvEntity](../classes/ProvEntity.md)&nbsp;or&nbsp;<br />[HsdoPlace](../classes/HsdoPlace.md)
 
 
 
@@ -48,7 +48,8 @@ URI: [hsdo:serviceLocation](http://schema.org/serviceLocation)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| hsdo_ServiceChannel | hsdo_Place | dreamkg:service/channel/P-6354456388829184 | dreamkg:service/location/6354456388829184 | 87 |
+| hsdo_ServiceChannel | prov_Entity | dreamkg:service/channel/P-4542572480692224 | dreamkg:service/location/4542572480692224 | 87 |
+| hsdo_ServiceChannel | hsdo_Place | dreamkg:service/channel/P-4542572480692224 | dreamkg:service/location/4542572480692224 | 87 |
 
 
 
@@ -67,12 +68,17 @@ description: The location (e.g. civic structure, local business, etc.) where a p
   can go to access the service.
 title: serviceLocation
 examples:
-- description: hsdo_ServiceChannel→hsdo_Place
-  object:
-    example_object: dreamkg:service/location/6354456388829184
+- object:
+    example_object: dreamkg:service/location/4542572480692224
+    example_object_type: prov_Entity
+    example_predicate: hsdo:serviceLocation
+    example_subject: dreamkg:service/channel/P-4542572480692224
+    example_subject_type: hsdo_ServiceChannel
+- object:
+    example_object: dreamkg:service/location/4542572480692224
     example_object_type: hsdo_Place
     example_predicate: hsdo:serviceLocation
-    example_subject: dreamkg:service/channel/P-6354456388829184
+    example_subject: dreamkg:service/channel/P-4542572480692224
     example_subject_type: hsdo_ServiceChannel
 from_schema: dream-kg
 rank: 1000
@@ -80,7 +86,10 @@ slot_uri: hsdo:serviceLocation
 alias: hsdo_serviceLocation
 domain_of:
 - hsdo_ServiceChannel
-range: hsdo_Place
+range: Any
+any_of:
+- range: prov_Entity
+- range: hsdo_Place
 
 ```
 </details>

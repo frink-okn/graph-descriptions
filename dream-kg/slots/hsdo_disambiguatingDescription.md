@@ -48,7 +48,7 @@ URI: [hsdo:disambiguatingDescription](http://schema.org/disambiguatingDescriptio
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| hsdo_ServiceChannel | string | dreamkg:service/channel/AB-5922109384294400 | Aunt Bertha | 174 |
+| hsdo_ServiceChannel | string | dreamkg:service/channel/AB-4542572480692224 | Aunt Bertha | 174 |
 
 
 
@@ -68,12 +68,11 @@ description: A sub property of description. A short description of the item used
   name) may be necessary for the description to be useful for disambiguation.
 title: disambiguatingDescription
 examples:
-- description: hsdo_ServiceChannel→string
-  object:
+- object:
     example_object: Aunt Bertha
     example_object_type: string
     example_predicate: hsdo:disambiguatingDescription
-    example_subject: dreamkg:service/channel/AB-5922109384294400
+    example_subject: dreamkg:service/channel/AB-4542572480692224
     example_subject_type: hsdo_ServiceChannel
 from_schema: dream-kg
 rank: 1000

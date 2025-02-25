@@ -28,6 +28,7 @@ URI: [hsdo:latitude](http://schema.org/latitude)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [HsdoPlace](../classes/HsdoPlace.md) | Entities that have a somewhat fixed, physical extension |  yes  |
+| [ProvEntity](../classes/ProvEntity.md) | No class (type) description specified |  yes  |
 
 
 
@@ -48,7 +49,8 @@ URI: [hsdo:latitude](http://schema.org/latitude)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| hsdo_Place | decimal | dreamkg:service/location/5552002522939392 | 40.0079322 | 89 |
+| prov_Entity | decimal | dreamkg:service/location/4542572480692224 | 39.9028317 | 89 |
+| hsdo_Place | decimal | dreamkg:service/location/4542572480692224 | 39.9028317 | 89 |
 
 
 
@@ -66,12 +68,17 @@ annotations:
 description: The latitude of a location. For example ```37.42242``` ([WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System)).
 title: latitude
 examples:
-- description: hsdo_Place→decimal
-  object:
-    example_object: '40.0079322'
+- object:
+    example_object: '39.9028317'
     example_object_type: decimal
     example_predicate: hsdo:latitude
-    example_subject: dreamkg:service/location/5552002522939392
+    example_subject: dreamkg:service/location/4542572480692224
+    example_subject_type: prov_Entity
+- object:
+    example_object: '39.9028317'
+    example_object_type: decimal
+    example_predicate: hsdo:latitude
+    example_subject: dreamkg:service/location/4542572480692224
     example_subject_type: hsdo_Place
 from_schema: dream-kg
 rank: 1000
@@ -79,6 +86,7 @@ slot_uri: hsdo:latitude
 alias: hsdo_latitude
 domain_of:
 - hsdo_Place
+- prov_Entity
 range: decimal
 
 ```

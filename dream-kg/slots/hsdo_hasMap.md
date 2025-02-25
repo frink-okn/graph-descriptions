@@ -28,6 +28,7 @@ URI: [hsdo:hasMap](http://schema.org/hasMap)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [HsdoPlace](../classes/HsdoPlace.md) | Entities that have a somewhat fixed, physical extension |  yes  |
+| [ProvEntity](../classes/ProvEntity.md) | No class (type) description specified |  yes  |
 
 
 
@@ -48,7 +49,8 @@ URI: [hsdo:hasMap](http://schema.org/hasMap)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| hsdo_Place | uri | dreamkg:service/location/5552002522939392 | https://www.google.com/maps/?q=2107+West+Tioga+Street,+Philadelphia,+PA+19140/ | 88 |
+| prov_Entity | uri | dreamkg:service/location/4542572480692224 | https://www.google.com/maps/?q=2901+Island+Avenue,+Philadelphia,+PA+19153/ | 88 |
+| hsdo_Place | uri | dreamkg:service/location/4542572480692224 | https://www.google.com/maps/?q=2901+Island+Avenue,+Philadelphia,+PA+19153/ | 88 |
 
 
 
@@ -66,12 +68,17 @@ annotations:
 description: A URL to a map of the place.
 title: hasMap
 examples:
-- description: hsdo_Place→uri
-  object:
-    example_object: https://www.google.com/maps/?q=2107+West+Tioga+Street,+Philadelphia,+PA+19140/
+- object:
+    example_object: https://www.google.com/maps/?q=2901+Island+Avenue,+Philadelphia,+PA+19153/
     example_object_type: uri
     example_predicate: hsdo:hasMap
-    example_subject: dreamkg:service/location/5552002522939392
+    example_subject: dreamkg:service/location/4542572480692224
+    example_subject_type: prov_Entity
+- object:
+    example_object: https://www.google.com/maps/?q=2901+Island+Avenue,+Philadelphia,+PA+19153/
+    example_object_type: uri
+    example_predicate: hsdo:hasMap
+    example_subject: dreamkg:service/location/4542572480692224
     example_subject_type: hsdo_Place
 from_schema: dream-kg
 rank: 1000
@@ -79,6 +86,7 @@ slot_uri: hsdo:hasMap
 alias: hsdo_hasMap
 domain_of:
 - hsdo_Place
+- prov_Entity
 range: uri
 
 ```

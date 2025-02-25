@@ -28,6 +28,7 @@ URI: [hsdo:telephone](http://schema.org/telephone)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [HsdoContactPoint](../classes/HsdoContactPoint.md) | A contact point&#x2014;for example, a Customer Complaints department |  yes  |
+| [ProvEntity](../classes/ProvEntity.md) | No class (type) description specified |  yes  |
 
 
 
@@ -48,7 +49,8 @@ URI: [hsdo:telephone](http://schema.org/telephone)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| hsdo_ContactPoint | string | dreamkg:service/phone/4689179354857472 | 215-276-3922 | 87 |
+| hsdo_ContactPoint | string | dreamkg:service/phone/4542572480692224 | 484-454-8720 | 87 |
+| prov_Entity | string | dreamkg:service/phone/4542572480692224 | 484-454-8720 | 87 |
 
 
 
@@ -66,19 +68,25 @@ annotations:
 description: The telephone number.
 title: telephone
 examples:
-- description: hsdo_ContactPoint→string
-  object:
-    example_object: 215-276-3922
+- object:
+    example_object: 484-454-8720
     example_object_type: string
     example_predicate: hsdo:telephone
-    example_subject: dreamkg:service/phone/4689179354857472
+    example_subject: dreamkg:service/phone/4542572480692224
     example_subject_type: hsdo_ContactPoint
+- object:
+    example_object: 484-454-8720
+    example_object_type: string
+    example_predicate: hsdo:telephone
+    example_subject: dreamkg:service/phone/4542572480692224
+    example_subject_type: prov_Entity
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:telephone
 alias: hsdo_telephone
 domain_of:
 - hsdo_ContactPoint
+- prov_Entity
 range: string
 
 ```

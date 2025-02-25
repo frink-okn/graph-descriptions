@@ -28,6 +28,7 @@ URI: [hsdo:codeValue](http://schema.org/codeValue)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [HsdoCategoryCode](../classes/HsdoCategoryCode.md) | A Category Code |  yes  |
+| [ProvEntity](../classes/ProvEntity.md) | No class (type) description specified |  yes  |
 
 
 
@@ -48,7 +49,8 @@ URI: [hsdo:codeValue](http://schema.org/codeValue)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| hsdo_CategoryCode | string | dreamkg:category/service/main/ResidentialCare | residential care | 158 |
+| hsdo_CategoryCode | string | dreamkg:category/availability/Available | available | 158 |
+| prov_Entity | string | dreamkg:category/availability/Available | available | 158 |
 
 
 
@@ -66,19 +68,25 @@ annotations:
 description: A short textual code that uniquely identifies the value.
 title: codeValue
 examples:
-- description: hsdo_CategoryCode→string
-  object:
-    example_object: residential care
+- object:
+    example_object: available
     example_object_type: string
     example_predicate: hsdo:codeValue
-    example_subject: dreamkg:category/service/main/ResidentialCare
+    example_subject: dreamkg:category/availability/Available
     example_subject_type: hsdo_CategoryCode
+- object:
+    example_object: available
+    example_object_type: string
+    example_predicate: hsdo:codeValue
+    example_subject: dreamkg:category/availability/Available
+    example_subject_type: prov_Entity
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:codeValue
 alias: hsdo_codeValue
 domain_of:
 - hsdo_CategoryCode
+- prov_Entity
 range: string
 
 ```

@@ -48,7 +48,7 @@ URI: [hsdo:serviceUrl](http://schema.org/serviceUrl)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| hsdo_ServiceChannel | uri | dreamkg:service/channel/AB-5922109384294400 | https://www.auntbertha.com//catholic-social-services-of-the-archdiocese-of-philadelphia---saint-john%2527s-hospice-%2528sjh%2529--philadelphia-pa--good-shepherd/5922109384294400?postal=19102 | 188 |
+| hsdo_ServiceChannel | uri | dreamkg:service/channel/AB-4542572480692224 | https://www.auntbertha.com//child-guidance-resource-centers-%2528cgrc%2529--philadelphia-pa--drug-and-alcohol-services/4542572480692224?postal=19139 | 188 |
 
 
 
@@ -66,12 +66,11 @@ annotations:
 description: The website to access the service.
 title: serviceUrl
 examples:
-- description: hsdo_ServiceChannel→uri
-  object:
-    example_object: https://www.auntbertha.com//catholic-social-services-of-the-archdiocese-of-philadelphia---saint-john%2527s-hospice-%2528sjh%2529--philadelphia-pa--good-shepherd/5922109384294400?postal=19102
+- object:
+    example_object: https://www.auntbertha.com//child-guidance-resource-centers-%2528cgrc%2529--philadelphia-pa--drug-and-alcohol-services/4542572480692224?postal=19139
     example_object_type: uri
     example_predicate: hsdo:serviceUrl
-    example_subject: dreamkg:service/channel/AB-5922109384294400
+    example_subject: dreamkg:service/channel/AB-4542572480692224
     example_subject_type: hsdo_ServiceChannel
 from_schema: dream-kg
 rank: 1000

@@ -28,6 +28,7 @@ URI: [hsdo:inCodeSet](http://schema.org/inCodeSet)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [HsdoCategoryCode](../classes/HsdoCategoryCode.md) | A Category Code |  yes  |
+| [ProvEntity](../classes/ProvEntity.md) | No class (type) description specified |  yes  |
 
 
 
@@ -48,7 +49,8 @@ URI: [hsdo:inCodeSet](http://schema.org/inCodeSet)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| hsdo_CategoryCode | uri | dreamkg:category/service/main/ResidentialCare | dreamkg:_CategoryCodeSet_Services_Main | 157 |
+| hsdo_CategoryCode | uri | dreamkg:category/availability/Available | dreamkg:__CategoryCodeSet_Availability | 157 |
+| prov_Entity | uri | dreamkg:category/availability/Available | dreamkg:__CategoryCodeSet_Availability | 157 |
 
 
 
@@ -66,19 +68,25 @@ annotations:
 description: A [[CategoryCodeSet]] that contains this category code.
 title: inCodeSet
 examples:
-- description: hsdo_CategoryCode→uri
-  object:
-    example_object: dreamkg:_CategoryCodeSet_Services_Main
+- object:
+    example_object: dreamkg:__CategoryCodeSet_Availability
     example_object_type: uri
     example_predicate: hsdo:inCodeSet
-    example_subject: dreamkg:category/service/main/ResidentialCare
+    example_subject: dreamkg:category/availability/Available
     example_subject_type: hsdo_CategoryCode
+- object:
+    example_object: dreamkg:__CategoryCodeSet_Availability
+    example_object_type: uri
+    example_predicate: hsdo:inCodeSet
+    example_subject: dreamkg:category/availability/Available
+    example_subject_type: prov_Entity
 from_schema: dream-kg
 rank: 1000
 slot_uri: hsdo:inCodeSet
 alias: hsdo_inCodeSet
 domain_of:
 - hsdo_CategoryCode
+- prov_Entity
 range: uri
 
 ```

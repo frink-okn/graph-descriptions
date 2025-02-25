@@ -28,6 +28,7 @@ URI: [hsdo:closes](http://schema.org/closes)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md) | A structured value providing information about the opening hours of a place o... |  yes  |
+| [ProvEntity](../classes/ProvEntity.md) | No class (type) description specified |  yes  |
 
 
 
@@ -48,7 +49,8 @@ URI: [hsdo:closes](http://schema.org/closes)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| hsdo_OpeningHoursSpecification | string | dreamkg:service/hours/friday/4689179354857472 | 17:00 | 623 |
+| prov_Entity | string | dreamkg:service/hours/friday/4542572480692224 | 17:00 | 623 |
+| hsdo_OpeningHoursSpecification | string | dreamkg:service/hours/friday/4542572480692224 | 17:00 | 623 |
 
 
 
@@ -66,12 +68,17 @@ annotations:
 description: The closing hour of the place or service on the given day(s) of the week.
 title: closes
 examples:
-- description: hsdo_OpeningHoursSpecification→string
-  object:
+- object:
     example_object: '17:00'
     example_object_type: string
     example_predicate: hsdo:closes
-    example_subject: dreamkg:service/hours/friday/4689179354857472
+    example_subject: dreamkg:service/hours/friday/4542572480692224
+    example_subject_type: prov_Entity
+- object:
+    example_object: '17:00'
+    example_object_type: string
+    example_predicate: hsdo:closes
+    example_subject: dreamkg:service/hours/friday/4542572480692224
     example_subject_type: hsdo_OpeningHoursSpecification
 from_schema: dream-kg
 rank: 1000
@@ -79,6 +86,7 @@ slot_uri: hsdo:closes
 alias: hsdo_closes
 domain_of:
 - hsdo_OpeningHoursSpecification
+- prov_Entity
 range: string
 
 ```
