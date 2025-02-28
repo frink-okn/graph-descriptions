@@ -3730,10 +3730,10 @@ UsfrsWaterfrontFacility-Facility ||--|o OwlNamedIndividual : "usfrs_mn-tempo-Ind
 ## Classes
 
 | Class | Description | Occurrences |
-| --- | --- | --- || [B0](classes/B0.md) | No class (type) description specified<br/>| 0 | 
+| --- | --- | --- |
+| [B0](classes/B0.md) | No class (type) description specified<br/>| 0 | 
 | [B1](classes/B1.md) | No class (type) description specified<br/>| 300936 | 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[FioFacility](classes/FioFacility.md) | No class (type) description specified<br/>| 300936 | 
-
 | [FioIndustry](classes/FioIndustry.md) | No class (type) description specified<br/>| 2129 | 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[NaicsNAICS-Industry](classes/NaicsNAICS-Industry.md) | No class (type) description specified<br/>| 2129 | 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[NaicsNAICS-IndustryCode](classes/NaicsNAICS-IndustryCode.md) | No class (type) description specified<br/>| 1701 | 
