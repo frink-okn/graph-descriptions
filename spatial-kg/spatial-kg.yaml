@@ -1,0 +1,3786 @@
+name: spatial-kg
+conforms_to: No schema conformance document specified
+description: No schema description specified
+title: No schema name specified
+created_on: '2025-02-28T10:32:15.879607'
+last_updated_on: '2025-02-28T10:32:15.879607'
+id: spatial-kg
+version: No schema version available
+imports:
+- linkml:types
+license: No schema license specified
+prefixes:
+  geo:
+    prefix_prefix: geo
+    prefix_reference: http://www.opengis.net/ont/geosparql#
+  kwgo:
+    prefix_prefix: kwgo
+    prefix_reference: http://stko-kwg.geog.ucsb.edu/lod/ontology/
+  kwgr:
+    prefix_prefix: kwgr
+    prefix_reference: http://stko-kwg.geog.ucsb.edu/lod/resource/
+  linkml:
+    prefix_prefix: linkml
+    prefix_reference: https://w3id.org/linkml/
+  owl:
+    prefix_prefix: owl
+    prefix_reference: http://www.w3.org/2002/07/owl#
+  rdf:
+    prefix_prefix: rdf
+    prefix_reference: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs:
+    prefix_prefix: rdfs
+    prefix_reference: http://www.w3.org/2000/01/rdf-schema#
+  sf:
+    prefix_prefix: sf
+    prefix_reference: http://www.opengis.net/ont/sf
+  xsd:
+    prefix_prefix: xsd
+    prefix_reference: http://www.w3.org/2001/XMLSchema#
+default_prefix: spatial-kg/
+slots:
+  geo_asWKT:
+    name: geo_asWKT
+    annotations:
+      count:
+        tag: count
+        value: 251854
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: POLYGON ((-91.030279 39.845098, -91.028128 39.845098, -91.020785
+          39.8451, -91.011152 39.845113, -91.011042 39.845112, -91.004789 39.845008,
+          -90.996161 39.844873, -90.992951 39.844821, -90.98298 39.844806, -90.973639
+          39.844791, -90.969039 39.844793, -90.966399 39.844786, -90.964521 39.844798,
+          -90.964502 39.844796, -90.964207 39.844796, -90.96399 39.844796, -90.959845
+          39.844798, -90.951938 39.844806, -90.951148 39.844785, -90.947071 39.844796,
+          -90.94657 39.844805, -90.945668 39.844778, -90.944069 39.844776, -90.943943
+          39.844771, -90.943805 39.844741, -90.943627 39.844696, -90.943463 39.844649,
+          -90.943296 39.844627, -90.943118 39.844628, -90.942944 39.844652, -90.94274
+          39.844691, -90.942555 39.844732, -90.942344 39.844751, -90.941183 39.844773,
+          -90.940619 39.844779, -90.940433 39.844772, -90.940259 39.844782, -90.937458
+          39.8448, -90.937214 39.844822, -90.937197 39.844825, -90.933873 39.844841,
+          -90.916797 39.844976, -90.916754 39.844977, -90.916669 39.844927, -90.916662
+          39.844531, -90.916653 39.843797, -90.916592 39.839777, -90.91659 39.839677,
+          -90.916572 39.839484, -90.916571 39.839456, -90.916636 39.839373, -90.91653
+          39.834762, -90.916498 39.833395, -90.91645 39.830376, -90.916431 39.82748,
+          -90.916312 39.81561, -90.91629 39.813441, -90.916288 39.81311, -90.916276
+          39.811813, -90.916273 39.81155, -90.916264 39.810191, -90.916263 39.809929,
+          -90.91626 39.809255, -90.916258 39.809043, -90.916257 39.808717, -90.916251
+          39.807772, -90.916244 39.806234, -90.916239 39.80459, -90.916204 39.804518,
+          -90.916265 39.804332, -90.916301 39.804134, -90.916318 39.803891, -90.916324
+          39.802965, -90.91635 39.801685, -90.916355 39.801097, -90.916374 39.800469,
+          -90.916381 39.800054, -90.916384 39.799972, -90.916399 39.799779, -90.916418
+          39.798798, -90.916427 39.797926, -90.916423 39.797652, -90.916437 39.796894,
+          -90.91643 39.796522, -90.916445 39.796219, -90.916436 39.795574, -90.916436
+          39.795509, -90.916421 39.794655, -90.916431 39.794271, -90.916451 39.794105,
+          -90.916167 39.793149, -90.916164 39.793081, -90.916165 39.792751, -90.916169
+          39.792038, -90.916157 39.791259, -90.916154 39.790851, -90.916154 39.790737,
+          -90.916153 39.790521, -90.916148 39.789724, -90.916145 39.789174, -90.916141
+          39.788518, -90.916008 39.764746, -90.916004 39.764597, -90.915985 39.761348,
+          -90.915963 39.757441, -90.915962 39.757291, -90.915961 39.7572, -90.916071
+          39.757201, -90.916135 39.757201, -90.91728 39.757205, -90.917394 39.757192,
+          -90.918337 39.757209, -90.918413 39.75721, -90.921845 39.757217, -90.92199
+          39.75722, -90.924062 39.757216, -90.924273 39.757216, -90.924291 39.757227,
+          -90.924324 39.757223, -90.924628 39.757212, -90.925177 39.757214, -90.925887
+          39.757217, -90.926911 39.757215, -90.928062 39.7572, -90.929627 39.757196,
+          -90.930014 39.757211, -90.930518 39.757215, -90.93107 39.757213, -90.932037
+          39.757233, -90.932774 39.757219, -90.933932 39.757182, -90.935178 39.757184,
+          -90.93596 39.757196, -90.937109 39.757187, -90.937543 39.757177, -90.938419
+          39.757155, -90.939513 39.757161, -90.94221 39.757134, -90.944588 39.75711,
+          -90.94577 39.757098, -90.946863 39.757098, -90.948741 39.75709, -90.949434
+          39.75709, -90.949487 39.75709, -90.950617 39.757094, -90.951122 39.757092,
+          -90.952685 39.757074, -90.952875 39.757076, -90.95357 39.75707, -90.953669
+          39.757069, -90.954022 39.757066, -90.9543 39.757063, -90.955265 39.757054,
+          -90.956959 39.757039, -90.957518 39.757034, -90.958524 39.757065, -90.958791
+          39.757063, -90.958825 39.757062, -90.958919 39.757062, -90.959142 39.757033,
+          -90.959412 39.757023, -90.959657 39.757037, -90.961545 39.757043, -90.961877
+          39.757043, -90.962622 39.757092, -90.963063 39.757075, -90.963366 39.757039,
+          -90.963695 39.756985, -90.964585 39.75698, -90.965233 39.756969, -90.966046
+          39.756935, -90.966113 39.756934, -90.966292 39.756928, -90.966665 39.756906,
+          -90.967746 39.756893, -90.969375 39.756885, -90.969962 39.756867, -90.9709
+          39.756866, -90.971386 39.756877, -90.97308 39.75687, -90.973611 39.756867,
+          -90.974114 39.756875, -90.975116 39.756873, -90.976231 39.756883, -90.979149
+          39.756865, -90.979953 39.75687, -90.980172 39.756873, -90.980297 39.756875,
+          -90.982427 39.756882, -90.982529 39.756885, -90.983505 39.75689, -90.98362
+          39.75689, -90.983694 39.75689, -90.986383 39.756891, -90.98821 39.756874,
+          -90.988685 39.756864, -90.990925 39.756867, -90.992037 39.756862, -90.993438
+          39.75687, -90.995621 39.756873, -90.997718 39.756882, -90.999386 39.756897,
+          -91.000367 39.756896, -91.000556 39.756889, -91.00067 39.75689, -91.000724
+          39.756891, -91.002294 39.756905, -91.002856 39.756899, -91.002931 39.756899,
+          -91.003949 39.756892, -91.004383 39.756898, -91.005928 39.75694, -91.00694
+          39.756934, -91.008099 39.756935, -91.009205 39.757008, -91.009766 39.757014,
+          -91.009955 39.757026, -91.010207 39.757053, -91.01074 39.75712, -91.010773
+          39.757124, -91.010876 39.757145, -91.011061 39.757103, -91.011276 39.757063,
+          -91.011457 39.757035, -91.011626 39.757005, -91.011774 39.756989, -91.011912
+          39.756985, -91.013747 39.756989, -91.01444 39.756994, -91.014554 39.756995,
+          -91.015078 39.757001, -91.015493 39.75702, -91.016401 39.757008, -91.018754
+          39.757039, -91.020284 39.757043, -91.020962 39.757055, -91.022729 39.757042,
+          -91.023715 39.757049, -91.025297 39.75704, -91.026616 39.757045, -91.026863
+          39.757044, -91.028085 39.757048, -91.028426 39.75704, -91.028533 39.75703,
+          -91.028555 39.757026, -91.02863 39.757029, -91.029097 39.756988, -91.029346
+          39.757, -91.02963 39.757014, -91.02981 39.770852, -91.02983 39.771729, -91.030026
+          39.786222, -91.030004 39.786529, -91.030017 39.78726, -91.030025 39.788907,
+          -91.030044 39.790317, -91.030031 39.790795, -91.03003 39.791015, -91.030086
+          39.79132, -91.030095 39.791441, -91.030079 39.791607, -91.030051 39.791798,
+          -91.030046 39.791967, -91.030047 39.793634, -91.03006 39.794832, -91.030121
+          39.8031, -91.030101 39.808542, -91.030087 39.808625, -91.030101 39.809738,
+          -91.030109 39.810012, -91.03007 39.811705, -91.030083 39.812332, -91.030079
+          39.812771, -91.030117 39.813668, -91.030143 39.814267, -91.03016 39.814985,
+          -91.030162 39.815706, -91.030152 39.8158, -91.03013 39.81586, -91.030121
+          39.816012, -91.030121 39.817196, -91.030128 39.818314, -91.030151 39.819263,
+          -91.03019 39.822148, -91.030208 39.822914, -91.030208 39.823104, -91.030208
+          39.82312, -91.030208 39.823519, -91.030193 39.823615, -91.030185 39.823731,
+          -91.030197 39.824816, -91.030189 39.825305, -91.030225 39.828791, -91.030222
+          39.829706, -91.030228 39.830514, -91.030239 39.832025, -91.030238 39.832831,
+          -91.030242 39.833277, -91.030239 39.833812, -91.030252 39.834423, -91.030255
+          39.836251, -91.030271 39.836886, -91.030252 39.837741, -91.030238 39.837824,
+          -91.030258 39.838968, -91.030279 39.844391, -91.030279 39.845098))
+        example_object_type: geo_wktLiteral
+        example_predicate: geo:asWKT
+        example_subject: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_subject_type: geo_Geometry
+    - object:
+        example_object: POLYGON ((-91.030279 39.845098, -91.028128 39.845098, -91.020785
+          39.8451, -91.011152 39.845113, -91.011042 39.845112, -91.004789 39.845008,
+          -90.996161 39.844873, -90.992951 39.844821, -90.98298 39.844806, -90.973639
+          39.844791, -90.969039 39.844793, -90.966399 39.844786, -90.964521 39.844798,
+          -90.964502 39.844796, -90.964207 39.844796, -90.96399 39.844796, -90.959845
+          39.844798, -90.951938 39.844806, -90.951148 39.844785, -90.947071 39.844796,
+          -90.94657 39.844805, -90.945668 39.844778, -90.944069 39.844776, -90.943943
+          39.844771, -90.943805 39.844741, -90.943627 39.844696, -90.943463 39.844649,
+          -90.943296 39.844627, -90.943118 39.844628, -90.942944 39.844652, -90.94274
+          39.844691, -90.942555 39.844732, -90.942344 39.844751, -90.941183 39.844773,
+          -90.940619 39.844779, -90.940433 39.844772, -90.940259 39.844782, -90.937458
+          39.8448, -90.937214 39.844822, -90.937197 39.844825, -90.933873 39.844841,
+          -90.916797 39.844976, -90.916754 39.844977, -90.916669 39.844927, -90.916662
+          39.844531, -90.916653 39.843797, -90.916592 39.839777, -90.91659 39.839677,
+          -90.916572 39.839484, -90.916571 39.839456, -90.916636 39.839373, -90.91653
+          39.834762, -90.916498 39.833395, -90.91645 39.830376, -90.916431 39.82748,
+          -90.916312 39.81561, -90.91629 39.813441, -90.916288 39.81311, -90.916276
+          39.811813, -90.916273 39.81155, -90.916264 39.810191, -90.916263 39.809929,
+          -90.91626 39.809255, -90.916258 39.809043, -90.916257 39.808717, -90.916251
+          39.807772, -90.916244 39.806234, -90.916239 39.80459, -90.916204 39.804518,
+          -90.916265 39.804332, -90.916301 39.804134, -90.916318 39.803891, -90.916324
+          39.802965, -90.91635 39.801685, -90.916355 39.801097, -90.916374 39.800469,
+          -90.916381 39.800054, -90.916384 39.799972, -90.916399 39.799779, -90.916418
+          39.798798, -90.916427 39.797926, -90.916423 39.797652, -90.916437 39.796894,
+          -90.91643 39.796522, -90.916445 39.796219, -90.916436 39.795574, -90.916436
+          39.795509, -90.916421 39.794655, -90.916431 39.794271, -90.916451 39.794105,
+          -90.916167 39.793149, -90.916164 39.793081, -90.916165 39.792751, -90.916169
+          39.792038, -90.916157 39.791259, -90.916154 39.790851, -90.916154 39.790737,
+          -90.916153 39.790521, -90.916148 39.789724, -90.916145 39.789174, -90.916141
+          39.788518, -90.916008 39.764746, -90.916004 39.764597, -90.915985 39.761348,
+          -90.915963 39.757441, -90.915962 39.757291, -90.915961 39.7572, -90.916071
+          39.757201, -90.916135 39.757201, -90.91728 39.757205, -90.917394 39.757192,
+          -90.918337 39.757209, -90.918413 39.75721, -90.921845 39.757217, -90.92199
+          39.75722, -90.924062 39.757216, -90.924273 39.757216, -90.924291 39.757227,
+          -90.924324 39.757223, -90.924628 39.757212, -90.925177 39.757214, -90.925887
+          39.757217, -90.926911 39.757215, -90.928062 39.7572, -90.929627 39.757196,
+          -90.930014 39.757211, -90.930518 39.757215, -90.93107 39.757213, -90.932037
+          39.757233, -90.932774 39.757219, -90.933932 39.757182, -90.935178 39.757184,
+          -90.93596 39.757196, -90.937109 39.757187, -90.937543 39.757177, -90.938419
+          39.757155, -90.939513 39.757161, -90.94221 39.757134, -90.944588 39.75711,
+          -90.94577 39.757098, -90.946863 39.757098, -90.948741 39.75709, -90.949434
+          39.75709, -90.949487 39.75709, -90.950617 39.757094, -90.951122 39.757092,
+          -90.952685 39.757074, -90.952875 39.757076, -90.95357 39.75707, -90.953669
+          39.757069, -90.954022 39.757066, -90.9543 39.757063, -90.955265 39.757054,
+          -90.956959 39.757039, -90.957518 39.757034, -90.958524 39.757065, -90.958791
+          39.757063, -90.958825 39.757062, -90.958919 39.757062, -90.959142 39.757033,
+          -90.959412 39.757023, -90.959657 39.757037, -90.961545 39.757043, -90.961877
+          39.757043, -90.962622 39.757092, -90.963063 39.757075, -90.963366 39.757039,
+          -90.963695 39.756985, -90.964585 39.75698, -90.965233 39.756969, -90.966046
+          39.756935, -90.966113 39.756934, -90.966292 39.756928, -90.966665 39.756906,
+          -90.967746 39.756893, -90.969375 39.756885, -90.969962 39.756867, -90.9709
+          39.756866, -90.971386 39.756877, -90.97308 39.75687, -90.973611 39.756867,
+          -90.974114 39.756875, -90.975116 39.756873, -90.976231 39.756883, -90.979149
+          39.756865, -90.979953 39.75687, -90.980172 39.756873, -90.980297 39.756875,
+          -90.982427 39.756882, -90.982529 39.756885, -90.983505 39.75689, -90.98362
+          39.75689, -90.983694 39.75689, -90.986383 39.756891, -90.98821 39.756874,
+          -90.988685 39.756864, -90.990925 39.756867, -90.992037 39.756862, -90.993438
+          39.75687, -90.995621 39.756873, -90.997718 39.756882, -90.999386 39.756897,
+          -91.000367 39.756896, -91.000556 39.756889, -91.00067 39.75689, -91.000724
+          39.756891, -91.002294 39.756905, -91.002856 39.756899, -91.002931 39.756899,
+          -91.003949 39.756892, -91.004383 39.756898, -91.005928 39.75694, -91.00694
+          39.756934, -91.008099 39.756935, -91.009205 39.757008, -91.009766 39.757014,
+          -91.009955 39.757026, -91.010207 39.757053, -91.01074 39.75712, -91.010773
+          39.757124, -91.010876 39.757145, -91.011061 39.757103, -91.011276 39.757063,
+          -91.011457 39.757035, -91.011626 39.757005, -91.011774 39.756989, -91.011912
+          39.756985, -91.013747 39.756989, -91.01444 39.756994, -91.014554 39.756995,
+          -91.015078 39.757001, -91.015493 39.75702, -91.016401 39.757008, -91.018754
+          39.757039, -91.020284 39.757043, -91.020962 39.757055, -91.022729 39.757042,
+          -91.023715 39.757049, -91.025297 39.75704, -91.026616 39.757045, -91.026863
+          39.757044, -91.028085 39.757048, -91.028426 39.75704, -91.028533 39.75703,
+          -91.028555 39.757026, -91.02863 39.757029, -91.029097 39.756988, -91.029346
+          39.757, -91.02963 39.757014, -91.02981 39.770852, -91.02983 39.771729, -91.030026
+          39.786222, -91.030004 39.786529, -91.030017 39.78726, -91.030025 39.788907,
+          -91.030044 39.790317, -91.030031 39.790795, -91.03003 39.791015, -91.030086
+          39.79132, -91.030095 39.791441, -91.030079 39.791607, -91.030051 39.791798,
+          -91.030046 39.791967, -91.030047 39.793634, -91.03006 39.794832, -91.030121
+          39.8031, -91.030101 39.808542, -91.030087 39.808625, -91.030101 39.809738,
+          -91.030109 39.810012, -91.03007 39.811705, -91.030083 39.812332, -91.030079
+          39.812771, -91.030117 39.813668, -91.030143 39.814267, -91.03016 39.814985,
+          -91.030162 39.815706, -91.030152 39.8158, -91.03013 39.81586, -91.030121
+          39.816012, -91.030121 39.817196, -91.030128 39.818314, -91.030151 39.819263,
+          -91.03019 39.822148, -91.030208 39.822914, -91.030208 39.823104, -91.030208
+          39.82312, -91.030208 39.823519, -91.030193 39.823615, -91.030185 39.823731,
+          -91.030197 39.824816, -91.030189 39.825305, -91.030225 39.828791, -91.030222
+          39.829706, -91.030228 39.830514, -91.030239 39.832025, -91.030238 39.832831,
+          -91.030242 39.833277, -91.030239 39.833812, -91.030252 39.834423, -91.030255
+          39.836251, -91.030271 39.836886, -91.030252 39.837741, -91.030238 39.837824,
+          -91.030258 39.838968, -91.030279 39.844391, -91.030279 39.845098))
+        example_object_type: geo_wktLiteral
+        example_predicate: geo:asWKT
+        example_subject: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_subject_type: sf_#Polygon
+    - object:
+        example_object: POLYGON ((-91.030279 39.845098, -91.028128 39.845098, -91.020785
+          39.8451, -91.011152 39.845113, -91.011042 39.845112, -91.004789 39.845008,
+          -90.996161 39.844873, -90.992951 39.844821, -90.98298 39.844806, -90.973639
+          39.844791, -90.969039 39.844793, -90.966399 39.844786, -90.964521 39.844798,
+          -90.964502 39.844796, -90.964207 39.844796, -90.96399 39.844796, -90.959845
+          39.844798, -90.951938 39.844806, -90.951148 39.844785, -90.947071 39.844796,
+          -90.94657 39.844805, -90.945668 39.844778, -90.944069 39.844776, -90.943943
+          39.844771, -90.943805 39.844741, -90.943627 39.844696, -90.943463 39.844649,
+          -90.943296 39.844627, -90.943118 39.844628, -90.942944 39.844652, -90.94274
+          39.844691, -90.942555 39.844732, -90.942344 39.844751, -90.941183 39.844773,
+          -90.940619 39.844779, -90.940433 39.844772, -90.940259 39.844782, -90.937458
+          39.8448, -90.937214 39.844822, -90.937197 39.844825, -90.933873 39.844841,
+          -90.916797 39.844976, -90.916754 39.844977, -90.916669 39.844927, -90.916662
+          39.844531, -90.916653 39.843797, -90.916592 39.839777, -90.91659 39.839677,
+          -90.916572 39.839484, -90.916571 39.839456, -90.916636 39.839373, -90.91653
+          39.834762, -90.916498 39.833395, -90.91645 39.830376, -90.916431 39.82748,
+          -90.916312 39.81561, -90.91629 39.813441, -90.916288 39.81311, -90.916276
+          39.811813, -90.916273 39.81155, -90.916264 39.810191, -90.916263 39.809929,
+          -90.91626 39.809255, -90.916258 39.809043, -90.916257 39.808717, -90.916251
+          39.807772, -90.916244 39.806234, -90.916239 39.80459, -90.916204 39.804518,
+          -90.916265 39.804332, -90.916301 39.804134, -90.916318 39.803891, -90.916324
+          39.802965, -90.91635 39.801685, -90.916355 39.801097, -90.916374 39.800469,
+          -90.916381 39.800054, -90.916384 39.799972, -90.916399 39.799779, -90.916418
+          39.798798, -90.916427 39.797926, -90.916423 39.797652, -90.916437 39.796894,
+          -90.91643 39.796522, -90.916445 39.796219, -90.916436 39.795574, -90.916436
+          39.795509, -90.916421 39.794655, -90.916431 39.794271, -90.916451 39.794105,
+          -90.916167 39.793149, -90.916164 39.793081, -90.916165 39.792751, -90.916169
+          39.792038, -90.916157 39.791259, -90.916154 39.790851, -90.916154 39.790737,
+          -90.916153 39.790521, -90.916148 39.789724, -90.916145 39.789174, -90.916141
+          39.788518, -90.916008 39.764746, -90.916004 39.764597, -90.915985 39.761348,
+          -90.915963 39.757441, -90.915962 39.757291, -90.915961 39.7572, -90.916071
+          39.757201, -90.916135 39.757201, -90.91728 39.757205, -90.917394 39.757192,
+          -90.918337 39.757209, -90.918413 39.75721, -90.921845 39.757217, -90.92199
+          39.75722, -90.924062 39.757216, -90.924273 39.757216, -90.924291 39.757227,
+          -90.924324 39.757223, -90.924628 39.757212, -90.925177 39.757214, -90.925887
+          39.757217, -90.926911 39.757215, -90.928062 39.7572, -90.929627 39.757196,
+          -90.930014 39.757211, -90.930518 39.757215, -90.93107 39.757213, -90.932037
+          39.757233, -90.932774 39.757219, -90.933932 39.757182, -90.935178 39.757184,
+          -90.93596 39.757196, -90.937109 39.757187, -90.937543 39.757177, -90.938419
+          39.757155, -90.939513 39.757161, -90.94221 39.757134, -90.944588 39.75711,
+          -90.94577 39.757098, -90.946863 39.757098, -90.948741 39.75709, -90.949434
+          39.75709, -90.949487 39.75709, -90.950617 39.757094, -90.951122 39.757092,
+          -90.952685 39.757074, -90.952875 39.757076, -90.95357 39.75707, -90.953669
+          39.757069, -90.954022 39.757066, -90.9543 39.757063, -90.955265 39.757054,
+          -90.956959 39.757039, -90.957518 39.757034, -90.958524 39.757065, -90.958791
+          39.757063, -90.958825 39.757062, -90.958919 39.757062, -90.959142 39.757033,
+          -90.959412 39.757023, -90.959657 39.757037, -90.961545 39.757043, -90.961877
+          39.757043, -90.962622 39.757092, -90.963063 39.757075, -90.963366 39.757039,
+          -90.963695 39.756985, -90.964585 39.75698, -90.965233 39.756969, -90.966046
+          39.756935, -90.966113 39.756934, -90.966292 39.756928, -90.966665 39.756906,
+          -90.967746 39.756893, -90.969375 39.756885, -90.969962 39.756867, -90.9709
+          39.756866, -90.971386 39.756877, -90.97308 39.75687, -90.973611 39.756867,
+          -90.974114 39.756875, -90.975116 39.756873, -90.976231 39.756883, -90.979149
+          39.756865, -90.979953 39.75687, -90.980172 39.756873, -90.980297 39.756875,
+          -90.982427 39.756882, -90.982529 39.756885, -90.983505 39.75689, -90.98362
+          39.75689, -90.983694 39.75689, -90.986383 39.756891, -90.98821 39.756874,
+          -90.988685 39.756864, -90.990925 39.756867, -90.992037 39.756862, -90.993438
+          39.75687, -90.995621 39.756873, -90.997718 39.756882, -90.999386 39.756897,
+          -91.000367 39.756896, -91.000556 39.756889, -91.00067 39.75689, -91.000724
+          39.756891, -91.002294 39.756905, -91.002856 39.756899, -91.002931 39.756899,
+          -91.003949 39.756892, -91.004383 39.756898, -91.005928 39.75694, -91.00694
+          39.756934, -91.008099 39.756935, -91.009205 39.757008, -91.009766 39.757014,
+          -91.009955 39.757026, -91.010207 39.757053, -91.01074 39.75712, -91.010773
+          39.757124, -91.010876 39.757145, -91.011061 39.757103, -91.011276 39.757063,
+          -91.011457 39.757035, -91.011626 39.757005, -91.011774 39.756989, -91.011912
+          39.756985, -91.013747 39.756989, -91.01444 39.756994, -91.014554 39.756995,
+          -91.015078 39.757001, -91.015493 39.75702, -91.016401 39.757008, -91.018754
+          39.757039, -91.020284 39.757043, -91.020962 39.757055, -91.022729 39.757042,
+          -91.023715 39.757049, -91.025297 39.75704, -91.026616 39.757045, -91.026863
+          39.757044, -91.028085 39.757048, -91.028426 39.75704, -91.028533 39.75703,
+          -91.028555 39.757026, -91.02863 39.757029, -91.029097 39.756988, -91.029346
+          39.757, -91.02963 39.757014, -91.02981 39.770852, -91.02983 39.771729, -91.030026
+          39.786222, -91.030004 39.786529, -91.030017 39.78726, -91.030025 39.788907,
+          -91.030044 39.790317, -91.030031 39.790795, -91.03003 39.791015, -91.030086
+          39.79132, -91.030095 39.791441, -91.030079 39.791607, -91.030051 39.791798,
+          -91.030046 39.791967, -91.030047 39.793634, -91.03006 39.794832, -91.030121
+          39.8031, -91.030101 39.808542, -91.030087 39.808625, -91.030101 39.809738,
+          -91.030109 39.810012, -91.03007 39.811705, -91.030083 39.812332, -91.030079
+          39.812771, -91.030117 39.813668, -91.030143 39.814267, -91.03016 39.814985,
+          -91.030162 39.815706, -91.030152 39.8158, -91.03013 39.81586, -91.030121
+          39.816012, -91.030121 39.817196, -91.030128 39.818314, -91.030151 39.819263,
+          -91.03019 39.822148, -91.030208 39.822914, -91.030208 39.823104, -91.030208
+          39.82312, -91.030208 39.823519, -91.030193 39.823615, -91.030185 39.823731,
+          -91.030197 39.824816, -91.030189 39.825305, -91.030225 39.828791, -91.030222
+          39.829706, -91.030228 39.830514, -91.030239 39.832025, -91.030238 39.832831,
+          -91.030242 39.833277, -91.030239 39.833812, -91.030252 39.834423, -91.030255
+          39.836251, -91.030271 39.836886, -91.030252 39.837741, -91.030238 39.837824,
+          -91.030258 39.838968, -91.030279 39.844391, -91.030279 39.845098))
+        example_object_type: geo_wktLiteral
+        example_predicate: geo:asWKT
+        example_subject: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_subject_type: owl_Thing
+    slot_uri: geo:asWKT
+    range: geo_wktLiteral
+  geo_defaultGeometry:
+    name: geo_defaultGeometry
+    annotations:
+      count:
+        tag: count
+        value: 2225
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_object_type: sf_#Polygon
+        example_predicate: geo:defaultGeometry
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: owl_Thing
+    - object:
+        example_object: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_object_type: geo_Geometry
+        example_predicate: geo:defaultGeometry
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: owl_Thing
+    - object:
+        example_object: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_object_type: owl_Thing
+        example_predicate: geo:defaultGeometry
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: owl_Thing
+    - object:
+        example_object: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_object_type: sf_#Polygon
+        example_predicate: geo:defaultGeometry
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: kwgo_AdministrativeRegion_3
+    - object:
+        example_object: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_object_type: geo_Geometry
+        example_predicate: geo:defaultGeometry
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: kwgo_AdministrativeRegion_3
+    - object:
+        example_object: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_object_type: owl_Thing
+        example_predicate: geo:defaultGeometry
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: kwgo_AdministrativeRegion_3
+    slot_uri: geo:defaultGeometry
+    range: Any
+    any_of:
+    - range: sf_#Polygon
+    - range: geo_Geometry
+    - range: owl_Thing
+  geo_hasDefaultGeometry:
+    name: geo_hasDefaultGeometry
+    annotations:
+      count:
+        tag: count
+        value: 249629
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: kwgr:geometry.Polygon.administrativeRegion.USA.17
+        example_object_type: sf_#Polygon
+        example_predicate: geo:hasDefaultGeometry
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: kwgo_AdministrativeRegion_1
+    - object:
+        example_object: kwgr:geometry.Polygon.administrativeRegion.USA.17
+        example_object_type: geo_Geometry
+        example_predicate: geo:hasDefaultGeometry
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: kwgo_AdministrativeRegion_1
+    - object:
+        example_object: kwgr:geometry.Polygon.administrativeRegion.USA.17
+        example_object_type: owl_Thing
+        example_predicate: geo:hasDefaultGeometry
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: kwgo_AdministrativeRegion_1
+    - object:
+        example_object: kwgr:geometry.Polygon.administrativeRegion.USA.17
+        example_object_type: sf_#Polygon
+        example_predicate: geo:hasDefaultGeometry
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:geometry.Polygon.administrativeRegion.USA.17
+        example_object_type: geo_Geometry
+        example_predicate: geo:hasDefaultGeometry
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:geometry.Polygon.administrativeRegion.USA.17
+        example_object_type: owl_Thing
+        example_predicate: geo:hasDefaultGeometry
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:geometry.Polygon.administrativeRegion.USA.17001
+        example_object_type: geo_Geometry
+        example_predicate: geo:hasDefaultGeometry
+        example_subject: kwgr:administrativeRegion.USA.17001
+        example_subject_type: kwgo_AdministrativeRegion_2
+    - object:
+        example_object: kwgr:geometry.Polygon.administrativeRegion.USA.17001
+        example_object_type: owl_Thing
+        example_predicate: geo:hasDefaultGeometry
+        example_subject: kwgr:administrativeRegion.USA.17001
+        example_subject_type: kwgo_AdministrativeRegion_2
+    - object:
+        example_object: kwgr:geometry.polygon.s2.level13.5522341869704445952
+        example_object_type: sf_#Polygon
+        example_predicate: geo:hasDefaultGeometry
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: kwgr:geometry.polygon.s2.level13.5522341869704445952
+        example_object_type: geo_Geometry
+        example_predicate: geo:hasDefaultGeometry
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: kwgr:geometry.polygon.s2.level13.5522341869704445952
+        example_object_type: owl_Thing
+        example_predicate: geo:hasDefaultGeometry
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: kwgo_S2Cell_Level13
+    slot_uri: geo:hasDefaultGeometry
+    range: Any
+    any_of:
+    - range: sf_#Polygon
+    - range: geo_Geometry
+    - range: owl_Thing
+  geo_hasGeometry:
+    name: geo_hasGeometry
+    annotations:
+      count:
+        tag: count
+        value: 251854
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: kwgr:geometry.Polygon.administrativeRegion.USA.17
+        example_object_type: sf_#Polygon
+        example_predicate: geo:hasGeometry
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: kwgo_AdministrativeRegion_1
+    - object:
+        example_object: kwgr:geometry.Polygon.administrativeRegion.USA.17
+        example_object_type: geo_Geometry
+        example_predicate: geo:hasGeometry
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: kwgo_AdministrativeRegion_1
+    - object:
+        example_object: kwgr:geometry.Polygon.administrativeRegion.USA.17
+        example_object_type: owl_Thing
+        example_predicate: geo:hasGeometry
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: kwgo_AdministrativeRegion_1
+    - object:
+        example_object: kwgr:geometry.Polygon.administrativeRegion.USA.17
+        example_object_type: sf_#Polygon
+        example_predicate: geo:hasGeometry
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:geometry.Polygon.administrativeRegion.USA.17
+        example_object_type: geo_Geometry
+        example_predicate: geo:hasGeometry
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:geometry.Polygon.administrativeRegion.USA.17
+        example_object_type: owl_Thing
+        example_predicate: geo:hasGeometry
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:geometry.Polygon.administrativeRegion.USA.17001
+        example_object_type: geo_Geometry
+        example_predicate: geo:hasGeometry
+        example_subject: kwgr:administrativeRegion.USA.17001
+        example_subject_type: kwgo_AdministrativeRegion_2
+    - object:
+        example_object: kwgr:geometry.Polygon.administrativeRegion.USA.17001
+        example_object_type: owl_Thing
+        example_predicate: geo:hasGeometry
+        example_subject: kwgr:administrativeRegion.USA.17001
+        example_subject_type: kwgo_AdministrativeRegion_2
+    - object:
+        example_object: kwgr:geometry.polygon.s2.level13.5522341869704445952
+        example_object_type: sf_#Polygon
+        example_predicate: geo:hasGeometry
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: kwgr:geometry.polygon.s2.level13.5522341869704445952
+        example_object_type: geo_Geometry
+        example_predicate: geo:hasGeometry
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: kwgr:geometry.polygon.s2.level13.5522341869704445952
+        example_object_type: owl_Thing
+        example_predicate: geo:hasGeometry
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_object_type: sf_#Polygon
+        example_predicate: geo:hasGeometry
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: kwgo_AdministrativeRegion_3
+    - object:
+        example_object: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_object_type: geo_Geometry
+        example_predicate: geo:hasGeometry
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: kwgo_AdministrativeRegion_3
+    - object:
+        example_object: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_object_type: owl_Thing
+        example_predicate: geo:hasGeometry
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: kwgo_AdministrativeRegion_3
+    slot_uri: geo:hasGeometry
+    range: Any
+    any_of:
+    - range: sf_#Polygon
+    - range: geo_Geometry
+    - range: owl_Thing
+  geo_hasMetricArea:
+    name: geo_hasMetricArea
+    annotations:
+      count:
+        tag: count
+        value: 249509
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '1138180.867994085'
+        example_object_type: float
+        example_predicate: geo:hasMetricArea
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: '1138180.867994085'
+        example_object_type: float
+        example_predicate: geo:hasMetricArea
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: owl_Thing
+    slot_uri: geo:hasMetricArea
+    range: float
+  kwgo_administrativePartOf:
+    name: kwgo_administrativePartOf
+    annotations:
+      count:
+        tag: count
+        value: 2345
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: kwgr:administrativeRegion.USA
+        example_object_type: owl_Thing
+        example_predicate: kwgo:administrativePartOf
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: kwgo_AdministrativeRegion_1
+    - object:
+        example_object: kwgr:administrativeRegion.USA
+        example_object_type: owl_Thing
+        example_predicate: kwgo:administrativePartOf
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:administrativeRegion.USA.17
+        example_object_type: kwgo_AdministrativeRegion_1
+        example_predicate: kwgo:administrativePartOf
+        example_subject: kwgr:administrativeRegion.USA.17001
+        example_subject_type: kwgo_AdministrativeRegion_2
+    - object:
+        example_object: kwgr:administrativeRegion.USA.17
+        example_object_type: owl_Thing
+        example_predicate: kwgo:administrativePartOf
+        example_subject: kwgr:administrativeRegion.USA.17001
+        example_subject_type: kwgo_AdministrativeRegion_2
+    - object:
+        example_object: kwgr:administrativeRegion.USA.17
+        example_object_type: kwgo_AdministrativeRegion_1
+        example_predicate: kwgo:administrativePartOf
+        example_subject: kwgr:administrativeRegion.USA.17001
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:administrativeRegion.USA.17001
+        example_object_type: kwgo_AdministrativeRegion_2
+        example_predicate: kwgo:administrativePartOf
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:administrativeRegion.USA.17001
+        example_object_type: kwgo_AdministrativeRegion_2
+        example_predicate: kwgo:administrativePartOf
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: kwgo_AdministrativeRegion_3
+    - object:
+        example_object: kwgr:administrativeRegion.USA.17001
+        example_object_type: owl_Thing
+        example_predicate: kwgo:administrativePartOf
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: kwgo_AdministrativeRegion_3
+    slot_uri: kwgo:administrativePartOf
+    range: Any
+    any_of:
+    - range: owl_Thing
+    - range: kwgo_AdministrativeRegion_2
+    - range: kwgo_AdministrativeRegion_1
+  kwgo_cellID:
+    name: kwgo_cellID
+    annotations:
+      count:
+        tag: count
+        value: 249509
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '5522341869704445952'
+        example_object_type: integer
+        example_predicate: kwgo:cellID
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: '5522341869704445952'
+        example_object_type: integer
+        example_predicate: kwgo:cellID
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: owl_Thing
+    slot_uri: kwgo:cellID
+    range: integer
+  kwgo_hasFIPS:
+    name: kwgo_hasFIPS
+    annotations:
+      count:
+        tag: count
+        value: 2345
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '17'
+        example_object_type: string
+        example_predicate: kwgo:hasFIPS
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: kwgo_AdministrativeRegion_1
+    - object:
+        example_object: '17'
+        example_object_type: string
+        example_predicate: kwgo:hasFIPS
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: owl_Thing
+    - object:
+        example_object: '17001'
+        example_object_type: string
+        example_predicate: kwgo:hasFIPS
+        example_subject: kwgr:administrativeRegion.USA.17001
+        example_subject_type: kwgo_AdministrativeRegion_2
+    - object:
+        example_object: '1700105742'
+        example_object_type: string
+        example_predicate: kwgo:hasFIPS
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: kwgo_AdministrativeRegion_3
+    slot_uri: kwgo:hasFIPS
+    range: string
+  kwgo_sfContains:
+    name: kwgo_sfContains
+    annotations:
+      count:
+        tag: count
+        value: 923206
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: kwgr:s2.level13.9788714544757997568
+        example_object_type: kwgo_S2Cell_Level13
+        example_predicate: kwgo:sfContains
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: kwgo_AdministrativeRegion_1
+    - object:
+        example_object: kwgr:s2.level13.9788714544757997568
+        example_object_type: owl_Thing
+        example_predicate: kwgo:sfContains
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: kwgo_AdministrativeRegion_1
+    - object:
+        example_object: kwgr:s2.level13.9788714544757997568
+        example_object_type: kwgo_S2Cell_Level13
+        example_predicate: kwgo:sfContains
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:s2.level13.9788714544757997568
+        example_object_type: owl_Thing
+        example_predicate: kwgo:sfContains
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:s2.level13.9790230015378456576
+        example_object_type: kwgo_S2Cell_Level13
+        example_predicate: kwgo:sfContains
+        example_subject: kwgr:administrativeRegion.USA.17001
+        example_subject_type: kwgo_AdministrativeRegion_2
+    - object:
+        example_object: kwgr:s2.level13.9790230015378456576
+        example_object_type: owl_Thing
+        example_predicate: kwgo:sfContains
+        example_subject: kwgr:administrativeRegion.USA.17001
+        example_subject_type: kwgo_AdministrativeRegion_2
+    - object:
+        example_object: kwgr:s2.level13.9790280627273072640
+        example_object_type: kwgo_S2Cell_Level13
+        example_predicate: kwgo:sfContains
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: kwgo_AdministrativeRegion_3
+    - object:
+        example_object: kwgr:s2.level13.9790280627273072640
+        example_object_type: owl_Thing
+        example_predicate: kwgo:sfContains
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: kwgo_AdministrativeRegion_3
+    slot_uri: kwgo:sfContains
+    range: Any
+    any_of:
+    - range: owl_Thing
+    - range: kwgo_S2Cell_Level13
+  kwgo_sfOverlaps:
+    name: kwgo_sfOverlaps
+    annotations:
+      count:
+        tag: count
+        value: 287124
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: kwgr:s2.level13.9788714407319044096
+        example_object_type: kwgo_S2Cell_Level13
+        example_predicate: kwgo:sfOverlaps
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: kwgo_AdministrativeRegion_1
+    - object:
+        example_object: kwgr:s2.level13.9788714407319044096
+        example_object_type: owl_Thing
+        example_predicate: kwgo:sfOverlaps
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: kwgo_AdministrativeRegion_1
+    - object:
+        example_object: kwgr:s2.level13.9788714407319044096
+        example_object_type: kwgo_S2Cell_Level13
+        example_predicate: kwgo:sfOverlaps
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:s2.level13.9788714407319044096
+        example_object_type: owl_Thing
+        example_predicate: kwgo:sfOverlaps
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:s2.level13.9790229946658979840
+        example_object_type: kwgo_S2Cell_Level13
+        example_predicate: kwgo:sfOverlaps
+        example_subject: kwgr:administrativeRegion.USA.17001
+        example_subject_type: kwgo_AdministrativeRegion_2
+    - object:
+        example_object: kwgr:s2.level13.9790229946658979840
+        example_object_type: owl_Thing
+        example_predicate: kwgo:sfOverlaps
+        example_subject: kwgr:administrativeRegion.USA.17001
+        example_subject_type: kwgo_AdministrativeRegion_2
+    - object:
+        example_object: kwgr:administrativeRegion.USA.23
+        example_object_type: kwgo_AdministrativeRegion_1
+        example_predicate: kwgo:sfOverlaps
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: kwgr:administrativeRegion.USA.23
+        example_object_type: owl_Thing
+        example_predicate: kwgo:sfOverlaps
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: kwgr:administrativeRegion.USA.23
+        example_object_type: kwgo_AdministrativeRegion_1
+        example_predicate: kwgo:sfOverlaps
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:administrativeRegion.USA.23003
+        example_object_type: kwgo_AdministrativeRegion_2
+        example_predicate: kwgo:sfOverlaps
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: kwgr:administrativeRegion.USA.23003
+        example_object_type: kwgo_AdministrativeRegion_2
+        example_predicate: kwgo:sfOverlaps
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: owl_Thing
+    - object:
+        example_object: https://datacommons.org/browser/geoId/2300325615
+        example_object_type: kwgo_AdministrativeRegion_3
+        example_predicate: kwgo:sfOverlaps
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: https://datacommons.org/browser/geoId/2300325615
+        example_object_type: kwgo_AdministrativeRegion_3
+        example_predicate: kwgo:sfOverlaps
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:s2.level13.9790280524193857536
+        example_object_type: kwgo_S2Cell_Level13
+        example_predicate: kwgo:sfOverlaps
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: kwgo_AdministrativeRegion_3
+    - object:
+        example_object: kwgr:s2.level13.9790280524193857536
+        example_object_type: owl_Thing
+        example_predicate: kwgo:sfOverlaps
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: kwgo_AdministrativeRegion_3
+    slot_uri: kwgo:sfOverlaps
+    range: Any
+    any_of:
+    - range: owl_Thing
+    - range: kwgo_AdministrativeRegion_1
+    - range: kwgo_AdministrativeRegion_3
+    - range: kwgo_S2Cell_Level13
+    - range: kwgo_AdministrativeRegion_2
+  kwgo_sfTouches:
+    name: kwgo_sfTouches
+    annotations:
+      count:
+        tag: count
+        value: 2007528
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: kwgr:s2.level13.5529493127691239424
+        example_object_type: kwgo_S2Cell_Level13
+        example_predicate: kwgo:sfTouches
+        example_subject: kwgr:s2.level13.5522340254796742656
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:s2.level13.5529493127691239424
+        example_object_type: owl_Thing
+        example_predicate: kwgo:sfTouches
+        example_subject: kwgr:s2.level13.5522340254796742656
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:s2.level13.5522340392235696128
+        example_object_type: owl_Thing
+        example_predicate: kwgo:sfTouches
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: kwgr:s2.level13.5522341904064184320
+        example_object_type: kwgo_S2Cell_Level13
+        example_predicate: kwgo:sfTouches
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: kwgo_S2Cell_Level13
+    slot_uri: kwgo:sfTouches
+    range: Any
+    any_of:
+    - range: owl_Thing
+    - range: kwgo_S2Cell_Level13
+  kwgo_sfWithin:
+    name: kwgo_sfWithin
+    annotations:
+      count:
+        tag: count
+        value: 925551
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: kwgr:administrativeRegion.USA
+        example_object_type: owl_Thing
+        example_predicate: kwgo:sfWithin
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: kwgo_AdministrativeRegion_1
+    - object:
+        example_object: kwgr:administrativeRegion.USA
+        example_object_type: owl_Thing
+        example_predicate: kwgo:sfWithin
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:administrativeRegion.USA.17
+        example_object_type: kwgo_AdministrativeRegion_1
+        example_predicate: kwgo:sfWithin
+        example_subject: kwgr:administrativeRegion.USA.17001
+        example_subject_type: kwgo_AdministrativeRegion_2
+    - object:
+        example_object: kwgr:administrativeRegion.USA.17
+        example_object_type: owl_Thing
+        example_predicate: kwgo:sfWithin
+        example_subject: kwgr:administrativeRegion.USA.17001
+        example_subject_type: kwgo_AdministrativeRegion_2
+    - object:
+        example_object: kwgr:administrativeRegion.USA.17
+        example_object_type: kwgo_AdministrativeRegion_1
+        example_predicate: kwgo:sfWithin
+        example_subject: kwgr:administrativeRegion.USA.17001
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:s2.level12.5522341886884315136
+        example_object_type: owl_Thing
+        example_predicate: kwgo:sfWithin
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: kwgr:administrativeRegion.USA.23
+        example_object_type: kwgo_AdministrativeRegion_1
+        example_predicate: kwgo:sfWithin
+        example_subject: kwgr:s2.level13.5522342041503137792
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: kwgr:administrativeRegion.USA.23003
+        example_object_type: kwgo_AdministrativeRegion_2
+        example_predicate: kwgo:sfWithin
+        example_subject: kwgr:s2.level13.5522342041503137792
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: kwgr:administrativeRegion.USA.23003
+        example_object_type: kwgo_AdministrativeRegion_2
+        example_predicate: kwgo:sfWithin
+        example_subject: kwgr:s2.level13.5522342041503137792
+        example_subject_type: owl_Thing
+    - object:
+        example_object: https://datacommons.org/browser/geoId/2300325615
+        example_object_type: kwgo_AdministrativeRegion_3
+        example_predicate: kwgo:sfWithin
+        example_subject: kwgr:s2.level13.5522342041503137792
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: https://datacommons.org/browser/geoId/2300325615
+        example_object_type: kwgo_AdministrativeRegion_3
+        example_predicate: kwgo:sfWithin
+        example_subject: kwgr:s2.level13.5522342041503137792
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:administrativeRegion.USA.17001
+        example_object_type: kwgo_AdministrativeRegion_2
+        example_predicate: kwgo:sfWithin
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: kwgo_AdministrativeRegion_3
+    - object:
+        example_object: kwgr:administrativeRegion.USA.17001
+        example_object_type: owl_Thing
+        example_predicate: kwgo:sfWithin
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: kwgo_AdministrativeRegion_3
+    slot_uri: kwgo:sfWithin
+    range: Any
+    any_of:
+    - range: owl_Thing
+    - range: kwgo_AdministrativeRegion_2
+    - range: kwgo_AdministrativeRegion_3
+    - range: kwgo_AdministrativeRegion_1
+  owl_allValuesFrom:
+    name: owl_allValuesFrom
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_allValuesFrom
+    slot_uri: owl:allValuesFrom
+    range: uri
+  owl_annotatedProperty:
+    name: owl_annotatedProperty
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: owl:annotatedProperty
+    range: Any
+  owl_annotatedSource:
+    name: owl_annotatedSource
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: owl:annotatedSource
+    range: Any
+  owl_annotatedTarget:
+    name: owl_annotatedTarget
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: owl:annotatedTarget
+    range: Any
+  owl_assertionProperty:
+    name: owl_assertionProperty
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_assertionProperty
+    slot_uri: owl:assertionProperty
+    range: Any
+  owl_backwardCompatibleWith:
+    name: owl_backwardCompatibleWith
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_backwardCompatibleWith
+    slot_uri: owl:backwardCompatibleWith
+    range: uri
+  owl_bottomDataProperty:
+    name: owl_bottomDataProperty
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_bottomDataProperty
+    slot_uri: owl:bottomDataProperty
+    range: uri
+  owl_bottomObjectProperty:
+    name: owl_bottomObjectProperty
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_bottomObjectProperty
+    slot_uri: owl:bottomObjectProperty
+    range: uri
+  owl_cardinality:
+    name: owl_cardinality
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_cardinality
+    slot_uri: owl:cardinality
+    range: uri
+  owl_complementOf:
+    name: owl_complementOf
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_complementOf
+    slot_uri: owl:complementOf
+    range: uri
+  owl_datatypeComplementOf:
+    name: owl_datatypeComplementOf
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_datatypeComplementOf
+    slot_uri: owl:datatypeComplementOf
+    range: uri
+  owl_deprecated:
+    name: owl_deprecated
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: owl:deprecated
+    range: Any
+  owl_differentFrom:
+    name: owl_differentFrom
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_differentFrom
+    slot_uri: owl:differentFrom
+    range: uri
+  owl_disjointUnionOf:
+    name: owl_disjointUnionOf
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_disjointUnionOf
+    slot_uri: owl:disjointUnionOf
+    range: uri
+  owl_disjointWith:
+    name: owl_disjointWith
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_disjointWith
+    slot_uri: owl:disjointWith
+    range: uri
+  owl_distinctMembers:
+    name: owl_distinctMembers
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_distinctMembers
+    slot_uri: owl:distinctMembers
+    range: uri
+  owl_equivalentClass:
+    name: owl_equivalentClass
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_equivalentClass
+    slot_uri: owl:equivalentClass
+    range: uri
+  owl_equivalentProperty:
+    name: owl_equivalentProperty
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: owl:equivalentProperty
+    range: Any
+  owl_hasKey:
+    name: owl_hasKey
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_hasKey
+    slot_uri: owl:hasKey
+    range: uri
+  owl_hasSelf:
+    name: owl_hasSelf
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_hasSelf
+    slot_uri: owl:hasSelf
+    range: Any
+  owl_hasValue:
+    name: owl_hasValue
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_hasValue
+    slot_uri: owl:hasValue
+    range: Any
+  owl_imports:
+    name: owl_imports
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_imports
+    slot_uri: owl:imports
+    range: uri
+  owl_incompatibleWith:
+    name: owl_incompatibleWith
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_incompatibleWith
+    slot_uri: owl:incompatibleWith
+    range: uri
+  owl_intersectionOf:
+    name: owl_intersectionOf
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_intersectionOf
+    slot_uri: owl:intersectionOf
+    range: uri
+  owl_inverseOf:
+    name: owl_inverseOf
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_inverseOf
+    slot_uri: owl:inverseOf
+    range: uri
+  owl_maxCardinality:
+    name: owl_maxCardinality
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_maxCardinality
+    slot_uri: owl:maxCardinality
+    range: uri
+  owl_maxQualifiedCardinality:
+    name: owl_maxQualifiedCardinality
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_maxQualifiedCardinality
+    slot_uri: owl:maxQualifiedCardinality
+    range: uri
+  owl_members:
+    name: owl_members
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: owl:members
+    range: uri
+  owl_minCardinality:
+    name: owl_minCardinality
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_minCardinality
+    slot_uri: owl:minCardinality
+    range: uri
+  owl_minQualifiedCardinality:
+    name: owl_minQualifiedCardinality
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_minQualifiedCardinality
+    slot_uri: owl:minQualifiedCardinality
+    range: uri
+  owl_onClass:
+    name: owl_onClass
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_onClass
+    slot_uri: owl:onClass
+    range: uri
+  owl_onDataRange:
+    name: owl_onDataRange
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_onDataRange
+    slot_uri: owl:onDataRange
+    range: uri
+  owl_onDatatype:
+    name: owl_onDatatype
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_onDatatype
+    slot_uri: owl:onDatatype
+    range: uri
+  owl_onProperties:
+    name: owl_onProperties
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_onProperties
+    slot_uri: owl:onProperties
+    range: uri
+  owl_onProperty:
+    name: owl_onProperty
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_onProperty
+    slot_uri: owl:onProperty
+    range: Any
+  owl_oneOf:
+    name: owl_oneOf
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_oneOf
+    slot_uri: owl:oneOf
+    range: uri
+  owl_priorVersion:
+    name: owl_priorVersion
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_priorVersion
+    slot_uri: owl:priorVersion
+    range: uri
+  owl_propertyChainAxiom:
+    name: owl_propertyChainAxiom
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_propertyChainAxiom
+    slot_uri: owl:propertyChainAxiom
+    range: uri
+  owl_propertyDisjointWith:
+    name: owl_propertyDisjointWith
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: owl:propertyDisjointWith
+    range: Any
+  owl_qualifiedCardinality:
+    name: owl_qualifiedCardinality
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_qualifiedCardinality
+    slot_uri: owl:qualifiedCardinality
+    range: uri
+  owl_sameAs:
+    name: owl_sameAs
+    annotations:
+      count:
+        tag: count
+        value: 571175
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_object_type: sf_#Polygon
+        example_predicate: owl:sameAs
+        example_subject: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_subject_type: geo_Geometry
+    - object:
+        example_object: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_object_type: geo_Geometry
+        example_predicate: owl:sameAs
+        example_subject: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_subject_type: geo_Geometry
+    - object:
+        example_object: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_object_type: owl_Thing
+        example_predicate: owl:sameAs
+        example_subject: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_subject_type: geo_Geometry
+    - object:
+        example_object: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_object_type: sf_#Polygon
+        example_predicate: owl:sameAs
+        example_subject: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_subject_type: sf_#Polygon
+    - object:
+        example_object: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_object_type: geo_Geometry
+        example_predicate: owl:sameAs
+        example_subject: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_subject_type: sf_#Polygon
+    - object:
+        example_object: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_object_type: owl_Thing
+        example_predicate: owl:sameAs
+        example_subject: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_subject_type: sf_#Polygon
+    - object:
+        example_object: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_object_type: sf_#Polygon
+        example_predicate: owl:sameAs
+        example_subject: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_subject_type: owl_Thing
+    - object:
+        example_object: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_object_type: geo_Geometry
+        example_predicate: owl:sameAs
+        example_subject: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_subject_type: owl_Thing
+    - object:
+        example_object: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_object_type: owl_Thing
+        example_predicate: owl:sameAs
+        example_subject: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:administrativeRegion.USA.17
+        example_object_type: kwgo_AdministrativeRegion_1
+        example_predicate: owl:sameAs
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: kwgo_AdministrativeRegion_1
+    - object:
+        example_object: kwgr:administrativeRegion.USA.17
+        example_object_type: owl_Thing
+        example_predicate: owl:sameAs
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: kwgo_AdministrativeRegion_1
+    - object:
+        example_object: kwgr:administrativeRegion.USA.17
+        example_object_type: kwgo_AdministrativeRegion_1
+        example_predicate: owl:sameAs
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:administrativeRegion.USA.17001
+        example_object_type: kwgo_AdministrativeRegion_2
+        example_predicate: owl:sameAs
+        example_subject: kwgr:administrativeRegion.USA.17001
+        example_subject_type: kwgo_AdministrativeRegion_2
+    - object:
+        example_object: kwgr:administrativeRegion.USA.17001
+        example_object_type: owl_Thing
+        example_predicate: owl:sameAs
+        example_subject: kwgr:administrativeRegion.USA.17001
+        example_subject_type: kwgo_AdministrativeRegion_2
+    - object:
+        example_object: kwgr:administrativeRegion.USA.17001
+        example_object_type: kwgo_AdministrativeRegion_2
+        example_predicate: owl:sameAs
+        example_subject: kwgr:administrativeRegion.USA.17001
+        example_subject_type: owl_Thing
+    - object:
+        example_object: kwgr:s2.level13.5522341869704445952
+        example_object_type: kwgo_S2Cell_Level13
+        example_predicate: owl:sameAs
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: kwgr:s2.level13.5522341869704445952
+        example_object_type: owl_Thing
+        example_predicate: owl:sameAs
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: kwgr:s2.level13.5522341869704445952
+        example_object_type: kwgo_S2Cell_Level13
+        example_predicate: owl:sameAs
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: owl_Thing
+    - object:
+        example_object: rdf:nil
+        example_object_type: rdf_List
+        example_predicate: owl:sameAs
+        example_subject: rdf:nil
+        example_subject_type: owl_Thing
+    - object:
+        example_object: rdf:nil
+        example_object_type: owl_Thing
+        example_predicate: owl:sameAs
+        example_subject: rdf:nil
+        example_subject_type: rdf_List
+    - object:
+        example_object: rdf:nil
+        example_object_type: rdf_List
+        example_predicate: owl:sameAs
+        example_subject: rdf:nil
+        example_subject_type: rdf_List
+    - object:
+        example_object: owl:topObjectProperty
+        example_object_type: rdf_ObjectProperty
+        example_predicate: owl:sameAs
+        example_subject: owl:topObjectProperty
+        example_subject_type: rdf_ObjectProperty
+    - object:
+        example_object: owl:topObjectProperty
+        example_object_type: owl_Thing
+        example_predicate: owl:sameAs
+        example_subject: owl:topObjectProperty
+        example_subject_type: rdf_ObjectProperty
+    - object:
+        example_object: owl:topObjectProperty
+        example_object_type: rdf_ObjectProperty
+        example_predicate: owl:sameAs
+        example_subject: owl:topObjectProperty
+        example_subject_type: owl_Thing
+    - object:
+        example_object: https://datacommons.org/browser/geoId/1700105742
+        example_object_type: kwgo_AdministrativeRegion_3
+        example_predicate: owl:sameAs
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: owl_Thing
+    - object:
+        example_object: https://datacommons.org/browser/geoId/1700105742
+        example_object_type: owl_Thing
+        example_predicate: owl:sameAs
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: kwgo_AdministrativeRegion_3
+    - object:
+        example_object: https://datacommons.org/browser/geoId/1700105742
+        example_object_type: kwgo_AdministrativeRegion_3
+        example_predicate: owl:sameAs
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: kwgo_AdministrativeRegion_3
+    domain: owl_sameAs
+    slot_uri: owl:sameAs
+    range: Any
+    any_of:
+    - range: geo_Geometry
+    - range: rdf_ObjectProperty
+    - range: rdf_List
+    - range: kwgo_AdministrativeRegion_1
+    - range: owl_Thing
+    - range: uri
+    - range: sf_#Polygon
+    - range: kwgo_AdministrativeRegion_3
+    - range: kwgo_AdministrativeRegion_2
+    - range: kwgo_S2Cell_Level13
+  owl_someValuesFrom:
+    name: owl_someValuesFrom
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_someValuesFrom
+    slot_uri: owl:someValuesFrom
+    range: uri
+  owl_sourceIndividual:
+    name: owl_sourceIndividual
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_sourceIndividual
+    slot_uri: owl:sourceIndividual
+    range: uri
+  owl_targetIndividual:
+    name: owl_targetIndividual
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_targetIndividual
+    slot_uri: owl:targetIndividual
+    range: uri
+  owl_targetValue:
+    name: owl_targetValue
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_targetValue
+    slot_uri: owl:targetValue
+    range: uri
+  owl_topDataProperty:
+    name: owl_topDataProperty
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_topDataProperty
+    slot_uri: owl:topDataProperty
+    range: uri
+  owl_unionOf:
+    name: owl_unionOf
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_unionOf
+    slot_uri: owl:unionOf
+    range: uri
+  owl_versionIRI:
+    name: owl_versionIRI
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_versionIRI
+    slot_uri: owl:versionIRI
+    range: uri
+  owl_versionInfo:
+    name: owl_versionInfo
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: owl:versionInfo
+    range: Any
+  owl_withRestrictions:
+    name: owl_withRestrictions
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: owl_withRestrictions
+    slot_uri: owl:withRestrictions
+    range: uri
+  rdf__1:
+    name: rdf__1
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: rdf:_1
+    range: Any
+  rdf_first:
+    name: rdf_first
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: rdf_first
+    slot_uri: rdf:first
+    range: Any
+  rdf_langRange:
+    name: rdf_langRange
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: rdf:langRange
+    range: uri
+  rdf_object:
+    name: rdf_object
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: rdf_object
+    slot_uri: rdf:object
+    range: Any
+  rdf_predicate:
+    name: rdf_predicate
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: rdf_predicate
+    slot_uri: rdf:predicate
+    range: Any
+  rdf_rest:
+    name: rdf_rest
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: rdf_rest
+    slot_uri: rdf:rest
+    range: uri
+  rdf_subject:
+    name: rdf_subject
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: rdf_subject
+    slot_uri: rdf:subject
+    range: Any
+  rdf_type:
+    name: rdf_type
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: rdf:type
+    range: Any
+  rdf_value:
+    name: rdf_value
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: rdf:value
+    range: Any
+  rdfs_comment:
+    name: rdfs_comment
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: rdfs:comment
+    range: uri
+  rdfs_domain:
+    name: rdfs_domain
+    annotations:
+      count:
+        tag: count
+        value: 1
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: owl:Thing
+        example_object_type: owl_Class
+        example_predicate: rdfs:domain
+        example_subject: owl:topObjectProperty
+        example_subject_type: rdf_ObjectProperty
+    - object:
+        example_object: owl:Thing
+        example_object_type: owl_Thing
+        example_predicate: rdfs:domain
+        example_subject: owl:topObjectProperty
+        example_subject_type: rdf_ObjectProperty
+    - object:
+        example_object: owl:Thing
+        example_object_type: rdfs_Class
+        example_predicate: rdfs:domain
+        example_subject: owl:topObjectProperty
+        example_subject_type: rdf_ObjectProperty
+    - object:
+        example_object: owl:Thing
+        example_object_type: owl_Class
+        example_predicate: rdfs:domain
+        example_subject: owl:topObjectProperty
+        example_subject_type: owl_Thing
+    - object:
+        example_object: owl:Thing
+        example_object_type: owl_Thing
+        example_predicate: rdfs:domain
+        example_subject: owl:topObjectProperty
+        example_subject_type: owl_Thing
+    - object:
+        example_object: owl:Thing
+        example_object_type: rdfs_Class
+        example_predicate: rdfs:domain
+        example_subject: owl:topObjectProperty
+        example_subject_type: owl_Thing
+    slot_uri: rdfs:domain
+    range: Any
+    any_of:
+    - range: owl_Thing
+    - range: owl_Class
+    - range: rdfs_Class
+    - range: uri
+  rdfs_isDefinedBy:
+    name: rdfs_isDefinedBy
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: rdfs:isDefinedBy
+    range: Any
+  rdfs_label:
+    name: rdfs_label
+    annotations:
+      count:
+        tag: count
+        value: 503708
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: Geometry of Beverly township, Illinois
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_subject_type: geo_Geometry
+    - object:
+        example_object: Geometry of Beverly township, Illinois
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_subject_type: sf_#Polygon
+    - object:
+        example_object: Geometry of Beverly township, Illinois
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: http://sawgraph.spatialai.org/v1/saw_geo#d.Polygon.administrativeRegion.USA.1700105742
+        example_subject_type: owl_Thing
+    - object:
+        example_object: Illinois
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: kwgr:administrativeRegion.USA.17
+        example_subject_type: kwgo_AdministrativeRegion_1
+    - object:
+        example_object: Adams County, Illinois
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: kwgr:administrativeRegion.USA.17001
+        example_subject_type: kwgo_AdministrativeRegion_2
+    - object:
+        example_object: S2 Cell at level 13 with ID 5522341869704445952
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: kwgr:s2.level13.5522341869704445952
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: Beverly township, Illinois
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: https://datacommons.org/browser/geoId/1700105742
+        example_subject_type: kwgo_AdministrativeRegion_3
+    slot_uri: rdfs:label
+    range: Any
+    any_of:
+    - range: string
+    - range: uri
+  rdfs_range:
+    name: rdfs_range
+    annotations:
+      count:
+        tag: count
+        value: 1
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: owl:Thing
+        example_object_type: owl_Class
+        example_predicate: rdfs:range
+        example_subject: owl:topObjectProperty
+        example_subject_type: rdf_ObjectProperty
+    - object:
+        example_object: owl:Thing
+        example_object_type: owl_Thing
+        example_predicate: rdfs:range
+        example_subject: owl:topObjectProperty
+        example_subject_type: rdf_ObjectProperty
+    - object:
+        example_object: owl:Thing
+        example_object_type: rdfs_Class
+        example_predicate: rdfs:range
+        example_subject: owl:topObjectProperty
+        example_subject_type: rdf_ObjectProperty
+    - object:
+        example_object: owl:Thing
+        example_object_type: owl_Class
+        example_predicate: rdfs:range
+        example_subject: owl:topObjectProperty
+        example_subject_type: owl_Thing
+    - object:
+        example_object: owl:Thing
+        example_object_type: owl_Thing
+        example_predicate: rdfs:range
+        example_subject: owl:topObjectProperty
+        example_subject_type: owl_Thing
+    - object:
+        example_object: owl:Thing
+        example_object_type: rdfs_Class
+        example_predicate: rdfs:range
+        example_subject: owl:topObjectProperty
+        example_subject_type: owl_Thing
+    slot_uri: rdfs:range
+    range: Any
+    any_of:
+    - range: owl_Thing
+    - range: owl_Class
+    - range: rdfs_Class
+    - range: uri
+  rdfs_seeAlso:
+    name: rdfs_seeAlso
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: rdfs:seeAlso
+    range: Any
+  rdfs_subClassOf:
+    name: rdfs_subClassOf
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    domain: rdfs_subClassOf
+    slot_uri: rdfs:subClassOf
+    range: uri
+  rdfs_subPropertyOf:
+    name: rdfs_subPropertyOf
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: rdfs:subPropertyOf
+    range: Any
+  xsd_length:
+    name: xsd_length
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: xsd:length
+    range: uri
+  xsd_maxExclusive:
+    name: xsd_maxExclusive
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: xsd:maxExclusive
+    range: uri
+  xsd_maxInclusive:
+    name: xsd_maxInclusive
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: xsd:maxInclusive
+    range: uri
+  xsd_maxLength:
+    name: xsd_maxLength
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: xsd:maxLength
+    range: uri
+  xsd_minExclusive:
+    name: xsd_minExclusive
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: xsd:minExclusive
+    range: uri
+  xsd_minInclusive:
+    name: xsd_minInclusive
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: xsd:minInclusive
+    range: uri
+  xsd_minLength:
+    name: xsd_minLength
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: xsd:minLength
+    range: uri
+  xsd_pattern:
+    name: xsd_pattern
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    comments:
+    - No occurrences of this slot in the graph.
+    slot_uri: xsd:pattern
+    range: uri
+classes:
+  Any:
+    name: Any
+    class_uri: linkml:Any
+  geo_Geometry:
+    name: geo_Geometry
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 251854
+    description: No class (type) description specified
+    title: No class (type) name specified
+    slots:
+    - rdfs_label
+    - geo_asWKT
+    - owl_sameAs
+    slot_usage:
+      geo_asWKT:
+        name: geo_asWKT
+        annotations:
+          geo_wktLiteral:
+            tag: geo_wktLiteral
+            value: 251854
+      owl_sameAs:
+        name: owl_sameAs
+        annotations:
+          geo_Geometry:
+            tag: geo_Geometry
+            value: 251854
+          owl_Thing:
+            tag: owl_Thing
+            value: 251854
+          sf_#Polygon:
+            tag: sf_#Polygon
+            value: 251736
+      rdfs_label:
+        name: rdfs_label
+        annotations:
+          string:
+            tag: string
+            value: 251854
+    class_uri: geo:Geometry
+  kwgo_AdministrativeRegion_1:
+    name: kwgo_AdministrativeRegion_1
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 2
+    description: No class (type) description specified
+    title: No class (type) name specified
+    slots:
+    - kwgo_administrativePartOf
+    - kwgo_sfOverlaps
+    - kwgo_sfContains
+    - owl_sameAs
+    - rdfs_label
+    - geo_hasGeometry
+    - kwgo_hasFIPS
+    - geo_hasDefaultGeometry
+    - kwgo_sfWithin
+    slot_usage:
+      geo_hasDefaultGeometry:
+        name: geo_hasDefaultGeometry
+        annotations:
+          geo_Geometry:
+            tag: geo_Geometry
+            value: 2
+          owl_Thing:
+            tag: owl_Thing
+            value: 2
+          sf_#Polygon:
+            tag: sf_#Polygon
+            value: 2
+      geo_hasGeometry:
+        name: geo_hasGeometry
+        annotations:
+          geo_Geometry:
+            tag: geo_Geometry
+            value: 2
+          owl_Thing:
+            tag: owl_Thing
+            value: 2
+          sf_#Polygon:
+            tag: sf_#Polygon
+            value: 2
+      kwgo_administrativePartOf:
+        name: kwgo_administrativePartOf
+        annotations:
+          owl_Thing:
+            tag: owl_Thing
+            value: 2
+      kwgo_hasFIPS:
+        name: kwgo_hasFIPS
+        annotations:
+          string:
+            tag: string
+            value: 2
+      kwgo_sfContains:
+        name: kwgo_sfContains
+        annotations:
+          kwgo_S2Cell_Level13:
+            tag: kwgo_S2Cell_Level13
+            value: 244704
+          owl_Thing:
+            tag: owl_Thing
+            value: 244704
+      kwgo_sfOverlaps:
+        name: kwgo_sfOverlaps
+        annotations:
+          kwgo_S2Cell_Level13:
+            tag: kwgo_S2Cell_Level13
+            value: 4845
+          owl_Thing:
+            tag: owl_Thing
+            value: 4873
+      kwgo_sfWithin:
+        name: kwgo_sfWithin
+        annotations:
+          owl_Thing:
+            tag: owl_Thing
+            value: 2
+      owl_sameAs:
+        name: owl_sameAs
+        annotations:
+          kwgo_AdministrativeRegion_1:
+            tag: kwgo_AdministrativeRegion_1
+            value: 2
+          owl_Thing:
+            tag: owl_Thing
+            value: 2
+      rdfs_label:
+        name: rdfs_label
+        annotations:
+          string:
+            tag: string
+            value: 2
+    class_uri: kwgo:AdministrativeRegion_1
+  kwgo_AdministrativeRegion_2:
+    name: kwgo_AdministrativeRegion_2
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 118
+    description: No class (type) description specified
+    title: No class (type) name specified
+    slots:
+    - kwgo_administrativePartOf
+    - kwgo_sfOverlaps
+    - kwgo_sfContains
+    - owl_sameAs
+    - rdfs_label
+    - geo_hasGeometry
+    - kwgo_hasFIPS
+    - geo_hasDefaultGeometry
+    - kwgo_sfWithin
+    slot_usage:
+      geo_hasDefaultGeometry:
+        name: geo_hasDefaultGeometry
+        annotations:
+          geo_Geometry:
+            tag: geo_Geometry
+            value: 118
+          owl_Thing:
+            tag: owl_Thing
+            value: 118
+      geo_hasGeometry:
+        name: geo_hasGeometry
+        annotations:
+          geo_Geometry:
+            tag: geo_Geometry
+            value: 118
+          owl_Thing:
+            tag: owl_Thing
+            value: 118
+      kwgo_administrativePartOf:
+        name: kwgo_administrativePartOf
+        annotations:
+          kwgo_AdministrativeRegion_1:
+            tag: kwgo_AdministrativeRegion_1
+            value: 118
+          owl_Thing:
+            tag: owl_Thing
+            value: 118
+      kwgo_hasFIPS:
+        name: kwgo_hasFIPS
+        annotations:
+          string:
+            tag: string
+            value: 118
+      kwgo_sfContains:
+        name: kwgo_sfContains
+        annotations:
+          kwgo_S2Cell_Level13:
+            tag: kwgo_S2Cell_Level13
+            value: 233310
+          owl_Thing:
+            tag: owl_Thing
+            value: 233310
+      kwgo_sfOverlaps:
+        name: kwgo_sfOverlaps
+        annotations:
+          kwgo_S2Cell_Level13:
+            tag: kwgo_S2Cell_Level13
+            value: 28306
+          owl_Thing:
+            tag: owl_Thing
+            value: 28334
+      kwgo_sfWithin:
+        name: kwgo_sfWithin
+        annotations:
+          kwgo_AdministrativeRegion_1:
+            tag: kwgo_AdministrativeRegion_1
+            value: 118
+          owl_Thing:
+            tag: owl_Thing
+            value: 118
+      owl_sameAs:
+        name: owl_sameAs
+        annotations:
+          kwgo_AdministrativeRegion_2:
+            tag: kwgo_AdministrativeRegion_2
+            value: 118
+          owl_Thing:
+            tag: owl_Thing
+            value: 118
+      rdfs_label:
+        name: rdfs_label
+        annotations:
+          string:
+            tag: string
+            value: 118
+    class_uri: kwgo:AdministrativeRegion_2
+  kwgo_AdministrativeRegion_3:
+    name: kwgo_AdministrativeRegion_3
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 2225
+    description: No class (type) description specified
+    title: No class (type) name specified
+    slots:
+    - kwgo_administrativePartOf
+    - geo_defaultGeometry
+    - kwgo_sfOverlaps
+    - kwgo_sfContains
+    - owl_sameAs
+    - rdfs_label
+    - geo_hasGeometry
+    - kwgo_hasFIPS
+    - kwgo_sfWithin
+    slot_usage:
+      geo_defaultGeometry:
+        name: geo_defaultGeometry
+        annotations:
+          geo_Geometry:
+            tag: geo_Geometry
+            value: 2225
+          owl_Thing:
+            tag: owl_Thing
+            value: 2225
+          sf_#Polygon:
+            tag: sf_#Polygon
+            value: 2225
+      geo_hasGeometry:
+        name: geo_hasGeometry
+        annotations:
+          geo_Geometry:
+            tag: geo_Geometry
+            value: 2225
+          owl_Thing:
+            tag: owl_Thing
+            value: 2225
+          sf_#Polygon:
+            tag: sf_#Polygon
+            value: 2225
+      kwgo_administrativePartOf:
+        name: kwgo_administrativePartOf
+        annotations:
+          kwgo_AdministrativeRegion_2:
+            tag: kwgo_AdministrativeRegion_2
+            value: 2225
+          owl_Thing:
+            tag: owl_Thing
+            value: 2225
+      kwgo_hasFIPS:
+        name: kwgo_hasFIPS
+        annotations:
+          string:
+            tag: string
+            value: 2225
+      kwgo_sfContains:
+        name: kwgo_sfContains
+        annotations:
+          kwgo_S2Cell_Level13:
+            tag: kwgo_S2Cell_Level13
+            value: 195683
+          owl_Thing:
+            tag: owl_Thing
+            value: 195683
+      kwgo_sfOverlaps:
+        name: kwgo_sfOverlaps
+        annotations:
+          kwgo_S2Cell_Level13:
+            tag: kwgo_S2Cell_Level13
+            value: 110327
+          owl_Thing:
+            tag: owl_Thing
+            value: 110355
+      kwgo_sfWithin:
+        name: kwgo_sfWithin
+        annotations:
+          kwgo_AdministrativeRegion_2:
+            tag: kwgo_AdministrativeRegion_2
+            value: 2225
+          owl_Thing:
+            tag: owl_Thing
+            value: 2225
+      owl_sameAs:
+        name: owl_sameAs
+        annotations:
+          kwgo_AdministrativeRegion_3:
+            tag: kwgo_AdministrativeRegion_3
+            value: 2225
+          owl_Thing:
+            tag: owl_Thing
+            value: 2225
+      rdfs_label:
+        name: rdfs_label
+        annotations:
+          string:
+            tag: string
+            value: 2225
+    class_uri: kwgo:AdministrativeRegion_3
+  kwgo_S2Cell_Level13:
+    name: kwgo_S2Cell_Level13
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 249509
+    description: No class (type) description specified
+    title: No class (type) name specified
+    slots:
+    - kwgo_cellID
+    - geo_hasMetricArea
+    - kwgo_sfOverlaps
+    - owl_sameAs
+    - kwgo_sfTouches
+    - geo_hasGeometry
+    - rdfs_label
+    - geo_hasDefaultGeometry
+    - kwgo_sfWithin
+    slot_usage:
+      geo_hasDefaultGeometry:
+        name: geo_hasDefaultGeometry
+        annotations:
+          geo_Geometry:
+            tag: geo_Geometry
+            value: 249509
+          owl_Thing:
+            tag: owl_Thing
+            value: 249509
+          sf_#Polygon:
+            tag: sf_#Polygon
+            value: 249509
+      geo_hasGeometry:
+        name: geo_hasGeometry
+        annotations:
+          geo_Geometry:
+            tag: geo_Geometry
+            value: 249509
+          owl_Thing:
+            tag: owl_Thing
+            value: 249509
+          sf_#Polygon:
+            tag: sf_#Polygon
+            value: 249509
+      geo_hasMetricArea:
+        name: geo_hasMetricArea
+        annotations:
+          float:
+            tag: float
+            value: 249509
+      kwgo_cellID:
+        name: kwgo_cellID
+        annotations:
+          integer:
+            tag: integer
+            value: 249509
+      kwgo_sfOverlaps:
+        name: kwgo_sfOverlaps
+        annotations:
+          kwgo_AdministrativeRegion_1:
+            tag: kwgo_AdministrativeRegion_1
+            value: 4845
+          kwgo_AdministrativeRegion_2:
+            tag: kwgo_AdministrativeRegion_2
+            value: 28306
+          kwgo_AdministrativeRegion_3:
+            tag: kwgo_AdministrativeRegion_3
+            value: 110327
+          owl_Thing:
+            tag: owl_Thing
+            value: 143478
+      kwgo_sfTouches:
+        name: kwgo_sfTouches
+        annotations:
+          kwgo_S2Cell_Level13:
+            tag: kwgo_S2Cell_Level13
+            value: 1984616
+          owl_Thing:
+            tag: owl_Thing
+            value: 1996072
+      kwgo_sfWithin:
+        name: kwgo_sfWithin
+        annotations:
+          kwgo_AdministrativeRegion_1:
+            tag: kwgo_AdministrativeRegion_1
+            value: 244704
+          kwgo_AdministrativeRegion_2:
+            tag: kwgo_AdministrativeRegion_2
+            value: 233310
+          kwgo_AdministrativeRegion_3:
+            tag: kwgo_AdministrativeRegion_3
+            value: 195683
+          owl_Thing:
+            tag: owl_Thing
+            value: 923206
+      owl_sameAs:
+        name: owl_sameAs
+        annotations:
+          kwgo_S2Cell_Level13:
+            tag: kwgo_S2Cell_Level13
+            value: 249509
+          owl_Thing:
+            tag: owl_Thing
+            value: 249509
+      rdfs_label:
+        name: rdfs_label
+        annotations:
+          string:
+            tag: string
+            value: 249509
+    class_uri: kwgo:S2Cell_Level13
+  owl_AllDifferent:
+    name: owl_AllDifferent
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Resource
+    class_uri: owl:AllDifferent
+  owl_AllDisjointClasses:
+    name: owl_AllDisjointClasses
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Resource
+    class_uri: owl:AllDisjointClasses
+  owl_AllDisjointProperties:
+    name: owl_AllDisjointProperties
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Resource
+    class_uri: owl:AllDisjointProperties
+  owl_Annotation:
+    name: owl_Annotation
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Resource
+    class_uri: owl:Annotation
+  owl_AnnotationProperty:
+    name: owl_AnnotationProperty
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdf_Property
+    class_uri: owl:AnnotationProperty
+  owl_AsymmetricProperty:
+    name: owl_AsymmetricProperty
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: owl_ObjectProperty
+    class_uri: owl:AsymmetricProperty
+  owl_Axiom:
+    name: owl_Axiom
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Resource
+    class_uri: owl:Axiom
+  owl_Class:
+    name: owl_Class
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Class
+    class_uri: owl:Class
+  owl_DataRange:
+    name: owl_DataRange
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Datatype
+    class_uri: owl:DataRange
+  owl_DatatypeProperty:
+    name: owl_DatatypeProperty
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdf_Property
+    class_uri: owl:DatatypeProperty
+  owl_DeprecatedClass:
+    name: owl_DeprecatedClass
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Class
+    class_uri: owl:DeprecatedClass
+  owl_DeprecatedProperty:
+    name: owl_DeprecatedProperty
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdf_Property
+    class_uri: owl:DeprecatedProperty
+  owl_FunctionalProperty:
+    name: owl_FunctionalProperty
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdf_Property
+    class_uri: owl:FunctionalProperty
+  owl_InverseFunctionalProperty:
+    name: owl_InverseFunctionalProperty
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: owl_ObjectProperty
+    class_uri: owl:InverseFunctionalProperty
+  owl_IrreflexiveProperty:
+    name: owl_IrreflexiveProperty
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: owl_ObjectProperty
+    class_uri: owl:IrreflexiveProperty
+  owl_NamedIndividual:
+    name: owl_NamedIndividual
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: owl_Thing
+    class_uri: owl:NamedIndividual
+  owl_NegativePropertyAssertion:
+    name: owl_NegativePropertyAssertion
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Resource
+    class_uri: owl:NegativePropertyAssertion
+  owl_Nothing:
+    name: owl_Nothing
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: owl_Thing
+    class_uri: owl:Nothing
+  owl_ObjectProperty:
+    name: owl_ObjectProperty
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified -- this class is noted as a superclass of
+      another class in this graph but has not itself been defined.
+    class_uri: owl:ObjectProperty
+  owl_Ontology:
+    name: owl_Ontology
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Resource
+    class_uri: owl:Ontology
+  owl_OntologyProperty:
+    name: owl_OntologyProperty
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdf_Property
+    class_uri: owl:OntologyProperty
+  owl_ReflexiveProperty:
+    name: owl_ReflexiveProperty
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: owl_ObjectProperty
+    class_uri: owl:ReflexiveProperty
+  owl_Restriction:
+    name: owl_Restriction
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: owl_Class
+    class_uri: owl:Restriction
+  owl_SymmetricProperty:
+    name: owl_SymmetricProperty
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: owl_ObjectProperty
+    class_uri: owl:SymmetricProperty
+  owl_Thing:
+    name: owl_Thing
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 571175
+    description: No class (type) description specified
+    title: No class (type) name specified -- this class is noted as a superclass of
+      another class in this graph but has not itself been defined.
+    slots:
+    - kwgo_administrativePartOf
+    - kwgo_hasFIPS
+    - geo_defaultGeometry
+    - kwgo_cellID
+    - geo_hasMetricArea
+    - kwgo_sfOverlaps
+    - kwgo_sfContains
+    - owl_sameAs
+    - kwgo_sfTouches
+    - geo_hasGeometry
+    - rdfs_domain
+    - rdfs_label
+    - geo_hasDefaultGeometry
+    - kwgo_sfWithin
+    - rdfs_range
+    - geo_asWKT
+    slot_usage:
+      geo_asWKT:
+        name: geo_asWKT
+        annotations:
+          geo_wktLiteral:
+            tag: geo_wktLiteral
+            value: 251854
+      geo_defaultGeometry:
+        name: geo_defaultGeometry
+        annotations:
+          geo_Geometry:
+            tag: geo_Geometry
+            value: 2225
+          owl_Thing:
+            tag: owl_Thing
+            value: 2225
+          sf_#Polygon:
+            tag: sf_#Polygon
+            value: 2225
+      geo_hasDefaultGeometry:
+        name: geo_hasDefaultGeometry
+        annotations:
+          geo_Geometry:
+            tag: geo_Geometry
+            value: 249629
+          owl_Thing:
+            tag: owl_Thing
+            value: 249629
+          sf_#Polygon:
+            tag: sf_#Polygon
+            value: 249511
+      geo_hasGeometry:
+        name: geo_hasGeometry
+        annotations:
+          geo_Geometry:
+            tag: geo_Geometry
+            value: 251854
+          owl_Thing:
+            tag: owl_Thing
+            value: 251854
+          sf_#Polygon:
+            tag: sf_#Polygon
+            value: 251736
+      geo_hasMetricArea:
+        name: geo_hasMetricArea
+        annotations:
+          float:
+            tag: float
+            value: 249509
+      kwgo_administrativePartOf:
+        name: kwgo_administrativePartOf
+        annotations:
+          kwgo_AdministrativeRegion_1:
+            tag: kwgo_AdministrativeRegion_1
+            value: 118
+          kwgo_AdministrativeRegion_2:
+            tag: kwgo_AdministrativeRegion_2
+            value: 2225
+          owl_Thing:
+            tag: owl_Thing
+            value: 2345
+      kwgo_cellID:
+        name: kwgo_cellID
+        annotations:
+          integer:
+            tag: integer
+            value: 249509
+      kwgo_hasFIPS:
+        name: kwgo_hasFIPS
+        annotations:
+          string:
+            tag: string
+            value: 2345
+      kwgo_sfContains:
+        name: kwgo_sfContains
+        annotations:
+          kwgo_S2Cell_Level13:
+            tag: kwgo_S2Cell_Level13
+            value: 923206
+          owl_Thing:
+            tag: owl_Thing
+            value: 923206
+      kwgo_sfOverlaps:
+        name: kwgo_sfOverlaps
+        annotations:
+          kwgo_AdministrativeRegion_1:
+            tag: kwgo_AdministrativeRegion_1
+            value: 4873
+          kwgo_AdministrativeRegion_2:
+            tag: kwgo_AdministrativeRegion_2
+            value: 28334
+          kwgo_AdministrativeRegion_3:
+            tag: kwgo_AdministrativeRegion_3
+            value: 110355
+          kwgo_S2Cell_Level13:
+            tag: kwgo_S2Cell_Level13
+            value: 143478
+          owl_Thing:
+            tag: owl_Thing
+            value: 287124
+      kwgo_sfTouches:
+        name: kwgo_sfTouches
+        annotations:
+          kwgo_S2Cell_Level13:
+            tag: kwgo_S2Cell_Level13
+            value: 1996072
+          owl_Thing:
+            tag: owl_Thing
+            value: 2007528
+      kwgo_sfWithin:
+        name: kwgo_sfWithin
+        annotations:
+          kwgo_AdministrativeRegion_1:
+            tag: kwgo_AdministrativeRegion_1
+            value: 244822
+          kwgo_AdministrativeRegion_2:
+            tag: kwgo_AdministrativeRegion_2
+            value: 235535
+          kwgo_AdministrativeRegion_3:
+            tag: kwgo_AdministrativeRegion_3
+            value: 195683
+          owl_Thing:
+            tag: owl_Thing
+            value: 925551
+      owl_sameAs:
+        name: owl_sameAs
+        annotations:
+          geo_Geometry:
+            tag: geo_Geometry
+            value: 251854
+          kwgo_AdministrativeRegion_1:
+            tag: kwgo_AdministrativeRegion_1
+            value: 2
+          kwgo_AdministrativeRegion_2:
+            tag: kwgo_AdministrativeRegion_2
+            value: 118
+          kwgo_AdministrativeRegion_3:
+            tag: kwgo_AdministrativeRegion_3
+            value: 2225
+          kwgo_S2Cell_Level13:
+            tag: kwgo_S2Cell_Level13
+            value: 249509
+          owl_Thing:
+            tag: owl_Thing
+            value: 571175
+          rdf_List:
+            tag: rdf_List
+            value: 1
+          rdf_ObjectProperty:
+            tag: rdf_ObjectProperty
+            value: 1
+          sf_#Polygon:
+            tag: sf_#Polygon
+            value: 251736
+      rdfs_domain:
+        name: rdfs_domain
+        annotations:
+          owl_Class:
+            tag: owl_Class
+            value: 1
+          owl_Thing:
+            tag: owl_Thing
+            value: 1
+          rdfs_Class:
+            tag: rdfs_Class
+            value: 1
+      rdfs_label:
+        name: rdfs_label
+        annotations:
+          string:
+            tag: string
+            value: 503708
+      rdfs_range:
+        name: rdfs_range
+        annotations:
+          owl_Class:
+            tag: owl_Class
+            value: 1
+          owl_Thing:
+            tag: owl_Thing
+            value: 1
+          rdfs_Class:
+            tag: rdfs_Class
+            value: 1
+    class_uri: owl:Thing
+  owl_TransitiveProperty:
+    name: owl_TransitiveProperty
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: owl_ObjectProperty
+    class_uri: owl:TransitiveProperty
+  owl_rational:
+    name: owl_rational
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: owl:rational
+  owl_real:
+    name: owl_real
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: owl:real
+  rdf_Alt:
+    name: rdf_Alt
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Container
+    class_uri: rdf:Alt
+  rdf_Bag:
+    name: rdf_Bag
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Container
+    class_uri: rdf:Bag
+  rdf_List:
+    name: rdf_List
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 1
+    description: No class (type) description specified
+    title: No class (type) name specified
+    slots:
+    - owl_sameAs
+    slot_usage:
+      owl_sameAs:
+        name: owl_sameAs
+        annotations:
+          owl_Thing:
+            tag: owl_Thing
+            value: 1
+          rdf_List:
+            tag: rdf_List
+            value: 1
+    class_uri: rdf:List
+  rdf_ObjectProperty:
+    name: rdf_ObjectProperty
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 1
+    description: No class (type) description specified
+    title: No class (type) name specified
+    slots:
+    - owl_sameAs
+    - rdfs_range
+    - rdfs_domain
+    slot_usage:
+      owl_sameAs:
+        name: owl_sameAs
+        annotations:
+          owl_Thing:
+            tag: owl_Thing
+            value: 1
+          rdf_ObjectProperty:
+            tag: rdf_ObjectProperty
+            value: 1
+      rdfs_domain:
+        name: rdfs_domain
+        annotations:
+          owl_Class:
+            tag: owl_Class
+            value: 1
+          owl_Thing:
+            tag: owl_Thing
+            value: 1
+          rdfs_Class:
+            tag: rdfs_Class
+            value: 1
+      rdfs_range:
+        name: rdfs_range
+        annotations:
+          owl_Class:
+            tag: owl_Class
+            value: 1
+          owl_Thing:
+            tag: owl_Thing
+            value: 1
+          rdfs_Class:
+            tag: rdfs_Class
+            value: 1
+    class_uri: rdf:ObjectProperty
+  rdf_PlainLiteral:
+    name: rdf_PlainLiteral
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: rdf:PlainLiteral
+  rdf_Property:
+    name: rdf_Property
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    class_uri: rdf:Property
+  rdf_Seq:
+    name: rdf_Seq
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Container
+    class_uri: rdf:Seq
+  rdf_Statement:
+    name: rdf_Statement
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    class_uri: rdf:Statement
+  rdf_XMLLiteral:
+    name: rdf_XMLLiteral
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: rdf:XMLLiteral
+  rdfs_Class:
+    name: rdfs_Class
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    class_uri: rdfs:Class
+  rdfs_Container:
+    name: rdfs_Container
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified -- this class is noted as a superclass of
+      another class in this graph but has not itself been defined.
+    class_uri: rdfs:Container
+  rdfs_ContainerMembershipProperty:
+    name: rdfs_ContainerMembershipProperty
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdf_Property
+    class_uri: rdfs:ContainerMembershipProperty
+  rdfs_Datatype:
+    name: rdfs_Datatype
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Class
+    class_uri: rdfs:Datatype
+  rdfs_Literal:
+    name: rdfs_Literal
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified -- this class is noted as a superclass of
+      another class in this graph but has not itself been defined.
+    class_uri: rdfs:Literal
+  rdfs_Resource:
+    name: rdfs_Resource
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    class_uri: rdfs:Resource
+  sf_#Polygon:
+    name: sf_#Polygon
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 251736
+    description: No class (type) description specified
+    title: No class (type) name specified
+    slots:
+    - rdfs_label
+    - geo_asWKT
+    - owl_sameAs
+    slot_usage:
+      geo_asWKT:
+        name: geo_asWKT
+        annotations:
+          geo_wktLiteral:
+            tag: geo_wktLiteral
+            value: 251736
+      owl_sameAs:
+        name: owl_sameAs
+        annotations:
+          geo_Geometry:
+            tag: geo_Geometry
+            value: 251736
+          owl_Thing:
+            tag: owl_Thing
+            value: 251736
+          sf_#Polygon:
+            tag: sf_#Polygon
+            value: 251736
+      rdfs_label:
+        name: rdfs_label
+        annotations:
+          string:
+            tag: string
+            value: 251736
+    class_uri: sf:#Polygon
+  xsd_NCName:
+    name: xsd_NCName
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:NCName
+  xsd_NMTOKEN:
+    name: xsd_NMTOKEN
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:NMTOKEN
+  xsd_Name:
+    name: xsd_Name
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:Name
+  xsd_anyURI:
+    name: xsd_anyURI
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:anyURI
+  xsd_base64Binary:
+    name: xsd_base64Binary
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:base64Binary
+  xsd_boolean:
+    name: xsd_boolean
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:boolean
+  xsd_byte:
+    name: xsd_byte
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:byte
+  xsd_dateTime:
+    name: xsd_dateTime
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:dateTime
+  xsd_dateTimeStamp:
+    name: xsd_dateTimeStamp
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:dateTimeStamp
+  xsd_decimal:
+    name: xsd_decimal
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:decimal
+  xsd_double:
+    name: xsd_double
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:double
+  xsd_float:
+    name: xsd_float
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:float
+  xsd_hexBinary:
+    name: xsd_hexBinary
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:hexBinary
+  xsd_int:
+    name: xsd_int
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:int
+  xsd_integer:
+    name: xsd_integer
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:integer
+  xsd_language:
+    name: xsd_language
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:language
+  xsd_long:
+    name: xsd_long
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:long
+  xsd_negativeInteger:
+    name: xsd_negativeInteger
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:negativeInteger
+  xsd_nonNegativeInteger:
+    name: xsd_nonNegativeInteger
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:nonNegativeInteger
+  xsd_nonPositiveInteger:
+    name: xsd_nonPositiveInteger
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:nonPositiveInteger
+  xsd_normalizedString:
+    name: xsd_normalizedString
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:normalizedString
+  xsd_positiveInteger:
+    name: xsd_positiveInteger
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:positiveInteger
+  xsd_short:
+    name: xsd_short
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:short
+  xsd_string:
+    name: xsd_string
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:string
+  xsd_token:
+    name: xsd_token
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:token
+  xsd_unsignedByte:
+    name: xsd_unsignedByte
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:unsignedByte
+  xsd_unsignedInt:
+    name: xsd_unsignedInt
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:unsignedInt
+  xsd_unsignedLong:
+    name: xsd_unsignedLong
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:unsignedLong
+  xsd_unsignedShort:
+    name: xsd_unsignedShort
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    is_a: rdfs_Literal
+    class_uri: xsd:unsignedShort
+  geo_wktLiteral:
+    name: geo_wktLiteral
+    conforms_to: No schema conformance document specified
+    annotations:
+      count:
+        tag: count
+        value: 0
+    description: No class (type) description specified
+    title: No class (type) name specified
+    class_uri: geo:wktLiteral
+source_file: spatial-kg.yaml
