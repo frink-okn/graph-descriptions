@@ -1,6 +1,6 @@
 
 
-# Slot: longitude (hsdo_longitude)
+# Slot: hsdo_longitude
 
 
 _The longitude of a location. For example ```-122.08585``` ([WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System))._
@@ -13,7 +13,7 @@ _The longitude of a location. For example ```-122.08585``` ([WGS 84](https://en.
 This slot occurs 89 times.
 
 
-URI: [hsdo:longitude](http://schema.org/longitude)
+URI: [schema:longitude](http://schema.org/longitude)
 
 
 
@@ -27,6 +27,7 @@ URI: [hsdo:longitude](http://schema.org/longitude)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
+| [ProvEntity](../classes/ProvEntity.md) | No class (type) description specified |  yes  |
 | [HsdoPlace](../classes/HsdoPlace.md) | Entities that have a somewhat fixed, physical extension |  yes  |
 
 
@@ -48,7 +49,8 @@ URI: [hsdo:longitude](http://schema.org/longitude)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| hsdo_Place | decimal | dreamkg:service/location/5552002522939392 | -75.1637779 | 89 |
+| hsdo_Place | decimal | dreamkg:service/location/4542572480692224 | -75.239064 | 89 |
+| prov_Entity | decimal | dreamkg:service/location/4542572480692224 | -75.239064 | 89 |
 
 
 
@@ -64,21 +66,26 @@ annotations:
     tag: count
     value: 89
 description: The longitude of a location. For example ```-122.08585``` ([WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System)).
-title: longitude
 examples:
-- description: hsdo_Place→decimal
-  object:
-    example_object: '-75.1637779'
+- object:
+    example_object: '-75.239064'
     example_object_type: decimal
-    example_predicate: hsdo:longitude
-    example_subject: dreamkg:service/location/5552002522939392
+    example_predicate: schema:longitude
+    example_subject: dreamkg:service/location/4542572480692224
     example_subject_type: hsdo_Place
+- object:
+    example_object: '-75.239064'
+    example_object_type: decimal
+    example_predicate: schema:longitude
+    example_subject: dreamkg:service/location/4542572480692224
+    example_subject_type: prov_Entity
 from_schema: dream-kg
 rank: 1000
-slot_uri: hsdo:longitude
+slot_uri: schema:longitude
 alias: hsdo_longitude
 domain_of:
 - hsdo_Place
+- prov_Entity
 range: decimal
 
 ```

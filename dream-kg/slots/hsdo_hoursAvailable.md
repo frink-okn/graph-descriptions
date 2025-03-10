@@ -1,6 +1,6 @@
 
 
-# Slot: hoursAvailable (hsdo_hoursAvailable)
+# Slot: hsdo_hoursAvailable
 
 
 _The hours during which this service or contact is available._
@@ -13,7 +13,7 @@ _The hours during which this service or contact is available._
 This slot occurs 609 times.
 
 
-URI: [hsdo:hoursAvailable](http://schema.org/hoursAvailable)
+URI: [schema:hoursAvailable](http://schema.org/hoursAvailable)
 
 
 
@@ -28,6 +28,7 @@ URI: [hsdo:hoursAvailable](http://schema.org/hoursAvailable)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  yes  |
+| [ProvEntity](../classes/ProvEntity.md) | No class (type) description specified |  yes  |
 
 
 
@@ -37,7 +38,7 @@ URI: [hsdo:hoursAvailable](http://schema.org/hoursAvailable)
 
 ## Properties
 
-* Range: [HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md)&nbsp;or&nbsp;<br />[ProvEntity](../classes/ProvEntity.md)
 
 
 
@@ -48,7 +49,10 @@ URI: [hsdo:hoursAvailable](http://schema.org/hoursAvailable)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| hsdo_Service | hsdo_OpeningHoursSpecification | dreamkg:service/6379467169595392 | dreamkg:service/hours/sunday/6379467169595392 | 609 |
+| prov_Entity | prov_Entity | dreamkg:service/4542572480692224 | dreamkg:service/hours/friday/4542572480692224 | 609 |
+| prov_Entity | hsdo_OpeningHoursSpecification | dreamkg:service/4542572480692224 | dreamkg:service/hours/friday/4542572480692224 | 609 |
+| hsdo_Service | prov_Entity | dreamkg:service/4542572480692224 | dreamkg:service/hours/friday/4542572480692224 | 609 |
+| hsdo_Service | hsdo_OpeningHoursSpecification | dreamkg:service/4542572480692224 | dreamkg:service/hours/friday/4542572480692224 | 609 |
 
 
 
@@ -64,22 +68,42 @@ annotations:
     tag: count
     value: 609
 description: The hours during which this service or contact is available.
-title: hoursAvailable
 examples:
-- description: hsdo_Service→hsdo_OpeningHoursSpecification
-  object:
-    example_object: dreamkg:service/hours/sunday/6379467169595392
+- object:
+    example_object: dreamkg:service/hours/friday/4542572480692224
+    example_object_type: prov_Entity
+    example_predicate: schema:hoursAvailable
+    example_subject: dreamkg:service/4542572480692224
+    example_subject_type: prov_Entity
+- object:
+    example_object: dreamkg:service/hours/friday/4542572480692224
     example_object_type: hsdo_OpeningHoursSpecification
-    example_predicate: hsdo:hoursAvailable
-    example_subject: dreamkg:service/6379467169595392
+    example_predicate: schema:hoursAvailable
+    example_subject: dreamkg:service/4542572480692224
+    example_subject_type: prov_Entity
+- object:
+    example_object: dreamkg:service/hours/friday/4542572480692224
+    example_object_type: prov_Entity
+    example_predicate: schema:hoursAvailable
+    example_subject: dreamkg:service/4542572480692224
+    example_subject_type: hsdo_Service
+- object:
+    example_object: dreamkg:service/hours/friday/4542572480692224
+    example_object_type: hsdo_OpeningHoursSpecification
+    example_predicate: schema:hoursAvailable
+    example_subject: dreamkg:service/4542572480692224
     example_subject_type: hsdo_Service
 from_schema: dream-kg
 rank: 1000
-slot_uri: hsdo:hoursAvailable
+slot_uri: schema:hoursAvailable
 alias: hsdo_hoursAvailable
 domain_of:
 - hsdo_Service
-range: hsdo_OpeningHoursSpecification
+- prov_Entity
+range: Any
+any_of:
+- range: hsdo_OpeningHoursSpecification
+- range: prov_Entity
 
 ```
 </details>

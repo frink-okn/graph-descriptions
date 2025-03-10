@@ -1,6 +1,6 @@
 
 
-# Slot: dayOfWeek (hsdo_dayOfWeek)
+# Slot: hsdo_dayOfWeek
 
 
 _The day of the week for which these opening hours are valid._
@@ -13,7 +13,7 @@ _The day of the week for which these opening hours are valid._
 This slot occurs 609 times.
 
 
-URI: [hsdo:dayOfWeek](http://schema.org/dayOfWeek)
+URI: [schema:dayOfWeek](http://schema.org/dayOfWeek)
 
 
 
@@ -28,6 +28,7 @@ URI: [hsdo:dayOfWeek](http://schema.org/dayOfWeek)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md) | A structured value providing information about the opening hours of a place o... |  yes  |
+| [ProvEntity](../classes/ProvEntity.md) | No class (type) description specified |  yes  |
 
 
 
@@ -48,7 +49,8 @@ URI: [hsdo:dayOfWeek](http://schema.org/dayOfWeek)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| hsdo_OpeningHoursSpecification | string | dreamkg:service/hours/friday/4689179354857472 | Friday | 609 |
+| prov_Entity | string | dreamkg:service/hours/friday/4542572480692224 | Friday | 609 |
+| hsdo_OpeningHoursSpecification | string | dreamkg:service/hours/friday/4542572480692224 | Friday | 609 |
 
 
 
@@ -64,21 +66,26 @@ annotations:
     tag: count
     value: 609
 description: The day of the week for which these opening hours are valid.
-title: dayOfWeek
 examples:
-- description: hsdo_OpeningHoursSpecification→string
-  object:
+- object:
     example_object: Friday
     example_object_type: string
-    example_predicate: hsdo:dayOfWeek
-    example_subject: dreamkg:service/hours/friday/4689179354857472
+    example_predicate: schema:dayOfWeek
+    example_subject: dreamkg:service/hours/friday/4542572480692224
+    example_subject_type: prov_Entity
+- object:
+    example_object: Friday
+    example_object_type: string
+    example_predicate: schema:dayOfWeek
+    example_subject: dreamkg:service/hours/friday/4542572480692224
     example_subject_type: hsdo_OpeningHoursSpecification
 from_schema: dream-kg
 rank: 1000
-slot_uri: hsdo:dayOfWeek
+slot_uri: schema:dayOfWeek
 alias: hsdo_dayOfWeek
 domain_of:
 - hsdo_OpeningHoursSpecification
+- prov_Entity
 range: string
 
 ```

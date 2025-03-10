@@ -1,6 +1,6 @@
 
 
-# Slot: disambiguatingDescription (hsdo_disambiguatingDescription)
+# Slot: hsdo_disambiguatingDescription
 
 
 _A sub property of description. A short description of the item used to disambiguate from other, similar items. Information from other properties (in particular, name) may be necessary for the description to be useful for disambiguation._
@@ -13,7 +13,7 @@ _A sub property of description. A short description of the item used to disambig
 This slot occurs 174 times.
 
 
-URI: [hsdo:disambiguatingDescription](http://schema.org/disambiguatingDescription)
+URI: [schema:disambiguatingDescription](http://schema.org/disambiguatingDescription)
 
 
 
@@ -48,7 +48,7 @@ URI: [hsdo:disambiguatingDescription](http://schema.org/disambiguatingDescriptio
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| hsdo_ServiceChannel | string | dreamkg:service/channel/AB-5922109384294400 | Aunt Bertha | 174 |
+| hsdo_ServiceChannel | string | dreamkg:service/channel/AB-4542572480692224 | Aunt Bertha | 174 |
 
 
 
@@ -66,18 +66,16 @@ annotations:
 description: A sub property of description. A short description of the item used to
   disambiguate from other, similar items. Information from other properties (in particular,
   name) may be necessary for the description to be useful for disambiguation.
-title: disambiguatingDescription
 examples:
-- description: hsdo_ServiceChannel→string
-  object:
+- object:
     example_object: Aunt Bertha
     example_object_type: string
-    example_predicate: hsdo:disambiguatingDescription
-    example_subject: dreamkg:service/channel/AB-5922109384294400
+    example_predicate: schema:disambiguatingDescription
+    example_subject: dreamkg:service/channel/AB-4542572480692224
     example_subject_type: hsdo_ServiceChannel
 from_schema: dream-kg
 rank: 1000
-slot_uri: hsdo:disambiguatingDescription
+slot_uri: schema:disambiguatingDescription
 alias: hsdo_disambiguatingDescription
 domain_of:
 - hsdo_ServiceChannel

@@ -1,6 +1,6 @@
 
 
-# Slot: conditionsOfAccess (hsdo_conditionsOfAccess)
+# Slot: hsdo_conditionsOfAccess
 
 
 _Conditions that affect the availability of, or method(s) of access to, an item. Typically used for real world items such as an [[ArchiveComponent]] held by an [[ArchiveOrganization]]. This property is not suitable for use as a general Web access control mechanism. It is expressed only in natural language.\n\nFor example "Available by appointment from the Reading Room" or "Accessible only from logged-in accounts ". _
@@ -13,7 +13,7 @@ _Conditions that affect the availability of, or method(s) of access to, an item.
 This slot occurs 88 times.
 
 
-URI: [hsdo:conditionsOfAccess](http://schema.org/conditionsOfAccess)
+URI: [schema:conditionsOfAccess](http://schema.org/conditionsOfAccess)
 
 
 
@@ -27,7 +27,8 @@ URI: [hsdo:conditionsOfAccess](http://schema.org/conditionsOfAccess)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoTextObject](../classes/HsdoTextObject.md) | A text file |  yes  |
+| [HsdoTextObject](../classes/HsdoTextObject.md) | No class (type) description specified |  yes  |
+| [ProvEntity](../classes/ProvEntity.md) | No class (type) description specified |  yes  |
 
 
 
@@ -48,7 +49,8 @@ URI: [hsdo:conditionsOfAccess](http://schema.org/conditionsOfAccess)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| hsdo_TextObject | string | dreamkg:service/desc/6354456388829184 | We serve single men experiencing homelessness. | 88 |
+| prov_Entity | string | dreamkg:service/desc/4542572480692224 | Must have Medical Assistance (Medicaid). This program helps people who are 13 to 19 years old. | 88 |
+| hsdo_TextObject | string | dreamkg:service/desc/4542572480692224 | Must have Medical Assistance (Medicaid). This program helps people who are 13 to 19 years old. | 88 |
 
 
 
@@ -69,21 +71,28 @@ description: 'Conditions that affect the availability of, or method(s) of access
   Web access control mechanism. It is expressed only in natural language.\n\nFor example
   "Available by appointment from the Reading Room" or "Accessible only from logged-in
   accounts ". '
-title: conditionsOfAccess
 examples:
-- description: hsdo_TextObject→string
-  object:
-    example_object: We serve single men experiencing homelessness.
+- object:
+    example_object: Must have Medical Assistance (Medicaid). This program helps people
+      who are 13 to 19 years old.
     example_object_type: string
-    example_predicate: hsdo:conditionsOfAccess
-    example_subject: dreamkg:service/desc/6354456388829184
+    example_predicate: schema:conditionsOfAccess
+    example_subject: dreamkg:service/desc/4542572480692224
+    example_subject_type: prov_Entity
+- object:
+    example_object: Must have Medical Assistance (Medicaid). This program helps people
+      who are 13 to 19 years old.
+    example_object_type: string
+    example_predicate: schema:conditionsOfAccess
+    example_subject: dreamkg:service/desc/4542572480692224
     example_subject_type: hsdo_TextObject
 from_schema: dream-kg
 rank: 1000
-slot_uri: hsdo:conditionsOfAccess
+slot_uri: schema:conditionsOfAccess
 alias: hsdo_conditionsOfAccess
 domain_of:
 - hsdo_TextObject
+- prov_Entity
 range: string
 
 ```

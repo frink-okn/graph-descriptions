@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 1495 times.
+
+
 URI: [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy)
 
 
@@ -23,16 +27,16 @@ URI: [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  no  |
-| [HsdoPlace](../classes/HsdoPlace.md) | Entities that have a somewhat fixed, physical extension |  no  |
-| [HsdoOrganization](../classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  no  |
-| [ProvEntity](../classes/ProvEntity.md) | No class (type) description specified |  no  |
-| [HsdoAdministrativeArea](../classes/HsdoAdministrativeArea.md) | A geographical region, typically under the jurisdiction of a particular gover... |  no  |
-| [HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md) | A structured value providing information about the opening hours of a place o... |  no  |
-| [HsdoTextObject](../classes/HsdoTextObject.md) | A text file |  no  |
-| [HsdoCategoryCode](../classes/HsdoCategoryCode.md) | A Category Code |  no  |
-| [HsdoAudience](../classes/HsdoAudience.md) | Intended audience for an item, i |  no  |
-| [HsdoContactPoint](../classes/HsdoContactPoint.md) | A contact point&#x2014;for example, a Customer Complaints department |  no  |
+| [HsdoContactPoint](../classes/HsdoContactPoint.md) | A contact point&#x2014;for example, a Customer Complaints department |  yes  |
+| [HsdoTextObject](../classes/HsdoTextObject.md) | No class (type) description specified |  yes  |
+| [HsdoAdministrativeArea](../classes/HsdoAdministrativeArea.md) | A geographical region, typically under the jurisdiction of a particular gover... |  yes  |
+| [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  yes  |
+| [ProvEntity](../classes/ProvEntity.md) | No class (type) description specified |  yes  |
+| [HsdoCategoryCode](../classes/HsdoCategoryCode.md) | A Category Code |  yes  |
+| [HsdoOrganization](../classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc |  yes  |
+| [HsdoPlace](../classes/HsdoPlace.md) | Entities that have a somewhat fixed, physical extension |  yes  |
+| [HsdoOpeningHoursSpecification](../classes/HsdoOpeningHoursSpecification.md) | A structured value providing information about the opening hours of a place o... |  yes  |
+| [HsdoAudience](../classes/HsdoAudience.md) | Intended audience for an item, i |  yes  |
 
 
 
@@ -51,55 +55,18 @@ URI: [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| hsdo_Audience → prov_Activity | dreamkg:category/audience/YoungAdults | prov:wasGeneratedBy | dreamkg:process/run/ontop-CM |
-| hsdo_CategoryCode → prov_Activity | dreamkg:category/service/other/WeatherRelief | prov:wasGeneratedBy | dreamkg:process/run/ontop-CM |
-| hsdo_Service → prov_Activity | dreamkg:service/6710596967858176 | prov:wasGeneratedBy | dreamkg:process/run/ontop-CM |
-| prov_Entity → prov_Activity | dreamkg:service/channel/P--6710596967858176 | prov:wasGeneratedBy | dreamkg:process/run/ontop-CM |
-| hsdo_TextObject → prov_Activity | dreamkg:service/desc/6710596967858176 | prov:wasGeneratedBy | dreamkg:process/run/ontop-CM |
-| hsdo_OpeningHoursSpecification → prov_Activity | dreamkg:service/hours/wednesday/6710596967858176 | prov:wasGeneratedBy | dreamkg:process/run/ontop-CM |
-| hsdo_Place → prov_Activity | dreamkg:service/location/6710596967858176 | prov:wasGeneratedBy | dreamkg:process/run/ontop-CM |
-| hsdo_ContactPoint → prov_Activity | dreamkg:service/phone/6710596967858176 | prov:wasGeneratedBy | dreamkg:process/run/ontop-CM |
-| hsdo_Organization → prov_Activity | dreamkg:service/provider/6710596967858176 | prov:wasGeneratedBy | dreamkg:process/run/ontop-CM |
-| hsdo_AdministrativeArea → prov_Activity | dreamkg:zip/19320 | prov:wasGeneratedBy | dreamkg:process/run/ontop-CM |
-
-
-## Comments
-
-* 81 occurrences with subject type hsdo_Audience and object type prov_Activity.
-* 157 occurrences with subject type hsdo_CategoryCode and object type prov_Activity.
-* 87 occurrences with subject type hsdo_Service and object type prov_Activity.
-* 174 occurrences with subject type prov_Entity and object type prov_Activity.
-* 87 occurrences with subject type hsdo_TextObject and object type prov_Activity.
-* 609 occurrences with subject type hsdo_OpeningHoursSpecification and object type prov_Activity.
-* 87 occurrences with subject type hsdo_Place and object type prov_Activity.
-* 87 occurrences with subject type hsdo_ContactPoint and object type prov_Activity.
-* 87 occurrences with subject type hsdo_Organization and object type prov_Activity.
-* 39 occurrences with subject type hsdo_AdministrativeArea and object type prov_Activity.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: dream-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | prov:wasGeneratedBy |
-| native | dream-kg/:prov_wasGeneratedBy |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| hsdo_Audience | prov_Activity | dreamkg:category/audience/AbuseOrNeglectSurvivors | dreamkg:process/run/ontop-CM | 81 |
+| prov_Entity | prov_Activity | dreamkg:category/audience/AbuseOrNeglectSurvivors | dreamkg:process/run/ontop-CM | 1495 |
+| hsdo_CategoryCode | prov_Activity | dreamkg:category/availability/Available | dreamkg:process/run/ontop-CM | 157 |
+| hsdo_Service | prov_Activity | dreamkg:service/4542572480692224 | dreamkg:process/run/ontop-CM | 87 |
+| hsdo_TextObject | prov_Activity | dreamkg:service/desc/4542572480692224 | dreamkg:process/run/ontop-CM | 87 |
+| hsdo_OpeningHoursSpecification | prov_Activity | dreamkg:service/hours/friday/4542572480692224 | dreamkg:process/run/ontop-CM | 609 |
+| hsdo_Place | prov_Activity | dreamkg:service/location/4542572480692224 | dreamkg:process/run/ontop-CM | 87 |
+| hsdo_ContactPoint | prov_Activity | dreamkg:service/phone/4542572480692224 | dreamkg:process/run/ontop-CM | 87 |
+| hsdo_Organization | prov_Activity | dreamkg:service/provider/4542572480692224 | dreamkg:process/run/ontop-CM | 87 |
+| hsdo_AdministrativeArea | prov_Activity | dreamkg:zip/17602 | dreamkg:process/run/ontop-CM | 39 |
 
 
 
@@ -107,91 +74,74 @@ URI: [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: prov_wasGeneratedBy
+annotations:
+  count:
+    tag: count
+    value: 1495
 description: No slot (predicate) description specified
-comments:
-- 81 occurrences with subject type hsdo_Audience and object type prov_Activity.
-- 157 occurrences with subject type hsdo_CategoryCode and object type prov_Activity.
-- 87 occurrences with subject type hsdo_Service and object type prov_Activity.
-- 174 occurrences with subject type prov_Entity and object type prov_Activity.
-- 87 occurrences with subject type hsdo_TextObject and object type prov_Activity.
-- 609 occurrences with subject type hsdo_OpeningHoursSpecification and object type
-  prov_Activity.
-- 87 occurrences with subject type hsdo_Place and object type prov_Activity.
-- 87 occurrences with subject type hsdo_ContactPoint and object type prov_Activity.
-- 87 occurrences with subject type hsdo_Organization and object type prov_Activity.
-- 39 occurrences with subject type hsdo_AdministrativeArea and object type prov_Activity.
 examples:
-- description: hsdo_Audience → prov_Activity
-  object:
+- object:
     example_object: dreamkg:process/run/ontop-CM
     example_object_type: prov_Activity
     example_predicate: prov:wasGeneratedBy
-    example_subject: dreamkg:category/audience/YoungAdults
+    example_subject: dreamkg:category/audience/AbuseOrNeglectSurvivors
     example_subject_type: hsdo_Audience
-- description: hsdo_CategoryCode → prov_Activity
-  object:
+- object:
     example_object: dreamkg:process/run/ontop-CM
     example_object_type: prov_Activity
     example_predicate: prov:wasGeneratedBy
-    example_subject: dreamkg:category/service/other/WeatherRelief
-    example_subject_type: hsdo_CategoryCode
-- description: hsdo_Service → prov_Activity
-  object:
-    example_object: dreamkg:process/run/ontop-CM
-    example_object_type: prov_Activity
-    example_predicate: prov:wasGeneratedBy
-    example_subject: dreamkg:service/6710596967858176
-    example_subject_type: hsdo_Service
-- description: prov_Entity → prov_Activity
-  object:
-    example_object: dreamkg:process/run/ontop-CM
-    example_object_type: prov_Activity
-    example_predicate: prov:wasGeneratedBy
-    example_subject: dreamkg:service/channel/P--6710596967858176
+    example_subject: dreamkg:category/audience/AbuseOrNeglectSurvivors
     example_subject_type: prov_Entity
-- description: hsdo_TextObject → prov_Activity
-  object:
+- object:
     example_object: dreamkg:process/run/ontop-CM
     example_object_type: prov_Activity
     example_predicate: prov:wasGeneratedBy
-    example_subject: dreamkg:service/desc/6710596967858176
+    example_subject: dreamkg:category/availability/Available
+    example_subject_type: hsdo_CategoryCode
+- object:
+    example_object: dreamkg:process/run/ontop-CM
+    example_object_type: prov_Activity
+    example_predicate: prov:wasGeneratedBy
+    example_subject: dreamkg:service/4542572480692224
+    example_subject_type: hsdo_Service
+- object:
+    example_object: dreamkg:process/run/ontop-CM
+    example_object_type: prov_Activity
+    example_predicate: prov:wasGeneratedBy
+    example_subject: dreamkg:service/desc/4542572480692224
     example_subject_type: hsdo_TextObject
-- description: hsdo_OpeningHoursSpecification → prov_Activity
-  object:
+- object:
     example_object: dreamkg:process/run/ontop-CM
     example_object_type: prov_Activity
     example_predicate: prov:wasGeneratedBy
-    example_subject: dreamkg:service/hours/wednesday/6710596967858176
+    example_subject: dreamkg:service/hours/friday/4542572480692224
     example_subject_type: hsdo_OpeningHoursSpecification
-- description: hsdo_Place → prov_Activity
-  object:
+- object:
     example_object: dreamkg:process/run/ontop-CM
     example_object_type: prov_Activity
     example_predicate: prov:wasGeneratedBy
-    example_subject: dreamkg:service/location/6710596967858176
+    example_subject: dreamkg:service/location/4542572480692224
     example_subject_type: hsdo_Place
-- description: hsdo_ContactPoint → prov_Activity
-  object:
+- object:
     example_object: dreamkg:process/run/ontop-CM
     example_object_type: prov_Activity
     example_predicate: prov:wasGeneratedBy
-    example_subject: dreamkg:service/phone/6710596967858176
+    example_subject: dreamkg:service/phone/4542572480692224
     example_subject_type: hsdo_ContactPoint
-- description: hsdo_Organization → prov_Activity
-  object:
+- object:
     example_object: dreamkg:process/run/ontop-CM
     example_object_type: prov_Activity
     example_predicate: prov:wasGeneratedBy
-    example_subject: dreamkg:service/provider/6710596967858176
+    example_subject: dreamkg:service/provider/4542572480692224
     example_subject_type: hsdo_Organization
-- description: hsdo_AdministrativeArea → prov_Activity
-  object:
+- object:
     example_object: dreamkg:process/run/ontop-CM
     example_object_type: prov_Activity
     example_predicate: prov:wasGeneratedBy
-    example_subject: dreamkg:zip/19320
+    example_subject: dreamkg:zip/17602
     example_subject_type: hsdo_AdministrativeArea
 from_schema: dream-kg
 rank: 1000

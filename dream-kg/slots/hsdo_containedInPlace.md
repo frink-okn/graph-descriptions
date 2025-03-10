@@ -1,6 +1,6 @@
 
 
-# Slot: containedInPlace (hsdo_containedInPlace)
+# Slot: hsdo_containedInPlace
 
 
 _The basic containment relation between a place and one that contains it._
@@ -13,7 +13,7 @@ _The basic containment relation between a place and one that contains it._
 This slot occurs 88 times.
 
 
-URI: [hsdo:containedInPlace](http://schema.org/containedInPlace)
+URI: [schema:containedInPlace](http://schema.org/containedInPlace)
 
 
 
@@ -27,6 +27,7 @@ URI: [hsdo:containedInPlace](http://schema.org/containedInPlace)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
+| [ProvEntity](../classes/ProvEntity.md) | No class (type) description specified |  yes  |
 | [HsdoPlace](../classes/HsdoPlace.md) | Entities that have a somewhat fixed, physical extension |  yes  |
 
 
@@ -37,7 +38,7 @@ URI: [hsdo:containedInPlace](http://schema.org/containedInPlace)
 
 ## Properties
 
-* Range: [HsdoAdministrativeArea](../classes/HsdoAdministrativeArea.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ProvEntity](../classes/ProvEntity.md)&nbsp;or&nbsp;<br />[HsdoAdministrativeArea](../classes/HsdoAdministrativeArea.md)
 
 
 
@@ -48,7 +49,10 @@ URI: [hsdo:containedInPlace](http://schema.org/containedInPlace)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| hsdo_Place | hsdo_AdministrativeArea | dreamkg:service/location/5552002522939392 | dreamkg:zip/19140 | 88 |
+| hsdo_Place | prov_Entity | dreamkg:service/location/4542572480692224 | dreamkg:zip/19153 | 88 |
+| hsdo_Place | hsdo_AdministrativeArea | dreamkg:service/location/4542572480692224 | dreamkg:zip/19153 | 88 |
+| prov_Entity | prov_Entity | dreamkg:service/location/4542572480692224 | dreamkg:zip/19153 | 88 |
+| prov_Entity | hsdo_AdministrativeArea | dreamkg:service/location/4542572480692224 | dreamkg:zip/19153 | 88 |
 
 
 
@@ -65,22 +69,42 @@ annotations:
     value: 88
 description: The basic containment relation between a place and one that contains
   it.
-title: containedInPlace
 examples:
-- description: hsdo_Place→hsdo_AdministrativeArea
-  object:
-    example_object: dreamkg:zip/19140
-    example_object_type: hsdo_AdministrativeArea
-    example_predicate: hsdo:containedInPlace
-    example_subject: dreamkg:service/location/5552002522939392
+- object:
+    example_object: dreamkg:zip/19153
+    example_object_type: prov_Entity
+    example_predicate: schema:containedInPlace
+    example_subject: dreamkg:service/location/4542572480692224
     example_subject_type: hsdo_Place
+- object:
+    example_object: dreamkg:zip/19153
+    example_object_type: hsdo_AdministrativeArea
+    example_predicate: schema:containedInPlace
+    example_subject: dreamkg:service/location/4542572480692224
+    example_subject_type: hsdo_Place
+- object:
+    example_object: dreamkg:zip/19153
+    example_object_type: prov_Entity
+    example_predicate: schema:containedInPlace
+    example_subject: dreamkg:service/location/4542572480692224
+    example_subject_type: prov_Entity
+- object:
+    example_object: dreamkg:zip/19153
+    example_object_type: hsdo_AdministrativeArea
+    example_predicate: schema:containedInPlace
+    example_subject: dreamkg:service/location/4542572480692224
+    example_subject_type: prov_Entity
 from_schema: dream-kg
 rank: 1000
-slot_uri: hsdo:containedInPlace
+slot_uri: schema:containedInPlace
 alias: hsdo_containedInPlace
 domain_of:
 - hsdo_Place
-range: hsdo_AdministrativeArea
+- prov_Entity
+range: Any
+any_of:
+- range: prov_Entity
+- range: hsdo_AdministrativeArea
 
 ```
 </details>

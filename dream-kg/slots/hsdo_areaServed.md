@@ -1,6 +1,6 @@
 
 
-# Slot: areaServed (hsdo_areaServed)
+# Slot: hsdo_areaServed
 
 
 _The geographic area where a service or offered item is provided._
@@ -13,7 +13,7 @@ _The geographic area where a service or offered item is provided._
 This slot occurs 87 times.
 
 
-URI: [hsdo:areaServed](http://schema.org/areaServed)
+URI: [schema:areaServed](http://schema.org/areaServed)
 
 
 
@@ -28,6 +28,7 @@ URI: [hsdo:areaServed](http://schema.org/areaServed)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [HsdoService](../classes/HsdoService.md) | A service provided by an organization, e |  yes  |
+| [ProvEntity](../classes/ProvEntity.md) | No class (type) description specified |  yes  |
 
 
 
@@ -48,7 +49,8 @@ URI: [hsdo:areaServed](http://schema.org/areaServed)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| hsdo_Service | string | dreamkg:service/6379467169595392 | This program covers residents of the following counties: Philadelphia County, PA. | 87 |
+| prov_Entity | string | dreamkg:service/4542572480692224 | This program covers residents of the following counties: Chester County, PA, Delaware County, PA, Montgomery County, PA and Philadelphia County, PA. | 87 |
+| hsdo_Service | string | dreamkg:service/4542572480692224 | This program covers residents of the following counties: Chester County, PA, Delaware County, PA, Montgomery County, PA and Philadelphia County, PA. | 87 |
 
 
 
@@ -64,22 +66,30 @@ annotations:
     tag: count
     value: 87
 description: The geographic area where a service or offered item is provided.
-title: areaServed
 examples:
-- description: hsdo_Service→string
-  object:
-    example_object: 'This program covers residents of the following counties: Philadelphia
-      County, PA.'
+- object:
+    example_object: 'This program covers residents of the following counties: Chester
+      County, PA, Delaware County, PA, Montgomery County, PA and Philadelphia County,
+      PA.'
     example_object_type: string
-    example_predicate: hsdo:areaServed
-    example_subject: dreamkg:service/6379467169595392
+    example_predicate: schema:areaServed
+    example_subject: dreamkg:service/4542572480692224
+    example_subject_type: prov_Entity
+- object:
+    example_object: 'This program covers residents of the following counties: Chester
+      County, PA, Delaware County, PA, Montgomery County, PA and Philadelphia County,
+      PA.'
+    example_object_type: string
+    example_predicate: schema:areaServed
+    example_subject: dreamkg:service/4542572480692224
     example_subject_type: hsdo_Service
 from_schema: dream-kg
 rank: 1000
-slot_uri: hsdo:areaServed
+slot_uri: schema:areaServed
 alias: hsdo_areaServed
 domain_of:
 - hsdo_Service
+- prov_Entity
 range: string
 
 ```
