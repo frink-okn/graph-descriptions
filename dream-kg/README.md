@@ -1,4 +1,4 @@
-# No schema name specified
+# DREAM-KG
 
 No schema description specified
 
@@ -8,3528 +8,4974 @@ No schema description specified
 
 ```mermaid
 erDiagram
-ParcelDelivery {
-
-}
-ViewAction {
-
-}
-HealthAndBeautyBusiness {
-
-}
-OfferCatalog {
-
-}
-OpeningHoursSpecification {
-
-}
-TrainReservation {
-
-}
-PaymentService {
-
-}
-SatiricalArticle {
-
-}
-HighSchool {
-    string wasInfluencedBy  
-}
-AdultEntertainment {
-
-}
-Game {
-
-}
-DoseSchedule {
-
-}
-Diet {
-
-}
-WebPage {
-
-}
-Rating {
-
-}
-AcceptAction {
-
-}
-BlogPosting {
-
-}
-Recipe {
-
-}
-EndorsementRating {
-
-}
-Project {
-    string wasInfluencedBy  
-}
-ControlAction {
-
-}
-Clip {
-
-}
-DriveWheelConfigurationValue {
-
-}
-EUEnergyEfficiencyEnumeration {
-
-}
-SportsOrganization {
-    string wasInfluencedBy  
-}
-WantAction {
-
-}
-EventReservation {
-
-}
-SaleEvent {
-
-}
-Store {
-
-}
-DietarySupplement {
-
-}
-Accommodation {
-
-}
-PerformanceRole {
-
-}
-Flight {
-
-}
-Patient {
-    string wasInfluencedBy  
-}
-ProfessionalService {
-
-}
-FindAction {
-
-}
-VisualArtwork {
-
-}
-PathologyTest {
-
-}
-Hackathon {
-
-}
-PrimaryCare {
-
-}
-Language {
-
-}
-JoinAction {
-
-}
-Florist {
-
-}
-ContactPointOption {
-
-}
-Pond {
-
-}
-CommunicateAction {
-
-}
-SpeakableSpecification {
-
-}
-TattooParlor {
-
-}
-AmpStory {
-
-}
-ProfilePage {
-
-}
-CampingPitch {
-
-}
-MovieSeries {
-
-}
-RsvpAction {
-
-}
-PhotographAction {
-
-}
-LocalBusiness {
-
-}
-MenuSection {
-
-}
-EmergencyService {
-
-}
-RealEstateAgent {
-
-}
-EntryPoint {
-
-}
-Class {
-
-}
-VisualArtsEvent {
-
-}
-ChemicalSubstance {
-
-}
-DanceEvent {
-
-}
-ReturnAction {
-
-}
-SubscribeAction {
-
-}
-DaySpa {
-
-}
-DrugCost {
-
-}
-Play {
-
-}
-ScholarlyArticle {
-
-}
-SportsActivityLocation {
-
-}
-StatisticalPopulation {
-
-}
-TouristInformationCenter {
-
-}
-InformAction {
-
-}
-ItemAvailability {
-
-}
-TrainTrip {
-
-}
-ApprovedIndication {
-
-}
-MediaSubscription {
-
-}
-Property {
-
-}
-DisagreeAction {
-
-}
-WPAdBlock {
-
-}
-AnalysisNewsArticle {
-
-}
-WearableMeasurementTypeEnumeration {
-
-}
-Boolean {
-
-}
-Grant {
-
-}
-UserCheckins {
-
-}
-Obstetric {
-
-}
-CheckoutPage {
-
-}
-HinduTemple {
-
-}
-SoftwareApplication {
-
-}
-UserComments {
-
-}
-EnergyEfficiencyEnumeration {
-
-}
-Duration {
-
-}
-BrainStructure {
-
-}
-MedicalCode {
-
-}
-SearchResultsPage {
-
-}
-TVEpisode {
-
-}
-Organization {
-    string wasInfluencedBy  
-}
-ImagingTest {
-
-}
-AutomotiveBusiness {
-
-}
-EducationalAudience {
-
-}
-MedicalRiskFactor {
-
-}
-BeautySalon {
-
-}
-Landform {
-
-}
-MedicalTestPanel {
-
-}
-TravelAgency {
-
-}
-Vehicle {
-
-}
-ProductCollection {
-
-}
-Float {
-
-}
-BroadcastChannel {
-
-}
-MarryAction {
-
-}
-MapCategoryType {
-
-}
-MedicineSystem {
-
-}
-AppendAction {
-
-}
-MerchantReturnPolicy {
-
-}
-MedicalDevicePurpose {
-
-}
-OwnershipInfo {
-
-}
-PublicationIssue {
-
-}
-WearAction {
-
-}
-Casino {
-
-}
-Bakery {
-
-}
-Playground {
-
-}
-BowlingAlley {
-
-}
-Car {
-
-}
-ItemPage {
-
-}
-TireShop {
-
-}
-Embassy {
-
-}
-FinancialProduct {
-
-}
-SizeSystemEnumeration {
-
-}
-SpreadsheetDigitalDocument {
-
-}
-GeoShape {
-
-}
-ScheduleAction {
-
-}
-ExhibitionEvent {
-
-}
-LifestyleModification {
-
-}
-Otolaryngologic {
-
-}
-IgnoreAction {
-
-}
-Date {
-
-}
-FloorPlan {
-
-}
-Joint {
-
-}
-ArriveAction {
-
-}
-BusOrCoach {
-
-}
-DigitalDocumentPermissionType {
-
-}
-FundingScheme {
-    string wasInfluencedBy  
-}
-LodgingBusiness {
-
-}
-ReviewAction {
-
-}
-BankAccount {
-
-}
-CivicStructure {
-
-}
-HealthAspectEnumeration {
-
-}
-ParkingFacility {
-
-}
-RVPark {
-
-}
-Electrician {
-
-}
-CurrencyConversionService {
-
-}
-AnatomicalSystem {
-
-}
-UserInteraction {
-
-}
-CreativeWorkSeries {
-
-}
-TelevisionChannel {
-
-}
-CheckOutAction {
-
-}
-ComicCoverArt {
-
-}
-PostalCodeRangeSpecification {
-
-}
-Preschool {
-    string wasInfluencedBy  
-}
-MedicalTrial {
-
-}
-MusicVideoObject {
-
-}
-InfectiousDisease {
-
-}
-AggregateRating {
-
-}
-NailSalon {
-
-}
-ItemList {
-
-}
-ReturnMethodEnumeration {
-
-}
-UseAction {
-
-}
-LoseAction {
-
-}
-MerchantReturnPolicySeasonalOverride {
-
-}
-ArtGallery {
-
-}
-AutoRepair {
-
-}
-Demand {
-
-}
-MonetaryGrant {
-
-}
-TextDigitalDocument {
-
-}
-VirtualLocation {
-
-}
-WholesaleStore {
-
-}
-LikeAction {
-
-}
-MedicalCondition {
-
-}
-DigitalDocument {
-
-}
-NutritionInformation {
-
-}
-PayAction {
-
-}
-TheaterEvent {
-
-}
-WPFooter {
-
-}
-MovieClip {
-
-}
-UserBlocks {
-
-}
-JewelryStore {
-
-}
-Quotation {
-
-}
-Code {
-
-}
-MaximumDoseSchedule {
-
-}
-PalliativeProcedure {
-
-}
-MedicalEnumeration {
-
-}
-Offer {
-
-}
-NoteDigitalDocument {
-
-}
-PreOrderAction {
-
-}
-EventAttendanceModeEnumeration {
-
-}
-FMRadioChannel {
-
-}
-AnimalShelter {
-
-}
-MedicalContraindication {
-
-}
-Product {
-
-}
-DefinedTermSet {
-
-}
-RealEstateListing {
-
-}
-GovernmentBenefitsType {
-
-}
-Zoo {
-
-}
-GovernmentOffice {
-
-}
-DeliveryMethod {
-
-}
-QualitativeValue {
-
-}
-Protein {
-
-}
-Room {
-
-}
-Time {
-
-}
-MedicalObservationalStudyDesign {
-
-}
-Oncologic {
-
-}
-VideoGameClip {
-
-}
-SearchAction {
-
-}
-Taxon {
-
-}
-AMRadioChannel {
-
-}
-Audience {
-
-}
-VitalSign {
-
-}
-SoftwareSourceCode {
-
-}
-TransferAction {
-
-}
-Schedule {
-
-}
-Emergency {
-
-}
-ServiceChannel {
-
-}
-Midwifery {
-
-}
-ConvenienceStore {
-
-}
-TaxiService {
-
-}
-UserReview {
-
-}
-Museum {
-
-}
-Ligament {
-
-}
-MedicalBusiness {
-
-}
-BusinessFunction {
-
-}
-ContactPage {
-
-}
-NGO {
-    string wasInfluencedBy  
-}
-Attorney {
-
-}
-PeopleAudience {
-
-}
-MoveAction {
-
-}
-SelfStorage {
-
-}
-VideoObjectSnapshot {
-
-}
-HVACBusiness {
-
-}
-OfferForLease {
-
-}
-Waterfall {
-
-}
-Quantity {
-
-}
-VeterinaryCare {
-    string wasInfluencedBy  
-}
-XPathType {
-
-}
-Audiobook {
-
-}
-GroceryStore {
-
-}
-Table {
-
-}
-Gynecologic {
-
-}
-Festival {
-
-}
-MedicalProcedure {
-
-}
-EventVenue {
-
-}
-Nerve {
-
-}
-PaymentChargeSpecification {
-
-}
-Resort {
-
-}
-UserDownloads {
-
-}
-ContactPoint {
-
-}
-GatedResidenceCommunity {
-
-}
-WPSideBar {
-
-}
-EnergyConsumptionDetails {
-
-}
-ShoppingCenter {
-
-}
-APIReference {
-
-}
-PhysicalActivity {
-
-}
-DrugClass {
-
-}
-MedicalRiskScore {
-
-}
-PublicToilet {
-
-}
-DryCleaningOrLaundry {
-
-}
-Podiatric {
-
-}
-MusicPlaylist {
-
-}
-CDCPMDRecord {
-
-}
-LiteraryEvent {
-
-}
-EnergyStarEnergyEfficiencyEnumeration {
-
-}
-BookStore {
-
-}
-ImageGallery {
-
-}
-MusicEvent {
-
-}
-FireStation {
-
-}
-InteractAction {
-
-}
-AdministrativeArea {
-
-}
-BefriendAction {
-
-}
-InsuranceAgency {
-
-}
-RadioClip {
-
-}
-Substance {
-
-}
-CreateAction {
-
-}
-TaxiReservation {
-
-}
-MedicalSpecialty {
-
-}
-RentalCarReservation {
-
-}
-ResumeAction {
-
-}
-ApplyAction {
-
-}
-DownloadAction {
-
-}
-HardwareStore {
-
-}
-PodcastSeason {
-
-}
-ProgramMembership {
-
-}
-Hotel {
-
-}
-Distillery {
-
-}
-MedicalScholarlyArticle {
-
-}
-HomeGoodsStore {
-
-}
-LegalService {
-
-}
-RadioChannel {
-
-}
-Bridge {
-
-}
-MedicalAudience {
-
-}
-GiveAction {
-
-}
-AggregateOffer {
-
-}
-EmployerReview {
-
-}
-RadioStation {
-
-}
-SuspendAction {
-
-}
-WebSite {
-
-}
-Hospital {
-    string wasInfluencedBy  
-}
-ReturnFeesEnumeration {
-
-}
-SpecialAnnouncement {
-
-}
-Bone {
-
-}
-CityHall {
-
-}
-InsertAction {
-
-}
-TrainStation {
-
-}
-Optician {
-
-}
-ElectronicsStore {
-
-}
-Residence {
-
-}
-VoteAction {
-
-}
-SingleFamilyResidence {
-
-}
-Newspaper {
-
-}
-RepaymentSpecification {
-
-}
-BikeStore {
-
-}
-RsvpResponseType {
-
-}
-MeetingRoom {
-
-}
-SchoolDistrict {
-
-}
-OfferItemCondition {
-
-}
-DataFeedItem {
-
-}
-AssessAction {
-
-}
-CommentAction {
-
-}
-InviteAction {
-
-}
-Movie {
-
-}
-OccupationalExperienceRequirements {
-
-}
-PoliceStation {
-
-}
-AchieveAction {
-
-}
-RadioEpisode {
-
-}
-RadioSeason {
-
-}
-WPHeader {
-
-}
-BuddhistTemple {
-
-}
-MusicRecording {
-
-}
-Physician {
-    string wasInfluencedBy  
-}
-Occupation {
-
-}
-CompoundPriceSpecification {
-
-}
-HealthTopicContent {
-
-}
-Blog {
-
-}
-Person {
-    string wasInfluencedBy  
-}
-EducationEvent {
-
-}
-LiveBlogPosting {
-
-}
-MediaReviewItem {
-
-}
-FundingAgency {
-    string wasInfluencedBy  
-}
-StatusEnumeration {
-
-}
-VideoGame {
-
-}
-Pediatric {
-
-}
-OutletStore {
-
-}
-MedicalWebPage {
-
-}
-NightClub {
-
-}
-Enumeration {
-
-}
-UserTweets {
-
-}
-DataDownload {
-
-}
-Statement {
-
-}
-DiscussionForumPosting {
-
-}
-HowToDirection {
-
-}
-GameServer {
-
-}
-DeliveryChargeSpecification {
-
-}
-CheckAction {
-
-}
-MovieTheater {
-
-}
-MediaObject {
-
-}
-PriceTypeEnumeration {
-
-}
-Episode {
-
-}
-HealthPlanFormulary {
-
-}
-PublicSwimmingPool {
-
-}
-CollegeOrUniversity {
-    string wasInfluencedBy  
-}
-Place {
-
-}
-BreadcrumbList {
-
-}
-FoodEstablishmentReservation {
-
-}
-ComputerLanguage {
-
-}
-DrugPrescriptionStatus {
-
-}
-CancelAction {
-
-}
-PropertyValue {
-
-}
-Season {
-
-}
-DepartmentStore {
-
-}
-MenuItem {
-
-}
-EducationalOccupationalProgram {
-
-}
-TypeAndQuantityNode {
-
-}
-MedicalConditionStage {
-
-}
-FoodService {
-
-}
-GovernmentPermit {
-
-}
-JobPosting {
-
-}
-BedType {
-
-}
-BusReservation {
-
-}
-ComedyEvent {
-
-}
-FlightReservation {
-
-}
-SteeringPositionValue {
-
-}
-ShareAction {
-
-}
-ActionAccessSpecification {
-
-}
-TennisComplex {
-
-}
-Dermatology {
-
-}
-MedicalClinic {
-    string wasInfluencedBy  
-}
-ReportedDoseSchedule {
-
-}
-Continent {
-
-}
-DefinedTerm {
-
-}
-DrugStrength {
-
-}
-GeoCircle {
-
-}
-DrinkAction {
-
-}
-DiagnosticProcedure {
-
-}
-LegislationObject {
-
-}
-HowToStep {
-
-}
-UserLikes {
-
-}
-Campground {
-
-}
-CreativeWork {
-
-}
-CategoryCodeSet {
-
-}
-ComicStory {
-
-}
-GeoCoordinates {
-
-}
-Vessel {
-
-}
-House {
-
-}
-RadiationTherapy {
-
-}
-SubwayStation {
-
-}
-USNonprofitType {
-
-}
-Periodical {
-
-}
-MedicalEntity {
-
-}
-SolveMathAction {
-
-}
-WatchAction {
-
-}
-HairSalon {
-
-}
-MiddleSchool {
-    string wasInfluencedBy  
-}
-DrugCostCategory {
-
-}
-HealthInsurancePlan {
-
-}
-MusicRelease {
-
-}
-GameServerStatus {
-
-}
-Mass {
-
-}
-MeasurementTypeEnumeration {
-
-}
-MusicAlbumReleaseType {
-
-}
-Specialty {
-
-}
-Mosque {
-
-}
-CafeOrCoffeeShop {
-
-}
-MusicStore {
-
-}
-WebPageElement {
-
-}
-Event {
-
-}
-EmployerAggregateRating {
-
-}
-LoanOrCredit {
-
-}
-UnRegisterAction {
-
-}
-City {
-
-}
-ReportageNewsArticle {
-
-}
-FurnitureStore {
-
-}
-MedicalStudyStatus {
-
-}
-Notary {
-
-}
-WebContent {
-
-}
-ComicIssue {
-
-}
-AutoWash {
-
-}
-Drawing {
-
-}
-ArchiveComponent {
-
-}
-MedicalGuideline {
-
-}
-TakeAction {
-
-}
-RespiratoryTherapy {
-
-}
-School {
-    string wasInfluencedBy  
-}
-GamePlayMode {
-
-}
-MedicalSymptom {
-
-}
-DrugLegalStatus {
-
-}
-EducationalOrganization {
-    string wasInfluencedBy  
-}
-DateTime {
-
-}
-Integer {
-
-}
-PronounceableText {
-
-}
-MusicComposition {
-
-}
-BackgroundNewsArticle {
-
-}
-CompleteDataFeed {
-
-}
-GovernmentService {
-
-}
-ActionStatusType {
-
-}
-HyperTocEntry {
-
-}
-Quiz {
-
-}
-IndividualProduct {
-
-}
-RecommendedDoseSchedule {
-
-}
-WorkBasedProgram {
-
-}
-ReplyAction {
-
-}
-ReplaceAction {
-
-}
-UpdateAction {
-
-}
-MovieRentalStore {
-
-}
-MedicalDevice {
-
-}
-LandmarksOrHistoricalBuildings {
-
-}
-UKNonprofitType {
-
-}
-OrganizeAction {
-
-}
-RefundTypeEnumeration {
-
-}
-PropertyValueSpecification {
-
-}
-FilmAction {
-
-}
-Article {
-
-}
-MedicalRiskCalculator {
-
-}
-ReactAction {
-
-}
-ConsumeAction {
-
-}
-Courthouse {
-
-}
-CategoryCode {
-
-}
-LinkRole {
-
-}
-AboutPage {
-
-}
-Pharmacy {
-    string wasInfluencedBy  
-}
-SeaBodyOfWater {
-
-}
-PetStore {
-
-}
-PublicationEvent {
-
-}
-CookAction {
-
-}
-MerchantReturnEnumeration {
-
-}
-Motorcycle {
-
-}
-TouristTrip {
-
-}
-AssignAction {
-
-}
-PlayAction {
-
-}
-Consortium {
-    string wasInfluencedBy  
-}
-DigitalDocumentPermission {
-
-}
-TravelAction {
-
-}
-CatholicChurch {
-
-}
-Claim {
-
-}
-ReceiveAction {
-
-}
-ExerciseAction {
-
-}
-MortgageLoan {
-
-}
-Park {
-
-}
-ArchiveOrganization {
-
-}
-DrawAction {
-
-}
-EmployeeRole {
-
-}
-QuantitativeValueDistribution {
-
-}
-AutoPartsStore {
-
-}
-DeactivateAction {
-
-}
-Synagogue {
-
-}
-OfficeEquipmentStore {
-
-}
-Observation {
-
-}
-CheckInAction {
-
-}
-ApartmentComplex {
-
-}
-MonetaryAmountDistribution {
-
-}
-DislikeAction {
-
-}
-CableOrSatelliteService {
-
-}
-MedicalRiskEstimator {
-
-}
-MoneyTransfer {
-
-}
-BedDetails {
-
-}
-DataCatalog {
-
-}
-Brewery {
-
-}
-MedicalTherapy {
-
-}
-MusicAlbumProductionType {
-
-}
-MovingCompany {
-
-}
-SiteNavigationElement {
-
-}
-BusinessEvent {
-
-}
-Ticket {
-
-}
-DepartAction {
-
-}
-ImageObject {
-
-}
-Dataset {
-
-}
-ListItem {
-
-}
-NewsArticle {
-
-}
-WearableSizeGroupEnumeration {
-
-}
-Physiotherapy {
-
-}
-Menu {
-
-}
-FoodEstablishment {
-
-}
-HowToSupply {
-
-}
-Invoice {
-
-}
-Motel {
-
-}
-Suite {
-
-}
-ScreeningEvent {
-
-}
-BusinessEntityType {
-
-}
-UnitPriceSpecification {
-
-}
-PaintAction {
-
-}
-PreventionIndication {
-
-}
-MensClothingStore {
-
-}
-NewsMediaOrganization {
-    string wasInfluencedBy  
-}
-MedicalProcedureType {
-
-}
-Artery {
-
-}
-SportsClub {
-
-}
-HowToTip {
-
-}
-Action {
-
-}
-OfferForPurchase {
-
-}
-SkiResort {
-
-}
-Comment {
-
-}
-QuoteAction {
-
-}
-Taxi {
-
-}
-VideoGallery {
-
-}
-Distance {
-
-}
-MedicalStudy {
-
-}
-AgreeAction {
-
-}
-AskAction {
-
-}
-WebAPI {
-
-}
-BoardingPolicyType {
-
-}
-MobileApplication {
-
-}
-Winery {
-
-}
-OrderItem {
-
-}
-Atlas {
-
-}
-HotelRoom {
-
-}
-ListenAction {
-
-}
-Manuscript {
-
-}
-PodcastSeries {
-
-}
-OfferShippingDetails {
-
-}
-PlanAction {
-
-}
-CoverArt {
-
-}
-DefenceEstablishment {
-
-}
-ShoeStore {
-
-}
-PlasticSurgery {
-
-}
-MedicalTest {
-
-}
-TVClip {
-
-}
-InternetCafe {
-
-}
-HowToItem {
-
-}
-Psychiatric {
-
-}
-ComicSeries {
-
-}
-Cemetery {
-
-}
-Corporation {
-    string wasInfluencedBy  
-}
-DonateAction {
-
-}
-InfectiousAgentClass {
-
-}
-DeliveryTimeSettings {
-
-}
-DiagnosticLab {
-    string wasInfluencedBy  
-}
-Photograph {
-
-}
-MedicalIndication {
-
-}
-TreatmentIndication {
-
-}
-WorkersUnion {
-    string wasInfluencedBy  
-}
-LearningResource {
-
-}
-CriticReview {
-
-}
-MusicVenue {
-
-}
-MedicalGuidelineContraindication {
-
-}
-BedAndBreakfast {
-
-}
-LocationFeatureSpecification {
-
-}
-Review {
-
-}
-DrugPregnancyCategory {
-
-}
-MusicReleaseFormatType {
-
-}
-RegisterAction {
-
-}
-EntertainmentBusiness {
-
-}
-ElementarySchool {
-    string wasInfluencedBy  
-}
-ItemListOrderType {
-
-}
-ConfirmAction {
-
-}
-PaymentCard {
-
-}
-Seat {
-
-}
-BankOrCreditUnion {
-
-}
-Barcode {
-
-}
-MedicalImagingTechnique {
-
-}
-EndorseAction {
-
-}
-Text {
-
-}
-EducationalOccupationalCredential {
-
-}
-PlaceOfWorship {
-
-}
-PriceComponentTypeEnumeration {
-
-}
-PhysicalActivityCategory {
-
-}
-ResearchOrganization {
-    string wasInfluencedBy  
-}
-TradeAction {
-
-}
-HowTo {
-
-}
-MotorcycleRepair {
-
-}
-Drug {
-
-}
-Conversation {
-
-}
-MedicalIntangible {
-
-}
-MediaReview {
-
-}
-ReserveAction {
-
-}
-Reservation {
-
-}
-SportsEvent {
-
-}
-ShortStory {
-
-}
-OccupationalTherapy {
-
-}
-RadioBroadcastService {
-
-}
-HyperToc {
-
-}
-Researcher {
-
-}
-InvestmentOrDeposit {
-
-}
-BoatTrip {
-
-}
-PaymentMethod {
-
-}
-BusStop {
-
-}
-MedicalCause {
-
-}
-Dentist {
-    string wasInfluencedBy  
-}
-LakeBodyOfWater {
-
-}
-GardenStore {
-
-}
-Series {
-
-}
-WinAction {
-
-}
-CovidTestingFacility {
-    string wasInfluencedBy  
-}
-WarrantyPromise {
-
-}
-ShippingRateSettings {
-
-}
-DeleteAction {
-
-}
-DefinedRegion {
-
-}
-PawnShop {
-
-}
-SellAction {
-
-}
-AutoDealer {
-
-}
-BoatReservation {
-
-}
-WebApplication {
-
-}
-CreativeWorkSeason {
-
-}
-FastFoodRestaurant {
-
-}
-OnDemandEvent {
-
-}
-BodyOfWater {
-
-}
-Optometric {
-
-}
-WearableSizeSystemEnumeration {
-
-}
-TechArticle {
-
-}
-ActivateAction {
-
-}
-SomeProducts {
-
-}
-Geriatric {
-
-}
-AudioObject {
-
-}
-PublicationVolume {
-
-}
-EatAction {
-
-}
-MolecularEntity {
-
-}
-LendAction {
-
-}
-ImageObjectSnapshot {
-
-}
-GeneralContractor {
-
-}
-HowToTool {
-
-}
-AmusementPark {
-
-}
-SendAction {
-
-}
-CreditCard {
-
-}
-IceCreamShop {
-
-}
-GenderType {
-
-}
-MediaGallery {
-
-}
-Guide {
-
-}
-WriteAction {
-
-}
-FAQPage {
-
-}
-MedicalSignOrSymptom {
-
-}
-HowToSection {
-
-}
-OrganizationRole {
-
-}
-HobbyShop {
-
-}
-StructuredValue {
-
-}
-OpinionNewsArticle {
-
-}
-DeliveryEvent {
-
-}
-HealthPlanCostSharingSpecification {
-
-}
-MedicalSign {
-
-}
-BroadcastService {
-
-}
-MediaManipulationRatingEnumeration {
-
-}
-Canal {
-
-}
-MedicalGuidelineRecommendation {
-
-}
-QAPage {
-
-}
-AuthorizeAction {
-
-}
-FoodEvent {
-
-}
-Crematorium {
-
-}
-PhysicalTherapy {
-
-}
-BusStation {
-
-}
-Beach {
-
-}
-EmailMessage {
-
-}
-EmploymentAgency {
-
-}
-LegalForceStatus {
-
-}
-BrokerageAccount {
-
-}
-LegislativeBuilding {
-
-}
-PrependAction {
-
-}
-AutoBodyShop {
-
-}
-Gene {
-
-}
-ResearchProject {
-    string wasInfluencedBy  
-}
-RentAction {
-
-}
-Church {
-
-}
-AdvertiserContentArticle {
-
-}
-ReturnLabelSourceEnumeration {
-
-}
-Permit {
-
-}
-SuperficialAnatomy {
-
-}
-AutomatedTeller {
-
-}
-Book {
-
-}
-TVSeason {
-
-}
-PaymentStatusType {
-
-}
-ToyStore {
-
-}
-BarOrPub {
-
-}
-AlignmentObject {
-
-}
-RoofingContractor {
-
-}
-BoatTerminal {
-
-}
-Airline {
-    string wasInfluencedBy  
-}
-ExchangeRateSpecification {
-
-}
-OrderStatus {
-
-}
-ReadAction {
-
-}
-UserPageVisits {
-
-}
-RestrictedDiet {
-
-}
-CorrectionComment {
-
-}
-AnatomicalStructure {
-
-}
-DepositAccount {
-
-}
-ChildrensEvent {
-
-}
-ReservationPackage {
-
-}
-TheaterGroup {
-    string wasInfluencedBy  
-}
-ChildCare {
-
-}
-TherapeuticProcedure {
-
-}
-SheetMusic {
-
-}
-URL {
-
-}
-BloodTest {
-
-}
-DayOfWeek {
-
-}
-AudioObjectSnapshot {
-
-}
-ShippingDeliveryTime {
-
-}
-BroadcastFrequencySpecification {
-
-}
-ComedyClub {
-
-}
-Restaurant {
-
-}
-DiscoverAction {
-
-}
-Energy {
-
-}
-Hostel {
-
-}
-Locksmith {
-
-}
-Legislation {
-
-}
-DDxElement {
-
-}
-Mountain {
-
-}
-EventSeries {
-
-}
-TVSeries {
-
-}
-CollectionPage {
-
-}
-SocialEvent {
-
-}
-NLNonprofitType {
-
-}
-StadiumOrArena {
-
-}
-Message {
-
-}
-GasStation {
-
-}
-PhysicalExam {
-
-}
-Sculpture {
-
-}
-SizeGroupEnumeration {
-
-}
-EventStatusType {
-
-}
-AddAction {
-
-}
-HousePainter {
-
-}
-MathSolver {
-
-}
-NonprofitType {
-
-}
-SurgicalProcedure {
-
-}
-Number {
-
-}
-Apartment {
-
-}
-DanceGroup {
-    string wasInfluencedBy  
-}
-PerformingGroup {
-    string wasInfluencedBy  
-}
-BroadcastEvent {
-
-}
-Poster {
-
-}
-Thesis {
-
-}
-TouristDestination {
-
-}
-UserPlays {
-
-}
-VideoGameSeries {
-
-}
-PriceSpecification {
-
-}
-PublicHealth {
-
-}
-BioChemEntity {
-
-}
-HealthClub {
-
-}
-PostOffice {
-
-}
-TelevisionStation {
-
-}
-3DModel {
-
-}
-ExercisePlan {
-
-}
-ComputerStore {
-
-}
-LymphaticVessel {
-
-}
-PostalAddress {
-
-}
-UserPlusOnes {
-
-}
-ProductModel {
-
-}
-TrackAction {
-
-}
-PerformingArtsTheater {
-
-}
-BookFormatType {
-
-}
-SportingGoodsStore {
-
-}
-Answer {
-
-}
-BodyMeasurementTypeEnumeration {
-
-}
-Airport {
-
-}
-CssSelectorType {
-
-}
-LegalValueLevel {
-
-}
-RadioSeries {
-
-}
-InvestmentFund {
-
-}
-SeekToAction {
-
-}
-LodgingReservation {
-
-}
-LeaveAction {
-
-}
-MedicalObservationalStudy {
-
-}
-VideoObject {
-
-}
-DietNutrition {
-
-}
-PsychologicalTreatment {
-
-}
-MedicalOrganization {
-    string wasInfluencedBy  
-}
-ChooseAction {
-
-}
-Nursing {
-
-}
-AllocateAction {
-
-}
-Recommendation {
-
-}
-BuyAction {
-
-}
-MobilePhoneStore {
-
-}
-Aquarium {
-
-}
-ExerciseGym {
-
-}
-Library {
-
-}
-Plumber {
-
-}
-BorrowAction {
-
-}
-State {
-
-}
-PresentationDigitalDocument {
-
-}
-Service {
-
-}
-LibrarySystem {
-    string wasInfluencedBy  
-}
-Muscle {
-
-}
-CarUsageType {
-
-}
-EngineSpecification {
-
-}
-SportsTeam {
-    string wasInfluencedBy  
-}
-ReservationStatusType {
-
-}
-TaxiStand {
-
-}
-Collection {
-    string wasInfluencedBy  
-    string generatedAtTime  
-    string invalidatedAtTime  
-    string value  
-}
-Intangible {
-
-}
-SizeSpecification {
-
-}
-Chapter {
-
-}
-RiverBodyOfWater {
-
-}
-TipAction {
-
-}
-HealthPlanNetwork {
-
-}
-PerformAction {
-
-}
-RejectAction {
-
-}
-DataType {
-
-}
-MonetaryAmount {
-
-}
-Map {
-
-}
-Trip {
-
-}
-Report {
-
-}
-GovernmentBuilding {
-
-}
-HomeAndConstructionBusiness {
-
-}
-TouristAttraction {
-
-}
-InteractionCounter {
-
-}
-GovernmentOrganization {
-    string wasInfluencedBy  
-}
-Vein {
-
-}
-AutoRental {
-
-}
-FinancialService {
-
-}
-MedicalEvidenceLevel {
-
-}
-MotorcycleDealer {
-
-}
-Country {
-
-}
-MusicGroup {
-    string wasInfluencedBy  
-}
-OrderAction {
-
-}
-InstallAction {
-
-}
-BookSeries {
-
-}
-CommunityHealth {
-
-}
-MedicalTrialDesign {
-
-}
-MotorizedBicycle {
-
-}
-Reservoir {
-
-}
-PodcastEpisode {
-
-}
-ProductGroup {
-
-}
-Thing {
-
-}
-LiquorStore {
-
-}
-BookmarkAction {
-
-}
-GolfCourse {
-
-}
-TieAction {
-
-}
-ClothingStore {
-
-}
-ParentAudience {
-
-}
-CourseInstance {
-
-}
-WarrantyScope {
-
-}
-QuantitativeValue {
-
-}
-FollowAction {
-
-}
-AskPublicNewsArticle {
-
-}
-SocialMediaPosting {
-
-}
-BusTrip {
-
-}
-ClaimReview {
-
-}
-MedicalAudienceType {
-
-}
-OceanBodyOfWater {
-
-}
-Order {
-
-}
-BusinessAudience {
-
-}
-DatedMoneySpecification {
-
-}
-RecyclingCenter {
-
-}
-MusicAlbum {
-
-}
-Painting {
-
-}
-Question {
-
-}
-GeospatialGeometry {
-
-}
-Role {
-
-}
-AccountingService {
-
-}
-ReviewNewsArticle {
-
-}
-Brand {
-
-}
-Course {
-
-}
-Volcano {
-
-}
-DataFeed {
-
-}
-Activity {
-    string wasInfluencedBy  
-    string endedAtTime  
-    string startedAtTime  
-}
-ActivityInfluence {
-
-}
-Agent {
-    string wasInfluencedBy  
-}
-AgentInfluence {
-
-}
-Association {
-
-}
-Attribution {
-
-}
-Bundle {
-    string wasInfluencedBy  
-    string generatedAtTime  
-    string invalidatedAtTime  
-    string value  
-}
-Communication {
-
-}
-Delegation {
-
-}
-Derivation {
-
-}
-EmptyCollection {
-    string wasInfluencedBy  
-    string generatedAtTime  
-    string invalidatedAtTime  
-    string value  
-}
-End {
-    string atTime  
-}
-Entity {
-    string wasInfluencedBy  
-    string generatedAtTime  
-    string invalidatedAtTime  
-    string value  
-}
-EntityInfluence {
-
-}
-Generation {
-    string atTime  
-}
-Influence {
-
-}
-InstantaneousEvent {
-    string atTime  
-}
-Invalidation {
-    string atTime  
-}
-Location {
-
-}
-Plan {
-    string wasInfluencedBy  
-    string generatedAtTime  
-    string invalidatedAtTime  
-    string value  
-}
-PrimarySource {
-
-}
-Revision {
-
-}
-SoftwareAgent {
-    string wasInfluencedBy  
-}
-Start {
-    string atTime  
-}
-Usage {
-    string atTime  
-}
-HsdoAdministrativeArea {
-    string hsdo_identifier  
-    uri prov_wasInfluencedBy  
-}
-HsdoAudience {
-    string hsdo_audienceType  
-    uri prov_wasInfluencedBy  
-}
-HsdoCategoryCode {
-    uri hsdo_inCodeSet  
-    string hsdo_codeValue  
-    uri prov_wasInfluencedBy  
-}
-HsdoContactPoint {
-    uri prov_wasInfluencedBy  
-    string hsdo_telephone  
-}
-HsdoOpeningHoursSpecification {
-    string hsdo_dayOfWeek  
-    string hsdo_closes  
-    string hsdo_opens  
-    uri prov_wasInfluencedBy  
-}
-HsdoOrganization {
-    uri hsdo_sameAs  
-    uri prov_wasInfluencedBy  
-    string hsdo_name  
-}
-HsdoPlace {
-    decimal hsdo_latitude  
-    string hsdo_address  
-    uri prov_wasInfluencedBy  
-    decimal hsdo_longitude  
-    uri hsdo_hasMap  
-}
-HsdoService {
-    string hsdo_areaServed  
-    string hsdo_identifier  
-    uri prov_wasInfluencedBy  
-    string hsdo_name  
-}
-HsdoServiceChannel {
-    uri hsdo_serviceUrl  
-    string hsdo_disambiguatingDescription  
-}
-HsdoTextObject {
-    string hsdo_conditionsOfAccess  
-    string hsdo_text  
-    uri prov_wasInfluencedBy  
-}
-HsdoWebPage {
-
-}
-ProvActivity {
-
-}
-ProvCollection {
-    uri prov_wasInfluencedBy  
-}
-ProvEntity {
-    string hsdo_audienceType  
-    string hsdo_areaServed  
-    string hsdo_address  
-    string hsdo_telephone  
-    uri hsdo_hasMap  
-    string hsdo_name  
-    string hsdo_dayOfWeek  
-    string hsdo_closes  
-    string hsdo_opens  
-    uri hsdo_inCodeSet  
-    uri hsdo_sameAs  
-    string hsdo_conditionsOfAccess  
-    string hsdo_text  
-    decimal hsdo_latitude  
-    string hsdo_identifier  
-    string hsdo_codeValue  
-    uri prov_wasInfluencedBy  
-    decimal hsdo_longitude  
-}
-
-HighSchool ||--|o Agent : "actedOnBehalfOf"
-HighSchool ||--|o Location : "atLocation"
-HighSchool ||--|o Delegation : "qualifiedDelegation"
-HighSchool ||--|o Influence : "qualifiedInfluence"
-Project ||--|o Agent : "actedOnBehalfOf"
-Project ||--|o Location : "atLocation"
-Project ||--|o Delegation : "qualifiedDelegation"
-Project ||--|o Influence : "qualifiedInfluence"
-SportsOrganization ||--|o Agent : "actedOnBehalfOf"
-SportsOrganization ||--|o Location : "atLocation"
-SportsOrganization ||--|o Delegation : "qualifiedDelegation"
-SportsOrganization ||--|o Influence : "qualifiedInfluence"
-Patient ||--|o Agent : "actedOnBehalfOf"
-Patient ||--|o Location : "atLocation"
-Patient ||--|o Delegation : "qualifiedDelegation"
-Patient ||--|o Influence : "qualifiedInfluence"
-Organization ||--|o Agent : "actedOnBehalfOf"
-Organization ||--|o Location : "atLocation"
-Organization ||--|o Delegation : "qualifiedDelegation"
-Organization ||--|o Influence : "qualifiedInfluence"
-FundingScheme ||--|o Agent : "actedOnBehalfOf"
-FundingScheme ||--|o Location : "atLocation"
-FundingScheme ||--|o Delegation : "qualifiedDelegation"
-FundingScheme ||--|o Influence : "qualifiedInfluence"
-Preschool ||--|o Agent : "actedOnBehalfOf"
-Preschool ||--|o Location : "atLocation"
-Preschool ||--|o Delegation : "qualifiedDelegation"
-Preschool ||--|o Influence : "qualifiedInfluence"
-Quotation ||--|o Activity : "hadActivity"
-Quotation ||--|o Generation : "hadGeneration"
-Quotation ||--|o Usage : "hadUsage"
-Quotation ||--|o Entity : "entity"
-Quotation ||--|o Role : "hadRole"
-Quotation ||--|o Thing : "influencer"
-NGO ||--|o Agent : "actedOnBehalfOf"
-NGO ||--|o Location : "atLocation"
-NGO ||--|o Delegation : "qualifiedDelegation"
-NGO ||--|o Influence : "qualifiedInfluence"
-VeterinaryCare ||--|o Agent : "actedOnBehalfOf"
-VeterinaryCare ||--|o Location : "atLocation"
-VeterinaryCare ||--|o Delegation : "qualifiedDelegation"
-VeterinaryCare ||--|o Influence : "qualifiedInfluence"
-Hospital ||--|o Agent : "actedOnBehalfOf"
-Hospital ||--|o Location : "atLocation"
-Hospital ||--|o Delegation : "qualifiedDelegation"
-Hospital ||--|o Influence : "qualifiedInfluence"
-Physician ||--|o Agent : "actedOnBehalfOf"
-Physician ||--|o Location : "atLocation"
-Physician ||--|o Delegation : "qualifiedDelegation"
-Physician ||--|o Influence : "qualifiedInfluence"
-Person ||--|o Agent : "actedOnBehalfOf"
-Person ||--|o Location : "atLocation"
-Person ||--|o Delegation : "qualifiedDelegation"
-Person ||--|o Influence : "qualifiedInfluence"
-FundingAgency ||--|o Agent : "actedOnBehalfOf"
-FundingAgency ||--|o Location : "atLocation"
-FundingAgency ||--|o Delegation : "qualifiedDelegation"
-FundingAgency ||--|o Influence : "qualifiedInfluence"
-CollegeOrUniversity ||--|o Agent : "actedOnBehalfOf"
-CollegeOrUniversity ||--|o Location : "atLocation"
-CollegeOrUniversity ||--|o Delegation : "qualifiedDelegation"
-CollegeOrUniversity ||--|o Influence : "qualifiedInfluence"
-MedicalClinic ||--|o Agent : "actedOnBehalfOf"
-MedicalClinic ||--|o Location : "atLocation"
-MedicalClinic ||--|o Delegation : "qualifiedDelegation"
-MedicalClinic ||--|o Influence : "qualifiedInfluence"
-MiddleSchool ||--|o Agent : "actedOnBehalfOf"
-MiddleSchool ||--|o Location : "atLocation"
-MiddleSchool ||--|o Delegation : "qualifiedDelegation"
-MiddleSchool ||--|o Influence : "qualifiedInfluence"
-School ||--|o Agent : "actedOnBehalfOf"
-School ||--|o Location : "atLocation"
-School ||--|o Delegation : "qualifiedDelegation"
-School ||--|o Influence : "qualifiedInfluence"
-EducationalOrganization ||--|o Agent : "actedOnBehalfOf"
-EducationalOrganization ||--|o Location : "atLocation"
-EducationalOrganization ||--|o Delegation : "qualifiedDelegation"
-EducationalOrganization ||--|o Influence : "qualifiedInfluence"
-Pharmacy ||--|o Agent : "actedOnBehalfOf"
-Pharmacy ||--|o Location : "atLocation"
-Pharmacy ||--|o Delegation : "qualifiedDelegation"
-Pharmacy ||--|o Influence : "qualifiedInfluence"
-Consortium ||--|o Agent : "actedOnBehalfOf"
-Consortium ||--|o Location : "atLocation"
-Consortium ||--|o Delegation : "qualifiedDelegation"
-Consortium ||--|o Influence : "qualifiedInfluence"
-NewsMediaOrganization ||--|o Agent : "actedOnBehalfOf"
-NewsMediaOrganization ||--|o Location : "atLocation"
-NewsMediaOrganization ||--|o Delegation : "qualifiedDelegation"
-NewsMediaOrganization ||--|o Influence : "qualifiedInfluence"
-Corporation ||--|o Agent : "actedOnBehalfOf"
-Corporation ||--|o Location : "atLocation"
-Corporation ||--|o Delegation : "qualifiedDelegation"
-Corporation ||--|o Influence : "qualifiedInfluence"
-DiagnosticLab ||--|o Agent : "actedOnBehalfOf"
-DiagnosticLab ||--|o Location : "atLocation"
-DiagnosticLab ||--|o Delegation : "qualifiedDelegation"
-DiagnosticLab ||--|o Influence : "qualifiedInfluence"
-WorkersUnion ||--|o Agent : "actedOnBehalfOf"
-WorkersUnion ||--|o Location : "atLocation"
-WorkersUnion ||--|o Delegation : "qualifiedDelegation"
-WorkersUnion ||--|o Influence : "qualifiedInfluence"
-ElementarySchool ||--|o Agent : "actedOnBehalfOf"
-ElementarySchool ||--|o Location : "atLocation"
-ElementarySchool ||--|o Delegation : "qualifiedDelegation"
-ElementarySchool ||--|o Influence : "qualifiedInfluence"
-ResearchOrganization ||--|o Agent : "actedOnBehalfOf"
-ResearchOrganization ||--|o Location : "atLocation"
-ResearchOrganization ||--|o Delegation : "qualifiedDelegation"
-ResearchOrganization ||--|o Influence : "qualifiedInfluence"
-Dentist ||--|o Agent : "actedOnBehalfOf"
-Dentist ||--|o Location : "atLocation"
-Dentist ||--|o Delegation : "qualifiedDelegation"
-Dentist ||--|o Influence : "qualifiedInfluence"
-CovidTestingFacility ||--|o Agent : "actedOnBehalfOf"
-CovidTestingFacility ||--|o Location : "atLocation"
-CovidTestingFacility ||--|o Delegation : "qualifiedDelegation"
-CovidTestingFacility ||--|o Influence : "qualifiedInfluence"
-ResearchProject ||--|o Agent : "actedOnBehalfOf"
-ResearchProject ||--|o Location : "atLocation"
-ResearchProject ||--|o Delegation : "qualifiedDelegation"
-ResearchProject ||--|o Influence : "qualifiedInfluence"
-Airline ||--|o Agent : "actedOnBehalfOf"
-Airline ||--|o Location : "atLocation"
-Airline ||--|o Delegation : "qualifiedDelegation"
-Airline ||--|o Influence : "qualifiedInfluence"
-TheaterGroup ||--|o Agent : "actedOnBehalfOf"
-TheaterGroup ||--|o Location : "atLocation"
-TheaterGroup ||--|o Delegation : "qualifiedDelegation"
-TheaterGroup ||--|o Influence : "qualifiedInfluence"
-DanceGroup ||--|o Agent : "actedOnBehalfOf"
-DanceGroup ||--|o Location : "atLocation"
-DanceGroup ||--|o Delegation : "qualifiedDelegation"
-DanceGroup ||--|o Influence : "qualifiedInfluence"
-PerformingGroup ||--|o Agent : "actedOnBehalfOf"
-PerformingGroup ||--|o Location : "atLocation"
-PerformingGroup ||--|o Delegation : "qualifiedDelegation"
-PerformingGroup ||--|o Influence : "qualifiedInfluence"
-MedicalOrganization ||--|o Agent : "actedOnBehalfOf"
-MedicalOrganization ||--|o Location : "atLocation"
-MedicalOrganization ||--|o Delegation : "qualifiedDelegation"
-MedicalOrganization ||--|o Influence : "qualifiedInfluence"
-LibrarySystem ||--|o Agent : "actedOnBehalfOf"
-LibrarySystem ||--|o Location : "atLocation"
-LibrarySystem ||--|o Delegation : "qualifiedDelegation"
-LibrarySystem ||--|o Influence : "qualifiedInfluence"
-SportsTeam ||--|o Agent : "actedOnBehalfOf"
-SportsTeam ||--|o Location : "atLocation"
-SportsTeam ||--|o Delegation : "qualifiedDelegation"
-SportsTeam ||--|o Influence : "qualifiedInfluence"
-Collection ||--|o Entity : "hadMember"
-Collection ||--|o Entity : "alternateOf"
-Collection ||--|o Location : "atLocation"
-Collection ||--|o Entity : "hadPrimarySource"
-Collection ||--|o Attribution : "qualifiedAttribution"
-Collection ||--|o Derivation : "qualifiedDerivation"
-Collection ||--|o Generation : "qualifiedGeneration"
-Collection ||--|o Influence : "qualifiedInfluence"
-Collection ||--|o Invalidation : "qualifiedInvalidation"
-Collection ||--|o PrimarySource : "qualifiedPrimarySource"
-Collection ||--|o Quotation : "qualifiedQuotation"
-Collection ||--|o Revision : "qualifiedRevision"
-Collection ||--|o Entity : "specializationOf"
-Collection ||--|o Agent : "wasAttributedTo"
-Collection ||--|o Entity : "wasDerivedFrom"
-Collection ||--|o Activity : "wasGeneratedBy"
-Collection ||--|o Activity : "wasInvalidatedBy"
-Collection ||--|o Entity : "wasQuotedFrom"
-Collection ||--|o Entity : "wasRevisionOf"
-GovernmentOrganization ||--|o Agent : "actedOnBehalfOf"
-GovernmentOrganization ||--|o Location : "atLocation"
-GovernmentOrganization ||--|o Delegation : "qualifiedDelegation"
-GovernmentOrganization ||--|o Influence : "qualifiedInfluence"
-MusicGroup ||--|o Agent : "actedOnBehalfOf"
-MusicGroup ||--|o Location : "atLocation"
-MusicGroup ||--|o Delegation : "qualifiedDelegation"
-MusicGroup ||--|o Influence : "qualifiedInfluence"
-Activity ||--|o Location : "atLocation"
-Activity ||--|o Entity : "generated"
-Activity ||--|o Entity : "invalidated"
-Activity ||--|o Association : "qualifiedAssociation"
-Activity ||--|o Communication : "qualifiedCommunication"
-Activity ||--|o End : "qualifiedEnd"
-Activity ||--|o Influence : "qualifiedInfluence"
-Activity ||--|o Start : "qualifiedStart"
-Activity ||--|o Usage : "qualifiedUsage"
-Activity ||--|o Entity : "used"
-Activity ||--|o Agent : "wasAssociatedWith"
-Activity ||--|o Entity : "wasEndedBy"
-Activity ||--|o Activity : "wasInformedBy"
-Activity ||--|o Entity : "wasStartedBy"
-ActivityInfluence ||--|o Activity : "activity"
-ActivityInfluence ||--|o Activity : "hadActivity"
-ActivityInfluence ||--|o Role : "hadRole"
-ActivityInfluence ||--|o Thing : "influencer"
-Agent ||--|o Agent : "actedOnBehalfOf"
-Agent ||--|o Location : "atLocation"
-Agent ||--|o Delegation : "qualifiedDelegation"
-Agent ||--|o Influence : "qualifiedInfluence"
-AgentInfluence ||--|o Agent : "agent"
-AgentInfluence ||--|o Activity : "hadActivity"
-AgentInfluence ||--|o Role : "hadRole"
-AgentInfluence ||--|o Thing : "influencer"
-Association ||--|o Plan : "hadPlan"
-Association ||--|o Role : "hadRole"
-Association ||--|o Agent : "agent"
-Association ||--|o Activity : "hadActivity"
-Association ||--|o Thing : "influencer"
-Attribution ||--|o Agent : "agent"
-Attribution ||--|o Activity : "hadActivity"
-Attribution ||--|o Role : "hadRole"
-Attribution ||--|o Thing : "influencer"
-Bundle ||--|o Entity : "alternateOf"
-Bundle ||--|o Location : "atLocation"
-Bundle ||--|o Entity : "hadPrimarySource"
-Bundle ||--|o Attribution : "qualifiedAttribution"
-Bundle ||--|o Derivation : "qualifiedDerivation"
-Bundle ||--|o Generation : "qualifiedGeneration"
-Bundle ||--|o Influence : "qualifiedInfluence"
-Bundle ||--|o Invalidation : "qualifiedInvalidation"
-Bundle ||--|o PrimarySource : "qualifiedPrimarySource"
-Bundle ||--|o Quotation : "qualifiedQuotation"
-Bundle ||--|o Revision : "qualifiedRevision"
-Bundle ||--|o Entity : "specializationOf"
-Bundle ||--|o Agent : "wasAttributedTo"
-Bundle ||--|o Entity : "wasDerivedFrom"
-Bundle ||--|o Activity : "wasGeneratedBy"
-Bundle ||--|o Activity : "wasInvalidatedBy"
-Bundle ||--|o Entity : "wasQuotedFrom"
-Bundle ||--|o Entity : "wasRevisionOf"
-Communication ||--|o Activity : "activity"
-Communication ||--|o Activity : "hadActivity"
-Communication ||--|o Role : "hadRole"
-Communication ||--|o Thing : "influencer"
-Delegation ||--|o Activity : "hadActivity"
-Delegation ||--|o Agent : "agent"
-Delegation ||--|o Role : "hadRole"
-Delegation ||--|o Thing : "influencer"
-Derivation ||--|o Activity : "hadActivity"
-Derivation ||--|o Generation : "hadGeneration"
-Derivation ||--|o Usage : "hadUsage"
-Derivation ||--|o Entity : "entity"
-Derivation ||--|o Role : "hadRole"
-Derivation ||--|o Thing : "influencer"
-EmptyCollection ||--|o Entity : "hadMember"
-EmptyCollection ||--|o Entity : "alternateOf"
-EmptyCollection ||--|o Location : "atLocation"
-EmptyCollection ||--|o Entity : "hadPrimarySource"
-EmptyCollection ||--|o Attribution : "qualifiedAttribution"
-EmptyCollection ||--|o Derivation : "qualifiedDerivation"
-EmptyCollection ||--|o Generation : "qualifiedGeneration"
-EmptyCollection ||--|o Influence : "qualifiedInfluence"
-EmptyCollection ||--|o Invalidation : "qualifiedInvalidation"
-EmptyCollection ||--|o PrimarySource : "qualifiedPrimarySource"
-EmptyCollection ||--|o Quotation : "qualifiedQuotation"
-EmptyCollection ||--|o Revision : "qualifiedRevision"
-EmptyCollection ||--|o Entity : "specializationOf"
-EmptyCollection ||--|o Agent : "wasAttributedTo"
-EmptyCollection ||--|o Entity : "wasDerivedFrom"
-EmptyCollection ||--|o Activity : "wasGeneratedBy"
-EmptyCollection ||--|o Activity : "wasInvalidatedBy"
-EmptyCollection ||--|o Entity : "wasQuotedFrom"
-EmptyCollection ||--|o Entity : "wasRevisionOf"
-End ||--|o Activity : "hadActivity"
-End ||--|o Entity : "entity"
-End ||--|o Location : "atLocation"
-End ||--|o Role : "hadRole"
-End ||--|o Thing : "influencer"
-Entity ||--|o Entity : "alternateOf"
-Entity ||--|o Location : "atLocation"
-Entity ||--|o Entity : "hadPrimarySource"
-Entity ||--|o Attribution : "qualifiedAttribution"
-Entity ||--|o Derivation : "qualifiedDerivation"
-Entity ||--|o Generation : "qualifiedGeneration"
-Entity ||--|o Influence : "qualifiedInfluence"
-Entity ||--|o Invalidation : "qualifiedInvalidation"
-Entity ||--|o PrimarySource : "qualifiedPrimarySource"
-Entity ||--|o Quotation : "qualifiedQuotation"
-Entity ||--|o Revision : "qualifiedRevision"
-Entity ||--|o Entity : "specializationOf"
-Entity ||--|o Agent : "wasAttributedTo"
-Entity ||--|o Entity : "wasDerivedFrom"
-Entity ||--|o Activity : "wasGeneratedBy"
-Entity ||--|o Activity : "wasInvalidatedBy"
-Entity ||--|o Entity : "wasQuotedFrom"
-Entity ||--|o Entity : "wasRevisionOf"
-EntityInfluence ||--|o Entity : "entity"
-EntityInfluence ||--|o Activity : "hadActivity"
-EntityInfluence ||--|o Role : "hadRole"
-EntityInfluence ||--|o Thing : "influencer"
-Generation ||--|o Activity : "activity"
-Generation ||--|o Location : "atLocation"
-Generation ||--|o Role : "hadRole"
-Generation ||--|o Activity : "hadActivity"
-Generation ||--|o Thing : "influencer"
-Influence ||--|o Activity : "hadActivity"
-Influence ||--|o Role : "hadRole"
-Influence ||--|o Thing : "influencer"
-InstantaneousEvent ||--|o Location : "atLocation"
-InstantaneousEvent ||--|o Role : "hadRole"
-Invalidation ||--|o Activity : "activity"
-Invalidation ||--|o Location : "atLocation"
-Invalidation ||--|o Role : "hadRole"
-Invalidation ||--|o Activity : "hadActivity"
-Invalidation ||--|o Thing : "influencer"
-Plan ||--|o Entity : "alternateOf"
-Plan ||--|o Location : "atLocation"
-Plan ||--|o Entity : "hadPrimarySource"
-Plan ||--|o Attribution : "qualifiedAttribution"
-Plan ||--|o Derivation : "qualifiedDerivation"
-Plan ||--|o Generation : "qualifiedGeneration"
-Plan ||--|o Influence : "qualifiedInfluence"
-Plan ||--|o Invalidation : "qualifiedInvalidation"
-Plan ||--|o PrimarySource : "qualifiedPrimarySource"
-Plan ||--|o Quotation : "qualifiedQuotation"
-Plan ||--|o Revision : "qualifiedRevision"
-Plan ||--|o Entity : "specializationOf"
-Plan ||--|o Agent : "wasAttributedTo"
-Plan ||--|o Entity : "wasDerivedFrom"
-Plan ||--|o Activity : "wasGeneratedBy"
-Plan ||--|o Activity : "wasInvalidatedBy"
-Plan ||--|o Entity : "wasQuotedFrom"
-Plan ||--|o Entity : "wasRevisionOf"
-PrimarySource ||--|o Activity : "hadActivity"
-PrimarySource ||--|o Generation : "hadGeneration"
-PrimarySource ||--|o Usage : "hadUsage"
-PrimarySource ||--|o Entity : "entity"
-PrimarySource ||--|o Role : "hadRole"
-PrimarySource ||--|o Thing : "influencer"
-Revision ||--|o Activity : "hadActivity"
-Revision ||--|o Generation : "hadGeneration"
-Revision ||--|o Usage : "hadUsage"
-Revision ||--|o Entity : "entity"
-Revision ||--|o Role : "hadRole"
-Revision ||--|o Thing : "influencer"
-SoftwareAgent ||--|o Agent : "actedOnBehalfOf"
-SoftwareAgent ||--|o Location : "atLocation"
-SoftwareAgent ||--|o Delegation : "qualifiedDelegation"
-SoftwareAgent ||--|o Influence : "qualifiedInfluence"
-Start ||--|o Activity : "hadActivity"
-Start ||--|o Entity : "entity"
-Start ||--|o Location : "atLocation"
-Start ||--|o Role : "hadRole"
-Start ||--|o Thing : "influencer"
-Usage ||--|o Entity : "entity"
-Usage ||--|o Location : "atLocation"
-Usage ||--|o Role : "hadRole"
-Usage ||--|o Activity : "hadActivity"
-Usage ||--|o Thing : "influencer"
-HsdoAdministrativeArea ||--|o ProvActivity : "prov_wasGeneratedBy"
-HsdoAdministrativeArea ||--|o ProvEntity : "prov_wasDerivedFrom"
-HsdoAdministrativeArea ||--|o HsdoWebPage : "prov_wasInfluencedBy"
-HsdoAdministrativeArea ||--|o ProvActivity : "prov_wasInfluencedBy"
-HsdoAdministrativeArea ||--|o HsdoPlace : "prov_wasInfluencedBy"
-HsdoAdministrativeArea ||--|o HsdoOpeningHoursSpecification : "prov_wasInfluencedBy"
-HsdoAdministrativeArea ||--|o HsdoService : "prov_wasInfluencedBy"
-HsdoAdministrativeArea ||--|o ProvEntity : "prov_wasInfluencedBy"
-HsdoAdministrativeArea ||--|o HsdoOrganization : "prov_wasInfluencedBy"
-HsdoAdministrativeArea ||--|o HsdoContactPoint : "prov_wasInfluencedBy"
-HsdoAdministrativeArea ||--|o HsdoTextObject : "prov_wasInfluencedBy"
-HsdoAudience ||--|o ProvActivity : "prov_wasGeneratedBy"
-HsdoAudience ||--|o ProvEntity : "prov_wasDerivedFrom"
-HsdoAudience ||--|o HsdoWebPage : "prov_wasInfluencedBy"
-HsdoAudience ||--|o ProvActivity : "prov_wasInfluencedBy"
-HsdoAudience ||--|o HsdoPlace : "prov_wasInfluencedBy"
-HsdoAudience ||--|o HsdoOpeningHoursSpecification : "prov_wasInfluencedBy"
-HsdoAudience ||--|o HsdoService : "prov_wasInfluencedBy"
-HsdoAudience ||--|o ProvEntity : "prov_wasInfluencedBy"
-HsdoAudience ||--|o HsdoOrganization : "prov_wasInfluencedBy"
-HsdoAudience ||--|o HsdoContactPoint : "prov_wasInfluencedBy"
-HsdoAudience ||--|o HsdoTextObject : "prov_wasInfluencedBy"
-HsdoCategoryCode ||--|o ProvActivity : "prov_wasGeneratedBy"
-HsdoCategoryCode ||--|o ProvEntity : "prov_wasDerivedFrom"
-HsdoCategoryCode ||--|o HsdoWebPage : "prov_wasInfluencedBy"
-HsdoCategoryCode ||--|o ProvActivity : "prov_wasInfluencedBy"
-HsdoCategoryCode ||--|o HsdoPlace : "prov_wasInfluencedBy"
-HsdoCategoryCode ||--|o HsdoOpeningHoursSpecification : "prov_wasInfluencedBy"
-HsdoCategoryCode ||--|o HsdoService : "prov_wasInfluencedBy"
-HsdoCategoryCode ||--|o ProvEntity : "prov_wasInfluencedBy"
-HsdoCategoryCode ||--|o HsdoOrganization : "prov_wasInfluencedBy"
-HsdoCategoryCode ||--|o HsdoContactPoint : "prov_wasInfluencedBy"
-HsdoCategoryCode ||--|o HsdoTextObject : "prov_wasInfluencedBy"
-HsdoContactPoint ||--|o HsdoCategoryCode : "prov_influenced"
-HsdoContactPoint ||--|o HsdoAudience : "prov_influenced"
-HsdoContactPoint ||--|o HsdoPlace : "prov_influenced"
-HsdoContactPoint ||--|o HsdoAdministrativeArea : "prov_influenced"
-HsdoContactPoint ||--|o HsdoOpeningHoursSpecification : "prov_influenced"
-HsdoContactPoint ||--|o ProvCollection : "prov_influenced"
-HsdoContactPoint ||--|o HsdoService : "prov_influenced"
-HsdoContactPoint ||--|o ProvEntity : "prov_influenced"
-HsdoContactPoint ||--|o HsdoOrganization : "prov_influenced"
-HsdoContactPoint ||--|o HsdoContactPoint : "prov_influenced"
-HsdoContactPoint ||--|o HsdoTextObject : "prov_influenced"
-HsdoContactPoint ||--|o ProvActivity : "prov_wasGeneratedBy"
-HsdoContactPoint ||--|o ProvEntity : "prov_wasDerivedFrom"
-HsdoContactPoint ||--|o HsdoWebPage : "prov_wasInfluencedBy"
-HsdoContactPoint ||--|o ProvActivity : "prov_wasInfluencedBy"
-HsdoContactPoint ||--|o HsdoPlace : "prov_wasInfluencedBy"
-HsdoContactPoint ||--|o HsdoOpeningHoursSpecification : "prov_wasInfluencedBy"
-HsdoContactPoint ||--|o HsdoService : "prov_wasInfluencedBy"
-HsdoContactPoint ||--|o ProvEntity : "prov_wasInfluencedBy"
-HsdoContactPoint ||--|o HsdoOrganization : "prov_wasInfluencedBy"
-HsdoContactPoint ||--|o HsdoContactPoint : "prov_wasInfluencedBy"
-HsdoContactPoint ||--|o HsdoTextObject : "prov_wasInfluencedBy"
-HsdoOpeningHoursSpecification ||--|o HsdoCategoryCode : "prov_influenced"
-HsdoOpeningHoursSpecification ||--|o HsdoAudience : "prov_influenced"
-HsdoOpeningHoursSpecification ||--|o HsdoPlace : "prov_influenced"
-HsdoOpeningHoursSpecification ||--|o HsdoAdministrativeArea : "prov_influenced"
-HsdoOpeningHoursSpecification ||--|o HsdoOpeningHoursSpecification : "prov_influenced"
-HsdoOpeningHoursSpecification ||--|o ProvCollection : "prov_influenced"
-HsdoOpeningHoursSpecification ||--|o HsdoService : "prov_influenced"
-HsdoOpeningHoursSpecification ||--|o ProvEntity : "prov_influenced"
-HsdoOpeningHoursSpecification ||--|o HsdoOrganization : "prov_influenced"
-HsdoOpeningHoursSpecification ||--|o HsdoContactPoint : "prov_influenced"
-HsdoOpeningHoursSpecification ||--|o HsdoTextObject : "prov_influenced"
-HsdoOpeningHoursSpecification ||--|o ProvActivity : "prov_wasGeneratedBy"
-HsdoOpeningHoursSpecification ||--|o ProvEntity : "prov_wasDerivedFrom"
-HsdoOpeningHoursSpecification ||--|o HsdoWebPage : "prov_wasInfluencedBy"
-HsdoOpeningHoursSpecification ||--|o ProvActivity : "prov_wasInfluencedBy"
-HsdoOpeningHoursSpecification ||--|o HsdoPlace : "prov_wasInfluencedBy"
-HsdoOpeningHoursSpecification ||--|o HsdoOpeningHoursSpecification : "prov_wasInfluencedBy"
-HsdoOpeningHoursSpecification ||--|o HsdoService : "prov_wasInfluencedBy"
-HsdoOpeningHoursSpecification ||--|o ProvEntity : "prov_wasInfluencedBy"
-HsdoOpeningHoursSpecification ||--|o HsdoOrganization : "prov_wasInfluencedBy"
-HsdoOpeningHoursSpecification ||--|o HsdoContactPoint : "prov_wasInfluencedBy"
-HsdoOpeningHoursSpecification ||--|o HsdoTextObject : "prov_wasInfluencedBy"
-HsdoOrganization ||--|o HsdoCategoryCode : "prov_influenced"
-HsdoOrganization ||--|o HsdoAudience : "prov_influenced"
-HsdoOrganization ||--|o HsdoPlace : "prov_influenced"
-HsdoOrganization ||--|o HsdoAdministrativeArea : "prov_influenced"
-HsdoOrganization ||--|o HsdoOpeningHoursSpecification : "prov_influenced"
-HsdoOrganization ||--|o ProvCollection : "prov_influenced"
-HsdoOrganization ||--|o HsdoService : "prov_influenced"
-HsdoOrganization ||--|o ProvEntity : "prov_influenced"
-HsdoOrganization ||--|o HsdoOrganization : "prov_influenced"
-HsdoOrganization ||--|o HsdoContactPoint : "prov_influenced"
-HsdoOrganization ||--|o HsdoTextObject : "prov_influenced"
-HsdoOrganization ||--|o ProvActivity : "prov_wasGeneratedBy"
-HsdoOrganization ||--|o ProvEntity : "prov_wasDerivedFrom"
-HsdoOrganization ||--|o HsdoWebPage : "prov_wasInfluencedBy"
-HsdoOrganization ||--|o ProvActivity : "prov_wasInfluencedBy"
-HsdoOrganization ||--|o HsdoPlace : "prov_wasInfluencedBy"
-HsdoOrganization ||--|o HsdoOpeningHoursSpecification : "prov_wasInfluencedBy"
-HsdoOrganization ||--|o HsdoService : "prov_wasInfluencedBy"
-HsdoOrganization ||--|o ProvEntity : "prov_wasInfluencedBy"
-HsdoOrganization ||--|o HsdoOrganization : "prov_wasInfluencedBy"
-HsdoOrganization ||--|o HsdoContactPoint : "prov_wasInfluencedBy"
-HsdoOrganization ||--|o HsdoTextObject : "prov_wasInfluencedBy"
-HsdoPlace ||--|o ProvEntity : "hsdo_containedInPlace"
-HsdoPlace ||--|o HsdoAdministrativeArea : "hsdo_containedInPlace"
-HsdoPlace ||--|o HsdoCategoryCode : "prov_influenced"
-HsdoPlace ||--|o HsdoAudience : "prov_influenced"
-HsdoPlace ||--|o HsdoPlace : "prov_influenced"
-HsdoPlace ||--|o HsdoAdministrativeArea : "prov_influenced"
-HsdoPlace ||--|o HsdoOpeningHoursSpecification : "prov_influenced"
-HsdoPlace ||--|o ProvCollection : "prov_influenced"
-HsdoPlace ||--|o HsdoService : "prov_influenced"
-HsdoPlace ||--|o ProvEntity : "prov_influenced"
-HsdoPlace ||--|o HsdoOrganization : "prov_influenced"
-HsdoPlace ||--|o HsdoContactPoint : "prov_influenced"
-HsdoPlace ||--|o HsdoTextObject : "prov_influenced"
-HsdoPlace ||--|o ProvActivity : "prov_wasGeneratedBy"
-HsdoPlace ||--|o ProvEntity : "prov_wasDerivedFrom"
-HsdoPlace ||--|o HsdoWebPage : "prov_wasInfluencedBy"
-HsdoPlace ||--|o ProvActivity : "prov_wasInfluencedBy"
-HsdoPlace ||--|o HsdoPlace : "prov_wasInfluencedBy"
-HsdoPlace ||--|o HsdoOpeningHoursSpecification : "prov_wasInfluencedBy"
-HsdoPlace ||--|o HsdoService : "prov_wasInfluencedBy"
-HsdoPlace ||--|o ProvEntity : "prov_wasInfluencedBy"
-HsdoPlace ||--|o HsdoOrganization : "prov_wasInfluencedBy"
-HsdoPlace ||--|o HsdoContactPoint : "prov_wasInfluencedBy"
-HsdoPlace ||--|o HsdoTextObject : "prov_wasInfluencedBy"
-HsdoService ||--|o HsdoCategoryCode : "hsdo_category"
-HsdoService ||--|o HsdoAudience : "hsdo_category"
-HsdoService ||--|o ProvEntity : "hsdo_category"
-HsdoService ||--|o HsdoOpeningHoursSpecification : "hsdo_hoursAvailable"
-HsdoService ||--|o ProvEntity : "hsdo_hoursAvailable"
-HsdoService ||--|o HsdoCategoryCode : "prov_influenced"
-HsdoService ||--|o HsdoAudience : "prov_influenced"
-HsdoService ||--|o HsdoPlace : "prov_influenced"
-HsdoService ||--|o HsdoAdministrativeArea : "prov_influenced"
-HsdoService ||--|o HsdoOpeningHoursSpecification : "prov_influenced"
-HsdoService ||--|o ProvCollection : "prov_influenced"
-HsdoService ||--|o HsdoService : "prov_influenced"
-HsdoService ||--|o ProvEntity : "prov_influenced"
-HsdoService ||--|o HsdoOrganization : "prov_influenced"
-HsdoService ||--|o HsdoContactPoint : "prov_influenced"
-HsdoService ||--|o HsdoTextObject : "prov_influenced"
-HsdoService ||--|o ProvActivity : "prov_wasGeneratedBy"
-HsdoService ||--|o HsdoServiceChannel : "hsdo_availableChannel"
-HsdoService ||--|o ProvEntity : "hsdo_description"
-HsdoService ||--|o HsdoTextObject : "hsdo_description"
-HsdoService ||--|o ProvEntity : "prov_wasDerivedFrom"
-HsdoService ||--|o HsdoWebPage : "prov_wasInfluencedBy"
-HsdoService ||--|o ProvActivity : "prov_wasInfluencedBy"
-HsdoService ||--|o HsdoPlace : "prov_wasInfluencedBy"
-HsdoService ||--|o HsdoOpeningHoursSpecification : "prov_wasInfluencedBy"
-HsdoService ||--|o HsdoService : "prov_wasInfluencedBy"
-HsdoService ||--|o ProvEntity : "prov_wasInfluencedBy"
-HsdoService ||--|o HsdoOrganization : "prov_wasInfluencedBy"
-HsdoService ||--|o HsdoContactPoint : "prov_wasInfluencedBy"
-HsdoService ||--|o HsdoTextObject : "prov_wasInfluencedBy"
-HsdoService ||--|o ProvEntity : "hsdo_provider"
-HsdoService ||--|o HsdoOrganization : "hsdo_provider"
-HsdoServiceChannel ||--|o ProvEntity : "hsdo_serviceLocation"
-HsdoServiceChannel ||--|o HsdoPlace : "hsdo_serviceLocation"
-HsdoServiceChannel ||--|o HsdoContactPoint : "hsdo_servicePhone"
-HsdoServiceChannel ||--|o ProvEntity : "hsdo_servicePhone"
-HsdoTextObject ||--|o HsdoCategoryCode : "prov_influenced"
-HsdoTextObject ||--|o HsdoAudience : "prov_influenced"
-HsdoTextObject ||--|o HsdoPlace : "prov_influenced"
-HsdoTextObject ||--|o HsdoAdministrativeArea : "prov_influenced"
-HsdoTextObject ||--|o HsdoOpeningHoursSpecification : "prov_influenced"
-HsdoTextObject ||--|o ProvCollection : "prov_influenced"
-HsdoTextObject ||--|o HsdoService : "prov_influenced"
-HsdoTextObject ||--|o ProvEntity : "prov_influenced"
-HsdoTextObject ||--|o HsdoOrganization : "prov_influenced"
-HsdoTextObject ||--|o HsdoContactPoint : "prov_influenced"
-HsdoTextObject ||--|o HsdoTextObject : "prov_influenced"
-HsdoTextObject ||--|o ProvActivity : "prov_wasGeneratedBy"
-HsdoTextObject ||--|o ProvEntity : "prov_wasDerivedFrom"
-HsdoTextObject ||--|o HsdoWebPage : "prov_wasInfluencedBy"
-HsdoTextObject ||--|o ProvActivity : "prov_wasInfluencedBy"
-HsdoTextObject ||--|o HsdoPlace : "prov_wasInfluencedBy"
-HsdoTextObject ||--|o HsdoOpeningHoursSpecification : "prov_wasInfluencedBy"
-HsdoTextObject ||--|o HsdoService : "prov_wasInfluencedBy"
-HsdoTextObject ||--|o ProvEntity : "prov_wasInfluencedBy"
-HsdoTextObject ||--|o HsdoOrganization : "prov_wasInfluencedBy"
-HsdoTextObject ||--|o HsdoContactPoint : "prov_wasInfluencedBy"
-HsdoTextObject ||--|o HsdoTextObject : "prov_wasInfluencedBy"
-HsdoWebPage ||--|o HsdoCategoryCode : "prov_influenced"
-HsdoWebPage ||--|o HsdoAudience : "prov_influenced"
-HsdoWebPage ||--|o HsdoPlace : "prov_influenced"
-HsdoWebPage ||--|o HsdoAdministrativeArea : "prov_influenced"
-HsdoWebPage ||--|o HsdoOpeningHoursSpecification : "prov_influenced"
-HsdoWebPage ||--|o ProvCollection : "prov_influenced"
-HsdoWebPage ||--|o HsdoService : "prov_influenced"
-HsdoWebPage ||--|o ProvEntity : "prov_influenced"
-HsdoWebPage ||--|o HsdoOrganization : "prov_influenced"
-HsdoWebPage ||--|o HsdoContactPoint : "prov_influenced"
-HsdoWebPage ||--|o HsdoTextObject : "prov_influenced"
-ProvActivity ||--|o HsdoCategoryCode : "prov_influenced"
-ProvActivity ||--|o HsdoAudience : "prov_influenced"
-ProvActivity ||--|o HsdoPlace : "prov_influenced"
-ProvActivity ||--|o HsdoAdministrativeArea : "prov_influenced"
-ProvActivity ||--|o HsdoOpeningHoursSpecification : "prov_influenced"
-ProvActivity ||--|o ProvCollection : "prov_influenced"
-ProvActivity ||--|o HsdoService : "prov_influenced"
-ProvActivity ||--|o ProvEntity : "prov_influenced"
-ProvActivity ||--|o HsdoOrganization : "prov_influenced"
-ProvActivity ||--|o HsdoContactPoint : "prov_influenced"
-ProvActivity ||--|o HsdoTextObject : "prov_influenced"
-ProvActivity ||--|o HsdoCategoryCode : "prov_generated"
-ProvActivity ||--|o HsdoAudience : "prov_generated"
-ProvActivity ||--|o HsdoPlace : "prov_generated"
-ProvActivity ||--|o HsdoAdministrativeArea : "prov_generated"
-ProvActivity ||--|o HsdoOpeningHoursSpecification : "prov_generated"
-ProvActivity ||--|o HsdoService : "prov_generated"
-ProvActivity ||--|o ProvEntity : "prov_generated"
-ProvActivity ||--|o HsdoOrganization : "prov_generated"
-ProvActivity ||--|o HsdoContactPoint : "prov_generated"
-ProvActivity ||--|o HsdoTextObject : "prov_generated"
-ProvCollection ||--|o HsdoWebPage : "prov_hadMember"
-ProvCollection ||--|o HsdoPlace : "prov_hadMember"
-ProvCollection ||--|o HsdoOpeningHoursSpecification : "prov_hadMember"
-ProvCollection ||--|o HsdoService : "prov_hadMember"
-ProvCollection ||--|o ProvEntity : "prov_hadMember"
-ProvCollection ||--|o HsdoOrganization : "prov_hadMember"
-ProvCollection ||--|o HsdoContactPoint : "prov_hadMember"
-ProvCollection ||--|o HsdoTextObject : "prov_hadMember"
-ProvCollection ||--|o HsdoWebPage : "prov_wasInfluencedBy"
-ProvCollection ||--|o ProvActivity : "prov_wasInfluencedBy"
-ProvCollection ||--|o HsdoPlace : "prov_wasInfluencedBy"
-ProvCollection ||--|o HsdoOpeningHoursSpecification : "prov_wasInfluencedBy"
-ProvCollection ||--|o HsdoService : "prov_wasInfluencedBy"
-ProvCollection ||--|o ProvEntity : "prov_wasInfluencedBy"
-ProvCollection ||--|o HsdoOrganization : "prov_wasInfluencedBy"
-ProvCollection ||--|o HsdoContactPoint : "prov_wasInfluencedBy"
-ProvCollection ||--|o HsdoTextObject : "prov_wasInfluencedBy"
-ProvEntity ||--|o HsdoCategoryCode : "hsdo_category"
-ProvEntity ||--|o HsdoAudience : "hsdo_category"
-ProvEntity ||--|o ProvEntity : "hsdo_category"
-ProvEntity ||--|o HsdoCategoryCode : "prov_influenced"
-ProvEntity ||--|o HsdoAudience : "prov_influenced"
-ProvEntity ||--|o HsdoPlace : "prov_influenced"
-ProvEntity ||--|o HsdoAdministrativeArea : "prov_influenced"
-ProvEntity ||--|o HsdoOpeningHoursSpecification : "prov_influenced"
-ProvEntity ||--|o ProvCollection : "prov_influenced"
-ProvEntity ||--|o HsdoService : "prov_influenced"
-ProvEntity ||--|o ProvEntity : "prov_influenced"
-ProvEntity ||--|o HsdoOrganization : "prov_influenced"
-ProvEntity ||--|o HsdoContactPoint : "prov_influenced"
-ProvEntity ||--|o HsdoTextObject : "prov_influenced"
-ProvEntity ||--|o ProvEntity : "hsdo_description"
-ProvEntity ||--|o HsdoTextObject : "hsdo_description"
-ProvEntity ||--|o ProvEntity : "hsdo_containedInPlace"
-ProvEntity ||--|o HsdoAdministrativeArea : "hsdo_containedInPlace"
-ProvEntity ||--|o HsdoServiceChannel : "hsdo_availableChannel"
-ProvEntity ||--|o ProvEntity : "prov_wasDerivedFrom"
-ProvEntity ||--|o ProvEntity : "hsdo_provider"
-ProvEntity ||--|o HsdoOrganization : "hsdo_provider"
-ProvEntity ||--|o HsdoWebPage : "prov_hadMember"
-ProvEntity ||--|o HsdoPlace : "prov_hadMember"
-ProvEntity ||--|o HsdoOpeningHoursSpecification : "prov_hadMember"
-ProvEntity ||--|o HsdoService : "prov_hadMember"
-ProvEntity ||--|o ProvEntity : "prov_hadMember"
-ProvEntity ||--|o HsdoOrganization : "prov_hadMember"
-ProvEntity ||--|o HsdoContactPoint : "prov_hadMember"
-ProvEntity ||--|o HsdoTextObject : "prov_hadMember"
-ProvEntity ||--|o HsdoOpeningHoursSpecification : "hsdo_hoursAvailable"
-ProvEntity ||--|o ProvEntity : "hsdo_hoursAvailable"
-ProvEntity ||--|o ProvActivity : "prov_wasGeneratedBy"
-ProvEntity ||--|o HsdoWebPage : "prov_wasInfluencedBy"
-ProvEntity ||--|o ProvActivity : "prov_wasInfluencedBy"
-ProvEntity ||--|o HsdoPlace : "prov_wasInfluencedBy"
-ProvEntity ||--|o HsdoOpeningHoursSpecification : "prov_wasInfluencedBy"
-ProvEntity ||--|o HsdoService : "prov_wasInfluencedBy"
-ProvEntity ||--|o ProvEntity : "prov_wasInfluencedBy"
-ProvEntity ||--|o HsdoOrganization : "prov_wasInfluencedBy"
-ProvEntity ||--|o HsdoContactPoint : "prov_wasInfluencedBy"
-ProvEntity ||--|o HsdoTextObject : "prov_wasInfluencedBy"
+HsdoActivity {
+    string skos_prefLabel  
+    string skos_definition  
+}
+HsdoChronostratigraphicUnit {
+    string skos_prefLabel  
+    string skos_definition  
+}
+HsdoCmip6SourceId {
+    string skos_prefLabel  
+    string skos_definition  
+}
+HsdoDataFormat {
+    string skos_prefLabel  
+    string skos_definition  
+}
+HsdoDataset {
+    string skos_prefLabel  
+    string skos_definition  
+}
+HsdoExperiment {
+    string attribute_start_year  
+    string attribute_end_year  
+    string attribute_tier  
+    string skos_definition  
+    string attribute_experiment  
+    string skos_prefLabel  
+}
+HsdoFrequency {
+    string skos_definition  
+    string skos_prefLabel  
+}
+HsdoGridLabel {
+    string skos_prefLabel  
+    string skos_definition  
+}
+HsdoHorizontalResolutionRange {
+    string skos_prefLabel  
+}
+HsdoInstitution {
+    string skos_prefLabel  
+    string skos_definition  
+}
+HsdoInstrument {
+    string skos_prefLabel  
+    string skos_definition  
+}
+HsdoLicense {
+    string skos_definition  
+    string skos_prefLabel  
+}
+HsdoLocation {
+    string attribute_start_year  
+    string attribute_end_year  
+    string attribute_tier  
+    string skos_definition  
+    string attribute_experiment  
+    string skos_prefLabel  
+}
+HsdoMeasurementName {
+    string skos_prefLabel  
+    string skos_definition  
+}
+HsdoMimeType {
+    string skos_definition  
+    string skos_prefLabel  
+}
+HsdoModel {
+    string attribute_start_year  
+    string attribute_end_year  
+    string attribute_tier  
+    string skos_definition  
+    string attribute_experiment  
+    string skos_prefLabel  
+}
+HsdoModels {
+    string skos_prefLabel  
+    string skos_definition  
+}
+HsdoNominalResolution {
+    string skos_prefLabel  
+}
+HsdoObs4MipsSourceId {
+    string skos_prefLabel  
+    string skos_definition  
+}
+HsdoPlatform {
+    string skos_prefLabel  
+    string skos_definition  
+}
+HsdoProject {
+    string attribute_start_year  
+    string attribute_end_year  
+    string attribute_tier  
+    string skos_definition  
+    string attribute_experiment  
+    string skos_prefLabel  
+}
+HsdoProvider {
+    string attribute_start_year  
+    string attribute_end_year  
+    string attribute_tier  
+    string skos_definition  
+    string attribute_experiment  
+    string skos_prefLabel  
+}
+HsdoRealm {
+    string skos_prefLabel  
+}
+HsdoRegion {
+    string skos_prefLabel  
+}
+HsdoRelatedUrlContentType {
+    string skos_prefLabel  
+    string skos_definition  
+}
+HsdoScienceKeyword {
+    string skos_definition  
+    string skos_prefLabel  
+}
+HsdoSourceType {
+    string skos_prefLabel  
+    string skos_definition  
+}
+HsdoSubExperimentId {
+    string skos_prefLabel  
+    string skos_definition  
+}
+HsdoTemporalResolutionRange {
+    string skos_prefLabel  
+    string skos_definition  
+}
+HsdoVariable {
+    string attribute_start_year  
+    string attribute_end_year  
+    string attribute_tier  
+    string skos_definition  
+    string attribute_experiment  
+    string skos_prefLabel  
+}
+HsdoVerticalResolutionRange {
+    string skos_prefLabel  
+}
+HsdoPaper {
+    string attribute_title  
+    string attribute_pub_date  
+    string attribute_authors  
+    string attribute_doi  
+}
+SkosConcept {
+    string skos_prefLabel  
+    string skos_definition  
+    uri skos_inScheme  
+}
+
+HsdoActivity ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoActivity ||--|o HsdoScienceKeyword : "relation_RunBy"
+HsdoActivity ||--|o HsdoCmip6SourceId : "relation_RunBy"
+HsdoActivity ||--|o HsdoPlatform : "relation_RunBy"
+HsdoActivity ||--|o HsdoSourceType : "relation_RunBy"
+HsdoActivity ||--|o HsdoMeasurementName : "relation_RunBy"
+HsdoActivity ||--|o HsdoModel : "relation_RunBy"
+HsdoActivity ||--|o HsdoProject : "relation_RunBy"
+HsdoActivity ||--|o HsdoDataFormat : "relation_RunBy"
+HsdoActivity ||--|o HsdoExperiment : "relation_RunBy"
+HsdoActivity ||--|o HsdoLocation : "relation_RunBy"
+HsdoActivity ||--|o HsdoInstitution : "relation_RunBy"
+HsdoActivity ||--|o HsdoActivity : "relation_RunBy"
+HsdoActivity ||--|o HsdoInstrument : "relation_RunBy"
+HsdoActivity ||--|o HsdoChronostratigraphicUnit : "relation_RunBy"
+HsdoActivity ||--|o HsdoModels : "relation_RunBy"
+HsdoActivity ||--|o HsdoVariable : "relation_RunBy"
+HsdoActivity ||--|o HsdoProvider : "relation_RunBy"
+HsdoActivity ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoProject : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoModels : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoModel : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoActivity ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoActivity ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoActivity ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoActivity ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoActivity ||--|o HsdoActivity : "relation_UsedIn"
+HsdoActivity ||--|o HsdoProvider : "relation_UsedIn"
+HsdoActivity ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoActivity ||--|o HsdoProject : "relation_UsedIn"
+HsdoActivity ||--|o HsdoRealm : "relation_UsedIn"
+HsdoActivity ||--|o HsdoDataset : "relation_UsedIn"
+HsdoActivity ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoActivity ||--|o HsdoModels : "relation_UsedIn"
+HsdoActivity ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoActivity ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoActivity ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoActivity ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoActivity ||--|o HsdoModel : "relation_UsedIn"
+HsdoActivity ||--|o HsdoLocation : "relation_UsedIn"
+HsdoActivity ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoActivity ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoActivity ||--|o HsdoVariable : "relation_UsedIn"
+HsdoActivity ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoActivity ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoActivity ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoActivity ||--|o HsdoMeasurementName : "skos_broader"
+HsdoActivity ||--|o HsdoNominalResolution : "skos_broader"
+HsdoActivity ||--|o HsdoProvider : "skos_broader"
+HsdoActivity ||--|o HsdoPlatform : "skos_broader"
+HsdoActivity ||--|o HsdoProject : "skos_broader"
+HsdoActivity ||--|o SkosConcept : "skos_broader"
+HsdoActivity ||--|o HsdoRealm : "skos_broader"
+HsdoActivity ||--|o HsdoDataset : "skos_broader"
+HsdoActivity ||--|o HsdoInstrument : "skos_broader"
+HsdoActivity ||--|o HsdoModels : "skos_broader"
+HsdoActivity ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoActivity ||--|o HsdoRegion : "skos_broader"
+HsdoActivity ||--|o HsdoDataFormat : "skos_broader"
+HsdoActivity ||--|o HsdoMimeType : "skos_broader"
+HsdoActivity ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoActivity ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoActivity ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoActivity ||--|o HsdoSourceType : "skos_broader"
+HsdoActivity ||--|o HsdoModel : "skos_broader"
+HsdoActivity ||--|o HsdoLocation : "skos_broader"
+HsdoActivity ||--|o HsdoExperiment : "skos_broader"
+HsdoActivity ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoActivity ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoActivity ||--|o HsdoLicense : "skos_broader"
+HsdoActivity ||--|o HsdoVariable : "skos_broader"
+HsdoActivity ||--|o HsdoProject : "relation_HasProjectName"
+HsdoActivity ||--|o HsdoProvider : "relation_HasProjectName"
+HsdoChronostratigraphicUnit ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoChronostratigraphicUnit ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoProject : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoModels : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoModel : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoChronostratigraphicUnit ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoActivity : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoProvider : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoProject : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoRealm : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoDataset : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoModels : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoModel : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoLocation : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoVariable : "relation_UsedIn"
+HsdoChronostratigraphicUnit ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoChronostratigraphicUnit ||--|o HsdoScienceKeyword : "relation_RunBy"
+HsdoChronostratigraphicUnit ||--|o HsdoCmip6SourceId : "relation_RunBy"
+HsdoChronostratigraphicUnit ||--|o HsdoPlatform : "relation_RunBy"
+HsdoChronostratigraphicUnit ||--|o HsdoSourceType : "relation_RunBy"
+HsdoChronostratigraphicUnit ||--|o HsdoMeasurementName : "relation_RunBy"
+HsdoChronostratigraphicUnit ||--|o HsdoModel : "relation_RunBy"
+HsdoChronostratigraphicUnit ||--|o HsdoProject : "relation_RunBy"
+HsdoChronostratigraphicUnit ||--|o HsdoDataFormat : "relation_RunBy"
+HsdoChronostratigraphicUnit ||--|o HsdoExperiment : "relation_RunBy"
+HsdoChronostratigraphicUnit ||--|o HsdoLocation : "relation_RunBy"
+HsdoChronostratigraphicUnit ||--|o HsdoInstitution : "relation_RunBy"
+HsdoChronostratigraphicUnit ||--|o HsdoActivity : "relation_RunBy"
+HsdoChronostratigraphicUnit ||--|o HsdoInstrument : "relation_RunBy"
+HsdoChronostratigraphicUnit ||--|o HsdoChronostratigraphicUnit : "relation_RunBy"
+HsdoChronostratigraphicUnit ||--|o HsdoModels : "relation_RunBy"
+HsdoChronostratigraphicUnit ||--|o HsdoVariable : "relation_RunBy"
+HsdoChronostratigraphicUnit ||--|o HsdoProvider : "relation_RunBy"
+HsdoChronostratigraphicUnit ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoMeasurementName : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoNominalResolution : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoProvider : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoPlatform : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoProject : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o SkosConcept : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoRealm : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoDataset : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoInstrument : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoModels : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoRegion : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoDataFormat : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoMimeType : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoSourceType : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoModel : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoLocation : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoExperiment : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoLicense : "skos_broader"
+HsdoChronostratigraphicUnit ||--|o HsdoVariable : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoModel : "relation_HasModelComponent"
+HsdoCmip6SourceId ||--|o HsdoRealm : "relation_HasModelComponent"
+HsdoCmip6SourceId ||--|o HsdoLocation : "relation_HasModelComponent"
+HsdoCmip6SourceId ||--|o HsdoExperiment : "relation_HasModelComponent"
+HsdoCmip6SourceId ||--|o HsdoVariable : "relation_HasModelComponent"
+HsdoCmip6SourceId ||--|o HsdoProvider : "relation_HasModelComponent"
+HsdoCmip6SourceId ||--|o HsdoLicense : "relation_HasLicenseInfo"
+HsdoCmip6SourceId ||--|o HsdoScienceKeyword : "relation_RunBy"
+HsdoCmip6SourceId ||--|o HsdoCmip6SourceId : "relation_RunBy"
+HsdoCmip6SourceId ||--|o HsdoPlatform : "relation_RunBy"
+HsdoCmip6SourceId ||--|o HsdoSourceType : "relation_RunBy"
+HsdoCmip6SourceId ||--|o HsdoMeasurementName : "relation_RunBy"
+HsdoCmip6SourceId ||--|o HsdoModel : "relation_RunBy"
+HsdoCmip6SourceId ||--|o HsdoProject : "relation_RunBy"
+HsdoCmip6SourceId ||--|o HsdoDataFormat : "relation_RunBy"
+HsdoCmip6SourceId ||--|o HsdoExperiment : "relation_RunBy"
+HsdoCmip6SourceId ||--|o HsdoLocation : "relation_RunBy"
+HsdoCmip6SourceId ||--|o HsdoInstitution : "relation_RunBy"
+HsdoCmip6SourceId ||--|o HsdoActivity : "relation_RunBy"
+HsdoCmip6SourceId ||--|o HsdoInstrument : "relation_RunBy"
+HsdoCmip6SourceId ||--|o HsdoChronostratigraphicUnit : "relation_RunBy"
+HsdoCmip6SourceId ||--|o HsdoModels : "relation_RunBy"
+HsdoCmip6SourceId ||--|o HsdoVariable : "relation_RunBy"
+HsdoCmip6SourceId ||--|o HsdoProvider : "relation_RunBy"
+HsdoCmip6SourceId ||--|o HsdoScienceKeyword : "relation_ValidatedBy"
+HsdoCmip6SourceId ||--|o HsdoPlatform : "relation_ValidatedBy"
+HsdoCmip6SourceId ||--|o HsdoSourceType : "relation_ValidatedBy"
+HsdoCmip6SourceId ||--|o HsdoObs4MipsSourceId : "relation_ValidatedBy"
+HsdoCmip6SourceId ||--|o HsdoModel : "relation_ValidatedBy"
+HsdoCmip6SourceId ||--|o HsdoProject : "relation_ValidatedBy"
+HsdoCmip6SourceId ||--|o HsdoDataset : "relation_ValidatedBy"
+HsdoCmip6SourceId ||--|o HsdoExperiment : "relation_ValidatedBy"
+HsdoCmip6SourceId ||--|o HsdoLocation : "relation_ValidatedBy"
+HsdoCmip6SourceId ||--|o HsdoInstrument : "relation_ValidatedBy"
+HsdoCmip6SourceId ||--|o HsdoModels : "relation_ValidatedBy"
+HsdoCmip6SourceId ||--|o HsdoVariable : "relation_ValidatedBy"
+HsdoCmip6SourceId ||--|o HsdoProvider : "relation_ValidatedBy"
+HsdoCmip6SourceId ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoProject : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoModels : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoModel : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoCmip6SourceId ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoActivity : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoProvider : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoProject : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoRealm : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoDataset : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoModels : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoModel : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoLocation : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoVariable : "relation_UsedIn"
+HsdoCmip6SourceId ||--|o HsdoProject : "relation_HasActivityParticipation"
+HsdoCmip6SourceId ||--|o HsdoModel : "relation_HasActivityParticipation"
+HsdoCmip6SourceId ||--|o HsdoExperiment : "relation_HasActivityParticipation"
+HsdoCmip6SourceId ||--|o HsdoLocation : "relation_HasActivityParticipation"
+HsdoCmip6SourceId ||--|o HsdoActivity : "relation_HasActivityParticipation"
+HsdoCmip6SourceId ||--|o HsdoVariable : "relation_HasActivityParticipation"
+HsdoCmip6SourceId ||--|o HsdoProvider : "relation_HasActivityParticipation"
+HsdoCmip6SourceId ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoCmip6SourceId ||--|o HsdoModel : "relation_HasInstitution"
+HsdoCmip6SourceId ||--|o HsdoInstitution : "relation_HasInstitution"
+HsdoCmip6SourceId ||--|o HsdoInstrument : "relation_HasInstitution"
+HsdoCmip6SourceId ||--|o HsdoVariable : "relation_HasInstitution"
+HsdoCmip6SourceId ||--|o HsdoProvider : "relation_HasInstitution"
+HsdoCmip6SourceId ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoCmip6SourceId ||--|o HsdoScienceKeyword : "relation_Outputs"
+HsdoCmip6SourceId ||--|o HsdoPlatform : "relation_Outputs"
+HsdoCmip6SourceId ||--|o HsdoSourceType : "relation_Outputs"
+HsdoCmip6SourceId ||--|o HsdoMeasurementName : "relation_Outputs"
+HsdoCmip6SourceId ||--|o HsdoProject : "relation_Outputs"
+HsdoCmip6SourceId ||--|o HsdoModel : "relation_Outputs"
+HsdoCmip6SourceId ||--|o HsdoDataFormat : "relation_Outputs"
+HsdoCmip6SourceId ||--|o HsdoRealm : "relation_Outputs"
+HsdoCmip6SourceId ||--|o HsdoDataset : "relation_Outputs"
+HsdoCmip6SourceId ||--|o HsdoLocation : "relation_Outputs"
+HsdoCmip6SourceId ||--|o HsdoExperiment : "relation_Outputs"
+HsdoCmip6SourceId ||--|o HsdoInstitution : "relation_Outputs"
+HsdoCmip6SourceId ||--|o HsdoActivity : "relation_Outputs"
+HsdoCmip6SourceId ||--|o HsdoInstrument : "relation_Outputs"
+HsdoCmip6SourceId ||--|o HsdoRelatedUrlContentType : "relation_Outputs"
+HsdoCmip6SourceId ||--|o HsdoModels : "relation_Outputs"
+HsdoCmip6SourceId ||--|o HsdoVariable : "relation_Outputs"
+HsdoCmip6SourceId ||--|o HsdoProvider : "relation_Outputs"
+HsdoCmip6SourceId ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoMeasurementName : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoNominalResolution : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoProvider : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoPlatform : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoProject : "skos_broader"
+HsdoCmip6SourceId ||--|o SkosConcept : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoRealm : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoDataset : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoInstrument : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoModels : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoRegion : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoDataFormat : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoMimeType : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoSourceType : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoModel : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoLocation : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoExperiment : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoLicense : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoVariable : "skos_broader"
+HsdoCmip6SourceId ||--|o HsdoProject : "relation_HasProjectName"
+HsdoCmip6SourceId ||--|o HsdoProvider : "relation_HasProjectName"
+HsdoDataFormat ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoDataFormat ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoProject : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoModels : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoModel : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoDataFormat ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoActivity : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoProvider : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoProject : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoRealm : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoDataset : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoModels : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoModel : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoLocation : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoVariable : "relation_UsedIn"
+HsdoDataFormat ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoDataFormat ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoDataFormat ||--|o HsdoScienceKeyword : "relation_Outputs"
+HsdoDataFormat ||--|o HsdoPlatform : "relation_Outputs"
+HsdoDataFormat ||--|o HsdoSourceType : "relation_Outputs"
+HsdoDataFormat ||--|o HsdoMeasurementName : "relation_Outputs"
+HsdoDataFormat ||--|o HsdoProject : "relation_Outputs"
+HsdoDataFormat ||--|o HsdoModel : "relation_Outputs"
+HsdoDataFormat ||--|o HsdoDataFormat : "relation_Outputs"
+HsdoDataFormat ||--|o HsdoRealm : "relation_Outputs"
+HsdoDataFormat ||--|o HsdoDataset : "relation_Outputs"
+HsdoDataFormat ||--|o HsdoLocation : "relation_Outputs"
+HsdoDataFormat ||--|o HsdoExperiment : "relation_Outputs"
+HsdoDataFormat ||--|o HsdoInstitution : "relation_Outputs"
+HsdoDataFormat ||--|o HsdoActivity : "relation_Outputs"
+HsdoDataFormat ||--|o HsdoInstrument : "relation_Outputs"
+HsdoDataFormat ||--|o HsdoRelatedUrlContentType : "relation_Outputs"
+HsdoDataFormat ||--|o HsdoModels : "relation_Outputs"
+HsdoDataFormat ||--|o HsdoVariable : "relation_Outputs"
+HsdoDataFormat ||--|o HsdoProvider : "relation_Outputs"
+HsdoDataFormat ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoDataFormat ||--|o HsdoMeasurementName : "skos_broader"
+HsdoDataFormat ||--|o HsdoNominalResolution : "skos_broader"
+HsdoDataFormat ||--|o HsdoProvider : "skos_broader"
+HsdoDataFormat ||--|o HsdoPlatform : "skos_broader"
+HsdoDataFormat ||--|o HsdoProject : "skos_broader"
+HsdoDataFormat ||--|o SkosConcept : "skos_broader"
+HsdoDataFormat ||--|o HsdoRealm : "skos_broader"
+HsdoDataFormat ||--|o HsdoDataset : "skos_broader"
+HsdoDataFormat ||--|o HsdoInstrument : "skos_broader"
+HsdoDataFormat ||--|o HsdoModels : "skos_broader"
+HsdoDataFormat ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoDataFormat ||--|o HsdoRegion : "skos_broader"
+HsdoDataFormat ||--|o HsdoDataFormat : "skos_broader"
+HsdoDataFormat ||--|o HsdoMimeType : "skos_broader"
+HsdoDataFormat ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoDataFormat ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoDataFormat ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoDataFormat ||--|o HsdoSourceType : "skos_broader"
+HsdoDataFormat ||--|o HsdoModel : "skos_broader"
+HsdoDataFormat ||--|o HsdoLocation : "skos_broader"
+HsdoDataFormat ||--|o HsdoExperiment : "skos_broader"
+HsdoDataFormat ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoDataFormat ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoDataFormat ||--|o HsdoLicense : "skos_broader"
+HsdoDataFormat ||--|o HsdoVariable : "skos_broader"
+HsdoDataset ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoDataset ||--|o HsdoSourceType : "relation_HasSourceType"
+HsdoDataset ||--|o HsdoModel : "relation_HasSourceType"
+HsdoDataset ||--|o HsdoExperiment : "relation_HasSourceType"
+HsdoDataset ||--|o HsdoInstrument : "relation_HasSourceType"
+HsdoDataset ||--|o HsdoVariable : "relation_HasSourceType"
+HsdoDataset ||--|o HsdoProvider : "relation_HasSourceType"
+HsdoDataset ||--|o HsdoModel : "relation_HasRegion"
+HsdoDataset ||--|o HsdoProject : "relation_HasRegion"
+HsdoDataset ||--|o HsdoLocation : "relation_HasRegion"
+HsdoDataset ||--|o HsdoVariable : "relation_HasRegion"
+HsdoDataset ||--|o HsdoRegion : "relation_HasRegion"
+HsdoDataset ||--|o HsdoProvider : "relation_HasRegion"
+HsdoDataset ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoProject : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoModels : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoModel : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoDataset ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoDataset ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoDataset ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoDataset ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoDataset ||--|o HsdoActivity : "relation_UsedIn"
+HsdoDataset ||--|o HsdoProvider : "relation_UsedIn"
+HsdoDataset ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoDataset ||--|o HsdoProject : "relation_UsedIn"
+HsdoDataset ||--|o HsdoRealm : "relation_UsedIn"
+HsdoDataset ||--|o HsdoDataset : "relation_UsedIn"
+HsdoDataset ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoDataset ||--|o HsdoModels : "relation_UsedIn"
+HsdoDataset ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoDataset ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoDataset ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoDataset ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoDataset ||--|o HsdoModel : "relation_UsedIn"
+HsdoDataset ||--|o HsdoLocation : "relation_UsedIn"
+HsdoDataset ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoDataset ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoDataset ||--|o HsdoVariable : "relation_UsedIn"
+HsdoDataset ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoDataset ||--|o HsdoModel : "relation_HasInstitution"
+HsdoDataset ||--|o HsdoInstitution : "relation_HasInstitution"
+HsdoDataset ||--|o HsdoInstrument : "relation_HasInstitution"
+HsdoDataset ||--|o HsdoVariable : "relation_HasInstitution"
+HsdoDataset ||--|o HsdoProvider : "relation_HasInstitution"
+HsdoDataset ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoDataset ||--|o HsdoScienceKeyword : "relation_Outputs"
+HsdoDataset ||--|o HsdoPlatform : "relation_Outputs"
+HsdoDataset ||--|o HsdoSourceType : "relation_Outputs"
+HsdoDataset ||--|o HsdoMeasurementName : "relation_Outputs"
+HsdoDataset ||--|o HsdoProject : "relation_Outputs"
+HsdoDataset ||--|o HsdoModel : "relation_Outputs"
+HsdoDataset ||--|o HsdoDataFormat : "relation_Outputs"
+HsdoDataset ||--|o HsdoRealm : "relation_Outputs"
+HsdoDataset ||--|o HsdoDataset : "relation_Outputs"
+HsdoDataset ||--|o HsdoLocation : "relation_Outputs"
+HsdoDataset ||--|o HsdoExperiment : "relation_Outputs"
+HsdoDataset ||--|o HsdoInstitution : "relation_Outputs"
+HsdoDataset ||--|o HsdoActivity : "relation_Outputs"
+HsdoDataset ||--|o HsdoInstrument : "relation_Outputs"
+HsdoDataset ||--|o HsdoRelatedUrlContentType : "relation_Outputs"
+HsdoDataset ||--|o HsdoModels : "relation_Outputs"
+HsdoDataset ||--|o HsdoVariable : "relation_Outputs"
+HsdoDataset ||--|o HsdoProvider : "relation_Outputs"
+HsdoDataset ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoDataset ||--|o HsdoMeasurementName : "skos_broader"
+HsdoDataset ||--|o HsdoNominalResolution : "skos_broader"
+HsdoDataset ||--|o HsdoProvider : "skos_broader"
+HsdoDataset ||--|o HsdoPlatform : "skos_broader"
+HsdoDataset ||--|o HsdoProject : "skos_broader"
+HsdoDataset ||--|o SkosConcept : "skos_broader"
+HsdoDataset ||--|o HsdoRealm : "skos_broader"
+HsdoDataset ||--|o HsdoDataset : "skos_broader"
+HsdoDataset ||--|o HsdoInstrument : "skos_broader"
+HsdoDataset ||--|o HsdoModels : "skos_broader"
+HsdoDataset ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoDataset ||--|o HsdoRegion : "skos_broader"
+HsdoDataset ||--|o HsdoDataFormat : "skos_broader"
+HsdoDataset ||--|o HsdoMimeType : "skos_broader"
+HsdoDataset ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoDataset ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoDataset ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoDataset ||--|o HsdoSourceType : "skos_broader"
+HsdoDataset ||--|o HsdoModel : "skos_broader"
+HsdoDataset ||--|o HsdoLocation : "skos_broader"
+HsdoDataset ||--|o HsdoExperiment : "skos_broader"
+HsdoDataset ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoDataset ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoDataset ||--|o HsdoLicense : "skos_broader"
+HsdoDataset ||--|o HsdoVariable : "skos_broader"
+HsdoDataset ||--|o HsdoProject : "relation_HasProjectName"
+HsdoDataset ||--|o HsdoProvider : "relation_HasProjectName"
+HsdoExperiment ||--|o HsdoModel : "relation_HasModelComponent"
+HsdoExperiment ||--|o HsdoRealm : "relation_HasModelComponent"
+HsdoExperiment ||--|o HsdoLocation : "relation_HasModelComponent"
+HsdoExperiment ||--|o HsdoExperiment : "relation_HasModelComponent"
+HsdoExperiment ||--|o HsdoVariable : "relation_HasModelComponent"
+HsdoExperiment ||--|o HsdoProvider : "relation_HasModelComponent"
+HsdoExperiment ||--|o HsdoScienceKeyword : "relation_ValidatedBy"
+HsdoExperiment ||--|o HsdoPlatform : "relation_ValidatedBy"
+HsdoExperiment ||--|o HsdoSourceType : "relation_ValidatedBy"
+HsdoExperiment ||--|o HsdoObs4MipsSourceId : "relation_ValidatedBy"
+HsdoExperiment ||--|o HsdoModel : "relation_ValidatedBy"
+HsdoExperiment ||--|o HsdoProject : "relation_ValidatedBy"
+HsdoExperiment ||--|o HsdoDataset : "relation_ValidatedBy"
+HsdoExperiment ||--|o HsdoExperiment : "relation_ValidatedBy"
+HsdoExperiment ||--|o HsdoLocation : "relation_ValidatedBy"
+HsdoExperiment ||--|o HsdoInstrument : "relation_ValidatedBy"
+HsdoExperiment ||--|o HsdoModels : "relation_ValidatedBy"
+HsdoExperiment ||--|o HsdoVariable : "relation_ValidatedBy"
+HsdoExperiment ||--|o HsdoProvider : "relation_ValidatedBy"
+HsdoExperiment ||--|o HsdoScienceKeyword : "relation_MountedOn"
+HsdoExperiment ||--|o HsdoPlatform : "relation_MountedOn"
+HsdoExperiment ||--|o HsdoMeasurementName : "relation_MountedOn"
+HsdoExperiment ||--|o HsdoProject : "relation_MountedOn"
+HsdoExperiment ||--|o HsdoModel : "relation_MountedOn"
+HsdoExperiment ||--|o HsdoRealm : "relation_MountedOn"
+HsdoExperiment ||--|o HsdoLocation : "relation_MountedOn"
+HsdoExperiment ||--|o HsdoExperiment : "relation_MountedOn"
+HsdoExperiment ||--|o HsdoInstitution : "relation_MountedOn"
+HsdoExperiment ||--|o HsdoInstrument : "relation_MountedOn"
+HsdoExperiment ||--|o HsdoModels : "relation_MountedOn"
+HsdoExperiment ||--|o HsdoVariable : "relation_MountedOn"
+HsdoExperiment ||--|o HsdoProvider : "relation_MountedOn"
+HsdoExperiment ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoActivity : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoProvider : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoProject : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoRealm : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoDataset : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoModels : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoModel : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoLocation : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoVariable : "relation_UsedIn"
+HsdoExperiment ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoExperiment ||--|o HsdoModel : "relation_HasInstitution"
+HsdoExperiment ||--|o HsdoInstitution : "relation_HasInstitution"
+HsdoExperiment ||--|o HsdoInstrument : "relation_HasInstitution"
+HsdoExperiment ||--|o HsdoVariable : "relation_HasInstitution"
+HsdoExperiment ||--|o HsdoProvider : "relation_HasInstitution"
+HsdoExperiment ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoExperiment ||--|o HsdoMeasurementName : "skos_broader"
+HsdoExperiment ||--|o HsdoNominalResolution : "skos_broader"
+HsdoExperiment ||--|o HsdoProvider : "skos_broader"
+HsdoExperiment ||--|o HsdoPlatform : "skos_broader"
+HsdoExperiment ||--|o HsdoProject : "skos_broader"
+HsdoExperiment ||--|o SkosConcept : "skos_broader"
+HsdoExperiment ||--|o HsdoRealm : "skos_broader"
+HsdoExperiment ||--|o HsdoDataset : "skos_broader"
+HsdoExperiment ||--|o HsdoInstrument : "skos_broader"
+HsdoExperiment ||--|o HsdoModels : "skos_broader"
+HsdoExperiment ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoExperiment ||--|o HsdoRegion : "skos_broader"
+HsdoExperiment ||--|o HsdoDataFormat : "skos_broader"
+HsdoExperiment ||--|o HsdoMimeType : "skos_broader"
+HsdoExperiment ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoExperiment ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoExperiment ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoExperiment ||--|o HsdoSourceType : "skos_broader"
+HsdoExperiment ||--|o HsdoModel : "skos_broader"
+HsdoExperiment ||--|o HsdoLocation : "skos_broader"
+HsdoExperiment ||--|o HsdoExperiment : "skos_broader"
+HsdoExperiment ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoExperiment ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoExperiment ||--|o HsdoLicense : "skos_broader"
+HsdoExperiment ||--|o HsdoVariable : "skos_broader"
+HsdoExperiment ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoExperiment ||--|o HsdoSourceType : "relation_HasRequiredModelComponents"
+HsdoExperiment ||--|o HsdoModel : "relation_HasRequiredModelComponents"
+HsdoExperiment ||--|o HsdoLocation : "relation_HasRequiredModelComponents"
+HsdoExperiment ||--|o HsdoExperiment : "relation_HasRequiredModelComponents"
+HsdoExperiment ||--|o HsdoVariable : "relation_HasRequiredModelComponents"
+HsdoExperiment ||--|o HsdoProvider : "relation_HasRequiredModelComponents"
+HsdoExperiment ||--|o HsdoSourceType : "relation_HasAdditionalAllowedModelComponents"
+HsdoExperiment ||--|o HsdoModel : "relation_HasAdditionalAllowedModelComponents"
+HsdoExperiment ||--|o HsdoExperiment : "relation_HasAdditionalAllowedModelComponents"
+HsdoExperiment ||--|o HsdoVariable : "relation_HasAdditionalAllowedModelComponents"
+HsdoExperiment ||--|o HsdoProvider : "relation_HasAdditionalAllowedModelComponents"
+HsdoExperiment ||--|o HsdoProject : "relation_HasActivityParticipation"
+HsdoExperiment ||--|o HsdoModel : "relation_HasActivityParticipation"
+HsdoExperiment ||--|o HsdoExperiment : "relation_HasActivityParticipation"
+HsdoExperiment ||--|o HsdoLocation : "relation_HasActivityParticipation"
+HsdoExperiment ||--|o HsdoActivity : "relation_HasActivityParticipation"
+HsdoExperiment ||--|o HsdoVariable : "relation_HasActivityParticipation"
+HsdoExperiment ||--|o HsdoProvider : "relation_HasActivityParticipation"
+HsdoExperiment ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoProject : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoModels : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoModel : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoExperiment ||--|o HsdoModel : "relation_HasParentExperiment"
+HsdoExperiment ||--|o HsdoProject : "relation_HasParentExperiment"
+HsdoExperiment ||--|o HsdoLocation : "relation_HasParentExperiment"
+HsdoExperiment ||--|o HsdoExperiment : "relation_HasParentExperiment"
+HsdoExperiment ||--|o HsdoVariable : "relation_HasParentExperiment"
+HsdoExperiment ||--|o HsdoProvider : "relation_HasParentExperiment"
+HsdoExperiment ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoExperiment ||--|o HsdoScienceKeyword : "relation_Outputs"
+HsdoExperiment ||--|o HsdoPlatform : "relation_Outputs"
+HsdoExperiment ||--|o HsdoSourceType : "relation_Outputs"
+HsdoExperiment ||--|o HsdoMeasurementName : "relation_Outputs"
+HsdoExperiment ||--|o HsdoProject : "relation_Outputs"
+HsdoExperiment ||--|o HsdoModel : "relation_Outputs"
+HsdoExperiment ||--|o HsdoDataFormat : "relation_Outputs"
+HsdoExperiment ||--|o HsdoRealm : "relation_Outputs"
+HsdoExperiment ||--|o HsdoDataset : "relation_Outputs"
+HsdoExperiment ||--|o HsdoLocation : "relation_Outputs"
+HsdoExperiment ||--|o HsdoExperiment : "relation_Outputs"
+HsdoExperiment ||--|o HsdoInstitution : "relation_Outputs"
+HsdoExperiment ||--|o HsdoActivity : "relation_Outputs"
+HsdoExperiment ||--|o HsdoInstrument : "relation_Outputs"
+HsdoExperiment ||--|o HsdoRelatedUrlContentType : "relation_Outputs"
+HsdoExperiment ||--|o HsdoModels : "relation_Outputs"
+HsdoExperiment ||--|o HsdoVariable : "relation_Outputs"
+HsdoExperiment ||--|o HsdoProvider : "relation_Outputs"
+HsdoExperiment ||--|o HsdoScienceKeyword : "relation_RunBy"
+HsdoExperiment ||--|o HsdoCmip6SourceId : "relation_RunBy"
+HsdoExperiment ||--|o HsdoPlatform : "relation_RunBy"
+HsdoExperiment ||--|o HsdoSourceType : "relation_RunBy"
+HsdoExperiment ||--|o HsdoMeasurementName : "relation_RunBy"
+HsdoExperiment ||--|o HsdoModel : "relation_RunBy"
+HsdoExperiment ||--|o HsdoProject : "relation_RunBy"
+HsdoExperiment ||--|o HsdoDataFormat : "relation_RunBy"
+HsdoExperiment ||--|o HsdoExperiment : "relation_RunBy"
+HsdoExperiment ||--|o HsdoLocation : "relation_RunBy"
+HsdoExperiment ||--|o HsdoInstitution : "relation_RunBy"
+HsdoExperiment ||--|o HsdoActivity : "relation_RunBy"
+HsdoExperiment ||--|o HsdoInstrument : "relation_RunBy"
+HsdoExperiment ||--|o HsdoChronostratigraphicUnit : "relation_RunBy"
+HsdoExperiment ||--|o HsdoModels : "relation_RunBy"
+HsdoExperiment ||--|o HsdoVariable : "relation_RunBy"
+HsdoExperiment ||--|o HsdoProvider : "relation_RunBy"
+HsdoExperiment ||--|o HsdoLicense : "relation_HasLicenseInfo"
+HsdoExperiment ||--|o HsdoProject : "relation_HasActivity"
+HsdoExperiment ||--|o HsdoModel : "relation_HasActivity"
+HsdoExperiment ||--|o HsdoExperiment : "relation_HasActivity"
+HsdoExperiment ||--|o HsdoLocation : "relation_HasActivity"
+HsdoExperiment ||--|o HsdoActivity : "relation_HasActivity"
+HsdoExperiment ||--|o HsdoVariable : "relation_HasActivity"
+HsdoExperiment ||--|o HsdoProvider : "relation_HasActivity"
+HsdoExperiment ||--|o HsdoProject : "relation_HasParentActivity"
+HsdoExperiment ||--|o HsdoModel : "relation_HasParentActivity"
+HsdoExperiment ||--|o HsdoExperiment : "relation_HasParentActivity"
+HsdoExperiment ||--|o HsdoActivity : "relation_HasParentActivity"
+HsdoExperiment ||--|o HsdoVariable : "relation_HasParentActivity"
+HsdoExperiment ||--|o HsdoProvider : "relation_HasParentActivity"
+HsdoExperiment ||--|o HsdoProject : "relation_HasProjectName"
+HsdoExperiment ||--|o HsdoProvider : "relation_HasProjectName"
+HsdoFrequency ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoFrequency ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoFrequency ||--|o HsdoMeasurementName : "skos_broader"
+HsdoFrequency ||--|o HsdoNominalResolution : "skos_broader"
+HsdoFrequency ||--|o HsdoProvider : "skos_broader"
+HsdoFrequency ||--|o HsdoPlatform : "skos_broader"
+HsdoFrequency ||--|o HsdoProject : "skos_broader"
+HsdoFrequency ||--|o SkosConcept : "skos_broader"
+HsdoFrequency ||--|o HsdoRealm : "skos_broader"
+HsdoFrequency ||--|o HsdoDataset : "skos_broader"
+HsdoFrequency ||--|o HsdoInstrument : "skos_broader"
+HsdoFrequency ||--|o HsdoModels : "skos_broader"
+HsdoFrequency ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoFrequency ||--|o HsdoRegion : "skos_broader"
+HsdoFrequency ||--|o HsdoDataFormat : "skos_broader"
+HsdoFrequency ||--|o HsdoMimeType : "skos_broader"
+HsdoFrequency ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoFrequency ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoFrequency ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoFrequency ||--|o HsdoSourceType : "skos_broader"
+HsdoFrequency ||--|o HsdoModel : "skos_broader"
+HsdoFrequency ||--|o HsdoLocation : "skos_broader"
+HsdoFrequency ||--|o HsdoExperiment : "skos_broader"
+HsdoFrequency ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoFrequency ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoFrequency ||--|o HsdoLicense : "skos_broader"
+HsdoFrequency ||--|o HsdoVariable : "skos_broader"
+HsdoGridLabel ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoGridLabel ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoGridLabel ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoGridLabel ||--|o HsdoMeasurementName : "skos_broader"
+HsdoGridLabel ||--|o HsdoNominalResolution : "skos_broader"
+HsdoGridLabel ||--|o HsdoProvider : "skos_broader"
+HsdoGridLabel ||--|o HsdoPlatform : "skos_broader"
+HsdoGridLabel ||--|o HsdoProject : "skos_broader"
+HsdoGridLabel ||--|o SkosConcept : "skos_broader"
+HsdoGridLabel ||--|o HsdoRealm : "skos_broader"
+HsdoGridLabel ||--|o HsdoDataset : "skos_broader"
+HsdoGridLabel ||--|o HsdoInstrument : "skos_broader"
+HsdoGridLabel ||--|o HsdoModels : "skos_broader"
+HsdoGridLabel ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoGridLabel ||--|o HsdoRegion : "skos_broader"
+HsdoGridLabel ||--|o HsdoDataFormat : "skos_broader"
+HsdoGridLabel ||--|o HsdoMimeType : "skos_broader"
+HsdoGridLabel ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoGridLabel ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoGridLabel ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoGridLabel ||--|o HsdoSourceType : "skos_broader"
+HsdoGridLabel ||--|o HsdoModel : "skos_broader"
+HsdoGridLabel ||--|o HsdoLocation : "skos_broader"
+HsdoGridLabel ||--|o HsdoExperiment : "skos_broader"
+HsdoGridLabel ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoGridLabel ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoGridLabel ||--|o HsdoLicense : "skos_broader"
+HsdoGridLabel ||--|o HsdoVariable : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoHorizontalResolutionRange ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoMeasurementName : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoNominalResolution : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoProvider : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoPlatform : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoProject : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o SkosConcept : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoRealm : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoDataset : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoInstrument : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoModels : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoRegion : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoDataFormat : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoMimeType : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoSourceType : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoModel : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoLocation : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoExperiment : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoLicense : "skos_broader"
+HsdoHorizontalResolutionRange ||--|o HsdoVariable : "skos_broader"
+HsdoInstitution ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoInstitution ||--|o HsdoScienceKeyword : "relation_ValidatedBy"
+HsdoInstitution ||--|o HsdoPlatform : "relation_ValidatedBy"
+HsdoInstitution ||--|o HsdoSourceType : "relation_ValidatedBy"
+HsdoInstitution ||--|o HsdoObs4MipsSourceId : "relation_ValidatedBy"
+HsdoInstitution ||--|o HsdoModel : "relation_ValidatedBy"
+HsdoInstitution ||--|o HsdoProject : "relation_ValidatedBy"
+HsdoInstitution ||--|o HsdoDataset : "relation_ValidatedBy"
+HsdoInstitution ||--|o HsdoExperiment : "relation_ValidatedBy"
+HsdoInstitution ||--|o HsdoLocation : "relation_ValidatedBy"
+HsdoInstitution ||--|o HsdoInstrument : "relation_ValidatedBy"
+HsdoInstitution ||--|o HsdoModels : "relation_ValidatedBy"
+HsdoInstitution ||--|o HsdoVariable : "relation_ValidatedBy"
+HsdoInstitution ||--|o HsdoProvider : "relation_ValidatedBy"
+HsdoInstitution ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoProject : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoModels : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoModel : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoInstitution ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoActivity : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoProvider : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoProject : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoRealm : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoDataset : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoModels : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoModel : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoLocation : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoVariable : "relation_UsedIn"
+HsdoInstitution ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoInstitution ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoInstitution ||--|o HsdoScienceKeyword : "relation_Outputs"
+HsdoInstitution ||--|o HsdoPlatform : "relation_Outputs"
+HsdoInstitution ||--|o HsdoSourceType : "relation_Outputs"
+HsdoInstitution ||--|o HsdoMeasurementName : "relation_Outputs"
+HsdoInstitution ||--|o HsdoProject : "relation_Outputs"
+HsdoInstitution ||--|o HsdoModel : "relation_Outputs"
+HsdoInstitution ||--|o HsdoDataFormat : "relation_Outputs"
+HsdoInstitution ||--|o HsdoRealm : "relation_Outputs"
+HsdoInstitution ||--|o HsdoDataset : "relation_Outputs"
+HsdoInstitution ||--|o HsdoLocation : "relation_Outputs"
+HsdoInstitution ||--|o HsdoExperiment : "relation_Outputs"
+HsdoInstitution ||--|o HsdoInstitution : "relation_Outputs"
+HsdoInstitution ||--|o HsdoActivity : "relation_Outputs"
+HsdoInstitution ||--|o HsdoInstrument : "relation_Outputs"
+HsdoInstitution ||--|o HsdoRelatedUrlContentType : "relation_Outputs"
+HsdoInstitution ||--|o HsdoModels : "relation_Outputs"
+HsdoInstitution ||--|o HsdoVariable : "relation_Outputs"
+HsdoInstitution ||--|o HsdoProvider : "relation_Outputs"
+HsdoInstitution ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoInstitution ||--|o HsdoMeasurementName : "skos_broader"
+HsdoInstitution ||--|o HsdoNominalResolution : "skos_broader"
+HsdoInstitution ||--|o HsdoProvider : "skos_broader"
+HsdoInstitution ||--|o HsdoPlatform : "skos_broader"
+HsdoInstitution ||--|o HsdoProject : "skos_broader"
+HsdoInstitution ||--|o SkosConcept : "skos_broader"
+HsdoInstitution ||--|o HsdoRealm : "skos_broader"
+HsdoInstitution ||--|o HsdoDataset : "skos_broader"
+HsdoInstitution ||--|o HsdoInstrument : "skos_broader"
+HsdoInstitution ||--|o HsdoModels : "skos_broader"
+HsdoInstitution ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoInstitution ||--|o HsdoRegion : "skos_broader"
+HsdoInstitution ||--|o HsdoDataFormat : "skos_broader"
+HsdoInstitution ||--|o HsdoMimeType : "skos_broader"
+HsdoInstitution ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoInstitution ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoInstitution ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoInstitution ||--|o HsdoSourceType : "skos_broader"
+HsdoInstitution ||--|o HsdoModel : "skos_broader"
+HsdoInstitution ||--|o HsdoLocation : "skos_broader"
+HsdoInstitution ||--|o HsdoExperiment : "skos_broader"
+HsdoInstitution ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoInstitution ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoInstitution ||--|o HsdoLicense : "skos_broader"
+HsdoInstitution ||--|o HsdoVariable : "skos_broader"
+HsdoInstrument ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoInstrument ||--|o HsdoScienceKeyword : "relation_RunBy"
+HsdoInstrument ||--|o HsdoCmip6SourceId : "relation_RunBy"
+HsdoInstrument ||--|o HsdoPlatform : "relation_RunBy"
+HsdoInstrument ||--|o HsdoSourceType : "relation_RunBy"
+HsdoInstrument ||--|o HsdoMeasurementName : "relation_RunBy"
+HsdoInstrument ||--|o HsdoModel : "relation_RunBy"
+HsdoInstrument ||--|o HsdoProject : "relation_RunBy"
+HsdoInstrument ||--|o HsdoDataFormat : "relation_RunBy"
+HsdoInstrument ||--|o HsdoExperiment : "relation_RunBy"
+HsdoInstrument ||--|o HsdoLocation : "relation_RunBy"
+HsdoInstrument ||--|o HsdoInstitution : "relation_RunBy"
+HsdoInstrument ||--|o HsdoActivity : "relation_RunBy"
+HsdoInstrument ||--|o HsdoInstrument : "relation_RunBy"
+HsdoInstrument ||--|o HsdoChronostratigraphicUnit : "relation_RunBy"
+HsdoInstrument ||--|o HsdoModels : "relation_RunBy"
+HsdoInstrument ||--|o HsdoVariable : "relation_RunBy"
+HsdoInstrument ||--|o HsdoProvider : "relation_RunBy"
+HsdoInstrument ||--|o HsdoScienceKeyword : "relation_ValidatedBy"
+HsdoInstrument ||--|o HsdoPlatform : "relation_ValidatedBy"
+HsdoInstrument ||--|o HsdoSourceType : "relation_ValidatedBy"
+HsdoInstrument ||--|o HsdoObs4MipsSourceId : "relation_ValidatedBy"
+HsdoInstrument ||--|o HsdoModel : "relation_ValidatedBy"
+HsdoInstrument ||--|o HsdoProject : "relation_ValidatedBy"
+HsdoInstrument ||--|o HsdoDataset : "relation_ValidatedBy"
+HsdoInstrument ||--|o HsdoExperiment : "relation_ValidatedBy"
+HsdoInstrument ||--|o HsdoLocation : "relation_ValidatedBy"
+HsdoInstrument ||--|o HsdoInstrument : "relation_ValidatedBy"
+HsdoInstrument ||--|o HsdoModels : "relation_ValidatedBy"
+HsdoInstrument ||--|o HsdoVariable : "relation_ValidatedBy"
+HsdoInstrument ||--|o HsdoProvider : "relation_ValidatedBy"
+HsdoInstrument ||--|o HsdoScienceKeyword : "relation_MountedOn"
+HsdoInstrument ||--|o HsdoPlatform : "relation_MountedOn"
+HsdoInstrument ||--|o HsdoMeasurementName : "relation_MountedOn"
+HsdoInstrument ||--|o HsdoProject : "relation_MountedOn"
+HsdoInstrument ||--|o HsdoModel : "relation_MountedOn"
+HsdoInstrument ||--|o HsdoRealm : "relation_MountedOn"
+HsdoInstrument ||--|o HsdoLocation : "relation_MountedOn"
+HsdoInstrument ||--|o HsdoExperiment : "relation_MountedOn"
+HsdoInstrument ||--|o HsdoInstitution : "relation_MountedOn"
+HsdoInstrument ||--|o HsdoInstrument : "relation_MountedOn"
+HsdoInstrument ||--|o HsdoModels : "relation_MountedOn"
+HsdoInstrument ||--|o HsdoVariable : "relation_MountedOn"
+HsdoInstrument ||--|o HsdoProvider : "relation_MountedOn"
+HsdoInstrument ||--|o HsdoSourceType : "relation_HasSourceType"
+HsdoInstrument ||--|o HsdoModel : "relation_HasSourceType"
+HsdoInstrument ||--|o HsdoExperiment : "relation_HasSourceType"
+HsdoInstrument ||--|o HsdoInstrument : "relation_HasSourceType"
+HsdoInstrument ||--|o HsdoVariable : "relation_HasSourceType"
+HsdoInstrument ||--|o HsdoProvider : "relation_HasSourceType"
+HsdoInstrument ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoProject : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoModels : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoModel : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoInstrument ||--|o HsdoModel : "relation_HasRegion"
+HsdoInstrument ||--|o HsdoProject : "relation_HasRegion"
+HsdoInstrument ||--|o HsdoLocation : "relation_HasRegion"
+HsdoInstrument ||--|o HsdoVariable : "relation_HasRegion"
+HsdoInstrument ||--|o HsdoRegion : "relation_HasRegion"
+HsdoInstrument ||--|o HsdoProvider : "relation_HasRegion"
+HsdoInstrument ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoActivity : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoProvider : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoProject : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoRealm : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoDataset : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoModels : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoModel : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoLocation : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoVariable : "relation_UsedIn"
+HsdoInstrument ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoInstrument ||--|o HsdoModel : "relation_HasInstitution"
+HsdoInstrument ||--|o HsdoInstitution : "relation_HasInstitution"
+HsdoInstrument ||--|o HsdoInstrument : "relation_HasInstitution"
+HsdoInstrument ||--|o HsdoVariable : "relation_HasInstitution"
+HsdoInstrument ||--|o HsdoProvider : "relation_HasInstitution"
+HsdoInstrument ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoInstrument ||--|o HsdoScienceKeyword : "relation_Outputs"
+HsdoInstrument ||--|o HsdoPlatform : "relation_Outputs"
+HsdoInstrument ||--|o HsdoSourceType : "relation_Outputs"
+HsdoInstrument ||--|o HsdoMeasurementName : "relation_Outputs"
+HsdoInstrument ||--|o HsdoProject : "relation_Outputs"
+HsdoInstrument ||--|o HsdoModel : "relation_Outputs"
+HsdoInstrument ||--|o HsdoDataFormat : "relation_Outputs"
+HsdoInstrument ||--|o HsdoRealm : "relation_Outputs"
+HsdoInstrument ||--|o HsdoDataset : "relation_Outputs"
+HsdoInstrument ||--|o HsdoLocation : "relation_Outputs"
+HsdoInstrument ||--|o HsdoExperiment : "relation_Outputs"
+HsdoInstrument ||--|o HsdoInstitution : "relation_Outputs"
+HsdoInstrument ||--|o HsdoActivity : "relation_Outputs"
+HsdoInstrument ||--|o HsdoInstrument : "relation_Outputs"
+HsdoInstrument ||--|o HsdoRelatedUrlContentType : "relation_Outputs"
+HsdoInstrument ||--|o HsdoModels : "relation_Outputs"
+HsdoInstrument ||--|o HsdoVariable : "relation_Outputs"
+HsdoInstrument ||--|o HsdoProvider : "relation_Outputs"
+HsdoInstrument ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoInstrument ||--|o HsdoMeasurementName : "skos_broader"
+HsdoInstrument ||--|o HsdoNominalResolution : "skos_broader"
+HsdoInstrument ||--|o HsdoProvider : "skos_broader"
+HsdoInstrument ||--|o HsdoPlatform : "skos_broader"
+HsdoInstrument ||--|o HsdoProject : "skos_broader"
+HsdoInstrument ||--|o SkosConcept : "skos_broader"
+HsdoInstrument ||--|o HsdoRealm : "skos_broader"
+HsdoInstrument ||--|o HsdoDataset : "skos_broader"
+HsdoInstrument ||--|o HsdoInstrument : "skos_broader"
+HsdoInstrument ||--|o HsdoModels : "skos_broader"
+HsdoInstrument ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoInstrument ||--|o HsdoRegion : "skos_broader"
+HsdoInstrument ||--|o HsdoDataFormat : "skos_broader"
+HsdoInstrument ||--|o HsdoMimeType : "skos_broader"
+HsdoInstrument ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoInstrument ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoInstrument ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoInstrument ||--|o HsdoSourceType : "skos_broader"
+HsdoInstrument ||--|o HsdoModel : "skos_broader"
+HsdoInstrument ||--|o HsdoLocation : "skos_broader"
+HsdoInstrument ||--|o HsdoExperiment : "skos_broader"
+HsdoInstrument ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoInstrument ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoInstrument ||--|o HsdoLicense : "skos_broader"
+HsdoInstrument ||--|o HsdoVariable : "skos_broader"
+HsdoInstrument ||--|o HsdoProject : "relation_HasProjectName"
+HsdoInstrument ||--|o HsdoProvider : "relation_HasProjectName"
+HsdoLicense ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoLicense ||--|o HsdoMeasurementName : "skos_broader"
+HsdoLicense ||--|o HsdoNominalResolution : "skos_broader"
+HsdoLicense ||--|o HsdoProvider : "skos_broader"
+HsdoLicense ||--|o HsdoPlatform : "skos_broader"
+HsdoLicense ||--|o HsdoProject : "skos_broader"
+HsdoLicense ||--|o SkosConcept : "skos_broader"
+HsdoLicense ||--|o HsdoRealm : "skos_broader"
+HsdoLicense ||--|o HsdoDataset : "skos_broader"
+HsdoLicense ||--|o HsdoInstrument : "skos_broader"
+HsdoLicense ||--|o HsdoModels : "skos_broader"
+HsdoLicense ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoLicense ||--|o HsdoRegion : "skos_broader"
+HsdoLicense ||--|o HsdoDataFormat : "skos_broader"
+HsdoLicense ||--|o HsdoMimeType : "skos_broader"
+HsdoLicense ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoLicense ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoLicense ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoLicense ||--|o HsdoSourceType : "skos_broader"
+HsdoLicense ||--|o HsdoModel : "skos_broader"
+HsdoLicense ||--|o HsdoLocation : "skos_broader"
+HsdoLicense ||--|o HsdoExperiment : "skos_broader"
+HsdoLicense ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoLicense ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoLicense ||--|o HsdoLicense : "skos_broader"
+HsdoLicense ||--|o HsdoVariable : "skos_broader"
+HsdoLocation ||--|o HsdoScienceKeyword : "relation_ValidatedBy"
+HsdoLocation ||--|o HsdoPlatform : "relation_ValidatedBy"
+HsdoLocation ||--|o HsdoSourceType : "relation_ValidatedBy"
+HsdoLocation ||--|o HsdoObs4MipsSourceId : "relation_ValidatedBy"
+HsdoLocation ||--|o HsdoModel : "relation_ValidatedBy"
+HsdoLocation ||--|o HsdoProject : "relation_ValidatedBy"
+HsdoLocation ||--|o HsdoDataset : "relation_ValidatedBy"
+HsdoLocation ||--|o HsdoExperiment : "relation_ValidatedBy"
+HsdoLocation ||--|o HsdoLocation : "relation_ValidatedBy"
+HsdoLocation ||--|o HsdoInstrument : "relation_ValidatedBy"
+HsdoLocation ||--|o HsdoModels : "relation_ValidatedBy"
+HsdoLocation ||--|o HsdoVariable : "relation_ValidatedBy"
+HsdoLocation ||--|o HsdoProvider : "relation_ValidatedBy"
+HsdoLocation ||--|o HsdoScienceKeyword : "relation_MountedOn"
+HsdoLocation ||--|o HsdoPlatform : "relation_MountedOn"
+HsdoLocation ||--|o HsdoMeasurementName : "relation_MountedOn"
+HsdoLocation ||--|o HsdoProject : "relation_MountedOn"
+HsdoLocation ||--|o HsdoModel : "relation_MountedOn"
+HsdoLocation ||--|o HsdoRealm : "relation_MountedOn"
+HsdoLocation ||--|o HsdoLocation : "relation_MountedOn"
+HsdoLocation ||--|o HsdoExperiment : "relation_MountedOn"
+HsdoLocation ||--|o HsdoInstitution : "relation_MountedOn"
+HsdoLocation ||--|o HsdoInstrument : "relation_MountedOn"
+HsdoLocation ||--|o HsdoModels : "relation_MountedOn"
+HsdoLocation ||--|o HsdoVariable : "relation_MountedOn"
+HsdoLocation ||--|o HsdoProvider : "relation_MountedOn"
+HsdoLocation ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoLocation ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoLocation ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoLocation ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoLocation ||--|o HsdoActivity : "relation_UsedIn"
+HsdoLocation ||--|o HsdoProvider : "relation_UsedIn"
+HsdoLocation ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoLocation ||--|o HsdoProject : "relation_UsedIn"
+HsdoLocation ||--|o HsdoRealm : "relation_UsedIn"
+HsdoLocation ||--|o HsdoDataset : "relation_UsedIn"
+HsdoLocation ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoLocation ||--|o HsdoModels : "relation_UsedIn"
+HsdoLocation ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoLocation ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoLocation ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoLocation ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoLocation ||--|o HsdoModel : "relation_UsedIn"
+HsdoLocation ||--|o HsdoLocation : "relation_UsedIn"
+HsdoLocation ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoLocation ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoLocation ||--|o HsdoVariable : "relation_UsedIn"
+HsdoLocation ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoLocation ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoLocation ||--|o HsdoMeasurementName : "skos_broader"
+HsdoLocation ||--|o HsdoNominalResolution : "skos_broader"
+HsdoLocation ||--|o HsdoProvider : "skos_broader"
+HsdoLocation ||--|o HsdoPlatform : "skos_broader"
+HsdoLocation ||--|o HsdoProject : "skos_broader"
+HsdoLocation ||--|o SkosConcept : "skos_broader"
+HsdoLocation ||--|o HsdoRealm : "skos_broader"
+HsdoLocation ||--|o HsdoDataset : "skos_broader"
+HsdoLocation ||--|o HsdoInstrument : "skos_broader"
+HsdoLocation ||--|o HsdoModels : "skos_broader"
+HsdoLocation ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoLocation ||--|o HsdoRegion : "skos_broader"
+HsdoLocation ||--|o HsdoDataFormat : "skos_broader"
+HsdoLocation ||--|o HsdoMimeType : "skos_broader"
+HsdoLocation ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoLocation ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoLocation ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoLocation ||--|o HsdoSourceType : "skos_broader"
+HsdoLocation ||--|o HsdoModel : "skos_broader"
+HsdoLocation ||--|o HsdoLocation : "skos_broader"
+HsdoLocation ||--|o HsdoExperiment : "skos_broader"
+HsdoLocation ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoLocation ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoLocation ||--|o HsdoLicense : "skos_broader"
+HsdoLocation ||--|o HsdoVariable : "skos_broader"
+HsdoLocation ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoLocation ||--|o HsdoSourceType : "relation_HasRequiredModelComponents"
+HsdoLocation ||--|o HsdoModel : "relation_HasRequiredModelComponents"
+HsdoLocation ||--|o HsdoLocation : "relation_HasRequiredModelComponents"
+HsdoLocation ||--|o HsdoExperiment : "relation_HasRequiredModelComponents"
+HsdoLocation ||--|o HsdoVariable : "relation_HasRequiredModelComponents"
+HsdoLocation ||--|o HsdoProvider : "relation_HasRequiredModelComponents"
+HsdoLocation ||--|o HsdoSourceType : "relation_HasAdditionalAllowedModelComponents"
+HsdoLocation ||--|o HsdoModel : "relation_HasAdditionalAllowedModelComponents"
+HsdoLocation ||--|o HsdoExperiment : "relation_HasAdditionalAllowedModelComponents"
+HsdoLocation ||--|o HsdoVariable : "relation_HasAdditionalAllowedModelComponents"
+HsdoLocation ||--|o HsdoProvider : "relation_HasAdditionalAllowedModelComponents"
+HsdoLocation ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoProject : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoModels : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoModel : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoLocation ||--|o HsdoModel : "relation_HasParentExperiment"
+HsdoLocation ||--|o HsdoProject : "relation_HasParentExperiment"
+HsdoLocation ||--|o HsdoLocation : "relation_HasParentExperiment"
+HsdoLocation ||--|o HsdoExperiment : "relation_HasParentExperiment"
+HsdoLocation ||--|o HsdoVariable : "relation_HasParentExperiment"
+HsdoLocation ||--|o HsdoProvider : "relation_HasParentExperiment"
+HsdoLocation ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoLocation ||--|o HsdoScienceKeyword : "relation_RunBy"
+HsdoLocation ||--|o HsdoCmip6SourceId : "relation_RunBy"
+HsdoLocation ||--|o HsdoPlatform : "relation_RunBy"
+HsdoLocation ||--|o HsdoSourceType : "relation_RunBy"
+HsdoLocation ||--|o HsdoMeasurementName : "relation_RunBy"
+HsdoLocation ||--|o HsdoModel : "relation_RunBy"
+HsdoLocation ||--|o HsdoProject : "relation_RunBy"
+HsdoLocation ||--|o HsdoDataFormat : "relation_RunBy"
+HsdoLocation ||--|o HsdoExperiment : "relation_RunBy"
+HsdoLocation ||--|o HsdoLocation : "relation_RunBy"
+HsdoLocation ||--|o HsdoInstitution : "relation_RunBy"
+HsdoLocation ||--|o HsdoActivity : "relation_RunBy"
+HsdoLocation ||--|o HsdoInstrument : "relation_RunBy"
+HsdoLocation ||--|o HsdoChronostratigraphicUnit : "relation_RunBy"
+HsdoLocation ||--|o HsdoModels : "relation_RunBy"
+HsdoLocation ||--|o HsdoVariable : "relation_RunBy"
+HsdoLocation ||--|o HsdoProvider : "relation_RunBy"
+HsdoLocation ||--|o HsdoScienceKeyword : "relation_Outputs"
+HsdoLocation ||--|o HsdoPlatform : "relation_Outputs"
+HsdoLocation ||--|o HsdoSourceType : "relation_Outputs"
+HsdoLocation ||--|o HsdoMeasurementName : "relation_Outputs"
+HsdoLocation ||--|o HsdoProject : "relation_Outputs"
+HsdoLocation ||--|o HsdoModel : "relation_Outputs"
+HsdoLocation ||--|o HsdoDataFormat : "relation_Outputs"
+HsdoLocation ||--|o HsdoRealm : "relation_Outputs"
+HsdoLocation ||--|o HsdoDataset : "relation_Outputs"
+HsdoLocation ||--|o HsdoLocation : "relation_Outputs"
+HsdoLocation ||--|o HsdoExperiment : "relation_Outputs"
+HsdoLocation ||--|o HsdoInstitution : "relation_Outputs"
+HsdoLocation ||--|o HsdoActivity : "relation_Outputs"
+HsdoLocation ||--|o HsdoInstrument : "relation_Outputs"
+HsdoLocation ||--|o HsdoRelatedUrlContentType : "relation_Outputs"
+HsdoLocation ||--|o HsdoModels : "relation_Outputs"
+HsdoLocation ||--|o HsdoVariable : "relation_Outputs"
+HsdoLocation ||--|o HsdoProvider : "relation_Outputs"
+HsdoLocation ||--|o HsdoProject : "relation_HasActivity"
+HsdoLocation ||--|o HsdoModel : "relation_HasActivity"
+HsdoLocation ||--|o HsdoExperiment : "relation_HasActivity"
+HsdoLocation ||--|o HsdoLocation : "relation_HasActivity"
+HsdoLocation ||--|o HsdoActivity : "relation_HasActivity"
+HsdoLocation ||--|o HsdoVariable : "relation_HasActivity"
+HsdoLocation ||--|o HsdoProvider : "relation_HasActivity"
+HsdoLocation ||--|o HsdoProject : "relation_HasParentActivity"
+HsdoLocation ||--|o HsdoModel : "relation_HasParentActivity"
+HsdoLocation ||--|o HsdoExperiment : "relation_HasParentActivity"
+HsdoLocation ||--|o HsdoActivity : "relation_HasParentActivity"
+HsdoLocation ||--|o HsdoVariable : "relation_HasParentActivity"
+HsdoLocation ||--|o HsdoProvider : "relation_HasParentActivity"
+HsdoLocation ||--|o HsdoProject : "relation_HasProjectName"
+HsdoLocation ||--|o HsdoProvider : "relation_HasProjectName"
+HsdoMeasurementName ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoMeasurementName ||--|o HsdoScienceKeyword : "relation_MountedOn"
+HsdoMeasurementName ||--|o HsdoPlatform : "relation_MountedOn"
+HsdoMeasurementName ||--|o HsdoMeasurementName : "relation_MountedOn"
+HsdoMeasurementName ||--|o HsdoProject : "relation_MountedOn"
+HsdoMeasurementName ||--|o HsdoModel : "relation_MountedOn"
+HsdoMeasurementName ||--|o HsdoRealm : "relation_MountedOn"
+HsdoMeasurementName ||--|o HsdoLocation : "relation_MountedOn"
+HsdoMeasurementName ||--|o HsdoExperiment : "relation_MountedOn"
+HsdoMeasurementName ||--|o HsdoInstitution : "relation_MountedOn"
+HsdoMeasurementName ||--|o HsdoInstrument : "relation_MountedOn"
+HsdoMeasurementName ||--|o HsdoModels : "relation_MountedOn"
+HsdoMeasurementName ||--|o HsdoVariable : "relation_MountedOn"
+HsdoMeasurementName ||--|o HsdoProvider : "relation_MountedOn"
+HsdoMeasurementName ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoMeasurementName ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoProject : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoModels : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoModel : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoMeasurementName ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoActivity : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoProvider : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoProject : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoRealm : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoDataset : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoModels : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoModel : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoLocation : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoVariable : "relation_UsedIn"
+HsdoMeasurementName ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoMeasurementName ||--|o HsdoScienceKeyword : "relation_RunBy"
+HsdoMeasurementName ||--|o HsdoCmip6SourceId : "relation_RunBy"
+HsdoMeasurementName ||--|o HsdoPlatform : "relation_RunBy"
+HsdoMeasurementName ||--|o HsdoSourceType : "relation_RunBy"
+HsdoMeasurementName ||--|o HsdoMeasurementName : "relation_RunBy"
+HsdoMeasurementName ||--|o HsdoModel : "relation_RunBy"
+HsdoMeasurementName ||--|o HsdoProject : "relation_RunBy"
+HsdoMeasurementName ||--|o HsdoDataFormat : "relation_RunBy"
+HsdoMeasurementName ||--|o HsdoExperiment : "relation_RunBy"
+HsdoMeasurementName ||--|o HsdoLocation : "relation_RunBy"
+HsdoMeasurementName ||--|o HsdoInstitution : "relation_RunBy"
+HsdoMeasurementName ||--|o HsdoActivity : "relation_RunBy"
+HsdoMeasurementName ||--|o HsdoInstrument : "relation_RunBy"
+HsdoMeasurementName ||--|o HsdoChronostratigraphicUnit : "relation_RunBy"
+HsdoMeasurementName ||--|o HsdoModels : "relation_RunBy"
+HsdoMeasurementName ||--|o HsdoVariable : "relation_RunBy"
+HsdoMeasurementName ||--|o HsdoProvider : "relation_RunBy"
+HsdoMeasurementName ||--|o HsdoScienceKeyword : "relation_Outputs"
+HsdoMeasurementName ||--|o HsdoPlatform : "relation_Outputs"
+HsdoMeasurementName ||--|o HsdoSourceType : "relation_Outputs"
+HsdoMeasurementName ||--|o HsdoMeasurementName : "relation_Outputs"
+HsdoMeasurementName ||--|o HsdoProject : "relation_Outputs"
+HsdoMeasurementName ||--|o HsdoModel : "relation_Outputs"
+HsdoMeasurementName ||--|o HsdoDataFormat : "relation_Outputs"
+HsdoMeasurementName ||--|o HsdoRealm : "relation_Outputs"
+HsdoMeasurementName ||--|o HsdoDataset : "relation_Outputs"
+HsdoMeasurementName ||--|o HsdoLocation : "relation_Outputs"
+HsdoMeasurementName ||--|o HsdoExperiment : "relation_Outputs"
+HsdoMeasurementName ||--|o HsdoInstitution : "relation_Outputs"
+HsdoMeasurementName ||--|o HsdoActivity : "relation_Outputs"
+HsdoMeasurementName ||--|o HsdoInstrument : "relation_Outputs"
+HsdoMeasurementName ||--|o HsdoRelatedUrlContentType : "relation_Outputs"
+HsdoMeasurementName ||--|o HsdoModels : "relation_Outputs"
+HsdoMeasurementName ||--|o HsdoVariable : "relation_Outputs"
+HsdoMeasurementName ||--|o HsdoProvider : "relation_Outputs"
+HsdoMeasurementName ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoMeasurementName ||--|o HsdoMeasurementName : "skos_broader"
+HsdoMeasurementName ||--|o HsdoNominalResolution : "skos_broader"
+HsdoMeasurementName ||--|o HsdoProvider : "skos_broader"
+HsdoMeasurementName ||--|o HsdoPlatform : "skos_broader"
+HsdoMeasurementName ||--|o HsdoProject : "skos_broader"
+HsdoMeasurementName ||--|o SkosConcept : "skos_broader"
+HsdoMeasurementName ||--|o HsdoRealm : "skos_broader"
+HsdoMeasurementName ||--|o HsdoDataset : "skos_broader"
+HsdoMeasurementName ||--|o HsdoInstrument : "skos_broader"
+HsdoMeasurementName ||--|o HsdoModels : "skos_broader"
+HsdoMeasurementName ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoMeasurementName ||--|o HsdoRegion : "skos_broader"
+HsdoMeasurementName ||--|o HsdoDataFormat : "skos_broader"
+HsdoMeasurementName ||--|o HsdoMimeType : "skos_broader"
+HsdoMeasurementName ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoMeasurementName ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoMeasurementName ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoMeasurementName ||--|o HsdoSourceType : "skos_broader"
+HsdoMeasurementName ||--|o HsdoModel : "skos_broader"
+HsdoMeasurementName ||--|o HsdoLocation : "skos_broader"
+HsdoMeasurementName ||--|o HsdoExperiment : "skos_broader"
+HsdoMeasurementName ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoMeasurementName ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoMeasurementName ||--|o HsdoLicense : "skos_broader"
+HsdoMeasurementName ||--|o HsdoVariable : "skos_broader"
+HsdoMimeType ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoMimeType ||--|o HsdoMeasurementName : "skos_broader"
+HsdoMimeType ||--|o HsdoNominalResolution : "skos_broader"
+HsdoMimeType ||--|o HsdoProvider : "skos_broader"
+HsdoMimeType ||--|o HsdoPlatform : "skos_broader"
+HsdoMimeType ||--|o HsdoProject : "skos_broader"
+HsdoMimeType ||--|o SkosConcept : "skos_broader"
+HsdoMimeType ||--|o HsdoRealm : "skos_broader"
+HsdoMimeType ||--|o HsdoDataset : "skos_broader"
+HsdoMimeType ||--|o HsdoInstrument : "skos_broader"
+HsdoMimeType ||--|o HsdoModels : "skos_broader"
+HsdoMimeType ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoMimeType ||--|o HsdoRegion : "skos_broader"
+HsdoMimeType ||--|o HsdoDataFormat : "skos_broader"
+HsdoMimeType ||--|o HsdoMimeType : "skos_broader"
+HsdoMimeType ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoMimeType ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoMimeType ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoMimeType ||--|o HsdoSourceType : "skos_broader"
+HsdoMimeType ||--|o HsdoModel : "skos_broader"
+HsdoMimeType ||--|o HsdoLocation : "skos_broader"
+HsdoMimeType ||--|o HsdoExperiment : "skos_broader"
+HsdoMimeType ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoMimeType ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoMimeType ||--|o HsdoLicense : "skos_broader"
+HsdoMimeType ||--|o HsdoVariable : "skos_broader"
+HsdoModel ||--|o HsdoScienceKeyword : "relation_ValidatedBy"
+HsdoModel ||--|o HsdoPlatform : "relation_ValidatedBy"
+HsdoModel ||--|o HsdoSourceType : "relation_ValidatedBy"
+HsdoModel ||--|o HsdoObs4MipsSourceId : "relation_ValidatedBy"
+HsdoModel ||--|o HsdoModel : "relation_ValidatedBy"
+HsdoModel ||--|o HsdoProject : "relation_ValidatedBy"
+HsdoModel ||--|o HsdoDataset : "relation_ValidatedBy"
+HsdoModel ||--|o HsdoExperiment : "relation_ValidatedBy"
+HsdoModel ||--|o HsdoLocation : "relation_ValidatedBy"
+HsdoModel ||--|o HsdoInstrument : "relation_ValidatedBy"
+HsdoModel ||--|o HsdoModels : "relation_ValidatedBy"
+HsdoModel ||--|o HsdoVariable : "relation_ValidatedBy"
+HsdoModel ||--|o HsdoProvider : "relation_ValidatedBy"
+HsdoModel ||--|o HsdoScienceKeyword : "relation_MountedOn"
+HsdoModel ||--|o HsdoPlatform : "relation_MountedOn"
+HsdoModel ||--|o HsdoMeasurementName : "relation_MountedOn"
+HsdoModel ||--|o HsdoProject : "relation_MountedOn"
+HsdoModel ||--|o HsdoModel : "relation_MountedOn"
+HsdoModel ||--|o HsdoRealm : "relation_MountedOn"
+HsdoModel ||--|o HsdoLocation : "relation_MountedOn"
+HsdoModel ||--|o HsdoExperiment : "relation_MountedOn"
+HsdoModel ||--|o HsdoInstitution : "relation_MountedOn"
+HsdoModel ||--|o HsdoInstrument : "relation_MountedOn"
+HsdoModel ||--|o HsdoModels : "relation_MountedOn"
+HsdoModel ||--|o HsdoVariable : "relation_MountedOn"
+HsdoModel ||--|o HsdoProvider : "relation_MountedOn"
+HsdoModel ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoModel ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoModel ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoModel ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoModel ||--|o HsdoActivity : "relation_UsedIn"
+HsdoModel ||--|o HsdoProvider : "relation_UsedIn"
+HsdoModel ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoModel ||--|o HsdoProject : "relation_UsedIn"
+HsdoModel ||--|o HsdoRealm : "relation_UsedIn"
+HsdoModel ||--|o HsdoDataset : "relation_UsedIn"
+HsdoModel ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoModel ||--|o HsdoModels : "relation_UsedIn"
+HsdoModel ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoModel ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoModel ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoModel ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoModel ||--|o HsdoModel : "relation_UsedIn"
+HsdoModel ||--|o HsdoLocation : "relation_UsedIn"
+HsdoModel ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoModel ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoModel ||--|o HsdoVariable : "relation_UsedIn"
+HsdoModel ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoModel ||--|o HsdoModel : "relation_HasInstitution"
+HsdoModel ||--|o HsdoInstitution : "relation_HasInstitution"
+HsdoModel ||--|o HsdoInstrument : "relation_HasInstitution"
+HsdoModel ||--|o HsdoVariable : "relation_HasInstitution"
+HsdoModel ||--|o HsdoProvider : "relation_HasInstitution"
+HsdoModel ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoModel ||--|o HsdoMeasurementName : "skos_broader"
+HsdoModel ||--|o HsdoNominalResolution : "skos_broader"
+HsdoModel ||--|o HsdoProvider : "skos_broader"
+HsdoModel ||--|o HsdoPlatform : "skos_broader"
+HsdoModel ||--|o HsdoProject : "skos_broader"
+HsdoModel ||--|o SkosConcept : "skos_broader"
+HsdoModel ||--|o HsdoRealm : "skos_broader"
+HsdoModel ||--|o HsdoDataset : "skos_broader"
+HsdoModel ||--|o HsdoInstrument : "skos_broader"
+HsdoModel ||--|o HsdoModels : "skos_broader"
+HsdoModel ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoModel ||--|o HsdoRegion : "skos_broader"
+HsdoModel ||--|o HsdoDataFormat : "skos_broader"
+HsdoModel ||--|o HsdoMimeType : "skos_broader"
+HsdoModel ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoModel ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoModel ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoModel ||--|o HsdoSourceType : "skos_broader"
+HsdoModel ||--|o HsdoModel : "skos_broader"
+HsdoModel ||--|o HsdoLocation : "skos_broader"
+HsdoModel ||--|o HsdoExperiment : "skos_broader"
+HsdoModel ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoModel ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoModel ||--|o HsdoLicense : "skos_broader"
+HsdoModel ||--|o HsdoVariable : "skos_broader"
+HsdoModel ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoModel ||--|o HsdoSourceType : "relation_HasRequiredModelComponents"
+HsdoModel ||--|o HsdoModel : "relation_HasRequiredModelComponents"
+HsdoModel ||--|o HsdoLocation : "relation_HasRequiredModelComponents"
+HsdoModel ||--|o HsdoExperiment : "relation_HasRequiredModelComponents"
+HsdoModel ||--|o HsdoVariable : "relation_HasRequiredModelComponents"
+HsdoModel ||--|o HsdoProvider : "relation_HasRequiredModelComponents"
+HsdoModel ||--|o HsdoSourceType : "relation_HasAdditionalAllowedModelComponents"
+HsdoModel ||--|o HsdoModel : "relation_HasAdditionalAllowedModelComponents"
+HsdoModel ||--|o HsdoExperiment : "relation_HasAdditionalAllowedModelComponents"
+HsdoModel ||--|o HsdoVariable : "relation_HasAdditionalAllowedModelComponents"
+HsdoModel ||--|o HsdoProvider : "relation_HasAdditionalAllowedModelComponents"
+HsdoModel ||--|o HsdoSourceType : "relation_HasSourceType"
+HsdoModel ||--|o HsdoModel : "relation_HasSourceType"
+HsdoModel ||--|o HsdoExperiment : "relation_HasSourceType"
+HsdoModel ||--|o HsdoInstrument : "relation_HasSourceType"
+HsdoModel ||--|o HsdoVariable : "relation_HasSourceType"
+HsdoModel ||--|o HsdoProvider : "relation_HasSourceType"
+HsdoModel ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoModel ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoModel ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoModel ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoModel ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoModel ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoModel ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoModel ||--|o HsdoProject : "relation_ComparedTo"
+HsdoModel ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoModel ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoModel ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoModel ||--|o HsdoModels : "relation_ComparedTo"
+HsdoModel ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoModel ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoModel ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoModel ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoModel ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoModel ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoModel ||--|o HsdoModel : "relation_ComparedTo"
+HsdoModel ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoModel ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoModel ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoModel ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoModel ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoModel ||--|o HsdoModel : "relation_HasRegion"
+HsdoModel ||--|o HsdoProject : "relation_HasRegion"
+HsdoModel ||--|o HsdoLocation : "relation_HasRegion"
+HsdoModel ||--|o HsdoVariable : "relation_HasRegion"
+HsdoModel ||--|o HsdoRegion : "relation_HasRegion"
+HsdoModel ||--|o HsdoProvider : "relation_HasRegion"
+HsdoModel ||--|o HsdoModel : "relation_HasParentExperiment"
+HsdoModel ||--|o HsdoProject : "relation_HasParentExperiment"
+HsdoModel ||--|o HsdoLocation : "relation_HasParentExperiment"
+HsdoModel ||--|o HsdoExperiment : "relation_HasParentExperiment"
+HsdoModel ||--|o HsdoVariable : "relation_HasParentExperiment"
+HsdoModel ||--|o HsdoProvider : "relation_HasParentExperiment"
+HsdoModel ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoModel ||--|o HsdoScienceKeyword : "relation_RunBy"
+HsdoModel ||--|o HsdoCmip6SourceId : "relation_RunBy"
+HsdoModel ||--|o HsdoPlatform : "relation_RunBy"
+HsdoModel ||--|o HsdoSourceType : "relation_RunBy"
+HsdoModel ||--|o HsdoMeasurementName : "relation_RunBy"
+HsdoModel ||--|o HsdoModel : "relation_RunBy"
+HsdoModel ||--|o HsdoProject : "relation_RunBy"
+HsdoModel ||--|o HsdoDataFormat : "relation_RunBy"
+HsdoModel ||--|o HsdoExperiment : "relation_RunBy"
+HsdoModel ||--|o HsdoLocation : "relation_RunBy"
+HsdoModel ||--|o HsdoInstitution : "relation_RunBy"
+HsdoModel ||--|o HsdoActivity : "relation_RunBy"
+HsdoModel ||--|o HsdoInstrument : "relation_RunBy"
+HsdoModel ||--|o HsdoChronostratigraphicUnit : "relation_RunBy"
+HsdoModel ||--|o HsdoModels : "relation_RunBy"
+HsdoModel ||--|o HsdoVariable : "relation_RunBy"
+HsdoModel ||--|o HsdoProvider : "relation_RunBy"
+HsdoModel ||--|o HsdoScienceKeyword : "relation_Outputs"
+HsdoModel ||--|o HsdoPlatform : "relation_Outputs"
+HsdoModel ||--|o HsdoSourceType : "relation_Outputs"
+HsdoModel ||--|o HsdoMeasurementName : "relation_Outputs"
+HsdoModel ||--|o HsdoProject : "relation_Outputs"
+HsdoModel ||--|o HsdoModel : "relation_Outputs"
+HsdoModel ||--|o HsdoDataFormat : "relation_Outputs"
+HsdoModel ||--|o HsdoRealm : "relation_Outputs"
+HsdoModel ||--|o HsdoDataset : "relation_Outputs"
+HsdoModel ||--|o HsdoLocation : "relation_Outputs"
+HsdoModel ||--|o HsdoExperiment : "relation_Outputs"
+HsdoModel ||--|o HsdoInstitution : "relation_Outputs"
+HsdoModel ||--|o HsdoActivity : "relation_Outputs"
+HsdoModel ||--|o HsdoInstrument : "relation_Outputs"
+HsdoModel ||--|o HsdoRelatedUrlContentType : "relation_Outputs"
+HsdoModel ||--|o HsdoModels : "relation_Outputs"
+HsdoModel ||--|o HsdoVariable : "relation_Outputs"
+HsdoModel ||--|o HsdoProvider : "relation_Outputs"
+HsdoModel ||--|o HsdoProject : "relation_HasActivity"
+HsdoModel ||--|o HsdoModel : "relation_HasActivity"
+HsdoModel ||--|o HsdoExperiment : "relation_HasActivity"
+HsdoModel ||--|o HsdoLocation : "relation_HasActivity"
+HsdoModel ||--|o HsdoActivity : "relation_HasActivity"
+HsdoModel ||--|o HsdoVariable : "relation_HasActivity"
+HsdoModel ||--|o HsdoProvider : "relation_HasActivity"
+HsdoModel ||--|o HsdoProject : "relation_HasParentActivity"
+HsdoModel ||--|o HsdoModel : "relation_HasParentActivity"
+HsdoModel ||--|o HsdoExperiment : "relation_HasParentActivity"
+HsdoModel ||--|o HsdoActivity : "relation_HasParentActivity"
+HsdoModel ||--|o HsdoVariable : "relation_HasParentActivity"
+HsdoModel ||--|o HsdoProvider : "relation_HasParentActivity"
+HsdoModel ||--|o HsdoProject : "relation_HasProjectName"
+HsdoModel ||--|o HsdoProvider : "relation_HasProjectName"
+HsdoModels ||--|o HsdoModel : "relation_HasModelComponent"
+HsdoModels ||--|o HsdoRealm : "relation_HasModelComponent"
+HsdoModels ||--|o HsdoLocation : "relation_HasModelComponent"
+HsdoModels ||--|o HsdoExperiment : "relation_HasModelComponent"
+HsdoModels ||--|o HsdoVariable : "relation_HasModelComponent"
+HsdoModels ||--|o HsdoProvider : "relation_HasModelComponent"
+HsdoModels ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoModels ||--|o HsdoLicense : "relation_HasLicenseInfo"
+HsdoModels ||--|o HsdoScienceKeyword : "relation_ValidatedBy"
+HsdoModels ||--|o HsdoPlatform : "relation_ValidatedBy"
+HsdoModels ||--|o HsdoSourceType : "relation_ValidatedBy"
+HsdoModels ||--|o HsdoObs4MipsSourceId : "relation_ValidatedBy"
+HsdoModels ||--|o HsdoModel : "relation_ValidatedBy"
+HsdoModels ||--|o HsdoProject : "relation_ValidatedBy"
+HsdoModels ||--|o HsdoDataset : "relation_ValidatedBy"
+HsdoModels ||--|o HsdoExperiment : "relation_ValidatedBy"
+HsdoModels ||--|o HsdoLocation : "relation_ValidatedBy"
+HsdoModels ||--|o HsdoInstrument : "relation_ValidatedBy"
+HsdoModels ||--|o HsdoModels : "relation_ValidatedBy"
+HsdoModels ||--|o HsdoVariable : "relation_ValidatedBy"
+HsdoModels ||--|o HsdoProvider : "relation_ValidatedBy"
+HsdoModels ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoModels ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoModels ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoModels ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoModels ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoModels ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoModels ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoModels ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoModels ||--|o HsdoProject : "relation_ComparedTo"
+HsdoModels ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoModels ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoModels ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoModels ||--|o HsdoModels : "relation_ComparedTo"
+HsdoModels ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoModels ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoModels ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoModels ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoModels ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoModels ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoModels ||--|o HsdoModel : "relation_ComparedTo"
+HsdoModels ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoModels ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoModels ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoModels ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoModels ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoModels ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoModels ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoModels ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoModels ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoModels ||--|o HsdoActivity : "relation_UsedIn"
+HsdoModels ||--|o HsdoProvider : "relation_UsedIn"
+HsdoModels ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoModels ||--|o HsdoProject : "relation_UsedIn"
+HsdoModels ||--|o HsdoRealm : "relation_UsedIn"
+HsdoModels ||--|o HsdoDataset : "relation_UsedIn"
+HsdoModels ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoModels ||--|o HsdoModels : "relation_UsedIn"
+HsdoModels ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoModels ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoModels ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoModels ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoModels ||--|o HsdoModel : "relation_UsedIn"
+HsdoModels ||--|o HsdoLocation : "relation_UsedIn"
+HsdoModels ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoModels ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoModels ||--|o HsdoVariable : "relation_UsedIn"
+HsdoModels ||--|o HsdoProject : "relation_HasActivityParticipation"
+HsdoModels ||--|o HsdoModel : "relation_HasActivityParticipation"
+HsdoModels ||--|o HsdoExperiment : "relation_HasActivityParticipation"
+HsdoModels ||--|o HsdoLocation : "relation_HasActivityParticipation"
+HsdoModels ||--|o HsdoActivity : "relation_HasActivityParticipation"
+HsdoModels ||--|o HsdoVariable : "relation_HasActivityParticipation"
+HsdoModels ||--|o HsdoProvider : "relation_HasActivityParticipation"
+HsdoModels ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoModels ||--|o HsdoModel : "relation_HasInstitution"
+HsdoModels ||--|o HsdoInstitution : "relation_HasInstitution"
+HsdoModels ||--|o HsdoInstrument : "relation_HasInstitution"
+HsdoModels ||--|o HsdoVariable : "relation_HasInstitution"
+HsdoModels ||--|o HsdoProvider : "relation_HasInstitution"
+HsdoModels ||--|o HsdoScienceKeyword : "relation_RunBy"
+HsdoModels ||--|o HsdoCmip6SourceId : "relation_RunBy"
+HsdoModels ||--|o HsdoPlatform : "relation_RunBy"
+HsdoModels ||--|o HsdoSourceType : "relation_RunBy"
+HsdoModels ||--|o HsdoMeasurementName : "relation_RunBy"
+HsdoModels ||--|o HsdoModel : "relation_RunBy"
+HsdoModels ||--|o HsdoProject : "relation_RunBy"
+HsdoModels ||--|o HsdoDataFormat : "relation_RunBy"
+HsdoModels ||--|o HsdoExperiment : "relation_RunBy"
+HsdoModels ||--|o HsdoLocation : "relation_RunBy"
+HsdoModels ||--|o HsdoInstitution : "relation_RunBy"
+HsdoModels ||--|o HsdoActivity : "relation_RunBy"
+HsdoModels ||--|o HsdoInstrument : "relation_RunBy"
+HsdoModels ||--|o HsdoChronostratigraphicUnit : "relation_RunBy"
+HsdoModels ||--|o HsdoModels : "relation_RunBy"
+HsdoModels ||--|o HsdoVariable : "relation_RunBy"
+HsdoModels ||--|o HsdoProvider : "relation_RunBy"
+HsdoModels ||--|o HsdoScienceKeyword : "relation_Outputs"
+HsdoModels ||--|o HsdoPlatform : "relation_Outputs"
+HsdoModels ||--|o HsdoSourceType : "relation_Outputs"
+HsdoModels ||--|o HsdoMeasurementName : "relation_Outputs"
+HsdoModels ||--|o HsdoProject : "relation_Outputs"
+HsdoModels ||--|o HsdoModel : "relation_Outputs"
+HsdoModels ||--|o HsdoDataFormat : "relation_Outputs"
+HsdoModels ||--|o HsdoRealm : "relation_Outputs"
+HsdoModels ||--|o HsdoDataset : "relation_Outputs"
+HsdoModels ||--|o HsdoLocation : "relation_Outputs"
+HsdoModels ||--|o HsdoExperiment : "relation_Outputs"
+HsdoModels ||--|o HsdoInstitution : "relation_Outputs"
+HsdoModels ||--|o HsdoActivity : "relation_Outputs"
+HsdoModels ||--|o HsdoInstrument : "relation_Outputs"
+HsdoModels ||--|o HsdoRelatedUrlContentType : "relation_Outputs"
+HsdoModels ||--|o HsdoModels : "relation_Outputs"
+HsdoModels ||--|o HsdoVariable : "relation_Outputs"
+HsdoModels ||--|o HsdoProvider : "relation_Outputs"
+HsdoModels ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoModels ||--|o HsdoMeasurementName : "skos_broader"
+HsdoModels ||--|o HsdoNominalResolution : "skos_broader"
+HsdoModels ||--|o HsdoProvider : "skos_broader"
+HsdoModels ||--|o HsdoPlatform : "skos_broader"
+HsdoModels ||--|o HsdoProject : "skos_broader"
+HsdoModels ||--|o SkosConcept : "skos_broader"
+HsdoModels ||--|o HsdoRealm : "skos_broader"
+HsdoModels ||--|o HsdoDataset : "skos_broader"
+HsdoModels ||--|o HsdoInstrument : "skos_broader"
+HsdoModels ||--|o HsdoModels : "skos_broader"
+HsdoModels ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoModels ||--|o HsdoRegion : "skos_broader"
+HsdoModels ||--|o HsdoDataFormat : "skos_broader"
+HsdoModels ||--|o HsdoMimeType : "skos_broader"
+HsdoModels ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoModels ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoModels ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoModels ||--|o HsdoSourceType : "skos_broader"
+HsdoModels ||--|o HsdoModel : "skos_broader"
+HsdoModels ||--|o HsdoLocation : "skos_broader"
+HsdoModels ||--|o HsdoExperiment : "skos_broader"
+HsdoModels ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoModels ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoModels ||--|o HsdoLicense : "skos_broader"
+HsdoModels ||--|o HsdoVariable : "skos_broader"
+HsdoModels ||--|o HsdoProject : "relation_HasProjectName"
+HsdoModels ||--|o HsdoProvider : "relation_HasProjectName"
+HsdoNominalResolution ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoNominalResolution ||--|o HsdoMeasurementName : "skos_broader"
+HsdoNominalResolution ||--|o HsdoNominalResolution : "skos_broader"
+HsdoNominalResolution ||--|o HsdoProvider : "skos_broader"
+HsdoNominalResolution ||--|o HsdoPlatform : "skos_broader"
+HsdoNominalResolution ||--|o HsdoProject : "skos_broader"
+HsdoNominalResolution ||--|o SkosConcept : "skos_broader"
+HsdoNominalResolution ||--|o HsdoRealm : "skos_broader"
+HsdoNominalResolution ||--|o HsdoDataset : "skos_broader"
+HsdoNominalResolution ||--|o HsdoInstrument : "skos_broader"
+HsdoNominalResolution ||--|o HsdoModels : "skos_broader"
+HsdoNominalResolution ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoNominalResolution ||--|o HsdoRegion : "skos_broader"
+HsdoNominalResolution ||--|o HsdoDataFormat : "skos_broader"
+HsdoNominalResolution ||--|o HsdoMimeType : "skos_broader"
+HsdoNominalResolution ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoNominalResolution ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoNominalResolution ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoNominalResolution ||--|o HsdoSourceType : "skos_broader"
+HsdoNominalResolution ||--|o HsdoModel : "skos_broader"
+HsdoNominalResolution ||--|o HsdoLocation : "skos_broader"
+HsdoNominalResolution ||--|o HsdoExperiment : "skos_broader"
+HsdoNominalResolution ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoNominalResolution ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoNominalResolution ||--|o HsdoLicense : "skos_broader"
+HsdoNominalResolution ||--|o HsdoVariable : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoObs4MipsSourceId ||--|o HsdoSourceType : "relation_HasSourceType"
+HsdoObs4MipsSourceId ||--|o HsdoModel : "relation_HasSourceType"
+HsdoObs4MipsSourceId ||--|o HsdoExperiment : "relation_HasSourceType"
+HsdoObs4MipsSourceId ||--|o HsdoInstrument : "relation_HasSourceType"
+HsdoObs4MipsSourceId ||--|o HsdoVariable : "relation_HasSourceType"
+HsdoObs4MipsSourceId ||--|o HsdoProvider : "relation_HasSourceType"
+HsdoObs4MipsSourceId ||--|o HsdoModel : "relation_HasRegion"
+HsdoObs4MipsSourceId ||--|o HsdoProject : "relation_HasRegion"
+HsdoObs4MipsSourceId ||--|o HsdoLocation : "relation_HasRegion"
+HsdoObs4MipsSourceId ||--|o HsdoVariable : "relation_HasRegion"
+HsdoObs4MipsSourceId ||--|o HsdoRegion : "relation_HasRegion"
+HsdoObs4MipsSourceId ||--|o HsdoProvider : "relation_HasRegion"
+HsdoObs4MipsSourceId ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoProject : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoModels : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoModel : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoObs4MipsSourceId ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoObs4MipsSourceId ||--|o HsdoModel : "relation_HasInstitution"
+HsdoObs4MipsSourceId ||--|o HsdoInstitution : "relation_HasInstitution"
+HsdoObs4MipsSourceId ||--|o HsdoInstrument : "relation_HasInstitution"
+HsdoObs4MipsSourceId ||--|o HsdoVariable : "relation_HasInstitution"
+HsdoObs4MipsSourceId ||--|o HsdoProvider : "relation_HasInstitution"
+HsdoObs4MipsSourceId ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoObs4MipsSourceId ||--|o HsdoScienceKeyword : "relation_Outputs"
+HsdoObs4MipsSourceId ||--|o HsdoPlatform : "relation_Outputs"
+HsdoObs4MipsSourceId ||--|o HsdoSourceType : "relation_Outputs"
+HsdoObs4MipsSourceId ||--|o HsdoMeasurementName : "relation_Outputs"
+HsdoObs4MipsSourceId ||--|o HsdoProject : "relation_Outputs"
+HsdoObs4MipsSourceId ||--|o HsdoModel : "relation_Outputs"
+HsdoObs4MipsSourceId ||--|o HsdoDataFormat : "relation_Outputs"
+HsdoObs4MipsSourceId ||--|o HsdoRealm : "relation_Outputs"
+HsdoObs4MipsSourceId ||--|o HsdoDataset : "relation_Outputs"
+HsdoObs4MipsSourceId ||--|o HsdoLocation : "relation_Outputs"
+HsdoObs4MipsSourceId ||--|o HsdoExperiment : "relation_Outputs"
+HsdoObs4MipsSourceId ||--|o HsdoInstitution : "relation_Outputs"
+HsdoObs4MipsSourceId ||--|o HsdoActivity : "relation_Outputs"
+HsdoObs4MipsSourceId ||--|o HsdoInstrument : "relation_Outputs"
+HsdoObs4MipsSourceId ||--|o HsdoRelatedUrlContentType : "relation_Outputs"
+HsdoObs4MipsSourceId ||--|o HsdoModels : "relation_Outputs"
+HsdoObs4MipsSourceId ||--|o HsdoVariable : "relation_Outputs"
+HsdoObs4MipsSourceId ||--|o HsdoProvider : "relation_Outputs"
+HsdoObs4MipsSourceId ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoMeasurementName : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoNominalResolution : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoProvider : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoPlatform : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoProject : "skos_broader"
+HsdoObs4MipsSourceId ||--|o SkosConcept : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoRealm : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoDataset : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoInstrument : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoModels : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoRegion : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoDataFormat : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoMimeType : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoSourceType : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoModel : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoLocation : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoExperiment : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoLicense : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoVariable : "skos_broader"
+HsdoObs4MipsSourceId ||--|o HsdoProject : "relation_HasProjectName"
+HsdoObs4MipsSourceId ||--|o HsdoProvider : "relation_HasProjectName"
+HsdoPlatform ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoPlatform ||--|o HsdoScienceKeyword : "relation_RunBy"
+HsdoPlatform ||--|o HsdoCmip6SourceId : "relation_RunBy"
+HsdoPlatform ||--|o HsdoPlatform : "relation_RunBy"
+HsdoPlatform ||--|o HsdoSourceType : "relation_RunBy"
+HsdoPlatform ||--|o HsdoMeasurementName : "relation_RunBy"
+HsdoPlatform ||--|o HsdoModel : "relation_RunBy"
+HsdoPlatform ||--|o HsdoProject : "relation_RunBy"
+HsdoPlatform ||--|o HsdoDataFormat : "relation_RunBy"
+HsdoPlatform ||--|o HsdoExperiment : "relation_RunBy"
+HsdoPlatform ||--|o HsdoLocation : "relation_RunBy"
+HsdoPlatform ||--|o HsdoInstitution : "relation_RunBy"
+HsdoPlatform ||--|o HsdoActivity : "relation_RunBy"
+HsdoPlatform ||--|o HsdoInstrument : "relation_RunBy"
+HsdoPlatform ||--|o HsdoChronostratigraphicUnit : "relation_RunBy"
+HsdoPlatform ||--|o HsdoModels : "relation_RunBy"
+HsdoPlatform ||--|o HsdoVariable : "relation_RunBy"
+HsdoPlatform ||--|o HsdoProvider : "relation_RunBy"
+HsdoPlatform ||--|o HsdoScienceKeyword : "relation_ValidatedBy"
+HsdoPlatform ||--|o HsdoPlatform : "relation_ValidatedBy"
+HsdoPlatform ||--|o HsdoSourceType : "relation_ValidatedBy"
+HsdoPlatform ||--|o HsdoObs4MipsSourceId : "relation_ValidatedBy"
+HsdoPlatform ||--|o HsdoModel : "relation_ValidatedBy"
+HsdoPlatform ||--|o HsdoProject : "relation_ValidatedBy"
+HsdoPlatform ||--|o HsdoDataset : "relation_ValidatedBy"
+HsdoPlatform ||--|o HsdoExperiment : "relation_ValidatedBy"
+HsdoPlatform ||--|o HsdoLocation : "relation_ValidatedBy"
+HsdoPlatform ||--|o HsdoInstrument : "relation_ValidatedBy"
+HsdoPlatform ||--|o HsdoModels : "relation_ValidatedBy"
+HsdoPlatform ||--|o HsdoVariable : "relation_ValidatedBy"
+HsdoPlatform ||--|o HsdoProvider : "relation_ValidatedBy"
+HsdoPlatform ||--|o HsdoScienceKeyword : "relation_MountedOn"
+HsdoPlatform ||--|o HsdoPlatform : "relation_MountedOn"
+HsdoPlatform ||--|o HsdoMeasurementName : "relation_MountedOn"
+HsdoPlatform ||--|o HsdoProject : "relation_MountedOn"
+HsdoPlatform ||--|o HsdoModel : "relation_MountedOn"
+HsdoPlatform ||--|o HsdoRealm : "relation_MountedOn"
+HsdoPlatform ||--|o HsdoLocation : "relation_MountedOn"
+HsdoPlatform ||--|o HsdoExperiment : "relation_MountedOn"
+HsdoPlatform ||--|o HsdoInstitution : "relation_MountedOn"
+HsdoPlatform ||--|o HsdoInstrument : "relation_MountedOn"
+HsdoPlatform ||--|o HsdoModels : "relation_MountedOn"
+HsdoPlatform ||--|o HsdoVariable : "relation_MountedOn"
+HsdoPlatform ||--|o HsdoProvider : "relation_MountedOn"
+HsdoPlatform ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoProject : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoModels : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoModel : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoPlatform ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoActivity : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoProvider : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoProject : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoRealm : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoDataset : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoModels : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoModel : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoLocation : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoVariable : "relation_UsedIn"
+HsdoPlatform ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoPlatform ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoPlatform ||--|o HsdoScienceKeyword : "relation_Outputs"
+HsdoPlatform ||--|o HsdoPlatform : "relation_Outputs"
+HsdoPlatform ||--|o HsdoSourceType : "relation_Outputs"
+HsdoPlatform ||--|o HsdoMeasurementName : "relation_Outputs"
+HsdoPlatform ||--|o HsdoProject : "relation_Outputs"
+HsdoPlatform ||--|o HsdoModel : "relation_Outputs"
+HsdoPlatform ||--|o HsdoDataFormat : "relation_Outputs"
+HsdoPlatform ||--|o HsdoRealm : "relation_Outputs"
+HsdoPlatform ||--|o HsdoDataset : "relation_Outputs"
+HsdoPlatform ||--|o HsdoLocation : "relation_Outputs"
+HsdoPlatform ||--|o HsdoExperiment : "relation_Outputs"
+HsdoPlatform ||--|o HsdoInstitution : "relation_Outputs"
+HsdoPlatform ||--|o HsdoActivity : "relation_Outputs"
+HsdoPlatform ||--|o HsdoInstrument : "relation_Outputs"
+HsdoPlatform ||--|o HsdoRelatedUrlContentType : "relation_Outputs"
+HsdoPlatform ||--|o HsdoModels : "relation_Outputs"
+HsdoPlatform ||--|o HsdoVariable : "relation_Outputs"
+HsdoPlatform ||--|o HsdoProvider : "relation_Outputs"
+HsdoPlatform ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoPlatform ||--|o HsdoMeasurementName : "skos_broader"
+HsdoPlatform ||--|o HsdoNominalResolution : "skos_broader"
+HsdoPlatform ||--|o HsdoProvider : "skos_broader"
+HsdoPlatform ||--|o HsdoPlatform : "skos_broader"
+HsdoPlatform ||--|o HsdoProject : "skos_broader"
+HsdoPlatform ||--|o SkosConcept : "skos_broader"
+HsdoPlatform ||--|o HsdoRealm : "skos_broader"
+HsdoPlatform ||--|o HsdoDataset : "skos_broader"
+HsdoPlatform ||--|o HsdoInstrument : "skos_broader"
+HsdoPlatform ||--|o HsdoModels : "skos_broader"
+HsdoPlatform ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoPlatform ||--|o HsdoRegion : "skos_broader"
+HsdoPlatform ||--|o HsdoDataFormat : "skos_broader"
+HsdoPlatform ||--|o HsdoMimeType : "skos_broader"
+HsdoPlatform ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoPlatform ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoPlatform ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoPlatform ||--|o HsdoSourceType : "skos_broader"
+HsdoPlatform ||--|o HsdoModel : "skos_broader"
+HsdoPlatform ||--|o HsdoLocation : "skos_broader"
+HsdoPlatform ||--|o HsdoExperiment : "skos_broader"
+HsdoPlatform ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoPlatform ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoPlatform ||--|o HsdoLicense : "skos_broader"
+HsdoPlatform ||--|o HsdoVariable : "skos_broader"
+HsdoPlatform ||--|o HsdoProject : "relation_HasProjectName"
+HsdoPlatform ||--|o HsdoProvider : "relation_HasProjectName"
+HsdoProject ||--|o HsdoScienceKeyword : "relation_ValidatedBy"
+HsdoProject ||--|o HsdoPlatform : "relation_ValidatedBy"
+HsdoProject ||--|o HsdoSourceType : "relation_ValidatedBy"
+HsdoProject ||--|o HsdoObs4MipsSourceId : "relation_ValidatedBy"
+HsdoProject ||--|o HsdoModel : "relation_ValidatedBy"
+HsdoProject ||--|o HsdoProject : "relation_ValidatedBy"
+HsdoProject ||--|o HsdoDataset : "relation_ValidatedBy"
+HsdoProject ||--|o HsdoExperiment : "relation_ValidatedBy"
+HsdoProject ||--|o HsdoLocation : "relation_ValidatedBy"
+HsdoProject ||--|o HsdoInstrument : "relation_ValidatedBy"
+HsdoProject ||--|o HsdoModels : "relation_ValidatedBy"
+HsdoProject ||--|o HsdoVariable : "relation_ValidatedBy"
+HsdoProject ||--|o HsdoProvider : "relation_ValidatedBy"
+HsdoProject ||--|o HsdoScienceKeyword : "relation_MountedOn"
+HsdoProject ||--|o HsdoPlatform : "relation_MountedOn"
+HsdoProject ||--|o HsdoMeasurementName : "relation_MountedOn"
+HsdoProject ||--|o HsdoProject : "relation_MountedOn"
+HsdoProject ||--|o HsdoModel : "relation_MountedOn"
+HsdoProject ||--|o HsdoRealm : "relation_MountedOn"
+HsdoProject ||--|o HsdoLocation : "relation_MountedOn"
+HsdoProject ||--|o HsdoExperiment : "relation_MountedOn"
+HsdoProject ||--|o HsdoInstitution : "relation_MountedOn"
+HsdoProject ||--|o HsdoInstrument : "relation_MountedOn"
+HsdoProject ||--|o HsdoModels : "relation_MountedOn"
+HsdoProject ||--|o HsdoVariable : "relation_MountedOn"
+HsdoProject ||--|o HsdoProvider : "relation_MountedOn"
+HsdoProject ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoProject ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoProject ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoProject ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoProject ||--|o HsdoActivity : "relation_UsedIn"
+HsdoProject ||--|o HsdoProvider : "relation_UsedIn"
+HsdoProject ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoProject ||--|o HsdoProject : "relation_UsedIn"
+HsdoProject ||--|o HsdoRealm : "relation_UsedIn"
+HsdoProject ||--|o HsdoDataset : "relation_UsedIn"
+HsdoProject ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoProject ||--|o HsdoModels : "relation_UsedIn"
+HsdoProject ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoProject ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoProject ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoProject ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoProject ||--|o HsdoModel : "relation_UsedIn"
+HsdoProject ||--|o HsdoLocation : "relation_UsedIn"
+HsdoProject ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoProject ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoProject ||--|o HsdoVariable : "relation_UsedIn"
+HsdoProject ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoProject ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoProject ||--|o HsdoMeasurementName : "skos_broader"
+HsdoProject ||--|o HsdoNominalResolution : "skos_broader"
+HsdoProject ||--|o HsdoProvider : "skos_broader"
+HsdoProject ||--|o HsdoPlatform : "skos_broader"
+HsdoProject ||--|o HsdoProject : "skos_broader"
+HsdoProject ||--|o SkosConcept : "skos_broader"
+HsdoProject ||--|o HsdoRealm : "skos_broader"
+HsdoProject ||--|o HsdoDataset : "skos_broader"
+HsdoProject ||--|o HsdoInstrument : "skos_broader"
+HsdoProject ||--|o HsdoModels : "skos_broader"
+HsdoProject ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoProject ||--|o HsdoRegion : "skos_broader"
+HsdoProject ||--|o HsdoDataFormat : "skos_broader"
+HsdoProject ||--|o HsdoMimeType : "skos_broader"
+HsdoProject ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoProject ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoProject ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoProject ||--|o HsdoSourceType : "skos_broader"
+HsdoProject ||--|o HsdoModel : "skos_broader"
+HsdoProject ||--|o HsdoLocation : "skos_broader"
+HsdoProject ||--|o HsdoExperiment : "skos_broader"
+HsdoProject ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoProject ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoProject ||--|o HsdoLicense : "skos_broader"
+HsdoProject ||--|o HsdoVariable : "skos_broader"
+HsdoProject ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoProject ||--|o HsdoSourceType : "relation_HasRequiredModelComponents"
+HsdoProject ||--|o HsdoModel : "relation_HasRequiredModelComponents"
+HsdoProject ||--|o HsdoLocation : "relation_HasRequiredModelComponents"
+HsdoProject ||--|o HsdoExperiment : "relation_HasRequiredModelComponents"
+HsdoProject ||--|o HsdoVariable : "relation_HasRequiredModelComponents"
+HsdoProject ||--|o HsdoProvider : "relation_HasRequiredModelComponents"
+HsdoProject ||--|o HsdoSourceType : "relation_HasAdditionalAllowedModelComponents"
+HsdoProject ||--|o HsdoModel : "relation_HasAdditionalAllowedModelComponents"
+HsdoProject ||--|o HsdoExperiment : "relation_HasAdditionalAllowedModelComponents"
+HsdoProject ||--|o HsdoVariable : "relation_HasAdditionalAllowedModelComponents"
+HsdoProject ||--|o HsdoProvider : "relation_HasAdditionalAllowedModelComponents"
+HsdoProject ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoProject ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoProject ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoProject ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoProject ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoProject ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoProject ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoProject ||--|o HsdoProject : "relation_ComparedTo"
+HsdoProject ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoProject ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoProject ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoProject ||--|o HsdoModels : "relation_ComparedTo"
+HsdoProject ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoProject ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoProject ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoProject ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoProject ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoProject ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoProject ||--|o HsdoModel : "relation_ComparedTo"
+HsdoProject ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoProject ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoProject ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoProject ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoProject ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoProject ||--|o HsdoModel : "relation_HasParentExperiment"
+HsdoProject ||--|o HsdoProject : "relation_HasParentExperiment"
+HsdoProject ||--|o HsdoLocation : "relation_HasParentExperiment"
+HsdoProject ||--|o HsdoExperiment : "relation_HasParentExperiment"
+HsdoProject ||--|o HsdoVariable : "relation_HasParentExperiment"
+HsdoProject ||--|o HsdoProvider : "relation_HasParentExperiment"
+HsdoProject ||--|o HsdoScienceKeyword : "relation_RunBy"
+HsdoProject ||--|o HsdoCmip6SourceId : "relation_RunBy"
+HsdoProject ||--|o HsdoPlatform : "relation_RunBy"
+HsdoProject ||--|o HsdoSourceType : "relation_RunBy"
+HsdoProject ||--|o HsdoMeasurementName : "relation_RunBy"
+HsdoProject ||--|o HsdoModel : "relation_RunBy"
+HsdoProject ||--|o HsdoProject : "relation_RunBy"
+HsdoProject ||--|o HsdoDataFormat : "relation_RunBy"
+HsdoProject ||--|o HsdoExperiment : "relation_RunBy"
+HsdoProject ||--|o HsdoLocation : "relation_RunBy"
+HsdoProject ||--|o HsdoInstitution : "relation_RunBy"
+HsdoProject ||--|o HsdoActivity : "relation_RunBy"
+HsdoProject ||--|o HsdoInstrument : "relation_RunBy"
+HsdoProject ||--|o HsdoChronostratigraphicUnit : "relation_RunBy"
+HsdoProject ||--|o HsdoModels : "relation_RunBy"
+HsdoProject ||--|o HsdoVariable : "relation_RunBy"
+HsdoProject ||--|o HsdoProvider : "relation_RunBy"
+HsdoProject ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoProject ||--|o HsdoScienceKeyword : "relation_Outputs"
+HsdoProject ||--|o HsdoPlatform : "relation_Outputs"
+HsdoProject ||--|o HsdoSourceType : "relation_Outputs"
+HsdoProject ||--|o HsdoMeasurementName : "relation_Outputs"
+HsdoProject ||--|o HsdoProject : "relation_Outputs"
+HsdoProject ||--|o HsdoModel : "relation_Outputs"
+HsdoProject ||--|o HsdoDataFormat : "relation_Outputs"
+HsdoProject ||--|o HsdoRealm : "relation_Outputs"
+HsdoProject ||--|o HsdoDataset : "relation_Outputs"
+HsdoProject ||--|o HsdoLocation : "relation_Outputs"
+HsdoProject ||--|o HsdoExperiment : "relation_Outputs"
+HsdoProject ||--|o HsdoInstitution : "relation_Outputs"
+HsdoProject ||--|o HsdoActivity : "relation_Outputs"
+HsdoProject ||--|o HsdoInstrument : "relation_Outputs"
+HsdoProject ||--|o HsdoRelatedUrlContentType : "relation_Outputs"
+HsdoProject ||--|o HsdoModels : "relation_Outputs"
+HsdoProject ||--|o HsdoVariable : "relation_Outputs"
+HsdoProject ||--|o HsdoProvider : "relation_Outputs"
+HsdoProject ||--|o HsdoProject : "relation_HasActivity"
+HsdoProject ||--|o HsdoModel : "relation_HasActivity"
+HsdoProject ||--|o HsdoExperiment : "relation_HasActivity"
+HsdoProject ||--|o HsdoLocation : "relation_HasActivity"
+HsdoProject ||--|o HsdoActivity : "relation_HasActivity"
+HsdoProject ||--|o HsdoVariable : "relation_HasActivity"
+HsdoProject ||--|o HsdoProvider : "relation_HasActivity"
+HsdoProject ||--|o HsdoProject : "relation_HasParentActivity"
+HsdoProject ||--|o HsdoModel : "relation_HasParentActivity"
+HsdoProject ||--|o HsdoExperiment : "relation_HasParentActivity"
+HsdoProject ||--|o HsdoActivity : "relation_HasParentActivity"
+HsdoProject ||--|o HsdoVariable : "relation_HasParentActivity"
+HsdoProject ||--|o HsdoProvider : "relation_HasParentActivity"
+HsdoProject ||--|o HsdoProject : "relation_HasProjectName"
+HsdoProject ||--|o HsdoProvider : "relation_HasProjectName"
+HsdoProvider ||--|o HsdoScienceKeyword : "relation_ValidatedBy"
+HsdoProvider ||--|o HsdoPlatform : "relation_ValidatedBy"
+HsdoProvider ||--|o HsdoSourceType : "relation_ValidatedBy"
+HsdoProvider ||--|o HsdoObs4MipsSourceId : "relation_ValidatedBy"
+HsdoProvider ||--|o HsdoModel : "relation_ValidatedBy"
+HsdoProvider ||--|o HsdoProject : "relation_ValidatedBy"
+HsdoProvider ||--|o HsdoDataset : "relation_ValidatedBy"
+HsdoProvider ||--|o HsdoExperiment : "relation_ValidatedBy"
+HsdoProvider ||--|o HsdoLocation : "relation_ValidatedBy"
+HsdoProvider ||--|o HsdoInstrument : "relation_ValidatedBy"
+HsdoProvider ||--|o HsdoModels : "relation_ValidatedBy"
+HsdoProvider ||--|o HsdoVariable : "relation_ValidatedBy"
+HsdoProvider ||--|o HsdoProvider : "relation_ValidatedBy"
+HsdoProvider ||--|o HsdoScienceKeyword : "relation_MountedOn"
+HsdoProvider ||--|o HsdoPlatform : "relation_MountedOn"
+HsdoProvider ||--|o HsdoMeasurementName : "relation_MountedOn"
+HsdoProvider ||--|o HsdoProject : "relation_MountedOn"
+HsdoProvider ||--|o HsdoModel : "relation_MountedOn"
+HsdoProvider ||--|o HsdoRealm : "relation_MountedOn"
+HsdoProvider ||--|o HsdoLocation : "relation_MountedOn"
+HsdoProvider ||--|o HsdoExperiment : "relation_MountedOn"
+HsdoProvider ||--|o HsdoInstitution : "relation_MountedOn"
+HsdoProvider ||--|o HsdoInstrument : "relation_MountedOn"
+HsdoProvider ||--|o HsdoModels : "relation_MountedOn"
+HsdoProvider ||--|o HsdoVariable : "relation_MountedOn"
+HsdoProvider ||--|o HsdoProvider : "relation_MountedOn"
+HsdoProvider ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoProvider ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoProvider ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoProvider ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoProvider ||--|o HsdoActivity : "relation_UsedIn"
+HsdoProvider ||--|o HsdoProvider : "relation_UsedIn"
+HsdoProvider ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoProvider ||--|o HsdoProject : "relation_UsedIn"
+HsdoProvider ||--|o HsdoRealm : "relation_UsedIn"
+HsdoProvider ||--|o HsdoDataset : "relation_UsedIn"
+HsdoProvider ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoProvider ||--|o HsdoModels : "relation_UsedIn"
+HsdoProvider ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoProvider ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoProvider ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoProvider ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoProvider ||--|o HsdoModel : "relation_UsedIn"
+HsdoProvider ||--|o HsdoLocation : "relation_UsedIn"
+HsdoProvider ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoProvider ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoProvider ||--|o HsdoVariable : "relation_UsedIn"
+HsdoProvider ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoProvider ||--|o HsdoModel : "relation_HasInstitution"
+HsdoProvider ||--|o HsdoInstitution : "relation_HasInstitution"
+HsdoProvider ||--|o HsdoInstrument : "relation_HasInstitution"
+HsdoProvider ||--|o HsdoVariable : "relation_HasInstitution"
+HsdoProvider ||--|o HsdoProvider : "relation_HasInstitution"
+HsdoProvider ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoProvider ||--|o HsdoMeasurementName : "skos_broader"
+HsdoProvider ||--|o HsdoNominalResolution : "skos_broader"
+HsdoProvider ||--|o HsdoProvider : "skos_broader"
+HsdoProvider ||--|o HsdoPlatform : "skos_broader"
+HsdoProvider ||--|o HsdoProject : "skos_broader"
+HsdoProvider ||--|o SkosConcept : "skos_broader"
+HsdoProvider ||--|o HsdoRealm : "skos_broader"
+HsdoProvider ||--|o HsdoDataset : "skos_broader"
+HsdoProvider ||--|o HsdoInstrument : "skos_broader"
+HsdoProvider ||--|o HsdoModels : "skos_broader"
+HsdoProvider ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoProvider ||--|o HsdoRegion : "skos_broader"
+HsdoProvider ||--|o HsdoDataFormat : "skos_broader"
+HsdoProvider ||--|o HsdoMimeType : "skos_broader"
+HsdoProvider ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoProvider ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoProvider ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoProvider ||--|o HsdoSourceType : "skos_broader"
+HsdoProvider ||--|o HsdoModel : "skos_broader"
+HsdoProvider ||--|o HsdoLocation : "skos_broader"
+HsdoProvider ||--|o HsdoExperiment : "skos_broader"
+HsdoProvider ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoProvider ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoProvider ||--|o HsdoLicense : "skos_broader"
+HsdoProvider ||--|o HsdoVariable : "skos_broader"
+HsdoProvider ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoProvider ||--|o HsdoSourceType : "relation_HasRequiredModelComponents"
+HsdoProvider ||--|o HsdoModel : "relation_HasRequiredModelComponents"
+HsdoProvider ||--|o HsdoLocation : "relation_HasRequiredModelComponents"
+HsdoProvider ||--|o HsdoExperiment : "relation_HasRequiredModelComponents"
+HsdoProvider ||--|o HsdoVariable : "relation_HasRequiredModelComponents"
+HsdoProvider ||--|o HsdoProvider : "relation_HasRequiredModelComponents"
+HsdoProvider ||--|o HsdoSourceType : "relation_HasAdditionalAllowedModelComponents"
+HsdoProvider ||--|o HsdoModel : "relation_HasAdditionalAllowedModelComponents"
+HsdoProvider ||--|o HsdoExperiment : "relation_HasAdditionalAllowedModelComponents"
+HsdoProvider ||--|o HsdoVariable : "relation_HasAdditionalAllowedModelComponents"
+HsdoProvider ||--|o HsdoProvider : "relation_HasAdditionalAllowedModelComponents"
+HsdoProvider ||--|o HsdoSourceType : "relation_HasSourceType"
+HsdoProvider ||--|o HsdoModel : "relation_HasSourceType"
+HsdoProvider ||--|o HsdoExperiment : "relation_HasSourceType"
+HsdoProvider ||--|o HsdoInstrument : "relation_HasSourceType"
+HsdoProvider ||--|o HsdoVariable : "relation_HasSourceType"
+HsdoProvider ||--|o HsdoProvider : "relation_HasSourceType"
+HsdoProvider ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoProject : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoModels : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoModel : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoProvider ||--|o HsdoModel : "relation_HasRegion"
+HsdoProvider ||--|o HsdoProject : "relation_HasRegion"
+HsdoProvider ||--|o HsdoLocation : "relation_HasRegion"
+HsdoProvider ||--|o HsdoVariable : "relation_HasRegion"
+HsdoProvider ||--|o HsdoRegion : "relation_HasRegion"
+HsdoProvider ||--|o HsdoProvider : "relation_HasRegion"
+HsdoProvider ||--|o HsdoModel : "relation_HasParentExperiment"
+HsdoProvider ||--|o HsdoProject : "relation_HasParentExperiment"
+HsdoProvider ||--|o HsdoLocation : "relation_HasParentExperiment"
+HsdoProvider ||--|o HsdoExperiment : "relation_HasParentExperiment"
+HsdoProvider ||--|o HsdoVariable : "relation_HasParentExperiment"
+HsdoProvider ||--|o HsdoProvider : "relation_HasParentExperiment"
+HsdoProvider ||--|o HsdoScienceKeyword : "relation_RunBy"
+HsdoProvider ||--|o HsdoCmip6SourceId : "relation_RunBy"
+HsdoProvider ||--|o HsdoPlatform : "relation_RunBy"
+HsdoProvider ||--|o HsdoSourceType : "relation_RunBy"
+HsdoProvider ||--|o HsdoMeasurementName : "relation_RunBy"
+HsdoProvider ||--|o HsdoModel : "relation_RunBy"
+HsdoProvider ||--|o HsdoProject : "relation_RunBy"
+HsdoProvider ||--|o HsdoDataFormat : "relation_RunBy"
+HsdoProvider ||--|o HsdoExperiment : "relation_RunBy"
+HsdoProvider ||--|o HsdoLocation : "relation_RunBy"
+HsdoProvider ||--|o HsdoInstitution : "relation_RunBy"
+HsdoProvider ||--|o HsdoActivity : "relation_RunBy"
+HsdoProvider ||--|o HsdoInstrument : "relation_RunBy"
+HsdoProvider ||--|o HsdoChronostratigraphicUnit : "relation_RunBy"
+HsdoProvider ||--|o HsdoModels : "relation_RunBy"
+HsdoProvider ||--|o HsdoVariable : "relation_RunBy"
+HsdoProvider ||--|o HsdoProvider : "relation_RunBy"
+HsdoProvider ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoProvider ||--|o HsdoScienceKeyword : "relation_Outputs"
+HsdoProvider ||--|o HsdoPlatform : "relation_Outputs"
+HsdoProvider ||--|o HsdoSourceType : "relation_Outputs"
+HsdoProvider ||--|o HsdoMeasurementName : "relation_Outputs"
+HsdoProvider ||--|o HsdoProject : "relation_Outputs"
+HsdoProvider ||--|o HsdoModel : "relation_Outputs"
+HsdoProvider ||--|o HsdoDataFormat : "relation_Outputs"
+HsdoProvider ||--|o HsdoRealm : "relation_Outputs"
+HsdoProvider ||--|o HsdoDataset : "relation_Outputs"
+HsdoProvider ||--|o HsdoLocation : "relation_Outputs"
+HsdoProvider ||--|o HsdoExperiment : "relation_Outputs"
+HsdoProvider ||--|o HsdoInstitution : "relation_Outputs"
+HsdoProvider ||--|o HsdoActivity : "relation_Outputs"
+HsdoProvider ||--|o HsdoInstrument : "relation_Outputs"
+HsdoProvider ||--|o HsdoRelatedUrlContentType : "relation_Outputs"
+HsdoProvider ||--|o HsdoModels : "relation_Outputs"
+HsdoProvider ||--|o HsdoVariable : "relation_Outputs"
+HsdoProvider ||--|o HsdoProvider : "relation_Outputs"
+HsdoProvider ||--|o HsdoProject : "relation_HasActivity"
+HsdoProvider ||--|o HsdoModel : "relation_HasActivity"
+HsdoProvider ||--|o HsdoExperiment : "relation_HasActivity"
+HsdoProvider ||--|o HsdoLocation : "relation_HasActivity"
+HsdoProvider ||--|o HsdoActivity : "relation_HasActivity"
+HsdoProvider ||--|o HsdoVariable : "relation_HasActivity"
+HsdoProvider ||--|o HsdoProvider : "relation_HasActivity"
+HsdoProvider ||--|o HsdoProject : "relation_HasParentActivity"
+HsdoProvider ||--|o HsdoModel : "relation_HasParentActivity"
+HsdoProvider ||--|o HsdoExperiment : "relation_HasParentActivity"
+HsdoProvider ||--|o HsdoActivity : "relation_HasParentActivity"
+HsdoProvider ||--|o HsdoVariable : "relation_HasParentActivity"
+HsdoProvider ||--|o HsdoProvider : "relation_HasParentActivity"
+HsdoProvider ||--|o HsdoProject : "relation_HasProjectName"
+HsdoProvider ||--|o HsdoProvider : "relation_HasProjectName"
+HsdoRealm ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoRealm ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoProject : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoModels : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoModel : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoRealm ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoRealm ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoRealm ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoRealm ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoRealm ||--|o HsdoActivity : "relation_UsedIn"
+HsdoRealm ||--|o HsdoProvider : "relation_UsedIn"
+HsdoRealm ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoRealm ||--|o HsdoProject : "relation_UsedIn"
+HsdoRealm ||--|o HsdoRealm : "relation_UsedIn"
+HsdoRealm ||--|o HsdoDataset : "relation_UsedIn"
+HsdoRealm ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoRealm ||--|o HsdoModels : "relation_UsedIn"
+HsdoRealm ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoRealm ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoRealm ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoRealm ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoRealm ||--|o HsdoModel : "relation_UsedIn"
+HsdoRealm ||--|o HsdoLocation : "relation_UsedIn"
+HsdoRealm ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoRealm ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoRealm ||--|o HsdoVariable : "relation_UsedIn"
+HsdoRealm ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoRealm ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoRealm ||--|o HsdoScienceKeyword : "relation_Outputs"
+HsdoRealm ||--|o HsdoPlatform : "relation_Outputs"
+HsdoRealm ||--|o HsdoSourceType : "relation_Outputs"
+HsdoRealm ||--|o HsdoMeasurementName : "relation_Outputs"
+HsdoRealm ||--|o HsdoProject : "relation_Outputs"
+HsdoRealm ||--|o HsdoModel : "relation_Outputs"
+HsdoRealm ||--|o HsdoDataFormat : "relation_Outputs"
+HsdoRealm ||--|o HsdoRealm : "relation_Outputs"
+HsdoRealm ||--|o HsdoDataset : "relation_Outputs"
+HsdoRealm ||--|o HsdoLocation : "relation_Outputs"
+HsdoRealm ||--|o HsdoExperiment : "relation_Outputs"
+HsdoRealm ||--|o HsdoInstitution : "relation_Outputs"
+HsdoRealm ||--|o HsdoActivity : "relation_Outputs"
+HsdoRealm ||--|o HsdoInstrument : "relation_Outputs"
+HsdoRealm ||--|o HsdoRelatedUrlContentType : "relation_Outputs"
+HsdoRealm ||--|o HsdoModels : "relation_Outputs"
+HsdoRealm ||--|o HsdoVariable : "relation_Outputs"
+HsdoRealm ||--|o HsdoProvider : "relation_Outputs"
+HsdoRealm ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoRealm ||--|o HsdoMeasurementName : "skos_broader"
+HsdoRealm ||--|o HsdoNominalResolution : "skos_broader"
+HsdoRealm ||--|o HsdoProvider : "skos_broader"
+HsdoRealm ||--|o HsdoPlatform : "skos_broader"
+HsdoRealm ||--|o HsdoProject : "skos_broader"
+HsdoRealm ||--|o SkosConcept : "skos_broader"
+HsdoRealm ||--|o HsdoRealm : "skos_broader"
+HsdoRealm ||--|o HsdoDataset : "skos_broader"
+HsdoRealm ||--|o HsdoInstrument : "skos_broader"
+HsdoRealm ||--|o HsdoModels : "skos_broader"
+HsdoRealm ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoRealm ||--|o HsdoRegion : "skos_broader"
+HsdoRealm ||--|o HsdoDataFormat : "skos_broader"
+HsdoRealm ||--|o HsdoMimeType : "skos_broader"
+HsdoRealm ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoRealm ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoRealm ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoRealm ||--|o HsdoSourceType : "skos_broader"
+HsdoRealm ||--|o HsdoModel : "skos_broader"
+HsdoRealm ||--|o HsdoLocation : "skos_broader"
+HsdoRealm ||--|o HsdoExperiment : "skos_broader"
+HsdoRealm ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoRealm ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoRealm ||--|o HsdoLicense : "skos_broader"
+HsdoRealm ||--|o HsdoVariable : "skos_broader"
+HsdoRealm ||--|o HsdoProject : "relation_HasProjectName"
+HsdoRealm ||--|o HsdoProvider : "relation_HasProjectName"
+HsdoRegion ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoRegion ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoProject : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoModels : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoModel : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoRegion ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoRegion ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoRegion ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoRegion ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoRegion ||--|o HsdoActivity : "relation_UsedIn"
+HsdoRegion ||--|o HsdoProvider : "relation_UsedIn"
+HsdoRegion ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoRegion ||--|o HsdoProject : "relation_UsedIn"
+HsdoRegion ||--|o HsdoRealm : "relation_UsedIn"
+HsdoRegion ||--|o HsdoDataset : "relation_UsedIn"
+HsdoRegion ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoRegion ||--|o HsdoModels : "relation_UsedIn"
+HsdoRegion ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoRegion ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoRegion ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoRegion ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoRegion ||--|o HsdoModel : "relation_UsedIn"
+HsdoRegion ||--|o HsdoLocation : "relation_UsedIn"
+HsdoRegion ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoRegion ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoRegion ||--|o HsdoVariable : "relation_UsedIn"
+HsdoRegion ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoRegion ||--|o HsdoScienceKeyword : "relation_Outputs"
+HsdoRegion ||--|o HsdoPlatform : "relation_Outputs"
+HsdoRegion ||--|o HsdoSourceType : "relation_Outputs"
+HsdoRegion ||--|o HsdoMeasurementName : "relation_Outputs"
+HsdoRegion ||--|o HsdoProject : "relation_Outputs"
+HsdoRegion ||--|o HsdoModel : "relation_Outputs"
+HsdoRegion ||--|o HsdoDataFormat : "relation_Outputs"
+HsdoRegion ||--|o HsdoRealm : "relation_Outputs"
+HsdoRegion ||--|o HsdoDataset : "relation_Outputs"
+HsdoRegion ||--|o HsdoLocation : "relation_Outputs"
+HsdoRegion ||--|o HsdoExperiment : "relation_Outputs"
+HsdoRegion ||--|o HsdoInstitution : "relation_Outputs"
+HsdoRegion ||--|o HsdoActivity : "relation_Outputs"
+HsdoRegion ||--|o HsdoInstrument : "relation_Outputs"
+HsdoRegion ||--|o HsdoRelatedUrlContentType : "relation_Outputs"
+HsdoRegion ||--|o HsdoModels : "relation_Outputs"
+HsdoRegion ||--|o HsdoVariable : "relation_Outputs"
+HsdoRegion ||--|o HsdoProvider : "relation_Outputs"
+HsdoRegion ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoRegion ||--|o HsdoMeasurementName : "skos_broader"
+HsdoRegion ||--|o HsdoNominalResolution : "skos_broader"
+HsdoRegion ||--|o HsdoProvider : "skos_broader"
+HsdoRegion ||--|o HsdoPlatform : "skos_broader"
+HsdoRegion ||--|o HsdoProject : "skos_broader"
+HsdoRegion ||--|o SkosConcept : "skos_broader"
+HsdoRegion ||--|o HsdoRealm : "skos_broader"
+HsdoRegion ||--|o HsdoDataset : "skos_broader"
+HsdoRegion ||--|o HsdoInstrument : "skos_broader"
+HsdoRegion ||--|o HsdoModels : "skos_broader"
+HsdoRegion ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoRegion ||--|o HsdoRegion : "skos_broader"
+HsdoRegion ||--|o HsdoDataFormat : "skos_broader"
+HsdoRegion ||--|o HsdoMimeType : "skos_broader"
+HsdoRegion ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoRegion ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoRegion ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoRegion ||--|o HsdoSourceType : "skos_broader"
+HsdoRegion ||--|o HsdoModel : "skos_broader"
+HsdoRegion ||--|o HsdoLocation : "skos_broader"
+HsdoRegion ||--|o HsdoExperiment : "skos_broader"
+HsdoRegion ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoRegion ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoRegion ||--|o HsdoLicense : "skos_broader"
+HsdoRegion ||--|o HsdoVariable : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoRelatedUrlContentType ||--|o HsdoScienceKeyword : "relation_MountedOn"
+HsdoRelatedUrlContentType ||--|o HsdoPlatform : "relation_MountedOn"
+HsdoRelatedUrlContentType ||--|o HsdoMeasurementName : "relation_MountedOn"
+HsdoRelatedUrlContentType ||--|o HsdoProject : "relation_MountedOn"
+HsdoRelatedUrlContentType ||--|o HsdoModel : "relation_MountedOn"
+HsdoRelatedUrlContentType ||--|o HsdoRealm : "relation_MountedOn"
+HsdoRelatedUrlContentType ||--|o HsdoLocation : "relation_MountedOn"
+HsdoRelatedUrlContentType ||--|o HsdoExperiment : "relation_MountedOn"
+HsdoRelatedUrlContentType ||--|o HsdoInstitution : "relation_MountedOn"
+HsdoRelatedUrlContentType ||--|o HsdoInstrument : "relation_MountedOn"
+HsdoRelatedUrlContentType ||--|o HsdoModels : "relation_MountedOn"
+HsdoRelatedUrlContentType ||--|o HsdoVariable : "relation_MountedOn"
+HsdoRelatedUrlContentType ||--|o HsdoProvider : "relation_MountedOn"
+HsdoRelatedUrlContentType ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoProject : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoModels : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoModel : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoRelatedUrlContentType ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoActivity : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoProvider : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoProject : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoRealm : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoDataset : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoModels : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoModel : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoLocation : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoVariable : "relation_UsedIn"
+HsdoRelatedUrlContentType ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoRelatedUrlContentType ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoRelatedUrlContentType ||--|o HsdoScienceKeyword : "relation_Outputs"
+HsdoRelatedUrlContentType ||--|o HsdoPlatform : "relation_Outputs"
+HsdoRelatedUrlContentType ||--|o HsdoSourceType : "relation_Outputs"
+HsdoRelatedUrlContentType ||--|o HsdoMeasurementName : "relation_Outputs"
+HsdoRelatedUrlContentType ||--|o HsdoProject : "relation_Outputs"
+HsdoRelatedUrlContentType ||--|o HsdoModel : "relation_Outputs"
+HsdoRelatedUrlContentType ||--|o HsdoDataFormat : "relation_Outputs"
+HsdoRelatedUrlContentType ||--|o HsdoRealm : "relation_Outputs"
+HsdoRelatedUrlContentType ||--|o HsdoDataset : "relation_Outputs"
+HsdoRelatedUrlContentType ||--|o HsdoLocation : "relation_Outputs"
+HsdoRelatedUrlContentType ||--|o HsdoExperiment : "relation_Outputs"
+HsdoRelatedUrlContentType ||--|o HsdoInstitution : "relation_Outputs"
+HsdoRelatedUrlContentType ||--|o HsdoActivity : "relation_Outputs"
+HsdoRelatedUrlContentType ||--|o HsdoInstrument : "relation_Outputs"
+HsdoRelatedUrlContentType ||--|o HsdoRelatedUrlContentType : "relation_Outputs"
+HsdoRelatedUrlContentType ||--|o HsdoModels : "relation_Outputs"
+HsdoRelatedUrlContentType ||--|o HsdoVariable : "relation_Outputs"
+HsdoRelatedUrlContentType ||--|o HsdoProvider : "relation_Outputs"
+HsdoRelatedUrlContentType ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoMeasurementName : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoNominalResolution : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoProvider : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoPlatform : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoProject : "skos_broader"
+HsdoRelatedUrlContentType ||--|o SkosConcept : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoRealm : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoDataset : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoInstrument : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoModels : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoRegion : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoDataFormat : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoMimeType : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoSourceType : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoModel : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoLocation : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoExperiment : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoLicense : "skos_broader"
+HsdoRelatedUrlContentType ||--|o HsdoVariable : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoModel : "relation_HasModelComponent"
+HsdoScienceKeyword ||--|o HsdoRealm : "relation_HasModelComponent"
+HsdoScienceKeyword ||--|o HsdoLocation : "relation_HasModelComponent"
+HsdoScienceKeyword ||--|o HsdoExperiment : "relation_HasModelComponent"
+HsdoScienceKeyword ||--|o HsdoVariable : "relation_HasModelComponent"
+HsdoScienceKeyword ||--|o HsdoProvider : "relation_HasModelComponent"
+HsdoScienceKeyword ||--|o HsdoScienceKeyword : "relation_ValidatedBy"
+HsdoScienceKeyword ||--|o HsdoPlatform : "relation_ValidatedBy"
+HsdoScienceKeyword ||--|o HsdoSourceType : "relation_ValidatedBy"
+HsdoScienceKeyword ||--|o HsdoObs4MipsSourceId : "relation_ValidatedBy"
+HsdoScienceKeyword ||--|o HsdoModel : "relation_ValidatedBy"
+HsdoScienceKeyword ||--|o HsdoProject : "relation_ValidatedBy"
+HsdoScienceKeyword ||--|o HsdoDataset : "relation_ValidatedBy"
+HsdoScienceKeyword ||--|o HsdoExperiment : "relation_ValidatedBy"
+HsdoScienceKeyword ||--|o HsdoLocation : "relation_ValidatedBy"
+HsdoScienceKeyword ||--|o HsdoInstrument : "relation_ValidatedBy"
+HsdoScienceKeyword ||--|o HsdoModels : "relation_ValidatedBy"
+HsdoScienceKeyword ||--|o HsdoVariable : "relation_ValidatedBy"
+HsdoScienceKeyword ||--|o HsdoProvider : "relation_ValidatedBy"
+HsdoScienceKeyword ||--|o HsdoScienceKeyword : "relation_MountedOn"
+HsdoScienceKeyword ||--|o HsdoPlatform : "relation_MountedOn"
+HsdoScienceKeyword ||--|o HsdoMeasurementName : "relation_MountedOn"
+HsdoScienceKeyword ||--|o HsdoProject : "relation_MountedOn"
+HsdoScienceKeyword ||--|o HsdoModel : "relation_MountedOn"
+HsdoScienceKeyword ||--|o HsdoRealm : "relation_MountedOn"
+HsdoScienceKeyword ||--|o HsdoLocation : "relation_MountedOn"
+HsdoScienceKeyword ||--|o HsdoExperiment : "relation_MountedOn"
+HsdoScienceKeyword ||--|o HsdoInstitution : "relation_MountedOn"
+HsdoScienceKeyword ||--|o HsdoInstrument : "relation_MountedOn"
+HsdoScienceKeyword ||--|o HsdoModels : "relation_MountedOn"
+HsdoScienceKeyword ||--|o HsdoVariable : "relation_MountedOn"
+HsdoScienceKeyword ||--|o HsdoProvider : "relation_MountedOn"
+HsdoScienceKeyword ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoActivity : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoProvider : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoProject : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoRealm : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoDataset : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoModels : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoModel : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoLocation : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoVariable : "relation_UsedIn"
+HsdoScienceKeyword ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoScienceKeyword ||--|o HsdoModel : "relation_HasInstitution"
+HsdoScienceKeyword ||--|o HsdoInstitution : "relation_HasInstitution"
+HsdoScienceKeyword ||--|o HsdoInstrument : "relation_HasInstitution"
+HsdoScienceKeyword ||--|o HsdoVariable : "relation_HasInstitution"
+HsdoScienceKeyword ||--|o HsdoProvider : "relation_HasInstitution"
+HsdoScienceKeyword ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoMeasurementName : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoNominalResolution : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoProvider : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoPlatform : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoProject : "skos_broader"
+HsdoScienceKeyword ||--|o SkosConcept : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoRealm : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoDataset : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoInstrument : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoModels : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoRegion : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoDataFormat : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoMimeType : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoSourceType : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoModel : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoLocation : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoExperiment : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoLicense : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoVariable : "skos_broader"
+HsdoScienceKeyword ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoScienceKeyword ||--|o HsdoProject : "relation_HasActivityParticipation"
+HsdoScienceKeyword ||--|o HsdoModel : "relation_HasActivityParticipation"
+HsdoScienceKeyword ||--|o HsdoExperiment : "relation_HasActivityParticipation"
+HsdoScienceKeyword ||--|o HsdoLocation : "relation_HasActivityParticipation"
+HsdoScienceKeyword ||--|o HsdoActivity : "relation_HasActivityParticipation"
+HsdoScienceKeyword ||--|o HsdoVariable : "relation_HasActivityParticipation"
+HsdoScienceKeyword ||--|o HsdoProvider : "relation_HasActivityParticipation"
+HsdoScienceKeyword ||--|o HsdoSourceType : "relation_HasSourceType"
+HsdoScienceKeyword ||--|o HsdoModel : "relation_HasSourceType"
+HsdoScienceKeyword ||--|o HsdoExperiment : "relation_HasSourceType"
+HsdoScienceKeyword ||--|o HsdoInstrument : "relation_HasSourceType"
+HsdoScienceKeyword ||--|o HsdoVariable : "relation_HasSourceType"
+HsdoScienceKeyword ||--|o HsdoProvider : "relation_HasSourceType"
+HsdoScienceKeyword ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoProject : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoModels : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoModel : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoScienceKeyword ||--|o HsdoModel : "relation_HasRegion"
+HsdoScienceKeyword ||--|o HsdoProject : "relation_HasRegion"
+HsdoScienceKeyword ||--|o HsdoLocation : "relation_HasRegion"
+HsdoScienceKeyword ||--|o HsdoVariable : "relation_HasRegion"
+HsdoScienceKeyword ||--|o HsdoRegion : "relation_HasRegion"
+HsdoScienceKeyword ||--|o HsdoProvider : "relation_HasRegion"
+HsdoScienceKeyword ||--|o HsdoScienceKeyword : "relation_RunBy"
+HsdoScienceKeyword ||--|o HsdoCmip6SourceId : "relation_RunBy"
+HsdoScienceKeyword ||--|o HsdoPlatform : "relation_RunBy"
+HsdoScienceKeyword ||--|o HsdoSourceType : "relation_RunBy"
+HsdoScienceKeyword ||--|o HsdoMeasurementName : "relation_RunBy"
+HsdoScienceKeyword ||--|o HsdoModel : "relation_RunBy"
+HsdoScienceKeyword ||--|o HsdoProject : "relation_RunBy"
+HsdoScienceKeyword ||--|o HsdoDataFormat : "relation_RunBy"
+HsdoScienceKeyword ||--|o HsdoExperiment : "relation_RunBy"
+HsdoScienceKeyword ||--|o HsdoLocation : "relation_RunBy"
+HsdoScienceKeyword ||--|o HsdoInstitution : "relation_RunBy"
+HsdoScienceKeyword ||--|o HsdoActivity : "relation_RunBy"
+HsdoScienceKeyword ||--|o HsdoInstrument : "relation_RunBy"
+HsdoScienceKeyword ||--|o HsdoChronostratigraphicUnit : "relation_RunBy"
+HsdoScienceKeyword ||--|o HsdoModels : "relation_RunBy"
+HsdoScienceKeyword ||--|o HsdoVariable : "relation_RunBy"
+HsdoScienceKeyword ||--|o HsdoProvider : "relation_RunBy"
+HsdoScienceKeyword ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoScienceKeyword ||--|o HsdoScienceKeyword : "relation_Outputs"
+HsdoScienceKeyword ||--|o HsdoPlatform : "relation_Outputs"
+HsdoScienceKeyword ||--|o HsdoSourceType : "relation_Outputs"
+HsdoScienceKeyword ||--|o HsdoMeasurementName : "relation_Outputs"
+HsdoScienceKeyword ||--|o HsdoProject : "relation_Outputs"
+HsdoScienceKeyword ||--|o HsdoModel : "relation_Outputs"
+HsdoScienceKeyword ||--|o HsdoDataFormat : "relation_Outputs"
+HsdoScienceKeyword ||--|o HsdoRealm : "relation_Outputs"
+HsdoScienceKeyword ||--|o HsdoDataset : "relation_Outputs"
+HsdoScienceKeyword ||--|o HsdoLocation : "relation_Outputs"
+HsdoScienceKeyword ||--|o HsdoExperiment : "relation_Outputs"
+HsdoScienceKeyword ||--|o HsdoInstitution : "relation_Outputs"
+HsdoScienceKeyword ||--|o HsdoActivity : "relation_Outputs"
+HsdoScienceKeyword ||--|o HsdoInstrument : "relation_Outputs"
+HsdoScienceKeyword ||--|o HsdoRelatedUrlContentType : "relation_Outputs"
+HsdoScienceKeyword ||--|o HsdoModels : "relation_Outputs"
+HsdoScienceKeyword ||--|o HsdoVariable : "relation_Outputs"
+HsdoScienceKeyword ||--|o HsdoProvider : "relation_Outputs"
+HsdoScienceKeyword ||--|o HsdoLicense : "relation_HasLicenseInfo"
+HsdoScienceKeyword ||--|o HsdoProject : "relation_HasProjectName"
+HsdoScienceKeyword ||--|o HsdoProvider : "relation_HasProjectName"
+HsdoSourceType ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoSourceType ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoSourceType ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoProject : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoModels : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoModel : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoSourceType ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoActivity : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoProvider : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoProject : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoRealm : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoDataset : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoModels : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoModel : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoLocation : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoVariable : "relation_UsedIn"
+HsdoSourceType ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoSourceType ||--|o HsdoScienceKeyword : "relation_RunBy"
+HsdoSourceType ||--|o HsdoCmip6SourceId : "relation_RunBy"
+HsdoSourceType ||--|o HsdoPlatform : "relation_RunBy"
+HsdoSourceType ||--|o HsdoSourceType : "relation_RunBy"
+HsdoSourceType ||--|o HsdoMeasurementName : "relation_RunBy"
+HsdoSourceType ||--|o HsdoModel : "relation_RunBy"
+HsdoSourceType ||--|o HsdoProject : "relation_RunBy"
+HsdoSourceType ||--|o HsdoDataFormat : "relation_RunBy"
+HsdoSourceType ||--|o HsdoExperiment : "relation_RunBy"
+HsdoSourceType ||--|o HsdoLocation : "relation_RunBy"
+HsdoSourceType ||--|o HsdoInstitution : "relation_RunBy"
+HsdoSourceType ||--|o HsdoActivity : "relation_RunBy"
+HsdoSourceType ||--|o HsdoInstrument : "relation_RunBy"
+HsdoSourceType ||--|o HsdoChronostratigraphicUnit : "relation_RunBy"
+HsdoSourceType ||--|o HsdoModels : "relation_RunBy"
+HsdoSourceType ||--|o HsdoVariable : "relation_RunBy"
+HsdoSourceType ||--|o HsdoProvider : "relation_RunBy"
+HsdoSourceType ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoSourceType ||--|o HsdoMeasurementName : "skos_broader"
+HsdoSourceType ||--|o HsdoNominalResolution : "skos_broader"
+HsdoSourceType ||--|o HsdoProvider : "skos_broader"
+HsdoSourceType ||--|o HsdoPlatform : "skos_broader"
+HsdoSourceType ||--|o HsdoProject : "skos_broader"
+HsdoSourceType ||--|o SkosConcept : "skos_broader"
+HsdoSourceType ||--|o HsdoRealm : "skos_broader"
+HsdoSourceType ||--|o HsdoDataset : "skos_broader"
+HsdoSourceType ||--|o HsdoInstrument : "skos_broader"
+HsdoSourceType ||--|o HsdoModels : "skos_broader"
+HsdoSourceType ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoSourceType ||--|o HsdoRegion : "skos_broader"
+HsdoSourceType ||--|o HsdoDataFormat : "skos_broader"
+HsdoSourceType ||--|o HsdoMimeType : "skos_broader"
+HsdoSourceType ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoSourceType ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoSourceType ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoSourceType ||--|o HsdoSourceType : "skos_broader"
+HsdoSourceType ||--|o HsdoModel : "skos_broader"
+HsdoSourceType ||--|o HsdoLocation : "skos_broader"
+HsdoSourceType ||--|o HsdoExperiment : "skos_broader"
+HsdoSourceType ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoSourceType ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoSourceType ||--|o HsdoLicense : "skos_broader"
+HsdoSourceType ||--|o HsdoVariable : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoSubExperimentId ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoProject : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoModels : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoModel : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoSubExperimentId ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoSubExperimentId ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoSubExperimentId ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoMeasurementName : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoNominalResolution : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoProvider : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoPlatform : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoProject : "skos_broader"
+HsdoSubExperimentId ||--|o SkosConcept : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoRealm : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoDataset : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoInstrument : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoModels : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoRegion : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoDataFormat : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoMimeType : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoSourceType : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoModel : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoLocation : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoExperiment : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoLicense : "skos_broader"
+HsdoSubExperimentId ||--|o HsdoVariable : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoTemporalResolutionRange ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoActivity : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoProvider : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoProject : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoRealm : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoDataset : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoModels : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoModel : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoLocation : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoVariable : "relation_UsedIn"
+HsdoTemporalResolutionRange ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoTemporalResolutionRange ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoMeasurementName : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoNominalResolution : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoProvider : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoPlatform : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoProject : "skos_broader"
+HsdoTemporalResolutionRange ||--|o SkosConcept : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoRealm : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoDataset : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoInstrument : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoModels : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoRegion : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoDataFormat : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoMimeType : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoSourceType : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoModel : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoLocation : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoExperiment : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoLicense : "skos_broader"
+HsdoTemporalResolutionRange ||--|o HsdoVariable : "skos_broader"
+HsdoVariable ||--|o HsdoScienceKeyword : "relation_ValidatedBy"
+HsdoVariable ||--|o HsdoPlatform : "relation_ValidatedBy"
+HsdoVariable ||--|o HsdoSourceType : "relation_ValidatedBy"
+HsdoVariable ||--|o HsdoObs4MipsSourceId : "relation_ValidatedBy"
+HsdoVariable ||--|o HsdoModel : "relation_ValidatedBy"
+HsdoVariable ||--|o HsdoProject : "relation_ValidatedBy"
+HsdoVariable ||--|o HsdoDataset : "relation_ValidatedBy"
+HsdoVariable ||--|o HsdoExperiment : "relation_ValidatedBy"
+HsdoVariable ||--|o HsdoLocation : "relation_ValidatedBy"
+HsdoVariable ||--|o HsdoInstrument : "relation_ValidatedBy"
+HsdoVariable ||--|o HsdoModels : "relation_ValidatedBy"
+HsdoVariable ||--|o HsdoVariable : "relation_ValidatedBy"
+HsdoVariable ||--|o HsdoProvider : "relation_ValidatedBy"
+HsdoVariable ||--|o HsdoScienceKeyword : "relation_MountedOn"
+HsdoVariable ||--|o HsdoPlatform : "relation_MountedOn"
+HsdoVariable ||--|o HsdoMeasurementName : "relation_MountedOn"
+HsdoVariable ||--|o HsdoProject : "relation_MountedOn"
+HsdoVariable ||--|o HsdoModel : "relation_MountedOn"
+HsdoVariable ||--|o HsdoRealm : "relation_MountedOn"
+HsdoVariable ||--|o HsdoLocation : "relation_MountedOn"
+HsdoVariable ||--|o HsdoExperiment : "relation_MountedOn"
+HsdoVariable ||--|o HsdoInstitution : "relation_MountedOn"
+HsdoVariable ||--|o HsdoInstrument : "relation_MountedOn"
+HsdoVariable ||--|o HsdoModels : "relation_MountedOn"
+HsdoVariable ||--|o HsdoVariable : "relation_MountedOn"
+HsdoVariable ||--|o HsdoProvider : "relation_MountedOn"
+HsdoVariable ||--|o HsdoScienceKeyword : "relation_UsedIn"
+HsdoVariable ||--|o HsdoObs4MipsSourceId : "relation_UsedIn"
+HsdoVariable ||--|o HsdoMeasurementName : "relation_UsedIn"
+HsdoVariable ||--|o HsdoInstitution : "relation_UsedIn"
+HsdoVariable ||--|o HsdoActivity : "relation_UsedIn"
+HsdoVariable ||--|o HsdoProvider : "relation_UsedIn"
+HsdoVariable ||--|o HsdoPlatform : "relation_UsedIn"
+HsdoVariable ||--|o HsdoProject : "relation_UsedIn"
+HsdoVariable ||--|o HsdoRealm : "relation_UsedIn"
+HsdoVariable ||--|o HsdoDataset : "relation_UsedIn"
+HsdoVariable ||--|o HsdoInstrument : "relation_UsedIn"
+HsdoVariable ||--|o HsdoModels : "relation_UsedIn"
+HsdoVariable ||--|o HsdoDataFormat : "relation_UsedIn"
+HsdoVariable ||--|o HsdoRelatedUrlContentType : "relation_UsedIn"
+HsdoVariable ||--|o HsdoCmip6SourceId : "relation_UsedIn"
+HsdoVariable ||--|o HsdoSourceType : "relation_UsedIn"
+HsdoVariable ||--|o HsdoModel : "relation_UsedIn"
+HsdoVariable ||--|o HsdoLocation : "relation_UsedIn"
+HsdoVariable ||--|o HsdoExperiment : "relation_UsedIn"
+HsdoVariable ||--|o HsdoChronostratigraphicUnit : "relation_UsedIn"
+HsdoVariable ||--|o HsdoVariable : "relation_UsedIn"
+HsdoVariable ||--|o HsdoScienceKeyword : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoMeasurementName : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoInstitution : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoActivity : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoProvider : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoPlatform : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoProject : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoRealm : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoInstrument : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoModels : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoRegion : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoFrequency : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoDataFormat : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoRelatedUrlContentType : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoTemporalResolutionRange : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoSourceType : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoModel : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoLocation : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoExperiment : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoChronostratigraphicUnit : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoVariable : "relation_TargetsLocation"
+HsdoVariable ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoVariable ||--|o HsdoMeasurementName : "skos_broader"
+HsdoVariable ||--|o HsdoNominalResolution : "skos_broader"
+HsdoVariable ||--|o HsdoProvider : "skos_broader"
+HsdoVariable ||--|o HsdoPlatform : "skos_broader"
+HsdoVariable ||--|o HsdoProject : "skos_broader"
+HsdoVariable ||--|o SkosConcept : "skos_broader"
+HsdoVariable ||--|o HsdoRealm : "skos_broader"
+HsdoVariable ||--|o HsdoDataset : "skos_broader"
+HsdoVariable ||--|o HsdoInstrument : "skos_broader"
+HsdoVariable ||--|o HsdoModels : "skos_broader"
+HsdoVariable ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoVariable ||--|o HsdoRegion : "skos_broader"
+HsdoVariable ||--|o HsdoDataFormat : "skos_broader"
+HsdoVariable ||--|o HsdoMimeType : "skos_broader"
+HsdoVariable ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoVariable ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoVariable ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoVariable ||--|o HsdoSourceType : "skos_broader"
+HsdoVariable ||--|o HsdoModel : "skos_broader"
+HsdoVariable ||--|o HsdoLocation : "skos_broader"
+HsdoVariable ||--|o HsdoExperiment : "skos_broader"
+HsdoVariable ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoVariable ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoVariable ||--|o HsdoLicense : "skos_broader"
+HsdoVariable ||--|o HsdoVariable : "skos_broader"
+HsdoVariable ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoVariable ||--|o HsdoSourceType : "relation_HasRequiredModelComponents"
+HsdoVariable ||--|o HsdoModel : "relation_HasRequiredModelComponents"
+HsdoVariable ||--|o HsdoLocation : "relation_HasRequiredModelComponents"
+HsdoVariable ||--|o HsdoExperiment : "relation_HasRequiredModelComponents"
+HsdoVariable ||--|o HsdoVariable : "relation_HasRequiredModelComponents"
+HsdoVariable ||--|o HsdoProvider : "relation_HasRequiredModelComponents"
+HsdoVariable ||--|o HsdoSourceType : "relation_HasAdditionalAllowedModelComponents"
+HsdoVariable ||--|o HsdoModel : "relation_HasAdditionalAllowedModelComponents"
+HsdoVariable ||--|o HsdoExperiment : "relation_HasAdditionalAllowedModelComponents"
+HsdoVariable ||--|o HsdoVariable : "relation_HasAdditionalAllowedModelComponents"
+HsdoVariable ||--|o HsdoProvider : "relation_HasAdditionalAllowedModelComponents"
+HsdoVariable ||--|o HsdoScienceKeyword : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoObs4MipsSourceId : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoMeasurementName : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoInstitution : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoActivity : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoProvider : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoPlatform : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoProject : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoRealm : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoDataset : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoInstrument : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoModels : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoRegion : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoDataFormat : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoRelatedUrlContentType : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoCmip6SourceId : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoTemporalResolutionRange : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoSourceType : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoModel : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoLocation : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoExperiment : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoSubExperimentId : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoChronostratigraphicUnit : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoVariable : "relation_ComparedTo"
+HsdoVariable ||--|o HsdoModel : "relation_HasParentExperiment"
+HsdoVariable ||--|o HsdoProject : "relation_HasParentExperiment"
+HsdoVariable ||--|o HsdoLocation : "relation_HasParentExperiment"
+HsdoVariable ||--|o HsdoExperiment : "relation_HasParentExperiment"
+HsdoVariable ||--|o HsdoVariable : "relation_HasParentExperiment"
+HsdoVariable ||--|o HsdoProvider : "relation_HasParentExperiment"
+HsdoVariable ||--|o HsdoScienceKeyword : "relation_RunBy"
+HsdoVariable ||--|o HsdoCmip6SourceId : "relation_RunBy"
+HsdoVariable ||--|o HsdoPlatform : "relation_RunBy"
+HsdoVariable ||--|o HsdoSourceType : "relation_RunBy"
+HsdoVariable ||--|o HsdoMeasurementName : "relation_RunBy"
+HsdoVariable ||--|o HsdoModel : "relation_RunBy"
+HsdoVariable ||--|o HsdoProject : "relation_RunBy"
+HsdoVariable ||--|o HsdoDataFormat : "relation_RunBy"
+HsdoVariable ||--|o HsdoExperiment : "relation_RunBy"
+HsdoVariable ||--|o HsdoLocation : "relation_RunBy"
+HsdoVariable ||--|o HsdoInstitution : "relation_RunBy"
+HsdoVariable ||--|o HsdoActivity : "relation_RunBy"
+HsdoVariable ||--|o HsdoInstrument : "relation_RunBy"
+HsdoVariable ||--|o HsdoChronostratigraphicUnit : "relation_RunBy"
+HsdoVariable ||--|o HsdoModels : "relation_RunBy"
+HsdoVariable ||--|o HsdoVariable : "relation_RunBy"
+HsdoVariable ||--|o HsdoProvider : "relation_RunBy"
+HsdoVariable ||--|o HsdoScienceKeyword : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoObs4MipsSourceId : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoMeasurementName : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoInstitution : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoActivity : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoProvider : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoPlatform : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoProject : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoRealm : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoDataset : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoInstrument : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoModels : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoRegion : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoDataFormat : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoRelatedUrlContentType : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoCmip6SourceId : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoSourceType : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoModel : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoLocation : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoExperiment : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoSubExperimentId : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoChronostratigraphicUnit : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoVariable : "relation_ProvidedBy"
+HsdoVariable ||--|o HsdoScienceKeyword : "relation_Outputs"
+HsdoVariable ||--|o HsdoPlatform : "relation_Outputs"
+HsdoVariable ||--|o HsdoSourceType : "relation_Outputs"
+HsdoVariable ||--|o HsdoMeasurementName : "relation_Outputs"
+HsdoVariable ||--|o HsdoProject : "relation_Outputs"
+HsdoVariable ||--|o HsdoModel : "relation_Outputs"
+HsdoVariable ||--|o HsdoDataFormat : "relation_Outputs"
+HsdoVariable ||--|o HsdoRealm : "relation_Outputs"
+HsdoVariable ||--|o HsdoDataset : "relation_Outputs"
+HsdoVariable ||--|o HsdoLocation : "relation_Outputs"
+HsdoVariable ||--|o HsdoExperiment : "relation_Outputs"
+HsdoVariable ||--|o HsdoInstitution : "relation_Outputs"
+HsdoVariable ||--|o HsdoActivity : "relation_Outputs"
+HsdoVariable ||--|o HsdoInstrument : "relation_Outputs"
+HsdoVariable ||--|o HsdoRelatedUrlContentType : "relation_Outputs"
+HsdoVariable ||--|o HsdoModels : "relation_Outputs"
+HsdoVariable ||--|o HsdoVariable : "relation_Outputs"
+HsdoVariable ||--|o HsdoProvider : "relation_Outputs"
+HsdoVariable ||--|o HsdoProject : "relation_HasActivity"
+HsdoVariable ||--|o HsdoModel : "relation_HasActivity"
+HsdoVariable ||--|o HsdoExperiment : "relation_HasActivity"
+HsdoVariable ||--|o HsdoLocation : "relation_HasActivity"
+HsdoVariable ||--|o HsdoActivity : "relation_HasActivity"
+HsdoVariable ||--|o HsdoVariable : "relation_HasActivity"
+HsdoVariable ||--|o HsdoProvider : "relation_HasActivity"
+HsdoVariable ||--|o HsdoProject : "relation_HasParentActivity"
+HsdoVariable ||--|o HsdoModel : "relation_HasParentActivity"
+HsdoVariable ||--|o HsdoExperiment : "relation_HasParentActivity"
+HsdoVariable ||--|o HsdoActivity : "relation_HasParentActivity"
+HsdoVariable ||--|o HsdoVariable : "relation_HasParentActivity"
+HsdoVariable ||--|o HsdoProvider : "relation_HasParentActivity"
+HsdoVariable ||--|o HsdoProject : "relation_HasProjectName"
+HsdoVariable ||--|o HsdoProvider : "relation_HasProjectName"
+HsdoVerticalResolutionRange ||--|o HsdoScienceKeyword : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoObs4MipsSourceId : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoMeasurementName : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoActivity : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoProvider : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoPlatform : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoProject : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoRealm : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoDataset : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoInstrument : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoModels : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoRegion : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoDataFormat : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoRelatedUrlContentType : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoCmip6SourceId : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoTemporalResolutionRange : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoVerticalResolutionRange : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoSourceType : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoModel : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoLocation : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoExperiment : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoSubExperimentId : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoChronostratigraphicUnit : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoVariable : "relation_MeasuredAt"
+HsdoVerticalResolutionRange ||--|o HsdoScienceKeyword : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoMeasurementName : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoNominalResolution : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoProvider : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoPlatform : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoProject : "skos_broader"
+HsdoVerticalResolutionRange ||--|o SkosConcept : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoRealm : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoDataset : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoInstrument : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoModels : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoRegion : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoDataFormat : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoMimeType : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoRelatedUrlContentType : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoVerticalResolutionRange : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoTemporalResolutionRange : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoSourceType : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoModel : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoLocation : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoExperiment : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoSubExperimentId : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoLicense : "skos_broader"
+HsdoVerticalResolutionRange ||--|o HsdoVariable : "skos_broader"
+HsdoPaper ||--|o HsdoScienceKeyword : "relation_Mention"
+HsdoPaper ||--|o HsdoObs4MipsSourceId : "relation_Mention"
+HsdoPaper ||--|o HsdoMeasurementName : "relation_Mention"
+HsdoPaper ||--|o HsdoInstitution : "relation_Mention"
+HsdoPaper ||--|o HsdoActivity : "relation_Mention"
+HsdoPaper ||--|o HsdoNominalResolution : "relation_Mention"
+HsdoPaper ||--|o HsdoProvider : "relation_Mention"
+HsdoPaper ||--|o HsdoPlatform : "relation_Mention"
+HsdoPaper ||--|o HsdoProject : "relation_Mention"
+HsdoPaper ||--|o HsdoRealm : "relation_Mention"
+HsdoPaper ||--|o HsdoDataset : "relation_Mention"
+HsdoPaper ||--|o HsdoInstrument : "relation_Mention"
+HsdoPaper ||--|o HsdoModels : "relation_Mention"
+HsdoPaper ||--|o HsdoHorizontalResolutionRange : "relation_Mention"
+HsdoPaper ||--|o HsdoRegion : "relation_Mention"
+HsdoPaper ||--|o HsdoFrequency : "relation_Mention"
+HsdoPaper ||--|o HsdoDataFormat : "relation_Mention"
+HsdoPaper ||--|o HsdoRelatedUrlContentType : "relation_Mention"
+HsdoPaper ||--|o HsdoCmip6SourceId : "relation_Mention"
+HsdoPaper ||--|o HsdoTemporalResolutionRange : "relation_Mention"
+HsdoPaper ||--|o HsdoVerticalResolutionRange : "relation_Mention"
+HsdoPaper ||--|o HsdoSourceType : "relation_Mention"
+HsdoPaper ||--|o HsdoModel : "relation_Mention"
+HsdoPaper ||--|o HsdoExperiment : "relation_Mention"
+HsdoPaper ||--|o HsdoLocation : "relation_Mention"
+HsdoPaper ||--|o HsdoSubExperimentId : "relation_Mention"
+HsdoPaper ||--|o HsdoChronostratigraphicUnit : "relation_Mention"
+HsdoPaper ||--|o HsdoLicense : "relation_Mention"
+HsdoPaper ||--|o HsdoGridLabel : "relation_Mention"
+HsdoPaper ||--|o HsdoVariable : "relation_Mention"
+SkosConcept ||--|o SkosConcept : "skos_narrower"
+SkosConcept ||--|o HsdoScienceKeyword : "skos_broader"
+SkosConcept ||--|o HsdoMeasurementName : "skos_broader"
+SkosConcept ||--|o HsdoNominalResolution : "skos_broader"
+SkosConcept ||--|o HsdoProvider : "skos_broader"
+SkosConcept ||--|o HsdoPlatform : "skos_broader"
+SkosConcept ||--|o HsdoProject : "skos_broader"
+SkosConcept ||--|o SkosConcept : "skos_broader"
+SkosConcept ||--|o HsdoRealm : "skos_broader"
+SkosConcept ||--|o HsdoDataset : "skos_broader"
+SkosConcept ||--|o HsdoInstrument : "skos_broader"
+SkosConcept ||--|o HsdoModels : "skos_broader"
+SkosConcept ||--|o HsdoHorizontalResolutionRange : "skos_broader"
+SkosConcept ||--|o HsdoRegion : "skos_broader"
+SkosConcept ||--|o HsdoDataFormat : "skos_broader"
+SkosConcept ||--|o HsdoMimeType : "skos_broader"
+SkosConcept ||--|o HsdoRelatedUrlContentType : "skos_broader"
+SkosConcept ||--|o HsdoVerticalResolutionRange : "skos_broader"
+SkosConcept ||--|o HsdoTemporalResolutionRange : "skos_broader"
+SkosConcept ||--|o HsdoSourceType : "skos_broader"
+SkosConcept ||--|o HsdoModel : "skos_broader"
+SkosConcept ||--|o HsdoLocation : "skos_broader"
+SkosConcept ||--|o HsdoExperiment : "skos_broader"
+SkosConcept ||--|o HsdoSubExperimentId : "skos_broader"
+SkosConcept ||--|o HsdoChronostratigraphicUnit : "skos_broader"
+SkosConcept ||--|o HsdoLicense : "skos_broader"
+SkosConcept ||--|o HsdoVariable : "skos_broader"
 
 ```
-
-
-
-## Imports
-
-
-* ./schemaorg
-* ./prov
-* linkml:types
 
 
 
@@ -3537,20 +4983,39 @@ ProvEntity ||--|o HsdoTextObject : "prov_wasInfluencedBy"
 
 | Class | Description | Occurrences |
 | --- | --- | --- |
-| [HsdoAdministrativeArea](classes/HsdoAdministrativeArea.md) | A geographical region, typically under the jurisdiction of a particular government.<br/>| 39 | 
-| [HsdoAudience](classes/HsdoAudience.md) | Intended audience for an item, i.e. the group for whom the item was created.<br/>| 81 | 
-| [HsdoCategoryCode](classes/HsdoCategoryCode.md) | A Category Code.<br/>| 157 | 
-| [HsdoContactPoint](classes/HsdoContactPoint.md) | A contact point&#x2014;for example, a Customer Complaints department.<br/>| 87 | 
-| [HsdoOpeningHoursSpecification](classes/HsdoOpeningHoursSpecification.md) | A structured value providing information about the opening hours of a place or a certain service inside a place.\n\n␊The place is __open__ if the [[opens]] property is specified, and __closed__ otherwise.\n\nIf the value for the [[closes]] property is less than the value for the [[opens]] property then the hour range is assumed to span over the next day.␊      <br/>| 609 | 
-| [HsdoOrganization](classes/HsdoOrganization.md) | An organization such as a school, NGO, corporation, club, etc.<br/>| 87 | 
-| [HsdoPlace](classes/HsdoPlace.md) | Entities that have a somewhat fixed, physical extension.<br/>| 87 | 
-| [HsdoService](classes/HsdoService.md) | A service provided by an organization, e.g. delivery service, print services, etc.<br/>| 87 | 
-| [HsdoServiceChannel](classes/HsdoServiceChannel.md) | A means for accessing a service, e.g. a government office location, web site, or phone number.<br/>| 174 | 
-| [HsdoTextObject](classes/HsdoTextObject.md) | No class (type) description specified<br/>| 87 | 
-| [HsdoWebPage](classes/HsdoWebPage.md) | A web page. Every web page is implicitly assumed to be declared to be of type WebPage, so the various properties about that webpage, such as <code>breadcrumb</code> may be used. We recommend explicit declaration if these properties are specified, but if they are found outside of an itemscope, they will be assumed to be about the page.<br/>| 87 | 
-| [ProvActivity](classes/ProvActivity.md) | No class (type) description specified<br/>| 1 | 
-| [ProvCollection](classes/ProvCollection.md) | No class (type) description specified<br/>| 2 | 
-| [ProvEntity](classes/ProvEntity.md) | No class (type) description specified<br/>| 1586 | 
+| [HsdoActivity](classes/HsdoActivity.md) | No class (type) description specified<br/>| 24 | 
+| [HsdoChronostratigraphicUnit](classes/HsdoChronostratigraphicUnit.md) | No class (type) description specified<br/>| 184 | 
+| [HsdoCmip6SourceId](classes/HsdoCmip6SourceId.md) | No class (type) description specified<br/>| 134 | 
+| [HsdoDataFormat](classes/HsdoDataFormat.md) | No class (type) description specified<br/>| 198 | 
+| [HsdoDataset](classes/HsdoDataset.md) | A body of structured information describing some topic(s) of interest.<br/>| 107 | 
+| [HsdoExperiment](classes/HsdoExperiment.md) | No class (type) description specified<br/>| 467 | 
+| [HsdoFrequency](classes/HsdoFrequency.md) | No class (type) description specified<br/>| 16 | 
+| [HsdoGridLabel](classes/HsdoGridLabel.md) | No class (type) description specified<br/>| 45 | 
+| [HsdoHorizontalResolutionRange](classes/HsdoHorizontalResolutionRange.md) | No class (type) description specified<br/>| 15 | 
+| [HsdoInstitution](classes/HsdoInstitution.md) | No class (type) description specified<br/>| 75 | 
+| [HsdoInstrument](classes/HsdoInstrument.md) | No class (type) description specified<br/>| 2416 | 
+| [HsdoLicense](classes/HsdoLicense.md) | No class (type) description specified<br/>| 5 | 
+| [HsdoLocation](classes/HsdoLocation.md) | No class (type) description specified<br/>| 1168 | 
+| [HsdoMeasurementName](classes/HsdoMeasurementName.md) | No class (type) description specified<br/>| 251 | 
+| [HsdoMimeType](classes/HsdoMimeType.md) | No class (type) description specified<br/>| 38 | 
+| [HsdoModel](classes/HsdoModel.md) | No class (type) description specified<br/>| 372 | 
+| [HsdoModels](classes/HsdoModels.md) | No class (type) description specified<br/>| 442 | 
+| [HsdoNominalResolution](classes/HsdoNominalResolution.md) | No class (type) description specified<br/>| 16 | 
+| [HsdoObs4MipsSourceId](classes/HsdoObs4MipsSourceId.md) | No class (type) description specified<br/>| 106 | 
+| [HsdoPaper](classes/HsdoPaper.md) | No class (type) description specified<br/>| 300 | 
+| [HsdoPlatform](classes/HsdoPlatform.md) | No class (type) description specified<br/>| 1390 | 
+| [HsdoProject](classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned to achieve a particular aim.␊Use properties from [[Organization]], [[subOrganization]]/[[parentOrganization]] to indicate project sub-structures. ␊   <br/>| 2057 | 
+| [HsdoProvider](classes/HsdoProvider.md) | No class (type) description specified<br/>| 4469 | 
+| [HsdoRealm](classes/HsdoRealm.md) | No class (type) description specified<br/>| 9 | 
+| [HsdoRegion](classes/HsdoRegion.md) | No class (type) description specified<br/>| 69 | 
+| [HsdoRelatedUrlContentType](classes/HsdoRelatedUrlContentType.md) | No class (type) description specified<br/>| 105 | 
+| [HsdoScienceKeyword](classes/HsdoScienceKeyword.md) | No class (type) description specified<br/>| 4109 | 
+| [HsdoSourceType](classes/HsdoSourceType.md) | No class (type) description specified<br/>| 15 | 
+| [HsdoSubExperimentId](classes/HsdoSubExperimentId.md) | No class (type) description specified<br/>| 75 | 
+| [HsdoTemporalResolutionRange](classes/HsdoTemporalResolutionRange.md) | No class (type) description specified<br/>| 36 | 
+| [HsdoVariable](classes/HsdoVariable.md) | No class (type) description specified<br/>| 2705 | 
+| [HsdoVerticalResolutionRange](classes/HsdoVerticalResolutionRange.md) | No class (type) description specified<br/>| 8 | 
+| [SkosConcept](classes/SkosConcept.md) | No class (type) description specified<br/>| 16359 | 
 
 
 
@@ -3560,39 +5025,48 @@ ProvEntity ||--|o HsdoTextObject : "prov_wasInfluencedBy"
 
 | Slot | Description | Occurrences |
 | --- | --- | --- |
-| [hsdo_address](slots/hsdo_address.md) | Physical address of the item<br/>| 93 |
-| [hsdo_areaServed](slots/hsdo_areaServed.md) | The geographic area where a service or offered item is provided<br/>| 87 |
-| [hsdo_audienceType](slots/hsdo_audienceType.md) | The target group associated with a given audience (e<br/>| 81 |
-| [hsdo_availableChannel](slots/hsdo_availableChannel.md) | A means of accessing the service (e<br/>| 174 |
-| [hsdo_category](slots/hsdo_category.md) | A category for the item<br/>| 1345 |
-| [hsdo_closes](slots/hsdo_closes.md) | The closing hour of the place or service on the given day(s) of the week<br/>| 623 |
-| [hsdo_codeValue](slots/hsdo_codeValue.md) | A short textual code that uniquely identifies the value<br/>| 158 |
-| [hsdo_conditionsOfAccess](slots/hsdo_conditionsOfAccess.md) | Conditions that affect the availability of, or method(s) of access to, an ite...<br/>| 88 |
-| [hsdo_containedInPlace](slots/hsdo_containedInPlace.md) | The basic containment relation between a place and one that contains it<br/>| 88 |
-| [hsdo_dayOfWeek](slots/hsdo_dayOfWeek.md) | The day of the week for which these opening hours are valid<br/>| 609 |
-| [hsdo_description](slots/hsdo_description.md) | A description of the item<br/>| 87 |
-| [hsdo_disambiguatingDescription](slots/hsdo_disambiguatingDescription.md) | A sub property of description<br/>| 174 |
-| [hsdo_hasMap](slots/hsdo_hasMap.md) | A URL to a map of the place<br/>| 88 |
-| [hsdo_hoursAvailable](slots/hsdo_hoursAvailable.md) | The hours during which this service or contact is available<br/>| 609 |
-| [hsdo_identifier](slots/hsdo_identifier.md) | The identifier property represents any kind of identifier for any kind of [[T...<br/>| 126 |
-| [hsdo_inCodeSet](slots/hsdo_inCodeSet.md) | A [[CategoryCodeSet]] that contains this category code<br/>| 157 |
-| [hsdo_latitude](slots/hsdo_latitude.md) | The latitude of a location<br/>| 89 |
-| [hsdo_longitude](slots/hsdo_longitude.md) | The longitude of a location<br/>| 89 |
-| [hsdo_name](slots/hsdo_name.md) | The name of the item<br/>| 177 |
-| [hsdo_opens](slots/hsdo_opens.md) | The opening hour of the place or service on the given day(s) of the week<br/>| 631 |
-| [hsdo_provider](slots/hsdo_provider.md) | The service provider, service operator, or service performer; the goods produ...<br/>| 87 |
-| [hsdo_sameAs](slots/hsdo_sameAs.md) | URL of a reference Web page that unambiguously indicates the item's identity<br/>| 127 |
-| [hsdo_serviceLocation](slots/hsdo_serviceLocation.md) | The location (e<br/>| 87 |
-| [hsdo_servicePhone](slots/hsdo_servicePhone.md) | The phone number to use to access the service<br/>| 87 |
-| [hsdo_serviceUrl](slots/hsdo_serviceUrl.md) | The website to access the service<br/>| 188 |
-| [hsdo_telephone](slots/hsdo_telephone.md) | The telephone number<br/>| 87 |
-| [hsdo_text](slots/hsdo_text.md) | The textual content of this CreativeWork<br/>| 90 |
-| [prov_generated](slots/prov_generated.md) | No slot (predicate) description specified<br/>| 1495 |
-| [prov_hadMember](slots/prov_hadMember.md) | No slot (predicate) description specified<br/>| 1305 |
-| [prov_influenced](slots/prov_influenced.md) | No slot (predicate) description specified<br/>| 7839 |
-| [prov_wasDerivedFrom](slots/prov_wasDerivedFrom.md) | The more specific subproperties of prov:wasDerivedFrom (i<br/>| 2990 |
-| [prov_wasGeneratedBy](slots/prov_wasGeneratedBy.md) | No slot (predicate) description specified<br/>| 1495 |
-| [prov_wasInfluencedBy](slots/prov_wasInfluencedBy.md) | Because prov:wasInfluencedBy is a broad relation, its more specific subproper...<br/>| 7839 |
+| [attribute_authors](slots/attribute_authors.md) | No slot (predicate) description specified<br/>| 287 |
+| [attribute_doi](slots/attribute_doi.md) | No slot (predicate) description specified<br/>| 284 |
+| [attribute_end_year](slots/attribute_end_year.md) | No slot (predicate) description specified<br/>| 322 |
+| [attribute_experiment](slots/attribute_experiment.md) | No slot (predicate) description specified<br/>| 322 |
+| [attribute_pub_date](slots/attribute_pub_date.md) | No slot (predicate) description specified<br/>| 181 |
+| [attribute_start_year](slots/attribute_start_year.md) | No slot (predicate) description specified<br/>| 322 |
+| [attribute_tier](slots/attribute_tier.md) | No slot (predicate) description specified<br/>| 322 |
+| [attribute_title](slots/attribute_title.md) | No slot (predicate) description specified<br/>| 286 |
+| [example_ontology_definition](slots/example_ontology_definition.md) | No slot (predicate) description specified<br/>| 14490 |
+| [example_ontology_id](slots/example_ontology_id.md) | No slot (predicate) description specified<br/>| 16360 |
+| [example_ontology_path_id](slots/example_ontology_path_id.md) | No slot (predicate) description specified<br/>| 49759 |
+| [example_ontology_path_label](slots/example_ontology_path_label.md) | No slot (predicate) description specified<br/>| 49749 |
+| [example_ontology_prefLabel](slots/example_ontology_prefLabel.md) | No slot (predicate) description specified<br/>| 16360 |
+| [example_ontology_reference](slots/example_ontology_reference.md) | No slot (predicate) description specified<br/>| 14490 |
+| [example_ontology_tag](slots/example_ontology_tag.md) | No slot (predicate) description specified<br/>| 17377 |
+| [relation_ComparedTo](slots/relation_ComparedTo.md) | No slot (predicate) description specified<br/>| 2056 |
+| [relation_HasActivity](slots/relation_HasActivity.md) | No slot (predicate) description specified<br/>| 334 |
+| [relation_HasActivityParticipation](slots/relation_HasActivityParticipation.md) | No slot (predicate) description specified<br/>| 685 |
+| [relation_HasAdditionalAllowedModelComponents](slots/relation_HasAdditionalAllowedModelComponents.md) | No slot (predicate) description specified<br/>| 706 |
+| [relation_HasInstitution](slots/relation_HasInstitution.md) | No slot (predicate) description specified<br/>| 257 |
+| [relation_HasLicenseInfo](slots/relation_HasLicenseInfo.md) | No slot (predicate) description specified<br/>| 131 |
+| [relation_HasModelComponent](slots/relation_HasModelComponent.md) | No slot (predicate) description specified<br/>| 677 |
+| [relation_HasParentActivity](slots/relation_HasParentActivity.md) | No slot (predicate) description specified<br/>| 251 |
+| [relation_HasParentExperiment](slots/relation_HasParentExperiment.md) | No slot (predicate) description specified<br/>| 251 |
+| [relation_HasProjectName](slots/relation_HasProjectName.md) | No slot (predicate) description specified<br/>| 2118 |
+| [relation_HasRegion](slots/relation_HasRegion.md) | No slot (predicate) description specified<br/>| 109 |
+| [relation_HasRequiredModelComponents](slots/relation_HasRequiredModelComponents.md) | No slot (predicate) description specified<br/>| 430 |
+| [relation_HasSourceType](slots/relation_HasSourceType.md) | No slot (predicate) description specified<br/>| 106 |
+| [relation_MeasuredAt](slots/relation_MeasuredAt.md) | No slot (predicate) description specified<br/>| 3559 |
+| [relation_Mention](slots/relation_Mention.md) | No slot (predicate) description specified<br/>| 15559 |
+| [relation_MountedOn](slots/relation_MountedOn.md) | No slot (predicate) description specified<br/>| 74 |
+| [relation_Outputs](slots/relation_Outputs.md) | No slot (predicate) description specified<br/>| 338 |
+| [relation_ProvidedBy](slots/relation_ProvidedBy.md) | No slot (predicate) description specified<br/>| 656 |
+| [relation_RunBy](slots/relation_RunBy.md) | No slot (predicate) description specified<br/>| 144 |
+| [relation_TargetsLocation](slots/relation_TargetsLocation.md) | No slot (predicate) description specified<br/>| 3084 |
+| [relation_UsedIn](slots/relation_UsedIn.md) | No slot (predicate) description specified<br/>| 977 |
+| [relation_ValidatedBy](slots/relation_ValidatedBy.md) | No slot (predicate) description specified<br/>| 44 |
+| [skos_broader](slots/skos_broader.md) | No slot (predicate) description specified<br/>| 66097 |
+| [skos_definition](slots/skos_definition.md) | No slot (predicate) description specified<br/>| 30436 |
+| [skos_inScheme](slots/skos_inScheme.md) | No slot (predicate) description specified<br/>| 16359 |
+| [skos_narrower](slots/skos_narrower.md) | No slot (predicate) description specified<br/>| 16338 |
+| [skos_prefLabel](slots/skos_prefLabel.md) | No slot (predicate) description specified<br/>| 32719 |
 
 
 
@@ -3604,38 +5078,13 @@ ProvEntity ||--|o HsdoTextObject : "prov_wasInfluencedBy"
 
 ## IRI prefixes
 
-* dreamkg: http://www.semanticweb.org/dreamkg/ijcai/
+* attribute: http://attribute.org/
+* example: http://example.org/
 * hsdo: http://schema.org/
 * linkml: https://w3id.org/linkml/
-* prov: http://www.w3.org/ns/prov#
+* obo: http://purl.obolibrary.org/obo/
+* relation: http://relation.org/
+* skos: http://www.w3.org/2004/02/skos/core#
 * xsd: http://www.w3.org/2001/XMLSchema#
 * shex: http://www.w3.org/ns/shex#
 * schema: http://schema.org/
-* linkml_prov: https://w3id.org/linkml/prov/
-* example: http://example.org/example/
-* brick: https://brickschema.org/schema/Brick#
-* csvw: http://www.w3.org/ns/csvw#
-* dc: http://purl.org/dc/elements/1.1/
-* dcat: http://www.w3.org/ns/dcat#
-* dcmitype: http://purl.org/dc/dcmitype/
-* dcam: http://purl.org/dc/dcam/
-* doap: http://usefulinc.com/ns/doap#
-* foaf: http://xmlns.com/foaf/0.1/
-* geo: http://www.opengis.net/ont/geosparql#
-* odrl: http://www.w3.org/ns/odrl/2/
-* org: http://www.w3.org/ns/org#
-* prof: http://www.w3.org/ns/dx/prof/
-* qb: http://purl.org/linked-data/cube#
-* sh: http://www.w3.org/ns/shacl#
-* sosa: http://www.w3.org/ns/sosa/
-* ssn: http://www.w3.org/ns/ssn/
-* time: http://www.w3.org/2006/time#
-* vann: http://purl.org/vocab/vann/
-* void: http://rdfs.org/ns/void#
-* wgs: https://www.w3.org/2003/01/geo/wgs84_pos#
-* rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
-* rdfs: http://www.w3.org/2000/01/rdf-schema#
-* xml: http://www.w3.org/XML/1998/namespace
-* ns1: http://www.w3.org/2004/02/skos/core#
-* ns2: http://purl.org/dc/terms/
-* ns3: http://www.w3.org/2002/07/owl#
