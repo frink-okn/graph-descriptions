@@ -27,12 +27,12 @@ URI: [attribute:start_year](http://attribute.org/start_year)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoModel](../classes/HsdoModel.md) | No class (type) description specified |  yes  |
-| [HsdoExperiment](../classes/HsdoExperiment.md) | No class (type) description specified |  yes  |
-| [HsdoLocation](../classes/HsdoLocation.md) | No class (type) description specified |  yes  |
-| [HsdoProject](../classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  yes  |
-| [HsdoProvider](../classes/HsdoProvider.md) | No class (type) description specified |  yes  |
 | [HsdoVariable](../classes/HsdoVariable.md) | No class (type) description specified |  yes  |
+| [HsdoProvider](../classes/HsdoProvider.md) | No class (type) description specified |  yes  |
+| [HsdoExperiment](../classes/HsdoExperiment.md) | No class (type) description specified |  yes  |
+| [HsdoProject](../classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  yes  |
+| [HsdoModel](../classes/HsdoModel.md) | No class (type) description specified |  yes  |
+| [HsdoLocation](../classes/HsdoLocation.md) | No class (type) description specified |  yes  |
 
 
 
@@ -55,9 +55,9 @@ URI: [attribute:start_year](http://attribute.org/start_year)
 | --- | --- | --- | --- | --- |
 | hsdo_Experiment | string | https://climateKG.org/entity/033c6854-b6b0-47b7-b41d-6c482932f336 |  | 322 |
 | hsdo_Model | string | https://climateKG.org/entity/0f07d4c2-cfee-43ff-86d1-289058fe5050 | 2015 | 4 |
+| hsdo_Variable | string | https://climateKG.org/entity/20dea6db-e5d4-42a9-a1d5-0421c65fced8 | 1850 | 5 |
 | hsdo_Location | string | https://climateKG.org/entity/20dea6db-e5d4-42a9-a1d5-0421c65fced8 | 1850 | 3 |
 | hsdo_Provider | string | https://climateKG.org/entity/20dea6db-e5d4-42a9-a1d5-0421c65fced8 | 1850 | 2 |
-| hsdo_Variable | string | https://climateKG.org/entity/20dea6db-e5d4-42a9-a1d5-0421c65fced8 | 1850 | 5 |
 | hsdo_Project | string | https://climateKG.org/entity/4c94cb2e-37fb-4a76-a69b-a9d0731dbe3c |  | 4 |
 
 
@@ -92,6 +92,12 @@ examples:
     example_object_type: string
     example_predicate: attribute:start_year
     example_subject: https://climateKG.org/entity/20dea6db-e5d4-42a9-a1d5-0421c65fced8
+    example_subject_type: hsdo_Variable
+- object:
+    example_object: '1850'
+    example_object_type: string
+    example_predicate: attribute:start_year
+    example_subject: https://climateKG.org/entity/20dea6db-e5d4-42a9-a1d5-0421c65fced8
     example_subject_type: hsdo_Location
 - object:
     example_object: '1850'
@@ -99,12 +105,6 @@ examples:
     example_predicate: attribute:start_year
     example_subject: https://climateKG.org/entity/20dea6db-e5d4-42a9-a1d5-0421c65fced8
     example_subject_type: hsdo_Provider
-- object:
-    example_object: '1850'
-    example_object_type: string
-    example_predicate: attribute:start_year
-    example_subject: https://climateKG.org/entity/20dea6db-e5d4-42a9-a1d5-0421c65fced8
-    example_subject_type: hsdo_Variable
 - object:
     example_object: ''
     example_object_type: string

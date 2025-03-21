@@ -27,38 +27,38 @@ URI: [skos:prefLabel](http://www.w3.org/2004/02/skos/core#prefLabel)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoRealm](../classes/HsdoRealm.md) | No class (type) description specified |  yes  |
-| [HsdoHorizontalResolutionRange](../classes/HsdoHorizontalResolutionRange.md) | No class (type) description specified |  yes  |
-| [HsdoNominalResolution](../classes/HsdoNominalResolution.md) | No class (type) description specified |  yes  |
-| [HsdoExperiment](../classes/HsdoExperiment.md) | No class (type) description specified |  yes  |
-| [HsdoRelatedUrlContentType](../classes/HsdoRelatedUrlContentType.md) | No class (type) description specified |  yes  |
-| [HsdoSourceType](../classes/HsdoSourceType.md) | No class (type) description specified |  yes  |
-| [HsdoProject](../classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  yes  |
-| [HsdoLicense](../classes/HsdoLicense.md) | No class (type) description specified |  yes  |
-| [HsdoVariable](../classes/HsdoVariable.md) | No class (type) description specified |  yes  |
-| [HsdoGridLabel](../classes/HsdoGridLabel.md) | No class (type) description specified |  yes  |
-| [HsdoDataFormat](../classes/HsdoDataFormat.md) | No class (type) description specified |  yes  |
+| [HsdoScienceKeyword](../classes/HsdoScienceKeyword.md) | No class (type) description specified |  yes  |
+| [HsdoProvider](../classes/HsdoProvider.md) | No class (type) description specified |  yes  |
+| [HsdoTemporalResolutionRange](../classes/HsdoTemporalResolutionRange.md) | No class (type) description specified |  yes  |
 | [SkosConcept](../classes/SkosConcept.md) | No class (type) description specified |  yes  |
-| [HsdoInstrument](../classes/HsdoInstrument.md) | No class (type) description specified |  yes  |
-| [HsdoMeasurementName](../classes/HsdoMeasurementName.md) | No class (type) description specified |  yes  |
-| [HsdoObs4MipsSourceId](../classes/HsdoObs4MipsSourceId.md) | No class (type) description specified |  yes  |
-| [HsdoMimeType](../classes/HsdoMimeType.md) | No class (type) description specified |  yes  |
-| [HsdoFrequency](../classes/HsdoFrequency.md) | No class (type) description specified |  yes  |
+| [HsdoGridLabel](../classes/HsdoGridLabel.md) | No class (type) description specified |  yes  |
 | [HsdoVerticalResolutionRange](../classes/HsdoVerticalResolutionRange.md) | No class (type) description specified |  yes  |
+| [HsdoNominalResolution](../classes/HsdoNominalResolution.md) | No class (type) description specified |  yes  |
+| [HsdoSourceType](../classes/HsdoSourceType.md) | No class (type) description specified |  yes  |
+| [HsdoFrequency](../classes/HsdoFrequency.md) | No class (type) description specified |  yes  |
+| [HsdoSubExperimentId](../classes/HsdoSubExperimentId.md) | No class (type) description specified |  yes  |
+| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | No class (type) description specified |  yes  |
+| [HsdoRealm](../classes/HsdoRealm.md) | No class (type) description specified |  yes  |
+| [HsdoExperiment](../classes/HsdoExperiment.md) | No class (type) description specified |  yes  |
+| [HsdoHorizontalResolutionRange](../classes/HsdoHorizontalResolutionRange.md) | No class (type) description specified |  yes  |
+| [HsdoModels](../classes/HsdoModels.md) | No class (type) description specified |  yes  |
 | [HsdoActivity](../classes/HsdoActivity.md) | No class (type) description specified |  yes  |
-| [HsdoRegion](../classes/HsdoRegion.md) | No class (type) description specified |  yes  |
-| [HsdoPlatform](../classes/HsdoPlatform.md) | No class (type) description specified |  yes  |
+| [HsdoLocation](../classes/HsdoLocation.md) | No class (type) description specified |  yes  |
+| [HsdoRelatedUrlContentType](../classes/HsdoRelatedUrlContentType.md) | No class (type) description specified |  yes  |
+| [HsdoMeasurementName](../classes/HsdoMeasurementName.md) | No class (type) description specified |  yes  |
+| [HsdoDataset](../classes/HsdoDataset.md) | A body of structured information describing some topic(s) of interest |  yes  |
 | [HsdoInstitution](../classes/HsdoInstitution.md) | No class (type) description specified |  yes  |
 | [HsdoModel](../classes/HsdoModel.md) | No class (type) description specified |  yes  |
-| [HsdoScienceKeyword](../classes/HsdoScienceKeyword.md) | No class (type) description specified |  yes  |
-| [HsdoTemporalResolutionRange](../classes/HsdoTemporalResolutionRange.md) | No class (type) description specified |  yes  |
-| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | No class (type) description specified |  yes  |
-| [HsdoProvider](../classes/HsdoProvider.md) | No class (type) description specified |  yes  |
-| [HsdoDataset](../classes/HsdoDataset.md) | A body of structured information describing some topic(s) of interest |  yes  |
-| [HsdoSubExperimentId](../classes/HsdoSubExperimentId.md) | No class (type) description specified |  yes  |
-| [HsdoModels](../classes/HsdoModels.md) | No class (type) description specified |  yes  |
+| [HsdoInstrument](../classes/HsdoInstrument.md) | No class (type) description specified |  yes  |
+| [HsdoVariable](../classes/HsdoVariable.md) | No class (type) description specified |  yes  |
 | [HsdoChronostratigraphicUnit](../classes/HsdoChronostratigraphicUnit.md) | No class (type) description specified |  yes  |
-| [HsdoLocation](../classes/HsdoLocation.md) | No class (type) description specified |  yes  |
+| [HsdoRegion](../classes/HsdoRegion.md) | No class (type) description specified |  yes  |
+| [HsdoObs4MipsSourceId](../classes/HsdoObs4MipsSourceId.md) | No class (type) description specified |  yes  |
+| [HsdoPlatform](../classes/HsdoPlatform.md) | No class (type) description specified |  yes  |
+| [HsdoDataFormat](../classes/HsdoDataFormat.md) | No class (type) description specified |  yes  |
+| [HsdoProject](../classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  yes  |
+| [HsdoMimeType](../classes/HsdoMimeType.md) | No class (type) description specified |  yes  |
+| [HsdoLicense](../classes/HsdoLicense.md) | No class (type) description specified |  yes  |
 
 
 
@@ -80,12 +80,12 @@ URI: [skos:prefLabel](http://www.w3.org/2004/02/skos/core#prefLabel)
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
 | hsdo_Location | string | https://climateKG.org/entity/0006e246-4296-448c-9b81-a0831cad7f1c | LABRADOR_SEA | 1168 |
-| hsdo_Variable | string | https://climateKG.org/entity/001f18d3-7e61-430b-9883-1960c6256fe5 | OPTICAL_DEPTH | 2705 |
 | hsdo_Science_Keyword | string | https://climateKG.org/entity/001f18d3-7e61-430b-9883-1960c6256fe5 | OPTICAL_DEPTH | 4109 |
+| hsdo_Variable | string | https://climateKG.org/entity/001f18d3-7e61-430b-9883-1960c6256fe5 | OPTICAL_DEPTH | 2705 |
 | hsdo_Platform | string | https://climateKG.org/entity/007c3084-89db-458e-8387-14e192b6cb8e | Sentinel_1 | 1390 |
 | hsdo_Project | string | https://climateKG.org/entity/00923bad-d9ac-4093-aca3-83d3e9ae3171 | CREEFS | 2057 |
-| hsdo_Provider | string | https://climateKG.org/entity/00a97d0c-e05e-43c9-93d0-3c7a2527b3c0 | SIMIP | 4469 |
 | hsdo_Activity | string | https://climateKG.org/entity/00a97d0c-e05e-43c9-93d0-3c7a2527b3c0 | SIMIP | 24 |
+| hsdo_Provider | string | https://climateKG.org/entity/00a97d0c-e05e-43c9-93d0-3c7a2527b3c0 | SIMIP | 4469 |
 | hsdo_Model | string | https://climateKG.org/entity/00bb59aa-755d-4710-a097-f1e2836f4032 | RCM_3 | 372 |
 | hsdo_Chronostratigraphic_Unit | string | https://climateKG.org/entity/00c6f0f3-5734-4500-a69e-f6780e365985 | EARLY | 184 |
 | hsdo_Experiment | string | https://climateKG.org/entity/00ce4800-70ef-4346-aa15-0554280d0896 | HAB | 467 |
@@ -102,8 +102,8 @@ URI: [skos:prefLabel](http://www.w3.org/2004/02/skos/core#prefLabel)
 | hsdo_Cmip6_Source_Id | string | https://climateKG.org/entity/0cd4d2c4-ebfa-4759-b7aa-f9982122f581 | IPSL_CM5A2_INCA | 134 |
 | hsdo_Source_Type | string | https://climateKG.org/entity/13df63e8-85ad-405d-9b43-256371e259c0 | AOGCM | 15 |
 | hsdo_Horizontal_Resolution_Range | string | https://climateKG.org/entity/1499785c-8b74-45f4-bbf7-19d2d4e43b2f | Horizontal_Resolution_Ranges | 15 |
-| hsdo_Dataset | string | https://climateKG.org/entity/2892e23f-5249-439d-8c0e-6c1d190b3beb | ERA_5 | 107 |
 | hsdo_Obs4Mips_Source_Id | string | https://climateKG.org/entity/2892e23f-5249-439d-8c0e-6c1d190b3beb | ERA_5 | 106 |
+| hsdo_Dataset | string | https://climateKG.org/entity/2892e23f-5249-439d-8c0e-6c1d190b3beb | ERA_5 | 107 |
 | hsdo_License | string | https://climateKG.org/entity/3c937799-5ee5-4ea3-b7d5-418a625a7872 | License | 5 |
 | hsdo_Temporal_Resolution_Range | string | https://climateKG.org/entity/3d97e993-dc6a-41ff-8a49-3e837c1fc2b1 | Decadal | 36 |
 | hsdo_Nominal_Resolution | string | https://climateKG.org/entity/82a2971f-82eb-46aa-8d70-1343570edba8 | 10000_km | 16 |
@@ -138,13 +138,13 @@ examples:
     example_object_type: string
     example_predicate: skos:prefLabel
     example_subject: https://climateKG.org/entity/001f18d3-7e61-430b-9883-1960c6256fe5
-    example_subject_type: hsdo_Variable
+    example_subject_type: hsdo_Science_Keyword
 - object:
     example_object: OPTICAL_DEPTH
     example_object_type: string
     example_predicate: skos:prefLabel
     example_subject: https://climateKG.org/entity/001f18d3-7e61-430b-9883-1960c6256fe5
-    example_subject_type: hsdo_Science_Keyword
+    example_subject_type: hsdo_Variable
 - object:
     example_object: Sentinel_1
     example_object_type: string
@@ -162,13 +162,13 @@ examples:
     example_object_type: string
     example_predicate: skos:prefLabel
     example_subject: https://climateKG.org/entity/00a97d0c-e05e-43c9-93d0-3c7a2527b3c0
-    example_subject_type: hsdo_Provider
+    example_subject_type: hsdo_Activity
 - object:
     example_object: SIMIP
     example_object_type: string
     example_predicate: skos:prefLabel
     example_subject: https://climateKG.org/entity/00a97d0c-e05e-43c9-93d0-3c7a2527b3c0
-    example_subject_type: hsdo_Activity
+    example_subject_type: hsdo_Provider
 - object:
     example_object: RCM_3
     example_object_type: string
@@ -270,13 +270,13 @@ examples:
     example_object_type: string
     example_predicate: skos:prefLabel
     example_subject: https://climateKG.org/entity/2892e23f-5249-439d-8c0e-6c1d190b3beb
-    example_subject_type: hsdo_Dataset
+    example_subject_type: hsdo_Obs4Mips_Source_Id
 - object:
     example_object: ERA_5
     example_object_type: string
     example_predicate: skos:prefLabel
     example_subject: https://climateKG.org/entity/2892e23f-5249-439d-8c0e-6c1d190b3beb
-    example_subject_type: hsdo_Obs4Mips_Source_Id
+    example_subject_type: hsdo_Dataset
 - object:
     example_object: License
     example_object_type: string

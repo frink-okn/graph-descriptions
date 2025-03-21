@@ -27,33 +27,33 @@ URI: [skos:definition](http://www.w3.org/2004/02/skos/core#definition)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HsdoExperiment](../classes/HsdoExperiment.md) | No class (type) description specified |  yes  |
-| [HsdoRelatedUrlContentType](../classes/HsdoRelatedUrlContentType.md) | No class (type) description specified |  yes  |
-| [HsdoSourceType](../classes/HsdoSourceType.md) | No class (type) description specified |  yes  |
-| [HsdoProject](../classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  yes  |
-| [HsdoLicense](../classes/HsdoLicense.md) | No class (type) description specified |  yes  |
-| [HsdoVariable](../classes/HsdoVariable.md) | No class (type) description specified |  yes  |
-| [HsdoGridLabel](../classes/HsdoGridLabel.md) | No class (type) description specified |  yes  |
-| [HsdoDataFormat](../classes/HsdoDataFormat.md) | No class (type) description specified |  yes  |
+| [HsdoScienceKeyword](../classes/HsdoScienceKeyword.md) | No class (type) description specified |  yes  |
+| [HsdoProvider](../classes/HsdoProvider.md) | No class (type) description specified |  yes  |
+| [HsdoTemporalResolutionRange](../classes/HsdoTemporalResolutionRange.md) | No class (type) description specified |  yes  |
 | [SkosConcept](../classes/SkosConcept.md) | No class (type) description specified |  yes  |
-| [HsdoInstrument](../classes/HsdoInstrument.md) | No class (type) description specified |  yes  |
-| [HsdoMeasurementName](../classes/HsdoMeasurementName.md) | No class (type) description specified |  yes  |
-| [HsdoObs4MipsSourceId](../classes/HsdoObs4MipsSourceId.md) | No class (type) description specified |  yes  |
-| [HsdoMimeType](../classes/HsdoMimeType.md) | No class (type) description specified |  yes  |
+| [HsdoGridLabel](../classes/HsdoGridLabel.md) | No class (type) description specified |  yes  |
+| [HsdoSourceType](../classes/HsdoSourceType.md) | No class (type) description specified |  yes  |
 | [HsdoFrequency](../classes/HsdoFrequency.md) | No class (type) description specified |  yes  |
+| [HsdoSubExperimentId](../classes/HsdoSubExperimentId.md) | No class (type) description specified |  yes  |
+| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | No class (type) description specified |  yes  |
+| [HsdoExperiment](../classes/HsdoExperiment.md) | No class (type) description specified |  yes  |
 | [HsdoActivity](../classes/HsdoActivity.md) | No class (type) description specified |  yes  |
-| [HsdoPlatform](../classes/HsdoPlatform.md) | No class (type) description specified |  yes  |
+| [HsdoModels](../classes/HsdoModels.md) | No class (type) description specified |  yes  |
+| [HsdoLocation](../classes/HsdoLocation.md) | No class (type) description specified |  yes  |
+| [HsdoRelatedUrlContentType](../classes/HsdoRelatedUrlContentType.md) | No class (type) description specified |  yes  |
+| [HsdoMeasurementName](../classes/HsdoMeasurementName.md) | No class (type) description specified |  yes  |
+| [HsdoDataset](../classes/HsdoDataset.md) | A body of structured information describing some topic(s) of interest |  yes  |
 | [HsdoInstitution](../classes/HsdoInstitution.md) | No class (type) description specified |  yes  |
 | [HsdoModel](../classes/HsdoModel.md) | No class (type) description specified |  yes  |
-| [HsdoScienceKeyword](../classes/HsdoScienceKeyword.md) | No class (type) description specified |  yes  |
-| [HsdoTemporalResolutionRange](../classes/HsdoTemporalResolutionRange.md) | No class (type) description specified |  yes  |
-| [HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md) | No class (type) description specified |  yes  |
-| [HsdoProvider](../classes/HsdoProvider.md) | No class (type) description specified |  yes  |
-| [HsdoDataset](../classes/HsdoDataset.md) | A body of structured information describing some topic(s) of interest |  yes  |
-| [HsdoSubExperimentId](../classes/HsdoSubExperimentId.md) | No class (type) description specified |  yes  |
-| [HsdoModels](../classes/HsdoModels.md) | No class (type) description specified |  yes  |
+| [HsdoInstrument](../classes/HsdoInstrument.md) | No class (type) description specified |  yes  |
+| [HsdoVariable](../classes/HsdoVariable.md) | No class (type) description specified |  yes  |
 | [HsdoChronostratigraphicUnit](../classes/HsdoChronostratigraphicUnit.md) | No class (type) description specified |  yes  |
-| [HsdoLocation](../classes/HsdoLocation.md) | No class (type) description specified |  yes  |
+| [HsdoObs4MipsSourceId](../classes/HsdoObs4MipsSourceId.md) | No class (type) description specified |  yes  |
+| [HsdoPlatform](../classes/HsdoPlatform.md) | No class (type) description specified |  yes  |
+| [HsdoDataFormat](../classes/HsdoDataFormat.md) | No class (type) description specified |  yes  |
+| [HsdoProject](../classes/HsdoProject.md) | An enterprise (potentially individual but typically collaborative), planned t... |  yes  |
+| [HsdoMimeType](../classes/HsdoMimeType.md) | No class (type) description specified |  yes  |
+| [HsdoLicense](../classes/HsdoLicense.md) | No class (type) description specified |  yes  |
 
 
 
@@ -75,12 +75,12 @@ URI: [skos:definition](http://www.w3.org/2004/02/skos/core#definition)
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
 | hsdo_Location | string | https://climateKG.org/entity/0006e246-4296-448c-9b81-a0831cad7f1c | An arm of the Atlantic Ocean between Greenland and Labrador Canada | 522 |
-| hsdo_Variable | string | https://climateKG.org/entity/001f18d3-7e61-430b-9883-1960c6256fe5 | The degree to which the ocean absorbs light assuming verticalseparation between light source and light receiver | 2556 |
 | hsdo_Science_Keyword | string | https://climateKG.org/entity/001f18d3-7e61-430b-9883-1960c6256fe5 | The degree to which the ocean absorbs light assuming verticalseparation between light source and light receiver | 3649 |
+| hsdo_Variable | string | https://climateKG.org/entity/001f18d3-7e61-430b-9883-1960c6256fe5 | The degree to which the ocean absorbs light assuming verticalseparation between light source and light receiver | 2556 |
 | hsdo_Platform | string | https://climateKG.org/entity/007c3084-89db-458e-8387-14e192b6cb8e | PREFERRED TERMS 1A S1B S1C S1D Sentinel1DEFINITIONSentinel1 is the European Radar Observatory representing the first new space component of the GMES Global Monitoring for Environment and Security satellite family designed and developed by ESA and funded by the EC European Commission The Copernicus missions Sentinel1 2 and 3 represent the EU contribution to GEOSS Global Earth Observation System of Systems Sentinel1 is composed of a constellation of two satellites Sentinel1A and Sentinel1B sharing the same orbital plane with a 180 orbital phasing difference The mission provides an independent operational capability for continuous radar mapping of the Earth with enhanced revisit frequency coverage timeliness and reliability for operational services and applications requiring long time seriesBROADER CONCEPT Earth Observation SatelliteENTRY TERMS SENTINEL1NOTE ABCDHOSTS SARURI httpsearthesaintconceptsentinel1 | 1321 |
 | hsdo_Project | string | https://climateKG.org/entity/00923bad-d9ac-4093-aca3-83d3e9ae3171 | An international cooperative effort to increase tropical taxonomic expertise conduct a taxonomically diversified global census of coral reef ecosystems and improve access to and unify coral reef ecosystem information scattered throughout the globeCoral reefs are considered to be the most biologically diverse of all marine ecosystems  While individual reef systems likely host tens of thousands of species most of this diversity remains undocumented  Significant declines in key indicators of reef ecosystem health suggest a degradation of coral reefs globally in response to the combined effects of natural and anthropogenic stressors The vulnerability of coral reef ecosystems is anticipated to increase significantly in response to climate change induced coral bleaching and disease ocean acidification sealevel rise and changing storm tracks There is a clear danger that much reef biodiversity could be lost before it is even documented and researchers will be left with a limited and poor understanding of undisturbed reef communities on which to base future management decisions  Under these rapidly changing conditions a key goal for reef resource managers and policy makers over the next several decades will be the development of tools to increase the resilience of global communities through effective conservation of coral reef biodiversity  In order to develop reasonable approaches to improve the resilience of coral reef biodiversity and to effectively use the ecosystem approach to management it is first necessary to understand existing biodiversity and changes over time Summary provided by httpwwwcreefsorg | 1857 |
-| hsdo_Provider | string | https://climateKG.org/entity/00a97d0c-e05e-43c9-93d0-3c7a2527b3c0 | Sea Ice Model Intercomparison Project | 4070 |
 | hsdo_Activity | string | https://climateKG.org/entity/00a97d0c-e05e-43c9-93d0-3c7a2527b3c0 | Sea Ice Model Intercomparison Project | 24 |
+| hsdo_Provider | string | https://climateKG.org/entity/00a97d0c-e05e-43c9-93d0-3c7a2527b3c0 | Sea Ice Model Intercomparison Project | 4070 |
 | hsdo_Model | string | https://climateKG.org/entity/00bb59aa-755d-4710-a097-f1e2836f4032 | The evolution of the RADARSAT program the RCM includes a trio of Earth observation satellites capable of scanning Earth day or night and in any weather conditions The threesatellite configuration allows for daily revisits of Canadas vast territory and maritime approaches as well as daily access to 90 of the worlds surface and the Arctic up to four times a day | 322 |
 | hsdo_Experiment | string | https://climateKG.org/entity/00ce4800-70ef-4346-aa15-0554280d0896 | Concerns about harmful algal blooms HAB have increased over the lastdecade largely because of the perceived increase in the number andduration of events The toxins produced by these species cause finfishand shellfish poisoning and mortality of marine animals includingmammals and birdsAdvance warning of HABs increases the options for managing theseevents The HAB Project develops and supports systems that provideinformation on the location and extent of red tide blooms in the Gulfof Mexico The Experimental HAB bulletin alerts subscribers todeveloping blooms and changes in the location and extent of existingblooms The HAB Mapping System HABMapS provides the position of anidentified bloom and data from environmental conditions that mayaffect the extent or position Both tools rely on remote sensingtechnology to provide the large spatial scale and high frequency ofobservations required to assess bloom location and movements Thesetools can be used together to provide a regional perspective on HABeventsAdditional information on HAB available athttpwwwcscnoaagovcrshabfindexhtmlAdditional information on the HAB Mapping System available athttpwwwcscnoaagovcrshabfhabmapshtmlSST      Summary provided by NOAA | 445 |
 | hsdo_Instrument | string | https://climateKG.org/entity/01407ecf-45af-4fcc-8a1b-9b383636e2e4 | HYDRA is a plasma experimental investigation on the POLAR spacecraft HYDRA isa collection of electrostatic analyzers designed for high resolutionobservations of electron and ion velocity distributions in the earths polarmagnetosphere and was designed and constructed by a consortium of institutionsfor the purpose of improving our understanding of the complex interactions ofthe polar magnetosphere with the solar wind and the ionosphereHYDRA subsystems are DuoDecaElectronIonSpectrometer DDEIS Parallel Plate Analyzer PPA Data Processing Unit DPU and UV Intracalibration System For more information see httpwwwstphysicsuiowaeduandhttppwggsfcnasagovpolarpolarinstshtmlGroup InstrumentDetails   EntryID HYDRA   Group InstrumentIdentification      InstrumentCategory SolarSpace Observing Instruments      InstrumentClass Particle Detectors      ShortName HYDRA      LongName Hot Plasma Analyzer   EndGroup   Group AssociatedPlatforms      ShortName POLAR   EndGroup   OnlineResource httpwwwstphysicsuiowaedu   SampleImage httpwwwstphysicsuiowaeduwwwimagesddeis2jpg   Group InstrumentLogistics      InstrumentStartDate 19960224      InstrumentOwner University of Iowa   EndGroupEndGroup | 1964 |
@@ -93,8 +93,8 @@ URI: [skos:definition](http://www.w3.org/2004/02/skos/core#definition)
 | hsdo_Related_Url_Content_Type | string | https://climateKG.org/entity/0c3aa5c6-f1f9-4c16-aa96-30672028d26c | The URL for accessing a map service | 82 |
 | hsdo_Cmip6_Source_Id | string | https://climateKG.org/entity/0cd4d2c4-ebfa-4759-b7aa-f9982122f581 | IPSLCM5A2INCA | 134 |
 | hsdo_Source_Type | string | https://climateKG.org/entity/13df63e8-85ad-405d-9b43-256371e259c0 | coupled atmosphereocean global climate model additionally including explicit representation of at least the land and sea ice | 15 |
-| hsdo_Dataset | string | https://climateKG.org/entity/2892e23f-5249-439d-8c0e-6c1d190b3beb | ECMWF  ERA5 European ReAnalysis | 106 |
 | hsdo_Obs4Mips_Source_Id | string | https://climateKG.org/entity/2892e23f-5249-439d-8c0e-6c1d190b3beb | ECMWF  ERA5 European ReAnalysis | 106 |
+| hsdo_Dataset | string | https://climateKG.org/entity/2892e23f-5249-439d-8c0e-6c1d190b3beb | ECMWF  ERA5 European ReAnalysis | 106 |
 | hsdo_License | string | https://climateKG.org/entity/3c937799-5ee5-4ea3-b7d5-418a625a7872 | CMIP6 model data produced by Your Institution see CMIP6institutionidjson is licensed under a Creative Commons select and insert a licenseid see below License insert the matching licenseurl see below Consult httpspcmdillnlgovCMIP6TermsOfUse for terms of use governing CMIP6 output including citation requirements and proper acknowledgment Further information about this data including some limitations can be found via the furtherinfourl recorded as a global attribute in this file and at some URL maintained by modeling group The data producers and data providers make no warranty either express or implied including but not limited to warranties of merchantability and fitness for a particular purpose All liabilities arising from the supply of the information including any liability arising in negligence are excluded to the fullest extent permitted by law | 5 |
 | hsdo_Frequency | string | https://climateKG.org/entity/8e4900ff-c7bc-47a1-aa55-a8892696d769 | daily mean samples | 16 |
 | hsdo_Temporal_Resolution_Range | string | https://climateKG.org/entity/8e4900ff-c7bc-47a1-aa55-a8892696d769 | daily mean samples | 17 |
@@ -130,14 +130,14 @@ examples:
     example_object_type: string
     example_predicate: skos:definition
     example_subject: https://climateKG.org/entity/001f18d3-7e61-430b-9883-1960c6256fe5
-    example_subject_type: hsdo_Variable
+    example_subject_type: hsdo_Science_Keyword
 - object:
     example_object: The degree to which the ocean absorbs light assuming verticalseparation
       between light source and light receiver
     example_object_type: string
     example_predicate: skos:definition
     example_subject: https://climateKG.org/entity/001f18d3-7e61-430b-9883-1960c6256fe5
-    example_subject_type: hsdo_Science_Keyword
+    example_subject_type: hsdo_Variable
 - object:
     example_object: PREFERRED TERMS 1A S1B S1C S1D Sentinel1DEFINITIONSentinel1 is
       the European Radar Observatory representing the first new space component of
@@ -186,13 +186,13 @@ examples:
     example_object_type: string
     example_predicate: skos:definition
     example_subject: https://climateKG.org/entity/00a97d0c-e05e-43c9-93d0-3c7a2527b3c0
-    example_subject_type: hsdo_Provider
+    example_subject_type: hsdo_Activity
 - object:
     example_object: Sea Ice Model Intercomparison Project
     example_object_type: string
     example_predicate: skos:definition
     example_subject: https://climateKG.org/entity/00a97d0c-e05e-43c9-93d0-3c7a2527b3c0
-    example_subject_type: hsdo_Activity
+    example_subject_type: hsdo_Provider
 - object:
     example_object: The evolution of the RADARSAT program the RCM includes a trio
       of Earth observation satellites capable of scanning Earth day or night and in
@@ -336,13 +336,13 @@ examples:
     example_object_type: string
     example_predicate: skos:definition
     example_subject: https://climateKG.org/entity/2892e23f-5249-439d-8c0e-6c1d190b3beb
-    example_subject_type: hsdo_Dataset
+    example_subject_type: hsdo_Obs4Mips_Source_Id
 - object:
     example_object: ECMWF  ERA5 European ReAnalysis
     example_object_type: string
     example_predicate: skos:definition
     example_subject: https://climateKG.org/entity/2892e23f-5249-439d-8c0e-6c1d190b3beb
-    example_subject_type: hsdo_Obs4Mips_Source_Id
+    example_subject_type: hsdo_Dataset
 - object:
     example_object: CMIP6 model data produced by Your Institution see CMIP6institutionidjson
       is licensed under a Creative Commons select and insert a licenseid see below

@@ -82,11 +82,11 @@ URI: [hsdo:paper](http://schema.org/paper)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [attribute_title](../slots/attribute_title.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 286 |
 | [attribute_pub_date](../slots/attribute_pub_date.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 181 |
-| [relation_Mention](../slots/relation_Mention.md) | 0..1 <br/> [HsdoScienceKeyword](../classes/HsdoScienceKeyword.md)&nbsp;or&nbsp;<br />[HsdoObs4MipsSourceId](../classes/HsdoObs4MipsSourceId.md)&nbsp;or&nbsp;<br />[HsdoMeasurementName](../classes/HsdoMeasurementName.md)&nbsp;or&nbsp;<br />[HsdoInstitution](../classes/HsdoInstitution.md)&nbsp;or&nbsp;<br />[HsdoActivity](../classes/HsdoActivity.md)&nbsp;or&nbsp;<br />[HsdoNominalResolution](../classes/HsdoNominalResolution.md)&nbsp;or&nbsp;<br />[HsdoProvider](../classes/HsdoProvider.md)&nbsp;or&nbsp;<br />[HsdoPlatform](../classes/HsdoPlatform.md)&nbsp;or&nbsp;<br />[HsdoProject](../classes/HsdoProject.md)&nbsp;or&nbsp;<br />[HsdoRealm](../classes/HsdoRealm.md)&nbsp;or&nbsp;<br />[HsdoDataset](../classes/HsdoDataset.md)&nbsp;or&nbsp;<br />[HsdoInstrument](../classes/HsdoInstrument.md)&nbsp;or&nbsp;<br />[HsdoModels](../classes/HsdoModels.md)&nbsp;or&nbsp;<br />[HsdoHorizontalResolutionRange](../classes/HsdoHorizontalResolutionRange.md)&nbsp;or&nbsp;<br />[HsdoRegion](../classes/HsdoRegion.md)&nbsp;or&nbsp;<br />[HsdoFrequency](../classes/HsdoFrequency.md)&nbsp;or&nbsp;<br />[HsdoDataFormat](../classes/HsdoDataFormat.md)&nbsp;or&nbsp;<br />[HsdoRelatedUrlContentType](../classes/HsdoRelatedUrlContentType.md)&nbsp;or&nbsp;<br />[HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md)&nbsp;or&nbsp;<br />[HsdoTemporalResolutionRange](../classes/HsdoTemporalResolutionRange.md)&nbsp;or&nbsp;<br />[HsdoVerticalResolutionRange](../classes/HsdoVerticalResolutionRange.md)&nbsp;or&nbsp;<br />[HsdoSourceType](../classes/HsdoSourceType.md)&nbsp;or&nbsp;<br />[HsdoModel](../classes/HsdoModel.md)&nbsp;or&nbsp;<br />[HsdoExperiment](../classes/HsdoExperiment.md)&nbsp;or&nbsp;<br />[HsdoLocation](../classes/HsdoLocation.md)&nbsp;or&nbsp;<br />[HsdoSubExperimentId](../classes/HsdoSubExperimentId.md)&nbsp;or&nbsp;<br />[HsdoChronostratigraphicUnit](../classes/HsdoChronostratigraphicUnit.md)&nbsp;or&nbsp;<br />[HsdoLicense](../classes/HsdoLicense.md)&nbsp;or&nbsp;<br />[HsdoGridLabel](../classes/HsdoGridLabel.md)&nbsp;or&nbsp;<br />[HsdoVariable](../classes/HsdoVariable.md) | No slot (predicate) description specified <br/>  | direct | 47280 |
-| [attribute_authors](../slots/attribute_authors.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 287 |
+| [attribute_title](../slots/attribute_title.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 286 |
 | [attribute_doi](../slots/attribute_doi.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 284 |
+| [relation_Mention](../slots/relation_Mention.md) | 0..1 <br/> [HsdoModel](../classes/HsdoModel.md)&nbsp;or&nbsp;<br />[HsdoDataset](../classes/HsdoDataset.md)&nbsp;or&nbsp;<br />[HsdoGridLabel](../classes/HsdoGridLabel.md)&nbsp;or&nbsp;<br />[HsdoRegion](../classes/HsdoRegion.md)&nbsp;or&nbsp;<br />[HsdoCmip6SourceId](../classes/HsdoCmip6SourceId.md)&nbsp;or&nbsp;<br />[HsdoInstitution](../classes/HsdoInstitution.md)&nbsp;or&nbsp;<br />[HsdoProvider](../classes/HsdoProvider.md)&nbsp;or&nbsp;<br />[HsdoVerticalResolutionRange](../classes/HsdoVerticalResolutionRange.md)&nbsp;or&nbsp;<br />[HsdoSourceType](../classes/HsdoSourceType.md)&nbsp;or&nbsp;<br />[HsdoRelatedUrlContentType](../classes/HsdoRelatedUrlContentType.md)&nbsp;or&nbsp;<br />[HsdoInstrument](../classes/HsdoInstrument.md)&nbsp;or&nbsp;<br />[HsdoProject](../classes/HsdoProject.md)&nbsp;or&nbsp;<br />[HsdoActivity](../classes/HsdoActivity.md)&nbsp;or&nbsp;<br />[HsdoDataFormat](../classes/HsdoDataFormat.md)&nbsp;or&nbsp;<br />[HsdoObs4MipsSourceId](../classes/HsdoObs4MipsSourceId.md)&nbsp;or&nbsp;<br />[HsdoFrequency](../classes/HsdoFrequency.md)&nbsp;or&nbsp;<br />[HsdoModels](../classes/HsdoModels.md)&nbsp;or&nbsp;<br />[HsdoVariable](../classes/HsdoVariable.md)&nbsp;or&nbsp;<br />[HsdoChronostratigraphicUnit](../classes/HsdoChronostratigraphicUnit.md)&nbsp;or&nbsp;<br />[HsdoLocation](../classes/HsdoLocation.md)&nbsp;or&nbsp;<br />[HsdoMeasurementName](../classes/HsdoMeasurementName.md)&nbsp;or&nbsp;<br />[HsdoScienceKeyword](../classes/HsdoScienceKeyword.md)&nbsp;or&nbsp;<br />[HsdoHorizontalResolutionRange](../classes/HsdoHorizontalResolutionRange.md)&nbsp;or&nbsp;<br />[HsdoRealm](../classes/HsdoRealm.md)&nbsp;or&nbsp;<br />[HsdoTemporalResolutionRange](../classes/HsdoTemporalResolutionRange.md)&nbsp;or&nbsp;<br />[HsdoLicense](../classes/HsdoLicense.md)&nbsp;or&nbsp;<br />[HsdoNominalResolution](../classes/HsdoNominalResolution.md)&nbsp;or&nbsp;<br />[HsdoSubExperimentId](../classes/HsdoSubExperimentId.md)&nbsp;or&nbsp;<br />[HsdoPlatform](../classes/HsdoPlatform.md)&nbsp;or&nbsp;<br />[HsdoExperiment](../classes/HsdoExperiment.md) | No slot (predicate) description specified <br/>  | direct | 47280 |
+| [attribute_authors](../slots/attribute_authors.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 287 |
 
 
 
@@ -121,11 +121,11 @@ title: No class (type) name specified
 from_schema: dream-kg
 rank: 1000
 slots:
-- attribute_title
 - attribute_pub_date
+- attribute_title
+- attribute_doi
 - relation_Mention
 - attribute_authors
-- attribute_doi
 slot_usage:
   attribute_authors:
     name: attribute_authors
@@ -383,6 +383,28 @@ slot_usage:
         tag: hsdo_Vertical_Resolution_Range
         value: 3
 attributes:
+  attribute_pub_date:
+    name: attribute_pub_date
+    annotations:
+      string:
+        tag: string
+        value: 181
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '2024-07-17'
+        example_object_type: string
+        example_predicate: attribute:pub_date
+        example_subject: https://climateKG.org/entity/008b3eddfa29b8dc6e8d97472e4526bec2c9c2cb
+        example_subject_type: hsdo_paper
+    from_schema: dream-kg
+    rank: 1000
+    slot_uri: attribute:pub_date
+    alias: attribute_pub_date
+    owner: hsdo_paper
+    domain_of:
+    - hsdo_paper
+    range: string
   attribute_title:
     name: attribute_title
     annotations:
@@ -406,24 +428,24 @@ attributes:
     domain_of:
     - hsdo_paper
     range: string
-  attribute_pub_date:
-    name: attribute_pub_date
+  attribute_doi:
+    name: attribute_doi
     annotations:
       string:
         tag: string
-        value: 181
+        value: 284
     description: No slot (predicate) description specified
     examples:
     - object:
-        example_object: '2024-07-17'
+        example_object: 10.1093/icesjms/fsr010
         example_object_type: string
-        example_predicate: attribute:pub_date
+        example_predicate: attribute:doi
         example_subject: https://climateKG.org/entity/008b3eddfa29b8dc6e8d97472e4526bec2c9c2cb
         example_subject_type: hsdo_paper
     from_schema: dream-kg
     rank: 1000
-    slot_uri: attribute:pub_date
-    alias: attribute_pub_date
+    slot_uri: attribute:doi
+    alias: attribute_doi
     owner: hsdo_paper
     domain_of:
     - hsdo_paper
@@ -531,12 +553,6 @@ attributes:
         example_subject_type: hsdo_paper
     - object:
         example_object: https://climateKG.org/entity/2be0af28-a6b8-4fce-82e4-1ad86788a4d5
-        example_object_type: hsdo_Variable
-        example_predicate: relation:Mention
-        example_subject: https://climateKG.org/entity/008b3eddfa29b8dc6e8d97472e4526bec2c9c2cb
-        example_subject_type: hsdo_paper
-    - object:
-        example_object: https://climateKG.org/entity/2be0af28-a6b8-4fce-82e4-1ad86788a4d5
         example_object_type: hsdo_Project
         example_predicate: relation:Mention
         example_subject: https://climateKG.org/entity/008b3eddfa29b8dc6e8d97472e4526bec2c9c2cb
@@ -549,13 +565,19 @@ attributes:
         example_subject_type: hsdo_paper
     - object:
         example_object: https://climateKG.org/entity/2be0af28-a6b8-4fce-82e4-1ad86788a4d5
-        example_object_type: hsdo_Provider
+        example_object_type: hsdo_Variable
         example_predicate: relation:Mention
         example_subject: https://climateKG.org/entity/008b3eddfa29b8dc6e8d97472e4526bec2c9c2cb
         example_subject_type: hsdo_paper
     - object:
         example_object: https://climateKG.org/entity/2be0af28-a6b8-4fce-82e4-1ad86788a4d5
         example_object_type: hsdo_Platform
+        example_predicate: relation:Mention
+        example_subject: https://climateKG.org/entity/008b3eddfa29b8dc6e8d97472e4526bec2c9c2cb
+        example_subject_type: hsdo_paper
+    - object:
+        example_object: https://climateKG.org/entity/2be0af28-a6b8-4fce-82e4-1ad86788a4d5
+        example_object_type: hsdo_Provider
         example_predicate: relation:Mention
         example_subject: https://climateKG.org/entity/008b3eddfa29b8dc6e8d97472e4526bec2c9c2cb
         example_subject_type: hsdo_paper
@@ -621,13 +643,13 @@ attributes:
         example_subject_type: hsdo_paper
     - object:
         example_object: https://climateKG.org/entity/a0b26420-3a13-4742-8d6f-391dc5c49d64
-        example_object_type: hsdo_Dataset
+        example_object_type: hsdo_Obs4Mips_Source_Id
         example_predicate: relation:Mention
         example_subject: https://climateKG.org/entity/056432f6496e03344fcd43dc214a12afba72db8d
         example_subject_type: hsdo_paper
     - object:
         example_object: https://climateKG.org/entity/a0b26420-3a13-4742-8d6f-391dc5c49d64
-        example_object_type: hsdo_Obs4Mips_Source_Id
+        example_object_type: hsdo_Dataset
         example_predicate: relation:Mention
         example_subject: https://climateKG.org/entity/056432f6496e03344fcd43dc214a12afba72db8d
         example_subject_type: hsdo_paper
@@ -712,36 +734,36 @@ attributes:
     - hsdo_paper
     range: Any
     any_of:
-    - range: hsdo_Science_Keyword
-    - range: hsdo_Obs4Mips_Source_Id
-    - range: hsdo_Measurement_Name
-    - range: hsdo_Institution
-    - range: hsdo_Activity
-    - range: hsdo_Nominal_Resolution
-    - range: hsdo_Provider
-    - range: hsdo_Platform
-    - range: hsdo_Project
-    - range: hsdo_Realm
+    - range: hsdo_Model
     - range: hsdo_Dataset
-    - range: hsdo_Instrument
-    - range: hsdo_Models
-    - range: hsdo_Horizontal_Resolution_Range
+    - range: hsdo_Grid_Label
     - range: hsdo_Region
-    - range: hsdo_Frequency
-    - range: hsdo_Data_Format
-    - range: hsdo_Related_Url_Content_Type
     - range: hsdo_Cmip6_Source_Id
-    - range: hsdo_Temporal_Resolution_Range
+    - range: hsdo_Institution
+    - range: hsdo_Provider
     - range: hsdo_Vertical_Resolution_Range
     - range: hsdo_Source_Type
-    - range: hsdo_Model
-    - range: hsdo_Experiment
-    - range: hsdo_Location
-    - range: hsdo_Sub_Experiment_Id
-    - range: hsdo_Chronostratigraphic_Unit
-    - range: hsdo_License
-    - range: hsdo_Grid_Label
+    - range: hsdo_Related_Url_Content_Type
+    - range: hsdo_Instrument
+    - range: hsdo_Project
+    - range: hsdo_Activity
+    - range: hsdo_Data_Format
+    - range: hsdo_Obs4Mips_Source_Id
+    - range: hsdo_Frequency
+    - range: hsdo_Models
     - range: hsdo_Variable
+    - range: hsdo_Chronostratigraphic_Unit
+    - range: hsdo_Location
+    - range: hsdo_Measurement_Name
+    - range: hsdo_Science_Keyword
+    - range: hsdo_Horizontal_Resolution_Range
+    - range: hsdo_Realm
+    - range: hsdo_Temporal_Resolution_Range
+    - range: hsdo_License
+    - range: hsdo_Nominal_Resolution
+    - range: hsdo_Sub_Experiment_Id
+    - range: hsdo_Platform
+    - range: hsdo_Experiment
   attribute_authors:
     name: attribute_authors
     annotations:
@@ -761,28 +783,6 @@ attributes:
     rank: 1000
     slot_uri: attribute:authors
     alias: attribute_authors
-    owner: hsdo_paper
-    domain_of:
-    - hsdo_paper
-    range: string
-  attribute_doi:
-    name: attribute_doi
-    annotations:
-      string:
-        tag: string
-        value: 284
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: 10.1093/icesjms/fsr010
-        example_object_type: string
-        example_predicate: attribute:doi
-        example_subject: https://climateKG.org/entity/008b3eddfa29b8dc6e8d97472e4526bec2c9c2cb
-        example_subject_type: hsdo_paper
-    from_schema: dream-kg
-    rank: 1000
-    slot_uri: attribute:doi
-    alias: attribute_doi
     owner: hsdo_paper
     domain_of:
     - hsdo_paper
