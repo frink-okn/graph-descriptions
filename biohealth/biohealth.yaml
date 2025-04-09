@@ -1,0 +1,1231 @@
+classes:
+  Any:
+    class_uri: linkml:Any
+    name: Any
+  https___w3id.org_biolink_vocab_Entity:
+    annotations:
+      count: 250976
+    class_uri: https://w3id.org/biolink/vocab/Entity
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: https___w3id.org_biolink_vocab_Entity
+    slot_usage:
+      https___biohealthkg.proto-okn.net_kg_schema_ADMINISTERED_TO:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 234354
+      https___biohealthkg.proto-okn.net_kg_schema_COMPLICATES:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 53189
+      https___biohealthkg.proto-okn.net_kg_schema_CONVERTS_TO:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 39403
+      https___biohealthkg.proto-okn.net_kg_schema_LOCATION_OF(SPEC):
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 2
+      https___biohealthkg.proto-okn.net_kg_schema_MEASUREMENT_OF:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 1044
+      https___biohealthkg.proto-okn.net_kg_schema_MEASURES:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 198356
+      https___biohealthkg.proto-okn.net_kg_schema_METHOD_OF:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 166871
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_ADMINISTERED_TO:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 19210
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_AFFECTS:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 232543
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_ASSOCIATED_WITH:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 41914
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_AUGMENTS:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 29081
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_CAUSES:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 52999
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_COEXISTS_WITH:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 93570
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_COMPLICATES:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 1221
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_CONVERTS_TO:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 890
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_DIAGNOSES:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 22601
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_DISRUPTS:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 29747
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_INHIBITS:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 38125
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_INTERACTS_WITH:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 115284
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_ISA:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 25351
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_LOCATION_OF:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 125157
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_MANIFESTATION_OF:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 1622
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_MEASUREMENT_OF:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 32
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_MEASURES:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 4271
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_METHOD_OF:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 7207
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_OCCURS_IN:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 3833
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_PART_OF:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 55171
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_PRECEDES:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 6590
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_PREDISPOSES:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 25427
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_PREVENTS:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 15687
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_PROCESS_OF:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 89566
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_PRODUCES:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 18533
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_STIMULATES:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 36433
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_TREATS:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 114679
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_USES:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 11404
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_higher_than:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 3605
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_lower_than:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 442
+      https___biohealthkg.proto-okn.net_kg_schema_NEG_same_as:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 5051
+      https___biohealthkg.proto-okn.net_kg_schema_OCCURS_IN:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 60478
+      https___biohealthkg.proto-okn.net_kg_schema_PROCESS_OF:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 1031114
+      https___biohealthkg.proto-okn.net_kg_schema_PRODUCES:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 258025
+      https___biohealthkg.proto-okn.net_kg_schema_STIMULATES:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 537916
+      https___biohealthkg.proto-okn.net_kg_schema_USES:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 487481
+      https___biohealthkg.proto-okn.net_kg_schema_compared_with:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 370807
+      https___biohealthkg.proto-okn.net_kg_schema_higher_than:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 99934
+      https___biohealthkg.proto-okn.net_kg_schema_lower_than:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 18213
+      https___biohealthkg.proto-okn.net_kg_schema_same_as:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 15090
+      https___w3id.org_biolink_vocab_affects:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 1758014
+      https___w3id.org_biolink_vocab_associated_with:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 668853
+      https___w3id.org_biolink_vocab_category:
+        annotations:
+          uri: 250976
+      https___w3id.org_biolink_vocab_causes:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 924094
+      https___w3id.org_biolink_vocab_coexists_with:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 1544559
+      https___w3id.org_biolink_vocab_decreases_amount_or_activity_of:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 529827
+      https___w3id.org_biolink_vocab_diagnoses:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 335442
+      https___w3id.org_biolink_vocab_disrupts:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 449816
+      https___w3id.org_biolink_vocab_increases_amount_or_activity_of:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 467851
+      https___w3id.org_biolink_vocab_interacts_with:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 1198144
+      https___w3id.org_biolink_vocab_location_of:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 2223662
+      https___w3id.org_biolink_vocab_manifestation_of:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 49173
+      https___w3id.org_biolink_vocab_part_of:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 816950
+      https___w3id.org_biolink_vocab_precedes:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 182490
+      https___w3id.org_biolink_vocab_predisposes_to_condition:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 320163
+      https___w3id.org_biolink_vocab_preventative_for_condition:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 233021
+      https___w3id.org_biolink_vocab_subclass_of:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 301438
+      https___w3id.org_biolink_vocab_treats:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 1549159
+      rdfs_label:
+        annotations:
+          string: 250976
+    slots:
+    - https___w3id.org_biolink_vocab_increases_amount_or_activity_of
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_COMPLICATES
+    - https___biohealthkg.proto-okn.net_kg_schema_COMPLICATES
+    - https___w3id.org_biolink_vocab_predisposes_to_condition
+    - https___w3id.org_biolink_vocab_part_of
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_USES
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_ADMINISTERED_TO
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_CONVERTS_TO
+    - https___w3id.org_biolink_vocab_disrupts
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_MANIFESTATION_OF
+    - https___w3id.org_biolink_vocab_category
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_PRODUCES
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_MEASURES
+    - https___w3id.org_biolink_vocab_causes
+    - rdfs_label
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_LOCATION_OF
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_higher_than
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_CAUSES
+    - https___biohealthkg.proto-okn.net_kg_schema_compared_with
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_MEASUREMENT_OF
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_AUGMENTS
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_same_as
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_ISA
+    - https___w3id.org_biolink_vocab_interacts_with
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_TREATS
+    - https___biohealthkg.proto-okn.net_kg_schema_lower_than
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_INHIBITS
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_AFFECTS
+    - https___w3id.org_biolink_vocab_affects
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_lower_than
+    - https___w3id.org_biolink_vocab_subclass_of
+    - https___w3id.org_biolink_vocab_precedes
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_METHOD_OF
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_DISRUPTS
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_STIMULATES
+    - https___biohealthkg.proto-okn.net_kg_schema_MEASUREMENT_OF
+    - https___w3id.org_biolink_vocab_preventative_for_condition
+    - https___w3id.org_biolink_vocab_manifestation_of
+    - https___biohealthkg.proto-okn.net_kg_schema_same_as
+    - https___biohealthkg.proto-okn.net_kg_schema_higher_than
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_PROCESS_OF
+    - https___biohealthkg.proto-okn.net_kg_schema_ADMINISTERED_TO
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_INTERACTS_WITH
+    - https___w3id.org_biolink_vocab_coexists_with
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_OCCURS_IN
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_DIAGNOSES
+    - https___w3id.org_biolink_vocab_associated_with
+    - https___biohealthkg.proto-okn.net_kg_schema_USES
+    - https___biohealthkg.proto-okn.net_kg_schema_PROCESS_OF
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_COEXISTS_WITH
+    - https___w3id.org_biolink_vocab_decreases_amount_or_activity_of
+    - https___biohealthkg.proto-okn.net_kg_schema_METHOD_OF
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_PRECEDES
+    - https___w3id.org_biolink_vocab_location_of
+    - https___w3id.org_biolink_vocab_diagnoses
+    - https___biohealthkg.proto-okn.net_kg_schema_LOCATION_OF(SPEC)
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_PART_OF
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_ASSOCIATED_WITH
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_PREVENTS
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_PREDISPOSES
+    - https___biohealthkg.proto-okn.net_kg_schema_OCCURS_IN
+    - https___biohealthkg.proto-okn.net_kg_schema_CONVERTS_TO
+    - https___biohealthkg.proto-okn.net_kg_schema_MEASURES
+    - https___biohealthkg.proto-okn.net_kg_schema_STIMULATES
+    - https___biohealthkg.proto-okn.net_kg_schema_PRODUCES
+    - https___w3id.org_biolink_vocab_treats
+    title: No class (type) name specified
+  rdf_Statement:
+    annotations:
+      count: 18352179
+    class_uri: rdf:Statement
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: rdf_Statement
+    slot_usage:
+      dct_source:
+        annotations:
+          string: 18352179
+      rdf_object:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 18352179
+      rdf_predicate:
+        annotations:
+          uri: 18352179
+      rdf_subject:
+        annotations:
+          https___w3id.org_biolink_vocab_Entity: 18352179
+    slots:
+    - rdf_subject
+    - rdf_predicate
+    - dct_source
+    - rdf_object
+    title: No class (type) name specified
+conforms_to: No schema conformance document specified
+created_on: '2025-03-21T16:12:08.417772'
+description: No schema description specified
+id: biohealth
+imports:
+- linkml:types
+last_updated_on: '2025-03-21T16:12:08.417772'
+license: No schema license specified
+name: biohealth
+prefixes:
+  dct: http://purl.org/dc/terms/
+  linkml: https://w3id.org/linkml/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+slots:
+  dct_source:
+    annotations:
+      count: 18352179
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: MIMIC;PubMed
+        example_object_type: string
+        example_predicate: dct:source
+        example_subject: https://biohealthkg.proto-okn.net/kg/relationship/0
+        example_subject_type: rdf_Statement
+    range: string
+    slot_uri: dct:source
+  https___biohealthkg.proto-okn.net_kg_schema_ADMINISTERED_TO:
+    annotations:
+      count: 234354
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0003062
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/ADMINISTERED_TO
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/ADMINISTERED_TO
+  https___biohealthkg.proto-okn.net_kg_schema_COMPLICATES:
+    annotations:
+      count: 53189
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0012634
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/COMPLICATES
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000325
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/COMPLICATES
+  https___biohealthkg.proto-okn.net_kg_schema_CONVERTS_TO:
+    annotations:
+      count: 39403
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0000098
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/CONVERTS_TO
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000097
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/CONVERTS_TO
+  https___biohealthkg.proto-okn.net_kg_schema_LOCATION_OF(SPEC):
+    annotations:
+      count: 2
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0281772
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/LOCATION_OF(SPEC)
+        example_subject: http://linkedlifedata.com/resource/umls/id/C1279104
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/LOCATION_OF(SPEC)
+  https___biohealthkg.proto-okn.net_kg_schema_MEASUREMENT_OF:
+    annotations:
+      count: 1044
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0014653
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/MEASUREMENT_OF
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0001779
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/MEASUREMENT_OF
+  https___biohealthkg.proto-okn.net_kg_schema_MEASURES:
+    annotations:
+      count: 198356
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0005615
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/MEASURES
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000853
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/MEASURES
+  https___biohealthkg.proto-okn.net_kg_schema_METHOD_OF:
+    annotations:
+      count: 166871
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0728940
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/METHOD_OF
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000294
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/METHOD_OF
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_ADMINISTERED_TO:
+    annotations:
+      count: 19210
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0003062
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_ADMINISTERED_TO
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000097
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_ADMINISTERED_TO
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_AFFECTS:
+    annotations:
+      count: 232543
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0019054
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_AFFECTS
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_AFFECTS
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_ASSOCIATED_WITH:
+    annotations:
+      count: 41914
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0233565
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_ASSOCIATED_WITH
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000097
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_ASSOCIATED_WITH
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_AUGMENTS:
+    annotations:
+      count: 29081
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0018270
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_AUGMENTS
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_AUGMENTS
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_CAUSES:
+    annotations:
+      count: 52999
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0036679
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_CAUSES
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_CAUSES
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_COEXISTS_WITH:
+    annotations:
+      count: 93570
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0034085
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_COEXISTS_WITH
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_COEXISTS_WITH
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_COMPLICATES:
+    annotations:
+      count: 1221
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0041408
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_COMPLICATES
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000768
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_COMPLICATES
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_CONVERTS_TO:
+    annotations:
+      count: 890
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0002508
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_CONVERTS_TO
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000378
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_CONVERTS_TO
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_DIAGNOSES:
+    annotations:
+      count: 22601
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0028738
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_DIAGNOSES
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0001164
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_DIAGNOSES
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_DISRUPTS:
+    annotations:
+      count: 29747
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0024348
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_DISRUPTS
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_DISRUPTS
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_INHIBITS:
+    annotations:
+      count: 38125
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0031667
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_INHIBITS
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_INHIBITS
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_INTERACTS_WITH:
+    annotations:
+      count: 115284
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0002287
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_INTERACTS_WITH
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_INTERACTS_WITH
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_ISA:
+    annotations:
+      count: 25351
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0031617
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_ISA
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_ISA
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_LOCATION_OF:
+    annotations:
+      count: 125157
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0162493
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_LOCATION_OF
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000184
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_LOCATION_OF
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_MANIFESTATION_OF:
+    annotations:
+      count: 1622
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0009566
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_MANIFESTATION_OF
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000727
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_MANIFESTATION_OF
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_MEASUREMENT_OF:
+    annotations:
+      count: 32
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0232804
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_MEASUREMENT_OF
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0001779
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_MEASUREMENT_OF
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_MEASURES:
+    annotations:
+      count: 4271
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0017168
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_MEASURES
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0001161
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_MEASURES
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_METHOD_OF:
+    annotations:
+      count: 7207
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0700589
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_METHOD_OF
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000812
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_METHOD_OF
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_OCCURS_IN:
+    annotations:
+      count: 3833
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0008059
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_OCCURS_IN
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000768
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_OCCURS_IN
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_PART_OF:
+    annotations:
+      count: 55171
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0023828
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_PART_OF
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_PART_OF
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_PRECEDES:
+    annotations:
+      count: 6590
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0032914
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_PRECEDES
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000786
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_PRECEDES
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_PREDISPOSES:
+    annotations:
+      count: 25427
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0020538
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_PREDISPOSES
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000378
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_PREDISPOSES
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_PREVENTS:
+    annotations:
+      count: 15687
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0600688
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_PREVENTS
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000254
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_PREVENTS
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_PROCESS_OF:
+    annotations:
+      count: 89566
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0008059
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_PROCESS_OF
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000727
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_PROCESS_OF
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_PRODUCES:
+    annotations:
+      count: 18533
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0028351
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_PRODUCES
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000378
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_PRODUCES
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_STIMULATES:
+    annotations:
+      count: 36433
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0033621
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_STIMULATES
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000084
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_STIMULATES
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_TREATS:
+    annotations:
+      count: 114679
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0041234
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_TREATS
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000096
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_TREATS
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_USES:
+    annotations:
+      count: 11404
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0026088
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_USES
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000820
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_USES
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_higher_than:
+    annotations:
+      count: 3605
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0000097
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_higher_than
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000098
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_higher_than
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_lower_than:
+    annotations:
+      count: 442
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0003211
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_lower_than
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000970
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_lower_than
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_same_as:
+    annotations:
+      count: 5051
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0020242
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/NEG_same_as
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_same_as
+  https___biohealthkg.proto-okn.net_kg_schema_OCCURS_IN:
+    annotations:
+      count: 60478
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0030705
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/OCCURS_IN
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000727
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/OCCURS_IN
+  https___biohealthkg.proto-okn.net_kg_schema_PROCESS_OF:
+    annotations:
+      count: 1031114
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0001588
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/PROCESS_OF
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000727
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/PROCESS_OF
+  https___biohealthkg.proto-okn.net_kg_schema_PRODUCES:
+    annotations:
+      count: 258025
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0002728
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/PRODUCES
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000052
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/PRODUCES
+  https___biohealthkg.proto-okn.net_kg_schema_STIMULATES:
+    annotations:
+      count: 537916
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0001041
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/STIMULATES
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/STIMULATES
+  https___biohealthkg.proto-okn.net_kg_schema_USES:
+    annotations:
+      count: 487481
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0074554
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/USES
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000163
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/USES
+  https___biohealthkg.proto-okn.net_kg_schema_compared_with:
+    annotations:
+      count: 370807
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0005308
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/compared_with
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/compared_with
+  https___biohealthkg.proto-okn.net_kg_schema_higher_than:
+    annotations:
+      count: 99934
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0008377
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/higher_than
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/higher_than
+  https___biohealthkg.proto-okn.net_kg_schema_lower_than:
+    annotations:
+      count: 18213
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0008377
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/lower_than
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/lower_than
+  https___biohealthkg.proto-okn.net_kg_schema_same_as:
+    annotations:
+      count: 15090
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0008377
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://biohealthkg.proto-okn.net/kg/schema/same_as
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/same_as
+  https___w3id.org_biolink_vocab_affects:
+    annotations:
+      count: 1758014
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0007634
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://w3id.org/biolink/vocab/affects
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://w3id.org/biolink/vocab/affects
+  https___w3id.org_biolink_vocab_associated_with:
+    annotations:
+      count: 668853
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0015230
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://w3id.org/biolink/vocab/associated_with
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://w3id.org/biolink/vocab/associated_with
+  https___w3id.org_biolink_vocab_category:
+    annotations:
+      count: 250976
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: https://biohealthkg.proto-okn.net/kg/semtype/lipd
+        example_object_type: uri
+        example_predicate: https://w3id.org/biolink/vocab/category
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: uri
+    slot_uri: https://w3id.org/biolink/vocab/category
+  https___w3id.org_biolink_vocab_causes:
+    annotations:
+      count: 924094
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0001511
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://w3id.org/biolink/vocab/causes
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://w3id.org/biolink/vocab/causes
+  https___w3id.org_biolink_vocab_coexists_with:
+    annotations:
+      count: 1544559
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0001551
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://w3id.org/biolink/vocab/coexists_with
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://w3id.org/biolink/vocab/coexists_with
+  https___w3id.org_biolink_vocab_decreases_amount_or_activity_of:
+    annotations:
+      count: 529827
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0001026
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://w3id.org/biolink/vocab/decreases_amount_or_activity_of
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://w3id.org/biolink/vocab/decreases_amount_or_activity_of
+  https___w3id.org_biolink_vocab_diagnoses:
+    annotations:
+      count: 335442
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0010709
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://w3id.org/biolink/vocab/diagnoses
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000727
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://w3id.org/biolink/vocab/diagnoses
+  https___w3id.org_biolink_vocab_disrupts:
+    annotations:
+      count: 449816
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0005486
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://w3id.org/biolink/vocab/disrupts
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://w3id.org/biolink/vocab/disrupts
+  https___w3id.org_biolink_vocab_increases_amount_or_activity_of:
+    annotations:
+      count: 467851
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0004561
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://w3id.org/biolink/vocab/increases_amount_or_activity_of
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://w3id.org/biolink/vocab/increases_amount_or_activity_of
+  https___w3id.org_biolink_vocab_interacts_with:
+    annotations:
+      count: 1198144
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0001128
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://w3id.org/biolink/vocab/interacts_with
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://w3id.org/biolink/vocab/interacts_with
+  https___w3id.org_biolink_vocab_location_of:
+    annotations:
+      count: 2223662
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0026882
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://w3id.org/biolink/vocab/location_of
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000052
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://w3id.org/biolink/vocab/location_of
+  https___w3id.org_biolink_vocab_manifestation_of:
+    annotations:
+      count: 49173
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0000768
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://w3id.org/biolink/vocab/manifestation_of
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000727
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://w3id.org/biolink/vocab/manifestation_of
+  https___w3id.org_biolink_vocab_part_of:
+    annotations:
+      count: 816950
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0003062
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://w3id.org/biolink/vocab/part_of
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://w3id.org/biolink/vocab/part_of
+  https___w3id.org_biolink_vocab_precedes:
+    annotations:
+      count: 182490
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0948370
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://w3id.org/biolink/vocab/precedes
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000735
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://w3id.org/biolink/vocab/precedes
+  https___w3id.org_biolink_vocab_predisposes_to_condition:
+    annotations:
+      count: 320163
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0596402
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://w3id.org/biolink/vocab/predisposes_to_condition
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://w3id.org/biolink/vocab/predisposes_to_condition
+  https___w3id.org_biolink_vocab_preventative_for_condition:
+    annotations:
+      count: 233021
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0001511
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://w3id.org/biolink/vocab/preventative_for_condition
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://w3id.org/biolink/vocab/preventative_for_condition
+  https___w3id.org_biolink_vocab_subclass_of:
+    annotations:
+      count: 301438
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0008405
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://w3id.org/biolink/vocab/subclass_of
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://w3id.org/biolink/vocab/subclass_of
+  https___w3id.org_biolink_vocab_treats:
+    annotations:
+      count: 1549159
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0001675
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: https://w3id.org/biolink/vocab/treats
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: https://w3id.org/biolink/vocab/treats
+  rdf_object:
+    annotations:
+      count: 18352179
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0250480
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: rdf:object
+        example_subject: https://biohealthkg.proto-okn.net/kg/relationship/0
+        example_subject_type: rdf_Statement
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: rdf:object
+  rdf_predicate:
+    annotations:
+      count: 18352179
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: https://w3id.org/biolink/vocab/subclass_of
+        example_object_type: uri
+        example_predicate: rdf:predicate
+        example_subject: https://biohealthkg.proto-okn.net/kg/relationship/0
+        example_subject_type: rdf_Statement
+    range: uri
+    slot_uri: rdf:predicate
+  rdf_subject:
+    annotations:
+      count: 18352179
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://linkedlifedata.com/resource/umls/id/C0250482
+        example_object_type: https___w3id.org_biolink_vocab_Entity
+        example_predicate: rdf:subject
+        example_subject: https://biohealthkg.proto-okn.net/kg/relationship/0
+        example_subject_type: rdf_Statement
+    range: https___w3id.org_biolink_vocab_Entity
+    slot_uri: rdf:subject
+  rdfs_label:
+    annotations:
+      count: 250976
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: 1,2-Dipalmitoylphosphatidylcholine
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
+        example_subject_type: https___w3id.org_biolink_vocab_Entity
+    range: string
+    slot_uri: rdfs:label
+title: biohealthkg
+version: No schema version available
