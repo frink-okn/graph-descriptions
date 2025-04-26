@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 35009 times.
+
+
 URI: [niem50:PersonFullName](http://release.niem.gov/niem/niem-core/5.0/PersonFullName)
 
 
@@ -23,7 +27,10 @@ URI: [niem50:PersonFullName](http://release.niem.gov/niem/niem-core/5.0/PersonFu
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72Judge](../classes/Jxdm72Judge.md) | No class (type) description specified |  no  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefenseAttorney](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefenseAttorney.md) | No class (type) description specified |  yes  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2Attorney](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Attorney.md) | No class (type) description specified |  yes  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingAttorney](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingAttorney.md) | No class (type) description specified |  yes  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2Judge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Judge.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,16 +49,14 @@ URI: [niem50:PersonFullName](http://release.niem.gov/niem/niem-core/5.0/PersonFu
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → string | scales/Agent/almd;;1:16-cr-00020_a2 | niem50:PersonFullName | Honorable Judge Myron H. Thompson |
-| jxdm72_Judge → string | scales/JudgeEntity/SJ000000 | niem50:PersonFullName | Cj Williams |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| None | string | scales:/Agent/casd;;3:16-cv-01644_a2 | Judge Gonzalo P. Curiel | 6948 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney | string | scales:/Agent/casd;;3:16-cv-01644_a3 | SCALES-Party-Hash-A832763C1FE77A32B6DE912B9C77F80C | 9088 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney | string | scales:/Agent/casd;;3:16-cv-01644_a5 | Ryan A. Sausedo | 11050 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Attorney | string | scales:/Agent/casd;;3:16-cv-01645_a20 | Benjamin Gilford | 2538 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Judge | string | scales:/JudgeEntity/SJ000002 | Carroll O Switzer | 5385 |
 
-
-## Comments
-
-* 4973752 occurrences with untyped subjects and object type string.
-* 5385 occurrences with subject type jxdm72_Judge and object type string.
 
 
 
@@ -61,31 +66,54 @@ URI: [niem50:PersonFullName](http://release.niem.gov/niem/niem-core/5.0/PersonFu
 
 ```yaml
 name: niem50_PersonFullName
+annotations:
+  count:
+    tag: count
+    value: 35009
+  string:
+    tag: string
+    value: 6948
 description: No slot (predicate) description specified
-comments:
-- 4973752 occurrences with untyped subjects and object type string.
-- 5385 occurrences with subject type jxdm72_Judge and object type string.
 examples:
-- description: None → string
-  object:
-    example_object: Honorable Judge Myron H. Thompson
+- object:
+    example_object: Judge Gonzalo P. Curiel
     example_object_type: string
     example_predicate: niem50:PersonFullName
-    example_subject: scales/Agent/almd;;1:16-cr-00020_a2
+    example_subject: scales:/Agent/casd;;3:16-cv-01644_a2
     example_subject_type: None
-- description: jxdm72_Judge → string
-  object:
-    example_object: Cj Williams
+- object:
+    example_object: SCALES-Party-Hash-A832763C1FE77A32B6DE912B9C77F80C
     example_object_type: string
     example_predicate: niem50:PersonFullName
-    example_subject: scales/JudgeEntity/SJ000000
-    example_subject_type: jxdm72_Judge
-from_schema: scales-kg-new
+    example_subject: scales:/Agent/casd;;3:16-cv-01644_a3
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
+- object:
+    example_object: Ryan A. Sausedo
+    example_object_type: string
+    example_predicate: niem50:PersonFullName
+    example_subject: scales:/Agent/casd;;3:16-cv-01644_a5
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney
+- object:
+    example_object: Benjamin Gilford
+    example_object_type: string
+    example_predicate: niem50:PersonFullName
+    example_subject: scales:/Agent/casd;;3:16-cv-01645_a20
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Attorney
+- object:
+    example_object: Carroll O Switzer
+    example_object_type: string
+    example_predicate: niem50:PersonFullName
+    example_subject: scales:/JudgeEntity/SJ000002
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+from_schema: scales-kg
 rank: 1000
 slot_uri: niem50:PersonFullName
 alias: niem50_PersonFullName
 domain_of:
-- jxdm72_Judge
+- http___release.niem.gov_niem_domains_jxdm_7.2_Attorney
+- http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney
+- http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
+- http___release.niem.gov_niem_domains_jxdm_7.2_Judge
 range: string
 
 ```

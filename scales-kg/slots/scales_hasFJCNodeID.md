@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 3855 times.
+
+
 URI: [scales:hasFJCNodeID](http://schemas.scales-okn.org/rdf/scales#hasFJCNodeID)
 
 
@@ -23,7 +27,7 @@ URI: [scales:hasFJCNodeID](http://schemas.scales-okn.org/rdf/scales#hasFJCNodeID
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72Judge](../classes/Jxdm72Judge.md) | No class (type) description specified |  no  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2Judge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Judge.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,14 +46,10 @@ URI: [scales:hasFJCNodeID](http://schemas.scales-okn.org/rdf/scales#hasFJCNodeID
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| jxdm72_Judge → double | scales/JudgeEntity/SJ000004 | scales:hasFJCNodeID | 1390011.0 |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Judge | double | scales:/JudgeEntity/SJ000002 | 1388511.0 | 3855 |
 
-
-## Comments
-
-* 3855 occurrences with subject type jxdm72_Judge and object type double.
 
 
 
@@ -59,23 +59,24 @@ URI: [scales:hasFJCNodeID](http://schemas.scales-okn.org/rdf/scales#hasFJCNodeID
 
 ```yaml
 name: scales_hasFJCNodeID
+annotations:
+  count:
+    tag: count
+    value: 3855
 description: No slot (predicate) description specified
-comments:
-- 3855 occurrences with subject type jxdm72_Judge and object type double.
 examples:
-- description: jxdm72_Judge → double
-  object:
-    example_object: '1390011.0'
+- object:
+    example_object: '1388511.0'
     example_object_type: double
     example_predicate: scales:hasFJCNodeID
-    example_subject: scales/JudgeEntity/SJ000004
-    example_subject_type: jxdm72_Judge
-from_schema: scales-kg-new
+    example_subject: scales:/JudgeEntity/SJ000002
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasFJCNodeID
 alias: scales_hasFJCNodeID
 domain_of:
-- jxdm72_Judge
+- http___release.niem.gov_niem_domains_jxdm_7.2_Judge
 range: double
 
 ```

@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 3912 times.
+
+
 URI: [scales:appointedByParty](http://schemas.scales-okn.org/rdf/scales#appointedByParty)
 
 
@@ -23,7 +27,7 @@ URI: [scales:appointedByParty](http://schemas.scales-okn.org/rdf/scales#appointe
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72Judge](../classes/Jxdm72Judge.md) | No class (type) description specified |  no  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2Judge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Judge.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,14 +46,10 @@ URI: [scales:appointedByParty](http://schemas.scales-okn.org/rdf/scales#appointe
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| jxdm72_Judge → string | scales/JudgeEntity/SJ000004 | scales:appointedByParty | Republican |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Judge | string | scales:/JudgeEntity/SJ000002 | Democratic | 3912 |
 
-
-## Comments
-
-* 3912 occurrences with subject type jxdm72_Judge and object type string.
 
 
 
@@ -59,23 +59,24 @@ URI: [scales:appointedByParty](http://schemas.scales-okn.org/rdf/scales#appointe
 
 ```yaml
 name: scales_appointedByParty
+annotations:
+  count:
+    tag: count
+    value: 3912
 description: No slot (predicate) description specified
-comments:
-- 3912 occurrences with subject type jxdm72_Judge and object type string.
 examples:
-- description: jxdm72_Judge → string
-  object:
-    example_object: Republican
+- object:
+    example_object: Democratic
     example_object_type: string
     example_predicate: scales:appointedByParty
-    example_subject: scales/JudgeEntity/SJ000004
-    example_subject_type: jxdm72_Judge
-from_schema: scales-kg-new
+    example_subject: scales:/JudgeEntity/SJ000002
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+from_schema: scales-kg
 rank: 1000
 slot_uri: scales:appointedByParty
 alias: scales_appointedByParty
 domain_of:
-- jxdm72_Judge
+- http___release.niem.gov_niem_domains_jxdm_7.2_Judge
 range: string
 
 ```

@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 12697 times.
+
+
 URI: [scales:isInstanceOfEntity](http://schemas.scales-okn.org/rdf/scales#isInstanceOfEntity)
 
 
@@ -19,12 +23,23 @@ URI: [scales:isInstanceOfEntity](http://schemas.scales-okn.org/rdf/scales#isInst
 
 
 
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [ScalesParty](../classes/ScalesParty.md) | No class (type) description specified |  yes  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty.md) | No class (type) description specified |  yes  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty.md) | No class (type) description specified |  yes  |
+
+
+
+
 
 
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[Jxdm72Judge](../classes/Jxdm72Judge.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HttpRelease.niem.govNiemDomainsJxdm7.2Judge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Judge.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
 
 
 
@@ -33,16 +48,13 @@ URI: [scales:isInstanceOfEntity](http://schemas.scales-okn.org/rdf/scales#isInst
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → uri | scales/Agent/almd;;1:16-cr-00020_a1 | scales:isInstanceOfEntity | scales/PartyEntity/SPID-GOVERNMENT-ST-025-000001969 |
-| None → jxdm72_Judge | scales/Agent/wyd;;6:17-cr-00033_a2 | scales:isInstanceOfEntity | scales/JudgeEntity/SJ001755 |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty | uri | scales:/Agent/casd;;3:16-cv-01644_a1 | scales:/PartyEntity/SPID-GOVERNMENT-ST-025-000001969 | 1778 |
+| None | http___release.niem.gov_niem_domains_jxdm_7.2_Judge | scales:/Agent/casd;;3:17-cr-03540_a2 | scales:/JudgeEntity/SJ002053 | 6947 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty | uri | scales:/Agent/casd;;3:16-cv-01645_a0 | scales:/PartyEntity/SPID-INDUSTRY-ST-020-000011105 | 3765 |
+| scales_Party | uri | scales:/Agent/casd;;3:16-cv-01645_a3 | scales:/PartyEntity/SPID-INDUSTRY-ST-008-000022280 | 207 |
 
-
-## Comments
-
-* 939873 occurrences with untyped subjects and object type uri.
-* 715622 occurrences with untyped subjects and object type jxdm72_Judge.
 
 
 
@@ -52,32 +64,50 @@ URI: [scales:isInstanceOfEntity](http://schemas.scales-okn.org/rdf/scales#isInst
 
 ```yaml
 name: scales_isInstanceOfEntity
+annotations:
+  count:
+    tag: count
+    value: 12697
+  http___release.niem.gov_niem_domains_jxdm_7.2_Judge:
+    tag: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+    value: 6947
 description: No slot (predicate) description specified
-comments:
-- 939873 occurrences with untyped subjects and object type uri.
-- 715622 occurrences with untyped subjects and object type jxdm72_Judge.
 examples:
-- description: None → uri
-  object:
-    example_object: scales/PartyEntity/SPID-GOVERNMENT-ST-025-000001969
+- object:
+    example_object: scales:/PartyEntity/SPID-GOVERNMENT-ST-025-000001969
     example_object_type: uri
     example_predicate: scales:isInstanceOfEntity
-    example_subject: scales/Agent/almd;;1:16-cr-00020_a1
-    example_subject_type: None
-- description: None → jxdm72_Judge
-  object:
-    example_object: scales/JudgeEntity/SJ001755
-    example_object_type: jxdm72_Judge
+    example_subject: scales:/Agent/casd;;3:16-cv-01644_a1
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
+- object:
+    example_object: scales:/JudgeEntity/SJ002053
+    example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
     example_predicate: scales:isInstanceOfEntity
-    example_subject: scales/Agent/wyd;;6:17-cr-00033_a2
+    example_subject: scales:/Agent/casd;;3:17-cr-03540_a2
     example_subject_type: None
-from_schema: scales-kg-new
+- object:
+    example_object: scales:/PartyEntity/SPID-INDUSTRY-ST-020-000011105
+    example_object_type: uri
+    example_predicate: scales:isInstanceOfEntity
+    example_subject: scales:/Agent/casd;;3:16-cv-01645_a0
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
+- object:
+    example_object: scales:/PartyEntity/SPID-INDUSTRY-ST-008-000022280
+    example_object_type: uri
+    example_predicate: scales:isInstanceOfEntity
+    example_subject: scales:/Agent/casd;;3:16-cv-01645_a3
+    example_subject_type: scales_Party
+from_schema: scales-kg
 rank: 1000
 slot_uri: scales:isInstanceOfEntity
 alias: scales_isInstanceOfEntity
+domain_of:
+- http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
+- http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
+- scales_Party
 range: Any
 any_of:
-- range: jxdm72_Judge
+- range: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
 - range: uri
 
 ```

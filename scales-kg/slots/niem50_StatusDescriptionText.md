@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 4 times.
+
+
 URI: [niem50:StatusDescriptionText](http://release.niem.gov/niem/niem-core/5.0/StatusDescriptionText)
 
 
@@ -23,7 +27,8 @@ URI: [niem50:StatusDescriptionText](http://release.niem.gov/niem/niem-core/5.0/S
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,14 +47,11 @@ URI: [niem50:StatusDescriptionText](http://release.niem.gov/niem/niem-core/5.0/S
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| scales_Case → string | scales/CaseCivil | niem50:StatusDescriptionText | closed |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:/CaseCivil | closed | 4 |
+| scales_Case | string | scales:/CaseCivil | closed | 4 |
 
-
-## Comments
-
-* 4 occurrences with subject type scales_Case and object type string.
 
 
 
@@ -59,22 +61,30 @@ URI: [niem50:StatusDescriptionText](http://release.niem.gov/niem/niem-core/5.0/S
 
 ```yaml
 name: niem50_StatusDescriptionText
+annotations:
+  count:
+    tag: count
+    value: 4
 description: No slot (predicate) description specified
-comments:
-- 4 occurrences with subject type scales_Case and object type string.
 examples:
-- description: scales_Case → string
-  object:
+- object:
     example_object: closed
     example_object_type: string
     example_predicate: niem50:StatusDescriptionText
-    example_subject: scales/CaseCivil
+    example_subject: scales:/CaseCivil
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+- object:
+    example_object: closed
+    example_object_type: string
+    example_predicate: niem50:StatusDescriptionText
+    example_subject: scales:/CaseCivil
     example_subject_type: scales_Case
-from_schema: scales-kg-new
+from_schema: scales-kg
 rank: 1000
 slot_uri: niem50:StatusDescriptionText
 alias: niem50_StatusDescriptionText
 domain_of:
+- http___release.niem.gov_niem_domains_jxdm_7.2_Case
 - scales_Case
 range: string
 

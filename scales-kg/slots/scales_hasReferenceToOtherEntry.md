@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 32887 times.
+
+
 URI: [scales:hasReferenceToOtherEntry](http://schemas.scales-okn.org/rdf/scales#hasReferenceToOtherEntry)
 
 
@@ -33,14 +37,10 @@ URI: [scales:hasReferenceToOtherEntry](http://schemas.scales-okn.org/rdf/scales#
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → uri | scales/DocketEntry/almd;;1:16-cr-00020_de15 | scales:hasReferenceToOtherEntry | scales/DocketEntry/almd;;1:16-cr-00020_de14 |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| None | uri | scales:/DocketEntry/casd;;3:16-cv-01645_de10 | scales:/DocketEntry/casd;;3:16-cv-01645_de8 | 32887 |
 
-
-## Comments
-
-* 7002793 occurrences with untyped subjects and object type uri.
 
 
 
@@ -50,18 +50,22 @@ URI: [scales:hasReferenceToOtherEntry](http://schemas.scales-okn.org/rdf/scales#
 
 ```yaml
 name: scales_hasReferenceToOtherEntry
+annotations:
+  count:
+    tag: count
+    value: 32887
+  uri:
+    tag: uri
+    value: 32887
 description: No slot (predicate) description specified
-comments:
-- 7002793 occurrences with untyped subjects and object type uri.
 examples:
-- description: None → uri
-  object:
-    example_object: scales/DocketEntry/almd;;1:16-cr-00020_de14
+- object:
+    example_object: scales:/DocketEntry/casd;;3:16-cv-01645_de8
     example_object_type: uri
     example_predicate: scales:hasReferenceToOtherEntry
-    example_subject: scales/DocketEntry/almd;;1:16-cr-00020_de15
+    example_subject: scales:/DocketEntry/casd;;3:16-cv-01645_de10
     example_subject_type: None
-from_schema: scales-kg-new
+from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasReferenceToOtherEntry
 alias: scales_hasReferenceToOtherEntry

@@ -9,12 +9,25 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 6280 times.
+
+
 URI: [scales:hasChargeType](http://schemas.scales-okn.org/rdf/scales#hasChargeType)
 
 
 
 <!-- no inheritance hierarchy -->
 
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2Charge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Charge.md) | No class (type) description specified |  yes  |
 
 
 
@@ -33,14 +46,10 @@ URI: [scales:hasChargeType](http://schemas.scales-okn.org/rdf/scales#hasChargeTy
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → string | scales/Charge/almd;;1:16-cr-00020_c0-1 | scales:hasChargeType | pending |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Charge | string | scales:/Charge/casd;;3:17-cr-00001_c0-1 | terminated | 6280 |
 
-
-## Comments
-
-* 213743 occurrences with untyped subjects and object type string.
 
 
 
@@ -50,21 +59,24 @@ URI: [scales:hasChargeType](http://schemas.scales-okn.org/rdf/scales#hasChargeTy
 
 ```yaml
 name: scales_hasChargeType
+annotations:
+  count:
+    tag: count
+    value: 6280
 description: No slot (predicate) description specified
-comments:
-- 213743 occurrences with untyped subjects and object type string.
 examples:
-- description: None → string
-  object:
-    example_object: pending
+- object:
+    example_object: terminated
     example_object_type: string
     example_predicate: scales:hasChargeType
-    example_subject: scales/Charge/almd;;1:16-cr-00020_c0-1
-    example_subject_type: None
-from_schema: scales-kg-new
+    example_subject: scales:/Charge/casd;;3:17-cr-00001_c0-1
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Charge
+from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasChargeType
 alias: scales_hasChargeType
+domain_of:
+- http___release.niem.gov_niem_domains_jxdm_7.2_Charge
 range: string
 
 ```

@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 95868 times.
+
+
 URI: [scales:hasJudgeReference](http://schemas.scales-okn.org/rdf/scales#hasJudgeReference)
 
 
@@ -24,7 +28,7 @@ URI: [scales:hasJudgeReference](http://schemas.scales-okn.org/rdf/scales#hasJudg
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[Jxdm72Judge](../classes/Jxdm72Judge.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HttpRelease.niem.govNiemDomainsJxdm7.2Judge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Judge.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
 
 
 
@@ -33,16 +37,11 @@ URI: [scales:hasJudgeReference](http://schemas.scales-okn.org/rdf/scales#hasJudg
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → jxdm72_Judge | scales/DocketEntry/wyd;;6:17-cr-00033_de6 | scales:hasJudgeReference | scales/JudgeEntity/SJ001755 |
-| None → uri | scales/DocketEntry/almd;;1:16-cr-00434_de4 | scales:hasJudgeReference | scales/JudgeEntity/Inconclusive |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| None | http___release.niem.gov_niem_domains_jxdm_7.2_Judge | scales:/DocketEntry/casd;;3:17-cr-03540_de9 | scales:/JudgeEntity/SJ002053 | 94865 |
+| None | uri | scales:/DocketEntry/casd;;3:16-cv-01698_de3 | scales:/JudgeEntity/Inconclusive | 1003 |
 
-
-## Comments
-
-* 6256896 occurrences with untyped subjects and object type jxdm72_Judge.
-* 23177 occurrences with untyped subjects and object type uri.
 
 
 
@@ -52,32 +51,37 @@ URI: [scales:hasJudgeReference](http://schemas.scales-okn.org/rdf/scales#hasJudg
 
 ```yaml
 name: scales_hasJudgeReference
+annotations:
+  count:
+    tag: count
+    value: 95868
+  http___release.niem.gov_niem_domains_jxdm_7.2_Judge:
+    tag: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+    value: 94865
+  uri:
+    tag: uri
+    value: 1003
 description: No slot (predicate) description specified
-comments:
-- 6256896 occurrences with untyped subjects and object type jxdm72_Judge.
-- 23177 occurrences with untyped subjects and object type uri.
 examples:
-- description: None → jxdm72_Judge
-  object:
-    example_object: scales/JudgeEntity/SJ001755
-    example_object_type: jxdm72_Judge
+- object:
+    example_object: scales:/JudgeEntity/SJ002053
+    example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
     example_predicate: scales:hasJudgeReference
-    example_subject: scales/DocketEntry/wyd;;6:17-cr-00033_de6
+    example_subject: scales:/DocketEntry/casd;;3:17-cr-03540_de9
     example_subject_type: None
-- description: None → uri
-  object:
-    example_object: scales/JudgeEntity/Inconclusive
+- object:
+    example_object: scales:/JudgeEntity/Inconclusive
     example_object_type: uri
     example_predicate: scales:hasJudgeReference
-    example_subject: scales/DocketEntry/almd;;1:16-cr-00434_de4
+    example_subject: scales:/DocketEntry/casd;;3:16-cv-01698_de3
     example_subject_type: None
-from_schema: scales-kg-new
+from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasJudgeReference
 alias: scales_hasJudgeReference
 range: Any
 any_of:
-- range: jxdm72_Judge
+- range: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
 - range: uri
 
 ```

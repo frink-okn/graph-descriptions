@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 2 times.
+
+
 URI: [niem50:CaseGeneralCategoryText](http://release.niem.gov/niem/niem-core/5.0/CaseGeneralCategoryText)
 
 
@@ -23,7 +27,8 @@ URI: [niem50:CaseGeneralCategoryText](http://release.niem.gov/niem/niem-core/5.0
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,14 +47,11 @@ URI: [niem50:CaseGeneralCategoryText](http://release.niem.gov/niem/niem-core/5.0
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| scales_Case → string | scales/CaseCivil | niem50:CaseGeneralCategoryText | civil |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:/CaseCivil | civil | 2 |
+| scales_Case | string | scales:/CaseCivil | civil | 2 |
 
-
-## Comments
-
-* 2 occurrences with subject type scales_Case and object type string.
 
 
 
@@ -59,22 +61,30 @@ URI: [niem50:CaseGeneralCategoryText](http://release.niem.gov/niem/niem-core/5.0
 
 ```yaml
 name: niem50_CaseGeneralCategoryText
+annotations:
+  count:
+    tag: count
+    value: 2
 description: No slot (predicate) description specified
-comments:
-- 2 occurrences with subject type scales_Case and object type string.
 examples:
-- description: scales_Case → string
-  object:
+- object:
     example_object: civil
     example_object_type: string
     example_predicate: niem50:CaseGeneralCategoryText
-    example_subject: scales/CaseCivil
+    example_subject: scales:/CaseCivil
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+- object:
+    example_object: civil
+    example_object_type: string
+    example_predicate: niem50:CaseGeneralCategoryText
+    example_subject: scales:/CaseCivil
     example_subject_type: scales_Case
-from_schema: scales-kg-new
+from_schema: scales-kg
 rank: 1000
 slot_uri: niem50:CaseGeneralCategoryText
 alias: niem50_CaseGeneralCategoryText
 domain_of:
+- http___release.niem.gov_niem_domains_jxdm_7.2_Case
 - scales_Case
 range: string
 
