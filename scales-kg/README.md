@@ -9,248 +9,248 @@ No schema description specified
 ```mermaid
 erDiagram
 HttpRelease.niem.govNiemDomainsJxdm7.2Attorney {
-    string niem50_PersonFullName  
     string niem50_ContactMailingAddress  
     string http___release.niem.gov_niem_domains_jxdm_7.2_CaseOfficialRoleText  
+    string niem50_PersonFullName  
 }
 HttpRelease.niem.govNiemDomainsJxdm7.2Case {
-    string scales_hasIdbPretrial  
-    string scales_hasIdbAppcd  
-    string scales_hasIdbTitl  
-    double scales_hasIdbToffcd4  
-    double scales_hasIdbFoffcd4  
-    double scales_hasIdbReopseq  
-    string scales_hasIdbTsev3  
-    string niem50_StatusDescriptionText  
-    double scales_hasIdbDisp  
-    double scales_hasIdbFiscalyr  
-    double scales_hasIdbTofflvl2  
-    string scales_hasIdbFgenddate  
-    string scales_hasIdbTsev4  
-    double scales_hasIdbDemanded  
-    double scales_hasIdbCtpnwof  
-    double scales_hasIdbProbmon5  
-    double scales_hasIdbClassact  
-    double scales_hasIdbProbmon4  
-    string scales_hasIdbFdateuse  
-    double scales_hasIdbSupvrel1  
-    double scales_hasIdbDisp1  
-    string scales_hasIdbPriscd3  
-    double scales_hasIdbPristim1  
-    double scales_hasIdbSupvrel3  
-    string scales_hasIdbUpdate  
-    double scales_hasIdbProbtot  
-    double scales_hasIdbCtfil  
-    string scales_hasIdbFgstrtdate  
-    string scales_hasIdbTsev5  
-    double scales_hasIdbD2toffcd2  
-    string scales_hasIdbTribegan  
-    double scales_hasIdbD2toffcd1  
-    double scales_hasIdbMagdef  
-    string scales_hasIdbProbcd3  
-    integer scales_hasIdbProbcd3  
-    string scales_hasIdbTtitle4  
-    double scales_hasIdbTrclact  
-    double scales_hasIdbDisp2  
-    string scales_hasIdbFtitle5  
-    double scales_hasIdbProse  
-    string scales_hasIdbSentdate  
-    string niem50_CaseSubCategoryText  
-    double scales_hasIdbCttrr  
-    string scales_hasIdbFtitle2  
-    string scales_hasIdbSection  
-    double scales_hasIdbPristim2  
-    string scales_hasIdbIfp  
-    string scales_hasIdbTdateuse  
-    datetime scales_hasIdbTermdate  
-    string scales_hasIdbPriscd2  
-    double scales_hasIdbInt2  
-    double scales_hasIdbProbmon2  
-    double scales_hasIdbToffcd3  
-    double scales_hasIdbFineamt4  
-    string niem50_CaseGeneralCategoryText  
-    double scales_hasIdbTrandef  
-    double scales_hasIdbToffcd5  
-    string scales_hasIdbProbcd1  
-    string scales_hasIdbDocket  
-    double scales_hasIdbToffcd2  
-    double scales_hasIdbD2toffcd4  
-    string scales_hasIdbLoaddate  
-    string scales_hasIdbTransorg  
-    double scales_hasIdbCttr  
-    double scales_hasIdbProbmon3  
-    double scales_hasIdbVer  
-    double scales_hasIdbFofflvl4  
-    string scales_hasIdbDjoined  
-    double scales_hasIdbProccd  
-    string scales_hasIdbDistrict  
-    string scales_hasIdbTrmarb  
-    double scales_hasIdbFoffcd3  
-    double scales_hasIdbFofflvl1  
-    string scales_hasIdbDispdate  
-    double scales_hasIdbTrandock  
-    string scales_hasIdbFsev3  
-    string scales_hasIdbAppdate  
-    double scales_hasIdbFoffcd5  
-    double scales_hasIdbAmtrec  
-    double scales_hasIdbDisp5  
-    double scales_hasIdbJudgment  
-    double scales_hasIdbTofflvl5  
-    string scales_hasIdbTypemag  
-    string scales_hasIdbFsev4  
-    string scales_hasIdbProcdate  
-    string scales_hasIdbSubsect  
-    uri scales_hasRelatedCase  
-    string scales_hasIdbTypetrn  
-    integer scales_hasIdbTypetrn  
-    double scales_hasIdbFoffcd2  
-    double scales_hasIdbD2foffcd1  
-    double scales_hasIdbTofflvl3  
-    double scales_hasIdbCounty  
-    double scales_hasIdbNoj  
-    double scales_hasIdbDisp3  
-    double scales_hasIdbResidenc  
-    string scales_hasIdbTrialend  
-    double scales_hasIdbDisp4  
-    uri http___release.niem.gov_niem_domains_jxdm_7.2_CaseJudge  
-    string scales_hasIdbTtitle5  
-    double scales_hasIdbFineamt5  
-    string scales_hasIdbTransoff  
-    string scales_hasIdbPlt  
-    double scales_hasIdbDefno  
-    double scales_hasIdbSupvrel2  
-    string scales_hasIdbFugstat  
-    string scales_hasIdbFtitle4  
-    string scales_hasIdbTtitle1  
-    string scales_hasIdbPriscd5  
-    integer scales_hasIdbPriscd5  
-    datetime scales_hasIdbFiledate  
-    double scales_hasIdbTofflvl4  
-    double scales_hasIdbCttrtrn  
-    double scales_hasIdbTapeyear  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_StatuteKeywordText  
-    string scales_hasIdbStatuscd  
-    double scales_hasIdbD2foffcd4  
-    double scales_hasIdbInt1  
-    integer scales_hasIdbTermoff  
-    double scales_hasIdbFcounsel  
-    double scales_hasIdbFoffcd1  
-    integer scales_hasIdbTrandist  
-    double scales_hasIdbInt3  
-    boolean scales_hasIdbIs_stub  
-    double scales_hasIdbTcounsel  
-    double scales_hasIdbFineamt3  
-    string scales_hasIdbArbit  
-    string scales_hasIdbDef  
-    double scales_hasIdbFofflvl2  
-    string scales_hasIdbTtitle2  
-    double scales_hasIdbTransdoc  
-    double scales_hasIdbPristim4  
-    string scales_hasIdbOffice  
-    double scales_hasIdbProbmon1  
-    double scales_hasIdbTofflvl1  
-    double scales_hasIdbCtfilr  
-    string scales_hasIdbProbcd4  
-    integer scales_hasIdbProbcd4  
-    string scales_hasIdbTsev1  
-    date niem50_StartDate  
     string scales_hasIdbFtitle3  
-    double scales_hasIdbOrigin  
-    double scales_hasIdbPristot  
-    double scales_hasIdbProcprog  
-    double scales_hasIdbCircuit  
-    string scales_hasIdbDeflgky  
-    string scales_hasIdbFtitle1  
-    double scales_hasIdbCtpn  
-    string scales_hasIdbCaslgky  
-    string scales_hasIdbJury  
-    string scales_hasIdbTypereg  
-    string scales_hasIdbFsev2  
-    double scales_hasIdbFofflvl5  
-    double scales_hasIdbD2toffcd3  
-    string scales_hasIdbFsev5  
-    double scales_hasIdbCtfiltrn  
-    double scales_hasIdbCtfilwor  
-    double scales_hasIdbSupvrel4  
-    double scales_hasIdbFineamt1  
-    string scales_hasIdbPriscd4  
-    string scales_hasIdbMdldock  
-    double scales_hasIdbD2toffcd5  
-    integer scales_hasIdbTranoff  
-    string scales_hasIdbNos  
-    string scales_hasIdbTtitle3  
-    string scales_hasIdbFsev1  
-    double scales_hasIdbCtdef  
-    double scales_hasIdbSupvrel5  
-    integer scales_hasIdbProbcd5  
-    double scales_hasIdbJuris  
-    date niem50_EndDate  
-    double scales_hasIdbCttrwor  
-    string niem50_JurisdictionText  
-    double scales_hasIdbFofflvl3  
-    double scales_hasIdbToffcd1  
-    double scales_hasIdbFinetot  
-    string scales_hasIdbTsev2  
-    double scales_hasIdbFineamt2  
-    double scales_hasIdbMagdock  
-    string scales_hasIdbPriscd1  
-    double scales_hasIdbD2foffcd3  
-    double scales_hasIdbD2foffcd2  
-    double scales_hasIdbPristim5  
-    double scales_hasIdbD2foffcd5  
-    string scales_hasIdbProbcd2  
-    integer scales_hasIdbProbcd2  
-    string niem50_CaseDocketID  
+    double scales_hasIdbTofflvl4  
     double scales_hasIdbPristim3  
+    double scales_hasIdbSupvrel5  
+    double scales_hasIdbD2toffcd1  
+    double scales_hasIdbFofflvl4  
+    integer scales_hasIdbTermoff  
+    double scales_hasIdbTrclact  
+    string scales_hasIdbAppdate  
+    integer scales_hasIdbProbcd2  
+    string scales_hasIdbProbcd2  
+    string scales_hasIdbFsev2  
+    double scales_hasIdbToffcd1  
+    string scales_hasIdbArbit  
+    double scales_hasIdbFineamt3  
+    double scales_hasIdbFofflvl3  
+    string scales_hasIdbTtitle4  
+    string scales_hasIdbFtitle1  
+    double scales_hasIdbVer  
+    string niem50_JurisdictionText  
+    double scales_hasIdbProbmon4  
+    string niem50_CaseSubCategoryText  
+    string scales_hasIdbTypemag  
+    double scales_hasIdbD2foffcd4  
+    double scales_hasIdbFoffcd4  
+    boolean scales_hasIdbIs_stub  
+    double scales_hasIdbTrandock  
+    double scales_hasIdbAmtrec  
+    double scales_hasIdbD2foffcd3  
+    string scales_hasIdbTitl  
+    string scales_hasIdbSubsect  
+    double scales_hasIdbD2toffcd4  
+    string scales_hasIdbFtitle4  
+    double scales_hasIdbPristim2  
+    double scales_hasIdbCtdef  
+    string scales_hasIdbOffice  
+    double scales_hasIdbProccd  
+    string scales_hasIdbNos  
+    integer scales_hasIdbTranoff  
+    string scales_hasIdbTsev5  
+    double scales_hasIdbFoffcd3  
+    string http___release.niem.gov_niem_domains_jxdm_7.2_StatuteKeywordText  
+    string scales_hasIdbFugstat  
+    string scales_hasIdbFsev3  
+    date niem50_EndDate  
+    double scales_hasIdbFineamt1  
+    string scales_hasIdbTransoff  
+    string scales_hasIdbAppcd  
+    double scales_hasIdbFineamt5  
+    integer scales_hasIdbProbcd5  
+    string niem50_CaseGeneralCategoryText  
+    string scales_hasIdbFgenddate  
+    double scales_hasIdbProbmon3  
+    integer scales_hasIdbProbcd4  
+    string scales_hasIdbProbcd4  
+    string scales_hasIdbTrmarb  
+    string scales_hasIdbPriscd2  
+    string scales_hasIdbFsev4  
+    double scales_hasIdbFineamt4  
+    double scales_hasIdbPristim5  
+    double scales_hasIdbReopseq  
+    double scales_hasIdbD2foffcd1  
+    double scales_hasIdbToffcd5  
+    double scales_hasIdbProcprog  
+    double scales_hasIdbCtfilr  
+    double scales_hasIdbD2foffcd5  
+    double scales_hasIdbCttr  
+    double scales_hasIdbD2foffcd2  
+    double scales_hasIdbTofflvl1  
+    double scales_hasIdbCtpnwof  
+    string scales_hasIdbDef  
+    string scales_hasIdbTtitle1  
+    string scales_hasIdbStatuscd  
+    double scales_hasIdbCttrtrn  
+    double scales_hasIdbNoj  
+    double scales_hasIdbJudgment  
+    string scales_hasIdbSection  
+    string scales_hasIdbPlt  
+    string niem50_StatusDescriptionText  
+    double scales_hasIdbInt3  
+    datetime scales_hasIdbFiledate  
+    double scales_hasIdbFinetot  
+    string scales_hasIdbDjoined  
+    double scales_hasIdbSupvrel1  
+    string scales_hasIdbPriscd3  
+    double scales_hasIdbCtfiltrn  
+    double scales_hasIdbSupvrel3  
+    double scales_hasIdbD2toffcd2  
+    double scales_hasIdbDisp1  
+    double scales_hasIdbInt2  
+    integer scales_hasIdbPriscd5  
+    string scales_hasIdbPriscd5  
+    double scales_hasIdbProse  
+    string scales_hasIdbPriscd1  
+    integer scales_hasIdbTrandist  
+    double scales_hasIdbResidenc  
+    double scales_hasIdbFofflvl2  
+    string scales_hasIdbTsev2  
+    double scales_hasIdbTrandef  
+    double scales_hasIdbPristim1  
+    string scales_hasIdbDistrict  
+    double scales_hasIdbToffcd2  
+    date niem50_StartDate  
+    double scales_hasIdbCounty  
+    double scales_hasIdbFcounsel  
+    string scales_hasIdbTtitle2  
+    double scales_hasIdbD2toffcd5  
+    double scales_hasIdbCircuit  
+    double scales_hasIdbDisp  
+    string scales_hasIdbIfp  
+    double scales_hasIdbJuris  
+    double scales_hasIdbCtpn  
+    double scales_hasIdbProbmon5  
+    string scales_hasIdbTsev1  
+    double scales_hasIdbToffcd3  
+    string scales_hasIdbLoaddate  
+    double scales_hasIdbFineamt2  
+    double scales_hasIdbFofflvl5  
+    string scales_hasIdbDocket  
+    double scales_hasIdbOrigin  
+    double scales_hasIdbFofflvl1  
+    double scales_hasIdbD2toffcd3  
+    double scales_hasIdbProbmon1  
+    uri http___release.niem.gov_niem_domains_jxdm_7.2_CaseJudge  
+    string scales_hasIdbProbcd1  
+    string scales_hasIdbDeflgky  
+    double scales_hasIdbToffcd4  
+    double scales_hasIdbTapeyear  
+    string scales_hasIdbTypereg  
+    string scales_hasIdbFtitle2  
+    string scales_hasIdbSentdate  
+    double scales_hasIdbCttrwor  
+    string scales_hasIdbTrialend  
+    double scales_hasIdbMagdock  
+    string scales_hasIdbJury  
+    string scales_hasIdbFsev1  
+    string scales_hasIdbFsev5  
+    double scales_hasIdbMagdef  
+    string scales_hasIdbTsev4  
+    double scales_hasIdbDisp2  
+    double scales_hasIdbSupvrel2  
+    double scales_hasIdbCtfil  
+    string scales_hasIdbTtitle5  
+    string scales_hasIdbProcdate  
+    double scales_hasIdbSupvrel4  
+    string scales_hasIdbPretrial  
+    double scales_hasIdbDefno  
+    double scales_hasIdbPristot  
+    double scales_hasIdbDisp5  
+    string scales_hasIdbDispdate  
+    string scales_hasIdbMdldock  
+    string scales_hasIdbTransorg  
+    double scales_hasIdbFoffcd1  
+    double scales_hasIdbTofflvl3  
+    double scales_hasIdbTofflvl5  
+    string scales_hasIdbTribegan  
+    double scales_hasIdbDemanded  
+    datetime scales_hasIdbTermdate  
+    string scales_hasIdbTsev3  
+    double scales_hasIdbClassact  
+    double scales_hasIdbFoffcd5  
+    double scales_hasIdbInt1  
+    double scales_hasIdbTransdoc  
+    string scales_hasIdbTtitle3  
+    integer scales_hasIdbProbcd3  
+    string scales_hasIdbProbcd3  
+    string niem50_CaseDocketID  
+    double scales_hasIdbDisp3  
+    double scales_hasIdbDisp4  
+    double scales_hasIdbProbmon2  
+    string scales_hasIdbFtitle5  
+    integer scales_hasIdbTypetrn  
+    string scales_hasIdbTypetrn  
+    string scales_hasIdbUpdate  
+    string scales_hasIdbPriscd4  
+    double scales_hasIdbTofflvl2  
+    double scales_hasIdbFiscalyr  
+    double scales_hasIdbFoffcd2  
+    string scales_hasIdbFgstrtdate  
+    string scales_hasIdbCaslgky  
+    double scales_hasIdbProbtot  
+    double scales_hasIdbTcounsel  
+    double scales_hasIdbCtfilwor  
+    double scales_hasIdbCttrr  
+    string scales_hasIdbFdateuse  
+    string scales_hasIdbTdateuse  
+    double scales_hasIdbPristim4  
+    uri scales_hasRelatedCase  
 }
 HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty {
-    string scales_hasHighestOffenseLevelTerminated  
+    string http___release.niem.gov_niem_domains_jxdm_7.2_ParticipantRoleCategoryText  
     string niem50_EntityName  
     string scales_hasHighestOffenseLevelOpening  
-    uri scales_hasPartyReferenceInExtraInfo  
     string scales_hasExtraInfo  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_ParticipantRoleCategoryText  
+    uri scales_hasPartyReferenceInExtraInfo  
     uri scales_isInstanceOfEntity  
+    string scales_hasHighestOffenseLevelTerminated  
 }
 HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefenseAttorney {
-    string niem50_PersonFullName  
     string niem50_ContactMailingAddress  
     string http___release.niem.gov_niem_domains_jxdm_7.2_CaseOfficialRoleText  
+    string niem50_PersonFullName  
 }
 HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingAttorney {
-    string niem50_PersonFullName  
     string niem50_ContactMailingAddress  
     string http___release.niem.gov_niem_domains_jxdm_7.2_CaseOfficialRoleText  
+    string niem50_PersonFullName  
 }
 HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty {
-    string niem50_EntityName  
-    uri scales_hasPartyReferenceInExtraInfo  
-    string scales_hasExtraInfo  
     string http___release.niem.gov_niem_domains_jxdm_7.2_ParticipantRoleCategoryText  
+    string niem50_EntityName  
+    string scales_hasExtraInfo  
+    uri scales_hasPartyReferenceInExtraInfo  
     uri scales_isInstanceOfEntity  
 }
 HttpRelease.niem.govNiemDomainsJxdm7.2Charge {
+    string http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSequenceID  
     string http___release.niem.gov_niem_domains_jxdm_7.2_ChargeDisposition  
     string scales_hasChargeType  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSequenceID  
     string http___release.niem.gov_niem_domains_jxdm_7.2_ChargeText  
 }
 HttpRelease.niem.govNiemDomainsJxdm7.2Court {
     string scales_isInCircuit  
-    string niem50_AddressPostalCode  
     string http___release.niem.gov_niem_codes_fips_5.0_CountyCode  
     string http___release.niem.gov_niem_domains_jxdm_7.2_CourtCategoryCode  
+    string niem50_AddressPostalCode  
     string http___release.niem.gov_niem_domains_jxdm_7.2_CourtName  
 }
 HttpRelease.niem.govNiemDomainsJxdm7.2Judge {
-    string scales_hasUVAJudgeDirID  
-    double scales_hasFJCNodeID  
     string http___release.niem.gov_niem_domains_jxdm_7.2_JudicialOfficialCategoryText  
-    string niem50_PersonFullName  
-    date scales_hasCommissionDate  
     string niem50_PersonRaceText  
     string niem50_PersonSexText  
+    string scales_hasUVAJudgeDirID  
+    string niem50_PersonFullName  
     string scales_appointedByParty  
+    double scales_hasFJCNodeID  
+    date scales_hasCommissionDate  
 }
 HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction {
     uri http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction  
@@ -259,235 +259,235 @@ HttpRelease.niem.govNiemDomainsJxdm7.2RegisterOfActions {
     uri http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction  
 }
 ScalesCase {
-    string scales_hasIdbPretrial  
-    string scales_hasIdbAppcd  
-    string scales_hasIdbTitl  
-    double scales_hasIdbToffcd4  
-    double scales_hasIdbFoffcd4  
-    double scales_hasIdbReopseq  
-    string scales_hasIdbTsev3  
-    string niem50_StatusDescriptionText  
-    double scales_hasIdbDisp  
-    double scales_hasIdbFiscalyr  
-    double scales_hasIdbTofflvl2  
-    string scales_hasIdbFgenddate  
-    string scales_hasIdbTsev4  
-    double scales_hasIdbDemanded  
-    double scales_hasIdbCtpnwof  
-    double scales_hasIdbProbmon5  
-    double scales_hasIdbClassact  
-    double scales_hasIdbProbmon4  
-    string scales_hasIdbFdateuse  
-    double scales_hasIdbSupvrel1  
-    double scales_hasIdbDisp1  
-    string scales_hasIdbPriscd3  
-    double scales_hasIdbPristim1  
-    double scales_hasIdbSupvrel3  
-    string scales_hasIdbUpdate  
-    double scales_hasIdbProbtot  
-    double scales_hasIdbCtfil  
-    string scales_hasIdbFgstrtdate  
-    string scales_hasIdbTsev5  
-    double scales_hasIdbD2toffcd2  
-    string scales_hasIdbTribegan  
-    double scales_hasIdbD2toffcd1  
-    double scales_hasIdbMagdef  
-    string scales_hasIdbProbcd3  
-    integer scales_hasIdbProbcd3  
-    string scales_hasIdbTtitle4  
-    double scales_hasIdbTrclact  
-    double scales_hasIdbDisp2  
-    string scales_hasIdbFtitle5  
-    double scales_hasIdbProse  
-    string scales_hasIdbSentdate  
-    string niem50_CaseSubCategoryText  
-    double scales_hasIdbCttrr  
-    string scales_hasIdbFtitle2  
-    string scales_hasIdbSection  
-    double scales_hasIdbPristim2  
-    string scales_hasIdbIfp  
-    string scales_hasIdbTdateuse  
-    datetime scales_hasIdbTermdate  
-    string scales_hasIdbPriscd2  
-    double scales_hasIdbInt2  
-    double scales_hasIdbProbmon2  
-    double scales_hasIdbToffcd3  
-    double scales_hasIdbFineamt4  
-    string niem50_CaseGeneralCategoryText  
-    double scales_hasIdbTrandef  
-    double scales_hasIdbToffcd5  
-    string scales_hasIdbProbcd1  
-    string scales_hasIdbDocket  
-    double scales_hasIdbToffcd2  
-    double scales_hasIdbD2toffcd4  
-    string scales_hasIdbLoaddate  
-    string scales_hasIdbTransorg  
-    double scales_hasIdbCttr  
-    double scales_hasIdbProbmon3  
-    double scales_hasIdbVer  
-    double scales_hasIdbFofflvl4  
-    string scales_hasIdbDjoined  
-    double scales_hasIdbProccd  
-    string scales_hasIdbDistrict  
-    string scales_hasIdbTrmarb  
-    double scales_hasIdbFoffcd3  
-    double scales_hasIdbFofflvl1  
-    string scales_hasIdbDispdate  
-    double scales_hasIdbTrandock  
-    string scales_hasIdbFsev3  
-    string scales_hasIdbAppdate  
-    double scales_hasIdbFoffcd5  
-    double scales_hasIdbAmtrec  
-    double scales_hasIdbDisp5  
-    double scales_hasIdbJudgment  
-    double scales_hasIdbTofflvl5  
-    string scales_hasIdbTypemag  
-    string scales_hasIdbFsev4  
-    string scales_hasIdbProcdate  
-    string scales_hasIdbSubsect  
-    uri scales_hasRelatedCase  
-    string scales_hasIdbTypetrn  
-    integer scales_hasIdbTypetrn  
-    double scales_hasIdbFoffcd2  
-    double scales_hasIdbD2foffcd1  
-    double scales_hasIdbTofflvl3  
-    double scales_hasIdbCounty  
-    double scales_hasIdbNoj  
-    double scales_hasIdbDisp3  
-    double scales_hasIdbResidenc  
-    string scales_hasIdbTrialend  
-    double scales_hasIdbDisp4  
-    uri http___release.niem.gov_niem_domains_jxdm_7.2_CaseJudge  
-    string scales_hasIdbTtitle5  
-    double scales_hasIdbFineamt5  
-    string scales_hasIdbTransoff  
-    string scales_hasIdbPlt  
-    double scales_hasIdbDefno  
-    double scales_hasIdbSupvrel2  
-    string scales_hasIdbFugstat  
-    string scales_hasIdbFtitle4  
-    string scales_hasIdbTtitle1  
-    string scales_hasIdbPriscd5  
-    integer scales_hasIdbPriscd5  
-    datetime scales_hasIdbFiledate  
-    double scales_hasIdbTofflvl4  
-    double scales_hasIdbCttrtrn  
-    double scales_hasIdbTapeyear  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_StatuteKeywordText  
-    string scales_hasIdbStatuscd  
-    double scales_hasIdbD2foffcd4  
-    double scales_hasIdbInt1  
-    integer scales_hasIdbTermoff  
-    double scales_hasIdbFcounsel  
-    double scales_hasIdbFoffcd1  
-    integer scales_hasIdbTrandist  
-    double scales_hasIdbInt3  
-    boolean scales_hasIdbIs_stub  
-    double scales_hasIdbTcounsel  
-    double scales_hasIdbFineamt3  
-    string scales_hasIdbArbit  
-    string scales_hasIdbDef  
-    double scales_hasIdbFofflvl2  
-    string scales_hasIdbTtitle2  
-    double scales_hasIdbTransdoc  
-    double scales_hasIdbPristim4  
-    string scales_hasIdbOffice  
-    double scales_hasIdbProbmon1  
-    double scales_hasIdbTofflvl1  
-    double scales_hasIdbCtfilr  
-    string scales_hasIdbProbcd4  
-    integer scales_hasIdbProbcd4  
-    string scales_hasIdbTsev1  
-    date niem50_StartDate  
     string scales_hasIdbFtitle3  
-    double scales_hasIdbOrigin  
-    double scales_hasIdbPristot  
-    double scales_hasIdbProcprog  
-    double scales_hasIdbCircuit  
-    string scales_hasIdbDeflgky  
-    string scales_hasIdbFtitle1  
-    double scales_hasIdbCtpn  
-    string scales_hasIdbCaslgky  
-    string scales_hasIdbJury  
-    string scales_hasIdbTypereg  
-    string scales_hasIdbFsev2  
-    double scales_hasIdbFofflvl5  
-    double scales_hasIdbD2toffcd3  
-    string scales_hasIdbFsev5  
-    double scales_hasIdbCtfiltrn  
-    double scales_hasIdbCtfilwor  
-    double scales_hasIdbSupvrel4  
-    double scales_hasIdbFineamt1  
-    string scales_hasIdbPriscd4  
-    string scales_hasIdbMdldock  
-    double scales_hasIdbD2toffcd5  
-    integer scales_hasIdbTranoff  
-    string scales_hasIdbNos  
-    string scales_hasIdbTtitle3  
-    string scales_hasIdbFsev1  
-    double scales_hasIdbCtdef  
-    double scales_hasIdbSupvrel5  
-    integer scales_hasIdbProbcd5  
-    double scales_hasIdbJuris  
-    date niem50_EndDate  
-    double scales_hasIdbCttrwor  
-    string niem50_JurisdictionText  
-    double scales_hasIdbFofflvl3  
-    double scales_hasIdbToffcd1  
-    double scales_hasIdbFinetot  
-    string scales_hasIdbTsev2  
-    double scales_hasIdbFineamt2  
-    double scales_hasIdbMagdock  
-    string scales_hasIdbPriscd1  
-    double scales_hasIdbD2foffcd3  
-    double scales_hasIdbD2foffcd2  
-    double scales_hasIdbPristim5  
-    double scales_hasIdbD2foffcd5  
-    string scales_hasIdbProbcd2  
-    integer scales_hasIdbProbcd2  
-    string niem50_CaseDocketID  
+    double scales_hasIdbTofflvl4  
     double scales_hasIdbPristim3  
+    double scales_hasIdbSupvrel5  
+    double scales_hasIdbD2toffcd1  
+    double scales_hasIdbFofflvl4  
+    integer scales_hasIdbTermoff  
+    double scales_hasIdbTrclact  
+    string scales_hasIdbAppdate  
+    integer scales_hasIdbProbcd2  
+    string scales_hasIdbProbcd2  
+    string scales_hasIdbFsev2  
+    double scales_hasIdbToffcd1  
+    string scales_hasIdbArbit  
+    double scales_hasIdbFineamt3  
+    double scales_hasIdbFofflvl3  
+    string scales_hasIdbTtitle4  
+    string scales_hasIdbFtitle1  
+    double scales_hasIdbVer  
+    string niem50_JurisdictionText  
+    double scales_hasIdbProbmon4  
+    string niem50_CaseSubCategoryText  
+    string scales_hasIdbTypemag  
+    double scales_hasIdbD2foffcd4  
+    double scales_hasIdbFoffcd4  
+    boolean scales_hasIdbIs_stub  
+    double scales_hasIdbTrandock  
+    double scales_hasIdbAmtrec  
+    double scales_hasIdbD2foffcd3  
+    string scales_hasIdbTitl  
+    string scales_hasIdbSubsect  
+    double scales_hasIdbD2toffcd4  
+    string scales_hasIdbFtitle4  
+    double scales_hasIdbPristim2  
+    double scales_hasIdbCtdef  
+    string scales_hasIdbOffice  
+    double scales_hasIdbProccd  
+    string scales_hasIdbNos  
+    integer scales_hasIdbTranoff  
+    string scales_hasIdbTsev5  
+    double scales_hasIdbFoffcd3  
+    string http___release.niem.gov_niem_domains_jxdm_7.2_StatuteKeywordText  
+    string scales_hasIdbFugstat  
+    string scales_hasIdbFsev3  
+    date niem50_EndDate  
+    double scales_hasIdbFineamt1  
+    string scales_hasIdbTransoff  
+    string scales_hasIdbAppcd  
+    double scales_hasIdbFineamt5  
+    integer scales_hasIdbProbcd5  
+    string niem50_CaseGeneralCategoryText  
+    string scales_hasIdbFgenddate  
+    double scales_hasIdbProbmon3  
+    integer scales_hasIdbProbcd4  
+    string scales_hasIdbProbcd4  
+    string scales_hasIdbTrmarb  
+    string scales_hasIdbPriscd2  
+    string scales_hasIdbFsev4  
+    double scales_hasIdbFineamt4  
+    double scales_hasIdbPristim5  
+    double scales_hasIdbReopseq  
+    double scales_hasIdbD2foffcd1  
+    double scales_hasIdbToffcd5  
+    double scales_hasIdbProcprog  
+    double scales_hasIdbCtfilr  
+    double scales_hasIdbD2foffcd5  
+    double scales_hasIdbCttr  
+    double scales_hasIdbD2foffcd2  
+    double scales_hasIdbTofflvl1  
+    double scales_hasIdbCtpnwof  
+    string scales_hasIdbDef  
+    string scales_hasIdbTtitle1  
+    string scales_hasIdbStatuscd  
+    double scales_hasIdbCttrtrn  
+    double scales_hasIdbNoj  
+    double scales_hasIdbJudgment  
+    string scales_hasIdbSection  
+    string scales_hasIdbPlt  
+    string niem50_StatusDescriptionText  
+    double scales_hasIdbInt3  
+    datetime scales_hasIdbFiledate  
+    double scales_hasIdbFinetot  
+    string scales_hasIdbDjoined  
+    double scales_hasIdbSupvrel1  
+    string scales_hasIdbPriscd3  
+    double scales_hasIdbCtfiltrn  
+    double scales_hasIdbSupvrel3  
+    double scales_hasIdbD2toffcd2  
+    double scales_hasIdbDisp1  
+    double scales_hasIdbInt2  
+    integer scales_hasIdbPriscd5  
+    string scales_hasIdbPriscd5  
+    double scales_hasIdbProse  
+    string scales_hasIdbPriscd1  
+    integer scales_hasIdbTrandist  
+    double scales_hasIdbResidenc  
+    double scales_hasIdbFofflvl2  
+    string scales_hasIdbTsev2  
+    double scales_hasIdbTrandef  
+    double scales_hasIdbPristim1  
+    string scales_hasIdbDistrict  
+    double scales_hasIdbToffcd2  
+    date niem50_StartDate  
+    double scales_hasIdbCounty  
+    double scales_hasIdbFcounsel  
+    string scales_hasIdbTtitle2  
+    double scales_hasIdbD2toffcd5  
+    double scales_hasIdbCircuit  
+    double scales_hasIdbDisp  
+    string scales_hasIdbIfp  
+    double scales_hasIdbJuris  
+    double scales_hasIdbCtpn  
+    double scales_hasIdbProbmon5  
+    string scales_hasIdbTsev1  
+    double scales_hasIdbToffcd3  
+    string scales_hasIdbLoaddate  
+    double scales_hasIdbFineamt2  
+    double scales_hasIdbFofflvl5  
+    string scales_hasIdbDocket  
+    double scales_hasIdbOrigin  
+    double scales_hasIdbFofflvl1  
+    double scales_hasIdbD2toffcd3  
+    double scales_hasIdbProbmon1  
+    uri http___release.niem.gov_niem_domains_jxdm_7.2_CaseJudge  
+    string scales_hasIdbProbcd1  
+    string scales_hasIdbDeflgky  
+    double scales_hasIdbToffcd4  
+    double scales_hasIdbTapeyear  
+    string scales_hasIdbTypereg  
+    string scales_hasIdbFtitle2  
+    string scales_hasIdbSentdate  
+    double scales_hasIdbCttrwor  
+    string scales_hasIdbTrialend  
+    double scales_hasIdbMagdock  
+    string scales_hasIdbJury  
+    string scales_hasIdbFsev1  
+    string scales_hasIdbFsev5  
+    double scales_hasIdbMagdef  
+    string scales_hasIdbTsev4  
+    double scales_hasIdbDisp2  
+    double scales_hasIdbSupvrel2  
+    double scales_hasIdbCtfil  
+    string scales_hasIdbTtitle5  
+    string scales_hasIdbProcdate  
+    double scales_hasIdbSupvrel4  
+    string scales_hasIdbPretrial  
+    double scales_hasIdbDefno  
+    double scales_hasIdbPristot  
+    double scales_hasIdbDisp5  
+    string scales_hasIdbDispdate  
+    string scales_hasIdbMdldock  
+    string scales_hasIdbTransorg  
+    double scales_hasIdbFoffcd1  
+    double scales_hasIdbTofflvl3  
+    double scales_hasIdbTofflvl5  
+    string scales_hasIdbTribegan  
+    double scales_hasIdbDemanded  
+    datetime scales_hasIdbTermdate  
+    string scales_hasIdbTsev3  
+    double scales_hasIdbClassact  
+    double scales_hasIdbFoffcd5  
+    double scales_hasIdbInt1  
+    double scales_hasIdbTransdoc  
+    string scales_hasIdbTtitle3  
+    integer scales_hasIdbProbcd3  
+    string scales_hasIdbProbcd3  
+    string niem50_CaseDocketID  
+    double scales_hasIdbDisp3  
+    double scales_hasIdbDisp4  
+    double scales_hasIdbProbmon2  
+    string scales_hasIdbFtitle5  
+    integer scales_hasIdbTypetrn  
+    string scales_hasIdbTypetrn  
+    string scales_hasIdbUpdate  
+    string scales_hasIdbPriscd4  
+    double scales_hasIdbTofflvl2  
+    double scales_hasIdbFiscalyr  
+    double scales_hasIdbFoffcd2  
+    string scales_hasIdbFgstrtdate  
+    string scales_hasIdbCaslgky  
+    double scales_hasIdbProbtot  
+    double scales_hasIdbTcounsel  
+    double scales_hasIdbCtfilwor  
+    double scales_hasIdbCttrr  
+    string scales_hasIdbFdateuse  
+    string scales_hasIdbTdateuse  
+    double scales_hasIdbPristim4  
+    uri scales_hasRelatedCase  
 }
 ScalesFirm {
     string niem50_OrganizationName  
 }
 ScalesParty {
+    string http___release.niem.gov_niem_domains_jxdm_7.2_ParticipantRoleCategoryText  
     string niem50_EntityName  
     string scales_hasExtraInfo  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_ParticipantRoleCategoryText  
     uri scales_isInstanceOfEntity  
 }
 
 HttpRelease.niem.govNiemDomainsJxdm7.2Attorney ||--|o ScalesFirm : "scales_Firm"
-HttpRelease.niem.govNiemDomainsJxdm7.2Case ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Case : "scales_hasMemberCase"
-HttpRelease.niem.govNiemDomainsJxdm7.2Case ||--|o ScalesCase : "scales_hasMemberCase"
-HttpRelease.niem.govNiemDomainsJxdm7.2Case ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty"
-HttpRelease.niem.govNiemDomainsJxdm7.2Case ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty"
-HttpRelease.niem.govNiemDomainsJxdm7.2Case ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Case : "scales_hasRelatedCase"
-HttpRelease.niem.govNiemDomainsJxdm7.2Case ||--|o ScalesCase : "scales_hasRelatedCase"
-HttpRelease.niem.govNiemDomainsJxdm7.2Case ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Charge : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseCharge"
 HttpRelease.niem.govNiemDomainsJxdm7.2Case ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction : "http___release.niem.gov_niem_domains_jxdm_7.2_RegisterOfActions"
 HttpRelease.niem.govNiemDomainsJxdm7.2Case ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2RegisterOfActions : "http___release.niem.gov_niem_domains_jxdm_7.2_RegisterOfActions"
-HttpRelease.niem.govNiemDomainsJxdm7.2Case ||--|o ScalesParty : "scales_Party"
+HttpRelease.niem.govNiemDomainsJxdm7.2Case ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Charge : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseCharge"
 HttpRelease.niem.govNiemDomainsJxdm7.2Case ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Court : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseCourt"
-HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Charge : "http___release.niem.gov_niem_domains_jxdm_7.2_PersonCharge"
+HttpRelease.niem.govNiemDomainsJxdm7.2Case ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Case : "scales_hasMemberCase"
+HttpRelease.niem.govNiemDomainsJxdm7.2Case ||--|o ScalesCase : "scales_hasMemberCase"
+HttpRelease.niem.govNiemDomainsJxdm7.2Case ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty"
+HttpRelease.niem.govNiemDomainsJxdm7.2Case ||--|o ScalesParty : "scales_Party"
+HttpRelease.niem.govNiemDomainsJxdm7.2Case ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty"
+HttpRelease.niem.govNiemDomainsJxdm7.2Case ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Case : "scales_hasRelatedCase"
+HttpRelease.niem.govNiemDomainsJxdm7.2Case ||--|o ScalesCase : "scales_hasRelatedCase"
 HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefenseAttorney : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney"
 HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Judge : "scales_isInstanceOfEntity"
+HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Charge : "http___release.niem.gov_niem_domains_jxdm_7.2_PersonCharge"
 HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefenseAttorney ||--|o ScalesFirm : "scales_Firm"
 HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingAttorney ||--|o ScalesFirm : "scales_Firm"
-HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Judge : "scales_isInstanceOfEntity"
 HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingAttorney : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney"
-ScalesCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Case : "scales_hasMemberCase"
-ScalesCase ||--|o ScalesCase : "scales_hasMemberCase"
-ScalesCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty"
-ScalesCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty"
-ScalesCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Case : "scales_hasRelatedCase"
-ScalesCase ||--|o ScalesCase : "scales_hasRelatedCase"
-ScalesCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Charge : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseCharge"
+HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Judge : "scales_isInstanceOfEntity"
 ScalesCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction : "http___release.niem.gov_niem_domains_jxdm_7.2_RegisterOfActions"
 ScalesCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2RegisterOfActions : "http___release.niem.gov_niem_domains_jxdm_7.2_RegisterOfActions"
-ScalesCase ||--|o ScalesParty : "scales_Party"
+ScalesCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Charge : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseCharge"
 ScalesCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Court : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseCourt"
+ScalesCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Case : "scales_hasMemberCase"
+ScalesCase ||--|o ScalesCase : "scales_hasMemberCase"
+ScalesCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty"
+ScalesCase ||--|o ScalesParty : "scales_Party"
+ScalesCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty"
+ScalesCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Case : "scales_hasRelatedCase"
+ScalesCase ||--|o ScalesCase : "scales_hasRelatedCase"
 ScalesParty ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Attorney : "http___release.niem.gov_niem_domains_jxdm_7.2_Attorney"
 ScalesParty ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Judge : "scales_isInstanceOfEntity"
 

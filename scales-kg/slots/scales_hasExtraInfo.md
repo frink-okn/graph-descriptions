@@ -27,8 +27,8 @@ URI: [scales:hasExtraInfo](http://schemas.scales-okn.org/rdf/scales#hasExtraInfo
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesParty](../classes/ScalesParty.md) | No class (type) description specified |  yes  |
 | [HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty.md) | No class (type) description specified |  yes  |
+| [ScalesParty](../classes/ScalesParty.md) | No class (type) description specified |  yes  |
 | [HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty.md) | No class (type) description specified |  yes  |
 
 

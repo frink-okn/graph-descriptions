@@ -27,8 +27,8 @@ URI: [scales:isInstanceOfEntity](http://schemas.scales-okn.org/rdf/scales#isInst
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesParty](../classes/ScalesParty.md) | No class (type) description specified |  yes  |
 | [HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty.md) | No class (type) description specified |  yes  |
+| [ScalesParty](../classes/ScalesParty.md) | No class (type) description specified |  yes  |
 | [HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty.md) | No class (type) description specified |  yes  |
 
 
@@ -39,7 +39,7 @@ URI: [scales:isInstanceOfEntity](http://schemas.scales-okn.org/rdf/scales#isInst
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HttpRelease.niem.govNiemDomainsJxdm7.2Judge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Judge.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[HttpRelease.niem.govNiemDomainsJxdm7.2Judge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Judge.md)
 
 
 
@@ -107,8 +107,8 @@ domain_of:
 - scales_Party
 range: Any
 any_of:
-- range: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
 - range: uri
+- range: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
 
 ```
 </details>

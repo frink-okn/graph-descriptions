@@ -73,9 +73,9 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/Charge](http://release.niem.
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
+| [http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSequenceID](../slots/http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSequenceID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 6280 |
 | [http___release.niem.gov_niem_domains_jxdm_7.2_ChargeDisposition](../slots/http___release.niem.gov_niem_domains_jxdm_7.2_ChargeDisposition.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 6280 |
 | [scales_hasChargeType](../slots/scales_hasChargeType.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 6280 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSequenceID](../slots/http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSequenceID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 6280 |
 | [http___release.niem.gov_niem_domains_jxdm_7.2_ChargeText](../slots/http___release.niem.gov_niem_domains_jxdm_7.2_ChargeText.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 6280 |
 
 
@@ -120,9 +120,9 @@ title: No class (type) name specified
 from_schema: scales-kg
 rank: 1000
 slots:
+- http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSequenceID
 - http___release.niem.gov_niem_domains_jxdm_7.2_ChargeDisposition
 - scales_hasChargeType
-- http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSequenceID
 - http___release.niem.gov_niem_domains_jxdm_7.2_ChargeText
 slot_usage:
   http___release.niem.gov_niem_domains_jxdm_7.2_ChargeDisposition:
@@ -195,6 +195,28 @@ slot_usage:
         tag: string
         value: 6280
 attributes:
+  http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSequenceID:
+    name: http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSequenceID
+    annotations:
+      string:
+        tag: string
+        value: 6280
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '1'
+        example_object_type: string
+        example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/ChargeSequenceID
+        example_subject: scales:/Charge/casd;;3:17-cr-00001_c0-1
+        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Charge
+    from_schema: scales-kg
+    rank: 1000
+    slot_uri: http://release.niem.gov/niem/domains/jxdm/7.2/ChargeSequenceID
+    alias: http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSequenceID
+    owner: http___release.niem.gov_niem_domains_jxdm_7.2_Charge
+    domain_of:
+    - http___release.niem.gov_niem_domains_jxdm_7.2_Charge
+    range: string
   http___release.niem.gov_niem_domains_jxdm_7.2_ChargeDisposition:
     name: http___release.niem.gov_niem_domains_jxdm_7.2_ChargeDisposition
     annotations:
@@ -236,28 +258,6 @@ attributes:
     rank: 1000
     slot_uri: scales:hasChargeType
     alias: scales_hasChargeType
-    owner: http___release.niem.gov_niem_domains_jxdm_7.2_Charge
-    domain_of:
-    - http___release.niem.gov_niem_domains_jxdm_7.2_Charge
-    range: string
-  http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSequenceID:
-    name: http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSequenceID
-    annotations:
-      string:
-        tag: string
-        value: 6280
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: '1'
-        example_object_type: string
-        example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/ChargeSequenceID
-        example_subject: scales:/Charge/casd;;3:17-cr-00001_c0-1
-        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Charge
-    from_schema: scales-kg
-    rank: 1000
-    slot_uri: http://release.niem.gov/niem/domains/jxdm/7.2/ChargeSequenceID
-    alias: http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSequenceID
     owner: http___release.niem.gov_niem_domains_jxdm_7.2_Charge
     domain_of:
     - http___release.niem.gov_niem_domains_jxdm_7.2_Charge

@@ -28,7 +28,7 @@ URI: [scales:hasJudgeReference](http://schemas.scales-okn.org/rdf/scales#hasJudg
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HttpRelease.niem.govNiemDomainsJxdm7.2Judge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Judge.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[HttpRelease.niem.govNiemDomainsJxdm7.2Judge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Judge.md)
 
 
 
@@ -81,8 +81,8 @@ slot_uri: scales:hasJudgeReference
 alias: scales_hasJudgeReference
 range: Any
 any_of:
-- range: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
 - range: uri
+- range: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
 
 ```
 </details>

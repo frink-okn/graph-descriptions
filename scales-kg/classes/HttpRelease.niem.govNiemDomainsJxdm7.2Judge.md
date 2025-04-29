@@ -109,14 +109,14 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/Judge](http://release.niem.g
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [scales_hasUVAJudgeDirID](../slots/scales_hasUVAJudgeDirID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 988 |
-| [scales_hasFJCNodeID](../slots/scales_hasFJCNodeID.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 3855 |
 | [http___release.niem.gov_niem_domains_jxdm_7.2_JudicialOfficialCategoryText](../slots/http___release.niem.gov_niem_domains_jxdm_7.2_JudicialOfficialCategoryText.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 5385 |
-| [niem50_PersonFullName](../slots/niem50_PersonFullName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 5385 |
-| [scales_hasCommissionDate](../slots/scales_hasCommissionDate.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot (predicate) description specified <br/>  | direct | 4253 |
 | [niem50_PersonRaceText](../slots/niem50_PersonRaceText.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 3762 |
 | [niem50_PersonSexText](../slots/niem50_PersonSexText.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 3762 |
+| [scales_hasUVAJudgeDirID](../slots/scales_hasUVAJudgeDirID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 988 |
+| [niem50_PersonFullName](../slots/niem50_PersonFullName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 5385 |
 | [scales_appointedByParty](../slots/scales_appointedByParty.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 3912 |
+| [scales_hasFJCNodeID](../slots/scales_hasFJCNodeID.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 3855 |
+| [scales_hasCommissionDate](../slots/scales_hasCommissionDate.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot (predicate) description specified <br/>  | direct | 4253 |
 
 
 
@@ -160,14 +160,14 @@ title: No class (type) name specified
 from_schema: scales-kg
 rank: 1000
 slots:
-- scales_hasUVAJudgeDirID
-- scales_hasFJCNodeID
 - http___release.niem.gov_niem_domains_jxdm_7.2_JudicialOfficialCategoryText
-- niem50_PersonFullName
-- scales_hasCommissionDate
 - niem50_PersonRaceText
 - niem50_PersonSexText
+- scales_hasUVAJudgeDirID
+- niem50_PersonFullName
 - scales_appointedByParty
+- scales_hasFJCNodeID
+- scales_hasCommissionDate
 slot_usage:
   http___release.niem.gov_niem_domains_jxdm_7.2_JudicialOfficialCategoryText:
     name: http___release.niem.gov_niem_domains_jxdm_7.2_JudicialOfficialCategoryText
@@ -287,50 +287,6 @@ slot_usage:
         tag: string
         value: 988
 attributes:
-  scales_hasUVAJudgeDirID:
-    name: scales_hasUVAJudgeDirID
-    annotations:
-      string:
-        tag: string
-        value: 988
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: mag-261
-        example_object_type: string
-        example_predicate: scales:hasUVAJudgeDirID
-        example_subject: scales:/JudgeEntity/SJ000079
-        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
-    from_schema: scales-kg
-    rank: 1000
-    slot_uri: scales:hasUVAJudgeDirID
-    alias: scales_hasUVAJudgeDirID
-    owner: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
-    domain_of:
-    - http___release.niem.gov_niem_domains_jxdm_7.2_Judge
-    range: string
-  scales_hasFJCNodeID:
-    name: scales_hasFJCNodeID
-    annotations:
-      double:
-        tag: double
-        value: 3855
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: '1388511.0'
-        example_object_type: double
-        example_predicate: scales:hasFJCNodeID
-        example_subject: scales:/JudgeEntity/SJ000002
-        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
-    from_schema: scales-kg
-    rank: 1000
-    slot_uri: scales:hasFJCNodeID
-    alias: scales_hasFJCNodeID
-    owner: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
-    domain_of:
-    - http___release.niem.gov_niem_domains_jxdm_7.2_Judge
-    range: double
   http___release.niem.gov_niem_domains_jxdm_7.2_JudicialOfficialCategoryText:
     name: http___release.niem.gov_niem_domains_jxdm_7.2_JudicialOfficialCategoryText
     annotations:
@@ -349,6 +305,72 @@ attributes:
     rank: 1000
     slot_uri: http://release.niem.gov/niem/domains/jxdm/7.2/JudicialOfficialCategoryText
     alias: http___release.niem.gov_niem_domains_jxdm_7.2_JudicialOfficialCategoryText
+    owner: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+    domain_of:
+    - http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+    range: string
+  niem50_PersonRaceText:
+    name: niem50_PersonRaceText
+    annotations:
+      string:
+        tag: string
+        value: 3762
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: White
+        example_object_type: string
+        example_predicate: niem50:PersonRaceText
+        example_subject: scales:/JudgeEntity/SJ000002
+        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+    from_schema: scales-kg
+    rank: 1000
+    slot_uri: niem50:PersonRaceText
+    alias: niem50_PersonRaceText
+    owner: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+    domain_of:
+    - http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+    range: string
+  niem50_PersonSexText:
+    name: niem50_PersonSexText
+    annotations:
+      string:
+        tag: string
+        value: 3762
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: Male
+        example_object_type: string
+        example_predicate: niem50:PersonSexText
+        example_subject: scales:/JudgeEntity/SJ000002
+        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+    from_schema: scales-kg
+    rank: 1000
+    slot_uri: niem50:PersonSexText
+    alias: niem50_PersonSexText
+    owner: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+    domain_of:
+    - http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+    range: string
+  scales_hasUVAJudgeDirID:
+    name: scales_hasUVAJudgeDirID
+    annotations:
+      string:
+        tag: string
+        value: 988
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: mag-261
+        example_object_type: string
+        example_predicate: scales:hasUVAJudgeDirID
+        example_subject: scales:/JudgeEntity/SJ000079
+        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+    from_schema: scales-kg
+    rank: 1000
+    slot_uri: scales:hasUVAJudgeDirID
+    alias: scales_hasUVAJudgeDirID
     owner: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
     domain_of:
     - http___release.niem.gov_niem_domains_jxdm_7.2_Judge
@@ -402,72 +424,6 @@ attributes:
     - http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
     - http___release.niem.gov_niem_domains_jxdm_7.2_Judge
     range: string
-  scales_hasCommissionDate:
-    name: scales_hasCommissionDate
-    annotations:
-      date:
-        tag: date
-        value: 4253
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: '1980-01-01'
-        example_object_type: date
-        example_predicate: scales:hasCommissionDate
-        example_subject: scales:/JudgeEntity/SJ000184
-        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
-    from_schema: scales-kg
-    rank: 1000
-    slot_uri: scales:hasCommissionDate
-    alias: scales_hasCommissionDate
-    owner: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
-    domain_of:
-    - http___release.niem.gov_niem_domains_jxdm_7.2_Judge
-    range: date
-  niem50_PersonRaceText:
-    name: niem50_PersonRaceText
-    annotations:
-      string:
-        tag: string
-        value: 3762
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: White
-        example_object_type: string
-        example_predicate: niem50:PersonRaceText
-        example_subject: scales:/JudgeEntity/SJ000002
-        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
-    from_schema: scales-kg
-    rank: 1000
-    slot_uri: niem50:PersonRaceText
-    alias: niem50_PersonRaceText
-    owner: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
-    domain_of:
-    - http___release.niem.gov_niem_domains_jxdm_7.2_Judge
-    range: string
-  niem50_PersonSexText:
-    name: niem50_PersonSexText
-    annotations:
-      string:
-        tag: string
-        value: 3762
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: Male
-        example_object_type: string
-        example_predicate: niem50:PersonSexText
-        example_subject: scales:/JudgeEntity/SJ000002
-        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
-    from_schema: scales-kg
-    rank: 1000
-    slot_uri: niem50:PersonSexText
-    alias: niem50_PersonSexText
-    owner: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
-    domain_of:
-    - http___release.niem.gov_niem_domains_jxdm_7.2_Judge
-    range: string
   scales_appointedByParty:
     name: scales_appointedByParty
     annotations:
@@ -490,6 +446,50 @@ attributes:
     domain_of:
     - http___release.niem.gov_niem_domains_jxdm_7.2_Judge
     range: string
+  scales_hasFJCNodeID:
+    name: scales_hasFJCNodeID
+    annotations:
+      double:
+        tag: double
+        value: 3855
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '1388511.0'
+        example_object_type: double
+        example_predicate: scales:hasFJCNodeID
+        example_subject: scales:/JudgeEntity/SJ000002
+        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+    from_schema: scales-kg
+    rank: 1000
+    slot_uri: scales:hasFJCNodeID
+    alias: scales_hasFJCNodeID
+    owner: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+    domain_of:
+    - http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+    range: double
+  scales_hasCommissionDate:
+    name: scales_hasCommissionDate
+    annotations:
+      date:
+        tag: date
+        value: 4253
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '1980-01-01'
+        example_object_type: date
+        example_predicate: scales:hasCommissionDate
+        example_subject: scales:/JudgeEntity/SJ000184
+        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+    from_schema: scales-kg
+    rank: 1000
+    slot_uri: scales:hasCommissionDate
+    alias: scales_hasCommissionDate
+    owner: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+    domain_of:
+    - http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+    range: date
 class_uri: http://release.niem.gov/niem/domains/jxdm/7.2/Judge
 
 ```

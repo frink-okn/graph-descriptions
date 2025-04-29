@@ -27,8 +27,8 @@ URI: [niem50:StartDate](http://release.niem.gov/niem/niem-core/5.0/StartDate)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
 | [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
+| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
 
 
 

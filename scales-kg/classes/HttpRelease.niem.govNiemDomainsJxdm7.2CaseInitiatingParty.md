@@ -91,12 +91,12 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/CaseInitiatingParty](http://
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [niem50_EntityName](../slots/niem50_EntityName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 5633 |
-| [scales_hasPartyReferenceInExtraInfo](../slots/scales_hasPartyReferenceInExtraInfo.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 12 |
-| [scales_hasExtraInfo](../slots/scales_hasExtraInfo.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 539 |
 | [http___release.niem.gov_niem_domains_jxdm_7.2_ParticipantRoleCategoryText](../slots/http___release.niem.gov_niem_domains_jxdm_7.2_ParticipantRoleCategoryText.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 5633 |
-| [scales_isInstanceOfEntity](../slots/scales_isInstanceOfEntity.md) | 0..1 <br/> [HttpRelease.niem.govNiemDomainsJxdm7.2Judge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Judge.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 3765 |
 | [http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney](../slots/http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney.md) | 0..1 <br/> [HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingAttorney](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingAttorney.md) | No slot (predicate) description specified <br/>  | direct | 9088 |
+| [niem50_EntityName](../slots/niem50_EntityName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 5633 |
+| [scales_hasExtraInfo](../slots/scales_hasExtraInfo.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 539 |
+| [scales_hasPartyReferenceInExtraInfo](../slots/scales_hasPartyReferenceInExtraInfo.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 12 |
+| [scales_isInstanceOfEntity](../slots/scales_isInstanceOfEntity.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[HttpRelease.niem.govNiemDomainsJxdm7.2Judge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Judge.md) | No slot (predicate) description specified <br/>  | direct | 3765 |
 
 
 
@@ -138,12 +138,12 @@ description: No class (type) description specified
 title: No class (type) name specified
 rank: 1000
 slots:
-- niem50_EntityName
-- scales_hasPartyReferenceInExtraInfo
-- scales_hasExtraInfo
 - http___release.niem.gov_niem_domains_jxdm_7.2_ParticipantRoleCategoryText
-- scales_isInstanceOfEntity
 - http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
+- niem50_EntityName
+- scales_hasExtraInfo
+- scales_hasPartyReferenceInExtraInfo
+- scales_isInstanceOfEntity
 slot_usage:
   http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney:
     name: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
@@ -238,107 +238,6 @@ slot_usage:
         tag: uri
         value: 3765
 attributes:
-  niem50_EntityName:
-    name: niem50_EntityName
-    annotations:
-      string:
-        tag: string
-        value: 5633
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: SCALES-Party-Hash-A832763C1FE77A32B6DE912B9C77F80C
-        example_object_type: string
-        example_predicate: niem50:EntityName
-        example_subject: scales:/Agent/casd;;3:16-cv-01644_a0
-        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
-    - object:
-        example_object: USA
-        example_object_type: string
-        example_predicate: niem50:EntityName
-        example_subject: scales:/Agent/casd;;3:16-cv-01644_a1
-        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
-    - object:
-        example_object: Revolar, Inc.
-        example_object_type: string
-        example_predicate: niem50:EntityName
-        example_subject: scales:/Agent/casd;;3:16-cv-01645_a3
-        example_subject_type: scales_Party
-    from_schema: scales-kg
-    rank: 1000
-    slot_uri: niem50:EntityName
-    alias: niem50_EntityName
-    owner: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
-    domain_of:
-    - http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
-    - http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
-    - scales_Party
-    range: string
-  scales_hasPartyReferenceInExtraInfo:
-    name: scales_hasPartyReferenceInExtraInfo
-    annotations:
-      uri:
-        tag: uri
-        value: 12
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: scales:/PartyEntity/SPID-INDUSTRY-ST-010-000002068
-        example_object_type: uri
-        example_predicate: scales:hasPartyReferenceInExtraInfo
-        example_subject: scales:/Agent/casd;;3:16-cv-01667_a1
-        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
-    - object:
-        example_object: scales:/PartyEntity/SPID-INDUSTRY-ST-016-000023681
-        example_object_type: uri
-        example_predicate: scales:hasPartyReferenceInExtraInfo
-        example_subject: scales:/Agent/casd;;3:16-cv-01713_a0
-        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
-    from_schema: scales-kg
-    rank: 1000
-    slot_uri: scales:hasPartyReferenceInExtraInfo
-    alias: scales_hasPartyReferenceInExtraInfo
-    owner: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
-    domain_of:
-    - http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
-    - http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
-    range: uri
-  scales_hasExtraInfo:
-    name: scales_hasExtraInfo
-    annotations:
-      string:
-        tag: string
-        value: 539
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: a Delaware limited liability company
-        example_object_type: string
-        example_predicate: scales:hasExtraInfo
-        example_subject: scales:/Agent/casd;;3:16-cv-01645_a0
-        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
-    - object:
-        example_object: a Delaware corporation
-        example_object_type: string
-        example_predicate: scales:hasExtraInfo
-        example_subject: scales:/Agent/casd;;3:16-cv-01645_a1
-        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
-    - object:
-        example_object: a Delaware corporation
-        example_object_type: string
-        example_predicate: scales:hasExtraInfo
-        example_subject: scales:/Agent/casd;;3:16-cv-01645_a3
-        example_subject_type: scales_Party
-    from_schema: scales-kg
-    rank: 1000
-    slot_uri: scales:hasExtraInfo
-    alias: scales_hasExtraInfo
-    owner: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
-    domain_of:
-    - http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
-    - http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
-    - scales_Party
-    range: string
   http___release.niem.gov_niem_domains_jxdm_7.2_ParticipantRoleCategoryText:
     name: http___release.niem.gov_niem_domains_jxdm_7.2_ParticipantRoleCategoryText
     annotations:
@@ -375,6 +274,129 @@ attributes:
     - http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
     - scales_Party
     range: string
+  http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney:
+    name: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
+    annotations:
+      http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney:
+        tag: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
+        value: 9088
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: scales:/Agent/casd;;3:16-cv-01644_a3
+        example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
+        example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/CaseInitiatingAttorney
+        example_subject: scales:/Agent/casd;;3:16-cv-01644_a0
+        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
+    from_schema: scales-kg
+    rank: 1000
+    slot_uri: http://release.niem.gov/niem/domains/jxdm/7.2/CaseInitiatingAttorney
+    alias: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
+    owner: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
+    domain_of:
+    - http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
+    range: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
+  niem50_EntityName:
+    name: niem50_EntityName
+    annotations:
+      string:
+        tag: string
+        value: 5633
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: SCALES-Party-Hash-A832763C1FE77A32B6DE912B9C77F80C
+        example_object_type: string
+        example_predicate: niem50:EntityName
+        example_subject: scales:/Agent/casd;;3:16-cv-01644_a0
+        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
+    - object:
+        example_object: USA
+        example_object_type: string
+        example_predicate: niem50:EntityName
+        example_subject: scales:/Agent/casd;;3:16-cv-01644_a1
+        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
+    - object:
+        example_object: Revolar, Inc.
+        example_object_type: string
+        example_predicate: niem50:EntityName
+        example_subject: scales:/Agent/casd;;3:16-cv-01645_a3
+        example_subject_type: scales_Party
+    from_schema: scales-kg
+    rank: 1000
+    slot_uri: niem50:EntityName
+    alias: niem50_EntityName
+    owner: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
+    domain_of:
+    - http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
+    - http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
+    - scales_Party
+    range: string
+  scales_hasExtraInfo:
+    name: scales_hasExtraInfo
+    annotations:
+      string:
+        tag: string
+        value: 539
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: a Delaware limited liability company
+        example_object_type: string
+        example_predicate: scales:hasExtraInfo
+        example_subject: scales:/Agent/casd;;3:16-cv-01645_a0
+        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
+    - object:
+        example_object: a Delaware corporation
+        example_object_type: string
+        example_predicate: scales:hasExtraInfo
+        example_subject: scales:/Agent/casd;;3:16-cv-01645_a1
+        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
+    - object:
+        example_object: a Delaware corporation
+        example_object_type: string
+        example_predicate: scales:hasExtraInfo
+        example_subject: scales:/Agent/casd;;3:16-cv-01645_a3
+        example_subject_type: scales_Party
+    from_schema: scales-kg
+    rank: 1000
+    slot_uri: scales:hasExtraInfo
+    alias: scales_hasExtraInfo
+    owner: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
+    domain_of:
+    - http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
+    - http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
+    - scales_Party
+    range: string
+  scales_hasPartyReferenceInExtraInfo:
+    name: scales_hasPartyReferenceInExtraInfo
+    annotations:
+      uri:
+        tag: uri
+        value: 12
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: scales:/PartyEntity/SPID-INDUSTRY-ST-010-000002068
+        example_object_type: uri
+        example_predicate: scales:hasPartyReferenceInExtraInfo
+        example_subject: scales:/Agent/casd;;3:16-cv-01667_a1
+        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
+    - object:
+        example_object: scales:/PartyEntity/SPID-INDUSTRY-ST-016-000023681
+        example_object_type: uri
+        example_predicate: scales:hasPartyReferenceInExtraInfo
+        example_subject: scales:/Agent/casd;;3:16-cv-01713_a0
+        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
+    from_schema: scales-kg
+    rank: 1000
+    slot_uri: scales:hasPartyReferenceInExtraInfo
+    alias: scales_hasPartyReferenceInExtraInfo
+    owner: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
+    domain_of:
+    - http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
+    - http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
+    range: uri
   scales_isInstanceOfEntity:
     name: scales_isInstanceOfEntity
     annotations:
@@ -418,30 +440,8 @@ attributes:
     - scales_Party
     range: Any
     any_of:
-    - range: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
     - range: uri
-  http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney:
-    name: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
-    annotations:
-      http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney:
-        tag: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
-        value: 9088
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: scales:/Agent/casd;;3:16-cv-01644_a3
-        example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
-        example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/CaseInitiatingAttorney
-        example_subject: scales:/Agent/casd;;3:16-cv-01644_a0
-        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
-    from_schema: scales-kg
-    rank: 1000
-    slot_uri: http://release.niem.gov/niem/domains/jxdm/7.2/CaseInitiatingAttorney
-    alias: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
-    owner: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
-    domain_of:
-    - http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
-    range: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
+    - range: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
 class_uri: http://release.niem.gov/niem/domains/jxdm/7.2/CaseInitiatingParty
 
 ```

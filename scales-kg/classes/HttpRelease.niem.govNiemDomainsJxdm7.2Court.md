@@ -83,9 +83,9 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/Court](http://release.niem.g
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
 | [scales_isInCircuit](../slots/scales_isInCircuit.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 94 |
-| [niem50_AddressPostalCode](../slots/niem50_AddressPostalCode.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 40932 |
 | [http___release.niem.gov_niem_codes_fips_5.0_CountyCode](../slots/http___release.niem.gov_niem_codes_fips_5.0_CountyCode.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 3035 |
 | [http___release.niem.gov_niem_domains_jxdm_7.2_CourtCategoryCode](../slots/http___release.niem.gov_niem_domains_jxdm_7.2_CourtCategoryCode.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 94 |
+| [niem50_AddressPostalCode](../slots/niem50_AddressPostalCode.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 40932 |
 | [http___release.niem.gov_niem_domains_jxdm_7.2_CourtName](../slots/http___release.niem.gov_niem_domains_jxdm_7.2_CourtName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 94 |
 
 
@@ -130,9 +130,9 @@ from_schema: scales-kg
 rank: 1000
 slots:
 - scales_isInCircuit
-- niem50_AddressPostalCode
 - http___release.niem.gov_niem_codes_fips_5.0_CountyCode
 - http___release.niem.gov_niem_domains_jxdm_7.2_CourtCategoryCode
+- niem50_AddressPostalCode
 - http___release.niem.gov_niem_domains_jxdm_7.2_CourtName
 slot_usage:
   http___release.niem.gov_niem_codes_fips_5.0_CountyCode:
@@ -239,28 +239,6 @@ attributes:
     domain_of:
     - http___release.niem.gov_niem_domains_jxdm_7.2_Court
     range: string
-  niem50_AddressPostalCode:
-    name: niem50_AddressPostalCode
-    annotations:
-      string:
-        tag: string
-        value: 40932
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: '91901'
-        example_object_type: string
-        example_predicate: niem50:AddressPostalCode
-        example_subject: scales:/Court/casd
-        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Court
-    from_schema: scales-kg
-    rank: 1000
-    slot_uri: niem50:AddressPostalCode
-    alias: niem50_AddressPostalCode
-    owner: http___release.niem.gov_niem_domains_jxdm_7.2_Court
-    domain_of:
-    - http___release.niem.gov_niem_domains_jxdm_7.2_Court
-    range: string
   http___release.niem.gov_niem_codes_fips_5.0_CountyCode:
     name: http___release.niem.gov_niem_codes_fips_5.0_CountyCode
     annotations:
@@ -301,6 +279,28 @@ attributes:
     rank: 1000
     slot_uri: http://release.niem.gov/niem/domains/jxdm/7.2/CourtCategoryCode
     alias: http___release.niem.gov_niem_domains_jxdm_7.2_CourtCategoryCode
+    owner: http___release.niem.gov_niem_domains_jxdm_7.2_Court
+    domain_of:
+    - http___release.niem.gov_niem_domains_jxdm_7.2_Court
+    range: string
+  niem50_AddressPostalCode:
+    name: niem50_AddressPostalCode
+    annotations:
+      string:
+        tag: string
+        value: 40932
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '91901'
+        example_object_type: string
+        example_predicate: niem50:AddressPostalCode
+        example_subject: scales:/Court/casd
+        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Court
+    from_schema: scales-kg
+    rank: 1000
+    slot_uri: niem50:AddressPostalCode
+    alias: niem50_AddressPostalCode
     owner: http___release.niem.gov_niem_domains_jxdm_7.2_Court
     domain_of:
     - http___release.niem.gov_niem_domains_jxdm_7.2_Court

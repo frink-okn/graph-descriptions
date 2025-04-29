@@ -27,8 +27,8 @@ URI: [scales:hasIdbProbcd4](http://schemas.scales-okn.org/rdf/scales#hasIdbProbc
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
 | [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
+| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -38,7 +38,7 @@ URI: [scales:hasIdbProbcd4](http://schemas.scales-okn.org/rdf/scales#hasIdbProbc
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -102,8 +102,8 @@ domain_of:
 - scales_Case
 range: Any
 any_of:
-- range: string
 - range: integer
+- range: string
 
 ```
 </details>
