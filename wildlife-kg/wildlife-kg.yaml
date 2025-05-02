@@ -1,0 +1,249 @@
+classes:
+  Any:
+    class_uri: linkml:Any
+    name: Any
+  https___wildlife.proto-okn.net_kg_schema_Amphibian_name:
+    annotations:
+      count: 97
+    class_uri: https://wildlife.proto-okn.net/kg/schema/Amphibian_name
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: https___wildlife.proto-okn.net_kg_schema_Amphibian_name
+    slot_usage:
+      https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT:
+        annotations:
+          https___wildlife.proto-okn.net_kg_schema_Location: 2723
+      rdfs_label:
+        annotations:
+          string: 97
+    slots:
+    - rdfs_label
+    - https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT
+    title: No class (type) name specified
+  https___wildlife.proto-okn.net_kg_schema_Bird_name:
+    annotations:
+      count: 303
+    class_uri: https://wildlife.proto-okn.net/kg/schema/Bird_name
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: https___wildlife.proto-okn.net_kg_schema_Bird_name
+    slot_usage:
+      https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT:
+        annotations:
+          https___wildlife.proto-okn.net_kg_schema_Location: 2482
+      rdfs_label:
+        annotations:
+          string: 303
+    slots:
+    - rdfs_label
+    - https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT
+    title: No class (type) name specified
+  https___wildlife.proto-okn.net_kg_schema_Location:
+    annotations:
+      count: 657
+    class_uri: https://wildlife.proto-okn.net/kg/schema/Location
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: https___wildlife.proto-okn.net_kg_schema_Location
+    slot_usage:
+      rdfs_label:
+        annotations:
+          string: 657
+    slots:
+    - rdfs_label
+    title: No class (type) name specified
+  rdf_Statement:
+    annotations:
+      count: 5205
+    class_uri: rdf:Statement
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: rdf_Statement
+    slot_usage:
+      dct_date:
+        annotations:
+          date: 87
+          datetime: 5118
+      https___wildlife.proto-okn.net_kg_schema_observed_times:
+        annotations:
+          integer: 5205
+      rdf_object:
+        annotations:
+          https___wildlife.proto-okn.net_kg_schema_Location: 5205
+      rdf_predicate:
+        annotations:
+          uri: 5205
+      rdf_subject:
+        annotations:
+          https___wildlife.proto-okn.net_kg_schema_Amphibian_name: 2723
+          https___wildlife.proto-okn.net_kg_schema_Bird_name: 2482
+      schema_subjectOf:
+        annotations:
+          uri: 5205
+    slots:
+    - rdf_subject
+    - schema_subjectOf
+    - dct_date
+    - https___wildlife.proto-okn.net_kg_schema_observed_times
+    - rdf_object
+    - rdf_predicate
+    title: No class (type) name specified
+conforms_to: No schema conformance document specified
+created_on: '2025-05-02T17:02:36.884733'
+description: No schema description specified
+id: wildlife-kg
+imports:
+- linkml:types
+last_updated_on: '2025-05-02T17:02:36.884733'
+license: No schema license specified
+name: wildlife-kg
+prefixes:
+  dct: http://purl.org/dc/terms/
+  linkml: https://w3id.org/linkml/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  schema: https://schema.org/
+slots:
+  dct_date:
+    annotations:
+      count: 5205
+    any_of:
+    - range: datetime
+    - range: date
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '2018-12-26T18:04:00'
+        example_object_type: datetime
+        example_predicate: dct:date
+        example_subject: https://wildlife.proto-okn.net/kg/relationship/14856
+        example_subject_type: rdf_Statement
+    - object:
+        example_object: '2023-10-18'
+        example_object_type: date
+        example_predicate: dct:date
+        example_subject: https://wildlife.proto-okn.net/kg/relationship/15004
+        example_subject_type: rdf_Statement
+    range: Any
+    slot_uri: dct:date
+  https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT:
+    annotations:
+      count: 5205
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: https://wildlife.proto-okn.net/kg/node/2216
+        example_object_type: https___wildlife.proto-okn.net_kg_schema_Location
+        example_predicate: https://wildlife.proto-okn.net/kg/schema/OBSERVED_AT
+        example_subject: https://wildlife.proto-okn.net/kg/node/2217
+        example_subject_type: https___wildlife.proto-okn.net_kg_schema_Bird_name
+    - object:
+        example_object: https://wildlife.proto-okn.net/kg/node/2216
+        example_object_type: https___wildlife.proto-okn.net_kg_schema_Location
+        example_predicate: https://wildlife.proto-okn.net/kg/schema/OBSERVED_AT
+        example_subject: https://wildlife.proto-okn.net/kg/node/2861
+        example_subject_type: https___wildlife.proto-okn.net_kg_schema_Amphibian_name
+    range: https___wildlife.proto-okn.net_kg_schema_Location
+    slot_uri: https://wildlife.proto-okn.net/kg/schema/OBSERVED_AT
+  https___wildlife.proto-okn.net_kg_schema_observed_times:
+    annotations:
+      count: 5205
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '2'
+        example_object_type: integer
+        example_predicate: https://wildlife.proto-okn.net/kg/schema/observed_times
+        example_subject: https://wildlife.proto-okn.net/kg/relationship/14856
+        example_subject_type: rdf_Statement
+    range: integer
+    slot_uri: https://wildlife.proto-okn.net/kg/schema/observed_times
+  rdf_object:
+    annotations:
+      count: 5205
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: https://wildlife.proto-okn.net/kg/node/2426
+        example_object_type: https___wildlife.proto-okn.net_kg_schema_Location
+        example_predicate: rdf:object
+        example_subject: https://wildlife.proto-okn.net/kg/relationship/14856
+        example_subject_type: rdf_Statement
+    range: https___wildlife.proto-okn.net_kg_schema_Location
+    slot_uri: rdf:object
+  rdf_predicate:
+    annotations:
+      count: 5205
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: https://wildlife.proto-okn.net/kg/schema/OBSERVED_AT
+        example_object_type: uri
+        example_predicate: rdf:predicate
+        example_subject: https://wildlife.proto-okn.net/kg/relationship/14856
+        example_subject_type: rdf_Statement
+    range: uri
+    slot_uri: rdf:predicate
+  rdf_subject:
+    annotations:
+      count: 5205
+    any_of:
+    - range: https___wildlife.proto-okn.net_kg_schema_Bird_name
+    - range: https___wildlife.proto-okn.net_kg_schema_Amphibian_name
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: https://wildlife.proto-okn.net/kg/node/2368
+        example_object_type: https___wildlife.proto-okn.net_kg_schema_Bird_name
+        example_predicate: rdf:subject
+        example_subject: https://wildlife.proto-okn.net/kg/relationship/14856
+        example_subject_type: rdf_Statement
+    - object:
+        example_object: https://wildlife.proto-okn.net/kg/node/2861
+        example_object_type: https___wildlife.proto-okn.net_kg_schema_Amphibian_name
+        example_predicate: rdf:subject
+        example_subject: https://wildlife.proto-okn.net/kg/relationship/16140
+        example_subject_type: rdf_Statement
+    range: Any
+    slot_uri: rdf:subject
+  rdfs_label:
+    annotations:
+      count: 1057
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: Saint Petersburg
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: https://wildlife.proto-okn.net/kg/node/2216
+        example_subject_type: https___wildlife.proto-okn.net_kg_schema_Location
+    - object:
+        example_object: Ardea alba Linnaeus, 1758
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: https://wildlife.proto-okn.net/kg/node/2217
+        example_subject_type: https___wildlife.proto-okn.net_kg_schema_Bird_name
+    - object:
+        example_object: Lithobates sphenocephalus
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: https://wildlife.proto-okn.net/kg/node/2861
+        example_subject_type: https___wildlife.proto-okn.net_kg_schema_Amphibian_name
+    range: string
+    slot_uri: rdfs:label
+  schema_subjectOf:
+    annotations:
+      count: 5205
+    description: A CreativeWork or Event about this Thing.
+    examples:
+    - object:
+        example_object: https://www.inaturalist.org/observations/19259838
+        example_object_type: uri
+        example_predicate: schema:subjectOf
+        example_subject: https://wildlife.proto-okn.net/kg/relationship/14856
+        example_subject_type: rdf_Statement
+    range: uri
+    slot_uri: schema:subjectOf
+    title: subjectOf
+title: wildlifekn
+version: No schema version available
