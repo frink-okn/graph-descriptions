@@ -1,0 +1,104 @@
+classes:
+  Any:
+    class_uri: linkml:Any
+    name: Any
+conforms_to: No schema conformance document specified
+created_on: '2025-05-09T16:18:25.780125'
+description: No schema description specified
+id: identifier-mappings
+imports:
+- linkml:types
+last_updated_on: '2025-05-09T16:18:25.780125'
+license: No schema license specified
+name: identifier-mappings
+prefixes:
+  bao: http://www.bioassayontology.org/bao#BAO_
+  dc: http://purl.org/dc/elements/1.1/
+  dct: http://purl.org/dc/terms/
+  edam: http://edamontology.org/
+  hsdo: http://schema.org/
+  kwgr: http://stko-kwg.geog.ucsb.edu/lod/resource/
+  linkml: https://w3id.org/linkml/
+  obo: http://purl.obolibrary.org/obo/
+  owl: http://www.w3.org/2002/07/owl#
+  qudt: http://qudt.org/schema/qudt/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  schema: https://schema.org/
+  semsci: http://semanticscience.org/resource/SIO_
+  skos: http://www.w3.org/2004/02/skos/core#
+  wd: http://www.wikidata.org/entity/
+  wikibase: http://wikiba.se/ontology#
+slots:
+  owl_equivalentClass:
+    annotations:
+      count: 1721
+      uri: 1721
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: wd:Q30148381
+        example_object_type: uri
+        example_predicate: owl:equivalentClass
+        example_subject: wd:Q30148184
+        example_subject_type: None
+    range: uri
+    slot_uri: owl:equivalentClass
+  owl_equivalentProperty:
+    annotations:
+      count: 791
+      uri: 791
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://pcp-on-web.de/ontology#disputationHasDissertation
+        example_object_type: uri
+        example_predicate: owl:equivalentProperty
+        example_subject: wd:P1026
+        example_subject_type: None
+    range: uri
+    slot_uri: owl:equivalentProperty
+  rdfs_subPropertyOf:
+    annotations:
+      count: 295
+      uri: 295
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: wd:P629
+        example_object_type: uri
+        example_predicate: rdfs:subPropertyOf
+        example_subject: http://bibliograph.net/translationOfWork
+        example_subject_type: None
+    range: uri
+    slot_uri: rdfs:subPropertyOf
+  skos_exactMatch:
+    annotations:
+      count: 25963995
+      uri: 25963995
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://id.loc.gov/ontologies/bibframe/title
+        example_object_type: uri
+        example_predicate: skos:exactMatch
+        example_subject: wd:P1476
+        example_subject_type: None
+    range: uri
+    slot_uri: skos:exactMatch
+  skos_narrowMatch:
+    annotations:
+      count: 95
+      uri: 95
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: https://d-nb.info/standards/elementset/gnd#succeedingCorporateBody
+        example_object_type: uri
+        example_predicate: skos:narrowMatch
+        example_subject: wd:Q104481692
+        example_subject_type: None
+    range: uri
+    slot_uri: skos:narrowMatch
+title: identifier-mappings
+version: No schema version available
