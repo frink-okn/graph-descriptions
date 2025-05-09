@@ -3,12 +3,12 @@ classes:
     class_uri: linkml:Any
     name: Any
 conforms_to: No schema conformance document specified
-created_on: '2025-05-09T16:18:25.780125'
+created_on: '2025-05-09T19:24:12.617062'
 description: No schema description specified
 id: identifier-mappings
 imports:
 - linkml:types
-last_updated_on: '2025-05-09T16:18:25.780125'
+last_updated_on: '2025-05-09T19:24:12.617062'
 license: No schema license specified
 name: identifier-mappings
 prefixes:
@@ -17,7 +17,6 @@ prefixes:
   dct: http://purl.org/dc/terms/
   edam: http://edamontology.org/
   hsdo: http://schema.org/
-  kwgr: http://stko-kwg.geog.ucsb.edu/lod/resource/
   linkml: https://w3id.org/linkml/
   obo: http://purl.obolibrary.org/obo/
   owl: http://www.w3.org/2002/07/owl#

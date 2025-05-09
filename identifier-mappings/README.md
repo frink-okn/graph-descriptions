@@ -16,13 +16,6 @@ erDiagram
 
 
 
-## Imports
-
-
-* linkml:types
-
-
-
 ## Classes
 
 | Class | Description | Occurrences |
@@ -57,14 +50,13 @@ erDiagram
 * dct: http://purl.org/dc/terms/
 * edam: http://edamontology.org/
 * hsdo: http://schema.org/
-* kwgr: http://stko-kwg.geog.ucsb.edu/lod/resource/
 * linkml: https://w3id.org/linkml/
 * obo: http://purl.obolibrary.org/obo/
 * owl: http://www.w3.org/2002/07/owl#
 * qudt: http://qudt.org/schema/qudt/
 * rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
 * rdfs: http://www.w3.org/2000/01/rdf-schema#
-* schema: https://schema.org/
+* schema: http://schema.org/
 * semsci: http://semanticscience.org/resource/SIO_
 * skos: http://www.w3.org/2004/02/skos/core#
 * wd: http://www.wikidata.org/entity/
