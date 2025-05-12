@@ -87,6 +87,7 @@ annotations:
     value: 17041
 description: No class (type) description specified
 title: No class (type) name specified
+from_schema: scales-kg
 rank: 1000
 slots:
 - niem50_OrganizationName
@@ -115,6 +116,7 @@ annotations:
     value: 17041
 description: No class (type) description specified
 title: No class (type) name specified
+from_schema: scales-kg
 rank: 1000
 slot_usage:
   niem50_OrganizationName:

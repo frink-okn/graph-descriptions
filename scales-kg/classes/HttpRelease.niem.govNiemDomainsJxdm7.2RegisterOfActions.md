@@ -86,6 +86,7 @@ annotations:
     value: 5000
 description: No class (type) description specified
 title: No class (type) name specified
+from_schema: scales-kg
 rank: 1000
 slots:
 - http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction
@@ -114,6 +115,7 @@ annotations:
     value: 5000
 description: No class (type) description specified
 title: No class (type) name specified
+from_schema: scales-kg
 rank: 1000
 slot_usage:
   http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction:
