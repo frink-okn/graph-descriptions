@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 94 times.
+
+
 URI: [scales:isInCircuit](http://schemas.scales-okn.org/rdf/scales#isInCircuit)
 
 
@@ -23,7 +27,7 @@ URI: [scales:isInCircuit](http://schemas.scales-okn.org/rdf/scales#isInCircuit)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72Court](../classes/Jxdm72Court.md) | No class (type) description specified |  no  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2Court](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Court.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,16 +46,10 @@ URI: [scales:isInCircuit](http://schemas.scales-okn.org/rdf/scales#isInCircuit)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| jxdm72_Court → string | scales/Court/almd | scales:isInCircuit | Eleventh |
-| None → string | scales:Court/akd | scales:isInCircuit | Ninth |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Court | string | scales:/Court/casd | Ninth | 94 |
 
-
-## Comments
-
-* 94 occurrences with subject type jxdm72_Court and object type string.
-* 94 occurrences with untyped subjects and object type string.
 
 
 
@@ -61,31 +59,24 @@ URI: [scales:isInCircuit](http://schemas.scales-okn.org/rdf/scales#isInCircuit)
 
 ```yaml
 name: scales_isInCircuit
+annotations:
+  count:
+    tag: count
+    value: 94
 description: No slot (predicate) description specified
-comments:
-- 94 occurrences with subject type jxdm72_Court and object type string.
-- 94 occurrences with untyped subjects and object type string.
 examples:
-- description: jxdm72_Court → string
-  object:
-    example_object: Eleventh
-    example_object_type: string
-    example_predicate: scales:isInCircuit
-    example_subject: scales/Court/almd
-    example_subject_type: jxdm72_Court
-- description: None → string
-  object:
+- object:
     example_object: Ninth
     example_object_type: string
     example_predicate: scales:isInCircuit
-    example_subject: scales:Court/akd
-    example_subject_type: None
-from_schema: scales-kg-new
+    example_subject: scales:/Court/casd
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Court
+from_schema: scales-kg
 rank: 1000
 slot_uri: scales:isInCircuit
 alias: scales_isInCircuit
 domain_of:
-- jxdm72_Court
+- http___release.niem.gov_niem_domains_jxdm_7.2_Court
 range: string
 
 ```

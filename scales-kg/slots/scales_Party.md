@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 2319 times.
+
+
 URI: [scales:Party](http://schemas.scales-okn.org/rdf/scales#Party)
 
 
@@ -23,7 +27,8 @@ URI: [scales:Party](http://schemas.scales-okn.org/rdf/scales#Party)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
 
 
 
@@ -33,7 +38,15 @@ URI: [scales:Party](http://schemas.scales-okn.org/rdf/scales#Party)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [ScalesParty](../classes/ScalesParty.md)
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | [ScalesParty](../classes/ScalesParty.md) | range | [ScalesParty](../classes/ScalesParty.md) |
+| [ScalesCase](../classes/ScalesCase.md) | [ScalesParty](../classes/ScalesParty.md) | range | [ScalesParty](../classes/ScalesParty.md) |
+
 
 
 
@@ -42,14 +55,11 @@ URI: [scales:Party](http://schemas.scales-okn.org/rdf/scales#Party)
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| scales_Case → uri | scales/CaseCivil | scales:Party | scales/Agent/almd;;1:16-cv-00082_a5 |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Case | scales_Party | scales:/CaseCivil | scales:/Agent/casd;;3:16-cv-01645_a3 | 2319 |
+| scales_Case | scales_Party | scales:/CaseCivil | scales:/Agent/casd;;3:16-cv-01645_a3 | 2319 |
 
-
-## Comments
-
-* 231186 occurrences with subject type scales_Case and object type uri.
 
 
 
@@ -59,24 +69,32 @@ URI: [scales:Party](http://schemas.scales-okn.org/rdf/scales#Party)
 
 ```yaml
 name: scales_Party
+annotations:
+  count:
+    tag: count
+    value: 2319
 description: No slot (predicate) description specified
-comments:
-- 231186 occurrences with subject type scales_Case and object type uri.
 examples:
-- description: scales_Case → uri
-  object:
-    example_object: scales/Agent/almd;;1:16-cv-00082_a5
-    example_object_type: uri
+- object:
+    example_object: scales:/Agent/casd;;3:16-cv-01645_a3
+    example_object_type: scales_Party
     example_predicate: scales:Party
-    example_subject: scales/CaseCivil
+    example_subject: scales:/CaseCivil
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+- object:
+    example_object: scales:/Agent/casd;;3:16-cv-01645_a3
+    example_object_type: scales_Party
+    example_predicate: scales:Party
+    example_subject: scales:/CaseCivil
     example_subject_type: scales_Case
-from_schema: scales-kg-new
+from_schema: scales-kg
 rank: 1000
 slot_uri: scales:Party
 alias: scales_Party
 domain_of:
+- http___release.niem.gov_niem_domains_jxdm_7.2_Case
 - scales_Case
-range: uri
+range: scales_Party
 
 ```
 </details>
