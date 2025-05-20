@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_crop
+# Slot: No slot (predicate) name specified (sockg_crop)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:crop](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/crop)
+
+This slot occurs 213189 times.
+
+
+URI: [sockg:crop](https://idir.uta.edu/sockg-ontology/docs/crop)
 
 
 
@@ -23,16 +27,20 @@ URI: [sockg:crop](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | No type description provided |  no  |
-| [SockgGasSample](../classes/SockgGasSample.md) | No type description provided |  no  |
-| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | No type description provided |  no  |
-| [SockgBioMassEnergy](../classes/SockgBioMassEnergy.md) | No type description provided |  no  |
-| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | No type description provided |  no  |
-| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | No type description provided |  no  |
-| [SockgBioMassCarbohydrate](../classes/SockgBioMassCarbohydrate.md) | No type description provided |  no  |
-| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | No type description provided |  no  |
-| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | No type description provided |  no  |
-| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | No type description provided |  no  |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | BioMassMiner is a class that represents the analysis of biomass in terms of i... |  yes  |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by... |  yes  |
+| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | The GasNutrientLoss class represents the assessment of gaseous nutrient losse... |  yes  |
+| [SockgPlantingEvent](../classes/SockgPlantingEvent.md) | An event involving the act of planting, which includes considerations for spa... |  yes  |
+| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | WaterQualityConc represents the concentration of various water quality parame... |  yes  |
+| [SockgHarvest](../classes/SockgHarvest.md) | Harvest represents the process of collecting mature crops from the fields, wi... |  yes  |
+| [SockgAmendment](../classes/SockgAmendment.md) | An Amendment represents a specific alteration or addition made to agricultura... |  yes  |
+| [SockgBioMassCarbohydrate](../classes/SockgBioMassCarbohydrate.md) | BioMassCarbohydrate represents the carbohydrate content in biomass derived fr... |  yes  |
+| [SockgBioMassEnergy](../classes/SockgBioMassEnergy.md) | BioMassEnergy represents the energy content derived from agricultural biomass... |  yes  |
+| [SockgGasSample](../classes/SockgGasSample.md) | GasSample represents a collection of measurements related to greenhouse gas e... |  yes  |
+| [SockgHarvestFraction](../classes/SockgHarvestFraction.md) | The HarvestFraction class represents the quantifiable metrics and characteris... |  yes  |
+| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | The NutrientEfficiency class represents the effectiveness of nutrient utiliza... |  yes  |
+| [SockgResidueManagementEvent](../classes/SockgResidueManagementEvent.md) | A ResidueManagementEvent represents a specific instance of managing agricultu... |  yes  |
+| [SockgCropGrowthStage](../classes/SockgCropGrowthStage.md) | The CropGrowthStage class represents the various phases of development that a... |  yes  |
 
 
 
@@ -42,7 +50,7 @@ URI: [sockg:crop](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -51,127 +59,160 @@ URI: [sockg:crop](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#201065 sockg:crop Zea mays (Corn) |
-| neo4j://graph.individuals#156219 sockg:crop Zea mays (Corn) |
-| neo4j://graph.individuals#45025 sockg:crop Zea mays (Corn) |
-| neo4j://graph.individuals#509340 sockg:crop Secale cereale (Rye) |
-| neo4j://graph.individuals#360357 sockg:crop nan |
-| neo4j://graph.individuals#37850 sockg:crop Zea mays (Corn) |
-| neo4j://graph.individuals#39943 sockg:crop Zea mays (Corn) |
-| neo4j://graph.individuals#112348 sockg:crop nan |
-| neo4j://graph.individuals#360717 sockg:crop Glycine max (Soybean) |
-| neo4j://graph.individuals#56206 sockg:crop nan |
-| neo4j://graph.individuals#361559 sockg:crop nan |
-| neo4j://graph.individuals#56324 sockg:crop Secale cereale (Rye) |
-| neo4j://graph.individuals#509306 sockg:crop nan |
-
-## Comments
-
-* 2791 occurrences with subject type sockg:NutrientEfficiency and object type string.
-* 105046 occurrences with subject type sockg:GasSample and object type string.
-* 6723 occurrences with subject type sockg:BioMassMineral and object type string.
-* 429 occurrences with subject type sockg:YieldNutrientUptake and object type string.
-* 667 occurrences with subject type sockg:WaterQualityArea and object type xsd:double.
-* 1367 occurrences with subject type sockg:BioMassCarbohydrate and object type string.
-* 799 occurrences with subject type sockg:BioMassEnergy and object type string.
-* 2308 occurrences with subject type sockg:GasSample and object type xsd:double.
-* 553 occurrences with subject type sockg:WaterQualityConc and object type string.
-* 698 occurrences with subject type sockg:GasNutrientLoss and object type xsd:double.
-* 926 occurrences with subject type sockg:WaterQualityConc and object type xsd:double.
-* 50 occurrences with subject type sockg:GasNutrientLoss and object type string.
-* 15 occurrences with subject type sockg:WindErosionArea and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Amendment | string | sockg:individuals/0 | Glycine max (Soybean) | 35951 |
+| sockg_GasSample | string | sockg:individuals/100000 | Rangeland | 105046 |
+| sockg_Harvest | string | sockg:individuals/172906 | Glycine max (Soybean) | 18356 |
+| sockg_HarvestFraction | string | sockg:individuals/191262 | Zea mays (Corn) | 9470 |
+| sockg_ResidueManagementEvent | string | sockg:individuals/227674 | Zea mays (Corn) | 3308 |
+| sockg_BioMassCarbohydrate | string | sockg:individuals/37796 | Zea mays (Corn) | 1367 |
+| sockg_BioMassEnergy | string | sockg:individuals/39163 | Zea mays (Corn) | 799 |
+| sockg_BioMassMineral | string | sockg:individuals/39962 | Zea mays (Corn) | 6723 |
+| sockg_CropGrowthStage | string | sockg:individuals/46937 | Zea mays (Corn) | 4896 |
+| sockg_NutrientEfficiency | string | sockg:individuals/200732 | Calendula officinalis L. (Calendula) | 2791 |
+| sockg_PlantingEvent | string | sockg:individuals/203988 | Secale cereale (Rye) | 23450 |
+| sockg_WaterQualityConc | string | sockg:individuals/364993 | Glycine max (Soybean) | 553 |
+| sockg_GasNutrientLoss | string | sockg:individuals/55859 | Zea mays (Corn) | 50 |
+| sockg_YieldNutrientUptake | string | sockg:individuals/624587 | Zea mays (Corn) | 429 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:crop |
-| native | soc-kg/main/:sockg_crop |
-
+* [https://lod.nal.usda.gov/nalt/7140](https://lod.nal.usda.gov/nalt/7140)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_crop
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 2791 occurrences with subject type sockg:NutrientEfficiency and object type string.
-- 105046 occurrences with subject type sockg:GasSample and object type string.
-- 6723 occurrences with subject type sockg:BioMassMineral and object type string.
-- 429 occurrences with subject type sockg:YieldNutrientUptake and object type string.
-- 667 occurrences with subject type sockg:WaterQualityArea and object type xsd:double.
-- 1367 occurrences with subject type sockg:BioMassCarbohydrate and object type string.
-- 799 occurrences with subject type sockg:BioMassEnergy and object type string.
-- 2308 occurrences with subject type sockg:GasSample and object type xsd:double.
-- 553 occurrences with subject type sockg:WaterQualityConc and object type string.
-- 698 occurrences with subject type sockg:GasNutrientLoss and object type xsd:double.
-- 926 occurrences with subject type sockg:WaterQualityConc and object type xsd:double.
-- 50 occurrences with subject type sockg:GasNutrientLoss and object type string.
-- 15 occurrences with subject type sockg:WindErosionArea and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 213189
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#201065 sockg:crop Zea mays (Corn)
-- value: neo4j://graph.individuals#156219 sockg:crop Zea mays (Corn)
-- value: neo4j://graph.individuals#45025 sockg:crop Zea mays (Corn)
-- value: neo4j://graph.individuals#509340 sockg:crop Secale cereale (Rye)
-- value: neo4j://graph.individuals#360357 sockg:crop nan
-- value: neo4j://graph.individuals#37850 sockg:crop Zea mays (Corn)
-- value: neo4j://graph.individuals#39943 sockg:crop Zea mays (Corn)
-- value: neo4j://graph.individuals#112348 sockg:crop nan
-- value: neo4j://graph.individuals#360717 sockg:crop Glycine max (Soybean)
-- value: neo4j://graph.individuals#56206 sockg:crop nan
-- value: neo4j://graph.individuals#361559 sockg:crop nan
-- value: neo4j://graph.individuals#56324 sockg:crop Secale cereale (Rye)
-- value: neo4j://graph.individuals#509306 sockg:crop nan
-from_schema: soc-kg/main
+- object:
+    example_object: Glycine max (Soybean)
+    example_object_type: string
+    example_predicate: sockg:crop
+    example_subject: sockg:individuals/0
+    example_subject_type: sockg_Amendment
+- object:
+    example_object: Rangeland
+    example_object_type: string
+    example_predicate: sockg:crop
+    example_subject: sockg:individuals/100000
+    example_subject_type: sockg_GasSample
+- object:
+    example_object: Glycine max (Soybean)
+    example_object_type: string
+    example_predicate: sockg:crop
+    example_subject: sockg:individuals/172906
+    example_subject_type: sockg_Harvest
+- object:
+    example_object: Zea mays (Corn)
+    example_object_type: string
+    example_predicate: sockg:crop
+    example_subject: sockg:individuals/191262
+    example_subject_type: sockg_HarvestFraction
+- object:
+    example_object: Zea mays (Corn)
+    example_object_type: string
+    example_predicate: sockg:crop
+    example_subject: sockg:individuals/227674
+    example_subject_type: sockg_ResidueManagementEvent
+- object:
+    example_object: Zea mays (Corn)
+    example_object_type: string
+    example_predicate: sockg:crop
+    example_subject: sockg:individuals/37796
+    example_subject_type: sockg_BioMassCarbohydrate
+- object:
+    example_object: Zea mays (Corn)
+    example_object_type: string
+    example_predicate: sockg:crop
+    example_subject: sockg:individuals/39163
+    example_subject_type: sockg_BioMassEnergy
+- object:
+    example_object: Zea mays (Corn)
+    example_object_type: string
+    example_predicate: sockg:crop
+    example_subject: sockg:individuals/39962
+    example_subject_type: sockg_BioMassMineral
+- object:
+    example_object: Zea mays (Corn)
+    example_object_type: string
+    example_predicate: sockg:crop
+    example_subject: sockg:individuals/46937
+    example_subject_type: sockg_CropGrowthStage
+- object:
+    example_object: Calendula officinalis L. (Calendula)
+    example_object_type: string
+    example_predicate: sockg:crop
+    example_subject: sockg:individuals/200732
+    example_subject_type: sockg_NutrientEfficiency
+- object:
+    example_object: Secale cereale (Rye)
+    example_object_type: string
+    example_predicate: sockg:crop
+    example_subject: sockg:individuals/203988
+    example_subject_type: sockg_PlantingEvent
+- object:
+    example_object: Glycine max (Soybean)
+    example_object_type: string
+    example_predicate: sockg:crop
+    example_subject: sockg:individuals/364993
+    example_subject_type: sockg_WaterQualityConc
+- object:
+    example_object: Zea mays (Corn)
+    example_object_type: string
+    example_predicate: sockg:crop
+    example_subject: sockg:individuals/55859
+    example_subject_type: sockg_GasNutrientLoss
+- object:
+    example_object: Zea mays (Corn)
+    example_object_type: string
+    example_predicate: sockg:crop
+    example_subject: sockg:individuals/624587
+    example_subject_type: sockg_YieldNutrientUptake
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/7140
 rank: 1000
 slot_uri: sockg:crop
 alias: sockg_crop
 domain_of:
+- sockg_Amendment
 - sockg_BioMassCarbohydrate
 - sockg_BioMassEnergy
 - sockg_BioMassMineral
+- sockg_CropGrowthStage
 - sockg_GasNutrientLoss
 - sockg_GasSample
+- sockg_Harvest
+- sockg_HarvestFraction
 - sockg_NutrientEfficiency
-- sockg_WaterQualityArea
+- sockg_PlantingEvent
+- sockg_ResidueManagementEvent
 - sockg_WaterQualityConc
-- sockg_WindErosionArea
 - sockg_YieldNutrientUptake
-range: Any
-any_of:
-- range: string
-- range: double
+union_of:
+- '{''domain'': ''sockg_WaterQualityArea''}'
+- '{''domain'': ''sockg_NutrientEfficiency''}'
+- '{''domain'': ''sockg_BioMassEnergy''}'
+- '{''domain'': ''sockg_WaterQualityConc''}'
+- '{''domain'': ''sockg_WindErosionArea''}'
+- '{''domain'': ''sockg_BioMassMineral''}'
+- '{''domain'': ''sockg_GasNutrientLoss''}'
+- '{''domain'': ''sockg_Tillage''}'
+- '{''domain'': ''sockg_YieldNutrientUptake''}'
+- '{''domain'': ''sockg_BioMassCarbohydrate''}'
+range: string
 
 ```
 </details>

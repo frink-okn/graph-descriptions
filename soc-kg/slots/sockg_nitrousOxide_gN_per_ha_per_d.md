@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_nitrousOxide_gN_per_ha_per_d
+# Slot: No slot (predicate) name specified (sockg_nitrousOxide_gN_per_ha_per_d)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:nitrousOxide_gN_per_ha_per_d](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/nitrousOxide_gN_per_ha_per_d)
+
+This slot occurs 107095 times.
+
+
+URI: [sockg:nitrousOxide_gN_per_ha_per_d](https://idir.uta.edu/sockg-ontology/docs/nitrousOxide_gN_per_ha_per_d)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:nitrousOxide_gN_per_ha_per_d](http://www.semanticweb.org/sockg/ontol
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGasSample](../classes/SockgGasSample.md) | No type description provided |  no  |
+| [SockgGasSample](../classes/SockgGasSample.md) | GasSample represents a collection of measurements related to greenhouse gas e... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:nitrousOxide_gN_per_ha_per_d](http://www.semanticweb.org/sockg/ontol
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,67 +46,49 @@ URI: [sockg:nitrousOxide_gN_per_ha_per_d](http://www.semanticweb.org/sockg/ontol
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#124819 sockg:nitrousOxide_gN_per_ha_per_d 3.4833074 |
-
-## Comments
-
-* 107354 occurrences with subject type sockg:GasSample and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_GasSample | double | sockg:individuals/100000 | 7.497066 | 107095 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:nitrousOxide_gN_per_ha_per_d |
-| native | soc-kg/main/:sockg_nitrousOxide_gN_per_ha_per_d |
-
+* [https://lod.nal.usda.gov/nalt/43853](https://lod.nal.usda.gov/nalt/43853)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_nitrousOxide_gN_per_ha_per_d
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 107354 occurrences with subject type sockg:GasSample and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 107095
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#124819 sockg:nitrousOxide_gN_per_ha_per_d 3.4833074
-from_schema: soc-kg/main
+- object:
+    example_object: '7.497066'
+    example_object_type: double
+    example_predicate: sockg:nitrousOxide_gN_per_ha_per_d
+    example_subject: sockg:individuals/100000
+    example_subject_type: sockg_GasSample
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/43853
 rank: 1000
+domain: sockg_GasSample
 slot_uri: sockg:nitrousOxide_gN_per_ha_per_d
 alias: sockg_nitrousOxide_gN_per_ha_per_d
 domain_of:
 - sockg_GasSample
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

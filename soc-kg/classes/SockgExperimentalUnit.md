@@ -1,15 +1,19 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (sockg_ExperimentalUnit)
+# Class: No class (entity type) name specified (sockg_ExperimentalUnit)
 
 
-_No type description provided_
+_An ExperimentalUnit represents a specific segment of agricultural research focused on testing hypotheses and observing agricultural practices over defined periods. Each unit is characterized by unique identifiers and can reflect alterations in management approaches across its lifespan._
 
 
 
 
 
-URI: [sockg:ExperimentalUnit](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/ExperimentalUnit)
+
+This class occurs 3863 times.
+
+
+URI: [sockg:ExperimentalUnit](https://idir.uta.edu/sockg-ontology/docs/ExperimentalUnit)
 
 
 
@@ -20,13 +24,13 @@ URI: [sockg:ExperimentalUnit](http://www.semanticweb.org/sockg/ontologies/2024/0
  classDiagram
     class SockgExperimentalUnit
     click SockgExperimentalUnit href "../SockgExperimentalUnit"
-      SockgExperimentalUnit : sockg_changeInManagement
+      SockgExperimentalUnit : rdfs_seeAlso
         
           
     
     
-    SockgExperimentalUnit --> "0..1" Double : sockg_changeInManagement
-    click Double href "../Double"
+    SockgExperimentalUnit --> "0..1" Uri : rdfs_seeAlso
+    click Uri href "../Uri"
 
         
       SockgExperimentalUnit : sockg_endDate
@@ -146,12 +150,12 @@ URI: [sockg:ExperimentalUnit](http://www.semanticweb.org/sockg/ontologies/2024/0
     click SockgHarvestFraction href "../SockgHarvestFraction"
 
         
-      SockgExperimentalUnit : sockg_hasPhySample
+      SockgExperimentalUnit : sockg_hasPhysSample
         
           
     
     
-    SockgExperimentalUnit --> "0..1" SockgSoilPhysicalSample : sockg_hasPhySample
+    SockgExperimentalUnit --> "0..1" SockgSoilPhysicalSample : sockg_hasPhysSample
     click SockgSoilPhysicalSample href "../SockgSoilPhysicalSample"
 
         
@@ -162,6 +166,15 @@ URI: [sockg:ExperimentalUnit](http://www.semanticweb.org/sockg/ontologies/2024/0
     
     SockgExperimentalUnit --> "0..1" SockgResidueManagementEvent : sockg_hasResidueManagementEvent
     click SockgResidueManagementEvent href "../SockgResidueManagementEvent"
+
+        
+      SockgExperimentalUnit : sockg_hasSoilCover
+        
+          
+    
+    
+    SockgExperimentalUnit --> "0..1" SockgSoilCover : sockg_hasSoilCover
+    click SockgSoilCover href "../SockgSoilCover"
 
         
       SockgExperimentalUnit : sockg_hasTillage
@@ -189,6 +202,15 @@ URI: [sockg:ExperimentalUnit](http://www.semanticweb.org/sockg/ontologies/2024/0
     
     SockgExperimentalUnit --> "0..1" SockgField : sockg_locatedInField
     click SockgField href "../SockgField"
+
+        
+      SockgExperimentalUnit : sockg_locatedInSite
+        
+          
+    
+    
+    SockgExperimentalUnit --> "0..1" SockgSite : sockg_locatedInSite
+    click SockgSite href "../SockgSite"
 
         
       SockgExperimentalUnit : sockg_startDate
@@ -220,29 +242,31 @@ URI: [sockg:ExperimentalUnit](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [sockg_hasBioSample](../slots/sockg_hasBioSample.md) | 0..1 <br/> [SockgSoilBiologicalSample](../classes/SockgSoilBiologicalSample.md) | No slot description provided | direct |
-| [sockg_hasChemSample](../slots/sockg_hasChemSample.md) | 0..1 <br/> [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | No slot description provided | direct |
-| [sockg_hasPhySample](../slots/sockg_hasPhySample.md) | 0..1 <br/> [SockgSoilPhysicalSample](../classes/SockgSoilPhysicalSample.md) | No slot description provided | direct |
-| [sockg_hasHarvestFractionData](../slots/sockg_hasHarvestFractionData.md) | 0..1 <br/> [SockgHarvestFraction](../classes/SockgHarvestFraction.md) | No slot description provided | direct |
-| [sockg_hasBioMassMineralData](../slots/sockg_hasBioMassMineralData.md) | 0..1 <br/> [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | No slot description provided | direct |
-| [sockg_hasGasSample](../slots/sockg_hasGasSample.md) | 0..1 <br/> [SockgGasSample](../classes/SockgGasSample.md) | No slot description provided | direct |
-| [sockg_hasGrazingData](../slots/sockg_hasGrazingData.md) | 0..1 <br/> [SockgGrazing](../classes/SockgGrazing.md) | No slot description provided | direct |
-| [sockg_hasTillage](../slots/sockg_hasTillage.md) | 0..1 <br/> [SockgTillage](../classes/SockgTillage.md) | No slot description provided | direct |
-| [sockg_hasAmendment](../slots/sockg_hasAmendment.md) | 0..1 <br/> [SockgAmendment](../classes/SockgAmendment.md) | No slot description provided | direct |
-| [sockg_tracksGrowth](../slots/sockg_tracksGrowth.md) | 0..1 <br/> [SockgCropGrowthStage](../classes/SockgCropGrowthStage.md) | No slot description provided | direct |
-| [sockg_hasGrazingManagementEvent](../slots/sockg_hasGrazingManagementEvent.md) | 0..1 <br/> [SockgGrazingManagementEvent](../classes/SockgGrazingManagementEvent.md) | No slot description provided | direct |
-| [sockg_isHarvested](../slots/sockg_isHarvested.md) | 0..1 <br/> [SockgHarvest](../classes/SockgHarvest.md) | No slot description provided | direct |
-| [sockg_locatedInField](../slots/sockg_locatedInField.md) | 0..1 <br/> [SockgField](../classes/SockgField.md) | No slot description provided | direct |
-| [sockg_hasBioMassEnergyData](../slots/sockg_hasBioMassEnergyData.md) | 0..1 <br/> [SockgBioMassEnergy](../classes/SockgBioMassEnergy.md) | No slot description provided | direct |
-| [sockg_hasBioMassCarbohydrateData](../slots/sockg_hasBioMassCarbohydrateData.md) | 0..1 <br/> [SockgBioMassCarbohydrate](../classes/SockgBioMassCarbohydrate.md) | No slot description provided | direct |
-| [sockg_hasResidueManagementEvent](../slots/sockg_hasResidueManagementEvent.md) | 0..1 <br/> [SockgResidueManagementEvent](../classes/SockgResidueManagementEvent.md) | No slot description provided | direct |
-| [sockg_changeInManagement](../slots/sockg_changeInManagement.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_expUnit_UID](../slots/sockg_expUnit_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
-| [sockg_expUnitId](../slots/sockg_expUnitId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
-| [sockg_endDate](../slots/sockg_endDate.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
-| [sockg_startDate](../slots/sockg_startDate.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
+| [sockg_hasBioMassMineralData](../slots/sockg_hasBioMassMineralData.md) | 0..1 <br/> [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | No slot (predicate) description specified <br/>  | direct | 6723 |
+| [sockg_tracksGrowth](../slots/sockg_tracksGrowth.md) | 0..1 <br/> [SockgCropGrowthStage](../classes/SockgCropGrowthStage.md) | No slot (predicate) description specified <br/>  | direct | 4896 |
+| [sockg_endDate](../slots/sockg_endDate.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 1945 |
+| [sockg_isHarvested](../slots/sockg_isHarvested.md) | 0..1 <br/> [SockgHarvest](../classes/SockgHarvest.md) | No slot (predicate) description specified <br/>  | direct | 18356 |
+| [sockg_hasSoilCover](../slots/sockg_hasSoilCover.md) | 0..1 <br/> [SockgSoilCover](../classes/SockgSoilCover.md) | No slot (predicate) description specified <br/>  | direct | 1034 |
+| [sockg_hasResidueManagementEvent](../slots/sockg_hasResidueManagementEvent.md) | 0..1 <br/> [SockgResidueManagementEvent](../classes/SockgResidueManagementEvent.md) | No slot (predicate) description specified <br/>  | direct | 3308 |
+| [sockg_hasGrazingData](../slots/sockg_hasGrazingData.md) | 0..1 <br/> [SockgGrazing](../classes/SockgGrazing.md) | No slot (predicate) description specified <br/>  | direct | 6995 |
+| [sockg_expUnit_UID](../slots/sockg_expUnit_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 3863 |
+| [sockg_locatedInField](../slots/sockg_locatedInField.md) | 0..1 <br/> [SockgField](../classes/SockgField.md) | No slot (predicate) description specified <br/>  | direct | 3809 |
+| [sockg_hasChemSample](../slots/sockg_hasChemSample.md) | 0..1 <br/> [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | No slot (predicate) description specified <br/>  | direct | 53833 |
+| [sockg_locatedInSite](../slots/sockg_locatedInSite.md) | 0..1 <br/> [SockgSite](../classes/SockgSite.md) | No slot (predicate) description specified <br/>  | direct | 3803 |
+| [sockg_hasBioSample](../slots/sockg_hasBioSample.md) | 0..1 <br/> [SockgSoilBiologicalSample](../classes/SockgSoilBiologicalSample.md) | No slot (predicate) description specified <br/>  | direct | 18222 |
+| [sockg_hasBioMassCarbohydrateData](../slots/sockg_hasBioMassCarbohydrateData.md) | 0..1 <br/> [SockgBioMassCarbohydrate](../classes/SockgBioMassCarbohydrate.md) | No slot (predicate) description specified <br/>  | direct | 1367 |
+| [sockg_expUnitId](../slots/sockg_expUnitId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 3863 |
+| [sockg_hasTillage](../slots/sockg_hasTillage.md) | 0..1 <br/> [SockgTillage](../classes/SockgTillage.md) | No slot (predicate) description specified <br/>  | direct | 27137 |
+| [sockg_hasAmendment](../slots/sockg_hasAmendment.md) | 0..1 <br/> [SockgAmendment](../classes/SockgAmendment.md) | No slot (predicate) description specified <br/>  | direct | 37796 |
+| [sockg_hasPhysSample](../slots/sockg_hasPhysSample.md) | 0..1 <br/> [SockgSoilPhysicalSample](../classes/SockgSoilPhysicalSample.md) | No slot (predicate) description specified <br/>  | direct | 28082 |
+| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 3863 |
+| [sockg_hasGrazingManagementEvent](../slots/sockg_hasGrazingManagementEvent.md) | 0..1 <br/> [SockgGrazingManagementEvent](../classes/SockgGrazingManagementEvent.md) | No slot (predicate) description specified <br/>  | direct | 1951 |
+| [sockg_hasBioMassEnergyData](../slots/sockg_hasBioMassEnergyData.md) | 0..1 <br/> [SockgBioMassEnergy](../classes/SockgBioMassEnergy.md) | No slot (predicate) description specified <br/>  | direct | 799 |
+| [sockg_hasHarvestFractionData](../slots/sockg_hasHarvestFractionData.md) | 0..1 <br/> [SockgHarvestFraction](../classes/SockgHarvestFraction.md) | No slot (predicate) description specified <br/>  | direct | 9110 |
+| [sockg_hasGasSample](../slots/sockg_hasGasSample.md) | 0..1 <br/> [SockgGasSample](../classes/SockgGasSample.md) | No slot (predicate) description specified <br/>  | direct | 106447 |
+| [sockg_startDate](../slots/sockg_startDate.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 3178 |
 
 
 
@@ -252,53 +276,29 @@ URI: [sockg:ExperimentalUnit](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | [sockg_hasGasNutrientData](../slots/sockg_hasGasNutrientData.md) | range | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_hasBioMassMineralData](../slots/sockg_hasBioMassMineralData.md) | domain | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_tracksGrowth](../slots/sockg_tracksGrowth.md) | domain | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_isHarvested](../slots/sockg_isHarvested.md) | domain | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_hasSoilCover](../slots/sockg_hasSoilCover.md) | domain | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_hasResidueManagementEvent](../slots/sockg_hasResidueManagementEvent.md) | domain | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_hasGrazingData](../slots/sockg_hasGrazingData.md) | domain | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_locatedInField](../slots/sockg_locatedInField.md) | domain | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_hasChemSample](../slots/sockg_hasChemSample.md) | domain | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_locatedInSite](../slots/sockg_locatedInSite.md) | domain | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_hasBioSample](../slots/sockg_hasBioSample.md) | domain | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_hasBioMassCarbohydrateData](../slots/sockg_hasBioMassCarbohydrateData.md) | domain | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_hasTillage](../slots/sockg_hasTillage.md) | domain | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_hasAmendment](../slots/sockg_hasAmendment.md) | domain | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_hasPhysSample](../slots/sockg_hasPhysSample.md) | domain | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_hasGrazingManagementEvent](../slots/sockg_hasGrazingManagementEvent.md) | domain | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_hasBioMassEnergyData](../slots/sockg_hasBioMassEnergyData.md) | domain | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_hasHarvestFractionData](../slots/sockg_hasHarvestFractionData.md) | domain | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_hasGasSample](../slots/sockg_hasGasSample.md) | domain | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
 | [SockgPlantingEvent](../classes/SockgPlantingEvent.md) | [sockg_plantingAt](../slots/sockg_plantingAt.md) | range | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
-| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | [sockg_hasWaterQualityAreaData](../slots/sockg_hasWaterQualityAreaData.md) | range | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
-| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | [sockg_hasWaterQualityConcData](../slots/sockg_hasWaterQualityConcData.md) | range | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
-| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | [sockg_hasWindErosionData](../slots/sockg_hasWindErosionData.md) | range | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_hasYieldNutrUptakeData](../slots/sockg_hasYieldNutrUptakeData.md) | range | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) |
 
 
 
 
-
-
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#53969 |
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:ExperimentalUnit |
-| native | soc-kg/main/:SockgExperimentalUnit |
 
 
 
@@ -313,42 +313,184 @@ URI: [sockg:ExperimentalUnit](http://www.semanticweb.org/sockg/ontologies/2024/0
 ### Direct
 
 <details>
+
 ```yaml
 name: sockg_ExperimentalUnit
-description: No type description provided
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- There are 3809 instances of this class.
-examples:
-- value: neo4j://graph.individuals#53969
-from_schema: soc-kg/main
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 3863
+description: An ExperimentalUnit represents a specific segment of agricultural research
+  focused on testing hypotheses and observing agricultural practices over defined
+  periods. Each unit is characterized by unique identifiers and can reflect alterations
+  in management approaches across its lifespan.
+title: No class (entity type) name specified
+from_schema: soc-kg
 rank: 1000
 slots:
-- sockg_hasBioSample
-- sockg_hasChemSample
-- sockg_hasPhySample
-- sockg_hasHarvestFractionData
 - sockg_hasBioMassMineralData
-- sockg_hasGasSample
+- sockg_tracksGrowth
+- sockg_endDate
+- sockg_isHarvested
+- sockg_hasSoilCover
+- sockg_hasResidueManagementEvent
 - sockg_hasGrazingData
+- sockg_expUnit_UID
+- sockg_locatedInField
+- sockg_hasChemSample
+- sockg_locatedInSite
+- sockg_hasBioSample
+- sockg_hasBioMassCarbohydrateData
+- sockg_expUnitId
 - sockg_hasTillage
 - sockg_hasAmendment
-- sockg_tracksGrowth
+- sockg_hasPhysSample
+- rdfs_seeAlso
 - sockg_hasGrazingManagementEvent
-- sockg_isHarvested
-- sockg_locatedInField
 - sockg_hasBioMassEnergyData
-- sockg_hasBioMassCarbohydrateData
-- sockg_hasResidueManagementEvent
-- sockg_changeInManagement
-- sockg_expUnit_UID
-- sockg_expUnitId
-- sockg_endDate
+- sockg_hasHarvestFractionData
+- sockg_hasGasSample
 - sockg_startDate
+slot_usage:
+  rdfs_seeAlso:
+    name: rdfs_seeAlso
+    annotations:
+      uri:
+        tag: uri
+        value: 3863
+  sockg_endDate:
+    name: sockg_endDate
+    annotations:
+      string:
+        tag: string
+        value: 1945
+  sockg_expUnitId:
+    name: sockg_expUnitId
+    annotations:
+      string:
+        tag: string
+        value: 3863
+  sockg_expUnit_UID:
+    name: sockg_expUnit_UID
+    annotations:
+      string:
+        tag: string
+        value: 3863
+  sockg_hasAmendment:
+    name: sockg_hasAmendment
+    annotations:
+      sockg_Amendment:
+        tag: sockg_Amendment
+        value: 37796
+  sockg_hasBioMassCarbohydrateData:
+    name: sockg_hasBioMassCarbohydrateData
+    annotations:
+      sockg_BioMassCarbohydrate:
+        tag: sockg_BioMassCarbohydrate
+        value: 1367
+  sockg_hasBioMassEnergyData:
+    name: sockg_hasBioMassEnergyData
+    annotations:
+      sockg_BioMassEnergy:
+        tag: sockg_BioMassEnergy
+        value: 799
+  sockg_hasBioMassMineralData:
+    name: sockg_hasBioMassMineralData
+    annotations:
+      sockg_BioMassMineral:
+        tag: sockg_BioMassMineral
+        value: 6723
+  sockg_hasBioSample:
+    name: sockg_hasBioSample
+    annotations:
+      sockg_SoilBiologicalSample:
+        tag: sockg_SoilBiologicalSample
+        value: 18222
+  sockg_hasChemSample:
+    name: sockg_hasChemSample
+    annotations:
+      sockg_SoilChemicalSample:
+        tag: sockg_SoilChemicalSample
+        value: 53833
+  sockg_hasGasSample:
+    name: sockg_hasGasSample
+    annotations:
+      sockg_GasSample:
+        tag: sockg_GasSample
+        value: 106447
+  sockg_hasGrazingData:
+    name: sockg_hasGrazingData
+    annotations:
+      sockg_Grazing:
+        tag: sockg_Grazing
+        value: 6995
+  sockg_hasGrazingManagementEvent:
+    name: sockg_hasGrazingManagementEvent
+    annotations:
+      sockg_GrazingManagementEvent:
+        tag: sockg_GrazingManagementEvent
+        value: 1951
+  sockg_hasHarvestFractionData:
+    name: sockg_hasHarvestFractionData
+    annotations:
+      sockg_HarvestFraction:
+        tag: sockg_HarvestFraction
+        value: 9110
+  sockg_hasPhysSample:
+    name: sockg_hasPhysSample
+    annotations:
+      sockg_SoilPhysicalSample:
+        tag: sockg_SoilPhysicalSample
+        value: 28082
+  sockg_hasResidueManagementEvent:
+    name: sockg_hasResidueManagementEvent
+    annotations:
+      sockg_ResidueManagementEvent:
+        tag: sockg_ResidueManagementEvent
+        value: 3308
+  sockg_hasSoilCover:
+    name: sockg_hasSoilCover
+    annotations:
+      sockg_SoilCover:
+        tag: sockg_SoilCover
+        value: 1034
+  sockg_hasTillage:
+    name: sockg_hasTillage
+    annotations:
+      sockg_Tillage:
+        tag: sockg_Tillage
+        value: 27137
+  sockg_isHarvested:
+    name: sockg_isHarvested
+    annotations:
+      sockg_Harvest:
+        tag: sockg_Harvest
+        value: 18356
+  sockg_locatedInField:
+    name: sockg_locatedInField
+    annotations:
+      sockg_Field:
+        tag: sockg_Field
+        value: 3809
+  sockg_locatedInSite:
+    name: sockg_locatedInSite
+    annotations:
+      sockg_Site:
+        tag: sockg_Site
+        value: 3803
+  sockg_startDate:
+    name: sockg_startDate
+    annotations:
+      string:
+        tag: string
+        value: 3178
+  sockg_tracksGrowth:
+    name: sockg_tracksGrowth
+    annotations:
+      sockg_CropGrowthStage:
+        tag: sockg_CropGrowthStage
+        value: 4896
 class_uri: sockg:ExperimentalUnit
 
 ```
@@ -357,410 +499,407 @@ class_uri: sockg:ExperimentalUnit
 ### Induced
 
 <details>
+
 ```yaml
 name: sockg_ExperimentalUnit
-description: No type description provided
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- There are 3809 instances of this class.
-examples:
-- value: neo4j://graph.individuals#53969
-from_schema: soc-kg/main
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 3863
+description: An ExperimentalUnit represents a specific segment of agricultural research
+  focused on testing hypotheses and observing agricultural practices over defined
+  periods. Each unit is characterized by unique identifiers and can reflect alterations
+  in management approaches across its lifespan.
+title: No class (entity type) name specified
+from_schema: soc-kg
 rank: 1000
-attributes:
-  sockg_hasBioSample:
-    name: sockg_hasBioSample
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 16926 occurrences with subject type sockg:ExperimentalUnit and object type sockg:SoilBiologicalSample.
-    examples:
-    - value: neo4j://graph.individuals#53017 sockg:hasBioSample neo4j://graph.individuals#243735
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:hasBioSample
-    alias: sockg_hasBioSample
-    owner: sockg_ExperimentalUnit
-    domain_of:
-    - sockg_ExperimentalUnit
-    range: sockg_SoilBiologicalSample
-  sockg_hasChemSample:
-    name: sockg_hasChemSample
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 52537 occurrences with subject type sockg:ExperimentalUnit and object type sockg:SoilChemicalSample.
-    examples:
-    - value: neo4j://graph.individuals#53001 sockg:hasChemSample neo4j://graph.individuals#278161
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:hasChemSample
-    alias: sockg_hasChemSample
-    owner: sockg_ExperimentalUnit
-    domain_of:
-    - sockg_ExperimentalUnit
-    range: sockg_SoilChemicalSample
-  sockg_hasPhySample:
-    name: sockg_hasPhySample
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 26786 occurrences with subject type sockg:ExperimentalUnit and object type sockg:SoilPhysicalSample.
-    examples:
-    - value: neo4j://graph.individuals#53109 sockg:hasPhySample neo4j://graph.individuals#310589
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:hasPhySample
-    alias: sockg_hasPhySample
-    owner: sockg_ExperimentalUnit
-    domain_of:
-    - sockg_ExperimentalUnit
-    range: sockg_SoilPhysicalSample
-  sockg_hasHarvestFractionData:
-    name: sockg_hasHarvestFractionData
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 9110 occurrences with subject type sockg:ExperimentalUnit and object type sockg:HarvestFraction.
-    examples:
-    - value: neo4j://graph.individuals#54138 sockg:hasHarvestFractionData neo4j://graph.individuals#194584
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:hasHarvestFractionData
-    alias: sockg_hasHarvestFractionData
-    owner: sockg_ExperimentalUnit
-    domain_of:
-    - sockg_ExperimentalUnit
-    range: sockg_HarvestFraction
+slot_usage:
+  rdfs_seeAlso:
+    name: rdfs_seeAlso
+    annotations:
+      uri:
+        tag: uri
+        value: 3863
+  sockg_endDate:
+    name: sockg_endDate
+    annotations:
+      string:
+        tag: string
+        value: 1945
+  sockg_expUnitId:
+    name: sockg_expUnitId
+    annotations:
+      string:
+        tag: string
+        value: 3863
+  sockg_expUnit_UID:
+    name: sockg_expUnit_UID
+    annotations:
+      string:
+        tag: string
+        value: 3863
+  sockg_hasAmendment:
+    name: sockg_hasAmendment
+    annotations:
+      sockg_Amendment:
+        tag: sockg_Amendment
+        value: 37796
+  sockg_hasBioMassCarbohydrateData:
+    name: sockg_hasBioMassCarbohydrateData
+    annotations:
+      sockg_BioMassCarbohydrate:
+        tag: sockg_BioMassCarbohydrate
+        value: 1367
+  sockg_hasBioMassEnergyData:
+    name: sockg_hasBioMassEnergyData
+    annotations:
+      sockg_BioMassEnergy:
+        tag: sockg_BioMassEnergy
+        value: 799
   sockg_hasBioMassMineralData:
     name: sockg_hasBioMassMineralData
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:ExperimentalUnit and object type sockg:BioMassMineral.
+    annotations:
+      sockg_BioMassMineral:
+        tag: sockg_BioMassMineral
+        value: 6723
+  sockg_hasBioSample:
+    name: sockg_hasBioSample
+    annotations:
+      sockg_SoilBiologicalSample:
+        tag: sockg_SoilBiologicalSample
+        value: 18222
+  sockg_hasChemSample:
+    name: sockg_hasChemSample
+    annotations:
+      sockg_SoilChemicalSample:
+        tag: sockg_SoilChemicalSample
+        value: 53833
+  sockg_hasGasSample:
+    name: sockg_hasGasSample
+    annotations:
+      sockg_GasSample:
+        tag: sockg_GasSample
+        value: 106447
+  sockg_hasGrazingData:
+    name: sockg_hasGrazingData
+    annotations:
+      sockg_Grazing:
+        tag: sockg_Grazing
+        value: 6995
+  sockg_hasGrazingManagementEvent:
+    name: sockg_hasGrazingManagementEvent
+    annotations:
+      sockg_GrazingManagementEvent:
+        tag: sockg_GrazingManagementEvent
+        value: 1951
+  sockg_hasHarvestFractionData:
+    name: sockg_hasHarvestFractionData
+    annotations:
+      sockg_HarvestFraction:
+        tag: sockg_HarvestFraction
+        value: 9110
+  sockg_hasPhysSample:
+    name: sockg_hasPhysSample
+    annotations:
+      sockg_SoilPhysicalSample:
+        tag: sockg_SoilPhysicalSample
+        value: 28082
+  sockg_hasResidueManagementEvent:
+    name: sockg_hasResidueManagementEvent
+    annotations:
+      sockg_ResidueManagementEvent:
+        tag: sockg_ResidueManagementEvent
+        value: 3308
+  sockg_hasSoilCover:
+    name: sockg_hasSoilCover
+    annotations:
+      sockg_SoilCover:
+        tag: sockg_SoilCover
+        value: 1034
+  sockg_hasTillage:
+    name: sockg_hasTillage
+    annotations:
+      sockg_Tillage:
+        tag: sockg_Tillage
+        value: 27137
+  sockg_isHarvested:
+    name: sockg_isHarvested
+    annotations:
+      sockg_Harvest:
+        tag: sockg_Harvest
+        value: 18356
+  sockg_locatedInField:
+    name: sockg_locatedInField
+    annotations:
+      sockg_Field:
+        tag: sockg_Field
+        value: 3809
+  sockg_locatedInSite:
+    name: sockg_locatedInSite
+    annotations:
+      sockg_Site:
+        tag: sockg_Site
+        value: 3803
+  sockg_startDate:
+    name: sockg_startDate
+    annotations:
+      string:
+        tag: string
+        value: 3178
+  sockg_tracksGrowth:
+    name: sockg_tracksGrowth
+    annotations:
+      sockg_CropGrowthStage:
+        tag: sockg_CropGrowthStage
+        value: 4896
+attributes:
+  sockg_hasBioMassMineralData:
+    name: sockg_hasBioMassMineralData
+    annotations:
+      sockg_BioMassMineral:
+        tag: sockg_BioMassMineral
+        value: 6723
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#54248 sockg:hasBioMassMineralData neo4j://graph.individuals#41240
-    from_schema: soc-kg/main
+    - object:
+        example_object: sockg:individuals/40481
+        example_object_type: sockg_BioMassMineral
+        example_predicate: sockg:hasBioMassMineralData
+        example_subject: sockg:individuals/51968
+        example_subject_type: sockg_ExperimentalUnit
+    from_schema: soc-kg
     rank: 1000
+    domain: sockg_ExperimentalUnit
     slot_uri: sockg:hasBioMassMineralData
     alias: sockg_hasBioMassMineralData
     owner: sockg_ExperimentalUnit
     domain_of:
     - sockg_ExperimentalUnit
     range: sockg_BioMassMineral
-  sockg_hasGasSample:
-    name: sockg_hasGasSample
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 106447 occurrences with subject type sockg:ExperimentalUnit and object type
-      sockg:GasSample.
-    examples:
-    - value: neo4j://graph.individuals#52490 sockg:hasGasSample neo4j://graph.individuals#101790
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:hasGasSample
-    alias: sockg_hasGasSample
-    owner: sockg_ExperimentalUnit
-    domain_of:
-    - sockg_ExperimentalUnit
-    range: sockg_GasSample
-  sockg_hasGrazingData:
-    name: sockg_hasGrazingData
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6995 occurrences with subject type sockg:ExperimentalUnit and object type sockg:Grazing.
-    examples:
-    - value: neo4j://graph.individuals#52278 sockg:hasGrazingData neo4j://graph.individuals#168912
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:hasGrazingData
-    alias: sockg_hasGrazingData
-    owner: sockg_ExperimentalUnit
-    domain_of:
-    - sockg_ExperimentalUnit
-    range: sockg_Grazing
-  sockg_hasTillage:
-    name: sockg_hasTillage
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 27137 occurrences with subject type sockg:ExperimentalUnit and object type sockg:Tillage.
-    examples:
-    - value: neo4j://graph.individuals#52027 sockg:hasTillage neo4j://graph.individuals#332758
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:hasTillage
-    alias: sockg_hasTillage
-    owner: sockg_ExperimentalUnit
-    domain_of:
-    - sockg_ExperimentalUnit
-    range: sockg_Tillage
-  sockg_hasAmendment:
-    name: sockg_hasAmendment
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 37796 occurrences with subject type sockg:ExperimentalUnit and object type sockg:Amendment.
-    examples:
-    - value: neo4j://graph.individuals#52089 sockg:hasAmendment neo4j://graph.individuals#13128
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:hasAmendment
-    alias: sockg_hasAmendment
-    owner: sockg_ExperimentalUnit
-    domain_of:
-    - sockg_ExperimentalUnit
-    range: sockg_Amendment
   sockg_tracksGrowth:
     name: sockg_tracksGrowth
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 4896 occurrences with subject type sockg:ExperimentalUnit and object type sockg:CropGrowthStage.
+    annotations:
+      sockg_CropGrowthStage:
+        tag: sockg_CropGrowthStage
+        value: 4896
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#52319 sockg:tracksGrowth neo4j://graph.individuals#46787
-    from_schema: soc-kg/main
+    - object:
+        example_object: sockg:individuals/47492
+        example_object_type: sockg_CropGrowthStage
+        example_predicate: sockg:tracksGrowth
+        example_subject: sockg:individuals/52197
+        example_subject_type: sockg_ExperimentalUnit
+    from_schema: soc-kg
     rank: 1000
+    domain: sockg_ExperimentalUnit
     slot_uri: sockg:tracksGrowth
     alias: sockg_tracksGrowth
     owner: sockg_ExperimentalUnit
     domain_of:
     - sockg_ExperimentalUnit
     range: sockg_CropGrowthStage
-  sockg_hasGrazingManagementEvent:
-    name: sockg_hasGrazingManagementEvent
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 1951 occurrences with subject type sockg:ExperimentalUnit and object type sockg:GrazingManagementEvent.
+  sockg_endDate:
+    name: sockg_endDate
+    annotations:
+      string:
+        tag: string
+        value: 1945
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#52278 sockg:hasGrazingManagementEvent neo4j://graph.individuals#171983
-    from_schema: soc-kg/main
+    - object:
+        example_object: '2006-05-12'
+        example_object_type: string
+        example_predicate: sockg:endDate
+        example_subject: sockg:individuals/170955
+        example_subject_type: sockg_GrazingManagementEvent
+    - object:
+        example_object: '2016-11-01'
+        example_object_type: string
+        example_predicate: sockg:endDate
+        example_subject: sockg:individuals/51906
+        example_subject_type: sockg_Experiment
+    - object:
+        example_object: '2011-12-31'
+        example_object_type: string
+        example_predicate: sockg:endDate
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/9183
     rank: 1000
-    slot_uri: sockg:hasGrazingManagementEvent
-    alias: sockg_hasGrazingManagementEvent
+    slot_uri: sockg:endDate
+    alias: sockg_endDate
     owner: sockg_ExperimentalUnit
     domain_of:
+    - sockg_Experiment
     - sockg_ExperimentalUnit
-    range: sockg_GrazingManagementEvent
+    - sockg_GrazingManagementEvent
+    union_of:
+    - '{''domain'': ''sockg_Amendment''}'
+    - '{''domain'': ''sockg_ExperimentalUnit''}'
+    - '{''domain'': ''sockg_GrazingManagementEvent''}'
+    - '{''domain'': ''sockg_Experiment''}'
+    range: Any
+    any_of:
+    - range: date
+    - range: string
   sockg_isHarvested:
     name: sockg_isHarvested
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 18356 occurrences with subject type sockg:ExperimentalUnit and object type sockg:Harvest.
+    annotations:
+      sockg_Harvest:
+        tag: sockg_Harvest
+        value: 18356
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#55477 sockg:isHarvested neo4j://graph.individuals#188250
-    from_schema: soc-kg/main
+    - object:
+        example_object: sockg:individuals/174016
+        example_object_type: sockg_Harvest
+        example_predicate: sockg:isHarvested
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    from_schema: soc-kg
     rank: 1000
+    domain: sockg_ExperimentalUnit
     slot_uri: sockg:isHarvested
     alias: sockg_isHarvested
     owner: sockg_ExperimentalUnit
     domain_of:
     - sockg_ExperimentalUnit
     range: sockg_Harvest
-  sockg_locatedInField:
-    name: sockg_locatedInField
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 3809 occurrences with subject type sockg:ExperimentalUnit and object type sockg:Field.
+  sockg_hasSoilCover:
+    name: sockg_hasSoilCover
+    annotations:
+      sockg_SoilCover:
+        tag: sockg_SoilCover
+        value: 1034
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#52970 sockg:locatedInField neo4j://graph.individuals#55561
-    from_schema: soc-kg/main
+    - object:
+        example_object: sockg:individuals/307774
+        example_object_type: sockg_SoilCover
+        example_predicate: sockg:hasSoilCover
+        example_subject: sockg:individuals/54021
+        example_subject_type: sockg_ExperimentalUnit
+    from_schema: soc-kg
     rank: 1000
-    slot_uri: sockg:locatedInField
-    alias: sockg_locatedInField
+    domain: sockg_ExperimentalUnit
+    slot_uri: sockg:hasSoilCover
+    alias: sockg_hasSoilCover
     owner: sockg_ExperimentalUnit
     domain_of:
     - sockg_ExperimentalUnit
-    range: sockg_Field
-  sockg_hasBioMassEnergyData:
-    name: sockg_hasBioMassEnergyData
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 799 occurrences with subject type sockg:ExperimentalUnit and object type sockg:BioMassEnergy.
-    examples:
-    - value: neo4j://graph.individuals#54245 sockg:hasBioMassEnergyData neo4j://graph.individuals#39330
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:hasBioMassEnergyData
-    alias: sockg_hasBioMassEnergyData
-    owner: sockg_ExperimentalUnit
-    domain_of:
-    - sockg_ExperimentalUnit
-    range: sockg_BioMassEnergy
-  sockg_hasBioMassCarbohydrateData:
-    name: sockg_hasBioMassCarbohydrateData
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 1367 occurrences with subject type sockg:ExperimentalUnit and object type sockg:BioMassCarbohydrate.
-    examples:
-    - value: neo4j://graph.individuals#54405 sockg:hasBioMassCarbohydrateData neo4j://graph.individuals#38067
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:hasBioMassCarbohydrateData
-    alias: sockg_hasBioMassCarbohydrateData
-    owner: sockg_ExperimentalUnit
-    domain_of:
-    - sockg_ExperimentalUnit
-    range: sockg_BioMassCarbohydrate
+    range: sockg_SoilCover
   sockg_hasResidueManagementEvent:
     name: sockg_hasResidueManagementEvent
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 3308 occurrences with subject type sockg:ExperimentalUnit and object type sockg:ResidueManagementEvent.
+    annotations:
+      sockg_ResidueManagementEvent:
+        tag: sockg_ResidueManagementEvent
+        value: 3308
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#53264 sockg:hasResidueManagementEvent neo4j://graph.individuals#228485
-    from_schema: soc-kg/main
+    - object:
+        example_object: sockg:individuals/228634
+        example_object_type: sockg_ResidueManagementEvent
+        example_predicate: sockg:hasResidueManagementEvent
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    from_schema: soc-kg
     rank: 1000
+    domain: sockg_ExperimentalUnit
     slot_uri: sockg:hasResidueManagementEvent
     alias: sockg_hasResidueManagementEvent
     owner: sockg_ExperimentalUnit
     domain_of:
     - sockg_ExperimentalUnit
     range: sockg_ResidueManagementEvent
-  sockg_changeInManagement:
-    name: sockg_changeInManagement
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 3809 occurrences with subject type sockg:ExperimentalUnit and object type xsd:double.
+  sockg_hasGrazingData:
+    name: sockg_hasGrazingData
+    annotations:
+      sockg_Grazing:
+        tag: sockg_Grazing
+        value: 6995
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#52721 sockg:changeInManagement nan
-    from_schema: soc-kg/main
+    - object:
+        example_object: sockg:individuals/164936
+        example_object_type: sockg_Grazing
+        example_predicate: sockg:hasGrazingData
+        example_subject: sockg:individuals/52472
+        example_subject_type: sockg_ExperimentalUnit
+    from_schema: soc-kg
     rank: 1000
-    slot_uri: sockg:changeInManagement
-    alias: sockg_changeInManagement
+    domain: sockg_ExperimentalUnit
+    slot_uri: sockg:hasGrazingData
+    alias: sockg_hasGrazingData
     owner: sockg_ExperimentalUnit
     domain_of:
     - sockg_ExperimentalUnit
-    range: double
+    range: sockg_Grazing
   sockg_expUnit_UID:
     name: sockg_expUnit_UID
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 3809 occurrences with subject type sockg:ExperimentalUnit and object type string.
-    - 2791 occurrences with subject type sockg:NutrientEfficiency and object type
-      string.
-    - 748 occurrences with subject type sockg:GasNutrientLoss and object type string.
-    - 1479 occurrences with subject type sockg:WaterQualityConc and object type string.
-    - 429 occurrences with subject type sockg:YieldNutrientUptake and object type
-      string.
-    - 15 occurrences with subject type sockg:WindErosionArea and object type string.
+    annotations:
+      string:
+        tag: string
+        value: 3863
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#52433 sockg:expUnit_UID AgCros_TXLULIB1_26
-    - value: neo4j://graph.individuals#201925 sockg:expUnit_UID AgCros_NELITCSE_201
-    - value: neo4j://graph.individuals#55653 sockg:expUnit_UID AgCros_WIPDBARN_1
-    - value: neo4j://graph.individuals#360941 sockg:expUnit_UID AgCros_IAAMKELL_120
-    - value: neo4j://graph.individuals#509548 sockg:expUnit_UID AgCros_MNMOCAM_678
-    - value: neo4j://graph.individuals#509309 sockg:expUnit_UID AgCros_TXBSWEWC_COMP3
-    from_schema: soc-kg/main
+    - object:
+        example_object: AgCros_MTSIFERE_GrazW-P_B-F3w2
+        example_object_type: string
+        example_predicate: sockg:expUnit_UID
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    - object:
+        example_object: AgCros_MNMOCAL_614
+        example_object_type: string
+        example_predicate: sockg:expUnit_UID
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: AgCros_WIPDBARN_2
+        example_object_type: string
+        example_predicate: sockg:expUnit_UID
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: AgCros_IAAMKELL_120
+        example_object_type: string
+        example_predicate: sockg:expUnit_UID
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: AgCros_IAAMKELL_116
+        example_object_type: string
+        example_predicate: sockg:expUnit_UID
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: AgCros_TXBSWEWC_COMP2
+        example_object_type: string
+        example_predicate: sockg:expUnit_UID
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: AgCros_MNSP4R_U-S100B
+        example_object_type: string
+        example_predicate: sockg:expUnit_UID
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
     rank: 1000
     slot_uri: sockg:expUnit_UID
     alias: sockg_expUnit_UID
-    owner: sockg_ExperimentalUnit
-    domain_of:
-    - sockg_ExperimentalUnit
-    - sockg_GasNutrientLoss
-    - sockg_NutrientEfficiency
-    - sockg_WaterQualityConc
-    - sockg_WindErosionArea
-    - sockg_YieldNutrientUptake
-    range: string
-  sockg_expUnitId:
-    name: sockg_expUnitId
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 3809 occurrences with subject type sockg:ExperimentalUnit and object type string.
-    - 2791 occurrences with subject type sockg:NutrientEfficiency and object type
-      string.
-    - 748 occurrences with subject type sockg:GasNutrientLoss and object type string.
-    - 1479 occurrences with subject type sockg:WaterQualityConc and object type string.
-    - 667 occurrences with subject type sockg:WaterQualityArea and object type string.
-    - 429 occurrences with subject type sockg:YieldNutrientUptake and object type
-      string.
-    - 15 occurrences with subject type sockg:WindErosionArea and object type string.
-    examples:
-    - value: neo4j://graph.individuals#52840 sockg:expUnitId GAJPCSR1_B2P102F1H1X600Y90
-    - value: neo4j://graph.individuals#201638 sockg:expUnitId NELITCSE_509
-    - value: neo4j://graph.individuals#55654 sockg:expUnitId WIPDBARN_3
-    - value: neo4j://graph.individuals#360565 sockg:expUnitId IAAMKELL__120
-    - value: neo4j://graph.individuals#359954 sockg:expUnitId WIPDBARN_1
-    - value: neo4j://graph.individuals#509440 sockg:expUnitId ALAURye_410
-    - value: neo4j://graph.individuals#509305 sockg:expUnitId TXBSWEWC_COMP5
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:expUnitId
-    alias: sockg_expUnitId
     owner: sockg_ExperimentalUnit
     domain_of:
     - sockg_ExperimentalUnit
@@ -770,62 +909,740 @@ attributes:
     - sockg_WaterQualityConc
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
+    union_of:
+    - '{''domain'': ''sockg_ExperimentalUnit''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
     range: string
-  sockg_endDate:
-    name: sockg_endDate
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 37796 occurrences with subject type sockg:Amendment and object type xsd:double.
-    - 2026 occurrences with subject type sockg:ExperimentalUnit and object type xsd:double.
-    - 1783 occurrences with subject type sockg:ExperimentalUnit and object type string.
-    - 1951 occurrences with subject type sockg:GrazingManagementEvent and object type
-      string.
-    - 55 occurrences with subject type sockg:Experiment and object type string.
+  sockg_locatedInField:
+    name: sockg_locatedInField
+    annotations:
+      sockg_Field:
+        tag: sockg_Field
+        value: 3809
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#11898 sockg:endDate nan
-    - value: neo4j://graph.individuals#52943 sockg:endDate nan
-    - value: neo4j://graph.individuals#52582 sockg:endDate 2009-11-11
-    - value: neo4j://graph.individuals#172114 sockg:endDate 2005-08-08
-    - value: neo4j://graph.individuals#51722 sockg:endDate 2011-05-18
-    from_schema: soc-kg/main
+    - object:
+        example_object: sockg:individuals/55816
+        example_object_type: sockg_Field
+        example_predicate: sockg:locatedInField
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    from_schema: soc-kg
     rank: 1000
-    slot_uri: sockg:endDate
-    alias: sockg_endDate
+    domain: sockg_ExperimentalUnit
+    slot_uri: sockg:locatedInField
+    alias: sockg_locatedInField
+    owner: sockg_ExperimentalUnit
+    domain_of:
+    - sockg_ExperimentalUnit
+    range: sockg_Field
+  sockg_hasChemSample:
+    name: sockg_hasChemSample
+    annotations:
+      sockg_SoilChemicalSample:
+        tag: sockg_SoilChemicalSample
+        value: 53833
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/281187
+        example_object_type: sockg_SoilChemicalSample
+        example_predicate: sockg:hasChemSample
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_ExperimentalUnit
+    slot_uri: sockg:hasChemSample
+    alias: sockg_hasChemSample
+    owner: sockg_ExperimentalUnit
+    domain_of:
+    - sockg_ExperimentalUnit
+    range: sockg_SoilChemicalSample
+  sockg_locatedInSite:
+    name: sockg_locatedInSite
+    annotations:
+      sockg_Site:
+        tag: sockg_Site
+        value: 3803
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/231073
+        example_object_type: sockg_Site
+        example_predicate: sockg:locatedInSite
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_ExperimentalUnit
+    slot_uri: sockg:locatedInSite
+    alias: sockg_locatedInSite
+    owner: sockg_ExperimentalUnit
+    domain_of:
+    - sockg_ExperimentalUnit
+    range: sockg_Site
+  sockg_hasBioSample:
+    name: sockg_hasBioSample
+    annotations:
+      sockg_SoilBiologicalSample:
+        tag: sockg_SoilBiologicalSample
+        value: 18222
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/246851
+        example_object_type: sockg_SoilBiologicalSample
+        example_predicate: sockg:hasBioSample
+        example_subject: sockg:individuals/51968
+        example_subject_type: sockg_ExperimentalUnit
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_ExperimentalUnit
+    slot_uri: sockg:hasBioSample
+    alias: sockg_hasBioSample
+    owner: sockg_ExperimentalUnit
+    domain_of:
+    - sockg_ExperimentalUnit
+    range: sockg_SoilBiologicalSample
+  sockg_hasBioMassCarbohydrateData:
+    name: sockg_hasBioMassCarbohydrateData
+    annotations:
+      sockg_BioMassCarbohydrate:
+        tag: sockg_BioMassCarbohydrate
+        value: 1367
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/37796
+        example_object_type: sockg_BioMassCarbohydrate
+        example_predicate: sockg:hasBioMassCarbohydrateData
+        example_subject: sockg:individuals/54021
+        example_subject_type: sockg_ExperimentalUnit
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_ExperimentalUnit
+    slot_uri: sockg:hasBioMassCarbohydrateData
+    alias: sockg_hasBioMassCarbohydrateData
+    owner: sockg_ExperimentalUnit
+    domain_of:
+    - sockg_ExperimentalUnit
+    range: sockg_BioMassCarbohydrate
+  sockg_expUnitId:
+    name: sockg_expUnitId
+    annotations:
+      string:
+        tag: string
+        value: 3863
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: MTSIFERE_GrazW-P/B-F3w2
+        example_object_type: string
+        example_predicate: sockg:expUnitId
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    - object:
+        example_object: MNMOCAL_614
+        example_object_type: string
+        example_predicate: sockg:expUnitId
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: MNMOFS_71
+        example_object_type: string
+        example_predicate: sockg:expUnitId
+        example_subject: sockg:individuals/203988
+        example_subject_type: sockg_PlantingEvent
+    - object:
+        example_object: WIPDBARN_2
+        example_object_type: string
+        example_predicate: sockg:expUnitId
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: IAAMKELL__120
+        example_object_type: string
+        example_predicate: sockg:expUnitId
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: IAAMKELL__116
+        example_object_type: string
+        example_predicate: sockg:expUnitId
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: TXBSWEWC_COMP2
+        example_object_type: string
+        example_predicate: sockg:expUnitId
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: MNSP4R_U-S100B
+        example_object_type: string
+        example_predicate: sockg:expUnitId
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/849
+    rank: 1000
+    slot_uri: sockg:expUnitId
+    alias: sockg_expUnitId
+    owner: sockg_ExperimentalUnit
+    domain_of:
+    - sockg_ExperimentalUnit
+    - sockg_GasNutrientLoss
+    - sockg_NutrientEfficiency
+    - sockg_PlantingEvent
+    - sockg_WaterQualityArea
+    - sockg_WaterQualityConc
+    - sockg_WindErosionArea
+    - sockg_YieldNutrientUptake
+    union_of:
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    - '{''domain'': ''sockg_ExperimentalUnit''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_HarvestFraction''}'
+    - '{''domain'': ''sockg_GasSample''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_Harvest''}'
+    - '{''domain'': ''sockg_ResidueManagementEvent''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_CropGrowthStage''}'
+    - '{''domain'': ''sockg_Amendment''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    range: string
+  sockg_hasTillage:
+    name: sockg_hasTillage
+    annotations:
+      sockg_Tillage:
+        tag: sockg_Tillage
+        value: 27137
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/347211
+        example_object_type: sockg_Tillage
+        example_predicate: sockg:hasTillage
+        example_subject: sockg:individuals/51968
+        example_subject_type: sockg_ExperimentalUnit
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_ExperimentalUnit
+    slot_uri: sockg:hasTillage
+    alias: sockg_hasTillage
+    owner: sockg_ExperimentalUnit
+    domain_of:
+    - sockg_ExperimentalUnit
+    range: sockg_Tillage
+  sockg_hasAmendment:
+    name: sockg_hasAmendment
+    annotations:
+      sockg_Amendment:
+        tag: sockg_Amendment
+        value: 37796
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/15592
+        example_object_type: sockg_Amendment
+        example_predicate: sockg:hasAmendment
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_ExperimentalUnit
+    slot_uri: sockg:hasAmendment
+    alias: sockg_hasAmendment
+    owner: sockg_ExperimentalUnit
+    domain_of:
+    - sockg_ExperimentalUnit
+    range: sockg_Amendment
+  sockg_hasPhysSample:
+    name: sockg_hasPhysSample
+    annotations:
+      sockg_SoilPhysicalSample:
+        tag: sockg_SoilPhysicalSample
+        value: 28082
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/326976
+        example_object_type: sockg_SoilPhysicalSample
+        example_predicate: sockg:hasPhysSample
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_ExperimentalUnit
+    slot_uri: sockg:hasPhysSample
+    alias: sockg_hasPhysSample
+    owner: sockg_ExperimentalUnit
+    domain_of:
+    - sockg_ExperimentalUnit
+    range: sockg_SoilPhysicalSample
+  rdfs_seeAlso:
+    name: rdfs_seeAlso
+    annotations:
+      uri:
+        tag: uri
+        value: 3863
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/4605
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/0
+        example_subject_type: sockg_Amendment
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/5859
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/163960
+        example_subject_type: sockg_Grazing
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/4377260
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/170955
+        example_subject_type: sockg_GrazingManagementEvent
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/131626
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/172906
+        example_subject_type: sockg_Harvest
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/13189
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/203523
+        example_subject_type: sockg_Organization
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/3927
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/203632
+        example_subject_type: sockg_Pesticide
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/849
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/227674
+        example_subject_type: sockg_ResidueManagementEvent
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/30158
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/230982
+        example_subject_type: sockg_Rotation
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/302328
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/231056
+        example_subject_type: sockg_Site
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/2726
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/235229
+        example_subject_type: sockg_SoilBiologicalSample
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7974
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/253451
+        example_subject_type: sockg_SoilChemicalSample
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/302328
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/307284
+        example_subject_type: sockg_SoilCover
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/5143
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/308318
+        example_subject_type: sockg_SoilPhysicalSample
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/5430914
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/336400
+        example_subject_type: sockg_State
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/336419
+        example_subject_type: sockg_Tillage
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/28616
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/363556
+        example_subject_type: sockg_Treatment
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/2717
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/2714
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7485997
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/46864
+        example_subject_type: sockg_City
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/2217129
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/46904
+        example_subject_type: sockg_County
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/302328
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/46937
+        example_subject_type: sockg_CropGrowthStage
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/976
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/51906
+        example_subject_type: sockg_Experiment
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/9183
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7259
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/55800
+        example_subject_type: sockg_Field
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/35067
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/203534
+        example_subject_type: sockg_Person
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/5630
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/203988
+        example_subject_type: sockg_PlantingEvent
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/61097
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/227438
+        example_subject_type: sockg_Project
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/305490
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/227447
+        example_subject_type: sockg_Publication
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/48678
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/227609
+        example_subject_type: sockg_ResearchUnit
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/33020
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/231116
+        example_subject_type: sockg_Soil
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7259
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/513777
+        example_subject_type: sockg_WeatherStation
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: rdfs:seeAlso
+    alias: rdfs_seeAlso
     owner: sockg_ExperimentalUnit
     domain_of:
     - sockg_Amendment
+    - sockg_BioMassCarbohydrate
+    - sockg_BioMassEnergy
+    - sockg_BioMassMineral
+    - sockg_City
+    - sockg_County
+    - sockg_CropGrowthStage
     - sockg_Experiment
     - sockg_ExperimentalUnit
+    - sockg_Field
+    - sockg_GasNutrientLoss
+    - sockg_GasSample
+    - sockg_Grazing
     - sockg_GrazingManagementEvent
-    range: Any
-    any_of:
-    - range: double
-    - range: string
+    - sockg_Harvest
+    - sockg_HarvestFraction
+    - sockg_NutrientEfficiency
+    - sockg_Organization
+    - sockg_Person
+    - sockg_Pesticide
+    - sockg_PlantingEvent
+    - sockg_Project
+    - sockg_Publication
+    - sockg_ResearchUnit
+    - sockg_ResidueManagementEvent
+    - sockg_Rotation
+    - sockg_Site
+    - sockg_Soil
+    - sockg_SoilBiologicalSample
+    - sockg_SoilChemicalSample
+    - sockg_SoilCover
+    - sockg_SoilPhysicalSample
+    - sockg_State
+    - sockg_Tillage
+    - sockg_Treatment
+    - sockg_WaterQualityArea
+    - sockg_WaterQualityConc
+    - sockg_WeatherObservation
+    - sockg_WeatherStation
+    - sockg_WindErosionArea
+    - sockg_YieldNutrientUptake
+    range: uri
+  sockg_hasGrazingManagementEvent:
+    name: sockg_hasGrazingManagementEvent
+    annotations:
+      sockg_GrazingManagementEvent:
+        tag: sockg_GrazingManagementEvent
+        value: 1951
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/172878
+        example_object_type: sockg_GrazingManagementEvent
+        example_predicate: sockg:hasGrazingManagementEvent
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_ExperimentalUnit
+    slot_uri: sockg:hasGrazingManagementEvent
+    alias: sockg_hasGrazingManagementEvent
+    owner: sockg_ExperimentalUnit
+    domain_of:
+    - sockg_ExperimentalUnit
+    range: sockg_GrazingManagementEvent
+  sockg_hasBioMassEnergyData:
+    name: sockg_hasBioMassEnergyData
+    annotations:
+      sockg_BioMassEnergy:
+        tag: sockg_BioMassEnergy
+        value: 799
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/39169
+        example_object_type: sockg_BioMassEnergy
+        example_predicate: sockg:hasBioMassEnergyData
+        example_subject: sockg:individuals/54440
+        example_subject_type: sockg_ExperimentalUnit
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_ExperimentalUnit
+    slot_uri: sockg:hasBioMassEnergyData
+    alias: sockg_hasBioMassEnergyData
+    owner: sockg_ExperimentalUnit
+    domain_of:
+    - sockg_ExperimentalUnit
+    range: sockg_BioMassEnergy
+  sockg_hasHarvestFractionData:
+    name: sockg_hasHarvestFractionData
+    annotations:
+      sockg_HarvestFraction:
+        tag: sockg_HarvestFraction
+        value: 9110
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/191288
+        example_object_type: sockg_HarvestFraction
+        example_predicate: sockg:hasHarvestFractionData
+        example_subject: sockg:individuals/51968
+        example_subject_type: sockg_ExperimentalUnit
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_ExperimentalUnit
+    slot_uri: sockg:hasHarvestFractionData
+    alias: sockg_hasHarvestFractionData
+    owner: sockg_ExperimentalUnit
+    domain_of:
+    - sockg_ExperimentalUnit
+    range: sockg_HarvestFraction
+  sockg_hasGasSample:
+    name: sockg_hasGasSample
+    annotations:
+      sockg_GasSample:
+        tag: sockg_GasSample
+        value: 106447
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/103924
+        example_object_type: sockg_GasSample
+        example_predicate: sockg:hasGasSample
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_ExperimentalUnit
+    slot_uri: sockg:hasGasSample
+    alias: sockg_hasGasSample
+    owner: sockg_ExperimentalUnit
+    domain_of:
+    - sockg_ExperimentalUnit
+    range: sockg_GasSample
   sockg_startDate:
     name: sockg_startDate
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 37796 occurrences with subject type sockg:Amendment and object type string.
-    - 3178 occurrences with subject type sockg:ExperimentalUnit and object type string.
-    - 1951 occurrences with subject type sockg:GrazingManagementEvent and object type
-      string.
-    - 631 occurrences with subject type sockg:ExperimentalUnit and object type xsd:double.
-    - 55 occurrences with subject type sockg:Experiment and object type string.
+    annotations:
+      string:
+        tag: string
+        value: 3178
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#6073 sockg:startDate 2010-04-23
-    - value: neo4j://graph.individuals#52263 sockg:startDate 2004-04-01
-    - value: neo4j://graph.individuals#172393 sockg:startDate 1996-08-15
-    - value: neo4j://graph.individuals#54995 sockg:startDate nan
-    - value: neo4j://graph.individuals#51687 sockg:startDate 2009-01-01
-    from_schema: soc-kg/main
+    - object:
+        example_object: '2012-06-05'
+        example_object_type: string
+        example_predicate: sockg:startDate
+        example_subject: sockg:individuals/0
+        example_subject_type: sockg_Amendment
+    - object:
+        example_object: '2006-05-08'
+        example_object_type: string
+        example_predicate: sockg:startDate
+        example_subject: sockg:individuals/170955
+        example_subject_type: sockg_GrazingManagementEvent
+    - object:
+        example_object: '1987-04-30'
+        example_object_type: string
+        example_predicate: sockg:startDate
+        example_subject: sockg:individuals/336419
+        example_subject_type: sockg_Tillage
+    - object:
+        example_object: '2007-04-01'
+        example_object_type: string
+        example_predicate: sockg:startDate
+        example_subject: sockg:individuals/51906
+        example_subject_type: sockg_Experiment
+    - object:
+        example_object: '2009-01-01'
+        example_object_type: string
+        example_predicate: sockg:startDate
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    - object:
+        example_object: '2004-11-04'
+        example_object_type: string
+        example_predicate: sockg:startDate
+        example_subject: sockg:individuals/203988
+        example_subject_type: sockg_PlantingEvent
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/9183
     rank: 1000
     slot_uri: sockg:startDate
     alias: sockg_startDate
@@ -835,10 +1652,18 @@ attributes:
     - sockg_Experiment
     - sockg_ExperimentalUnit
     - sockg_GrazingManagementEvent
+    - sockg_PlantingEvent
+    - sockg_Tillage
+    union_of:
+    - '{''domain'': ''sockg_ExperimentalUnit''}'
+    - '{''domain'': ''sockg_GrazingManagementEvent''}'
+    - '{''domain'': ''sockg_WeatherStation''}'
+    - '{''domain'': ''sockg_Experiment''}'
+    - '{''domain'': ''sockg_Amendment''}'
     range: Any
     any_of:
+    - range: date
     - range: string
-    - range: double
 class_uri: sockg:ExperimentalUnit
 
 ```

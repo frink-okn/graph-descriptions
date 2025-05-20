@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_perennialStandAge_years
+# Slot: No slot (predicate) name specified (sockg_perennialStandAge_years)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:perennialStandAge_years](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/perennialStandAge_years)
+
+This slot occurs 826 times.
+
+
+URI: [sockg:perennialStandAge_years](https://idir.uta.edu/sockg-ontology/docs/perennialStandAge_years)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:perennialStandAge_years](http://www.semanticweb.org/sockg/ontologies
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgResidueManagementEvent](../classes/SockgResidueManagementEvent.md) | No type description provided |  no  |
+| [SockgResidueManagementEvent](../classes/SockgResidueManagementEvent.md) | A ResidueManagementEvent represents a specific instance of managing agricultu... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:perennialStandAge_years](http://www.semanticweb.org/sockg/ontologies
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:perennialStandAge_years](http://www.semanticweb.org/sockg/ontologies
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#227669 sockg:perennialStandAge_years 1.0 |
-
-## Comments
-
-* 3308 occurrences with subject type sockg:ResidueManagementEvent and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:perennialStandAge_years |
-| native | soc-kg/main/:sockg_perennialStandAge_years |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_ResidueManagementEvent | double | sockg:individuals/227783 | 4.0 | 826 |
 
 
 
@@ -85,25 +56,33 @@ URI: [sockg:perennialStandAge_years](http://www.semanticweb.org/sockg/ontologies
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_perennialStandAge_years
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 3308 occurrences with subject type sockg:ResidueManagementEvent and object type
-  xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 826
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#227669 sockg:perennialStandAge_years 1.0
-from_schema: soc-kg/main
+- object:
+    example_object: '4.0'
+    example_object_type: double
+    example_predicate: sockg:perennialStandAge_years
+    example_subject: sockg:individuals/227783
+    example_subject_type: sockg_ResidueManagementEvent
+from_schema: soc-kg
 rank: 1000
+domain: sockg_ResidueManagementEvent
 slot_uri: sockg:perennialStandAge_years
 alias: sockg_perennialStandAge_years
 domain_of:
 - sockg_ResidueManagementEvent
-range: double
+range: Any
+any_of:
+- range: integer
+- range: double
 
 ```
 </details>

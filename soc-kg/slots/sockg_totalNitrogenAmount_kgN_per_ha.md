@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_totalNitrogenAmount_kgN_per_ha
+# Slot: No slot (predicate) name specified (sockg_totalNitrogenAmount_kgN_per_ha)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:totalNitrogenAmount_kgN_per_ha](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/totalNitrogenAmount_kgN_per_ha)
+
+This slot occurs 21967 times.
+
+
+URI: [sockg:totalNitrogenAmount_kgN_per_ha](https://idir.uta.edu/sockg-ontology/docs/totalNitrogenAmount_kgN_per_ha)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:totalNitrogenAmount_kgN_per_ha](http://www.semanticweb.org/sockg/ont
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgAmendment](../classes/SockgAmendment.md) | No type description provided |  no  |
+| [SockgAmendment](../classes/SockgAmendment.md) | An Amendment represents a specific alteration or addition made to agricultura... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:totalNitrogenAmount_kgN_per_ha](http://www.semanticweb.org/sockg/ont
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,67 +46,49 @@ URI: [sockg:totalNitrogenAmount_kgN_per_ha](http://www.semanticweb.org/sockg/ont
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#1491 sockg:totalNitrogenAmount_kgN_per_ha 89.998 |
-
-## Comments
-
-* 37796 occurrences with subject type sockg:Amendment and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Amendment | double | sockg:individuals/10 | 9.0 | 21967 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:totalNitrogenAmount_kgN_per_ha |
-| native | soc-kg/main/:sockg_totalNitrogenAmount_kgN_per_ha |
-
+* [https://lod.nal.usda.gov/nalt/186582](https://lod.nal.usda.gov/nalt/186582)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_totalNitrogenAmount_kgN_per_ha
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 37796 occurrences with subject type sockg:Amendment and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 21967
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#1491 sockg:totalNitrogenAmount_kgN_per_ha 89.998
-from_schema: soc-kg/main
+- object:
+    example_object: '9.0'
+    example_object_type: double
+    example_predicate: sockg:totalNitrogenAmount_kgN_per_ha
+    example_subject: sockg:individuals/10
+    example_subject_type: sockg_Amendment
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/186582
 rank: 1000
+domain: sockg_Amendment
 slot_uri: sockg:totalNitrogenAmount_kgN_per_ha
 alias: sockg_totalNitrogenAmount_kgN_per_ha
 domain_of:
 - sockg_Amendment
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

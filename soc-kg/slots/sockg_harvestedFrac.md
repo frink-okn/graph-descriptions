@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_harvestedFrac
+# Slot: No slot (predicate) name specified (sockg_harvestedFrac)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:harvestedFrac](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/harvestedFrac)
+
+This slot occurs 18047 times.
+
+
+URI: [sockg:harvestedFrac](https://idir.uta.edu/sockg-ontology/docs/harvestedFrac)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:harvestedFrac](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgHarvest](../classes/SockgHarvest.md) | No type description provided |  no  |
+| [SockgHarvest](../classes/SockgHarvest.md) | Harvest represents the process of collecting mature crops from the fields, wi... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:harvestedFrac](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,74 +46,46 @@ URI: [sockg:harvestedFrac](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#180946 sockg:harvestedFrac Grain |
-| neo4j://graph.individuals#187090 sockg:harvestedFrac nan |
-
-## Comments
-
-* 18047 occurrences with subject type sockg:Harvest and object type string.
-* 309 occurrences with subject type sockg:Harvest and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Harvest | string | sockg:individuals/172906 | Grain | 18047 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:harvestedFrac |
-| native | soc-kg/main/:sockg_harvestedFrac |
-
+* [https://lod.nal.usda.gov/nalt/30174](https://lod.nal.usda.gov/nalt/30174)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_harvestedFrac
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 18047 occurrences with subject type sockg:Harvest and object type string.
-- 309 occurrences with subject type sockg:Harvest and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 18047
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#180946 sockg:harvestedFrac Grain
-- value: neo4j://graph.individuals#187090 sockg:harvestedFrac nan
-from_schema: soc-kg/main
+- object:
+    example_object: Grain
+    example_object_type: string
+    example_predicate: sockg:harvestedFrac
+    example_subject: sockg:individuals/172906
+    example_subject_type: sockg_Harvest
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/30174
 rank: 1000
+domain: sockg_Harvest
 slot_uri: sockg:harvestedFrac
 alias: sockg_harvestedFrac
 domain_of:
 - sockg_Harvest
-range: Any
-any_of:
-- range: string
-- range: double
+range: string
 
 ```
 </details>

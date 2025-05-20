@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_crudeProtein_g_per_kg
+# Slot: No slot (predicate) name specified (sockg_crudeProtein_g_per_kg)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:crudeProtein_g_per_kg](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/crudeProtein_g_per_kg)
+
+This slot occurs 799 times.
+
+
+URI: [sockg:crudeProtein_g_per_kg](https://idir.uta.edu/sockg-ontology/docs/crudeProtein_g_per_kg)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:crudeProtein_g_per_kg](http://www.semanticweb.org/sockg/ontologies/2
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgBioMassCarbohydrate](../classes/SockgBioMassCarbohydrate.md) | No type description provided |  no  |
+| [SockgBioMassCarbohydrate](../classes/SockgBioMassCarbohydrate.md) | BioMassCarbohydrate represents the carbohydrate content in biomass derived fr... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:crudeProtein_g_per_kg](http://www.semanticweb.org/sockg/ontologies/2
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,67 +46,49 @@ URI: [sockg:crudeProtein_g_per_kg](http://www.semanticweb.org/sockg/ontologies/2
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#37817 sockg:crudeProtein_g_per_kg nan |
-
-## Comments
-
-* 1367 occurrences with subject type sockg:BioMassCarbohydrate and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_BioMassCarbohydrate | double | sockg:individuals/37991 | 58.0 | 799 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:crudeProtein_g_per_kg |
-| native | soc-kg/main/:sockg_crudeProtein_g_per_kg |
-
+* [https://lod.nal.usda.gov/nalt/30272](https://lod.nal.usda.gov/nalt/30272)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_crudeProtein_g_per_kg
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1367 occurrences with subject type sockg:BioMassCarbohydrate and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 799
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#37817 sockg:crudeProtein_g_per_kg nan
-from_schema: soc-kg/main
+- object:
+    example_object: '58.0'
+    example_object_type: double
+    example_predicate: sockg:crudeProtein_g_per_kg
+    example_subject: sockg:individuals/37991
+    example_subject_type: sockg_BioMassCarbohydrate
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/30272
 rank: 1000
+domain: sockg_BioMassCarbohydrate
 slot_uri: sockg:crudeProtein_g_per_kg
 alias: sockg_crudeProtein_g_per_kg
 domain_of:
 - sockg_BioMassCarbohydrate
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

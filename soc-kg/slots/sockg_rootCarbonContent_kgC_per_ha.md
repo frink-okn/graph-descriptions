@@ -1,15 +1,17 @@
 
 
-# Slot: sockg_rootCarbonContent_kgC_per_ha
+# Slot: No slot (predicate) name specified (sockg_rootCarbonContent_kgC_per_ha)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:rootCarbonContent_kgC_per_ha](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/rootCarbonContent_kgC_per_ha)
+
+
+URI: [sockg:rootCarbonContent_kgC_per_ha](https://idir.uta.edu/sockg-ontology/docs/rootCarbonContent_kgC_per_ha)
 
 
 
@@ -19,90 +21,39 @@ URI: [sockg:rootCarbonContent_kgC_per_ha](http://www.semanticweb.org/sockg/ontol
 
 
 
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [SockgHarvest](../classes/SockgHarvest.md) | No type description provided |  no  |
-
-
-
-
 
 
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
 
-
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#187210 sockg:rootCarbonContent_kgC_per_ha nan |
 
 ## Comments
 
-* 18356 occurrences with subject type sockg:Harvest and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:rootCarbonContent_kgC_per_ha |
-| native | soc-kg/main/:sockg_rootCarbonContent_kgC_per_ha |
-
+* No occurrences of this slot in the graph.
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_rootCarbonContent_kgC_per_ha
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 comments:
-- 18356 occurrences with subject type sockg:Harvest and object type xsd:double.
-examples:
-- value: neo4j://graph.individuals#187210 sockg:rootCarbonContent_kgC_per_ha nan
-from_schema: soc-kg/main
+- No occurrences of this slot in the graph.
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Harvest
 slot_uri: sockg:rootCarbonContent_kgC_per_ha
 alias: sockg_rootCarbonContent_kgC_per_ha
-domain_of:
-- sockg_Harvest
-range: double
+range: float
 
 ```
 </details>

@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_organizationName
+# Slot: No slot (predicate) name specified (sockg_organizationName)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:organizationName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/organizationName)
+
+This slot occurs 95 times.
+
+
+URI: [sockg:organizationName](https://idir.uta.edu/sockg-ontology/docs/organizationName)
 
 
 
@@ -23,7 +27,8 @@ URI: [sockg:organizationName](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgOrganization](../classes/SockgOrganization.md) | No type description provided |  no  |
+| [SockgOrganization](../classes/SockgOrganization.md) | An Organization is a structured group of individuals working together to achi... |  yes  |
+| [SockgPerson](../classes/SockgPerson.md) | A Person represents an individual involved in agricultural activities, servin... |  yes  |
 
 
 
@@ -42,67 +47,53 @@ URI: [sockg:organizationName](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#203277 sockg:organizationName ARS-Colorado State University Partnership |
-
-## Comments
-
-* 7 occurrences with subject type sockg:Organization and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Organization | string | sockg:individuals/203523 | USDA-ARS | 7 |
+| sockg_Person | string | sockg:individuals/203534 | Soil Plant Nutrient Research Unit | 88 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:organizationName |
-| native | soc-kg/main/:sockg_organizationName |
-
+* [https://lod.nal.usda.gov/nalt/13189](https://lod.nal.usda.gov/nalt/13189)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_organizationName
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 7 occurrences with subject type sockg:Organization and object type string.
+annotations:
+  count:
+    tag: count
+    value: 95
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#203277 sockg:organizationName ARS-Colorado State
-    University Partnership
-from_schema: soc-kg/main
+- object:
+    example_object: USDA-ARS
+    example_object_type: string
+    example_predicate: sockg:organizationName
+    example_subject: sockg:individuals/203523
+    example_subject_type: sockg_Organization
+- object:
+    example_object: Soil Plant Nutrient Research Unit
+    example_object_type: string
+    example_predicate: sockg:organizationName
+    example_subject: sockg:individuals/203534
+    example_subject_type: sockg_Person
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/13189
 rank: 1000
+domain: sockg_Organization
 slot_uri: sockg:organizationName
 alias: sockg_organizationName
 domain_of:
 - sockg_Organization
+- sockg_Person
 range: string
 
 ```

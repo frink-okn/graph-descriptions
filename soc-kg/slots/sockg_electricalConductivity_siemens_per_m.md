@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_electricalConductivity_siemens_per_m
+# Slot: No slot (predicate) name specified (sockg_electricalConductivity_siemens_per_m)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:electricalConductivity_siemens_per_m](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/electricalConductivity_siemens_per_m)
+
+This slot occurs 5552 times.
+
+
+URI: [sockg:electricalConductivity_siemens_per_m](https://idir.uta.edu/sockg-ontology/docs/electricalConductivity_siemens_per_m)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:electricalConductivity_siemens_per_m](http://www.semanticweb.org/soc
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | No type description provided |  no  |
+| [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | The SoilChemicalSample class represents a comprehensive analysis of soil chem... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:electricalConductivity_siemens_per_m](http://www.semanticweb.org/soc
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,68 +46,49 @@ URI: [sockg:electricalConductivity_siemens_per_m](http://www.semanticweb.org/soc
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#280408 sockg:electricalConductivity_siemens_per_m nan |
-
-## Comments
-
-* 53833 occurrences with subject type sockg:SoilChemicalSample and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_SoilChemicalSample | double | sockg:individuals/253453 | 0.307 | 5552 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:electricalConductivity_siemens_per_m |
-| native | soc-kg/main/:sockg_electricalConductivity_siemens_per_m |
-
+* [https://lod.nal.usda.gov/nalt/316816](https://lod.nal.usda.gov/nalt/316816)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_electricalConductivity_siemens_per_m
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 53833 occurrences with subject type sockg:SoilChemicalSample and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 5552
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#280408 sockg:electricalConductivity_siemens_per_m
-    nan
-from_schema: soc-kg/main
+- object:
+    example_object: '0.307'
+    example_object_type: double
+    example_predicate: sockg:electricalConductivity_siemens_per_m
+    example_subject: sockg:individuals/253453
+    example_subject_type: sockg_SoilChemicalSample
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/316816
 rank: 1000
+domain: sockg_SoilChemicalSample
 slot_uri: sockg:electricalConductivity_siemens_per_m
 alias: sockg_electricalConductivity_siemens_per_m
 domain_of:
 - sockg_SoilChemicalSample
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

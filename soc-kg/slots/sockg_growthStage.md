@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_growthStage
+# Slot: No slot (predicate) name specified (sockg_growthStage)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:growthStage](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/growthStage)
+
+This slot occurs 51226 times.
+
+
+URI: [sockg:growthStage](https://idir.uta.edu/sockg-ontology/docs/growthStage)
 
 
 
@@ -23,19 +27,18 @@ URI: [sockg:growthStage](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | No type description provided |  no  |
-| [SockgGrazing](../classes/SockgGrazing.md) | No type description provided |  no  |
-| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | No type description provided |  no  |
-| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | No type description provided |  no  |
-| [SockgBioMassEnergy](../classes/SockgBioMassEnergy.md) | No type description provided |  no  |
-| [SockgHarvest](../classes/SockgHarvest.md) | No type description provided |  no  |
-| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | No type description provided |  no  |
-| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | No type description provided |  no  |
-| [SockgBioMassCarbohydrate](../classes/SockgBioMassCarbohydrate.md) | No type description provided |  no  |
-| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | No type description provided |  no  |
-| [SockgHarvestFraction](../classes/SockgHarvestFraction.md) | No type description provided |  no  |
-| [SockgCropGrowthStage](../classes/SockgCropGrowthStage.md) | No type description provided |  no  |
-| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | No type description provided |  no  |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | BioMassMiner is a class that represents the analysis of biomass in terms of i... |  yes  |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by... |  yes  |
+| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | The GasNutrientLoss class represents the assessment of gaseous nutrient losse... |  yes  |
+| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | WaterQualityConc represents the concentration of various water quality parame... |  yes  |
+| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | The WindErosionArea class represents regions affected by wind erosion, detail... |  yes  |
+| [SockgHarvest](../classes/SockgHarvest.md) | Harvest represents the process of collecting mature crops from the fields, wi... |  yes  |
+| [SockgBioMassCarbohydrate](../classes/SockgBioMassCarbohydrate.md) | BioMassCarbohydrate represents the carbohydrate content in biomass derived fr... |  yes  |
+| [SockgBioMassEnergy](../classes/SockgBioMassEnergy.md) | BioMassEnergy represents the energy content derived from agricultural biomass... |  yes  |
+| [SockgHarvestFraction](../classes/SockgHarvestFraction.md) | The HarvestFraction class represents the quantifiable metrics and characteris... |  yes  |
+| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | The NutrientEfficiency class represents the effectiveness of nutrient utiliza... |  yes  |
+| [SockgGrazing](../classes/SockgGrazing.md) | The Grazing class represents the assessment of various productivity metrics a... |  yes  |
+| [SockgCropGrowthStage](../classes/SockgCropGrowthStage.md) | The CropGrowthStage class represents the various phases of development that a... |  yes  |
 
 
 
@@ -45,7 +48,7 @@ URI: [sockg:growthStage](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -54,129 +57,116 @@ URI: [sockg:growthStage](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#179594 sockg:growthStage Maturity |
-| neo4j://graph.individuals#169328 sockg:growthStage Maturity |
-| neo4j://graph.individuals#42420 sockg:growthStage Maturity |
-| neo4j://graph.individuals#201140 sockg:growthStage Maturity |
-| neo4j://graph.individuals#192092 sockg:growthStage Maturity |
-| neo4j://graph.individuals#48294 sockg:growthStage V8 |
-| neo4j://graph.individuals#38319 sockg:growthStage Harvest |
-| neo4j://graph.individuals#39266 sockg:growthStage Harvest |
-| neo4j://graph.individuals#181402 sockg:growthStage nan |
-| neo4j://graph.individuals#361570 sockg:growthStage nan |
-| neo4j://graph.individuals#360617 sockg:growthStage Pre-graze |
-| neo4j://graph.individuals#55868 sockg:growthStage nan |
-| neo4j://graph.individuals#360003 sockg:growthStage nan |
-| neo4j://graph.individuals#170558 sockg:growthStage nan |
-| neo4j://graph.individuals#509424 sockg:growthStage Harvest |
-| neo4j://graph.individuals#56329 sockg:growthStage Pre-graze |
-| neo4j://graph.individuals#509305 sockg:growthStage Pre-graze |
-| neo4j://graph.individuals#194095 sockg:growthStage nan |
-
-## Comments
-
-* 17240 occurrences with subject type sockg:Harvest and object type string.
-* 6683 occurrences with subject type sockg:Grazing and object type string.
-* 6723 occurrences with subject type sockg:BioMassMineral and object type string.
-* 2791 occurrences with subject type sockg:NutrientEfficiency and object type string.
-* 9407 occurrences with subject type sockg:HarvestFraction and object type string.
-* 4896 occurrences with subject type sockg:CropGrowthStage and object type string.
-* 1367 occurrences with subject type sockg:BioMassCarbohydrate and object type string.
-* 799 occurrences with subject type sockg:BioMassEnergy and object type string.
-* 1116 occurrences with subject type sockg:Harvest and object type xsd:double.
-* 667 occurrences with subject type sockg:WaterQualityConc and object type xsd:double.
-* 812 occurrences with subject type sockg:WaterQualityConc and object type string.
-* 684 occurrences with subject type sockg:GasNutrientLoss and object type xsd:double.
-* 667 occurrences with subject type sockg:WaterQualityArea and object type xsd:double.
-* 312 occurrences with subject type sockg:Grazing and object type xsd:double.
-* 429 occurrences with subject type sockg:YieldNutrientUptake and object type string.
-* 64 occurrences with subject type sockg:GasNutrientLoss and object type string.
-* 15 occurrences with subject type sockg:WindErosionArea and object type string.
-* 63 occurrences with subject type sockg:HarvestFraction and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Grazing | string | sockg:individuals/163960 | Maturity | 6683 |
+| sockg_Harvest | string | sockg:individuals/172911 | Harvest | 17240 |
+| sockg_HarvestFraction | string | sockg:individuals/191262 | V7 | 9407 |
+| sockg_BioMassCarbohydrate | string | sockg:individuals/37796 | Maturity | 1367 |
+| sockg_BioMassEnergy | string | sockg:individuals/39163 | Harvest | 799 |
+| sockg_BioMassMineral | string | sockg:individuals/39962 | Maturity | 6723 |
+| sockg_CropGrowthStage | string | sockg:individuals/46937 | R6 | 4896 |
+| sockg_NutrientEfficiency | string | sockg:individuals/200732 | Maturity | 2791 |
+| sockg_WaterQualityConc | string | sockg:individuals/364993 | Pre-graze | 812 |
+| sockg_GasNutrientLoss | string | sockg:individuals/55858 | Pre-graze | 64 |
+| sockg_WindErosionArea | string | sockg:individuals/624572 | Pre-graze | 15 |
+| sockg_YieldNutrientUptake | string | sockg:individuals/624587 | Harvest | 429 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:growthStage |
-| native | soc-kg/main/:sockg_growthStage |
-
+* [https://lod.nal.usda.gov/nalt/7140](https://lod.nal.usda.gov/nalt/7140)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_growthStage
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 17240 occurrences with subject type sockg:Harvest and object type string.
-- 6683 occurrences with subject type sockg:Grazing and object type string.
-- 6723 occurrences with subject type sockg:BioMassMineral and object type string.
-- 2791 occurrences with subject type sockg:NutrientEfficiency and object type string.
-- 9407 occurrences with subject type sockg:HarvestFraction and object type string.
-- 4896 occurrences with subject type sockg:CropGrowthStage and object type string.
-- 1367 occurrences with subject type sockg:BioMassCarbohydrate and object type string.
-- 799 occurrences with subject type sockg:BioMassEnergy and object type string.
-- 1116 occurrences with subject type sockg:Harvest and object type xsd:double.
-- 667 occurrences with subject type sockg:WaterQualityConc and object type xsd:double.
-- 812 occurrences with subject type sockg:WaterQualityConc and object type string.
-- 684 occurrences with subject type sockg:GasNutrientLoss and object type xsd:double.
-- 667 occurrences with subject type sockg:WaterQualityArea and object type xsd:double.
-- 312 occurrences with subject type sockg:Grazing and object type xsd:double.
-- 429 occurrences with subject type sockg:YieldNutrientUptake and object type string.
-- 64 occurrences with subject type sockg:GasNutrientLoss and object type string.
-- 15 occurrences with subject type sockg:WindErosionArea and object type string.
-- 63 occurrences with subject type sockg:HarvestFraction and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 51226
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#179594 sockg:growthStage Maturity
-- value: neo4j://graph.individuals#169328 sockg:growthStage Maturity
-- value: neo4j://graph.individuals#42420 sockg:growthStage Maturity
-- value: neo4j://graph.individuals#201140 sockg:growthStage Maturity
-- value: neo4j://graph.individuals#192092 sockg:growthStage Maturity
-- value: neo4j://graph.individuals#48294 sockg:growthStage V8
-- value: neo4j://graph.individuals#38319 sockg:growthStage Harvest
-- value: neo4j://graph.individuals#39266 sockg:growthStage Harvest
-- value: neo4j://graph.individuals#181402 sockg:growthStage nan
-- value: neo4j://graph.individuals#361570 sockg:growthStage nan
-- value: neo4j://graph.individuals#360617 sockg:growthStage Pre-graze
-- value: neo4j://graph.individuals#55868 sockg:growthStage nan
-- value: neo4j://graph.individuals#360003 sockg:growthStage nan
-- value: neo4j://graph.individuals#170558 sockg:growthStage nan
-- value: neo4j://graph.individuals#509424 sockg:growthStage Harvest
-- value: neo4j://graph.individuals#56329 sockg:growthStage Pre-graze
-- value: neo4j://graph.individuals#509305 sockg:growthStage Pre-graze
-- value: neo4j://graph.individuals#194095 sockg:growthStage nan
-from_schema: soc-kg/main
+- object:
+    example_object: Maturity
+    example_object_type: string
+    example_predicate: sockg:growthStage
+    example_subject: sockg:individuals/163960
+    example_subject_type: sockg_Grazing
+- object:
+    example_object: Harvest
+    example_object_type: string
+    example_predicate: sockg:growthStage
+    example_subject: sockg:individuals/172911
+    example_subject_type: sockg_Harvest
+- object:
+    example_object: V7
+    example_object_type: string
+    example_predicate: sockg:growthStage
+    example_subject: sockg:individuals/191262
+    example_subject_type: sockg_HarvestFraction
+- object:
+    example_object: Maturity
+    example_object_type: string
+    example_predicate: sockg:growthStage
+    example_subject: sockg:individuals/37796
+    example_subject_type: sockg_BioMassCarbohydrate
+- object:
+    example_object: Harvest
+    example_object_type: string
+    example_predicate: sockg:growthStage
+    example_subject: sockg:individuals/39163
+    example_subject_type: sockg_BioMassEnergy
+- object:
+    example_object: Maturity
+    example_object_type: string
+    example_predicate: sockg:growthStage
+    example_subject: sockg:individuals/39962
+    example_subject_type: sockg_BioMassMineral
+- object:
+    example_object: R6
+    example_object_type: string
+    example_predicate: sockg:growthStage
+    example_subject: sockg:individuals/46937
+    example_subject_type: sockg_CropGrowthStage
+- object:
+    example_object: Maturity
+    example_object_type: string
+    example_predicate: sockg:growthStage
+    example_subject: sockg:individuals/200732
+    example_subject_type: sockg_NutrientEfficiency
+- object:
+    example_object: Pre-graze
+    example_object_type: string
+    example_predicate: sockg:growthStage
+    example_subject: sockg:individuals/364993
+    example_subject_type: sockg_WaterQualityConc
+- object:
+    example_object: Pre-graze
+    example_object_type: string
+    example_predicate: sockg:growthStage
+    example_subject: sockg:individuals/55858
+    example_subject_type: sockg_GasNutrientLoss
+- object:
+    example_object: Pre-graze
+    example_object_type: string
+    example_predicate: sockg:growthStage
+    example_subject: sockg:individuals/624572
+    example_subject_type: sockg_WindErosionArea
+- object:
+    example_object: Harvest
+    example_object_type: string
+    example_predicate: sockg:growthStage
+    example_subject: sockg:individuals/624587
+    example_subject_type: sockg_YieldNutrientUptake
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/7140
 rank: 1000
 slot_uri: sockg:growthStage
 alias: sockg_growthStage
@@ -190,14 +180,24 @@ domain_of:
 - sockg_Harvest
 - sockg_HarvestFraction
 - sockg_NutrientEfficiency
-- sockg_WaterQualityArea
 - sockg_WaterQualityConc
 - sockg_WindErosionArea
 - sockg_YieldNutrientUptake
-range: Any
-any_of:
-- range: string
-- range: double
+union_of:
+- '{''domain'': ''sockg_WaterQualityArea''}'
+- '{''domain'': ''sockg_NutrientEfficiency''}'
+- '{''domain'': ''sockg_BioMassEnergy''}'
+- '{''domain'': ''sockg_HarvestFraction''}'
+- '{''domain'': ''sockg_WaterQualityConc''}'
+- '{''domain'': ''sockg_Harvest''}'
+- '{''domain'': ''sockg_WindErosionArea''}'
+- '{''domain'': ''sockg_BioMassMineral''}'
+- '{''domain'': ''sockg_GasNutrientLoss''}'
+- '{''domain'': ''sockg_Grazing''}'
+- '{''domain'': ''sockg_CropGrowthStage''}'
+- '{''domain'': ''sockg_YieldNutrientUptake''}'
+- '{''domain'': ''sockg_BioMassCarbohydrate''}'
+range: string
 
 ```
 </details>

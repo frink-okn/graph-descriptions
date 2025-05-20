@@ -3,13 +3,17 @@
 # Slot: sockg_soilMoistureDepth_cm
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:soilMoistureDepth_cm](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/soilMoistureDepth_cm)
+
+This slot occurs 107354 times.
+
+
+URI: [sockg:soilMoistureDepth_cm](https://idir.uta.edu/sockg-ontology/docs/soilMoistureDepth_cm)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:soilMoistureDepth_cm](http://www.semanticweb.org/sockg/ontologies/20
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGasSample](../classes/SockgGasSample.md) | No type description provided |  no  |
+| [SockgGasSample](../classes/SockgGasSample.md) | GasSample represents a collection of measurements related to greenhouse gas e... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:soilMoistureDepth_cm](http://www.semanticweb.org/sockg/ontologies/20
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#113827 sockg:soilMoistureDepth_cm 0 |
-
-## Comments
-
-* 107354 occurrences with subject type sockg:GasSample and object type xsd:long.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:soilMoistureDepth_cm |
-| native | soc-kg/main/:sockg_soilMoistureDepth_cm |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_GasSample | integer | sockg:individuals/100000 | 6 | 107354 |
 
 
 
@@ -85,18 +56,22 @@ URI: [sockg:soilMoistureDepth_cm](http://www.semanticweb.org/sockg/ontologies/20
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_soilMoistureDepth_cm
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 107354 occurrences with subject type sockg:GasSample and object type xsd:long.
+annotations:
+  count:
+    tag: count
+    value: 107354
+description: No slot (predicate) description specified
 examples:
-- value: neo4j://graph.individuals#113827 sockg:soilMoistureDepth_cm 0
-from_schema: soc-kg/main
+- object:
+    example_object: '6'
+    example_object_type: integer
+    example_predicate: sockg:soilMoistureDepth_cm
+    example_subject: sockg:individuals/100000
+    example_subject_type: sockg_GasSample
+from_schema: soc-kg
 rank: 1000
 slot_uri: sockg:soilMoistureDepth_cm
 alias: sockg_soilMoistureDepth_cm

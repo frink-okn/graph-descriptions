@@ -1,15 +1,19 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (sockg_WeatherObservation)
+# Class: No class (entity type) name specified (sockg_WeatherObservation)
 
 
-_No type description provided_
+_The WeatherObservation class captures daily meteorological data that are crucial for understanding the impact of weather conditions on agricultural practices. It includes measurements that help in assessing soil health, crop growth, and overall farm productivity._
 
 
 
 
 
-URI: [sockg:WeatherObservation](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/WeatherObservation)
+
+This class occurs 147305 times.
+
+
+URI: [sockg:WeatherObservation](https://idir.uta.edu/sockg-ontology/docs/WeatherObservation)
 
 
 
@@ -20,22 +24,22 @@ URI: [sockg:WeatherObservation](http://www.semanticweb.org/sockg/ontologies/2024
  classDiagram
     class SockgWeatherObservation
     click SockgWeatherObservation href "../SockgWeatherObservation"
+      SockgWeatherObservation : rdfs_seeAlso
+        
+          
+    
+    
+    SockgWeatherObservation --> "0..1" Uri : rdfs_seeAlso
+    click Uri href "../Uri"
+
+        
       SockgWeatherObservation : sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d
         
           
     
     
-    SockgWeatherObservation --> "0..1" Double : sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d
-    click Double href "../Double"
-
-        
-      SockgWeatherObservation : sockg_closedPanEvaporation_mm_per_d
-        
-          
-    
-    
-    SockgWeatherObservation --> "0..1" Double : sockg_closedPanEvaporation_mm_per_d
-    click Double href "../Double"
+    SockgWeatherObservation --> "0..1" Any : sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d
+    click Any href "../Any"
 
         
       SockgWeatherObservation : sockg_date
@@ -47,13 +51,22 @@ URI: [sockg:WeatherObservation](http://www.semanticweb.org/sockg/ontologies/2024
     click Any href "../Any"
 
         
+      SockgWeatherObservation : sockg_dewPointDegc
+        
+          
+    
+    
+    SockgWeatherObservation --> "0..1" Double : sockg_dewPointDegc
+    click Double href "../Double"
+
+        
       SockgWeatherObservation : sockg_openPanEvaporation_mm_per_d
         
           
     
     
-    SockgWeatherObservation --> "0..1" Double : sockg_openPanEvaporation_mm_per_d
-    click Double href "../Double"
+    SockgWeatherObservation --> "0..1" Any : sockg_openPanEvaporation_mm_per_d
+    click Any href "../Any"
 
         
       SockgWeatherObservation : sockg_precipitation_mm_per_d
@@ -61,8 +74,8 @@ URI: [sockg:WeatherObservation](http://www.semanticweb.org/sockg/ontologies/2024
           
     
     
-    SockgWeatherObservation --> "0..1" Double : sockg_precipitation_mm_per_d
-    click Double href "../Double"
+    SockgWeatherObservation --> "0..1" Any : sockg_precipitation_mm_per_d
+    click Any href "../Any"
 
         
       SockgWeatherObservation : sockg_relativeHumidityPercent
@@ -70,17 +83,8 @@ URI: [sockg:WeatherObservation](http://www.semanticweb.org/sockg/ontologies/2024
           
     
     
-    SockgWeatherObservation --> "0..1" Double : sockg_relativeHumidityPercent
-    click Double href "../Double"
-
-        
-      SockgWeatherObservation : sockg_snow_mm_per_d
-        
-          
-    
-    
-    SockgWeatherObservation --> "0..1" Double : sockg_snow_mm_per_d
-    click Double href "../Double"
+    SockgWeatherObservation --> "0..1" Any : sockg_relativeHumidityPercent
+    click Any href "../Any"
 
         
       SockgWeatherObservation : sockg_soilTemp10cm_degC
@@ -88,8 +92,8 @@ URI: [sockg:WeatherObservation](http://www.semanticweb.org/sockg/ontologies/2024
           
     
     
-    SockgWeatherObservation --> "0..1" Double : sockg_soilTemp10cm_degC
-    click Double href "../Double"
+    SockgWeatherObservation --> "0..1" Any : sockg_soilTemp10cm_degC
+    click Any href "../Any"
 
         
       SockgWeatherObservation : sockg_soilTemp5cm_degC
@@ -97,8 +101,8 @@ URI: [sockg:WeatherObservation](http://www.semanticweb.org/sockg/ontologies/2024
           
     
     
-    SockgWeatherObservation --> "0..1" Double : sockg_soilTemp5cm_degC
-    click Double href "../Double"
+    SockgWeatherObservation --> "0..1" Any : sockg_soilTemp5cm_degC
+    click Any href "../Any"
 
         
       SockgWeatherObservation : sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d
@@ -106,8 +110,8 @@ URI: [sockg:WeatherObservation](http://www.semanticweb.org/sockg/ontologies/2024
           
     
     
-    SockgWeatherObservation --> "0..1" Double : sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d
-    click Double href "../Double"
+    SockgWeatherObservation --> "0..1" Any : sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d
+    click Any href "../Any"
 
         
       SockgWeatherObservation : sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d
@@ -115,8 +119,8 @@ URI: [sockg:WeatherObservation](http://www.semanticweb.org/sockg/ontologies/2024
           
     
     
-    SockgWeatherObservation --> "0..1" Double : sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d
-    click Double href "../Double"
+    SockgWeatherObservation --> "0..1" Any : sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d
+    click Any href "../Any"
 
         
       SockgWeatherObservation : sockg_tempMax_degC
@@ -124,8 +128,8 @@ URI: [sockg:WeatherObservation](http://www.semanticweb.org/sockg/ontologies/2024
           
     
     
-    SockgWeatherObservation --> "0..1" Double : sockg_tempMax_degC
-    click Double href "../Double"
+    SockgWeatherObservation --> "0..1" Any : sockg_tempMax_degC
+    click Any href "../Any"
 
         
       SockgWeatherObservation : sockg_tempMin_degC
@@ -133,7 +137,16 @@ URI: [sockg:WeatherObservation](http://www.semanticweb.org/sockg/ontologies/2024
           
     
     
-    SockgWeatherObservation --> "0..1" Double : sockg_tempMin_degC
+    SockgWeatherObservation --> "0..1" Any : sockg_tempMin_degC
+    click Any href "../Any"
+
+        
+      SockgWeatherObservation : sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
+        
+          
+    
+    
+    SockgWeatherObservation --> "0..1" Double : sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
     click Double href "../Double"
 
         
@@ -151,8 +164,8 @@ URI: [sockg:WeatherObservation](http://www.semanticweb.org/sockg/ontologies/2024
           
     
     
-    SockgWeatherObservation --> "0..1" Double : sockg_weatherBadValueFlag
-    click Double href "../Double"
+    SockgWeatherObservation --> "0..1" Any : sockg_weatherBadValueFlag
+    click Any href "../Any"
 
         
       SockgWeatherObservation : sockg_weatherDaily_UID
@@ -173,13 +186,22 @@ URI: [sockg:WeatherObservation](http://www.semanticweb.org/sockg/ontologies/2024
     click SockgSite href "../SockgSite"
 
         
+      SockgWeatherObservation : sockg_weatherStationId
+        
+          
+    
+    
+    SockgWeatherObservation --> "0..1" String : sockg_weatherStationId
+    click String href "../String"
+
+        
       SockgWeatherObservation : sockg_windDirectionDegFromNorth
         
           
     
     
-    SockgWeatherObservation --> "0..1" Double : sockg_windDirectionDegFromNorth
-    click Double href "../Double"
+    SockgWeatherObservation --> "0..1" Any : sockg_windDirectionDegFromNorth
+    click Any href "../Any"
 
         
       SockgWeatherObservation : sockg_windSpeed_m_per_s
@@ -187,8 +209,8 @@ URI: [sockg:WeatherObservation](http://www.semanticweb.org/sockg/ontologies/2024
           
     
     
-    SockgWeatherObservation --> "0..1" Double : sockg_windSpeed_m_per_s
-    click Double href "../Double"
+    SockgWeatherObservation --> "0..1" Any : sockg_windSpeed_m_per_s
+    click Any href "../Any"
 
         
       
@@ -202,27 +224,29 @@ URI: [sockg:WeatherObservation](http://www.semanticweb.org/sockg/ontologies/2024
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [sockg_weatherRecordedAt](../slots/sockg_weatherRecordedAt.md) | 0..1 <br/> [SockgSite](../classes/SockgSite.md) | No slot description provided | direct |
-| [sockg_weatherAtField](../slots/sockg_weatherAtField.md) | 0..1 <br/> [SockgField](../classes/SockgField.md) | No slot description provided | direct |
-| [sockg_windSpeed_m_per_s](../slots/sockg_windSpeed_m_per_s.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_precipitation_mm_per_d](../slots/sockg_precipitation_mm_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_tempMax_degC](../slots/sockg_tempMax_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_weatherBadValueFlag](../slots/sockg_weatherBadValueFlag.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_windDirectionDegFromNorth](../slots/sockg_windDirectionDegFromNorth.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d](../slots/sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_relativeHumidityPercent](../slots/sockg_relativeHumidityPercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_soilTemp5cm_degC](../slots/sockg_soilTemp5cm_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_snow_mm_per_d](../slots/sockg_snow_mm_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d](../slots/sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_closedPanEvaporation_mm_per_d](../slots/sockg_closedPanEvaporation_mm_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_tempMin_degC](../slots/sockg_tempMin_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_openPanEvaporation_mm_per_d](../slots/sockg_openPanEvaporation_mm_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d](../slots/sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_weatherDaily_UID](../slots/sockg_weatherDaily_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
-| [sockg_soilTemp10cm_degC](../slots/sockg_soilTemp10cm_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
+| [sockg_weatherStationId](../slots/sockg_weatherStationId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 38363 |
+| [sockg_precipitation_mm_per_d](../slots/sockg_precipitation_mm_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 147232 |
+| [sockg_dewPointDegc](../slots/sockg_dewPointDegc.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 121030 |
+| [sockg_openPanEvaporation_mm_per_d](../slots/sockg_openPanEvaporation_mm_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 131522 |
+| [sockg_soilTemp10cm_degC](../slots/sockg_soilTemp10cm_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 138926 |
+| [sockg_weatherRecordedAt](../slots/sockg_weatherRecordedAt.md) | 0..1 <br/> [SockgSite](../classes/SockgSite.md) | No slot (predicate) description specified <br/>  | direct | 149473 |
+| [sockg_weatherAtField](../slots/sockg_weatherAtField.md) | 0..1 <br/> [SockgField](../classes/SockgField.md) | No slot (predicate) description specified <br/>  | direct | 147305 |
+| [sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d](../slots/sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 119985 |
+| [sockg_tempMax_degC](../slots/sockg_tempMax_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 144885 |
+| [sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d](../slots/sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 8195 |
+| [sockg_weatherDaily_UID](../slots/sockg_weatherDaily_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 147305 |
+| [sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d](../slots/sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 954 |
+| [sockg_windSpeed_m_per_s](../slots/sockg_windSpeed_m_per_s.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 92684 |
+| [sockg_relativeHumidityPercent](../slots/sockg_relativeHumidityPercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 138705 |
+| [sockg_soilTemp5cm_degC](../slots/sockg_soilTemp5cm_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 44409 |
+| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 147304 |
+| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 147305 |
+| [sockg_windDirectionDegFromNorth](../slots/sockg_windDirectionDegFromNorth.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 51210 |
+| [sockg_tempMin_degC](../slots/sockg_tempMin_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 144828 |
+| [sockg_weatherBadValueFlag](../slots/sockg_weatherBadValueFlag.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 1824 |
+| [sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d](../slots/sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 38763 |
 
 
 
@@ -232,6 +256,22 @@ URI: [sockg:WeatherObservation](http://www.semanticweb.org/sockg/ontologies/2024
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_precipitation_mm_per_d](../slots/sockg_precipitation_mm_per_d.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_openPanEvaporation_mm_per_d](../slots/sockg_openPanEvaporation_mm_per_d.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_soilTemp10cm_degC](../slots/sockg_soilTemp10cm_degC.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_weatherRecordedAt](../slots/sockg_weatherRecordedAt.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_weatherAtField](../slots/sockg_weatherAtField.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d](../slots/sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_tempMax_degC](../slots/sockg_tempMax_degC.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_weatherDaily_UID](../slots/sockg_weatherDaily_UID.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d](../slots/sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_windSpeed_m_per_s](../slots/sockg_windSpeed_m_per_s.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_relativeHumidityPercent](../slots/sockg_relativeHumidityPercent.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_soilTemp5cm_degC](../slots/sockg_soilTemp5cm_degC.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_windDirectionDegFromNorth](../slots/sockg_windDirectionDegFromNorth.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_tempMin_degC](../slots/sockg_tempMin_degC.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_weatherBadValueFlag](../slots/sockg_weatherBadValueFlag.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d](../slots/sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
 | [SockgWeatherStation](../classes/SockgWeatherStation.md) | [sockg_weatherRecordedBy](../slots/sockg_weatherRecordedBy.md) | range | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
 
 
@@ -239,42 +279,9 @@ URI: [sockg:WeatherObservation](http://www.semanticweb.org/sockg/ontologies/2024
 
 
 
+## See Also
 
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#463448 |
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:WeatherObservation |
-| native | soc-kg/main/:SockgWeatherObservation |
-
+* [https://lod.nal.usda.gov/nalt/5862](https://lod.nal.usda.gov/nalt/5862)
 
 
 
@@ -288,40 +295,172 @@ URI: [sockg:WeatherObservation](http://www.semanticweb.org/sockg/ontologies/2024
 ### Direct
 
 <details>
+
 ```yaml
 name: sockg_WeatherObservation
-description: No type description provided
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- There are 147305 instances of this class.
-examples:
-- value: neo4j://graph.individuals#463448
-from_schema: soc-kg/main
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 147305
+description: The WeatherObservation class captures daily meteorological data that
+  are crucial for understanding the impact of weather conditions on agricultural practices.
+  It includes measurements that help in assessing soil health, crop growth, and overall
+  farm productivity.
+title: No class (entity type) name specified
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/5862
 rank: 1000
 slots:
+- sockg_weatherStationId
+- sockg_precipitation_mm_per_d
+- sockg_dewPointDegc
+- sockg_openPanEvaporation_mm_per_d
+- sockg_soilTemp10cm_degC
 - sockg_weatherRecordedAt
 - sockg_weatherAtField
-- sockg_windSpeed_m_per_s
-- sockg_precipitation_mm_per_d
+- sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d
 - sockg_tempMax_degC
-- sockg_weatherBadValueFlag
-- sockg_windDirectionDegFromNorth
+- sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
+- sockg_weatherDaily_UID
 - sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d
+- sockg_windSpeed_m_per_s
 - sockg_relativeHumidityPercent
 - sockg_soilTemp5cm_degC
-- sockg_snow_mm_per_d
 - sockg_date
-- sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d
-- sockg_closedPanEvaporation_mm_per_d
+- rdfs_seeAlso
+- sockg_windDirectionDegFromNorth
 - sockg_tempMin_degC
-- sockg_openPanEvaporation_mm_per_d
-- sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d
-- sockg_weatherDaily_UID
-- sockg_soilTemp10cm_degC
+- sockg_weatherBadValueFlag
+- sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d
+slot_usage:
+  rdfs_seeAlso:
+    name: rdfs_seeAlso
+    annotations:
+      uri:
+        tag: uri
+        value: 147305
+  sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d:
+    name: sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d
+    annotations:
+      double:
+        tag: double
+        value: 954
+  sockg_date:
+    name: sockg_date
+    annotations:
+      string:
+        tag: string
+        value: 147304
+  sockg_dewPointDegc:
+    name: sockg_dewPointDegc
+    annotations:
+      double:
+        tag: double
+        value: 121030
+  sockg_openPanEvaporation_mm_per_d:
+    name: sockg_openPanEvaporation_mm_per_d
+    annotations:
+      double:
+        tag: double
+        value: 131522
+  sockg_precipitation_mm_per_d:
+    name: sockg_precipitation_mm_per_d
+    annotations:
+      double:
+        tag: double
+        value: 147232
+  sockg_relativeHumidityPercent:
+    name: sockg_relativeHumidityPercent
+    annotations:
+      double:
+        tag: double
+        value: 138705
+  sockg_soilTemp10cm_degC:
+    name: sockg_soilTemp10cm_degC
+    annotations:
+      double:
+        tag: double
+        value: 138926
+  sockg_soilTemp5cm_degC:
+    name: sockg_soilTemp5cm_degC
+    annotations:
+      double:
+        tag: double
+        value: 44409
+  sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d:
+    name: sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d
+    annotations:
+      double:
+        tag: double
+        value: 38763
+  sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d:
+    name: sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d
+    annotations:
+      double:
+        tag: double
+        value: 119985
+  sockg_tempMax_degC:
+    name: sockg_tempMax_degC
+    annotations:
+      double:
+        tag: double
+        value: 144885
+  sockg_tempMin_degC:
+    name: sockg_tempMin_degC
+    annotations:
+      double:
+        tag: double
+        value: 144828
+  sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d:
+    name: sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
+    annotations:
+      double:
+        tag: double
+        value: 8195
+  sockg_weatherAtField:
+    name: sockg_weatherAtField
+    annotations:
+      sockg_Field:
+        tag: sockg_Field
+        value: 147305
+  sockg_weatherBadValueFlag:
+    name: sockg_weatherBadValueFlag
+    annotations:
+      double:
+        tag: double
+        value: 1824
+  sockg_weatherDaily_UID:
+    name: sockg_weatherDaily_UID
+    annotations:
+      string:
+        tag: string
+        value: 147305
+  sockg_weatherRecordedAt:
+    name: sockg_weatherRecordedAt
+    annotations:
+      sockg_Site:
+        tag: sockg_Site
+        value: 149473
+  sockg_weatherStationId:
+    name: sockg_weatherStationId
+    annotations:
+      string:
+        tag: string
+        value: 38363
+  sockg_windDirectionDegFromNorth:
+    name: sockg_windDirectionDegFromNorth
+    annotations:
+      double:
+        tag: double
+        value: 51210
+  sockg_windSpeed_m_per_s:
+    name: sockg_windSpeed_m_per_s
+    annotations:
+      double:
+        tag: double
+        value: 92684
 class_uri: sockg:WeatherObservation
 
 ```
@@ -330,35 +469,307 @@ class_uri: sockg:WeatherObservation
 ### Induced
 
 <details>
+
 ```yaml
 name: sockg_WeatherObservation
-description: No type description provided
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- There are 147305 instances of this class.
-examples:
-- value: neo4j://graph.individuals#463448
-from_schema: soc-kg/main
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 147305
+description: The WeatherObservation class captures daily meteorological data that
+  are crucial for understanding the impact of weather conditions on agricultural practices.
+  It includes measurements that help in assessing soil health, crop growth, and overall
+  farm productivity.
+title: No class (entity type) name specified
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/5862
 rank: 1000
-attributes:
+slot_usage:
+  rdfs_seeAlso:
+    name: rdfs_seeAlso
+    annotations:
+      uri:
+        tag: uri
+        value: 147305
+  sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d:
+    name: sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d
+    annotations:
+      double:
+        tag: double
+        value: 954
+  sockg_date:
+    name: sockg_date
+    annotations:
+      string:
+        tag: string
+        value: 147304
+  sockg_dewPointDegc:
+    name: sockg_dewPointDegc
+    annotations:
+      double:
+        tag: double
+        value: 121030
+  sockg_openPanEvaporation_mm_per_d:
+    name: sockg_openPanEvaporation_mm_per_d
+    annotations:
+      double:
+        tag: double
+        value: 131522
+  sockg_precipitation_mm_per_d:
+    name: sockg_precipitation_mm_per_d
+    annotations:
+      double:
+        tag: double
+        value: 147232
+  sockg_relativeHumidityPercent:
+    name: sockg_relativeHumidityPercent
+    annotations:
+      double:
+        tag: double
+        value: 138705
+  sockg_soilTemp10cm_degC:
+    name: sockg_soilTemp10cm_degC
+    annotations:
+      double:
+        tag: double
+        value: 138926
+  sockg_soilTemp5cm_degC:
+    name: sockg_soilTemp5cm_degC
+    annotations:
+      double:
+        tag: double
+        value: 44409
+  sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d:
+    name: sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d
+    annotations:
+      double:
+        tag: double
+        value: 38763
+  sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d:
+    name: sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d
+    annotations:
+      double:
+        tag: double
+        value: 119985
+  sockg_tempMax_degC:
+    name: sockg_tempMax_degC
+    annotations:
+      double:
+        tag: double
+        value: 144885
+  sockg_tempMin_degC:
+    name: sockg_tempMin_degC
+    annotations:
+      double:
+        tag: double
+        value: 144828
+  sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d:
+    name: sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
+    annotations:
+      double:
+        tag: double
+        value: 8195
+  sockg_weatherAtField:
+    name: sockg_weatherAtField
+    annotations:
+      sockg_Field:
+        tag: sockg_Field
+        value: 147305
+  sockg_weatherBadValueFlag:
+    name: sockg_weatherBadValueFlag
+    annotations:
+      double:
+        tag: double
+        value: 1824
+  sockg_weatherDaily_UID:
+    name: sockg_weatherDaily_UID
+    annotations:
+      string:
+        tag: string
+        value: 147305
   sockg_weatherRecordedAt:
     name: sockg_weatherRecordedAt
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 149473 occurrences with subject type sockg:WeatherObservation and object type
-      sockg:Site.
+    annotations:
+      sockg_Site:
+        tag: sockg_Site
+        value: 149473
+  sockg_weatherStationId:
+    name: sockg_weatherStationId
+    annotations:
+      string:
+        tag: string
+        value: 38363
+  sockg_windDirectionDegFromNorth:
+    name: sockg_windDirectionDegFromNorth
+    annotations:
+      double:
+        tag: double
+        value: 51210
+  sockg_windSpeed_m_per_s:
+    name: sockg_windSpeed_m_per_s
+    annotations:
+      double:
+        tag: double
+        value: 92684
+attributes:
+  sockg_weatherStationId:
+    name: sockg_weatherStationId
+    annotations:
+      string:
+        tag: string
+        value: 38363
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#391269 sockg:weatherRecordedAt neo4j://graph.individuals#230693
-    from_schema: soc-kg/main
+    - object:
+        example_object: MEADAGROFARM
+        example_object_type: string
+        example_predicate: sockg:weatherStationId
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    - object:
+        example_object: MEADAGROFARM
+        example_object_type: string
+        example_predicate: sockg:weatherStationId
+        example_subject: sockg:individuals/588342
+        example_subject_type: sockg_WeatherStation
+    from_schema: soc-kg
     rank: 1000
+    domain: sockg_WeatherStation
+    slot_uri: sockg:weatherStationId
+    alias: sockg_weatherStationId
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    - sockg_WeatherStation
+    range: string
+  sockg_precipitation_mm_per_d:
+    name: sockg_precipitation_mm_per_d
+    annotations:
+      double:
+        tag: double
+        value: 147232
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '0.0'
+        example_object_type: double
+        example_predicate: sockg:precipitation_mm_per_d
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/44298
+    rank: 1000
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:precipitation_mm_per_d
+    alias: sockg_precipitation_mm_per_d
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: Any
+    any_of:
+    - range: double
+    - range: float
+  sockg_dewPointDegc:
+    name: sockg_dewPointDegc
+    annotations:
+      double:
+        tag: double
+        value: 121030
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '0.0'
+        example_object_type: double
+        example_predicate: sockg:dewPointDegc
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:dewPointDegc
+    alias: sockg_dewPointDegc
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: double
+  sockg_openPanEvaporation_mm_per_d:
+    name: sockg_openPanEvaporation_mm_per_d
+    annotations:
+      double:
+        tag: double
+        value: 131522
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '3.3'
+        example_object_type: double
+        example_predicate: sockg:openPanEvaporation_mm_per_d
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:openPanEvaporation_mm_per_d
+    alias: sockg_openPanEvaporation_mm_per_d
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: Any
+    any_of:
+    - range: double
+    - range: float
+  sockg_soilTemp10cm_degC:
+    name: sockg_soilTemp10cm_degC
+    annotations:
+      double:
+        tag: double
+        value: 138926
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '12.3'
+        example_object_type: double
+        example_predicate: sockg:soilTemp10cm_degC
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/61641
+    rank: 1000
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:soilTemp10cm_degC
+    alias: sockg_soilTemp10cm_degC
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: Any
+    any_of:
+    - range: double
+    - range: float
+  sockg_weatherRecordedAt:
+    name: sockg_weatherRecordedAt
+    annotations:
+      sockg_Site:
+        tag: sockg_Site
+        value: 149473
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/231084
+        example_object_type: sockg_Site
+        example_predicate: sockg:weatherRecordedAt
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_WeatherObservation
     slot_uri: sockg:weatherRecordedAt
     alias: sockg_weatherRecordedAt
     owner: sockg_WeatherObservation
@@ -367,265 +778,386 @@ attributes:
     range: sockg_Site
   sockg_weatherAtField:
     name: sockg_weatherAtField
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 147305 occurrences with subject type sockg:WeatherObservation and object type
-      sockg:Field.
+    annotations:
+      sockg_Field:
+        tag: sockg_Field
+        value: 147305
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#507965 sockg:weatherAtField neo4j://graph.individuals#55588
-    from_schema: soc-kg/main
+    - object:
+        example_object: sockg:individuals/55827
+        example_object_type: sockg_Field
+        example_predicate: sockg:weatherAtField
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
     rank: 1000
+    domain: sockg_WeatherObservation
     slot_uri: sockg:weatherAtField
     alias: sockg_weatherAtField
     owner: sockg_WeatherObservation
     domain_of:
     - sockg_WeatherObservation
     range: sockg_Field
-  sockg_windSpeed_m_per_s:
-    name: sockg_windSpeed_m_per_s
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 147305 occurrences with subject type sockg:WeatherObservation and object type
-      xsd:double.
+  sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d:
+    name: sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d
+    annotations:
+      double:
+        tag: double
+        value: 119985
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#384160 sockg:windSpeed_m_per_s 6.557
-    from_schema: soc-kg/main
+    - object:
+        example_object: '0.0'
+        example_object_type: double
+        example_predicate: sockg:solarRadiationVegetatedGround_MJ_per_m_squared_per_d
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/47447
     rank: 1000
-    slot_uri: sockg:windSpeed_m_per_s
-    alias: sockg_windSpeed_m_per_s
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:solarRadiationVegetatedGround_MJ_per_m_squared_per_d
+    alias: sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d
     owner: sockg_WeatherObservation
     domain_of:
     - sockg_WeatherObservation
-    range: double
-  sockg_precipitation_mm_per_d:
-    name: sockg_precipitation_mm_per_d
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 147305 occurrences with subject type sockg:WeatherObservation and object type
-      xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#383705 sockg:precipitation_mm_per_d 0.0
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:precipitation_mm_per_d
-    alias: sockg_precipitation_mm_per_d
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: double
+    range: Any
+    any_of:
+    - range: double
+    - range: float
   sockg_tempMax_degC:
     name: sockg_tempMax_degC
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 147305 occurrences with subject type sockg:WeatherObservation and object type
-      xsd:double.
+    annotations:
+      double:
+        tag: double
+        value: 144885
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#394986 sockg:tempMax_degC -8.5
-    from_schema: soc-kg/main
+    - object:
+        example_object: '18.7'
+        example_object_type: double
+        example_predicate: sockg:tempMax_degC
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/5859
     rank: 1000
+    domain: sockg_WeatherObservation
     slot_uri: sockg:tempMax_degC
     alias: sockg_tempMax_degC
     owner: sockg_WeatherObservation
     domain_of:
     - sockg_WeatherObservation
-    range: double
-  sockg_weatherBadValueFlag:
-    name: sockg_weatherBadValueFlag
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 147305 occurrences with subject type sockg:WeatherObservation and object type
-      xsd:double.
+    range: Any
+    any_of:
+    - range: double
+    - range: float
+  sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d:
+    name: sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
+    annotations:
+      double:
+        tag: double
+        value: 8195
+    description: No slot (predicate) description specified
     examples:
-    - value: neo4j://graph.individuals#369287 sockg:weatherBadValueFlag nan
-    from_schema: soc-kg/main
+    - object:
+        example_object: '3.964'
+        example_object_type: double
+        example_predicate: sockg:totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
+        example_subject: sockg:individuals/366472
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
     rank: 1000
-    slot_uri: sockg:weatherBadValueFlag
-    alias: sockg_weatherBadValueFlag
+    slot_uri: sockg:totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
+    alias: sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
     owner: sockg_WeatherObservation
     domain_of:
     - sockg_WeatherObservation
     range: double
-  sockg_windDirectionDegFromNorth:
-    name: sockg_windDirectionDegFromNorth
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 147305 occurrences with subject type sockg:WeatherObservation and object type
-      xsd:double.
+  sockg_weatherDaily_UID:
+    name: sockg_weatherDaily_UID
+    annotations:
+      string:
+        tag: string
+        value: 147305
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#466075 sockg:windDirectionDegFromNorth nan
-    from_schema: soc-kg/main
+    - object:
+        example_object: AgCros_NEMEIRR_2015-10-25
+        example_object_type: string
+        example_predicate: sockg:weatherDaily_UID
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
     rank: 1000
-    slot_uri: sockg:windDirectionDegFromNorth
-    alias: sockg_windDirectionDegFromNorth
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:weatherDaily_UID
+    alias: sockg_weatherDaily_UID
     owner: sockg_WeatherObservation
     domain_of:
     - sockg_WeatherObservation
-    range: double
+    range: string
   sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d:
     name: sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 147305 occurrences with subject type sockg:WeatherObservation and object type
-      xsd:double.
+    annotations:
+      double:
+        tag: double
+        value: 954
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#447890 sockg:atmosphericNitrogenDeposition_kg_per_ha_per_d
-        nan
-    from_schema: soc-kg/main
+    - object:
+        example_object: '0.00178'
+        example_object_type: double
+        example_predicate: sockg:atmosphericNitrogenDeposition_kg_per_ha_per_d
+        example_subject: sockg:individuals/396018
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/2714
     rank: 1000
+    domain: sockg_WeatherObservation
     slot_uri: sockg:atmosphericNitrogenDeposition_kg_per_ha_per_d
     alias: sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d
     owner: sockg_WeatherObservation
     domain_of:
     - sockg_WeatherObservation
-    range: double
+    range: Any
+    any_of:
+    - range: double
+    - range: float
+  sockg_windSpeed_m_per_s:
+    name: sockg_windSpeed_m_per_s
+    annotations:
+      double:
+        tag: double
+        value: 92684
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '2.4'
+        example_object_type: double
+        example_predicate: sockg:windSpeed_m_per_s
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/4651
+    rank: 1000
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:windSpeed_m_per_s
+    alias: sockg_windSpeed_m_per_s
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: Any
+    any_of:
+    - range: double
+    - range: float
   sockg_relativeHumidityPercent:
     name: sockg_relativeHumidityPercent
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 147305 occurrences with subject type sockg:WeatherObservation and object type
-      xsd:double.
+    annotations:
+      double:
+        tag: double
+        value: 138705
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#504568 sockg:relativeHumidityPercent 0.0
-    from_schema: soc-kg/main
+    - object:
+        example_object: '60.27'
+        example_object_type: double
+        example_predicate: sockg:relativeHumidityPercent
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/46149
     rank: 1000
+    domain: sockg_WeatherObservation
     slot_uri: sockg:relativeHumidityPercent
     alias: sockg_relativeHumidityPercent
     owner: sockg_WeatherObservation
     domain_of:
     - sockg_WeatherObservation
-    range: double
+    range: Any
+    any_of:
+    - range: double
+    - range: float
   sockg_soilTemp5cm_degC:
     name: sockg_soilTemp5cm_degC
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 147305 occurrences with subject type sockg:WeatherObservation and object type
-      xsd:double.
+    annotations:
+      double:
+        tag: double
+        value: 44409
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#438034 sockg:soilTemp5cm_degC nan
-    from_schema: soc-kg/main
+    - object:
+        example_object: '-10.93'
+        example_object_type: double
+        example_predicate: sockg:soilTemp5cm_degC
+        example_subject: sockg:individuals/468806
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/61641
     rank: 1000
+    domain: sockg_WeatherObservation
     slot_uri: sockg:soilTemp5cm_degC
     alias: sockg_soilTemp5cm_degC
     owner: sockg_WeatherObservation
     domain_of:
     - sockg_WeatherObservation
-    range: double
-  sockg_snow_mm_per_d:
-    name: sockg_snow_mm_per_d
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 147305 occurrences with subject type sockg:WeatherObservation and object type
-      xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#410732 sockg:snow_mm_per_d nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:snow_mm_per_d
-    alias: sockg_snow_mm_per_d
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: double
+    range: Any
+    any_of:
+    - range: double
+    - range: float
   sockg_date:
     name: sockg_date
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 53833 occurrences with subject type sockg:SoilChemicalSample and object type
-      string.
-    - 147304 occurrences with subject type sockg:WeatherObservation and object type
-      string.
-    - 107354 occurrences with subject type sockg:GasSample and object type string.
-    - 28082 occurrences with subject type sockg:SoilPhysicalSample and object type
-      string.
-    - 6995 occurrences with subject type sockg:Grazing and object type string.
-    - 4896 occurrences with subject type sockg:CropGrowthStage and object type string.
-    - 18222 occurrences with subject type sockg:SoilBiologicalSample and object type
-      string.
-    - 18304 occurrences with subject type sockg:Harvest and object type string.
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type string.
-    - 3308 occurrences with subject type sockg:ResidueManagementEvent and object type
-      string.
-    - 2791 occurrences with subject type sockg:NutrientEfficiency and object type
-      string.
-    - 1367 occurrences with subject type sockg:BioMassCarbohydrate and object type
-      string.
-    - 1479 occurrences with subject type sockg:WaterQualityConc and object type string.
-    - 748 occurrences with subject type sockg:GasNutrientLoss and object type string.
-    - 1034 occurrences with subject type sockg:SoilCover and object type string.
-    - 429 occurrences with subject type sockg:YieldNutrientUptake and object type
-      string.
-    - 52 occurrences with subject type sockg:Harvest and object type xsd:double.
-    - 799 occurrences with subject type sockg:BioMassEnergy and object type string.
-    - 667 occurrences with subject type sockg:WaterQualityArea and object type string.
-    - 15 occurrences with subject type sockg:WindErosionArea and object type string.
-    - 1 occurrences with subject type sockg:WeatherObservation and object type xsd:double.
+    annotations:
+      string:
+        tag: string
+        value: 147304
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#294621 sockg:date 2008-11-19
-    - value: neo4j://graph.individuals#488503 sockg:date 2009-05-27
-    - value: neo4j://graph.individuals#85292 sockg:date 2011-07-01
-    - value: neo4j://graph.individuals#309598 sockg:date 1996-04-17
-    - value: neo4j://graph.individuals#165161 sockg:date 1994-07-12
-    - value: neo4j://graph.individuals#48449 sockg:date 2008-08-08
-    - value: neo4j://graph.individuals#243645 sockg:date 2001-01-24
-    - value: neo4j://graph.individuals#175155 sockg:date 1987-09-24
-    - value: neo4j://graph.individuals#41902 sockg:date 2008-10-16
-    - value: neo4j://graph.individuals#228638 sockg:date 2009-11-11
-    - value: neo4j://graph.individuals#203067 sockg:date 2004-09-17
-    - value: neo4j://graph.individuals#38588 sockg:date 2011-08-31
-    - value: neo4j://graph.individuals#361436 sockg:date 2012-04-23
-    - value: neo4j://graph.individuals#56011 sockg:date 2014-08-29
-    - value: neo4j://graph.individuals#303276 sockg:date 2013-04-02
-    - value: neo4j://graph.individuals#509459 sockg:date 2008-04-21
-    - value: neo4j://graph.individuals#178323 sockg:date nan
-    - value: neo4j://graph.individuals#39935 sockg:date 2008-09-04
-    - value: neo4j://graph.individuals#359964 sockg:date 2010-11-02
-    - value: neo4j://graph.individuals#509303 sockg:date 1993-03-15
-    - value: neo4j://graph.individuals#377442 sockg:date nan
-    from_schema: soc-kg/main
+    - object:
+        example_object: '2005-06-28'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    - object:
+        example_object: '1997-07-10'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/163960
+        example_subject_type: sockg_Grazing
+    - object:
+        example_object: '2007-11-14'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/172906
+        example_subject_type: sockg_Harvest
+    - object:
+        example_object: '2006-06-19'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
+    - object:
+        example_object: '2011-10-05'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/227674
+        example_subject_type: sockg_ResidueManagementEvent
+    - object:
+        example_object: '1994-04-11'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/235229
+        example_subject_type: sockg_SoilBiologicalSample
+    - object:
+        example_object: '2007-10-29'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/253451
+        example_subject_type: sockg_SoilChemicalSample
+    - object:
+        example_object: '2011-11-07'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/307284
+        example_subject_type: sockg_SoilCover
+    - object:
+        example_object: '2010-10-27'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/308318
+        example_subject_type: sockg_SoilPhysicalSample
+    - object:
+        example_object: '2009-10-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: '2008-09-04'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: '2018-10-04'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: '2015-10-25'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    - object:
+        example_object: '2011-08-31'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/46937
+        example_subject_type: sockg_CropGrowthStage
+    - object:
+        example_object: '2014-09-15'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: '2011-04-12'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: '2003-05-13'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: '2003-11-22'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/513777
+        example_subject_type: sockg_WeatherStation
+    - object:
+        example_object: '2008-05-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: '2001-03-15'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: '2014-11-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/302328
     rank: 1000
     slot_uri: sockg:date
     alias: sockg_date
@@ -639,6 +1171,7 @@ attributes:
     - sockg_GasSample
     - sockg_Grazing
     - sockg_Harvest
+    - sockg_HarvestFraction
     - sockg_NutrientEfficiency
     - sockg_ResidueManagementEvent
     - sockg_SoilBiologicalSample
@@ -648,155 +1181,454 @@ attributes:
     - sockg_WaterQualityArea
     - sockg_WaterQualityConc
     - sockg_WeatherObservation
+    - sockg_WeatherStation
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
+    union_of:
+    - '{''domain'': ''sockg_PlantingEvent''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_BioMassMineral''}'
+    - '{''domain'': ''sockg_Tillage''}'
+    - '{''domain'': ''sockg_Publication''}'
+    - '{''domain'': ''sockg_CropGrowthStage''}'
+    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+    - '{''domain'': ''sockg_Site''}'
+    - '{''domain'': ''sockg_SoilBiologicalSample''}'
+    - '{''domain'': ''sockg_GasSample''}'
+    - '{''domain'': ''sockg_SoilCover''}'
+    - '{''domain'': ''sockg_SoilChemicalSample''}'
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_Grazing''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_MiscellaneousMeasurement''}'
+    - '{''domain'': ''sockg_SoilPhysicalSample''}'
+    - '{''domain'': ''sockg_BioMassEnergy''}'
+    - '{''domain'': ''sockg_Harvest''}'
+    - '{''domain'': ''sockg_ResidueManagementEvent''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_WeatherObservation''}'
     range: Any
     any_of:
+    - range: date
     - range: string
+  rdfs_seeAlso:
+    name: rdfs_seeAlso
+    annotations:
+      uri:
+        tag: uri
+        value: 147305
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/4605
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/0
+        example_subject_type: sockg_Amendment
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/5859
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/163960
+        example_subject_type: sockg_Grazing
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/4377260
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/170955
+        example_subject_type: sockg_GrazingManagementEvent
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/131626
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/172906
+        example_subject_type: sockg_Harvest
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/13189
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/203523
+        example_subject_type: sockg_Organization
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/3927
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/203632
+        example_subject_type: sockg_Pesticide
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/849
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/227674
+        example_subject_type: sockg_ResidueManagementEvent
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/30158
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/230982
+        example_subject_type: sockg_Rotation
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/302328
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/231056
+        example_subject_type: sockg_Site
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/2726
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/235229
+        example_subject_type: sockg_SoilBiologicalSample
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7974
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/253451
+        example_subject_type: sockg_SoilChemicalSample
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/302328
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/307284
+        example_subject_type: sockg_SoilCover
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/5143
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/308318
+        example_subject_type: sockg_SoilPhysicalSample
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/5430914
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/336400
+        example_subject_type: sockg_State
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/336419
+        example_subject_type: sockg_Tillage
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/28616
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/363556
+        example_subject_type: sockg_Treatment
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/2717
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/2714
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7485997
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/46864
+        example_subject_type: sockg_City
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/2217129
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/46904
+        example_subject_type: sockg_County
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/302328
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/46937
+        example_subject_type: sockg_CropGrowthStage
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/976
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/51906
+        example_subject_type: sockg_Experiment
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/9183
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7259
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/55800
+        example_subject_type: sockg_Field
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/35067
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/203534
+        example_subject_type: sockg_Person
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/5630
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/203988
+        example_subject_type: sockg_PlantingEvent
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/61097
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/227438
+        example_subject_type: sockg_Project
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/305490
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/227447
+        example_subject_type: sockg_Publication
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/48678
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/227609
+        example_subject_type: sockg_ResearchUnit
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/33020
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/231116
+        example_subject_type: sockg_Soil
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7259
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/513777
+        example_subject_type: sockg_WeatherStation
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: rdfs:seeAlso
+    alias: rdfs_seeAlso
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_Amendment
+    - sockg_BioMassCarbohydrate
+    - sockg_BioMassEnergy
+    - sockg_BioMassMineral
+    - sockg_City
+    - sockg_County
+    - sockg_CropGrowthStage
+    - sockg_Experiment
+    - sockg_ExperimentalUnit
+    - sockg_Field
+    - sockg_GasNutrientLoss
+    - sockg_GasSample
+    - sockg_Grazing
+    - sockg_GrazingManagementEvent
+    - sockg_Harvest
+    - sockg_HarvestFraction
+    - sockg_NutrientEfficiency
+    - sockg_Organization
+    - sockg_Person
+    - sockg_Pesticide
+    - sockg_PlantingEvent
+    - sockg_Project
+    - sockg_Publication
+    - sockg_ResearchUnit
+    - sockg_ResidueManagementEvent
+    - sockg_Rotation
+    - sockg_Site
+    - sockg_Soil
+    - sockg_SoilBiologicalSample
+    - sockg_SoilChemicalSample
+    - sockg_SoilCover
+    - sockg_SoilPhysicalSample
+    - sockg_State
+    - sockg_Tillage
+    - sockg_Treatment
+    - sockg_WaterQualityArea
+    - sockg_WaterQualityConc
+    - sockg_WeatherObservation
+    - sockg_WeatherStation
+    - sockg_WindErosionArea
+    - sockg_YieldNutrientUptake
+    range: uri
+  sockg_windDirectionDegFromNorth:
+    name: sockg_windDirectionDegFromNorth
+    annotations:
+      double:
+        tag: double
+        value: 51210
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '52.84'
+        example_object_type: double
+        example_predicate: sockg:windDirectionDegFromNorth
+        example_subject: sockg:individuals/468806
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/67367
+    rank: 1000
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:windDirectionDegFromNorth
+    alias: sockg_windDirectionDegFromNorth
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: Any
+    any_of:
     - range: double
-  sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d:
-    name: sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 147305 occurrences with subject type sockg:WeatherObservation and object type
-      xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#423513 sockg:solarRadiationBareSoil_MJ_per_m_squared_per_d
-        nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:solarRadiationBareSoil_MJ_per_m_squared_per_d
-    alias: sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: double
-  sockg_closedPanEvaporation_mm_per_d:
-    name: sockg_closedPanEvaporation_mm_per_d
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 147305 occurrences with subject type sockg:WeatherObservation and object type
-      xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#382399 sockg:closedPanEvaporation_mm_per_d
-        nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:closedPanEvaporation_mm_per_d
-    alias: sockg_closedPanEvaporation_mm_per_d
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: double
+    - range: float
   sockg_tempMin_degC:
     name: sockg_tempMin_degC
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 147305 occurrences with subject type sockg:WeatherObservation and object type
-      xsd:double.
+    annotations:
+      double:
+        tag: double
+        value: 144828
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#489925 sockg:tempMin_degC -22.66
-    from_schema: soc-kg/main
+    - object:
+        example_object: '0.1'
+        example_object_type: double
+        example_predicate: sockg:tempMin_degC
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/5859
     rank: 1000
+    domain: sockg_WeatherObservation
     slot_uri: sockg:tempMin_degC
     alias: sockg_tempMin_degC
     owner: sockg_WeatherObservation
     domain_of:
     - sockg_WeatherObservation
-    range: double
-  sockg_openPanEvaporation_mm_per_d:
-    name: sockg_openPanEvaporation_mm_per_d
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 147305 occurrences with subject type sockg:WeatherObservation and object type
-      xsd:double.
+    range: Any
+    any_of:
+    - range: double
+    - range: float
+  sockg_weatherBadValueFlag:
+    name: sockg_weatherBadValueFlag
+    annotations:
+      double:
+        tag: double
+        value: 1824
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#473026 sockg:openPanEvaporation_mm_per_d 0.0
-    from_schema: soc-kg/main
+    - object:
+        example_object: '-999.0'
+        example_object_type: double
+        example_predicate: sockg:weatherBadValueFlag
+        example_subject: sockg:individuals/501979
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
     rank: 1000
-    slot_uri: sockg:openPanEvaporation_mm_per_d
-    alias: sockg_openPanEvaporation_mm_per_d
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:weatherBadValueFlag
+    alias: sockg_weatherBadValueFlag
     owner: sockg_WeatherObservation
     domain_of:
     - sockg_WeatherObservation
-    range: double
-  sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d:
-    name: sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 147305 occurrences with subject type sockg:WeatherObservation and object type
-      xsd:double.
+    range: Any
+    any_of:
+    - range: integer
+    - range: double
+  sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d:
+    name: sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d
+    annotations:
+      double:
+        tag: double
+        value: 38763
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#493283 sockg:solarRadiationVegetatedGround_MJ_per_m_squared_per_d
-        13.082394
-    from_schema: soc-kg/main
+    - object:
+        example_object: '7.35'
+        example_object_type: double
+        example_predicate: sockg:solarRadiationBareSoil_MJ_per_m_squared_per_d
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/47447
     rank: 1000
-    slot_uri: sockg:solarRadiationVegetatedGround_MJ_per_m_squared_per_d
-    alias: sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:solarRadiationBareSoil_MJ_per_m_squared_per_d
+    alias: sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d
     owner: sockg_WeatherObservation
     domain_of:
     - sockg_WeatherObservation
-    range: double
-  sockg_weatherDaily_UID:
-    name: sockg_weatherDaily_UID
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 147305 occurrences with subject type sockg:WeatherObservation and object type
-      string.
-    examples:
-    - value: neo4j://graph.individuals#462955 sockg:weatherDaily_UID AgCros_IAAMKELL_2003-11-16
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:weatherDaily_UID
-    alias: sockg_weatherDaily_UID
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: string
-  sockg_soilTemp10cm_degC:
-    name: sockg_soilTemp10cm_degC
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 147305 occurrences with subject type sockg:WeatherObservation and object type
-      xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#475495 sockg:soilTemp10cm_degC 0.0
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:soilTemp10cm_degC
-    alias: sockg_soilTemp10cm_degC
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: double
+    range: Any
+    any_of:
+    - range: double
+    - range: float
 class_uri: sockg:WeatherObservation
 
 ```

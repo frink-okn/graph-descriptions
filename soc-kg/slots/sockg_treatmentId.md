@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_treatmentId
+# Slot: No slot (predicate) name specified (sockg_treatmentId)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:treatmentId](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/treatmentId)
+
+This slot occurs 329500 times.
+
+
+URI: [sockg:treatmentId](https://idir.uta.edu/sockg-ontology/docs/treatmentId)
 
 
 
@@ -23,27 +27,28 @@ URI: [sockg:treatmentId](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSoilPhysicalSample](../classes/SockgSoilPhysicalSample.md) | No type description provided |  no  |
-| [SockgGrazing](../classes/SockgGrazing.md) | No type description provided |  no  |
-| [SockgAmendment](../classes/SockgAmendment.md) | No type description provided |  no  |
-| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | No type description provided |  no  |
-| [SockgGasSample](../classes/SockgGasSample.md) | No type description provided |  no  |
-| [SockgResidueManagementEvent](../classes/SockgResidueManagementEvent.md) | No type description provided |  no  |
-| [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | No type description provided |  no  |
-| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | No type description provided |  no  |
-| [SockgCropGrowthStage](../classes/SockgCropGrowthStage.md) | No type description provided |  no  |
-| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | No type description provided |  no  |
-| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | No type description provided |  no  |
-| [SockgBioMassEnergy](../classes/SockgBioMassEnergy.md) | No type description provided |  no  |
-| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | No type description provided |  no  |
-| [SockgSoilBiologicalSample](../classes/SockgSoilBiologicalSample.md) | No type description provided |  no  |
-| [SockgGrazingManagementEvent](../classes/SockgGrazingManagementEvent.md) | No type description provided |  no  |
-| [SockgTreatment](../classes/SockgTreatment.md) | No type description provided |  no  |
-| [SockgHarvest](../classes/SockgHarvest.md) | No type description provided |  no  |
-| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | No type description provided |  no  |
-| [SockgBioMassCarbohydrate](../classes/SockgBioMassCarbohydrate.md) | No type description provided |  no  |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | No type description provided |  no  |
-| [SockgHarvestFraction](../classes/SockgHarvestFraction.md) | No type description provided |  no  |
+| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | WaterQualityConc represents the concentration of various water quality parame... |  yes  |
+| [SockgGasSample](../classes/SockgGasSample.md) | GasSample represents a collection of measurements related to greenhouse gas e... |  yes  |
+| [SockgHarvestFraction](../classes/SockgHarvestFraction.md) | The HarvestFraction class represents the quantifiable metrics and characteris... |  yes  |
+| [SockgResidueManagementEvent](../classes/SockgResidueManagementEvent.md) | A ResidueManagementEvent represents a specific instance of managing agricultu... |  yes  |
+| [SockgSoilPhysicalSample](../classes/SockgSoilPhysicalSample.md) | SoilPhysicalSample represents a comprehensive analysis of soil characteristic... |  yes  |
+| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | A WaterQualityArea represents a designated agricultural zone where water qual... |  yes  |
+| [SockgTreatment](../classes/SockgTreatment.md) | The Treatment class encompasses various agricultural practices and management... |  yes  |
+| [SockgCropGrowthStage](../classes/SockgCropGrowthStage.md) | The CropGrowthStage class represents the various phases of development that a... |  yes  |
+| [SockgGrazingManagementEvent](../classes/SockgGrazingManagementEvent.md) | A GrazingManagementEvent represents a specific instance of land management pr... |  yes  |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | BioMassMiner is a class that represents the analysis of biomass in terms of i... |  yes  |
+| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | The GasNutrientLoss class represents the assessment of gaseous nutrient losse... |  yes  |
+| [SockgPlantingEvent](../classes/SockgPlantingEvent.md) | An event involving the act of planting, which includes considerations for spa... |  yes  |
+| [SockgHarvest](../classes/SockgHarvest.md) | Harvest represents the process of collecting mature crops from the fields, wi... |  yes  |
+| [SockgBioMassEnergy](../classes/SockgBioMassEnergy.md) | BioMassEnergy represents the energy content derived from agricultural biomass... |  yes  |
+| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | The NutrientEfficiency class represents the effectiveness of nutrient utiliza... |  yes  |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by... |  yes  |
+| [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | The SoilChemicalSample class represents a comprehensive analysis of soil chem... |  yes  |
+| [SockgBioMassCarbohydrate](../classes/SockgBioMassCarbohydrate.md) | BioMassCarbohydrate represents the carbohydrate content in biomass derived fr... |  yes  |
+| [SockgSoilBiologicalSample](../classes/SockgSoilBiologicalSample.md) | SoilBiologicalSample represents a collection of measurements related to micro... |  yes  |
+| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | The WindErosionArea class represents regions affected by wind erosion, detail... |  yes  |
+| [SockgGrazing](../classes/SockgGrazing.md) | The Grazing class represents the assessment of various productivity metrics a... |  yes  |
+| [SockgAmendment](../classes/SockgAmendment.md) | An Amendment represents a specific alteration or addition made to agricultura... |  yes  |
 
 
 
@@ -53,7 +58,7 @@ URI: [sockg:treatmentId](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -62,82 +67,30 @@ URI: [sockg:treatmentId](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#43961 sockg:treatmentId PAUP_8 |
-| neo4j://graph.individuals#147269 sockg:treatmentId KYBGGHG_1 |
-| neo4j://graph.individuals#296284 sockg:treatmentId PAUP_15 |
-| neo4j://graph.individuals#13960 sockg:treatmentId NEMLTCRS_ROT62 |
-| neo4j://graph.individuals#200120 sockg:treatmentId ECUAlumbreP2_MtNocrhZf |
-| neo4j://graph.individuals#311219 sockg:treatmentId GAJPCSR1_F3H1 |
-| neo4j://graph.individuals#248000 sockg:treatmentId MNMOBRR_N005C |
-| neo4j://graph.individuals#47857 sockg:treatmentId INWLTPAC_NP |
-| neo4j://graph.individuals#170669 sockg:treatmentId NDMAGWP_HG |
-| neo4j://graph.individuals#171511 sockg:treatmentId GAJPCSR2_F5H2 |
-| neo4j://graph.individuals#39242 sockg:treatmentId SCFLSGI_50R |
-| neo4j://graph.individuals#181825 sockg:treatmentId PAHAW_RCG1 |
-| neo4j://graph.individuals#361841 sockg:treatmentId WIPDBARN_SAND |
-| neo4j://graph.individuals#227864 sockg:treatmentId PAHAW_ROT8 |
-| neo4j://graph.individuals#38229 sockg:treatmentId MNSPReap_ST000 |
-| neo4j://graph.individuals#360342 sockg:treatmentId WIPDBARN_SAND |
-| neo4j://graph.individuals#203268 sockg:treatmentId COFOARD4_DM |
-| neo4j://graph.individuals#509719 sockg:treatmentId MNSP4R_U-S100 |
-| neo4j://graph.individuals#56012 sockg:treatmentId WIPDBARN_SOIL |
-| neo4j://graph.individuals#359420 sockg:treatmentId MNMOBRR_N010S |
-| neo4j://graph.individuals#509310 sockg:treatmentId TXBSWEWC_ERODE |
-
-## Comments
-
-* 6723 occurrences with subject type sockg:BioMassMineral and object type string.
-* 107354 occurrences with subject type sockg:GasSample and object type string.
-* 53833 occurrences with subject type sockg:SoilChemicalSample and object type string.
-* 37796 occurrences with subject type sockg:Amendment and object type string.
-* 9470 occurrences with subject type sockg:HarvestFraction and object type string.
-* 28082 occurrences with subject type sockg:SoilPhysicalSample and object type string.
-* 18222 occurrences with subject type sockg:SoilBiologicalSample and object type string.
-* 4896 occurrences with subject type sockg:CropGrowthStage and object type string.
-* 6995 occurrences with subject type sockg:Grazing and object type string.
-* 1951 occurrences with subject type sockg:GrazingManagementEvent and object type string.
-* 799 occurrences with subject type sockg:BioMassEnergy and object type string.
-* 18356 occurrences with subject type sockg:Harvest and object type string.
-* 1479 occurrences with subject type sockg:WaterQualityConc and object type string.
-* 3308 occurrences with subject type sockg:ResidueManagementEvent and object type string.
-* 1367 occurrences with subject type sockg:BioMassCarbohydrate and object type string.
-* 667 occurrences with subject type sockg:WaterQualityArea and object type string.
-* 2791 occurrences with subject type sockg:NutrientEfficiency and object type string.
-* 429 occurrences with subject type sockg:YieldNutrientUptake and object type string.
-* 748 occurrences with subject type sockg:GasNutrientLoss and object type string.
-* 769 occurrences with subject type sockg:Treatment and object type string.
-* 15 occurrences with subject type sockg:WindErosionArea and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:treatmentId |
-| native | soc-kg/main/:sockg_treatmentId |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Amendment | string | sockg:individuals/0 | PAHAW_ROT4 | 37796 |
+| sockg_GasSample | string | sockg:individuals/100000 | NDMAHGPE_TANUR | 107354 |
+| sockg_Grazing | string | sockg:individuals/163960 | GAJPCSR1_F1H1 | 6995 |
+| sockg_GrazingManagementEvent | string | sockg:individuals/170955 | PAHAW_PAST2 | 1951 |
+| sockg_Harvest | string | sockg:individuals/172906 | PAHAW_ROT1 | 18356 |
+| sockg_HarvestFraction | string | sockg:individuals/191262 | MNMOFS_13 | 9470 |
+| sockg_ResidueManagementEvent | string | sockg:individuals/227674 | PAHAW_ROT4 | 3308 |
+| sockg_SoilBiologicalSample | string | sockg:individuals/235229 | GAJPCSR1_F3H1 | 18222 |
+| sockg_SoilChemicalSample | string | sockg:individuals/253451 | MNMOFS_44 | 53833 |
+| sockg_SoilPhysicalSample | string | sockg:individuals/308318 | FullX200A | 28082 |
+| sockg_Treatment | string | sockg:individuals/363556 | NDMAH3_C | 769 |
+| sockg_BioMassCarbohydrate | string | sockg:individuals/37796 | MNSPReap_ST100 | 1367 |
+| sockg_BioMassEnergy | string | sockg:individuals/39163 | SCFLSGI_100R | 799 |
+| sockg_BioMassMineral | string | sockg:individuals/39962 | FullM125N | 6723 |
+| sockg_CropGrowthStage | string | sockg:individuals/46937 | INWLREAP_R50 | 4896 |
+| sockg_NutrientEfficiency | string | sockg:individuals/200732 | MNMOCAL_N67 | 2791 |
+| sockg_PlantingEvent | string | sockg:individuals/203988 | MNMOFS_38 | 23450 |
+| sockg_WaterQualityArea | string | sockg:individuals/364326 | WIPDBARN_SOIL | 667 |
+| sockg_WaterQualityConc | string | sockg:individuals/364993 | IAAMKELL_CC | 1479 |
+| sockg_GasNutrientLoss | string | sockg:individuals/55858 | IAAMKELL_NCC | 748 |
+| sockg_WindErosionArea | string | sockg:individuals/624572 | TXBSWEWC_N1985 | 15 |
+| sockg_YieldNutrientUptake | string | sockg:individuals/624587 | MNSP4R_U-S100 | 429 |
 
 
 
@@ -145,60 +98,149 @@ URI: [sockg:treatmentId](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_treatmentId
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 6723 occurrences with subject type sockg:BioMassMineral and object type string.
-- 107354 occurrences with subject type sockg:GasSample and object type string.
-- 53833 occurrences with subject type sockg:SoilChemicalSample and object type string.
-- 37796 occurrences with subject type sockg:Amendment and object type string.
-- 9470 occurrences with subject type sockg:HarvestFraction and object type string.
-- 28082 occurrences with subject type sockg:SoilPhysicalSample and object type string.
-- 18222 occurrences with subject type sockg:SoilBiologicalSample and object type string.
-- 4896 occurrences with subject type sockg:CropGrowthStage and object type string.
-- 6995 occurrences with subject type sockg:Grazing and object type string.
-- 1951 occurrences with subject type sockg:GrazingManagementEvent and object type
-  string.
-- 799 occurrences with subject type sockg:BioMassEnergy and object type string.
-- 18356 occurrences with subject type sockg:Harvest and object type string.
-- 1479 occurrences with subject type sockg:WaterQualityConc and object type string.
-- 3308 occurrences with subject type sockg:ResidueManagementEvent and object type
-  string.
-- 1367 occurrences with subject type sockg:BioMassCarbohydrate and object type string.
-- 667 occurrences with subject type sockg:WaterQualityArea and object type string.
-- 2791 occurrences with subject type sockg:NutrientEfficiency and object type string.
-- 429 occurrences with subject type sockg:YieldNutrientUptake and object type string.
-- 748 occurrences with subject type sockg:GasNutrientLoss and object type string.
-- 769 occurrences with subject type sockg:Treatment and object type string.
-- 15 occurrences with subject type sockg:WindErosionArea and object type string.
+annotations:
+  count:
+    tag: count
+    value: 329500
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#43961 sockg:treatmentId PAUP_8
-- value: neo4j://graph.individuals#147269 sockg:treatmentId KYBGGHG_1
-- value: neo4j://graph.individuals#296284 sockg:treatmentId PAUP_15
-- value: neo4j://graph.individuals#13960 sockg:treatmentId NEMLTCRS_ROT62
-- value: neo4j://graph.individuals#200120 sockg:treatmentId ECUAlumbreP2_MtNocrhZf
-- value: neo4j://graph.individuals#311219 sockg:treatmentId GAJPCSR1_F3H1
-- value: neo4j://graph.individuals#248000 sockg:treatmentId MNMOBRR_N005C
-- value: neo4j://graph.individuals#47857 sockg:treatmentId INWLTPAC_NP
-- value: neo4j://graph.individuals#170669 sockg:treatmentId NDMAGWP_HG
-- value: neo4j://graph.individuals#171511 sockg:treatmentId GAJPCSR2_F5H2
-- value: neo4j://graph.individuals#39242 sockg:treatmentId SCFLSGI_50R
-- value: neo4j://graph.individuals#181825 sockg:treatmentId PAHAW_RCG1
-- value: neo4j://graph.individuals#361841 sockg:treatmentId WIPDBARN_SAND
-- value: neo4j://graph.individuals#227864 sockg:treatmentId PAHAW_ROT8
-- value: neo4j://graph.individuals#38229 sockg:treatmentId MNSPReap_ST000
-- value: neo4j://graph.individuals#360342 sockg:treatmentId WIPDBARN_SAND
-- value: neo4j://graph.individuals#203268 sockg:treatmentId COFOARD4_DM
-- value: neo4j://graph.individuals#509719 sockg:treatmentId MNSP4R_U-S100
-- value: neo4j://graph.individuals#56012 sockg:treatmentId WIPDBARN_SOIL
-- value: neo4j://graph.individuals#359420 sockg:treatmentId MNMOBRR_N010S
-- value: neo4j://graph.individuals#509310 sockg:treatmentId TXBSWEWC_ERODE
-from_schema: soc-kg/main
+- object:
+    example_object: PAHAW_ROT4
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/0
+    example_subject_type: sockg_Amendment
+- object:
+    example_object: NDMAHGPE_TANUR
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/100000
+    example_subject_type: sockg_GasSample
+- object:
+    example_object: GAJPCSR1_F1H1
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/163960
+    example_subject_type: sockg_Grazing
+- object:
+    example_object: PAHAW_PAST2
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/170955
+    example_subject_type: sockg_GrazingManagementEvent
+- object:
+    example_object: PAHAW_ROT1
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/172906
+    example_subject_type: sockg_Harvest
+- object:
+    example_object: MNMOFS_13
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/191262
+    example_subject_type: sockg_HarvestFraction
+- object:
+    example_object: PAHAW_ROT4
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/227674
+    example_subject_type: sockg_ResidueManagementEvent
+- object:
+    example_object: GAJPCSR1_F3H1
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/235229
+    example_subject_type: sockg_SoilBiologicalSample
+- object:
+    example_object: MNMOFS_44
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/253451
+    example_subject_type: sockg_SoilChemicalSample
+- object:
+    example_object: FullX200A
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/308318
+    example_subject_type: sockg_SoilPhysicalSample
+- object:
+    example_object: NDMAH3_C
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/363556
+    example_subject_type: sockg_Treatment
+- object:
+    example_object: MNSPReap_ST100
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/37796
+    example_subject_type: sockg_BioMassCarbohydrate
+- object:
+    example_object: SCFLSGI_100R
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/39163
+    example_subject_type: sockg_BioMassEnergy
+- object:
+    example_object: FullM125N
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/39962
+    example_subject_type: sockg_BioMassMineral
+- object:
+    example_object: INWLREAP_R50
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/46937
+    example_subject_type: sockg_CropGrowthStage
+- object:
+    example_object: MNMOCAL_N67
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/200732
+    example_subject_type: sockg_NutrientEfficiency
+- object:
+    example_object: MNMOFS_38
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/203988
+    example_subject_type: sockg_PlantingEvent
+- object:
+    example_object: WIPDBARN_SOIL
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/364326
+    example_subject_type: sockg_WaterQualityArea
+- object:
+    example_object: IAAMKELL_CC
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/364993
+    example_subject_type: sockg_WaterQualityConc
+- object:
+    example_object: IAAMKELL_NCC
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/55858
+    example_subject_type: sockg_GasNutrientLoss
+- object:
+    example_object: TXBSWEWC_N1985
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/624572
+    example_subject_type: sockg_WindErosionArea
+- object:
+    example_object: MNSP4R_U-S100
+    example_object_type: string
+    example_predicate: sockg:treatmentId
+    example_subject: sockg:individuals/624587
+    example_subject_type: sockg_YieldNutrientUptake
+from_schema: soc-kg
 rank: 1000
 slot_uri: sockg:treatmentId
 alias: sockg_treatmentId
@@ -215,6 +257,7 @@ domain_of:
 - sockg_Harvest
 - sockg_HarvestFraction
 - sockg_NutrientEfficiency
+- sockg_PlantingEvent
 - sockg_ResidueManagementEvent
 - sockg_SoilBiologicalSample
 - sockg_SoilChemicalSample
@@ -224,7 +267,27 @@ domain_of:
 - sockg_WaterQualityConc
 - sockg_WindErosionArea
 - sockg_YieldNutrientUptake
-range: string
+union_of:
+- '{''domain'': ''sockg_WaterQualityArea''}'
+- '{''domain'': ''sockg_GrazingManagementEvent''}'
+- '{''domain'': ''sockg_NutrientEfficiency''}'
+- '{''domain'': ''sockg_SoilBiologicalSample''}'
+- '{''domain'': ''sockg_SoilChemicalSample''}'
+- '{''domain'': ''sockg_SoilPhysicalSample''}'
+- '{''domain'': ''sockg_HarvestFraction''}'
+- '{''domain'': ''sockg_WaterQualityConc''}'
+- '{''domain'': ''sockg_ResidueManagementEvent''}'
+- '{''domain'': ''sockg_WindErosionArea''}'
+- '{''domain'': ''sockg_GasNutrientLoss''}'
+- '{''domain'': ''sockg_Amendment''}'
+- '{''domain'': ''sockg_YieldNutrientUptake''}'
+- '{''domain'': ''sockg_BioMassCarbohydrate''}'
+- '{''domain'': ''sockg_Treatment''}'
+range: Any
+any_of:
+- range: date
+- range: string
+- range: float
 
 ```
 </details>

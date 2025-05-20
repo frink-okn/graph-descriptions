@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_upperDepth_cm
+# Slot: No slot (predicate) name specified (sockg_upperDepth_cm)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:upperDepth_cm](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/upperDepth_cm)
+
+This slot occurs 100137 times.
+
+
+URI: [sockg:upperDepth_cm](https://idir.uta.edu/sockg-ontology/docs/upperDepth_cm)
 
 
 
@@ -23,9 +27,9 @@ URI: [sockg:upperDepth_cm](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSoilPhysicalSample](../classes/SockgSoilPhysicalSample.md) | No type description provided |  no  |
-| [SockgSoilBiologicalSample](../classes/SockgSoilBiologicalSample.md) | No type description provided |  no  |
-| [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | No type description provided |  no  |
+| [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | The SoilChemicalSample class represents a comprehensive analysis of soil chem... |  yes  |
+| [SockgSoilBiologicalSample](../classes/SockgSoilBiologicalSample.md) | SoilBiologicalSample represents a collection of measurements related to micro... |  yes  |
+| [SockgSoilPhysicalSample](../classes/SockgSoilPhysicalSample.md) | SoilPhysicalSample represents a comprehensive analysis of soil characteristic... |  yes  |
 
 
 
@@ -35,7 +39,7 @@ URI: [sockg:upperDepth_cm](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
 
 
 
@@ -44,69 +48,53 @@ URI: [sockg:upperDepth_cm](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#320164 sockg:upperDepth_cm 30.0 |
-| neo4j://graph.individuals#299540 sockg:upperDepth_cm 0.0 |
-| neo4j://graph.individuals#240599 sockg:upperDepth_cm 90 |
-
-## Comments
-
-* 28082 occurrences with subject type sockg:SoilPhysicalSample and object type xsd:double.
-* 53833 occurrences with subject type sockg:SoilChemicalSample and object type xsd:double.
-* 18222 occurrences with subject type sockg:SoilBiologicalSample and object type xsd:long.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_SoilBiologicalSample | integer | sockg:individuals/235229 | 0 | 18222 |
+| sockg_SoilChemicalSample | double | sockg:individuals/253451 | 10.0 | 53833 |
+| sockg_SoilPhysicalSample | double | sockg:individuals/308318 | 15.0 | 28082 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:upperDepth_cm |
-| native | soc-kg/main/:sockg_upperDepth_cm |
-
+* [https://lod.nal.usda.gov/nalt/63373](https://lod.nal.usda.gov/nalt/63373)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_upperDepth_cm
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 28082 occurrences with subject type sockg:SoilPhysicalSample and object type xsd:double.
-- 53833 occurrences with subject type sockg:SoilChemicalSample and object type xsd:double.
-- 18222 occurrences with subject type sockg:SoilBiologicalSample and object type xsd:long.
+annotations:
+  count:
+    tag: count
+    value: 100137
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#320164 sockg:upperDepth_cm 30.0
-- value: neo4j://graph.individuals#299540 sockg:upperDepth_cm 0.0
-- value: neo4j://graph.individuals#240599 sockg:upperDepth_cm 90
-from_schema: soc-kg/main
+- object:
+    example_object: '0'
+    example_object_type: integer
+    example_predicate: sockg:upperDepth_cm
+    example_subject: sockg:individuals/235229
+    example_subject_type: sockg_SoilBiologicalSample
+- object:
+    example_object: '10.0'
+    example_object_type: double
+    example_predicate: sockg:upperDepth_cm
+    example_subject: sockg:individuals/253451
+    example_subject_type: sockg_SoilChemicalSample
+- object:
+    example_object: '15.0'
+    example_object_type: double
+    example_predicate: sockg:upperDepth_cm
+    example_subject: sockg:individuals/308318
+    example_subject_type: sockg_SoilPhysicalSample
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/63373
 rank: 1000
 slot_uri: sockg:upperDepth_cm
 alias: sockg_upperDepth_cm
@@ -114,10 +102,14 @@ domain_of:
 - sockg_SoilBiologicalSample
 - sockg_SoilChemicalSample
 - sockg_SoilPhysicalSample
+union_of:
+- '{''domain'': ''sockg_SoilChemicalSample''}'
+- '{''domain'': ''sockg_SoilBiologicalSample''}'
+- '{''domain'': ''sockg_SoilPhysicalSample''}'
 range: Any
 any_of:
-- range: double
 - range: integer
+- range: double
 
 ```
 </details>

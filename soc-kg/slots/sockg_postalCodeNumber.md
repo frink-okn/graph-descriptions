@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_postalCodeNumber
+# Slot: No slot (predicate) name specified (sockg_postalCodeNumber)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:postalCodeNumber](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/postalCodeNumber)
+
+This slot occurs 60 times.
+
+
+URI: [sockg:postalCodeNumber](https://idir.uta.edu/sockg-ontology/docs/postalCodeNumber)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:postalCodeNumber](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSite](../classes/SockgSite.md) | No type description provided |  no  |
+| [SockgSite](../classes/SockgSite.md) | A Site represents a specific geographical location related to agricultural ac... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:postalCodeNumber](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
 
 
 
@@ -42,67 +46,49 @@ URI: [sockg:postalCodeNumber](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#230697 sockg:postalCodeNumber 59270.0 |
-
-## Comments
-
-* 60 occurrences with subject type sockg:Site and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Site | double | sockg:individuals/231056 | 36075.0 | 60 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:postalCodeNumber |
-| native | soc-kg/main/:sockg_postalCodeNumber |
-
+* [https://lod.nal.usda.gov/nalt/9775998](https://lod.nal.usda.gov/nalt/9775998)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_postalCodeNumber
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 60 occurrences with subject type sockg:Site and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 60
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#230697 sockg:postalCodeNumber 59270.0
-from_schema: soc-kg/main
+- object:
+    example_object: '36075.0'
+    example_object_type: double
+    example_predicate: sockg:postalCodeNumber
+    example_subject: sockg:individuals/231056
+    example_subject_type: sockg_Site
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/9775998
 rank: 1000
+domain: sockg_Site
 slot_uri: sockg:postalCodeNumber
 alias: sockg_postalCodeNumber
 domain_of:
 - sockg_Site
-range: double
+range: Any
+any_of:
+- range: integer
+- range: double
 
 ```
 </details>

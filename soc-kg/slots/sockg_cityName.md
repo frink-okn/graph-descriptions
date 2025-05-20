@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_cityName
+# Slot: No slot (predicate) name specified (sockg_cityName)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:cityName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/cityName)
+
+This slot occurs 33 times.
+
+
+URI: [sockg:cityName](https://idir.uta.edu/sockg-ontology/docs/cityName)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:cityName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-ca
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgCity](../classes/SockgCity.md) | No type description provided |  no  |
+| [SockgCity](../classes/SockgCity.md) | A City is a large human settlement that serves as a hub for economic, social,... |  yes  |
 
 
 
@@ -42,62 +46,41 @@ URI: [sockg:cityName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-ca
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#46703 sockg:cityName University Park |
-
-## Comments
-
-* 33 occurrences with subject type sockg:City and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_City | string | sockg:individuals/46864 | Shorter | 33 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:cityName |
-| native | soc-kg/main/:sockg_cityName |
-
+* [https://lod.nal.usda.gov/nalt/7485997](https://lod.nal.usda.gov/nalt/7485997)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_cityName
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 33 occurrences with subject type sockg:City and object type string.
+annotations:
+  count:
+    tag: count
+    value: 33
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#46703 sockg:cityName University Park
-from_schema: soc-kg/main
+- object:
+    example_object: Shorter
+    example_object_type: string
+    example_predicate: sockg:cityName
+    example_subject: sockg:individuals/46864
+    example_subject_type: sockg_City
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/7485997
 rank: 1000
+domain: sockg_City
 slot_uri: sockg:cityName
 alias: sockg_cityName
 domain_of:

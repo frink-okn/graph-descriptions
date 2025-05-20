@@ -1,15 +1,17 @@
 
 
-# Slot: sockg_abovegroundNetPrimaryProductivityNitrogen_kgN_per_ha_per_yr
+# Slot: No slot (predicate) name specified (sockg_abovegroundNetPrimaryProductivityNitrogen_kgN_per_ha_per_yr)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:abovegroundNetPrimaryProductivityNitrogen_kgN_per_ha_per_yr](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/abovegroundNetPrimaryProductivityNitrogen_kgN_per_ha_per_yr)
+
+
+URI: [sockg:abovegroundNetPrimaryProductivityNitrogen_kgN_per_ha_per_yr](https://idir.uta.edu/sockg-ontology/docs/abovegroundNetPrimaryProductivityNitrogen_kgN_per_ha_per_yr)
 
 
 
@@ -19,91 +21,39 @@ URI: [sockg:abovegroundNetPrimaryProductivityNitrogen_kgN_per_ha_per_yr](http://
 
 
 
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [SockgGrazing](../classes/SockgGrazing.md) | No type description provided |  no  |
-
-
-
-
 
 
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
 
-
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#166873 sockg:abovegroundNetPrimaryProductivityNitrogen_kgN_per_ha_per_yr nan |
 
 ## Comments
 
-* 6995 occurrences with subject type sockg:Grazing and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:abovegroundNetPrimaryProductivityNitrogen_kgN_per_ha_per_yr |
-| native | soc-kg/main/:sockg_abovegroundNetPrimaryProductivityNitrogen_kgN_per_ha_per_yr |
-
+* No occurrences of this slot in the graph.
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_abovegroundNetPrimaryProductivityNitrogen_kgN_per_ha_per_yr
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 comments:
-- 6995 occurrences with subject type sockg:Grazing and object type xsd:double.
-examples:
-- value: neo4j://graph.individuals#166873 sockg:abovegroundNetPrimaryProductivityNitrogen_kgN_per_ha_per_yr
-    nan
-from_schema: soc-kg/main
+- No occurrences of this slot in the graph.
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Grazing
 slot_uri: sockg:abovegroundNetPrimaryProductivityNitrogen_kgN_per_ha_per_yr
 alias: sockg_abovegroundNetPrimaryProductivityNitrogen_kgN_per_ha_per_yr
-domain_of:
-- sockg_Grazing
-range: double
+range: float
 
 ```
 </details>

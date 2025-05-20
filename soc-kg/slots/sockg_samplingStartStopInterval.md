@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_samplingStartStopInterval
+# Slot: No slot (predicate) name specified (sockg_samplingStartStopInterval)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:samplingStartStopInterval](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/samplingStartStopInterval)
+
+This slot occurs 891 times.
+
+
+URI: [sockg:samplingStartStopInterval](https://idir.uta.edu/sockg-ontology/docs/samplingStartStopInterval)
 
 
 
@@ -23,10 +27,9 @@ URI: [sockg:samplingStartStopInterval](http://www.semanticweb.org/sockg/ontologi
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | No type description provided |  no  |
-| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | No type description provided |  no  |
-| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | No type description provided |  no  |
-| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | No type description provided |  no  |
+| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | WaterQualityConc represents the concentration of various water quality parame... |  yes  |
+| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | The WindErosionArea class represents regions affected by wind erosion, detail... |  yes  |
+| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | The GasNutrientLoss class represents the assessment of gaseous nutrient losse... |  yes  |
 
 
 
@@ -36,7 +39,7 @@ URI: [sockg:samplingStartStopInterval](http://www.semanticweb.org/sockg/ontologi
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -45,52 +48,11 @@ URI: [sockg:samplingStartStopInterval](http://www.semanticweb.org/sockg/ontologi
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#361366 sockg:samplingStartStopInterval nan |
-| neo4j://graph.individuals#56298 sockg:samplingStartStopInterval nan |
-| neo4j://graph.individuals#360222 sockg:samplingStartStopInterval nan |
-| neo4j://graph.individuals#360975 sockg:samplingStartStopInterval Stop-Start |
-| neo4j://graph.individuals#509301 sockg:samplingStartStopInterval Stop |
-| neo4j://graph.individuals#56333 sockg:samplingStartStopInterval Stop-Start |
-
-## Comments
-
-* 667 occurrences with subject type sockg:WaterQualityConc and object type xsd:double.
-* 684 occurrences with subject type sockg:GasNutrientLoss and object type xsd:double.
-* 667 occurrences with subject type sockg:WaterQualityArea and object type xsd:double.
-* 812 occurrences with subject type sockg:WaterQualityConc and object type string.
-* 15 occurrences with subject type sockg:WindErosionArea and object type string.
-* 64 occurrences with subject type sockg:GasNutrientLoss and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:samplingStartStopInterval |
-| native | soc-kg/main/:sockg_samplingStartStopInterval |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_WaterQualityConc | string | sockg:individuals/364993 | Stop-Start | 812 |
+| sockg_GasNutrientLoss | string | sockg:individuals/55858 | Stop-Start | 64 |
+| sockg_WindErosionArea | string | sockg:individuals/624572 | Stop | 15 |
 
 
 
@@ -98,40 +60,48 @@ URI: [sockg:samplingStartStopInterval](http://www.semanticweb.org/sockg/ontologi
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_samplingStartStopInterval
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 667 occurrences with subject type sockg:WaterQualityConc and object type xsd:double.
-- 684 occurrences with subject type sockg:GasNutrientLoss and object type xsd:double.
-- 667 occurrences with subject type sockg:WaterQualityArea and object type xsd:double.
-- 812 occurrences with subject type sockg:WaterQualityConc and object type string.
-- 15 occurrences with subject type sockg:WindErosionArea and object type string.
-- 64 occurrences with subject type sockg:GasNutrientLoss and object type string.
+annotations:
+  count:
+    tag: count
+    value: 891
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#361366 sockg:samplingStartStopInterval nan
-- value: neo4j://graph.individuals#56298 sockg:samplingStartStopInterval nan
-- value: neo4j://graph.individuals#360222 sockg:samplingStartStopInterval nan
-- value: neo4j://graph.individuals#360975 sockg:samplingStartStopInterval Stop-Start
-- value: neo4j://graph.individuals#509301 sockg:samplingStartStopInterval Stop
-- value: neo4j://graph.individuals#56333 sockg:samplingStartStopInterval Stop-Start
-from_schema: soc-kg/main
+- object:
+    example_object: Stop-Start
+    example_object_type: string
+    example_predicate: sockg:samplingStartStopInterval
+    example_subject: sockg:individuals/364993
+    example_subject_type: sockg_WaterQualityConc
+- object:
+    example_object: Stop-Start
+    example_object_type: string
+    example_predicate: sockg:samplingStartStopInterval
+    example_subject: sockg:individuals/55858
+    example_subject_type: sockg_GasNutrientLoss
+- object:
+    example_object: Stop
+    example_object_type: string
+    example_predicate: sockg:samplingStartStopInterval
+    example_subject: sockg:individuals/624572
+    example_subject_type: sockg_WindErosionArea
+from_schema: soc-kg
 rank: 1000
 slot_uri: sockg:samplingStartStopInterval
 alias: sockg_samplingStartStopInterval
 domain_of:
 - sockg_GasNutrientLoss
-- sockg_WaterQualityArea
 - sockg_WaterQualityConc
 - sockg_WindErosionArea
-range: Any
-any_of:
-- range: double
-- range: string
+union_of:
+- '{''domain'': ''sockg_WaterQualityArea''}'
+- '{''domain'': ''sockg_GasNutrientLoss''}'
+- '{''domain'': ''sockg_WaterQualityConc''}'
+- '{''domain'': ''sockg_WindErosionArea''}'
+range: string
 
 ```
 </details>

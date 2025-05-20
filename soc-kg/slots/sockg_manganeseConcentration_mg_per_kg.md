@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_manganeseConcentration_mg_per_kg
+# Slot: No slot (predicate) name specified (sockg_manganeseConcentration_mg_per_kg)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:manganeseConcentration_mg_per_kg](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/manganeseConcentration_mg_per_kg)
+
+This slot occurs 6723 times.
+
+
+URI: [sockg:manganeseConcentration_mg_per_kg](https://idir.uta.edu/sockg-ontology/docs/manganeseConcentration_mg_per_kg)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:manganeseConcentration_mg_per_kg](http://www.semanticweb.org/sockg/o
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | No type description provided |  no  |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | BioMassMiner is a class that represents the analysis of biomass in terms of i... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:manganeseConcentration_mg_per_kg](http://www.semanticweb.org/sockg/o
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:manganeseConcentration_mg_per_kg](http://www.semanticweb.org/sockg/o
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#41917 sockg:manganeseConcentration_mg_per_kg 37.26 |
-
-## Comments
-
-* 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:manganeseConcentration_mg_per_kg |
-| native | soc-kg/main/:sockg_manganeseConcentration_mg_per_kg |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_BioMassMineral | double | sockg:individuals/39962 | 18.0 | 6723 |
 
 
 
@@ -85,24 +56,33 @@ URI: [sockg:manganeseConcentration_mg_per_kg](http://www.semanticweb.org/sockg/o
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_manganeseConcentration_mg_per_kg
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 6723
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#41917 sockg:manganeseConcentration_mg_per_kg 37.26
-from_schema: soc-kg/main
+- object:
+    example_object: '18.0'
+    example_object_type: double
+    example_predicate: sockg:manganeseConcentration_mg_per_kg
+    example_subject: sockg:individuals/39962
+    example_subject_type: sockg_BioMassMineral
+from_schema: soc-kg
 rank: 1000
+domain: sockg_BioMassMineral
 slot_uri: sockg:manganeseConcentration_mg_per_kg
 alias: sockg_manganeseConcentration_mg_per_kg
 domain_of:
 - sockg_BioMassMineral
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

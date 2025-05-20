@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_hasCounty
+# Slot: No slot (predicate) name specified (sockg_hasCounty)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:hasCounty](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/hasCounty)
+
+This slot occurs 33 times.
+
+
+URI: [sockg:hasCounty](https://idir.uta.edu/sockg-ontology/docs/hasCounty)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:hasCounty](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgState](../classes/SockgState.md) | No type description provided |  no  |
+| [SockgState](../classes/SockgState.md) | A State represents a regional jurisdiction within a country, often defined by... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:hasCounty](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#331928 sockg:hasCounty neo4j://graph.individuals#46723 |
-
-## Comments
-
-* 34 occurrences with subject type sockg:State and object type sockg:County.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:hasCounty |
-| native | soc-kg/main/:sockg_hasCounty |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_State | sockg_County | sockg:individuals/336400 | sockg:individuals/46904 | 33 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:hasCounty](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_hasCounty
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 34 occurrences with subject type sockg:State and object type sockg:County.
+annotations:
+  count:
+    tag: count
+    value: 33
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#331928 sockg:hasCounty neo4j://graph.individuals#46723
-from_schema: soc-kg/main
+- object:
+    example_object: sockg:individuals/46904
+    example_object_type: sockg_County
+    example_predicate: sockg:hasCounty
+    example_subject: sockg:individuals/336400
+    example_subject_type: sockg_State
+from_schema: soc-kg
 rank: 1000
+domain: sockg_State
 slot_uri: sockg:hasCounty
 alias: sockg_hasCounty
 domain_of:

@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_lastName
+# Slot: No slot (predicate) name specified (sockg_lastName)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:lastName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/lastName)
+
+This slot occurs 98 times.
+
+
+URI: [sockg:lastName](https://idir.uta.edu/sockg-ontology/docs/lastName)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:lastName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-ca
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPerson](../classes/SockgPerson.md) | No type description provided |  no  |
+| [SockgPerson](../classes/SockgPerson.md) | A Person represents an individual involved in agricultural activities, servin... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:lastName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-ca
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#203357 sockg:lastName Smith |
-
-## Comments
-
-* 98 occurrences with subject type sockg:Person and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:lastName |
-| native | soc-kg/main/:sockg_lastName |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Person | string | sockg:individuals/203534 | Del Grosso | 98 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:lastName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-ca
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_lastName
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 98 occurrences with subject type sockg:Person and object type string.
+annotations:
+  count:
+    tag: count
+    value: 98
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#203357 sockg:lastName Smith
-from_schema: soc-kg/main
+- object:
+    example_object: Del Grosso
+    example_object_type: string
+    example_predicate: sockg:lastName
+    example_subject: sockg:individuals/203534
+    example_subject_type: sockg_Person
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Person
 slot_uri: sockg:lastName
 alias: sockg_lastName
 domain_of:

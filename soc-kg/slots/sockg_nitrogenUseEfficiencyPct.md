@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_nitrogenUseEfficiencyPct
+# Slot: No slot (predicate) name specified (sockg_nitrogenUseEfficiencyPct)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:nitrogenUseEfficiencyPct](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/nitrogenUseEfficiencyPct)
+
+This slot occurs 2791 times.
+
+
+URI: [sockg:nitrogenUseEfficiencyPct](https://idir.uta.edu/sockg-ontology/docs/nitrogenUseEfficiencyPct)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:nitrogenUseEfficiencyPct](http://www.semanticweb.org/sockg/ontologie
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | No type description provided |  no  |
+| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | The NutrientEfficiency class represents the effectiveness of nutrient utiliza... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:nitrogenUseEfficiencyPct](http://www.semanticweb.org/sockg/ontologie
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:nitrogenUseEfficiencyPct](http://www.semanticweb.org/sockg/ontologie
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#201048 sockg:nitrogenUseEfficiencyPct 0.0 |
-
-## Comments
-
-* 2791 occurrences with subject type sockg:NutrientEfficiency and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:nitrogenUseEfficiencyPct |
-| native | soc-kg/main/:sockg_nitrogenUseEfficiencyPct |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_NutrientEfficiency | double | sockg:individuals/200732 | 0.0 | 2791 |
 
 
 
@@ -85,24 +56,33 @@ URI: [sockg:nitrogenUseEfficiencyPct](http://www.semanticweb.org/sockg/ontologie
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_nitrogenUseEfficiencyPct
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 2791 occurrences with subject type sockg:NutrientEfficiency and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 2791
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#201048 sockg:nitrogenUseEfficiencyPct 0.0
-from_schema: soc-kg/main
+- object:
+    example_object: '0.0'
+    example_object_type: double
+    example_predicate: sockg:nitrogenUseEfficiencyPct
+    example_subject: sockg:individuals/200732
+    example_subject_type: sockg_NutrientEfficiency
+from_schema: soc-kg
 rank: 1000
+domain: sockg_NutrientEfficiency
 slot_uri: sockg:nitrogenUseEfficiencyPct
 alias: sockg_nitrogenUseEfficiencyPct
 domain_of:
 - sockg_NutrientEfficiency
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

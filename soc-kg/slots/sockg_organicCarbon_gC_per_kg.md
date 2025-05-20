@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_organicCarbon_gC_per_kg
+# Slot: No slot (predicate) name specified (sockg_organicCarbon_gC_per_kg)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:organicCarbon_gC_per_kg](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/organicCarbon_gC_per_kg)
+
+This slot occurs 8192 times.
+
+
+URI: [sockg:organicCarbon_gC_per_kg](https://idir.uta.edu/sockg-ontology/docs/organicCarbon_gC_per_kg)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:organicCarbon_gC_per_kg](http://www.semanticweb.org/sockg/ontologies
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | No type description provided |  no  |
+| [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | The SoilChemicalSample class represents a comprehensive analysis of soil chem... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:organicCarbon_gC_per_kg](http://www.semanticweb.org/sockg/ontologies
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,67 +46,49 @@ URI: [sockg:organicCarbon_gC_per_kg](http://www.semanticweb.org/sockg/ontologies
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#254126 sockg:organicCarbon_gC_per_kg nan |
-
-## Comments
-
-* 53833 occurrences with subject type sockg:SoilChemicalSample and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_SoilChemicalSample | double | sockg:individuals/267399 | 9.223125 | 8192 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:organicCarbon_gC_per_kg |
-| native | soc-kg/main/:sockg_organicCarbon_gC_per_kg |
-
+* [https://lod.nal.usda.gov/nalt/67854](https://lod.nal.usda.gov/nalt/67854)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_organicCarbon_gC_per_kg
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 53833 occurrences with subject type sockg:SoilChemicalSample and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 8192
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#254126 sockg:organicCarbon_gC_per_kg nan
-from_schema: soc-kg/main
+- object:
+    example_object: '9.223125'
+    example_object_type: double
+    example_predicate: sockg:organicCarbon_gC_per_kg
+    example_subject: sockg:individuals/267399
+    example_subject_type: sockg_SoilChemicalSample
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/67854
 rank: 1000
+domain: sockg_SoilChemicalSample
 slot_uri: sockg:organicCarbon_gC_per_kg
 alias: sockg_organicCarbon_gC_per_kg
 domain_of:
 - sockg_SoilChemicalSample
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

@@ -1,15 +1,19 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (sockg_SoilCover)
+# Class: No class (entity type) name specified (sockg_SoilCover)
 
 
-_No type description provided_
+_SoilCover refers to the layer of organic and inorganic materials that covers the soil surface, playing a critical role in agriculture by impacting soil moisture retention, erosion control, and crop health. Monitoring soil cover is essential for sustainable farming practices, as it influences both productivity and environmental quality._
 
 
 
 
 
-URI: [sockg:SoilCover](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/SoilCover)
+
+This class occurs 1034 times.
+
+
+URI: [sockg:SoilCover](https://idir.uta.edu/sockg-ontology/docs/SoilCover)
 
 
 
@@ -20,6 +24,15 @@ URI: [sockg:SoilCover](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
  classDiagram
     class SockgSoilCover
     click SockgSoilCover href "../SockgSoilCover"
+      SockgSoilCover : rdfs_seeAlso
+        
+          
+    
+    
+    SockgSoilCover --> "0..1" Uri : rdfs_seeAlso
+    click Uri href "../Uri"
+
+        
       SockgSoilCover : sockg_date
         
           
@@ -38,13 +51,13 @@ URI: [sockg:SoilCover](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
     click String href "../String"
 
         
-      SockgSoilCover : sockg_soilWithResidueCoverPercent
+      SockgSoilCover : sockg_soilCoverTimingDescriptor
         
           
     
     
-    SockgSoilCover --> "0..1" Double : sockg_soilWithResidueCoverPercent
-    click Double href "../Double"
+    SockgSoilCover --> "0..1" String : sockg_soilCoverTimingDescriptor
+    click String href "../String"
 
         
       
@@ -58,56 +71,32 @@ URI: [sockg:SoilCover](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
+| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 1034 |
+| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 1034 |
+| [sockg_measSoilCover_UID](../slots/sockg_measSoilCover_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 1034 |
+| [sockg_soilCoverTimingDescriptor](../slots/sockg_soilCoverTimingDescriptor.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 1034 |
+
+
+
+
+
+## Usages
+
+| used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [sockg_soilWithResidueCoverPercent](../slots/sockg_soilWithResidueCoverPercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_measSoilCover_UID](../slots/sockg_measSoilCover_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
-| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_hasSoilCover](../slots/sockg_hasSoilCover.md) | range | [SockgSoilCover](../classes/SockgSoilCover.md) |
+| [SockgSoilCover](../classes/SockgSoilCover.md) | [sockg_measSoilCover_UID](../slots/sockg_measSoilCover_UID.md) | domain | [SockgSoilCover](../classes/SockgSoilCover.md) |
 
 
 
 
 
 
+## See Also
 
-
-
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#303209 |
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:SoilCover |
-| native | soc-kg/main/:SockgSoilCover |
-
+* [https://lod.nal.usda.gov/nalt/28613](https://lod.nal.usda.gov/nalt/28613)
 
 
 
@@ -121,24 +110,54 @@ URI: [sockg:SoilCover](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 ### Direct
 
 <details>
+
 ```yaml
 name: sockg_SoilCover
-description: No type description provided
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- There are 1034 instances of this class.
-examples:
-- value: neo4j://graph.individuals#303209
-from_schema: soc-kg/main
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 1034
+description: SoilCover refers to the layer of organic and inorganic materials that
+  covers the soil surface, playing a critical role in agriculture by impacting soil
+  moisture retention, erosion control, and crop health. Monitoring soil cover is essential
+  for sustainable farming practices, as it influences both productivity and environmental
+  quality.
+title: No class (entity type) name specified
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/28613
 rank: 1000
 slots:
-- sockg_soilWithResidueCoverPercent
-- sockg_measSoilCover_UID
+- rdfs_seeAlso
 - sockg_date
+- sockg_measSoilCover_UID
+- sockg_soilCoverTimingDescriptor
+slot_usage:
+  rdfs_seeAlso:
+    name: rdfs_seeAlso
+    annotations:
+      uri:
+        tag: uri
+        value: 1034
+  sockg_date:
+    name: sockg_date
+    annotations:
+      string:
+        tag: string
+        value: 1034
+  sockg_measSoilCover_UID:
+    name: sockg_measSoilCover_UID
+    annotations:
+      string:
+        tag: string
+        value: 1034
+  sockg_soilCoverTimingDescriptor:
+    name: sockg_soilCoverTimingDescriptor
+    annotations:
+      string:
+        tag: string
+        value: 1034
 class_uri: sockg:SoilCover
 
 ```
@@ -147,119 +166,490 @@ class_uri: sockg:SoilCover
 ### Induced
 
 <details>
+
 ```yaml
 name: sockg_SoilCover
-description: No type description provided
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- There are 1034 instances of this class.
-examples:
-- value: neo4j://graph.individuals#303209
-from_schema: soc-kg/main
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 1034
+description: SoilCover refers to the layer of organic and inorganic materials that
+  covers the soil surface, playing a critical role in agriculture by impacting soil
+  moisture retention, erosion control, and crop health. Monitoring soil cover is essential
+  for sustainable farming practices, as it influences both productivity and environmental
+  quality.
+title: No class (entity type) name specified
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/28613
 rank: 1000
-attributes:
-  sockg_soilWithResidueCoverPercent:
-    name: sockg_soilWithResidueCoverPercent
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 1034 occurrences with subject type sockg:SoilCover and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#303083 sockg:soilWithResidueCoverPercent nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:soilWithResidueCoverPercent
-    alias: sockg_soilWithResidueCoverPercent
-    owner: sockg_SoilCover
-    domain_of:
-    - sockg_SoilCover
-    range: double
-  sockg_measSoilCover_UID:
-    name: sockg_measSoilCover_UID
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 1034 occurrences with subject type sockg:SoilCover and object type string.
-    examples:
-    - value: neo4j://graph.individuals#303051 sockg:measSoilCover_UID AgCros_PAUP_305_2008-11-04_Zea_mays_Corn_
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:measSoilCover_UID
-    alias: sockg_measSoilCover_UID
-    owner: sockg_SoilCover
-    domain_of:
-    - sockg_SoilCover
-    range: string
+slot_usage:
+  rdfs_seeAlso:
+    name: rdfs_seeAlso
+    annotations:
+      uri:
+        tag: uri
+        value: 1034
   sockg_date:
     name: sockg_date
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 53833 occurrences with subject type sockg:SoilChemicalSample and object type
-      string.
-    - 147304 occurrences with subject type sockg:WeatherObservation and object type
-      string.
-    - 107354 occurrences with subject type sockg:GasSample and object type string.
-    - 28082 occurrences with subject type sockg:SoilPhysicalSample and object type
-      string.
-    - 6995 occurrences with subject type sockg:Grazing and object type string.
-    - 4896 occurrences with subject type sockg:CropGrowthStage and object type string.
-    - 18222 occurrences with subject type sockg:SoilBiologicalSample and object type
-      string.
-    - 18304 occurrences with subject type sockg:Harvest and object type string.
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type string.
-    - 3308 occurrences with subject type sockg:ResidueManagementEvent and object type
-      string.
-    - 2791 occurrences with subject type sockg:NutrientEfficiency and object type
-      string.
-    - 1367 occurrences with subject type sockg:BioMassCarbohydrate and object type
-      string.
-    - 1479 occurrences with subject type sockg:WaterQualityConc and object type string.
-    - 748 occurrences with subject type sockg:GasNutrientLoss and object type string.
-    - 1034 occurrences with subject type sockg:SoilCover and object type string.
-    - 429 occurrences with subject type sockg:YieldNutrientUptake and object type
-      string.
-    - 52 occurrences with subject type sockg:Harvest and object type xsd:double.
-    - 799 occurrences with subject type sockg:BioMassEnergy and object type string.
-    - 667 occurrences with subject type sockg:WaterQualityArea and object type string.
-    - 15 occurrences with subject type sockg:WindErosionArea and object type string.
-    - 1 occurrences with subject type sockg:WeatherObservation and object type xsd:double.
+    annotations:
+      string:
+        tag: string
+        value: 1034
+  sockg_measSoilCover_UID:
+    name: sockg_measSoilCover_UID
+    annotations:
+      string:
+        tag: string
+        value: 1034
+  sockg_soilCoverTimingDescriptor:
+    name: sockg_soilCoverTimingDescriptor
+    annotations:
+      string:
+        tag: string
+        value: 1034
+attributes:
+  rdfs_seeAlso:
+    name: rdfs_seeAlso
+    annotations:
+      uri:
+        tag: uri
+        value: 1034
+    description: No slot (predicate) description specified
     examples:
-    - value: neo4j://graph.individuals#294621 sockg:date 2008-11-19
-    - value: neo4j://graph.individuals#488503 sockg:date 2009-05-27
-    - value: neo4j://graph.individuals#85292 sockg:date 2011-07-01
-    - value: neo4j://graph.individuals#309598 sockg:date 1996-04-17
-    - value: neo4j://graph.individuals#165161 sockg:date 1994-07-12
-    - value: neo4j://graph.individuals#48449 sockg:date 2008-08-08
-    - value: neo4j://graph.individuals#243645 sockg:date 2001-01-24
-    - value: neo4j://graph.individuals#175155 sockg:date 1987-09-24
-    - value: neo4j://graph.individuals#41902 sockg:date 2008-10-16
-    - value: neo4j://graph.individuals#228638 sockg:date 2009-11-11
-    - value: neo4j://graph.individuals#203067 sockg:date 2004-09-17
-    - value: neo4j://graph.individuals#38588 sockg:date 2011-08-31
-    - value: neo4j://graph.individuals#361436 sockg:date 2012-04-23
-    - value: neo4j://graph.individuals#56011 sockg:date 2014-08-29
-    - value: neo4j://graph.individuals#303276 sockg:date 2013-04-02
-    - value: neo4j://graph.individuals#509459 sockg:date 2008-04-21
-    - value: neo4j://graph.individuals#178323 sockg:date nan
-    - value: neo4j://graph.individuals#39935 sockg:date 2008-09-04
-    - value: neo4j://graph.individuals#359964 sockg:date 2010-11-02
-    - value: neo4j://graph.individuals#509303 sockg:date 1993-03-15
-    - value: neo4j://graph.individuals#377442 sockg:date nan
-    from_schema: soc-kg/main
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/4605
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/0
+        example_subject_type: sockg_Amendment
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/5859
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/163960
+        example_subject_type: sockg_Grazing
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/4377260
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/170955
+        example_subject_type: sockg_GrazingManagementEvent
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/131626
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/172906
+        example_subject_type: sockg_Harvest
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/13189
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/203523
+        example_subject_type: sockg_Organization
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/3927
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/203632
+        example_subject_type: sockg_Pesticide
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/849
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/227674
+        example_subject_type: sockg_ResidueManagementEvent
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/30158
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/230982
+        example_subject_type: sockg_Rotation
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/302328
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/231056
+        example_subject_type: sockg_Site
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/2726
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/235229
+        example_subject_type: sockg_SoilBiologicalSample
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7974
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/253451
+        example_subject_type: sockg_SoilChemicalSample
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/302328
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/307284
+        example_subject_type: sockg_SoilCover
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/5143
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/308318
+        example_subject_type: sockg_SoilPhysicalSample
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/5430914
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/336400
+        example_subject_type: sockg_State
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/336419
+        example_subject_type: sockg_Tillage
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/28616
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/363556
+        example_subject_type: sockg_Treatment
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/2717
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/2714
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7485997
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/46864
+        example_subject_type: sockg_City
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/2217129
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/46904
+        example_subject_type: sockg_County
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/302328
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/46937
+        example_subject_type: sockg_CropGrowthStage
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/976
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/51906
+        example_subject_type: sockg_Experiment
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/9183
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7259
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/55800
+        example_subject_type: sockg_Field
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/35067
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/203534
+        example_subject_type: sockg_Person
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/5630
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/203988
+        example_subject_type: sockg_PlantingEvent
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/61097
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/227438
+        example_subject_type: sockg_Project
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/305490
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/227447
+        example_subject_type: sockg_Publication
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/48678
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/227609
+        example_subject_type: sockg_ResearchUnit
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/33020
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/231116
+        example_subject_type: sockg_Soil
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7259
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/513777
+        example_subject_type: sockg_WeatherStation
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: rdfs:seeAlso
+    alias: rdfs_seeAlso
+    owner: sockg_SoilCover
+    domain_of:
+    - sockg_Amendment
+    - sockg_BioMassCarbohydrate
+    - sockg_BioMassEnergy
+    - sockg_BioMassMineral
+    - sockg_City
+    - sockg_County
+    - sockg_CropGrowthStage
+    - sockg_Experiment
+    - sockg_ExperimentalUnit
+    - sockg_Field
+    - sockg_GasNutrientLoss
+    - sockg_GasSample
+    - sockg_Grazing
+    - sockg_GrazingManagementEvent
+    - sockg_Harvest
+    - sockg_HarvestFraction
+    - sockg_NutrientEfficiency
+    - sockg_Organization
+    - sockg_Person
+    - sockg_Pesticide
+    - sockg_PlantingEvent
+    - sockg_Project
+    - sockg_Publication
+    - sockg_ResearchUnit
+    - sockg_ResidueManagementEvent
+    - sockg_Rotation
+    - sockg_Site
+    - sockg_Soil
+    - sockg_SoilBiologicalSample
+    - sockg_SoilChemicalSample
+    - sockg_SoilCover
+    - sockg_SoilPhysicalSample
+    - sockg_State
+    - sockg_Tillage
+    - sockg_Treatment
+    - sockg_WaterQualityArea
+    - sockg_WaterQualityConc
+    - sockg_WeatherObservation
+    - sockg_WeatherStation
+    - sockg_WindErosionArea
+    - sockg_YieldNutrientUptake
+    range: uri
+  sockg_date:
+    name: sockg_date
+    annotations:
+      string:
+        tag: string
+        value: 1034
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '2005-06-28'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    - object:
+        example_object: '1997-07-10'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/163960
+        example_subject_type: sockg_Grazing
+    - object:
+        example_object: '2007-11-14'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/172906
+        example_subject_type: sockg_Harvest
+    - object:
+        example_object: '2006-06-19'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
+    - object:
+        example_object: '2011-10-05'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/227674
+        example_subject_type: sockg_ResidueManagementEvent
+    - object:
+        example_object: '1994-04-11'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/235229
+        example_subject_type: sockg_SoilBiologicalSample
+    - object:
+        example_object: '2007-10-29'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/253451
+        example_subject_type: sockg_SoilChemicalSample
+    - object:
+        example_object: '2011-11-07'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/307284
+        example_subject_type: sockg_SoilCover
+    - object:
+        example_object: '2010-10-27'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/308318
+        example_subject_type: sockg_SoilPhysicalSample
+    - object:
+        example_object: '2009-10-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: '2008-09-04'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: '2018-10-04'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: '2015-10-25'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    - object:
+        example_object: '2011-08-31'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/46937
+        example_subject_type: sockg_CropGrowthStage
+    - object:
+        example_object: '2014-09-15'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: '2011-04-12'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: '2003-05-13'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: '2003-11-22'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/513777
+        example_subject_type: sockg_WeatherStation
+    - object:
+        example_object: '2008-05-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: '2001-03-15'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: '2014-11-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/302328
     rank: 1000
     slot_uri: sockg:date
     alias: sockg_date
@@ -273,6 +663,7 @@ attributes:
     - sockg_GasSample
     - sockg_Grazing
     - sockg_Harvest
+    - sockg_HarvestFraction
     - sockg_NutrientEfficiency
     - sockg_ResidueManagementEvent
     - sockg_SoilBiologicalSample
@@ -282,12 +673,84 @@ attributes:
     - sockg_WaterQualityArea
     - sockg_WaterQualityConc
     - sockg_WeatherObservation
+    - sockg_WeatherStation
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
+    union_of:
+    - '{''domain'': ''sockg_PlantingEvent''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_BioMassMineral''}'
+    - '{''domain'': ''sockg_Tillage''}'
+    - '{''domain'': ''sockg_Publication''}'
+    - '{''domain'': ''sockg_CropGrowthStage''}'
+    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+    - '{''domain'': ''sockg_Site''}'
+    - '{''domain'': ''sockg_SoilBiologicalSample''}'
+    - '{''domain'': ''sockg_GasSample''}'
+    - '{''domain'': ''sockg_SoilCover''}'
+    - '{''domain'': ''sockg_SoilChemicalSample''}'
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_Grazing''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_MiscellaneousMeasurement''}'
+    - '{''domain'': ''sockg_SoilPhysicalSample''}'
+    - '{''domain'': ''sockg_BioMassEnergy''}'
+    - '{''domain'': ''sockg_Harvest''}'
+    - '{''domain'': ''sockg_ResidueManagementEvent''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_WeatherObservation''}'
     range: Any
     any_of:
+    - range: date
     - range: string
-    - range: double
+  sockg_measSoilCover_UID:
+    name: sockg_measSoilCover_UID
+    annotations:
+      string:
+        tag: string
+        value: 1034
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: AgCros_IAAM7071_115_2011-11-07_Zea_mays_Corn_
+        example_object_type: string
+        example_predicate: sockg:measSoilCover_UID
+        example_subject: sockg:individuals/307284
+        example_subject_type: sockg_SoilCover
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_SoilCover
+    slot_uri: sockg:measSoilCover_UID
+    alias: sockg_measSoilCover_UID
+    owner: sockg_SoilCover
+    domain_of:
+    - sockg_SoilCover
+    range: string
+  sockg_soilCoverTimingDescriptor:
+    name: sockg_soilCoverTimingDescriptor
+    annotations:
+      string:
+        tag: string
+        value: 1034
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: Post harvest (2-4 weeks after harvest)
+        example_object_type: string
+        example_predicate: sockg:soilCoverTimingDescriptor
+        example_subject: sockg:individuals/307284
+        example_subject_type: sockg_SoilCover
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:soilCoverTimingDescriptor
+    alias: sockg_soilCoverTimingDescriptor
+    owner: sockg_SoilCover
+    domain_of:
+    - sockg_SoilCover
+    range: string
 class_uri: sockg:SoilCover
 
 ```

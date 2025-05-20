@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_amendmentPlacement
+# Slot: No slot (predicate) name specified (sockg_amendmentPlacement)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:amendmentPlacement](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/amendmentPlacement)
+
+This slot occurs 22624 times.
+
+
+URI: [sockg:amendmentPlacement](https://idir.uta.edu/sockg-ontology/docs/amendmentPlacement)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:amendmentPlacement](http://www.semanticweb.org/sockg/ontologies/2024
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgAmendment](../classes/SockgAmendment.md) | No type description provided |  no  |
+| [SockgAmendment](../classes/SockgAmendment.md) | An Amendment represents a specific alteration or addition made to agricultura... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:amendmentPlacement](http://www.semanticweb.org/sockg/ontologies/2024
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,74 +46,46 @@ URI: [sockg:amendmentPlacement](http://www.semanticweb.org/sockg/ontologies/2024
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#13919 sockg:amendmentPlacement Broadcast Surface |
-| neo4j://graph.individuals#23486 sockg:amendmentPlacement nan |
-
-## Comments
-
-* 22264 occurrences with subject type sockg:Amendment and object type string.
-* 15532 occurrences with subject type sockg:Amendment and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Amendment | string | sockg:individuals/1 | Broadcast Surface | 22624 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:amendmentPlacement |
-| native | soc-kg/main/:sockg_amendmentPlacement |
-
+* [https://lod.nal.usda.gov/nalt/4605](https://lod.nal.usda.gov/nalt/4605)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_amendmentPlacement
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 22264 occurrences with subject type sockg:Amendment and object type string.
-- 15532 occurrences with subject type sockg:Amendment and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 22624
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#13919 sockg:amendmentPlacement Broadcast Surface
-- value: neo4j://graph.individuals#23486 sockg:amendmentPlacement nan
-from_schema: soc-kg/main
+- object:
+    example_object: Broadcast Surface
+    example_object_type: string
+    example_predicate: sockg:amendmentPlacement
+    example_subject: sockg:individuals/1
+    example_subject_type: sockg_Amendment
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/4605
 rank: 1000
+domain: sockg_Amendment
 slot_uri: sockg:amendmentPlacement
 alias: sockg_amendmentPlacement
 domain_of:
 - sockg_Amendment
-range: Any
-any_of:
-- range: string
-- range: double
+range: string
 
 ```
 </details>

@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_projectName
+# Slot: No slot (predicate) name specified (sockg_projectName)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:projectName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/projectName)
+
+This slot occurs 64 times.
+
+
+URI: [sockg:projectName](https://idir.uta.edu/sockg-ontology/docs/projectName)
 
 
 
@@ -23,8 +27,8 @@ URI: [sockg:projectName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgExperiment](../classes/SockgExperiment.md) | No type description provided |  no  |
-| [SockgProject](../classes/SockgProject.md) | No type description provided |  no  |
+| [SockgExperiment](../classes/SockgExperiment.md) | An Experiment is a structured investigation carried out to observe and analyz... |  yes  |
+| [SockgProject](../classes/SockgProject.md) | A project in the context of agriculture refers to a planned set of activities... |  yes  |
 
 
 
@@ -43,72 +47,55 @@ URI: [sockg:projectName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#51735 sockg:projectName NUOnet |
-| neo4j://graph.individuals#227188 sockg:projectName NUOnet Alumbre, Ecuador, Phase 1 |
-
-## Comments
-
-* 55 occurrences with subject type sockg:Experiment and object type string.
-* 9 occurrences with subject type sockg:Project and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Experiment | string | sockg:individuals/51906 | GRACEnet | 55 |
+| sockg_Project | string | sockg:individuals/227438 | GRACEnet | 9 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:projectName |
-| native | soc-kg/main/:sockg_projectName |
-
+* [https://lod.nal.usda.gov/nalt/61097](https://lod.nal.usda.gov/nalt/61097)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_projectName
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 55 occurrences with subject type sockg:Experiment and object type string.
-- 9 occurrences with subject type sockg:Project and object type string.
+annotations:
+  count:
+    tag: count
+    value: 64
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#51735 sockg:projectName NUOnet
-- value: neo4j://graph.individuals#227188 sockg:projectName NUOnet Alumbre, Ecuador,
-    Phase 1
-from_schema: soc-kg/main
+- object:
+    example_object: GRACEnet
+    example_object_type: string
+    example_predicate: sockg:projectName
+    example_subject: sockg:individuals/51906
+    example_subject_type: sockg_Experiment
+- object:
+    example_object: GRACEnet
+    example_object_type: string
+    example_predicate: sockg:projectName
+    example_subject: sockg:individuals/227438
+    example_subject_type: sockg_Project
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/61097
 rank: 1000
 slot_uri: sockg:projectName
 alias: sockg_projectName
 domain_of:
 - sockg_Experiment
 - sockg_Project
+union_of:
+- '{''domain'': ''sockg_Project''}'
+- '{''domain'': ''sockg_Experiment''}'
 range: string
 
 ```

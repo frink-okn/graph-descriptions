@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_clayPercent
+# Slot: No slot (predicate) name specified (sockg_clayPercent)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:clayPercent](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/clayPercent)
+
+This slot occurs 27112 times.
+
+
+URI: [sockg:clayPercent](https://idir.uta.edu/sockg-ontology/docs/clayPercent)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:clayPercent](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSoilPhysicalSample](../classes/SockgSoilPhysicalSample.md) | No type description provided |  no  |
+| [SockgSoilPhysicalSample](../classes/SockgSoilPhysicalSample.md) | SoilPhysicalSample represents a comprehensive analysis of soil characteristic... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:clayPercent](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,67 +46,49 @@ URI: [sockg:clayPercent](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#325026 sockg:clayPercent 0.0 |
-
-## Comments
-
-* 28082 occurrences with subject type sockg:SoilPhysicalSample and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_SoilPhysicalSample | double | sockg:individuals/308319 | 0.0 | 27112 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:clayPercent |
-| native | soc-kg/main/:sockg_clayPercent |
-
+* [https://lod.nal.usda.gov/nalt/567](https://lod.nal.usda.gov/nalt/567)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_clayPercent
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 28082 occurrences with subject type sockg:SoilPhysicalSample and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 27112
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#325026 sockg:clayPercent 0.0
-from_schema: soc-kg/main
+- object:
+    example_object: '0.0'
+    example_object_type: double
+    example_predicate: sockg:clayPercent
+    example_subject: sockg:individuals/308319
+    example_subject_type: sockg_SoilPhysicalSample
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/567
 rank: 1000
+domain: sockg_SoilPhysicalSample
 slot_uri: sockg:clayPercent
 alias: sockg_clayPercent
 domain_of:
 - sockg_SoilPhysicalSample
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

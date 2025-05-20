@@ -1,15 +1,17 @@
 
 
-# Slot: sockg_sulfur_kg_ha
+# Slot: No slot (predicate) name specified (sockg_sulfur_kg_ha)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:sulfur_kg_ha](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/sulfur_kg_ha)
+
+
+URI: [sockg:sulfur_kg_ha](https://idir.uta.edu/sockg-ontology/docs/sulfur_kg_ha)
 
 
 
@@ -19,90 +21,39 @@ URI: [sockg:sulfur_kg_ha](http://www.semanticweb.org/sockg/ontologies/2024/0/soi
 
 
 
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | No type description provided |  no  |
-
-
-
-
 
 
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
 
-
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#509303 sockg:sulfur_kg_ha nan |
 
 ## Comments
 
-* 15 occurrences with subject type sockg:WindErosionArea and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:sulfur_kg_ha |
-| native | soc-kg/main/:sockg_sulfur_kg_ha |
-
+* No occurrences of this slot in the graph.
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_sulfur_kg_ha
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 comments:
-- 15 occurrences with subject type sockg:WindErosionArea and object type xsd:double.
-examples:
-- value: neo4j://graph.individuals#509303 sockg:sulfur_kg_ha nan
-from_schema: soc-kg/main
+- No occurrences of this slot in the graph.
+from_schema: soc-kg
 rank: 1000
+domain: sockg_WindErosionArea
 slot_uri: sockg:sulfur_kg_ha
 alias: sockg_sulfur_kg_ha
-domain_of:
-- sockg_WindErosionArea
-range: double
+range: float
 
 ```
 </details>

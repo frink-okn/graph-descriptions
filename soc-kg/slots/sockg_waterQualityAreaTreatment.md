@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_waterQualityAreaTreatment
+# Slot: No slot (predicate) name specified (sockg_waterQualityAreaTreatment)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:waterQualityAreaTreatment](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/waterQualityAreaTreatment)
+
+This slot occurs 667 times.
+
+
+URI: [sockg:waterQualityAreaTreatment](https://idir.uta.edu/sockg-ontology/docs/waterQualityAreaTreatment)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:waterQualityAreaTreatment](http://www.semanticweb.org/sockg/ontologi
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | No type description provided |  no  |
+| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | A WaterQualityArea represents a designated agricultural zone where water qual... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:waterQualityAreaTreatment](http://www.semanticweb.org/sockg/ontologi
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#360504 sockg:waterQualityAreaTreatment neo4j://graph.individuals#359736 |
-
-## Comments
-
-* 667 occurrences with subject type sockg:WaterQualityArea and object type sockg:Treatment.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:waterQualityAreaTreatment |
-| native | soc-kg/main/:sockg_waterQualityAreaTreatment |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_WaterQualityArea | sockg_Treatment | sockg:individuals/364326 | sockg:individuals/364223 | 667 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:waterQualityAreaTreatment](http://www.semanticweb.org/sockg/ontologi
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_waterQualityAreaTreatment
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 667 occurrences with subject type sockg:WaterQualityArea and object type sockg:Treatment.
+annotations:
+  count:
+    tag: count
+    value: 667
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#360504 sockg:waterQualityAreaTreatment neo4j://graph.individuals#359736
-from_schema: soc-kg/main
+- object:
+    example_object: sockg:individuals/364223
+    example_object_type: sockg_Treatment
+    example_predicate: sockg:waterQualityAreaTreatment
+    example_subject: sockg:individuals/364326
+    example_subject_type: sockg_WaterQualityArea
+from_schema: soc-kg
 rank: 1000
+domain: sockg_WaterQualityArea
 slot_uri: sockg:waterQualityAreaTreatment
 alias: sockg_waterQualityAreaTreatment
 domain_of:

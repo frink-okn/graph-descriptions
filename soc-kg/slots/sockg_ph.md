@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_ph
+# Slot: No slot (predicate) name specified (sockg_ph)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:ph](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/ph)
+
+This slot occurs 18189 times.
+
+
+URI: [sockg:ph](https://idir.uta.edu/sockg-ontology/docs/ph)
 
 
 
@@ -23,10 +27,7 @@ URI: [sockg:ph](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-o
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | No type description provided |  no  |
-| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | No type description provided |  no  |
-| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | No type description provided |  no  |
-| [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | No type description provided |  no  |
+| [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | The SoilChemicalSample class represents a comprehensive analysis of soil chem... |  yes  |
 
 
 
@@ -36,7 +37,7 @@ URI: [sockg:ph](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-o
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -45,82 +46,53 @@ URI: [sockg:ph](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-o
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#272323 sockg:ph nan |
-| neo4j://graph.individuals#360143 sockg:ph nan |
-| neo4j://graph.individuals#360790 sockg:ph nan |
-| neo4j://graph.individuals#509304 sockg:ph nan |
-
-## Comments
-
-* 53833 occurrences with subject type sockg:SoilChemicalSample and object type xsd:double.
-* 667 occurrences with subject type sockg:WaterQualityArea and object type xsd:double.
-* 1479 occurrences with subject type sockg:WaterQualityConc and object type xsd:double.
-* 15 occurrences with subject type sockg:WindErosionArea and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_SoilChemicalSample | double | sockg:individuals/253453 | 8.06 | 18189 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:ph |
-| native | soc-kg/main/:sockg_ph |
-
+* [https://lod.nal.usda.gov/nalt/2736](https://lod.nal.usda.gov/nalt/2736)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_ph
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 53833 occurrences with subject type sockg:SoilChemicalSample and object type xsd:double.
-- 667 occurrences with subject type sockg:WaterQualityArea and object type xsd:double.
-- 1479 occurrences with subject type sockg:WaterQualityConc and object type xsd:double.
-- 15 occurrences with subject type sockg:WindErosionArea and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 18189
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#272323 sockg:ph nan
-- value: neo4j://graph.individuals#360143 sockg:ph nan
-- value: neo4j://graph.individuals#360790 sockg:ph nan
-- value: neo4j://graph.individuals#509304 sockg:ph nan
-from_schema: soc-kg/main
+- object:
+    example_object: '8.06'
+    example_object_type: double
+    example_predicate: sockg:ph
+    example_subject: sockg:individuals/253453
+    example_subject_type: sockg_SoilChemicalSample
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/2736
 rank: 1000
 slot_uri: sockg:ph
 alias: sockg_ph
 domain_of:
 - sockg_SoilChemicalSample
-- sockg_WaterQualityArea
-- sockg_WaterQualityConc
-- sockg_WindErosionArea
-range: double
+union_of:
+- '{''domain'': ''sockg_WaterQualityArea''}'
+- '{''domain'': ''sockg_SoilChemicalSample''}'
+- '{''domain'': ''sockg_WaterQualityConc''}'
+- '{''domain'': ''sockg_WindErosionArea''}'
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

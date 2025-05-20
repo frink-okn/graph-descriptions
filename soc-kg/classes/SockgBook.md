@@ -1,15 +1,19 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (sockg_Book)
+# Class: No class (entity type) name specified (sockg_Book)
 
 
-_No type description provided_
+_A Book is a written or printed work that provides information, stories, or research, often serving as a valuable resource for learners and professionals in the field of agriculture. Such texts can encompass a wide range of topics, including crop management, sustainable farming practices, and agricultural innovations, fostering knowledge and understanding within the agricultural community._
 
 
 
 
 
-URI: [sockg:Book](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/Book)
+
+This class occurs 179 times.
+
+
+URI: [sockg:Book](https://idir.uta.edu/sockg-ontology/docs/Book)
 
 
 
@@ -40,53 +44,23 @@ URI: [sockg:Book](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
+| [sockg_bookName](../slots/sockg_bookName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 2 |
+
+
+
+
+
+## Usages
+
+| used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [sockg_bookName](../slots/sockg_bookName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [SockgBook](../classes/SockgBook.md) | [sockg_bookName](../slots/sockg_bookName.md) | domain | [SockgBook](../classes/SockgBook.md) |
 
 
 
 
-
-
-
-
-
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#46685 |
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:Book |
-| native | soc-kg/main/:SockgBook |
 
 
 
@@ -101,22 +75,31 @@ URI: [sockg:Book](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 ### Direct
 
 <details>
+
 ```yaml
 name: sockg_Book
-description: No type description provided
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- There are 2 instances of this class.
-examples:
-- value: neo4j://graph.individuals#46685
-from_schema: soc-kg/main
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 179
+description: A Book is a written or printed work that provides information, stories,
+  or research, often serving as a valuable resource for learners and professionals
+  in the field of agriculture. Such texts can encompass a wide range of topics, including
+  crop management, sustainable farming practices, and agricultural innovations, fostering
+  knowledge and understanding within the agricultural community.
+title: No class (entity type) name specified
+from_schema: soc-kg
 rank: 1000
 slots:
 - sockg_bookName
+slot_usage:
+  sockg_bookName:
+    name: sockg_bookName
+    annotations:
+      string:
+        tag: string
+        value: 2
 class_uri: sockg:Book
 
 ```
@@ -125,34 +108,48 @@ class_uri: sockg:Book
 ### Induced
 
 <details>
+
 ```yaml
 name: sockg_Book
-description: No type description provided
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- There are 2 instances of this class.
-examples:
-- value: neo4j://graph.individuals#46685
-from_schema: soc-kg/main
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 179
+description: A Book is a written or printed work that provides information, stories,
+  or research, often serving as a valuable resource for learners and professionals
+  in the field of agriculture. Such texts can encompass a wide range of topics, including
+  crop management, sustainable farming practices, and agricultural innovations, fostering
+  knowledge and understanding within the agricultural community.
+title: No class (entity type) name specified
+from_schema: soc-kg
 rank: 1000
+slot_usage:
+  sockg_bookName:
+    name: sockg_bookName
+    annotations:
+      string:
+        tag: string
+        value: 2
 attributes:
   sockg_bookName:
     name: sockg_bookName
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 2 occurrences with subject type sockg:Book and object type string.
+    annotations:
+      string:
+        tag: string
+        value: 2
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#46685 sockg:bookName Fractal Frontiers
-    from_schema: soc-kg/main
+    - object:
+        example_object: Fractal Frontiers
+        example_object_type: string
+        example_predicate: sockg:bookName
+        example_subject: sockg:individuals/46749
+        example_subject_type: sockg_Book
+    from_schema: soc-kg
     rank: 1000
+    domain: sockg_Book
     slot_uri: sockg:bookName
     alias: sockg_bookName
     owner: sockg_Book

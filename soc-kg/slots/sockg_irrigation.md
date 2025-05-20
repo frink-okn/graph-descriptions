@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_irrigation
+# Slot: No slot (predicate) name specified (sockg_irrigation)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:irrigation](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/irrigation)
+
+This slot occurs 769 times.
+
+
+URI: [sockg:irrigation](https://idir.uta.edu/sockg-ontology/docs/irrigation)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:irrigation](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgTreatment](../classes/SockgTreatment.md) | No type description provided |  no  |
+| [SockgTreatment](../classes/SockgTreatment.md) | The Treatment class encompasses various agricultural practices and management... |  yes  |
 
 
 
@@ -42,62 +46,41 @@ URI: [sockg:irrigation](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#359538 sockg:irrigation No |
-
-## Comments
-
-* 769 occurrences with subject type sockg:Treatment and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Treatment | string | sockg:individuals/363556 | No | 769 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:irrigation |
-| native | soc-kg/main/:sockg_irrigation |
-
+* [https://lod.nal.usda.gov/nalt/24709](https://lod.nal.usda.gov/nalt/24709)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_irrigation
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 769 occurrences with subject type sockg:Treatment and object type string.
+annotations:
+  count:
+    tag: count
+    value: 769
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#359538 sockg:irrigation No
-from_schema: soc-kg/main
+- object:
+    example_object: 'No'
+    example_object_type: string
+    example_predicate: sockg:irrigation
+    example_subject: sockg:individuals/363556
+    example_subject_type: sockg_Treatment
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/24709
 rank: 1000
+domain: sockg_Treatment
 slot_uri: sockg:irrigation
 alias: sockg_irrigation
 domain_of:

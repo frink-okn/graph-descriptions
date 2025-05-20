@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_measNutrEff_UID
+# Slot: No slot (predicate) name specified (sockg_measNutrEff_UID)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:measNutrEff_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/measNutrEff_UID)
+
+This slot occurs 2791 times.
+
+
+URI: [sockg:measNutrEff_UID](https://idir.uta.edu/sockg-ontology/docs/measNutrEff_UID)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:measNutrEff_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | No type description provided |  no  |
+| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | The NutrientEfficiency class represents the effectiveness of nutrient utiliza... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:measNutrEff_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#201205 sockg:measNutrEff_UID AgCros_NELITCSE_512_1998-10-15 |
-
-## Comments
-
-* 2791 occurrences with subject type sockg:NutrientEfficiency and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:measNutrEff_UID |
-| native | soc-kg/main/:sockg_measNutrEff_UID |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_NutrientEfficiency | string | sockg:individuals/200732 | AgCros_MNMOCAL_614_2014-09-15 | 2791 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:measNutrEff_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_measNutrEff_UID
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 2791 occurrences with subject type sockg:NutrientEfficiency and object type string.
+annotations:
+  count:
+    tag: count
+    value: 2791
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#201205 sockg:measNutrEff_UID AgCros_NELITCSE_512_1998-10-15
-from_schema: soc-kg/main
+- object:
+    example_object: AgCros_MNMOCAL_614_2014-09-15
+    example_object_type: string
+    example_predicate: sockg:measNutrEff_UID
+    example_subject: sockg:individuals/200732
+    example_subject_type: sockg_NutrientEfficiency
+from_schema: soc-kg
 rank: 1000
+domain: sockg_NutrientEfficiency
 slot_uri: sockg:measNutrEff_UID
 alias: sockg_measNutrEff_UID
 domain_of:

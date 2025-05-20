@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_rotationDescriptor
+# Slot: No slot (predicate) name specified (sockg_rotationDescriptor)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:rotationDescriptor](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/rotationDescriptor)
+
+This slot occurs 66 times.
+
+
+URI: [sockg:rotationDescriptor](https://idir.uta.edu/sockg-ontology/docs/rotationDescriptor)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:rotationDescriptor](http://www.semanticweb.org/sockg/ontologies/2024
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgRotation](../classes/SockgRotation.md) | No type description provided |  no  |
+| [SockgRotation](../classes/SockgRotation.md) | Rotation refers to the practice of systematically changing the types of crops... |  yes  |
 
 
 
@@ -42,63 +46,41 @@ URI: [sockg:rotationDescriptor](http://www.semanticweb.org/sockg/ontologies/2024
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#230661 sockg:rotationDescriptor Forage Soybean, Wheat, Corn |
-
-## Comments
-
-* 66 occurrences with subject type sockg:Rotation and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Rotation | string | sockg:individuals/230982 | Rangeland | 66 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:rotationDescriptor |
-| native | soc-kg/main/:sockg_rotationDescriptor |
-
+* [https://lod.nal.usda.gov/nalt/30158](https://lod.nal.usda.gov/nalt/30158)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_rotationDescriptor
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 66 occurrences with subject type sockg:Rotation and object type string.
+annotations:
+  count:
+    tag: count
+    value: 66
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#230661 sockg:rotationDescriptor Forage Soybean,
-    Wheat, Corn
-from_schema: soc-kg/main
+- object:
+    example_object: Rangeland
+    example_object_type: string
+    example_predicate: sockg:rotationDescriptor
+    example_subject: sockg:individuals/230982
+    example_subject_type: sockg_Rotation
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/30158
 rank: 1000
+domain: sockg_Rotation
 slot_uri: sockg:rotationDescriptor
 alias: sockg_rotationDescriptor
 domain_of:

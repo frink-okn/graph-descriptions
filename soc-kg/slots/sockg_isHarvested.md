@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_isHarvested
+# Slot: No slot (predicate) name specified (sockg_isHarvested)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:isHarvested](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/isHarvested)
+
+This slot occurs 18356 times.
+
+
+URI: [sockg:isHarvested](https://idir.uta.edu/sockg-ontology/docs/isHarvested)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:isHarvested](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | No type description provided |  no  |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | An ExperimentalUnit represents a specific segment of agricultural research fo... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:isHarvested](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#55477 sockg:isHarvested neo4j://graph.individuals#188250 |
-
-## Comments
-
-* 18356 occurrences with subject type sockg:ExperimentalUnit and object type sockg:Harvest.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:isHarvested |
-| native | soc-kg/main/:sockg_isHarvested |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_ExperimentalUnit | sockg_Harvest | sockg:individuals/51937 | sockg:individuals/174016 | 18356 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:isHarvested](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_isHarvested
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 18356 occurrences with subject type sockg:ExperimentalUnit and object type sockg:Harvest.
+annotations:
+  count:
+    tag: count
+    value: 18356
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#55477 sockg:isHarvested neo4j://graph.individuals#188250
-from_schema: soc-kg/main
+- object:
+    example_object: sockg:individuals/174016
+    example_object_type: sockg_Harvest
+    example_predicate: sockg:isHarvested
+    example_subject: sockg:individuals/51937
+    example_subject_type: sockg_ExperimentalUnit
+from_schema: soc-kg
 rank: 1000
+domain: sockg_ExperimentalUnit
 slot_uri: sockg:isHarvested
 alias: sockg_isHarvested
 domain_of:

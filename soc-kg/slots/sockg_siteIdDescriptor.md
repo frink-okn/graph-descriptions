@@ -1,15 +1,17 @@
 
 
-# Slot: sockg_siteIdDescriptor
+# Slot: No slot (predicate) name specified (sockg_siteIdDescriptor)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:siteIdDescriptor](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/siteIdDescriptor)
+
+
+URI: [sockg:siteIdDescriptor](https://idir.uta.edu/sockg-ontology/docs/siteIdDescriptor)
 
 
 
@@ -19,90 +21,39 @@ URI: [sockg:siteIdDescriptor](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 
 
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [SockgSite](../classes/SockgSite.md) | No type description provided |  no  |
-
-
-
-
 
 
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
 
-
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#230688 sockg:siteIdDescriptor nan |
 
 ## Comments
 
-* 60 occurrences with subject type sockg:Site and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:siteIdDescriptor |
-| native | soc-kg/main/:sockg_siteIdDescriptor |
-
+* No occurrences of this slot in the graph.
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_siteIdDescriptor
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 comments:
-- 60 occurrences with subject type sockg:Site and object type xsd:double.
-examples:
-- value: neo4j://graph.individuals#230688 sockg:siteIdDescriptor nan
-from_schema: soc-kg/main
+- No occurrences of this slot in the graph.
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Site
 slot_uri: sockg:siteIdDescriptor
 alias: sockg_siteIdDescriptor
-domain_of:
-- sockg_Site
-range: double
+range: string
 
 ```
 </details>

@@ -1,15 +1,19 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (sockg_BioMassMineral)
+# Class: No class (entity type) name specified (sockg_BioMassMineral)
 
 
-_No type description provided_
+_BioMassMiner is a class that represents the analysis of biomass in terms of its mineral nutrient concentrations and their relevance to crop growth stages. This information is essential for understanding the nutritional requirements of plants and optimizing agricultural practices for enhanced yield._
 
 
 
 
 
-URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/BioMassMineral)
+
+This class occurs 6723 times.
+
+
+URI: [sockg:BioMassMineral](https://idir.uta.edu/sockg-ontology/docs/BioMassMineral)
 
 
 
@@ -20,22 +24,22 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
  classDiagram
     class SockgBioMassMineral
     click SockgBioMassMineral href "../SockgBioMassMineral"
+      SockgBioMassMineral : rdfs_seeAlso
+        
+          
+    
+    
+    SockgBioMassMineral --> "0..1" Uri : rdfs_seeAlso
+    click Uri href "../Uri"
+
+        
       SockgBioMassMineral : sockg_aluminumConcentration_mg_per_kg
         
           
     
     
-    SockgBioMassMineral --> "0..1" Double : sockg_aluminumConcentration_mg_per_kg
-    click Double href "../Double"
-
-        
-      SockgBioMassMineral : sockg_aluminumConcentrationStd_mg_per_kg
-        
-          
-    
-    
-    SockgBioMassMineral --> "0..1" Double : sockg_aluminumConcentrationStd_mg_per_kg
-    click Double href "../Double"
+    SockgBioMassMineral --> "0..1" Any : sockg_aluminumConcentration_mg_per_kg
+    click Any href "../Any"
 
         
       SockgBioMassMineral : sockg_boronConcentration_mg_per_kg
@@ -43,17 +47,8 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
           
     
     
-    SockgBioMassMineral --> "0..1" Double : sockg_boronConcentration_mg_per_kg
-    click Double href "../Double"
-
-        
-      SockgBioMassMineral : sockg_boronConcentrationStd_mg_per_kg
-        
-          
-    
-    
-    SockgBioMassMineral --> "0..1" Double : sockg_boronConcentrationStd_mg_per_kg
-    click Double href "../Double"
+    SockgBioMassMineral --> "0..1" Any : sockg_boronConcentration_mg_per_kg
+    click Any href "../Any"
 
         
       SockgBioMassMineral : sockg_calciumConcentration_g_per_kg
@@ -61,17 +56,8 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
           
     
     
-    SockgBioMassMineral --> "0..1" Double : sockg_calciumConcentration_g_per_kg
-    click Double href "../Double"
-
-        
-      SockgBioMassMineral : sockg_calciumConcentrationStd_g_per_kg
-        
-          
-    
-    
-    SockgBioMassMineral --> "0..1" Double : sockg_calciumConcentrationStd_g_per_kg
-    click Double href "../Double"
+    SockgBioMassMineral --> "0..1" Any : sockg_calciumConcentration_g_per_kg
+    click Any href "../Any"
 
         
       SockgBioMassMineral : sockg_carbonConcentration_g_per_kg
@@ -79,35 +65,8 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
           
     
     
-    SockgBioMassMineral --> "0..1" Double : sockg_carbonConcentration_g_per_kg
-    click Double href "../Double"
-
-        
-      SockgBioMassMineral : sockg_carbonConcentrationStd_g_per_kg
-        
-          
-    
-    
-    SockgBioMassMineral --> "0..1" Double : sockg_carbonConcentrationStd_g_per_kg
-    click Double href "../Double"
-
-        
-      SockgBioMassMineral : sockg_chlorineConcentration_g_per_kg
-        
-          
-    
-    
-    SockgBioMassMineral --> "0..1" Double : sockg_chlorineConcentration_g_per_kg
-    click Double href "../Double"
-
-        
-      SockgBioMassMineral : sockg_chlorineConcentrationStd_g_per_kg
-        
-          
-    
-    
-    SockgBioMassMineral --> "0..1" Double : sockg_chlorineConcentrationStd_g_per_kg
-    click Double href "../Double"
+    SockgBioMassMineral --> "0..1" Any : sockg_carbonConcentration_g_per_kg
+    click Any href "../Any"
 
         
       SockgBioMassMineral : sockg_copperConcentration_mg_per_kg
@@ -115,17 +74,8 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
           
     
     
-    SockgBioMassMineral --> "0..1" Double : sockg_copperConcentration_mg_per_kg
-    click Double href "../Double"
-
-        
-      SockgBioMassMineral : sockg_copperConcentrationStd_mg_per_kg
-        
-          
-    
-    
-    SockgBioMassMineral --> "0..1" Double : sockg_copperConcentrationStd_mg_per_kg
-    click Double href "../Double"
+    SockgBioMassMineral --> "0..1" Any : sockg_copperConcentration_mg_per_kg
+    click Any href "../Any"
 
         
       SockgBioMassMineral : sockg_crop
@@ -133,8 +83,8 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
           
     
     
-    SockgBioMassMineral --> "0..1" Any : sockg_crop
-    click Any href "../Any"
+    SockgBioMassMineral --> "0..1" String : sockg_crop
+    click String href "../String"
 
         
       SockgBioMassMineral : sockg_date
@@ -151,8 +101,8 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
           
     
     
-    SockgBioMassMineral --> "0..1" Any : sockg_growthStage
-    click Any href "../Any"
+    SockgBioMassMineral --> "0..1" String : sockg_growthStage
+    click String href "../String"
 
         
       SockgBioMassMineral : sockg_ironConcentration_mg_per_kg
@@ -160,17 +110,8 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
           
     
     
-    SockgBioMassMineral --> "0..1" Double : sockg_ironConcentration_mg_per_kg
-    click Double href "../Double"
-
-        
-      SockgBioMassMineral : sockg_ironConcentrationStd_mg_per_kg
-        
-          
-    
-    
-    SockgBioMassMineral --> "0..1" Double : sockg_ironConcentrationStd_mg_per_kg
-    click Double href "../Double"
+    SockgBioMassMineral --> "0..1" Any : sockg_ironConcentration_mg_per_kg
+    click Any href "../Any"
 
         
       SockgBioMassMineral : sockg_magnesiumConcentration_g_per_kg
@@ -178,17 +119,8 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
           
     
     
-    SockgBioMassMineral --> "0..1" Double : sockg_magnesiumConcentration_g_per_kg
-    click Double href "../Double"
-
-        
-      SockgBioMassMineral : sockg_magnesiumConcentrationStd_g_per_kg
-        
-          
-    
-    
-    SockgBioMassMineral --> "0..1" Double : sockg_magnesiumConcentrationStd_g_per_kg
-    click Double href "../Double"
+    SockgBioMassMineral --> "0..1" Any : sockg_magnesiumConcentration_g_per_kg
+    click Any href "../Any"
 
         
       SockgBioMassMineral : sockg_manganeseConcentration_mg_per_kg
@@ -196,17 +128,8 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
           
     
     
-    SockgBioMassMineral --> "0..1" Double : sockg_manganeseConcentration_mg_per_kg
-    click Double href "../Double"
-
-        
-      SockgBioMassMineral : sockg_manganeseConcentrationStd_mg_per_kg
-        
-          
-    
-    
-    SockgBioMassMineral --> "0..1" Double : sockg_manganeseConcentrationStd_mg_per_kg
-    click Double href "../Double"
+    SockgBioMassMineral --> "0..1" Any : sockg_manganeseConcentration_mg_per_kg
+    click Any href "../Any"
 
         
       SockgBioMassMineral : sockg_measBiomassMinAn_UID
@@ -223,17 +146,8 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
           
     
     
-    SockgBioMassMineral --> "0..1" Double : sockg_nitrogenConcentration_g_per_kg
-    click Double href "../Double"
-
-        
-      SockgBioMassMineral : sockg_nitrogenConcentrationStd_g_per_kg
-        
-          
-    
-    
-    SockgBioMassMineral --> "0..1" Double : sockg_nitrogenConcentrationStd_g_per_kg
-    click Double href "../Double"
+    SockgBioMassMineral --> "0..1" Any : sockg_nitrogenConcentration_g_per_kg
+    click Any href "../Any"
 
         
       SockgBioMassMineral : sockg_phosphorusConcentration_g_per_kg
@@ -241,17 +155,8 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
           
     
     
-    SockgBioMassMineral --> "0..1" Double : sockg_phosphorusConcentration_g_per_kg
-    click Double href "../Double"
-
-        
-      SockgBioMassMineral : sockg_phosphorusConcentrationStd_g_per_kg
-        
-          
-    
-    
-    SockgBioMassMineral --> "0..1" Double : sockg_phosphorusConcentrationStd_g_per_kg
-    click Double href "../Double"
+    SockgBioMassMineral --> "0..1" Any : sockg_phosphorusConcentration_g_per_kg
+    click Any href "../Any"
 
         
       SockgBioMassMineral : sockg_plantFraction
@@ -259,8 +164,8 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
           
     
     
-    SockgBioMassMineral --> "0..1" Any : sockg_plantFraction
-    click Any href "../Any"
+    SockgBioMassMineral --> "0..1" String : sockg_plantFraction
+    click String href "../String"
 
         
       SockgBioMassMineral : sockg_potassiumConcentration_g_per_kg
@@ -268,17 +173,8 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
           
     
     
-    SockgBioMassMineral --> "0..1" Double : sockg_potassiumConcentration_g_per_kg
-    click Double href "../Double"
-
-        
-      SockgBioMassMineral : sockg_potassiumConcentrationStd_g_per_kg
-        
-          
-    
-    
-    SockgBioMassMineral --> "0..1" Double : sockg_potassiumConcentrationStd_g_per_kg
-    click Double href "../Double"
+    SockgBioMassMineral --> "0..1" Any : sockg_potassiumConcentration_g_per_kg
+    click Any href "../Any"
 
         
       SockgBioMassMineral : sockg_sodiumConcentration_g_per_kg
@@ -286,17 +182,8 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
           
     
     
-    SockgBioMassMineral --> "0..1" Double : sockg_sodiumConcentration_g_per_kg
-    click Double href "../Double"
-
-        
-      SockgBioMassMineral : sockg_sodiumConcentrationStd_g_per_kg
-        
-          
-    
-    
-    SockgBioMassMineral --> "0..1" Double : sockg_sodiumConcentrationStd_g_per_kg
-    click Double href "../Double"
+    SockgBioMassMineral --> "0..1" Any : sockg_sodiumConcentration_g_per_kg
+    click Any href "../Any"
 
         
       SockgBioMassMineral : sockg_sulfurConcentration_g_per_kg
@@ -304,17 +191,8 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
           
     
     
-    SockgBioMassMineral --> "0..1" Double : sockg_sulfurConcentration_g_per_kg
-    click Double href "../Double"
-
-        
-      SockgBioMassMineral : sockg_sulfurConcentrationStd_g_per_kg
-        
-          
-    
-    
-    SockgBioMassMineral --> "0..1" Double : sockg_sulfurConcentrationStd_g_per_kg
-    click Double href "../Double"
+    SockgBioMassMineral --> "0..1" Any : sockg_sulfurConcentration_g_per_kg
+    click Any href "../Any"
 
         
       SockgBioMassMineral : sockg_treatmentId
@@ -322,8 +200,8 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
           
     
     
-    SockgBioMassMineral --> "0..1" String : sockg_treatmentId
-    click String href "../String"
+    SockgBioMassMineral --> "0..1" Any : sockg_treatmentId
+    click Any href "../Any"
 
         
       SockgBioMassMineral : sockg_zincConcentration_mg_per_kg
@@ -331,17 +209,8 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
           
     
     
-    SockgBioMassMineral --> "0..1" Double : sockg_zincConcentration_mg_per_kg
-    click Double href "../Double"
-
-        
-      SockgBioMassMineral : sockg_zincConcentrationStd_mg_per_kg
-        
-          
-    
-    
-    SockgBioMassMineral --> "0..1" Double : sockg_zincConcentrationStd_mg_per_kg
-    click Double href "../Double"
+    SockgBioMassMineral --> "0..1" Any : sockg_zincConcentration_mg_per_kg
+    click Any href "../Any"
 
         
       
@@ -355,44 +224,29 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [sockg_magnesiumConcentration_g_per_kg](../slots/sockg_magnesiumConcentration_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
-| [sockg_chlorineConcentration_g_per_kg](../slots/sockg_chlorineConcentration_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_sulfurConcentration_g_per_kg](../slots/sockg_sulfurConcentration_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_magnesiumConcentrationStd_g_per_kg](../slots/sockg_magnesiumConcentrationStd_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_measBiomassMinAn_UID](../slots/sockg_measBiomassMinAn_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
-| [sockg_ironConcentrationStd_mg_per_kg](../slots/sockg_ironConcentrationStd_mg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_crop](../slots/sockg_crop.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_nitrogenConcentration_g_per_kg](../slots/sockg_nitrogenConcentration_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_chlorineConcentrationStd_g_per_kg](../slots/sockg_chlorineConcentrationStd_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_manganeseConcentration_mg_per_kg](../slots/sockg_manganeseConcentration_mg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_copperConcentrationStd_mg_per_kg](../slots/sockg_copperConcentrationStd_mg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_sodiumConcentration_g_per_kg](../slots/sockg_sodiumConcentration_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_boronConcentrationStd_mg_per_kg](../slots/sockg_boronConcentrationStd_mg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_carbonConcentration_g_per_kg](../slots/sockg_carbonConcentration_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_plantFraction](../slots/sockg_plantFraction.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_growthStage](../slots/sockg_growthStage.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_aluminumConcentrationStd_mg_per_kg](../slots/sockg_aluminumConcentrationStd_mg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_potassiumConcentrationStd_g_per_kg](../slots/sockg_potassiumConcentrationStd_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_phosphorusConcentrationStd_g_per_kg](../slots/sockg_phosphorusConcentrationStd_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_aluminumConcentration_mg_per_kg](../slots/sockg_aluminumConcentration_mg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_nitrogenConcentrationStd_g_per_kg](../slots/sockg_nitrogenConcentrationStd_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_calciumConcentrationStd_g_per_kg](../slots/sockg_calciumConcentrationStd_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_zincConcentrationStd_mg_per_kg](../slots/sockg_zincConcentrationStd_mg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_sodiumConcentrationStd_g_per_kg](../slots/sockg_sodiumConcentrationStd_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_carbonConcentrationStd_g_per_kg](../slots/sockg_carbonConcentrationStd_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_manganeseConcentrationStd_mg_per_kg](../slots/sockg_manganeseConcentrationStd_mg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_potassiumConcentration_g_per_kg](../slots/sockg_potassiumConcentration_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_sulfurConcentrationStd_g_per_kg](../slots/sockg_sulfurConcentrationStd_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_phosphorusConcentration_g_per_kg](../slots/sockg_phosphorusConcentration_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_zincConcentration_mg_per_kg](../slots/sockg_zincConcentration_mg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_calciumConcentration_g_per_kg](../slots/sockg_calciumConcentration_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_ironConcentration_mg_per_kg](../slots/sockg_ironConcentration_mg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_boronConcentration_mg_per_kg](../slots/sockg_boronConcentration_mg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_copperConcentration_mg_per_kg](../slots/sockg_copperConcentration_mg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
+| [sockg_crop](../slots/sockg_crop.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 6723 |
+| [sockg_boronConcentration_mg_per_kg](../slots/sockg_boronConcentration_mg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 3967 |
+| [sockg_magnesiumConcentration_g_per_kg](../slots/sockg_magnesiumConcentration_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 6723 |
+| [sockg_aluminumConcentration_mg_per_kg](../slots/sockg_aluminumConcentration_mg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 6253 |
+| [sockg_ironConcentration_mg_per_kg](../slots/sockg_ironConcentration_mg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 6723 |
+| [sockg_phosphorusConcentration_g_per_kg](../slots/sockg_phosphorusConcentration_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 6723 |
+| [sockg_carbonConcentration_g_per_kg](../slots/sockg_carbonConcentration_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 6723 |
+| [sockg_sulfurConcentration_g_per_kg](../slots/sockg_sulfurConcentration_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 5074 |
+| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 6723 |
+| [sockg_measBiomassMinAn_UID](../slots/sockg_measBiomassMinAn_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 6723 |
+| [sockg_potassiumConcentration_g_per_kg](../slots/sockg_potassiumConcentration_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 6723 |
+| [sockg_zincConcentration_mg_per_kg](../slots/sockg_zincConcentration_mg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 6723 |
+| [sockg_copperConcentration_mg_per_kg](../slots/sockg_copperConcentration_mg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 6723 |
+| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 6723 |
+| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 6723 |
+| [sockg_plantFraction](../slots/sockg_plantFraction.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 6723 |
+| [sockg_nitrogenConcentration_g_per_kg](../slots/sockg_nitrogenConcentration_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 6723 |
+| [sockg_calciumConcentration_g_per_kg](../slots/sockg_calciumConcentration_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 6723 |
+| [sockg_manganeseConcentration_mg_per_kg](../slots/sockg_manganeseConcentration_mg_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 6723 |
+| [sockg_sodiumConcentration_g_per_kg](../slots/sockg_sodiumConcentration_g_per_kg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 6415 |
+| [sockg_growthStage](../slots/sockg_growthStage.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 6723 |
 
 
 
@@ -402,6 +256,21 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | [sockg_boronConcentration_mg_per_kg](../slots/sockg_boronConcentration_mg_per_kg.md) | domain | [SockgBioMassMineral](../classes/SockgBioMassMineral.md) |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | [sockg_magnesiumConcentration_g_per_kg](../slots/sockg_magnesiumConcentration_g_per_kg.md) | domain | [SockgBioMassMineral](../classes/SockgBioMassMineral.md) |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | [sockg_aluminumConcentration_mg_per_kg](../slots/sockg_aluminumConcentration_mg_per_kg.md) | domain | [SockgBioMassMineral](../classes/SockgBioMassMineral.md) |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | [sockg_ironConcentration_mg_per_kg](../slots/sockg_ironConcentration_mg_per_kg.md) | domain | [SockgBioMassMineral](../classes/SockgBioMassMineral.md) |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | [sockg_phosphorusConcentration_g_per_kg](../slots/sockg_phosphorusConcentration_g_per_kg.md) | domain | [SockgBioMassMineral](../classes/SockgBioMassMineral.md) |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | [sockg_carbonConcentration_g_per_kg](../slots/sockg_carbonConcentration_g_per_kg.md) | domain | [SockgBioMassMineral](../classes/SockgBioMassMineral.md) |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | [sockg_sulfurConcentration_g_per_kg](../slots/sockg_sulfurConcentration_g_per_kg.md) | domain | [SockgBioMassMineral](../classes/SockgBioMassMineral.md) |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | [sockg_measBiomassMinAn_UID](../slots/sockg_measBiomassMinAn_UID.md) | domain | [SockgBioMassMineral](../classes/SockgBioMassMineral.md) |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | [sockg_potassiumConcentration_g_per_kg](../slots/sockg_potassiumConcentration_g_per_kg.md) | domain | [SockgBioMassMineral](../classes/SockgBioMassMineral.md) |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | [sockg_zincConcentration_mg_per_kg](../slots/sockg_zincConcentration_mg_per_kg.md) | domain | [SockgBioMassMineral](../classes/SockgBioMassMineral.md) |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | [sockg_copperConcentration_mg_per_kg](../slots/sockg_copperConcentration_mg_per_kg.md) | domain | [SockgBioMassMineral](../classes/SockgBioMassMineral.md) |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | [sockg_nitrogenConcentration_g_per_kg](../slots/sockg_nitrogenConcentration_g_per_kg.md) | domain | [SockgBioMassMineral](../classes/SockgBioMassMineral.md) |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | [sockg_calciumConcentration_g_per_kg](../slots/sockg_calciumConcentration_g_per_kg.md) | domain | [SockgBioMassMineral](../classes/SockgBioMassMineral.md) |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | [sockg_manganeseConcentration_mg_per_kg](../slots/sockg_manganeseConcentration_mg_per_kg.md) | domain | [SockgBioMassMineral](../classes/SockgBioMassMineral.md) |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | [sockg_sodiumConcentration_g_per_kg](../slots/sockg_sodiumConcentration_g_per_kg.md) | domain | [SockgBioMassMineral](../classes/SockgBioMassMineral.md) |
 | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_hasBioMassMineralData](../slots/sockg_hasBioMassMineralData.md) | range | [SockgBioMassMineral](../classes/SockgBioMassMineral.md) |
 
 
@@ -409,42 +278,9 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 
 
+## See Also
 
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#42180 |
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:BioMassMineral |
-| native | soc-kg/main/:SockgBioMassMineral |
-
+* [https://lod.nal.usda.gov/nalt/24610](https://lod.nal.usda.gov/nalt/24610)
 
 
 
@@ -458,57 +294,172 @@ URI: [sockg:BioMassMineral](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 ### Direct
 
 <details>
+
 ```yaml
 name: sockg_BioMassMineral
-description: No type description provided
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- There are 6723 instances of this class.
-examples:
-- value: neo4j://graph.individuals#42180
-from_schema: soc-kg/main
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 6723
+description: BioMassMiner is a class that represents the analysis of biomass in terms
+  of its mineral nutrient concentrations and their relevance to crop growth stages.
+  This information is essential for understanding the nutritional requirements of
+  plants and optimizing agricultural practices for enhanced yield.
+title: No class (entity type) name specified
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/24610
 rank: 1000
 slots:
-- sockg_magnesiumConcentration_g_per_kg
-- sockg_treatmentId
-- sockg_chlorineConcentration_g_per_kg
-- sockg_sulfurConcentration_g_per_kg
-- sockg_magnesiumConcentrationStd_g_per_kg
-- sockg_measBiomassMinAn_UID
-- sockg_ironConcentrationStd_mg_per_kg
 - sockg_crop
-- sockg_nitrogenConcentration_g_per_kg
-- sockg_chlorineConcentrationStd_g_per_kg
-- sockg_manganeseConcentration_mg_per_kg
-- sockg_copperConcentrationStd_mg_per_kg
-- sockg_sodiumConcentration_g_per_kg
-- sockg_boronConcentrationStd_mg_per_kg
-- sockg_carbonConcentration_g_per_kg
-- sockg_plantFraction
-- sockg_growthStage
-- sockg_aluminumConcentrationStd_mg_per_kg
-- sockg_potassiumConcentrationStd_g_per_kg
-- sockg_phosphorusConcentrationStd_g_per_kg
-- sockg_aluminumConcentration_mg_per_kg
-- sockg_nitrogenConcentrationStd_g_per_kg
-- sockg_calciumConcentrationStd_g_per_kg
-- sockg_zincConcentrationStd_mg_per_kg
-- sockg_sodiumConcentrationStd_g_per_kg
-- sockg_carbonConcentrationStd_g_per_kg
-- sockg_date
-- sockg_manganeseConcentrationStd_mg_per_kg
-- sockg_potassiumConcentration_g_per_kg
-- sockg_sulfurConcentrationStd_g_per_kg
-- sockg_phosphorusConcentration_g_per_kg
-- sockg_zincConcentration_mg_per_kg
-- sockg_calciumConcentration_g_per_kg
-- sockg_ironConcentration_mg_per_kg
 - sockg_boronConcentration_mg_per_kg
+- sockg_magnesiumConcentration_g_per_kg
+- sockg_aluminumConcentration_mg_per_kg
+- sockg_ironConcentration_mg_per_kg
+- sockg_phosphorusConcentration_g_per_kg
+- sockg_carbonConcentration_g_per_kg
+- sockg_sulfurConcentration_g_per_kg
+- sockg_treatmentId
+- sockg_measBiomassMinAn_UID
+- sockg_potassiumConcentration_g_per_kg
+- sockg_zincConcentration_mg_per_kg
 - sockg_copperConcentration_mg_per_kg
+- sockg_date
+- rdfs_seeAlso
+- sockg_plantFraction
+- sockg_nitrogenConcentration_g_per_kg
+- sockg_calciumConcentration_g_per_kg
+- sockg_manganeseConcentration_mg_per_kg
+- sockg_sodiumConcentration_g_per_kg
+- sockg_growthStage
+slot_usage:
+  rdfs_seeAlso:
+    name: rdfs_seeAlso
+    annotations:
+      uri:
+        tag: uri
+        value: 6723
+  sockg_aluminumConcentration_mg_per_kg:
+    name: sockg_aluminumConcentration_mg_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6253
+  sockg_boronConcentration_mg_per_kg:
+    name: sockg_boronConcentration_mg_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 3967
+  sockg_calciumConcentration_g_per_kg:
+    name: sockg_calciumConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+  sockg_carbonConcentration_g_per_kg:
+    name: sockg_carbonConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+  sockg_copperConcentration_mg_per_kg:
+    name: sockg_copperConcentration_mg_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+  sockg_crop:
+    name: sockg_crop
+    annotations:
+      string:
+        tag: string
+        value: 6723
+  sockg_date:
+    name: sockg_date
+    annotations:
+      string:
+        tag: string
+        value: 6723
+  sockg_growthStage:
+    name: sockg_growthStage
+    annotations:
+      string:
+        tag: string
+        value: 6723
+  sockg_ironConcentration_mg_per_kg:
+    name: sockg_ironConcentration_mg_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+  sockg_magnesiumConcentration_g_per_kg:
+    name: sockg_magnesiumConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+  sockg_manganeseConcentration_mg_per_kg:
+    name: sockg_manganeseConcentration_mg_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+  sockg_measBiomassMinAn_UID:
+    name: sockg_measBiomassMinAn_UID
+    annotations:
+      string:
+        tag: string
+        value: 6723
+  sockg_nitrogenConcentration_g_per_kg:
+    name: sockg_nitrogenConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+  sockg_phosphorusConcentration_g_per_kg:
+    name: sockg_phosphorusConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+  sockg_plantFraction:
+    name: sockg_plantFraction
+    annotations:
+      string:
+        tag: string
+        value: 6723
+  sockg_potassiumConcentration_g_per_kg:
+    name: sockg_potassiumConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+  sockg_sodiumConcentration_g_per_kg:
+    name: sockg_sodiumConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6415
+  sockg_sulfurConcentration_g_per_kg:
+    name: sockg_sulfurConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 5074
+  sockg_treatmentId:
+    name: sockg_treatmentId
+    annotations:
+      string:
+        tag: string
+        value: 6723
+  sockg_zincConcentration_mg_per_kg:
+    name: sockg_zincConcentration_mg_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
 class_uri: sockg:BioMassMineral
 
 ```
@@ -517,101 +468,611 @@ class_uri: sockg:BioMassMineral
 ### Induced
 
 <details>
+
 ```yaml
 name: sockg_BioMassMineral
-description: No type description provided
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- There are 6723 instances of this class.
-examples:
-- value: neo4j://graph.individuals#42180
-from_schema: soc-kg/main
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 6723
+description: BioMassMiner is a class that represents the analysis of biomass in terms
+  of its mineral nutrient concentrations and their relevance to crop growth stages.
+  This information is essential for understanding the nutritional requirements of
+  plants and optimizing agricultural practices for enhanced yield.
+title: No class (entity type) name specified
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/24610
 rank: 1000
-attributes:
+slot_usage:
+  rdfs_seeAlso:
+    name: rdfs_seeAlso
+    annotations:
+      uri:
+        tag: uri
+        value: 6723
+  sockg_aluminumConcentration_mg_per_kg:
+    name: sockg_aluminumConcentration_mg_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6253
+  sockg_boronConcentration_mg_per_kg:
+    name: sockg_boronConcentration_mg_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 3967
+  sockg_calciumConcentration_g_per_kg:
+    name: sockg_calciumConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+  sockg_carbonConcentration_g_per_kg:
+    name: sockg_carbonConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+  sockg_copperConcentration_mg_per_kg:
+    name: sockg_copperConcentration_mg_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+  sockg_crop:
+    name: sockg_crop
+    annotations:
+      string:
+        tag: string
+        value: 6723
+  sockg_date:
+    name: sockg_date
+    annotations:
+      string:
+        tag: string
+        value: 6723
+  sockg_growthStage:
+    name: sockg_growthStage
+    annotations:
+      string:
+        tag: string
+        value: 6723
+  sockg_ironConcentration_mg_per_kg:
+    name: sockg_ironConcentration_mg_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
   sockg_magnesiumConcentration_g_per_kg:
     name: sockg_magnesiumConcentration_g_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
+    annotations:
+      double:
+        tag: double
+        value: 6723
+  sockg_manganeseConcentration_mg_per_kg:
+    name: sockg_manganeseConcentration_mg_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+  sockg_measBiomassMinAn_UID:
+    name: sockg_measBiomassMinAn_UID
+    annotations:
+      string:
+        tag: string
+        value: 6723
+  sockg_nitrogenConcentration_g_per_kg:
+    name: sockg_nitrogenConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+  sockg_phosphorusConcentration_g_per_kg:
+    name: sockg_phosphorusConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+  sockg_plantFraction:
+    name: sockg_plantFraction
+    annotations:
+      string:
+        tag: string
+        value: 6723
+  sockg_potassiumConcentration_g_per_kg:
+    name: sockg_potassiumConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+  sockg_sodiumConcentration_g_per_kg:
+    name: sockg_sodiumConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6415
+  sockg_sulfurConcentration_g_per_kg:
+    name: sockg_sulfurConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 5074
+  sockg_treatmentId:
+    name: sockg_treatmentId
+    annotations:
+      string:
+        tag: string
+        value: 6723
+  sockg_zincConcentration_mg_per_kg:
+    name: sockg_zincConcentration_mg_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+attributes:
+  sockg_crop:
+    name: sockg_crop
+    annotations:
+      string:
+        tag: string
+        value: 6723
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#41038 sockg:magnesiumConcentration_g_per_kg
-        0.22111794
-    from_schema: soc-kg/main
+    - object:
+        example_object: Glycine max (Soybean)
+        example_object_type: string
+        example_predicate: sockg:crop
+        example_subject: sockg:individuals/0
+        example_subject_type: sockg_Amendment
+    - object:
+        example_object: Rangeland
+        example_object_type: string
+        example_predicate: sockg:crop
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    - object:
+        example_object: Glycine max (Soybean)
+        example_object_type: string
+        example_predicate: sockg:crop
+        example_subject: sockg:individuals/172906
+        example_subject_type: sockg_Harvest
+    - object:
+        example_object: Zea mays (Corn)
+        example_object_type: string
+        example_predicate: sockg:crop
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
+    - object:
+        example_object: Zea mays (Corn)
+        example_object_type: string
+        example_predicate: sockg:crop
+        example_subject: sockg:individuals/227674
+        example_subject_type: sockg_ResidueManagementEvent
+    - object:
+        example_object: Zea mays (Corn)
+        example_object_type: string
+        example_predicate: sockg:crop
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: Zea mays (Corn)
+        example_object_type: string
+        example_predicate: sockg:crop
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: Zea mays (Corn)
+        example_object_type: string
+        example_predicate: sockg:crop
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: Zea mays (Corn)
+        example_object_type: string
+        example_predicate: sockg:crop
+        example_subject: sockg:individuals/46937
+        example_subject_type: sockg_CropGrowthStage
+    - object:
+        example_object: Calendula officinalis L. (Calendula)
+        example_object_type: string
+        example_predicate: sockg:crop
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: Secale cereale (Rye)
+        example_object_type: string
+        example_predicate: sockg:crop
+        example_subject: sockg:individuals/203988
+        example_subject_type: sockg_PlantingEvent
+    - object:
+        example_object: Glycine max (Soybean)
+        example_object_type: string
+        example_predicate: sockg:crop
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: Zea mays (Corn)
+        example_object_type: string
+        example_predicate: sockg:crop
+        example_subject: sockg:individuals/55859
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: Zea mays (Corn)
+        example_object_type: string
+        example_predicate: sockg:crop
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/7140
     rank: 1000
+    slot_uri: sockg:crop
+    alias: sockg_crop
+    owner: sockg_BioMassMineral
+    domain_of:
+    - sockg_Amendment
+    - sockg_BioMassCarbohydrate
+    - sockg_BioMassEnergy
+    - sockg_BioMassMineral
+    - sockg_CropGrowthStage
+    - sockg_GasNutrientLoss
+    - sockg_GasSample
+    - sockg_Harvest
+    - sockg_HarvestFraction
+    - sockg_NutrientEfficiency
+    - sockg_PlantingEvent
+    - sockg_ResidueManagementEvent
+    - sockg_WaterQualityConc
+    - sockg_YieldNutrientUptake
+    union_of:
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_BioMassEnergy''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_BioMassMineral''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_Tillage''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+    range: string
+  sockg_boronConcentration_mg_per_kg:
+    name: sockg_boronConcentration_mg_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 3967
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '0.0'
+        example_object_type: double
+        example_predicate: sockg:boronConcentration_mg_per_kg
+        example_subject: sockg:individuals/40469
+        example_subject_type: sockg_BioMassMineral
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_BioMassMineral
+    slot_uri: sockg:boronConcentration_mg_per_kg
+    alias: sockg_boronConcentration_mg_per_kg
+    owner: sockg_BioMassMineral
+    domain_of:
+    - sockg_BioMassMineral
+    range: Any
+    any_of:
+    - range: double
+    - range: float
+  sockg_magnesiumConcentration_g_per_kg:
+    name: sockg_magnesiumConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '1.26'
+        example_object_type: double
+        example_predicate: sockg:magnesiumConcentration_g_per_kg
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_BioMassMineral
     slot_uri: sockg:magnesiumConcentration_g_per_kg
     alias: sockg_magnesiumConcentration_g_per_kg
     owner: sockg_BioMassMineral
     domain_of:
     - sockg_BioMassMineral
-    range: double
+    range: Any
+    any_of:
+    - range: double
+    - range: float
+  sockg_aluminumConcentration_mg_per_kg:
+    name: sockg_aluminumConcentration_mg_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6253
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '0.0'
+        example_object_type: double
+        example_predicate: sockg:aluminumConcentration_mg_per_kg
+        example_subject: sockg:individuals/39964
+        example_subject_type: sockg_BioMassMineral
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_BioMassMineral
+    slot_uri: sockg:aluminumConcentration_mg_per_kg
+    alias: sockg_aluminumConcentration_mg_per_kg
+    owner: sockg_BioMassMineral
+    domain_of:
+    - sockg_BioMassMineral
+    range: Any
+    any_of:
+    - range: double
+    - range: float
+  sockg_ironConcentration_mg_per_kg:
+    name: sockg_ironConcentration_mg_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '56.0'
+        example_object_type: double
+        example_predicate: sockg:ironConcentration_mg_per_kg
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_BioMassMineral
+    slot_uri: sockg:ironConcentration_mg_per_kg
+    alias: sockg_ironConcentration_mg_per_kg
+    owner: sockg_BioMassMineral
+    domain_of:
+    - sockg_BioMassMineral
+    range: Any
+    any_of:
+    - range: double
+    - range: float
+  sockg_phosphorusConcentration_g_per_kg:
+    name: sockg_phosphorusConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '2.31'
+        example_object_type: double
+        example_predicate: sockg:phosphorusConcentration_g_per_kg
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/325127
+    rank: 1000
+    domain: sockg_BioMassMineral
+    slot_uri: sockg:phosphorusConcentration_g_per_kg
+    alias: sockg_phosphorusConcentration_g_per_kg
+    owner: sockg_BioMassMineral
+    domain_of:
+    - sockg_BioMassMineral
+    range: Any
+    any_of:
+    - range: double
+    - range: float
+  sockg_carbonConcentration_g_per_kg:
+    name: sockg_carbonConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '444.4782'
+        example_object_type: double
+        example_predicate: sockg:carbonConcentration_g_per_kg
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_BioMassMineral
+    slot_uri: sockg:carbonConcentration_g_per_kg
+    alias: sockg_carbonConcentration_g_per_kg
+    owner: sockg_BioMassMineral
+    domain_of:
+    - sockg_BioMassMineral
+    range: Any
+    any_of:
+    - range: double
+    - range: float
+  sockg_sulfurConcentration_g_per_kg:
+    name: sockg_sulfurConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 5074
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '0.63'
+        example_object_type: double
+        example_predicate: sockg:sulfurConcentration_g_per_kg
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_BioMassMineral
+    slot_uri: sockg:sulfurConcentration_g_per_kg
+    alias: sockg_sulfurConcentration_g_per_kg
+    owner: sockg_BioMassMineral
+    domain_of:
+    - sockg_BioMassMineral
+    range: Any
+    any_of:
+    - range: double
+    - range: float
   sockg_treatmentId:
     name: sockg_treatmentId
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type string.
-    - 107354 occurrences with subject type sockg:GasSample and object type string.
-    - 53833 occurrences with subject type sockg:SoilChemicalSample and object type
-      string.
-    - 37796 occurrences with subject type sockg:Amendment and object type string.
-    - 9470 occurrences with subject type sockg:HarvestFraction and object type string.
-    - 28082 occurrences with subject type sockg:SoilPhysicalSample and object type
-      string.
-    - 18222 occurrences with subject type sockg:SoilBiologicalSample and object type
-      string.
-    - 4896 occurrences with subject type sockg:CropGrowthStage and object type string.
-    - 6995 occurrences with subject type sockg:Grazing and object type string.
-    - 1951 occurrences with subject type sockg:GrazingManagementEvent and object type
-      string.
-    - 799 occurrences with subject type sockg:BioMassEnergy and object type string.
-    - 18356 occurrences with subject type sockg:Harvest and object type string.
-    - 1479 occurrences with subject type sockg:WaterQualityConc and object type string.
-    - 3308 occurrences with subject type sockg:ResidueManagementEvent and object type
-      string.
-    - 1367 occurrences with subject type sockg:BioMassCarbohydrate and object type
-      string.
-    - 667 occurrences with subject type sockg:WaterQualityArea and object type string.
-    - 2791 occurrences with subject type sockg:NutrientEfficiency and object type
-      string.
-    - 429 occurrences with subject type sockg:YieldNutrientUptake and object type
-      string.
-    - 748 occurrences with subject type sockg:GasNutrientLoss and object type string.
-    - 769 occurrences with subject type sockg:Treatment and object type string.
-    - 15 occurrences with subject type sockg:WindErosionArea and object type string.
+    annotations:
+      string:
+        tag: string
+        value: 6723
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#43961 sockg:treatmentId PAUP_8
-    - value: neo4j://graph.individuals#147269 sockg:treatmentId KYBGGHG_1
-    - value: neo4j://graph.individuals#296284 sockg:treatmentId PAUP_15
-    - value: neo4j://graph.individuals#13960 sockg:treatmentId NEMLTCRS_ROT62
-    - value: neo4j://graph.individuals#200120 sockg:treatmentId ECUAlumbreP2_MtNocrhZf
-    - value: neo4j://graph.individuals#311219 sockg:treatmentId GAJPCSR1_F3H1
-    - value: neo4j://graph.individuals#248000 sockg:treatmentId MNMOBRR_N005C
-    - value: neo4j://graph.individuals#47857 sockg:treatmentId INWLTPAC_NP
-    - value: neo4j://graph.individuals#170669 sockg:treatmentId NDMAGWP_HG
-    - value: neo4j://graph.individuals#171511 sockg:treatmentId GAJPCSR2_F5H2
-    - value: neo4j://graph.individuals#39242 sockg:treatmentId SCFLSGI_50R
-    - value: neo4j://graph.individuals#181825 sockg:treatmentId PAHAW_RCG1
-    - value: neo4j://graph.individuals#361841 sockg:treatmentId WIPDBARN_SAND
-    - value: neo4j://graph.individuals#227864 sockg:treatmentId PAHAW_ROT8
-    - value: neo4j://graph.individuals#38229 sockg:treatmentId MNSPReap_ST000
-    - value: neo4j://graph.individuals#360342 sockg:treatmentId WIPDBARN_SAND
-    - value: neo4j://graph.individuals#203268 sockg:treatmentId COFOARD4_DM
-    - value: neo4j://graph.individuals#509719 sockg:treatmentId MNSP4R_U-S100
-    - value: neo4j://graph.individuals#56012 sockg:treatmentId WIPDBARN_SOIL
-    - value: neo4j://graph.individuals#359420 sockg:treatmentId MNMOBRR_N010S
-    - value: neo4j://graph.individuals#509310 sockg:treatmentId TXBSWEWC_ERODE
-    from_schema: soc-kg/main
+    - object:
+        example_object: PAHAW_ROT4
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/0
+        example_subject_type: sockg_Amendment
+    - object:
+        example_object: NDMAHGPE_TANUR
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    - object:
+        example_object: GAJPCSR1_F1H1
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/163960
+        example_subject_type: sockg_Grazing
+    - object:
+        example_object: PAHAW_PAST2
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/170955
+        example_subject_type: sockg_GrazingManagementEvent
+    - object:
+        example_object: PAHAW_ROT1
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/172906
+        example_subject_type: sockg_Harvest
+    - object:
+        example_object: MNMOFS_13
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
+    - object:
+        example_object: PAHAW_ROT4
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/227674
+        example_subject_type: sockg_ResidueManagementEvent
+    - object:
+        example_object: GAJPCSR1_F3H1
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/235229
+        example_subject_type: sockg_SoilBiologicalSample
+    - object:
+        example_object: MNMOFS_44
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/253451
+        example_subject_type: sockg_SoilChemicalSample
+    - object:
+        example_object: FullX200A
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/308318
+        example_subject_type: sockg_SoilPhysicalSample
+    - object:
+        example_object: NDMAH3_C
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/363556
+        example_subject_type: sockg_Treatment
+    - object:
+        example_object: MNSPReap_ST100
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: SCFLSGI_100R
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: FullM125N
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: INWLREAP_R50
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/46937
+        example_subject_type: sockg_CropGrowthStage
+    - object:
+        example_object: MNMOCAL_N67
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: MNMOFS_38
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/203988
+        example_subject_type: sockg_PlantingEvent
+    - object:
+        example_object: WIPDBARN_SOIL
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: IAAMKELL_CC
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: IAAMKELL_NCC
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: TXBSWEWC_N1985
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: MNSP4R_U-S100
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
     rank: 1000
     slot_uri: sockg:treatmentId
     alias: sockg_treatmentId
@@ -629,6 +1090,7 @@ attributes:
     - sockg_Harvest
     - sockg_HarvestFraction
     - sockg_NutrientEfficiency
+    - sockg_PlantingEvent
     - sockg_ResidueManagementEvent
     - sockg_SoilBiologicalSample
     - sockg_SoilChemicalSample
@@ -638,328 +1100,675 @@ attributes:
     - sockg_WaterQualityConc
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
-    range: string
-  sockg_chlorineConcentration_g_per_kg:
-    name: sockg_chlorineConcentration_g_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#41025 sockg:chlorineConcentration_g_per_kg
-        nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:chlorineConcentration_g_per_kg
-    alias: sockg_chlorineConcentration_g_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_sulfurConcentration_g_per_kg:
-    name: sockg_sulfurConcentration_g_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#42715 sockg:sulfurConcentration_g_per_kg 0.8
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:sulfurConcentration_g_per_kg
-    alias: sockg_sulfurConcentration_g_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_magnesiumConcentrationStd_g_per_kg:
-    name: sockg_magnesiumConcentrationStd_g_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#42662 sockg:magnesiumConcentrationStd_g_per_kg
-        nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:magnesiumConcentrationStd_g_per_kg
-    alias: sockg_magnesiumConcentrationStd_g_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
+    union_of:
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    - '{''domain'': ''sockg_GrazingManagementEvent''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_SoilBiologicalSample''}'
+    - '{''domain'': ''sockg_SoilChemicalSample''}'
+    - '{''domain'': ''sockg_SoilPhysicalSample''}'
+    - '{''domain'': ''sockg_HarvestFraction''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_ResidueManagementEvent''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_Amendment''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+    - '{''domain'': ''sockg_Treatment''}'
+    range: Any
+    any_of:
+    - range: date
+    - range: string
+    - range: float
   sockg_measBiomassMinAn_UID:
     name: sockg_measBiomassMinAn_UID
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type string.
+    annotations:
+      string:
+        tag: string
+        value: 6723
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#41237 sockg:measBiomassMinAn_UID AgCros_SCFLSGI_421_2010-08-18_Zea_mays_Corn_Below_earshank_leaves
-    from_schema: soc-kg/main
+    - object:
+        example_object: AgCros_NECCIRR_423_2018-10-04_Zea_mays_Corn_Stover_all_non-grain_biomass_
+        example_object_type: string
+        example_predicate: sockg:measBiomassMinAn_UID
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    from_schema: soc-kg
     rank: 1000
+    domain: sockg_BioMassMineral
     slot_uri: sockg:measBiomassMinAn_UID
     alias: sockg_measBiomassMinAn_UID
     owner: sockg_BioMassMineral
     domain_of:
     - sockg_BioMassMineral
     range: string
-  sockg_ironConcentrationStd_mg_per_kg:
-    name: sockg_ironConcentrationStd_mg_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
+  sockg_potassiumConcentration_g_per_kg:
+    name: sockg_potassiumConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#43401 sockg:ironConcentrationStd_mg_per_kg
-        nan
-    from_schema: soc-kg/main
+    - object:
+        example_object: '19.2'
+        example_object_type: double
+        example_predicate: sockg:potassiumConcentration_g_per_kg
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    from_schema: soc-kg
     rank: 1000
-    slot_uri: sockg:ironConcentrationStd_mg_per_kg
-    alias: sockg_ironConcentrationStd_mg_per_kg
+    domain: sockg_BioMassMineral
+    slot_uri: sockg:potassiumConcentration_g_per_kg
+    alias: sockg_potassiumConcentration_g_per_kg
     owner: sockg_BioMassMineral
     domain_of:
     - sockg_BioMassMineral
-    range: double
-  sockg_crop:
-    name: sockg_crop
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 2791 occurrences with subject type sockg:NutrientEfficiency and object type
-      string.
-    - 105046 occurrences with subject type sockg:GasSample and object type string.
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type string.
-    - 429 occurrences with subject type sockg:YieldNutrientUptake and object type
-      string.
-    - 667 occurrences with subject type sockg:WaterQualityArea and object type xsd:double.
-    - 1367 occurrences with subject type sockg:BioMassCarbohydrate and object type
-      string.
-    - 799 occurrences with subject type sockg:BioMassEnergy and object type string.
-    - 2308 occurrences with subject type sockg:GasSample and object type xsd:double.
-    - 553 occurrences with subject type sockg:WaterQualityConc and object type string.
-    - 698 occurrences with subject type sockg:GasNutrientLoss and object type xsd:double.
-    - 926 occurrences with subject type sockg:WaterQualityConc and object type xsd:double.
-    - 50 occurrences with subject type sockg:GasNutrientLoss and object type string.
-    - 15 occurrences with subject type sockg:WindErosionArea and object type xsd:double.
+    range: Any
+    any_of:
+    - range: double
+    - range: float
+  sockg_zincConcentration_mg_per_kg:
+    name: sockg_zincConcentration_mg_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#201065 sockg:crop Zea mays (Corn)
-    - value: neo4j://graph.individuals#156219 sockg:crop Zea mays (Corn)
-    - value: neo4j://graph.individuals#45025 sockg:crop Zea mays (Corn)
-    - value: neo4j://graph.individuals#509340 sockg:crop Secale cereale (Rye)
-    - value: neo4j://graph.individuals#360357 sockg:crop nan
-    - value: neo4j://graph.individuals#37850 sockg:crop Zea mays (Corn)
-    - value: neo4j://graph.individuals#39943 sockg:crop Zea mays (Corn)
-    - value: neo4j://graph.individuals#112348 sockg:crop nan
-    - value: neo4j://graph.individuals#360717 sockg:crop Glycine max (Soybean)
-    - value: neo4j://graph.individuals#56206 sockg:crop nan
-    - value: neo4j://graph.individuals#361559 sockg:crop nan
-    - value: neo4j://graph.individuals#56324 sockg:crop Secale cereale (Rye)
-    - value: neo4j://graph.individuals#509306 sockg:crop nan
-    from_schema: soc-kg/main
+    - object:
+        example_object: '20.0'
+        example_object_type: double
+        example_predicate: sockg:zincConcentration_mg_per_kg
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    from_schema: soc-kg
     rank: 1000
-    slot_uri: sockg:crop
-    alias: sockg_crop
+    domain: sockg_BioMassMineral
+    slot_uri: sockg:zincConcentration_mg_per_kg
+    alias: sockg_zincConcentration_mg_per_kg
+    owner: sockg_BioMassMineral
+    domain_of:
+    - sockg_BioMassMineral
+    range: Any
+    any_of:
+    - range: double
+    - range: float
+  sockg_copperConcentration_mg_per_kg:
+    name: sockg_copperConcentration_mg_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '3.2'
+        example_object_type: double
+        example_predicate: sockg:copperConcentration_mg_per_kg
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_BioMassMineral
+    slot_uri: sockg:copperConcentration_mg_per_kg
+    alias: sockg_copperConcentration_mg_per_kg
+    owner: sockg_BioMassMineral
+    domain_of:
+    - sockg_BioMassMineral
+    range: Any
+    any_of:
+    - range: double
+    - range: float
+  sockg_date:
+    name: sockg_date
+    annotations:
+      string:
+        tag: string
+        value: 6723
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '2005-06-28'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    - object:
+        example_object: '1997-07-10'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/163960
+        example_subject_type: sockg_Grazing
+    - object:
+        example_object: '2007-11-14'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/172906
+        example_subject_type: sockg_Harvest
+    - object:
+        example_object: '2006-06-19'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
+    - object:
+        example_object: '2011-10-05'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/227674
+        example_subject_type: sockg_ResidueManagementEvent
+    - object:
+        example_object: '1994-04-11'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/235229
+        example_subject_type: sockg_SoilBiologicalSample
+    - object:
+        example_object: '2007-10-29'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/253451
+        example_subject_type: sockg_SoilChemicalSample
+    - object:
+        example_object: '2011-11-07'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/307284
+        example_subject_type: sockg_SoilCover
+    - object:
+        example_object: '2010-10-27'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/308318
+        example_subject_type: sockg_SoilPhysicalSample
+    - object:
+        example_object: '2009-10-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: '2008-09-04'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: '2018-10-04'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: '2015-10-25'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    - object:
+        example_object: '2011-08-31'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/46937
+        example_subject_type: sockg_CropGrowthStage
+    - object:
+        example_object: '2014-09-15'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: '2011-04-12'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: '2003-05-13'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: '2003-11-22'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/513777
+        example_subject_type: sockg_WeatherStation
+    - object:
+        example_object: '2008-05-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: '2001-03-15'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: '2014-11-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/302328
+    rank: 1000
+    slot_uri: sockg:date
+    alias: sockg_date
     owner: sockg_BioMassMineral
     domain_of:
     - sockg_BioMassCarbohydrate
     - sockg_BioMassEnergy
     - sockg_BioMassMineral
+    - sockg_CropGrowthStage
     - sockg_GasNutrientLoss
     - sockg_GasSample
+    - sockg_Grazing
+    - sockg_Harvest
+    - sockg_HarvestFraction
     - sockg_NutrientEfficiency
+    - sockg_ResidueManagementEvent
+    - sockg_SoilBiologicalSample
+    - sockg_SoilChemicalSample
+    - sockg_SoilCover
+    - sockg_SoilPhysicalSample
     - sockg_WaterQualityArea
     - sockg_WaterQualityConc
+    - sockg_WeatherObservation
+    - sockg_WeatherStation
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
+    union_of:
+    - '{''domain'': ''sockg_PlantingEvent''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_BioMassMineral''}'
+    - '{''domain'': ''sockg_Tillage''}'
+    - '{''domain'': ''sockg_Publication''}'
+    - '{''domain'': ''sockg_CropGrowthStage''}'
+    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+    - '{''domain'': ''sockg_Site''}'
+    - '{''domain'': ''sockg_SoilBiologicalSample''}'
+    - '{''domain'': ''sockg_GasSample''}'
+    - '{''domain'': ''sockg_SoilCover''}'
+    - '{''domain'': ''sockg_SoilChemicalSample''}'
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_Grazing''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_MiscellaneousMeasurement''}'
+    - '{''domain'': ''sockg_SoilPhysicalSample''}'
+    - '{''domain'': ''sockg_BioMassEnergy''}'
+    - '{''domain'': ''sockg_Harvest''}'
+    - '{''domain'': ''sockg_ResidueManagementEvent''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_WeatherObservation''}'
     range: Any
     any_of:
+    - range: date
     - range: string
-    - range: double
-  sockg_nitrogenConcentration_g_per_kg:
-    name: sockg_nitrogenConcentration_g_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
+  rdfs_seeAlso:
+    name: rdfs_seeAlso
+    annotations:
+      uri:
+        tag: uri
+        value: 6723
+    description: No slot (predicate) description specified
     examples:
-    - value: neo4j://graph.individuals#45999 sockg:nitrogenConcentration_g_per_kg
-        12.32
-    from_schema: soc-kg/main
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/4605
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/0
+        example_subject_type: sockg_Amendment
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/5859
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/163960
+        example_subject_type: sockg_Grazing
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/4377260
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/170955
+        example_subject_type: sockg_GrazingManagementEvent
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/131626
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/172906
+        example_subject_type: sockg_Harvest
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/13189
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/203523
+        example_subject_type: sockg_Organization
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/3927
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/203632
+        example_subject_type: sockg_Pesticide
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/849
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/227674
+        example_subject_type: sockg_ResidueManagementEvent
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/30158
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/230982
+        example_subject_type: sockg_Rotation
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/302328
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/231056
+        example_subject_type: sockg_Site
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/2726
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/235229
+        example_subject_type: sockg_SoilBiologicalSample
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7974
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/253451
+        example_subject_type: sockg_SoilChemicalSample
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/302328
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/307284
+        example_subject_type: sockg_SoilCover
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/5143
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/308318
+        example_subject_type: sockg_SoilPhysicalSample
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/5430914
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/336400
+        example_subject_type: sockg_State
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/336419
+        example_subject_type: sockg_Tillage
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/28616
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/363556
+        example_subject_type: sockg_Treatment
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/2717
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/2714
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7485997
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/46864
+        example_subject_type: sockg_City
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/2217129
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/46904
+        example_subject_type: sockg_County
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/302328
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/46937
+        example_subject_type: sockg_CropGrowthStage
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/976
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/51906
+        example_subject_type: sockg_Experiment
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/9183
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7259
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/55800
+        example_subject_type: sockg_Field
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/35067
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/203534
+        example_subject_type: sockg_Person
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/5630
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/203988
+        example_subject_type: sockg_PlantingEvent
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/61097
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/227438
+        example_subject_type: sockg_Project
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/305490
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/227447
+        example_subject_type: sockg_Publication
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/48678
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/227609
+        example_subject_type: sockg_ResearchUnit
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/33020
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/231116
+        example_subject_type: sockg_Soil
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7259
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/513777
+        example_subject_type: sockg_WeatherStation
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
     rank: 1000
-    slot_uri: sockg:nitrogenConcentration_g_per_kg
-    alias: sockg_nitrogenConcentration_g_per_kg
+    slot_uri: rdfs:seeAlso
+    alias: rdfs_seeAlso
     owner: sockg_BioMassMineral
     domain_of:
+    - sockg_Amendment
+    - sockg_BioMassCarbohydrate
+    - sockg_BioMassEnergy
     - sockg_BioMassMineral
-    range: double
-  sockg_chlorineConcentrationStd_g_per_kg:
-    name: sockg_chlorineConcentrationStd_g_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#43551 sockg:chlorineConcentrationStd_g_per_kg
-        nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:chlorineConcentrationStd_g_per_kg
-    alias: sockg_chlorineConcentrationStd_g_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_manganeseConcentration_mg_per_kg:
-    name: sockg_manganeseConcentration_mg_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#41917 sockg:manganeseConcentration_mg_per_kg
-        37.26
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:manganeseConcentration_mg_per_kg
-    alias: sockg_manganeseConcentration_mg_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_copperConcentrationStd_mg_per_kg:
-    name: sockg_copperConcentrationStd_mg_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#43705 sockg:copperConcentrationStd_mg_per_kg
-        nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:copperConcentrationStd_mg_per_kg
-    alias: sockg_copperConcentrationStd_mg_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_sodiumConcentration_g_per_kg:
-    name: sockg_sodiumConcentration_g_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#46320 sockg:sodiumConcentration_g_per_kg 0.00732688
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:sodiumConcentration_g_per_kg
-    alias: sockg_sodiumConcentration_g_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_boronConcentrationStd_mg_per_kg:
-    name: sockg_boronConcentrationStd_mg_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#46059 sockg:boronConcentrationStd_mg_per_kg
-        nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:boronConcentrationStd_mg_per_kg
-    alias: sockg_boronConcentrationStd_mg_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_carbonConcentration_g_per_kg:
-    name: sockg_carbonConcentration_g_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#46174 sockg:carbonConcentration_g_per_kg 470.27988
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:carbonConcentration_g_per_kg
-    alias: sockg_carbonConcentration_g_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
+    - sockg_City
+    - sockg_County
+    - sockg_CropGrowthStage
+    - sockg_Experiment
+    - sockg_ExperimentalUnit
+    - sockg_Field
+    - sockg_GasNutrientLoss
+    - sockg_GasSample
+    - sockg_Grazing
+    - sockg_GrazingManagementEvent
+    - sockg_Harvest
+    - sockg_HarvestFraction
+    - sockg_NutrientEfficiency
+    - sockg_Organization
+    - sockg_Person
+    - sockg_Pesticide
+    - sockg_PlantingEvent
+    - sockg_Project
+    - sockg_Publication
+    - sockg_ResearchUnit
+    - sockg_ResidueManagementEvent
+    - sockg_Rotation
+    - sockg_Site
+    - sockg_Soil
+    - sockg_SoilBiologicalSample
+    - sockg_SoilChemicalSample
+    - sockg_SoilCover
+    - sockg_SoilPhysicalSample
+    - sockg_State
+    - sockg_Tillage
+    - sockg_Treatment
+    - sockg_WaterQualityArea
+    - sockg_WaterQualityConc
+    - sockg_WeatherObservation
+    - sockg_WeatherStation
+    - sockg_WindErosionArea
+    - sockg_YieldNutrientUptake
+    range: uri
   sockg_plantFraction:
     name: sockg_plantFraction
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 9470 occurrences with subject type sockg:HarvestFraction and object type string.
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type string.
-    - 2683 occurrences with subject type sockg:NutrientEfficiency and object type
-      string.
-    - 429 occurrences with subject type sockg:YieldNutrientUptake and object type
-      string.
-    - 1367 occurrences with subject type sockg:BioMassCarbohydrate and object type
-      string.
-    - 799 occurrences with subject type sockg:BioMassEnergy and object type string.
-    - 108 occurrences with subject type sockg:NutrientEfficiency and object type xsd:double.
+    annotations:
+      string:
+        tag: string
+        value: 6723
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#192293 sockg:plantFraction Grain
-    - value: neo4j://graph.individuals#44722 sockg:plantFraction Grain
-    - value: neo4j://graph.individuals#201773 sockg:plantFraction Grain
-    - value: neo4j://graph.individuals#509641 sockg:plantFraction Roots
-    - value: neo4j://graph.individuals#37806 sockg:plantFraction Above earshank
-    - value: neo4j://graph.individuals#39360 sockg:plantFraction Cobs
-    - value: neo4j://graph.individuals#200713 sockg:plantFraction nan
-    from_schema: soc-kg/main
+    - object:
+        example_object: Roots
+        example_object_type: string
+        example_predicate: sockg:plantFraction
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
+    - object:
+        example_object: Above earshank
+        example_object_type: string
+        example_predicate: sockg:plantFraction
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: Below earshank leaves
+        example_object_type: string
+        example_predicate: sockg:plantFraction
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: Stover (all non-grain biomass)
+        example_object_type: string
+        example_predicate: sockg:plantFraction
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: Seed Oil
+        example_object_type: string
+        example_predicate: sockg:plantFraction
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: Grain
+        example_object_type: string
+        example_predicate: sockg:plantFraction
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/849
     rank: 1000
     slot_uri: sockg:plantFraction
     alias: sockg_plantFraction
@@ -971,59 +1780,208 @@ attributes:
     - sockg_HarvestFraction
     - sockg_NutrientEfficiency
     - sockg_YieldNutrientUptake
+    union_of:
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_BioMassEnergy''}'
+    - '{''domain'': ''sockg_HarvestFraction''}'
+    - '{''domain'': ''sockg_BioMassMineral''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+    range: string
+  sockg_nitrogenConcentration_g_per_kg:
+    name: sockg_nitrogenConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '5.063977'
+        example_object_type: double
+        example_predicate: sockg:nitrogenConcentration_g_per_kg
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/7829
+    rank: 1000
+    domain: sockg_BioMassMineral
+    slot_uri: sockg:nitrogenConcentration_g_per_kg
+    alias: sockg_nitrogenConcentration_g_per_kg
+    owner: sockg_BioMassMineral
+    domain_of:
+    - sockg_BioMassMineral
     range: Any
     any_of:
-    - range: string
     - range: double
+    - range: float
+  sockg_calciumConcentration_g_per_kg:
+    name: sockg_calciumConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '2.94'
+        example_object_type: double
+        example_predicate: sockg:calciumConcentration_g_per_kg
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_BioMassMineral
+    slot_uri: sockg:calciumConcentration_g_per_kg
+    alias: sockg_calciumConcentration_g_per_kg
+    owner: sockg_BioMassMineral
+    domain_of:
+    - sockg_BioMassMineral
+    range: Any
+    any_of:
+    - range: double
+    - range: float
+  sockg_manganeseConcentration_mg_per_kg:
+    name: sockg_manganeseConcentration_mg_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6723
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '18.0'
+        example_object_type: double
+        example_predicate: sockg:manganeseConcentration_mg_per_kg
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_BioMassMineral
+    slot_uri: sockg:manganeseConcentration_mg_per_kg
+    alias: sockg_manganeseConcentration_mg_per_kg
+    owner: sockg_BioMassMineral
+    domain_of:
+    - sockg_BioMassMineral
+    range: Any
+    any_of:
+    - range: double
+    - range: float
+  sockg_sodiumConcentration_g_per_kg:
+    name: sockg_sodiumConcentration_g_per_kg
+    annotations:
+      double:
+        tag: double
+        value: 6415
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '0.0'
+        example_object_type: double
+        example_predicate: sockg:sodiumConcentration_g_per_kg
+        example_subject: sockg:individuals/39964
+        example_subject_type: sockg_BioMassMineral
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_BioMassMineral
+    slot_uri: sockg:sodiumConcentration_g_per_kg
+    alias: sockg_sodiumConcentration_g_per_kg
+    owner: sockg_BioMassMineral
+    domain_of:
+    - sockg_BioMassMineral
+    range: Any
+    any_of:
+    - range: double
+    - range: float
   sockg_growthStage:
     name: sockg_growthStage
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 17240 occurrences with subject type sockg:Harvest and object type string.
-    - 6683 occurrences with subject type sockg:Grazing and object type string.
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type string.
-    - 2791 occurrences with subject type sockg:NutrientEfficiency and object type
-      string.
-    - 9407 occurrences with subject type sockg:HarvestFraction and object type string.
-    - 4896 occurrences with subject type sockg:CropGrowthStage and object type string.
-    - 1367 occurrences with subject type sockg:BioMassCarbohydrate and object type
-      string.
-    - 799 occurrences with subject type sockg:BioMassEnergy and object type string.
-    - 1116 occurrences with subject type sockg:Harvest and object type xsd:double.
-    - 667 occurrences with subject type sockg:WaterQualityConc and object type xsd:double.
-    - 812 occurrences with subject type sockg:WaterQualityConc and object type string.
-    - 684 occurrences with subject type sockg:GasNutrientLoss and object type xsd:double.
-    - 667 occurrences with subject type sockg:WaterQualityArea and object type xsd:double.
-    - 312 occurrences with subject type sockg:Grazing and object type xsd:double.
-    - 429 occurrences with subject type sockg:YieldNutrientUptake and object type
-      string.
-    - 64 occurrences with subject type sockg:GasNutrientLoss and object type string.
-    - 15 occurrences with subject type sockg:WindErosionArea and object type string.
-    - 63 occurrences with subject type sockg:HarvestFraction and object type xsd:double.
+    annotations:
+      string:
+        tag: string
+        value: 6723
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#179594 sockg:growthStage Maturity
-    - value: neo4j://graph.individuals#169328 sockg:growthStage Maturity
-    - value: neo4j://graph.individuals#42420 sockg:growthStage Maturity
-    - value: neo4j://graph.individuals#201140 sockg:growthStage Maturity
-    - value: neo4j://graph.individuals#192092 sockg:growthStage Maturity
-    - value: neo4j://graph.individuals#48294 sockg:growthStage V8
-    - value: neo4j://graph.individuals#38319 sockg:growthStage Harvest
-    - value: neo4j://graph.individuals#39266 sockg:growthStage Harvest
-    - value: neo4j://graph.individuals#181402 sockg:growthStage nan
-    - value: neo4j://graph.individuals#361570 sockg:growthStage nan
-    - value: neo4j://graph.individuals#360617 sockg:growthStage Pre-graze
-    - value: neo4j://graph.individuals#55868 sockg:growthStage nan
-    - value: neo4j://graph.individuals#360003 sockg:growthStage nan
-    - value: neo4j://graph.individuals#170558 sockg:growthStage nan
-    - value: neo4j://graph.individuals#509424 sockg:growthStage Harvest
-    - value: neo4j://graph.individuals#56329 sockg:growthStage Pre-graze
-    - value: neo4j://graph.individuals#509305 sockg:growthStage Pre-graze
-    - value: neo4j://graph.individuals#194095 sockg:growthStage nan
-    from_schema: soc-kg/main
+    - object:
+        example_object: Maturity
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/163960
+        example_subject_type: sockg_Grazing
+    - object:
+        example_object: Harvest
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/172911
+        example_subject_type: sockg_Harvest
+    - object:
+        example_object: V7
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
+    - object:
+        example_object: Maturity
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: Harvest
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: Maturity
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: R6
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/46937
+        example_subject_type: sockg_CropGrowthStage
+    - object:
+        example_object: Maturity
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: Pre-graze
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: Pre-graze
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: Pre-graze
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: Harvest
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/7140
     rank: 1000
     slot_uri: sockg:growthStage
     alias: sockg_growthStage
@@ -1038,457 +1996,24 @@ attributes:
     - sockg_Harvest
     - sockg_HarvestFraction
     - sockg_NutrientEfficiency
-    - sockg_WaterQualityArea
     - sockg_WaterQualityConc
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
-    range: Any
-    any_of:
-    - range: string
-    - range: double
-  sockg_aluminumConcentrationStd_mg_per_kg:
-    name: sockg_aluminumConcentrationStd_mg_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#45742 sockg:aluminumConcentrationStd_mg_per_kg
-        nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:aluminumConcentrationStd_mg_per_kg
-    alias: sockg_aluminumConcentrationStd_mg_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_potassiumConcentrationStd_g_per_kg:
-    name: sockg_potassiumConcentrationStd_g_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#45534 sockg:potassiumConcentrationStd_g_per_kg
-        nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:potassiumConcentrationStd_g_per_kg
-    alias: sockg_potassiumConcentrationStd_g_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_phosphorusConcentrationStd_g_per_kg:
-    name: sockg_phosphorusConcentrationStd_g_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#41671 sockg:phosphorusConcentrationStd_g_per_kg
-        nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:phosphorusConcentrationStd_g_per_kg
-    alias: sockg_phosphorusConcentrationStd_g_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_aluminumConcentration_mg_per_kg:
-    name: sockg_aluminumConcentration_mg_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#41128 sockg:aluminumConcentration_mg_per_kg
-        0.0
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:aluminumConcentration_mg_per_kg
-    alias: sockg_aluminumConcentration_mg_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_nitrogenConcentrationStd_g_per_kg:
-    name: sockg_nitrogenConcentrationStd_g_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#40884 sockg:nitrogenConcentrationStd_g_per_kg
-        nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:nitrogenConcentrationStd_g_per_kg
-    alias: sockg_nitrogenConcentrationStd_g_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_calciumConcentrationStd_g_per_kg:
-    name: sockg_calciumConcentrationStd_g_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#43577 sockg:calciumConcentrationStd_g_per_kg
-        nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:calciumConcentrationStd_g_per_kg
-    alias: sockg_calciumConcentrationStd_g_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_zincConcentrationStd_mg_per_kg:
-    name: sockg_zincConcentrationStd_mg_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#40449 sockg:zincConcentrationStd_mg_per_kg
-        nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:zincConcentrationStd_mg_per_kg
-    alias: sockg_zincConcentrationStd_mg_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_sodiumConcentrationStd_g_per_kg:
-    name: sockg_sodiumConcentrationStd_g_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#40673 sockg:sodiumConcentrationStd_g_per_kg
-        nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:sodiumConcentrationStd_g_per_kg
-    alias: sockg_sodiumConcentrationStd_g_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_carbonConcentrationStd_g_per_kg:
-    name: sockg_carbonConcentrationStd_g_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#40144 sockg:carbonConcentrationStd_g_per_kg
-        nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:carbonConcentrationStd_g_per_kg
-    alias: sockg_carbonConcentrationStd_g_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_date:
-    name: sockg_date
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 53833 occurrences with subject type sockg:SoilChemicalSample and object type
-      string.
-    - 147304 occurrences with subject type sockg:WeatherObservation and object type
-      string.
-    - 107354 occurrences with subject type sockg:GasSample and object type string.
-    - 28082 occurrences with subject type sockg:SoilPhysicalSample and object type
-      string.
-    - 6995 occurrences with subject type sockg:Grazing and object type string.
-    - 4896 occurrences with subject type sockg:CropGrowthStage and object type string.
-    - 18222 occurrences with subject type sockg:SoilBiologicalSample and object type
-      string.
-    - 18304 occurrences with subject type sockg:Harvest and object type string.
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type string.
-    - 3308 occurrences with subject type sockg:ResidueManagementEvent and object type
-      string.
-    - 2791 occurrences with subject type sockg:NutrientEfficiency and object type
-      string.
-    - 1367 occurrences with subject type sockg:BioMassCarbohydrate and object type
-      string.
-    - 1479 occurrences with subject type sockg:WaterQualityConc and object type string.
-    - 748 occurrences with subject type sockg:GasNutrientLoss and object type string.
-    - 1034 occurrences with subject type sockg:SoilCover and object type string.
-    - 429 occurrences with subject type sockg:YieldNutrientUptake and object type
-      string.
-    - 52 occurrences with subject type sockg:Harvest and object type xsd:double.
-    - 799 occurrences with subject type sockg:BioMassEnergy and object type string.
-    - 667 occurrences with subject type sockg:WaterQualityArea and object type string.
-    - 15 occurrences with subject type sockg:WindErosionArea and object type string.
-    - 1 occurrences with subject type sockg:WeatherObservation and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#294621 sockg:date 2008-11-19
-    - value: neo4j://graph.individuals#488503 sockg:date 2009-05-27
-    - value: neo4j://graph.individuals#85292 sockg:date 2011-07-01
-    - value: neo4j://graph.individuals#309598 sockg:date 1996-04-17
-    - value: neo4j://graph.individuals#165161 sockg:date 1994-07-12
-    - value: neo4j://graph.individuals#48449 sockg:date 2008-08-08
-    - value: neo4j://graph.individuals#243645 sockg:date 2001-01-24
-    - value: neo4j://graph.individuals#175155 sockg:date 1987-09-24
-    - value: neo4j://graph.individuals#41902 sockg:date 2008-10-16
-    - value: neo4j://graph.individuals#228638 sockg:date 2009-11-11
-    - value: neo4j://graph.individuals#203067 sockg:date 2004-09-17
-    - value: neo4j://graph.individuals#38588 sockg:date 2011-08-31
-    - value: neo4j://graph.individuals#361436 sockg:date 2012-04-23
-    - value: neo4j://graph.individuals#56011 sockg:date 2014-08-29
-    - value: neo4j://graph.individuals#303276 sockg:date 2013-04-02
-    - value: neo4j://graph.individuals#509459 sockg:date 2008-04-21
-    - value: neo4j://graph.individuals#178323 sockg:date nan
-    - value: neo4j://graph.individuals#39935 sockg:date 2008-09-04
-    - value: neo4j://graph.individuals#359964 sockg:date 2010-11-02
-    - value: neo4j://graph.individuals#509303 sockg:date 1993-03-15
-    - value: neo4j://graph.individuals#377442 sockg:date nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:date
-    alias: sockg_date
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassCarbohydrate
-    - sockg_BioMassEnergy
-    - sockg_BioMassMineral
-    - sockg_CropGrowthStage
-    - sockg_GasNutrientLoss
-    - sockg_GasSample
-    - sockg_Grazing
-    - sockg_Harvest
-    - sockg_NutrientEfficiency
-    - sockg_ResidueManagementEvent
-    - sockg_SoilBiologicalSample
-    - sockg_SoilChemicalSample
-    - sockg_SoilCover
-    - sockg_SoilPhysicalSample
-    - sockg_WaterQualityArea
-    - sockg_WaterQualityConc
-    - sockg_WeatherObservation
-    - sockg_WindErosionArea
-    - sockg_YieldNutrientUptake
-    range: Any
-    any_of:
-    - range: string
-    - range: double
-  sockg_manganeseConcentrationStd_mg_per_kg:
-    name: sockg_manganeseConcentrationStd_mg_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#40996 sockg:manganeseConcentrationStd_mg_per_kg
-        nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:manganeseConcentrationStd_mg_per_kg
-    alias: sockg_manganeseConcentrationStd_mg_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_potassiumConcentration_g_per_kg:
-    name: sockg_potassiumConcentration_g_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#41628 sockg:potassiumConcentration_g_per_kg
-        0.0
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:potassiumConcentration_g_per_kg
-    alias: sockg_potassiumConcentration_g_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_sulfurConcentrationStd_g_per_kg:
-    name: sockg_sulfurConcentrationStd_g_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#44987 sockg:sulfurConcentrationStd_g_per_kg
-        nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:sulfurConcentrationStd_g_per_kg
-    alias: sockg_sulfurConcentrationStd_g_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_phosphorusConcentration_g_per_kg:
-    name: sockg_phosphorusConcentration_g_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#42691 sockg:phosphorusConcentration_g_per_kg
-        0.37
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:phosphorusConcentration_g_per_kg
-    alias: sockg_phosphorusConcentration_g_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_zincConcentration_mg_per_kg:
-    name: sockg_zincConcentration_mg_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#43976 sockg:zincConcentration_mg_per_kg 22.88
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:zincConcentration_mg_per_kg
-    alias: sockg_zincConcentration_mg_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_calciumConcentration_g_per_kg:
-    name: sockg_calciumConcentration_g_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#42233 sockg:calciumConcentration_g_per_kg 0.0
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:calciumConcentration_g_per_kg
-    alias: sockg_calciumConcentration_g_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_ironConcentration_mg_per_kg:
-    name: sockg_ironConcentration_mg_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#44482 sockg:ironConcentration_mg_per_kg 25.42
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:ironConcentration_mg_per_kg
-    alias: sockg_ironConcentration_mg_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_boronConcentration_mg_per_kg:
-    name: sockg_boronConcentration_mg_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#46543 sockg:boronConcentration_mg_per_kg nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:boronConcentration_mg_per_kg
-    alias: sockg_boronConcentration_mg_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
-  sockg_copperConcentration_mg_per_kg:
-    name: sockg_copperConcentration_mg_per_kg
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#44834 sockg:copperConcentration_mg_per_kg 2.38
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:copperConcentration_mg_per_kg
-    alias: sockg_copperConcentration_mg_per_kg
-    owner: sockg_BioMassMineral
-    domain_of:
-    - sockg_BioMassMineral
-    range: double
+    union_of:
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_BioMassEnergy''}'
+    - '{''domain'': ''sockg_HarvestFraction''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_Harvest''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_BioMassMineral''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_Grazing''}'
+    - '{''domain'': ''sockg_CropGrowthStage''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+    range: string
 class_uri: sockg:BioMassMineral
 
 ```

@@ -1,15 +1,19 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (sockg_Version)
+# Class: No class (entity type) name specified (sockg_Version)
 
 
-_No type description provided_
+_A Version represents a specific iteration or update of agricultural practices, research, or standards, reflecting changes over time in the field. It is essential for tracking advancements and ensuring that current methodologies are based on the latest information and developments in agriculture._
 
 
 
 
 
-URI: [sockg:Version](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/Version)
+
+This class occurs 1 times.
+
+
+URI: [sockg:Version](https://idir.uta.edu/sockg-ontology/docs/Version)
 
 
 
@@ -40,53 +44,23 @@ URI: [sockg:Version](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
+| [sockg_versionDate](../slots/sockg_versionDate.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 1 |
+
+
+
+
+
+## Usages
+
+| used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [sockg_versionDate](../slots/sockg_versionDate.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| [SockgVersion](../classes/SockgVersion.md) | [sockg_versionDate](../slots/sockg_versionDate.md) | domain | [SockgVersion](../classes/SockgVersion.md) |
 
 
 
 
-
-
-
-
-
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#359837 |
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:Version |
-| native | soc-kg/main/:SockgVersion |
 
 
 
@@ -101,22 +75,30 @@ URI: [sockg:Version](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 ### Direct
 
 <details>
+
 ```yaml
 name: sockg_Version
-description: No type description provided
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- There are 1 instances of this class.
-examples:
-- value: neo4j://graph.individuals#359837
-from_schema: soc-kg/main
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 1
+description: A Version represents a specific iteration or update of agricultural practices,
+  research, or standards, reflecting changes over time in the field. It is essential
+  for tracking advancements and ensuring that current methodologies are based on the
+  latest information and developments in agriculture.
+title: No class (entity type) name specified
+from_schema: soc-kg
 rank: 1000
 slots:
 - sockg_versionDate
+slot_usage:
+  sockg_versionDate:
+    name: sockg_versionDate
+    annotations:
+      string:
+        tag: string
+        value: 1
 class_uri: sockg:Version
 
 ```
@@ -125,34 +107,47 @@ class_uri: sockg:Version
 ### Induced
 
 <details>
+
 ```yaml
 name: sockg_Version
-description: No type description provided
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- There are 1 instances of this class.
-examples:
-- value: neo4j://graph.individuals#359837
-from_schema: soc-kg/main
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 1
+description: A Version represents a specific iteration or update of agricultural practices,
+  research, or standards, reflecting changes over time in the field. It is essential
+  for tracking advancements and ensuring that current methodologies are based on the
+  latest information and developments in agriculture.
+title: No class (entity type) name specified
+from_schema: soc-kg
 rank: 1000
+slot_usage:
+  sockg_versionDate:
+    name: sockg_versionDate
+    annotations:
+      string:
+        tag: string
+        value: 1
 attributes:
   sockg_versionDate:
     name: sockg_versionDate
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 1 occurrences with subject type sockg:Version and object type string.
+    annotations:
+      string:
+        tag: string
+        value: 1
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#359837 sockg:versionDate 10/08/2024
-    from_schema: soc-kg/main
+    - object:
+        example_object: 04/17/2025
+        example_object_type: string
+        example_predicate: sockg:versionDate
+        example_subject: sockg:individuals/364325
+        example_subject_type: sockg_Version
+    from_schema: soc-kg
     rank: 1000
+    domain: sockg_Version
     slot_uri: sockg:versionDate
     alias: sockg_versionDate
     owner: sockg_Version

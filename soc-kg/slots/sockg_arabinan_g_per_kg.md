@@ -3,13 +3,17 @@
 # Slot: sockg_arabinan_g_per_kg
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:arabinan_g_per_kg](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/arabinan_g_per_kg)
+
+This slot occurs 1367 times.
+
+
+URI: [sockg:arabinan_g_per_kg](https://idir.uta.edu/sockg-ontology/docs/arabinan_g_per_kg)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:arabinan_g_per_kg](http://www.semanticweb.org/sockg/ontologies/2024/
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgBioMassCarbohydrate](../classes/SockgBioMassCarbohydrate.md) | No type description provided |  no  |
+| [SockgBioMassCarbohydrate](../classes/SockgBioMassCarbohydrate.md) | BioMassCarbohydrate represents the carbohydrate content in biomass derived fr... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:arabinan_g_per_kg](http://www.semanticweb.org/sockg/ontologies/2024/
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#38466 sockg:arabinan_g_per_kg 0.0 |
-
-## Comments
-
-* 1367 occurrences with subject type sockg:BioMassCarbohydrate and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:arabinan_g_per_kg |
-| native | soc-kg/main/:sockg_arabinan_g_per_kg |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_BioMassCarbohydrate | double | sockg:individuals/37796 | 5.9 | 1367 |
 
 
 
@@ -85,18 +56,22 @@ URI: [sockg:arabinan_g_per_kg](http://www.semanticweb.org/sockg/ontologies/2024/
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_arabinan_g_per_kg
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1367 occurrences with subject type sockg:BioMassCarbohydrate and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 1367
+description: No slot (predicate) description specified
 examples:
-- value: neo4j://graph.individuals#38466 sockg:arabinan_g_per_kg 0.0
-from_schema: soc-kg/main
+- object:
+    example_object: '5.9'
+    example_object_type: double
+    example_predicate: sockg:arabinan_g_per_kg
+    example_subject: sockg:individuals/37796
+    example_subject_type: sockg_BioMassCarbohydrate
+from_schema: soc-kg
 rank: 1000
 slot_uri: sockg:arabinan_g_per_kg
 alias: sockg_arabinan_g_per_kg

@@ -1,29 +1,22 @@
 
 
-# Slot: sockg_hasGasNutrientData
+# Slot: No slot (predicate) name specified (sockg_hasGasNutrientData)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:hasGasNutrientData](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/hasGasNutrientData)
+
+
+URI: [sockg:hasGasNutrientData](https://idir.uta.edu/sockg-ontology/docs/hasGasNutrientData)
 
 
 
 <!-- no inheritance hierarchy -->
 
-
-
-
-
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | No type description provided |  no  |
 
 
 
@@ -39,69 +32,27 @@ URI: [sockg:hasGasNutrientData](http://www.semanticweb.org/sockg/ontologies/2024
 
 
 
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#55935 sockg:hasGasNutrientData neo4j://graph.individuals#55116 |
-
 ## Comments
 
-* 748 occurrences with subject type sockg:GasNutrientLoss and object type sockg:ExperimentalUnit.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:hasGasNutrientData |
-| native | soc-kg/main/:sockg_hasGasNutrientData |
-
+* No occurrences of this slot in the graph.
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_hasGasNutrientData
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 comments:
-- 748 occurrences with subject type sockg:GasNutrientLoss and object type sockg:ExperimentalUnit.
-examples:
-- value: neo4j://graph.individuals#55935 sockg:hasGasNutrientData neo4j://graph.individuals#55116
-from_schema: soc-kg/main
+- No occurrences of this slot in the graph.
+from_schema: soc-kg
 rank: 1000
+domain: sockg_GasNutrientLoss
 slot_uri: sockg:hasGasNutrientData
 alias: sockg_hasGasNutrientData
-domain_of:
-- sockg_GasNutrientLoss
 range: sockg_ExperimentalUnit
 
 ```

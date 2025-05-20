@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_samplingDepth_cm
+# Slot: No slot (predicate) name specified (sockg_samplingDepth_cm)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:samplingDepth_cm](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/samplingDepth_cm)
+
+This slot occurs 1479 times.
+
+
+URI: [sockg:samplingDepth_cm](https://idir.uta.edu/sockg-ontology/docs/samplingDepth_cm)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:samplingDepth_cm](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | No type description provided |  no  |
+| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | WaterQualityConc represents the concentration of various water quality parame... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:samplingDepth_cm](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 ## Properties
 
-* Range: [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:samplingDepth_cm](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#361456 sockg:samplingDepth_cm 110 |
-
-## Comments
-
-* 1479 occurrences with subject type sockg:WaterQualityConc and object type xsd:long.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:samplingDepth_cm |
-| native | soc-kg/main/:sockg_samplingDepth_cm |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_WaterQualityConc | integer | sockg:individuals/364993 | 120 | 1479 |
 
 
 
@@ -85,24 +56,35 @@ URI: [sockg:samplingDepth_cm](http://www.semanticweb.org/sockg/ontologies/2024/0
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_samplingDepth_cm
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1479 occurrences with subject type sockg:WaterQualityConc and object type xsd:long.
+annotations:
+  count:
+    tag: count
+    value: 1479
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#361456 sockg:samplingDepth_cm 110
-from_schema: soc-kg/main
+- object:
+    example_object: '120'
+    example_object_type: integer
+    example_predicate: sockg:samplingDepth_cm
+    example_subject: sockg:individuals/364993
+    example_subject_type: sockg_WaterQualityConc
+from_schema: soc-kg
 rank: 1000
 slot_uri: sockg:samplingDepth_cm
 alias: sockg_samplingDepth_cm
 domain_of:
 - sockg_WaterQualityConc
-range: integer
+union_of:
+- '{''domain'': ''sockg_WaterQualityArea''}'
+- '{''domain'': ''sockg_WaterQualityConc''}'
+range: Any
+any_of:
+- range: integer
+- range: float
 
 ```
 </details>

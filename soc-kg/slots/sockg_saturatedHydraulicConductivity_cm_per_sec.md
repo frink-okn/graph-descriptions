@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_saturatedHydraulicConductivity_cm_per_sec
+# Slot: No slot (predicate) name specified (sockg_saturatedHydraulicConductivity_cm_per_sec)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:saturatedHydraulicConductivity_cm_per_sec](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/saturatedHydraulicConductivity_cm_per_sec)
+
+This slot occurs 33 times.
+
+
+URI: [sockg:saturatedHydraulicConductivity_cm_per_sec](https://idir.uta.edu/sockg-ontology/docs/saturatedHydraulicConductivity_cm_per_sec)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:saturatedHydraulicConductivity_cm_per_sec](http://www.semanticweb.or
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSoilPhysicalSample](../classes/SockgSoilPhysicalSample.md) | No type description provided |  no  |
+| [SockgSoilPhysicalSample](../classes/SockgSoilPhysicalSample.md) | SoilPhysicalSample represents a comprehensive analysis of soil characteristic... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:saturatedHydraulicConductivity_cm_per_sec](http://www.semanticweb.or
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,68 +46,49 @@ URI: [sockg:saturatedHydraulicConductivity_cm_per_sec](http://www.semanticweb.or
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#315392 sockg:saturatedHydraulicConductivity_cm_per_sec nan |
-
-## Comments
-
-* 28082 occurrences with subject type sockg:SoilPhysicalSample and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_SoilPhysicalSample | double | sockg:individuals/334651 | 0.00069444 | 33 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:saturatedHydraulicConductivity_cm_per_sec |
-| native | soc-kg/main/:sockg_saturatedHydraulicConductivity_cm_per_sec |
-
+* [https://lod.nal.usda.gov/nalt/46278](https://lod.nal.usda.gov/nalt/46278)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_saturatedHydraulicConductivity_cm_per_sec
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 28082 occurrences with subject type sockg:SoilPhysicalSample and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 33
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#315392 sockg:saturatedHydraulicConductivity_cm_per_sec
-    nan
-from_schema: soc-kg/main
+- object:
+    example_object: '0.00069444'
+    example_object_type: double
+    example_predicate: sockg:saturatedHydraulicConductivity_cm_per_sec
+    example_subject: sockg:individuals/334651
+    example_subject_type: sockg_SoilPhysicalSample
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/46278
 rank: 1000
+domain: sockg_SoilPhysicalSample
 slot_uri: sockg:saturatedHydraulicConductivity_cm_per_sec
 alias: sockg_saturatedHydraulicConductivity_cm_per_sec
 domain_of:
 - sockg_SoilPhysicalSample
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

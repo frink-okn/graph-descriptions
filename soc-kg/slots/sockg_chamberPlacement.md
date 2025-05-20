@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_chamberPlacement
+# Slot: No slot (predicate) name specified (sockg_chamberPlacement)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:chamberPlacement](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/chamberPlacement)
+
+This slot occurs 103543 times.
+
+
+URI: [sockg:chamberPlacement](https://idir.uta.edu/sockg-ontology/docs/chamberPlacement)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:chamberPlacement](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGasSample](../classes/SockgGasSample.md) | No type description provided |  no  |
+| [SockgGasSample](../classes/SockgGasSample.md) | GasSample represents a collection of measurements related to greenhouse gas e... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:chamberPlacement](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,44 +46,9 @@ URI: [sockg:chamberPlacement](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#116000 sockg:chamberPlacement Across rows |
-| neo4j://graph.individuals#104909 sockg:chamberPlacement nan |
-
-## Comments
-
-* 103543 occurrences with subject type sockg:GasSample and object type string.
-* 3811 occurrences with subject type sockg:GasSample and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:chamberPlacement |
-| native | soc-kg/main/:sockg_chamberPlacement |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_GasSample | string | sockg:individuals/100000 | Rangeland | 103543 |
 
 
 
@@ -87,29 +56,30 @@ URI: [sockg:chamberPlacement](http://www.semanticweb.org/sockg/ontologies/2024/0
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_chamberPlacement
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 103543 occurrences with subject type sockg:GasSample and object type string.
-- 3811 occurrences with subject type sockg:GasSample and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 103543
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#116000 sockg:chamberPlacement Across rows
-- value: neo4j://graph.individuals#104909 sockg:chamberPlacement nan
-from_schema: soc-kg/main
+- object:
+    example_object: Rangeland
+    example_object_type: string
+    example_predicate: sockg:chamberPlacement
+    example_subject: sockg:individuals/100000
+    example_subject_type: sockg_GasSample
+from_schema: soc-kg
 rank: 1000
+domain: sockg_GasSample
 slot_uri: sockg:chamberPlacement
 alias: sockg_chamberPlacement
 domain_of:
 - sockg_GasSample
-range: Any
-any_of:
-- range: string
-- range: double
+range: string
 
 ```
 </details>

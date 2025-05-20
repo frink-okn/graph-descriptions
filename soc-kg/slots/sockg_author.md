@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_author
+# Slot: No slot (predicate) name specified (sockg_author)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:author](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/author)
+
+This slot occurs 158 times.
+
+
+URI: [sockg:author](https://idir.uta.edu/sockg-ontology/docs/author)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:author](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carb
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPublication](../classes/SockgPublication.md) | No type description provided |  no  |
+| [SockgPublication](../classes/SockgPublication.md) | A Publication is a documented work that disseminates findings, research, or i... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:author](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carb
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#227211 sockg:author Sharon Weyers |
-
-## Comments
-
-* 114 occurrences with subject type sockg:Publication and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:author |
-| native | soc-kg/main/:sockg_author |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Publication | string | sockg:individuals/227447 | Franzluebbers | 158 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:author](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carb
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_author
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 114 occurrences with subject type sockg:Publication and object type string.
+annotations:
+  count:
+    tag: count
+    value: 158
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#227211 sockg:author Sharon Weyers
-from_schema: soc-kg/main
+- object:
+    example_object: Franzluebbers
+    example_object_type: string
+    example_predicate: sockg:author
+    example_subject: sockg:individuals/227447
+    example_subject_type: sockg_Publication
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Publication
 slot_uri: sockg:author
 alias: sockg_author
 domain_of:

@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_hasField
+# Slot: No slot (predicate) name specified (sockg_hasField)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:hasField](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/hasField)
+
+This slot occurs 65 times.
+
+
+URI: [sockg:hasField](https://idir.uta.edu/sockg-ontology/docs/hasField)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:hasField](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-ca
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSite](../classes/SockgSite.md) | No type description provided |  no  |
+| [SockgSite](../classes/SockgSite.md) | A Site represents a specific geographical location related to agricultural ac... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:hasField](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-ca
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#230717 sockg:hasField neo4j://graph.individuals#55585 |
-
-## Comments
-
-* 65 occurrences with subject type sockg:Site and object type sockg:Field.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:hasField |
-| native | soc-kg/main/:sockg_hasField |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Site | sockg_Field | sockg:individuals/231056 | sockg:individuals/55800 | 65 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:hasField](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-ca
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_hasField
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 65 occurrences with subject type sockg:Site and object type sockg:Field.
+annotations:
+  count:
+    tag: count
+    value: 65
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#230717 sockg:hasField neo4j://graph.individuals#55585
-from_schema: soc-kg/main
+- object:
+    example_object: sockg:individuals/55800
+    example_object_type: sockg_Field
+    example_predicate: sockg:hasField
+    example_subject: sockg:individuals/231056
+    example_subject_type: sockg_Site
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Site
 slot_uri: sockg:hasField
 alias: sockg_hasField
 domain_of:

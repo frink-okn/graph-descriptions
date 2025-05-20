@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_hasChemSample
+# Slot: No slot (predicate) name specified (sockg_hasChemSample)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:hasChemSample](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/hasChemSample)
+
+This slot occurs 53833 times.
+
+
+URI: [sockg:hasChemSample](https://idir.uta.edu/sockg-ontology/docs/hasChemSample)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:hasChemSample](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | No type description provided |  no  |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | An ExperimentalUnit represents a specific segment of agricultural research fo... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:hasChemSample](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#53001 sockg:hasChemSample neo4j://graph.individuals#278161 |
-
-## Comments
-
-* 52537 occurrences with subject type sockg:ExperimentalUnit and object type sockg:SoilChemicalSample.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:hasChemSample |
-| native | soc-kg/main/:sockg_hasChemSample |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_ExperimentalUnit | sockg_SoilChemicalSample | sockg:individuals/51937 | sockg:individuals/281187 | 53833 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:hasChemSample](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_hasChemSample
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 52537 occurrences with subject type sockg:ExperimentalUnit and object type sockg:SoilChemicalSample.
+annotations:
+  count:
+    tag: count
+    value: 53833
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#53001 sockg:hasChemSample neo4j://graph.individuals#278161
-from_schema: soc-kg/main
+- object:
+    example_object: sockg:individuals/281187
+    example_object_type: sockg_SoilChemicalSample
+    example_predicate: sockg:hasChemSample
+    example_subject: sockg:individuals/51937
+    example_subject_type: sockg_ExperimentalUnit
+from_schema: soc-kg
 rank: 1000
+domain: sockg_ExperimentalUnit
 slot_uri: sockg:hasChemSample
 alias: sockg_hasChemSample
 domain_of:

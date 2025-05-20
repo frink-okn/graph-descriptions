@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_citation
+# Slot: No slot (predicate) name specified (sockg_citation)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:citation](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/citation)
+
+This slot occurs 162 times.
+
+
+URI: [sockg:citation](https://idir.uta.edu/sockg-ontology/docs/citation)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:citation](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-ca
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPublication](../classes/SockgPublication.md) | No type description provided |  no  |
+| [SockgPublication](../classes/SockgPublication.md) | A Publication is a documented work that disseminates findings, research, or i... |  yes  |
 
 
 
@@ -42,65 +46,43 @@ URI: [sockg:citation](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-ca
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#227242 sockg:citation Acosta-Martínez, V., Dowd, S.E., Bell, C.W., Lascano, R., Booker, J.D., Zobeck, T.M., Upchurch D.R., 2010.  Microbial Community Composition as Affected by Dryland Cropping Systems and Tillage in a Semiarid Sandy Soil.  Diversity 2, 910-931. |
-
-## Comments
-
-* 114 occurrences with subject type sockg:Publication and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Publication | string | sockg:individuals/227447 | Franzluebbers AJ, Stuedemann JA. 2005. Bermudagrass management in the Southern Piedmont USA. VII. Soil-profile organic carbon and total nitrogen. Soil Science Society of America Journal 69, 1455-1462. | 162 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:citation |
-| native | soc-kg/main/:sockg_citation |
-
+* [https://lod.nal.usda.gov/nalt/305490](https://lod.nal.usda.gov/nalt/305490)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_citation
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 114 occurrences with subject type sockg:Publication and object type string.
+annotations:
+  count:
+    tag: count
+    value: 162
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#227242 sockg:citation Acosta-Martínez, V., Dowd,
-    S.E., Bell, C.W., Lascano, R., Booker, J.D., Zobeck, T.M., Upchurch D.R., 2010.  Microbial
-    Community Composition as Affected by Dryland Cropping Systems and Tillage in a
-    Semiarid Sandy Soil.  Diversity 2, 910-931.
-from_schema: soc-kg/main
+- object:
+    example_object: Franzluebbers AJ, Stuedemann JA. 2005. Bermudagrass management
+      in the Southern Piedmont USA. VII. Soil-profile organic carbon and total nitrogen.
+      Soil Science Society of America Journal 69, 1455-1462.
+    example_object_type: string
+    example_predicate: sockg:citation
+    example_subject: sockg:individuals/227447
+    example_subject_type: sockg_Publication
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/305490
 rank: 1000
+domain: sockg_Publication
 slot_uri: sockg:citation
 alias: sockg_citation
 domain_of:

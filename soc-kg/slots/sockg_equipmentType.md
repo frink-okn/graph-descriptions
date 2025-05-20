@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_equipmentType
+# Slot: No slot (predicate) name specified (sockg_equipmentType)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:equipmentType](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/equipmentType)
+
+This slot occurs 3044 times.
+
+
+URI: [sockg:equipmentType](https://idir.uta.edu/sockg-ontology/docs/equipmentType)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:equipmentType](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgResidueManagementEvent](../classes/SockgResidueManagementEvent.md) | No type description provided |  no  |
+| [SockgResidueManagementEvent](../classes/SockgResidueManagementEvent.md) | A ResidueManagementEvent represents a specific instance of managing agricultu... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:equipmentType](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,75 +46,46 @@ URI: [sockg:equipmentType](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#230492 sockg:equipmentType diaper |
-| neo4j://graph.individuals#228275 sockg:equipmentType nan |
-
-## Comments
-
-* 3044 occurrences with subject type sockg:ResidueManagementEvent and object type string.
-* 264 occurrences with subject type sockg:ResidueManagementEvent and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_ResidueManagementEvent | string | sockg:individuals/227674 | Single Row Forage Harvester | 3044 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:equipmentType |
-| native | soc-kg/main/:sockg_equipmentType |
-
+* [https://lod.nal.usda.gov/nalt/5401](https://lod.nal.usda.gov/nalt/5401)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_equipmentType
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 3044 occurrences with subject type sockg:ResidueManagementEvent and object type
-  string.
-- 264 occurrences with subject type sockg:ResidueManagementEvent and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 3044
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#230492 sockg:equipmentType diaper
-- value: neo4j://graph.individuals#228275 sockg:equipmentType nan
-from_schema: soc-kg/main
+- object:
+    example_object: Single Row Forage Harvester
+    example_object_type: string
+    example_predicate: sockg:equipmentType
+    example_subject: sockg:individuals/227674
+    example_subject_type: sockg_ResidueManagementEvent
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/5401
 rank: 1000
+domain: sockg_ResidueManagementEvent
 slot_uri: sockg:equipmentType
 alias: sockg_equipmentType
 domain_of:
 - sockg_ResidueManagementEvent
-range: Any
-any_of:
-- range: string
-- range: double
+range: string
 
 ```
 </details>

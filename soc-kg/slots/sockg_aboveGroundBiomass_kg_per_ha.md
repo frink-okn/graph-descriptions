@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_aboveGroundBiomass_kg_per_ha
+# Slot: No slot (predicate) name specified (sockg_aboveGroundBiomass_kg_per_ha)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:aboveGroundBiomass_kg_per_ha](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/aboveGroundBiomass_kg_per_ha)
+
+This slot occurs 11829 times.
+
+
+URI: [sockg:aboveGroundBiomass_kg_per_ha](https://idir.uta.edu/sockg-ontology/docs/aboveGroundBiomass_kg_per_ha)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:aboveGroundBiomass_kg_per_ha](http://www.semanticweb.org/sockg/ontol
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgHarvest](../classes/SockgHarvest.md) | No type description provided |  no  |
+| [SockgHarvest](../classes/SockgHarvest.md) | Harvest represents the process of collecting mature crops from the fields, wi... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:aboveGroundBiomass_kg_per_ha](http://www.semanticweb.org/sockg/ontol
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,67 +46,49 @@ URI: [sockg:aboveGroundBiomass_kg_per_ha](http://www.semanticweb.org/sockg/ontol
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#173013 sockg:aboveGroundBiomass_kg_per_ha nan |
-
-## Comments
-
-* 18356 occurrences with subject type sockg:Harvest and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Harvest | double | sockg:individuals/172992 | 11451.77 | 11829 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:aboveGroundBiomass_kg_per_ha |
-| native | soc-kg/main/:sockg_aboveGroundBiomass_kg_per_ha |
-
+* [https://lod.nal.usda.gov/nalt/131626](https://lod.nal.usda.gov/nalt/131626)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_aboveGroundBiomass_kg_per_ha
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 18356 occurrences with subject type sockg:Harvest and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 11829
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#173013 sockg:aboveGroundBiomass_kg_per_ha nan
-from_schema: soc-kg/main
+- object:
+    example_object: '11451.77'
+    example_object_type: double
+    example_predicate: sockg:aboveGroundBiomass_kg_per_ha
+    example_subject: sockg:individuals/172992
+    example_subject_type: sockg_Harvest
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/131626
 rank: 1000
+domain: sockg_Harvest
 slot_uri: sockg:aboveGroundBiomass_kg_per_ha
 alias: sockg_aboveGroundBiomass_kg_per_ha
 domain_of:
 - sockg_Harvest
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_dryBiomass_kg_per_ha
+# Slot: No slot (predicate) name specified (sockg_dryBiomass_kg_per_ha)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:dryBiomass_kg_per_ha](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/dryBiomass_kg_per_ha)
+
+This slot occurs 7547 times.
+
+
+URI: [sockg:dryBiomass_kg_per_ha](https://idir.uta.edu/sockg-ontology/docs/dryBiomass_kg_per_ha)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:dryBiomass_kg_per_ha](http://www.semanticweb.org/sockg/ontologies/20
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgHarvestFraction](../classes/SockgHarvestFraction.md) | No type description provided |  no  |
+| [SockgHarvestFraction](../classes/SockgHarvestFraction.md) | The HarvestFraction class represents the quantifiable metrics and characteris... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:dryBiomass_kg_per_ha](http://www.semanticweb.org/sockg/ontologies/20
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:dryBiomass_kg_per_ha](http://www.semanticweb.org/sockg/ontologies/20
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#191879 sockg:dryBiomass_kg_per_ha 2636.2 |
-
-## Comments
-
-* 9470 occurrences with subject type sockg:HarvestFraction and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:dryBiomass_kg_per_ha |
-| native | soc-kg/main/:sockg_dryBiomass_kg_per_ha |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_HarvestFraction | double | sockg:individuals/191262 | 79.6 | 7547 |
 
 
 
@@ -85,24 +56,33 @@ URI: [sockg:dryBiomass_kg_per_ha](http://www.semanticweb.org/sockg/ontologies/20
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_dryBiomass_kg_per_ha
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 9470 occurrences with subject type sockg:HarvestFraction and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 7547
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#191879 sockg:dryBiomass_kg_per_ha 2636.2
-from_schema: soc-kg/main
+- object:
+    example_object: '79.6'
+    example_object_type: double
+    example_predicate: sockg:dryBiomass_kg_per_ha
+    example_subject: sockg:individuals/191262
+    example_subject_type: sockg_HarvestFraction
+from_schema: soc-kg
 rank: 1000
+domain: sockg_HarvestFraction
 slot_uri: sockg:dryBiomass_kg_per_ha
 alias: sockg_dryBiomass_kg_per_ha
 domain_of:
 - sockg_HarvestFraction
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

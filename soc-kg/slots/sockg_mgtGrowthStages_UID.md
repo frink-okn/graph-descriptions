@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_mgtGrowthStages_UID
+# Slot: No slot (predicate) name specified (sockg_mgtGrowthStages_UID)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:mgtGrowthStages_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/mgtGrowthStages_UID)
+
+This slot occurs 4896 times.
+
+
+URI: [sockg:mgtGrowthStages_UID](https://idir.uta.edu/sockg-ontology/docs/mgtGrowthStages_UID)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:mgtGrowthStages_UID](http://www.semanticweb.org/sockg/ontologies/202
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgCropGrowthStage](../classes/SockgCropGrowthStage.md) | No type description provided |  no  |
+| [SockgCropGrowthStage](../classes/SockgCropGrowthStage.md) | The CropGrowthStage class represents the various phases of development that a... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:mgtGrowthStages_UID](http://www.semanticweb.org/sockg/ontologies/202
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#50484 sockg:mgtGrowthStages_UID AgCros_INWLACRE_NC_A34_2008-09-09_Glycine_max_Soybean_ |
-
-## Comments
-
-* 4896 occurrences with subject type sockg:CropGrowthStage and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:mgtGrowthStages_UID |
-| native | soc-kg/main/:sockg_mgtGrowthStages_UID |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_CropGrowthStage | string | sockg:individuals/46937 | AgCros_INWLREAP_R-202_2011-08-31_Zea_mays_Corn_ | 4896 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:mgtGrowthStages_UID](http://www.semanticweb.org/sockg/ontologies/202
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_mgtGrowthStages_UID
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 4896 occurrences with subject type sockg:CropGrowthStage and object type string.
+annotations:
+  count:
+    tag: count
+    value: 4896
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#50484 sockg:mgtGrowthStages_UID AgCros_INWLACRE_NC_A34_2008-09-09_Glycine_max_Soybean_
-from_schema: soc-kg/main
+- object:
+    example_object: AgCros_INWLREAP_R-202_2011-08-31_Zea_mays_Corn_
+    example_object_type: string
+    example_predicate: sockg:mgtGrowthStages_UID
+    example_subject: sockg:individuals/46937
+    example_subject_type: sockg_CropGrowthStage
+from_schema: soc-kg
 rank: 1000
+domain: sockg_CropGrowthStage
 slot_uri: sockg:mgtGrowthStages_UID
 alias: sockg_mgtGrowthStages_UID
 domain_of:

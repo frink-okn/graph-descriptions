@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_isMethaneInterpolated
+# Slot: No slot (predicate) name specified (sockg_isMethaneInterpolated)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:isMethaneInterpolated](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/isMethaneInterpolated)
+
+This slot occurs 107354 times.
+
+
+URI: [sockg:isMethaneInterpolated](https://idir.uta.edu/sockg-ontology/docs/isMethaneInterpolated)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:isMethaneInterpolated](http://www.semanticweb.org/sockg/ontologies/2
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGasSample](../classes/SockgGasSample.md) | No type description provided |  no  |
+| [SockgGasSample](../classes/SockgGasSample.md) | GasSample represents a collection of measurements related to greenhouse gas e... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:isMethaneInterpolated](http://www.semanticweb.org/sockg/ontologies/2
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#129538 sockg:isMethaneInterpolated 1 |
-
-## Comments
-
-* 107354 occurrences with subject type sockg:GasSample and object type xsd:long.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:isMethaneInterpolated |
-| native | soc-kg/main/:sockg_isMethaneInterpolated |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_GasSample | integer | sockg:individuals/100000 | 1 | 107354 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:isMethaneInterpolated](http://www.semanticweb.org/sockg/ontologies/2
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_isMethaneInterpolated
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 107354 occurrences with subject type sockg:GasSample and object type xsd:long.
+annotations:
+  count:
+    tag: count
+    value: 107354
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#129538 sockg:isMethaneInterpolated 1
-from_schema: soc-kg/main
+- object:
+    example_object: '1'
+    example_object_type: integer
+    example_predicate: sockg:isMethaneInterpolated
+    example_subject: sockg:individuals/100000
+    example_subject_type: sockg_GasSample
+from_schema: soc-kg
 rank: 1000
+domain: sockg_GasSample
 slot_uri: sockg:isMethaneInterpolated
 alias: sockg_isMethaneInterpolated
 domain_of:

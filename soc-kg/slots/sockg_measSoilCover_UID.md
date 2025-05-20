@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_measSoilCover_UID
+# Slot: No slot (predicate) name specified (sockg_measSoilCover_UID)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:measSoilCover_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/measSoilCover_UID)
+
+This slot occurs 1034 times.
+
+
+URI: [sockg:measSoilCover_UID](https://idir.uta.edu/sockg-ontology/docs/measSoilCover_UID)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:measSoilCover_UID](http://www.semanticweb.org/sockg/ontologies/2024/
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSoilCover](../classes/SockgSoilCover.md) | No type description provided |  no  |
+| [SockgSoilCover](../classes/SockgSoilCover.md) | SoilCover refers to the layer of organic and inorganic materials that covers ... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:measSoilCover_UID](http://www.semanticweb.org/sockg/ontologies/2024/
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#303051 sockg:measSoilCover_UID AgCros_PAUP_305_2008-11-04_Zea_mays_Corn_ |
-
-## Comments
-
-* 1034 occurrences with subject type sockg:SoilCover and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:measSoilCover_UID |
-| native | soc-kg/main/:sockg_measSoilCover_UID |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_SoilCover | string | sockg:individuals/307284 | AgCros_IAAM7071_115_2011-11-07_Zea_mays_Corn_ | 1034 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:measSoilCover_UID](http://www.semanticweb.org/sockg/ontologies/2024/
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_measSoilCover_UID
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1034 occurrences with subject type sockg:SoilCover and object type string.
+annotations:
+  count:
+    tag: count
+    value: 1034
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#303051 sockg:measSoilCover_UID AgCros_PAUP_305_2008-11-04_Zea_mays_Corn_
-from_schema: soc-kg/main
+- object:
+    example_object: AgCros_IAAM7071_115_2011-11-07_Zea_mays_Corn_
+    example_object_type: string
+    example_predicate: sockg:measSoilCover_UID
+    example_subject: sockg:individuals/307284
+    example_subject_type: sockg_SoilCover
+from_schema: soc-kg
 rank: 1000
+domain: sockg_SoilCover
 slot_uri: sockg:measSoilCover_UID
 alias: sockg_measSoilCover_UID
 domain_of:

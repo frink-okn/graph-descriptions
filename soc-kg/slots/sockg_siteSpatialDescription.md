@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_siteSpatialDescription
+# Slot: No slot (predicate) name specified (sockg_siteSpatialDescription)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:siteSpatialDescription](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/siteSpatialDescription)
+
+This slot occurs 60 times.
+
+
+URI: [sockg:siteSpatialDescription](https://idir.uta.edu/sockg-ontology/docs/siteSpatialDescription)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:siteSpatialDescription](http://www.semanticweb.org/sockg/ontologies/
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSite](../classes/SockgSite.md) | No type description provided |  no  |
+| [SockgSite](../classes/SockgSite.md) | A Site represents a specific geographical location related to agricultural ac... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:siteSpatialDescription](http://www.semanticweb.org/sockg/ontologies/
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#230713 sockg:siteSpatialDescription Bounding Box:,-93.766975,42.018853,-93.762143,42.016311 |
-
-## Comments
-
-* 60 occurrences with subject type sockg:Site and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:siteSpatialDescription |
-| native | soc-kg/main/:sockg_siteSpatialDescription |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Site | string | sockg:individuals/231056 | Bounding Box:,-85.897912,32.423849,-85.895231,32.421965 | 60 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:siteSpatialDescription](http://www.semanticweb.org/sockg/ontologies/
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_siteSpatialDescription
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 60 occurrences with subject type sockg:Site and object type string.
+annotations:
+  count:
+    tag: count
+    value: 60
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#230713 sockg:siteSpatialDescription Bounding Box:,-93.766975,42.018853,-93.762143,42.016311
-from_schema: soc-kg/main
+- object:
+    example_object: Bounding Box:,-85.897912,32.423849,-85.895231,32.421965
+    example_object_type: string
+    example_predicate: sockg:siteSpatialDescription
+    example_subject: sockg:individuals/231056
+    example_subject_type: sockg_Site
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Site
 slot_uri: sockg:siteSpatialDescription
 alias: sockg_siteSpatialDescription
 domain_of:

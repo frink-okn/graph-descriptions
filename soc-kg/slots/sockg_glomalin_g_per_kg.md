@@ -1,15 +1,17 @@
 
 
-# Slot: sockg_glomalin_g_per_kg
+# Slot: No slot (predicate) name specified (sockg_glomalin_g_per_kg)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:glomalin_g_per_kg](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/glomalin_g_per_kg)
+
+
+URI: [sockg:glomalin_g_per_kg](https://idir.uta.edu/sockg-ontology/docs/glomalin_g_per_kg)
 
 
 
@@ -19,90 +21,45 @@ URI: [sockg:glomalin_g_per_kg](http://www.semanticweb.org/sockg/ontologies/2024/
 
 
 
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [SockgSoilBiologicalSample](../classes/SockgSoilBiologicalSample.md) | No type description provided |  no  |
-
-
-
-
 
 
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
 
-
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#240655 sockg:glomalin_g_per_kg nan |
 
 ## Comments
 
-* 18222 occurrences with subject type sockg:SoilBiologicalSample and object type xsd:double.
+* No occurrences of this slot in the graph.
 
-## TODOs
+## See Also
 
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:glomalin_g_per_kg |
-| native | soc-kg/main/:sockg_glomalin_g_per_kg |
-
+* [https://lod.nal.usda.gov/nalt/41806](https://lod.nal.usda.gov/nalt/41806)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_glomalin_g_per_kg
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 comments:
-- 18222 occurrences with subject type sockg:SoilBiologicalSample and object type xsd:double.
-examples:
-- value: neo4j://graph.individuals#240655 sockg:glomalin_g_per_kg nan
-from_schema: soc-kg/main
+- No occurrences of this slot in the graph.
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/41806
 rank: 1000
+domain: sockg_SoilBiologicalSample
 slot_uri: sockg:glomalin_g_per_kg
 alias: sockg_glomalin_g_per_kg
-domain_of:
-- sockg_SoilBiologicalSample
-range: double
+range: float
 
 ```
 </details>

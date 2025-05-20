@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_particulateOrganicMatter_gC_per_kg
+# Slot: No slot (predicate) name specified (sockg_particulateOrganicMatter_gC_per_kg)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:particulateOrganicMatter_gC_per_kg](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/particulateOrganicMatter_gC_per_kg)
+
+This slot occurs 18222 times.
+
+
+URI: [sockg:particulateOrganicMatter_gC_per_kg](https://idir.uta.edu/sockg-ontology/docs/particulateOrganicMatter_gC_per_kg)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:particulateOrganicMatter_gC_per_kg](http://www.semanticweb.org/sockg
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSoilBiologicalSample](../classes/SockgSoilBiologicalSample.md) | No type description provided |  no  |
+| [SockgSoilBiologicalSample](../classes/SockgSoilBiologicalSample.md) | SoilBiologicalSample represents a collection of measurements related to micro... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:particulateOrganicMatter_gC_per_kg](http://www.semanticweb.org/sockg
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,68 +46,49 @@ URI: [sockg:particulateOrganicMatter_gC_per_kg](http://www.semanticweb.org/sockg
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#236666 sockg:particulateOrganicMatter_gC_per_kg 0.0 |
-
-## Comments
-
-* 18222 occurrences with subject type sockg:SoilBiologicalSample and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_SoilBiologicalSample | double | sockg:individuals/235229 | 3.966132 | 18222 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:particulateOrganicMatter_gC_per_kg |
-| native | soc-kg/main/:sockg_particulateOrganicMatter_gC_per_kg |
-
+* [https://lod.nal.usda.gov/nalt/263001](https://lod.nal.usda.gov/nalt/263001)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_particulateOrganicMatter_gC_per_kg
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 18222 occurrences with subject type sockg:SoilBiologicalSample and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 18222
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#236666 sockg:particulateOrganicMatter_gC_per_kg
-    0.0
-from_schema: soc-kg/main
+- object:
+    example_object: '3.966132'
+    example_object_type: double
+    example_predicate: sockg:particulateOrganicMatter_gC_per_kg
+    example_subject: sockg:individuals/235229
+    example_subject_type: sockg_SoilBiologicalSample
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/263001
 rank: 1000
+domain: sockg_SoilBiologicalSample
 slot_uri: sockg:particulateOrganicMatter_gC_per_kg
 alias: sockg_particulateOrganicMatter_gC_per_kg
 domain_of:
 - sockg_SoilBiologicalSample
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_surfaceOrLeaching
+# Slot: No slot (predicate) name specified (sockg_surfaceOrLeaching)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:surfaceOrLeaching](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/surfaceOrLeaching)
+
+This slot occurs 2146 times.
+
+
+URI: [sockg:surfaceOrLeaching](https://idir.uta.edu/sockg-ontology/docs/surfaceOrLeaching)
 
 
 
@@ -23,8 +27,8 @@ URI: [sockg:surfaceOrLeaching](http://www.semanticweb.org/sockg/ontologies/2024/
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | No type description provided |  no  |
-| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | No type description provided |  no  |
+| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | WaterQualityConc represents the concentration of various water quality parame... |  yes  |
+| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | A WaterQualityArea represents a designated agricultural zone where water qual... |  yes  |
 
 
 
@@ -43,44 +47,10 @@ URI: [sockg:surfaceOrLeaching](http://www.semanticweb.org/sockg/ontologies/2024/
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#361259 sockg:surfaceOrLeaching Leaching |
-| neo4j://graph.individuals#360315 sockg:surfaceOrLeaching Leaching |
-
-## Comments
-
-* 1479 occurrences with subject type sockg:WaterQualityConc and object type string.
-* 667 occurrences with subject type sockg:WaterQualityArea and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:surfaceOrLeaching |
-| native | soc-kg/main/:sockg_surfaceOrLeaching |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_WaterQualityArea | string | sockg:individuals/364326 | Surface | 667 |
+| sockg_WaterQualityConc | string | sockg:individuals/364993 | Leaching | 1479 |
 
 
 
@@ -88,26 +58,38 @@ URI: [sockg:surfaceOrLeaching](http://www.semanticweb.org/sockg/ontologies/2024/
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_surfaceOrLeaching
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1479 occurrences with subject type sockg:WaterQualityConc and object type string.
-- 667 occurrences with subject type sockg:WaterQualityArea and object type string.
+annotations:
+  count:
+    tag: count
+    value: 2146
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#361259 sockg:surfaceOrLeaching Leaching
-- value: neo4j://graph.individuals#360315 sockg:surfaceOrLeaching Leaching
-from_schema: soc-kg/main
+- object:
+    example_object: Surface
+    example_object_type: string
+    example_predicate: sockg:surfaceOrLeaching
+    example_subject: sockg:individuals/364326
+    example_subject_type: sockg_WaterQualityArea
+- object:
+    example_object: Leaching
+    example_object_type: string
+    example_predicate: sockg:surfaceOrLeaching
+    example_subject: sockg:individuals/364993
+    example_subject_type: sockg_WaterQualityConc
+from_schema: soc-kg
 rank: 1000
 slot_uri: sockg:surfaceOrLeaching
 alias: sockg_surfaceOrLeaching
 domain_of:
 - sockg_WaterQualityArea
 - sockg_WaterQualityConc
+union_of:
+- '{''domain'': ''sockg_WaterQualityArea''}'
+- '{''domain'': ''sockg_WaterQualityConc''}'
 range: string
 
 ```

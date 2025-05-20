@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_plantFraction
+# Slot: No slot (predicate) name specified (sockg_plantFraction)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:plantFraction](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/plantFraction)
+
+This slot occurs 21471 times.
+
+
+URI: [sockg:plantFraction](https://idir.uta.edu/sockg-ontology/docs/plantFraction)
 
 
 
@@ -23,12 +27,12 @@ URI: [sockg:plantFraction](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | No type description provided |  no  |
-| [SockgBioMassEnergy](../classes/SockgBioMassEnergy.md) | No type description provided |  no  |
-| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | No type description provided |  no  |
-| [SockgBioMassCarbohydrate](../classes/SockgBioMassCarbohydrate.md) | No type description provided |  no  |
-| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | No type description provided |  no  |
-| [SockgHarvestFraction](../classes/SockgHarvestFraction.md) | No type description provided |  no  |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | BioMassMiner is a class that represents the analysis of biomass in terms of i... |  yes  |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by... |  yes  |
+| [SockgBioMassCarbohydrate](../classes/SockgBioMassCarbohydrate.md) | BioMassCarbohydrate represents the carbohydrate content in biomass derived fr... |  yes  |
+| [SockgBioMassEnergy](../classes/SockgBioMassEnergy.md) | BioMassEnergy represents the energy content derived from agricultural biomass... |  yes  |
+| [SockgHarvestFraction](../classes/SockgHarvestFraction.md) | The HarvestFraction class represents the quantifiable metrics and characteris... |  yes  |
+| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | The NutrientEfficiency class represents the effectiveness of nutrient utiliza... |  yes  |
 
 
 
@@ -38,7 +42,7 @@ URI: [sockg:plantFraction](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -47,85 +51,74 @@ URI: [sockg:plantFraction](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#192293 sockg:plantFraction Grain |
-| neo4j://graph.individuals#44722 sockg:plantFraction Grain |
-| neo4j://graph.individuals#201773 sockg:plantFraction Grain |
-| neo4j://graph.individuals#509641 sockg:plantFraction Roots |
-| neo4j://graph.individuals#37806 sockg:plantFraction Above earshank |
-| neo4j://graph.individuals#39360 sockg:plantFraction Cobs |
-| neo4j://graph.individuals#200713 sockg:plantFraction nan |
-
-## Comments
-
-* 9470 occurrences with subject type sockg:HarvestFraction and object type string.
-* 6723 occurrences with subject type sockg:BioMassMineral and object type string.
-* 2683 occurrences with subject type sockg:NutrientEfficiency and object type string.
-* 429 occurrences with subject type sockg:YieldNutrientUptake and object type string.
-* 1367 occurrences with subject type sockg:BioMassCarbohydrate and object type string.
-* 799 occurrences with subject type sockg:BioMassEnergy and object type string.
-* 108 occurrences with subject type sockg:NutrientEfficiency and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_HarvestFraction | string | sockg:individuals/191262 | Roots | 9470 |
+| sockg_BioMassCarbohydrate | string | sockg:individuals/37796 | Above earshank | 1367 |
+| sockg_BioMassEnergy | string | sockg:individuals/39163 | Below earshank leaves | 799 |
+| sockg_BioMassMineral | string | sockg:individuals/39962 | Stover (all non-grain biomass) | 6723 |
+| sockg_NutrientEfficiency | string | sockg:individuals/200732 | Seed Oil | 2683 |
+| sockg_YieldNutrientUptake | string | sockg:individuals/624587 | Grain | 429 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:plantFraction |
-| native | soc-kg/main/:sockg_plantFraction |
-
+* [https://lod.nal.usda.gov/nalt/849](https://lod.nal.usda.gov/nalt/849)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_plantFraction
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 9470 occurrences with subject type sockg:HarvestFraction and object type string.
-- 6723 occurrences with subject type sockg:BioMassMineral and object type string.
-- 2683 occurrences with subject type sockg:NutrientEfficiency and object type string.
-- 429 occurrences with subject type sockg:YieldNutrientUptake and object type string.
-- 1367 occurrences with subject type sockg:BioMassCarbohydrate and object type string.
-- 799 occurrences with subject type sockg:BioMassEnergy and object type string.
-- 108 occurrences with subject type sockg:NutrientEfficiency and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 21471
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#192293 sockg:plantFraction Grain
-- value: neo4j://graph.individuals#44722 sockg:plantFraction Grain
-- value: neo4j://graph.individuals#201773 sockg:plantFraction Grain
-- value: neo4j://graph.individuals#509641 sockg:plantFraction Roots
-- value: neo4j://graph.individuals#37806 sockg:plantFraction Above earshank
-- value: neo4j://graph.individuals#39360 sockg:plantFraction Cobs
-- value: neo4j://graph.individuals#200713 sockg:plantFraction nan
-from_schema: soc-kg/main
+- object:
+    example_object: Roots
+    example_object_type: string
+    example_predicate: sockg:plantFraction
+    example_subject: sockg:individuals/191262
+    example_subject_type: sockg_HarvestFraction
+- object:
+    example_object: Above earshank
+    example_object_type: string
+    example_predicate: sockg:plantFraction
+    example_subject: sockg:individuals/37796
+    example_subject_type: sockg_BioMassCarbohydrate
+- object:
+    example_object: Below earshank leaves
+    example_object_type: string
+    example_predicate: sockg:plantFraction
+    example_subject: sockg:individuals/39163
+    example_subject_type: sockg_BioMassEnergy
+- object:
+    example_object: Stover (all non-grain biomass)
+    example_object_type: string
+    example_predicate: sockg:plantFraction
+    example_subject: sockg:individuals/39962
+    example_subject_type: sockg_BioMassMineral
+- object:
+    example_object: Seed Oil
+    example_object_type: string
+    example_predicate: sockg:plantFraction
+    example_subject: sockg:individuals/200732
+    example_subject_type: sockg_NutrientEfficiency
+- object:
+    example_object: Grain
+    example_object_type: string
+    example_predicate: sockg:plantFraction
+    example_subject: sockg:individuals/624587
+    example_subject_type: sockg_YieldNutrientUptake
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/849
 rank: 1000
 slot_uri: sockg:plantFraction
 alias: sockg_plantFraction
@@ -136,10 +129,14 @@ domain_of:
 - sockg_HarvestFraction
 - sockg_NutrientEfficiency
 - sockg_YieldNutrientUptake
-range: Any
-any_of:
-- range: string
-- range: double
+union_of:
+- '{''domain'': ''sockg_NutrientEfficiency''}'
+- '{''domain'': ''sockg_BioMassEnergy''}'
+- '{''domain'': ''sockg_HarvestFraction''}'
+- '{''domain'': ''sockg_BioMassMineral''}'
+- '{''domain'': ''sockg_YieldNutrientUptake''}'
+- '{''domain'': ''sockg_BioMassCarbohydrate''}'
+range: string
 
 ```
 </details>

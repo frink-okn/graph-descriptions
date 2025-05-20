@@ -1,6 +1,6 @@
 # soc-kg
 
-TODO -- tell the world what this schema describes.
+No schema description specified
 
-URI: soc-kg/main
+URI: soc-kg
 

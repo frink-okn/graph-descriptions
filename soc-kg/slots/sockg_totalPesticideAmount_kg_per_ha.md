@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_totalPesticideAmount_kg_per_ha
+# Slot: No slot (predicate) name specified (sockg_totalPesticideAmount_kg_per_ha)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:totalPesticideAmount_kg_per_ha](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/totalPesticideAmount_kg_per_ha)
+
+This slot occurs 353 times.
+
+
+URI: [sockg:totalPesticideAmount_kg_per_ha](https://idir.uta.edu/sockg-ontology/docs/totalPesticideAmount_kg_per_ha)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:totalPesticideAmount_kg_per_ha](http://www.semanticweb.org/sockg/ont
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPesticide](../classes/SockgPesticide.md) | No type description provided |  no  |
+| [SockgPesticide](../classes/SockgPesticide.md) | Pesticides are substances used in agriculture to manage pests and diseases th... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:totalPesticideAmount_kg_per_ha](http://www.semanticweb.org/sockg/ont
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:totalPesticideAmount_kg_per_ha](http://www.semanticweb.org/sockg/ont
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#203659 sockg:totalPesticideAmount_kg_per_ha 2.8 |
-
-## Comments
-
-* 356 occurrences with subject type sockg:Pesticide and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:totalPesticideAmount_kg_per_ha |
-| native | soc-kg/main/:sockg_totalPesticideAmount_kg_per_ha |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Pesticide | double | sockg:individuals/203632 | 0.0 | 353 |
 
 
 
@@ -85,24 +56,33 @@ URI: [sockg:totalPesticideAmount_kg_per_ha](http://www.semanticweb.org/sockg/ont
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_totalPesticideAmount_kg_per_ha
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 356 occurrences with subject type sockg:Pesticide and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 353
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#203659 sockg:totalPesticideAmount_kg_per_ha 2.8
-from_schema: soc-kg/main
+- object:
+    example_object: '0.0'
+    example_object_type: double
+    example_predicate: sockg:totalPesticideAmount_kg_per_ha
+    example_subject: sockg:individuals/203632
+    example_subject_type: sockg_Pesticide
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Pesticide
 slot_uri: sockg:totalPesticideAmount_kg_per_ha
 alias: sockg_totalPesticideAmount_kg_per_ha
 domain_of:
 - sockg_Pesticide
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_measSoilBiol_UID
+# Slot: No slot (predicate) name specified (sockg_measSoilBiol_UID)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:measSoilBiol_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/measSoilBiol_UID)
+
+This slot occurs 18222 times.
+
+
+URI: [sockg:measSoilBiol_UID](https://idir.uta.edu/sockg-ontology/docs/measSoilBiol_UID)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:measSoilBiol_UID](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSoilBiologicalSample](../classes/SockgSoilBiologicalSample.md) | No type description provided |  no  |
+| [SockgSoilBiologicalSample](../classes/SockgSoilBiologicalSample.md) | SoilBiologicalSample represents a collection of measurements related to micro... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:measSoilBiol_UID](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#243606 sockg:measSoilBiol_UID AgCros_GAJPCSR2_B3P110F4H1D1_2001-01-24_3_6 |
-
-## Comments
-
-* 18222 occurrences with subject type sockg:SoilBiologicalSample and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:measSoilBiol_UID |
-| native | soc-kg/main/:sockg_measSoilBiol_UID |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_SoilBiologicalSample | string | sockg:individuals/235229 | AgCros_GAJPCSR1_B2P105F3H1X600Y390_1994-04-11_0_2 | 18222 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:measSoilBiol_UID](http://www.semanticweb.org/sockg/ontologies/2024/0
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_measSoilBiol_UID
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 18222 occurrences with subject type sockg:SoilBiologicalSample and object type string.
+annotations:
+  count:
+    tag: count
+    value: 18222
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#243606 sockg:measSoilBiol_UID AgCros_GAJPCSR2_B3P110F4H1D1_2001-01-24_3_6
-from_schema: soc-kg/main
+- object:
+    example_object: AgCros_GAJPCSR1_B2P105F3H1X600Y390_1994-04-11_0_2
+    example_object_type: string
+    example_predicate: sockg:measSoilBiol_UID
+    example_subject: sockg:individuals/235229
+    example_subject_type: sockg_SoilBiologicalSample
+from_schema: soc-kg
 rank: 1000
+domain: sockg_SoilBiologicalSample
 slot_uri: sockg:measSoilBiol_UID
 alias: sockg_measSoilBiol_UID
 domain_of:

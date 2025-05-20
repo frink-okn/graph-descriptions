@@ -1,15 +1,19 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (sockg_Department)
+# Class: No class (entity type) name specified (sockg_Department)
 
 
-_No type description provided_
+_A Department represents a specialized division within an agricultural institution, focused on specific areas of study or practice, such as Plant Sciences or Agricultural Engineering. Each department plays a crucial role in advancing agricultural research, education, and outreach in its designated field._
 
 
 
 
 
-URI: [sockg:Department](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/Department)
+
+This class occurs 49 times.
+
+
+URI: [sockg:Department](https://idir.uta.edu/sockg-ontology/docs/Department)
 
 
 
@@ -49,10 +53,10 @@ URI: [sockg:Department](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [sockg_departmentOf](../slots/sockg_departmentOf.md) | 0..1 <br/> [SockgOrganization](../classes/SockgOrganization.md) | No slot description provided | direct |
-| [sockg_departmentName](../slots/sockg_departmentName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
+| [sockg_departmentName](../slots/sockg_departmentName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 33 |
+| [sockg_departmentOf](../slots/sockg_departmentOf.md) | 0..1 <br/> [SockgOrganization](../classes/SockgOrganization.md) | No slot (predicate) description specified <br/>  | direct | 11 |
 
 
 
@@ -62,48 +66,13 @@ URI: [sockg:Department](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
+| [SockgDepartment](../classes/SockgDepartment.md) | [sockg_departmentName](../slots/sockg_departmentName.md) | domain | [SockgDepartment](../classes/SockgDepartment.md) |
+| [SockgDepartment](../classes/SockgDepartment.md) | [sockg_departmentOf](../slots/sockg_departmentOf.md) | domain | [SockgDepartment](../classes/SockgDepartment.md) |
 | [SockgPerson](../classes/SockgPerson.md) | [sockg_worksAtDepartment](../slots/sockg_worksAtDepartment.md) | range | [SockgDepartment](../classes/SockgDepartment.md) |
 
 
 
 
-
-
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#51681 |
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:Department |
-| native | soc-kg/main/:SockgDepartment |
 
 
 
@@ -118,23 +87,37 @@ URI: [sockg:Department](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-
 ### Direct
 
 <details>
+
 ```yaml
 name: sockg_Department
-description: No type description provided
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- There are 33 instances of this class.
-examples:
-- value: neo4j://graph.individuals#51681
-from_schema: soc-kg/main
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 49
+description: A Department represents a specialized division within an agricultural
+  institution, focused on specific areas of study or practice, such as Plant Sciences
+  or Agricultural Engineering. Each department plays a crucial role in advancing agricultural
+  research, education, and outreach in its designated field.
+title: No class (entity type) name specified
+from_schema: soc-kg
 rank: 1000
 slots:
-- sockg_departmentOf
 - sockg_departmentName
+- sockg_departmentOf
+slot_usage:
+  sockg_departmentName:
+    name: sockg_departmentName
+    annotations:
+      string:
+        tag: string
+        value: 33
+  sockg_departmentOf:
+    name: sockg_departmentOf
+    annotations:
+      sockg_Organization:
+        tag: sockg_Organization
+        value: 11
 class_uri: sockg:Department
 
 ```
@@ -143,60 +126,83 @@ class_uri: sockg:Department
 ### Induced
 
 <details>
+
 ```yaml
 name: sockg_Department
-description: No type description provided
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- There are 33 instances of this class.
-examples:
-- value: neo4j://graph.individuals#51681
-from_schema: soc-kg/main
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 49
+description: A Department represents a specialized division within an agricultural
+  institution, focused on specific areas of study or practice, such as Plant Sciences
+  or Agricultural Engineering. Each department plays a crucial role in advancing agricultural
+  research, education, and outreach in its designated field.
+title: No class (entity type) name specified
+from_schema: soc-kg
 rank: 1000
-attributes:
-  sockg_departmentOf:
-    name: sockg_departmentOf
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 11 occurrences with subject type sockg:Department and object type sockg:Organization.
-    examples:
-    - value: neo4j://graph.individuals#51678 sockg:departmentOf neo4j://graph.individuals#203272
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:departmentOf
-    alias: sockg_departmentOf
-    owner: sockg_Department
-    domain_of:
-    - sockg_Department
-    range: sockg_Organization
+slot_usage:
   sockg_departmentName:
     name: sockg_departmentName
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 33 occurrences with subject type sockg:Department and object type string.
+    annotations:
+      string:
+        tag: string
+        value: 33
+  sockg_departmentOf:
+    name: sockg_departmentOf
+    annotations:
+      sockg_Organization:
+        tag: sockg_Organization
+        value: 11
+attributes:
+  sockg_departmentName:
+    name: sockg_departmentName
+    annotations:
+      string:
+        tag: string
+        value: 33
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#51669 sockg:departmentName Northern Great Plains
-        Research Laboratory
-    from_schema: soc-kg/main
+    - object:
+        example_object: USDA ARS
+        example_object_type: string
+        example_predicate: sockg:departmentName
+        example_subject: sockg:individuals/51833
+        example_subject_type: sockg_Department
+    from_schema: soc-kg
     rank: 1000
+    domain: sockg_Department
     slot_uri: sockg:departmentName
     alias: sockg_departmentName
     owner: sockg_Department
     domain_of:
     - sockg_Department
     range: string
+  sockg_departmentOf:
+    name: sockg_departmentOf
+    annotations:
+      sockg_Organization:
+        tag: sockg_Organization
+        value: 11
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/203523
+        example_object_type: sockg_Organization
+        example_predicate: sockg:departmentOf
+        example_subject: sockg:individuals/51836
+        example_subject_type: sockg_Department
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Department
+    slot_uri: sockg:departmentOf
+    alias: sockg_departmentOf
+    owner: sockg_Department
+    domain_of:
+    - sockg_Department
+    range: sockg_Organization
 class_uri: sockg:Department
 
 ```

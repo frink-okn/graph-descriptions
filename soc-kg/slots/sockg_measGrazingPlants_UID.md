@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_measGrazingPlants_UID
+# Slot: No slot (predicate) name specified (sockg_measGrazingPlants_UID)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:measGrazingPlants_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/measGrazingPlants_UID)
+
+This slot occurs 6995 times.
+
+
+URI: [sockg:measGrazingPlants_UID](https://idir.uta.edu/sockg-ontology/docs/measGrazingPlants_UID)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:measGrazingPlants_UID](http://www.semanticweb.org/sockg/ontologies/2
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGrazing](../classes/SockgGrazing.md) | No type description provided |  no  |
+| [SockgGrazing](../classes/SockgGrazing.md) | The Grazing class represents the assessment of various productivity metrics a... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:measGrazingPlants_UID](http://www.semanticweb.org/sockg/ontologies/2
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#166111 sockg:measGrazingPlants_UID AgCros_GAJPCSR1_B3P107F2H1X540Y240_1995-05-17 |
-
-## Comments
-
-* 6995 occurrences with subject type sockg:Grazing and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:measGrazingPlants_UID |
-| native | soc-kg/main/:sockg_measGrazingPlants_UID |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Grazing | string | sockg:individuals/163960 | AgCros_GAJPCSR1_B3P110F1H1X450Y60_1997-07-10 | 6995 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:measGrazingPlants_UID](http://www.semanticweb.org/sockg/ontologies/2
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_measGrazingPlants_UID
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 6995 occurrences with subject type sockg:Grazing and object type string.
+annotations:
+  count:
+    tag: count
+    value: 6995
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#166111 sockg:measGrazingPlants_UID AgCros_GAJPCSR1_B3P107F2H1X540Y240_1995-05-17
-from_schema: soc-kg/main
+- object:
+    example_object: AgCros_GAJPCSR1_B3P110F1H1X450Y60_1997-07-10
+    example_object_type: string
+    example_predicate: sockg:measGrazingPlants_UID
+    example_subject: sockg:individuals/163960
+    example_subject_type: sockg_Grazing
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Grazing
 slot_uri: sockg:measGrazingPlants_UID
 alias: sockg_measGrazingPlants_UID
 domain_of:

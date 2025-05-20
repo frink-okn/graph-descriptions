@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_departmentName
+# Slot: No slot (predicate) name specified (sockg_departmentName)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:departmentName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/departmentName)
+
+This slot occurs 33 times.
+
+
+URI: [sockg:departmentName](https://idir.uta.edu/sockg-ontology/docs/departmentName)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:departmentName](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgDepartment](../classes/SockgDepartment.md) | No type description provided |  no  |
+| [SockgDepartment](../classes/SockgDepartment.md) | A Department represents a specialized division within an agricultural institu... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:departmentName](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#51669 sockg:departmentName Northern Great Plains Research Laboratory |
-
-## Comments
-
-* 33 occurrences with subject type sockg:Department and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:departmentName |
-| native | soc-kg/main/:sockg_departmentName |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Department | string | sockg:individuals/51833 | USDA ARS | 33 |
 
 
 
@@ -85,20 +56,25 @@ URI: [sockg:departmentName](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_departmentName
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 33 occurrences with subject type sockg:Department and object type string.
+annotations:
+  count:
+    tag: count
+    value: 33
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#51669 sockg:departmentName Northern Great Plains
-    Research Laboratory
-from_schema: soc-kg/main
+- object:
+    example_object: USDA ARS
+    example_object_type: string
+    example_predicate: sockg:departmentName
+    example_subject: sockg:individuals/51833
+    example_subject_type: sockg_Department
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Department
 slot_uri: sockg:departmentName
 alias: sockg_departmentName
 domain_of:

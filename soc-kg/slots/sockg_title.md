@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_title
+# Slot: No slot (predicate) name specified (sockg_title)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:title](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/title)
+
+This slot occurs 136 times.
+
+
+URI: [sockg:title](https://idir.uta.edu/sockg-ontology/docs/title)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:title](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbo
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPublication](../classes/SockgPublication.md) | No type description provided |  no  |
+| [SockgPublication](../classes/SockgPublication.md) | A Publication is a documented work that disseminates findings, research, or i... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:title](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbo
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,44 +46,9 @@ URI: [sockg:title](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbo
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#227249 sockg:title Greenhouse gas emission from contrasting management scenarios in the northern Corn Belt. |
-| neo4j://graph.individuals#227199 sockg:title nan |
-
-## Comments
-
-* 107 occurrences with subject type sockg:Publication and object type string.
-* 7 occurrences with subject type sockg:Publication and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:title |
-| native | soc-kg/main/:sockg_title |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Publication | string | sockg:individuals/227449 | Nutrient concentrations in leachate and runoff from dairy cattle lots with different surface materials | 136 |
 
 
 
@@ -87,30 +56,31 @@ URI: [sockg:title](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbo
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_title
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 107 occurrences with subject type sockg:Publication and object type string.
-- 7 occurrences with subject type sockg:Publication and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 136
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#227249 sockg:title Greenhouse gas emission from
-    contrasting management scenarios in the northern Corn Belt.
-- value: neo4j://graph.individuals#227199 sockg:title nan
-from_schema: soc-kg/main
+- object:
+    example_object: Nutrient concentrations in leachate and runoff from dairy cattle
+      lots with different surface materials
+    example_object_type: string
+    example_predicate: sockg:title
+    example_subject: sockg:individuals/227449
+    example_subject_type: sockg_Publication
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Publication
 slot_uri: sockg:title
 alias: sockg_title
 domain_of:
 - sockg_Publication
-range: Any
-any_of:
-- range: string
-- range: double
+range: string
 
 ```
 </details>

@@ -1,0 +1,65 @@
+
+
+# Slot: No slot (predicate) name specified (sockg_slopePercent)
+
+
+_No slot (predicate) description specified_
+
+
+
+
+
+
+
+URI: [sockg:slopePercent](https://idir.uta.edu/sockg-ontology/docs/slopePercent)
+
+
+
+<!-- no inheritance hierarchy -->
+
+
+
+
+
+
+
+
+## Properties
+
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+
+
+
+
+
+## Comments
+
+* No occurrences of this slot in the graph.
+
+## See Also
+
+* [https://lod.nal.usda.gov/nalt/63217](https://lod.nal.usda.gov/nalt/63217)
+
+
+
+## LinkML Source
+
+<details>
+
+```yaml
+name: sockg_slopePercent
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
+comments:
+- No occurrences of this slot in the graph.
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/63217
+rank: 1000
+domain: sockg_ExperimentalUnit
+slot_uri: sockg:slopePercent
+alias: sockg_slopePercent
+range: string
+
+```
+</details>

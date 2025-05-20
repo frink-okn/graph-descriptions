@@ -1,15 +1,17 @@
 
 
-# Slot: sockg_aggregationPercent
+# Slot: No slot (predicate) name specified (sockg_aggregationPercent)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:aggregationPercent](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/aggregationPercent)
+
+
+URI: [sockg:aggregationPercent](https://idir.uta.edu/sockg-ontology/docs/aggregationPercent)
 
 
 
@@ -19,90 +21,45 @@ URI: [sockg:aggregationPercent](http://www.semanticweb.org/sockg/ontologies/2024
 
 
 
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [SockgSoilPhysicalSample](../classes/SockgSoilPhysicalSample.md) | No type description provided |  no  |
-
-
-
-
 
 
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
 
-
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#303979 sockg:aggregationPercent nan |
 
 ## Comments
 
-* 28082 occurrences with subject type sockg:SoilPhysicalSample and object type xsd:double.
+* No occurrences of this slot in the graph.
 
-## TODOs
+## See Also
 
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:aggregationPercent |
-| native | soc-kg/main/:sockg_aggregationPercent |
-
+* [https://lod.nal.usda.gov/nalt/5143](https://lod.nal.usda.gov/nalt/5143)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_aggregationPercent
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 comments:
-- 28082 occurrences with subject type sockg:SoilPhysicalSample and object type xsd:double.
-examples:
-- value: neo4j://graph.individuals#303979 sockg:aggregationPercent nan
-from_schema: soc-kg/main
+- No occurrences of this slot in the graph.
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/5143
 rank: 1000
+domain: sockg_SoilPhysicalSample
 slot_uri: sockg:aggregationPercent
 alias: sockg_aggregationPercent
-domain_of:
-- sockg_SoilPhysicalSample
-range: double
+range: float
 
 ```
 </details>

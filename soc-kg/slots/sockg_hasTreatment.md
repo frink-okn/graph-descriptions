@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_hasTreatment
+# Slot: No slot (predicate) name specified (sockg_hasTreatment)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:hasTreatment](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/hasTreatment)
+
+This slot occurs 741 times.
+
+
+URI: [sockg:hasTreatment](https://idir.uta.edu/sockg-ontology/docs/hasTreatment)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:hasTreatment](http://www.semanticweb.org/sockg/ontologies/2024/0/soi
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgExperiment](../classes/SockgExperiment.md) | No type description provided |  no  |
+| [SockgExperiment](../classes/SockgExperiment.md) | An Experiment is a structured investigation carried out to observe and analyz... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:hasTreatment](http://www.semanticweb.org/sockg/ontologies/2024/0/soi
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#51716 sockg:hasTreatment neo4j://graph.individuals#359530 |
-
-## Comments
-
-* 741 occurrences with subject type sockg:Experiment and object type sockg:Treatment.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:hasTreatment |
-| native | soc-kg/main/:sockg_hasTreatment |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Experiment | sockg_Treatment | sockg:individuals/51906 | sockg:individuals/363836 | 741 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:hasTreatment](http://www.semanticweb.org/sockg/ontologies/2024/0/soi
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_hasTreatment
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 741 occurrences with subject type sockg:Experiment and object type sockg:Treatment.
+annotations:
+  count:
+    tag: count
+    value: 741
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#51716 sockg:hasTreatment neo4j://graph.individuals#359530
-from_schema: soc-kg/main
+- object:
+    example_object: sockg:individuals/363836
+    example_object_type: sockg_Treatment
+    example_predicate: sockg:hasTreatment
+    example_subject: sockg:individuals/51906
+    example_subject_type: sockg_Experiment
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Experiment
 slot_uri: sockg:hasTreatment
 alias: sockg_hasTreatment
 domain_of:

@@ -1,15 +1,17 @@
 
 
-# Slot: sockg_yearsBetweenBurns
+# Slot: No slot (predicate) name specified (sockg_yearsBetweenBurns)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:yearsBetweenBurns](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/yearsBetweenBurns)
+
+
+URI: [sockg:yearsBetweenBurns](https://idir.uta.edu/sockg-ontology/docs/yearsBetweenBurns)
 
 
 
@@ -19,91 +21,39 @@ URI: [sockg:yearsBetweenBurns](http://www.semanticweb.org/sockg/ontologies/2024/
 
 
 
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [SockgGrazingManagementEvent](../classes/SockgGrazingManagementEvent.md) | No type description provided |  no  |
-
-
-
-
 
 
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
 
 
 
 
-
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#171967 sockg:yearsBetweenBurns nan |
 
 ## Comments
 
-* 1951 occurrences with subject type sockg:GrazingManagementEvent and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:yearsBetweenBurns |
-| native | soc-kg/main/:sockg_yearsBetweenBurns |
-
+* No occurrences of this slot in the graph.
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_yearsBetweenBurns
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 comments:
-- 1951 occurrences with subject type sockg:GrazingManagementEvent and object type
-  xsd:double.
-examples:
-- value: neo4j://graph.individuals#171967 sockg:yearsBetweenBurns nan
-from_schema: soc-kg/main
+- No occurrences of this slot in the graph.
+from_schema: soc-kg
 rank: 1000
+domain: sockg_GrazingManagementEvent
 slot_uri: sockg:yearsBetweenBurns
 alias: sockg_yearsBetweenBurns
-domain_of:
-- sockg_GrazingManagementEvent
-range: double
+range: integer
 
 ```
 </details>

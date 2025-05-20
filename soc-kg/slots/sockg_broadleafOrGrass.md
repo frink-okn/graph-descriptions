@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_broadleafOrGrass
+# Slot: No slot (predicate) name specified (sockg_broadleafOrGrass)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:broadleafOrGrass](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/broadleafOrGrass)
+
+This slot occurs 6995 times.
+
+
+URI: [sockg:broadleafOrGrass](https://idir.uta.edu/sockg-ontology/docs/broadleafOrGrass)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:broadleafOrGrass](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGrazing](../classes/SockgGrazing.md) | No type description provided |  no  |
+| [SockgGrazing](../classes/SockgGrazing.md) | The Grazing class represents the assessment of various productivity metrics a... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:broadleafOrGrass](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#164049 sockg:broadleafOrGrass Grass |
-
-## Comments
-
-* 6995 occurrences with subject type sockg:Grazing and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:broadleafOrGrass |
-| native | soc-kg/main/:sockg_broadleafOrGrass |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Grazing | string | sockg:individuals/163960 | Grass | 6995 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:broadleafOrGrass](http://www.semanticweb.org/sockg/ontologies/2024/0
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_broadleafOrGrass
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 6995 occurrences with subject type sockg:Grazing and object type string.
+annotations:
+  count:
+    tag: count
+    value: 6995
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#164049 sockg:broadleafOrGrass Grass
-from_schema: soc-kg/main
+- object:
+    example_object: Grass
+    example_object_type: string
+    example_predicate: sockg:broadleafOrGrass
+    example_subject: sockg:individuals/163960
+    example_subject_type: sockg_Grazing
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Grazing
 slot_uri: sockg:broadleafOrGrass
 alias: sockg_broadleafOrGrass
 domain_of:

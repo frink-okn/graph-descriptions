@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_measResidueMgnt_UID
+# Slot: No slot (predicate) name specified (sockg_measResidueMgnt_UID)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:measResidueMgnt_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/measResidueMgnt_UID)
+
+This slot occurs 18356 times.
+
+
+URI: [sockg:measResidueMgnt_UID](https://idir.uta.edu/sockg-ontology/docs/measResidueMgnt_UID)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:measResidueMgnt_UID](http://www.semanticweb.org/sockg/ontologies/202
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgHarvest](../classes/SockgHarvest.md) | No type description provided |  no  |
+| [SockgHarvest](../classes/SockgHarvest.md) | Harvest represents the process of collecting mature crops from the fields, wi... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:measResidueMgnt_UID](http://www.semanticweb.org/sockg/ontologies/202
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#181618 sockg:measResidueMgnt_UID AgCros_PAHAW_204B_2010-06-17_Medicago_sativa_Alfalfa_ |
-
-## Comments
-
-* 18356 occurrences with subject type sockg:Harvest and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:measResidueMgnt_UID |
-| native | soc-kg/main/:sockg_measResidueMgnt_UID |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Harvest | string | sockg:individuals/172906 | AgCros_PAHAW_211_2007-11-14_Glycine_max_Soybean_ | 18356 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:measResidueMgnt_UID](http://www.semanticweb.org/sockg/ontologies/202
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_measResidueMgnt_UID
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 18356 occurrences with subject type sockg:Harvest and object type string.
+annotations:
+  count:
+    tag: count
+    value: 18356
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#181618 sockg:measResidueMgnt_UID AgCros_PAHAW_204B_2010-06-17_Medicago_sativa_Alfalfa_
-from_schema: soc-kg/main
+- object:
+    example_object: AgCros_PAHAW_211_2007-11-14_Glycine_max_Soybean_
+    example_object_type: string
+    example_predicate: sockg:measResidueMgnt_UID
+    example_subject: sockg:individuals/172906
+    example_subject_type: sockg_Harvest
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Harvest
 slot_uri: sockg:measResidueMgnt_UID
 alias: sockg_measResidueMgnt_UID
 domain_of:

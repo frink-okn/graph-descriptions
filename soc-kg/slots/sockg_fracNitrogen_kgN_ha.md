@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_fracNitrogen_kgN_ha
+# Slot: No slot (predicate) name specified (sockg_fracNitrogen_kgN_ha)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:fracNitrogen_kgN_ha](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/fracNitrogen_kgN_ha)
+
+This slot occurs 429 times.
+
+
+URI: [sockg:fracNitrogen_kgN_ha](https://idir.uta.edu/sockg-ontology/docs/fracNitrogen_kgN_ha)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:fracNitrogen_kgN_ha](http://www.semanticweb.org/sockg/ontologies/202
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | No type description provided |  no  |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:fracNitrogen_kgN_ha](http://www.semanticweb.org/sockg/ontologies/202
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:fracNitrogen_kgN_ha](http://www.semanticweb.org/sockg/ontologies/202
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#509571 sockg:fracNitrogen_kgN_ha 33.346 |
-
-## Comments
-
-* 429 occurrences with subject type sockg:YieldNutrientUptake and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:fracNitrogen_kgN_ha |
-| native | soc-kg/main/:sockg_fracNitrogen_kgN_ha |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_YieldNutrientUptake | double | sockg:individuals/624587 | 136.1334 | 429 |
 
 
 
@@ -85,24 +56,33 @@ URI: [sockg:fracNitrogen_kgN_ha](http://www.semanticweb.org/sockg/ontologies/202
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_fracNitrogen_kgN_ha
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 429 occurrences with subject type sockg:YieldNutrientUptake and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 429
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#509571 sockg:fracNitrogen_kgN_ha 33.346
-from_schema: soc-kg/main
+- object:
+    example_object: '136.1334'
+    example_object_type: double
+    example_predicate: sockg:fracNitrogen_kgN_ha
+    example_subject: sockg:individuals/624587
+    example_subject_type: sockg_YieldNutrientUptake
+from_schema: soc-kg
 rank: 1000
+domain: sockg_YieldNutrientUptake
 slot_uri: sockg:fracNitrogen_kgN_ha
 alias: sockg_fracNitrogen_kgN_ha
 domain_of:
 - sockg_YieldNutrientUptake
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

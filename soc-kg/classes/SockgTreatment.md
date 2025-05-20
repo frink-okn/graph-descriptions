@@ -1,15 +1,19 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (sockg_Treatment)
+# Class: No class (entity type) name specified (sockg_Treatment)
 
 
-_No type description provided_
+_The Treatment class encompasses various agricultural practices and management techniques applied to enhance crop production and sustainability. It includes strategies for soil improvement, nutrient management, and crop rotation, aimed at optimizing farm productivity while minimizing environmental impact._
 
 
 
 
 
-URI: [sockg:Treatment](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/Treatment)
+
+This class occurs 769 times.
+
+
+URI: [sockg:Treatment](https://idir.uta.edu/sockg-ontology/docs/Treatment)
 
 
 
@@ -20,13 +24,22 @@ URI: [sockg:Treatment](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
  classDiagram
     class SockgTreatment
     click SockgTreatment href "../SockgTreatment"
+      SockgTreatment : rdfs_seeAlso
+        
+          
+    
+    
+    SockgTreatment --> "0..1" Uri : rdfs_seeAlso
+    click Uri href "../Uri"
+
+        
       SockgTreatment : sockg_coverCrop
         
           
     
     
-    SockgTreatment --> "0..1" Any : sockg_coverCrop
-    click Any href "../Any"
+    SockgTreatment --> "0..1" String : sockg_coverCrop
+    click String href "../String"
 
         
       SockgTreatment : sockg_fertilizerAmendmentClass
@@ -34,8 +47,8 @@ URI: [sockg:Treatment](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
           
     
     
-    SockgTreatment --> "0..1" Any : sockg_fertilizerAmendmentClass
-    click Any href "../Any"
+    SockgTreatment --> "0..1" String : sockg_fertilizerAmendmentClass
+    click String href "../String"
 
         
       SockgTreatment : sockg_grazingRate
@@ -43,8 +56,8 @@ URI: [sockg:Treatment](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
           
     
     
-    SockgTreatment --> "0..1" Any : sockg_grazingRate
-    click Any href "../Any"
+    SockgTreatment --> "0..1" String : sockg_grazingRate
+    click String href "../String"
 
         
       SockgTreatment : sockg_hasRotation
@@ -70,8 +83,8 @@ URI: [sockg:Treatment](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
           
     
     
-    SockgTreatment --> "0..1" Any : sockg_nitrogenTreatmentDescriptor
-    click Any href "../Any"
+    SockgTreatment --> "0..1" String : sockg_nitrogenTreatmentDescriptor
+    click String href "../String"
 
         
       SockgTreatment : sockg_organicManagement
@@ -106,8 +119,8 @@ URI: [sockg:Treatment](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
           
     
     
-    SockgTreatment --> "0..1" Any : sockg_tileDrainage
-    click Any href "../Any"
+    SockgTreatment --> "0..1" String : sockg_tileDrainage
+    click String href "../String"
 
         
       SockgTreatment : sockg_tillageDescriptor
@@ -115,8 +128,8 @@ URI: [sockg:Treatment](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
           
     
     
-    SockgTreatment --> "0..1" Any : sockg_tillageDescriptor
-    click Any href "../Any"
+    SockgTreatment --> "0..1" String : sockg_tillageDescriptor
+    click String href "../String"
 
         
       SockgTreatment : sockg_treatmentDescriptor
@@ -133,8 +146,8 @@ URI: [sockg:Treatment](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
           
     
     
-    SockgTreatment --> "0..1" String : sockg_treatmentId
-    click String href "../String"
+    SockgTreatment --> "0..1" Any : sockg_treatmentId
+    click Any href "../Any"
 
         
       
@@ -148,21 +161,22 @@ URI: [sockg:Treatment](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [sockg_hasRotation](../slots/sockg_hasRotation.md) | 0..1 <br/> [SockgRotation](../classes/SockgRotation.md) | No slot description provided | direct |
-| [sockg_fertilizerAmendmentClass](../slots/sockg_fertilizerAmendmentClass.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_organicManagement](../slots/sockg_organicManagement.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
-| [sockg_treatmentDescriptor](../slots/sockg_treatmentDescriptor.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
-| [sockg_tileDrainage](../slots/sockg_tileDrainage.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
-| [sockg_tillageDescriptor](../slots/sockg_tillageDescriptor.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot description provided | direct |
-| [sockg_projectScenario](../slots/sockg_projectScenario.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
-| [sockg_grazingRate](../slots/sockg_grazingRate.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
-| [sockg_coverCrop](../slots/sockg_coverCrop.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
-| [sockg_residueRemoval](../slots/sockg_residueRemoval.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
-| [sockg_irrigation](../slots/sockg_irrigation.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
-| [sockg_nitrogenTreatmentDescriptor](../slots/sockg_nitrogenTreatmentDescriptor.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
-| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
+| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 769 |
+| [sockg_projectScenario](../slots/sockg_projectScenario.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 769 |
+| [sockg_hasRotation](../slots/sockg_hasRotation.md) | 0..1 <br/> [SockgRotation](../classes/SockgRotation.md) | No slot (predicate) description specified <br/>  | direct | 761 |
+| [sockg_tileDrainage](../slots/sockg_tileDrainage.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 438 |
+| [sockg_nitrogenTreatmentDescriptor](../slots/sockg_nitrogenTreatmentDescriptor.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 750 |
+| [sockg_grazingRate](../slots/sockg_grazingRate.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 20 |
+| [sockg_coverCrop](../slots/sockg_coverCrop.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 194 |
+| [sockg_irrigation](../slots/sockg_irrigation.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 769 |
+| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 769 |
+| [sockg_residueRemoval](../slots/sockg_residueRemoval.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 769 |
+| [sockg_tillageDescriptor](../slots/sockg_tillageDescriptor.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 719 |
+| [sockg_treatmentDescriptor](../slots/sockg_treatmentDescriptor.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 769 |
+| [sockg_fertilizerAmendmentClass](../slots/sockg_fertilizerAmendmentClass.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 653 |
+| [sockg_organicManagement](../slots/sockg_organicManagement.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 769 |
 
 
 
@@ -173,6 +187,18 @@ URI: [sockg:Treatment](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
 | [SockgExperiment](../classes/SockgExperiment.md) | [sockg_hasTreatment](../slots/sockg_hasTreatment.md) | range | [SockgTreatment](../classes/SockgTreatment.md) |
+| [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | [sockg_chemSampleHasTreatment](../slots/sockg_chemSampleHasTreatment.md) | range | [SockgTreatment](../classes/SockgTreatment.md) |
+| [SockgTreatment](../classes/SockgTreatment.md) | [sockg_projectScenario](../slots/sockg_projectScenario.md) | domain | [SockgTreatment](../classes/SockgTreatment.md) |
+| [SockgTreatment](../classes/SockgTreatment.md) | [sockg_hasRotation](../slots/sockg_hasRotation.md) | domain | [SockgTreatment](../classes/SockgTreatment.md) |
+| [SockgTreatment](../classes/SockgTreatment.md) | [sockg_tileDrainage](../slots/sockg_tileDrainage.md) | domain | [SockgTreatment](../classes/SockgTreatment.md) |
+| [SockgTreatment](../classes/SockgTreatment.md) | [sockg_nitrogenTreatmentDescriptor](../slots/sockg_nitrogenTreatmentDescriptor.md) | domain | [SockgTreatment](../classes/SockgTreatment.md) |
+| [SockgTreatment](../classes/SockgTreatment.md) | [sockg_grazingRate](../slots/sockg_grazingRate.md) | domain | [SockgTreatment](../classes/SockgTreatment.md) |
+| [SockgTreatment](../classes/SockgTreatment.md) | [sockg_coverCrop](../slots/sockg_coverCrop.md) | domain | [SockgTreatment](../classes/SockgTreatment.md) |
+| [SockgTreatment](../classes/SockgTreatment.md) | [sockg_irrigation](../slots/sockg_irrigation.md) | domain | [SockgTreatment](../classes/SockgTreatment.md) |
+| [SockgTreatment](../classes/SockgTreatment.md) | [sockg_residueRemoval](../slots/sockg_residueRemoval.md) | domain | [SockgTreatment](../classes/SockgTreatment.md) |
+| [SockgTreatment](../classes/SockgTreatment.md) | [sockg_treatmentDescriptor](../slots/sockg_treatmentDescriptor.md) | domain | [SockgTreatment](../classes/SockgTreatment.md) |
+| [SockgTreatment](../classes/SockgTreatment.md) | [sockg_fertilizerAmendmentClass](../slots/sockg_fertilizerAmendmentClass.md) | domain | [SockgTreatment](../classes/SockgTreatment.md) |
+| [SockgTreatment](../classes/SockgTreatment.md) | [sockg_organicManagement](../slots/sockg_organicManagement.md) | domain | [SockgTreatment](../classes/SockgTreatment.md) |
 | [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | [sockg_waterQualityAreaTreatment](../slots/sockg_waterQualityAreaTreatment.md) | range | [SockgTreatment](../classes/SockgTreatment.md) |
 | [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | [sockg_waterQualityConcTreatment](../slots/sockg_waterQualityConcTreatment.md) | range | [SockgTreatment](../classes/SockgTreatment.md) |
 | [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | [sockg_windErosionTreatment](../slots/sockg_windErosionTreatment.md) | range | [SockgTreatment](../classes/SockgTreatment.md) |
@@ -183,42 +209,9 @@ URI: [sockg:Treatment](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 
 
 
+## See Also
 
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#359750 |
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:Treatment |
-| native | soc-kg/main/:SockgTreatment |
-
+* [https://lod.nal.usda.gov/nalt/6148134](https://lod.nal.usda.gov/nalt/6148134)
 
 
 
@@ -232,34 +225,123 @@ URI: [sockg:Treatment](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 ### Direct
 
 <details>
+
 ```yaml
 name: sockg_Treatment
-description: No type description provided
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- There are 769 instances of this class.
-examples:
-- value: neo4j://graph.individuals#359750
-from_schema: soc-kg/main
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 769
+description: The Treatment class encompasses various agricultural practices and management
+  techniques applied to enhance crop production and sustainability. It includes strategies
+  for soil improvement, nutrient management, and crop rotation, aimed at optimizing
+  farm productivity while minimizing environmental impact.
+title: No class (entity type) name specified
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/6148134
 rank: 1000
 slots:
-- sockg_hasRotation
-- sockg_fertilizerAmendmentClass
-- sockg_organicManagement
-- sockg_treatmentDescriptor
-- sockg_tileDrainage
-- sockg_tillageDescriptor
+- rdfs_seeAlso
 - sockg_projectScenario
+- sockg_hasRotation
+- sockg_tileDrainage
+- sockg_nitrogenTreatmentDescriptor
 - sockg_grazingRate
 - sockg_coverCrop
-- sockg_residueRemoval
 - sockg_irrigation
-- sockg_nitrogenTreatmentDescriptor
 - sockg_treatmentId
+- sockg_residueRemoval
+- sockg_tillageDescriptor
+- sockg_treatmentDescriptor
+- sockg_fertilizerAmendmentClass
+- sockg_organicManagement
+slot_usage:
+  rdfs_seeAlso:
+    name: rdfs_seeAlso
+    annotations:
+      uri:
+        tag: uri
+        value: 769
+  sockg_coverCrop:
+    name: sockg_coverCrop
+    annotations:
+      string:
+        tag: string
+        value: 194
+  sockg_fertilizerAmendmentClass:
+    name: sockg_fertilizerAmendmentClass
+    annotations:
+      string:
+        tag: string
+        value: 653
+  sockg_grazingRate:
+    name: sockg_grazingRate
+    annotations:
+      string:
+        tag: string
+        value: 20
+  sockg_hasRotation:
+    name: sockg_hasRotation
+    annotations:
+      sockg_Rotation:
+        tag: sockg_Rotation
+        value: 761
+  sockg_irrigation:
+    name: sockg_irrigation
+    annotations:
+      string:
+        tag: string
+        value: 769
+  sockg_nitrogenTreatmentDescriptor:
+    name: sockg_nitrogenTreatmentDescriptor
+    annotations:
+      string:
+        tag: string
+        value: 750
+  sockg_organicManagement:
+    name: sockg_organicManagement
+    annotations:
+      string:
+        tag: string
+        value: 769
+  sockg_projectScenario:
+    name: sockg_projectScenario
+    annotations:
+      string:
+        tag: string
+        value: 769
+  sockg_residueRemoval:
+    name: sockg_residueRemoval
+    annotations:
+      string:
+        tag: string
+        value: 769
+  sockg_tileDrainage:
+    name: sockg_tileDrainage
+    annotations:
+      string:
+        tag: string
+        value: 438
+  sockg_tillageDescriptor:
+    name: sockg_tillageDescriptor
+    annotations:
+      string:
+        tag: string
+        value: 719
+  sockg_treatmentDescriptor:
+    name: sockg_treatmentDescriptor
+    annotations:
+      string:
+        tag: string
+        value: 769
+  sockg_treatmentId:
+    name: sockg_treatmentId
+    annotations:
+      string:
+        tag: string
+        value: 769
 class_uri: sockg:Treatment
 
 ```
@@ -268,341 +350,727 @@ class_uri: sockg:Treatment
 ### Induced
 
 <details>
+
 ```yaml
 name: sockg_Treatment
-description: No type description provided
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- There are 769 instances of this class.
-examples:
-- value: neo4j://graph.individuals#359750
-from_schema: soc-kg/main
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 769
+description: The Treatment class encompasses various agricultural practices and management
+  techniques applied to enhance crop production and sustainability. It includes strategies
+  for soil improvement, nutrient management, and crop rotation, aimed at optimizing
+  farm productivity while minimizing environmental impact.
+title: No class (entity type) name specified
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/6148134
 rank: 1000
-attributes:
-  sockg_hasRotation:
-    name: sockg_hasRotation
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 761 occurrences with subject type sockg:Treatment and object type sockg:Rotation.
-    examples:
-    - value: neo4j://graph.individuals#359556 sockg:hasRotation neo4j://graph.individuals#230618
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:hasRotation
-    alias: sockg_hasRotation
-    owner: sockg_Treatment
-    domain_of:
-    - sockg_Treatment
-    range: sockg_Rotation
+slot_usage:
+  rdfs_seeAlso:
+    name: rdfs_seeAlso
+    annotations:
+      uri:
+        tag: uri
+        value: 769
+  sockg_coverCrop:
+    name: sockg_coverCrop
+    annotations:
+      string:
+        tag: string
+        value: 194
   sockg_fertilizerAmendmentClass:
     name: sockg_fertilizerAmendmentClass
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 653 occurrences with subject type sockg:Treatment and object type string.
-    - 116 occurrences with subject type sockg:Treatment and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#359116 sockg:fertilizerAmendmentClass Synthetic
-    - value: neo4j://graph.individuals#359224 sockg:fertilizerAmendmentClass nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:fertilizerAmendmentClass
-    alias: sockg_fertilizerAmendmentClass
-    owner: sockg_Treatment
-    domain_of:
-    - sockg_Treatment
-    range: Any
-    any_of:
-    - range: string
-    - range: double
+    annotations:
+      string:
+        tag: string
+        value: 653
+  sockg_grazingRate:
+    name: sockg_grazingRate
+    annotations:
+      string:
+        tag: string
+        value: 20
+  sockg_hasRotation:
+    name: sockg_hasRotation
+    annotations:
+      sockg_Rotation:
+        tag: sockg_Rotation
+        value: 761
+  sockg_irrigation:
+    name: sockg_irrigation
+    annotations:
+      string:
+        tag: string
+        value: 769
+  sockg_nitrogenTreatmentDescriptor:
+    name: sockg_nitrogenTreatmentDescriptor
+    annotations:
+      string:
+        tag: string
+        value: 750
   sockg_organicManagement:
     name: sockg_organicManagement
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 769 occurrences with subject type sockg:Treatment and object type string.
-    examples:
-    - value: neo4j://graph.individuals#359446 sockg:organicManagement No
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:organicManagement
-    alias: sockg_organicManagement
-    owner: sockg_Treatment
-    domain_of:
-    - sockg_Treatment
-    range: string
-  sockg_treatmentDescriptor:
-    name: sockg_treatmentDescriptor
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 769 occurrences with subject type sockg:Treatment and object type string.
-    examples:
-    - value: neo4j://graph.individuals#359070 sockg:treatmentDescriptor ConvSys 4yr
-        rot  CT NF
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:treatmentDescriptor
-    alias: sockg_treatmentDescriptor
-    owner: sockg_Treatment
-    domain_of:
-    - sockg_Treatment
-    range: string
-  sockg_tileDrainage:
-    name: sockg_tileDrainage
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 331 occurrences with subject type sockg:Treatment and object type xsd:double.
-    - 438 occurrences with subject type sockg:Treatment and object type string.
-    examples:
-    - value: neo4j://graph.individuals#359754 sockg:tileDrainage nan
-    - value: neo4j://graph.individuals#359184 sockg:tileDrainage No
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:tileDrainage
-    alias: sockg_tileDrainage
-    owner: sockg_Treatment
-    domain_of:
-    - sockg_Treatment
-    range: Any
-    any_of:
-    - range: double
-    - range: string
-  sockg_tillageDescriptor:
-    name: sockg_tillageDescriptor
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 719 occurrences with subject type sockg:Treatment and object type string.
-    - 50 occurrences with subject type sockg:Treatment and object type xsd:double.
-    examples:
-    - value: neo4j://graph.individuals#359547 sockg:tillageDescriptor Strip Till
-    - value: neo4j://graph.individuals#359460 sockg:tillageDescriptor nan
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:tillageDescriptor
-    alias: sockg_tillageDescriptor
-    owner: sockg_Treatment
-    domain_of:
-    - sockg_Treatment
-    range: Any
-    any_of:
-    - range: string
-    - range: double
+    annotations:
+      string:
+        tag: string
+        value: 769
   sockg_projectScenario:
     name: sockg_projectScenario
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 769 occurrences with subject type sockg:Treatment and object type string.
+    annotations:
+      string:
+        tag: string
+        value: 769
+  sockg_residueRemoval:
+    name: sockg_residueRemoval
+    annotations:
+      string:
+        tag: string
+        value: 769
+  sockg_tileDrainage:
+    name: sockg_tileDrainage
+    annotations:
+      string:
+        tag: string
+        value: 438
+  sockg_tillageDescriptor:
+    name: sockg_tillageDescriptor
+    annotations:
+      string:
+        tag: string
+        value: 719
+  sockg_treatmentDescriptor:
+    name: sockg_treatmentDescriptor
+    annotations:
+      string:
+        tag: string
+        value: 769
+  sockg_treatmentId:
+    name: sockg_treatmentId
+    annotations:
+      string:
+        tag: string
+        value: 769
+attributes:
+  rdfs_seeAlso:
+    name: rdfs_seeAlso
+    annotations:
+      uri:
+        tag: uri
+        value: 769
+    description: No slot (predicate) description specified
     examples:
-    - value: neo4j://graph.individuals#359484 sockg:projectScenario A=No removal
-    from_schema: soc-kg/main
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/4605
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/0
+        example_subject_type: sockg_Amendment
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/5859
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/163960
+        example_subject_type: sockg_Grazing
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/4377260
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/170955
+        example_subject_type: sockg_GrazingManagementEvent
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/131626
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/172906
+        example_subject_type: sockg_Harvest
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/13189
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/203523
+        example_subject_type: sockg_Organization
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/3927
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/203632
+        example_subject_type: sockg_Pesticide
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/849
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/227674
+        example_subject_type: sockg_ResidueManagementEvent
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/30158
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/230982
+        example_subject_type: sockg_Rotation
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/302328
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/231056
+        example_subject_type: sockg_Site
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/2726
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/235229
+        example_subject_type: sockg_SoilBiologicalSample
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7974
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/253451
+        example_subject_type: sockg_SoilChemicalSample
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/302328
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/307284
+        example_subject_type: sockg_SoilCover
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/5143
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/308318
+        example_subject_type: sockg_SoilPhysicalSample
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/5430914
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/336400
+        example_subject_type: sockg_State
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/336419
+        example_subject_type: sockg_Tillage
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/28616
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/363556
+        example_subject_type: sockg_Treatment
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/2717
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/2714
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7485997
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/46864
+        example_subject_type: sockg_City
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/2217129
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/46904
+        example_subject_type: sockg_County
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/302328
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/46937
+        example_subject_type: sockg_CropGrowthStage
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/976
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/51906
+        example_subject_type: sockg_Experiment
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/9183
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7259
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/55800
+        example_subject_type: sockg_Field
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/35067
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/203534
+        example_subject_type: sockg_Person
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/5630
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/203988
+        example_subject_type: sockg_PlantingEvent
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/61097
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/227438
+        example_subject_type: sockg_Project
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/305490
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/227447
+        example_subject_type: sockg_Publication
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/48678
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/227609
+        example_subject_type: sockg_ResearchUnit
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/33020
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/231116
+        example_subject_type: sockg_Soil
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7259
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/513777
+        example_subject_type: sockg_WeatherStation
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/281219
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: https://lod.nal.usda.gov/nalt/7140
+        example_object_type: uri
+        example_predicate: rdfs:seeAlso
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
     rank: 1000
+    slot_uri: rdfs:seeAlso
+    alias: rdfs_seeAlso
+    owner: sockg_Treatment
+    domain_of:
+    - sockg_Amendment
+    - sockg_BioMassCarbohydrate
+    - sockg_BioMassEnergy
+    - sockg_BioMassMineral
+    - sockg_City
+    - sockg_County
+    - sockg_CropGrowthStage
+    - sockg_Experiment
+    - sockg_ExperimentalUnit
+    - sockg_Field
+    - sockg_GasNutrientLoss
+    - sockg_GasSample
+    - sockg_Grazing
+    - sockg_GrazingManagementEvent
+    - sockg_Harvest
+    - sockg_HarvestFraction
+    - sockg_NutrientEfficiency
+    - sockg_Organization
+    - sockg_Person
+    - sockg_Pesticide
+    - sockg_PlantingEvent
+    - sockg_Project
+    - sockg_Publication
+    - sockg_ResearchUnit
+    - sockg_ResidueManagementEvent
+    - sockg_Rotation
+    - sockg_Site
+    - sockg_Soil
+    - sockg_SoilBiologicalSample
+    - sockg_SoilChemicalSample
+    - sockg_SoilCover
+    - sockg_SoilPhysicalSample
+    - sockg_State
+    - sockg_Tillage
+    - sockg_Treatment
+    - sockg_WaterQualityArea
+    - sockg_WaterQualityConc
+    - sockg_WeatherObservation
+    - sockg_WeatherStation
+    - sockg_WindErosionArea
+    - sockg_YieldNutrientUptake
+    range: uri
+  sockg_projectScenario:
+    name: sockg_projectScenario
+    annotations:
+      string:
+        tag: string
+        value: 769
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: 5=Other
+        example_object_type: string
+        example_predicate: sockg:projectScenario
+        example_subject: sockg:individuals/363556
+        example_subject_type: sockg_Treatment
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Treatment
     slot_uri: sockg:projectScenario
     alias: sockg_projectScenario
     owner: sockg_Treatment
     domain_of:
     - sockg_Treatment
     range: string
-  sockg_grazingRate:
-    name: sockg_grazingRate
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 749 occurrences with subject type sockg:Treatment and object type xsd:double.
-    - 20 occurrences with subject type sockg:Treatment and object type string.
+  sockg_hasRotation:
+    name: sockg_hasRotation
+    annotations:
+      sockg_Rotation:
+        tag: sockg_Rotation
+        value: 761
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#359097 sockg:grazingRate nan
-    - value: neo4j://graph.individuals#359162 sockg:grazingRate Low
-    from_schema: soc-kg/main
+    - object:
+        example_object: sockg:individuals/230982
+        example_object_type: sockg_Rotation
+        example_predicate: sockg:hasRotation
+        example_subject: sockg:individuals/363556
+        example_subject_type: sockg_Treatment
+    from_schema: soc-kg
     rank: 1000
-    slot_uri: sockg:grazingRate
-    alias: sockg_grazingRate
+    domain: sockg_Treatment
+    slot_uri: sockg:hasRotation
+    alias: sockg_hasRotation
     owner: sockg_Treatment
     domain_of:
     - sockg_Treatment
-    range: Any
-    any_of:
-    - range: double
-    - range: string
-  sockg_coverCrop:
-    name: sockg_coverCrop
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 575 occurrences with subject type sockg:Treatment and object type xsd:double.
-    - 194 occurrences with subject type sockg:Treatment and object type string.
+    range: sockg_Rotation
+  sockg_tileDrainage:
+    name: sockg_tileDrainage
+    annotations:
+      string:
+        tag: string
+        value: 438
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#359399 sockg:coverCrop nan
-    - value: neo4j://graph.individuals#359662 sockg:coverCrop Secale cereale (Rye)
-    from_schema: soc-kg/main
+    - object:
+        example_object: 'No'
+        example_object_type: string
+        example_predicate: sockg:tileDrainage
+        example_subject: sockg:individuals/363556
+        example_subject_type: sockg_Treatment
+    from_schema: soc-kg
     rank: 1000
-    slot_uri: sockg:coverCrop
-    alias: sockg_coverCrop
-    owner: sockg_Treatment
-    domain_of:
-    - sockg_Treatment
-    range: Any
-    any_of:
-    - range: double
-    - range: string
-  sockg_residueRemoval:
-    name: sockg_residueRemoval
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 769 occurrences with subject type sockg:Treatment and object type string.
-    examples:
-    - value: neo4j://graph.individuals#359092 sockg:residueRemoval No
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:residueRemoval
-    alias: sockg_residueRemoval
-    owner: sockg_Treatment
-    domain_of:
-    - sockg_Treatment
-    range: string
-  sockg_irrigation:
-    name: sockg_irrigation
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 769 occurrences with subject type sockg:Treatment and object type string.
-    examples:
-    - value: neo4j://graph.individuals#359538 sockg:irrigation No
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:irrigation
-    alias: sockg_irrigation
+    domain: sockg_Treatment
+    slot_uri: sockg:tileDrainage
+    alias: sockg_tileDrainage
     owner: sockg_Treatment
     domain_of:
     - sockg_Treatment
     range: string
   sockg_nitrogenTreatmentDescriptor:
     name: sockg_nitrogenTreatmentDescriptor
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 19 occurrences with subject type sockg:Treatment and object type xsd:double.
-    - 750 occurrences with subject type sockg:Treatment and object type string.
+    annotations:
+      string:
+        tag: string
+        value: 750
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#359736 sockg:nitrogenTreatmentDescriptor nan
-    - value: neo4j://graph.individuals#359592 sockg:nitrogenTreatmentDescriptor high
-        yield
-    from_schema: soc-kg/main
+    - object:
+        example_object: 0 kg N ha-1
+        example_object_type: string
+        example_predicate: sockg:nitrogenTreatmentDescriptor
+        example_subject: sockg:individuals/363557
+        example_subject_type: sockg_Treatment
+    from_schema: soc-kg
     rank: 1000
+    domain: sockg_Treatment
     slot_uri: sockg:nitrogenTreatmentDescriptor
     alias: sockg_nitrogenTreatmentDescriptor
     owner: sockg_Treatment
     domain_of:
     - sockg_Treatment
-    range: Any
-    any_of:
-    - range: double
-    - range: string
+    range: string
+  sockg_grazingRate:
+    name: sockg_grazingRate
+    annotations:
+      string:
+        tag: string
+        value: 20
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: Low
+        example_object_type: string
+        example_predicate: sockg:grazingRate
+        example_subject: sockg:individuals/363643
+        example_subject_type: sockg_Treatment
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/43782
+    rank: 1000
+    domain: sockg_Treatment
+    slot_uri: sockg:grazingRate
+    alias: sockg_grazingRate
+    owner: sockg_Treatment
+    domain_of:
+    - sockg_Treatment
+    range: string
+  sockg_coverCrop:
+    name: sockg_coverCrop
+    annotations:
+      string:
+        tag: string
+        value: 194
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: Avena strigosa/Secale cereale (Black Oat/Rye)
+        example_object_type: string
+        example_predicate: sockg:coverCrop
+        example_subject: sockg:individuals/363568
+        example_subject_type: sockg_Treatment
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/28616
+    rank: 1000
+    domain: sockg_Treatment
+    slot_uri: sockg:coverCrop
+    alias: sockg_coverCrop
+    owner: sockg_Treatment
+    domain_of:
+    - sockg_Treatment
+    range: string
+  sockg_irrigation:
+    name: sockg_irrigation
+    annotations:
+      string:
+        tag: string
+        value: 769
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: 'No'
+        example_object_type: string
+        example_predicate: sockg:irrigation
+        example_subject: sockg:individuals/363556
+        example_subject_type: sockg_Treatment
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/24709
+    rank: 1000
+    domain: sockg_Treatment
+    slot_uri: sockg:irrigation
+    alias: sockg_irrigation
+    owner: sockg_Treatment
+    domain_of:
+    - sockg_Treatment
+    range: string
   sockg_treatmentId:
     name: sockg_treatmentId
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 6723 occurrences with subject type sockg:BioMassMineral and object type string.
-    - 107354 occurrences with subject type sockg:GasSample and object type string.
-    - 53833 occurrences with subject type sockg:SoilChemicalSample and object type
-      string.
-    - 37796 occurrences with subject type sockg:Amendment and object type string.
-    - 9470 occurrences with subject type sockg:HarvestFraction and object type string.
-    - 28082 occurrences with subject type sockg:SoilPhysicalSample and object type
-      string.
-    - 18222 occurrences with subject type sockg:SoilBiologicalSample and object type
-      string.
-    - 4896 occurrences with subject type sockg:CropGrowthStage and object type string.
-    - 6995 occurrences with subject type sockg:Grazing and object type string.
-    - 1951 occurrences with subject type sockg:GrazingManagementEvent and object type
-      string.
-    - 799 occurrences with subject type sockg:BioMassEnergy and object type string.
-    - 18356 occurrences with subject type sockg:Harvest and object type string.
-    - 1479 occurrences with subject type sockg:WaterQualityConc and object type string.
-    - 3308 occurrences with subject type sockg:ResidueManagementEvent and object type
-      string.
-    - 1367 occurrences with subject type sockg:BioMassCarbohydrate and object type
-      string.
-    - 667 occurrences with subject type sockg:WaterQualityArea and object type string.
-    - 2791 occurrences with subject type sockg:NutrientEfficiency and object type
-      string.
-    - 429 occurrences with subject type sockg:YieldNutrientUptake and object type
-      string.
-    - 748 occurrences with subject type sockg:GasNutrientLoss and object type string.
-    - 769 occurrences with subject type sockg:Treatment and object type string.
-    - 15 occurrences with subject type sockg:WindErosionArea and object type string.
+    annotations:
+      string:
+        tag: string
+        value: 769
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#43961 sockg:treatmentId PAUP_8
-    - value: neo4j://graph.individuals#147269 sockg:treatmentId KYBGGHG_1
-    - value: neo4j://graph.individuals#296284 sockg:treatmentId PAUP_15
-    - value: neo4j://graph.individuals#13960 sockg:treatmentId NEMLTCRS_ROT62
-    - value: neo4j://graph.individuals#200120 sockg:treatmentId ECUAlumbreP2_MtNocrhZf
-    - value: neo4j://graph.individuals#311219 sockg:treatmentId GAJPCSR1_F3H1
-    - value: neo4j://graph.individuals#248000 sockg:treatmentId MNMOBRR_N005C
-    - value: neo4j://graph.individuals#47857 sockg:treatmentId INWLTPAC_NP
-    - value: neo4j://graph.individuals#170669 sockg:treatmentId NDMAGWP_HG
-    - value: neo4j://graph.individuals#171511 sockg:treatmentId GAJPCSR2_F5H2
-    - value: neo4j://graph.individuals#39242 sockg:treatmentId SCFLSGI_50R
-    - value: neo4j://graph.individuals#181825 sockg:treatmentId PAHAW_RCG1
-    - value: neo4j://graph.individuals#361841 sockg:treatmentId WIPDBARN_SAND
-    - value: neo4j://graph.individuals#227864 sockg:treatmentId PAHAW_ROT8
-    - value: neo4j://graph.individuals#38229 sockg:treatmentId MNSPReap_ST000
-    - value: neo4j://graph.individuals#360342 sockg:treatmentId WIPDBARN_SAND
-    - value: neo4j://graph.individuals#203268 sockg:treatmentId COFOARD4_DM
-    - value: neo4j://graph.individuals#509719 sockg:treatmentId MNSP4R_U-S100
-    - value: neo4j://graph.individuals#56012 sockg:treatmentId WIPDBARN_SOIL
-    - value: neo4j://graph.individuals#359420 sockg:treatmentId MNMOBRR_N010S
-    - value: neo4j://graph.individuals#509310 sockg:treatmentId TXBSWEWC_ERODE
-    from_schema: soc-kg/main
+    - object:
+        example_object: PAHAW_ROT4
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/0
+        example_subject_type: sockg_Amendment
+    - object:
+        example_object: NDMAHGPE_TANUR
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    - object:
+        example_object: GAJPCSR1_F1H1
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/163960
+        example_subject_type: sockg_Grazing
+    - object:
+        example_object: PAHAW_PAST2
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/170955
+        example_subject_type: sockg_GrazingManagementEvent
+    - object:
+        example_object: PAHAW_ROT1
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/172906
+        example_subject_type: sockg_Harvest
+    - object:
+        example_object: MNMOFS_13
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
+    - object:
+        example_object: PAHAW_ROT4
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/227674
+        example_subject_type: sockg_ResidueManagementEvent
+    - object:
+        example_object: GAJPCSR1_F3H1
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/235229
+        example_subject_type: sockg_SoilBiologicalSample
+    - object:
+        example_object: MNMOFS_44
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/253451
+        example_subject_type: sockg_SoilChemicalSample
+    - object:
+        example_object: FullX200A
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/308318
+        example_subject_type: sockg_SoilPhysicalSample
+    - object:
+        example_object: NDMAH3_C
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/363556
+        example_subject_type: sockg_Treatment
+    - object:
+        example_object: MNSPReap_ST100
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: SCFLSGI_100R
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: FullM125N
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: INWLREAP_R50
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/46937
+        example_subject_type: sockg_CropGrowthStage
+    - object:
+        example_object: MNMOCAL_N67
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: MNMOFS_38
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/203988
+        example_subject_type: sockg_PlantingEvent
+    - object:
+        example_object: WIPDBARN_SOIL
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: IAAMKELL_CC
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: IAAMKELL_NCC
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: TXBSWEWC_N1985
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: MNSP4R_U-S100
+        example_object_type: string
+        example_predicate: sockg:treatmentId
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
     rank: 1000
     slot_uri: sockg:treatmentId
     alias: sockg_treatmentId
@@ -620,6 +1088,7 @@ attributes:
     - sockg_Harvest
     - sockg_HarvestFraction
     - sockg_NutrientEfficiency
+    - sockg_PlantingEvent
     - sockg_ResidueManagementEvent
     - sockg_SoilBiologicalSample
     - sockg_SoilChemicalSample
@@ -629,6 +1098,150 @@ attributes:
     - sockg_WaterQualityConc
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
+    union_of:
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    - '{''domain'': ''sockg_GrazingManagementEvent''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_SoilBiologicalSample''}'
+    - '{''domain'': ''sockg_SoilChemicalSample''}'
+    - '{''domain'': ''sockg_SoilPhysicalSample''}'
+    - '{''domain'': ''sockg_HarvestFraction''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_ResidueManagementEvent''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_Amendment''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+    - '{''domain'': ''sockg_Treatment''}'
+    range: Any
+    any_of:
+    - range: date
+    - range: string
+    - range: float
+  sockg_residueRemoval:
+    name: sockg_residueRemoval
+    annotations:
+      string:
+        tag: string
+        value: 769
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: 'No'
+        example_object_type: string
+        example_predicate: sockg:residueRemoval
+        example_subject: sockg:individuals/363556
+        example_subject_type: sockg_Treatment
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/20527
+    rank: 1000
+    domain: sockg_Treatment
+    slot_uri: sockg:residueRemoval
+    alias: sockg_residueRemoval
+    owner: sockg_Treatment
+    domain_of:
+    - sockg_Treatment
+    range: string
+  sockg_tillageDescriptor:
+    name: sockg_tillageDescriptor
+    annotations:
+      string:
+        tag: string
+        value: 719
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: Conventional Till
+        example_object_type: string
+        example_predicate: sockg:tillageDescriptor
+        example_subject: sockg:individuals/363558
+        example_subject_type: sockg_Treatment
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:tillageDescriptor
+    alias: sockg_tillageDescriptor
+    owner: sockg_Treatment
+    domain_of:
+    - sockg_Treatment
+    range: string
+  sockg_treatmentDescriptor:
+    name: sockg_treatmentDescriptor
+    annotations:
+      string:
+        tag: string
+        value: 769
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: Control
+        example_object_type: string
+        example_predicate: sockg:treatmentDescriptor
+        example_subject: sockg:individuals/363556
+        example_subject_type: sockg_Treatment
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Treatment
+    slot_uri: sockg:treatmentDescriptor
+    alias: sockg_treatmentDescriptor
+    owner: sockg_Treatment
+    domain_of:
+    - sockg_Treatment
+    range: string
+  sockg_fertilizerAmendmentClass:
+    name: sockg_fertilizerAmendmentClass
+    annotations:
+      string:
+        tag: string
+        value: 653
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: Integrated (Combination of organic and synthetic)
+        example_object_type: string
+        example_predicate: sockg:fertilizerAmendmentClass
+        example_subject: sockg:individuals/363559
+        example_subject_type: sockg_Treatment
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/5568
+    rank: 1000
+    domain: sockg_Treatment
+    slot_uri: sockg:fertilizerAmendmentClass
+    alias: sockg_fertilizerAmendmentClass
+    owner: sockg_Treatment
+    domain_of:
+    - sockg_Treatment
+    range: string
+  sockg_organicManagement:
+    name: sockg_organicManagement
+    annotations:
+      string:
+        tag: string
+        value: 769
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: 'No'
+        example_object_type: string
+        example_predicate: sockg:organicManagement
+        example_subject: sockg:individuals/363556
+        example_subject_type: sockg_Treatment
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/7144
+    rank: 1000
+    domain: sockg_Treatment
+    slot_uri: sockg:organicManagement
+    alias: sockg_organicManagement
+    owner: sockg_Treatment
+    domain_of:
+    - sockg_Treatment
     range: string
 class_uri: sockg:Treatment
 

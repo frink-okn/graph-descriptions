@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_type
+# Slot: No slot (predicate) name specified (sockg_type)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:type](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/type)
+
+This slot occurs 23230 times.
+
+
+URI: [sockg:type](https://idir.uta.edu/sockg-ontology/docs/type)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:type](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgAmendment](../classes/SockgAmendment.md) | No type description provided |  no  |
+| [SockgAmendment](../classes/SockgAmendment.md) | An Amendment represents a specific alteration or addition made to agricultura... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:type](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,74 +46,48 @@ URI: [sockg:type](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#22483 sockg:type Ammonium Sulfate |
-| neo4j://graph.individuals#18536 sockg:type nan |
-
-## Comments
-
-* 22884 occurrences with subject type sockg:Amendment and object type string.
-* 14912 occurrences with subject type sockg:Amendment and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Amendment | string | sockg:individuals/1 | Lime | 23230 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:type |
-| native | soc-kg/main/:sockg_type |
-
+* [https://lod.nal.usda.gov/nalt/63193](https://lod.nal.usda.gov/nalt/63193)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_type
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 22884 occurrences with subject type sockg:Amendment and object type string.
-- 14912 occurrences with subject type sockg:Amendment and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 23230
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#22483 sockg:type Ammonium Sulfate
-- value: neo4j://graph.individuals#18536 sockg:type nan
-from_schema: soc-kg/main
+- object:
+    example_object: Lime
+    example_object_type: string
+    example_predicate: sockg:type
+    example_subject: sockg:individuals/1
+    example_subject_type: sockg_Amendment
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/63193
 rank: 1000
 slot_uri: sockg:type
 alias: sockg_type
 domain_of:
 - sockg_Amendment
-range: Any
-any_of:
-- range: string
-- range: double
+union_of:
+- '{''domain'': ''sockg_Amendment''}'
+- '{''domain'': ''sockg_Publication''}'
+range: string
 
 ```
 </details>

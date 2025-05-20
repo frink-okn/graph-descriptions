@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_expUnitId
+# Slot: No slot (predicate) name specified (sockg_expUnitId)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:expUnitId](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/expUnitId)
+
+This slot occurs 33442 times.
+
+
+URI: [sockg:expUnitId](https://idir.uta.edu/sockg-ontology/docs/expUnitId)
 
 
 
@@ -23,13 +27,14 @@ URI: [sockg:expUnitId](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | No type description provided |  no  |
-| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | No type description provided |  no  |
-| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | No type description provided |  no  |
-| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | No type description provided |  no  |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | No type description provided |  no  |
-| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | No type description provided |  no  |
-| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | No type description provided |  no  |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by... |  yes  |
+| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | A WaterQualityArea represents a designated agricultural zone where water qual... |  yes  |
+| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | The GasNutrientLoss class represents the assessment of gaseous nutrient losse... |  yes  |
+| [SockgPlantingEvent](../classes/SockgPlantingEvent.md) | An event involving the act of planting, which includes considerations for spa... |  yes  |
+| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | WaterQualityConc represents the concentration of various water quality parame... |  yes  |
+| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | The WindErosionArea class represents regions affected by wind erosion, detail... |  yes  |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | An ExperimentalUnit represents a specific segment of agricultural research fo... |  yes  |
+| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | The NutrientEfficiency class represents the effectiveness of nutrient utiliza... |  yes  |
 
 
 
@@ -48,85 +53,88 @@ URI: [sockg:expUnitId](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#52840 sockg:expUnitId GAJPCSR1_B2P102F1H1X600Y90 |
-| neo4j://graph.individuals#201638 sockg:expUnitId NELITCSE_509 |
-| neo4j://graph.individuals#55654 sockg:expUnitId WIPDBARN_3 |
-| neo4j://graph.individuals#360565 sockg:expUnitId IAAMKELL__120 |
-| neo4j://graph.individuals#359954 sockg:expUnitId WIPDBARN_1 |
-| neo4j://graph.individuals#509440 sockg:expUnitId ALAURye_410 |
-| neo4j://graph.individuals#509305 sockg:expUnitId TXBSWEWC_COMP5 |
-
-## Comments
-
-* 3809 occurrences with subject type sockg:ExperimentalUnit and object type string.
-* 2791 occurrences with subject type sockg:NutrientEfficiency and object type string.
-* 748 occurrences with subject type sockg:GasNutrientLoss and object type string.
-* 1479 occurrences with subject type sockg:WaterQualityConc and object type string.
-* 667 occurrences with subject type sockg:WaterQualityArea and object type string.
-* 429 occurrences with subject type sockg:YieldNutrientUptake and object type string.
-* 15 occurrences with subject type sockg:WindErosionArea and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_ExperimentalUnit | string | sockg:individuals/51937 | MTSIFERE_GrazW-P/B-F3w2 | 3863 |
+| sockg_NutrientEfficiency | string | sockg:individuals/200732 | MNMOCAL_614 | 2791 |
+| sockg_PlantingEvent | string | sockg:individuals/203988 | MNMOFS_71 | 23450 |
+| sockg_WaterQualityArea | string | sockg:individuals/364326 | WIPDBARN_2 | 667 |
+| sockg_WaterQualityConc | string | sockg:individuals/364993 | IAAMKELL__120 | 1479 |
+| sockg_GasNutrientLoss | string | sockg:individuals/55858 | IAAMKELL__116 | 748 |
+| sockg_WindErosionArea | string | sockg:individuals/624572 | TXBSWEWC_COMP2 | 15 |
+| sockg_YieldNutrientUptake | string | sockg:individuals/624587 | MNSP4R_U-S100B | 429 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:expUnitId |
-| native | soc-kg/main/:sockg_expUnitId |
-
+* [https://lod.nal.usda.gov/nalt/849](https://lod.nal.usda.gov/nalt/849)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_expUnitId
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 3809 occurrences with subject type sockg:ExperimentalUnit and object type string.
-- 2791 occurrences with subject type sockg:NutrientEfficiency and object type string.
-- 748 occurrences with subject type sockg:GasNutrientLoss and object type string.
-- 1479 occurrences with subject type sockg:WaterQualityConc and object type string.
-- 667 occurrences with subject type sockg:WaterQualityArea and object type string.
-- 429 occurrences with subject type sockg:YieldNutrientUptake and object type string.
-- 15 occurrences with subject type sockg:WindErosionArea and object type string.
+annotations:
+  count:
+    tag: count
+    value: 33442
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#52840 sockg:expUnitId GAJPCSR1_B2P102F1H1X600Y90
-- value: neo4j://graph.individuals#201638 sockg:expUnitId NELITCSE_509
-- value: neo4j://graph.individuals#55654 sockg:expUnitId WIPDBARN_3
-- value: neo4j://graph.individuals#360565 sockg:expUnitId IAAMKELL__120
-- value: neo4j://graph.individuals#359954 sockg:expUnitId WIPDBARN_1
-- value: neo4j://graph.individuals#509440 sockg:expUnitId ALAURye_410
-- value: neo4j://graph.individuals#509305 sockg:expUnitId TXBSWEWC_COMP5
-from_schema: soc-kg/main
+- object:
+    example_object: MTSIFERE_GrazW-P/B-F3w2
+    example_object_type: string
+    example_predicate: sockg:expUnitId
+    example_subject: sockg:individuals/51937
+    example_subject_type: sockg_ExperimentalUnit
+- object:
+    example_object: MNMOCAL_614
+    example_object_type: string
+    example_predicate: sockg:expUnitId
+    example_subject: sockg:individuals/200732
+    example_subject_type: sockg_NutrientEfficiency
+- object:
+    example_object: MNMOFS_71
+    example_object_type: string
+    example_predicate: sockg:expUnitId
+    example_subject: sockg:individuals/203988
+    example_subject_type: sockg_PlantingEvent
+- object:
+    example_object: WIPDBARN_2
+    example_object_type: string
+    example_predicate: sockg:expUnitId
+    example_subject: sockg:individuals/364326
+    example_subject_type: sockg_WaterQualityArea
+- object:
+    example_object: IAAMKELL__120
+    example_object_type: string
+    example_predicate: sockg:expUnitId
+    example_subject: sockg:individuals/364993
+    example_subject_type: sockg_WaterQualityConc
+- object:
+    example_object: IAAMKELL__116
+    example_object_type: string
+    example_predicate: sockg:expUnitId
+    example_subject: sockg:individuals/55858
+    example_subject_type: sockg_GasNutrientLoss
+- object:
+    example_object: TXBSWEWC_COMP2
+    example_object_type: string
+    example_predicate: sockg:expUnitId
+    example_subject: sockg:individuals/624572
+    example_subject_type: sockg_WindErosionArea
+- object:
+    example_object: MNSP4R_U-S100B
+    example_object_type: string
+    example_predicate: sockg:expUnitId
+    example_subject: sockg:individuals/624587
+    example_subject_type: sockg_YieldNutrientUptake
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/849
 rank: 1000
 slot_uri: sockg:expUnitId
 alias: sockg_expUnitId
@@ -134,10 +142,25 @@ domain_of:
 - sockg_ExperimentalUnit
 - sockg_GasNutrientLoss
 - sockg_NutrientEfficiency
+- sockg_PlantingEvent
 - sockg_WaterQualityArea
 - sockg_WaterQualityConc
 - sockg_WindErosionArea
 - sockg_YieldNutrientUptake
+union_of:
+- '{''domain'': ''sockg_WaterQualityArea''}'
+- '{''domain'': ''sockg_ExperimentalUnit''}'
+- '{''domain'': ''sockg_NutrientEfficiency''}'
+- '{''domain'': ''sockg_HarvestFraction''}'
+- '{''domain'': ''sockg_GasSample''}'
+- '{''domain'': ''sockg_WaterQualityConc''}'
+- '{''domain'': ''sockg_Harvest''}'
+- '{''domain'': ''sockg_ResidueManagementEvent''}'
+- '{''domain'': ''sockg_WindErosionArea''}'
+- '{''domain'': ''sockg_GasNutrientLoss''}'
+- '{''domain'': ''sockg_CropGrowthStage''}'
+- '{''domain'': ''sockg_Amendment''}'
+- '{''domain'': ''sockg_YieldNutrientUptake''}'
 range: string
 
 ```

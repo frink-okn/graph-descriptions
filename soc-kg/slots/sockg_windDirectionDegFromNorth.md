@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_windDirectionDegFromNorth
+# Slot: No slot (predicate) name specified (sockg_windDirectionDegFromNorth)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:windDirectionDegFromNorth](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/windDirectionDegFromNorth)
+
+This slot occurs 51210 times.
+
+
+URI: [sockg:windDirectionDegFromNorth](https://idir.uta.edu/sockg-ontology/docs/windDirectionDegFromNorth)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:windDirectionDegFromNorth](http://www.semanticweb.org/sockg/ontologi
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | No type description provided |  no  |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | The WeatherObservation class captures daily meteorological data that are cruc... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:windDirectionDegFromNorth](http://www.semanticweb.org/sockg/ontologi
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,67 +46,49 @@ URI: [sockg:windDirectionDegFromNorth](http://www.semanticweb.org/sockg/ontologi
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#466075 sockg:windDirectionDegFromNorth nan |
-
-## Comments
-
-* 147305 occurrences with subject type sockg:WeatherObservation and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_WeatherObservation | double | sockg:individuals/468806 | 52.84 | 51210 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:windDirectionDegFromNorth |
-| native | soc-kg/main/:sockg_windDirectionDegFromNorth |
-
+* [https://lod.nal.usda.gov/nalt/67367](https://lod.nal.usda.gov/nalt/67367)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_windDirectionDegFromNorth
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 147305 occurrences with subject type sockg:WeatherObservation and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 51210
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#466075 sockg:windDirectionDegFromNorth nan
-from_schema: soc-kg/main
+- object:
+    example_object: '52.84'
+    example_object_type: double
+    example_predicate: sockg:windDirectionDegFromNorth
+    example_subject: sockg:individuals/468806
+    example_subject_type: sockg_WeatherObservation
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/67367
 rank: 1000
+domain: sockg_WeatherObservation
 slot_uri: sockg:windDirectionDegFromNorth
 alias: sockg_windDirectionDegFromNorth
 domain_of:
 - sockg_WeatherObservation
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

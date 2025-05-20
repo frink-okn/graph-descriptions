@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_depth_cm
+# Slot: No slot (predicate) name specified (sockg_depth_cm)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:depth_cm](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/depth_cm)
+
+This slot occurs 20535 times.
+
+
+URI: [sockg:depth_cm](https://idir.uta.edu/sockg-ontology/docs/depth_cm)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:depth_cm](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-ca
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPlantingEvent](../classes/SockgPlantingEvent.md) | No type description provided |  no  |
+| [SockgPlantingEvent](../classes/SockgPlantingEvent.md) | An event involving the act of planting, which includes considerations for spa... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:depth_cm](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-ca
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,67 +46,52 @@ URI: [sockg:depth_cm](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-ca
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#217775 sockg:depth_cm nan |
-
-## Comments
-
-* 23450 occurrences with subject type sockg:PlantingEvent and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_PlantingEvent | double | sockg:individuals/203988 | 0.0 | 20535 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:depth_cm |
-| native | soc-kg/main/:sockg_depth_cm |
-
+* [https://lod.nal.usda.gov/nalt/305177](https://lod.nal.usda.gov/nalt/305177)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_depth_cm
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 23450 occurrences with subject type sockg:PlantingEvent and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 20535
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#217775 sockg:depth_cm nan
-from_schema: soc-kg/main
+- object:
+    example_object: '0.0'
+    example_object_type: double
+    example_predicate: sockg:depth_cm
+    example_subject: sockg:individuals/203988
+    example_subject_type: sockg_PlantingEvent
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/305177
 rank: 1000
 slot_uri: sockg:depth_cm
 alias: sockg_depth_cm
 domain_of:
 - sockg_PlantingEvent
-range: double
+union_of:
+- '{''domain'': ''sockg_Amendment''}'
+- '{''domain'': ''sockg_PlantingEvent''}'
+range: Any
+any_of:
+- range: integer
+- range: double
+- range: float
 
 ```
 </details>

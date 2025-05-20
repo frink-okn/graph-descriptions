@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_mgtResidue_UID
+# Slot: No slot (predicate) name specified (sockg_mgtResidue_UID)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:mgtResidue_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/mgtResidue_UID)
+
+This slot occurs 3308 times.
+
+
+URI: [sockg:mgtResidue_UID](https://idir.uta.edu/sockg-ontology/docs/mgtResidue_UID)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:mgtResidue_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgResidueManagementEvent](../classes/SockgResidueManagementEvent.md) | No type description provided |  no  |
+| [SockgResidueManagementEvent](../classes/SockgResidueManagementEvent.md) | A ResidueManagementEvent represents a specific instance of managing agricultu... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:mgtResidue_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#227311 sockg:mgtResidue_UID AgCros_PAHAW_409_2011-09-29_Glycine_max_Soybean_ |
-
-## Comments
-
-* 3308 occurrences with subject type sockg:ResidueManagementEvent and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:mgtResidue_UID |
-| native | soc-kg/main/:sockg_mgtResidue_UID |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_ResidueManagementEvent | string | sockg:individuals/227674 | AgCros_PAHAW_212_2011-10-05_Zea_mays_Corn_ | 3308 |
 
 
 
@@ -85,20 +56,25 @@ URI: [sockg:mgtResidue_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_mgtResidue_UID
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 3308 occurrences with subject type sockg:ResidueManagementEvent and object type
-  string.
+annotations:
+  count:
+    tag: count
+    value: 3308
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#227311 sockg:mgtResidue_UID AgCros_PAHAW_409_2011-09-29_Glycine_max_Soybean_
-from_schema: soc-kg/main
+- object:
+    example_object: AgCros_PAHAW_212_2011-10-05_Zea_mays_Corn_
+    example_object_type: string
+    example_predicate: sockg:mgtResidue_UID
+    example_subject: sockg:individuals/227674
+    example_subject_type: sockg_ResidueManagementEvent
+from_schema: soc-kg
 rank: 1000
+domain: sockg_ResidueManagementEvent
 slot_uri: sockg:mgtResidue_UID
 alias: sockg_mgtResidue_UID
 domain_of:

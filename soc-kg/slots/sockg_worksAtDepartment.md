@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_worksAtDepartment
+# Slot: No slot (predicate) name specified (sockg_worksAtDepartment)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:worksAtDepartment](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/worksAtDepartment)
+
+This slot occurs 91 times.
+
+
+URI: [sockg:worksAtDepartment](https://idir.uta.edu/sockg-ontology/docs/worksAtDepartment)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:worksAtDepartment](http://www.semanticweb.org/sockg/ontologies/2024/
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPerson](../classes/SockgPerson.md) | No type description provided |  no  |
+| [SockgPerson](../classes/SockgPerson.md) | A Person represents an individual involved in agricultural activities, servin... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:worksAtDepartment](http://www.semanticweb.org/sockg/ontologies/2024/
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#203333 sockg:worksAtDepartment neo4j://graph.individuals#51672 |
-
-## Comments
-
-* 91 occurrences with subject type sockg:Person and object type sockg:Department.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:worksAtDepartment |
-| native | soc-kg/main/:sockg_worksAtDepartment |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Person | sockg_Department | sockg:individuals/203534 | sockg:individuals/51833 | 91 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:worksAtDepartment](http://www.semanticweb.org/sockg/ontologies/2024/
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_worksAtDepartment
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 91 occurrences with subject type sockg:Person and object type sockg:Department.
+annotations:
+  count:
+    tag: count
+    value: 91
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#203333 sockg:worksAtDepartment neo4j://graph.individuals#51672
-from_schema: soc-kg/main
+- object:
+    example_object: sockg:individuals/51833
+    example_object_type: sockg_Department
+    example_predicate: sockg:worksAtDepartment
+    example_subject: sockg:individuals/203534
+    example_subject_type: sockg_Person
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Person
 slot_uri: sockg:worksAtDepartment
 alias: sockg_worksAtDepartment
 domain_of:

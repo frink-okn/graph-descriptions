@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_stockingRate_number_animals_per_ha
+# Slot: No slot (predicate) name specified (sockg_stockingRate_number_animals_per_ha)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:stockingRate_number_animals_per_ha](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/stockingRate_number_animals_per_ha)
+
+This slot occurs 1951 times.
+
+
+URI: [sockg:stockingRate_number_animals_per_ha](https://idir.uta.edu/sockg-ontology/docs/stockingRate_number_animals_per_ha)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:stockingRate_number_animals_per_ha](http://www.semanticweb.org/sockg
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGrazingManagementEvent](../classes/SockgGrazingManagementEvent.md) | No type description provided |  no  |
+| [SockgGrazingManagementEvent](../classes/SockgGrazingManagementEvent.md) | A GrazingManagementEvent represents a specific instance of land management pr... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:stockingRate_number_animals_per_ha](http://www.semanticweb.org/sockg
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,69 +46,49 @@ URI: [sockg:stockingRate_number_animals_per_ha](http://www.semanticweb.org/sockg
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#172456 sockg:stockingRate_number_animals_per_ha 4.6153846 |
-
-## Comments
-
-* 1951 occurrences with subject type sockg:GrazingManagementEvent and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_GrazingManagementEvent | double | sockg:individuals/170955 | 0.0 | 1951 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:stockingRate_number_animals_per_ha |
-| native | soc-kg/main/:sockg_stockingRate_number_animals_per_ha |
-
+* [https://lod.nal.usda.gov/nalt/9267](https://lod.nal.usda.gov/nalt/9267)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_stockingRate_number_animals_per_ha
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1951 occurrences with subject type sockg:GrazingManagementEvent and object type
-  xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 1951
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#172456 sockg:stockingRate_number_animals_per_ha
-    4.6153846
-from_schema: soc-kg/main
+- object:
+    example_object: '0.0'
+    example_object_type: double
+    example_predicate: sockg:stockingRate_number_animals_per_ha
+    example_subject: sockg:individuals/170955
+    example_subject_type: sockg_GrazingManagementEvent
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/9267
 rank: 1000
+domain: sockg_GrazingManagementEvent
 slot_uri: sockg:stockingRate_number_animals_per_ha
 alias: sockg_stockingRate_number_animals_per_ha
 domain_of:
 - sockg_GrazingManagementEvent
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_time
+# Slot: No slot (predicate) name specified (sockg_time)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:time](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/time)
+
+This slot occurs 5471 times.
+
+
+URI: [sockg:time](https://idir.uta.edu/sockg-ontology/docs/time)
 
 
 
@@ -23,11 +27,7 @@ URI: [sockg:time](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGasSample](../classes/SockgGasSample.md) | No type description provided |  no  |
-| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | No type description provided |  no  |
-| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | No type description provided |  no  |
-| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | No type description provided |  no  |
-| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | No type description provided |  no  |
+| [SockgGasSample](../classes/SockgGasSample.md) | GasSample represents a collection of measurements related to greenhouse gas e... |  yes  |
 
 
 
@@ -37,7 +37,7 @@ URI: [sockg:time](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:time](http://www.w3.org/2001/XMLSchema#time)
 
 
 
@@ -46,52 +46,9 @@ URI: [sockg:time](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#97100 sockg:time nan |
-| neo4j://graph.individuals#160382 sockg:time 11:09:00 |
-| neo4j://graph.individuals#361705 sockg:time nan |
-| neo4j://graph.individuals#55832 sockg:time nan |
-| neo4j://graph.individuals#360324 sockg:time nan |
-| neo4j://graph.individuals#509313 sockg:time nan |
-
-## Comments
-
-* 101883 occurrences with subject type sockg:GasSample and object type xsd:double.
-* 5471 occurrences with subject type sockg:GasSample and object type string.
-* 1479 occurrences with subject type sockg:WaterQualityConc and object type xsd:double.
-* 748 occurrences with subject type sockg:GasNutrientLoss and object type xsd:double.
-* 667 occurrences with subject type sockg:WaterQualityArea and object type xsd:double.
-* 15 occurrences with subject type sockg:WindErosionArea and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:time |
-| native | soc-kg/main/:sockg_time |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_GasSample | string | sockg:individuals/156223 | 11:48:00 | 5471 |
 
 
 
@@ -99,41 +56,38 @@ URI: [sockg:time](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_time
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 101883 occurrences with subject type sockg:GasSample and object type xsd:double.
-- 5471 occurrences with subject type sockg:GasSample and object type string.
-- 1479 occurrences with subject type sockg:WaterQualityConc and object type xsd:double.
-- 748 occurrences with subject type sockg:GasNutrientLoss and object type xsd:double.
-- 667 occurrences with subject type sockg:WaterQualityArea and object type xsd:double.
-- 15 occurrences with subject type sockg:WindErosionArea and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 5471
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#97100 sockg:time nan
-- value: neo4j://graph.individuals#160382 sockg:time 11:09:00
-- value: neo4j://graph.individuals#361705 sockg:time nan
-- value: neo4j://graph.individuals#55832 sockg:time nan
-- value: neo4j://graph.individuals#360324 sockg:time nan
-- value: neo4j://graph.individuals#509313 sockg:time nan
-from_schema: soc-kg/main
+- object:
+    example_object: '11:48:00'
+    example_object_type: string
+    example_predicate: sockg:time
+    example_subject: sockg:individuals/156223
+    example_subject_type: sockg_GasSample
+from_schema: soc-kg
 rank: 1000
 slot_uri: sockg:time
 alias: sockg_time
 domain_of:
-- sockg_GasNutrientLoss
 - sockg_GasSample
-- sockg_WaterQualityArea
-- sockg_WaterQualityConc
-- sockg_WindErosionArea
+union_of:
+- '{''domain'': ''sockg_WaterQualityArea''}'
+- '{''domain'': ''sockg_GasSample''}'
+- '{''domain'': ''sockg_WaterQualityConc''}'
+- '{''domain'': ''sockg_WindErosionArea''}'
+- '{''domain'': ''sockg_GasNutrientLoss''}'
 range: Any
 any_of:
-- range: double
 - range: string
+- range: time
 
 ```
 </details>

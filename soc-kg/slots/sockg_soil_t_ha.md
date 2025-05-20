@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_soil_t_ha
+# Slot: No slot (predicate) name specified (sockg_soil_t_ha)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:soil_t_ha](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/soil_t_ha)
+
+This slot occurs 15 times.
+
+
+URI: [sockg:soil_t_ha](https://idir.uta.edu/sockg-ontology/docs/soil_t_ha)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:soil_t_ha](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | No type description provided |  no  |
+| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | The WindErosionArea class represents regions affected by wind erosion, detail... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:soil_t_ha](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:soil_t_ha](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#509306 sockg:soil_t_ha 4140.8 |
-
-## Comments
-
-* 15 occurrences with subject type sockg:WindErosionArea and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:soil_t_ha |
-| native | soc-kg/main/:sockg_soil_t_ha |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_WindErosionArea | double | sockg:individuals/624572 | 987.2 | 15 |
 
 
 
@@ -85,24 +56,33 @@ URI: [sockg:soil_t_ha](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_soil_t_ha
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 15 occurrences with subject type sockg:WindErosionArea and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 15
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#509306 sockg:soil_t_ha 4140.8
-from_schema: soc-kg/main
+- object:
+    example_object: '987.2'
+    example_object_type: double
+    example_predicate: sockg:soil_t_ha
+    example_subject: sockg:individuals/624572
+    example_subject_type: sockg_WindErosionArea
+from_schema: soc-kg
 rank: 1000
+domain: sockg_WindErosionArea
 slot_uri: sockg:soil_t_ha
 alias: sockg_soil_t_ha
 domain_of:
 - sockg_WindErosionArea
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

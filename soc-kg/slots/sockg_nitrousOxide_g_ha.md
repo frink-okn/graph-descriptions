@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_nitrousOxide_g_ha
+# Slot: No slot (predicate) name specified (sockg_nitrousOxide_g_ha)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:nitrousOxide_g_ha](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/nitrousOxide_g_ha)
+
+This slot occurs 748 times.
+
+
+URI: [sockg:nitrousOxide_g_ha](https://idir.uta.edu/sockg-ontology/docs/nitrousOxide_g_ha)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:nitrousOxide_g_ha](http://www.semanticweb.org/sockg/ontologies/2024/
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | No type description provided |  no  |
+| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | The GasNutrientLoss class represents the assessment of gaseous nutrient losse... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:nitrousOxide_g_ha](http://www.semanticweb.org/sockg/ontologies/2024/
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:nitrousOxide_g_ha](http://www.semanticweb.org/sockg/ontologies/2024/
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#56155 sockg:nitrousOxide_g_ha 14.806486 |
-
-## Comments
-
-* 748 occurrences with subject type sockg:GasNutrientLoss and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:nitrousOxide_g_ha |
-| native | soc-kg/main/:sockg_nitrousOxide_g_ha |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_GasNutrientLoss | double | sockg:individuals/55858 | 10.36667 | 748 |
 
 
 
@@ -85,24 +56,33 @@ URI: [sockg:nitrousOxide_g_ha](http://www.semanticweb.org/sockg/ontologies/2024/
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_nitrousOxide_g_ha
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 748 occurrences with subject type sockg:GasNutrientLoss and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 748
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#56155 sockg:nitrousOxide_g_ha 14.806486
-from_schema: soc-kg/main
+- object:
+    example_object: '10.36667'
+    example_object_type: double
+    example_predicate: sockg:nitrousOxide_g_ha
+    example_subject: sockg:individuals/55858
+    example_subject_type: sockg_GasNutrientLoss
+from_schema: soc-kg
 rank: 1000
+domain: sockg_GasNutrientLoss
 slot_uri: sockg:nitrousOxide_g_ha
 alias: sockg_nitrousOxide_g_ha
 domain_of:
 - sockg_GasNutrientLoss
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

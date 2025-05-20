@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_countyName
+# Slot: No slot (predicate) name specified (sockg_countyName)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:countyName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/countyName)
+
+This slot occurs 33 times.
+
+
+URI: [sockg:countyName](https://idir.uta.edu/sockg-ontology/docs/countyName)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:countyName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgCounty](../classes/SockgCounty.md) | No type description provided |  no  |
+| [SockgCounty](../classes/SockgCounty.md) | A County represents a specific geographical area within a state, often encomp... |  yes  |
 
 
 
@@ -42,62 +46,41 @@ URI: [sockg:countyName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#46740 sockg:countyName Brookings |
-
-## Comments
-
-* 33 occurrences with subject type sockg:County and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_County | string | sockg:individuals/46904 | Macon | 33 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:countyName |
-| native | soc-kg/main/:sockg_countyName |
-
+* [https://lod.nal.usda.gov/nalt/2217129](https://lod.nal.usda.gov/nalt/2217129)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_countyName
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 33 occurrences with subject type sockg:County and object type string.
+annotations:
+  count:
+    tag: count
+    value: 33
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#46740 sockg:countyName Brookings
-from_schema: soc-kg/main
+- object:
+    example_object: Macon
+    example_object_type: string
+    example_predicate: sockg:countyName
+    example_subject: sockg:individuals/46904
+    example_subject_type: sockg_County
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/2217129
 rank: 1000
+domain: sockg_County
 slot_uri: sockg:countyName
 alias: sockg_countyName
 domain_of:

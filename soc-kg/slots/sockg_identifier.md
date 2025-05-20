@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_identifier
+# Slot: No slot (predicate) name specified (sockg_identifier)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:identifier](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/identifier)
+
+This slot occurs 114 times.
+
+
+URI: [sockg:identifier](https://idir.uta.edu/sockg-ontology/docs/identifier)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:identifier](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPublication](../classes/SockgPublication.md) | No type description provided |  no  |
+| [SockgPublication](../classes/SockgPublication.md) | A Publication is a documented work that disseminates findings, research, or i... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:identifier](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#227247 sockg:identifier doi:10.2134/jeq2012.0129 |
-
-## Comments
-
-* 114 occurrences with subject type sockg:Publication and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:identifier |
-| native | soc-kg/main/:sockg_identifier |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Publication | string | sockg:individuals/227447 | https://www.soils.org/publications/sssaj | 114 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:identifier](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_identifier
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 114 occurrences with subject type sockg:Publication and object type string.
+annotations:
+  count:
+    tag: count
+    value: 114
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#227247 sockg:identifier doi:10.2134/jeq2012.0129
-from_schema: soc-kg/main
+- object:
+    example_object: https://www.soils.org/publications/sssaj
+    example_object_type: string
+    example_predicate: sockg:identifier
+    example_subject: sockg:individuals/227447
+    example_subject_type: sockg_Publication
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Publication
 slot_uri: sockg:identifier
 alias: sockg_identifier
 domain_of:

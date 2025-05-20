@@ -3,13 +3,17 @@
 # Slot: sockg_soilMoisture_percent_volume
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:soilMoisture_percent_volume](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/soilMoisture_percent_volume)
+
+This slot occurs 107000 times.
+
+
+URI: [sockg:soilMoisture_percent_volume](https://idir.uta.edu/sockg-ontology/docs/soilMoisture_percent_volume)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:soilMoisture_percent_volume](http://www.semanticweb.org/sockg/ontolo
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGasSample](../classes/SockgGasSample.md) | No type description provided |  no  |
+| [SockgGasSample](../classes/SockgGasSample.md) | GasSample represents a collection of measurements related to greenhouse gas e... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:soilMoisture_percent_volume](http://www.semanticweb.org/sockg/ontolo
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#56473 sockg:soilMoisture_percent_volume 0.0 |
-
-## Comments
-
-* 107354 occurrences with subject type sockg:GasSample and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:soilMoisture_percent_volume |
-| native | soc-kg/main/:sockg_soilMoisture_percent_volume |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_GasSample | double | sockg:individuals/100000 | 22.5 | 107000 |
 
 
 
@@ -85,18 +56,22 @@ URI: [sockg:soilMoisture_percent_volume](http://www.semanticweb.org/sockg/ontolo
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_soilMoisture_percent_volume
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 107354 occurrences with subject type sockg:GasSample and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 107000
+description: No slot (predicate) description specified
 examples:
-- value: neo4j://graph.individuals#56473 sockg:soilMoisture_percent_volume 0.0
-from_schema: soc-kg/main
+- object:
+    example_object: '22.5'
+    example_object_type: double
+    example_predicate: sockg:soilMoisture_percent_volume
+    example_subject: sockg:individuals/100000
+    example_subject_type: sockg_GasSample
+from_schema: soc-kg
 rank: 1000
 slot_uri: sockg:soilMoisture_percent_volume
 alias: sockg_soilMoisture_percent_volume

@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_lossesOrDeposition
+# Slot: No slot (predicate) name specified (sockg_lossesOrDeposition)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:lossesOrDeposition](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/lossesOrDeposition)
+
+This slot occurs 139 times.
+
+
+URI: [sockg:lossesOrDeposition](https://idir.uta.edu/sockg-ontology/docs/lossesOrDeposition)
 
 
 
@@ -23,8 +27,8 @@ URI: [sockg:lossesOrDeposition](http://www.semanticweb.org/sockg/ontologies/2024
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | No type description provided |  no  |
-| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | No type description provided |  no  |
+| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | The WindErosionArea class represents regions affected by wind erosion, detail... |  yes  |
+| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | A WaterQualityArea represents a designated agricultural zone where water qual... |  yes  |
 
 
 
@@ -34,7 +38,7 @@ URI: [sockg:lossesOrDeposition](http://www.semanticweb.org/sockg/ontologies/2024
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -43,48 +47,10 @@ URI: [sockg:lossesOrDeposition](http://www.semanticweb.org/sockg/ontologies/2024
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#360365 sockg:lossesOrDeposition nan |
-| neo4j://graph.individuals#359910 sockg:lossesOrDeposition Deposition |
-| neo4j://graph.individuals#509301 sockg:lossesOrDeposition Losses |
-| neo4j://graph.individuals#509305 sockg:lossesOrDeposition nan |
-
-## Comments
-
-* 549 occurrences with subject type sockg:WaterQualityArea and object type xsd:double.
-* 118 occurrences with subject type sockg:WaterQualityArea and object type string.
-* 5 occurrences with subject type sockg:WindErosionArea and object type string.
-* 10 occurrences with subject type sockg:WindErosionArea and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:lossesOrDeposition |
-| native | soc-kg/main/:sockg_lossesOrDeposition |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_WaterQualityArea | string | sockg:individuals/364326 | Deposition | 132 |
+| sockg_WindErosionArea | string | sockg:individuals/624572 | Losses | 7 |
 
 
 
@@ -92,34 +58,42 @@ URI: [sockg:lossesOrDeposition](http://www.semanticweb.org/sockg/ontologies/2024
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_lossesOrDeposition
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 549 occurrences with subject type sockg:WaterQualityArea and object type xsd:double.
-- 118 occurrences with subject type sockg:WaterQualityArea and object type string.
-- 5 occurrences with subject type sockg:WindErosionArea and object type string.
-- 10 occurrences with subject type sockg:WindErosionArea and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 139
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#360365 sockg:lossesOrDeposition nan
-- value: neo4j://graph.individuals#359910 sockg:lossesOrDeposition Deposition
-- value: neo4j://graph.individuals#509301 sockg:lossesOrDeposition Losses
-- value: neo4j://graph.individuals#509305 sockg:lossesOrDeposition nan
-from_schema: soc-kg/main
+- object:
+    example_object: Deposition
+    example_object_type: string
+    example_predicate: sockg:lossesOrDeposition
+    example_subject: sockg:individuals/364326
+    example_subject_type: sockg_WaterQualityArea
+- object:
+    example_object: Losses
+    example_object_type: string
+    example_predicate: sockg:lossesOrDeposition
+    example_subject: sockg:individuals/624572
+    example_subject_type: sockg_WindErosionArea
+from_schema: soc-kg
 rank: 1000
 slot_uri: sockg:lossesOrDeposition
 alias: sockg_lossesOrDeposition
 domain_of:
 - sockg_WaterQualityArea
 - sockg_WindErosionArea
+union_of:
+- '{''domain'': ''sockg_WaterQualityArea''}'
+- '{''domain'': ''sockg_WindErosionArea''}'
 range: Any
 any_of:
-- range: double
 - range: string
+- range: float
 
 ```
 </details>

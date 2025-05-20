@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_rowsHarvestedPercent
+# Slot: No slot (predicate) name specified (sockg_rowsHarvestedPercent)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:rowsHarvestedPercent](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/rowsHarvestedPercent)
+
+This slot occurs 3308 times.
+
+
+URI: [sockg:rowsHarvestedPercent](https://idir.uta.edu/sockg-ontology/docs/rowsHarvestedPercent)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:rowsHarvestedPercent](http://www.semanticweb.org/sockg/ontologies/20
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgResidueManagementEvent](../classes/SockgResidueManagementEvent.md) | No type description provided |  no  |
+| [SockgResidueManagementEvent](../classes/SockgResidueManagementEvent.md) | A ResidueManagementEvent represents a specific instance of managing agricultu... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:rowsHarvestedPercent](http://www.semanticweb.org/sockg/ontologies/20
 
 ## Properties
 
-* Range: [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:rowsHarvestedPercent](http://www.semanticweb.org/sockg/ontologies/20
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#227548 sockg:rowsHarvestedPercent 0 |
-
-## Comments
-
-* 3308 occurrences with subject type sockg:ResidueManagementEvent and object type xsd:long.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:rowsHarvestedPercent |
-| native | soc-kg/main/:sockg_rowsHarvestedPercent |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_ResidueManagementEvent | integer | sockg:individuals/227674 | 0 | 3308 |
 
 
 
@@ -85,25 +56,33 @@ URI: [sockg:rowsHarvestedPercent](http://www.semanticweb.org/sockg/ontologies/20
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_rowsHarvestedPercent
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 3308 occurrences with subject type sockg:ResidueManagementEvent and object type
-  xsd:long.
+annotations:
+  count:
+    tag: count
+    value: 3308
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#227548 sockg:rowsHarvestedPercent 0
-from_schema: soc-kg/main
+- object:
+    example_object: '0'
+    example_object_type: integer
+    example_predicate: sockg:rowsHarvestedPercent
+    example_subject: sockg:individuals/227674
+    example_subject_type: sockg_ResidueManagementEvent
+from_schema: soc-kg
 rank: 1000
+domain: sockg_ResidueManagementEvent
 slot_uri: sockg:rowsHarvestedPercent
 alias: sockg_rowsHarvestedPercent
 domain_of:
 - sockg_ResidueManagementEvent
-range: integer
+range: Any
+any_of:
+- range: integer
+- range: float
 
 ```
 </details>

@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_measBiomassMinAn_UID
+# Slot: No slot (predicate) name specified (sockg_measBiomassMinAn_UID)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:measBiomassMinAn_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/measBiomassMinAn_UID)
+
+This slot occurs 6723 times.
+
+
+URI: [sockg:measBiomassMinAn_UID](https://idir.uta.edu/sockg-ontology/docs/measBiomassMinAn_UID)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:measBiomassMinAn_UID](http://www.semanticweb.org/sockg/ontologies/20
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | No type description provided |  no  |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | BioMassMiner is a class that represents the analysis of biomass in terms of i... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:measBiomassMinAn_UID](http://www.semanticweb.org/sockg/ontologies/20
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#41237 sockg:measBiomassMinAn_UID AgCros_SCFLSGI_421_2010-08-18_Zea_mays_Corn_Below_earshank_leaves |
-
-## Comments
-
-* 6723 occurrences with subject type sockg:BioMassMineral and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:measBiomassMinAn_UID |
-| native | soc-kg/main/:sockg_measBiomassMinAn_UID |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_BioMassMineral | string | sockg:individuals/39962 | AgCros_NECCIRR_423_2018-10-04_Zea_mays_Corn_Stover_all_non-grain_biomass_ | 6723 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:measBiomassMinAn_UID](http://www.semanticweb.org/sockg/ontologies/20
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_measBiomassMinAn_UID
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 6723 occurrences with subject type sockg:BioMassMineral and object type string.
+annotations:
+  count:
+    tag: count
+    value: 6723
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#41237 sockg:measBiomassMinAn_UID AgCros_SCFLSGI_421_2010-08-18_Zea_mays_Corn_Below_earshank_leaves
-from_schema: soc-kg/main
+- object:
+    example_object: AgCros_NECCIRR_423_2018-10-04_Zea_mays_Corn_Stover_all_non-grain_biomass_
+    example_object_type: string
+    example_predicate: sockg:measBiomassMinAn_UID
+    example_subject: sockg:individuals/39962
+    example_subject_type: sockg_BioMassMineral
+from_schema: soc-kg
 rank: 1000
+domain: sockg_BioMassMineral
 slot_uri: sockg:measBiomassMinAn_UID
 alias: sockg_measBiomassMinAn_UID
 domain_of:

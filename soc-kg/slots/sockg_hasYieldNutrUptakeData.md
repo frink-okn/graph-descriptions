@@ -1,29 +1,22 @@
 
 
-# Slot: sockg_hasYieldNutrUptakeData
+# Slot: No slot (predicate) name specified (sockg_hasYieldNutrUptakeData)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:hasYieldNutrUptakeData](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/hasYieldNutrUptakeData)
+
+
+URI: [sockg:hasYieldNutrUptakeData](https://idir.uta.edu/sockg-ontology/docs/hasYieldNutrUptakeData)
 
 
 
 <!-- no inheritance hierarchy -->
 
-
-
-
-
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | No type description provided |  no  |
 
 
 
@@ -39,69 +32,27 @@ URI: [sockg:hasYieldNutrUptakeData](http://www.semanticweb.org/sockg/ontologies/
 
 
 
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#509481 sockg:hasYieldNutrUptakeData neo4j://graph.individuals#54846 |
-
 ## Comments
 
-* 429 occurrences with subject type sockg:YieldNutrientUptake and object type sockg:ExperimentalUnit.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:hasYieldNutrUptakeData |
-| native | soc-kg/main/:sockg_hasYieldNutrUptakeData |
-
+* No occurrences of this slot in the graph.
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_hasYieldNutrUptakeData
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 comments:
-- 429 occurrences with subject type sockg:YieldNutrientUptake and object type sockg:ExperimentalUnit.
-examples:
-- value: neo4j://graph.individuals#509481 sockg:hasYieldNutrUptakeData neo4j://graph.individuals#54846
-from_schema: soc-kg/main
+- No occurrences of this slot in the graph.
+from_schema: soc-kg
 rank: 1000
+domain: sockg_YieldNutrientUptake
 slot_uri: sockg:hasYieldNutrUptakeData
 alias: sockg_hasYieldNutrUptakeData
-domain_of:
-- sockg_YieldNutrientUptake
 range: sockg_ExperimentalUnit
 
 ```

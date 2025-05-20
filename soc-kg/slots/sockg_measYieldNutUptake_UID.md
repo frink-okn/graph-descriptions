@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_measYieldNutUptake_UID
+# Slot: No slot (predicate) name specified (sockg_measYieldNutUptake_UID)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:measYieldNutUptake_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/measYieldNutUptake_UID)
+
+This slot occurs 429 times.
+
+
+URI: [sockg:measYieldNutUptake_UID](https://idir.uta.edu/sockg-ontology/docs/measYieldNutUptake_UID)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:measYieldNutUptake_UID](http://www.semanticweb.org/sockg/ontologies/
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | No type description provided |  no  |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:measYieldNutUptake_UID](http://www.semanticweb.org/sockg/ontologies/
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#509338 sockg:measYieldNutUptake_UID AgCros_ALAURye_205_2006-04-20 |
-
-## Comments
-
-* 429 occurrences with subject type sockg:YieldNutrientUptake and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:measYieldNutUptake_UID |
-| native | soc-kg/main/:sockg_measYieldNutUptake_UID |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_YieldNutrientUptake | string | sockg:individuals/624587 | AgCros_MNSP4R_U-S100B_2014-11-01 | 429 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:measYieldNutUptake_UID](http://www.semanticweb.org/sockg/ontologies/
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_measYieldNutUptake_UID
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 429 occurrences with subject type sockg:YieldNutrientUptake and object type string.
+annotations:
+  count:
+    tag: count
+    value: 429
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#509338 sockg:measYieldNutUptake_UID AgCros_ALAURye_205_2006-04-20
-from_schema: soc-kg/main
+- object:
+    example_object: AgCros_MNSP4R_U-S100B_2014-11-01
+    example_object_type: string
+    example_predicate: sockg:measYieldNutUptake_UID
+    example_subject: sockg:individuals/624587
+    example_subject_type: sockg_YieldNutrientUptake
+from_schema: soc-kg
 rank: 1000
+domain: sockg_YieldNutrientUptake
 slot_uri: sockg:measYieldNutUptake_UID
 alias: sockg_measYieldNutUptake_UID
 domain_of:

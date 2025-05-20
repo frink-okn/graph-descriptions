@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_irrigationNitrogen_mg_per_L
+# Slot: No slot (predicate) name specified (sockg_irrigationNitrogen_mg_per_L)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:irrigationNitrogen_mg_per_L](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/irrigationNitrogen_mg_per_L)
+
+This slot occurs 160 times.
+
+
+URI: [sockg:irrigationNitrogen_mg_per_L](https://idir.uta.edu/sockg-ontology/docs/irrigationNitrogen_mg_per_L)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:irrigationNitrogen_mg_per_L](http://www.semanticweb.org/sockg/ontolo
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgAmendment](../classes/SockgAmendment.md) | No type description provided |  no  |
+| [SockgAmendment](../classes/SockgAmendment.md) | An Amendment represents a specific alteration or addition made to agricultura... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:irrigationNitrogen_mg_per_L](http://www.semanticweb.org/sockg/ontolo
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,67 +46,49 @@ URI: [sockg:irrigationNitrogen_mg_per_L](http://www.semanticweb.org/sockg/ontolo
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#33235 sockg:irrigationNitrogen_mg_per_L nan |
-
-## Comments
-
-* 37796 occurrences with subject type sockg:Amendment and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Amendment | double | sockg:individuals/22222 | 0.0 | 160 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:irrigationNitrogen_mg_per_L |
-| native | soc-kg/main/:sockg_irrigationNitrogen_mg_per_L |
-
+* [https://lod.nal.usda.gov/nalt/7829](https://lod.nal.usda.gov/nalt/7829)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_irrigationNitrogen_mg_per_L
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 37796 occurrences with subject type sockg:Amendment and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 160
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#33235 sockg:irrigationNitrogen_mg_per_L nan
-from_schema: soc-kg/main
+- object:
+    example_object: '0.0'
+    example_object_type: double
+    example_predicate: sockg:irrigationNitrogen_mg_per_L
+    example_subject: sockg:individuals/22222
+    example_subject_type: sockg_Amendment
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/7829
 rank: 1000
+domain: sockg_Amendment
 slot_uri: sockg:irrigationNitrogen_mg_per_L
 alias: sockg_irrigationNitrogen_mg_per_L
 domain_of:
 - sockg_Amendment
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

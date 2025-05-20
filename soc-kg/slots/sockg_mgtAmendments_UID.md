@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_mgtAmendments_UID
+# Slot: No slot (predicate) name specified (sockg_mgtAmendments_UID)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:mgtAmendments_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/mgtAmendments_UID)
+
+This slot occurs 37796 times.
+
+
+URI: [sockg:mgtAmendments_UID](https://idir.uta.edu/sockg-ontology/docs/mgtAmendments_UID)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:mgtAmendments_UID](http://www.semanticweb.org/sockg/ontologies/2024/
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgAmendment](../classes/SockgAmendment.md) | No type description provided |  no  |
+| [SockgAmendment](../classes/SockgAmendment.md) | An Amendment represents a specific alteration or addition made to agricultura... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:mgtAmendments_UID](http://www.semanticweb.org/sockg/ontologies/2024/
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#11252 sockg:mgtAmendments_UID AgCros_NEMLTCRS_214M_2015-05-13_Avena_sativa_Oats_80_Melilotus_officinalis_and_20_Trifolium_pratense_Clover_ |
-
-## Comments
-
-* 37796 occurrences with subject type sockg:Amendment and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:mgtAmendments_UID |
-| native | soc-kg/main/:sockg_mgtAmendments_UID |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Amendment | string | sockg:individuals/0 | AgCros_PAHAW_212_2012-06-05_Glycine_max_Soybean_ | 37796 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:mgtAmendments_UID](http://www.semanticweb.org/sockg/ontologies/2024/
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_mgtAmendments_UID
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 37796 occurrences with subject type sockg:Amendment and object type string.
+annotations:
+  count:
+    tag: count
+    value: 37796
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#11252 sockg:mgtAmendments_UID AgCros_NEMLTCRS_214M_2015-05-13_Avena_sativa_Oats_80_Melilotus_officinalis_and_20_Trifolium_pratense_Clover_
-from_schema: soc-kg/main
+- object:
+    example_object: AgCros_PAHAW_212_2012-06-05_Glycine_max_Soybean_
+    example_object_type: string
+    example_predicate: sockg:mgtAmendments_UID
+    example_subject: sockg:individuals/0
+    example_subject_type: sockg_Amendment
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Amendment
 slot_uri: sockg:mgtAmendments_UID
 alias: sockg_mgtAmendments_UID
 domain_of:

@@ -1,15 +1,17 @@
 
 
-# Slot: sockg_soilWithResidueCoverPercent
+# Slot: No slot (predicate) name specified (sockg_soilWithResidueCoverPercent)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:soilWithResidueCoverPercent](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/soilWithResidueCoverPercent)
+
+
+URI: [sockg:soilWithResidueCoverPercent](https://idir.uta.edu/sockg-ontology/docs/soilWithResidueCoverPercent)
 
 
 
@@ -19,90 +21,39 @@ URI: [sockg:soilWithResidueCoverPercent](http://www.semanticweb.org/sockg/ontolo
 
 
 
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [SockgSoilCover](../classes/SockgSoilCover.md) | No type description provided |  no  |
-
-
-
-
 
 
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
 
-
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#303083 sockg:soilWithResidueCoverPercent nan |
 
 ## Comments
 
-* 1034 occurrences with subject type sockg:SoilCover and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:soilWithResidueCoverPercent |
-| native | soc-kg/main/:sockg_soilWithResidueCoverPercent |
-
+* No occurrences of this slot in the graph.
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_soilWithResidueCoverPercent
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 comments:
-- 1034 occurrences with subject type sockg:SoilCover and object type xsd:double.
-examples:
-- value: neo4j://graph.individuals#303083 sockg:soilWithResidueCoverPercent nan
-from_schema: soc-kg/main
+- No occurrences of this slot in the graph.
+from_schema: soc-kg
 rank: 1000
+domain: sockg_SoilCover
 slot_uri: sockg:soilWithResidueCoverPercent
 alias: sockg_soilWithResidueCoverPercent
-domain_of:
-- sockg_SoilCover
-range: double
+range: float
 
 ```
 </details>

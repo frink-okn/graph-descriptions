@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_middleName
+# Slot: No slot (predicate) name specified (sockg_middleName)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:middleName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/middleName)
+
+This slot occurs 65 times.
+
+
+URI: [sockg:middleName](https://idir.uta.edu/sockg-ontology/docs/middleName)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:middleName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPerson](../classes/SockgPerson.md) | No type description provided |  no  |
+| [SockgPerson](../classes/SockgPerson.md) | A Person represents an individual involved in agricultural activities, servin... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:middleName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,44 +46,9 @@ URI: [sockg:middleName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#203299 sockg:middleName W |
-| neo4j://graph.individuals#203369 sockg:middleName nan |
-
-## Comments
-
-* 65 occurrences with subject type sockg:Person and object type string.
-* 33 occurrences with subject type sockg:Person and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:middleName |
-| native | soc-kg/main/:sockg_middleName |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Person | string | sockg:individuals/203537 | A. | 65 |
 
 
 
@@ -87,29 +56,30 @@ URI: [sockg:middleName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_middleName
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 65 occurrences with subject type sockg:Person and object type string.
-- 33 occurrences with subject type sockg:Person and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 65
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#203299 sockg:middleName W
-- value: neo4j://graph.individuals#203369 sockg:middleName nan
-from_schema: soc-kg/main
+- object:
+    example_object: A.
+    example_object_type: string
+    example_predicate: sockg:middleName
+    example_subject: sockg:individuals/203537
+    example_subject_type: sockg_Person
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Person
 slot_uri: sockg:middleName
 alias: sockg_middleName
 domain_of:
 - sockg_Person
-range: Any
-any_of:
-- range: string
-- range: double
+range: string
 
 ```
 </details>

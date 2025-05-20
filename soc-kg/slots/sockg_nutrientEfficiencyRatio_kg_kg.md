@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_nutrientEfficiencyRatio_kg_kg
+# Slot: No slot (predicate) name specified (sockg_nutrientEfficiencyRatio_kg_kg)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:nutrientEfficiencyRatio_kg_kg](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/nutrientEfficiencyRatio_kg_kg)
+
+This slot occurs 2569 times.
+
+
+URI: [sockg:nutrientEfficiencyRatio_kg_kg](https://idir.uta.edu/sockg-ontology/docs/nutrientEfficiencyRatio_kg_kg)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:nutrientEfficiencyRatio_kg_kg](http://www.semanticweb.org/sockg/onto
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | No type description provided |  no  |
+| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | The NutrientEfficiency class represents the effectiveness of nutrient utiliza... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:nutrientEfficiencyRatio_kg_kg](http://www.semanticweb.org/sockg/onto
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:nutrientEfficiencyRatio_kg_kg](http://www.semanticweb.org/sockg/onto
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#203167 sockg:nutrientEfficiencyRatio_kg_kg 226.54677 |
-
-## Comments
-
-* 2791 occurrences with subject type sockg:NutrientEfficiency and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:nutrientEfficiencyRatio_kg_kg |
-| native | soc-kg/main/:sockg_nutrientEfficiencyRatio_kg_kg |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_NutrientEfficiency | double | sockg:individuals/200732 | 2.098475 | 2569 |
 
 
 
@@ -85,24 +56,33 @@ URI: [sockg:nutrientEfficiencyRatio_kg_kg](http://www.semanticweb.org/sockg/onto
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_nutrientEfficiencyRatio_kg_kg
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 2791 occurrences with subject type sockg:NutrientEfficiency and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 2569
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#203167 sockg:nutrientEfficiencyRatio_kg_kg 226.54677
-from_schema: soc-kg/main
+- object:
+    example_object: '2.098475'
+    example_object_type: double
+    example_predicate: sockg:nutrientEfficiencyRatio_kg_kg
+    example_subject: sockg:individuals/200732
+    example_subject_type: sockg_NutrientEfficiency
+from_schema: soc-kg
 rank: 1000
+domain: sockg_NutrientEfficiency
 slot_uri: sockg:nutrientEfficiencyRatio_kg_kg
 alias: sockg_nutrientEfficiencyRatio_kg_kg
 domain_of:
 - sockg_NutrientEfficiency
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

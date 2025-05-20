@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_bulkDensity_g_per_cm_cubed
+# Slot: No slot (predicate) name specified (sockg_bulkDensity_g_per_cm_cubed)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:bulkDensity_g_per_cm_cubed](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/bulkDensity_g_per_cm_cubed)
+
+This slot occurs 19670 times.
+
+
+URI: [sockg:bulkDensity_g_per_cm_cubed](https://idir.uta.edu/sockg-ontology/docs/bulkDensity_g_per_cm_cubed)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:bulkDensity_g_per_cm_cubed](http://www.semanticweb.org/sockg/ontolog
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSoilPhysicalSample](../classes/SockgSoilPhysicalSample.md) | No type description provided |  no  |
+| [SockgSoilPhysicalSample](../classes/SockgSoilPhysicalSample.md) | SoilPhysicalSample represents a comprehensive analysis of soil characteristic... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:bulkDensity_g_per_cm_cubed](http://www.semanticweb.org/sockg/ontolog
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
@@ -42,67 +46,49 @@ URI: [sockg:bulkDensity_g_per_cm_cubed](http://www.semanticweb.org/sockg/ontolog
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#330107 sockg:bulkDensity_g_per_cm_cubed 1.3 |
-
-## Comments
-
-* 28082 occurrences with subject type sockg:SoilPhysicalSample and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_SoilPhysicalSample | double | sockg:individuals/308318 | 1.26 | 19670 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:bulkDensity_g_per_cm_cubed |
-| native | soc-kg/main/:sockg_bulkDensity_g_per_cm_cubed |
-
+* [https://lod.nal.usda.gov/nalt/20349](https://lod.nal.usda.gov/nalt/20349)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_bulkDensity_g_per_cm_cubed
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 28082 occurrences with subject type sockg:SoilPhysicalSample and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 19670
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#330107 sockg:bulkDensity_g_per_cm_cubed 1.3
-from_schema: soc-kg/main
+- object:
+    example_object: '1.26'
+    example_object_type: double
+    example_predicate: sockg:bulkDensity_g_per_cm_cubed
+    example_subject: sockg:individuals/308318
+    example_subject_type: sockg_SoilPhysicalSample
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/20349
 rank: 1000
+domain: sockg_SoilPhysicalSample
 slot_uri: sockg:bulkDensity_g_per_cm_cubed
 alias: sockg_bulkDensity_g_per_cm_cubed
 domain_of:
 - sockg_SoilPhysicalSample
-range: double
+range: Any
+any_of:
+- range: double
+- range: float
 
 ```
 </details>

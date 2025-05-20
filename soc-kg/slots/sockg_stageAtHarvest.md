@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_stageAtHarvest
+# Slot: No slot (predicate) name specified (sockg_stageAtHarvest)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:stageAtHarvest](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/stageAtHarvest)
+
+This slot occurs 1650 times.
+
+
+URI: [sockg:stageAtHarvest](https://idir.uta.edu/sockg-ontology/docs/stageAtHarvest)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:stageAtHarvest](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgResidueManagementEvent](../classes/SockgResidueManagementEvent.md) | No type description provided |  no  |
+| [SockgResidueManagementEvent](../classes/SockgResidueManagementEvent.md) | A ResidueManagementEvent represents a specific instance of managing agricultu... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:stageAtHarvest](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,76 +46,46 @@ URI: [sockg:stageAtHarvest](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#228839 sockg:stageAtHarvest Maturity |
-| neo4j://graph.individuals#227698 sockg:stageAtHarvest nan |
-
-## Comments
-
-* 1650 occurrences with subject type sockg:ResidueManagementEvent and object type string.
-* 1658 occurrences with subject type sockg:ResidueManagementEvent and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_ResidueManagementEvent | string | sockg:individuals/227674 | Maturity | 1650 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:stageAtHarvest |
-| native | soc-kg/main/:sockg_stageAtHarvest |
-
+* [https://lod.nal.usda.gov/nalt/1790](https://lod.nal.usda.gov/nalt/1790)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_stageAtHarvest
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1650 occurrences with subject type sockg:ResidueManagementEvent and object type
-  string.
-- 1658 occurrences with subject type sockg:ResidueManagementEvent and object type
-  xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 1650
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#228839 sockg:stageAtHarvest Maturity
-- value: neo4j://graph.individuals#227698 sockg:stageAtHarvest nan
-from_schema: soc-kg/main
+- object:
+    example_object: Maturity
+    example_object_type: string
+    example_predicate: sockg:stageAtHarvest
+    example_subject: sockg:individuals/227674
+    example_subject_type: sockg_ResidueManagementEvent
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/1790
 rank: 1000
+domain: sockg_ResidueManagementEvent
 slot_uri: sockg:stageAtHarvest
 alias: sockg_stageAtHarvest
 domain_of:
 - sockg_ResidueManagementEvent
-range: Any
-any_of:
-- range: string
-- range: double
+range: string
 
 ```
 </details>
