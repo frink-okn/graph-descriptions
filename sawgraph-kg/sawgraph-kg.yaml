@@ -2,17 +2,3839 @@ classes:
   Any:
     class_uri: linkml:Any
     name: Any
+  __B1483a74553e695096917e036e115647b:
+    class_uri: _:B1483a74553e695096917e036e115647b
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B1483a74553e695096917e036e115647b
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B1b94d9e751ffada9b24c828d0fa88371:
+    class_uri: _:B1b94d9e751ffada9b24c828d0fa88371
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B1b94d9e751ffada9b24c828d0fa88371
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B1eaf986f62f70bde3920fc763297ba4b:
+    class_uri: _:B1eaf986f62f70bde3920fc763297ba4b
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B1eaf986f62f70bde3920fc763297ba4b
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B1ffef1721522ea97317ca3d21cc91321:
+    class_uri: _:B1ffef1721522ea97317ca3d21cc91321
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B1ffef1721522ea97317ca3d21cc91321
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B23425bf5230ed3f0a2b0b82dec367e8f:
+    class_uri: _:B23425bf5230ed3f0a2b0b82dec367e8f
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B23425bf5230ed3f0a2b0b82dec367e8f
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B24024cc76538e14c82cfb661dd95c7c5:
+    class_uri: _:B24024cc76538e14c82cfb661dd95c7c5
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B24024cc76538e14c82cfb661dd95c7c5
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B24a040a7021a80fc8674da60002a9bbb:
+    class_uri: _:B24a040a7021a80fc8674da60002a9bbb
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B24a040a7021a80fc8674da60002a9bbb
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B2730f2af22d7cf2c7c536afa3ae544f0:
+    class_uri: _:B2730f2af22d7cf2c7c536afa3ae544f0
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B2730f2af22d7cf2c7c536afa3ae544f0
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B2d418fab187385bd606ec62687307b1d:
+    class_uri: _:B2d418fab187385bd606ec62687307b1d
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B2d418fab187385bd606ec62687307b1d
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B2d99c95457974d6f9fb58deb3a118f49:
+    class_uri: _:B2d99c95457974d6f9fb58deb3a118f49
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B2d99c95457974d6f9fb58deb3a118f49
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B30a0210e4eb2be605e9c8aa266b7cbcb:
+    class_uri: _:B30a0210e4eb2be605e9c8aa266b7cbcb
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B30a0210e4eb2be605e9c8aa266b7cbcb
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B335a8314292bca04de01bd4955e802e1:
+    class_uri: _:B335a8314292bca04de01bd4955e802e1
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B335a8314292bca04de01bd4955e802e1
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B36b0a72b8872baed4a40000d5986c377:
+    class_uri: _:B36b0a72b8872baed4a40000d5986c377
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B36b0a72b8872baed4a40000d5986c377
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B38e98ce7b6a9cb5f107c4c56f0112816:
+    class_uri: _:B38e98ce7b6a9cb5f107c4c56f0112816
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B38e98ce7b6a9cb5f107c4c56f0112816
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B419c153b0694b19dcd0985a027e36047:
+    class_uri: _:B419c153b0694b19dcd0985a027e36047
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B419c153b0694b19dcd0985a027e36047
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B4df387098a2ec498fe4c9889d19680a0:
+    class_uri: _:B4df387098a2ec498fe4c9889d19680a0
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B4df387098a2ec498fe4c9889d19680a0
+    title: No class (entity type) name specified
+  __B5450a728d327bd7f7b45de9d6c1b529a:
+    class_uri: _:B5450a728d327bd7f7b45de9d6c1b529a
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B5450a728d327bd7f7b45de9d6c1b529a
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B54b5f5e01e0d6114012a8c907ebde248:
+    class_uri: _:B54b5f5e01e0d6114012a8c907ebde248
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B54b5f5e01e0d6114012a8c907ebde248
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B5607086f33c54a4646efef9c335f862f:
+    class_uri: _:B5607086f33c54a4646efef9c335f862f
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B5607086f33c54a4646efef9c335f862f
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B581729715d2e5ec31d13eb92e3ae65ee:
+    class_uri: _:B581729715d2e5ec31d13eb92e3ae65ee
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B581729715d2e5ec31d13eb92e3ae65ee
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B67805ec5bd3eda8874b4da4c0a71e2e8:
+    class_uri: _:B67805ec5bd3eda8874b4da4c0a71e2e8
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B67805ec5bd3eda8874b4da4c0a71e2e8
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B6913f0a64a969f89379ad1e1a3c4555b:
+    class_uri: _:B6913f0a64a969f89379ad1e1a3c4555b
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B6913f0a64a969f89379ad1e1a3c4555b
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B6dcafad52653df01ffc5fa148fcced59:
+    class_uri: _:B6dcafad52653df01ffc5fa148fcced59
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B6dcafad52653df01ffc5fa148fcced59
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B709ba4ee2400c3fc15e588a36df5632c:
+    class_uri: _:B709ba4ee2400c3fc15e588a36df5632c
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B709ba4ee2400c3fc15e588a36df5632c
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B7932e9f68cdfd808a50fdfbc87c85c2b:
+    class_uri: _:B7932e9f68cdfd808a50fdfbc87c85c2b
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B7932e9f68cdfd808a50fdfbc87c85c2b
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B7ef8187b17840ef0d6f45450522574f7:
+    class_uri: _:B7ef8187b17840ef0d6f45450522574f7
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B7ef8187b17840ef0d6f45450522574f7
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B81f92e9d7e7cac642ff2b606c9f7d1ec:
+    class_uri: _:B81f92e9d7e7cac642ff2b606c9f7d1ec
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B81f92e9d7e7cac642ff2b606c9f7d1ec
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B84ceb77c10fc712e401a99fbe04b7a9f:
+    class_uri: _:B84ceb77c10fc712e401a99fbe04b7a9f
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B84ceb77c10fc712e401a99fbe04b7a9f
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B8522458ef2f2e40e4afb4bd91ab88a9d:
+    class_uri: _:B8522458ef2f2e40e4afb4bd91ab88a9d
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B8522458ef2f2e40e4afb4bd91ab88a9d
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B8d04ad0a26d4a6a61624df4fd91edceb:
+    class_uri: _:B8d04ad0a26d4a6a61624df4fd91edceb
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B8d04ad0a26d4a6a61624df4fd91edceb
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B8eeffadcbc87bf1c3c8b336949511c95:
+    class_uri: _:B8eeffadcbc87bf1c3c8b336949511c95
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B8eeffadcbc87bf1c3c8b336949511c95
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B8f47ce435f2b9c134a7ffac198bf078d:
+    class_uri: _:B8f47ce435f2b9c134a7ffac198bf078d
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B8f47ce435f2b9c134a7ffac198bf078d
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B9362bc7e83c4c1d5e727f7229aea0e2d:
+    class_uri: _:B9362bc7e83c4c1d5e727f7229aea0e2d
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B9362bc7e83c4c1d5e727f7229aea0e2d
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __B9f31ca9f35a91576f71fc72908ee4e45:
+    class_uri: _:B9f31ca9f35a91576f71fc72908ee4e45
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B9f31ca9f35a91576f71fc72908ee4e45
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Ba5e3973278c320e9ffd522698a4f6b8f:
+    class_uri: _:Ba5e3973278c320e9ffd522698a4f6b8f
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Ba5e3973278c320e9ffd522698a4f6b8f
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bab3dbb7902df047f8570f020aaf054f8:
+    class_uri: _:Bab3dbb7902df047f8570f020aaf054f8
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bab3dbb7902df047f8570f020aaf054f8
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bacee5c9e5fe038bcd9c797216a2c4479:
+    class_uri: _:Bacee5c9e5fe038bcd9c797216a2c4479
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bacee5c9e5fe038bcd9c797216a2c4479
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bacf11574d8097401059545e3ba6ee138:
+    class_uri: _:Bacf11574d8097401059545e3ba6ee138
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bacf11574d8097401059545e3ba6ee138
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bb2541ed38115ffb21c15caa44c291e94:
+    class_uri: _:Bb2541ed38115ffb21c15caa44c291e94
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bb2541ed38115ffb21c15caa44c291e94
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bb7ea8495fe0f0eb30c6791a44bae6260:
+    class_uri: _:Bb7ea8495fe0f0eb30c6791a44bae6260
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bb7ea8495fe0f0eb30c6791a44bae6260
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bb99fec0fdfbc1dbeb687e7ee67fe3b5b:
+    class_uri: _:Bb99fec0fdfbc1dbeb687e7ee67fe3b5b
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bb99fec0fdfbc1dbeb687e7ee67fe3b5b
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bbb3a6793902ef3c4d4b0de0abd986dab:
+    class_uri: _:Bbb3a6793902ef3c4d4b0de0abd986dab
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bbb3a6793902ef3c4d4b0de0abd986dab
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bc795c539e911ed6b75b0c0a88cc45db2:
+    class_uri: _:Bc795c539e911ed6b75b0c0a88cc45db2
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bc795c539e911ed6b75b0c0a88cc45db2
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bc84e7c2a4044ca808c5fdb41182d8900:
+    class_uri: _:Bc84e7c2a4044ca808c5fdb41182d8900
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bc84e7c2a4044ca808c5fdb41182d8900
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bcc136235d4e8366760248327dc238f91:
+    class_uri: _:Bcc136235d4e8366760248327dc238f91
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bcc136235d4e8366760248327dc238f91
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bd0d5c163cc610ec2e00bed055e859873:
+    class_uri: _:Bd0d5c163cc610ec2e00bed055e859873
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bd0d5c163cc610ec2e00bed055e859873
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bd4885b209ca88bbb246400b13e6f29c3:
+    class_uri: _:Bd4885b209ca88bbb246400b13e6f29c3
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bd4885b209ca88bbb246400b13e6f29c3
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bd755156ed55cee759006883d868887a9:
+    class_uri: _:Bd755156ed55cee759006883d868887a9
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bd755156ed55cee759006883d868887a9
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bd8970d2e1ee0fbfe5b56aa7e6533aeb5:
+    class_uri: _:Bd8970d2e1ee0fbfe5b56aa7e6533aeb5
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bd8970d2e1ee0fbfe5b56aa7e6533aeb5
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bd98fe8bdc6e04c95195453fbd99b19cd:
+    class_uri: _:Bd98fe8bdc6e04c95195453fbd99b19cd
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bd98fe8bdc6e04c95195453fbd99b19cd
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bdade61746207b7d5e7681a34d237864e:
+    class_uri: _:Bdade61746207b7d5e7681a34d237864e
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bdade61746207b7d5e7681a34d237864e
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bdd6ad2e61fa700d24fc1b922f806ab10:
+    class_uri: _:Bdd6ad2e61fa700d24fc1b922f806ab10
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bdd6ad2e61fa700d24fc1b922f806ab10
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Be739d8ba5c2b46b3967f46b720ce1114:
+    class_uri: _:Be739d8ba5c2b46b3967f46b720ce1114
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Be739d8ba5c2b46b3967f46b720ce1114
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Be8ad0efeb5426bd583cac763bf8fdfc4:
+    class_uri: _:Be8ad0efeb5426bd583cac763bf8fdfc4
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Be8ad0efeb5426bd583cac763bf8fdfc4
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bf29130a308417bf79b46f0c94518d43b:
+    class_uri: _:Bf29130a308417bf79b46f0c94518d43b
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bf29130a308417bf79b46f0c94518d43b
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bf5204ef8b2e575cfa2cbfb8de779269c:
+    class_uri: _:Bf5204ef8b2e575cfa2cbfb8de779269c
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bf5204ef8b2e575cfa2cbfb8de779269c
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bf54afc215ba247f734d50f8491c6ebba:
+    class_uri: _:Bf54afc215ba247f734d50f8491c6ebba
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bf54afc215ba247f734d50f8491c6ebba
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bf8fa92a3b6d58ff73b560adcda84d181:
+    class_uri: _:Bf8fa92a3b6d58ff73b560adcda84d181
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bf8fa92a3b6d58ff73b560adcda84d181
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bfe2a62e5cb89846f6ac0b3088bf2a87c:
+    class_uri: _:Bfe2a62e5cb89846f6ac0b3088bf2a87c
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bfe2a62e5cb89846f6ac0b3088bf2a87c
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  __Bffb36e86e3ed18cecd88feb70ed24133:
+    class_uri: _:Bffb36e86e3ed18cecd88feb70ed24133
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bffb36e86e3ed18cecd88feb70ed24133
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  coso_AggregateContaminantMeasurement:
+    class_uri: coso:AggregateContaminantMeasurement
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: coso_AggregateContaminantMeasurement
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  coso_AnalysisMethod:
+    class_uri: coso:AnalysisMethod
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: coso_AnalysisMethod
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  coso_ContaminantAbsoluteMeasurement:
+    class_uri: coso:ContaminantAbsoluteMeasurement
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_ContaminantMeasurement
+    name: coso_ContaminantAbsoluteMeasurement
+    title: Contaminant Absolute Measurement
+  coso_ContaminantAbsoluteQuantityKind:
+    class_uri: coso:ContaminantAbsoluteQuantityKind
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_ContaminationProperty
+    name: coso_ContaminantAbsoluteQuantityKind
+    title: Contaminant Absolute Quantity Kind
+  coso_ContaminantConcentrationQuantityKind:
+    annotations:
+      count: 4
+    class_uri: coso:ContaminantConcentrationQuantityKind
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_ContaminantRelativeQuantityKind
+    name: coso_ContaminantConcentrationQuantityKind
+    slot_usage:
+      rdfs_label:
+        annotations:
+          string: 2
+    slots:
+    - rdfs_label
+    title: Contaminant Concentration Quantity Kind
+  coso_ContaminantMassQuantityKind:
+    class_uri: coso:ContaminantMassQuantityKind
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_ContaminantAbsoluteQuantityKind
+    name: coso_ContaminantMassQuantityKind
+    title: Contaminant Quantity Kind
+  coso_ContaminantMeasurement:
+    class_uri: coso:ContaminantMeasurement
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: coso_ContaminantMeasurement
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  coso_ContaminantObservation:
+    class_uri: coso:ContaminantObservation
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: sosa_Observation
+    name: coso_ContaminantObservation
+    title: Contaminant Observation
+  coso_ContaminantRelativeMeasurement:
+    class_uri: coso:ContaminantRelativeMeasurement
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: coso_ContaminantRelativeMeasurement
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  coso_ContaminantRelativeQuantityKind:
+    class_uri: coso:ContaminantRelativeQuantityKind
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: coso_ContaminantRelativeQuantityKind
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  coso_ContaminantReleaseObservation:
+    class_uri: coso:ContaminantReleaseObservation
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_ContaminantObservation
+    name: coso_ContaminantReleaseObservation
+    title: Contaminant Release Observation
+  coso_ContaminantSampleObservation:
+    class_uri: coso:ContaminantSampleObservation
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: coso_ContaminantSampleObservation
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  coso_ContaminantVolumeQuantityKind:
+    annotations:
+      count: 2
+    class_uri: coso:ContaminantVolumeQuantityKind
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_ContaminantAbsoluteQuantityKind
+    name: coso_ContaminantVolumeQuantityKind
+    slots:
+    - rdfs_label
+    title: Contaminant Volume Quantity Kind
+  coso_ContaminationProperty:
+    class_uri: coso:ContaminationProperty
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: coso_ContaminationProperty
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  coso_DetectQuantityValue:
+    annotations:
+      count: 142177
+    class_uri: coso:DetectQuantityValue
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_QuantityValue
+    name: coso_DetectQuantityValue
+    slot_usage:
+      qudt_enumeratedValue:
+        annotations:
+          qudt_EnumeratedValue: 416
+      qudt_hasUnit:
+        annotations:
+          qudt_Unit: 142557
+      qudt_numericValue:
+        annotations:
+          decimal: 142502
+          double: 127
+    slots:
+    - qudt_enumeratedValue
+    - qudt_numericValue
+    - qudt_hasUnit
+    title: Detect Quantity Value
+  coso_DetectionLimit:
+    class_uri: coso:DetectionLimit
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: coso_DetectionLimit
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  coso_Feature:
+    class_uri: coso:Feature
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: sosa_FeatureOfInterest
+    name: coso_Feature
+    title: Feature
+  coso_MaterialSample:
+    class_uri: coso:MaterialSample
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: coso_MaterialSample
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  coso_MonitoredFeature:
+    class_uri: coso:MonitoredFeature
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_ReleaseFeature
+    name: coso_MonitoredFeature
+    title: Monitored Feature
+  coso_NonDetectQuantityValue:
+    annotations:
+      count: 435002
+    class_uri: coso:NonDetectQuantityValue
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_QuantityValue
+    name: coso_NonDetectQuantityValue
+    slot_usage:
+      qudt_enumeratedValue:
+        annotations:
+          qudt_EnumeratedValue: 435002
+      qudt_hasUnit:
+        annotations:
+          qudt_Unit: 416
+      qudt_numericValue:
+        annotations:
+          decimal: 427
+    slots:
+    - qudt_enumeratedValue
+    - qudt_numericValue
+    - qudt_hasUnit
+    title: Non-Detect Quantity Value
+  coso_ObservationAnnotation:
+    class_uri: coso:ObservationAnnotation
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: coso_ObservationAnnotation
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  coso_Point:
+    class_uri: coso:Point
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: sosa_FeatureOfInterest
+    name: coso_Point
+    title: Point
+  coso_QuantitationLimit:
+    class_uri: coso:QuantitationLimit
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: coso_QuantitationLimit
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  coso_QuantityValue:
+    class_uri: coso:QuantityValue
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: coso_QuantityValue
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  coso_ReleaseFeature:
+    class_uri: coso:ReleaseFeature
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_Feature
+    name: coso_ReleaseFeature
+    title: Release Feature
+  coso_ReleasePoint:
+    class_uri: coso:ReleasePoint
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_Point
+    name: coso_ReleasePoint
+    title: Release Point
+  coso_ResultQualifier:
+    class_uri: coso:ResultQualifier
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: coso_ResultQualifier
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  coso_SampleAnnotation:
+    class_uri: coso:SampleAnnotation
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: coso_SampleAnnotation
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  coso_SampleMaterialType:
+    class_uri: coso:SampleMaterialType
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: coso_SampleMaterialType
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  coso_SamplePoint:
+    class_uri: coso:SamplePoint
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: coso_SamplePoint
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  coso_SampledFeature:
+    class_uri: coso:SampledFeature
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: coso_SampledFeature
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  coso_SingleContaminantMeasurement:
+    class_uri: coso:SingleContaminantMeasurement
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: coso_SingleContaminantMeasurement
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  coso_Substance:
+    annotations:
+      count: 96
+    class_uri: coso:Substance
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: coso_Substance
+    slots:
+    - skos_altLabel
+    - rdfs_label
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  coso_SubstanceCollection:
+    annotations:
+      count: 5
+    class_uri: coso:SubstanceCollection
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: __B8d04ad0a26d4a6a61624df4fd91edceb
+    name: coso_SubstanceCollection
+    slots:
+    - skos_altLabel
+    - rdfs_label
+    title: Substance Collection
+  geo_Feature:
+    class_uri: geo:Feature
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: geo_Feature
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  geo_Geometry:
+    annotations:
+      count: 6236
+    class_uri: geo:Geometry
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: geo_Geometry
+    slots:
+    - geo_asWKT
+    title: No class (type) name specified
+  kwgo_S2Cell_Level13:
+    annotations:
+      count: 86332
+    class_uri: kwgo:S2Cell_Level13
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: kwgo_S2Cell_Level13
+    slot_usage:
+      kwgo_sfContains:
+        annotations:
+          me_egad_EGAD-PFAS-Site: 883
+          me_egad_EGAD-SamplePoint: 4502
+          me_egad_EGAD-Site: 840
+    slots:
+    - kwgo_sfContains
+    title: No class (type) name specified
+  me_egad_EGAD-AggregatePFAS-Concentration:
+    annotations:
+      count: 37677
+    class_uri: me_egad:EGAD-AggregatePFAS-Concentration
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_ContaminantRelativeMeasurement
+    name: me_egad_EGAD-AggregatePFAS-Concentration
+    slot_usage:
+      me_egad_labQualifier:
+        annotations:
+          me_egad_EGAD-ConcentrationQualifier: 24690
+          owl_NamedIndividual: 24690
+      me_egad_methodDetectionLimit:
+        annotations:
+          uri: 37689
+      me_egad_reportingLimit:
+        annotations:
+          uri: 37857
+      me_egad_validationLevel:
+        annotations:
+          me_egad_EGAD-ValidationLevel: 37474
+          owl_NamedIndividual: 37474
+          uri: 77
+      me_egad_validationQualifier:
+        annotations:
+          me_egad_EGAD-ConcentrationQualifier: 28510
+          owl_NamedIndividual: 28510
+          uri: 8
+      qudt_hasQuantityKind:
+        annotations:
+          uri: 37677
+      qudt_quantityValue:
+        annotations:
+          coso_DetectQuantityValue: 26256
+          coso_NonDetectQuantityValue: 11474
+      rdfs_label:
+        annotations:
+          string: 37686
+    slots:
+    - rdfs_label
+    - qudt_hasQuantityKind
+    - me_egad_labQualifier
+    - me_egad_validationLevel
+    - me_egad_methodDetectionLimit
+    - me_egad_validationQualifier
+    - qudt_quantityValue
+    - me_egad_reportingLimit
+    title: No class (entity type) name specified
+  me_egad_EGAD-AnalysisMethod:
+    annotations:
+      count: 13
+    class_uri: me_egad:EGAD-AnalysisMethod
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_AnalysisMethod
+    name: me_egad_EGAD-AnalysisMethod
+    slots:
+    - rdfs_label
+    title: EGAD - Analysis Method
+  me_egad_EGAD-ConcentrationQualifier:
+    annotations:
+      count: 56
+    class_uri: me_egad:EGAD-ConcentrationQualifier
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_ResultQualifier
+    name: me_egad_EGAD-ConcentrationQualifier
+    slots:
+    - rdfs_label
+    title: EGAD - Lab Qualifier
+  me_egad_EGAD-MethodDetectionLimit:
+    class_uri: me_egad:EGAD-MethodDetectionLimit
+    conforms_to: No schema conformance document specified
+    description: Areas with land use activities which are potential and/or actual
+      sources of contamination and areas where biological and surface water sampling
+      is conducted.
+    is_a: coso_DetectionLimit
+    name: me_egad_EGAD-MethodDetectionLimit
+    title: EGAD - Method Detection Limit
+  me_egad_EGAD-PFAS-Observation:
+    annotations:
+      count: 576763
+    class_uri: me_egad:EGAD-PFAS-Observation
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_ContaminantSampleObservation
+    name: me_egad_EGAD-PFAS-Observation
+    slot_usage:
+      coso_analysisMethod:
+        annotations:
+          me_egad_EGAD-AnalysisMethod: 577606
+          owl_NamedIndividual: 577606
+      coso_analyzedSample:
+        annotations:
+          me_egad_EGAD-Sample: 576763
+      coso_hasFeatureOfInterest:
+        annotations:
+          me_egad_EGAD-SampledFeature: 577112
+      coso_hasResult:
+        annotations:
+          me_egad_EGAD-AggregatePFAS-Concentration: 37677
+          me_egad_EGAD-SinglePFAS-Concentration: 539086
+      coso_observedAtSamplePoint:
+        annotations:
+          me_egad_EGAD-SamplePoint: 577112
+      coso_observedTime:
+        annotations:
+          date: 576799
+      coso_ofSubstance:
+        annotations:
+          uri: 576763
+      me_egad_resultType:
+        annotations:
+          me_egad_EGAD-ResultType: 576763
+          owl_NamedIndividual: 576763
+      prov_wasAttributedTo:
+        annotations:
+          prov_Organization: 576127
+          uri: 636
+      rdfs_label:
+        annotations:
+          string: 576850
+      sosa_resultTime:
+        annotations:
+          date: 578715
+    slots:
+    - coso_analysisMethod
+    - coso_observedAtSamplePoint
+    - rdfs_label
+    - prov_wasAttributedTo
+    - coso_hasResult
+    - coso_observedTime
+    - coso_ofSubstance
+    - me_egad_resultType
+    - coso_hasFeatureOfInterest
+    - sosa_resultTime
+    - coso_analyzedSample
+    title: EGAD - PFAS Observation
+  me_egad_EGAD-PFAS-ParameterName:
+    annotations:
+      count: 101
+    class_uri: me_egad:EGAD-PFAS-ParameterName
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_Substance
+    name: me_egad_EGAD-PFAS-ParameterName
+    slots:
+    - skos_altLabel
+    - rdfs_label
+    title: EGAD - PFAS Parameter Name
+  me_egad_EGAD-PFAS-Site:
+    annotations:
+      count: 957
+    class_uri: me_egad:EGAD-PFAS-Site
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: me_egad_EGAD-Site
+    name: me_egad_EGAD-PFAS-Site
+    slot_usage:
+      geo_hasDefaultGeometry:
+        annotations:
+          geo_Geometry: 1725
+          sf_#Point: 1725
+      geo_hasGeometry:
+        annotations:
+          geo_Geometry: 1725
+          sf_#Point: 1725
+      kwgo_sfWithin:
+        annotations:
+          kwgo_S2Cell_Level13: 883
+          uri: 43
+      me_egad_siteNumber:
+        annotations:
+          integer: 45
+      me_egad_siteType:
+        annotations:
+          me_egad_EGAD-SiteType: 1318
+          owl_NamedIndividual: 1318
+      owl_sameAs:
+        annotations:
+          uri: 13
+      rdfs_label:
+        annotations:
+          string: 45
+      us_sdwis_hasPWSID:
+        annotations:
+          string: 13
+    slots:
+    - rdfs_label
+    - us_sdwis_hasPWSID
+    - kwgo_sfWithin
+    - me_egad_siteNumber
+    - geo_hasGeometry
+    - me_egad_siteType
+    - owl_sameAs
+    - geo_hasDefaultGeometry
+    title: EGAD - PFAS Site
+  me_egad_EGAD-ReportingLimit:
+    class_uri: me_egad:EGAD-ReportingLimit
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_QuantitationLimit
+    name: me_egad_EGAD-ReportingLimit
+    title: EGAD - Reporting Limit
+  me_egad_EGAD-ResultType:
+    annotations:
+      count: 1
+    class_uri: me_egad:EGAD-ResultType
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_ObservationAnnotation
+    name: me_egad_EGAD-ResultType
+    slots:
+    - rdfs_label
+    title: EGAD - Result Type
+  me_egad_EGAD-Sample:
+    annotations:
+      count: 23024
+    class_uri: me_egad:EGAD-Sample
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_MaterialSample
+    name: me_egad_EGAD-Sample
+    slot_usage:
+      coso_fromSamplePoint:
+        annotations:
+          me_egad_EGAD-SamplePoint: 23037
+      coso_sampleOfMaterialType:
+        annotations:
+          me_egad_EGAD-SampleMaterialType: 23004
+          me_egad_EGAD-SampleMaterialTypeQualifier: 1269
+          owl_NamedIndividual: 24273
+      dct_identifier:
+        annotations:
+          string: 23031
+      me_egad_sampleCollectionLocation:
+        annotations:
+          me_egad_EGAD-SampleDetailedLocation: 15556
+          owl_NamedIndividual: 15556
+      me_egad_sampleCollectionMethod:
+        annotations:
+          me_egad_EGAD-SampleCollectionMethod: 22690
+          owl_NamedIndividual: 22690
+      me_egad_sampleTreatmentStatus:
+        annotations:
+          me_egad_EGAD-SampleTreatmentStatus: 15610
+          owl_NamedIndividual: 15610
+      prov_wasAttributedTo:
+        annotations:
+          prov_Agent: 20826
+      rdfs_label:
+        annotations:
+          string: 23031
+    slots:
+    - me_egad_sampleCollectionMethod
+    - coso_fromSamplePoint
+    - rdfs_label
+    - dct_identifier
+    - prov_wasAttributedTo
+    - me_egad_sampleCollectionLocation
+    - me_egad_sampleTreatmentStatus
+    - coso_sampleOfMaterialType
+    title: EGAD - Sample
+  me_egad_EGAD-SampleCollectionMethod:
+    annotations:
+      count: 25
+    class_uri: me_egad:EGAD-SampleCollectionMethod
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_SampleAnnotation
+    name: me_egad_EGAD-SampleCollectionMethod
+    slots:
+    - rdfs_label
+    title: EGAD - Sample Collection Method
+  me_egad_EGAD-SampleDetailedLocation:
+    annotations:
+      count: 23
+    class_uri: me_egad:EGAD-SampleDetailedLocation
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_SampleAnnotation
+    name: me_egad_EGAD-SampleDetailedLocation
+    slots:
+    - rdfs_label
+    title: EGAD - Sample Detailed Location
+  me_egad_EGAD-SampleMaterialType:
+    annotations:
+      count: 46
+    class_uri: me_egad:EGAD-SampleMaterialType
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_SampleMaterialType
+    name: me_egad_EGAD-SampleMaterialType
+    slots:
+    - rdfs_label
+    title: EGAD - Sample Material Type
+  me_egad_EGAD-SampleMaterialTypeQualifier:
+    annotations:
+      count: 32
+    class_uri: me_egad:EGAD-SampleMaterialTypeQualifier
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_SampleMaterialType
+    name: me_egad_EGAD-SampleMaterialTypeQualifier
+    slots:
+    - rdfs_label
+    title: EGAD - Sample Material Type Qualifier
+  me_egad_EGAD-SamplePoint:
+    annotations:
+      count: 8324
+    class_uri: me_egad:EGAD-SamplePoint
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_SamplePoint
+    name: me_egad_EGAD-SamplePoint
+    slot_usage:
+      coso_pointFromFeature:
+        annotations:
+          me_egad_EGAD-SampledFeature: 8040
+      dct_identifier:
+        annotations:
+          integer: 8040
+      geo_hasDefaultGeometry:
+        annotations:
+          geo_Geometry: 4511
+          sf_#Point: 4511
+      geo_hasGeometry:
+        annotations:
+          geo_Geometry: 4511
+          sf_#Point: 4511
+      kwgo_sfWithin:
+        annotations:
+          kwgo_S2Cell_Level13: 4502
+          uri: 4509
+      me_egad_associatedSite:
+        annotations:
+          me_egad_EGAD-PFAS-Site: 8405
+          me_egad_EGAD-Site: 8208
+      me_egad_samplePointType:
+        annotations:
+          me_egad_EGAD-SamplePointType: 8021
+          owl_NamedIndividual: 8021
+          uri: 8324
+      rdfs_label:
+        annotations:
+          string: 8324
+      skos_altLabel:
+        annotations:
+          string: 8040
+    slots:
+    - me_egad_associatedSite
+    - coso_pointFromFeature
+    - rdfs_label
+    - dct_identifier
+    - skos_altLabel
+    - kwgo_sfWithin
+    - geo_hasGeometry
+    - me_egad_samplePointType
+    - geo_hasDefaultGeometry
+    title: EGAD - Sample Point
+  me_egad_EGAD-SamplePointType:
+    annotations:
+      count: 65
+    class_uri: me_egad:EGAD-SamplePointType
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: qudt_Enumeration
+    name: me_egad_EGAD-SamplePointType
+    slots:
+    - rdfs_label
+    title: EGAD - Sample Point Type
+  me_egad_EGAD-SampleTreatmentStatus:
+    annotations:
+      count: 2
+    class_uri: me_egad:EGAD-SampleTreatmentStatus
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_SampleAnnotation
+    name: me_egad_EGAD-SampleTreatmentStatus
+    slots:
+    - rdfs_label
+    title: EGAD - Sample Treatment Status
+  me_egad_EGAD-SampledFeature:
+    annotations:
+      count: 8040
+    class_uri: me_egad:EGAD-SampledFeature
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_SampledFeature
+    name: me_egad_EGAD-SampledFeature
+    slot_usage:
+      me_egad_sampledFeatureType:
+        annotations:
+          me_egad_EGAD-SamplePointType: 8021
+          owl_NamedIndividual: 8021
+      rdfs_label:
+        annotations:
+          string: 8040
+    slots:
+    - me_egad_sampledFeatureType
+    - rdfs_label
+    title: EGAD - Sampled Feature
+  me_egad_EGAD-SinglePFAS-Concentration:
+    annotations:
+      count: 539086
+    class_uri: me_egad:EGAD-SinglePFAS-Concentration
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_SingleContaminantMeasurement
+    name: me_egad_EGAD-SinglePFAS-Concentration
+    slot_usage:
+      me_egad_labQualifier:
+        annotations:
+          me_egad_EGAD-ConcentrationQualifier: 464360
+          owl_NamedIndividual: 464360
+      me_egad_methodDetectionLimit:
+        annotations:
+          uri: 540043
+      me_egad_reportingLimit:
+        annotations:
+          uri: 541392
+      me_egad_validationLevel:
+        annotations:
+          me_egad_EGAD-ValidationLevel: 528882
+          owl_NamedIndividual: 528882
+          uri: 1316
+      me_egad_validationQualifier:
+        annotations:
+          me_egad_EGAD-ConcentrationQualifier: 477283
+          owl_NamedIndividual: 477283
+          uri: 45
+      qudt_hasQuantityKind:
+        annotations:
+          coso_ContaminantConcentrationQuantityKind: 539086
+          owl_NamedIndividual: 539086
+      qudt_quantityValue:
+        annotations:
+          coso_DetectQuantityValue: 115921
+          coso_NonDetectQuantityValue: 423528
+      rdfs_label:
+        annotations:
+          string: 539164
+    slots:
+    - rdfs_label
+    - qudt_hasQuantityKind
+    - me_egad_labQualifier
+    - me_egad_validationLevel
+    - me_egad_methodDetectionLimit
+    - me_egad_validationQualifier
+    - qudt_quantityValue
+    - me_egad_reportingLimit
+    title: No class (entity type) name specified
+  me_egad_EGAD-Site:
+    annotations:
+      count: 912
+    class_uri: me_egad:EGAD-Site
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: me_egad_EGAD-Site
+    slot_usage:
+      geo_hasDefaultGeometry:
+        annotations:
+          geo_Geometry: 1682
+          sf_#Point: 1682
+      geo_hasGeometry:
+        annotations:
+          geo_Geometry: 1682
+          sf_#Point: 1682
+      kwgo_sfWithin:
+        annotations:
+          kwgo_S2Cell_Level13: 840
+          uri: 840
+      me_egad_siteNumber:
+        annotations:
+          integer: 912
+      me_egad_siteType:
+        annotations:
+          me_egad_EGAD-SiteType: 1318
+          owl_NamedIndividual: 1318
+      owl_sameAs:
+        annotations:
+          uri: 48
+      rdfs_label:
+        annotations:
+          string: 915
+      us_sdwis_hasPWSID:
+        annotations:
+          string: 48
+    slots:
+    - rdfs_label
+    - us_sdwis_hasPWSID
+    - kwgo_sfWithin
+    - me_egad_siteNumber
+    - geo_hasGeometry
+    - me_egad_siteType
+    - owl_sameAs
+    - geo_hasDefaultGeometry
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  me_egad_EGAD-SiteType:
+    annotations:
+      count: 62
+    class_uri: me_egad:EGAD-SiteType
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: qudt_Enumeration
+    name: me_egad_EGAD-SiteType
+    slots:
+    - skos_definition
+    - rdfs_label
+    title: EGAD - Site Type
+  me_egad_EGAD-ValidationLevel:
+    annotations:
+      count: 6
+    class_uri: me_egad:EGAD-ValidationLevel
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: coso_ResultQualifier
+    name: me_egad_EGAD-ValidationLevel
+    slots:
+    - rdfs_label
+    title: EGAD - Validation Level
+  owl_AnnotationProperty:
+    class_uri: ''
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    from_schema: https://raw.githubusercontent.com/frink-okn/schema-gen/refs/heads/main/owl
+    name: owl_AnnotationProperty
+    title: No class (type) name specified
+  owl_Class:
+    class_uri: ''
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    from_schema: https://raw.githubusercontent.com/frink-okn/schema-gen/refs/heads/main/owl
+    name: owl_Class
+    title: No class (type) name specified
+  owl_DatatypeProperty:
+    class_uri: ''
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    from_schema: https://raw.githubusercontent.com/frink-okn/schema-gen/refs/heads/main/owl
+    name: owl_DatatypeProperty
+    title: No class (type) name specified
+  owl_NamedIndividual:
+    annotations:
+      count: 438
+    class_uri: owl:NamedIndividual
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    from_schema: https://raw.githubusercontent.com/frink-okn/schema-gen/refs/heads/main/owl
+    name: owl_NamedIndividual
+    slot_usage:
+      rdfs_label:
+        annotations:
+          string: 436
+      skos_altLabel:
+        annotations:
+          string: 104
+      skos_definition:
+        annotations:
+          string: 62
+    slots:
+    - skos_definition
+    - skos_altLabel
+    - rdfs_label
+    title: No class (type) name specified
+  owl_ObjectProperty:
+    class_uri: ''
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    from_schema: https://raw.githubusercontent.com/frink-okn/schema-gen/refs/heads/main/owl
+    name: owl_ObjectProperty
+    title: No class (type) name specified
+  owl_Ontology:
+    class_uri: ''
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    from_schema: https://raw.githubusercontent.com/frink-okn/schema-gen/refs/heads/main/owl
+    name: owl_Ontology
+    title: No class (type) name specified
+  owl_Restriction:
+    annotations:
+      count: 62
+    class_uri: owl:Restriction
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    from_schema: https://raw.githubusercontent.com/frink-okn/schema-gen/refs/heads/main/owl
+    name: owl_Restriction
+    slot_usage:
+      owl_allValuesFrom:
+        annotations:
+          owl_Class: 13
+          uri: 7
+      owl_maxCardinality:
+        annotations:
+          int32: 7
+          integer: 20
+          unsignedinteger: 4
+      owl_minCardinality:
+        annotations:
+          int32: 2
+          unsignedinteger: 9
+      owl_onProperty:
+        annotations:
+          owl_AnnotationProperty: 1
+          owl_DatatypeProperty: 2
+          owl_ObjectProperty: 8
+          uri: 51
+    slots:
+    - owl_allValuesFrom
+    - owl_onProperty
+    - owl_maxCardinality
+    - owl_minCardinality
+    title: No class (type) name specified
+  prov_Agent:
+    annotations:
+      count: 343
+    class_uri: prov:Agent
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    from_schema: https://raw.githubusercontent.com/linkml/linkml-prov/refs/heads/main/model/schema/prov
+    name: prov_Agent
+    slot_usage:
+      rdfs_label:
+        annotations:
+          string: 369
+    slots:
+    - rdfs_label
+    title: No class (type) name specified
+  prov_Organization:
+    annotations:
+      count: 33
+    class_uri: prov:Organization
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    from_schema: https://raw.githubusercontent.com/linkml/linkml-prov/refs/heads/main/model/schema/prov
+    name: prov_Organization
+    slot_usage:
+      rdfs_label:
+        annotations:
+          string: 33
+    slots:
+    - rdfs_label
+    title: No class (type) name specified
+  qudt_Concept:
+    class_uri: qudt:Concept
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: qudt_Concept
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  qudt_Datatype:
+    class_uri: qudt:Datatype
+    conforms_to: No schema conformance document specified
+    description: A data type is a definition of a set of values (for example, "all
+      integers between 0 and 10"), and the allowable operations on those values; the
+      meaning of the data; and the way values of that type can be stored. Some types
+      are primitive - built-in to the language, with no visible internal structure
+      - e.g. Boolean; others are composite - constructed from one or more other types
+      (of either kind) - e.g. lists, arrays, structures, unions. Object-oriented programming
+      extends this with classes which encapsulate both the structure of a type and
+      the operations that can be performed on it. Some languages provide strong typing,
+      others allow implicit type conversion and/or explicit type conversion.
+    is_a: qudt_Concept
+    name: qudt_Datatype
+    source: http://qudt.org/2.1/schema/qudt
+    title: QUDT Datatype
+  qudt_EnumeratedValue:
+    annotations:
+      count: 1
+    class_uri: qudt:EnumeratedValue
+    conforms_to: No schema conformance document specified
+    description: "<p>This class is for all enumerated and/or coded values.  For example,\
+      \ it contains the dimension objects that are the basis elements in some abstract\
+      \ vector space associated with a quantity kind system. Another use is for the\
+      \ base dimensions for quantity systems. Each quantity kind system that defines\
+      \ a base set has a corresponding ordered enumeration whose elements are the\
+      \ dimension objects for the base quantity kinds. The order of the dimensions\
+      \ in the enumeration determines the canonical order of the basis elements in\
+      \ the corresponding abstract vector space.</p>\r\u240A\r\u240A<p>An enumeration\
+      \ is a set of literals from which a single value is selected. Each literal can\
+      \ have a tag as an integer within a standard encoding appropriate to the range\
+      \ of integer values. Consistency of enumeration types will allow them, and the\
+      \ enumerated values, to be referred to unambiguously either through symbolic\
+      \ name or encoding. Enumerated values are also controlled vocabularies and as\
+      \ such need to be standardized. Without this consistency enumeration literals\
+      \ can be stated differently and result in  data conflicts and misinterpretations.</p>\r\
+      \u240A\r\u240A<p>The tags are a set of positive whole numbers, not necessarily\
+      \ contiguous and having no numerical significance, each corresponding to the\
+      \ associated literal identifier. An order attribute can also be given on the\
+      \ enumeration elements. An enumeration can itself be a member of an enumeration.\
+      \ This allows enumerations to be enumerated in a selection. Enumerations are\
+      \ also subclasses of Scalar Datatype. This allows them to be used as the reference\
+      \ of a datatype specification.</p>"
+    from_schema: https://raw.githubusercontent.com/frink-okn/schema-gen/refs/heads/main/qudt
+    is_a: qudt_Verifiable
+    name: qudt_EnumeratedValue
+    slot_usage:
+      dct_description:
+        annotations:
+          string: 1
+      qudt_abbreviation:
+        annotations:
+          string: 1
+      rdfs_label:
+        annotations:
+          string: 1
+    slots:
+    - qudt_abbreviation
+    - dct_description
+    - rdfs_label
+    source: http://qudt.org/2.1/schema/qudt
+    title: Enumerated Value
+  qudt_Enumeration:
+    class_uri: qudt:Enumeration
+    conforms_to: No schema conformance document specified
+    description: "<p>An enumeration is a set of literals from which a single value\
+      \ is selected. Each literal can have a tag as an integer within a standard encoding\
+      \ appropriate to the range of integer values. Consistency of enumeration types\
+      \ will allow them, and the enumerated values, to be referred to unambiguously\
+      \ either through symbolic name or encoding. Enumerated values are also controlled\
+      \ vocabularies and as such need to be standardized. Without this consistency\
+      \ enumeration literals can be stated differently and result in  data conflicts\
+      \ and misinterpretations.</p>\r\u240A\r\u240A<p>The tags are a set of positive\
+      \ whole numbers, not necessarily contiguous and having no numerical significance,\
+      \ each corresponding to the associated literal identifier. An order attribute\
+      \ can also be given on the enumeration elements. An enumeration can itself be\
+      \ a member of an enumeration. This allows enumerations to be enumerated in a\
+      \ selection. Enumerations are also subclasses of <em>Scalar Datatype</em>. This\
+      \ allows them to be used as the reference of a datatype specification.</p>"
+    is_a: qudt_Concept
+    name: qudt_Enumeration
+    source: http://qudt.org/2.1/schema/qudt
+    title: Enumeration
+  qudt_NumericUnion:
+    class_uri: ''
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    from_schema: https://raw.githubusercontent.com/frink-okn/schema-gen/refs/heads/main/qudt
+    name: qudt_NumericUnion
+    title: No class (type) name specified
+  qudt_Quantifiable:
+    class_uri: qudt:Quantifiable
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: qudt_Quantifiable
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  qudt_Quantity:
+    class_uri: qudt:Quantity
+    conforms_to: No schema conformance document specified
+    description: "<p class=\"lm-para\">A <b>quantity</b> is the measurement of an\
+      \ observable property of a particular object, event, or physical system. \r\u240A\
+      \  A quantity is always associated with the context of measurement (i.e. the\
+      \ thing measured, the measured value, the accuracy of measurement, etc.) whereas\
+      \ the \r\u240A  underlying <b>quantity kind</b> is independent of any particular\
+      \ measurement. Thus, length is a quantity kind while the height of a rocket\
+      \ is a specific \r\u240A  quantity of length; its magnitude that may be expressed\
+      \ in meters, feet, inches, etc. Examples of physical quantities include physical\
+      \ constants, such as \r\u240A  the speed of light in a vacuum, Planck's constant,\
+      \ the electric permittivity of free space, and the fine structure constant.\
+      \ </p>\r\u240A<p class=\"lm-para\">In other words, quantities are quantifiable\
+      \ aspects of the world, such as the duration of a movie, the distance between\
+      \ two points, \r\u240Avelocity of a car, the pressure of the atmosphere, and\
+      \ a person's weight; and units are used to describe their numerical measure.</p>\
+      \ \r\u240A<p class=\"lm-para\">Many <b>quantity kinds</b> are related to each\
+      \ other by various physical laws, and as a result, the associated units of some\
+      \ quantity \r\u240Akinds can be expressed as products (or ratios) of powers\
+      \ of other quantity kinds (e.g., momentum is mass times velocity and velocity\
+      \ is defined as distance \r\u240Adivided by time). In this way, some quantities\
+      \ can be calculated from other measured quantities using their associations\
+      \ to the quantity kinds in these \r\u240Aexpressions. These quantity kind relationships\
+      \ are also discussed in dimensional analysis. Those that cannot be so expressed\
+      \ can be regarded \r\u240Aas \"fundamental\" in this sense.</p>\r\u240A<p class=\"\
+      lm-para\">A quantity is distinguished from a \"quantity kind\" in that the former\
+      \ carries a value and the latter is a type specifier.</p>"
+    is_a: qudt_Quantifiable
+    name: qudt_Quantity
+    source: http://qudt.org/2.1/schema/qudt
+    title: Quantity
+  qudt_QuantityKind:
+    class_uri: qudt:QuantityKind
+    conforms_to: No schema conformance document specified
+    description: A <b>Quantity Kind</b> is any observable property that can be  measured
+      and quantified numerically. Familiar examples include physical properties such
+      as length, mass, time, force, energy, power, electric charge, etc. Less familiar
+      examples include currency, interest rate, price to earning ratio, and information
+      capacity.
+    is_a: stad_QualityKind
+    name: qudt_QuantityKind
+    source: http://qudt.org/2.1/schema/qudt
+    title: Quantity Kind
+  qudt_QuantityValue:
+    class_uri: qudt:QuantityValue
+    conforms_to: No schema conformance document specified
+    description: A <i>Quantity Value</i> expresses the magnitude and kind of a quantity
+      and is given by the product of a numerical value <code>n</code> and a unit of
+      measure <code>U</code>. The number multiplying the unit is referred to as the
+      numerical value of the quantity expressed in that unit. Refer to <a href="http://physics.nist.gov/Pubs/SP811/sec07.html">NIST
+      SP 811 section 7</a> for more on quantity values.
+    is_a: qudt_Quantifiable
+    name: qudt_QuantityValue
+    source: http://qudt.org/2.1/schema/qudt
+    title: Quantity value
+  qudt_Unit:
+    annotations:
+      count: 8
+    class_uri: qudt:Unit
+    conforms_to: No schema conformance document specified
+    description: A unit of measure, or unit, is a particular quantity value that has
+      been chosen as a scale for measuring other quantities the same kind (more generally
+      of equivalent dimension). For example, the meter is a quantity of length that
+      has been rigorously defined and standardized by the BIPM (International Board
+      of Weights and Measures). Any measurement of the length can be expressed as
+      a number multiplied by the unit meter. More formally, the value of a physical
+      quantity Q with respect to a unit (U) is expressed as the scalar multiple of
+      a real number (n) and U, as  $Q = nU$.
+    from_schema: https://raw.githubusercontent.com/frink-okn/schema-gen/refs/heads/main/qudt
+    is_a: qudt_Verifiable
+    name: qudt_Unit
+    slot_usage:
+      dct_description:
+        annotations:
+          rdf_HTML: 4
+      owl_sameAs:
+        annotations:
+          qudt_Unit: 1
+      qudt_applicableSystem:
+        annotations:
+          uri: 20
+      qudt_conversionMultiplier:
+        annotations:
+          decimal: 5
+      qudt_conversionMultiplierSN:
+        annotations:
+          double: 5
+      qudt_hasDimensionVector:
+        annotations:
+          uri: 5
+      qudt_hasQuantityKind:
+        annotations:
+          uri: 13
+      qudt_iec61360Code:
+        annotations:
+          string: 3
+      qudt_plainTextDescription:
+        annotations:
+          string: 3
+      qudt_qkdvDenominator:
+        annotations:
+          uri: 1
+      qudt_qkdvNumerator:
+        annotations:
+          uri: 1
+      qudt_symbol:
+        annotations:
+          string: 6
+      qudt_ucumCode:
+        annotations:
+          qudt_UCUMcs: 11
+      qudt_uneceCommonCode:
+        annotations:
+          string: 3
+      rdfs_isDefinedBy:
+        annotations:
+          owl_Ontology: 2
+          uri: 4
+      rdfs_label:
+        annotations:
+          string: 14
+    slots:
+    - qudt_ucumCode
+    - qudt_qkdvDenominator
+    - qudt_hasDimensionVector
+    - qudt_uneceCommonCode
+    - qudt_conversionMultiplier
+    - qudt_hasQuantityKind
+    - rdfs_label
+    - dct_description
+    - qudt_qkdvNumerator
+    - qudt_conversionMultiplierSN
+    - rdfs_isDefinedBy
+    - qudt_applicableSystem
+    - qudt_plainTextDescription
+    - owl_sameAs
+    - qudt_symbol
+    - qudt_iec61360Code
+    source: http://qudt.org/2.1/schema/qudt
+    title: Unit
+  qudt_Verifiable:
+    class_uri: qudt:Verifiable
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: qudt_Verifiable
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  rdfs_Datatype:
+    annotations:
+      count: 2
+    class_uri: ''
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    from_schema: https://raw.githubusercontent.com/frink-okn/schema-gen/refs/heads/main/rdf-rdfs
+    name: rdfs_Datatype
+    title: No class (type) name specified
+  sf_#Point:
+    annotations:
+      count: 6236
+    class_uri: sf:#Point
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: sf_#Point
+    slot_usage:
+      geo_asWKT:
+        annotations:
+          geo_wktLiteral: 6236
+    slots:
+    - geo_asWKT
+    title: No class (type) name specified
+  sosa_FeatureOfInterest:
+    class_uri: sosa:FeatureOfInterest
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: sosa_FeatureOfInterest
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  sosa_Observation:
+    class_uri: sosa:Observation
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: sosa_Observation
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  sosa_Procedure:
+    class_uri: sosa:Procedure
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: sosa_Procedure
+    title: No class (entity type) name specified
+  sosa_Property:
+    class_uri: sosa:Property
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: sosa_Property
+    title: No class (entity type) name specified
+  sosa_Result:
+    class_uri: sosa:Result
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: sosa_Result
+    title: No class (entity type) name specified
+  sosa_Sample:
+    class_uri: sosa:Sample
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: sosa_Sample
+    title: No class (entity type) name specified
+  stad_DataTransformation:
+    class_uri: stad:DataTransformation
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: stad_DataTransformation
+    title: No class (entity type) name specified -- this class is noted as being in
+      the domain or range of a slot in this graph, but the class has not itself been
+      defined.
+  stad_DataValue:
+    class_uri: stad:DataValue
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: stad_DataValue
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  stad_Datapoint:
+    class_uri: stad:Datapoint
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: stad_Datapoint
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  stad_QualityKind:
+    class_uri: stad:QualityKind
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: stad_QualityKind
+    title: No class (entity type) name specified
+  stad_Quantity:
+    class_uri: stad:Quantity
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: stad_Quantity
+    title: No class (entity type) name specified
+  stad_SingleData:
+    class_uri: stad:SingleData
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: stad_Quantity
+    name: stad_SingleData
+    title: No class (entity type) name specified
+  stad_StatisticalAggregateData:
+    class_uri: stad:StatisticalAggregateData
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: stad_Quantity
+    name: stad_StatisticalAggregateData
+    title: No class (entity type) name specified
+  stad_StatisticalQuantityKind:
+    annotations:
+      count: 2
+    class_uri: stad:StatisticalQuantityKind
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: stad_QualityKind
+    name: stad_StatisticalQuantityKind
+    title: No class (entity type) name specified
 conforms_to: No schema conformance document specified
-created_on: '2025-05-14T19:25:18.704646'
-description: No schema description specified
+contributors:
+- http://orcid.org/0000-0002-5331-5052
+- http://orcid.org/0000-0003-3547-8058
+- https://orcid.org/0000-0003-3271-6700
+created_by: https://orcid.org/0000-0003-3271-6700
+created_on: '2025-03-30'
+description: the Contaminant Observation and Samples Ontology (ContaminOSO) developed
+  as part of the AIKnowsPFAS and SAWGraph projects.
 id: sawgraph-kg
 imports:
 - linkml:types
-last_updated_on: '2025-05-14T19:25:18.704646'
+- https://raw.githubusercontent.com/frink-okn/schema-gen/refs/heads/main/rdf-rdfs
+- https://raw.githubusercontent.com/frink-okn/schema-gen/refs/heads/main/qudt
+- https://raw.githubusercontent.com/linkml/linkml-model/refs/heads/main/linkml_model/model/schema/extended_types
+- https://raw.githubusercontent.com/linkml/linkml-prov/refs/heads/main/model/schema/prov
+- https://raw.githubusercontent.com/frink-okn/schema-gen/refs/heads/main/owl
+last_updated_on: '2025-03-30'
 license: No schema license specified
 name: sawgraph-kg
 prefixes:
+  coso: http://w3id.org/coso/v1/contaminoso#
+  dcgeoid: https://datacommons.org/browser/geoId/
+  dct: http://purl.org/dc/terms/
+  geo: http://www.opengis.net/ont/geosparql#
+  kwgo: http://stko-kwg.geog.ucsb.edu/lod/ontology/
+  kwgr: http://stko-kwg.geog.ucsb.edu/lod/resource/
   linkml: https://w3id.org/linkml/
-slots: {}
-title: sawgraph
+  me_egad: http://sawgraph.spatialai.org/v1/me-egad#
+  me_egad_data: http://sawgraph.spatialai.org/v1/me-egad-data#
+  owl: http://www.w3.org/2002/07/owl#
+  prov: http://www.w3.org/ns/prov#
+  qudt: http://qudt.org/schema/qudt/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  sf: http://www.opengis.net/ont/sf
+  skos: http://www.w3.org/2004/02/skos/core#
+  sosa: http://www.w3.org/ns/sosa/
+  stad: http://purl.org/spatialai/stad/v2/core/
+  us_sdwis: http://sawgraph.spatialai.org/v1/us-sdwis#
+  xsd: http://www.w3.org/2001/XMLSchema#
+slots:
+  coso_analysisMethod:
+    annotations:
+      count: 577606
+    any_of:
+    - range: me_egad_EGAD-AnalysisMethod
+    - range: owl_NamedIndividual
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: me_egad_data:testMethod.E537M
+        example_object_type: me_egad_EGAD-AnalysisMethod
+        example_predicate: coso:analysisMethod
+        example_subject: me_egad_data:observation.AAL210144001R.20210112.1763231
+        example_subject_type: me_egad_EGAD-PFAS-Observation
+    - object:
+        example_object: me_egad_data:testMethod.E537M
+        example_object_type: owl_NamedIndividual
+        example_predicate: coso:analysisMethod
+        example_subject: me_egad_data:observation.AAL210144001R.20210112.1763231
+        example_subject_type: me_egad_EGAD-PFAS-Observation
+    range: Any
+    slot_uri: coso:analysisMethod
+  coso_analyzedSample:
+    annotations:
+      count: 576763
+    any_of:
+    - range: coso_MaterialSample
+    - range: me_egad_EGAD-Sample
+    description: No slot (predicate) description specified
+    domain: coso_ContaminantSampleObservation
+    examples:
+    - object:
+        example_object: me_egad_data:sample.AAL210144001R.20210112
+        example_object_type: me_egad_EGAD-Sample
+        example_predicate: coso:analyzedSample
+        example_subject: me_egad_data:observation.AAL210144001R.20210112.1763231
+        example_subject_type: me_egad_EGAD-PFAS-Observation
+    name: coso_analyzedSample
+    range: Any
+    slot_uri: coso:analyzedSample
+    subproperty_of: coso_hasAnyFeatureOfInterest
+    title: analyzed sample
+  coso_casNumber:
+    annotations:
+      count: 93
+      string: 93
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '120226600'
+        example_object_type: string
+        example_predicate: coso:casNumber
+        example_subject: me_egad:parameter.10-2_FTS_A
+        example_subject_type: None
+    name: coso_casNumber
+    range: string
+    slot_uri: coso:casNumber
+    subproperty_of: coso_substanceID
+    title: cas number
+  coso_fromSamplePoint:
+    annotations:
+      count: 23037
+    any_of:
+    - range: me_egad_EGAD-SamplePoint
+    - range: coso_SamplePoint
+    description: No slot (predicate) description specified
+    domain: coso_MaterialSample
+    examples:
+    - object:
+        example_object: me_egad_data:samplePoint.146496
+        example_object_type: me_egad_EGAD-SamplePoint
+        example_predicate: coso:fromSamplePoint
+        example_subject: me_egad_data:sample.AAL210144001R.20210112
+        example_subject_type: me_egad_EGAD-Sample
+    name: coso_fromSamplePoint
+    range: Any
+    slot_uri: coso:fromSamplePoint
+    title: from sample point
+  coso_hasAnyFeatureOfInterest:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: coso_hasAnyFeatureOfInterest
+    range: Any
+    slot_uri: coso:hasAnyFeatureOfInterest
+    title: No slot (predicate) name specified -- this slot is noted as a subproperty
+      of another slot in this graph but has not itself been defined.
+  coso_hasFeatureOfInterest:
+    annotations:
+      count: 577112
+    any_of:
+    - range: me_egad_EGAD-SampledFeature
+    - range: coso_Feature
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: me_egad_data:sampledFeature.146496
+        example_object_type: me_egad_EGAD-SampledFeature
+        example_predicate: coso:hasFeatureOfInterest
+        example_subject: me_egad_data:observation.AAL210144001R.20210112.1763231
+        example_subject_type: me_egad_EGAD-PFAS-Observation
+    name: coso_hasFeatureOfInterest
+    range: Any
+    slot_uri: coso:hasFeatureOfInterest
+    subproperty_of: coso_hasAnyFeatureOfInterest
+    title: has feature of interest
+  coso_hasResult:
+    annotations:
+      count: 576763
+    any_of:
+    - range: me_egad_EGAD-SinglePFAS-Concentration
+    - range: me_egad_EGAD-AggregatePFAS-Concentration
+    - range: coso_ContaminantMeasurement
+    description: No slot (predicate) description specified
+    domain: coso_ContaminantObservation
+    examples:
+    - object:
+        example_object: me_egad_data:result.L210144001R.AA.20210112.1763231
+        example_object_type: me_egad_EGAD-SinglePFAS-Concentration
+        example_predicate: coso:hasResult
+        example_subject: me_egad_data:observation.AAL210144001R.20210112.1763231
+        example_subject_type: me_egad_EGAD-PFAS-Observation
+    - object:
+        example_object: me_egad_data:result.L210144001R.AA.20210112.DEP18010
+        example_object_type: me_egad_EGAD-AggregatePFAS-Concentration
+        example_predicate: coso:hasResult
+        example_subject: me_egad_data:observation.AAL210144001R.20210112.DEP18010
+        example_subject_type: me_egad_EGAD-PFAS-Observation
+    name: coso_hasResult
+    range: Any
+    slot_uri: coso:hasResult
+    subproperty_of: sosa_hasResult
+    title: has result
+  coso_hasResultQualifier:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    domain: coso_ContaminantMeasurement
+    name: coso_hasResultQualifier
+    range: coso_ResultQualifier
+    slot_uri: coso:hasResultQualifier
+    title: has result qualifier
+  coso_isSampleOf:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    domain: coso_MaterialSample
+    name: coso_isSampleOf
+    range: coso_SampledFeature
+    slot_uri: coso:isSampleOf
+    subproperty_of: sosa_isSampleOf
+    title: is sample of
+  coso_measurementUnit:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    domain: coso_ContaminantMeasurement
+    name: coso_measurementUnit
+    range: Any
+    slot_uri: coso:measurementUnit
+    title: measurement unit
+  coso_measurementValue:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    domain: coso_ContaminantMeasurement
+    name: coso_measurementValue
+    range: Any
+    slot_uri: coso:measurementValue
+    title: measurement value
+  coso_observationAnnotation:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    domain: coso_ContaminantObservation
+    name: coso_observationAnnotation
+    range: coso_ObservationAnnotation
+    slot_uri: coso:observationAnnotation
+    title: observation annotation
+  coso_observedAtPoint:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    domain: coso_ContaminantObservation
+    name: coso_observedAtPoint
+    range: coso_Point
+    slot_uri: coso:observedAtPoint
+    subproperty_of: coso_hasAnyFeatureOfInterest
+    title: observed at point
+  coso_observedAtReleasePoint:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    domain: coso_ContaminantReleaseObservation
+    name: coso_observedAtReleasePoint
+    range: coso_ReleasePoint
+    slot_uri: coso:observedAtReleasePoint
+    subproperty_of: coso_observedAtPoint
+    title: observed at release point
+  coso_observedAtSamplePoint:
+    annotations:
+      count: 577112
+    any_of:
+    - range: me_egad_EGAD-SamplePoint
+    - range: coso_SamplePoint
+    description: No slot (predicate) description specified
+    domain: coso_ContaminantSampleObservation
+    examples:
+    - object:
+        example_object: me_egad_data:samplePoint.146496
+        example_object_type: me_egad_EGAD-SamplePoint
+        example_predicate: coso:observedAtSamplePoint
+        example_subject: me_egad_data:observation.AAL210144001R.20210112.1763231
+        example_subject_type: me_egad_EGAD-PFAS-Observation
+    name: coso_observedAtSamplePoint
+    range: Any
+    slot_uri: coso:observedAtSamplePoint
+    subproperty_of: coso_observedAtPoint
+    title: observed at sample point
+  coso_observedProperty:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    domain: coso_ContaminantObservation
+    name: coso_observedProperty
+    range: coso_ContaminationProperty
+    slot_uri: coso:observedProperty
+    subproperty_of: sosa_observedProperty
+    title: observed property
+  coso_observedTime:
+    annotations:
+      count: 576799
+    description: No slot (predicate) description specified
+    domain: coso_ContaminantObservation
+    examples:
+    - object:
+        example_object: '2021-01-12'
+        example_object_type: date
+        example_predicate: coso:observedTime
+        example_subject: me_egad_data:observation.AAL210144001R.20210112.1763231
+        example_subject_type: me_egad_EGAD-PFAS-Observation
+    name: coso_observedTime
+    range: date
+    slot_uri: coso:observedTime
+    title: observed time
+  coso_ofSubstance:
+    annotations:
+      count: 576763
+    any_of:
+    - range: __B4df387098a2ec498fe4c9889d19680a0
+    - range: uri
+    description: No slot (predicate) description specified
+    domain: coso_ContaminantObservation
+    examples:
+    - object:
+        example_object: me_egad:parameter.PFOS_A
+        example_object_type: uri
+        example_predicate: coso:ofSubstance
+        example_subject: me_egad_data:observation.AAL210144001R.20210112.1763231
+        example_subject_type: me_egad_EGAD-PFAS-Observation
+    name: coso_ofSubstance
+    range: Any
+    slot_uri: coso:ofSubstance
+    title: of substance
+  coso_pointFromFeature:
+    annotations:
+      count: 8040
+    any_of:
+    - range: me_egad_EGAD-SampledFeature
+    - range: coso_Feature
+    description: No slot (predicate) description specified
+    domain: coso_Point
+    examples:
+    - object:
+        example_object: me_egad_data:sampledFeature.100410
+        example_object_type: me_egad_EGAD-SampledFeature
+        example_predicate: coso:pointFromFeature
+        example_subject: me_egad_data:samplePoint.100410
+        example_subject_type: me_egad_EGAD-SamplePoint
+    name: coso_pointFromFeature
+    range: Any
+    slot_uri: coso:pointFromFeature
+    title: point from feature
+  coso_releaseFeature:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    domain: coso_ContaminantReleaseObservation
+    name: coso_releaseFeature
+    range: coso_ReleaseFeature
+    slot_uri: coso:releaseFeature
+    subproperty_of: coso_hasFeatureOfInterest
+    title: release feature
+  coso_resultAnnotation:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: coso_resultAnnotation
+    range: Any
+    slot_uri: coso:resultAnnotation
+    title: result annotation
+  coso_sampleAnnotation:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    domain: coso_MaterialSample
+    name: coso_sampleAnnotation
+    range: coso_SampleAnnotation
+    slot_uri: coso:sampleAnnotation
+    title: sample annotation
+  coso_sampleOfMaterialType:
+    annotations:
+      count: 24273
+    any_of:
+    - range: me_egad_EGAD-SampleMaterialType
+    - range: owl_NamedIndividual
+    - range: me_egad_EGAD-SampleMaterialTypeQualifier
+    - range: coso_SampleMaterialType
+    description: No slot (predicate) description specified
+    domain: coso_MaterialSample
+    examples:
+    - object:
+        example_object: me_egad_data:sampleMaterialType.MLK
+        example_object_type: me_egad_EGAD-SampleMaterialType
+        example_predicate: coso:sampleOfMaterialType
+        example_subject: me_egad_data:sample.AAL210144001R.20210112
+        example_subject_type: me_egad_EGAD-Sample
+    - object:
+        example_object: me_egad_data:sampleMaterialType.MLK
+        example_object_type: owl_NamedIndividual
+        example_predicate: coso:sampleOfMaterialType
+        example_subject: me_egad_data:sample.AAL210144001R.20210112
+        example_subject_type: me_egad_EGAD-Sample
+    - object:
+        example_object: me_egad_data:sampleMaterialTypeQualifier.TMR
+        example_object_type: me_egad_EGAD-SampleMaterialTypeQualifier
+        example_predicate: coso:sampleOfMaterialType
+        example_subject: me_egad_data:sample.AAL211038502R.20210303
+        example_subject_type: me_egad_EGAD-Sample
+    name: coso_sampleOfMaterialType
+    range: Any
+    slot_uri: coso:sampleOfMaterialType
+    title: sample of material type
+  coso_sampledFeature:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    domain: coso_ContaminantSampleObservation
+    name: coso_sampledFeature
+    range: coso_SampledFeature
+    slot_uri: coso:sampledFeature
+    subproperty_of: coso_hasFeatureOfInterest
+    title: sampled feature
+  coso_substanceID:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: coso_substanceID
+    range: Any
+    slot_uri: coso:substanceID
+    subproperty_of: dct_identifier
+    title: substance identifier
+  coso_usedAnalysisMethod:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    domain: coso_ContaminantObservation
+    name: coso_usedAnalysisMethod
+    range: coso_AnalysisMethod
+    slot_uri: coso:usedAnalysisMethod
+    subproperty_of: sosa_usedProcedure
+    title: used analysis method
+  dct_contributor:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: dct_contributor
+    range: Any
+    slot_uri: dct:contributor
+    title: No slot (predicate) name specified
+  dct_created:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: dct_created
+    range: Any
+    slot_uri: dct:created
+    title: No slot (predicate) name specified
+  dct_creator:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: dct_creator
+    range: Any
+    slot_uri: dct:creator
+    title: No slot (predicate) name specified
+  dct_description:
+    annotations:
+      count: 5
+    any_of:
+    - range: rdf_HTML
+    - range: string
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: mass ratio as 0.000000001-fold of the SI base unit kilogram
+          divided by the SI base unit kilogram
+        example_object_type: rdf_HTML
+        example_predicate: dct:description
+        example_subject: http://qudt.org/vocab/unit/MicroGM-PER-KiloGM
+        example_subject_type: qudt_Unit
+    - object:
+        example_object: Non-Detect Value
+        example_object_type: string
+        example_predicate: dct:description
+        example_subject: coso:non-detect
+        example_subject_type: qudt_EnumeratedValue
+    name: dct_description
+    range: Any
+    slot_uri: dct:description
+    title: No slot (predicate) name specified
+  dct_identifier:
+    annotations:
+      count: 31071
+    any_of:
+    - range: string
+    - range: integer
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: BETH WILLIAMS ACF
+        example_object_type: string
+        example_predicate: dct:identifier
+        example_subject: me_egad_data:sample.AAL210144001R.20210112
+        example_subject_type: me_egad_EGAD-Sample
+    - object:
+        example_object: '100410'
+        example_object_type: integer
+        example_predicate: dct:identifier
+        example_subject: me_egad_data:samplePoint.100410
+        example_subject_type: me_egad_EGAD-SamplePoint
+    name: dct_identifier
+    range: Any
+    slot_uri: dct:identifier
+    title: No slot (predicate) name specified -- this slot is noted as a subproperty
+      of another slot in this graph but has not itself been defined.
+  dct_issued:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: dct_issued
+    range: Any
+    slot_uri: dct:issued
+    title: No slot (predicate) name specified
+  dct_modified:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: dct_modified
+    range: Any
+    slot_uri: dct:modified
+    title: No slot (predicate) name specified
+  dct_publisher:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: dct_publisher
+    range: Any
+    slot_uri: dct:publisher
+    title: No slot (predicate) name specified
+  dct_source:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: dct_source
+    range: Any
+    slot_uri: dct:source
+    title: No slot (predicate) name specified
+  dct_title:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: dct_title
+    range: Any
+    slot_uri: dct:title
+    title: No slot (predicate) name specified
+  geo_asWKT:
+    annotations:
+      count: 6236
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: POINT (-68.83827616 44.79828519)
+        example_object_type: geo_wktLiteral
+        example_predicate: geo:asWKT
+        example_subject: me_egad_data:egad.site.geometry.100843
+        example_subject_type: sf_#Point
+    range: geo_wktLiteral
+    slot_uri: geo:asWKT
+  geo_hasDefaultGeometry:
+    annotations:
+      count: 6236
+    any_of:
+    - range: geo_Geometry
+    - range: sf_#Point
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: me_egad_data:samplePoint.geometry.100410
+        example_object_type: geo_Geometry
+        example_predicate: geo:hasDefaultGeometry
+        example_subject: me_egad_data:samplePoint.100410
+        example_subject_type: me_egad_EGAD-SamplePoint
+    - object:
+        example_object: me_egad_data:samplePoint.geometry.100410
+        example_object_type: sf_#Point
+        example_predicate: geo:hasDefaultGeometry
+        example_subject: me_egad_data:samplePoint.100410
+        example_subject_type: me_egad_EGAD-SamplePoint
+    - object:
+        example_object: me_egad_data:egad.site.geometry.100843
+        example_object_type: geo_Geometry
+        example_predicate: geo:hasDefaultGeometry
+        example_subject: me_egad_data:site.100843
+        example_subject_type: me_egad_EGAD-PFAS-Site
+    - object:
+        example_object: me_egad_data:egad.site.geometry.100843
+        example_object_type: sf_#Point
+        example_predicate: geo:hasDefaultGeometry
+        example_subject: me_egad_data:site.100843
+        example_subject_type: me_egad_EGAD-PFAS-Site
+    - object:
+        example_object: me_egad_data:egad.site.geometry.100843
+        example_object_type: geo_Geometry
+        example_predicate: geo:hasDefaultGeometry
+        example_subject: me_egad_data:site.100843
+        example_subject_type: me_egad_EGAD-Site
+    - object:
+        example_object: me_egad_data:egad.site.geometry.100843
+        example_object_type: sf_#Point
+        example_predicate: geo:hasDefaultGeometry
+        example_subject: me_egad_data:site.100843
+        example_subject_type: me_egad_EGAD-Site
+    range: Any
+    slot_uri: geo:hasDefaultGeometry
+  geo_hasGeometry:
+    annotations:
+      count: 6236
+    any_of:
+    - range: geo_Geometry
+    - range: sf_#Point
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: me_egad_data:samplePoint.geometry.100410
+        example_object_type: geo_Geometry
+        example_predicate: geo:hasGeometry
+        example_subject: me_egad_data:samplePoint.100410
+        example_subject_type: me_egad_EGAD-SamplePoint
+    - object:
+        example_object: me_egad_data:samplePoint.geometry.100410
+        example_object_type: sf_#Point
+        example_predicate: geo:hasGeometry
+        example_subject: me_egad_data:samplePoint.100410
+        example_subject_type: me_egad_EGAD-SamplePoint
+    - object:
+        example_object: me_egad_data:egad.site.geometry.100843
+        example_object_type: geo_Geometry
+        example_predicate: geo:hasGeometry
+        example_subject: me_egad_data:site.100843
+        example_subject_type: me_egad_EGAD-PFAS-Site
+    - object:
+        example_object: me_egad_data:egad.site.geometry.100843
+        example_object_type: sf_#Point
+        example_predicate: geo:hasGeometry
+        example_subject: me_egad_data:site.100843
+        example_subject_type: me_egad_EGAD-PFAS-Site
+    - object:
+        example_object: me_egad_data:egad.site.geometry.100843
+        example_object_type: geo_Geometry
+        example_predicate: geo:hasGeometry
+        example_subject: me_egad_data:site.100843
+        example_subject_type: me_egad_EGAD-Site
+    - object:
+        example_object: me_egad_data:egad.site.geometry.100843
+        example_object_type: sf_#Point
+        example_predicate: geo:hasGeometry
+        example_subject: me_egad_data:site.100843
+        example_subject_type: me_egad_EGAD-Site
+    range: Any
+    slot_uri: geo:hasGeometry
+  http___sawgraph.spatialai.org_v1_sdwis#pwsidNumber:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: 'Uniquely identifies the water system within a specific state. Format:
+      SSXXXXXXXXXX where: SS = the Federal Information Processing Standard (FIPS)
+      Pub 5-2 State abbreviation in which the water system is located, or the region
+      number of the EPA region responsible for an Indian reservation, and XXXXXXXXXX
+      = the water system identification code assigned by the State.'
+    name: http___sawgraph.spatialai.org_v1_sdwis#pwsidNumber
+    range: Any
+    slot_uri: http://sawgraph.spatialai.org/v1/sdwis#pwsidNumber
+    subproperty_of: dct_identifier
+    title: public system water identifier
+  kwgo_sfContains:
+    annotations:
+      count: 10777
+      me_egad_EGAD-PFAS-Site: 883
+      me_egad_EGAD-SamplePoint: 4509
+      me_egad_EGAD-Site: 840
+    any_of:
+    - range: me_egad_EGAD-PFAS-Site
+    - range: me_egad_EGAD-SamplePoint
+    - range: me_egad_EGAD-Site
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: me_egad_data:samplePoint.148241
+        example_object_type: me_egad_EGAD-SamplePoint
+        example_predicate: kwgo:sfContains
+        example_subject: kwgr:s2.level13.5522341972783661056
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: me_egad_data:site.32387
+        example_object_type: me_egad_EGAD-PFAS-Site
+        example_predicate: kwgo:sfContains
+        example_subject: kwgr:s2.level13.5522342797417381888
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: me_egad_data:site.32386
+        example_object_type: me_egad_EGAD-Site
+        example_predicate: kwgo:sfContains
+        example_subject: kwgr:s2.level13.5522349016530026496
+        example_subject_type: kwgo_S2Cell_Level13
+    - object:
+        example_object: me_egad_data:samplePoint.136911
+        example_object_type: me_egad_EGAD-SamplePoint
+        example_predicate: kwgo:sfContains
+        example_subject: kwgr:s2.level13.9801268321847345152
+        example_subject_type: None
+    - object:
+        example_object: me_egad_data:site.47292
+        example_object_type: me_egad_EGAD-PFAS-Site
+        example_predicate: kwgo:sfContains
+        example_subject: kwgr:s2.level13.9935758178975219712
+        example_subject_type: None
+    - object:
+        example_object: me_egad_data:site.47292
+        example_object_type: me_egad_EGAD-Site
+        example_predicate: kwgo:sfContains
+        example_subject: kwgr:s2.level13.9935758178975219712
+        example_subject_type: None
+    range: Any
+    slot_uri: kwgo:sfContains
+  kwgo_sfWithin:
+    annotations:
+      count: 10777
+    any_of:
+    - range: uri
+    - range: kwgo_S2Cell_Level13
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: kwgr:s2.level13.5525380644965711872
+        example_object_type: kwgo_S2Cell_Level13
+        example_predicate: kwgo:sfWithin
+        example_subject: me_egad_data:samplePoint.100410
+        example_subject_type: me_egad_EGAD-SamplePoint
+    - object:
+        example_object: dcgeoid:2302778255
+        example_object_type: uri
+        example_predicate: kwgo:sfWithin
+        example_subject: me_egad_data:samplePoint.100410
+        example_subject_type: me_egad_EGAD-SamplePoint
+    - object:
+        example_object: kwgr:s2.level13.5525436170302914560
+        example_object_type: kwgo_S2Cell_Level13
+        example_predicate: kwgo:sfWithin
+        example_subject: me_egad_data:site.100843
+        example_subject_type: me_egad_EGAD-PFAS-Site
+    - object:
+        example_object: kwgr:s2.level13.5525436170302914560
+        example_object_type: kwgo_S2Cell_Level13
+        example_predicate: kwgo:sfWithin
+        example_subject: me_egad_data:site.100843
+        example_subject_type: me_egad_EGAD-Site
+    - object:
+        example_object: dcgeoid:2301902795
+        example_object_type: uri
+        example_predicate: kwgo:sfWithin
+        example_subject: me_egad_data:site.100843
+        example_subject_type: me_egad_EGAD-Site
+    - object:
+        example_object: dcgeoid:2300724775
+        example_object_type: uri
+        example_predicate: kwgo:sfWithin
+        example_subject: me_egad_data:site.131980
+        example_subject_type: me_egad_EGAD-PFAS-Site
+    range: Any
+    slot_uri: kwgo:sfWithin
+  me_egad_associatedSite:
+    annotations:
+      count: 8405
+    any_of:
+    - range: me_egad_EGAD-PFAS-Site
+    - range: me_egad_EGAD-Site
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: me_egad_data:site.29410
+        example_object_type: me_egad_EGAD-PFAS-Site
+        example_predicate: me_egad:associatedSite
+        example_subject: me_egad_data:samplePoint.100410
+        example_subject_type: me_egad_EGAD-SamplePoint
+    - object:
+        example_object: me_egad_data:site.29410
+        example_object_type: me_egad_EGAD-Site
+        example_predicate: me_egad:associatedSite
+        example_subject: me_egad_data:samplePoint.100410
+        example_subject_type: me_egad_EGAD-SamplePoint
+    name: me_egad_associatedSite
+    range: Any
+    slot_uri: me_egad:associatedSite
+    title: egad - associated site
+  me_egad_dep_chemicalID:
+    annotations:
+      count: 4
+      string: 4
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: DEP18016
+        example_object_type: string
+        example_predicate: me_egad:dep_chemicalID
+        example_subject: me_egad:parameter.SUM_OF_5_PFAS
+        example_subject_type: None
+    name: me_egad_dep_chemicalID
+    range: string
+    slot_uri: me_egad:dep_chemicalID
+    subproperty_of: coso_substanceID
+    title: egad - chemical identifier
+  me_egad_labQualifier:
+    annotations:
+      count: 489050
+    any_of:
+    - range: me_egad_EGAD-ConcentrationQualifier
+    - range: owl_NamedIndividual
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: me_egad_data:concentrationQualifier.U
+        example_object_type: me_egad_EGAD-ConcentrationQualifier
+        example_predicate: me_egad:labQualifier
+        example_subject: me_egad_data:result.101365P.NA.20130507.1763231
+        example_subject_type: me_egad_EGAD-SinglePFAS-Concentration
+    - object:
+        example_object: me_egad_data:concentrationQualifier.U
+        example_object_type: owl_NamedIndividual
+        example_predicate: me_egad:labQualifier
+        example_subject: me_egad_data:result.101365P.NA.20130507.1763231
+        example_subject_type: me_egad_EGAD-SinglePFAS-Concentration
+    - object:
+        example_object: me_egad_data:concentrationQualifier.U
+        example_object_type: me_egad_EGAD-ConcentrationQualifier
+        example_predicate: me_egad:labQualifier
+        example_subject: me_egad_data:result.101365P.NA.20130507.DEP18010
+        example_subject_type: me_egad_EGAD-AggregatePFAS-Concentration
+    - object:
+        example_object: me_egad_data:concentrationQualifier.U
+        example_object_type: owl_NamedIndividual
+        example_predicate: me_egad:labQualifier
+        example_subject: me_egad_data:result.101365P.NA.20130507.DEP18010
+        example_subject_type: me_egad_EGAD-AggregatePFAS-Concentration
+    name: me_egad_labQualifier
+    range: Any
+    slot_uri: me_egad:labQualifier
+    subproperty_of: coso_resultAnnotation
+    title: egad - lab qualifier
+  me_egad_methodDetectionLimit:
+    annotations:
+      count: 577732
+    any_of:
+    - range: uri
+    - range: me_egad_EGAD-MethodDetectionLimit
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: me_egad_data:mdl.1.1.NG/G
+        example_object_type: uri
+        example_predicate: me_egad:methodDetectionLimit
+        example_subject: me_egad_data:result.1028303.ELL.20190405.335671
+        example_subject_type: me_egad_EGAD-SinglePFAS-Concentration
+    - object:
+        example_object: me_egad_data:mdl.1.1.NG/G
+        example_object_type: uri
+        example_predicate: me_egad:methodDetectionLimit
+        example_subject: me_egad_data:result.1028303.ELL.20190405.DEP18010
+        example_subject_type: me_egad_EGAD-AggregatePFAS-Concentration
+    name: me_egad_methodDetectionLimit
+    range: Any
+    slot_uri: me_egad:methodDetectionLimit
+    subproperty_of: coso_resultAnnotation
+    title: egad - method detection limit
+  me_egad_reportingLimit:
+    annotations:
+      count: 579249
+    any_of:
+    - range: uri
+    - range: me_egad_EGAD-ReportingLimit
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: me_egad_data:rl.0.04.UG/L
+        example_object_type: uri
+        example_predicate: me_egad:reportingLimit
+        example_subject: me_egad_data:result.101365P.NA.20130507.1763231
+        example_subject_type: me_egad_EGAD-SinglePFAS-Concentration
+    - object:
+        example_object: me_egad_data:rl.0.02.UG/L
+        example_object_type: uri
+        example_predicate: me_egad:reportingLimit
+        example_subject: me_egad_data:result.101365P.NA.20130507.DEP18010
+        example_subject_type: me_egad_EGAD-AggregatePFAS-Concentration
+    name: me_egad_reportingLimit
+    range: Any
+    slot_uri: me_egad:reportingLimit
+    subproperty_of: coso_resultAnnotation
+    title: egad - reporting limit
+  me_egad_resultType:
+    annotations:
+      count: 576763
+    any_of:
+    - range: me_egad_EGAD-ResultType
+    - range: owl_NamedIndividual
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: me_egad_data:resultType.TRG
+        example_object_type: me_egad_EGAD-ResultType
+        example_predicate: me_egad:resultType
+        example_subject: me_egad_data:observation.AAL210144001R.20210112.1763231
+        example_subject_type: me_egad_EGAD-PFAS-Observation
+    - object:
+        example_object: me_egad_data:resultType.TRG
+        example_object_type: owl_NamedIndividual
+        example_predicate: me_egad:resultType
+        example_subject: me_egad_data:observation.AAL210144001R.20210112.1763231
+        example_subject_type: me_egad_EGAD-PFAS-Observation
+    name: me_egad_resultType
+    range: Any
+    slot_uri: me_egad:resultType
+    subproperty_of: coso_observationAnnotation
+    title: egad - result type
+  me_egad_sampleCollectionLocation:
+    annotations:
+      count: 15556
+    any_of:
+    - range: me_egad_EGAD-SampleDetailedLocation
+    - range: owl_NamedIndividual
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: me_egad_data:sampleLocation.T
+        example_object_type: me_egad_EGAD-SampleDetailedLocation
+        example_predicate: me_egad:sampleCollectionLocation
+        example_subject: me_egad_data:sample.AAL217134101.20211228
+        example_subject_type: me_egad_EGAD-Sample
+    - object:
+        example_object: me_egad_data:sampleLocation.T
+        example_object_type: owl_NamedIndividual
+        example_predicate: me_egad:sampleCollectionLocation
+        example_subject: me_egad_data:sample.AAL217134101.20211228
+        example_subject_type: me_egad_EGAD-Sample
+    name: me_egad_sampleCollectionLocation
+    range: Any
+    slot_uri: me_egad:sampleCollectionLocation
+    subproperty_of: coso_sampleAnnotation
+    title: egad - sample collection location
+  me_egad_sampleCollectionMethod:
+    annotations:
+      count: 22690
+    any_of:
+    - range: me_egad_EGAD-SampleCollectionMethod
+    - range: owl_NamedIndividual
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: me_egad_data:samplingMethod.GS
+        example_object_type: me_egad_EGAD-SampleCollectionMethod
+        example_predicate: me_egad:sampleCollectionMethod
+        example_subject: me_egad_data:sample.AAL210144001R.20210112
+        example_subject_type: me_egad_EGAD-Sample
+    - object:
+        example_object: me_egad_data:samplingMethod.GS
+        example_object_type: owl_NamedIndividual
+        example_predicate: me_egad:sampleCollectionMethod
+        example_subject: me_egad_data:sample.AAL210144001R.20210112
+        example_subject_type: me_egad_EGAD-Sample
+    name: me_egad_sampleCollectionMethod
+    range: Any
+    slot_uri: me_egad:sampleCollectionMethod
+    subproperty_of: coso_sampleAnnotation
+    title: egad - sample collection method
+  me_egad_sampleID:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: Sample identifier in the EGAD dataset from the state of Maine.
+    name: me_egad_sampleID
+    range: Any
+    slot_uri: me_egad:sampleID
+    subproperty_of: dct_identifier
+    title: sample identifier
+  me_egad_samplePointNumber:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: Sample point number in the EGAD dataset from the state of Maine.
+    name: me_egad_samplePointNumber
+    range: Any
+    slot_uri: me_egad:samplePointNumber
+    subproperty_of: dct_identifier
+    title: sample point number
+  me_egad_samplePointType:
+    annotations:
+      count: 16345
+    any_of:
+    - range: me_egad_EGAD-SamplePointType
+    - range: uri
+    - range: owl_NamedIndividual
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: me_egad_data:featureType.MW
+        example_object_type: me_egad_EGAD-SamplePointType
+        example_predicate: me_egad:samplePointType
+        example_subject: me_egad_data:samplePoint.100410
+        example_subject_type: me_egad_EGAD-SamplePoint
+    - object:
+        example_object: me_egad_data:featureType.MW
+        example_object_type: owl_NamedIndividual
+        example_predicate: me_egad:samplePointType
+        example_subject: me_egad_data:samplePoint.100410
+        example_subject_type: me_egad_EGAD-SamplePoint
+    - object:
+        example_object: me_egad:featureType.MW
+        example_object_type: uri
+        example_predicate: me_egad:samplePointType
+        example_subject: me_egad_data:samplePoint.100410
+        example_subject_type: me_egad_EGAD-SamplePoint
+    name: me_egad_samplePointType
+    range: Any
+    slot_uri: me_egad:samplePointType
+    title: egad - sample point type
+  me_egad_samplePointWebName:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: Sample point web name in the EGAD dataset from the state of Maine.
+    name: me_egad_samplePointWebName
+    range: Any
+    slot_uri: me_egad:samplePointWebName
+    subproperty_of: skos_altLabel
+    title: sample point web name
+  me_egad_sampleTreatmentStatus:
+    annotations:
+      count: 15610
+    any_of:
+    - range: me_egad_EGAD-SampleTreatmentStatus
+    - range: owl_NamedIndividual
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: me_egad_data:treatmentStatus.N
+        example_object_type: me_egad_EGAD-SampleTreatmentStatus
+        example_predicate: me_egad:sampleTreatmentStatus
+        example_subject: me_egad_data:sample.AAL217134101.20211228
+        example_subject_type: me_egad_EGAD-Sample
+    - object:
+        example_object: me_egad_data:treatmentStatus.N
+        example_object_type: owl_NamedIndividual
+        example_predicate: me_egad:sampleTreatmentStatus
+        example_subject: me_egad_data:sample.AAL217134101.20211228
+        example_subject_type: me_egad_EGAD-Sample
+    name: me_egad_sampleTreatmentStatus
+    range: Any
+    slot_uri: me_egad:sampleTreatmentStatus
+    subproperty_of: coso_sampleAnnotation
+    title: egad - sample treatment status
+  me_egad_sampledFeatureType:
+    annotations:
+      count: 8021
+    any_of:
+    - range: me_egad_EGAD-SamplePointType
+    - range: owl_NamedIndividual
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: me_egad_data:featureType.MW
+        example_object_type: me_egad_EGAD-SamplePointType
+        example_predicate: me_egad:sampledFeatureType
+        example_subject: me_egad_data:sampledFeature.100410
+        example_subject_type: me_egad_EGAD-SampledFeature
+    - object:
+        example_object: me_egad_data:featureType.MW
+        example_object_type: owl_NamedIndividual
+        example_predicate: me_egad:sampledFeatureType
+        example_subject: me_egad_data:sampledFeature.100410
+        example_subject_type: me_egad_EGAD-SampledFeature
+    range: Any
+    slot_uri: me_egad:sampledFeatureType
+  me_egad_siteNumber:
+    annotations:
+      count: 957
+    description: Site number in the EGAD dataset from the state of Maine.
+    examples:
+    - object:
+        example_object: '100843'
+        example_object_type: integer
+        example_predicate: me_egad:siteNumber
+        example_subject: me_egad_data:site.100843
+        example_subject_type: me_egad_EGAD-Site
+    - object:
+        example_object: '131980'
+        example_object_type: integer
+        example_predicate: me_egad:siteNumber
+        example_subject: me_egad_data:site.131980
+        example_subject_type: me_egad_EGAD-PFAS-Site
+    name: me_egad_siteNumber
+    range: integer
+    slot_uri: me_egad:siteNumber
+    subproperty_of: dct_identifier
+    title: site number
+  me_egad_siteType:
+    annotations:
+      count: 1318
+    any_of:
+    - range: me_egad_EGAD-SiteType
+    - range: owl_NamedIndividual
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: me_egad_data:siteType.UNCDOD
+        example_object_type: me_egad_EGAD-SiteType
+        example_predicate: me_egad:siteType
+        example_subject: me_egad_data:site.100843
+        example_subject_type: me_egad_EGAD-PFAS-Site
+    - object:
+        example_object: me_egad_data:siteType.UNCDOD
+        example_object_type: owl_NamedIndividual
+        example_predicate: me_egad:siteType
+        example_subject: me_egad_data:site.100843
+        example_subject_type: me_egad_EGAD-PFAS-Site
+    - object:
+        example_object: me_egad_data:siteType.UNCDOD
+        example_object_type: me_egad_EGAD-SiteType
+        example_predicate: me_egad:siteType
+        example_subject: me_egad_data:site.100843
+        example_subject_type: me_egad_EGAD-Site
+    - object:
+        example_object: me_egad_data:siteType.UNCDOD
+        example_object_type: owl_NamedIndividual
+        example_predicate: me_egad:siteType
+        example_subject: me_egad_data:site.100843
+        example_subject_type: me_egad_EGAD-Site
+    range: Any
+    slot_uri: me_egad:siteType
+  me_egad_validationLevel:
+    annotations:
+      count: 567749
+    any_of:
+    - range: me_egad_EGAD-ValidationLevel
+    - range: uri
+    - range: owl_NamedIndividual
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: me_egad_data:validationLevel.DEP
+        example_object_type: me_egad_EGAD-ValidationLevel
+        example_predicate: me_egad:validationLevel
+        example_subject: me_egad_data:result.101365P.NA.20130507.DEP18010
+        example_subject_type: me_egad_EGAD-AggregatePFAS-Concentration
+    - object:
+        example_object: me_egad_data:validationLevel.DEP
+        example_object_type: owl_NamedIndividual
+        example_predicate: me_egad:validationLevel
+        example_subject: me_egad_data:result.101365P.NA.20130507.DEP18010
+        example_subject_type: me_egad_EGAD-AggregatePFAS-Concentration
+    - object:
+        example_object: me_egad_data:validationLevel.DEP
+        example_object_type: me_egad_EGAD-ValidationLevel
+        example_predicate: me_egad:validationLevel
+        example_subject: me_egad_data:result.1028303.ELL.20190405.335671
+        example_subject_type: me_egad_EGAD-SinglePFAS-Concentration
+    - object:
+        example_object: me_egad_data:validationLevel.DEP
+        example_object_type: owl_NamedIndividual
+        example_predicate: me_egad:validationLevel
+        example_subject: me_egad_data:result.1028303.ELL.20190405.335671
+        example_subject_type: me_egad_EGAD-SinglePFAS-Concentration
+    - object:
+        example_object: me_egad_data:validationLevel.T2
+        example_object_type: uri
+        example_predicate: me_egad:validationLevel
+        example_subject: me_egad_data:result.170094201.VAL.20170725.108427538
+        example_subject_type: me_egad_EGAD-SinglePFAS-Concentration
+    - object:
+        example_object: me_egad_data:validationLevel.T2
+        example_object_type: uri
+        example_predicate: me_egad:validationLevel
+        example_subject: me_egad_data:result.170098413.VAL.20170802.DEP18016
+        example_subject_type: me_egad_EGAD-AggregatePFAS-Concentration
+    name: me_egad_validationLevel
+    range: Any
+    slot_uri: me_egad:validationLevel
+    subproperty_of: coso_resultAnnotation
+    title: egad - validation level
+  me_egad_validationQualifier:
+    annotations:
+      count: 505846
+    any_of:
+    - range: uri
+    - range: me_egad_EGAD-ConcentrationQualifier
+    - range: owl_NamedIndividual
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: me_egad_data:concentrationQualifier.U
+        example_object_type: me_egad_EGAD-ConcentrationQualifier
+        example_predicate: me_egad:validationQualifier
+        example_subject: me_egad_data:result.1028303.ELL.20190405.335671
+        example_subject_type: me_egad_EGAD-SinglePFAS-Concentration
+    - object:
+        example_object: me_egad_data:concentrationQualifier.U
+        example_object_type: owl_NamedIndividual
+        example_predicate: me_egad:validationQualifier
+        example_subject: me_egad_data:result.1028303.ELL.20190405.335671
+        example_subject_type: me_egad_EGAD-SinglePFAS-Concentration
+    - object:
+        example_object: me_egad_data:concentrationQualifier.J
+        example_object_type: me_egad_EGAD-ConcentrationQualifier
+        example_predicate: me_egad:validationQualifier
+        example_subject: me_egad_data:result.1039233.ELL.20190412.DEP18010
+        example_subject_type: me_egad_EGAD-AggregatePFAS-Concentration
+    - object:
+        example_object: me_egad_data:concentrationQualifier.J
+        example_object_type: owl_NamedIndividual
+        example_predicate: me_egad:validationQualifier
+        example_subject: me_egad_data:result.1039233.ELL.20190412.DEP18010
+        example_subject_type: me_egad_EGAD-AggregatePFAS-Concentration
+    - object:
+        example_object: me_egad_data:concentrationQualifier.M
+        example_object_type: uri
+        example_predicate: me_egad:validationQualifier
+        example_subject: me_egad_data:result.320623561.TA.20200701.335671
+        example_subject_type: me_egad_EGAD-SinglePFAS-Concentration
+    - object:
+        example_object: me_egad_data:concentrationQualifier.M
+        example_object_type: uri
+        example_predicate: me_egad:validationQualifier
+        example_subject: me_egad_data:result.320623562.TA.20200701.DEP18010
+        example_subject_type: me_egad_EGAD-AggregatePFAS-Concentration
+    name: me_egad_validationQualifier
+    range: Any
+    slot_uri: me_egad:validationQualifier
+    subproperty_of: coso_resultAnnotation
+    title: egad - validation qualifier
+  owl_allValuesFrom:
+    annotations:
+      count: 20
+    any_of:
+    - range: uri
+    - range: owl_Class
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: qudt:Datatype
+        example_object_type: owl_Class
+        example_predicate: owl:allValuesFrom
+        example_subject: _:B1b94d9e751ffada9b24c828d0fa88371
+        example_subject_type: owl_Restriction
+    - object:
+        example_object: qudt:OrderedType
+        example_object_type: uri
+        example_predicate: owl:allValuesFrom
+        example_subject: _:B54b5f5e01e0d6114012a8c907ebde248
+        example_subject_type: owl_Restriction
+    range: Any
+    slot_uri: owl:allValuesFrom
+  owl_maxCardinality:
+    annotations:
+      count: 31
+    any_of:
+    - range: unsignedinteger
+    - range: int32
+    - range: integer
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '1'
+        example_object_type: int32
+        example_predicate: owl:maxCardinality
+        example_subject: _:B1483a74553e695096917e036e115647b
+        example_subject_type: owl_Restriction
+    - object:
+        example_object: '1'
+        example_object_type: integer
+        example_predicate: owl:maxCardinality
+        example_subject: _:B1eaf986f62f70bde3920fc763297ba4b
+        example_subject_type: owl_Restriction
+    - object:
+        example_object: '1'
+        example_object_type: unsignedinteger
+        example_predicate: owl:maxCardinality
+        example_subject: _:B2d418fab187385bd606ec62687307b1d
+        example_subject_type: owl_Restriction
+    range: Any
+    slot_uri: owl:maxCardinality
+  owl_minCardinality:
+    annotations:
+      count: 11
+    any_of:
+    - range: unsignedinteger
+    - range: int32
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '0'
+        example_object_type: unsignedinteger
+        example_predicate: owl:minCardinality
+        example_subject: _:B2d99c95457974d6f9fb58deb3a118f49
+        example_subject_type: owl_Restriction
+    - object:
+        example_object: '0'
+        example_object_type: int32
+        example_predicate: owl:minCardinality
+        example_subject: _:Be739d8ba5c2b46b3967f46b720ce1114
+        example_subject_type: owl_Restriction
+    range: Any
+    slot_uri: owl:minCardinality
+  owl_onProperty:
+    annotations:
+      count: 62
+    any_of:
+    - range: owl_AnnotationProperty
+    - range: owl_ObjectProperty
+    - range: uri
+    - range: owl_DatatypeProperty
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: qudt:abbreviation
+        example_object_type: owl_DatatypeProperty
+        example_predicate: owl:onProperty
+        example_subject: _:B1483a74553e695096917e036e115647b
+        example_subject_type: owl_Restriction
+    - object:
+        example_object: qudt:basis
+        example_object_type: uri
+        example_predicate: owl:onProperty
+        example_subject: _:B1b94d9e751ffada9b24c828d0fa88371
+        example_subject_type: owl_Restriction
+    - object:
+        example_object: coso:observedProperty
+        example_object_type: owl_ObjectProperty
+        example_predicate: owl:onProperty
+        example_subject: _:B6913f0a64a969f89379ad1e1a3c4555b
+        example_subject_type: owl_Restriction
+    - object:
+        example_object: dct:description
+        example_object_type: owl_AnnotationProperty
+        example_predicate: owl:onProperty
+        example_subject: _:Bd98fe8bdc6e04c95195453fbd99b19cd
+        example_subject_type: owl_Restriction
+    range: Any
+    slot_uri: owl:onProperty
+  owl_qualifiedCardinality:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: owl_qualifiedCardinality
+    range: Any
+    slot_uri: owl:qualifiedCardinality
+    title: No slot (predicate) name specified
+  owl_sameAs:
+    annotations:
+      count: 62
+    any_of:
+    - range: qudt_Unit
+    - range: uri
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://qudt.org/vocab/unit/PERCENT
+        example_object_type: qudt_Unit
+        example_predicate: owl:sameAs
+        example_subject: http://qudt.org/vocab/unit/PERCENT
+        example_subject_type: qudt_Unit
+    - object:
+        example_object: http://geoconnex.us/ref/pws/ME0002893
+        example_object_type: uri
+        example_predicate: owl:sameAs
+        example_subject: me_egad_data:site.124837
+        example_subject_type: me_egad_EGAD-Site
+    - object:
+        example_object: http://geoconnex.us/ref/pws/ME0090540
+        example_object_type: uri
+        example_predicate: owl:sameAs
+        example_subject: me_egad_data:site.131980
+        example_subject_type: me_egad_EGAD-PFAS-Site
+    range: Any
+    slot_uri: owl:sameAs
+  prov_wasAttributedTo:
+    annotations:
+      count: 597589
+    any_of:
+    - range: prov_Agent
+    - range: prov_Organization
+    - range: uri
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: me_egad_data:MEDACF
+        example_object_type: prov_Agent
+        example_predicate: prov:wasAttributedTo
+        example_subject: me_egad_data:sample.AAL210144001R.20210112
+        example_subject_type: me_egad_EGAD-Sample
+    - object:
+        example_object: me_egad_data:organization.lab.AA
+        example_object_type: prov_Organization
+        example_predicate: prov:wasAttributedTo
+        example_subject: me_egad_data:observation.AAL210144001R.20210112.1763231
+        example_subject_type: me_egad_EGAD-PFAS-Observation
+    - object:
+        example_object: me_egad_data:organization.lab.NA
+        example_object_type: uri
+        example_predicate: prov:wasAttributedTo
+        example_subject: me_egad_data:observation.NA101365P.20130507.1763231
+        example_subject_type: me_egad_EGAD-PFAS-Observation
+    range: Any
+    slot_uri: prov:wasAttributedTo
+  qudt_abbreviation:
+    annotations:
+      count: 1
+    description: An abbreviation for a unit is a short ASCII string that is used in
+      place of the full name for the unit in contexts where non-ASCII characters would
+      be problematic, or where using the abbreviation will enhance readability. When
+      a power of abase unit needs to be expressed, such as squares this can be done
+      using abbreviations rather than symbols. For example, <em>sq ft</em> means <em>square
+      foot</em>, and <em>cu ft</em> means <em>cubic foot</em>.
+    examples:
+    - object:
+        example_object: ND
+        example_object_type: string
+        example_predicate: qudt:abbreviation
+        example_subject: coso:non-detect
+        example_subject_type: qudt_EnumeratedValue
+    name: qudt_abbreviation
+    range: string
+    slot_uri: qudt:abbreviation
+    source: http://qudt.org/2.1/schema/qudt
+    title: abbreviation
+  qudt_applicableSystem:
+    annotations:
+      count: 20
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://qudt.org/vocab/sou/CGS
+        example_object_type: uri
+        example_predicate: qudt:applicableSystem
+        example_subject: http://qudt.org/vocab/unit/MicroGM-PER-KiloGM
+        example_subject_type: qudt_Unit
+    range: uri
+    slot_uri: qudt:applicableSystem
+  qudt_conversionMultiplier:
+    annotations:
+      count: 5
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '0.000000001'
+        example_object_type: decimal
+        example_predicate: qudt:conversionMultiplier
+        example_subject: http://qudt.org/vocab/unit/MicroGM-PER-KiloGM
+        example_subject_type: qudt_Unit
+    range: decimal
+    slot_uri: qudt:conversionMultiplier
+  qudt_conversionMultiplierSN:
+    annotations:
+      count: 5
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: 1e-09
+        example_object_type: double
+        example_predicate: qudt:conversionMultiplierSN
+        example_subject: http://qudt.org/vocab/unit/MicroGM-PER-KiloGM
+        example_subject_type: qudt_Unit
+    range: double
+    slot_uri: qudt:conversionMultiplierSN
+  qudt_enumeratedValue:
+    annotations:
+      count: 435002
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: coso:non-detect
+        example_object_type: qudt_EnumeratedValue
+        example_predicate: qudt:enumeratedValue
+        example_subject: me_egad_data:quantityValue.101365P.NA.20130507.1763231
+        example_subject_type: coso_NonDetectQuantityValue
+    - object:
+        example_object: coso:non-detect
+        example_object_type: qudt_EnumeratedValue
+        example_predicate: qudt:enumeratedValue
+        example_subject: me_egad_data:quantityValue.1095743.ELL.20190627.2706903
+        example_subject_type: coso_DetectQuantityValue
+    name: qudt_enumeratedValue
+    range: qudt_EnumeratedValue
+    slot_uri: qudt:enumeratedValue
+    title: No slot (predicate) name specified
+  qudt_hasDimensionVector:
+    annotations:
+      count: 5
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://qudt.org/vocab/dimensionvector/A0E0L0I0M0H0T0D1
+        example_object_type: uri
+        example_predicate: qudt:hasDimensionVector
+        example_subject: http://qudt.org/vocab/unit/MicroGM-PER-KiloGM
+        example_subject_type: qudt_Unit
+    range: uri
+    slot_uri: qudt:hasDimensionVector
+  qudt_hasQuantity:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: qudt_hasQuantity
+    range: qudt_Quantity
+    slot_uri: qudt:hasQuantity
+    source: http://qudt.org/2.1/schema/qudt
+    title: has quantity
+  qudt_hasQuantityKind:
+    annotations:
+      count: 576776
+    any_of:
+    - range: owl_NamedIndividual
+    - range: qudt_QuantityKind
+    - range: uri
+    - range: coso_ContaminantConcentrationQuantityKind
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://qudt.org/vocab/quantitykind/MassRatio
+        example_object_type: uri
+        example_predicate: qudt:hasQuantityKind
+        example_subject: http://qudt.org/vocab/unit/MicroGM-PER-KiloGM
+        example_subject_type: qudt_Unit
+    - object:
+        example_object: coso:SingleContaminantConcentrationQuantityKind
+        example_object_type: owl_NamedIndividual
+        example_predicate: qudt:hasQuantityKind
+        example_subject: me_egad_data:result.101365P.NA.20130507.1763231
+        example_subject_type: me_egad_EGAD-SinglePFAS-Concentration
+    - object:
+        example_object: coso:SingleContaminantConcentrationQuantityKind
+        example_object_type: coso_ContaminantConcentrationQuantityKind
+        example_predicate: qudt:hasQuantityKind
+        example_subject: me_egad_data:result.101365P.NA.20130507.1763231
+        example_subject_type: me_egad_EGAD-SinglePFAS-Concentration
+    - object:
+        example_object: coso:AggregateContaminantConcentrationQuantityKind
+        example_object_type: uri
+        example_predicate: qudt:hasQuantityKind
+        example_subject: me_egad_data:result.101365P.NA.20130507.DEP18010
+        example_subject_type: me_egad_EGAD-AggregatePFAS-Concentration
+    name: qudt_hasQuantityKind
+    range: Any
+    slot_uri: qudt:hasQuantityKind
+    source: http://qudt.org/2.1/schema/qudt
+    title: has quantity kind
+  qudt_hasUnit:
+    annotations:
+      count: 154043
+      qudt_Unit: 11486
+    description: This property relates a system of units with a unit of measure that
+      is either a) defined by the system, or b) accepted for use by the system and
+      is convertible to a unit of equivalent dimension that is defined by the system.
+      Systems of units may distinguish between base and derived units. Base units
+      are the units which measure the base quantities for the corresponding system
+      of quantities. The base units are used to define units for all other quantities
+      as products of powers of the base units. Such units are called derived units
+      for the system.
+    examples:
+    - object:
+        example_object: http://qudt.org/vocab/unit/NanoGM-PER-L
+        example_object_type: qudt_Unit
+        example_predicate: qudt:hasUnit
+        example_subject: me_egad_data:mdl.0.0.NG/L
+        example_subject_type: None
+    - object:
+        example_object: coso:NanoGM-PER-GM
+        example_object_type: qudt_Unit
+        example_predicate: qudt:hasUnit
+        example_subject: me_egad_data:quantityValue.1028303.ELL.20190405.45298906
+        example_subject_type: coso_DetectQuantityValue
+    - object:
+        example_object: http://qudt.org/vocab/unit/NanoGM-PER-L
+        example_object_type: qudt_Unit
+        example_predicate: qudt:hasUnit
+        example_subject: me_egad_data:quantityValue.1095743.ELL.20190627.2706903
+        example_subject_type: coso_NonDetectQuantityValue
+    name: qudt_hasUnit
+    range: qudt_Unit
+    slot_uri: qudt:hasUnit
+    source: http://qudt.org/2.1/schema/qudt
+    title: has unit
+  qudt_iec61360Code:
+    annotations:
+      count: 3
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: 0112/2///62720#UAA083
+        example_object_type: string
+        example_predicate: qudt:iec61360Code
+        example_subject: http://qudt.org/vocab/unit/MicroGM-PER-KiloGM
+        example_subject_type: qudt_Unit
+    range: string
+    slot_uri: qudt:iec61360Code
+  qudt_numericValue:
+    annotations:
+      count: 154542
+      decimal: 11383
+      double: 103
+    any_of:
+    - range: decimal
+    - range: double
+    - range: qudt_NumericUnion
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '0.0'
+        example_object_type: decimal
+        example_predicate: qudt:numericValue
+        example_subject: me_egad_data:mdl.0.0.NG/L
+        example_subject_type: None
+    - object:
+        example_object: '1.18e-06'
+        example_object_type: double
+        example_predicate: qudt:numericValue
+        example_subject: me_egad_data:mdl.1.18e-06.MG/L
+        example_subject_type: None
+    - object:
+        example_object: '14.0'
+        example_object_type: decimal
+        example_predicate: qudt:numericValue
+        example_subject: me_egad_data:quantityValue.1028303.ELL.20190405.45298906
+        example_subject_type: coso_DetectQuantityValue
+    - object:
+        example_object: '16000.0'
+        example_object_type: decimal
+        example_predicate: qudt:numericValue
+        example_subject: me_egad_data:quantityValue.1095743.ELL.20190627.2706903
+        example_subject_type: coso_NonDetectQuantityValue
+    - object:
+        example_object: '2.8e-05'
+        example_object_type: double
+        example_predicate: qudt:numericValue
+        example_subject: me_egad_data:quantityValue.L195312201.AAWH.20191107.375735
+        example_subject_type: coso_DetectQuantityValue
+    name: qudt_numericValue
+    range: Any
+    slot_uri: qudt:numericValue
+    source: http://qudt.org/2.1/schema/qudt
+    title: numeric value
+  qudt_plainTextDescription:
+    annotations:
+      count: 3
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: mass ratio as 0.000000001-fold of the SI base unit kilogram
+          divided by the SI base unit kilogram
+        example_object_type: string
+        example_predicate: qudt:plainTextDescription
+        example_subject: http://qudt.org/vocab/unit/MicroGM-PER-KiloGM
+        example_subject_type: qudt_Unit
+    range: string
+    slot_uri: qudt:plainTextDescription
+  qudt_qkdvDenominator:
+    annotations:
+      count: 1
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://qudt.org/vocab/dimensionvector/A0E0L0I0M1H0T0D0
+        example_object_type: uri
+        example_predicate: qudt:qkdvDenominator
+        example_subject: http://qudt.org/vocab/unit/MicroGM-PER-KiloGM
+        example_subject_type: qudt_Unit
+    range: uri
+    slot_uri: qudt:qkdvDenominator
+  qudt_qkdvNumerator:
+    annotations:
+      count: 1
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://qudt.org/vocab/dimensionvector/A0E0L0I0M1H0T0D0
+        example_object_type: uri
+        example_predicate: qudt:qkdvNumerator
+        example_subject: http://qudt.org/vocab/unit/MicroGM-PER-KiloGM
+        example_subject_type: qudt_Unit
+    range: uri
+    slot_uri: qudt:qkdvNumerator
+  qudt_quantityKind:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: qudt_quantityKind
+    range: Any
+    slot_uri: qudt:quantityKind
+    title: No slot (predicate) name specified
+  qudt_quantityValue:
+    annotations:
+      count: 576763
+    any_of:
+    - range: coso_DetectQuantityValue
+    - range: qudt_QuantityValue
+    - range: coso_NonDetectQuantityValue
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: me_egad_data:quantityValue.101365P.NA.20130507.1763231
+        example_object_type: coso_NonDetectQuantityValue
+        example_predicate: qudt:quantityValue
+        example_subject: me_egad_data:result.101365P.NA.20130507.1763231
+        example_subject_type: me_egad_EGAD-SinglePFAS-Concentration
+    - object:
+        example_object: me_egad_data:quantityValue.101365P.NA.20130507.DEP18010
+        example_object_type: coso_NonDetectQuantityValue
+        example_predicate: qudt:quantityValue
+        example_subject: me_egad_data:result.101365P.NA.20130507.DEP18010
+        example_subject_type: me_egad_EGAD-AggregatePFAS-Concentration
+    - object:
+        example_object: me_egad_data:quantityValue.1028303.ELL.20190405.45298906
+        example_object_type: coso_DetectQuantityValue
+        example_predicate: qudt:quantityValue
+        example_subject: me_egad_data:result.1028303.ELL.20190405.45298906
+        example_subject_type: me_egad_EGAD-SinglePFAS-Concentration
+    - object:
+        example_object: me_egad_data:quantityValue.1028303.ELL.20190405.DEP18010
+        example_object_type: coso_DetectQuantityValue
+        example_predicate: qudt:quantityValue
+        example_subject: me_egad_data:result.1028303.ELL.20190405.DEP18010
+        example_subject_type: me_egad_EGAD-AggregatePFAS-Concentration
+    name: qudt_quantityValue
+    range: Any
+    slot_uri: qudt:quantityValue
+    source: http://qudt.org/2.1/schema/qudt
+    title: quantity value
+  qudt_symbol:
+    annotations:
+      count: 6
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: "\xCE\xBCg/kg"
+        example_object_type: string
+        example_predicate: qudt:symbol
+        example_subject: http://qudt.org/vocab/unit/MicroGM-PER-KiloGM
+        example_subject_type: qudt_Unit
+    range: string
+    slot_uri: qudt:symbol
+  qudt_ucumCode:
+    annotations:
+      count: 11
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: ug.kg-1
+        example_object_type: qudt_UCUMcs
+        example_predicate: qudt:ucumCode
+        example_subject: http://qudt.org/vocab/unit/MicroGM-PER-KiloGM
+        example_subject_type: qudt_Unit
+    range: qudt_UCUMcs
+    slot_uri: qudt:ucumCode
+  qudt_uneceCommonCode:
+    annotations:
+      count: 3
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: J33
+        example_object_type: string
+        example_predicate: qudt:uneceCommonCode
+        example_subject: http://qudt.org/vocab/unit/MicroGM-PER-KiloGM
+        example_subject_type: qudt_Unit
+    range: string
+    slot_uri: qudt:uneceCommonCode
+  qudt_unit:
+    comments:
+    - No occurrences of this slot in the graph.
+    deprecated_element_has_exact_replacement: http://qudt.org/schema/qudt/hasUnit
+    description: A reference to the unit of measure of a quantity (variable or constant)
+      of interest.
+    name: qudt_unit
+    range: qudt_Unit
+    slot_uri: qudt:unit
+    source: http://qudt.org/2.1/schema/qudt
+    title: unit
+  qudt_unitFor:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: qudt_unitFor
+    range: Any
+    slot_uri: qudt:unitFor
+    source: http://qudt.org/2.1/schema/qudt
+    title: unit for
+  qudt_valueQuantity:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: qudt_valueQuantity
+    range: Any
+    slot_uri: qudt:valueQuantity
+    source: http://qudt.org/2.1/schema/qudt
+    title: value for quantity
+  rdfs_isDefinedBy:
+    annotations:
+      count: 6
+    any_of:
+    - range: owl_Ontology
+    - range: uri
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: http://qudt.org/vocab/unit
+        example_object_type: uri
+        example_predicate: rdfs:isDefinedBy
+        example_subject: http://qudt.org/vocab/unit/MicroGM-PER-KiloGM
+        example_subject_type: qudt_Unit
+    - object:
+        example_object: http://qudt.org/2.1/vocab/unit
+        example_object_type: owl_Ontology
+        example_predicate: rdfs:isDefinedBy
+        example_subject: http://qudt.org/vocab/unit/NanoGM-PER-L
+        example_subject_type: qudt_Unit
+    range: Any
+    slot_uri: rdfs:isDefinedBy
+  rdfs_label:
+    annotations:
+      count: 1194911
+      string: 1
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: Microgram per Kilogram
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: http://qudt.org/vocab/unit/MicroGM-PER-KiloGM
+        example_subject_type: qudt_Unit
+    - object:
+        example_object: AB
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: me_egad_data:AB
+        example_subject_type: prov_Agent
+    - object:
+        example_object: COMPOUND IS FOUND IN THE ASSOCIATED METHOD BLANK (ORGANIC)
+          OR THE REPORTED VALUE WAS LESS THAN THE REPORTING LIMIT BUT GREATER THAN
+          OR EQUAL TO THE IDL. (INORGANIC)
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: me_egad_data:concentrationQualifier.B
+        example_subject_type: owl_NamedIndividual
+    - object:
+        example_object: ALPHA ANALYTICAL LAB - WESTBOROUGH, MA
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: me_egad_data:organization.lab.AA
+        example_subject_type: prov_Organization
+    - object:
+        example_object: EGAD PFAS measurements for sample EP001
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: me_egad_data:result.101365P.NA.20130507.1763231
+        example_subject_type: me_egad_EGAD-SinglePFAS-Concentration
+    - object:
+        example_object: EGAD PFAS measurements for sample EP001
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: me_egad_data:result.101365P.NA.20130507.DEP18010
+        example_subject_type: me_egad_EGAD-AggregatePFAS-Concentration
+    - object:
+        example_object: EGAD sample BETH WILLIAMS ACF
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: me_egad_data:sample.AAL210144001R.20210112
+        example_subject_type: me_egad_EGAD-Sample
+    - object:
+        example_object: EGAD sample point 100410
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: me_egad_data:samplePoint.100410
+        example_subject_type: me_egad_EGAD-SamplePoint
+    - object:
+        example_object: EGAD sampled feature associated with sample point 100410
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: me_egad_data:sampledFeature.100410
+        example_subject_type: me_egad_EGAD-SampledFeature
+    - object:
+        example_object: MAINE ARMY NATIONAL GUARD - BANGOR RANGE
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: me_egad_data:site.100843
+        example_subject_type: me_egad_EGAD-Site
+    - object:
+        example_object: FARMINGTON VILLAGE CORPORATION
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: me_egad_data:site.131980
+        example_subject_type: me_egad_EGAD-PFAS-Site
+    - object:
+        example_object: Single Contamiant Concentration Quantity
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: coso:SingleContaminantConcentrationQuantityKind
+        example_subject_type: coso_ContaminantConcentrationQuantityKind
+    - object:
+        example_object: Non-Detect
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: coso:non-detect
+        example_subject_type: qudt_EnumeratedValue
+    - object:
+        example_object: Enumerated Quantity
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: qudt:EnumeratedQuantity
+        example_subject_type: None
+    - object:
+        example_object: EGAD PFAS observation for sample BETH WILLIAMS ACF
+        example_object_type: string
+        example_predicate: rdfs:label
+        example_subject: me_egad_data:observation.AAL210144001R.20210112.1763231
+        example_subject_type: me_egad_EGAD-PFAS-Observation
+    range: string
+    slot_uri: rdfs:label
+  rdfs_subClassOf:
+    annotations:
+      count: 3
+      owl_Restriction: 2
+      uri: 1
+    any_of:
+    - range: owl_Restriction
+    - range: uri
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: _:B73911bb5851b4fbc2403970a309b1a1b
+        example_object_type: owl_Restriction
+        example_predicate: rdfs:subClassOf
+        example_subject: qudt:EnumeratedQuantity
+        example_subject_type: None
+    - object:
+        example_object: qudt:Concept
+        example_object_type: uri
+        example_predicate: rdfs:subClassOf
+        example_subject: qudt:EnumeratedQuantity
+        example_subject_type: None
+    range: Any
+    slot_uri: rdfs:subClassOf
+  skos_altLabel:
+    annotations:
+      count: 8144
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: B-5
+        example_object_type: string
+        example_predicate: skos:altLabel
+        example_subject: me_egad_data:samplePoint.100410
+        example_subject_type: me_egad_EGAD-SamplePoint
+    - object:
+        example_object: 10:2 FTS_A
+        example_object_type: string
+        example_predicate: skos:altLabel
+        example_subject: me_egad_data:parameter.10-2_FTS_A
+        example_subject_type: owl_NamedIndividual
+    name: skos_altLabel
+    range: string
+    slot_uri: skos:altLabel
+    title: No slot (predicate) name specified -- this slot is noted as a subproperty
+      of another slot in this graph but has not itself been defined.
+  skos_definition:
+    annotations:
+      count: 62
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: Includes dairies, feedlots, large herds of livestock, and
+          chicken farms, as well as areas with recent sludge spreading as part of
+          the Statewide PFAS Investigation under Maine LD 1600
+        example_object_type: string
+        example_predicate: skos:definition
+        example_subject: me_egad_data:siteType.AGRICFARM
+        example_subject_type: owl_NamedIndividual
+    name: skos_definition
+    range: string
+    slot_uri: skos:definition
+    title: No slot (predicate) name specified
+  skos_note:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: skos_note
+    range: Any
+    slot_uri: skos:note
+    title: No slot (predicate) name specified
+  sosa_hasFeatureOfInterest:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: sosa_hasFeatureOfInterest
+    range: Any
+    slot_uri: sosa:hasFeatureOfInterest
+    title: No slot (predicate) name specified
+  sosa_hasResult:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: sosa_hasResult
+    range: Any
+    slot_uri: sosa:hasResult
+    title: No slot (predicate) name specified
+  sosa_isSampleOf:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: sosa_isSampleOf
+    range: Any
+    slot_uri: sosa:isSampleOf
+    title: No slot (predicate) name specified
+  sosa_observedProperty:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: sosa_observedProperty
+    range: Any
+    slot_uri: sosa:observedProperty
+    title: No slot (predicate) name specified -- this slot is noted as a subproperty
+      of another slot in this graph but has not itself been defined.
+  sosa_resultTime:
+    annotations:
+      count: 578715
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '2021-01-18'
+        example_object_type: date
+        example_predicate: sosa:resultTime
+        example_subject: me_egad_data:observation.AAL210144001R.20210112.1763231
+        example_subject_type: me_egad_EGAD-PFAS-Observation
+    range: date
+    slot_uri: sosa:resultTime
+  sosa_usedProcedure:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: sosa_usedProcedure
+    range: Any
+    slot_uri: sosa:usedProcedure
+    title: No slot (predicate) name specified
+  stad_hasQualityKind:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    name: stad_hasQualityKind
+    range: Any
+    slot_uri: stad:hasQualityKind
+    title: No slot (predicate) name specified
+  stad_hasTransformationKind:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    domain: stad_StatisticalAggregateData
+    name: stad_hasTransformationKind
+    range: stad_DataTransformation
+    slot_uri: stad:hasTransformationKind
+    title: No slot (predicate) name specified
+  us_sdwis_hasPWSID:
+    annotations:
+      count: 61
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: ME0002893
+        example_object_type: string
+        example_predicate: us_sdwis:hasPWSID
+        example_subject: me_egad_data:site.124837
+        example_subject_type: me_egad_EGAD-Site
+    - object:
+        example_object: ME0090540
+        example_object_type: string
+        example_predicate: us_sdwis:hasPWSID
+        example_subject: me_egad_data:site.131980
+        example_subject_type: me_egad_EGAD-PFAS-Site
+    range: string
+    slot_uri: us_sdwis:hasPWSID
+source: http://qudt.org/2.1/vocab/unit
+title: Contaminant Observation and Samples Ontology (ContaminOSO) Full
+types:
+  geo_wktLiteral:
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: geo_wktLiteral
+    title: No class (type) name specified
+    uri: geo:wktLiteral
+  qudt_UCUMcs:
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: qudt_UCUMcs
+    title: No class (type) name specified
+    uri: qudt:UCUMcs
+  rdf_HTML:
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: rdf_HTML
+    title: No class (type) name specified
+    uri: rdf:HTML
 version: No schema version available
