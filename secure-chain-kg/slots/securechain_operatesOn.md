@@ -1,6 +1,6 @@
 
 
-# Slot: No slot (predicate) name specified (securechain_discover)
+# Slot: No slot (predicate) name specified (securechain_operatesOn)
 
 
 _No slot (predicate) description specified_
@@ -11,7 +11,7 @@ _No slot (predicate) description specified_
 
 
 
-URI: [securechain:discover](https://w3id.org/secure-chain/discover)
+URI: [securechain:operatesOn](https://w3id.org/secure-chain/operatesOn)
 
 
 
@@ -26,7 +26,7 @@ URI: [securechain:discover](https://w3id.org/secure-chain/discover)
 
 ## Properties
 
-* Range: [SecurechainVulnerability](../classes/SecurechainVulnerability.md)
+* Range: [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md)
 
 
 
@@ -43,17 +43,17 @@ URI: [securechain:discover](https://w3id.org/secure-chain/discover)
 <details>
 
 ```yaml
-name: securechain_discover
+name: securechain_operatesOn
 description: No slot (predicate) description specified
 title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
 from_schema: secure-chain-kg
 rank: 1000
-domain: __B8e37d573f67cafe60bd7c79e143cd62e
-slot_uri: securechain:discover
-alias: securechain_discover
-range: securechain_Vulnerability
+domain: securechain_SoftwareVersion
+slot_uri: securechain:operatesOn
+alias: securechain_operatesOn
+range: securechain_HardwareVersion
 
 ```
 </details>

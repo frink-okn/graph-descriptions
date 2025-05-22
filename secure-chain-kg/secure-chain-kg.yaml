@@ -1,640 +1,704 @@
-name: secure-chain-kg
+classes:
+  Any:
+    class_uri: linkml:Any
+    name: Any
+  __B8e37d573f67cafe60bd7c79e143cd62e:
+    class_uri: _:B8e37d573f67cafe60bd7c79e143cd62e
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __B8e37d573f67cafe60bd7c79e143cd62e
+    title: No class (entity type) name specified
+  __Bcfd3c14c389f3c8ba32c30498a1d8b29:
+    class_uri: _:Bcfd3c14c389f3c8ba32c30498a1d8b29
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: __Bcfd3c14c389f3c8ba32c30498a1d8b29
+    title: No class (entity type) name specified
+  hsdo_CreativeWork:
+    class_uri: hsdo:CreativeWork
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: hsdo_CreativeWork
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  hsdo_Intangible:
+    class_uri: hsdo:Intangible
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: hsdo_Intangible
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  hsdo_Organization:
+    annotations:
+      count: 22889
+    class_uri: hsdo:Organization
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: hsdo_Organization
+    slot_usage:
+      hsdo_identifier:
+        annotations:
+          string: 883
+      hsdo_manufacturer:
+        annotations:
+          hsdo_Organization: 53
+          securechain_Hardware: 23
+          securechain_Software: 1
+      hsdo_name:
+        annotations:
+          string: 22620
+      hsdo_url:
+        annotations:
+          uri: 883
+      securechain_hasHardwareVersion:
+        annotations:
+          securechain_HardwareVersion: 53
+      securechain_hasSoftwareVersion:
+        annotations:
+          securechain_SoftwareVersion: 1437
+    slots:
+    - hsdo_name
+    - hsdo_identifier
+    - hsdo_programmingLanguage
+    - securechain_hasHardwareVersion
+    - hsdo_url
+    - securechain_ecosystem
+    - securechain_hasSoftwareVersion
+    - hsdo_manufacturer
+    title: No class (type) name specified
+  hsdo_Person:
+    annotations:
+      count: 27009
+    class_uri: hsdo:Person
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: hsdo_Person
+    slot_usage:
+      hsdo_name:
+        annotations:
+          string: 27009
+    slots:
+    - hsdo_name
+    title: No class (type) name specified
+  hsdo_Product:
+    class_uri: hsdo:Product
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: hsdo_Product
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  hsdo_SoftwareApplication:
+    class_uri: hsdo:SoftwareApplication
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: hsdo_SoftwareApplication
+    title: No class (entity type) name specified -- this class is noted as a superclass
+      of another class in this graph but has not itself been defined.
+  hsdo_Text:
+    class_uri: hsdo:Text
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    name: hsdo_Text
+    title: No class (entity type) name specified -- this class is noted as being in
+      the domain or range of a slot in this graph, but the class has not itself been
+      defined.
+  securechain_Hardware:
+    annotations:
+      count: 53378
+    class_uri: securechain:Hardware
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: hsdo_Product
+    name: securechain_Hardware
+    slot_usage:
+      hsdo_manufacturer:
+        annotations:
+          hsdo_Organization: 54369
+          securechain_Hardware: 2372
+          securechain_Software: 1252
+      hsdo_name:
+        annotations:
+          string: 53378
+      hsdo_programmingLanguage:
+        annotations:
+          string: 22
+      securechain_ecosystem:
+        annotations:
+          string: 22
+      securechain_hasHardwareVersion:
+        annotations:
+          securechain_HardwareVersion: 57295
+      securechain_hasSoftwareVersion:
+        annotations:
+          securechain_SoftwareVersion: 73
+    slots:
+    - hsdo_name
+    - hsdo_programmingLanguage
+    - securechain_hasHardwareVersion
+    - securechain_ecosystem
+    - securechain_hasSoftwareVersion
+    - hsdo_manufacturer
+    title: No class (entity type) name specified
+  securechain_HardwareVersion:
+    annotations:
+      count: 57295
+    class_uri: securechain:HardwareVersion
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: securechain_Hardware
+    name: securechain_HardwareVersion
+    slot_usage:
+      securechain_versionName:
+        annotations:
+          string: 57295
+      securechain_vulnerableTo:
+        annotations:
+          securechain_Vulnerability: 451784
+    slots:
+    - securechain_versionName
+    - securechain_vulnerableTo
+    title: No class (entity type) name specified
+  securechain_License:
+    annotations:
+      count: 294
+    class_uri: securechain:License
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: hsdo_CreativeWork
+    name: securechain_License
+    slot_usage:
+      hsdo_identifier:
+        annotations:
+          string: 294
+      hsdo_name:
+        annotations:
+          string: 20
+    slots:
+    - hsdo_name
+    - hsdo_identifier
+    title: No class (entity type) name specified
+  securechain_Software:
+    annotations:
+      count: 803769
+    class_uri: securechain:Software
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: hsdo_SoftwareApplication
+    name: securechain_Software
+    slot_usage:
+      hsdo_contributor:
+        annotations:
+          hsdo_Person: 32408
+      hsdo_identifier:
+        annotations:
+          string: 4
+      hsdo_manufacturer:
+        annotations:
+          hsdo_Organization: 26
+          securechain_Software: 1
+      hsdo_name:
+        annotations:
+          string: 803744
+      hsdo_programmingLanguage:
+        annotations:
+          string: 803747
+      hsdo_url:
+        annotations:
+          uri: 4
+      securechain_ecosystem:
+        annotations:
+          string: 803747
+      securechain_hasHardwareVersion:
+        annotations:
+          securechain_HardwareVersion: 24
+      securechain_hasSoftwareVersion:
+        annotations:
+          securechain_SoftwareVersion: 8593149
+    slots:
+    - hsdo_name
+    - hsdo_contributor
+    - hsdo_identifier
+    - hsdo_programmingLanguage
+    - securechain_hasHardwareVersion
+    - hsdo_url
+    - securechain_ecosystem
+    - securechain_hasSoftwareVersion
+    - hsdo_manufacturer
+    title: No class (entity type) name specified
+  securechain_SoftwareVersion:
+    annotations:
+      count: 8593149
+    class_uri: securechain:SoftwareVersion
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: securechain_Software
+    name: securechain_SoftwareVersion
+    slot_usage:
+      hsdo_license:
+        annotations:
+          securechain_License: 5018025
+      hsdo_url:
+        annotations:
+          string: 7733913
+      securechain_dependsOn:
+        annotations:
+          securechain_SoftwareVersion: 29574574
+      securechain_versionName:
+        annotations:
+          string: 8593148
+      securechain_vulnerableTo:
+        annotations:
+          securechain_Vulnerability: 383356
+    slots:
+    - securechain_vulnerableTo
+    - securechain_dependsOn
+    - securechain_versionName
+    - hsdo_url
+    - hsdo_license
+    title: No class (entity type) name specified
+  securechain_Vulnerability:
+    annotations:
+      count: 259806
+    class_uri: securechain:Vulnerability
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: hsdo_Intangible
+    name: securechain_Vulnerability
+    slot_usage:
+      hsdo_identifier:
+        annotations:
+          string: 259806
+      securechain_vulnerabilityType:
+        annotations:
+          securechain_VulnerabilityType: 177404
+    slots:
+    - securechain_vulnerabilityType
+    - hsdo_identifier
+    title: No class (entity type) name specified
+  securechain_VulnerabilityType:
+    annotations:
+      count: 445
+    class_uri: securechain:VulnerabilityType
+    conforms_to: No schema conformance document specified
+    description: No class (type) description specified
+    is_a: hsdo_Intangible
+    name: securechain_VulnerabilityType
+    slot_usage:
+      hsdo_identifier:
+        annotations:
+          string: 445
+    slots:
+    - hsdo_identifier
+    title: No class (entity type) name specified
 conforms_to: No schema conformance document specified
+created_on: '2025-05-22T19:17:16.840636'
 description: No schema description specified
-title: No schema name specified
-created_on: '2025-02-17T11:00:25.617339'
-last_updated_on: '2025-02-17T11:00:25.617339'
 id: secure-chain-kg
-version: No schema version available
 imports:
 - linkml:types
+last_updated_on: '2025-05-22T19:17:16.840636'
 license: No schema license specified
+name: secure-chain-kg
 prefixes:
-  hsdo:
-    prefix_prefix: hsdo
-    prefix_reference: http://schema.org/
-  linkml:
-    prefix_prefix: linkml
-    prefix_reference: https://w3id.org/linkml/
-  rdfs:
-    prefix_prefix: rdfs
-    prefix_reference: http://www.w3.org/2000/01/rdf-schema#
-  schema:
-    prefix_prefix: schema
-    prefix_reference: https://schema.org/
-  securechain:
-    prefix_prefix: securechain
-    prefix_reference: https://w3id.org/secure-chain/
-default_prefix: secure-chain-kg/
+  hsdo: http://schema.org/
+  linkml: https://w3id.org/linkml/
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  securechain: https://w3id.org/secure-chain/
 slots:
   hsdo_contributor:
-    name: hsdo_contributor
     annotations:
-      count:
-        tag: count
-        value: 36716
-      hsdo_Person:
-        tag: hsdo_Person
-        value: 3668
-    description: A secondary contributor to the CreativeWork or Event.
-    title: contributor
+      count: 32408
+    description: No slot (predicate) description specified
     examples:
     - object:
-        example_object: schema:Person/yrnkrn
+        example_object: https://github.com/0vercl0k
         example_object_type: hsdo_Person
         example_predicate: hsdo:contributor
-        example_subject: securechain:Software/zapcc
-        example_subject_type: None
-    - object:
-        example_object: schema:Person/JosephA-packt
-        example_object_type: hsdo_Person
-        example_predicate: hsdo:contributor
-        example_subject: securechain:Software/3D-Graphics-Rendering-Cookbook
+        example_subject: https://github.com/0vercl0k/rp
         example_subject_type: securechain_Software
-    slot_uri: hsdo:contributor
     range: hsdo_Person
+    slot_uri: hsdo:contributor
   hsdo_identifier:
-    name: hsdo_identifier
     annotations:
-      count:
-        tag: count
-        value: 291120
-    description: 'The identifier property represents any kind of identifier for any
-      kind of [[Thing]], such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides
-      dedicated properties for representing many of these, either as textual strings
-      or as URL (URI) links. See [background notes](/docs/datamodel.html#identifierBg)
-      for more details.␊        '
-    title: identifier
+      count: 261432
+    description: No slot (predicate) description specified
     examples:
-    - object:
-        example_object: 0----0
-        example_object_type: string
-        example_predicate: hsdo:identifier
-        example_subject: schema:Person/0----0
-        example_subject_type: hsdo_Person
-    - object:
-        example_object: CVE-1999-0043
-        example_object_type: string
-        example_predicate: hsdo:identifier
-        example_subject: securechain:Vulnerability/CVE-1999-0043
-        example_subject_type: securechain_Vulnerability
     - object:
         example_object: CWE-1
         example_object_type: string
         example_predicate: hsdo:identifier
-        example_subject: securechain:VulnerabilityType/CWE-1
+        example_subject: https://cwe.mitre.org/data/definitions/1.html
         example_subject_type: securechain_VulnerabilityType
+    - object:
+        example_object: CVE-1999-0060
+        example_object_type: string
+        example_predicate: hsdo:identifier
+        example_subject: https://nvd.nist.gov/vuln/detail/CVE-1999-0060
+        example_subject_type: securechain_Vulnerability
+    - object:
+        example_object: (Apache-2.0
+        example_object_type: string
+        example_predicate: hsdo:identifier
+        example_subject: https://spdx.org/licenses/%28Apache-2.0.html
+        example_subject_type: securechain_License
     - object:
         example_object: Q2150861
         example_object_type: string
         example_predicate: hsdo:identifier
-        example_subject: schema:Organization/1Password
+        example_subject: https://www.google.com/search?q=1Password
         example_subject_type: hsdo_Organization
     - object:
-        example_object: 0bsd
+        example_object: Q202400
         example_object_type: string
         example_predicate: hsdo:identifier
-        example_subject: securechain:License/0bsd
-        example_subject_type: hsdo_CreativeWork
-    slot_uri: hsdo:identifier
+        example_subject: https://www.google.com/search?q=Kernel
+        example_subject_type: securechain_Software
     range: string
+    slot_uri: hsdo:identifier
+  hsdo_license:
+    annotations:
+      count: 5018025
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: https://spdx.org/licenses/BSD-3-Clause.html
+        example_object_type: securechain_License
+        example_predicate: hsdo:license
+        example_subject: https://crates.io/crates/a-bot/0.0.1/
+        example_subject_type: securechain_SoftwareVersion
+    range: securechain_License
+    slot_uri: hsdo:license
   hsdo_manufacturer:
-    name: hsdo_manufacturer
     annotations:
-      count:
-        tag: count
-        value: 54369
-    description: The manufacturer of the product.
-    title: manufacturer
+      count: 54369
+    any_of:
+    - range: hsdo_Organization
+    - range: securechain_Hardware
+    - range: securechain_Software
+    description: No slot (predicate) description specified
     examples:
     - object:
-        example_object: securechain:Hardware/access_unit_2.0
-        example_object_type: securechain_Hardware
+        example_object: https://www.google.com/search?q=hp
+        example_object_type: hsdo_Organization
         example_predicate: hsdo:manufacturer
-        example_subject: schema:Organization/2n
+        example_subject: https://www.google.com/search?q=360
         example_subject_type: hsdo_Organization
-    slot_uri: hsdo:manufacturer
-    range: securechain_Hardware
-  hsdo_name:
-    name: hsdo_name
-    annotations:
-      count:
-        tag: count
-        value: 109866
-    description: The name of the item.
-    title: name
-    examples:
     - object:
-        example_object: '-'
-        example_object_type: string
-        example_predicate: hsdo:name
-        example_subject: securechain:Hardware/-
+        example_object: https://www.google.com/search?q=hp
+        example_object_type: hsdo_Organization
+        example_predicate: hsdo:manufacturer
+        example_subject: https://www.google.com/search?q=360
         example_subject_type: securechain_Hardware
     - object:
-        example_object: '%240.99_kindle_books_project'
+        example_object: https://www.google.com/search?q=arduino
+        example_object_type: securechain_Hardware
+        example_predicate: hsdo:manufacturer
+        example_subject: https://www.google.com/search?q=arduino
+        example_subject_type: hsdo_Organization
+    - object:
+        example_object: https://www.google.com/search?q=arduino
+        example_object_type: securechain_Hardware
+        example_predicate: hsdo:manufacturer
+        example_subject: https://www.google.com/search?q=arduino
+        example_subject_type: securechain_Hardware
+    - object:
+        example_object: https://www.google.com/search?q=amd
+        example_object_type: securechain_Software
+        example_predicate: hsdo:manufacturer
+        example_subject: https://www.google.com/search?q=milan
+        example_subject_type: hsdo_Organization
+    - object:
+        example_object: https://www.google.com/search?q=amd
+        example_object_type: securechain_Software
+        example_predicate: hsdo:manufacturer
+        example_subject: https://www.google.com/search?q=milan
+        example_subject_type: securechain_Hardware
+    - object:
+        example_object: https://www.google.com/search?q=mitel
+        example_object_type: hsdo_Organization
+        example_predicate: hsdo:manufacturer
+        example_subject: https://www.google.com/search?q=st
+        example_subject_type: securechain_Software
+    - object:
+        example_object: https://www.google.com/search?q=oculus
+        example_object_type: securechain_Software
+        example_predicate: hsdo:manufacturer
+        example_subject: https://www.google.com/search?q=rift
+        example_subject_type: securechain_Software
+    range: Any
+    slot_uri: hsdo:manufacturer
+  hsdo_name:
+    annotations:
+      count: 906771
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: 0----0
         example_object_type: string
         example_predicate: hsdo:name
-        example_subject: schema:Organization/%25240.99_kindle_books_project
-        example_subject_type: hsdo_Organization
+        example_subject: https://github.com/0----0
+        example_subject_type: hsdo_Person
     - object:
         example_object: Permission to use, copy, modify, and/or distribute this software
           for any
         example_object_type: string
         example_predicate: hsdo:name
-        example_subject: securechain:License/0bsd
-        example_subject_type: hsdo_CreativeWork
+        example_subject: https://spdx.org/licenses/0bsd.html
+        example_subject_type: securechain_License
     - object:
-        example_object: ''
+        example_object: 2n
         example_object_type: string
         example_predicate: hsdo:name
-        example_subject: securechain:Software/
+        example_subject: https://www.google.com/search?q=2n
+        example_subject_type: hsdo_Organization
+    - object:
+        example_object: '360'
+        example_object_type: string
+        example_predicate: hsdo:name
+        example_subject: https://www.google.com/search?q=360
+        example_subject_type: securechain_Hardware
+    - object:
+        example_object: amd
+        example_object_type: string
+        example_predicate: hsdo:name
+        example_subject: https://www.google.com/search?q=amd
         example_subject_type: securechain_Software
-    slot_uri: hsdo:name
     range: string
-  hsdo_url:
-    name: hsdo_url
+    slot_uri: hsdo:name
+  hsdo_programmingLanguage:
     annotations:
-      count:
-        tag: count
-        value: 887
-    description: URL of the item.
-    title: url
+      count: 803769
+    description: No slot (predicate) description specified
     examples:
+    - object:
+        example_object: C/C++
+        example_object_type: string
+        example_predicate: hsdo:programmingLanguage
+        example_subject: https://www.google.com/search?q=amd
+        example_subject_type: securechain_Software
+    - object:
+        example_object: C/C++
+        example_object_type: string
+        example_predicate: hsdo:programmingLanguage
+        example_subject: https://www.google.com/search?q=st
+        example_subject_type: securechain_Hardware
+    range: string
+    slot_uri: hsdo:programmingLanguage
+  hsdo_url:
+    annotations:
+      count: 7734800
+    any_of:
+    - range: string
+    - range: uri
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: https://github.com/ddddddeon/a
+        example_object_type: string
+        example_predicate: hsdo:url
+        example_subject: https://crates.io/crates/a-gpt/0.1.0/
+        example_subject_type: securechain_SoftwareVersion
     - object:
         example_object: '[''https://1password.com'', ''http://1passwd.com'', ''https://1password.com/zh-tw'',
           ''https://1password.com/zh-cn'']'
-        example_object_type: string
+        example_object_type: uri
         example_predicate: hsdo:url
-        example_subject: schema:Organization/1Password
+        example_subject: https://www.google.com/search?q=1Password
         example_subject_type: hsdo_Organization
+    - object:
+        example_object: '[]'
+        example_object_type: uri
+        example_predicate: hsdo:url
+        example_subject: https://www.google.com/search?q=Kernel
+        example_subject_type: securechain_Software
+    range: Any
     slot_uri: hsdo:url
-    range: string
   securechain_dependsOn:
-    name: securechain_dependsOn
     annotations:
-      count:
-        tag: count
-        value: 1679918
-      securechain_SoftwareVersion:
-        tag: securechain_SoftwareVersion
-        value: 982961
-      uri:
-        tag: uri
-        value: 39
+      count: 29787726
+      securechain_SoftwareVersion: 213152
     description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
+    domain: securechain_SoftwareVersion
     examples:
     - object:
-        example_object: securechain:SoftwareVersion/0ad-data#%3E%3D+0.0.17%26%3C%3D+0.0.17-1
+        example_object: https://conan.io/center/recipes/taocpp-json?version=1.0.0-beta.14
         example_object_type: securechain_SoftwareVersion
         example_predicate: securechain:dependsOn
-        example_subject: securechain:SoftwareVersion/0ad#0.0.17-1
+        example_subject: https://conan.io/center/recipes/7bitconf?version=1.0.0
         example_subject_type: securechain_SoftwareVersion
     - object:
-        example_object: securechain:SoftwareVersion/libc6#%3E%3E+2.39%26%3C%3C+2.40
+        example_object: https://www.google.com/search?q=arduinojson+*
         example_object_type: securechain_SoftwareVersion
         example_predicate: securechain:dependsOn
-        example_subject: securechain:SoftwareVersion/zzuf#0.15-4%2Bb3
+        example_subject: https://github.com/ArduinoJson/releases/tag/v4.0
         example_subject_type: None
-    - object:
-        example_object: securechain:SoftwareVersion/dosbox#0.74-2
-        example_object_type: uri
-        example_predicate: securechain:dependsOn
-        example_subject: securechain:SoftwareVersion/dosbox-staging#svn_RELEASE_0_74_2
-        example_subject_type: securechain_SoftwareVersion
-    - object:
-        example_object: securechain:SoftwareVersion/fast_float#v3.4.0
-        example_object_type: uri
-        example_predicate: securechain:dependsOn
-        example_subject: securechain:SoftwareVersion/glaze#v0.0.1
-        example_subject_type: None
+    name: securechain_dependsOn
+    range: securechain_SoftwareVersion
     slot_uri: securechain:dependsOn
-    range: Any
-    any_of:
-    - range: uri
-    - range: securechain_SoftwareVersion
-  securechain_discover:
-    name: securechain_discover
-    annotations:
-      count:
-        tag: count
-        value: 0
-    description: No slot (predicate) description specified
     title: No slot (predicate) name specified
+  securechain_discover:
     comments:
     - No occurrences of this slot in the graph.
-    slot_uri: securechain:discover
-    range: Any
-  securechain_hasHardwareVersion:
-    name: securechain_hasHardwareVersion
-    annotations:
-      count:
-        tag: count
-        value: 57295
     description: No slot (predicate) description specified
+    domain: __B8e37d573f67cafe60bd7c79e143cd62e
+    name: securechain_discover
+    range: securechain_Vulnerability
+    slot_uri: securechain:discover
     title: No slot (predicate) name specified
+  securechain_ecosystem:
+    annotations:
+      count: 803769
+    any_of:
+    - range: hsdo_Text
+    - range: string
+    description: No slot (predicate) description specified
+    domain: securechain_Software
     examples:
     - object:
-        example_object: securechain:HardwareVersion/-#-
+        example_object: Unknown
+        example_object_type: string
+        example_predicate: securechain:ecosystem
+        example_subject: https://www.google.com/search?q=amd
+        example_subject_type: securechain_Software
+    - object:
+        example_object: Unknown
+        example_object_type: string
+        example_predicate: securechain:ecosystem
+        example_subject: https://www.google.com/search?q=st
+        example_subject_type: securechain_Hardware
+    name: securechain_ecosystem
+    range: Any
+    slot_uri: securechain:ecosystem
+    title: No slot (predicate) name specified
+  securechain_hasHardwareVersion:
+    annotations:
+      count: 57295
+    description: No slot (predicate) description specified
+    domain: securechain_Hardware
+    examples:
+    - object:
+        example_object: https://www.google.com/search?q=360+-
         example_object_type: securechain_HardwareVersion
         example_predicate: securechain:hasHardwareVersion
-        example_subject: securechain:Hardware/-
+        example_subject: https://www.google.com/search?q=360
+        example_subject_type: hsdo_Organization
+    - object:
+        example_object: https://www.google.com/search?q=360+-
+        example_object_type: securechain_HardwareVersion
+        example_predicate: securechain:hasHardwareVersion
+        example_subject: https://www.google.com/search?q=360
         example_subject_type: securechain_Hardware
-    slot_uri: securechain:hasHardwareVersion
+    - object:
+        example_object: https://www.google.com/search?q=st+14.2
+        example_object_type: securechain_HardwareVersion
+        example_predicate: securechain:hasHardwareVersion
+        example_subject: https://www.google.com/search?q=st
+        example_subject_type: securechain_Software
+    name: securechain_hasHardwareVersion
     range: securechain_HardwareVersion
-  securechain_hasSoftwareVersion:
-    name: securechain_hasSoftwareVersion
-    annotations:
-      count:
-        tag: count
-        value: 164001
-    description: No slot (predicate) description specified
+    slot_uri: securechain:hasHardwareVersion
     title: No slot (predicate) name specified
+  securechain_hasSoftwareVersion:
+    annotations:
+      count: 8593149
+    description: No slot (predicate) description specified
+    domain: securechain_Software
     examples:
     - object:
-        example_object: securechain:SoftwareVersion/#%22%2F%2Fapi%23%2A
+        example_object: https://www.google.com/search?q=amd+64
         example_object_type: securechain_SoftwareVersion
         example_predicate: securechain:hasSoftwareVersion
-        example_subject: securechain:Software/
+        example_subject: https://www.google.com/search?q=amd
+        example_subject_type: hsdo_Organization
+    - object:
+        example_object: https://www.google.com/search?q=amd+64
+        example_object_type: securechain_SoftwareVersion
+        example_predicate: securechain:hasSoftwareVersion
+        example_subject: https://www.google.com/search?q=amd
         example_subject_type: securechain_Software
-    slot_uri: securechain:hasSoftwareVersion
+    - object:
+        example_object: https://www.google.com/search?q=st+*
+        example_object_type: securechain_SoftwareVersion
+        example_predicate: securechain:hasSoftwareVersion
+        example_subject: https://www.google.com/search?q=st
+        example_subject_type: securechain_Hardware
+    name: securechain_hasSoftwareVersion
     range: securechain_SoftwareVersion
-  securechain_versionName:
-    name: securechain_versionName
-    annotations:
-      count:
-        tag: count
-        value: 221295
-    description: No slot (predicate) description specified
+    slot_uri: securechain:hasSoftwareVersion
     title: No slot (predicate) name specified
+  securechain_operatesOn:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    domain: securechain_SoftwareVersion
+    name: securechain_operatesOn
+    range: securechain_HardwareVersion
+    slot_uri: securechain:operatesOn
+    title: No slot (predicate) name specified
+  securechain_versionName:
+    annotations:
+      count: 8650443
+    any_of:
+    - range: hsdo_Text
+    - range: string
+    description: No slot (predicate) description specified
+    domain: __Bcfd3c14c389f3c8ba32c30498a1d8b29
     examples:
+    - object:
+        example_object: 1.0.0
+        example_object_type: string
+        example_predicate: securechain:versionName
+        example_subject: https://conan.io/center/recipes/7bitconf?version=1.0.0
+        example_subject_type: securechain_SoftwareVersion
     - object:
         example_object: '-'
         example_object_type: string
         example_predicate: securechain:versionName
-        example_subject: securechain:HardwareVersion/-#-
+        example_subject: https://www.google.com/search?q=-+-
         example_subject_type: securechain_HardwareVersion
-    - object:
-        example_object: '"//api#*'
-        example_object_type: string
-        example_predicate: securechain:versionName
-        example_subject: securechain:SoftwareVersion/#%22%2F%2Fapi%23%2A
-        example_subject_type: securechain_SoftwareVersion
+    name: securechain_versionName
+    range: Any
     slot_uri: securechain:versionName
-    range: string
-  securechain_vulnerabilityType:
-    name: securechain_vulnerabilityType
-    annotations:
-      count:
-        tag: count
-        value: 177404
-    description: No slot (predicate) description specified
     title: No slot (predicate) name specified
+  securechain_vulnerabilityType:
+    annotations:
+      count: 177404
+    description: No slot (predicate) description specified
+    domain: securechain_Vulnerability
     examples:
     - object:
-        example_object: securechain:VulnerabilityType/CWE-200
+        example_object: https://cwe.mitre.org/data/definitions/307.html
         example_object_type: securechain_VulnerabilityType
         example_predicate: securechain:vulnerabilityType
-        example_subject: securechain:Vulnerability/CVE-1999-0453
+        example_subject: https://nvd.nist.gov/vuln/detail/CVE-1999-1152
         example_subject_type: securechain_Vulnerability
-    slot_uri: securechain:vulnerabilityType
+    name: securechain_vulnerabilityType
     range: securechain_VulnerabilityType
-  securechain_vulnerableTo:
-    name: securechain_vulnerableTo
-    annotations:
-      count:
-        tag: count
-        value: 472350
-      securechain_Vulnerability:
-        tag: securechain_Vulnerability
-        value: 21897
-    description: No slot (predicate) description specified
+    slot_uri: securechain:vulnerabilityType
     title: No slot (predicate) name specified
+  securechain_vulnerableTo:
+    annotations:
+      count: 835140
+    description: No slot (predicate) description specified
+    domain: securechain_SoftwareVersion
     examples:
     - object:
-        example_object: securechain:Vulnerability/CVE-2019-0162
+        example_object: https://nvd.nist.gov/vuln/detail/CVE-2017-12966
         example_object_type: securechain_Vulnerability
         example_predicate: securechain:vulnerableTo
-        example_subject: securechain:HardwareVersion/-#-
-        example_subject_type: securechain_HardwareVersion
-    - object:
-        example_object: securechain:Vulnerability/CVE-2017-17529
-        example_object_type: securechain_Vulnerability
-        example_predicate: securechain:vulnerableTo
-        example_subject: securechain:SoftwareVersion/abiword#3.0.2-2%2Bdeb9u2
+        example_subject: https://conan.io/center/recipes/asn1c?version=0.9.28
         example_subject_type: securechain_SoftwareVersion
     - object:
-        example_object: securechain:Vulnerability/CVE-2007-4319
+        example_object: https://nvd.nist.gov/vuln/detail/CVE-2019-0162
         example_object_type: securechain_Vulnerability
         example_predicate: securechain:vulnerableTo
-        example_subject: securechain:HardwareVersion/zywall_2#%2A
-        example_subject_type: None
-    slot_uri: securechain:vulnerableTo
+        example_subject: https://www.google.com/search?q=-+-
+        example_subject_type: securechain_HardwareVersion
+    name: securechain_vulnerableTo
     range: securechain_Vulnerability
-classes:
-  Any:
-    name: Any
-    class_uri: linkml:Any
-  hsdo_CreativeWork:
-    name: hsdo_CreativeWork
-    conforms_to: No schema conformance document specified
-    annotations:
-      count:
-        tag: count
-        value: 20
-    description: The most generic kind of creative work, including books, movies,
-      photographs, software programs, etc.
-    title: CreativeWork
-    slots:
-    - hsdo_name
-    - hsdo_identifier
-    slot_usage:
-      hsdo_identifier:
-        name: hsdo_identifier
-        annotations:
-          string:
-            tag: string
-            value: 20
-      hsdo_name:
-        name: hsdo_name
-        annotations:
-          string:
-            tag: string
-            value: 20
-    class_uri: hsdo:CreativeWork
-  hsdo_Intangible:
-    name: hsdo_Intangible
-    conforms_to: No schema conformance document specified
-    annotations:
-      count:
-        tag: count
-        value: 0
-    description: No class (type) description specified
-    title: No class (type) name specified -- this class is noted as a superclass of
-      another class in this graph but has not itself been defined.
-    class_uri: hsdo:Intangible
-  hsdo_Organization:
-    name: hsdo_Organization
-    conforms_to: No schema conformance document specified
-    annotations:
-      count:
-        tag: count
-        value: 22889
-    description: An organization such as a school, NGO, corporation, club, etc.
-    title: Organization
-    slots:
-    - hsdo_name
-    - hsdo_url
-    - hsdo_manufacturer
-    - hsdo_identifier
-    slot_usage:
-      hsdo_identifier:
-        name: hsdo_identifier
-        annotations:
-          string:
-            tag: string
-            value: 887
-      hsdo_manufacturer:
-        name: hsdo_manufacturer
-        annotations:
-          securechain_Hardware:
-            tag: securechain_Hardware
-            value: 54369
-      hsdo_name:
-        name: hsdo_name
-        annotations:
-          string:
-            tag: string
-            value: 22002
-      hsdo_url:
-        name: hsdo_url
-        annotations:
-          string:
-            tag: string
-            value: 887
-    class_uri: hsdo:Organization
-  hsdo_Person:
-    name: hsdo_Person
-    conforms_to: No schema conformance document specified
-    annotations:
-      count:
-        tag: count
-        value: 30434
-    description: A person (alive, dead, undead, or fictional).
-    title: Person
-    slots:
-    - hsdo_identifier
-    slot_usage:
-      hsdo_identifier:
-        name: hsdo_identifier
-        annotations:
-          string:
-            tag: string
-            value: 30434
-    class_uri: hsdo:Person
-  hsdo_Product:
-    name: hsdo_Product
-    conforms_to: No schema conformance document specified
-    annotations:
-      count:
-        tag: count
-        value: 0
-    description: No class (type) description specified
-    title: No class (type) name specified -- this class is noted as a superclass of
-      another class in this graph but has not itself been defined.
-    class_uri: hsdo:Product
-  hsdo_SoftwareApplication:
-    name: hsdo_SoftwareApplication
-    conforms_to: No schema conformance document specified
-    annotations:
-      count:
-        tag: count
-        value: 0
-    description: No class (type) description specified
-    title: No class (type) name specified -- this class is noted as a superclass of
-      another class in this graph but has not itself been defined.
-    class_uri: hsdo:SoftwareApplication
-  securechain_Hardware:
-    name: securechain_Hardware
-    conforms_to: No schema conformance document specified
-    annotations:
-      count:
-        tag: count
-        value: 53378
-    description: No class (type) description specified
-    title: No class (type) name specified
-    is_a: hsdo_Product
-    slots:
-    - securechain_hasHardwareVersion
-    - hsdo_name
-    slot_usage:
-      hsdo_name:
-        name: hsdo_name
-        annotations:
-          string:
-            tag: string
-            value: 53378
-      securechain_hasHardwareVersion:
-        name: securechain_hasHardwareVersion
-        annotations:
-          securechain_HardwareVersion:
-            tag: securechain_HardwareVersion
-            value: 57295
-    class_uri: securechain:Hardware
-  securechain_HardwareVersion:
-    name: securechain_HardwareVersion
-    conforms_to: No schema conformance document specified
-    annotations:
-      count:
-        tag: count
-        value: 57295
-    description: No class (type) description specified
-    title: No class (type) name specified
-    is_a: securechain_Hardware
-    slots:
-    - securechain_versionName
-    - securechain_vulnerableTo
-    slot_usage:
-      securechain_versionName:
-        name: securechain_versionName
-        annotations:
-          string:
-            tag: string
-            value: 57295
-      securechain_vulnerableTo:
-        name: securechain_vulnerableTo
-        annotations:
-          securechain_Vulnerability:
-            tag: securechain_Vulnerability
-            value: 445386
-    class_uri: securechain:HardwareVersion
-  securechain_License:
-    name: securechain_License
-    conforms_to: No schema conformance document specified
-    annotations:
-      count:
-        tag: count
-        value: 0
-    description: No class (type) description specified
-    title: No class (type) name specified
-    is_a: hsdo_CreativeWork
-    class_uri: securechain:License
-  securechain_Software:
-    name: securechain_Software
-    conforms_to: No schema conformance document specified
-    annotations:
-      count:
-        tag: count
-        value: 34469
-    description: No class (type) description specified
-    title: No class (type) name specified
-    is_a: hsdo_SoftwareApplication
-    slots:
-    - hsdo_name
-    - hsdo_contributor
-    - securechain_hasSoftwareVersion
-    slot_usage:
-      hsdo_contributor:
-        name: hsdo_contributor
-        annotations:
-          hsdo_Person:
-            tag: hsdo_Person
-            value: 33048
-      hsdo_name:
-        name: hsdo_name
-        annotations:
-          string:
-            tag: string
-            value: 34466
-      securechain_hasSoftwareVersion:
-        name: securechain_hasSoftwareVersion
-        annotations:
-          securechain_SoftwareVersion:
-            tag: securechain_SoftwareVersion
-            value: 164001
-    class_uri: securechain:Software
-  securechain_SoftwareVersion:
-    name: securechain_SoftwareVersion
-    conforms_to: No schema conformance document specified
-    annotations:
-      count:
-        tag: count
-        value: 164001
-    description: No class (type) description specified
-    title: No class (type) name specified
-    is_a: securechain_Software
-    slots:
-    - securechain_dependsOn
-    - securechain_versionName
-    - securechain_vulnerableTo
-    slot_usage:
-      securechain_dependsOn:
-        name: securechain_dependsOn
-        annotations:
-          securechain_SoftwareVersion:
-            tag: securechain_SoftwareVersion
-            value: 696916
-          uri:
-            tag: uri
-            value: 2
-      securechain_versionName:
-        name: securechain_versionName
-        annotations:
-          string:
-            tag: string
-            value: 164000
-      securechain_vulnerableTo:
-        name: securechain_vulnerableTo
-        annotations:
-          securechain_Vulnerability:
-            tag: securechain_Vulnerability
-            value: 5067
-    class_uri: securechain:SoftwareVersion
-  securechain_Vulnerability:
-    name: securechain_Vulnerability
-    conforms_to: No schema conformance document specified
-    annotations:
-      count:
-        tag: count
-        value: 259334
-    description: No class (type) description specified
-    title: No class (type) name specified
-    is_a: hsdo_Intangible
-    slots:
-    - securechain_vulnerabilityType
-    - hsdo_identifier
-    slot_usage:
-      hsdo_identifier:
-        name: hsdo_identifier
-        annotations:
-          string:
-            tag: string
-            value: 259334
-      securechain_vulnerabilityType:
-        name: securechain_vulnerabilityType
-        annotations:
-          securechain_VulnerabilityType:
-            tag: securechain_VulnerabilityType
-            value: 177404
-    class_uri: securechain:Vulnerability
-  securechain_VulnerabilityType:
-    name: securechain_VulnerabilityType
-    conforms_to: No schema conformance document specified
-    annotations:
-      count:
-        tag: count
-        value: 445
-    description: No class (type) description specified
-    title: No class (type) name specified
-    is_a: hsdo_Intangible
-    slots:
-    - hsdo_identifier
-    slot_usage:
-      hsdo_identifier:
-        name: hsdo_identifier
-        annotations:
-          string:
-            tag: string
-            value: 445
-    class_uri: securechain:VulnerabilityType
-source_file: secure-chain-kg.yaml
+    slot_uri: securechain:vulnerableTo
+    title: No slot (predicate) name specified
+title: securechainkg
+version: No schema version available

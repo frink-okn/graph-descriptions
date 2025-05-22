@@ -1,6 +1,6 @@
 
 
-# Class: No class (type) name specified -- this class is noted as a superclass of another class in this graph but has not itself been defined. (hsdo_SoftwareApplication)
+# Class: No class (entity type) name specified -- this class is noted as a superclass of another class in this graph but has not itself been defined. (hsdo_SoftwareApplication)
 
 
 _No class (type) description specified_
@@ -9,8 +9,6 @@ _No class (type) description specified_
 
 
 
-
-This class occurs 0 times.
 
 
 URI: [hsdo:SoftwareApplication](http://schema.org/SoftwareApplication)
@@ -69,13 +67,9 @@ URI: [hsdo:SoftwareApplication](http://schema.org/SoftwareApplication)
 ```yaml
 name: hsdo_SoftwareApplication
 conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No class (type) description specified
-title: No class (type) name specified -- this class is noted as a superclass of another
-  class in this graph but has not itself been defined.
+title: No class (entity type) name specified -- this class is noted as a superclass
+  of another class in this graph but has not itself been defined.
 from_schema: secure-chain-kg
 rank: 1000
 class_uri: hsdo:SoftwareApplication
@@ -90,13 +84,9 @@ class_uri: hsdo:SoftwareApplication
 ```yaml
 name: hsdo_SoftwareApplication
 conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No class (type) description specified
-title: No class (type) name specified -- this class is noted as a superclass of another
-  class in this graph but has not itself been defined.
+title: No class (entity type) name specified -- this class is noted as a superclass
+  of another class in this graph but has not itself been defined.
 from_schema: secure-chain-kg
 rank: 1000
 class_uri: hsdo:SoftwareApplication

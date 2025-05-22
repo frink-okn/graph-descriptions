@@ -1,16 +1,16 @@
 
 
-# Class: Person (hsdo_Person)
+# Class: No class (type) name specified (hsdo_Person)
 
 
-_A person (alive, dead, undead, or fictional)._
-
-
-
+_No class (type) description specified_
 
 
 
-This class occurs 30434 times.
+
+
+
+This class occurs 27009 times.
 
 
 URI: [hsdo:Person](http://schema.org/Person)
@@ -24,12 +24,12 @@ URI: [hsdo:Person](http://schema.org/Person)
  classDiagram
     class HsdoPerson
     click HsdoPerson href "../HsdoPerson"
-      HsdoPerson : hsdo_identifier
+      HsdoPerson : hsdo_name
         
           
     
     
-    HsdoPerson --> "0..1" String : hsdo_identifier
+    HsdoPerson --> "0..1" String : hsdo_name
     click String href "../String"
 
         
@@ -46,7 +46,7 @@ URI: [hsdo:Person](http://schema.org/Person)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [hsdo_identifier](../slots/hsdo_identifier.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | The identifier property represents any kind of identifier for any kind of [[T... <br/>  | direct | 30434 |
+| [hsdo_name](../slots/hsdo_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 27009 |
 
 
 
@@ -83,20 +83,20 @@ conforms_to: No schema conformance document specified
 annotations:
   count:
     tag: count
-    value: 30434
-description: A person (alive, dead, undead, or fictional).
-title: Person
+    value: 27009
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: secure-chain-kg
 rank: 1000
 slots:
-- hsdo_identifier
+- hsdo_name
 slot_usage:
-  hsdo_identifier:
-    name: hsdo_identifier
+  hsdo_name:
+    name: hsdo_name
     annotations:
       string:
         tag: string
-        value: 30434
+        value: 27009
 class_uri: hsdo:Person
 
 ```
@@ -112,73 +112,69 @@ conforms_to: No schema conformance document specified
 annotations:
   count:
     tag: count
-    value: 30434
-description: A person (alive, dead, undead, or fictional).
-title: Person
+    value: 27009
+description: No class (type) description specified
+title: No class (type) name specified
 from_schema: secure-chain-kg
 rank: 1000
 slot_usage:
-  hsdo_identifier:
-    name: hsdo_identifier
+  hsdo_name:
+    name: hsdo_name
     annotations:
       string:
         tag: string
-        value: 30434
+        value: 27009
 attributes:
-  hsdo_identifier:
-    name: hsdo_identifier
+  hsdo_name:
+    name: hsdo_name
     annotations:
       string:
         tag: string
-        value: 30434
-    description: 'The identifier property represents any kind of identifier for any
-      kind of [[Thing]], such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides
-      dedicated properties for representing many of these, either as textual strings
-      or as URL (URI) links. See [background notes](/docs/datamodel.html#identifierBg)
-      for more details.␊        '
-    title: identifier
+        value: 27009
+    description: No slot (predicate) description specified
     examples:
     - object:
         example_object: 0----0
         example_object_type: string
-        example_predicate: hsdo:identifier
-        example_subject: schema:Person/0----0
+        example_predicate: hsdo:name
+        example_subject: https://github.com/0----0
         example_subject_type: hsdo_Person
     - object:
-        example_object: CVE-1999-0043
+        example_object: Permission to use, copy, modify, and/or distribute this software
+          for any
         example_object_type: string
-        example_predicate: hsdo:identifier
-        example_subject: securechain:Vulnerability/CVE-1999-0043
-        example_subject_type: securechain_Vulnerability
+        example_predicate: hsdo:name
+        example_subject: https://spdx.org/licenses/0bsd.html
+        example_subject_type: securechain_License
     - object:
-        example_object: CWE-1
+        example_object: 2n
         example_object_type: string
-        example_predicate: hsdo:identifier
-        example_subject: securechain:VulnerabilityType/CWE-1
-        example_subject_type: securechain_VulnerabilityType
-    - object:
-        example_object: Q2150861
-        example_object_type: string
-        example_predicate: hsdo:identifier
-        example_subject: schema:Organization/1Password
+        example_predicate: hsdo:name
+        example_subject: https://www.google.com/search?q=2n
         example_subject_type: hsdo_Organization
     - object:
-        example_object: 0bsd
+        example_object: '360'
         example_object_type: string
-        example_predicate: hsdo:identifier
-        example_subject: securechain:License/0bsd
-        example_subject_type: hsdo_CreativeWork
+        example_predicate: hsdo:name
+        example_subject: https://www.google.com/search?q=360
+        example_subject_type: securechain_Hardware
+    - object:
+        example_object: amd
+        example_object_type: string
+        example_predicate: hsdo:name
+        example_subject: https://www.google.com/search?q=amd
+        example_subject_type: securechain_Software
     from_schema: secure-chain-kg
     rank: 1000
-    slot_uri: hsdo:identifier
-    alias: hsdo_identifier
+    slot_uri: hsdo:name
+    alias: hsdo_name
     owner: hsdo_Person
     domain_of:
-    - hsdo_CreativeWork
     - hsdo_Organization
     - hsdo_Person
-    - securechain_Vulnerability
-    - securechain_VulnerabilityType
+    - securechain_Hardware
+    - securechain_License
+    - securechain_Software
     range: string
 class_uri: hsdo:Person
 
