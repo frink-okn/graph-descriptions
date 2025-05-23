@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_siteId
+# Slot: No slot (predicate) name specified (sockg_siteId)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:siteId](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/siteId)
+
+This slot occurs 60 times.
+
+
+URI: [sockg:siteId](https://idir.uta.edu/sockg-ontology/docs/siteId)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:siteId](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carb
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSite](../classes/SockgSite.md) | No type description provided |  no  |
+| [SockgSite](../classes/SockgSite.md) | A Site represents a specific geographical location related to agricultural ac... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:siteId](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carb
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#230712 sockg:siteId ALAUTVS |
-
-## Comments
-
-* 60 occurrences with subject type sockg:Site and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:siteId |
-| native | soc-kg/main/:sockg_siteId |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Site | string | sockg:individuals/231056 | ALAuburn | 60 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:siteId](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carb
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_siteId
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 60 occurrences with subject type sockg:Site and object type string.
+annotations:
+  count:
+    tag: count
+    value: 60
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#230712 sockg:siteId ALAUTVS
-from_schema: soc-kg/main
+- object:
+    example_object: ALAuburn
+    example_object_type: string
+    example_predicate: sockg:siteId
+    example_subject: sockg:individuals/231056
+    example_subject_type: sockg_Site
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Site
 slot_uri: sockg:siteId
 alias: sockg_siteId
 domain_of:

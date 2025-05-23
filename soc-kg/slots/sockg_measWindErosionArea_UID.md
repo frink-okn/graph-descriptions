@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_measWindErosionArea_UID
+# Slot: No slot (predicate) name specified (sockg_measWindErosionArea_UID)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:measWindErosionArea_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/measWindErosionArea_UID)
+
+This slot occurs 15 times.
+
+
+URI: [sockg:measWindErosionArea_UID](https://idir.uta.edu/sockg-ontology/docs/measWindErosionArea_UID)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:measWindErosionArea_UID](http://www.semanticweb.org/sockg/ontologies
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | No type description provided |  no  |
+| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | The WindErosionArea class represents regions affected by wind erosion, detail... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:measWindErosionArea_UID](http://www.semanticweb.org/sockg/ontologies
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#509312 sockg:measWindErosionArea_UID AgCros_TXBSWEWC_COMP6_1963-03-15 |
-
-## Comments
-
-* 15 occurrences with subject type sockg:WindErosionArea and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:measWindErosionArea_UID |
-| native | soc-kg/main/:sockg_measWindErosionArea_UID |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_WindErosionArea | string | sockg:individuals/624572 | AgCros_TXBSWEWC_COMP2_2001-03-15 | 15 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:measWindErosionArea_UID](http://www.semanticweb.org/sockg/ontologies
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_measWindErosionArea_UID
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 15 occurrences with subject type sockg:WindErosionArea and object type string.
+annotations:
+  count:
+    tag: count
+    value: 15
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#509312 sockg:measWindErosionArea_UID AgCros_TXBSWEWC_COMP6_1963-03-15
-from_schema: soc-kg/main
+- object:
+    example_object: AgCros_TXBSWEWC_COMP2_2001-03-15
+    example_object_type: string
+    example_predicate: sockg:measWindErosionArea_UID
+    example_subject: sockg:individuals/624572
+    example_subject_type: sockg_WindErosionArea
+from_schema: soc-kg
 rank: 1000
+domain: sockg_WindErosionArea
 slot_uri: sockg:measWindErosionArea_UID
 alias: sockg_measWindErosionArea_UID
 domain_of:

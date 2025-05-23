@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_mgtGrazing_UID
+# Slot: No slot (predicate) name specified (sockg_mgtGrazing_UID)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:mgtGrazing_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/mgtGrazing_UID)
+
+This slot occurs 1951 times.
+
+
+URI: [sockg:mgtGrazing_UID](https://idir.uta.edu/sockg-ontology/docs/mgtGrazing_UID)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:mgtGrazing_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGrazingManagementEvent](../classes/SockgGrazingManagementEvent.md) | No type description provided |  no  |
+| [SockgGrazingManagementEvent](../classes/SockgGrazingManagementEvent.md) | A GrazingManagementEvent represents a specific instance of land management pr... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:mgtGrazing_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#171813 sockg:mgtGrazing_UID AgCros_GAJPCSR2_B3P109F4H2_2000-10-19_2000-11-16 |
-
-## Comments
-
-* 1951 occurrences with subject type sockg:GrazingManagementEvent and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:mgtGrazing_UID |
-| native | soc-kg/main/:sockg_mgtGrazing_UID |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_GrazingManagementEvent | string | sockg:individuals/170955 | AgCros_PAHAW_P3_2006-05-08_2006-05-12 | 1951 |
 
 
 
@@ -85,20 +56,25 @@ URI: [sockg:mgtGrazing_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_mgtGrazing_UID
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1951 occurrences with subject type sockg:GrazingManagementEvent and object type
-  string.
+annotations:
+  count:
+    tag: count
+    value: 1951
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#171813 sockg:mgtGrazing_UID AgCros_GAJPCSR2_B3P109F4H2_2000-10-19_2000-11-16
-from_schema: soc-kg/main
+- object:
+    example_object: AgCros_PAHAW_P3_2006-05-08_2006-05-12
+    example_object_type: string
+    example_predicate: sockg:mgtGrazing_UID
+    example_subject: sockg:individuals/170955
+    example_subject_type: sockg_GrazingManagementEvent
+from_schema: soc-kg
 rank: 1000
+domain: sockg_GrazingManagementEvent
 slot_uri: sockg:mgtGrazing_UID
 alias: sockg_mgtGrazing_UID
 domain_of:

@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_hasGrazingManagementEvent
+# Slot: No slot (predicate) name specified (sockg_hasGrazingManagementEvent)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:hasGrazingManagementEvent](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/hasGrazingManagementEvent)
+
+This slot occurs 1951 times.
+
+
+URI: [sockg:hasGrazingManagementEvent](https://idir.uta.edu/sockg-ontology/docs/hasGrazingManagementEvent)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:hasGrazingManagementEvent](http://www.semanticweb.org/sockg/ontologi
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | No type description provided |  no  |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | An ExperimentalUnit represents a specific segment of agricultural research fo... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:hasGrazingManagementEvent](http://www.semanticweb.org/sockg/ontologi
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#52278 sockg:hasGrazingManagementEvent neo4j://graph.individuals#171983 |
-
-## Comments
-
-* 1951 occurrences with subject type sockg:ExperimentalUnit and object type sockg:GrazingManagementEvent.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:hasGrazingManagementEvent |
-| native | soc-kg/main/:sockg_hasGrazingManagementEvent |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_ExperimentalUnit | sockg_GrazingManagementEvent | sockg:individuals/51937 | sockg:individuals/172878 | 1951 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:hasGrazingManagementEvent](http://www.semanticweb.org/sockg/ontologi
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_hasGrazingManagementEvent
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1951 occurrences with subject type sockg:ExperimentalUnit and object type sockg:GrazingManagementEvent.
+annotations:
+  count:
+    tag: count
+    value: 1951
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#52278 sockg:hasGrazingManagementEvent neo4j://graph.individuals#171983
-from_schema: soc-kg/main
+- object:
+    example_object: sockg:individuals/172878
+    example_object_type: sockg_GrazingManagementEvent
+    example_predicate: sockg:hasGrazingManagementEvent
+    example_subject: sockg:individuals/51937
+    example_subject_type: sockg_ExperimentalUnit
+from_schema: soc-kg
 rank: 1000
+domain: sockg_ExperimentalUnit
 slot_uri: sockg:hasGrazingManagementEvent
 alias: sockg_hasGrazingManagementEvent
 domain_of:

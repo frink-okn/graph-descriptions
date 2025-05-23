@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_animalClass
+# Slot: No slot (predicate) name specified (sockg_animalClass)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:animalClass](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/animalClass)
+
+This slot occurs 1833 times.
+
+
+URI: [sockg:animalClass](https://idir.uta.edu/sockg-ontology/docs/animalClass)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:animalClass](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGrazingManagementEvent](../classes/SockgGrazingManagementEvent.md) | No type description provided |  no  |
+| [SockgGrazingManagementEvent](../classes/SockgGrazingManagementEvent.md) | A GrazingManagementEvent represents a specific instance of land management pr... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:animalClass](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,75 +46,46 @@ URI: [sockg:animalClass](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#171465 sockg:animalClass Neutered male |
-| neo4j://graph.individuals#172634 sockg:animalClass nan |
-
-## Comments
-
-* 1833 occurrences with subject type sockg:GrazingManagementEvent and object type string.
-* 118 occurrences with subject type sockg:GrazingManagementEvent and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_GrazingManagementEvent | string | sockg:individuals/170961 | Neutered male | 1833 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:animalClass |
-| native | soc-kg/main/:sockg_animalClass |
-
+* [https://lod.nal.usda.gov/nalt/4377260](https://lod.nal.usda.gov/nalt/4377260)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_animalClass
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1833 occurrences with subject type sockg:GrazingManagementEvent and object type
-  string.
-- 118 occurrences with subject type sockg:GrazingManagementEvent and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 1833
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#171465 sockg:animalClass Neutered male
-- value: neo4j://graph.individuals#172634 sockg:animalClass nan
-from_schema: soc-kg/main
+- object:
+    example_object: Neutered male
+    example_object_type: string
+    example_predicate: sockg:animalClass
+    example_subject: sockg:individuals/170961
+    example_subject_type: sockg_GrazingManagementEvent
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/4377260
 rank: 1000
+domain: sockg_GrazingManagementEvent
 slot_uri: sockg:animalClass
 alias: sockg_animalClass
 domain_of:
 - sockg_GrazingManagementEvent
-range: Any
-any_of:
-- range: string
-- range: double
+range: string
 
 ```
 </details>

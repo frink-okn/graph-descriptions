@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_waterQualityConcDataAt
+# Slot: No slot (predicate) name specified (sockg_waterQualityConcDataAt)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:waterQualityConcDataAt](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/waterQualityConcDataAt)
+
+This slot occurs 1479 times.
+
+
+URI: [sockg:waterQualityConcDataAt](https://idir.uta.edu/sockg-ontology/docs/waterQualityConcDataAt)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:waterQualityConcDataAt](http://www.semanticweb.org/sockg/ontologies/
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | No type description provided |  no  |
+| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | WaterQualityConc represents the concentration of various water quality parame... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:waterQualityConcDataAt](http://www.semanticweb.org/sockg/ontologies/
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#361944 sockg:waterQualityConcDataAt neo4j://graph.individuals#55596 |
-
-## Comments
-
-* 1479 occurrences with subject type sockg:WaterQualityConc and object type sockg:Field.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:waterQualityConcDataAt |
-| native | soc-kg/main/:sockg_waterQualityConcDataAt |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_WaterQualityConc | sockg_Field | sockg:individuals/364993 | sockg:individuals/55842 | 1479 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:waterQualityConcDataAt](http://www.semanticweb.org/sockg/ontologies/
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_waterQualityConcDataAt
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1479 occurrences with subject type sockg:WaterQualityConc and object type sockg:Field.
+annotations:
+  count:
+    tag: count
+    value: 1479
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#361944 sockg:waterQualityConcDataAt neo4j://graph.individuals#55596
-from_schema: soc-kg/main
+- object:
+    example_object: sockg:individuals/55842
+    example_object_type: sockg_Field
+    example_predicate: sockg:waterQualityConcDataAt
+    example_subject: sockg:individuals/364993
+    example_subject_type: sockg_WaterQualityConc
+from_schema: soc-kg
 rank: 1000
+domain: sockg_WaterQualityConc
 slot_uri: sockg:waterQualityConcDataAt
 alias: sockg_waterQualityConcDataAt
 domain_of:

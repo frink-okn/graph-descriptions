@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_weatherRecordedBy
+# Slot: No slot (predicate) name specified (sockg_weatherRecordedBy)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:weatherRecordedBy](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/weatherRecordedBy)
+
+This slot occurs 39489 times.
+
+
+URI: [sockg:weatherRecordedBy](https://idir.uta.edu/sockg-ontology/docs/weatherRecordedBy)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:weatherRecordedBy](http://www.semanticweb.org/sockg/ontologies/2024/
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgWeatherStation](../classes/SockgWeatherStation.md) | No type description provided |  no  |
+| [SockgWeatherStation](../classes/SockgWeatherStation.md) | A WeatherStation is a facility that collects and records meteorological data,... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:weatherRecordedBy](http://www.semanticweb.org/sockg/ontologies/2024/
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#509289 sockg:weatherRecordedBy neo4j://graph.individuals#442714 |
-
-## Comments
-
-* 39489 occurrences with subject type sockg:WeatherStation and object type sockg:WeatherObservation.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:weatherRecordedBy |
-| native | soc-kg/main/:sockg_weatherRecordedBy |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_WeatherStation | sockg_WeatherObservation | sockg:individuals/588342 | sockg:individuals/439235 | 39489 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:weatherRecordedBy](http://www.semanticweb.org/sockg/ontologies/2024/
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_weatherRecordedBy
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 39489 occurrences with subject type sockg:WeatherStation and object type sockg:WeatherObservation.
+annotations:
+  count:
+    tag: count
+    value: 39489
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#509289 sockg:weatherRecordedBy neo4j://graph.individuals#442714
-from_schema: soc-kg/main
+- object:
+    example_object: sockg:individuals/439235
+    example_object_type: sockg_WeatherObservation
+    example_predicate: sockg:weatherRecordedBy
+    example_subject: sockg:individuals/588342
+    example_subject_type: sockg_WeatherStation
+from_schema: soc-kg
 rank: 1000
+domain: sockg_WeatherStation
 slot_uri: sockg:weatherRecordedBy
 alias: sockg_weatherRecordedBy
 domain_of:

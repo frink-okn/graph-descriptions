@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_experimentName
+# Slot: No slot (predicate) name specified (sockg_experimentName)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:experimentName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/experimentName)
+
+This slot occurs 55 times.
+
+
+URI: [sockg:experimentName](https://idir.uta.edu/sockg-ontology/docs/experimentName)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:experimentName](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgExperiment](../classes/SockgExperiment.md) | No type description provided |  no  |
+| [SockgExperiment](../classes/SockgExperiment.md) | An Experiment is a structured investigation carried out to observe and analyz... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:experimentName](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#51733 sockg:experimentName Barnyard experiment of gas emissions, and nutrient concentrations in leachate and runoff from dairy cattle lots with different surface materials |
-
-## Comments
-
-* 55 occurrences with subject type sockg:Experiment and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:experimentName |
-| native | soc-kg/main/:sockg_experimentName |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Experiment | string | sockg:individuals/51906 | GRACEnet | 55 |
 
 
 
@@ -85,21 +56,25 @@ URI: [sockg:experimentName](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_experimentName
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 55 occurrences with subject type sockg:Experiment and object type string.
+annotations:
+  count:
+    tag: count
+    value: 55
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#51733 sockg:experimentName Barnyard experiment
-    of gas emissions, and nutrient concentrations in leachate and runoff from dairy
-    cattle lots with different surface materials
-from_schema: soc-kg/main
+- object:
+    example_object: GRACEnet
+    example_object_type: string
+    example_predicate: sockg:experimentName
+    example_subject: sockg:individuals/51906
+    example_subject_type: sockg_Experiment
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Experiment
 slot_uri: sockg:experimentName
 alias: sockg_experimentName
 domain_of:

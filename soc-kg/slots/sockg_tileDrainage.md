@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_tileDrainage
+# Slot: No slot (predicate) name specified (sockg_tileDrainage)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:tileDrainage](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/tileDrainage)
+
+This slot occurs 438 times.
+
+
+URI: [sockg:tileDrainage](https://idir.uta.edu/sockg-ontology/docs/tileDrainage)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:tileDrainage](http://www.semanticweb.org/sockg/ontologies/2024/0/soi
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgTreatment](../classes/SockgTreatment.md) | No type description provided |  no  |
+| [SockgTreatment](../classes/SockgTreatment.md) | The Treatment class encompasses various agricultural practices and management... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:tileDrainage](http://www.semanticweb.org/sockg/ontologies/2024/0/soi
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,44 +46,9 @@ URI: [sockg:tileDrainage](http://www.semanticweb.org/sockg/ontologies/2024/0/soi
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#359754 sockg:tileDrainage nan |
-| neo4j://graph.individuals#359184 sockg:tileDrainage No |
-
-## Comments
-
-* 331 occurrences with subject type sockg:Treatment and object type xsd:double.
-* 438 occurrences with subject type sockg:Treatment and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:tileDrainage |
-| native | soc-kg/main/:sockg_tileDrainage |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Treatment | string | sockg:individuals/363556 | No | 438 |
 
 
 
@@ -87,29 +56,30 @@ URI: [sockg:tileDrainage](http://www.semanticweb.org/sockg/ontologies/2024/0/soi
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_tileDrainage
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 331 occurrences with subject type sockg:Treatment and object type xsd:double.
-- 438 occurrences with subject type sockg:Treatment and object type string.
+annotations:
+  count:
+    tag: count
+    value: 438
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#359754 sockg:tileDrainage nan
-- value: neo4j://graph.individuals#359184 sockg:tileDrainage No
-from_schema: soc-kg/main
+- object:
+    example_object: 'No'
+    example_object_type: string
+    example_predicate: sockg:tileDrainage
+    example_subject: sockg:individuals/363556
+    example_subject_type: sockg_Treatment
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Treatment
 slot_uri: sockg:tileDrainage
 alias: sockg_tileDrainage
 domain_of:
 - sockg_Treatment
-range: Any
-any_of:
-- range: double
-- range: string
+range: string
 
 ```
 </details>

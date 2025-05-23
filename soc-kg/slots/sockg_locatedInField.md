@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_locatedInField
+# Slot: No slot (predicate) name specified (sockg_locatedInField)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:locatedInField](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/locatedInField)
+
+This slot occurs 3809 times.
+
+
+URI: [sockg:locatedInField](https://idir.uta.edu/sockg-ontology/docs/locatedInField)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:locatedInField](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | No type description provided |  no  |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | An ExperimentalUnit represents a specific segment of agricultural research fo... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:locatedInField](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#52970 sockg:locatedInField neo4j://graph.individuals#55561 |
-
-## Comments
-
-* 3809 occurrences with subject type sockg:ExperimentalUnit and object type sockg:Field.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:locatedInField |
-| native | soc-kg/main/:sockg_locatedInField |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_ExperimentalUnit | sockg_Field | sockg:individuals/51937 | sockg:individuals/55816 | 3809 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:locatedInField](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_locatedInField
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 3809 occurrences with subject type sockg:ExperimentalUnit and object type sockg:Field.
+annotations:
+  count:
+    tag: count
+    value: 3809
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#52970 sockg:locatedInField neo4j://graph.individuals#55561
-from_schema: soc-kg/main
+- object:
+    example_object: sockg:individuals/55816
+    example_object_type: sockg_Field
+    example_predicate: sockg:locatedInField
+    example_subject: sockg:individuals/51937
+    example_subject_type: sockg_ExperimentalUnit
+from_schema: soc-kg
 rank: 1000
+domain: sockg_ExperimentalUnit
 slot_uri: sockg:locatedInField
 alias: sockg_locatedInField
 domain_of:

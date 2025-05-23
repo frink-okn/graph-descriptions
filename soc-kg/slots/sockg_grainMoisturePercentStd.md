@@ -3,13 +3,17 @@
 # Slot: sockg_grainMoisturePercentStd
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:grainMoisturePercentStd](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/grainMoisturePercentStd)
+
+This slot occurs 30 times.
+
+
+URI: [sockg:grainMoisturePercentStd](https://idir.uta.edu/sockg-ontology/docs/grainMoisturePercentStd)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:grainMoisturePercentStd](http://www.semanticweb.org/sockg/ontologies
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgHarvest](../classes/SockgHarvest.md) | No type description provided |  no  |
+| [SockgHarvest](../classes/SockgHarvest.md) | Harvest represents the process of collecting mature crops from the fields, wi... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:grainMoisturePercentStd](http://www.semanticweb.org/sockg/ontologies
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#175979 sockg:grainMoisturePercentStd nan |
-
-## Comments
-
-* 18356 occurrences with subject type sockg:Harvest and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:grainMoisturePercentStd |
-| native | soc-kg/main/:sockg_grainMoisturePercentStd |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Harvest | double | sockg:individuals/182268 | 0.1 | 30 |
 
 
 
@@ -85,18 +56,22 @@ URI: [sockg:grainMoisturePercentStd](http://www.semanticweb.org/sockg/ontologies
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_grainMoisturePercentStd
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 18356 occurrences with subject type sockg:Harvest and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 30
+description: No slot (predicate) description specified
 examples:
-- value: neo4j://graph.individuals#175979 sockg:grainMoisturePercentStd nan
-from_schema: soc-kg/main
+- object:
+    example_object: '0.1'
+    example_object_type: double
+    example_predicate: sockg:grainMoisturePercentStd
+    example_subject: sockg:individuals/182268
+    example_subject_type: sockg_Harvest
+from_schema: soc-kg
 rank: 1000
 slot_uri: sockg:grainMoisturePercentStd
 alias: sockg_grainMoisturePercentStd

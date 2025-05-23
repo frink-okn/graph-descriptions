@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_stateProvince
+# Slot: No slot (predicate) name specified (sockg_stateProvince)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:stateProvince](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/stateProvince)
+
+This slot occurs 19 times.
+
+
+URI: [sockg:stateProvince](https://idir.uta.edu/sockg-ontology/docs/stateProvince)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:stateProvince](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgState](../classes/SockgState.md) | No type description provided |  no  |
+| [SockgState](../classes/SockgState.md) | A State represents a regional jurisdiction within a country, often defined by... |  yes  |
 
 
 
@@ -42,62 +46,41 @@ URI: [sockg:stateProvince](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#331912 sockg:stateProvince CO |
-
-## Comments
-
-* 20 occurrences with subject type sockg:State and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_State | string | sockg:individuals/336400 | AL | 19 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:stateProvince |
-| native | soc-kg/main/:sockg_stateProvince |
-
+* [https://lod.nal.usda.gov/nalt/5430914](https://lod.nal.usda.gov/nalt/5430914)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_stateProvince
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 20 occurrences with subject type sockg:State and object type string.
+annotations:
+  count:
+    tag: count
+    value: 19
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#331912 sockg:stateProvince CO
-from_schema: soc-kg/main
+- object:
+    example_object: AL
+    example_object_type: string
+    example_predicate: sockg:stateProvince
+    example_subject: sockg:individuals/336400
+    example_subject_type: sockg_State
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/5430914
 rank: 1000
+domain: sockg_State
 slot_uri: sockg:stateProvince
 alias: sockg_stateProvince
 domain_of:

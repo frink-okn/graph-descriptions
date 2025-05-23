@@ -1,15 +1,19 @@
 
 
-# Class: TODO -- what's a good name for what this class (type) describes? (sockg_Country)
+# Class: No class (entity type) name specified (sockg_Country)
 
 
-_No type description provided_
+_A Country is a distinct territorial body with its own government and borders, often influencing agricultural policies and practices. It serves as a fundamental unit in understanding agricultural production, trade, and the distribution of resources vital for farming._
 
 
 
 
 
-URI: [sockg:Country](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/Country)
+
+This class occurs 3 times.
+
+
+URI: [sockg:Country](https://idir.uta.edu/sockg-ontology/docs/Country)
 
 
 
@@ -49,10 +53,10 @@ URI: [sockg:Country](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [sockg_hasState](../slots/sockg_hasState.md) | 0..1 <br/> [SockgState](../classes/SockgState.md) | No slot description provided | direct |
-| [sockg_countryName](../slots/sockg_countryName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot description provided | direct |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
+| [sockg_countryName](../slots/sockg_countryName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 3 |
+| [sockg_hasState](../slots/sockg_hasState.md) | 0..1 <br/> [SockgState](../classes/SockgState.md) | No slot (predicate) description specified <br/>  | direct | 19 |
 
 
 
@@ -62,48 +66,13 @@ URI: [sockg:Country](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
+| [SockgCountry](../classes/SockgCountry.md) | [sockg_countryName](../slots/sockg_countryName.md) | domain | [SockgCountry](../classes/SockgCountry.md) |
+| [SockgCountry](../classes/SockgCountry.md) | [sockg_hasState](../slots/sockg_hasState.md) | domain | [SockgCountry](../classes/SockgCountry.md) |
 | [SockgSite](../classes/SockgSite.md) | [sockg_locatedInCountry](../slots/sockg_locatedInCountry.md) | range | [SockgCountry](../classes/SockgCountry.md) |
 
 
 
 
-
-
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#46720 |
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:Country |
-| native | soc-kg/main/:SockgCountry |
 
 
 
@@ -118,23 +87,37 @@ URI: [sockg:Country](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 ### Direct
 
 <details>
+
 ```yaml
 name: sockg_Country
-description: No type description provided
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- There are 3 instances of this class.
-examples:
-- value: neo4j://graph.individuals#46720
-from_schema: soc-kg/main
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 3
+description: A Country is a distinct territorial body with its own government and
+  borders, often influencing agricultural policies and practices. It serves as a fundamental
+  unit in understanding agricultural production, trade, and the distribution of resources
+  vital for farming.
+title: No class (entity type) name specified
+from_schema: soc-kg
 rank: 1000
 slots:
-- sockg_hasState
 - sockg_countryName
+- sockg_hasState
+slot_usage:
+  sockg_countryName:
+    name: sockg_countryName
+    annotations:
+      string:
+        tag: string
+        value: 3
+  sockg_hasState:
+    name: sockg_hasState
+    annotations:
+      sockg_State:
+        tag: sockg_State
+        value: 19
 class_uri: sockg:Country
 
 ```
@@ -143,59 +126,83 @@ class_uri: sockg:Country
 ### Induced
 
 <details>
+
 ```yaml
 name: sockg_Country
-description: No type description provided
-title: TODO -- what's a good name for what this class (type) describes?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- There are 3 instances of this class.
-examples:
-- value: neo4j://graph.individuals#46720
-from_schema: soc-kg/main
+conforms_to: No schema conformance document specified
+annotations:
+  count:
+    tag: count
+    value: 3
+description: A Country is a distinct territorial body with its own government and
+  borders, often influencing agricultural policies and practices. It serves as a fundamental
+  unit in understanding agricultural production, trade, and the distribution of resources
+  vital for farming.
+title: No class (entity type) name specified
+from_schema: soc-kg
 rank: 1000
-attributes:
-  sockg_hasState:
-    name: sockg_hasState
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 20 occurrences with subject type sockg:Country and object type sockg:State.
-    examples:
-    - value: neo4j://graph.individuals#46720 sockg:hasState neo4j://graph.individuals#331926
-    from_schema: soc-kg/main
-    rank: 1000
-    slot_uri: sockg:hasState
-    alias: sockg_hasState
-    owner: sockg_Country
-    domain_of:
-    - sockg_Country
-    range: sockg_State
+slot_usage:
   sockg_countryName:
     name: sockg_countryName
-    description: No slot description provided
-    todos:
-    - TODO -- Todos for this slot go here
-    - or you can delete the todos
-    - if you think the class is perfect.
-    comments:
-    - 3 occurrences with subject type sockg:Country and object type string.
+    annotations:
+      string:
+        tag: string
+        value: 3
+  sockg_hasState:
+    name: sockg_hasState
+    annotations:
+      sockg_State:
+        tag: sockg_State
+        value: 19
+attributes:
+  sockg_countryName:
+    name: sockg_countryName
+    annotations:
+      string:
+        tag: string
+        value: 3
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
-    - value: neo4j://graph.individuals#46721 sockg:countryName United States
-    from_schema: soc-kg/main
+    - object:
+        example_object: USA
+        example_object_type: string
+        example_predicate: sockg:countryName
+        example_subject: sockg:individuals/46901
+        example_subject_type: sockg_Country
+    from_schema: soc-kg
     rank: 1000
+    domain: sockg_Country
     slot_uri: sockg:countryName
     alias: sockg_countryName
     owner: sockg_Country
     domain_of:
     - sockg_Country
     range: string
+  sockg_hasState:
+    name: sockg_hasState
+    annotations:
+      sockg_State:
+        tag: sockg_State
+        value: 19
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/336400
+        example_object_type: sockg_State
+        example_predicate: sockg:hasState
+        example_subject: sockg:individuals/46901
+        example_subject_type: sockg_Country
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Country
+    slot_uri: sockg:hasState
+    alias: sockg_hasState
+    owner: sockg_Country
+    domain_of:
+    - sockg_Country
+    range: sockg_State
 class_uri: sockg:Country
 
 ```

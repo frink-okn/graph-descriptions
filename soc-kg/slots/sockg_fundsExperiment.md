@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_fundsExperiment
+# Slot: No slot (predicate) name specified (sockg_fundsExperiment)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:fundsExperiment](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/fundsExperiment)
+
+This slot occurs 3 times.
+
+
+URI: [sockg:fundsExperiment](https://idir.uta.edu/sockg-ontology/docs/fundsExperiment)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:fundsExperiment](http://www.semanticweb.org/sockg/ontologies/2024/0/
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgOrganization](../classes/SockgOrganization.md) | No type description provided |  no  |
+| [SockgOrganization](../classes/SockgOrganization.md) | An Organization is a structured group of individuals working together to achi... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:fundsExperiment](http://www.semanticweb.org/sockg/ontologies/2024/0/
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#203273 sockg:fundsExperiment neo4j://graph.individuals#51709 |
-
-## Comments
-
-* 3 occurrences with subject type sockg:Organization and object type sockg:Experiment.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:fundsExperiment |
-| native | soc-kg/main/:sockg_fundsExperiment |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Organization | sockg_Experiment | sockg:individuals/203523 | sockg:individuals/51906 | 3 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:fundsExperiment](http://www.semanticweb.org/sockg/ontologies/2024/0/
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_fundsExperiment
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 3 occurrences with subject type sockg:Organization and object type sockg:Experiment.
+annotations:
+  count:
+    tag: count
+    value: 3
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#203273 sockg:fundsExperiment neo4j://graph.individuals#51709
-from_schema: soc-kg/main
+- object:
+    example_object: sockg:individuals/51906
+    example_object_type: sockg_Experiment
+    example_predicate: sockg:fundsExperiment
+    example_subject: sockg:individuals/203523
+    example_subject_type: sockg_Organization
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Organization
 slot_uri: sockg:fundsExperiment
 alias: sockg_fundsExperiment
 domain_of:

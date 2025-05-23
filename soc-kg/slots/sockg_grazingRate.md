@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_grazingRate
+# Slot: No slot (predicate) name specified (sockg_grazingRate)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:grazingRate](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/grazingRate)
+
+This slot occurs 20 times.
+
+
+URI: [sockg:grazingRate](https://idir.uta.edu/sockg-ontology/docs/grazingRate)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:grazingRate](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgTreatment](../classes/SockgTreatment.md) | No type description provided |  no  |
+| [SockgTreatment](../classes/SockgTreatment.md) | The Treatment class encompasses various agricultural practices and management... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:grazingRate](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,74 +46,46 @@ URI: [sockg:grazingRate](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#359097 sockg:grazingRate nan |
-| neo4j://graph.individuals#359162 sockg:grazingRate Low |
-
-## Comments
-
-* 749 occurrences with subject type sockg:Treatment and object type xsd:double.
-* 20 occurrences with subject type sockg:Treatment and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Treatment | string | sockg:individuals/363643 | Low | 20 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:grazingRate |
-| native | soc-kg/main/:sockg_grazingRate |
-
+* [https://lod.nal.usda.gov/nalt/43782](https://lod.nal.usda.gov/nalt/43782)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_grazingRate
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 749 occurrences with subject type sockg:Treatment and object type xsd:double.
-- 20 occurrences with subject type sockg:Treatment and object type string.
+annotations:
+  count:
+    tag: count
+    value: 20
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#359097 sockg:grazingRate nan
-- value: neo4j://graph.individuals#359162 sockg:grazingRate Low
-from_schema: soc-kg/main
+- object:
+    example_object: Low
+    example_object_type: string
+    example_predicate: sockg:grazingRate
+    example_subject: sockg:individuals/363643
+    example_subject_type: sockg_Treatment
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/43782
 rank: 1000
+domain: sockg_Treatment
 slot_uri: sockg:grazingRate
 alias: sockg_grazingRate
 domain_of:
 - sockg_Treatment
-range: Any
-any_of:
-- range: double
-- range: string
+range: string
 
 ```
 </details>

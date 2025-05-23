@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_mgtPlanting_UID
+# Slot: No slot (predicate) name specified (sockg_mgtPlanting_UID)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:mgtPlanting_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/mgtPlanting_UID)
+
+This slot occurs 23450 times.
+
+
+URI: [sockg:mgtPlanting_UID](https://idir.uta.edu/sockg-ontology/docs/mgtPlanting_UID)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:mgtPlanting_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPlantingEvent](../classes/SockgPlantingEvent.md) | No type description provided |  no  |
+| [SockgPlantingEvent](../classes/SockgPlantingEvent.md) | An event involving the act of planting, which includes considerations for spa... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:mgtPlanting_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#223367 sockg:mgtPlanting_UID AgCros_NELITCSE_507_2009-05-14_Glycine_max_Soybean_ |
-
-## Comments
-
-* 23450 occurrences with subject type sockg:PlantingEvent and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:mgtPlanting_UID |
-| native | soc-kg/main/:sockg_mgtPlanting_UID |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_PlantingEvent | string | sockg:individuals/203988 | AgCros_MNMOFS_71_2004-11-04_Secale_cereale_Rye_ | 23450 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:mgtPlanting_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_mgtPlanting_UID
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 23450 occurrences with subject type sockg:PlantingEvent and object type string.
+annotations:
+  count:
+    tag: count
+    value: 23450
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#223367 sockg:mgtPlanting_UID AgCros_NELITCSE_507_2009-05-14_Glycine_max_Soybean_
-from_schema: soc-kg/main
+- object:
+    example_object: AgCros_MNMOFS_71_2004-11-04_Secale_cereale_Rye_
+    example_object_type: string
+    example_predicate: sockg:mgtPlanting_UID
+    example_subject: sockg:individuals/203988
+    example_subject_type: sockg_PlantingEvent
+from_schema: soc-kg
 rank: 1000
+domain: sockg_PlantingEvent
 slot_uri: sockg:mgtPlanting_UID
 alias: sockg_mgtPlanting_UID
 domain_of:

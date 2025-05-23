@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_coverCrop
+# Slot: No slot (predicate) name specified (sockg_coverCrop)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:coverCrop](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/coverCrop)
+
+This slot occurs 194 times.
+
+
+URI: [sockg:coverCrop](https://idir.uta.edu/sockg-ontology/docs/coverCrop)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:coverCrop](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgTreatment](../classes/SockgTreatment.md) | No type description provided |  no  |
+| [SockgTreatment](../classes/SockgTreatment.md) | The Treatment class encompasses various agricultural practices and management... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:coverCrop](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,74 +46,46 @@ URI: [sockg:coverCrop](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-c
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#359399 sockg:coverCrop nan |
-| neo4j://graph.individuals#359662 sockg:coverCrop Secale cereale (Rye) |
-
-## Comments
-
-* 575 occurrences with subject type sockg:Treatment and object type xsd:double.
-* 194 occurrences with subject type sockg:Treatment and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Treatment | string | sockg:individuals/363568 | Avena strigosa/Secale cereale (Black Oat/Rye) | 194 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:coverCrop |
-| native | soc-kg/main/:sockg_coverCrop |
-
+* [https://lod.nal.usda.gov/nalt/28616](https://lod.nal.usda.gov/nalt/28616)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_coverCrop
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 575 occurrences with subject type sockg:Treatment and object type xsd:double.
-- 194 occurrences with subject type sockg:Treatment and object type string.
+annotations:
+  count:
+    tag: count
+    value: 194
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#359399 sockg:coverCrop nan
-- value: neo4j://graph.individuals#359662 sockg:coverCrop Secale cereale (Rye)
-from_schema: soc-kg/main
+- object:
+    example_object: Avena strigosa/Secale cereale (Black Oat/Rye)
+    example_object_type: string
+    example_predicate: sockg:coverCrop
+    example_subject: sockg:individuals/363568
+    example_subject_type: sockg_Treatment
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/28616
 rank: 1000
+domain: sockg_Treatment
 slot_uri: sockg:coverCrop
 alias: sockg_coverCrop
 domain_of:
 - sockg_Treatment
-range: Any
-any_of:
-- range: double
-- range: string
+range: string
 
 ```
 </details>

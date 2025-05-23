@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_measGasNutrientLoss_UID
+# Slot: No slot (predicate) name specified (sockg_measGasNutrientLoss_UID)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:measGasNutrientLoss_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/measGasNutrientLoss_UID)
+
+This slot occurs 748 times.
+
+
+URI: [sockg:measGasNutrientLoss_UID](https://idir.uta.edu/sockg-ontology/docs/measGasNutrientLoss_UID)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:measGasNutrientLoss_UID](http://www.semanticweb.org/sockg/ontologies
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | No type description provided |  no  |
+| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | The GasNutrientLoss class represents the assessment of gaseous nutrient losse... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:measGasNutrientLoss_UID](http://www.semanticweb.org/sockg/ontologies
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#55732 sockg:measGasNutrientLoss_UID AgCros_WIPDBARN_7_2012-10-25 |
-
-## Comments
-
-* 748 occurrences with subject type sockg:GasNutrientLoss and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:measGasNutrientLoss_UID |
-| native | soc-kg/main/:sockg_measGasNutrientLoss_UID |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_GasNutrientLoss | string | sockg:individuals/55858 | AgCros_IAAMKELL_116_2008-05-01 | 748 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:measGasNutrientLoss_UID](http://www.semanticweb.org/sockg/ontologies
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_measGasNutrientLoss_UID
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 748 occurrences with subject type sockg:GasNutrientLoss and object type string.
+annotations:
+  count:
+    tag: count
+    value: 748
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#55732 sockg:measGasNutrientLoss_UID AgCros_WIPDBARN_7_2012-10-25
-from_schema: soc-kg/main
+- object:
+    example_object: AgCros_IAAMKELL_116_2008-05-01
+    example_object_type: string
+    example_predicate: sockg:measGasNutrientLoss_UID
+    example_subject: sockg:individuals/55858
+    example_subject_type: sockg_GasNutrientLoss
+from_schema: soc-kg
 rank: 1000
+domain: sockg_GasNutrientLoss
 slot_uri: sockg:measGasNutrientLoss_UID
 alias: sockg_measGasNutrientLoss_UID
 domain_of:

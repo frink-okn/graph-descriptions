@@ -1,15 +1,17 @@
 
 
-# Slot: sockg_grainWeightKernelYnu_mg
+# Slot: No slot (predicate) name specified (sockg_grainWeightKernelYnu_mg)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:grainWeightKernelYnu_mg](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/grainWeightKernelYnu_mg)
+
+
+URI: [sockg:grainWeightKernelYnu_mg](https://idir.uta.edu/sockg-ontology/docs/grainWeightKernelYnu_mg)
 
 
 
@@ -19,90 +21,39 @@ URI: [sockg:grainWeightKernelYnu_mg](http://www.semanticweb.org/sockg/ontologies
 
 
 
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | No type description provided |  no  |
-
-
-
-
 
 
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
 
-
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#509409 sockg:grainWeightKernelYnu_mg nan |
 
 ## Comments
 
-* 429 occurrences with subject type sockg:YieldNutrientUptake and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:grainWeightKernelYnu_mg |
-| native | soc-kg/main/:sockg_grainWeightKernelYnu_mg |
-
+* No occurrences of this slot in the graph.
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_grainWeightKernelYnu_mg
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 comments:
-- 429 occurrences with subject type sockg:YieldNutrientUptake and object type xsd:double.
-examples:
-- value: neo4j://graph.individuals#509409 sockg:grainWeightKernelYnu_mg nan
-from_schema: soc-kg/main
+- No occurrences of this slot in the graph.
+from_schema: soc-kg
 rank: 1000
+domain: sockg_YieldNutrientUptake
 slot_uri: sockg:grainWeightKernelYnu_mg
 alias: sockg_grainWeightKernelYnu_mg
-domain_of:
-- sockg_YieldNutrientUptake
-range: double
+range: float
 
 ```
 </details>

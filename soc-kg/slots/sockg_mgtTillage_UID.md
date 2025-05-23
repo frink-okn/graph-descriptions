@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_mgtTillage_UID
+# Slot: No slot (predicate) name specified (sockg_mgtTillage_UID)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:mgtTillage_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/mgtTillage_UID)
+
+This slot occurs 27137 times.
+
+
+URI: [sockg:mgtTillage_UID](https://idir.uta.edu/sockg-ontology/docs/mgtTillage_UID)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:mgtTillage_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgTillage](../classes/SockgTillage.md) | No type description provided |  no  |
+| [SockgTillage](../classes/SockgTillage.md) | Tillage refers to the agricultural preparation of soil through mechanical agi... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:mgtTillage_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#347758 sockg:mgtTillage_UID AgCros_MNSPReap_202LA_2008-01-01_Zea_mays_Corn_ |
-
-## Comments
-
-* 27137 occurrences with subject type sockg:Tillage and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:mgtTillage_UID |
-| native | soc-kg/main/:sockg_mgtTillage_UID |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Tillage | string | sockg:individuals/336419 | AgCros_NEMLTCRS_105N_1987-04-30_Zea_mays_Corn_ | 27137 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:mgtTillage_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_mgtTillage_UID
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 27137 occurrences with subject type sockg:Tillage and object type string.
+annotations:
+  count:
+    tag: count
+    value: 27137
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#347758 sockg:mgtTillage_UID AgCros_MNSPReap_202LA_2008-01-01_Zea_mays_Corn_
-from_schema: soc-kg/main
+- object:
+    example_object: AgCros_NEMLTCRS_105N_1987-04-30_Zea_mays_Corn_
+    example_object_type: string
+    example_predicate: sockg:mgtTillage_UID
+    example_subject: sockg:individuals/336419
+    example_subject_type: sockg_Tillage
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Tillage
 slot_uri: sockg:mgtTillage_UID
 alias: sockg_mgtTillage_UID
 domain_of:

@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_yieldNutrUptakeDataAt
+# Slot: No slot (predicate) name specified (sockg_yieldNutrUptakeDataAt)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:yieldNutrUptakeDataAt](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/yieldNutrUptakeDataAt)
+
+This slot occurs 429 times.
+
+
+URI: [sockg:yieldNutrUptakeDataAt](https://idir.uta.edu/sockg-ontology/docs/yieldNutrUptakeDataAt)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:yieldNutrUptakeDataAt](http://www.semanticweb.org/sockg/ontologies/2
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | No type description provided |  no  |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:yieldNutrUptakeDataAt](http://www.semanticweb.org/sockg/ontologies/2
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#509380 sockg:yieldNutrUptakeDataAt neo4j://graph.individuals#55597 |
-
-## Comments
-
-* 429 occurrences with subject type sockg:YieldNutrientUptake and object type sockg:Field.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:yieldNutrUptakeDataAt |
-| native | soc-kg/main/:sockg_yieldNutrUptakeDataAt |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_YieldNutrientUptake | sockg_Field | sockg:individuals/624587 | sockg:individuals/55845 | 429 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:yieldNutrUptakeDataAt](http://www.semanticweb.org/sockg/ontologies/2
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_yieldNutrUptakeDataAt
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 429 occurrences with subject type sockg:YieldNutrientUptake and object type sockg:Field.
+annotations:
+  count:
+    tag: count
+    value: 429
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#509380 sockg:yieldNutrUptakeDataAt neo4j://graph.individuals#55597
-from_schema: soc-kg/main
+- object:
+    example_object: sockg:individuals/55845
+    example_object_type: sockg_Field
+    example_predicate: sockg:yieldNutrUptakeDataAt
+    example_subject: sockg:individuals/624587
+    example_subject_type: sockg_YieldNutrientUptake
+from_schema: soc-kg
 rank: 1000
+domain: sockg_YieldNutrientUptake
 slot_uri: sockg:yieldNutrUptakeDataAt
 alias: sockg_yieldNutrUptakeDataAt
 domain_of:

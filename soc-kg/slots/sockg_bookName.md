@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_bookName
+# Slot: No slot (predicate) name specified (sockg_bookName)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:bookName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/bookName)
+
+This slot occurs 2 times.
+
+
+URI: [sockg:bookName](https://idir.uta.edu/sockg-ontology/docs/bookName)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:bookName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-ca
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgBook](../classes/SockgBook.md) | No type description provided |  no  |
+| [SockgBook](../classes/SockgBook.md) | A Book is a written or printed work that provides information, stories, or re... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:bookName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-ca
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#46685 sockg:bookName Fractal Frontiers |
-
-## Comments
-
-* 2 occurrences with subject type sockg:Book and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:bookName |
-| native | soc-kg/main/:sockg_bookName |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Book | string | sockg:individuals/46749 | Fractal Frontiers | 2 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:bookName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-ca
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_bookName
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 2 occurrences with subject type sockg:Book and object type string.
+annotations:
+  count:
+    tag: count
+    value: 2
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#46685 sockg:bookName Fractal Frontiers
-from_schema: soc-kg/main
+- object:
+    example_object: Fractal Frontiers
+    example_object_type: string
+    example_predicate: sockg:bookName
+    example_subject: sockg:individuals/46749
+    example_subject_type: sockg_Book
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Book
 slot_uri: sockg:bookName
 alias: sockg_bookName
 domain_of:

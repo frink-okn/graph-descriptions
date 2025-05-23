@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_hasCity
+# Slot: No slot (predicate) name specified (sockg_hasCity)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:hasCity](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/hasCity)
+
+This slot occurs 33 times.
+
+
+URI: [sockg:hasCity](https://idir.uta.edu/sockg-ontology/docs/hasCity)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:hasCity](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgCounty](../classes/SockgCounty.md) | No type description provided |  no  |
+| [SockgCounty](../classes/SockgCounty.md) | A County represents a specific geographical area within a state, often encomp... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:hasCity](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#46724 sockg:hasCity neo4j://graph.individuals#46688 |
-
-## Comments
-
-* 33 occurrences with subject type sockg:County and object type sockg:City.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:hasCity |
-| native | soc-kg/main/:sockg_hasCity |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_County | sockg_City | sockg:individuals/46904 | sockg:individuals/46864 | 33 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:hasCity](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_hasCity
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 33 occurrences with subject type sockg:County and object type sockg:City.
+annotations:
+  count:
+    tag: count
+    value: 33
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#46724 sockg:hasCity neo4j://graph.individuals#46688
-from_schema: soc-kg/main
+- object:
+    example_object: sockg:individuals/46864
+    example_object_type: sockg_City
+    example_predicate: sockg:hasCity
+    example_subject: sockg:individuals/46904
+    example_subject_type: sockg_County
+from_schema: soc-kg
 rank: 1000
+domain: sockg_County
 slot_uri: sockg:hasCity
 alias: sockg_hasCity
 domain_of:

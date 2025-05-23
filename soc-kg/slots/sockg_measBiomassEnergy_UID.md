@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_measBiomassEnergy_UID
+# Slot: No slot (predicate) name specified (sockg_measBiomassEnergy_UID)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:measBiomassEnergy_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/measBiomassEnergy_UID)
+
+This slot occurs 799 times.
+
+
+URI: [sockg:measBiomassEnergy_UID](https://idir.uta.edu/sockg-ontology/docs/measBiomassEnergy_UID)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:measBiomassEnergy_UID](http://www.semanticweb.org/sockg/ontologies/2
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgBioMassEnergy](../classes/SockgBioMassEnergy.md) | No type description provided |  no  |
+| [SockgBioMassEnergy](../classes/SockgBioMassEnergy.md) | BioMassEnergy represents the energy content derived from agricultural biomass... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:measBiomassEnergy_UID](http://www.semanticweb.org/sockg/ontologies/2
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#39390 sockg:measBiomassEnergy_UID AgCros_SCFLSGI_421_2009-09-01_Zea_mays_Corn_Above_earshank |
-
-## Comments
-
-* 799 occurrences with subject type sockg:BioMassEnergy and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:measBiomassEnergy_UID |
-| native | soc-kg/main/:sockg_measBiomassEnergy_UID |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_BioMassEnergy | string | sockg:individuals/39163 | AgCros_SCFLSGI_245_2008-09-04_Zea_mays_Corn_Below_earshank_leaves | 799 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:measBiomassEnergy_UID](http://www.semanticweb.org/sockg/ontologies/2
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_measBiomassEnergy_UID
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 799 occurrences with subject type sockg:BioMassEnergy and object type string.
+annotations:
+  count:
+    tag: count
+    value: 799
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#39390 sockg:measBiomassEnergy_UID AgCros_SCFLSGI_421_2009-09-01_Zea_mays_Corn_Above_earshank
-from_schema: soc-kg/main
+- object:
+    example_object: AgCros_SCFLSGI_245_2008-09-04_Zea_mays_Corn_Below_earshank_leaves
+    example_object_type: string
+    example_predicate: sockg:measBiomassEnergy_UID
+    example_subject: sockg:individuals/39163
+    example_subject_type: sockg_BioMassEnergy
+from_schema: soc-kg
 rank: 1000
+domain: sockg_BioMassEnergy
 slot_uri: sockg:measBiomassEnergy_UID
 alias: sockg_measBiomassEnergy_UID
 domain_of:

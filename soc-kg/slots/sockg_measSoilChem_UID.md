@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_measSoilChem_UID
+# Slot: No slot (predicate) name specified (sockg_measSoilChem_UID)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:measSoilChem_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/measSoilChem_UID)
+
+This slot occurs 53833 times.
+
+
+URI: [sockg:measSoilChem_UID](https://idir.uta.edu/sockg-ontology/docs/measSoilChem_UID)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:measSoilChem_UID](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | No type description provided |  no  |
+| [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | The SoilChemicalSample class represents a comprehensive analysis of soil chem... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:measSoilChem_UID](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#291133 sockg:measSoilChem_UID AgCros_MNMOBRR_415_2005-10-20_5.0_10.0 |
-
-## Comments
-
-* 53833 occurrences with subject type sockg:SoilChemicalSample and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:measSoilChem_UID |
-| native | soc-kg/main/:sockg_measSoilChem_UID |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_SoilChemicalSample | string | sockg:individuals/253451 | AgCros_MNMOFS_52_2007-10-29_10.0_15.0 | 53833 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:measSoilChem_UID](http://www.semanticweb.org/sockg/ontologies/2024/0
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_measSoilChem_UID
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 53833 occurrences with subject type sockg:SoilChemicalSample and object type string.
+annotations:
+  count:
+    tag: count
+    value: 53833
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#291133 sockg:measSoilChem_UID AgCros_MNMOBRR_415_2005-10-20_5.0_10.0
-from_schema: soc-kg/main
+- object:
+    example_object: AgCros_MNMOFS_52_2007-10-29_10.0_15.0
+    example_object_type: string
+    example_predicate: sockg:measSoilChem_UID
+    example_subject: sockg:individuals/253451
+    example_subject_type: sockg_SoilChemicalSample
+from_schema: soc-kg
 rank: 1000
+domain: sockg_SoilChemicalSample
 slot_uri: sockg:measSoilChem_UID
 alias: sockg_measSoilChem_UID
 domain_of:

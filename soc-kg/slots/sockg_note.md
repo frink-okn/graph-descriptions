@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_note
+# Slot: No slot (predicate) name specified (sockg_note)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:note](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/note)
+
+This slot occurs 11 times.
+
+
+URI: [sockg:note](https://idir.uta.edu/sockg-ontology/docs/note)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:note](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPerson](../classes/SockgPerson.md) | No type description provided |  no  |
+| [SockgPerson](../classes/SockgPerson.md) | A Person represents an individual involved in agricultural activities, servin... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:note](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,44 +46,9 @@ URI: [sockg:note](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#203375 sockg:note nan |
-| neo4j://graph.individuals#203328 sockg:note Dr. Cantrell no longer works for ARS at this time. |
-
-## Comments
-
-* 86 occurrences with subject type sockg:Person and object type xsd:double.
-* 12 occurrences with subject type sockg:Person and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:note |
-| native | soc-kg/main/:sockg_note |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Person | string | sockg:individuals/203545 | V. Jin is current contact for GRACEnet/REAP DET updates. | 11 |
 
 
 
@@ -87,30 +56,30 @@ URI: [sockg:note](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_note
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 86 occurrences with subject type sockg:Person and object type xsd:double.
-- 12 occurrences with subject type sockg:Person and object type string.
+annotations:
+  count:
+    tag: count
+    value: 11
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#203375 sockg:note nan
-- value: neo4j://graph.individuals#203328 sockg:note Dr. Cantrell no longer works
-    for ARS at this time.
-from_schema: soc-kg/main
+- object:
+    example_object: V. Jin is current contact for GRACEnet/REAP DET updates.
+    example_object_type: string
+    example_predicate: sockg:note
+    example_subject: sockg:individuals/203545
+    example_subject_type: sockg_Person
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Person
 slot_uri: sockg:note
 alias: sockg_note
 domain_of:
 - sockg_Person
-range: Any
-any_of:
-- range: double
-- range: string
+range: string
 
 ```
 </details>

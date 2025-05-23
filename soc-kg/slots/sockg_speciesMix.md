@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_speciesMix
+# Slot: No slot (predicate) name specified (sockg_speciesMix)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:speciesMix](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/speciesMix)
+
+This slot occurs 6995 times.
+
+
+URI: [sockg:speciesMix](https://idir.uta.edu/sockg-ontology/docs/speciesMix)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:speciesMix](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGrazing](../classes/SockgGrazing.md) | No type description provided |  no  |
+| [SockgGrazing](../classes/SockgGrazing.md) | The Grazing class represents the assessment of various productivity metrics a... |  yes  |
 
 
 
@@ -42,62 +46,41 @@ URI: [sockg:speciesMix](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#168999 sockg:speciesMix Bermuda |
-
-## Comments
-
-* 6995 occurrences with subject type sockg:Grazing and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Grazing | string | sockg:individuals/163960 | Bermuda | 6995 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:speciesMix |
-| native | soc-kg/main/:sockg_speciesMix |
-
+* [https://lod.nal.usda.gov/nalt/41096](https://lod.nal.usda.gov/nalt/41096)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_speciesMix
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 6995 occurrences with subject type sockg:Grazing and object type string.
+annotations:
+  count:
+    tag: count
+    value: 6995
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#168999 sockg:speciesMix Bermuda
-from_schema: soc-kg/main
+- object:
+    example_object: Bermuda
+    example_object_type: string
+    example_predicate: sockg:speciesMix
+    example_subject: sockg:individuals/163960
+    example_subject_type: sockg_Grazing
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/41096
 rank: 1000
+domain: sockg_Grazing
 slot_uri: sockg:speciesMix
 alias: sockg_speciesMix
 domain_of:

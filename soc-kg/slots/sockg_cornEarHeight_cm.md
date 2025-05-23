@@ -1,15 +1,17 @@
 
 
-# Slot: sockg_cornEarHeight_cm
+# Slot: No slot (predicate) name specified (sockg_cornEarHeight_cm)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:cornEarHeight_cm](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/cornEarHeight_cm)
+
+
+URI: [sockg:cornEarHeight_cm](https://idir.uta.edu/sockg-ontology/docs/cornEarHeight_cm)
 
 
 
@@ -19,90 +21,45 @@ URI: [sockg:cornEarHeight_cm](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 
 
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [SockgHarvest](../classes/SockgHarvest.md) | No type description provided |  no  |
-
-
-
-
 
 
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
 
-
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#184319 sockg:cornEarHeight_cm nan |
 
 ## Comments
 
-* 18356 occurrences with subject type sockg:Harvest and object type xsd:double.
+* No occurrences of this slot in the graph.
 
-## TODOs
+## See Also
 
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:cornEarHeight_cm |
-| native | soc-kg/main/:sockg_cornEarHeight_cm |
-
+* [https://lod.nal.usda.gov/nalt/29144](https://lod.nal.usda.gov/nalt/29144)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_cornEarHeight_cm
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 comments:
-- 18356 occurrences with subject type sockg:Harvest and object type xsd:double.
-examples:
-- value: neo4j://graph.individuals#184319 sockg:cornEarHeight_cm nan
-from_schema: soc-kg/main
+- No occurrences of this slot in the graph.
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/29144
 rank: 1000
+domain: sockg_Harvest
 slot_uri: sockg:cornEarHeight_cm
 alias: sockg_cornEarHeight_cm
-domain_of:
-- sockg_Harvest
-range: double
+range: float
 
 ```
 </details>

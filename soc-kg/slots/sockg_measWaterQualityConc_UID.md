@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_measWaterQualityConc_UID
+# Slot: No slot (predicate) name specified (sockg_measWaterQualityConc_UID)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:measWaterQualityConc_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/measWaterQualityConc_UID)
+
+This slot occurs 1479 times.
+
+
+URI: [sockg:measWaterQualityConc_UID](https://idir.uta.edu/sockg-ontology/docs/measWaterQualityConc_UID)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:measWaterQualityConc_UID](http://www.semanticweb.org/sockg/ontologie
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | No type description provided |  no  |
+| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | WaterQualityConc represents the concentration of various water quality parame... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:measWaterQualityConc_UID](http://www.semanticweb.org/sockg/ontologie
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#360947 sockg:measWaterQualityConc_UID AgCros_IAAMKELL_116_2005-04-16 |
-
-## Comments
-
-* 1479 occurrences with subject type sockg:WaterQualityConc and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:measWaterQualityConc_UID |
-| native | soc-kg/main/:sockg_measWaterQualityConc_UID |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_WaterQualityConc | string | sockg:individuals/364993 | AgCros_IAAMKELL_120_2003-05-13 | 1479 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:measWaterQualityConc_UID](http://www.semanticweb.org/sockg/ontologie
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_measWaterQualityConc_UID
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1479 occurrences with subject type sockg:WaterQualityConc and object type string.
+annotations:
+  count:
+    tag: count
+    value: 1479
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#360947 sockg:measWaterQualityConc_UID AgCros_IAAMKELL_116_2005-04-16
-from_schema: soc-kg/main
+- object:
+    example_object: AgCros_IAAMKELL_120_2003-05-13
+    example_object_type: string
+    example_predicate: sockg:measWaterQualityConc_UID
+    example_subject: sockg:individuals/364993
+    example_subject_type: sockg_WaterQualityConc
+from_schema: soc-kg
 rank: 1000
+domain: sockg_WaterQualityConc
 slot_uri: sockg:measWaterQualityConc_UID
 alias: sockg_measWaterQualityConc_UID
 domain_of:

@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_hasHarvestFractionData
+# Slot: No slot (predicate) name specified (sockg_hasHarvestFractionData)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:hasHarvestFractionData](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/hasHarvestFractionData)
+
+This slot occurs 9110 times.
+
+
+URI: [sockg:hasHarvestFractionData](https://idir.uta.edu/sockg-ontology/docs/hasHarvestFractionData)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:hasHarvestFractionData](http://www.semanticweb.org/sockg/ontologies/
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | No type description provided |  no  |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | An ExperimentalUnit represents a specific segment of agricultural research fo... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:hasHarvestFractionData](http://www.semanticweb.org/sockg/ontologies/
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#54138 sockg:hasHarvestFractionData neo4j://graph.individuals#194584 |
-
-## Comments
-
-* 9110 occurrences with subject type sockg:ExperimentalUnit and object type sockg:HarvestFraction.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:hasHarvestFractionData |
-| native | soc-kg/main/:sockg_hasHarvestFractionData |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_ExperimentalUnit | sockg_HarvestFraction | sockg:individuals/51968 | sockg:individuals/191288 | 9110 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:hasHarvestFractionData](http://www.semanticweb.org/sockg/ontologies/
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_hasHarvestFractionData
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 9110 occurrences with subject type sockg:ExperimentalUnit and object type sockg:HarvestFraction.
+annotations:
+  count:
+    tag: count
+    value: 9110
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#54138 sockg:hasHarvestFractionData neo4j://graph.individuals#194584
-from_schema: soc-kg/main
+- object:
+    example_object: sockg:individuals/191288
+    example_object_type: sockg_HarvestFraction
+    example_predicate: sockg:hasHarvestFractionData
+    example_subject: sockg:individuals/51968
+    example_subject_type: sockg_ExperimentalUnit
+from_schema: soc-kg
 rank: 1000
+domain: sockg_ExperimentalUnit
 slot_uri: sockg:hasHarvestFractionData
 alias: sockg_hasHarvestFractionData
 domain_of:

@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_plantingMethod
+# Slot: No slot (predicate) name specified (sockg_plantingMethod)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:plantingMethod](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/plantingMethod)
+
+This slot occurs 22314 times.
+
+
+URI: [sockg:plantingMethod](https://idir.uta.edu/sockg-ontology/docs/plantingMethod)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:plantingMethod](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPlantingEvent](../classes/SockgPlantingEvent.md) | No type description provided |  no  |
+| [SockgPlantingEvent](../classes/SockgPlantingEvent.md) | An event involving the act of planting, which includes considerations for spa... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:plantingMethod](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,74 +46,46 @@ URI: [sockg:plantingMethod](http://www.semanticweb.org/sockg/ontologies/2024/0/s
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#221390 sockg:plantingMethod nan |
-| neo4j://graph.individuals#213199 sockg:plantingMethod Row |
-
-## Comments
-
-* 1136 occurrences with subject type sockg:PlantingEvent and object type xsd:double.
-* 22314 occurrences with subject type sockg:PlantingEvent and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_PlantingEvent | string | sockg:individuals/203988 | Broadcast | 22314 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:plantingMethod |
-| native | soc-kg/main/:sockg_plantingMethod |
-
+* [https://lod.nal.usda.gov/nalt/33957](https://lod.nal.usda.gov/nalt/33957)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_plantingMethod
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1136 occurrences with subject type sockg:PlantingEvent and object type xsd:double.
-- 22314 occurrences with subject type sockg:PlantingEvent and object type string.
+annotations:
+  count:
+    tag: count
+    value: 22314
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#221390 sockg:plantingMethod nan
-- value: neo4j://graph.individuals#213199 sockg:plantingMethod Row
-from_schema: soc-kg/main
+- object:
+    example_object: Broadcast
+    example_object_type: string
+    example_predicate: sockg:plantingMethod
+    example_subject: sockg:individuals/203988
+    example_subject_type: sockg_PlantingEvent
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/33957
 rank: 1000
+domain: sockg_PlantingEvent
 slot_uri: sockg:plantingMethod
 alias: sockg_plantingMethod
 domain_of:
 - sockg_PlantingEvent
-range: Any
-any_of:
-- range: double
-- range: string
+range: string
 
 ```
 </details>
