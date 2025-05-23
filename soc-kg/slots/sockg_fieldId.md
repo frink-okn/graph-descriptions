@@ -27,12 +27,12 @@ URI: [sockg:fieldId](https://idir.uta.edu/sockg-ontology/docs/fieldId)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by... |  yes  |
-| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | A WaterQualityArea represents a designated agricultural zone where water qual... |  yes  |
-| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | The GasNutrientLoss class represents the assessment of gaseous nutrient losse... |  yes  |
 | [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | WaterQualityConc represents the concentration of various water quality parame... |  yes  |
+| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | The GasNutrientLoss class represents the assessment of gaseous nutrient losse... |  yes  |
 | [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | The WindErosionArea class represents regions affected by wind erosion, detail... |  yes  |
 | [SockgField](../classes/SockgField.md) | A Field represents a specific area of land used for agricultural purposes, wh... |  yes  |
+| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | A WaterQualityArea represents a designated agricultural zone where water qual... |  yes  |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by... |  yes  |
 | [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | The NutrientEfficiency class represents the effectiveness of nutrient utiliza... |  yes  |
 
 
@@ -134,10 +134,10 @@ domain_of:
 - sockg_YieldNutrientUptake
 union_of:
 - '{''domain'': ''sockg_WaterQualityArea''}'
+- '{''domain'': ''sockg_WindErosionArea''}'
 - '{''domain'': ''sockg_NutrientEfficiency''}'
 - '{''domain'': ''sockg_Field''}'
 - '{''domain'': ''sockg_WaterQualityConc''}'
-- '{''domain'': ''sockg_WindErosionArea''}'
 - '{''domain'': ''sockg_GasNutrientLoss''}'
 - '{''domain'': ''sockg_YieldNutrientUptake''}'
 range: string

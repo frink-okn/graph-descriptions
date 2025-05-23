@@ -37,7 +37,7 @@ URI: [sockg:potassium_mgK_per_kg](https://idir.uta.edu/sockg-ontology/docs/potas
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -87,9 +87,9 @@ domain_of:
 - sockg_SoilChemicalSample
 range: Any
 any_of:
+- range: float
 - range: double
 - range: string
-- range: float
 
 ```
 </details>

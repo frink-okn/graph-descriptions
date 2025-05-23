@@ -91,12 +91,12 @@ URI: [sockg:Tillage](https://idir.uta.edu/sockg-ontology/docs/Tillage)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 27137 |
-| [sockg_tillageEventMethod](../slots/sockg_tillageEventMethod.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 24342 |
-| [sockg_tillageEvent](../slots/sockg_tillageEvent.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 27137 |
 | [sockg_mgtTillage_UID](../slots/sockg_mgtTillage_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 27137 |
+| [sockg_startDate](../slots/sockg_startDate.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot (predicate) description specified <br/>  | direct | 27137 |
+| [sockg_tillageEventMethod](../slots/sockg_tillageEventMethod.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 24342 |
 | [sockg_tillageEventDepth_cm](../slots/sockg_tillageEventDepth_cm.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 26709 |
-| [sockg_startDate](../slots/sockg_startDate.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 27137 |
+| [sockg_tillageEvent](../slots/sockg_tillageEvent.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 27137 |
+| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 27137 |
 
 
 
@@ -148,12 +148,12 @@ see_also:
 - https://lod.nal.usda.gov/nalt/25207
 rank: 1000
 slots:
-- rdfs_seeAlso
-- sockg_tillageEventMethod
-- sockg_tillageEvent
 - sockg_mgtTillage_UID
-- sockg_tillageEventDepth_cm
 - sockg_startDate
+- sockg_tillageEventMethod
+- sockg_tillageEventDepth_cm
+- sockg_tillageEvent
+- rdfs_seeAlso
 slot_usage:
   rdfs_seeAlso:
     name: rdfs_seeAlso
@@ -254,6 +254,165 @@ slot_usage:
         tag: string
         value: 24342
 attributes:
+  sockg_mgtTillage_UID:
+    name: sockg_mgtTillage_UID
+    annotations:
+      string:
+        tag: string
+        value: 27137
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: AgCros_NEMLTCRS_105N_1987-04-30_Zea_mays_Corn_
+        example_object_type: string
+        example_predicate: sockg:mgtTillage_UID
+        example_subject: sockg:individuals/336419
+        example_subject_type: sockg_Tillage
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Tillage
+    slot_uri: sockg:mgtTillage_UID
+    alias: sockg_mgtTillage_UID
+    owner: sockg_Tillage
+    domain_of:
+    - sockg_Tillage
+    range: string
+  sockg_startDate:
+    name: sockg_startDate
+    annotations:
+      string:
+        tag: string
+        value: 27137
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '2012-06-05'
+        example_object_type: string
+        example_predicate: sockg:startDate
+        example_subject: sockg:individuals/0
+        example_subject_type: sockg_Amendment
+    - object:
+        example_object: '2006-05-08'
+        example_object_type: string
+        example_predicate: sockg:startDate
+        example_subject: sockg:individuals/170955
+        example_subject_type: sockg_GrazingManagementEvent
+    - object:
+        example_object: '1987-04-30'
+        example_object_type: string
+        example_predicate: sockg:startDate
+        example_subject: sockg:individuals/336419
+        example_subject_type: sockg_Tillage
+    - object:
+        example_object: '2007-04-01'
+        example_object_type: string
+        example_predicate: sockg:startDate
+        example_subject: sockg:individuals/51906
+        example_subject_type: sockg_Experiment
+    - object:
+        example_object: '2009-01-01'
+        example_object_type: string
+        example_predicate: sockg:startDate
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    - object:
+        example_object: '2004-11-04'
+        example_object_type: string
+        example_predicate: sockg:startDate
+        example_subject: sockg:individuals/203988
+        example_subject_type: sockg_PlantingEvent
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/9183
+    rank: 1000
+    slot_uri: sockg:startDate
+    alias: sockg_startDate
+    owner: sockg_Tillage
+    domain_of:
+    - sockg_Amendment
+    - sockg_Experiment
+    - sockg_ExperimentalUnit
+    - sockg_GrazingManagementEvent
+    - sockg_PlantingEvent
+    - sockg_Tillage
+    union_of:
+    - '{''domain'': ''sockg_WeatherStation''}'
+    - '{''domain'': ''sockg_GrazingManagementEvent''}'
+    - '{''domain'': ''sockg_ExperimentalUnit''}'
+    - '{''domain'': ''sockg_Amendment''}'
+    - '{''domain'': ''sockg_Experiment''}'
+    range: Any
+    any_of:
+    - range: string
+    - range: date
+  sockg_tillageEventMethod:
+    name: sockg_tillageEventMethod
+    annotations:
+      string:
+        tag: string
+        value: 24342
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: Tandem Disk
+        example_object_type: string
+        example_predicate: sockg:tillageEventMethod
+        example_subject: sockg:individuals/336419
+        example_subject_type: sockg_Tillage
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:tillageEventMethod
+    alias: sockg_tillageEventMethod
+    owner: sockg_Tillage
+    domain_of:
+    - sockg_Tillage
+    range: string
+  sockg_tillageEventDepth_cm:
+    name: sockg_tillageEventDepth_cm
+    annotations:
+      double:
+        tag: double
+        value: 26709
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '15.0'
+        example_object_type: double
+        example_predicate: sockg:tillageEventDepth_cm
+        example_subject: sockg:individuals/336419
+        example_subject_type: sockg_Tillage
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:tillageEventDepth_cm
+    alias: sockg_tillageEventDepth_cm
+    owner: sockg_Tillage
+    domain_of:
+    - sockg_Tillage
+    range: double
+  sockg_tillageEvent:
+    name: sockg_tillageEvent
+    annotations:
+      string:
+        tag: string
+        value: 27137
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: Disk
+        example_object_type: string
+        example_predicate: sockg:tillageEvent
+        example_subject: sockg:individuals/336419
+        example_subject_type: sockg_Tillage
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:tillageEvent
+    alias: sockg_tillageEvent
+    owner: sockg_Tillage
+    domain_of:
+    - sockg_Tillage
+    range: string
   rdfs_seeAlso:
     name: rdfs_seeAlso
     annotations:
@@ -556,165 +715,6 @@ attributes:
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
     range: uri
-  sockg_tillageEventMethod:
-    name: sockg_tillageEventMethod
-    annotations:
-      string:
-        tag: string
-        value: 24342
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: Tandem Disk
-        example_object_type: string
-        example_predicate: sockg:tillageEventMethod
-        example_subject: sockg:individuals/336419
-        example_subject_type: sockg_Tillage
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:tillageEventMethod
-    alias: sockg_tillageEventMethod
-    owner: sockg_Tillage
-    domain_of:
-    - sockg_Tillage
-    range: string
-  sockg_tillageEvent:
-    name: sockg_tillageEvent
-    annotations:
-      string:
-        tag: string
-        value: 27137
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: Disk
-        example_object_type: string
-        example_predicate: sockg:tillageEvent
-        example_subject: sockg:individuals/336419
-        example_subject_type: sockg_Tillage
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:tillageEvent
-    alias: sockg_tillageEvent
-    owner: sockg_Tillage
-    domain_of:
-    - sockg_Tillage
-    range: string
-  sockg_mgtTillage_UID:
-    name: sockg_mgtTillage_UID
-    annotations:
-      string:
-        tag: string
-        value: 27137
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: AgCros_NEMLTCRS_105N_1987-04-30_Zea_mays_Corn_
-        example_object_type: string
-        example_predicate: sockg:mgtTillage_UID
-        example_subject: sockg:individuals/336419
-        example_subject_type: sockg_Tillage
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_Tillage
-    slot_uri: sockg:mgtTillage_UID
-    alias: sockg_mgtTillage_UID
-    owner: sockg_Tillage
-    domain_of:
-    - sockg_Tillage
-    range: string
-  sockg_tillageEventDepth_cm:
-    name: sockg_tillageEventDepth_cm
-    annotations:
-      double:
-        tag: double
-        value: 26709
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: '15.0'
-        example_object_type: double
-        example_predicate: sockg:tillageEventDepth_cm
-        example_subject: sockg:individuals/336419
-        example_subject_type: sockg_Tillage
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:tillageEventDepth_cm
-    alias: sockg_tillageEventDepth_cm
-    owner: sockg_Tillage
-    domain_of:
-    - sockg_Tillage
-    range: double
-  sockg_startDate:
-    name: sockg_startDate
-    annotations:
-      string:
-        tag: string
-        value: 27137
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '2012-06-05'
-        example_object_type: string
-        example_predicate: sockg:startDate
-        example_subject: sockg:individuals/0
-        example_subject_type: sockg_Amendment
-    - object:
-        example_object: '2006-05-08'
-        example_object_type: string
-        example_predicate: sockg:startDate
-        example_subject: sockg:individuals/170955
-        example_subject_type: sockg_GrazingManagementEvent
-    - object:
-        example_object: '1987-04-30'
-        example_object_type: string
-        example_predicate: sockg:startDate
-        example_subject: sockg:individuals/336419
-        example_subject_type: sockg_Tillage
-    - object:
-        example_object: '2007-04-01'
-        example_object_type: string
-        example_predicate: sockg:startDate
-        example_subject: sockg:individuals/51906
-        example_subject_type: sockg_Experiment
-    - object:
-        example_object: '2009-01-01'
-        example_object_type: string
-        example_predicate: sockg:startDate
-        example_subject: sockg:individuals/51937
-        example_subject_type: sockg_ExperimentalUnit
-    - object:
-        example_object: '2004-11-04'
-        example_object_type: string
-        example_predicate: sockg:startDate
-        example_subject: sockg:individuals/203988
-        example_subject_type: sockg_PlantingEvent
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/9183
-    rank: 1000
-    slot_uri: sockg:startDate
-    alias: sockg_startDate
-    owner: sockg_Tillage
-    domain_of:
-    - sockg_Amendment
-    - sockg_Experiment
-    - sockg_ExperimentalUnit
-    - sockg_GrazingManagementEvent
-    - sockg_PlantingEvent
-    - sockg_Tillage
-    union_of:
-    - '{''domain'': ''sockg_ExperimentalUnit''}'
-    - '{''domain'': ''sockg_GrazingManagementEvent''}'
-    - '{''domain'': ''sockg_WeatherStation''}'
-    - '{''domain'': ''sockg_Experiment''}'
-    - '{''domain'': ''sockg_Amendment''}'
-    range: Any
-    any_of:
-    - range: date
-    - range: string
 class_uri: sockg:Tillage
 
 ```

@@ -26,7 +26,7 @@ URI: [sockg:distanceFromField_m](https://idir.uta.edu/sockg-ontology/docs/distan
 
 ## Properties
 
-* Range: [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
+* Range: [Int32](../types/Int32.md)
 
 
 
@@ -53,7 +53,7 @@ rank: 1000
 domain: sockg_WeatherStation
 slot_uri: sockg:distanceFromField_m
 alias: sockg_distanceFromField_m
-range: integer
+range: int32
 
 ```
 </details>

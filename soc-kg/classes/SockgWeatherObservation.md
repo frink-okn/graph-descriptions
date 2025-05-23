@@ -226,27 +226,27 @@ URI: [sockg:WeatherObservation](https://idir.uta.edu/sockg-ontology/docs/Weather
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [sockg_weatherStationId](../slots/sockg_weatherStationId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 38363 |
-| [sockg_precipitation_mm_per_d](../slots/sockg_precipitation_mm_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 147232 |
-| [sockg_dewPointDegc](../slots/sockg_dewPointDegc.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 121030 |
-| [sockg_openPanEvaporation_mm_per_d](../slots/sockg_openPanEvaporation_mm_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 131522 |
-| [sockg_soilTemp10cm_degC](../slots/sockg_soilTemp10cm_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 138926 |
+| [sockg_windSpeed_m_per_s](../slots/sockg_windSpeed_m_per_s.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 92684 |
+| [sockg_precipitation_mm_per_d](../slots/sockg_precipitation_mm_per_d.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 147232 |
 | [sockg_weatherRecordedAt](../slots/sockg_weatherRecordedAt.md) | 0..1 <br/> [SockgSite](../classes/SockgSite.md) | No slot (predicate) description specified <br/>  | direct | 149473 |
-| [sockg_weatherAtField](../slots/sockg_weatherAtField.md) | 0..1 <br/> [SockgField](../classes/SockgField.md) | No slot (predicate) description specified <br/>  | direct | 147305 |
-| [sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d](../slots/sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 119985 |
-| [sockg_tempMax_degC](../slots/sockg_tempMax_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 144885 |
+| [sockg_tempMin_degC](../slots/sockg_tempMin_degC.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 144828 |
+| [sockg_soilTemp5cm_degC](../slots/sockg_soilTemp5cm_degC.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 44409 |
 | [sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d](../slots/sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 8195 |
+| [sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d](../slots/sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 119985 |
+| [sockg_soilTemp10cm_degC](../slots/sockg_soilTemp10cm_degC.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 138926 |
+| [sockg_windDirectionDegFromNorth](../slots/sockg_windDirectionDegFromNorth.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 51210 |
+| [sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d](../slots/sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 954 |
 | [sockg_weatherDaily_UID](../slots/sockg_weatherDaily_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 147305 |
-| [sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d](../slots/sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 954 |
-| [sockg_windSpeed_m_per_s](../slots/sockg_windSpeed_m_per_s.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 92684 |
-| [sockg_relativeHumidityPercent](../slots/sockg_relativeHumidityPercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 138705 |
-| [sockg_soilTemp5cm_degC](../slots/sockg_soilTemp5cm_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 44409 |
-| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 147304 |
+| [sockg_tempMax_degC](../slots/sockg_tempMax_degC.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 144885 |
+| [sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d](../slots/sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 38763 |
+| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot (predicate) description specified <br/>  | direct | 147304 |
+| [sockg_weatherStationId](../slots/sockg_weatherStationId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 38363 |
+| [sockg_relativeHumidityPercent](../slots/sockg_relativeHumidityPercent.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 138705 |
+| [sockg_openPanEvaporation_mm_per_d](../slots/sockg_openPanEvaporation_mm_per_d.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 131522 |
+| [sockg_weatherBadValueFlag](../slots/sockg_weatherBadValueFlag.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[Int32](../types/Int32.md) | No slot (predicate) description specified <br/>  | direct | 1824 |
+| [sockg_weatherAtField](../slots/sockg_weatherAtField.md) | 0..1 <br/> [SockgField](../classes/SockgField.md) | No slot (predicate) description specified <br/>  | direct | 147305 |
+| [sockg_dewPointDegc](../slots/sockg_dewPointDegc.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 121030 |
 | [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 147305 |
-| [sockg_windDirectionDegFromNorth](../slots/sockg_windDirectionDegFromNorth.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 51210 |
-| [sockg_tempMin_degC](../slots/sockg_tempMin_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 144828 |
-| [sockg_weatherBadValueFlag](../slots/sockg_weatherBadValueFlag.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 1824 |
-| [sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d](../slots/sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 38763 |
 
 
 
@@ -256,22 +256,22 @@ URI: [sockg:WeatherObservation](https://idir.uta.edu/sockg-ontology/docs/Weather
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_precipitation_mm_per_d](../slots/sockg_precipitation_mm_per_d.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
-| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_openPanEvaporation_mm_per_d](../slots/sockg_openPanEvaporation_mm_per_d.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
-| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_soilTemp10cm_degC](../slots/sockg_soilTemp10cm_degC.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
-| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_weatherRecordedAt](../slots/sockg_weatherRecordedAt.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
-| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_weatherAtField](../slots/sockg_weatherAtField.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
-| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d](../slots/sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
-| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_tempMax_degC](../slots/sockg_tempMax_degC.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
-| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_weatherDaily_UID](../slots/sockg_weatherDaily_UID.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
-| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d](../slots/sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
 | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_windSpeed_m_per_s](../slots/sockg_windSpeed_m_per_s.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
-| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_relativeHumidityPercent](../slots/sockg_relativeHumidityPercent.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
-| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_soilTemp5cm_degC](../slots/sockg_soilTemp5cm_degC.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
-| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_windDirectionDegFromNorth](../slots/sockg_windDirectionDegFromNorth.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_precipitation_mm_per_d](../slots/sockg_precipitation_mm_per_d.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_weatherRecordedAt](../slots/sockg_weatherRecordedAt.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
 | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_tempMin_degC](../slots/sockg_tempMin_degC.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
-| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_weatherBadValueFlag](../slots/sockg_weatherBadValueFlag.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_soilTemp5cm_degC](../slots/sockg_soilTemp5cm_degC.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d](../slots/sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_soilTemp10cm_degC](../slots/sockg_soilTemp10cm_degC.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_windDirectionDegFromNorth](../slots/sockg_windDirectionDegFromNorth.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d](../slots/sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_weatherDaily_UID](../slots/sockg_weatherDaily_UID.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_tempMax_degC](../slots/sockg_tempMax_degC.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
 | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d](../slots/sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_relativeHumidityPercent](../slots/sockg_relativeHumidityPercent.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_openPanEvaporation_mm_per_d](../slots/sockg_openPanEvaporation_mm_per_d.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_weatherBadValueFlag](../slots/sockg_weatherBadValueFlag.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_weatherAtField](../slots/sockg_weatherAtField.md) | domain | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
 | [SockgWeatherStation](../classes/SockgWeatherStation.md) | [sockg_weatherRecordedBy](../slots/sockg_weatherRecordedBy.md) | range | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) |
 
 
@@ -313,27 +313,27 @@ see_also:
 - https://lod.nal.usda.gov/nalt/5862
 rank: 1000
 slots:
-- sockg_weatherStationId
-- sockg_precipitation_mm_per_d
-- sockg_dewPointDegc
-- sockg_openPanEvaporation_mm_per_d
-- sockg_soilTemp10cm_degC
-- sockg_weatherRecordedAt
-- sockg_weatherAtField
-- sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d
-- sockg_tempMax_degC
-- sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
-- sockg_weatherDaily_UID
-- sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d
 - sockg_windSpeed_m_per_s
-- sockg_relativeHumidityPercent
-- sockg_soilTemp5cm_degC
-- sockg_date
-- rdfs_seeAlso
-- sockg_windDirectionDegFromNorth
+- sockg_precipitation_mm_per_d
+- sockg_weatherRecordedAt
 - sockg_tempMin_degC
-- sockg_weatherBadValueFlag
+- sockg_soilTemp5cm_degC
+- sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
+- sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d
+- sockg_soilTemp10cm_degC
+- sockg_windDirectionDegFromNorth
+- sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d
+- sockg_weatherDaily_UID
+- sockg_tempMax_degC
 - sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d
+- sockg_date
+- sockg_weatherStationId
+- sockg_relativeHumidityPercent
+- sockg_openPanEvaporation_mm_per_d
+- sockg_weatherBadValueFlag
+- sockg_weatherAtField
+- sockg_dewPointDegc
+- rdfs_seeAlso
 slot_usage:
   rdfs_seeAlso:
     name: rdfs_seeAlso
@@ -614,325 +614,6 @@ slot_usage:
         tag: double
         value: 92684
 attributes:
-  sockg_weatherStationId:
-    name: sockg_weatherStationId
-    annotations:
-      string:
-        tag: string
-        value: 38363
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: MEADAGROFARM
-        example_object_type: string
-        example_predicate: sockg:weatherStationId
-        example_subject: sockg:individuals/439235
-        example_subject_type: sockg_WeatherObservation
-    - object:
-        example_object: MEADAGROFARM
-        example_object_type: string
-        example_predicate: sockg:weatherStationId
-        example_subject: sockg:individuals/588342
-        example_subject_type: sockg_WeatherStation
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_WeatherStation
-    slot_uri: sockg:weatherStationId
-    alias: sockg_weatherStationId
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    - sockg_WeatherStation
-    range: string
-  sockg_precipitation_mm_per_d:
-    name: sockg_precipitation_mm_per_d
-    annotations:
-      double:
-        tag: double
-        value: 147232
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '0.0'
-        example_object_type: double
-        example_predicate: sockg:precipitation_mm_per_d
-        example_subject: sockg:individuals/439235
-        example_subject_type: sockg_WeatherObservation
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/44298
-    rank: 1000
-    domain: sockg_WeatherObservation
-    slot_uri: sockg:precipitation_mm_per_d
-    alias: sockg_precipitation_mm_per_d
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: Any
-    any_of:
-    - range: double
-    - range: float
-  sockg_dewPointDegc:
-    name: sockg_dewPointDegc
-    annotations:
-      double:
-        tag: double
-        value: 121030
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: '0.0'
-        example_object_type: double
-        example_predicate: sockg:dewPointDegc
-        example_subject: sockg:individuals/439235
-        example_subject_type: sockg_WeatherObservation
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:dewPointDegc
-    alias: sockg_dewPointDegc
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: double
-  sockg_openPanEvaporation_mm_per_d:
-    name: sockg_openPanEvaporation_mm_per_d
-    annotations:
-      double:
-        tag: double
-        value: 131522
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '3.3'
-        example_object_type: double
-        example_predicate: sockg:openPanEvaporation_mm_per_d
-        example_subject: sockg:individuals/439235
-        example_subject_type: sockg_WeatherObservation
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_WeatherObservation
-    slot_uri: sockg:openPanEvaporation_mm_per_d
-    alias: sockg_openPanEvaporation_mm_per_d
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: Any
-    any_of:
-    - range: double
-    - range: float
-  sockg_soilTemp10cm_degC:
-    name: sockg_soilTemp10cm_degC
-    annotations:
-      double:
-        tag: double
-        value: 138926
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '12.3'
-        example_object_type: double
-        example_predicate: sockg:soilTemp10cm_degC
-        example_subject: sockg:individuals/439235
-        example_subject_type: sockg_WeatherObservation
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/61641
-    rank: 1000
-    domain: sockg_WeatherObservation
-    slot_uri: sockg:soilTemp10cm_degC
-    alias: sockg_soilTemp10cm_degC
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: Any
-    any_of:
-    - range: double
-    - range: float
-  sockg_weatherRecordedAt:
-    name: sockg_weatherRecordedAt
-    annotations:
-      sockg_Site:
-        tag: sockg_Site
-        value: 149473
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: sockg:individuals/231084
-        example_object_type: sockg_Site
-        example_predicate: sockg:weatherRecordedAt
-        example_subject: sockg:individuals/439235
-        example_subject_type: sockg_WeatherObservation
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_WeatherObservation
-    slot_uri: sockg:weatherRecordedAt
-    alias: sockg_weatherRecordedAt
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: sockg_Site
-  sockg_weatherAtField:
-    name: sockg_weatherAtField
-    annotations:
-      sockg_Field:
-        tag: sockg_Field
-        value: 147305
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: sockg:individuals/55827
-        example_object_type: sockg_Field
-        example_predicate: sockg:weatherAtField
-        example_subject: sockg:individuals/439235
-        example_subject_type: sockg_WeatherObservation
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_WeatherObservation
-    slot_uri: sockg:weatherAtField
-    alias: sockg_weatherAtField
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: sockg_Field
-  sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d:
-    name: sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d
-    annotations:
-      double:
-        tag: double
-        value: 119985
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '0.0'
-        example_object_type: double
-        example_predicate: sockg:solarRadiationVegetatedGround_MJ_per_m_squared_per_d
-        example_subject: sockg:individuals/439235
-        example_subject_type: sockg_WeatherObservation
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/47447
-    rank: 1000
-    domain: sockg_WeatherObservation
-    slot_uri: sockg:solarRadiationVegetatedGround_MJ_per_m_squared_per_d
-    alias: sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: Any
-    any_of:
-    - range: double
-    - range: float
-  sockg_tempMax_degC:
-    name: sockg_tempMax_degC
-    annotations:
-      double:
-        tag: double
-        value: 144885
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '18.7'
-        example_object_type: double
-        example_predicate: sockg:tempMax_degC
-        example_subject: sockg:individuals/439235
-        example_subject_type: sockg_WeatherObservation
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/5859
-    rank: 1000
-    domain: sockg_WeatherObservation
-    slot_uri: sockg:tempMax_degC
-    alias: sockg_tempMax_degC
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: Any
-    any_of:
-    - range: double
-    - range: float
-  sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d:
-    name: sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
-    annotations:
-      double:
-        tag: double
-        value: 8195
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: '3.964'
-        example_object_type: double
-        example_predicate: sockg:totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
-        example_subject: sockg:individuals/366472
-        example_subject_type: sockg_WeatherObservation
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
-    alias: sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: double
-  sockg_weatherDaily_UID:
-    name: sockg_weatherDaily_UID
-    annotations:
-      string:
-        tag: string
-        value: 147305
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: AgCros_NEMEIRR_2015-10-25
-        example_object_type: string
-        example_predicate: sockg:weatherDaily_UID
-        example_subject: sockg:individuals/439235
-        example_subject_type: sockg_WeatherObservation
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_WeatherObservation
-    slot_uri: sockg:weatherDaily_UID
-    alias: sockg_weatherDaily_UID
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: string
-  sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d:
-    name: sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d
-    annotations:
-      double:
-        tag: double
-        value: 954
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '0.00178'
-        example_object_type: double
-        example_predicate: sockg:atmosphericNitrogenDeposition_kg_per_ha_per_d
-        example_subject: sockg:individuals/396018
-        example_subject_type: sockg_WeatherObservation
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/2714
-    rank: 1000
-    domain: sockg_WeatherObservation
-    slot_uri: sockg:atmosphericNitrogenDeposition_kg_per_ha_per_d
-    alias: sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: Any
-    any_of:
-    - range: double
-    - range: float
   sockg_windSpeed_m_per_s:
     name: sockg_windSpeed_m_per_s
     annotations:
@@ -960,37 +641,90 @@ attributes:
     - sockg_WeatherObservation
     range: Any
     any_of:
-    - range: double
     - range: float
-  sockg_relativeHumidityPercent:
-    name: sockg_relativeHumidityPercent
+    - range: double
+  sockg_precipitation_mm_per_d:
+    name: sockg_precipitation_mm_per_d
     annotations:
       double:
         tag: double
-        value: 138705
+        value: 147232
     description: No slot (predicate) description specified
     title: No slot (predicate) name specified
     examples:
     - object:
-        example_object: '60.27'
+        example_object: '0.0'
         example_object_type: double
-        example_predicate: sockg:relativeHumidityPercent
+        example_predicate: sockg:precipitation_mm_per_d
         example_subject: sockg:individuals/439235
         example_subject_type: sockg_WeatherObservation
     from_schema: soc-kg
     see_also:
-    - https://lod.nal.usda.gov/nalt/46149
+    - https://lod.nal.usda.gov/nalt/44298
     rank: 1000
     domain: sockg_WeatherObservation
-    slot_uri: sockg:relativeHumidityPercent
-    alias: sockg_relativeHumidityPercent
+    slot_uri: sockg:precipitation_mm_per_d
+    alias: sockg_precipitation_mm_per_d
     owner: sockg_WeatherObservation
     domain_of:
     - sockg_WeatherObservation
     range: Any
     any_of:
-    - range: double
     - range: float
+    - range: double
+  sockg_weatherRecordedAt:
+    name: sockg_weatherRecordedAt
+    annotations:
+      sockg_Site:
+        tag: sockg_Site
+        value: 149473
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/231084
+        example_object_type: sockg_Site
+        example_predicate: sockg:weatherRecordedAt
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:weatherRecordedAt
+    alias: sockg_weatherRecordedAt
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: sockg_Site
+  sockg_tempMin_degC:
+    name: sockg_tempMin_degC
+    annotations:
+      double:
+        tag: double
+        value: 144828
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '0.1'
+        example_object_type: double
+        example_predicate: sockg:tempMin_degC
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/5859
+    rank: 1000
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:tempMin_degC
+    alias: sockg_tempMin_degC
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: Any
+    any_of:
+    - range: float
+    - range: double
   sockg_soilTemp5cm_degC:
     name: sockg_soilTemp5cm_degC
     annotations:
@@ -1018,8 +752,228 @@ attributes:
     - sockg_WeatherObservation
     range: Any
     any_of:
-    - range: double
     - range: float
+    - range: double
+  sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d:
+    name: sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
+    annotations:
+      double:
+        tag: double
+        value: 8195
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '3.964'
+        example_object_type: double
+        example_predicate: sockg:totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
+        example_subject: sockg:individuals/366472
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
+    alias: sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: double
+  sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d:
+    name: sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d
+    annotations:
+      double:
+        tag: double
+        value: 119985
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '0.0'
+        example_object_type: double
+        example_predicate: sockg:solarRadiationVegetatedGround_MJ_per_m_squared_per_d
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/47447
+    rank: 1000
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:solarRadiationVegetatedGround_MJ_per_m_squared_per_d
+    alias: sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_soilTemp10cm_degC:
+    name: sockg_soilTemp10cm_degC
+    annotations:
+      double:
+        tag: double
+        value: 138926
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '12.3'
+        example_object_type: double
+        example_predicate: sockg:soilTemp10cm_degC
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/61641
+    rank: 1000
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:soilTemp10cm_degC
+    alias: sockg_soilTemp10cm_degC
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_windDirectionDegFromNorth:
+    name: sockg_windDirectionDegFromNorth
+    annotations:
+      double:
+        tag: double
+        value: 51210
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '52.84'
+        example_object_type: double
+        example_predicate: sockg:windDirectionDegFromNorth
+        example_subject: sockg:individuals/468806
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/67367
+    rank: 1000
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:windDirectionDegFromNorth
+    alias: sockg_windDirectionDegFromNorth
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d:
+    name: sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d
+    annotations:
+      double:
+        tag: double
+        value: 954
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '0.00178'
+        example_object_type: double
+        example_predicate: sockg:atmosphericNitrogenDeposition_kg_per_ha_per_d
+        example_subject: sockg:individuals/396018
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/2714
+    rank: 1000
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:atmosphericNitrogenDeposition_kg_per_ha_per_d
+    alias: sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_weatherDaily_UID:
+    name: sockg_weatherDaily_UID
+    annotations:
+      string:
+        tag: string
+        value: 147305
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: AgCros_NEMEIRR_2015-10-25
+        example_object_type: string
+        example_predicate: sockg:weatherDaily_UID
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:weatherDaily_UID
+    alias: sockg_weatherDaily_UID
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: string
+  sockg_tempMax_degC:
+    name: sockg_tempMax_degC
+    annotations:
+      double:
+        tag: double
+        value: 144885
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '18.7'
+        example_object_type: double
+        example_predicate: sockg:tempMax_degC
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/5859
+    rank: 1000
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:tempMax_degC
+    alias: sockg_tempMax_degC
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d:
+    name: sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d
+    annotations:
+      double:
+        tag: double
+        value: 38763
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '7.35'
+        example_object_type: double
+        example_predicate: sockg:solarRadiationBareSoil_MJ_per_m_squared_per_d
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/47447
+    rank: 1000
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:solarRadiationBareSoil_MJ_per_m_squared_per_d
+    alias: sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: Any
+    any_of:
+    - range: float
+    - range: double
   sockg_date:
     name: sockg_date
     annotations:
@@ -1185,34 +1139,194 @@ attributes:
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
     union_of:
-    - '{''domain'': ''sockg_PlantingEvent''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    - '{''domain'': ''sockg_BioMassMineral''}'
-    - '{''domain'': ''sockg_Tillage''}'
-    - '{''domain'': ''sockg_Publication''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
     - '{''domain'': ''sockg_CropGrowthStage''}'
     - '{''domain'': ''sockg_BioMassCarbohydrate''}'
     - '{''domain'': ''sockg_Site''}'
-    - '{''domain'': ''sockg_SoilBiologicalSample''}'
+    - '{''domain'': ''sockg_ResidueManagementEvent''}'
     - '{''domain'': ''sockg_GasSample''}'
+    - '{''domain'': ''sockg_PlantingEvent''}'
     - '{''domain'': ''sockg_SoilCover''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_WeatherObservation''}'
     - '{''domain'': ''sockg_SoilChemicalSample''}'
     - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
     - '{''domain'': ''sockg_WindErosionArea''}'
-    - '{''domain'': ''sockg_Grazing''}'
-    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_Publication''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_BioMassEnergy''}'
     - '{''domain'': ''sockg_MiscellaneousMeasurement''}'
     - '{''domain'': ''sockg_SoilPhysicalSample''}'
-    - '{''domain'': ''sockg_BioMassEnergy''}'
+    - '{''domain'': ''sockg_Grazing''}'
     - '{''domain'': ''sockg_Harvest''}'
-    - '{''domain'': ''sockg_ResidueManagementEvent''}'
-    - '{''domain'': ''sockg_GasNutrientLoss''}'
-    - '{''domain'': ''sockg_WeatherObservation''}'
+    - '{''domain'': ''sockg_SoilBiologicalSample''}'
+    - '{''domain'': ''sockg_BioMassMineral''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_Tillage''}'
     range: Any
     any_of:
-    - range: date
     - range: string
+    - range: date
+  sockg_weatherStationId:
+    name: sockg_weatherStationId
+    annotations:
+      string:
+        tag: string
+        value: 38363
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: MEADAGROFARM
+        example_object_type: string
+        example_predicate: sockg:weatherStationId
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    - object:
+        example_object: MEADAGROFARM
+        example_object_type: string
+        example_predicate: sockg:weatherStationId
+        example_subject: sockg:individuals/588342
+        example_subject_type: sockg_WeatherStation
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_WeatherStation
+    slot_uri: sockg:weatherStationId
+    alias: sockg_weatherStationId
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    - sockg_WeatherStation
+    range: string
+  sockg_relativeHumidityPercent:
+    name: sockg_relativeHumidityPercent
+    annotations:
+      double:
+        tag: double
+        value: 138705
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '60.27'
+        example_object_type: double
+        example_predicate: sockg:relativeHumidityPercent
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/46149
+    rank: 1000
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:relativeHumidityPercent
+    alias: sockg_relativeHumidityPercent
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_openPanEvaporation_mm_per_d:
+    name: sockg_openPanEvaporation_mm_per_d
+    annotations:
+      double:
+        tag: double
+        value: 131522
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '3.3'
+        example_object_type: double
+        example_predicate: sockg:openPanEvaporation_mm_per_d
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:openPanEvaporation_mm_per_d
+    alias: sockg_openPanEvaporation_mm_per_d
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_weatherBadValueFlag:
+    name: sockg_weatherBadValueFlag
+    annotations:
+      double:
+        tag: double
+        value: 1824
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '-999.0'
+        example_object_type: double
+        example_predicate: sockg:weatherBadValueFlag
+        example_subject: sockg:individuals/501979
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:weatherBadValueFlag
+    alias: sockg_weatherBadValueFlag
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: Any
+    any_of:
+    - range: double
+    - range: int32
+  sockg_weatherAtField:
+    name: sockg_weatherAtField
+    annotations:
+      sockg_Field:
+        tag: sockg_Field
+        value: 147305
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/55827
+        example_object_type: sockg_Field
+        example_predicate: sockg:weatherAtField
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_WeatherObservation
+    slot_uri: sockg:weatherAtField
+    alias: sockg_weatherAtField
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: sockg_Field
+  sockg_dewPointDegc:
+    name: sockg_dewPointDegc
+    annotations:
+      double:
+        tag: double
+        value: 121030
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '0.0'
+        example_object_type: double
+        example_predicate: sockg:dewPointDegc
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:dewPointDegc
+    alias: sockg_dewPointDegc
+    owner: sockg_WeatherObservation
+    domain_of:
+    - sockg_WeatherObservation
+    range: double
   rdfs_seeAlso:
     name: rdfs_seeAlso
     annotations:
@@ -1515,120 +1629,6 @@ attributes:
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
     range: uri
-  sockg_windDirectionDegFromNorth:
-    name: sockg_windDirectionDegFromNorth
-    annotations:
-      double:
-        tag: double
-        value: 51210
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '52.84'
-        example_object_type: double
-        example_predicate: sockg:windDirectionDegFromNorth
-        example_subject: sockg:individuals/468806
-        example_subject_type: sockg_WeatherObservation
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/67367
-    rank: 1000
-    domain: sockg_WeatherObservation
-    slot_uri: sockg:windDirectionDegFromNorth
-    alias: sockg_windDirectionDegFromNorth
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: Any
-    any_of:
-    - range: double
-    - range: float
-  sockg_tempMin_degC:
-    name: sockg_tempMin_degC
-    annotations:
-      double:
-        tag: double
-        value: 144828
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '0.1'
-        example_object_type: double
-        example_predicate: sockg:tempMin_degC
-        example_subject: sockg:individuals/439235
-        example_subject_type: sockg_WeatherObservation
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/5859
-    rank: 1000
-    domain: sockg_WeatherObservation
-    slot_uri: sockg:tempMin_degC
-    alias: sockg_tempMin_degC
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: Any
-    any_of:
-    - range: double
-    - range: float
-  sockg_weatherBadValueFlag:
-    name: sockg_weatherBadValueFlag
-    annotations:
-      double:
-        tag: double
-        value: 1824
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '-999.0'
-        example_object_type: double
-        example_predicate: sockg:weatherBadValueFlag
-        example_subject: sockg:individuals/501979
-        example_subject_type: sockg_WeatherObservation
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_WeatherObservation
-    slot_uri: sockg:weatherBadValueFlag
-    alias: sockg_weatherBadValueFlag
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: Any
-    any_of:
-    - range: integer
-    - range: double
-  sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d:
-    name: sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d
-    annotations:
-      double:
-        tag: double
-        value: 38763
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '7.35'
-        example_object_type: double
-        example_predicate: sockg:solarRadiationBareSoil_MJ_per_m_squared_per_d
-        example_subject: sockg:individuals/439235
-        example_subject_type: sockg_WeatherObservation
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/47447
-    rank: 1000
-    domain: sockg_WeatherObservation
-    slot_uri: sockg:solarRadiationBareSoil_MJ_per_m_squared_per_d
-    alias: sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d
-    owner: sockg_WeatherObservation
-    domain_of:
-    - sockg_WeatherObservation
-    range: Any
-    any_of:
-    - range: double
-    - range: float
 class_uri: sockg:WeatherObservation
 
 ```

@@ -64,9 +64,9 @@ URI: [sockg:Organization](https://idir.uta.edu/sockg-ontology/docs/Organization)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 11 |
-| [sockg_fundsExperiment](../slots/sockg_fundsExperiment.md) | 0..1 <br/> [SockgExperiment](../classes/SockgExperiment.md) | No slot (predicate) description specified <br/>  | direct | 3 |
 | [sockg_organizationName](../slots/sockg_organizationName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 7 |
+| [sockg_fundsExperiment](../slots/sockg_fundsExperiment.md) | 0..1 <br/> [SockgExperiment](../classes/SockgExperiment.md) | No slot (predicate) description specified <br/>  | direct | 3 |
+| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 11 |
 
 
 
@@ -77,10 +77,10 @@ URI: [sockg:Organization](https://idir.uta.edu/sockg-ontology/docs/Organization)
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
 | [SockgDepartment](../classes/SockgDepartment.md) | [sockg_departmentOf](../slots/sockg_departmentOf.md) | range | [SockgOrganization](../classes/SockgOrganization.md) |
-| [SockgOrganization](../classes/SockgOrganization.md) | [sockg_fundsExperiment](../slots/sockg_fundsExperiment.md) | domain | [SockgOrganization](../classes/SockgOrganization.md) |
 | [SockgOrganization](../classes/SockgOrganization.md) | [sockg_organizationName](../slots/sockg_organizationName.md) | domain | [SockgOrganization](../classes/SockgOrganization.md) |
-| [SockgPerson](../classes/SockgPerson.md) | [sockg_worksFor](../slots/sockg_worksFor.md) | range | [SockgOrganization](../classes/SockgOrganization.md) |
+| [SockgOrganization](../classes/SockgOrganization.md) | [sockg_fundsExperiment](../slots/sockg_fundsExperiment.md) | domain | [SockgOrganization](../classes/SockgOrganization.md) |
 | [SockgPerson](../classes/SockgPerson.md) | [sockg_organizationName](../slots/sockg_organizationName.md) | domain | [SockgOrganization](../classes/SockgOrganization.md) |
+| [SockgPerson](../classes/SockgPerson.md) | [sockg_worksFor](../slots/sockg_worksFor.md) | range | [SockgOrganization](../classes/SockgOrganization.md) |
 
 
 
@@ -122,9 +122,9 @@ see_also:
 - https://lod.nal.usda.gov/nalt/13189
 rank: 1000
 slots:
-- rdfs_seeAlso
-- sockg_fundsExperiment
 - sockg_organizationName
+- sockg_fundsExperiment
+- rdfs_seeAlso
 slot_usage:
   rdfs_seeAlso:
     name: rdfs_seeAlso
@@ -190,6 +190,63 @@ slot_usage:
         tag: string
         value: 7
 attributes:
+  sockg_organizationName:
+    name: sockg_organizationName
+    annotations:
+      string:
+        tag: string
+        value: 7
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: USDA-ARS
+        example_object_type: string
+        example_predicate: sockg:organizationName
+        example_subject: sockg:individuals/203523
+        example_subject_type: sockg_Organization
+    - object:
+        example_object: Soil Plant Nutrient Research Unit
+        example_object_type: string
+        example_predicate: sockg:organizationName
+        example_subject: sockg:individuals/203534
+        example_subject_type: sockg_Person
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/13189
+    rank: 1000
+    domain: sockg_Organization
+    slot_uri: sockg:organizationName
+    alias: sockg_organizationName
+    owner: sockg_Organization
+    domain_of:
+    - sockg_Organization
+    - sockg_Person
+    range: string
+  sockg_fundsExperiment:
+    name: sockg_fundsExperiment
+    annotations:
+      sockg_Experiment:
+        tag: sockg_Experiment
+        value: 3
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/51906
+        example_object_type: sockg_Experiment
+        example_predicate: sockg:fundsExperiment
+        example_subject: sockg:individuals/203523
+        example_subject_type: sockg_Organization
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Organization
+    slot_uri: sockg:fundsExperiment
+    alias: sockg_fundsExperiment
+    owner: sockg_Organization
+    domain_of:
+    - sockg_Organization
+    range: sockg_Experiment
   rdfs_seeAlso:
     name: rdfs_seeAlso
     annotations:
@@ -492,63 +549,6 @@ attributes:
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
     range: uri
-  sockg_fundsExperiment:
-    name: sockg_fundsExperiment
-    annotations:
-      sockg_Experiment:
-        tag: sockg_Experiment
-        value: 3
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: sockg:individuals/51906
-        example_object_type: sockg_Experiment
-        example_predicate: sockg:fundsExperiment
-        example_subject: sockg:individuals/203523
-        example_subject_type: sockg_Organization
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_Organization
-    slot_uri: sockg:fundsExperiment
-    alias: sockg_fundsExperiment
-    owner: sockg_Organization
-    domain_of:
-    - sockg_Organization
-    range: sockg_Experiment
-  sockg_organizationName:
-    name: sockg_organizationName
-    annotations:
-      string:
-        tag: string
-        value: 7
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: USDA-ARS
-        example_object_type: string
-        example_predicate: sockg:organizationName
-        example_subject: sockg:individuals/203523
-        example_subject_type: sockg_Organization
-    - object:
-        example_object: Soil Plant Nutrient Research Unit
-        example_object_type: string
-        example_predicate: sockg:organizationName
-        example_subject: sockg:individuals/203534
-        example_subject_type: sockg_Person
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/13189
-    rank: 1000
-    domain: sockg_Organization
-    slot_uri: sockg:organizationName
-    alias: sockg_organizationName
-    owner: sockg_Organization
-    domain_of:
-    - sockg_Organization
-    - sockg_Person
-    range: string
 class_uri: sockg:Organization
 
 ```

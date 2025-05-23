@@ -55,8 +55,8 @@ URI: [sockg:Field](https://idir.uta.edu/sockg-ontology/docs/Field)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 58 |
 | [sockg_fieldId](../slots/sockg_fieldId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 58 |
+| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 58 |
 
 
 
@@ -114,8 +114,8 @@ see_also:
 - https://lod.nal.usda.gov/nalt/5371
 rank: 1000
 slots:
-- rdfs_seeAlso
 - sockg_fieldId
+- rdfs_seeAlso
 slot_usage:
   rdfs_seeAlso:
     name: rdfs_seeAlso
@@ -168,6 +168,79 @@ slot_usage:
         tag: string
         value: 58
 attributes:
+  sockg_fieldId:
+    name: sockg_fieldId
+    annotations:
+      string:
+        tag: string
+        value: 58
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: ALAUSDR
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/55800
+        example_subject_type: sockg_Field
+    - object:
+        example_object: MNMOCAL
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: WIPDBARN
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: IAAMKELL
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: IAAMKELL
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: TXBSWEWC
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: MNSP4R
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:fieldId
+    alias: sockg_fieldId
+    owner: sockg_Field
+    domain_of:
+    - sockg_Field
+    - sockg_GasNutrientLoss
+    - sockg_NutrientEfficiency
+    - sockg_WaterQualityArea
+    - sockg_WaterQualityConc
+    - sockg_WindErosionArea
+    - sockg_YieldNutrientUptake
+    union_of:
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_Field''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    range: string
   rdfs_seeAlso:
     name: rdfs_seeAlso
     annotations:
@@ -470,79 +543,6 @@ attributes:
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
     range: uri
-  sockg_fieldId:
-    name: sockg_fieldId
-    annotations:
-      string:
-        tag: string
-        value: 58
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: ALAUSDR
-        example_object_type: string
-        example_predicate: sockg:fieldId
-        example_subject: sockg:individuals/55800
-        example_subject_type: sockg_Field
-    - object:
-        example_object: MNMOCAL
-        example_object_type: string
-        example_predicate: sockg:fieldId
-        example_subject: sockg:individuals/200732
-        example_subject_type: sockg_NutrientEfficiency
-    - object:
-        example_object: WIPDBARN
-        example_object_type: string
-        example_predicate: sockg:fieldId
-        example_subject: sockg:individuals/364326
-        example_subject_type: sockg_WaterQualityArea
-    - object:
-        example_object: IAAMKELL
-        example_object_type: string
-        example_predicate: sockg:fieldId
-        example_subject: sockg:individuals/364993
-        example_subject_type: sockg_WaterQualityConc
-    - object:
-        example_object: IAAMKELL
-        example_object_type: string
-        example_predicate: sockg:fieldId
-        example_subject: sockg:individuals/55858
-        example_subject_type: sockg_GasNutrientLoss
-    - object:
-        example_object: TXBSWEWC
-        example_object_type: string
-        example_predicate: sockg:fieldId
-        example_subject: sockg:individuals/624572
-        example_subject_type: sockg_WindErosionArea
-    - object:
-        example_object: MNSP4R
-        example_object_type: string
-        example_predicate: sockg:fieldId
-        example_subject: sockg:individuals/624587
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:fieldId
-    alias: sockg_fieldId
-    owner: sockg_Field
-    domain_of:
-    - sockg_Field
-    - sockg_GasNutrientLoss
-    - sockg_NutrientEfficiency
-    - sockg_WaterQualityArea
-    - sockg_WaterQualityConc
-    - sockg_WindErosionArea
-    - sockg_YieldNutrientUptake
-    union_of:
-    - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_Field''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    - '{''domain'': ''sockg_WindErosionArea''}'
-    - '{''domain'': ''sockg_GasNutrientLoss''}'
-    - '{''domain'': ''sockg_YieldNutrientUptake''}'
-    range: string
 class_uri: sockg:Field
 
 ```

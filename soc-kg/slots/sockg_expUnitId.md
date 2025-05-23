@@ -27,12 +27,12 @@ URI: [sockg:expUnitId](https://idir.uta.edu/sockg-ontology/docs/expUnitId)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by... |  yes  |
-| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | A WaterQualityArea represents a designated agricultural zone where water qual... |  yes  |
-| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | The GasNutrientLoss class represents the assessment of gaseous nutrient losse... |  yes  |
-| [SockgPlantingEvent](../classes/SockgPlantingEvent.md) | An event involving the act of planting, which includes considerations for spa... |  yes  |
 | [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | WaterQualityConc represents the concentration of various water quality parame... |  yes  |
+| [SockgPlantingEvent](../classes/SockgPlantingEvent.md) | An event involving the act of planting, which includes considerations for spa... |  yes  |
+| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | The GasNutrientLoss class represents the assessment of gaseous nutrient losse... |  yes  |
 | [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | The WindErosionArea class represents regions affected by wind erosion, detail... |  yes  |
+| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | A WaterQualityArea represents a designated agricultural zone where water qual... |  yes  |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by... |  yes  |
 | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | An ExperimentalUnit represents a specific segment of agricultural research fo... |  yes  |
 | [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | The NutrientEfficiency class represents the effectiveness of nutrient utiliza... |  yes  |
 
@@ -149,18 +149,18 @@ domain_of:
 - sockg_YieldNutrientUptake
 union_of:
 - '{''domain'': ''sockg_WaterQualityArea''}'
-- '{''domain'': ''sockg_ExperimentalUnit''}'
-- '{''domain'': ''sockg_NutrientEfficiency''}'
-- '{''domain'': ''sockg_HarvestFraction''}'
-- '{''domain'': ''sockg_GasSample''}'
-- '{''domain'': ''sockg_WaterQualityConc''}'
-- '{''domain'': ''sockg_Harvest''}'
-- '{''domain'': ''sockg_ResidueManagementEvent''}'
 - '{''domain'': ''sockg_WindErosionArea''}'
-- '{''domain'': ''sockg_GasNutrientLoss''}'
+- '{''domain'': ''sockg_NutrientEfficiency''}'
+- '{''domain'': ''sockg_WaterQualityConc''}'
 - '{''domain'': ''sockg_CropGrowthStage''}'
+- '{''domain'': ''sockg_ExperimentalUnit''}'
+- '{''domain'': ''sockg_Harvest''}'
+- '{''domain'': ''sockg_GasNutrientLoss''}'
 - '{''domain'': ''sockg_Amendment''}'
 - '{''domain'': ''sockg_YieldNutrientUptake''}'
+- '{''domain'': ''sockg_HarvestFraction''}'
+- '{''domain'': ''sockg_ResidueManagementEvent''}'
+- '{''domain'': ''sockg_GasSample''}'
 range: string
 
 ```

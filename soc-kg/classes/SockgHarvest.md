@@ -289,34 +289,34 @@ URI: [sockg:Harvest](https://idir.uta.edu/sockg-ontology/docs/Harvest)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [sockg_grainNitrogenSd_kgN_per_ha](../slots/sockg_grainNitrogenSd_kgN_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 70 |
-| [sockg_harvestedResidueNitrogen_kgN_per_ha](../slots/sockg_harvestedResidueNitrogen_kgN_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 602 |
-| [sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha](../slots/sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 10384 |
-| [sockg_crop](../slots/sockg_crop.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 18356 |
 | [sockg_measResidueMgnt_UID](../slots/sockg_measResidueMgnt_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 18356 |
-| [sockg_harvestedResidueNitrogenSd_kgN_per_ha](../slots/sockg_harvestedResidueNitrogenSd_kgN_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 40 |
+| [sockg_crop](../slots/sockg_crop.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 18356 |
+| [sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha](../slots/sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 10384 |
 | [sockg_grainCarbonSd_kgC_per_ha](../slots/sockg_grainCarbonSd_kgC_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 72 |
-| [sockg_nonHarvestedResidueMoisturePercent](../slots/sockg_nonHarvestedResidueMoisturePercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 1372 |
-| [sockg_driedHarvestedResidue_kg_per_ha](../slots/sockg_driedHarvestedResidue_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 1851 |
-| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 18356 |
+| [sockg_grainNitrogenSd_kgN_per_ha](../slots/sockg_grainNitrogenSd_kgN_per_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 70 |
+| [sockg_nonHarvestedResidueMoisturePercent](../slots/sockg_nonHarvestedResidueMoisturePercent.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 1372 |
+| [sockg_nonHarvestedResidueMass_kg_per_ha](../slots/sockg_nonHarvestedResidueMass_kg_per_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 10748 |
+| [sockg_unitGrainWeight_mg](../slots/sockg_unitGrainWeight_mg.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 120 |
+| [sockg_driedHarvestedResidue_kg_per_ha](../slots/sockg_driedHarvestedResidue_kg_per_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 1851 |
+| [sockg_grainNitrogen_kgN_per_ha](../slots/sockg_grainNitrogen_kgN_per_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 11255 |
 | [sockg_grainMoisturePercentStd](../slots/sockg_grainMoisturePercentStd.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 30 |
-| [sockg_grainYieldSd_kg_per_ha](../slots/sockg_grainYieldSd_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 50 |
-| [sockg_nonHarvestedResidueMass_kg_per_ha](../slots/sockg_nonHarvestedResidueMass_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 10748 |
-| [sockg_harvestedResidueCarbon_kgC_per_ha](../slots/sockg_harvestedResidueCarbon_kgC_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 962 |
-| [sockg_grainNitrogen_kgN_per_ha](../slots/sockg_grainNitrogen_kgN_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 11255 |
-| [sockg_nonHarvestedResidueCarbonContent_kgC_per_ha](../slots/sockg_nonHarvestedResidueCarbonContent_kgC_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 9217 |
-| [sockg_aboveGroundBiomass_kg_per_ha](../slots/sockg_aboveGroundBiomass_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 11829 |
-| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 18304 |
-| [sockg_grainCarbon_kgC_per_ha](../slots/sockg_grainCarbon_kgC_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 13693 |
-| [sockg_aboveGroundBiomassSd_kg_per_ha](../slots/sockg_aboveGroundBiomassSd_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 32 |
-| [sockg_unitGrainWeight_mg](../slots/sockg_unitGrainWeight_mg.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 120 |
-| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 18356 |
-| [sockg_harvestedResidueCarbonSd_kgC_per_ha](../slots/sockg_harvestedResidueCarbonSd_kgC_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 40 |
-| [sockg_grainYield_kg_per_ha](../slots/sockg_grainYield_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 15410 |
-| [sockg_harvestedResidueMoisturePercent](../slots/sockg_harvestedResidueMoisturePercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 1086 |
-| [sockg_grainMoisturePercent](../slots/sockg_grainMoisturePercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 8426 |
-| [sockg_harvestedFrac](../slots/sockg_harvestedFrac.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 18047 |
+| [sockg_harvestedResidueNitrogen_kgN_per_ha](../slots/sockg_harvestedResidueNitrogen_kgN_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 602 |
+| [sockg_aboveGroundBiomassSd_kg_per_ha](../slots/sockg_aboveGroundBiomassSd_kg_per_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 32 |
+| [sockg_harvestedResidueNitrogenSd_kgN_per_ha](../slots/sockg_harvestedResidueNitrogenSd_kgN_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 40 |
 | [sockg_growthStage](../slots/sockg_growthStage.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 17240 |
+| [sockg_harvestedResidueMoisturePercent](../slots/sockg_harvestedResidueMoisturePercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 1086 |
+| [sockg_grainYield_kg_per_ha](../slots/sockg_grainYield_kg_per_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 15410 |
+| [sockg_harvestedFrac](../slots/sockg_harvestedFrac.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 18047 |
+| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot (predicate) description specified <br/>  | direct | 18304 |
+| [sockg_harvestedResidueCarbon_kgC_per_ha](../slots/sockg_harvestedResidueCarbon_kgC_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 962 |
+| [sockg_grainYieldSd_kg_per_ha](../slots/sockg_grainYieldSd_kg_per_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 50 |
+| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot (predicate) description specified <br/>  | direct | 18356 |
+| [sockg_nonHarvestedResidueCarbonContent_kgC_per_ha](../slots/sockg_nonHarvestedResidueCarbonContent_kgC_per_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 9217 |
+| [sockg_grainCarbon_kgC_per_ha](../slots/sockg_grainCarbon_kgC_per_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 13693 |
+| [sockg_aboveGroundBiomass_kg_per_ha](../slots/sockg_aboveGroundBiomass_kg_per_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 11829 |
+| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 18356 |
+| [sockg_grainMoisturePercent](../slots/sockg_grainMoisturePercent.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 8426 |
+| [sockg_harvestedResidueCarbonSd_kgC_per_ha](../slots/sockg_harvestedResidueCarbonSd_kgC_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 40 |
 
 
 
@@ -327,22 +327,22 @@ URI: [sockg:Harvest](https://idir.uta.edu/sockg-ontology/docs/Harvest)
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
 | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_isHarvested](../slots/sockg_isHarvested.md) | range | [SockgHarvest](../classes/SockgHarvest.md) |
-| [SockgHarvest](../classes/SockgHarvest.md) | [sockg_grainNitrogenSd_kgN_per_ha](../slots/sockg_grainNitrogenSd_kgN_per_ha.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
-| [SockgHarvest](../classes/SockgHarvest.md) | [sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha](../slots/sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
 | [SockgHarvest](../classes/SockgHarvest.md) | [sockg_measResidueMgnt_UID](../slots/sockg_measResidueMgnt_UID.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
+| [SockgHarvest](../classes/SockgHarvest.md) | [sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha](../slots/sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
+| [SockgHarvest](../classes/SockgHarvest.md) | [sockg_grainNitrogenSd_kgN_per_ha](../slots/sockg_grainNitrogenSd_kgN_per_ha.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
 | [SockgHarvest](../classes/SockgHarvest.md) | [sockg_nonHarvestedResidueMoisturePercent](../slots/sockg_nonHarvestedResidueMoisturePercent.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
-| [SockgHarvest](../classes/SockgHarvest.md) | [sockg_driedHarvestedResidue_kg_per_ha](../slots/sockg_driedHarvestedResidue_kg_per_ha.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
-| [SockgHarvest](../classes/SockgHarvest.md) | [sockg_grainYieldSd_kg_per_ha](../slots/sockg_grainYieldSd_kg_per_ha.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
 | [SockgHarvest](../classes/SockgHarvest.md) | [sockg_nonHarvestedResidueMass_kg_per_ha](../slots/sockg_nonHarvestedResidueMass_kg_per_ha.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
-| [SockgHarvest](../classes/SockgHarvest.md) | [sockg_grainNitrogen_kgN_per_ha](../slots/sockg_grainNitrogen_kgN_per_ha.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
-| [SockgHarvest](../classes/SockgHarvest.md) | [sockg_nonHarvestedResidueCarbonContent_kgC_per_ha](../slots/sockg_nonHarvestedResidueCarbonContent_kgC_per_ha.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
-| [SockgHarvest](../classes/SockgHarvest.md) | [sockg_aboveGroundBiomass_kg_per_ha](../slots/sockg_aboveGroundBiomass_kg_per_ha.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
-| [SockgHarvest](../classes/SockgHarvest.md) | [sockg_grainCarbon_kgC_per_ha](../slots/sockg_grainCarbon_kgC_per_ha.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
-| [SockgHarvest](../classes/SockgHarvest.md) | [sockg_aboveGroundBiomassSd_kg_per_ha](../slots/sockg_aboveGroundBiomassSd_kg_per_ha.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
 | [SockgHarvest](../classes/SockgHarvest.md) | [sockg_unitGrainWeight_mg](../slots/sockg_unitGrainWeight_mg.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
+| [SockgHarvest](../classes/SockgHarvest.md) | [sockg_driedHarvestedResidue_kg_per_ha](../slots/sockg_driedHarvestedResidue_kg_per_ha.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
+| [SockgHarvest](../classes/SockgHarvest.md) | [sockg_grainNitrogen_kgN_per_ha](../slots/sockg_grainNitrogen_kgN_per_ha.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
+| [SockgHarvest](../classes/SockgHarvest.md) | [sockg_aboveGroundBiomassSd_kg_per_ha](../slots/sockg_aboveGroundBiomassSd_kg_per_ha.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
 | [SockgHarvest](../classes/SockgHarvest.md) | [sockg_grainYield_kg_per_ha](../slots/sockg_grainYield_kg_per_ha.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
-| [SockgHarvest](../classes/SockgHarvest.md) | [sockg_grainMoisturePercent](../slots/sockg_grainMoisturePercent.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
 | [SockgHarvest](../classes/SockgHarvest.md) | [sockg_harvestedFrac](../slots/sockg_harvestedFrac.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
+| [SockgHarvest](../classes/SockgHarvest.md) | [sockg_grainYieldSd_kg_per_ha](../slots/sockg_grainYieldSd_kg_per_ha.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
+| [SockgHarvest](../classes/SockgHarvest.md) | [sockg_nonHarvestedResidueCarbonContent_kgC_per_ha](../slots/sockg_nonHarvestedResidueCarbonContent_kgC_per_ha.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
+| [SockgHarvest](../classes/SockgHarvest.md) | [sockg_grainCarbon_kgC_per_ha](../slots/sockg_grainCarbon_kgC_per_ha.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
+| [SockgHarvest](../classes/SockgHarvest.md) | [sockg_aboveGroundBiomass_kg_per_ha](../slots/sockg_aboveGroundBiomass_kg_per_ha.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
+| [SockgHarvest](../classes/SockgHarvest.md) | [sockg_grainMoisturePercent](../slots/sockg_grainMoisturePercent.md) | domain | [SockgHarvest](../classes/SockgHarvest.md) |
 
 
 
@@ -383,34 +383,34 @@ see_also:
 - https://lod.nal.usda.gov/nalt/30144
 rank: 1000
 slots:
-- sockg_grainNitrogenSd_kgN_per_ha
-- sockg_harvestedResidueNitrogen_kgN_per_ha
-- sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha
-- sockg_crop
 - sockg_measResidueMgnt_UID
-- sockg_harvestedResidueNitrogenSd_kgN_per_ha
+- sockg_crop
+- sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha
 - sockg_grainCarbonSd_kgC_per_ha
+- sockg_grainNitrogenSd_kgN_per_ha
 - sockg_nonHarvestedResidueMoisturePercent
-- sockg_driedHarvestedResidue_kg_per_ha
-- sockg_treatmentId
-- sockg_grainMoisturePercentStd
-- sockg_grainYieldSd_kg_per_ha
 - sockg_nonHarvestedResidueMass_kg_per_ha
-- sockg_harvestedResidueCarbon_kgC_per_ha
-- sockg_grainNitrogen_kgN_per_ha
-- sockg_nonHarvestedResidueCarbonContent_kgC_per_ha
-- sockg_aboveGroundBiomass_kg_per_ha
-- sockg_date
-- sockg_grainCarbon_kgC_per_ha
-- sockg_aboveGroundBiomassSd_kg_per_ha
 - sockg_unitGrainWeight_mg
-- rdfs_seeAlso
-- sockg_harvestedResidueCarbonSd_kgC_per_ha
-- sockg_grainYield_kg_per_ha
-- sockg_harvestedResidueMoisturePercent
-- sockg_grainMoisturePercent
-- sockg_harvestedFrac
+- sockg_driedHarvestedResidue_kg_per_ha
+- sockg_grainNitrogen_kgN_per_ha
+- sockg_grainMoisturePercentStd
+- sockg_harvestedResidueNitrogen_kgN_per_ha
+- sockg_aboveGroundBiomassSd_kg_per_ha
+- sockg_harvestedResidueNitrogenSd_kgN_per_ha
 - sockg_growthStage
+- sockg_harvestedResidueMoisturePercent
+- sockg_grainYield_kg_per_ha
+- sockg_harvestedFrac
+- sockg_date
+- sockg_harvestedResidueCarbon_kgC_per_ha
+- sockg_grainYieldSd_kg_per_ha
+- sockg_treatmentId
+- sockg_nonHarvestedResidueCarbonContent_kgC_per_ha
+- sockg_grainCarbon_kgC_per_ha
+- sockg_aboveGroundBiomass_kg_per_ha
+- rdfs_seeAlso
+- sockg_grainMoisturePercent
+- sockg_harvestedResidueCarbonSd_kgC_per_ha
 slot_usage:
   rdfs_seeAlso:
     name: rdfs_seeAlso
@@ -775,86 +775,30 @@ slot_usage:
         tag: double
         value: 120
 attributes:
-  sockg_grainNitrogenSd_kgN_per_ha:
-    name: sockg_grainNitrogenSd_kgN_per_ha
+  sockg_measResidueMgnt_UID:
+    name: sockg_measResidueMgnt_UID
     annotations:
-      double:
-        tag: double
-        value: 70
+      string:
+        tag: string
+        value: 18356
     description: No slot (predicate) description specified
     title: No slot (predicate) name specified
     examples:
     - object:
-        example_object: '7.88'
-        example_object_type: double
-        example_predicate: sockg:grainNitrogenSd_kgN_per_ha
-        example_subject: sockg:individuals/182268
+        example_object: AgCros_PAHAW_211_2007-11-14_Glycine_max_Soybean_
+        example_object_type: string
+        example_predicate: sockg:measResidueMgnt_UID
+        example_subject: sockg:individuals/172906
         example_subject_type: sockg_Harvest
     from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/325751
     rank: 1000
     domain: sockg_Harvest
-    slot_uri: sockg:grainNitrogenSd_kgN_per_ha
-    alias: sockg_grainNitrogenSd_kgN_per_ha
+    slot_uri: sockg:measResidueMgnt_UID
+    alias: sockg_measResidueMgnt_UID
     owner: sockg_Harvest
     domain_of:
     - sockg_Harvest
-    range: Any
-    any_of:
-    - range: double
-    - range: float
-  sockg_harvestedResidueNitrogen_kgN_per_ha:
-    name: sockg_harvestedResidueNitrogen_kgN_per_ha
-    annotations:
-      double:
-        tag: double
-        value: 602
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: '255.0066'
-        example_object_type: double
-        example_predicate: sockg:harvestedResidueNitrogen_kgN_per_ha
-        example_subject: sockg:individuals/173007
-        example_subject_type: sockg_Harvest
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:harvestedResidueNitrogen_kgN_per_ha
-    alias: sockg_harvestedResidueNitrogen_kgN_per_ha
-    owner: sockg_Harvest
-    domain_of:
-    - sockg_Harvest
-    range: double
-  sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha:
-    name: sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha
-    annotations:
-      double:
-        tag: double
-        value: 10384
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '11.29384'
-        example_object_type: double
-        example_predicate: sockg:nonHarvestedResidueNitrogenContent_kgN_per_ha
-        example_subject: sockg:individuals/173031
-        example_subject_type: sockg_Harvest
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/7829
-    rank: 1000
-    domain: sockg_Harvest
-    slot_uri: sockg:nonHarvestedResidueNitrogenContent_kgN_per_ha
-    alias: sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha
-    owner: sockg_Harvest
-    domain_of:
-    - sockg_Harvest
-    range: Any
-    any_of:
-    - range: double
-    - range: float
+    range: string
   sockg_crop:
     name: sockg_crop
     annotations:
@@ -972,62 +916,45 @@ attributes:
     - sockg_YieldNutrientUptake
     union_of:
     - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_BioMassEnergy''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
     - '{''domain'': ''sockg_WindErosionArea''}'
-    - '{''domain'': ''sockg_BioMassMineral''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
     - '{''domain'': ''sockg_GasNutrientLoss''}'
-    - '{''domain'': ''sockg_Tillage''}'
     - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_BioMassMineral''}'
     - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+    - '{''domain'': ''sockg_BioMassEnergy''}'
+    - '{''domain'': ''sockg_Tillage''}'
     range: string
-  sockg_measResidueMgnt_UID:
-    name: sockg_measResidueMgnt_UID
+  sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha:
+    name: sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha
     annotations:
-      string:
-        tag: string
-        value: 18356
+      double:
+        tag: double
+        value: 10384
     description: No slot (predicate) description specified
     title: No slot (predicate) name specified
     examples:
     - object:
-        example_object: AgCros_PAHAW_211_2007-11-14_Glycine_max_Soybean_
-        example_object_type: string
-        example_predicate: sockg:measResidueMgnt_UID
-        example_subject: sockg:individuals/172906
+        example_object: '11.29384'
+        example_object_type: double
+        example_predicate: sockg:nonHarvestedResidueNitrogenContent_kgN_per_ha
+        example_subject: sockg:individuals/173031
         example_subject_type: sockg_Harvest
     from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/7829
     rank: 1000
     domain: sockg_Harvest
-    slot_uri: sockg:measResidueMgnt_UID
-    alias: sockg_measResidueMgnt_UID
+    slot_uri: sockg:nonHarvestedResidueNitrogenContent_kgN_per_ha
+    alias: sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha
     owner: sockg_Harvest
     domain_of:
     - sockg_Harvest
-    range: string
-  sockg_harvestedResidueNitrogenSd_kgN_per_ha:
-    name: sockg_harvestedResidueNitrogenSd_kgN_per_ha
-    annotations:
-      double:
-        tag: double
-        value: 40
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: '0.0'
-        example_object_type: double
-        example_predicate: sockg:harvestedResidueNitrogenSd_kgN_per_ha
-        example_subject: sockg:individuals/187099
-        example_subject_type: sockg_Harvest
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:harvestedResidueNitrogenSd_kgN_per_ha
-    alias: sockg_harvestedResidueNitrogenSd_kgN_per_ha
-    owner: sockg_Harvest
-    domain_of:
-    - sockg_Harvest
-    range: double
+    range: Any
+    any_of:
+    - range: float
+    - range: double
   sockg_grainCarbonSd_kgC_per_ha:
     name: sockg_grainCarbonSd_kgC_per_ha
     annotations:
@@ -1050,6 +977,35 @@ attributes:
     domain_of:
     - sockg_Harvest
     range: double
+  sockg_grainNitrogenSd_kgN_per_ha:
+    name: sockg_grainNitrogenSd_kgN_per_ha
+    annotations:
+      double:
+        tag: double
+        value: 70
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '7.88'
+        example_object_type: double
+        example_predicate: sockg:grainNitrogenSd_kgN_per_ha
+        example_subject: sockg:individuals/182268
+        example_subject_type: sockg_Harvest
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/325751
+    rank: 1000
+    domain: sockg_Harvest
+    slot_uri: sockg:grainNitrogenSd_kgN_per_ha
+    alias: sockg_grainNitrogenSd_kgN_per_ha
+    owner: sockg_Harvest
+    domain_of:
+    - sockg_Harvest
+    range: Any
+    any_of:
+    - range: float
+    - range: double
   sockg_nonHarvestedResidueMoisturePercent:
     name: sockg_nonHarvestedResidueMoisturePercent
     annotations:
@@ -1077,8 +1033,64 @@ attributes:
     - sockg_Harvest
     range: Any
     any_of:
-    - range: double
     - range: float
+    - range: double
+  sockg_nonHarvestedResidueMass_kg_per_ha:
+    name: sockg_nonHarvestedResidueMass_kg_per_ha
+    annotations:
+      double:
+        tag: double
+        value: 10748
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '1104.5'
+        example_object_type: double
+        example_predicate: sockg:nonHarvestedResidueMass_kg_per_ha
+        example_subject: sockg:individuals/173031
+        example_subject_type: sockg_Harvest
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/51604
+    rank: 1000
+    domain: sockg_Harvest
+    slot_uri: sockg:nonHarvestedResidueMass_kg_per_ha
+    alias: sockg_nonHarvestedResidueMass_kg_per_ha
+    owner: sockg_Harvest
+    domain_of:
+    - sockg_Harvest
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_unitGrainWeight_mg:
+    name: sockg_unitGrainWeight_mg
+    annotations:
+      double:
+        tag: double
+        value: 120
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '894.7'
+        example_object_type: double
+        example_predicate: sockg:unitGrainWeight_mg
+        example_subject: sockg:individuals/173872
+        example_subject_type: sockg_Harvest
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Harvest
+    slot_uri: sockg:unitGrainWeight_mg
+    alias: sockg_unitGrainWeight_mg
+    owner: sockg_Harvest
+    domain_of:
+    - sockg_Harvest
+    range: Any
+    any_of:
+    - range: float
+    - range: double
   sockg_driedHarvestedResidue_kg_per_ha:
     name: sockg_driedHarvestedResidue_kg_per_ha
     annotations:
@@ -1104,8 +1116,569 @@ attributes:
     - sockg_Harvest
     range: Any
     any_of:
-    - range: double
     - range: float
+    - range: double
+  sockg_grainNitrogen_kgN_per_ha:
+    name: sockg_grainNitrogen_kgN_per_ha
+    annotations:
+      double:
+        tag: double
+        value: 11255
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '85.73225'
+        example_object_type: double
+        example_predicate: sockg:grainNitrogen_kgN_per_ha
+        example_subject: sockg:individuals/173031
+        example_subject_type: sockg_Harvest
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/325751
+    rank: 1000
+    domain: sockg_Harvest
+    slot_uri: sockg:grainNitrogen_kgN_per_ha
+    alias: sockg_grainNitrogen_kgN_per_ha
+    owner: sockg_Harvest
+    domain_of:
+    - sockg_Harvest
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_grainMoisturePercentStd:
+    name: sockg_grainMoisturePercentStd
+    annotations:
+      double:
+        tag: double
+        value: 30
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '0.1'
+        example_object_type: double
+        example_predicate: sockg:grainMoisturePercentStd
+        example_subject: sockg:individuals/182268
+        example_subject_type: sockg_Harvest
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:grainMoisturePercentStd
+    alias: sockg_grainMoisturePercentStd
+    owner: sockg_Harvest
+    domain_of:
+    - sockg_Harvest
+    range: double
+  sockg_harvestedResidueNitrogen_kgN_per_ha:
+    name: sockg_harvestedResidueNitrogen_kgN_per_ha
+    annotations:
+      double:
+        tag: double
+        value: 602
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '255.0066'
+        example_object_type: double
+        example_predicate: sockg:harvestedResidueNitrogen_kgN_per_ha
+        example_subject: sockg:individuals/173007
+        example_subject_type: sockg_Harvest
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:harvestedResidueNitrogen_kgN_per_ha
+    alias: sockg_harvestedResidueNitrogen_kgN_per_ha
+    owner: sockg_Harvest
+    domain_of:
+    - sockg_Harvest
+    range: double
+  sockg_aboveGroundBiomassSd_kg_per_ha:
+    name: sockg_aboveGroundBiomassSd_kg_per_ha
+    annotations:
+      double:
+        tag: double
+        value: 32
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '334.0'
+        example_object_type: double
+        example_predicate: sockg:aboveGroundBiomassSd_kg_per_ha
+        example_subject: sockg:individuals/174293
+        example_subject_type: sockg_Harvest
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/131626
+    rank: 1000
+    domain: sockg_Harvest
+    slot_uri: sockg:aboveGroundBiomassSd_kg_per_ha
+    alias: sockg_aboveGroundBiomassSd_kg_per_ha
+    owner: sockg_Harvest
+    domain_of:
+    - sockg_Harvest
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_harvestedResidueNitrogenSd_kgN_per_ha:
+    name: sockg_harvestedResidueNitrogenSd_kgN_per_ha
+    annotations:
+      double:
+        tag: double
+        value: 40
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '0.0'
+        example_object_type: double
+        example_predicate: sockg:harvestedResidueNitrogenSd_kgN_per_ha
+        example_subject: sockg:individuals/187099
+        example_subject_type: sockg_Harvest
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:harvestedResidueNitrogenSd_kgN_per_ha
+    alias: sockg_harvestedResidueNitrogenSd_kgN_per_ha
+    owner: sockg_Harvest
+    domain_of:
+    - sockg_Harvest
+    range: double
+  sockg_growthStage:
+    name: sockg_growthStage
+    annotations:
+      string:
+        tag: string
+        value: 17240
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: Maturity
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/163960
+        example_subject_type: sockg_Grazing
+    - object:
+        example_object: Harvest
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/172911
+        example_subject_type: sockg_Harvest
+    - object:
+        example_object: V7
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
+    - object:
+        example_object: Maturity
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: Harvest
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: Maturity
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: R6
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/46937
+        example_subject_type: sockg_CropGrowthStage
+    - object:
+        example_object: Maturity
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: Pre-graze
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: Pre-graze
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: Pre-graze
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: Harvest
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/7140
+    rank: 1000
+    slot_uri: sockg:growthStage
+    alias: sockg_growthStage
+    owner: sockg_Harvest
+    domain_of:
+    - sockg_BioMassCarbohydrate
+    - sockg_BioMassEnergy
+    - sockg_BioMassMineral
+    - sockg_CropGrowthStage
+    - sockg_GasNutrientLoss
+    - sockg_Grazing
+    - sockg_Harvest
+    - sockg_HarvestFraction
+    - sockg_NutrientEfficiency
+    - sockg_WaterQualityConc
+    - sockg_WindErosionArea
+    - sockg_YieldNutrientUptake
+    union_of:
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_CropGrowthStage''}'
+    - '{''domain'': ''sockg_Grazing''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_Harvest''}'
+    - '{''domain'': ''sockg_BioMassMineral''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+    - '{''domain'': ''sockg_BioMassEnergy''}'
+    - '{''domain'': ''sockg_HarvestFraction''}'
+    range: string
+  sockg_harvestedResidueMoisturePercent:
+    name: sockg_harvestedResidueMoisturePercent
+    annotations:
+      double:
+        tag: double
+        value: 1086
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '67.86667'
+        example_object_type: double
+        example_predicate: sockg:harvestedResidueMoisturePercent
+        example_subject: sockg:individuals/173007
+        example_subject_type: sockg_Harvest
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:harvestedResidueMoisturePercent
+    alias: sockg_harvestedResidueMoisturePercent
+    owner: sockg_Harvest
+    domain_of:
+    - sockg_Harvest
+    range: double
+  sockg_grainYield_kg_per_ha:
+    name: sockg_grainYield_kg_per_ha
+    annotations:
+      double:
+        tag: double
+        value: 15410
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '3518.653'
+        example_object_type: double
+        example_predicate: sockg:grainYield_kg_per_ha
+        example_subject: sockg:individuals/172906
+        example_subject_type: sockg_Harvest
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/30173
+    rank: 1000
+    domain: sockg_Harvest
+    slot_uri: sockg:grainYield_kg_per_ha
+    alias: sockg_grainYield_kg_per_ha
+    owner: sockg_Harvest
+    domain_of:
+    - sockg_Harvest
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_harvestedFrac:
+    name: sockg_harvestedFrac
+    annotations:
+      string:
+        tag: string
+        value: 18047
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: Grain
+        example_object_type: string
+        example_predicate: sockg:harvestedFrac
+        example_subject: sockg:individuals/172906
+        example_subject_type: sockg_Harvest
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/30174
+    rank: 1000
+    domain: sockg_Harvest
+    slot_uri: sockg:harvestedFrac
+    alias: sockg_harvestedFrac
+    owner: sockg_Harvest
+    domain_of:
+    - sockg_Harvest
+    range: string
+  sockg_date:
+    name: sockg_date
+    annotations:
+      string:
+        tag: string
+        value: 18304
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '2005-06-28'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    - object:
+        example_object: '1997-07-10'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/163960
+        example_subject_type: sockg_Grazing
+    - object:
+        example_object: '2007-11-14'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/172906
+        example_subject_type: sockg_Harvest
+    - object:
+        example_object: '2006-06-19'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
+    - object:
+        example_object: '2011-10-05'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/227674
+        example_subject_type: sockg_ResidueManagementEvent
+    - object:
+        example_object: '1994-04-11'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/235229
+        example_subject_type: sockg_SoilBiologicalSample
+    - object:
+        example_object: '2007-10-29'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/253451
+        example_subject_type: sockg_SoilChemicalSample
+    - object:
+        example_object: '2011-11-07'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/307284
+        example_subject_type: sockg_SoilCover
+    - object:
+        example_object: '2010-10-27'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/308318
+        example_subject_type: sockg_SoilPhysicalSample
+    - object:
+        example_object: '2009-10-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: '2008-09-04'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: '2018-10-04'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: '2015-10-25'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    - object:
+        example_object: '2011-08-31'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/46937
+        example_subject_type: sockg_CropGrowthStage
+    - object:
+        example_object: '2014-09-15'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: '2011-04-12'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: '2003-05-13'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: '2003-11-22'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/513777
+        example_subject_type: sockg_WeatherStation
+    - object:
+        example_object: '2008-05-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: '2001-03-15'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: '2014-11-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/302328
+    rank: 1000
+    slot_uri: sockg:date
+    alias: sockg_date
+    owner: sockg_Harvest
+    domain_of:
+    - sockg_BioMassCarbohydrate
+    - sockg_BioMassEnergy
+    - sockg_BioMassMineral
+    - sockg_CropGrowthStage
+    - sockg_GasNutrientLoss
+    - sockg_GasSample
+    - sockg_Grazing
+    - sockg_Harvest
+    - sockg_HarvestFraction
+    - sockg_NutrientEfficiency
+    - sockg_ResidueManagementEvent
+    - sockg_SoilBiologicalSample
+    - sockg_SoilChemicalSample
+    - sockg_SoilCover
+    - sockg_SoilPhysicalSample
+    - sockg_WaterQualityArea
+    - sockg_WaterQualityConc
+    - sockg_WeatherObservation
+    - sockg_WeatherStation
+    - sockg_WindErosionArea
+    - sockg_YieldNutrientUptake
+    union_of:
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_CropGrowthStage''}'
+    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+    - '{''domain'': ''sockg_Site''}'
+    - '{''domain'': ''sockg_ResidueManagementEvent''}'
+    - '{''domain'': ''sockg_GasSample''}'
+    - '{''domain'': ''sockg_PlantingEvent''}'
+    - '{''domain'': ''sockg_SoilCover''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_WeatherObservation''}'
+    - '{''domain'': ''sockg_SoilChemicalSample''}'
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_Publication''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_BioMassEnergy''}'
+    - '{''domain'': ''sockg_MiscellaneousMeasurement''}'
+    - '{''domain'': ''sockg_SoilPhysicalSample''}'
+    - '{''domain'': ''sockg_Grazing''}'
+    - '{''domain'': ''sockg_Harvest''}'
+    - '{''domain'': ''sockg_SoilBiologicalSample''}'
+    - '{''domain'': ''sockg_BioMassMineral''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_Tillage''}'
+    range: Any
+    any_of:
+    - range: string
+    - range: date
+  sockg_harvestedResidueCarbon_kgC_per_ha:
+    name: sockg_harvestedResidueCarbon_kgC_per_ha
+    annotations:
+      double:
+        tag: double
+        value: 962
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '9402.808'
+        example_object_type: double
+        example_predicate: sockg:harvestedResidueCarbon_kgC_per_ha
+        example_subject: sockg:individuals/173007
+        example_subject_type: sockg_Harvest
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:harvestedResidueCarbon_kgC_per_ha
+    alias: sockg_harvestedResidueCarbon_kgC_per_ha
+    owner: sockg_Harvest
+    domain_of:
+    - sockg_Harvest
+    range: double
+  sockg_grainYieldSd_kg_per_ha:
+    name: sockg_grainYieldSd_kg_per_ha
+    annotations:
+      double:
+        tag: double
+        value: 50
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '618.1846'
+        example_object_type: double
+        example_predicate: sockg:grainYieldSd_kg_per_ha
+        example_subject: sockg:individuals/173854
+        example_subject_type: sockg_Harvest
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/30173
+    rank: 1000
+    domain: sockg_Harvest
+    slot_uri: sockg:grainYieldSd_kg_per_ha
+    alias: sockg_grainYieldSd_kg_per_ha
+    owner: sockg_Harvest
+    domain_of:
+    - sockg_Harvest
+    range: Any
+    any_of:
+    - range: float
+    - range: double
   sockg_treatmentId:
     name: sockg_treatmentId
     annotations:
@@ -1276,157 +1849,26 @@ attributes:
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
     union_of:
-    - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_GrazingManagementEvent''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_SoilBiologicalSample''}'
-    - '{''domain'': ''sockg_SoilChemicalSample''}'
     - '{''domain'': ''sockg_SoilPhysicalSample''}'
-    - '{''domain'': ''sockg_HarvestFraction''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    - '{''domain'': ''sockg_ResidueManagementEvent''}'
+    - '{''domain'': ''sockg_WaterQualityArea''}'
     - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_Treatment''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_GrazingManagementEvent''}'
+    - '{''domain'': ''sockg_SoilChemicalSample''}'
     - '{''domain'': ''sockg_GasNutrientLoss''}'
     - '{''domain'': ''sockg_Amendment''}'
+    - '{''domain'': ''sockg_SoilBiologicalSample''}'
     - '{''domain'': ''sockg_YieldNutrientUptake''}'
     - '{''domain'': ''sockg_BioMassCarbohydrate''}'
-    - '{''domain'': ''sockg_Treatment''}'
+    - '{''domain'': ''sockg_HarvestFraction''}'
+    - '{''domain'': ''sockg_ResidueManagementEvent''}'
     range: Any
     any_of:
-    - range: date
+    - range: float
     - range: string
-    - range: float
-  sockg_grainMoisturePercentStd:
-    name: sockg_grainMoisturePercentStd
-    annotations:
-      double:
-        tag: double
-        value: 30
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: '0.1'
-        example_object_type: double
-        example_predicate: sockg:grainMoisturePercentStd
-        example_subject: sockg:individuals/182268
-        example_subject_type: sockg_Harvest
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:grainMoisturePercentStd
-    alias: sockg_grainMoisturePercentStd
-    owner: sockg_Harvest
-    domain_of:
-    - sockg_Harvest
-    range: double
-  sockg_grainYieldSd_kg_per_ha:
-    name: sockg_grainYieldSd_kg_per_ha
-    annotations:
-      double:
-        tag: double
-        value: 50
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '618.1846'
-        example_object_type: double
-        example_predicate: sockg:grainYieldSd_kg_per_ha
-        example_subject: sockg:individuals/173854
-        example_subject_type: sockg_Harvest
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/30173
-    rank: 1000
-    domain: sockg_Harvest
-    slot_uri: sockg:grainYieldSd_kg_per_ha
-    alias: sockg_grainYieldSd_kg_per_ha
-    owner: sockg_Harvest
-    domain_of:
-    - sockg_Harvest
-    range: Any
-    any_of:
-    - range: double
-    - range: float
-  sockg_nonHarvestedResidueMass_kg_per_ha:
-    name: sockg_nonHarvestedResidueMass_kg_per_ha
-    annotations:
-      double:
-        tag: double
-        value: 10748
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '1104.5'
-        example_object_type: double
-        example_predicate: sockg:nonHarvestedResidueMass_kg_per_ha
-        example_subject: sockg:individuals/173031
-        example_subject_type: sockg_Harvest
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/51604
-    rank: 1000
-    domain: sockg_Harvest
-    slot_uri: sockg:nonHarvestedResidueMass_kg_per_ha
-    alias: sockg_nonHarvestedResidueMass_kg_per_ha
-    owner: sockg_Harvest
-    domain_of:
-    - sockg_Harvest
-    range: Any
-    any_of:
-    - range: double
-    - range: float
-  sockg_harvestedResidueCarbon_kgC_per_ha:
-    name: sockg_harvestedResidueCarbon_kgC_per_ha
-    annotations:
-      double:
-        tag: double
-        value: 962
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: '9402.808'
-        example_object_type: double
-        example_predicate: sockg:harvestedResidueCarbon_kgC_per_ha
-        example_subject: sockg:individuals/173007
-        example_subject_type: sockg_Harvest
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:harvestedResidueCarbon_kgC_per_ha
-    alias: sockg_harvestedResidueCarbon_kgC_per_ha
-    owner: sockg_Harvest
-    domain_of:
-    - sockg_Harvest
-    range: double
-  sockg_grainNitrogen_kgN_per_ha:
-    name: sockg_grainNitrogen_kgN_per_ha
-    annotations:
-      double:
-        tag: double
-        value: 11255
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '85.73225'
-        example_object_type: double
-        example_predicate: sockg:grainNitrogen_kgN_per_ha
-        example_subject: sockg:individuals/173031
-        example_subject_type: sockg_Harvest
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/325751
-    rank: 1000
-    domain: sockg_Harvest
-    slot_uri: sockg:grainNitrogen_kgN_per_ha
-    alias: sockg_grainNitrogen_kgN_per_ha
-    owner: sockg_Harvest
-    domain_of:
-    - sockg_Harvest
-    range: Any
-    any_of:
-    - range: double
-    - range: float
+    - range: date
   sockg_nonHarvestedResidueCarbonContent_kgC_per_ha:
     name: sockg_nonHarvestedResidueCarbonContent_kgC_per_ha
     annotations:
@@ -1452,230 +1894,8 @@ attributes:
     - sockg_Harvest
     range: Any
     any_of:
-    - range: double
     - range: float
-  sockg_aboveGroundBiomass_kg_per_ha:
-    name: sockg_aboveGroundBiomass_kg_per_ha
-    annotations:
-      double:
-        tag: double
-        value: 11829
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '11451.77'
-        example_object_type: double
-        example_predicate: sockg:aboveGroundBiomass_kg_per_ha
-        example_subject: sockg:individuals/172992
-        example_subject_type: sockg_Harvest
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/131626
-    rank: 1000
-    domain: sockg_Harvest
-    slot_uri: sockg:aboveGroundBiomass_kg_per_ha
-    alias: sockg_aboveGroundBiomass_kg_per_ha
-    owner: sockg_Harvest
-    domain_of:
-    - sockg_Harvest
-    range: Any
-    any_of:
     - range: double
-    - range: float
-  sockg_date:
-    name: sockg_date
-    annotations:
-      string:
-        tag: string
-        value: 18304
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '2005-06-28'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/100000
-        example_subject_type: sockg_GasSample
-    - object:
-        example_object: '1997-07-10'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/163960
-        example_subject_type: sockg_Grazing
-    - object:
-        example_object: '2007-11-14'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/172906
-        example_subject_type: sockg_Harvest
-    - object:
-        example_object: '2006-06-19'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/191262
-        example_subject_type: sockg_HarvestFraction
-    - object:
-        example_object: '2011-10-05'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/227674
-        example_subject_type: sockg_ResidueManagementEvent
-    - object:
-        example_object: '1994-04-11'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/235229
-        example_subject_type: sockg_SoilBiologicalSample
-    - object:
-        example_object: '2007-10-29'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/253451
-        example_subject_type: sockg_SoilChemicalSample
-    - object:
-        example_object: '2011-11-07'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/307284
-        example_subject_type: sockg_SoilCover
-    - object:
-        example_object: '2010-10-27'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/308318
-        example_subject_type: sockg_SoilPhysicalSample
-    - object:
-        example_object: '2009-10-01'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/37796
-        example_subject_type: sockg_BioMassCarbohydrate
-    - object:
-        example_object: '2008-09-04'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/39163
-        example_subject_type: sockg_BioMassEnergy
-    - object:
-        example_object: '2018-10-04'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/39962
-        example_subject_type: sockg_BioMassMineral
-    - object:
-        example_object: '2015-10-25'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/439235
-        example_subject_type: sockg_WeatherObservation
-    - object:
-        example_object: '2011-08-31'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/46937
-        example_subject_type: sockg_CropGrowthStage
-    - object:
-        example_object: '2014-09-15'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/200732
-        example_subject_type: sockg_NutrientEfficiency
-    - object:
-        example_object: '2011-04-12'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/364326
-        example_subject_type: sockg_WaterQualityArea
-    - object:
-        example_object: '2003-05-13'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/364993
-        example_subject_type: sockg_WaterQualityConc
-    - object:
-        example_object: '2003-11-22'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/513777
-        example_subject_type: sockg_WeatherStation
-    - object:
-        example_object: '2008-05-01'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/55858
-        example_subject_type: sockg_GasNutrientLoss
-    - object:
-        example_object: '2001-03-15'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/624572
-        example_subject_type: sockg_WindErosionArea
-    - object:
-        example_object: '2014-11-01'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/624587
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/302328
-    rank: 1000
-    slot_uri: sockg:date
-    alias: sockg_date
-    owner: sockg_Harvest
-    domain_of:
-    - sockg_BioMassCarbohydrate
-    - sockg_BioMassEnergy
-    - sockg_BioMassMineral
-    - sockg_CropGrowthStage
-    - sockg_GasNutrientLoss
-    - sockg_GasSample
-    - sockg_Grazing
-    - sockg_Harvest
-    - sockg_HarvestFraction
-    - sockg_NutrientEfficiency
-    - sockg_ResidueManagementEvent
-    - sockg_SoilBiologicalSample
-    - sockg_SoilChemicalSample
-    - sockg_SoilCover
-    - sockg_SoilPhysicalSample
-    - sockg_WaterQualityArea
-    - sockg_WaterQualityConc
-    - sockg_WeatherObservation
-    - sockg_WeatherStation
-    - sockg_WindErosionArea
-    - sockg_YieldNutrientUptake
-    union_of:
-    - '{''domain'': ''sockg_PlantingEvent''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    - '{''domain'': ''sockg_BioMassMineral''}'
-    - '{''domain'': ''sockg_Tillage''}'
-    - '{''domain'': ''sockg_Publication''}'
-    - '{''domain'': ''sockg_CropGrowthStage''}'
-    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
-    - '{''domain'': ''sockg_Site''}'
-    - '{''domain'': ''sockg_SoilBiologicalSample''}'
-    - '{''domain'': ''sockg_GasSample''}'
-    - '{''domain'': ''sockg_SoilCover''}'
-    - '{''domain'': ''sockg_SoilChemicalSample''}'
-    - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_WindErosionArea''}'
-    - '{''domain'': ''sockg_Grazing''}'
-    - '{''domain'': ''sockg_YieldNutrientUptake''}'
-    - '{''domain'': ''sockg_MiscellaneousMeasurement''}'
-    - '{''domain'': ''sockg_SoilPhysicalSample''}'
-    - '{''domain'': ''sockg_BioMassEnergy''}'
-    - '{''domain'': ''sockg_Harvest''}'
-    - '{''domain'': ''sockg_ResidueManagementEvent''}'
-    - '{''domain'': ''sockg_GasNutrientLoss''}'
-    - '{''domain'': ''sockg_WeatherObservation''}'
-    range: Any
-    any_of:
-    - range: date
-    - range: string
   sockg_grainCarbon_kgC_per_ha:
     name: sockg_grainCarbon_kgC_per_ha
     annotations:
@@ -1703,64 +1923,37 @@ attributes:
     - sockg_Harvest
     range: Any
     any_of:
-    - range: double
     - range: float
-  sockg_aboveGroundBiomassSd_kg_per_ha:
-    name: sockg_aboveGroundBiomassSd_kg_per_ha
+    - range: double
+  sockg_aboveGroundBiomass_kg_per_ha:
+    name: sockg_aboveGroundBiomass_kg_per_ha
     annotations:
       double:
         tag: double
-        value: 32
+        value: 11829
     description: No slot (predicate) description specified
     title: No slot (predicate) name specified
     examples:
     - object:
-        example_object: '334.0'
+        example_object: '11451.77'
         example_object_type: double
-        example_predicate: sockg:aboveGroundBiomassSd_kg_per_ha
-        example_subject: sockg:individuals/174293
+        example_predicate: sockg:aboveGroundBiomass_kg_per_ha
+        example_subject: sockg:individuals/172992
         example_subject_type: sockg_Harvest
     from_schema: soc-kg
     see_also:
     - https://lod.nal.usda.gov/nalt/131626
     rank: 1000
     domain: sockg_Harvest
-    slot_uri: sockg:aboveGroundBiomassSd_kg_per_ha
-    alias: sockg_aboveGroundBiomassSd_kg_per_ha
+    slot_uri: sockg:aboveGroundBiomass_kg_per_ha
+    alias: sockg_aboveGroundBiomass_kg_per_ha
     owner: sockg_Harvest
     domain_of:
     - sockg_Harvest
     range: Any
     any_of:
-    - range: double
     - range: float
-  sockg_unitGrainWeight_mg:
-    name: sockg_unitGrainWeight_mg
-    annotations:
-      double:
-        tag: double
-        value: 120
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '894.7'
-        example_object_type: double
-        example_predicate: sockg:unitGrainWeight_mg
-        example_subject: sockg:individuals/173872
-        example_subject_type: sockg_Harvest
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_Harvest
-    slot_uri: sockg:unitGrainWeight_mg
-    alias: sockg_unitGrainWeight_mg
-    owner: sockg_Harvest
-    domain_of:
-    - sockg_Harvest
-    range: Any
-    any_of:
     - range: double
-    - range: float
   rdfs_seeAlso:
     name: rdfs_seeAlso
     annotations:
@@ -2063,79 +2256,6 @@ attributes:
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
     range: uri
-  sockg_harvestedResidueCarbonSd_kgC_per_ha:
-    name: sockg_harvestedResidueCarbonSd_kgC_per_ha
-    annotations:
-      double:
-        tag: double
-        value: 40
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: '0.26'
-        example_object_type: double
-        example_predicate: sockg:harvestedResidueCarbonSd_kgC_per_ha
-        example_subject: sockg:individuals/187099
-        example_subject_type: sockg_Harvest
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:harvestedResidueCarbonSd_kgC_per_ha
-    alias: sockg_harvestedResidueCarbonSd_kgC_per_ha
-    owner: sockg_Harvest
-    domain_of:
-    - sockg_Harvest
-    range: double
-  sockg_grainYield_kg_per_ha:
-    name: sockg_grainYield_kg_per_ha
-    annotations:
-      double:
-        tag: double
-        value: 15410
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '3518.653'
-        example_object_type: double
-        example_predicate: sockg:grainYield_kg_per_ha
-        example_subject: sockg:individuals/172906
-        example_subject_type: sockg_Harvest
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/30173
-    rank: 1000
-    domain: sockg_Harvest
-    slot_uri: sockg:grainYield_kg_per_ha
-    alias: sockg_grainYield_kg_per_ha
-    owner: sockg_Harvest
-    domain_of:
-    - sockg_Harvest
-    range: Any
-    any_of:
-    - range: double
-    - range: float
-  sockg_harvestedResidueMoisturePercent:
-    name: sockg_harvestedResidueMoisturePercent
-    annotations:
-      double:
-        tag: double
-        value: 1086
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: '67.86667'
-        example_object_type: double
-        example_predicate: sockg:harvestedResidueMoisturePercent
-        example_subject: sockg:individuals/173007
-        example_subject_type: sockg_Harvest
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:harvestedResidueMoisturePercent
-    alias: sockg_harvestedResidueMoisturePercent
-    owner: sockg_Harvest
-    domain_of:
-    - sockg_Harvest
-    range: double
   sockg_grainMoisturePercent:
     name: sockg_grainMoisturePercent
     annotations:
@@ -2161,150 +2281,30 @@ attributes:
     - sockg_Harvest
     range: Any
     any_of:
-    - range: double
     - range: float
-  sockg_harvestedFrac:
-    name: sockg_harvestedFrac
+    - range: double
+  sockg_harvestedResidueCarbonSd_kgC_per_ha:
+    name: sockg_harvestedResidueCarbonSd_kgC_per_ha
     annotations:
-      string:
-        tag: string
-        value: 18047
+      double:
+        tag: double
+        value: 40
     description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
     examples:
     - object:
-        example_object: Grain
-        example_object_type: string
-        example_predicate: sockg:harvestedFrac
-        example_subject: sockg:individuals/172906
+        example_object: '0.26'
+        example_object_type: double
+        example_predicate: sockg:harvestedResidueCarbonSd_kgC_per_ha
+        example_subject: sockg:individuals/187099
         example_subject_type: sockg_Harvest
     from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/30174
     rank: 1000
-    domain: sockg_Harvest
-    slot_uri: sockg:harvestedFrac
-    alias: sockg_harvestedFrac
+    slot_uri: sockg:harvestedResidueCarbonSd_kgC_per_ha
+    alias: sockg_harvestedResidueCarbonSd_kgC_per_ha
     owner: sockg_Harvest
     domain_of:
     - sockg_Harvest
-    range: string
-  sockg_growthStage:
-    name: sockg_growthStage
-    annotations:
-      string:
-        tag: string
-        value: 17240
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: Maturity
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/163960
-        example_subject_type: sockg_Grazing
-    - object:
-        example_object: Harvest
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/172911
-        example_subject_type: sockg_Harvest
-    - object:
-        example_object: V7
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/191262
-        example_subject_type: sockg_HarvestFraction
-    - object:
-        example_object: Maturity
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/37796
-        example_subject_type: sockg_BioMassCarbohydrate
-    - object:
-        example_object: Harvest
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/39163
-        example_subject_type: sockg_BioMassEnergy
-    - object:
-        example_object: Maturity
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/39962
-        example_subject_type: sockg_BioMassMineral
-    - object:
-        example_object: R6
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/46937
-        example_subject_type: sockg_CropGrowthStage
-    - object:
-        example_object: Maturity
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/200732
-        example_subject_type: sockg_NutrientEfficiency
-    - object:
-        example_object: Pre-graze
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/364993
-        example_subject_type: sockg_WaterQualityConc
-    - object:
-        example_object: Pre-graze
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/55858
-        example_subject_type: sockg_GasNutrientLoss
-    - object:
-        example_object: Pre-graze
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/624572
-        example_subject_type: sockg_WindErosionArea
-    - object:
-        example_object: Harvest
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/624587
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/7140
-    rank: 1000
-    slot_uri: sockg:growthStage
-    alias: sockg_growthStage
-    owner: sockg_Harvest
-    domain_of:
-    - sockg_BioMassCarbohydrate
-    - sockg_BioMassEnergy
-    - sockg_BioMassMineral
-    - sockg_CropGrowthStage
-    - sockg_GasNutrientLoss
-    - sockg_Grazing
-    - sockg_Harvest
-    - sockg_HarvestFraction
-    - sockg_NutrientEfficiency
-    - sockg_WaterQualityConc
-    - sockg_WindErosionArea
-    - sockg_YieldNutrientUptake
-    union_of:
-    - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_BioMassEnergy''}'
-    - '{''domain'': ''sockg_HarvestFraction''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    - '{''domain'': ''sockg_Harvest''}'
-    - '{''domain'': ''sockg_WindErosionArea''}'
-    - '{''domain'': ''sockg_BioMassMineral''}'
-    - '{''domain'': ''sockg_GasNutrientLoss''}'
-    - '{''domain'': ''sockg_Grazing''}'
-    - '{''domain'': ''sockg_CropGrowthStage''}'
-    - '{''domain'': ''sockg_YieldNutrientUptake''}'
-    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
-    range: string
+    range: double
 class_uri: sockg:Harvest
 
 ```

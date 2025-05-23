@@ -37,7 +37,7 @@ URI: [sockg:isMethaneInterpolated](https://idir.uta.edu/sockg-ontology/docs/isMe
 
 ## Properties
 
-* Range: [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[Int32](../types/Int32.md)
 
 
 
@@ -79,7 +79,10 @@ slot_uri: sockg:isMethaneInterpolated
 alias: sockg_isMethaneInterpolated
 domain_of:
 - sockg_GasSample
-range: integer
+range: Any
+any_of:
+- range: integer
+- range: int32
 
 ```
 </details>

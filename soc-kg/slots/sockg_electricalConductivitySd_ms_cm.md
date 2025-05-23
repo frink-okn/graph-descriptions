@@ -59,8 +59,8 @@ rank: 1000
 slot_uri: sockg:electricalConductivitySd_ms_cm
 alias: sockg_electricalConductivitySd_ms_cm
 union_of:
-- '{''domain'': ''sockg_WaterQualityArea''}'
 - '{''domain'': ''sockg_WaterQualityConc''}'
+- '{''domain'': ''sockg_WaterQualityArea''}'
 - '{''domain'': ''sockg_WindErosionArea''}'
 range: float
 

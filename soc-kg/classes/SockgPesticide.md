@@ -91,12 +91,12 @@ URI: [sockg:Pesticide](https://idir.uta.edu/sockg-ontology/docs/Pesticide)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 356 |
-| [sockg_totalPesticideAmount_kg_per_ha](../slots/sockg_totalPesticideAmount_kg_per_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 353 |
 | [sockg_pesticidePlacement](../slots/sockg_pesticidePlacement.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 230 |
 | [sockg_pesticideTarget](../slots/sockg_pesticideTarget.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 247 |
-| [sockg_pesticide_UID](../slots/sockg_pesticide_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 356 |
 | [sockg_pesticideActiveIngredientType](../slots/sockg_pesticideActiveIngredientType.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 353 |
+| [sockg_totalPesticideAmount_kg_per_ha](../slots/sockg_totalPesticideAmount_kg_per_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 353 |
+| [sockg_pesticide_UID](../slots/sockg_pesticide_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 356 |
+| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 356 |
 
 
 
@@ -107,11 +107,11 @@ URI: [sockg:Pesticide](https://idir.uta.edu/sockg-ontology/docs/Pesticide)
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
 | [SockgAmendment](../classes/SockgAmendment.md) | [sockg_hasPesticide](../slots/sockg_hasPesticide.md) | range | [SockgPesticide](../classes/SockgPesticide.md) |
-| [SockgPesticide](../classes/SockgPesticide.md) | [sockg_totalPesticideAmount_kg_per_ha](../slots/sockg_totalPesticideAmount_kg_per_ha.md) | domain | [SockgPesticide](../classes/SockgPesticide.md) |
 | [SockgPesticide](../classes/SockgPesticide.md) | [sockg_pesticidePlacement](../slots/sockg_pesticidePlacement.md) | domain | [SockgPesticide](../classes/SockgPesticide.md) |
 | [SockgPesticide](../classes/SockgPesticide.md) | [sockg_pesticideTarget](../slots/sockg_pesticideTarget.md) | domain | [SockgPesticide](../classes/SockgPesticide.md) |
-| [SockgPesticide](../classes/SockgPesticide.md) | [sockg_pesticide_UID](../slots/sockg_pesticide_UID.md) | domain | [SockgPesticide](../classes/SockgPesticide.md) |
 | [SockgPesticide](../classes/SockgPesticide.md) | [sockg_pesticideActiveIngredientType](../slots/sockg_pesticideActiveIngredientType.md) | domain | [SockgPesticide](../classes/SockgPesticide.md) |
+| [SockgPesticide](../classes/SockgPesticide.md) | [sockg_totalPesticideAmount_kg_per_ha](../slots/sockg_totalPesticideAmount_kg_per_ha.md) | domain | [SockgPesticide](../classes/SockgPesticide.md) |
+| [SockgPesticide](../classes/SockgPesticide.md) | [sockg_pesticide_UID](../slots/sockg_pesticide_UID.md) | domain | [SockgPesticide](../classes/SockgPesticide.md) |
 
 
 
@@ -152,12 +152,12 @@ see_also:
 - https://lod.nal.usda.gov/nalt/287
 rank: 1000
 slots:
-- rdfs_seeAlso
-- sockg_totalPesticideAmount_kg_per_ha
 - sockg_pesticidePlacement
 - sockg_pesticideTarget
-- sockg_pesticide_UID
 - sockg_pesticideActiveIngredientType
+- sockg_totalPesticideAmount_kg_per_ha
+- sockg_pesticide_UID
+- rdfs_seeAlso
 slot_usage:
   rdfs_seeAlso:
     name: rdfs_seeAlso
@@ -258,6 +258,135 @@ slot_usage:
         tag: double
         value: 353
 attributes:
+  sockg_pesticidePlacement:
+    name: sockg_pesticidePlacement
+    annotations:
+      string:
+        tag: string
+        value: 230
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: Under soil with planter
+        example_object_type: string
+        example_predicate: sockg:pesticidePlacement
+        example_subject: sockg:individuals/203636
+        example_subject_type: sockg_Pesticide
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/142739
+    rank: 1000
+    domain: sockg_Pesticide
+    slot_uri: sockg:pesticidePlacement
+    alias: sockg_pesticidePlacement
+    owner: sockg_Pesticide
+    domain_of:
+    - sockg_Pesticide
+    range: string
+  sockg_pesticideTarget:
+    name: sockg_pesticideTarget
+    annotations:
+      string:
+        tag: string
+        value: 247
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: weeds
+        example_object_type: string
+        example_predicate: sockg:pesticideTarget
+        example_subject: sockg:individuals/203633
+        example_subject_type: sockg_Pesticide
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/839
+    rank: 1000
+    domain: sockg_Pesticide
+    slot_uri: sockg:pesticideTarget
+    alias: sockg_pesticideTarget
+    owner: sockg_Pesticide
+    domain_of:
+    - sockg_Pesticide
+    range: string
+  sockg_pesticideActiveIngredientType:
+    name: sockg_pesticideActiveIngredientType
+    annotations:
+      string:
+        tag: string
+        value: 353
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: 2,4-D; CAS No. 94-75-7
+        example_object_type: string
+        example_predicate: sockg:pesticideActiveIngredientType
+        example_subject: sockg:individuals/203633
+        example_subject_type: sockg_Pesticide
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/3927
+    rank: 1000
+    domain: sockg_Pesticide
+    slot_uri: sockg:pesticideActiveIngredientType
+    alias: sockg_pesticideActiveIngredientType
+    owner: sockg_Pesticide
+    domain_of:
+    - sockg_Pesticide
+    range: string
+  sockg_totalPesticideAmount_kg_per_ha:
+    name: sockg_totalPesticideAmount_kg_per_ha
+    annotations:
+      double:
+        tag: double
+        value: 353
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '0.0'
+        example_object_type: double
+        example_predicate: sockg:totalPesticideAmount_kg_per_ha
+        example_subject: sockg:individuals/203632
+        example_subject_type: sockg_Pesticide
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Pesticide
+    slot_uri: sockg:totalPesticideAmount_kg_per_ha
+    alias: sockg_totalPesticideAmount_kg_per_ha
+    owner: sockg_Pesticide
+    domain_of:
+    - sockg_Pesticide
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_pesticide_UID:
+    name: sockg_pesticide_UID
+    annotations:
+      string:
+        tag: string
+        value: 356
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: AgCros_0.0_nan_nan_nan
+        example_object_type: string
+        example_predicate: sockg:pesticide_UID
+        example_subject: sockg:individuals/203632
+        example_subject_type: sockg_Pesticide
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Pesticide
+    slot_uri: sockg:pesticide_UID
+    alias: sockg_pesticide_UID
+    owner: sockg_Pesticide
+    domain_of:
+    - sockg_Pesticide
+    range: string
   rdfs_seeAlso:
     name: rdfs_seeAlso
     annotations:
@@ -560,135 +689,6 @@ attributes:
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
     range: uri
-  sockg_totalPesticideAmount_kg_per_ha:
-    name: sockg_totalPesticideAmount_kg_per_ha
-    annotations:
-      double:
-        tag: double
-        value: 353
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '0.0'
-        example_object_type: double
-        example_predicate: sockg:totalPesticideAmount_kg_per_ha
-        example_subject: sockg:individuals/203632
-        example_subject_type: sockg_Pesticide
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_Pesticide
-    slot_uri: sockg:totalPesticideAmount_kg_per_ha
-    alias: sockg_totalPesticideAmount_kg_per_ha
-    owner: sockg_Pesticide
-    domain_of:
-    - sockg_Pesticide
-    range: Any
-    any_of:
-    - range: double
-    - range: float
-  sockg_pesticidePlacement:
-    name: sockg_pesticidePlacement
-    annotations:
-      string:
-        tag: string
-        value: 230
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: Under soil with planter
-        example_object_type: string
-        example_predicate: sockg:pesticidePlacement
-        example_subject: sockg:individuals/203636
-        example_subject_type: sockg_Pesticide
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/142739
-    rank: 1000
-    domain: sockg_Pesticide
-    slot_uri: sockg:pesticidePlacement
-    alias: sockg_pesticidePlacement
-    owner: sockg_Pesticide
-    domain_of:
-    - sockg_Pesticide
-    range: string
-  sockg_pesticideTarget:
-    name: sockg_pesticideTarget
-    annotations:
-      string:
-        tag: string
-        value: 247
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: weeds
-        example_object_type: string
-        example_predicate: sockg:pesticideTarget
-        example_subject: sockg:individuals/203633
-        example_subject_type: sockg_Pesticide
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/839
-    rank: 1000
-    domain: sockg_Pesticide
-    slot_uri: sockg:pesticideTarget
-    alias: sockg_pesticideTarget
-    owner: sockg_Pesticide
-    domain_of:
-    - sockg_Pesticide
-    range: string
-  sockg_pesticide_UID:
-    name: sockg_pesticide_UID
-    annotations:
-      string:
-        tag: string
-        value: 356
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: AgCros_0.0_nan_nan_nan
-        example_object_type: string
-        example_predicate: sockg:pesticide_UID
-        example_subject: sockg:individuals/203632
-        example_subject_type: sockg_Pesticide
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_Pesticide
-    slot_uri: sockg:pesticide_UID
-    alias: sockg_pesticide_UID
-    owner: sockg_Pesticide
-    domain_of:
-    - sockg_Pesticide
-    range: string
-  sockg_pesticideActiveIngredientType:
-    name: sockg_pesticideActiveIngredientType
-    annotations:
-      string:
-        tag: string
-        value: 353
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: 2,4-D; CAS No. 94-75-7
-        example_object_type: string
-        example_predicate: sockg:pesticideActiveIngredientType
-        example_subject: sockg:individuals/203633
-        example_subject_type: sockg_Pesticide
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/3927
-    rank: 1000
-    domain: sockg_Pesticide
-    slot_uri: sockg:pesticideActiveIngredientType
-    alias: sockg_pesticideActiveIngredientType
-    owner: sockg_Pesticide
-    domain_of:
-    - sockg_Pesticide
-    range: string
 class_uri: sockg:Pesticide
 
 ```

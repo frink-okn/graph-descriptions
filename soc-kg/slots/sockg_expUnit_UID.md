@@ -27,11 +27,11 @@ URI: [sockg:expUnit_UID](https://idir.uta.edu/sockg-ontology/docs/expUnit_UID)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by... |  yes  |
-| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | A WaterQualityArea represents a designated agricultural zone where water qual... |  yes  |
-| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | The GasNutrientLoss class represents the assessment of gaseous nutrient losse... |  yes  |
 | [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | WaterQualityConc represents the concentration of various water quality parame... |  yes  |
+| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | The GasNutrientLoss class represents the assessment of gaseous nutrient losse... |  yes  |
 | [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | The WindErosionArea class represents regions affected by wind erosion, detail... |  yes  |
+| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | A WaterQualityArea represents a designated agricultural zone where water qual... |  yes  |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by... |  yes  |
 | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | An ExperimentalUnit represents a specific segment of agricultural research fo... |  yes  |
 | [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | The NutrientEfficiency class represents the effectiveness of nutrient utiliza... |  yes  |
 
@@ -133,10 +133,10 @@ domain_of:
 - sockg_WindErosionArea
 - sockg_YieldNutrientUptake
 union_of:
-- '{''domain'': ''sockg_ExperimentalUnit''}'
+- '{''domain'': ''sockg_WindErosionArea''}'
 - '{''domain'': ''sockg_NutrientEfficiency''}'
 - '{''domain'': ''sockg_WaterQualityConc''}'
-- '{''domain'': ''sockg_WindErosionArea''}'
+- '{''domain'': ''sockg_ExperimentalUnit''}'
 - '{''domain'': ''sockg_GasNutrientLoss''}'
 - '{''domain'': ''sockg_YieldNutrientUptake''}'
 range: string

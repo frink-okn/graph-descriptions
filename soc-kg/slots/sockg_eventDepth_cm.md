@@ -26,7 +26,7 @@ URI: [sockg:eventDepth_cm](https://idir.uta.edu/sockg-ontology/docs/eventDepth_c
 
 ## Properties
 
-* Range: [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
+* Range: [Int32](../types/Int32.md)
 
 
 
@@ -59,7 +59,7 @@ rank: 1000
 domain: sockg_Tillage
 slot_uri: sockg:eventDepth_cm
 alias: sockg_eventDepth_cm
-range: integer
+range: int32
 
 ```
 </details>

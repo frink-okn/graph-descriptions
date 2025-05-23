@@ -59,776 +59,785 @@ KwgrS2CellLevel13 {
 
 }
 SockgAmendment {
-    uri rdfs_seeAlso  
-    double sockg_irrigationAmount_cm  
-    float sockg_irrigationAmount_cm  
-    string sockg_irrigationType  
-    float sockg_irrigationType  
-    double sockg_irrigationNitrogen_mg_per_L  
-    float sockg_irrigationNitrogen_mg_per_L  
-    string sockg_crop  
-    string sockg_type  
-    string sockg_mgtAmendments_UID  
-    string sockg_amendmentPlacement  
-    double sockg_totalAmendmentAmount_kg_per_ha  
-    float sockg_totalAmendmentAmount_kg_per_ha  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
-    double sockg_totalPhosphorusAmount_kgP_per_ha  
-    float sockg_totalPhosphorusAmount_kgP_per_ha  
-    double sockg_totalPotassiumAmount_kgK_per_ha  
-    float sockg_totalPotassiumAmount_kgK_per_ha  
-    double sockg_totalNitrogenAmount_kgN_per_ha  
-    float sockg_totalNitrogenAmount_kgN_per_ha  
     double sockg_amendmentDepth_cm  
-    date sockg_startDate  
+    string sockg_type  
+    float sockg_irrigationNitrogen_mg_per_L  
+    double sockg_irrigationNitrogen_mg_per_L  
+    string sockg_crop  
     string sockg_startDate  
+    date sockg_startDate  
+    string sockg_amendmentPlacement  
+    float sockg_irrigationAmount_cm  
+    double sockg_irrigationAmount_cm  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
+    float sockg_irrigationType  
+    string sockg_irrigationType  
+    string sockg_mgtAmendments_UID  
+    float sockg_totalNitrogenAmount_kgN_per_ha  
+    double sockg_totalNitrogenAmount_kgN_per_ha  
+    float sockg_totalPhosphorusAmount_kgP_per_ha  
+    double sockg_totalPhosphorusAmount_kgP_per_ha  
+    float sockg_totalPotassiumAmount_kgK_per_ha  
+    double sockg_totalPotassiumAmount_kgK_per_ha  
+    uri rdfs_seeAlso  
+    float sockg_totalAmendmentAmount_kg_per_ha  
+    double sockg_totalAmendmentAmount_kg_per_ha  
 }
 SockgBioMassCarbohydrate {
-    uri rdfs_seeAlso  
-    string sockg_measBiomassCHO_UID  
-    string sockg_plantFraction  
-    double sockg_xylan_g_per_kg  
-    float sockg_xylan_g_per_kg  
-    double sockg_ash_g_per_kg  
-    float sockg_ash_g_per_kg  
-    double sockg_lignin_g_per_kg  
-    float sockg_lignin_g_per_kg  
-    double sockg_nonFiberCarbs_g_per_kg  
-    float sockg_nonFiberCarbs_g_per_kg  
-    string sockg_crop  
-    double sockg_acidDetFiber_g_per_kg  
-    float sockg_acidDetFiber_g_per_kg  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
-    double sockg_neutralDetFiber_g_per_kg  
-    float sockg_neutralDetFiber_g_per_kg  
-    double sockg_galactan_g_per_kg  
-    float sockg_galactan_g_per_kg  
-    double sockg_arabinan_g_per_kg  
-    date sockg_date  
-    string sockg_date  
-    double sockg_glucan_g_per_kg  
-    float sockg_glucan_g_per_kg  
-    double sockg_crudeProtein_g_per_kg  
     float sockg_crudeProtein_g_per_kg  
+    double sockg_crudeProtein_g_per_kg  
+    string sockg_date  
+    date sockg_date  
+    float sockg_nonFiberCarbs_g_per_kg  
+    double sockg_nonFiberCarbs_g_per_kg  
+    float sockg_glucan_g_per_kg  
+    double sockg_glucan_g_per_kg  
+    string sockg_crop  
     string sockg_growthStage  
+    string sockg_plantFraction  
+    float sockg_xylan_g_per_kg  
+    double sockg_xylan_g_per_kg  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
+    float sockg_ash_g_per_kg  
+    double sockg_ash_g_per_kg  
+    float sockg_galactan_g_per_kg  
+    double sockg_galactan_g_per_kg  
+    string sockg_measBiomassCHO_UID  
+    float sockg_neutralDetFiber_g_per_kg  
+    double sockg_neutralDetFiber_g_per_kg  
+    float sockg_lignin_g_per_kg  
+    double sockg_lignin_g_per_kg  
+    uri rdfs_seeAlso  
+    double sockg_arabinan_g_per_kg  
+    float sockg_acidDetFiber_g_per_kg  
+    double sockg_acidDetFiber_g_per_kg  
 }
 SockgBioMassEnergy {
-    uri rdfs_seeAlso  
-    string sockg_plantFraction  
-    double sockg_grossCalorificValue_MJ_per_kg  
-    float sockg_grossCalorificValue_MJ_per_kg  
-    string sockg_crop  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
-    string sockg_measBiomassEnergy_UID  
-    date sockg_date  
     string sockg_date  
-    double sockg_mineralMatter_g_per_kg  
-    float sockg_mineralMatter_g_per_kg  
+    date sockg_date  
+    string sockg_crop  
     string sockg_growthStage  
+    string sockg_measBiomassEnergy_UID  
+    string sockg_plantFraction  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
+    float sockg_mineralMatter_g_per_kg  
+    double sockg_mineralMatter_g_per_kg  
+    float sockg_grossCalorificValue_MJ_per_kg  
+    double sockg_grossCalorificValue_MJ_per_kg  
+    uri rdfs_seeAlso  
 }
 SockgBioMassMineral {
-    string sockg_crop  
-    double sockg_boronConcentration_mg_per_kg  
-    float sockg_boronConcentration_mg_per_kg  
-    double sockg_magnesiumConcentration_g_per_kg  
-    float sockg_magnesiumConcentration_g_per_kg  
-    double sockg_aluminumConcentration_mg_per_kg  
-    float sockg_aluminumConcentration_mg_per_kg  
-    double sockg_ironConcentration_mg_per_kg  
-    float sockg_ironConcentration_mg_per_kg  
-    double sockg_phosphorusConcentration_g_per_kg  
-    float sockg_phosphorusConcentration_g_per_kg  
-    double sockg_carbonConcentration_g_per_kg  
-    float sockg_carbonConcentration_g_per_kg  
-    double sockg_sulfurConcentration_g_per_kg  
-    float sockg_sulfurConcentration_g_per_kg  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
-    string sockg_measBiomassMinAn_UID  
-    double sockg_potassiumConcentration_g_per_kg  
-    float sockg_potassiumConcentration_g_per_kg  
-    double sockg_zincConcentration_mg_per_kg  
-    float sockg_zincConcentration_mg_per_kg  
-    double sockg_copperConcentration_mg_per_kg  
     float sockg_copperConcentration_mg_per_kg  
-    date sockg_date  
-    string sockg_date  
-    uri rdfs_seeAlso  
-    string sockg_plantFraction  
-    double sockg_nitrogenConcentration_g_per_kg  
-    float sockg_nitrogenConcentration_g_per_kg  
-    double sockg_calciumConcentration_g_per_kg  
-    float sockg_calciumConcentration_g_per_kg  
-    double sockg_manganeseConcentration_mg_per_kg  
-    float sockg_manganeseConcentration_mg_per_kg  
-    double sockg_sodiumConcentration_g_per_kg  
+    double sockg_copperConcentration_mg_per_kg  
     float sockg_sodiumConcentration_g_per_kg  
+    double sockg_sodiumConcentration_g_per_kg  
+    string sockg_crop  
+    string sockg_measBiomassMinAn_UID  
+    float sockg_carbonConcentration_g_per_kg  
+    double sockg_carbonConcentration_g_per_kg  
+    float sockg_sulfurConcentration_g_per_kg  
+    double sockg_sulfurConcentration_g_per_kg  
+    string sockg_plantFraction  
+    float sockg_magnesiumConcentration_g_per_kg  
+    double sockg_magnesiumConcentration_g_per_kg  
+    float sockg_boronConcentration_mg_per_kg  
+    double sockg_boronConcentration_mg_per_kg  
+    float sockg_aluminumConcentration_mg_per_kg  
+    double sockg_aluminumConcentration_mg_per_kg  
+    float sockg_manganeseConcentration_mg_per_kg  
+    double sockg_manganeseConcentration_mg_per_kg  
     string sockg_growthStage  
+    float sockg_phosphorusConcentration_g_per_kg  
+    double sockg_phosphorusConcentration_g_per_kg  
+    float sockg_nitrogenConcentration_g_per_kg  
+    double sockg_nitrogenConcentration_g_per_kg  
+    float sockg_potassiumConcentration_g_per_kg  
+    double sockg_potassiumConcentration_g_per_kg  
+    float sockg_ironConcentration_mg_per_kg  
+    double sockg_ironConcentration_mg_per_kg  
+    string sockg_date  
+    date sockg_date  
+    float sockg_zincConcentration_mg_per_kg  
+    double sockg_zincConcentration_mg_per_kg  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
+    float sockg_calciumConcentration_g_per_kg  
+    double sockg_calciumConcentration_g_per_kg  
+    uri rdfs_seeAlso  
 }
 SockgBook {
     string sockg_bookName  
 }
 SockgCity {
-    uri rdfs_seeAlso  
     string sockg_cityName  
+    uri rdfs_seeAlso  
 }
 SockgCountry {
     string sockg_countryName  
 }
 SockgCounty {
-    uri rdfs_seeAlso  
     string sockg_countyName  
+    uri rdfs_seeAlso  
     string sockg_countyFIPS  
 }
 SockgCropGrowthStage {
-    uri rdfs_seeAlso  
     string sockg_mgtGrowthStages_UID  
-    string sockg_crop  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
-    date sockg_date  
     string sockg_date  
+    date sockg_date  
+    string sockg_crop  
     string sockg_growthStage  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
+    uri rdfs_seeAlso  
 }
 SockgDepartment {
     string sockg_departmentName  
 }
 SockgExperiment {
-    uri rdfs_seeAlso  
-    date sockg_endDate  
-    string sockg_endDate  
-    string sockg_experimentName  
     string sockg_projectName  
-    date sockg_startDate  
     string sockg_startDate  
+    date sockg_startDate  
+    string sockg_experimentName  
+    string sockg_endDate  
+    date sockg_endDate  
+    uri rdfs_seeAlso  
 }
 SockgExperimentalUnit {
-    date sockg_endDate  
-    string sockg_endDate  
+    string sockg_startDate  
+    date sockg_startDate  
     string sockg_expUnit_UID  
+    string sockg_endDate  
+    date sockg_endDate  
     string sockg_expUnitId  
     uri rdfs_seeAlso  
-    date sockg_startDate  
-    string sockg_startDate  
 }
 SockgField {
-    uri rdfs_seeAlso  
     string sockg_fieldId  
+    uri rdfs_seeAlso  
 }
 SockgGasNutrientLoss {
-    uri rdfs_seeAlso  
-    string sockg_modelIfSimulated  
-    string sockg_expUnit_UID  
-    string sockg_expUnitId  
-    string sockg_crop  
+    string sockg_date  
+    date sockg_date  
     string sockg_samplingStartStopInterval  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
     string sockg_fieldId  
     double sockg_ammoniaNitrogen_kg_ha  
-    string sockg_measGasNutrientLoss_UID  
-    date sockg_date  
-    string sockg_date  
-    double sockg_nitrousOxide_g_ha  
-    float sockg_nitrousOxide_g_ha  
     string sockg_growthStage  
+    string sockg_measGasNutrientLoss_UID  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
+    string sockg_crop  
+    string sockg_modelIfSimulated  
+    string sockg_expUnitId  
+    uri rdfs_seeAlso  
+    float sockg_nitrousOxide_g_ha  
+    double sockg_nitrousOxide_g_ha  
+    string sockg_expUnit_UID  
 }
 SockgGasSample {
-    double sockg_nitrousOxideSd_gN_per_ha_per_d  
-    float sockg_nitrousOxideSd_gN_per_ha_per_d  
     string sockg_crop  
-    double sockg_methane_gC_per_ha_per_d  
-    float sockg_methane_gC_per_ha_per_d  
-    double sockg_methaneSd_gC_per_ha_per_d  
-    float sockg_methaneSd_gC_per_ha_per_d  
-    double sockg_carbonDioxideSd_gC_per_ha_per_d  
-    float sockg_carbonDioxideSd_gC_per_ha_per_d  
-    double sockg_nitrousOxide_gN_per_ha_per_d  
-    float sockg_nitrousOxide_gN_per_ha_per_d  
-    double sockg_airTemperatureSd_degC  
-    string sockg_time  
-    time sockg_time  
-    double sockg_carbonDioxide_gC_per_ha_per_d  
-    float sockg_carbonDioxide_gC_per_ha_per_d  
-    string sockg_chamberPlacement  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
-    integer sockg_isCarbonDioxideInterpolated  
-    double sockg_soilTemperatureSd_degC  
     float sockg_soilTemperatureSd_degC  
-    double sockg_soilMoisture_percent_volume  
-    integer sockg_soilMoistureDepth_cm  
-    integer sockg_isNitrousOxideInterpolated  
-    double sockg_soilMoistureSd_percent_volume  
-    string sockg_measGHGFlux_UID  
-    date sockg_date  
-    string sockg_date  
-    uri rdfs_seeAlso  
-    double sockg_airTemperature_degC  
+    double sockg_soilTemperatureSd_degC  
+    float sockg_carbonDioxideSd_gC_per_ha_per_d  
+    double sockg_carbonDioxideSd_gC_per_ha_per_d  
+    string sockg_chamberPlacement  
+    float sockg_carbonDioxide_gC_per_ha_per_d  
+    double sockg_carbonDioxide_gC_per_ha_per_d  
     float sockg_airTemperature_degC  
-    integer sockg_isMethaneInterpolated  
-    double sockg_soilTemperature_degC  
+    double sockg_airTemperature_degC  
+    integer sockg_isCarbonDioxideInterpolated  
+    int32 sockg_isCarbonDioxideInterpolated  
+    float sockg_methaneSd_gC_per_ha_per_d  
+    double sockg_methaneSd_gC_per_ha_per_d  
+    double sockg_soilMoisture_percent_volume  
+    time sockg_time  
+    string sockg_time  
+    integer sockg_isNitrousOxideInterpolated  
+    int32 sockg_isNitrousOxideInterpolated  
+    double sockg_airTemperatureSd_degC  
     float sockg_soilTemperature_degC  
+    double sockg_soilTemperature_degC  
+    integer sockg_soilMoistureDepth_cm  
+    string sockg_date  
+    date sockg_date  
+    integer sockg_isMethaneInterpolated  
+    int32 sockg_isMethaneInterpolated  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
+    string sockg_measGHGFlux_UID  
+    float sockg_nitrousOxideSd_gN_per_ha_per_d  
+    double sockg_nitrousOxideSd_gN_per_ha_per_d  
+    float sockg_methane_gC_per_ha_per_d  
+    double sockg_methane_gC_per_ha_per_d  
+    double sockg_soilMoistureSd_percent_volume  
+    uri rdfs_seeAlso  
+    float sockg_nitrousOxide_gN_per_ha_per_d  
+    double sockg_nitrousOxide_gN_per_ha_per_d  
 }
 SockgGrazing {
-    uri rdfs_seeAlso  
-    double sockg_aboveGroundBiomassCarbon_kgC_per_ha  
-    float sockg_aboveGroundBiomassCarbon_kgC_per_ha  
-    string sockg_speciesMix  
-    double sockg_biomassNitrogenPercentage  
-    float sockg_biomassNitrogenPercentage  
-    double sockg_leafAreaIndexDry_kg_per_ha  
-    float sockg_leafAreaIndexDry_kg_per_ha  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
-    string sockg_measGrazingPlants_UID  
-    string sockg_broadleafOrGrass  
-    double sockg_aboveGroundBiomassDry_kg_per_ha  
-    float sockg_aboveGroundBiomassDry_kg_per_ha  
-    double sockg_aurfaceLitterDry_kg_per_ha  
-    double sockg_atandingDeadDry_kg_per_ha  
-    double sockg_aboveGroundBiomassNitrogen_kgN_per_ha  
-    float sockg_aboveGroundBiomassNitrogen_kgN_per_ha  
-    date sockg_date  
     string sockg_date  
+    date sockg_date  
     string sockg_growthStage  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
+    float sockg_aboveGroundBiomassNitrogen_kgN_per_ha  
+    double sockg_aboveGroundBiomassNitrogen_kgN_per_ha  
+    double sockg_atandingDeadDry_kg_per_ha  
+    string sockg_measGrazingPlants_UID  
+    float sockg_aboveGroundBiomassCarbon_kgC_per_ha  
+    double sockg_aboveGroundBiomassCarbon_kgC_per_ha  
+    double sockg_aurfaceLitterDry_kg_per_ha  
+    float sockg_aboveGroundBiomassDry_kg_per_ha  
+    double sockg_aboveGroundBiomassDry_kg_per_ha  
+    string sockg_broadleafOrGrass  
+    float sockg_biomassNitrogenPercentage  
+    double sockg_biomassNitrogenPercentage  
+    float sockg_leafAreaIndexDry_kg_per_ha  
+    double sockg_leafAreaIndexDry_kg_per_ha  
+    uri rdfs_seeAlso  
+    string sockg_speciesMix  
 }
 SockgGrazingManagementEvent {
-    uri rdfs_seeAlso  
-    string sockg_animalClass  
-    double sockg_stockingRate_number_animals_per_ha  
-    float sockg_stockingRate_number_animals_per_ha  
     string sockg_mgtGrazing_UID  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
-    date sockg_endDate  
-    string sockg_endDate  
-    string sockg_animalSpecies  
-    string sockg_otherEvents  
-    date sockg_startDate  
+    string sockg_animalClass  
     string sockg_startDate  
+    date sockg_startDate  
+    string sockg_otherEvents  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
+    float sockg_stockingRate_number_animals_per_ha  
+    double sockg_stockingRate_number_animals_per_ha  
+    string sockg_endDate  
+    date sockg_endDate  
+    string sockg_animalSpecies  
+    uri rdfs_seeAlso  
 }
 SockgHarvest {
-    double sockg_grainNitrogenSd_kgN_per_ha  
-    float sockg_grainNitrogenSd_kgN_per_ha  
-    double sockg_harvestedResidueNitrogen_kgN_per_ha  
-    double sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha  
-    float sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha  
-    string sockg_crop  
     string sockg_measResidueMgnt_UID  
-    double sockg_harvestedResidueNitrogenSd_kgN_per_ha  
+    string sockg_crop  
+    float sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha  
+    double sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha  
     double sockg_grainCarbonSd_kgC_per_ha  
-    double sockg_nonHarvestedResidueMoisturePercent  
+    float sockg_grainNitrogenSd_kgN_per_ha  
+    double sockg_grainNitrogenSd_kgN_per_ha  
     float sockg_nonHarvestedResidueMoisturePercent  
-    double sockg_driedHarvestedResidue_kg_per_ha  
-    float sockg_driedHarvestedResidue_kg_per_ha  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
-    double sockg_grainMoisturePercentStd  
-    double sockg_grainYieldSd_kg_per_ha  
-    float sockg_grainYieldSd_kg_per_ha  
-    double sockg_nonHarvestedResidueMass_kg_per_ha  
+    double sockg_nonHarvestedResidueMoisturePercent  
     float sockg_nonHarvestedResidueMass_kg_per_ha  
-    double sockg_harvestedResidueCarbon_kgC_per_ha  
-    double sockg_grainNitrogen_kgN_per_ha  
-    float sockg_grainNitrogen_kgN_per_ha  
-    double sockg_nonHarvestedResidueCarbonContent_kgC_per_ha  
-    float sockg_nonHarvestedResidueCarbonContent_kgC_per_ha  
-    double sockg_aboveGroundBiomass_kg_per_ha  
-    float sockg_aboveGroundBiomass_kg_per_ha  
-    date sockg_date  
-    string sockg_date  
-    double sockg_grainCarbon_kgC_per_ha  
-    float sockg_grainCarbon_kgC_per_ha  
-    double sockg_aboveGroundBiomassSd_kg_per_ha  
-    float sockg_aboveGroundBiomassSd_kg_per_ha  
-    double sockg_unitGrainWeight_mg  
+    double sockg_nonHarvestedResidueMass_kg_per_ha  
     float sockg_unitGrainWeight_mg  
-    uri rdfs_seeAlso  
-    double sockg_harvestedResidueCarbonSd_kgC_per_ha  
-    double sockg_grainYield_kg_per_ha  
-    float sockg_grainYield_kg_per_ha  
-    double sockg_harvestedResidueMoisturePercent  
-    double sockg_grainMoisturePercent  
-    float sockg_grainMoisturePercent  
-    string sockg_harvestedFrac  
+    double sockg_unitGrainWeight_mg  
+    float sockg_driedHarvestedResidue_kg_per_ha  
+    double sockg_driedHarvestedResidue_kg_per_ha  
+    float sockg_grainNitrogen_kgN_per_ha  
+    double sockg_grainNitrogen_kgN_per_ha  
+    double sockg_grainMoisturePercentStd  
+    double sockg_harvestedResidueNitrogen_kgN_per_ha  
+    float sockg_aboveGroundBiomassSd_kg_per_ha  
+    double sockg_aboveGroundBiomassSd_kg_per_ha  
+    double sockg_harvestedResidueNitrogenSd_kgN_per_ha  
     string sockg_growthStage  
+    double sockg_harvestedResidueMoisturePercent  
+    float sockg_grainYield_kg_per_ha  
+    double sockg_grainYield_kg_per_ha  
+    string sockg_harvestedFrac  
+    string sockg_date  
+    date sockg_date  
+    double sockg_harvestedResidueCarbon_kgC_per_ha  
+    float sockg_grainYieldSd_kg_per_ha  
+    double sockg_grainYieldSd_kg_per_ha  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
+    float sockg_nonHarvestedResidueCarbonContent_kgC_per_ha  
+    double sockg_nonHarvestedResidueCarbonContent_kgC_per_ha  
+    float sockg_grainCarbon_kgC_per_ha  
+    double sockg_grainCarbon_kgC_per_ha  
+    float sockg_aboveGroundBiomass_kg_per_ha  
+    double sockg_aboveGroundBiomass_kg_per_ha  
+    uri rdfs_seeAlso  
+    float sockg_grainMoisturePercent  
+    double sockg_grainMoisturePercent  
+    double sockg_harvestedResidueCarbonSd_kgC_per_ha  
 }
 SockgHarvestFraction {
-    uri rdfs_seeAlso  
-    double sockg_carbon_kgC_per_ha  
-    float sockg_carbon_kgC_per_ha  
-    string sockg_plantFraction  
-    string sockg_crop  
-    double sockg_dryBiomass_kg_per_ha  
-    float sockg_dryBiomass_kg_per_ha  
-    string sockg_measHarvestFraction_UID  
-    double sockg_moisturePercent  
-    float sockg_moisturePercent  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
-    double sockg_nitrogen_kgN_per_ha  
-    float sockg_nitrogen_kgN_per_ha  
-    date sockg_date  
     string sockg_date  
+    date sockg_date  
+    float sockg_moisturePercent  
+    double sockg_moisturePercent  
+    string sockg_crop  
     string sockg_growthStage  
+    string sockg_plantFraction  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
+    string sockg_measHarvestFraction_UID  
+    float sockg_nitrogen_kgN_per_ha  
+    double sockg_nitrogen_kgN_per_ha  
+    float sockg_carbon_kgC_per_ha  
+    double sockg_carbon_kgC_per_ha  
+    uri rdfs_seeAlso  
+    float sockg_dryBiomass_kg_per_ha  
+    double sockg_dryBiomass_kg_per_ha  
 }
 SockgMiscellaneousMeasurement {
 
 }
 SockgNutrientEfficiency {
-    uri rdfs_seeAlso  
-    double sockg_nutrientEfficiencyRatio_kg_kg  
-    float sockg_nutrientEfficiencyRatio_kg_kg  
-    string sockg_plantFraction  
-    string sockg_expUnit_UID  
-    double sockg_fracNitrogen_kg_ha  
-    float sockg_fracNitrogen_kg_ha  
-    string sockg_expUnitId  
-    double sockg_agronomicEfficiency_kg_kg  
-    float sockg_agronomicEfficiency_kg_kg  
-    string sockg_crop  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
-    string sockg_fieldId  
-    double sockg_nitrogenUseEfficiencyPct  
-    float sockg_nitrogenUseEfficiencyPct  
-    date sockg_date  
     string sockg_date  
-    string sockg_measNutrEff_UID  
+    date sockg_date  
+    string sockg_crop  
+    string sockg_fieldId  
+    float sockg_fracNitrogen_kg_ha  
+    double sockg_fracNitrogen_kg_ha  
     string sockg_growthStage  
+    string sockg_plantFraction  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
+    float sockg_nutrientEfficiencyRatio_kg_kg  
+    double sockg_nutrientEfficiencyRatio_kg_kg  
+    string sockg_measNutrEff_UID  
+    float sockg_agronomicEfficiency_kg_kg  
+    double sockg_agronomicEfficiency_kg_kg  
+    string sockg_expUnitId  
+    float sockg_nitrogenUseEfficiencyPct  
+    double sockg_nitrogenUseEfficiencyPct  
+    uri rdfs_seeAlso  
+    string sockg_expUnit_UID  
 }
 SockgOrganization {
-    uri rdfs_seeAlso  
     string sockg_organizationName  
+    uri rdfs_seeAlso  
 }
 SockgPerson {
-    uri rdfs_seeAlso  
     string sockg_phoneNumber  
-    string sockg_website  
-    string sockg_firstName  
-    string sockg_middleName  
     string sockg_email  
-    string sockg_suffix  
-    string sockg_roleInStudy  
-    string sockg_lastName  
-    string sockg_isPrimaryContact  
-    string sockg_persons_UID  
     string sockg_organizationName  
     string sockg_profession  
+    string sockg_website  
+    string sockg_middleName  
     string sockg_note  
+    string sockg_roleInStudy  
+    string sockg_isPrimaryContact  
+    string sockg_suffix  
+    string sockg_persons_UID  
+    uri rdfs_seeAlso  
+    string sockg_lastName  
+    string sockg_firstName  
 }
 SockgPesticide {
-    uri rdfs_seeAlso  
-    double sockg_totalPesticideAmount_kg_per_ha  
-    float sockg_totalPesticideAmount_kg_per_ha  
     string sockg_pesticidePlacement  
     string sockg_pesticideTarget  
-    string sockg_pesticide_UID  
     string sockg_pesticideActiveIngredientType  
+    float sockg_totalPesticideAmount_kg_per_ha  
+    double sockg_totalPesticideAmount_kg_per_ha  
+    string sockg_pesticide_UID  
+    uri rdfs_seeAlso  
 }
 SockgPlantingEvent {
-    uri rdfs_seeAlso  
-    integer sockg_depth_cm  
-    double sockg_depth_cm  
-    float sockg_depth_cm  
-    string sockg_expUnitId  
-    double sockg_rowWidth_cm  
-    float sockg_rowWidth_cm  
-    string sockg_crop  
-    string sockg_mgtPlanting_UID  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
     double sockg_plantingRate_number_seeds_per_ha  
-    string sockg_plantingMethod  
-    string sockg_cultivar  
-    double sockg_plantingDensity_kg_per_ha  
-    date sockg_startDate  
+    string sockg_mgtPlanting_UID  
+    string sockg_crop  
     string sockg_startDate  
+    date sockg_startDate  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
+    string sockg_plantingMethod  
+    float sockg_rowWidth_cm  
+    double sockg_rowWidth_cm  
+    string sockg_cultivar  
+    uri rdfs_seeAlso  
+    string sockg_expUnitId  
+    double sockg_plantingDensity_kg_per_ha  
+    float sockg_depth_cm  
+    double sockg_depth_cm  
+    int32 sockg_depth_cm  
 }
 SockgProject {
     uri rdfs_seeAlso  
     string sockg_projectName  
 }
 SockgPublication {
+    string sockg_description  
+    string sockg_citationType  
+    string sockg_citation  
+    string sockg_identifier  
+    string sockg_publicationDate  
+    string sockg_author  
     uri rdfs_seeAlso  
     string sockg_correspondingAuthor  
     string sockg_title  
-    string sockg_citationType  
-    string sockg_description  
-    string sockg_citation  
-    string sockg_publicationDate  
-    string sockg_author  
-    string sockg_identifier  
 }
 SockgResearchUnit {
     uri rdfs_seeAlso  
 }
 SockgResidueManagementEvent {
-    uri rdfs_seeAlso  
-    integer sockg_perennialStandAge_years  
-    double sockg_perennialStandAge_years  
-    string sockg_equipmentType  
-    string sockg_stageAtHarvest  
-    string sockg_crop  
-    integer sockg_rowsHarvestedPercent  
-    float sockg_rowsHarvestedPercent  
-    string sockg_residueCuttingHeight  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
-    string sockg_mgtResidue_UID  
-    date sockg_date  
     string sockg_date  
+    date sockg_date  
+    float sockg_rowsHarvestedPercent  
+    integer sockg_rowsHarvestedPercent  
+    string sockg_crop  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
+    double sockg_perennialStandAge_years  
+    int32 sockg_perennialStandAge_years  
+    string sockg_stageAtHarvest  
+    string sockg_residueCuttingHeight  
+    string sockg_equipmentType  
+    uri rdfs_seeAlso  
+    string sockg_mgtResidue_UID  
 }
 SockgRotation {
-    uri rdfs_seeAlso  
     string sockg_rotationDescriptor  
+    uri rdfs_seeAlso  
 }
 SockgSite {
-    uri rdfs_seeAlso  
-    string sockg_siteSpatialDescription  
-    integer sockg_postalCodeNumber  
     double sockg_postalCodeNumber  
+    int32 sockg_postalCodeNumber  
+    string sockg_siteSpatialDescription  
     string sockg_siteId  
+    uri rdfs_seeAlso  
 }
 SockgSoil {
     uri rdfs_seeAlso  
 }
 SockgSoilBiologicalSample {
-    uri rdfs_seeAlso  
-    double sockg_nitrogenMicrobialBiomass_mgN_per_kg  
-    float sockg_nitrogenMicrobialBiomass_mgN_per_kg  
-    double sockg_soilfluoresceinDiacetateHydrol_mg_per_kg_per_hr  
     integer sockg_lowerDepth_cm  
     double sockg_lowerDepth_cm  
-    double sockg_glucosidase_mg_per_kg_per_hr  
-    float sockg_glucosidase_mg_per_kg_per_hr  
-    double sockg_alkPhosphatase_mg_per_kg_per_hr  
+    int32 sockg_lowerDepth_cm  
+    string sockg_date  
+    date sockg_date  
     float sockg_alkPhosphatase_mg_per_kg_per_hr  
-    double sockg_carbonMicrobialBiomass_mgC_per_kg  
+    double sockg_alkPhosphatase_mg_per_kg_per_hr  
+    float sockg_glucosaminidase_mg_per_kg_per_hr  
+    double sockg_glucosaminidase_mg_per_kg_per_hr  
+    string sockg_measSoilBiol_UID  
+    double sockg_soilfluoresceinDiacetateHydrol_mg_per_kg_per_hr  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
+    float sockg_particulateOrganicMatter_gC_per_kg  
+    double sockg_particulateOrganicMatter_gC_per_kg  
+    float sockg_nitrogenMicrobialBiomass_mgN_per_kg  
+    double sockg_nitrogenMicrobialBiomass_mgN_per_kg  
+    float sockg_acidPhosphatase_mg_per_kg_per_hr  
+    double sockg_acidPhosphatase_mg_per_kg_per_hr  
+    uri rdfs_seeAlso  
     integer sockg_upperDepth_cm  
     double sockg_upperDepth_cm  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
-    string sockg_measSoilBiol_UID  
-    double sockg_particulateOrganicMatter_gC_per_kg  
-    float sockg_particulateOrganicMatter_gC_per_kg  
-    double sockg_glucosaminidase_mg_per_kg_per_hr  
-    float sockg_glucosaminidase_mg_per_kg_per_hr  
-    date sockg_date  
-    string sockg_date  
-    double sockg_acidPhosphatase_mg_per_kg_per_hr  
-    float sockg_acidPhosphatase_mg_per_kg_per_hr  
+    int32 sockg_upperDepth_cm  
+    float sockg_glucosidase_mg_per_kg_per_hr  
+    double sockg_glucosidase_mg_per_kg_per_hr  
+    double sockg_carbonMicrobialBiomass_mgC_per_kg  
 }
 SockgSoilChemicalSample {
+    float sockg_nitrateSd_mgN_per_kg  
+    double sockg_nitrateSd_mgN_per_kg  
+    string sockg_measSoilChem_UID  
+    float sockg_totalSoilCarbonSd_gC_per_kg  
+    double sockg_totalSoilCarbonSd_gC_per_kg  
+    float sockg_totalSoilCarbon_gC_per_kg  
+    double sockg_totalSoilCarbon_gC_per_kg  
+    float sockg_extractableZinc_mgZn_per_kg  
+    double sockg_extractableZinc_mgZn_per_kg  
+    float sockg_mineralCarbon_gC_per_kg  
+    double sockg_mineralCarbon_gC_per_kg  
+    float sockg_phosphorus_mgP_per_kg  
+    double sockg_phosphorus_mgP_per_kg  
+    integer sockg_upperDepth_cm  
+    double sockg_upperDepth_cm  
+    int32 sockg_upperDepth_cm  
+    float sockg_electricalConductivity_siemens_per_m  
+    double sockg_electricalConductivity_siemens_per_m  
+    float sockg_organicCarbon_gC_per_kg  
+    double sockg_organicCarbon_gC_per_kg  
+    float sockg_ammoniumSd_mgN_per_kg  
+    double sockg_ammoniumSd_mgN_per_kg  
+    float sockg_nitrate_mgN_per_kg  
+    double sockg_nitrate_mgN_per_kg  
     integer sockg_lowerDepth_cm  
     double sockg_lowerDepth_cm  
-    double sockg_nitrate_mgN_per_kg  
-    float sockg_nitrate_mgN_per_kg  
-    double sockg_extractableMagnesium_mgMg_per_kg  
-    float sockg_extractableMagnesium_mgMg_per_kg  
-    double sockg_organicCarbon_gC_per_kg  
-    float sockg_organicCarbon_gC_per_kg  
-    double sockg_nitrateSd_mgN_per_kg  
-    float sockg_nitrateSd_mgN_per_kg  
+    int32 sockg_lowerDepth_cm  
+    float sockg_extractableIron_mgFe_per_kg  
+    double sockg_extractableIron_mgFe_per_kg  
+    float sockg_extractableCopper_mgCu_per_kg  
+    double sockg_extractableCopper_mgCu_per_kg  
+    float sockg_potassium_mgK_per_kg  
     double sockg_potassium_mgK_per_kg  
     string sockg_potassium_mgK_per_kg  
-    float sockg_potassium_mgK_per_kg  
-    double sockg_totalSoilNitrogenSd_gN_per_kg  
-    float sockg_totalSoilNitrogenSd_gN_per_kg  
-    double sockg_electricalConductivity_siemens_per_m  
-    float sockg_electricalConductivity_siemens_per_m  
-    double sockg_ammoniumSd_mgN_per_kg  
-    float sockg_ammoniumSd_mgN_per_kg  
-    double sockg_extractableCopper_mgCu_per_kg  
-    float sockg_extractableCopper_mgCu_per_kg  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
-    double sockg_ammonium_mgN_per_kg  
-    float sockg_ammonium_mgN_per_kg  
-    double sockg_extractableCalcium_mgCa_per_kg  
-    float sockg_extractableCalcium_mgCa_per_kg  
-    double sockg_extractableIron_mgFe_per_kg  
-    float sockg_extractableIron_mgFe_per_kg  
-    double sockg_totalSoilCarbonSd_gC_per_kg  
-    float sockg_totalSoilCarbonSd_gC_per_kg  
-    double sockg_cationExchangeCapacity_cmol_per_kg  
-    float sockg_cationExchangeCapacity_cmol_per_kg  
-    double sockg_inorganicCarbon_gC_per_kg  
     float sockg_inorganicCarbon_gC_per_kg  
-    double sockg_ph  
+    double sockg_inorganicCarbon_gC_per_kg  
     float sockg_ph  
-    double sockg_totalSoilNitrogen_gN_per_kg  
-    float sockg_totalSoilNitrogen_gN_per_kg  
-    integer sockg_upperDepth_cm  
-    double sockg_upperDepth_cm  
-    double sockg_extractableManganese_mgMN_per_kg  
-    float sockg_extractableManganese_mgMN_per_kg  
-    double sockg_mineralCarbon_gC_per_kg  
-    float sockg_mineralCarbon_gC_per_kg  
-    date sockg_date  
+    double sockg_ph  
+    float sockg_totalSoilNitrogenSd_gN_per_kg  
+    double sockg_totalSoilNitrogenSd_gN_per_kg  
     string sockg_date  
-    double sockg_phosphorus_mgP_per_kg  
-    float sockg_phosphorus_mgP_per_kg  
+    date sockg_date  
+    float sockg_extractableCalcium_mgCa_per_kg  
+    double sockg_extractableCalcium_mgCa_per_kg  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
+    float sockg_ammonium_mgN_per_kg  
+    double sockg_ammonium_mgN_per_kg  
+    float sockg_extractableManganese_mgMN_per_kg  
+    double sockg_extractableManganese_mgMN_per_kg  
     uri rdfs_seeAlso  
-    double sockg_totalSoilCarbon_gC_per_kg  
-    float sockg_totalSoilCarbon_gC_per_kg  
-    double sockg_extractableZinc_mgZn_per_kg  
-    float sockg_extractableZinc_mgZn_per_kg  
-    string sockg_measSoilChem_UID  
+    float sockg_cationExchangeCapacity_cmol_per_kg  
+    double sockg_cationExchangeCapacity_cmol_per_kg  
+    float sockg_extractableMagnesium_mgMg_per_kg  
+    double sockg_extractableMagnesium_mgMg_per_kg  
+    float sockg_totalSoilNitrogen_gN_per_kg  
+    double sockg_totalSoilNitrogen_gN_per_kg  
 }
 SockgSoilCover {
-    uri rdfs_seeAlso  
-    date sockg_date  
     string sockg_date  
-    string sockg_measSoilCover_UID  
+    date sockg_date  
+    uri rdfs_seeAlso  
     string sockg_soilCoverTimingDescriptor  
+    string sockg_measSoilCover_UID  
 }
 SockgSoilPhysicalSample {
-    uri rdfs_seeAlso  
-    double sockg_wiltingPoint_percent_volume  
-    float sockg_wiltingPoint_percent_volume  
+    float sockg_saturatedHydraulicConductivity_cm_per_sec  
+    double sockg_saturatedHydraulicConductivity_cm_per_sec  
     integer sockg_lowerDepth_cm  
     double sockg_lowerDepth_cm  
-    double sockg_bulkDensitySd_g_per_cm_cubed  
+    int32 sockg_lowerDepth_cm  
+    string sockg_date  
+    date sockg_date  
+    string sockg_measSoilPhys_UID  
+    float sockg_clayPercent  
+    double sockg_clayPercent  
+    float sockg_sandPercent  
+    double sockg_sandPercent  
+    float sockg_siltPercent  
+    double sockg_siltPercent  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
     float sockg_bulkDensitySd_g_per_cm_cubed  
-    double sockg_fieldCapacity_percent_volume  
-    double sockg_bulkDensity_g_per_cm_cubed  
+    double sockg_bulkDensitySd_g_per_cm_cubed  
+    float sockg_wiltingPoint_percent_volume  
+    double sockg_wiltingPoint_percent_volume  
+    float sockg_saturatedHydraulicConductivitySd_cm_per_sec  
+    double sockg_saturatedHydraulicConductivitySd_cm_per_sec  
+    double sockg_fieldCapacitySd_percent_volume  
+    float sockg_waterStableAggregatePercent  
+    double sockg_waterStableAggregatePercent  
     float sockg_bulkDensity_g_per_cm_cubed  
+    double sockg_bulkDensity_g_per_cm_cubed  
     integer sockg_upperDepth_cm  
     double sockg_upperDepth_cm  
-    double sockg_waterStableAggregatePercent  
-    float sockg_waterStableAggregatePercent  
-    double sockg_siltPercent  
-    float sockg_siltPercent  
-    double sockg_saturatedHydraulicConductivitySd_cm_per_sec  
-    float sockg_saturatedHydraulicConductivitySd_cm_per_sec  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
-    string sockg_measSoilPhys_UID  
-    double sockg_fieldCapacitySd_percent_volume  
-    double sockg_saturatedHydraulicConductivity_cm_per_sec  
-    float sockg_saturatedHydraulicConductivity_cm_per_sec  
-    double sockg_sandPercent  
-    float sockg_sandPercent  
-    date sockg_date  
-    string sockg_date  
-    double sockg_clayPercent  
-    float sockg_clayPercent  
+    int32 sockg_upperDepth_cm  
+    uri rdfs_seeAlso  
+    double sockg_fieldCapacity_percent_volume  
 }
 SockgState {
+    string sockg_stateProvince  
     uri rdfs_seeAlso  
     string sockg_stateFIPS  
-    string sockg_stateProvince  
 }
 SockgTillage {
-    uri rdfs_seeAlso  
-    string sockg_tillageEventMethod  
-    string sockg_tillageEvent  
     string sockg_mgtTillage_UID  
-    double sockg_tillageEventDepth_cm  
-    date sockg_startDate  
     string sockg_startDate  
+    date sockg_startDate  
+    string sockg_tillageEventMethod  
+    double sockg_tillageEventDepth_cm  
+    string sockg_tillageEvent  
+    uri rdfs_seeAlso  
 }
 SockgTreatment {
-    uri rdfs_seeAlso  
-    string sockg_projectScenario  
-    string sockg_tileDrainage  
-    string sockg_nitrogenTreatmentDescriptor  
-    string sockg_grazingRate  
-    string sockg_coverCrop  
     string sockg_irrigation  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
     float sockg_treatmentId  
-    string sockg_residueRemoval  
-    string sockg_tillageDescriptor  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
     string sockg_treatmentDescriptor  
+    string sockg_residueRemoval  
+    string sockg_nitrogenTreatmentDescriptor  
     string sockg_fertilizerAmendmentClass  
+    string sockg_coverCrop  
+    string sockg_tileDrainage  
+    string sockg_projectScenario  
+    string sockg_tillageDescriptor  
     string sockg_organicManagement  
+    uri rdfs_seeAlso  
+    string sockg_grazingRate  
 }
 SockgVersion {
     string sockg_versionDate  
 }
 SockgWaterQualityArea {
-    uri rdfs_seeAlso  
-    string sockg_lossesOrDeposition  
-    float sockg_lossesOrDeposition  
-    string sockg_expUnit_UID  
-    double sockg_nitrateNitrogen_kg_ha  
-    float sockg_nitrateNitrogen_kg_ha  
-    string sockg_expUnitId  
-    double sockg_totalNitrogen_kg_ha  
-    float sockg_totalNitrogen_kg_ha  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
-    string sockg_fieldId  
-    double sockg_ammoniumNitroge_kg_ha  
-    string sockg_measWaterQualityArea_UID  
-    string sockg_surfaceOrLeaching  
-    double sockg_totalDissolvedPhosphorus_kgP_ha  
-    float sockg_totalDissolvedPhosphorus_kgP_ha  
-    double sockg_water_mm  
-    float sockg_water_mm  
-    double sockg_erosionTotalSolids_t_ha  
-    float sockg_erosionTotalSolids_t_ha  
-    date sockg_date  
     string sockg_date  
+    date sockg_date  
+    double sockg_ammoniumNitroge_kg_ha  
+    float sockg_totalNitrogen_kg_ha  
+    double sockg_totalNitrogen_kg_ha  
+    float sockg_totalDissolvedPhosphorus_kgP_ha  
+    double sockg_totalDissolvedPhosphorus_kgP_ha  
+    string sockg_fieldId  
+    string sockg_surfaceOrLeaching  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
+    float sockg_lossesOrDeposition  
+    string sockg_lossesOrDeposition  
+    float sockg_erosionTotalSolids_t_ha  
+    double sockg_erosionTotalSolids_t_ha  
+    float sockg_nitrateNitrogen_kg_ha  
+    double sockg_nitrateNitrogen_kg_ha  
     double sockg_totalPhosphoru_kg_ha  
+    string sockg_expUnitId  
+    float sockg_water_mm  
+    double sockg_water_mm  
+    uri rdfs_seeAlso  
+    string sockg_expUnit_UID  
+    string sockg_measWaterQualityArea_UID  
 }
 SockgWaterQualityConc {
-    string sockg_crop  
     double sockg_nitrate_mg_l  
-    double sockg_InorganicNitrogen_mg_l  
+    string sockg_crop  
     double sockg_totalPhosphorus_mg_l  
-    string sockg_expUnit_UID  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
-    string sockg_fieldId  
-    double sockg_water_mm  
-    float sockg_water_mm  
+    double sockg_InorganicNitrogen_mg_l  
     double sockg_totalDissolvedPhosphorus_mgP_l  
-    string sockg_expUnitId  
-    string sockg_samplingStartStopInterval  
-    string sockg_measWaterQualityConc_UID  
-    date sockg_date  
-    string sockg_date  
-    uri rdfs_seeAlso  
-    string sockg_modelIfSimulated  
-    double sockg_totalNitrogen_mg_l  
-    integer sockg_samplingDepth_cm  
-    float sockg_samplingDepth_cm  
     string sockg_surfaceOrLeaching  
+    float sockg_samplingDepth_cm  
+    integer sockg_samplingDepth_cm  
+    string sockg_expUnit_UID  
+    double sockg_totalNitrogen_mg_l  
+    string sockg_samplingStartStopInterval  
     string sockg_growthStage  
+    string sockg_modelIfSimulated  
+    float sockg_water_mm  
+    double sockg_water_mm  
+    string sockg_date  
+    date sockg_date  
+    string sockg_measWaterQualityConc_UID  
+    string sockg_fieldId  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
+    string sockg_expUnitId  
+    uri rdfs_seeAlso  
 }
 SockgWeatherObservation {
-    string sockg_weatherStationId  
-    double sockg_precipitation_mm_per_d  
-    float sockg_precipitation_mm_per_d  
-    double sockg_dewPointDegc  
-    double sockg_openPanEvaporation_mm_per_d  
-    float sockg_openPanEvaporation_mm_per_d  
-    double sockg_soilTemp10cm_degC  
-    float sockg_soilTemp10cm_degC  
-    double sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d  
-    float sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d  
-    double sockg_tempMax_degC  
-    float sockg_tempMax_degC  
-    double sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d  
-    string sockg_weatherDaily_UID  
-    double sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d  
-    float sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d  
-    double sockg_windSpeed_m_per_s  
     float sockg_windSpeed_m_per_s  
-    double sockg_relativeHumidityPercent  
-    float sockg_relativeHumidityPercent  
-    double sockg_soilTemp5cm_degC  
-    float sockg_soilTemp5cm_degC  
-    date sockg_date  
-    string sockg_date  
-    uri rdfs_seeAlso  
-    double sockg_windDirectionDegFromNorth  
-    float sockg_windDirectionDegFromNorth  
-    double sockg_tempMin_degC  
+    double sockg_windSpeed_m_per_s  
+    float sockg_precipitation_mm_per_d  
+    double sockg_precipitation_mm_per_d  
     float sockg_tempMin_degC  
-    integer sockg_weatherBadValueFlag  
-    double sockg_weatherBadValueFlag  
-    double sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d  
+    double sockg_tempMin_degC  
+    float sockg_soilTemp5cm_degC  
+    double sockg_soilTemp5cm_degC  
+    double sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d  
+    float sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d  
+    double sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d  
+    float sockg_soilTemp10cm_degC  
+    double sockg_soilTemp10cm_degC  
+    float sockg_windDirectionDegFromNorth  
+    double sockg_windDirectionDegFromNorth  
+    float sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d  
+    double sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d  
+    string sockg_weatherDaily_UID  
+    float sockg_tempMax_degC  
+    double sockg_tempMax_degC  
     float sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d  
+    double sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d  
+    string sockg_date  
+    date sockg_date  
+    string sockg_weatherStationId  
+    float sockg_relativeHumidityPercent  
+    double sockg_relativeHumidityPercent  
+    float sockg_openPanEvaporation_mm_per_d  
+    double sockg_openPanEvaporation_mm_per_d  
+    double sockg_weatherBadValueFlag  
+    int32 sockg_weatherBadValueFlag  
+    double sockg_dewPointDegc  
+    uri rdfs_seeAlso  
 }
 SockgWeatherStation {
-    uri rdfs_seeAlso  
-    string sockg_weatherStationId  
-    date sockg_date  
     string sockg_date  
+    date sockg_date  
+    string sockg_weatherStationId  
+    uri rdfs_seeAlso  
 }
 SockgWindErosionArea {
-    uri rdfs_seeAlso  
-    string sockg_lossesOrDeposition  
-    float sockg_lossesOrDeposition  
-    string sockg_modelIfSimulated  
-    string sockg_expUnit_UID  
-    string sockg_expUnitId  
-    string sockg_measWindErosionArea_UID  
-    double sockg_soilSd_t_ha  
-    float sockg_soilSd_t_ha  
-    string sockg_samplingStartStopInterval  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
-    string sockg_fieldId  
-    double sockg_soil_t_ha  
-    float sockg_soil_t_ha  
-    date sockg_date  
     string sockg_date  
+    date sockg_date  
+    string sockg_samplingStartStopInterval  
+    string sockg_fieldId  
     string sockg_growthStage  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
+    string sockg_measWindErosionArea_UID  
+    float sockg_lossesOrDeposition  
+    string sockg_lossesOrDeposition  
+    string sockg_modelIfSimulated  
+    float sockg_soilSd_t_ha  
+    double sockg_soilSd_t_ha  
+    string sockg_expUnitId  
+    uri rdfs_seeAlso  
+    float sockg_soil_t_ha  
+    double sockg_soil_t_ha  
+    string sockg_expUnit_UID  
 }
 SockgYieldNutrientUptake {
-    string sockg_measYieldNutUptake_UID  
-    string sockg_growthStage  
-    double sockg_fracMoisturePercent  
-    float sockg_fracMoisturePercent  
-    double sockg_fracNitrogen_kgN_ha  
-    float sockg_fracNitrogen_kgN_ha  
-    string sockg_crop  
-    double sockg_fracCarbonSd_kgC_ha  
     float sockg_fracCarbonSd_kgC_ha  
-    double sockg_fracCropProductivity_kg_ha  
-    float sockg_fracCropProductivity_kg_ha  
-    double sockg_fracCarbon_kgC_ha  
-    float sockg_fracCarbon_kgC_ha  
-    double sockg_fracZincSd_gZn_ha  
-    float sockg_fracZincSd_gZn_ha  
-    string sockg_expUnit_UID  
-    date sockg_treatmentId  
-    string sockg_treatmentId  
-    float sockg_treatmentId  
-    string sockg_fieldId  
+    double sockg_fracCarbonSd_kgC_ha  
+    string sockg_crop  
     string sockg_expUnitId  
-    double sockg_fracManganese_gMn_ha  
-    float sockg_fracManganese_gMn_ha  
-    double sockg_fracManganeseSd_gMn_ha  
-    float sockg_fracManganeseSd_gMn_ha  
-    double sockg_fracCopperSd_gCu_ha  
-    float sockg_fracCopperSd_gCu_ha  
-    date sockg_date  
-    string sockg_date  
-    double sockg_fracIronSd_gFe_ha  
-    float sockg_fracIronSd_gFe_ha  
-    uri rdfs_seeAlso  
-    double sockg_fracZinc_gZn_ha  
-    float sockg_fracZinc_gZn_ha  
-    string sockg_plantFraction  
-    double sockg_fracNitrogenSd_kgN_ha  
     float sockg_fracNitrogenSd_kgN_ha  
-    double sockg_fracProductivitySd_kg_ha  
+    double sockg_fracNitrogenSd_kgN_ha  
     float sockg_fracProductivitySd_kg_ha  
-    double sockg_fracIron_gFe_ha  
+    double sockg_fracProductivitySd_kg_ha  
+    float sockg_fracManganese_gMn_ha  
+    double sockg_fracManganese_gMn_ha  
     float sockg_fracIron_gFe_ha  
-    double sockg_fracCopper_gCu_ha  
+    double sockg_fracIron_gFe_ha  
+    string sockg_plantFraction  
+    float sockg_fracZincSd_gZn_ha  
+    double sockg_fracZincSd_gZn_ha  
+    float sockg_fracCarbon_kgC_ha  
+    double sockg_fracCarbon_kgC_ha  
+    string sockg_expUnit_UID  
+    float sockg_fracMoisturePercent  
+    double sockg_fracMoisturePercent  
+    string sockg_growthStage  
+    float sockg_fracCropProductivity_kg_ha  
+    double sockg_fracCropProductivity_kg_ha  
+    float sockg_fracZinc_gZn_ha  
+    double sockg_fracZinc_gZn_ha  
+    float sockg_fracIronSd_gFe_ha  
+    double sockg_fracIronSd_gFe_ha  
+    string sockg_date  
+    date sockg_date  
+    string sockg_fieldId  
+    float sockg_treatmentId  
+    string sockg_treatmentId  
+    date sockg_treatmentId  
+    string sockg_measYieldNutUptake_UID  
+    float sockg_fracNitrogen_kgN_ha  
+    double sockg_fracNitrogen_kgN_ha  
+    float sockg_fracManganeseSd_gMn_ha  
+    double sockg_fracManganeseSd_gMn_ha  
     float sockg_fracCopper_gCu_ha  
+    double sockg_fracCopper_gCu_ha  
+    float sockg_fracCopperSd_gCu_ha  
+    double sockg_fracCopperSd_gCu_ha  
+    uri rdfs_seeAlso  
 }
 
 RdfList ||--|o RdfsLiteral : "rdfs_comment"
@@ -841,53 +850,53 @@ SockgCountry ||--|o SockgState : "sockg_hasState"
 SockgCounty ||--|o SockgCity : "sockg_hasCity"
 SockgDepartment ||--|o SockgOrganization : "sockg_departmentOf"
 SockgExperiment ||--|o SockgTreatment : "sockg_hasTreatment"
-SockgExperimentalUnit ||--|o SockgBioMassMineral : "sockg_hasBioMassMineralData"
-SockgExperimentalUnit ||--|o SockgCropGrowthStage : "sockg_tracksGrowth"
-SockgExperimentalUnit ||--|o SockgHarvest : "sockg_isHarvested"
-SockgExperimentalUnit ||--|o SockgSoilCover : "sockg_hasSoilCover"
-SockgExperimentalUnit ||--|o SockgResidueManagementEvent : "sockg_hasResidueManagementEvent"
-SockgExperimentalUnit ||--|o SockgGrazing : "sockg_hasGrazingData"
 SockgExperimentalUnit ||--|o SockgField : "sockg_locatedInField"
-SockgExperimentalUnit ||--|o SockgSoilChemicalSample : "sockg_hasChemSample"
-SockgExperimentalUnit ||--|o SockgSite : "sockg_locatedInSite"
+SockgExperimentalUnit ||--|o SockgHarvest : "sockg_isHarvested"
 SockgExperimentalUnit ||--|o SockgSoilBiologicalSample : "sockg_hasBioSample"
-SockgExperimentalUnit ||--|o SockgBioMassCarbohydrate : "sockg_hasBioMassCarbohydrateData"
-SockgExperimentalUnit ||--|o SockgTillage : "sockg_hasTillage"
-SockgExperimentalUnit ||--|o SockgAmendment : "sockg_hasAmendment"
-SockgExperimentalUnit ||--|o SockgSoilPhysicalSample : "sockg_hasPhysSample"
+SockgExperimentalUnit ||--|o SockgHarvestFraction : "sockg_hasHarvestFractionData"
 SockgExperimentalUnit ||--|o SockgGrazingManagementEvent : "sockg_hasGrazingManagementEvent"
 SockgExperimentalUnit ||--|o SockgBioMassEnergy : "sockg_hasBioMassEnergyData"
-SockgExperimentalUnit ||--|o SockgHarvestFraction : "sockg_hasHarvestFractionData"
+SockgExperimentalUnit ||--|o SockgSoilPhysicalSample : "sockg_hasPhysSample"
 SockgExperimentalUnit ||--|o SockgGasSample : "sockg_hasGasSample"
+SockgExperimentalUnit ||--|o SockgGrazing : "sockg_hasGrazingData"
+SockgExperimentalUnit ||--|o SockgSite : "sockg_locatedInSite"
+SockgExperimentalUnit ||--|o SockgAmendment : "sockg_hasAmendment"
+SockgExperimentalUnit ||--|o SockgBioMassMineral : "sockg_hasBioMassMineralData"
+SockgExperimentalUnit ||--|o SockgResidueManagementEvent : "sockg_hasResidueManagementEvent"
+SockgExperimentalUnit ||--|o SockgSoilCover : "sockg_hasSoilCover"
+SockgExperimentalUnit ||--|o SockgBioMassCarbohydrate : "sockg_hasBioMassCarbohydrateData"
+SockgExperimentalUnit ||--|o SockgSoilChemicalSample : "sockg_hasChemSample"
+SockgExperimentalUnit ||--|o SockgTillage : "sockg_hasTillage"
+SockgExperimentalUnit ||--|o SockgCropGrowthStage : "sockg_tracksGrowth"
 SockgOrganization ||--|o SockgExperiment : "sockg_fundsExperiment"
 SockgPerson ||--|o SockgOrganization : "sockg_worksFor"
-SockgPerson ||--|o SockgSite : "sockg_worksIn"
 SockgPerson ||--|o SockgDepartment : "sockg_worksAtDepartment"
+SockgPerson ||--|o SockgSite : "sockg_worksIn"
 SockgPlantingEvent ||--|o SockgExperimentalUnit : "sockg_plantingAt"
 SockgPublication ||--|o SockgSite : "sockg_studiesSite"
-SockgSite ||--|o SockgCounty : "sockg_locatedInCounty"
+SockgSite ||--|o SockgField : "sockg_hasField"
 SockgSite ||--|o KwgrS2CellLevel13 : "kwgr_sfWithin"
 SockgSite ||--|o SockgCity : "sockg_locatedInCity"
-SockgSite ||--|o SockgField : "sockg_hasField"
-SockgSite ||--|o SockgCountry : "sockg_locatedInCountry"
 SockgSite ||--|o GeoGeometry : "geo_hasGeometry"
 SockgSite ||--|o SockgState : "sockg_locatedInState"
+SockgSite ||--|o SockgCountry : "sockg_locatedInCountry"
+SockgSite ||--|o SockgCounty : "sockg_locatedInCounty"
 SockgSoilChemicalSample ||--|o SockgTreatment : "sockg_chemSampleHasTreatment"
 SockgState ||--|o SockgCounty : "sockg_hasCounty"
 SockgTreatment ||--|o SockgRotation : "sockg_hasRotation"
-SockgWaterQualityArea ||--|o SockgField : "sockg_waterQualityAreaDataAt"
 SockgWaterQualityArea ||--|o SockgTreatment : "sockg_waterQualityAreaTreatment"
+SockgWaterQualityArea ||--|o SockgField : "sockg_waterQualityAreaDataAt"
 SockgWaterQualityConc ||--|o SockgField : "sockg_waterQualityConcDataAt"
 SockgWaterQualityConc ||--|o SockgTreatment : "sockg_waterQualityConcTreatment"
 SockgWeatherObservation ||--|o SockgSite : "sockg_weatherRecordedAt"
 SockgWeatherObservation ||--|o SockgField : "sockg_weatherAtField"
+SockgWeatherStation ||--|o SockgField : "sockg_recordsWeatherForField"
 SockgWeatherStation ||--|o SockgWeatherObservation : "sockg_weatherRecordedBy"
 SockgWeatherStation ||--|o SockgSite : "sockg_recordsWeatherForSite"
-SockgWeatherStation ||--|o SockgField : "sockg_recordsWeatherForField"
-SockgWindErosionArea ||--|o SockgTreatment : "sockg_windErosionTreatment"
 SockgWindErosionArea ||--|o SockgField : "sockg_windErosionDataAt"
-SockgYieldNutrientUptake ||--|o SockgTreatment : "sockg_yieldNutrUptakeTreatment"
+SockgWindErosionArea ||--|o SockgTreatment : "sockg_windErosionTreatment"
 SockgYieldNutrientUptake ||--|o SockgField : "sockg_yieldNutrUptakeDataAt"
+SockgYieldNutrientUptake ||--|o SockgTreatment : "sockg_yieldNutrUptakeTreatment"
 
 ```
 
@@ -896,8 +905,9 @@ SockgYieldNutrientUptake ||--|o SockgField : "sockg_yieldNutrUptakeDataAt"
 ## Imports
 
 
-* https://raw.githubusercontent.com/frink-okn/schema-gen/refs/heads/main/rdf-rdfs
 * linkml:types
+* https://raw.githubusercontent.com/frink-okn/schema-gen/refs/heads/main/rdf-rdfs
+* https://raw.githubusercontent.com/linkml/linkml-model/refs/heads/main/linkml_model/model/schema/extended_types
 
 
 
@@ -964,9 +974,9 @@ SockgYieldNutrientUptake ||--|o SockgField : "sockg_yieldNutrUptakeDataAt"
 
 | Slot | Description | Occurrences |
 | --- | --- | --- |
+| [dcgeoid_cityDCID](slots/dcgeoid_cityDCID.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
 | [geo_asWKT](slots/geo_asWKT.md) | No slot (predicate) description specified<br/>| 47 |
 | [geo_hasGeometry](slots/geo_hasGeometry.md) | No slot (predicate) description specified<br/>| 47 |
-| [https___datacommons.org_browser_geoId_cityDCID](slots/https___datacommons.org_browser_geoId_cityDCID.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
 | [kwgr_countyFIPS](slots/kwgr_countyFIPS.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
 | [kwgr_sfContains](slots/kwgr_sfContains.md) | No slot (predicate) description specified<br/>| 4351 |
 | [kwgr_sfWithin](slots/kwgr_sfWithin.md) | No slot (predicate) description specified<br/>| 4351 |
@@ -1684,6 +1694,7 @@ SockgYieldNutrientUptake ||--|o SockgField : "sockg_yieldNutrUptakeDataAt"
 
 ## IRI prefixes
 
+* dcgeoid: https://datacommons.org/browser/geoId/
 * geo: http://www.opengis.net/ont/geosparql#
 * kwgr: http://stko-kwg.geog.ucsb.edu/lod/resource/
 * linkml: https://w3id.org/linkml/
@@ -1691,5 +1702,3 @@ SockgYieldNutrientUptake ||--|o SockgField : "sockg_yieldNutrUptakeDataAt"
 * rdfs: http://www.w3.org/2000/01/rdf-schema#
 * sockg: https://idir.uta.edu/sockg-ontology/docs/
 * xsd: http://www.w3.org/2001/XMLSchema#
-* shex: http://www.w3.org/ns/shex#
-* schema: http://schema.org/

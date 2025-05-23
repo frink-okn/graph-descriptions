@@ -94,8 +94,8 @@ domain_of:
 - sockg_Experiment
 - sockg_Project
 union_of:
-- '{''domain'': ''sockg_Project''}'
 - '{''domain'': ''sockg_Experiment''}'
+- '{''domain'': ''sockg_Project''}'
 range: string
 
 ```

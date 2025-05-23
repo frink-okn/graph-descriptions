@@ -136,17 +136,17 @@ URI: [sockg:Site](https://idir.uta.edu/sockg-ontology/docs/Site)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 60 |
-| [sockg_siteSpatialDescription](../slots/sockg_siteSpatialDescription.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 60 |
-| [sockg_postalCodeNumber](../slots/sockg_postalCodeNumber.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 60 |
-| [sockg_locatedInCounty](../slots/sockg_locatedInCounty.md) | 0..1 <br/> [SockgCounty](../classes/SockgCounty.md) | No slot (predicate) description specified <br/>  | direct | 61 |
-| [kwgr_sfWithin](../slots/kwgr_sfWithin.md) | 0..1 <br/> [KwgrS2CellLevel13](../classes/KwgrS2CellLevel13.md) | No slot (predicate) description specified <br/>  | direct | 4351 |
-| [sockg_siteId](../slots/sockg_siteId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 60 |
-| [sockg_locatedInCity](../slots/sockg_locatedInCity.md) | 0..1 <br/> [SockgCity](../classes/SockgCity.md) | No slot (predicate) description specified <br/>  | direct | 59 |
 | [sockg_hasField](../slots/sockg_hasField.md) | 0..1 <br/> [SockgField](../classes/SockgField.md) | No slot (predicate) description specified <br/>  | direct | 65 |
-| [sockg_locatedInCountry](../slots/sockg_locatedInCountry.md) | 0..1 <br/> [SockgCountry](../classes/SockgCountry.md) | No slot (predicate) description specified <br/>  | direct | 60 |
+| [kwgr_sfWithin](../slots/kwgr_sfWithin.md) | 0..1 <br/> [KwgrS2CellLevel13](../classes/KwgrS2CellLevel13.md) | No slot (predicate) description specified <br/>  | direct | 4351 |
+| [sockg_locatedInCity](../slots/sockg_locatedInCity.md) | 0..1 <br/> [SockgCity](../classes/SockgCity.md) | No slot (predicate) description specified <br/>  | direct | 59 |
+| [sockg_postalCodeNumber](../slots/sockg_postalCodeNumber.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[Int32](../types/Int32.md) | No slot (predicate) description specified <br/>  | direct | 60 |
 | [geo_hasGeometry](../slots/geo_hasGeometry.md) | 0..1 <br/> [GeoGeometry](../classes/GeoGeometry.md) | No slot (predicate) description specified <br/>  | direct | 47 |
 | [sockg_locatedInState](../slots/sockg_locatedInState.md) | 0..1 <br/> [SockgState](../classes/SockgState.md) | No slot (predicate) description specified <br/>  | direct | 60 |
+| [sockg_siteSpatialDescription](../slots/sockg_siteSpatialDescription.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 60 |
+| [sockg_locatedInCountry](../slots/sockg_locatedInCountry.md) | 0..1 <br/> [SockgCountry](../classes/SockgCountry.md) | No slot (predicate) description specified <br/>  | direct | 60 |
+| [sockg_siteId](../slots/sockg_siteId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 60 |
+| [sockg_locatedInCounty](../slots/sockg_locatedInCounty.md) | 0..1 <br/> [SockgCounty](../classes/SockgCounty.md) | No slot (predicate) description specified <br/>  | direct | 61 |
+| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 60 |
 
 
 
@@ -161,14 +161,14 @@ URI: [sockg:Site](https://idir.uta.edu/sockg-ontology/docs/Site)
 | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_locatedInSite](../slots/sockg_locatedInSite.md) | range | [SockgSite](../classes/SockgSite.md) |
 | [SockgPerson](../classes/SockgPerson.md) | [sockg_worksIn](../slots/sockg_worksIn.md) | range | [SockgSite](../classes/SockgSite.md) |
 | [SockgPublication](../classes/SockgPublication.md) | [sockg_studiesSite](../slots/sockg_studiesSite.md) | range | [SockgSite](../classes/SockgSite.md) |
-| [SockgSite](../classes/SockgSite.md) | [sockg_siteSpatialDescription](../slots/sockg_siteSpatialDescription.md) | domain | [SockgSite](../classes/SockgSite.md) |
-| [SockgSite](../classes/SockgSite.md) | [sockg_postalCodeNumber](../slots/sockg_postalCodeNumber.md) | domain | [SockgSite](../classes/SockgSite.md) |
-| [SockgSite](../classes/SockgSite.md) | [sockg_locatedInCounty](../slots/sockg_locatedInCounty.md) | domain | [SockgSite](../classes/SockgSite.md) |
-| [SockgSite](../classes/SockgSite.md) | [sockg_siteId](../slots/sockg_siteId.md) | domain | [SockgSite](../classes/SockgSite.md) |
-| [SockgSite](../classes/SockgSite.md) | [sockg_locatedInCity](../slots/sockg_locatedInCity.md) | domain | [SockgSite](../classes/SockgSite.md) |
 | [SockgSite](../classes/SockgSite.md) | [sockg_hasField](../slots/sockg_hasField.md) | domain | [SockgSite](../classes/SockgSite.md) |
-| [SockgSite](../classes/SockgSite.md) | [sockg_locatedInCountry](../slots/sockg_locatedInCountry.md) | domain | [SockgSite](../classes/SockgSite.md) |
+| [SockgSite](../classes/SockgSite.md) | [sockg_locatedInCity](../slots/sockg_locatedInCity.md) | domain | [SockgSite](../classes/SockgSite.md) |
+| [SockgSite](../classes/SockgSite.md) | [sockg_postalCodeNumber](../slots/sockg_postalCodeNumber.md) | domain | [SockgSite](../classes/SockgSite.md) |
 | [SockgSite](../classes/SockgSite.md) | [sockg_locatedInState](../slots/sockg_locatedInState.md) | domain | [SockgSite](../classes/SockgSite.md) |
+| [SockgSite](../classes/SockgSite.md) | [sockg_siteSpatialDescription](../slots/sockg_siteSpatialDescription.md) | domain | [SockgSite](../classes/SockgSite.md) |
+| [SockgSite](../classes/SockgSite.md) | [sockg_locatedInCountry](../slots/sockg_locatedInCountry.md) | domain | [SockgSite](../classes/SockgSite.md) |
+| [SockgSite](../classes/SockgSite.md) | [sockg_siteId](../slots/sockg_siteId.md) | domain | [SockgSite](../classes/SockgSite.md) |
+| [SockgSite](../classes/SockgSite.md) | [sockg_locatedInCounty](../slots/sockg_locatedInCounty.md) | domain | [SockgSite](../classes/SockgSite.md) |
 | [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | [sockg_weatherRecordedAt](../slots/sockg_weatherRecordedAt.md) | range | [SockgSite](../classes/SockgSite.md) |
 | [SockgWeatherStation](../classes/SockgWeatherStation.md) | [sockg_recordsWeatherForSite](../slots/sockg_recordsWeatherForSite.md) | range | [SockgSite](../classes/SockgSite.md) |
 
@@ -211,17 +211,17 @@ see_also:
 - https://lod.nal.usda.gov/nalt/9795148
 rank: 1000
 slots:
-- rdfs_seeAlso
-- sockg_siteSpatialDescription
-- sockg_postalCodeNumber
-- sockg_locatedInCounty
-- kwgr_sfWithin
-- sockg_siteId
-- sockg_locatedInCity
 - sockg_hasField
-- sockg_locatedInCountry
+- kwgr_sfWithin
+- sockg_locatedInCity
+- sockg_postalCodeNumber
 - geo_hasGeometry
 - sockg_locatedInState
+- sockg_siteSpatialDescription
+- sockg_locatedInCountry
+- sockg_siteId
+- sockg_locatedInCounty
+- rdfs_seeAlso
 slot_usage:
   geo_hasGeometry:
     name: geo_hasGeometry
@@ -382,6 +382,247 @@ slot_usage:
         tag: string
         value: 60
 attributes:
+  sockg_hasField:
+    name: sockg_hasField
+    annotations:
+      sockg_Field:
+        tag: sockg_Field
+        value: 65
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/55800
+        example_object_type: sockg_Field
+        example_predicate: sockg:hasField
+        example_subject: sockg:individuals/231056
+        example_subject_type: sockg_Site
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Site
+    slot_uri: sockg:hasField
+    alias: sockg_hasField
+    owner: sockg_Site
+    domain_of:
+    - sockg_Site
+    range: sockg_Field
+  kwgr_sfWithin:
+    name: kwgr_sfWithin
+    annotations:
+      kwgr_S2Cell_Level13:
+        tag: kwgr_S2Cell_Level13
+        value: 4351
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: kwgr:s2.level13.9839298676705460224
+        example_object_type: kwgr_S2Cell_Level13
+        example_predicate: kwgr:sfWithin
+        example_subject: sockg:individuals/231056
+        example_subject_type: sockg_Site
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: kwgr:sfWithin
+    alias: kwgr_sfWithin
+    owner: sockg_Site
+    domain_of:
+    - sockg_Site
+    range: kwgr_S2Cell_Level13
+  sockg_locatedInCity:
+    name: sockg_locatedInCity
+    annotations:
+      sockg_City:
+        tag: sockg_City
+        value: 59
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/46864
+        example_object_type: sockg_City
+        example_predicate: sockg:locatedInCity
+        example_subject: sockg:individuals/231056
+        example_subject_type: sockg_Site
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Site
+    slot_uri: sockg:locatedInCity
+    alias: sockg_locatedInCity
+    owner: sockg_Site
+    domain_of:
+    - sockg_Site
+    range: sockg_City
+  sockg_postalCodeNumber:
+    name: sockg_postalCodeNumber
+    annotations:
+      double:
+        tag: double
+        value: 60
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '36075.0'
+        example_object_type: double
+        example_predicate: sockg:postalCodeNumber
+        example_subject: sockg:individuals/231056
+        example_subject_type: sockg_Site
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/9775998
+    rank: 1000
+    domain: sockg_Site
+    slot_uri: sockg:postalCodeNumber
+    alias: sockg_postalCodeNumber
+    owner: sockg_Site
+    domain_of:
+    - sockg_Site
+    range: Any
+    any_of:
+    - range: double
+    - range: int32
+  geo_hasGeometry:
+    name: geo_hasGeometry
+    annotations:
+      geo_Geometry:
+        tag: geo_Geometry
+        value: 47
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: sockg:individuals/geometry_ALAuburn
+        example_object_type: geo_Geometry
+        example_predicate: geo:hasGeometry
+        example_subject: sockg:individuals/231056
+        example_subject_type: sockg_Site
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: geo:hasGeometry
+    alias: geo_hasGeometry
+    owner: sockg_Site
+    domain_of:
+    - sockg_Site
+    range: geo_Geometry
+  sockg_locatedInState:
+    name: sockg_locatedInState
+    annotations:
+      sockg_State:
+        tag: sockg_State
+        value: 60
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/336400
+        example_object_type: sockg_State
+        example_predicate: sockg:locatedInState
+        example_subject: sockg:individuals/231056
+        example_subject_type: sockg_Site
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Site
+    slot_uri: sockg:locatedInState
+    alias: sockg_locatedInState
+    owner: sockg_Site
+    domain_of:
+    - sockg_Site
+    range: sockg_State
+  sockg_siteSpatialDescription:
+    name: sockg_siteSpatialDescription
+    annotations:
+      string:
+        tag: string
+        value: 60
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: Bounding Box:,-85.897912,32.423849,-85.895231,32.421965
+        example_object_type: string
+        example_predicate: sockg:siteSpatialDescription
+        example_subject: sockg:individuals/231056
+        example_subject_type: sockg_Site
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Site
+    slot_uri: sockg:siteSpatialDescription
+    alias: sockg_siteSpatialDescription
+    owner: sockg_Site
+    domain_of:
+    - sockg_Site
+    range: string
+  sockg_locatedInCountry:
+    name: sockg_locatedInCountry
+    annotations:
+      sockg_Country:
+        tag: sockg_Country
+        value: 60
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/46901
+        example_object_type: sockg_Country
+        example_predicate: sockg:locatedInCountry
+        example_subject: sockg:individuals/231056
+        example_subject_type: sockg_Site
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Site
+    slot_uri: sockg:locatedInCountry
+    alias: sockg_locatedInCountry
+    owner: sockg_Site
+    domain_of:
+    - sockg_Site
+    range: sockg_Country
+  sockg_siteId:
+    name: sockg_siteId
+    annotations:
+      string:
+        tag: string
+        value: 60
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: ALAuburn
+        example_object_type: string
+        example_predicate: sockg:siteId
+        example_subject: sockg:individuals/231056
+        example_subject_type: sockg_Site
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Site
+    slot_uri: sockg:siteId
+    alias: sockg_siteId
+    owner: sockg_Site
+    domain_of:
+    - sockg_Site
+    range: string
+  sockg_locatedInCounty:
+    name: sockg_locatedInCounty
+    annotations:
+      sockg_County:
+        tag: sockg_County
+        value: 61
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/46904
+        example_object_type: sockg_County
+        example_predicate: sockg:locatedInCounty
+        example_subject: sockg:individuals/231056
+        example_subject_type: sockg_Site
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Site
+    slot_uri: sockg:locatedInCounty
+    alias: sockg_locatedInCounty
+    owner: sockg_Site
+    domain_of:
+    - sockg_Site
+    range: sockg_County
   rdfs_seeAlso:
     name: rdfs_seeAlso
     annotations:
@@ -684,247 +925,6 @@ attributes:
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
     range: uri
-  sockg_siteSpatialDescription:
-    name: sockg_siteSpatialDescription
-    annotations:
-      string:
-        tag: string
-        value: 60
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: Bounding Box:,-85.897912,32.423849,-85.895231,32.421965
-        example_object_type: string
-        example_predicate: sockg:siteSpatialDescription
-        example_subject: sockg:individuals/231056
-        example_subject_type: sockg_Site
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_Site
-    slot_uri: sockg:siteSpatialDescription
-    alias: sockg_siteSpatialDescription
-    owner: sockg_Site
-    domain_of:
-    - sockg_Site
-    range: string
-  sockg_postalCodeNumber:
-    name: sockg_postalCodeNumber
-    annotations:
-      double:
-        tag: double
-        value: 60
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '36075.0'
-        example_object_type: double
-        example_predicate: sockg:postalCodeNumber
-        example_subject: sockg:individuals/231056
-        example_subject_type: sockg_Site
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/9775998
-    rank: 1000
-    domain: sockg_Site
-    slot_uri: sockg:postalCodeNumber
-    alias: sockg_postalCodeNumber
-    owner: sockg_Site
-    domain_of:
-    - sockg_Site
-    range: Any
-    any_of:
-    - range: integer
-    - range: double
-  sockg_locatedInCounty:
-    name: sockg_locatedInCounty
-    annotations:
-      sockg_County:
-        tag: sockg_County
-        value: 61
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: sockg:individuals/46904
-        example_object_type: sockg_County
-        example_predicate: sockg:locatedInCounty
-        example_subject: sockg:individuals/231056
-        example_subject_type: sockg_Site
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_Site
-    slot_uri: sockg:locatedInCounty
-    alias: sockg_locatedInCounty
-    owner: sockg_Site
-    domain_of:
-    - sockg_Site
-    range: sockg_County
-  kwgr_sfWithin:
-    name: kwgr_sfWithin
-    annotations:
-      kwgr_S2Cell_Level13:
-        tag: kwgr_S2Cell_Level13
-        value: 4351
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: kwgr:s2.level13.9839298676705460224
-        example_object_type: kwgr_S2Cell_Level13
-        example_predicate: kwgr:sfWithin
-        example_subject: sockg:individuals/231056
-        example_subject_type: sockg_Site
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: kwgr:sfWithin
-    alias: kwgr_sfWithin
-    owner: sockg_Site
-    domain_of:
-    - sockg_Site
-    range: kwgr_S2Cell_Level13
-  sockg_siteId:
-    name: sockg_siteId
-    annotations:
-      string:
-        tag: string
-        value: 60
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: ALAuburn
-        example_object_type: string
-        example_predicate: sockg:siteId
-        example_subject: sockg:individuals/231056
-        example_subject_type: sockg_Site
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_Site
-    slot_uri: sockg:siteId
-    alias: sockg_siteId
-    owner: sockg_Site
-    domain_of:
-    - sockg_Site
-    range: string
-  sockg_locatedInCity:
-    name: sockg_locatedInCity
-    annotations:
-      sockg_City:
-        tag: sockg_City
-        value: 59
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: sockg:individuals/46864
-        example_object_type: sockg_City
-        example_predicate: sockg:locatedInCity
-        example_subject: sockg:individuals/231056
-        example_subject_type: sockg_Site
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_Site
-    slot_uri: sockg:locatedInCity
-    alias: sockg_locatedInCity
-    owner: sockg_Site
-    domain_of:
-    - sockg_Site
-    range: sockg_City
-  sockg_hasField:
-    name: sockg_hasField
-    annotations:
-      sockg_Field:
-        tag: sockg_Field
-        value: 65
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: sockg:individuals/55800
-        example_object_type: sockg_Field
-        example_predicate: sockg:hasField
-        example_subject: sockg:individuals/231056
-        example_subject_type: sockg_Site
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_Site
-    slot_uri: sockg:hasField
-    alias: sockg_hasField
-    owner: sockg_Site
-    domain_of:
-    - sockg_Site
-    range: sockg_Field
-  sockg_locatedInCountry:
-    name: sockg_locatedInCountry
-    annotations:
-      sockg_Country:
-        tag: sockg_Country
-        value: 60
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: sockg:individuals/46901
-        example_object_type: sockg_Country
-        example_predicate: sockg:locatedInCountry
-        example_subject: sockg:individuals/231056
-        example_subject_type: sockg_Site
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_Site
-    slot_uri: sockg:locatedInCountry
-    alias: sockg_locatedInCountry
-    owner: sockg_Site
-    domain_of:
-    - sockg_Site
-    range: sockg_Country
-  geo_hasGeometry:
-    name: geo_hasGeometry
-    annotations:
-      geo_Geometry:
-        tag: geo_Geometry
-        value: 47
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: sockg:individuals/geometry_ALAuburn
-        example_object_type: geo_Geometry
-        example_predicate: geo:hasGeometry
-        example_subject: sockg:individuals/231056
-        example_subject_type: sockg_Site
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: geo:hasGeometry
-    alias: geo_hasGeometry
-    owner: sockg_Site
-    domain_of:
-    - sockg_Site
-    range: geo_Geometry
-  sockg_locatedInState:
-    name: sockg_locatedInState
-    annotations:
-      sockg_State:
-        tag: sockg_State
-        value: 60
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: sockg:individuals/336400
-        example_object_type: sockg_State
-        example_predicate: sockg:locatedInState
-        example_subject: sockg:individuals/231056
-        example_subject_type: sockg_Site
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_Site
-    slot_uri: sockg:locatedInState
-    alias: sockg_locatedInState
-    owner: sockg_Site
-    domain_of:
-    - sockg_Site
-    range: sockg_State
 class_uri: sockg:Site
 
 ```

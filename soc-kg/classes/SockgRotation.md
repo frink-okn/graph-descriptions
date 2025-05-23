@@ -55,8 +55,8 @@ URI: [sockg:Rotation](https://idir.uta.edu/sockg-ontology/docs/Rotation)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 74 |
 | [sockg_rotationDescriptor](../slots/sockg_rotationDescriptor.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 66 |
+| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 74 |
 
 
 
@@ -109,8 +109,8 @@ see_also:
 - https://lod.nal.usda.gov/nalt/30158
 rank: 1000
 slots:
-- rdfs_seeAlso
 - sockg_rotationDescriptor
+- rdfs_seeAlso
 slot_usage:
   rdfs_seeAlso:
     name: rdfs_seeAlso
@@ -164,6 +164,32 @@ slot_usage:
         tag: string
         value: 66
 attributes:
+  sockg_rotationDescriptor:
+    name: sockg_rotationDescriptor
+    annotations:
+      string:
+        tag: string
+        value: 66
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: Rangeland
+        example_object_type: string
+        example_predicate: sockg:rotationDescriptor
+        example_subject: sockg:individuals/230982
+        example_subject_type: sockg_Rotation
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/30158
+    rank: 1000
+    domain: sockg_Rotation
+    slot_uri: sockg:rotationDescriptor
+    alias: sockg_rotationDescriptor
+    owner: sockg_Rotation
+    domain_of:
+    - sockg_Rotation
+    range: string
   rdfs_seeAlso:
     name: rdfs_seeAlso
     annotations:
@@ -466,32 +492,6 @@ attributes:
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
     range: uri
-  sockg_rotationDescriptor:
-    name: sockg_rotationDescriptor
-    annotations:
-      string:
-        tag: string
-        value: 66
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: Rangeland
-        example_object_type: string
-        example_predicate: sockg:rotationDescriptor
-        example_subject: sockg:individuals/230982
-        example_subject_type: sockg_Rotation
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/30158
-    rank: 1000
-    domain: sockg_Rotation
-    slot_uri: sockg:rotationDescriptor
-    alias: sockg_rotationDescriptor
-    owner: sockg_Rotation
-    domain_of:
-    - sockg_Rotation
-    range: string
 class_uri: sockg:Rotation
 
 ```

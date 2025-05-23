@@ -38,7 +38,7 @@ URI: [sockg:lossesOrDeposition](https://idir.uta.edu/sockg-ontology/docs/lossesO
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -92,8 +92,8 @@ union_of:
 - '{''domain'': ''sockg_WindErosionArea''}'
 range: Any
 any_of:
-- range: string
 - range: float
+- range: string
 
 ```
 </details>

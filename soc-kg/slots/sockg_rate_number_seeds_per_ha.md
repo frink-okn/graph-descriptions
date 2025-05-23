@@ -26,7 +26,7 @@ URI: [sockg:rate_number_seeds_per_ha](https://idir.uta.edu/sockg-ontology/docs/r
 
 ## Properties
 
-* Range: [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
+* Range: [Int32](../types/Int32.md)
 
 
 
@@ -59,7 +59,7 @@ rank: 1000
 domain: sockg_PlantingEvent
 slot_uri: sockg:rate_number_seeds_per_ha
 alias: sockg_rate_number_seeds_per_ha
-range: integer
+range: int32
 
 ```
 </details>

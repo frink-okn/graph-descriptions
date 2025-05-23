@@ -1,6 +1,6 @@
 
 
-# Slot: No slot (predicate) name specified (https___datacommons.org_browser_geoId_cityDCID)
+# Slot: No slot (predicate) name specified (dcgeoid_cityDCID)
 
 
 _No slot (predicate) description specified_
@@ -11,7 +11,7 @@ _No slot (predicate) description specified_
 
 
 
-URI: [https://datacommons.org/browser/geoId/cityDCID](https://datacommons.org/browser/geoId/cityDCID)
+URI: [dcgeoid:cityDCID](https://datacommons.org/browser/geoId/cityDCID)
 
 
 
@@ -43,7 +43,7 @@ URI: [https://datacommons.org/browser/geoId/cityDCID](https://datacommons.org/br
 <details>
 
 ```yaml
-name: https___datacommons.org_browser_geoId_cityDCID
+name: dcgeoid_cityDCID
 description: No slot (predicate) description specified
 title: No slot (predicate) name specified
 comments:
@@ -51,8 +51,8 @@ comments:
 from_schema: soc-kg
 rank: 1000
 domain: sockg_City
-slot_uri: https://datacommons.org/browser/geoId/cityDCID
-alias: https___datacommons.org_browser_geoId_cityDCID
+slot_uri: dcgeoid:cityDCID
+alias: dcgeoid_cityDCID
 range: string
 
 ```

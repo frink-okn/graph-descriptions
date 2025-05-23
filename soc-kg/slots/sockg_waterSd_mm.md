@@ -59,8 +59,8 @@ rank: 1000
 slot_uri: sockg:waterSd_mm
 alias: sockg_waterSd_mm
 union_of:
-- '{''domain'': ''sockg_WaterQualityArea''}'
 - '{''domain'': ''sockg_WaterQualityConc''}'
+- '{''domain'': ''sockg_WaterQualityArea''}'
 range: float
 
 ```

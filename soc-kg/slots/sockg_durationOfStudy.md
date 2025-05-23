@@ -26,7 +26,7 @@ URI: [sockg:durationOfStudy](https://idir.uta.edu/sockg-ontology/docs/durationOf
 
 ## Properties
 
-* Range: [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
+* Range: [Int32](../types/Int32.md)
 
 
 
@@ -59,7 +59,7 @@ rank: 1000
 domain: sockg_Experiment
 slot_uri: sockg:durationOfStudy
 alias: sockg_durationOfStudy
-range: integer
+range: int32
 
 ```
 </details>

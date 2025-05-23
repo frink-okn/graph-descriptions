@@ -27,8 +27,8 @@ URI: [sockg:endDate](https://idir.uta.edu/sockg-ontology/docs/endDate)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGrazingManagementEvent](../classes/SockgGrazingManagementEvent.md) | A GrazingManagementEvent represents a specific instance of land management pr... |  yes  |
 | [SockgExperiment](../classes/SockgExperiment.md) | An Experiment is a structured investigation carried out to observe and analyz... |  yes  |
+| [SockgGrazingManagementEvent](../classes/SockgGrazingManagementEvent.md) | A GrazingManagementEvent represents a specific instance of land management pr... |  yes  |
 | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | An ExperimentalUnit represents a specific segment of agricultural research fo... |  yes  |
 
 
@@ -39,7 +39,7 @@ URI: [sockg:endDate](https://idir.uta.edu/sockg-ontology/docs/endDate)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date)
 
 
 
@@ -104,13 +104,13 @@ domain_of:
 - sockg_GrazingManagementEvent
 union_of:
 - '{''domain'': ''sockg_Amendment''}'
-- '{''domain'': ''sockg_ExperimentalUnit''}'
-- '{''domain'': ''sockg_GrazingManagementEvent''}'
 - '{''domain'': ''sockg_Experiment''}'
+- '{''domain'': ''sockg_GrazingManagementEvent''}'
+- '{''domain'': ''sockg_ExperimentalUnit''}'
 range: Any
 any_of:
-- range: date
 - range: string
+- range: date
 
 ```
 </details>

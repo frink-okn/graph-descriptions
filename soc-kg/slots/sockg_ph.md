@@ -37,7 +37,7 @@ URI: [sockg:ph](https://idir.uta.edu/sockg-ontology/docs/ph)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
 
 
 
@@ -85,14 +85,14 @@ alias: sockg_ph
 domain_of:
 - sockg_SoilChemicalSample
 union_of:
-- '{''domain'': ''sockg_WaterQualityArea''}'
-- '{''domain'': ''sockg_SoilChemicalSample''}'
 - '{''domain'': ''sockg_WaterQualityConc''}'
+- '{''domain'': ''sockg_WaterQualityArea''}'
 - '{''domain'': ''sockg_WindErosionArea''}'
+- '{''domain'': ''sockg_SoilChemicalSample''}'
 range: Any
 any_of:
-- range: double
 - range: float
+- range: double
 
 ```
 </details>

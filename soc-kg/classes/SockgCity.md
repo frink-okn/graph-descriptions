@@ -55,8 +55,8 @@ URI: [sockg:City](https://idir.uta.edu/sockg-ontology/docs/City)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 37 |
 | [sockg_cityName](../slots/sockg_cityName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 33 |
+| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 37 |
 
 
 
@@ -109,8 +109,8 @@ see_also:
 - https://lod.nal.usda.gov/nalt/7485997
 rank: 1000
 slots:
-- rdfs_seeAlso
 - sockg_cityName
+- rdfs_seeAlso
 slot_usage:
   rdfs_seeAlso:
     name: rdfs_seeAlso
@@ -163,6 +163,32 @@ slot_usage:
         tag: string
         value: 33
 attributes:
+  sockg_cityName:
+    name: sockg_cityName
+    annotations:
+      string:
+        tag: string
+        value: 33
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: Shorter
+        example_object_type: string
+        example_predicate: sockg:cityName
+        example_subject: sockg:individuals/46864
+        example_subject_type: sockg_City
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/7485997
+    rank: 1000
+    domain: sockg_City
+    slot_uri: sockg:cityName
+    alias: sockg_cityName
+    owner: sockg_City
+    domain_of:
+    - sockg_City
+    range: string
   rdfs_seeAlso:
     name: rdfs_seeAlso
     annotations:
@@ -465,32 +491,6 @@ attributes:
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
     range: uri
-  sockg_cityName:
-    name: sockg_cityName
-    annotations:
-      string:
-        tag: string
-        value: 33
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: Shorter
-        example_object_type: string
-        example_predicate: sockg:cityName
-        example_subject: sockg:individuals/46864
-        example_subject_type: sockg_City
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/7485997
-    rank: 1000
-    domain: sockg_City
-    slot_uri: sockg:cityName
-    alias: sockg_cityName
-    owner: sockg_City
-    domain_of:
-    - sockg_City
-    range: string
 class_uri: sockg:City
 
 ```

@@ -27,12 +27,12 @@ URI: [sockg:startDate](https://idir.uta.edu/sockg-ontology/docs/startDate)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGrazingManagementEvent](../classes/SockgGrazingManagementEvent.md) | A GrazingManagementEvent represents a specific instance of land management pr... |  yes  |
 | [SockgPlantingEvent](../classes/SockgPlantingEvent.md) | An event involving the act of planting, which includes considerations for spa... |  yes  |
-| [SockgTillage](../classes/SockgTillage.md) | Tillage refers to the agricultural preparation of soil through mechanical agi... |  yes  |
-| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | An ExperimentalUnit represents a specific segment of agricultural research fo... |  yes  |
+| [SockgGrazingManagementEvent](../classes/SockgGrazingManagementEvent.md) | A GrazingManagementEvent represents a specific instance of land management pr... |  yes  |
 | [SockgExperiment](../classes/SockgExperiment.md) | An Experiment is a structured investigation carried out to observe and analyz... |  yes  |
+| [SockgTillage](../classes/SockgTillage.md) | Tillage refers to the agricultural preparation of soil through mechanical agi... |  yes  |
 | [SockgAmendment](../classes/SockgAmendment.md) | An Amendment represents a specific alteration or addition made to agricultura... |  yes  |
+| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | An ExperimentalUnit represents a specific segment of agricultural research fo... |  yes  |
 
 
 
@@ -42,7 +42,7 @@ URI: [sockg:startDate](https://idir.uta.edu/sockg-ontology/docs/startDate)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date)
 
 
 
@@ -130,15 +130,15 @@ domain_of:
 - sockg_PlantingEvent
 - sockg_Tillage
 union_of:
-- '{''domain'': ''sockg_ExperimentalUnit''}'
-- '{''domain'': ''sockg_GrazingManagementEvent''}'
 - '{''domain'': ''sockg_WeatherStation''}'
-- '{''domain'': ''sockg_Experiment''}'
+- '{''domain'': ''sockg_GrazingManagementEvent''}'
+- '{''domain'': ''sockg_ExperimentalUnit''}'
 - '{''domain'': ''sockg_Amendment''}'
+- '{''domain'': ''sockg_Experiment''}'
 range: Any
 any_of:
-- range: date
 - range: string
+- range: date
 
 ```
 </details>

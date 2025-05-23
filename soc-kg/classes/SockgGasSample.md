@@ -101,8 +101,8 @@ URI: [sockg:GasSample](https://idir.uta.edu/sockg-ontology/docs/GasSample)
           
     
     
-    SockgGasSample --> "0..1" Integer : sockg_isCarbonDioxideInterpolated
-    click Integer href "../Integer"
+    SockgGasSample --> "0..1" Any : sockg_isCarbonDioxideInterpolated
+    click Any href "../Any"
 
         
       SockgGasSample : sockg_isMethaneInterpolated
@@ -110,8 +110,8 @@ URI: [sockg:GasSample](https://idir.uta.edu/sockg-ontology/docs/GasSample)
           
     
     
-    SockgGasSample --> "0..1" Integer : sockg_isMethaneInterpolated
-    click Integer href "../Integer"
+    SockgGasSample --> "0..1" Any : sockg_isMethaneInterpolated
+    click Any href "../Any"
 
         
       SockgGasSample : sockg_isNitrousOxideInterpolated
@@ -119,8 +119,8 @@ URI: [sockg:GasSample](https://idir.uta.edu/sockg-ontology/docs/GasSample)
           
     
     
-    SockgGasSample --> "0..1" Integer : sockg_isNitrousOxideInterpolated
-    click Integer href "../Integer"
+    SockgGasSample --> "0..1" Any : sockg_isNitrousOxideInterpolated
+    click Any href "../Any"
 
         
       SockgGasSample : sockg_measGHGFlux_UID
@@ -244,29 +244,29 @@ URI: [sockg:GasSample](https://idir.uta.edu/sockg-ontology/docs/GasSample)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [sockg_nitrousOxideSd_gN_per_ha_per_d](../slots/sockg_nitrousOxideSd_gN_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 101109 |
 | [sockg_crop](../slots/sockg_crop.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 105046 |
-| [sockg_methane_gC_per_ha_per_d](../slots/sockg_methane_gC_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 107090 |
-| [sockg_methaneSd_gC_per_ha_per_d](../slots/sockg_methaneSd_gC_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 101109 |
-| [sockg_carbonDioxideSd_gC_per_ha_per_d](../slots/sockg_carbonDioxideSd_gC_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 101109 |
-| [sockg_nitrousOxide_gN_per_ha_per_d](../slots/sockg_nitrousOxide_gN_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 107095 |
-| [sockg_airTemperatureSd_degC](../slots/sockg_airTemperatureSd_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 6790 |
-| [sockg_time](../slots/sockg_time.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:time](http://www.w3.org/2001/XMLSchema#time) | No slot (predicate) description specified <br/>  | direct | 5471 |
-| [sockg_carbonDioxide_gC_per_ha_per_d](../slots/sockg_carbonDioxide_gC_per_ha_per_d.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 107150 |
+| [sockg_soilTemperatureSd_degC](../slots/sockg_soilTemperatureSd_degC.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 6403 |
+| [sockg_carbonDioxideSd_gC_per_ha_per_d](../slots/sockg_carbonDioxideSd_gC_per_ha_per_d.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 101109 |
 | [sockg_chamberPlacement](../slots/sockg_chamberPlacement.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 103543 |
-| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 107354 |
-| [sockg_isCarbonDioxideInterpolated](../slots/sockg_isCarbonDioxideInterpolated.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot (predicate) description specified <br/>  | direct | 107354 |
-| [sockg_soilTemperatureSd_degC](../slots/sockg_soilTemperatureSd_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 6403 |
+| [sockg_carbonDioxide_gC_per_ha_per_d](../slots/sockg_carbonDioxide_gC_per_ha_per_d.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 107150 |
+| [sockg_airTemperature_degC](../slots/sockg_airTemperature_degC.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 107350 |
+| [sockg_isCarbonDioxideInterpolated](../slots/sockg_isCarbonDioxideInterpolated.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[Int32](../types/Int32.md) | No slot (predicate) description specified <br/>  | direct | 107354 |
+| [sockg_methaneSd_gC_per_ha_per_d](../slots/sockg_methaneSd_gC_per_ha_per_d.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 101109 |
 | [sockg_soilMoisture_percent_volume](../slots/sockg_soilMoisture_percent_volume.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 107000 |
+| [sockg_time](../slots/sockg_time.md) | 0..1 <br/> [xsd:time](http://www.w3.org/2001/XMLSchema#time)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 5471 |
+| [sockg_isNitrousOxideInterpolated](../slots/sockg_isNitrousOxideInterpolated.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[Int32](../types/Int32.md) | No slot (predicate) description specified <br/>  | direct | 107354 |
+| [sockg_airTemperatureSd_degC](../slots/sockg_airTemperatureSd_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 6790 |
+| [sockg_soilTemperature_degC](../slots/sockg_soilTemperature_degC.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 107352 |
 | [sockg_soilMoistureDepth_cm](../slots/sockg_soilMoistureDepth_cm.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot (predicate) description specified <br/>  | direct | 107354 |
-| [sockg_isNitrousOxideInterpolated](../slots/sockg_isNitrousOxideInterpolated.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot (predicate) description specified <br/>  | direct | 107354 |
-| [sockg_soilMoistureSd_percent_volume](../slots/sockg_soilMoistureSd_percent_volume.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 5038 |
+| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot (predicate) description specified <br/>  | direct | 107354 |
+| [sockg_isMethaneInterpolated](../slots/sockg_isMethaneInterpolated.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[Int32](../types/Int32.md) | No slot (predicate) description specified <br/>  | direct | 107354 |
+| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot (predicate) description specified <br/>  | direct | 107354 |
 | [sockg_measGHGFlux_UID](../slots/sockg_measGHGFlux_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 107354 |
-| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 107354 |
+| [sockg_nitrousOxideSd_gN_per_ha_per_d](../slots/sockg_nitrousOxideSd_gN_per_ha_per_d.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 101109 |
+| [sockg_methane_gC_per_ha_per_d](../slots/sockg_methane_gC_per_ha_per_d.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 107090 |
+| [sockg_soilMoistureSd_percent_volume](../slots/sockg_soilMoistureSd_percent_volume.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 5038 |
 | [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 107354 |
-| [sockg_airTemperature_degC](../slots/sockg_airTemperature_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 107350 |
-| [sockg_isMethaneInterpolated](../slots/sockg_isMethaneInterpolated.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot (predicate) description specified <br/>  | direct | 107354 |
-| [sockg_soilTemperature_degC](../slots/sockg_soilTemperature_degC.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 107352 |
+| [sockg_nitrousOxide_gN_per_ha_per_d](../slots/sockg_nitrousOxide_gN_per_ha_per_d.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 107095 |
 
 
 
@@ -277,20 +277,20 @@ URI: [sockg:GasSample](https://idir.uta.edu/sockg-ontology/docs/GasSample)
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
 | [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | [sockg_hasGasSample](../slots/sockg_hasGasSample.md) | range | [SockgGasSample](../classes/SockgGasSample.md) |
+| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_soilTemperatureSd_degC](../slots/sockg_soilTemperatureSd_degC.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
+| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_carbonDioxideSd_gC_per_ha_per_d](../slots/sockg_carbonDioxideSd_gC_per_ha_per_d.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
+| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_chamberPlacement](../slots/sockg_chamberPlacement.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
+| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_carbonDioxide_gC_per_ha_per_d](../slots/sockg_carbonDioxide_gC_per_ha_per_d.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
+| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_airTemperature_degC](../slots/sockg_airTemperature_degC.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
+| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_isCarbonDioxideInterpolated](../slots/sockg_isCarbonDioxideInterpolated.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
+| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_methaneSd_gC_per_ha_per_d](../slots/sockg_methaneSd_gC_per_ha_per_d.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
+| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_isNitrousOxideInterpolated](../slots/sockg_isNitrousOxideInterpolated.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
+| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_soilTemperature_degC](../slots/sockg_soilTemperature_degC.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
+| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_isMethaneInterpolated](../slots/sockg_isMethaneInterpolated.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
+| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_measGHGFlux_UID](../slots/sockg_measGHGFlux_UID.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
 | [SockgGasSample](../classes/SockgGasSample.md) | [sockg_nitrousOxideSd_gN_per_ha_per_d](../slots/sockg_nitrousOxideSd_gN_per_ha_per_d.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
 | [SockgGasSample](../classes/SockgGasSample.md) | [sockg_methane_gC_per_ha_per_d](../slots/sockg_methane_gC_per_ha_per_d.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
-| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_methaneSd_gC_per_ha_per_d](../slots/sockg_methaneSd_gC_per_ha_per_d.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
-| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_carbonDioxideSd_gC_per_ha_per_d](../slots/sockg_carbonDioxideSd_gC_per_ha_per_d.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
 | [SockgGasSample](../classes/SockgGasSample.md) | [sockg_nitrousOxide_gN_per_ha_per_d](../slots/sockg_nitrousOxide_gN_per_ha_per_d.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
-| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_carbonDioxide_gC_per_ha_per_d](../slots/sockg_carbonDioxide_gC_per_ha_per_d.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
-| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_chamberPlacement](../slots/sockg_chamberPlacement.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
-| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_isCarbonDioxideInterpolated](../slots/sockg_isCarbonDioxideInterpolated.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
-| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_soilTemperatureSd_degC](../slots/sockg_soilTemperatureSd_degC.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
-| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_isNitrousOxideInterpolated](../slots/sockg_isNitrousOxideInterpolated.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
-| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_measGHGFlux_UID](../slots/sockg_measGHGFlux_UID.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
-| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_airTemperature_degC](../slots/sockg_airTemperature_degC.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
-| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_isMethaneInterpolated](../slots/sockg_isMethaneInterpolated.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
-| [SockgGasSample](../classes/SockgGasSample.md) | [sockg_soilTemperature_degC](../slots/sockg_soilTemperature_degC.md) | domain | [SockgGasSample](../classes/SockgGasSample.md) |
 
 
 
@@ -326,29 +326,29 @@ title: No class (entity type) name specified
 from_schema: soc-kg
 rank: 1000
 slots:
-- sockg_nitrousOxideSd_gN_per_ha_per_d
 - sockg_crop
-- sockg_methane_gC_per_ha_per_d
-- sockg_methaneSd_gC_per_ha_per_d
-- sockg_carbonDioxideSd_gC_per_ha_per_d
-- sockg_nitrousOxide_gN_per_ha_per_d
-- sockg_airTemperatureSd_degC
-- sockg_time
-- sockg_carbonDioxide_gC_per_ha_per_d
-- sockg_chamberPlacement
-- sockg_treatmentId
-- sockg_isCarbonDioxideInterpolated
 - sockg_soilTemperatureSd_degC
-- sockg_soilMoisture_percent_volume
-- sockg_soilMoistureDepth_cm
-- sockg_isNitrousOxideInterpolated
-- sockg_soilMoistureSd_percent_volume
-- sockg_measGHGFlux_UID
-- sockg_date
-- rdfs_seeAlso
+- sockg_carbonDioxideSd_gC_per_ha_per_d
+- sockg_chamberPlacement
+- sockg_carbonDioxide_gC_per_ha_per_d
 - sockg_airTemperature_degC
-- sockg_isMethaneInterpolated
+- sockg_isCarbonDioxideInterpolated
+- sockg_methaneSd_gC_per_ha_per_d
+- sockg_soilMoisture_percent_volume
+- sockg_time
+- sockg_isNitrousOxideInterpolated
+- sockg_airTemperatureSd_degC
 - sockg_soilTemperature_degC
+- sockg_soilMoistureDepth_cm
+- sockg_date
+- sockg_isMethaneInterpolated
+- sockg_treatmentId
+- sockg_measGHGFlux_UID
+- sockg_nitrousOxideSd_gN_per_ha_per_d
+- sockg_methane_gC_per_ha_per_d
+- sockg_soilMoistureSd_percent_volume
+- rdfs_seeAlso
+- sockg_nitrousOxide_gN_per_ha_per_d
 slot_usage:
   rdfs_seeAlso:
     name: rdfs_seeAlso
@@ -652,35 +652,6 @@ slot_usage:
         tag: string
         value: 107354
 attributes:
-  sockg_nitrousOxideSd_gN_per_ha_per_d:
-    name: sockg_nitrousOxideSd_gN_per_ha_per_d
-    annotations:
-      double:
-        tag: double
-        value: 101109
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '0.0'
-        example_object_type: double
-        example_predicate: sockg:nitrousOxideSd_gN_per_ha_per_d
-        example_subject: sockg:individuals/100000
-        example_subject_type: sockg_GasSample
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/43853
-    rank: 1000
-    domain: sockg_GasSample
-    slot_uri: sockg:nitrousOxideSd_gN_per_ha_per_d
-    alias: sockg_nitrousOxideSd_gN_per_ha_per_d
-    owner: sockg_GasSample
-    domain_of:
-    - sockg_GasSample
-    range: Any
-    any_of:
-    - range: double
-    - range: float
   sockg_crop:
     name: sockg_crop
     annotations:
@@ -798,74 +769,45 @@ attributes:
     - sockg_YieldNutrientUptake
     union_of:
     - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_BioMassEnergy''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
     - '{''domain'': ''sockg_WindErosionArea''}'
-    - '{''domain'': ''sockg_BioMassMineral''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
     - '{''domain'': ''sockg_GasNutrientLoss''}'
-    - '{''domain'': ''sockg_Tillage''}'
     - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_BioMassMineral''}'
     - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+    - '{''domain'': ''sockg_BioMassEnergy''}'
+    - '{''domain'': ''sockg_Tillage''}'
     range: string
-  sockg_methane_gC_per_ha_per_d:
-    name: sockg_methane_gC_per_ha_per_d
+  sockg_soilTemperatureSd_degC:
+    name: sockg_soilTemperatureSd_degC
     annotations:
       double:
         tag: double
-        value: 107090
+        value: 6403
     description: No slot (predicate) description specified
     title: No slot (predicate) name specified
     examples:
     - object:
-        example_object: '-2.77317'
+        example_object: '0.65'
         example_object_type: double
-        example_predicate: sockg:methane_gC_per_ha_per_d
-        example_subject: sockg:individuals/100000
+        example_predicate: sockg:soilTemperatureSd_degC
+        example_subject: sockg:individuals/114567
         example_subject_type: sockg_GasSample
     from_schema: soc-kg
     see_also:
-    - https://lod.nal.usda.gov/nalt/6475
+    - https://lod.nal.usda.gov/nalt/61641
     rank: 1000
     domain: sockg_GasSample
-    slot_uri: sockg:methane_gC_per_ha_per_d
-    alias: sockg_methane_gC_per_ha_per_d
+    slot_uri: sockg:soilTemperatureSd_degC
+    alias: sockg_soilTemperatureSd_degC
     owner: sockg_GasSample
     domain_of:
     - sockg_GasSample
     range: Any
     any_of:
-    - range: double
     - range: float
-  sockg_methaneSd_gC_per_ha_per_d:
-    name: sockg_methaneSd_gC_per_ha_per_d
-    annotations:
-      double:
-        tag: double
-        value: 101109
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '0.0'
-        example_object_type: double
-        example_predicate: sockg:methaneSd_gC_per_ha_per_d
-        example_subject: sockg:individuals/100000
-        example_subject_type: sockg_GasSample
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/6475
-    rank: 1000
-    domain: sockg_GasSample
-    slot_uri: sockg:methaneSd_gC_per_ha_per_d
-    alias: sockg_methaneSd_gC_per_ha_per_d
-    owner: sockg_GasSample
-    domain_of:
-    - sockg_GasSample
-    range: Any
-    any_of:
     - range: double
-    - range: float
   sockg_carbonDioxideSd_gC_per_ha_per_d:
     name: sockg_carbonDioxideSd_gC_per_ha_per_d
     annotations:
@@ -893,55 +835,164 @@ attributes:
     - sockg_GasSample
     range: Any
     any_of:
-    - range: double
     - range: float
-  sockg_nitrousOxide_gN_per_ha_per_d:
-    name: sockg_nitrousOxide_gN_per_ha_per_d
+    - range: double
+  sockg_chamberPlacement:
+    name: sockg_chamberPlacement
     annotations:
-      double:
-        tag: double
-        value: 107095
+      string:
+        tag: string
+        value: 103543
     description: No slot (predicate) description specified
     title: No slot (predicate) name specified
     examples:
     - object:
-        example_object: '7.497066'
+        example_object: Rangeland
+        example_object_type: string
+        example_predicate: sockg:chamberPlacement
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_GasSample
+    slot_uri: sockg:chamberPlacement
+    alias: sockg_chamberPlacement
+    owner: sockg_GasSample
+    domain_of:
+    - sockg_GasSample
+    range: string
+  sockg_carbonDioxide_gC_per_ha_per_d:
+    name: sockg_carbonDioxide_gC_per_ha_per_d
+    annotations:
+      double:
+        tag: double
+        value: 107150
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '64365.39'
         example_object_type: double
-        example_predicate: sockg:nitrousOxide_gN_per_ha_per_d
+        example_predicate: sockg:carbonDioxide_gC_per_ha_per_d
         example_subject: sockg:individuals/100000
         example_subject_type: sockg_GasSample
     from_schema: soc-kg
     see_also:
-    - https://lod.nal.usda.gov/nalt/43853
+    - https://lod.nal.usda.gov/nalt/17007
     rank: 1000
     domain: sockg_GasSample
-    slot_uri: sockg:nitrousOxide_gN_per_ha_per_d
-    alias: sockg_nitrousOxide_gN_per_ha_per_d
+    slot_uri: sockg:carbonDioxide_gC_per_ha_per_d
+    alias: sockg_carbonDioxide_gC_per_ha_per_d
     owner: sockg_GasSample
     domain_of:
     - sockg_GasSample
     range: Any
     any_of:
-    - range: double
     - range: float
-  sockg_airTemperatureSd_degC:
-    name: sockg_airTemperatureSd_degC
+    - range: double
+  sockg_airTemperature_degC:
+    name: sockg_airTemperature_degC
     annotations:
       double:
         tag: double
-        value: 6790
+        value: 107350
     description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
     examples:
     - object:
-        example_object: '0.7778175'
+        example_object: '0.0'
         example_object_type: double
-        example_predicate: sockg:airTemperatureSd_degC
-        example_subject: sockg:individuals/123531
+        example_predicate: sockg:airTemperature_degC
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/5859
+    rank: 1000
+    domain: sockg_GasSample
+    slot_uri: sockg:airTemperature_degC
+    alias: sockg_airTemperature_degC
+    owner: sockg_GasSample
+    domain_of:
+    - sockg_GasSample
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_isCarbonDioxideInterpolated:
+    name: sockg_isCarbonDioxideInterpolated
+    annotations:
+      integer:
+        tag: integer
+        value: 107354
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '1'
+        example_object_type: integer
+        example_predicate: sockg:isCarbonDioxideInterpolated
+        example_subject: sockg:individuals/100000
         example_subject_type: sockg_GasSample
     from_schema: soc-kg
     rank: 1000
-    slot_uri: sockg:airTemperatureSd_degC
-    alias: sockg_airTemperatureSd_degC
+    domain: sockg_GasSample
+    slot_uri: sockg:isCarbonDioxideInterpolated
+    alias: sockg_isCarbonDioxideInterpolated
+    owner: sockg_GasSample
+    domain_of:
+    - sockg_GasSample
+    range: Any
+    any_of:
+    - range: integer
+    - range: int32
+  sockg_methaneSd_gC_per_ha_per_d:
+    name: sockg_methaneSd_gC_per_ha_per_d
+    annotations:
+      double:
+        tag: double
+        value: 101109
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '0.0'
+        example_object_type: double
+        example_predicate: sockg:methaneSd_gC_per_ha_per_d
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/6475
+    rank: 1000
+    domain: sockg_GasSample
+    slot_uri: sockg:methaneSd_gC_per_ha_per_d
+    alias: sockg_methaneSd_gC_per_ha_per_d
+    owner: sockg_GasSample
+    domain_of:
+    - sockg_GasSample
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_soilMoisture_percent_volume:
+    name: sockg_soilMoisture_percent_volume
+    annotations:
+      double:
+        tag: double
+        value: 107000
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '22.5'
+        example_object_type: double
+        example_predicate: sockg:soilMoisture_percent_volume
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:soilMoisture_percent_volume
+    alias: sockg_soilMoisture_percent_volume
     owner: sockg_GasSample
     domain_of:
     - sockg_GasSample
@@ -970,67 +1021,334 @@ attributes:
     - sockg_GasSample
     union_of:
     - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_GasSample''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
     - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
     - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_GasSample''}'
     range: Any
     any_of:
-    - range: string
     - range: time
-  sockg_carbonDioxide_gC_per_ha_per_d:
-    name: sockg_carbonDioxide_gC_per_ha_per_d
+    - range: string
+  sockg_isNitrousOxideInterpolated:
+    name: sockg_isNitrousOxideInterpolated
     annotations:
-      double:
-        tag: double
-        value: 107150
+      integer:
+        tag: integer
+        value: 107354
     description: No slot (predicate) description specified
     title: No slot (predicate) name specified
     examples:
     - object:
-        example_object: '64365.39'
+        example_object: '1'
+        example_object_type: integer
+        example_predicate: sockg:isNitrousOxideInterpolated
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_GasSample
+    slot_uri: sockg:isNitrousOxideInterpolated
+    alias: sockg_isNitrousOxideInterpolated
+    owner: sockg_GasSample
+    domain_of:
+    - sockg_GasSample
+    range: Any
+    any_of:
+    - range: integer
+    - range: int32
+  sockg_airTemperatureSd_degC:
+    name: sockg_airTemperatureSd_degC
+    annotations:
+      double:
+        tag: double
+        value: 6790
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '0.7778175'
         example_object_type: double
-        example_predicate: sockg:carbonDioxide_gC_per_ha_per_d
+        example_predicate: sockg:airTemperatureSd_degC
+        example_subject: sockg:individuals/123531
+        example_subject_type: sockg_GasSample
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:airTemperatureSd_degC
+    alias: sockg_airTemperatureSd_degC
+    owner: sockg_GasSample
+    domain_of:
+    - sockg_GasSample
+    range: double
+  sockg_soilTemperature_degC:
+    name: sockg_soilTemperature_degC
+    annotations:
+      double:
+        tag: double
+        value: 107352
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '20.8'
+        example_object_type: double
+        example_predicate: sockg:soilTemperature_degC
         example_subject: sockg:individuals/100000
         example_subject_type: sockg_GasSample
     from_schema: soc-kg
     see_also:
-    - https://lod.nal.usda.gov/nalt/17007
+    - https://lod.nal.usda.gov/nalt/61641
     rank: 1000
     domain: sockg_GasSample
-    slot_uri: sockg:carbonDioxide_gC_per_ha_per_d
-    alias: sockg_carbonDioxide_gC_per_ha_per_d
+    slot_uri: sockg:soilTemperature_degC
+    alias: sockg_soilTemperature_degC
     owner: sockg_GasSample
     domain_of:
     - sockg_GasSample
     range: Any
     any_of:
-    - range: double
     - range: float
-  sockg_chamberPlacement:
-    name: sockg_chamberPlacement
+    - range: double
+  sockg_soilMoistureDepth_cm:
+    name: sockg_soilMoistureDepth_cm
+    annotations:
+      integer:
+        tag: integer
+        value: 107354
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '6'
+        example_object_type: integer
+        example_predicate: sockg:soilMoistureDepth_cm
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:soilMoistureDepth_cm
+    alias: sockg_soilMoistureDepth_cm
+    owner: sockg_GasSample
+    domain_of:
+    - sockg_GasSample
+    range: integer
+  sockg_date:
+    name: sockg_date
     annotations:
       string:
         tag: string
-        value: 103543
+        value: 107354
     description: No slot (predicate) description specified
     title: No slot (predicate) name specified
     examples:
     - object:
-        example_object: Rangeland
+        example_object: '2005-06-28'
         example_object_type: string
-        example_predicate: sockg:chamberPlacement
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    - object:
+        example_object: '1997-07-10'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/163960
+        example_subject_type: sockg_Grazing
+    - object:
+        example_object: '2007-11-14'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/172906
+        example_subject_type: sockg_Harvest
+    - object:
+        example_object: '2006-06-19'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
+    - object:
+        example_object: '2011-10-05'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/227674
+        example_subject_type: sockg_ResidueManagementEvent
+    - object:
+        example_object: '1994-04-11'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/235229
+        example_subject_type: sockg_SoilBiologicalSample
+    - object:
+        example_object: '2007-10-29'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/253451
+        example_subject_type: sockg_SoilChemicalSample
+    - object:
+        example_object: '2011-11-07'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/307284
+        example_subject_type: sockg_SoilCover
+    - object:
+        example_object: '2010-10-27'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/308318
+        example_subject_type: sockg_SoilPhysicalSample
+    - object:
+        example_object: '2009-10-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: '2008-09-04'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: '2018-10-04'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: '2015-10-25'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    - object:
+        example_object: '2011-08-31'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/46937
+        example_subject_type: sockg_CropGrowthStage
+    - object:
+        example_object: '2014-09-15'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: '2011-04-12'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: '2003-05-13'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: '2003-11-22'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/513777
+        example_subject_type: sockg_WeatherStation
+    - object:
+        example_object: '2008-05-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: '2001-03-15'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: '2014-11-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/302328
+    rank: 1000
+    slot_uri: sockg:date
+    alias: sockg_date
+    owner: sockg_GasSample
+    domain_of:
+    - sockg_BioMassCarbohydrate
+    - sockg_BioMassEnergy
+    - sockg_BioMassMineral
+    - sockg_CropGrowthStage
+    - sockg_GasNutrientLoss
+    - sockg_GasSample
+    - sockg_Grazing
+    - sockg_Harvest
+    - sockg_HarvestFraction
+    - sockg_NutrientEfficiency
+    - sockg_ResidueManagementEvent
+    - sockg_SoilBiologicalSample
+    - sockg_SoilChemicalSample
+    - sockg_SoilCover
+    - sockg_SoilPhysicalSample
+    - sockg_WaterQualityArea
+    - sockg_WaterQualityConc
+    - sockg_WeatherObservation
+    - sockg_WeatherStation
+    - sockg_WindErosionArea
+    - sockg_YieldNutrientUptake
+    union_of:
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_CropGrowthStage''}'
+    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+    - '{''domain'': ''sockg_Site''}'
+    - '{''domain'': ''sockg_ResidueManagementEvent''}'
+    - '{''domain'': ''sockg_GasSample''}'
+    - '{''domain'': ''sockg_PlantingEvent''}'
+    - '{''domain'': ''sockg_SoilCover''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_WeatherObservation''}'
+    - '{''domain'': ''sockg_SoilChemicalSample''}'
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_Publication''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_BioMassEnergy''}'
+    - '{''domain'': ''sockg_MiscellaneousMeasurement''}'
+    - '{''domain'': ''sockg_SoilPhysicalSample''}'
+    - '{''domain'': ''sockg_Grazing''}'
+    - '{''domain'': ''sockg_Harvest''}'
+    - '{''domain'': ''sockg_SoilBiologicalSample''}'
+    - '{''domain'': ''sockg_BioMassMineral''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_Tillage''}'
+    range: Any
+    any_of:
+    - range: string
+    - range: date
+  sockg_isMethaneInterpolated:
+    name: sockg_isMethaneInterpolated
+    annotations:
+      integer:
+        tag: integer
+        value: 107354
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '1'
+        example_object_type: integer
+        example_predicate: sockg:isMethaneInterpolated
         example_subject: sockg:individuals/100000
         example_subject_type: sockg_GasSample
     from_schema: soc-kg
     rank: 1000
     domain: sockg_GasSample
-    slot_uri: sockg:chamberPlacement
-    alias: sockg_chamberPlacement
+    slot_uri: sockg:isMethaneInterpolated
+    alias: sockg_isMethaneInterpolated
     owner: sockg_GasSample
     domain_of:
     - sockg_GasSample
-    range: string
+    range: Any
+    any_of:
+    - range: integer
+    - range: int32
   sockg_treatmentId:
     name: sockg_treatmentId
     annotations:
@@ -1201,169 +1519,26 @@ attributes:
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
     union_of:
-    - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_GrazingManagementEvent''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_SoilBiologicalSample''}'
-    - '{''domain'': ''sockg_SoilChemicalSample''}'
     - '{''domain'': ''sockg_SoilPhysicalSample''}'
-    - '{''domain'': ''sockg_HarvestFraction''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    - '{''domain'': ''sockg_ResidueManagementEvent''}'
+    - '{''domain'': ''sockg_WaterQualityArea''}'
     - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_Treatment''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_GrazingManagementEvent''}'
+    - '{''domain'': ''sockg_SoilChemicalSample''}'
     - '{''domain'': ''sockg_GasNutrientLoss''}'
     - '{''domain'': ''sockg_Amendment''}'
+    - '{''domain'': ''sockg_SoilBiologicalSample''}'
     - '{''domain'': ''sockg_YieldNutrientUptake''}'
     - '{''domain'': ''sockg_BioMassCarbohydrate''}'
-    - '{''domain'': ''sockg_Treatment''}'
+    - '{''domain'': ''sockg_HarvestFraction''}'
+    - '{''domain'': ''sockg_ResidueManagementEvent''}'
     range: Any
     any_of:
-    - range: date
+    - range: float
     - range: string
-    - range: float
-  sockg_isCarbonDioxideInterpolated:
-    name: sockg_isCarbonDioxideInterpolated
-    annotations:
-      integer:
-        tag: integer
-        value: 107354
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '1'
-        example_object_type: integer
-        example_predicate: sockg:isCarbonDioxideInterpolated
-        example_subject: sockg:individuals/100000
-        example_subject_type: sockg_GasSample
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_GasSample
-    slot_uri: sockg:isCarbonDioxideInterpolated
-    alias: sockg_isCarbonDioxideInterpolated
-    owner: sockg_GasSample
-    domain_of:
-    - sockg_GasSample
-    range: integer
-  sockg_soilTemperatureSd_degC:
-    name: sockg_soilTemperatureSd_degC
-    annotations:
-      double:
-        tag: double
-        value: 6403
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '0.65'
-        example_object_type: double
-        example_predicate: sockg:soilTemperatureSd_degC
-        example_subject: sockg:individuals/114567
-        example_subject_type: sockg_GasSample
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/61641
-    rank: 1000
-    domain: sockg_GasSample
-    slot_uri: sockg:soilTemperatureSd_degC
-    alias: sockg_soilTemperatureSd_degC
-    owner: sockg_GasSample
-    domain_of:
-    - sockg_GasSample
-    range: Any
-    any_of:
-    - range: double
-    - range: float
-  sockg_soilMoisture_percent_volume:
-    name: sockg_soilMoisture_percent_volume
-    annotations:
-      double:
-        tag: double
-        value: 107000
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: '22.5'
-        example_object_type: double
-        example_predicate: sockg:soilMoisture_percent_volume
-        example_subject: sockg:individuals/100000
-        example_subject_type: sockg_GasSample
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:soilMoisture_percent_volume
-    alias: sockg_soilMoisture_percent_volume
-    owner: sockg_GasSample
-    domain_of:
-    - sockg_GasSample
-    range: double
-  sockg_soilMoistureDepth_cm:
-    name: sockg_soilMoistureDepth_cm
-    annotations:
-      integer:
-        tag: integer
-        value: 107354
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: '6'
-        example_object_type: integer
-        example_predicate: sockg:soilMoistureDepth_cm
-        example_subject: sockg:individuals/100000
-        example_subject_type: sockg_GasSample
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:soilMoistureDepth_cm
-    alias: sockg_soilMoistureDepth_cm
-    owner: sockg_GasSample
-    domain_of:
-    - sockg_GasSample
-    range: integer
-  sockg_isNitrousOxideInterpolated:
-    name: sockg_isNitrousOxideInterpolated
-    annotations:
-      integer:
-        tag: integer
-        value: 107354
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '1'
-        example_object_type: integer
-        example_predicate: sockg:isNitrousOxideInterpolated
-        example_subject: sockg:individuals/100000
-        example_subject_type: sockg_GasSample
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_GasSample
-    slot_uri: sockg:isNitrousOxideInterpolated
-    alias: sockg_isNitrousOxideInterpolated
-    owner: sockg_GasSample
-    domain_of:
-    - sockg_GasSample
-    range: integer
-  sockg_soilMoistureSd_percent_volume:
-    name: sockg_soilMoistureSd_percent_volume
-    annotations:
-      double:
-        tag: double
-        value: 5038
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: '4.24'
-        example_object_type: double
-        example_predicate: sockg:soilMoistureSd_percent_volume
-        example_subject: sockg:individuals/114567
-        example_subject_type: sockg_GasSample
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:soilMoistureSd_percent_volume
-    alias: sockg_soilMoistureSd_percent_volume
-    owner: sockg_GasSample
-    domain_of:
-    - sockg_GasSample
-    range: double
+    - range: date
   sockg_measGHGFlux_UID:
     name: sockg_measGHGFlux_UID
     annotations:
@@ -1388,199 +1563,86 @@ attributes:
     domain_of:
     - sockg_GasSample
     range: string
-  sockg_date:
-    name: sockg_date
+  sockg_nitrousOxideSd_gN_per_ha_per_d:
+    name: sockg_nitrousOxideSd_gN_per_ha_per_d
     annotations:
-      string:
-        tag: string
-        value: 107354
+      double:
+        tag: double
+        value: 101109
     description: No slot (predicate) description specified
     title: No slot (predicate) name specified
     examples:
     - object:
-        example_object: '2005-06-28'
-        example_object_type: string
-        example_predicate: sockg:date
+        example_object: '0.0'
+        example_object_type: double
+        example_predicate: sockg:nitrousOxideSd_gN_per_ha_per_d
         example_subject: sockg:individuals/100000
         example_subject_type: sockg_GasSample
-    - object:
-        example_object: '1997-07-10'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/163960
-        example_subject_type: sockg_Grazing
-    - object:
-        example_object: '2007-11-14'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/172906
-        example_subject_type: sockg_Harvest
-    - object:
-        example_object: '2006-06-19'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/191262
-        example_subject_type: sockg_HarvestFraction
-    - object:
-        example_object: '2011-10-05'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/227674
-        example_subject_type: sockg_ResidueManagementEvent
-    - object:
-        example_object: '1994-04-11'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/235229
-        example_subject_type: sockg_SoilBiologicalSample
-    - object:
-        example_object: '2007-10-29'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/253451
-        example_subject_type: sockg_SoilChemicalSample
-    - object:
-        example_object: '2011-11-07'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/307284
-        example_subject_type: sockg_SoilCover
-    - object:
-        example_object: '2010-10-27'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/308318
-        example_subject_type: sockg_SoilPhysicalSample
-    - object:
-        example_object: '2009-10-01'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/37796
-        example_subject_type: sockg_BioMassCarbohydrate
-    - object:
-        example_object: '2008-09-04'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/39163
-        example_subject_type: sockg_BioMassEnergy
-    - object:
-        example_object: '2018-10-04'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/39962
-        example_subject_type: sockg_BioMassMineral
-    - object:
-        example_object: '2015-10-25'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/439235
-        example_subject_type: sockg_WeatherObservation
-    - object:
-        example_object: '2011-08-31'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/46937
-        example_subject_type: sockg_CropGrowthStage
-    - object:
-        example_object: '2014-09-15'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/200732
-        example_subject_type: sockg_NutrientEfficiency
-    - object:
-        example_object: '2011-04-12'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/364326
-        example_subject_type: sockg_WaterQualityArea
-    - object:
-        example_object: '2003-05-13'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/364993
-        example_subject_type: sockg_WaterQualityConc
-    - object:
-        example_object: '2003-11-22'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/513777
-        example_subject_type: sockg_WeatherStation
-    - object:
-        example_object: '2008-05-01'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/55858
-        example_subject_type: sockg_GasNutrientLoss
-    - object:
-        example_object: '2001-03-15'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/624572
-        example_subject_type: sockg_WindErosionArea
-    - object:
-        example_object: '2014-11-01'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/624587
-        example_subject_type: sockg_YieldNutrientUptake
     from_schema: soc-kg
     see_also:
-    - https://lod.nal.usda.gov/nalt/302328
+    - https://lod.nal.usda.gov/nalt/43853
     rank: 1000
-    slot_uri: sockg:date
-    alias: sockg_date
+    domain: sockg_GasSample
+    slot_uri: sockg:nitrousOxideSd_gN_per_ha_per_d
+    alias: sockg_nitrousOxideSd_gN_per_ha_per_d
     owner: sockg_GasSample
     domain_of:
-    - sockg_BioMassCarbohydrate
-    - sockg_BioMassEnergy
-    - sockg_BioMassMineral
-    - sockg_CropGrowthStage
-    - sockg_GasNutrientLoss
     - sockg_GasSample
-    - sockg_Grazing
-    - sockg_Harvest
-    - sockg_HarvestFraction
-    - sockg_NutrientEfficiency
-    - sockg_ResidueManagementEvent
-    - sockg_SoilBiologicalSample
-    - sockg_SoilChemicalSample
-    - sockg_SoilCover
-    - sockg_SoilPhysicalSample
-    - sockg_WaterQualityArea
-    - sockg_WaterQualityConc
-    - sockg_WeatherObservation
-    - sockg_WeatherStation
-    - sockg_WindErosionArea
-    - sockg_YieldNutrientUptake
-    union_of:
-    - '{''domain'': ''sockg_PlantingEvent''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    - '{''domain'': ''sockg_BioMassMineral''}'
-    - '{''domain'': ''sockg_Tillage''}'
-    - '{''domain'': ''sockg_Publication''}'
-    - '{''domain'': ''sockg_CropGrowthStage''}'
-    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
-    - '{''domain'': ''sockg_Site''}'
-    - '{''domain'': ''sockg_SoilBiologicalSample''}'
-    - '{''domain'': ''sockg_GasSample''}'
-    - '{''domain'': ''sockg_SoilCover''}'
-    - '{''domain'': ''sockg_SoilChemicalSample''}'
-    - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_WindErosionArea''}'
-    - '{''domain'': ''sockg_Grazing''}'
-    - '{''domain'': ''sockg_YieldNutrientUptake''}'
-    - '{''domain'': ''sockg_MiscellaneousMeasurement''}'
-    - '{''domain'': ''sockg_SoilPhysicalSample''}'
-    - '{''domain'': ''sockg_BioMassEnergy''}'
-    - '{''domain'': ''sockg_Harvest''}'
-    - '{''domain'': ''sockg_ResidueManagementEvent''}'
-    - '{''domain'': ''sockg_GasNutrientLoss''}'
-    - '{''domain'': ''sockg_WeatherObservation''}'
     range: Any
     any_of:
-    - range: date
-    - range: string
+    - range: float
+    - range: double
+  sockg_methane_gC_per_ha_per_d:
+    name: sockg_methane_gC_per_ha_per_d
+    annotations:
+      double:
+        tag: double
+        value: 107090
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '-2.77317'
+        example_object_type: double
+        example_predicate: sockg:methane_gC_per_ha_per_d
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/6475
+    rank: 1000
+    domain: sockg_GasSample
+    slot_uri: sockg:methane_gC_per_ha_per_d
+    alias: sockg_methane_gC_per_ha_per_d
+    owner: sockg_GasSample
+    domain_of:
+    - sockg_GasSample
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_soilMoistureSd_percent_volume:
+    name: sockg_soilMoistureSd_percent_volume
+    annotations:
+      double:
+        tag: double
+        value: 5038
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '4.24'
+        example_object_type: double
+        example_predicate: sockg:soilMoistureSd_percent_volume
+        example_subject: sockg:individuals/114567
+        example_subject_type: sockg_GasSample
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:soilMoistureSd_percent_volume
+    alias: sockg_soilMoistureSd_percent_volume
+    owner: sockg_GasSample
+    domain_of:
+    - sockg_GasSample
+    range: double
   rdfs_seeAlso:
     name: rdfs_seeAlso
     annotations:
@@ -1883,88 +1945,35 @@ attributes:
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
     range: uri
-  sockg_airTemperature_degC:
-    name: sockg_airTemperature_degC
+  sockg_nitrousOxide_gN_per_ha_per_d:
+    name: sockg_nitrousOxide_gN_per_ha_per_d
     annotations:
       double:
         tag: double
-        value: 107350
+        value: 107095
     description: No slot (predicate) description specified
     title: No slot (predicate) name specified
     examples:
     - object:
-        example_object: '0.0'
+        example_object: '7.497066'
         example_object_type: double
-        example_predicate: sockg:airTemperature_degC
+        example_predicate: sockg:nitrousOxide_gN_per_ha_per_d
         example_subject: sockg:individuals/100000
         example_subject_type: sockg_GasSample
     from_schema: soc-kg
     see_also:
-    - https://lod.nal.usda.gov/nalt/5859
+    - https://lod.nal.usda.gov/nalt/43853
     rank: 1000
     domain: sockg_GasSample
-    slot_uri: sockg:airTemperature_degC
-    alias: sockg_airTemperature_degC
+    slot_uri: sockg:nitrousOxide_gN_per_ha_per_d
+    alias: sockg_nitrousOxide_gN_per_ha_per_d
     owner: sockg_GasSample
     domain_of:
     - sockg_GasSample
     range: Any
     any_of:
-    - range: double
     - range: float
-  sockg_isMethaneInterpolated:
-    name: sockg_isMethaneInterpolated
-    annotations:
-      integer:
-        tag: integer
-        value: 107354
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '1'
-        example_object_type: integer
-        example_predicate: sockg:isMethaneInterpolated
-        example_subject: sockg:individuals/100000
-        example_subject_type: sockg_GasSample
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_GasSample
-    slot_uri: sockg:isMethaneInterpolated
-    alias: sockg_isMethaneInterpolated
-    owner: sockg_GasSample
-    domain_of:
-    - sockg_GasSample
-    range: integer
-  sockg_soilTemperature_degC:
-    name: sockg_soilTemperature_degC
-    annotations:
-      double:
-        tag: double
-        value: 107352
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '20.8'
-        example_object_type: double
-        example_predicate: sockg:soilTemperature_degC
-        example_subject: sockg:individuals/100000
-        example_subject_type: sockg_GasSample
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/61641
-    rank: 1000
-    domain: sockg_GasSample
-    slot_uri: sockg:soilTemperature_degC
-    alias: sockg_soilTemperature_degC
-    owner: sockg_GasSample
-    domain_of:
-    - sockg_GasSample
-    range: Any
-    any_of:
     - range: double
-    - range: float
 class_uri: sockg:GasSample
 
 ```

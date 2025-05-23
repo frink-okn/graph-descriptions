@@ -91,12 +91,12 @@ URI: [sockg:Experiment](https://idir.uta.edu/sockg-ontology/docs/Experiment)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 55 |
-| [sockg_hasTreatment](../slots/sockg_hasTreatment.md) | 0..1 <br/> [SockgTreatment](../classes/SockgTreatment.md) | No slot (predicate) description specified <br/>  | direct | 741 |
-| [sockg_endDate](../slots/sockg_endDate.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 55 |
-| [sockg_experimentName](../slots/sockg_experimentName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 55 |
 | [sockg_projectName](../slots/sockg_projectName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 55 |
-| [sockg_startDate](../slots/sockg_startDate.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 55 |
+| [sockg_hasTreatment](../slots/sockg_hasTreatment.md) | 0..1 <br/> [SockgTreatment](../classes/SockgTreatment.md) | No slot (predicate) description specified <br/>  | direct | 741 |
+| [sockg_startDate](../slots/sockg_startDate.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot (predicate) description specified <br/>  | direct | 55 |
+| [sockg_experimentName](../slots/sockg_experimentName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 55 |
+| [sockg_endDate](../slots/sockg_endDate.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot (predicate) description specified <br/>  | direct | 55 |
+| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 55 |
 
 
 
@@ -144,12 +144,12 @@ title: No class (entity type) name specified
 from_schema: soc-kg
 rank: 1000
 slots:
-- rdfs_seeAlso
-- sockg_hasTreatment
-- sockg_endDate
-- sockg_experimentName
 - sockg_projectName
+- sockg_hasTreatment
 - sockg_startDate
+- sockg_experimentName
+- sockg_endDate
+- rdfs_seeAlso
 slot_usage:
   rdfs_seeAlso:
     name: rdfs_seeAlso
@@ -249,6 +249,205 @@ slot_usage:
         tag: string
         value: 55
 attributes:
+  sockg_projectName:
+    name: sockg_projectName
+    annotations:
+      string:
+        tag: string
+        value: 55
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: GRACEnet
+        example_object_type: string
+        example_predicate: sockg:projectName
+        example_subject: sockg:individuals/51906
+        example_subject_type: sockg_Experiment
+    - object:
+        example_object: GRACEnet
+        example_object_type: string
+        example_predicate: sockg:projectName
+        example_subject: sockg:individuals/227438
+        example_subject_type: sockg_Project
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/61097
+    rank: 1000
+    slot_uri: sockg:projectName
+    alias: sockg_projectName
+    owner: sockg_Experiment
+    domain_of:
+    - sockg_Experiment
+    - sockg_Project
+    union_of:
+    - '{''domain'': ''sockg_Experiment''}'
+    - '{''domain'': ''sockg_Project''}'
+    range: string
+  sockg_hasTreatment:
+    name: sockg_hasTreatment
+    annotations:
+      sockg_Treatment:
+        tag: sockg_Treatment
+        value: 741
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/363836
+        example_object_type: sockg_Treatment
+        example_predicate: sockg:hasTreatment
+        example_subject: sockg:individuals/51906
+        example_subject_type: sockg_Experiment
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Experiment
+    slot_uri: sockg:hasTreatment
+    alias: sockg_hasTreatment
+    owner: sockg_Experiment
+    domain_of:
+    - sockg_Experiment
+    range: sockg_Treatment
+  sockg_startDate:
+    name: sockg_startDate
+    annotations:
+      string:
+        tag: string
+        value: 55
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '2012-06-05'
+        example_object_type: string
+        example_predicate: sockg:startDate
+        example_subject: sockg:individuals/0
+        example_subject_type: sockg_Amendment
+    - object:
+        example_object: '2006-05-08'
+        example_object_type: string
+        example_predicate: sockg:startDate
+        example_subject: sockg:individuals/170955
+        example_subject_type: sockg_GrazingManagementEvent
+    - object:
+        example_object: '1987-04-30'
+        example_object_type: string
+        example_predicate: sockg:startDate
+        example_subject: sockg:individuals/336419
+        example_subject_type: sockg_Tillage
+    - object:
+        example_object: '2007-04-01'
+        example_object_type: string
+        example_predicate: sockg:startDate
+        example_subject: sockg:individuals/51906
+        example_subject_type: sockg_Experiment
+    - object:
+        example_object: '2009-01-01'
+        example_object_type: string
+        example_predicate: sockg:startDate
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    - object:
+        example_object: '2004-11-04'
+        example_object_type: string
+        example_predicate: sockg:startDate
+        example_subject: sockg:individuals/203988
+        example_subject_type: sockg_PlantingEvent
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/9183
+    rank: 1000
+    slot_uri: sockg:startDate
+    alias: sockg_startDate
+    owner: sockg_Experiment
+    domain_of:
+    - sockg_Amendment
+    - sockg_Experiment
+    - sockg_ExperimentalUnit
+    - sockg_GrazingManagementEvent
+    - sockg_PlantingEvent
+    - sockg_Tillage
+    union_of:
+    - '{''domain'': ''sockg_WeatherStation''}'
+    - '{''domain'': ''sockg_GrazingManagementEvent''}'
+    - '{''domain'': ''sockg_ExperimentalUnit''}'
+    - '{''domain'': ''sockg_Amendment''}'
+    - '{''domain'': ''sockg_Experiment''}'
+    range: Any
+    any_of:
+    - range: string
+    - range: date
+  sockg_experimentName:
+    name: sockg_experimentName
+    annotations:
+      string:
+        tag: string
+        value: 55
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: GRACEnet
+        example_object_type: string
+        example_predicate: sockg:experimentName
+        example_subject: sockg:individuals/51906
+        example_subject_type: sockg_Experiment
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Experiment
+    slot_uri: sockg:experimentName
+    alias: sockg_experimentName
+    owner: sockg_Experiment
+    domain_of:
+    - sockg_Experiment
+    range: string
+  sockg_endDate:
+    name: sockg_endDate
+    annotations:
+      string:
+        tag: string
+        value: 55
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '2006-05-12'
+        example_object_type: string
+        example_predicate: sockg:endDate
+        example_subject: sockg:individuals/170955
+        example_subject_type: sockg_GrazingManagementEvent
+    - object:
+        example_object: '2016-11-01'
+        example_object_type: string
+        example_predicate: sockg:endDate
+        example_subject: sockg:individuals/51906
+        example_subject_type: sockg_Experiment
+    - object:
+        example_object: '2011-12-31'
+        example_object_type: string
+        example_predicate: sockg:endDate
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/9183
+    rank: 1000
+    slot_uri: sockg:endDate
+    alias: sockg_endDate
+    owner: sockg_Experiment
+    domain_of:
+    - sockg_Experiment
+    - sockg_ExperimentalUnit
+    - sockg_GrazingManagementEvent
+    union_of:
+    - '{''domain'': ''sockg_Amendment''}'
+    - '{''domain'': ''sockg_Experiment''}'
+    - '{''domain'': ''sockg_GrazingManagementEvent''}'
+    - '{''domain'': ''sockg_ExperimentalUnit''}'
+    range: Any
+    any_of:
+    - range: string
+    - range: date
   rdfs_seeAlso:
     name: rdfs_seeAlso
     annotations:
@@ -551,205 +750,6 @@ attributes:
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
     range: uri
-  sockg_hasTreatment:
-    name: sockg_hasTreatment
-    annotations:
-      sockg_Treatment:
-        tag: sockg_Treatment
-        value: 741
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: sockg:individuals/363836
-        example_object_type: sockg_Treatment
-        example_predicate: sockg:hasTreatment
-        example_subject: sockg:individuals/51906
-        example_subject_type: sockg_Experiment
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_Experiment
-    slot_uri: sockg:hasTreatment
-    alias: sockg_hasTreatment
-    owner: sockg_Experiment
-    domain_of:
-    - sockg_Experiment
-    range: sockg_Treatment
-  sockg_endDate:
-    name: sockg_endDate
-    annotations:
-      string:
-        tag: string
-        value: 55
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '2006-05-12'
-        example_object_type: string
-        example_predicate: sockg:endDate
-        example_subject: sockg:individuals/170955
-        example_subject_type: sockg_GrazingManagementEvent
-    - object:
-        example_object: '2016-11-01'
-        example_object_type: string
-        example_predicate: sockg:endDate
-        example_subject: sockg:individuals/51906
-        example_subject_type: sockg_Experiment
-    - object:
-        example_object: '2011-12-31'
-        example_object_type: string
-        example_predicate: sockg:endDate
-        example_subject: sockg:individuals/51937
-        example_subject_type: sockg_ExperimentalUnit
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/9183
-    rank: 1000
-    slot_uri: sockg:endDate
-    alias: sockg_endDate
-    owner: sockg_Experiment
-    domain_of:
-    - sockg_Experiment
-    - sockg_ExperimentalUnit
-    - sockg_GrazingManagementEvent
-    union_of:
-    - '{''domain'': ''sockg_Amendment''}'
-    - '{''domain'': ''sockg_ExperimentalUnit''}'
-    - '{''domain'': ''sockg_GrazingManagementEvent''}'
-    - '{''domain'': ''sockg_Experiment''}'
-    range: Any
-    any_of:
-    - range: date
-    - range: string
-  sockg_experimentName:
-    name: sockg_experimentName
-    annotations:
-      string:
-        tag: string
-        value: 55
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: GRACEnet
-        example_object_type: string
-        example_predicate: sockg:experimentName
-        example_subject: sockg:individuals/51906
-        example_subject_type: sockg_Experiment
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_Experiment
-    slot_uri: sockg:experimentName
-    alias: sockg_experimentName
-    owner: sockg_Experiment
-    domain_of:
-    - sockg_Experiment
-    range: string
-  sockg_projectName:
-    name: sockg_projectName
-    annotations:
-      string:
-        tag: string
-        value: 55
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: GRACEnet
-        example_object_type: string
-        example_predicate: sockg:projectName
-        example_subject: sockg:individuals/51906
-        example_subject_type: sockg_Experiment
-    - object:
-        example_object: GRACEnet
-        example_object_type: string
-        example_predicate: sockg:projectName
-        example_subject: sockg:individuals/227438
-        example_subject_type: sockg_Project
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/61097
-    rank: 1000
-    slot_uri: sockg:projectName
-    alias: sockg_projectName
-    owner: sockg_Experiment
-    domain_of:
-    - sockg_Experiment
-    - sockg_Project
-    union_of:
-    - '{''domain'': ''sockg_Project''}'
-    - '{''domain'': ''sockg_Experiment''}'
-    range: string
-  sockg_startDate:
-    name: sockg_startDate
-    annotations:
-      string:
-        tag: string
-        value: 55
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '2012-06-05'
-        example_object_type: string
-        example_predicate: sockg:startDate
-        example_subject: sockg:individuals/0
-        example_subject_type: sockg_Amendment
-    - object:
-        example_object: '2006-05-08'
-        example_object_type: string
-        example_predicate: sockg:startDate
-        example_subject: sockg:individuals/170955
-        example_subject_type: sockg_GrazingManagementEvent
-    - object:
-        example_object: '1987-04-30'
-        example_object_type: string
-        example_predicate: sockg:startDate
-        example_subject: sockg:individuals/336419
-        example_subject_type: sockg_Tillage
-    - object:
-        example_object: '2007-04-01'
-        example_object_type: string
-        example_predicate: sockg:startDate
-        example_subject: sockg:individuals/51906
-        example_subject_type: sockg_Experiment
-    - object:
-        example_object: '2009-01-01'
-        example_object_type: string
-        example_predicate: sockg:startDate
-        example_subject: sockg:individuals/51937
-        example_subject_type: sockg_ExperimentalUnit
-    - object:
-        example_object: '2004-11-04'
-        example_object_type: string
-        example_predicate: sockg:startDate
-        example_subject: sockg:individuals/203988
-        example_subject_type: sockg_PlantingEvent
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/9183
-    rank: 1000
-    slot_uri: sockg:startDate
-    alias: sockg_startDate
-    owner: sockg_Experiment
-    domain_of:
-    - sockg_Amendment
-    - sockg_Experiment
-    - sockg_ExperimentalUnit
-    - sockg_GrazingManagementEvent
-    - sockg_PlantingEvent
-    - sockg_Tillage
-    union_of:
-    - '{''domain'': ''sockg_ExperimentalUnit''}'
-    - '{''domain'': ''sockg_GrazingManagementEvent''}'
-    - '{''domain'': ''sockg_WeatherStation''}'
-    - '{''domain'': ''sockg_Experiment''}'
-    - '{''domain'': ''sockg_Amendment''}'
-    range: Any
-    any_of:
-    - range: date
-    - range: string
 class_uri: sockg:Experiment
 
 ```

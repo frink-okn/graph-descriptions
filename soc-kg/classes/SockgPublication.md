@@ -127,16 +127,16 @@ URI: [sockg:Publication](https://idir.uta.edu/sockg-ontology/docs/Publication)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
+| [sockg_description](../slots/sockg_description.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 53 |
+| [sockg_citationType](../slots/sockg_citationType.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 153 |
+| [sockg_citation](../slots/sockg_citation.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 162 |
+| [sockg_identifier](../slots/sockg_identifier.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 114 |
+| [sockg_publicationDate](../slots/sockg_publicationDate.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 162 |
+| [sockg_author](../slots/sockg_author.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 158 |
+| [sockg_studiesSite](../slots/sockg_studiesSite.md) | 0..1 <br/> [SockgSite](../classes/SockgSite.md) | No slot (predicate) description specified <br/>  | direct | 123 |
 | [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 162 |
 | [sockg_correspondingAuthor](../slots/sockg_correspondingAuthor.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 126 |
 | [sockg_title](../slots/sockg_title.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 136 |
-| [sockg_citationType](../slots/sockg_citationType.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 153 |
-| [sockg_description](../slots/sockg_description.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 53 |
-| [sockg_citation](../slots/sockg_citation.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 162 |
-| [sockg_publicationDate](../slots/sockg_publicationDate.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 162 |
-| [sockg_studiesSite](../slots/sockg_studiesSite.md) | 0..1 <br/> [SockgSite](../classes/SockgSite.md) | No slot (predicate) description specified <br/>  | direct | 123 |
-| [sockg_author](../slots/sockg_author.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 158 |
-| [sockg_identifier](../slots/sockg_identifier.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 114 |
 
 
 
@@ -146,12 +146,12 @@ URI: [sockg:Publication](https://idir.uta.edu/sockg-ontology/docs/Publication)
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
+| [SockgPublication](../classes/SockgPublication.md) | [sockg_citation](../slots/sockg_citation.md) | domain | [SockgPublication](../classes/SockgPublication.md) |
+| [SockgPublication](../classes/SockgPublication.md) | [sockg_identifier](../slots/sockg_identifier.md) | domain | [SockgPublication](../classes/SockgPublication.md) |
+| [SockgPublication](../classes/SockgPublication.md) | [sockg_author](../slots/sockg_author.md) | domain | [SockgPublication](../classes/SockgPublication.md) |
+| [SockgPublication](../classes/SockgPublication.md) | [sockg_studiesSite](../slots/sockg_studiesSite.md) | domain | [SockgPublication](../classes/SockgPublication.md) |
 | [SockgPublication](../classes/SockgPublication.md) | [sockg_correspondingAuthor](../slots/sockg_correspondingAuthor.md) | domain | [SockgPublication](../classes/SockgPublication.md) |
 | [SockgPublication](../classes/SockgPublication.md) | [sockg_title](../slots/sockg_title.md) | domain | [SockgPublication](../classes/SockgPublication.md) |
-| [SockgPublication](../classes/SockgPublication.md) | [sockg_citation](../slots/sockg_citation.md) | domain | [SockgPublication](../classes/SockgPublication.md) |
-| [SockgPublication](../classes/SockgPublication.md) | [sockg_studiesSite](../slots/sockg_studiesSite.md) | domain | [SockgPublication](../classes/SockgPublication.md) |
-| [SockgPublication](../classes/SockgPublication.md) | [sockg_author](../slots/sockg_author.md) | domain | [SockgPublication](../classes/SockgPublication.md) |
-| [SockgPublication](../classes/SockgPublication.md) | [sockg_identifier](../slots/sockg_identifier.md) | domain | [SockgPublication](../classes/SockgPublication.md) |
 
 
 
@@ -192,16 +192,16 @@ see_also:
 - https://lod.nal.usda.gov/nalt/892
 rank: 1000
 slots:
+- sockg_description
+- sockg_citationType
+- sockg_citation
+- sockg_identifier
+- sockg_publicationDate
+- sockg_author
+- sockg_studiesSite
 - rdfs_seeAlso
 - sockg_correspondingAuthor
 - sockg_title
-- sockg_citationType
-- sockg_description
-- sockg_citation
-- sockg_publicationDate
-- sockg_studiesSite
-- sockg_author
-- sockg_identifier
 slot_usage:
   rdfs_seeAlso:
     name: rdfs_seeAlso
@@ -350,6 +350,176 @@ slot_usage:
         tag: string
         value: 136
 attributes:
+  sockg_description:
+    name: sockg_description
+    annotations:
+      string:
+        tag: string
+        value: 53
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: N2O
+        example_object_type: string
+        example_predicate: sockg:description
+        example_subject: sockg:individuals/227450
+        example_subject_type: sockg_Publication
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/2179
+    rank: 1000
+    domain: sockg_MiscellaneousMeasurement
+    slot_uri: sockg:description
+    alias: sockg_description
+    owner: sockg_Publication
+    domain_of:
+    - sockg_Publication
+    range: string
+  sockg_citationType:
+    name: sockg_citationType
+    annotations:
+      string:
+        tag: string
+        value: 153
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: Journal article about data
+        example_object_type: string
+        example_predicate: sockg:citationType
+        example_subject: sockg:individuals/227449
+        example_subject_type: sockg_Publication
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:citationType
+    alias: sockg_citationType
+    owner: sockg_Publication
+    domain_of:
+    - sockg_Publication
+    range: string
+  sockg_citation:
+    name: sockg_citation
+    annotations:
+      string:
+        tag: string
+        value: 162
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: Franzluebbers AJ, Stuedemann JA. 2005. Bermudagrass management
+          in the Southern Piedmont USA. VII. Soil-profile organic carbon and total
+          nitrogen. Soil Science Society of America Journal 69, 1455-1462.
+        example_object_type: string
+        example_predicate: sockg:citation
+        example_subject: sockg:individuals/227447
+        example_subject_type: sockg_Publication
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/305490
+    rank: 1000
+    domain: sockg_Publication
+    slot_uri: sockg:citation
+    alias: sockg_citation
+    owner: sockg_Publication
+    domain_of:
+    - sockg_Publication
+    range: string
+  sockg_identifier:
+    name: sockg_identifier
+    annotations:
+      string:
+        tag: string
+        value: 114
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: https://www.soils.org/publications/sssaj
+        example_object_type: string
+        example_predicate: sockg:identifier
+        example_subject: sockg:individuals/227447
+        example_subject_type: sockg_Publication
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Publication
+    slot_uri: sockg:identifier
+    alias: sockg_identifier
+    owner: sockg_Publication
+    domain_of:
+    - sockg_Publication
+    range: string
+  sockg_publicationDate:
+    name: sockg_publicationDate
+    annotations:
+      string:
+        tag: string
+        value: 162
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '2005-01-01'
+        example_object_type: string
+        example_predicate: sockg:publicationDate
+        example_subject: sockg:individuals/227447
+        example_subject_type: sockg_Publication
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:publicationDate
+    alias: sockg_publicationDate
+    owner: sockg_Publication
+    domain_of:
+    - sockg_Publication
+    range: string
+  sockg_author:
+    name: sockg_author
+    annotations:
+      string:
+        tag: string
+        value: 158
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: Franzluebbers
+        example_object_type: string
+        example_predicate: sockg:author
+        example_subject: sockg:individuals/227447
+        example_subject_type: sockg_Publication
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Publication
+    slot_uri: sockg:author
+    alias: sockg_author
+    owner: sockg_Publication
+    domain_of:
+    - sockg_Publication
+    range: string
+  sockg_studiesSite:
+    name: sockg_studiesSite
+    annotations:
+      sockg_Site:
+        tag: sockg_Site
+        value: 123
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/231061
+        example_object_type: sockg_Site
+        example_predicate: sockg:studiesSite
+        example_subject: sockg:individuals/227447
+        example_subject_type: sockg_Publication
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_Publication
+    slot_uri: sockg:studiesSite
+    alias: sockg_studiesSite
+    owner: sockg_Publication
+    domain_of:
+    - sockg_Publication
+    range: sockg_Site
   rdfs_seeAlso:
     name: rdfs_seeAlso
     annotations:
@@ -697,176 +867,6 @@ attributes:
     domain: sockg_Publication
     slot_uri: sockg:title
     alias: sockg_title
-    owner: sockg_Publication
-    domain_of:
-    - sockg_Publication
-    range: string
-  sockg_citationType:
-    name: sockg_citationType
-    annotations:
-      string:
-        tag: string
-        value: 153
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: Journal article about data
-        example_object_type: string
-        example_predicate: sockg:citationType
-        example_subject: sockg:individuals/227449
-        example_subject_type: sockg_Publication
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:citationType
-    alias: sockg_citationType
-    owner: sockg_Publication
-    domain_of:
-    - sockg_Publication
-    range: string
-  sockg_description:
-    name: sockg_description
-    annotations:
-      string:
-        tag: string
-        value: 53
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: N2O
-        example_object_type: string
-        example_predicate: sockg:description
-        example_subject: sockg:individuals/227450
-        example_subject_type: sockg_Publication
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/2179
-    rank: 1000
-    domain: sockg_MiscellaneousMeasurement
-    slot_uri: sockg:description
-    alias: sockg_description
-    owner: sockg_Publication
-    domain_of:
-    - sockg_Publication
-    range: string
-  sockg_citation:
-    name: sockg_citation
-    annotations:
-      string:
-        tag: string
-        value: 162
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: Franzluebbers AJ, Stuedemann JA. 2005. Bermudagrass management
-          in the Southern Piedmont USA. VII. Soil-profile organic carbon and total
-          nitrogen. Soil Science Society of America Journal 69, 1455-1462.
-        example_object_type: string
-        example_predicate: sockg:citation
-        example_subject: sockg:individuals/227447
-        example_subject_type: sockg_Publication
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/305490
-    rank: 1000
-    domain: sockg_Publication
-    slot_uri: sockg:citation
-    alias: sockg_citation
-    owner: sockg_Publication
-    domain_of:
-    - sockg_Publication
-    range: string
-  sockg_publicationDate:
-    name: sockg_publicationDate
-    annotations:
-      string:
-        tag: string
-        value: 162
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: '2005-01-01'
-        example_object_type: string
-        example_predicate: sockg:publicationDate
-        example_subject: sockg:individuals/227447
-        example_subject_type: sockg_Publication
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:publicationDate
-    alias: sockg_publicationDate
-    owner: sockg_Publication
-    domain_of:
-    - sockg_Publication
-    range: string
-  sockg_studiesSite:
-    name: sockg_studiesSite
-    annotations:
-      sockg_Site:
-        tag: sockg_Site
-        value: 123
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: sockg:individuals/231061
-        example_object_type: sockg_Site
-        example_predicate: sockg:studiesSite
-        example_subject: sockg:individuals/227447
-        example_subject_type: sockg_Publication
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_Publication
-    slot_uri: sockg:studiesSite
-    alias: sockg_studiesSite
-    owner: sockg_Publication
-    domain_of:
-    - sockg_Publication
-    range: sockg_Site
-  sockg_author:
-    name: sockg_author
-    annotations:
-      string:
-        tag: string
-        value: 158
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: Franzluebbers
-        example_object_type: string
-        example_predicate: sockg:author
-        example_subject: sockg:individuals/227447
-        example_subject_type: sockg_Publication
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_Publication
-    slot_uri: sockg:author
-    alias: sockg_author
-    owner: sockg_Publication
-    domain_of:
-    - sockg_Publication
-    range: string
-  sockg_identifier:
-    name: sockg_identifier
-    annotations:
-      string:
-        tag: string
-        value: 114
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: https://www.soils.org/publications/sssaj
-        example_object_type: string
-        example_predicate: sockg:identifier
-        example_subject: sockg:individuals/227447
-        example_subject_type: sockg_Publication
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_Publication
-    slot_uri: sockg:identifier
-    alias: sockg_identifier
     owner: sockg_Publication
     domain_of:
     - sockg_Publication

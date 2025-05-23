@@ -88,8 +88,8 @@ domain_of:
 - sockg_WaterQualityArea
 - sockg_WaterQualityConc
 union_of:
-- '{''domain'': ''sockg_WaterQualityArea''}'
 - '{''domain'': ''sockg_WaterQualityConc''}'
+- '{''domain'': ''sockg_WaterQualityArea''}'
 range: string
 
 ```

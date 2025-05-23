@@ -59,8 +59,8 @@ rank: 1000
 slot_uri: sockg:latitude_decimal_deg
 alias: sockg_latitude_decimal_deg
 union_of:
-- '{''domain'': ''sockg_WeatherStation''}'
 - '{''domain'': ''sockg_Field''}'
+- '{''domain'': ''sockg_WeatherStation''}'
 range: float
 
 ```

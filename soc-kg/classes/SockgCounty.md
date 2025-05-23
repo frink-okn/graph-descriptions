@@ -73,9 +73,9 @@ URI: [sockg:County](https://idir.uta.edu/sockg-ontology/docs/County)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
+| [sockg_countyName](../slots/sockg_countyName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 33 |
 | [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 33 |
 | [sockg_hasCity](../slots/sockg_hasCity.md) | 0..1 <br/> [SockgCity](../classes/SockgCity.md) | No slot (predicate) description specified <br/>  | direct | 33 |
-| [sockg_countyName](../slots/sockg_countyName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 33 |
 | [sockg_countyFIPS](../slots/sockg_countyFIPS.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 31 |
 
 
@@ -86,8 +86,8 @@ URI: [sockg:County](https://idir.uta.edu/sockg-ontology/docs/County)
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [SockgCounty](../classes/SockgCounty.md) | [sockg_hasCity](../slots/sockg_hasCity.md) | domain | [SockgCounty](../classes/SockgCounty.md) |
 | [SockgCounty](../classes/SockgCounty.md) | [sockg_countyName](../slots/sockg_countyName.md) | domain | [SockgCounty](../classes/SockgCounty.md) |
+| [SockgCounty](../classes/SockgCounty.md) | [sockg_hasCity](../slots/sockg_hasCity.md) | domain | [SockgCounty](../classes/SockgCounty.md) |
 | [SockgSite](../classes/SockgSite.md) | [sockg_locatedInCounty](../slots/sockg_locatedInCounty.md) | range | [SockgCounty](../classes/SockgCounty.md) |
 | [SockgState](../classes/SockgState.md) | [sockg_hasCounty](../slots/sockg_hasCounty.md) | range | [SockgCounty](../classes/SockgCounty.md) |
 
@@ -130,9 +130,9 @@ see_also:
 - https://lod.nal.usda.gov/nalt/2217129
 rank: 1000
 slots:
+- sockg_countyName
 - rdfs_seeAlso
 - sockg_hasCity
-- sockg_countyName
 - sockg_countyFIPS
 slot_usage:
   rdfs_seeAlso:
@@ -210,6 +210,32 @@ slot_usage:
         tag: sockg_City
         value: 33
 attributes:
+  sockg_countyName:
+    name: sockg_countyName
+    annotations:
+      string:
+        tag: string
+        value: 33
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: Macon
+        example_object_type: string
+        example_predicate: sockg:countyName
+        example_subject: sockg:individuals/46904
+        example_subject_type: sockg_County
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/2217129
+    rank: 1000
+    domain: sockg_County
+    slot_uri: sockg:countyName
+    alias: sockg_countyName
+    owner: sockg_County
+    domain_of:
+    - sockg_County
+    range: string
   rdfs_seeAlso:
     name: rdfs_seeAlso
     annotations:
@@ -536,32 +562,6 @@ attributes:
     domain_of:
     - sockg_County
     range: sockg_City
-  sockg_countyName:
-    name: sockg_countyName
-    annotations:
-      string:
-        tag: string
-        value: 33
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: Macon
-        example_object_type: string
-        example_predicate: sockg:countyName
-        example_subject: sockg:individuals/46904
-        example_subject_type: sockg_County
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/2217129
-    rank: 1000
-    domain: sockg_County
-    slot_uri: sockg:countyName
-    alias: sockg_countyName
-    owner: sockg_County
-    domain_of:
-    - sockg_County
-    range: string
   sockg_countyFIPS:
     name: sockg_countyFIPS
     annotations:

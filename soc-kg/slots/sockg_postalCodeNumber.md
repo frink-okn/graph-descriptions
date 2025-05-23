@@ -37,7 +37,7 @@ URI: [sockg:postalCodeNumber](https://idir.uta.edu/sockg-ontology/docs/postalCod
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[Int32](../types/Int32.md)
 
 
 
@@ -87,8 +87,8 @@ domain_of:
 - sockg_Site
 range: Any
 any_of:
-- range: integer
 - range: double
+- range: int32
 
 ```
 </details>

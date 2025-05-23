@@ -28,26 +28,26 @@ URI: [sockg:date](https://idir.uta.edu/sockg-ontology/docs/date)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | WaterQualityConc represents the concentration of various water quality parame... |  yes  |
-| [SockgSoilCover](../classes/SockgSoilCover.md) | SoilCover refers to the layer of organic and inorganic materials that covers ... |  yes  |
-| [SockgGasSample](../classes/SockgGasSample.md) | GasSample represents a collection of measurements related to greenhouse gas e... |  yes  |
-| [SockgHarvestFraction](../classes/SockgHarvestFraction.md) | The HarvestFraction class represents the quantifiable metrics and characteris... |  yes  |
-| [SockgResidueManagementEvent](../classes/SockgResidueManagementEvent.md) | A ResidueManagementEvent represents a specific instance of managing agricultu... |  yes  |
-| [SockgSoilPhysicalSample](../classes/SockgSoilPhysicalSample.md) | SoilPhysicalSample represents a comprehensive analysis of soil characteristic... |  yes  |
-| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | A WaterQualityArea represents a designated agricultural zone where water qual... |  yes  |
-| [SockgCropGrowthStage](../classes/SockgCropGrowthStage.md) | The CropGrowthStage class represents the various phases of development that a... |  yes  |
-| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | BioMassMiner is a class that represents the analysis of biomass in terms of i... |  yes  |
 | [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | The GasNutrientLoss class represents the assessment of gaseous nutrient losse... |  yes  |
-| [SockgHarvest](../classes/SockgHarvest.md) | Harvest represents the process of collecting mature crops from the fields, wi... |  yes  |
-| [SockgBioMassEnergy](../classes/SockgBioMassEnergy.md) | BioMassEnergy represents the energy content derived from agricultural biomass... |  yes  |
-| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | The WeatherObservation class captures daily meteorological data that are cruc... |  yes  |
-| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | The NutrientEfficiency class represents the effectiveness of nutrient utiliza... |  yes  |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by... |  yes  |
-| [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | The SoilChemicalSample class represents a comprehensive analysis of soil chem... |  yes  |
-| [SockgBioMassCarbohydrate](../classes/SockgBioMassCarbohydrate.md) | BioMassCarbohydrate represents the carbohydrate content in biomass derived fr... |  yes  |
-| [SockgWeatherStation](../classes/SockgWeatherStation.md) | A WeatherStation is a facility that collects and records meteorological data,... |  yes  |
-| [SockgSoilBiologicalSample](../classes/SockgSoilBiologicalSample.md) | SoilBiologicalSample represents a collection of measurements related to micro... |  yes  |
 | [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | The WindErosionArea class represents regions affected by wind erosion, detail... |  yes  |
+| [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | A WaterQualityArea represents a designated agricultural zone where water qual... |  yes  |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | The WeatherObservation class captures daily meteorological data that are cruc... |  yes  |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by... |  yes  |
+| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | The NutrientEfficiency class represents the effectiveness of nutrient utiliza... |  yes  |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | BioMassMiner is a class that represents the analysis of biomass in terms of i... |  yes  |
+| [SockgGasSample](../classes/SockgGasSample.md) | GasSample represents a collection of measurements related to greenhouse gas e... |  yes  |
+| [SockgHarvest](../classes/SockgHarvest.md) | Harvest represents the process of collecting mature crops from the fields, wi... |  yes  |
+| [SockgCropGrowthStage](../classes/SockgCropGrowthStage.md) | The CropGrowthStage class represents the various phases of development that a... |  yes  |
+| [SockgResidueManagementEvent](../classes/SockgResidueManagementEvent.md) | A ResidueManagementEvent represents a specific instance of managing agricultu... |  yes  |
+| [SockgBioMassCarbohydrate](../classes/SockgBioMassCarbohydrate.md) | BioMassCarbohydrate represents the carbohydrate content in biomass derived fr... |  yes  |
+| [SockgSoilPhysicalSample](../classes/SockgSoilPhysicalSample.md) | SoilPhysicalSample represents a comprehensive analysis of soil characteristic... |  yes  |
+| [SockgHarvestFraction](../classes/SockgHarvestFraction.md) | The HarvestFraction class represents the quantifiable metrics and characteris... |  yes  |
+| [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | The SoilChemicalSample class represents a comprehensive analysis of soil chem... |  yes  |
+| [SockgSoilCover](../classes/SockgSoilCover.md) | SoilCover refers to the layer of organic and inorganic materials that covers ... |  yes  |
+| [SockgWeatherStation](../classes/SockgWeatherStation.md) | A WeatherStation is a facility that collects and records meteorological data,... |  yes  |
+| [SockgBioMassEnergy](../classes/SockgBioMassEnergy.md) | BioMassEnergy represents the energy content derived from agricultural biomass... |  yes  |
 | [SockgGrazing](../classes/SockgGrazing.md) | The Grazing class represents the assessment of various productivity metrics a... |  yes  |
+| [SockgSoilBiologicalSample](../classes/SockgSoilBiologicalSample.md) | SoilBiologicalSample represents a collection of measurements related to micro... |  yes  |
 
 
 
@@ -57,7 +57,7 @@ URI: [sockg:date](https://idir.uta.edu/sockg-ontology/docs/date)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date)
 
 
 
@@ -265,34 +265,34 @@ domain_of:
 - sockg_WindErosionArea
 - sockg_YieldNutrientUptake
 union_of:
-- '{''domain'': ''sockg_PlantingEvent''}'
-- '{''domain'': ''sockg_WaterQualityConc''}'
-- '{''domain'': ''sockg_BioMassMineral''}'
-- '{''domain'': ''sockg_Tillage''}'
-- '{''domain'': ''sockg_Publication''}'
+- '{''domain'': ''sockg_NutrientEfficiency''}'
 - '{''domain'': ''sockg_CropGrowthStage''}'
 - '{''domain'': ''sockg_BioMassCarbohydrate''}'
 - '{''domain'': ''sockg_Site''}'
-- '{''domain'': ''sockg_SoilBiologicalSample''}'
+- '{''domain'': ''sockg_ResidueManagementEvent''}'
 - '{''domain'': ''sockg_GasSample''}'
+- '{''domain'': ''sockg_PlantingEvent''}'
 - '{''domain'': ''sockg_SoilCover''}'
+- '{''domain'': ''sockg_WaterQualityConc''}'
+- '{''domain'': ''sockg_WeatherObservation''}'
 - '{''domain'': ''sockg_SoilChemicalSample''}'
 - '{''domain'': ''sockg_WaterQualityArea''}'
-- '{''domain'': ''sockg_NutrientEfficiency''}'
 - '{''domain'': ''sockg_WindErosionArea''}'
-- '{''domain'': ''sockg_Grazing''}'
-- '{''domain'': ''sockg_YieldNutrientUptake''}'
+- '{''domain'': ''sockg_Publication''}'
+- '{''domain'': ''sockg_GasNutrientLoss''}'
+- '{''domain'': ''sockg_BioMassEnergy''}'
 - '{''domain'': ''sockg_MiscellaneousMeasurement''}'
 - '{''domain'': ''sockg_SoilPhysicalSample''}'
-- '{''domain'': ''sockg_BioMassEnergy''}'
+- '{''domain'': ''sockg_Grazing''}'
 - '{''domain'': ''sockg_Harvest''}'
-- '{''domain'': ''sockg_ResidueManagementEvent''}'
-- '{''domain'': ''sockg_GasNutrientLoss''}'
-- '{''domain'': ''sockg_WeatherObservation''}'
+- '{''domain'': ''sockg_SoilBiologicalSample''}'
+- '{''domain'': ''sockg_BioMassMineral''}'
+- '{''domain'': ''sockg_YieldNutrientUptake''}'
+- '{''domain'': ''sockg_Tillage''}'
 range: Any
 any_of:
-- range: date
 - range: string
+- range: date
 
 ```
 </details>

@@ -37,7 +37,7 @@ URI: [sockg:rowsHarvestedPercent](https://idir.uta.edu/sockg-ontology/docs/rowsH
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
 
 
 
@@ -81,8 +81,8 @@ domain_of:
 - sockg_ResidueManagementEvent
 range: Any
 any_of:
-- range: integer
 - range: float
+- range: integer
 
 ```
 </details>

@@ -73,10 +73,10 @@ URI: [sockg:State](https://idir.uta.edu/sockg-ontology/docs/State)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
+| [sockg_hasCounty](../slots/sockg_hasCounty.md) | 0..1 <br/> [SockgCounty](../classes/SockgCounty.md) | No slot (predicate) description specified <br/>  | direct | 33 |
+| [sockg_stateProvince](../slots/sockg_stateProvince.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 19 |
 | [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 19 |
 | [sockg_stateFIPS](../slots/sockg_stateFIPS.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 18 |
-| [sockg_stateProvince](../slots/sockg_stateProvince.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 19 |
-| [sockg_hasCounty](../slots/sockg_hasCounty.md) | 0..1 <br/> [SockgCounty](../classes/SockgCounty.md) | No slot (predicate) description specified <br/>  | direct | 33 |
 
 
 
@@ -88,8 +88,8 @@ URI: [sockg:State](https://idir.uta.edu/sockg-ontology/docs/State)
 | ---  | --- | --- | --- |
 | [SockgCountry](../classes/SockgCountry.md) | [sockg_hasState](../slots/sockg_hasState.md) | range | [SockgState](../classes/SockgState.md) |
 | [SockgSite](../classes/SockgSite.md) | [sockg_locatedInState](../slots/sockg_locatedInState.md) | range | [SockgState](../classes/SockgState.md) |
-| [SockgState](../classes/SockgState.md) | [sockg_stateProvince](../slots/sockg_stateProvince.md) | domain | [SockgState](../classes/SockgState.md) |
 | [SockgState](../classes/SockgState.md) | [sockg_hasCounty](../slots/sockg_hasCounty.md) | domain | [SockgState](../classes/SockgState.md) |
+| [SockgState](../classes/SockgState.md) | [sockg_stateProvince](../slots/sockg_stateProvince.md) | domain | [SockgState](../classes/SockgState.md) |
 
 
 
@@ -130,10 +130,10 @@ see_also:
 - https://lod.nal.usda.gov/nalt/5430914
 rank: 1000
 slots:
+- sockg_hasCounty
+- sockg_stateProvince
 - rdfs_seeAlso
 - sockg_stateFIPS
-- sockg_stateProvince
-- sockg_hasCounty
 slot_usage:
   rdfs_seeAlso:
     name: rdfs_seeAlso
@@ -210,6 +210,56 @@ slot_usage:
         tag: string
         value: 19
 attributes:
+  sockg_hasCounty:
+    name: sockg_hasCounty
+    annotations:
+      sockg_County:
+        tag: sockg_County
+        value: 33
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/46904
+        example_object_type: sockg_County
+        example_predicate: sockg:hasCounty
+        example_subject: sockg:individuals/336400
+        example_subject_type: sockg_State
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_State
+    slot_uri: sockg:hasCounty
+    alias: sockg_hasCounty
+    owner: sockg_State
+    domain_of:
+    - sockg_State
+    range: sockg_County
+  sockg_stateProvince:
+    name: sockg_stateProvince
+    annotations:
+      string:
+        tag: string
+        value: 19
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: AL
+        example_object_type: string
+        example_predicate: sockg:stateProvince
+        example_subject: sockg:individuals/336400
+        example_subject_type: sockg_State
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/5430914
+    rank: 1000
+    domain: sockg_State
+    slot_uri: sockg:stateProvince
+    alias: sockg_stateProvince
+    owner: sockg_State
+    domain_of:
+    - sockg_State
+    range: string
   rdfs_seeAlso:
     name: rdfs_seeAlso
     annotations:
@@ -534,56 +584,6 @@ attributes:
     domain_of:
     - sockg_State
     range: string
-  sockg_stateProvince:
-    name: sockg_stateProvince
-    annotations:
-      string:
-        tag: string
-        value: 19
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: AL
-        example_object_type: string
-        example_predicate: sockg:stateProvince
-        example_subject: sockg:individuals/336400
-        example_subject_type: sockg_State
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/5430914
-    rank: 1000
-    domain: sockg_State
-    slot_uri: sockg:stateProvince
-    alias: sockg_stateProvince
-    owner: sockg_State
-    domain_of:
-    - sockg_State
-    range: string
-  sockg_hasCounty:
-    name: sockg_hasCounty
-    annotations:
-      sockg_County:
-        tag: sockg_County
-        value: 33
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: sockg:individuals/46904
-        example_object_type: sockg_County
-        example_predicate: sockg:hasCounty
-        example_subject: sockg:individuals/336400
-        example_subject_type: sockg_State
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_State
-    slot_uri: sockg:hasCounty
-    alias: sockg_hasCounty
-    owner: sockg_State
-    domain_of:
-    - sockg_State
-    range: sockg_County
 class_uri: sockg:State
 
 ```

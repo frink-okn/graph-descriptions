@@ -37,7 +37,7 @@ URI: [sockg:time](https://idir.uta.edu/sockg-ontology/docs/time)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:time](http://www.w3.org/2001/XMLSchema#time)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:time](http://www.w3.org/2001/XMLSchema#time)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -80,14 +80,14 @@ domain_of:
 - sockg_GasSample
 union_of:
 - '{''domain'': ''sockg_WaterQualityArea''}'
-- '{''domain'': ''sockg_GasSample''}'
-- '{''domain'': ''sockg_WaterQualityConc''}'
 - '{''domain'': ''sockg_WindErosionArea''}'
+- '{''domain'': ''sockg_WaterQualityConc''}'
 - '{''domain'': ''sockg_GasNutrientLoss''}'
+- '{''domain'': ''sockg_GasSample''}'
 range: Any
 any_of:
-- range: string
 - range: time
+- range: string
 
 ```
 </details>

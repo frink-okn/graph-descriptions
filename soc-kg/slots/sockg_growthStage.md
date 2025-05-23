@@ -27,18 +27,18 @@ URI: [sockg:growthStage](https://idir.uta.edu/sockg-ontology/docs/growthStage)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | BioMassMiner is a class that represents the analysis of biomass in terms of i... |  yes  |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by... |  yes  |
-| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | The GasNutrientLoss class represents the assessment of gaseous nutrient losse... |  yes  |
 | [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | WaterQualityConc represents the concentration of various water quality parame... |  yes  |
-| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | The WindErosionArea class represents regions affected by wind erosion, detail... |  yes  |
-| [SockgHarvest](../classes/SockgHarvest.md) | Harvest represents the process of collecting mature crops from the fields, wi... |  yes  |
+| [SockgCropGrowthStage](../classes/SockgCropGrowthStage.md) | The CropGrowthStage class represents the various phases of development that a... |  yes  |
+| [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | BioMassMiner is a class that represents the analysis of biomass in terms of i... |  yes  |
 | [SockgBioMassCarbohydrate](../classes/SockgBioMassCarbohydrate.md) | BioMassCarbohydrate represents the carbohydrate content in biomass derived fr... |  yes  |
+| [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | The GasNutrientLoss class represents the assessment of gaseous nutrient losse... |  yes  |
+| [SockgHarvest](../classes/SockgHarvest.md) | Harvest represents the process of collecting mature crops from the fields, wi... |  yes  |
+| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | The WindErosionArea class represents regions affected by wind erosion, detail... |  yes  |
 | [SockgBioMassEnergy](../classes/SockgBioMassEnergy.md) | BioMassEnergy represents the energy content derived from agricultural biomass... |  yes  |
 | [SockgHarvestFraction](../classes/SockgHarvestFraction.md) | The HarvestFraction class represents the quantifiable metrics and characteris... |  yes  |
-| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | The NutrientEfficiency class represents the effectiveness of nutrient utiliza... |  yes  |
 | [SockgGrazing](../classes/SockgGrazing.md) | The Grazing class represents the assessment of various productivity metrics a... |  yes  |
-| [SockgCropGrowthStage](../classes/SockgCropGrowthStage.md) | The CropGrowthStage class represents the various phases of development that a... |  yes  |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by... |  yes  |
+| [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | The NutrientEfficiency class represents the effectiveness of nutrient utiliza... |  yes  |
 
 
 
@@ -185,18 +185,18 @@ domain_of:
 - sockg_YieldNutrientUptake
 union_of:
 - '{''domain'': ''sockg_WaterQualityArea''}'
-- '{''domain'': ''sockg_NutrientEfficiency''}'
-- '{''domain'': ''sockg_BioMassEnergy''}'
-- '{''domain'': ''sockg_HarvestFraction''}'
-- '{''domain'': ''sockg_WaterQualityConc''}'
-- '{''domain'': ''sockg_Harvest''}'
 - '{''domain'': ''sockg_WindErosionArea''}'
-- '{''domain'': ''sockg_BioMassMineral''}'
-- '{''domain'': ''sockg_GasNutrientLoss''}'
-- '{''domain'': ''sockg_Grazing''}'
+- '{''domain'': ''sockg_NutrientEfficiency''}'
+- '{''domain'': ''sockg_WaterQualityConc''}'
 - '{''domain'': ''sockg_CropGrowthStage''}'
+- '{''domain'': ''sockg_Grazing''}'
+- '{''domain'': ''sockg_GasNutrientLoss''}'
+- '{''domain'': ''sockg_Harvest''}'
+- '{''domain'': ''sockg_BioMassMineral''}'
 - '{''domain'': ''sockg_YieldNutrientUptake''}'
 - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+- '{''domain'': ''sockg_BioMassEnergy''}'
+- '{''domain'': ''sockg_HarvestFraction''}'
 range: string
 
 ```

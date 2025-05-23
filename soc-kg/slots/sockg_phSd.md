@@ -59,10 +59,10 @@ rank: 1000
 slot_uri: sockg:phSd
 alias: sockg_phSd
 union_of:
-- '{''domain'': ''sockg_WaterQualityArea''}'
-- '{''domain'': ''sockg_SoilChemicalSample''}'
 - '{''domain'': ''sockg_WaterQualityConc''}'
+- '{''domain'': ''sockg_WaterQualityArea''}'
 - '{''domain'': ''sockg_WindErosionArea''}'
+- '{''domain'': ''sockg_SoilChemicalSample''}'
 range: float
 
 ```

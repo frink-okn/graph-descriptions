@@ -280,33 +280,33 @@ URI: [sockg:YieldNutrientUptake](https://idir.uta.edu/sockg-ontology/docs/YieldN
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [sockg_measYieldNutUptake_UID](../slots/sockg_measYieldNutUptake_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 429 |
-| [sockg_growthStage](../slots/sockg_growthStage.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 429 |
-| [sockg_fracMoisturePercent](../slots/sockg_fracMoisturePercent.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 20 |
-| [sockg_fracNitrogen_kgN_ha](../slots/sockg_fracNitrogen_kgN_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 429 |
+| [sockg_fracCarbonSd_kgC_ha](../slots/sockg_fracCarbonSd_kgC_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 20 |
 | [sockg_crop](../slots/sockg_crop.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 429 |
-| [sockg_fracCarbonSd_kgC_ha](../slots/sockg_fracCarbonSd_kgC_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 20 |
-| [sockg_fracCropProductivity_kg_ha](../slots/sockg_fracCropProductivity_kg_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 429 |
-| [sockg_fracCarbon_kgC_ha](../slots/sockg_fracCarbon_kgC_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 429 |
-| [sockg_fracZincSd_gZn_ha](../slots/sockg_fracZincSd_gZn_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 20 |
-| [sockg_expUnit_UID](../slots/sockg_expUnit_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 429 |
-| [sockg_yieldNutrUptakeTreatment](../slots/sockg_yieldNutrUptakeTreatment.md) | 0..1 <br/> [SockgTreatment](../classes/SockgTreatment.md) | No slot (predicate) description specified <br/>  | direct | 409 |
-| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 429 |
-| [sockg_fieldId](../slots/sockg_fieldId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 429 |
 | [sockg_expUnitId](../slots/sockg_expUnitId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 429 |
-| [sockg_fracManganese_gMn_ha](../slots/sockg_fracManganese_gMn_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 20 |
-| [sockg_fracManganeseSd_gMn_ha](../slots/sockg_fracManganeseSd_gMn_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 20 |
-| [sockg_fracCopperSd_gCu_ha](../slots/sockg_fracCopperSd_gCu_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 20 |
-| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 429 |
-| [sockg_fracIronSd_gFe_ha](../slots/sockg_fracIronSd_gFe_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 20 |
-| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 429 |
-| [sockg_fracZinc_gZn_ha](../slots/sockg_fracZinc_gZn_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 20 |
+| [sockg_fracNitrogenSd_kgN_ha](../slots/sockg_fracNitrogenSd_kgN_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 20 |
+| [sockg_fracProductivitySd_kg_ha](../slots/sockg_fracProductivitySd_kg_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 20 |
+| [sockg_fracManganese_gMn_ha](../slots/sockg_fracManganese_gMn_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 20 |
+| [sockg_fracIron_gFe_ha](../slots/sockg_fracIron_gFe_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 20 |
 | [sockg_plantFraction](../slots/sockg_plantFraction.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 429 |
-| [sockg_fracNitrogenSd_kgN_ha](../slots/sockg_fracNitrogenSd_kgN_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 20 |
-| [sockg_fracProductivitySd_kg_ha](../slots/sockg_fracProductivitySd_kg_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 20 |
-| [sockg_fracIron_gFe_ha](../slots/sockg_fracIron_gFe_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 20 |
-| [sockg_fracCopper_gCu_ha](../slots/sockg_fracCopper_gCu_ha.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 20 |
+| [sockg_fracZincSd_gZn_ha](../slots/sockg_fracZincSd_gZn_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 20 |
+| [sockg_fracCarbon_kgC_ha](../slots/sockg_fracCarbon_kgC_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 429 |
+| [sockg_expUnit_UID](../slots/sockg_expUnit_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 429 |
 | [sockg_yieldNutrUptakeDataAt](../slots/sockg_yieldNutrUptakeDataAt.md) | 0..1 <br/> [SockgField](../classes/SockgField.md) | No slot (predicate) description specified <br/>  | direct | 429 |
+| [sockg_fracMoisturePercent](../slots/sockg_fracMoisturePercent.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 20 |
+| [sockg_yieldNutrUptakeTreatment](../slots/sockg_yieldNutrUptakeTreatment.md) | 0..1 <br/> [SockgTreatment](../classes/SockgTreatment.md) | No slot (predicate) description specified <br/>  | direct | 409 |
+| [sockg_growthStage](../slots/sockg_growthStage.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 429 |
+| [sockg_fracCropProductivity_kg_ha](../slots/sockg_fracCropProductivity_kg_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 429 |
+| [sockg_fracZinc_gZn_ha](../slots/sockg_fracZinc_gZn_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 20 |
+| [sockg_fracIronSd_gFe_ha](../slots/sockg_fracIronSd_gFe_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 20 |
+| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot (predicate) description specified <br/>  | direct | 429 |
+| [sockg_fieldId](../slots/sockg_fieldId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 429 |
+| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot (predicate) description specified <br/>  | direct | 429 |
+| [sockg_measYieldNutUptake_UID](../slots/sockg_measYieldNutUptake_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 429 |
+| [sockg_fracNitrogen_kgN_ha](../slots/sockg_fracNitrogen_kgN_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 429 |
+| [sockg_fracManganeseSd_gMn_ha](../slots/sockg_fracManganeseSd_gMn_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 20 |
+| [sockg_fracCopper_gCu_ha](../slots/sockg_fracCopper_gCu_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 20 |
+| [sockg_fracCopperSd_gCu_ha](../slots/sockg_fracCopperSd_gCu_ha.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 20 |
+| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 429 |
 
 
 
@@ -316,24 +316,24 @@ URI: [sockg:YieldNutrientUptake](https://idir.uta.edu/sockg-ontology/docs/YieldN
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_measYieldNutUptake_UID](../slots/sockg_measYieldNutUptake_UID.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracMoisturePercent](../slots/sockg_fracMoisturePercent.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracNitrogen_kgN_ha](../slots/sockg_fracNitrogen_kgN_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
 | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracCarbonSd_kgC_ha](../slots/sockg_fracCarbonSd_kgC_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracCropProductivity_kg_ha](../slots/sockg_fracCropProductivity_kg_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracCarbon_kgC_ha](../slots/sockg_fracCarbon_kgC_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracZincSd_gZn_ha](../slots/sockg_fracZincSd_gZn_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_yieldNutrUptakeTreatment](../slots/sockg_yieldNutrUptakeTreatment.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracManganese_gMn_ha](../slots/sockg_fracManganese_gMn_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracManganeseSd_gMn_ha](../slots/sockg_fracManganeseSd_gMn_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracCopperSd_gCu_ha](../slots/sockg_fracCopperSd_gCu_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracIronSd_gFe_ha](../slots/sockg_fracIronSd_gFe_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracZinc_gZn_ha](../slots/sockg_fracZinc_gZn_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
 | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracNitrogenSd_kgN_ha](../slots/sockg_fracNitrogenSd_kgN_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
 | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracProductivitySd_kg_ha](../slots/sockg_fracProductivitySd_kg_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracManganese_gMn_ha](../slots/sockg_fracManganese_gMn_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
 | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracIron_gFe_ha](../slots/sockg_fracIron_gFe_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracCopper_gCu_ha](../slots/sockg_fracCopper_gCu_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracZincSd_gZn_ha](../slots/sockg_fracZincSd_gZn_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracCarbon_kgC_ha](../slots/sockg_fracCarbon_kgC_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
 | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_yieldNutrUptakeDataAt](../slots/sockg_yieldNutrUptakeDataAt.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracMoisturePercent](../slots/sockg_fracMoisturePercent.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_yieldNutrUptakeTreatment](../slots/sockg_yieldNutrUptakeTreatment.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracCropProductivity_kg_ha](../slots/sockg_fracCropProductivity_kg_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracZinc_gZn_ha](../slots/sockg_fracZinc_gZn_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracIronSd_gFe_ha](../slots/sockg_fracIronSd_gFe_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_measYieldNutUptake_UID](../slots/sockg_measYieldNutUptake_UID.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracNitrogen_kgN_ha](../slots/sockg_fracNitrogen_kgN_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracManganeseSd_gMn_ha](../slots/sockg_fracManganeseSd_gMn_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracCopper_gCu_ha](../slots/sockg_fracCopper_gCu_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | [sockg_fracCopperSd_gCu_ha](../slots/sockg_fracCopperSd_gCu_ha.md) | domain | [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) |
 
 
 
@@ -369,33 +369,33 @@ title: No class (entity type) name specified
 from_schema: soc-kg
 rank: 1000
 slots:
-- sockg_measYieldNutUptake_UID
-- sockg_growthStage
-- sockg_fracMoisturePercent
-- sockg_fracNitrogen_kgN_ha
-- sockg_crop
 - sockg_fracCarbonSd_kgC_ha
-- sockg_fracCropProductivity_kg_ha
-- sockg_fracCarbon_kgC_ha
-- sockg_fracZincSd_gZn_ha
-- sockg_expUnit_UID
-- sockg_yieldNutrUptakeTreatment
-- sockg_treatmentId
-- sockg_fieldId
+- sockg_crop
 - sockg_expUnitId
-- sockg_fracManganese_gMn_ha
-- sockg_fracManganeseSd_gMn_ha
-- sockg_fracCopperSd_gCu_ha
-- sockg_date
-- sockg_fracIronSd_gFe_ha
-- rdfs_seeAlso
-- sockg_fracZinc_gZn_ha
-- sockg_plantFraction
 - sockg_fracNitrogenSd_kgN_ha
 - sockg_fracProductivitySd_kg_ha
+- sockg_fracManganese_gMn_ha
 - sockg_fracIron_gFe_ha
-- sockg_fracCopper_gCu_ha
+- sockg_plantFraction
+- sockg_fracZincSd_gZn_ha
+- sockg_fracCarbon_kgC_ha
+- sockg_expUnit_UID
 - sockg_yieldNutrUptakeDataAt
+- sockg_fracMoisturePercent
+- sockg_yieldNutrUptakeTreatment
+- sockg_growthStage
+- sockg_fracCropProductivity_kg_ha
+- sockg_fracZinc_gZn_ha
+- sockg_fracIronSd_gFe_ha
+- sockg_date
+- sockg_fieldId
+- sockg_treatmentId
+- sockg_measYieldNutUptake_UID
+- sockg_fracNitrogen_kgN_ha
+- sockg_fracManganeseSd_gMn_ha
+- sockg_fracCopper_gCu_ha
+- sockg_fracCopperSd_gCu_ha
+- rdfs_seeAlso
 slot_usage:
   rdfs_seeAlso:
     name: rdfs_seeAlso
@@ -747,148 +747,8 @@ slot_usage:
         tag: sockg_Treatment
         value: 409
 attributes:
-  sockg_measYieldNutUptake_UID:
-    name: sockg_measYieldNutUptake_UID
-    annotations:
-      string:
-        tag: string
-        value: 429
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: AgCros_MNSP4R_U-S100B_2014-11-01
-        example_object_type: string
-        example_predicate: sockg:measYieldNutUptake_UID
-        example_subject: sockg:individuals/624587
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_YieldNutrientUptake
-    slot_uri: sockg:measYieldNutUptake_UID
-    alias: sockg_measYieldNutUptake_UID
-    owner: sockg_YieldNutrientUptake
-    domain_of:
-    - sockg_YieldNutrientUptake
-    range: string
-  sockg_growthStage:
-    name: sockg_growthStage
-    annotations:
-      string:
-        tag: string
-        value: 429
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: Maturity
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/163960
-        example_subject_type: sockg_Grazing
-    - object:
-        example_object: Harvest
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/172911
-        example_subject_type: sockg_Harvest
-    - object:
-        example_object: V7
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/191262
-        example_subject_type: sockg_HarvestFraction
-    - object:
-        example_object: Maturity
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/37796
-        example_subject_type: sockg_BioMassCarbohydrate
-    - object:
-        example_object: Harvest
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/39163
-        example_subject_type: sockg_BioMassEnergy
-    - object:
-        example_object: Maturity
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/39962
-        example_subject_type: sockg_BioMassMineral
-    - object:
-        example_object: R6
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/46937
-        example_subject_type: sockg_CropGrowthStage
-    - object:
-        example_object: Maturity
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/200732
-        example_subject_type: sockg_NutrientEfficiency
-    - object:
-        example_object: Pre-graze
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/364993
-        example_subject_type: sockg_WaterQualityConc
-    - object:
-        example_object: Pre-graze
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/55858
-        example_subject_type: sockg_GasNutrientLoss
-    - object:
-        example_object: Pre-graze
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/624572
-        example_subject_type: sockg_WindErosionArea
-    - object:
-        example_object: Harvest
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/624587
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/7140
-    rank: 1000
-    slot_uri: sockg:growthStage
-    alias: sockg_growthStage
-    owner: sockg_YieldNutrientUptake
-    domain_of:
-    - sockg_BioMassCarbohydrate
-    - sockg_BioMassEnergy
-    - sockg_BioMassMineral
-    - sockg_CropGrowthStage
-    - sockg_GasNutrientLoss
-    - sockg_Grazing
-    - sockg_Harvest
-    - sockg_HarvestFraction
-    - sockg_NutrientEfficiency
-    - sockg_WaterQualityConc
-    - sockg_WindErosionArea
-    - sockg_YieldNutrientUptake
-    union_of:
-    - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_BioMassEnergy''}'
-    - '{''domain'': ''sockg_HarvestFraction''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    - '{''domain'': ''sockg_Harvest''}'
-    - '{''domain'': ''sockg_WindErosionArea''}'
-    - '{''domain'': ''sockg_BioMassMineral''}'
-    - '{''domain'': ''sockg_GasNutrientLoss''}'
-    - '{''domain'': ''sockg_Grazing''}'
-    - '{''domain'': ''sockg_CropGrowthStage''}'
-    - '{''domain'': ''sockg_YieldNutrientUptake''}'
-    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
-    range: string
-  sockg_fracMoisturePercent:
-    name: sockg_fracMoisturePercent
+  sockg_fracCarbonSd_kgC_ha:
+    name: sockg_fracCarbonSd_kgC_ha
     annotations:
       double:
         tag: double
@@ -897,50 +757,25 @@ attributes:
     title: No slot (predicate) name specified
     examples:
     - object:
-        example_object: '25.8'
+        example_object: '113.0581'
         example_object_type: double
-        example_predicate: sockg:fracMoisturePercent
-        example_subject: sockg:individuals/624926
+        example_predicate: sockg:fracCarbonSd_kgC_ha
+        example_subject: sockg:individuals/624996
         example_subject_type: sockg_YieldNutrientUptake
     from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/281219
     rank: 1000
     domain: sockg_YieldNutrientUptake
-    slot_uri: sockg:fracMoisturePercent
-    alias: sockg_fracMoisturePercent
+    slot_uri: sockg:fracCarbonSd_kgC_ha
+    alias: sockg_fracCarbonSd_kgC_ha
     owner: sockg_YieldNutrientUptake
     domain_of:
     - sockg_YieldNutrientUptake
     range: Any
     any_of:
-    - range: double
     - range: float
-  sockg_fracNitrogen_kgN_ha:
-    name: sockg_fracNitrogen_kgN_ha
-    annotations:
-      double:
-        tag: double
-        value: 429
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '136.1334'
-        example_object_type: double
-        example_predicate: sockg:fracNitrogen_kgN_ha
-        example_subject: sockg:individuals/624587
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_YieldNutrientUptake
-    slot_uri: sockg:fracNitrogen_kgN_ha
-    alias: sockg_fracNitrogen_kgN_ha
-    owner: sockg_YieldNutrientUptake
-    domain_of:
-    - sockg_YieldNutrientUptake
-    range: Any
-    any_of:
     - range: double
-    - range: float
   sockg_crop:
     name: sockg_crop
     annotations:
@@ -1058,18 +893,106 @@ attributes:
     - sockg_YieldNutrientUptake
     union_of:
     - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_BioMassEnergy''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
     - '{''domain'': ''sockg_WindErosionArea''}'
-    - '{''domain'': ''sockg_BioMassMineral''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
     - '{''domain'': ''sockg_GasNutrientLoss''}'
-    - '{''domain'': ''sockg_Tillage''}'
     - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_BioMassMineral''}'
     - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+    - '{''domain'': ''sockg_BioMassEnergy''}'
+    - '{''domain'': ''sockg_Tillage''}'
     range: string
-  sockg_fracCarbonSd_kgC_ha:
-    name: sockg_fracCarbonSd_kgC_ha
+  sockg_expUnitId:
+    name: sockg_expUnitId
+    annotations:
+      string:
+        tag: string
+        value: 429
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: MTSIFERE_GrazW-P/B-F3w2
+        example_object_type: string
+        example_predicate: sockg:expUnitId
+        example_subject: sockg:individuals/51937
+        example_subject_type: sockg_ExperimentalUnit
+    - object:
+        example_object: MNMOCAL_614
+        example_object_type: string
+        example_predicate: sockg:expUnitId
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: MNMOFS_71
+        example_object_type: string
+        example_predicate: sockg:expUnitId
+        example_subject: sockg:individuals/203988
+        example_subject_type: sockg_PlantingEvent
+    - object:
+        example_object: WIPDBARN_2
+        example_object_type: string
+        example_predicate: sockg:expUnitId
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: IAAMKELL__120
+        example_object_type: string
+        example_predicate: sockg:expUnitId
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: IAAMKELL__116
+        example_object_type: string
+        example_predicate: sockg:expUnitId
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: TXBSWEWC_COMP2
+        example_object_type: string
+        example_predicate: sockg:expUnitId
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: MNSP4R_U-S100B
+        example_object_type: string
+        example_predicate: sockg:expUnitId
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/849
+    rank: 1000
+    slot_uri: sockg:expUnitId
+    alias: sockg_expUnitId
+    owner: sockg_YieldNutrientUptake
+    domain_of:
+    - sockg_ExperimentalUnit
+    - sockg_GasNutrientLoss
+    - sockg_NutrientEfficiency
+    - sockg_PlantingEvent
+    - sockg_WaterQualityArea
+    - sockg_WaterQualityConc
+    - sockg_WindErosionArea
+    - sockg_YieldNutrientUptake
+    union_of:
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_CropGrowthStage''}'
+    - '{''domain'': ''sockg_ExperimentalUnit''}'
+    - '{''domain'': ''sockg_Harvest''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_Amendment''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_HarvestFraction''}'
+    - '{''domain'': ''sockg_ResidueManagementEvent''}'
+    - '{''domain'': ''sockg_GasSample''}'
+    range: string
+  sockg_fracNitrogenSd_kgN_ha:
+    name: sockg_fracNitrogenSd_kgN_ha
     annotations:
       double:
         tag: double
@@ -1078,9 +1001,9 @@ attributes:
     title: No slot (predicate) name specified
     examples:
     - object:
-        example_object: '113.0581'
+        example_object: '1.058952'
         example_object_type: double
-        example_predicate: sockg:fracCarbonSd_kgC_ha
+        example_predicate: sockg:fracNitrogenSd_kgN_ha
         example_subject: sockg:individuals/624996
         example_subject_type: sockg_YieldNutrientUptake
     from_schema: soc-kg
@@ -1088,69 +1011,165 @@ attributes:
     - https://lod.nal.usda.gov/nalt/281219
     rank: 1000
     domain: sockg_YieldNutrientUptake
-    slot_uri: sockg:fracCarbonSd_kgC_ha
-    alias: sockg_fracCarbonSd_kgC_ha
+    slot_uri: sockg:fracNitrogenSd_kgN_ha
+    alias: sockg_fracNitrogenSd_kgN_ha
     owner: sockg_YieldNutrientUptake
     domain_of:
     - sockg_YieldNutrientUptake
     range: Any
     any_of:
-    - range: double
     - range: float
-  sockg_fracCropProductivity_kg_ha:
-    name: sockg_fracCropProductivity_kg_ha
+    - range: double
+  sockg_fracProductivitySd_kg_ha:
+    name: sockg_fracProductivitySd_kg_ha
     annotations:
       double:
         tag: double
+        value: 20
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '242.4871'
+        example_object_type: double
+        example_predicate: sockg:fracProductivitySd_kg_ha
+        example_subject: sockg:individuals/624996
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/281219
+    rank: 1000
+    domain: sockg_YieldNutrientUptake
+    slot_uri: sockg:fracProductivitySd_kg_ha
+    alias: sockg_fracProductivitySd_kg_ha
+    owner: sockg_YieldNutrientUptake
+    domain_of:
+    - sockg_YieldNutrientUptake
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_fracManganese_gMn_ha:
+    name: sockg_fracManganese_gMn_ha
+    annotations:
+      double:
+        tag: double
+        value: 20
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '6.586922'
+        example_object_type: double
+        example_predicate: sockg:fracManganese_gMn_ha
+        example_subject: sockg:individuals/624996
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_YieldNutrientUptake
+    slot_uri: sockg:fracManganese_gMn_ha
+    alias: sockg_fracManganese_gMn_ha
+    owner: sockg_YieldNutrientUptake
+    domain_of:
+    - sockg_YieldNutrientUptake
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_fracIron_gFe_ha:
+    name: sockg_fracIron_gFe_ha
+    annotations:
+      double:
+        tag: double
+        value: 20
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '32.35043'
+        example_object_type: double
+        example_predicate: sockg:fracIron_gFe_ha
+        example_subject: sockg:individuals/624996
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_YieldNutrientUptake
+    slot_uri: sockg:fracIron_gFe_ha
+    alias: sockg_fracIron_gFe_ha
+    owner: sockg_YieldNutrientUptake
+    domain_of:
+    - sockg_YieldNutrientUptake
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_plantFraction:
+    name: sockg_plantFraction
+    annotations:
+      string:
+        tag: string
         value: 429
     description: No slot (predicate) description specified
     title: No slot (predicate) name specified
     examples:
     - object:
-        example_object: '10409.26'
-        example_object_type: double
-        example_predicate: sockg:fracCropProductivity_kg_ha
-        example_subject: sockg:individuals/624587
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_YieldNutrientUptake
-    slot_uri: sockg:fracCropProductivity_kg_ha
-    alias: sockg_fracCropProductivity_kg_ha
-    owner: sockg_YieldNutrientUptake
-    domain_of:
-    - sockg_YieldNutrientUptake
-    range: Any
-    any_of:
-    - range: double
-    - range: float
-  sockg_fracCarbon_kgC_ha:
-    name: sockg_fracCarbon_kgC_ha
-    annotations:
-      double:
-        tag: double
-        value: 429
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
+        example_object: Roots
+        example_object_type: string
+        example_predicate: sockg:plantFraction
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
     - object:
-        example_object: '0.0'
-        example_object_type: double
-        example_predicate: sockg:fracCarbon_kgC_ha
+        example_object: Above earshank
+        example_object_type: string
+        example_predicate: sockg:plantFraction
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: Below earshank leaves
+        example_object_type: string
+        example_predicate: sockg:plantFraction
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: Stover (all non-grain biomass)
+        example_object_type: string
+        example_predicate: sockg:plantFraction
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: Seed Oil
+        example_object_type: string
+        example_predicate: sockg:plantFraction
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: Grain
+        example_object_type: string
+        example_predicate: sockg:plantFraction
         example_subject: sockg:individuals/624587
         example_subject_type: sockg_YieldNutrientUptake
     from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/849
     rank: 1000
-    domain: sockg_YieldNutrientUptake
-    slot_uri: sockg:fracCarbon_kgC_ha
-    alias: sockg_fracCarbon_kgC_ha
+    slot_uri: sockg:plantFraction
+    alias: sockg_plantFraction
     owner: sockg_YieldNutrientUptake
     domain_of:
+    - sockg_BioMassCarbohydrate
+    - sockg_BioMassEnergy
+    - sockg_BioMassMineral
+    - sockg_HarvestFraction
+    - sockg_NutrientEfficiency
     - sockg_YieldNutrientUptake
-    range: Any
-    any_of:
-    - range: double
-    - range: float
+    union_of:
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_BioMassMineral''}'
+    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+    - '{''domain'': ''sockg_BioMassEnergy''}'
+    - '{''domain'': ''sockg_HarvestFraction''}'
+    range: string
   sockg_fracZincSd_gZn_ha:
     name: sockg_fracZincSd_gZn_ha
     annotations:
@@ -1178,8 +1197,35 @@ attributes:
     - sockg_YieldNutrientUptake
     range: Any
     any_of:
-    - range: double
     - range: float
+    - range: double
+  sockg_fracCarbon_kgC_ha:
+    name: sockg_fracCarbon_kgC_ha
+    annotations:
+      double:
+        tag: double
+        value: 429
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '0.0'
+        example_object_type: double
+        example_predicate: sockg:fracCarbon_kgC_ha
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_YieldNutrientUptake
+    slot_uri: sockg:fracCarbon_kgC_ha
+    alias: sockg_fracCarbon_kgC_ha
+    owner: sockg_YieldNutrientUptake
+    domain_of:
+    - sockg_YieldNutrientUptake
+    range: Any
+    any_of:
+    - range: float
+    - range: double
   sockg_expUnit_UID:
     name: sockg_expUnit_UID
     annotations:
@@ -1245,13 +1291,64 @@ attributes:
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
     union_of:
-    - '{''domain'': ''sockg_ExperimentalUnit''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
     - '{''domain'': ''sockg_NutrientEfficiency''}'
     - '{''domain'': ''sockg_WaterQualityConc''}'
-    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_ExperimentalUnit''}'
     - '{''domain'': ''sockg_GasNutrientLoss''}'
     - '{''domain'': ''sockg_YieldNutrientUptake''}'
     range: string
+  sockg_yieldNutrUptakeDataAt:
+    name: sockg_yieldNutrUptakeDataAt
+    annotations:
+      sockg_Field:
+        tag: sockg_Field
+        value: 429
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/55845
+        example_object_type: sockg_Field
+        example_predicate: sockg:yieldNutrUptakeDataAt
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_YieldNutrientUptake
+    slot_uri: sockg:yieldNutrUptakeDataAt
+    alias: sockg_yieldNutrUptakeDataAt
+    owner: sockg_YieldNutrientUptake
+    domain_of:
+    - sockg_YieldNutrientUptake
+    range: sockg_Field
+  sockg_fracMoisturePercent:
+    name: sockg_fracMoisturePercent
+    annotations:
+      double:
+        tag: double
+        value: 20
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '25.8'
+        example_object_type: double
+        example_predicate: sockg:fracMoisturePercent
+        example_subject: sockg:individuals/624926
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_YieldNutrientUptake
+    slot_uri: sockg:fracMoisturePercent
+    alias: sockg_fracMoisturePercent
+    owner: sockg_YieldNutrientUptake
+    domain_of:
+    - sockg_YieldNutrientUptake
+    range: Any
+    any_of:
+    - range: float
+    - range: double
   sockg_yieldNutrUptakeTreatment:
     name: sockg_yieldNutrUptakeTreatment
     annotations:
@@ -1276,6 +1373,471 @@ attributes:
     domain_of:
     - sockg_YieldNutrientUptake
     range: sockg_Treatment
+  sockg_growthStage:
+    name: sockg_growthStage
+    annotations:
+      string:
+        tag: string
+        value: 429
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: Maturity
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/163960
+        example_subject_type: sockg_Grazing
+    - object:
+        example_object: Harvest
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/172911
+        example_subject_type: sockg_Harvest
+    - object:
+        example_object: V7
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
+    - object:
+        example_object: Maturity
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: Harvest
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: Maturity
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: R6
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/46937
+        example_subject_type: sockg_CropGrowthStage
+    - object:
+        example_object: Maturity
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: Pre-graze
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: Pre-graze
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: Pre-graze
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: Harvest
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/7140
+    rank: 1000
+    slot_uri: sockg:growthStage
+    alias: sockg_growthStage
+    owner: sockg_YieldNutrientUptake
+    domain_of:
+    - sockg_BioMassCarbohydrate
+    - sockg_BioMassEnergy
+    - sockg_BioMassMineral
+    - sockg_CropGrowthStage
+    - sockg_GasNutrientLoss
+    - sockg_Grazing
+    - sockg_Harvest
+    - sockg_HarvestFraction
+    - sockg_NutrientEfficiency
+    - sockg_WaterQualityConc
+    - sockg_WindErosionArea
+    - sockg_YieldNutrientUptake
+    union_of:
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_CropGrowthStage''}'
+    - '{''domain'': ''sockg_Grazing''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_Harvest''}'
+    - '{''domain'': ''sockg_BioMassMineral''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+    - '{''domain'': ''sockg_BioMassEnergy''}'
+    - '{''domain'': ''sockg_HarvestFraction''}'
+    range: string
+  sockg_fracCropProductivity_kg_ha:
+    name: sockg_fracCropProductivity_kg_ha
+    annotations:
+      double:
+        tag: double
+        value: 429
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '10409.26'
+        example_object_type: double
+        example_predicate: sockg:fracCropProductivity_kg_ha
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_YieldNutrientUptake
+    slot_uri: sockg:fracCropProductivity_kg_ha
+    alias: sockg_fracCropProductivity_kg_ha
+    owner: sockg_YieldNutrientUptake
+    domain_of:
+    - sockg_YieldNutrientUptake
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_fracZinc_gZn_ha:
+    name: sockg_fracZinc_gZn_ha
+    annotations:
+      double:
+        tag: double
+        value: 20
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '34.68527'
+        example_object_type: double
+        example_predicate: sockg:fracZinc_gZn_ha
+        example_subject: sockg:individuals/624996
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_YieldNutrientUptake
+    slot_uri: sockg:fracZinc_gZn_ha
+    alias: sockg_fracZinc_gZn_ha
+    owner: sockg_YieldNutrientUptake
+    domain_of:
+    - sockg_YieldNutrientUptake
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_fracIronSd_gFe_ha:
+    name: sockg_fracIronSd_gFe_ha
+    annotations:
+      double:
+        tag: double
+        value: 20
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '19.13825'
+        example_object_type: double
+        example_predicate: sockg:fracIronSd_gFe_ha
+        example_subject: sockg:individuals/624996
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/281219
+    rank: 1000
+    domain: sockg_YieldNutrientUptake
+    slot_uri: sockg:fracIronSd_gFe_ha
+    alias: sockg_fracIronSd_gFe_ha
+    owner: sockg_YieldNutrientUptake
+    domain_of:
+    - sockg_YieldNutrientUptake
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_date:
+    name: sockg_date
+    annotations:
+      string:
+        tag: string
+        value: 429
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '2005-06-28'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    - object:
+        example_object: '1997-07-10'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/163960
+        example_subject_type: sockg_Grazing
+    - object:
+        example_object: '2007-11-14'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/172906
+        example_subject_type: sockg_Harvest
+    - object:
+        example_object: '2006-06-19'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
+    - object:
+        example_object: '2011-10-05'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/227674
+        example_subject_type: sockg_ResidueManagementEvent
+    - object:
+        example_object: '1994-04-11'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/235229
+        example_subject_type: sockg_SoilBiologicalSample
+    - object:
+        example_object: '2007-10-29'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/253451
+        example_subject_type: sockg_SoilChemicalSample
+    - object:
+        example_object: '2011-11-07'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/307284
+        example_subject_type: sockg_SoilCover
+    - object:
+        example_object: '2010-10-27'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/308318
+        example_subject_type: sockg_SoilPhysicalSample
+    - object:
+        example_object: '2009-10-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: '2008-09-04'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: '2018-10-04'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: '2015-10-25'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    - object:
+        example_object: '2011-08-31'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/46937
+        example_subject_type: sockg_CropGrowthStage
+    - object:
+        example_object: '2014-09-15'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: '2011-04-12'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: '2003-05-13'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: '2003-11-22'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/513777
+        example_subject_type: sockg_WeatherStation
+    - object:
+        example_object: '2008-05-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: '2001-03-15'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: '2014-11-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/302328
+    rank: 1000
+    slot_uri: sockg:date
+    alias: sockg_date
+    owner: sockg_YieldNutrientUptake
+    domain_of:
+    - sockg_BioMassCarbohydrate
+    - sockg_BioMassEnergy
+    - sockg_BioMassMineral
+    - sockg_CropGrowthStage
+    - sockg_GasNutrientLoss
+    - sockg_GasSample
+    - sockg_Grazing
+    - sockg_Harvest
+    - sockg_HarvestFraction
+    - sockg_NutrientEfficiency
+    - sockg_ResidueManagementEvent
+    - sockg_SoilBiologicalSample
+    - sockg_SoilChemicalSample
+    - sockg_SoilCover
+    - sockg_SoilPhysicalSample
+    - sockg_WaterQualityArea
+    - sockg_WaterQualityConc
+    - sockg_WeatherObservation
+    - sockg_WeatherStation
+    - sockg_WindErosionArea
+    - sockg_YieldNutrientUptake
+    union_of:
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_CropGrowthStage''}'
+    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+    - '{''domain'': ''sockg_Site''}'
+    - '{''domain'': ''sockg_ResidueManagementEvent''}'
+    - '{''domain'': ''sockg_GasSample''}'
+    - '{''domain'': ''sockg_PlantingEvent''}'
+    - '{''domain'': ''sockg_SoilCover''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_WeatherObservation''}'
+    - '{''domain'': ''sockg_SoilChemicalSample''}'
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_Publication''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_BioMassEnergy''}'
+    - '{''domain'': ''sockg_MiscellaneousMeasurement''}'
+    - '{''domain'': ''sockg_SoilPhysicalSample''}'
+    - '{''domain'': ''sockg_Grazing''}'
+    - '{''domain'': ''sockg_Harvest''}'
+    - '{''domain'': ''sockg_SoilBiologicalSample''}'
+    - '{''domain'': ''sockg_BioMassMineral''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_Tillage''}'
+    range: Any
+    any_of:
+    - range: string
+    - range: date
+  sockg_fieldId:
+    name: sockg_fieldId
+    annotations:
+      string:
+        tag: string
+        value: 429
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: ALAUSDR
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/55800
+        example_subject_type: sockg_Field
+    - object:
+        example_object: MNMOCAL
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: WIPDBARN
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: IAAMKELL
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: IAAMKELL
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: TXBSWEWC
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: MNSP4R
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:fieldId
+    alias: sockg_fieldId
+    owner: sockg_YieldNutrientUptake
+    domain_of:
+    - sockg_Field
+    - sockg_GasNutrientLoss
+    - sockg_NutrientEfficiency
+    - sockg_WaterQualityArea
+    - sockg_WaterQualityConc
+    - sockg_WindErosionArea
+    - sockg_YieldNutrientUptake
+    union_of:
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_Field''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    range: string
   sockg_treatmentId:
     name: sockg_treatmentId
     annotations:
@@ -1446,28 +2008,28 @@ attributes:
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
     union_of:
-    - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_GrazingManagementEvent''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_SoilBiologicalSample''}'
-    - '{''domain'': ''sockg_SoilChemicalSample''}'
     - '{''domain'': ''sockg_SoilPhysicalSample''}'
-    - '{''domain'': ''sockg_HarvestFraction''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    - '{''domain'': ''sockg_ResidueManagementEvent''}'
+    - '{''domain'': ''sockg_WaterQualityArea''}'
     - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_Treatment''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_GrazingManagementEvent''}'
+    - '{''domain'': ''sockg_SoilChemicalSample''}'
     - '{''domain'': ''sockg_GasNutrientLoss''}'
     - '{''domain'': ''sockg_Amendment''}'
+    - '{''domain'': ''sockg_SoilBiologicalSample''}'
     - '{''domain'': ''sockg_YieldNutrientUptake''}'
     - '{''domain'': ''sockg_BioMassCarbohydrate''}'
-    - '{''domain'': ''sockg_Treatment''}'
+    - '{''domain'': ''sockg_HarvestFraction''}'
+    - '{''domain'': ''sockg_ResidueManagementEvent''}'
     range: Any
     any_of:
-    - range: date
-    - range: string
     - range: float
-  sockg_fieldId:
-    name: sockg_fieldId
+    - range: string
+    - range: date
+  sockg_measYieldNutUptake_UID:
+    name: sockg_measYieldNutUptake_UID
     annotations:
       string:
         tag: string
@@ -1476,184 +2038,47 @@ attributes:
     title: No slot (predicate) name specified
     examples:
     - object:
-        example_object: ALAUSDR
+        example_object: AgCros_MNSP4R_U-S100B_2014-11-01
         example_object_type: string
-        example_predicate: sockg:fieldId
-        example_subject: sockg:individuals/55800
-        example_subject_type: sockg_Field
-    - object:
-        example_object: MNMOCAL
-        example_object_type: string
-        example_predicate: sockg:fieldId
-        example_subject: sockg:individuals/200732
-        example_subject_type: sockg_NutrientEfficiency
-    - object:
-        example_object: WIPDBARN
-        example_object_type: string
-        example_predicate: sockg:fieldId
-        example_subject: sockg:individuals/364326
-        example_subject_type: sockg_WaterQualityArea
-    - object:
-        example_object: IAAMKELL
-        example_object_type: string
-        example_predicate: sockg:fieldId
-        example_subject: sockg:individuals/364993
-        example_subject_type: sockg_WaterQualityConc
-    - object:
-        example_object: IAAMKELL
-        example_object_type: string
-        example_predicate: sockg:fieldId
-        example_subject: sockg:individuals/55858
-        example_subject_type: sockg_GasNutrientLoss
-    - object:
-        example_object: TXBSWEWC
-        example_object_type: string
-        example_predicate: sockg:fieldId
-        example_subject: sockg:individuals/624572
-        example_subject_type: sockg_WindErosionArea
-    - object:
-        example_object: MNSP4R
-        example_object_type: string
-        example_predicate: sockg:fieldId
+        example_predicate: sockg:measYieldNutUptake_UID
         example_subject: sockg:individuals/624587
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:fieldId
-    alias: sockg_fieldId
-    owner: sockg_YieldNutrientUptake
-    domain_of:
-    - sockg_Field
-    - sockg_GasNutrientLoss
-    - sockg_NutrientEfficiency
-    - sockg_WaterQualityArea
-    - sockg_WaterQualityConc
-    - sockg_WindErosionArea
-    - sockg_YieldNutrientUptake
-    union_of:
-    - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_Field''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    - '{''domain'': ''sockg_WindErosionArea''}'
-    - '{''domain'': ''sockg_GasNutrientLoss''}'
-    - '{''domain'': ''sockg_YieldNutrientUptake''}'
-    range: string
-  sockg_expUnitId:
-    name: sockg_expUnitId
-    annotations:
-      string:
-        tag: string
-        value: 429
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: MTSIFERE_GrazW-P/B-F3w2
-        example_object_type: string
-        example_predicate: sockg:expUnitId
-        example_subject: sockg:individuals/51937
-        example_subject_type: sockg_ExperimentalUnit
-    - object:
-        example_object: MNMOCAL_614
-        example_object_type: string
-        example_predicate: sockg:expUnitId
-        example_subject: sockg:individuals/200732
-        example_subject_type: sockg_NutrientEfficiency
-    - object:
-        example_object: MNMOFS_71
-        example_object_type: string
-        example_predicate: sockg:expUnitId
-        example_subject: sockg:individuals/203988
-        example_subject_type: sockg_PlantingEvent
-    - object:
-        example_object: WIPDBARN_2
-        example_object_type: string
-        example_predicate: sockg:expUnitId
-        example_subject: sockg:individuals/364326
-        example_subject_type: sockg_WaterQualityArea
-    - object:
-        example_object: IAAMKELL__120
-        example_object_type: string
-        example_predicate: sockg:expUnitId
-        example_subject: sockg:individuals/364993
-        example_subject_type: sockg_WaterQualityConc
-    - object:
-        example_object: IAAMKELL__116
-        example_object_type: string
-        example_predicate: sockg:expUnitId
-        example_subject: sockg:individuals/55858
-        example_subject_type: sockg_GasNutrientLoss
-    - object:
-        example_object: TXBSWEWC_COMP2
-        example_object_type: string
-        example_predicate: sockg:expUnitId
-        example_subject: sockg:individuals/624572
-        example_subject_type: sockg_WindErosionArea
-    - object:
-        example_object: MNSP4R_U-S100B
-        example_object_type: string
-        example_predicate: sockg:expUnitId
-        example_subject: sockg:individuals/624587
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/849
-    rank: 1000
-    slot_uri: sockg:expUnitId
-    alias: sockg_expUnitId
-    owner: sockg_YieldNutrientUptake
-    domain_of:
-    - sockg_ExperimentalUnit
-    - sockg_GasNutrientLoss
-    - sockg_NutrientEfficiency
-    - sockg_PlantingEvent
-    - sockg_WaterQualityArea
-    - sockg_WaterQualityConc
-    - sockg_WindErosionArea
-    - sockg_YieldNutrientUptake
-    union_of:
-    - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_ExperimentalUnit''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_HarvestFraction''}'
-    - '{''domain'': ''sockg_GasSample''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    - '{''domain'': ''sockg_Harvest''}'
-    - '{''domain'': ''sockg_ResidueManagementEvent''}'
-    - '{''domain'': ''sockg_WindErosionArea''}'
-    - '{''domain'': ''sockg_GasNutrientLoss''}'
-    - '{''domain'': ''sockg_CropGrowthStage''}'
-    - '{''domain'': ''sockg_Amendment''}'
-    - '{''domain'': ''sockg_YieldNutrientUptake''}'
-    range: string
-  sockg_fracManganese_gMn_ha:
-    name: sockg_fracManganese_gMn_ha
-    annotations:
-      double:
-        tag: double
-        value: 20
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '6.586922'
-        example_object_type: double
-        example_predicate: sockg:fracManganese_gMn_ha
-        example_subject: sockg:individuals/624996
         example_subject_type: sockg_YieldNutrientUptake
     from_schema: soc-kg
     rank: 1000
     domain: sockg_YieldNutrientUptake
-    slot_uri: sockg:fracManganese_gMn_ha
-    alias: sockg_fracManganese_gMn_ha
+    slot_uri: sockg:measYieldNutUptake_UID
+    alias: sockg_measYieldNutUptake_UID
+    owner: sockg_YieldNutrientUptake
+    domain_of:
+    - sockg_YieldNutrientUptake
+    range: string
+  sockg_fracNitrogen_kgN_ha:
+    name: sockg_fracNitrogen_kgN_ha
+    annotations:
+      double:
+        tag: double
+        value: 429
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '136.1334'
+        example_object_type: double
+        example_predicate: sockg:fracNitrogen_kgN_ha
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_YieldNutrientUptake
+    slot_uri: sockg:fracNitrogen_kgN_ha
+    alias: sockg_fracNitrogen_kgN_ha
     owner: sockg_YieldNutrientUptake
     domain_of:
     - sockg_YieldNutrientUptake
     range: Any
     any_of:
-    - range: double
     - range: float
+    - range: double
   sockg_fracManganeseSd_gMn_ha:
     name: sockg_fracManganeseSd_gMn_ha
     annotations:
@@ -1681,8 +2106,35 @@ attributes:
     - sockg_YieldNutrientUptake
     range: Any
     any_of:
-    - range: double
     - range: float
+    - range: double
+  sockg_fracCopper_gCu_ha:
+    name: sockg_fracCopper_gCu_ha
+    annotations:
+      double:
+        tag: double
+        value: 20
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '4.002717'
+        example_object_type: double
+        example_predicate: sockg:fracCopper_gCu_ha
+        example_subject: sockg:individuals/624996
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_YieldNutrientUptake
+    slot_uri: sockg:fracCopper_gCu_ha
+    alias: sockg_fracCopper_gCu_ha
+    owner: sockg_YieldNutrientUptake
+    domain_of:
+    - sockg_YieldNutrientUptake
+    range: Any
+    any_of:
+    - range: float
+    - range: double
   sockg_fracCopperSd_gCu_ha:
     name: sockg_fracCopperSd_gCu_ha
     annotations:
@@ -1710,230 +2162,8 @@ attributes:
     - sockg_YieldNutrientUptake
     range: Any
     any_of:
-    - range: double
     - range: float
-  sockg_date:
-    name: sockg_date
-    annotations:
-      string:
-        tag: string
-        value: 429
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '2005-06-28'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/100000
-        example_subject_type: sockg_GasSample
-    - object:
-        example_object: '1997-07-10'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/163960
-        example_subject_type: sockg_Grazing
-    - object:
-        example_object: '2007-11-14'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/172906
-        example_subject_type: sockg_Harvest
-    - object:
-        example_object: '2006-06-19'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/191262
-        example_subject_type: sockg_HarvestFraction
-    - object:
-        example_object: '2011-10-05'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/227674
-        example_subject_type: sockg_ResidueManagementEvent
-    - object:
-        example_object: '1994-04-11'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/235229
-        example_subject_type: sockg_SoilBiologicalSample
-    - object:
-        example_object: '2007-10-29'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/253451
-        example_subject_type: sockg_SoilChemicalSample
-    - object:
-        example_object: '2011-11-07'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/307284
-        example_subject_type: sockg_SoilCover
-    - object:
-        example_object: '2010-10-27'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/308318
-        example_subject_type: sockg_SoilPhysicalSample
-    - object:
-        example_object: '2009-10-01'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/37796
-        example_subject_type: sockg_BioMassCarbohydrate
-    - object:
-        example_object: '2008-09-04'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/39163
-        example_subject_type: sockg_BioMassEnergy
-    - object:
-        example_object: '2018-10-04'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/39962
-        example_subject_type: sockg_BioMassMineral
-    - object:
-        example_object: '2015-10-25'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/439235
-        example_subject_type: sockg_WeatherObservation
-    - object:
-        example_object: '2011-08-31'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/46937
-        example_subject_type: sockg_CropGrowthStage
-    - object:
-        example_object: '2014-09-15'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/200732
-        example_subject_type: sockg_NutrientEfficiency
-    - object:
-        example_object: '2011-04-12'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/364326
-        example_subject_type: sockg_WaterQualityArea
-    - object:
-        example_object: '2003-05-13'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/364993
-        example_subject_type: sockg_WaterQualityConc
-    - object:
-        example_object: '2003-11-22'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/513777
-        example_subject_type: sockg_WeatherStation
-    - object:
-        example_object: '2008-05-01'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/55858
-        example_subject_type: sockg_GasNutrientLoss
-    - object:
-        example_object: '2001-03-15'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/624572
-        example_subject_type: sockg_WindErosionArea
-    - object:
-        example_object: '2014-11-01'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/624587
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/302328
-    rank: 1000
-    slot_uri: sockg:date
-    alias: sockg_date
-    owner: sockg_YieldNutrientUptake
-    domain_of:
-    - sockg_BioMassCarbohydrate
-    - sockg_BioMassEnergy
-    - sockg_BioMassMineral
-    - sockg_CropGrowthStage
-    - sockg_GasNutrientLoss
-    - sockg_GasSample
-    - sockg_Grazing
-    - sockg_Harvest
-    - sockg_HarvestFraction
-    - sockg_NutrientEfficiency
-    - sockg_ResidueManagementEvent
-    - sockg_SoilBiologicalSample
-    - sockg_SoilChemicalSample
-    - sockg_SoilCover
-    - sockg_SoilPhysicalSample
-    - sockg_WaterQualityArea
-    - sockg_WaterQualityConc
-    - sockg_WeatherObservation
-    - sockg_WeatherStation
-    - sockg_WindErosionArea
-    - sockg_YieldNutrientUptake
-    union_of:
-    - '{''domain'': ''sockg_PlantingEvent''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    - '{''domain'': ''sockg_BioMassMineral''}'
-    - '{''domain'': ''sockg_Tillage''}'
-    - '{''domain'': ''sockg_Publication''}'
-    - '{''domain'': ''sockg_CropGrowthStage''}'
-    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
-    - '{''domain'': ''sockg_Site''}'
-    - '{''domain'': ''sockg_SoilBiologicalSample''}'
-    - '{''domain'': ''sockg_GasSample''}'
-    - '{''domain'': ''sockg_SoilCover''}'
-    - '{''domain'': ''sockg_SoilChemicalSample''}'
-    - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_WindErosionArea''}'
-    - '{''domain'': ''sockg_Grazing''}'
-    - '{''domain'': ''sockg_YieldNutrientUptake''}'
-    - '{''domain'': ''sockg_MiscellaneousMeasurement''}'
-    - '{''domain'': ''sockg_SoilPhysicalSample''}'
-    - '{''domain'': ''sockg_BioMassEnergy''}'
-    - '{''domain'': ''sockg_Harvest''}'
-    - '{''domain'': ''sockg_ResidueManagementEvent''}'
-    - '{''domain'': ''sockg_GasNutrientLoss''}'
-    - '{''domain'': ''sockg_WeatherObservation''}'
-    range: Any
-    any_of:
-    - range: date
-    - range: string
-  sockg_fracIronSd_gFe_ha:
-    name: sockg_fracIronSd_gFe_ha
-    annotations:
-      double:
-        tag: double
-        value: 20
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '19.13825'
-        example_object_type: double
-        example_predicate: sockg:fracIronSd_gFe_ha
-        example_subject: sockg:individuals/624996
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/281219
-    rank: 1000
-    domain: sockg_YieldNutrientUptake
-    slot_uri: sockg:fracIronSd_gFe_ha
-    alias: sockg_fracIronSd_gFe_ha
-    owner: sockg_YieldNutrientUptake
-    domain_of:
-    - sockg_YieldNutrientUptake
-    range: Any
-    any_of:
     - range: double
-    - range: float
   rdfs_seeAlso:
     name: rdfs_seeAlso
     annotations:
@@ -2236,236 +2466,6 @@ attributes:
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
     range: uri
-  sockg_fracZinc_gZn_ha:
-    name: sockg_fracZinc_gZn_ha
-    annotations:
-      double:
-        tag: double
-        value: 20
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '34.68527'
-        example_object_type: double
-        example_predicate: sockg:fracZinc_gZn_ha
-        example_subject: sockg:individuals/624996
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_YieldNutrientUptake
-    slot_uri: sockg:fracZinc_gZn_ha
-    alias: sockg_fracZinc_gZn_ha
-    owner: sockg_YieldNutrientUptake
-    domain_of:
-    - sockg_YieldNutrientUptake
-    range: Any
-    any_of:
-    - range: double
-    - range: float
-  sockg_plantFraction:
-    name: sockg_plantFraction
-    annotations:
-      string:
-        tag: string
-        value: 429
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: Roots
-        example_object_type: string
-        example_predicate: sockg:plantFraction
-        example_subject: sockg:individuals/191262
-        example_subject_type: sockg_HarvestFraction
-    - object:
-        example_object: Above earshank
-        example_object_type: string
-        example_predicate: sockg:plantFraction
-        example_subject: sockg:individuals/37796
-        example_subject_type: sockg_BioMassCarbohydrate
-    - object:
-        example_object: Below earshank leaves
-        example_object_type: string
-        example_predicate: sockg:plantFraction
-        example_subject: sockg:individuals/39163
-        example_subject_type: sockg_BioMassEnergy
-    - object:
-        example_object: Stover (all non-grain biomass)
-        example_object_type: string
-        example_predicate: sockg:plantFraction
-        example_subject: sockg:individuals/39962
-        example_subject_type: sockg_BioMassMineral
-    - object:
-        example_object: Seed Oil
-        example_object_type: string
-        example_predicate: sockg:plantFraction
-        example_subject: sockg:individuals/200732
-        example_subject_type: sockg_NutrientEfficiency
-    - object:
-        example_object: Grain
-        example_object_type: string
-        example_predicate: sockg:plantFraction
-        example_subject: sockg:individuals/624587
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/849
-    rank: 1000
-    slot_uri: sockg:plantFraction
-    alias: sockg_plantFraction
-    owner: sockg_YieldNutrientUptake
-    domain_of:
-    - sockg_BioMassCarbohydrate
-    - sockg_BioMassEnergy
-    - sockg_BioMassMineral
-    - sockg_HarvestFraction
-    - sockg_NutrientEfficiency
-    - sockg_YieldNutrientUptake
-    union_of:
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_BioMassEnergy''}'
-    - '{''domain'': ''sockg_HarvestFraction''}'
-    - '{''domain'': ''sockg_BioMassMineral''}'
-    - '{''domain'': ''sockg_YieldNutrientUptake''}'
-    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
-    range: string
-  sockg_fracNitrogenSd_kgN_ha:
-    name: sockg_fracNitrogenSd_kgN_ha
-    annotations:
-      double:
-        tag: double
-        value: 20
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '1.058952'
-        example_object_type: double
-        example_predicate: sockg:fracNitrogenSd_kgN_ha
-        example_subject: sockg:individuals/624996
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/281219
-    rank: 1000
-    domain: sockg_YieldNutrientUptake
-    slot_uri: sockg:fracNitrogenSd_kgN_ha
-    alias: sockg_fracNitrogenSd_kgN_ha
-    owner: sockg_YieldNutrientUptake
-    domain_of:
-    - sockg_YieldNutrientUptake
-    range: Any
-    any_of:
-    - range: double
-    - range: float
-  sockg_fracProductivitySd_kg_ha:
-    name: sockg_fracProductivitySd_kg_ha
-    annotations:
-      double:
-        tag: double
-        value: 20
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '242.4871'
-        example_object_type: double
-        example_predicate: sockg:fracProductivitySd_kg_ha
-        example_subject: sockg:individuals/624996
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/281219
-    rank: 1000
-    domain: sockg_YieldNutrientUptake
-    slot_uri: sockg:fracProductivitySd_kg_ha
-    alias: sockg_fracProductivitySd_kg_ha
-    owner: sockg_YieldNutrientUptake
-    domain_of:
-    - sockg_YieldNutrientUptake
-    range: Any
-    any_of:
-    - range: double
-    - range: float
-  sockg_fracIron_gFe_ha:
-    name: sockg_fracIron_gFe_ha
-    annotations:
-      double:
-        tag: double
-        value: 20
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '32.35043'
-        example_object_type: double
-        example_predicate: sockg:fracIron_gFe_ha
-        example_subject: sockg:individuals/624996
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_YieldNutrientUptake
-    slot_uri: sockg:fracIron_gFe_ha
-    alias: sockg_fracIron_gFe_ha
-    owner: sockg_YieldNutrientUptake
-    domain_of:
-    - sockg_YieldNutrientUptake
-    range: Any
-    any_of:
-    - range: double
-    - range: float
-  sockg_fracCopper_gCu_ha:
-    name: sockg_fracCopper_gCu_ha
-    annotations:
-      double:
-        tag: double
-        value: 20
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '4.002717'
-        example_object_type: double
-        example_predicate: sockg:fracCopper_gCu_ha
-        example_subject: sockg:individuals/624996
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_YieldNutrientUptake
-    slot_uri: sockg:fracCopper_gCu_ha
-    alias: sockg_fracCopper_gCu_ha
-    owner: sockg_YieldNutrientUptake
-    domain_of:
-    - sockg_YieldNutrientUptake
-    range: Any
-    any_of:
-    - range: double
-    - range: float
-  sockg_yieldNutrUptakeDataAt:
-    name: sockg_yieldNutrUptakeDataAt
-    annotations:
-      sockg_Field:
-        tag: sockg_Field
-        value: 429
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: sockg:individuals/55845
-        example_object_type: sockg_Field
-        example_predicate: sockg:yieldNutrUptakeDataAt
-        example_subject: sockg:individuals/624587
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_YieldNutrientUptake
-    slot_uri: sockg:yieldNutrUptakeDataAt
-    alias: sockg_yieldNutrUptakeDataAt
-    owner: sockg_YieldNutrientUptake
-    domain_of:
-    - sockg_YieldNutrientUptake
-    range: sockg_Field
 class_uri: sockg:YieldNutrientUptake
 
 ```

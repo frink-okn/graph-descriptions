@@ -111,22 +111,22 @@ classes:
         annotations:
           string: 23230
     slots:
-    - rdfs_seeAlso
-    - sockg_irrigationAmount_cm
-    - sockg_irrigationType
+    - sockg_amendmentDepth_cm
+    - sockg_type
     - sockg_irrigationNitrogen_mg_per_L
     - sockg_crop
-    - sockg_type
-    - sockg_mgtAmendments_UID
-    - sockg_amendmentPlacement
-    - sockg_totalAmendmentAmount_kg_per_ha
-    - sockg_treatmentId
-    - sockg_totalPhosphorusAmount_kgP_per_ha
-    - sockg_hasPesticide
-    - sockg_totalPotassiumAmount_kgK_per_ha
-    - sockg_totalNitrogenAmount_kgN_per_ha
-    - sockg_amendmentDepth_cm
     - sockg_startDate
+    - sockg_amendmentPlacement
+    - sockg_irrigationAmount_cm
+    - sockg_treatmentId
+    - sockg_irrigationType
+    - sockg_mgtAmendments_UID
+    - sockg_totalNitrogenAmount_kgN_per_ha
+    - sockg_totalPhosphorusAmount_kgP_per_ha
+    - sockg_totalPotassiumAmount_kgK_per_ha
+    - sockg_hasPesticide
+    - rdfs_seeAlso
+    - sockg_totalAmendmentAmount_kg_per_ha
     title: No class (entity type) name specified
   sockg_BioMassCarbohydrate:
     annotations:
@@ -194,23 +194,23 @@ classes:
         annotations:
           double: 1367
     slots:
-    - rdfs_seeAlso
-    - sockg_measBiomassCHO_UID
+    - sockg_crudeProtein_g_per_kg
+    - sockg_date
+    - sockg_nonFiberCarbs_g_per_kg
+    - sockg_glucan_g_per_kg
+    - sockg_crop
+    - sockg_growthStage
     - sockg_plantFraction
     - sockg_xylan_g_per_kg
-    - sockg_ash_g_per_kg
-    - sockg_lignin_g_per_kg
-    - sockg_nonFiberCarbs_g_per_kg
-    - sockg_crop
-    - sockg_acidDetFiber_g_per_kg
     - sockg_treatmentId
-    - sockg_neutralDetFiber_g_per_kg
+    - sockg_ash_g_per_kg
     - sockg_galactan_g_per_kg
+    - sockg_measBiomassCHO_UID
+    - sockg_neutralDetFiber_g_per_kg
+    - sockg_lignin_g_per_kg
+    - rdfs_seeAlso
     - sockg_arabinan_g_per_kg
-    - sockg_date
-    - sockg_glucan_g_per_kg
-    - sockg_crudeProtein_g_per_kg
-    - sockg_growthStage
+    - sockg_acidDetFiber_g_per_kg
     title: No class (entity type) name specified
   sockg_BioMassEnergy:
     annotations:
@@ -254,15 +254,15 @@ classes:
         annotations:
           string: 799
     slots:
-    - rdfs_seeAlso
-    - sockg_plantFraction
-    - sockg_grossCalorificValue_MJ_per_kg
-    - sockg_crop
-    - sockg_treatmentId
-    - sockg_measBiomassEnergy_UID
     - sockg_date
-    - sockg_mineralMatter_g_per_kg
+    - sockg_crop
     - sockg_growthStage
+    - sockg_measBiomassEnergy_UID
+    - sockg_plantFraction
+    - sockg_treatmentId
+    - sockg_mineralMatter_g_per_kg
+    - sockg_grossCalorificValue_MJ_per_kg
+    - rdfs_seeAlso
     title: No class (entity type) name specified
   sockg_BioMassMineral:
     annotations:
@@ -341,27 +341,27 @@ classes:
         annotations:
           double: 6723
     slots:
+    - sockg_copperConcentration_mg_per_kg
+    - sockg_sodiumConcentration_g_per_kg
     - sockg_crop
-    - sockg_boronConcentration_mg_per_kg
-    - sockg_magnesiumConcentration_g_per_kg
-    - sockg_aluminumConcentration_mg_per_kg
-    - sockg_ironConcentration_mg_per_kg
-    - sockg_phosphorusConcentration_g_per_kg
+    - sockg_measBiomassMinAn_UID
     - sockg_carbonConcentration_g_per_kg
     - sockg_sulfurConcentration_g_per_kg
-    - sockg_treatmentId
-    - sockg_measBiomassMinAn_UID
-    - sockg_potassiumConcentration_g_per_kg
-    - sockg_zincConcentration_mg_per_kg
-    - sockg_copperConcentration_mg_per_kg
-    - sockg_date
-    - rdfs_seeAlso
     - sockg_plantFraction
-    - sockg_nitrogenConcentration_g_per_kg
-    - sockg_calciumConcentration_g_per_kg
+    - sockg_magnesiumConcentration_g_per_kg
+    - sockg_boronConcentration_mg_per_kg
+    - sockg_aluminumConcentration_mg_per_kg
     - sockg_manganeseConcentration_mg_per_kg
-    - sockg_sodiumConcentration_g_per_kg
     - sockg_growthStage
+    - sockg_phosphorusConcentration_g_per_kg
+    - sockg_nitrogenConcentration_g_per_kg
+    - sockg_potassiumConcentration_g_per_kg
+    - sockg_ironConcentration_mg_per_kg
+    - sockg_date
+    - sockg_zincConcentration_mg_per_kg
+    - sockg_treatmentId
+    - sockg_calciumConcentration_g_per_kg
+    - rdfs_seeAlso
     title: No class (entity type) name specified
   sockg_Book:
     annotations:
@@ -401,8 +401,8 @@ classes:
         annotations:
           string: 33
     slots:
-    - rdfs_seeAlso
     - sockg_cityName
+    - rdfs_seeAlso
     title: No class (entity type) name specified
   sockg_Country:
     annotations:
@@ -452,9 +452,9 @@ classes:
         annotations:
           sockg_City: 33
     slots:
+    - sockg_countyName
     - rdfs_seeAlso
     - sockg_hasCity
-    - sockg_countyName
     - sockg_countyFIPS
     title: No class (entity type) name specified
   sockg_CropGrowthStage:
@@ -489,12 +489,12 @@ classes:
         annotations:
           string: 4896
     slots:
-    - rdfs_seeAlso
     - sockg_mgtGrowthStages_UID
-    - sockg_crop
-    - sockg_treatmentId
     - sockg_date
+    - sockg_crop
     - sockg_growthStage
+    - sockg_treatmentId
+    - rdfs_seeAlso
     title: No class (entity type) name specified
   sockg_Department:
     annotations:
@@ -548,12 +548,12 @@ classes:
         annotations:
           string: 55
     slots:
-    - rdfs_seeAlso
-    - sockg_hasTreatment
-    - sockg_endDate
-    - sockg_experimentName
     - sockg_projectName
+    - sockg_hasTreatment
     - sockg_startDate
+    - sockg_experimentName
+    - sockg_endDate
+    - rdfs_seeAlso
     title: No class (entity type) name specified
   sockg_ExperimentalUnit:
     annotations:
@@ -636,29 +636,29 @@ classes:
         annotations:
           sockg_CropGrowthStage: 4896
     slots:
-    - sockg_hasBioMassMineralData
-    - sockg_tracksGrowth
-    - sockg_endDate
-    - sockg_isHarvested
-    - sockg_hasSoilCover
-    - sockg_hasResidueManagementEvent
-    - sockg_hasGrazingData
-    - sockg_expUnit_UID
     - sockg_locatedInField
-    - sockg_hasChemSample
-    - sockg_locatedInSite
+    - sockg_isHarvested
+    - sockg_startDate
     - sockg_hasBioSample
-    - sockg_hasBioMassCarbohydrateData
-    - sockg_expUnitId
-    - sockg_hasTillage
-    - sockg_hasAmendment
-    - sockg_hasPhysSample
-    - rdfs_seeAlso
+    - sockg_hasHarvestFractionData
     - sockg_hasGrazingManagementEvent
     - sockg_hasBioMassEnergyData
-    - sockg_hasHarvestFractionData
+    - sockg_hasPhysSample
+    - sockg_expUnit_UID
     - sockg_hasGasSample
-    - sockg_startDate
+    - sockg_hasGrazingData
+    - sockg_locatedInSite
+    - sockg_hasAmendment
+    - sockg_hasBioMassMineralData
+    - sockg_hasResidueManagementEvent
+    - sockg_hasSoilCover
+    - sockg_hasBioMassCarbohydrateData
+    - sockg_hasChemSample
+    - sockg_hasTillage
+    - sockg_endDate
+    - sockg_expUnitId
+    - sockg_tracksGrowth
+    - rdfs_seeAlso
     title: No class (entity type) name specified
   sockg_Field:
     annotations:
@@ -680,8 +680,8 @@ classes:
         annotations:
           string: 58
     slots:
-    - rdfs_seeAlso
     - sockg_fieldId
+    - rdfs_seeAlso
     title: No class (entity type) name specified
   sockg_GasNutrientLoss:
     annotations:
@@ -735,19 +735,19 @@ classes:
         annotations:
           string: 748
     slots:
-    - rdfs_seeAlso
-    - sockg_modelIfSimulated
-    - sockg_expUnit_UID
-    - sockg_expUnitId
-    - sockg_crop
+    - sockg_date
     - sockg_samplingStartStopInterval
-    - sockg_treatmentId
     - sockg_fieldId
     - sockg_ammoniaNitrogen_kg_ha
-    - sockg_measGasNutrientLoss_UID
-    - sockg_date
-    - sockg_nitrousOxide_g_ha
     - sockg_growthStage
+    - sockg_measGasNutrientLoss_UID
+    - sockg_treatmentId
+    - sockg_crop
+    - sockg_modelIfSimulated
+    - sockg_expUnitId
+    - rdfs_seeAlso
+    - sockg_nitrousOxide_g_ha
+    - sockg_expUnit_UID
     title: No class (entity type) name specified
   sockg_GasSample:
     annotations:
@@ -831,29 +831,29 @@ classes:
         annotations:
           string: 107354
     slots:
-    - sockg_nitrousOxideSd_gN_per_ha_per_d
     - sockg_crop
-    - sockg_methane_gC_per_ha_per_d
-    - sockg_methaneSd_gC_per_ha_per_d
-    - sockg_carbonDioxideSd_gC_per_ha_per_d
-    - sockg_nitrousOxide_gN_per_ha_per_d
-    - sockg_airTemperatureSd_degC
-    - sockg_time
-    - sockg_carbonDioxide_gC_per_ha_per_d
-    - sockg_chamberPlacement
-    - sockg_treatmentId
-    - sockg_isCarbonDioxideInterpolated
     - sockg_soilTemperatureSd_degC
-    - sockg_soilMoisture_percent_volume
-    - sockg_soilMoistureDepth_cm
-    - sockg_isNitrousOxideInterpolated
-    - sockg_soilMoistureSd_percent_volume
-    - sockg_measGHGFlux_UID
-    - sockg_date
-    - rdfs_seeAlso
+    - sockg_carbonDioxideSd_gC_per_ha_per_d
+    - sockg_chamberPlacement
+    - sockg_carbonDioxide_gC_per_ha_per_d
     - sockg_airTemperature_degC
-    - sockg_isMethaneInterpolated
+    - sockg_isCarbonDioxideInterpolated
+    - sockg_methaneSd_gC_per_ha_per_d
+    - sockg_soilMoisture_percent_volume
+    - sockg_time
+    - sockg_isNitrousOxideInterpolated
+    - sockg_airTemperatureSd_degC
     - sockg_soilTemperature_degC
+    - sockg_soilMoistureDepth_cm
+    - sockg_date
+    - sockg_isMethaneInterpolated
+    - sockg_treatmentId
+    - sockg_measGHGFlux_UID
+    - sockg_nitrousOxideSd_gN_per_ha_per_d
+    - sockg_methane_gC_per_ha_per_d
+    - sockg_soilMoistureSd_percent_volume
+    - rdfs_seeAlso
+    - sockg_nitrousOxide_gN_per_ha_per_d
     title: No class (entity type) name specified
   sockg_Grazing:
     annotations:
@@ -911,20 +911,20 @@ classes:
         annotations:
           string: 6995
     slots:
-    - rdfs_seeAlso
-    - sockg_aboveGroundBiomassCarbon_kgC_per_ha
-    - sockg_speciesMix
-    - sockg_biomassNitrogenPercentage
-    - sockg_leafAreaIndexDry_kg_per_ha
-    - sockg_treatmentId
-    - sockg_measGrazingPlants_UID
-    - sockg_broadleafOrGrass
-    - sockg_aboveGroundBiomassDry_kg_per_ha
-    - sockg_aurfaceLitterDry_kg_per_ha
-    - sockg_atandingDeadDry_kg_per_ha
-    - sockg_aboveGroundBiomassNitrogen_kgN_per_ha
     - sockg_date
     - sockg_growthStage
+    - sockg_treatmentId
+    - sockg_aboveGroundBiomassNitrogen_kgN_per_ha
+    - sockg_atandingDeadDry_kg_per_ha
+    - sockg_measGrazingPlants_UID
+    - sockg_aboveGroundBiomassCarbon_kgC_per_ha
+    - sockg_aurfaceLitterDry_kg_per_ha
+    - sockg_aboveGroundBiomassDry_kg_per_ha
+    - sockg_broadleafOrGrass
+    - sockg_biomassNitrogenPercentage
+    - sockg_leafAreaIndexDry_kg_per_ha
+    - rdfs_seeAlso
+    - sockg_speciesMix
     title: No class (entity type) name specified
   sockg_GrazingManagementEvent:
     annotations:
@@ -967,15 +967,15 @@ classes:
         annotations:
           string: 1951
     slots:
-    - rdfs_seeAlso
-    - sockg_animalClass
-    - sockg_stockingRate_number_animals_per_ha
     - sockg_mgtGrazing_UID
+    - sockg_animalClass
+    - sockg_startDate
+    - sockg_otherEvents
     - sockg_treatmentId
+    - sockg_stockingRate_number_animals_per_ha
     - sockg_endDate
     - sockg_animalSpecies
-    - sockg_otherEvents
-    - sockg_startDate
+    - rdfs_seeAlso
     title: No class (entity type) name specified
   sockg_Harvest:
     annotations:
@@ -1075,34 +1075,34 @@ classes:
         annotations:
           double: 120
     slots:
-    - sockg_grainNitrogenSd_kgN_per_ha
-    - sockg_harvestedResidueNitrogen_kgN_per_ha
-    - sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha
-    - sockg_crop
     - sockg_measResidueMgnt_UID
-    - sockg_harvestedResidueNitrogenSd_kgN_per_ha
+    - sockg_crop
+    - sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha
     - sockg_grainCarbonSd_kgC_per_ha
+    - sockg_grainNitrogenSd_kgN_per_ha
     - sockg_nonHarvestedResidueMoisturePercent
-    - sockg_driedHarvestedResidue_kg_per_ha
-    - sockg_treatmentId
-    - sockg_grainMoisturePercentStd
-    - sockg_grainYieldSd_kg_per_ha
     - sockg_nonHarvestedResidueMass_kg_per_ha
-    - sockg_harvestedResidueCarbon_kgC_per_ha
-    - sockg_grainNitrogen_kgN_per_ha
-    - sockg_nonHarvestedResidueCarbonContent_kgC_per_ha
-    - sockg_aboveGroundBiomass_kg_per_ha
-    - sockg_date
-    - sockg_grainCarbon_kgC_per_ha
-    - sockg_aboveGroundBiomassSd_kg_per_ha
     - sockg_unitGrainWeight_mg
-    - rdfs_seeAlso
-    - sockg_harvestedResidueCarbonSd_kgC_per_ha
-    - sockg_grainYield_kg_per_ha
-    - sockg_harvestedResidueMoisturePercent
-    - sockg_grainMoisturePercent
-    - sockg_harvestedFrac
+    - sockg_driedHarvestedResidue_kg_per_ha
+    - sockg_grainNitrogen_kgN_per_ha
+    - sockg_grainMoisturePercentStd
+    - sockg_harvestedResidueNitrogen_kgN_per_ha
+    - sockg_aboveGroundBiomassSd_kg_per_ha
+    - sockg_harvestedResidueNitrogenSd_kgN_per_ha
     - sockg_growthStage
+    - sockg_harvestedResidueMoisturePercent
+    - sockg_grainYield_kg_per_ha
+    - sockg_harvestedFrac
+    - sockg_date
+    - sockg_harvestedResidueCarbon_kgC_per_ha
+    - sockg_grainYieldSd_kg_per_ha
+    - sockg_treatmentId
+    - sockg_nonHarvestedResidueCarbonContent_kgC_per_ha
+    - sockg_grainCarbon_kgC_per_ha
+    - sockg_aboveGroundBiomass_kg_per_ha
+    - rdfs_seeAlso
+    - sockg_grainMoisturePercent
+    - sockg_harvestedResidueCarbonSd_kgC_per_ha
     title: No class (entity type) name specified
   sockg_HarvestFraction:
     annotations:
@@ -1151,17 +1151,17 @@ classes:
         annotations:
           string: 9470
     slots:
-    - rdfs_seeAlso
-    - sockg_carbon_kgC_per_ha
-    - sockg_plantFraction
-    - sockg_crop
-    - sockg_dryBiomass_kg_per_ha
-    - sockg_measHarvestFraction_UID
-    - sockg_moisturePercent
-    - sockg_treatmentId
-    - sockg_nitrogen_kgN_per_ha
     - sockg_date
+    - sockg_moisturePercent
+    - sockg_crop
     - sockg_growthStage
+    - sockg_plantFraction
+    - sockg_treatmentId
+    - sockg_measHarvestFraction_UID
+    - sockg_nitrogen_kgN_per_ha
+    - sockg_carbon_kgC_per_ha
+    - rdfs_seeAlso
+    - sockg_dryBiomass_kg_per_ha
     title: No class (entity type) name specified
   sockg_MiscellaneousMeasurement:
     class_uri: sockg:MiscellaneousMeasurement
@@ -1226,20 +1226,20 @@ classes:
         annotations:
           string: 2791
     slots:
-    - rdfs_seeAlso
-    - sockg_nutrientEfficiencyRatio_kg_kg
-    - sockg_plantFraction
-    - sockg_expUnit_UID
-    - sockg_fracNitrogen_kg_ha
-    - sockg_expUnitId
-    - sockg_agronomicEfficiency_kg_kg
-    - sockg_crop
-    - sockg_treatmentId
-    - sockg_fieldId
-    - sockg_nitrogenUseEfficiencyPct
     - sockg_date
-    - sockg_measNutrEff_UID
+    - sockg_crop
+    - sockg_fieldId
+    - sockg_fracNitrogen_kg_ha
     - sockg_growthStage
+    - sockg_plantFraction
+    - sockg_treatmentId
+    - sockg_nutrientEfficiencyRatio_kg_kg
+    - sockg_measNutrEff_UID
+    - sockg_agronomicEfficiency_kg_kg
+    - sockg_expUnitId
+    - sockg_nitrogenUseEfficiencyPct
+    - rdfs_seeAlso
+    - sockg_expUnit_UID
     title: No class (entity type) name specified
   sockg_Organization:
     annotations:
@@ -1265,9 +1265,9 @@ classes:
         annotations:
           string: 7
     slots:
-    - rdfs_seeAlso
-    - sockg_fundsExperiment
     - sockg_organizationName
+    - sockg_fundsExperiment
+    - rdfs_seeAlso
     title: No class (entity type) name specified
   sockg_Person:
     annotations:
@@ -1335,23 +1335,23 @@ classes:
         annotations:
           sockg_Site: 165
     slots:
-    - rdfs_seeAlso
     - sockg_phoneNumber
-    - sockg_website
-    - sockg_firstName
-    - sockg_middleName
     - sockg_email
-    - sockg_suffix
-    - sockg_roleInStudy
-    - sockg_worksFor
-    - sockg_lastName
-    - sockg_worksIn
-    - sockg_isPrimaryContact
-    - sockg_persons_UID
     - sockg_organizationName
     - sockg_profession
+    - sockg_website
+    - sockg_middleName
     - sockg_note
+    - sockg_worksFor
     - sockg_worksAtDepartment
+    - sockg_roleInStudy
+    - sockg_isPrimaryContact
+    - sockg_suffix
+    - sockg_worksIn
+    - sockg_persons_UID
+    - rdfs_seeAlso
+    - sockg_lastName
+    - sockg_firstName
     title: No class (entity type) name specified
   sockg_Pesticide:
     annotations:
@@ -1386,12 +1386,12 @@ classes:
         annotations:
           double: 353
     slots:
-    - rdfs_seeAlso
-    - sockg_totalPesticideAmount_kg_per_ha
     - sockg_pesticidePlacement
     - sockg_pesticideTarget
-    - sockg_pesticide_UID
     - sockg_pesticideActiveIngredientType
+    - sockg_totalPesticideAmount_kg_per_ha
+    - sockg_pesticide_UID
+    - rdfs_seeAlso
     title: No class (entity type) name specified
   sockg_PlantingEvent:
     annotations:
@@ -1445,19 +1445,19 @@ classes:
         annotations:
           string: 23450
     slots:
-    - rdfs_seeAlso
-    - sockg_depth_cm
-    - sockg_plantingAt
-    - sockg_expUnitId
-    - sockg_rowWidth_cm
-    - sockg_crop
-    - sockg_mgtPlanting_UID
-    - sockg_treatmentId
     - sockg_plantingRate_number_seeds_per_ha
-    - sockg_plantingMethod
-    - sockg_cultivar
-    - sockg_plantingDensity_kg_per_ha
+    - sockg_mgtPlanting_UID
+    - sockg_plantingAt
+    - sockg_crop
     - sockg_startDate
+    - sockg_treatmentId
+    - sockg_plantingMethod
+    - sockg_rowWidth_cm
+    - sockg_cultivar
+    - rdfs_seeAlso
+    - sockg_expUnitId
+    - sockg_plantingDensity_kg_per_ha
+    - sockg_depth_cm
     title: No class (entity type) name specified
   sockg_Project:
     annotations:
@@ -1528,16 +1528,16 @@ classes:
         annotations:
           string: 136
     slots:
+    - sockg_description
+    - sockg_citationType
+    - sockg_citation
+    - sockg_identifier
+    - sockg_publicationDate
+    - sockg_author
+    - sockg_studiesSite
     - rdfs_seeAlso
     - sockg_correspondingAuthor
     - sockg_title
-    - sockg_citationType
-    - sockg_description
-    - sockg_citation
-    - sockg_publicationDate
-    - sockg_studiesSite
-    - sockg_author
-    - sockg_identifier
     title: No class (entity type) name specified
   sockg_ResearchUnit:
     annotations:
@@ -1600,16 +1600,16 @@ classes:
         annotations:
           string: 3308
     slots:
-    - rdfs_seeAlso
-    - sockg_perennialStandAge_years
-    - sockg_equipmentType
-    - sockg_stageAtHarvest
-    - sockg_crop
-    - sockg_rowsHarvestedPercent
-    - sockg_residueCuttingHeight
-    - sockg_treatmentId
-    - sockg_mgtResidue_UID
     - sockg_date
+    - sockg_rowsHarvestedPercent
+    - sockg_crop
+    - sockg_treatmentId
+    - sockg_perennialStandAge_years
+    - sockg_stageAtHarvest
+    - sockg_residueCuttingHeight
+    - sockg_equipmentType
+    - rdfs_seeAlso
+    - sockg_mgtResidue_UID
     title: No class (entity type) name specified
   sockg_Rotation:
     annotations:
@@ -1632,8 +1632,8 @@ classes:
         annotations:
           string: 66
     slots:
-    - rdfs_seeAlso
     - sockg_rotationDescriptor
+    - rdfs_seeAlso
     title: No class (entity type) name specified
   sockg_Site:
     annotations:
@@ -1682,17 +1682,17 @@ classes:
         annotations:
           string: 60
     slots:
-    - rdfs_seeAlso
-    - sockg_siteSpatialDescription
-    - sockg_postalCodeNumber
-    - sockg_locatedInCounty
-    - kwgr_sfWithin
-    - sockg_siteId
-    - sockg_locatedInCity
     - sockg_hasField
-    - sockg_locatedInCountry
+    - kwgr_sfWithin
+    - sockg_locatedInCity
+    - sockg_postalCodeNumber
     - geo_hasGeometry
     - sockg_locatedInState
+    - sockg_siteSpatialDescription
+    - sockg_locatedInCountry
+    - sockg_siteId
+    - sockg_locatedInCounty
+    - rdfs_seeAlso
     title: No class (entity type) name specified
   sockg_Soil:
     annotations:
@@ -1767,20 +1767,20 @@ classes:
         annotations:
           integer: 18222
     slots:
-    - rdfs_seeAlso
-    - sockg_nitrogenMicrobialBiomass_mgN_per_kg
-    - sockg_soilfluoresceinDiacetateHydrol_mg_per_kg_per_hr
     - sockg_lowerDepth_cm
-    - sockg_glucosidase_mg_per_kg_per_hr
-    - sockg_alkPhosphatase_mg_per_kg_per_hr
-    - sockg_carbonMicrobialBiomass_mgC_per_kg
-    - sockg_upperDepth_cm
-    - sockg_treatmentId
-    - sockg_measSoilBiol_UID
-    - sockg_particulateOrganicMatter_gC_per_kg
-    - sockg_glucosaminidase_mg_per_kg_per_hr
     - sockg_date
+    - sockg_alkPhosphatase_mg_per_kg_per_hr
+    - sockg_glucosaminidase_mg_per_kg_per_hr
+    - sockg_measSoilBiol_UID
+    - sockg_soilfluoresceinDiacetateHydrol_mg_per_kg_per_hr
+    - sockg_treatmentId
+    - sockg_particulateOrganicMatter_gC_per_kg
+    - sockg_nitrogenMicrobialBiomass_mgN_per_kg
     - sockg_acidPhosphatase_mg_per_kg_per_hr
+    - rdfs_seeAlso
+    - sockg_upperDepth_cm
+    - sockg_glucosidase_mg_per_kg_per_hr
+    - sockg_carbonMicrobialBiomass_mgC_per_kg
     title: No class (entity type) name specified
   sockg_SoilChemicalSample:
     annotations:
@@ -1884,35 +1884,35 @@ classes:
         annotations:
           double: 53833
     slots:
-    - sockg_lowerDepth_cm
-    - sockg_nitrate_mgN_per_kg
-    - sockg_extractableMagnesium_mgMg_per_kg
-    - sockg_organicCarbon_gC_per_kg
     - sockg_nitrateSd_mgN_per_kg
-    - sockg_potassium_mgK_per_kg
-    - sockg_totalSoilNitrogenSd_gN_per_kg
-    - sockg_chemSampleHasTreatment
-    - sockg_electricalConductivity_siemens_per_m
-    - sockg_ammoniumSd_mgN_per_kg
-    - sockg_extractableCopper_mgCu_per_kg
-    - sockg_treatmentId
-    - sockg_ammonium_mgN_per_kg
-    - sockg_extractableCalcium_mgCa_per_kg
-    - sockg_extractableIron_mgFe_per_kg
+    - sockg_measSoilChem_UID
     - sockg_totalSoilCarbonSd_gC_per_kg
-    - sockg_cationExchangeCapacity_cmol_per_kg
-    - sockg_inorganicCarbon_gC_per_kg
-    - sockg_ph
-    - sockg_totalSoilNitrogen_gN_per_kg
-    - sockg_upperDepth_cm
-    - sockg_extractableManganese_mgMN_per_kg
-    - sockg_mineralCarbon_gC_per_kg
-    - sockg_date
-    - sockg_phosphorus_mgP_per_kg
-    - rdfs_seeAlso
     - sockg_totalSoilCarbon_gC_per_kg
     - sockg_extractableZinc_mgZn_per_kg
-    - sockg_measSoilChem_UID
+    - sockg_mineralCarbon_gC_per_kg
+    - sockg_phosphorus_mgP_per_kg
+    - sockg_upperDepth_cm
+    - sockg_electricalConductivity_siemens_per_m
+    - sockg_organicCarbon_gC_per_kg
+    - sockg_chemSampleHasTreatment
+    - sockg_ammoniumSd_mgN_per_kg
+    - sockg_nitrate_mgN_per_kg
+    - sockg_lowerDepth_cm
+    - sockg_extractableIron_mgFe_per_kg
+    - sockg_extractableCopper_mgCu_per_kg
+    - sockg_potassium_mgK_per_kg
+    - sockg_inorganicCarbon_gC_per_kg
+    - sockg_ph
+    - sockg_totalSoilNitrogenSd_gN_per_kg
+    - sockg_date
+    - sockg_extractableCalcium_mgCa_per_kg
+    - sockg_treatmentId
+    - sockg_ammonium_mgN_per_kg
+    - sockg_extractableManganese_mgMN_per_kg
+    - rdfs_seeAlso
+    - sockg_cationExchangeCapacity_cmol_per_kg
+    - sockg_extractableMagnesium_mgMg_per_kg
+    - sockg_totalSoilNitrogen_gN_per_kg
     title: No class (entity type) name specified
   sockg_SoilCover:
     annotations:
@@ -1941,10 +1941,10 @@ classes:
         annotations:
           string: 1034
     slots:
-    - rdfs_seeAlso
     - sockg_date
-    - sockg_measSoilCover_UID
+    - rdfs_seeAlso
     - sockg_soilCoverTimingDescriptor
+    - sockg_measSoilCover_UID
     title: No class (entity type) name specified
   sockg_SoilPhysicalSample:
     annotations:
@@ -2011,23 +2011,23 @@ classes:
         annotations:
           double: 24
     slots:
-    - rdfs_seeAlso
-    - sockg_wiltingPoint_percent_volume
+    - sockg_saturatedHydraulicConductivity_cm_per_sec
     - sockg_lowerDepth_cm
+    - sockg_date
+    - sockg_measSoilPhys_UID
+    - sockg_clayPercent
+    - sockg_sandPercent
+    - sockg_siltPercent
+    - sockg_treatmentId
     - sockg_bulkDensitySd_g_per_cm_cubed
-    - sockg_fieldCapacity_percent_volume
+    - sockg_wiltingPoint_percent_volume
+    - sockg_saturatedHydraulicConductivitySd_cm_per_sec
+    - sockg_fieldCapacitySd_percent_volume
+    - sockg_waterStableAggregatePercent
     - sockg_bulkDensity_g_per_cm_cubed
     - sockg_upperDepth_cm
-    - sockg_waterStableAggregatePercent
-    - sockg_siltPercent
-    - sockg_saturatedHydraulicConductivitySd_cm_per_sec
-    - sockg_treatmentId
-    - sockg_measSoilPhys_UID
-    - sockg_fieldCapacitySd_percent_volume
-    - sockg_saturatedHydraulicConductivity_cm_per_sec
-    - sockg_sandPercent
-    - sockg_date
-    - sockg_clayPercent
+    - rdfs_seeAlso
+    - sockg_fieldCapacity_percent_volume
     title: No class (entity type) name specified
   sockg_State:
     annotations:
@@ -2056,10 +2056,10 @@ classes:
         annotations:
           string: 19
     slots:
+    - sockg_hasCounty
+    - sockg_stateProvince
     - rdfs_seeAlso
     - sockg_stateFIPS
-    - sockg_stateProvince
-    - sockg_hasCounty
     title: No class (entity type) name specified
   sockg_Tillage:
     annotations:
@@ -2093,12 +2093,12 @@ classes:
         annotations:
           string: 24342
     slots:
-    - rdfs_seeAlso
-    - sockg_tillageEventMethod
-    - sockg_tillageEvent
     - sockg_mgtTillage_UID
-    - sockg_tillageEventDepth_cm
     - sockg_startDate
+    - sockg_tillageEventMethod
+    - sockg_tillageEventDepth_cm
+    - sockg_tillageEvent
+    - rdfs_seeAlso
     title: No class (entity type) name specified
   sockg_Treatment:
     annotations:
@@ -2156,20 +2156,20 @@ classes:
         annotations:
           string: 769
     slots:
-    - rdfs_seeAlso
-    - sockg_projectScenario
-    - sockg_hasRotation
-    - sockg_tileDrainage
-    - sockg_nitrogenTreatmentDescriptor
-    - sockg_grazingRate
-    - sockg_coverCrop
     - sockg_irrigation
     - sockg_treatmentId
-    - sockg_residueRemoval
-    - sockg_tillageDescriptor
     - sockg_treatmentDescriptor
+    - sockg_residueRemoval
+    - sockg_hasRotation
+    - sockg_nitrogenTreatmentDescriptor
     - sockg_fertilizerAmendmentClass
+    - sockg_coverCrop
+    - sockg_tileDrainage
+    - sockg_projectScenario
+    - sockg_tillageDescriptor
     - sockg_organicManagement
+    - rdfs_seeAlso
+    - sockg_grazingRate
     title: No class (entity type) name specified
   sockg_Version:
     annotations:
@@ -2255,24 +2255,24 @@ classes:
         annotations:
           double: 667
     slots:
-    - rdfs_seeAlso
-    - sockg_lossesOrDeposition
-    - sockg_expUnit_UID
-    - sockg_nitrateNitrogen_kg_ha
-    - sockg_expUnitId
-    - sockg_totalNitrogen_kg_ha
-    - sockg_waterQualityAreaDataAt
-    - sockg_treatmentId
-    - sockg_fieldId
-    - sockg_ammoniumNitroge_kg_ha
-    - sockg_measWaterQualityArea_UID
-    - sockg_surfaceOrLeaching
-    - sockg_totalDissolvedPhosphorus_kgP_ha
-    - sockg_water_mm
-    - sockg_erosionTotalSolids_t_ha
     - sockg_date
+    - sockg_ammoniumNitroge_kg_ha
+    - sockg_totalNitrogen_kg_ha
     - sockg_waterQualityAreaTreatment
+    - sockg_totalDissolvedPhosphorus_kgP_ha
+    - sockg_fieldId
+    - sockg_surfaceOrLeaching
+    - sockg_treatmentId
+    - sockg_lossesOrDeposition
+    - sockg_erosionTotalSolids_t_ha
+    - sockg_nitrateNitrogen_kg_ha
     - sockg_totalPhosphoru_kg_ha
+    - sockg_expUnitId
+    - sockg_waterQualityAreaDataAt
+    - sockg_water_mm
+    - rdfs_seeAlso
+    - sockg_expUnit_UID
+    - sockg_measWaterQualityArea_UID
     title: No class (entity type) name specified
   sockg_WaterQualityConc:
     annotations:
@@ -2350,27 +2350,27 @@ classes:
         annotations:
           double: 1479
     slots:
-    - sockg_crop
     - sockg_nitrate_mg_l
-    - sockg_InorganicNitrogen_mg_l
+    - sockg_crop
     - sockg_totalPhosphorus_mg_l
-    - sockg_expUnit_UID
-    - sockg_treatmentId
-    - sockg_fieldId
-    - sockg_waterQualityConcDataAt
-    - sockg_water_mm
+    - sockg_InorganicNitrogen_mg_l
     - sockg_totalDissolvedPhosphorus_mgP_l
-    - sockg_waterQualityConcTreatment
-    - sockg_expUnitId
-    - sockg_samplingStartStopInterval
-    - sockg_measWaterQualityConc_UID
-    - sockg_date
-    - rdfs_seeAlso
-    - sockg_modelIfSimulated
-    - sockg_totalNitrogen_mg_l
-    - sockg_samplingDepth_cm
     - sockg_surfaceOrLeaching
+    - sockg_waterQualityConcDataAt
+    - sockg_samplingDepth_cm
+    - sockg_expUnit_UID
+    - sockg_waterQualityConcTreatment
+    - sockg_totalNitrogen_mg_l
+    - sockg_samplingStartStopInterval
     - sockg_growthStage
+    - sockg_modelIfSimulated
+    - sockg_water_mm
+    - sockg_date
+    - sockg_measWaterQualityConc_UID
+    - sockg_fieldId
+    - sockg_treatmentId
+    - sockg_expUnitId
+    - rdfs_seeAlso
     title: No class (entity type) name specified
   sockg_WeatherObservation:
     annotations:
@@ -2449,27 +2449,27 @@ classes:
         annotations:
           double: 92684
     slots:
-    - sockg_weatherStationId
-    - sockg_precipitation_mm_per_d
-    - sockg_dewPointDegc
-    - sockg_openPanEvaporation_mm_per_d
-    - sockg_soilTemp10cm_degC
-    - sockg_weatherRecordedAt
-    - sockg_weatherAtField
-    - sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d
-    - sockg_tempMax_degC
-    - sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
-    - sockg_weatherDaily_UID
-    - sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d
     - sockg_windSpeed_m_per_s
-    - sockg_relativeHumidityPercent
-    - sockg_soilTemp5cm_degC
-    - sockg_date
-    - rdfs_seeAlso
-    - sockg_windDirectionDegFromNorth
+    - sockg_precipitation_mm_per_d
+    - sockg_weatherRecordedAt
     - sockg_tempMin_degC
-    - sockg_weatherBadValueFlag
+    - sockg_soilTemp5cm_degC
+    - sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d
+    - sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d
+    - sockg_soilTemp10cm_degC
+    - sockg_windDirectionDegFromNorth
+    - sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d
+    - sockg_weatherDaily_UID
+    - sockg_tempMax_degC
     - sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d
+    - sockg_date
+    - sockg_weatherStationId
+    - sockg_relativeHumidityPercent
+    - sockg_openPanEvaporation_mm_per_d
+    - sockg_weatherBadValueFlag
+    - sockg_weatherAtField
+    - sockg_dewPointDegc
+    - rdfs_seeAlso
     title: No class (entity type) name specified
   sockg_WeatherStation:
     annotations:
@@ -2503,12 +2503,12 @@ classes:
         annotations:
           string: 12
     slots:
-    - rdfs_seeAlso
-    - sockg_weatherStationId
-    - sockg_weatherRecordedBy
-    - sockg_recordsWeatherForSite
-    - sockg_recordsWeatherForField
     - sockg_date
+    - sockg_recordsWeatherForField
+    - sockg_weatherRecordedBy
+    - sockg_weatherStationId
+    - sockg_recordsWeatherForSite
+    - rdfs_seeAlso
     title: No class (entity type) name specified
   sockg_WindErosionArea:
     annotations:
@@ -2567,21 +2567,21 @@ classes:
         annotations:
           sockg_Treatment: 15
     slots:
-    - rdfs_seeAlso
+    - sockg_date
+    - sockg_windErosionDataAt
+    - sockg_windErosionTreatment
+    - sockg_samplingStartStopInterval
+    - sockg_fieldId
+    - sockg_growthStage
+    - sockg_treatmentId
+    - sockg_measWindErosionArea_UID
     - sockg_lossesOrDeposition
     - sockg_modelIfSimulated
-    - sockg_expUnit_UID
-    - sockg_expUnitId
-    - sockg_measWindErosionArea_UID
     - sockg_soilSd_t_ha
-    - sockg_samplingStartStopInterval
-    - sockg_treatmentId
-    - sockg_fieldId
-    - sockg_windErosionTreatment
+    - sockg_expUnitId
+    - rdfs_seeAlso
     - sockg_soil_t_ha
-    - sockg_windErosionDataAt
-    - sockg_date
-    - sockg_growthStage
+    - sockg_expUnit_UID
     title: No class (entity type) name specified
   sockg_YieldNutrientUptake:
     annotations:
@@ -2677,45 +2677,47 @@ classes:
         annotations:
           sockg_Treatment: 409
     slots:
-    - sockg_measYieldNutUptake_UID
-    - sockg_growthStage
-    - sockg_fracMoisturePercent
-    - sockg_fracNitrogen_kgN_ha
-    - sockg_crop
     - sockg_fracCarbonSd_kgC_ha
-    - sockg_fracCropProductivity_kg_ha
-    - sockg_fracCarbon_kgC_ha
-    - sockg_fracZincSd_gZn_ha
-    - sockg_expUnit_UID
-    - sockg_yieldNutrUptakeTreatment
-    - sockg_treatmentId
-    - sockg_fieldId
+    - sockg_crop
     - sockg_expUnitId
-    - sockg_fracManganese_gMn_ha
-    - sockg_fracManganeseSd_gMn_ha
-    - sockg_fracCopperSd_gCu_ha
-    - sockg_date
-    - sockg_fracIronSd_gFe_ha
-    - rdfs_seeAlso
-    - sockg_fracZinc_gZn_ha
-    - sockg_plantFraction
     - sockg_fracNitrogenSd_kgN_ha
     - sockg_fracProductivitySd_kg_ha
+    - sockg_fracManganese_gMn_ha
     - sockg_fracIron_gFe_ha
-    - sockg_fracCopper_gCu_ha
+    - sockg_plantFraction
+    - sockg_fracZincSd_gZn_ha
+    - sockg_fracCarbon_kgC_ha
+    - sockg_expUnit_UID
     - sockg_yieldNutrUptakeDataAt
+    - sockg_fracMoisturePercent
+    - sockg_yieldNutrUptakeTreatment
+    - sockg_growthStage
+    - sockg_fracCropProductivity_kg_ha
+    - sockg_fracZinc_gZn_ha
+    - sockg_fracIronSd_gFe_ha
+    - sockg_date
+    - sockg_fieldId
+    - sockg_treatmentId
+    - sockg_measYieldNutUptake_UID
+    - sockg_fracNitrogen_kgN_ha
+    - sockg_fracManganeseSd_gMn_ha
+    - sockg_fracCopper_gCu_ha
+    - sockg_fracCopperSd_gCu_ha
+    - rdfs_seeAlso
     title: No class (entity type) name specified
 conforms_to: No schema conformance document specified
-created_on: '2025-05-20T15:54:10.413155'
+created_on: '2025-05-23T12:26:47.027330'
 description: No schema description specified
 id: soc-kg
 imports:
-- https://raw.githubusercontent.com/frink-okn/schema-gen/refs/heads/main/rdf-rdfs
 - linkml:types
-last_updated_on: '2025-05-20T15:54:10.413155'
+- https://raw.githubusercontent.com/frink-okn/schema-gen/refs/heads/main/rdf-rdfs
+- https://raw.githubusercontent.com/linkml/linkml-model/refs/heads/main/linkml_model/model/schema/extended_types
+last_updated_on: '2025-05-23T12:26:47.027330'
 license: No schema license specified
 name: soc-kg
 prefixes:
+  dcgeoid: https://datacommons.org/browser/geoId/
   geo: http://www.opengis.net/ont/geosparql#
   kwgr: http://stko-kwg.geog.ucsb.edu/lod/resource/
   linkml: https://w3id.org/linkml/
@@ -2724,6 +2726,15 @@ prefixes:
   sockg: https://idir.uta.edu/sockg-ontology/docs/
   xsd: http://www.w3.org/2001/XMLSchema#
 slots:
+  dcgeoid_cityDCID:
+    comments:
+    - No occurrences of this slot in the graph.
+    description: No slot (predicate) description specified
+    domain: sockg_City
+    name: dcgeoid_cityDCID
+    range: string
+    slot_uri: dcgeoid:cityDCID
+    title: No slot (predicate) name specified
   geo_asWKT:
     annotations:
       count: 47
@@ -2751,15 +2762,6 @@ slots:
         example_subject_type: sockg_Site
     range: geo_Geometry
     slot_uri: geo:hasGeometry
-  https___datacommons.org_browser_geoId_cityDCID:
-    comments:
-    - No occurrences of this slot in the graph.
-    description: No slot (predicate) description specified
-    domain: sockg_City
-    name: https___datacommons.org_browser_geoId_cityDCID
-    range: string
-    slot_uri: https://datacommons.org/browser/geoId/cityDCID
-    title: No slot (predicate) name specified
   kwgr_countyFIPS:
     comments:
     - No occurrences of this slot in the graph.
@@ -3118,8 +3120,8 @@ slots:
     annotations:
       count: 2149
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Grazing
     examples:
@@ -3148,8 +3150,8 @@ slots:
     annotations:
       count: 6995
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Grazing
     examples:
@@ -3178,8 +3180,8 @@ slots:
     annotations:
       count: 2149
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Grazing
     examples:
@@ -3199,8 +3201,8 @@ slots:
     annotations:
       count: 32
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Harvest
     examples:
@@ -3220,8 +3222,8 @@ slots:
     annotations:
       count: 11829
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Harvest
     examples:
@@ -3292,8 +3294,8 @@ slots:
     annotations:
       count: 799
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassCarbohydrate
     examples:
@@ -3335,8 +3337,8 @@ slots:
     annotations:
       count: 213
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilBiologicalSample
     examples:
@@ -3389,8 +3391,8 @@ slots:
     annotations:
       count: 203
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_NutrientEfficiency
     examples:
@@ -3421,8 +3423,8 @@ slots:
     annotations:
       count: 107350
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_GasSample
     examples:
@@ -3453,8 +3455,8 @@ slots:
     annotations:
       count: 465
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilBiologicalSample
     examples:
@@ -3485,8 +3487,8 @@ slots:
     annotations:
       count: 6253
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassMineral
     examples:
@@ -3601,8 +3603,8 @@ slots:
     annotations:
       count: 354
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -3622,8 +3624,8 @@ slots:
     annotations:
       count: 35301
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -3732,8 +3734,8 @@ slots:
     annotations:
       count: 799
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassCarbohydrate
     examples:
@@ -3766,8 +3768,8 @@ slots:
     annotations:
       count: 954
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_WeatherObservation
     examples:
@@ -3898,8 +3900,8 @@ slots:
     annotations:
       count: 2149
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Grazing
     examples:
@@ -3956,8 +3958,8 @@ slots:
     annotations:
       count: 3967
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassMineral
     examples:
@@ -4011,8 +4013,8 @@ slots:
     annotations:
       count: 50
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilPhysicalSample
     examples:
@@ -4032,8 +4034,8 @@ slots:
     annotations:
       count: 19670
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilPhysicalSample
     examples:
@@ -4075,8 +4077,8 @@ slots:
     annotations:
       count: 6723
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassMineral
     examples:
@@ -4147,8 +4149,8 @@ slots:
     annotations:
       count: 6723
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassMineral
     examples:
@@ -4166,8 +4168,8 @@ slots:
     annotations:
       count: 101109
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_GasSample
     examples:
@@ -4187,8 +4189,8 @@ slots:
     annotations:
       count: 107150
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_GasSample
     examples:
@@ -4245,8 +4247,8 @@ slots:
     annotations:
       count: 9110
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     examples:
     - object:
@@ -4277,8 +4279,8 @@ slots:
     annotations:
       count: 3398
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -4441,8 +4443,8 @@ slots:
     annotations:
       count: 27112
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilPhysicalSample
     examples:
@@ -4482,8 +4484,8 @@ slots:
     annotations:
       count: 6723
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassMineral
     examples:
@@ -4717,15 +4719,15 @@ slots:
     title: No slot (predicate) name specified
     union_of:
     - domain: sockg_WaterQualityArea
-    - domain: sockg_NutrientEfficiency
-    - domain: sockg_BioMassEnergy
-    - domain: sockg_WaterQualityConc
     - domain: sockg_WindErosionArea
-    - domain: sockg_BioMassMineral
+    - domain: sockg_NutrientEfficiency
+    - domain: sockg_WaterQualityConc
     - domain: sockg_GasNutrientLoss
-    - domain: sockg_Tillage
     - domain: sockg_YieldNutrientUptake
+    - domain: sockg_BioMassMineral
     - domain: sockg_BioMassCarbohydrate
+    - domain: sockg_BioMassEnergy
+    - domain: sockg_Tillage
   sockg_crudeProteinSd_g_per_kg:
     comments:
     - No occurrences of this slot in the graph.
@@ -4743,8 +4745,8 @@ slots:
     annotations:
       count: 799
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassCarbohydrate
     examples:
@@ -4780,8 +4782,8 @@ slots:
     title: No slot (predicate) name specified
   sockg_cuttingHeight:
     any_of:
-    - range: string
     - range: float
+    - range: string
     comments:
     - No occurrences of this slot in the graph.
     description: No slot (predicate) description specified
@@ -4796,8 +4798,8 @@ slots:
     annotations:
       count: 523520
     any_of:
-    - range: date
     - range: string
+    - range: date
     description: No slot (predicate) description specified
     examples:
     - object:
@@ -4933,30 +4935,30 @@ slots:
     slot_uri: sockg:date
     title: No slot (predicate) name specified
     union_of:
-    - domain: sockg_PlantingEvent
-    - domain: sockg_WaterQualityConc
-    - domain: sockg_BioMassMineral
-    - domain: sockg_Tillage
-    - domain: sockg_Publication
+    - domain: sockg_NutrientEfficiency
     - domain: sockg_CropGrowthStage
     - domain: sockg_BioMassCarbohydrate
     - domain: sockg_Site
-    - domain: sockg_SoilBiologicalSample
+    - domain: sockg_ResidueManagementEvent
     - domain: sockg_GasSample
+    - domain: sockg_PlantingEvent
     - domain: sockg_SoilCover
+    - domain: sockg_WaterQualityConc
+    - domain: sockg_WeatherObservation
     - domain: sockg_SoilChemicalSample
     - domain: sockg_WaterQualityArea
-    - domain: sockg_NutrientEfficiency
     - domain: sockg_WindErosionArea
-    - domain: sockg_Grazing
-    - domain: sockg_YieldNutrientUptake
+    - domain: sockg_Publication
+    - domain: sockg_GasNutrientLoss
+    - domain: sockg_BioMassEnergy
     - domain: sockg_MiscellaneousMeasurement
     - domain: sockg_SoilPhysicalSample
-    - domain: sockg_BioMassEnergy
+    - domain: sockg_Grazing
     - domain: sockg_Harvest
-    - domain: sockg_ResidueManagementEvent
-    - domain: sockg_GasNutrientLoss
-    - domain: sockg_WeatherObservation
+    - domain: sockg_SoilBiologicalSample
+    - domain: sockg_BioMassMineral
+    - domain: sockg_YieldNutrientUptake
+    - domain: sockg_Tillage
   sockg_density_kg_per_ha:
     comments:
     - No occurrences of this slot in the graph.
@@ -5004,9 +5006,9 @@ slots:
     annotations:
       count: 20535
     any_of:
-    - range: integer
-    - range: double
     - range: float
+    - range: double
+    - range: int32
     description: No slot (predicate) description specified
     examples:
     - object:
@@ -5612,7 +5614,7 @@ slots:
     description: No slot (predicate) description specified
     domain: sockg_WeatherStation
     name: sockg_distanceFromField_m
-    range: integer
+    range: int32
     slot_uri: sockg:distanceFromField_m
     title: No slot (predicate) name specified
   sockg_driedHarvestedResidueSd_kg_per_ha:
@@ -5630,8 +5632,8 @@ slots:
     annotations:
       count: 1851
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Harvest
     examples:
@@ -5660,8 +5662,8 @@ slots:
     annotations:
       count: 7547
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_HarvestFraction
     examples:
@@ -5681,7 +5683,7 @@ slots:
     description: No slot (predicate) description specified
     domain: sockg_Experiment
     name: sockg_durationOfStudy
-    range: integer
+    range: int32
     see_also:
     - https://lod.nal.usda.gov/nalt/976
     slot_uri: sockg:durationOfStudy
@@ -5697,8 +5699,8 @@ slots:
     slot_uri: sockg:electricalConductivitySd_ms_cm
     title: No slot (predicate) name specified
     union_of:
-    - domain: sockg_WaterQualityArea
     - domain: sockg_WaterQualityConc
+    - domain: sockg_WaterQualityArea
     - domain: sockg_WindErosionArea
   sockg_electricalConductivitySd_siemens_per_m:
     comments:
@@ -5720,15 +5722,15 @@ slots:
     slot_uri: sockg:electricalConductivity_ms_cm
     title: No slot (predicate) name specified
     union_of:
-    - domain: sockg_WaterQualityArea
     - domain: sockg_WaterQualityConc
+    - domain: sockg_WaterQualityArea
     - domain: sockg_WindErosionArea
   sockg_electricalConductivity_siemens_per_m:
     annotations:
       count: 5552
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -5746,8 +5748,8 @@ slots:
     title: No slot (predicate) name specified
   sockg_elevation_m:
     any_of:
-    - range: integer
     - range: string
+    - range: int32
     comments:
     - No occurrences of this slot in the graph.
     description: No slot (predicate) description specified
@@ -5758,8 +5760,8 @@ slots:
     slot_uri: sockg:elevation_m
     title: No slot (predicate) name specified
     union_of:
-    - domain: sockg_WeatherStation
     - domain: sockg_Field
+    - domain: sockg_WeatherStation
   sockg_email:
     annotations:
       count: 87
@@ -5782,8 +5784,8 @@ slots:
     annotations:
       count: 3951
     any_of:
-    - range: date
     - range: string
+    - range: date
     description: No slot (predicate) description specified
     examples:
     - object:
@@ -5812,9 +5814,9 @@ slots:
     title: No slot (predicate) name specified
     union_of:
     - domain: sockg_Amendment
-    - domain: sockg_ExperimentalUnit
-    - domain: sockg_GrazingManagementEvent
     - domain: sockg_Experiment
+    - domain: sockg_GrazingManagementEvent
+    - domain: sockg_ExperimentalUnit
   sockg_equipmentType:
     annotations:
       count: 3044
@@ -5835,8 +5837,8 @@ slots:
     title: No slot (predicate) name specified
   sockg_erosionMethod:
     any_of:
-    - range: string
     - range: float
+    - range: string
     comments:
     - No occurrences of this slot in the graph.
     description: No slot (predicate) description specified
@@ -5845,8 +5847,8 @@ slots:
     slot_uri: sockg:erosionMethod
     title: No slot (predicate) name specified
     union_of:
-    - domain: sockg_WaterQualityArea
     - domain: sockg_WaterQualityConc
+    - domain: sockg_WaterQualityArea
     - domain: sockg_WindErosionArea
   sockg_erosionSedimentSd_kg:
     comments:
@@ -5923,8 +5925,8 @@ slots:
     annotations:
       count: 667
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_WaterQualityArea
     examples:
@@ -5995,7 +5997,7 @@ slots:
     description: No slot (predicate) description specified
     domain: sockg_Tillage
     name: sockg_eventDepth_cm
-    range: integer
+    range: int32
     see_also:
     - https://lod.nal.usda.gov/nalt/5406
     slot_uri: sockg:eventDepth_cm
@@ -6072,18 +6074,18 @@ slots:
     title: No slot (predicate) name specified
     union_of:
     - domain: sockg_WaterQualityArea
-    - domain: sockg_ExperimentalUnit
-    - domain: sockg_NutrientEfficiency
-    - domain: sockg_HarvestFraction
-    - domain: sockg_GasSample
-    - domain: sockg_WaterQualityConc
-    - domain: sockg_Harvest
-    - domain: sockg_ResidueManagementEvent
     - domain: sockg_WindErosionArea
-    - domain: sockg_GasNutrientLoss
+    - domain: sockg_NutrientEfficiency
+    - domain: sockg_WaterQualityConc
     - domain: sockg_CropGrowthStage
+    - domain: sockg_ExperimentalUnit
+    - domain: sockg_Harvest
+    - domain: sockg_GasNutrientLoss
     - domain: sockg_Amendment
     - domain: sockg_YieldNutrientUptake
+    - domain: sockg_HarvestFraction
+    - domain: sockg_ResidueManagementEvent
+    - domain: sockg_GasSample
   sockg_expUnit_UID:
     annotations:
       count: 9992
@@ -6136,10 +6138,10 @@ slots:
     slot_uri: sockg:expUnit_UID
     title: No slot (predicate) name specified
     union_of:
-    - domain: sockg_ExperimentalUnit
+    - domain: sockg_WindErosionArea
     - domain: sockg_NutrientEfficiency
     - domain: sockg_WaterQualityConc
-    - domain: sockg_WindErosionArea
+    - domain: sockg_ExperimentalUnit
     - domain: sockg_GasNutrientLoss
     - domain: sockg_YieldNutrientUptake
   sockg_experimentName:
@@ -6173,8 +6175,8 @@ slots:
     annotations:
       count: 3336
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -6203,8 +6205,8 @@ slots:
     annotations:
       count: 1314
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -6233,8 +6235,8 @@ slots:
     annotations:
       count: 1742
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -6263,8 +6265,8 @@ slots:
     annotations:
       count: 3337
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -6293,8 +6295,8 @@ slots:
     annotations:
       count: 2932
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -6323,8 +6325,8 @@ slots:
     annotations:
       count: 2952
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -6446,10 +6448,10 @@ slots:
     title: No slot (predicate) name specified
     union_of:
     - domain: sockg_WaterQualityArea
+    - domain: sockg_WindErosionArea
     - domain: sockg_NutrientEfficiency
     - domain: sockg_Field
     - domain: sockg_WaterQualityConc
-    - domain: sockg_WindErosionArea
     - domain: sockg_GasNutrientLoss
     - domain: sockg_YieldNutrientUptake
   sockg_firstName:
@@ -6534,8 +6536,8 @@ slots:
     annotations:
       count: 20
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_YieldNutrientUptake
     examples:
@@ -6555,8 +6557,8 @@ slots:
     annotations:
       count: 429
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_YieldNutrientUptake
     examples:
@@ -6574,8 +6576,8 @@ slots:
     annotations:
       count: 20
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_YieldNutrientUptake
     examples:
@@ -6595,8 +6597,8 @@ slots:
     annotations:
       count: 20
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_YieldNutrientUptake
     examples:
@@ -6614,8 +6616,8 @@ slots:
     annotations:
       count: 429
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_YieldNutrientUptake
     examples:
@@ -6633,8 +6635,8 @@ slots:
     annotations:
       count: 20
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_YieldNutrientUptake
     examples:
@@ -6654,8 +6656,8 @@ slots:
     annotations:
       count: 20
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_YieldNutrientUptake
     examples:
@@ -6693,8 +6695,8 @@ slots:
     annotations:
       count: 20
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_YieldNutrientUptake
     examples:
@@ -6714,8 +6716,8 @@ slots:
     annotations:
       count: 20
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_YieldNutrientUptake
     examples:
@@ -6733,8 +6735,8 @@ slots:
     annotations:
       count: 20
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_YieldNutrientUptake
     examples:
@@ -6781,8 +6783,8 @@ slots:
     annotations:
       count: 20
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_YieldNutrientUptake
     examples:
@@ -6802,8 +6804,8 @@ slots:
     annotations:
       count: 429
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_YieldNutrientUptake
     examples:
@@ -6821,8 +6823,8 @@ slots:
     annotations:
       count: 2791
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_NutrientEfficiency
     examples:
@@ -6889,8 +6891,8 @@ slots:
     annotations:
       count: 20
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_YieldNutrientUptake
     examples:
@@ -6930,8 +6932,8 @@ slots:
     annotations:
       count: 20
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_YieldNutrientUptake
     examples:
@@ -6951,8 +6953,8 @@ slots:
     annotations:
       count: 20
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_YieldNutrientUptake
     examples:
@@ -6997,8 +6999,8 @@ slots:
     annotations:
       count: 1367
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassCarbohydrate
     examples:
@@ -7051,8 +7053,8 @@ slots:
     annotations:
       count: 1367
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassCarbohydrate
     examples:
@@ -7083,8 +7085,8 @@ slots:
     annotations:
       count: 601
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilBiologicalSample
     examples:
@@ -7113,8 +7115,8 @@ slots:
     annotations:
       count: 1516
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilBiologicalSample
     examples:
@@ -7147,8 +7149,8 @@ slots:
     annotations:
       count: 13693
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Harvest
     examples:
@@ -7168,8 +7170,8 @@ slots:
     annotations:
       count: 8426
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Harvest
     examples:
@@ -7209,8 +7211,8 @@ slots:
     annotations:
       count: 70
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Harvest
     examples:
@@ -7230,8 +7232,8 @@ slots:
     annotations:
       count: 11255
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Harvest
     examples:
@@ -7291,8 +7293,8 @@ slots:
     annotations:
       count: 50
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Harvest
     examples:
@@ -7312,8 +7314,8 @@ slots:
     annotations:
       count: 15410
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Harvest
     examples:
@@ -7362,8 +7364,8 @@ slots:
     annotations:
       count: 795
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassEnergy
     examples:
@@ -7486,18 +7488,18 @@ slots:
     title: No slot (predicate) name specified
     union_of:
     - domain: sockg_WaterQualityArea
-    - domain: sockg_NutrientEfficiency
-    - domain: sockg_BioMassEnergy
-    - domain: sockg_HarvestFraction
-    - domain: sockg_WaterQualityConc
-    - domain: sockg_Harvest
     - domain: sockg_WindErosionArea
-    - domain: sockg_BioMassMineral
-    - domain: sockg_GasNutrientLoss
-    - domain: sockg_Grazing
+    - domain: sockg_NutrientEfficiency
+    - domain: sockg_WaterQualityConc
     - domain: sockg_CropGrowthStage
+    - domain: sockg_Grazing
+    - domain: sockg_GasNutrientLoss
+    - domain: sockg_Harvest
+    - domain: sockg_BioMassMineral
     - domain: sockg_YieldNutrientUptake
     - domain: sockg_BioMassCarbohydrate
+    - domain: sockg_BioMassEnergy
+    - domain: sockg_HarvestFraction
   sockg_happenedAtResearchUnit:
     comments:
     - No occurrences of this slot in the graph.
@@ -8033,8 +8035,8 @@ slots:
     annotations:
       count: 5391
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -8087,8 +8089,8 @@ slots:
     annotations:
       count: 6723
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassMineral
     examples:
@@ -8144,8 +8146,8 @@ slots:
     annotations:
       count: 4382
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Amendment
     examples:
@@ -8165,8 +8167,8 @@ slots:
     annotations:
       count: 160
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Amendment
     examples:
@@ -8186,8 +8188,8 @@ slots:
     annotations:
       count: 4220
     any_of:
-    - range: string
     - range: float
+    - range: string
     description: No slot (predicate) description specified
     domain: sockg_Amendment
     examples:
@@ -8215,6 +8217,9 @@ slots:
   sockg_isCarbonDioxideInterpolated:
     annotations:
       count: 107354
+    any_of:
+    - range: integer
+    - range: int32
     description: No slot (predicate) description specified
     domain: sockg_GasSample
     examples:
@@ -8225,7 +8230,7 @@ slots:
         example_subject: sockg:individuals/100000
         example_subject_type: sockg_GasSample
     name: sockg_isCarbonDioxideInterpolated
-    range: integer
+    range: Any
     slot_uri: sockg:isCarbonDioxideInterpolated
     title: No slot (predicate) name specified
   sockg_isChapterOf:
@@ -8265,6 +8270,9 @@ slots:
   sockg_isMethaneInterpolated:
     annotations:
       count: 107354
+    any_of:
+    - range: integer
+    - range: int32
     description: No slot (predicate) description specified
     domain: sockg_GasSample
     examples:
@@ -8275,12 +8283,15 @@ slots:
         example_subject: sockg:individuals/100000
         example_subject_type: sockg_GasSample
     name: sockg_isMethaneInterpolated
-    range: integer
+    range: Any
     slot_uri: sockg:isMethaneInterpolated
     title: No slot (predicate) name specified
   sockg_isNitrousOxideInterpolated:
     annotations:
       count: 107354
+    any_of:
+    - range: integer
+    - range: int32
     description: No slot (predicate) description specified
     domain: sockg_GasSample
     examples:
@@ -8291,7 +8302,7 @@ slots:
         example_subject: sockg:individuals/100000
         example_subject_type: sockg_GasSample
     name: sockg_isNitrousOxideInterpolated
-    range: integer
+    range: Any
     slot_uri: sockg:isNitrousOxideInterpolated
     title: No slot (predicate) name specified
   sockg_isPrimaryContact:
@@ -8359,8 +8370,8 @@ slots:
     slot_uri: sockg:latitude_decimal_deg
     title: No slot (predicate) name specified
     union_of:
-    - domain: sockg_WeatherStation
     - domain: sockg_Field
+    - domain: sockg_WeatherStation
   sockg_leafAreaIndexDrySd_kg_per_ha:
     comments:
     - No occurrences of this slot in the graph.
@@ -8376,8 +8387,8 @@ slots:
     annotations:
       count: 312
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Grazing
     examples:
@@ -8430,8 +8441,8 @@ slots:
     annotations:
       count: 799
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassCarbohydrate
     examples:
@@ -8565,14 +8576,14 @@ slots:
     slot_uri: sockg:longitude_decimal_deg
     title: No slot (predicate) name specified
     union_of:
-    - domain: sockg_WeatherStation
     - domain: sockg_Field
+    - domain: sockg_WeatherStation
   sockg_lossesOrDeposition:
     annotations:
       count: 139
     any_of:
-    - range: string
     - range: float
+    - range: string
     description: No slot (predicate) description specified
     examples:
     - object:
@@ -8600,6 +8611,7 @@ slots:
     any_of:
     - range: integer
     - range: double
+    - range: int32
     description: No slot (predicate) description specified
     examples:
     - object:
@@ -8627,9 +8639,9 @@ slots:
     slot_uri: sockg:lowerDepth_cm
     title: No slot (predicate) name specified
     union_of:
-    - domain: sockg_SoilChemicalSample
     - domain: sockg_SoilBiologicalSample
     - domain: sockg_SoilPhysicalSample
+    - domain: sockg_SoilChemicalSample
   sockg_macroAggregatesPercentSd:
     comments:
     - No occurrences of this slot in the graph.
@@ -8656,8 +8668,8 @@ slots:
     annotations:
       count: 6723
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassMineral
     examples:
@@ -8706,8 +8718,8 @@ slots:
     annotations:
       count: 6723
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassMineral
     examples:
@@ -9039,8 +9051,8 @@ slots:
     annotations:
       count: 101109
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_GasSample
     examples:
@@ -9060,8 +9072,8 @@ slots:
     annotations:
       count: 107090
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_GasSample
     examples:
@@ -9204,8 +9216,8 @@ slots:
     annotations:
       count: 3343
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -9234,8 +9246,8 @@ slots:
     annotations:
       count: 799
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassEnergy
     examples:
@@ -9309,8 +9321,8 @@ slots:
     title: No slot (predicate) name specified
     union_of:
     - domain: sockg_WaterQualityArea
-    - domain: sockg_WaterQualityConc
     - domain: sockg_WindErosionArea
+    - domain: sockg_WaterQualityConc
     - domain: sockg_GasNutrientLoss
     - domain: sockg_YieldNutrientUptake
   sockg_moistureDepth_cm:
@@ -9328,8 +9340,8 @@ slots:
     annotations:
       count: 846
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_HarvestFraction
     examples:
@@ -9444,8 +9456,8 @@ slots:
     annotations:
       count: 799
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassCarbohydrate
     examples:
@@ -9465,8 +9477,8 @@ slots:
     annotations:
       count: 667
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_WaterQualityArea
     examples:
@@ -9497,8 +9509,8 @@ slots:
     annotations:
       count: 354
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -9538,8 +9550,8 @@ slots:
     annotations:
       count: 37066
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -9614,8 +9626,8 @@ slots:
     annotations:
       count: 6723
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassMineral
     examples:
@@ -9666,8 +9678,8 @@ slots:
     annotations:
       count: 2080
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilBiologicalSample
     examples:
@@ -9714,8 +9726,8 @@ slots:
     annotations:
       count: 2791
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_NutrientEfficiency
     examples:
@@ -9742,8 +9754,8 @@ slots:
     annotations:
       count: 9110
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_HarvestFraction
     examples:
@@ -9763,8 +9775,8 @@ slots:
     annotations:
       count: 101109
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_GasSample
     examples:
@@ -9795,8 +9807,8 @@ slots:
     annotations:
       count: 107095
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_GasSample
     examples:
@@ -9816,8 +9828,8 @@ slots:
     annotations:
       count: 748
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_GasNutrientLoss
     examples:
@@ -9866,8 +9878,8 @@ slots:
     annotations:
       count: 751
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassCarbohydrate
     examples:
@@ -9896,8 +9908,8 @@ slots:
     annotations:
       count: 9217
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Harvest
     examples:
@@ -9926,8 +9938,8 @@ slots:
     annotations:
       count: 10748
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Harvest
     examples:
@@ -9947,8 +9959,8 @@ slots:
     annotations:
       count: 1372
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Harvest
     examples:
@@ -9990,8 +10002,8 @@ slots:
     annotations:
       count: 10384
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Harvest
     examples:
@@ -10027,8 +10039,8 @@ slots:
     annotations:
       count: 2569
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_NutrientEfficiency
     examples:
@@ -10046,8 +10058,8 @@ slots:
     annotations:
       count: 131522
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_WeatherObservation
     examples:
@@ -10076,8 +10088,8 @@ slots:
     annotations:
       count: 8192
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -10221,8 +10233,8 @@ slots:
     annotations:
       count: 18222
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilBiologicalSample
     examples:
@@ -10242,8 +10254,8 @@ slots:
     annotations:
       count: 826
     any_of:
-    - range: integer
     - range: double
+    - range: int32
     description: No slot (predicate) description specified
     domain: sockg_ResidueManagementEvent
     examples:
@@ -10347,8 +10359,8 @@ slots:
     annotations:
       count: 18189
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     examples:
     - object:
@@ -10364,10 +10376,10 @@ slots:
     slot_uri: sockg:ph
     title: No slot (predicate) name specified
     union_of:
-    - domain: sockg_WaterQualityArea
-    - domain: sockg_SoilChemicalSample
     - domain: sockg_WaterQualityConc
+    - domain: sockg_WaterQualityArea
     - domain: sockg_WindErosionArea
+    - domain: sockg_SoilChemicalSample
   sockg_phSd:
     comments:
     - No occurrences of this slot in the graph.
@@ -10379,10 +10391,10 @@ slots:
     slot_uri: sockg:phSd
     title: No slot (predicate) name specified
     union_of:
-    - domain: sockg_WaterQualityArea
-    - domain: sockg_SoilChemicalSample
     - domain: sockg_WaterQualityConc
+    - domain: sockg_WaterQualityArea
     - domain: sockg_WindErosionArea
+    - domain: sockg_SoilChemicalSample
   sockg_phoneNumber:
     annotations:
       count: 84
@@ -10425,8 +10437,8 @@ slots:
     annotations:
       count: 6723
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassMineral
     examples:
@@ -10477,8 +10489,8 @@ slots:
     annotations:
       count: 13439
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -10543,11 +10555,11 @@ slots:
     title: No slot (predicate) name specified
     union_of:
     - domain: sockg_NutrientEfficiency
+    - domain: sockg_YieldNutrientUptake
+    - domain: sockg_BioMassMineral
+    - domain: sockg_BioMassCarbohydrate
     - domain: sockg_BioMassEnergy
     - domain: sockg_HarvestFraction
-    - domain: sockg_BioMassMineral
-    - domain: sockg_YieldNutrientUptake
-    - domain: sockg_BioMassCarbohydrate
   sockg_plantingAt:
     annotations:
       count: 23450
@@ -10612,8 +10624,8 @@ slots:
     annotations:
       count: 60
     any_of:
-    - range: integer
     - range: double
+    - range: int32
     description: No slot (predicate) description specified
     domain: sockg_Site
     examples:
@@ -10644,8 +10656,8 @@ slots:
     annotations:
       count: 6723
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassMineral
     examples:
@@ -10694,9 +10706,9 @@ slots:
     annotations:
       count: 10949
     any_of:
+    - range: float
     - range: double
     - range: string
-    - range: float
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -10716,8 +10728,8 @@ slots:
     annotations:
       count: 147232
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_WeatherObservation
     examples:
@@ -10775,8 +10787,8 @@ slots:
     slot_uri: sockg:projectName
     title: No slot (predicate) name specified
     union_of:
-    - domain: sockg_Project
     - domain: sockg_Experiment
+    - domain: sockg_Project
   sockg_projectScenario:
     annotations:
       count: 769
@@ -10823,7 +10835,7 @@ slots:
     description: No slot (predicate) description specified
     domain: sockg_PlantingEvent
     name: sockg_rate_number_seeds_per_ha
-    range: integer
+    range: int32
     see_also:
     - https://lod.nal.usda.gov/nalt/302664
     slot_uri: sockg:rate_number_seeds_per_ha
@@ -10864,8 +10876,8 @@ slots:
     annotations:
       count: 138705
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_WeatherObservation
     examples:
@@ -11091,8 +11103,8 @@ slots:
     annotations:
       count: 23450
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_PlantingEvent
     examples:
@@ -11112,8 +11124,8 @@ slots:
     annotations:
       count: 3308
     any_of:
-    - range: integer
     - range: float
+    - range: integer
     description: No slot (predicate) description specified
     domain: sockg_ResidueManagementEvent
     examples:
@@ -11158,8 +11170,8 @@ slots:
     annotations:
       count: 1479
     any_of:
-    - range: integer
     - range: float
+    - range: integer
     description: No slot (predicate) description specified
     examples:
     - object:
@@ -11173,8 +11185,8 @@ slots:
     slot_uri: sockg:samplingDepth_cm
     title: No slot (predicate) name specified
     union_of:
-    - domain: sockg_WaterQualityArea
     - domain: sockg_WaterQualityConc
+    - domain: sockg_WaterQualityArea
   sockg_samplingStartStopInterval:
     annotations:
       count: 891
@@ -11203,16 +11215,16 @@ slots:
     slot_uri: sockg:samplingStartStopInterval
     title: No slot (predicate) name specified
     union_of:
-    - domain: sockg_WaterQualityArea
     - domain: sockg_GasNutrientLoss
     - domain: sockg_WaterQualityConc
+    - domain: sockg_WaterQualityArea
     - domain: sockg_WindErosionArea
   sockg_sandPercent:
     annotations:
       count: 27110
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilPhysicalSample
     examples:
@@ -11232,8 +11244,8 @@ slots:
     annotations:
       count: 27
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilPhysicalSample
     examples:
@@ -11253,8 +11265,8 @@ slots:
     annotations:
       count: 33
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilPhysicalSample
     examples:
@@ -11294,8 +11306,8 @@ slots:
     annotations:
       count: 27112
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilPhysicalSample
     examples:
@@ -11440,8 +11452,8 @@ slots:
     annotations:
       count: 6415
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassMineral
     examples:
@@ -11604,8 +11616,8 @@ slots:
     annotations:
       count: 15
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_WindErosionArea
     examples:
@@ -11634,8 +11646,8 @@ slots:
     annotations:
       count: 138926
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_WeatherObservation
     examples:
@@ -11655,8 +11667,8 @@ slots:
     annotations:
       count: 44409
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_WeatherObservation
     examples:
@@ -11676,8 +11688,8 @@ slots:
     annotations:
       count: 6403
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_GasSample
     examples:
@@ -11697,8 +11709,8 @@ slots:
     annotations:
       count: 107352
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_GasSample
     examples:
@@ -11727,8 +11739,8 @@ slots:
     annotations:
       count: 15
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_WindErosionArea
     examples:
@@ -11759,8 +11771,8 @@ slots:
     annotations:
       count: 38763
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_WeatherObservation
     examples:
@@ -11780,8 +11792,8 @@ slots:
     annotations:
       count: 119985
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_WeatherObservation
     examples:
@@ -11879,8 +11891,8 @@ slots:
     annotations:
       count: 93567
     any_of:
-    - range: date
     - range: string
+    - range: date
     description: No slot (predicate) description specified
     examples:
     - object:
@@ -11926,11 +11938,11 @@ slots:
     slot_uri: sockg:startDate
     title: No slot (predicate) name specified
     union_of:
-    - domain: sockg_ExperimentalUnit
-    - domain: sockg_GrazingManagementEvent
     - domain: sockg_WeatherStation
-    - domain: sockg_Experiment
+    - domain: sockg_GrazingManagementEvent
+    - domain: sockg_ExperimentalUnit
     - domain: sockg_Amendment
+    - domain: sockg_Experiment
   sockg_stateFIPS:
     annotations:
       count: 18
@@ -11966,8 +11978,8 @@ slots:
     annotations:
       count: 1951
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_GrazingManagementEvent
     examples:
@@ -12030,8 +12042,8 @@ slots:
     annotations:
       count: 5074
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassMineral
     examples:
@@ -12109,14 +12121,14 @@ slots:
     slot_uri: sockg:surfaceOrLeaching
     title: No slot (predicate) name specified
     union_of:
-    - domain: sockg_WaterQualityArea
     - domain: sockg_WaterQualityConc
+    - domain: sockg_WaterQualityArea
   sockg_tempMax_degC:
     annotations:
       count: 144885
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_WeatherObservation
     examples:
@@ -12136,8 +12148,8 @@ slots:
     annotations:
       count: 144828
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_WeatherObservation
     examples:
@@ -12225,8 +12237,8 @@ slots:
     annotations:
       count: 5471
     any_of:
-    - range: string
     - range: time
+    - range: string
     description: No slot (predicate) description specified
     examples:
     - object:
@@ -12241,10 +12253,10 @@ slots:
     title: No slot (predicate) name specified
     union_of:
     - domain: sockg_WaterQualityArea
-    - domain: sockg_GasSample
-    - domain: sockg_WaterQualityConc
     - domain: sockg_WindErosionArea
+    - domain: sockg_WaterQualityConc
     - domain: sockg_GasNutrientLoss
+    - domain: sockg_GasSample
   sockg_timingDescriptor:
     comments:
     - No occurrences of this slot in the graph.
@@ -12277,8 +12289,8 @@ slots:
     annotations:
       count: 17555
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Amendment
     examples:
@@ -12380,8 +12392,8 @@ slots:
     annotations:
       count: 667
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_WaterQualityArea
     examples:
@@ -12421,8 +12433,8 @@ slots:
     annotations:
       count: 21967
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Amendment
     examples:
@@ -12466,8 +12478,8 @@ slots:
     annotations:
       count: 667
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_WindErosionArea
     examples:
@@ -12507,8 +12519,8 @@ slots:
     annotations:
       count: 353
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Pesticide
     examples:
@@ -12539,8 +12551,8 @@ slots:
     annotations:
       count: 8440
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Amendment
     examples:
@@ -12604,8 +12616,8 @@ slots:
     annotations:
       count: 6151
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Amendment
     examples:
@@ -12623,8 +12635,8 @@ slots:
     annotations:
       count: 768
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -12644,8 +12656,8 @@ slots:
     annotations:
       count: 44073
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -12665,8 +12677,8 @@ slots:
     annotations:
       count: 720
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -12686,8 +12698,8 @@ slots:
     annotations:
       count: 46104
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilChemicalSample
     examples:
@@ -12761,9 +12773,9 @@ slots:
     annotations:
       count: 329500
     any_of:
-    - range: date
-    - range: string
     - range: float
+    - range: string
+    - range: date
     description: No slot (predicate) description specified
     examples:
     - object:
@@ -12903,21 +12915,21 @@ slots:
     slot_uri: sockg:treatmentId
     title: No slot (predicate) name specified
     union_of:
-    - domain: sockg_WaterQualityArea
-    - domain: sockg_GrazingManagementEvent
-    - domain: sockg_NutrientEfficiency
-    - domain: sockg_SoilBiologicalSample
-    - domain: sockg_SoilChemicalSample
     - domain: sockg_SoilPhysicalSample
-    - domain: sockg_HarvestFraction
-    - domain: sockg_WaterQualityConc
-    - domain: sockg_ResidueManagementEvent
+    - domain: sockg_WaterQualityArea
     - domain: sockg_WindErosionArea
+    - domain: sockg_NutrientEfficiency
+    - domain: sockg_Treatment
+    - domain: sockg_WaterQualityConc
+    - domain: sockg_GrazingManagementEvent
+    - domain: sockg_SoilChemicalSample
     - domain: sockg_GasNutrientLoss
     - domain: sockg_Amendment
+    - domain: sockg_SoilBiologicalSample
     - domain: sockg_YieldNutrientUptake
     - domain: sockg_BioMassCarbohydrate
-    - domain: sockg_Treatment
+    - domain: sockg_HarvestFraction
+    - domain: sockg_ResidueManagementEvent
   sockg_type:
     annotations:
       count: 23230
@@ -12953,8 +12965,8 @@ slots:
     annotations:
       count: 120
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_Harvest
     examples:
@@ -12983,6 +12995,7 @@ slots:
     any_of:
     - range: integer
     - range: double
+    - range: int32
     description: No slot (predicate) description specified
     examples:
     - object:
@@ -13010,9 +13023,9 @@ slots:
     slot_uri: sockg:upperDepth_cm
     title: No slot (predicate) name specified
     union_of:
-    - domain: sockg_SoilChemicalSample
     - domain: sockg_SoilBiologicalSample
     - domain: sockg_SoilPhysicalSample
+    - domain: sockg_SoilChemicalSample
   sockg_url:
     comments:
     - No occurrences of this slot in the graph.
@@ -13171,14 +13184,14 @@ slots:
     slot_uri: sockg:waterSd_mm
     title: No slot (predicate) name specified
     union_of:
-    - domain: sockg_WaterQualityArea
     - domain: sockg_WaterQualityConc
+    - domain: sockg_WaterQualityArea
   sockg_waterStableAggregatePercent:
     annotations:
       count: 42
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilPhysicalSample
     examples:
@@ -13209,8 +13222,8 @@ slots:
     annotations:
       count: 2146
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_WaterQualityConc
     examples:
@@ -13250,8 +13263,8 @@ slots:
     annotations:
       count: 1824
     any_of:
-    - range: integer
     - range: double
+    - range: int32
     description: No slot (predicate) description specified
     domain: sockg_WeatherObservation
     examples:
@@ -13366,8 +13379,8 @@ slots:
     annotations:
       count: 24
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_SoilPhysicalSample
     examples:
@@ -13387,8 +13400,8 @@ slots:
     annotations:
       count: 51210
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_WeatherObservation
     examples:
@@ -13440,8 +13453,8 @@ slots:
     annotations:
       count: 92684
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_WeatherObservation
     examples:
@@ -13520,8 +13533,8 @@ slots:
     annotations:
       count: 1367
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassCarbohydrate
     examples:
@@ -13543,7 +13556,7 @@ slots:
     description: No slot (predicate) description specified
     domain: sockg_GrazingManagementEvent
     name: sockg_yearsBetweenBurns
-    range: integer
+    range: int32
     slot_uri: sockg:yearsBetweenBurns
     title: No slot (predicate) name specified
   sockg_yieldNutrUptakeDataAt:
@@ -13593,8 +13606,8 @@ slots:
     annotations:
       count: 6723
     any_of:
-    - range: double
     - range: float
+    - range: double
     description: No slot (predicate) description specified
     domain: sockg_BioMassMineral
     examples:

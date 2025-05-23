@@ -27,8 +27,8 @@ URI: [sockg:organizationName](https://idir.uta.edu/sockg-ontology/docs/organizat
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgOrganization](../classes/SockgOrganization.md) | An Organization is a structured group of individuals working together to achi... |  yes  |
 | [SockgPerson](../classes/SockgPerson.md) | A Person represents an individual involved in agricultural activities, servin... |  yes  |
+| [SockgOrganization](../classes/SockgOrganization.md) | An Organization is a structured group of individuals working together to achi... |  yes  |
 
 
 

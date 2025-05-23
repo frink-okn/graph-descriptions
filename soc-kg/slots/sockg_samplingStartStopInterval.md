@@ -28,8 +28,8 @@ URI: [sockg:samplingStartStopInterval](https://idir.uta.edu/sockg-ontology/docs/
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | WaterQualityConc represents the concentration of various water quality parame... |  yes  |
-| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | The WindErosionArea class represents regions affected by wind erosion, detail... |  yes  |
 | [SockgGasNutrientLoss](../classes/SockgGasNutrientLoss.md) | The GasNutrientLoss class represents the assessment of gaseous nutrient losse... |  yes  |
+| [SockgWindErosionArea](../classes/SockgWindErosionArea.md) | The WindErosionArea class represents regions affected by wind erosion, detail... |  yes  |
 
 
 
@@ -97,9 +97,9 @@ domain_of:
 - sockg_WaterQualityConc
 - sockg_WindErosionArea
 union_of:
-- '{''domain'': ''sockg_WaterQualityArea''}'
 - '{''domain'': ''sockg_GasNutrientLoss''}'
 - '{''domain'': ''sockg_WaterQualityConc''}'
+- '{''domain'': ''sockg_WaterQualityArea''}'
 - '{''domain'': ''sockg_WindErosionArea''}'
 range: string
 

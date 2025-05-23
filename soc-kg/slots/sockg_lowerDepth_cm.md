@@ -27,9 +27,9 @@ URI: [sockg:lowerDepth_cm](https://idir.uta.edu/sockg-ontology/docs/lowerDepth_c
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | The SoilChemicalSample class represents a comprehensive analysis of soil chem... |  yes  |
-| [SockgSoilBiologicalSample](../classes/SockgSoilBiologicalSample.md) | SoilBiologicalSample represents a collection of measurements related to micro... |  yes  |
 | [SockgSoilPhysicalSample](../classes/SockgSoilPhysicalSample.md) | SoilPhysicalSample represents a comprehensive analysis of soil characteristic... |  yes  |
+| [SockgSoilBiologicalSample](../classes/SockgSoilBiologicalSample.md) | SoilBiologicalSample represents a collection of measurements related to micro... |  yes  |
+| [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | The SoilChemicalSample class represents a comprehensive analysis of soil chem... |  yes  |
 
 
 
@@ -39,7 +39,7 @@ URI: [sockg:lowerDepth_cm](https://idir.uta.edu/sockg-ontology/docs/lowerDepth_c
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[Int32](../types/Int32.md)
 
 
 
@@ -103,13 +103,14 @@ domain_of:
 - sockg_SoilChemicalSample
 - sockg_SoilPhysicalSample
 union_of:
-- '{''domain'': ''sockg_SoilChemicalSample''}'
 - '{''domain'': ''sockg_SoilBiologicalSample''}'
 - '{''domain'': ''sockg_SoilPhysicalSample''}'
+- '{''domain'': ''sockg_SoilChemicalSample''}'
 range: Any
 any_of:
 - range: integer
 - range: double
+- range: int32
 
 ```
 </details>

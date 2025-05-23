@@ -226,27 +226,27 @@ URI: [sockg:WaterQualityConc](https://idir.uta.edu/sockg-ontology/docs/WaterQual
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [sockg_crop](../slots/sockg_crop.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 553 |
 | [sockg_nitrate_mg_l](../slots/sockg_nitrate_mg_l.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 1479 |
-| [sockg_InorganicNitrogen_mg_l](../slots/sockg_InorganicNitrogen_mg_l.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 667 |
+| [sockg_crop](../slots/sockg_crop.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 553 |
 | [sockg_totalPhosphorus_mg_l](../slots/sockg_totalPhosphorus_mg_l.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 667 |
-| [sockg_expUnit_UID](../slots/sockg_expUnit_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 1479 |
-| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 1479 |
-| [sockg_fieldId](../slots/sockg_fieldId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 1479 |
-| [sockg_waterQualityConcDataAt](../slots/sockg_waterQualityConcDataAt.md) | 0..1 <br/> [SockgField](../classes/SockgField.md) | No slot (predicate) description specified <br/>  | direct | 1479 |
-| [sockg_water_mm](../slots/sockg_water_mm.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 1479 |
+| [sockg_InorganicNitrogen_mg_l](../slots/sockg_InorganicNitrogen_mg_l.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 667 |
 | [sockg_totalDissolvedPhosphorus_mgP_l](../slots/sockg_totalDissolvedPhosphorus_mgP_l.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 667 |
-| [sockg_waterQualityConcTreatment](../slots/sockg_waterQualityConcTreatment.md) | 0..1 <br/> [SockgTreatment](../classes/SockgTreatment.md) | No slot (predicate) description specified <br/>  | direct | 1479 |
-| [sockg_expUnitId](../slots/sockg_expUnitId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 1479 |
-| [sockg_samplingStartStopInterval](../slots/sockg_samplingStartStopInterval.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 812 |
-| [sockg_measWaterQualityConc_UID](../slots/sockg_measWaterQualityConc_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 1479 |
-| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 1479 |
-| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 1479 |
-| [sockg_modelIfSimulated](../slots/sockg_modelIfSimulated.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 798 |
-| [sockg_totalNitrogen_mg_l](../slots/sockg_totalNitrogen_mg_l.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 667 |
-| [sockg_samplingDepth_cm](../slots/sockg_samplingDepth_cm.md) | 0..1 <br/> [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float) | No slot (predicate) description specified <br/>  | direct | 1479 |
 | [sockg_surfaceOrLeaching](../slots/sockg_surfaceOrLeaching.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 1479 |
+| [sockg_waterQualityConcDataAt](../slots/sockg_waterQualityConcDataAt.md) | 0..1 <br/> [SockgField](../classes/SockgField.md) | No slot (predicate) description specified <br/>  | direct | 1479 |
+| [sockg_samplingDepth_cm](../slots/sockg_samplingDepth_cm.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer) | No slot (predicate) description specified <br/>  | direct | 1479 |
+| [sockg_expUnit_UID](../slots/sockg_expUnit_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 1479 |
+| [sockg_waterQualityConcTreatment](../slots/sockg_waterQualityConcTreatment.md) | 0..1 <br/> [SockgTreatment](../classes/SockgTreatment.md) | No slot (predicate) description specified <br/>  | direct | 1479 |
+| [sockg_totalNitrogen_mg_l](../slots/sockg_totalNitrogen_mg_l.md) | 0..1 <br/> [xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 667 |
+| [sockg_samplingStartStopInterval](../slots/sockg_samplingStartStopInterval.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 812 |
 | [sockg_growthStage](../slots/sockg_growthStage.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 812 |
+| [sockg_modelIfSimulated](../slots/sockg_modelIfSimulated.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 798 |
+| [sockg_water_mm](../slots/sockg_water_mm.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double) | No slot (predicate) description specified <br/>  | direct | 1479 |
+| [sockg_date](../slots/sockg_date.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot (predicate) description specified <br/>  | direct | 1479 |
+| [sockg_measWaterQualityConc_UID](../slots/sockg_measWaterQualityConc_UID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 1479 |
+| [sockg_fieldId](../slots/sockg_fieldId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 1479 |
+| [sockg_treatmentId](../slots/sockg_treatmentId.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot (predicate) description specified <br/>  | direct | 1479 |
+| [sockg_expUnitId](../slots/sockg_expUnitId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 1479 |
+| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 1479 |
 
 
 
@@ -258,8 +258,8 @@ URI: [sockg:WaterQualityConc](https://idir.uta.edu/sockg-ontology/docs/WaterQual
 | ---  | --- | --- | --- |
 | [SockgWaterQualityArea](../classes/SockgWaterQualityArea.md) | [sockg_water_mm](../slots/sockg_water_mm.md) | domain | [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) |
 | [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | [sockg_waterQualityConcDataAt](../slots/sockg_waterQualityConcDataAt.md) | domain | [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) |
-| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | [sockg_water_mm](../slots/sockg_water_mm.md) | domain | [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) |
 | [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | [sockg_waterQualityConcTreatment](../slots/sockg_waterQualityConcTreatment.md) | domain | [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) |
+| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | [sockg_water_mm](../slots/sockg_water_mm.md) | domain | [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) |
 | [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | [sockg_measWaterQualityConc_UID](../slots/sockg_measWaterQualityConc_UID.md) | domain | [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) |
 
 
@@ -296,27 +296,27 @@ title: No class (entity type) name specified
 from_schema: soc-kg
 rank: 1000
 slots:
-- sockg_crop
 - sockg_nitrate_mg_l
-- sockg_InorganicNitrogen_mg_l
+- sockg_crop
 - sockg_totalPhosphorus_mg_l
-- sockg_expUnit_UID
-- sockg_treatmentId
-- sockg_fieldId
-- sockg_waterQualityConcDataAt
-- sockg_water_mm
+- sockg_InorganicNitrogen_mg_l
 - sockg_totalDissolvedPhosphorus_mgP_l
-- sockg_waterQualityConcTreatment
-- sockg_expUnitId
-- sockg_samplingStartStopInterval
-- sockg_measWaterQualityConc_UID
-- sockg_date
-- rdfs_seeAlso
-- sockg_modelIfSimulated
-- sockg_totalNitrogen_mg_l
-- sockg_samplingDepth_cm
 - sockg_surfaceOrLeaching
+- sockg_waterQualityConcDataAt
+- sockg_samplingDepth_cm
+- sockg_expUnit_UID
+- sockg_waterQualityConcTreatment
+- sockg_totalNitrogen_mg_l
+- sockg_samplingStartStopInterval
 - sockg_growthStage
+- sockg_modelIfSimulated
+- sockg_water_mm
+- sockg_date
+- sockg_measWaterQualityConc_UID
+- sockg_fieldId
+- sockg_treatmentId
+- sockg_expUnitId
+- rdfs_seeAlso
 slot_usage:
   rdfs_seeAlso:
     name: rdfs_seeAlso
@@ -596,6 +596,28 @@ slot_usage:
         tag: double
         value: 1479
 attributes:
+  sockg_nitrate_mg_l:
+    name: sockg_nitrate_mg_l
+    annotations:
+      double:
+        tag: double
+        value: 1479
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '9.65735'
+        example_object_type: double
+        example_predicate: sockg:nitrate_mg_l
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:nitrate_mg_l
+    alias: sockg_nitrate_mg_l
+    owner: sockg_WaterQualityConc
+    domain_of:
+    - sockg_WaterQualityConc
+    range: double
   sockg_crop:
     name: sockg_crop
     annotations:
@@ -713,34 +735,34 @@ attributes:
     - sockg_YieldNutrientUptake
     union_of:
     - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_BioMassEnergy''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
     - '{''domain'': ''sockg_WindErosionArea''}'
-    - '{''domain'': ''sockg_BioMassMineral''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
     - '{''domain'': ''sockg_GasNutrientLoss''}'
-    - '{''domain'': ''sockg_Tillage''}'
     - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_BioMassMineral''}'
     - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+    - '{''domain'': ''sockg_BioMassEnergy''}'
+    - '{''domain'': ''sockg_Tillage''}'
     range: string
-  sockg_nitrate_mg_l:
-    name: sockg_nitrate_mg_l
+  sockg_totalPhosphorus_mg_l:
+    name: sockg_totalPhosphorus_mg_l
     annotations:
       double:
         tag: double
-        value: 1479
+        value: 667
     description: No slot (predicate) description specified
     examples:
     - object:
-        example_object: '9.65735'
+        example_object: '2.683277'
         example_object_type: double
-        example_predicate: sockg:nitrate_mg_l
-        example_subject: sockg:individuals/364993
+        example_predicate: sockg:totalPhosphorus_mg_l
+        example_subject: sockg:individuals/365805
         example_subject_type: sockg_WaterQualityConc
     from_schema: soc-kg
     rank: 1000
-    slot_uri: sockg:nitrate_mg_l
-    alias: sockg_nitrate_mg_l
+    slot_uri: sockg:totalPhosphorus_mg_l
+    alias: sockg_totalPhosphorus_mg_l
     owner: sockg_WaterQualityConc
     domain_of:
     - sockg_WaterQualityConc
@@ -767,8 +789,8 @@ attributes:
     domain_of:
     - sockg_WaterQualityConc
     range: double
-  sockg_totalPhosphorus_mg_l:
-    name: sockg_totalPhosphorus_mg_l
+  sockg_totalDissolvedPhosphorus_mgP_l:
+    name: sockg_totalDissolvedPhosphorus_mgP_l
     annotations:
       double:
         tag: double
@@ -776,19 +798,105 @@ attributes:
     description: No slot (predicate) description specified
     examples:
     - object:
-        example_object: '2.683277'
+        example_object: '1.754989'
         example_object_type: double
-        example_predicate: sockg:totalPhosphorus_mg_l
+        example_predicate: sockg:totalDissolvedPhosphorus_mgP_l
         example_subject: sockg:individuals/365805
         example_subject_type: sockg_WaterQualityConc
     from_schema: soc-kg
     rank: 1000
-    slot_uri: sockg:totalPhosphorus_mg_l
-    alias: sockg_totalPhosphorus_mg_l
+    slot_uri: sockg:totalDissolvedPhosphorus_mgP_l
+    alias: sockg_totalDissolvedPhosphorus_mgP_l
     owner: sockg_WaterQualityConc
     domain_of:
     - sockg_WaterQualityConc
     range: double
+  sockg_surfaceOrLeaching:
+    name: sockg_surfaceOrLeaching
+    annotations:
+      string:
+        tag: string
+        value: 1479
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: Surface
+        example_object_type: string
+        example_predicate: sockg:surfaceOrLeaching
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: Leaching
+        example_object_type: string
+        example_predicate: sockg:surfaceOrLeaching
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:surfaceOrLeaching
+    alias: sockg_surfaceOrLeaching
+    owner: sockg_WaterQualityConc
+    domain_of:
+    - sockg_WaterQualityArea
+    - sockg_WaterQualityConc
+    union_of:
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    range: string
+  sockg_waterQualityConcDataAt:
+    name: sockg_waterQualityConcDataAt
+    annotations:
+      sockg_Field:
+        tag: sockg_Field
+        value: 1479
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/55842
+        example_object_type: sockg_Field
+        example_predicate: sockg:waterQualityConcDataAt
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_WaterQualityConc
+    slot_uri: sockg:waterQualityConcDataAt
+    alias: sockg_waterQualityConcDataAt
+    owner: sockg_WaterQualityConc
+    domain_of:
+    - sockg_WaterQualityConc
+    range: sockg_Field
+  sockg_samplingDepth_cm:
+    name: sockg_samplingDepth_cm
+    annotations:
+      integer:
+        tag: integer
+        value: 1479
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '120'
+        example_object_type: integer
+        example_predicate: sockg:samplingDepth_cm
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:samplingDepth_cm
+    alias: sockg_samplingDepth_cm
+    owner: sockg_WaterQualityConc
+    domain_of:
+    - sockg_WaterQualityConc
+    union_of:
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    range: Any
+    any_of:
+    - range: float
+    - range: integer
   sockg_expUnit_UID:
     name: sockg_expUnit_UID
     annotations:
@@ -854,10 +962,581 @@ attributes:
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
     union_of:
-    - '{''domain'': ''sockg_ExperimentalUnit''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
     - '{''domain'': ''sockg_NutrientEfficiency''}'
     - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_ExperimentalUnit''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    range: string
+  sockg_waterQualityConcTreatment:
+    name: sockg_waterQualityConcTreatment
+    annotations:
+      sockg_Treatment:
+        tag: sockg_Treatment
+        value: 1479
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: sockg:individuals/364183
+        example_object_type: sockg_Treatment
+        example_predicate: sockg:waterQualityConcTreatment
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_WaterQualityConc
+    slot_uri: sockg:waterQualityConcTreatment
+    alias: sockg_waterQualityConcTreatment
+    owner: sockg_WaterQualityConc
+    domain_of:
+    - sockg_WaterQualityConc
+    range: sockg_Treatment
+  sockg_totalNitrogen_mg_l:
+    name: sockg_totalNitrogen_mg_l
+    annotations:
+      double:
+        tag: double
+        value: 667
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '11.6'
+        example_object_type: double
+        example_predicate: sockg:totalNitrogen_mg_l
+        example_subject: sockg:individuals/365805
+        example_subject_type: sockg_WaterQualityConc
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:totalNitrogen_mg_l
+    alias: sockg_totalNitrogen_mg_l
+    owner: sockg_WaterQualityConc
+    domain_of:
+    - sockg_WaterQualityConc
+    range: double
+  sockg_samplingStartStopInterval:
+    name: sockg_samplingStartStopInterval
+    annotations:
+      string:
+        tag: string
+        value: 812
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: Stop-Start
+        example_object_type: string
+        example_predicate: sockg:samplingStartStopInterval
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: Stop-Start
+        example_object_type: string
+        example_predicate: sockg:samplingStartStopInterval
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: Stop
+        example_object_type: string
+        example_predicate: sockg:samplingStartStopInterval
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:samplingStartStopInterval
+    alias: sockg_samplingStartStopInterval
+    owner: sockg_WaterQualityConc
+    domain_of:
+    - sockg_GasNutrientLoss
+    - sockg_WaterQualityConc
+    - sockg_WindErosionArea
+    union_of:
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_WaterQualityArea''}'
     - '{''domain'': ''sockg_WindErosionArea''}'
+    range: string
+  sockg_growthStage:
+    name: sockg_growthStage
+    annotations:
+      string:
+        tag: string
+        value: 812
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: Maturity
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/163960
+        example_subject_type: sockg_Grazing
+    - object:
+        example_object: Harvest
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/172911
+        example_subject_type: sockg_Harvest
+    - object:
+        example_object: V7
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
+    - object:
+        example_object: Maturity
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: Harvest
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: Maturity
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: R6
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/46937
+        example_subject_type: sockg_CropGrowthStage
+    - object:
+        example_object: Maturity
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: Pre-graze
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: Pre-graze
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: Pre-graze
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: Harvest
+        example_object_type: string
+        example_predicate: sockg:growthStage
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/7140
+    rank: 1000
+    slot_uri: sockg:growthStage
+    alias: sockg_growthStage
+    owner: sockg_WaterQualityConc
+    domain_of:
+    - sockg_BioMassCarbohydrate
+    - sockg_BioMassEnergy
+    - sockg_BioMassMineral
+    - sockg_CropGrowthStage
+    - sockg_GasNutrientLoss
+    - sockg_Grazing
+    - sockg_Harvest
+    - sockg_HarvestFraction
+    - sockg_NutrientEfficiency
+    - sockg_WaterQualityConc
+    - sockg_WindErosionArea
+    - sockg_YieldNutrientUptake
+    union_of:
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_CropGrowthStage''}'
+    - '{''domain'': ''sockg_Grazing''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_Harvest''}'
+    - '{''domain'': ''sockg_BioMassMineral''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+    - '{''domain'': ''sockg_BioMassEnergy''}'
+    - '{''domain'': ''sockg_HarvestFraction''}'
+    range: string
+  sockg_modelIfSimulated:
+    name: sockg_modelIfSimulated
+    annotations:
+      string:
+        tag: string
+        value: 798
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: RZWQM
+        example_object_type: string
+        example_predicate: sockg:modelIfSimulated
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: RZWQM
+        example_object_type: string
+        example_predicate: sockg:modelIfSimulated
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: Linear Proportional
+        example_object_type: string
+        example_predicate: sockg:modelIfSimulated
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:modelIfSimulated
+    alias: sockg_modelIfSimulated
+    owner: sockg_WaterQualityConc
+    domain_of:
+    - sockg_GasNutrientLoss
+    - sockg_WaterQualityConc
+    - sockg_WindErosionArea
+    union_of:
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    range: string
+  sockg_water_mm:
+    name: sockg_water_mm
+    annotations:
+      double:
+        tag: double
+        value: 1479
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '33.61166'
+        example_object_type: double
+        example_predicate: sockg:water_mm
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: '70.85973'
+        example_object_type: double
+        example_predicate: sockg:water_mm
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_WaterQualityConc
+    slot_uri: sockg:water_mm
+    alias: sockg_water_mm
+    owner: sockg_WaterQualityConc
+    domain_of:
+    - sockg_WaterQualityArea
+    - sockg_WaterQualityConc
+    range: Any
+    any_of:
+    - range: float
+    - range: double
+  sockg_date:
+    name: sockg_date
+    annotations:
+      string:
+        tag: string
+        value: 1479
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: '2005-06-28'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/100000
+        example_subject_type: sockg_GasSample
+    - object:
+        example_object: '1997-07-10'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/163960
+        example_subject_type: sockg_Grazing
+    - object:
+        example_object: '2007-11-14'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/172906
+        example_subject_type: sockg_Harvest
+    - object:
+        example_object: '2006-06-19'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/191262
+        example_subject_type: sockg_HarvestFraction
+    - object:
+        example_object: '2011-10-05'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/227674
+        example_subject_type: sockg_ResidueManagementEvent
+    - object:
+        example_object: '1994-04-11'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/235229
+        example_subject_type: sockg_SoilBiologicalSample
+    - object:
+        example_object: '2007-10-29'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/253451
+        example_subject_type: sockg_SoilChemicalSample
+    - object:
+        example_object: '2011-11-07'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/307284
+        example_subject_type: sockg_SoilCover
+    - object:
+        example_object: '2010-10-27'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/308318
+        example_subject_type: sockg_SoilPhysicalSample
+    - object:
+        example_object: '2009-10-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/37796
+        example_subject_type: sockg_BioMassCarbohydrate
+    - object:
+        example_object: '2008-09-04'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/39163
+        example_subject_type: sockg_BioMassEnergy
+    - object:
+        example_object: '2018-10-04'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/39962
+        example_subject_type: sockg_BioMassMineral
+    - object:
+        example_object: '2015-10-25'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/439235
+        example_subject_type: sockg_WeatherObservation
+    - object:
+        example_object: '2011-08-31'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/46937
+        example_subject_type: sockg_CropGrowthStage
+    - object:
+        example_object: '2014-09-15'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: '2011-04-12'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: '2003-05-13'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: '2003-11-22'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/513777
+        example_subject_type: sockg_WeatherStation
+    - object:
+        example_object: '2008-05-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: '2001-03-15'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: '2014-11-01'
+        example_object_type: string
+        example_predicate: sockg:date
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    see_also:
+    - https://lod.nal.usda.gov/nalt/302328
+    rank: 1000
+    slot_uri: sockg:date
+    alias: sockg_date
+    owner: sockg_WaterQualityConc
+    domain_of:
+    - sockg_BioMassCarbohydrate
+    - sockg_BioMassEnergy
+    - sockg_BioMassMineral
+    - sockg_CropGrowthStage
+    - sockg_GasNutrientLoss
+    - sockg_GasSample
+    - sockg_Grazing
+    - sockg_Harvest
+    - sockg_HarvestFraction
+    - sockg_NutrientEfficiency
+    - sockg_ResidueManagementEvent
+    - sockg_SoilBiologicalSample
+    - sockg_SoilChemicalSample
+    - sockg_SoilCover
+    - sockg_SoilPhysicalSample
+    - sockg_WaterQualityArea
+    - sockg_WaterQualityConc
+    - sockg_WeatherObservation
+    - sockg_WeatherStation
+    - sockg_WindErosionArea
+    - sockg_YieldNutrientUptake
+    union_of:
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_CropGrowthStage''}'
+    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
+    - '{''domain'': ''sockg_Site''}'
+    - '{''domain'': ''sockg_ResidueManagementEvent''}'
+    - '{''domain'': ''sockg_GasSample''}'
+    - '{''domain'': ''sockg_PlantingEvent''}'
+    - '{''domain'': ''sockg_SoilCover''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_WeatherObservation''}'
+    - '{''domain'': ''sockg_SoilChemicalSample''}'
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_Publication''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_BioMassEnergy''}'
+    - '{''domain'': ''sockg_MiscellaneousMeasurement''}'
+    - '{''domain'': ''sockg_SoilPhysicalSample''}'
+    - '{''domain'': ''sockg_Grazing''}'
+    - '{''domain'': ''sockg_Harvest''}'
+    - '{''domain'': ''sockg_SoilBiologicalSample''}'
+    - '{''domain'': ''sockg_BioMassMineral''}'
+    - '{''domain'': ''sockg_YieldNutrientUptake''}'
+    - '{''domain'': ''sockg_Tillage''}'
+    range: Any
+    any_of:
+    - range: string
+    - range: date
+  sockg_measWaterQualityConc_UID:
+    name: sockg_measWaterQualityConc_UID
+    annotations:
+      string:
+        tag: string
+        value: 1479
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: AgCros_IAAMKELL_120_2003-05-13
+        example_object_type: string
+        example_predicate: sockg:measWaterQualityConc_UID
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    from_schema: soc-kg
+    rank: 1000
+    domain: sockg_WaterQualityConc
+    slot_uri: sockg:measWaterQualityConc_UID
+    alias: sockg_measWaterQualityConc_UID
+    owner: sockg_WaterQualityConc
+    domain_of:
+    - sockg_WaterQualityConc
+    range: string
+  sockg_fieldId:
+    name: sockg_fieldId
+    annotations:
+      string:
+        tag: string
+        value: 1479
+    description: No slot (predicate) description specified
+    title: No slot (predicate) name specified
+    examples:
+    - object:
+        example_object: ALAUSDR
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/55800
+        example_subject_type: sockg_Field
+    - object:
+        example_object: MNMOCAL
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/200732
+        example_subject_type: sockg_NutrientEfficiency
+    - object:
+        example_object: WIPDBARN
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/364326
+        example_subject_type: sockg_WaterQualityArea
+    - object:
+        example_object: IAAMKELL
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/364993
+        example_subject_type: sockg_WaterQualityConc
+    - object:
+        example_object: IAAMKELL
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/55858
+        example_subject_type: sockg_GasNutrientLoss
+    - object:
+        example_object: TXBSWEWC
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/624572
+        example_subject_type: sockg_WindErosionArea
+    - object:
+        example_object: MNSP4R
+        example_object_type: string
+        example_predicate: sockg:fieldId
+        example_subject: sockg:individuals/624587
+        example_subject_type: sockg_YieldNutrientUptake
+    from_schema: soc-kg
+    rank: 1000
+    slot_uri: sockg:fieldId
+    alias: sockg_fieldId
+    owner: sockg_WaterQualityConc
+    domain_of:
+    - sockg_Field
+    - sockg_GasNutrientLoss
+    - sockg_NutrientEfficiency
+    - sockg_WaterQualityArea
+    - sockg_WaterQualityConc
+    - sockg_WindErosionArea
+    - sockg_YieldNutrientUptake
+    union_of:
+    - '{''domain'': ''sockg_WaterQualityArea''}'
+    - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_Field''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
     - '{''domain'': ''sockg_GasNutrientLoss''}'
     - '{''domain'': ''sockg_YieldNutrientUptake''}'
     range: string
@@ -1031,203 +1710,26 @@ attributes:
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
     union_of:
-    - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_GrazingManagementEvent''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_SoilBiologicalSample''}'
-    - '{''domain'': ''sockg_SoilChemicalSample''}'
     - '{''domain'': ''sockg_SoilPhysicalSample''}'
-    - '{''domain'': ''sockg_HarvestFraction''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    - '{''domain'': ''sockg_ResidueManagementEvent''}'
+    - '{''domain'': ''sockg_WaterQualityArea''}'
     - '{''domain'': ''sockg_WindErosionArea''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_Treatment''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
+    - '{''domain'': ''sockg_GrazingManagementEvent''}'
+    - '{''domain'': ''sockg_SoilChemicalSample''}'
     - '{''domain'': ''sockg_GasNutrientLoss''}'
     - '{''domain'': ''sockg_Amendment''}'
+    - '{''domain'': ''sockg_SoilBiologicalSample''}'
     - '{''domain'': ''sockg_YieldNutrientUptake''}'
     - '{''domain'': ''sockg_BioMassCarbohydrate''}'
-    - '{''domain'': ''sockg_Treatment''}'
+    - '{''domain'': ''sockg_HarvestFraction''}'
+    - '{''domain'': ''sockg_ResidueManagementEvent''}'
     range: Any
     any_of:
-    - range: date
+    - range: float
     - range: string
-    - range: float
-  sockg_fieldId:
-    name: sockg_fieldId
-    annotations:
-      string:
-        tag: string
-        value: 1479
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: ALAUSDR
-        example_object_type: string
-        example_predicate: sockg:fieldId
-        example_subject: sockg:individuals/55800
-        example_subject_type: sockg_Field
-    - object:
-        example_object: MNMOCAL
-        example_object_type: string
-        example_predicate: sockg:fieldId
-        example_subject: sockg:individuals/200732
-        example_subject_type: sockg_NutrientEfficiency
-    - object:
-        example_object: WIPDBARN
-        example_object_type: string
-        example_predicate: sockg:fieldId
-        example_subject: sockg:individuals/364326
-        example_subject_type: sockg_WaterQualityArea
-    - object:
-        example_object: IAAMKELL
-        example_object_type: string
-        example_predicate: sockg:fieldId
-        example_subject: sockg:individuals/364993
-        example_subject_type: sockg_WaterQualityConc
-    - object:
-        example_object: IAAMKELL
-        example_object_type: string
-        example_predicate: sockg:fieldId
-        example_subject: sockg:individuals/55858
-        example_subject_type: sockg_GasNutrientLoss
-    - object:
-        example_object: TXBSWEWC
-        example_object_type: string
-        example_predicate: sockg:fieldId
-        example_subject: sockg:individuals/624572
-        example_subject_type: sockg_WindErosionArea
-    - object:
-        example_object: MNSP4R
-        example_object_type: string
-        example_predicate: sockg:fieldId
-        example_subject: sockg:individuals/624587
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:fieldId
-    alias: sockg_fieldId
-    owner: sockg_WaterQualityConc
-    domain_of:
-    - sockg_Field
-    - sockg_GasNutrientLoss
-    - sockg_NutrientEfficiency
-    - sockg_WaterQualityArea
-    - sockg_WaterQualityConc
-    - sockg_WindErosionArea
-    - sockg_YieldNutrientUptake
-    union_of:
-    - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_Field''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    - '{''domain'': ''sockg_WindErosionArea''}'
-    - '{''domain'': ''sockg_GasNutrientLoss''}'
-    - '{''domain'': ''sockg_YieldNutrientUptake''}'
-    range: string
-  sockg_waterQualityConcDataAt:
-    name: sockg_waterQualityConcDataAt
-    annotations:
-      sockg_Field:
-        tag: sockg_Field
-        value: 1479
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: sockg:individuals/55842
-        example_object_type: sockg_Field
-        example_predicate: sockg:waterQualityConcDataAt
-        example_subject: sockg:individuals/364993
-        example_subject_type: sockg_WaterQualityConc
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_WaterQualityConc
-    slot_uri: sockg:waterQualityConcDataAt
-    alias: sockg_waterQualityConcDataAt
-    owner: sockg_WaterQualityConc
-    domain_of:
-    - sockg_WaterQualityConc
-    range: sockg_Field
-  sockg_water_mm:
-    name: sockg_water_mm
-    annotations:
-      double:
-        tag: double
-        value: 1479
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '33.61166'
-        example_object_type: double
-        example_predicate: sockg:water_mm
-        example_subject: sockg:individuals/364326
-        example_subject_type: sockg_WaterQualityArea
-    - object:
-        example_object: '70.85973'
-        example_object_type: double
-        example_predicate: sockg:water_mm
-        example_subject: sockg:individuals/364993
-        example_subject_type: sockg_WaterQualityConc
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_WaterQualityConc
-    slot_uri: sockg:water_mm
-    alias: sockg_water_mm
-    owner: sockg_WaterQualityConc
-    domain_of:
-    - sockg_WaterQualityArea
-    - sockg_WaterQualityConc
-    range: Any
-    any_of:
-    - range: double
-    - range: float
-  sockg_totalDissolvedPhosphorus_mgP_l:
-    name: sockg_totalDissolvedPhosphorus_mgP_l
-    annotations:
-      double:
-        tag: double
-        value: 667
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: '1.754989'
-        example_object_type: double
-        example_predicate: sockg:totalDissolvedPhosphorus_mgP_l
-        example_subject: sockg:individuals/365805
-        example_subject_type: sockg_WaterQualityConc
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:totalDissolvedPhosphorus_mgP_l
-    alias: sockg_totalDissolvedPhosphorus_mgP_l
-    owner: sockg_WaterQualityConc
-    domain_of:
-    - sockg_WaterQualityConc
-    range: double
-  sockg_waterQualityConcTreatment:
-    name: sockg_waterQualityConcTreatment
-    annotations:
-      sockg_Treatment:
-        tag: sockg_Treatment
-        value: 1479
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: sockg:individuals/364183
-        example_object_type: sockg_Treatment
-        example_predicate: sockg:waterQualityConcTreatment
-        example_subject: sockg:individuals/364993
-        example_subject_type: sockg_WaterQualityConc
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_WaterQualityConc
-    slot_uri: sockg:waterQualityConcTreatment
-    alias: sockg_waterQualityConcTreatment
-    owner: sockg_WaterQualityConc
-    domain_of:
-    - sockg_WaterQualityConc
-    range: sockg_Treatment
+    - range: date
   sockg_expUnitId:
     name: sockg_expUnitId
     annotations:
@@ -1303,278 +1805,19 @@ attributes:
     - sockg_YieldNutrientUptake
     union_of:
     - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_ExperimentalUnit''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_HarvestFraction''}'
-    - '{''domain'': ''sockg_GasSample''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    - '{''domain'': ''sockg_Harvest''}'
-    - '{''domain'': ''sockg_ResidueManagementEvent''}'
     - '{''domain'': ''sockg_WindErosionArea''}'
-    - '{''domain'': ''sockg_GasNutrientLoss''}'
+    - '{''domain'': ''sockg_NutrientEfficiency''}'
+    - '{''domain'': ''sockg_WaterQualityConc''}'
     - '{''domain'': ''sockg_CropGrowthStage''}'
+    - '{''domain'': ''sockg_ExperimentalUnit''}'
+    - '{''domain'': ''sockg_Harvest''}'
+    - '{''domain'': ''sockg_GasNutrientLoss''}'
     - '{''domain'': ''sockg_Amendment''}'
     - '{''domain'': ''sockg_YieldNutrientUptake''}'
-    range: string
-  sockg_samplingStartStopInterval:
-    name: sockg_samplingStartStopInterval
-    annotations:
-      string:
-        tag: string
-        value: 812
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: Stop-Start
-        example_object_type: string
-        example_predicate: sockg:samplingStartStopInterval
-        example_subject: sockg:individuals/364993
-        example_subject_type: sockg_WaterQualityConc
-    - object:
-        example_object: Stop-Start
-        example_object_type: string
-        example_predicate: sockg:samplingStartStopInterval
-        example_subject: sockg:individuals/55858
-        example_subject_type: sockg_GasNutrientLoss
-    - object:
-        example_object: Stop
-        example_object_type: string
-        example_predicate: sockg:samplingStartStopInterval
-        example_subject: sockg:individuals/624572
-        example_subject_type: sockg_WindErosionArea
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:samplingStartStopInterval
-    alias: sockg_samplingStartStopInterval
-    owner: sockg_WaterQualityConc
-    domain_of:
-    - sockg_GasNutrientLoss
-    - sockg_WaterQualityConc
-    - sockg_WindErosionArea
-    union_of:
-    - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_GasNutrientLoss''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    - '{''domain'': ''sockg_WindErosionArea''}'
-    range: string
-  sockg_measWaterQualityConc_UID:
-    name: sockg_measWaterQualityConc_UID
-    annotations:
-      string:
-        tag: string
-        value: 1479
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: AgCros_IAAMKELL_120_2003-05-13
-        example_object_type: string
-        example_predicate: sockg:measWaterQualityConc_UID
-        example_subject: sockg:individuals/364993
-        example_subject_type: sockg_WaterQualityConc
-    from_schema: soc-kg
-    rank: 1000
-    domain: sockg_WaterQualityConc
-    slot_uri: sockg:measWaterQualityConc_UID
-    alias: sockg_measWaterQualityConc_UID
-    owner: sockg_WaterQualityConc
-    domain_of:
-    - sockg_WaterQualityConc
-    range: string
-  sockg_date:
-    name: sockg_date
-    annotations:
-      string:
-        tag: string
-        value: 1479
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '2005-06-28'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/100000
-        example_subject_type: sockg_GasSample
-    - object:
-        example_object: '1997-07-10'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/163960
-        example_subject_type: sockg_Grazing
-    - object:
-        example_object: '2007-11-14'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/172906
-        example_subject_type: sockg_Harvest
-    - object:
-        example_object: '2006-06-19'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/191262
-        example_subject_type: sockg_HarvestFraction
-    - object:
-        example_object: '2011-10-05'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/227674
-        example_subject_type: sockg_ResidueManagementEvent
-    - object:
-        example_object: '1994-04-11'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/235229
-        example_subject_type: sockg_SoilBiologicalSample
-    - object:
-        example_object: '2007-10-29'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/253451
-        example_subject_type: sockg_SoilChemicalSample
-    - object:
-        example_object: '2011-11-07'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/307284
-        example_subject_type: sockg_SoilCover
-    - object:
-        example_object: '2010-10-27'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/308318
-        example_subject_type: sockg_SoilPhysicalSample
-    - object:
-        example_object: '2009-10-01'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/37796
-        example_subject_type: sockg_BioMassCarbohydrate
-    - object:
-        example_object: '2008-09-04'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/39163
-        example_subject_type: sockg_BioMassEnergy
-    - object:
-        example_object: '2018-10-04'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/39962
-        example_subject_type: sockg_BioMassMineral
-    - object:
-        example_object: '2015-10-25'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/439235
-        example_subject_type: sockg_WeatherObservation
-    - object:
-        example_object: '2011-08-31'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/46937
-        example_subject_type: sockg_CropGrowthStage
-    - object:
-        example_object: '2014-09-15'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/200732
-        example_subject_type: sockg_NutrientEfficiency
-    - object:
-        example_object: '2011-04-12'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/364326
-        example_subject_type: sockg_WaterQualityArea
-    - object:
-        example_object: '2003-05-13'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/364993
-        example_subject_type: sockg_WaterQualityConc
-    - object:
-        example_object: '2003-11-22'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/513777
-        example_subject_type: sockg_WeatherStation
-    - object:
-        example_object: '2008-05-01'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/55858
-        example_subject_type: sockg_GasNutrientLoss
-    - object:
-        example_object: '2001-03-15'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/624572
-        example_subject_type: sockg_WindErosionArea
-    - object:
-        example_object: '2014-11-01'
-        example_object_type: string
-        example_predicate: sockg:date
-        example_subject: sockg:individuals/624587
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/302328
-    rank: 1000
-    slot_uri: sockg:date
-    alias: sockg_date
-    owner: sockg_WaterQualityConc
-    domain_of:
-    - sockg_BioMassCarbohydrate
-    - sockg_BioMassEnergy
-    - sockg_BioMassMineral
-    - sockg_CropGrowthStage
-    - sockg_GasNutrientLoss
-    - sockg_GasSample
-    - sockg_Grazing
-    - sockg_Harvest
-    - sockg_HarvestFraction
-    - sockg_NutrientEfficiency
-    - sockg_ResidueManagementEvent
-    - sockg_SoilBiologicalSample
-    - sockg_SoilChemicalSample
-    - sockg_SoilCover
-    - sockg_SoilPhysicalSample
-    - sockg_WaterQualityArea
-    - sockg_WaterQualityConc
-    - sockg_WeatherObservation
-    - sockg_WeatherStation
-    - sockg_WindErosionArea
-    - sockg_YieldNutrientUptake
-    union_of:
-    - '{''domain'': ''sockg_PlantingEvent''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    - '{''domain'': ''sockg_BioMassMineral''}'
-    - '{''domain'': ''sockg_Tillage''}'
-    - '{''domain'': ''sockg_Publication''}'
-    - '{''domain'': ''sockg_CropGrowthStage''}'
-    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
-    - '{''domain'': ''sockg_Site''}'
-    - '{''domain'': ''sockg_SoilBiologicalSample''}'
-    - '{''domain'': ''sockg_GasSample''}'
-    - '{''domain'': ''sockg_SoilCover''}'
-    - '{''domain'': ''sockg_SoilChemicalSample''}'
-    - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_WindErosionArea''}'
-    - '{''domain'': ''sockg_Grazing''}'
-    - '{''domain'': ''sockg_YieldNutrientUptake''}'
-    - '{''domain'': ''sockg_MiscellaneousMeasurement''}'
-    - '{''domain'': ''sockg_SoilPhysicalSample''}'
-    - '{''domain'': ''sockg_BioMassEnergy''}'
-    - '{''domain'': ''sockg_Harvest''}'
+    - '{''domain'': ''sockg_HarvestFraction''}'
     - '{''domain'': ''sockg_ResidueManagementEvent''}'
-    - '{''domain'': ''sockg_GasNutrientLoss''}'
-    - '{''domain'': ''sockg_WeatherObservation''}'
-    range: Any
-    any_of:
-    - range: date
-    - range: string
+    - '{''domain'': ''sockg_GasSample''}'
+    range: string
   rdfs_seeAlso:
     name: rdfs_seeAlso
     annotations:
@@ -1877,249 +2120,6 @@ attributes:
     - sockg_WindErosionArea
     - sockg_YieldNutrientUptake
     range: uri
-  sockg_modelIfSimulated:
-    name: sockg_modelIfSimulated
-    annotations:
-      string:
-        tag: string
-        value: 798
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: RZWQM
-        example_object_type: string
-        example_predicate: sockg:modelIfSimulated
-        example_subject: sockg:individuals/364993
-        example_subject_type: sockg_WaterQualityConc
-    - object:
-        example_object: RZWQM
-        example_object_type: string
-        example_predicate: sockg:modelIfSimulated
-        example_subject: sockg:individuals/55858
-        example_subject_type: sockg_GasNutrientLoss
-    - object:
-        example_object: Linear Proportional
-        example_object_type: string
-        example_predicate: sockg:modelIfSimulated
-        example_subject: sockg:individuals/624572
-        example_subject_type: sockg_WindErosionArea
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:modelIfSimulated
-    alias: sockg_modelIfSimulated
-    owner: sockg_WaterQualityConc
-    domain_of:
-    - sockg_GasNutrientLoss
-    - sockg_WaterQualityConc
-    - sockg_WindErosionArea
-    union_of:
-    - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    - '{''domain'': ''sockg_WindErosionArea''}'
-    - '{''domain'': ''sockg_GasNutrientLoss''}'
-    - '{''domain'': ''sockg_YieldNutrientUptake''}'
-    range: string
-  sockg_totalNitrogen_mg_l:
-    name: sockg_totalNitrogen_mg_l
-    annotations:
-      double:
-        tag: double
-        value: 667
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: '11.6'
-        example_object_type: double
-        example_predicate: sockg:totalNitrogen_mg_l
-        example_subject: sockg:individuals/365805
-        example_subject_type: sockg_WaterQualityConc
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:totalNitrogen_mg_l
-    alias: sockg_totalNitrogen_mg_l
-    owner: sockg_WaterQualityConc
-    domain_of:
-    - sockg_WaterQualityConc
-    range: double
-  sockg_samplingDepth_cm:
-    name: sockg_samplingDepth_cm
-    annotations:
-      integer:
-        tag: integer
-        value: 1479
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '120'
-        example_object_type: integer
-        example_predicate: sockg:samplingDepth_cm
-        example_subject: sockg:individuals/364993
-        example_subject_type: sockg_WaterQualityConc
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:samplingDepth_cm
-    alias: sockg_samplingDepth_cm
-    owner: sockg_WaterQualityConc
-    domain_of:
-    - sockg_WaterQualityConc
-    union_of:
-    - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    range: Any
-    any_of:
-    - range: integer
-    - range: float
-  sockg_surfaceOrLeaching:
-    name: sockg_surfaceOrLeaching
-    annotations:
-      string:
-        tag: string
-        value: 1479
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: Surface
-        example_object_type: string
-        example_predicate: sockg:surfaceOrLeaching
-        example_subject: sockg:individuals/364326
-        example_subject_type: sockg_WaterQualityArea
-    - object:
-        example_object: Leaching
-        example_object_type: string
-        example_predicate: sockg:surfaceOrLeaching
-        example_subject: sockg:individuals/364993
-        example_subject_type: sockg_WaterQualityConc
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: sockg:surfaceOrLeaching
-    alias: sockg_surfaceOrLeaching
-    owner: sockg_WaterQualityConc
-    domain_of:
-    - sockg_WaterQualityArea
-    - sockg_WaterQualityConc
-    union_of:
-    - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    range: string
-  sockg_growthStage:
-    name: sockg_growthStage
-    annotations:
-      string:
-        tag: string
-        value: 812
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: Maturity
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/163960
-        example_subject_type: sockg_Grazing
-    - object:
-        example_object: Harvest
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/172911
-        example_subject_type: sockg_Harvest
-    - object:
-        example_object: V7
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/191262
-        example_subject_type: sockg_HarvestFraction
-    - object:
-        example_object: Maturity
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/37796
-        example_subject_type: sockg_BioMassCarbohydrate
-    - object:
-        example_object: Harvest
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/39163
-        example_subject_type: sockg_BioMassEnergy
-    - object:
-        example_object: Maturity
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/39962
-        example_subject_type: sockg_BioMassMineral
-    - object:
-        example_object: R6
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/46937
-        example_subject_type: sockg_CropGrowthStage
-    - object:
-        example_object: Maturity
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/200732
-        example_subject_type: sockg_NutrientEfficiency
-    - object:
-        example_object: Pre-graze
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/364993
-        example_subject_type: sockg_WaterQualityConc
-    - object:
-        example_object: Pre-graze
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/55858
-        example_subject_type: sockg_GasNutrientLoss
-    - object:
-        example_object: Pre-graze
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/624572
-        example_subject_type: sockg_WindErosionArea
-    - object:
-        example_object: Harvest
-        example_object_type: string
-        example_predicate: sockg:growthStage
-        example_subject: sockg:individuals/624587
-        example_subject_type: sockg_YieldNutrientUptake
-    from_schema: soc-kg
-    see_also:
-    - https://lod.nal.usda.gov/nalt/7140
-    rank: 1000
-    slot_uri: sockg:growthStage
-    alias: sockg_growthStage
-    owner: sockg_WaterQualityConc
-    domain_of:
-    - sockg_BioMassCarbohydrate
-    - sockg_BioMassEnergy
-    - sockg_BioMassMineral
-    - sockg_CropGrowthStage
-    - sockg_GasNutrientLoss
-    - sockg_Grazing
-    - sockg_Harvest
-    - sockg_HarvestFraction
-    - sockg_NutrientEfficiency
-    - sockg_WaterQualityConc
-    - sockg_WindErosionArea
-    - sockg_YieldNutrientUptake
-    union_of:
-    - '{''domain'': ''sockg_WaterQualityArea''}'
-    - '{''domain'': ''sockg_NutrientEfficiency''}'
-    - '{''domain'': ''sockg_BioMassEnergy''}'
-    - '{''domain'': ''sockg_HarvestFraction''}'
-    - '{''domain'': ''sockg_WaterQualityConc''}'
-    - '{''domain'': ''sockg_Harvest''}'
-    - '{''domain'': ''sockg_WindErosionArea''}'
-    - '{''domain'': ''sockg_BioMassMineral''}'
-    - '{''domain'': ''sockg_GasNutrientLoss''}'
-    - '{''domain'': ''sockg_Grazing''}'
-    - '{''domain'': ''sockg_CropGrowthStage''}'
-    - '{''domain'': ''sockg_YieldNutrientUptake''}'
-    - '{''domain'': ''sockg_BioMassCarbohydrate''}'
-    range: string
 class_uri: sockg:WaterQualityConc
 
 ```

@@ -37,7 +37,7 @@ URI: [sockg:tempMax_degC](https://idir.uta.edu/sockg-ontology/docs/tempMax_degC)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
 
 
 
@@ -87,8 +87,8 @@ domain_of:
 - sockg_WeatherObservation
 range: Any
 any_of:
-- range: double
 - range: float
+- range: double
 
 ```
 </details>

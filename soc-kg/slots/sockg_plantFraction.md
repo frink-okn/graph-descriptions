@@ -28,10 +28,10 @@ URI: [sockg:plantFraction](https://idir.uta.edu/sockg-ontology/docs/plantFractio
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [SockgBioMassMineral](../classes/SockgBioMassMineral.md) | BioMassMiner is a class that represents the analysis of biomass in terms of i... |  yes  |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by... |  yes  |
 | [SockgBioMassCarbohydrate](../classes/SockgBioMassCarbohydrate.md) | BioMassCarbohydrate represents the carbohydrate content in biomass derived fr... |  yes  |
 | [SockgBioMassEnergy](../classes/SockgBioMassEnergy.md) | BioMassEnergy represents the energy content derived from agricultural biomass... |  yes  |
 | [SockgHarvestFraction](../classes/SockgHarvestFraction.md) | The HarvestFraction class represents the quantifiable metrics and characteris... |  yes  |
+| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by... |  yes  |
 | [SockgNutrientEfficiency](../classes/SockgNutrientEfficiency.md) | The NutrientEfficiency class represents the effectiveness of nutrient utiliza... |  yes  |
 
 
@@ -131,11 +131,11 @@ domain_of:
 - sockg_YieldNutrientUptake
 union_of:
 - '{''domain'': ''sockg_NutrientEfficiency''}'
+- '{''domain'': ''sockg_YieldNutrientUptake''}'
+- '{''domain'': ''sockg_BioMassMineral''}'
+- '{''domain'': ''sockg_BioMassCarbohydrate''}'
 - '{''domain'': ''sockg_BioMassEnergy''}'
 - '{''domain'': ''sockg_HarvestFraction''}'
-- '{''domain'': ''sockg_BioMassMineral''}'
-- '{''domain'': ''sockg_YieldNutrientUptake''}'
-- '{''domain'': ''sockg_BioMassCarbohydrate''}'
 range: string
 
 ```
