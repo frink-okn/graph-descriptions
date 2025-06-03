@@ -1,6 +1,6 @@
 
 
-# Class: Release Feature (coso_ReleaseFeature)
+# Class: No class (entity type) name specified -- this class is noted as a superclass of another class in this graph but has not itself been defined. (coso_ReleaseFeature)
 
 
 _No class (type) description specified_
@@ -22,27 +22,13 @@ URI: [coso:ReleaseFeature](http://w3id.org/coso/v1/contaminoso#ReleaseFeature)
  classDiagram
     class CosoReleaseFeature
     click CosoReleaseFeature href "../CosoReleaseFeature"
-      CosoFeature <|-- CosoReleaseFeature
-        click CosoFeature href "../CosoFeature"
-      
-
-      CosoReleaseFeature <|-- CosoMonitoredFeature
-        click CosoMonitoredFeature href "../CosoMonitoredFeature"
-      
-      
       
 ```
 
 
 
 
-
-## Inheritance
-* [SosaFeatureOfInterest](../classes/SosaFeatureOfInterest.md)
-    * [CosoFeature](../classes/CosoFeature.md)
-        * **CosoReleaseFeature**
-            * [CosoMonitoredFeature](../classes/CosoMonitoredFeature.md)
-
+<!-- no inheritance hierarchy -->
 
 
 ## Slots
@@ -75,10 +61,10 @@ URI: [coso:ReleaseFeature](http://w3id.org/coso/v1/contaminoso#ReleaseFeature)
 name: coso_ReleaseFeature
 conforms_to: No schema conformance document specified
 description: No class (type) description specified
-title: Release Feature
+title: No class (entity type) name specified -- this class is noted as a superclass
+  of another class in this graph but has not itself been defined.
 from_schema: sawgraph-kg
 rank: 1000
-is_a: coso_Feature
 class_uri: coso:ReleaseFeature
 
 ```
@@ -92,10 +78,10 @@ class_uri: coso:ReleaseFeature
 name: coso_ReleaseFeature
 conforms_to: No schema conformance document specified
 description: No class (type) description specified
-title: Release Feature
+title: No class (entity type) name specified -- this class is noted as a superclass
+  of another class in this graph but has not itself been defined.
 from_schema: sawgraph-kg
 rank: 1000
-is_a: coso_Feature
 class_uri: coso:ReleaseFeature
 
 ```

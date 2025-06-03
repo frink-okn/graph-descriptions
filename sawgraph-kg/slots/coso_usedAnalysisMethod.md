@@ -3,7 +3,7 @@
 # Slot: used analysis method (coso_usedAnalysisMethod)
 
 
-_No slot (predicate) description specified_
+_A relation between an observation of a contaminant and the analysis method that was used to perform the observation._
 
 
 
@@ -26,7 +26,7 @@ URI: [coso:usedAnalysisMethod](http://w3id.org/coso/v1/contaminoso#usedAnalysisM
 
 ## Properties
 
-* Range: [CosoAnalysisMethod](../classes/CosoAnalysisMethod.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[CosoAnalysisMethod](../classes/CosoAnalysisMethod.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[SosaProcedure](../classes/SosaProcedure.md)
 
 
 
@@ -44,17 +44,25 @@ URI: [coso:usedAnalysisMethod](http://w3id.org/coso/v1/contaminoso#usedAnalysisM
 
 ```yaml
 name: coso_usedAnalysisMethod
-description: No slot (predicate) description specified
+description: A relation between an observation of a contaminant and the analysis method
+  that was used to perform the observation.
 title: used analysis method
 comments:
 - No occurrences of this slot in the graph.
 from_schema: sawgraph-kg
 rank: 1000
-domain: coso_ContaminantObservation
 slot_uri: coso:usedAnalysisMethod
 alias: coso_usedAnalysisMethod
 subproperty_of: sosa_usedProcedure
-range: coso_AnalysisMethod
+union_of:
+- '{''domain'': ''owl_Thing''}'
+- '{''domain'': ''sosa_Observation''}'
+- '{''domain'': ''coso_ContaminantObservation''}'
+range: Any
+any_of:
+- range: coso_AnalysisMethod
+- range: owl_Thing
+- range: sosa_Procedure
 
 ```
 </details>

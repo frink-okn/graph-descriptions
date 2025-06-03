@@ -26,7 +26,7 @@ URI: [owl:qualifiedCardinality](http://www.w3.org/2002/07/owl#qualifiedCardinali
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[Unsignedinteger](../types/Unsignedinteger.md)&nbsp;or&nbsp;<br />[RdfsLiteral](../classes/RdfsLiteral.md)
 
 
 
@@ -52,7 +52,14 @@ from_schema: sawgraph-kg
 rank: 1000
 slot_uri: owl:qualifiedCardinality
 alias: owl_qualifiedCardinality
+union_of:
+- '{''domain'': ''owl_Class''}'
+- '{''domain'': ''owl_Restriction''}'
+- '{''domain'': ''rdfs_Class''}'
 range: Any
+any_of:
+- range: unsignedinteger
+- range: rdfs_Literal
 
 ```
 </details>

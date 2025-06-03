@@ -1,6 +1,6 @@
 
 
-# Class: No class (type) name specified (owl_Class)
+# Class: No class (entity type) name specified (owl_Class)
 
 
 _No class (type) description specified_
@@ -11,7 +11,7 @@ _No class (type) description specified_
 
 
 
-URI: []()
+URI: [owl:Class](http://www.w3.org/2002/07/owl#Class)
 
 
 
@@ -22,13 +22,26 @@ URI: []()
  classDiagram
     class OwlClass
     click OwlClass href "../OwlClass"
+      RdfsClass <|-- OwlClass
+        click RdfsClass href "../RdfsClass"
+      
+
+      OwlClass <|-- OwlRestriction
+        click OwlRestriction href "../OwlRestriction"
+      
+      
       
 ```
 
 
 
 
-<!-- no inheritance hierarchy -->
+
+## Inheritance
+* [RdfsClass](../classes/RdfsClass.md)
+    * **OwlClass**
+        * [OwlRestriction](../classes/OwlRestriction.md)
+
 
 
 ## Slots
@@ -68,10 +81,11 @@ URI: []()
 name: owl_Class
 conforms_to: No schema conformance document specified
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified
 from_schema: sawgraph-kg
 rank: 1000
-class_uri: ''
+is_a: rdfs_Class
+class_uri: owl:Class
 
 ```
 </details>
@@ -84,10 +98,11 @@ class_uri: ''
 name: owl_Class
 conforms_to: No schema conformance document specified
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified
 from_schema: sawgraph-kg
 rank: 1000
-class_uri: ''
+is_a: rdfs_Class
+class_uri: owl:Class
 
 ```
 </details>

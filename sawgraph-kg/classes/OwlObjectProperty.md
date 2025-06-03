@@ -1,6 +1,6 @@
 
 
-# Class: No class (type) name specified (owl_ObjectProperty)
+# Class: No class (entity type) name specified -- this class is noted as a superclass of another class in this graph but has not itself been defined. (owl_ObjectProperty)
 
 
 _No class (type) description specified_
@@ -11,7 +11,7 @@ _No class (type) description specified_
 
 
 
-URI: []()
+URI: [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)
 
 
 
@@ -90,10 +90,11 @@ URI: []()
 name: owl_ObjectProperty
 conforms_to: No schema conformance document specified
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified -- this class is noted as a superclass
+  of another class in this graph but has not itself been defined.
 from_schema: sawgraph-kg
 rank: 1000
-class_uri: ''
+class_uri: owl:ObjectProperty
 
 ```
 </details>
@@ -106,10 +107,11 @@ class_uri: ''
 name: owl_ObjectProperty
 conforms_to: No schema conformance document specified
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified -- this class is noted as a superclass
+  of another class in this graph but has not itself been defined.
 from_schema: sawgraph-kg
 rank: 1000
-class_uri: ''
+class_uri: owl:ObjectProperty
 
 ```
 </details>

@@ -1,6 +1,6 @@
 
 
-# Slot: No slot (predicate) name specified (sosa_isSampleOf)
+# Slot: No slot (predicate) name specified -- this slot is noted as a subproperty of another slot in this graph but has not itself been defined. (sosa_isSampleOf)
 
 
 _No slot (predicate) description specified_
@@ -45,7 +45,8 @@ URI: [sosa:isSampleOf](http://www.w3.org/ns/sosa/isSampleOf)
 ```yaml
 name: sosa_isSampleOf
 description: No slot (predicate) description specified
-title: No slot (predicate) name specified
+title: No slot (predicate) name specified -- this slot is noted as a subproperty of
+  another slot in this graph but has not itself been defined.
 comments:
 - No occurrences of this slot in the graph.
 from_schema: sawgraph-kg

@@ -50,9 +50,12 @@ comments:
 - No occurrences of this slot in the graph.
 from_schema: sawgraph-kg
 rank: 1000
-domain: stad_StatisticalAggregateData
 slot_uri: stad:hasTransformationKind
 alias: stad_hasTransformationKind
+union_of:
+- '{''domain'': ''owl_Thing''}'
+- '{''domain'': ''stad_StatisticalAggregateData''}'
+- '{''domain'': ''stad_Quantity''}'
 range: stad_DataTransformation
 
 ```

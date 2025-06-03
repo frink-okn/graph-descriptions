@@ -1,0 +1,58 @@
+
+
+# Slot: No slot (predicate) name specified (rdfs_domain)
+
+
+_No slot (predicate) description specified_
+
+
+
+
+
+
+
+URI: [rdfs:domain](http://www.w3.org/2000/01/rdf-schema#domain)
+
+
+
+<!-- no inheritance hierarchy -->
+
+
+
+
+
+
+
+
+## Properties
+
+* Range: [RdfsClass](../classes/RdfsClass.md)
+
+
+
+
+
+## Comments
+
+* No occurrences of this slot in the graph.
+
+
+
+## LinkML Source
+
+<details>
+
+```yaml
+name: rdfs_domain
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
+comments:
+- No occurrences of this slot in the graph.
+from_schema: sawgraph-kg
+rank: 1000
+slot_uri: rdfs:domain
+alias: rdfs_domain
+range: rdfs_Class
+
+```
+</details>

@@ -1,6 +1,6 @@
 
 
-# Class: No class (type) name specified (owl_AnnotationProperty)
+# Class: No class (entity type) name specified (owl_AnnotationProperty)
 
 
 _No class (type) description specified_
@@ -11,7 +11,7 @@ _No class (type) description specified_
 
 
 
-URI: []()
+URI: [owl:AnnotationProperty](http://www.w3.org/2002/07/owl#AnnotationProperty)
 
 
 
@@ -22,13 +22,20 @@ URI: []()
  classDiagram
     class OwlAnnotationProperty
     click OwlAnnotationProperty href "../OwlAnnotationProperty"
+      RdfProperty <|-- OwlAnnotationProperty
+        click RdfProperty href "../RdfProperty"
+      
       
 ```
 
 
 
 
-<!-- no inheritance hierarchy -->
+
+## Inheritance
+* [RdfProperty](../classes/RdfProperty.md)
+    * **OwlAnnotationProperty**
+
 
 
 ## Slots
@@ -69,10 +76,11 @@ URI: []()
 name: owl_AnnotationProperty
 conforms_to: No schema conformance document specified
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified
 from_schema: sawgraph-kg
 rank: 1000
-class_uri: ''
+is_a: rdf_Property
+class_uri: owl:AnnotationProperty
 
 ```
 </details>
@@ -85,10 +93,11 @@ class_uri: ''
 name: owl_AnnotationProperty
 conforms_to: No schema conformance document specified
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified
 from_schema: sawgraph-kg
 rank: 1000
-class_uri: ''
+is_a: rdf_Property
+class_uri: owl:AnnotationProperty
 
 ```
 </details>

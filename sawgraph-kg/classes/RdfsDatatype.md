@@ -1,6 +1,6 @@
 
 
-# Class: No class (type) name specified (rdfs_Datatype)
+# Class: No class (entity type) name specified (rdfs_Datatype)
 
 
 _No class (type) description specified_
@@ -10,10 +10,8 @@ _No class (type) description specified_
 
 
 
-This class occurs 2 times.
 
-
-URI: []()
+URI: [rdfs:Datatype](http://www.w3.org/2000/01/rdf-schema#Datatype)
 
 
 
@@ -24,8 +22,13 @@ URI: []()
  classDiagram
     class RdfsDatatype
     click RdfsDatatype href "../RdfsDatatype"
+      RdfsClass <|-- RdfsDatatype
+        click RdfsClass href "../RdfsClass"
+      
+
       RdfsDatatype <|-- OwlDataRange
         click OwlDataRange href "../OwlDataRange"
+      
       
       
 ```
@@ -35,8 +38,9 @@ URI: []()
 
 
 ## Inheritance
-* **RdfsDatatype**
-    * [OwlDataRange](../classes/OwlDataRange.md)
+* [RdfsClass](../classes/RdfsClass.md)
+    * **RdfsDatatype**
+        * [OwlDataRange](../classes/OwlDataRange.md)
 
 
 
@@ -47,6 +51,13 @@ URI: []()
 
 
 
+
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [OwlRestriction](../classes/OwlRestriction.md) | [owl_allValuesFrom](../slots/owl_allValuesFrom.md) | any_of[range] | [RdfsDatatype](../classes/RdfsDatatype.md) |
 
 
 
@@ -69,15 +80,12 @@ URI: []()
 ```yaml
 name: rdfs_Datatype
 conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 2
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified
 from_schema: sawgraph-kg
 rank: 1000
-class_uri: ''
+is_a: rdfs_Class
+class_uri: rdfs:Datatype
 
 ```
 </details>
@@ -89,15 +97,12 @@ class_uri: ''
 ```yaml
 name: rdfs_Datatype
 conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 2
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified
 from_schema: sawgraph-kg
 rank: 1000
-class_uri: ''
+is_a: rdfs_Class
+class_uri: rdfs:Datatype
 
 ```
 </details>
