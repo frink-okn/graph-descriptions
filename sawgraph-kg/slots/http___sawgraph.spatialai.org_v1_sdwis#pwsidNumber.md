@@ -1,9 +1,11 @@
 
 
-# Slot: No slot description provided (http___sawgraph.spatialai.org_v1_sdwis#pwsidNumber)
+# Slot: public system water identifier (http___sawgraph.spatialai.org_v1_sdwis#pwsidNumber)
 
 
 _Uniquely identifies the water system within a specific state. Format: SSXXXXXXXXXX where: SS = the Federal Information Processing Standard (FIPS) Pub 5-2 State abbreviation in which the water system is located, or the region number of the EPA region responsible for an Indian reservation, and XXXXXXXXXX = the water system identification code assigned by the State._
+
+
 
 
 
@@ -19,72 +21,27 @@ URI: [http://sawgraph.spatialai.org/v1/sdwis#pwsidNumber](http://sawgraph.spatia
 
 
 
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [MeegadEGAD-Site](../classes/MeegadEGAD-Site.md) | No type description provided |  no  |
-
-
-
-
 
 
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [Any](../classes/Any.md)
 
 
 
 
-
-
-## Examples
-
-| Value |
-| --- |
-| http://sawgraph.spatialai.org/v1/me-egad-data#site.124837 http://sawgraph.spatialai.org/v1/sdwis#pwsidNumber ME0002893 |
 
 ## Comments
 
-* 61 occurrences with subject type meegad_EGAD-Site and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sawgraph-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | http://sawgraph.spatialai.org/v1/sdwis#pwsidNumber |
-| native | sawgraph-kg/:http___sawgraph.spatialai.org_v1_sdwis#pwsidNumber |
-
+* No occurrences of this slot in the graph.
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: http___sawgraph.spatialai.org_v1_sdwis#pwsidNumber
 description: 'Uniquely identifies the water system within a specific state. Format:
@@ -92,23 +49,15 @@ description: 'Uniquely identifies the water system within a specific state. Form
   5-2 State abbreviation in which the water system is located, or the region number
   of the EPA region responsible for an Indian reservation, and XXXXXXXXXX = the water
   system identification code assigned by the State.'
-title: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+title: public system water identifier
 comments:
-- 61 occurrences with subject type meegad_EGAD-Site and object type string.
-examples:
-- value: http://sawgraph.spatialai.org/v1/me-egad-data#site.124837 http://sawgraph.spatialai.org/v1/sdwis#pwsidNumber
-    ME0002893
+- No occurrences of this slot in the graph.
 from_schema: sawgraph-kg
 rank: 1000
 slot_uri: http://sawgraph.spatialai.org/v1/sdwis#pwsidNumber
 alias: http___sawgraph.spatialai.org_v1_sdwis#pwsidNumber
-domain_of:
-- meegad_EGAD-Site
-range: string
+subproperty_of: dct_identifier
+range: Any
 
 ```
 </details>

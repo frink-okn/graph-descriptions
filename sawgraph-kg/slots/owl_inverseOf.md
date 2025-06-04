@@ -1,9 +1,11 @@
 
 
-# Slot: No slot description provided (owl_inverseOf)
+# Slot: No slot (predicate) name specified (owl_inverseOf)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
+
+
 
 
 
@@ -24,7 +26,7 @@ URI: [owl:inverseOf](http://www.w3.org/2002/07/owl#inverseOf)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[RdfProperty](../classes/RdfProperty.md)&nbsp;or&nbsp;<br />[OwlObjectProperty](../classes/OwlObjectProperty.md)
 
 
 
@@ -34,56 +36,29 @@ URI: [owl:inverseOf](http://www.w3.org/2002/07/owl#inverseOf)
 
 * No occurrences of this slot in the graph.
 
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sawgraph-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | owl:inverseOf |
-| native | sawgraph-kg/:owl_inverseOf |
-
-
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: owl_inverseOf
-description: No slot description provided
-title: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
 from_schema: sawgraph-kg
 rank: 1000
 slot_uri: owl:inverseOf
 alias: owl_inverseOf
+union_of:
+- '{''domain'': ''rdf_Property''}'
+- '{''domain'': ''owl_ObjectProperty''}'
 range: Any
+any_of:
+- range: rdf_Property
+- range: owl_ObjectProperty
 
 ```
 </details>

@@ -1,9 +1,11 @@
 
 
-# Slot: No slot description provided (qudt_unit)
+# Slot: unit (qudt_unit)
 
 
-_No slot description provided_
+_A reference to the unit of measure of a quantity (variable or constant) of interest._
+
+
 
 
 
@@ -24,84 +26,53 @@ URI: [qudt:unit](http://qudt.org/schema/qudt/unit)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HttpQudt.orgVocabUnitUnit](../classes/HttpQudt.orgVocabUnitUnit.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[QudtConcept](../classes/QudtConcept.md)&nbsp;or&nbsp;<br />[B62f4ca32bee89335c5f2cde8750f0952](../classes/B62f4ca32bee89335c5f2cde8750f0952.md)&nbsp;or&nbsp;<br />[QudtVerifiable](../classes/QudtVerifiable.md)&nbsp;or&nbsp;<br />[B7f743940eb366fa70db0e72f92c486ae](../classes/B7f743940eb366fa70db0e72f92c486ae.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[B83cd416c76244b666544da84186161ee](../classes/B83cd416c76244b666544da84186161ee.md)&nbsp;or&nbsp;<br />[QudtUnit](../classes/QudtUnit.md)&nbsp;or&nbsp;<br />[Ba265b6e5375ebb0aadae09c47f43d655](../classes/Ba265b6e5375ebb0aadae09c47f43d655.md)&nbsp;or&nbsp;<br />[B3996198628e8debde20be7d2bfd72451](../classes/B3996198628e8debde20be7d2bfd72451.md)&nbsp;or&nbsp;<br />[B52937cc8dbb22057fb5a128068caae3e](../classes/B52937cc8dbb22057fb5a128068caae3e.md)
 
 
 
 
-
-
-## Examples
-
-| Value |
-| --- |
-| http://sawgraph.spatialai.org/v1/me-egad-data#quantityValue.WG17118674.AAWH.20221103.DEP18018 qudt:unit meegad:unit.NG-G |
-| http://sawgraph.spatialai.org/v1/me-egad-data#quantityValue.1042352.ELL.20190422.1763231 qudt:unit http://qudt.org/vocab/unitNanoGM-PER-L |
 
 ## Comments
 
-* 29743 occurrences with untyped subjects and object type http://qudt.org/vocab/unitUnit.
-* 112812 occurrences with untyped subjects and object type uri.
+* No occurrences of this slot in the graph.
 
-## TODOs
+## See Also
 
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: sawgraph-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | qudt:unit |
-| native | sawgraph-kg/:qudt_unit |
-
+* [http://qudt.org/2.1/schema/qudt](http://qudt.org/2.1/schema/qudt)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: qudt_unit
-description: No slot description provided
-title: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: A reference to the unit of measure of a quantity (variable or constant)
+  of interest.
+title: unit
 comments:
-- 29743 occurrences with untyped subjects and object type http://qudt.org/vocab/unitUnit.
-- 112812 occurrences with untyped subjects and object type uri.
-examples:
-- value: http://sawgraph.spatialai.org/v1/me-egad-data#quantityValue.WG17118674.AAWH.20221103.DEP18018
-    qudt:unit meegad:unit.NG-G
-- value: http://sawgraph.spatialai.org/v1/me-egad-data#quantityValue.1042352.ELL.20190422.1763231
-    qudt:unit http://qudt.org/vocab/unitNanoGM-PER-L
+- No occurrences of this slot in the graph.
 from_schema: sawgraph-kg
+source: http://qudt.org/2.1/schema/qudt
+see_also:
+- http://qudt.org/2.1/schema/qudt
+deprecated_element_has_exact_replacement: http://qudt.org/schema/qudt/hasUnit
 rank: 1000
 slot_uri: qudt:unit
 alias: qudt_unit
 range: Any
 any_of:
-- range: http___qudt.org_vocab_unitUnit
-- range: uri
+- range: qudt_Concept
+- range: __B62f4ca32bee89335c5f2cde8750f0952
+- range: qudt_Verifiable
+- range: __B7f743940eb366fa70db0e72f92c486ae
+- range: owl_Thing
+- range: __B83cd416c76244b666544da84186161ee
+- range: qudt_Unit
+- range: __Ba265b6e5375ebb0aadae09c47f43d655
+- range: __B3996198628e8debde20be7d2bfd72451
+- range: __B52937cc8dbb22057fb5a128068caae3e
 
 ```
 </details>
