@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 3762 times.
+
+
 URI: [niem50:PersonSexText](http://release.niem.gov/niem/niem-core/5.0/PersonSexText)
 
 
@@ -23,7 +27,7 @@ URI: [niem50:PersonSexText](http://release.niem.gov/niem/niem-core/5.0/PersonSex
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72Judge](../classes/Jxdm72Judge.md) | No class (type) description specified |  no  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2Judge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Judge.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,14 +46,10 @@ URI: [niem50:PersonSexText](http://release.niem.gov/niem/niem-core/5.0/PersonSex
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| jxdm72_Judge → string | scales/JudgeEntity/SJ000004 | niem50:PersonSexText | Male |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Judge | string | scales:/JudgeEntity/SJ000002 | Male | 3762 |
 
-
-## Comments
-
-* 3762 occurrences with subject type jxdm72_Judge and object type string.
 
 
 
@@ -59,23 +59,24 @@ URI: [niem50:PersonSexText](http://release.niem.gov/niem/niem-core/5.0/PersonSex
 
 ```yaml
 name: niem50_PersonSexText
+annotations:
+  count:
+    tag: count
+    value: 3762
 description: No slot (predicate) description specified
-comments:
-- 3762 occurrences with subject type jxdm72_Judge and object type string.
 examples:
-- description: jxdm72_Judge → string
-  object:
+- object:
     example_object: Male
     example_object_type: string
     example_predicate: niem50:PersonSexText
-    example_subject: scales/JudgeEntity/SJ000004
-    example_subject_type: jxdm72_Judge
-from_schema: scales-kg-new
+    example_subject: scales:/JudgeEntity/SJ000002
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+from_schema: scales-kg
 rank: 1000
 slot_uri: niem50:PersonSexText
 alias: niem50_PersonSexText
 domain_of:
-- jxdm72_Judge
+- http___release.niem.gov_niem_domains_jxdm_7.2_Judge
 range: string
 
 ```

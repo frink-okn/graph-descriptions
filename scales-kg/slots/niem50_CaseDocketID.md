@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 5000 times.
+
+
 URI: [niem50:CaseDocketID](http://release.niem.gov/niem/niem-core/5.0/CaseDocketID)
 
 
@@ -23,8 +27,8 @@ URI: [niem50:CaseDocketID](http://release.niem.gov/niem/niem-core/5.0/CaseDocket
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72Case](../classes/Jxdm72Case.md) | No class (type) description specified |  no  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
 
 
 
@@ -34,7 +38,7 @@ URI: [niem50:CaseDocketID](http://release.niem.gov/niem/niem-core/5.0/CaseDocket
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -43,16 +47,11 @@ URI: [niem50:CaseDocketID](http://release.niem.gov/niem/niem-core/5.0/CaseDocket
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| scales_Case → string | scales/CaseCivil | niem50:CaseDocketID | 0:15-cv-04235 |
-| jxdm72_Case → integer | scales/CaseCriminal/ga/fulton/01/100271 | niem50:CaseDocketID | 100271 |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:/CaseCivil | 3:16-cv-01644 | 5000 |
+| scales_Case | string | scales:/CaseCivil | 3:16-cv-01644 | 5000 |
 
-
-## Comments
-
-* 272547 occurrences with subject type scales_Case and object type string.
-* 96011 occurrences with subject type jxdm72_Case and object type integer.
 
 
 
@@ -62,36 +61,32 @@ URI: [niem50:CaseDocketID](http://release.niem.gov/niem/niem-core/5.0/CaseDocket
 
 ```yaml
 name: niem50_CaseDocketID
+annotations:
+  count:
+    tag: count
+    value: 5000
 description: No slot (predicate) description specified
-comments:
-- 272547 occurrences with subject type scales_Case and object type string.
-- 96011 occurrences with subject type jxdm72_Case and object type integer.
 examples:
-- description: scales_Case → string
-  object:
-    example_object: 0:15-cv-04235
+- object:
+    example_object: 3:16-cv-01644
     example_object_type: string
     example_predicate: niem50:CaseDocketID
-    example_subject: scales/CaseCivil
-    example_subject_type: scales_Case
-- description: jxdm72_Case → integer
-  object:
-    example_object: '100271'
-    example_object_type: integer
+    example_subject: scales:/CaseCivil
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+- object:
+    example_object: 3:16-cv-01644
+    example_object_type: string
     example_predicate: niem50:CaseDocketID
-    example_subject: scales/CaseCriminal/ga/fulton/01/100271
-    example_subject_type: jxdm72_Case
-from_schema: scales-kg-new
+    example_subject: scales:/CaseCivil
+    example_subject_type: scales_Case
+from_schema: scales-kg
 rank: 1000
 slot_uri: niem50:CaseDocketID
 alias: niem50_CaseDocketID
 domain_of:
-- jxdm72_Case
+- http___release.niem.gov_niem_domains_jxdm_7.2_Case
 - scales_Case
-range: Any
-any_of:
-- range: integer
-- range: string
+range: string
 
 ```
 </details>

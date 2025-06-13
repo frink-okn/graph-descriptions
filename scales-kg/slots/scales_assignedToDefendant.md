@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 594 times.
+
+
 URI: [scales:assignedToDefendant](http://schemas.scales-okn.org/rdf/scales#assignedToDefendant)
 
 
@@ -24,7 +28,7 @@ URI: [scales:assignedToDefendant](http://schemas.scales-okn.org/rdf/scales#assig
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty.md)
 
 
 
@@ -33,14 +37,10 @@ URI: [scales:assignedToDefendant](http://schemas.scales-okn.org/rdf/scales#assig
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → uri | scales/Agent/almd;;1:16-cr-00131_a6 | scales:assignedToDefendant | scales/Agent/almd;;1:16-cr-00131_a1 |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| None | http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty | scales:/Agent/casd;;3:17-cr-03523_a9 | scales:/Agent/casd;;3:17-cr-03523_a1 | 594 |
 
-
-## Comments
-
-* 28750 occurrences with untyped subjects and object type uri.
 
 
 
@@ -50,22 +50,26 @@ URI: [scales:assignedToDefendant](http://schemas.scales-okn.org/rdf/scales#assig
 
 ```yaml
 name: scales_assignedToDefendant
+annotations:
+  count:
+    tag: count
+    value: 594
+  http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty:
+    tag: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
+    value: 594
 description: No slot (predicate) description specified
-comments:
-- 28750 occurrences with untyped subjects and object type uri.
 examples:
-- description: None → uri
-  object:
-    example_object: scales/Agent/almd;;1:16-cr-00131_a1
-    example_object_type: uri
+- object:
+    example_object: scales:/Agent/casd;;3:17-cr-03523_a1
+    example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
     example_predicate: scales:assignedToDefendant
-    example_subject: scales/Agent/almd;;1:16-cr-00131_a6
+    example_subject: scales:/Agent/casd;;3:17-cr-03523_a9
     example_subject_type: None
-from_schema: scales-kg-new
+from_schema: scales-kg
 rank: 1000
 slot_uri: scales:assignedToDefendant
 alias: scales_assignedToDefendant
-range: uri
+range: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
 
 ```
 </details>

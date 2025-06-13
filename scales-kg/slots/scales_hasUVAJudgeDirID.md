@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 988 times.
+
+
 URI: [scales:hasUVAJudgeDirID](http://schemas.scales-okn.org/rdf/scales#hasUVAJudgeDirID)
 
 
@@ -23,7 +27,7 @@ URI: [scales:hasUVAJudgeDirID](http://schemas.scales-okn.org/rdf/scales#hasUVAJu
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72Judge](../classes/Jxdm72Judge.md) | No class (type) description specified |  no  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2Judge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Judge.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,14 +46,10 @@ URI: [scales:hasUVAJudgeDirID](http://schemas.scales-okn.org/rdf/scales#hasUVAJu
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| jxdm72_Judge → string | scales/JudgeEntity/SJ000018 | scales:hasUVAJudgeDirID | mag-424 |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Judge | string | scales:/JudgeEntity/SJ000079 | mag-261 | 988 |
 
-
-## Comments
-
-* 988 occurrences with subject type jxdm72_Judge and object type string.
 
 
 
@@ -59,23 +59,24 @@ URI: [scales:hasUVAJudgeDirID](http://schemas.scales-okn.org/rdf/scales#hasUVAJu
 
 ```yaml
 name: scales_hasUVAJudgeDirID
+annotations:
+  count:
+    tag: count
+    value: 988
 description: No slot (predicate) description specified
-comments:
-- 988 occurrences with subject type jxdm72_Judge and object type string.
 examples:
-- description: jxdm72_Judge → string
-  object:
-    example_object: mag-424
+- object:
+    example_object: mag-261
     example_object_type: string
     example_predicate: scales:hasUVAJudgeDirID
-    example_subject: scales/JudgeEntity/SJ000018
-    example_subject_type: jxdm72_Judge
-from_schema: scales-kg-new
+    example_subject: scales:/JudgeEntity/SJ000079
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasUVAJudgeDirID
 alias: scales_hasUVAJudgeDirID
 domain_of:
-- jxdm72_Judge
+- http___release.niem.gov_niem_domains_jxdm_7.2_Judge
 range: string
 
 ```
