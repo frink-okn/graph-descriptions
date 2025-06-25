@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_pesticide_UID
+# Slot: No slot (predicate) name specified (sockg_pesticide_UID)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:pesticide_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/pesticide_UID)
+
+This slot occurs 356 times.
+
+
+URI: [sockg:pesticide_UID](https://idir.uta.edu/sockg-ontology/docs/pesticide_UID)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:pesticide_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPesticide](../classes/SockgPesticide.md) | No type description provided |  no  |
+| [SockgPesticide](../classes/SockgPesticide.md) | Pesticides are substances used in agriculture to manage pests and diseases th... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:pesticide_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#203448 sockg:pesticide_UID AgCros_0.7_Atrazine_CAS_No._1912-24-9_Grass_Species_Tractor_mounted_spray_boom |
-
-## Comments
-
-* 356 occurrences with subject type sockg:Pesticide and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:pesticide_UID |
-| native | soc-kg/main/:sockg_pesticide_UID |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Pesticide | string | sockg:individuals/203632 | AgCros_0.0_nan_nan_nan | 356 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:pesticide_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_pesticide_UID
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 356 occurrences with subject type sockg:Pesticide and object type string.
+annotations:
+  count:
+    tag: count
+    value: 356
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#203448 sockg:pesticide_UID AgCros_0.7_Atrazine_CAS_No._1912-24-9_Grass_Species_Tractor_mounted_spray_boom
-from_schema: soc-kg/main
+- object:
+    example_object: AgCros_0.0_nan_nan_nan
+    example_object_type: string
+    example_predicate: sockg:pesticide_UID
+    example_subject: sockg:individuals/203632
+    example_subject_type: sockg_Pesticide
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Pesticide
 slot_uri: sockg:pesticide_UID
 alias: sockg_pesticide_UID
 domain_of:

@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_weatherDaily_UID
+# Slot: No slot (predicate) name specified (sockg_weatherDaily_UID)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:weatherDaily_UID](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/weatherDaily_UID)
+
+This slot occurs 147305 times.
+
+
+URI: [sockg:weatherDaily_UID](https://idir.uta.edu/sockg-ontology/docs/weatherDaily_UID)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:weatherDaily_UID](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | No type description provided |  no  |
+| [SockgWeatherObservation](../classes/SockgWeatherObservation.md) | The WeatherObservation class captures daily meteorological data that are cruc... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:weatherDaily_UID](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#462955 sockg:weatherDaily_UID AgCros_IAAMKELL_2003-11-16 |
-
-## Comments
-
-* 147305 occurrences with subject type sockg:WeatherObservation and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:weatherDaily_UID |
-| native | soc-kg/main/:sockg_weatherDaily_UID |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_WeatherObservation | string | sockg:individuals/439235 | AgCros_NEMEIRR_2015-10-25 | 147305 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:weatherDaily_UID](http://www.semanticweb.org/sockg/ontologies/2024/0
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_weatherDaily_UID
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 147305 occurrences with subject type sockg:WeatherObservation and object type string.
+annotations:
+  count:
+    tag: count
+    value: 147305
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#462955 sockg:weatherDaily_UID AgCros_IAAMKELL_2003-11-16
-from_schema: soc-kg/main
+- object:
+    example_object: AgCros_NEMEIRR_2015-10-25
+    example_object_type: string
+    example_predicate: sockg:weatherDaily_UID
+    example_subject: sockg:individuals/439235
+    example_subject_type: sockg_WeatherObservation
+from_schema: soc-kg
 rank: 1000
+domain: sockg_WeatherObservation
 slot_uri: sockg:weatherDaily_UID
 alias: sockg_weatherDaily_UID
 domain_of:

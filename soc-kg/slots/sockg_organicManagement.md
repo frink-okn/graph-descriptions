@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_organicManagement
+# Slot: No slot (predicate) name specified (sockg_organicManagement)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:organicManagement](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/organicManagement)
+
+This slot occurs 769 times.
+
+
+URI: [sockg:organicManagement](https://idir.uta.edu/sockg-ontology/docs/organicManagement)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:organicManagement](http://www.semanticweb.org/sockg/ontologies/2024/
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgTreatment](../classes/SockgTreatment.md) | No type description provided |  no  |
+| [SockgTreatment](../classes/SockgTreatment.md) | The Treatment class encompasses various agricultural practices and management... |  yes  |
 
 
 
@@ -42,62 +46,41 @@ URI: [sockg:organicManagement](http://www.semanticweb.org/sockg/ontologies/2024/
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#359446 sockg:organicManagement No |
-
-## Comments
-
-* 769 occurrences with subject type sockg:Treatment and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Treatment | string | sockg:individuals/363556 | No | 769 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:organicManagement |
-| native | soc-kg/main/:sockg_organicManagement |
-
+* [https://lod.nal.usda.gov/nalt/7144](https://lod.nal.usda.gov/nalt/7144)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_organicManagement
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 769 occurrences with subject type sockg:Treatment and object type string.
+annotations:
+  count:
+    tag: count
+    value: 769
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#359446 sockg:organicManagement No
-from_schema: soc-kg/main
+- object:
+    example_object: 'No'
+    example_object_type: string
+    example_predicate: sockg:organicManagement
+    example_subject: sockg:individuals/363556
+    example_subject_type: sockg_Treatment
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/7144
 rank: 1000
+domain: sockg_Treatment
 slot_uri: sockg:organicManagement
 alias: sockg_organicManagement
 domain_of:

@@ -1,15 +1,17 @@
 
 
-# Slot: sockg_changeInManagement
+# Slot: No slot (predicate) name specified (sockg_changeInManagement)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:changeInManagement](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/changeInManagement)
+
+
+URI: [sockg:changeInManagement](https://idir.uta.edu/sockg-ontology/docs/changeInManagement)
 
 
 
@@ -19,90 +21,39 @@ URI: [sockg:changeInManagement](http://www.semanticweb.org/sockg/ontologies/2024
 
 
 
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [SockgExperimentalUnit](../classes/SockgExperimentalUnit.md) | No type description provided |  no  |
-
-
-
-
 
 
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
 
-
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#52721 sockg:changeInManagement nan |
 
 ## Comments
 
-* 3809 occurrences with subject type sockg:ExperimentalUnit and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:changeInManagement |
-| native | soc-kg/main/:sockg_changeInManagement |
-
+* No occurrences of this slot in the graph.
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_changeInManagement
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 comments:
-- 3809 occurrences with subject type sockg:ExperimentalUnit and object type xsd:double.
-examples:
-- value: neo4j://graph.individuals#52721 sockg:changeInManagement nan
-from_schema: soc-kg/main
+- No occurrences of this slot in the graph.
+from_schema: soc-kg
 rank: 1000
+domain: sockg_ExperimentalUnit
 slot_uri: sockg:changeInManagement
 alias: sockg_changeInManagement
-domain_of:
-- sockg_ExperimentalUnit
-range: double
+range: string
 
 ```
 </details>

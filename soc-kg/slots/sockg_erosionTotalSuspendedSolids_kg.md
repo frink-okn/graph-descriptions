@@ -1,15 +1,17 @@
 
 
-# Slot: sockg_erosionTotalSuspendedSolids_kg
+# Slot: No slot (predicate) name specified (sockg_erosionTotalSuspendedSolids_kg)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:erosionTotalSuspendedSolids_kg](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/erosionTotalSuspendedSolids_kg)
+
+
+URI: [sockg:erosionTotalSuspendedSolids_kg](https://idir.uta.edu/sockg-ontology/docs/erosionTotalSuspendedSolids_kg)
 
 
 
@@ -19,90 +21,39 @@ URI: [sockg:erosionTotalSuspendedSolids_kg](http://www.semanticweb.org/sockg/ont
 
 
 
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [SockgWaterQualityConc](../classes/SockgWaterQualityConc.md) | No type description provided |  no  |
-
-
-
-
 
 
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
 
-
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#361956 sockg:erosionTotalSuspendedSolids_kg nan |
 
 ## Comments
 
-* 1479 occurrences with subject type sockg:WaterQualityConc and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:erosionTotalSuspendedSolids_kg |
-| native | soc-kg/main/:sockg_erosionTotalSuspendedSolids_kg |
-
+* No occurrences of this slot in the graph.
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_erosionTotalSuspendedSolids_kg
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 comments:
-- 1479 occurrences with subject type sockg:WaterQualityConc and object type xsd:double.
-examples:
-- value: neo4j://graph.individuals#361956 sockg:erosionTotalSuspendedSolids_kg nan
-from_schema: soc-kg/main
+- No occurrences of this slot in the graph.
+from_schema: soc-kg
 rank: 1000
+domain: sockg_WaterQualityConc
 slot_uri: sockg:erosionTotalSuspendedSolids_kg
 alias: sockg_erosionTotalSuspendedSolids_kg
-domain_of:
-- sockg_WaterQualityConc
-range: double
+range: float
 
 ```
 </details>

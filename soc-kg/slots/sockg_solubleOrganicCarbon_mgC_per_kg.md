@@ -1,15 +1,17 @@
 
 
-# Slot: sockg_solubleOrganicCarbon_mgC_per_kg
+# Slot: No slot (predicate) name specified (sockg_solubleOrganicCarbon_mgC_per_kg)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:solubleOrganicCarbon_mgC_per_kg](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/solubleOrganicCarbon_mgC_per_kg)
+
+
+URI: [sockg:solubleOrganicCarbon_mgC_per_kg](https://idir.uta.edu/sockg-ontology/docs/solubleOrganicCarbon_mgC_per_kg)
 
 
 
@@ -19,90 +21,45 @@ URI: [sockg:solubleOrganicCarbon_mgC_per_kg](http://www.semanticweb.org/sockg/on
 
 
 
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [SockgSoilChemicalSample](../classes/SockgSoilChemicalSample.md) | No type description provided |  no  |
-
-
-
-
 
 
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
 
-
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#300824 sockg:solubleOrganicCarbon_mgC_per_kg nan |
 
 ## Comments
 
-* 53833 occurrences with subject type sockg:SoilChemicalSample and object type xsd:double.
+* No occurrences of this slot in the graph.
 
-## TODOs
+## See Also
 
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:solubleOrganicCarbon_mgC_per_kg |
-| native | soc-kg/main/:sockg_solubleOrganicCarbon_mgC_per_kg |
-
+* [https://lod.nal.usda.gov/nalt/34079](https://lod.nal.usda.gov/nalt/34079)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_solubleOrganicCarbon_mgC_per_kg
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 comments:
-- 53833 occurrences with subject type sockg:SoilChemicalSample and object type xsd:double.
-examples:
-- value: neo4j://graph.individuals#300824 sockg:solubleOrganicCarbon_mgC_per_kg nan
-from_schema: soc-kg/main
+- No occurrences of this slot in the graph.
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/34079
 rank: 1000
+domain: sockg_SoilChemicalSample
 slot_uri: sockg:solubleOrganicCarbon_mgC_per_kg
 alias: sockg_solubleOrganicCarbon_mgC_per_kg
-domain_of:
-- sockg_SoilChemicalSample
-range: double
+range: float
 
 ```
 </details>

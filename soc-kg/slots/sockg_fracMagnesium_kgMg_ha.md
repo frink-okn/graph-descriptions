@@ -1,15 +1,17 @@
 
 
-# Slot: sockg_fracMagnesium_kgMg_ha
+# Slot: No slot (predicate) name specified (sockg_fracMagnesium_kgMg_ha)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:fracMagnesium_kgMg_ha](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/fracMagnesium_kgMg_ha)
+
+
+URI: [sockg:fracMagnesium_kgMg_ha](https://idir.uta.edu/sockg-ontology/docs/fracMagnesium_kgMg_ha)
 
 
 
@@ -19,90 +21,39 @@ URI: [sockg:fracMagnesium_kgMg_ha](http://www.semanticweb.org/sockg/ontologies/2
 
 
 
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [SockgYieldNutrientUptake](../classes/SockgYieldNutrientUptake.md) | No type description provided |  no  |
-
-
-
-
 
 
 
 ## Properties
 
-* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 
 
-
-
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#509599 sockg:fracMagnesium_kgMg_ha nan |
 
 ## Comments
 
-* 429 occurrences with subject type sockg:YieldNutrientUptake and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:fracMagnesium_kgMg_ha |
-| native | soc-kg/main/:sockg_fracMagnesium_kgMg_ha |
-
+* No occurrences of this slot in the graph.
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_fracMagnesium_kgMg_ha
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 comments:
-- 429 occurrences with subject type sockg:YieldNutrientUptake and object type xsd:double.
-examples:
-- value: neo4j://graph.individuals#509599 sockg:fracMagnesium_kgMg_ha nan
-from_schema: soc-kg/main
+- No occurrences of this slot in the graph.
+from_schema: soc-kg
 rank: 1000
+domain: sockg_YieldNutrientUptake
 slot_uri: sockg:fracMagnesium_kgMg_ha
 alias: sockg_fracMagnesium_kgMg_ha
-domain_of:
-- sockg_YieldNutrientUptake
-range: double
+range: float
 
 ```
 </details>

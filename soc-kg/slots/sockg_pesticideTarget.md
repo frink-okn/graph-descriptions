@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_pesticideTarget
+# Slot: No slot (predicate) name specified (sockg_pesticideTarget)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:pesticideTarget](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/pesticideTarget)
+
+This slot occurs 247 times.
+
+
+URI: [sockg:pesticideTarget](https://idir.uta.edu/sockg-ontology/docs/pesticideTarget)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:pesticideTarget](http://www.semanticweb.org/sockg/ontologies/2024/0/
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPesticide](../classes/SockgPesticide.md) | No type description provided |  no  |
+| [SockgPesticide](../classes/SockgPesticide.md) | Pesticides are substances used in agriculture to manage pests and diseases th... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:pesticideTarget](http://www.semanticweb.org/sockg/ontologies/2024/0/
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,75 +46,46 @@ URI: [sockg:pesticideTarget](http://www.semanticweb.org/sockg/ontologies/2024/0/
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#203722 sockg:pesticideTarget nan |
-| neo4j://graph.individuals#203534 sockg:pesticideTarget Downy brome, ripgut brome and other grass species |
-
-## Comments
-
-* 109 occurrences with subject type sockg:Pesticide and object type xsd:double.
-* 247 occurrences with subject type sockg:Pesticide and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Pesticide | string | sockg:individuals/203633 | weeds | 247 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:pesticideTarget |
-| native | soc-kg/main/:sockg_pesticideTarget |
-
+* [https://lod.nal.usda.gov/nalt/839](https://lod.nal.usda.gov/nalt/839)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_pesticideTarget
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 109 occurrences with subject type sockg:Pesticide and object type xsd:double.
-- 247 occurrences with subject type sockg:Pesticide and object type string.
+annotations:
+  count:
+    tag: count
+    value: 247
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#203722 sockg:pesticideTarget nan
-- value: neo4j://graph.individuals#203534 sockg:pesticideTarget Downy brome, ripgut
-    brome and other grass species
-from_schema: soc-kg/main
+- object:
+    example_object: weeds
+    example_object_type: string
+    example_predicate: sockg:pesticideTarget
+    example_subject: sockg:individuals/203633
+    example_subject_type: sockg_Pesticide
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/839
 rank: 1000
+domain: sockg_Pesticide
 slot_uri: sockg:pesticideTarget
 alias: sockg_pesticideTarget
 domain_of:
 - sockg_Pesticide
-range: Any
-any_of:
-- range: double
-- range: string
+range: string
 
 ```
 </details>

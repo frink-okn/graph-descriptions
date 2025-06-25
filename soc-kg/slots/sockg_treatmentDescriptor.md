@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_treatmentDescriptor
+# Slot: No slot (predicate) name specified (sockg_treatmentDescriptor)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:treatmentDescriptor](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/treatmentDescriptor)
+
+This slot occurs 769 times.
+
+
+URI: [sockg:treatmentDescriptor](https://idir.uta.edu/sockg-ontology/docs/treatmentDescriptor)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:treatmentDescriptor](http://www.semanticweb.org/sockg/ontologies/202
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgTreatment](../classes/SockgTreatment.md) | No type description provided |  no  |
+| [SockgTreatment](../classes/SockgTreatment.md) | The Treatment class encompasses various agricultural practices and management... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:treatmentDescriptor](http://www.semanticweb.org/sockg/ontologies/202
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#359070 sockg:treatmentDescriptor ConvSys 4yr rot  CT NF |
-
-## Comments
-
-* 769 occurrences with subject type sockg:Treatment and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:treatmentDescriptor |
-| native | soc-kg/main/:sockg_treatmentDescriptor |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Treatment | string | sockg:individuals/363556 | Control | 769 |
 
 
 
@@ -85,20 +56,25 @@ URI: [sockg:treatmentDescriptor](http://www.semanticweb.org/sockg/ontologies/202
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_treatmentDescriptor
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 769 occurrences with subject type sockg:Treatment and object type string.
+annotations:
+  count:
+    tag: count
+    value: 769
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#359070 sockg:treatmentDescriptor ConvSys 4yr rot  CT
-    NF
-from_schema: soc-kg/main
+- object:
+    example_object: Control
+    example_object_type: string
+    example_predicate: sockg:treatmentDescriptor
+    example_subject: sockg:individuals/363556
+    example_subject_type: sockg_Treatment
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Treatment
 slot_uri: sockg:treatmentDescriptor
 alias: sockg_treatmentDescriptor
 domain_of:

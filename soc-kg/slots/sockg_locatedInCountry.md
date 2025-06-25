@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_locatedInCountry
+# Slot: No slot (predicate) name specified (sockg_locatedInCountry)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:locatedInCountry](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/locatedInCountry)
+
+This slot occurs 60 times.
+
+
+URI: [sockg:locatedInCountry](https://idir.uta.edu/sockg-ontology/docs/locatedInCountry)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:locatedInCountry](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSite](../classes/SockgSite.md) | No type description provided |  no  |
+| [SockgSite](../classes/SockgSite.md) | A Site represents a specific geographical location related to agricultural ac... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:locatedInCountry](http://www.semanticweb.org/sockg/ontologies/2024/0
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#230715 sockg:locatedInCountry neo4j://graph.individuals#46720 |
-
-## Comments
-
-* 60 occurrences with subject type sockg:Site and object type sockg:Country.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:locatedInCountry |
-| native | soc-kg/main/:sockg_locatedInCountry |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Site | sockg_Country | sockg:individuals/231056 | sockg:individuals/46901 | 60 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:locatedInCountry](http://www.semanticweb.org/sockg/ontologies/2024/0
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_locatedInCountry
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 60 occurrences with subject type sockg:Site and object type sockg:Country.
+annotations:
+  count:
+    tag: count
+    value: 60
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#230715 sockg:locatedInCountry neo4j://graph.individuals#46720
-from_schema: soc-kg/main
+- object:
+    example_object: sockg:individuals/46901
+    example_object_type: sockg_Country
+    example_predicate: sockg:locatedInCountry
+    example_subject: sockg:individuals/231056
+    example_subject_type: sockg_Site
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Site
 slot_uri: sockg:locatedInCountry
 alias: sockg_locatedInCountry
 domain_of:

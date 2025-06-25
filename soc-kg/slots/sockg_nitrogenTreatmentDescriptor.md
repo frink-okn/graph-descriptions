@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_nitrogenTreatmentDescriptor
+# Slot: No slot (predicate) name specified (sockg_nitrogenTreatmentDescriptor)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:nitrogenTreatmentDescriptor](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/nitrogenTreatmentDescriptor)
+
+This slot occurs 750 times.
+
+
+URI: [sockg:nitrogenTreatmentDescriptor](https://idir.uta.edu/sockg-ontology/docs/nitrogenTreatmentDescriptor)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:nitrogenTreatmentDescriptor](http://www.semanticweb.org/sockg/ontolo
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgTreatment](../classes/SockgTreatment.md) | No type description provided |  no  |
+| [SockgTreatment](../classes/SockgTreatment.md) | The Treatment class encompasses various agricultural practices and management... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:nitrogenTreatmentDescriptor](http://www.semanticweb.org/sockg/ontolo
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,44 +46,9 @@ URI: [sockg:nitrogenTreatmentDescriptor](http://www.semanticweb.org/sockg/ontolo
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#359736 sockg:nitrogenTreatmentDescriptor nan |
-| neo4j://graph.individuals#359592 sockg:nitrogenTreatmentDescriptor high yield |
-
-## Comments
-
-* 19 occurrences with subject type sockg:Treatment and object type xsd:double.
-* 750 occurrences with subject type sockg:Treatment and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:nitrogenTreatmentDescriptor |
-| native | soc-kg/main/:sockg_nitrogenTreatmentDescriptor |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Treatment | string | sockg:individuals/363557 | 0 kg N ha-1 | 750 |
 
 
 
@@ -87,29 +56,30 @@ URI: [sockg:nitrogenTreatmentDescriptor](http://www.semanticweb.org/sockg/ontolo
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_nitrogenTreatmentDescriptor
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 19 occurrences with subject type sockg:Treatment and object type xsd:double.
-- 750 occurrences with subject type sockg:Treatment and object type string.
+annotations:
+  count:
+    tag: count
+    value: 750
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#359736 sockg:nitrogenTreatmentDescriptor nan
-- value: neo4j://graph.individuals#359592 sockg:nitrogenTreatmentDescriptor high yield
-from_schema: soc-kg/main
+- object:
+    example_object: 0 kg N ha-1
+    example_object_type: string
+    example_predicate: sockg:nitrogenTreatmentDescriptor
+    example_subject: sockg:individuals/363557
+    example_subject_type: sockg_Treatment
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Treatment
 slot_uri: sockg:nitrogenTreatmentDescriptor
 alias: sockg_nitrogenTreatmentDescriptor
 domain_of:
 - sockg_Treatment
-range: Any
-any_of:
-- range: double
-- range: string
+range: string
 
 ```
 </details>

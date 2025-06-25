@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_animalSpecies
+# Slot: No slot (predicate) name specified (sockg_animalSpecies)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:animalSpecies](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/animalSpecies)
+
+This slot occurs 1951 times.
+
+
+URI: [sockg:animalSpecies](https://idir.uta.edu/sockg-ontology/docs/animalSpecies)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:animalSpecies](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgGrazingManagementEvent](../classes/SockgGrazingManagementEvent.md) | No type description provided |  no  |
+| [SockgGrazingManagementEvent](../classes/SockgGrazingManagementEvent.md) | A GrazingManagementEvent represents a specific instance of land management pr... |  yes  |
 
 
 
@@ -42,63 +46,41 @@ URI: [sockg:animalSpecies](http://www.semanticweb.org/sockg/ontologies/2024/0/so
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#172411 sockg:animalSpecies Beef Cattle |
-
-## Comments
-
-* 1951 occurrences with subject type sockg:GrazingManagementEvent and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_GrazingManagementEvent | string | sockg:individuals/170955 | Beef Cattle | 1951 |
 
 
+## See Also
 
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:animalSpecies |
-| native | soc-kg/main/:sockg_animalSpecies |
-
+* [https://lod.nal.usda.gov/nalt/65](https://lod.nal.usda.gov/nalt/65)
 
 
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_animalSpecies
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 1951 occurrences with subject type sockg:GrazingManagementEvent and object type
-  string.
+annotations:
+  count:
+    tag: count
+    value: 1951
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#172411 sockg:animalSpecies Beef Cattle
-from_schema: soc-kg/main
+- object:
+    example_object: Beef Cattle
+    example_object_type: string
+    example_predicate: sockg:animalSpecies
+    example_subject: sockg:individuals/170955
+    example_subject_type: sockg_GrazingManagementEvent
+from_schema: soc-kg
+see_also:
+- https://lod.nal.usda.gov/nalt/65
 rank: 1000
+domain: sockg_GrazingManagementEvent
 slot_uri: sockg:animalSpecies
 alias: sockg_animalSpecies
 domain_of:

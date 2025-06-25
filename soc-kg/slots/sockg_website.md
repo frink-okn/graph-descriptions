@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_website
+# Slot: No slot (predicate) name specified (sockg_website)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:website](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/website)
+
+This slot occurs 29 times.
+
+
+URI: [sockg:website](https://idir.uta.edu/sockg-ontology/docs/website)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:website](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPerson](../classes/SockgPerson.md) | No type description provided |  no  |
+| [SockgPerson](../classes/SockgPerson.md) | A Person represents an individual involved in agricultural activities, servin... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:website](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,44 +46,9 @@ URI: [sockg:website](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#203358 sockg:website http://www.sidney.ars/usda/gov |
-| neo4j://graph.individuals#203372 sockg:website nan |
-
-## Comments
-
-* 30 occurrences with subject type sockg:Person and object type string.
-* 68 occurrences with subject type sockg:Person and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:website |
-| native | soc-kg/main/:sockg_website |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Person | string | sockg:individuals/203534 | http://www.ars.usda.gov/pandp/people/people.htm?personid=36958 | 29 |
 
 
 
@@ -87,29 +56,30 @@ URI: [sockg:website](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_website
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 30 occurrences with subject type sockg:Person and object type string.
-- 68 occurrences with subject type sockg:Person and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 29
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#203358 sockg:website http://www.sidney.ars/usda/gov
-- value: neo4j://graph.individuals#203372 sockg:website nan
-from_schema: soc-kg/main
+- object:
+    example_object: http://www.ars.usda.gov/pandp/people/people.htm?personid=36958
+    example_object_type: string
+    example_predicate: sockg:website
+    example_subject: sockg:individuals/203534
+    example_subject_type: sockg_Person
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Person
 slot_uri: sockg:website
 alias: sockg_website
 domain_of:
 - sockg_Person
-range: Any
-any_of:
-- range: string
-- range: double
+range: string
 
 ```
 </details>

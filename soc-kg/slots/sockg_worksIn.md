@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_worksIn
+# Slot: No slot (predicate) name specified (sockg_worksIn)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:worksIn](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/worksIn)
+
+This slot occurs 165 times.
+
+
+URI: [sockg:worksIn](https://idir.uta.edu/sockg-ontology/docs/worksIn)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:worksIn](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPerson](../classes/SockgPerson.md) | No type description provided |  no  |
+| [SockgPerson](../classes/SockgPerson.md) | A Person represents an individual involved in agricultural activities, servin... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:worksIn](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#203313 sockg:worksIn neo4j://graph.individuals#230713 |
-
-## Comments
-
-* 165 occurrences with subject type sockg:Person and object type sockg:Site.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:worksIn |
-| native | soc-kg/main/:sockg_worksIn |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Person | sockg_Site | sockg:individuals/203534 | sockg:individuals/231057 | 165 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:worksIn](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-car
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_worksIn
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 165 occurrences with subject type sockg:Person and object type sockg:Site.
+annotations:
+  count:
+    tag: count
+    value: 165
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#203313 sockg:worksIn neo4j://graph.individuals#230713
-from_schema: soc-kg/main
+- object:
+    example_object: sockg:individuals/231057
+    example_object_type: sockg_Site
+    example_predicate: sockg:worksIn
+    example_subject: sockg:individuals/203534
+    example_subject_type: sockg_Person
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Person
 slot_uri: sockg:worksIn
 alias: sockg_worksIn
 domain_of:

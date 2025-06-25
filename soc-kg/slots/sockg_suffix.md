@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_suffix
+# Slot: No slot (predicate) name specified (sockg_suffix)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:suffix](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/suffix)
+
+This slot occurs 32 times.
+
+
+URI: [sockg:suffix](https://idir.uta.edu/sockg-ontology/docs/suffix)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:suffix](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carb
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgPerson](../classes/SockgPerson.md) | No type description provided |  no  |
+| [SockgPerson](../classes/SockgPerson.md) | A Person represents an individual involved in agricultural activities, servin... |  yes  |
 
 
 
@@ -33,7 +37,7 @@ URI: [sockg:suffix](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carb
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[xsd:double](http://www.w3.org/2001/XMLSchema#double)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -42,44 +46,9 @@ URI: [sockg:suffix](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carb
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#203302 sockg:suffix PhD |
-| neo4j://graph.individuals#203309 sockg:suffix nan |
-
-## Comments
-
-* 32 occurrences with subject type sockg:Person and object type string.
-* 66 occurrences with subject type sockg:Person and object type xsd:double.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:suffix |
-| native | soc-kg/main/:sockg_suffix |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Person | string | sockg:individuals/203534 | Ph.D | 32 |
 
 
 
@@ -87,29 +56,30 @@ URI: [sockg:suffix](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carb
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_suffix
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 32 occurrences with subject type sockg:Person and object type string.
-- 66 occurrences with subject type sockg:Person and object type xsd:double.
+annotations:
+  count:
+    tag: count
+    value: 32
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#203302 sockg:suffix PhD
-- value: neo4j://graph.individuals#203309 sockg:suffix nan
-from_schema: soc-kg/main
+- object:
+    example_object: Ph.D
+    example_object_type: string
+    example_predicate: sockg:suffix
+    example_subject: sockg:individuals/203534
+    example_subject_type: sockg_Person
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Person
 slot_uri: sockg:suffix
 alias: sockg_suffix
 domain_of:
 - sockg_Person
-range: Any
-any_of:
-- range: string
-- range: double
+range: string
 
 ```
 </details>

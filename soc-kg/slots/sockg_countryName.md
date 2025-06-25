@@ -1,15 +1,19 @@
 
 
-# Slot: sockg_countryName
+# Slot: No slot (predicate) name specified (sockg_countryName)
 
 
-_No slot description provided_
+_No slot (predicate) description specified_
 
 
 
 
 
-URI: [sockg:countryName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil-carbon-ontology/countryName)
+
+This slot occurs 3 times.
+
+
+URI: [sockg:countryName](https://idir.uta.edu/sockg-ontology/docs/countryName)
 
 
 
@@ -23,7 +27,7 @@ URI: [sockg:countryName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgCountry](../classes/SockgCountry.md) | No type description provided |  no  |
+| [SockgCountry](../classes/SockgCountry.md) | A Country is a distinct territorial body with its own government and borders,... |  yes  |
 
 
 
@@ -42,42 +46,9 @@ URI: [sockg:countryName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 
 ## Examples
 
-| Value |
-| --- |
-| neo4j://graph.individuals#46721 sockg:countryName United States |
-
-## Comments
-
-* 3 occurrences with subject type sockg:Country and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: soc-kg/main
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | sockg:countryName |
-| native | soc-kg/main/:sockg_countryName |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| sockg_Country | string | sockg:individuals/46901 | USA | 3 |
 
 
 
@@ -85,19 +56,25 @@ URI: [sockg:countryName](http://www.semanticweb.org/sockg/ontologies/2024/0/soil
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: sockg_countryName
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 3 occurrences with subject type sockg:Country and object type string.
+annotations:
+  count:
+    tag: count
+    value: 3
+description: No slot (predicate) description specified
+title: No slot (predicate) name specified
 examples:
-- value: neo4j://graph.individuals#46721 sockg:countryName United States
-from_schema: soc-kg/main
+- object:
+    example_object: USA
+    example_object_type: string
+    example_predicate: sockg:countryName
+    example_subject: sockg:individuals/46901
+    example_subject_type: sockg_Country
+from_schema: soc-kg
 rank: 1000
+domain: sockg_Country
 slot_uri: sockg:countryName
 alias: sockg_countryName
 domain_of:
