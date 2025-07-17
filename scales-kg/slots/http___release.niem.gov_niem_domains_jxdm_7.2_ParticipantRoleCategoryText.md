@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 16341 times.
+This slot occurs 11626836 times.
 
 
 URI: [http://release.niem.gov/niem/domains/jxdm/7.2/ParticipantRoleCategoryText](http://release.niem.gov/niem/domains/jxdm/7.2/ParticipantRoleCategoryText)
@@ -27,8 +27,9 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/ParticipantRoleCategoryText]
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty.md) | No class (type) description specified |  yes  |
+| [ScalesAgent](../classes/ScalesAgent.md) | No class (type) description specified |  yes  |
 | [HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty.md) | No class (type) description specified |  yes  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty.md) | No class (type) description specified |  yes  |
 | [ScalesParty](../classes/ScalesParty.md) | No class (type) description specified |  yes  |
 
 
@@ -50,9 +51,10 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/ParticipantRoleCategoryText]
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty | string | scales:/Agent/casd;;3:16-cv-01644_a0 | Petitioner | 5633 |
-| http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty | string | scales:/Agent/casd;;3:16-cv-01644_a1 | Respondent | 8389 |
-| scales_Party | string | scales:/Agent/casd;;3:16-cv-01645_a3 | Counter Claimant | 2319 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty | string | scales:Agent/akd;;1:16-cr-00001_a0 | Defendant | 2586246 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty | string | scales:Agent/akd;;1:16-cr-00001_a1 | Plaintiff | 1337860 |
+| scales_Party | string | scales:Agent/akd;;1:16-cv-00008_a7 | Amicus | 7339264 |
+| scales_Agent | string | scales:Agent/10000019_0 | defendant | 363466 |
 
 
 
@@ -66,27 +68,33 @@ name: http___release.niem.gov_niem_domains_jxdm_7.2_ParticipantRoleCategoryText
 annotations:
   count:
     tag: count
-    value: 16341
+    value: 11626836
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: Petitioner
+    example_object: Defendant
     example_object_type: string
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/ParticipantRoleCategoryText
-    example_subject: scales:/Agent/casd;;3:16-cv-01644_a0
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
-- object:
-    example_object: Respondent
-    example_object_type: string
-    example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/ParticipantRoleCategoryText
-    example_subject: scales:/Agent/casd;;3:16-cv-01644_a1
+    example_subject: scales:Agent/akd;;1:16-cr-00001_a0
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
 - object:
-    example_object: Counter Claimant
+    example_object: Plaintiff
     example_object_type: string
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/ParticipantRoleCategoryText
-    example_subject: scales:/Agent/casd;;3:16-cv-01645_a3
+    example_subject: scales:Agent/akd;;1:16-cr-00001_a1
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
+- object:
+    example_object: Amicus
+    example_object_type: string
+    example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/ParticipantRoleCategoryText
+    example_subject: scales:Agent/akd;;1:16-cv-00008_a7
     example_subject_type: scales_Party
+- object:
+    example_object: defendant
+    example_object_type: string
+    example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/ParticipantRoleCategoryText
+    example_subject: scales:Agent/10000019_0
+    example_subject_type: scales_Agent
 from_schema: scales-kg
 rank: 1000
 slot_uri: http://release.niem.gov/niem/domains/jxdm/7.2/ParticipantRoleCategoryText
@@ -94,6 +102,7 @@ alias: http___release.niem.gov_niem_domains_jxdm_7.2_ParticipantRoleCategoryText
 domain_of:
 - http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
 - http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
+- scales_Agent
 - scales_Party
 range: string
 

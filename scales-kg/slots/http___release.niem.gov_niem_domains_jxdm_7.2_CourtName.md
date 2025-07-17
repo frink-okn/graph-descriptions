@@ -48,7 +48,7 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/CourtName](http://release.ni
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Court | string | scales:/Court/casd | District Court, S.D. California | 94 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Court | string | scales:Court/akd | District Court, D. Alaska | 94 |
 
 
 
@@ -66,10 +66,10 @@ annotations:
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: District Court, S.D. California
+    example_object: District Court, D. Alaska
     example_object_type: string
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/CourtName
-    example_subject: scales:/Court/casd
+    example_subject: scales:Court/akd
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Court
 from_schema: scales-kg
 rank: 1000

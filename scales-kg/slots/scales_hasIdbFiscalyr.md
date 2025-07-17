@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 2 times.
+This slot occurs 21 times.
 
 
 URI: [scales:hasIdbFiscalyr](http://schemas.scales-okn.org/rdf/scales#hasIdbFiscalyr)
@@ -27,8 +27,8 @@ URI: [scales:hasIdbFiscalyr](http://schemas.scales-okn.org/rdf/scales#hasIdbFisc
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
 | [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
+| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
 
 
 
@@ -49,8 +49,7 @@ URI: [scales:hasIdbFiscalyr](http://schemas.scales-okn.org/rdf/scales#hasIdbFisc
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | double | scales:/CaseCriminal | 2017.0 | 2 |
-| scales_Case | double | scales:/CaseCriminal | 2017.0 | 2 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Case | double | scales:CriminalCase | 2001.0 | 21 |
 
 
 
@@ -64,21 +63,15 @@ name: scales_hasIdbFiscalyr
 annotations:
   count:
     tag: count
-    value: 2
+    value: 21
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: '2017.0'
+    example_object: '2001.0'
     example_object_type: double
     example_predicate: scales:hasIdbFiscalyr
-    example_subject: scales:/CaseCriminal
+    example_subject: scales:CriminalCase
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- object:
-    example_object: '2017.0'
-    example_object_type: double
-    example_predicate: scales:hasIdbFiscalyr
-    example_subject: scales:/CaseCriminal
-    example_subject_type: scales_Case
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbFiscalyr

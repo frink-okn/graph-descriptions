@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 3626 times.
+This slot occurs 159337 times.
 
 
 URI: [scales:hasHighestOffenseLevelOpening](http://schemas.scales-okn.org/rdf/scales#hasHighestOffenseLevelOpening)
@@ -48,7 +48,7 @@ URI: [scales:hasHighestOffenseLevelOpening](http://schemas.scales-okn.org/rdf/sc
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty | string | scales:/Agent/casd;;3:17-cr-00002_a0 | Felony | 3626 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty | string | scales:Agent/akd;;1:16-cr-00001_a0 | Misdemeanor | 159337 |
 
 
 
@@ -62,14 +62,14 @@ name: scales_hasHighestOffenseLevelOpening
 annotations:
   count:
     tag: count
-    value: 3626
+    value: 159337
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: Felony
+    example_object: Misdemeanor
     example_object_type: string
     example_predicate: scales:hasHighestOffenseLevelOpening
-    example_subject: scales:/Agent/casd;;3:17-cr-00002_a0
+    example_subject: scales:Agent/akd;;1:16-cr-00001_a0
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
 from_schema: scales-kg
 rank: 1000

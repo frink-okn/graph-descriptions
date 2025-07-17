@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 1 times.
+This slot occurs 167 times.
 
 
 URI: [scales:hasIdbUpdate](http://schemas.scales-okn.org/rdf/scales#hasIdbUpdate)
@@ -27,8 +27,8 @@ URI: [scales:hasIdbUpdate](http://schemas.scales-okn.org/rdf/scales#hasIdbUpdate
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
 | [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
+| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
 
 
 
@@ -49,8 +49,7 @@ URI: [scales:hasIdbUpdate](http://schemas.scales-okn.org/rdf/scales#hasIdbUpdate
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:/CaseCriminal | 01/01/1900 | 1 |
-| scales_Case | string | scales:/CaseCriminal | 01/01/1900 | 1 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:CriminalCase | 01/01/1900 | 167 |
 
 
 
@@ -64,21 +63,15 @@ name: scales_hasIdbUpdate
 annotations:
   count:
     tag: count
-    value: 1
+    value: 167
 description: No slot (predicate) description specified
 examples:
 - object:
     example_object: 01/01/1900
     example_object_type: string
     example_predicate: scales:hasIdbUpdate
-    example_subject: scales:/CaseCriminal
+    example_subject: scales:CriminalCase
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- object:
-    example_object: 01/01/1900
-    example_object_type: string
-    example_predicate: scales:hasIdbUpdate
-    example_subject: scales:/CaseCriminal
-    example_subject_type: scales_Case
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbUpdate

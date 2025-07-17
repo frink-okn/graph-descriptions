@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 332 times.
+This slot occurs 197166 times.
 
 
 URI: [scales:hasIfpLabel](http://schemas.scales-okn.org/rdf/scales#hasIfpLabel)
@@ -39,7 +39,7 @@ URI: [scales:hasIfpLabel](http://schemas.scales-okn.org/rdf/scales#hasIfpLabel)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| None | uri | scales:/DocketEntry/casd;;3:16-cv-01654_de5 | scales:/IfpLabel/IFP_DENY | 332 |
+| None | uri | scales:DocketEntry/akd;;1:16-cv-00003_de2 | scales:IfpLabel/IFP_APPLICATION | 197166 |
 
 
 
@@ -53,17 +53,17 @@ name: scales_hasIfpLabel
 annotations:
   count:
     tag: count
-    value: 332
+    value: 197166
   uri:
     tag: uri
-    value: 332
+    value: 197166
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: scales:/IfpLabel/IFP_DENY
+    example_object: scales:IfpLabel/IFP_APPLICATION
     example_object_type: uri
     example_predicate: scales:hasIfpLabel
-    example_subject: scales:/DocketEntry/casd;;3:16-cv-01654_de5
+    example_subject: scales:DocketEntry/akd;;1:16-cv-00003_de2
     example_subject_type: None
 from_schema: scales-kg
 rank: 1000

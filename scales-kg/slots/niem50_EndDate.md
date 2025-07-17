@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 1106 times.
+This slot occurs 3032848 times.
 
 
 URI: [niem50:EndDate](http://release.niem.gov/niem/niem-core/5.0/EndDate)
@@ -27,8 +27,10 @@ URI: [niem50:EndDate](http://release.niem.gov/niem/niem-core/5.0/EndDate)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | No class (type) description specified |  yes  |
 | [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) | No class (type) description specified |  yes  |
+| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
 
 
 
@@ -49,8 +51,9 @@ URI: [niem50:EndDate](http://release.niem.gov/niem/niem-core/5.0/EndDate)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | date | scales:/CaseCivil | 2016-06-29 | 1106 |
-| scales_Case | date | scales:/CaseCivil | 2016-06-29 | 1106 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Case | date | scales:CivilCase | 1968-03-14 | 10603 |
+| scales_CivilCase | date | scales:Case/ga-clayton-magistrate-civil;;0:00-cm-00001 | 2000-03-08 | 956930 |
+| scales_CriminalCase | date | scales:Case/ga-clayton-magistrate;;0:00-bc-00001 | 2000-01-20 | 2065315 |
 
 
 
@@ -64,21 +67,27 @@ name: niem50_EndDate
 annotations:
   count:
     tag: count
-    value: 1106
+    value: 3032848
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: '2016-06-29'
+    example_object: '1968-03-14'
     example_object_type: date
     example_predicate: niem50:EndDate
-    example_subject: scales:/CaseCivil
+    example_subject: scales:CivilCase
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
 - object:
-    example_object: '2016-06-29'
+    example_object: '2000-03-08'
     example_object_type: date
     example_predicate: niem50:EndDate
-    example_subject: scales:/CaseCivil
-    example_subject_type: scales_Case
+    example_subject: scales:Case/ga-clayton-magistrate-civil;;0:00-cm-00001
+    example_subject_type: scales_CivilCase
+- object:
+    example_object: '2000-01-20'
+    example_object_type: date
+    example_predicate: niem50:EndDate
+    example_subject: scales:Case/ga-clayton-magistrate;;0:00-bc-00001
+    example_subject_type: scales_CriminalCase
 from_schema: scales-kg
 rank: 1000
 slot_uri: niem50:EndDate
@@ -86,6 +95,8 @@ alias: niem50_EndDate
 domain_of:
 - http___release.niem.gov_niem_domains_jxdm_7.2_Case
 - scales_Case
+- scales_CivilCase
+- scales_CriminalCase
 range: date
 
 ```

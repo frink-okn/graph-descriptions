@@ -48,7 +48,7 @@ URI: [http://release.niem.gov/niem/codes/fips/5.0/CountyCode](http://release.nie
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Court | string | scales:/Court/casd | 06025 | 3035 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Court | string | scales:Court/akd | 02013 | 3035 |
 
 
 
@@ -66,10 +66,10 @@ annotations:
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: '06025'
+    example_object: '02013'
     example_object_type: string
     example_predicate: http://release.niem.gov/niem/codes/fips/5.0/CountyCode
-    example_subject: scales:/Court/casd
+    example_subject: scales:Court/akd
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Court
 from_schema: scales-kg
 rank: 1000

@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 327 times.
+This slot occurs 9459 times.
 
 
 URI: [scales:hasIdbFiledate](http://schemas.scales-okn.org/rdf/scales#hasIdbFiledate)
@@ -27,8 +27,8 @@ URI: [scales:hasIdbFiledate](http://schemas.scales-okn.org/rdf/scales#hasIdbFile
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
 | [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
+| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
 
 
 
@@ -49,8 +49,7 @@ URI: [scales:hasIdbFiledate](http://schemas.scales-okn.org/rdf/scales#hasIdbFile
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | datetime | scales:/CaseCivil | 2016-04-29T00:00:00 | 327 |
-| scales_Case | datetime | scales:/CaseCivil | 2016-04-29T00:00:00 | 327 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Case | datetime | scales:CivilCase | 1987-12-30T00:00:00 | 9459 |
 
 
 
@@ -64,21 +63,15 @@ name: scales_hasIdbFiledate
 annotations:
   count:
     tag: count
-    value: 327
+    value: 9459
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: '2016-04-29T00:00:00'
+    example_object: '1987-12-30T00:00:00'
     example_object_type: datetime
     example_predicate: scales:hasIdbFiledate
-    example_subject: scales:/CaseCivil
+    example_subject: scales:CivilCase
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- object:
-    example_object: '2016-04-29T00:00:00'
-    example_object_type: datetime
-    example_predicate: scales:hasIdbFiledate
-    example_subject: scales:/CaseCivil
-    example_subject_type: scales_Case
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbFiledate

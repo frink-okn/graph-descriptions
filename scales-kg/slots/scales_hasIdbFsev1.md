@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 60 times.
+This slot occurs 200 times.
 
 
 URI: [scales:hasIdbFsev1](http://schemas.scales-okn.org/rdf/scales#hasIdbFsev1)
@@ -27,8 +27,8 @@ URI: [scales:hasIdbFsev1](http://schemas.scales-okn.org/rdf/scales#hasIdbFsev1)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
 | [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
+| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
 
 
 
@@ -49,8 +49,7 @@ URI: [scales:hasIdbFsev1](http://schemas.scales-okn.org/rdf/scales#hasIdbFsev1)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:/CaseCriminal | 013 | 60 |
-| scales_Case | string | scales:/CaseCriminal | 013 | 60 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:CriminalCase | 005 | 200 |
 
 
 
@@ -64,21 +63,15 @@ name: scales_hasIdbFsev1
 annotations:
   count:
     tag: count
-    value: 60
+    value: 200
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: '013'
+    example_object: '005'
     example_object_type: string
     example_predicate: scales:hasIdbFsev1
-    example_subject: scales:/CaseCriminal
+    example_subject: scales:CriminalCase
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- object:
-    example_object: '013'
-    example_object_type: string
-    example_predicate: scales:hasIdbFsev1
-    example_subject: scales:/CaseCriminal
-    example_subject_type: scales_Case
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbFsev1

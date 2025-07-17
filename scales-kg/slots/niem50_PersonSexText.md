@@ -48,7 +48,7 @@ URI: [niem50:PersonSexText](http://release.niem.gov/niem/niem-core/5.0/PersonSex
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Judge | string | scales:/JudgeEntity/SJ000002 | Male | 3762 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Judge | string | scales:JudgeEntity/SJ000002 | Male | 3762 |
 
 
 
@@ -69,7 +69,7 @@ examples:
     example_object: Male
     example_object_type: string
     example_predicate: niem50:PersonSexText
-    example_subject: scales:/JudgeEntity/SJ000002
+    example_subject: scales:JudgeEntity/SJ000002
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
 from_schema: scales-kg
 rank: 1000

@@ -48,7 +48,7 @@ URI: [scales:isInCircuit](http://schemas.scales-okn.org/rdf/scales#isInCircuit)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Court | string | scales:/Court/casd | Ninth | 94 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Court | string | scales:Court/akd | Ninth | 94 |
 
 
 
@@ -69,7 +69,7 @@ examples:
     example_object: Ninth
     example_object_type: string
     example_predicate: scales:isInCircuit
-    example_subject: scales:/Court/casd
+    example_subject: scales:Court/akd
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Court
 from_schema: scales-kg
 rank: 1000

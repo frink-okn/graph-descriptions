@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 69 times.
+This slot occurs 106 times.
 
 
 URI: [niem50:CaseSubCategoryText](http://release.niem.gov/niem/niem-core/5.0/CaseSubCategoryText)
@@ -27,8 +27,8 @@ URI: [niem50:CaseSubCategoryText](http://release.niem.gov/niem/niem-core/5.0/Cas
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
 | [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
+| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
 
 
 
@@ -49,8 +49,7 @@ URI: [niem50:CaseSubCategoryText](http://release.niem.gov/niem/niem-core/5.0/Cas
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:/CaseCivil | 110 Insurance | 69 |
-| scales_Case | string | scales:/CaseCivil | 110 Insurance | 69 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:CivilCase | 110 Insurance | 106 |
 
 
 
@@ -64,21 +63,15 @@ name: niem50_CaseSubCategoryText
 annotations:
   count:
     tag: count
-    value: 69
+    value: 106
 description: No slot (predicate) description specified
 examples:
 - object:
     example_object: 110 Insurance
     example_object_type: string
     example_predicate: niem50:CaseSubCategoryText
-    example_subject: scales:/CaseCivil
+    example_subject: scales:CivilCase
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- object:
-    example_object: 110 Insurance
-    example_object_type: string
-    example_predicate: niem50:CaseSubCategoryText
-    example_subject: scales:/CaseCivil
-    example_subject_type: scales_Case
 from_schema: scales-kg
 rank: 1000
 slot_uri: niem50:CaseSubCategoryText

@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 2538 times.
+This slot occurs 537560 times.
 
 
 URI: [http://release.niem.gov/niem/domains/jxdm/7.2/Attorney](http://release.niem.gov/niem/domains/jxdm/7.2/Attorney)
@@ -55,7 +55,7 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/Attorney](http://release.nie
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| scales_Party | http___release.niem.gov_niem_domains_jxdm_7.2_Attorney | scales:/Agent/casd;;3:16-cv-01645_a3 | scales:/Agent/casd;;3:16-cv-01645_a20 | 2538 |
+| scales_Party | http___release.niem.gov_niem_domains_jxdm_7.2_Attorney | scales:Agent/akd;;1:16-cv-00008_a7 | scales:Agent/akd;;1:16-cv-00008_a22 | 537560 |
 
 
 
@@ -69,14 +69,14 @@ name: http___release.niem.gov_niem_domains_jxdm_7.2_Attorney
 annotations:
   count:
     tag: count
-    value: 2538
+    value: 537560
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: scales:/Agent/casd;;3:16-cv-01645_a20
+    example_object: scales:Agent/akd;;1:16-cv-00008_a22
     example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_Attorney
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/Attorney
-    example_subject: scales:/Agent/casd;;3:16-cv-01645_a3
+    example_subject: scales:Agent/akd;;1:16-cv-00008_a7
     example_subject_type: scales_Party
 from_schema: scales-kg
 rank: 1000

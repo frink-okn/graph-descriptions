@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 262 times.
+This slot occurs 175903 times.
 
 
 URI: [scales:hasIfpJudgeAttribution](http://schemas.scales-okn.org/rdf/scales#hasIfpJudgeAttribution)
@@ -39,8 +39,8 @@ URI: [scales:hasIfpJudgeAttribution](http://schemas.scales-okn.org/rdf/scales#ha
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| None | http___release.niem.gov_niem_domains_jxdm_7.2_Judge | scales:/DocketEntry/casd;;3:16-cv-03134_de2 | scales:/JudgeEntity/SJ003090 | 260 |
-| None | uri | scales:/DocketEntry/casd;;3:16-cv-02094_de2 | scales:/JudgeEntity/Inconclusive | 2 |
+| None | http___release.niem.gov_niem_domains_jxdm_7.2_Judge | scales:DocketEntry/akd;;1:16-cv-00003_de2 | scales:JudgeEntity/SJ000135 | 175558 |
+| None | uri | scales:DocketEntry/almd;;1:16-cv-00058_de3 | scales:JudgeEntity/Inconclusive | 345 |
 
 
 
@@ -54,26 +54,26 @@ name: scales_hasIfpJudgeAttribution
 annotations:
   count:
     tag: count
-    value: 262
+    value: 175903
   http___release.niem.gov_niem_domains_jxdm_7.2_Judge:
     tag: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
-    value: 260
+    value: 175558
   uri:
     tag: uri
-    value: 2
+    value: 345
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: scales:/JudgeEntity/SJ003090
+    example_object: scales:JudgeEntity/SJ000135
     example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
     example_predicate: scales:hasIfpJudgeAttribution
-    example_subject: scales:/DocketEntry/casd;;3:16-cv-03134_de2
+    example_subject: scales:DocketEntry/akd;;1:16-cv-00003_de2
     example_subject_type: None
 - object:
-    example_object: scales:/JudgeEntity/Inconclusive
+    example_object: scales:JudgeEntity/Inconclusive
     example_object_type: uri
     example_predicate: scales:hasIfpJudgeAttribution
-    example_subject: scales:/DocketEntry/casd;;3:16-cv-02094_de2
+    example_subject: scales:DocketEntry/almd;;1:16-cv-00058_de3
     example_subject_type: None
 from_schema: scales-kg
 rank: 1000

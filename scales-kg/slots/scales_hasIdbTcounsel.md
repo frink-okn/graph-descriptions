@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 5 times.
+This slot occurs 7 times.
 
 
 URI: [scales:hasIdbTcounsel](http://schemas.scales-okn.org/rdf/scales#hasIdbTcounsel)
@@ -27,8 +27,8 @@ URI: [scales:hasIdbTcounsel](http://schemas.scales-okn.org/rdf/scales#hasIdbTcou
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
 | [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
+| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
 
 
 
@@ -49,8 +49,7 @@ URI: [scales:hasIdbTcounsel](http://schemas.scales-okn.org/rdf/scales#hasIdbTcou
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | double | scales:/CaseCriminal | -8.0 | 5 |
-| scales_Case | double | scales:/CaseCriminal | -8.0 | 5 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Case | double | scales:CriminalCase | -8.0 | 7 |
 
 
 
@@ -64,21 +63,15 @@ name: scales_hasIdbTcounsel
 annotations:
   count:
     tag: count
-    value: 5
+    value: 7
 description: No slot (predicate) description specified
 examples:
 - object:
     example_object: '-8.0'
     example_object_type: double
     example_predicate: scales:hasIdbTcounsel
-    example_subject: scales:/CaseCriminal
+    example_subject: scales:CriminalCase
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- object:
-    example_object: '-8.0'
-    example_object_type: double
-    example_predicate: scales:hasIdbTcounsel
-    example_subject: scales:/CaseCriminal
-    example_subject_type: scales_Case
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbTcounsel

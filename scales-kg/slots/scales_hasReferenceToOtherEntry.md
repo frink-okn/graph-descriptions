@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 32887 times.
+This slot occurs 10618350 times.
 
 
 URI: [scales:hasReferenceToOtherEntry](http://schemas.scales-okn.org/rdf/scales#hasReferenceToOtherEntry)
@@ -39,7 +39,7 @@ URI: [scales:hasReferenceToOtherEntry](http://schemas.scales-okn.org/rdf/scales#
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| None | uri | scales:/DocketEntry/casd;;3:16-cv-01645_de10 | scales:/DocketEntry/casd;;3:16-cv-01645_de8 | 32887 |
+| None | uri | scales:DocketEntry/akd;;1:16-cr-00001_de1 | scales:DocketEntry/akd;;1:16-cr-00001_de0 | 10618350 |
 
 
 
@@ -53,17 +53,17 @@ name: scales_hasReferenceToOtherEntry
 annotations:
   count:
     tag: count
-    value: 32887
+    value: 10618350
   uri:
     tag: uri
-    value: 32887
+    value: 10618350
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: scales:/DocketEntry/casd;;3:16-cv-01645_de8
+    example_object: scales:DocketEntry/akd;;1:16-cr-00001_de0
     example_object_type: uri
     example_predicate: scales:hasReferenceToOtherEntry
-    example_subject: scales:/DocketEntry/casd;;3:16-cv-01645_de10
+    example_subject: scales:DocketEntry/akd;;1:16-cr-00001_de1
     example_subject_type: None
 from_schema: scales-kg
 rank: 1000

@@ -10,7 +10,7 @@ _No class (type) description specified_
 
 
 
-This class occurs 4999 times.
+This class occurs 28771511 times.
 
 
 URI: [http://release.niem.gov/niem/domains/jxdm/7.2/RegisterAction](http://release.niem.gov/niem/domains/jxdm/7.2/RegisterAction)
@@ -33,6 +33,33 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/RegisterAction](http://relea
     click Uri href "../Uri"
 
         
+      HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction : http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDate
+        
+          
+    
+    
+    HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction --> "0..1" Date : http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDate
+    click Date href "../Date"
+
+        
+      HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction : http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDescriptionText
+        
+          
+    
+    
+    HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction --> "0..1" String : http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDescriptionText
+    click String href "../String"
+
+        
+      HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction : http___release.niem.gov_niem_domains_jxdm_7.2_Sentence
+        
+          
+    
+    
+    HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction --> "0..1" HttpRelease.niem.govNiemDomainsJxdm7.2Sentence : http___release.niem.gov_niem_domains_jxdm_7.2_Sentence
+    click HttpRelease.niem.govNiemDomainsJxdm7.2Sentence href "../HttpRelease.niem.govNiemDomainsJxdm7.2Sentence"
+
+        
       
 ```
 
@@ -46,7 +73,10 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/RegisterAction](http://relea
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction](../slots/http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 182022 |
+| [http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction](../slots/http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 30414852 |
+| [http___release.niem.gov_niem_domains_jxdm_7.2_Sentence](../slots/http___release.niem.gov_niem_domains_jxdm_7.2_Sentence.md) | 0..1 <br/> [HttpRelease.niem.govNiemDomainsJxdm7.2Sentence](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Sentence.md) | No slot (predicate) description specified <br/>  | direct | 356094 |
+| [http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDescriptionText](../slots/http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDescriptionText.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 27939511 |
+| [http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDate](../slots/http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDate.md) | 0..1 <br/> [xsd:date](http://www.w3.org/2001/XMLSchema#date) | No slot (predicate) description specified <br/>  | direct | 27940834 |
 
 
 
@@ -57,6 +87,7 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/RegisterAction](http://relea
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
 | [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | [HttpRelease.niem.govNiemDomainsJxdm7.2RegisterOfActions](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2RegisterOfActions.md) | any_of[range] | [HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction.md) |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2RegisterOfActions](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2RegisterOfActions.md) | [scales_DocketEntry](../slots/scales_DocketEntry.md) | range | [HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction.md) |
 | [ScalesCase](../classes/ScalesCase.md) | [HttpRelease.niem.govNiemDomainsJxdm7.2RegisterOfActions](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2RegisterOfActions.md) | any_of[range] | [HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction.md) |
 
 
@@ -83,20 +114,41 @@ conforms_to: No schema conformance document specified
 annotations:
   count:
     tag: count
-    value: 4999
+    value: 28771511
 description: No class (type) description specified
 title: No class (type) name specified
 from_schema: scales-kg
 rank: 1000
 slots:
 - http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction
+- http___release.niem.gov_niem_domains_jxdm_7.2_Sentence
+- http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDescriptionText
+- http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDate
 slot_usage:
   http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction:
     name: http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction
     annotations:
       uri:
         tag: uri
-        value: 182022
+        value: 30414852
+  http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDate:
+    name: http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDate
+    annotations:
+      date:
+        tag: date
+        value: 27940834
+  http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDescriptionText:
+    name: http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDescriptionText
+    annotations:
+      string:
+        tag: string
+        value: 27939511
+  http___release.niem.gov_niem_domains_jxdm_7.2_Sentence:
+    name: http___release.niem.gov_niem_domains_jxdm_7.2_Sentence
+    annotations:
+      http___release.niem.gov_niem_domains_jxdm_7.2_Sentence:
+        tag: http___release.niem.gov_niem_domains_jxdm_7.2_Sentence
+        value: 356094
 class_uri: http://release.niem.gov/niem/domains/jxdm/7.2/RegisterAction
 
 ```
@@ -112,7 +164,7 @@ conforms_to: No schema conformance document specified
 annotations:
   count:
     tag: count
-    value: 4999
+    value: 28771511
 description: No class (type) description specified
 title: No class (type) name specified
 from_schema: scales-kg
@@ -123,28 +175,40 @@ slot_usage:
     annotations:
       uri:
         tag: uri
-        value: 182022
+        value: 30414852
+  http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDate:
+    name: http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDate
+    annotations:
+      date:
+        tag: date
+        value: 27940834
+  http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDescriptionText:
+    name: http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDescriptionText
+    annotations:
+      string:
+        tag: string
+        value: 27939511
+  http___release.niem.gov_niem_domains_jxdm_7.2_Sentence:
+    name: http___release.niem.gov_niem_domains_jxdm_7.2_Sentence
+    annotations:
+      http___release.niem.gov_niem_domains_jxdm_7.2_Sentence:
+        tag: http___release.niem.gov_niem_domains_jxdm_7.2_Sentence
+        value: 356094
 attributes:
   http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction:
     name: http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction
     annotations:
       uri:
         tag: uri
-        value: 182022
+        value: 30414852
     description: No slot (predicate) description specified
     examples:
     - object:
-        example_object: scales:/DocketEntry/casd;;3:16-cv-01644_de0
+        example_object: scales:DocketEntry/akd;;1:16-cr-00001_de0
         example_object_type: uri
         example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/RegisterAction
-        example_subject: scales:/DocketTable/casd;;3:16-cv-01644
+        example_subject: scales:DocketTable/akd;;1:16-cr-00001
         example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction
-    - object:
-        example_object: scales:/DocketEntry/casd;;3:16-cv-01644_de0
-        example_object_type: uri
-        example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/RegisterAction
-        example_subject: scales:/DocketTable/casd;;3:16-cv-01644
-        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_RegisterOfActions
     from_schema: scales-kg
     rank: 1000
     slot_uri: http://release.niem.gov/niem/domains/jxdm/7.2/RegisterAction
@@ -154,6 +218,94 @@ attributes:
     - http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction
     - http___release.niem.gov_niem_domains_jxdm_7.2_RegisterOfActions
     range: uri
+  http___release.niem.gov_niem_domains_jxdm_7.2_Sentence:
+    name: http___release.niem.gov_niem_domains_jxdm_7.2_Sentence
+    annotations:
+      http___release.niem.gov_niem_domains_jxdm_7.2_Sentence:
+        tag: http___release.niem.gov_niem_domains_jxdm_7.2_Sentence
+        value: 356094
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: scales:Sentence/ga-clayton-state;;0:00-cr-00001_de10_s0
+        example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_Sentence
+        example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/Sentence
+        example_subject: scales:DocketEntry/ga-clayton-state;;0:00-cr-00001_de10
+        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction
+    - object:
+        example_object: scales:Sentence/ga-clayton-state;;0:00-cr-01074_de32_s0
+        example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_Sentence
+        example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/Sentence
+        example_subject: scales:Agent/ga-clayton-state;;0:00-cr-01074_a1.0
+        example_subject_type: None
+    from_schema: scales-kg
+    rank: 1000
+    slot_uri: http://release.niem.gov/niem/domains/jxdm/7.2/Sentence
+    alias: http___release.niem.gov_niem_domains_jxdm_7.2_Sentence
+    owner: http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction
+    domain_of:
+    - http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction
+    range: http___release.niem.gov_niem_domains_jxdm_7.2_Sentence
+  http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDescriptionText:
+    name: http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDescriptionText
+    annotations:
+      string:
+        tag: string
+        value: 27939511
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: 'MISDEMEANOR INFORMATION as to 01169B9 (1) count(s) 1-4. (Attachments:
+          # 1 Criminal Cover Sheet re Defendant 01169B9) (CLW, COURT STAFF) (Entered:
+          02/03/2016)'
+        example_object_type: string
+        example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/RegisterActionDescriptionText
+        example_subject: scales:DocketEntry/akd;;1:16-cr-00001_de0
+        example_subject_type: None
+    - object:
+        example_object: 'Contract
+
+          against SCALES-1258027'
+        example_object_type: string
+        example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/RegisterActionDescriptionText
+        example_subject: scales:DocketEntry/ga-clayton-magistrate-civil;;0:00-cm-00001_de0
+        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction
+    from_schema: scales-kg
+    rank: 1000
+    slot_uri: http://release.niem.gov/niem/domains/jxdm/7.2/RegisterActionDescriptionText
+    alias: http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDescriptionText
+    owner: http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction
+    domain_of:
+    - http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction
+    range: string
+  http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDate:
+    name: http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDate
+    annotations:
+      date:
+        tag: date
+        value: 27940834
+    description: No slot (predicate) description specified
+    examples:
+    - object:
+        example_object: '2016-02-03'
+        example_object_type: date
+        example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/RegisterActionDate
+        example_subject: scales:DocketEntry/akd;;1:16-cr-00001_de0
+        example_subject_type: None
+    - object:
+        example_object: '2000-01-10'
+        example_object_type: date
+        example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/RegisterActionDate
+        example_subject: scales:DocketEntry/ga-clayton-magistrate-civil;;0:00-cm-00001_de0
+        example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction
+    from_schema: scales-kg
+    rank: 1000
+    slot_uri: http://release.niem.gov/niem/domains/jxdm/7.2/RegisterActionDate
+    alias: http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDate
+    owner: http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction
+    domain_of:
+    - http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction
+    range: date
 class_uri: http://release.niem.gov/niem/domains/jxdm/7.2/RegisterAction
 
 ```

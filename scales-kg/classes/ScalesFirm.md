@@ -10,7 +10,7 @@ _No class (type) description specified_
 
 
 
-This class occurs 17041 times.
+This class occurs 2929549 times.
 
 
 URI: [scales:Firm](http://schemas.scales-okn.org/rdf/scales#Firm)
@@ -46,7 +46,7 @@ URI: [scales:Firm](http://schemas.scales-okn.org/rdf/scales#Firm)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [niem50_OrganizationName](../slots/niem50_OrganizationName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 17041 |
+| [niem50_OrganizationName](../slots/niem50_OrganizationName.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 2929547 |
 
 
 
@@ -84,7 +84,7 @@ conforms_to: No schema conformance document specified
 annotations:
   count:
     tag: count
-    value: 17041
+    value: 2929549
 description: No class (type) description specified
 title: No class (type) name specified
 from_schema: scales-kg
@@ -97,7 +97,7 @@ slot_usage:
     annotations:
       string:
         tag: string
-        value: 17041
+        value: 2929547
 class_uri: scales:Firm
 
 ```
@@ -113,7 +113,7 @@ conforms_to: No schema conformance document specified
 annotations:
   count:
     tag: count
-    value: 17041
+    value: 2929549
 description: No class (type) description specified
 title: No class (type) name specified
 from_schema: scales-kg
@@ -124,21 +124,21 @@ slot_usage:
     annotations:
       string:
         tag: string
-        value: 17041
+        value: 2929547
 attributes:
   niem50_OrganizationName:
     name: niem50_OrganizationName
     annotations:
       string:
         tag: string
-        value: 17041
+        value: 2929547
     description: No slot (predicate) description specified
     examples:
     - object:
-        example_object: Federal Defenders of San Diego
+        example_object: U.S. Attorney's Office (Anch)
         example_object_type: string
         example_predicate: niem50:OrganizationName
-        example_subject: scales:/Agent/casd;;3:16-cv-01644_a6
+        example_subject: scales:Agent/akd;;1:16-cr-00001_a10
         example_subject_type: scales_Firm
     from_schema: scales-kg
     rank: 1000

@@ -27,8 +27,8 @@ URI: [scales:hasIdbIs_stub](http://schemas.scales-okn.org/rdf/scales#hasIdbIs_st
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
 | [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
+| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
 
 
 
@@ -49,8 +49,7 @@ URI: [scales:hasIdbIs_stub](http://schemas.scales-okn.org/rdf/scales#hasIdbIs_st
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | boolean | scales:/CaseCivil | false | 2 |
-| scales_Case | boolean | scales:/CaseCivil | false | 2 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Case | boolean | scales:CivilCase | false | 2 |
 
 
 
@@ -71,14 +70,8 @@ examples:
     example_object: 'false'
     example_object_type: boolean
     example_predicate: scales:hasIdbIs_stub
-    example_subject: scales:/CaseCivil
+    example_subject: scales:CivilCase
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- object:
-    example_object: 'false'
-    example_object_type: boolean
-    example_predicate: scales:hasIdbIs_stub
-    example_subject: scales:/CaseCivil
-    example_subject_type: scales_Case
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbIs_stub

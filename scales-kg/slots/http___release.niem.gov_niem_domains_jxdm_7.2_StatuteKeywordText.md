@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 211 times.
+This slot occurs 3389 times.
 
 
 URI: [http://release.niem.gov/niem/domains/jxdm/7.2/StatuteKeywordText](http://release.niem.gov/niem/domains/jxdm/7.2/StatuteKeywordText)
@@ -27,8 +27,8 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/StatuteKeywordText](http://r
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
 | [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
+| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
 
 
 
@@ -49,8 +49,7 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/StatuteKeywordText](http://r
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:/CaseCivil | 00:0000 Cause Code Unknown | 211 |
-| scales_Case | string | scales:/CaseCivil | 00:0000 Cause Code Unknown | 211 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:CivilCase |  28:1332sh Diversity-Sexual Harassment | 3389 |
 
 
 
@@ -64,21 +63,15 @@ name: http___release.niem.gov_niem_domains_jxdm_7.2_StatuteKeywordText
 annotations:
   count:
     tag: count
-    value: 211
+    value: 3389
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: 00:0000 Cause Code Unknown
+    example_object: ' 28:1332sh Diversity-Sexual Harassment'
     example_object_type: string
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/StatuteKeywordText
-    example_subject: scales:/CaseCivil
+    example_subject: scales:CivilCase
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- object:
-    example_object: 00:0000 Cause Code Unknown
-    example_object_type: string
-    example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/StatuteKeywordText
-    example_subject: scales:/CaseCivil
-    example_subject_type: scales_Case
 from_schema: scales-kg
 rank: 1000
 slot_uri: http://release.niem.gov/niem/domains/jxdm/7.2/StatuteKeywordText

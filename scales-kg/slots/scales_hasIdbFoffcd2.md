@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 44 times.
+This slot occurs 175 times.
 
 
 URI: [scales:hasIdbFoffcd2](http://schemas.scales-okn.org/rdf/scales#hasIdbFoffcd2)
@@ -27,8 +27,8 @@ URI: [scales:hasIdbFoffcd2](http://schemas.scales-okn.org/rdf/scales#hasIdbFoffc
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
 | [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
+| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
 
 
 
@@ -49,8 +49,7 @@ URI: [scales:hasIdbFoffcd2](http://schemas.scales-okn.org/rdf/scales#hasIdbFoffc
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | double | scales:/CaseCriminal | -8.0 | 44 |
-| scales_Case | double | scales:/CaseCriminal | -8.0 | 44 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Case | double | scales:CriminalCase | -8.0 | 175 |
 
 
 
@@ -64,21 +63,15 @@ name: scales_hasIdbFoffcd2
 annotations:
   count:
     tag: count
-    value: 44
+    value: 175
 description: No slot (predicate) description specified
 examples:
 - object:
     example_object: '-8.0'
     example_object_type: double
     example_predicate: scales:hasIdbFoffcd2
-    example_subject: scales:/CaseCriminal
+    example_subject: scales:CriminalCase
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- object:
-    example_object: '-8.0'
-    example_object_type: double
-    example_predicate: scales:hasIdbFoffcd2
-    example_subject: scales:/CaseCriminal
-    example_subject_type: scales_Case
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbFoffcd2

@@ -48,7 +48,7 @@ URI: [scales:hasUVAJudgeDirID](http://schemas.scales-okn.org/rdf/scales#hasUVAJu
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Judge | string | scales:/JudgeEntity/SJ000079 | mag-261 | 988 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Judge | string | scales:JudgeEntity/SJ000018 | mag-424 | 988 |
 
 
 
@@ -66,10 +66,10 @@ annotations:
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: mag-261
+    example_object: mag-424
     example_object_type: string
     example_predicate: scales:hasUVAJudgeDirID
-    example_subject: scales:/JudgeEntity/SJ000079
+    example_subject: scales:JudgeEntity/SJ000018
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
 from_schema: scales-kg
 rank: 1000
