@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 5 times.
+
+
 URI: [scales:hasRelatedCase](http://schemas.scales-okn.org/rdf/scales#hasRelatedCase)
 
 
@@ -23,7 +27,8 @@ URI: [scales:hasRelatedCase](http://schemas.scales-okn.org/rdf/scales#hasRelated
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
+| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -33,7 +38,7 @@ URI: [scales:hasRelatedCase](http://schemas.scales-okn.org/rdf/scales#hasRelated
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ScalesCase](../classes/ScalesCase.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[ScalesCase](../classes/ScalesCase.md)&nbsp;or&nbsp;<br />[HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md)
 
 
 
@@ -42,16 +47,14 @@ URI: [scales:hasRelatedCase](http://schemas.scales-okn.org/rdf/scales#hasRelated
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| scales_Case → scales_Case | scales/CaseCriminal | scales:hasRelatedCase | scales/CaseCriminal |
-| scales_Case → uri | scales/CaseCivil | scales:hasRelatedCase | scales/CaseOther |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| scales_Case | scales_Case | scales:CivilCase | scales:CivilCase | 4 |
+| scales_Case | http___release.niem.gov_niem_domains_jxdm_7.2_Case | scales:CivilCase | scales:CivilCase | 4 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Case | scales_Case | scales:CivilCase | scales:CivilCase | 4 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Case | http___release.niem.gov_niem_domains_jxdm_7.2_Case | scales:CivilCase | scales:CivilCase | 4 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Case | uri | scales:CivilCase | scales:OtherCase | 1 |
 
-
-## Comments
-
-* 4 occurrences with subject type scales_Case and object type scales_Case.
-* 1 occurrences with subject type scales_Case and object type uri.
 
 
 
@@ -61,35 +64,54 @@ URI: [scales:hasRelatedCase](http://schemas.scales-okn.org/rdf/scales#hasRelated
 
 ```yaml
 name: scales_hasRelatedCase
+annotations:
+  count:
+    tag: count
+    value: 5
 description: No slot (predicate) description specified
-comments:
-- 4 occurrences with subject type scales_Case and object type scales_Case.
-- 1 occurrences with subject type scales_Case and object type uri.
 examples:
-- description: scales_Case → scales_Case
-  object:
-    example_object: scales/CaseCriminal
+- object:
+    example_object: scales:CivilCase
     example_object_type: scales_Case
     example_predicate: scales:hasRelatedCase
-    example_subject: scales/CaseCriminal
+    example_subject: scales:CivilCase
     example_subject_type: scales_Case
-- description: scales_Case → uri
-  object:
-    example_object: scales/CaseOther
+- object:
+    example_object: scales:CivilCase
+    example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_predicate: scales:hasRelatedCase
+    example_subject: scales:CivilCase
+    example_subject_type: scales_Case
+- object:
+    example_object: scales:CivilCase
+    example_object_type: scales_Case
+    example_predicate: scales:hasRelatedCase
+    example_subject: scales:CivilCase
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+- object:
+    example_object: scales:CivilCase
+    example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_predicate: scales:hasRelatedCase
+    example_subject: scales:CivilCase
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+- object:
+    example_object: scales:OtherCase
     example_object_type: uri
     example_predicate: scales:hasRelatedCase
-    example_subject: scales/CaseCivil
-    example_subject_type: scales_Case
-from_schema: scales-kg-new
+    example_subject: scales:CivilCase
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasRelatedCase
 alias: scales_hasRelatedCase
 domain_of:
+- http___release.niem.gov_niem_domains_jxdm_7.2_Case
 - scales_Case
 range: Any
 any_of:
-- range: scales_Case
 - range: uri
+- range: scales_Case
+- range: http___release.niem.gov_niem_domains_jxdm_7.2_Case
 
 ```
 </details>

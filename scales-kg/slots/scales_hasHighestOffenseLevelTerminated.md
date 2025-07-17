@@ -9,12 +9,25 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 69523 times.
+
+
 URI: [scales:hasHighestOffenseLevelTerminated](http://schemas.scales-okn.org/rdf/scales#hasHighestOffenseLevelTerminated)
 
 
 
 <!-- no inheritance hierarchy -->
 
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty.md) | No class (type) description specified |  yes  |
 
 
 
@@ -33,14 +46,10 @@ URI: [scales:hasHighestOffenseLevelTerminated](http://schemas.scales-okn.org/rdf
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → string | scales/Agent/almd;;1:16-cr-00077_a0 | scales:hasHighestOffenseLevelTerminated | Misdemeanor |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty | string | scales:Agent/akd;;1:16-cr-00006_a0 | Misdemeanor | 69523 |
 
-
-## Comments
-
-* 38306 occurrences with untyped subjects and object type string.
 
 
 
@@ -50,21 +59,24 @@ URI: [scales:hasHighestOffenseLevelTerminated](http://schemas.scales-okn.org/rdf
 
 ```yaml
 name: scales_hasHighestOffenseLevelTerminated
+annotations:
+  count:
+    tag: count
+    value: 69523
 description: No slot (predicate) description specified
-comments:
-- 38306 occurrences with untyped subjects and object type string.
 examples:
-- description: None → string
-  object:
+- object:
     example_object: Misdemeanor
     example_object_type: string
     example_predicate: scales:hasHighestOffenseLevelTerminated
-    example_subject: scales/Agent/almd;;1:16-cr-00077_a0
-    example_subject_type: None
-from_schema: scales-kg-new
+    example_subject: scales:Agent/akd;;1:16-cr-00006_a0
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
+from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasHighestOffenseLevelTerminated
 alias: scales_hasHighestOffenseLevelTerminated
+domain_of:
+- http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
 range: string
 
 ```

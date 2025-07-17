@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 17587513 times.
+
+
 URI: [niem50:PersonFullName](http://release.niem.gov/niem/niem-core/5.0/PersonFullName)
 
 
@@ -23,7 +27,12 @@ URI: [niem50:PersonFullName](http://release.niem.gov/niem/niem-core/5.0/PersonFu
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72Judge](../classes/Jxdm72Judge.md) | No class (type) description specified |  no  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2Attorney](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Attorney.md) | No class (type) description specified |  yes  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2CaseJudge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseJudge.md) | No class (type) description specified |  yes  |
+| [ScalesParty](../classes/ScalesParty.md) | No class (type) description specified |  yes  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2Judge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Judge.md) | No class (type) description specified |  yes  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefenseAttorney](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefenseAttorney.md) | No class (type) description specified |  yes  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingAttorney](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingAttorney.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,16 +51,16 @@ URI: [niem50:PersonFullName](http://release.niem.gov/niem/niem-core/5.0/PersonFu
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → string | scales/Agent/almd;;1:16-cr-00020_a2 | niem50:PersonFullName | Honorable Judge Myron H. Thompson |
-| jxdm72_Judge → string | scales/JudgeEntity/SJ000000 | niem50:PersonFullName | Cj Williams |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| None | string | scales:Agent/akd;;1:16-cr-00001_a2 | Timothy M. Burgess | 1216331 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney | string | scales:Agent/akd;;1:16-cr-00001_a3 | Matthew McCrary Scoble | 2823772 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney | string | scales:Agent/akd;;1:16-cr-00001_a5 | Jack S. Schmidt | 2755161 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Attorney | string | scales:Agent/akd;;1:16-cv-00008_a22 | Mary Ann Lundquist | 537560 |
+| scales_Party | string | scales:Agent/ga-clayton-magistrate-civil;;0:00-cm-00001_a0 | BRAZELTON TROY DBA | 7042309 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseJudge | string | scales:Judge/ga-clayton-magistrate-civil;;0:00-cm-00001_3 | BAIRD | 3206995 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Judge | string | scales:JudgeEntity/SJ000001 | Stephen H Locher | 5385 |
 
-
-## Comments
-
-* 4973752 occurrences with untyped subjects and object type string.
-* 5385 occurrences with subject type jxdm72_Judge and object type string.
 
 
 
@@ -61,31 +70,68 @@ URI: [niem50:PersonFullName](http://release.niem.gov/niem/niem-core/5.0/PersonFu
 
 ```yaml
 name: niem50_PersonFullName
+annotations:
+  count:
+    tag: count
+    value: 17587513
+  string:
+    tag: string
+    value: 1216331
 description: No slot (predicate) description specified
-comments:
-- 4973752 occurrences with untyped subjects and object type string.
-- 5385 occurrences with subject type jxdm72_Judge and object type string.
 examples:
-- description: None → string
-  object:
-    example_object: Honorable Judge Myron H. Thompson
+- object:
+    example_object: Timothy M. Burgess
     example_object_type: string
     example_predicate: niem50:PersonFullName
-    example_subject: scales/Agent/almd;;1:16-cr-00020_a2
+    example_subject: scales:Agent/akd;;1:16-cr-00001_a2
     example_subject_type: None
-- description: jxdm72_Judge → string
-  object:
-    example_object: Cj Williams
+- object:
+    example_object: Matthew McCrary Scoble
     example_object_type: string
     example_predicate: niem50:PersonFullName
-    example_subject: scales/JudgeEntity/SJ000000
-    example_subject_type: jxdm72_Judge
-from_schema: scales-kg-new
+    example_subject: scales:Agent/akd;;1:16-cr-00001_a3
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney
+- object:
+    example_object: Jack S. Schmidt
+    example_object_type: string
+    example_predicate: niem50:PersonFullName
+    example_subject: scales:Agent/akd;;1:16-cr-00001_a5
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
+- object:
+    example_object: Mary Ann Lundquist
+    example_object_type: string
+    example_predicate: niem50:PersonFullName
+    example_subject: scales:Agent/akd;;1:16-cv-00008_a22
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Attorney
+- object:
+    example_object: BRAZELTON TROY DBA
+    example_object_type: string
+    example_predicate: niem50:PersonFullName
+    example_subject: scales:Agent/ga-clayton-magistrate-civil;;0:00-cm-00001_a0
+    example_subject_type: scales_Party
+- object:
+    example_object: BAIRD
+    example_object_type: string
+    example_predicate: niem50:PersonFullName
+    example_subject: scales:Judge/ga-clayton-magistrate-civil;;0:00-cm-00001_3
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseJudge
+- object:
+    example_object: Stephen H Locher
+    example_object_type: string
+    example_predicate: niem50:PersonFullName
+    example_subject: scales:JudgeEntity/SJ000001
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+from_schema: scales-kg
 rank: 1000
 slot_uri: niem50:PersonFullName
 alias: niem50_PersonFullName
 domain_of:
-- jxdm72_Judge
+- http___release.niem.gov_niem_domains_jxdm_7.2_Attorney
+- http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney
+- http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
+- http___release.niem.gov_niem_domains_jxdm_7.2_CaseJudge
+- http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+- scales_Party
 range: string
 
 ```

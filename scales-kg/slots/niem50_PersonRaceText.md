@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 367176 times.
+
+
 URI: [niem50:PersonRaceText](http://release.niem.gov/niem/niem-core/5.0/PersonRaceText)
 
 
@@ -23,7 +27,8 @@ URI: [niem50:PersonRaceText](http://release.niem.gov/niem/niem-core/5.0/PersonRa
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72Judge](../classes/Jxdm72Judge.md) | No class (type) description specified |  no  |
+| [ScalesAgent](../classes/ScalesAgent.md) | No class (type) description specified |  yes  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2Judge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Judge.md) | No class (type) description specified |  yes  |
 
 
 
@@ -42,14 +47,11 @@ URI: [niem50:PersonRaceText](http://release.niem.gov/niem/niem-core/5.0/PersonRa
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| jxdm72_Judge → string | scales/JudgeEntity/SJ000004 | niem50:PersonRaceText | White |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Judge | string | scales:JudgeEntity/SJ000002 | White | 3762 |
+| scales_Agent | string | scales:Agent/10000019_0 | B | 363414 |
 
-
-## Comments
-
-* 3762 occurrences with subject type jxdm72_Judge and object type string.
 
 
 
@@ -59,23 +61,31 @@ URI: [niem50:PersonRaceText](http://release.niem.gov/niem/niem-core/5.0/PersonRa
 
 ```yaml
 name: niem50_PersonRaceText
+annotations:
+  count:
+    tag: count
+    value: 367176
 description: No slot (predicate) description specified
-comments:
-- 3762 occurrences with subject type jxdm72_Judge and object type string.
 examples:
-- description: jxdm72_Judge → string
-  object:
+- object:
     example_object: White
     example_object_type: string
     example_predicate: niem50:PersonRaceText
-    example_subject: scales/JudgeEntity/SJ000004
-    example_subject_type: jxdm72_Judge
-from_schema: scales-kg-new
+    example_subject: scales:JudgeEntity/SJ000002
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+- object:
+    example_object: B
+    example_object_type: string
+    example_predicate: niem50:PersonRaceText
+    example_subject: scales:Agent/10000019_0
+    example_subject_type: scales_Agent
+from_schema: scales-kg
 rank: 1000
 slot_uri: niem50:PersonRaceText
 alias: niem50_PersonRaceText
 domain_of:
-- jxdm72_Judge
+- http___release.niem.gov_niem_domains_jxdm_7.2_Judge
+- scales_Agent
 range: string
 
 ```

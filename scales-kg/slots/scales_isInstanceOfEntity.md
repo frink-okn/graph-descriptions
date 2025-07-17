@@ -9,6 +9,10 @@ _No slot (predicate) description specified_
 
 
 
+
+This slot occurs 7044753 times.
+
+
 URI: [scales:isInstanceOfEntity](http://schemas.scales-okn.org/rdf/scales#isInstanceOfEntity)
 
 
@@ -19,12 +23,21 @@ URI: [scales:isInstanceOfEntity](http://schemas.scales-okn.org/rdf/scales#isInst
 
 
 
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [ScalesParty](../classes/ScalesParty.md) | No class (type) description specified |  yes  |
+
+
+
+
 
 
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[Jxdm72Judge](../classes/Jxdm72Judge.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
 
 
 
@@ -33,16 +46,11 @@ URI: [scales:isInstanceOfEntity](http://schemas.scales-okn.org/rdf/scales#isInst
 
 ## Examples
 
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → uri | scales/Agent/almd;;1:16-cr-00020_a1 | scales:isInstanceOfEntity | scales/PartyEntity/SPID-GOVERNMENT-ST-025-000001969 |
-| None → jxdm72_Judge | scales/Agent/wyd;;6:17-cr-00033_a2 | scales:isInstanceOfEntity | scales/JudgeEntity/SJ001755 |
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| scales_Party | uri | scales:Agent/ga-clayton-magistrate-civil;;0:00-cm-00001_a0 | scales:PartyEntity/SPID-GA-CLAYTON-563646 | 7042309 |
+| None | uri | scales:Agent/ga-clayton-magistrate-civil;;0:23-cm-00005_a0 | scales:PartyEntity/SPID-GA-CLAYTON-566344 | 2444 |
 
-
-## Comments
-
-* 939873 occurrences with untyped subjects and object type uri.
-* 715622 occurrences with untyped subjects and object type jxdm72_Judge.
 
 
 
@@ -52,33 +60,34 @@ URI: [scales:isInstanceOfEntity](http://schemas.scales-okn.org/rdf/scales#isInst
 
 ```yaml
 name: scales_isInstanceOfEntity
+annotations:
+  count:
+    tag: count
+    value: 7044753
+  uri:
+    tag: uri
+    value: 2444
 description: No slot (predicate) description specified
-comments:
-- 939873 occurrences with untyped subjects and object type uri.
-- 715622 occurrences with untyped subjects and object type jxdm72_Judge.
 examples:
-- description: None → uri
-  object:
-    example_object: scales/PartyEntity/SPID-GOVERNMENT-ST-025-000001969
+- object:
+    example_object: scales:PartyEntity/SPID-GA-CLAYTON-563646
     example_object_type: uri
     example_predicate: scales:isInstanceOfEntity
-    example_subject: scales/Agent/almd;;1:16-cr-00020_a1
-    example_subject_type: None
-- description: None → jxdm72_Judge
-  object:
-    example_object: scales/JudgeEntity/SJ001755
-    example_object_type: jxdm72_Judge
+    example_subject: scales:Agent/ga-clayton-magistrate-civil;;0:00-cm-00001_a0
+    example_subject_type: scales_Party
+- object:
+    example_object: scales:PartyEntity/SPID-GA-CLAYTON-566344
+    example_object_type: uri
     example_predicate: scales:isInstanceOfEntity
-    example_subject: scales/Agent/wyd;;6:17-cr-00033_a2
+    example_subject: scales:Agent/ga-clayton-magistrate-civil;;0:23-cm-00005_a0
     example_subject_type: None
-from_schema: scales-kg-new
+from_schema: scales-kg
 rank: 1000
 slot_uri: scales:isInstanceOfEntity
 alias: scales_isInstanceOfEntity
-range: Any
-any_of:
-- range: jxdm72_Judge
-- range: uri
+domain_of:
+- scales_Party
+range: uri
 
 ```
 </details>
