@@ -10,8 +10,6 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 0 times.
-
 
 URI: [owl:onDatatype](http://www.w3.org/2002/07/owl#onDatatype)
 
@@ -28,7 +26,7 @@ URI: [owl:onDatatype](http://www.w3.org/2002/07/owl#onDatatype)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[RdfsDatatype](../classes/RdfsDatatype.md)&nbsp;or&nbsp;<br />[RdfsClass](../classes/RdfsClass.md)
 
 
 
@@ -46,20 +44,21 @@ URI: [owl:onDatatype](http://www.w3.org/2002/07/owl#onDatatype)
 
 ```yaml
 name: owl_onDatatype
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No slot (predicate) description specified
 title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
 from_schema: fio-kg
 rank: 1000
-domain: owl_onDatatype
 slot_uri: owl:onDatatype
 alias: owl_onDatatype
-range: uri
+union_of:
+- '{''domain'': ''rdfs_Datatype''}'
+- '{''domain'': ''rdfs_Class''}'
+range: Any
+any_of:
+- range: rdfs_Datatype
+- range: rdfs_Class
 
 ```
 </details>

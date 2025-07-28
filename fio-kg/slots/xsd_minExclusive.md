@@ -10,8 +10,6 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 0 times.
-
 
 URI: [xsd:minExclusive](http://www.w3.org/2001/XMLSchema#minExclusive)
 
@@ -28,7 +26,7 @@ URI: [xsd:minExclusive](http://www.w3.org/2001/XMLSchema#minExclusive)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [RdfsLiteral](../classes/RdfsLiteral.md)
 
 
 
@@ -46,20 +44,15 @@ URI: [xsd:minExclusive](http://www.w3.org/2001/XMLSchema#minExclusive)
 
 ```yaml
 name: xsd_minExclusive
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No slot (predicate) description specified
 title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
 from_schema: fio-kg
 rank: 1000
-domain: xsd_minExclusive
 slot_uri: xsd:minExclusive
 alias: xsd_minExclusive
-range: uri
+range: rdfs_Literal
 
 ```
 </details>

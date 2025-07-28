@@ -10,8 +10,6 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 0 times.
-
 
 URI: [xsd:maxLength](http://www.w3.org/2001/XMLSchema#maxLength)
 
@@ -28,7 +26,7 @@ URI: [xsd:maxLength](http://www.w3.org/2001/XMLSchema#maxLength)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [RdfsLiteral](../classes/RdfsLiteral.md)
 
 
 
@@ -46,20 +44,15 @@ URI: [xsd:maxLength](http://www.w3.org/2001/XMLSchema#maxLength)
 
 ```yaml
 name: xsd_maxLength
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No slot (predicate) description specified
 title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
 from_schema: fio-kg
 rank: 1000
-domain: xsd_maxLength
 slot_uri: xsd:maxLength
 alias: xsd_maxLength
-range: uri
+range: rdfs_Literal
 
 ```
 </details>

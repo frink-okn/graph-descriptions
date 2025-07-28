@@ -1,6 +1,6 @@
 
 
-# Class: No class (type) name specified (rdf_Property)
+# Class: No class (entity type) name specified (rdf_Property)
 
 
 _No class (type) description specified_
@@ -9,8 +9,6 @@ _No class (type) description specified_
 
 
 
-
-This class occurs 0 times.
 
 
 URI: [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property)
@@ -24,6 +22,8 @@ URI: [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property)
  classDiagram
     class RdfProperty
     click RdfProperty href "../RdfProperty"
+      RdfProperty <|-- RdfsContainerMembershipProperty
+        click RdfsContainerMembershipProperty href "../RdfsContainerMembershipProperty"
       RdfProperty <|-- OwlAnnotationProperty
         click OwlAnnotationProperty href "../OwlAnnotationProperty"
       RdfProperty <|-- OwlDatatypeProperty
@@ -34,8 +34,6 @@ URI: [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property)
         click OwlFunctionalProperty href "../OwlFunctionalProperty"
       RdfProperty <|-- OwlOntologyProperty
         click OwlOntologyProperty href "../OwlOntologyProperty"
-      RdfProperty <|-- RdfsContainerMembershipProperty
-        click RdfsContainerMembershipProperty href "../RdfsContainerMembershipProperty"
       
       
 ```
@@ -46,12 +44,12 @@ URI: [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property)
 
 ## Inheritance
 * **RdfProperty**
+    * [RdfsContainerMembershipProperty](../classes/RdfsContainerMembershipProperty.md)
     * [OwlAnnotationProperty](../classes/OwlAnnotationProperty.md)
     * [OwlDatatypeProperty](../classes/OwlDatatypeProperty.md)
     * [OwlDeprecatedProperty](../classes/OwlDeprecatedProperty.md)
     * [OwlFunctionalProperty](../classes/OwlFunctionalProperty.md)
     * [OwlOntologyProperty](../classes/OwlOntologyProperty.md)
-    * [RdfsContainerMembershipProperty](../classes/RdfsContainerMembershipProperty.md)
 
 
 
@@ -91,12 +89,8 @@ URI: [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property)
 ```yaml
 name: rdf_Property
 conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified
 from_schema: fio-kg
 rank: 1000
 class_uri: rdf:Property
@@ -111,12 +105,8 @@ class_uri: rdf:Property
 ```yaml
 name: rdf_Property
 conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified
 from_schema: fio-kg
 rank: 1000
 class_uri: rdf:Property

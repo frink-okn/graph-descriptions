@@ -1,6 +1,6 @@
 
 
-# Class: No class (type) name specified (owl_rational)
+# Class: No class (entity type) name specified (owl_rational)
 
 
 _No class (type) description specified_
@@ -9,8 +9,6 @@ _No class (type) description specified_
 
 
 
-
-This class occurs 0 times.
 
 
 URI: [owl:rational](http://www.w3.org/2002/07/owl#rational)
@@ -69,12 +67,8 @@ URI: [owl:rational](http://www.w3.org/2002/07/owl#rational)
 ```yaml
 name: owl_rational
 conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified
 from_schema: fio-kg
 rank: 1000
 is_a: rdfs_Literal
@@ -90,12 +84,8 @@ class_uri: owl:rational
 ```yaml
 name: owl_rational
 conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified
 from_schema: fio-kg
 rank: 1000
 is_a: rdfs_Literal

@@ -1,6 +1,6 @@
 
 
-# Class: No class (type) name specified (rdf_PlainLiteral)
+# Class: No class (entity type) name specified (rdf_PlainLiteral)
 
 
 _No class (type) description specified_
@@ -9,8 +9,6 @@ _No class (type) description specified_
 
 
 
-
-This class occurs 0 times.
 
 
 URI: [rdf:PlainLiteral](http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral)
@@ -69,12 +67,8 @@ URI: [rdf:PlainLiteral](http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral)
 ```yaml
 name: rdf_PlainLiteral
 conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified
 from_schema: fio-kg
 rank: 1000
 is_a: rdfs_Literal
@@ -90,12 +84,8 @@ class_uri: rdf:PlainLiteral
 ```yaml
 name: rdf_PlainLiteral
 conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified
 from_schema: fio-kg
 rank: 1000
 is_a: rdfs_Literal

@@ -10,8 +10,6 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 0 times.
-
 
 URI: [owl:sourceIndividual](http://www.w3.org/2002/07/owl#sourceIndividual)
 
@@ -28,7 +26,7 @@ URI: [owl:sourceIndividual](http://www.w3.org/2002/07/owl#sourceIndividual)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [OwlThing](../classes/OwlThing.md)
 
 
 
@@ -46,20 +44,18 @@ URI: [owl:sourceIndividual](http://www.w3.org/2002/07/owl#sourceIndividual)
 
 ```yaml
 name: owl_sourceIndividual
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No slot (predicate) description specified
 title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
 from_schema: fio-kg
 rank: 1000
-domain: owl_sourceIndividual
 slot_uri: owl:sourceIndividual
 alias: owl_sourceIndividual
-range: uri
+union_of:
+- '{''domain'': ''rdfs_Resource''}'
+- '{''domain'': ''owl_NegativePropertyAssertion''}'
+range: owl_Thing
 
 ```
 </details>

@@ -10,8 +10,6 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 0 times.
-
 
 URI: [owl:annotatedSource](http://www.w3.org/2002/07/owl#annotatedSource)
 
@@ -28,7 +26,7 @@ URI: [owl:annotatedSource](http://www.w3.org/2002/07/owl#annotatedSource)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)
 
 
 
@@ -46,20 +44,15 @@ URI: [owl:annotatedSource](http://www.w3.org/2002/07/owl#annotatedSource)
 
 ```yaml
 name: owl_annotatedSource
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No slot (predicate) description specified
 title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
 from_schema: fio-kg
 rank: 1000
-domain: owl_annotatedSource
 slot_uri: owl:annotatedSource
 alias: owl_annotatedSource
-range: uri
+range: Any
 
 ```
 </details>

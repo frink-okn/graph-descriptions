@@ -10,8 +10,6 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 0 times.
-
 
 URI: [owl:bottomDataProperty](http://www.w3.org/2002/07/owl#bottomDataProperty)
 
@@ -28,7 +26,7 @@ URI: [owl:bottomDataProperty](http://www.w3.org/2002/07/owl#bottomDataProperty)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [RdfsLiteral](../classes/RdfsLiteral.md)
 
 
 
@@ -46,20 +44,16 @@ URI: [owl:bottomDataProperty](http://www.w3.org/2002/07/owl#bottomDataProperty)
 
 ```yaml
 name: owl_bottomDataProperty
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No slot (predicate) description specified
 title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
 from_schema: fio-kg
 rank: 1000
-domain: owl_bottomDataProperty
+domain: owl_Thing
 slot_uri: owl:bottomDataProperty
 alias: owl_bottomDataProperty
-range: uri
+range: rdfs_Literal
 
 ```
 </details>

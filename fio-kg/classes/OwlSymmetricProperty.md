@@ -1,6 +1,6 @@
 
 
-# Class: No class (type) name specified (owl_SymmetricProperty)
+# Class: No class (entity type) name specified (owl_SymmetricProperty)
 
 
 _No class (type) description specified_
@@ -9,8 +9,6 @@ _No class (type) description specified_
 
 
 
-
-This class occurs 0 times.
 
 
 URI: [owl:SymmetricProperty](http://www.w3.org/2002/07/owl#SymmetricProperty)
@@ -69,12 +67,8 @@ URI: [owl:SymmetricProperty](http://www.w3.org/2002/07/owl#SymmetricProperty)
 ```yaml
 name: owl_SymmetricProperty
 conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified
 from_schema: fio-kg
 rank: 1000
 is_a: owl_ObjectProperty
@@ -90,12 +84,8 @@ class_uri: owl:SymmetricProperty
 ```yaml
 name: owl_SymmetricProperty
 conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified
 from_schema: fio-kg
 rank: 1000
 is_a: owl_ObjectProperty

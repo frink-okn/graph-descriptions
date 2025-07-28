@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 0 times.
+This slot occurs 1 times.
 
 
 URI: [owl:unionOf](http://www.w3.org/2002/07/owl#unionOf)
@@ -28,15 +28,19 @@ URI: [owl:unionOf](http://www.w3.org/2002/07/owl#unionOf)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[RdfList](../classes/RdfList.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
 
 
 
 
 
-## Comments
 
-* No occurrences of this slot in the graph.
+## Examples
+
+| Subject type | Object type | Example subject | Example object | Occurrences |
+| --- | --- | --- | --- | --- |
+| None | uri | _:B1b00703a3b4a6351310cd78550f4f30c | _:B57b3759ec92f5d59c8cc2dac709be33d | 1 |
+
 
 
 
@@ -49,17 +53,28 @@ name: owl_unionOf
 annotations:
   count:
     tag: count
-    value: 0
+    value: 1
+  uri:
+    tag: uri
+    value: 1
 description: No slot (predicate) description specified
 title: No slot (predicate) name specified
-comments:
-- No occurrences of this slot in the graph.
+examples:
+- object:
+    example_object: _:B57b3759ec92f5d59c8cc2dac709be33d
+    example_object_type: uri
+    example_predicate: owl:unionOf
+    example_subject: _:B1b00703a3b4a6351310cd78550f4f30c
+    example_subject_type: None
 from_schema: fio-kg
 rank: 1000
-domain: owl_unionOf
+domain: rdfs_Class
 slot_uri: owl:unionOf
 alias: owl_unionOf
-range: uri
+range: Any
+any_of:
+- range: rdf_List
+- range: uri
 
 ```
 </details>
