@@ -1,6 +1,6 @@
 
 
-# Class: No class (type) name specified (rdfs_Class)
+# Class: No class (entity type) name specified (rdfs_Class)
 
 
 _No class (type) description specified_
@@ -9,8 +9,6 @@ _No class (type) description specified_
 
 
 
-
-This class occurs 0 times.
 
 
 URI: [rdfs:Class](http://www.w3.org/2000/01/rdf-schema#Class)
@@ -24,12 +22,12 @@ URI: [rdfs:Class](http://www.w3.org/2000/01/rdf-schema#Class)
  classDiagram
     class RdfsClass
     click RdfsClass href "../RdfsClass"
+      RdfsClass <|-- RdfsDatatype
+        click RdfsDatatype href "../RdfsDatatype"
       RdfsClass <|-- OwlClass
         click OwlClass href "../OwlClass"
       RdfsClass <|-- OwlDeprecatedClass
         click OwlDeprecatedClass href "../OwlDeprecatedClass"
-      RdfsClass <|-- RdfsDatatype
-        click RdfsDatatype href "../RdfsDatatype"
       
       
 ```
@@ -40,9 +38,9 @@ URI: [rdfs:Class](http://www.w3.org/2000/01/rdf-schema#Class)
 
 ## Inheritance
 * **RdfsClass**
+    * [RdfsDatatype](../classes/RdfsDatatype.md)
     * [OwlClass](../classes/OwlClass.md)
     * [OwlDeprecatedClass](../classes/OwlDeprecatedClass.md)
-    * [RdfsDatatype](../classes/RdfsDatatype.md)
 
 
 
@@ -82,12 +80,8 @@ URI: [rdfs:Class](http://www.w3.org/2000/01/rdf-schema#Class)
 ```yaml
 name: rdfs_Class
 conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified
 from_schema: fio-kg
 rank: 1000
 class_uri: rdfs:Class
@@ -102,12 +96,8 @@ class_uri: rdfs:Class
 ```yaml
 name: rdfs_Class
 conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified
 from_schema: fio-kg
 rank: 1000
 class_uri: rdfs:Class

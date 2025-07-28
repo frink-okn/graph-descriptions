@@ -10,8 +10,6 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 0 times.
-
 
 URI: [owl:equivalentClass](http://www.w3.org/2002/07/owl#equivalentClass)
 
@@ -28,7 +26,7 @@ URI: [owl:equivalentClass](http://www.w3.org/2002/07/owl#equivalentClass)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [RdfsClass](../classes/RdfsClass.md)
 
 
 
@@ -46,20 +44,16 @@ URI: [owl:equivalentClass](http://www.w3.org/2002/07/owl#equivalentClass)
 
 ```yaml
 name: owl_equivalentClass
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No slot (predicate) description specified
 title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
 from_schema: fio-kg
 rank: 1000
-domain: owl_equivalentClass
+domain: rdfs_Class
 slot_uri: owl:equivalentClass
 alias: owl_equivalentClass
-range: uri
+range: rdfs_Class
 
 ```
 </details>

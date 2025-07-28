@@ -10,8 +10,6 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 0 times.
-
 
 URI: [owl:onProperties](http://www.w3.org/2002/07/owl#onProperties)
 
@@ -28,7 +26,7 @@ URI: [owl:onProperties](http://www.w3.org/2002/07/owl#onProperties)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [RdfList](../classes/RdfList.md)
 
 
 
@@ -46,20 +44,19 @@ URI: [owl:onProperties](http://www.w3.org/2002/07/owl#onProperties)
 
 ```yaml
 name: owl_onProperties
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No slot (predicate) description specified
 title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
 from_schema: fio-kg
 rank: 1000
-domain: owl_onProperties
 slot_uri: owl:onProperties
 alias: owl_onProperties
-range: uri
+union_of:
+- '{''domain'': ''owl_Restriction''}'
+- '{''domain'': ''owl_Class''}'
+- '{''domain'': ''rdfs_Class''}'
+range: rdf_List
 
 ```
 </details>

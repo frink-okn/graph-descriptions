@@ -1,6 +1,6 @@
 
 
-# Class: No class (type) name specified (rdf_Statement)
+# Class: No class (entity type) name specified (rdf_Statement)
 
 
 _No class (type) description specified_
@@ -9,8 +9,6 @@ _No class (type) description specified_
 
 
 
-
-This class occurs 0 times.
 
 
 URI: [rdf:Statement](http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement)
@@ -62,12 +60,8 @@ URI: [rdf:Statement](http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement)
 ```yaml
 name: rdf_Statement
 conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified
 from_schema: fio-kg
 rank: 1000
 class_uri: rdf:Statement
@@ -82,12 +76,8 @@ class_uri: rdf:Statement
 ```yaml
 name: rdf_Statement
 conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified
 from_schema: fio-kg
 rank: 1000
 class_uri: rdf:Statement

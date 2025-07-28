@@ -10,8 +10,6 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 0 times.
-
 
 URI: [dct:issued](http://purl.org/dc/terms/issued)
 
@@ -46,10 +44,6 @@ URI: [dct:issued](http://purl.org/dc/terms/issued)
 
 ```yaml
 name: dct_issued
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No slot (predicate) description specified
 title: No slot (predicate) name specified
 comments:

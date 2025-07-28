@@ -10,8 +10,6 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 0 times.
-
 
 URI: [owl:inverseOf](http://www.w3.org/2002/07/owl#inverseOf)
 
@@ -28,7 +26,7 @@ URI: [owl:inverseOf](http://www.w3.org/2002/07/owl#inverseOf)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[OwlObjectProperty](../classes/OwlObjectProperty.md)&nbsp;or&nbsp;<br />[RdfProperty](../classes/RdfProperty.md)
 
 
 
@@ -46,20 +44,21 @@ URI: [owl:inverseOf](http://www.w3.org/2002/07/owl#inverseOf)
 
 ```yaml
 name: owl_inverseOf
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No slot (predicate) description specified
 title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
 from_schema: fio-kg
 rank: 1000
-domain: owl_inverseOf
 slot_uri: owl:inverseOf
 alias: owl_inverseOf
-range: uri
+union_of:
+- '{''domain'': ''owl_ObjectProperty''}'
+- '{''domain'': ''rdf_Property''}'
+range: Any
+any_of:
+- range: owl_ObjectProperty
+- range: rdf_Property
 
 ```
 </details>

@@ -10,8 +10,6 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 0 times.
-
 
 URI: [owl:qualifiedCardinality](http://www.w3.org/2002/07/owl#qualifiedCardinality)
 
@@ -28,7 +26,7 @@ URI: [owl:qualifiedCardinality](http://www.w3.org/2002/07/owl#qualifiedCardinali
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[Unsignedinteger](../types/Unsignedinteger.md)
 
 
 
@@ -46,20 +44,22 @@ URI: [owl:qualifiedCardinality](http://www.w3.org/2002/07/owl#qualifiedCardinali
 
 ```yaml
 name: owl_qualifiedCardinality
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No slot (predicate) description specified
 title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
 from_schema: fio-kg
 rank: 1000
-domain: owl_qualifiedCardinality
 slot_uri: owl:qualifiedCardinality
 alias: owl_qualifiedCardinality
-range: uri
+union_of:
+- '{''domain'': ''owl_Restriction''}'
+- '{''domain'': ''owl_Class''}'
+- '{''domain'': ''rdfs_Class''}'
+range: Any
+any_of:
+- range: rdfs_Literal
+- range: unsignedinteger
 
 ```
 </details>

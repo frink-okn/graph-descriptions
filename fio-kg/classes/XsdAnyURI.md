@@ -1,6 +1,6 @@
 
 
-# Class: No class (type) name specified (xsd_anyURI)
+# Class: No class (entity type) name specified (xsd_anyURI)
 
 
 _No class (type) description specified_
@@ -9,8 +9,6 @@ _No class (type) description specified_
 
 
 
-
-This class occurs 0 times.
 
 
 URI: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
@@ -69,12 +67,8 @@ URI: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
 ```yaml
 name: xsd_anyURI
 conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified
 from_schema: fio-kg
 rank: 1000
 is_a: rdfs_Literal
@@ -90,12 +84,8 @@ class_uri: xsd:anyURI
 ```yaml
 name: xsd_anyURI
 conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No class (type) description specified
-title: No class (type) name specified
+title: No class (entity type) name specified
 from_schema: fio-kg
 rank: 1000
 is_a: rdfs_Literal

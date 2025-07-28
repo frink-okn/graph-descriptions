@@ -10,8 +10,6 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 0 times.
-
 
 URI: [owl:assertionProperty](http://www.w3.org/2002/07/owl#assertionProperty)
 
@@ -28,7 +26,7 @@ URI: [owl:assertionProperty](http://www.w3.org/2002/07/owl#assertionProperty)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)
 
 
 
@@ -46,20 +44,18 @@ URI: [owl:assertionProperty](http://www.w3.org/2002/07/owl#assertionProperty)
 
 ```yaml
 name: owl_assertionProperty
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No slot (predicate) description specified
 title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
 from_schema: fio-kg
 rank: 1000
-domain: owl_assertionProperty
 slot_uri: owl:assertionProperty
 alias: owl_assertionProperty
-range: uri
+union_of:
+- '{''domain'': ''rdfs_Resource''}'
+- '{''domain'': ''owl_NegativePropertyAssertion''}'
+range: Any
 
 ```
 </details>

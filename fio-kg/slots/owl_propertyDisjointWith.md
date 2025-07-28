@@ -10,8 +10,6 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 0 times.
-
 
 URI: [owl:propertyDisjointWith](http://www.w3.org/2002/07/owl#propertyDisjointWith)
 
@@ -28,7 +26,7 @@ URI: [owl:propertyDisjointWith](http://www.w3.org/2002/07/owl#propertyDisjointWi
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)
 
 
 
@@ -46,20 +44,15 @@ URI: [owl:propertyDisjointWith](http://www.w3.org/2002/07/owl#propertyDisjointWi
 
 ```yaml
 name: owl_propertyDisjointWith
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No slot (predicate) description specified
 title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
 from_schema: fio-kg
 rank: 1000
-domain: owl_propertyDisjointWith
 slot_uri: owl:propertyDisjointWith
 alias: owl_propertyDisjointWith
-range: uri
+range: Any
 
 ```
 </details>

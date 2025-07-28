@@ -10,8 +10,6 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 0 times.
-
 
 URI: [rdf:rest](http://www.w3.org/1999/02/22-rdf-syntax-ns#rest)
 
@@ -28,7 +26,7 @@ URI: [rdf:rest](http://www.w3.org/1999/02/22-rdf-syntax-ns#rest)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [RdfList](../classes/RdfList.md)
 
 
 
@@ -46,20 +44,16 @@ URI: [rdf:rest](http://www.w3.org/1999/02/22-rdf-syntax-ns#rest)
 
 ```yaml
 name: rdf_rest
-annotations:
-  count:
-    tag: count
-    value: 0
 description: No slot (predicate) description specified
 title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
 from_schema: fio-kg
 rank: 1000
-domain: rdf_rest
+domain: rdf_List
 slot_uri: rdf:rest
 alias: rdf_rest
-range: uri
+range: rdf_List
 
 ```
 </details>
