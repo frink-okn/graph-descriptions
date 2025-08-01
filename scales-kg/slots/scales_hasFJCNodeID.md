@@ -48,7 +48,7 @@ URI: [scales:hasFJCNodeID](http://schemas.scales-okn.org/rdf/scales#hasFJCNodeID
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Judge | double | scales:JudgeEntity/SJ000002 | 1388511.0 | 3855 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Judge | double | scales:/JudgeEntity/SJ000002 | 1388511.0 | 3855 |
 
 
 
@@ -69,7 +69,7 @@ examples:
     example_object: '1388511.0'
     example_object_type: double
     example_predicate: scales:hasFJCNodeID
-    example_subject: scales:JudgeEntity/SJ000002
+    example_subject: scales:/JudgeEntity/SJ000002
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
 from_schema: scales-kg
 rank: 1000

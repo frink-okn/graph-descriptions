@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 24 times.
+This slot occurs 121785 times.
 
 
 URI: [scales:hasIdbPriscd2](http://schemas.scales-okn.org/rdf/scales#hasIdbPriscd2)
@@ -27,8 +27,7 @@ URI: [scales:hasIdbPriscd2](http://schemas.scales-okn.org/rdf/scales#hasIdbPrisc
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -49,7 +48,7 @@ URI: [scales:hasIdbPriscd2](http://schemas.scales-okn.org/rdf/scales#hasIdbPrisc
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:CriminalCase | -8 | 24 |
+| scales_CriminalCase | string | scales:/CriminalCase/akd;;1:16-cr-00001 | S001 | 121785 |
 
 
 
@@ -63,22 +62,21 @@ name: scales_hasIdbPriscd2
 annotations:
   count:
     tag: count
-    value: 24
+    value: 121785
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: '-8'
+    example_object: S001
     example_object_type: string
     example_predicate: scales:hasIdbPriscd2
-    example_subject: scales:CriminalCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_subject: scales:/CriminalCase/akd;;1:16-cr-00001
+    example_subject_type: scales_CriminalCase
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbPriscd2
 alias: scales_hasIdbPriscd2
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- scales_Case
+- scales_CriminalCase
 range: string
 
 ```

@@ -138,7 +138,7 @@ attributes:
         example_object: U.S. Attorney's Office (Anch)
         example_object_type: string
         example_predicate: niem50:OrganizationName
-        example_subject: scales:Agent/akd;;1:16-cr-00001_a10
+        example_subject: scales:/Agent/akd;;1:16-cr-00001_a10
         example_subject_type: scales_Firm
     from_schema: scales-kg
     rank: 1000

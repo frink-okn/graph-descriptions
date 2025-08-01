@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 389366 times.
+This slot occurs 607725 times.
 
 
 URI: [http://release.niem.gov/niem/domains/jxdm/7.2/CaseCharge](http://release.niem.gov/niem/domains/jxdm/7.2/CaseCharge)
@@ -27,8 +27,7 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/CaseCharge](http://release.n
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -49,8 +48,7 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/CaseCharge](http://release.n
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| scales_Case | http___release.niem.gov_niem_domains_jxdm_7.2_Charge | scales:CriminalCase | scales:Charge/akd;;1:16-cr-00001_c0-1-3 | 389366 |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | http___release.niem.gov_niem_domains_jxdm_7.2_Charge | scales:CriminalCase | scales:Charge/akd;;1:16-cr-00001_c0-1-3 | 389366 |
+| scales_CriminalCase | http___release.niem.gov_niem_domains_jxdm_7.2_Charge | scales:/CriminalCase/akd;;1:16-cr-00001 | scales:/Charge/akd;;1:16-cr-00001_c0-1-3 | 607725 |
 
 
 
@@ -64,28 +62,21 @@ name: http___release.niem.gov_niem_domains_jxdm_7.2_CaseCharge
 annotations:
   count:
     tag: count
-    value: 389366
+    value: 607725
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: scales:Charge/akd;;1:16-cr-00001_c0-1-3
+    example_object: scales:/Charge/akd;;1:16-cr-00001_c0-1-3
     example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_Charge
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/CaseCharge
-    example_subject: scales:CriminalCase
-    example_subject_type: scales_Case
-- object:
-    example_object: scales:Charge/akd;;1:16-cr-00001_c0-1-3
-    example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_Charge
-    example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/CaseCharge
-    example_subject: scales:CriminalCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_subject: scales:/CriminalCase/akd;;1:16-cr-00001
+    example_subject_type: scales_CriminalCase
 from_schema: scales-kg
 rank: 1000
 slot_uri: http://release.niem.gov/niem/domains/jxdm/7.2/CaseCharge
 alias: http___release.niem.gov_niem_domains_jxdm_7.2_CaseCharge
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- scales_Case
+- scales_CriminalCase
 range: http___release.niem.gov_niem_domains_jxdm_7.2_Charge
 
 ```

@@ -55,7 +55,7 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/CaseInitiatingAttorney](http
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty | http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney | scales:Agent/akd;;1:16-cr-00001_a1 | scales:Agent/akd;;1:16-cr-00001_a5 | 2755161 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty | http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney | scales:/Agent/akd;;1:16-cr-00001_a1 | scales:/Agent/akd;;1:16-cr-00001_a5 | 2755161 |
 
 
 
@@ -73,10 +73,10 @@ annotations:
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: scales:Agent/akd;;1:16-cr-00001_a5
+    example_object: scales:/Agent/akd;;1:16-cr-00001_a5
     example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/CaseInitiatingAttorney
-    example_subject: scales:Agent/akd;;1:16-cr-00001_a1
+    example_subject: scales:/Agent/akd;;1:16-cr-00001_a1
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
 from_schema: scales-kg
 rank: 1000

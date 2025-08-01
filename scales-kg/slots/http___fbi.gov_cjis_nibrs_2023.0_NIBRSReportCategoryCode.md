@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 1289228 times.
+This slot occurs 39440 times.
 
 
 URI: [http://fbi.gov/cjis/nibrs/2023.0/NIBRSReportCategoryCode](http://fbi.gov/cjis/nibrs/2023.0/NIBRSReportCategoryCode)
@@ -27,7 +27,7 @@ URI: [http://fbi.gov/cjis/nibrs/2023.0/NIBRSReportCategoryCode](http://fbi.gov/c
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Charge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Charge.md) | No class (type) description specified |  yes  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2ArrestCharge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2ArrestCharge.md) | No class (type) description specified |  yes  |
 
 
 
@@ -48,7 +48,7 @@ URI: [http://fbi.gov/cjis/nibrs/2023.0/NIBRSReportCategoryCode](http://fbi.gov/c
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Charge | string | scales:Charge/ga-clayton-magistrate;;0:02-co-00004_c1 | GROUP B ARREST REPORT | 1289228 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_ArrestCharge | string | scales:ArrestCharge/ga-atlanta-pd-101200863 | GROUP A INCIDENT REPORT | 39440 |
 
 
 
@@ -62,21 +62,21 @@ name: http___fbi.gov_cjis_nibrs_2023.0_NIBRSReportCategoryCode
 annotations:
   count:
     tag: count
-    value: 1289228
+    value: 39440
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: GROUP B ARREST REPORT
+    example_object: GROUP A INCIDENT REPORT
     example_object_type: string
     example_predicate: http://fbi.gov/cjis/nibrs/2023.0/NIBRSReportCategoryCode
-    example_subject: scales:Charge/ga-clayton-magistrate;;0:02-co-00004_c1
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Charge
+    example_subject: scales:ArrestCharge/ga-atlanta-pd-101200863
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_ArrestCharge
 from_schema: scales-kg
 rank: 1000
 slot_uri: http://fbi.gov/cjis/nibrs/2023.0/NIBRSReportCategoryCode
 alias: http___fbi.gov_cjis_nibrs_2023.0_NIBRSReportCategoryCode
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Charge
+- http___release.niem.gov_niem_domains_jxdm_7.2_ArrestCharge
 range: string
 
 ```

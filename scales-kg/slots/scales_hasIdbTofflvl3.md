@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 4 times.
+This slot occurs 121785 times.
 
 
 URI: [scales:hasIdbTofflvl3](http://schemas.scales-okn.org/rdf/scales#hasIdbTofflvl3)
@@ -27,8 +27,7 @@ URI: [scales:hasIdbTofflvl3](http://schemas.scales-okn.org/rdf/scales#hasIdbToff
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -49,7 +48,7 @@ URI: [scales:hasIdbTofflvl3](http://schemas.scales-okn.org/rdf/scales#hasIdbToff
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | double | scales:CriminalCase | -8.0 | 4 |
+| scales_CriminalCase | double | scales:/CriminalCase/akd;;1:16-cr-00001 | -8.0 | 121785 |
 
 
 
@@ -63,22 +62,21 @@ name: scales_hasIdbTofflvl3
 annotations:
   count:
     tag: count
-    value: 4
+    value: 121785
 description: No slot (predicate) description specified
 examples:
 - object:
     example_object: '-8.0'
     example_object_type: double
     example_predicate: scales:hasIdbTofflvl3
-    example_subject: scales:CriminalCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_subject: scales:/CriminalCase/akd;;1:16-cr-00001
+    example_subject_type: scales_CriminalCase
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbTofflvl3
 alias: scales_hasIdbTofflvl3
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- scales_Case
+- scales_CriminalCase
 range: double
 
 ```

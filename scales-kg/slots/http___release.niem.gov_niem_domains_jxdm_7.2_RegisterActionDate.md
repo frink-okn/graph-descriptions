@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 58355686 times.
+This slot occurs 58361062 times.
 
 
 URI: [http://release.niem.gov/niem/domains/jxdm/7.2/RegisterActionDate](http://release.niem.gov/niem/domains/jxdm/7.2/RegisterActionDate)
@@ -48,8 +48,8 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/RegisterActionDate](http://r
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| None | date | scales:DocketEntry/akd;;1:16-cr-00001_de0 | 2016-02-03 | 30414852 |
-| http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction | date | scales:DocketEntry/ga-clayton-magistrate-civil;;0:00-cm-00001_de0 | 2000-01-10 | 27940834 |
+| None | date | scales:/DocketEntry/akd;;1:16-cr-00001_de0 | 2016-02-03 | 30414852 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction | date | scales:DocketEntry/ga-clayton-magistrate-civil;;0:00-cm-00001_de0 | 2000-01-10 | 27946210 |
 
 
 
@@ -63,7 +63,7 @@ name: http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDate
 annotations:
   count:
     tag: count
-    value: 58355686
+    value: 58361062
   date:
     tag: date
     value: 30414852
@@ -73,7 +73,7 @@ examples:
     example_object: '2016-02-03'
     example_object_type: date
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/RegisterActionDate
-    example_subject: scales:DocketEntry/akd;;1:16-cr-00001_de0
+    example_subject: scales:/DocketEntry/akd;;1:16-cr-00001_de0
     example_subject_type: None
 - object:
     example_object: '2000-01-10'

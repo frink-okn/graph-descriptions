@@ -39,7 +39,7 @@ URI: [niem50:AdministrativeID](http://release.niem.gov/niem/niem-core/5.0/Admini
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| None | string | scales:DocketEntry/akd;;1:16-cr-00001_de0 | 1 | 30414852 |
+| None | string | scales:/DocketEntry/akd;;1:16-cr-00001_de0 | 1 | 30414852 |
 
 
 
@@ -63,7 +63,7 @@ examples:
     example_object: '1'
     example_object_type: string
     example_predicate: niem50:AdministrativeID
-    example_subject: scales:DocketEntry/akd;;1:16-cr-00001_de0
+    example_subject: scales:/DocketEntry/akd;;1:16-cr-00001_de0
     example_subject_type: None
 from_schema: scales-kg
 rank: 1000

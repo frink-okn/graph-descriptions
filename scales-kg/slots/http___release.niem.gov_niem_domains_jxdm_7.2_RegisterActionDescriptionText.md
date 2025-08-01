@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 58354320 times.
+This slot occurs 58359685 times.
 
 
 URI: [http://release.niem.gov/niem/domains/jxdm/7.2/RegisterActionDescriptionText](http://release.niem.gov/niem/domains/jxdm/7.2/RegisterActionDescriptionText)
@@ -48,9 +48,9 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/RegisterActionDescriptionTex
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| None | string | scales:DocketEntry/akd;;1:16-cr-00001_de0 | MISDEMEANOR INFORMATION as to 01169B9 (1) count(s) 1-4. (Attachments: # 1 Criminal Cover Sheet re Defendant 01169B9) (CLW, COURT STAFF) (Entered: 02/03/2016) | 30414809 |
+| None | string | scales:/DocketEntry/akd;;1:16-cr-00001_de0 | MISDEMEANOR INFORMATION as to 01169B9 (1) count(s) 1-4. (Attachments: # 1 Criminal Cover Sheet re Defendant 01169B9) (CLW, COURT STAFF) (Entered: 02/03/2016) | 30414809 |
 | http___release.niem.gov_niem_domains_jxdm_7.2_RegisterAction | string | scales:DocketEntry/ga-clayton-magistrate-civil;;0:00-cm-00001_de0 | Contract
-against SCALES-1258027 | 27939511 |
+against  ROBERTS  KIMBERLY | 27944876 |
 
 
 
@@ -64,7 +64,7 @@ name: http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDescriptionTex
 annotations:
   count:
     tag: count
-    value: 58354320
+    value: 58359685
   string:
     tag: string
     value: 30414809
@@ -76,12 +76,12 @@ examples:
       02/03/2016)'
     example_object_type: string
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/RegisterActionDescriptionText
-    example_subject: scales:DocketEntry/akd;;1:16-cr-00001_de0
+    example_subject: scales:/DocketEntry/akd;;1:16-cr-00001_de0
     example_subject_type: None
 - object:
     example_object: 'Contract
 
-      against SCALES-1258027'
+      against  ROBERTS  KIMBERLY'
     example_object_type: string
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/RegisterActionDescriptionText
     example_subject: scales:DocketEntry/ga-clayton-magistrate-civil;;0:00-cm-00001_de0

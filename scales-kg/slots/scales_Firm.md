@@ -59,9 +59,9 @@ URI: [scales:Firm](http://schemas.scales-okn.org/rdf/scales#Firm)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney | scales_Firm | scales:Agent/akd;;1:16-cr-00001_a3 | scales:Agent/akd;;1:16-cr-00001_a7 | 1494159 |
-| http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney | scales_Firm | scales:Agent/akd;;1:16-cr-00001_a5 | scales:Agent/akd;;1:16-cr-00001_a9 | 1365635 |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Attorney | scales_Firm | scales:Agent/akd;;1:16-cv-00008_a22 | scales:Agent/akd;;1:16-cv-00008_a28 | 69755 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney | scales_Firm | scales:/Agent/akd;;1:16-cr-00001_a3 | scales:/Agent/akd;;1:16-cr-00001_a7 | 1494159 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney | scales_Firm | scales:/Agent/akd;;1:16-cr-00001_a5 | scales:/Agent/akd;;1:16-cr-00001_a9 | 1365635 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Attorney | scales_Firm | scales:/Agent/akd;;1:16-cv-00008_a22 | scales:/Agent/akd;;1:16-cv-00008_a28 | 69755 |
 
 
 
@@ -79,22 +79,22 @@ annotations:
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: scales:Agent/akd;;1:16-cr-00001_a7
+    example_object: scales:/Agent/akd;;1:16-cr-00001_a7
     example_object_type: scales_Firm
     example_predicate: scales:Firm
-    example_subject: scales:Agent/akd;;1:16-cr-00001_a3
+    example_subject: scales:/Agent/akd;;1:16-cr-00001_a3
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney
 - object:
-    example_object: scales:Agent/akd;;1:16-cr-00001_a9
+    example_object: scales:/Agent/akd;;1:16-cr-00001_a9
     example_object_type: scales_Firm
     example_predicate: scales:Firm
-    example_subject: scales:Agent/akd;;1:16-cr-00001_a5
+    example_subject: scales:/Agent/akd;;1:16-cr-00001_a5
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
 - object:
-    example_object: scales:Agent/akd;;1:16-cv-00008_a28
+    example_object: scales:/Agent/akd;;1:16-cv-00008_a28
     example_object_type: scales_Firm
     example_predicate: scales:Firm
-    example_subject: scales:Agent/akd;;1:16-cv-00008_a22
+    example_subject: scales:/Agent/akd;;1:16-cv-00008_a22
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Attorney
 from_schema: scales-kg
 rank: 1000

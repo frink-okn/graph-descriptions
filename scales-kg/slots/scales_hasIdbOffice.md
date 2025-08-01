@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 20 times.
+This slot occurs 824286 times.
 
 
 URI: [scales:hasIdbOffice](http://schemas.scales-okn.org/rdf/scales#hasIdbOffice)
@@ -27,8 +27,8 @@ URI: [scales:hasIdbOffice](http://schemas.scales-okn.org/rdf/scales#hasIdbOffice
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) | No class (type) description specified |  yes  |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -49,7 +49,8 @@ URI: [scales:hasIdbOffice](http://schemas.scales-okn.org/rdf/scales#hasIdbOffice
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:CivilCase | 0 | 20 |
+| scales_CivilCase | string | scales:/CivilCase/akd;;1:16-cv-00001 | 1 | 702501 |
+| scales_CriminalCase | string | scales:/CriminalCase/akd;;1:16-cr-00001 | 1 | 121785 |
 
 
 
@@ -63,22 +64,28 @@ name: scales_hasIdbOffice
 annotations:
   count:
     tag: count
-    value: 20
+    value: 824286
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: '0'
+    example_object: '1'
     example_object_type: string
     example_predicate: scales:hasIdbOffice
-    example_subject: scales:CivilCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_subject: scales:/CivilCase/akd;;1:16-cv-00001
+    example_subject_type: scales_CivilCase
+- object:
+    example_object: '1'
+    example_object_type: string
+    example_predicate: scales:hasIdbOffice
+    example_subject: scales:/CriminalCase/akd;;1:16-cr-00001
+    example_subject_type: scales_CriminalCase
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbOffice
 alias: scales_hasIdbOffice
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- scales_Case
+- scales_CivilCase
+- scales_CriminalCase
 range: string
 
 ```

@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 20 times.
+This slot occurs 121785 times.
 
 
 URI: [scales:hasIdbTermoff](http://schemas.scales-okn.org/rdf/scales#hasIdbTermoff)
@@ -27,8 +27,7 @@ URI: [scales:hasIdbTermoff](http://schemas.scales-okn.org/rdf/scales#hasIdbTermo
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -49,8 +48,8 @@ URI: [scales:hasIdbTermoff](http://schemas.scales-okn.org/rdf/scales#hasIdbTermo
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:CriminalCase | -8 | 9 |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | integer | scales:CriminalCase | -8 | 11 |
+| scales_CriminalCase | integer | scales:/CriminalCase/akd;;1:16-cr-00001 | 1 | 113263 |
+| scales_CriminalCase | string | scales:/CriminalCase/cand;;1:16-cr-00325 | 1 | 8522 |
 
 
 
@@ -64,28 +63,27 @@ name: scales_hasIdbTermoff
 annotations:
   count:
     tag: count
-    value: 20
+    value: 121785
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: '-8'
-    example_object_type: string
-    example_predicate: scales:hasIdbTermoff
-    example_subject: scales:CriminalCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- object:
-    example_object: '-8'
+    example_object: '1'
     example_object_type: integer
     example_predicate: scales:hasIdbTermoff
-    example_subject: scales:CriminalCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_subject: scales:/CriminalCase/akd;;1:16-cr-00001
+    example_subject_type: scales_CriminalCase
+- object:
+    example_object: '1'
+    example_object_type: string
+    example_predicate: scales:hasIdbTermoff
+    example_subject: scales:/CriminalCase/cand;;1:16-cr-00325
+    example_subject_type: scales_CriminalCase
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbTermoff
 alias: scales_hasIdbTermoff
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- scales_Case
+- scales_CriminalCase
 range: Any
 any_of:
 - range: string

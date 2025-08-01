@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 68 times.
+This slot occurs 325292 times.
 
 
 URI: [scales:hasIdbTitl](http://schemas.scales-okn.org/rdf/scales#hasIdbTitl)
@@ -27,8 +27,7 @@ URI: [scales:hasIdbTitl](http://schemas.scales-okn.org/rdf/scales#hasIdbTitl)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -49,7 +48,7 @@ URI: [scales:hasIdbTitl](http://schemas.scales-okn.org/rdf/scales#hasIdbTitl)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:CivilCase | *4 | 68 |
+| scales_CivilCase | string | scales:/CivilCase/akd;;1:16-cv-00001 | 28 | 325292 |
 
 
 
@@ -63,22 +62,21 @@ name: scales_hasIdbTitl
 annotations:
   count:
     tag: count
-    value: 68
+    value: 325292
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: '*4'
+    example_object: '28'
     example_object_type: string
     example_predicate: scales:hasIdbTitl
-    example_subject: scales:CivilCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_subject: scales:/CivilCase/akd;;1:16-cv-00001
+    example_subject_type: scales_CivilCase
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbTitl
 alias: scales_hasIdbTitl
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- scales_Case
+- scales_CivilCase
 range: string
 
 ```

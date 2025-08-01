@@ -48,7 +48,7 @@ URI: [scales:hasCommissionDate](http://schemas.scales-okn.org/rdf/scales#hasComm
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Judge | date | scales:JudgeEntity/SJ000009 | 2007-03-14 | 4257 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Judge | date | scales:/JudgeEntity/SJ000009 | 2007-03-14 | 4257 |
 
 
 
@@ -69,7 +69,7 @@ examples:
     example_object: '2007-03-14'
     example_object_type: date
     example_predicate: scales:hasCommissionDate
-    example_subject: scales:JudgeEntity/SJ000009
+    example_subject: scales:/JudgeEntity/SJ000009
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
 from_schema: scales-kg
 rank: 1000

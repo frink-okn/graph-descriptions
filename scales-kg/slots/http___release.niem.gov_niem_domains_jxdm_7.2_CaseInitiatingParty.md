@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 4891424 times.
+This slot occurs 4892601 times.
 
 
 URI: [http://release.niem.gov/niem/domains/jxdm/7.2/CaseInitiatingParty](http://release.niem.gov/niem/domains/jxdm/7.2/CaseInitiatingParty)
@@ -27,10 +27,8 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/CaseInitiatingParty](http://
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | No class (type) description specified |  yes  |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
 | [ScalesCivilCase](../classes/ScalesCivilCase.md) | No class (type) description specified |  yes  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -46,8 +44,6 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/CaseInitiatingParty](http://
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | [HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty.md) | any_of[range] | [HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty.md) |
-| [ScalesCase](../classes/ScalesCase.md) | [HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty.md) | any_of[range] | [HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty.md) |
 | [ScalesCivilCase](../classes/ScalesCivilCase.md) | [HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty.md) | any_of[range] | [HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty.md) |
 | [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | [HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty.md) | any_of[range] | [HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty.md) |
 
@@ -61,9 +57,9 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/CaseInitiatingParty](http://
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| scales_Case | http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty | scales:CivilCase | scales:Agent/akd;;1:16-cv-00001_a0 | 1337860 |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty | scales:CivilCase | scales:Agent/akd;;1:16-cv-00001_a0 | 1337860 |
-| scales_CivilCase | scales_Party | scales:Case/ga-clayton-magistrate-civil;;0:00-cm-00001 | scales:Agent/ga-clayton-magistrate-civil;;0:00-cm-00001_a0 | 1487155 |
+| scales_CivilCase | http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty | scales:/CivilCase/akd;;1:16-cv-00001 | scales:/Agent/akd;;1:16-cv-00001_a0 | 1191370 |
+| scales_CriminalCase | http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty | scales:/CriminalCase/akd;;1:16-cr-00001 | scales:/Agent/akd;;1:16-cr-00001_a1 | 146490 |
+| scales_CivilCase | scales_Party | scales:Case/ga-clayton-magistrate-civil;;0:00-cm-00001 | scales:Agent/ga-clayton-magistrate-civil;;0:00-cm-00001_a0 | 1488332 |
 | scales_CriminalCase | scales_Party | scales:Case/ga-clayton-magistrate;;0:00-co-00002 | scales:Agent/ga-clayton-magistrate;;0:00-co-00002_a0 | 2066409 |
 
 
@@ -78,21 +74,21 @@ name: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
 annotations:
   count:
     tag: count
-    value: 4891424
+    value: 4892601
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: scales:Agent/akd;;1:16-cv-00001_a0
+    example_object: scales:/Agent/akd;;1:16-cv-00001_a0
     example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/CaseInitiatingParty
-    example_subject: scales:CivilCase
-    example_subject_type: scales_Case
+    example_subject: scales:/CivilCase/akd;;1:16-cv-00001
+    example_subject_type: scales_CivilCase
 - object:
-    example_object: scales:Agent/akd;;1:16-cv-00001_a0
+    example_object: scales:/Agent/akd;;1:16-cr-00001_a1
     example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/CaseInitiatingParty
-    example_subject: scales:CivilCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_subject: scales:/CriminalCase/akd;;1:16-cr-00001
+    example_subject_type: scales_CriminalCase
 - object:
     example_object: scales:Agent/ga-clayton-magistrate-civil;;0:00-cm-00001_a0
     example_object_type: scales_Party
@@ -110,8 +106,6 @@ rank: 1000
 slot_uri: http://release.niem.gov/niem/domains/jxdm/7.2/CaseInitiatingParty
 alias: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- scales_Case
 - scales_CivilCase
 - scales_CriminalCase
 range: Any

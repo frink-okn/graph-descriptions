@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 3 times.
+This slot occurs 83603 times.
 
 
 URI: [scales:hasMemberCase](http://schemas.scales-okn.org/rdf/scales#hasMemberCase)
@@ -27,8 +27,8 @@ URI: [scales:hasMemberCase](http://schemas.scales-okn.org/rdf/scales#hasMemberCa
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) | No class (type) description specified |  yes  |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -38,7 +38,7 @@ URI: [scales:hasMemberCase](http://schemas.scales-okn.org/rdf/scales#hasMemberCa
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ScalesCase](../classes/ScalesCase.md)&nbsp;or&nbsp;<br />[HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md)
+* Range: [ScalesCivilCase](../classes/ScalesCivilCase.md)
 
 
 
@@ -49,12 +49,9 @@ URI: [scales:hasMemberCase](http://schemas.scales-okn.org/rdf/scales#hasMemberCa
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| scales_Case | scales_Case | scales:CivilCase | scales:CivilCase | 2 |
-| scales_Case | http___release.niem.gov_niem_domains_jxdm_7.2_Case | scales:CivilCase | scales:CivilCase | 2 |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | scales_Case | scales:CivilCase | scales:CivilCase | 2 |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | http___release.niem.gov_niem_domains_jxdm_7.2_Case | scales:CivilCase | scales:CivilCase | 2 |
-| None | scales_Case | scales:OtherCase | scales:CivilCase | 1 |
-| None | http___release.niem.gov_niem_domains_jxdm_7.2_Case | scales:OtherCase | scales:CivilCase | 1 |
+| scales_CivilCase | scales_CivilCase | scales:/CivilCase/akd;;3:16-cv-00172 | scales:/CivilCase/akd;;3:16-cv-00183 | 15136 |
+| None | scales_CivilCase | scales:/CivilCase/almd;;2:15-cv-00852 | scales:/CivilCase/almd;;2:16-cv-00342 | 68466 |
+| scales_CriminalCase | scales_CivilCase | scales:/CriminalCase/ohsd;;1:16-cr-00004 | scales:/CivilCase/ohsd;;1:16-cv-00014 | 1 |
 
 
 
@@ -68,62 +65,38 @@ name: scales_hasMemberCase
 annotations:
   count:
     tag: count
-    value: 3
-  http___release.niem.gov_niem_domains_jxdm_7.2_Case:
-    tag: http___release.niem.gov_niem_domains_jxdm_7.2_Case
-    value: 1
-  scales_Case:
-    tag: scales_Case
-    value: 1
+    value: 83603
+  scales_CivilCase:
+    tag: scales_CivilCase
+    value: 68466
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: scales:CivilCase
-    example_object_type: scales_Case
+    example_object: scales:/CivilCase/akd;;3:16-cv-00183
+    example_object_type: scales_CivilCase
     example_predicate: scales:hasMemberCase
-    example_subject: scales:CivilCase
-    example_subject_type: scales_Case
+    example_subject: scales:/CivilCase/akd;;3:16-cv-00172
+    example_subject_type: scales_CivilCase
 - object:
-    example_object: scales:CivilCase
-    example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_object: scales:/CivilCase/almd;;2:16-cv-00342
+    example_object_type: scales_CivilCase
     example_predicate: scales:hasMemberCase
-    example_subject: scales:CivilCase
-    example_subject_type: scales_Case
-- object:
-    example_object: scales:CivilCase
-    example_object_type: scales_Case
-    example_predicate: scales:hasMemberCase
-    example_subject: scales:CivilCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- object:
-    example_object: scales:CivilCase
-    example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
-    example_predicate: scales:hasMemberCase
-    example_subject: scales:CivilCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- object:
-    example_object: scales:CivilCase
-    example_object_type: scales_Case
-    example_predicate: scales:hasMemberCase
-    example_subject: scales:OtherCase
+    example_subject: scales:/CivilCase/almd;;2:15-cv-00852
     example_subject_type: None
 - object:
-    example_object: scales:CivilCase
-    example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_object: scales:/CivilCase/ohsd;;1:16-cv-00014
+    example_object_type: scales_CivilCase
     example_predicate: scales:hasMemberCase
-    example_subject: scales:OtherCase
-    example_subject_type: None
+    example_subject: scales:/CriminalCase/ohsd;;1:16-cr-00004
+    example_subject_type: scales_CriminalCase
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasMemberCase
 alias: scales_hasMemberCase
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- scales_Case
-range: Any
-any_of:
-- range: scales_Case
-- range: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+- scales_CivilCase
+- scales_CriminalCase
+range: scales_CivilCase
 
 ```
 </details>

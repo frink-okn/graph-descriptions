@@ -48,7 +48,7 @@ URI: [niem50:OrganizationName](http://release.niem.gov/niem/niem-core/5.0/Organi
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| scales_Firm | string | scales:Agent/akd;;1:16-cr-00001_a10 | U.S. Attorney's Office (Anch) | 2929547 |
+| scales_Firm | string | scales:/Agent/akd;;1:16-cr-00001_a10 | U.S. Attorney's Office (Anch) | 2929547 |
 
 
 
@@ -69,7 +69,7 @@ examples:
     example_object: U.S. Attorney's Office (Anch)
     example_object_type: string
     example_predicate: niem50:OrganizationName
-    example_subject: scales:Agent/akd;;1:16-cr-00001_a10
+    example_subject: scales:/Agent/akd;;1:16-cr-00001_a10
     example_subject_type: scales_Firm
 from_schema: scales-kg
 rank: 1000

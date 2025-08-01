@@ -50,12 +50,12 @@ URI: [niem50:ContactMailingAddress](http://release.niem.gov/niem/niem-core/5.0/C
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney | string | scales:Agent/akd;;1:16-cr-00001_a3 | 425 G Street, Suite 800
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney | string | scales:/Agent/akd;;1:16-cr-00001_a3 | 425 G Street, Suite 800
 Anchorage, AK 99501 | 1571811 |
-| http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney | string | scales:Agent/akd;;1:16-cr-00001_a5 | 709 West 9th Street, Rm 937
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney | string | scales:/Agent/akd;;1:16-cr-00001_a5 | 709 West 9th Street, Rm 937
 P.O. Box 21627
 Juneau, AK 99801 | 1432528 |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Attorney | string | scales:Agent/akd;;1:16-cv-00008_a22 | 100 Cushman Street, Suite 400
+| http___release.niem.gov_niem_domains_jxdm_7.2_Attorney | string | scales:/Agent/akd;;1:16-cv-00008_a22 | 100 Cushman Street, Suite 400
 Fairbanks, AK 99701 | 79253 |
 
 
@@ -79,7 +79,7 @@ examples:
       Anchorage, AK 99501'
     example_object_type: string
     example_predicate: niem50:ContactMailingAddress
-    example_subject: scales:Agent/akd;;1:16-cr-00001_a3
+    example_subject: scales:/Agent/akd;;1:16-cr-00001_a3
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney
 - object:
     example_object: '709 West 9th Street, Rm 937
@@ -89,7 +89,7 @@ examples:
       Juneau, AK 99801'
     example_object_type: string
     example_predicate: niem50:ContactMailingAddress
-    example_subject: scales:Agent/akd;;1:16-cr-00001_a5
+    example_subject: scales:/Agent/akd;;1:16-cr-00001_a5
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
 - object:
     example_object: '100 Cushman Street, Suite 400
@@ -97,7 +97,7 @@ examples:
       Fairbanks, AK 99701'
     example_object_type: string
     example_predicate: niem50:ContactMailingAddress
-    example_subject: scales:Agent/akd;;1:16-cv-00008_a22
+    example_subject: scales:/Agent/akd;;1:16-cv-00008_a22
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Attorney
 from_schema: scales-kg
 rank: 1000

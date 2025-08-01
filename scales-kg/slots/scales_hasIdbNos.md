@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 104 times.
+This slot occurs 702501 times.
 
 
 URI: [scales:hasIdbNos](http://schemas.scales-okn.org/rdf/scales#hasIdbNos)
@@ -27,8 +27,7 @@ URI: [scales:hasIdbNos](http://schemas.scales-okn.org/rdf/scales#hasIdbNos)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -49,7 +48,7 @@ URI: [scales:hasIdbNos](http://schemas.scales-okn.org/rdf/scales#hasIdbNos)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:CivilCase | 110 | 104 |
+| scales_CivilCase | string | scales:/CivilCase/akd;;1:16-cv-00001 | 510 | 702501 |
 
 
 
@@ -63,22 +62,21 @@ name: scales_hasIdbNos
 annotations:
   count:
     tag: count
-    value: 104
+    value: 702501
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: '110'
+    example_object: '510'
     example_object_type: string
     example_predicate: scales:hasIdbNos
-    example_subject: scales:CivilCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_subject: scales:/CivilCase/akd;;1:16-cv-00001
+    example_subject_type: scales_CivilCase
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbNos
 alias: scales_hasIdbNos
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- scales_Case
+- scales_CivilCase
 range: string
 
 ```

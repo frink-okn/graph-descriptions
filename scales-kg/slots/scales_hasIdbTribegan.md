@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 1143 times.
+This slot occurs 3565 times.
 
 
 URI: [scales:hasIdbTribegan](http://schemas.scales-okn.org/rdf/scales#hasIdbTribegan)
@@ -27,8 +27,7 @@ URI: [scales:hasIdbTribegan](http://schemas.scales-okn.org/rdf/scales#hasIdbTrib
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -49,7 +48,7 @@ URI: [scales:hasIdbTribegan](http://schemas.scales-okn.org/rdf/scales#hasIdbTrib
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:CivilCase | 01/02/2019 | 1143 |
+| scales_CivilCase | string | scales:/CivilCase/akd;;3:16-cv-00041 | 01/22/2018 | 3565 |
 
 
 
@@ -63,22 +62,21 @@ name: scales_hasIdbTribegan
 annotations:
   count:
     tag: count
-    value: 1143
+    value: 3565
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: 01/02/2019
+    example_object: 01/22/2018
     example_object_type: string
     example_predicate: scales:hasIdbTribegan
-    example_subject: scales:CivilCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_subject: scales:/CivilCase/akd;;3:16-cv-00041
+    example_subject_type: scales_CivilCase
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbTribegan
 alias: scales_hasIdbTribegan
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- scales_Case
+- scales_CivilCase
 range: string
 
 ```

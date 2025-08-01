@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 2 times.
+This slot occurs 121785 times.
 
 
 URI: [scales:hasIdbCttr](http://schemas.scales-okn.org/rdf/scales#hasIdbCttr)
@@ -27,8 +27,7 @@ URI: [scales:hasIdbCttr](http://schemas.scales-okn.org/rdf/scales#hasIdbCttr)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -49,7 +48,7 @@ URI: [scales:hasIdbCttr](http://schemas.scales-okn.org/rdf/scales#hasIdbCttr)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | double | scales:CriminalCase | 0.0 | 2 |
+| scales_CriminalCase | double | scales:/CriminalCase/akd;;1:16-cr-00001 | 1.0 | 121785 |
 
 
 
@@ -63,22 +62,21 @@ name: scales_hasIdbCttr
 annotations:
   count:
     tag: count
-    value: 2
+    value: 121785
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: '0.0'
+    example_object: '1.0'
     example_object_type: double
     example_predicate: scales:hasIdbCttr
-    example_subject: scales:CriminalCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_subject: scales:/CriminalCase/akd;;1:16-cr-00001
+    example_subject_type: scales_CriminalCase
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbCttr
 alias: scales_hasIdbCttr
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- scales_Case
+- scales_CriminalCase
 range: double
 
 ```

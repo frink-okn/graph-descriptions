@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 37 times.
+This slot occurs 702501 times.
 
 
 URI: [scales:hasIdbResidenc](http://schemas.scales-okn.org/rdf/scales#hasIdbResidenc)
@@ -27,8 +27,7 @@ URI: [scales:hasIdbResidenc](http://schemas.scales-okn.org/rdf/scales#hasIdbResi
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -49,7 +48,7 @@ URI: [scales:hasIdbResidenc](http://schemas.scales-okn.org/rdf/scales#hasIdbResi
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | double | scales:CivilCase | -8.0 | 37 |
+| scales_CivilCase | double | scales:/CivilCase/akd;;1:16-cv-00001 | -8.0 | 702501 |
 
 
 
@@ -63,22 +62,21 @@ name: scales_hasIdbResidenc
 annotations:
   count:
     tag: count
-    value: 37
+    value: 702501
 description: No slot (predicate) description specified
 examples:
 - object:
     example_object: '-8.0'
     example_object_type: double
     example_predicate: scales:hasIdbResidenc
-    example_subject: scales:CivilCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_subject: scales:/CivilCase/akd;;1:16-cv-00001
+    example_subject_type: scales_CivilCase
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbResidenc
 alias: scales_hasIdbResidenc
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- scales_Case
+- scales_CivilCase
 range: double
 
 ```

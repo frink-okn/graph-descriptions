@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 363445 times.
+This slot occurs 448932 times.
 
 
 URI: [http://release.niem.gov/niem/domains/jxdm/7.2/PersonSexCode](http://release.niem.gov/niem/domains/jxdm/7.2/PersonSexCode)
@@ -27,7 +27,8 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/PersonSexCode](http://releas
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesAgent](../classes/ScalesAgent.md) | No class (type) description specified |  yes  |
+| [Niem50Person](../classes/Niem50Person.md) | No class (type) description specified |  yes  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty.md) | No class (type) description specified |  yes  |
 
 
 
@@ -48,7 +49,8 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/PersonSexCode](http://releas
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| scales_Agent | string | scales:Agent/10000019_0 | M | 363445 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty | string | scales:Agent/ga-fulton-01/10000019 | M  | 363445 |
+| niem50_Person | string | scales:ArrestSubject/ga-atlanta-pd-100720495 | M | 85487 |
 
 
 
@@ -62,21 +64,28 @@ name: http___release.niem.gov_niem_domains_jxdm_7.2_PersonSexCode
 annotations:
   count:
     tag: count
-    value: 363445
+    value: 448932
 description: No slot (predicate) description specified
 examples:
+- object:
+    example_object: 'M '
+    example_object_type: string
+    example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/PersonSexCode
+    example_subject: scales:Agent/ga-fulton-01/10000019
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
 - object:
     example_object: M
     example_object_type: string
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/PersonSexCode
-    example_subject: scales:Agent/10000019_0
-    example_subject_type: scales_Agent
+    example_subject: scales:ArrestSubject/ga-atlanta-pd-100720495
+    example_subject_type: niem50_Person
 from_schema: scales-kg
 rank: 1000
 slot_uri: http://release.niem.gov/niem/domains/jxdm/7.2/PersonSexCode
 alias: http___release.niem.gov_niem_domains_jxdm_7.2_PersonSexCode
 domain_of:
-- scales_Agent
+- http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
+- niem50_Person
 range: string
 
 ```

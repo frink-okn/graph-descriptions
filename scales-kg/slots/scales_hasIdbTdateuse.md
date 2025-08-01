@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 235 times.
+This slot occurs 662201 times.
 
 
 URI: [scales:hasIdbTdateuse](http://schemas.scales-okn.org/rdf/scales#hasIdbTdateuse)
@@ -27,8 +27,7 @@ URI: [scales:hasIdbTdateuse](http://schemas.scales-okn.org/rdf/scales#hasIdbTdat
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -49,7 +48,7 @@ URI: [scales:hasIdbTdateuse](http://schemas.scales-okn.org/rdf/scales#hasIdbTdat
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:CivilCase | 01/01/2002 | 235 |
+| scales_CivilCase | string | scales:/CivilCase/akd;;1:16-cv-00001 | 05/01/2018 | 662201 |
 
 
 
@@ -63,22 +62,21 @@ name: scales_hasIdbTdateuse
 annotations:
   count:
     tag: count
-    value: 235
+    value: 662201
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: 01/01/2002
+    example_object: 05/01/2018
     example_object_type: string
     example_predicate: scales:hasIdbTdateuse
-    example_subject: scales:CivilCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_subject: scales:/CivilCase/akd;;1:16-cv-00001
+    example_subject_type: scales_CivilCase
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbTdateuse
 alias: scales_hasIdbTdateuse
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- scales_Case
+- scales_CivilCase
 range: string
 
 ```

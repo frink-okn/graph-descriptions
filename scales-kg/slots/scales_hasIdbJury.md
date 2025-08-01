@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 6 times.
+This slot occurs 702501 times.
 
 
 URI: [scales:hasIdbJury](http://schemas.scales-okn.org/rdf/scales#hasIdbJury)
@@ -27,8 +27,7 @@ URI: [scales:hasIdbJury](http://schemas.scales-okn.org/rdf/scales#hasIdbJury)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -49,8 +48,8 @@ URI: [scales:hasIdbJury](http://schemas.scales-okn.org/rdf/scales#hasIdbJury)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:CivilCase | -8 | 5 |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | integer | scales:CivilCase | -8 | 1 |
+| scales_CivilCase | string | scales:/CivilCase/akd;;1:16-cv-00001 | N | 685586 |
+| scales_CivilCase | integer | scales:/CivilCase/ilnd;;1:02-cv-00001 | -8 | 16915 |
 
 
 
@@ -64,28 +63,27 @@ name: scales_hasIdbJury
 annotations:
   count:
     tag: count
-    value: 6
+    value: 702501
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: '-8'
+    example_object: N
     example_object_type: string
     example_predicate: scales:hasIdbJury
-    example_subject: scales:CivilCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_subject: scales:/CivilCase/akd;;1:16-cv-00001
+    example_subject_type: scales_CivilCase
 - object:
     example_object: '-8'
     example_object_type: integer
     example_predicate: scales:hasIdbJury
-    example_subject: scales:CivilCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_subject: scales:/CivilCase/ilnd;;1:02-cv-00001
+    example_subject_type: scales_CivilCase
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbJury
 alias: scales_hasIdbJury
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- scales_Case
+- scales_CivilCase
 range: Any
 any_of:
 - range: string

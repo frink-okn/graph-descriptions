@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 5000 times.
+This slot occurs 864700 times.
 
 
 URI: [http://release.niem.gov/niem/domains/jxdm/7.2/Case](http://release.niem.gov/niem/domains/jxdm/7.2/Case)
@@ -28,17 +28,7 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/Case](http://release.niem.go
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ScalesCase](../classes/ScalesCase.md)&nbsp;or&nbsp;<br />[HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md)
-
-## Usages
-
-| used by | used in | type | used |
-| ---  | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | [scales_hasMemberCase](../slots/scales_hasMemberCase.md) | any_of[range] | [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | [scales_hasRelatedCase](../slots/scales_hasRelatedCase.md) | any_of[range] | [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) |
-| [ScalesCase](../classes/ScalesCase.md) | [scales_hasMemberCase](../slots/scales_hasMemberCase.md) | any_of[range] | [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) |
-| [ScalesCase](../classes/ScalesCase.md) | [scales_hasRelatedCase](../slots/scales_hasRelatedCase.md) | any_of[range] | [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) |
-
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[ScalesCivilCase](../classes/ScalesCivilCase.md)&nbsp;or&nbsp;<br />[ScalesCriminalCase](../classes/ScalesCriminalCase.md)
 
 
 
@@ -49,8 +39,8 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/Case](http://release.niem.go
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| None | scales_Case | _:@0 | scales:CivilCase | 5000 |
-| None | http___release.niem.gov_niem_domains_jxdm_7.2_Case | _:@0 | scales:CivilCase | 5000 |
+| None | scales_CivilCase | _:@0 | scales:/CivilCase/almd;;2:16-cv-00274 | 718739 |
+| None | scales_CriminalCase | _:@0 | scales:/CriminalCase/ared;;4:16-cr-00286 | 145961 |
 
 
 
@@ -64,24 +54,24 @@ name: http___release.niem.gov_niem_domains_jxdm_7.2_Case
 annotations:
   count:
     tag: count
-    value: 5000
-  http___release.niem.gov_niem_domains_jxdm_7.2_Case:
-    tag: http___release.niem.gov_niem_domains_jxdm_7.2_Case
-    value: 5000
-  scales_Case:
-    tag: scales_Case
-    value: 5000
+    value: 864700
+  scales_CivilCase:
+    tag: scales_CivilCase
+    value: 718739
+  scales_CriminalCase:
+    tag: scales_CriminalCase
+    value: 145961
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: scales:CivilCase
-    example_object_type: scales_Case
+    example_object: scales:/CivilCase/almd;;2:16-cv-00274
+    example_object_type: scales_CivilCase
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/Case
     example_subject: _:@0
     example_subject_type: None
 - object:
-    example_object: scales:CivilCase
-    example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_object: scales:/CriminalCase/ared;;4:16-cr-00286
+    example_object_type: scales_CriminalCase
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/Case
     example_subject: _:@0
     example_subject_type: None
@@ -91,8 +81,8 @@ slot_uri: http://release.niem.gov/niem/domains/jxdm/7.2/Case
 alias: http___release.niem.gov_niem_domains_jxdm_7.2_Case
 range: Any
 any_of:
-- range: scales_Case
-- range: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+- range: scales_CivilCase
+- range: scales_CriminalCase
 
 ```
 </details>

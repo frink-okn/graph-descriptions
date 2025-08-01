@@ -48,8 +48,8 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/ChargeSentence](http://relea
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Charge | http___release.niem.gov_niem_domains_jxdm_7.2_Sentence | scales:Charge/ga-clayton-state;;0:00-cr-01074_c1 | scales:Sentence/ga-clayton-state;;0:00-cr-01074_de32_s0 | 66752 |
-| None | http___release.niem.gov_niem_domains_jxdm_7.2_Sentence | scales:Charge/ga-clayton-state;;0:00-cr-01074_c2 | scales:Sentence/ga-clayton-state;;0:00-cr-01074_de34_s0 | 177255 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Charge | http___release.niem.gov_niem_domains_jxdm_7.2_Sentence | scales:Charge/ga-clayton-state;;0:00-cr-01074_c1 | scales:Sentence/ga-clayton-state;;0:00-cr-01074_de32_s0 | 122113 |
+| None | http___release.niem.gov_niem_domains_jxdm_7.2_Sentence | scales:Charge/ga-clayton-state;;0:00-cr-01074_c2 | scales:Sentence/ga-clayton-state;;0:00-cr-01074_de34_s0 | 121894 |
 
 
 
@@ -66,7 +66,7 @@ annotations:
     value: 244007
   http___release.niem.gov_niem_domains_jxdm_7.2_Sentence:
     tag: http___release.niem.gov_niem_domains_jxdm_7.2_Sentence
-    value: 177255
+    value: 121894
 description: No slot (predicate) description specified
 examples:
 - object:

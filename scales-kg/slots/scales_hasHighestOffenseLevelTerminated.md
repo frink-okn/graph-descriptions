@@ -48,7 +48,7 @@ URI: [scales:hasHighestOffenseLevelTerminated](http://schemas.scales-okn.org/rdf
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty | string | scales:Agent/akd;;1:16-cr-00006_a0 | Misdemeanor | 69523 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty | string | scales:/Agent/akd;;1:16-cr-00006_a0 | Misdemeanor | 69523 |
 
 
 
@@ -69,7 +69,7 @@ examples:
     example_object: Misdemeanor
     example_object_type: string
     example_predicate: scales:hasHighestOffenseLevelTerminated
-    example_subject: scales:Agent/akd;;1:16-cr-00006_a0
+    example_subject: scales:/Agent/akd;;1:16-cr-00006_a0
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
 from_schema: scales-kg
 rank: 1000

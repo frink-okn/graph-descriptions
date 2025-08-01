@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 3389 times.
+This slot occurs 718593 times.
 
 
 URI: [http://release.niem.gov/niem/domains/jxdm/7.2/StatuteKeywordText](http://release.niem.gov/niem/domains/jxdm/7.2/StatuteKeywordText)
@@ -27,8 +27,7 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/StatuteKeywordText](http://r
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -49,7 +48,7 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/StatuteKeywordText](http://r
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:CivilCase |  28:1332sh Diversity-Sexual Harassment | 3389 |
+| scales_CivilCase | string | scales:/CivilCase/akd;;1:16-cv-00001 | 28:2255 Motion to Vacate | 718593 |
 
 
 
@@ -63,22 +62,21 @@ name: http___release.niem.gov_niem_domains_jxdm_7.2_StatuteKeywordText
 annotations:
   count:
     tag: count
-    value: 3389
+    value: 718593
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: ' 28:1332sh Diversity-Sexual Harassment'
+    example_object: 28:2255 Motion to Vacate
     example_object_type: string
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/StatuteKeywordText
-    example_subject: scales:CivilCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_subject: scales:/CivilCase/akd;;1:16-cv-00001
+    example_subject_type: scales_CivilCase
 from_schema: scales-kg
 rank: 1000
 slot_uri: http://release.niem.gov/niem/domains/jxdm/7.2/StatuteKeywordText
 alias: http___release.niem.gov_niem_domains_jxdm_7.2_StatuteKeywordText
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- scales_Case
+- scales_CivilCase
 range: string
 
 ```

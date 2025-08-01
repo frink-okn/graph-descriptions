@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 106 times.
+This slot occurs 1863523 times.
 
 
 URI: [niem50:CaseSubCategoryText](http://release.niem.gov/niem/niem-core/5.0/CaseSubCategoryText)
@@ -27,8 +27,7 @@ URI: [niem50:CaseSubCategoryText](http://release.niem.gov/niem/niem-core/5.0/Cas
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -49,7 +48,7 @@ URI: [niem50:CaseSubCategoryText](http://release.niem.gov/niem/niem-core/5.0/Cas
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:CivilCase | 110 Insurance | 106 |
+| scales_CivilCase | string | scales:/CivilCase/akd;;1:16-cv-00001 | 510 Motions To Vacate Sentence | 1863523 |
 
 
 
@@ -63,22 +62,21 @@ name: niem50_CaseSubCategoryText
 annotations:
   count:
     tag: count
-    value: 106
+    value: 1863523
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: 110 Insurance
+    example_object: 510 Motions To Vacate Sentence
     example_object_type: string
     example_predicate: niem50:CaseSubCategoryText
-    example_subject: scales:CivilCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_subject: scales:/CivilCase/akd;;1:16-cv-00001
+    example_subject_type: scales_CivilCase
 from_schema: scales-kg
 rank: 1000
 slot_uri: niem50:CaseSubCategoryText
 alias: niem50_CaseSubCategoryText
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- scales_Case
+- scales_CivilCase
 range: string
 
 ```

@@ -48,7 +48,7 @@ URI: [scales:appointedByParty](http://schemas.scales-okn.org/rdf/scales#appointe
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Judge | string | scales:JudgeEntity/SJ000002 | Democratic | 3912 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Judge | string | scales:/JudgeEntity/SJ000002 | Democratic | 3912 |
 
 
 
@@ -69,7 +69,7 @@ examples:
     example_object: Democratic
     example_object_type: string
     example_predicate: scales:appointedByParty
-    example_subject: scales:JudgeEntity/SJ000002
+    example_subject: scales:/JudgeEntity/SJ000002
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
 from_schema: scales-kg
 rank: 1000

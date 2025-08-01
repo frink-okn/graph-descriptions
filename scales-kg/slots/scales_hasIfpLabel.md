@@ -39,7 +39,7 @@ URI: [scales:hasIfpLabel](http://schemas.scales-okn.org/rdf/scales#hasIfpLabel)
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| None | uri | scales:DocketEntry/akd;;1:16-cv-00003_de2 | scales:IfpLabel/IFP_APPLICATION | 197166 |
+| None | uri | scales:/DocketEntry/akd;;1:16-cv-00003_de2 | scales:/IfpLabel/IFP_APPLICATION | 197166 |
 
 
 
@@ -60,10 +60,10 @@ annotations:
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: scales:IfpLabel/IFP_APPLICATION
+    example_object: scales:/IfpLabel/IFP_APPLICATION
     example_object_type: uri
     example_predicate: scales:hasIfpLabel
-    example_subject: scales:DocketEntry/akd;;1:16-cv-00003_de2
+    example_subject: scales:/DocketEntry/akd;;1:16-cv-00003_de2
     example_subject_type: None
 from_schema: scales-kg
 rank: 1000

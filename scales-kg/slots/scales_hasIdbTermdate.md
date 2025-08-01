@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 7519 times.
+This slot occurs 712609 times.
 
 
 URI: [scales:hasIdbTermdate](http://schemas.scales-okn.org/rdf/scales#hasIdbTermdate)
@@ -27,8 +27,8 @@ URI: [scales:hasIdbTermdate](http://schemas.scales-okn.org/rdf/scales#hasIdbTerm
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) | No class (type) description specified |  yes  |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -49,7 +49,8 @@ URI: [scales:hasIdbTermdate](http://schemas.scales-okn.org/rdf/scales#hasIdbTerm
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | datetime | scales:CivilCase | 1987-12-30T00:00:00 | 7519 |
+| scales_CivilCase | datetime | scales:/CivilCase/akd;;1:16-cv-00001 | 2018-05-21T00:00:00 | 662201 |
+| scales_CriminalCase | datetime | scales:/CriminalCase/akd;;1:16-cr-00001 | 2016-08-01T00:00:00 | 50408 |
 
 
 
@@ -63,22 +64,28 @@ name: scales_hasIdbTermdate
 annotations:
   count:
     tag: count
-    value: 7519
+    value: 712609
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: '1987-12-30T00:00:00'
+    example_object: '2018-05-21T00:00:00'
     example_object_type: datetime
     example_predicate: scales:hasIdbTermdate
-    example_subject: scales:CivilCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_subject: scales:/CivilCase/akd;;1:16-cv-00001
+    example_subject_type: scales_CivilCase
+- object:
+    example_object: '2016-08-01T00:00:00'
+    example_object_type: datetime
+    example_predicate: scales:hasIdbTermdate
+    example_subject: scales:/CriminalCase/akd;;1:16-cr-00001
+    example_subject_type: scales_CriminalCase
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbTermdate
 alias: scales_hasIdbTermdate
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- scales_Case
+- scales_CivilCase
+- scales_CriminalCase
 range: datetime
 
 ```

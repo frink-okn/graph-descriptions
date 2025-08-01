@@ -50,10 +50,10 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/CaseOfficialRoleText](http:/
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| None | string | scales:Agent/akd;;1:16-cr-00001_a2 | Assigned Judge | 1216331 |
-| http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney | string | scales:Agent/akd;;1:16-cr-00001_a4 | Retained | 280534 |
-| http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney | string | scales:Agent/akd;;1:16-cr-00001_a5 | Assistant US Attorney | 204677 |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Attorney | string | scales:Agent/almd;;1:16-cr-00571_a20 | Retained | 11657 |
+| None | string | scales:/Agent/akd;;1:16-cr-00001_a2 | Assigned Judge | 1216331 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney | string | scales:/Agent/akd;;1:16-cr-00001_a4 | Retained | 280534 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney | string | scales:/Agent/akd;;1:16-cr-00001_a5 | Assistant US Attorney | 204677 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Attorney | string | scales:/Agent/almd;;1:16-cr-00571_a20 | Retained | 11657 |
 
 
 
@@ -77,25 +77,25 @@ examples:
     example_object: Assigned Judge
     example_object_type: string
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/CaseOfficialRoleText
-    example_subject: scales:Agent/akd;;1:16-cr-00001_a2
+    example_subject: scales:/Agent/akd;;1:16-cr-00001_a2
     example_subject_type: None
 - object:
     example_object: Retained
     example_object_type: string
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/CaseOfficialRoleText
-    example_subject: scales:Agent/akd;;1:16-cr-00001_a4
+    example_subject: scales:/Agent/akd;;1:16-cr-00001_a4
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney
 - object:
     example_object: Assistant US Attorney
     example_object_type: string
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/CaseOfficialRoleText
-    example_subject: scales:Agent/akd;;1:16-cr-00001_a5
+    example_subject: scales:/Agent/akd;;1:16-cr-00001_a5
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney
 - object:
     example_object: Retained
     example_object_type: string
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/CaseOfficialRoleText
-    example_subject: scales:Agent/almd;;1:16-cr-00571_a20
+    example_subject: scales:/Agent/almd;;1:16-cr-00571_a20
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Attorney
 from_schema: scales-kg
 rank: 1000

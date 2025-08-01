@@ -39,7 +39,7 @@ URI: [scales:OntologyLabel](http://schemas.scales-okn.org/rdf/scales#OntologyLab
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| None | uri | scales:DocketEntry/akd;;1:16-cr-00001_de0 | scales:OntologyLabel/CaseEvent/Attribute/opening | 37622932 |
+| None | uri | scales:/DocketEntry/akd;;1:16-cr-00001_de0 | scales:/OntologyLabel/CaseEvent/Attribute/opening | 37622932 |
 
 
 
@@ -60,10 +60,10 @@ annotations:
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: scales:OntologyLabel/CaseEvent/Attribute/opening
+    example_object: scales:/OntologyLabel/CaseEvent/Attribute/opening
     example_object_type: uri
     example_predicate: scales:OntologyLabel
-    example_subject: scales:DocketEntry/akd;;1:16-cr-00001_de0
+    example_subject: scales:/DocketEntry/akd;;1:16-cr-00001_de0
     example_subject_type: None
 from_schema: scales-kg
 rank: 1000

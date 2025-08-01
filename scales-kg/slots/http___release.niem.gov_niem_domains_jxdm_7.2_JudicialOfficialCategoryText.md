@@ -48,7 +48,7 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/JudicialOfficialCategoryText
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Judge | string | scales:JudgeEntity/SJ000001 | Magistrate_Judge | 5385 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Judge | string | scales:/JudgeEntity/SJ000001 | Magistrate_Judge | 5385 |
 
 
 
@@ -69,7 +69,7 @@ examples:
     example_object: Magistrate_Judge
     example_object_type: string
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/JudicialOfficialCategoryText
-    example_subject: scales:JudgeEntity/SJ000001
+    example_subject: scales:/JudgeEntity/SJ000001
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Judge
 from_schema: scales-kg
 rank: 1000

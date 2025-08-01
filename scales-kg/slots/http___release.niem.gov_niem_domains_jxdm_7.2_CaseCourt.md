@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 3207183 times.
+This slot occurs 4072490 times.
 
 
 URI: [http://release.niem.gov/niem/domains/jxdm/7.2/CaseCourt](http://release.niem.gov/niem/domains/jxdm/7.2/CaseCourt)
@@ -27,10 +27,8 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/CaseCourt](http://release.ni
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | No class (type) description specified |  yes  |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
 | [ScalesCivilCase](../classes/ScalesCivilCase.md) | No class (type) description specified |  yes  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  yes  |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -40,7 +38,7 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/CaseCourt](http://release.ni
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HttpRelease.niem.govNiemDomainsJxdm7.2Court](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Court.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[HttpRelease.niem.govNiemDomainsJxdm7.2Court](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Court.md)
 
 
 
@@ -51,9 +49,9 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/CaseCourt](http://release.ni
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| scales_Case | http___release.niem.gov_niem_domains_jxdm_7.2_Court | scales:CivilCase | scales:Court/akd | 188 |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | http___release.niem.gov_niem_domains_jxdm_7.2_Court | scales:CivilCase | scales:Court/akd | 188 |
-| scales_CivilCase | string | scales:Case/ga-clayton-magistrate-civil;;0:00-cm-00001 | ga-clayton-magistrate-civil | 1075809 |
+| scales_CivilCase | http___release.niem.gov_niem_domains_jxdm_7.2_Court | scales:/CivilCase/akd;;1:16-cv-00001 | scales:/Court/akd | 718739 |
+| scales_CriminalCase | http___release.niem.gov_niem_domains_jxdm_7.2_Court | scales:/CriminalCase/akd;;1:16-cr-00001 | scales:/Court/akd | 145961 |
+| scales_CivilCase | string | scales:Case/ga-clayton-magistrate-civil;;0:00-cm-00001 | ga-clayton-magistrate-civil | 1076604 |
 | scales_CriminalCase | string | scales:Case/ga-clayton-magistrate;;0:00-bc-00001 | ga-clayton-magistrate | 2131186 |
 
 
@@ -68,21 +66,21 @@ name: http___release.niem.gov_niem_domains_jxdm_7.2_CaseCourt
 annotations:
   count:
     tag: count
-    value: 3207183
+    value: 4072490
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: scales:Court/akd
+    example_object: scales:/Court/akd
     example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_Court
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/CaseCourt
-    example_subject: scales:CivilCase
-    example_subject_type: scales_Case
+    example_subject: scales:/CivilCase/akd;;1:16-cv-00001
+    example_subject_type: scales_CivilCase
 - object:
-    example_object: scales:Court/akd
+    example_object: scales:/Court/akd
     example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_Court
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/CaseCourt
-    example_subject: scales:CivilCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_subject: scales:/CriminalCase/akd;;1:16-cr-00001
+    example_subject_type: scales_CriminalCase
 - object:
     example_object: ga-clayton-magistrate-civil
     example_object_type: string
@@ -100,14 +98,12 @@ rank: 1000
 slot_uri: http://release.niem.gov/niem/domains/jxdm/7.2/CaseCourt
 alias: http___release.niem.gov_niem_domains_jxdm_7.2_CaseCourt
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- scales_Case
 - scales_CivilCase
 - scales_CriminalCase
 range: Any
 any_of:
-- range: http___release.niem.gov_niem_domains_jxdm_7.2_Court
 - range: string
+- range: http___release.niem.gov_niem_domains_jxdm_7.2_Court
 
 ```
 </details>

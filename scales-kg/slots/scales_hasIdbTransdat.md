@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 839 times.
+This slot occurs 6137 times.
 
 
 URI: [scales:hasIdbTransdat](http://schemas.scales-okn.org/rdf/scales#hasIdbTransdat)
@@ -27,8 +27,7 @@ URI: [scales:hasIdbTransdat](http://schemas.scales-okn.org/rdf/scales#hasIdbTran
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -49,7 +48,7 @@ URI: [scales:hasIdbTransdat](http://schemas.scales-okn.org/rdf/scales#hasIdbTran
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:CivilCase | 01/02/2018 | 839 |
+| scales_CivilCase | string | scales:/CivilCase/akd;;2:17-cv-00002 | 06/06/2017 | 6137 |
 
 
 
@@ -63,22 +62,21 @@ name: scales_hasIdbTransdat
 annotations:
   count:
     tag: count
-    value: 839
+    value: 6137
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: 01/02/2018
+    example_object: 06/06/2017
     example_object_type: string
     example_predicate: scales:hasIdbTransdat
-    example_subject: scales:CivilCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_subject: scales:/CivilCase/akd;;2:17-cv-00002
+    example_subject_type: scales_CivilCase
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbTransdat
 alias: scales_hasIdbTransdat
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- scales_Case
+- scales_CivilCase
 range: string
 
 ```

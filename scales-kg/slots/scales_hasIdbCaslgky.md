@@ -27,8 +27,7 @@ URI: [scales:hasIdbCaslgky](http://schemas.scales-okn.org/rdf/scales#hasIdbCaslg
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Case](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Case.md) | No class (type) description specified |  yes  |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | No class (type) description specified |  yes  |
 
 
 
@@ -49,7 +48,7 @@ URI: [scales:hasIdbCaslgky](http://schemas.scales-okn.org/rdf/scales#hasIdbCaslg
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Case | string | scales:CriminalCase | 009011600002CR0 | 121785 |
+| scales_CriminalCase | string | scales:/CriminalCase/akd;;1:16-cr-00001 | 097-11600001CR0 | 121785 |
 
 
 
@@ -67,18 +66,17 @@ annotations:
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: 009011600002CR0
+    example_object: 097-11600001CR0
     example_object_type: string
     example_predicate: scales:hasIdbCaslgky
-    example_subject: scales:CriminalCase
-    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Case
+    example_subject: scales:/CriminalCase/akd;;1:16-cr-00001
+    example_subject_type: scales_CriminalCase
 from_schema: scales-kg
 rank: 1000
 slot_uri: scales:hasIdbCaslgky
 alias: scales_hasIdbCaslgky
 domain_of:
-- http___release.niem.gov_niem_domains_jxdm_7.2_Case
-- scales_Case
+- scales_CriminalCase
 range: string
 
 ```

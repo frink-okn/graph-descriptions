@@ -10,7 +10,7 @@ _No slot (predicate) description specified_
 
 
 
-This slot occurs 3248240 times.
+This slot occurs 3374647 times.
 
 
 URI: [http://release.niem.gov/niem/domains/jxdm/7.2/ChargeText](http://release.niem.gov/niem/domains/jxdm/7.2/ChargeText)
@@ -28,6 +28,7 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/ChargeText](http://release.n
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [HttpRelease.niem.govNiemDomainsJxdm7.2Charge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2Charge.md) | No class (type) description specified |  yes  |
+| [HttpRelease.niem.govNiemDomainsJxdm7.2ArrestCharge](../classes/HttpRelease.niem.govNiemDomainsJxdm7.2ArrestCharge.md) | No class (type) description specified |  yes  |
 
 
 
@@ -48,7 +49,8 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/ChargeText](http://release.n
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_Charge | string | scales:Charge/akd;;1:16-cr-00001_c0-1-3 | 26:7203 WILLFUL FAILURE TO FILE INCOME TAX RETURNS | 3248240 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_Charge | string | scales:/Charge/akd;;1:16-cr-00001_c0-1-3 | 26:7203 WILLFUL FAILURE TO FILE INCOME TAX RETURNS | 3248240 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_ArrestCharge | string | scales:ArrestCharge/ga-atlanta-pd-100720495 | Entering Automobile | 126407 |
 
 
 
@@ -62,20 +64,27 @@ name: http___release.niem.gov_niem_domains_jxdm_7.2_ChargeText
 annotations:
   count:
     tag: count
-    value: 3248240
+    value: 3374647
 description: No slot (predicate) description specified
 examples:
 - object:
     example_object: 26:7203 WILLFUL FAILURE TO FILE INCOME TAX RETURNS
     example_object_type: string
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/ChargeText
-    example_subject: scales:Charge/akd;;1:16-cr-00001_c0-1-3
+    example_subject: scales:/Charge/akd;;1:16-cr-00001_c0-1-3
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_Charge
+- object:
+    example_object: Entering Automobile
+    example_object_type: string
+    example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/ChargeText
+    example_subject: scales:ArrestCharge/ga-atlanta-pd-100720495
+    example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_ArrestCharge
 from_schema: scales-kg
 rank: 1000
 slot_uri: http://release.niem.gov/niem/domains/jxdm/7.2/ChargeText
 alias: http___release.niem.gov_niem_domains_jxdm_7.2_ChargeText
 domain_of:
+- http___release.niem.gov_niem_domains_jxdm_7.2_ArrestCharge
 - http___release.niem.gov_niem_domains_jxdm_7.2_Charge
 range: string
 

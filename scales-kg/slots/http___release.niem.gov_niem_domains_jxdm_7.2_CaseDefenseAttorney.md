@@ -55,7 +55,7 @@ URI: [http://release.niem.gov/niem/domains/jxdm/7.2/CaseDefenseAttorney](http://
 
 | Subject type | Object type | Example subject | Example object | Occurrences |
 | --- | --- | --- | --- | --- |
-| http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty | http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney | scales:Agent/akd;;1:16-cr-00001_a0 | scales:Agent/akd;;1:16-cr-00001_a3 | 2823772 |
+| http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty | http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney | scales:/Agent/akd;;1:16-cr-00001_a0 | scales:/Agent/akd;;1:16-cr-00001_a3 | 2823772 |
 
 
 
@@ -73,10 +73,10 @@ annotations:
 description: No slot (predicate) description specified
 examples:
 - object:
-    example_object: scales:Agent/akd;;1:16-cr-00001_a3
+    example_object: scales:/Agent/akd;;1:16-cr-00001_a3
     example_object_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney
     example_predicate: http://release.niem.gov/niem/domains/jxdm/7.2/CaseDefenseAttorney
-    example_subject: scales:Agent/akd;;1:16-cr-00001_a0
+    example_subject: scales:/Agent/akd;;1:16-cr-00001_a0
     example_subject_type: http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty
 from_schema: scales-kg
 rank: 1000
