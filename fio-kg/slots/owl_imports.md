@@ -1,16 +1,9 @@
 
 
-# Slot: No slot (predicate) name specified (owl_imports)
-
-
-_No slot (predicate) description specified_
+# Slot: owl_imports
 
 
 
-
-
-
-This slot occurs 0 times.
 
 
 URI: [owl:imports](http://www.w3.org/2002/07/owl#imports)
@@ -28,7 +21,7 @@ URI: [owl:imports](http://www.w3.org/2002/07/owl#imports)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[OwlOntology](../classes/OwlOntology.md)&nbsp;or&nbsp;<br />[RdfsResource](../classes/RdfsResource.md)
 
 
 
@@ -46,20 +39,21 @@ URI: [owl:imports](http://www.w3.org/2002/07/owl#imports)
 
 ```yaml
 name: owl_imports
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
-from_schema: fio-kg
+from_schema: okns:fiokg
+exact_mappings:
+- http://www.w3.org/2002/07/owl#imports
 rank: 1000
-domain: owl_imports
 slot_uri: owl:imports
 alias: owl_imports
-range: uri
+union_of:
+- owl_Ontology
+- rdfs_Resource
+range: Any
+any_of:
+- range: owl_Ontology
+- range: rdfs_Resource
 
 ```
 </details>

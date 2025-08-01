@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (xsd_unsignedInt)
-
-
-_No class (type) description specified_
+# Class: XsdUnsignedInt
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [xsd:unsignedInt](http://www.w3.org/2001/XMLSchema#unsignedInt)
@@ -35,8 +28,9 @@ URI: [xsd:unsignedInt](http://www.w3.org/2001/XMLSchema#unsignedInt)
 
 
 ## Inheritance
-* [RdfsLiteral](../classes/RdfsLiteral.md)
-    * **XsdUnsignedInt**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsLiteral](../classes/RdfsLiteral.md)
+        * **XsdUnsignedInt**
 
 
 
@@ -68,14 +62,9 @@ URI: [xsd:unsignedInt](http://www.w3.org/2001/XMLSchema#unsignedInt)
 
 ```yaml
 name: xsd_unsignedInt
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: fio-kg
+from_schema: okns:fiokg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#unsignedInt
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:unsignedInt
@@ -89,14 +78,9 @@ class_uri: xsd:unsignedInt
 
 ```yaml
 name: xsd_unsignedInt
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: fio-kg
+from_schema: okns:fiokg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#unsignedInt
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:unsignedInt

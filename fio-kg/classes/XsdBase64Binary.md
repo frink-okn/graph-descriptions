@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (xsd_base64Binary)
-
-
-_No class (type) description specified_
+# Class: XsdBase64Binary
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [xsd:base64Binary](http://www.w3.org/2001/XMLSchema#base64Binary)
@@ -35,8 +28,9 @@ URI: [xsd:base64Binary](http://www.w3.org/2001/XMLSchema#base64Binary)
 
 
 ## Inheritance
-* [RdfsLiteral](../classes/RdfsLiteral.md)
-    * **XsdBase64Binary**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsLiteral](../classes/RdfsLiteral.md)
+        * **XsdBase64Binary**
 
 
 
@@ -68,14 +62,9 @@ URI: [xsd:base64Binary](http://www.w3.org/2001/XMLSchema#base64Binary)
 
 ```yaml
 name: xsd_base64Binary
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: fio-kg
+from_schema: okns:fiokg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#base64Binary
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:base64Binary
@@ -89,14 +78,9 @@ class_uri: xsd:base64Binary
 
 ```yaml
 name: xsd_base64Binary
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: fio-kg
+from_schema: okns:fiokg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#base64Binary
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:base64Binary

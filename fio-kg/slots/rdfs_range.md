@@ -1,16 +1,16 @@
 
 
-# Slot: No slot (predicate) name specified (rdfs_range)
+# Slot: range (rdfs_range)
 
 
-_No slot (predicate) description specified_
-
-
-
+_A range of the subject property._
 
 
 
-This slot occurs 0 times.
+
+
+
+This slot occurs 2 times.
 
 
 URI: [rdfs:range](http://www.w3.org/2000/01/rdf-schema#range)
@@ -23,20 +23,25 @@ URI: [rdfs:range](http://www.w3.org/2000/01/rdf-schema#range)
 
 
 
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [OwlOntologyProperty](../classes/OwlOntologyProperty.md) | The class of ontology properties |  no  |
+
+
+
+
 
 
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [RdfsClass](../classes/RdfsClass.md)
 
 
 
 
-
-## Comments
-
-* No occurrences of this slot in the graph.
 
 
 
@@ -46,20 +51,15 @@ URI: [rdfs:range](http://www.w3.org/2000/01/rdf-schema#range)
 
 ```yaml
 name: rdfs_range
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-comments:
-- No occurrences of this slot in the graph.
-from_schema: fio-kg
-rank: 1000
-domain: rdfs_range
+description: A range of the subject property.
+title: range
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/2000/01/rdf-schema#
+domain: rdf_Property
 slot_uri: rdfs:range
-alias: rdfs_range
-range: uri
+domain_of:
+- owl_OntologyProperty
+range: rdfs_Class
 
 ```
 </details>

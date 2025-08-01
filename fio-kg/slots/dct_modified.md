@@ -1,16 +1,16 @@
 
 
-# Slot: No slot (predicate) name specified (dct_modified)
+# Slot: Date Modified (dct_modified)
 
 
-_No slot (predicate) description specified_
-
-
-
+_Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty._
 
 
 
-This slot occurs 0 times.
+
+
+
+This slot occurs 385201 times.
 
 
 URI: [dct:modified](http://purl.org/dc/terms/modified)
@@ -23,12 +23,23 @@ URI: [dct:modified](http://purl.org/dc/terms/modified)
 
 
 
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [VaemGraphMetaData](../classes/VaemGraphMetaData.md) | "vaem:GraphMetaData" defines basic metadata for the registration and publishi... |  no  |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
+| [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
+
+
+
+
 
 
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date)
 
 
 
@@ -36,7 +47,7 @@ URI: [dct:modified](http://purl.org/dc/terms/modified)
 
 ## Comments
 
-* No occurrences of this slot in the graph.
+* description: Date on which the resource was changed.
 
 
 
@@ -46,19 +57,23 @@ URI: [dct:modified](http://purl.org/dc/terms/modified)
 
 ```yaml
 name: dct_modified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
+description: Recommended practice is to describe the date, date/time, or period of
+  time as recommended for the property Date, of which this is a subproperty.
+title: Date Modified
 comments:
-- No occurrences of this slot in the graph.
-from_schema: fio-kg
-rank: 1000
+- 'description: Date on which the resource was changed.'
+from_schema: okns:dc
+source: http://purl.org/dc/terms/
 slot_uri: dct:modified
-alias: dct_modified
+domain_of:
+- vaem_GraphMetaData
+- fio-epa-frs_EPA-PFAS-Facility
+- fio-epa-frs_FRS-Facility
+subproperty_of: dct_date
 range: Any
+any_of:
+- range: rdfs_Literal
+- range: date
 
 ```
 </details>

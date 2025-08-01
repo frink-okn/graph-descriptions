@@ -1,16 +1,16 @@
 
 
-# Slot: No slot (predicate) name specified (dct_created)
+# Slot: Date Created (dct_created)
 
 
-_No slot (predicate) description specified_
-
-
-
+_Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty._
 
 
 
-This slot occurs 0 times.
+
+
+
+This slot occurs 529535 times.
 
 
 URI: [dct:created](http://purl.org/dc/terms/created)
@@ -23,12 +23,23 @@ URI: [dct:created](http://purl.org/dc/terms/created)
 
 
 
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [VaemGraphMetaData](../classes/VaemGraphMetaData.md) | "vaem:GraphMetaData" defines basic metadata for the registration and publishi... |  no  |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
+| [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
+
+
+
+
 
 
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)
+* Range: [RdfsLiteral](../classes/RdfsLiteral.md)
 
 
 
@@ -36,6 +47,7 @@ URI: [dct:created](http://purl.org/dc/terms/created)
 
 ## Comments
 
+* description: Date of creation of the resource.
 * No occurrences of this slot in the graph.
 
 
@@ -46,19 +58,21 @@ URI: [dct:created](http://purl.org/dc/terms/created)
 
 ```yaml
 name: dct_created
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
+description: Recommended practice is to describe the date, date/time, or period of
+  time as recommended for the property Date, of which this is a subproperty.
+title: Date Created
 comments:
+- 'description: Date of creation of the resource.'
 - No occurrences of this slot in the graph.
-from_schema: fio-kg
-rank: 1000
+from_schema: okns:dc
+source: http://purl.org/dc/terms/
 slot_uri: dct:created
-alias: dct_created
-range: Any
+domain_of:
+- vaem_GraphMetaData
+- fio-epa-frs_EPA-PFAS-Facility
+- fio-epa-frs_FRS-Facility
+subproperty_of: dct_date
+range: rdfs_Literal
 
 ```
 </details>

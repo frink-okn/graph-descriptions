@@ -1,16 +1,16 @@
 
 
-# Slot: No slot (predicate) name specified (dct_title)
+# Slot: Title (dct_title)
 
 
-_No slot (predicate) description specified_
-
-
-
+_A name given to the resource._
 
 
 
-This slot occurs 0 times.
+
+
+
+This slot occurs 529535 times.
 
 
 URI: [dct:title](http://purl.org/dc/terms/title)
@@ -23,20 +23,27 @@ URI: [dct:title](http://purl.org/dc/terms/title)
 
 
 
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [VaemGraphMetaData](../classes/VaemGraphMetaData.md) | "vaem:GraphMetaData" defines basic metadata for the registration and publishi... |  no  |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
+| [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
+
+
+
+
 
 
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
 
-
-## Comments
-
-* No occurrences of this slot in the graph.
 
 
 
@@ -46,19 +53,20 @@ URI: [dct:title](http://purl.org/dc/terms/title)
 
 ```yaml
 name: dct_title
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-comments:
-- No occurrences of this slot in the graph.
-from_schema: fio-kg
-rank: 1000
+description: A name given to the resource.
+title: Title
+from_schema: okns:dc
+source: http://purl.org/dc/terms/
 slot_uri: dct:title
-alias: dct_title
+domain_of:
+- vaem_GraphMetaData
+- fio-epa-frs_EPA-PFAS-Facility
+- fio-epa-frs_FRS-Facility
+subproperty_of: dc_title
 range: Any
+any_of:
+- range: rdfs_Literal
+- range: string
 
 ```
 </details>

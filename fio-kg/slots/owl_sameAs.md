@@ -1,16 +1,16 @@
 
 
-# Slot: No slot (predicate) name specified (owl_sameAs)
+# Slot: sameAs (owl_sameAs)
 
 
-_No slot (predicate) description specified_
-
-
-
+_The property that determines that two given individuals are equal._
 
 
 
-This slot occurs 529 times.
+
+
+
+This slot occurs 2594578 times.
 
 
 URI: [owl:sameAs](http://www.w3.org/2002/07/owl#sameAs)
@@ -27,24 +27,92 @@ URI: [owl:sameAs](http://www.w3.org/2002/07/owl#sameAs)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [OwlAnnotation](../classes/OwlAnnotation.md) | No class (type) description specified |  no  |
-| [OwlAxiom](../classes/OwlAxiom.md) | No class (type) description specified |  no  |
-| [OwlOntology](../classes/OwlOntology.md) | No class (type) description specified |  no  |
-| [OwlAllDifferent](../classes/OwlAllDifferent.md) | No class (type) description specified |  no  |
-| [OwlAllDisjointProperties](../classes/OwlAllDisjointProperties.md) | No class (type) description specified |  no  |
-| [RdfList](../classes/RdfList.md) | No class (type) description specified |  yes  |
-| [NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md) | No class (type) description specified |  yes  |
-| [OwlThing](../classes/OwlThing.md) | No class (type) description specified |  yes  |
-| [NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md) | No class (type) description specified |  no  |
-| [OwlNothing](../classes/OwlNothing.md) | No class (type) description specified |  no  |
-| [NaicsNAICS-IndustryGroup](../classes/NaicsNAICS-IndustryGroup.md) | No class (type) description specified |  no  |
-| [NaicsNAICS-Industry](../classes/NaicsNAICS-Industry.md) | No class (type) description specified |  yes  |
-| [OwlNegativePropertyAssertion](../classes/OwlNegativePropertyAssertion.md) | No class (type) description specified |  no  |
-| [OwlAllDisjointClasses](../classes/OwlAllDisjointClasses.md) | No class (type) description specified |  no  |
-| [NaicsNAICS-IndustryCode](../classes/NaicsNAICS-IndustryCode.md) | No class (type) description specified |  yes  |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No class (type) description specified |  yes  |
-| [FioIndustry](../classes/FioIndustry.md) | No class (type) description specified |  yes  |
-| [RdfsResource](../classes/RdfsResource.md) | No class (type) description specified |  yes  |
+| [Fio-epa-frsEnforcementInterest](../classes/Fio-epa-frsEnforcementInterest.md) |  |  no  |
+| [NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md) |  |  no  |
+| [Fio-epa-frsElectronicPermitSystem](../classes/Fio-epa-frsElectronicPermitSystem.md) | ELECTRONIC PERMIT SYSTEM |  no  |
+| [Fio-epa-frsUndergroundStorageTankProgram](../classes/Fio-epa-frsUndergroundStorageTankProgram.md) | ENVIRONMENTAL PROGRAMS DESIGNED TO REDUCE THE CHANCE OF RELEASES FROM UNDERGR... |  no  |
+| [Fio-epa-frsComplianceInterest](../classes/Fio-epa-frsComplianceInterest.md) |  |  no  |
+| [Node513](../classes/Node513.md) |  |  no  |
+| [Fio-epa-frsPermitInterest](../classes/Fio-epa-frsPermitInterest.md) | Environmental Interests that create records that are permits or licenses |  no  |
+| [Fio-epa-frsAgency.Agriculture](../classes/Fio-epa-frsAgency.Agriculture.md) |  |  no  |
+| [Fio-epa-frsAgency.Transportation](../classes/Fio-epa-frsAgency.Transportation.md) |  |  no  |
+| [Fio-epa-frsAgency](../classes/Fio-epa-frsAgency.md) | Federal Agency as identified in EPA Facility Registry Service |  no  |
+| [Fio-epa-frsAssistanceSupportProgram](../classes/Fio-epa-frsAssistanceSupportProgram.md) | ENVIRONMENTAL PROGRAMS THAT PROVIDE ASSISTANCE TO THE REGULATED COMMUNITY AND... |  no  |
+| [Node523](../classes/Node523.md) |  |  no  |
+| [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | Supplemental Record that relates to a facility but primarily identifies somet... |  no  |
+| [Fio-epa-frsEnforcementSystem](../classes/Fio-epa-frsEnforcementSystem.md) |  |  no  |
+| [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |  |  no  |
+| [Fio-epa-frsAgency.Interior](../classes/Fio-epa-frsAgency.Interior.md) |  |  no  |
+| [Fio-epa-frsPermitSystem](../classes/Fio-epa-frsPermitSystem.md) |  |  no  |
+| [Node359](../classes/Node359.md) |  |  no  |
+| [Fio-epa-frsAgency.Labor](../classes/Fio-epa-frsAgency.Labor.md) |  |  no  |
+| [Node499](../classes/Node499.md) |  |  no  |
+| [Fio-epa-frsHealthSafetyProgram](../classes/Fio-epa-frsHealthSafetyProgram.md) | PROGRAMS DESIGNED TO REDUCE HAZARDS AND PREVENT INJURIES, ILLNESSES AND DEATH... |  no  |
+| [Node506](../classes/Node506.md) |  |  no  |
+| [Fio-epa-frsStateSystem](../classes/Fio-epa-frsStateSystem.md) |  |  no  |
+| [Fio-epa-frsAgency.VeteransAffairs](../classes/Fio-epa-frsAgency.VeteransAffairs.md) |  |  no  |
+| [Fio-epa-frsEnvironmentalInterestType](../classes/Fio-epa-frsEnvironmentalInterestType.md) | The environmental permit or regulatory program type that applies to the facil... |  no  |
+| [Fio-epa-frsSiteInterest](../classes/Fio-epa-frsSiteInterest.md) |  |  no  |
+| [Fio-epa-frsAirProgram](../classes/Fio-epa-frsAirProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE OR MONITOR AIR EMISSIONS FROM AREA, STAT... |  no  |
+| [Fio-epa-frsAgency.Justice](../classes/Fio-epa-frsAgency.Justice.md) |  |  no  |
+| [Fio-epa-frsReportingInterest](../classes/Fio-epa-frsReportingInterest.md) |  |  no  |
+| [Fio-epa-frsAgency.Treasury](../classes/Fio-epa-frsAgency.Treasury.md) |  |  no  |
+| [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) |  |  no  |
+| [Fio-epa-frsWasteWaterProgram](../classes/Fio-epa-frsWasteWaterProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE DISCHARGES OF POLLUTANTS TO WATERS OF TH... |  no  |
+| [Fio-epa-frsWaterResourcesProgram](../classes/Fio-epa-frsWaterResourcesProgram.md) | ENVIRONMENTAL PROGRAMS THAT MANAGE WATER RESOURCES TO MEET THE NEEDS OF THE N... |  no  |
+| [Fio-epa-frsProgramInformationSystem](../classes/Fio-epa-frsProgramInformationSystem.md) | An Information System maintained for an environmental program |  no  |
+| [Node521](../classes/Node521.md) |  |  no  |
+| [Fio-epa-frsAnimalOperation](../classes/Fio-epa-frsAnimalOperation.md) | ENVIRONMENTAL PROGRAMS RELATED TO ANIMAL OPERATIONS E |  no  |
+| [NaicsNAICS-IndustryGroup](../classes/NaicsNAICS-IndustryGroup.md) |  |  no  |
+| [NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md) |  |  no  |
+| [Fio-epa-frsLegacySystem](../classes/Fio-epa-frsLegacySystem.md) |  |  no  |
+| [Fio-epa-frsTribalSystem](../classes/Fio-epa-frsTribalSystem.md) |  |  no  |
+| [Fio-epa-frsRegistrySystem](../classes/Fio-epa-frsRegistrySystem.md) |  |  no  |
+| [Fio-epa-frsAgency.Commerce](../classes/Fio-epa-frsAgency.Commerce.md) |  |  no  |
+| [Fio-epa-frsEcologyOperation](../classes/Fio-epa-frsEcologyOperation.md) | PROGRAMS THAT CONCENTRATE ON ECOLOGICAL SYSTEMS SUCH AS FOREST AND TREE EXPER... |  no  |
+| [Fio-epa-frsGrantSystem](../classes/Fio-epa-frsGrantSystem.md) |  |  no  |
+| [NaicsNAICS-IndustryCode](../classes/NaicsNAICS-IndustryCode.md) |  |  no  |
+| [FioIndustry](../classes/FioIndustry.md) | A distinct group of productive or profit-making enterprises |  no  |
+| [Fio-epa-frsAgency.Energy](../classes/Fio-epa-frsAgency.Energy.md) |  |  no  |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
+| [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |  |  no  |
+| [Fio-epa-frsRemediationRedevelopmentProgram](../classes/Fio-epa-frsRemediationRedevelopmentProgram.md) | ENVIRONMENTAL PROGRAMS AIMED AT CLEANING UP AND/OR REDEVELOPING UNCONTROLLED ... |  no  |
+| [Fio-epa-frsDrinkingWaterProgram](../classes/Fio-epa-frsDrinkingWaterProgram.md) | ENVIRONMENTAL PROGRAMS THAT PROTECT THE QUALITY OF DRINKING WATER IN THE UNIT... |  no  |
+| [Node518](../classes/Node518.md) |  |  no  |
+| [Fio-epa-frsChemicalReleaseProgram](../classes/Fio-epa-frsChemicalReleaseProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE OR MONITOR CHEMICALS RELEASED TO THE ENV... |  no  |
+| [Fio-epa-frsAgency.HealthandHumanServices](../classes/Fio-epa-frsAgency.HealthandHumanServices.md) |  |  no  |
+| [Fio-epa-frsRadiationProtectionProgram](../classes/Fio-epa-frsRadiationProtectionProgram.md) | ENVIRONMENTAL PROGRAMS DESIGNED TO PROTECT PEOPLE AND THE ENVIRONMENT FROM HA... |  no  |
+| [Fio-epa-frsAgency.HomelandSecurity](../classes/Fio-epa-frsAgency.HomelandSecurity.md) |  |  no  |
+| [Fio-epa-frsCoastalOceanProgram](../classes/Fio-epa-frsCoastalOceanProgram.md) | ENVIRONMENTAL PROGRAMS THAT IMPROVE THE QUALITY OF COASTAL AND MARINE ECOSYST... |  no  |
+| [Fio-epa-frsLegalEnforcementActivities](../classes/Fio-epa-frsLegalEnforcementActivities.md) | LEGAL OR ENFORCEMENT ACTIVITIES IN SUPPORT OF OTHER ENVIRONMENTAL PROGRAMS |  no  |
+| [Fio-epa-frsSolidWasteProgram](../classes/Fio-epa-frsSolidWasteProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE SOLID WASTES (E |  no  |
+| [Fio-epa-frsAgency.Defense](../classes/Fio-epa-frsAgency.Defense.md) |  |  no  |
+| [Fio-epa-frsChemicalStorageProgram](../classes/Fio-epa-frsChemicalStorageProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE OR MONITOR THE STORAGE OF CHEMICALS (E |  no  |
+| [Fio-epa-frsAgency.State](../classes/Fio-epa-frsAgency.State.md) |  |  no  |
+| [Fio-epa-frsSiteSystem](../classes/Fio-epa-frsSiteSystem.md) |  |  no  |
+| [Fio-epa-frsHazardousWasteProgram](../classes/Fio-epa-frsHazardousWasteProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE HAZARDOUS WASTE, INCLUDING THE GENERATIO... |  no  |
+| [Fio-epa-frsFacilityType](../classes/Fio-epa-frsFacilityType.md) | Type of Facility as defined by EPA FRS facility type controlled vocabulary |  no  |
+| [Fio-epa-frsAgency.Congress](../classes/Fio-epa-frsAgency.Congress.md) |  |  no  |
+| [Fio-epa-frsFacilitySiteIdentification](../classes/Fio-epa-frsFacilitySiteIdentification.md) | INCLUDES SYSTEMS THAT MAINTAIN BASIC IDENTIFICATION INFORMATION ABOUT FACILIT... |  no  |
+| [Fio-epa-frsAgency.Judicial](../classes/Fio-epa-frsAgency.Judicial.md) |  |  no  |
+| [Fio-epa-frsEnvironmentalInterestByProgram](../classes/Fio-epa-frsEnvironmentalInterestByProgram.md) |  |  no  |
+| [Node501](../classes/Node501.md) |  |  no  |
+| [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
+| [Node515](../classes/Node515.md) |  |  no  |
+| [Node519](../classes/Node519.md) |  |  no  |
+| [Fio-epa-frsGroundWaterProgram](../classes/Fio-epa-frsGroundWaterProgram.md) | ENVIRONMENTAL PROGRAMS DESIGNED TO PROTECT GROUND WATER (E |  no  |
+| [Node508](../classes/Node508.md) |  |  no  |
+| [Fio-epa-frsAgency.HousingandUrbanDevelopment](../classes/Fio-epa-frsAgency.HousingandUrbanDevelopment.md) |  |  no  |
+| [Node507](../classes/Node507.md) |  |  no  |
+| [Fio-epa-frsProjectSystem](../classes/Fio-epa-frsProjectSystem.md) |  |  no  |
+| [Node517](../classes/Node517.md) |  |  no  |
+| [Node510](../classes/Node510.md) |  |  no  |
+| [Node502](../classes/Node502.md) |  |  no  |
+| [Node512](../classes/Node512.md) |  |  no  |
+| [Fio-epa-frsComplianceSystem](../classes/Fio-epa-frsComplianceSystem.md) |  |  no  |
+| [Fio-epa-frsRegistryInterest](../classes/Fio-epa-frsRegistryInterest.md) |  |  no  |
+| [Fio-epa-frsPesticidesProgram](../classes/Fio-epa-frsPesticidesProgram.md) | ENVIRONMENTAL PROGRAMS THAT MONITOR BUSINESSES, GOVERNMENT AGENCIES, AND INDI... |  no  |
+| [Fio-epa-frsRiskInterest](../classes/Fio-epa-frsRiskInterest.md) |  |  no  |
 
 
 
@@ -54,82 +122,15 @@ URI: [owl:sameAs](http://www.w3.org/2002/07/owl#sameAs)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[FioIndustry](../classes/FioIndustry.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[NaicsNAICS-IndustryCode](../classes/NaicsNAICS-IndustryCode.md)&nbsp;or&nbsp;<br />[RdfsResource](../classes/RdfsResource.md)&nbsp;or&nbsp;<br />[RdfList](../classes/RdfList.md)&nbsp;or&nbsp;<br />[NaicsNAICS-Industry](../classes/NaicsNAICS-Industry.md)&nbsp;or&nbsp;<br />[NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md)&nbsp;or&nbsp;<br />[OwlNamedIndividual](../classes/OwlNamedIndividual.md)
-
-## Usages
-
-| used by | used in | type | used |
-| ---  | --- | --- | --- |
-| [FioIndustry](../classes/FioIndustry.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [owl_sameAs](../slots/owl_sameAs.md) |
-| [NaicsNAICS-Industry](../classes/NaicsNAICS-Industry.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [owl_sameAs](../slots/owl_sameAs.md) |
-| [NaicsNAICS-IndustryCode](../classes/NaicsNAICS-IndustryCode.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [owl_sameAs](../slots/owl_sameAs.md) |
-| [NaicsNAICS-IndustryGroup](../classes/NaicsNAICS-IndustryGroup.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [owl_sameAs](../slots/owl_sameAs.md) |
-| [NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [owl_sameAs](../slots/owl_sameAs.md) |
-| [NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [owl_sameAs](../slots/owl_sameAs.md) |
-| [OwlAllDifferent](../classes/OwlAllDifferent.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [owl_sameAs](../slots/owl_sameAs.md) |
-| [OwlAllDisjointClasses](../classes/OwlAllDisjointClasses.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [owl_sameAs](../slots/owl_sameAs.md) |
-| [OwlAllDisjointProperties](../classes/OwlAllDisjointProperties.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [owl_sameAs](../slots/owl_sameAs.md) |
-| [OwlAnnotation](../classes/OwlAnnotation.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [owl_sameAs](../slots/owl_sameAs.md) |
-| [OwlAxiom](../classes/OwlAxiom.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [owl_sameAs](../slots/owl_sameAs.md) |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [owl_sameAs](../slots/owl_sameAs.md) |
-| [OwlNegativePropertyAssertion](../classes/OwlNegativePropertyAssertion.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [owl_sameAs](../slots/owl_sameAs.md) |
-| [OwlNothing](../classes/OwlNothing.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [owl_sameAs](../slots/owl_sameAs.md) |
-| [OwlOntology](../classes/OwlOntology.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [owl_sameAs](../slots/owl_sameAs.md) |
-| [OwlThing](../classes/OwlThing.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [owl_sameAs](../slots/owl_sameAs.md) |
-| [RdfList](../classes/RdfList.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [owl_sameAs](../slots/owl_sameAs.md) |
-| [RdfsResource](../classes/RdfsResource.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [owl_sameAs](../slots/owl_sameAs.md) |
+* Range: [OwlThing](../classes/OwlThing.md)
 
 
 
 
 
+## Comments
 
-
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| naics_NAICS-IndustryCode | naics_NAICS-IndustryCode | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 523 |
-| naics_NAICS-IndustryCode | naics_NAICS-Industry | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 523 |
-| naics_NAICS-IndustryCode | owl_Thing | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 523 |
-| naics_NAICS-IndustryCode | fio_Industry | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 523 |
-| naics_NAICS-IndustryCode | owl_NamedIndividual | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 523 |
-| naics_NAICS-Industry | naics_NAICS-IndustryCode | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 523 |
-| naics_NAICS-Industry | naics_NAICS-Industry | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 527 |
-| naics_NAICS-Industry | owl_Thing | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 527 |
-| naics_NAICS-Industry | fio_Industry | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 527 |
-| naics_NAICS-Industry | owl_NamedIndividual | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 527 |
-| owl_Thing | naics_NAICS-IndustryCode | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 523 |
-| owl_Thing | naics_NAICS-Industry | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 523 |
-| owl_Thing | owl_Thing | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 525 |
-| owl_Thing | fio_Industry | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 523 |
-| owl_Thing | owl_NamedIndividual | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 523 |
-| fio_Industry | naics_NAICS-IndustryCode | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 523 |
-| fio_Industry | naics_NAICS-Industry | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 527 |
-| fio_Industry | owl_Thing | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 527 |
-| fio_Industry | fio_Industry | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 527 |
-| fio_Industry | owl_NamedIndividual | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 527 |
-| owl_NamedIndividual | naics_NAICS-IndustryCode | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 523 |
-| owl_NamedIndividual | naics_NAICS-Industry | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 523 |
-| owl_NamedIndividual | owl_Thing | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 523 |
-| owl_NamedIndividual | fio_Industry | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 523 |
-| owl_NamedIndividual | owl_NamedIndividual | naics:NAICS-IndustryCode-111110 | naics:NAICS-IndustryCode-11111 | 523 |
-| fio_Industry | naics_NAICS-IndustrySector | naics:NAICS-IndustrySector-32 | naics:NAICS-IndustrySector-31 | 4 |
-| naics_NAICS-Industry | naics_NAICS-IndustrySector | naics:NAICS-IndustrySector-32 | naics:NAICS-IndustrySector-31 | 4 |
-| naics_NAICS-IndustrySector | naics_NAICS-Industry | naics:NAICS-IndustrySector-32 | naics:NAICS-IndustrySector-31 | 4 |
-| naics_NAICS-IndustrySector | owl_Thing | naics:NAICS-IndustrySector-32 | naics:NAICS-IndustrySector-31 | 4 |
-| naics_NAICS-IndustrySector | naics_NAICS-IndustrySector | naics:NAICS-IndustrySector-32 | naics:NAICS-IndustrySector-31 | 4 |
-| naics_NAICS-IndustrySector | fio_Industry | naics:NAICS-IndustrySector-32 | naics:NAICS-IndustrySector-31 | 4 |
-| naics_NAICS-IndustrySector | owl_NamedIndividual | naics:NAICS-IndustrySector-32 | naics:NAICS-IndustrySector-31 | 4 |
-| owl_Thing | rdfs_Resource | rdf:ObjectProperty | rdf:ObjectProperty | 2 |
-| rdfs_Resource | owl_Thing | rdf:ObjectProperty | rdf:ObjectProperty | 2 |
-| rdfs_Resource | rdfs_Resource | rdf:ObjectProperty | rdf:ObjectProperty | 2 |
-| owl_Thing | rdf_List | rdf:nil | rdf:nil | 1 |
-| rdf_List | rdfs_Resource | rdf:nil | rdf:nil | 1 |
-| rdf_List | owl_Thing | rdf:nil | rdf:nil | 1 |
-| rdf_List | rdf_List | rdf:nil | rdf:nil | 1 |
-| rdfs_Resource | rdf_List | rdf:nil | rdf:nil | 1 |
-
+* No occurrences of this slot in the graph.
 
 
 
@@ -139,278 +140,102 @@ URI: [owl:sameAs](http://www.w3.org/2002/07/owl#sameAs)
 
 ```yaml
 name: owl_sameAs
-annotations:
-  count:
-    tag: count
-    value: 529
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-examples:
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: naics_NAICS-IndustryCode
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: naics_NAICS-IndustryCode
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: naics_NAICS-Industry
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: naics_NAICS-IndustryCode
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: owl_Thing
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: naics_NAICS-IndustryCode
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: fio_Industry
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: naics_NAICS-IndustryCode
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: owl_NamedIndividual
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: naics_NAICS-IndustryCode
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: naics_NAICS-IndustryCode
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: naics_NAICS-Industry
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: naics_NAICS-Industry
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: naics_NAICS-Industry
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: owl_Thing
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: naics_NAICS-Industry
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: fio_Industry
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: naics_NAICS-Industry
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: owl_NamedIndividual
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: naics_NAICS-Industry
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: naics_NAICS-IndustryCode
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: owl_Thing
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: naics_NAICS-Industry
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: owl_Thing
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: owl_Thing
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: owl_Thing
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: fio_Industry
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: owl_Thing
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: owl_NamedIndividual
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: owl_Thing
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: naics_NAICS-IndustryCode
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: fio_Industry
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: naics_NAICS-Industry
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: fio_Industry
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: owl_Thing
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: fio_Industry
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: fio_Industry
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: fio_Industry
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: owl_NamedIndividual
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: fio_Industry
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: naics_NAICS-IndustryCode
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: owl_NamedIndividual
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: naics_NAICS-Industry
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: owl_NamedIndividual
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: owl_Thing
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: owl_NamedIndividual
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: fio_Industry
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: owl_NamedIndividual
-- object:
-    example_object: naics:NAICS-IndustryCode-11111
-    example_object_type: owl_NamedIndividual
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustryCode-111110
-    example_subject_type: owl_NamedIndividual
-- object:
-    example_object: naics:NAICS-IndustrySector-31
-    example_object_type: naics_NAICS-IndustrySector
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustrySector-32
-    example_subject_type: fio_Industry
-- object:
-    example_object: naics:NAICS-IndustrySector-31
-    example_object_type: naics_NAICS-IndustrySector
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustrySector-32
-    example_subject_type: naics_NAICS-Industry
-- object:
-    example_object: naics:NAICS-IndustrySector-31
-    example_object_type: naics_NAICS-Industry
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustrySector-32
-    example_subject_type: naics_NAICS-IndustrySector
-- object:
-    example_object: naics:NAICS-IndustrySector-31
-    example_object_type: owl_Thing
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustrySector-32
-    example_subject_type: naics_NAICS-IndustrySector
-- object:
-    example_object: naics:NAICS-IndustrySector-31
-    example_object_type: naics_NAICS-IndustrySector
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustrySector-32
-    example_subject_type: naics_NAICS-IndustrySector
-- object:
-    example_object: naics:NAICS-IndustrySector-31
-    example_object_type: fio_Industry
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustrySector-32
-    example_subject_type: naics_NAICS-IndustrySector
-- object:
-    example_object: naics:NAICS-IndustrySector-31
-    example_object_type: owl_NamedIndividual
-    example_predicate: owl:sameAs
-    example_subject: naics:NAICS-IndustrySector-32
-    example_subject_type: naics_NAICS-IndustrySector
-- object:
-    example_object: rdf:ObjectProperty
-    example_object_type: rdfs_Resource
-    example_predicate: owl:sameAs
-    example_subject: rdf:ObjectProperty
-    example_subject_type: owl_Thing
-- object:
-    example_object: rdf:ObjectProperty
-    example_object_type: owl_Thing
-    example_predicate: owl:sameAs
-    example_subject: rdf:ObjectProperty
-    example_subject_type: rdfs_Resource
-- object:
-    example_object: rdf:ObjectProperty
-    example_object_type: rdfs_Resource
-    example_predicate: owl:sameAs
-    example_subject: rdf:ObjectProperty
-    example_subject_type: rdfs_Resource
-- object:
-    example_object: rdf:nil
-    example_object_type: rdf_List
-    example_predicate: owl:sameAs
-    example_subject: rdf:nil
-    example_subject_type: owl_Thing
-- object:
-    example_object: rdf:nil
-    example_object_type: rdfs_Resource
-    example_predicate: owl:sameAs
-    example_subject: rdf:nil
-    example_subject_type: rdf_List
-- object:
-    example_object: rdf:nil
-    example_object_type: owl_Thing
-    example_predicate: owl:sameAs
-    example_subject: rdf:nil
-    example_subject_type: rdf_List
-- object:
-    example_object: rdf:nil
-    example_object_type: rdf_List
-    example_predicate: owl:sameAs
-    example_subject: rdf:nil
-    example_subject_type: rdf_List
-- object:
-    example_object: rdf:nil
-    example_object_type: rdf_List
-    example_predicate: owl:sameAs
-    example_subject: rdf:nil
-    example_subject_type: rdfs_Resource
-from_schema: fio-kg
-rank: 1000
-domain: owl_sameAs
+description: The property that determines that two given individuals are equal.
+title: sameAs
+comments:
+- No occurrences of this slot in the graph.
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/2002/07/owl#
+domain: owl_Thing
 slot_uri: owl:sameAs
-alias: owl_sameAs
 domain_of:
+- __node359
+- __node499
+- __node501
+- __node502
+- __node506
+- __node507
+- __node508
+- __node510
+- __node512
+- __node513
+- __node515
+- __node517
+- __node518
+- __node519
+- __node521
+- __node523
+- fio-epa-frs_Agency
+- fio-epa-frs_Agency.Agriculture
+- fio-epa-frs_Agency.Commerce
+- fio-epa-frs_Agency.Congress
+- fio-epa-frs_Agency.Defense
+- fio-epa-frs_Agency.Energy
+- fio-epa-frs_Agency.HealthandHumanServices
+- fio-epa-frs_Agency.HomelandSecurity
+- fio-epa-frs_Agency.HousingandUrbanDevelopment
+- fio-epa-frs_Agency.Interior
+- fio-epa-frs_Agency.Judicial
+- fio-epa-frs_Agency.Justice
+- fio-epa-frs_Agency.Labor
+- fio-epa-frs_Agency.State
+- fio-epa-frs_Agency.Transportation
+- fio-epa-frs_Agency.Treasury
+- fio-epa-frs_Agency.VeteransAffairs
+- fio-epa-frs_AirProgram
+- fio-epa-frs_AnimalOperation
+- fio-epa-frs_AssistanceSupportProgram
+- fio-epa-frs_ChemicalReleaseProgram
+- fio-epa-frs_ChemicalStorageProgram
+- fio-epa-frs_CoastalOceanProgram
+- fio-epa-frs_ComplianceInterest
+- fio-epa-frs_ComplianceSystem
+- fio-epa-frs_DrinkingWaterProgram
+- fio-epa-frs_EPA-PFAS-Facility
+- fio-epa-frs_EcologyOperation
+- fio-epa-frs_ElectronicPermitSystem
+- fio-epa-frs_EnforcementInterest
+- fio-epa-frs_EnforcementSystem
+- fio-epa-frs_EnvironmentalInterestByProgram
+- fio-epa-frs_EnvironmentalInterestType
+- fio-epa-frs_FRS-Facility
+- fio-epa-frs_FacilitySiteIdentification
+- fio-epa-frs_FacilityType
+- fio-epa-frs_GrantSystem
+- fio-epa-frs_GroundWaterProgram
+- fio-epa-frs_HazardousWasteProgram
+- fio-epa-frs_HealthSafetyProgram
+- fio-epa-frs_LegacySystem
+- fio-epa-frs_LegalEnforcementActivities
+- fio-epa-frs_PermitInterest
+- fio-epa-frs_PermitSystem
+- fio-epa-frs_PesticidesProgram
+- fio-epa-frs_ProgramInformationSystem
+- fio-epa-frs_ProjectSystem
+- fio-epa-frs_RadiationProtectionProgram
+- fio-epa-frs_Record
+- fio-epa-frs_RegistryInterest
+- fio-epa-frs_RegistrySystem
+- fio-epa-frs_RemediationRedevelopmentProgram
+- fio-epa-frs_ReportingInterest
+- fio-epa-frs_ReportingSystem
+- fio-epa-frs_RiskInterest
+- fio-epa-frs_SiteInterest
+- fio-epa-frs_SiteSystem
+- fio-epa-frs_SolidWasteProgram
+- fio-epa-frs_StateSystem
+- fio-epa-frs_SupplementalRecord
+- fio-epa-frs_TribalSystem
+- fio-epa-frs_UndergroundStorageTankProgram
+- fio-epa-frs_WasteWaterProgram
+- fio-epa-frs_WaterResourcesProgram
 - fio_Industry
-- naics_NAICS-Industry
+- kwgo_S2Cell_Level13
 - naics_NAICS-IndustryCode
+- naics_NAICS-IndustryGroup
 - naics_NAICS-IndustrySector
-- owl_NamedIndividual
-- owl_Thing
-- rdf_List
-- rdfs_Resource
-range: Any
-any_of:
-- range: fio_Industry
-- range: owl_Thing
-- range: uri
-- range: naics_NAICS-IndustryCode
-- range: rdfs_Resource
-- range: rdf_List
-- range: naics_NAICS-Industry
-- range: naics_NAICS-IndustrySector
-- range: owl_NamedIndividual
+- naics_NAICS-IndustrySubsector
+range: owl_Thing
 
 ```
 </details>

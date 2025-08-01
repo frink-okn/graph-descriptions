@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (xsd_token)
-
-
-_No class (type) description specified_
+# Class: XsdToken
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [xsd:token](http://www.w3.org/2001/XMLSchema#token)
@@ -35,8 +28,9 @@ URI: [xsd:token](http://www.w3.org/2001/XMLSchema#token)
 
 
 ## Inheritance
-* [RdfsLiteral](../classes/RdfsLiteral.md)
-    * **XsdToken**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsLiteral](../classes/RdfsLiteral.md)
+        * **XsdToken**
 
 
 
@@ -68,14 +62,9 @@ URI: [xsd:token](http://www.w3.org/2001/XMLSchema#token)
 
 ```yaml
 name: xsd_token
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: fio-kg
+from_schema: okns:fiokg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#token
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:token
@@ -89,14 +78,9 @@ class_uri: xsd:token
 
 ```yaml
 name: xsd_token
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: fio-kg
+from_schema: okns:fiokg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#token
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:token

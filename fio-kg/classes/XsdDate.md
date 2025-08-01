@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (xsd_date)
-
-
-_No class (type) description specified_
+# Class: XsdDate
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [xsd:date](http://www.w3.org/2001/XMLSchema#date)
@@ -61,14 +54,9 @@ URI: [xsd:date](http://www.w3.org/2001/XMLSchema#date)
 
 ```yaml
 name: xsd_date
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: fio-kg
+from_schema: okns:fiokg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#date
 rank: 1000
 class_uri: xsd:date
 
@@ -81,14 +69,9 @@ class_uri: xsd:date
 
 ```yaml
 name: xsd_date
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: fio-kg
+from_schema: okns:fiokg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#date
 rank: 1000
 class_uri: xsd:date
 

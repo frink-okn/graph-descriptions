@@ -1,16 +1,16 @@
 
 
-# Slot: No slot (predicate) name specified (geo_asWKT)
+# Slot: geo_asWKT
 
 
-_No slot (predicate) description specified_
-
-
-
+_The WKT serialization of a Geometry_
 
 
 
-This slot occurs 210390 times.
+
+
+
+This slot occurs 458427 times.
 
 
 URI: [geo:asWKT](http://www.opengis.net/ont/geosparql#asWKT)
@@ -28,19 +28,21 @@ URI: [geo:asWKT](http://www.opengis.net/ont/geosparql#asWKT)
 
 ## Properties
 
-* Range: [GeoWktLiteral](../classes/GeoWktLiteral.md)
+* Range: [GeoWktLiteral](../types/GeoWktLiteral.md)
 
 
 
 
 
+## Comments
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| None | geo_wktLiteral | usfrsdata:d.FRS-Facility-Geometry.110000314204 | POINT (-70.72914 43.30808) | 210390 |
-
+* source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/geometry-as-wkt-literal
+* source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/geometry-as-wkt-literal
+* source: http://www.opengis.net/ont/geosparql#
+* source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/geometry-as-wkt-literal
+* source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/geometry-as-wkt-literal
+* description: The WKT serialization of a Geometry
+* No occurrences of this slot in the graph.
 
 
 
@@ -50,26 +52,20 @@ URI: [geo:asWKT](http://www.opengis.net/ont/geosparql#asWKT)
 
 ```yaml
 name: geo_asWKT
-annotations:
-  count:
-    tag: count
-    value: 210390
-  geo_wktLiteral:
-    tag: geo_wktLiteral
-    value: 210390
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-examples:
-- object:
-    example_object: POINT (-70.72914 43.30808)
-    example_object_type: geo_wktLiteral
-    example_predicate: geo:asWKT
-    example_subject: usfrsdata:d.FRS-Facility-Geometry.110000314204
-    example_subject_type: None
-from_schema: fio-kg
-rank: 1000
+description: The WKT serialization of a Geometry
+comments:
+- 'source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/geometry-as-wkt-literal'
+- 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/geometry-as-wkt-literal'
+- 'source: http://www.opengis.net/ont/geosparql#'
+- 'source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/geometry-as-wkt-literal'
+- 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/geometry-as-wkt-literal'
+- 'description: The WKT serialization of a Geometry'
+- No occurrences of this slot in the graph.
+from_schema: okns:geo
+source: http://www.opengis.net/ont/geosparql#
+domain: geo_Geometry
 slot_uri: geo:asWKT
-alias: geo_asWKT
+subproperty_of: geo_hasSerialization
 range: geo_wktLiteral
 
 ```

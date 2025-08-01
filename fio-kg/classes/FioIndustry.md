@@ -1,19 +1,19 @@
 
 
-# Class: No class (type) name specified (fio_Industry)
+# Class: Industry (fio_Industry)
 
 
-_No class (type) description specified_
-
-
-
+_A distinct group of productive or profit-making enterprises._
 
 
 
-This class occurs 2129 times.
 
 
-URI: [fio:Industry](http://sawgraph.spatialai.org/v1/fio#Industry)
+
+This class occurs 736 times.
+
+
+URI: [fio:Industry](http://w3id.org/fio/v1/fio#Industry)
 
 
 
@@ -24,43 +24,16 @@ URI: [fio:Industry](http://sawgraph.spatialai.org/v1/fio#Industry)
  classDiagram
     class FioIndustry
     click FioIndustry href "../FioIndustry"
-      FioIndustry <|-- NaicsNAICS-Industry
-        click NaicsNAICS-Industry href "../NaicsNAICS-Industry"
+      OwlThing <|-- FioIndustry
+        click OwlThing href "../OwlThing"
       
-      FioIndustry : fio_ofYear
-        
-          
-    
-    
-    FioIndustry --> "0..1" XsdGYear : fio_ofYear
-    click XsdGYear href "../XsdGYear"
-
-        
-      FioIndustry : fio_subcodeOf
-        
-          
-    
-    
-    FioIndustry --> "0..1" Any : fio_subcodeOf
-    click Any href "../Any"
-
-        
       FioIndustry : owl_sameAs
         
           
     
     
-    FioIndustry --> "0..1" Any : owl_sameAs
-    click Any href "../Any"
-
-        
-      FioIndustry : rdfs_label
-        
-          
-    
-    
-    FioIndustry --> "0..1" Any : rdfs_label
-    click Any href "../Any"
+    FioIndustry --> "0..1" OwlThing : owl_sameAs
+    click OwlThing href "../OwlThing"
 
         
       
@@ -71,8 +44,8 @@ URI: [fio:Industry](http://sawgraph.spatialai.org/v1/fio#Industry)
 
 
 ## Inheritance
-* **FioIndustry**
-    * [NaicsNAICS-Industry](../classes/NaicsNAICS-Industry.md)
+* [OwlThing](../classes/OwlThing.md)
+    * **FioIndustry**
 
 
 
@@ -80,10 +53,7 @@ URI: [fio:Industry](http://sawgraph.spatialai.org/v1/fio#Industry)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 2129 |
-| [fio_ofYear](../slots/fio_ofYear.md) | 0..1 <br/> [XsdGYear](../classes/XsdGYear.md) | No slot (predicate) description specified <br/>  | direct | 2125 |
-| [fio_subcodeOf](../slots/fio_subcodeOf.md) | 0..1 <br/> [NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md)&nbsp;or&nbsp;<br />[FioIndustry](../classes/FioIndustry.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[NaicsNAICS-IndustryGroup](../classes/NaicsNAICS-IndustryGroup.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[NaicsNAICS-Industry](../classes/NaicsNAICS-Industry.md)&nbsp;or&nbsp;<br />[NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md)&nbsp;or&nbsp;<br />[OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No slot (predicate) description specified <br/>  | direct | 27909 |
-| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [FioIndustry](../classes/FioIndustry.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[NaicsNAICS-IndustryCode](../classes/NaicsNAICS-IndustryCode.md)&nbsp;or&nbsp;<br />[RdfsResource](../classes/RdfsResource.md)&nbsp;or&nbsp;<br />[RdfList](../classes/RdfList.md)&nbsp;or&nbsp;<br />[NaicsNAICS-Industry](../classes/NaicsNAICS-Industry.md)&nbsp;or&nbsp;<br />[NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md)&nbsp;or&nbsp;<br />[OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No slot (predicate) description specified <br/>  | direct | 2635 |
+| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/> No occurrences of this slot in the graph. | direct | 736 |
 
 
 
@@ -93,408 +63,48 @@ URI: [fio:Industry](http://sawgraph.spatialai.org/v1/fio#Industry)
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [B1](../classes/B1.md) | [usfrs_cwaIndustry](../slots/usfrs_cwaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_air_Industry](../slots/usfrs_air_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_icis_Industry](../slots/usfrs_icis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_eps_Industry](../slots/usfrs_eps_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_caaIndustry](../slots/usfrs_caaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_primaryIndustry](../slots/usfrs_primaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_nj_njems_Industry](../slots/usfrs_nj_njems_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_e_ggrt_Industry](../slots/usfrs_e_ggrt_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_me_efis_Industry](../slots/usfrs_me_efis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_airs_afs_Industry](../slots/usfrs_airs_afs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_cedri_Industry](../slots/usfrs_cedri_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_rcrainfo_Industry](../slots/usfrs_rcrainfo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_secondaryIndustry](../slots/usfrs_secondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_eia_860_Industry](../slots/usfrs_eia_860_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_rmp_Industry](../slots/usfrs_rmp_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_eis_Industry](../slots/usfrs_eis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_camdbs_Industry](../slots/usfrs_camdbs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_osha_ois_Industry](../slots/usfrs_osha_ois_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_stateIndustry](../slots/usfrs_stateIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_aces_Industry](../slots/usfrs_aces_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_npdes_Industry](../slots/usfrs_npdes_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_epcraIndustry](../slots/usfrs_epcraIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_tris_Industry](../slots/usfrs_tris_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [B1](../classes/B1.md) | [usfrs_mn_tempo_Industry](../slots/usfrs_mn_tempo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_cwaIndustry](../slots/usfrs_cwaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_air_Industry](../slots/usfrs_air_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_icis_Industry](../slots/usfrs_icis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_eps_Industry](../slots/usfrs_eps_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_caaIndustry](../slots/usfrs_caaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_primaryIndustry](../slots/usfrs_primaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_nj_njems_Industry](../slots/usfrs_nj_njems_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_e_ggrt_Industry](../slots/usfrs_e_ggrt_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_me_efis_Industry](../slots/usfrs_me_efis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_airs_afs_Industry](../slots/usfrs_airs_afs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_cedri_Industry](../slots/usfrs_cedri_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_rcrainfo_Industry](../slots/usfrs_rcrainfo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_secondaryIndustry](../slots/usfrs_secondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_eia_860_Industry](../slots/usfrs_eia_860_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_rmp_Industry](../slots/usfrs_rmp_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_eis_Industry](../slots/usfrs_eis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_camdbs_Industry](../slots/usfrs_camdbs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_osha_ois_Industry](../slots/usfrs_osha_ois_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_stateIndustry](../slots/usfrs_stateIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_aces_Industry](../slots/usfrs_aces_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_npdes_Industry](../slots/usfrs_npdes_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_epcraIndustry](../slots/usfrs_epcraIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_tris_Industry](../slots/usfrs_tris_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioFacility](../classes/FioFacility.md) | [usfrs_mn_tempo_Industry](../slots/usfrs_mn_tempo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioIndustry](../classes/FioIndustry.md) | [fio_subcodeOf](../slots/fio_subcodeOf.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [FioIndustry](../classes/FioIndustry.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [NaicsNAICS-Industry](../classes/NaicsNAICS-Industry.md) | [fio_subcodeOf](../slots/fio_subcodeOf.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [NaicsNAICS-Industry](../classes/NaicsNAICS-Industry.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node359](../classes/Node359.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node359](../classes/Node359.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node359](../classes/Node359.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node499](../classes/Node499.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node499](../classes/Node499.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node499](../classes/Node499.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node501](../classes/Node501.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node501](../classes/Node501.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node501](../classes/Node501.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node502](../classes/Node502.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node502](../classes/Node502.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node506](../classes/Node506.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node506](../classes/Node506.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node510](../classes/Node510.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node510](../classes/Node510.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node510](../classes/Node510.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node512](../classes/Node512.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node512](../classes/Node512.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node512](../classes/Node512.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node513](../classes/Node513.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node513](../classes/Node513.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node513](../classes/Node513.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node515](../classes/Node515.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node515](../classes/Node515.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node517](../classes/Node517.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node517](../classes/Node517.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node517](../classes/Node517.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node518](../classes/Node518.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node518](../classes/Node518.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Node518](../classes/Node518.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
 | [NaicsNAICS-IndustryCode](../classes/NaicsNAICS-IndustryCode.md) | [fio_subcodeOf](../slots/fio_subcodeOf.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [NaicsNAICS-IndustryCode](../classes/NaicsNAICS-IndustryCode.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
 | [NaicsNAICS-IndustryGroup](../classes/NaicsNAICS-IndustryGroup.md) | [fio_subcodeOf](../slots/fio_subcodeOf.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [NaicsNAICS-IndustryGroup](../classes/NaicsNAICS-IndustryGroup.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md) | [fio_subcodeOf](../slots/fio_subcodeOf.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
 | [NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md) | [fio_subcodeOf](../slots/fio_subcodeOf.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [OwlAllDifferent](../classes/OwlAllDifferent.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [OwlAllDisjointClasses](../classes/OwlAllDisjointClasses.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [OwlAllDisjointProperties](../classes/OwlAllDisjointProperties.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [OwlAnnotation](../classes/OwlAnnotation.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [OwlAxiom](../classes/OwlAxiom.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | [fio_subcodeOf](../slots/fio_subcodeOf.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [OwlNegativePropertyAssertion](../classes/OwlNegativePropertyAssertion.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [OwlNothing](../classes/OwlNothing.md) | [fio_subcodeOf](../slots/fio_subcodeOf.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [OwlNothing](../classes/OwlNothing.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [OwlOntology](../classes/OwlOntology.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [OwlThing](../classes/OwlThing.md) | [fio_subcodeOf](../slots/fio_subcodeOf.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [OwlThing](../classes/OwlThing.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [RdfList](../classes/RdfList.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [RdfsResource](../classes/RdfsResource.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_air_Industry](../slots/usfrs_air_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_icis_Industry](../slots/usfrs_icis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_caaIndustry](../slots/usfrs_caaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_primaryIndustry](../slots/usfrs_primaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_airs_afs_Industry](../slots/usfrs_airs_afs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_rcrainfo_Industry](../slots/usfrs_rcrainfo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_secondaryIndustry](../slots/usfrs_secondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_epcraIndustry](../slots/usfrs_epcraIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_tris_Industry](../slots/usfrs_tris_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_cwaIndustry](../slots/usfrs_cwaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_eps_Industry](../slots/usfrs_eps_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_nj_njems_Industry](../slots/usfrs_nj_njems_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_e_ggrt_Industry](../slots/usfrs_e_ggrt_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_me_efis_Industry](../slots/usfrs_me_efis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_cedri_Industry](../slots/usfrs_cedri_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_eia_860_Industry](../slots/usfrs_eia_860_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_rmp_Industry](../slots/usfrs_rmp_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_eis_Industry](../slots/usfrs_eis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_camdbs_Industry](../slots/usfrs_camdbs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_osha_ois_Industry](../slots/usfrs_osha_ois_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_stateIndustry](../slots/usfrs_stateIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_aces_Industry](../slots/usfrs_aces_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_npdes_Industry](../slots/usfrs_npdes_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBarge-Facility](../classes/UsfrsBarge-Facility.md) | [usfrs_mn_tempo_Industry](../slots/usfrs_mn_tempo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_cwaIndustry](../slots/usfrs_cwaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_air_Industry](../slots/usfrs_air_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_icis_Industry](../slots/usfrs_icis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_caaIndustry](../slots/usfrs_caaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_primaryIndustry](../slots/usfrs_primaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_me_efis_Industry](../slots/usfrs_me_efis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_airs_afs_Industry](../slots/usfrs_airs_afs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_rcrainfo_Industry](../slots/usfrs_rcrainfo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_secondaryIndustry](../slots/usfrs_secondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_eis_Industry](../slots/usfrs_eis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_camdbs_Industry](../slots/usfrs_camdbs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_osha_ois_Industry](../slots/usfrs_osha_ois_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_stateIndustry](../slots/usfrs_stateIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_npdes_Industry](../slots/usfrs_npdes_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_epcraIndustry](../slots/usfrs_epcraIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_tris_Industry](../slots/usfrs_tris_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_eps_Industry](../slots/usfrs_eps_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_nj_njems_Industry](../slots/usfrs_nj_njems_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_e_ggrt_Industry](../slots/usfrs_e_ggrt_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_cedri_Industry](../slots/usfrs_cedri_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_eia_860_Industry](../slots/usfrs_eia_860_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_rmp_Industry](../slots/usfrs_rmp_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_aces_Industry](../slots/usfrs_aces_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsBrownfieldsSite-Facility](../classes/UsfrsBrownfieldsSite-Facility.md) | [usfrs_mn_tempo_Industry](../slots/usfrs_mn_tempo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_cwaIndustry](../slots/usfrs_cwaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_air_Industry](../slots/usfrs_air_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_icis_Industry](../slots/usfrs_icis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_caaIndustry](../slots/usfrs_caaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_primaryIndustry](../slots/usfrs_primaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_me_efis_Industry](../slots/usfrs_me_efis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_airs_afs_Industry](../slots/usfrs_airs_afs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_rcrainfo_Industry](../slots/usfrs_rcrainfo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_secondaryIndustry](../slots/usfrs_secondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_osha_ois_Industry](../slots/usfrs_osha_ois_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_stateIndustry](../slots/usfrs_stateIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_npdes_Industry](../slots/usfrs_npdes_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_eps_Industry](../slots/usfrs_eps_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_nj_njems_Industry](../slots/usfrs_nj_njems_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_e_ggrt_Industry](../slots/usfrs_e_ggrt_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_cedri_Industry](../slots/usfrs_cedri_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_eia_860_Industry](../slots/usfrs_eia_860_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_rmp_Industry](../slots/usfrs_rmp_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_eis_Industry](../slots/usfrs_eis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_camdbs_Industry](../slots/usfrs_camdbs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_aces_Industry](../slots/usfrs_aces_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_epcraIndustry](../slots/usfrs_epcraIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_tris_Industry](../slots/usfrs_tris_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminatedSite-Facility](../classes/UsfrsContaminatedSite-Facility.md) | [usfrs_mn_tempo_Industry](../slots/usfrs_mn_tempo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_cwaIndustry](../slots/usfrs_cwaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_air_Industry](../slots/usfrs_air_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_icis_Industry](../slots/usfrs_icis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_eps_Industry](../slots/usfrs_eps_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_caaIndustry](../slots/usfrs_caaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_primaryIndustry](../slots/usfrs_primaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_nj_njems_Industry](../slots/usfrs_nj_njems_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_e_ggrt_Industry](../slots/usfrs_e_ggrt_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_me_efis_Industry](../slots/usfrs_me_efis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_airs_afs_Industry](../slots/usfrs_airs_afs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_cedri_Industry](../slots/usfrs_cedri_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_rcrainfo_Industry](../slots/usfrs_rcrainfo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_secondaryIndustry](../slots/usfrs_secondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_eia_860_Industry](../slots/usfrs_eia_860_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_rmp_Industry](../slots/usfrs_rmp_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_eis_Industry](../slots/usfrs_eis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_camdbs_Industry](../slots/usfrs_camdbs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_osha_ois_Industry](../slots/usfrs_osha_ois_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_stateIndustry](../slots/usfrs_stateIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_aces_Industry](../slots/usfrs_aces_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_npdes_Industry](../slots/usfrs_npdes_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_epcraIndustry](../slots/usfrs_epcraIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_tris_Industry](../slots/usfrs_tris_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsContaminationAddressed-Facility](../classes/UsfrsContaminationAddressed-Facility.md) | [usfrs_mn_tempo_Industry](../slots/usfrs_mn_tempo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_cwaIndustry](../slots/usfrs_cwaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_air_Industry](../slots/usfrs_air_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_icis_Industry](../slots/usfrs_icis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_eps_Industry](../slots/usfrs_eps_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_caaIndustry](../slots/usfrs_caaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_primaryIndustry](../slots/usfrs_primaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_e_ggrt_Industry](../slots/usfrs_e_ggrt_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_me_efis_Industry](../slots/usfrs_me_efis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_airs_afs_Industry](../slots/usfrs_airs_afs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_cedri_Industry](../slots/usfrs_cedri_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_rcrainfo_Industry](../slots/usfrs_rcrainfo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_secondaryIndustry](../slots/usfrs_secondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_eia_860_Industry](../slots/usfrs_eia_860_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_rmp_Industry](../slots/usfrs_rmp_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_eis_Industry](../slots/usfrs_eis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_camdbs_Industry](../slots/usfrs_camdbs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_osha_ois_Industry](../slots/usfrs_osha_ois_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_stateIndustry](../slots/usfrs_stateIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_aces_Industry](../slots/usfrs_aces_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_npdes_Industry](../slots/usfrs_npdes_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_epcraIndustry](../slots/usfrs_epcraIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_tris_Industry](../slots/usfrs_tris_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_mn_tempo_Industry](../slots/usfrs_mn_tempo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsEPA-PFAS-Facility](../classes/UsfrsEPA-PFAS-Facility.md) | [usfrs_nj_njems_Industry](../slots/usfrs_nj_njems_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_cwaIndustry](../slots/usfrs_cwaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_air_Industry](../slots/usfrs_air_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_icis_Industry](../slots/usfrs_icis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_eps_Industry](../slots/usfrs_eps_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_caaIndustry](../slots/usfrs_caaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_primaryIndustry](../slots/usfrs_primaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_nj_njems_Industry](../slots/usfrs_nj_njems_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_e_ggrt_Industry](../slots/usfrs_e_ggrt_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_me_efis_Industry](../slots/usfrs_me_efis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_airs_afs_Industry](../slots/usfrs_airs_afs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_cedri_Industry](../slots/usfrs_cedri_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_rcrainfo_Industry](../slots/usfrs_rcrainfo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_secondaryIndustry](../slots/usfrs_secondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_eia_860_Industry](../slots/usfrs_eia_860_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_rmp_Industry](../slots/usfrs_rmp_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_eis_Industry](../slots/usfrs_eis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_camdbs_Industry](../slots/usfrs_camdbs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_osha_ois_Industry](../slots/usfrs_osha_ois_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_stateIndustry](../slots/usfrs_stateIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_aces_Industry](../slots/usfrs_aces_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_npdes_Industry](../slots/usfrs_npdes_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_epcraIndustry](../slots/usfrs_epcraIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_tris_Industry](../slots/usfrs_tris_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFRS-Facility](../classes/UsfrsFRS-Facility.md) | [usfrs_mn_tempo_Industry](../slots/usfrs_mn_tempo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_cwaIndustry](../slots/usfrs_cwaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_air_Industry](../slots/usfrs_air_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_icis_Industry](../slots/usfrs_icis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_eps_Industry](../slots/usfrs_eps_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_caaIndustry](../slots/usfrs_caaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_primaryIndustry](../slots/usfrs_primaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_e_ggrt_Industry](../slots/usfrs_e_ggrt_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_me_efis_Industry](../slots/usfrs_me_efis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_airs_afs_Industry](../slots/usfrs_airs_afs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_rcrainfo_Industry](../slots/usfrs_rcrainfo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_secondaryIndustry](../slots/usfrs_secondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_rmp_Industry](../slots/usfrs_rmp_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_eis_Industry](../slots/usfrs_eis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_camdbs_Industry](../slots/usfrs_camdbs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_osha_ois_Industry](../slots/usfrs_osha_ois_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_stateIndustry](../slots/usfrs_stateIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_aces_Industry](../slots/usfrs_aces_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_npdes_Industry](../slots/usfrs_npdes_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_epcraIndustry](../slots/usfrs_epcraIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_tris_Industry](../slots/usfrs_tris_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_nj_njems_Industry](../slots/usfrs_nj_njems_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_cedri_Industry](../slots/usfrs_cedri_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_eia_860_Industry](../slots/usfrs_eia_860_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsFederal-Facility](../classes/UsfrsFederal-Facility.md) | [usfrs_mn_tempo_Industry](../slots/usfrs_mn_tempo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_cwaIndustry](../slots/usfrs_cwaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_air_Industry](../slots/usfrs_air_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_icis_Industry](../slots/usfrs_icis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_caaIndustry](../slots/usfrs_caaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_primaryIndustry](../slots/usfrs_primaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_me_efis_Industry](../slots/usfrs_me_efis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_airs_afs_Industry](../slots/usfrs_airs_afs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_rcrainfo_Industry](../slots/usfrs_rcrainfo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_secondaryIndustry](../slots/usfrs_secondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_rmp_Industry](../slots/usfrs_rmp_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_eis_Industry](../slots/usfrs_eis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_stateIndustry](../slots/usfrs_stateIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_npdes_Industry](../slots/usfrs_npdes_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_eps_Industry](../slots/usfrs_eps_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_nj_njems_Industry](../slots/usfrs_nj_njems_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_e_ggrt_Industry](../slots/usfrs_e_ggrt_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_cedri_Industry](../slots/usfrs_cedri_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_eia_860_Industry](../slots/usfrs_eia_860_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_camdbs_Industry](../slots/usfrs_camdbs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_osha_ois_Industry](../slots/usfrs_osha_ois_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_aces_Industry](../slots/usfrs_aces_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_epcraIndustry](../slots/usfrs_epcraIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_tris_Industry](../slots/usfrs_tris_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsMonitoringStation-Facility](../classes/UsfrsMonitoringStation-Facility.md) | [usfrs_mn_tempo_Industry](../slots/usfrs_mn_tempo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_cwaIndustry](../slots/usfrs_cwaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_air_Industry](../slots/usfrs_air_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_caaIndustry](../slots/usfrs_caaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_primaryIndustry](../slots/usfrs_primaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_me_efis_Industry](../slots/usfrs_me_efis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_airs_afs_Industry](../slots/usfrs_airs_afs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_eis_Industry](../slots/usfrs_eis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_stateIndustry](../slots/usfrs_stateIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_npdes_Industry](../slots/usfrs_npdes_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_icis_Industry](../slots/usfrs_icis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_eps_Industry](../slots/usfrs_eps_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_nj_njems_Industry](../slots/usfrs_nj_njems_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_e_ggrt_Industry](../slots/usfrs_e_ggrt_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_cedri_Industry](../slots/usfrs_cedri_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_rcrainfo_Industry](../slots/usfrs_rcrainfo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_secondaryIndustry](../slots/usfrs_secondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_eia_860_Industry](../slots/usfrs_eia_860_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_rmp_Industry](../slots/usfrs_rmp_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_camdbs_Industry](../slots/usfrs_camdbs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_osha_ois_Industry](../slots/usfrs_osha_ois_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_aces_Industry](../slots/usfrs_aces_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_epcraIndustry](../slots/usfrs_epcraIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_tris_Industry](../slots/usfrs_tris_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPortable-Facility](../classes/UsfrsPortable-Facility.md) | [usfrs_mn_tempo_Industry](../slots/usfrs_mn_tempo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_cwaIndustry](../slots/usfrs_cwaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_air_Industry](../slots/usfrs_air_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_icis_Industry](../slots/usfrs_icis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_caaIndustry](../slots/usfrs_caaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_primaryIndustry](../slots/usfrs_primaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_me_efis_Industry](../slots/usfrs_me_efis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_airs_afs_Industry](../slots/usfrs_airs_afs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_rcrainfo_Industry](../slots/usfrs_rcrainfo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_secondaryIndustry](../slots/usfrs_secondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_rmp_Industry](../slots/usfrs_rmp_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_eis_Industry](../slots/usfrs_eis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_osha_ois_Industry](../slots/usfrs_osha_ois_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_stateIndustry](../slots/usfrs_stateIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_npdes_Industry](../slots/usfrs_npdes_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_epcraIndustry](../slots/usfrs_epcraIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_tris_Industry](../slots/usfrs_tris_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_eps_Industry](../slots/usfrs_eps_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_nj_njems_Industry](../slots/usfrs_nj_njems_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_e_ggrt_Industry](../slots/usfrs_e_ggrt_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_cedri_Industry](../slots/usfrs_cedri_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_eia_860_Industry](../slots/usfrs_eia_860_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_camdbs_Industry](../slots/usfrs_camdbs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_aces_Industry](../slots/usfrs_aces_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsPotentiallyContaminatedSite-Facility](../classes/UsfrsPotentiallyContaminatedSite-Facility.md) | [usfrs_mn_tempo_Industry](../slots/usfrs_mn_tempo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_cwaIndustry](../slots/usfrs_cwaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_air_Industry](../slots/usfrs_air_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_icis_Industry](../slots/usfrs_icis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_eps_Industry](../slots/usfrs_eps_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_caaIndustry](../slots/usfrs_caaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_primaryIndustry](../slots/usfrs_primaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_nj_njems_Industry](../slots/usfrs_nj_njems_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_e_ggrt_Industry](../slots/usfrs_e_ggrt_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_me_efis_Industry](../slots/usfrs_me_efis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_airs_afs_Industry](../slots/usfrs_airs_afs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_cedri_Industry](../slots/usfrs_cedri_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_rcrainfo_Industry](../slots/usfrs_rcrainfo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_secondaryIndustry](../slots/usfrs_secondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_eia_860_Industry](../slots/usfrs_eia_860_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_rmp_Industry](../slots/usfrs_rmp_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_eis_Industry](../slots/usfrs_eis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_camdbs_Industry](../slots/usfrs_camdbs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_osha_ois_Industry](../slots/usfrs_osha_ois_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_stateIndustry](../slots/usfrs_stateIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_aces_Industry](../slots/usfrs_aces_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_npdes_Industry](../slots/usfrs_npdes_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_epcraIndustry](../slots/usfrs_epcraIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_tris_Industry](../slots/usfrs_tris_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsStationary-Facility](../classes/UsfrsStationary-Facility.md) | [usfrs_mn_tempo_Industry](../slots/usfrs_mn_tempo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_cwaIndustry](../slots/usfrs_cwaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_npdes_Industry](../slots/usfrs_npdes_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_primaryIndustry](../slots/usfrs_primaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_air_Industry](../slots/usfrs_air_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_icis_Industry](../slots/usfrs_icis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_eps_Industry](../slots/usfrs_eps_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_caaIndustry](../slots/usfrs_caaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_nj_njems_Industry](../slots/usfrs_nj_njems_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_e_ggrt_Industry](../slots/usfrs_e_ggrt_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_me_efis_Industry](../slots/usfrs_me_efis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_airs_afs_Industry](../slots/usfrs_airs_afs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_cedri_Industry](../slots/usfrs_cedri_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_rcrainfo_Industry](../slots/usfrs_rcrainfo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_secondaryIndustry](../slots/usfrs_secondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_eia_860_Industry](../slots/usfrs_eia_860_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_rmp_Industry](../slots/usfrs_rmp_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_eis_Industry](../slots/usfrs_eis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_camdbs_Industry](../slots/usfrs_camdbs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_osha_ois_Industry](../slots/usfrs_osha_ois_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_stateIndustry](../slots/usfrs_stateIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_aces_Industry](../slots/usfrs_aces_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_epcraIndustry](../slots/usfrs_epcraIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_tris_Industry](../slots/usfrs_tris_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterSystem-Facility](../classes/UsfrsWaterSystem-Facility.md) | [usfrs_mn_tempo_Industry](../slots/usfrs_mn_tempo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_eis_Industry](../slots/usfrs_eis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_caaIndustry](../slots/usfrs_caaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_primaryIndustry](../slots/usfrs_primaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_cwaIndustry](../slots/usfrs_cwaIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_air_Industry](../slots/usfrs_air_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_icis_Industry](../slots/usfrs_icis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_eps_Industry](../slots/usfrs_eps_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_nj_njems_Industry](../slots/usfrs_nj_njems_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_e_ggrt_Industry](../slots/usfrs_e_ggrt_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_me_efis_Industry](../slots/usfrs_me_efis_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_airs_afs_Industry](../slots/usfrs_airs_afs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_cedri_Industry](../slots/usfrs_cedri_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_rcrainfo_Industry](../slots/usfrs_rcrainfo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_secondaryIndustry](../slots/usfrs_secondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_eia_860_Industry](../slots/usfrs_eia_860_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_rmp_Industry](../slots/usfrs_rmp_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_camdbs_Industry](../slots/usfrs_camdbs_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_osha_ois_Industry](../slots/usfrs_osha_ois_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_stateIndustry](../slots/usfrs_stateIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_aces_Industry](../slots/usfrs_aces_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_npdes_Industry](../slots/usfrs_npdes_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_epcraIndustry](../slots/usfrs_epcraIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_tris_Industry](../slots/usfrs_tris_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [UsfrsWaterfrontFacility-Facility](../classes/UsfrsWaterfrontFacility-Facility.md) | [usfrs_mn_tempo_Industry](../slots/usfrs_mn_tempo_Industry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
 
 
 
@@ -516,78 +126,15 @@ URI: [fio:Industry](http://sawgraph.spatialai.org/v1/fio#Industry)
 
 ```yaml
 name: fio_Industry
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 2129
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: fio-kg
+description: A distinct group of productive or profit-making enterprises.
+title: Industry
+from_schema: okns:fiokg
+exact_mappings:
+- http://w3id.org/fio/v1/fio#Industry
 rank: 1000
+is_a: owl_Thing
 slots:
-- rdfs_label
-- fio_ofYear
-- fio_subcodeOf
 - owl_sameAs
-slot_usage:
-  fio_ofYear:
-    name: fio_ofYear
-    annotations:
-      xsd_gYear:
-        tag: xsd_gYear
-        value: 2125
-  fio_subcodeOf:
-    name: fio_subcodeOf
-    annotations:
-      fio_Industry:
-        tag: fio_Industry
-        value: 5815
-      naics_NAICS-Industry:
-        tag: naics_NAICS-Industry
-        value: 5815
-      naics_NAICS-IndustryGroup:
-        tag: naics_NAICS-IndustryGroup
-        value: 1701
-      naics_NAICS-IndustrySector:
-        tag: naics_NAICS-IndustrySector
-        value: 2105
-      naics_NAICS-IndustrySubsector:
-        tag: naics_NAICS-IndustrySubsector
-        value: 2009
-      owl_NamedIndividual:
-        tag: owl_NamedIndividual
-        value: 5232
-      owl_Thing:
-        tag: owl_Thing
-        value: 5232
-  owl_sameAs:
-    name: owl_sameAs
-    annotations:
-      fio_Industry:
-        tag: fio_Industry
-        value: 527
-      naics_NAICS-Industry:
-        tag: naics_NAICS-Industry
-        value: 527
-      naics_NAICS-IndustryCode:
-        tag: naics_NAICS-IndustryCode
-        value: 523
-      naics_NAICS-IndustrySector:
-        tag: naics_NAICS-IndustrySector
-        value: 4
-      owl_NamedIndividual:
-        tag: owl_NamedIndividual
-        value: 527
-      owl_Thing:
-        tag: owl_Thing
-        value: 527
-  rdfs_label:
-    name: rdfs_label
-    annotations:
-      string:
-        tag: string
-        value: 2129
 class_uri: fio:Industry
 
 ```
@@ -599,958 +146,114 @@ class_uri: fio:Industry
 
 ```yaml
 name: fio_Industry
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 2129
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: fio-kg
+description: A distinct group of productive or profit-making enterprises.
+title: Industry
+from_schema: okns:fiokg
+exact_mappings:
+- http://w3id.org/fio/v1/fio#Industry
 rank: 1000
-slot_usage:
-  fio_ofYear:
-    name: fio_ofYear
-    annotations:
-      xsd_gYear:
-        tag: xsd_gYear
-        value: 2125
-  fio_subcodeOf:
-    name: fio_subcodeOf
-    annotations:
-      fio_Industry:
-        tag: fio_Industry
-        value: 5815
-      naics_NAICS-Industry:
-        tag: naics_NAICS-Industry
-        value: 5815
-      naics_NAICS-IndustryGroup:
-        tag: naics_NAICS-IndustryGroup
-        value: 1701
-      naics_NAICS-IndustrySector:
-        tag: naics_NAICS-IndustrySector
-        value: 2105
-      naics_NAICS-IndustrySubsector:
-        tag: naics_NAICS-IndustrySubsector
-        value: 2009
-      owl_NamedIndividual:
-        tag: owl_NamedIndividual
-        value: 5232
-      owl_Thing:
-        tag: owl_Thing
-        value: 5232
-  owl_sameAs:
-    name: owl_sameAs
-    annotations:
-      fio_Industry:
-        tag: fio_Industry
-        value: 527
-      naics_NAICS-Industry:
-        tag: naics_NAICS-Industry
-        value: 527
-      naics_NAICS-IndustryCode:
-        tag: naics_NAICS-IndustryCode
-        value: 523
-      naics_NAICS-IndustrySector:
-        tag: naics_NAICS-IndustrySector
-        value: 4
-      owl_NamedIndividual:
-        tag: owl_NamedIndividual
-        value: 527
-      owl_Thing:
-        tag: owl_Thing
-        value: 527
-  rdfs_label:
-    name: rdfs_label
-    annotations:
-      string:
-        tag: string
-        value: 2129
+is_a: owl_Thing
 attributes:
-  rdfs_label:
-    name: rdfs_label
-    annotations:
-      string:
-        tag: string
-        value: 2129
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: 'Agriculture: Agricultural Research Service'
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: fio:d.Agency.C1017
-        example_subject_type: prov_Organization
-    - object:
-        example_object: 'Agriculture: Agricultural Research Service'
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: fio:d.Agency.C1017
-        example_subject_type: fio_Agency
-    - object:
-        example_object: Soybean Farming
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: naics_NAICS-IndustryCode
-    - object:
-        example_object: Soybean Farming
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: naics_NAICS-Industry
-    - object:
-        example_object: Soybean Farming
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: owl_Thing
-    - object:
-        example_object: Soybean Farming
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: fio_Industry
-    - object:
-        example_object: Soybean Farming
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: owl_NamedIndividual
-    - object:
-        example_object: Oilseed and Grain Farming
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: naics:NAICS-IndustryGroup-1111
-        example_subject_type: naics_NAICS-IndustryGroup
-    - object:
-        example_object: Agriculture, Forestry, Fishing and Hunting
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: naics:NAICS-IndustrySector-11
-        example_subject_type: naics_NAICS-IndustrySector
-    - object:
-        example_object: Crop Production
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: naics:NAICS-IndustrySubsector-111
-        example_subject_type: naics_NAICS-IndustrySubsector
-    - object:
-        example_object: PRATT & WHITNEY
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: usfrsdata:d.FRS-Facility.110000314204
-        example_subject_type: usfrs_Stationary-Facility
-    - object:
-        example_object: PRATT & WHITNEY
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: usfrsdata:d.FRS-Facility.110000314204
-        example_subject_type: usfrs_FRS-Facility
-    - object:
-        example_object: PRATT & WHITNEY
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: usfrsdata:d.FRS-Facility.110000314204
-        example_subject_type: fio_Facility
-    - object:
-        example_object: PRATT & WHITNEY
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: usfrsdata:d.FRS-Facility.110000314204
-        example_subject_type: __b1
-    - object:
-        example_object: COOPER WIRING DEVICES
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: usfrsdata:d.FRS-Facility.110000314222
-        example_subject_type: usfrs_EPA-PFAS-Facility
-    - object:
-        example_object: NASA JOHN H. GLENN RESEARCH CENTER - LEWIS FIELD
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: usfrsdata:d.FRS-Facility.110000387714
-        example_subject_type: usfrs_Federal-Facility
-    - object:
-        example_object: BEHR DAYTON THERMAL SYSTEM VOC PLUME
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: usfrsdata:d.FRS-Facility.110000394635
-        example_subject_type: usfrs_ContaminatedSite-Facility
-    - object:
-        example_object: NALCO CHEMICAL COMPANY
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: usfrsdata:d.FRS-Facility.110000888585
-        example_subject_type: usfrs_PotentiallyContaminatedSite-Facility
-    - object:
-        example_object: BEALL MANUFACTURING
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: usfrsdata:d.FRS-Facility.110001347490
-        example_subject_type: usfrs_BrownfieldsSite-Facility
-    - object:
-        example_object: DAYSPRING ASSISTED LIVING AND CARE
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: usfrsdata:d.FRS-Facility.110006216415
-        example_subject_type: usfrs_WaterSystem-Facility
-    - object:
-        example_object: BOWERS LANDFILL
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: usfrsdata:d.FRS-Facility.110009304485
-        example_subject_type: usfrs_ContaminationAddressed-Facility
-    - object:
-        example_object: RETRIEV TECHNOLOGIES INC
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: usfrsdata:d.FRS-Facility.110009668243
-        example_subject_type: usfrs_Barge-Facility
-    - object:
-        example_object: REGIONAL OFFICE BUILDING
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: usfrsdata:d.FRS-Facility.110020787013
-        example_subject_type: usfrs_MonitoringStation-Facility
-    - object:
-        example_object: DOUG GOTT & SONS, INC.
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: usfrsdata:d.FRS-Facility.110046118330
-        example_subject_type: usfrs_Portable-Facility
-    - object:
-        example_object: AGRIUM TERMINAL
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: usfrsdata:d.FRS-Facility.110063004323
-        example_subject_type: usfrs_WaterfrontFacility-Facility
-    from_schema: fio-kg
-    rank: 1000
-    domain: rdfs_label
-    slot_uri: rdfs:label
-    alias: rdfs_label
-    owner: fio_Industry
-    domain_of:
-    - __b1
-    - fio_Agency
-    - fio_Facility
-    - fio_Industry
-    - naics_NAICS-Industry
-    - naics_NAICS-IndustryCode
-    - naics_NAICS-IndustryGroup
-    - naics_NAICS-IndustrySector
-    - naics_NAICS-IndustrySubsector
-    - owl_NamedIndividual
-    - owl_Thing
-    - prov_Organization
-    - usfrs_Barge-Facility
-    - usfrs_BrownfieldsSite-Facility
-    - usfrs_ContaminatedSite-Facility
-    - usfrs_ContaminationAddressed-Facility
-    - usfrs_EPA-PFAS-Facility
-    - usfrs_FRS-Facility
-    - usfrs_Federal-Facility
-    - usfrs_MonitoringStation-Facility
-    - usfrs_Portable-Facility
-    - usfrs_PotentiallyContaminatedSite-Facility
-    - usfrs_Stationary-Facility
-    - usfrs_WaterSystem-Facility
-    - usfrs_WaterfrontFacility-Facility
-    range: Any
-    any_of:
-    - range: uri
-    - range: string
-  fio_ofYear:
-    name: fio_ofYear
-    annotations:
-      xsd_gYear:
-        tag: xsd_gYear
-        value: 2125
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '2022'
-        example_object_type: xsd_gYear
-        example_predicate: fio:ofYear
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: naics_NAICS-IndustryCode
-    - object:
-        example_object: '2022'
-        example_object_type: xsd_gYear
-        example_predicate: fio:ofYear
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: naics_NAICS-Industry
-    - object:
-        example_object: '2022'
-        example_object_type: xsd_gYear
-        example_predicate: fio:ofYear
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: owl_Thing
-    - object:
-        example_object: '2022'
-        example_object_type: xsd_gYear
-        example_predicate: fio:ofYear
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: fio_Industry
-    - object:
-        example_object: '2022'
-        example_object_type: xsd_gYear
-        example_predicate: fio:ofYear
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: owl_NamedIndividual
-    - object:
-        example_object: '2022'
-        example_object_type: xsd_gYear
-        example_predicate: fio:ofYear
-        example_subject: naics:NAICS-IndustryGroup-1111
-        example_subject_type: naics_NAICS-IndustryGroup
-    - object:
-        example_object: '2022'
-        example_object_type: xsd_gYear
-        example_predicate: fio:ofYear
-        example_subject: naics:NAICS-IndustrySector-11
-        example_subject_type: naics_NAICS-IndustrySector
-    - object:
-        example_object: '2022'
-        example_object_type: xsd_gYear
-        example_predicate: fio:ofYear
-        example_subject: naics:NAICS-IndustrySubsector-111
-        example_subject_type: naics_NAICS-IndustrySubsector
-    from_schema: fio-kg
-    rank: 1000
-    slot_uri: fio:ofYear
-    alias: fio_ofYear
-    owner: fio_Industry
-    domain_of:
-    - fio_Industry
-    - naics_NAICS-Industry
-    - naics_NAICS-IndustryCode
-    - naics_NAICS-IndustryGroup
-    - naics_NAICS-IndustrySector
-    - naics_NAICS-IndustrySubsector
-    - owl_NamedIndividual
-    - owl_Thing
-    range: xsd_gYear
-  fio_subcodeOf:
-    name: fio_subcodeOf
-    annotations:
-      fio_Industry:
-        tag: fio_Industry
-        value: 5815
-      naics_NAICS-Industry:
-        tag: naics_NAICS-Industry
-        value: 5815
-      naics_NAICS-IndustryGroup:
-        tag: naics_NAICS-IndustryGroup
-        value: 1701
-      naics_NAICS-IndustrySector:
-        tag: naics_NAICS-IndustrySector
-        value: 2105
-      naics_NAICS-IndustrySubsector:
-        tag: naics_NAICS-IndustrySubsector
-        value: 2009
-      owl_NamedIndividual:
-        tag: owl_NamedIndividual
-        value: 5232
-      owl_Thing:
-        tag: owl_Thing
-        value: 5232
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: naics_NAICS-IndustryGroup
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: naics_NAICS-IndustryCode
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: naics_NAICS-Industry
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: naics_NAICS-IndustryCode
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: owl_Thing
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: naics_NAICS-IndustryCode
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: fio_Industry
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: naics_NAICS-IndustryCode
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: owl_NamedIndividual
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: naics_NAICS-IndustryCode
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: naics_NAICS-IndustryGroup
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: naics_NAICS-Industry
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: naics_NAICS-Industry
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: naics_NAICS-Industry
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: owl_Thing
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: naics_NAICS-Industry
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: fio_Industry
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: naics_NAICS-Industry
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: owl_NamedIndividual
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: naics_NAICS-Industry
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: naics_NAICS-IndustryGroup
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: owl_Thing
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: naics_NAICS-Industry
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: owl_Thing
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: owl_Thing
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: owl_Thing
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: fio_Industry
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: owl_Thing
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: owl_NamedIndividual
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: owl_Thing
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: naics_NAICS-IndustryGroup
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: fio_Industry
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: naics_NAICS-Industry
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: fio_Industry
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: owl_Thing
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: fio_Industry
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: fio_Industry
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: fio_Industry
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: owl_NamedIndividual
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: fio_Industry
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: naics_NAICS-IndustryGroup
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: owl_NamedIndividual
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: naics_NAICS-Industry
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: owl_NamedIndividual
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: owl_Thing
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: owl_NamedIndividual
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: fio_Industry
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: owl_NamedIndividual
-    - object:
-        example_object: naics:NAICS-IndustryGroup-1111
-        example_object_type: owl_NamedIndividual
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: owl_NamedIndividual
-    - object:
-        example_object: naics:NAICS-IndustrySector-11
-        example_object_type: naics_NAICS-IndustrySector
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: naics_NAICS-IndustryCode
-    - object:
-        example_object: naics:NAICS-IndustrySector-11
-        example_object_type: naics_NAICS-IndustrySector
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: naics_NAICS-Industry
-    - object:
-        example_object: naics:NAICS-IndustrySector-11
-        example_object_type: naics_NAICS-IndustrySector
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: owl_Thing
-    - object:
-        example_object: naics:NAICS-IndustrySector-11
-        example_object_type: naics_NAICS-IndustrySector
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: fio_Industry
-    - object:
-        example_object: naics:NAICS-IndustrySector-11
-        example_object_type: naics_NAICS-IndustrySector
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: owl_NamedIndividual
-    - object:
-        example_object: naics:NAICS-IndustrySubsector-111
-        example_object_type: naics_NAICS-IndustrySubsector
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: naics_NAICS-IndustryCode
-    - object:
-        example_object: naics:NAICS-IndustrySubsector-111
-        example_object_type: naics_NAICS-IndustrySubsector
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: naics_NAICS-Industry
-    - object:
-        example_object: naics:NAICS-IndustrySubsector-111
-        example_object_type: naics_NAICS-IndustrySubsector
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: owl_Thing
-    - object:
-        example_object: naics:NAICS-IndustrySubsector-111
-        example_object_type: naics_NAICS-IndustrySubsector
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: fio_Industry
-    - object:
-        example_object: naics:NAICS-IndustrySubsector-111
-        example_object_type: naics_NAICS-IndustrySubsector
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryCode-11111
-        example_subject_type: owl_NamedIndividual
-    - object:
-        example_object: naics:NAICS-IndustrySector-11
-        example_object_type: naics_NAICS-Industry
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryGroup-1111
-        example_subject_type: naics_NAICS-IndustryGroup
-    - object:
-        example_object: naics:NAICS-IndustrySector-11
-        example_object_type: owl_Thing
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryGroup-1111
-        example_subject_type: naics_NAICS-IndustryGroup
-    - object:
-        example_object: naics:NAICS-IndustrySector-11
-        example_object_type: naics_NAICS-IndustrySector
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryGroup-1111
-        example_subject_type: naics_NAICS-IndustryGroup
-    - object:
-        example_object: naics:NAICS-IndustrySector-11
-        example_object_type: fio_Industry
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryGroup-1111
-        example_subject_type: naics_NAICS-IndustryGroup
-    - object:
-        example_object: naics:NAICS-IndustrySector-11
-        example_object_type: owl_NamedIndividual
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryGroup-1111
-        example_subject_type: naics_NAICS-IndustryGroup
-    - object:
-        example_object: naics:NAICS-IndustrySubsector-111
-        example_object_type: naics_NAICS-IndustrySubsector
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustryGroup-1111
-        example_subject_type: naics_NAICS-IndustryGroup
-    - object:
-        example_object: naics:NAICS-IndustrySector-11
-        example_object_type: naics_NAICS-Industry
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustrySubsector-111
-        example_subject_type: naics_NAICS-IndustrySubsector
-    - object:
-        example_object: naics:NAICS-IndustrySector-11
-        example_object_type: owl_Thing
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustrySubsector-111
-        example_subject_type: naics_NAICS-IndustrySubsector
-    - object:
-        example_object: naics:NAICS-IndustrySector-11
-        example_object_type: naics_NAICS-IndustrySector
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustrySubsector-111
-        example_subject_type: naics_NAICS-IndustrySubsector
-    - object:
-        example_object: naics:NAICS-IndustrySector-11
-        example_object_type: fio_Industry
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustrySubsector-111
-        example_subject_type: naics_NAICS-IndustrySubsector
-    - object:
-        example_object: naics:NAICS-IndustrySector-11
-        example_object_type: owl_NamedIndividual
-        example_predicate: fio:subcodeOf
-        example_subject: naics:NAICS-IndustrySubsector-111
-        example_subject_type: naics_NAICS-IndustrySubsector
-    from_schema: fio-kg
-    rank: 1000
-    domain: fio_subcodeOf
-    slot_uri: fio:subcodeOf
-    alias: fio_subcodeOf
-    owner: fio_Industry
-    domain_of:
-    - fio_Industry
-    - naics_NAICS-Industry
-    - naics_NAICS-IndustryCode
-    - naics_NAICS-IndustryGroup
-    - naics_NAICS-IndustrySubsector
-    - owl_NamedIndividual
-    - owl_Thing
-    range: Any
-    any_of:
-    - range: naics_NAICS-IndustrySubsector
-    - range: fio_Industry
-    - range: owl_Thing
-    - range: naics_NAICS-IndustryGroup
-    - range: uri
-    - range: naics_NAICS-Industry
-    - range: naics_NAICS-IndustrySector
-    - range: owl_NamedIndividual
   owl_sameAs:
     name: owl_sameAs
-    annotations:
-      fio_Industry:
-        tag: fio_Industry
-        value: 527
-      naics_NAICS-Industry:
-        tag: naics_NAICS-Industry
-        value: 527
-      naics_NAICS-IndustryCode:
-        tag: naics_NAICS-IndustryCode
-        value: 523
-      naics_NAICS-IndustrySector:
-        tag: naics_NAICS-IndustrySector
-        value: 4
-      owl_NamedIndividual:
-        tag: owl_NamedIndividual
-        value: 527
-      owl_Thing:
-        tag: owl_Thing
-        value: 527
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: naics_NAICS-IndustryCode
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: naics_NAICS-IndustryCode
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: naics_NAICS-Industry
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: naics_NAICS-IndustryCode
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: naics_NAICS-IndustryCode
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: fio_Industry
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: naics_NAICS-IndustryCode
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: owl_NamedIndividual
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: naics_NAICS-IndustryCode
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: naics_NAICS-IndustryCode
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: naics_NAICS-Industry
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: naics_NAICS-Industry
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: naics_NAICS-Industry
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: naics_NAICS-Industry
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: fio_Industry
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: naics_NAICS-Industry
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: owl_NamedIndividual
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: naics_NAICS-Industry
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: naics_NAICS-IndustryCode
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: owl_Thing
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: naics_NAICS-Industry
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: owl_Thing
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: owl_Thing
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: fio_Industry
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: owl_Thing
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: owl_NamedIndividual
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: owl_Thing
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: naics_NAICS-IndustryCode
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: fio_Industry
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: naics_NAICS-Industry
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: fio_Industry
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: fio_Industry
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: fio_Industry
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: fio_Industry
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: owl_NamedIndividual
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: fio_Industry
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: naics_NAICS-IndustryCode
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: owl_NamedIndividual
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: naics_NAICS-Industry
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: owl_NamedIndividual
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: owl_NamedIndividual
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: fio_Industry
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: owl_NamedIndividual
-    - object:
-        example_object: naics:NAICS-IndustryCode-11111
-        example_object_type: owl_NamedIndividual
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustryCode-111110
-        example_subject_type: owl_NamedIndividual
-    - object:
-        example_object: naics:NAICS-IndustrySector-31
-        example_object_type: naics_NAICS-IndustrySector
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustrySector-32
-        example_subject_type: fio_Industry
-    - object:
-        example_object: naics:NAICS-IndustrySector-31
-        example_object_type: naics_NAICS-IndustrySector
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustrySector-32
-        example_subject_type: naics_NAICS-Industry
-    - object:
-        example_object: naics:NAICS-IndustrySector-31
-        example_object_type: naics_NAICS-Industry
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustrySector-32
-        example_subject_type: naics_NAICS-IndustrySector
-    - object:
-        example_object: naics:NAICS-IndustrySector-31
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustrySector-32
-        example_subject_type: naics_NAICS-IndustrySector
-    - object:
-        example_object: naics:NAICS-IndustrySector-31
-        example_object_type: naics_NAICS-IndustrySector
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustrySector-32
-        example_subject_type: naics_NAICS-IndustrySector
-    - object:
-        example_object: naics:NAICS-IndustrySector-31
-        example_object_type: fio_Industry
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustrySector-32
-        example_subject_type: naics_NAICS-IndustrySector
-    - object:
-        example_object: naics:NAICS-IndustrySector-31
-        example_object_type: owl_NamedIndividual
-        example_predicate: owl:sameAs
-        example_subject: naics:NAICS-IndustrySector-32
-        example_subject_type: naics_NAICS-IndustrySector
-    - object:
-        example_object: rdf:ObjectProperty
-        example_object_type: rdfs_Resource
-        example_predicate: owl:sameAs
-        example_subject: rdf:ObjectProperty
-        example_subject_type: owl_Thing
-    - object:
-        example_object: rdf:ObjectProperty
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: rdf:ObjectProperty
-        example_subject_type: rdfs_Resource
-    - object:
-        example_object: rdf:ObjectProperty
-        example_object_type: rdfs_Resource
-        example_predicate: owl:sameAs
-        example_subject: rdf:ObjectProperty
-        example_subject_type: rdfs_Resource
-    - object:
-        example_object: rdf:nil
-        example_object_type: rdf_List
-        example_predicate: owl:sameAs
-        example_subject: rdf:nil
-        example_subject_type: owl_Thing
-    - object:
-        example_object: rdf:nil
-        example_object_type: rdfs_Resource
-        example_predicate: owl:sameAs
-        example_subject: rdf:nil
-        example_subject_type: rdf_List
-    - object:
-        example_object: rdf:nil
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: rdf:nil
-        example_subject_type: rdf_List
-    - object:
-        example_object: rdf:nil
-        example_object_type: rdf_List
-        example_predicate: owl:sameAs
-        example_subject: rdf:nil
-        example_subject_type: rdf_List
-    - object:
-        example_object: rdf:nil
-        example_object_type: rdf_List
-        example_predicate: owl:sameAs
-        example_subject: rdf:nil
-        example_subject_type: rdfs_Resource
-    from_schema: fio-kg
-    rank: 1000
-    domain: owl_sameAs
+    description: The property that determines that two given individuals are equal.
+    title: sameAs
+    comments:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:owl-rdf-rdfs
+    source: http://www.w3.org/2002/07/owl#
+    domain: owl_Thing
     slot_uri: owl:sameAs
     alias: owl_sameAs
     owner: fio_Industry
     domain_of:
+    - __node359
+    - __node499
+    - __node501
+    - __node502
+    - __node506
+    - __node507
+    - __node508
+    - __node510
+    - __node512
+    - __node513
+    - __node515
+    - __node517
+    - __node518
+    - __node519
+    - __node521
+    - __node523
+    - fio-epa-frs_Agency
+    - fio-epa-frs_Agency.Agriculture
+    - fio-epa-frs_Agency.Commerce
+    - fio-epa-frs_Agency.Congress
+    - fio-epa-frs_Agency.Defense
+    - fio-epa-frs_Agency.Energy
+    - fio-epa-frs_Agency.HealthandHumanServices
+    - fio-epa-frs_Agency.HomelandSecurity
+    - fio-epa-frs_Agency.HousingandUrbanDevelopment
+    - fio-epa-frs_Agency.Interior
+    - fio-epa-frs_Agency.Judicial
+    - fio-epa-frs_Agency.Justice
+    - fio-epa-frs_Agency.Labor
+    - fio-epa-frs_Agency.State
+    - fio-epa-frs_Agency.Transportation
+    - fio-epa-frs_Agency.Treasury
+    - fio-epa-frs_Agency.VeteransAffairs
+    - fio-epa-frs_AirProgram
+    - fio-epa-frs_AnimalOperation
+    - fio-epa-frs_AssistanceSupportProgram
+    - fio-epa-frs_ChemicalReleaseProgram
+    - fio-epa-frs_ChemicalStorageProgram
+    - fio-epa-frs_CoastalOceanProgram
+    - fio-epa-frs_ComplianceInterest
+    - fio-epa-frs_ComplianceSystem
+    - fio-epa-frs_DrinkingWaterProgram
+    - fio-epa-frs_EPA-PFAS-Facility
+    - fio-epa-frs_EcologyOperation
+    - fio-epa-frs_ElectronicPermitSystem
+    - fio-epa-frs_EnforcementInterest
+    - fio-epa-frs_EnforcementSystem
+    - fio-epa-frs_EnvironmentalInterestByProgram
+    - fio-epa-frs_EnvironmentalInterestType
+    - fio-epa-frs_FRS-Facility
+    - fio-epa-frs_FacilitySiteIdentification
+    - fio-epa-frs_FacilityType
+    - fio-epa-frs_GrantSystem
+    - fio-epa-frs_GroundWaterProgram
+    - fio-epa-frs_HazardousWasteProgram
+    - fio-epa-frs_HealthSafetyProgram
+    - fio-epa-frs_LegacySystem
+    - fio-epa-frs_LegalEnforcementActivities
+    - fio-epa-frs_PermitInterest
+    - fio-epa-frs_PermitSystem
+    - fio-epa-frs_PesticidesProgram
+    - fio-epa-frs_ProgramInformationSystem
+    - fio-epa-frs_ProjectSystem
+    - fio-epa-frs_RadiationProtectionProgram
+    - fio-epa-frs_Record
+    - fio-epa-frs_RegistryInterest
+    - fio-epa-frs_RegistrySystem
+    - fio-epa-frs_RemediationRedevelopmentProgram
+    - fio-epa-frs_ReportingInterest
+    - fio-epa-frs_ReportingSystem
+    - fio-epa-frs_RiskInterest
+    - fio-epa-frs_SiteInterest
+    - fio-epa-frs_SiteSystem
+    - fio-epa-frs_SolidWasteProgram
+    - fio-epa-frs_StateSystem
+    - fio-epa-frs_SupplementalRecord
+    - fio-epa-frs_TribalSystem
+    - fio-epa-frs_UndergroundStorageTankProgram
+    - fio-epa-frs_WasteWaterProgram
+    - fio-epa-frs_WaterResourcesProgram
     - fio_Industry
-    - naics_NAICS-Industry
+    - kwgo_S2Cell_Level13
     - naics_NAICS-IndustryCode
+    - naics_NAICS-IndustryGroup
     - naics_NAICS-IndustrySector
-    - owl_NamedIndividual
-    - owl_Thing
-    - rdf_List
-    - rdfs_Resource
-    range: Any
-    any_of:
-    - range: fio_Industry
-    - range: owl_Thing
-    - range: uri
-    - range: naics_NAICS-IndustryCode
-    - range: rdfs_Resource
-    - range: rdf_List
-    - range: naics_NAICS-Industry
-    - range: naics_NAICS-IndustrySector
-    - range: owl_NamedIndividual
+    - naics_NAICS-IndustrySubsector
+    range: owl_Thing
 class_uri: fio:Industry
 
 ```

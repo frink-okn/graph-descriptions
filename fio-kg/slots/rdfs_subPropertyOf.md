@@ -1,16 +1,16 @@
 
 
-# Slot: No slot (predicate) name specified (rdfs_subPropertyOf)
+# Slot: subPropertyOf (rdfs_subPropertyOf)
 
 
-_No slot (predicate) description specified_
-
-
-
+_The subject is a subproperty of a property._
 
 
 
-This slot occurs 0 times.
+
+
+
+This slot occurs 1 times.
 
 
 URI: [rdfs:subPropertyOf](http://www.w3.org/2000/01/rdf-schema#subPropertyOf)
@@ -28,7 +28,7 @@ URI: [rdfs:subPropertyOf](http://www.w3.org/2000/01/rdf-schema#subPropertyOf)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [RdfProperty](../classes/RdfProperty.md)
 
 
 
@@ -46,20 +46,15 @@ URI: [rdfs:subPropertyOf](http://www.w3.org/2000/01/rdf-schema#subPropertyOf)
 
 ```yaml
 name: rdfs_subPropertyOf
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
+description: The subject is a subproperty of a property.
+title: subPropertyOf
 comments:
 - No occurrences of this slot in the graph.
-from_schema: fio-kg
-rank: 1000
-domain: rdfs_subPropertyOf
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/2000/01/rdf-schema#
+domain: rdf_Property
 slot_uri: rdfs:subPropertyOf
-alias: rdfs_subPropertyOf
-range: uri
+range: rdf_Property
 
 ```
 </details>

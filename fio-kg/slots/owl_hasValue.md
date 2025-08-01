@@ -1,16 +1,16 @@
 
 
-# Slot: No slot (predicate) name specified (owl_hasValue)
+# Slot: hasValue (owl_hasValue)
 
 
-_No slot (predicate) description specified_
-
-
-
+_The property that determines the individual that a has-value restriction refers to._
 
 
 
-This slot occurs 0 times.
+
+
+
+This slot occurs 2 times.
 
 
 URI: [owl:hasValue](http://www.w3.org/2002/07/owl#hasValue)
@@ -28,7 +28,7 @@ URI: [owl:hasValue](http://www.w3.org/2002/07/owl#hasValue)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [RdfsResource](../classes/RdfsResource.md)
 
 
 
@@ -46,20 +46,16 @@ URI: [owl:hasValue](http://www.w3.org/2002/07/owl#hasValue)
 
 ```yaml
 name: owl_hasValue
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
+description: The property that determines the individual that a has-value restriction
+  refers to.
+title: hasValue
 comments:
 - No occurrences of this slot in the graph.
-from_schema: fio-kg
-rank: 1000
-domain: owl_hasValue
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/2002/07/owl#
+domain: owl_Restriction
 slot_uri: owl:hasValue
-alias: owl_hasValue
-range: uri
+range: rdfs_Resource
 
 ```
 </details>
