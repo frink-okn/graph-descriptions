@@ -1,6 +1,6 @@
 # climatepub4-kg
 
-No schema description specified
+This ontology defines the entities and relationships for the Knowledge Graph exported from Neo4j.
 
-URI: climatepub4-kg
+URI: okns:climatepub4-kg
 
