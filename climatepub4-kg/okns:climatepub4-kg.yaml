@@ -1,3 +1,4 @@
+name: climatepub4-kg
 annotations:
   counts:
     tag: counts
@@ -21432,9 +21433,9 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: "S. Kaars; S. Kaars; G. Miller; G. Miller; C. Turney;\
-                          \ Ellyn J. Cook; D. N\xFCrnberg; J. Sch\xF6nfeld; A. Kershaw;\
-                          \ S. Lehman"
+                        value: S. Kaars; S. Kaars; G. Miller; G. Miller; C. Turney;
+                          Ellyn J. Cook; D. Nürnberg; J. Schönfeld; A. Kershaw; S.
+                          Lehman
                       predicate:
                         tag: predicate
                         value: http://templekg.org/ontology/authors
@@ -23091,9 +23092,777 @@ annotations:
                       subject:
                         tag: subject
                         value: http://templekg.org/kg/15536
+description: This ontology defines the entities and relationships for the Knowledge
+  Graph exported from Neo4j.
+title: climatemodelskg
+comments:
+- 'title: Temple KG Ontology'
+created_on: '2025-08-04T22:00:42.833966'
+last_updated_on: '2025-08-04T22:00:42.833966'
+id: okns:climatepub4-kg
+imports:
+- okns:prov
+- okns:sdo
+- okns:owl-rdf-rdfs
+- okns:dc
+- linkml:types
+prefixes:
+  dct:
+    prefix_prefix: dct
+    prefix_reference: http://purl.org/dc/terms/
+  linkml:
+    prefix_prefix: linkml
+    prefix_reference: https://w3id.org/linkml/
+  okn:
+    prefix_prefix: okn
+    prefix_reference: https://purl.org/okn/
+  okns:
+    prefix_prefix: okns
+    prefix_reference: https://purl.org/okn/schema/
+  owl:
+    prefix_prefix: owl
+    prefix_reference: http://www.w3.org/2002/07/owl#
+  prov:
+    prefix_prefix: prov
+    prefix_reference: http://www.w3.org/ns/prov#
+  rdfs:
+    prefix_prefix: rdfs
+    prefix_reference: http://www.w3.org/2000/01/rdf-schema#
+  sdos:
+    prefix_prefix: sdos
+    prefix_reference: https://schema.org/
+default_prefix: okns
+slots:
+  http___templekg.org_ontology_CITED:
+    name: http___templekg.org_ontology_CITED
+    slot_uri: http://templekg.org/ontology/CITED
+    range: http___templekg.org_ontology_Paper
+  http___templekg.org_ontology_ChildOf:
+    name: http___templekg.org_ontology_ChildOf
+    slot_uri: http://templekg.org/ontology/ChildOf
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_WeatherEvent
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Model
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+    - range: http___templekg.org_ontology_NaturalHazard
+    - range: http___templekg.org_ontology_OceanCirculation
+    - range: sdos_Project
+  http___templekg.org_ontology_ComparedTo:
+    name: http___templekg.org_ontology_ComparedTo
+    slot_uri: http://templekg.org/ontology/ComparedTo
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_WeatherEvent
+    - range: http___templekg.org_ontology_Teleconnection
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Model
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Experiment
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+    - range: http___templekg.org_ontology_NaturalHazard
+    - range: http___templekg.org_ontology_OceanCirculation
+    - range: sdos_Project
+  http___templekg.org_ontology_HasActivity:
+    name: http___templekg.org_ontology_HasActivity
+    slot_uri: http://templekg.org/ontology/HasActivity
+    range: sdos_Project
+  http___templekg.org_ontology_HasActivityParticipation:
+    name: http___templekg.org_ontology_HasActivityParticipation
+    slot_uri: http://templekg.org/ontology/HasActivityParticipation
+    range: sdos_Project
+  http___templekg.org_ontology_HasAdditionalAllowedModelComponents:
+    name: http___templekg.org_ontology_HasAdditionalAllowedModelComponents
+    slot_uri: http://templekg.org/ontology/HasAdditionalAllowedModelComponents
+    range: http___templekg.org_ontology_Others
+  http___templekg.org_ontology_HasInstitution:
+    name: http___templekg.org_ontology_HasInstitution
+    slot_uri: http://templekg.org/ontology/HasInstitution
+    range: http___templekg.org_ontology_Provider
+  http___templekg.org_ontology_HasLicenseInfo:
+    name: http___templekg.org_ontology_HasLicenseInfo
+    slot_uri: http://templekg.org/ontology/HasLicenseInfo
+    range: http___templekg.org_ontology_Others
+  http___templekg.org_ontology_HasModelComponent:
+    name: http___templekg.org_ontology_HasModelComponent
+    slot_uri: http://templekg.org/ontology/HasModelComponent
+    range: http___templekg.org_ontology_Others
+  http___templekg.org_ontology_HasParentActivity:
+    name: http___templekg.org_ontology_HasParentActivity
+    slot_uri: http://templekg.org/ontology/HasParentActivity
+    range: sdos_Project
+  http___templekg.org_ontology_HasParentExperiment:
+    name: http___templekg.org_ontology_HasParentExperiment
+    slot_uri: http://templekg.org/ontology/HasParentExperiment
+    range: http___templekg.org_ontology_Experiment
+  http___templekg.org_ontology_HasProjectName:
+    name: http___templekg.org_ontology_HasProjectName
+    slot_uri: http://templekg.org/ontology/HasProjectName
+    range: sdos_Project
+  http___templekg.org_ontology_HasRegion:
+    name: http___templekg.org_ontology_HasRegion
+    slot_uri: http://templekg.org/ontology/HasRegion
+    range: http___templekg.org_ontology_Location
+  http___templekg.org_ontology_HasRequiredModelComponents:
+    name: http___templekg.org_ontology_HasRequiredModelComponents
+    slot_uri: http://templekg.org/ontology/HasRequiredModelComponents
+    range: http___templekg.org_ontology_Others
+  http___templekg.org_ontology_HasSourceType:
+    name: http___templekg.org_ontology_HasSourceType
+    slot_uri: http://templekg.org/ontology/HasSourceType
+    range: http___templekg.org_ontology_Others
+  http___templekg.org_ontology_Mention:
+    name: http___templekg.org_ontology_Mention
+    slot_uri: http://templekg.org/ontology/Mention
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_WeatherEvent
+    - range: http___templekg.org_ontology_Teleconnection
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Model
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Experiment
+    - range: sdos_Project
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_NaturalHazard
+    - range: http___templekg.org_ontology_OceanCirculation
+    - range: http___templekg.org_ontology_Instrument
+  http___templekg.org_ontology_MountedOn:
+    name: http___templekg.org_ontology_MountedOn
+    slot_uri: http://templekg.org/ontology/MountedOn
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_Model
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: sdos_Project
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+  http___templekg.org_ontology_Outputs:
+    name: http___templekg.org_ontology_Outputs
+    slot_uri: http://templekg.org/ontology/Outputs
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_WeatherEvent
+    - range: http___templekg.org_ontology_Teleconnection
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Model
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Experiment
+    - range: http___templekg.org_ontology_Instrument
+    - range: http___templekg.org_ontology_NaturalHazard
+    - range: http___templekg.org_ontology_OceanCirculation
+    - range: sdos_Project
+  http___templekg.org_ontology_ProvidedBy:
+    name: http___templekg.org_ontology_ProvidedBy
+    slot_uri: http://templekg.org/ontology/ProvidedBy
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_WeatherEvent
+    - range: http___templekg.org_ontology_Teleconnection
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Model
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Experiment
+    - range: sdos_Project
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+  http___templekg.org_ontology_RunBy:
+    name: http___templekg.org_ontology_RunBy
+    slot_uri: http://templekg.org/ontology/RunBy
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_Teleconnection
+    - range: http___templekg.org_ontology_Model
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Experiment
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_OceanCirculation
+    - range: sdos_Project
+  http___templekg.org_ontology_SIM:
+    name: http___templekg.org_ontology_SIM
+    slot_uri: http://templekg.org/ontology/SIM
+    range: http___templekg.org_ontology_Paper
+  http___templekg.org_ontology_TargetsLocation:
+    name: http___templekg.org_ontology_TargetsLocation
+    slot_uri: http://templekg.org/ontology/TargetsLocation
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_WeatherEvent
+    - range: http___templekg.org_ontology_Teleconnection
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Model
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Experiment
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+    - range: http___templekg.org_ontology_NaturalHazard
+    - range: http___templekg.org_ontology_OceanCirculation
+    - range: sdos_Project
+  http___templekg.org_ontology_UUID:
+    name: http___templekg.org_ontology_UUID
+    slot_uri: http://templekg.org/ontology/UUID
+    range: string
+  http___templekg.org_ontology_UsedIn:
+    name: http___templekg.org_ontology_UsedIn
+    slot_uri: http://templekg.org/ontology/UsedIn
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_WeatherEvent
+    - range: http___templekg.org_ontology_Teleconnection
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Model
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Experiment
+    - range: sdos_Project
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_NaturalHazard
+    - range: http___templekg.org_ontology_OceanCirculation
+    - range: http___templekg.org_ontology_Instrument
+  http___templekg.org_ontology_ValidatedBy:
+    name: http___templekg.org_ontology_ValidatedBy
+    slot_uri: http://templekg.org/ontology/ValidatedBy
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_WeatherEvent
+    - range: http___templekg.org_ontology_Teleconnection
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Model
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Experiment
+    - range: http___templekg.org_ontology_Instrument
+    - range: http___templekg.org_ontology_NaturalHazard
+    - range: http___templekg.org_ontology_OceanCirculation
+    - range: sdos_Project
+  http___templekg.org_ontology_WikiAppliesToJurisdiction:
+    name: http___templekg.org_ontology_WikiAppliesToJurisdiction
+    slot_uri: http://templekg.org/ontology/WikiAppliesToJurisdiction
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+  http___templekg.org_ontology_WikiAssociatedHazard:
+    name: http___templekg.org_ontology_WikiAssociatedHazard
+    slot_uri: http://templekg.org/ontology/WikiAssociatedHazard
+    range: sdos_Project
+  http___templekg.org_ontology_WikiBasedOn:
+    name: http___templekg.org_ontology_WikiBasedOn
+    slot_uri: http://templekg.org/ontology/WikiBasedOn
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_Others
+  http___templekg.org_ontology_WikiBasinCountry:
+    name: http___templekg.org_ontology_WikiBasinCountry
+    slot_uri: http://templekg.org/ontology/WikiBasinCountry
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+    - range: sdos_Project
+  http___templekg.org_ontology_WikiCapital:
+    name: http___templekg.org_ontology_WikiCapital
+    slot_uri: http://templekg.org/ontology/WikiCapital
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+    - range: sdos_Project
+  http___templekg.org_ontology_WikiCategoryContains:
+    name: http___templekg.org_ontology_WikiCategoryContains
+    slot_uri: http://templekg.org/ontology/WikiCategoryContains
+    range: http___templekg.org_ontology_Others
+  http___templekg.org_ontology_WikiChemicalFormula:
+    name: http___templekg.org_ontology_WikiChemicalFormula
+    slot_uri: http://templekg.org/ontology/WikiChemicalFormula
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Instrument
+  http___templekg.org_ontology_WikiChild:
+    name: http___templekg.org_ontology_WikiChild
+    slot_uri: http://templekg.org/ontology/WikiChild
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+    - range: http___templekg.org_ontology_NaturalHazard
+    - range: sdos_Project
+  http___templekg.org_ontology_WikiContinent:
+    name: http___templekg.org_ontology_WikiContinent
+    slot_uri: http://templekg.org/ontology/WikiContinent
+    range: http___templekg.org_ontology_Location
+  http___templekg.org_ontology_WikiCountryOfCitizenship:
+    name: http___templekg.org_ontology_WikiCountryOfCitizenship
+    slot_uri: http://templekg.org/ontology/WikiCountryOfCitizenship
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+    - range: sdos_Project
+  http___templekg.org_ontology_WikiCreator:
+    name: http___templekg.org_ontology_WikiCreator
+    slot_uri: http://templekg.org/ontology/WikiCreator
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Others
+  http___templekg.org_ontology_WikiDepicts:
+    name: http___templekg.org_ontology_WikiDepicts
+    slot_uri: http://templekg.org/ontology/WikiDepicts
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: sdos_Project
+    - range: http___templekg.org_ontology_Instrument
+    - range: http___templekg.org_ontology_Others
+  http___templekg.org_ontology_WikiDerivativeWork:
+    name: http___templekg.org_ontology_WikiDerivativeWork
+    slot_uri: http://templekg.org/ontology/WikiDerivativeWork
+    range: http___templekg.org_ontology_Others
+  http___templekg.org_ontology_WikiDesignedBy:
+    name: http___templekg.org_ontology_WikiDesignedBy
+    slot_uri: http://templekg.org/ontology/WikiDesignedBy
+    range: http___templekg.org_ontology_Provider
+  http___templekg.org_ontology_WikiDifferentFrom:
+    name: http___templekg.org_ontology_WikiDifferentFrom
+    slot_uri: http://templekg.org/ontology/WikiDifferentFrom
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_WeatherEvent
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+    - range: http___templekg.org_ontology_NaturalHazard
+    - range: sdos_Project
+  http___templekg.org_ontology_WikiElementSymbol:
+    name: http___templekg.org_ontology_WikiElementSymbol
+    slot_uri: http://templekg.org/ontology/WikiElementSymbol
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Instrument
+  http___templekg.org_ontology_WikiExpressedIn:
+    name: http___templekg.org_ontology_WikiExpressedIn
+    slot_uri: http://templekg.org/ontology/WikiExpressedIn
+    range: http___templekg.org_ontology_Variable
+  http___templekg.org_ontology_WikiFileExtension:
+    name: http___templekg.org_ontology_WikiFileExtension
+    slot_uri: http://templekg.org/ontology/WikiFileExtension
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Instrument
+    - range: sdos_Project
+  http___templekg.org_ontology_WikiFollowedBy:
+    name: http___templekg.org_ontology_WikiFollowedBy
+    slot_uri: http://templekg.org/ontology/WikiFollowedBy
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+    - range: sdos_Project
+  http___templekg.org_ontology_WikiFollows:
+    name: http___templekg.org_ontology_WikiFollows
+    slot_uri: http://templekg.org/ontology/WikiFollows
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_Others
+    - range: sdos_Project
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+  http___templekg.org_ontology_WikiHabitat:
+    name: http___templekg.org_ontology_WikiHabitat
+    slot_uri: http://templekg.org/ontology/WikiHabitat
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Others
+  http___templekg.org_ontology_WikiHasCause:
+    name: http___templekg.org_ontology_WikiHasCause
+    slot_uri: http://templekg.org/ontology/WikiHasCause
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_WeatherEvent
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Model
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_NaturalHazard
+    - range: http___templekg.org_ontology_Instrument
+  http___templekg.org_ontology_WikiHasEffect:
+    name: http___templekg.org_ontology_WikiHasEffect
+    slot_uri: http://templekg.org/ontology/WikiHasEffect
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_NaturalHazard
+    - range: sdos_Project
+    - range: http___templekg.org_ontology_Instrument
+    - range: http___templekg.org_ontology_Others
+  http___templekg.org_ontology_WikiHasParts:
+    name: http___templekg.org_ontology_WikiHasParts
+    slot_uri: http://templekg.org/ontology/WikiHasParts
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_WeatherEvent
+    - range: http___templekg.org_ontology_Teleconnection
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: sdos_Project
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+  http___templekg.org_ontology_WikiHasPartsOfTheClass:
+    name: http___templekg.org_ontology_WikiHasPartsOfTheClass
+    slot_uri: http://templekg.org/ontology/WikiHasPartsOfTheClass
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+    - range: sdos_Project
+  http___templekg.org_ontology_WikiHasSubsidiary:
+    name: http___templekg.org_ontology_WikiHasSubsidiary
+    slot_uri: http://templekg.org/ontology/WikiHasSubsidiary
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: sdos_Project
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+  http___templekg.org_ontology_WikiHasUse:
+    name: http___templekg.org_ontology_WikiHasUse
+    slot_uri: http://templekg.org/ontology/WikiHasUse
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: sdos_Project
+    - range: http___templekg.org_ontology_Instrument
+  http___templekg.org_ontology_WikiInfluencedBy:
+    name: http___templekg.org_ontology_WikiInfluencedBy
+    slot_uri: http://templekg.org/ontology/WikiInfluencedBy
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+    - range: sdos_Project
+  http___templekg.org_ontology_WikiInstanceOf:
+    name: http___templekg.org_ontology_WikiInstanceOf
+    slot_uri: http://templekg.org/ontology/WikiInstanceOf
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Model
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+    - range: sdos_Project
+  http___templekg.org_ontology_WikiIsTheStudyOf:
+    name: http___templekg.org_ontology_WikiIsTheStudyOf
+    slot_uri: http://templekg.org/ontology/WikiIsTheStudyOf
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Model
+    - range: sdos_Project
+  http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater:
+    name: http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater
+    slot_uri: http://templekg.org/ontology/WikiLocatedInOrNextToBodyOfWater
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+    - range: sdos_Project
+  http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity:
+    name: http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity
+    slot_uri: http://templekg.org/ontology/WikiLocatedInTheAdministrativeTerritorialEntity
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+    - range: sdos_Project
+  http___templekg.org_ontology_WikiLocatedInonPhysicalFeature:
+    name: http___templekg.org_ontology_WikiLocatedInonPhysicalFeature
+    slot_uri: http://templekg.org/ontology/WikiLocatedInonPhysicalFeature
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Others
+  http___templekg.org_ontology_WikiLocatedOnAstronomicalBody:
+    name: http___templekg.org_ontology_WikiLocatedOnAstronomicalBody
+    slot_uri: http://templekg.org/ontology/WikiLocatedOnAstronomicalBody
+    range: http___templekg.org_ontology_Platform
+  http___templekg.org_ontology_WikiLocation:
+    name: http___templekg.org_ontology_WikiLocation
+    slot_uri: http://templekg.org/ontology/WikiLocation
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+  http___templekg.org_ontology_WikiMadeFromMaterial:
+    name: http___templekg.org_ontology_WikiMadeFromMaterial
+    slot_uri: http://templekg.org/ontology/WikiMadeFromMaterial
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Others
+    - range: sdos_Project
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Instrument
+  http___templekg.org_ontology_WikiMeasures:
+    name: http___templekg.org_ontology_WikiMeasures
+    slot_uri: http://templekg.org/ontology/WikiMeasures
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Others
+    - range: sdos_Project
+  http___templekg.org_ontology_WikiMediaType:
+    name: http___templekg.org_ontology_WikiMediaType
+    slot_uri: http://templekg.org/ontology/WikiMediaType
+    range: http___templekg.org_ontology_Others
+  http___templekg.org_ontology_WikiMemberOf:
+    name: http___templekg.org_ontology_WikiMemberOf
+    slot_uri: http://templekg.org/ontology/WikiMemberOf
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Others
+  http___templekg.org_ontology_WikiName:
+    name: http___templekg.org_ontology_WikiName
+    slot_uri: http://templekg.org/ontology/WikiName
+    range: http___templekg.org_ontology_Others
+  http___templekg.org_ontology_WikiNamedAfter:
+    name: http___templekg.org_ontology_WikiNamedAfter
+    slot_uri: http://templekg.org/ontology/WikiNamedAfter
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: sdos_Project
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+  http___templekg.org_ontology_WikiOperator:
+    name: http___templekg.org_ontology_WikiOperator
+    slot_uri: http://templekg.org/ontology/WikiOperator
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: sdos_Project
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+  http___templekg.org_ontology_WikiOppositeOf:
+    name: http___templekg.org_ontology_WikiOppositeOf
+    slot_uri: http://templekg.org/ontology/WikiOppositeOf
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Others
+    - range: sdos_Project
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+  http___templekg.org_ontology_WikiPartOf:
+    name: http___templekg.org_ontology_WikiPartOf
+    slot_uri: http://templekg.org/ontology/WikiPartOf
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_Teleconnection
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: sdos_Project
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+  http___templekg.org_ontology_WikiParticipant:
+    name: http___templekg.org_ontology_WikiParticipant
+    slot_uri: http://templekg.org/ontology/WikiParticipant
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+    - range: sdos_Project
+  http___templekg.org_ontology_WikiPdbLigandId:
+    name: http___templekg.org_ontology_WikiPdbLigandId
+    slot_uri: http://templekg.org/ontology/WikiPdbLigandId
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Variable
+    - range: sdos_Project
+  http___templekg.org_ontology_WikiPlaceOfPublication:
+    name: http___templekg.org_ontology_WikiPlaceOfPublication
+    slot_uri: http://templekg.org/ontology/WikiPlaceOfPublication
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+  http___templekg.org_ontology_WikiPortOfRegistry:
+    name: http___templekg.org_ontology_WikiPortOfRegistry
+    slot_uri: http://templekg.org/ontology/WikiPortOfRegistry
+    range: http___templekg.org_ontology_Location
+  http___templekg.org_ontology_WikiReplacedBy:
+    name: http___templekg.org_ontology_WikiReplacedBy
+    slot_uri: http://templekg.org/ontology/WikiReplacedBy
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Others
+  http___templekg.org_ontology_WikiReplaces:
+    name: http___templekg.org_ontology_WikiReplaces
+    slot_uri: http://templekg.org/ontology/WikiReplaces
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Others
+  http___templekg.org_ontology_WikiStudiedIn:
+    name: http___templekg.org_ontology_WikiStudiedIn
+    slot_uri: http://templekg.org/ontology/WikiStudiedIn
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Model
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+    - range: sdos_Project
+  http___templekg.org_ontology_WikiSubclassOf:
+    name: http___templekg.org_ontology_WikiSubclassOf
+    slot_uri: http://templekg.org/ontology/WikiSubclassOf
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_WeatherEvent
+    - range: http___templekg.org_ontology_Variable
+    - range: http___templekg.org_ontology_Model
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Location
+    - range: http___templekg.org_ontology_Instrument
+    - range: http___templekg.org_ontology_NaturalHazard
+    - range: http___templekg.org_ontology_OceanCirculation
+    - range: sdos_Project
+  http___templekg.org_ontology_WikiUses:
+    name: http___templekg.org_ontology_WikiUses
+    slot_uri: http://templekg.org/ontology/WikiUses
+    range: Any
+    any_of:
+    - range: http___templekg.org_ontology_Platform
+    - range: http___templekg.org_ontology_Others
+    - range: http___templekg.org_ontology_Provider
+    - range: http___templekg.org_ontology_Instrument
+    - range: sdos_Project
+  http___templekg.org_ontology_authors:
+    name: http___templekg.org_ontology_authors
+    slot_uri: http://templekg.org/ontology/authors
+    range: string
+  http___templekg.org_ontology_collapsed_uuids:
+    name: http___templekg.org_ontology_collapsed_uuids
+    slot_uri: http://templekg.org/ontology/collapsed_uuids
+    range: string
+  http___templekg.org_ontology_content:
+    name: http___templekg.org_ontology_content
+    slot_uri: http://templekg.org/ontology/content
+    range: string
+  http___templekg.org_ontology_doi:
+    name: http___templekg.org_ontology_doi
+    slot_uri: http://templekg.org/ontology/doi
+    range: string
+  http___templekg.org_ontology_end_year:
+    name: http___templekg.org_ontology_end_year
+    slot_uri: http://templekg.org/ontology/end_year
+    range: string
+  http___templekg.org_ontology_experiment:
+    name: http___templekg.org_ontology_experiment
+    slot_uri: http://templekg.org/ontology/experiment
+    range: string
+  http___templekg.org_ontology_pub_date:
+    name: http___templekg.org_ontology_pub_date
+    slot_uri: http://templekg.org/ontology/pub_date
+    range: string
+  http___templekg.org_ontology_start_year:
+    name: http___templekg.org_ontology_start_year
+    slot_uri: http://templekg.org/ontology/start_year
+    range: string
+  http___templekg.org_ontology_test_property:
+    name: http___templekg.org_ontology_test_property
+    slot_uri: http://templekg.org/ontology/test_property
+    range: string
+  http___templekg.org_ontology_tier:
+    name: http___templekg.org_ontology_tier
+    slot_uri: http://templekg.org/ontology/tier
+    range: string
+  http___templekg.org_ontology_wikidata_description:
+    name: http___templekg.org_ontology_wikidata_description
+    slot_uri: http://templekg.org/ontology/wikidata_description
+    range: string
+  http___templekg.org_ontology_wikidata_ids:
+    name: http___templekg.org_ontology_wikidata_ids
+    slot_uri: http://templekg.org/ontology/wikidata_ids
+    range: string
 classes:
   http___templekg.org_ontology_Experiment:
-    class_uri: http://templekg.org/ontology/Experiment
     name: http___templekg.org_ontology_Experiment
     slots:
     - http___templekg.org_ontology_ProvidedBy
@@ -23120,13 +23889,13 @@ classes:
     - http___templekg.org_ontology_ValidatedBy
     - rdfs_label
     - http___templekg.org_ontology_HasParentExperiment
+    class_uri: http://templekg.org/ontology/Experiment
   http___templekg.org_ontology_Greeting:
-    class_uri: http://templekg.org/ontology/Greeting
     name: http___templekg.org_ontology_Greeting
     slots:
     - http___templekg.org_ontology_content
+    class_uri: http://templekg.org/ontology/Greeting
   http___templekg.org_ontology_Instrument:
-    class_uri: http://templekg.org/ontology/Instrument
     name: http___templekg.org_ontology_Instrument
     slots:
     - http___templekg.org_ontology_ProvidedBy
@@ -23177,8 +23946,8 @@ classes:
     - http___templekg.org_ontology_WikiHasParts
     - http___templekg.org_ontology_WikiMediaType
     - rdfs_label
+    class_uri: http://templekg.org/ontology/Instrument
   http___templekg.org_ontology_Location:
-    class_uri: http://templekg.org/ontology/Location
     name: http___templekg.org_ontology_Location
     slots:
     - http___templekg.org_ontology_WikiCategoryContains
@@ -23229,8 +23998,8 @@ classes:
     - http___templekg.org_ontology_ValidatedBy
     - http___templekg.org_ontology_WikiHasParts
     - rdfs_label
+    class_uri: http://templekg.org/ontology/Location
   http___templekg.org_ontology_Model:
-    class_uri: http://templekg.org/ontology/Model
     name: http___templekg.org_ontology_Model
     slots:
     - http___templekg.org_ontology_HasActivityParticipation
@@ -23260,8 +24029,8 @@ classes:
     - http___templekg.org_ontology_ValidatedBy
     - http___templekg.org_ontology_WikiHasParts
     - rdfs_label
+    class_uri: http://templekg.org/ontology/Model
   http___templekg.org_ontology_NaturalHazard:
-    class_uri: http://templekg.org/ontology/NaturalHazard
     name: http___templekg.org_ontology_NaturalHazard
     slots:
     - http___templekg.org_ontology_WikiDifferentFrom
@@ -23280,8 +24049,8 @@ classes:
     - http___templekg.org_ontology_ChildOf
     - rdfs_label
     - http___templekg.org_ontology_WikiHasEffect
+    class_uri: http://templekg.org/ontology/NaturalHazard
   http___templekg.org_ontology_OceanCirculation:
-    class_uri: http://templekg.org/ontology/OceanCirculation
     name: http___templekg.org_ontology_OceanCirculation
     slots:
     - http___templekg.org_ontology_wikidata_description
@@ -23298,8 +24067,8 @@ classes:
     - http___templekg.org_ontology_ChildOf
     - http___templekg.org_ontology_Outputs
     - rdfs_label
+    class_uri: http://templekg.org/ontology/OceanCirculation
   http___templekg.org_ontology_Others:
-    class_uri: http://templekg.org/ontology/Others
     name: http___templekg.org_ontology_Others
     slots:
     - http___templekg.org_ontology_WikiInstanceOf
@@ -23364,8 +24133,8 @@ classes:
     - http___templekg.org_ontology_WikiHasParts
     - http___templekg.org_ontology_WikiMediaType
     - rdfs_label
+    class_uri: http://templekg.org/ontology/Others
   http___templekg.org_ontology_Paper:
-    class_uri: http://templekg.org/ontology/Paper
     name: http___templekg.org_ontology_Paper
     slots:
     - http___templekg.org_ontology_Mention
@@ -23376,8 +24145,8 @@ classes:
     - http___templekg.org_ontology_SIM
     - rdfs_label
     - http___templekg.org_ontology_pub_date
+    class_uri: http://templekg.org/ontology/Paper
   http___templekg.org_ontology_Platform:
-    class_uri: http://templekg.org/ontology/Platform
     name: http___templekg.org_ontology_Platform
     slots:
     - http___templekg.org_ontology_WikiInstanceOf
@@ -23419,8 +24188,8 @@ classes:
     - http___templekg.org_ontology_ValidatedBy
     - http___templekg.org_ontology_WikiHasParts
     - rdfs_label
+    class_uri: http://templekg.org/ontology/Platform
   http___templekg.org_ontology_Provider:
-    class_uri: http://templekg.org/ontology/Provider
     name: http___templekg.org_ontology_Provider
     slots:
     - http___templekg.org_ontology_ProvidedBy
@@ -23473,8 +24242,8 @@ classes:
     - http___templekg.org_ontology_WikiHasParts
     - http___templekg.org_ontology_WikiMediaType
     - rdfs_label
+    class_uri: http://templekg.org/ontology/Provider
   http___templekg.org_ontology_Teleconnection:
-    class_uri: http://templekg.org/ontology/Teleconnection
     name: http___templekg.org_ontology_Teleconnection
     slots:
     - http___templekg.org_ontology_wikidata_description
@@ -23494,8 +24263,8 @@ classes:
     - http___templekg.org_ontology_ChildOf
     - http___templekg.org_ontology_Outputs
     - rdfs_label
+    class_uri: http://templekg.org/ontology/Teleconnection
   http___templekg.org_ontology_Variable:
-    class_uri: http://templekg.org/ontology/Variable
     name: http___templekg.org_ontology_Variable
     slots:
     - http___templekg.org_ontology_WikiInstanceOf
@@ -23535,8 +24304,8 @@ classes:
     - http___templekg.org_ontology_ValidatedBy
     - http___templekg.org_ontology_WikiHasParts
     - rdfs_label
+    class_uri: http://templekg.org/ontology/Variable
   http___templekg.org_ontology_WeatherEvent:
-    class_uri: http://templekg.org/ontology/WeatherEvent
     name: http___templekg.org_ontology_WeatherEvent
     slots:
     - http___templekg.org_ontology_wikidata_description
@@ -23557,667 +24326,5 @@ classes:
     - http___templekg.org_ontology_WikiHasParts
     - rdfs_label
     - http___templekg.org_ontology_WikiHasEffect
-comments:
-- 'title: Temple KG Ontology'
-created_on: '2025-08-04T22:00:42.833966'
-default_prefix: okns
-description: This ontology defines the entities and relationships for the Knowledge
-  Graph exported from Neo4j.
-id: okns:climatepub4-kg
-imports:
-- okns:prov
-- okns:sdo
-- okns:owl-rdf-rdfs
-- okns:dc
-- linkml:types
-last_updated_on: '2025-08-04T22:00:42.833966'
-name: climatepub4-kg
-prefixes:
-  dct: http://purl.org/dc/terms/
-  linkml: https://w3id.org/linkml/
-  okn: https://purl.org/okn/
-  okns: https://purl.org/okn/schema/
-  owl: http://www.w3.org/2002/07/owl#
-  prov: http://www.w3.org/ns/prov#
-  rdfs: http://www.w3.org/2000/01/rdf-schema#
-  sdos: https://schema.org/
-slots:
-  http___templekg.org_ontology_CITED:
-    range: http___templekg.org_ontology_Paper
-    slot_uri: http://templekg.org/ontology/CITED
-  http___templekg.org_ontology_ChildOf:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_WeatherEvent
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Model
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    - range: http___templekg.org_ontology_NaturalHazard
-    - range: http___templekg.org_ontology_OceanCirculation
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/ChildOf
-  http___templekg.org_ontology_ComparedTo:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_WeatherEvent
-    - range: http___templekg.org_ontology_Teleconnection
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Model
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Experiment
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    - range: http___templekg.org_ontology_NaturalHazard
-    - range: http___templekg.org_ontology_OceanCirculation
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/ComparedTo
-  http___templekg.org_ontology_HasActivity:
-    range: sdos_Project
-    slot_uri: http://templekg.org/ontology/HasActivity
-  http___templekg.org_ontology_HasActivityParticipation:
-    range: sdos_Project
-    slot_uri: http://templekg.org/ontology/HasActivityParticipation
-  http___templekg.org_ontology_HasAdditionalAllowedModelComponents:
-    range: http___templekg.org_ontology_Others
-    slot_uri: http://templekg.org/ontology/HasAdditionalAllowedModelComponents
-  http___templekg.org_ontology_HasInstitution:
-    range: http___templekg.org_ontology_Provider
-    slot_uri: http://templekg.org/ontology/HasInstitution
-  http___templekg.org_ontology_HasLicenseInfo:
-    range: http___templekg.org_ontology_Others
-    slot_uri: http://templekg.org/ontology/HasLicenseInfo
-  http___templekg.org_ontology_HasModelComponent:
-    range: http___templekg.org_ontology_Others
-    slot_uri: http://templekg.org/ontology/HasModelComponent
-  http___templekg.org_ontology_HasParentActivity:
-    range: sdos_Project
-    slot_uri: http://templekg.org/ontology/HasParentActivity
-  http___templekg.org_ontology_HasParentExperiment:
-    range: http___templekg.org_ontology_Experiment
-    slot_uri: http://templekg.org/ontology/HasParentExperiment
-  http___templekg.org_ontology_HasProjectName:
-    range: sdos_Project
-    slot_uri: http://templekg.org/ontology/HasProjectName
-  http___templekg.org_ontology_HasRegion:
-    range: http___templekg.org_ontology_Location
-    slot_uri: http://templekg.org/ontology/HasRegion
-  http___templekg.org_ontology_HasRequiredModelComponents:
-    range: http___templekg.org_ontology_Others
-    slot_uri: http://templekg.org/ontology/HasRequiredModelComponents
-  http___templekg.org_ontology_HasSourceType:
-    range: http___templekg.org_ontology_Others
-    slot_uri: http://templekg.org/ontology/HasSourceType
-  http___templekg.org_ontology_Mention:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_WeatherEvent
-    - range: http___templekg.org_ontology_Teleconnection
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Model
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Experiment
-    - range: sdos_Project
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_NaturalHazard
-    - range: http___templekg.org_ontology_OceanCirculation
-    - range: http___templekg.org_ontology_Instrument
-    range: Any
-    slot_uri: http://templekg.org/ontology/Mention
-  http___templekg.org_ontology_MountedOn:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_Model
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: sdos_Project
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    range: Any
-    slot_uri: http://templekg.org/ontology/MountedOn
-  http___templekg.org_ontology_Outputs:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_WeatherEvent
-    - range: http___templekg.org_ontology_Teleconnection
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Model
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Experiment
-    - range: http___templekg.org_ontology_Instrument
-    - range: http___templekg.org_ontology_NaturalHazard
-    - range: http___templekg.org_ontology_OceanCirculation
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/Outputs
-  http___templekg.org_ontology_ProvidedBy:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_WeatherEvent
-    - range: http___templekg.org_ontology_Teleconnection
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Model
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Experiment
-    - range: sdos_Project
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    range: Any
-    slot_uri: http://templekg.org/ontology/ProvidedBy
-  http___templekg.org_ontology_RunBy:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_Teleconnection
-    - range: http___templekg.org_ontology_Model
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Experiment
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_OceanCirculation
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/RunBy
-  http___templekg.org_ontology_SIM:
-    range: http___templekg.org_ontology_Paper
-    slot_uri: http://templekg.org/ontology/SIM
-  http___templekg.org_ontology_TargetsLocation:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_WeatherEvent
-    - range: http___templekg.org_ontology_Teleconnection
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Model
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Experiment
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    - range: http___templekg.org_ontology_NaturalHazard
-    - range: http___templekg.org_ontology_OceanCirculation
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/TargetsLocation
-  http___templekg.org_ontology_UUID:
-    range: string
-    slot_uri: http://templekg.org/ontology/UUID
-  http___templekg.org_ontology_UsedIn:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_WeatherEvent
-    - range: http___templekg.org_ontology_Teleconnection
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Model
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Experiment
-    - range: sdos_Project
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_NaturalHazard
-    - range: http___templekg.org_ontology_OceanCirculation
-    - range: http___templekg.org_ontology_Instrument
-    range: Any
-    slot_uri: http://templekg.org/ontology/UsedIn
-  http___templekg.org_ontology_ValidatedBy:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_WeatherEvent
-    - range: http___templekg.org_ontology_Teleconnection
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Model
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Experiment
-    - range: http___templekg.org_ontology_Instrument
-    - range: http___templekg.org_ontology_NaturalHazard
-    - range: http___templekg.org_ontology_OceanCirculation
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/ValidatedBy
-  http___templekg.org_ontology_WikiAppliesToJurisdiction:
-    any_of:
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiAppliesToJurisdiction
-  http___templekg.org_ontology_WikiAssociatedHazard:
-    range: sdos_Project
-    slot_uri: http://templekg.org/ontology/WikiAssociatedHazard
-  http___templekg.org_ontology_WikiBasedOn:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_Others
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiBasedOn
-  http___templekg.org_ontology_WikiBasinCountry:
-    any_of:
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiBasinCountry
-  http___templekg.org_ontology_WikiCapital:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiCapital
-  http___templekg.org_ontology_WikiCategoryContains:
-    range: http___templekg.org_ontology_Others
-    slot_uri: http://templekg.org/ontology/WikiCategoryContains
-  http___templekg.org_ontology_WikiChemicalFormula:
-    any_of:
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Instrument
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiChemicalFormula
-  http___templekg.org_ontology_WikiChild:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    - range: http___templekg.org_ontology_NaturalHazard
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiChild
-  http___templekg.org_ontology_WikiContinent:
-    range: http___templekg.org_ontology_Location
-    slot_uri: http://templekg.org/ontology/WikiContinent
-  http___templekg.org_ontology_WikiCountryOfCitizenship:
-    any_of:
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiCountryOfCitizenship
-  http___templekg.org_ontology_WikiCreator:
-    any_of:
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Others
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiCreator
-  http___templekg.org_ontology_WikiDepicts:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: sdos_Project
-    - range: http___templekg.org_ontology_Instrument
-    - range: http___templekg.org_ontology_Others
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiDepicts
-  http___templekg.org_ontology_WikiDerivativeWork:
-    range: http___templekg.org_ontology_Others
-    slot_uri: http://templekg.org/ontology/WikiDerivativeWork
-  http___templekg.org_ontology_WikiDesignedBy:
-    range: http___templekg.org_ontology_Provider
-    slot_uri: http://templekg.org/ontology/WikiDesignedBy
-  http___templekg.org_ontology_WikiDifferentFrom:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_WeatherEvent
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    - range: http___templekg.org_ontology_NaturalHazard
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiDifferentFrom
-  http___templekg.org_ontology_WikiElementSymbol:
-    any_of:
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Instrument
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiElementSymbol
-  http___templekg.org_ontology_WikiExpressedIn:
-    range: http___templekg.org_ontology_Variable
-    slot_uri: http://templekg.org/ontology/WikiExpressedIn
-  http___templekg.org_ontology_WikiFileExtension:
-    any_of:
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Instrument
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiFileExtension
-  http___templekg.org_ontology_WikiFollowedBy:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiFollowedBy
-  http___templekg.org_ontology_WikiFollows:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_Others
-    - range: sdos_Project
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiFollows
-  http___templekg.org_ontology_WikiHabitat:
-    any_of:
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Others
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiHabitat
-  http___templekg.org_ontology_WikiHasCause:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_WeatherEvent
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Model
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_NaturalHazard
-    - range: http___templekg.org_ontology_Instrument
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiHasCause
-  http___templekg.org_ontology_WikiHasEffect:
-    any_of:
-    - range: http___templekg.org_ontology_NaturalHazard
-    - range: sdos_Project
-    - range: http___templekg.org_ontology_Instrument
-    - range: http___templekg.org_ontology_Others
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiHasEffect
-  http___templekg.org_ontology_WikiHasParts:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_WeatherEvent
-    - range: http___templekg.org_ontology_Teleconnection
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: sdos_Project
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiHasParts
-  http___templekg.org_ontology_WikiHasPartsOfTheClass:
-    any_of:
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiHasPartsOfTheClass
-  http___templekg.org_ontology_WikiHasSubsidiary:
-    any_of:
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: sdos_Project
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiHasSubsidiary
-  http___templekg.org_ontology_WikiHasUse:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: sdos_Project
-    - range: http___templekg.org_ontology_Instrument
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiHasUse
-  http___templekg.org_ontology_WikiInfluencedBy:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiInfluencedBy
-  http___templekg.org_ontology_WikiInstanceOf:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Model
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiInstanceOf
-  http___templekg.org_ontology_WikiIsTheStudyOf:
-    any_of:
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Model
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiIsTheStudyOf
-  http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiLocatedInOrNextToBodyOfWater
-  http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity:
-    any_of:
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiLocatedInTheAdministrativeTerritorialEntity
-  http___templekg.org_ontology_WikiLocatedInonPhysicalFeature:
-    any_of:
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Others
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiLocatedInonPhysicalFeature
-  http___templekg.org_ontology_WikiLocatedOnAstronomicalBody:
-    range: http___templekg.org_ontology_Platform
-    slot_uri: http://templekg.org/ontology/WikiLocatedOnAstronomicalBody
-  http___templekg.org_ontology_WikiLocation:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiLocation
-  http___templekg.org_ontology_WikiMadeFromMaterial:
-    any_of:
-    - range: http___templekg.org_ontology_Others
-    - range: sdos_Project
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Instrument
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiMadeFromMaterial
-  http___templekg.org_ontology_WikiMeasures:
-    any_of:
-    - range: http___templekg.org_ontology_Others
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiMeasures
-  http___templekg.org_ontology_WikiMediaType:
-    range: http___templekg.org_ontology_Others
-    slot_uri: http://templekg.org/ontology/WikiMediaType
-  http___templekg.org_ontology_WikiMemberOf:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Others
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiMemberOf
-  http___templekg.org_ontology_WikiName:
-    range: http___templekg.org_ontology_Others
-    slot_uri: http://templekg.org/ontology/WikiName
-  http___templekg.org_ontology_WikiNamedAfter:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: sdos_Project
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiNamedAfter
-  http___templekg.org_ontology_WikiOperator:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: sdos_Project
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiOperator
-  http___templekg.org_ontology_WikiOppositeOf:
-    any_of:
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Others
-    - range: sdos_Project
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiOppositeOf
-  http___templekg.org_ontology_WikiPartOf:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_Teleconnection
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: sdos_Project
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiPartOf
-  http___templekg.org_ontology_WikiParticipant:
-    any_of:
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiParticipant
-  http___templekg.org_ontology_WikiPdbLigandId:
-    any_of:
-    - range: http___templekg.org_ontology_Variable
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiPdbLigandId
-  http___templekg.org_ontology_WikiPlaceOfPublication:
-    any_of:
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiPlaceOfPublication
-  http___templekg.org_ontology_WikiPortOfRegistry:
-    range: http___templekg.org_ontology_Location
-    slot_uri: http://templekg.org/ontology/WikiPortOfRegistry
-  http___templekg.org_ontology_WikiReplacedBy:
-    any_of:
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Others
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiReplacedBy
-  http___templekg.org_ontology_WikiReplaces:
-    any_of:
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Others
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiReplaces
-  http___templekg.org_ontology_WikiStudiedIn:
-    any_of:
-    - range: http___templekg.org_ontology_Model
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiStudiedIn
-  http___templekg.org_ontology_WikiSubclassOf:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_WeatherEvent
-    - range: http___templekg.org_ontology_Variable
-    - range: http___templekg.org_ontology_Model
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Location
-    - range: http___templekg.org_ontology_Instrument
-    - range: http___templekg.org_ontology_NaturalHazard
-    - range: http___templekg.org_ontology_OceanCirculation
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiSubclassOf
-  http___templekg.org_ontology_WikiUses:
-    any_of:
-    - range: http___templekg.org_ontology_Platform
-    - range: http___templekg.org_ontology_Others
-    - range: http___templekg.org_ontology_Provider
-    - range: http___templekg.org_ontology_Instrument
-    - range: sdos_Project
-    range: Any
-    slot_uri: http://templekg.org/ontology/WikiUses
-  http___templekg.org_ontology_authors:
-    range: string
-    slot_uri: http://templekg.org/ontology/authors
-  http___templekg.org_ontology_collapsed_uuids:
-    range: string
-    slot_uri: http://templekg.org/ontology/collapsed_uuids
-  http___templekg.org_ontology_content:
-    range: string
-    slot_uri: http://templekg.org/ontology/content
-  http___templekg.org_ontology_doi:
-    range: string
-    slot_uri: http://templekg.org/ontology/doi
-  http___templekg.org_ontology_end_year:
-    range: string
-    slot_uri: http://templekg.org/ontology/end_year
-  http___templekg.org_ontology_experiment:
-    range: string
-    slot_uri: http://templekg.org/ontology/experiment
-  http___templekg.org_ontology_pub_date:
-    range: string
-    slot_uri: http://templekg.org/ontology/pub_date
-  http___templekg.org_ontology_start_year:
-    range: string
-    slot_uri: http://templekg.org/ontology/start_year
-  http___templekg.org_ontology_test_property:
-    range: string
-    slot_uri: http://templekg.org/ontology/test_property
-  http___templekg.org_ontology_tier:
-    range: string
-    slot_uri: http://templekg.org/ontology/tier
-  http___templekg.org_ontology_wikidata_description:
-    range: string
-    slot_uri: http://templekg.org/ontology/wikidata_description
-  http___templekg.org_ontology_wikidata_ids:
-    range: string
-    slot_uri: http://templekg.org/ontology/wikidata_ids
-title: climatemodelskg
+    class_uri: http://templekg.org/ontology/WeatherEvent
+source_file: /code/climatepub4-kg.yaml
