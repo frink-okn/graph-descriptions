@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (xsd_decimal)
-
-
-_No class (type) description specified_
+# Class: XsdDecimal
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [xsd:decimal](http://www.w3.org/2001/XMLSchema#decimal)
@@ -35,8 +28,9 @@ URI: [xsd:decimal](http://www.w3.org/2001/XMLSchema#decimal)
 
 
 ## Inheritance
-* [RdfsLiteral](../classes/RdfsLiteral.md)
-    * **XsdDecimal**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsLiteral](../classes/RdfsLiteral.md)
+        * **XsdDecimal**
 
 
 
@@ -68,14 +62,9 @@ URI: [xsd:decimal](http://www.w3.org/2001/XMLSchema#decimal)
 
 ```yaml
 name: xsd_decimal
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: hydrology-kg
+from_schema: okns:hydrology-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#decimal
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:decimal
@@ -89,14 +78,9 @@ class_uri: xsd:decimal
 
 ```yaml
 name: xsd_decimal
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: hydrology-kg
+from_schema: okns:hydrology-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#decimal
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:decimal

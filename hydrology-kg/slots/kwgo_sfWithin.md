@@ -1,16 +1,16 @@
 
 
-# Slot: No slot (predicate) name specified (kwgo_sfWithin)
+# Slot: within (simple feature) (kwgo_sfWithin)
 
 
-_No slot (predicate) description specified_
-
-
-
+_KWG's spatial within relation_
 
 
 
-This slot occurs 906 times.
+
+
+
+This slot occurs 434877 times.
 
 
 URI: [kwgo:sfWithin](http://stko-kwg.geog.ucsb.edu/lod/ontology/sfWithin)
@@ -27,10 +27,10 @@ URI: [kwgo:sfWithin](http://stko-kwg.geog.ucsb.edu/lod/ontology/sfWithin)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No class (type) description specified |  no  |
-| [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) | No class (type) description specified |  yes  |
-| [OwlNothing](../classes/OwlNothing.md) | No class (type) description specified |  no  |
-| [OwlThing](../classes/OwlThing.md) | No class (type) description specified |  yes  |
+| [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) |  |  no  |
+| [HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md) |  |  no  |
+| [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |  |  no  |
+| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |  |  no  |
 
 
 
@@ -40,24 +40,15 @@ URI: [kwgo:sfWithin](http://stko-kwg.geog.ucsb.edu/lod/ontology/sfWithin)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HyfHYWaterBody](../classes/HyfHYWaterBody.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[Gwml22GWAquifer](../classes/Gwml22GWAquifer.md)
+* Range: [Any](../classes/Any.md)
 
 
 
 
 
+## Comments
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| kwgo_S2Cell_Level13 | hyf__HY_WaterBody | kwgr:s2.level13.5522837268412235776 | https://geoconnex.us/nhdplusv2/comid/5194604 | 511 |
-| kwgo_S2Cell_Level13 | owl_Thing | kwgr:s2.level13.5522837268412235776 | https://geoconnex.us/nhdplusv2/comid/5194604 | 906 |
-| owl_Thing | hyf__HY_WaterBody | kwgr:s2.level13.5522837268412235776 | https://geoconnex.us/nhdplusv2/comid/5194604 | 511 |
-| owl_Thing | owl_Thing | kwgr:s2.level13.5522837268412235776 | https://geoconnex.us/nhdplusv2/comid/5194604 | 906 |
-| kwgo_S2Cell_Level13 | gwml22_GW_Aquifer | kwgr:s2.level13.5523896132469522432 | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.1195 | 395 |
-| owl_Thing | gwml22_GW_Aquifer | kwgr:s2.level13.5523896132469522432 | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.1195 | 395 |
-
+* No occurrences of this slot in the graph.
 
 
 
@@ -67,61 +58,19 @@ URI: [kwgo:sfWithin](http://stko-kwg.geog.ucsb.edu/lod/ontology/sfWithin)
 
 ```yaml
 name: kwgo_sfWithin
-annotations:
-  count:
-    tag: count
-    value: 906
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-examples:
-- object:
-    example_object: https://geoconnex.us/nhdplusv2/comid/5194604
-    example_object_type: hyf__HY_WaterBody
-    example_predicate: kwgo:sfWithin
-    example_subject: kwgr:s2.level13.5522837268412235776
-    example_subject_type: kwgo_S2Cell_Level13
-- object:
-    example_object: https://geoconnex.us/nhdplusv2/comid/5194604
-    example_object_type: owl_Thing
-    example_predicate: kwgo:sfWithin
-    example_subject: kwgr:s2.level13.5522837268412235776
-    example_subject_type: kwgo_S2Cell_Level13
-- object:
-    example_object: https://geoconnex.us/nhdplusv2/comid/5194604
-    example_object_type: hyf__HY_WaterBody
-    example_predicate: kwgo:sfWithin
-    example_subject: kwgr:s2.level13.5522837268412235776
-    example_subject_type: owl_Thing
-- object:
-    example_object: https://geoconnex.us/nhdplusv2/comid/5194604
-    example_object_type: owl_Thing
-    example_predicate: kwgo:sfWithin
-    example_subject: kwgr:s2.level13.5522837268412235776
-    example_subject_type: owl_Thing
-- object:
-    example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.1195
-    example_object_type: gwml22_GW_Aquifer
-    example_predicate: kwgo:sfWithin
-    example_subject: kwgr:s2.level13.5523896132469522432
-    example_subject_type: kwgo_S2Cell_Level13
-- object:
-    example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.1195
-    example_object_type: gwml22_GW_Aquifer
-    example_predicate: kwgo:sfWithin
-    example_subject: kwgr:s2.level13.5523896132469522432
-    example_subject_type: owl_Thing
-from_schema: hydrology-kg
-rank: 1000
+description: KWG's spatial within relation
+title: within (simple feature)
+comments:
+- No occurrences of this slot in the graph.
+from_schema: okns:kwg
 slot_uri: kwgo:sfWithin
-alias: kwgo_sfWithin
 domain_of:
+- http___gwml2.org_def_gwml2#GW_Aquifer
+- hyf__HY_ElementaryFlowPath
 - kwgo_S2Cell_Level13
-- owl_Thing
+- me_mgs_MGS-Well
+subproperty_of: kwgo_spatialRelation
 range: Any
-any_of:
-- range: hyf__HY_WaterBody
-- range: owl_Thing
-- range: gwml22_GW_Aquifer
 
 ```
 </details>

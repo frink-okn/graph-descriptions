@@ -1,16 +1,16 @@
 
 
-# Slot: No slot (predicate) name specified (geo_hasGeometry)
+# Slot: No slot (predicate) name specified -- this slot is noted as a subproperty of another slot in this graph but has not itself been defined. (geo_hasGeometry)
 
 
-_No slot (predicate) description specified_
-
-
-
+_A spatial representation for a given Feature._
 
 
 
-This slot occurs 224558 times.
+
+
+
+This slot occurs 980710 times.
 
 
 URI: [geo:hasGeometry](http://www.opengis.net/ont/geosparql#hasGeometry)
@@ -27,15 +27,19 @@ URI: [geo:hasGeometry](http://www.opengis.net/ont/geosparql#hasGeometry)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Gwml22GWAquifer](../classes/Gwml22GWAquifer.md) | No class (type) description specified |  yes  |
-| [HyfHYWaterBody](../classes/HyfHYWaterBody.md) | No class (type) description specified |  yes  |
-| [OwlThing](../classes/OwlThing.md) | No class (type) description specified |  yes  |
-| [SchemaPlace](../classes/SchemaPlace.md) | Entities that have a somewhat fixed, physical extension |  yes  |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No class (type) description specified |  no  |
-| [OwlNothing](../classes/OwlNothing.md) | No class (type) description specified |  no  |
-| [GeoFeature](../classes/GeoFeature.md) | No class (type) description specified |  yes  |
-| [HyfHYFlowPath](../classes/HyfHYFlowPath.md) | No class (type) description specified |  yes  |
-| [HyfHYWaterbody](../classes/HyfHYWaterbody.md) | No class (type) description specified |  yes  |
+| [HyfHYEstuary](../classes/HyfHYEstuary.md) |  |  no  |
+| [HyfHYCanal](../classes/HyfHYCanal.md) |  |  no  |
+| [HyfHYWaterBody](../classes/HyfHYWaterBody.md) |  |  no  |
+| [HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md) |  |  no  |
+| [UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md) |  |  no  |
+| [HyfHYLagoon](../classes/HyfHYLagoon.md) |  |  no  |
+| [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) |  |  no  |
+| [HttpGwml2.orgDefGwml2#GWAquiferSystem](../classes/HttpGwml2.orgDefGwml2#GWAquiferSystem.md) |  |  no  |
+| [IlIsgsISGS-Well](../classes/IlIsgsISGS-Well.md) |  |  no  |
+| [HyfHYRiver](../classes/HyfHYRiver.md) |  |  no  |
+| [HyfHYImpoundment](../classes/HyfHYImpoundment.md) |  |  no  |
+| [HyfHYLake](../classes/HyfHYLake.md) |  |  no  |
+| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |  |  no  |
 
 
 
@@ -45,40 +49,21 @@ URI: [geo:hasGeometry](http://www.opengis.net/ont/geosparql#hasGeometry)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[Sf#LineString](../classes/Sf#LineString.md)&nbsp;or&nbsp;<br />[Sf#Polygon](../classes/Sf#Polygon.md)&nbsp;or&nbsp;<br />[Sf#MultiPolygon](../classes/Sf#MultiPolygon.md)&nbsp;or&nbsp;<br />[GeoGeometry](../classes/GeoGeometry.md)
+* Range: [GeoGeometry](../classes/GeoGeometry.md)
 
 
 
 
 
+## Comments
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| gwml22_GW_Aquifer | owl_Thing | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001 | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001 | 1256 |
-| gwml22_GW_Aquifer | sf_#Polygon | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001 | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001 | 1244 |
-| gwml22_GW_Aquifer | geo_Geometry | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001 | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001 | 1256 |
-| owl_Thing | owl_Thing | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001 | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001 | 224558 |
-| owl_Thing | sf_#Polygon | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001 | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001 | 1244 |
-| owl_Thing | geo_Geometry | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001 | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001 | 86884 |
-| gwml22_GW_Aquifer | sf_#MultiPolygon | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0175 | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175 | 12 |
-| owl_Thing | sf_#MultiPolygon | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0175 | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175 | 16803 |
-| hyf__HY_Waterbody | owl_Thing | https://geoconnex.us/nhdplusv2/comid/1001 | https://geoconnex.us/nhdplusv2/comid/1001.geometry | 68837 |
-| hyf__HY_Waterbody | sf_#LineString | https://geoconnex.us/nhdplusv2/comid/1001 | https://geoconnex.us/nhdplusv2/comid/1001.geometry | 68837 |
-| hyf__HY_Waterbody | geo_Geometry | https://geoconnex.us/nhdplusv2/comid/1001 | https://geoconnex.us/nhdplusv2/comid/1001.geometry | 68837 |
-| schema_Place | owl_Thing | https://geoconnex.us/nhdplusv2/comid/1001 | https://geoconnex.us/nhdplusv2/comid/1001.geometry | 68837 |
-| schema_Place | sf_#LineString | https://geoconnex.us/nhdplusv2/comid/1001 | https://geoconnex.us/nhdplusv2/comid/1001.geometry | 68837 |
-| schema_Place | geo_Geometry | https://geoconnex.us/nhdplusv2/comid/1001 | https://geoconnex.us/nhdplusv2/comid/1001.geometry | 68837 |
-| owl_Thing | sf_#LineString | https://geoconnex.us/nhdplusv2/comid/1001 | https://geoconnex.us/nhdplusv2/comid/1001.geometry | 68837 |
-| hyf__HY_FlowPath | owl_Thing | https://geoconnex.us/nhdplusv2/comid/1001 | https://geoconnex.us/nhdplusv2/comid/1001.geometry | 68837 |
-| hyf__HY_FlowPath | sf_#LineString | https://geoconnex.us/nhdplusv2/comid/1001 | https://geoconnex.us/nhdplusv2/comid/1001.geometry | 68837 |
-| hyf__HY_FlowPath | geo_Geometry | https://geoconnex.us/nhdplusv2/comid/1001 | https://geoconnex.us/nhdplusv2/comid/1001.geometry | 68837 |
-| geo_Feature | owl_Thing | https://geoconnex.us/nhdplusv2/comid/1001.head | https://geoconnex.us/nhdplusv2/comid/1001.head.geometry | 137674 |
-| hyf__HY_WaterBody | owl_Thing | https://geoconnex.us/nhdplusv2/comid/10101972 | https://geoconnex.us/nhdplusv2/comid/10101972/Geometry | 16791 |
-| hyf__HY_WaterBody | geo_Geometry | https://geoconnex.us/nhdplusv2/comid/10101972 | https://geoconnex.us/nhdplusv2/comid/10101972/Geometry | 16791 |
-| hyf__HY_WaterBody | sf_#MultiPolygon | https://geoconnex.us/nhdplusv2/comid/10101972 | https://geoconnex.us/nhdplusv2/comid/10101972/Geometry | 16791 |
-
+* source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties
+* source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties
+* source: http://www.opengis.net/ont/geosparql#
+* source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties
+* source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties
+* description: A spatial representation for a given Feature.
+* No occurrences of this slot in the graph.
 
 
 
@@ -88,164 +73,31 @@ URI: [geo:hasGeometry](http://www.opengis.net/ont/geosparql#hasGeometry)
 
 ```yaml
 name: geo_hasGeometry
-annotations:
-  count:
-    tag: count
-    value: 224558
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-examples:
-- object:
-    example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-    example_object_type: owl_Thing
-    example_predicate: geo:hasGeometry
-    example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-    example_subject_type: gwml22_GW_Aquifer
-- object:
-    example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-    example_object_type: sf_#Polygon
-    example_predicate: geo:hasGeometry
-    example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-    example_subject_type: gwml22_GW_Aquifer
-- object:
-    example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-    example_object_type: geo_Geometry
-    example_predicate: geo:hasGeometry
-    example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-    example_subject_type: gwml22_GW_Aquifer
-- object:
-    example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-    example_object_type: owl_Thing
-    example_predicate: geo:hasGeometry
-    example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-    example_subject_type: owl_Thing
-- object:
-    example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-    example_object_type: sf_#Polygon
-    example_predicate: geo:hasGeometry
-    example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-    example_subject_type: owl_Thing
-- object:
-    example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-    example_object_type: geo_Geometry
-    example_predicate: geo:hasGeometry
-    example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-    example_subject_type: owl_Thing
-- object:
-    example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-    example_object_type: sf_#MultiPolygon
-    example_predicate: geo:hasGeometry
-    example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0175
-    example_subject_type: gwml22_GW_Aquifer
-- object:
-    example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-    example_object_type: sf_#MultiPolygon
-    example_predicate: geo:hasGeometry
-    example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0175
-    example_subject_type: owl_Thing
-- object:
-    example_object: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-    example_object_type: owl_Thing
-    example_predicate: geo:hasGeometry
-    example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-    example_subject_type: hyf__HY_Waterbody
-- object:
-    example_object: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-    example_object_type: sf_#LineString
-    example_predicate: geo:hasGeometry
-    example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-    example_subject_type: hyf__HY_Waterbody
-- object:
-    example_object: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-    example_object_type: geo_Geometry
-    example_predicate: geo:hasGeometry
-    example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-    example_subject_type: hyf__HY_Waterbody
-- object:
-    example_object: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-    example_object_type: owl_Thing
-    example_predicate: geo:hasGeometry
-    example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-    example_subject_type: schema_Place
-- object:
-    example_object: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-    example_object_type: sf_#LineString
-    example_predicate: geo:hasGeometry
-    example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-    example_subject_type: schema_Place
-- object:
-    example_object: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-    example_object_type: geo_Geometry
-    example_predicate: geo:hasGeometry
-    example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-    example_subject_type: schema_Place
-- object:
-    example_object: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-    example_object_type: sf_#LineString
-    example_predicate: geo:hasGeometry
-    example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-    example_subject_type: owl_Thing
-- object:
-    example_object: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-    example_object_type: owl_Thing
-    example_predicate: geo:hasGeometry
-    example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-    example_subject_type: hyf__HY_FlowPath
-- object:
-    example_object: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-    example_object_type: sf_#LineString
-    example_predicate: geo:hasGeometry
-    example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-    example_subject_type: hyf__HY_FlowPath
-- object:
-    example_object: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-    example_object_type: geo_Geometry
-    example_predicate: geo:hasGeometry
-    example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-    example_subject_type: hyf__HY_FlowPath
-- object:
-    example_object: https://geoconnex.us/nhdplusv2/comid/1001.head.geometry
-    example_object_type: owl_Thing
-    example_predicate: geo:hasGeometry
-    example_subject: https://geoconnex.us/nhdplusv2/comid/1001.head
-    example_subject_type: geo_Feature
-- object:
-    example_object: https://geoconnex.us/nhdplusv2/comid/10101972/Geometry
-    example_object_type: owl_Thing
-    example_predicate: geo:hasGeometry
-    example_subject: https://geoconnex.us/nhdplusv2/comid/10101972
-    example_subject_type: hyf__HY_WaterBody
-- object:
-    example_object: https://geoconnex.us/nhdplusv2/comid/10101972/Geometry
-    example_object_type: geo_Geometry
-    example_predicate: geo:hasGeometry
-    example_subject: https://geoconnex.us/nhdplusv2/comid/10101972
-    example_subject_type: hyf__HY_WaterBody
-- object:
-    example_object: https://geoconnex.us/nhdplusv2/comid/10101972/Geometry
-    example_object_type: sf_#MultiPolygon
-    example_predicate: geo:hasGeometry
-    example_subject: https://geoconnex.us/nhdplusv2/comid/10101972
-    example_subject_type: hyf__HY_WaterBody
-from_schema: hydrology-kg
-rank: 1000
+description: A spatial representation for a given Feature.
+title: No slot (predicate) name specified -- this slot is noted as a subproperty of
+  another slot in this graph but has not itself been defined.
+comments:
+- 'source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties'
+- 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties'
+- 'source: http://www.opengis.net/ont/geosparql#'
+- 'source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties'
+- 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties'
+- 'description: A spatial representation for a given Feature.'
+- No occurrences of this slot in the graph.
+from_schema: okns:geo
+source: http://www.opengis.net/ont/geosparql#
+domain: geo_Feature
 slot_uri: geo:hasGeometry
-alias: geo_hasGeometry
 domain_of:
-- geo_Feature
-- gwml22_GW_Aquifer
-- hyf__HY_FlowPath
+- http___gwml2.org_def_gwml2#GW_Aquifer
+- http___gwml2.org_def_gwml2#GW_AquiferSystem
+- hyf__HY_ElementaryFlowPath
+- hyf__HY_Lake
 - hyf__HY_WaterBody
-- hyf__HY_Waterbody
-- owl_Thing
-- schema_Place
-range: Any
-any_of:
-- range: owl_Thing
-- range: sf_#LineString
-- range: sf_#Polygon
-- range: sf_#MultiPolygon
-- range: geo_Geometry
+- il_isgs_ISGS-Well
+- me_mgs_MGS-Well
+- us_sdwis_PWS-ServiceArea
+range: geo_Geometry
 
 ```
 </details>

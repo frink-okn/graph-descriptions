@@ -1,16 +1,9 @@
 
 
-# Slot: No slot (predicate) name specified (rdf__1)
-
-
-_No slot (predicate) description specified_
+# Slot: rdf__1
 
 
 
-
-
-
-This slot occurs 0 times.
 
 
 URI: [rdf:_1](http://www.w3.org/1999/02/22-rdf-syntax-ns#_1)
@@ -46,15 +39,11 @@ URI: [rdf:_1](http://www.w3.org/1999/02/22-rdf-syntax-ns#_1)
 
 ```yaml
 name: rdf__1
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
-from_schema: hydrology-kg
+from_schema: okns:hydrology-kg
+exact_mappings:
+- http://www.w3.org/1999/02/22-rdf-syntax-ns#_1
 rank: 1000
 slot_uri: rdf:_1
 alias: rdf__1

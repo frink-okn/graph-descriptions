@@ -1,16 +1,16 @@
 
 
-# Slot: No slot (predicate) name specified (kwgo_sfOverlaps)
+# Slot: overlaps (simple feature) (kwgo_sfOverlaps)
 
 
-_No slot (predicate) description specified_
-
-
-
+_KWG's spatial overlap relation_
 
 
 
-This slot occurs 55755 times.
+
+
+
+This slot occurs 962554 times.
 
 
 URI: [kwgo:sfOverlaps](http://stko-kwg.geog.ucsb.edu/lod/ontology/sfOverlaps)
@@ -27,11 +27,22 @@ URI: [kwgo:sfOverlaps](http://stko-kwg.geog.ucsb.edu/lod/ontology/sfOverlaps)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Gwml22GWAquifer](../classes/Gwml22GWAquifer.md) | No class (type) description specified |  yes  |
-| [OwlThing](../classes/OwlThing.md) | No class (type) description specified |  yes  |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No class (type) description specified |  no  |
-| [OwlNothing](../classes/OwlNothing.md) | No class (type) description specified |  no  |
-| [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) | No class (type) description specified |  yes  |
+| [HyfHYEstuary](../classes/HyfHYEstuary.md) |  |  no  |
+| [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) |  |  no  |
+| [HyfHYCanal](../classes/HyfHYCanal.md) |  |  no  |
+| [HyfHYWaterBody](../classes/HyfHYWaterBody.md) |  |  no  |
+| [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) |  |  no  |
+| [HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md) |  |  no  |
+| [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |  |  no  |
+| [UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md) |  |  no  |
+| [HyfHYLagoon](../classes/HyfHYLagoon.md) |  |  no  |
+| [UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md) |  |  no  |
+| [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) |  |  no  |
+| [HttpGwml2.orgDefGwml2#GWAquiferSystem](../classes/HttpGwml2.orgDefGwml2#GWAquiferSystem.md) |  |  no  |
+| [HyfHYRiver](../classes/HyfHYRiver.md) |  |  no  |
+| [HyfHYImpoundment](../classes/HyfHYImpoundment.md) |  |  no  |
+| [HyfHYLake](../classes/HyfHYLake.md) |  |  no  |
+| [UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md) |  |  no  |
 
 
 
@@ -41,27 +52,15 @@ URI: [kwgo:sfOverlaps](http://stko-kwg.geog.ucsb.edu/lod/ontology/sfOverlaps)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HyfHYWaterBody](../classes/HyfHYWaterBody.md)&nbsp;or&nbsp;<br />[KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[Gwml22GWAquifer](../classes/Gwml22GWAquifer.md)
+* Range: [Any](../classes/Any.md)
 
 
 
 
 
+## Comments
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| gwml22_GW_Aquifer | kwgo_S2Cell_Level13 | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001 | kwgr:s2.level13.9935671970391654400 | 14211 |
-| gwml22_GW_Aquifer | owl_Thing | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001 | kwgr:s2.level13.9935671970391654400 | 14223 |
-| owl_Thing | kwgo_S2Cell_Level13 | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001 | kwgr:s2.level13.9935671970391654400 | 14211 |
-| owl_Thing | owl_Thing | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001 | kwgr:s2.level13.9935671970391654400 | 55755 |
-| kwgo_S2Cell_Level13 | gwml22_GW_Aquifer | kwgr:s2.level13.5522341904064184320 | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.1176 | 14211 |
-| kwgo_S2Cell_Level13 | owl_Thing | kwgr:s2.level13.5522341904064184320 | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.1176 | 41520 |
-| owl_Thing | gwml22_GW_Aquifer | kwgr:s2.level13.5522341904064184320 | http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.1176 | 14223 |
-| kwgo_S2Cell_Level13 | hyf__HY_WaterBody | kwgr:s2.level13.5522342316381044736 | https://geoconnex.us/nhdplusv2/comid/802769 | 27309 |
-| owl_Thing | hyf__HY_WaterBody | kwgr:s2.level13.5522342316381044736 | https://geoconnex.us/nhdplusv2/comid/802769 | 27309 |
-
+* No occurrences of this slot in the graph.
 
 
 
@@ -71,81 +70,26 @@ URI: [kwgo:sfOverlaps](http://stko-kwg.geog.ucsb.edu/lod/ontology/sfOverlaps)
 
 ```yaml
 name: kwgo_sfOverlaps
-annotations:
-  count:
-    tag: count
-    value: 55755
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-examples:
-- object:
-    example_object: kwgr:s2.level13.9935671970391654400
-    example_object_type: kwgo_S2Cell_Level13
-    example_predicate: kwgo:sfOverlaps
-    example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-    example_subject_type: gwml22_GW_Aquifer
-- object:
-    example_object: kwgr:s2.level13.9935671970391654400
-    example_object_type: owl_Thing
-    example_predicate: kwgo:sfOverlaps
-    example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-    example_subject_type: gwml22_GW_Aquifer
-- object:
-    example_object: kwgr:s2.level13.9935671970391654400
-    example_object_type: kwgo_S2Cell_Level13
-    example_predicate: kwgo:sfOverlaps
-    example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-    example_subject_type: owl_Thing
-- object:
-    example_object: kwgr:s2.level13.9935671970391654400
-    example_object_type: owl_Thing
-    example_predicate: kwgo:sfOverlaps
-    example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-    example_subject_type: owl_Thing
-- object:
-    example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.1176
-    example_object_type: gwml22_GW_Aquifer
-    example_predicate: kwgo:sfOverlaps
-    example_subject: kwgr:s2.level13.5522341904064184320
-    example_subject_type: kwgo_S2Cell_Level13
-- object:
-    example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.1176
-    example_object_type: owl_Thing
-    example_predicate: kwgo:sfOverlaps
-    example_subject: kwgr:s2.level13.5522341904064184320
-    example_subject_type: kwgo_S2Cell_Level13
-- object:
-    example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.1176
-    example_object_type: gwml22_GW_Aquifer
-    example_predicate: kwgo:sfOverlaps
-    example_subject: kwgr:s2.level13.5522341904064184320
-    example_subject_type: owl_Thing
-- object:
-    example_object: https://geoconnex.us/nhdplusv2/comid/802769
-    example_object_type: hyf__HY_WaterBody
-    example_predicate: kwgo:sfOverlaps
-    example_subject: kwgr:s2.level13.5522342316381044736
-    example_subject_type: kwgo_S2Cell_Level13
-- object:
-    example_object: https://geoconnex.us/nhdplusv2/comid/802769
-    example_object_type: hyf__HY_WaterBody
-    example_predicate: kwgo:sfOverlaps
-    example_subject: kwgr:s2.level13.5522342316381044736
-    example_subject_type: owl_Thing
-from_schema: hydrology-kg
-rank: 1000
+description: KWG's spatial overlap relation
+title: overlaps (simple feature)
+comments:
+- No occurrences of this slot in the graph.
+from_schema: okns:kwg
 slot_uri: kwgo:sfOverlaps
-alias: kwgo_sfOverlaps
 domain_of:
-- gwml22_GW_Aquifer
+- http___gwml2.org_def_gwml2#GW_Aquifer
+- http___gwml2.org_def_gwml2#GW_AquiferSystem
+- hyf__HY_Lake
+- hyf__HY_WaterBody
 - kwgo_S2Cell_Level13
-- owl_Thing
+- us_sdwis_PWS-ServiceArea
+- us_sdwis_PublicWaterSystem-CWS
+- us_sdwis_PublicWaterSystem-GW
+- us_sdwis_PublicWaterSystem-NTNCWS
+- us_sdwis_PublicWaterSystem-SW
+- us_sdwis_PublicWaterSystem-TNCWS
+subproperty_of: kwgo_spatialRelation
 range: Any
-any_of:
-- range: hyf__HY_WaterBody
-- range: kwgo_S2Cell_Level13
-- range: owl_Thing
-- range: gwml22_GW_Aquifer
 
 ```
 </details>

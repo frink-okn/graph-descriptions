@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (xsd_positiveInteger)
-
-
-_No class (type) description specified_
+# Class: XsdPositiveInteger
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [xsd:positiveInteger](http://www.w3.org/2001/XMLSchema#positiveInteger)
@@ -35,8 +28,9 @@ URI: [xsd:positiveInteger](http://www.w3.org/2001/XMLSchema#positiveInteger)
 
 
 ## Inheritance
-* [RdfsLiteral](../classes/RdfsLiteral.md)
-    * **XsdPositiveInteger**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsLiteral](../classes/RdfsLiteral.md)
+        * **XsdPositiveInteger**
 
 
 
@@ -68,14 +62,9 @@ URI: [xsd:positiveInteger](http://www.w3.org/2001/XMLSchema#positiveInteger)
 
 ```yaml
 name: xsd_positiveInteger
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: hydrology-kg
+from_schema: okns:hydrology-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#positiveInteger
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:positiveInteger
@@ -89,14 +78,9 @@ class_uri: xsd:positiveInteger
 
 ```yaml
 name: xsd_positiveInteger
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: hydrology-kg
+from_schema: okns:hydrology-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#positiveInteger
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:positiveInteger

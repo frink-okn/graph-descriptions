@@ -1,16 +1,16 @@
 
 
-# Class: No class (type) name specified (rdf_List)
+# Class: List (rdf_List)
 
 
-_No class (type) description specified_
-
-
-
+_The class of RDF Lists._
 
 
 
-This class occurs 1 times.
+
+
+
+This class occurs 3 times.
 
 
 URI: [rdf:List](http://www.w3.org/1999/02/22-rdf-syntax-ns#List)
@@ -24,12 +24,33 @@ URI: [rdf:List](http://www.w3.org/1999/02/22-rdf-syntax-ns#List)
  classDiagram
     class RdfList
     click RdfList href "../RdfList"
-      RdfList : owl_sameAs
+      RdfsResource <|-- RdfList
+        click RdfsResource href "../RdfsResource"
+      
+      RdfList : rdfs_comment
         
           
     
     
-    RdfList --> "0..1" Any : owl_sameAs
+    RdfList --> "0..1" Any : rdfs_comment
+    click Any href "../Any"
+
+        
+      RdfList : rdfs_isDefinedBy
+        
+          
+    
+    
+    RdfList --> "0..1" Any : rdfs_isDefinedBy
+    click Any href "../Any"
+
+        
+      RdfList : rdfs_label
+        
+          
+    
+    
+    RdfList --> "0..1" Any : rdfs_label
     click Any href "../Any"
 
         
@@ -39,39 +60,23 @@ URI: [rdf:List](http://www.w3.org/1999/02/22-rdf-syntax-ns#List)
 
 
 
-<!-- no inheritance hierarchy -->
+
+## Inheritance
+* [RdfsResource](../classes/RdfsResource.md)
+    * **RdfList**
+
 
 
 ## Slots
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [HyfHYWaterBody](../classes/HyfHYWaterBody.md)&nbsp;or&nbsp;<br />[KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[Sf#LineString](../classes/Sf#LineString.md)&nbsp;or&nbsp;<br />[Sf#Polygon](../classes/Sf#Polygon.md)&nbsp;or&nbsp;<br />[Sf#MultiPolygon](../classes/Sf#MultiPolygon.md)&nbsp;or&nbsp;<br />[HyfHYWaterbody](../classes/HyfHYWaterbody.md)&nbsp;or&nbsp;<br />[RdfList](../classes/RdfList.md)&nbsp;or&nbsp;<br />[GeoFeature](../classes/GeoFeature.md)&nbsp;or&nbsp;<br />[GeoGeometry](../classes/GeoGeometry.md)&nbsp;or&nbsp;<br />[HyfHYFlowPath](../classes/HyfHYFlowPath.md)&nbsp;or&nbsp;<br />[SchemaPlace](../classes/SchemaPlace.md)&nbsp;or&nbsp;<br />[Gwml22GWAquifer](../classes/Gwml22GWAquifer.md)&nbsp;or&nbsp;<br />[RdfObjectProperty](../classes/RdfObjectProperty.md) | No slot (predicate) description specified <br/>  | direct | 2 |
+| [rdfs_isDefinedBy](../slots/rdfs_isDefinedBy.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[OwlOntology](../classes/OwlOntology.md)&nbsp;or&nbsp;<br />[RdfsResource](../classes/RdfsResource.md) | The definition of the subject resource <br/>  | direct |  |
+| [rdfs_comment](../slots/rdfs_comment.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | A description of the subject resource <br/>  | direct |  |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | A human-readable name for the subject <br/>  | direct |  |
 
 
 
-
-
-## Usages
-
-| used by | used in | type | used |
-| ---  | --- | --- | --- |
-| [GeoFeature](../classes/GeoFeature.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [RdfList](../classes/RdfList.md) |
-| [GeoGeometry](../classes/GeoGeometry.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [RdfList](../classes/RdfList.md) |
-| [Gwml22GWAquifer](../classes/Gwml22GWAquifer.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [RdfList](../classes/RdfList.md) |
-| [HyfHYFlowPath](../classes/HyfHYFlowPath.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [RdfList](../classes/RdfList.md) |
-| [HyfHYWaterBody](../classes/HyfHYWaterBody.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [RdfList](../classes/RdfList.md) |
-| [HyfHYWaterbody](../classes/HyfHYWaterbody.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [RdfList](../classes/RdfList.md) |
-| [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [RdfList](../classes/RdfList.md) |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [RdfList](../classes/RdfList.md) |
-| [OwlNothing](../classes/OwlNothing.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [RdfList](../classes/RdfList.md) |
-| [OwlThing](../classes/OwlThing.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [RdfList](../classes/RdfList.md) |
-| [RdfList](../classes/RdfList.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [RdfList](../classes/RdfList.md) |
-| [RdfObjectProperty](../classes/RdfObjectProperty.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [RdfList](../classes/RdfList.md) |
-| [SchemaPlace](../classes/SchemaPlace.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [RdfList](../classes/RdfList.md) |
-| [Sf#LineString](../classes/Sf#LineString.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [RdfList](../classes/RdfList.md) |
-| [Sf#MultiPolygon](../classes/Sf#MultiPolygon.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [RdfList](../classes/RdfList.md) |
-| [Sf#Polygon](../classes/Sf#Polygon.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [RdfList](../classes/RdfList.md) |
 
 
 
@@ -93,27 +98,15 @@ URI: [rdf:List](http://www.w3.org/1999/02/22-rdf-syntax-ns#List)
 
 ```yaml
 name: rdf_List
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: hydrology-kg
-rank: 1000
+description: The class of RDF Lists.
+title: List
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+is_a: rdfs_Resource
 slots:
-- owl_sameAs
-slot_usage:
-  owl_sameAs:
-    name: owl_sameAs
-    annotations:
-      owl_Thing:
-        tag: owl_Thing
-        value: 1
-      rdf_List:
-        tag: rdf_List
-        value: 1
+- rdfs_isDefinedBy
+- rdfs_comment
+- rdfs_label
 class_uri: rdf:List
 
 ```
@@ -125,388 +118,356 @@ class_uri: rdf:List
 
 ```yaml
 name: rdf_List
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: hydrology-kg
-rank: 1000
-slot_usage:
-  owl_sameAs:
-    name: owl_sameAs
-    annotations:
-      owl_Thing:
-        tag: owl_Thing
-        value: 1
-      rdf_List:
-        tag: rdf_List
-        value: 1
+description: The class of RDF Lists.
+title: List
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+is_a: rdfs_Resource
 attributes:
-  owl_sameAs:
-    name: owl_sameAs
-    annotations:
-      owl_Thing:
-        tag: owl_Thing
-        value: 1
-      rdf_List:
-        tag: rdf_List
-        value: 1
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: memgs2:MGS
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: memgs2:MGS
-        example_subject_type: owl_Thing
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-        example_object_type: gwml22_GW_Aquifer
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-        example_subject_type: gwml22_GW_Aquifer
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-        example_subject_type: gwml22_GW_Aquifer
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-        example_object_type: gwml22_GW_Aquifer
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-        example_subject_type: owl_Thing
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_object_type: sf_#Polygon
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_subject_type: owl_Thing
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_object_type: geo_Geometry
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_subject_type: owl_Thing
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_subject_type: sf_#Polygon
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_object_type: sf_#Polygon
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_subject_type: sf_#Polygon
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_object_type: geo_Geometry
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_subject_type: sf_#Polygon
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_subject_type: geo_Geometry
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_object_type: sf_#Polygon
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_subject_type: geo_Geometry
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_object_type: geo_Geometry
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_subject_type: geo_Geometry
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-        example_subject_type: sf_#MultiPolygon
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-        example_object_type: geo_Geometry
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-        example_subject_type: sf_#MultiPolygon
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-        example_object_type: sf_#MultiPolygon
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-        example_subject_type: sf_#MultiPolygon
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-        example_object_type: sf_#MultiPolygon
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-        example_subject_type: owl_Thing
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-        example_object_type: sf_#MultiPolygon
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-        example_subject_type: geo_Geometry
-    - object:
-        example_object: kwgr:s2.level13.5522341869704445952
-        example_object_type: kwgo_S2Cell_Level13
-        example_predicate: owl:sameAs
-        example_subject: kwgr:s2.level13.5522341869704445952
-        example_subject_type: kwgo_S2Cell_Level13
-    - object:
-        example_object: kwgr:s2.level13.5522341869704445952
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: kwgr:s2.level13.5522341869704445952
-        example_subject_type: kwgo_S2Cell_Level13
-    - object:
-        example_object: kwgr:s2.level13.5522341869704445952
-        example_object_type: kwgo_S2Cell_Level13
-        example_predicate: owl:sameAs
-        example_subject: kwgr:s2.level13.5522341869704445952
-        example_subject_type: owl_Thing
-    - object:
-        example_object: rdf:nil
-        example_object_type: rdf_List
-        example_predicate: owl:sameAs
-        example_subject: rdf:nil
-        example_subject_type: owl_Thing
-    - object:
-        example_object: rdf:nil
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: rdf:nil
-        example_subject_type: rdf_List
-    - object:
-        example_object: rdf:nil
-        example_object_type: rdf_List
-        example_predicate: owl:sameAs
-        example_subject: rdf:nil
-        example_subject_type: rdf_List
-    - object:
-        example_object: owl:topObjectProperty
-        example_object_type: rdf_ObjectProperty
-        example_predicate: owl:sameAs
-        example_subject: owl:topObjectProperty
-        example_subject_type: owl_Thing
-    - object:
-        example_object: owl:topObjectProperty
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: owl:topObjectProperty
-        example_subject_type: rdf_ObjectProperty
-    - object:
-        example_object: owl:topObjectProperty
-        example_object_type: rdf_ObjectProperty
-        example_predicate: owl:sameAs
-        example_subject: owl:topObjectProperty
-        example_subject_type: rdf_ObjectProperty
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: hyf__HY_Waterbody
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: hyf__HY_Waterbody
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: schema_Place
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: hyf__HY_Waterbody
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: hyf__HY_Waterbody
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: hyf__HY_FlowPath
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: hyf__HY_Waterbody
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: hyf__HY_Waterbody
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: schema_Place
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: schema_Place
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: schema_Place
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: schema_Place
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: hyf__HY_FlowPath
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: schema_Place
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: hyf__HY_Waterbody
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: owl_Thing
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: schema_Place
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: owl_Thing
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: hyf__HY_FlowPath
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: owl_Thing
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: hyf__HY_Waterbody
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: hyf__HY_FlowPath
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: schema_Place
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: hyf__HY_FlowPath
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: hyf__HY_FlowPath
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: hyf__HY_FlowPath
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: hyf__HY_FlowPath
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-        example_object_type: sf_#LineString
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-        example_subject_type: owl_Thing
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-        example_subject_type: sf_#LineString
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-        example_object_type: sf_#LineString
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-        example_subject_type: sf_#LineString
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-        example_object_type: geo_Geometry
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-        example_subject_type: sf_#LineString
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-        example_object_type: sf_#LineString
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-        example_subject_type: geo_Geometry
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001.head
-        example_object_type: geo_Feature
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001.head
-        example_subject_type: geo_Feature
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001.head
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001.head
-        example_subject_type: geo_Feature
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001.head
-        example_object_type: geo_Feature
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001.head
-        example_subject_type: owl_Thing
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/10101972
-        example_object_type: hyf__HY_WaterBody
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/10101972
-        example_subject_type: hyf__HY_WaterBody
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/10101972
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/10101972
-        example_subject_type: hyf__HY_WaterBody
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/10101972
-        example_object_type: hyf__HY_WaterBody
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/10101972
-        example_subject_type: owl_Thing
-    from_schema: hydrology-kg
-    rank: 1000
-    domain: owl_sameAs
-    slot_uri: owl:sameAs
-    alias: owl_sameAs
+  rdfs_isDefinedBy:
+    name: rdfs_isDefinedBy
+    description: The definition of the subject resource.
+    title: isDefinedBy
+    from_schema: okns:owl-rdf-rdfs
+    source: http://www.w3.org/2000/01/rdf-schema#
+    domain: rdfs_Resource
+    slot_uri: rdfs:isDefinedBy
+    alias: rdfs_isDefinedBy
     owner: rdf_List
     domain_of:
-    - geo_Feature
-    - geo_Geometry
-    - gwml22_GW_Aquifer
-    - hyf__HY_FlowPath
-    - hyf__HY_WaterBody
-    - hyf__HY_Waterbody
-    - kwgo_S2Cell_Level13
-    - owl_Thing
+    - dcam_VocabularyEncodingScheme
+    - qudt_AspectClass
+    - qudt_BitEncodingType
+    - qudt_BooleanEncodingType
+    - qudt_ByteEncodingType
+    - qudt_CardinalityType
+    - qudt_CharEncodingType
+    - qudt_DateTimeStringEncodingType
+    - qudt_EndianType
+    - qudt_FloatingPointEncodingType
+    - qudt_IntegerEncodingType
+    - qudt_OrderedType
+    - qudt_SignednessType
+    - owl_OntologyProperty
     - rdf_List
-    - rdf_ObjectProperty
-    - schema_Place
-    - sf_#LineString
-    - sf_#MultiPolygon
-    - sf_#Polygon
+    - rdfs_Datatype
+    - vaem_GraphMetaData
+    - vaem_GraphRole
+    - vaem_Party
+    - vaem_CatalogEntry
+    - voag_Attribution
+    - voag_AttributionLogo
+    - voag_ChangeFrequency
+    - voag_ChangeType
+    - voag_ConfidentialityLevel
+    - voag_CreativeCommonsPermission
+    - voag_CreativeCommonsProhibition
+    - voag_CreativeCommonsRequirement
+    - voag_Governance
+    - voag_GovernanceRole
+    - voag_Icon
+    - voag_IssueStatus
+    - voag_LicenseModel
+    - voag_Logo
+    - voag_Maturity
+    - voag_OrganizationLogo
+    - voag_Pedigree
+    - voag_PriorityValue
+    - voag_ProductLogo
+    - voag_Provenance
+    - voag_PublicationStatus
+    - voag_SchemaGraph
+    - kwgo_CensusObservableProperty
+    subproperty_of: rdfs_seeAlso
     range: Any
     any_of:
-    - range: hyf__HY_WaterBody
-    - range: kwgo_S2Cell_Level13
-    - range: owl_Thing
     - range: uri
-    - range: sf_#LineString
-    - range: sf_#Polygon
-    - range: sf_#MultiPolygon
-    - range: hyf__HY_Waterbody
-    - range: rdf_List
-    - range: geo_Feature
-    - range: geo_Geometry
-    - range: hyf__HY_FlowPath
-    - range: schema_Place
-    - range: gwml22_GW_Aquifer
-    - range: rdf_ObjectProperty
+    - range: owl_Ontology
+    - range: rdfs_Resource
+  rdfs_comment:
+    name: rdfs_comment
+    description: A description of the subject resource.
+    title: comment
+    from_schema: okns:owl-rdf-rdfs
+    source: http://www.w3.org/2000/01/rdf-schema#
+    domain: rdfs_Resource
+    slot_uri: rdfs:comment
+    alias: rdfs_comment
+    owner: rdf_List
+    domain_of:
+    - dcam_VocabularyEncodingScheme
+    - qudt_AspectClass
+    - owl_OntologyProperty
+    - rdf_List
+    - rdfs_Datatype
+    - sdos_ActionStatusType
+    - sdos_AdultOrientedEnumeration
+    - sdos_BoardingPolicyType
+    - sdos_BodyMeasurementTypeEnumeration
+    - sdos_BookFormatType
+    - sdos_Boolean
+    - sdos_CarUsageType
+    - sdos_CertificationStatusEnumeration
+    - sdos_ContactPointOption
+    - sdos_DayOfWeek
+    - sdos_DeliveryMethod
+    - sdos_DigitalDocumentPermissionType
+    - sdos_DigitalPlatformEnumeration
+    - sdos_DriveWheelConfigurationValue
+    - sdos_DrugCostCategory
+    - sdos_DrugPregnancyCategory
+    - sdos_DrugPrescriptionStatus
+    - sdos_EUEnergyEfficiencyEnumeration
+    - sdos_EnergyStarEnergyEfficiencyEnumeration
+    - sdos_EventAttendanceModeEnumeration
+    - sdos_EventStatusType
+    - sdos_FulfillmentTypeEnumeration
+    - sdos_GameAvailabilityEnumeration
+    - sdos_GamePlayMode
+    - sdos_GameServerStatus
+    - sdos_GenderType
+    - sdos_GovernmentBenefitsType
+    - sdos_HealthAspectEnumeration
+    - sdos_IPTCDigitalSourceEnumeration
+    - sdos_IncentiveQualifiedExpenseType
+    - sdos_IncentiveStatus
+    - sdos_IncentiveType
+    - sdos_InfectiousAgentClass
+    - sdos_ItemAvailability
+    - sdos_ItemListOrderType
+    - sdos_LegalForceStatus
+    - sdos_LegalValueLevel
+    - sdos_MapCategoryType
+    - sdos_MeasurementMethodEnum
+    - sdos_MediaManipulationRatingEnumeration
+    - sdos_MedicalAudienceType
+    - sdos_MedicalDevicePurpose
+    - sdos_MedicalEvidenceLevel
+    - sdos_MedicalImagingTechnique
+    - sdos_MedicalObservationalStudyDesign
+    - sdos_MedicalProcedureType
+    - sdos_MedicalSpecialty
+    - sdos_MedicalStudyStatus
+    - sdos_MedicalTrialDesign
+    - sdos_MedicineSystem
+    - sdos_MerchantReturnEnumeration
+    - sdos_MusicAlbumProductionType
+    - sdos_MusicAlbumReleaseType
+    - sdos_MusicReleaseFormatType
+    - sdos_NLNonprofitType
+    - sdos_OfferItemCondition
+    - sdos_OrderStatus
+    - sdos_PaymentMethodType
+    - sdos_PaymentStatusType
+    - sdos_PhysicalActivityCategory
+    - sdos_PhysicalExam
+    - sdos_PriceComponentTypeEnumeration
+    - sdos_PriceTypeEnumeration
+    - sdos_ProductReturnEnumeration
+    - sdos_PurchaseType
+    - sdos_RefundTypeEnumeration
+    - sdos_ReservationStatusType
+    - sdos_RestrictedDiet
+    - sdos_ReturnFeesEnumeration
+    - sdos_ReturnLabelSourceEnumeration
+    - sdos_ReturnMethodEnumeration
+    - sdos_RsvpResponseType
+    - sdos_SizeSystemEnumeration
+    - sdos_SteeringPositionValue
+    - sdos_TierBenefitEnumeration
+    - sdos_UKNonprofitType
+    - sdos_USNonprofitType
+    - sdos_WearableMeasurementTypeEnumeration
+    - sdos_WearableSizeGroupEnumeration
+    - sdos_WearableSizeSystemEnumeration
+    - rdf_DatatypeProperty
+    - kwgo_CensusObservableProperty
+    - kwgo_LSADArea
+    - kwgo_MTBSFireObservableProperty
+    - kwgo_SoilMapUnitObservableProperty
+    - http___gwml2.org_def_gwml2#GW_AquiferSystem
+    range: Any
+    any_of:
+    - range: rdfs_Literal
+    - range: string
+  rdfs_label:
+    name: rdfs_label
+    description: A human-readable name for the subject.
+    title: label
+    from_schema: okns:owl-rdf-rdfs
+    source: http://www.w3.org/2000/01/rdf-schema#
+    domain: rdfs_Resource
+    slot_uri: rdfs:label
+    alias: rdfs_label
+    owner: rdf_List
+    domain_of:
+    - dcam_VocabularyEncodingScheme
+    - qudt_AspectClass
+    - qudt_BitEncodingType
+    - qudt_BooleanEncodingType
+    - qudt_ByteEncodingType
+    - qudt_CardinalityType
+    - qudt_CharEncodingType
+    - qudt_DateTimeStringEncodingType
+    - qudt_EndianType
+    - qudt_FloatingPointEncodingType
+    - qudt_IntegerEncodingType
+    - qudt_OrderedType
+    - qudt_SignednessType
+    - owl_OntologyProperty
+    - rdf_List
+    - rdfs_Datatype
+    - time_DayOfWeek
+    - time_TemporalUnit
+    - sdos_ActionStatusType
+    - sdos_AdultOrientedEnumeration
+    - sdos_BoardingPolicyType
+    - sdos_BodyMeasurementTypeEnumeration
+    - sdos_BookFormatType
+    - sdos_Boolean
+    - sdos_CarUsageType
+    - sdos_CertificationStatusEnumeration
+    - sdos_ContactPointOption
+    - sdos_DayOfWeek
+    - sdos_DeliveryMethod
+    - sdos_DigitalDocumentPermissionType
+    - sdos_DigitalPlatformEnumeration
+    - sdos_DriveWheelConfigurationValue
+    - sdos_DrugCostCategory
+    - sdos_DrugPregnancyCategory
+    - sdos_DrugPrescriptionStatus
+    - sdos_EUEnergyEfficiencyEnumeration
+    - sdos_EnergyStarEnergyEfficiencyEnumeration
+    - sdos_EventAttendanceModeEnumeration
+    - sdos_EventStatusType
+    - sdos_FulfillmentTypeEnumeration
+    - sdos_GameAvailabilityEnumeration
+    - sdos_GamePlayMode
+    - sdos_GameServerStatus
+    - sdos_GenderType
+    - sdos_GovernmentBenefitsType
+    - sdos_HealthAspectEnumeration
+    - sdos_IPTCDigitalSourceEnumeration
+    - sdos_IncentiveQualifiedExpenseType
+    - sdos_IncentiveStatus
+    - sdos_IncentiveType
+    - sdos_InfectiousAgentClass
+    - sdos_ItemAvailability
+    - sdos_ItemListOrderType
+    - sdos_LegalForceStatus
+    - sdos_LegalValueLevel
+    - sdos_MapCategoryType
+    - sdos_MeasurementMethodEnum
+    - sdos_MediaManipulationRatingEnumeration
+    - sdos_MedicalAudienceType
+    - sdos_MedicalDevicePurpose
+    - sdos_MedicalEvidenceLevel
+    - sdos_MedicalImagingTechnique
+    - sdos_MedicalObservationalStudyDesign
+    - sdos_MedicalProcedureType
+    - sdos_MedicalSpecialty
+    - sdos_MedicalStudyStatus
+    - sdos_MedicalTrialDesign
+    - sdos_MedicineSystem
+    - sdos_MerchantReturnEnumeration
+    - sdos_MusicAlbumProductionType
+    - sdos_MusicAlbumReleaseType
+    - sdos_MusicReleaseFormatType
+    - sdos_NLNonprofitType
+    - sdos_OfferItemCondition
+    - sdos_OrderStatus
+    - sdos_PaymentMethodType
+    - sdos_PaymentStatusType
+    - sdos_PhysicalActivityCategory
+    - sdos_PhysicalExam
+    - sdos_PriceComponentTypeEnumeration
+    - sdos_PriceTypeEnumeration
+    - sdos_ProductReturnEnumeration
+    - sdos_PurchaseType
+    - sdos_RefundTypeEnumeration
+    - sdos_ReservationStatusType
+    - sdos_RestrictedDiet
+    - sdos_ReturnFeesEnumeration
+    - sdos_ReturnLabelSourceEnumeration
+    - sdos_ReturnMethodEnumeration
+    - sdos_RsvpResponseType
+    - sdos_SizeSystemEnumeration
+    - sdos_SteeringPositionValue
+    - sdos_TierBenefitEnumeration
+    - sdos_UKNonprofitType
+    - sdos_USNonprofitType
+    - sdos_WearableMeasurementTypeEnumeration
+    - sdos_WearableSizeGroupEnumeration
+    - sdos_WearableSizeSystemEnumeration
+    - rdf_DatatypeProperty
+    - vaem_GraphMetaData
+    - vaem_GraphRole
+    - vaem_Party
+    - vaem_CatalogEntry
+    - voag_Attribution
+    - voag_AttributionLogo
+    - voag_ChangeFrequency
+    - voag_ChangeType
+    - voag_ConfidentialityLevel
+    - voag_CreativeCommonsPermission
+    - voag_CreativeCommonsProhibition
+    - voag_CreativeCommonsRequirement
+    - voag_Governance
+    - voag_GovernanceRole
+    - voag_Icon
+    - voag_IssueStatus
+    - voag_LicenseModel
+    - voag_Logo
+    - voag_Maturity
+    - voag_OrganizationLogo
+    - voag_Pedigree
+    - voag_PriorityValue
+    - voag_ProductLogo
+    - voag_Provenance
+    - voag_PublicationStatus
+    - voag_SchemaGraph
+    - kwgo_AirPollutant
+    - kwgo_BlueskyWildfireObservableProperty
+    - kwgo_CensusObservableProperty
+    - kwgo_ClimateObservableProperty
+    - kwgo_CroplandObservableProperty
+    - kwgo_DroughtIntensity
+    - kwgo_FireCause
+    - kwgo_HelipadAvailability
+    - kwgo_HospitalStatus
+    - kwgo_HospitalType
+    - kwgo_ImpactObservableProperty
+    - kwgo_LSADArea
+    - kwgo_MTBSFireObservableProperty
+    - kwgo_MagnitudeObservableProperty
+    - kwgo_NIFCFireObservableProperty
+    - kwgo_PublicHealthObservableProperty
+    - kwgo_RoadType
+    - kwgo_SmokePlumeObservableProperty
+    - kwgo_SoilMapUnitObservableProperty
+    - kwgo_StormTrackObservableProperty
+    - kwgo_StormTrackletObservableProperty
+    - kwgo_VulnerabilityObservableProperty
+    - http___gwml2.org_def_gwml2#GW_Aquifer
+    - http___gwml2.org_def_gwml2#GW_AquiferSystem
+    - hyf__HY_ElementaryFlowPath
+    - hyf__HY_Lake
+    - hyf__HY_WaterBody
+    - il_isgs_ISGS-Well
+    - il_isgs_WellPurpose
+    - me_mgs_MGS-Well
+    - us_sdwis_PWS-ServiceAreaType
+    - us_sdwis_PWS-SubFeatureActivity
+    - us_sdwis_PWS-SubFeatureType
+    - us_sdwis_PublicWaterSystem-CWS
+    - us_sdwis_PublicWaterSystem-GW
+    - us_sdwis_PublicWaterSystem-NTNCWS
+    - us_sdwis_PublicWaterSystem-SW
+    - us_sdwis_PublicWaterSystem-TNCWS
+    range: Any
+    any_of:
+    - range: rdfs_Literal
+    - range: string
 class_uri: rdf:List
 
 ```

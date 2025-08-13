@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (xsd_anyURI)
-
-
-_No class (type) description specified_
+# Class: XsdAnyURI
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
@@ -35,8 +28,9 @@ URI: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
 
 
 ## Inheritance
-* [RdfsLiteral](../classes/RdfsLiteral.md)
-    * **XsdAnyURI**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsLiteral](../classes/RdfsLiteral.md)
+        * **XsdAnyURI**
 
 
 
@@ -68,14 +62,9 @@ URI: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
 
 ```yaml
 name: xsd_anyURI
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: hydrology-kg
+from_schema: okns:hydrology-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#anyURI
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:anyURI
@@ -89,14 +78,9 @@ class_uri: xsd:anyURI
 
 ```yaml
 name: xsd_anyURI
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: hydrology-kg
+from_schema: okns:hydrology-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#anyURI
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:anyURI

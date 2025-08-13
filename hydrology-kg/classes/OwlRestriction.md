@@ -1,16 +1,16 @@
 
 
-# Class: No class (type) name specified (owl_Restriction)
+# Class: Restriction (owl_Restriction)
 
 
-_No class (type) description specified_
-
-
-
+_The class of property restrictions._
 
 
 
-This class occurs 0 times.
+
+
+
+This class occurs 1 times.
 
 
 URI: [owl:Restriction](http://www.w3.org/2002/07/owl#Restriction)
@@ -35,9 +35,10 @@ URI: [owl:Restriction](http://www.w3.org/2002/07/owl#Restriction)
 
 
 ## Inheritance
-* [RdfsClass](../classes/RdfsClass.md)
-    * [OwlClass](../classes/OwlClass.md)
-        * **OwlRestriction**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsClass](../classes/RdfsClass.md)
+        * [OwlClass](../classes/OwlClass.md)
+            * **OwlRestriction**
 
 
 
@@ -69,15 +70,10 @@ URI: [owl:Restriction](http://www.w3.org/2002/07/owl#Restriction)
 
 ```yaml
 name: owl_Restriction
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: hydrology-kg
-rank: 1000
+description: The class of property restrictions.
+title: Restriction
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/2002/07/owl#
 is_a: owl_Class
 class_uri: owl:Restriction
 
@@ -90,15 +86,10 @@ class_uri: owl:Restriction
 
 ```yaml
 name: owl_Restriction
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: hydrology-kg
-rank: 1000
+description: The class of property restrictions.
+title: Restriction
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/2002/07/owl#
 is_a: owl_Class
 class_uri: owl:Restriction
 

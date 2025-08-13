@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (xsd_nonNegativeInteger)
-
-
-_No class (type) description specified_
+# Class: XsdNonNegativeInteger
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [xsd:nonNegativeInteger](http://www.w3.org/2001/XMLSchema#nonNegativeInteger)
@@ -35,8 +28,9 @@ URI: [xsd:nonNegativeInteger](http://www.w3.org/2001/XMLSchema#nonNegativeIntege
 
 
 ## Inheritance
-* [RdfsLiteral](../classes/RdfsLiteral.md)
-    * **XsdNonNegativeInteger**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsLiteral](../classes/RdfsLiteral.md)
+        * **XsdNonNegativeInteger**
 
 
 
@@ -68,14 +62,9 @@ URI: [xsd:nonNegativeInteger](http://www.w3.org/2001/XMLSchema#nonNegativeIntege
 
 ```yaml
 name: xsd_nonNegativeInteger
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: hydrology-kg
+from_schema: okns:hydrology-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#nonNegativeInteger
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:nonNegativeInteger
@@ -89,14 +78,9 @@ class_uri: xsd:nonNegativeInteger
 
 ```yaml
 name: xsd_nonNegativeInteger
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: hydrology-kg
+from_schema: okns:hydrology-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#nonNegativeInteger
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:nonNegativeInteger
