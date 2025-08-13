@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (xsd_boolean)
-
-
-_No class (type) description specified_
+# Class: XsdBoolean
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [xsd:boolean](http://www.w3.org/2001/XMLSchema#boolean)
@@ -35,8 +28,9 @@ URI: [xsd:boolean](http://www.w3.org/2001/XMLSchema#boolean)
 
 
 ## Inheritance
-* [RdfsLiteral](../classes/RdfsLiteral.md)
-    * **XsdBoolean**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsLiteral](../classes/RdfsLiteral.md)
+        * **XsdBoolean**
 
 
 
@@ -68,14 +62,9 @@ URI: [xsd:boolean](http://www.w3.org/2001/XMLSchema#boolean)
 
 ```yaml
 name: xsd_boolean
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: hydrology-kg
+from_schema: okns:hydrology-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#boolean
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:boolean
@@ -89,14 +78,9 @@ class_uri: xsd:boolean
 
 ```yaml
 name: xsd_boolean
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: hydrology-kg
+from_schema: okns:hydrology-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#boolean
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:boolean

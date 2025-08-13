@@ -1,16 +1,11 @@
 
 
-# Class: No class (type) name specified (kwgo_S2Cell_Level13)
-
-
-_No class (type) description specified_
+# Class: KwgoS2CellLevel13
 
 
 
 
-
-
-This class occurs 86332 times.
+This class occurs 7404184 times.
 
 
 URI: [kwgo:S2Cell_Level13](http://stko-kwg.geog.ucsb.edu/lod/ontology/S2Cell_Level13)
@@ -24,6 +19,18 @@ URI: [kwgo:S2Cell_Level13](http://stko-kwg.geog.ucsb.edu/lod/ontology/S2Cell_Lev
  classDiagram
     class KwgoS2CellLevel13
     click KwgoS2CellLevel13 href "../KwgoS2CellLevel13"
+      OwlThing <|-- KwgoS2CellLevel13
+        click OwlThing href "../OwlThing"
+      
+      KwgoS2CellLevel13 : kwgo_sfContains
+        
+          
+    
+    
+    KwgoS2CellLevel13 --> "0..1" Any : kwgo_sfContains
+    click Any href "../Any"
+
+        
       KwgoS2CellLevel13 : kwgo_sfCrosses
         
           
@@ -51,12 +58,39 @@ URI: [kwgo:S2Cell_Level13](http://stko-kwg.geog.ucsb.edu/lod/ontology/S2Cell_Lev
     click Any href "../Any"
 
         
+      KwgoS2CellLevel13 : kwgo_spatialRelation
+        
+          
+    
+    
+    KwgoS2CellLevel13 --> "0..1" Any : kwgo_spatialRelation
+    click Any href "../Any"
+
+        
       KwgoS2CellLevel13 : owl_sameAs
         
           
     
     
-    KwgoS2CellLevel13 --> "0..1" Any : owl_sameAs
+    KwgoS2CellLevel13 --> "0..1" OwlThing : owl_sameAs
+    click OwlThing href "../OwlThing"
+
+        
+      KwgoS2CellLevel13 : spatial_connectedTo
+        
+          
+    
+    
+    KwgoS2CellLevel13 --> "0..1" Any : spatial_connectedTo
+    click Any href "../Any"
+
+        
+      KwgoS2CellLevel13 : spatial_spatiallyRelatedTo
+        
+          
+    
+    
+    KwgoS2CellLevel13 --> "0..1" Any : spatial_spatiallyRelatedTo
     click Any href "../Any"
 
         
@@ -66,17 +100,25 @@ URI: [kwgo:S2Cell_Level13](http://stko-kwg.geog.ucsb.edu/lod/ontology/S2Cell_Lev
 
 
 
-<!-- no inheritance hierarchy -->
+
+## Inheritance
+* [OwlThing](../classes/OwlThing.md)
+    * **KwgoS2CellLevel13**
+
 
 
 ## Slots
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [kwgo_sfWithin](../slots/kwgo_sfWithin.md) | 0..1 <br/> [HyfHYWaterBody](../classes/HyfHYWaterBody.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[Gwml22GWAquifer](../classes/Gwml22GWAquifer.md) | No slot (predicate) description specified <br/>  | direct | 1812 |
-| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [HyfHYWaterBody](../classes/HyfHYWaterBody.md)&nbsp;or&nbsp;<br />[KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[Sf#LineString](../classes/Sf#LineString.md)&nbsp;or&nbsp;<br />[Sf#Polygon](../classes/Sf#Polygon.md)&nbsp;or&nbsp;<br />[Sf#MultiPolygon](../classes/Sf#MultiPolygon.md)&nbsp;or&nbsp;<br />[HyfHYWaterbody](../classes/HyfHYWaterbody.md)&nbsp;or&nbsp;<br />[RdfList](../classes/RdfList.md)&nbsp;or&nbsp;<br />[GeoFeature](../classes/GeoFeature.md)&nbsp;or&nbsp;<br />[GeoGeometry](../classes/GeoGeometry.md)&nbsp;or&nbsp;<br />[HyfHYFlowPath](../classes/HyfHYFlowPath.md)&nbsp;or&nbsp;<br />[SchemaPlace](../classes/SchemaPlace.md)&nbsp;or&nbsp;<br />[Gwml22GWAquifer](../classes/Gwml22GWAquifer.md)&nbsp;or&nbsp;<br />[RdfObjectProperty](../classes/RdfObjectProperty.md) | No slot (predicate) description specified <br/>  | direct | 172664 |
-| [kwgo_sfOverlaps](../slots/kwgo_sfOverlaps.md) | 0..1 <br/> [HyfHYWaterBody](../classes/HyfHYWaterBody.md)&nbsp;or&nbsp;<br />[KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[Gwml22GWAquifer](../classes/Gwml22GWAquifer.md) | No slot (predicate) description specified <br/>  | direct | 83040 |
-| [kwgo_sfCrosses](../slots/kwgo_sfCrosses.md) | 0..1 <br/> [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[HyfHYWaterbody](../classes/HyfHYWaterbody.md)&nbsp;or&nbsp;<br />[HyfHYFlowPath](../classes/HyfHYFlowPath.md)&nbsp;or&nbsp;<br />[SchemaPlace](../classes/SchemaPlace.md) | No slot (predicate) description specified <br/>  | direct | 379116 |
+| [kwgo_sfOverlaps](../slots/kwgo_sfOverlaps.md) | 0..1 <br/> [Any](../classes/Any.md) | KWG's spatial overlap relation <br/> No occurrences of this slot in the graph. | direct | 915273 |
+| [kwgo_sfContains](../slots/kwgo_sfContains.md) | 0..1 <br/> [Any](../classes/Any.md) | KWG's spatial contains relation <br/> No occurrences of this slot in the graph. | direct | 83050 |
+| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/> No occurrences of this slot in the graph. | direct | 7404184 |
+| [spatial_connectedTo](../slots/spatial_connectedTo.md) | 0..1 <br/> [HttpGwml2.orgDefGwml2#GWAquiferSystem](../classes/HttpGwml2.orgDefGwml2#GWAquiferSystem.md)&nbsp;or&nbsp;<br />[KwgoAdministrativeRegion3](../classes/KwgoAdministrativeRegion3.md)&nbsp;or&nbsp;<br />[HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md)&nbsp;or&nbsp;<br />[MeMgsMGS-Well](../classes/MeMgsMGS-Well.md)&nbsp;or&nbsp;<br />[KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md)&nbsp;or&nbsp;<br />[KwgoAdministrativeRegion](../classes/KwgoAdministrativeRegion.md)&nbsp;or&nbsp;<br />[GeoSpatialObject](../classes/GeoSpatialObject.md)&nbsp;or&nbsp;<br />[UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md)&nbsp;or&nbsp;<br />[HyfHYWaterBody](../classes/HyfHYWaterBody.md)&nbsp;or&nbsp;<br />[KwgoRegion](../classes/KwgoRegion.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md)&nbsp;or&nbsp;<br />[KwgoAdministrativeRegion2](../classes/KwgoAdministrativeRegion2.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md)&nbsp;or&nbsp;<br />[HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md)&nbsp;or&nbsp;<br />[HyfHYLake](../classes/HyfHYLake.md) |  <br/>  | direct | 2934367 |
+| [kwgo_spatialRelation](../slots/kwgo_spatialRelation.md) | 0..1 <br/> [Any](../classes/Any.md) | KWG's general spatial relation <br/> No occurrences of this slot in the graph. | direct | 2934367 |
+| [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | 0..1 <br/> [HttpGwml2.orgDefGwml2#GWAquiferSystem](../classes/HttpGwml2.orgDefGwml2#GWAquiferSystem.md)&nbsp;or&nbsp;<br />[KwgoAdministrativeRegion3](../classes/KwgoAdministrativeRegion3.md)&nbsp;or&nbsp;<br />[HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md)&nbsp;or&nbsp;<br />[MeMgsMGS-Well](../classes/MeMgsMGS-Well.md)&nbsp;or&nbsp;<br />[KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md)&nbsp;or&nbsp;<br />[KwgoAdministrativeRegion](../classes/KwgoAdministrativeRegion.md)&nbsp;or&nbsp;<br />[GeoSpatialObject](../classes/GeoSpatialObject.md)&nbsp;or&nbsp;<br />[UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md)&nbsp;or&nbsp;<br />[HyfHYWaterBody](../classes/HyfHYWaterBody.md)&nbsp;or&nbsp;<br />[KwgoRegion](../classes/KwgoRegion.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md)&nbsp;or&nbsp;<br />[KwgoAdministrativeRegion2](../classes/KwgoAdministrativeRegion2.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md)&nbsp;or&nbsp;<br />[HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md)&nbsp;or&nbsp;<br />[HyfHYLake](../classes/HyfHYLake.md) |  <br/>  | direct | 2934367 |
+| [kwgo_sfCrosses](../slots/kwgo_sfCrosses.md) | 0..1 <br/> [Any](../classes/Any.md) | KWG's spatial comment relation <br/> No occurrences of this slot in the graph. | direct | 1391903 |
+| [kwgo_sfWithin](../slots/kwgo_sfWithin.md) | 0..1 <br/> [Any](../classes/Any.md) | KWG's spatial within relation <br/> No occurrences of this slot in the graph. | direct | 546892 |
 
 
 
@@ -86,38 +128,42 @@ URI: [kwgo:S2Cell_Level13](http://stko-kwg.geog.ucsb.edu/lod/ontology/S2Cell_Lev
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [GeoFeature](../classes/GeoFeature.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [GeoGeometry](../classes/GeoGeometry.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [Gwml22GWAquifer](../classes/Gwml22GWAquifer.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [Gwml22GWAquifer](../classes/Gwml22GWAquifer.md) | [kwgo_sfOverlaps](../slots/kwgo_sfOverlaps.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [Gwml22GWAquifer](../classes/Gwml22GWAquifer.md) | [kwgo_sfContains](../slots/kwgo_sfContains.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [HyfHYFlowPath](../classes/HyfHYFlowPath.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [HyfHYFlowPath](../classes/HyfHYFlowPath.md) | [kwgo_sfCrosses](../slots/kwgo_sfCrosses.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [HyfHYWaterBody](../classes/HyfHYWaterBody.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [HyfHYWaterbody](../classes/HyfHYWaterbody.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [HyfHYWaterbody](../classes/HyfHYWaterbody.md) | [kwgo_sfCrosses](../slots/kwgo_sfCrosses.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) | [kwgo_sfOverlaps](../slots/kwgo_sfOverlaps.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) | [kwgo_sfCrosses](../slots/kwgo_sfCrosses.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | [kwgo_sfCrosses](../slots/kwgo_sfCrosses.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | [kwgo_sfOverlaps](../slots/kwgo_sfOverlaps.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | [kwgo_sfContains](../slots/kwgo_sfContains.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [OwlNothing](../classes/OwlNothing.md) | [kwgo_sfCrosses](../slots/kwgo_sfCrosses.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [OwlNothing](../classes/OwlNothing.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [OwlNothing](../classes/OwlNothing.md) | [kwgo_sfOverlaps](../slots/kwgo_sfOverlaps.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [OwlNothing](../classes/OwlNothing.md) | [kwgo_sfContains](../slots/kwgo_sfContains.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [OwlThing](../classes/OwlThing.md) | [kwgo_sfCrosses](../slots/kwgo_sfCrosses.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [OwlThing](../classes/OwlThing.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [OwlThing](../classes/OwlThing.md) | [kwgo_sfOverlaps](../slots/kwgo_sfOverlaps.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [OwlThing](../classes/OwlThing.md) | [kwgo_sfContains](../slots/kwgo_sfContains.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [RdfList](../classes/RdfList.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [RdfObjectProperty](../classes/RdfObjectProperty.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [SchemaPlace](../classes/SchemaPlace.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [SchemaPlace](../classes/SchemaPlace.md) | [kwgo_sfCrosses](../slots/kwgo_sfCrosses.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [Sf#LineString](../classes/Sf#LineString.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [Sf#MultiPolygon](../classes/Sf#MultiPolygon.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
-| [Sf#Polygon](../classes/Sf#Polygon.md) | [owl_sameAs](../slots/owl_sameAs.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [HttpGwml2.orgDefGwml2#GWAquiferSystem](../classes/HttpGwml2.orgDefGwml2#GWAquiferSystem.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [HttpGwml2.orgDefGwml2#GWAquiferSystem](../classes/HttpGwml2.orgDefGwml2#GWAquiferSystem.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [HyfHYCanal](../classes/HyfHYCanal.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [HyfHYCanal](../classes/HyfHYCanal.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [HyfHYEstuary](../classes/HyfHYEstuary.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [HyfHYEstuary](../classes/HyfHYEstuary.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [HyfHYImpoundment](../classes/HyfHYImpoundment.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [HyfHYImpoundment](../classes/HyfHYImpoundment.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [HyfHYLagoon](../classes/HyfHYLagoon.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [HyfHYLagoon](../classes/HyfHYLagoon.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [HyfHYLake](../classes/HyfHYLake.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [HyfHYLake](../classes/HyfHYLake.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [HyfHYRiver](../classes/HyfHYRiver.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [HyfHYRiver](../classes/HyfHYRiver.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [HyfHYWaterBody](../classes/HyfHYWaterBody.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [HyfHYWaterBody](../classes/HyfHYWaterBody.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
+| [UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |
 
 
 
@@ -139,69 +185,20 @@ URI: [kwgo:S2Cell_Level13](http://stko-kwg.geog.ucsb.edu/lod/ontology/S2Cell_Lev
 
 ```yaml
 name: kwgo_S2Cell_Level13
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 86332
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: hydrology-kg
+from_schema: okns:hydrology-kg
+exact_mappings:
+- http://stko-kwg.geog.ucsb.edu/lod/ontology/S2Cell_Level13
 rank: 1000
+is_a: owl_Thing
 slots:
-- kwgo_sfWithin
-- owl_sameAs
 - kwgo_sfOverlaps
+- kwgo_sfContains
+- owl_sameAs
+- spatial_connectedTo
+- kwgo_spatialRelation
+- spatial_spatiallyRelatedTo
 - kwgo_sfCrosses
-slot_usage:
-  kwgo_sfCrosses:
-    name: kwgo_sfCrosses
-    annotations:
-      hyf__HY_FlowPath:
-        tag: hyf__HY_FlowPath
-        value: 94779
-      hyf__HY_Waterbody:
-        tag: hyf__HY_Waterbody
-        value: 94779
-      owl_Thing:
-        tag: owl_Thing
-        value: 94779
-      schema_Place:
-        tag: schema_Place
-        value: 94779
-  kwgo_sfOverlaps:
-    name: kwgo_sfOverlaps
-    annotations:
-      gwml22_GW_Aquifer:
-        tag: gwml22_GW_Aquifer
-        value: 14211
-      hyf__HY_WaterBody:
-        tag: hyf__HY_WaterBody
-        value: 27309
-      owl_Thing:
-        tag: owl_Thing
-        value: 41520
-  kwgo_sfWithin:
-    name: kwgo_sfWithin
-    annotations:
-      gwml22_GW_Aquifer:
-        tag: gwml22_GW_Aquifer
-        value: 395
-      hyf__HY_WaterBody:
-        tag: hyf__HY_WaterBody
-        value: 511
-      owl_Thing:
-        tag: owl_Thing
-        value: 906
-  owl_sameAs:
-    name: owl_sameAs
-    annotations:
-      kwgo_S2Cell_Level13:
-        tag: kwgo_S2Cell_Level13
-        value: 86332
-      owl_Thing:
-        tag: owl_Thing
-        value: 86332
+- kwgo_sfWithin
 class_uri: kwgo:S2Cell_Level13
 
 ```
@@ -213,701 +210,256 @@ class_uri: kwgo:S2Cell_Level13
 
 ```yaml
 name: kwgo_S2Cell_Level13
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 86332
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: hydrology-kg
+from_schema: okns:hydrology-kg
+exact_mappings:
+- http://stko-kwg.geog.ucsb.edu/lod/ontology/S2Cell_Level13
 rank: 1000
-slot_usage:
-  kwgo_sfCrosses:
-    name: kwgo_sfCrosses
-    annotations:
-      hyf__HY_FlowPath:
-        tag: hyf__HY_FlowPath
-        value: 94779
-      hyf__HY_Waterbody:
-        tag: hyf__HY_Waterbody
-        value: 94779
-      owl_Thing:
-        tag: owl_Thing
-        value: 94779
-      schema_Place:
-        tag: schema_Place
-        value: 94779
-  kwgo_sfOverlaps:
-    name: kwgo_sfOverlaps
-    annotations:
-      gwml22_GW_Aquifer:
-        tag: gwml22_GW_Aquifer
-        value: 14211
-      hyf__HY_WaterBody:
-        tag: hyf__HY_WaterBody
-        value: 27309
-      owl_Thing:
-        tag: owl_Thing
-        value: 41520
-  kwgo_sfWithin:
-    name: kwgo_sfWithin
-    annotations:
-      gwml22_GW_Aquifer:
-        tag: gwml22_GW_Aquifer
-        value: 395
-      hyf__HY_WaterBody:
-        tag: hyf__HY_WaterBody
-        value: 511
-      owl_Thing:
-        tag: owl_Thing
-        value: 906
-  owl_sameAs:
-    name: owl_sameAs
-    annotations:
-      kwgo_S2Cell_Level13:
-        tag: kwgo_S2Cell_Level13
-        value: 86332
-      owl_Thing:
-        tag: owl_Thing
-        value: 86332
+is_a: owl_Thing
 attributes:
-  kwgo_sfWithin:
-    name: kwgo_sfWithin
-    annotations:
-      gwml22_GW_Aquifer:
-        tag: gwml22_GW_Aquifer
-        value: 395
-      hyf__HY_WaterBody:
-        tag: hyf__HY_WaterBody
-        value: 511
-      owl_Thing:
-        tag: owl_Thing
-        value: 906
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/5194604
-        example_object_type: hyf__HY_WaterBody
-        example_predicate: kwgo:sfWithin
-        example_subject: kwgr:s2.level13.5522837268412235776
-        example_subject_type: kwgo_S2Cell_Level13
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/5194604
-        example_object_type: owl_Thing
-        example_predicate: kwgo:sfWithin
-        example_subject: kwgr:s2.level13.5522837268412235776
-        example_subject_type: kwgo_S2Cell_Level13
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/5194604
-        example_object_type: hyf__HY_WaterBody
-        example_predicate: kwgo:sfWithin
-        example_subject: kwgr:s2.level13.5522837268412235776
-        example_subject_type: owl_Thing
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/5194604
-        example_object_type: owl_Thing
-        example_predicate: kwgo:sfWithin
-        example_subject: kwgr:s2.level13.5522837268412235776
-        example_subject_type: owl_Thing
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.1195
-        example_object_type: gwml22_GW_Aquifer
-        example_predicate: kwgo:sfWithin
-        example_subject: kwgr:s2.level13.5523896132469522432
-        example_subject_type: kwgo_S2Cell_Level13
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.1195
-        example_object_type: gwml22_GW_Aquifer
-        example_predicate: kwgo:sfWithin
-        example_subject: kwgr:s2.level13.5523896132469522432
-        example_subject_type: owl_Thing
-    from_schema: hydrology-kg
-    rank: 1000
-    slot_uri: kwgo:sfWithin
-    alias: kwgo_sfWithin
-    owner: kwgo_S2Cell_Level13
-    domain_of:
-    - kwgo_S2Cell_Level13
-    - owl_Thing
-    range: Any
-    any_of:
-    - range: hyf__HY_WaterBody
-    - range: owl_Thing
-    - range: gwml22_GW_Aquifer
-  owl_sameAs:
-    name: owl_sameAs
-    annotations:
-      kwgo_S2Cell_Level13:
-        tag: kwgo_S2Cell_Level13
-        value: 86332
-      owl_Thing:
-        tag: owl_Thing
-        value: 86332
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: memgs2:MGS
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: memgs2:MGS
-        example_subject_type: owl_Thing
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-        example_object_type: gwml22_GW_Aquifer
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-        example_subject_type: gwml22_GW_Aquifer
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-        example_subject_type: gwml22_GW_Aquifer
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-        example_object_type: gwml22_GW_Aquifer
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-        example_subject_type: owl_Thing
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_object_type: sf_#Polygon
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_subject_type: owl_Thing
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_object_type: geo_Geometry
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_subject_type: owl_Thing
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_subject_type: sf_#Polygon
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_object_type: sf_#Polygon
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_subject_type: sf_#Polygon
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_object_type: geo_Geometry
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_subject_type: sf_#Polygon
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_subject_type: geo_Geometry
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_object_type: sf_#Polygon
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_subject_type: geo_Geometry
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_object_type: geo_Geometry
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0001
-        example_subject_type: geo_Geometry
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-        example_subject_type: sf_#MultiPolygon
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-        example_object_type: geo_Geometry
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-        example_subject_type: sf_#MultiPolygon
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-        example_object_type: sf_#MultiPolygon
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-        example_subject_type: sf_#MultiPolygon
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-        example_object_type: sf_#MultiPolygon
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-        example_subject_type: owl_Thing
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-        example_object_type: sf_#MultiPolygon
-        example_predicate: owl:sameAs
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.Geometry.0175
-        example_subject_type: geo_Geometry
-    - object:
-        example_object: kwgr:s2.level13.5522341869704445952
-        example_object_type: kwgo_S2Cell_Level13
-        example_predicate: owl:sameAs
-        example_subject: kwgr:s2.level13.5522341869704445952
-        example_subject_type: kwgo_S2Cell_Level13
-    - object:
-        example_object: kwgr:s2.level13.5522341869704445952
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: kwgr:s2.level13.5522341869704445952
-        example_subject_type: kwgo_S2Cell_Level13
-    - object:
-        example_object: kwgr:s2.level13.5522341869704445952
-        example_object_type: kwgo_S2Cell_Level13
-        example_predicate: owl:sameAs
-        example_subject: kwgr:s2.level13.5522341869704445952
-        example_subject_type: owl_Thing
-    - object:
-        example_object: rdf:nil
-        example_object_type: rdf_List
-        example_predicate: owl:sameAs
-        example_subject: rdf:nil
-        example_subject_type: owl_Thing
-    - object:
-        example_object: rdf:nil
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: rdf:nil
-        example_subject_type: rdf_List
-    - object:
-        example_object: rdf:nil
-        example_object_type: rdf_List
-        example_predicate: owl:sameAs
-        example_subject: rdf:nil
-        example_subject_type: rdf_List
-    - object:
-        example_object: owl:topObjectProperty
-        example_object_type: rdf_ObjectProperty
-        example_predicate: owl:sameAs
-        example_subject: owl:topObjectProperty
-        example_subject_type: owl_Thing
-    - object:
-        example_object: owl:topObjectProperty
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: owl:topObjectProperty
-        example_subject_type: rdf_ObjectProperty
-    - object:
-        example_object: owl:topObjectProperty
-        example_object_type: rdf_ObjectProperty
-        example_predicate: owl:sameAs
-        example_subject: owl:topObjectProperty
-        example_subject_type: rdf_ObjectProperty
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: hyf__HY_Waterbody
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: hyf__HY_Waterbody
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: schema_Place
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: hyf__HY_Waterbody
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: hyf__HY_Waterbody
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: hyf__HY_FlowPath
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: hyf__HY_Waterbody
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: hyf__HY_Waterbody
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: schema_Place
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: schema_Place
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: schema_Place
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: schema_Place
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: hyf__HY_FlowPath
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: schema_Place
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: hyf__HY_Waterbody
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: owl_Thing
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: schema_Place
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: owl_Thing
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: hyf__HY_FlowPath
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: owl_Thing
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: hyf__HY_Waterbody
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: hyf__HY_FlowPath
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: schema_Place
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: hyf__HY_FlowPath
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: hyf__HY_FlowPath
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001
-        example_object_type: hyf__HY_FlowPath
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: hyf__HY_FlowPath
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-        example_object_type: sf_#LineString
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-        example_subject_type: owl_Thing
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-        example_subject_type: sf_#LineString
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-        example_object_type: sf_#LineString
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-        example_subject_type: sf_#LineString
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-        example_object_type: geo_Geometry
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-        example_subject_type: sf_#LineString
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-        example_object_type: sf_#LineString
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001.geometry
-        example_subject_type: geo_Geometry
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001.head
-        example_object_type: geo_Feature
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001.head
-        example_subject_type: geo_Feature
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001.head
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001.head
-        example_subject_type: geo_Feature
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/1001.head
-        example_object_type: geo_Feature
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001.head
-        example_subject_type: owl_Thing
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/10101972
-        example_object_type: hyf__HY_WaterBody
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/10101972
-        example_subject_type: hyf__HY_WaterBody
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/10101972
-        example_object_type: owl_Thing
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/10101972
-        example_subject_type: hyf__HY_WaterBody
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/10101972
-        example_object_type: hyf__HY_WaterBody
-        example_predicate: owl:sameAs
-        example_subject: https://geoconnex.us/nhdplusv2/comid/10101972
-        example_subject_type: owl_Thing
-    from_schema: hydrology-kg
-    rank: 1000
-    domain: owl_sameAs
-    slot_uri: owl:sameAs
-    alias: owl_sameAs
-    owner: kwgo_S2Cell_Level13
-    domain_of:
-    - geo_Feature
-    - geo_Geometry
-    - gwml22_GW_Aquifer
-    - hyf__HY_FlowPath
-    - hyf__HY_WaterBody
-    - hyf__HY_Waterbody
-    - kwgo_S2Cell_Level13
-    - owl_Thing
-    - rdf_List
-    - rdf_ObjectProperty
-    - schema_Place
-    - sf_#LineString
-    - sf_#MultiPolygon
-    - sf_#Polygon
-    range: Any
-    any_of:
-    - range: hyf__HY_WaterBody
-    - range: kwgo_S2Cell_Level13
-    - range: owl_Thing
-    - range: uri
-    - range: sf_#LineString
-    - range: sf_#Polygon
-    - range: sf_#MultiPolygon
-    - range: hyf__HY_Waterbody
-    - range: rdf_List
-    - range: geo_Feature
-    - range: geo_Geometry
-    - range: hyf__HY_FlowPath
-    - range: schema_Place
-    - range: gwml22_GW_Aquifer
-    - range: rdf_ObjectProperty
   kwgo_sfOverlaps:
     name: kwgo_sfOverlaps
-    annotations:
-      gwml22_GW_Aquifer:
-        tag: gwml22_GW_Aquifer
-        value: 14211
-      hyf__HY_WaterBody:
-        tag: hyf__HY_WaterBody
-        value: 27309
-      owl_Thing:
-        tag: owl_Thing
-        value: 41520
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: kwgr:s2.level13.9935671970391654400
-        example_object_type: kwgo_S2Cell_Level13
-        example_predicate: kwgo:sfOverlaps
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-        example_subject_type: gwml22_GW_Aquifer
-    - object:
-        example_object: kwgr:s2.level13.9935671970391654400
-        example_object_type: owl_Thing
-        example_predicate: kwgo:sfOverlaps
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-        example_subject_type: gwml22_GW_Aquifer
-    - object:
-        example_object: kwgr:s2.level13.9935671970391654400
-        example_object_type: kwgo_S2Cell_Level13
-        example_predicate: kwgo:sfOverlaps
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-        example_subject_type: owl_Thing
-    - object:
-        example_object: kwgr:s2.level13.9935671970391654400
-        example_object_type: owl_Thing
-        example_predicate: kwgo:sfOverlaps
-        example_subject: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.0001
-        example_subject_type: owl_Thing
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.1176
-        example_object_type: gwml22_GW_Aquifer
-        example_predicate: kwgo:sfOverlaps
-        example_subject: kwgr:s2.level13.5522341904064184320
-        example_subject_type: kwgo_S2Cell_Level13
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.1176
-        example_object_type: owl_Thing
-        example_predicate: kwgo:sfOverlaps
-        example_subject: kwgr:s2.level13.5522341904064184320
-        example_subject_type: kwgo_S2Cell_Level13
-    - object:
-        example_object: http://sawgraph.spatialai.org/v1/me_mgs_data#d.MGS-Aquifer.1176
-        example_object_type: gwml22_GW_Aquifer
-        example_predicate: kwgo:sfOverlaps
-        example_subject: kwgr:s2.level13.5522341904064184320
-        example_subject_type: owl_Thing
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/802769
-        example_object_type: hyf__HY_WaterBody
-        example_predicate: kwgo:sfOverlaps
-        example_subject: kwgr:s2.level13.5522342316381044736
-        example_subject_type: kwgo_S2Cell_Level13
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/802769
-        example_object_type: hyf__HY_WaterBody
-        example_predicate: kwgo:sfOverlaps
-        example_subject: kwgr:s2.level13.5522342316381044736
-        example_subject_type: owl_Thing
-    from_schema: hydrology-kg
-    rank: 1000
+    description: KWG's spatial overlap relation
+    title: overlaps (simple feature)
+    comments:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:kwg
     slot_uri: kwgo:sfOverlaps
     alias: kwgo_sfOverlaps
     owner: kwgo_S2Cell_Level13
     domain_of:
-    - gwml22_GW_Aquifer
+    - http___gwml2.org_def_gwml2#GW_Aquifer
+    - http___gwml2.org_def_gwml2#GW_AquiferSystem
+    - hyf__HY_Lake
+    - hyf__HY_WaterBody
     - kwgo_S2Cell_Level13
+    - us_sdwis_PWS-ServiceArea
+    - us_sdwis_PublicWaterSystem-CWS
+    - us_sdwis_PublicWaterSystem-GW
+    - us_sdwis_PublicWaterSystem-NTNCWS
+    - us_sdwis_PublicWaterSystem-SW
+    - us_sdwis_PublicWaterSystem-TNCWS
+    subproperty_of: kwgo_spatialRelation
+    range: Any
+  kwgo_sfContains:
+    name: kwgo_sfContains
+    description: KWG's spatial contains relation
+    title: contains (simple feature)
+    comments:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:kwg
+    slot_uri: kwgo:sfContains
+    alias: kwgo_sfContains
+    owner: kwgo_S2Cell_Level13
+    domain_of:
+    - http___gwml2.org_def_gwml2#GW_Aquifer
+    - http___gwml2.org_def_gwml2#GW_AquiferSystem
+    - hyf__HY_Lake
+    - hyf__HY_WaterBody
+    - kwgo_S2Cell_Level13
+    - us_sdwis_PWS-ServiceArea
+    subproperty_of: kwgo_spatialRelation
+    range: Any
+  owl_sameAs:
+    name: owl_sameAs
+    description: The property that determines that two given individuals are equal.
+    title: sameAs
+    comments:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:owl-rdf-rdfs
+    source: http://www.w3.org/2002/07/owl#
+    domain: owl_Thing
+    slot_uri: owl:sameAs
+    alias: owl_sameAs
+    owner: kwgo_S2Cell_Level13
+    domain_of:
+    - http___gwml2.org_def_gwml2#GW_Aquifer
+    - http___gwml2.org_def_gwml2#GW_AquiferSystem
+    - http___nhdplusv2.spatialai.org_v1_nhdplusv2#FlowPathLength
+    - hyf__HY_ElementaryFlowPath
+    - hyf__HY_Lake
+    - hyf__HY_WaterBody
+    - il_isgs_ISGS-Well
+    - il_isgs_WellDepthInFt
+    - il_isgs_WellPurpose
+    - il_isgs_WellYield
+    - kwgo_S2Cell_Level13
+    - me_mgs_MGS-Well
+    - me_mgs_WellDepthInFt
+    - me_mgs_WellOverburdenThicknessInFt
+    - me_mgs_WellType
+    - me_mgs_WellUse
+    - owl_DataProperty
+    - sf_#MultiPolygon
+    - sf_#Polygon
+    - us_sdwis_PWS-ServiceArea
+    - us_sdwis_PWS-ServiceAreaType
+    - us_sdwis_PWS-SourceWaterType
+    - us_sdwis_PWS-SubFeatureActivity
+    - us_sdwis_PWS-SubFeatureType
+    - us_sdwis_PublicWaterSystem-CWS
+    - us_sdwis_PublicWaterSystem-GW
+    - us_sdwis_PublicWaterSystem-NTNCWS
+    - us_sdwis_PublicWaterSystem-SW
+    - us_sdwis_PublicWaterSystem-TNCWS
+    range: owl_Thing
+  spatial_connectedTo:
+    name: spatial_connectedTo
+    title: topological connection (spatial contact) (sawgraph)
+    from_schema: okns:hydrology-kg
+    exact_mappings:
+    - http://purl.org/spatialai/spatial/spatial-full#connectedTo
+    rank: 1000
+    slot_uri: spatial:connectedTo
+    alias: spatial_connectedTo
+    owner: kwgo_S2Cell_Level13
+    domain_of:
+    - http___gwml2.org_def_gwml2#GW_Aquifer
+    - http___gwml2.org_def_gwml2#GW_AquiferSystem
+    - hyf__HY_ElementaryFlowPath
+    - hyf__HY_Lake
+    - hyf__HY_WaterBody
+    - kwgo_S2Cell_Level13
+    - me_mgs_MGS-Well
+    - us_sdwis_PWS-ServiceArea
+    - us_sdwis_PublicWaterSystem-CWS
+    - us_sdwis_PublicWaterSystem-GW
+    - us_sdwis_PublicWaterSystem-NTNCWS
+    - us_sdwis_PublicWaterSystem-SW
+    - us_sdwis_PublicWaterSystem-TNCWS
+    subproperty_of: kwgo_spatialRelation
+    union_of:
     - owl_Thing
+    - geo_SpatialObject
     range: Any
     any_of:
-    - range: hyf__HY_WaterBody
+    - range: http___gwml2.org_def_gwml2#GW_AquiferSystem
+    - range: kwgo_AdministrativeRegion_3
+    - range: hyf__HY_ElementaryFlowPath
+    - range: us_sdwis_PublicWaterSystem-NTNCWS
+    - range: us_sdwis_PublicWaterSystem-TNCWS
+    - range: me_mgs_MGS-Well
     - range: kwgo_S2Cell_Level13
+    - range: us_sdwis_PublicWaterSystem-SW
+    - range: kwgo_AdministrativeRegion
+    - range: geo_SpatialObject
+    - range: us_sdwis_PWS-ServiceArea
+    - range: hyf__HY_WaterBody
+    - range: kwgo_Region
+    - range: us_sdwis_PublicWaterSystem-CWS
+    - range: kwgo_AdministrativeRegion_2
     - range: owl_Thing
-    - range: gwml22_GW_Aquifer
+    - range: us_sdwis_PublicWaterSystem-GW
+    - range: http___gwml2.org_def_gwml2#GW_Aquifer
+    - range: hyf__HY_Lake
+  kwgo_spatialRelation:
+    name: kwgo_spatialRelation
+    description: KWG's general spatial relation
+    title: spatial relation
+    comments:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:kwg
+    slot_uri: kwgo:spatialRelation
+    alias: kwgo_spatialRelation
+    owner: kwgo_S2Cell_Level13
+    domain_of:
+    - http___gwml2.org_def_gwml2#GW_Aquifer
+    - http___gwml2.org_def_gwml2#GW_AquiferSystem
+    - hyf__HY_ElementaryFlowPath
+    - hyf__HY_Lake
+    - hyf__HY_WaterBody
+    - kwgo_S2Cell_Level13
+    - me_mgs_MGS-Well
+    - us_sdwis_PWS-ServiceArea
+    - us_sdwis_PublicWaterSystem-CWS
+    - us_sdwis_PublicWaterSystem-GW
+    - us_sdwis_PublicWaterSystem-NTNCWS
+    - us_sdwis_PublicWaterSystem-SW
+    - us_sdwis_PublicWaterSystem-TNCWS
+    range: Any
+  spatial_spatiallyRelatedTo:
+    name: spatial_spatiallyRelatedTo
+    title: topological connection (spatial contact) (sawgraph)
+    from_schema: okns:hydrology-kg
+    exact_mappings:
+    - http://purl.org/spatialai/spatial/spatial-full#spatiallyRelatedTo
+    - http://stko-kwg.geog.ucsb.edu/lod/ontology/spatialRelation
+    rank: 1000
+    slot_uri: spatial:spatiallyRelatedTo
+    alias: spatial_spatiallyRelatedTo
+    owner: kwgo_S2Cell_Level13
+    domain_of:
+    - http___gwml2.org_def_gwml2#GW_Aquifer
+    - http___gwml2.org_def_gwml2#GW_AquiferSystem
+    - hyf__HY_ElementaryFlowPath
+    - hyf__HY_Lake
+    - hyf__HY_WaterBody
+    - kwgo_S2Cell_Level13
+    - me_mgs_MGS-Well
+    - us_sdwis_PWS-ServiceArea
+    - us_sdwis_PublicWaterSystem-CWS
+    - us_sdwis_PublicWaterSystem-GW
+    - us_sdwis_PublicWaterSystem-NTNCWS
+    - us_sdwis_PublicWaterSystem-SW
+    - us_sdwis_PublicWaterSystem-TNCWS
+    subproperty_of: kwgo_spatialRelation
+    union_of:
+    - owl_Thing
+    - geo_SpatialObject
+    range: Any
+    any_of:
+    - range: http___gwml2.org_def_gwml2#GW_AquiferSystem
+    - range: kwgo_AdministrativeRegion_3
+    - range: hyf__HY_ElementaryFlowPath
+    - range: us_sdwis_PublicWaterSystem-NTNCWS
+    - range: us_sdwis_PublicWaterSystem-TNCWS
+    - range: me_mgs_MGS-Well
+    - range: kwgo_S2Cell_Level13
+    - range: us_sdwis_PublicWaterSystem-SW
+    - range: kwgo_AdministrativeRegion
+    - range: geo_SpatialObject
+    - range: us_sdwis_PWS-ServiceArea
+    - range: hyf__HY_WaterBody
+    - range: kwgo_Region
+    - range: us_sdwis_PublicWaterSystem-CWS
+    - range: kwgo_AdministrativeRegion_2
+    - range: owl_Thing
+    - range: us_sdwis_PublicWaterSystem-GW
+    - range: http___gwml2.org_def_gwml2#GW_Aquifer
+    - range: hyf__HY_Lake
   kwgo_sfCrosses:
     name: kwgo_sfCrosses
-    annotations:
-      hyf__HY_FlowPath:
-        tag: hyf__HY_FlowPath
-        value: 94779
-      hyf__HY_Waterbody:
-        tag: hyf__HY_Waterbody
-        value: 94779
-      owl_Thing:
-        tag: owl_Thing
-        value: 94779
-      schema_Place:
-        tag: schema_Place
-        value: 94779
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/166195770
-        example_object_type: hyf__HY_Waterbody
-        example_predicate: kwgo:sfCrosses
-        example_subject: kwgr:s2.level13.5522339705040928768
-        example_subject_type: owl_Thing
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/166195770
-        example_object_type: schema_Place
-        example_predicate: kwgo:sfCrosses
-        example_subject: kwgr:s2.level13.5522339705040928768
-        example_subject_type: owl_Thing
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/166195770
-        example_object_type: owl_Thing
-        example_predicate: kwgo:sfCrosses
-        example_subject: kwgr:s2.level13.5522339705040928768
-        example_subject_type: owl_Thing
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/166195770
-        example_object_type: hyf__HY_FlowPath
-        example_predicate: kwgo:sfCrosses
-        example_subject: kwgr:s2.level13.5522339705040928768
-        example_subject_type: owl_Thing
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/803107
-        example_object_type: hyf__HY_Waterbody
-        example_predicate: kwgo:sfCrosses
-        example_subject: kwgr:s2.level13.5522341904064184320
-        example_subject_type: kwgo_S2Cell_Level13
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/803107
-        example_object_type: schema_Place
-        example_predicate: kwgo:sfCrosses
-        example_subject: kwgr:s2.level13.5522341904064184320
-        example_subject_type: kwgo_S2Cell_Level13
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/803107
-        example_object_type: owl_Thing
-        example_predicate: kwgo:sfCrosses
-        example_subject: kwgr:s2.level13.5522341904064184320
-        example_subject_type: kwgo_S2Cell_Level13
-    - object:
-        example_object: https://geoconnex.us/nhdplusv2/comid/803107
-        example_object_type: hyf__HY_FlowPath
-        example_predicate: kwgo:sfCrosses
-        example_subject: kwgr:s2.level13.5522341904064184320
-        example_subject_type: kwgo_S2Cell_Level13
-    - object:
-        example_object: kwgr:s2.level13.5522769236130267136
-        example_object_type: kwgo_S2Cell_Level13
-        example_predicate: kwgo:sfCrosses
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: hyf__HY_Waterbody
-    - object:
-        example_object: kwgr:s2.level13.5522769236130267136
-        example_object_type: owl_Thing
-        example_predicate: kwgo:sfCrosses
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: hyf__HY_Waterbody
-    - object:
-        example_object: kwgr:s2.level13.5522769236130267136
-        example_object_type: kwgo_S2Cell_Level13
-        example_predicate: kwgo:sfCrosses
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: schema_Place
-    - object:
-        example_object: kwgr:s2.level13.5522769236130267136
-        example_object_type: owl_Thing
-        example_predicate: kwgo:sfCrosses
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: schema_Place
-    - object:
-        example_object: kwgr:s2.level13.5522769236130267136
-        example_object_type: kwgo_S2Cell_Level13
-        example_predicate: kwgo:sfCrosses
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: owl_Thing
-    - object:
-        example_object: kwgr:s2.level13.5522769236130267136
-        example_object_type: kwgo_S2Cell_Level13
-        example_predicate: kwgo:sfCrosses
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: hyf__HY_FlowPath
-    - object:
-        example_object: kwgr:s2.level13.5522769236130267136
-        example_object_type: owl_Thing
-        example_predicate: kwgo:sfCrosses
-        example_subject: https://geoconnex.us/nhdplusv2/comid/1001
-        example_subject_type: hyf__HY_FlowPath
-    from_schema: hydrology-kg
-    rank: 1000
+    description: KWG's spatial comment relation
+    title: crosses (simple feature)
+    comments:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:kwg
     slot_uri: kwgo:sfCrosses
     alias: kwgo_sfCrosses
     owner: kwgo_S2Cell_Level13
     domain_of:
-    - hyf__HY_FlowPath
-    - hyf__HY_Waterbody
+    - hyf__HY_ElementaryFlowPath
+    - hyf__HY_Lake
+    - hyf__HY_WaterBody
     - kwgo_S2Cell_Level13
-    - owl_Thing
-    - schema_Place
+    subproperty_of: kwgo_spatialRelation
     range: Any
-    any_of:
-    - range: kwgo_S2Cell_Level13
-    - range: owl_Thing
-    - range: hyf__HY_Waterbody
-    - range: hyf__HY_FlowPath
-    - range: schema_Place
+  kwgo_sfWithin:
+    name: kwgo_sfWithin
+    description: KWG's spatial within relation
+    title: within (simple feature)
+    comments:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:kwg
+    slot_uri: kwgo:sfWithin
+    alias: kwgo_sfWithin
+    owner: kwgo_S2Cell_Level13
+    domain_of:
+    - http___gwml2.org_def_gwml2#GW_Aquifer
+    - hyf__HY_ElementaryFlowPath
+    - kwgo_S2Cell_Level13
+    - me_mgs_MGS-Well
+    subproperty_of: kwgo_spatialRelation
+    range: Any
 class_uri: kwgo:S2Cell_Level13
 
 ```

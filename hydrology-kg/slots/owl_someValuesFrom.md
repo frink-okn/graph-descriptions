@@ -1,16 +1,16 @@
 
 
-# Slot: No slot (predicate) name specified (owl_someValuesFrom)
+# Slot: someValuesFrom (owl_someValuesFrom)
 
 
-_No slot (predicate) description specified_
-
-
-
+_The property that determines the class that an existential property restriction refers to._
 
 
 
-This slot occurs 0 times.
+
+
+
+This slot occurs 1 times.
 
 
 URI: [owl:someValuesFrom](http://www.w3.org/2002/07/owl#someValuesFrom)
@@ -28,7 +28,7 @@ URI: [owl:someValuesFrom](http://www.w3.org/2002/07/owl#someValuesFrom)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [RdfsClass](../classes/RdfsClass.md)
 
 
 
@@ -46,20 +46,16 @@ URI: [owl:someValuesFrom](http://www.w3.org/2002/07/owl#someValuesFrom)
 
 ```yaml
 name: owl_someValuesFrom
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
+description: The property that determines the class that an existential property restriction
+  refers to.
+title: someValuesFrom
 comments:
 - No occurrences of this slot in the graph.
-from_schema: hydrology-kg
-rank: 1000
-domain: owl_someValuesFrom
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/2002/07/owl#
+domain: owl_Restriction
 slot_uri: owl:someValuesFrom
-alias: owl_someValuesFrom
-range: uri
+range: rdfs_Class
 
 ```
 </details>

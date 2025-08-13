@@ -1,16 +1,16 @@
 
 
-# Slot: No slot (predicate) name specified (owl_onProperty)
+# Slot: onProperty (owl_onProperty)
 
 
-_No slot (predicate) description specified_
-
-
-
+_The property that determines the property that a property restriction refers to._
 
 
 
-This slot occurs 0 times.
+
+
+
+This slot occurs 1 times.
 
 
 URI: [owl:onProperty](http://www.w3.org/2002/07/owl#onProperty)
@@ -28,7 +28,7 @@ URI: [owl:onProperty](http://www.w3.org/2002/07/owl#onProperty)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)
+* Range: [RdfProperty](../classes/RdfProperty.md)
 
 
 
@@ -46,20 +46,16 @@ URI: [owl:onProperty](http://www.w3.org/2002/07/owl#onProperty)
 
 ```yaml
 name: owl_onProperty
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
+description: The property that determines the property that a property restriction
+  refers to.
+title: onProperty
 comments:
 - No occurrences of this slot in the graph.
-from_schema: hydrology-kg
-rank: 1000
-domain: owl_onProperty
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/2002/07/owl#
+domain: owl_Restriction
 slot_uri: owl:onProperty
-alias: owl_onProperty
-range: Any
+range: rdf_Property
 
 ```
 </details>
