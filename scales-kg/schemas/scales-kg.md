@@ -1,6 +1,6 @@
 # scales-kg
 
-No schema description specified
+None
 
-URI: scales-kg
+URI: okns:scales-kg
 

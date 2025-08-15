@@ -3,14 +3,9 @@
 # Slot: scales_BirthYear
 
 
-_No slot (predicate) description specified_
 
 
-
-
-
-
-This slot occurs 91623 times.
+This slot occurs 137257 times.
 
 
 URI: [scales:BirthYear](http://schemas.scales-okn.org/rdf/scales#BirthYear)
@@ -27,7 +22,7 @@ URI: [scales:BirthYear](http://schemas.scales-okn.org/rdf/scales#BirthYear)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Niem50Person](../classes/Niem50Person.md) | No class (type) description specified |  yes  |
+| [Niem50Person](../classes/Niem50Person.md) |  |  no  |
 
 
 
@@ -37,18 +32,10 @@ URI: [scales:BirthYear](http://schemas.scales-okn.org/rdf/scales#BirthYear)
 
 ## Properties
 
-* Range: [XsdGYear](../types/XsdGYear.md)
+* Range: [XsdGYear](../classes/XsdGYear.md)
 
 
 
-
-
-
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| niem50_Person | xsd_gYear | scales:ArrestSubject/ga-atlanta-pd-100720495 | 1975 | 91623 |
 
 
 
@@ -59,19 +46,7 @@ URI: [scales:BirthYear](http://schemas.scales-okn.org/rdf/scales#BirthYear)
 
 ```yaml
 name: scales_BirthYear
-annotations:
-  count:
-    tag: count
-    value: 91623
-description: No slot (predicate) description specified
-examples:
-- object:
-    example_object: '1975'
-    example_object_type: xsd_gYear
-    example_predicate: scales:BirthYear
-    example_subject: scales:ArrestSubject/ga-atlanta-pd-100720495
-    example_subject_type: niem50_Person
-from_schema: scales-kg
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: scales:BirthYear
 alias: scales_BirthYear

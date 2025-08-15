@@ -3,11 +3,6 @@
 # Slot: scales_hasIdbD2foffcd3
 
 
-_No slot (predicate) description specified_
-
-
-
-
 
 
 This slot occurs 121785 times.
@@ -27,7 +22,7 @@ URI: [scales:hasIdbD2foffcd3](http://schemas.scales-okn.org/rdf/scales#hasIdbD2f
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | No class (type) description specified |  yes  |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) |  |  no  |
 
 
 
@@ -44,14 +39,6 @@ URI: [scales:hasIdbD2foffcd3](http://schemas.scales-okn.org/rdf/scales#hasIdbD2f
 
 
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| scales_CriminalCase | double | scales:/CriminalCase/akd;;1:16-cr-00001 | -8.0 | 121785 |
-
-
-
 
 ## LinkML Source
 
@@ -59,19 +46,7 @@ URI: [scales:hasIdbD2foffcd3](http://schemas.scales-okn.org/rdf/scales#hasIdbD2f
 
 ```yaml
 name: scales_hasIdbD2foffcd3
-annotations:
-  count:
-    tag: count
-    value: 121785
-description: No slot (predicate) description specified
-examples:
-- object:
-    example_object: '-8.0'
-    example_object_type: double
-    example_predicate: scales:hasIdbD2foffcd3
-    example_subject: scales:/CriminalCase/akd;;1:16-cr-00001
-    example_subject_type: scales_CriminalCase
-from_schema: scales-kg
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: scales:hasIdbD2foffcd3
 alias: scales_hasIdbD2foffcd3

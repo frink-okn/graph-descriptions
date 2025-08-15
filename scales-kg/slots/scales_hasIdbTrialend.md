@@ -3,11 +3,6 @@
 # Slot: scales_hasIdbTrialend
 
 
-_No slot (predicate) description specified_
-
-
-
-
 
 
 This slot occurs 4417 times.
@@ -27,7 +22,7 @@ URI: [scales:hasIdbTrialend](http://schemas.scales-okn.org/rdf/scales#hasIdbTria
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCivilCase](../classes/ScalesCivilCase.md) | No class (type) description specified |  yes  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) |  |  no  |
 
 
 
@@ -44,14 +39,6 @@ URI: [scales:hasIdbTrialend](http://schemas.scales-okn.org/rdf/scales#hasIdbTria
 
 
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| scales_CivilCase | string | scales:/CivilCase/akd;;3:16-cv-00041 | 01/25/2018 | 4417 |
-
-
-
 
 ## LinkML Source
 
@@ -59,19 +46,7 @@ URI: [scales:hasIdbTrialend](http://schemas.scales-okn.org/rdf/scales#hasIdbTria
 
 ```yaml
 name: scales_hasIdbTrialend
-annotations:
-  count:
-    tag: count
-    value: 4417
-description: No slot (predicate) description specified
-examples:
-- object:
-    example_object: 01/25/2018
-    example_object_type: string
-    example_predicate: scales:hasIdbTrialend
-    example_subject: scales:/CivilCase/akd;;3:16-cv-00041
-    example_subject_type: scales_CivilCase
-from_schema: scales-kg
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: scales:hasIdbTrialend
 alias: scales_hasIdbTrialend

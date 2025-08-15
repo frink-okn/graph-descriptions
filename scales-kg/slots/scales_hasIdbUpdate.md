@@ -3,11 +3,6 @@
 # Slot: scales_hasIdbUpdate
 
 
-_No slot (predicate) description specified_
-
-
-
-
 
 
 This slot occurs 121785 times.
@@ -27,7 +22,7 @@ URI: [scales:hasIdbUpdate](http://schemas.scales-okn.org/rdf/scales#hasIdbUpdate
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | No class (type) description specified |  yes  |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) |  |  no  |
 
 
 
@@ -44,14 +39,6 @@ URI: [scales:hasIdbUpdate](http://schemas.scales-okn.org/rdf/scales#hasIdbUpdate
 
 
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| scales_CriminalCase | string | scales:/CriminalCase/akd;;1:16-cr-00001 | 01/01/1900 | 121785 |
-
-
-
 
 ## LinkML Source
 
@@ -59,19 +46,7 @@ URI: [scales:hasIdbUpdate](http://schemas.scales-okn.org/rdf/scales#hasIdbUpdate
 
 ```yaml
 name: scales_hasIdbUpdate
-annotations:
-  count:
-    tag: count
-    value: 121785
-description: No slot (predicate) description specified
-examples:
-- object:
-    example_object: 01/01/1900
-    example_object_type: string
-    example_predicate: scales:hasIdbUpdate
-    example_subject: scales:/CriminalCase/akd;;1:16-cr-00001
-    example_subject_type: scales_CriminalCase
-from_schema: scales-kg
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: scales:hasIdbUpdate
 alias: scales_hasIdbUpdate

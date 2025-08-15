@@ -3,11 +3,6 @@
 # Slot: scales_hasIdbDjoined
 
 
-_No slot (predicate) description specified_
-
-
-
-
 
 
 This slot occurs 275529 times.
@@ -27,7 +22,7 @@ URI: [scales:hasIdbDjoined](http://schemas.scales-okn.org/rdf/scales#hasIdbDjoin
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCivilCase](../classes/ScalesCivilCase.md) | No class (type) description specified |  yes  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) |  |  no  |
 
 
 
@@ -44,14 +39,6 @@ URI: [scales:hasIdbDjoined](http://schemas.scales-okn.org/rdf/scales#hasIdbDjoin
 
 
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| scales_CivilCase | string | scales:/CivilCase/akd;;1:16-cv-00002 | 09/01/2016 | 275529 |
-
-
-
 
 ## LinkML Source
 
@@ -59,19 +46,7 @@ URI: [scales:hasIdbDjoined](http://schemas.scales-okn.org/rdf/scales#hasIdbDjoin
 
 ```yaml
 name: scales_hasIdbDjoined
-annotations:
-  count:
-    tag: count
-    value: 275529
-description: No slot (predicate) description specified
-examples:
-- object:
-    example_object: 09/01/2016
-    example_object_type: string
-    example_predicate: scales:hasIdbDjoined
-    example_subject: scales:/CivilCase/akd;;1:16-cv-00002
-    example_subject_type: scales_CivilCase
-from_schema: scales-kg
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: scales:hasIdbDjoined
 alias: scales_hasIdbDjoined

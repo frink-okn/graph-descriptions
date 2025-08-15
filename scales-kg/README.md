@@ -1,6 +1,6 @@
 # scales
 
-No schema description specified
+
 
 
 
@@ -8,391 +8,641 @@ No schema description specified
 
 ```mermaid
 erDiagram
-HttpRelease.niem.govNiemDomainsJxdm7.2Arrest {
+OwlAllDifferent {
+
+}
+OwlAllDisjointClasses {
+
+}
+OwlAllDisjointProperties {
+
+}
+OwlAnnotation {
+
+}
+OwlAnnotationProperty {
+
+}
+OwlAsymmetricProperty {
+
+}
+OwlAxiom {
+
+}
+OwlClass {
+
+}
+OwlDataRange {
+    uri rdfs_isDefinedBy  
+    uri rdfs_seeAlso  
+    string rdfs_comment  
+    string rdfs_label  
+}
+OwlDatatypeProperty {
+
+}
+OwlDeprecatedClass {
+
+}
+OwlDeprecatedProperty {
+
+}
+OwlFunctionalProperty {
+
+}
+OwlInverseFunctionalProperty {
+
+}
+OwlIrreflexiveProperty {
+
+}
+OwlNamedIndividual {
+
+}
+OwlNegativePropertyAssertion {
+
+}
+OwlNothing {
+
+}
+OwlObjectProperty {
+
+}
+OwlOntology {
+
+}
+OwlOntologyProperty {
+    uri rdfs_isDefinedBy  
+    string rdfs_comment  
+    string rdfs_label  
+}
+OwlReflexiveProperty {
+
+}
+OwlRestriction {
+
+}
+OwlSymmetricProperty {
+
+}
+OwlThing {
+
+}
+OwlTransitiveProperty {
+
+}
+RdfAlt {
+
+}
+RdfBag {
+
+}
+RdfCompoundLiteral {
+
+}
+RdfList {
+    uri rdfs_isDefinedBy  
+    string rdfs_comment  
+    string rdfs_label  
+}
+RdfProperty {
+
+}
+RdfSeq {
+
+}
+RdfStatement {
+
+}
+RdfsClass {
+
+}
+RdfsContainer {
+
+}
+RdfsContainerMembershipProperty {
+
+}
+RdfsDatatype {
+    uri rdfs_isDefinedBy  
+    uri rdfs_seeAlso  
+    string rdfs_comment  
+    string rdfs_label  
+}
+RdfsLiteral {
+
+}
+RdfsResource {
+
+}
+SkosCollection {
+
+}
+SkosConcept {
+
+}
+SkosConceptScheme {
+
+}
+SkosOrderedCollection {
+
+}
+TimeDateTimeDescription {
+
+}
+TimeDateTimeInterval {
+
+}
+TimeDayOfWeek {
+    string rdfs_label  
+}
+TimeDuration {
+
+}
+TimeDurationDescription {
+
+}
+TimeGeneralDateTimeDescription {
+
+}
+TimeGeneralDurationDescription {
+
+}
+TimeInstant {
+
+}
+TimeInterval {
+
+}
+TimeJanuary {
+
+}
+TimeMonthOfYear {
+
+}
+TimeProperInterval {
+
+}
+TimeTRS {
+
+}
+TimeTemporalDuration {
+
+}
+TimeTemporalEntity {
+
+}
+TimeTemporalPosition {
+
+}
+TimeTemporalUnit {
+    decimal time_months  
+    decimal time_seconds  
+    decimal time_hours  
+    decimal time_weeks  
+    decimal time_minutes  
+    decimal time_days  
+    decimal time_years  
+    string rdfs_label  
+}
+TimeTimePosition {
+
+}
+TimeTimeZone {
+
+}
+TimeYear {
+
+}
+XsdDateTimeStamp {
+
+}
+XsdDuration {
+
+}
+XsdGYear {
+
+}
+XsdGYearMonth {
+
+}
+Jxdm72Arrest {
+    date niem50_ActivityDate  
     string niem50_LocaleCensusBlockID  
-    date niem50_ActivityDate  
 }
-HttpRelease.niem.govNiemDomainsJxdm7.2ArrestCharge {
-    string http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSeverityLevelCode  
-    string http___fbi.gov_cjis_nibrs_2023.0_NIBRSReportCategoryCode  
-    string http___fbi.gov_cjis_nibrs_2023.0_OffenseUCRCode  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_ChargeDispositionCategoryText  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_ChargeText  
+Jxdm72ArrestCharge {
+    string jxdm72_DrugCategoryCode  
+    string jxdm72_ChargeDispositionCategoryText  
+    string jxdm72_ChargeText  
+    string nibrs_NIBRSReportCategoryCode  
+    string nibrs_OffenseUCRCode  
+    string jxdm72_ChargeSeverityLevelCode  
 }
-HttpRelease.niem.govNiemDomainsJxdm7.2Attorney {
-    string http___release.niem.gov_niem_domains_jxdm_7.2_CaseOfficialRoleText  
+Jxdm72Attorney {
+    string jxdm72_CaseOfficialRoleText  
     string niem50_PersonFullName  
     string niem50_ContactMailingAddress  
 }
-HttpRelease.niem.govNiemDomainsJxdm7.2Booking {
+Jxdm72Booking {
     date niem50_ActivityDate  
 }
-HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty {
-    string niem50_PersonRaceText  
-    uri scales_isReferenceToEntity  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_PersonSexCode  
-    string niem50_EntityName  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_ParticipantRoleCategoryText  
+Jxdm72BookingFacility {
+    string http___release.niem.gov_niem_codes_fips_5.0_CountyCode  
+    string niem50_CourtPostalCode  
+    string niem50_FacilityName  
+}
+Jxdm72CaseDefendantParty {
     string niem50_PersonFullName  
-    string scales_hasExtraInfo  
-    string scales_hasHighestOffenseLevelTerminated  
+    string jxdm72_ParticipantRoleCategoryText  
+    uri scales_isInstanceOfEntity  
     string scales_hasHighestOffenseLevelOpening  
-}
-HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefenseAttorney {
-    string http___release.niem.gov_niem_domains_jxdm_7.2_CaseOfficialRoleText  
-    string niem50_PersonFullName  
-    string niem50_ContactMailingAddress  
-}
-HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingAttorney {
-    string niem50_PersonFullName  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_CaseOfficialRoleText  
-    string niem50_ContactMailingAddress  
-}
-HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty {
-    string niem50_EntityName  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_ParticipantRoleCategoryText  
+    string niem50_PersonRaceText  
+    string scales_hasHighestOffenseLevelTerminated  
+    string jxdm72_PersonSexCode  
     string scales_hasExtraInfo  
+    string niem50_EntityName  
 }
-HttpRelease.niem.govNiemDomainsJxdm7.2CaseJudge {
+Jxdm72CaseDefenseAttorney {
+    string jxdm72_CaseOfficialRoleText  
+    string niem50_PersonFullName  
+    string niem50_ContactMailingAddress  
+}
+Jxdm72CaseInitiatingAttorney {
+    string jxdm72_CaseOfficialRoleText  
+    string niem50_ContactMailingAddress  
     string niem50_PersonFullName  
 }
-HttpRelease.niem.govNiemDomainsJxdm7.2Charge {
-    string http___fbi.gov_cjis_nibrs_2023.0OffenseUCRCode  
-    string scales_hasChargeType  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSeverityLevelCode  
-    string http___fbi.gov_cjis_nibrs_2023.0NIBRSReportCategoryCode  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_DrugCategoryCode  
-    float http___release.niem.gov_niem_domains_jxdm_7.2_BondAmount  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_BondType  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSequenceID  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_ChargeText  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_ChargeDisposition  
+Jxdm72CaseInitiatingParty {
+    string scales_hasExtraInfo  
+    string jxdm72_ParticipantRoleCategoryText  
+    string niem50_EntityName  
 }
-HttpRelease.niem.govNiemDomainsJxdm7.2Court {
+Jxdm72CaseJudge {
+    string niem50_PersonFullName  
+}
+Jxdm72Charge {
+    string jxdm72_DrugCategoryCode  
+    string jxdm72_ChargeDisposition  
+    string jxdm72_ChargeText  
+    string jxdm72_ChargeSequenceID  
+    string nibrs_NIBRSReportCategoryCode  
+    string nibrs_OffenseUCRCode  
+    string jxdm72_ChargeSeverityLevelCode  
+    string scales_hasChargeType  
+    float jxdm72_BondAmount  
+    string jxdm72_BondType  
+}
+Jxdm72Court {
+    string niem50_CourtName  
+    string jxdm72_CourtCategoryCode  
+    string jxdm72_CourtName  
     string scales_isInCircuit  
     string http___release.niem.gov_niem_codes_fips_5.0_CountyCode  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_CourtCategoryCode  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_CourtName  
+    string niem50_CourtPostalCode  
     string niem50_AddressPostalCode  
 }
-HttpRelease.niem.govNiemDomainsJxdm7.2Judge {
+Jxdm72Judge {
+    string niem50_PersonFullName  
+    string scales_appointedByParty  
     string niem50_PersonRaceText  
     string niem50_PersonSexText  
-    date scales_hasCommissionDate  
     double scales_hasFJCNodeID  
-    string scales_appointedByParty  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_JudicialOfficialCategoryText  
-    string niem50_PersonFullName  
+    string jxdm72_JudicialOfficialCategoryText  
+    date scales_hasCommissionDate  
     string scales_hasUVAJudgeDirID  
 }
-HttpRelease.niem.govNiemDomainsJxdm7.2LawEnforcementOfficial {
+Jxdm72LawEnforcementOfficial {
     string niem50_PersonID  
 }
-HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction {
-    date http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDate  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDescriptionText  
+Jxdm72RegisterAction {
+    string jxdm72_RegisterActionDescriptionText  
+    uri scales_DocketEntry  
+    date jxdm72_RegisterActionDate  
+}
+Jxdm72RegisterOfActions {
     uri scales_DocketEntry  
 }
-HttpRelease.niem.govNiemDomainsJxdm7.2RegisterOfActions {
-    uri scales_DocketEntry  
-}
-HttpRelease.niem.govNiemDomainsJxdm7.2Release {
+Jxdm72Release {
     date niem50_ActivityDate  
 }
-HttpRelease.niem.govNiemDomainsJxdm7.2Sentence {
-    string http___release.niem.gov_niem_domains_jxdm_7.2_SentenceDescriptionText  
+Jxdm72Sentence {
+    string jxdm72_SentenceDescriptionText  
 }
-HttpRelease.niem.govNiemDomainsJxdm7.2SentenceTerm {
-    xsd_duration http___release.niem.gov_niem_domains_jxdm_7.2_TermDuration  
+Jxdm72SentenceTerm {
+
 }
 Niem50Person {
     string niem50_PersonRaceText  
-    xsd_gYear scales_BirthYear  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_PersonSexCode  
+    string jxdm72_PersonSexCode  
 }
 ScalesCivilCase {
-    string scales_hasIdbTdateuse  
-    date niem50_StartDate  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_StatuteKeywordText  
-    string scales_hasIdbStatuscd  
-    string scales_hasIdbDistrict  
+    string niem50_JurisdictionText  
     string scales_hasIdbDocket  
     double scales_hasIdbJudgment  
     double scales_hasIdbTapeyear  
+    date niem50_StartDate  
+    double scales_hasIdbCircuit  
+    string scales_hasIdbNos  
+    string scales_hasIdbDistrict  
+    double scales_hasIdbResidenc  
+    string scales_hasIdbPretrial  
+    string scales_hasIdbDef  
+    double scales_hasIdbDemanded  
+    boolean scales_hasIdbIs_stub  
+    string scales_hasIdbMdldock  
+    datetime scales_hasIdbFiledate  
+    string scales_hasIdbTrialend  
+    datetime scales_hasIdbTermdate  
+    string niem50_CaseSubCategoryText  
+    string scales_hasIdbSection  
+    string jxdm72_StatuteKeywordText  
+    integer scales_hasIdbJury  
+    string scales_hasIdbJury  
+    date niem50_EndDate  
+    uri jxdm72_CaseJudge  
+    double scales_hasIdbJuris  
+    double scales_hasIdbDisp  
+    string scales_hasIdbIfp  
+    string scales_hasIdbTrmarb  
+    string scales_hasIdbStatuscd  
+    double scales_hasIdbProse  
+    string scales_hasIdbOffice  
+    double scales_hasIdbTrclact  
+    double scales_hasIdbOrigin  
+    double scales_hasIdbTransdoc  
+    string niem50_CaseGeneralCategoryText  
+    string scales_hasIdbTransorg  
+    uri scales_hasRelatedCase  
+    string niem50_CaseDocketID  
+    double scales_hasIdbCounty  
+    double scales_hasIdbAmtrec  
+    double scales_hasIdbProcprog  
+    double scales_hasIdbNoj  
+    string scales_hasIdbTitl  
+    string scales_hasIdbArbit  
     string scales_hasIdbSubsect  
     string scales_hasIdbDjoined  
-    string scales_hasIdbTrmarb  
-    string scales_hasIdbTribegan  
-    string scales_hasIdbTrialend  
-    string niem50_CaseDocketID  
-    string scales_hasIdbMdldock  
-    double scales_hasIdbDemanded  
-    string scales_hasIdbNos  
-    double scales_hasIdbOrigin  
-    double scales_hasIdbTrclact  
-    double scales_hasIdbCounty  
-    string scales_hasIdbOffice  
-    string scales_hasIdbSection  
     string scales_hasIdbTransoff  
-    string niem50_CaseSubCategoryText  
     string scales_hasIdbFdateuse  
-    string scales_hasIdbJury  
-    integer scales_hasIdbJury  
-    double scales_hasIdbResidenc  
-    double scales_hasIdbTransdoc  
-    uri scales_hasRelatedCase  
-    string scales_hasIdbDef  
-    datetime scales_hasIdbFiledate  
-    string scales_hasIdbTransorg  
-    string scales_hasIdbPlt  
-    string scales_hasIdbArbit  
-    double scales_hasIdbAmtrec  
-    uri http___release.niem.gov_niem_domains_jxdm_7.2_CaseJudge  
-    string niem50_StatusDescriptionText  
-    boolean scales_hasIdbIs_stub  
-    double scales_hasIdbJuris  
-    double scales_hasIdbCircuit  
-    double scales_hasIdbProcprog  
-    string scales_hasIdbIfp  
-    date niem50_EndDate  
-    string niem50_CaseGeneralCategoryText  
-    string niem50_JurisdictionText  
-    double scales_hasIdbProse  
-    datetime scales_hasIdbTermdate  
-    string scales_hasIdbTitl  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_CaseCourt  
-    double scales_hasIdbNoj  
-    string scales_hasIdbTransdat  
     double scales_hasIdbClassact  
-    double scales_hasIdbDisp  
-    string scales_hasIdbPretrial  
+    string scales_hasIdbTribegan  
+    string scales_hasIdbTdateuse  
+    string niem50_StatusDescriptionText  
+    string jxdm72_CaseCourt  
+    string scales_hasIdbTransdat  
+    string scales_hasIdbPlt  
 }
 ScalesCriminalCase {
-    integer scales_hasIdbTranoff  
-    string scales_hasIdbPriscd3  
-    double scales_hasIdbFiscalyr  
-    double scales_hasIdbFineamt4  
-    double scales_hasIdbTcounsel  
-    double scales_hasIdbFcounsel  
-    string scales_hasIdbSentdate  
-    string scales_hasIdbTermoff  
+    string scales_hasIdbFtitle4  
+    string scales_hasIdbCaslgky  
+    double scales_hasIdbFofflvl1  
+    double scales_hasIdbFinetot  
+    integer scales_hasIdbPriscd5  
+    string scales_hasIdbPriscd5  
+    double scales_hasIdbCircuit  
+    double scales_hasIdbFofflvl3  
+    double scales_hasIdbFofflvl4  
+    double scales_hasIdbCtfil  
+    string scales_hasIdbFtitle5  
+    double scales_hasIdbReopseq  
+    integer scales_hasIdbFsev5  
+    string scales_hasIdbFsev5  
+    string scales_hasIdbProcdate  
+    datetime scales_hasIdbTermdate  
+    double scales_hasIdbFoffcd3  
     integer scales_hasIdbTermoff  
+    string scales_hasIdbTermoff  
+    double scales_hasIdbProbmon5  
+    double scales_hasIdbFineamt1  
+    string scales_hasIdbPriscd3  
+    double scales_hasIdbInt3  
+    double scales_hasIdbFofflvl2  
+    double scales_hasIdbDisp2  
+    string scales_hasIdbTtitle3  
+    string scales_hasIdbStatuscd  
+    double scales_hasIdbCtpn  
+    double scales_hasIdbSupvrel1  
+    string scales_hasIdbOffice  
+    double scales_hasIdbSupvrel3  
+    double scales_hasIdbD2foffcd2  
+    integer scales_hasIdbTsev4  
+    string scales_hasIdbTsev4  
+    double scales_hasIdbProccd  
+    string scales_hasIdbPriscd1  
+    double scales_hasIdbCounty  
+    double scales_hasIdbFineamt3  
+    double scales_hasIdbPristim3  
+    integer scales_hasIdbProbcd2  
+    string scales_hasIdbProbcd2  
+    string jxdm72_CaseCourt  
+    double scales_hasIdbMagdock  
+    integer scales_hasIdbFsev4  
+    string scales_hasIdbFsev4  
+    double scales_hasIdbMagdef  
+    double scales_hasIdbTrandef  
     double scales_hasIdbTapeyear  
     string scales_hasIdbTypemag  
-    double scales_hasIdbD2toffcd2  
-    string scales_hasIdbCaslgky  
-    double scales_hasIdbCtpnwof  
-    string niem50_CaseDocketID  
-    double scales_hasIdbProbmon4  
-    double scales_hasIdbMagdef  
-    string scales_hasIdbFgstrtdate  
-    double scales_hasIdbCtpn  
-    string scales_hasIdbTsev3  
-    integer scales_hasIdbTsev3  
-    double scales_hasIdbFineamt3  
-    string scales_hasIdbTsev5  
-    integer scales_hasIdbTsev5  
-    double scales_hasIdbDisp2  
-    double scales_hasIdbReopseq  
-    double scales_hasIdbProbmon1  
-    string scales_hasIdbFtitle4  
-    string scales_hasIdbFtitle2  
-    string scales_hasIdbDispdate  
-    double scales_hasIdbFineamt1  
-    string scales_hasIdbProbcd1  
-    string scales_hasIdbLoaddate  
-    double scales_hasIdbPristim2  
-    double scales_hasIdbD2foffcd4  
-    double scales_hasIdbSupvrel4  
-    double scales_hasIdbFoffcd5  
-    date niem50_EndDate  
-    double scales_hasIdbFoffcd3  
-    datetime scales_hasIdbTermdate  
-    double scales_hasIdbProbmon2  
-    string scales_hasIdbDocket  
-    string scales_hasIdbFsev2  
-    string scales_hasIdbFtitle3  
-    string scales_hasIdbTtitle3  
-    string scales_hasIdbTypetrn  
-    integer scales_hasIdbTypetrn  
-    string scales_hasIdbTtitle2  
-    string scales_hasIdbFtitle1  
-    string scales_hasIdbFgenddate  
-    double scales_hasIdbCtfilr  
-    string scales_hasIdbOffice  
-    double scales_hasIdbPristot  
-    double scales_hasIdbPristim4  
-    double scales_hasIdbProbmon3  
-    string scales_hasIdbAppdate  
-    double scales_hasIdbFofflvl5  
-    string scales_hasIdbTrandist  
-    integer scales_hasIdbTrandist  
-    double scales_hasIdbCttrtrn  
-    string scales_hasIdbFsev5  
-    integer scales_hasIdbFsev5  
-    uri http___release.niem.gov_niem_domains_jxdm_7.2_CaseJudge  
-    string niem50_StatusDescriptionText  
-    double scales_hasIdbSupvrel2  
-    double scales_hasIdbMagdock  
-    double scales_hasIdbToffcd1  
-    double scales_hasIdbFineamt5  
-    double scales_hasIdbDisp5  
-    double scales_hasIdbSupvrel5  
-    string scales_hasIdbTtitle5  
-    integer scales_hasIdbTtitle5  
-    double scales_hasIdbD2toffcd5  
-    string scales_hasIdbFugstat  
-    string scales_hasIdbProbcd2  
-    integer scales_hasIdbProbcd2  
-    string scales_hasIdbTsev1  
-    double scales_hasIdbCtfil  
-    string niem50_JurisdictionText  
-    double scales_hasIdbToffcd3  
-    double scales_hasIdbVer  
-    date niem50_StartDate  
-    double scales_hasIdbPristim1  
-    string scales_hasIdbFsev4  
-    integer scales_hasIdbFsev4  
-    double scales_hasIdbCtfilwor  
-    double scales_hasIdbTrandock  
-    double scales_hasIdbCttr  
-    double scales_hasIdbD2foffcd2  
-    string scales_hasIdbDistrict  
-    double scales_hasIdbFofflvl2  
-    double scales_hasIdbFineamt2  
-    double scales_hasIdbFofflvl4  
-    double scales_hasIdbTofflvl3  
-    string scales_hasIdbFtitle5  
-    double scales_hasIdbTofflvl1  
-    double scales_hasIdbCounty  
-    double scales_hasIdbCttrwor  
-    string scales_hasIdbTsev4  
-    integer scales_hasIdbTsev4  
-    double scales_hasIdbToffcd4  
-    string scales_hasIdbDeflgky  
-    double scales_hasIdbD2toffcd4  
-    double scales_hasIdbToffcd2  
-    uri scales_hasRelatedCase  
-    double scales_hasIdbPristim5  
     double scales_hasIdbFoffcd1  
-    double scales_hasIdbTofflvl2  
-    datetime scales_hasIdbFiledate  
-    string scales_hasIdbUpdate  
-    double scales_hasIdbD2foffcd1  
-    double scales_hasIdbFinetot  
-    double scales_hasIdbTofflvl4  
-    string scales_hasIdbAppcd  
-    string scales_hasIdbPriscd4  
-    integer scales_hasIdbPriscd4  
-    double scales_hasIdbCircuit  
-    double scales_hasIdbCttrr  
-    string scales_hasIdbTypereg  
-    double scales_hasIdbD2toffcd1  
-    string scales_hasIdbFsev1  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_CaseCourt  
-    string scales_hasIdbPriscd5  
-    integer scales_hasIdbPriscd5  
-    double scales_hasIdbInt1  
-    double scales_hasIdbTofflvl5  
-    double scales_hasIdbCtdef  
-    string scales_hasIdbProbcd3  
     integer scales_hasIdbProbcd3  
-    double scales_hasIdbFofflvl1  
-    string scales_hasIdbProcdate  
-    double scales_hasIdbDefno  
-    double scales_hasIdbInt2  
-    string scales_hasIdbTsev2  
-    integer scales_hasIdbTsev2  
-    string scales_hasIdbStatuscd  
-    double scales_hasIdbSupvrel1  
-    double scales_hasIdbCtfiltrn  
-    double scales_hasIdbFoffcd4  
-    double scales_hasIdbD2foffcd3  
-    double scales_hasIdbProbtot  
-    string scales_hasIdbTtitle1  
-    double scales_hasIdbTrandef  
-    double scales_hasIdbD2toffcd3  
-    string scales_hasIdbPriscd1  
-    double scales_hasIdbD2foffcd5  
-    string scales_hasIdbProbcd4  
-    integer scales_hasIdbProbcd4  
+    string scales_hasIdbProbcd3  
+    double scales_hasIdbCtfilr  
+    double scales_hasIdbFcounsel  
+    double scales_hasIdbFiscalyr  
+    string scales_hasIdbTsev1  
+    double scales_hasIdbSupvrel2  
+    double scales_hasIdbToffcd1  
     double scales_hasIdbDisp1  
-    double scales_hasIdbProccd  
-    string scales_hasIdbProbcd5  
-    integer scales_hasIdbProbcd5  
-    double scales_hasIdbSupvrel3  
-    double scales_hasIdbInt3  
-    string scales_hasIdbPriscd2  
-    string scales_hasIdbFsev3  
-    double scales_hasIdbProbmon5  
-    double scales_hasIdbFofflvl3  
+    double scales_hasIdbTofflvl4  
+    double scales_hasIdbD2foffcd3  
+    double scales_hasIdbPristim4  
+    double scales_hasIdbCttrwor  
+    integer scales_hasIdbTypetrn  
+    string scales_hasIdbTypetrn  
+    string scales_hasIdbFgstrtdate  
+    double scales_hasIdbPristot  
     double scales_hasIdbDisp4  
+    double scales_hasIdbProbmon4  
+    double scales_hasIdbD2toffcd2  
+    double scales_hasIdbVer  
+    double scales_hasIdbCtfilwor  
+    double scales_hasIdbPristim1  
+    integer scales_hasIdbProbcd4  
+    string scales_hasIdbProbcd4  
+    string scales_hasIdbFtitle2  
+    double scales_hasIdbProbtot  
+    string scales_hasIdbAppcd  
+    double scales_hasIdbD2foffcd4  
     double scales_hasIdbFoffcd2  
     string scales_hasIdbTtitle4  
+    uri scales_hasRelatedCase  
+    string niem50_CaseDocketID  
+    double scales_hasIdbSupvrel5  
+    double scales_hasIdbCtfiltrn  
+    string scales_hasIdbTtitle1  
+    double scales_hasIdbProbmon3  
+    integer scales_hasIdbTsev2  
+    string scales_hasIdbTsev2  
+    double scales_hasIdbD2toffcd5  
+    string scales_hasIdbDocket  
+    string scales_hasIdbFtitle3  
+    double scales_hasIdbPristim5  
+    double scales_hasIdbTofflvl1  
+    string scales_hasIdbDistrict  
+    double scales_hasIdbToffcd2  
+    string scales_hasIdbFsev2  
+    integer scales_hasIdbTranoff  
+    double scales_hasIdbTcounsel  
+    double scales_hasIdbD2foffcd1  
+    string scales_hasIdbDispdate  
+    string scales_hasIdbFtitle1  
+    double scales_hasIdbToffcd3  
+    double scales_hasIdbFoffcd4  
+    string scales_hasIdbAppdate  
+    integer scales_hasIdbProbcd5  
+    string scales_hasIdbProbcd5  
+    string scales_hasIdbTypereg  
+    date niem50_EndDate  
+    integer scales_hasIdbTrandist  
+    string scales_hasIdbTrandist  
+    integer scales_hasIdbTsev5  
+    string scales_hasIdbTsev5  
+    integer scales_hasIdbTtitle5  
+    string scales_hasIdbTtitle5  
+    double scales_hasIdbInt1  
     string niem50_CaseGeneralCategoryText  
+    string scales_hasIdbDeflgky  
+    integer scales_hasIdbTsev3  
+    string scales_hasIdbTsev3  
+    double scales_hasIdbCttrtrn  
     double scales_hasIdbDisp3  
-    double scales_hasIdbToffcd5  
+    double scales_hasIdbFineamt5  
+    double scales_hasIdbFoffcd5  
+    string scales_hasIdbProbcd1  
+    double scales_hasIdbD2foffcd5  
+    double scales_hasIdbCtpnwof  
+    string scales_hasIdbFugstat  
+    string niem50_StatusDescriptionText  
+    double scales_hasIdbTofflvl2  
+    double scales_hasIdbTofflvl5  
+    double scales_hasIdbDefno  
+    string niem50_JurisdictionText  
+    double scales_hasIdbCttrr  
+    double scales_hasIdbProbmon1  
+    double scales_hasIdbTofflvl3  
+    string scales_hasIdbPriscd2  
+    date niem50_StartDate  
+    double scales_hasIdbSupvrel4  
+    string scales_hasIdbFsev1  
+    double scales_hasIdbInt2  
+    integer scales_hasIdbPriscd4  
+    string scales_hasIdbPriscd4  
     boolean scales_hasIdbIs_stub  
-    double scales_hasIdbPristim3  
+    datetime scales_hasIdbFiledate  
+    double scales_hasIdbToffcd5  
+    double scales_hasIdbFineamt4  
+    double scales_hasIdbDisp5  
+    double scales_hasIdbD2toffcd4  
+    double scales_hasIdbTrandock  
+    double scales_hasIdbCttr  
+    string scales_hasIdbUpdate  
+    uri jxdm72_CaseJudge  
+    double scales_hasIdbFofflvl5  
+    string scales_hasIdbLoaddate  
+    double scales_hasIdbD2toffcd3  
+    string scales_hasIdbFgenddate  
+    string scales_hasIdbTtitle2  
+    double scales_hasIdbFineamt2  
+    double scales_hasIdbPristim2  
+    double scales_hasIdbCtdef  
+    double scales_hasIdbToffcd4  
+    double scales_hasIdbProbmon2  
+    string scales_hasIdbSentdate  
+    string scales_hasIdbFsev3  
+    double scales_hasIdbD2toffcd1  
 }
 ScalesFirm {
     string niem50_OrganizationName  
 }
 ScalesParty {
-    uri scales_isInstanceOfEntity  
-    string niem50_EntityName  
     string niem50_PersonFullName  
-    string http___release.niem.gov_niem_domains_jxdm_7.2_ParticipantRoleCategoryText  
+    string jxdm72_ParticipantRoleCategoryText  
+    uri scales_isInstanceOfEntity  
     string scales_hasExtraInfo  
+    string niem50_EntityName  
 }
 
-HttpRelease.niem.govNiemDomainsJxdm7.2Arrest ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2LawEnforcementOfficial : "http___release.niem.gov_niem_domains_jxdm_7.2_ArrestOfficial"
-HttpRelease.niem.govNiemDomainsJxdm7.2Arrest ||--|o Niem50Person : "http___release.niem.gov_niem_domains_jxdm_7.2_ArrestSubject"
-HttpRelease.niem.govNiemDomainsJxdm7.2Arrest ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2ArrestCharge : "http___release.niem.gov_niem_domains_jxdm_7.2_ArrestCharge"
-HttpRelease.niem.govNiemDomainsJxdm7.2Attorney ||--|o ScalesFirm : "scales_Firm"
-HttpRelease.niem.govNiemDomainsJxdm7.2Booking ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Release : "http___release.niem.gov_niem_domains_jxdm_7.2_BookingRelease"
-HttpRelease.niem.govNiemDomainsJxdm7.2Booking ||--|o ScalesCriminalCase : "scales_BookingCase"
-HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Booking : "http___release.niem.gov_niem_domains_jxdm_7.2_SubjectBooking"
-HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Charge : "http___release.niem.gov_niem_domains_jxdm_7.2_PersonCharge"
-HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefenseAttorney : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney"
-HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefenseAttorney ||--|o ScalesFirm : "scales_Firm"
-HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingAttorney ||--|o ScalesFirm : "scales_Firm"
-HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingAttorney : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney"
-HttpRelease.niem.govNiemDomainsJxdm7.2Charge ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty : "http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSubject"
-HttpRelease.niem.govNiemDomainsJxdm7.2Charge ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Booking : "http___release.niem.gov_niem_domains_jxdm_7.2_ChargeBooking"
-HttpRelease.niem.govNiemDomainsJxdm7.2Charge ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Sentence : "http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSentence"
-HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Sentence : "http___release.niem.gov_niem_domains_jxdm_7.2_Sentence"
-HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction : "scales_DocketEntry"
-HttpRelease.niem.govNiemDomainsJxdm7.2RegisterOfActions ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction : "scales_DocketEntry"
-HttpRelease.niem.govNiemDomainsJxdm7.2Sentence ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2SentenceTerm : "http___release.niem.gov_niem_domains_jxdm_7.2_SentenceTerm"
-ScalesCivilCase ||--|o ScalesParty : "scales_Party"
-ScalesCivilCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty"
-ScalesCivilCase ||--|o ScalesParty : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty"
+OwlDataRange ||--|o OwlOntology : "rdfs_isDefinedBy"
+OwlDataRange ||--|o RdfsResource : "rdfs_isDefinedBy"
+OwlDataRange ||--|o RdfsResource : "rdfs_seeAlso"
+OwlDataRange ||--|o RdfsLiteral : "rdfs_comment"
+OwlDataRange ||--|o RdfsLiteral : "rdfs_label"
+OwlDataRange ||--|o RdfsClass : "rdfs_subClassOf"
+OwlOntologyProperty ||--|o RdfsClass : "rdfs_range"
+OwlOntologyProperty ||--|o OwlOntology : "rdfs_isDefinedBy"
+OwlOntologyProperty ||--|o RdfsResource : "rdfs_isDefinedBy"
+OwlOntologyProperty ||--|o RdfsLiteral : "rdfs_comment"
+OwlOntologyProperty ||--|o RdfsLiteral : "rdfs_label"
+OwlOntologyProperty ||--|o RdfsClass : "rdfs_domain"
+RdfList ||--|o OwlOntology : "rdfs_isDefinedBy"
+RdfList ||--|o RdfsResource : "rdfs_isDefinedBy"
+RdfList ||--|o RdfsLiteral : "rdfs_comment"
+RdfList ||--|o RdfsLiteral : "rdfs_label"
+RdfsDatatype ||--|o OwlOntology : "rdfs_isDefinedBy"
+RdfsDatatype ||--|o RdfsResource : "rdfs_isDefinedBy"
+RdfsDatatype ||--|o RdfsResource : "rdfs_seeAlso"
+RdfsDatatype ||--|o RdfsLiteral : "rdfs_comment"
+RdfsDatatype ||--|o RdfsLiteral : "rdfs_label"
+RdfsDatatype ||--|o RdfsClass : "rdfs_subClassOf"
+TimeDayOfWeek ||--|o RdfsLiteral : "rdfs_label"
+TimeTemporalUnit ||--|o RdfsLiteral : "rdfs_label"
+Jxdm72Arrest ||--|o Jxdm72LawEnforcementOfficial : "jxdm72_ArrestOfficial"
+Jxdm72Attorney ||--|o ScalesFirm : "scales_Firm"
+Jxdm72Booking ||--|o Jxdm72BookingFacility : "jxdm72_BookingFacility"
+Jxdm72Booking ||--|o ScalesCriminalCase : "scales_BookingCase"
+Jxdm72Booking ||--|o Jxdm72Release : "jxdm72_BookingRelease"
+Jxdm72CaseDefendantParty ||--|o Jxdm72Charge : "jxdm72_PersonCharge"
+Jxdm72CaseDefendantParty ||--|o Jxdm72CaseDefenseAttorney : "jxdm72_CaseDefenseAttorney"
+Jxdm72CaseDefendantParty ||--|o Jxdm72Booking : "jxdm72_SubjectBooking"
+Jxdm72CaseDefenseAttorney ||--|o ScalesFirm : "scales_Firm"
+Jxdm72CaseInitiatingAttorney ||--|o ScalesFirm : "scales_Firm"
+Jxdm72CaseInitiatingParty ||--|o Jxdm72CaseInitiatingAttorney : "jxdm72_CaseInitiatingAttorney"
+Jxdm72Charge ||--|o Jxdm72Booking : "jxdm72_ChargeBooking"
+Jxdm72Charge ||--|o Jxdm72CaseDefendantParty : "jxdm72_ChargeSubject"
+Jxdm72Charge ||--|o Jxdm72Sentence : "jxdm72_ChargeSentence"
+Jxdm72RegisterAction ||--|o Jxdm72RegisterAction : "scales_DocketEntry"
+Jxdm72RegisterAction ||--|o Jxdm72Sentence : "jxdm72_Sentence"
+Jxdm72RegisterOfActions ||--|o Jxdm72RegisterAction : "scales_DocketEntry"
+Jxdm72Sentence ||--|o Jxdm72SentenceTerm : "jxdm72_SentenceTerm"
+Jxdm72SentenceTerm ||--|o XsdDuration : "jxdm72_TermDuration"
+Niem50Person ||--|o XsdGYear : "scales_BirthYear"
 ScalesCivilCase ||--|o ScalesCivilCase : "scales_hasMemberCase"
-ScalesCivilCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2RegisterOfActions : "scales_DocketTable"
-ScalesCivilCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction : "scales_DocketTable"
+ScalesCivilCase ||--|o Jxdm72CaseInitiatingParty : "jxdm72_CaseInitiatingParty"
+ScalesCivilCase ||--|o ScalesParty : "jxdm72_CaseInitiatingParty"
+ScalesCivilCase ||--|o Jxdm72CaseJudge : "jxdm72_CaseJudge"
+ScalesCivilCase ||--|o Jxdm72RegisterOfActions : "scales_DocketTable"
+ScalesCivilCase ||--|o Jxdm72RegisterAction : "scales_DocketTable"
+ScalesCivilCase ||--|o ScalesParty : "scales_Party"
 ScalesCivilCase ||--|o ScalesCivilCase : "scales_hasRelatedCase"
 ScalesCivilCase ||--|o ScalesCriminalCase : "scales_hasRelatedCase"
-ScalesCivilCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty"
-ScalesCivilCase ||--|o ScalesParty : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty"
-ScalesCivilCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2CaseJudge : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseJudge"
-ScalesCivilCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Court : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseCourt"
-ScalesCriminalCase ||--|o ScalesCivilCase : "scales_hasMemberCase"
-ScalesCriminalCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2CaseJudge : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseJudge"
-ScalesCriminalCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Charge : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseCharge"
-ScalesCriminalCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2RegisterOfActions : "scales_DocketTable"
-ScalesCriminalCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction : "scales_DocketTable"
+ScalesCivilCase ||--|o Jxdm72CaseDefendantParty : "jxdm72_CaseDefendantParty"
+ScalesCivilCase ||--|o ScalesParty : "jxdm72_CaseDefendantParty"
+ScalesCivilCase ||--|o Jxdm72Court : "jxdm72_CaseCourt"
+ScalesCriminalCase ||--|o Jxdm72Court : "jxdm72_CaseCourt"
+ScalesCriminalCase ||--|o Jxdm72Charge : "jxdm72_CaseCharge"
+ScalesCriminalCase ||--|o Jxdm72CaseInitiatingParty : "jxdm72_CaseInitiatingParty"
+ScalesCriminalCase ||--|o ScalesParty : "jxdm72_CaseInitiatingParty"
+ScalesCriminalCase ||--|o Jxdm72RegisterOfActions : "scales_DocketTable"
+ScalesCriminalCase ||--|o Jxdm72RegisterAction : "scales_DocketTable"
 ScalesCriminalCase ||--|o ScalesCivilCase : "scales_hasRelatedCase"
 ScalesCriminalCase ||--|o ScalesCriminalCase : "scales_hasRelatedCase"
-ScalesCriminalCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty"
-ScalesCriminalCase ||--|o ScalesParty : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty"
-ScalesCriminalCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Court : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseCourt"
+ScalesCriminalCase ||--|o ScalesCivilCase : "scales_hasMemberCase"
+ScalesCriminalCase ||--|o Jxdm72CaseJudge : "jxdm72_CaseJudge"
 ScalesCriminalCase ||--|o ScalesParty : "scales_Party"
-ScalesCriminalCase ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty"
-ScalesCriminalCase ||--|o ScalesParty : "http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty"
-ScalesParty ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Charge : "http___release.niem.gov_niem_domains_jxdm_7.2_PersonCharge"
-ScalesParty ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Sentence : "http___release.niem.gov_niem_domains_jxdm_7.2_Sentence"
-ScalesParty ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Attorney : "http___release.niem.gov_niem_domains_jxdm_7.2_Attorney"
+ScalesCriminalCase ||--|o Jxdm72CaseDefendantParty : "jxdm72_CaseDefendantParty"
+ScalesCriminalCase ||--|o ScalesParty : "jxdm72_CaseDefendantParty"
+ScalesParty ||--|o Jxdm72Attorney : "jxdm72_Attorney"
+ScalesParty ||--|o Jxdm72Charge : "jxdm72_PersonCharge"
+ScalesParty ||--|o Jxdm72Sentence : "jxdm72_Sentence"
 
 ```
 
@@ -401,6 +651,7 @@ ScalesParty ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Attorney : "http___rele
 ## Imports
 
 
+* okns:time
 * linkml:types
 
 
@@ -409,29 +660,30 @@ ScalesParty ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Attorney : "http___rele
 
 | Class | Description | Occurrences |
 | --- | --- | --- |
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Arrest](classes/HttpRelease.niem.govNiemDomainsJxdm7.2Arrest.md) | No class (type) description specified<br/>| 83347 | 
-| [HttpRelease.niem.govNiemDomainsJxdm7.2ArrestCharge](classes/HttpRelease.niem.govNiemDomainsJxdm7.2ArrestCharge.md) | No class (type) description specified<br/>| 83347 | 
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Attorney](classes/HttpRelease.niem.govNiemDomainsJxdm7.2Attorney.md) | No class (type) description specified<br/>| 537560 | 
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Booking](classes/HttpRelease.niem.govNiemDomainsJxdm7.2Booking.md) | No class (type) description specified<br/>| 363466 | 
-| [HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty](classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefendantParty.md) | No class (type) description specified<br/>| 2949712 | 
-| [HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefenseAttorney](classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseDefenseAttorney.md) | No class (type) description specified<br/>| 2823772 | 
-| [HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingAttorney](classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingAttorney.md) | No class (type) description specified<br/>| 2755161 | 
-| [HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty](classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseInitiatingParty.md) | No class (type) description specified<br/>| 1337860 | 
-| [HttpRelease.niem.govNiemDomainsJxdm7.2CaseJudge](classes/HttpRelease.niem.govNiemDomainsJxdm7.2CaseJudge.md) | No class (type) description specified<br/>| 3207790 | 
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Charge](classes/HttpRelease.niem.govNiemDomainsJxdm7.2Charge.md) | No class (type) description specified<br/>| 2908749 | 
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Court](classes/HttpRelease.niem.govNiemDomainsJxdm7.2Court.md) | No class (type) description specified<br/>| 94 | 
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Judge](classes/HttpRelease.niem.govNiemDomainsJxdm7.2Judge.md) | No class (type) description specified<br/>| 5385 | 
-| [HttpRelease.niem.govNiemDomainsJxdm7.2LawEnforcementOfficial](classes/HttpRelease.niem.govNiemDomainsJxdm7.2LawEnforcementOfficial.md) | No class (type) description specified<br/>| 2016 | 
-| [HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction](classes/HttpRelease.niem.govNiemDomainsJxdm7.2RegisterAction.md) | No class (type) description specified<br/>| 28776887 | 
-| [HttpRelease.niem.govNiemDomainsJxdm7.2RegisterOfActions](classes/HttpRelease.niem.govNiemDomainsJxdm7.2RegisterOfActions.md) | No class (type) description specified<br/>| 4160501 | 
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Release](classes/HttpRelease.niem.govNiemDomainsJxdm7.2Release.md) | No class (type) description specified<br/>| 347084 | 
-| [HttpRelease.niem.govNiemDomainsJxdm7.2Sentence](classes/HttpRelease.niem.govNiemDomainsJxdm7.2Sentence.md) | No class (type) description specified<br/>| 356094 | 
-| [HttpRelease.niem.govNiemDomainsJxdm7.2SentenceTerm](classes/HttpRelease.niem.govNiemDomainsJxdm7.2SentenceTerm.md) | No class (type) description specified<br/>| 462 | 
-| [Niem50Person](classes/Niem50Person.md) | No class (type) description specified<br/>| 83347 | 
-| [ScalesCivilCase](classes/ScalesCivilCase.md) | No class (type) description specified<br/>| 1795343 | 
-| [ScalesCriminalCase](classes/ScalesCriminalCase.md) | No class (type) description specified<br/>| 2368748 | 
-| [ScalesFirm](classes/ScalesFirm.md) | No class (type) description specified<br/>| 2929549 | 
-| [ScalesParty](classes/ScalesParty.md) | No class (type) description specified<br/>| 7362525 | 
+| [Jxdm72Arrest](classes/Jxdm72Arrest.md) | None<br/>| 83347 | 
+| [Jxdm72ArrestCharge](classes/Jxdm72ArrestCharge.md) | None<br/>| 137904 | 
+| [Jxdm72Attorney](classes/Jxdm72Attorney.md) | None<br/>| 537560 | 
+| [Jxdm72Booking](classes/Jxdm72Booking.md) | None<br/>| 363466 | 
+| [Jxdm72BookingFacility](classes/Jxdm72BookingFacility.md) | None<br/>| 1 | 
+| [Jxdm72CaseDefendantParty](classes/Jxdm72CaseDefendantParty.md) | None<br/>| 2949712 | 
+| [Jxdm72CaseDefenseAttorney](classes/Jxdm72CaseDefenseAttorney.md) | None<br/>| 2823772 | 
+| [Jxdm72CaseInitiatingAttorney](classes/Jxdm72CaseInitiatingAttorney.md) | None<br/>| 2755161 | 
+| [Jxdm72CaseInitiatingParty](classes/Jxdm72CaseInitiatingParty.md) | None<br/>| 1337860 | 
+| [Jxdm72CaseJudge](classes/Jxdm72CaseJudge.md) | None<br/>| 3207790 | 
+| [Jxdm72Charge](classes/Jxdm72Charge.md) | None<br/>| 3285242 | 
+| [Jxdm72Court](classes/Jxdm72Court.md) | None<br/>| 95 | 
+| [Jxdm72Judge](classes/Jxdm72Judge.md) | None<br/>| 5385 | 
+| [Jxdm72LawEnforcementOfficial](classes/Jxdm72LawEnforcementOfficial.md) | None<br/>| 2016 | 
+| [Jxdm72RegisterAction](classes/Jxdm72RegisterAction.md) | None<br/>| 28776887 | 
+| [Jxdm72RegisterOfActions](classes/Jxdm72RegisterOfActions.md) | None<br/>| 4160501 | 
+| [Jxdm72Release](classes/Jxdm72Release.md) | None<br/>| 347084 | 
+| [Jxdm72Sentence](classes/Jxdm72Sentence.md) | None<br/>| 356094 | 
+| [Jxdm72SentenceTerm](classes/Jxdm72SentenceTerm.md) | None<br/>| 462 | 
+| [Niem50Person](classes/Niem50Person.md) | None<br/>| 137904 | 
+| [ScalesCivilCase](classes/ScalesCivilCase.md) | None<br/>| 1795343 | 
+| [ScalesCriminalCase](classes/ScalesCriminalCase.md) | None<br/>| 2368748 | 
+| [ScalesFirm](classes/ScalesFirm.md) | None<br/>| 2929549 | 
+| [ScalesParty](classes/ScalesParty.md) | None<br/>| 7362525 | 
 
 
 
@@ -441,278 +693,269 @@ ScalesParty ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Attorney : "http___rele
 
 | Slot | Description | Occurrences |
 | --- | --- | --- |
-| [http___fbi.gov_cjis_nibrs_2023.0_NIBRSReportCategoryCode](slots/http___fbi.gov_cjis_nibrs_2023.0_NIBRSReportCategoryCode.md) | No slot (predicate) description specified<br/>| 39440 |
-| [http___fbi.gov_cjis_nibrs_2023.0_OffenseUCRCode](slots/http___fbi.gov_cjis_nibrs_2023.0_OffenseUCRCode.md) | No slot (predicate) description specified<br/>| 76331 |
-| [http___fbi.gov_cjis_nibrs_2023.0NIBRSReportCategoryCode](slots/http___fbi.gov_cjis_nibrs_2023.0NIBRSReportCategoryCode.md) | No slot (predicate) description specified<br/>| 1421122 |
-| [http___fbi.gov_cjis_nibrs_2023.0OffenseUCRCode](slots/http___fbi.gov_cjis_nibrs_2023.0OffenseUCRCode.md) | No slot (predicate) description specified<br/>| 848072 |
-| [http___release.niem.gov_niem_codes_fips_5.0_CountyCode](slots/http___release.niem.gov_niem_codes_fips_5.0_CountyCode.md) | No slot (predicate) description specified<br/>| 3035 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_ArrestCharge](slots/http___release.niem.gov_niem_domains_jxdm_7.2_ArrestCharge.md) | No slot (predicate) description specified<br/>| 83347 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_ArrestOfficial](slots/http___release.niem.gov_niem_domains_jxdm_7.2_ArrestOfficial.md) | No slot (predicate) description specified<br/>| 84716 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_ArrestSubject](slots/http___release.niem.gov_niem_domains_jxdm_7.2_ArrestSubject.md) | No slot (predicate) description specified<br/>| 83347 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_Attorney](slots/http___release.niem.gov_niem_domains_jxdm_7.2_Attorney.md) | No slot (predicate) description specified<br/>| 537560 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_BondAmount](slots/http___release.niem.gov_niem_domains_jxdm_7.2_BondAmount.md) | No slot (predicate) description specified<br/>| 99402 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_BondType](slots/http___release.niem.gov_niem_domains_jxdm_7.2_BondType.md) | No slot (predicate) description specified<br/>| 105383 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_BookingRelease](slots/http___release.niem.gov_niem_domains_jxdm_7.2_BookingRelease.md) | No slot (predicate) description specified<br/>| 347084 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_Case](slots/http___release.niem.gov_niem_domains_jxdm_7.2_Case.md) | No slot (predicate) description specified<br/>| 864700 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_CaseCharge](slots/http___release.niem.gov_niem_domains_jxdm_7.2_CaseCharge.md) | No slot (predicate) description specified<br/>| 607725 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_CaseCourt](slots/http___release.niem.gov_niem_domains_jxdm_7.2_CaseCourt.md) | No slot (predicate) description specified<br/>| 4072490 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty](slots/http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefendantParty.md) | No slot (predicate) description specified<br/>| 6231746 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney](slots/http___release.niem.gov_niem_domains_jxdm_7.2_CaseDefenseAttorney.md) | No slot (predicate) description specified<br/>| 2823772 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney](slots/http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingAttorney.md) | No slot (predicate) description specified<br/>| 2755161 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty](slots/http___release.niem.gov_niem_domains_jxdm_7.2_CaseInitiatingParty.md) | No slot (predicate) description specified<br/>| 4892601 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_CaseJudge](slots/http___release.niem.gov_niem_domains_jxdm_7.2_CaseJudge.md) | No slot (predicate) description specified<br/>| 4424121 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_CaseOfficialRoleText](slots/http___release.niem.gov_niem_domains_jxdm_7.2_CaseOfficialRoleText.md) | No slot (predicate) description specified<br/>| 1713199 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_ChargeBooking](slots/http___release.niem.gov_niem_domains_jxdm_7.2_ChargeBooking.md) | No slot (predicate) description specified<br/>| 363466 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_ChargeDisposition](slots/http___release.niem.gov_niem_domains_jxdm_7.2_ChargeDisposition.md) | No slot (predicate) description specified<br/>| 389366 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_ChargeDispositionCategoryText](slots/http___release.niem.gov_niem_domains_jxdm_7.2_ChargeDispositionCategoryText.md) | No slot (predicate) description specified<br/>| 94272 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSentence](slots/http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSentence.md) | No slot (predicate) description specified<br/>| 244007 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSequenceID](slots/http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSequenceID.md) | No slot (predicate) description specified<br/>| 389366 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSeverityLevelCode](slots/http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSeverityLevelCode.md) | No slot (predicate) description specified<br/>| 444717 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSubject](slots/http___release.niem.gov_niem_domains_jxdm_7.2_ChargeSubject.md) | No slot (predicate) description specified<br/>| 363466 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_ChargeText](slots/http___release.niem.gov_niem_domains_jxdm_7.2_ChargeText.md) | No slot (predicate) description specified<br/>| 3374647 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_CourtCategoryCode](slots/http___release.niem.gov_niem_domains_jxdm_7.2_CourtCategoryCode.md) | No slot (predicate) description specified<br/>| 94 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_CourtName](slots/http___release.niem.gov_niem_domains_jxdm_7.2_CourtName.md) | No slot (predicate) description specified<br/>| 94 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_DrugCategoryCode](slots/http___release.niem.gov_niem_domains_jxdm_7.2_DrugCategoryCode.md) | No slot (predicate) description specified<br/>| 45 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_JudicialOfficialCategoryText](slots/http___release.niem.gov_niem_domains_jxdm_7.2_JudicialOfficialCategoryText.md) | No slot (predicate) description specified<br/>| 5385 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_ParticipantRoleCategoryText](slots/http___release.niem.gov_niem_domains_jxdm_7.2_ParticipantRoleCategoryText.md) | No slot (predicate) description specified<br/>| 11629280 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_PersonCharge](slots/http___release.niem.gov_niem_domains_jxdm_7.2_PersonCharge.md) | No slot (predicate) description specified<br/>| 2908749 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_PersonSexCode](slots/http___release.niem.gov_niem_domains_jxdm_7.2_PersonSexCode.md) | No slot (predicate) description specified<br/>| 448932 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDate](slots/http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDate.md) | No slot (predicate) description specified<br/>| 58361062 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDescriptionText](slots/http___release.niem.gov_niem_domains_jxdm_7.2_RegisterActionDescriptionText.md) | No slot (predicate) description specified<br/>| 58359685 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_Sentence](slots/http___release.niem.gov_niem_domains_jxdm_7.2_Sentence.md) | No slot (predicate) description specified<br/>| 675670 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_SentenceDescriptionText](slots/http___release.niem.gov_niem_domains_jxdm_7.2_SentenceDescriptionText.md) | No slot (predicate) description specified<br/>| 356094 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_SentenceTerm](slots/http___release.niem.gov_niem_domains_jxdm_7.2_SentenceTerm.md) | No slot (predicate) description specified<br/>| 356094 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_StatuteKeywordText](slots/http___release.niem.gov_niem_domains_jxdm_7.2_StatuteKeywordText.md) | No slot (predicate) description specified<br/>| 718593 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_SubjectBooking](slots/http___release.niem.gov_niem_domains_jxdm_7.2_SubjectBooking.md) | No slot (predicate) description specified<br/>| 363466 |
-| [http___release.niem.gov_niem_domains_jxdm_7.2_TermDuration](slots/http___release.niem.gov_niem_domains_jxdm_7.2_TermDuration.md) | No slot (predicate) description specified<br/>| 462 |
-| [niem50_ActivityDate](slots/niem50_ActivityDate.md) | No slot (predicate) description specified<br/>| 904252 |
-| [niem50_AddressPostalCode](slots/niem50_AddressPostalCode.md) | No slot (predicate) description specified<br/>| 40932 |
-| [niem50_AdministrativeID](slots/niem50_AdministrativeID.md) | No slot (predicate) description specified<br/>| 30414852 |
-| [niem50_CaseDocketID](slots/niem50_CaseDocketID.md) | No slot (predicate) description specified<br/>| 4164091 |
-| [niem50_CaseGeneralCategoryText](slots/niem50_CaseGeneralCategoryText.md) | No slot (predicate) description specified<br/>| 4072490 |
-| [niem50_CaseSubCategoryText](slots/niem50_CaseSubCategoryText.md) | No slot (predicate) description specified<br/>| 1863523 |
-| [niem50_ContactMailingAddress](slots/niem50_ContactMailingAddress.md) | No slot (predicate) description specified<br/>| 3083592 |
-| [niem50_EndDate](slots/niem50_EndDate.md) | No slot (predicate) description specified<br/>| 3828523 |
-| [niem50_EntityName](slots/niem50_EntityName.md) | No slot (predicate) description specified<br/>| 4241878 |
-| [niem50_JurisdictionText](slots/niem50_JurisdictionText.md) | No slot (predicate) description specified<br/>| 3926555 |
-| [niem50_LocaleCensusBlockID](slots/niem50_LocaleCensusBlockID.md) | No slot (predicate) description specified<br/>| 71598 |
-| [niem50_OrganizationName](slots/niem50_OrganizationName.md) | No slot (predicate) description specified<br/>| 2929547 |
-| [niem50_PersonFullName](slots/niem50_PersonFullName.md) | No slot (predicate) description specified<br/>| 17954252 |
-| [niem50_PersonID](slots/niem50_PersonID.md) | No slot (predicate) description specified<br/>| 2020 |
-| [niem50_PersonRaceText](slots/niem50_PersonRaceText.md) | No slot (predicate) description specified<br/>| 450612 |
-| [niem50_PersonSexText](slots/niem50_PersonSexText.md) | No slot (predicate) description specified<br/>| 3762 |
-| [niem50_StartDate](slots/niem50_StartDate.md) | No slot (predicate) description specified<br/>| 4072490 |
-| [niem50_StatusDescriptionText](slots/niem50_StatusDescriptionText.md) | No slot (predicate) description specified<br/>| 4072490 |
-| [scales_appointedByParty](slots/scales_appointedByParty.md) | No slot (predicate) description specified<br/>| 3912 |
-| [scales_assignedToDefendant](slots/scales_assignedToDefendant.md) | No slot (predicate) description specified<br/>| 53962 |
-| [scales_BirthYear](slots/scales_BirthYear.md) | No slot (predicate) description specified<br/>| 91623 |
-| [scales_BookingCase](slots/scales_BookingCase.md) | No slot (predicate) description specified<br/>| 218359 |
-| [scales_DocketEntry](slots/scales_DocketEntry.md) | No slot (predicate) description specified<br/>| 58334996 |
-| [scales_DocketTable](slots/scales_DocketTable.md) | No slot (predicate) description specified<br/>| 4160501 |
-| [scales_Firm](slots/scales_Firm.md) | No slot (predicate) description specified<br/>| 2929549 |
-| [scales_hasChargeType](slots/scales_hasChargeType.md) | No slot (predicate) description specified<br/>| 389366 |
-| [scales_hasCommissionDate](slots/scales_hasCommissionDate.md) | No slot (predicate) description specified<br/>| 4257 |
-| [scales_hasExtraInfo](slots/scales_hasExtraInfo.md) | No slot (predicate) description specified<br/>| 861769 |
-| [scales_hasFJCNodeID](slots/scales_hasFJCNodeID.md) | No slot (predicate) description specified<br/>| 3855 |
-| [scales_hasHighestOffenseLevelOpening](slots/scales_hasHighestOffenseLevelOpening.md) | No slot (predicate) description specified<br/>| 159337 |
-| [scales_hasHighestOffenseLevelTerminated](slots/scales_hasHighestOffenseLevelTerminated.md) | No slot (predicate) description specified<br/>| 69523 |
-| [scales_hasIdbAmtrec](slots/scales_hasIdbAmtrec.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbAppcd](slots/scales_hasIdbAppcd.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbAppdate](slots/scales_hasIdbAppdate.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbArbit](slots/scales_hasIdbArbit.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbCaslgky](slots/scales_hasIdbCaslgky.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbCircuit](slots/scales_hasIdbCircuit.md) | No slot (predicate) description specified<br/>| 824286 |
-| [scales_hasIdbClassact](slots/scales_hasIdbClassact.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbCounty](slots/scales_hasIdbCounty.md) | No slot (predicate) description specified<br/>| 824286 |
-| [scales_hasIdbCtdef](slots/scales_hasIdbCtdef.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbCtfil](slots/scales_hasIdbCtfil.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbCtfilr](slots/scales_hasIdbCtfilr.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbCtfiltrn](slots/scales_hasIdbCtfiltrn.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbCtfilwor](slots/scales_hasIdbCtfilwor.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbCtpn](slots/scales_hasIdbCtpn.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbCtpnwof](slots/scales_hasIdbCtpnwof.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbCttr](slots/scales_hasIdbCttr.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbCttrr](slots/scales_hasIdbCttrr.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbCttrtrn](slots/scales_hasIdbCttrtrn.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbCttrwor](slots/scales_hasIdbCttrwor.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbD2foffcd1](slots/scales_hasIdbD2foffcd1.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbD2foffcd2](slots/scales_hasIdbD2foffcd2.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbD2foffcd3](slots/scales_hasIdbD2foffcd3.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbD2foffcd4](slots/scales_hasIdbD2foffcd4.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbD2foffcd5](slots/scales_hasIdbD2foffcd5.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbD2toffcd1](slots/scales_hasIdbD2toffcd1.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbD2toffcd2](slots/scales_hasIdbD2toffcd2.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbD2toffcd3](slots/scales_hasIdbD2toffcd3.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbD2toffcd4](slots/scales_hasIdbD2toffcd4.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbD2toffcd5](slots/scales_hasIdbD2toffcd5.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbDef](slots/scales_hasIdbDef.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbDeflgky](slots/scales_hasIdbDeflgky.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbDefno](slots/scales_hasIdbDefno.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbDemanded](slots/scales_hasIdbDemanded.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbDisp](slots/scales_hasIdbDisp.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbDisp1](slots/scales_hasIdbDisp1.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbDisp2](slots/scales_hasIdbDisp2.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbDisp3](slots/scales_hasIdbDisp3.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbDisp4](slots/scales_hasIdbDisp4.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbDisp5](slots/scales_hasIdbDisp5.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbDispdate](slots/scales_hasIdbDispdate.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbDistrict](slots/scales_hasIdbDistrict.md) | No slot (predicate) description specified<br/>| 824286 |
-| [scales_hasIdbDjoined](slots/scales_hasIdbDjoined.md) | No slot (predicate) description specified<br/>| 275529 |
-| [scales_hasIdbDocket](slots/scales_hasIdbDocket.md) | No slot (predicate) description specified<br/>| 824286 |
-| [scales_hasIdbFcounsel](slots/scales_hasIdbFcounsel.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFdateuse](slots/scales_hasIdbFdateuse.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbFgenddate](slots/scales_hasIdbFgenddate.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFgstrtdate](slots/scales_hasIdbFgstrtdate.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFiledate](slots/scales_hasIdbFiledate.md) | No slot (predicate) description specified<br/>| 824286 |
-| [scales_hasIdbFineamt1](slots/scales_hasIdbFineamt1.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFineamt2](slots/scales_hasIdbFineamt2.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFineamt3](slots/scales_hasIdbFineamt3.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFineamt4](slots/scales_hasIdbFineamt4.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFineamt5](slots/scales_hasIdbFineamt5.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFinetot](slots/scales_hasIdbFinetot.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFiscalyr](slots/scales_hasIdbFiscalyr.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFoffcd1](slots/scales_hasIdbFoffcd1.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFoffcd2](slots/scales_hasIdbFoffcd2.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFoffcd3](slots/scales_hasIdbFoffcd3.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFoffcd4](slots/scales_hasIdbFoffcd4.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFoffcd5](slots/scales_hasIdbFoffcd5.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFofflvl1](slots/scales_hasIdbFofflvl1.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFofflvl2](slots/scales_hasIdbFofflvl2.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFofflvl3](slots/scales_hasIdbFofflvl3.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFofflvl4](slots/scales_hasIdbFofflvl4.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFofflvl5](slots/scales_hasIdbFofflvl5.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFsev1](slots/scales_hasIdbFsev1.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFsev2](slots/scales_hasIdbFsev2.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFsev3](slots/scales_hasIdbFsev3.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFsev4](slots/scales_hasIdbFsev4.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFsev5](slots/scales_hasIdbFsev5.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFtitle1](slots/scales_hasIdbFtitle1.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFtitle2](slots/scales_hasIdbFtitle2.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFtitle3](slots/scales_hasIdbFtitle3.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFtitle4](slots/scales_hasIdbFtitle4.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFtitle5](slots/scales_hasIdbFtitle5.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbFugstat](slots/scales_hasIdbFugstat.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbIfp](slots/scales_hasIdbIfp.md) | No slot (predicate) description specified<br/>| 702500 |
-| [scales_hasIdbInt1](slots/scales_hasIdbInt1.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbInt2](slots/scales_hasIdbInt2.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbInt3](slots/scales_hasIdbInt3.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbIs_stub](slots/scales_hasIdbIs_stub.md) | No slot (predicate) description specified<br/>| 824286 |
-| [scales_hasIdbJudgment](slots/scales_hasIdbJudgment.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbJuris](slots/scales_hasIdbJuris.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbJury](slots/scales_hasIdbJury.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbLoaddate](slots/scales_hasIdbLoaddate.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbMagdef](slots/scales_hasIdbMagdef.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbMagdock](slots/scales_hasIdbMagdock.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbMdldock](slots/scales_hasIdbMdldock.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbNoj](slots/scales_hasIdbNoj.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbNos](slots/scales_hasIdbNos.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbOffice](slots/scales_hasIdbOffice.md) | No slot (predicate) description specified<br/>| 824286 |
-| [scales_hasIdbOrigin](slots/scales_hasIdbOrigin.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbPlt](slots/scales_hasIdbPlt.md) | No slot (predicate) description specified<br/>| 702493 |
-| [scales_hasIdbPretrial](slots/scales_hasIdbPretrial.md) | No slot (predicate) description specified<br/>| 41491 |
-| [scales_hasIdbPriscd1](slots/scales_hasIdbPriscd1.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbPriscd2](slots/scales_hasIdbPriscd2.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbPriscd3](slots/scales_hasIdbPriscd3.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbPriscd4](slots/scales_hasIdbPriscd4.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbPriscd5](slots/scales_hasIdbPriscd5.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbPristim1](slots/scales_hasIdbPristim1.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbPristim2](slots/scales_hasIdbPristim2.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbPristim3](slots/scales_hasIdbPristim3.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbPristim4](slots/scales_hasIdbPristim4.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbPristim5](slots/scales_hasIdbPristim5.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbPristot](slots/scales_hasIdbPristot.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbProbcd1](slots/scales_hasIdbProbcd1.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbProbcd2](slots/scales_hasIdbProbcd2.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbProbcd3](slots/scales_hasIdbProbcd3.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbProbcd4](slots/scales_hasIdbProbcd4.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbProbcd5](slots/scales_hasIdbProbcd5.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbProbmon1](slots/scales_hasIdbProbmon1.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbProbmon2](slots/scales_hasIdbProbmon2.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbProbmon3](slots/scales_hasIdbProbmon3.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbProbmon4](slots/scales_hasIdbProbmon4.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbProbmon5](slots/scales_hasIdbProbmon5.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbProbtot](slots/scales_hasIdbProbtot.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbProccd](slots/scales_hasIdbProccd.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbProcdate](slots/scales_hasIdbProcdate.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbProcprog](slots/scales_hasIdbProcprog.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbProse](slots/scales_hasIdbProse.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbReopseq](slots/scales_hasIdbReopseq.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbResidenc](slots/scales_hasIdbResidenc.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbSection](slots/scales_hasIdbSection.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbSentdate](slots/scales_hasIdbSentdate.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbStatuscd](slots/scales_hasIdbStatuscd.md) | No slot (predicate) description specified<br/>| 824285 |
-| [scales_hasIdbSubsect](slots/scales_hasIdbSubsect.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbSupvrel1](slots/scales_hasIdbSupvrel1.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbSupvrel2](slots/scales_hasIdbSupvrel2.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbSupvrel3](slots/scales_hasIdbSupvrel3.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbSupvrel4](slots/scales_hasIdbSupvrel4.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbSupvrel5](slots/scales_hasIdbSupvrel5.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTapeyear](slots/scales_hasIdbTapeyear.md) | No slot (predicate) description specified<br/>| 824286 |
-| [scales_hasIdbTcounsel](slots/scales_hasIdbTcounsel.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTdateuse](slots/scales_hasIdbTdateuse.md) | No slot (predicate) description specified<br/>| 662201 |
-| [scales_hasIdbTermdate](slots/scales_hasIdbTermdate.md) | No slot (predicate) description specified<br/>| 712609 |
-| [scales_hasIdbTermoff](slots/scales_hasIdbTermoff.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTitl](slots/scales_hasIdbTitl.md) | No slot (predicate) description specified<br/>| 325292 |
-| [scales_hasIdbToffcd1](slots/scales_hasIdbToffcd1.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbToffcd2](slots/scales_hasIdbToffcd2.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbToffcd3](slots/scales_hasIdbToffcd3.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbToffcd4](slots/scales_hasIdbToffcd4.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbToffcd5](slots/scales_hasIdbToffcd5.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTofflvl1](slots/scales_hasIdbTofflvl1.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTofflvl2](slots/scales_hasIdbTofflvl2.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTofflvl3](slots/scales_hasIdbTofflvl3.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTofflvl4](slots/scales_hasIdbTofflvl4.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTofflvl5](slots/scales_hasIdbTofflvl5.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTrandef](slots/scales_hasIdbTrandef.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTrandist](slots/scales_hasIdbTrandist.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTrandock](slots/scales_hasIdbTrandock.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTranoff](slots/scales_hasIdbTranoff.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTransdat](slots/scales_hasIdbTransdat.md) | No slot (predicate) description specified<br/>| 6137 |
-| [scales_hasIdbTransdoc](slots/scales_hasIdbTransdoc.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbTransoff](slots/scales_hasIdbTransoff.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbTransorg](slots/scales_hasIdbTransorg.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbTrclact](slots/scales_hasIdbTrclact.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbTrialend](slots/scales_hasIdbTrialend.md) | No slot (predicate) description specified<br/>| 4417 |
-| [scales_hasIdbTribegan](slots/scales_hasIdbTribegan.md) | No slot (predicate) description specified<br/>| 3565 |
-| [scales_hasIdbTrmarb](slots/scales_hasIdbTrmarb.md) | No slot (predicate) description specified<br/>| 702501 |
-| [scales_hasIdbTsev1](slots/scales_hasIdbTsev1.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTsev2](slots/scales_hasIdbTsev2.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTsev3](slots/scales_hasIdbTsev3.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTsev4](slots/scales_hasIdbTsev4.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTsev5](slots/scales_hasIdbTsev5.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTtitle1](slots/scales_hasIdbTtitle1.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTtitle2](slots/scales_hasIdbTtitle2.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTtitle3](slots/scales_hasIdbTtitle3.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTtitle4](slots/scales_hasIdbTtitle4.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTtitle5](slots/scales_hasIdbTtitle5.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTypemag](slots/scales_hasIdbTypemag.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTypereg](slots/scales_hasIdbTypereg.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbTypetrn](slots/scales_hasIdbTypetrn.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbUpdate](slots/scales_hasIdbUpdate.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIdbVer](slots/scales_hasIdbVer.md) | No slot (predicate) description specified<br/>| 121785 |
-| [scales_hasIfpJudgeAttribution](slots/scales_hasIfpJudgeAttribution.md) | No slot (predicate) description specified<br/>| 175903 |
-| [scales_hasIfpLabel](slots/scales_hasIfpLabel.md) | No slot (predicate) description specified<br/>| 197166 |
-| [scales_hasMemberCase](slots/scales_hasMemberCase.md) | No slot (predicate) description specified<br/>| 83603 |
-| [scales_hasReferenceToOtherEntry](slots/scales_hasReferenceToOtherEntry.md) | No slot (predicate) description specified<br/>| 10618350 |
-| [scales_hasRelatedCase](slots/scales_hasRelatedCase.md) | No slot (predicate) description specified<br/>| 125197 |
-| [scales_hasUVAJudgeDirID](slots/scales_hasUVAJudgeDirID.md) | No slot (predicate) description specified<br/>| 988 |
-| [scales_isInCircuit](slots/scales_isInCircuit.md) | No slot (predicate) description specified<br/>| 94 |
-| [scales_isInstanceOfEntity](slots/scales_isInstanceOfEntity.md) | No slot (predicate) description specified<br/>| 7057563 |
-| [scales_isReferenceToEntity](slots/scales_isReferenceToEntity.md) | No slot (predicate) description specified<br/>| 363466 |
-| [scales_OntologyLabel](slots/scales_OntologyLabel.md) | No slot (predicate) description specified<br/>| 37622932 |
-| [scales_Party](slots/scales_Party.md) | No slot (predicate) description specified<br/>| 380643 |
+| [http___release.niem.gov_niem_codes_fips_5.0_CountyCode](slots/http___release.niem.gov_niem_codes_fips_5.0_CountyCode.md) | <br/>| 3037 |
+| [jxdm72_ArrestOfficial](slots/jxdm72_ArrestOfficial.md) | <br/>| 84716 |
+| [jxdm72_Attorney](slots/jxdm72_Attorney.md) | <br/>| 537560 |
+| [jxdm72_BondAmount](slots/jxdm72_BondAmount.md) | <br/>| 99402 |
+| [jxdm72_BondType](slots/jxdm72_BondType.md) | <br/>| 105383 |
+| [jxdm72_BookingFacility](slots/jxdm72_BookingFacility.md) | <br/>| 363466 |
+| [jxdm72_BookingRelease](slots/jxdm72_BookingRelease.md) | <br/>| 347084 |
+| [jxdm72_Case](slots/jxdm72_Case.md) | <br/>| 864700 |
+| [jxdm72_CaseCharge](slots/jxdm72_CaseCharge.md) | <br/>| 607725 |
+| [jxdm72_CaseCourt](slots/jxdm72_CaseCourt.md) | <br/>| 4164091 |
+| [jxdm72_CaseDefendantParty](slots/jxdm72_CaseDefendantParty.md) | <br/>| 6231746 |
+| [jxdm72_CaseDefenseAttorney](slots/jxdm72_CaseDefenseAttorney.md) | <br/>| 2823772 |
+| [jxdm72_CaseInitiatingAttorney](slots/jxdm72_CaseInitiatingAttorney.md) | <br/>| 2755161 |
+| [jxdm72_CaseInitiatingParty](slots/jxdm72_CaseInitiatingParty.md) | <br/>| 4892601 |
+| [jxdm72_CaseJudge](slots/jxdm72_CaseJudge.md) | <br/>| 4424121 |
+| [jxdm72_CaseOfficialRoleText](slots/jxdm72_CaseOfficialRoleText.md) | <br/>| 1713199 |
+| [jxdm72_ChargeBooking](slots/jxdm72_ChargeBooking.md) | <br/>| 363466 |
+| [jxdm72_ChargeDisposition](slots/jxdm72_ChargeDisposition.md) | <br/>| 389366 |
+| [jxdm72_ChargeDispositionCategoryText](slots/jxdm72_ChargeDispositionCategoryText.md) | <br/>| 138625 |
+| [jxdm72_ChargeSentence](slots/jxdm72_ChargeSentence.md) | <br/>| 244007 |
+| [jxdm72_ChargeSequenceID](slots/jxdm72_ChargeSequenceID.md) | <br/>| 389366 |
+| [jxdm72_ChargeSeverityLevelCode](slots/jxdm72_ChargeSeverityLevelCode.md) | <br/>| 495206 |
+| [jxdm72_ChargeSubject](slots/jxdm72_ChargeSubject.md) | <br/>| 363466 |
+| [jxdm72_ChargeText](slots/jxdm72_ChargeText.md) | <br/>| 3442649 |
+| [jxdm72_CourtCategoryCode](slots/jxdm72_CourtCategoryCode.md) | <br/>| 95 |
+| [jxdm72_CourtName](slots/jxdm72_CourtName.md) | <br/>| 94 |
+| [jxdm72_DrugCategoryCode](slots/jxdm72_DrugCategoryCode.md) | <br/>| 133125 |
+| [jxdm72_JudicialOfficialCategoryText](slots/jxdm72_JudicialOfficialCategoryText.md) | <br/>| 5385 |
+| [jxdm72_ParticipantRoleCategoryText](slots/jxdm72_ParticipantRoleCategoryText.md) | <br/>| 11629280 |
+| [jxdm72_PersonCharge](slots/jxdm72_PersonCharge.md) | <br/>| 3340425 |
+| [jxdm72_PersonSexCode](slots/jxdm72_PersonSexCode.md) | <br/>| 500447 |
+| [jxdm72_RegisterActionDate](slots/jxdm72_RegisterActionDate.md) | <br/>| 58361062 |
+| [jxdm72_RegisterActionDescriptionText](slots/jxdm72_RegisterActionDescriptionText.md) | <br/>| 58359696 |
+| [jxdm72_Sentence](slots/jxdm72_Sentence.md) | <br/>| 675670 |
+| [jxdm72_SentenceDescriptionText](slots/jxdm72_SentenceDescriptionText.md) | <br/>| 356094 |
+| [jxdm72_SentenceTerm](slots/jxdm72_SentenceTerm.md) | <br/>| 356094 |
+| [jxdm72_StatuteKeywordText](slots/jxdm72_StatuteKeywordText.md) | <br/>| 718593 |
+| [jxdm72_SubjectBooking](slots/jxdm72_SubjectBooking.md) | <br/>| 363466 |
+| [jxdm72_TermDuration](slots/jxdm72_TermDuration.md) | <br/>| 462 |
+| [nibrs_NIBRSReportCategoryCode](slots/nibrs_NIBRSReportCategoryCode.md) | <br/>| 1670109 |
+| [nibrs_OffenseUCRCode](slots/nibrs_OffenseUCRCode.md) | <br/>| 1150517 |
+| [niem50_ActivityDate](slots/niem50_ActivityDate.md) | <br/>| 904252 |
+| [niem50_AddressPostalCode](slots/niem50_AddressPostalCode.md) | <br/>| 40932 |
+| [niem50_AdministrativeID](slots/niem50_AdministrativeID.md) | <br/>| 30414852 |
+| [niem50_CaseDocketID](slots/niem50_CaseDocketID.md) | <br/>| 4164091 |
+| [niem50_CaseGeneralCategoryText](slots/niem50_CaseGeneralCategoryText.md) | <br/>| 4072490 |
+| [niem50_CaseSubCategoryText](slots/niem50_CaseSubCategoryText.md) | <br/>| 1863523 |
+| [niem50_ContactMailingAddress](slots/niem50_ContactMailingAddress.md) | <br/>| 3083592 |
+| [niem50_CourtName](slots/niem50_CourtName.md) | <br/>| 1 |
+| [niem50_CourtPostalCode](slots/niem50_CourtPostalCode.md) | <br/>| 2 |
+| [niem50_EndDate](slots/niem50_EndDate.md) | <br/>| 3828523 |
+| [niem50_EntityName](slots/niem50_EntityName.md) | <br/>| 4241878 |
+| [niem50_FacilityName](slots/niem50_FacilityName.md) | <br/>| 1 |
+| [niem50_JurisdictionText](slots/niem50_JurisdictionText.md) | <br/>| 3926555 |
+| [niem50_LocaleCensusBlockID](slots/niem50_LocaleCensusBlockID.md) | <br/>| 71598 |
+| [niem50_OrganizationName](slots/niem50_OrganizationName.md) | <br/>| 2929547 |
+| [niem50_PersonFullName](slots/niem50_PersonFullName.md) | <br/>| 17954252 |
+| [niem50_PersonID](slots/niem50_PersonID.md) | <br/>| 2020 |
+| [niem50_PersonRaceText](slots/niem50_PersonRaceText.md) | <br/>| 504197 |
+| [niem50_PersonSexText](slots/niem50_PersonSexText.md) | <br/>| 3762 |
+| [niem50_StartDate](slots/niem50_StartDate.md) | <br/>| 4072490 |
+| [niem50_StatusDescriptionText](slots/niem50_StatusDescriptionText.md) | <br/>| 4072490 |
+| [scales_appointedByParty](slots/scales_appointedByParty.md) | <br/>| 3912 |
+| [scales_assignedToDefendant](slots/scales_assignedToDefendant.md) | <br/>| 53962 |
+| [scales_BirthYear](slots/scales_BirthYear.md) | <br/>| 137257 |
+| [scales_BookingCase](slots/scales_BookingCase.md) | <br/>| 218359 |
+| [scales_DocketEntry](slots/scales_DocketEntry.md) | <br/>| 58334996 |
+| [scales_DocketTable](slots/scales_DocketTable.md) | <br/>| 4160501 |
+| [scales_Firm](slots/scales_Firm.md) | <br/>| 2929549 |
+| [scales_hasChargeType](slots/scales_hasChargeType.md) | <br/>| 389366 |
+| [scales_hasCommissionDate](slots/scales_hasCommissionDate.md) | <br/>| 4257 |
+| [scales_hasExtraInfo](slots/scales_hasExtraInfo.md) | <br/>| 861769 |
+| [scales_hasFJCNodeID](slots/scales_hasFJCNodeID.md) | <br/>| 3855 |
+| [scales_hasHighestOffenseLevelOpening](slots/scales_hasHighestOffenseLevelOpening.md) | <br/>| 159337 |
+| [scales_hasHighestOffenseLevelTerminated](slots/scales_hasHighestOffenseLevelTerminated.md) | <br/>| 69523 |
+| [scales_hasIdbAmtrec](slots/scales_hasIdbAmtrec.md) | <br/>| 702501 |
+| [scales_hasIdbAppcd](slots/scales_hasIdbAppcd.md) | <br/>| 121785 |
+| [scales_hasIdbAppdate](slots/scales_hasIdbAppdate.md) | <br/>| 121785 |
+| [scales_hasIdbArbit](slots/scales_hasIdbArbit.md) | <br/>| 702501 |
+| [scales_hasIdbCaslgky](slots/scales_hasIdbCaslgky.md) | <br/>| 121785 |
+| [scales_hasIdbCircuit](slots/scales_hasIdbCircuit.md) | <br/>| 824286 |
+| [scales_hasIdbClassact](slots/scales_hasIdbClassact.md) | <br/>| 702501 |
+| [scales_hasIdbCounty](slots/scales_hasIdbCounty.md) | <br/>| 824286 |
+| [scales_hasIdbCtdef](slots/scales_hasIdbCtdef.md) | <br/>| 121785 |
+| [scales_hasIdbCtfil](slots/scales_hasIdbCtfil.md) | <br/>| 121785 |
+| [scales_hasIdbCtfilr](slots/scales_hasIdbCtfilr.md) | <br/>| 121785 |
+| [scales_hasIdbCtfiltrn](slots/scales_hasIdbCtfiltrn.md) | <br/>| 121785 |
+| [scales_hasIdbCtfilwor](slots/scales_hasIdbCtfilwor.md) | <br/>| 121785 |
+| [scales_hasIdbCtpn](slots/scales_hasIdbCtpn.md) | <br/>| 121785 |
+| [scales_hasIdbCtpnwof](slots/scales_hasIdbCtpnwof.md) | <br/>| 121785 |
+| [scales_hasIdbCttr](slots/scales_hasIdbCttr.md) | <br/>| 121785 |
+| [scales_hasIdbCttrr](slots/scales_hasIdbCttrr.md) | <br/>| 121785 |
+| [scales_hasIdbCttrtrn](slots/scales_hasIdbCttrtrn.md) | <br/>| 121785 |
+| [scales_hasIdbCttrwor](slots/scales_hasIdbCttrwor.md) | <br/>| 121785 |
+| [scales_hasIdbD2foffcd1](slots/scales_hasIdbD2foffcd1.md) | <br/>| 121785 |
+| [scales_hasIdbD2foffcd2](slots/scales_hasIdbD2foffcd2.md) | <br/>| 121785 |
+| [scales_hasIdbD2foffcd3](slots/scales_hasIdbD2foffcd3.md) | <br/>| 121785 |
+| [scales_hasIdbD2foffcd4](slots/scales_hasIdbD2foffcd4.md) | <br/>| 121785 |
+| [scales_hasIdbD2foffcd5](slots/scales_hasIdbD2foffcd5.md) | <br/>| 121785 |
+| [scales_hasIdbD2toffcd1](slots/scales_hasIdbD2toffcd1.md) | <br/>| 121785 |
+| [scales_hasIdbD2toffcd2](slots/scales_hasIdbD2toffcd2.md) | <br/>| 121785 |
+| [scales_hasIdbD2toffcd3](slots/scales_hasIdbD2toffcd3.md) | <br/>| 121785 |
+| [scales_hasIdbD2toffcd4](slots/scales_hasIdbD2toffcd4.md) | <br/>| 121785 |
+| [scales_hasIdbD2toffcd5](slots/scales_hasIdbD2toffcd5.md) | <br/>| 121785 |
+| [scales_hasIdbDef](slots/scales_hasIdbDef.md) | <br/>| 702501 |
+| [scales_hasIdbDeflgky](slots/scales_hasIdbDeflgky.md) | <br/>| 121785 |
+| [scales_hasIdbDefno](slots/scales_hasIdbDefno.md) | <br/>| 121785 |
+| [scales_hasIdbDemanded](slots/scales_hasIdbDemanded.md) | <br/>| 702501 |
+| [scales_hasIdbDisp](slots/scales_hasIdbDisp.md) | <br/>| 702501 |
+| [scales_hasIdbDisp1](slots/scales_hasIdbDisp1.md) | <br/>| 121785 |
+| [scales_hasIdbDisp2](slots/scales_hasIdbDisp2.md) | <br/>| 121785 |
+| [scales_hasIdbDisp3](slots/scales_hasIdbDisp3.md) | <br/>| 121785 |
+| [scales_hasIdbDisp4](slots/scales_hasIdbDisp4.md) | <br/>| 121785 |
+| [scales_hasIdbDisp5](slots/scales_hasIdbDisp5.md) | <br/>| 121785 |
+| [scales_hasIdbDispdate](slots/scales_hasIdbDispdate.md) | <br/>| 121785 |
+| [scales_hasIdbDistrict](slots/scales_hasIdbDistrict.md) | <br/>| 824286 |
+| [scales_hasIdbDjoined](slots/scales_hasIdbDjoined.md) | <br/>| 275529 |
+| [scales_hasIdbDocket](slots/scales_hasIdbDocket.md) | <br/>| 824286 |
+| [scales_hasIdbFcounsel](slots/scales_hasIdbFcounsel.md) | <br/>| 121785 |
+| [scales_hasIdbFdateuse](slots/scales_hasIdbFdateuse.md) | <br/>| 702501 |
+| [scales_hasIdbFgenddate](slots/scales_hasIdbFgenddate.md) | <br/>| 121785 |
+| [scales_hasIdbFgstrtdate](slots/scales_hasIdbFgstrtdate.md) | <br/>| 121785 |
+| [scales_hasIdbFiledate](slots/scales_hasIdbFiledate.md) | <br/>| 824286 |
+| [scales_hasIdbFineamt1](slots/scales_hasIdbFineamt1.md) | <br/>| 121785 |
+| [scales_hasIdbFineamt2](slots/scales_hasIdbFineamt2.md) | <br/>| 121785 |
+| [scales_hasIdbFineamt3](slots/scales_hasIdbFineamt3.md) | <br/>| 121785 |
+| [scales_hasIdbFineamt4](slots/scales_hasIdbFineamt4.md) | <br/>| 121785 |
+| [scales_hasIdbFineamt5](slots/scales_hasIdbFineamt5.md) | <br/>| 121785 |
+| [scales_hasIdbFinetot](slots/scales_hasIdbFinetot.md) | <br/>| 121785 |
+| [scales_hasIdbFiscalyr](slots/scales_hasIdbFiscalyr.md) | <br/>| 121785 |
+| [scales_hasIdbFoffcd1](slots/scales_hasIdbFoffcd1.md) | <br/>| 121785 |
+| [scales_hasIdbFoffcd2](slots/scales_hasIdbFoffcd2.md) | <br/>| 121785 |
+| [scales_hasIdbFoffcd3](slots/scales_hasIdbFoffcd3.md) | <br/>| 121785 |
+| [scales_hasIdbFoffcd4](slots/scales_hasIdbFoffcd4.md) | <br/>| 121785 |
+| [scales_hasIdbFoffcd5](slots/scales_hasIdbFoffcd5.md) | <br/>| 121785 |
+| [scales_hasIdbFofflvl1](slots/scales_hasIdbFofflvl1.md) | <br/>| 121785 |
+| [scales_hasIdbFofflvl2](slots/scales_hasIdbFofflvl2.md) | <br/>| 121785 |
+| [scales_hasIdbFofflvl3](slots/scales_hasIdbFofflvl3.md) | <br/>| 121785 |
+| [scales_hasIdbFofflvl4](slots/scales_hasIdbFofflvl4.md) | <br/>| 121785 |
+| [scales_hasIdbFofflvl5](slots/scales_hasIdbFofflvl5.md) | <br/>| 121785 |
+| [scales_hasIdbFsev1](slots/scales_hasIdbFsev1.md) | <br/>| 121785 |
+| [scales_hasIdbFsev2](slots/scales_hasIdbFsev2.md) | <br/>| 121785 |
+| [scales_hasIdbFsev3](slots/scales_hasIdbFsev3.md) | <br/>| 121785 |
+| [scales_hasIdbFsev4](slots/scales_hasIdbFsev4.md) | <br/>| 121785 |
+| [scales_hasIdbFsev5](slots/scales_hasIdbFsev5.md) | <br/>| 121785 |
+| [scales_hasIdbFtitle1](slots/scales_hasIdbFtitle1.md) | <br/>| 121785 |
+| [scales_hasIdbFtitle2](slots/scales_hasIdbFtitle2.md) | <br/>| 121785 |
+| [scales_hasIdbFtitle3](slots/scales_hasIdbFtitle3.md) | <br/>| 121785 |
+| [scales_hasIdbFtitle4](slots/scales_hasIdbFtitle4.md) | <br/>| 121785 |
+| [scales_hasIdbFtitle5](slots/scales_hasIdbFtitle5.md) | <br/>| 121785 |
+| [scales_hasIdbFugstat](slots/scales_hasIdbFugstat.md) | <br/>| 121785 |
+| [scales_hasIdbIfp](slots/scales_hasIdbIfp.md) | <br/>| 702500 |
+| [scales_hasIdbInt1](slots/scales_hasIdbInt1.md) | <br/>| 121785 |
+| [scales_hasIdbInt2](slots/scales_hasIdbInt2.md) | <br/>| 121785 |
+| [scales_hasIdbInt3](slots/scales_hasIdbInt3.md) | <br/>| 121785 |
+| [scales_hasIdbIs_stub](slots/scales_hasIdbIs_stub.md) | <br/>| 824286 |
+| [scales_hasIdbJudgment](slots/scales_hasIdbJudgment.md) | <br/>| 702501 |
+| [scales_hasIdbJuris](slots/scales_hasIdbJuris.md) | <br/>| 702501 |
+| [scales_hasIdbJury](slots/scales_hasIdbJury.md) | <br/>| 702501 |
+| [scales_hasIdbLoaddate](slots/scales_hasIdbLoaddate.md) | <br/>| 121785 |
+| [scales_hasIdbMagdef](slots/scales_hasIdbMagdef.md) | <br/>| 121785 |
+| [scales_hasIdbMagdock](slots/scales_hasIdbMagdock.md) | <br/>| 121785 |
+| [scales_hasIdbMdldock](slots/scales_hasIdbMdldock.md) | <br/>| 702501 |
+| [scales_hasIdbNoj](slots/scales_hasIdbNoj.md) | <br/>| 702501 |
+| [scales_hasIdbNos](slots/scales_hasIdbNos.md) | <br/>| 702501 |
+| [scales_hasIdbOffice](slots/scales_hasIdbOffice.md) | <br/>| 824286 |
+| [scales_hasIdbOrigin](slots/scales_hasIdbOrigin.md) | <br/>| 702501 |
+| [scales_hasIdbPlt](slots/scales_hasIdbPlt.md) | <br/>| 702493 |
+| [scales_hasIdbPretrial](slots/scales_hasIdbPretrial.md) | <br/>| 41491 |
+| [scales_hasIdbPriscd1](slots/scales_hasIdbPriscd1.md) | <br/>| 121785 |
+| [scales_hasIdbPriscd2](slots/scales_hasIdbPriscd2.md) | <br/>| 121785 |
+| [scales_hasIdbPriscd3](slots/scales_hasIdbPriscd3.md) | <br/>| 121785 |
+| [scales_hasIdbPriscd4](slots/scales_hasIdbPriscd4.md) | <br/>| 121785 |
+| [scales_hasIdbPriscd5](slots/scales_hasIdbPriscd5.md) | <br/>| 121785 |
+| [scales_hasIdbPristim1](slots/scales_hasIdbPristim1.md) | <br/>| 121785 |
+| [scales_hasIdbPristim2](slots/scales_hasIdbPristim2.md) | <br/>| 121785 |
+| [scales_hasIdbPristim3](slots/scales_hasIdbPristim3.md) | <br/>| 121785 |
+| [scales_hasIdbPristim4](slots/scales_hasIdbPristim4.md) | <br/>| 121785 |
+| [scales_hasIdbPristim5](slots/scales_hasIdbPristim5.md) | <br/>| 121785 |
+| [scales_hasIdbPristot](slots/scales_hasIdbPristot.md) | <br/>| 121785 |
+| [scales_hasIdbProbcd1](slots/scales_hasIdbProbcd1.md) | <br/>| 121785 |
+| [scales_hasIdbProbcd2](slots/scales_hasIdbProbcd2.md) | <br/>| 121785 |
+| [scales_hasIdbProbcd3](slots/scales_hasIdbProbcd3.md) | <br/>| 121785 |
+| [scales_hasIdbProbcd4](slots/scales_hasIdbProbcd4.md) | <br/>| 121785 |
+| [scales_hasIdbProbcd5](slots/scales_hasIdbProbcd5.md) | <br/>| 121785 |
+| [scales_hasIdbProbmon1](slots/scales_hasIdbProbmon1.md) | <br/>| 121785 |
+| [scales_hasIdbProbmon2](slots/scales_hasIdbProbmon2.md) | <br/>| 121785 |
+| [scales_hasIdbProbmon3](slots/scales_hasIdbProbmon3.md) | <br/>| 121785 |
+| [scales_hasIdbProbmon4](slots/scales_hasIdbProbmon4.md) | <br/>| 121785 |
+| [scales_hasIdbProbmon5](slots/scales_hasIdbProbmon5.md) | <br/>| 121785 |
+| [scales_hasIdbProbtot](slots/scales_hasIdbProbtot.md) | <br/>| 121785 |
+| [scales_hasIdbProccd](slots/scales_hasIdbProccd.md) | <br/>| 121785 |
+| [scales_hasIdbProcdate](slots/scales_hasIdbProcdate.md) | <br/>| 121785 |
+| [scales_hasIdbProcprog](slots/scales_hasIdbProcprog.md) | <br/>| 702501 |
+| [scales_hasIdbProse](slots/scales_hasIdbProse.md) | <br/>| 702501 |
+| [scales_hasIdbReopseq](slots/scales_hasIdbReopseq.md) | <br/>| 121785 |
+| [scales_hasIdbResidenc](slots/scales_hasIdbResidenc.md) | <br/>| 702501 |
+| [scales_hasIdbSection](slots/scales_hasIdbSection.md) | <br/>| 702501 |
+| [scales_hasIdbSentdate](slots/scales_hasIdbSentdate.md) | <br/>| 121785 |
+| [scales_hasIdbStatuscd](slots/scales_hasIdbStatuscd.md) | <br/>| 824285 |
+| [scales_hasIdbSubsect](slots/scales_hasIdbSubsect.md) | <br/>| 702501 |
+| [scales_hasIdbSupvrel1](slots/scales_hasIdbSupvrel1.md) | <br/>| 121785 |
+| [scales_hasIdbSupvrel2](slots/scales_hasIdbSupvrel2.md) | <br/>| 121785 |
+| [scales_hasIdbSupvrel3](slots/scales_hasIdbSupvrel3.md) | <br/>| 121785 |
+| [scales_hasIdbSupvrel4](slots/scales_hasIdbSupvrel4.md) | <br/>| 121785 |
+| [scales_hasIdbSupvrel5](slots/scales_hasIdbSupvrel5.md) | <br/>| 121785 |
+| [scales_hasIdbTapeyear](slots/scales_hasIdbTapeyear.md) | <br/>| 824286 |
+| [scales_hasIdbTcounsel](slots/scales_hasIdbTcounsel.md) | <br/>| 121785 |
+| [scales_hasIdbTdateuse](slots/scales_hasIdbTdateuse.md) | <br/>| 662201 |
+| [scales_hasIdbTermdate](slots/scales_hasIdbTermdate.md) | <br/>| 712609 |
+| [scales_hasIdbTermoff](slots/scales_hasIdbTermoff.md) | <br/>| 121785 |
+| [scales_hasIdbTitl](slots/scales_hasIdbTitl.md) | <br/>| 325292 |
+| [scales_hasIdbToffcd1](slots/scales_hasIdbToffcd1.md) | <br/>| 121785 |
+| [scales_hasIdbToffcd2](slots/scales_hasIdbToffcd2.md) | <br/>| 121785 |
+| [scales_hasIdbToffcd3](slots/scales_hasIdbToffcd3.md) | <br/>| 121785 |
+| [scales_hasIdbToffcd4](slots/scales_hasIdbToffcd4.md) | <br/>| 121785 |
+| [scales_hasIdbToffcd5](slots/scales_hasIdbToffcd5.md) | <br/>| 121785 |
+| [scales_hasIdbTofflvl1](slots/scales_hasIdbTofflvl1.md) | <br/>| 121785 |
+| [scales_hasIdbTofflvl2](slots/scales_hasIdbTofflvl2.md) | <br/>| 121785 |
+| [scales_hasIdbTofflvl3](slots/scales_hasIdbTofflvl3.md) | <br/>| 121785 |
+| [scales_hasIdbTofflvl4](slots/scales_hasIdbTofflvl4.md) | <br/>| 121785 |
+| [scales_hasIdbTofflvl5](slots/scales_hasIdbTofflvl5.md) | <br/>| 121785 |
+| [scales_hasIdbTrandef](slots/scales_hasIdbTrandef.md) | <br/>| 121785 |
+| [scales_hasIdbTrandist](slots/scales_hasIdbTrandist.md) | <br/>| 121785 |
+| [scales_hasIdbTrandock](slots/scales_hasIdbTrandock.md) | <br/>| 121785 |
+| [scales_hasIdbTranoff](slots/scales_hasIdbTranoff.md) | <br/>| 121785 |
+| [scales_hasIdbTransdat](slots/scales_hasIdbTransdat.md) | <br/>| 6137 |
+| [scales_hasIdbTransdoc](slots/scales_hasIdbTransdoc.md) | <br/>| 702501 |
+| [scales_hasIdbTransoff](slots/scales_hasIdbTransoff.md) | <br/>| 702501 |
+| [scales_hasIdbTransorg](slots/scales_hasIdbTransorg.md) | <br/>| 702501 |
+| [scales_hasIdbTrclact](slots/scales_hasIdbTrclact.md) | <br/>| 702501 |
+| [scales_hasIdbTrialend](slots/scales_hasIdbTrialend.md) | <br/>| 4417 |
+| [scales_hasIdbTribegan](slots/scales_hasIdbTribegan.md) | <br/>| 3565 |
+| [scales_hasIdbTrmarb](slots/scales_hasIdbTrmarb.md) | <br/>| 702501 |
+| [scales_hasIdbTsev1](slots/scales_hasIdbTsev1.md) | <br/>| 121785 |
+| [scales_hasIdbTsev2](slots/scales_hasIdbTsev2.md) | <br/>| 121785 |
+| [scales_hasIdbTsev3](slots/scales_hasIdbTsev3.md) | <br/>| 121785 |
+| [scales_hasIdbTsev4](slots/scales_hasIdbTsev4.md) | <br/>| 121785 |
+| [scales_hasIdbTsev5](slots/scales_hasIdbTsev5.md) | <br/>| 121785 |
+| [scales_hasIdbTtitle1](slots/scales_hasIdbTtitle1.md) | <br/>| 121785 |
+| [scales_hasIdbTtitle2](slots/scales_hasIdbTtitle2.md) | <br/>| 121785 |
+| [scales_hasIdbTtitle3](slots/scales_hasIdbTtitle3.md) | <br/>| 121785 |
+| [scales_hasIdbTtitle4](slots/scales_hasIdbTtitle4.md) | <br/>| 121785 |
+| [scales_hasIdbTtitle5](slots/scales_hasIdbTtitle5.md) | <br/>| 121785 |
+| [scales_hasIdbTypemag](slots/scales_hasIdbTypemag.md) | <br/>| 121785 |
+| [scales_hasIdbTypereg](slots/scales_hasIdbTypereg.md) | <br/>| 121785 |
+| [scales_hasIdbTypetrn](slots/scales_hasIdbTypetrn.md) | <br/>| 121785 |
+| [scales_hasIdbUpdate](slots/scales_hasIdbUpdate.md) | <br/>| 121785 |
+| [scales_hasIdbVer](slots/scales_hasIdbVer.md) | <br/>| 121785 |
+| [scales_hasIfpJudgeAttribution](slots/scales_hasIfpJudgeAttribution.md) | <br/>| 175903 |
+| [scales_hasIfpLabel](slots/scales_hasIfpLabel.md) | <br/>| 197166 |
+| [scales_hasMemberCase](slots/scales_hasMemberCase.md) | <br/>| 83603 |
+| [scales_hasReferenceToOtherEntry](slots/scales_hasReferenceToOtherEntry.md) | <br/>| 10618350 |
+| [scales_hasRelatedCase](slots/scales_hasRelatedCase.md) | <br/>| 125197 |
+| [scales_hasUVAJudgeDirID](slots/scales_hasUVAJudgeDirID.md) | <br/>| 988 |
+| [scales_isInCircuit](slots/scales_isInCircuit.md) | <br/>| 94 |
+| [scales_isInstanceOfEntity](slots/scales_isInstanceOfEntity.md) | <br/>| 7421029 |
+| [scales_OntologyLabel](slots/scales_OntologyLabel.md) | <br/>| 37622932 |
+| [scales_Party](slots/scales_Party.md) | <br/>| 380643 |
 
 
 
 
-
-
-## Types
-
-| Type | Description |
-| --- | --- |
-| [XsdDuration](types/XsdDuration.md) | No class (type) description specified |
-| [XsdGYear](types/XsdGYear.md) | No class (type) description specified |
 
 
 
@@ -720,8 +963,12 @@ ScalesParty ||--|o HttpRelease.niem.govNiemDomainsJxdm7.2Attorney : "http___rele
 
 ## IRI prefixes
 
+* jxdm72: http://release.niem.gov/niem/domains/jxdm/7.2/
 * linkml: https://w3id.org/linkml/
+* nibrs: http://fbi.gov/cjis/nibrs/2023.0/
 * niem50: http://release.niem.gov/niem/niem-core/5.0/
+* okn: https://purl.org/okn/
+* okns: https://purl.org/okn/schema/
 * rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
 * scales: http://schemas.scales-okn.org/rdf/scales#
 * xsd: http://www.w3.org/2001/XMLSchema#

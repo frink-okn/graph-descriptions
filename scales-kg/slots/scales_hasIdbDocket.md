@@ -3,11 +3,6 @@
 # Slot: scales_hasIdbDocket
 
 
-_No slot (predicate) description specified_
-
-
-
-
 
 
 This slot occurs 824286 times.
@@ -27,8 +22,8 @@ URI: [scales:hasIdbDocket](http://schemas.scales-okn.org/rdf/scales#hasIdbDocket
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCivilCase](../classes/ScalesCivilCase.md) | No class (type) description specified |  yes  |
-| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | No class (type) description specified |  yes  |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) |  |  no  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) |  |  no  |
 
 
 
@@ -45,15 +40,6 @@ URI: [scales:hasIdbDocket](http://schemas.scales-okn.org/rdf/scales#hasIdbDocket
 
 
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| scales_CivilCase | string | scales:/CivilCase/akd;;1:16-cv-00001 | 1600001 | 702501 |
-| scales_CriminalCase | string | scales:/CriminalCase/akd;;1:16-cr-00001 | 1600001 | 121785 |
-
-
-
 
 ## LinkML Source
 
@@ -61,25 +47,7 @@ URI: [scales:hasIdbDocket](http://schemas.scales-okn.org/rdf/scales#hasIdbDocket
 
 ```yaml
 name: scales_hasIdbDocket
-annotations:
-  count:
-    tag: count
-    value: 824286
-description: No slot (predicate) description specified
-examples:
-- object:
-    example_object: '1600001'
-    example_object_type: string
-    example_predicate: scales:hasIdbDocket
-    example_subject: scales:/CivilCase/akd;;1:16-cv-00001
-    example_subject_type: scales_CivilCase
-- object:
-    example_object: '1600001'
-    example_object_type: string
-    example_predicate: scales:hasIdbDocket
-    example_subject: scales:/CriminalCase/akd;;1:16-cr-00001
-    example_subject_type: scales_CriminalCase
-from_schema: scales-kg
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: scales:hasIdbDocket
 alias: scales_hasIdbDocket

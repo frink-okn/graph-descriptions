@@ -3,11 +3,6 @@
 # Slot: scales_hasIdbDisp
 
 
-_No slot (predicate) description specified_
-
-
-
-
 
 
 This slot occurs 702501 times.
@@ -27,7 +22,7 @@ URI: [scales:hasIdbDisp](http://schemas.scales-okn.org/rdf/scales#hasIdbDisp)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCivilCase](../classes/ScalesCivilCase.md) | No class (type) description specified |  yes  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) |  |  no  |
 
 
 
@@ -44,14 +39,6 @@ URI: [scales:hasIdbDisp](http://schemas.scales-okn.org/rdf/scales#hasIdbDisp)
 
 
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| scales_CivilCase | double | scales:/CivilCase/akd;;1:16-cv-00001 | 18.0 | 702501 |
-
-
-
 
 ## LinkML Source
 
@@ -59,19 +46,7 @@ URI: [scales:hasIdbDisp](http://schemas.scales-okn.org/rdf/scales#hasIdbDisp)
 
 ```yaml
 name: scales_hasIdbDisp
-annotations:
-  count:
-    tag: count
-    value: 702501
-description: No slot (predicate) description specified
-examples:
-- object:
-    example_object: '18.0'
-    example_object_type: double
-    example_predicate: scales:hasIdbDisp
-    example_subject: scales:/CivilCase/akd;;1:16-cv-00001
-    example_subject_type: scales_CivilCase
-from_schema: scales-kg
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: scales:hasIdbDisp
 alias: scales_hasIdbDisp
