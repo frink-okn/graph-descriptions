@@ -1,16 +1,9 @@
 
 
-# Slot: No slot (predicate) name specified (xsd_minLength)
-
-
-_No slot (predicate) description specified_
+# Slot: xsd_minLength
 
 
 
-
-
-
-This slot occurs 0 times.
 
 
 URI: [xsd:minLength](http://www.w3.org/2001/XMLSchema#minLength)
@@ -28,7 +21,7 @@ URI: [xsd:minLength](http://www.w3.org/2001/XMLSchema#minLength)
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [RdfsLiteral](../classes/RdfsLiteral.md)
 
 
 
@@ -46,19 +39,15 @@ URI: [xsd:minLength](http://www.w3.org/2001/XMLSchema#minLength)
 
 ```yaml
 name: xsd_minLength
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
-from_schema: hydrology-kg
+from_schema: okns:hydrology-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#minLength
 rank: 1000
 slot_uri: xsd:minLength
 alias: xsd_minLength
-range: uri
+range: rdfs_Literal
 
 ```
 </details>

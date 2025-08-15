@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (xsd_dateTime)
-
-
-_No class (type) description specified_
+# Class: XsdDateTime
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [xsd:dateTime](http://www.w3.org/2001/XMLSchema#dateTime)
@@ -35,8 +28,9 @@ URI: [xsd:dateTime](http://www.w3.org/2001/XMLSchema#dateTime)
 
 
 ## Inheritance
-* [RdfsLiteral](../classes/RdfsLiteral.md)
-    * **XsdDateTime**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsLiteral](../classes/RdfsLiteral.md)
+        * **XsdDateTime**
 
 
 
@@ -68,14 +62,9 @@ URI: [xsd:dateTime](http://www.w3.org/2001/XMLSchema#dateTime)
 
 ```yaml
 name: xsd_dateTime
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: hydrology-kg
+from_schema: okns:hydrology-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#dateTime
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:dateTime
@@ -89,14 +78,9 @@ class_uri: xsd:dateTime
 
 ```yaml
 name: xsd_dateTime
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: hydrology-kg
+from_schema: okns:hydrology-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#dateTime
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:dateTime

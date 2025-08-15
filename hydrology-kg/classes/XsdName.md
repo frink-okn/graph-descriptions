@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (xsd_Name)
-
-
-_No class (type) description specified_
+# Class: XsdName
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [xsd:Name](http://www.w3.org/2001/XMLSchema#Name)
@@ -35,8 +28,9 @@ URI: [xsd:Name](http://www.w3.org/2001/XMLSchema#Name)
 
 
 ## Inheritance
-* [RdfsLiteral](../classes/RdfsLiteral.md)
-    * **XsdName**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsLiteral](../classes/RdfsLiteral.md)
+        * **XsdName**
 
 
 
@@ -68,14 +62,9 @@ URI: [xsd:Name](http://www.w3.org/2001/XMLSchema#Name)
 
 ```yaml
 name: xsd_Name
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: hydrology-kg
+from_schema: okns:hydrology-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#Name
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:Name
@@ -89,14 +78,9 @@ class_uri: xsd:Name
 
 ```yaml
 name: xsd_Name
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: hydrology-kg
+from_schema: okns:hydrology-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#Name
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:Name

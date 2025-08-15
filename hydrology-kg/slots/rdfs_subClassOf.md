@@ -1,16 +1,16 @@
 
 
-# Slot: No slot (predicate) name specified (rdfs_subClassOf)
+# Slot: subClassOf (rdfs_subClassOf)
 
 
-_No slot (predicate) description specified_
-
-
-
+_The subject is a subclass of a class._
 
 
 
-This slot occurs 0 times.
+
+
+
+This slot occurs 34 times.
 
 
 URI: [rdfs:subClassOf](http://www.w3.org/2000/01/rdf-schema#subClassOf)
@@ -23,20 +23,28 @@ URI: [rdfs:subClassOf](http://www.w3.org/2000/01/rdf-schema#subClassOf)
 
 
 
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [SdosMedicalSpecialty](../classes/SdosMedicalSpecialty.md) | Any specific branch of medical science or practice |  no  |
+| [OwlDataRange](../classes/OwlDataRange.md) | The class of OWL data ranges, which are special kinds of datatypes |  no  |
+| [QudtAspectClass](../classes/QudtAspectClass.md) |  |  no  |
+| [RdfsDatatype](../classes/RdfsDatatype.md) | The class of RDF datatypes |  no  |
+
+
+
+
 
 
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [RdfsClass](../classes/RdfsClass.md)
 
 
 
 
-
-## Comments
-
-* No occurrences of this slot in the graph.
 
 
 
@@ -46,20 +54,17 @@ URI: [rdfs:subClassOf](http://www.w3.org/2000/01/rdf-schema#subClassOf)
 
 ```yaml
 name: rdfs_subClassOf
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-comments:
-- No occurrences of this slot in the graph.
-from_schema: hydrology-kg
-rank: 1000
-domain: rdfs_subClassOf
+description: The subject is a subclass of a class.
+title: subClassOf
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/2000/01/rdf-schema#
+domain: rdfs_Class
 slot_uri: rdfs:subClassOf
-alias: rdfs_subClassOf
-range: uri
+domain_of:
+- qudt_AspectClass
+- rdfs_Datatype
+- sdos_MedicalSpecialty
+range: rdfs_Class
 
 ```
 </details>
