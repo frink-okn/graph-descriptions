@@ -3,10 +3,9 @@
 # Slot: niem50_CaseSubCategoryText
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 1863523 times.
 
 
 URI: [niem50:CaseSubCategoryText](http://release.niem.gov/niem/niem-core/5.0/CaseSubCategoryText)
@@ -23,7 +22,7 @@ URI: [niem50:CaseSubCategoryText](http://release.niem.gov/niem/niem-core/5.0/Cas
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) |  |  no  |
 
 
 
@@ -40,18 +39,6 @@ URI: [niem50:CaseSubCategoryText](http://release.niem.gov/niem/niem-core/5.0/Cas
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| scales_Case → string | scales/CaseCivil | niem50:CaseSubCategoryText | 110 Insurance |
-
-
-## Comments
-
-* 104 occurrences with subject type scales_Case and object type string.
-
-
 
 ## LinkML Source
 
@@ -59,23 +46,12 @@ URI: [niem50:CaseSubCategoryText](http://release.niem.gov/niem/niem-core/5.0/Cas
 
 ```yaml
 name: niem50_CaseSubCategoryText
-description: No slot (predicate) description specified
-comments:
-- 104 occurrences with subject type scales_Case and object type string.
-examples:
-- description: scales_Case → string
-  object:
-    example_object: 110 Insurance
-    example_object_type: string
-    example_predicate: niem50:CaseSubCategoryText
-    example_subject: scales/CaseCivil
-    example_subject_type: scales_Case
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: niem50:CaseSubCategoryText
 alias: niem50_CaseSubCategoryText
 domain_of:
-- scales_Case
+- scales_CivilCase
 range: string
 
 ```

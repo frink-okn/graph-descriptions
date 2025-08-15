@@ -1,0 +1,58 @@
+
+
+# Slot: scales_hasIdbToffcd4
+
+
+
+
+This slot occurs 121785 times.
+
+
+URI: [scales:hasIdbToffcd4](http://schemas.scales-okn.org/rdf/scales#hasIdbToffcd4)
+
+
+
+<!-- no inheritance hierarchy -->
+
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) |  |  no  |
+
+
+
+
+
+
+
+## Properties
+
+* Range: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
+
+
+
+
+
+
+
+## LinkML Source
+
+<details>
+
+```yaml
+name: scales_hasIdbToffcd4
+from_schema: okns:scales-kg
+rank: 1000
+slot_uri: scales:hasIdbToffcd4
+alias: scales_hasIdbToffcd4
+domain_of:
+- scales_CriminalCase
+range: double
+
+```
+</details>

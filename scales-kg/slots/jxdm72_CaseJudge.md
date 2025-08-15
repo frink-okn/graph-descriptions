@@ -3,13 +3,12 @@
 # Slot: jxdm72_CaseJudge
 
 
-_No slot (predicate) description specified_
 
 
+This slot occurs 4424121 times.
 
 
-
-URI: [jxdm72:CaseJudge](http://release.niem.gov/niem/domains/jxdm/7.2/#CaseJudge)
+URI: [jxdm72:CaseJudge](http://release.niem.gov/niem/domains/jxdm/7.2/CaseJudge)
 
 
 
@@ -23,7 +22,8 @@ URI: [jxdm72:CaseJudge](http://release.niem.gov/niem/domains/jxdm/7.2/#CaseJudge
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) |  |  no  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) |  |  no  |
 
 
 
@@ -33,23 +33,19 @@ URI: [jxdm72:CaseJudge](http://release.niem.gov/niem/domains/jxdm/7.2/#CaseJudge
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[Jxdm72CaseJudge](../classes/Jxdm72CaseJudge.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) | [Jxdm72CaseJudge](../classes/Jxdm72CaseJudge.md) | any_of[range] | [Jxdm72CaseJudge](../classes/Jxdm72CaseJudge.md) |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | [Jxdm72CaseJudge](../classes/Jxdm72CaseJudge.md) | any_of[range] | [Jxdm72CaseJudge](../classes/Jxdm72CaseJudge.md) |
 
 
 
 
 
-
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| scales_Case → uri | scales/CaseCivil | jxdm72:CaseJudge | scales/Agent/almd;;1:16-cv-00016_a4 |
-
-
-## Comments
-
-* 837266 occurrences with subject type scales_Case and object type uri.
 
 
 
@@ -59,24 +55,17 @@ URI: [jxdm72:CaseJudge](http://release.niem.gov/niem/domains/jxdm/7.2/#CaseJudge
 
 ```yaml
 name: jxdm72_CaseJudge
-description: No slot (predicate) description specified
-comments:
-- 837266 occurrences with subject type scales_Case and object type uri.
-examples:
-- description: scales_Case → uri
-  object:
-    example_object: scales/Agent/almd;;1:16-cv-00016_a4
-    example_object_type: uri
-    example_predicate: jxdm72:CaseJudge
-    example_subject: scales/CaseCivil
-    example_subject_type: scales_Case
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: jxdm72:CaseJudge
 alias: jxdm72_CaseJudge
 domain_of:
-- scales_Case
-range: uri
+- scales_CivilCase
+- scales_CriminalCase
+range: Any
+any_of:
+- range: jxdm72_CaseJudge
+- range: uri
 
 ```
 </details>

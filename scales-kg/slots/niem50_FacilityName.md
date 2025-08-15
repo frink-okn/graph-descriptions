@@ -3,10 +3,9 @@
 # Slot: niem50_FacilityName
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 1 times.
 
 
 URI: [niem50:FacilityName](http://release.niem.gov/niem/niem-core/5.0/FacilityName)
@@ -23,7 +22,7 @@ URI: [niem50:FacilityName](http://release.niem.gov/niem/niem-core/5.0/FacilityNa
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72DetentionFacility](../classes/Jxdm72DetentionFacility.md) | No class (type) description specified |  no  |
+| [Jxdm72BookingFacility](../classes/Jxdm72BookingFacility.md) |  |  no  |
 
 
 
@@ -40,18 +39,6 @@ URI: [niem50:FacilityName](http://release.niem.gov/niem/niem-core/5.0/FacilityNa
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| jxdm72_DetentionFacility → string | scales/BookingDetentionFacility/ga-fulton-01 | niem50:FacilityName | Fulton County Jail |
-
-
-## Comments
-
-* 1 occurrences with subject type jxdm72_DetentionFacility and object type string.
-
-
 
 ## LinkML Source
 
@@ -59,23 +46,12 @@ URI: [niem50:FacilityName](http://release.niem.gov/niem/niem-core/5.0/FacilityNa
 
 ```yaml
 name: niem50_FacilityName
-description: No slot (predicate) description specified
-comments:
-- 1 occurrences with subject type jxdm72_DetentionFacility and object type string.
-examples:
-- description: jxdm72_DetentionFacility → string
-  object:
-    example_object: Fulton County Jail
-    example_object_type: string
-    example_predicate: niem50:FacilityName
-    example_subject: scales/BookingDetentionFacility/ga-fulton-01
-    example_subject_type: jxdm72_DetentionFacility
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: niem50:FacilityName
 alias: niem50_FacilityName
 domain_of:
-- jxdm72_DetentionFacility
+- jxdm72_BookingFacility
 range: string
 
 ```

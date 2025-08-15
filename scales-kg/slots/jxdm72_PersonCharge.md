@@ -3,13 +3,12 @@
 # Slot: jxdm72_PersonCharge
 
 
-_No slot (predicate) description specified_
 
 
+This slot occurs 3340425 times.
 
 
-
-URI: [jxdm72:PersonCharge](http://release.niem.gov/niem/domains/jxdm/7.2/#PersonCharge)
+URI: [jxdm72:PersonCharge](http://release.niem.gov/niem/domains/jxdm/7.2/PersonCharge)
 
 
 
@@ -19,28 +18,26 @@ URI: [jxdm72:PersonCharge](http://release.niem.gov/niem/domains/jxdm/7.2/#Person
 
 
 
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [ScalesParty](../classes/ScalesParty.md) |  |  no  |
+| [Jxdm72CaseDefendantParty](../classes/Jxdm72CaseDefendantParty.md) |  |  no  |
+
+
+
+
 
 
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Jxdm72Charge](../classes/Jxdm72Charge.md)
 
 
 
 
-
-
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → uri | scales/Agent/almd;;1:16-cr-00020_a0 | jxdm72:PersonCharge | scales/Charge/almd;;1:16-cr-00020_c0-1 |
-
-
-## Comments
-
-* 213743 occurrences with untyped subjects and object type uri.
 
 
 
@@ -50,22 +47,14 @@ URI: [jxdm72:PersonCharge](http://release.niem.gov/niem/domains/jxdm/7.2/#Person
 
 ```yaml
 name: jxdm72_PersonCharge
-description: No slot (predicate) description specified
-comments:
-- 213743 occurrences with untyped subjects and object type uri.
-examples:
-- description: None → uri
-  object:
-    example_object: scales/Charge/almd;;1:16-cr-00020_c0-1
-    example_object_type: uri
-    example_predicate: jxdm72:PersonCharge
-    example_subject: scales/Agent/almd;;1:16-cr-00020_a0
-    example_subject_type: None
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: jxdm72:PersonCharge
 alias: jxdm72_PersonCharge
-range: uri
+domain_of:
+- jxdm72_CaseDefendantParty
+- scales_Party
+range: jxdm72_Charge
 
 ```
 </details>

@@ -3,13 +3,12 @@
 # Slot: jxdm72_CaseCourt
 
 
-_No slot (predicate) description specified_
 
 
+This slot occurs 4164091 times.
 
 
-
-URI: [jxdm72:CaseCourt](http://release.niem.gov/niem/domains/jxdm/7.2/#CaseCourt)
+URI: [jxdm72:CaseCourt](http://release.niem.gov/niem/domains/jxdm/7.2/CaseCourt)
 
 
 
@@ -23,7 +22,8 @@ URI: [jxdm72:CaseCourt](http://release.niem.gov/niem/domains/jxdm/7.2/#CaseCourt
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) |  |  no  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) |  |  no  |
 
 
 
@@ -33,23 +33,11 @@ URI: [jxdm72:CaseCourt](http://release.niem.gov/niem/domains/jxdm/7.2/#CaseCourt
 
 ## Properties
 
-* Range: [Jxdm72Court](../classes/Jxdm72Court.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[Jxdm72Court](../classes/Jxdm72Court.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
 
-
-
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| scales_Case → jxdm72_Court | scales/CaseCriminal | jxdm72:CaseCourt | scales/Court/wyd |
-
-
-## Comments
-
-* 143 occurrences with subject type scales_Case and object type jxdm72_Court.
 
 
 
@@ -59,24 +47,17 @@ URI: [jxdm72:CaseCourt](http://release.niem.gov/niem/domains/jxdm/7.2/#CaseCourt
 
 ```yaml
 name: jxdm72_CaseCourt
-description: No slot (predicate) description specified
-comments:
-- 143 occurrences with subject type scales_Case and object type jxdm72_Court.
-examples:
-- description: scales_Case → jxdm72_Court
-  object:
-    example_object: scales/Court/wyd
-    example_object_type: jxdm72_Court
-    example_predicate: jxdm72:CaseCourt
-    example_subject: scales/CaseCriminal
-    example_subject_type: scales_Case
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: jxdm72:CaseCourt
 alias: jxdm72_CaseCourt
 domain_of:
-- scales_Case
-range: jxdm72_Court
+- scales_CivilCase
+- scales_CriminalCase
+range: Any
+any_of:
+- range: jxdm72_Court
+- range: string
 
 ```
 </details>

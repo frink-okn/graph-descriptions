@@ -3,10 +3,9 @@
 # Slot: scales_assignedToDefendant
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 53962 times.
 
 
 URI: [scales:assignedToDefendant](http://schemas.scales-okn.org/rdf/scales#assignedToDefendant)
@@ -24,23 +23,11 @@ URI: [scales:assignedToDefendant](http://schemas.scales-okn.org/rdf/scales#assig
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[Jxdm72CaseDefendantParty](../classes/Jxdm72CaseDefendantParty.md)&nbsp;or&nbsp;<br />[Jxdm72CaseInitiatingParty](../classes/Jxdm72CaseInitiatingParty.md)&nbsp;or&nbsp;<br />[ScalesParty](../classes/ScalesParty.md)
 
 
 
 
-
-
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → uri | scales/Agent/almd;;1:16-cr-00131_a6 | scales:assignedToDefendant | scales/Agent/almd;;1:16-cr-00131_a1 |
-
-
-## Comments
-
-* 28750 occurrences with untyped subjects and object type uri.
 
 
 
@@ -50,22 +37,15 @@ URI: [scales:assignedToDefendant](http://schemas.scales-okn.org/rdf/scales#assig
 
 ```yaml
 name: scales_assignedToDefendant
-description: No slot (predicate) description specified
-comments:
-- 28750 occurrences with untyped subjects and object type uri.
-examples:
-- description: None → uri
-  object:
-    example_object: scales/Agent/almd;;1:16-cr-00131_a1
-    example_object_type: uri
-    example_predicate: scales:assignedToDefendant
-    example_subject: scales/Agent/almd;;1:16-cr-00131_a6
-    example_subject_type: None
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: scales:assignedToDefendant
 alias: scales_assignedToDefendant
-range: uri
+range: Any
+any_of:
+- range: jxdm72_CaseDefendantParty
+- range: jxdm72_CaseInitiatingParty
+- range: scales_Party
 
 ```
 </details>

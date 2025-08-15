@@ -3,13 +3,12 @@
 # Slot: jxdm72_CourtName
 
 
-_No slot (predicate) description specified_
 
 
+This slot occurs 94 times.
 
 
-
-URI: [jxdm72:CourtName](http://release.niem.gov/niem/domains/jxdm/7.2/#CourtName)
+URI: [jxdm72:CourtName](http://release.niem.gov/niem/domains/jxdm/7.2/CourtName)
 
 
 
@@ -23,7 +22,7 @@ URI: [jxdm72:CourtName](http://release.niem.gov/niem/domains/jxdm/7.2/#CourtName
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72Court](../classes/Jxdm72Court.md) | No class (type) description specified |  no  |
+| [Jxdm72Court](../classes/Jxdm72Court.md) |  |  no  |
 
 
 
@@ -40,20 +39,6 @@ URI: [jxdm72:CourtName](http://release.niem.gov/niem/domains/jxdm/7.2/#CourtName
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| jxdm72_Court → string | scales/Court/almd | jxdm72:CourtName | District Court, M.D. Alabama |
-| None → string | scales:Court/akd | jxdm72:CourtName | District Court, D. Alaska |
-
-
-## Comments
-
-* 94 occurrences with subject type jxdm72_Court and object type string.
-* 94 occurrences with untyped subjects and object type string.
-
-
 
 ## LinkML Source
 
@@ -61,26 +46,7 @@ URI: [jxdm72:CourtName](http://release.niem.gov/niem/domains/jxdm/7.2/#CourtName
 
 ```yaml
 name: jxdm72_CourtName
-description: No slot (predicate) description specified
-comments:
-- 94 occurrences with subject type jxdm72_Court and object type string.
-- 94 occurrences with untyped subjects and object type string.
-examples:
-- description: jxdm72_Court → string
-  object:
-    example_object: District Court, M.D. Alabama
-    example_object_type: string
-    example_predicate: jxdm72:CourtName
-    example_subject: scales/Court/almd
-    example_subject_type: jxdm72_Court
-- description: None → string
-  object:
-    example_object: District Court, D. Alaska
-    example_object_type: string
-    example_predicate: jxdm72:CourtName
-    example_subject: scales:Court/akd
-    example_subject_type: None
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: jxdm72:CourtName
 alias: jxdm72_CourtName

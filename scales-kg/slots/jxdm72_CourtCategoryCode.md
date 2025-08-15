@@ -3,13 +3,12 @@
 # Slot: jxdm72_CourtCategoryCode
 
 
-_No slot (predicate) description specified_
 
 
+This slot occurs 95 times.
 
 
-
-URI: [jxdm72:CourtCategoryCode](http://release.niem.gov/niem/domains/jxdm/7.2/#CourtCategoryCode)
+URI: [jxdm72:CourtCategoryCode](http://release.niem.gov/niem/domains/jxdm/7.2/CourtCategoryCode)
 
 
 
@@ -23,7 +22,7 @@ URI: [jxdm72:CourtCategoryCode](http://release.niem.gov/niem/domains/jxdm/7.2/#C
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72Court](../classes/Jxdm72Court.md) | No class (type) description specified |  no  |
+| [Jxdm72Court](../classes/Jxdm72Court.md) |  |  no  |
 
 
 
@@ -40,20 +39,6 @@ URI: [jxdm72:CourtCategoryCode](http://release.niem.gov/niem/domains/jxdm/7.2/#C
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| jxdm72_Court → string | scales/Court/almd | jxdm72:CourtCategoryCode | FED |
-| None → string | scales:Court/akd | jxdm72:CourtCategoryCode | FED |
-
-
-## Comments
-
-* 94 occurrences with subject type jxdm72_Court and object type string.
-* 94 occurrences with untyped subjects and object type string.
-
-
 
 ## LinkML Source
 
@@ -61,26 +46,7 @@ URI: [jxdm72:CourtCategoryCode](http://release.niem.gov/niem/domains/jxdm/7.2/#C
 
 ```yaml
 name: jxdm72_CourtCategoryCode
-description: No slot (predicate) description specified
-comments:
-- 94 occurrences with subject type jxdm72_Court and object type string.
-- 94 occurrences with untyped subjects and object type string.
-examples:
-- description: jxdm72_Court → string
-  object:
-    example_object: FED
-    example_object_type: string
-    example_predicate: jxdm72:CourtCategoryCode
-    example_subject: scales/Court/almd
-    example_subject_type: jxdm72_Court
-- description: None → string
-  object:
-    example_object: FED
-    example_object_type: string
-    example_predicate: jxdm72:CourtCategoryCode
-    example_subject: scales:Court/akd
-    example_subject_type: None
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: jxdm72:CourtCategoryCode
 alias: jxdm72_CourtCategoryCode

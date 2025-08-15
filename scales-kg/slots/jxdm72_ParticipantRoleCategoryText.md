@@ -3,18 +3,28 @@
 # Slot: jxdm72_ParticipantRoleCategoryText
 
 
-_No slot (predicate) description specified_
 
 
+This slot occurs 11629280 times.
 
 
-
-URI: [jxdm72:ParticipantRoleCategoryText](http://release.niem.gov/niem/domains/jxdm/7.2/#ParticipantRoleCategoryText)
+URI: [jxdm72:ParticipantRoleCategoryText](http://release.niem.gov/niem/domains/jxdm/7.2/ParticipantRoleCategoryText)
 
 
 
 <!-- no inheritance hierarchy -->
 
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [ScalesParty](../classes/ScalesParty.md) |  |  no  |
+| [Jxdm72CaseInitiatingParty](../classes/Jxdm72CaseInitiatingParty.md) |  |  no  |
+| [Jxdm72CaseDefendantParty](../classes/Jxdm72CaseDefendantParty.md) |  |  no  |
 
 
 
@@ -31,18 +41,6 @@ URI: [jxdm72:ParticipantRoleCategoryText](http://release.niem.gov/niem/domains/j
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → string | scales/Agent/almd;;1:16-cr-00020_a0 | jxdm72:ParticipantRoleCategoryText | Defendant |
-
-
-## Comments
-
-* 2993003 occurrences with untyped subjects and object type string.
-
-
 
 ## LinkML Source
 
@@ -50,21 +48,14 @@ URI: [jxdm72:ParticipantRoleCategoryText](http://release.niem.gov/niem/domains/j
 
 ```yaml
 name: jxdm72_ParticipantRoleCategoryText
-description: No slot (predicate) description specified
-comments:
-- 2993003 occurrences with untyped subjects and object type string.
-examples:
-- description: None → string
-  object:
-    example_object: Defendant
-    example_object_type: string
-    example_predicate: jxdm72:ParticipantRoleCategoryText
-    example_subject: scales/Agent/almd;;1:16-cr-00020_a0
-    example_subject_type: None
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: jxdm72:ParticipantRoleCategoryText
 alias: jxdm72_ParticipantRoleCategoryText
+domain_of:
+- jxdm72_CaseDefendantParty
+- jxdm72_CaseInitiatingParty
+- scales_Party
 range: string
 
 ```

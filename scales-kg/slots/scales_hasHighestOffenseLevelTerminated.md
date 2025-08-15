@@ -3,10 +3,9 @@
 # Slot: scales_hasHighestOffenseLevelTerminated
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 69523 times.
 
 
 URI: [scales:hasHighestOffenseLevelTerminated](http://schemas.scales-okn.org/rdf/scales#hasHighestOffenseLevelTerminated)
@@ -15,6 +14,15 @@ URI: [scales:hasHighestOffenseLevelTerminated](http://schemas.scales-okn.org/rdf
 
 <!-- no inheritance hierarchy -->
 
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [Jxdm72CaseDefendantParty](../classes/Jxdm72CaseDefendantParty.md) |  |  no  |
 
 
 
@@ -31,18 +39,6 @@ URI: [scales:hasHighestOffenseLevelTerminated](http://schemas.scales-okn.org/rdf
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → string | scales/Agent/almd;;1:16-cr-00077_a0 | scales:hasHighestOffenseLevelTerminated | Misdemeanor |
-
-
-## Comments
-
-* 38306 occurrences with untyped subjects and object type string.
-
-
 
 ## LinkML Source
 
@@ -50,21 +46,12 @@ URI: [scales:hasHighestOffenseLevelTerminated](http://schemas.scales-okn.org/rdf
 
 ```yaml
 name: scales_hasHighestOffenseLevelTerminated
-description: No slot (predicate) description specified
-comments:
-- 38306 occurrences with untyped subjects and object type string.
-examples:
-- description: None → string
-  object:
-    example_object: Misdemeanor
-    example_object_type: string
-    example_predicate: scales:hasHighestOffenseLevelTerminated
-    example_subject: scales/Agent/almd;;1:16-cr-00077_a0
-    example_subject_type: None
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: scales:hasHighestOffenseLevelTerminated
 alias: scales_hasHighestOffenseLevelTerminated
+domain_of:
+- jxdm72_CaseDefendantParty
 range: string
 
 ```

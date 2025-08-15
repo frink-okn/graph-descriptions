@@ -3,10 +3,9 @@
 # Slot: niem50_EntityName
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 4241878 times.
 
 
 URI: [niem50:EntityName](http://release.niem.gov/niem/niem-core/5.0/EntityName)
@@ -15,6 +14,17 @@ URI: [niem50:EntityName](http://release.niem.gov/niem/niem-core/5.0/EntityName)
 
 <!-- no inheritance hierarchy -->
 
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [ScalesParty](../classes/ScalesParty.md) |  |  no  |
+| [Jxdm72CaseInitiatingParty](../classes/Jxdm72CaseInitiatingParty.md) |  |  no  |
+| [Jxdm72CaseDefendantParty](../classes/Jxdm72CaseDefendantParty.md) |  |  no  |
 
 
 
@@ -31,18 +41,6 @@ URI: [niem50:EntityName](http://release.niem.gov/niem/niem-core/5.0/EntityName)
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → string | scales/Agent/almd;;1:16-cr-00020_a0 | niem50:EntityName | SCALES-Party-Hash-01C9DB7ED83B84B953EC544FAA8BAB98 |
-
-
-## Comments
-
-* 3004657 occurrences with untyped subjects and object type string.
-
-
 
 ## LinkML Source
 
@@ -50,21 +48,14 @@ URI: [niem50:EntityName](http://release.niem.gov/niem/niem-core/5.0/EntityName)
 
 ```yaml
 name: niem50_EntityName
-description: No slot (predicate) description specified
-comments:
-- 3004657 occurrences with untyped subjects and object type string.
-examples:
-- description: None → string
-  object:
-    example_object: SCALES-Party-Hash-01C9DB7ED83B84B953EC544FAA8BAB98
-    example_object_type: string
-    example_predicate: niem50:EntityName
-    example_subject: scales/Agent/almd;;1:16-cr-00020_a0
-    example_subject_type: None
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: niem50:EntityName
 alias: niem50_EntityName
+domain_of:
+- jxdm72_CaseDefendantParty
+- jxdm72_CaseInitiatingParty
+- scales_Party
 range: string
 
 ```

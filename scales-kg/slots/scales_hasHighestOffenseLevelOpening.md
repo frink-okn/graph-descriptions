@@ -3,10 +3,9 @@
 # Slot: scales_hasHighestOffenseLevelOpening
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 159337 times.
 
 
 URI: [scales:hasHighestOffenseLevelOpening](http://schemas.scales-okn.org/rdf/scales#hasHighestOffenseLevelOpening)
@@ -15,6 +14,15 @@ URI: [scales:hasHighestOffenseLevelOpening](http://schemas.scales-okn.org/rdf/sc
 
 <!-- no inheritance hierarchy -->
 
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [Jxdm72CaseDefendantParty](../classes/Jxdm72CaseDefendantParty.md) |  |  no  |
 
 
 
@@ -31,18 +39,6 @@ URI: [scales:hasHighestOffenseLevelOpening](http://schemas.scales-okn.org/rdf/sc
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → string | scales/Agent/almd;;1:16-cr-00020_a0 | scales:hasHighestOffenseLevelOpening | Felony |
-
-
-## Comments
-
-* 93222 occurrences with untyped subjects and object type string.
-
-
 
 ## LinkML Source
 
@@ -50,21 +46,12 @@ URI: [scales:hasHighestOffenseLevelOpening](http://schemas.scales-okn.org/rdf/sc
 
 ```yaml
 name: scales_hasHighestOffenseLevelOpening
-description: No slot (predicate) description specified
-comments:
-- 93222 occurrences with untyped subjects and object type string.
-examples:
-- description: None → string
-  object:
-    example_object: Felony
-    example_object_type: string
-    example_predicate: scales:hasHighestOffenseLevelOpening
-    example_subject: scales/Agent/almd;;1:16-cr-00020_a0
-    example_subject_type: None
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: scales:hasHighestOffenseLevelOpening
 alias: scales_hasHighestOffenseLevelOpening
+domain_of:
+- jxdm72_CaseDefendantParty
 range: string
 
 ```

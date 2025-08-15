@@ -3,10 +3,9 @@
 # Slot: scales_hasReferenceToOtherEntry
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 10618350 times.
 
 
 URI: [scales:hasReferenceToOtherEntry](http://schemas.scales-okn.org/rdf/scales#hasReferenceToOtherEntry)
@@ -31,18 +30,6 @@ URI: [scales:hasReferenceToOtherEntry](http://schemas.scales-okn.org/rdf/scales#
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → uri | scales/DocketEntry/almd;;1:16-cr-00020_de15 | scales:hasReferenceToOtherEntry | scales/DocketEntry/almd;;1:16-cr-00020_de14 |
-
-
-## Comments
-
-* 7002793 occurrences with untyped subjects and object type uri.
-
-
 
 ## LinkML Source
 
@@ -50,18 +37,7 @@ URI: [scales:hasReferenceToOtherEntry](http://schemas.scales-okn.org/rdf/scales#
 
 ```yaml
 name: scales_hasReferenceToOtherEntry
-description: No slot (predicate) description specified
-comments:
-- 7002793 occurrences with untyped subjects and object type uri.
-examples:
-- description: None → uri
-  object:
-    example_object: scales/DocketEntry/almd;;1:16-cr-00020_de14
-    example_object_type: uri
-    example_predicate: scales:hasReferenceToOtherEntry
-    example_subject: scales/DocketEntry/almd;;1:16-cr-00020_de15
-    example_subject_type: None
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: scales:hasReferenceToOtherEntry
 alias: scales_hasReferenceToOtherEntry

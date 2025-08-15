@@ -3,10 +3,9 @@
 # Slot: scales_hasChargeType
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 389366 times.
 
 
 URI: [scales:hasChargeType](http://schemas.scales-okn.org/rdf/scales#hasChargeType)
@@ -15,6 +14,15 @@ URI: [scales:hasChargeType](http://schemas.scales-okn.org/rdf/scales#hasChargeTy
 
 <!-- no inheritance hierarchy -->
 
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [Jxdm72Charge](../classes/Jxdm72Charge.md) |  |  no  |
 
 
 
@@ -31,18 +39,6 @@ URI: [scales:hasChargeType](http://schemas.scales-okn.org/rdf/scales#hasChargeTy
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → string | scales/Charge/almd;;1:16-cr-00020_c0-1 | scales:hasChargeType | pending |
-
-
-## Comments
-
-* 213743 occurrences with untyped subjects and object type string.
-
-
 
 ## LinkML Source
 
@@ -50,21 +46,12 @@ URI: [scales:hasChargeType](http://schemas.scales-okn.org/rdf/scales#hasChargeTy
 
 ```yaml
 name: scales_hasChargeType
-description: No slot (predicate) description specified
-comments:
-- 213743 occurrences with untyped subjects and object type string.
-examples:
-- description: None → string
-  object:
-    example_object: pending
-    example_object_type: string
-    example_predicate: scales:hasChargeType
-    example_subject: scales/Charge/almd;;1:16-cr-00020_c0-1
-    example_subject_type: None
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: scales:hasChargeType
 alias: scales_hasChargeType
+domain_of:
+- jxdm72_Charge
 range: string
 
 ```

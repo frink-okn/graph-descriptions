@@ -3,10 +3,9 @@
 # Slot: scales_hasUVAJudgeDirID
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 988 times.
 
 
 URI: [scales:hasUVAJudgeDirID](http://schemas.scales-okn.org/rdf/scales#hasUVAJudgeDirID)
@@ -23,7 +22,7 @@ URI: [scales:hasUVAJudgeDirID](http://schemas.scales-okn.org/rdf/scales#hasUVAJu
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72Judge](../classes/Jxdm72Judge.md) | No class (type) description specified |  no  |
+| [Jxdm72Judge](../classes/Jxdm72Judge.md) |  |  no  |
 
 
 
@@ -40,18 +39,6 @@ URI: [scales:hasUVAJudgeDirID](http://schemas.scales-okn.org/rdf/scales#hasUVAJu
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| jxdm72_Judge → string | scales/JudgeEntity/SJ000018 | scales:hasUVAJudgeDirID | mag-424 |
-
-
-## Comments
-
-* 988 occurrences with subject type jxdm72_Judge and object type string.
-
-
 
 ## LinkML Source
 
@@ -59,18 +46,7 @@ URI: [scales:hasUVAJudgeDirID](http://schemas.scales-okn.org/rdf/scales#hasUVAJu
 
 ```yaml
 name: scales_hasUVAJudgeDirID
-description: No slot (predicate) description specified
-comments:
-- 988 occurrences with subject type jxdm72_Judge and object type string.
-examples:
-- description: jxdm72_Judge → string
-  object:
-    example_object: mag-424
-    example_object_type: string
-    example_predicate: scales:hasUVAJudgeDirID
-    example_subject: scales/JudgeEntity/SJ000018
-    example_subject_type: jxdm72_Judge
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: scales:hasUVAJudgeDirID
 alias: scales_hasUVAJudgeDirID

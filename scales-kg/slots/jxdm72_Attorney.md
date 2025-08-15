@@ -3,13 +3,12 @@
 # Slot: jxdm72_Attorney
 
 
-_No slot (predicate) description specified_
 
 
+This slot occurs 537560 times.
 
 
-
-URI: [jxdm72:Attorney](http://release.niem.gov/niem/domains/jxdm/7.2/#Attorney)
+URI: [jxdm72:Attorney](http://release.niem.gov/niem/domains/jxdm/7.2/Attorney)
 
 
 
@@ -19,28 +18,32 @@ URI: [jxdm72:Attorney](http://release.niem.gov/niem/domains/jxdm/7.2/#Attorney)
 
 
 
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [ScalesParty](../classes/ScalesParty.md) |  |  no  |
+
+
+
+
 
 
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Jxdm72Attorney](../classes/Jxdm72Attorney.md)
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [ScalesParty](../classes/ScalesParty.md) | [Jxdm72Attorney](../classes/Jxdm72Attorney.md) | range | [Jxdm72Attorney](../classes/Jxdm72Attorney.md) |
 
 
 
 
 
-
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → uri | scales/Agent/almd;;1:16-cr-00571_a3 | jxdm72:Attorney | scales/Agent/almd;;1:16-cr-00571_a20 |
-
-
-## Comments
-
-* 386063 occurrences with untyped subjects and object type uri.
 
 
 
@@ -50,22 +53,13 @@ URI: [jxdm72:Attorney](http://release.niem.gov/niem/domains/jxdm/7.2/#Attorney)
 
 ```yaml
 name: jxdm72_Attorney
-description: No slot (predicate) description specified
-comments:
-- 386063 occurrences with untyped subjects and object type uri.
-examples:
-- description: None → uri
-  object:
-    example_object: scales/Agent/almd;;1:16-cr-00571_a20
-    example_object_type: uri
-    example_predicate: jxdm72:Attorney
-    example_subject: scales/Agent/almd;;1:16-cr-00571_a3
-    example_subject_type: None
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: jxdm72:Attorney
 alias: jxdm72_Attorney
-range: uri
+domain_of:
+- scales_Party
+range: jxdm72_Attorney
 
 ```
 </details>

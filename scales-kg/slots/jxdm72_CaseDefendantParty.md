@@ -3,13 +3,12 @@
 # Slot: jxdm72_CaseDefendantParty
 
 
-_No slot (predicate) description specified_
 
 
+This slot occurs 6231746 times.
 
 
-
-URI: [jxdm72:CaseDefendantParty](http://release.niem.gov/niem/domains/jxdm/7.2/#CaseDefendantParty)
+URI: [jxdm72:CaseDefendantParty](http://release.niem.gov/niem/domains/jxdm/7.2/CaseDefendantParty)
 
 
 
@@ -23,7 +22,8 @@ URI: [jxdm72:CaseDefendantParty](http://release.niem.gov/niem/domains/jxdm/7.2/#
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) |  |  no  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) |  |  no  |
 
 
 
@@ -33,23 +33,20 @@ URI: [jxdm72:CaseDefendantParty](http://release.niem.gov/niem/domains/jxdm/7.2/#
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[Jxdm72CaseDefendantParty](../classes/Jxdm72CaseDefendantParty.md)&nbsp;or&nbsp;<br />[ScalesParty](../classes/ScalesParty.md)
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [Jxdm72Charge](../classes/Jxdm72Charge.md) | [jxdm72_ChargeSubject](../slots/jxdm72_ChargeSubject.md) | range | [Jxdm72CaseDefendantParty](../classes/Jxdm72CaseDefendantParty.md) |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) | [Jxdm72CaseDefendantParty](../classes/Jxdm72CaseDefendantParty.md) | any_of[range] | [Jxdm72CaseDefendantParty](../classes/Jxdm72CaseDefendantParty.md) |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | [Jxdm72CaseDefendantParty](../classes/Jxdm72CaseDefendantParty.md) | any_of[range] | [Jxdm72CaseDefendantParty](../classes/Jxdm72CaseDefendantParty.md) |
 
 
 
 
 
-
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| scales_Case → uri | scales/CaseCivil | jxdm72:CaseDefendantParty | scales/Agent/almd;;1:16-cv-00016_a1 |
-
-
-## Comments
-
-* 1852839 occurrences with subject type scales_Case and object type uri.
 
 
 
@@ -59,24 +56,17 @@ URI: [jxdm72:CaseDefendantParty](http://release.niem.gov/niem/domains/jxdm/7.2/#
 
 ```yaml
 name: jxdm72_CaseDefendantParty
-description: No slot (predicate) description specified
-comments:
-- 1852839 occurrences with subject type scales_Case and object type uri.
-examples:
-- description: scales_Case → uri
-  object:
-    example_object: scales/Agent/almd;;1:16-cv-00016_a1
-    example_object_type: uri
-    example_predicate: jxdm72:CaseDefendantParty
-    example_subject: scales/CaseCivil
-    example_subject_type: scales_Case
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: jxdm72:CaseDefendantParty
 alias: jxdm72_CaseDefendantParty
 domain_of:
-- scales_Case
-range: uri
+- scales_CivilCase
+- scales_CriminalCase
+range: Any
+any_of:
+- range: jxdm72_CaseDefendantParty
+- range: scales_Party
 
 ```
 </details>

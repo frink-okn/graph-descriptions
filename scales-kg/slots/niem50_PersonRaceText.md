@@ -3,10 +3,9 @@
 # Slot: niem50_PersonRaceText
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 504197 times.
 
 
 URI: [niem50:PersonRaceText](http://release.niem.gov/niem/niem-core/5.0/PersonRaceText)
@@ -23,7 +22,9 @@ URI: [niem50:PersonRaceText](http://release.niem.gov/niem/niem-core/5.0/PersonRa
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72Judge](../classes/Jxdm72Judge.md) | No class (type) description specified |  no  |
+| [Jxdm72Judge](../classes/Jxdm72Judge.md) |  |  no  |
+| [Niem50Person](../classes/Niem50Person.md) |  |  no  |
+| [Jxdm72CaseDefendantParty](../classes/Jxdm72CaseDefendantParty.md) |  |  no  |
 
 
 
@@ -40,18 +41,6 @@ URI: [niem50:PersonRaceText](http://release.niem.gov/niem/niem-core/5.0/PersonRa
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| jxdm72_Judge → string | scales/JudgeEntity/SJ000004 | niem50:PersonRaceText | White |
-
-
-## Comments
-
-* 3762 occurrences with subject type jxdm72_Judge and object type string.
-
-
 
 ## LinkML Source
 
@@ -59,23 +48,14 @@ URI: [niem50:PersonRaceText](http://release.niem.gov/niem/niem-core/5.0/PersonRa
 
 ```yaml
 name: niem50_PersonRaceText
-description: No slot (predicate) description specified
-comments:
-- 3762 occurrences with subject type jxdm72_Judge and object type string.
-examples:
-- description: jxdm72_Judge → string
-  object:
-    example_object: White
-    example_object_type: string
-    example_predicate: niem50:PersonRaceText
-    example_subject: scales/JudgeEntity/SJ000004
-    example_subject_type: jxdm72_Judge
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: niem50:PersonRaceText
 alias: niem50_PersonRaceText
 domain_of:
+- jxdm72_CaseDefendantParty
 - jxdm72_Judge
+- niem50_Person
 range: string
 
 ```

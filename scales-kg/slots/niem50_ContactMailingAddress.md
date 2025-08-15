@@ -3,10 +3,9 @@
 # Slot: niem50_ContactMailingAddress
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 3083592 times.
 
 
 URI: [niem50:ContactMailingAddress](http://release.niem.gov/niem/niem-core/5.0/ContactMailingAddress)
@@ -15,6 +14,17 @@ URI: [niem50:ContactMailingAddress](http://release.niem.gov/niem/niem-core/5.0/C
 
 <!-- no inheritance hierarchy -->
 
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [Jxdm72Attorney](../classes/Jxdm72Attorney.md) |  |  no  |
+| [Jxdm72CaseInitiatingAttorney](../classes/Jxdm72CaseInitiatingAttorney.md) |  |  no  |
+| [Jxdm72CaseDefenseAttorney](../classes/Jxdm72CaseDefenseAttorney.md) |  |  no  |
 
 
 
@@ -31,19 +41,6 @@ URI: [niem50:ContactMailingAddress](http://release.niem.gov/niem/niem-core/5.0/C
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → string | scales/Agent/almd;;1:16-cr-00020_a4 | niem50:ContactMailingAddress | 817 South Court Street
-Montgomery, AL 36104 |
-
-
-## Comments
-
-* 2023829 occurrences with untyped subjects and object type string.
-
-
 
 ## LinkML Source
 
@@ -51,23 +48,14 @@ Montgomery, AL 36104 |
 
 ```yaml
 name: niem50_ContactMailingAddress
-description: No slot (predicate) description specified
-comments:
-- 2023829 occurrences with untyped subjects and object type string.
-examples:
-- description: None → string
-  object:
-    example_object: '817 South Court Street
-
-      Montgomery, AL 36104'
-    example_object_type: string
-    example_predicate: niem50:ContactMailingAddress
-    example_subject: scales/Agent/almd;;1:16-cr-00020_a4
-    example_subject_type: None
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: niem50:ContactMailingAddress
 alias: niem50_ContactMailingAddress
+domain_of:
+- jxdm72_Attorney
+- jxdm72_CaseDefenseAttorney
+- jxdm72_CaseInitiatingAttorney
 range: string
 
 ```

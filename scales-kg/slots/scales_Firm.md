@@ -3,10 +3,9 @@
 # Slot: scales_Firm
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 2929549 times.
 
 
 URI: [scales:Firm](http://schemas.scales-okn.org/rdf/scales#Firm)
@@ -19,28 +18,36 @@ URI: [scales:Firm](http://schemas.scales-okn.org/rdf/scales#Firm)
 
 
 
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [Jxdm72Attorney](../classes/Jxdm72Attorney.md) |  |  no  |
+| [Jxdm72CaseInitiatingAttorney](../classes/Jxdm72CaseInitiatingAttorney.md) |  |  no  |
+| [Jxdm72CaseDefenseAttorney](../classes/Jxdm72CaseDefenseAttorney.md) |  |  no  |
+
+
+
+
 
 
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [ScalesFirm](../classes/ScalesFirm.md)
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [Jxdm72Attorney](../classes/Jxdm72Attorney.md) | [ScalesFirm](../classes/ScalesFirm.md) | range | [ScalesFirm](../classes/ScalesFirm.md) |
+| [Jxdm72CaseDefenseAttorney](../classes/Jxdm72CaseDefenseAttorney.md) | [ScalesFirm](../classes/ScalesFirm.md) | range | [ScalesFirm](../classes/ScalesFirm.md) |
+| [Jxdm72CaseInitiatingAttorney](../classes/Jxdm72CaseInitiatingAttorney.md) | [ScalesFirm](../classes/ScalesFirm.md) | range | [ScalesFirm](../classes/ScalesFirm.md) |
 
 
 
 
 
-
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → uri | scales/Agent/almd;;1:16-cr-00020_a4 | scales:Firm | scales/Agent/almd;;1:16-cr-00020_a8 |
-
-
-## Comments
-
-* 1920886 occurrences with untyped subjects and object type uri.
 
 
 
@@ -50,22 +57,15 @@ URI: [scales:Firm](http://schemas.scales-okn.org/rdf/scales#Firm)
 
 ```yaml
 name: scales_Firm
-description: No slot (predicate) description specified
-comments:
-- 1920886 occurrences with untyped subjects and object type uri.
-examples:
-- description: None → uri
-  object:
-    example_object: scales/Agent/almd;;1:16-cr-00020_a8
-    example_object_type: uri
-    example_predicate: scales:Firm
-    example_subject: scales/Agent/almd;;1:16-cr-00020_a4
-    example_subject_type: None
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: scales:Firm
 alias: scales_Firm
-range: uri
+domain_of:
+- jxdm72_Attorney
+- jxdm72_CaseDefenseAttorney
+- jxdm72_CaseInitiatingAttorney
+range: scales_Firm
 
 ```
 </details>

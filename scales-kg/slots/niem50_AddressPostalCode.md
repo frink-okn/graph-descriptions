@@ -3,10 +3,9 @@
 # Slot: niem50_AddressPostalCode
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 40932 times.
 
 
 URI: [niem50:AddressPostalCode](http://release.niem.gov/niem/niem-core/5.0/AddressPostalCode)
@@ -23,7 +22,7 @@ URI: [niem50:AddressPostalCode](http://release.niem.gov/niem/niem-core/5.0/Addre
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72Court](../classes/Jxdm72Court.md) | No class (type) description specified |  no  |
+| [Jxdm72Court](../classes/Jxdm72Court.md) |  |  no  |
 
 
 
@@ -40,18 +39,6 @@ URI: [niem50:AddressPostalCode](http://release.niem.gov/niem/niem-core/5.0/Addre
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| jxdm72_Court → string | scales/Court/almd | niem50:AddressPostalCode | 35010 |
-
-
-## Comments
-
-* 40932 occurrences with subject type jxdm72_Court and object type string.
-
-
 
 ## LinkML Source
 
@@ -59,18 +46,7 @@ URI: [niem50:AddressPostalCode](http://release.niem.gov/niem/niem-core/5.0/Addre
 
 ```yaml
 name: niem50_AddressPostalCode
-description: No slot (predicate) description specified
-comments:
-- 40932 occurrences with subject type jxdm72_Court and object type string.
-examples:
-- description: jxdm72_Court → string
-  object:
-    example_object: '35010'
-    example_object_type: string
-    example_predicate: niem50:AddressPostalCode
-    example_subject: scales/Court/almd
-    example_subject_type: jxdm72_Court
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: niem50:AddressPostalCode
 alias: niem50_AddressPostalCode

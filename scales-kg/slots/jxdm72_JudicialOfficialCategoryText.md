@@ -3,13 +3,12 @@
 # Slot: jxdm72_JudicialOfficialCategoryText
 
 
-_No slot (predicate) description specified_
 
 
+This slot occurs 5385 times.
 
 
-
-URI: [jxdm72:JudicialOfficialCategoryText](http://release.niem.gov/niem/domains/jxdm/7.2/#JudicialOfficialCategoryText)
+URI: [jxdm72:JudicialOfficialCategoryText](http://release.niem.gov/niem/domains/jxdm/7.2/JudicialOfficialCategoryText)
 
 
 
@@ -23,7 +22,7 @@ URI: [jxdm72:JudicialOfficialCategoryText](http://release.niem.gov/niem/domains/
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72Judge](../classes/Jxdm72Judge.md) | No class (type) description specified |  no  |
+| [Jxdm72Judge](../classes/Jxdm72Judge.md) |  |  no  |
 
 
 
@@ -40,20 +39,6 @@ URI: [jxdm72:JudicialOfficialCategoryText](http://release.niem.gov/niem/domains/
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| jxdm72_Judge → string | scales/JudgeEntity/SJ000000 | jxdm72:JudicialOfficialCategoryText | Magistrate_Judge |
-| None → string | http://schemas.scales-okn.org/rdf/ijp#JudgeEntity/SJ000000 | jxdm72:JudicialOfficialCategoryText | Magistrate_Judge |
-
-
-## Comments
-
-* 5385 occurrences with subject type jxdm72_Judge and object type string.
-* 5385 occurrences with untyped subjects and object type string.
-
-
 
 ## LinkML Source
 
@@ -61,26 +46,7 @@ URI: [jxdm72:JudicialOfficialCategoryText](http://release.niem.gov/niem/domains/
 
 ```yaml
 name: jxdm72_JudicialOfficialCategoryText
-description: No slot (predicate) description specified
-comments:
-- 5385 occurrences with subject type jxdm72_Judge and object type string.
-- 5385 occurrences with untyped subjects and object type string.
-examples:
-- description: jxdm72_Judge → string
-  object:
-    example_object: Magistrate_Judge
-    example_object_type: string
-    example_predicate: jxdm72:JudicialOfficialCategoryText
-    example_subject: scales/JudgeEntity/SJ000000
-    example_subject_type: jxdm72_Judge
-- description: None → string
-  object:
-    example_object: Magistrate_Judge
-    example_object_type: string
-    example_predicate: jxdm72:JudicialOfficialCategoryText
-    example_subject: http://schemas.scales-okn.org/rdf/ijp#JudgeEntity/SJ000000
-    example_subject_type: None
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: jxdm72:JudicialOfficialCategoryText
 alias: jxdm72_JudicialOfficialCategoryText

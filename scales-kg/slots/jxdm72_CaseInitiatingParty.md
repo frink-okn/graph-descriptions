@@ -3,13 +3,12 @@
 # Slot: jxdm72_CaseInitiatingParty
 
 
-_No slot (predicate) description specified_
 
 
+This slot occurs 4892601 times.
 
 
-
-URI: [jxdm72:CaseInitiatingParty](http://release.niem.gov/niem/domains/jxdm/7.2/#CaseInitiatingParty)
+URI: [jxdm72:CaseInitiatingParty](http://release.niem.gov/niem/domains/jxdm/7.2/CaseInitiatingParty)
 
 
 
@@ -23,7 +22,8 @@ URI: [jxdm72:CaseInitiatingParty](http://release.niem.gov/niem/domains/jxdm/7.2/
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) |  |  no  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) |  |  no  |
 
 
 
@@ -33,23 +33,19 @@ URI: [jxdm72:CaseInitiatingParty](http://release.niem.gov/niem/domains/jxdm/7.2/
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[Jxdm72CaseInitiatingParty](../classes/Jxdm72CaseInitiatingParty.md)&nbsp;or&nbsp;<br />[ScalesParty](../classes/ScalesParty.md)
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) | [Jxdm72CaseInitiatingParty](../classes/Jxdm72CaseInitiatingParty.md) | any_of[range] | [Jxdm72CaseInitiatingParty](../classes/Jxdm72CaseInitiatingParty.md) |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | [Jxdm72CaseInitiatingParty](../classes/Jxdm72CaseInitiatingParty.md) | any_of[range] | [Jxdm72CaseInitiatingParty](../classes/Jxdm72CaseInitiatingParty.md) |
 
 
 
 
 
-
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| scales_Case → uri | scales/CaseCivil | jxdm72:CaseInitiatingParty | scales/Agent/almd;;1:16-cv-00016_a0 |
-
-
-## Comments
-
-* 920509 occurrences with subject type scales_Case and object type uri.
 
 
 
@@ -59,24 +55,17 @@ URI: [jxdm72:CaseInitiatingParty](http://release.niem.gov/niem/domains/jxdm/7.2/
 
 ```yaml
 name: jxdm72_CaseInitiatingParty
-description: No slot (predicate) description specified
-comments:
-- 920509 occurrences with subject type scales_Case and object type uri.
-examples:
-- description: scales_Case → uri
-  object:
-    example_object: scales/Agent/almd;;1:16-cv-00016_a0
-    example_object_type: uri
-    example_predicate: jxdm72:CaseInitiatingParty
-    example_subject: scales/CaseCivil
-    example_subject_type: scales_Case
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: jxdm72:CaseInitiatingParty
 alias: jxdm72_CaseInitiatingParty
 domain_of:
-- scales_Case
-range: uri
+- scales_CivilCase
+- scales_CriminalCase
+range: Any
+any_of:
+- range: jxdm72_CaseInitiatingParty
+- range: scales_Party
 
 ```
 </details>

@@ -3,10 +3,9 @@
 # Slot: scales_hasExtraInfo
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 861769 times.
 
 
 URI: [scales:hasExtraInfo](http://schemas.scales-okn.org/rdf/scales#hasExtraInfo)
@@ -15,6 +14,17 @@ URI: [scales:hasExtraInfo](http://schemas.scales-okn.org/rdf/scales#hasExtraInfo
 
 <!-- no inheritance hierarchy -->
 
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [ScalesParty](../classes/ScalesParty.md) |  |  no  |
+| [Jxdm72CaseInitiatingParty](../classes/Jxdm72CaseInitiatingParty.md) |  |  no  |
+| [Jxdm72CaseDefendantParty](../classes/Jxdm72CaseDefendantParty.md) |  |  no  |
 
 
 
@@ -31,19 +41,6 @@ URI: [scales:hasExtraInfo](http://schemas.scales-okn.org/rdf/scales#hasExtraInfo
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → string | scales/Agent/almd;;1:16-cr-00126_a0 | scales:hasExtraInfo | also known as
-Jose Antonio Yanez Lincona |
-
-
-## Comments
-
-* 625618 occurrences with untyped subjects and object type string.
-
-
 
 ## LinkML Source
 
@@ -51,23 +48,14 @@ Jose Antonio Yanez Lincona |
 
 ```yaml
 name: scales_hasExtraInfo
-description: No slot (predicate) description specified
-comments:
-- 625618 occurrences with untyped subjects and object type string.
-examples:
-- description: None → string
-  object:
-    example_object: 'also known as
-
-      Jose Antonio Yanez Lincona'
-    example_object_type: string
-    example_predicate: scales:hasExtraInfo
-    example_subject: scales/Agent/almd;;1:16-cr-00126_a0
-    example_subject_type: None
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: scales:hasExtraInfo
 alias: scales_hasExtraInfo
+domain_of:
+- jxdm72_CaseDefendantParty
+- jxdm72_CaseInitiatingParty
+- scales_Party
 range: string
 
 ```

@@ -3,10 +3,9 @@
 # Slot: niem50_PersonFullName
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 17954252 times.
 
 
 URI: [niem50:PersonFullName](http://release.niem.gov/niem/niem-core/5.0/PersonFullName)
@@ -23,7 +22,13 @@ URI: [niem50:PersonFullName](http://release.niem.gov/niem/niem-core/5.0/PersonFu
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72Judge](../classes/Jxdm72Judge.md) | No class (type) description specified |  no  |
+| [Jxdm72Judge](../classes/Jxdm72Judge.md) |  |  no  |
+| [Jxdm72CaseJudge](../classes/Jxdm72CaseJudge.md) |  |  no  |
+| [Jxdm72CaseDefenseAttorney](../classes/Jxdm72CaseDefenseAttorney.md) |  |  no  |
+| [ScalesParty](../classes/ScalesParty.md) |  |  no  |
+| [Jxdm72CaseDefendantParty](../classes/Jxdm72CaseDefendantParty.md) |  |  no  |
+| [Jxdm72Attorney](../classes/Jxdm72Attorney.md) |  |  no  |
+| [Jxdm72CaseInitiatingAttorney](../classes/Jxdm72CaseInitiatingAttorney.md) |  |  no  |
 
 
 
@@ -40,20 +45,6 @@ URI: [niem50:PersonFullName](http://release.niem.gov/niem/niem-core/5.0/PersonFu
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → string | scales/Agent/almd;;1:16-cr-00020_a2 | niem50:PersonFullName | Honorable Judge Myron H. Thompson |
-| jxdm72_Judge → string | scales/JudgeEntity/SJ000000 | niem50:PersonFullName | Cj Williams |
-
-
-## Comments
-
-* 4973752 occurrences with untyped subjects and object type string.
-* 5385 occurrences with subject type jxdm72_Judge and object type string.
-
-
 
 ## LinkML Source
 
@@ -61,31 +52,18 @@ URI: [niem50:PersonFullName](http://release.niem.gov/niem/niem-core/5.0/PersonFu
 
 ```yaml
 name: niem50_PersonFullName
-description: No slot (predicate) description specified
-comments:
-- 4973752 occurrences with untyped subjects and object type string.
-- 5385 occurrences with subject type jxdm72_Judge and object type string.
-examples:
-- description: None → string
-  object:
-    example_object: Honorable Judge Myron H. Thompson
-    example_object_type: string
-    example_predicate: niem50:PersonFullName
-    example_subject: scales/Agent/almd;;1:16-cr-00020_a2
-    example_subject_type: None
-- description: jxdm72_Judge → string
-  object:
-    example_object: Cj Williams
-    example_object_type: string
-    example_predicate: niem50:PersonFullName
-    example_subject: scales/JudgeEntity/SJ000000
-    example_subject_type: jxdm72_Judge
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: niem50:PersonFullName
 alias: niem50_PersonFullName
 domain_of:
+- jxdm72_Attorney
+- jxdm72_CaseDefendantParty
+- jxdm72_CaseDefenseAttorney
+- jxdm72_CaseInitiatingAttorney
+- jxdm72_CaseJudge
 - jxdm72_Judge
+- scales_Party
 range: string
 
 ```

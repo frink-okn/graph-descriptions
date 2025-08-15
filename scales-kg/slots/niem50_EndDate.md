@@ -3,10 +3,9 @@
 # Slot: niem50_EndDate
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 3828523 times.
 
 
 URI: [niem50:EndDate](http://release.niem.gov/niem/niem-core/5.0/EndDate)
@@ -23,7 +22,8 @@ URI: [niem50:EndDate](http://release.niem.gov/niem/niem-core/5.0/EndDate)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [ScalesCase](../classes/ScalesCase.md) | No class (type) description specified |  no  |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) |  |  no  |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) |  |  no  |
 
 
 
@@ -40,18 +40,6 @@ URI: [niem50:EndDate](http://release.niem.gov/niem/niem-core/5.0/EndDate)
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| scales_Case → date | scales/CaseCivil | niem50:EndDate | 1968-03-14 |
-
-
-## Comments
-
-* 9629 occurrences with subject type scales_Case and object type date.
-
-
 
 ## LinkML Source
 
@@ -59,23 +47,13 @@ URI: [niem50:EndDate](http://release.niem.gov/niem/niem-core/5.0/EndDate)
 
 ```yaml
 name: niem50_EndDate
-description: No slot (predicate) description specified
-comments:
-- 9629 occurrences with subject type scales_Case and object type date.
-examples:
-- description: scales_Case → date
-  object:
-    example_object: '1968-03-14'
-    example_object_type: date
-    example_predicate: niem50:EndDate
-    example_subject: scales/CaseCivil
-    example_subject_type: scales_Case
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: niem50:EndDate
 alias: niem50_EndDate
 domain_of:
-- scales_Case
+- scales_CivilCase
+- scales_CriminalCase
 range: date
 
 ```

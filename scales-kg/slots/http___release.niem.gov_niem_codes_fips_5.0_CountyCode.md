@@ -3,10 +3,9 @@
 # Slot: http___release.niem.gov_niem_codes_fips_5.0_CountyCode
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 3037 times.
 
 
 URI: [http://release.niem.gov/niem/codes/fips/5.0/CountyCode](http://release.niem.gov/niem/codes/fips/5.0/CountyCode)
@@ -23,7 +22,8 @@ URI: [http://release.niem.gov/niem/codes/fips/5.0/CountyCode](http://release.nie
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72Court](../classes/Jxdm72Court.md) | No class (type) description specified |  no  |
+| [Jxdm72Court](../classes/Jxdm72Court.md) |  |  no  |
+| [Jxdm72BookingFacility](../classes/Jxdm72BookingFacility.md) |  |  no  |
 
 
 
@@ -40,18 +40,6 @@ URI: [http://release.niem.gov/niem/codes/fips/5.0/CountyCode](http://release.nie
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| jxdm72_Court → string | scales/Court/almd | http://release.niem.gov/niem/codes/fips/5.0/CountyCode | 01001 |
-
-
-## Comments
-
-* 3035 occurrences with subject type jxdm72_Court and object type string.
-
-
 
 ## LinkML Source
 
@@ -59,22 +47,12 @@ URI: [http://release.niem.gov/niem/codes/fips/5.0/CountyCode](http://release.nie
 
 ```yaml
 name: http___release.niem.gov_niem_codes_fips_5.0_CountyCode
-description: No slot (predicate) description specified
-comments:
-- 3035 occurrences with subject type jxdm72_Court and object type string.
-examples:
-- description: jxdm72_Court → string
-  object:
-    example_object: '01001'
-    example_object_type: string
-    example_predicate: http://release.niem.gov/niem/codes/fips/5.0/CountyCode
-    example_subject: scales/Court/almd
-    example_subject_type: jxdm72_Court
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: http://release.niem.gov/niem/codes/fips/5.0/CountyCode
 alias: http___release.niem.gov_niem_codes_fips_5.0_CountyCode
 domain_of:
+- jxdm72_BookingFacility
 - jxdm72_Court
 range: string
 

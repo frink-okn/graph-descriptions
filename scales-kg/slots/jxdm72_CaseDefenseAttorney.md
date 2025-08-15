@@ -3,13 +3,12 @@
 # Slot: jxdm72_CaseDefenseAttorney
 
 
-_No slot (predicate) description specified_
 
 
+This slot occurs 2823772 times.
 
 
-
-URI: [jxdm72:CaseDefenseAttorney](http://release.niem.gov/niem/domains/jxdm/7.2/#CaseDefenseAttorney)
+URI: [jxdm72:CaseDefenseAttorney](http://release.niem.gov/niem/domains/jxdm/7.2/CaseDefenseAttorney)
 
 
 
@@ -19,28 +18,32 @@ URI: [jxdm72:CaseDefenseAttorney](http://release.niem.gov/niem/domains/jxdm/7.2/
 
 
 
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [Jxdm72CaseDefendantParty](../classes/Jxdm72CaseDefendantParty.md) |  |  no  |
+
+
+
+
 
 
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [Jxdm72CaseDefenseAttorney](../classes/Jxdm72CaseDefenseAttorney.md)
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [Jxdm72CaseDefendantParty](../classes/Jxdm72CaseDefendantParty.md) | [Jxdm72CaseDefenseAttorney](../classes/Jxdm72CaseDefenseAttorney.md) | range | [Jxdm72CaseDefenseAttorney](../classes/Jxdm72CaseDefenseAttorney.md) |
 
 
 
 
 
-
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| None → uri | scales/Agent/almd;;1:16-cr-00020_a0 | jxdm72:CaseDefenseAttorney | scales/Agent/almd;;1:16-cr-00020_a4 |
-
-
-## Comments
-
-* 1890518 occurrences with untyped subjects and object type uri.
 
 
 
@@ -50,22 +53,13 @@ URI: [jxdm72:CaseDefenseAttorney](http://release.niem.gov/niem/domains/jxdm/7.2/
 
 ```yaml
 name: jxdm72_CaseDefenseAttorney
-description: No slot (predicate) description specified
-comments:
-- 1890518 occurrences with untyped subjects and object type uri.
-examples:
-- description: None → uri
-  object:
-    example_object: scales/Agent/almd;;1:16-cr-00020_a4
-    example_object_type: uri
-    example_predicate: jxdm72:CaseDefenseAttorney
-    example_subject: scales/Agent/almd;;1:16-cr-00020_a0
-    example_subject_type: None
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: jxdm72:CaseDefenseAttorney
 alias: jxdm72_CaseDefenseAttorney
-range: uri
+domain_of:
+- jxdm72_CaseDefendantParty
+range: jxdm72_CaseDefenseAttorney
 
 ```
 </details>

@@ -1,15 +1,14 @@
 
 
-# Class: No class name specified (jxdm72_RegisterOfActions)
-
-
-_No class (type) description specified_
+# Class: Jxdm72RegisterOfActions
 
 
 
 
+This class occurs 4160501 times.
 
-URI: [jxdm72:RegisterOfActions](http://release.niem.gov/niem/domains/jxdm/7.2/#RegisterOfActions)
+
+URI: [jxdm72:RegisterOfActions](http://release.niem.gov/niem/domains/jxdm/7.2/RegisterOfActions)
 
 
 
@@ -20,6 +19,15 @@ URI: [jxdm72:RegisterOfActions](http://release.niem.gov/niem/domains/jxdm/7.2/#R
  classDiagram
     class Jxdm72RegisterOfActions
     click Jxdm72RegisterOfActions href "../Jxdm72RegisterOfActions"
+      Jxdm72RegisterOfActions : scales_DocketEntry
+        
+          
+    
+    
+    Jxdm72RegisterOfActions --> "0..1" Any : scales_DocketEntry
+    click Any href "../Any"
+
+        
       
 ```
 
@@ -31,8 +39,9 @@ URI: [jxdm72:RegisterOfActions](http://release.niem.gov/niem/domains/jxdm/7.2/#R
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
+| [scales_DocketEntry](../slots/scales_DocketEntry.md) | 0..1 <br/> [Jxdm72RegisterAction](../classes/Jxdm72RegisterAction.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) |  <br/>  | direct | 58334996 |
 
 
 
@@ -42,20 +51,12 @@ URI: [jxdm72:RegisterOfActions](http://release.niem.gov/niem/domains/jxdm/7.2/#R
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [Jxdm72Case](../classes/Jxdm72Case.md) | [Jxdm72RegisterOfActions](../classes/Jxdm72RegisterOfActions.md) | any_of[range] | [Jxdm72RegisterOfActions](../classes/Jxdm72RegisterOfActions.md) |
-| [ScalesCase](../classes/ScalesCase.md) | [Jxdm72RegisterOfActions](../classes/Jxdm72RegisterOfActions.md) | any_of[range] | [Jxdm72RegisterOfActions](../classes/Jxdm72RegisterOfActions.md) |
+| [ScalesCivilCase](../classes/ScalesCivilCase.md) | [scales_DocketTable](../slots/scales_DocketTable.md) | any_of[range] | [Jxdm72RegisterOfActions](../classes/Jxdm72RegisterOfActions.md) |
+| [ScalesCriminalCase](../classes/ScalesCriminalCase.md) | [scales_DocketTable](../slots/scales_DocketTable.md) | any_of[range] | [Jxdm72RegisterOfActions](../classes/Jxdm72RegisterOfActions.md) |
 
 
 
 
-
-
-
-## Examples
-
-| Value |
-| --- |
-| scales/DocketTable/DocketTable/ga-fulton-01-100271 |
 
 
 
@@ -73,14 +74,10 @@ URI: [jxdm72:RegisterOfActions](http://release.niem.gov/niem/domains/jxdm/7.2/#R
 
 ```yaml
 name: jxdm72_RegisterOfActions
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class name specified
-notes:
-- Class with 94929 occurrences.
-examples:
-- value: scales/DocketTable/DocketTable/ga-fulton-01-100271
+from_schema: okns:scales-kg
 rank: 1000
+slots:
+- scales_DocketEntry
 class_uri: jxdm72:RegisterOfActions
 
 ```
@@ -92,14 +89,23 @@ class_uri: jxdm72:RegisterOfActions
 
 ```yaml
 name: jxdm72_RegisterOfActions
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class name specified
-notes:
-- Class with 94929 occurrences.
-examples:
-- value: scales/DocketTable/DocketTable/ga-fulton-01-100271
+from_schema: okns:scales-kg
 rank: 1000
+attributes:
+  scales_DocketEntry:
+    name: scales_DocketEntry
+    from_schema: okns:scales-kg
+    rank: 1000
+    slot_uri: scales:DocketEntry
+    alias: scales_DocketEntry
+    owner: jxdm72_RegisterOfActions
+    domain_of:
+    - jxdm72_RegisterAction
+    - jxdm72_RegisterOfActions
+    range: Any
+    any_of:
+    - range: jxdm72_RegisterAction
+    - range: uri
 class_uri: jxdm72:RegisterOfActions
 
 ```

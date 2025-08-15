@@ -3,10 +3,9 @@
 # Slot: scales_hasCommissionDate
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 4257 times.
 
 
 URI: [scales:hasCommissionDate](http://schemas.scales-okn.org/rdf/scales#hasCommissionDate)
@@ -23,7 +22,7 @@ URI: [scales:hasCommissionDate](http://schemas.scales-okn.org/rdf/scales#hasComm
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Jxdm72Judge](../classes/Jxdm72Judge.md) | No class (type) description specified |  no  |
+| [Jxdm72Judge](../classes/Jxdm72Judge.md) |  |  no  |
 
 
 
@@ -40,18 +39,6 @@ URI: [scales:hasCommissionDate](http://schemas.scales-okn.org/rdf/scales#hasComm
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| jxdm72_Judge → date | scales/JudgeEntity/SJ000004 | scales:hasCommissionDate | 1987-01-01 |
-
-
-## Comments
-
-* 4257 occurrences with subject type jxdm72_Judge and object type date.
-
-
 
 ## LinkML Source
 
@@ -59,18 +46,7 @@ URI: [scales:hasCommissionDate](http://schemas.scales-okn.org/rdf/scales#hasComm
 
 ```yaml
 name: scales_hasCommissionDate
-description: No slot (predicate) description specified
-comments:
-- 4257 occurrences with subject type jxdm72_Judge and object type date.
-examples:
-- description: jxdm72_Judge → date
-  object:
-    example_object: '1987-01-01'
-    example_object_type: date
-    example_predicate: scales:hasCommissionDate
-    example_subject: scales/JudgeEntity/SJ000004
-    example_subject_type: jxdm72_Judge
-from_schema: scales-kg-new
+from_schema: okns:scales-kg
 rank: 1000
 slot_uri: scales:hasCommissionDate
 alias: scales_hasCommissionDate
