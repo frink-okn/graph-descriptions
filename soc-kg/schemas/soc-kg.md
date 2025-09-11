@@ -1,6 +1,6 @@
 # soc-kg
 
-No schema description specified
+None
 
-URI: soc-kg
+URI: okns:soc-kg
 

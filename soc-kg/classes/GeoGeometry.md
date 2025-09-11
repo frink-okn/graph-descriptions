@@ -1,16 +1,16 @@
 
 
-# Class: No class (type) name specified (geo_Geometry)
+# Class: GeoGeometry
 
 
-_No class (type) description specified_
-
-
-
+_A coherent set of direct positions in space. The positions are held within a Spatial Reference System (SRS)._
 
 
 
-This class occurs 47 times.
+
+
+
+This class occurs 41 times.
 
 
 URI: [geo:Geometry](http://www.opengis.net/ont/geosparql#Geometry)
@@ -24,22 +24,26 @@ URI: [geo:Geometry](http://www.opengis.net/ont/geosparql#Geometry)
  classDiagram
     class GeoGeometry
     click GeoGeometry href "../GeoGeometry"
-      GeoGeometry : geo_asWKT
-        
+      GeoSpatialObject <|-- GeoGeometry
+        click GeoSpatialObject href "../GeoSpatialObject"
+      
       
 ```
 
 
 
 
-<!-- no inheritance hierarchy -->
+
+## Inheritance
+* [GeoSpatialObject](../classes/GeoSpatialObject.md)
+    * **GeoGeometry**
+
 
 
 ## Slots
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [geo_asWKT](../slots/geo_asWKT.md) | 0..1 <br/> [GeoWktLiteral](../types/GeoWktLiteral.md) | No slot (predicate) description specified <br/>  | direct | 47 |
 
 
 
@@ -49,12 +53,19 @@ URI: [geo:Geometry](http://www.opengis.net/ont/geosparql#Geometry)
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [SockgSite](../classes/SockgSite.md) | [geo_hasGeometry](../slots/geo_hasGeometry.md) | range | [GeoGeometry](../classes/GeoGeometry.md) |
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location.md) | [geo_hasGeometry](../slots/geo_hasGeometry.md) | range | [GeoGeometry](../classes/GeoGeometry.md) |
 
 
 
 
 
+
+## Comments
+
+* source: http://www.opengis.net/ont/geosparql#
+* source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/geometry-class
+* source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/geometry-class
+* description: A coherent set of direct positions in space. The positions are held within a Spatial Reference System (SRS).
 
 
 
@@ -71,24 +82,20 @@ URI: [geo:Geometry](http://www.opengis.net/ont/geosparql#Geometry)
 
 ```yaml
 name: geo_Geometry
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 47
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: soc-kg
-rank: 1000
-slots:
-- geo_asWKT
-slot_usage:
-  geo_asWKT:
-    name: geo_asWKT
-    annotations:
-      geo_wktLiteral:
-        tag: geo_wktLiteral
-        value: 47
+description: A coherent set of direct positions in space. The positions are held within
+  a Spatial Reference System (SRS).
+notes:
+- Geometry can be used as a representation of the shape, extent or location of a Feature
+  and may exist as a self-contained entity.
+comments:
+- 'source: http://www.opengis.net/ont/geosparql#'
+- 'source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/geometry-class'
+- 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/geometry-class'
+- 'description: A coherent set of direct positions in space. The positions are held
+  within a Spatial Reference System (SRS).'
+from_schema: okns:geo
+source: http://www.opengis.net/ont/geosparql#
+is_a: geo_SpatialObject
 class_uri: geo:Geometry
 
 ```
@@ -100,46 +107,20 @@ class_uri: geo:Geometry
 
 ```yaml
 name: geo_Geometry
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 47
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: soc-kg
-rank: 1000
-slot_usage:
-  geo_asWKT:
-    name: geo_asWKT
-    annotations:
-      geo_wktLiteral:
-        tag: geo_wktLiteral
-        value: 47
-attributes:
-  geo_asWKT:
-    name: geo_asWKT
-    annotations:
-      geo_wktLiteral:
-        tag: geo_wktLiteral
-        value: 47
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: POLYGON((-95.801811 45.684633, -95.799659 45.684633, -95.799659
-          45.687024, -95.801811 45.687024, -95.801811 45.684633))
-        example_object_type: geo_wktLiteral
-        example_predicate: geo:asWKT
-        example_subject: sockg:individuals/geometry_ABP
-        example_subject_type: geo_Geometry
-    from_schema: soc-kg
-    rank: 1000
-    slot_uri: geo:asWKT
-    alias: geo_asWKT
-    owner: geo_Geometry
-    domain_of:
-    - geo_Geometry
-    range: geo_wktLiteral
+description: A coherent set of direct positions in space. The positions are held within
+  a Spatial Reference System (SRS).
+notes:
+- Geometry can be used as a representation of the shape, extent or location of a Feature
+  and may exist as a self-contained entity.
+comments:
+- 'source: http://www.opengis.net/ont/geosparql#'
+- 'source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/geometry-class'
+- 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/geometry-class'
+- 'description: A coherent set of direct positions in space. The positions are held
+  within a Spatial Reference System (SRS).'
+from_schema: okns:geo
+source: http://www.opengis.net/ont/geosparql#
+is_a: geo_SpatialObject
 class_uri: geo:Geometry
 
 ```

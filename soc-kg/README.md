@@ -1,6 +1,6 @@
 # sockg
 
-No schema description specified
+
 
 
 
@@ -8,6 +8,116 @@ No schema description specified
 
 ```mermaid
 erDiagram
+FoafAgent {
+
+}
+FoafDocument {
+
+}
+Wn16Credential {
+
+}
+Wn16Endorsement-4 {
+
+}
+Wn16Event {
+
+}
+WotEncryptedDocument {
+
+}
+WotEndorsement {
+
+}
+WotPubKey {
+
+}
+WotSigEvent {
+
+}
+WotUser {
+
+}
+OwlAllDifferent {
+
+}
+OwlAllDisjointClasses {
+
+}
+OwlAllDisjointProperties {
+
+}
+OwlAnnotation {
+
+}
+OwlAnnotationProperty {
+
+}
+OwlAsymmetricProperty {
+
+}
+OwlAxiom {
+
+}
+OwlClass {
+
+}
+OwlDataRange {
+    uri rdfs_seeAlso  
+    string rdfs_label  
+    string rdfs_comment  
+}
+OwlDatatypeProperty {
+
+}
+OwlDeprecatedClass {
+
+}
+OwlDeprecatedProperty {
+
+}
+OwlFunctionalProperty {
+
+}
+OwlInverseFunctionalProperty {
+
+}
+OwlIrreflexiveProperty {
+
+}
+OwlNamedIndividual {
+
+}
+OwlNegativePropertyAssertion {
+
+}
+OwlNothing {
+
+}
+OwlObjectProperty {
+
+}
+OwlOntology {
+
+}
+OwlOntologyProperty {
+
+}
+OwlReflexiveProperty {
+
+}
+OwlRestriction {
+
+}
+OwlSymmetricProperty {
+
+}
+OwlThing {
+
+}
+OwlTransitiveProperty {
+
+}
 RdfAlt {
 
 }
@@ -18,9 +128,8 @@ RdfCompoundLiteral {
 
 }
 RdfList {
-    string rdfs_comment  
-    owl_Ontology rdfs_isDefinedBy  
     string rdfs_label  
+    string rdfs_comment  
 }
 RdfProperty {
 
@@ -41,7 +150,9 @@ RdfsContainerMembershipProperty {
 
 }
 RdfsDatatype {
-
+    uri rdfs_seeAlso  
+    string rdfs_label  
+    string rdfs_comment  
 }
 RdfsLiteral {
 
@@ -49,854 +160,6824 @@ RdfsLiteral {
 RdfsResource {
 
 }
+FoafGroup {
+
+}
+FoafImage {
+
+}
+FoafLabelProperty {
+
+}
+FoafOnlineAccount {
+
+}
+FoafOnlineChatAccount {
+
+}
+FoafOnlineEcommerceAccount {
+
+}
+FoafOnlineGamingAccount {
+
+}
+FoafOrganization {
+
+}
+FoafPerson {
+
+}
+FoafPersonalProfileDocument {
+
+}
+FoafProject {
+
+}
+DcamVocabularyEncodingScheme {
+    date dct_issued  
+    string rdfs_label  
+    string rdfs_comment  
+    uri rdfs_seeAlso  
+}
+DcmitypeCollection {
+
+}
+DcmitypeDataset {
+
+}
+DcmitypeEvent {
+
+}
+DcmitypeImage {
+
+}
+DcmitypeInteractiveResource {
+
+}
+DcmitypeMovingImage {
+
+}
+DcmitypePhysicalObject {
+
+}
+DcmitypeService {
+
+}
+DcmitypeSoftware {
+
+}
+DcmitypeSound {
+
+}
+DcmitypeStillImage {
+
+}
+DcmitypeText {
+
+}
+DctAgent {
+
+}
+DctAgentClass {
+    string rdfs_label  
+    string rdfs_comment  
+    date dct_issued  
+}
+DctBibliographicResource {
+
+}
+DctFileFormat {
+
+}
+DctFrequency {
+
+}
+DctJurisdiction {
+
+}
+DctLicenseDocument {
+
+}
+DctLinguisticSystem {
+
+}
+DctLocation {
+
+}
+DctLocationPeriodOrJurisdiction {
+
+}
+DctMediaType {
+
+}
+DctMediaTypeOrExtent {
+
+}
+DctMethodOfAccrual {
+
+}
+DctMethodOfInstruction {
+
+}
+DctPeriodOfTime {
+
+}
+DctPhysicalMedium {
+
+}
+DctPhysicalResource {
+
+}
+DctPolicy {
+
+}
+DctProvenanceStatement {
+
+}
+DctRightsStatement {
+
+}
+DctSizeOrDuration {
+
+}
+DctStandard {
+
+}
+TimeDateTimeDescription {
+
+}
+TimeDateTimeInterval {
+
+}
+TimeDayOfWeek {
+    string rdfs_label  
+}
+TimeDuration {
+
+}
+TimeDurationDescription {
+
+}
+TimeGeneralDateTimeDescription {
+
+}
+TimeGeneralDurationDescription {
+
+}
+TimeInstant {
+
+}
+TimeInterval {
+
+}
+TimeJanuary {
+
+}
+TimeMonthOfYear {
+
+}
+TimeProperInterval {
+
+}
+TimeTRS {
+
+}
+TimeTemporalDuration {
+
+}
+TimeTemporalEntity {
+
+}
+TimeTemporalPosition {
+
+}
+TimeTemporalUnit {
+    decimal time_weeks  
+    decimal time_months  
+    decimal time_hours  
+    decimal time_years  
+    string rdfs_label  
+    decimal time_days  
+    decimal time_seconds  
+    decimal time_minutes  
+}
+TimeTimePosition {
+
+}
+TimeTimeZone {
+
+}
+TimeYear {
+
+}
+XsdDateTimeStamp {
+
+}
+XsdDuration {
+
+}
+XsdGYear {
+
+}
+XsdGYearMonth {
+
+}
+WgsPoint {
+
+}
+WgsSpatialThing {
+
+}
+EventEvent {
+
+}
+EventFactor {
+
+}
+EventProduct {
+
+}
+BiboAcademicArticle {
+
+}
+BiboArticle {
+
+}
+BiboAudioDocument {
+
+}
+BiboAudioVisualDocument {
+
+}
+BiboBill {
+
+}
+BiboBook {
+
+}
+BiboBookSection {
+
+}
+BiboBrief {
+
+}
+BiboChapter {
+
+}
+BiboCode {
+
+}
+BiboCollectedDocument {
+
+}
+BiboCollection {
+
+}
+BiboConference {
+
+}
+BiboCourtReporter {
+
+}
+BiboDocument {
+
+}
+BiboDocumentPart {
+
+}
+BiboDocumentStatus {
+    string rdfs_label  
+    string rdfs_comment  
+}
+BiboEditedBook {
+
+}
+BiboEmail {
+
+}
+BiboEvent {
+
+}
+BiboExcerpt {
+
+}
+BiboFilm {
+
+}
+BiboHearing {
+
+}
+BiboImage {
+
+}
+BiboInterview {
+
+}
+BiboIssue {
+
+}
+BiboJournal {
+
+}
+BiboLegalCaseDocument {
+
+}
+BiboLegalDecision {
+
+}
+BiboLegalDocument {
+
+}
+BiboLegislation {
+
+}
+BiboLetter {
+
+}
+BiboMagazine {
+
+}
+BiboManual {
+
+}
+BiboManuscript {
+
+}
+BiboMap {
+
+}
+BiboMultiVolumeBook {
+
+}
+BiboNewspaper {
+
+}
+BiboNote {
+
+}
+BiboPatent {
+
+}
+BiboPerformance {
+
+}
+BiboPeriodical {
+
+}
+BiboPersonalCommunication {
+
+}
+BiboPersonalCommunicationDocument {
+
+}
+BiboProceedings {
+
+}
+BiboQuote {
+
+}
+BiboReferenceSource {
+
+}
+BiboReport {
+
+}
+BiboSeries {
+
+}
+BiboSlide {
+
+}
+BiboSlideshow {
+
+}
+BiboStandard {
+
+}
+BiboStatute {
+
+}
+BiboThesis {
+
+}
+BiboThesisDegree {
+    string rdfs_label  
+    string rdfs_comment  
+}
+BiboWebpage {
+
+}
+BiboWebsite {
+
+}
+BiboWorkshop {
+
+}
+QudtAbstractQuantityKind {
+
+}
+QudtAngleUnit {
+    string rdfs_label  
+    uri qudt_hasDimensionVector  
+    uri qudt_hasQuantityKind  
+    uri qudt_dbpediaMatch  
+    string qudt_iec61360Code  
+    decimal qudt_conversionMultiplierSN  
+    double qudt_conversionMultiplierSN  
+    string dct_description  
+    string qudt_symbol  
+    string qudt_udunitsCode  
+    uri qudt_informativeReference  
+    uri qudt_applicableSystem  
+    decimal qudt_conversionMultiplier  
+    string qudt_uneceCommonCode  
+    uri qudt_omUnit  
+    uri rdfs_seeAlso  
+    uri qudt_isoNormativeReference  
+    string vaem_todo  
+    qudt_LatexString qudt_latexDefinition  
+    uri qudt_siExactMatch  
+    qudt_LatexString qudt_expression  
+    string qudt_expression  
+    string qudt_plainTextDescription  
+    double qudt_conversionOffsetSN  
+    string rdfs_comment  
+    qudt_UCUMcs qudt_ucumCode  
+    string qudt_ucumCode  
+    uri qudt_derivedUnitOfSystem  
+    uri qudt_qkdvNumerator  
+    string qudt_siUnitsExpression  
+    uri qudt_definedUnitOfSystem  
+    decimal qudt_factorUnitScalar  
+    uri qudt_derivedCoherentUnitOfSystem  
+    decimal qudt_conversionOffset  
+    uri qudt_qkdvDenominator  
+    qudt_LatexString qudt_latexSymbol  
+    string qudt_altSymbol  
+    boolean qudt_deprecated  
+}
+QudtAspect {
+
+}
+QudtAspectClass {
+    string rdfs_comment  
+    string rdfs_label  
+}
+QudtBaseDimensionMagnitude {
+
+}
+QudtBinaryPrefix {
+    string rdfs_label  
+    string dct_description  
+    decimal qudt_prefixMultiplier  
+    string qudt_symbol  
+    double qudt_prefixMultiplierSN  
+    qudt_UCUMcs qudt_ucumCode  
+    string qudt_ucumCode  
+}
+QudtBitEncodingType {
+    string rdfs_label  
+    integer qudt_bits  
+}
+QudtBooleanEncodingType {
+    string rdfs_label  
+    integer qudt_bits  
+    integer qudt_bytes  
+}
+QudtByteEncodingType {
+    integer qudt_bytes  
+    string rdfs_label  
+}
+QudtCardinalityType {
+    string rdfs_label  
+    string dtype_literal  
+    string dct_description  
+    uri qudt_informativeReference  
+}
+QudtCharEncodingType {
+    integer qudt_bytes  
+    string rdfs_label  
+}
+QudtCitation {
+
+}
+QudtComment {
+
+}
+QudtConcept {
+
+}
+QudtConstantValue {
+
+}
+QudtContextualUnit {
+    uri qudt_dbpediaMatch  
+    qudt_LatexString qudt_expression  
+    string qudt_expression  
+    uri qudt_hasQuantityKind  
+    string qudt_iec61360Code  
+    string qudt_plainTextDescription  
+    string qudt_udunitsCode  
+    uri qudt_applicableSystem  
+    qudt_UCUMcs qudt_ucumCode  
+    string qudt_ucumCode  
+    decimal qudt_conversionMultiplier  
+    uri qudt_informativeReference  
+    string qudt_uneceCommonCode  
+    string rdfs_label  
+    uri qudt_hasDimensionVector  
+    decimal qudt_conversionMultiplierSN  
+    double qudt_conversionMultiplierSN  
+    string dct_description  
+    string qudt_symbol  
+    string qudt_altSymbol  
+    boolean qudt_deprecated  
+    uri qudt_omUnit  
+    uri rdfs_seeAlso  
+    uri qudt_isoNormativeReference  
+    string vaem_todo  
+    qudt_LatexString qudt_latexDefinition  
+    uri qudt_siExactMatch  
+    double qudt_conversionOffsetSN  
+    string rdfs_comment  
+    uri qudt_derivedUnitOfSystem  
+    uri qudt_qkdvNumerator  
+    string qudt_siUnitsExpression  
+    uri qudt_definedUnitOfSystem  
+    decimal qudt_factorUnitScalar  
+    uri qudt_derivedCoherentUnitOfSystem  
+    decimal qudt_conversionOffset  
+    uri qudt_qkdvDenominator  
+    qudt_LatexString qudt_latexSymbol  
+}
+QudtCountingUnit {
+    uri qudt_omUnit  
+    uri qudt_dbpediaMatch  
+    uri qudt_hasQuantityKind  
+    string qudt_iec61360Code  
+    string qudt_plainTextDescription  
+    double qudt_conversionOffsetSN  
+    uri qudt_applicableSystem  
+    qudt_UCUMcs qudt_ucumCode  
+    string qudt_ucumCode  
+    decimal qudt_conversionMultiplier  
+    decimal qudt_factorUnitScalar  
+    uri qudt_informativeReference  
+    string qudt_uneceCommonCode  
+    string rdfs_label  
+    uri qudt_hasDimensionVector  
+    decimal qudt_conversionMultiplierSN  
+    double qudt_conversionMultiplierSN  
+    decimal qudt_conversionOffset  
+    string dct_description  
+    string qudt_symbol  
+    string qudt_udunitsCode  
+    uri rdfs_seeAlso  
+    uri qudt_isoNormativeReference  
+    string vaem_todo  
+    qudt_LatexString qudt_latexDefinition  
+    uri qudt_siExactMatch  
+    qudt_LatexString qudt_expression  
+    string qudt_expression  
+    string rdfs_comment  
+    uri qudt_derivedUnitOfSystem  
+    uri qudt_qkdvNumerator  
+    string qudt_siUnitsExpression  
+    uri qudt_definedUnitOfSystem  
+    uri qudt_derivedCoherentUnitOfSystem  
+    uri qudt_qkdvDenominator  
+    qudt_LatexString qudt_latexSymbol  
+    string qudt_altSymbol  
+    boolean qudt_deprecated  
+}
+QudtCurrencyUnit {
+    qudt_LatexString qudt_expression  
+    string qudt_expression  
+    string rdfs_label  
+    uri qudt_omUnit  
+    integer qudt_currencyExponent  
+    uri qudt_hasDimensionVector  
+    uri qudt_hasQuantityKind  
+    string qudt_currencyNumber  
+    uri qudt_dbpediaMatch  
+    string qudt_currencyCode  
+    qudt_UCUMcs qudt_ucumCode  
+    string qudt_ucumCode  
+    decimal qudt_conversionMultiplierSN  
+    double qudt_conversionMultiplierSN  
+    string qudt_symbol  
+    string qudt_altSymbol  
+    uri qudt_informativeReference  
+    decimal qudt_conversionMultiplier  
+    string qudt_iec61360Code  
+    string dct_description  
+    string qudt_udunitsCode  
+    uri qudt_applicableSystem  
+    string qudt_uneceCommonCode  
+    uri rdfs_seeAlso  
+    uri qudt_isoNormativeReference  
+    string vaem_todo  
+    qudt_LatexString qudt_latexDefinition  
+    uri qudt_siExactMatch  
+    string qudt_plainTextDescription  
+    double qudt_conversionOffsetSN  
+    string rdfs_comment  
+    uri qudt_derivedUnitOfSystem  
+    uri qudt_qkdvNumerator  
+    string qudt_siUnitsExpression  
+    uri qudt_definedUnitOfSystem  
+    decimal qudt_factorUnitScalar  
+    uri qudt_derivedCoherentUnitOfSystem  
+    decimal qudt_conversionOffset  
+    uri qudt_qkdvDenominator  
+    qudt_LatexString qudt_latexSymbol  
+    boolean qudt_deprecated  
+}
+QudtDataEncoding {
+
+}
+QudtDataItem {
+
+}
+QudtDatatype {
+
+}
+QudtDateTimeStringEncodingType {
+    string rdfs_label  
+    string qudt_allowedPattern  
+}
+QudtDecimalPrefix {
+    string rdfs_label  
+    uri qudt_dbpediaMatch  
+    string dct_description  
+    decimal qudt_prefixMultiplier  
+    double qudt_prefixMultiplierSN  
+    uri qudt_siExactMatch  
+    string qudt_symbol  
+    uri qudt_informativeReference  
+    qudt_UCUMcs qudt_ucumCode  
+    string qudt_ucumCode  
+}
+QudtDerivedUnit {
+    uri qudt_omUnit  
+    uri rdfs_seeAlso  
+    uri qudt_isoNormativeReference  
+    uri qudt_dbpediaMatch  
+    qudt_LatexString qudt_latexDefinition  
+    uri qudt_siExactMatch  
+    qudt_LatexString qudt_expression  
+    string qudt_expression  
+    uri qudt_hasQuantityKind  
+    string qudt_iec61360Code  
+    string qudt_plainTextDescription  
+    double qudt_conversionOffsetSN  
+    string qudt_udunitsCode  
+    string rdfs_comment  
+    uri qudt_applicableSystem  
+    qudt_UCUMcs qudt_ucumCode  
+    string qudt_ucumCode  
+    decimal qudt_conversionMultiplier  
+    uri qudt_derivedUnitOfSystem  
+    uri qudt_qkdvNumerator  
+    string qudt_siUnitsExpression  
+    uri qudt_definedUnitOfSystem  
+    rdf_HTML qudt_guidance  
+    decimal qudt_factorUnitScalar  
+    uri qudt_informativeReference  
+    string qudt_uneceCommonCode  
+    string rdfs_label  
+    uri qudt_hasDimensionVector  
+    decimal qudt_conversionMultiplierSN  
+    double qudt_conversionMultiplierSN  
+    uri qudt_derivedCoherentUnitOfSystem  
+    decimal qudt_conversionOffset  
+    uri qudt_qkdvDenominator  
+    string dct_description  
+    string vaem_comment  
+    string qudt_symbol  
+    qudt_LatexString qudt_latexSymbol  
+    string qudt_altSymbol  
+    boolean qudt_deprecated  
+    string vaem_todo  
+}
+QudtDimensionlessUnit {
+    string rdfs_label  
+    uri qudt_hasDimensionVector  
+    uri qudt_hasQuantityKind  
+    uri qudt_dbpediaMatch  
+    string qudt_iec61360Code  
+    decimal qudt_conversionMultiplierSN  
+    double qudt_conversionMultiplierSN  
+    string dct_description  
+    string qudt_symbol  
+    string qudt_udunitsCode  
+    uri qudt_informativeReference  
+    uri qudt_applicableSystem  
+    decimal qudt_conversionMultiplier  
+    string qudt_uneceCommonCode  
+    uri qudt_omUnit  
+    uri rdfs_seeAlso  
+    uri qudt_isoNormativeReference  
+    string vaem_todo  
+    qudt_LatexString qudt_latexDefinition  
+    uri qudt_siExactMatch  
+    qudt_LatexString qudt_expression  
+    string qudt_expression  
+    string qudt_plainTextDescription  
+    double qudt_conversionOffsetSN  
+    string rdfs_comment  
+    qudt_UCUMcs qudt_ucumCode  
+    string qudt_ucumCode  
+    uri qudt_derivedUnitOfSystem  
+    uri qudt_qkdvNumerator  
+    string qudt_siUnitsExpression  
+    uri qudt_definedUnitOfSystem  
+    decimal qudt_factorUnitScalar  
+    uri qudt_derivedCoherentUnitOfSystem  
+    decimal qudt_conversionOffset  
+    uri qudt_qkdvDenominator  
+    qudt_LatexString qudt_latexSymbol  
+    string qudt_altSymbol  
+    boolean qudt_deprecated  
+}
+QudtDiscipline {
+
+}
+QudtEncoding {
+
+}
+QudtEndianType {
+    string rdfs_label  
+    string dtype_literal  
+}
+QudtEnumeratedValue {
+
+}
+QudtEnumeration {
+
+}
+QudtEnumerationScale {
+
+}
+QudtFigure {
+
+}
+QudtFloatingPointEncodingType {
+    integer qudt_bytes  
+    string rdfs_label  
+}
+QudtIntegerEncodingType {
+    integer qudt_bytes  
+    string rdfs_label  
+}
+QudtIntervalScale {
+
+}
+QudtLogarithmicUnit {
+    string rdfs_label  
+    uri qudt_hasDimensionVector  
+    uri qudt_hasQuantityKind  
+    uri qudt_dbpediaMatch  
+    string qudt_iec61360Code  
+    qudt_UCUMcs qudt_ucumCode  
+    string qudt_ucumCode  
+    decimal qudt_conversionMultiplierSN  
+    double qudt_conversionMultiplierSN  
+    string dct_description  
+    uri qudt_siExactMatch  
+    string qudt_symbol  
+    uri qudt_informativeReference  
+    uri qudt_applicableSystem  
+    decimal qudt_conversionMultiplier  
+    string qudt_uneceCommonCode  
+    string qudt_udunitsCode  
+    uri qudt_omUnit  
+    uri rdfs_seeAlso  
+    uri qudt_isoNormativeReference  
+    string vaem_todo  
+    qudt_LatexString qudt_latexDefinition  
+    qudt_LatexString qudt_expression  
+    string qudt_expression  
+    string qudt_plainTextDescription  
+    double qudt_conversionOffsetSN  
+    string rdfs_comment  
+    uri qudt_derivedUnitOfSystem  
+    uri qudt_qkdvNumerator  
+    string qudt_siUnitsExpression  
+    uri qudt_definedUnitOfSystem  
+    decimal qudt_factorUnitScalar  
+    uri qudt_derivedCoherentUnitOfSystem  
+    decimal qudt_conversionOffset  
+    uri qudt_qkdvDenominator  
+    qudt_LatexString qudt_latexSymbol  
+    string qudt_altSymbol  
+    boolean qudt_deprecated  
+}
+QudtMathsFunctionType {
+
+}
+QudtNISTSP811Comment {
+
+}
+QudtNominalScale {
+
+}
+QudtOrderedType {
+    string rdfs_label  
+    string dtype_literal  
+    string qudt_plainTextDescription  
+}
+QudtOrdinalScale {
+
+}
+QudtOrganization {
+
+}
+QudtPhysicalConstant {
+
+}
+QudtPlaneAngleUnit {
+    string rdfs_label  
+    uri qudt_hasDimensionVector  
+    uri qudt_hasQuantityKind  
+    uri qudt_dbpediaMatch  
+    string qudt_iec61360Code  
+    decimal qudt_conversionMultiplierSN  
+    double qudt_conversionMultiplierSN  
+    string dct_description  
+    string qudt_symbol  
+    string qudt_udunitsCode  
+    uri qudt_informativeReference  
+    uri qudt_applicableSystem  
+    decimal qudt_conversionMultiplier  
+    string qudt_uneceCommonCode  
+    uri qudt_omUnit  
+    uri rdfs_seeAlso  
+    uri qudt_isoNormativeReference  
+    string vaem_todo  
+    qudt_LatexString qudt_latexDefinition  
+    uri qudt_siExactMatch  
+    qudt_LatexString qudt_expression  
+    string qudt_expression  
+    string qudt_plainTextDescription  
+    double qudt_conversionOffsetSN  
+    string rdfs_comment  
+    qudt_UCUMcs qudt_ucumCode  
+    string qudt_ucumCode  
+    uri qudt_derivedUnitOfSystem  
+    uri qudt_qkdvNumerator  
+    string qudt_siUnitsExpression  
+    uri qudt_definedUnitOfSystem  
+    decimal qudt_factorUnitScalar  
+    uri qudt_derivedCoherentUnitOfSystem  
+    decimal qudt_conversionOffset  
+    uri qudt_qkdvDenominator  
+    qudt_LatexString qudt_latexSymbol  
+    string qudt_altSymbol  
+    boolean qudt_deprecated  
+}
+QudtPrefix {
+
+}
+QudtQuantifiable {
+
+}
+QudtQuantity {
+
+}
+QudtQuantityKind {
+
+}
+QudtQuantityKindDimensionVector {
+
+}
+QudtQuantityKindDimensionVectorCGS {
+
+}
+QudtQuantityKindDimensionVectorCGS-EMU {
+
+}
+QudtQuantityKindDimensionVectorCGS-ESU {
+
+}
+QudtQuantityKindDimensionVectorCGS-GAUSS {
+
+}
+QudtQuantityKindDimensionVectorCGS-LH {
+
+}
+QudtQuantityKindDimensionVectorISO {
+
+}
+QudtQuantityKindDimensionVectorImperial {
+
+}
+QudtQuantityKindDimensionVectorSI {
+
+}
+QudtQuantityType {
+
+}
+QudtQuantityValue {
+
+}
+QudtRatioScale {
+
+}
+QudtRule {
+
+}
+QudtRuleType {
+
+}
+QudtScalarDatatype {
+
+}
+QudtScale {
+
+}
+QudtScaleType {
+
+}
+QudtSignednessType {
+    string rdfs_label  
+    string dtype_literal  
+}
+QudtSolidAngleUnit {
+    string rdfs_label  
+    uri qudt_hasDimensionVector  
+    uri qudt_hasQuantityKind  
+    uri qudt_dbpediaMatch  
+    string qudt_iec61360Code  
+    decimal qudt_conversionMultiplierSN  
+    double qudt_conversionMultiplierSN  
+    string dct_description  
+    string qudt_symbol  
+    string qudt_udunitsCode  
+    uri qudt_informativeReference  
+    uri qudt_applicableSystem  
+    decimal qudt_conversionMultiplier  
+    string qudt_uneceCommonCode  
+    uri qudt_omUnit  
+    uri rdfs_seeAlso  
+    uri qudt_isoNormativeReference  
+    string vaem_todo  
+    qudt_LatexString qudt_latexDefinition  
+    uri qudt_siExactMatch  
+    qudt_LatexString qudt_expression  
+    string qudt_expression  
+    string qudt_plainTextDescription  
+    double qudt_conversionOffsetSN  
+    string rdfs_comment  
+    qudt_UCUMcs qudt_ucumCode  
+    string qudt_ucumCode  
+    uri qudt_derivedUnitOfSystem  
+    uri qudt_qkdvNumerator  
+    string qudt_siUnitsExpression  
+    uri qudt_definedUnitOfSystem  
+    decimal qudt_factorUnitScalar  
+    uri qudt_derivedCoherentUnitOfSystem  
+    decimal qudt_conversionOffset  
+    uri qudt_qkdvDenominator  
+    qudt_LatexString qudt_latexSymbol  
+    string qudt_altSymbol  
+    boolean qudt_deprecated  
+}
+QudtStatement {
+
+}
+QudtStringEncodingType {
+
+}
+QudtSymbol {
+
+}
+QudtSystemOfQuantityKinds {
+
+}
+QudtSystemOfUnits {
+
+}
+QudtTransformType {
+
+}
+QudtUnit {
+    uri qudt_omUnit  
+    uri rdfs_seeAlso  
+    uri qudt_isoNormativeReference  
+    string vaem_todo  
+    uri qudt_dbpediaMatch  
+    qudt_LatexString qudt_latexDefinition  
+    uri qudt_siExactMatch  
+    qudt_LatexString qudt_expression  
+    string qudt_expression  
+    uri qudt_hasQuantityKind  
+    string qudt_iec61360Code  
+    string qudt_plainTextDescription  
+    double qudt_conversionOffsetSN  
+    string qudt_udunitsCode  
+    string rdfs_comment  
+    uri qudt_applicableSystem  
+    qudt_UCUMcs qudt_ucumCode  
+    string qudt_ucumCode  
+    decimal qudt_conversionMultiplier  
+    uri qudt_derivedUnitOfSystem  
+    uri qudt_qkdvNumerator  
+    string qudt_siUnitsExpression  
+    uri qudt_definedUnitOfSystem  
+    decimal qudt_factorUnitScalar  
+    uri qudt_informativeReference  
+    string qudt_uneceCommonCode  
+    string rdfs_label  
+    uri qudt_hasDimensionVector  
+    decimal qudt_conversionMultiplierSN  
+    double qudt_conversionMultiplierSN  
+    uri qudt_derivedCoherentUnitOfSystem  
+    decimal qudt_conversionOffset  
+    uri qudt_qkdvDenominator  
+    string dct_description  
+    string qudt_symbol  
+    qudt_LatexString qudt_latexSymbol  
+    string qudt_altSymbol  
+    boolean qudt_deprecated  
+}
+QudtUserQuantityKind {
+
+}
+QudtVerifiable {
+
+}
+XsdString {
+
+}
+GeoFeature {
+
+}
+GeoFeatureCollection {
+
+}
 GeoGeometry {
-    geo_wktLiteral geo_asWKT  
-}
-HttpWww.opengis.netOntGeosparqlFeature {
 
 }
-KwgrS2CellLevel13 {
+GeoGeometryCollection {
 
 }
-SockgAmendment {
-    double sockg_amendmentDepth_cm  
-    string sockg_type  
-    float sockg_irrigationNitrogen_mg_per_L  
-    double sockg_irrigationNitrogen_mg_per_L  
-    string sockg_crop  
-    string sockg_startDate  
-    date sockg_startDate  
-    string sockg_amendmentPlacement  
-    float sockg_irrigationAmount_cm  
-    double sockg_irrigationAmount_cm  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    float sockg_irrigationType  
-    string sockg_irrigationType  
-    string sockg_mgtAmendments_UID  
-    float sockg_totalNitrogenAmount_kgN_per_ha  
-    double sockg_totalNitrogenAmount_kgN_per_ha  
-    float sockg_totalPhosphorusAmount_kgP_per_ha  
-    double sockg_totalPhosphorusAmount_kgP_per_ha  
-    float sockg_totalPotassiumAmount_kgK_per_ha  
-    double sockg_totalPotassiumAmount_kgK_per_ha  
-    uri rdfs_seeAlso  
-    float sockg_totalAmendmentAmount_kg_per_ha  
-    double sockg_totalAmendmentAmount_kg_per_ha  
-}
-SockgBioMassCarbohydrate {
-    float sockg_crudeProtein_g_per_kg  
-    double sockg_crudeProtein_g_per_kg  
-    string sockg_date  
-    date sockg_date  
-    float sockg_nonFiberCarbs_g_per_kg  
-    double sockg_nonFiberCarbs_g_per_kg  
-    float sockg_glucan_g_per_kg  
-    double sockg_glucan_g_per_kg  
-    string sockg_crop  
-    string sockg_growthStage  
-    string sockg_plantFraction  
-    float sockg_xylan_g_per_kg  
-    double sockg_xylan_g_per_kg  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    float sockg_ash_g_per_kg  
-    double sockg_ash_g_per_kg  
-    float sockg_galactan_g_per_kg  
-    double sockg_galactan_g_per_kg  
-    string sockg_measBiomassCHO_UID  
-    float sockg_neutralDetFiber_g_per_kg  
-    double sockg_neutralDetFiber_g_per_kg  
-    float sockg_lignin_g_per_kg  
-    double sockg_lignin_g_per_kg  
-    uri rdfs_seeAlso  
-    double sockg_arabinan_g_per_kg  
-    float sockg_acidDetFiber_g_per_kg  
-    double sockg_acidDetFiber_g_per_kg  
-}
-SockgBioMassEnergy {
-    string sockg_date  
-    date sockg_date  
-    string sockg_crop  
-    string sockg_growthStage  
-    string sockg_measBiomassEnergy_UID  
-    string sockg_plantFraction  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    float sockg_mineralMatter_g_per_kg  
-    double sockg_mineralMatter_g_per_kg  
-    float sockg_grossCalorificValue_MJ_per_kg  
-    double sockg_grossCalorificValue_MJ_per_kg  
-    uri rdfs_seeAlso  
-}
-SockgBioMassMineral {
-    float sockg_copperConcentration_mg_per_kg  
-    double sockg_copperConcentration_mg_per_kg  
-    float sockg_sodiumConcentration_g_per_kg  
-    double sockg_sodiumConcentration_g_per_kg  
-    string sockg_crop  
-    string sockg_measBiomassMinAn_UID  
-    float sockg_carbonConcentration_g_per_kg  
-    double sockg_carbonConcentration_g_per_kg  
-    float sockg_sulfurConcentration_g_per_kg  
-    double sockg_sulfurConcentration_g_per_kg  
-    string sockg_plantFraction  
-    float sockg_magnesiumConcentration_g_per_kg  
-    double sockg_magnesiumConcentration_g_per_kg  
-    float sockg_boronConcentration_mg_per_kg  
-    double sockg_boronConcentration_mg_per_kg  
-    float sockg_aluminumConcentration_mg_per_kg  
-    double sockg_aluminumConcentration_mg_per_kg  
-    float sockg_manganeseConcentration_mg_per_kg  
-    double sockg_manganeseConcentration_mg_per_kg  
-    string sockg_growthStage  
-    float sockg_phosphorusConcentration_g_per_kg  
-    double sockg_phosphorusConcentration_g_per_kg  
-    float sockg_nitrogenConcentration_g_per_kg  
-    double sockg_nitrogenConcentration_g_per_kg  
-    float sockg_potassiumConcentration_g_per_kg  
-    double sockg_potassiumConcentration_g_per_kg  
-    float sockg_ironConcentration_mg_per_kg  
-    double sockg_ironConcentration_mg_per_kg  
-    string sockg_date  
-    date sockg_date  
-    float sockg_zincConcentration_mg_per_kg  
-    double sockg_zincConcentration_mg_per_kg  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    float sockg_calciumConcentration_g_per_kg  
-    double sockg_calciumConcentration_g_per_kg  
-    uri rdfs_seeAlso  
-}
-SockgBook {
-    string sockg_bookName  
-}
-SockgCity {
-    string sockg_cityName  
-    uri rdfs_seeAlso  
-}
-SockgCountry {
-    string sockg_countryName  
-}
-SockgCounty {
-    string sockg_countyName  
-    uri rdfs_seeAlso  
-    string sockg_countyFIPS  
-}
-SockgCropGrowthStage {
-    string sockg_mgtGrowthStages_UID  
-    string sockg_date  
-    date sockg_date  
-    string sockg_crop  
-    string sockg_growthStage  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    uri rdfs_seeAlso  
-}
-SockgDepartment {
-    string sockg_departmentName  
-}
-SockgExperiment {
-    string sockg_projectName  
-    string sockg_startDate  
-    date sockg_startDate  
-    string sockg_experimentName  
-    string sockg_endDate  
-    date sockg_endDate  
-    uri rdfs_seeAlso  
-}
-SockgExperimentalUnit {
-    string sockg_startDate  
-    date sockg_startDate  
-    string sockg_expUnit_UID  
-    string sockg_endDate  
-    date sockg_endDate  
-    string sockg_expUnitId  
-    uri rdfs_seeAlso  
-}
-SockgField {
-    string sockg_fieldId  
-    uri rdfs_seeAlso  
-}
-SockgGasNutrientLoss {
-    string sockg_date  
-    date sockg_date  
-    string sockg_samplingStartStopInterval  
-    string sockg_fieldId  
-    double sockg_ammoniaNitrogen_kg_ha  
-    string sockg_growthStage  
-    string sockg_measGasNutrientLoss_UID  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    string sockg_crop  
-    string sockg_modelIfSimulated  
-    string sockg_expUnitId  
-    uri rdfs_seeAlso  
-    float sockg_nitrousOxide_g_ha  
-    double sockg_nitrousOxide_g_ha  
-    string sockg_expUnit_UID  
-}
-SockgGasSample {
-    string sockg_crop  
-    float sockg_soilTemperatureSd_degC  
-    double sockg_soilTemperatureSd_degC  
-    float sockg_carbonDioxideSd_gC_per_ha_per_d  
-    double sockg_carbonDioxideSd_gC_per_ha_per_d  
-    string sockg_chamberPlacement  
-    float sockg_carbonDioxide_gC_per_ha_per_d  
-    double sockg_carbonDioxide_gC_per_ha_per_d  
-    float sockg_airTemperature_degC  
-    double sockg_airTemperature_degC  
-    integer sockg_isCarbonDioxideInterpolated  
-    int32 sockg_isCarbonDioxideInterpolated  
-    float sockg_methaneSd_gC_per_ha_per_d  
-    double sockg_methaneSd_gC_per_ha_per_d  
-    double sockg_soilMoisture_percent_volume  
-    time sockg_time  
-    string sockg_time  
-    integer sockg_isNitrousOxideInterpolated  
-    int32 sockg_isNitrousOxideInterpolated  
-    double sockg_airTemperatureSd_degC  
-    float sockg_soilTemperature_degC  
-    double sockg_soilTemperature_degC  
-    integer sockg_soilMoistureDepth_cm  
-    string sockg_date  
-    date sockg_date  
-    integer sockg_isMethaneInterpolated  
-    int32 sockg_isMethaneInterpolated  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    string sockg_measGHGFlux_UID  
-    float sockg_nitrousOxideSd_gN_per_ha_per_d  
-    double sockg_nitrousOxideSd_gN_per_ha_per_d  
-    float sockg_methane_gC_per_ha_per_d  
-    double sockg_methane_gC_per_ha_per_d  
-    double sockg_soilMoistureSd_percent_volume  
-    uri rdfs_seeAlso  
-    float sockg_nitrousOxide_gN_per_ha_per_d  
-    double sockg_nitrousOxide_gN_per_ha_per_d  
-}
-SockgGrazing {
-    string sockg_date  
-    date sockg_date  
-    string sockg_growthStage  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    float sockg_aboveGroundBiomassNitrogen_kgN_per_ha  
-    double sockg_aboveGroundBiomassNitrogen_kgN_per_ha  
-    double sockg_atandingDeadDry_kg_per_ha  
-    string sockg_measGrazingPlants_UID  
-    float sockg_aboveGroundBiomassCarbon_kgC_per_ha  
-    double sockg_aboveGroundBiomassCarbon_kgC_per_ha  
-    double sockg_aurfaceLitterDry_kg_per_ha  
-    float sockg_aboveGroundBiomassDry_kg_per_ha  
-    double sockg_aboveGroundBiomassDry_kg_per_ha  
-    string sockg_broadleafOrGrass  
-    float sockg_biomassNitrogenPercentage  
-    double sockg_biomassNitrogenPercentage  
-    float sockg_leafAreaIndexDry_kg_per_ha  
-    double sockg_leafAreaIndexDry_kg_per_ha  
-    uri rdfs_seeAlso  
-    string sockg_speciesMix  
-}
-SockgGrazingManagementEvent {
-    string sockg_mgtGrazing_UID  
-    string sockg_animalClass  
-    string sockg_startDate  
-    date sockg_startDate  
-    string sockg_otherEvents  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    float sockg_stockingRate_number_animals_per_ha  
-    double sockg_stockingRate_number_animals_per_ha  
-    string sockg_endDate  
-    date sockg_endDate  
-    string sockg_animalSpecies  
-    uri rdfs_seeAlso  
-}
-SockgHarvest {
-    string sockg_measResidueMgnt_UID  
-    string sockg_crop  
-    float sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha  
-    double sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha  
-    double sockg_grainCarbonSd_kgC_per_ha  
-    float sockg_grainNitrogenSd_kgN_per_ha  
-    double sockg_grainNitrogenSd_kgN_per_ha  
-    float sockg_nonHarvestedResidueMoisturePercent  
-    double sockg_nonHarvestedResidueMoisturePercent  
-    float sockg_nonHarvestedResidueMass_kg_per_ha  
-    double sockg_nonHarvestedResidueMass_kg_per_ha  
-    float sockg_unitGrainWeight_mg  
-    double sockg_unitGrainWeight_mg  
-    float sockg_driedHarvestedResidue_kg_per_ha  
-    double sockg_driedHarvestedResidue_kg_per_ha  
-    float sockg_grainNitrogen_kgN_per_ha  
-    double sockg_grainNitrogen_kgN_per_ha  
-    double sockg_grainMoisturePercentStd  
-    double sockg_harvestedResidueNitrogen_kgN_per_ha  
-    float sockg_aboveGroundBiomassSd_kg_per_ha  
-    double sockg_aboveGroundBiomassSd_kg_per_ha  
-    double sockg_harvestedResidueNitrogenSd_kgN_per_ha  
-    string sockg_growthStage  
-    double sockg_harvestedResidueMoisturePercent  
-    float sockg_grainYield_kg_per_ha  
-    double sockg_grainYield_kg_per_ha  
-    string sockg_harvestedFrac  
-    string sockg_date  
-    date sockg_date  
-    double sockg_harvestedResidueCarbon_kgC_per_ha  
-    float sockg_grainYieldSd_kg_per_ha  
-    double sockg_grainYieldSd_kg_per_ha  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    float sockg_nonHarvestedResidueCarbonContent_kgC_per_ha  
-    double sockg_nonHarvestedResidueCarbonContent_kgC_per_ha  
-    float sockg_grainCarbon_kgC_per_ha  
-    double sockg_grainCarbon_kgC_per_ha  
-    float sockg_aboveGroundBiomass_kg_per_ha  
-    double sockg_aboveGroundBiomass_kg_per_ha  
-    uri rdfs_seeAlso  
-    float sockg_grainMoisturePercent  
-    double sockg_grainMoisturePercent  
-    double sockg_harvestedResidueCarbonSd_kgC_per_ha  
-}
-SockgHarvestFraction {
-    string sockg_date  
-    date sockg_date  
-    float sockg_moisturePercent  
-    double sockg_moisturePercent  
-    string sockg_crop  
-    string sockg_growthStage  
-    string sockg_plantFraction  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    string sockg_measHarvestFraction_UID  
-    float sockg_nitrogen_kgN_per_ha  
-    double sockg_nitrogen_kgN_per_ha  
-    float sockg_carbon_kgC_per_ha  
-    double sockg_carbon_kgC_per_ha  
-    uri rdfs_seeAlso  
-    float sockg_dryBiomass_kg_per_ha  
-    double sockg_dryBiomass_kg_per_ha  
-}
-SockgMiscellaneousMeasurement {
+GeoSpatialObject {
 
 }
-SockgNutrientEfficiency {
-    string sockg_date  
-    date sockg_date  
-    string sockg_crop  
-    string sockg_fieldId  
-    float sockg_fracNitrogen_kg_ha  
-    double sockg_fracNitrogen_kg_ha  
-    string sockg_growthStage  
-    string sockg_plantFraction  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    float sockg_nutrientEfficiencyRatio_kg_kg  
-    double sockg_nutrientEfficiencyRatio_kg_kg  
-    string sockg_measNutrEff_UID  
-    float sockg_agronomicEfficiency_kg_kg  
-    double sockg_agronomicEfficiency_kg_kg  
-    string sockg_expUnitId  
-    float sockg_nitrogenUseEfficiencyPct  
-    double sockg_nitrogenUseEfficiencyPct  
-    uri rdfs_seeAlso  
-    string sockg_expUnit_UID  
+GeoSpatialObjectCollection {
+
 }
-SockgOrganization {
-    string sockg_organizationName  
-    uri rdfs_seeAlso  
+HttpPurl.orgVocabFrbrCoreEndeavour {
+
 }
-SockgPerson {
-    string sockg_phoneNumber  
-    string sockg_email  
-    string sockg_organizationName  
-    string sockg_profession  
-    string sockg_website  
-    string sockg_middleName  
-    string sockg_note  
-    string sockg_roleInStudy  
-    string sockg_isPrimaryContact  
-    string sockg_suffix  
-    string sockg_persons_UID  
-    uri rdfs_seeAlso  
-    string sockg_lastName  
-    string sockg_firstName  
+IospressGeoCodedLocation {
+
 }
-SockgPesticide {
-    string sockg_pesticidePlacement  
-    string sockg_pesticideTarget  
-    string sockg_pesticideActiveIngredientType  
-    float sockg_totalPesticideAmount_kg_per_ha  
-    double sockg_totalPesticideAmount_kg_per_ha  
-    string sockg_pesticide_UID  
-    uri rdfs_seeAlso  
+IrdrAnimalIncident {
+
 }
-SockgPlantingEvent {
-    double sockg_plantingRate_number_seeds_per_ha  
-    string sockg_mgtPlanting_UID  
-    string sockg_crop  
-    string sockg_startDate  
-    date sockg_startDate  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    string sockg_plantingMethod  
-    float sockg_rowWidth_cm  
-    double sockg_rowWidth_cm  
-    string sockg_cultivar  
-    uri rdfs_seeAlso  
-    string sockg_expUnitId  
-    double sockg_plantingDensity_kg_per_ha  
-    float sockg_depth_cm  
-    double sockg_depth_cm  
-    int32 sockg_depth_cm  
+IrdrBiological {
+
 }
-SockgProject {
-    uri rdfs_seeAlso  
-    string sockg_projectName  
+IrdrClimatological {
+
 }
-SockgPublication {
-    string sockg_description  
-    string sockg_citationType  
-    string sockg_citation  
-    string sockg_identifier  
-    string sockg_publicationDate  
-    string sockg_author  
-    uri rdfs_seeAlso  
-    string sockg_correspondingAuthor  
-    string sockg_title  
+IrdrConvectiveStorm {
+
 }
-SockgResearchUnit {
-    uri rdfs_seeAlso  
+IrdrDisease {
+
 }
-SockgResidueManagementEvent {
-    string sockg_date  
-    date sockg_date  
-    float sockg_rowsHarvestedPercent  
-    integer sockg_rowsHarvestedPercent  
-    string sockg_crop  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    double sockg_perennialStandAge_years  
-    int32 sockg_perennialStandAge_years  
-    string sockg_stageAtHarvest  
-    string sockg_residueCuttingHeight  
-    string sockg_equipmentType  
-    uri rdfs_seeAlso  
-    string sockg_mgtResidue_UID  
+IrdrDrought {
+
 }
-SockgRotation {
-    string sockg_rotationDescriptor  
-    uri rdfs_seeAlso  
+IrdrEarthquake {
+
 }
-SockgSite {
-    double sockg_postalCodeNumber  
-    int32 sockg_postalCodeNumber  
-    string sockg_siteSpatialDescription  
-    string sockg_siteId  
-    uri rdfs_seeAlso  
+IrdrExtraterrestrial {
+
 }
-SockgSoil {
-    uri rdfs_seeAlso  
+IrdrExtratropicalStorm {
+
 }
-SockgSoilBiologicalSample {
-    integer sockg_lowerDepth_cm  
-    double sockg_lowerDepth_cm  
-    int32 sockg_lowerDepth_cm  
-    string sockg_date  
-    date sockg_date  
-    float sockg_alkPhosphatase_mg_per_kg_per_hr  
-    double sockg_alkPhosphatase_mg_per_kg_per_hr  
-    float sockg_glucosaminidase_mg_per_kg_per_hr  
-    double sockg_glucosaminidase_mg_per_kg_per_hr  
-    string sockg_measSoilBiol_UID  
-    double sockg_soilfluoresceinDiacetateHydrol_mg_per_kg_per_hr  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    float sockg_particulateOrganicMatter_gC_per_kg  
-    double sockg_particulateOrganicMatter_gC_per_kg  
-    float sockg_nitrogenMicrobialBiomass_mgN_per_kg  
-    double sockg_nitrogenMicrobialBiomass_mgN_per_kg  
-    float sockg_acidPhosphatase_mg_per_kg_per_hr  
-    double sockg_acidPhosphatase_mg_per_kg_per_hr  
-    uri rdfs_seeAlso  
-    integer sockg_upperDepth_cm  
-    double sockg_upperDepth_cm  
-    int32 sockg_upperDepth_cm  
-    float sockg_glucosidase_mg_per_kg_per_hr  
-    double sockg_glucosidase_mg_per_kg_per_hr  
-    double sockg_carbonMicrobialBiomass_mgC_per_kg  
+IrdrExtremeTemperature {
+
 }
-SockgSoilChemicalSample {
-    float sockg_nitrateSd_mgN_per_kg  
-    double sockg_nitrateSd_mgN_per_kg  
-    string sockg_measSoilChem_UID  
-    float sockg_totalSoilCarbonSd_gC_per_kg  
-    double sockg_totalSoilCarbonSd_gC_per_kg  
-    float sockg_totalSoilCarbon_gC_per_kg  
-    double sockg_totalSoilCarbon_gC_per_kg  
-    float sockg_extractableZinc_mgZn_per_kg  
-    double sockg_extractableZinc_mgZn_per_kg  
-    float sockg_mineralCarbon_gC_per_kg  
-    double sockg_mineralCarbon_gC_per_kg  
-    float sockg_phosphorus_mgP_per_kg  
-    double sockg_phosphorus_mgP_per_kg  
-    integer sockg_upperDepth_cm  
-    double sockg_upperDepth_cm  
-    int32 sockg_upperDepth_cm  
-    float sockg_electricalConductivity_siemens_per_m  
-    double sockg_electricalConductivity_siemens_per_m  
-    float sockg_organicCarbon_gC_per_kg  
-    double sockg_organicCarbon_gC_per_kg  
-    float sockg_ammoniumSd_mgN_per_kg  
-    double sockg_ammoniumSd_mgN_per_kg  
-    float sockg_nitrate_mgN_per_kg  
-    double sockg_nitrate_mgN_per_kg  
-    integer sockg_lowerDepth_cm  
-    double sockg_lowerDepth_cm  
-    int32 sockg_lowerDepth_cm  
-    float sockg_extractableIron_mgFe_per_kg  
-    double sockg_extractableIron_mgFe_per_kg  
-    float sockg_extractableCopper_mgCu_per_kg  
-    double sockg_extractableCopper_mgCu_per_kg  
-    float sockg_potassium_mgK_per_kg  
-    double sockg_potassium_mgK_per_kg  
-    string sockg_potassium_mgK_per_kg  
-    float sockg_inorganicCarbon_gC_per_kg  
-    double sockg_inorganicCarbon_gC_per_kg  
-    float sockg_ph  
-    double sockg_ph  
-    float sockg_totalSoilNitrogenSd_gN_per_kg  
-    double sockg_totalSoilNitrogenSd_gN_per_kg  
-    string sockg_date  
-    date sockg_date  
-    float sockg_extractableCalcium_mgCa_per_kg  
-    double sockg_extractableCalcium_mgCa_per_kg  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    float sockg_ammonium_mgN_per_kg  
-    double sockg_ammonium_mgN_per_kg  
-    float sockg_extractableManganese_mgMN_per_kg  
-    double sockg_extractableManganese_mgMN_per_kg  
-    uri rdfs_seeAlso  
-    float sockg_cationExchangeCapacity_cmol_per_kg  
-    double sockg_cationExchangeCapacity_cmol_per_kg  
-    float sockg_extractableMagnesium_mgMg_per_kg  
-    double sockg_extractableMagnesium_mgMg_per_kg  
-    float sockg_totalSoilNitrogen_gN_per_kg  
-    double sockg_totalSoilNitrogen_gN_per_kg  
+IrdrFlood {
+
 }
-SockgSoilCover {
-    string sockg_date  
-    date sockg_date  
-    uri rdfs_seeAlso  
-    string sockg_soilCoverTimingDescriptor  
-    string sockg_measSoilCover_UID  
+IrdrFog {
+
 }
-SockgSoilPhysicalSample {
-    float sockg_saturatedHydraulicConductivity_cm_per_sec  
-    double sockg_saturatedHydraulicConductivity_cm_per_sec  
-    integer sockg_lowerDepth_cm  
-    double sockg_lowerDepth_cm  
-    int32 sockg_lowerDepth_cm  
-    string sockg_date  
-    date sockg_date  
-    string sockg_measSoilPhys_UID  
-    float sockg_clayPercent  
-    double sockg_clayPercent  
-    float sockg_sandPercent  
-    double sockg_sandPercent  
-    float sockg_siltPercent  
-    double sockg_siltPercent  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    float sockg_bulkDensitySd_g_per_cm_cubed  
-    double sockg_bulkDensitySd_g_per_cm_cubed  
-    float sockg_wiltingPoint_percent_volume  
-    double sockg_wiltingPoint_percent_volume  
-    float sockg_saturatedHydraulicConductivitySd_cm_per_sec  
-    double sockg_saturatedHydraulicConductivitySd_cm_per_sec  
-    double sockg_fieldCapacitySd_percent_volume  
-    float sockg_waterStableAggregatePercent  
-    double sockg_waterStableAggregatePercent  
-    float sockg_bulkDensity_g_per_cm_cubed  
-    double sockg_bulkDensity_g_per_cm_cubed  
-    integer sockg_upperDepth_cm  
-    double sockg_upperDepth_cm  
-    int32 sockg_upperDepth_cm  
-    uri rdfs_seeAlso  
-    double sockg_fieldCapacity_percent_volume  
+IrdrGeophysical {
+
 }
-SockgState {
-    string sockg_stateProvince  
-    uri rdfs_seeAlso  
-    string sockg_stateFIPS  
+IrdrGlacialLakeOutburst {
+
 }
-SockgTillage {
-    string sockg_mgtTillage_UID  
-    string sockg_startDate  
-    date sockg_startDate  
-    string sockg_tillageEventMethod  
-    double sockg_tillageEventDepth_cm  
-    string sockg_tillageEvent  
-    uri rdfs_seeAlso  
+IrdrHydrological {
+
 }
-SockgTreatment {
-    string sockg_irrigation  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    string sockg_treatmentDescriptor  
-    string sockg_residueRemoval  
-    string sockg_nitrogenTreatmentDescriptor  
-    string sockg_fertilizerAmendmentClass  
-    string sockg_coverCrop  
-    string sockg_tileDrainage  
-    string sockg_projectScenario  
-    string sockg_tillageDescriptor  
-    string sockg_organicManagement  
-    uri rdfs_seeAlso  
-    string sockg_grazingRate  
+IrdrImpact {
+
 }
-SockgVersion {
-    string sockg_versionDate  
+IrdrInsectInfestation {
+
 }
-SockgWaterQualityArea {
-    string sockg_date  
-    date sockg_date  
-    double sockg_ammoniumNitroge_kg_ha  
-    float sockg_totalNitrogen_kg_ha  
-    double sockg_totalNitrogen_kg_ha  
-    float sockg_totalDissolvedPhosphorus_kgP_ha  
-    double sockg_totalDissolvedPhosphorus_kgP_ha  
-    string sockg_fieldId  
-    string sockg_surfaceOrLeaching  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    float sockg_lossesOrDeposition  
-    string sockg_lossesOrDeposition  
-    float sockg_erosionTotalSolids_t_ha  
-    double sockg_erosionTotalSolids_t_ha  
-    float sockg_nitrateNitrogen_kg_ha  
-    double sockg_nitrateNitrogen_kg_ha  
-    double sockg_totalPhosphoru_kg_ha  
-    string sockg_expUnitId  
-    float sockg_water_mm  
-    double sockg_water_mm  
-    uri rdfs_seeAlso  
-    string sockg_expUnit_UID  
-    string sockg_measWaterQualityArea_UID  
+IrdrLandslide {
+
 }
-SockgWaterQualityConc {
-    double sockg_nitrate_mg_l  
-    string sockg_crop  
-    double sockg_totalPhosphorus_mg_l  
-    double sockg_InorganicNitrogen_mg_l  
-    double sockg_totalDissolvedPhosphorus_mgP_l  
-    string sockg_surfaceOrLeaching  
-    float sockg_samplingDepth_cm  
-    integer sockg_samplingDepth_cm  
-    string sockg_expUnit_UID  
-    double sockg_totalNitrogen_mg_l  
-    string sockg_samplingStartStopInterval  
-    string sockg_growthStage  
-    string sockg_modelIfSimulated  
-    float sockg_water_mm  
-    double sockg_water_mm  
-    string sockg_date  
-    date sockg_date  
-    string sockg_measWaterQualityConc_UID  
-    string sockg_fieldId  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    string sockg_expUnitId  
-    uri rdfs_seeAlso  
+IrdrMassMovement {
+
 }
-SockgWeatherObservation {
-    float sockg_windSpeed_m_per_s  
-    double sockg_windSpeed_m_per_s  
-    float sockg_precipitation_mm_per_d  
-    double sockg_precipitation_mm_per_d  
-    float sockg_tempMin_degC  
-    double sockg_tempMin_degC  
-    float sockg_soilTemp5cm_degC  
-    double sockg_soilTemp5cm_degC  
-    double sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d  
-    float sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d  
-    double sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d  
-    float sockg_soilTemp10cm_degC  
-    double sockg_soilTemp10cm_degC  
-    float sockg_windDirectionDegFromNorth  
-    double sockg_windDirectionDegFromNorth  
-    float sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d  
-    double sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d  
-    string sockg_weatherDaily_UID  
-    float sockg_tempMax_degC  
-    double sockg_tempMax_degC  
-    float sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d  
-    double sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d  
-    string sockg_date  
-    date sockg_date  
-    string sockg_weatherStationId  
-    float sockg_relativeHumidityPercent  
-    double sockg_relativeHumidityPercent  
-    float sockg_openPanEvaporation_mm_per_d  
-    double sockg_openPanEvaporation_mm_per_d  
-    double sockg_weatherBadValueFlag  
-    int32 sockg_weatherBadValueFlag  
-    double sockg_dewPointDegc  
-    uri rdfs_seeAlso  
+IrdrMetereological {
+
 }
-SockgWeatherStation {
-    string sockg_date  
-    date sockg_date  
-    string sockg_weatherStationId  
-    uri rdfs_seeAlso  
+IrdrSpaceWeather {
+
 }
-SockgWindErosionArea {
-    string sockg_date  
-    date sockg_date  
-    string sockg_samplingStartStopInterval  
-    string sockg_fieldId  
-    string sockg_growthStage  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    string sockg_measWindErosionArea_UID  
-    float sockg_lossesOrDeposition  
-    string sockg_lossesOrDeposition  
-    string sockg_modelIfSimulated  
-    float sockg_soilSd_t_ha  
-    double sockg_soilSd_t_ha  
-    string sockg_expUnitId  
-    uri rdfs_seeAlso  
-    float sockg_soil_t_ha  
-    double sockg_soil_t_ha  
-    string sockg_expUnit_UID  
+IrdrTropicalCyclone {
+
 }
-SockgYieldNutrientUptake {
-    float sockg_fracCarbonSd_kgC_ha  
-    double sockg_fracCarbonSd_kgC_ha  
-    string sockg_crop  
-    string sockg_expUnitId  
-    float sockg_fracNitrogenSd_kgN_ha  
-    double sockg_fracNitrogenSd_kgN_ha  
-    float sockg_fracProductivitySd_kg_ha  
-    double sockg_fracProductivitySd_kg_ha  
-    float sockg_fracManganese_gMn_ha  
-    double sockg_fracManganese_gMn_ha  
-    float sockg_fracIron_gFe_ha  
-    double sockg_fracIron_gFe_ha  
-    string sockg_plantFraction  
-    float sockg_fracZincSd_gZn_ha  
-    double sockg_fracZincSd_gZn_ha  
-    float sockg_fracCarbon_kgC_ha  
-    double sockg_fracCarbon_kgC_ha  
-    string sockg_expUnit_UID  
-    float sockg_fracMoisturePercent  
-    double sockg_fracMoisturePercent  
-    string sockg_growthStage  
-    float sockg_fracCropProductivity_kg_ha  
-    double sockg_fracCropProductivity_kg_ha  
-    float sockg_fracZinc_gZn_ha  
-    double sockg_fracZinc_gZn_ha  
-    float sockg_fracIronSd_gFe_ha  
-    double sockg_fracIronSd_gFe_ha  
-    string sockg_date  
-    date sockg_date  
-    string sockg_fieldId  
-    float sockg_treatmentId  
-    string sockg_treatmentId  
-    date sockg_treatmentId  
-    string sockg_measYieldNutUptake_UID  
-    float sockg_fracNitrogen_kgN_ha  
-    double sockg_fracNitrogen_kgN_ha  
-    float sockg_fracManganeseSd_gMn_ha  
-    double sockg_fracManganeseSd_gMn_ha  
-    float sockg_fracCopper_gCu_ha  
-    double sockg_fracCopper_gCu_ha  
-    float sockg_fracCopperSd_gCu_ha  
-    double sockg_fracCopperSd_gCu_ha  
-    uri rdfs_seeAlso  
+IrdrVolcanicActivity {
+
+}
+IrdrWaveAction {
+
+}
+IrdrWildfire {
+
+}
+KwgoATH {
+
+}
+KwgoAdministrativeRegion {
+
+}
+KwgoAdministrativeRegion0 {
+
+}
+KwgoAdministrativeRegion1 {
+
+}
+KwgoAdministrativeRegion2 {
+
+}
+KwgoAdministrativeRegion3 {
+
+}
+KwgoAdministrativeRegion4 {
+
+}
+KwgoAdministrativeRegion5 {
+
+}
+KwgoAdministrativeRegion6 {
+
+}
+KwgoAirPollutant {
+    string rdfs_label  
+}
+KwgoAirQualityInstrument {
+
+}
+KwgoAirQualityObservation {
+
+}
+KwgoAirQualityObservationCollection {
+
+}
+KwgoAirQualitySite {
+
+}
+KwgoBlueskyModel {
+
+}
+KwgoBlueskyModeledWildfire {
+
+}
+KwgoBlueskyWildfireObservableProperty {
+    string rdfs_label  
+}
+KwgoBlueskyWildfireObservation {
+
+}
+KwgoBlueskyWildfireObservationCollection {
+
+}
+KwgoCTH {
+
+}
+KwgoCell {
+
+}
+KwgoCensusACS5YearEstimatesObservation {
+
+}
+KwgoCensusACS5YearEstimatesObservationCollection {
+
+}
+KwgoCensusObservableProperty {
+    string rdfs_comment  
+    string rdfs_label  
+}
+KwgoChiefJudge {
+
+}
+KwgoClimateDivisionObservationCollection {
+
+}
+KwgoClimateDivisionObservationResult {
+
+}
+KwgoClimateDivisionPropertyObservationCollection {
+
+}
+KwgoClimateObservableProperty {
+    string rdfs_label  
+}
+KwgoClimateObservation {
+
+}
+KwgoComplexFire {
+
+}
+KwgoCrisisCounselling {
+
+}
+KwgoCroplandObservableProperty {
+    string rdfs_label  
+}
+KwgoCroplandObservation {
+
+}
+KwgoCroplandObservationCollection {
+
+}
+KwgoCroplandResult {
+
+}
+KwgoDebrisRemoval-PA-A {
+
+}
+KwgoDeclaration {
+
+}
+KwgoDirectFederalAssistance {
+
+}
+KwgoDisaster {
+
+}
+KwgoDisasterHousing {
+
+}
+KwgoDisasterUnemploymentAssistance {
+
+}
+KwgoDoD {
+
+}
+KwgoDroughtIntensity {
+    string rdfs_label  
+}
+KwgoDroughtZone {
+
+}
+KwgoDroughtZoneOverlapObservation {
+
+}
+KwgoDroughtZoneOverlapObservationCollection {
+
+}
+KwgoEarthquake {
+
+}
+KwgoEarthquakeObservableProperty {
+
+}
+KwgoEarthquakeObservationCollection {
+
+}
+KwgoEmergencyDeclaration {
+
+}
+KwgoEventSegment {
+
+}
+KwgoExpertiseTopic {
+
+}
+KwgoFederalJudicalDistrict {
+
+}
+KwgoFieldsOfStudy {
+
+}
+KwgoFire {
+
+}
+KwgoFireCause {
+    string rdfs_label  
+}
+KwgoFireManagementAssistance-PA-I {
+
+}
+KwgoFireManagementDeclaration {
+
+}
+KwgoFireMappingAssessmentLabel {
+
+}
+KwgoFix {
+
+}
+KwgoGeometry {
+
+}
+KwgoGeometryCollection {
+
+}
+KwgoHazard {
+
+}
+KwgoHazardEpisode {
+
+}
+KwgoHazardMitigation {
+
+}
+KwgoHelipadAvailability {
+    string rdfs_label  
+}
+KwgoHospital {
+
+}
+KwgoHospitalStatus {
+    string rdfs_label  
+}
+KwgoHospitalType {
+    string rdfs_label  
+}
+KwgoHousingAssistance {
+
+}
+KwgoImpactObservableProperty {
+    string rdfs_label  
+}
+KwgoImpactObservation {
+
+}
+KwgoImpactObservationCollection {
+
+}
+KwgoIndividualAndFamilyGrant {
+
+}
+KwgoIndividualAssistance {
+
+}
+KwgoIndividualAssistance-PA-C {
+
+}
+KwgoIndividualsAndHouseholds {
+
+}
+KwgoJudegeInfo {
+
+}
+KwgoLSADArea {
+    string rdfs_comment  
+    string rdfs_label  
+}
+KwgoLevelI {
+
+}
+KwgoLevelII {
+
+}
+KwgoLevelIII {
+
+}
+KwgoLevelIIIPediatric {
+
+}
+KwgoLevelIIPediatric {
+
+}
+KwgoLevelIIRehab {
+
+}
+KwgoLevelIV {
+
+}
+KwgoLevelIPediatric {
+
+}
+KwgoLevelIPediatricRehab {
+
+}
+KwgoLevelIRehab {
+
+}
+KwgoLevelPediatric {
+
+}
+KwgoLevelV {
+
+}
+KwgoMTBSComplexFire {
+
+}
+KwgoMTBSFire {
+
+}
+KwgoMTBSFireObservableProperty {
+    string rdfs_comment  
+    string rdfs_label  
+}
+KwgoMTBSFireObservation {
+
+}
+KwgoMTBSFireObservationCollection {
+
+}
+KwgoMTBSOutOfAreaResponseFire {
+
+}
+KwgoMTBSPrescribedFire {
+
+}
+KwgoMTBSUnknownFire {
+
+}
+KwgoMTBSWildfire {
+
+}
+KwgoMTBSWildlandFireUse {
+
+}
+KwgoMagnitudeObservableProperty {
+    string rdfs_label  
+}
+KwgoMagnitudeObservation {
+
+}
+KwgoMagnitudeObservationCollection {
+
+}
+KwgoMajorDisasterDeclaration {
+
+}
+KwgoMappingProgram {
+
+}
+KwgoNIFCFire {
+
+}
+KwgoNIFCFireObservableProperty {
+    string rdfs_label  
+}
+KwgoNIFCFireObservation {
+
+}
+KwgoNIFCIncidentComplexFire {
+
+}
+KwgoNIFCPrescribedFire {
+
+}
+KwgoNIFCWildfire {
+
+}
+KwgoNOAAAstronomicalLowTide {
+
+}
+KwgoNOAAAvalanche {
+
+}
+KwgoNOAABlizzard {
+
+}
+KwgoNOAACoastalFlood {
+
+}
+KwgoNOAAColdWindChill {
+
+}
+KwgoNOAADebrisFlow {
+
+}
+KwgoNOAADenseFog {
+
+}
+KwgoNOAADenseSmoke {
+
+}
+KwgoNOAADrought {
+
+}
+KwgoNOAADustDevil {
+
+}
+KwgoNOAADustStorm {
+
+}
+KwgoNOAAExcessiveHeat {
+
+}
+KwgoNOAAExtremeColdWindChill {
+
+}
+KwgoNOAAFlashFlood {
+
+}
+KwgoNOAAFlood {
+
+}
+KwgoNOAAFreezingFog {
+
+}
+KwgoNOAAFrostFreeze {
+
+}
+KwgoNOAAFunnelCloud {
+
+}
+KwgoNOAAHail {
+
+}
+KwgoNOAAHazard {
+
+}
+KwgoNOAAHeat {
+
+}
+KwgoNOAAHeavyRain {
+
+}
+KwgoNOAAHeavySnow {
+
+}
+KwgoNOAAHighSurf {
+
+}
+KwgoNOAAHighWind {
+
+}
+KwgoNOAAHurricane {
+
+}
+KwgoNOAAIceStorm {
+
+}
+KwgoNOAALake-EffectSnow {
+
+}
+KwgoNOAALakeshoreFlood {
+
+}
+KwgoNOAALightning {
+
+}
+KwgoNOAAMarineHail {
+
+}
+KwgoNOAAMarineHighWind {
+
+}
+KwgoNOAAMarineHurricaneTyphoon {
+
+}
+KwgoNOAAMarineStrongWind {
+
+}
+KwgoNOAAMarineThunderstormWind {
+
+}
+KwgoNOAAMarineTropicalDepression {
+
+}
+KwgoNOAAMarineTropicalStorm {
+
+}
+KwgoNOAARipCurrent {
+
+}
+KwgoNOAASleet {
+
+}
+KwgoNOAASneakerwave {
+
+}
+KwgoNOAAStormSurgeTide {
+
+}
+KwgoNOAAStrongWind {
+
+}
+KwgoNOAAThunderstormWind {
+
+}
+KwgoNOAATornado {
+
+}
+KwgoNOAATropicalDepression {
+
+}
+KwgoNOAATropicalStorm {
+
+}
+KwgoNOAAWaterspout {
+
+}
+KwgoNOAAWildfire {
+
+}
+KwgoNOAAWinterStorm {
+
+}
+KwgoNOAAWinterWeather {
+
+}
+KwgoNWZone {
+
+}
+KwgoNielsenMarketZone {
+
+}
+KwgoOther {
+
+}
+KwgoOutOfAreaResponseFire {
+
+}
+KwgoPARC {
+
+}
+KwgoPrescribedFire {
+
+}
+KwgoProgram {
+
+}
+KwgoProtectiveMeasures-PA-B {
+
+}
+KwgoPublicAssistance {
+
+}
+KwgoPublicBuildings-PA-F {
+
+}
+KwgoPublicHealthObservableProperty {
+    string rdfs_label  
+}
+KwgoPublicHealthObservation {
+
+}
+KwgoPublicHealthObservationCollection {
+
+}
+KwgoPublicUtilitiesPA-G {
+
+}
+KwgoQuantity {
+
+}
+KwgoRPTC {
+
+}
+KwgoRTC {
+
+}
+KwgoRTH {
+
+}
+KwgoRecreationalOrOther-PA-H {
+
+}
+KwgoRegion {
+
+}
+KwgoRegionalCircuit {
+
+}
+KwgoRoadSegment {
+
+}
+KwgoRoadSegmentNode {
+
+}
+KwgoRoadType {
+    string rdfs_label  
+}
+KwgoRoadsAndBridges-PA-D {
+
+}
+KwgoS2Cell {
+
+}
+KwgoSmallBusinessAdministration {
+
+}
+KwgoSmokePlumeObservableProperty {
+    string rdfs_label  
+}
+KwgoSmokePlumeObservation {
+
+}
+KwgoSmokePlumeSnapshot {
+
+}
+KwgoSoilMapUnit {
+
+}
+KwgoSoilMapUnitObservableProperty {
+    string rdfs_comment  
+    string rdfs_label  
+}
+KwgoSoilMapUnitObservation {
+
+}
+KwgoSoilMapUnitObservationCollection {
+
+}
+KwgoSoilMapUnitOverlapObservation {
+
+}
+KwgoStormTrack {
+
+}
+KwgoStormTrackObservableProperty {
+    string rdfs_label  
+}
+KwgoStormTrackObservation {
+
+}
+KwgoStormTrackObservationCollection {
+
+}
+KwgoStormTracklet {
+
+}
+KwgoStormTrackletObservableProperty {
+    string rdfs_label  
+}
+KwgoStormTrackletObservation {
+
+}
+KwgoStormTrackletObservationCollection {
+
+}
+KwgoTRF {
+
+}
+KwgoTRH {
+
+}
+KwgoTornadoMagnitudeObservationCollection {
+
+}
+KwgoTraumaDescription {
+
+}
+KwgoTraumaLevelCare {
+
+}
+KwgoUSCensusMSA {
+
+}
+KwgoUSClimateDivision {
+
+}
+KwgoUSPresident {
+
+}
+KwgoVenue {
+
+}
+KwgoVulnerabilityIndexObservation {
+
+}
+KwgoVulnerabilityObservableProperty {
+    string rdfs_label  
+}
+KwgoWaterControlFacilities-PA-E {
+
+}
+KwgoWildfire {
+
+}
+KwgoWildlandFireUse {
+
+}
+KwgoWindMagnitudeObservationCollection {
+
+}
+KwgoZipCodeArea {
+
+}
+SosaEarthquakeObservation {
+
+}
+SosaFeatureOfInterest {
+
+}
+SosaObservableProperty {
+
+}
+SosaObservation {
+
+}
+SosaObservationCollection {
+
+}
+SosaPlatform {
+
+}
+SosaResult {
+
+}
+SosaSensor {
+
+}
+ProvAccept {
+
+}
+ProvActivity {
+
+}
+ProvActivityInfluence {
+
+}
+ProvAgent {
+
+}
+ProvAgentInfluence {
+
+}
+ProvAssociation {
+
+}
+ProvAttribution {
+
+}
+ProvBundle {
+
+}
+ProvCollection {
+
+}
+ProvCommunication {
+
+}
+ProvContribute {
+
+}
+ProvContributor {
+
+}
+ProvCopyright {
+
+}
+ProvCreate {
+
+}
+ProvCreator {
+
+}
+ProvDelegation {
+
+}
+ProvDerivation {
+
+}
+ProvDictionary {
+
+}
+ProvDirectQueryService {
+
+}
+ProvEmptyCollection {
+
+}
+ProvEmptyDictionary {
+
+}
+ProvEnd {
+
+}
+ProvEntity {
+
+}
+ProvEntityInfluence {
+
+}
+ProvGeneration {
+
+}
+ProvInfluence {
+
+}
+ProvInsertion {
+
+}
+ProvInstantaneousEvent {
+
+}
+ProvInvalidation {
+
+}
+ProvKeyEntityPair {
+
+}
+ProvLocation {
+
+}
+ProvModify {
+
+}
+ProvOrganization {
+
+}
+ProvPerson {
+
+}
+ProvPlan {
+
+}
+ProvPrimarySource {
+
+}
+ProvPublish {
+
+}
+ProvPublisher {
+
+}
+ProvQuotation {
+
+}
+ProvRemoval {
+
+}
+ProvReplace {
+
+}
+ProvRevision {
+
+}
+ProvRightsAssignment {
+
+}
+ProvRightsHolder {
+
+}
+ProvRole {
+
+}
+ProvServiceDescription {
+
+}
+ProvSoftwareAgent {
+
+}
+ProvStart {
+
+}
+ProvSubmit {
+
+}
+ProvUsage {
+
+}
+DtypeCodeList {
+
+}
+DtypeCompositeCodeList {
+
+}
+DtypeDerivedCodeList {
+
+}
+DtypeEnumeratedValue {
+
+}
+DtypeEnumeration {
+
+}
+DtypeSimpleCodeList {
+
+}
+DtypeValueReference {
+
+}
+XsdAnySimpleType {
+
+}
+SkosCollection {
+
+}
+SkosConcept {
+
+}
+SkosConceptScheme {
+
+}
+SkosOrderedCollection {
+
+}
+VaemAspect {
+
+}
+VaemDimension {
+
+}
+VaemDiscipline {
+
+}
+VaemDomain {
+
+}
+VaemGraphMetaData {
+    uri vaem_namespace  
+    string dct_title  
+    string vaem_withAttributionTo  
+    uri vaem_latestPublishedVersion  
+    uri vaem_usesNonImportedResource  
+    uri vaem_turtleFileURL  
+    string vaem_owner  
+    string vaem_revision  
+    uri vaem_rdfxmlFileURL  
+    string vaem_intent  
+    string vaem_namespacePrefix  
+    string rdfs_label  
+    string vaem_title  
+    string vaem_description  
+    uri vaem_previousPublishedVersion  
+    uri vaem_logo  
+    string vaem_name  
+    date dct_modified  
+}
+VaemGraphRole {
+    string rdfs_label  
+    string vaem_filePrefix  
+    string dct_description  
+}
+VaemParty {
+    string rdfs_label  
+    uri vaem_url  
+    string vaem_name  
+}
+VaemViewpoint {
+
+}
+Sdos3DModel {
+
+}
+SdosAMRadioChannel {
+
+}
+SdosAPIReference {
+
+}
+SdosAboutPage {
+
+}
+SdosAcceptAction {
+
+}
+SdosAccommodation {
+
+}
+SdosAccountingService {
+
+}
+SdosAchieveAction {
+
+}
+SdosAction {
+
+}
+SdosActionAccessSpecification {
+
+}
+SdosActionStatusType {
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosActivateAction {
+
+}
+SdosAddAction {
+
+}
+SdosAdministrativeArea {
+
+}
+SdosAdultEntertainment {
+
+}
+SdosAdultOrientedEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosAdvertiserContentArticle {
+
+}
+SdosAggregateOffer {
+
+}
+SdosAggregateRating {
+
+}
+SdosAgreeAction {
+
+}
+SdosAirline {
+
+}
+SdosAirport {
+
+}
+SdosAlignmentObject {
+
+}
+SdosAllocateAction {
+
+}
+SdosAmpStory {
+
+}
+SdosAmusementPark {
+
+}
+SdosAnalysisNewsArticle {
+
+}
+SdosAnatomicalStructure {
+
+}
+SdosAnatomicalSystem {
+
+}
+SdosAnimalShelter {
+
+}
+SdosAnswer {
+
+}
+SdosApartment {
+
+}
+SdosApartmentComplex {
+
+}
+SdosAppendAction {
+
+}
+SdosApplyAction {
+
+}
+SdosApprovedIndication {
+
+}
+SdosAquarium {
+
+}
+SdosArchiveComponent {
+
+}
+SdosArchiveOrganization {
+
+}
+SdosArriveAction {
+
+}
+SdosArtGallery {
+
+}
+SdosArtery {
+
+}
+SdosArticle {
+
+}
+SdosAskAction {
+
+}
+SdosAskPublicNewsArticle {
+
+}
+SdosAssessAction {
+
+}
+SdosAssignAction {
+
+}
+SdosAtlas {
+
+}
+SdosAttorney {
+
+}
+SdosAudience {
+
+}
+SdosAudioObject {
+
+}
+SdosAudioObjectSnapshot {
+
+}
+SdosAudiobook {
+
+}
+SdosAuthorizeAction {
+
+}
+SdosAutoBodyShop {
+
+}
+SdosAutoDealer {
+
+}
+SdosAutoPartsStore {
+
+}
+SdosAutoRental {
+
+}
+SdosAutoRepair {
+
+}
+SdosAutoWash {
+
+}
+SdosAutomatedTeller {
+
+}
+SdosAutomotiveBusiness {
+
+}
+SdosBackgroundNewsArticle {
+
+}
+SdosBakery {
+
+}
+SdosBankAccount {
+
+}
+SdosBankOrCreditUnion {
+
+}
+SdosBarOrPub {
+
+}
+SdosBarcode {
+
+}
+SdosBeach {
+
+}
+SdosBeautySalon {
+
+}
+SdosBedAndBreakfast {
+
+}
+SdosBedDetails {
+
+}
+SdosBedType {
+
+}
+SdosBefriendAction {
+
+}
+SdosBikeStore {
+
+}
+SdosBioChemEntity {
+
+}
+SdosBlog {
+
+}
+SdosBlogPosting {
+
+}
+SdosBloodTest {
+
+}
+SdosBoardingPolicyType {
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosBoatReservation {
+
+}
+SdosBoatTerminal {
+
+}
+SdosBoatTrip {
+
+}
+SdosBodyMeasurementTypeEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosBodyOfWater {
+
+}
+SdosBone {
+
+}
+SdosBook {
+
+}
+SdosBookFormatType {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_isPartOf  
+}
+SdosBookSeries {
+
+}
+SdosBookStore {
+
+}
+SdosBookmarkAction {
+
+}
+SdosBoolean {
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosBorrowAction {
+
+}
+SdosBowlingAlley {
+
+}
+SdosBrainStructure {
+
+}
+SdosBrand {
+
+}
+SdosBreadcrumbList {
+
+}
+SdosBrewery {
+
+}
+SdosBridge {
+
+}
+SdosBroadcastChannel {
+
+}
+SdosBroadcastEvent {
+
+}
+SdosBroadcastFrequencySpecification {
+
+}
+SdosBroadcastService {
+
+}
+SdosBrokerageAccount {
+
+}
+SdosBuddhistTemple {
+
+}
+SdosBusOrCoach {
+
+}
+SdosBusReservation {
+
+}
+SdosBusStation {
+
+}
+SdosBusStop {
+
+}
+SdosBusTrip {
+
+}
+SdosBusinessAudience {
+
+}
+SdosBusinessEntityType {
+
+}
+SdosBusinessEvent {
+
+}
+SdosBusinessFunction {
+
+}
+SdosBuyAction {
+
+}
+SdosCDCPMDRecord {
+
+}
+SdosCableOrSatelliteService {
+
+}
+SdosCafeOrCoffeeShop {
+
+}
+SdosCampground {
+
+}
+SdosCampingPitch {
+
+}
+SdosCanal {
+
+}
+SdosCancelAction {
+
+}
+SdosCar {
+
+}
+SdosCarUsageType {
+    uri sdos_contributor  
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_isPartOf  
+}
+SdosCasino {
+
+}
+SdosCategoryCode {
+
+}
+SdosCategoryCodeSet {
+
+}
+SdosCatholicChurch {
+
+}
+SdosCemetery {
+
+}
+SdosCertification {
+
+}
+SdosCertificationStatusEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosChapter {
+
+}
+SdosCheckAction {
+
+}
+SdosCheckInAction {
+
+}
+SdosCheckOutAction {
+
+}
+SdosCheckoutPage {
+
+}
+SdosChemicalSubstance {
+
+}
+SdosChildCare {
+
+}
+SdosChildrensEvent {
+
+}
+SdosChooseAction {
+
+}
+SdosChurch {
+
+}
+SdosCity {
+
+}
+SdosCityHall {
+
+}
+SdosCivicStructure {
+
+}
+SdosClaim {
+
+}
+SdosClaimReview {
+
+}
+SdosClass {
+
+}
+SdosClip {
+
+}
+SdosClothingStore {
+
+}
+SdosCode {
+
+}
+SdosCollection {
+
+}
+SdosCollectionPage {
+
+}
+SdosCollegeOrUniversity {
+
+}
+SdosComedyClub {
+
+}
+SdosComedyEvent {
+
+}
+SdosComicCoverArt {
+
+}
+SdosComicIssue {
+
+}
+SdosComicSeries {
+
+}
+SdosComicStory {
+
+}
+SdosComment {
+
+}
+SdosCommentAction {
+
+}
+SdosCommunicateAction {
+
+}
+SdosCompleteDataFeed {
+
+}
+SdosCompoundPriceSpecification {
+
+}
+SdosComputerLanguage {
+
+}
+SdosComputerStore {
+
+}
+SdosConfirmAction {
+
+}
+SdosConsortium {
+
+}
+SdosConstraintNode {
+
+}
+SdosConsumeAction {
+
+}
+SdosContactPage {
+
+}
+SdosContactPoint {
+
+}
+SdosContactPointOption {
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosContinent {
+
+}
+SdosControlAction {
+
+}
+SdosConvenienceStore {
+
+}
+SdosConversation {
+
+}
+SdosCookAction {
+
+}
+SdosCooperative {
+
+}
+SdosCorporation {
+
+}
+SdosCorrectionComment {
+
+}
+SdosCountry {
+
+}
+SdosCourse {
+
+}
+SdosCourseInstance {
+
+}
+SdosCourthouse {
+
+}
+SdosCoverArt {
+
+}
+SdosCovidTestingFacility {
+
+}
+SdosCreateAction {
+
+}
+SdosCreativeWork {
+
+}
+SdosCreativeWorkSeason {
+
+}
+SdosCreativeWorkSeries {
+
+}
+SdosCreditCard {
+
+}
+SdosCrematorium {
+
+}
+SdosCriticReview {
+
+}
+SdosCssSelectorType {
+
+}
+SdosCurrencyConversionService {
+
+}
+SdosDDxElement {
+
+}
+SdosDanceEvent {
+
+}
+SdosDanceGroup {
+
+}
+SdosDataCatalog {
+
+}
+SdosDataDownload {
+
+}
+SdosDataFeed {
+
+}
+SdosDataFeedItem {
+
+}
+SdosDataType {
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosDataset {
+
+}
+SdosDate {
+
+}
+SdosDateTime {
+
+}
+SdosDatedMoneySpecification {
+
+}
+SdosDayOfWeek {
+    uri sdos_contributor  
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_sameAs  
+}
+SdosDaySpa {
+
+}
+SdosDeactivateAction {
+
+}
+SdosDefenceEstablishment {
+
+}
+SdosDefinedRegion {
+
+}
+SdosDefinedTerm {
+
+}
+SdosDefinedTermSet {
+
+}
+SdosDeleteAction {
+
+}
+SdosDeliveryChargeSpecification {
+
+}
+SdosDeliveryEvent {
+
+}
+SdosDeliveryMethod {
+    uri sdos_contributor  
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosDeliveryTimeSettings {
+
+}
+SdosDemand {
+
+}
+SdosDentist {
+
+}
+SdosDepartAction {
+
+}
+SdosDepartmentStore {
+
+}
+SdosDepositAccount {
+
+}
+SdosDiagnosticLab {
+
+}
+SdosDiagnosticProcedure {
+
+}
+SdosDiet {
+
+}
+SdosDietarySupplement {
+
+}
+SdosDigitalDocument {
+
+}
+SdosDigitalDocumentPermission {
+
+}
+SdosDigitalDocumentPermissionType {
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosDigitalPlatformEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosDisagreeAction {
+
+}
+SdosDiscoverAction {
+
+}
+SdosDiscussionForumPosting {
+
+}
+SdosDislikeAction {
+
+}
+SdosDistance {
+
+}
+SdosDistillery {
+
+}
+SdosDonateAction {
+
+}
+SdosDoseSchedule {
+
+}
+SdosDownloadAction {
+
+}
+SdosDrawAction {
+
+}
+SdosDrawing {
+
+}
+SdosDrinkAction {
+
+}
+SdosDriveWheelConfigurationValue {
+    uri sdos_contributor  
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosDrug {
+
+}
+SdosDrugClass {
+
+}
+SdosDrugCost {
+
+}
+SdosDrugCostCategory {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_isPartOf  
+}
+SdosDrugLegalStatus {
+
+}
+SdosDrugPregnancyCategory {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_isPartOf  
+}
+SdosDrugPrescriptionStatus {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_isPartOf  
+}
+SdosDrugStrength {
+
+}
+SdosDryCleaningOrLaundry {
+
+}
+SdosDuration {
+
+}
+SdosEUEnergyEfficiencyEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosEatAction {
+
+}
+SdosEducationEvent {
+
+}
+SdosEducationalAudience {
+
+}
+SdosEducationalOccupationalCredential {
+
+}
+SdosEducationalOccupationalProgram {
+
+}
+SdosEducationalOrganization {
+
+}
+SdosElectrician {
+
+}
+SdosElectronicsStore {
+
+}
+SdosElementarySchool {
+
+}
+SdosEmailMessage {
+
+}
+SdosEmbassy {
+
+}
+SdosEmergencyService {
+
+}
+SdosEmployeeRole {
+
+}
+SdosEmployerAggregateRating {
+
+}
+SdosEmployerReview {
+
+}
+SdosEmploymentAgency {
+
+}
+SdosEndorseAction {
+
+}
+SdosEndorsementRating {
+
+}
+SdosEnergy {
+
+}
+SdosEnergyConsumptionDetails {
+
+}
+SdosEnergyEfficiencyEnumeration {
+
+}
+SdosEnergyStarEnergyEfficiencyEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosEngineSpecification {
+
+}
+SdosEntertainmentBusiness {
+
+}
+SdosEntryPoint {
+
+}
+SdosEnumeration {
+
+}
+SdosEpisode {
+
+}
+SdosEvent {
+
+}
+SdosEventAttendanceModeEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosEventReservation {
+
+}
+SdosEventSeries {
+
+}
+SdosEventStatusType {
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosEventVenue {
+
+}
+SdosExchangeRateSpecification {
+
+}
+SdosExerciseAction {
+
+}
+SdosExerciseGym {
+
+}
+SdosExercisePlan {
+
+}
+SdosExhibitionEvent {
+
+}
+SdosFAQPage {
+
+}
+SdosFMRadioChannel {
+
+}
+SdosFastFoodRestaurant {
+
+}
+SdosFestival {
+
+}
+SdosFilmAction {
+
+}
+SdosFinancialIncentive {
+
+}
+SdosFinancialProduct {
+
+}
+SdosFinancialService {
+
+}
+SdosFindAction {
+
+}
+SdosFireStation {
+
+}
+SdosFlight {
+
+}
+SdosFlightReservation {
+
+}
+SdosFloat {
+
+}
+SdosFloorPlan {
+
+}
+SdosFlorist {
+
+}
+SdosFollowAction {
+
+}
+SdosFoodEstablishment {
+
+}
+SdosFoodEstablishmentReservation {
+
+}
+SdosFoodEvent {
+
+}
+SdosFoodService {
+
+}
+SdosFulfillmentTypeEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosFundingAgency {
+
+}
+SdosFundingScheme {
+
+}
+SdosFurnitureStore {
+
+}
+SdosGame {
+
+}
+SdosGameAvailabilityEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosGamePlayMode {
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosGameServer {
+
+}
+SdosGameServerStatus {
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosGardenStore {
+
+}
+SdosGasStation {
+
+}
+SdosGatedResidenceCommunity {
+
+}
+SdosGenderType {
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosGene {
+
+}
+SdosGeneralContractor {
+
+}
+SdosGeoCircle {
+
+}
+SdosGeoCoordinates {
+
+}
+SdosGeoShape {
+
+}
+SdosGeospatialGeometry {
+
+}
+SdosGiveAction {
+
+}
+SdosGolfCourse {
+
+}
+SdosGovernmentBenefitsType {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosGovernmentBuilding {
+
+}
+SdosGovernmentOffice {
+
+}
+SdosGovernmentOrganization {
+
+}
+SdosGovernmentPermit {
+
+}
+SdosGovernmentService {
+
+}
+SdosGrant {
+
+}
+SdosGroceryStore {
+
+}
+SdosGuide {
+
+}
+SdosHVACBusiness {
+
+}
+SdosHackathon {
+
+}
+SdosHairSalon {
+
+}
+SdosHardwareStore {
+
+}
+SdosHealthAndBeautyBusiness {
+
+}
+SdosHealthAspectEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosHealthClub {
+
+}
+SdosHealthInsurancePlan {
+
+}
+SdosHealthPlanCostSharingSpecification {
+
+}
+SdosHealthPlanFormulary {
+
+}
+SdosHealthPlanNetwork {
+
+}
+SdosHealthTopicContent {
+
+}
+SdosHighSchool {
+
+}
+SdosHinduTemple {
+
+}
+SdosHobbyShop {
+
+}
+SdosHomeAndConstructionBusiness {
+
+}
+SdosHomeGoodsStore {
+
+}
+SdosHospital {
+
+}
+SdosHostel {
+
+}
+SdosHotel {
+
+}
+SdosHotelRoom {
+
+}
+SdosHouse {
+
+}
+SdosHousePainter {
+
+}
+SdosHowTo {
+
+}
+SdosHowToDirection {
+
+}
+SdosHowToItem {
+
+}
+SdosHowToSection {
+
+}
+SdosHowToStep {
+
+}
+SdosHowToSupply {
+
+}
+SdosHowToTip {
+
+}
+SdosHowToTool {
+
+}
+SdosHyperToc {
+
+}
+SdosHyperTocEntry {
+
+}
+SdosIPTCDigitalSourceEnumeration {
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+    string rdfs_comment  
+}
+SdosIceCreamShop {
+
+}
+SdosIgnoreAction {
+
+}
+SdosImageGallery {
+
+}
+SdosImageObject {
+
+}
+SdosImageObjectSnapshot {
+
+}
+SdosImagingTest {
+
+}
+SdosIncentiveQualifiedExpenseType {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosIncentiveStatus {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosIncentiveType {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosIndividualPhysician {
+
+}
+SdosIndividualProduct {
+
+}
+SdosInfectiousAgentClass {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_isPartOf  
+}
+SdosInfectiousDisease {
+
+}
+SdosInformAction {
+
+}
+SdosInsertAction {
+
+}
+SdosInstallAction {
+
+}
+SdosInsuranceAgency {
+
+}
+SdosIntangible {
+
+}
+SdosInteger {
+
+}
+SdosInteractAction {
+
+}
+SdosInteractionCounter {
+
+}
+SdosInternetCafe {
+
+}
+SdosInvestmentFund {
+
+}
+SdosInvestmentOrDeposit {
+
+}
+SdosInviteAction {
+
+}
+SdosInvoice {
+
+}
+SdosItemAvailability {
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosItemList {
+
+}
+SdosItemListOrderType {
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosItemPage {
+
+}
+SdosJewelryStore {
+
+}
+SdosJobPosting {
+
+}
+SdosJoinAction {
+
+}
+SdosJoint {
+
+}
+SdosLakeBodyOfWater {
+
+}
+SdosLandform {
+
+}
+SdosLandmarksOrHistoricalBuildings {
+
+}
+SdosLanguage {
+
+}
+SdosLearningResource {
+
+}
+SdosLeaveAction {
+
+}
+SdosLegalForceStatus {
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+    uri sdos_contributor  
+    string rdfs_comment  
+}
+SdosLegalService {
+
+}
+SdosLegalValueLevel {
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+    uri sdos_contributor  
+    string rdfs_comment  
+}
+SdosLegislation {
+
+}
+SdosLegislationObject {
+
+}
+SdosLegislativeBuilding {
+
+}
+SdosLendAction {
+
+}
+SdosLibrary {
+
+}
+SdosLibrarySystem {
+
+}
+SdosLifestyleModification {
+
+}
+SdosLigament {
+
+}
+SdosLikeAction {
+
+}
+SdosLinkRole {
+
+}
+SdosLiquorStore {
+
+}
+SdosListItem {
+
+}
+SdosListenAction {
+
+}
+SdosLiteraryEvent {
+
+}
+SdosLiveBlogPosting {
+
+}
+SdosLoanOrCredit {
+
+}
+SdosLocalBusiness {
+
+}
+SdosLocationFeatureSpecification {
+
+}
+SdosLocksmith {
+
+}
+SdosLodgingBusiness {
+
+}
+SdosLodgingReservation {
+
+}
+SdosLoseAction {
+
+}
+SdosLymphaticVessel {
+
+}
+SdosManuscript {
+
+}
+SdosMap {
+
+}
+SdosMapCategoryType {
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosMarryAction {
+
+}
+SdosMass {
+
+}
+SdosMathSolver {
+
+}
+SdosMaximumDoseSchedule {
+
+}
+SdosMeasurementMethodEnum {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosMeasurementTypeEnumeration {
+
+}
+SdosMediaEnumeration {
+
+}
+SdosMediaGallery {
+
+}
+SdosMediaManipulationRatingEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosMediaObject {
+
+}
+SdosMediaReview {
+
+}
+SdosMediaReviewItem {
+
+}
+SdosMediaSubscription {
+
+}
+SdosMedicalAudience {
+
+}
+SdosMedicalAudienceType {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_isPartOf  
+}
+SdosMedicalBusiness {
+
+}
+SdosMedicalCause {
+
+}
+SdosMedicalClinic {
+
+}
+SdosMedicalCode {
+
+}
+SdosMedicalCondition {
+
+}
+SdosMedicalConditionStage {
+
+}
+SdosMedicalContraindication {
+
+}
+SdosMedicalDevice {
+
+}
+SdosMedicalDevicePurpose {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_isPartOf  
+}
+SdosMedicalEntity {
+
+}
+SdosMedicalEnumeration {
+
+}
+SdosMedicalEvidenceLevel {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_isPartOf  
+}
+SdosMedicalGuideline {
+
+}
+SdosMedicalGuidelineContraindication {
+
+}
+SdosMedicalGuidelineRecommendation {
+
+}
+SdosMedicalImagingTechnique {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_isPartOf  
+}
+SdosMedicalIndication {
+
+}
+SdosMedicalIntangible {
+
+}
+SdosMedicalObservationalStudy {
+
+}
+SdosMedicalObservationalStudyDesign {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_isPartOf  
+}
+SdosMedicalOrganization {
+
+}
+SdosMedicalProcedure {
+
+}
+SdosMedicalProcedureType {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_isPartOf  
+}
+SdosMedicalRiskCalculator {
+
+}
+SdosMedicalRiskEstimator {
+
+}
+SdosMedicalRiskFactor {
+
+}
+SdosMedicalRiskScore {
+
+}
+SdosMedicalScholarlyArticle {
+
+}
+SdosMedicalSign {
+
+}
+SdosMedicalSignOrSymptom {
+
+}
+SdosMedicalSpecialty {
+    string rdfs_label  
+    uri sdos_isPartOf  
+    string rdfs_comment  
+}
+SdosMedicalStudy {
+
+}
+SdosMedicalStudyStatus {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_isPartOf  
+}
+SdosMedicalSymptom {
+
+}
+SdosMedicalTest {
+
+}
+SdosMedicalTestPanel {
+
+}
+SdosMedicalTherapy {
+
+}
+SdosMedicalTrial {
+
+}
+SdosMedicalTrialDesign {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_isPartOf  
+}
+SdosMedicalWebPage {
+
+}
+SdosMedicineSystem {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_isPartOf  
+}
+SdosMeetingRoom {
+
+}
+SdosMemberProgram {
+
+}
+SdosMemberProgramTier {
+
+}
+SdosMensClothingStore {
+
+}
+SdosMenu {
+
+}
+SdosMenuItem {
+
+}
+SdosMenuSection {
+
+}
+SdosMerchantReturnEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosMerchantReturnPolicy {
+
+}
+SdosMerchantReturnPolicySeasonalOverride {
+
+}
+SdosMessage {
+
+}
+SdosMiddleSchool {
+
+}
+SdosMobileApplication {
+
+}
+SdosMobilePhoneStore {
+
+}
+SdosMolecularEntity {
+
+}
+SdosMonetaryAmount {
+
+}
+SdosMonetaryAmountDistribution {
+
+}
+SdosMonetaryGrant {
+
+}
+SdosMoneyTransfer {
+
+}
+SdosMortgageLoan {
+
+}
+SdosMosque {
+
+}
+SdosMotel {
+
+}
+SdosMotorcycle {
+
+}
+SdosMotorcycleDealer {
+
+}
+SdosMotorcycleRepair {
+
+}
+SdosMotorizedBicycle {
+
+}
+SdosMountain {
+
+}
+SdosMoveAction {
+
+}
+SdosMovie {
+
+}
+SdosMovieClip {
+
+}
+SdosMovieRentalStore {
+
+}
+SdosMovieSeries {
+
+}
+SdosMovieTheater {
+
+}
+SdosMovingCompany {
+
+}
+SdosMuscle {
+
+}
+SdosMuseum {
+
+}
+SdosMusicAlbum {
+
+}
+SdosMusicAlbumProductionType {
+    uri sdos_contributor  
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosMusicAlbumReleaseType {
+    uri sdos_contributor  
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosMusicComposition {
+
+}
+SdosMusicEvent {
+
+}
+SdosMusicGroup {
+
+}
+SdosMusicPlaylist {
+
+}
+SdosMusicRecording {
+
+}
+SdosMusicRelease {
+
+}
+SdosMusicReleaseFormatType {
+    uri sdos_contributor  
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosMusicStore {
+
+}
+SdosMusicVenue {
+
+}
+SdosMusicVideoObject {
+
+}
+SdosNGO {
+
+}
+SdosNLNonprofitType {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosNailSalon {
+
+}
+SdosNerve {
+
+}
+SdosNewsArticle {
+
+}
+SdosNewsMediaOrganization {
+
+}
+SdosNewspaper {
+
+}
+SdosNightClub {
+
+}
+SdosNonprofitType {
+
+}
+SdosNotary {
+
+}
+SdosNoteDigitalDocument {
+
+}
+SdosNumber {
+
+}
+SdosNutritionInformation {
+
+}
+SdosObservation {
+
+}
+SdosOccupation {
+
+}
+SdosOccupationalExperienceRequirements {
+
+}
+SdosOccupationalTherapy {
+
+}
+SdosOceanBodyOfWater {
+
+}
+SdosOffer {
+
+}
+SdosOfferCatalog {
+
+}
+SdosOfferForLease {
+
+}
+SdosOfferForPurchase {
+
+}
+SdosOfferItemCondition {
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosOfferShippingDetails {
+
+}
+SdosOfficeEquipmentStore {
+
+}
+SdosOnDemandEvent {
+
+}
+SdosOnlineBusiness {
+
+}
+SdosOnlineStore {
+
+}
+SdosOpeningHoursSpecification {
+
+}
+SdosOpinionNewsArticle {
+
+}
+SdosOptician {
+
+}
+SdosOrder {
+
+}
+SdosOrderAction {
+
+}
+SdosOrderItem {
+
+}
+SdosOrderStatus {
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosOrganization {
+
+}
+SdosOrganizationRole {
+
+}
+SdosOrganizeAction {
+
+}
+SdosOutletStore {
+
+}
+SdosOwnershipInfo {
+
+}
+SdosPaintAction {
+
+}
+SdosPainting {
+
+}
+SdosPalliativeProcedure {
+
+}
+SdosParcelDelivery {
+
+}
+SdosParentAudience {
+
+}
+SdosPark {
+
+}
+SdosParkingFacility {
+
+}
+SdosPathologyTest {
+
+}
+SdosPatient {
+
+}
+SdosPawnShop {
+
+}
+SdosPayAction {
+
+}
+SdosPaymentCard {
+
+}
+SdosPaymentChargeSpecification {
+
+}
+SdosPaymentMethod {
+
+}
+SdosPaymentMethodType {
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosPaymentService {
+
+}
+SdosPaymentStatusType {
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosPeopleAudience {
+
+}
+SdosPerformAction {
+
+}
+SdosPerformanceRole {
+
+}
+SdosPerformingArtsTheater {
+
+}
+SdosPerformingGroup {
+
+}
+SdosPeriodical {
+
+}
+SdosPermit {
+
+}
+SdosPerson {
+
+}
+SdosPetStore {
+
+}
+SdosPharmacy {
+
+}
+SdosPhotograph {
+
+}
+SdosPhotographAction {
+
+}
+SdosPhysicalActivity {
+
+}
+SdosPhysicalActivityCategory {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_isPartOf  
+}
+SdosPhysicalExam {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_isPartOf  
+}
+SdosPhysicalTherapy {
+
+}
+SdosPhysician {
+
+}
+SdosPhysiciansOffice {
+
+}
+SdosPlace {
+
+}
+SdosPlaceOfWorship {
+
+}
+SdosPlanAction {
+
+}
+SdosPlay {
+
+}
+SdosPlayAction {
+
+}
+SdosPlayGameAction {
+
+}
+SdosPlayground {
+
+}
+SdosPlumber {
+
+}
+SdosPodcastEpisode {
+
+}
+SdosPodcastSeason {
+
+}
+SdosPodcastSeries {
+
+}
+SdosPoliceStation {
+
+}
+SdosPoliticalParty {
+
+}
+SdosPond {
+
+}
+SdosPostOffice {
+
+}
+SdosPostalAddress {
+
+}
+SdosPostalCodeRangeSpecification {
+
+}
+SdosPoster {
+
+}
+SdosPreOrderAction {
+
+}
+SdosPrependAction {
+
+}
+SdosPreschool {
+
+}
+SdosPresentationDigitalDocument {
+
+}
+SdosPreventionIndication {
+
+}
+SdosPriceComponentTypeEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosPriceSpecification {
+
+}
+SdosPriceTypeEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosProduct {
+
+}
+SdosProductCollection {
+
+}
+SdosProductGroup {
+
+}
+SdosProductModel {
+
+}
+SdosProductReturnEnumeration {
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+    string rdfs_comment  
+}
+SdosProductReturnPolicy {
+
+}
+SdosProfessionalService {
+
+}
+SdosProfilePage {
+
+}
+SdosProgramMembership {
+
+}
+SdosProject {
+
+}
+SdosPronounceableText {
+
+}
+SdosProperty {
+
+}
+SdosPropertyValue {
+
+}
+SdosPropertyValueSpecification {
+
+}
+SdosProtein {
+
+}
+SdosPsychologicalTreatment {
+
+}
+SdosPublicSwimmingPool {
+
+}
+SdosPublicToilet {
+
+}
+SdosPublicationEvent {
+
+}
+SdosPublicationIssue {
+
+}
+SdosPublicationVolume {
+
+}
+SdosPurchaseType {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosQAPage {
+
+}
+SdosQualitativeValue {
+
+}
+SdosQuantitativeValue {
+
+}
+SdosQuantitativeValueDistribution {
+
+}
+SdosQuantity {
+
+}
+SdosQuestion {
+
+}
+SdosQuiz {
+
+}
+SdosQuotation {
+
+}
+SdosQuoteAction {
+
+}
+SdosRVPark {
+
+}
+SdosRadiationTherapy {
+
+}
+SdosRadioBroadcastService {
+
+}
+SdosRadioChannel {
+
+}
+SdosRadioClip {
+
+}
+SdosRadioEpisode {
+
+}
+SdosRadioSeason {
+
+}
+SdosRadioSeries {
+
+}
+SdosRadioStation {
+
+}
+SdosRating {
+
+}
+SdosReactAction {
+
+}
+SdosReadAction {
+
+}
+SdosRealEstateAgent {
+
+}
+SdosRealEstateListing {
+
+}
+SdosReceiveAction {
+
+}
+SdosRecipe {
+
+}
+SdosRecommendation {
+
+}
+SdosRecommendedDoseSchedule {
+
+}
+SdosRecyclingCenter {
+
+}
+SdosRefundTypeEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosRegisterAction {
+
+}
+SdosRejectAction {
+
+}
+SdosRentAction {
+
+}
+SdosRentalCarReservation {
+
+}
+SdosRepaymentSpecification {
+
+}
+SdosReplaceAction {
+
+}
+SdosReplyAction {
+
+}
+SdosReport {
+
+}
+SdosReportageNewsArticle {
+
+}
+SdosReportedDoseSchedule {
+
+}
+SdosResearchOrganization {
+
+}
+SdosResearchProject {
+
+}
+SdosResearcher {
+
+}
+SdosReservation {
+
+}
+SdosReservationPackage {
+
+}
+SdosReservationStatusType {
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosReserveAction {
+
+}
+SdosReservoir {
+
+}
+SdosResidence {
+
+}
+SdosResort {
+
+}
+SdosRestaurant {
+
+}
+SdosRestrictedDiet {
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosResumeAction {
+
+}
+SdosReturnAction {
+
+}
+SdosReturnFeesEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosReturnLabelSourceEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosReturnMethodEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosReview {
+
+}
+SdosReviewAction {
+
+}
+SdosReviewNewsArticle {
+
+}
+SdosRiverBodyOfWater {
+
+}
+SdosRole {
+
+}
+SdosRoofingContractor {
+
+}
+SdosRoom {
+
+}
+SdosRsvpAction {
+
+}
+SdosRsvpResponseType {
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosSaleEvent {
+
+}
+SdosSatiricalArticle {
+
+}
+SdosSchedule {
+
+}
+SdosScheduleAction {
+
+}
+SdosScholarlyArticle {
+
+}
+SdosSchool {
+
+}
+SdosSchoolDistrict {
+
+}
+SdosScreeningEvent {
+
+}
+SdosSculpture {
+
+}
+SdosSeaBodyOfWater {
+
+}
+SdosSearchAction {
+
+}
+SdosSearchRescueOrganization {
+
+}
+SdosSearchResultsPage {
+
+}
+SdosSeason {
+
+}
+SdosSeat {
+
+}
+SdosSeekToAction {
+
+}
+SdosSelfStorage {
+
+}
+SdosSellAction {
+
+}
+SdosSendAction {
+
+}
+SdosSeries {
+
+}
+SdosService {
+
+}
+SdosServiceChannel {
+
+}
+SdosServicePeriod {
+
+}
+SdosShareAction {
+
+}
+SdosSheetMusic {
+
+}
+SdosShippingConditions {
+
+}
+SdosShippingDeliveryTime {
+
+}
+SdosShippingRateSettings {
+
+}
+SdosShippingService {
+
+}
+SdosShoeStore {
+
+}
+SdosShoppingCenter {
+
+}
+SdosShortStory {
+
+}
+SdosSingleFamilyResidence {
+
+}
+SdosSiteNavigationElement {
+
+}
+SdosSizeGroupEnumeration {
+
+}
+SdosSizeSpecification {
+
+}
+SdosSizeSystemEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosSkiResort {
+
+}
+SdosSocialEvent {
+
+}
+SdosSocialMediaPosting {
+
+}
+SdosSoftwareApplication {
+
+}
+SdosSoftwareSourceCode {
+
+}
+SdosSolveMathAction {
+
+}
+SdosSomeProducts {
+
+}
+SdosSpeakableSpecification {
+
+}
+SdosSpecialAnnouncement {
+
+}
+SdosSpecialty {
+
+}
+SdosSportingGoodsStore {
+
+}
+SdosSportsActivityLocation {
+
+}
+SdosSportsClub {
+
+}
+SdosSportsEvent {
+
+}
+SdosSportsOrganization {
+
+}
+SdosSportsTeam {
+
+}
+SdosSpreadsheetDigitalDocument {
+
+}
+SdosStadiumOrArena {
+
+}
+SdosState {
+
+}
+SdosStatement {
+
+}
+SdosStatisticalPopulation {
+
+}
+SdosStatisticalVariable {
+
+}
+SdosStatusEnumeration {
+
+}
+SdosSteeringPositionValue {
+    uri sdos_contributor  
+    string rdfs_comment  
+    string rdfs_label  
+}
+SdosStore {
+
+}
+SdosStructuredValue {
+
+}
+SdosStupidType {
+
+}
+SdosSubscribeAction {
+
+}
+SdosSubstance {
+
+}
+SdosSubwayStation {
+
+}
+SdosSuite {
+
+}
+SdosSuperficialAnatomy {
+
+}
+SdosSurgicalProcedure {
+
+}
+SdosSuspendAction {
+
+}
+SdosSyllabus {
+
+}
+SdosSynagogue {
+
+}
+SdosTVClip {
+
+}
+SdosTVEpisode {
+
+}
+SdosTVSeason {
+
+}
+SdosTVSeries {
+
+}
+SdosTable {
+
+}
+SdosTakeAction {
+
+}
+SdosTattooParlor {
+
+}
+SdosTaxi {
+
+}
+SdosTaxiReservation {
+
+}
+SdosTaxiService {
+
+}
+SdosTaxiStand {
+
+}
+SdosTaxon {
+
+}
+SdosTechArticle {
+
+}
+SdosTelevisionChannel {
+
+}
+SdosTelevisionStation {
+
+}
+SdosTennisComplex {
+
+}
+SdosText {
+
+}
+SdosTextDigitalDocument {
+
+}
+SdosTextObject {
+
+}
+SdosTheaterEvent {
+
+}
+SdosTheaterGroup {
+
+}
+SdosTherapeuticProcedure {
+
+}
+SdosThesis {
+
+}
+SdosThing {
+
+}
+SdosTicket {
+
+}
+SdosTieAction {
+
+}
+SdosTierBenefitEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosTime {
+
+}
+SdosTipAction {
+
+}
+SdosTireShop {
+
+}
+SdosTouristAttraction {
+
+}
+SdosTouristDestination {
+
+}
+SdosTouristInformationCenter {
+
+}
+SdosTouristTrip {
+
+}
+SdosToyStore {
+
+}
+SdosTrackAction {
+
+}
+SdosTradeAction {
+
+}
+SdosTrainReservation {
+
+}
+SdosTrainStation {
+
+}
+SdosTrainTrip {
+
+}
+SdosTransferAction {
+
+}
+SdosTravelAction {
+
+}
+SdosTravelAgency {
+
+}
+SdosTreatmentIndication {
+
+}
+SdosTrip {
+
+}
+SdosTypeAndQuantityNode {
+
+}
+SdosUKNonprofitType {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosURL {
+
+}
+SdosUSNonprofitType {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosUnRegisterAction {
+
+}
+SdosUnitPriceSpecification {
+
+}
+SdosUpdateAction {
+
+}
+SdosUseAction {
+
+}
+SdosUserBlocks {
+
+}
+SdosUserCheckins {
+
+}
+SdosUserComments {
+
+}
+SdosUserDownloads {
+
+}
+SdosUserInteraction {
+
+}
+SdosUserLikes {
+
+}
+SdosUserPageVisits {
+
+}
+SdosUserPlays {
+
+}
+SdosUserPlusOnes {
+
+}
+SdosUserReview {
+
+}
+SdosUserTweets {
+
+}
+SdosVacationRental {
+
+}
+SdosVehicle {
+
+}
+SdosVein {
+
+}
+SdosVessel {
+
+}
+SdosVeterinaryCare {
+
+}
+SdosVideoGallery {
+
+}
+SdosVideoGame {
+
+}
+SdosVideoGameClip {
+
+}
+SdosVideoGameSeries {
+
+}
+SdosVideoObject {
+
+}
+SdosVideoObjectSnapshot {
+
+}
+SdosViewAction {
+
+}
+SdosVirtualLocation {
+
+}
+SdosVisualArtsEvent {
+
+}
+SdosVisualArtwork {
+
+}
+SdosVitalSign {
+
+}
+SdosVolcano {
+
+}
+SdosVoteAction {
+
+}
+SdosWPAdBlock {
+
+}
+SdosWPFooter {
+
+}
+SdosWPHeader {
+
+}
+SdosWPSideBar {
+
+}
+SdosWantAction {
+
+}
+SdosWarrantyPromise {
+
+}
+SdosWarrantyScope {
+
+}
+SdosWatchAction {
+
+}
+SdosWaterfall {
+
+}
+SdosWearAction {
+
+}
+SdosWearableMeasurementTypeEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosWearableSizeGroupEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosWearableSizeSystemEnumeration {
+    string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
+}
+SdosWebAPI {
+
+}
+SdosWebApplication {
+
+}
+SdosWebContent {
+
+}
+SdosWebPage {
+
+}
+SdosWebPageElement {
+
+}
+SdosWebSite {
+
+}
+SdosWholesaleStore {
+
+}
+SdosWinAction {
+
+}
+SdosWinery {
+
+}
+SdosWorkBasedProgram {
+
+}
+SdosWorkersUnion {
+
+}
+SdosWriteAction {
+
+}
+SdosXPathType {
+
+}
+SdosZoo {
+
+}
+IcalDomainOfRrule {
+
+}
+IcalListOfFloat {
+
+}
+IcalValarm {
+
+}
+IcalValueCAL-ADDRESS {
+
+}
+IcalValueDATE {
+
+}
+IcalValueDATE-TIME {
+
+}
+IcalValueDURATION {
+
+}
+IcalValuePERIOD {
+
+}
+IcalValueRECUR {
+
+}
+IcalVevent {
+
+}
+IcalVfreebusy {
+
+}
+IcalVjournal {
+
+}
+IcalVtimezone {
+
+}
+IcalVtodo {
+
+}
+AdmsAsset {
+
+}
+AdmsAssetDistribution {
+
+}
+AdmsAssetRepository {
+
+}
+AdmsIdentifier {
+
+}
+DcatCatalog {
+
+}
+DcatDataset {
+
+}
+DcatDistribution {
+
+}
+AdmsSemanticAssetDistribution {
+    string adms_accessURL  
+}
+RdfDatatypeProperty {
+    string rdfs_comment  
+    string rdfs_label  
+}
+VoidDataset {
+
+}
+VoidDatasetDescription {
+
+}
+VoidLinkset {
+
+}
+VoidTechnicalFeature {
+
+}
+VaemCatalogEntry {
+    string rdfs_label  
+}
+VaemDateUnion {
+
+}
+VoagAccredidation {
+
+}
+VoagAdministrativeEvent {
+
+}
+VoagApprovalEvent {
+
+}
+VoagApprovalProcess {
+
+}
+VoagAssignedRole {
+
+}
+VoagAttribution {
+    string rdfs_label  
+    string voag_pointOfContact  
+    string vaem_name  
+    uri voag_url  
+}
+VoagAttributionLogo {
+    string voag_width  
+    string voag_height  
+    string vaem_description  
+    string rdfs_label  
+    uri voag_image  
+    string voag_caption  
+}
+VoagCatalog {
+
+}
+VoagChangeFrequency {
+    string rdfs_label  
+}
+VoagChangeManagementProcess {
+
+}
+VoagChangeType {
+    string rdfs_label  
+}
+VoagConcurrenceEvent {
+
+}
+VoagConfidentialityLevel {
+    string vaem_description  
+    string rdfs_label  
+    integer dtype_order  
+}
+VoagCreativeCommonsJurisdiction {
+
+}
+VoagCreativeCommonsPermission {
+    string vaem_description  
+    string rdfs_label  
+}
+VoagCreativeCommonsProhibition {
+    string vaem_description  
+    string rdfs_label  
+}
+VoagCreativeCommonsRequirement {
+    uri vaem_url  
+    string vaem_description  
+    string rdfs_label  
+}
+VoagCreativeCommonsWork {
+
+}
+VoagDeletionEvent {
+
+}
+VoagDesignatedGovernanceRole {
+
+}
+VoagDocument {
+
+}
+VoagEnumeratedValue {
+
+}
+VoagEvent {
+
+}
+VoagFigure {
+
+}
+VoagGovernance {
+    string rdfs_label  
+}
+VoagGovernanceEvent {
+
+}
+VoagGovernanceProcess {
+
+}
+VoagGovernanceProtocol {
+
+}
+VoagGovernanceRole {
+    string rdfs_label  
+}
+VoagGovernedObject {
+
+}
+VoagGovernedService {
+
+}
+VoagGraph {
+
+}
+VoagIcon {
+    string voag_width  
+    string voag_height  
+    string vaem_description  
+    string rdfs_label  
+    uri voag_image  
+    string voag_caption  
+}
+VoagImage {
+
+}
+VoagIssue {
+
+}
+VoagIssueResolutionProcess {
+
+}
+VoagIssueStatus {
+    string vaem_description  
+    string rdfs_label  
+}
+VoagLicenseModel {
+    string rdfs_label  
+}
+VoagLogo {
+    string voag_width  
+    string voag_height  
+    string vaem_description  
+    string rdfs_label  
+    uri voag_image  
+    string voag_caption  
+}
+VoagMaturity {
+    string rdfs_label  
+}
+VoagNonConcurrenceEvent {
+
+}
+VoagOrganization {
+
+}
+VoagOrganizationLogo {
+    string voag_width  
+    string voag_height  
+    string vaem_description  
+    string rdfs_label  
+    uri voag_image  
+    string voag_caption  
+}
+VoagParty {
+
+}
+VoagPedigree {
+    string rdfs_label  
+}
+VoagPerson {
+
+}
+VoagPriorityValue {
+    string rdfs_label  
+}
+VoagProcess {
+
+}
+VoagProductLogo {
+    string voag_width  
+    string voag_height  
+    string rdfs_label  
+    uri voag_image  
+    string voag_caption  
+    string vaem_description  
+}
+VoagProvenance {
+    string rdfs_label  
+}
+VoagPublicationStatus {
+    string rdfs_label  
+}
+VoagQualifier {
+
+}
+VoagRejectionEvent {
+
+}
+VoagRetreivalEvent {
+
+}
+VoagReviewEvent {
+
+}
+VoagSchemaGraph {
+    string rdfs_label  
+}
+VoagService {
+
+}
+VoagStakeholderGroup {
+
+}
+VoagStandard {
+
+}
+VoagVocabGraph {
+
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Abstract {
+    string http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_correspondingAuthor  
+    string rdfs_label  
+    date dct_issued  
+    string dct_title  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ActiveIngredient {
+    string coso_casNumber  
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment {
+    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_startDate  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AmendmentPlacement {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AmendmentType {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalClass {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalSpecies {
+    string rdfs_label  
+    string dct_description  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate {
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy {
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral {
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BookChapter {
+    string http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_correspondingAuthor  
+    string rdfs_label  
+    date dct_issued  
+    string dct_title  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BroadleafOrGrass {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278CoverCrop {
+    string dct_description  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Cultivar {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278CuttingHeight {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Equipment {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit {
+    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_endDate  
+    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_startDate  
+    boolean http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_inferred  
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitUrl  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278FertilizerAmendment {
+    string dct_description  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278FundingSource {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss {
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingManagement {
+    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_endDate  
+    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_startDate  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingPlants {
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingRate {
+    string dct_description  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStageManagement {
+
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction {
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestedFraction {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Irrigation {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle {
+    string http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_correspondingAuthor  
+    string rdfs_label  
+    date dct_issued  
+    string dct_title  
+    string dct_description  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location {
+    string rdfs_label  
+    string dct_description  
+    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_endDate  
+    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_startDate  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278LossesOrDeposition {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement {
+
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency {
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278OtherEvents {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Parameter {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PesticidePlacement {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PesticideTarget {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantFraction {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingManagement {
+    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_startDate  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingMethod {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PopularArticle {
+    string http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_correspondingAuthor  
+    string rdfs_label  
+    date dct_issued  
+    string dct_title  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Proceedings {
+    string http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_correspondingAuthor  
+    string rdfs_label  
+    date dct_issued  
+    string dct_title  
+    string dct_description  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Project {
+    string dct_description  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ProjectScenario {
+    string dct_description  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Report {
+    string http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_correspondingAuthor  
+    string rdfs_label  
+    date dct_issued  
+    string dct_title  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement {
+    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_startDate  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement {
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueRemoval {
+    string dct_description  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Rotation {
+    string dct_description  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SimulationModel {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site {
+
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample {
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample {
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilCover {
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample {
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SpeciesMix {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278StartStopInterval {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SurfaceOrLeaching {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Thesis {
+    string http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_correspondingAuthor  
+    string rdfs_label  
+    date dct_issued  
+    string dct_title  
+    string dct_description  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Tillage {
+    string dct_description  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageEvent {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageManagement {
+    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_startDate  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageMethod {
+    string rdfs_label  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Timing {
+    string dct_description  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment {
+    string dct_description  
+    boolean http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_organicManagement  
+    boolean http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_tileDrainage  
+    boolean http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_irrigation  
+    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_startDate  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityArea {
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration {
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea {
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
+}
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake {
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
+    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#Abstract {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#ActiveIngredient {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#Amendment {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#AmendmentPlacement {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#AnimalClass {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#AnimalSpecies {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#BiomassAnalysis {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#BiomassCarbohydrate {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#BiomassEnergy {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#BiomassMineral {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#BookChapter {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#BroadleafOrGrass {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#ChamberPlacement {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#CoverCrop {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#CropRelatedMeasurement {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#Cultivar {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#CuttingHeight {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#Equipment {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#ErosionMeasurement {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#ExperimentalUnit {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#FertilizerAmendment {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#FundingSource {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#GHGFlux {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#GasNutrientLoss {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#GrazingManagement {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#GrazingPlants {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#GrazingRate {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#GrowthStage {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#GrowthStageManagement {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#GrowthStageRelatedMeasurement {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#HarvestFraction {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#HarvestedFraction {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#Irrigation {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#JournalArticle {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#Location {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#LossesOrDeposition {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#MeasurableEntity {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#Measurement {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#NutrientEfficiency {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#OtherEvents {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#Parameter {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#PesticidePlacement {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#PesticideTarget {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#PlantFraction {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#PlantFractionRelatedMeasurement {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#PlantingManagement {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#PlantingMethod {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#PopularArticle {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#PossiblySimulatedMeasurement {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#Proceedings {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#Project {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#ProjectScenario {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#QualityMeasurement {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#Report {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#ResidueManagement {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#ResidueMeasurement {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#ResidueRemoval {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#Rotation {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#Sample {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#SimulationModel {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#Site {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#SoilBiologicalSample {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#SoilChemicalSample {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#SoilCover {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#SoilPhysicalSample {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#SoilSample {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#SpeciesMix {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#StartStopInterval {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#SurfaceOrLeaching {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#Thesis {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#Tillage {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#TillageEvent {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#TillageManagement {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#TillageMethod {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#Timing {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#Treatment {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#WaterQualityArea {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#WaterQualityConcentration {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#WeatherObservation {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#WindErosionArea {
+
+}
+HttpsIdir.uta.eduSockg-ontologyDocs#YieldNutrientUptake {
+
+}
+HttpsLod.nal.usda.govNalt7140 {
+    string rdfs_label  
+}
+KwgoS2CellLevel13 {
+
 }
 
-RdfList ||--|o RdfsLiteral : "rdfs_comment"
-RdfList ||--|o RdfsResource : "rdfs_isDefinedBy"
+OwlDataRange ||--|o OwlOntology : "rdfs_isDefinedBy"
+OwlDataRange ||--|o RdfsResource : "rdfs_isDefinedBy"
+OwlDataRange ||--|o RdfsClass : "rdfs_subClassOf"
+OwlDataRange ||--|o RdfsResource : "rdfs_seeAlso"
+OwlDataRange ||--|o RdfsLiteral : "rdfs_label"
+OwlDataRange ||--|o RdfsLiteral : "rdfs_comment"
 RdfList ||--|o RdfsLiteral : "rdfs_label"
-KwgrS2CellLevel13 ||--|o SockgSite : "kwgr_sfContains"
-KwgrS2CellLevel13 ||--|o SockgSite : "kwgr_spatialRelation"
-SockgAmendment ||--|o SockgPesticide : "sockg_hasPesticide"
-SockgCountry ||--|o SockgState : "sockg_hasState"
-SockgCounty ||--|o SockgCity : "sockg_hasCity"
-SockgDepartment ||--|o SockgOrganization : "sockg_departmentOf"
-SockgExperiment ||--|o SockgTreatment : "sockg_hasTreatment"
-SockgExperimentalUnit ||--|o SockgField : "sockg_locatedInField"
-SockgExperimentalUnit ||--|o SockgHarvest : "sockg_isHarvested"
-SockgExperimentalUnit ||--|o SockgSoilBiologicalSample : "sockg_hasBioSample"
-SockgExperimentalUnit ||--|o SockgHarvestFraction : "sockg_hasHarvestFractionData"
-SockgExperimentalUnit ||--|o SockgGrazingManagementEvent : "sockg_hasGrazingManagementEvent"
-SockgExperimentalUnit ||--|o SockgBioMassEnergy : "sockg_hasBioMassEnergyData"
-SockgExperimentalUnit ||--|o SockgSoilPhysicalSample : "sockg_hasPhysSample"
-SockgExperimentalUnit ||--|o SockgGasSample : "sockg_hasGasSample"
-SockgExperimentalUnit ||--|o SockgGrazing : "sockg_hasGrazingData"
-SockgExperimentalUnit ||--|o SockgSite : "sockg_locatedInSite"
-SockgExperimentalUnit ||--|o SockgAmendment : "sockg_hasAmendment"
-SockgExperimentalUnit ||--|o SockgBioMassMineral : "sockg_hasBioMassMineralData"
-SockgExperimentalUnit ||--|o SockgResidueManagementEvent : "sockg_hasResidueManagementEvent"
-SockgExperimentalUnit ||--|o SockgSoilCover : "sockg_hasSoilCover"
-SockgExperimentalUnit ||--|o SockgBioMassCarbohydrate : "sockg_hasBioMassCarbohydrateData"
-SockgExperimentalUnit ||--|o SockgSoilChemicalSample : "sockg_hasChemSample"
-SockgExperimentalUnit ||--|o SockgTillage : "sockg_hasTillage"
-SockgExperimentalUnit ||--|o SockgCropGrowthStage : "sockg_tracksGrowth"
-SockgOrganization ||--|o SockgExperiment : "sockg_fundsExperiment"
-SockgPerson ||--|o SockgOrganization : "sockg_worksFor"
-SockgPerson ||--|o SockgDepartment : "sockg_worksAtDepartment"
-SockgPerson ||--|o SockgSite : "sockg_worksIn"
-SockgPlantingEvent ||--|o SockgExperimentalUnit : "sockg_plantingAt"
-SockgPublication ||--|o SockgSite : "sockg_studiesSite"
-SockgSite ||--|o SockgField : "sockg_hasField"
-SockgSite ||--|o KwgrS2CellLevel13 : "kwgr_sfWithin"
-SockgSite ||--|o SockgCity : "sockg_locatedInCity"
-SockgSite ||--|o GeoGeometry : "geo_hasGeometry"
-SockgSite ||--|o SockgState : "sockg_locatedInState"
-SockgSite ||--|o SockgCountry : "sockg_locatedInCountry"
-SockgSite ||--|o SockgCounty : "sockg_locatedInCounty"
-SockgSoilChemicalSample ||--|o SockgTreatment : "sockg_chemSampleHasTreatment"
-SockgState ||--|o SockgCounty : "sockg_hasCounty"
-SockgTreatment ||--|o SockgRotation : "sockg_hasRotation"
-SockgWaterQualityArea ||--|o SockgTreatment : "sockg_waterQualityAreaTreatment"
-SockgWaterQualityArea ||--|o SockgField : "sockg_waterQualityAreaDataAt"
-SockgWaterQualityConc ||--|o SockgField : "sockg_waterQualityConcDataAt"
-SockgWaterQualityConc ||--|o SockgTreatment : "sockg_waterQualityConcTreatment"
-SockgWeatherObservation ||--|o SockgSite : "sockg_weatherRecordedAt"
-SockgWeatherObservation ||--|o SockgField : "sockg_weatherAtField"
-SockgWeatherStation ||--|o SockgField : "sockg_recordsWeatherForField"
-SockgWeatherStation ||--|o SockgWeatherObservation : "sockg_weatherRecordedBy"
-SockgWeatherStation ||--|o SockgSite : "sockg_recordsWeatherForSite"
-SockgWindErosionArea ||--|o SockgField : "sockg_windErosionDataAt"
-SockgWindErosionArea ||--|o SockgTreatment : "sockg_windErosionTreatment"
-SockgYieldNutrientUptake ||--|o SockgField : "sockg_yieldNutrUptakeDataAt"
-SockgYieldNutrientUptake ||--|o SockgTreatment : "sockg_yieldNutrUptakeTreatment"
+RdfList ||--|o RdfsLiteral : "rdfs_comment"
+RdfList ||--|o OwlOntology : "rdfs_isDefinedBy"
+RdfList ||--|o RdfsResource : "rdfs_isDefinedBy"
+RdfsDatatype ||--|o OwlOntology : "rdfs_isDefinedBy"
+RdfsDatatype ||--|o RdfsResource : "rdfs_isDefinedBy"
+RdfsDatatype ||--|o RdfsClass : "rdfs_subClassOf"
+RdfsDatatype ||--|o RdfsResource : "rdfs_seeAlso"
+RdfsDatatype ||--|o RdfsLiteral : "rdfs_label"
+RdfsDatatype ||--|o RdfsLiteral : "rdfs_comment"
+DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "dct_issued"
+DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "rdfs_label"
+DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "rdfs_comment"
+DcamVocabularyEncodingScheme ||--|o RdfsResource : "rdfs_seeAlso"
+DcamVocabularyEncodingScheme ||--|o OwlOntology : "rdfs_isDefinedBy"
+DcamVocabularyEncodingScheme ||--|o RdfsResource : "rdfs_isDefinedBy"
+DctAgentClass ||--|o RdfsLiteral : "rdfs_label"
+DctAgentClass ||--|o RdfsLiteral : "rdfs_comment"
+DctAgentClass ||--|o RdfsLiteral : "dct_issued"
+DctAgentClass ||--|o OwlOntology : "rdfs_isDefinedBy"
+DctAgentClass ||--|o RdfsResource : "rdfs_isDefinedBy"
+TimeDayOfWeek ||--|o RdfsLiteral : "rdfs_label"
+TimeTemporalUnit ||--|o RdfsLiteral : "rdfs_label"
+BiboDocumentStatus ||--|o RdfsLiteral : "rdfs_label"
+BiboDocumentStatus ||--|o RdfsLiteral : "rdfs_comment"
+BiboThesisDegree ||--|o RdfsLiteral : "rdfs_label"
+BiboThesisDegree ||--|o RdfsLiteral : "rdfs_comment"
+QudtAngleUnit ||--|o RdfsLiteral : "rdfs_label"
+QudtAngleUnit ||--|o QudtQuantityKindDimensionVector : "qudt_hasDimensionVector"
+QudtAngleUnit ||--|o QudtQuantityKind : "qudt_hasQuantityKind"
+QudtAngleUnit ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtAngleUnit ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtAngleUnit ||--|o RdfsResource : "rdfs_seeAlso"
+QudtAngleUnit ||--|o QudtDerivedUnit : "qudt_scalingOf"
+QudtAngleUnit ||--|o QudtUnit : "qudt_scalingOf"
+QudtAngleUnit ||--|o QudtCountingUnit : "qudt_scalingOf"
+QudtAngleUnit ||--|o QudtCurrencyUnit : "qudt_scalingOf"
+QudtAngleUnit ||--|o QudtBinaryPrefix : "qudt_prefix"
+QudtAngleUnit ||--|o QudtPrefix : "qudt_prefix"
+QudtAngleUnit ||--|o QudtDecimalPrefix : "qudt_prefix"
+QudtAngleUnit ||--|o RdfsLiteral : "rdfs_comment"
+QudtAngleUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvNumerator"
+QudtAngleUnit ||--|o QudtDecimalPrefix : "qudt_exactMatch"
+QudtAngleUnit ||--|o QudtUnit : "qudt_exactMatch"
+QudtAngleUnit ||--|o QudtContextualUnit : "qudt_exactMatch"
+QudtAngleUnit ||--|o QudtDerivedUnit : "qudt_exactMatch"
+QudtAngleUnit ||--|o QudtCountingUnit : "qudt_exactMatch"
+QudtAngleUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvDenominator"
+QudtAngleUnit ||--|o ProvEntity : "prov_wasDerivedFrom"
+QudtAspectClass ||--|o RdfsLiteral : "rdfs_comment"
+QudtAspectClass ||--|o RdfsLiteral : "rdfs_label"
+QudtAspectClass ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtAspectClass ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtAspectClass ||--|o RdfsClass : "rdfs_subClassOf"
+QudtBinaryPrefix ||--|o RdfsLiteral : "rdfs_label"
+QudtBinaryPrefix ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtBinaryPrefix ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtBitEncodingType ||--|o RdfsLiteral : "rdfs_label"
+QudtBitEncodingType ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtBitEncodingType ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtBooleanEncodingType ||--|o RdfsLiteral : "rdfs_label"
+QudtBooleanEncodingType ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtBooleanEncodingType ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtByteEncodingType ||--|o RdfsLiteral : "rdfs_label"
+QudtByteEncodingType ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtByteEncodingType ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtCardinalityType ||--|o RdfsLiteral : "rdfs_label"
+QudtCardinalityType ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtCardinalityType ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtCharEncodingType ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtCharEncodingType ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtCharEncodingType ||--|o RdfsLiteral : "rdfs_label"
+QudtContextualUnit ||--|o QudtDerivedUnit : "qudt_scalingOf"
+QudtContextualUnit ||--|o QudtUnit : "qudt_scalingOf"
+QudtContextualUnit ||--|o QudtCountingUnit : "qudt_scalingOf"
+QudtContextualUnit ||--|o QudtCurrencyUnit : "qudt_scalingOf"
+QudtContextualUnit ||--|o QudtQuantityKind : "qudt_hasQuantityKind"
+QudtContextualUnit ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtContextualUnit ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtContextualUnit ||--|o RdfsLiteral : "rdfs_label"
+QudtContextualUnit ||--|o QudtDecimalPrefix : "qudt_exactMatch"
+QudtContextualUnit ||--|o QudtUnit : "qudt_exactMatch"
+QudtContextualUnit ||--|o QudtContextualUnit : "qudt_exactMatch"
+QudtContextualUnit ||--|o QudtDerivedUnit : "qudt_exactMatch"
+QudtContextualUnit ||--|o QudtCountingUnit : "qudt_exactMatch"
+QudtContextualUnit ||--|o QudtQuantityKindDimensionVector : "qudt_hasDimensionVector"
+QudtContextualUnit ||--|o RdfsResource : "rdfs_seeAlso"
+QudtContextualUnit ||--|o QudtBinaryPrefix : "qudt_prefix"
+QudtContextualUnit ||--|o QudtPrefix : "qudt_prefix"
+QudtContextualUnit ||--|o QudtDecimalPrefix : "qudt_prefix"
+QudtContextualUnit ||--|o RdfsLiteral : "rdfs_comment"
+QudtContextualUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvNumerator"
+QudtContextualUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvDenominator"
+QudtContextualUnit ||--|o ProvEntity : "prov_wasDerivedFrom"
+QudtCountingUnit ||--|o QudtDerivedUnit : "qudt_scalingOf"
+QudtCountingUnit ||--|o QudtUnit : "qudt_scalingOf"
+QudtCountingUnit ||--|o QudtCountingUnit : "qudt_scalingOf"
+QudtCountingUnit ||--|o QudtCurrencyUnit : "qudt_scalingOf"
+QudtCountingUnit ||--|o QudtBinaryPrefix : "qudt_prefix"
+QudtCountingUnit ||--|o QudtPrefix : "qudt_prefix"
+QudtCountingUnit ||--|o QudtDecimalPrefix : "qudt_prefix"
+QudtCountingUnit ||--|o QudtQuantityKind : "qudt_hasQuantityKind"
+QudtCountingUnit ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtCountingUnit ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtCountingUnit ||--|o RdfsLiteral : "rdfs_label"
+QudtCountingUnit ||--|o QudtDecimalPrefix : "qudt_exactMatch"
+QudtCountingUnit ||--|o QudtUnit : "qudt_exactMatch"
+QudtCountingUnit ||--|o QudtContextualUnit : "qudt_exactMatch"
+QudtCountingUnit ||--|o QudtDerivedUnit : "qudt_exactMatch"
+QudtCountingUnit ||--|o QudtCountingUnit : "qudt_exactMatch"
+QudtCountingUnit ||--|o QudtQuantityKindDimensionVector : "qudt_hasDimensionVector"
+QudtCountingUnit ||--|o RdfsResource : "rdfs_seeAlso"
+QudtCountingUnit ||--|o RdfsLiteral : "rdfs_comment"
+QudtCountingUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvNumerator"
+QudtCountingUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvDenominator"
+QudtCountingUnit ||--|o ProvEntity : "prov_wasDerivedFrom"
+QudtCurrencyUnit ||--|o RdfsLiteral : "rdfs_label"
+QudtCurrencyUnit ||--|o QudtQuantityKindDimensionVector : "qudt_hasDimensionVector"
+QudtCurrencyUnit ||--|o QudtQuantityKind : "qudt_hasQuantityKind"
+QudtCurrencyUnit ||--|o QudtBinaryPrefix : "qudt_prefix"
+QudtCurrencyUnit ||--|o QudtPrefix : "qudt_prefix"
+QudtCurrencyUnit ||--|o QudtDecimalPrefix : "qudt_prefix"
+QudtCurrencyUnit ||--|o QudtDerivedUnit : "qudt_scalingOf"
+QudtCurrencyUnit ||--|o QudtUnit : "qudt_scalingOf"
+QudtCurrencyUnit ||--|o QudtCountingUnit : "qudt_scalingOf"
+QudtCurrencyUnit ||--|o QudtCurrencyUnit : "qudt_scalingOf"
+QudtCurrencyUnit ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtCurrencyUnit ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtCurrencyUnit ||--|o RdfsResource : "rdfs_seeAlso"
+QudtCurrencyUnit ||--|o RdfsLiteral : "rdfs_comment"
+QudtCurrencyUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvNumerator"
+QudtCurrencyUnit ||--|o QudtDecimalPrefix : "qudt_exactMatch"
+QudtCurrencyUnit ||--|o QudtUnit : "qudt_exactMatch"
+QudtCurrencyUnit ||--|o QudtContextualUnit : "qudt_exactMatch"
+QudtCurrencyUnit ||--|o QudtDerivedUnit : "qudt_exactMatch"
+QudtCurrencyUnit ||--|o QudtCountingUnit : "qudt_exactMatch"
+QudtCurrencyUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvDenominator"
+QudtCurrencyUnit ||--|o ProvEntity : "prov_wasDerivedFrom"
+QudtDateTimeStringEncodingType ||--|o RdfsLiteral : "rdfs_label"
+QudtDateTimeStringEncodingType ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtDateTimeStringEncodingType ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtDecimalPrefix ||--|o RdfsLiteral : "rdfs_label"
+QudtDecimalPrefix ||--|o QudtDecimalPrefix : "qudt_exactMatch"
+QudtDecimalPrefix ||--|o QudtUnit : "qudt_exactMatch"
+QudtDecimalPrefix ||--|o QudtContextualUnit : "qudt_exactMatch"
+QudtDecimalPrefix ||--|o QudtDerivedUnit : "qudt_exactMatch"
+QudtDecimalPrefix ||--|o QudtCountingUnit : "qudt_exactMatch"
+QudtDecimalPrefix ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtDecimalPrefix ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtDerivedUnit ||--|o RdfsResource : "rdfs_seeAlso"
+QudtDerivedUnit ||--|o QudtDerivedUnit : "qudt_scalingOf"
+QudtDerivedUnit ||--|o QudtUnit : "qudt_scalingOf"
+QudtDerivedUnit ||--|o QudtCountingUnit : "qudt_scalingOf"
+QudtDerivedUnit ||--|o QudtCurrencyUnit : "qudt_scalingOf"
+QudtDerivedUnit ||--|o QudtBinaryPrefix : "qudt_prefix"
+QudtDerivedUnit ||--|o QudtPrefix : "qudt_prefix"
+QudtDerivedUnit ||--|o QudtDecimalPrefix : "qudt_prefix"
+QudtDerivedUnit ||--|o QudtQuantityKind : "qudt_hasQuantityKind"
+QudtDerivedUnit ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtDerivedUnit ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtDerivedUnit ||--|o RdfsLiteral : "rdfs_comment"
+QudtDerivedUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvNumerator"
+QudtDerivedUnit ||--|o RdfsLiteral : "rdfs_label"
+QudtDerivedUnit ||--|o QudtDecimalPrefix : "qudt_exactMatch"
+QudtDerivedUnit ||--|o QudtUnit : "qudt_exactMatch"
+QudtDerivedUnit ||--|o QudtContextualUnit : "qudt_exactMatch"
+QudtDerivedUnit ||--|o QudtDerivedUnit : "qudt_exactMatch"
+QudtDerivedUnit ||--|o QudtCountingUnit : "qudt_exactMatch"
+QudtDerivedUnit ||--|o QudtQuantityKindDimensionVector : "qudt_hasDimensionVector"
+QudtDerivedUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvDenominator"
+QudtDerivedUnit ||--|o ProvEntity : "prov_wasDerivedFrom"
+QudtDimensionlessUnit ||--|o RdfsLiteral : "rdfs_label"
+QudtDimensionlessUnit ||--|o QudtQuantityKindDimensionVector : "qudt_hasDimensionVector"
+QudtDimensionlessUnit ||--|o QudtQuantityKind : "qudt_hasQuantityKind"
+QudtDimensionlessUnit ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtDimensionlessUnit ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtDimensionlessUnit ||--|o RdfsResource : "rdfs_seeAlso"
+QudtDimensionlessUnit ||--|o QudtDerivedUnit : "qudt_scalingOf"
+QudtDimensionlessUnit ||--|o QudtUnit : "qudt_scalingOf"
+QudtDimensionlessUnit ||--|o QudtCountingUnit : "qudt_scalingOf"
+QudtDimensionlessUnit ||--|o QudtCurrencyUnit : "qudt_scalingOf"
+QudtDimensionlessUnit ||--|o QudtBinaryPrefix : "qudt_prefix"
+QudtDimensionlessUnit ||--|o QudtPrefix : "qudt_prefix"
+QudtDimensionlessUnit ||--|o QudtDecimalPrefix : "qudt_prefix"
+QudtDimensionlessUnit ||--|o RdfsLiteral : "rdfs_comment"
+QudtDimensionlessUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvNumerator"
+QudtDimensionlessUnit ||--|o QudtDecimalPrefix : "qudt_exactMatch"
+QudtDimensionlessUnit ||--|o QudtUnit : "qudt_exactMatch"
+QudtDimensionlessUnit ||--|o QudtContextualUnit : "qudt_exactMatch"
+QudtDimensionlessUnit ||--|o QudtDerivedUnit : "qudt_exactMatch"
+QudtDimensionlessUnit ||--|o QudtCountingUnit : "qudt_exactMatch"
+QudtDimensionlessUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvDenominator"
+QudtDimensionlessUnit ||--|o ProvEntity : "prov_wasDerivedFrom"
+QudtEndianType ||--|o RdfsLiteral : "rdfs_label"
+QudtEndianType ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtEndianType ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtFloatingPointEncodingType ||--|o RdfsLiteral : "rdfs_label"
+QudtFloatingPointEncodingType ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtFloatingPointEncodingType ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtIntegerEncodingType ||--|o RdfsLiteral : "rdfs_label"
+QudtIntegerEncodingType ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtIntegerEncodingType ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtLogarithmicUnit ||--|o RdfsLiteral : "rdfs_label"
+QudtLogarithmicUnit ||--|o QudtQuantityKindDimensionVector : "qudt_hasDimensionVector"
+QudtLogarithmicUnit ||--|o QudtQuantityKind : "qudt_hasQuantityKind"
+QudtLogarithmicUnit ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtLogarithmicUnit ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtLogarithmicUnit ||--|o RdfsResource : "rdfs_seeAlso"
+QudtLogarithmicUnit ||--|o QudtDerivedUnit : "qudt_scalingOf"
+QudtLogarithmicUnit ||--|o QudtUnit : "qudt_scalingOf"
+QudtLogarithmicUnit ||--|o QudtCountingUnit : "qudt_scalingOf"
+QudtLogarithmicUnit ||--|o QudtCurrencyUnit : "qudt_scalingOf"
+QudtLogarithmicUnit ||--|o QudtBinaryPrefix : "qudt_prefix"
+QudtLogarithmicUnit ||--|o QudtPrefix : "qudt_prefix"
+QudtLogarithmicUnit ||--|o QudtDecimalPrefix : "qudt_prefix"
+QudtLogarithmicUnit ||--|o RdfsLiteral : "rdfs_comment"
+QudtLogarithmicUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvNumerator"
+QudtLogarithmicUnit ||--|o QudtDecimalPrefix : "qudt_exactMatch"
+QudtLogarithmicUnit ||--|o QudtUnit : "qudt_exactMatch"
+QudtLogarithmicUnit ||--|o QudtContextualUnit : "qudt_exactMatch"
+QudtLogarithmicUnit ||--|o QudtDerivedUnit : "qudt_exactMatch"
+QudtLogarithmicUnit ||--|o QudtCountingUnit : "qudt_exactMatch"
+QudtLogarithmicUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvDenominator"
+QudtLogarithmicUnit ||--|o ProvEntity : "prov_wasDerivedFrom"
+QudtOrderedType ||--|o RdfsLiteral : "rdfs_label"
+QudtOrderedType ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtOrderedType ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtPlaneAngleUnit ||--|o RdfsLiteral : "rdfs_label"
+QudtPlaneAngleUnit ||--|o QudtQuantityKindDimensionVector : "qudt_hasDimensionVector"
+QudtPlaneAngleUnit ||--|o QudtQuantityKind : "qudt_hasQuantityKind"
+QudtPlaneAngleUnit ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtPlaneAngleUnit ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtPlaneAngleUnit ||--|o RdfsResource : "rdfs_seeAlso"
+QudtPlaneAngleUnit ||--|o QudtDerivedUnit : "qudt_scalingOf"
+QudtPlaneAngleUnit ||--|o QudtUnit : "qudt_scalingOf"
+QudtPlaneAngleUnit ||--|o QudtCountingUnit : "qudt_scalingOf"
+QudtPlaneAngleUnit ||--|o QudtCurrencyUnit : "qudt_scalingOf"
+QudtPlaneAngleUnit ||--|o QudtBinaryPrefix : "qudt_prefix"
+QudtPlaneAngleUnit ||--|o QudtPrefix : "qudt_prefix"
+QudtPlaneAngleUnit ||--|o QudtDecimalPrefix : "qudt_prefix"
+QudtPlaneAngleUnit ||--|o RdfsLiteral : "rdfs_comment"
+QudtPlaneAngleUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvNumerator"
+QudtPlaneAngleUnit ||--|o QudtDecimalPrefix : "qudt_exactMatch"
+QudtPlaneAngleUnit ||--|o QudtUnit : "qudt_exactMatch"
+QudtPlaneAngleUnit ||--|o QudtContextualUnit : "qudt_exactMatch"
+QudtPlaneAngleUnit ||--|o QudtDerivedUnit : "qudt_exactMatch"
+QudtPlaneAngleUnit ||--|o QudtCountingUnit : "qudt_exactMatch"
+QudtPlaneAngleUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvDenominator"
+QudtPlaneAngleUnit ||--|o ProvEntity : "prov_wasDerivedFrom"
+QudtSignednessType ||--|o RdfsLiteral : "rdfs_label"
+QudtSignednessType ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtSignednessType ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtSolidAngleUnit ||--|o RdfsLiteral : "rdfs_label"
+QudtSolidAngleUnit ||--|o QudtQuantityKindDimensionVector : "qudt_hasDimensionVector"
+QudtSolidAngleUnit ||--|o QudtQuantityKind : "qudt_hasQuantityKind"
+QudtSolidAngleUnit ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtSolidAngleUnit ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtSolidAngleUnit ||--|o RdfsResource : "rdfs_seeAlso"
+QudtSolidAngleUnit ||--|o QudtDerivedUnit : "qudt_scalingOf"
+QudtSolidAngleUnit ||--|o QudtUnit : "qudt_scalingOf"
+QudtSolidAngleUnit ||--|o QudtCountingUnit : "qudt_scalingOf"
+QudtSolidAngleUnit ||--|o QudtCurrencyUnit : "qudt_scalingOf"
+QudtSolidAngleUnit ||--|o QudtBinaryPrefix : "qudt_prefix"
+QudtSolidAngleUnit ||--|o QudtPrefix : "qudt_prefix"
+QudtSolidAngleUnit ||--|o QudtDecimalPrefix : "qudt_prefix"
+QudtSolidAngleUnit ||--|o RdfsLiteral : "rdfs_comment"
+QudtSolidAngleUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvNumerator"
+QudtSolidAngleUnit ||--|o QudtDecimalPrefix : "qudt_exactMatch"
+QudtSolidAngleUnit ||--|o QudtUnit : "qudt_exactMatch"
+QudtSolidAngleUnit ||--|o QudtContextualUnit : "qudt_exactMatch"
+QudtSolidAngleUnit ||--|o QudtDerivedUnit : "qudt_exactMatch"
+QudtSolidAngleUnit ||--|o QudtCountingUnit : "qudt_exactMatch"
+QudtSolidAngleUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvDenominator"
+QudtSolidAngleUnit ||--|o ProvEntity : "prov_wasDerivedFrom"
+QudtUnit ||--|o RdfsResource : "rdfs_seeAlso"
+QudtUnit ||--|o QudtDerivedUnit : "qudt_scalingOf"
+QudtUnit ||--|o QudtUnit : "qudt_scalingOf"
+QudtUnit ||--|o QudtCountingUnit : "qudt_scalingOf"
+QudtUnit ||--|o QudtCurrencyUnit : "qudt_scalingOf"
+QudtUnit ||--|o QudtBinaryPrefix : "qudt_prefix"
+QudtUnit ||--|o QudtPrefix : "qudt_prefix"
+QudtUnit ||--|o QudtDecimalPrefix : "qudt_prefix"
+QudtUnit ||--|o QudtQuantityKind : "qudt_hasQuantityKind"
+QudtUnit ||--|o OwlOntology : "rdfs_isDefinedBy"
+QudtUnit ||--|o RdfsResource : "rdfs_isDefinedBy"
+QudtUnit ||--|o RdfsLiteral : "rdfs_comment"
+QudtUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvNumerator"
+QudtUnit ||--|o RdfsLiteral : "rdfs_label"
+QudtUnit ||--|o QudtDecimalPrefix : "qudt_exactMatch"
+QudtUnit ||--|o QudtUnit : "qudt_exactMatch"
+QudtUnit ||--|o QudtContextualUnit : "qudt_exactMatch"
+QudtUnit ||--|o QudtDerivedUnit : "qudt_exactMatch"
+QudtUnit ||--|o QudtCountingUnit : "qudt_exactMatch"
+QudtUnit ||--|o QudtQuantityKindDimensionVector : "qudt_hasDimensionVector"
+QudtUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvDenominator"
+QudtUnit ||--|o ProvEntity : "prov_wasDerivedFrom"
+KwgoAirPollutant ||--|o RdfsLiteral : "rdfs_label"
+KwgoBlueskyWildfireObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoCensusObservableProperty ||--|o RdfsLiteral : "rdfs_comment"
+KwgoCensusObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoCensusObservableProperty ||--|o OwlOntology : "rdfs_isDefinedBy"
+KwgoCensusObservableProperty ||--|o RdfsResource : "rdfs_isDefinedBy"
+KwgoClimateObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoCroplandObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoDroughtIntensity ||--|o RdfsLiteral : "rdfs_label"
+KwgoFireCause ||--|o RdfsLiteral : "rdfs_label"
+KwgoHelipadAvailability ||--|o RdfsLiteral : "rdfs_label"
+KwgoHospitalStatus ||--|o RdfsLiteral : "rdfs_label"
+KwgoHospitalType ||--|o RdfsLiteral : "rdfs_label"
+KwgoImpactObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoLSADArea ||--|o RdfsLiteral : "rdfs_comment"
+KwgoLSADArea ||--|o RdfsLiteral : "rdfs_label"
+KwgoMTBSFireObservableProperty ||--|o RdfsLiteral : "rdfs_comment"
+KwgoMTBSFireObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoMagnitudeObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoNIFCFireObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoPublicHealthObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoRoadType ||--|o RdfsLiteral : "rdfs_label"
+KwgoSmokePlumeObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoSoilMapUnitObservableProperty ||--|o RdfsLiteral : "rdfs_comment"
+KwgoSoilMapUnitObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoStormTrackObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoStormTrackletObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoVulnerabilityObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+VaemGraphMetaData ||--|o VaemGraphRole : "vaem_hasGraphRole"
+VaemGraphMetaData ||--|o VaemParty : "vaem_hasOwner"
+VaemGraphMetaData ||--|o RdfsLiteral : "dct_title"
+VaemGraphMetaData ||--|o OwlAnnotationProperty : "vaem_usesNonImportedResource"
+VaemGraphMetaData ||--|o RdfsResource : "vaem_usesNonImportedResource"
+VaemGraphMetaData ||--|o RdfsLiteral : "dct_created"
+VaemGraphMetaData ||--|o VaemParty : "vaem_hasSteward"
+VaemGraphMetaData ||--|o RdfsLiteral : "rdfs_label"
+VaemGraphMetaData ||--|o OwlOntology : "rdfs_isDefinedBy"
+VaemGraphMetaData ||--|o RdfsResource : "rdfs_isDefinedBy"
+VaemGraphMetaData ||--|o RdfsLiteral : "dct_modified"
+VaemGraphRole ||--|o RdfsLiteral : "rdfs_label"
+VaemGraphRole ||--|o OwlOntology : "rdfs_isDefinedBy"
+VaemGraphRole ||--|o RdfsResource : "rdfs_isDefinedBy"
+VaemParty ||--|o RdfsLiteral : "rdfs_label"
+VaemParty ||--|o OwlOntology : "rdfs_isDefinedBy"
+VaemParty ||--|o RdfsResource : "rdfs_isDefinedBy"
+SdosActionStatusType ||--|o RdfsLiteral : "rdfs_comment"
+SdosActionStatusType ||--|o RdfsLiteral : "rdfs_label"
+SdosAdultOrientedEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosAdultOrientedEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosAdultOrientedEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosAdultOrientedEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosBoardingPolicyType ||--|o RdfsLiteral : "rdfs_comment"
+SdosBoardingPolicyType ||--|o RdfsLiteral : "rdfs_label"
+SdosBodyMeasurementTypeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosBodyMeasurementTypeEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosBodyMeasurementTypeEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosBodyMeasurementTypeEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosBookFormatType ||--|o RdfsLiteral : "rdfs_comment"
+SdosBookFormatType ||--|o RdfsLiteral : "rdfs_label"
+SdosBookFormatType ||--|o SdosURL : "sdos_isPartOf"
+SdosBookFormatType ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosBoolean ||--|o RdfsLiteral : "rdfs_comment"
+SdosBoolean ||--|o RdfsLiteral : "rdfs_label"
+SdosCarUsageType ||--|o SdosOrganization : "sdos_contributor"
+SdosCarUsageType ||--|o SdosPerson : "sdos_contributor"
+SdosCarUsageType ||--|o RdfsLiteral : "rdfs_comment"
+SdosCarUsageType ||--|o RdfsLiteral : "rdfs_label"
+SdosCarUsageType ||--|o SdosURL : "sdos_isPartOf"
+SdosCarUsageType ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosCertificationStatusEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosCertificationStatusEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosCertificationStatusEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosCertificationStatusEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosContactPointOption ||--|o RdfsLiteral : "rdfs_comment"
+SdosContactPointOption ||--|o RdfsLiteral : "rdfs_label"
+SdosDataType ||--|o RdfsLiteral : "rdfs_comment"
+SdosDataType ||--|o RdfsLiteral : "rdfs_label"
+SdosDayOfWeek ||--|o SdosOrganization : "sdos_contributor"
+SdosDayOfWeek ||--|o SdosPerson : "sdos_contributor"
+SdosDayOfWeek ||--|o RdfsLiteral : "rdfs_comment"
+SdosDayOfWeek ||--|o RdfsLiteral : "rdfs_label"
+SdosDayOfWeek ||--|o SdosURL : "sdos_sameAs"
+SdosDeliveryMethod ||--|o SdosOrganization : "sdos_contributor"
+SdosDeliveryMethod ||--|o SdosPerson : "sdos_contributor"
+SdosDeliveryMethod ||--|o RdfsLiteral : "rdfs_comment"
+SdosDeliveryMethod ||--|o RdfsLiteral : "rdfs_label"
+SdosDigitalDocumentPermissionType ||--|o RdfsLiteral : "rdfs_comment"
+SdosDigitalDocumentPermissionType ||--|o RdfsLiteral : "rdfs_label"
+SdosDigitalPlatformEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosDigitalPlatformEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosDigitalPlatformEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosDigitalPlatformEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosDriveWheelConfigurationValue ||--|o SdosOrganization : "sdos_contributor"
+SdosDriveWheelConfigurationValue ||--|o SdosPerson : "sdos_contributor"
+SdosDriveWheelConfigurationValue ||--|o RdfsLiteral : "rdfs_comment"
+SdosDriveWheelConfigurationValue ||--|o RdfsLiteral : "rdfs_label"
+SdosDrugCostCategory ||--|o RdfsLiteral : "rdfs_comment"
+SdosDrugCostCategory ||--|o RdfsLiteral : "rdfs_label"
+SdosDrugCostCategory ||--|o SdosURL : "sdos_isPartOf"
+SdosDrugCostCategory ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosDrugPregnancyCategory ||--|o RdfsLiteral : "rdfs_comment"
+SdosDrugPregnancyCategory ||--|o RdfsLiteral : "rdfs_label"
+SdosDrugPregnancyCategory ||--|o SdosURL : "sdos_isPartOf"
+SdosDrugPregnancyCategory ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosDrugPrescriptionStatus ||--|o RdfsLiteral : "rdfs_comment"
+SdosDrugPrescriptionStatus ||--|o RdfsLiteral : "rdfs_label"
+SdosDrugPrescriptionStatus ||--|o SdosURL : "sdos_isPartOf"
+SdosDrugPrescriptionStatus ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosEUEnergyEfficiencyEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosEUEnergyEfficiencyEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosEUEnergyEfficiencyEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosEUEnergyEfficiencyEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosEnergyStarEnergyEfficiencyEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosEnergyStarEnergyEfficiencyEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosEnergyStarEnergyEfficiencyEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosEnergyStarEnergyEfficiencyEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosEventAttendanceModeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosEventAttendanceModeEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosEventAttendanceModeEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosEventAttendanceModeEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosEventStatusType ||--|o RdfsLiteral : "rdfs_comment"
+SdosEventStatusType ||--|o RdfsLiteral : "rdfs_label"
+SdosFulfillmentTypeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosFulfillmentTypeEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosFulfillmentTypeEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosFulfillmentTypeEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosGameAvailabilityEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosGameAvailabilityEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosGameAvailabilityEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosGameAvailabilityEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosGamePlayMode ||--|o RdfsLiteral : "rdfs_comment"
+SdosGamePlayMode ||--|o RdfsLiteral : "rdfs_label"
+SdosGameServerStatus ||--|o RdfsLiteral : "rdfs_comment"
+SdosGameServerStatus ||--|o RdfsLiteral : "rdfs_label"
+SdosGenderType ||--|o RdfsLiteral : "rdfs_comment"
+SdosGenderType ||--|o RdfsLiteral : "rdfs_label"
+SdosGovernmentBenefitsType ||--|o RdfsLiteral : "rdfs_comment"
+SdosGovernmentBenefitsType ||--|o RdfsLiteral : "rdfs_label"
+SdosGovernmentBenefitsType ||--|o SdosURL : "sdos_isPartOf"
+SdosGovernmentBenefitsType ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosHealthAspectEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosHealthAspectEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosHealthAspectEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosHealthAspectEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosIPTCDigitalSourceEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosIPTCDigitalSourceEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosIPTCDigitalSourceEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosIPTCDigitalSourceEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosIncentiveQualifiedExpenseType ||--|o RdfsLiteral : "rdfs_comment"
+SdosIncentiveQualifiedExpenseType ||--|o RdfsLiteral : "rdfs_label"
+SdosIncentiveQualifiedExpenseType ||--|o SdosURL : "sdos_isPartOf"
+SdosIncentiveQualifiedExpenseType ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosIncentiveStatus ||--|o RdfsLiteral : "rdfs_comment"
+SdosIncentiveStatus ||--|o RdfsLiteral : "rdfs_label"
+SdosIncentiveStatus ||--|o SdosURL : "sdos_isPartOf"
+SdosIncentiveStatus ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosIncentiveType ||--|o RdfsLiteral : "rdfs_comment"
+SdosIncentiveType ||--|o RdfsLiteral : "rdfs_label"
+SdosIncentiveType ||--|o SdosURL : "sdos_isPartOf"
+SdosIncentiveType ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosInfectiousAgentClass ||--|o RdfsLiteral : "rdfs_comment"
+SdosInfectiousAgentClass ||--|o RdfsLiteral : "rdfs_label"
+SdosInfectiousAgentClass ||--|o SdosURL : "sdos_isPartOf"
+SdosInfectiousAgentClass ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosItemAvailability ||--|o RdfsLiteral : "rdfs_comment"
+SdosItemAvailability ||--|o RdfsLiteral : "rdfs_label"
+SdosItemListOrderType ||--|o RdfsLiteral : "rdfs_comment"
+SdosItemListOrderType ||--|o RdfsLiteral : "rdfs_label"
+SdosLegalForceStatus ||--|o RdfsLiteral : "rdfs_label"
+SdosLegalForceStatus ||--|o SdosURL : "sdos_isPartOf"
+SdosLegalForceStatus ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosLegalForceStatus ||--|o SdosOrganization : "sdos_contributor"
+SdosLegalForceStatus ||--|o SdosPerson : "sdos_contributor"
+SdosLegalForceStatus ||--|o RdfsLiteral : "rdfs_comment"
+SdosLegalValueLevel ||--|o RdfsLiteral : "rdfs_label"
+SdosLegalValueLevel ||--|o SdosURL : "sdos_isPartOf"
+SdosLegalValueLevel ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosLegalValueLevel ||--|o SdosOrganization : "sdos_contributor"
+SdosLegalValueLevel ||--|o SdosPerson : "sdos_contributor"
+SdosLegalValueLevel ||--|o RdfsLiteral : "rdfs_comment"
+SdosMapCategoryType ||--|o RdfsLiteral : "rdfs_comment"
+SdosMapCategoryType ||--|o RdfsLiteral : "rdfs_label"
+SdosMeasurementMethodEnum ||--|o RdfsLiteral : "rdfs_comment"
+SdosMeasurementMethodEnum ||--|o RdfsLiteral : "rdfs_label"
+SdosMeasurementMethodEnum ||--|o SdosURL : "sdos_isPartOf"
+SdosMeasurementMethodEnum ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosMediaManipulationRatingEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosMediaManipulationRatingEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosMediaManipulationRatingEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosMediaManipulationRatingEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosMedicalAudienceType ||--|o RdfsLiteral : "rdfs_comment"
+SdosMedicalAudienceType ||--|o RdfsLiteral : "rdfs_label"
+SdosMedicalAudienceType ||--|o SdosURL : "sdos_isPartOf"
+SdosMedicalAudienceType ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosMedicalDevicePurpose ||--|o RdfsLiteral : "rdfs_comment"
+SdosMedicalDevicePurpose ||--|o RdfsLiteral : "rdfs_label"
+SdosMedicalDevicePurpose ||--|o SdosURL : "sdos_isPartOf"
+SdosMedicalDevicePurpose ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosMedicalEvidenceLevel ||--|o RdfsLiteral : "rdfs_comment"
+SdosMedicalEvidenceLevel ||--|o RdfsLiteral : "rdfs_label"
+SdosMedicalEvidenceLevel ||--|o SdosURL : "sdos_isPartOf"
+SdosMedicalEvidenceLevel ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosMedicalImagingTechnique ||--|o RdfsLiteral : "rdfs_comment"
+SdosMedicalImagingTechnique ||--|o RdfsLiteral : "rdfs_label"
+SdosMedicalImagingTechnique ||--|o SdosURL : "sdos_isPartOf"
+SdosMedicalImagingTechnique ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosMedicalObservationalStudyDesign ||--|o RdfsLiteral : "rdfs_comment"
+SdosMedicalObservationalStudyDesign ||--|o RdfsLiteral : "rdfs_label"
+SdosMedicalObservationalStudyDesign ||--|o SdosURL : "sdos_isPartOf"
+SdosMedicalObservationalStudyDesign ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosMedicalProcedureType ||--|o RdfsLiteral : "rdfs_comment"
+SdosMedicalProcedureType ||--|o RdfsLiteral : "rdfs_label"
+SdosMedicalProcedureType ||--|o SdosURL : "sdos_isPartOf"
+SdosMedicalProcedureType ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosMedicalSpecialty ||--|o RdfsLiteral : "rdfs_label"
+SdosMedicalSpecialty ||--|o SdosURL : "sdos_isPartOf"
+SdosMedicalSpecialty ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosMedicalSpecialty ||--|o RdfsLiteral : "rdfs_comment"
+SdosMedicalSpecialty ||--|o SdosMerchantReturnEnumeration : "sdos_supersededBy"
+SdosMedicalSpecialty ||--|o SdosEnumeration : "sdos_supersededBy"
+SdosMedicalSpecialty ||--|o SdosProperty : "sdos_supersededBy"
+SdosMedicalSpecialty ||--|o SdosMedicalSpecialty : "sdos_supersededBy"
+SdosMedicalSpecialty ||--|o SdosClass : "sdos_supersededBy"
+SdosMedicalSpecialty ||--|o RdfsClass : "rdfs_subClassOf"
+SdosMedicalStudyStatus ||--|o RdfsLiteral : "rdfs_comment"
+SdosMedicalStudyStatus ||--|o RdfsLiteral : "rdfs_label"
+SdosMedicalStudyStatus ||--|o SdosURL : "sdos_isPartOf"
+SdosMedicalStudyStatus ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosMedicalTrialDesign ||--|o RdfsLiteral : "rdfs_comment"
+SdosMedicalTrialDesign ||--|o RdfsLiteral : "rdfs_label"
+SdosMedicalTrialDesign ||--|o SdosURL : "sdos_isPartOf"
+SdosMedicalTrialDesign ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosMedicineSystem ||--|o RdfsLiteral : "rdfs_comment"
+SdosMedicineSystem ||--|o RdfsLiteral : "rdfs_label"
+SdosMedicineSystem ||--|o SdosURL : "sdos_isPartOf"
+SdosMedicineSystem ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosMerchantReturnEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosMerchantReturnEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosMerchantReturnEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosMerchantReturnEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosMusicAlbumProductionType ||--|o SdosOrganization : "sdos_contributor"
+SdosMusicAlbumProductionType ||--|o SdosPerson : "sdos_contributor"
+SdosMusicAlbumProductionType ||--|o RdfsLiteral : "rdfs_comment"
+SdosMusicAlbumProductionType ||--|o RdfsLiteral : "rdfs_label"
+SdosMusicAlbumReleaseType ||--|o SdosOrganization : "sdos_contributor"
+SdosMusicAlbumReleaseType ||--|o SdosPerson : "sdos_contributor"
+SdosMusicAlbumReleaseType ||--|o RdfsLiteral : "rdfs_comment"
+SdosMusicAlbumReleaseType ||--|o RdfsLiteral : "rdfs_label"
+SdosMusicReleaseFormatType ||--|o SdosOrganization : "sdos_contributor"
+SdosMusicReleaseFormatType ||--|o SdosPerson : "sdos_contributor"
+SdosMusicReleaseFormatType ||--|o RdfsLiteral : "rdfs_comment"
+SdosMusicReleaseFormatType ||--|o RdfsLiteral : "rdfs_label"
+SdosNLNonprofitType ||--|o RdfsLiteral : "rdfs_comment"
+SdosNLNonprofitType ||--|o RdfsLiteral : "rdfs_label"
+SdosNLNonprofitType ||--|o SdosURL : "sdos_isPartOf"
+SdosNLNonprofitType ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosOfferItemCondition ||--|o RdfsLiteral : "rdfs_comment"
+SdosOfferItemCondition ||--|o RdfsLiteral : "rdfs_label"
+SdosOrderStatus ||--|o RdfsLiteral : "rdfs_comment"
+SdosOrderStatus ||--|o RdfsLiteral : "rdfs_label"
+SdosPaymentMethodType ||--|o RdfsLiteral : "rdfs_comment"
+SdosPaymentMethodType ||--|o RdfsLiteral : "rdfs_label"
+SdosPaymentStatusType ||--|o RdfsLiteral : "rdfs_comment"
+SdosPaymentStatusType ||--|o RdfsLiteral : "rdfs_label"
+SdosPhysicalActivityCategory ||--|o RdfsLiteral : "rdfs_comment"
+SdosPhysicalActivityCategory ||--|o RdfsLiteral : "rdfs_label"
+SdosPhysicalActivityCategory ||--|o SdosURL : "sdos_isPartOf"
+SdosPhysicalActivityCategory ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosPhysicalExam ||--|o RdfsLiteral : "rdfs_comment"
+SdosPhysicalExam ||--|o RdfsLiteral : "rdfs_label"
+SdosPhysicalExam ||--|o SdosURL : "sdos_isPartOf"
+SdosPhysicalExam ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosPriceComponentTypeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosPriceComponentTypeEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosPriceComponentTypeEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosPriceComponentTypeEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosPriceTypeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosPriceTypeEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosPriceTypeEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosPriceTypeEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosProductReturnEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosProductReturnEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosProductReturnEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosProductReturnEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosProductReturnEnumeration ||--|o SdosMerchantReturnEnumeration : "sdos_supersededBy"
+SdosProductReturnEnumeration ||--|o SdosEnumeration : "sdos_supersededBy"
+SdosProductReturnEnumeration ||--|o SdosProperty : "sdos_supersededBy"
+SdosProductReturnEnumeration ||--|o SdosMedicalSpecialty : "sdos_supersededBy"
+SdosProductReturnEnumeration ||--|o SdosClass : "sdos_supersededBy"
+SdosPurchaseType ||--|o RdfsLiteral : "rdfs_comment"
+SdosPurchaseType ||--|o RdfsLiteral : "rdfs_label"
+SdosPurchaseType ||--|o SdosURL : "sdos_isPartOf"
+SdosPurchaseType ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosRefundTypeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosRefundTypeEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosRefundTypeEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosRefundTypeEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosReservationStatusType ||--|o RdfsLiteral : "rdfs_comment"
+SdosReservationStatusType ||--|o RdfsLiteral : "rdfs_label"
+SdosRestrictedDiet ||--|o RdfsLiteral : "rdfs_comment"
+SdosRestrictedDiet ||--|o RdfsLiteral : "rdfs_label"
+SdosReturnFeesEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosReturnFeesEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosReturnFeesEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosReturnFeesEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosReturnLabelSourceEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosReturnLabelSourceEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosReturnLabelSourceEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosReturnLabelSourceEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosReturnMethodEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosReturnMethodEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosReturnMethodEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosReturnMethodEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosRsvpResponseType ||--|o RdfsLiteral : "rdfs_comment"
+SdosRsvpResponseType ||--|o RdfsLiteral : "rdfs_label"
+SdosSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosSizeSystemEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosSizeSystemEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosSteeringPositionValue ||--|o SdosOrganization : "sdos_contributor"
+SdosSteeringPositionValue ||--|o SdosPerson : "sdos_contributor"
+SdosSteeringPositionValue ||--|o RdfsLiteral : "rdfs_comment"
+SdosSteeringPositionValue ||--|o RdfsLiteral : "rdfs_label"
+SdosTierBenefitEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosTierBenefitEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosTierBenefitEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosTierBenefitEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosUKNonprofitType ||--|o RdfsLiteral : "rdfs_comment"
+SdosUKNonprofitType ||--|o RdfsLiteral : "rdfs_label"
+SdosUKNonprofitType ||--|o SdosURL : "sdos_isPartOf"
+SdosUKNonprofitType ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosUSNonprofitType ||--|o RdfsLiteral : "rdfs_comment"
+SdosUSNonprofitType ||--|o RdfsLiteral : "rdfs_label"
+SdosUSNonprofitType ||--|o SdosURL : "sdos_isPartOf"
+SdosUSNonprofitType ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosWearableMeasurementTypeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosWearableMeasurementTypeEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosWearableMeasurementTypeEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosWearableMeasurementTypeEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosWearableSizeGroupEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosWearableSizeGroupEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosWearableSizeGroupEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosWearableSizeGroupEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SdosWearableSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosWearableSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_label"
+SdosWearableSizeSystemEnumeration ||--|o SdosURL : "sdos_isPartOf"
+SdosWearableSizeSystemEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+AdmsSemanticAssetDistribution ||--|o SkosConcept : "adms_status"
+RdfDatatypeProperty ||--|o RdfsClass : "rdfs_domain"
+RdfDatatypeProperty ||--|o RdfsLiteral : "rdfs_comment"
+RdfDatatypeProperty ||--|o RdfsLiteral : "rdfs_label"
+VaemCatalogEntry ||--|o OwlOntology : "rdfs_isDefinedBy"
+VaemCatalogEntry ||--|o RdfsResource : "rdfs_isDefinedBy"
+VaemCatalogEntry ||--|o RdfsLiteral : "rdfs_label"
+VoagAttribution ||--|o RdfsLiteral : "rdfs_label"
+VoagAttribution ||--|o VoagLogo : "voag_hasLogo"
+VoagAttribution ||--|o VoagAttributionLogo : "voag_hasLogo"
+VoagAttribution ||--|o VoagOrganizationLogo : "voag_hasLogo"
+VoagAttribution ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagAttribution ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagAttributionLogo ||--|o RdfsLiteral : "rdfs_label"
+VoagAttributionLogo ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagAttributionLogo ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagChangeFrequency ||--|o XsdAnySimpleType : "dtype_value"
+VoagChangeFrequency ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagChangeFrequency ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagChangeFrequency ||--|o RdfsLiteral : "rdfs_label"
+VoagChangeType ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagChangeType ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagChangeType ||--|o RdfsLiteral : "rdfs_label"
+VoagConfidentialityLevel ||--|o RdfsLiteral : "rdfs_label"
+VoagConfidentialityLevel ||--|o XsdAnySimpleType : "dtype_code"
+VoagConfidentialityLevel ||--|o XsdAnySimpleType : "dtype_value"
+VoagConfidentialityLevel ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagConfidentialityLevel ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagCreativeCommonsPermission ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagCreativeCommonsPermission ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagCreativeCommonsPermission ||--|o RdfsLiteral : "rdfs_label"
+VoagCreativeCommonsProhibition ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagCreativeCommonsProhibition ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagCreativeCommonsProhibition ||--|o RdfsLiteral : "rdfs_label"
+VoagCreativeCommonsRequirement ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagCreativeCommonsRequirement ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagCreativeCommonsRequirement ||--|o RdfsLiteral : "rdfs_label"
+VoagGovernance ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagGovernance ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagGovernance ||--|o RdfsLiteral : "rdfs_label"
+VoagGovernanceRole ||--|o XsdAnySimpleType : "dtype_value"
+VoagGovernanceRole ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagGovernanceRole ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagGovernanceRole ||--|o RdfsLiteral : "rdfs_label"
+VoagIcon ||--|o RdfsLiteral : "rdfs_label"
+VoagIcon ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagIcon ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagIssueStatus ||--|o XsdAnySimpleType : "dtype_value"
+VoagIssueStatus ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagIssueStatus ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagIssueStatus ||--|o RdfsLiteral : "rdfs_label"
+VoagLicenseModel ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagLicenseModel ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagLicenseModel ||--|o RdfsLiteral : "rdfs_label"
+VoagLogo ||--|o RdfsLiteral : "rdfs_label"
+VoagLogo ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagLogo ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagMaturity ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagMaturity ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagMaturity ||--|o RdfsLiteral : "rdfs_label"
+VoagOrganizationLogo ||--|o RdfsLiteral : "rdfs_label"
+VoagOrganizationLogo ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagOrganizationLogo ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagPedigree ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagPedigree ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagPedigree ||--|o RdfsLiteral : "rdfs_label"
+VoagPriorityValue ||--|o XsdAnySimpleType : "dtype_value"
+VoagPriorityValue ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagPriorityValue ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagPriorityValue ||--|o RdfsLiteral : "rdfs_label"
+VoagProductLogo ||--|o RdfsLiteral : "rdfs_label"
+VoagProductLogo ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagProductLogo ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagProvenance ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagProvenance ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagProvenance ||--|o RdfsLiteral : "rdfs_label"
+VoagPublicationStatus ||--|o XsdAnySimpleType : "dtype_value"
+VoagPublicationStatus ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagPublicationStatus ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagPublicationStatus ||--|o RdfsLiteral : "rdfs_label"
+VoagSchemaGraph ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagSchemaGraph ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagSchemaGraph ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Abstract ||--|o RdfsLiteral : "dct_bibliographicCitation"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Abstract ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Abstract ||--|o RdfsLiteral : "dct_issued"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Abstract ||--|o RdfsLiteral : "dct_title"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ActiveIngredient ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PesticideTarget : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasPesticideTarget"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ActiveIngredient : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasPesticideActiveIngredient"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PesticidePlacement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_withPesticidePlacement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AmendmentType : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasAmendmentType"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Irrigation : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesIrrigation"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AmendmentPlacement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_withPlacement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AmendmentPlacement ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AmendmentType ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalClass ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalSpecies ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantFraction : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasPlantFraction"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate ||--|o RdfsLiteral : "dct_date"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantFraction : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasPlantFraction"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy ||--|o RdfsLiteral : "dct_date"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantFraction : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasPlantFraction"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral ||--|o RdfsLiteral : "dct_date"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BookChapter ||--|o RdfsLiteral : "dct_bibliographicCitation"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BookChapter ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BookChapter ||--|o RdfsLiteral : "dct_issued"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BookChapter ||--|o RdfsLiteral : "dct_title"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BroadleafOrGrass ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Cultivar ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278CuttingHeight ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Equipment ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_unitHasResidueManagement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStageManagement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_unitHasGrowthStageManagement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingManagement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_unitHasPlantingManagement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingManagement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_unitHasGrazingManagement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageManagement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_unitHasTillageManagement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_unitHasAmendment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit ||--|o RdfsLiteral : "dct_identifier"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278FundingSource ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278StartStopInterval : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_withStartStopInterval"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SimulationModel : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesModel"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss ||--|o RdfsLiteral : "dct_date"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalSpecies : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasAnimalSpecies"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalClass : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasAnimalClass"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278OtherEvents : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasOtherEvents"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingPlants ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SpeciesMix : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasSpeciesMix"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingPlants ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingPlants ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingPlants ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingPlants ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BroadleafOrGrass : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasBroadleafOrGrass"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingPlants ||--|o RdfsLiteral : "dct_date"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingPlants ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStageManagement ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStageManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStageManagement ||--|o RdfsLiteral : "dct_date"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantFraction : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasPlantFraction"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction ||--|o RdfsLiteral : "dct_date"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestedFraction ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Irrigation ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle ||--|o RdfsLiteral : "dct_bibliographicCitation"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle ||--|o RdfsLiteral : "dct_issued"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle ||--|o RdfsLiteral : "dct_title"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle ||--|o RdfsLiteral : "dct_identifier"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278FundingSource : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fundedBy"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site : "spatial_connectedTo"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location : "spatial_connectedTo"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o KwgoAdministrativeRegion2 : "spatial_connectedTo"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o KwgoS2CellLevel13 : "spatial_connectedTo"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BookChapter : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_cites"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PopularArticle : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_cites"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Report : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_cites"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o DctBibliographicResource : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_cites"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Proceedings : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_cites"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Abstract : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_cites"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Thesis : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_cites"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_cites"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasTreatment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o GeoGeometry : "geo_hasGeometry"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o RdfsLiteral : "dct_identifier"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278LossesOrDeposition ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement ||--|o QudtQuantityValue : "qudt_quantityValue"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Parameter : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_of"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantFraction : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasPlantFraction"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency ||--|o RdfsLiteral : "dct_date"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278OtherEvents ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Parameter ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PesticidePlacement ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PesticideTarget ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantFraction ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Cultivar : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCultivar"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingManagement ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingMethod : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesPlantingMethod"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingMethod ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PopularArticle ||--|o RdfsLiteral : "dct_bibliographicCitation"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PopularArticle ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PopularArticle ||--|o RdfsLiteral : "dct_issued"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PopularArticle ||--|o RdfsLiteral : "dct_title"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Proceedings ||--|o RdfsLiteral : "dct_bibliographicCitation"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Proceedings ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Proceedings ||--|o RdfsLiteral : "dct_issued"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Proceedings ||--|o RdfsLiteral : "dct_title"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Report ||--|o RdfsLiteral : "dct_bibliographicCitation"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Report ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Report ||--|o RdfsLiteral : "dct_issued"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Report ||--|o RdfsLiteral : "dct_title"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278CuttingHeight : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_withCuttingHeight"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Equipment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesEquipment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement ||--|o RdfsLiteral : "dct_date"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestedFraction : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasHarvestedFraction"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SimulationModel ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site ||--|o SdosText : "sdos_postalCode"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site : "spatial_connectedTo"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location : "spatial_connectedTo"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site ||--|o KwgoAdministrativeRegion2 : "spatial_connectedTo"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site ||--|o KwgoS2CellLevel13 : "spatial_connectedTo"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site ||--|o RdfsLiteral : "dct_identifier"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample ||--|o RdfsLiteral : "dct_date"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample ||--|o QudtQuantityValue : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_lowerDepth"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample ||--|o QudtQuantityValue : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_upperDepth"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SimulationModel : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesModel"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample ||--|o RdfsLiteral : "dct_date"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample ||--|o QudtQuantityValue : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_lowerDepth"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample ||--|o QudtQuantityValue : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_upperDepth"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilCover ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Timing : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasTiming"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilCover ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilCover ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilCover ||--|o RdfsLiteral : "dct_date"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilCover ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SimulationModel : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesModel"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample ||--|o RdfsLiteral : "dct_date"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample ||--|o QudtQuantityValue : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_lowerDepth"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample ||--|o QudtQuantityValue : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_upperDepth"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SpeciesMix ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278StartStopInterval ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SurfaceOrLeaching ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Thesis ||--|o RdfsLiteral : "dct_bibliographicCitation"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Thesis ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Thesis ||--|o RdfsLiteral : "dct_issued"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Thesis ||--|o RdfsLiteral : "dct_title"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageEvent ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageEvent : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasTillageEvent"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageManagement ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageMethod : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTillageMethod"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageMethod ||--|o RdfsLiteral : "rdfs_label"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStageManagement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_treatmentHasGrowthStageManagement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_treatmentHasAmendment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingManagement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_treatmentHasPlantingManagement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ProjectScenario : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasProjectScenario"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalSpecies : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasAnimalSpecies"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingManagement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_treatmentHasGrazingManagement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_treatmentHasResidueManagement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueRemoval : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesResidueRemoval"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Rotation : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasRotation"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278FertilizerAmendment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesFertilizerAmendment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Project : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromProject"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingRate : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrazingRate"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o RdfsLiteral : "dct_identifier"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278CoverCrop : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesCoverCrop"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Tillage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasTillage"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageManagement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_treatmentHasTillageManagement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278LossesOrDeposition : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasLossesOrDeposition"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityArea ||--|o RdfsLiteral : "dct_date"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SurfaceOrLeaching : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasSurfaceOrLeaching"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278StartStopInterval : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_withStartStopInterval"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SimulationModel : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesModel"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration ||--|o RdfsLiteral : "dct_date"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SurfaceOrLeaching : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasSurfaceOrLeaching"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278LossesOrDeposition : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasLossesOrDeposition"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278StartStopInterval : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_withStartStopInterval"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SimulationModel : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesModel"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea ||--|o RdfsLiteral : "dct_date"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantFraction : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasPlantFraction"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake ||--|o RdfsLiteral : "dct_date"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
+HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpsLod.nal.usda.govNalt7140 ||--|o RdfsLiteral : "rdfs_label"
+KwgoS2CellLevel13 ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site : "spatial_connectedTo"
+KwgoS2CellLevel13 ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location : "spatial_connectedTo"
+KwgoS2CellLevel13 ||--|o KwgoAdministrativeRegion2 : "spatial_connectedTo"
+KwgoS2CellLevel13 ||--|o KwgoS2CellLevel13 : "spatial_connectedTo"
 
 ```
 
@@ -905,9 +6986,15 @@ SockgYieldNutrientUptake ||--|o SockgTreatment : "sockg_yieldNutrUptakeTreatment
 ## Imports
 
 
+* okns:bibo
+* okns:kwg
+* okns:qudt
+* okns:geo
+* okns:extended_types
+* okns:sdo
+* okns:dc
 * linkml:types
-* https://raw.githubusercontent.com/frink-okn/schema-gen/refs/heads/main/rdf-rdfs
-* https://raw.githubusercontent.com/linkml/linkml-model/refs/heads/main/linkml_model/model/schema/extended_types
+* okns:owl-rdf-rdfs
 
 
 
@@ -915,56 +7002,161 @@ SockgYieldNutrientUptake ||--|o SockgTreatment : "sockg_yieldNutrUptakeTreatment
 
 | Class | Description | Occurrences |
 | --- | --- | --- |
-| [GeoGeometry](classes/GeoGeometry.md) | No class (type) description specified<br/>| 47 | 
-| [HttpWww.opengis.netOntGeosparqlFeature](classes/HttpWww.opengis.netOntGeosparqlFeature.md) | No class (type) description specified<br/>|  | 
-| [KwgrS2CellLevel13](classes/KwgrS2CellLevel13.md) | No class (type) description specified<br/>| 2404 | 
-| [RdfsDatatype](classes/RdfsDatatype.md) | No class (type) description specified<br/>| 2 | 
-| [SockgAmendment](classes/SockgAmendment.md) | An Amendment represents a specific alteration or addition made to agricultural practices aimed at improving soil health and crop yields. It encompasses various treatments involving nutrient management, irrigation strategies, and application timing, contributing to optimized agricultural productivity.<br/>| 37796 | 
-| [SockgBioMassCarbohydrate](classes/SockgBioMassCarbohydrate.md) | BioMassCarbohydrate represents the carbohydrate content in biomass derived from various crops at different growth stages, providing essential information for evaluating feedstock quality and nutritional value. This class includes detailed measurements related to the composition of carbohydrates and fibers, critical for optimizing agricultural production and processing strategies.<br/>| 1367 | 
-| [SockgBioMassEnergy](classes/SockgBioMassEnergy.md) | BioMassEnergy represents the energy content derived from agricultural biomass, taking into account various components such as plant material and mineral content at different growth stages. This class is essential for evaluating the viability and energy potential of crops used for bioenergy production in sustainable agricultural practices.<br/>| 799 | 
-| [SockgBioMassMineral](classes/SockgBioMassMineral.md) | BioMassMiner is a class that represents the analysis of biomass in terms of its mineral nutrient concentrations and their relevance to crop growth stages. This information is essential for understanding the nutritional requirements of plants and optimizing agricultural practices for enhanced yield.<br/>| 6723 | 
-| [SockgBook](classes/SockgBook.md) | A Book is a written or printed work that provides information, stories, or research, often serving as a valuable resource for learners and professionals in the field of agriculture. Such texts can encompass a wide range of topics, including crop management, sustainable farming practices, and agricultural innovations, fostering knowledge and understanding within the agricultural community.<br/>| 179 | 
-| [SockgCity](classes/SockgCity.md) | A City is a large human settlement that serves as a hub for economic, social, and cultural activities. In the context of agriculture, cities play a crucial role in the distribution of agricultural products and can influence farming practices and food availability.<br/>| 37 | 
-| [SockgCountry](classes/SockgCountry.md) | A Country is a distinct territorial body with its own government and borders, often influencing agricultural policies and practices. It serves as a fundamental unit in understanding agricultural production, trade, and the distribution of resources vital for farming.<br/>| 3 | 
-| [SockgCounty](classes/SockgCounty.md) | A County represents a specific geographical area within a state, often encompassing various agricultural zones where farming and livestock are key economic activities. Understanding the divisions and characteristics of counties is essential for managing agricultural resources and planning rural development.<br/>| 33 | 
-| [SockgCropGrowthStage](classes/SockgCropGrowthStage.md) | The CropGrowthStage class represents the various phases of development that a crop undergoes from planting to harvest, impacting management decisions and timing. Understanding these stages is crucial for optimizing agricultural practices and maximizing crop yield.<br/>| 4896 | 
-| [SockgDepartment](classes/SockgDepartment.md) | A Department represents a specialized division within an agricultural institution, focused on specific areas of study or practice, such as Plant Sciences or Agricultural Engineering. Each department plays a crucial role in advancing agricultural research, education, and outreach in its designated field.<br/>| 49 | 
-| [SockgExperiment](classes/SockgExperiment.md) | An Experiment is a structured investigation carried out to observe and analyze the effects of various agricultural practices and conditions, aimed at improving crop yields or sustainability. It often encompasses a defined timeline and may be part of a larger agricultural project, contributing valuable insights into agronomic science.<br/>| 55 | 
-| [SockgExperimentalUnit](classes/SockgExperimentalUnit.md) | An ExperimentalUnit represents a specific segment of agricultural research focused on testing hypotheses and observing agricultural practices over defined periods. Each unit is characterized by unique identifiers and can reflect alterations in management approaches across its lifespan.<br/>| 3863 | 
-| [SockgField](classes/SockgField.md) | A Field represents a specific area of land used for agricultural purposes, where crops are cultivated or animals are raised. Its geographic and elevation characteristics are essential for determining the suitability of the land for various agricultural activities.<br/>| 58 | 
-| [SockgGasNutrientLoss](classes/SockgGasNutrientLoss.md) | The GasNutrientLoss class represents the assessment of gaseous nutrient losses in agricultural systems during various growth stages of crops. It encompasses information related to nitrogen losses, treatment methods, and field management practices essential for optimizing fertilizer use and improving sustainability in agriculture.<br/>| 748 | 
-| [SockgGasSample](classes/SockgGasSample.md) | GasSample represents a collection of measurements related to greenhouse gas emissions from agricultural soils, including temperature and gas flux data over time. This class is essential for understanding the dynamics of carbon dioxide, methane, and nitrous oxide emissions in relation to soil and air temperatures, contributing to effective climate management practices in agriculture.<br/>| 107354 | 
-| [SockgGrazing](classes/SockgGrazing.md) | The Grazing class represents the assessment of various productivity metrics and biomass characteristics of grazing plants in agricultural systems. It encompasses essential parameters that influence soil health and plant growth, contributing to sustainable land management practices.<br/>| 6995 | 
-| [SockgGrazingManagementEvent](classes/SockgGrazingManagementEvent.md) | A GrazingManagementEvent represents a specific instance of land management practices aimed at optimizing the grazing of livestock on pasture. It encompasses various factors such as the timing and intensity of grazing, the types of animals involved, and the cycles of land use, ensuring sustainable agricultural practices.<br/>| 1951 | 
-| [SockgHarvest](classes/SockgHarvest.md) | Harvest represents the process of collecting mature crops from the fields, with emphasis on various metrics such as grain quality, moisture levels, and biomass yield. This class encompasses critical parameters affecting crop performance and residue management, essential for sustainable agricultural practices.<br/>| 18356 | 
-| [SockgHarvestFraction](classes/SockgHarvestFraction.md) | The HarvestFraction class represents the quantifiable metrics and characteristics related to the harvest of crops, including aspects of plant growth and the quality of the harvested grains. It plays a crucial role in evaluating crop yield and assessing the efficacy of different agricultural treatments.<br/>| 9470 | 
-| [SockgMiscellaneousMeasurement](classes/SockgMiscellaneousMeasurement.md) | No class (type) description specified<br/>|  | 
-| [SockgNutrientEfficiency](classes/SockgNutrientEfficiency.md) | The NutrientEfficiency class represents the effectiveness of nutrient utilization in crops, focusing on how efficiently plants absorb and utilize nitrogen for growth. This class is essential for evaluating different treatments and growth stages, allowing for improved agronomic practices and enhanced crop yields.<br/>| 2791 | 
-| [SockgOrganization](classes/SockgOrganization.md) | An Organization is a structured group of individuals working together to achieve common goals, often within specific sectors such as agriculture, where they may focus on research, production, or advocacy. These entities can play vital roles in promoting sustainable farming practices, enhancing food security, and supporting farmers through resources and education.<br/>| 11 | 
-| [SockgPerson](classes/SockgPerson.md) | A Person represents an individual involved in agricultural activities, serving various roles such as researchers, farmers, or stakeholders in agricultural studies. Each person is uniquely identified and may have contact information, professional designations, and additional details relevant to their contributions in the field of agriculture.<br/>| 98 | 
-| [SockgPesticide](classes/SockgPesticide.md) | Pesticides are substances used in agriculture to manage pests and diseases that affect crops, ensuring better yield and quality. Each pesticide is characterized by its active ingredients, application methods, target organisms, and usage amounts to optimize agricultural practices and minimize environmental impact.<br/>| 356 | 
-| [SockgPlantingEvent](classes/SockgPlantingEvent.md) | An event involving the act of planting, which includes considerations for spacing and depth to optimize growth. This concept encompasses various methods and plant types to ensure successful agricultural production.<br/>| 23450 | 
-| [SockgProject](classes/SockgProject.md) | A project in the context of agriculture refers to a planned set of activities aimed at achieving specific goals, such as improving crop yields, implementing sustainable farming practices, or conducting research on pest resistance. Each project typically has a defined focus and scope, contributing to advancements in agricultural practices and productivity.<br/>| 9 | 
-| [SockgPublication](classes/SockgPublication.md) | A Publication is a documented work that disseminates findings, research, or insights relevant to the field of agriculture, often detailing innovations, methodologies, or case studies. These works contribute to the body of knowledge that supports agricultural practices, policy development, and research advancement in the sector.<br/>| 162 | 
-| [SockgResearchUnit](classes/SockgResearchUnit.md) | No class (type) description specified<br/>| 65 | 
-| [SockgResidueManagementEvent](classes/SockgResidueManagementEvent.md) | A ResidueManagementEvent represents a specific instance of managing agricultural residues following a harvest, encompassing the timing and extent of harvest operations as well as the characteristics of perennial crop stands. This class captures vital information regarding the practices and equipment used to optimize residue management for sustainable farming.<br/>| 3308 | 
-| [SockgRotation](classes/SockgRotation.md) | Rotation refers to the practice of systematically changing the types of crops grown in a specific area over a certain period, which helps to improve soil health, prevent pest build-up, and enhance yield. This method is essential in sustainable agriculture as it promotes biodiversity and optimizes the use of nutrients in the soil.<br/>| 74 | 
-| [SockgSite](classes/SockgSite.md) | A Site represents a specific geographical location related to agricultural activities, encompassing its ecological features, historical context, and resource management practices. This class provides insights into the characteristics and significance of the land in supporting agricultural productivity and sustainability.<br/>| 60 | 
-| [SockgSoil](classes/SockgSoil.md) | No class (type) description specified<br/>| 4113 | 
-| [SockgSoilBiologicalSample](classes/SockgSoilBiologicalSample.md) | SoilBiologicalSample represents a collection of measurements related to microbial biomass and enzyme activity in soil, crucial for assessing soil health and fertility in agricultural practices. These samples provide insights into nutrient cycling and organic matter dynamics, helping farmers and researchers optimize soil management for improved crop productivity.<br/>| 18222 | 
-| [SockgSoilChemicalSample](classes/SockgSoilChemicalSample.md) | The SoilChemicalSample class represents a comprehensive analysis of soil chemistry, capturing essential information about nutrient contents and soil properties that influence agricultural productivity. These samples play a crucial role in assessing soil health and informing management practices for optimal crop growth and sustainability.<br/>| 53833 | 
-| [SockgSoilCover](classes/SockgSoilCover.md) | SoilCover refers to the layer of organic and inorganic materials that covers the soil surface, playing a critical role in agriculture by impacting soil moisture retention, erosion control, and crop health. Monitoring soil cover is essential for sustainable farming practices, as it influences both productivity and environmental quality.<br/>| 1034 | 
-| [SockgSoilPhysicalSample](classes/SockgSoilPhysicalSample.md) | SoilPhysicalSample represents a comprehensive analysis of soil characteristics at specific depths, crucial for understanding its capacity to retain water, nutrients, and support plant growth. These samples are essential for optimizing agricultural practices and improving soil management strategies.<br/>| 28082 | 
-| [SockgState](classes/SockgState.md) | A State represents a regional jurisdiction within a country, often defined by its own governance and regulatory frameworks. In agriculture, states play a crucial role in determining land use policies, agricultural practices, and resource management that affect local farming communities and their economic viability.<br/>| 19 | 
-| [SockgTillage](classes/SockgTillage.md) | Tillage refers to the agricultural preparation of soil through mechanical agitation, including activities such as plowing, stirring, and overturning. This process is essential for seedbed preparation, incorporating organic matter, and controlling weeds in crop production.<br/>| 27137 | 
-| [SockgTreatment](classes/SockgTreatment.md) | The Treatment class encompasses various agricultural practices and management techniques applied to enhance crop production and sustainability. It includes strategies for soil improvement, nutrient management, and crop rotation, aimed at optimizing farm productivity while minimizing environmental impact.<br/>| 769 | 
-| [SockgVersion](classes/SockgVersion.md) | A Version represents a specific iteration or update of agricultural practices, research, or standards, reflecting changes over time in the field. It is essential for tracking advancements and ensuring that current methodologies are based on the latest information and developments in agriculture.<br/>| 1 | 
-| [SockgWaterQualityArea](classes/SockgWaterQualityArea.md) | A WaterQualityArea represents a designated agricultural zone where water quality parameters are monitored to assess the impact of various treatments and environmental factors on soil and crop health. This area is crucial for understanding water conditions, nutrient levels, and potential erosion, which can inform sustainable farming practices and improve crop yields.<br/>| 667 | 
-| [SockgWaterQualityConc](classes/SockgWaterQualityConc.md) | WaterQualityConc represents the concentration of various water quality parameters relevant to agricultural practices, including the effects of erosion processes and nutrient transport. It encompasses critical factors such as electrical conductivity and pH levels, which are essential for assessing water suitability for crop growth.<br/>| 1479 | 
-| [SockgWeatherObservation](classes/SockgWeatherObservation.md) | The WeatherObservation class captures daily meteorological data that are crucial for understanding the impact of weather conditions on agricultural practices. It includes measurements that help in assessing soil health, crop growth, and overall farm productivity.<br/>| 147305 | 
-| [SockgWeatherStation](classes/SockgWeatherStation.md) | A WeatherStation is a facility that collects and records meteorological data, providing essential information for agricultural practices and crop management. By monitoring atmospheric conditions and topographical features, it helps farmers optimize their activities based on local weather patterns.<br/>| 110795 | 
-| [SockgWindErosionArea](classes/SockgWindErosionArea.md) | The WindErosionArea class represents regions affected by wind erosion, detailing various factors including the methods of erosion and the nutrient composition of the soil. It is essential for assessing soil health and implementing effective agricultural practices to combat erosion and maintain crop productivity.<br/>| 15 | 
-| [SockgYieldNutrientUptake](classes/SockgYieldNutrientUptake.md) | The YieldNutrientUptake class represents the assessment of nutrient uptake by crops during different growth stages, essential for understanding the efficiency of nutrient use in agricultural practices. It facilitates the analysis of various nutrients' contributions to crop productivity and helps in optimizing fertilization strategies for enhanced yield.<br/>| 429 | 
+| [DctBibliographicResource](classes/DctBibliographicResource.md) | A book, article, or other documentary resource.<br/>| 14 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#Abstract](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Abstract.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#BookChapter](classes/HttpsIdir.uta.eduSockg-ontologyDocs#BookChapter.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#JournalArticle](classes/HttpsIdir.uta.eduSockg-ontologyDocs#JournalArticle.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#PopularArticle](classes/HttpsIdir.uta.eduSockg-ontologyDocs#PopularArticle.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#Proceedings](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Proceedings.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#Report](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Report.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#Thesis](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Thesis.md) | None<br/>|  | 
+| [GeoSpatialObject](classes/GeoSpatialObject.md) | Anything spatial (being or having a shape, position or an extent).<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GeoFeature](classes/GeoFeature.md) | A discrete spatial phenomenon in a universe of discourse.<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#ExperimentalUnit](classes/HttpsIdir.uta.eduSockg-ontologyDocs#ExperimentalUnit.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#Location](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Location.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#Site](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Site.md) | None<br/>|  | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Abstract](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Abstract.md) | None<br/>| 3 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ActiveIngredient](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ActiveIngredient.md) | None<br/>| 84 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment.md) | None<br/>| 47106 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AmendmentPlacement](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AmendmentPlacement.md) | None<br/>| 10 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AmendmentType](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AmendmentType.md) | None<br/>| 73 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalClass](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalClass.md) | None<br/>| 4 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalSpecies](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalSpecies.md) | None<br/>| 3 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate.md) | None<br/>| 1367 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy.md) | None<br/>| 799 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral.md) | None<br/>| 6739 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BookChapter](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BookChapter.md) | None<br/>| 2 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BroadleafOrGrass](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BroadleafOrGrass.md) | None<br/>| 2 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278CoverCrop](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278CoverCrop.md) | None<br/>| 8 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Cultivar](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Cultivar.md) | None<br/>| 308 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278CuttingHeight](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278CuttingHeight.md) | None<br/>| 17 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Equipment](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Equipment.md) | None<br/>| 12 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit.md) | None<br/>| 3863 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278FertilizerAmendment](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278FertilizerAmendment.md) | None<br/>| 4 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278FundingSource](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278FundingSource.md) | None<br/>| 7 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss.md) | None<br/>| 2231 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingManagement](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingManagement.md) | None<br/>| 1951 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingPlants](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingPlants.md) | None<br/>| 6996 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingRate](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingRate.md) | None<br/>| 3 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage.md) | None<br/>| 33 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStageManagement](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStageManagement.md) | None<br/>| 5148 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestedFraction](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestedFraction.md) | None<br/>| 12 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction.md) | None<br/>| 9470 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Irrigation](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Irrigation.md) | None<br/>| 4 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle.md) | None<br/>| 149 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location.md) | None<br/>| 58 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278LossesOrDeposition](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278LossesOrDeposition.md) | None<br/>| 2 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement.md) | None<br/>| 911199 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency.md) | None<br/>| 5159 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278OtherEvents](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278OtherEvents.md) | None<br/>| 2 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Parameter](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Parameter.md) | None<br/>| 135 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PesticidePlacement](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PesticidePlacement.md) | None<br/>| 5 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PesticideTarget](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PesticideTarget.md) | None<br/>| 38 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantFraction](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantFraction.md) | None<br/>| 29 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingManagement](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingManagement.md) | None<br/>| 23728 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingMethod](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingMethod.md) | None<br/>| 6 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PopularArticle](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PopularArticle.md) | None<br/>| 1 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Proceedings](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Proceedings.md) | None<br/>| 3 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Project](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Project.md) | None<br/>| 3 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ProjectScenario](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ProjectScenario.md) | None<br/>| 19 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Report](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Report.md) | None<br/>| 1 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement.md) | None<br/>| 3334 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement.md) | None<br/>| 18512 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueRemoval](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueRemoval.md) | None<br/>| 3 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Rotation](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Rotation.md) | None<br/>| 66 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SimulationModel](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SimulationModel.md) | None<br/>| 12 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site.md) | None<br/>| 60 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample.md) | None<br/>| 18273 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample.md) | None<br/>| 54269 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilCover](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilCover.md) | None<br/>| 1034 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample.md) | None<br/>| 28237 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SpeciesMix](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SpeciesMix.md) | None<br/>| 7 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278StartStopInterval](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278StartStopInterval.md) | None<br/>| 3 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SurfaceOrLeaching](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SurfaceOrLeaching.md) | None<br/>| 2 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Thesis](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Thesis.md) | None<br/>| 4 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Tillage](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Tillage.md) | None<br/>| 8 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageEvent](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageEvent.md) | None<br/>| 18 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageManagement](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageManagement.md) | None<br/>| 27450 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageMethod](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageMethod.md) | None<br/>| 61 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Timing](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Timing.md) | None<br/>| 7 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment.md) | None<br/>| 769 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityArea](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityArea.md) | None<br/>| 681 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration.md) | None<br/>| 2305 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea.md) | None<br/>| 34 | 
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake.md) | None<br/>| 704 | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#ActiveIngredient](classes/HttpsIdir.uta.eduSockg-ontologyDocs#ActiveIngredient.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#AmendmentPlacement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#AmendmentPlacement.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#AnimalClass](classes/HttpsIdir.uta.eduSockg-ontologyDocs#AnimalClass.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#AnimalSpecies](classes/HttpsIdir.uta.eduSockg-ontologyDocs#AnimalSpecies.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#BroadleafOrGrass](classes/HttpsIdir.uta.eduSockg-ontologyDocs#BroadleafOrGrass.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#ChamberPlacement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#ChamberPlacement.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#CoverCrop](classes/HttpsIdir.uta.eduSockg-ontologyDocs#CoverCrop.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#Cultivar](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Cultivar.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#CuttingHeight](classes/HttpsIdir.uta.eduSockg-ontologyDocs#CuttingHeight.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#Equipment](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Equipment.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#FertilizerAmendment](classes/HttpsIdir.uta.eduSockg-ontologyDocs#FertilizerAmendment.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#FundingSource](classes/HttpsIdir.uta.eduSockg-ontologyDocs#FundingSource.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#GrazingRate](classes/HttpsIdir.uta.eduSockg-ontologyDocs#GrazingRate.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#GrowthStage](classes/HttpsIdir.uta.eduSockg-ontologyDocs#GrowthStage.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#HarvestedFraction](classes/HttpsIdir.uta.eduSockg-ontologyDocs#HarvestedFraction.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#Irrigation](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Irrigation.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#LossesOrDeposition](classes/HttpsIdir.uta.eduSockg-ontologyDocs#LossesOrDeposition.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#MeasurableEntity](classes/HttpsIdir.uta.eduSockg-ontologyDocs#MeasurableEntity.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#Amendment](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Amendment.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#GrazingManagement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#GrazingManagement.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#GrowthStageManagement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#GrowthStageManagement.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#PlantingManagement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#PlantingManagement.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#ResidueManagement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#ResidueManagement.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#Sample](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Sample.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#CropRelatedMeasurement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#CropRelatedMeasurement.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#GHGFlux](classes/HttpsIdir.uta.eduSockg-ontologyDocs#GHGFlux.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#SoilCover](classes/HttpsIdir.uta.eduSockg-ontologyDocs#SoilCover.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#ErosionMeasurement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#ErosionMeasurement.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#GrowthStageRelatedMeasurement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#GrowthStageRelatedMeasurement.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#GrazingPlants](classes/HttpsIdir.uta.eduSockg-ontologyDocs#GrazingPlants.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#ResidueMeasurement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#ResidueMeasurement.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#PlantFractionRelatedMeasurement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#PlantFractionRelatedMeasurement.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#BiomassAnalysis](classes/HttpsIdir.uta.eduSockg-ontologyDocs#BiomassAnalysis.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#BiomassCarbohydrate](classes/HttpsIdir.uta.eduSockg-ontologyDocs#BiomassCarbohydrate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#BiomassEnergy](classes/HttpsIdir.uta.eduSockg-ontologyDocs#BiomassEnergy.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#BiomassMineral](classes/HttpsIdir.uta.eduSockg-ontologyDocs#BiomassMineral.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#HarvestFraction](classes/HttpsIdir.uta.eduSockg-ontologyDocs#HarvestFraction.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#NutrientEfficiency](classes/HttpsIdir.uta.eduSockg-ontologyDocs#NutrientEfficiency.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#PossiblySimulatedMeasurement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#PossiblySimulatedMeasurement.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#SoilSample](classes/HttpsIdir.uta.eduSockg-ontologyDocs#SoilSample.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#SoilBiologicalSample](classes/HttpsIdir.uta.eduSockg-ontologyDocs#SoilBiologicalSample.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#SoilChemicalSample](classes/HttpsIdir.uta.eduSockg-ontologyDocs#SoilChemicalSample.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#SoilPhysicalSample](classes/HttpsIdir.uta.eduSockg-ontologyDocs#SoilPhysicalSample.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#WindErosionArea](classes/HttpsIdir.uta.eduSockg-ontologyDocs#WindErosionArea.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#YieldNutrientUptake](classes/HttpsIdir.uta.eduSockg-ontologyDocs#YieldNutrientUptake.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#QualityMeasurement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#QualityMeasurement.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#GasNutrientLoss](classes/HttpsIdir.uta.eduSockg-ontologyDocs#GasNutrientLoss.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#WaterQualityArea](classes/HttpsIdir.uta.eduSockg-ontologyDocs#WaterQualityArea.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#WaterQualityConcentration](classes/HttpsIdir.uta.eduSockg-ontologyDocs#WaterQualityConcentration.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#TillageManagement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#TillageManagement.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#WeatherObservation](classes/HttpsIdir.uta.eduSockg-ontologyDocs#WeatherObservation.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#Measurement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Measurement.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#OtherEvents](classes/HttpsIdir.uta.eduSockg-ontologyDocs#OtherEvents.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#Parameter](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Parameter.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#PesticidePlacement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#PesticidePlacement.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#PesticideTarget](classes/HttpsIdir.uta.eduSockg-ontologyDocs#PesticideTarget.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#PlantFraction](classes/HttpsIdir.uta.eduSockg-ontologyDocs#PlantFraction.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#PlantingMethod](classes/HttpsIdir.uta.eduSockg-ontologyDocs#PlantingMethod.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#Project](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Project.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#ProjectScenario](classes/HttpsIdir.uta.eduSockg-ontologyDocs#ProjectScenario.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#ResidueRemoval](classes/HttpsIdir.uta.eduSockg-ontologyDocs#ResidueRemoval.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#Rotation](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Rotation.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#SimulationModel](classes/HttpsIdir.uta.eduSockg-ontologyDocs#SimulationModel.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#SpeciesMix](classes/HttpsIdir.uta.eduSockg-ontologyDocs#SpeciesMix.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#StartStopInterval](classes/HttpsIdir.uta.eduSockg-ontologyDocs#StartStopInterval.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#SurfaceOrLeaching](classes/HttpsIdir.uta.eduSockg-ontologyDocs#SurfaceOrLeaching.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#Tillage](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Tillage.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#TillageEvent](classes/HttpsIdir.uta.eduSockg-ontologyDocs#TillageEvent.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#TillageMethod](classes/HttpsIdir.uta.eduSockg-ontologyDocs#TillageMethod.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#Timing](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Timing.md) | None<br/>|  | 
+| [HttpsIdir.uta.eduSockg-ontologyDocs#Treatment](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Treatment.md) | None<br/>|  | 
+| [HttpsLod.nal.usda.govNalt7140](classes/HttpsLod.nal.usda.govNalt7140.md) | None<br/>| 48 | 
+| [KwgoS2CellLevel13](classes/KwgoS2CellLevel13.md) | None<br/>| 1069 | 
 
 
 
@@ -974,719 +7166,145 @@ SockgYieldNutrientUptake ||--|o SockgTreatment : "sockg_yieldNutrUptakeTreatment
 
 | Slot | Description | Occurrences |
 | --- | --- | --- |
-| [dcgeoid_cityDCID](slots/dcgeoid_cityDCID.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [geo_asWKT](slots/geo_asWKT.md) | No slot (predicate) description specified<br/>| 47 |
-| [geo_hasGeometry](slots/geo_hasGeometry.md) | No slot (predicate) description specified<br/>| 47 |
-| [kwgr_countyFIPS](slots/kwgr_countyFIPS.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [kwgr_sfContains](slots/kwgr_sfContains.md) | No slot (predicate) description specified<br/>| 4351 |
-| [kwgr_sfWithin](slots/kwgr_sfWithin.md) | No slot (predicate) description specified<br/>| 4351 |
-| [kwgr_spatialRelation](slots/kwgr_spatialRelation.md) | No slot (predicate) description specified<br/>| 4351 |
-| [kwgr_stateFIPS](slots/kwgr_stateFIPS.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [rdfs_seeAlso](slots/rdfs_seeAlso.md) | No slot (predicate) description specified<br/>| 624784 |
-| [sockg_aboveGroundBiomass_kg_per_ha](slots/sockg_aboveGroundBiomass_kg_per_ha.md) | No slot (predicate) description specified<br/>| 11829 |
-| [sockg_aboveGroundBiomassCarbon_kgC_per_ha](slots/sockg_aboveGroundBiomassCarbon_kgC_per_ha.md) | No slot (predicate) description specified<br/>| 2149 |
-| [sockg_aboveGroundBiomassCarbonSd_kgC_per_ha](slots/sockg_aboveGroundBiomassCarbonSd_kgC_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_aboveGroundBiomassDry_kg_per_ha](slots/sockg_aboveGroundBiomassDry_kg_per_ha.md) | No slot (predicate) description specified<br/>| 6995 |
-| [sockg_aboveGroundBiomassDrySd_kg_per_ha](slots/sockg_aboveGroundBiomassDrySd_kg_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_aboveGroundBiomassNitrogen_kgN_per_ha](slots/sockg_aboveGroundBiomassNitrogen_kgN_per_ha.md) | No slot (predicate) description specified<br/>| 2149 |
-| [sockg_aboveGroundBiomassNitrogenSd_kgN_per_ha](slots/sockg_aboveGroundBiomassNitrogenSd_kgN_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_aboveGroundBiomassSd_kg_per_ha](slots/sockg_aboveGroundBiomassSd_kg_per_ha.md) | No slot (predicate) description specified<br/>| 32 |
-| [sockg_abovegroundNetPrimaryProductivityCarbon_kgC_per_ha_per_yr](slots/sockg_abovegroundNetPrimaryProductivityCarbon_kgC_per_ha_per_yr.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_abovegroundNetPrimaryProductivityCarbonSd_kgC_per_ha_per_yr](slots/sockg_abovegroundNetPrimaryProductivityCarbonSd_kgC_per_ha_per_yr.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_abovegroundNetPrimaryProductivityNitrogen_kgN_per_ha_per_yr](slots/sockg_abovegroundNetPrimaryProductivityNitrogen_kgN_per_ha_per_yr.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_abovegroundNetPrimaryProductivityNitrogenSd_kgN_per_ha_per_yr](slots/sockg_abovegroundNetPrimaryProductivityNitrogenSd_kgN_per_ha_per_yr.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_acidDetFiber_g_per_kg](slots/sockg_acidDetFiber_g_per_kg.md) | No slot (predicate) description specified<br/>| 799 |
-| [sockg_acidDetFiberSd_g_per_kg](slots/sockg_acidDetFiberSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_acidInsolubleLigninSd_g_per_kg](slots/sockg_acidInsolubleLigninSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_acidPhosphatase_mg_per_kg_per_hr](slots/sockg_acidPhosphatase_mg_per_kg_per_hr.md) | No slot (predicate) description specified<br/>| 213 |
-| [sockg_acidPhosphataseSd_mg_per_kg_per_hr](slots/sockg_acidPhosphataseSd_mg_per_kg_per_hr.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_acidSolubleLignin_g_per_kg](slots/sockg_acidSolubleLignin_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_acidSolubleLigninSd_g_per_kg](slots/sockg_acidSolubleLigninSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_aggregationPercent](slots/sockg_aggregationPercent.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_agronomicEfficiency_kg_kg](slots/sockg_agronomicEfficiency_kg_kg.md) | No slot (predicate) description specified<br/>| 203 |
-| [sockg_airTemperature_degC](slots/sockg_airTemperature_degC.md) | No slot (predicate) description specified<br/>| 107350 |
-| [sockg_airTemperatureSd_degC](slots/sockg_airTemperatureSd_degC.md) | No slot (predicate) description specified<br/>| 6790 |
-| [sockg_alkPhosphatase_mg_per_kg_per_hr](slots/sockg_alkPhosphatase_mg_per_kg_per_hr.md) | No slot (predicate) description specified<br/>| 465 |
-| [sockg_alkPhosphataseSd_mg_per_kg_per_hr](slots/sockg_alkPhosphataseSd_mg_per_kg_per_hr.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_aluminum_kg_ha](slots/sockg_aluminum_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_aluminumConcentration_mg_per_kg](slots/sockg_aluminumConcentration_mg_per_kg.md) | No slot (predicate) description specified<br/>| 6253 |
-| [sockg_aluminumConcentrationSd_mg_per_kg](slots/sockg_aluminumConcentrationSd_mg_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_aluminumSd_kg_ha](slots/sockg_aluminumSd_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_amendmentDepth_cm](slots/sockg_amendmentDepth_cm.md) | No slot (predicate) description specified<br/>| 11887 |
-| [sockg_amendmentPlacement](slots/sockg_amendmentPlacement.md) | No slot (predicate) description specified<br/>| 22624 |
-| [sockg_ammoniaNitrogen_kg_ha](slots/sockg_ammoniaNitrogen_kg_ha.md) | No slot (predicate) description specified<br/>| 748 |
-| [sockg_ammoniaNitrogenSd_kg_ha](slots/sockg_ammoniaNitrogenSd_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_ammonium_mgN_per_kg](slots/sockg_ammonium_mgN_per_kg.md) | No slot (predicate) description specified<br/>| 35301 |
-| [sockg_ammoniumNitroge_kg_ha](slots/sockg_ammoniumNitroge_kg_ha.md) | No slot (predicate) description specified<br/>| 667 |
-| [sockg_ammoniumNitrogen_kg_ha](slots/sockg_ammoniumNitrogen_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_ammoniumSd_mgN_per_kg](slots/sockg_ammoniumSd_mgN_per_kg.md) | No slot (predicate) description specified<br/>| 354 |
-| [sockg_animalClass](slots/sockg_animalClass.md) | No slot (predicate) description specified<br/>| 1833 |
-| [sockg_animalSpecies](slots/sockg_animalSpecies.md) | No slot (predicate) description specified<br/>| 1951 |
-| [sockg_appliedInField](slots/sockg_appliedInField.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_appliedOnSoil](slots/sockg_appliedOnSoil.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_arabinan_g_per_kg](slots/sockg_arabinan_g_per_kg.md) | No slot (predicate) description specified<br/>| 1367 |
-| [sockg_arabinanSd_g_per_kg](slots/sockg_arabinanSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_ash_g_per_kg](slots/sockg_ash_g_per_kg.md) | No slot (predicate) description specified<br/>| 799 |
-| [sockg_ashSd_g_per_kg](slots/sockg_ashSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_atandingDeadDry_kg_per_ha](slots/sockg_atandingDeadDry_kg_per_ha.md) | No slot (predicate) description specified<br/>| 311 |
-| [sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d](slots/sockg_atmosphericNitrogenDeposition_kg_per_ha_per_d.md) | No slot (predicate) description specified<br/>| 954 |
-| [sockg_aurfaceLitterDry_kg_per_ha](slots/sockg_aurfaceLitterDry_kg_per_ha.md) | No slot (predicate) description specified<br/>| 1902 |
-| [sockg_author](slots/sockg_author.md) | No slot (predicate) description specified<br/>| 158 |
-| [sockg_belowGroundBiomassCarbon_kgC_per_ha](slots/sockg_belowGroundBiomassCarbon_kgC_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_belowGroundBiomassCarbonSd_kgC_per_ha](slots/sockg_belowGroundBiomassCarbonSd_kgC_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_belowGroundBiomassNitrogen_kgN_per_ha](slots/sockg_belowGroundBiomassNitrogen_kgN_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_belowGroundBiomassNitrogenSd_kgN_per_ha](slots/sockg_belowGroundBiomassNitrogenSd_kgN_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_belowgroundNetPrimaryProductivityCarbon_kgC_per_ha_per_yr](slots/sockg_belowgroundNetPrimaryProductivityCarbon_kgC_per_ha_per_yr.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_belowgroundNetPrimaryProductivityCarbonSd_kgC_per_ha_per_yr](slots/sockg_belowgroundNetPrimaryProductivityCarbonSd_kgC_per_ha_per_yr.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_belowgroundNetPrimaryProductivityNitrogen_kgN_per_ha_per_yr](slots/sockg_belowgroundNetPrimaryProductivityNitrogen_kgN_per_ha_per_yr.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_belowgroundNetPrimaryProductivityNitrogenSd_kgN_per_ha_per_yr](slots/sockg_belowgroundNetPrimaryProductivityNitrogenSd_kgN_per_ha_per_yr.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_biomassNitrogenPercentage](slots/sockg_biomassNitrogenPercentage.md) | No slot (predicate) description specified<br/>| 2149 |
-| [sockg_biomassNitrogenPercentageSd](slots/sockg_biomassNitrogenPercentageSd.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_bookName](slots/sockg_bookName.md) | No slot (predicate) description specified<br/>| 2 |
-| [sockg_boron_g_ha](slots/sockg_boron_g_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_boronConcentration_mg_per_kg](slots/sockg_boronConcentration_mg_per_kg.md) | No slot (predicate) description specified<br/>| 3967 |
-| [sockg_boronConcentrationSd_mg_per_kg](slots/sockg_boronConcentrationSd_mg_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_boronSd_g_ha](slots/sockg_boronSd_g_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_broadleafOrGrass](slots/sockg_broadleafOrGrass.md) | No slot (predicate) description specified<br/>| 6995 |
-| [sockg_bulkDensity_g_per_cm_cubed](slots/sockg_bulkDensity_g_per_cm_cubed.md) | No slot (predicate) description specified<br/>| 19670 |
-| [sockg_bulkDensitySd_g_per_cm_cubed](slots/sockg_bulkDensitySd_g_per_cm_cubed.md) | No slot (predicate) description specified<br/>| 50 |
-| [sockg_burnIntensity](slots/sockg_burnIntensity.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_calcium_kg_ha](slots/sockg_calcium_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_calciumConcentration_g_per_kg](slots/sockg_calciumConcentration_g_per_kg.md) | No slot (predicate) description specified<br/>| 6723 |
-| [sockg_calciumConcentrationSd_g_per_kg](slots/sockg_calciumConcentrationSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_calciumSd_kg_ha](slots/sockg_calciumSd_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_capacity_percent_volume](slots/sockg_capacity_percent_volume.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_capacitySd_percent_volume](slots/sockg_capacitySd_percent_volume.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_carbon_kgC_per_ha](slots/sockg_carbon_kgC_per_ha.md) | No slot (predicate) description specified<br/>| 9110 |
-| [sockg_carbonConcentration_g_per_kg](slots/sockg_carbonConcentration_g_per_kg.md) | No slot (predicate) description specified<br/>| 6723 |
-| [sockg_carbonConcentrationSd_g_per_kg](slots/sockg_carbonConcentrationSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_carbonDioxide_gC_per_ha_per_d](slots/sockg_carbonDioxide_gC_per_ha_per_d.md) | No slot (predicate) description specified<br/>| 107150 |
-| [sockg_carbonDioxideSd_gC_per_ha_per_d](slots/sockg_carbonDioxideSd_gC_per_ha_per_d.md) | No slot (predicate) description specified<br/>| 101109 |
-| [sockg_carbonMicrobialBiomass_mgC_per_kg](slots/sockg_carbonMicrobialBiomass_mgC_per_kg.md) | No slot (predicate) description specified<br/>| 18222 |
-| [sockg_carbonMicrobialBiomassSd_mgC_per_kg](slots/sockg_carbonMicrobialBiomassSd_mgC_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_carbonSd_kgC_per_ha](slots/sockg_carbonSd_kgC_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_cationExchangeCapacity_cmol_per_kg](slots/sockg_cationExchangeCapacity_cmol_per_kg.md) | No slot (predicate) description specified<br/>| 3398 |
-| [sockg_cationExchangeCapacitySd_cmol_per_kg](slots/sockg_cationExchangeCapacitySd_cmol_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_chamberPlacement](slots/sockg_chamberPlacement.md) | No slot (predicate) description specified<br/>| 103543 |
-| [sockg_changeInManagement](slots/sockg_changeInManagement.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_chemSampleHasTreatment](slots/sockg_chemSampleHasTreatment.md) | No slot (predicate) description specified<br/>| 54015 |
-| [sockg_chloride_mg_L](slots/sockg_chloride_mg_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_chlorideSd_mg_L](slots/sockg_chlorideSd_mg_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_chlorineConcentration_g_per_kg](slots/sockg_chlorineConcentration_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_chlorineConcentrationSd_g_per_kg](slots/sockg_chlorineConcentrationSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_citation](slots/sockg_citation.md) | No slot (predicate) description specified<br/>| 162 |
-| [sockg_citationType](slots/sockg_citationType.md) | No slot (predicate) description specified<br/>| 153 |
-| [sockg_cityName](slots/sockg_cityName.md) | No slot (predicate) description specified<br/>| 33 |
-| [sockg_classification](slots/sockg_classification.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_clayPercent](slots/sockg_clayPercent.md) | No slot (predicate) description specified<br/>| 27112 |
-| [sockg_closedPanEvaporation_mm_per_d](slots/sockg_closedPanEvaporation_mm_per_d.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_copper_g_ha](slots/sockg_copper_g_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_copperConcentration_mg_per_kg](slots/sockg_copperConcentration_mg_per_kg.md) | No slot (predicate) description specified<br/>| 6723 |
-| [sockg_copperConcentrationSd_mg_per_kg](slots/sockg_copperConcentrationSd_mg_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_copperSd_g_ha](slots/sockg_copperSd_g_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_cornEarHeight_cm](slots/sockg_cornEarHeight_cm.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_cornEarHeightSd_cm](slots/sockg_cornEarHeightSd_cm.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_correspondingAuthor](slots/sockg_correspondingAuthor.md) | No slot (predicate) description specified<br/>| 126 |
-| [sockg_countryName](slots/sockg_countryName.md) | No slot (predicate) description specified<br/>| 3 |
-| [sockg_countyFIPS](slots/sockg_countyFIPS.md) | No slot (predicate) description specified<br/>| 31 |
-| [sockg_countyName](slots/sockg_countyName.md) | No slot (predicate) description specified<br/>| 33 |
-| [sockg_coverCrop](slots/sockg_coverCrop.md) | No slot (predicate) description specified<br/>| 194 |
-| [sockg_crop](slots/sockg_crop.md) | No slot (predicate) description specified<br/>| 213189 |
-| [sockg_crudeProtein_g_per_kg](slots/sockg_crudeProtein_g_per_kg.md) | No slot (predicate) description specified<br/>| 799 |
-| [sockg_crudeProteinSd_g_per_kg](slots/sockg_crudeProteinSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_cultivar](slots/sockg_cultivar.md) | No slot (predicate) description specified<br/>| 20817 |
-| [sockg_cuttingHeight](slots/sockg_cuttingHeight.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_date](slots/sockg_date.md) | No slot (predicate) description specified<br/>| 523520 |
-| [sockg_density_kg_per_ha](slots/sockg_density_kg_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_departmentName](slots/sockg_departmentName.md) | No slot (predicate) description specified<br/>| 33 |
-| [sockg_departmentOf](slots/sockg_departmentOf.md) | No slot (predicate) description specified<br/>| 11 |
-| [sockg_depth_cm](slots/sockg_depth_cm.md) | No slot (predicate) description specified<br/>| 20535 |
-| [sockg_description](slots/sockg_description.md) | No slot (predicate) description specified<br/>| 53 |
-| [sockg_descriptor](slots/sockg_descriptor.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dewPoint](slots/sockg_dewPoint.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dewPointDegc](slots/sockg_dewPointDegc.md) | No slot (predicate) description specified<br/>| 121030 |
-| [sockg_directionFromField](slots/sockg_directionFromField.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedAluminum_kgAl_ha](slots/sockg_dissolvedAluminum_kgAl_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedAluminum_mgAl_L](slots/sockg_dissolvedAluminum_mgAl_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedAluminumSd_kgAl_ha](slots/sockg_dissolvedAluminumSd_kgAl_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedAluminumSd_mgAl_L](slots/sockg_dissolvedAluminumSd_mgAl_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedBoron_gB_ha](slots/sockg_dissolvedBoron_gB_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedBoron_ugB_L](slots/sockg_dissolvedBoron_ugB_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedBoronSd_gB_ha](slots/sockg_dissolvedBoronSd_gB_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedBoronSd_ugB_L](slots/sockg_dissolvedBoronSd_ugB_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedCalcium_kgCa_ha](slots/sockg_dissolvedCalcium_kgCa_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedCalcium_mgCa_L](slots/sockg_dissolvedCalcium_mgCa_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedCalciumSd_kgCa_ha](slots/sockg_dissolvedCalciumSd_kgCa_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedCalciumSd_mgCa_L](slots/sockg_dissolvedCalciumSd_mgCa_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedCopper_gCu_ha](slots/sockg_dissolvedCopper_gCu_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedCopper_ugCu_L](slots/sockg_dissolvedCopper_ugCu_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedCopperSd_gCu_ha](slots/sockg_dissolvedCopperSd_gCu_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedCopperSd_ugCu_L](slots/sockg_dissolvedCopperSd_ugCu_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedIron_gFe_ha](slots/sockg_dissolvedIron_gFe_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedIron_ugFe_L](slots/sockg_dissolvedIron_ugFe_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedIronSd_gFe_ha](slots/sockg_dissolvedIronSd_gFe_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedIronSd_ugFe_L](slots/sockg_dissolvedIronSd_ugFe_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedMagnesium_kgMg_ha](slots/sockg_dissolvedMagnesium_kgMg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedMagnesium_mgMg_L](slots/sockg_dissolvedMagnesium_mgMg_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedMagnesiumSd_kgMg_ha](slots/sockg_dissolvedMagnesiumSd_kgMg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedMagnesiumSd_mgMg_L](slots/sockg_dissolvedMagnesiumSd_mgMg_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedManganese_gMn_ha](slots/sockg_dissolvedManganese_gMn_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedManganese_ugMn_L](slots/sockg_dissolvedManganese_ugMn_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedManganeseSd_gMn_ha](slots/sockg_dissolvedManganeseSd_gMn_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedManganeseSd_ugMn_L](slots/sockg_dissolvedManganeseSd_ugMn_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedMolybdenum_gMo_ha](slots/sockg_dissolvedMolybdenum_gMo_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedMolybdenum_ugMo_L](slots/sockg_dissolvedMolybdenum_ugMo_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedMolybdenumSd_gMo_ha](slots/sockg_dissolvedMolybdenumSd_gMo_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedMolybdenumSd_ugMo_L](slots/sockg_dissolvedMolybdenumSd_ugMo_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedPotassium_kgK_ha](slots/sockg_dissolvedPotassium_kgK_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedPotassium_mgK_L](slots/sockg_dissolvedPotassium_mgK_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedPotassiumSd_kgK_ha](slots/sockg_dissolvedPotassiumSd_kgK_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedPotassiumSd_mgK_L](slots/sockg_dissolvedPotassiumSd_mgK_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedSilicon_kgSi_ha](slots/sockg_dissolvedSilicon_kgSi_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedSilicon_mgSi_L](slots/sockg_dissolvedSilicon_mgSi_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedSiliconSd_mgSi_L](slots/sockg_dissolvedSiliconSd_mgSi_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedSodium_kgNa_ha](slots/sockg_dissolvedSodium_kgNa_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedSodium_mgNa_L](slots/sockg_dissolvedSodium_mgNa_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedSodiumSd_mgNa_L](slots/sockg_dissolvedSodiumSd_mgNa_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedSulfur_kgS_ha](slots/sockg_dissolvedSulfur_kgS_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedSulfur_mgS_L](slots/sockg_dissolvedSulfur_mgS_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedSulfurSd_kgS_ha](slots/sockg_dissolvedSulfurSd_kgS_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedSulfurSd_mgS_L](slots/sockg_dissolvedSulfurSd_mgS_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedZinc_gZn_ha](slots/sockg_dissolvedZinc_gZn_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedZinc_ugZn_L](slots/sockg_dissolvedZinc_ugZn_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedZincSd_gZn_ha](slots/sockg_dissolvedZincSd_gZn_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissolvedZincSd_ugZn_L](slots/sockg_dissolvedZincSd_ugZn_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissovledSiliconSd_kgSi_ha](slots/sockg_dissovledSiliconSd_kgSi_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dissovledSodiumSd_kgNa_ha](slots/sockg_dissovledSodiumSd_kgNa_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_distanceFromField_m](slots/sockg_distanceFromField_m.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_driedHarvestedResidue_kg_per_ha](slots/sockg_driedHarvestedResidue_kg_per_ha.md) | No slot (predicate) description specified<br/>| 1851 |
-| [sockg_driedHarvestedResidueSd_kg_per_ha](slots/sockg_driedHarvestedResidueSd_kg_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_dryBiomass_kg_per_ha](slots/sockg_dryBiomass_kg_per_ha.md) | No slot (predicate) description specified<br/>| 7547 |
-| [sockg_dryBiomassSd_kg_per_ha](slots/sockg_dryBiomassSd_kg_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_durationOfStudy](slots/sockg_durationOfStudy.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_electricalConductivity_ms_cm](slots/sockg_electricalConductivity_ms_cm.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_electricalConductivity_siemens_per_m](slots/sockg_electricalConductivity_siemens_per_m.md) | No slot (predicate) description specified<br/>| 5552 |
-| [sockg_electricalConductivitySd_ms_cm](slots/sockg_electricalConductivitySd_ms_cm.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_electricalConductivitySd_siemens_per_m](slots/sockg_electricalConductivitySd_siemens_per_m.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_elevation_m](slots/sockg_elevation_m.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_email](slots/sockg_email.md) | No slot (predicate) description specified<br/>| 87 |
-| [sockg_endDate](slots/sockg_endDate.md) | No slot (predicate) description specified<br/>| 3951 |
-| [sockg_equipmentType](slots/sockg_equipmentType.md) | No slot (predicate) description specified<br/>| 3044 |
-| [sockg_erosionMethod](slots/sockg_erosionMethod.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_erosionSediment_kg](slots/sockg_erosionSediment_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_erosionSediment_t_ha](slots/sockg_erosionSediment_t_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_erosionSedimentSd_kg](slots/sockg_erosionSedimentSd_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_erosionSedimentSd_t_ha](slots/sockg_erosionSedimentSd_t_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_erosionTotalSolids_kg](slots/sockg_erosionTotalSolids_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_erosionTotalSolids_t_ha](slots/sockg_erosionTotalSolids_t_ha.md) | No slot (predicate) description specified<br/>| 667 |
-| [sockg_erosionTotalSolidsSd_kg](slots/sockg_erosionTotalSolidsSd_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_erosionTotalSolidsSd_t_ha](slots/sockg_erosionTotalSolidsSd_t_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_erosionTotalSuspendedSolids_kg](slots/sockg_erosionTotalSuspendedSolids_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_erosionTotalSuspendedSolids_t_ha](slots/sockg_erosionTotalSuspendedSolids_t_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_erosionTotalSuspendedSolidsSd_kg](slots/sockg_erosionTotalSuspendedSolidsSd_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_erosionTotalSuspendedSolidsSd_t_ha](slots/sockg_erosionTotalSuspendedSolidsSd_t_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_event](slots/sockg_event.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_eventDepth_cm](slots/sockg_eventDepth_cm.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_eventMethod](slots/sockg_eventMethod.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_experimentName](slots/sockg_experimentName.md) | No slot (predicate) description specified<br/>| 55 |
-| [sockg_expUnit_UID](slots/sockg_expUnit_UID.md) | No slot (predicate) description specified<br/>| 9992 |
-| [sockg_expUnitId](slots/sockg_expUnitId.md) | No slot (predicate) description specified<br/>| 33442 |
-| [sockg_extractableCalcium_mgCa_per_kg](slots/sockg_extractableCalcium_mgCa_per_kg.md) | No slot (predicate) description specified<br/>| 3336 |
-| [sockg_extractableCalciumSd_mgCa_per_kg](slots/sockg_extractableCalciumSd_mgCa_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_extractableCopper_mgCu_per_kg](slots/sockg_extractableCopper_mgCu_per_kg.md) | No slot (predicate) description specified<br/>| 1314 |
-| [sockg_extractableCopperSd_mgCu_per_kg](slots/sockg_extractableCopperSd_mgCu_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_extractableIron_mgFe_per_kg](slots/sockg_extractableIron_mgFe_per_kg.md) | No slot (predicate) description specified<br/>| 1742 |
-| [sockg_extractableIronSd_mgFe_per_kg](slots/sockg_extractableIronSd_mgFe_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_extractableMagnesium_mgMg_per_kg](slots/sockg_extractableMagnesium_mgMg_per_kg.md) | No slot (predicate) description specified<br/>| 3337 |
-| [sockg_extractableMagnesiumSd_mgMg_per_kg](slots/sockg_extractableMagnesiumSd_mgMg_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_extractableManganese_mgMN_per_kg](slots/sockg_extractableManganese_mgMN_per_kg.md) | No slot (predicate) description specified<br/>| 2932 |
-| [sockg_extractableManganeseSd_mgMN_per_kg](slots/sockg_extractableManganeseSd_mgMN_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_extractableZinc_mgZn_per_kg](slots/sockg_extractableZinc_mgZn_per_kg.md) | No slot (predicate) description specified<br/>| 2952 |
-| [sockg_extractableZincSd_mgZn_per_kg](slots/sockg_extractableZincSd_mgZn_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_fattyAcidMethylEsters](slots/sockg_fattyAcidMethylEsters.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_fertilizerAmendmentClass](slots/sockg_fertilizerAmendmentClass.md) | No slot (predicate) description specified<br/>| 653 |
-| [sockg_fieldCapacity_percent_volume](slots/sockg_fieldCapacity_percent_volume.md) | No slot (predicate) description specified<br/>| 24 |
-| [sockg_fieldCapacitySd_percent_volume](slots/sockg_fieldCapacitySd_percent_volume.md) | No slot (predicate) description specified<br/>| 18 |
-| [sockg_fieldId](slots/sockg_fieldId.md) | No slot (predicate) description specified<br/>| 6187 |
-| [sockg_firstName](slots/sockg_firstName.md) | No slot (predicate) description specified<br/>| 98 |
-| [sockg_fluoresceinDiacetateHydrol_mg_per_kg_per_hr](slots/sockg_fluoresceinDiacetateHydrol_mg_per_kg_per_hr.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_fluoresceinDiacetateHydrolSd_mg_per_kg_per_hr](slots/sockg_fluoresceinDiacetateHydrolSd_mg_per_kg_per_hr.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_fracBoron_gB_ha](slots/sockg_fracBoron_gB_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_fracBoronSd_gB_ha](slots/sockg_fracBoronSd_gB_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_fracCalcium_kgCa_ha](slots/sockg_fracCalcium_kgCa_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_fracCalciumSd_kgCa_ha](slots/sockg_fracCalciumSd_kgCa_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_fracCarbon_kgC_ha](slots/sockg_fracCarbon_kgC_ha.md) | No slot (predicate) description specified<br/>| 429 |
-| [sockg_fracCarbonSd_kgC_ha](slots/sockg_fracCarbonSd_kgC_ha.md) | No slot (predicate) description specified<br/>| 20 |
-| [sockg_fracCopper_gCu_ha](slots/sockg_fracCopper_gCu_ha.md) | No slot (predicate) description specified<br/>| 20 |
-| [sockg_fracCopperSd_gCu_ha](slots/sockg_fracCopperSd_gCu_ha.md) | No slot (predicate) description specified<br/>| 20 |
-| [sockg_fracCropProductivity_kg_ha](slots/sockg_fracCropProductivity_kg_ha.md) | No slot (predicate) description specified<br/>| 429 |
-| [sockg_fracIron_gFe_ha](slots/sockg_fracIron_gFe_ha.md) | No slot (predicate) description specified<br/>| 20 |
-| [sockg_fracIronSd_gFe_ha](slots/sockg_fracIronSd_gFe_ha.md) | No slot (predicate) description specified<br/>| 20 |
-| [sockg_fracMagnesium_kgMg_ha](slots/sockg_fracMagnesium_kgMg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_fracMagnesiumSd_kgMg_ha](slots/sockg_fracMagnesiumSd_kgMg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_fracManganese_gMn_ha](slots/sockg_fracManganese_gMn_ha.md) | No slot (predicate) description specified<br/>| 20 |
-| [sockg_fracManganeseSd_gMn_ha](slots/sockg_fracManganeseSd_gMn_ha.md) | No slot (predicate) description specified<br/>| 20 |
-| [sockg_fracMoisturePercent](slots/sockg_fracMoisturePercent.md) | No slot (predicate) description specified<br/>| 20 |
-| [sockg_fracMoisturePercentSd](slots/sockg_fracMoisturePercentSd.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_fracMolybdenum_gMo_ha](slots/sockg_fracMolybdenum_gMo_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_fracMolybdenumSd_gMo_ha](slots/sockg_fracMolybdenumSd_gMo_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_fracNitrogen_kg_ha](slots/sockg_fracNitrogen_kg_ha.md) | No slot (predicate) description specified<br/>| 2791 |
-| [sockg_fracNitrogen_kgN_ha](slots/sockg_fracNitrogen_kgN_ha.md) | No slot (predicate) description specified<br/>| 429 |
-| [sockg_fracNitrogenSd_kgN_ha](slots/sockg_fracNitrogenSd_kgN_ha.md) | No slot (predicate) description specified<br/>| 20 |
-| [sockg_fracPhosphorus_kgP_ha](slots/sockg_fracPhosphorus_kgP_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_fracPhosphorusSd_kgP_ha](slots/sockg_fracPhosphorusSd_kgP_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_fracPotassium_kgK_ha](slots/sockg_fracPotassium_kgK_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_fracPotassiumSd_kgK_ha](slots/sockg_fracPotassiumSd_kgK_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_fracProductivitySd](slots/sockg_fracProductivitySd.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_fracProductivitySd_kg_ha](slots/sockg_fracProductivitySd_kg_ha.md) | No slot (predicate) description specified<br/>| 20 |
-| [sockg_fracSulfur_kgS_ha](slots/sockg_fracSulfur_kgS_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_fracSulfurSd_kgS_ha](slots/sockg_fracSulfurSd_kgS_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_fracZinc_gZn_ha](slots/sockg_fracZinc_gZn_ha.md) | No slot (predicate) description specified<br/>| 20 |
-| [sockg_fracZincSd_gZn_ha](slots/sockg_fracZincSd_gZn_ha.md) | No slot (predicate) description specified<br/>| 20 |
-| [sockg_fundsExperiment](slots/sockg_fundsExperiment.md) | No slot (predicate) description specified<br/>| 3 |
-| [sockg_galactan_g_per_kg](slots/sockg_galactan_g_per_kg.md) | No slot (predicate) description specified<br/>| 1367 |
-| [sockg_galactanSd_g_per_kg](slots/sockg_galactanSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_glomalin_g_per_kg](slots/sockg_glomalin_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_glomalinSd_g_per_kg](slots/sockg_glomalinSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_glucan_g_per_kg](slots/sockg_glucan_g_per_kg.md) | No slot (predicate) description specified<br/>| 1367 |
-| [sockg_glucanSd_g_per_kg](slots/sockg_glucanSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_glucosaminidase_mg_per_kg_per_hr](slots/sockg_glucosaminidase_mg_per_kg_per_hr.md) | No slot (predicate) description specified<br/>| 601 |
-| [sockg_glucosaminidaseSd_mg_per_kg_per_hr](slots/sockg_glucosaminidaseSd_mg_per_kg_per_hr.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_glucosidase_mg_per_kg_per_hr](slots/sockg_glucosidase_mg_per_kg_per_hr.md) | No slot (predicate) description specified<br/>| 1516 |
-| [sockg_glucosidaseSd_mg_per_kg_per_hr](slots/sockg_glucosidaseSd_mg_per_kg_per_hr.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_grainCarbon_kgC_per_ha](slots/sockg_grainCarbon_kgC_per_ha.md) | No slot (predicate) description specified<br/>| 13693 |
-| [sockg_grainCarbonSd_kgC_per_ha](slots/sockg_grainCarbonSd_kgC_per_ha.md) | No slot (predicate) description specified<br/>| 72 |
-| [sockg_grainMoisturePercent](slots/sockg_grainMoisturePercent.md) | No slot (predicate) description specified<br/>| 8426 |
-| [sockg_grainMoisturePercentSd](slots/sockg_grainMoisturePercentSd.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_grainMoisturePercentStd](slots/sockg_grainMoisturePercentStd.md) | No slot (predicate) description specified<br/>| 30 |
-| [sockg_grainNitrogen_kgN_per_ha](slots/sockg_grainNitrogen_kgN_per_ha.md) | No slot (predicate) description specified<br/>| 11255 |
-| [sockg_grainNitrogenSd_kgN_per_ha](slots/sockg_grainNitrogenSd_kgN_per_ha.md) | No slot (predicate) description specified<br/>| 70 |
-| [sockg_grainWeight_mg_per_kernel](slots/sockg_grainWeight_mg_per_kernel.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_grainWeightKernelYnu_mg](slots/sockg_grainWeightKernelYnu_mg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_grainWeightKernelYnuSd_mg](slots/sockg_grainWeightKernelYnuSd_mg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_grainWeightSd_mg_per_lernel](slots/sockg_grainWeightSd_mg_per_lernel.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_grainYield_kg_per_ha](slots/sockg_grainYield_kg_per_ha.md) | No slot (predicate) description specified<br/>| 15410 |
-| [sockg_grainYieldSd_kg_per_ha](slots/sockg_grainYieldSd_kg_per_ha.md) | No slot (predicate) description specified<br/>| 50 |
-| [sockg_grazingRate](slots/sockg_grazingRate.md) | No slot (predicate) description specified<br/>| 20 |
-| [sockg_grossCalorificValue_MJ_per_kg](slots/sockg_grossCalorificValue_MJ_per_kg.md) | No slot (predicate) description specified<br/>| 795 |
-| [sockg_grossCalorificValueSd_MJ_per_kg](slots/sockg_grossCalorificValueSd_MJ_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_groundCoverPercentage](slots/sockg_groundCoverPercentage.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_groundCoverPercentageSd](slots/sockg_groundCoverPercentageSd.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_growthStage](slots/sockg_growthStage.md) | No slot (predicate) description specified<br/>| 51226 |
-| [sockg_happenedAtResearchUnit](slots/sockg_happenedAtResearchUnit.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_harvestedFrac](slots/sockg_harvestedFrac.md) | No slot (predicate) description specified<br/>| 18047 |
-| [sockg_harvestedResidueCarbon_kgC_per_ha](slots/sockg_harvestedResidueCarbon_kgC_per_ha.md) | No slot (predicate) description specified<br/>| 962 |
-| [sockg_harvestedResidueCarbonSd_kgC_per_ha](slots/sockg_harvestedResidueCarbonSd_kgC_per_ha.md) | No slot (predicate) description specified<br/>| 40 |
-| [sockg_harvestedResidueMoisturePercent](slots/sockg_harvestedResidueMoisturePercent.md) | No slot (predicate) description specified<br/>| 1086 |
-| [sockg_harvestedResidueNitrogen_kgN_per_ha](slots/sockg_harvestedResidueNitrogen_kgN_per_ha.md) | No slot (predicate) description specified<br/>| 602 |
-| [sockg_harvestedResidueNitrogenSd_kgN_per_ha](slots/sockg_harvestedResidueNitrogenSd_kgN_per_ha.md) | No slot (predicate) description specified<br/>| 40 |
-| [sockg_hasAmendment](slots/sockg_hasAmendment.md) | No slot (predicate) description specified<br/>| 37796 |
-| [sockg_hasBioMassCarbohydrateData](slots/sockg_hasBioMassCarbohydrateData.md) | No slot (predicate) description specified<br/>| 1367 |
-| [sockg_hasBioMassEnergyData](slots/sockg_hasBioMassEnergyData.md) | No slot (predicate) description specified<br/>| 799 |
-| [sockg_hasBioMassMineralData](slots/sockg_hasBioMassMineralData.md) | No slot (predicate) description specified<br/>| 6723 |
-| [sockg_hasBioSample](slots/sockg_hasBioSample.md) | No slot (predicate) description specified<br/>| 18222 |
-| [sockg_hasChemSample](slots/sockg_hasChemSample.md) | No slot (predicate) description specified<br/>| 53833 |
-| [sockg_hasCity](slots/sockg_hasCity.md) | No slot (predicate) description specified<br/>| 33 |
-| [sockg_hasCounty](slots/sockg_hasCounty.md) | No slot (predicate) description specified<br/>| 33 |
-| [sockg_hasField](slots/sockg_hasField.md) | No slot (predicate) description specified<br/>| 65 |
-| [sockg_hasGasNutrientData](slots/sockg_hasGasNutrientData.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_hasGasSample](slots/sockg_hasGasSample.md) | No slot (predicate) description specified<br/>| 106447 |
-| [sockg_hasGrazingData](slots/sockg_hasGrazingData.md) | No slot (predicate) description specified<br/>| 6995 |
-| [sockg_hasGrazingManagementEvent](slots/sockg_hasGrazingManagementEvent.md) | No slot (predicate) description specified<br/>| 1951 |
-| [sockg_hasHarvestFractionData](slots/sockg_hasHarvestFractionData.md) | No slot (predicate) description specified<br/>| 9110 |
-| [sockg_hasMiscellaneousMeasurement](slots/sockg_hasMiscellaneousMeasurement.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_hasPesticide](slots/sockg_hasPesticide.md) | No slot (predicate) description specified<br/>| 42545 |
-| [sockg_hasPhysSample](slots/sockg_hasPhysSample.md) | No slot (predicate) description specified<br/>| 28082 |
-| [sockg_hasResidueManagementEvent](slots/sockg_hasResidueManagementEvent.md) | No slot (predicate) description specified<br/>| 3308 |
-| [sockg_hasRotation](slots/sockg_hasRotation.md) | No slot (predicate) description specified<br/>| 761 |
-| [sockg_hasSoilCover](slots/sockg_hasSoilCover.md) | No slot (predicate) description specified<br/>| 1034 |
-| [sockg_hasState](slots/sockg_hasState.md) | No slot (predicate) description specified<br/>| 19 |
-| [sockg_hasTillage](slots/sockg_hasTillage.md) | No slot (predicate) description specified<br/>| 27137 |
-| [sockg_hasTreatment](slots/sockg_hasTreatment.md) | No slot (predicate) description specified<br/>| 741 |
-| [sockg_hasWaterQualityAreaData](slots/sockg_hasWaterQualityAreaData.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_hasWaterQualityConcData](slots/sockg_hasWaterQualityConcData.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_hasWindErosionData](slots/sockg_hasWindErosionData.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_hasYieldNutrUptakeData](slots/sockg_hasYieldNutrUptakeData.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_heatFlux_MJ_per_m_squared](slots/sockg_heatFlux_MJ_per_m_squared.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_heatFluxSd_MJ_per_m_squared](slots/sockg_heatFluxSd_MJ_per_m_squared.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_identifier](slots/sockg_identifier.md) | No slot (predicate) description specified<br/>| 114 |
-| [sockg_inorganicCarbon_gC_per_kg](slots/sockg_inorganicCarbon_gC_per_kg.md) | No slot (predicate) description specified<br/>| 5391 |
-| [sockg_inorganicCarbonSd_gC_per_kg](slots/sockg_inorganicCarbonSd_gC_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_inorganicNitrogen_kgN_ha](slots/sockg_inorganicNitrogen_kgN_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_InorganicNitrogen_mg_L](slots/sockg_InorganicNitrogen_mg_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_InorganicNitrogen_mg_l](slots/sockg_InorganicNitrogen_mg_l.md) | No slot (predicate) description specified<br/>| 667 |
-| [sockg_inorganicNitrogenSd_kgN_ha](slots/sockg_inorganicNitrogenSd_kgN_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_InorganicNitrogenSd_mg_L](slots/sockg_InorganicNitrogenSd_mg_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_iron_g_ha](slots/sockg_iron_g_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_ironConcentration_mg_per_kg](slots/sockg_ironConcentration_mg_per_kg.md) | No slot (predicate) description specified<br/>| 6723 |
-| [sockg_ironConcentrationSd_mg_per_kg](slots/sockg_ironConcentrationSd_mg_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_ironSd_g_ha](slots/sockg_ironSd_g_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_irrigation](slots/sockg_irrigation.md) | No slot (predicate) description specified<br/>| 769 |
-| [sockg_irrigationAmount_cm](slots/sockg_irrigationAmount_cm.md) | No slot (predicate) description specified<br/>| 4382 |
-| [sockg_irrigationNitrogen_mg_per_L](slots/sockg_irrigationNitrogen_mg_per_L.md) | No slot (predicate) description specified<br/>| 160 |
-| [sockg_irrigationType](slots/sockg_irrigationType.md) | No slot (predicate) description specified<br/>| 4220 |
-| [sockg_isAuthorOfPublication](slots/sockg_isAuthorOfPublication.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_isCarbonDioxideInterpolated](slots/sockg_isCarbonDioxideInterpolated.md) | No slot (predicate) description specified<br/>| 107354 |
-| [sockg_isChapterOf](slots/sockg_isChapterOf.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_isCorrespondingAuthor](slots/sockg_isCorrespondingAuthor.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_isHarvested](slots/sockg_isHarvested.md) | No slot (predicate) description specified<br/>| 18356 |
-| [sockg_isMethaneInterpolated](slots/sockg_isMethaneInterpolated.md) | No slot (predicate) description specified<br/>| 107354 |
-| [sockg_isNitrousOxideInterpolated](slots/sockg_isNitrousOxideInterpolated.md) | No slot (predicate) description specified<br/>| 107354 |
-| [sockg_isPrimaryContact](slots/sockg_isPrimaryContact.md) | No slot (predicate) description specified<br/>| 84 |
-| [sockg_landscapePosition](slots/sockg_landscapePosition.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_lastName](slots/sockg_lastName.md) | No slot (predicate) description specified<br/>| 98 |
-| [sockg_latitude](slots/sockg_latitude.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_latitude_decimal_deg](slots/sockg_latitude_decimal_deg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_leafAreaIndexDry_kg_per_ha](slots/sockg_leafAreaIndexDry_kg_per_ha.md) | No slot (predicate) description specified<br/>| 312 |
-| [sockg_leafAreaIndexDrySd_kg_per_ha](slots/sockg_leafAreaIndexDrySd_kg_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_lignin_g_per_kg](slots/sockg_lignin_g_per_kg.md) | No slot (predicate) description specified<br/>| 799 |
-| [sockg_ligninPercentage](slots/sockg_ligninPercentage.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_ligninPercentageSd](slots/sockg_ligninPercentageSd.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_ligninSd_g_per_kg](slots/sockg_ligninSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_locatedInCity](slots/sockg_locatedInCity.md) | No slot (predicate) description specified<br/>| 59 |
-| [sockg_locatedInCountry](slots/sockg_locatedInCountry.md) | No slot (predicate) description specified<br/>| 60 |
-| [sockg_locatedInCounty](slots/sockg_locatedInCounty.md) | No slot (predicate) description specified<br/>| 61 |
-| [sockg_locatedInField](slots/sockg_locatedInField.md) | No slot (predicate) description specified<br/>| 3809 |
-| [sockg_locatedInSite](slots/sockg_locatedInSite.md) | No slot (predicate) description specified<br/>| 3803 |
-| [sockg_locatedInState](slots/sockg_locatedInState.md) | No slot (predicate) description specified<br/>| 60 |
-| [sockg_longitude](slots/sockg_longitude.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_longitude_decimal_deg](slots/sockg_longitude_decimal_deg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_lossesOrDeposition](slots/sockg_lossesOrDeposition.md) | No slot (predicate) description specified<br/>| 139 |
-| [sockg_lowerDepth_cm](slots/sockg_lowerDepth_cm.md) | No slot (predicate) description specified<br/>| 100137 |
-| [sockg_macroAggregatesPercentSd](slots/sockg_macroAggregatesPercentSd.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_magnesiumConcentration_g_per_kg](slots/sockg_magnesiumConcentration_g_per_kg.md) | No slot (predicate) description specified<br/>| 6723 |
-| [sockg_magnesiumConcentrationSd_g_per_kg](slots/sockg_magnesiumConcentrationSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_magnesiumSd_kg_ha](slots/sockg_magnesiumSd_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_majorLandResourceArea](slots/sockg_majorLandResourceArea.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_manganese_g_ha](slots/sockg_manganese_g_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_manganeseConcentration_mg_per_kg](slots/sockg_manganeseConcentration_mg_per_kg.md) | No slot (predicate) description specified<br/>| 6723 |
-| [sockg_manganeseConcentrationSd_mg_per_kg](slots/sockg_manganeseConcentrationSd_mg_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_manganeseSd_g_ha](slots/sockg_manganeseSd_g_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_mannan_g_per_kg](slots/sockg_mannan_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_mannanSd_g_per_kg](slots/sockg_mannanSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_measBiomassCHO_UID](slots/sockg_measBiomassCHO_UID.md) | No slot (predicate) description specified<br/>| 1367 |
-| [sockg_measBiomassEnergy_UID](slots/sockg_measBiomassEnergy_UID.md) | No slot (predicate) description specified<br/>| 799 |
-| [sockg_measBiomassMinAn_UID](slots/sockg_measBiomassMinAn_UID.md) | No slot (predicate) description specified<br/>| 6723 |
-| [sockg_measGasNutrientLoss_UID](slots/sockg_measGasNutrientLoss_UID.md) | No slot (predicate) description specified<br/>| 748 |
-| [sockg_measGHGFlux_UID](slots/sockg_measGHGFlux_UID.md) | No slot (predicate) description specified<br/>| 107354 |
-| [sockg_measGrazingPlants_UID](slots/sockg_measGrazingPlants_UID.md) | No slot (predicate) description specified<br/>| 6995 |
-| [sockg_measHarvestFraction_UID](slots/sockg_measHarvestFraction_UID.md) | No slot (predicate) description specified<br/>| 9470 |
-| [sockg_measNutrEff_UID](slots/sockg_measNutrEff_UID.md) | No slot (predicate) description specified<br/>| 2791 |
-| [sockg_measResidueMgnt_UID](slots/sockg_measResidueMgnt_UID.md) | No slot (predicate) description specified<br/>| 18356 |
-| [sockg_measSoilBiol_UID](slots/sockg_measSoilBiol_UID.md) | No slot (predicate) description specified<br/>| 18222 |
-| [sockg_measSoilChem_UID](slots/sockg_measSoilChem_UID.md) | No slot (predicate) description specified<br/>| 53833 |
-| [sockg_measSoilCover_UID](slots/sockg_measSoilCover_UID.md) | No slot (predicate) description specified<br/>| 1034 |
-| [sockg_measSoilPhys_UID](slots/sockg_measSoilPhys_UID.md) | No slot (predicate) description specified<br/>| 28082 |
-| [sockg_measWaterQualityArea_UID](slots/sockg_measWaterQualityArea_UID.md) | No slot (predicate) description specified<br/>| 667 |
-| [sockg_measWaterQualityConc_UID](slots/sockg_measWaterQualityConc_UID.md) | No slot (predicate) description specified<br/>| 1479 |
-| [sockg_measWindErosionArea_UID](slots/sockg_measWindErosionArea_UID.md) | No slot (predicate) description specified<br/>| 15 |
-| [sockg_measYieldNutUptake_UID](slots/sockg_measYieldNutUptake_UID.md) | No slot (predicate) description specified<br/>| 429 |
-| [sockg_methane_gC_per_ha_per_d](slots/sockg_methane_gC_per_ha_per_d.md) | No slot (predicate) description specified<br/>| 107090 |
-| [sockg_methaneSd_gC_per_ha_per_d](slots/sockg_methaneSd_gC_per_ha_per_d.md) | No slot (predicate) description specified<br/>| 101109 |
-| [sockg_mgtAmendments_UID](slots/sockg_mgtAmendments_UID.md) | No slot (predicate) description specified<br/>| 37796 |
-| [sockg_mgtGrazing_UID](slots/sockg_mgtGrazing_UID.md) | No slot (predicate) description specified<br/>| 1951 |
-| [sockg_mgtGrowthStages_UID](slots/sockg_mgtGrowthStages_UID.md) | No slot (predicate) description specified<br/>| 4896 |
-| [sockg_mgtPlanting_UID](slots/sockg_mgtPlanting_UID.md) | No slot (predicate) description specified<br/>| 23450 |
-| [sockg_mgtResidue_UID](slots/sockg_mgtResidue_UID.md) | No slot (predicate) description specified<br/>| 3308 |
-| [sockg_mgtTillage_UID](slots/sockg_mgtTillage_UID.md) | No slot (predicate) description specified<br/>| 27137 |
-| [sockg_middleName](slots/sockg_middleName.md) | No slot (predicate) description specified<br/>| 65 |
-| [sockg_mineralCarbon_gC_per_kg](slots/sockg_mineralCarbon_gC_per_kg.md) | No slot (predicate) description specified<br/>| 3343 |
-| [sockg_mineralCarbonSd_gC_per_kg](slots/sockg_mineralCarbonSd_gC_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_mineralizableNitrogen_gN_per_kg](slots/sockg_mineralizableNitrogen_gN_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_mineralizableNitrogenSd_gN_per_kg](slots/sockg_mineralizableNitrogenSd_gN_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_mineralMatter_g_per_kg](slots/sockg_mineralMatter_g_per_kg.md) | No slot (predicate) description specified<br/>| 799 |
-| [sockg_mineralMatterSd_g_per_kg](slots/sockg_mineralMatterSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_miscellaneousMeasurementUniqueId](slots/sockg_miscellaneousMeasurementUniqueId.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_modelIfSimulated](slots/sockg_modelIfSimulated.md) | No slot (predicate) description specified<br/>| 861 |
-| [sockg_moisture_percent_volume](slots/sockg_moisture_percent_volume.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_moistureDepth_cm](slots/sockg_moistureDepth_cm.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_moisturePercent](slots/sockg_moisturePercent.md) | No slot (predicate) description specified<br/>| 846 |
-| [sockg_moisturePercentSd](slots/sockg_moisturePercentSd.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_moistureReleaseCurve](slots/sockg_moistureReleaseCurve.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_moistureSd_percent_volume](slots/sockg_moistureSd_percent_volume.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_molybdenum_g_ha](slots/sockg_molybdenum_g_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_molybdenumSd_g_ha](slots/sockg_molybdenumSd_g_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nearInfraredCarbon_gC_per_kg](slots/sockg_nearInfraredCarbon_gC_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nearInfraredCarbonSd_gC_per_kg](slots/sockg_nearInfraredCarbonSd_gC_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_neutralDetFiber_g_per_kg](slots/sockg_neutralDetFiber_g_per_kg.md) | No slot (predicate) description specified<br/>| 799 |
-| [sockg_neutralDetFiberSd_g_per_kg](slots/sockg_neutralDetFiberSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nitrate_kg_ha](slots/sockg_nitrate_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nitrate_mg_L](slots/sockg_nitrate_mg_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nitrate_mg_l](slots/sockg_nitrate_mg_l.md) | No slot (predicate) description specified<br/>| 1479 |
-| [sockg_nitrate_mgN_per_kg](slots/sockg_nitrate_mgN_per_kg.md) | No slot (predicate) description specified<br/>| 37066 |
-| [sockg_nitrateNitrogen_kg_ha](slots/sockg_nitrateNitrogen_kg_ha.md) | No slot (predicate) description specified<br/>| 667 |
-| [sockg_nitrateSd_kgN_ha](slots/sockg_nitrateSd_kgN_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nitrateSd_mg_L](slots/sockg_nitrateSd_mg_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nitrateSd_mgN_per_kg](slots/sockg_nitrateSd_mgN_per_kg.md) | No slot (predicate) description specified<br/>| 354 |
-| [sockg_nitrites_mgN_per_kg](slots/sockg_nitrites_mgN_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nitritesSd_mgN_per_kg](slots/sockg_nitritesSd_mgN_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nitrogen_kgN_per_ha](slots/sockg_nitrogen_kgN_per_ha.md) | No slot (predicate) description specified<br/>| 9110 |
-| [sockg_nitrogenConcentration_g_per_kg](slots/sockg_nitrogenConcentration_g_per_kg.md) | No slot (predicate) description specified<br/>| 6723 |
-| [sockg_nitrogenConcentrationSd_g_per_kg](slots/sockg_nitrogenConcentrationSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nitrogenGas_g_ha](slots/sockg_nitrogenGas_g_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nitrogenGasSd_g_ha](slots/sockg_nitrogenGasSd_g_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nitrogenMicrobialBiomass_mgN_per_kg](slots/sockg_nitrogenMicrobialBiomass_mgN_per_kg.md) | No slot (predicate) description specified<br/>| 2080 |
-| [sockg_nitrogenMicrobialBiomassSd_mgN_per_kg](slots/sockg_nitrogenMicrobialBiomassSd_mgN_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nitrogenSd_kgN_per_ha](slots/sockg_nitrogenSd_kgN_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nitrogenTreatmentDescriptor](slots/sockg_nitrogenTreatmentDescriptor.md) | No slot (predicate) description specified<br/>| 750 |
-| [sockg_nitrogenUseEfficiency_kg_ha](slots/sockg_nitrogenUseEfficiency_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nitrogenUseEfficiencyPct](slots/sockg_nitrogenUseEfficiencyPct.md) | No slot (predicate) description specified<br/>| 2791 |
-| [sockg_nitrousOxide_g_ha](slots/sockg_nitrousOxide_g_ha.md) | No slot (predicate) description specified<br/>| 748 |
-| [sockg_nitrousOxide_gN_per_ha_per_d](slots/sockg_nitrousOxide_gN_per_ha_per_d.md) | No slot (predicate) description specified<br/>| 107095 |
-| [sockg_nitrousOxides_g_ha](slots/sockg_nitrousOxides_g_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nitrousOxideSd_g_ha](slots/sockg_nitrousOxideSd_g_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nitrousOxideSd_gN_per_ha_per_d](slots/sockg_nitrousOxideSd_gN_per_ha_per_d.md) | No slot (predicate) description specified<br/>| 101109 |
-| [sockg_nitrousOxidesSd_g_ha](slots/sockg_nitrousOxidesSd_g_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nonFiberCarbs_g_per_kg](slots/sockg_nonFiberCarbs_g_per_kg.md) | No slot (predicate) description specified<br/>| 751 |
-| [sockg_nonFiberCarbsSd_g_per_kg](slots/sockg_nonFiberCarbsSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nonHarvestedResidueCarbonContent_kgC_per_ha](slots/sockg_nonHarvestedResidueCarbonContent_kgC_per_ha.md) | No slot (predicate) description specified<br/>| 9217 |
-| [sockg_nonHarvestedResidueCarbonContentSd_kgC_per_ha](slots/sockg_nonHarvestedResidueCarbonContentSd_kgC_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nonHarvestedResidueMass_kg_per_ha](slots/sockg_nonHarvestedResidueMass_kg_per_ha.md) | No slot (predicate) description specified<br/>| 10748 |
-| [sockg_nonHarvestedResidueMassSd_kg_per_ha](slots/sockg_nonHarvestedResidueMassSd_kg_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nonHarvestedResidueMoisturePercent](slots/sockg_nonHarvestedResidueMoisturePercent.md) | No slot (predicate) description specified<br/>| 1372 |
-| [sockg_nonHarvestedResidueMoisturePercentSd](slots/sockg_nonHarvestedResidueMoisturePercentSd.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha](slots/sockg_nonHarvestedResidueNitrogenContent_kgN_per_ha.md) | No slot (predicate) description specified<br/>| 10384 |
-| [sockg_nonHarvestedResidueNitrogenContentSd_kgN_per_ha](slots/sockg_nonHarvestedResidueNitrogenContentSd_kgN_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_note](slots/sockg_note.md) | No slot (predicate) description specified<br/>| 11 |
-| [sockg_nutrientEfficiencyRatio_kg_kg](slots/sockg_nutrientEfficiencyRatio_kg_kg.md) | No slot (predicate) description specified<br/>| 2569 |
-| [sockg_openPanEvaporation_mm_per_d](slots/sockg_openPanEvaporation_mm_per_d.md) | No slot (predicate) description specified<br/>| 131522 |
-| [sockg_organicCarbon_gC_per_kg](slots/sockg_organicCarbon_gC_per_kg.md) | No slot (predicate) description specified<br/>| 8192 |
-| [sockg_organicCarbon_kg_ha](slots/sockg_organicCarbon_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_organicCarbonSd_gC_per_kg](slots/sockg_organicCarbonSd_gC_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_organicManagement](slots/sockg_organicManagement.md) | No slot (predicate) description specified<br/>| 769 |
-| [sockg_organicMatter_kg_ha](slots/sockg_organicMatter_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_organicMatterSd_kg_ha](slots/sockg_organicMatterSd_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_organicPlantMaterial_gC_per_kg](slots/sockg_organicPlantMaterial_gC_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_organicPlantMaterialSd_gC_per_kg](slots/sockg_organicPlantMaterialSd_gC_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_organizationName](slots/sockg_organizationName.md) | No slot (predicate) description specified<br/>| 95 |
-| [sockg_otherEvents](slots/sockg_otherEvents.md) | No slot (predicate) description specified<br/>| 4 |
-| [sockg_particulateOrganicMatter_gC_per_kg](slots/sockg_particulateOrganicMatter_gC_per_kg.md) | No slot (predicate) description specified<br/>| 18222 |
-| [sockg_particulateOrganicMatterSd_gC_per_kg](slots/sockg_particulateOrganicMatterSd_gC_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_perennialStandAge_years](slots/sockg_perennialStandAge_years.md) | No slot (predicate) description specified<br/>| 826 |
-| [sockg_persons_UID](slots/sockg_persons_UID.md) | No slot (predicate) description specified<br/>| 98 |
-| [sockg_pesticide_UID](slots/sockg_pesticide_UID.md) | No slot (predicate) description specified<br/>| 356 |
-| [sockg_pesticideActiveIngredientType](slots/sockg_pesticideActiveIngredientType.md) | No slot (predicate) description specified<br/>| 353 |
-| [sockg_pesticidePlacement](slots/sockg_pesticidePlacement.md) | No slot (predicate) description specified<br/>| 230 |
-| [sockg_pesticideTarget](slots/sockg_pesticideTarget.md) | No slot (predicate) description specified<br/>| 247 |
-| [sockg_ph](slots/sockg_ph.md) | No slot (predicate) description specified<br/>| 18189 |
-| [sockg_phoneNumber](slots/sockg_phoneNumber.md) | No slot (predicate) description specified<br/>| 84 |
-| [sockg_phospholipidFattyAcids](slots/sockg_phospholipidFattyAcids.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_phosphorus_kg_ha](slots/sockg_phosphorus_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_phosphorus_mgP_per_kg](slots/sockg_phosphorus_mgP_per_kg.md) | No slot (predicate) description specified<br/>| 13439 |
-| [sockg_phosphorusConcentration_g_per_kg](slots/sockg_phosphorusConcentration_g_per_kg.md) | No slot (predicate) description specified<br/>| 6723 |
-| [sockg_phosphorusConcentrationSd_g_per_kg](slots/sockg_phosphorusConcentrationSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_phosphorusSd_kg_ha](slots/sockg_phosphorusSd_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_phosphorusSd_mgP_per_kg](slots/sockg_phosphorusSd_mgP_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_phSd](slots/sockg_phSd.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_plantFraction](slots/sockg_plantFraction.md) | No slot (predicate) description specified<br/>| 21471 |
-| [sockg_plantingAt](slots/sockg_plantingAt.md) | No slot (predicate) description specified<br/>| 23450 |
-| [sockg_plantingDensity_kg_per_ha](slots/sockg_plantingDensity_kg_per_ha.md) | No slot (predicate) description specified<br/>| 22514 |
-| [sockg_plantingMethod](slots/sockg_plantingMethod.md) | No slot (predicate) description specified<br/>| 22314 |
-| [sockg_plantingRate_number_seeds_per_ha](slots/sockg_plantingRate_number_seeds_per_ha.md) | No slot (predicate) description specified<br/>| 17377 |
-| [sockg_postalCodeNumber](slots/sockg_postalCodeNumber.md) | No slot (predicate) description specified<br/>| 60 |
-| [sockg_potassium_kg_ha](slots/sockg_potassium_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_potassium_mgK_per_kg](slots/sockg_potassium_mgK_per_kg.md) | No slot (predicate) description specified<br/>| 10949 |
-| [sockg_potassiumConcentration_g_per_kg](slots/sockg_potassiumConcentration_g_per_kg.md) | No slot (predicate) description specified<br/>| 6723 |
-| [sockg_potassiumConcentrationSd_g_per_kg](slots/sockg_potassiumConcentrationSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_potassiumSd_kg_ha](slots/sockg_potassiumSd_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_potassiumSd_mgK_per_kg](slots/sockg_potassiumSd_mgK_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_precipitation_mm_per_d](slots/sockg_precipitation_mm_per_d.md) | No slot (predicate) description specified<br/>| 147232 |
-| [sockg_profession](slots/sockg_profession.md) | No slot (predicate) description specified<br/>| 93 |
-| [sockg_projectName](slots/sockg_projectName.md) | No slot (predicate) description specified<br/>| 64 |
-| [sockg_projectScenario](slots/sockg_projectScenario.md) | No slot (predicate) description specified<br/>| 769 |
-| [sockg_publicationDate](slots/sockg_publicationDate.md) | No slot (predicate) description specified<br/>| 162 |
-| [sockg_publicationDescription](slots/sockg_publicationDescription.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_rate_number_seeds_per_ha](slots/sockg_rate_number_seeds_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_recordsWeatherForField](slots/sockg_recordsWeatherForField.md) | No slot (predicate) description specified<br/>| 14 |
-| [sockg_recordsWeatherForSite](slots/sockg_recordsWeatherForSite.md) | No slot (predicate) description specified<br/>| 14 |
-| [sockg_relativeHumidityPercent](slots/sockg_relativeHumidityPercent.md) | No slot (predicate) description specified<br/>| 138705 |
-| [sockg_researchUnitDescription](slots/sockg_researchUnitDescription.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_residueCuttingHeight](slots/sockg_residueCuttingHeight.md) | No slot (predicate) description specified<br/>| 2952 |
-| [sockg_residueMoisturePercent](slots/sockg_residueMoisturePercent.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_residueMoisturePercentSd](slots/sockg_residueMoisturePercentSd.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_residueNitrogen_kgN_per_ha](slots/sockg_residueNitrogen_kgN_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_residueNitrogenSd_kgN_per_ha](slots/sockg_residueNitrogenSd_kgN_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_residueRemoval](slots/sockg_residueRemoval.md) | No slot (predicate) description specified<br/>| 769 |
-| [sockg_roleInStudy](slots/sockg_roleInStudy.md) | No slot (predicate) description specified<br/>| 93 |
-| [sockg_rootCarbonContent_kgC_per_ha](slots/sockg_rootCarbonContent_kgC_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_rootCarbonContentSd_kgC_per_ha](slots/sockg_rootCarbonContentSd_kgC_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_rootDryMatter_kg_per_ha](slots/sockg_rootDryMatter_kg_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_rootDryMatterSd_kg_per_ha](slots/sockg_rootDryMatterSd_kg_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_rootMoisturePercent](slots/sockg_rootMoisturePercent.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_rootMoisturePercentSd](slots/sockg_rootMoisturePercentSd.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_rootNitrogenContent_kgN_per_ha](slots/sockg_rootNitrogenContent_kgN_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_rootNitrogenContentSd_kgN_per_ha](slots/sockg_rootNitrogenContentSd_kgN_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_rotationDescriptor](slots/sockg_rotationDescriptor.md) | No slot (predicate) description specified<br/>| 66 |
-| [sockg_rowsHarvestedPercent](slots/sockg_rowsHarvestedPercent.md) | No slot (predicate) description specified<br/>| 3308 |
-| [sockg_rowWidth_cm](slots/sockg_rowWidth_cm.md) | No slot (predicate) description specified<br/>| 23450 |
-| [sockg_sampleDepth_cm](slots/sockg_sampleDepth_cm.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_samplingDate](slots/sockg_samplingDate.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_samplingDepth_cm](slots/sockg_samplingDepth_cm.md) | No slot (predicate) description specified<br/>| 1479 |
-| [sockg_samplingDepthCm](slots/sockg_samplingDepthCm.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_samplingStartStopInterval](slots/sockg_samplingStartStopInterval.md) | No slot (predicate) description specified<br/>| 891 |
-| [sockg_sandPercent](slots/sockg_sandPercent.md) | No slot (predicate) description specified<br/>| 27110 |
-| [sockg_saturatedHydraulicConductivity_cm_per_sec](slots/sockg_saturatedHydraulicConductivity_cm_per_sec.md) | No slot (predicate) description specified<br/>| 33 |
-| [sockg_saturatedHydraulicConductivitySd_cm_per_sec](slots/sockg_saturatedHydraulicConductivitySd_cm_per_sec.md) | No slot (predicate) description specified<br/>| 27 |
-| [sockg_silicon_kg_ha](slots/sockg_silicon_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_siliconSd_kg_ha](slots/sockg_siliconSd_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_siltPercent](slots/sockg_siltPercent.md) | No slot (predicate) description specified<br/>| 27112 |
-| [sockg_siteHistory](slots/sockg_siteHistory.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_siteId](slots/sockg_siteId.md) | No slot (predicate) description specified<br/>| 60 |
-| [sockg_siteIdDescriptor](slots/sockg_siteIdDescriptor.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_siteMeanAnnualPrecipitation_mm](slots/sockg_siteMeanAnnualPrecipitation_mm.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_siteMeanAnnualTemperature_degC](slots/sockg_siteMeanAnnualTemperature_degC.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_siteNativeVegetation](slots/sockg_siteNativeVegetation.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_siteSpatialDescription](slots/sockg_siteSpatialDescription.md) | No slot (predicate) description specified<br/>| 60 |
-| [sockg_size_m_squared](slots/sockg_size_m_squared.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_slopePercent](slots/sockg_slopePercent.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_snow_mm_per_d](slots/sockg_snow_mm_per_d.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_sodium_kg_ha](slots/sockg_sodium_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_sodiumConcentration_g_per_kg](slots/sockg_sodiumConcentration_g_per_kg.md) | No slot (predicate) description specified<br/>| 6415 |
-| [sockg_sodiumConcentrationSd_g_per_kg](slots/sockg_sodiumConcentrationSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_sodiumSd_kg_ha](slots/sockg_sodiumSd_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_soil_t_ha](slots/sockg_soil_t_ha.md) | No slot (predicate) description specified<br/>| 15 |
-| [sockg_soilCoverTimingDescriptor](slots/sockg_soilCoverTimingDescriptor.md) | No slot (predicate) description specified<br/>| 1034 |
-| [sockg_soilDna](slots/sockg_soilDna.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_soilfluoresceinDiacetateHydrol_mg_per_kg_per_hr](slots/sockg_soilfluoresceinDiacetateHydrol_mg_per_kg_per_hr.md) | No slot (predicate) description specified<br/>| 40 |
-| [sockg_soilMoisture_percent_volume](slots/sockg_soilMoisture_percent_volume.md) | No slot (predicate) description specified<br/>| 107000 |
-| [sockg_soilMoistureDepth_cm](slots/sockg_soilMoistureDepth_cm.md) | No slot (predicate) description specified<br/>| 107354 |
-| [sockg_soilMoistureSd_percent_volume](slots/sockg_soilMoistureSd_percent_volume.md) | No slot (predicate) description specified<br/>| 5038 |
-| [sockg_soilOrganicCarbon_kgC_ha](slots/sockg_soilOrganicCarbon_kgC_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_soilOrganicCarbon_mgC_L](slots/sockg_soilOrganicCarbon_mgC_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_soilOrganicCarbonSd_kgC_ha](slots/sockg_soilOrganicCarbonSd_kgC_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_soilOrganicCarbonSd_mgC_L](slots/sockg_soilOrganicCarbonSd_mgC_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_soilOrganicMatter_mgSom_L](slots/sockg_soilOrganicMatter_mgSom_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_soilOrganicMatterSd_mgSom_L](slots/sockg_soilOrganicMatterSd_mgSom_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_soilSd_t_ha](slots/sockg_soilSd_t_ha.md) | No slot (predicate) description specified<br/>| 15 |
-| [sockg_soilSeries](slots/sockg_soilSeries.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_soilTemp10cm_degC](slots/sockg_soilTemp10cm_degC.md) | No slot (predicate) description specified<br/>| 138926 |
-| [sockg_soilTemp5cm_degC](slots/sockg_soilTemp5cm_degC.md) | No slot (predicate) description specified<br/>| 44409 |
-| [sockg_soilTemperature_degC](slots/sockg_soilTemperature_degC.md) | No slot (predicate) description specified<br/>| 107352 |
-| [sockg_soilTemperatureSd_degC](slots/sockg_soilTemperatureSd_degC.md) | No slot (predicate) description specified<br/>| 6403 |
-| [sockg_soilWithResidueCoverPercent](slots/sockg_soilWithResidueCoverPercent.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d](slots/sockg_solarRadiationBareSoil_MJ_per_m_squared_per_d.md) | No slot (predicate) description specified<br/>| 38763 |
-| [sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d](slots/sockg_solarRadiationVegetatedGround_MJ_per_m_squared_per_d.md) | No slot (predicate) description specified<br/>| 119985 |
-| [sockg_solubleOrganicCarbon_mgC_per_kg](slots/sockg_solubleOrganicCarbon_mgC_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_solubleOrganicCarbonSd_mgC_per_kg](slots/sockg_solubleOrganicCarbonSd_mgC_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_speciesMix](slots/sockg_speciesMix.md) | No slot (predicate) description specified<br/>| 6995 |
-| [sockg_stageAtHarvest](slots/sockg_stageAtHarvest.md) | No slot (predicate) description specified<br/>| 1650 |
-| [sockg_standingDeadDry_kg_per_ha](slots/sockg_standingDeadDry_kg_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_standingDeadDrySd_kg_per_ha](slots/sockg_standingDeadDrySd_kg_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_startDate](slots/sockg_startDate.md) | No slot (predicate) description specified<br/>| 93567 |
-| [sockg_stateFIPS](slots/sockg_stateFIPS.md) | No slot (predicate) description specified<br/>| 18 |
-| [sockg_stateProvince](slots/sockg_stateProvince.md) | No slot (predicate) description specified<br/>| 19 |
-| [sockg_stockingRate_number_animals_per_ha](slots/sockg_stockingRate_number_animals_per_ha.md) | No slot (predicate) description specified<br/>| 1951 |
-| [sockg_studiesSite](slots/sockg_studiesSite.md) | No slot (predicate) description specified<br/>| 123 |
-| [sockg_suffix](slots/sockg_suffix.md) | No slot (predicate) description specified<br/>| 32 |
-| [sockg_sulfur_kg_ha](slots/sockg_sulfur_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_sulfurConcentration_g_per_kg](slots/sockg_sulfurConcentration_g_per_kg.md) | No slot (predicate) description specified<br/>| 5074 |
-| [sockg_sulfurConcentrationSd_g_per_kg](slots/sockg_sulfurConcentrationSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_sulfurSd_kg_ha](slots/sockg_sulfurSd_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_surfaceLitterDry_kg_per_ha](slots/sockg_surfaceLitterDry_kg_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_surfaceLitterDrySd_kg_per_ha](slots/sockg_surfaceLitterDrySd_kg_per_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_surfaceOrLeaching](slots/sockg_surfaceOrLeaching.md) | No slot (predicate) description specified<br/>| 2146 |
-| [sockg_tempMax_degC](slots/sockg_tempMax_degC.md) | No slot (predicate) description specified<br/>| 144885 |
-| [sockg_tempMin_degC](slots/sockg_tempMin_degC.md) | No slot (predicate) description specified<br/>| 144828 |
-| [sockg_tileDrainage](slots/sockg_tileDrainage.md) | No slot (predicate) description specified<br/>| 438 |
-| [sockg_tillageDescriptor](slots/sockg_tillageDescriptor.md) | No slot (predicate) description specified<br/>| 719 |
-| [sockg_tillageEvent](slots/sockg_tillageEvent.md) | No slot (predicate) description specified<br/>| 27137 |
-| [sockg_tillageEventDepth_cm](slots/sockg_tillageEventDepth_cm.md) | No slot (predicate) description specified<br/>| 26709 |
-| [sockg_tillageEventMethod](slots/sockg_tillageEventMethod.md) | No slot (predicate) description specified<br/>| 24342 |
-| [sockg_time](slots/sockg_time.md) | No slot (predicate) description specified<br/>| 5471 |
-| [sockg_timingDescriptor](slots/sockg_timingDescriptor.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_title](slots/sockg_title.md) | No slot (predicate) description specified<br/>| 136 |
-| [sockg_totalAmendmentAmount_kg_per_ha](slots/sockg_totalAmendmentAmount_kg_per_ha.md) | No slot (predicate) description specified<br/>| 17555 |
-| [sockg_totalChloride_kg_ha](slots/sockg_totalChloride_kg_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_totalChlorideSd_kgCl_ha](slots/sockg_totalChlorideSd_kgCl_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_totalDissolvedNitrogen_kgN_ha](slots/sockg_totalDissolvedNitrogen_kgN_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_totalDissolvedNitrogen_mgN_L](slots/sockg_totalDissolvedNitrogen_mgN_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_totalDissolvedNitrogenSd_kgN_ha](slots/sockg_totalDissolvedNitrogenSd_kgN_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_totalDissolvedNitrogenSd_mgN_L](slots/sockg_totalDissolvedNitrogenSd_mgN_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_totalDissolvedPhosphorus_kgP_ha](slots/sockg_totalDissolvedPhosphorus_kgP_ha.md) | No slot (predicate) description specified<br/>| 667 |
-| [sockg_totalDissolvedPhosphorus_mgP_L](slots/sockg_totalDissolvedPhosphorus_mgP_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_totalDissolvedPhosphorus_mgP_l](slots/sockg_totalDissolvedPhosphorus_mgP_l.md) | No slot (predicate) description specified<br/>| 667 |
-| [sockg_totalDissolvedPhosphorusSd_jgP_ha](slots/sockg_totalDissolvedPhosphorusSd_jgP_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_totalDissolvedPhosphorusSd_mgP_L](slots/sockg_totalDissolvedPhosphorusSd_mgP_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_totalNitrogen_kg_ha](slots/sockg_totalNitrogen_kg_ha.md) | No slot (predicate) description specified<br/>| 667 |
-| [sockg_totalNitrogen_mg_L](slots/sockg_totalNitrogen_mg_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_totalNitrogen_mg_l](slots/sockg_totalNitrogen_mg_l.md) | No slot (predicate) description specified<br/>| 667 |
-| [sockg_totalNitrogenAmount_kgN_per_ha](slots/sockg_totalNitrogenAmount_kgN_per_ha.md) | No slot (predicate) description specified<br/>| 21967 |
-| [sockg_totalNitrogenSd_kgN_ha](slots/sockg_totalNitrogenSd_kgN_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_totalNitrogenSd_mg_L](slots/sockg_totalNitrogenSd_mg_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_totalPesticideAmount_kg_per_ha](slots/sockg_totalPesticideAmount_kg_per_ha.md) | No slot (predicate) description specified<br/>| 353 |
-| [sockg_totalPhosphoru_kg_ha](slots/sockg_totalPhosphoru_kg_ha.md) | No slot (predicate) description specified<br/>| 667 |
-| [sockg_totalPhosphorus_mg_L](slots/sockg_totalPhosphorus_mg_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_totalPhosphorus_mg_l](slots/sockg_totalPhosphorus_mg_l.md) | No slot (predicate) description specified<br/>| 667 |
-| [sockg_totalPhosphorusAmount_kgP_per_ha](slots/sockg_totalPhosphorusAmount_kgP_per_ha.md) | No slot (predicate) description specified<br/>| 8440 |
-| [sockg_totalPhosphorusSd_kgP_ha](slots/sockg_totalPhosphorusSd_kgP_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_totalPhosphorusSd_mg_L](slots/sockg_totalPhosphorusSd_mg_L.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_totalPotassiumAmount_kgK_per_ha](slots/sockg_totalPotassiumAmount_kgK_per_ha.md) | No slot (predicate) description specified<br/>| 6151 |
-| [sockg_totalSoilCarbon_gC_per_kg](slots/sockg_totalSoilCarbon_gC_per_kg.md) | No slot (predicate) description specified<br/>| 44073 |
-| [sockg_totalSoilCarbonSd_gC_per_kg](slots/sockg_totalSoilCarbonSd_gC_per_kg.md) | No slot (predicate) description specified<br/>| 768 |
-| [sockg_totalSoilNitrogen_gN_per_kg](slots/sockg_totalSoilNitrogen_gN_per_kg.md) | No slot (predicate) description specified<br/>| 46104 |
-| [sockg_totalSoilNitrogenSd_gN_per_kg](slots/sockg_totalSoilNitrogenSd_gN_per_kg.md) | No slot (predicate) description specified<br/>| 720 |
-| [sockg_totalSolarRadiation](slots/sockg_totalSolarRadiation.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d](slots/sockg_totalSolarRadiationBareSoil_MJ_per_m_squared_per_d.md) | No slot (predicate) description specified<br/>| 8195 |
-| [sockg_tracksGrowth](slots/sockg_tracksGrowth.md) | No slot (predicate) description specified<br/>| 4896 |
-| [sockg_treatmentDescriptor](slots/sockg_treatmentDescriptor.md) | No slot (predicate) description specified<br/>| 769 |
-| [sockg_treatmentId](slots/sockg_treatmentId.md) | No slot (predicate) description specified<br/>| 329500 |
-| [sockg_type](slots/sockg_type.md) | No slot (predicate) description specified<br/>| 23230 |
-| [sockg_unitGrainWeight_mg](slots/sockg_unitGrainWeight_mg.md) | No slot (predicate) description specified<br/>| 120 |
-| [sockg_unitGrainWeightSd_mg](slots/sockg_unitGrainWeightSd_mg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_units](slots/sockg_units.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_upperDepth_cm](slots/sockg_upperDepth_cm.md) | No slot (predicate) description specified<br/>| 100137 |
-| [sockg_url](slots/sockg_url.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_usedInExpUnit](slots/sockg_usedInExpUnit.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_value](slots/sockg_value.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_versionDate](slots/sockg_versionDate.md) | No slot (predicate) description specified<br/>| 1 |
-| [sockg_volatileMatter_g_per_kg](slots/sockg_volatileMatter_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_volatileMatterSd_g_per_kg](slots/sockg_volatileMatterSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_wasNutrientDataAt](slots/sockg_wasNutrientDataAt.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_wasNutrientTreatment](slots/sockg_wasNutrientTreatment.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_water_mm](slots/sockg_water_mm.md) | No slot (predicate) description specified<br/>| 2146 |
-| [sockg_waterQualityAreaDataAt](slots/sockg_waterQualityAreaDataAt.md) | No slot (predicate) description specified<br/>| 667 |
-| [sockg_waterQualityAreaTreatment](slots/sockg_waterQualityAreaTreatment.md) | No slot (predicate) description specified<br/>| 667 |
-| [sockg_waterQualityConcDataAt](slots/sockg_waterQualityConcDataAt.md) | No slot (predicate) description specified<br/>| 1479 |
-| [sockg_waterQualityConcTreatment](slots/sockg_waterQualityConcTreatment.md) | No slot (predicate) description specified<br/>| 1479 |
-| [sockg_waterSd_mm](slots/sockg_waterSd_mm.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_waterStableAggregatePercent](slots/sockg_waterStableAggregatePercent.md) | No slot (predicate) description specified<br/>| 42 |
-| [sockg_waterStableAggregatesPercentSd](slots/sockg_waterStableAggregatesPercentSd.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_weatherAtField](slots/sockg_weatherAtField.md) | No slot (predicate) description specified<br/>| 147305 |
-| [sockg_weatherBadValueFlag](slots/sockg_weatherBadValueFlag.md) | No slot (predicate) description specified<br/>| 1824 |
-| [sockg_weatherDaily_UID](slots/sockg_weatherDaily_UID.md) | No slot (predicate) description specified<br/>| 147305 |
-| [sockg_weatherRecordedAt](slots/sockg_weatherRecordedAt.md) | No slot (predicate) description specified<br/>| 149473 |
-| [sockg_weatherRecordedBy](slots/sockg_weatherRecordedBy.md) | No slot (predicate) description specified<br/>| 39489 |
-| [sockg_weatherStationId](slots/sockg_weatherStationId.md) | No slot (predicate) description specified<br/>| 38375 |
-| [sockg_website](slots/sockg_website.md) | No slot (predicate) description specified<br/>| 29 |
-| [sockg_wiltingPoint_percent_volume](slots/sockg_wiltingPoint_percent_volume.md) | No slot (predicate) description specified<br/>| 24 |
-| [sockg_wiltingPointSd_percent_volume](slots/sockg_wiltingPointSd_percent_volume.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_windDirectionDegFromNorth](slots/sockg_windDirectionDegFromNorth.md) | No slot (predicate) description specified<br/>| 51210 |
-| [sockg_windErosionDataAt](slots/sockg_windErosionDataAt.md) | No slot (predicate) description specified<br/>| 15 |
-| [sockg_windErosionTreatment](slots/sockg_windErosionTreatment.md) | No slot (predicate) description specified<br/>| 15 |
-| [sockg_windSpeed_m_per_s](slots/sockg_windSpeed_m_per_s.md) | No slot (predicate) description specified<br/>| 92684 |
-| [sockg_worksAtDepartment](slots/sockg_worksAtDepartment.md) | No slot (predicate) description specified<br/>| 91 |
-| [sockg_worksFor](slots/sockg_worksFor.md) | No slot (predicate) description specified<br/>| 35 |
-| [sockg_worksIn](slots/sockg_worksIn.md) | No slot (predicate) description specified<br/>| 165 |
-| [sockg_xylan_g_per_kg](slots/sockg_xylan_g_per_kg.md) | No slot (predicate) description specified<br/>| 1367 |
-| [sockg_xylanSd_g_per_kg](slots/sockg_xylanSd_g_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_yearsBetweenBurns](slots/sockg_yearsBetweenBurns.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_yieldNutrUptakeDataAt](slots/sockg_yieldNutrUptakeDataAt.md) | No slot (predicate) description specified<br/>| 429 |
-| [sockg_yieldNutrUptakeTreatment](slots/sockg_yieldNutrUptakeTreatment.md) | No slot (predicate) description specified<br/>| 409 |
-| [sockg_zinc_g_ha](slots/sockg_zinc_g_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_zincConcentration_mg_per_kg](slots/sockg_zincConcentration_mg_per_kg.md) | No slot (predicate) description specified<br/>| 6723 |
-| [sockg_zincConcentrationSd_mg_per_kg](slots/sockg_zincConcentrationSd_mg_per_kg.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
-| [sockg_zincSd_g_ha](slots/sockg_zincSd_g_ha.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.|  |
+| [coso_casNumber](slots/coso_casNumber.md) | <br/>| 84 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_cites](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_cites.md) | <br/>| 177 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_correspondingAuthor](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_correspondingAuthor.md) | <br/>| 136 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_endDate](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_endDate.md) | <br/>| 3974 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromProject](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromProject.md) | <br/>| 935 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit.md) | <br/>| 156810 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fundedBy](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fundedBy.md) | <br/>| 54 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasAmendmentType](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasAmendmentType.md) | <br/>| 25357 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasAnimalClass](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasAnimalClass.md) | <br/>| 1833 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasAnimalSpecies](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasAnimalSpecies.md) | <br/>| 1954 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasBroadleafOrGrass](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasBroadleafOrGrass.md) | <br/>| 6996 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop.md) | <br/>| 149843 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCultivar](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCultivar.md) | <br/>| 20926 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasGrazingRate](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasGrazingRate.md) | <br/>| 20 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasGrowthStage](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasGrowthStage.md) | <br/>| 56789 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasHarvestedFraction](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasHarvestedFraction.md) | <br/>| 18154 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasLossesOrDeposition](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasLossesOrDeposition.md) | <br/>| 149 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasMeasurement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasMeasurement.md) | <br/>| 911199 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasOtherEvents](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasOtherEvents.md) | <br/>| 4 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasPesticideActiveIngredient](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasPesticideActiveIngredient.md) | <br/>| 16104 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasPesticideTarget](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasPesticideTarget.md) | <br/>| 12841 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasPlantFraction](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasPlantFraction.md) | <br/>| 24130 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasProjectScenario](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasProjectScenario.md) | <br/>| 826 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasRotation](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasRotation.md) | <br/>| 761 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasSpeciesMix](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasSpeciesMix.md) | <br/>| 6996 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasSurfaceOrLeaching](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasSurfaceOrLeaching.md) | <br/>| 2986 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasTillage](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasTillage.md) | <br/>| 711 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasTillageEvent](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasTillageEvent.md) | <br/>| 27450 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasTiming](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasTiming.md) | <br/>| 1034 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasTreatment](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasTreatment.md) | <br/>| 769 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_inferred](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_inferred.md) | <br/>| 3863 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_irrigation](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_irrigation.md) | <br/>| 774 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_lowerDepth](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_lowerDepth.md) | <br/>| 100779 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_of](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_of.md) | <br/>| 911199 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_organicManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_organicManagement.md) | <br/>| 769 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_startDate](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_startDate.md) | <br/>| 107758 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_tileDrainage](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_tileDrainage.md) | <br/>| 438 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasAmendment](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasAmendment.md) | <br/>| 47106 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasGrazingManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasGrazingManagement.md) | <br/>| 1951 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasGrowthStageManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasGrowthStageManagement.md) | <br/>| 5148 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasPlantingManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasPlantingManagement.md) | <br/>| 23728 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasResidueManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasResidueManagement.md) | <br/>| 3334 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasTillageManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasTillageManagement.md) | <br/>| 27450 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasAmendment](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasAmendment.md) | <br/>| 47106 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasGrazingManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasGrazingManagement.md) | <br/>| 1951 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasGrowthStageManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasGrowthStageManagement.md) | <br/>| 5148 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasPlantingManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasPlantingManagement.md) | <br/>| 23728 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasResidueManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasResidueManagement.md) | <br/>| 3334 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasTillageManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasTillageManagement.md) | <br/>| 27449 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitUrl](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitUrl.md) | <br/>| 23 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_upperDepth](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_upperDepth.md) | <br/>| 100779 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesCoverCrop](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesCoverCrop.md) | <br/>| 194 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesEquipment](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesEquipment.md) | <br/>| 3070 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesFertilizerAmendment](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesFertilizerAmendment.md) | <br/>| 653 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesIrrigation](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesIrrigation.md) | <br/>| 6063 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesModel](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesModel.md) | <br/>| 923 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesPlantingMethod](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesPlantingMethod.md) | <br/>| 22592 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesResidueRemoval](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesResidueRemoval.md) | <br/>| 769 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTillageMethod](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTillageMethod.md) | <br/>| 24709 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment.md) | <br/>| 156810 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_withCuttingHeight](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_withCuttingHeight.md) | <br/>| 2954 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_withPesticidePlacement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_withPesticidePlacement.md) | <br/>| 9498 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_withPlacement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_withPlacement.md) | <br/>| 24794 |
+| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_withStartStopInterval](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_withStartStopInterval.md) | <br/>| 1722 |
+| [https___idir.uta.edu_sockg_ontology_docs#badValueFlag](slots/https___idir.uta.edu_sockg_ontology_docs#badValueFlag.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#cites](slots/https___idir.uta.edu_sockg_ontology_docs#cites.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#correspondingAuthor](slots/https___idir.uta.edu_sockg_ontology_docs#correspondingAuthor.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#endDate](slots/https___idir.uta.edu_sockg_ontology_docs#endDate.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#fromProject](slots/https___idir.uta.edu_sockg_ontology_docs#fromProject.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#fromUnit](slots/https___idir.uta.edu_sockg_ontology_docs#fromUnit.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#fundedBy](slots/https___idir.uta.edu_sockg_ontology_docs#fundedBy.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasAnimalClass](slots/https___idir.uta.edu_sockg_ontology_docs#hasAnimalClass.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasAnimalSpecies](slots/https___idir.uta.edu_sockg_ontology_docs#hasAnimalSpecies.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasBroadleafOrGrass](slots/https___idir.uta.edu_sockg_ontology_docs#hasBroadleafOrGrass.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasChamberPlacement](slots/https___idir.uta.edu_sockg_ontology_docs#hasChamberPlacement.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasCrop](slots/https___idir.uta.edu_sockg_ontology_docs#hasCrop.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasCultivar](slots/https___idir.uta.edu_sockg_ontology_docs#hasCultivar.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasGrazingRate](slots/https___idir.uta.edu_sockg_ontology_docs#hasGrazingRate.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasGrowthStage](slots/https___idir.uta.edu_sockg_ontology_docs#hasGrowthStage.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasHarvestedFraction](slots/https___idir.uta.edu_sockg_ontology_docs#hasHarvestedFraction.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasLossesOrDeposition](slots/https___idir.uta.edu_sockg_ontology_docs#hasLossesOrDeposition.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasMeasurement](slots/https___idir.uta.edu_sockg_ontology_docs#hasMeasurement.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasOtherEvents](slots/https___idir.uta.edu_sockg_ontology_docs#hasOtherEvents.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasPesticideActiveIngredient](slots/https___idir.uta.edu_sockg_ontology_docs#hasPesticideActiveIngredient.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasPesticideTarget](slots/https___idir.uta.edu_sockg_ontology_docs#hasPesticideTarget.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasPlantFraction](slots/https___idir.uta.edu_sockg_ontology_docs#hasPlantFraction.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasProjectScenario](slots/https___idir.uta.edu_sockg_ontology_docs#hasProjectScenario.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasRotation](slots/https___idir.uta.edu_sockg_ontology_docs#hasRotation.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasSpeciesMix](slots/https___idir.uta.edu_sockg_ontology_docs#hasSpeciesMix.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasStandardDeviation](slots/https___idir.uta.edu_sockg_ontology_docs#hasStandardDeviation.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasSurfaceOrLeaching](slots/https___idir.uta.edu_sockg_ontology_docs#hasSurfaceOrLeaching.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasTillage](slots/https___idir.uta.edu_sockg_ontology_docs#hasTillage.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasTillageEvent](slots/https___idir.uta.edu_sockg_ontology_docs#hasTillageEvent.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasTiming](slots/https___idir.uta.edu_sockg_ontology_docs#hasTiming.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#hasTreatment](slots/https___idir.uta.edu_sockg_ontology_docs#hasTreatment.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#inferred](slots/https___idir.uta.edu_sockg_ontology_docs#inferred.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#irrigation](slots/https___idir.uta.edu_sockg_ontology_docs#irrigation.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#isInterpolated](slots/https___idir.uta.edu_sockg_ontology_docs#isInterpolated.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#lowerDepth](slots/https___idir.uta.edu_sockg_ontology_docs#lowerDepth.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#of](slots/https___idir.uta.edu_sockg_ontology_docs#of.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#organicManagement](slots/https___idir.uta.edu_sockg_ontology_docs#organicManagement.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#startDate](slots/https___idir.uta.edu_sockg_ontology_docs#startDate.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#tileDrainage](slots/https___idir.uta.edu_sockg_ontology_docs#tileDrainage.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#treatmentHasAmendment](slots/https___idir.uta.edu_sockg_ontology_docs#treatmentHasAmendment.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#treatmentHasGrazingManagement](slots/https___idir.uta.edu_sockg_ontology_docs#treatmentHasGrazingManagement.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#treatmentHasGrowthStageManagement](slots/https___idir.uta.edu_sockg_ontology_docs#treatmentHasGrowthStageManagement.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#treatmentHasPlantingManagement](slots/https___idir.uta.edu_sockg_ontology_docs#treatmentHasPlantingManagement.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#treatmentHasResidueManagement](slots/https___idir.uta.edu_sockg_ontology_docs#treatmentHasResidueManagement.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#treatmentHasTillageManagement](slots/https___idir.uta.edu_sockg_ontology_docs#treatmentHasTillageManagement.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#unitHasAmendment](slots/https___idir.uta.edu_sockg_ontology_docs#unitHasAmendment.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#unitHasGrazingManagement](slots/https___idir.uta.edu_sockg_ontology_docs#unitHasGrazingManagement.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#unitHasGrowthStageManagement](slots/https___idir.uta.edu_sockg_ontology_docs#unitHasGrowthStageManagement.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#unitHasPlantingManagement](slots/https___idir.uta.edu_sockg_ontology_docs#unitHasPlantingManagement.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#unitHasResidueManagement](slots/https___idir.uta.edu_sockg_ontology_docs#unitHasResidueManagement.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#unitHasTillageManagement](slots/https___idir.uta.edu_sockg_ontology_docs#unitHasTillageManagement.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#unitUrl](slots/https___idir.uta.edu_sockg_ontology_docs#unitUrl.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#upperDepth](slots/https___idir.uta.edu_sockg_ontology_docs#upperDepth.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#usesCoverCrop](slots/https___idir.uta.edu_sockg_ontology_docs#usesCoverCrop.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#usesEquipment](slots/https___idir.uta.edu_sockg_ontology_docs#usesEquipment.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#usesFertilizerAmendment](slots/https___idir.uta.edu_sockg_ontology_docs#usesFertilizerAmendment.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#usesIrrigation](slots/https___idir.uta.edu_sockg_ontology_docs#usesIrrigation.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#usesModel](slots/https___idir.uta.edu_sockg_ontology_docs#usesModel.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#usesPlantingMethod](slots/https___idir.uta.edu_sockg_ontology_docs#usesPlantingMethod.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#usesResidueRemoval](slots/https___idir.uta.edu_sockg_ontology_docs#usesResidueRemoval.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#usesTillageMethod](slots/https___idir.uta.edu_sockg_ontology_docs#usesTillageMethod.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#usesTreatment](slots/https___idir.uta.edu_sockg_ontology_docs#usesTreatment.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#weatherAt](slots/https___idir.uta.edu_sockg_ontology_docs#weatherAt.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#withCuttingHeight](slots/https___idir.uta.edu_sockg_ontology_docs#withCuttingHeight.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#withPesticidePlacement](slots/https___idir.uta.edu_sockg_ontology_docs#withPesticidePlacement.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#withPlacement](slots/https___idir.uta.edu_sockg_ontology_docs#withPlacement.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology_docs#withStartStopInterval](slots/https___idir.uta.edu_sockg_ontology_docs#withStartStopInterval.md) | <br/>No occurrences of this slot in the graph.|  |
+| [sdos_isPrimaryContact](slots/sdos_isPrimaryContact.md) | <br/>| 140 |
+| [sdos_role](slots/sdos_role.md) | <br/>| 151 |
+| [spatial_connectedTo](slots/spatial_connectedTo.md) | <br/>| 2322 |
+| [spatial_spatiallyRelatedTo](slots/spatial_spatiallyRelatedTo.md) | <br/>No occurrences of this slot in the graph.|  |
 
 
 
 
-
-
-## Types
-
-| Type | Description |
-| --- | --- |
-| [GeoWktLiteral](types/GeoWktLiteral.md) | No class (type) description specified |
 
 
 
@@ -1694,11 +7312,19 @@ SockgYieldNutrientUptake ||--|o SockgTreatment : "sockg_yieldNutrUptakeTreatment
 
 ## IRI prefixes
 
+* bibo: http://purl.org/ontology/bibo/
+* coso: http://w3id.org/coso/v1/contaminoso#
 * dcgeoid: https://datacommons.org/browser/geoId/
+* dct: http://purl.org/dc/terms/
 * geo: http://www.opengis.net/ont/geosparql#
+* kwgo: http://stko-kwg.geog.ucsb.edu/lod/ontology/
 * kwgr: http://stko-kwg.geog.ucsb.edu/lod/resource/
 * linkml: https://w3id.org/linkml/
+* okn: https://purl.org/okn/
+* okns: https://purl.org/okn/schema/
 * owl: http://www.w3.org/2002/07/owl#
+* qudt: http://qudt.org/schema/qudt/
 * rdfs: http://www.w3.org/2000/01/rdf-schema#
-* sockg: https://idir.uta.edu/sockg-ontology/docs/
+* sdos: https://schema.org/
+* spatial: http://purl.org/spatialai/spatial/spatial-full#
 * xsd: http://www.w3.org/2001/XMLSchema#

@@ -1,16 +1,16 @@
 
 
-# Slot: geo_hasGeometry
+# Slot: No slot (predicate) name specified -- this slot is noted as a subproperty of another slot in this graph but has not itself been defined. (geo_hasGeometry)
 
 
-_No slot (predicate) description specified_
-
-
-
+_A spatial representation for a given Feature._
 
 
 
-This slot occurs 47 times.
+
+
+
+This slot occurs 41 times.
 
 
 URI: [geo:hasGeometry](http://www.opengis.net/ont/geosparql#hasGeometry)
@@ -27,7 +27,7 @@ URI: [geo:hasGeometry](http://www.opengis.net/ont/geosparql#hasGeometry)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SockgSite](../classes/SockgSite.md) | A Site represents a specific geographical location related to agricultural ac... |  yes  |
+| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location.md) |  |  no  |
 
 
 
@@ -43,13 +43,12 @@ URI: [geo:hasGeometry](http://www.opengis.net/ont/geosparql#hasGeometry)
 
 
 
+## Comments
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| sockg_Site | geo_Geometry | sockg:individuals/231056 | sockg:individuals/geometry_ALAuburn | 47 |
-
+* source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties
+* source: http://www.opengis.net/ont/geosparql#
+* source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties
+* description: A spatial representation for a given Feature.
 
 
 
@@ -59,24 +58,22 @@ URI: [geo:hasGeometry](http://www.opengis.net/ont/geosparql#hasGeometry)
 
 ```yaml
 name: geo_hasGeometry
-annotations:
-  count:
-    tag: count
-    value: 47
-description: No slot (predicate) description specified
-examples:
-- object:
-    example_object: sockg:individuals/geometry_ALAuburn
-    example_object_type: geo_Geometry
-    example_predicate: geo:hasGeometry
-    example_subject: sockg:individuals/231056
-    example_subject_type: sockg_Site
-from_schema: soc-kg
-rank: 1000
+description: A spatial representation for a given Feature.
+title: No slot (predicate) name specified -- this slot is noted as a subproperty of
+  another slot in this graph but has not itself been defined.
+notes:
+- No occurrences of this slot in the graph.
+comments:
+- 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties'
+- 'source: http://www.opengis.net/ont/geosparql#'
+- 'source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties'
+- 'description: A spatial representation for a given Feature.'
+from_schema: okns:geo
+source: http://www.opengis.net/ont/geosparql#
+domain: geo_Feature
 slot_uri: geo:hasGeometry
-alias: geo_hasGeometry
 domain_of:
-- sockg_Site
+- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Location
 range: geo_Geometry
 
 ```
