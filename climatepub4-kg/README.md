@@ -1,6 +1,6 @@
 # climatemodelskg
 
-This ontology defines the entities and relationships for the Knowledge Graph exported from Neo4j.
+Standards-first export using GCMD IRIs, single Wikidata exactMatch links, and established vocabularies.
 
 
 
@@ -33,10 +33,9 @@ OwlClass {
 
 }
 OwlDataRange {
-    uri rdfs_isDefinedBy  
     uri rdfs_seeAlso  
-    string rdfs_comment  
     string rdfs_label  
+    string rdfs_comment  
 }
 OwlDatatypeProperty {
 
@@ -72,9 +71,7 @@ OwlOntology {
 
 }
 OwlOntologyProperty {
-    uri rdfs_isDefinedBy  
-    string rdfs_comment  
-    string rdfs_label  
+
 }
 OwlReflexiveProperty {
 
@@ -101,9 +98,8 @@ RdfCompoundLiteral {
 
 }
 RdfList {
-    uri rdfs_isDefinedBy  
-    string rdfs_comment  
     string rdfs_label  
+    string rdfs_comment  
 }
 RdfProperty {
 
@@ -124,10 +120,9 @@ RdfsContainerMembershipProperty {
 
 }
 RdfsDatatype {
-    uri rdfs_isDefinedBy  
     uri rdfs_seeAlso  
-    string rdfs_comment  
     string rdfs_label  
+    string rdfs_comment  
 }
 RdfsLiteral {
 
@@ -135,154 +130,177 @@ RdfsLiteral {
 RdfsResource {
 
 }
-ProvAccept {
+FoafAgent {
 
 }
-ProvActivity {
+FoafDocument {
 
 }
-ProvActivityInfluence {
+Wn16Credential {
 
 }
-ProvAgent {
+Wn16Endorsement-4 {
 
 }
-ProvAgentInfluence {
+Wn16Event {
 
 }
-ProvAssociation {
+WotEncryptedDocument {
 
 }
-ProvAttribution {
+WotEndorsement {
 
 }
-ProvBundle {
+WotPubKey {
 
 }
-ProvCollection {
+WotSigEvent {
 
 }
-ProvCommunication {
+WotUser {
 
 }
-ProvContribute {
+FoafGroup {
 
 }
-ProvContributor {
+FoafImage {
 
 }
-ProvCopyright {
+FoafLabelProperty {
 
 }
-ProvCreate {
+FoafOnlineAccount {
 
 }
-ProvCreator {
+FoafOnlineChatAccount {
 
 }
-ProvDelegation {
+FoafOnlineEcommerceAccount {
 
 }
-ProvDerivation {
+FoafOnlineGamingAccount {
 
 }
-ProvDictionary {
+FoafOrganization {
 
 }
-ProvDirectQueryService {
+FoafPerson {
 
 }
-ProvEmptyCollection {
+FoafPersonalProfileDocument {
 
 }
-ProvEmptyDictionary {
+FoafProject {
 
 }
-ProvEnd {
+DcamVocabularyEncodingScheme {
+    date dct_issued  
+    string rdfs_label  
+    string rdfs_comment  
+    uri rdfs_seeAlso  
+}
+DcmitypeCollection {
 
 }
-ProvEntity {
+DcmitypeDataset {
 
 }
-ProvEntityInfluence {
+DcmitypeEvent {
 
 }
-ProvGeneration {
+DcmitypeImage {
 
 }
-ProvInfluence {
+DcmitypeInteractiveResource {
 
 }
-ProvInsertion {
+DcmitypeMovingImage {
 
 }
-ProvInstantaneousEvent {
+DcmitypePhysicalObject {
 
 }
-ProvInvalidation {
+DcmitypeService {
 
 }
-ProvKeyEntityPair {
+DcmitypeSoftware {
 
 }
-ProvLocation {
+DcmitypeSound {
 
 }
-ProvModify {
+DcmitypeStillImage {
 
 }
-ProvOrganization {
+DcmitypeText {
 
 }
-ProvPerson {
+DctAgent {
 
 }
-ProvPlan {
+DctAgentClass {
+    string rdfs_label  
+    string rdfs_comment  
+    date dct_issued  
+}
+DctBibliographicResource {
 
 }
-ProvPrimarySource {
+DctFileFormat {
 
 }
-ProvPublish {
+DctFrequency {
 
 }
-ProvPublisher {
+DctJurisdiction {
 
 }
-ProvQuotation {
+DctLicenseDocument {
 
 }
-ProvRemoval {
+DctLinguisticSystem {
 
 }
-ProvReplace {
+DctLocation {
 
 }
-ProvRevision {
+DctLocationPeriodOrJurisdiction {
 
 }
-ProvRightsAssignment {
+DctMediaType {
 
 }
-ProvRightsHolder {
+DctMediaTypeOrExtent {
 
 }
-ProvRole {
+DctMethodOfAccrual {
 
 }
-ProvServiceDescription {
+DctMethodOfInstruction {
 
 }
-ProvSoftwareAgent {
+DctPeriodOfTime {
 
 }
-ProvStart {
+DctPhysicalMedium {
 
 }
-ProvSubmit {
+DctPhysicalResource {
 
 }
-ProvUsage {
+DctPolicy {
+
+}
+DctProvenanceStatement {
+
+}
+DctRightsStatement {
+
+}
+DctSizeOrDuration {
+
+}
+DctStandard {
 
 }
 SkosCollection {
@@ -295,6 +313,276 @@ SkosConceptScheme {
 
 }
 SkosOrderedCollection {
+
+}
+TimeDateTimeDescription {
+
+}
+TimeDateTimeInterval {
+
+}
+TimeDayOfWeek {
+    string rdfs_label  
+}
+TimeDuration {
+
+}
+TimeDurationDescription {
+
+}
+TimeGeneralDateTimeDescription {
+
+}
+TimeGeneralDurationDescription {
+
+}
+TimeInstant {
+
+}
+TimeInterval {
+
+}
+TimeJanuary {
+
+}
+TimeMonthOfYear {
+
+}
+TimeProperInterval {
+
+}
+TimeTRS {
+
+}
+TimeTemporalDuration {
+
+}
+TimeTemporalEntity {
+
+}
+TimeTemporalPosition {
+
+}
+TimeTemporalUnit {
+    decimal time_weeks  
+    decimal time_months  
+    decimal time_hours  
+    decimal time_years  
+    string rdfs_label  
+    decimal time_days  
+    decimal time_seconds  
+    decimal time_minutes  
+}
+TimeTimePosition {
+
+}
+TimeTimeZone {
+
+}
+TimeYear {
+
+}
+XsdDateTimeStamp {
+
+}
+XsdDuration {
+
+}
+XsdGYear {
+
+}
+XsdGYearMonth {
+
+}
+WgsPoint {
+
+}
+WgsSpatialThing {
+
+}
+EventEvent {
+
+}
+EventFactor {
+
+}
+EventProduct {
+
+}
+BiboAcademicArticle {
+
+}
+BiboArticle {
+
+}
+BiboAudioDocument {
+
+}
+BiboAudioVisualDocument {
+
+}
+BiboBill {
+
+}
+BiboBook {
+
+}
+BiboBookSection {
+
+}
+BiboBrief {
+
+}
+BiboChapter {
+
+}
+BiboCode {
+
+}
+BiboCollectedDocument {
+
+}
+BiboCollection {
+
+}
+BiboConference {
+
+}
+BiboCourtReporter {
+
+}
+BiboDocument {
+
+}
+BiboDocumentPart {
+
+}
+BiboDocumentStatus {
+    string rdfs_label  
+    string rdfs_comment  
+}
+BiboEditedBook {
+
+}
+BiboEmail {
+
+}
+BiboEvent {
+
+}
+BiboExcerpt {
+
+}
+BiboFilm {
+
+}
+BiboHearing {
+
+}
+BiboImage {
+
+}
+BiboInterview {
+
+}
+BiboIssue {
+
+}
+BiboJournal {
+
+}
+BiboLegalCaseDocument {
+
+}
+BiboLegalDecision {
+
+}
+BiboLegalDocument {
+
+}
+BiboLegislation {
+
+}
+BiboLetter {
+
+}
+BiboMagazine {
+
+}
+BiboManual {
+
+}
+BiboManuscript {
+
+}
+BiboMap {
+
+}
+BiboMultiVolumeBook {
+
+}
+BiboNewspaper {
+
+}
+BiboNote {
+
+}
+BiboPatent {
+
+}
+BiboPerformance {
+
+}
+BiboPeriodical {
+
+}
+BiboPersonalCommunication {
+
+}
+BiboPersonalCommunicationDocument {
+
+}
+BiboProceedings {
+
+}
+BiboQuote {
+
+}
+BiboReferenceSource {
+
+}
+BiboReport {
+
+}
+BiboSeries {
+
+}
+BiboSlide {
+
+}
+BiboSlideshow {
+
+}
+BiboStandard {
+
+}
+BiboStatute {
+
+}
+BiboThesis {
+
+}
+BiboThesisDegree {
+    string rdfs_label  
+    string rdfs_comment  
+}
+BiboWebpage {
+
+}
+BiboWebsite {
+
+}
+BiboWorkshop {
 
 }
 Sdos3DModel {
@@ -328,8 +616,8 @@ SdosActionAccessSpecification {
 
 }
 SdosActionStatusType {
-    string rdfs_label  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosActivateAction {
 
@@ -344,10 +632,10 @@ SdosAdultEntertainment {
 
 }
 SdosAdultOrientedEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosAdvertiserContentArticle {
 
@@ -539,8 +827,8 @@ SdosBloodTest {
 
 }
 SdosBoardingPolicyType {
-    string rdfs_label  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosBoatReservation {
 
@@ -552,10 +840,10 @@ SdosBoatTrip {
 
 }
 SdosBodyMeasurementTypeEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosBodyOfWater {
 
@@ -567,9 +855,9 @@ SdosBook {
 
 }
 SdosBookFormatType {
+    string rdfs_comment  
     string rdfs_label  
     uri sdos_isPartOf  
-    string rdfs_comment  
 }
 SdosBookSeries {
 
@@ -581,8 +869,8 @@ SdosBookmarkAction {
 
 }
 SdosBoolean {
-    string rdfs_label  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosBorrowAction {
 
@@ -678,10 +966,10 @@ SdosCar {
 
 }
 SdosCarUsageType {
-    string rdfs_label  
     uri sdos_contributor  
-    uri sdos_isPartOf  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_isPartOf  
 }
 SdosCasino {
 
@@ -702,10 +990,10 @@ SdosCertification {
 
 }
 SdosCertificationStatusEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosChapter {
 
@@ -831,8 +1119,8 @@ SdosContactPoint {
 
 }
 SdosContactPointOption {
-    string rdfs_label  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosContinent {
 
@@ -925,7 +1213,8 @@ SdosDataFeedItem {
 
 }
 SdosDataType {
-
+    string rdfs_comment  
+    string rdfs_label  
 }
 SdosDataset {
 
@@ -940,10 +1229,10 @@ SdosDatedMoneySpecification {
 
 }
 SdosDayOfWeek {
-    string rdfs_label  
-    uri sdos_sameAs  
     uri sdos_contributor  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_sameAs  
 }
 SdosDaySpa {
 
@@ -973,9 +1262,9 @@ SdosDeliveryEvent {
 
 }
 SdosDeliveryMethod {
-    string rdfs_label  
     uri sdos_contributor  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosDeliveryTimeSettings {
 
@@ -1014,14 +1303,14 @@ SdosDigitalDocumentPermission {
 
 }
 SdosDigitalDocumentPermissionType {
-    string rdfs_label  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosDigitalPlatformEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosDisagreeAction {
 
@@ -1060,9 +1349,9 @@ SdosDrinkAction {
 
 }
 SdosDriveWheelConfigurationValue {
-    string rdfs_label  
     uri sdos_contributor  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosDrug {
 
@@ -1074,22 +1363,22 @@ SdosDrugCost {
 
 }
 SdosDrugCostCategory {
+    string rdfs_comment  
     string rdfs_label  
     uri sdos_isPartOf  
-    string rdfs_comment  
 }
 SdosDrugLegalStatus {
 
 }
 SdosDrugPregnancyCategory {
+    string rdfs_comment  
     string rdfs_label  
     uri sdos_isPartOf  
-    string rdfs_comment  
 }
 SdosDrugPrescriptionStatus {
+    string rdfs_comment  
     string rdfs_label  
     uri sdos_isPartOf  
-    string rdfs_comment  
 }
 SdosDrugStrength {
 
@@ -1101,10 +1390,10 @@ SdosDuration {
 
 }
 SdosEUEnergyEfficiencyEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosEatAction {
 
@@ -1170,10 +1459,10 @@ SdosEnergyEfficiencyEnumeration {
 
 }
 SdosEnergyStarEnergyEfficiencyEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosEngineSpecification {
 
@@ -1194,10 +1483,10 @@ SdosEvent {
 
 }
 SdosEventAttendanceModeEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosEventReservation {
 
@@ -1206,8 +1495,8 @@ SdosEventSeries {
 
 }
 SdosEventStatusType {
-    string rdfs_label  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosEventVenue {
 
@@ -1288,10 +1577,10 @@ SdosFoodService {
 
 }
 SdosFulfillmentTypeEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosFundingAgency {
 
@@ -1306,21 +1595,21 @@ SdosGame {
 
 }
 SdosGameAvailabilityEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosGamePlayMode {
-    string rdfs_label  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosGameServer {
 
 }
 SdosGameServerStatus {
-    string rdfs_label  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosGardenStore {
 
@@ -1332,8 +1621,8 @@ SdosGatedResidenceCommunity {
 
 }
 SdosGenderType {
-    string rdfs_label  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosGene {
 
@@ -1360,10 +1649,10 @@ SdosGolfCourse {
 
 }
 SdosGovernmentBenefitsType {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosGovernmentBuilding {
 
@@ -1405,10 +1694,10 @@ SdosHealthAndBeautyBusiness {
 
 }
 SdosHealthAspectEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosHealthClub {
 
@@ -1493,9 +1782,9 @@ SdosHyperTocEntry {
 }
 SdosIPTCDigitalSourceEnumeration {
     string rdfs_label  
+    uri sdos_source  
     uri sdos_isPartOf  
     string rdfs_comment  
-    uri sdos_source  
 }
 SdosIceCreamShop {
 
@@ -1516,22 +1805,22 @@ SdosImagingTest {
 
 }
 SdosIncentiveQualifiedExpenseType {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosIncentiveStatus {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosIncentiveType {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosIndividualPhysician {
 
@@ -1540,9 +1829,9 @@ SdosIndividualProduct {
 
 }
 SdosInfectiousAgentClass {
+    string rdfs_comment  
     string rdfs_label  
     uri sdos_isPartOf  
-    string rdfs_comment  
 }
 SdosInfectiousDisease {
 
@@ -1587,15 +1876,15 @@ SdosInvoice {
 
 }
 SdosItemAvailability {
-    string rdfs_label  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosItemList {
 
 }
 SdosItemListOrderType {
-    string rdfs_label  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosItemPage {
 
@@ -1632,20 +1921,20 @@ SdosLeaveAction {
 }
 SdosLegalForceStatus {
     string rdfs_label  
-    uri sdos_isPartOf  
-    string rdfs_comment  
-    uri sdos_contributor  
     uri sdos_source  
+    uri sdos_isPartOf  
+    uri sdos_contributor  
+    string rdfs_comment  
 }
 SdosLegalService {
 
 }
 SdosLegalValueLevel {
     string rdfs_label  
-    uri sdos_isPartOf  
-    string rdfs_comment  
-    uri sdos_contributor  
     uri sdos_source  
+    uri sdos_isPartOf  
+    uri sdos_contributor  
+    string rdfs_comment  
 }
 SdosLegislation {
 
@@ -1723,8 +2012,8 @@ SdosMap {
 
 }
 SdosMapCategoryType {
-    string rdfs_label  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosMarryAction {
 
@@ -1739,10 +2028,10 @@ SdosMaximumDoseSchedule {
 
 }
 SdosMeasurementMethodEnum {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosMeasurementTypeEnumeration {
 
@@ -1754,10 +2043,10 @@ SdosMediaGallery {
 
 }
 SdosMediaManipulationRatingEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosMediaObject {
 
@@ -1775,9 +2064,9 @@ SdosMedicalAudience {
 
 }
 SdosMedicalAudienceType {
+    string rdfs_comment  
     string rdfs_label  
     uri sdos_isPartOf  
-    string rdfs_comment  
 }
 SdosMedicalBusiness {
 
@@ -1804,9 +2093,9 @@ SdosMedicalDevice {
 
 }
 SdosMedicalDevicePurpose {
+    string rdfs_comment  
     string rdfs_label  
     uri sdos_isPartOf  
-    string rdfs_comment  
 }
 SdosMedicalEntity {
 
@@ -1815,9 +2104,9 @@ SdosMedicalEnumeration {
 
 }
 SdosMedicalEvidenceLevel {
+    string rdfs_comment  
     string rdfs_label  
     uri sdos_isPartOf  
-    string rdfs_comment  
 }
 SdosMedicalGuideline {
 
@@ -1829,9 +2118,9 @@ SdosMedicalGuidelineRecommendation {
 
 }
 SdosMedicalImagingTechnique {
+    string rdfs_comment  
     string rdfs_label  
     uri sdos_isPartOf  
-    string rdfs_comment  
 }
 SdosMedicalIndication {
 
@@ -1843,9 +2132,9 @@ SdosMedicalObservationalStudy {
 
 }
 SdosMedicalObservationalStudyDesign {
+    string rdfs_comment  
     string rdfs_label  
     uri sdos_isPartOf  
-    string rdfs_comment  
 }
 SdosMedicalOrganization {
 
@@ -1854,9 +2143,9 @@ SdosMedicalProcedure {
 
 }
 SdosMedicalProcedureType {
+    string rdfs_comment  
     string rdfs_label  
     uri sdos_isPartOf  
-    string rdfs_comment  
 }
 SdosMedicalRiskCalculator {
 
@@ -1888,9 +2177,9 @@ SdosMedicalStudy {
 
 }
 SdosMedicalStudyStatus {
+    string rdfs_comment  
     string rdfs_label  
     uri sdos_isPartOf  
-    string rdfs_comment  
 }
 SdosMedicalSymptom {
 
@@ -1908,17 +2197,17 @@ SdosMedicalTrial {
 
 }
 SdosMedicalTrialDesign {
+    string rdfs_comment  
     string rdfs_label  
     uri sdos_isPartOf  
-    string rdfs_comment  
 }
 SdosMedicalWebPage {
 
 }
 SdosMedicineSystem {
+    string rdfs_comment  
     string rdfs_label  
     uri sdos_isPartOf  
-    string rdfs_comment  
 }
 SdosMeetingRoom {
 
@@ -1942,10 +2231,10 @@ SdosMenuSection {
 
 }
 SdosMerchantReturnEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosMerchantReturnPolicy {
 
@@ -2035,14 +2324,14 @@ SdosMusicAlbum {
 
 }
 SdosMusicAlbumProductionType {
-    string rdfs_label  
     uri sdos_contributor  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosMusicAlbumReleaseType {
-    string rdfs_label  
     uri sdos_contributor  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosMusicComposition {
 
@@ -2063,9 +2352,9 @@ SdosMusicRelease {
 
 }
 SdosMusicReleaseFormatType {
-    string rdfs_label  
     uri sdos_contributor  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosMusicStore {
 
@@ -2080,10 +2369,10 @@ SdosNGO {
 
 }
 SdosNLNonprofitType {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosNailSalon {
 
@@ -2146,8 +2435,8 @@ SdosOfferForPurchase {
 
 }
 SdosOfferItemCondition {
-    string rdfs_label  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosOfferShippingDetails {
 
@@ -2183,8 +2472,8 @@ SdosOrderItem {
 
 }
 SdosOrderStatus {
-    string rdfs_label  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosOrganization {
 
@@ -2244,15 +2533,15 @@ SdosPaymentMethod {
 
 }
 SdosPaymentMethodType {
-    string rdfs_label  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosPaymentService {
 
 }
 SdosPaymentStatusType {
-    string rdfs_label  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosPeopleAudience {
 
@@ -2294,14 +2583,14 @@ SdosPhysicalActivity {
 
 }
 SdosPhysicalActivityCategory {
+    string rdfs_comment  
     string rdfs_label  
     uri sdos_isPartOf  
-    string rdfs_comment  
 }
 SdosPhysicalExam {
+    string rdfs_comment  
     string rdfs_label  
     uri sdos_isPartOf  
-    string rdfs_comment  
 }
 SdosPhysicalTherapy {
 
@@ -2382,19 +2671,19 @@ SdosPreventionIndication {
 
 }
 SdosPriceComponentTypeEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosPriceSpecification {
 
 }
 SdosPriceTypeEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosProduct {
 
@@ -2410,9 +2699,9 @@ SdosProductModel {
 }
 SdosProductReturnEnumeration {
     string rdfs_label  
+    uri sdos_source  
     uri sdos_isPartOf  
     string rdfs_comment  
-    uri sdos_source  
 }
 SdosProductReturnPolicy {
 
@@ -2463,10 +2752,10 @@ SdosPublicationVolume {
 
 }
 SdosPurchaseType {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosQAPage {
 
@@ -2553,10 +2842,10 @@ SdosRecyclingCenter {
 
 }
 SdosRefundTypeEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosRegisterAction {
 
@@ -2604,8 +2893,8 @@ SdosReservationPackage {
 
 }
 SdosReservationStatusType {
-    string rdfs_label  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosReserveAction {
 
@@ -2623,8 +2912,8 @@ SdosRestaurant {
 
 }
 SdosRestrictedDiet {
-    string rdfs_label  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosResumeAction {
 
@@ -2633,22 +2922,22 @@ SdosReturnAction {
 
 }
 SdosReturnFeesEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosReturnLabelSourceEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosReturnMethodEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosReview {
 
@@ -2675,8 +2964,8 @@ SdosRsvpAction {
 
 }
 SdosRsvpResponseType {
-    string rdfs_label  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosSaleEvent {
 
@@ -2787,10 +3076,10 @@ SdosSizeSpecification {
 
 }
 SdosSizeSystemEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosSkiResort {
 
@@ -2862,9 +3151,9 @@ SdosStatusEnumeration {
 
 }
 SdosSteeringPositionValue {
-    string rdfs_label  
     uri sdos_contributor  
     string rdfs_comment  
+    string rdfs_label  
 }
 SdosStore {
 
@@ -2981,10 +3270,10 @@ SdosTieAction {
 
 }
 SdosTierBenefitEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosTime {
 
@@ -3044,19 +3333,19 @@ SdosTypeAndQuantityNode {
 
 }
 SdosUKNonprofitType {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosURL {
 
 }
 SdosUSNonprofitType {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosUnRegisterAction {
 
@@ -3188,22 +3477,22 @@ SdosWearAction {
 
 }
 SdosWearableMeasurementTypeEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosWearableSizeGroupEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosWearableSizeSystemEnumeration {
-    string rdfs_label  
-    uri sdos_isPartOf  
-    uri sdos_source  
     string rdfs_comment  
+    string rdfs_label  
+    uri sdos_source  
+    uri sdos_isPartOf  
 }
 SdosWebAPI {
 
@@ -3247,2733 +3536,964 @@ SdosXPathType {
 SdosZoo {
 
 }
-DcamVocabularyEncodingScheme {
-    uri rdfs_seeAlso  
-    string rdfs_label  
+IcalDomainOfRrule {
+
+}
+IcalListOfFloat {
+
+}
+IcalValarm {
+
+}
+IcalValueCAL-ADDRESS {
+
+}
+IcalValueDATE {
+
+}
+IcalValueDATE-TIME {
+
+}
+IcalValueDURATION {
+
+}
+IcalValuePERIOD {
+
+}
+IcalValueRECUR {
+
+}
+IcalVevent {
+
+}
+IcalVfreebusy {
+
+}
+IcalVjournal {
+
+}
+IcalVtimezone {
+
+}
+IcalVtodo {
+
+}
+AdmsAsset {
+
+}
+AdmsAssetDistribution {
+
+}
+AdmsAssetRepository {
+
+}
+AdmsIdentifier {
+
+}
+DcatCatalog {
+
+}
+DcatDataset {
+
+}
+DcatDistribution {
+
+}
+AdmsSemanticAssetDistribution {
+    string adms_accessURL  
+}
+RdfDatatypeProperty {
     string rdfs_comment  
-    date dct_issued  
-    uri rdfs_isDefinedBy  
+    string rdfs_label  
 }
-DcmitypeCollection {
+VoidDataset {
 
 }
-DcmitypeDataset {
+VoidDatasetDescription {
 
 }
-DcmitypeEvent {
+VoidLinkset {
 
 }
-DcmitypeImage {
+VoidTechnicalFeature {
 
 }
-DcmitypeInteractiveResource {
+ProvAccept {
 
 }
-DcmitypeMovingImage {
+ProvActivity {
 
 }
-DcmitypePhysicalObject {
+ProvActivityInfluence {
 
 }
-DcmitypeService {
+ProvAgent {
 
 }
-DcmitypeSoftware {
+ProvAgentInfluence {
 
 }
-DcmitypeSound {
+ProvAssociation {
 
 }
-DcmitypeStillImage {
+ProvAttribution {
 
 }
-DcmitypeText {
+ProvBundle {
 
 }
-DctAgent {
+ProvCollection {
 
 }
-DctAgentClass {
+ProvCommunication {
 
 }
-DctBibliographicResource {
+ProvContribute {
 
 }
-DctFileFormat {
+ProvContributor {
 
 }
-DctFrequency {
+ProvCopyright {
 
 }
-DctJurisdiction {
+ProvCreate {
 
 }
-DctLicenseDocument {
+ProvCreator {
 
 }
-DctLinguisticSystem {
+ProvDelegation {
 
 }
-DctLocation {
+ProvDerivation {
 
 }
-DctLocationPeriodOrJurisdiction {
+ProvDictionary {
 
 }
-DctMediaType {
+ProvDirectQueryService {
 
 }
-DctMediaTypeOrExtent {
+ProvEmptyCollection {
 
 }
-DctMethodOfAccrual {
+ProvEmptyDictionary {
 
 }
-DctMethodOfInstruction {
+ProvEnd {
 
 }
-DctPeriodOfTime {
+ProvEntity {
 
 }
-DctPhysicalMedium {
+ProvEntityInfluence {
 
 }
-DctPhysicalResource {
+ProvGeneration {
 
 }
-DctPolicy {
+ProvInfluence {
 
 }
-DctProvenanceStatement {
+ProvInsertion {
 
 }
-DctRightsStatement {
+ProvInstantaneousEvent {
 
 }
-DctSizeOrDuration {
+ProvInvalidation {
 
 }
-DctStandard {
+ProvKeyEntityPair {
 
 }
-HttpTemplekg.orgOntologyExperiment {
-    string http___templekg.org_ontology_wikidata_description  
-    string http___templekg.org_ontology_wikidata_ids  
+ProvLocation {
+
+}
+ProvModify {
+
+}
+ProvOrganization {
+
+}
+ProvPerson {
+
+}
+ProvPlan {
+
+}
+ProvPrimarySource {
+
+}
+ProvPublish {
+
+}
+ProvPublisher {
+
+}
+ProvQuotation {
+
+}
+ProvRemoval {
+
+}
+ProvReplace {
+
+}
+ProvRevision {
+
+}
+ProvRightsAssignment {
+
+}
+ProvRightsHolder {
+
+}
+ProvRole {
+
+}
+ProvServiceDescription {
+
+}
+ProvSoftwareAgent {
+
+}
+ProvStart {
+
+}
+ProvSubmit {
+
+}
+ProvUsage {
+
+}
+VaemAspect {
+
+}
+VaemDimension {
+
+}
+VaemDiscipline {
+
+}
+VaemDomain {
+
+}
+VaemGraphMetaData {
+    uri vaem_namespace  
+    string dct_title  
+    string vaem_withAttributionTo  
+    uri vaem_latestPublishedVersion  
+    uri vaem_usesNonImportedResource  
+    uri vaem_turtleFileURL  
+    string vaem_owner  
+    string vaem_revision  
+    uri vaem_rdfxmlFileURL  
+    string vaem_intent  
+    string vaem_namespacePrefix  
+    string rdfs_label  
+    string vaem_title  
+    string vaem_description  
+    uri vaem_previousPublishedVersion  
+    uri vaem_logo  
+    string vaem_name  
+    date dct_modified  
+}
+VaemGraphRole {
+    string rdfs_label  
+    string vaem_filePrefix  
     string dct_description  
-    string http___templekg.org_ontology_UUID  
-    string http___templekg.org_ontology_tier  
-    string http___templekg.org_ontology_start_year  
-    string http___templekg.org_ontology_end_year  
-    string http___templekg.org_ontology_experiment  
+}
+VaemParty {
+    string rdfs_label  
+    uri vaem_url  
+    string vaem_name  
+}
+VaemViewpoint {
+
+}
+DtypeCodeList {
+
+}
+DtypeCompositeCodeList {
+
+}
+DtypeDerivedCodeList {
+
+}
+DtypeEnumeratedValue {
+
+}
+DtypeEnumeration {
+
+}
+DtypeSimpleCodeList {
+
+}
+DtypeValueReference {
+
+}
+XsdAnySimpleType {
+
+}
+VaemCatalogEntry {
     string rdfs_label  
 }
-HttpTemplekg.orgOntologyGreeting {
-    string http___templekg.org_ontology_content  
+VaemDateUnion {
+
 }
-HttpTemplekg.orgOntologyInstrument {
-    string http___templekg.org_ontology_wikidata_description  
-    string http___templekg.org_ontology_wikidata_ids  
-    string dct_description  
-    string http___templekg.org_ontology_collapsed_uuids  
-    string http___templekg.org_ontology_UUID  
+VoagAccredidation {
+
+}
+VoagAdministrativeEvent {
+
+}
+VoagApprovalEvent {
+
+}
+VoagApprovalProcess {
+
+}
+VoagAssignedRole {
+
+}
+VoagAttribution {
+    string rdfs_label  
+    string voag_pointOfContact  
+    string vaem_name  
+    uri voag_url  
+}
+VoagAttributionLogo {
+    string voag_width  
+    string voag_height  
+    string vaem_description  
+    string rdfs_label  
+    uri voag_image  
+    string voag_caption  
+}
+VoagCatalog {
+
+}
+VoagChangeFrequency {
     string rdfs_label  
 }
-HttpTemplekg.orgOntologyLocation {
-    string http___templekg.org_ontology_wikidata_description  
-    string http___templekg.org_ontology_wikidata_ids  
-    string dct_description  
-    string http___templekg.org_ontology_collapsed_uuids  
-    string http___templekg.org_ontology_UUID  
+VoagChangeManagementProcess {
+
+}
+VoagChangeType {
     string rdfs_label  
 }
-HttpTemplekg.orgOntologyModel {
-    string http___templekg.org_ontology_wikidata_description  
-    string http___templekg.org_ontology_wikidata_ids  
-    string dct_description  
-    string http___templekg.org_ontology_UUID  
+VoagConcurrenceEvent {
+
+}
+VoagConfidentialityLevel {
+    string vaem_description  
+    string rdfs_label  
+    integer dtype_order  
+}
+VoagCreativeCommonsJurisdiction {
+
+}
+VoagCreativeCommonsPermission {
+    string vaem_description  
     string rdfs_label  
 }
-HttpTemplekg.orgOntologyNaturalHazard {
-    string http___templekg.org_ontology_wikidata_description  
-    string http___templekg.org_ontology_wikidata_ids  
-    string dct_description  
-    string http___templekg.org_ontology_UUID  
+VoagCreativeCommonsProhibition {
+    string vaem_description  
     string rdfs_label  
 }
-HttpTemplekg.orgOntologyOceanCirculation {
-    string http___templekg.org_ontology_wikidata_description  
-    string http___templekg.org_ontology_wikidata_ids  
-    string dct_description  
-    string http___templekg.org_ontology_UUID  
+VoagCreativeCommonsRequirement {
+    uri vaem_url  
+    string vaem_description  
     string rdfs_label  
 }
-HttpTemplekg.orgOntologyOthers {
-    string http___templekg.org_ontology_wikidata_description  
-    string http___templekg.org_ontology_wikidata_ids  
-    string dct_description  
-    string http___templekg.org_ontology_collapsed_uuids  
-    string http___templekg.org_ontology_UUID  
+VoagCreativeCommonsWork {
+
+}
+VoagDeletionEvent {
+
+}
+VoagDesignatedGovernanceRole {
+
+}
+VoagDocument {
+
+}
+VoagEnumeratedValue {
+
+}
+VoagEvent {
+
+}
+VoagFigure {
+
+}
+VoagGovernance {
     string rdfs_label  
 }
-HttpTemplekg.orgOntologyPaper {
-    string http___templekg.org_ontology_authors  
-    string http___templekg.org_ontology_UUID  
-    string http___templekg.org_ontology_doi  
-    string rdfs_label  
-    string http___templekg.org_ontology_pub_date  
+VoagGovernanceEvent {
+
 }
-HttpTemplekg.orgOntologyPlatform {
-    string http___templekg.org_ontology_wikidata_description  
-    string http___templekg.org_ontology_wikidata_ids  
-    string dct_description  
-    string http___templekg.org_ontology_collapsed_uuids  
-    string http___templekg.org_ontology_UUID  
+VoagGovernanceProcess {
+
+}
+VoagGovernanceProtocol {
+
+}
+VoagGovernanceRole {
     string rdfs_label  
 }
-HttpTemplekg.orgOntologyProvider {
-    string http___templekg.org_ontology_wikidata_description  
-    string http___templekg.org_ontology_wikidata_ids  
-    string dct_description  
-    string http___templekg.org_ontology_collapsed_uuids  
-    string http___templekg.org_ontology_UUID  
+VoagGovernedObject {
+
+}
+VoagGovernedService {
+
+}
+VoagGraph {
+
+}
+VoagIcon {
+    string voag_width  
+    string voag_height  
+    string vaem_description  
+    string rdfs_label  
+    uri voag_image  
+    string voag_caption  
+}
+VoagImage {
+
+}
+VoagIssue {
+
+}
+VoagIssueResolutionProcess {
+
+}
+VoagIssueStatus {
+    string vaem_description  
     string rdfs_label  
 }
-HttpTemplekg.orgOntologyTeleconnection {
-    string http___templekg.org_ontology_wikidata_description  
-    string http___templekg.org_ontology_wikidata_ids  
-    string dct_description  
-    string http___templekg.org_ontology_UUID  
+VoagLicenseModel {
     string rdfs_label  
 }
-HttpTemplekg.orgOntologyVariable {
-    string http___templekg.org_ontology_wikidata_description  
-    string http___templekg.org_ontology_wikidata_ids  
-    string dct_description  
-    string http___templekg.org_ontology_collapsed_uuids  
-    string http___templekg.org_ontology_UUID  
+VoagLogo {
+    string voag_width  
+    string voag_height  
+    string vaem_description  
+    string rdfs_label  
+    uri voag_image  
+    string voag_caption  
+}
+VoagMaturity {
     string rdfs_label  
 }
-HttpTemplekg.orgOntologyWeatherEvent {
-    string http___templekg.org_ontology_wikidata_description  
-    string http___templekg.org_ontology_wikidata_ids  
-    string dct_description  
-    string http___templekg.org_ontology_collapsed_uuids  
-    string http___templekg.org_ontology_UUID  
+VoagNonConcurrenceEvent {
+
+}
+VoagOrganization {
+
+}
+VoagOrganizationLogo {
+    string voag_width  
+    string voag_height  
+    string vaem_description  
     string rdfs_label  
+    uri voag_image  
+    string voag_caption  
+}
+VoagParty {
+
+}
+VoagPedigree {
+    string rdfs_label  
+}
+VoagPerson {
+
+}
+VoagPriorityValue {
+    string rdfs_label  
+}
+VoagProcess {
+
+}
+VoagProductLogo {
+    string voag_width  
+    string voag_height  
+    string rdfs_label  
+    uri voag_image  
+    string voag_caption  
+    string vaem_description  
+}
+VoagProvenance {
+    string rdfs_label  
+}
+VoagPublicationStatus {
+    string rdfs_label  
+}
+VoagQualifier {
+
+}
+VoagRejectionEvent {
+
+}
+VoagRetreivalEvent {
+
+}
+VoagReviewEvent {
+
+}
+VoagSchemaGraph {
+    string rdfs_label  
+}
+VoagService {
+
+}
+VoagStakeholderGroup {
+
+}
+VoagStandard {
+
+}
+VoagVocabGraph {
+
 }
 
 OwlDataRange ||--|o OwlOntology : "rdfs_isDefinedBy"
 OwlDataRange ||--|o RdfsResource : "rdfs_isDefinedBy"
-OwlDataRange ||--|o RdfsResource : "rdfs_seeAlso"
-OwlDataRange ||--|o RdfsLiteral : "rdfs_comment"
-OwlDataRange ||--|o RdfsLiteral : "rdfs_label"
 OwlDataRange ||--|o RdfsClass : "rdfs_subClassOf"
-OwlOntologyProperty ||--|o RdfsClass : "rdfs_range"
-OwlOntologyProperty ||--|o OwlOntology : "rdfs_isDefinedBy"
-OwlOntologyProperty ||--|o RdfsResource : "rdfs_isDefinedBy"
-OwlOntologyProperty ||--|o RdfsLiteral : "rdfs_comment"
-OwlOntologyProperty ||--|o RdfsLiteral : "rdfs_label"
-OwlOntologyProperty ||--|o RdfsClass : "rdfs_domain"
+OwlDataRange ||--|o RdfsResource : "rdfs_seeAlso"
+OwlDataRange ||--|o RdfsLiteral : "rdfs_label"
+OwlDataRange ||--|o RdfsLiteral : "rdfs_comment"
+RdfList ||--|o RdfsLiteral : "rdfs_label"
+RdfList ||--|o RdfsLiteral : "rdfs_comment"
 RdfList ||--|o OwlOntology : "rdfs_isDefinedBy"
 RdfList ||--|o RdfsResource : "rdfs_isDefinedBy"
-RdfList ||--|o RdfsLiteral : "rdfs_comment"
-RdfList ||--|o RdfsLiteral : "rdfs_label"
 RdfsDatatype ||--|o OwlOntology : "rdfs_isDefinedBy"
 RdfsDatatype ||--|o RdfsResource : "rdfs_isDefinedBy"
-RdfsDatatype ||--|o RdfsResource : "rdfs_seeAlso"
-RdfsDatatype ||--|o RdfsLiteral : "rdfs_comment"
-RdfsDatatype ||--|o RdfsLiteral : "rdfs_label"
 RdfsDatatype ||--|o RdfsClass : "rdfs_subClassOf"
-SdosActionStatusType ||--|o RdfsLiteral : "rdfs_label"
+RdfsDatatype ||--|o RdfsResource : "rdfs_seeAlso"
+RdfsDatatype ||--|o RdfsLiteral : "rdfs_label"
+RdfsDatatype ||--|o RdfsLiteral : "rdfs_comment"
+DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "dct_issued"
+DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "rdfs_label"
+DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "rdfs_comment"
+DcamVocabularyEncodingScheme ||--|o RdfsResource : "rdfs_seeAlso"
+DcamVocabularyEncodingScheme ||--|o OwlOntology : "rdfs_isDefinedBy"
+DcamVocabularyEncodingScheme ||--|o RdfsResource : "rdfs_isDefinedBy"
+DctAgentClass ||--|o RdfsLiteral : "rdfs_label"
+DctAgentClass ||--|o RdfsLiteral : "rdfs_comment"
+DctAgentClass ||--|o RdfsLiteral : "dct_issued"
+DctAgentClass ||--|o OwlOntology : "rdfs_isDefinedBy"
+DctAgentClass ||--|o RdfsResource : "rdfs_isDefinedBy"
+TimeDayOfWeek ||--|o RdfsLiteral : "rdfs_label"
+TimeTemporalUnit ||--|o RdfsLiteral : "rdfs_label"
+BiboDocumentStatus ||--|o RdfsLiteral : "rdfs_label"
+BiboDocumentStatus ||--|o RdfsLiteral : "rdfs_comment"
+BiboThesisDegree ||--|o RdfsLiteral : "rdfs_label"
+BiboThesisDegree ||--|o RdfsLiteral : "rdfs_comment"
 SdosActionStatusType ||--|o RdfsLiteral : "rdfs_comment"
+SdosActionStatusType ||--|o RdfsLiteral : "rdfs_label"
+SdosAdultOrientedEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosAdultOrientedEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosAdultOrientedEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosAdultOrientedEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosAdultOrientedEnumeration ||--|o RdfsLiteral : "rdfs_comment"
-SdosBoardingPolicyType ||--|o RdfsLiteral : "rdfs_label"
 SdosBoardingPolicyType ||--|o RdfsLiteral : "rdfs_comment"
+SdosBoardingPolicyType ||--|o RdfsLiteral : "rdfs_label"
+SdosBodyMeasurementTypeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosBodyMeasurementTypeEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosBodyMeasurementTypeEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosBodyMeasurementTypeEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosBodyMeasurementTypeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosBookFormatType ||--|o RdfsLiteral : "rdfs_comment"
 SdosBookFormatType ||--|o RdfsLiteral : "rdfs_label"
 SdosBookFormatType ||--|o SdosURL : "sdos_isPartOf"
 SdosBookFormatType ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosBookFormatType ||--|o RdfsLiteral : "rdfs_comment"
-SdosBoolean ||--|o RdfsLiteral : "rdfs_label"
 SdosBoolean ||--|o RdfsLiteral : "rdfs_comment"
-SdosCarUsageType ||--|o RdfsLiteral : "rdfs_label"
+SdosBoolean ||--|o RdfsLiteral : "rdfs_label"
 SdosCarUsageType ||--|o SdosOrganization : "sdos_contributor"
 SdosCarUsageType ||--|o SdosPerson : "sdos_contributor"
+SdosCarUsageType ||--|o RdfsLiteral : "rdfs_comment"
+SdosCarUsageType ||--|o RdfsLiteral : "rdfs_label"
 SdosCarUsageType ||--|o SdosURL : "sdos_isPartOf"
 SdosCarUsageType ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosCarUsageType ||--|o RdfsLiteral : "rdfs_comment"
+SdosCertificationStatusEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosCertificationStatusEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosCertificationStatusEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosCertificationStatusEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosCertificationStatusEnumeration ||--|o RdfsLiteral : "rdfs_comment"
-SdosContactPointOption ||--|o RdfsLiteral : "rdfs_label"
 SdosContactPointOption ||--|o RdfsLiteral : "rdfs_comment"
-SdosDayOfWeek ||--|o RdfsLiteral : "rdfs_label"
-SdosDayOfWeek ||--|o SdosURL : "sdos_sameAs"
+SdosContactPointOption ||--|o RdfsLiteral : "rdfs_label"
+SdosDataType ||--|o RdfsLiteral : "rdfs_comment"
+SdosDataType ||--|o RdfsLiteral : "rdfs_label"
 SdosDayOfWeek ||--|o SdosOrganization : "sdos_contributor"
 SdosDayOfWeek ||--|o SdosPerson : "sdos_contributor"
 SdosDayOfWeek ||--|o RdfsLiteral : "rdfs_comment"
-SdosDeliveryMethod ||--|o RdfsLiteral : "rdfs_label"
+SdosDayOfWeek ||--|o RdfsLiteral : "rdfs_label"
+SdosDayOfWeek ||--|o SdosURL : "sdos_sameAs"
 SdosDeliveryMethod ||--|o SdosOrganization : "sdos_contributor"
 SdosDeliveryMethod ||--|o SdosPerson : "sdos_contributor"
 SdosDeliveryMethod ||--|o RdfsLiteral : "rdfs_comment"
-SdosDigitalDocumentPermissionType ||--|o RdfsLiteral : "rdfs_label"
+SdosDeliveryMethod ||--|o RdfsLiteral : "rdfs_label"
 SdosDigitalDocumentPermissionType ||--|o RdfsLiteral : "rdfs_comment"
+SdosDigitalDocumentPermissionType ||--|o RdfsLiteral : "rdfs_label"
+SdosDigitalPlatformEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosDigitalPlatformEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosDigitalPlatformEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosDigitalPlatformEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosDigitalPlatformEnumeration ||--|o RdfsLiteral : "rdfs_comment"
-SdosDriveWheelConfigurationValue ||--|o RdfsLiteral : "rdfs_label"
 SdosDriveWheelConfigurationValue ||--|o SdosOrganization : "sdos_contributor"
 SdosDriveWheelConfigurationValue ||--|o SdosPerson : "sdos_contributor"
 SdosDriveWheelConfigurationValue ||--|o RdfsLiteral : "rdfs_comment"
+SdosDriveWheelConfigurationValue ||--|o RdfsLiteral : "rdfs_label"
+SdosDrugCostCategory ||--|o RdfsLiteral : "rdfs_comment"
 SdosDrugCostCategory ||--|o RdfsLiteral : "rdfs_label"
 SdosDrugCostCategory ||--|o SdosURL : "sdos_isPartOf"
 SdosDrugCostCategory ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosDrugCostCategory ||--|o RdfsLiteral : "rdfs_comment"
+SdosDrugPregnancyCategory ||--|o RdfsLiteral : "rdfs_comment"
 SdosDrugPregnancyCategory ||--|o RdfsLiteral : "rdfs_label"
 SdosDrugPregnancyCategory ||--|o SdosURL : "sdos_isPartOf"
 SdosDrugPregnancyCategory ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosDrugPregnancyCategory ||--|o RdfsLiteral : "rdfs_comment"
+SdosDrugPrescriptionStatus ||--|o RdfsLiteral : "rdfs_comment"
 SdosDrugPrescriptionStatus ||--|o RdfsLiteral : "rdfs_label"
 SdosDrugPrescriptionStatus ||--|o SdosURL : "sdos_isPartOf"
 SdosDrugPrescriptionStatus ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosDrugPrescriptionStatus ||--|o RdfsLiteral : "rdfs_comment"
+SdosEUEnergyEfficiencyEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosEUEnergyEfficiencyEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosEUEnergyEfficiencyEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosEUEnergyEfficiencyEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosEUEnergyEfficiencyEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosEnergyStarEnergyEfficiencyEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosEnergyStarEnergyEfficiencyEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosEnergyStarEnergyEfficiencyEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosEnergyStarEnergyEfficiencyEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosEnergyStarEnergyEfficiencyEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosEventAttendanceModeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosEventAttendanceModeEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosEventAttendanceModeEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosEventAttendanceModeEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosEventAttendanceModeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
-SdosEventStatusType ||--|o RdfsLiteral : "rdfs_label"
 SdosEventStatusType ||--|o RdfsLiteral : "rdfs_comment"
+SdosEventStatusType ||--|o RdfsLiteral : "rdfs_label"
+SdosFulfillmentTypeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosFulfillmentTypeEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosFulfillmentTypeEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosFulfillmentTypeEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosFulfillmentTypeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosGameAvailabilityEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosGameAvailabilityEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosGameAvailabilityEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosGameAvailabilityEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosGameAvailabilityEnumeration ||--|o RdfsLiteral : "rdfs_comment"
-SdosGamePlayMode ||--|o RdfsLiteral : "rdfs_label"
 SdosGamePlayMode ||--|o RdfsLiteral : "rdfs_comment"
-SdosGameServerStatus ||--|o RdfsLiteral : "rdfs_label"
+SdosGamePlayMode ||--|o RdfsLiteral : "rdfs_label"
 SdosGameServerStatus ||--|o RdfsLiteral : "rdfs_comment"
-SdosGenderType ||--|o RdfsLiteral : "rdfs_label"
+SdosGameServerStatus ||--|o RdfsLiteral : "rdfs_label"
 SdosGenderType ||--|o RdfsLiteral : "rdfs_comment"
+SdosGenderType ||--|o RdfsLiteral : "rdfs_label"
+SdosGovernmentBenefitsType ||--|o RdfsLiteral : "rdfs_comment"
 SdosGovernmentBenefitsType ||--|o RdfsLiteral : "rdfs_label"
 SdosGovernmentBenefitsType ||--|o SdosURL : "sdos_isPartOf"
 SdosGovernmentBenefitsType ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosGovernmentBenefitsType ||--|o RdfsLiteral : "rdfs_comment"
+SdosHealthAspectEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosHealthAspectEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosHealthAspectEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosHealthAspectEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosHealthAspectEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosIPTCDigitalSourceEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosIPTCDigitalSourceEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosIPTCDigitalSourceEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
 SdosIPTCDigitalSourceEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosIncentiveQualifiedExpenseType ||--|o RdfsLiteral : "rdfs_comment"
 SdosIncentiveQualifiedExpenseType ||--|o RdfsLiteral : "rdfs_label"
 SdosIncentiveQualifiedExpenseType ||--|o SdosURL : "sdos_isPartOf"
 SdosIncentiveQualifiedExpenseType ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosIncentiveQualifiedExpenseType ||--|o RdfsLiteral : "rdfs_comment"
+SdosIncentiveStatus ||--|o RdfsLiteral : "rdfs_comment"
 SdosIncentiveStatus ||--|o RdfsLiteral : "rdfs_label"
 SdosIncentiveStatus ||--|o SdosURL : "sdos_isPartOf"
 SdosIncentiveStatus ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosIncentiveStatus ||--|o RdfsLiteral : "rdfs_comment"
+SdosIncentiveType ||--|o RdfsLiteral : "rdfs_comment"
 SdosIncentiveType ||--|o RdfsLiteral : "rdfs_label"
 SdosIncentiveType ||--|o SdosURL : "sdos_isPartOf"
 SdosIncentiveType ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosIncentiveType ||--|o RdfsLiteral : "rdfs_comment"
+SdosInfectiousAgentClass ||--|o RdfsLiteral : "rdfs_comment"
 SdosInfectiousAgentClass ||--|o RdfsLiteral : "rdfs_label"
 SdosInfectiousAgentClass ||--|o SdosURL : "sdos_isPartOf"
 SdosInfectiousAgentClass ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosInfectiousAgentClass ||--|o RdfsLiteral : "rdfs_comment"
-SdosItemAvailability ||--|o RdfsLiteral : "rdfs_label"
 SdosItemAvailability ||--|o RdfsLiteral : "rdfs_comment"
-SdosItemListOrderType ||--|o RdfsLiteral : "rdfs_label"
+SdosItemAvailability ||--|o RdfsLiteral : "rdfs_label"
 SdosItemListOrderType ||--|o RdfsLiteral : "rdfs_comment"
+SdosItemListOrderType ||--|o RdfsLiteral : "rdfs_label"
 SdosLegalForceStatus ||--|o RdfsLiteral : "rdfs_label"
 SdosLegalForceStatus ||--|o SdosURL : "sdos_isPartOf"
 SdosLegalForceStatus ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosLegalForceStatus ||--|o RdfsLiteral : "rdfs_comment"
 SdosLegalForceStatus ||--|o SdosOrganization : "sdos_contributor"
 SdosLegalForceStatus ||--|o SdosPerson : "sdos_contributor"
+SdosLegalForceStatus ||--|o RdfsLiteral : "rdfs_comment"
 SdosLegalValueLevel ||--|o RdfsLiteral : "rdfs_label"
 SdosLegalValueLevel ||--|o SdosURL : "sdos_isPartOf"
 SdosLegalValueLevel ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosLegalValueLevel ||--|o RdfsLiteral : "rdfs_comment"
 SdosLegalValueLevel ||--|o SdosOrganization : "sdos_contributor"
 SdosLegalValueLevel ||--|o SdosPerson : "sdos_contributor"
-SdosMapCategoryType ||--|o RdfsLiteral : "rdfs_label"
+SdosLegalValueLevel ||--|o RdfsLiteral : "rdfs_comment"
 SdosMapCategoryType ||--|o RdfsLiteral : "rdfs_comment"
+SdosMapCategoryType ||--|o RdfsLiteral : "rdfs_label"
+SdosMeasurementMethodEnum ||--|o RdfsLiteral : "rdfs_comment"
 SdosMeasurementMethodEnum ||--|o RdfsLiteral : "rdfs_label"
 SdosMeasurementMethodEnum ||--|o SdosURL : "sdos_isPartOf"
 SdosMeasurementMethodEnum ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosMeasurementMethodEnum ||--|o RdfsLiteral : "rdfs_comment"
+SdosMediaManipulationRatingEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosMediaManipulationRatingEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosMediaManipulationRatingEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosMediaManipulationRatingEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosMediaManipulationRatingEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosMedicalAudienceType ||--|o RdfsLiteral : "rdfs_comment"
 SdosMedicalAudienceType ||--|o RdfsLiteral : "rdfs_label"
 SdosMedicalAudienceType ||--|o SdosURL : "sdos_isPartOf"
 SdosMedicalAudienceType ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosMedicalAudienceType ||--|o RdfsLiteral : "rdfs_comment"
+SdosMedicalDevicePurpose ||--|o RdfsLiteral : "rdfs_comment"
 SdosMedicalDevicePurpose ||--|o RdfsLiteral : "rdfs_label"
 SdosMedicalDevicePurpose ||--|o SdosURL : "sdos_isPartOf"
 SdosMedicalDevicePurpose ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosMedicalDevicePurpose ||--|o RdfsLiteral : "rdfs_comment"
+SdosMedicalEvidenceLevel ||--|o RdfsLiteral : "rdfs_comment"
 SdosMedicalEvidenceLevel ||--|o RdfsLiteral : "rdfs_label"
 SdosMedicalEvidenceLevel ||--|o SdosURL : "sdos_isPartOf"
 SdosMedicalEvidenceLevel ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosMedicalEvidenceLevel ||--|o RdfsLiteral : "rdfs_comment"
+SdosMedicalImagingTechnique ||--|o RdfsLiteral : "rdfs_comment"
 SdosMedicalImagingTechnique ||--|o RdfsLiteral : "rdfs_label"
 SdosMedicalImagingTechnique ||--|o SdosURL : "sdos_isPartOf"
 SdosMedicalImagingTechnique ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosMedicalImagingTechnique ||--|o RdfsLiteral : "rdfs_comment"
+SdosMedicalObservationalStudyDesign ||--|o RdfsLiteral : "rdfs_comment"
 SdosMedicalObservationalStudyDesign ||--|o RdfsLiteral : "rdfs_label"
 SdosMedicalObservationalStudyDesign ||--|o SdosURL : "sdos_isPartOf"
 SdosMedicalObservationalStudyDesign ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosMedicalObservationalStudyDesign ||--|o RdfsLiteral : "rdfs_comment"
+SdosMedicalProcedureType ||--|o RdfsLiteral : "rdfs_comment"
 SdosMedicalProcedureType ||--|o RdfsLiteral : "rdfs_label"
 SdosMedicalProcedureType ||--|o SdosURL : "sdos_isPartOf"
 SdosMedicalProcedureType ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosMedicalProcedureType ||--|o RdfsLiteral : "rdfs_comment"
 SdosMedicalSpecialty ||--|o RdfsLiteral : "rdfs_label"
 SdosMedicalSpecialty ||--|o SdosURL : "sdos_isPartOf"
 SdosMedicalSpecialty ||--|o SdosCreativeWork : "sdos_isPartOf"
 SdosMedicalSpecialty ||--|o RdfsLiteral : "rdfs_comment"
-SdosMedicalSpecialty ||--|o SdosMedicalSpecialty : "sdos_supersededBy"
-SdosMedicalSpecialty ||--|o SdosProperty : "sdos_supersededBy"
 SdosMedicalSpecialty ||--|o SdosMerchantReturnEnumeration : "sdos_supersededBy"
-SdosMedicalSpecialty ||--|o SdosClass : "sdos_supersededBy"
 SdosMedicalSpecialty ||--|o SdosEnumeration : "sdos_supersededBy"
+SdosMedicalSpecialty ||--|o SdosProperty : "sdos_supersededBy"
+SdosMedicalSpecialty ||--|o SdosMedicalSpecialty : "sdos_supersededBy"
+SdosMedicalSpecialty ||--|o SdosClass : "sdos_supersededBy"
 SdosMedicalSpecialty ||--|o RdfsClass : "rdfs_subClassOf"
+SdosMedicalStudyStatus ||--|o RdfsLiteral : "rdfs_comment"
 SdosMedicalStudyStatus ||--|o RdfsLiteral : "rdfs_label"
 SdosMedicalStudyStatus ||--|o SdosURL : "sdos_isPartOf"
 SdosMedicalStudyStatus ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosMedicalStudyStatus ||--|o RdfsLiteral : "rdfs_comment"
+SdosMedicalTrialDesign ||--|o RdfsLiteral : "rdfs_comment"
 SdosMedicalTrialDesign ||--|o RdfsLiteral : "rdfs_label"
 SdosMedicalTrialDesign ||--|o SdosURL : "sdos_isPartOf"
 SdosMedicalTrialDesign ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosMedicalTrialDesign ||--|o RdfsLiteral : "rdfs_comment"
+SdosMedicineSystem ||--|o RdfsLiteral : "rdfs_comment"
 SdosMedicineSystem ||--|o RdfsLiteral : "rdfs_label"
 SdosMedicineSystem ||--|o SdosURL : "sdos_isPartOf"
 SdosMedicineSystem ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosMedicineSystem ||--|o RdfsLiteral : "rdfs_comment"
+SdosMerchantReturnEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosMerchantReturnEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosMerchantReturnEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosMerchantReturnEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosMerchantReturnEnumeration ||--|o RdfsLiteral : "rdfs_comment"
-SdosMusicAlbumProductionType ||--|o RdfsLiteral : "rdfs_label"
 SdosMusicAlbumProductionType ||--|o SdosOrganization : "sdos_contributor"
 SdosMusicAlbumProductionType ||--|o SdosPerson : "sdos_contributor"
 SdosMusicAlbumProductionType ||--|o RdfsLiteral : "rdfs_comment"
-SdosMusicAlbumReleaseType ||--|o RdfsLiteral : "rdfs_label"
+SdosMusicAlbumProductionType ||--|o RdfsLiteral : "rdfs_label"
 SdosMusicAlbumReleaseType ||--|o SdosOrganization : "sdos_contributor"
 SdosMusicAlbumReleaseType ||--|o SdosPerson : "sdos_contributor"
 SdosMusicAlbumReleaseType ||--|o RdfsLiteral : "rdfs_comment"
-SdosMusicReleaseFormatType ||--|o RdfsLiteral : "rdfs_label"
+SdosMusicAlbumReleaseType ||--|o RdfsLiteral : "rdfs_label"
 SdosMusicReleaseFormatType ||--|o SdosOrganization : "sdos_contributor"
 SdosMusicReleaseFormatType ||--|o SdosPerson : "sdos_contributor"
 SdosMusicReleaseFormatType ||--|o RdfsLiteral : "rdfs_comment"
+SdosMusicReleaseFormatType ||--|o RdfsLiteral : "rdfs_label"
+SdosNLNonprofitType ||--|o RdfsLiteral : "rdfs_comment"
 SdosNLNonprofitType ||--|o RdfsLiteral : "rdfs_label"
 SdosNLNonprofitType ||--|o SdosURL : "sdos_isPartOf"
 SdosNLNonprofitType ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosNLNonprofitType ||--|o RdfsLiteral : "rdfs_comment"
-SdosOfferItemCondition ||--|o RdfsLiteral : "rdfs_label"
 SdosOfferItemCondition ||--|o RdfsLiteral : "rdfs_comment"
-SdosOrderStatus ||--|o RdfsLiteral : "rdfs_label"
+SdosOfferItemCondition ||--|o RdfsLiteral : "rdfs_label"
 SdosOrderStatus ||--|o RdfsLiteral : "rdfs_comment"
-SdosPaymentMethodType ||--|o RdfsLiteral : "rdfs_label"
+SdosOrderStatus ||--|o RdfsLiteral : "rdfs_label"
 SdosPaymentMethodType ||--|o RdfsLiteral : "rdfs_comment"
-SdosPaymentStatusType ||--|o RdfsLiteral : "rdfs_label"
+SdosPaymentMethodType ||--|o RdfsLiteral : "rdfs_label"
 SdosPaymentStatusType ||--|o RdfsLiteral : "rdfs_comment"
+SdosPaymentStatusType ||--|o RdfsLiteral : "rdfs_label"
+SdosPhysicalActivityCategory ||--|o RdfsLiteral : "rdfs_comment"
 SdosPhysicalActivityCategory ||--|o RdfsLiteral : "rdfs_label"
 SdosPhysicalActivityCategory ||--|o SdosURL : "sdos_isPartOf"
 SdosPhysicalActivityCategory ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosPhysicalActivityCategory ||--|o RdfsLiteral : "rdfs_comment"
+SdosPhysicalExam ||--|o RdfsLiteral : "rdfs_comment"
 SdosPhysicalExam ||--|o RdfsLiteral : "rdfs_label"
 SdosPhysicalExam ||--|o SdosURL : "sdos_isPartOf"
 SdosPhysicalExam ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosPhysicalExam ||--|o RdfsLiteral : "rdfs_comment"
+SdosPriceComponentTypeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosPriceComponentTypeEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosPriceComponentTypeEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosPriceComponentTypeEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosPriceComponentTypeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosPriceTypeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosPriceTypeEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosPriceTypeEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosPriceTypeEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosPriceTypeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosProductReturnEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosProductReturnEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosProductReturnEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
 SdosProductReturnEnumeration ||--|o RdfsLiteral : "rdfs_comment"
-SdosProductReturnEnumeration ||--|o SdosMedicalSpecialty : "sdos_supersededBy"
-SdosProductReturnEnumeration ||--|o SdosProperty : "sdos_supersededBy"
 SdosProductReturnEnumeration ||--|o SdosMerchantReturnEnumeration : "sdos_supersededBy"
-SdosProductReturnEnumeration ||--|o SdosClass : "sdos_supersededBy"
 SdosProductReturnEnumeration ||--|o SdosEnumeration : "sdos_supersededBy"
+SdosProductReturnEnumeration ||--|o SdosProperty : "sdos_supersededBy"
+SdosProductReturnEnumeration ||--|o SdosMedicalSpecialty : "sdos_supersededBy"
+SdosProductReturnEnumeration ||--|o SdosClass : "sdos_supersededBy"
+SdosPurchaseType ||--|o RdfsLiteral : "rdfs_comment"
 SdosPurchaseType ||--|o RdfsLiteral : "rdfs_label"
 SdosPurchaseType ||--|o SdosURL : "sdos_isPartOf"
 SdosPurchaseType ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosPurchaseType ||--|o RdfsLiteral : "rdfs_comment"
+SdosRefundTypeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosRefundTypeEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosRefundTypeEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosRefundTypeEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosRefundTypeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
-SdosReservationStatusType ||--|o RdfsLiteral : "rdfs_label"
 SdosReservationStatusType ||--|o RdfsLiteral : "rdfs_comment"
-SdosRestrictedDiet ||--|o RdfsLiteral : "rdfs_label"
+SdosReservationStatusType ||--|o RdfsLiteral : "rdfs_label"
 SdosRestrictedDiet ||--|o RdfsLiteral : "rdfs_comment"
+SdosRestrictedDiet ||--|o RdfsLiteral : "rdfs_label"
+SdosReturnFeesEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosReturnFeesEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosReturnFeesEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosReturnFeesEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosReturnFeesEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosReturnLabelSourceEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosReturnLabelSourceEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosReturnLabelSourceEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosReturnLabelSourceEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosReturnLabelSourceEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosReturnMethodEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosReturnMethodEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosReturnMethodEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosReturnMethodEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosReturnMethodEnumeration ||--|o RdfsLiteral : "rdfs_comment"
-SdosRsvpResponseType ||--|o RdfsLiteral : "rdfs_label"
 SdosRsvpResponseType ||--|o RdfsLiteral : "rdfs_comment"
+SdosRsvpResponseType ||--|o RdfsLiteral : "rdfs_label"
+SdosSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosSizeSystemEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosSizeSystemEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_comment"
-SdosSteeringPositionValue ||--|o RdfsLiteral : "rdfs_label"
 SdosSteeringPositionValue ||--|o SdosOrganization : "sdos_contributor"
 SdosSteeringPositionValue ||--|o SdosPerson : "sdos_contributor"
 SdosSteeringPositionValue ||--|o RdfsLiteral : "rdfs_comment"
+SdosSteeringPositionValue ||--|o RdfsLiteral : "rdfs_label"
+SdosTierBenefitEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosTierBenefitEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosTierBenefitEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosTierBenefitEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosTierBenefitEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosUKNonprofitType ||--|o RdfsLiteral : "rdfs_comment"
 SdosUKNonprofitType ||--|o RdfsLiteral : "rdfs_label"
 SdosUKNonprofitType ||--|o SdosURL : "sdos_isPartOf"
 SdosUKNonprofitType ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosUKNonprofitType ||--|o RdfsLiteral : "rdfs_comment"
+SdosUSNonprofitType ||--|o RdfsLiteral : "rdfs_comment"
 SdosUSNonprofitType ||--|o RdfsLiteral : "rdfs_label"
 SdosUSNonprofitType ||--|o SdosURL : "sdos_isPartOf"
 SdosUSNonprofitType ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosUSNonprofitType ||--|o RdfsLiteral : "rdfs_comment"
+SdosWearableMeasurementTypeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosWearableMeasurementTypeEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosWearableMeasurementTypeEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosWearableMeasurementTypeEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosWearableMeasurementTypeEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosWearableSizeGroupEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosWearableSizeGroupEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosWearableSizeGroupEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosWearableSizeGroupEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosWearableSizeGroupEnumeration ||--|o RdfsLiteral : "rdfs_comment"
+SdosWearableSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosWearableSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosWearableSizeSystemEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosWearableSizeSystemEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SdosWearableSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_comment"
-DcamVocabularyEncodingScheme ||--|o RdfsResource : "rdfs_seeAlso"
-DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "rdfs_label"
-DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "rdfs_comment"
-DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "dct_issued"
-DcamVocabularyEncodingScheme ||--|o OwlOntology : "rdfs_isDefinedBy"
-DcamVocabularyEncodingScheme ||--|o RdfsResource : "rdfs_isDefinedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o SdosProject : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o SdosProject : "http___templekg.org_ontology_HasActivity"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyExperiment ||--|o SdosProject : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyExperiment ||--|o SdosProject : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyExperiment ||--|o SdosProject : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyExperiment ||--|o SdosProject : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_HasAdditionalAllowedModelComponents"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyExperiment ||--|o SdosProject : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyExperiment ||--|o SdosProject : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_HasRequiredModelComponents"
-HttpTemplekg.orgOntologyExperiment ||--|o SdosProject : "http___templekg.org_ontology_HasProjectName"
-HttpTemplekg.orgOntologyExperiment ||--|o ProvLocation : "prov_atLocation"
-HttpTemplekg.orgOntologyExperiment ||--|o SdosProject : "http___templekg.org_ontology_HasParentActivity"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o SdosProject : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyExperiment ||--|o RdfsLiteral : "rdfs_label"
-HttpTemplekg.orgOntologyExperiment ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_HasParentExperiment"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiPlaceOfPublication"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiPlaceOfPublication"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiPlaceOfPublication"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiMadeFromMaterial"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiMadeFromMaterial"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiMadeFromMaterial"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiMadeFromMaterial"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiLocatedOnAstronomicalBody"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiElementSymbol"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiElementSymbol"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiLocatedInonPhysicalFeature"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiLocatedInonPhysicalFeature"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiLocatedInonPhysicalFeature"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiContinent"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiLocation"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiLocation"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiLocation"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiLocation"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiLocation"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiCountryOfCitizenship"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiCountryOfCitizenship"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiCountryOfCitizenship"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o ProvLocation : "prov_atLocation"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiReplaces"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiReplaces"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiReplaces"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiMeasures"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiMeasures"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiOppositeOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiOppositeOf"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiOppositeOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiOppositeOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiOppositeOf"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiCreator"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiCreator"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiDepicts"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiDepicts"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiDepicts"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiDepicts"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiParticipant"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiParticipant"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiParticipant"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyInstrument ||--|o SdosProject : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyInstrument ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiMediaType"
-HttpTemplekg.orgOntologyInstrument ||--|o RdfsLiteral : "rdfs_label"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiCategoryContains"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiReplacedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiReplacedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiReplacedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiPlaceOfPublication"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiPlaceOfPublication"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiPlaceOfPublication"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiPortOfRegistry"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiMadeFromMaterial"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiMadeFromMaterial"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiMadeFromMaterial"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiMadeFromMaterial"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiLocatedOnAstronomicalBody"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiMemberOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiMemberOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiMemberOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiMemberOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiLocatedInonPhysicalFeature"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiLocatedInonPhysicalFeature"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiLocatedInonPhysicalFeature"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiBasinCountry"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiBasinCountry"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiBasinCountry"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiContinent"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiLocation"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiLocation"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiLocation"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiLocation"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiLocation"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiCountryOfCitizenship"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiCountryOfCitizenship"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiCountryOfCitizenship"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyLocation ||--|o ProvLocation : "prov_atLocation"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiReplaces"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiReplaces"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiReplaces"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiOppositeOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiOppositeOf"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiOppositeOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiOppositeOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiOppositeOf"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiDepicts"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiDepicts"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiDepicts"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiDepicts"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiParticipant"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiParticipant"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiParticipant"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyLocation ||--|o SdosProject : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyLocation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyLocation ||--|o RdfsLiteral : "rdfs_label"
-HttpTemplekg.orgOntologyModel ||--|o SdosProject : "http___templekg.org_ontology_HasActivityParticipation"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyModel ||--|o SdosProject : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyModel ||--|o SdosProject : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiIsTheStudyOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiIsTheStudyOf"
-HttpTemplekg.orgOntologyModel ||--|o SdosProject : "http___templekg.org_ontology_WikiIsTheStudyOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyModel ||--|o SdosProject : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyModel ||--|o SdosProject : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyModel ||--|o SdosProject : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyModel ||--|o SdosProject : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyModel ||--|o SdosProject : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyModel ||--|o SdosProject : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_HasLicenseInfo"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyModel ||--|o SdosProject : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyModel ||--|o SdosProject : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_HasModelComponent"
-HttpTemplekg.orgOntologyModel ||--|o SdosProject : "http___templekg.org_ontology_HasProjectName"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyModel ||--|o SdosProject : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyModel ||--|o ProvLocation : "prov_atLocation"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyModel ||--|o SdosProject : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_HasInstitution"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyModel ||--|o SdosProject : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyModel ||--|o SdosProject : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyModel ||--|o SdosProject : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyModel ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyModel ||--|o RdfsLiteral : "rdfs_label"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o SdosProject : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o SdosProject : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o SdosProject : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o SdosProject : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o SdosProject : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o SdosProject : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o SdosProject : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o ProvLocation : "prov_atLocation"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o SdosProject : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o RdfsLiteral : "rdfs_label"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o SdosProject : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyNaturalHazard ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o SdosProject : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o SdosProject : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o SdosProject : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o SdosProject : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o SdosProject : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o ProvLocation : "prov_atLocation"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o SdosProject : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o SdosProject : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o SdosProject : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOceanCirculation ||--|o RdfsLiteral : "rdfs_label"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_HasRegion"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiIsTheStudyOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiIsTheStudyOf"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiIsTheStudyOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiReplacedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiReplacedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiReplacedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiPlaceOfPublication"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiPlaceOfPublication"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiPlaceOfPublication"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiName"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiHabitat"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHabitat"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiMadeFromMaterial"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiMadeFromMaterial"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiMadeFromMaterial"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiMadeFromMaterial"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiChemicalFormula"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiChemicalFormula"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiMemberOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiMemberOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiMemberOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiMemberOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiPdbLigandId"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiPdbLigandId"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiElementSymbol"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiElementSymbol"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiLocatedInonPhysicalFeature"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiLocatedInonPhysicalFeature"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiLocatedInonPhysicalFeature"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiLocation"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiLocation"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiLocation"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiLocation"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiLocation"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiContinent"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiCountryOfCitizenship"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiCountryOfCitizenship"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiCountryOfCitizenship"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_HasProjectName"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyOthers ||--|o ProvLocation : "prov_atLocation"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiAssociatedHazard"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiReplaces"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiReplaces"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiReplaces"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiMeasures"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiMeasures"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiOppositeOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiOppositeOf"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiOppositeOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiOppositeOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiOppositeOf"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiDepicts"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiDepicts"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiDepicts"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiDepicts"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiFileExtension"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiFileExtension"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiFileExtension"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiFileExtension"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiFileExtension"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiBasedOn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiBasedOn"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_HasInstitution"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiDerivativeWork"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_HasSourceType"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiParticipant"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiParticipant"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiParticipant"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyOthers ||--|o SdosProject : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyOthers ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiMediaType"
-HttpTemplekg.orgOntologyOthers ||--|o RdfsLiteral : "rdfs_label"
-HttpTemplekg.orgOntologyPaper ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_Mention"
-HttpTemplekg.orgOntologyPaper ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_Mention"
-HttpTemplekg.orgOntologyPaper ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_Mention"
-HttpTemplekg.orgOntologyPaper ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_Mention"
-HttpTemplekg.orgOntologyPaper ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_Mention"
-HttpTemplekg.orgOntologyPaper ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_Mention"
-HttpTemplekg.orgOntologyPaper ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_Mention"
-HttpTemplekg.orgOntologyPaper ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_Mention"
-HttpTemplekg.orgOntologyPaper ||--|o SdosProject : "http___templekg.org_ontology_Mention"
-HttpTemplekg.orgOntologyPaper ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_Mention"
-HttpTemplekg.orgOntologyPaper ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_Mention"
-HttpTemplekg.orgOntologyPaper ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_Mention"
-HttpTemplekg.orgOntologyPaper ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_Mention"
-HttpTemplekg.orgOntologyPaper ||--|o HttpTemplekg.orgOntologyPaper : "http___templekg.org_ontology_CITED"
-HttpTemplekg.orgOntologyPaper ||--|o HttpTemplekg.orgOntologyPaper : "http___templekg.org_ontology_SIM"
-HttpTemplekg.orgOntologyPaper ||--|o RdfsLiteral : "rdfs_label"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_MountedOn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiPlaceOfPublication"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiPlaceOfPublication"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiPlaceOfPublication"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiExpressedIn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiMadeFromMaterial"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_WikiMadeFromMaterial"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiMadeFromMaterial"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiMadeFromMaterial"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiContinent"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiCountryOfCitizenship"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiCountryOfCitizenship"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_WikiCountryOfCitizenship"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o ProvLocation : "prov_atLocation"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiDepicts"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_WikiDepicts"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiDepicts"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiDepicts"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiBasedOn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiBasedOn"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyPlatform ||--|o SdosProject : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyPlatform ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyPlatform ||--|o RdfsLiteral : "rdfs_label"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiReplacedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiReplacedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiReplacedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiPlaceOfPublication"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiPlaceOfPublication"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiPlaceOfPublication"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiUses"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiHasSubsidiary"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasSubsidiary"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiHasSubsidiary"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiHasSubsidiary"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiHasSubsidiary"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasSubsidiary"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiOperator"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiMemberOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiMemberOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiMemberOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiMemberOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiInfluencedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiLocatedInonPhysicalFeature"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiLocatedInonPhysicalFeature"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiLocatedInonPhysicalFeature"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiBasinCountry"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiBasinCountry"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiBasinCountry"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiContinent"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiLocation"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiLocation"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiLocation"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiLocation"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiLocation"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiCountryOfCitizenship"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiCountryOfCitizenship"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiCountryOfCitizenship"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiAppliesToJurisdiction"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiAppliesToJurisdiction"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyProvider ||--|o ProvLocation : "prov_atLocation"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiReplaces"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiReplaces"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiReplaces"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiCreator"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiCreator"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiFileExtension"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiFileExtension"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiFileExtension"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiFileExtension"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiFileExtension"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiBasedOn"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiBasedOn"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasUse"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiParticipant"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiParticipant"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiParticipant"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiDerivativeWork"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyProvider ||--|o SdosProject : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyProvider ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiMediaType"
-HttpTemplekg.orgOntologyProvider ||--|o RdfsLiteral : "rdfs_label"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o SdosProject : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyTeleconnection ||--|o SdosProject : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiLocatedInonPhysicalFeature"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiLocatedInonPhysicalFeature"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiLocatedInonPhysicalFeature"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o SdosProject : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o SdosProject : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyTeleconnection ||--|o SdosProject : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyTeleconnection ||--|o SdosProject : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyTeleconnection ||--|o SdosProject : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyTeleconnection ||--|o SdosProject : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyTeleconnection ||--|o ProvLocation : "prov_atLocation"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o SdosProject : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyTeleconnection ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyTeleconnection ||--|o SdosProject : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyTeleconnection ||--|o RdfsLiteral : "rdfs_label"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ProvidedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiNamedAfter"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiPartOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiPlaceOfPublication"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiPlaceOfPublication"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiPlaceOfPublication"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_WikiCapital"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_WikiChild"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiMadeFromMaterial"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_WikiMadeFromMaterial"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiMadeFromMaterial"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiMadeFromMaterial"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_WikiStudiedIn"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiContinent"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiCountryOfCitizenship"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiCountryOfCitizenship"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_WikiCountryOfCitizenship"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_HasProjectName"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_WikiAssociatedHazard"
-HttpTemplekg.orgOntologyVariable ||--|o ProvLocation : "prov_atLocation"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_WikiFollowedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_WikiHasPartsOfTheClass"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiFollows"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiOppositeOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiOppositeOf"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_WikiOppositeOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiOppositeOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiOppositeOf"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_WikiDifferentFrom"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiFileExtension"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiFileExtension"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiFileExtension"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiFileExtension"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_WikiFileExtension"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasCause"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyVariable ||--|o SdosProject : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyVariable ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyVariable ||--|o RdfsLiteral : "rdfs_label"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o SdosProject : "http___templekg.org_ontology_WikiInstanceOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o SdosProject : "http___templekg.org_ontology_ComparedTo"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o SdosProject : "http___templekg.org_ontology_WikiSubclassOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o SdosProject : "http___templekg.org_ontology_ValidatedBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o SdosProject : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_UsedIn"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o SdosProject : "http___templekg.org_ontology_TargetsLocation"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o SdosProject : "http___templekg.org_ontology_RunBy"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o ProvLocation : "prov_atLocation"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o SdosProject : "http___templekg.org_ontology_ChildOf"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyModel : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyExperiment : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOceanCirculation : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o SdosProject : "http___templekg.org_ontology_Outputs"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyPlatform : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyWeatherEvent : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyTeleconnection : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyVariable : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyProvider : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o SdosProject : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyLocation : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasParts"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o RdfsLiteral : "rdfs_label"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyNaturalHazard : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o SdosProject : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyInstrument : "http___templekg.org_ontology_WikiHasEffect"
-HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOthers : "http___templekg.org_ontology_WikiHasEffect"
+AdmsSemanticAssetDistribution ||--|o SkosConcept : "adms_status"
+RdfDatatypeProperty ||--|o RdfsClass : "rdfs_domain"
+RdfDatatypeProperty ||--|o RdfsLiteral : "rdfs_comment"
+RdfDatatypeProperty ||--|o RdfsLiteral : "rdfs_label"
+VaemGraphMetaData ||--|o VaemGraphRole : "vaem_hasGraphRole"
+VaemGraphMetaData ||--|o VaemParty : "vaem_hasOwner"
+VaemGraphMetaData ||--|o RdfsLiteral : "dct_title"
+VaemGraphMetaData ||--|o OwlAnnotationProperty : "vaem_usesNonImportedResource"
+VaemGraphMetaData ||--|o RdfsResource : "vaem_usesNonImportedResource"
+VaemGraphMetaData ||--|o RdfsLiteral : "dct_created"
+VaemGraphMetaData ||--|o VaemParty : "vaem_hasSteward"
+VaemGraphMetaData ||--|o RdfsLiteral : "rdfs_label"
+VaemGraphMetaData ||--|o OwlOntology : "rdfs_isDefinedBy"
+VaemGraphMetaData ||--|o RdfsResource : "rdfs_isDefinedBy"
+VaemGraphMetaData ||--|o RdfsLiteral : "dct_modified"
+VaemGraphRole ||--|o RdfsLiteral : "rdfs_label"
+VaemGraphRole ||--|o OwlOntology : "rdfs_isDefinedBy"
+VaemGraphRole ||--|o RdfsResource : "rdfs_isDefinedBy"
+VaemParty ||--|o RdfsLiteral : "rdfs_label"
+VaemParty ||--|o OwlOntology : "rdfs_isDefinedBy"
+VaemParty ||--|o RdfsResource : "rdfs_isDefinedBy"
+VaemCatalogEntry ||--|o OwlOntology : "rdfs_isDefinedBy"
+VaemCatalogEntry ||--|o RdfsResource : "rdfs_isDefinedBy"
+VaemCatalogEntry ||--|o RdfsLiteral : "rdfs_label"
+VoagAttribution ||--|o RdfsLiteral : "rdfs_label"
+VoagAttribution ||--|o VoagLogo : "voag_hasLogo"
+VoagAttribution ||--|o VoagAttributionLogo : "voag_hasLogo"
+VoagAttribution ||--|o VoagOrganizationLogo : "voag_hasLogo"
+VoagAttribution ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagAttribution ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagAttributionLogo ||--|o RdfsLiteral : "rdfs_label"
+VoagAttributionLogo ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagAttributionLogo ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagChangeFrequency ||--|o XsdAnySimpleType : "dtype_value"
+VoagChangeFrequency ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagChangeFrequency ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagChangeFrequency ||--|o RdfsLiteral : "rdfs_label"
+VoagChangeType ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagChangeType ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagChangeType ||--|o RdfsLiteral : "rdfs_label"
+VoagConfidentialityLevel ||--|o RdfsLiteral : "rdfs_label"
+VoagConfidentialityLevel ||--|o XsdAnySimpleType : "dtype_code"
+VoagConfidentialityLevel ||--|o XsdAnySimpleType : "dtype_value"
+VoagConfidentialityLevel ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagConfidentialityLevel ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagCreativeCommonsPermission ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagCreativeCommonsPermission ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagCreativeCommonsPermission ||--|o RdfsLiteral : "rdfs_label"
+VoagCreativeCommonsProhibition ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagCreativeCommonsProhibition ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagCreativeCommonsProhibition ||--|o RdfsLiteral : "rdfs_label"
+VoagCreativeCommonsRequirement ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagCreativeCommonsRequirement ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagCreativeCommonsRequirement ||--|o RdfsLiteral : "rdfs_label"
+VoagGovernance ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagGovernance ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagGovernance ||--|o RdfsLiteral : "rdfs_label"
+VoagGovernanceRole ||--|o XsdAnySimpleType : "dtype_value"
+VoagGovernanceRole ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagGovernanceRole ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagGovernanceRole ||--|o RdfsLiteral : "rdfs_label"
+VoagIcon ||--|o RdfsLiteral : "rdfs_label"
+VoagIcon ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagIcon ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagIssueStatus ||--|o XsdAnySimpleType : "dtype_value"
+VoagIssueStatus ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagIssueStatus ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagIssueStatus ||--|o RdfsLiteral : "rdfs_label"
+VoagLicenseModel ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagLicenseModel ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagLicenseModel ||--|o RdfsLiteral : "rdfs_label"
+VoagLogo ||--|o RdfsLiteral : "rdfs_label"
+VoagLogo ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagLogo ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagMaturity ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagMaturity ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagMaturity ||--|o RdfsLiteral : "rdfs_label"
+VoagOrganizationLogo ||--|o RdfsLiteral : "rdfs_label"
+VoagOrganizationLogo ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagOrganizationLogo ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagPedigree ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagPedigree ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagPedigree ||--|o RdfsLiteral : "rdfs_label"
+VoagPriorityValue ||--|o XsdAnySimpleType : "dtype_value"
+VoagPriorityValue ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagPriorityValue ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagPriorityValue ||--|o RdfsLiteral : "rdfs_label"
+VoagProductLogo ||--|o RdfsLiteral : "rdfs_label"
+VoagProductLogo ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagProductLogo ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagProvenance ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagProvenance ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagProvenance ||--|o RdfsLiteral : "rdfs_label"
+VoagPublicationStatus ||--|o XsdAnySimpleType : "dtype_value"
+VoagPublicationStatus ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagPublicationStatus ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagPublicationStatus ||--|o RdfsLiteral : "rdfs_label"
+VoagSchemaGraph ||--|o OwlOntology : "rdfs_isDefinedBy"
+VoagSchemaGraph ||--|o RdfsResource : "rdfs_isDefinedBy"
+VoagSchemaGraph ||--|o RdfsLiteral : "rdfs_label"
 
 ```
 
@@ -5982,131 +4502,16 @@ HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOthers : "ht
 ## Imports
 
 
-* okns:prov
-* okns:sdo
 * okns:owl-rdf-rdfs
+* okns:bibo
 * okns:dc
+* okns:voag
+* okns:skos
+* okns:sdo
 * linkml:types
 
 
 
-## Classes
-
-| Class | Description | Occurrences |
-| --- | --- | --- |
-| [HttpTemplekg.orgOntologyExperiment](classes/HttpTemplekg.orgOntologyExperiment.md) | None<br/>| 335 | 
-| [HttpTemplekg.orgOntologyGreeting](classes/HttpTemplekg.orgOntologyGreeting.md) | None<br/>| 2 | 
-| [HttpTemplekg.orgOntologyInstrument](classes/HttpTemplekg.orgOntologyInstrument.md) | None<br/>| 2020 | 
-| [HttpTemplekg.orgOntologyLocation](classes/HttpTemplekg.orgOntologyLocation.md) | None<br/>| 624 | 
-| [HttpTemplekg.orgOntologyModel](classes/HttpTemplekg.orgOntologyModel.md) | None<br/>| 442 | 
-| [HttpTemplekg.orgOntologyNaturalHazard](classes/HttpTemplekg.orgOntologyNaturalHazard.md) | None<br/>| 24 | 
-| [HttpTemplekg.orgOntologyOceanCirculation](classes/HttpTemplekg.orgOntologyOceanCirculation.md) | None<br/>| 29 | 
-| [HttpTemplekg.orgOntologyOthers](classes/HttpTemplekg.orgOntologyOthers.md) | None<br/>| 3358 | 
-| [HttpTemplekg.orgOntologyPaper](classes/HttpTemplekg.orgOntologyPaper.md) | None<br/>| 500 | 
-| [HttpTemplekg.orgOntologyPlatform](classes/HttpTemplekg.orgOntologyPlatform.md) | None<br/>| 1214 | 
-| [HttpTemplekg.orgOntologyProvider](classes/HttpTemplekg.orgOntologyProvider.md) | None<br/>| 3770 | 
-| [HttpTemplekg.orgOntologyTeleconnection](classes/HttpTemplekg.orgOntologyTeleconnection.md) | None<br/>| 27 | 
-| [HttpTemplekg.orgOntologyVariable](classes/HttpTemplekg.orgOntologyVariable.md) | None<br/>| 1501 | 
-| [HttpTemplekg.orgOntologyWeatherEvent](classes/HttpTemplekg.orgOntologyWeatherEvent.md) | None<br/>| 89 | 
-
-
-
-
-
-## Slots
-
-| Slot | Description | Occurrences |
-| --- | --- | --- |
-| [http___templekg.org_ontology_authors](slots/http___templekg.org_ontology_authors.md) | <br/>| 486 |
-| [http___templekg.org_ontology_ChildOf](slots/http___templekg.org_ontology_ChildOf.md) | <br/>| 46537 |
-| [http___templekg.org_ontology_CITED](slots/http___templekg.org_ontology_CITED.md) | <br/>| 117 |
-| [http___templekg.org_ontology_collapsed_uuids](slots/http___templekg.org_ontology_collapsed_uuids.md) | <br/>| 607 |
-| [http___templekg.org_ontology_ComparedTo](slots/http___templekg.org_ontology_ComparedTo.md) | <br/>| 1267 |
-| [http___templekg.org_ontology_content](slots/http___templekg.org_ontology_content.md) | <br/>| 2 |
-| [http___templekg.org_ontology_doi](slots/http___templekg.org_ontology_doi.md) | <br/>| 475 |
-| [http___templekg.org_ontology_end_year](slots/http___templekg.org_ontology_end_year.md) | <br/>| 322 |
-| [http___templekg.org_ontology_experiment](slots/http___templekg.org_ontology_experiment.md) | <br/>| 322 |
-| [http___templekg.org_ontology_HasActivity](slots/http___templekg.org_ontology_HasActivity.md) | <br/>| 334 |
-| [http___templekg.org_ontology_HasActivityParticipation](slots/http___templekg.org_ontology_HasActivityParticipation.md) | <br/>| 685 |
-| [http___templekg.org_ontology_HasAdditionalAllowedModelComponents](slots/http___templekg.org_ontology_HasAdditionalAllowedModelComponents.md) | <br/>| 706 |
-| [http___templekg.org_ontology_HasInstitution](slots/http___templekg.org_ontology_HasInstitution.md) | <br/>| 257 |
-| [http___templekg.org_ontology_HasLicenseInfo](slots/http___templekg.org_ontology_HasLicenseInfo.md) | <br/>| 131 |
-| [http___templekg.org_ontology_HasModelComponent](slots/http___templekg.org_ontology_HasModelComponent.md) | <br/>| 677 |
-| [http___templekg.org_ontology_HasParentActivity](slots/http___templekg.org_ontology_HasParentActivity.md) | <br/>| 251 |
-| [http___templekg.org_ontology_HasParentExperiment](slots/http___templekg.org_ontology_HasParentExperiment.md) | <br/>| 251 |
-| [http___templekg.org_ontology_HasProjectName](slots/http___templekg.org_ontology_HasProjectName.md) | <br/>| 2118 |
-| [http___templekg.org_ontology_HasRegion](slots/http___templekg.org_ontology_HasRegion.md) | <br/>| 109 |
-| [http___templekg.org_ontology_HasRequiredModelComponents](slots/http___templekg.org_ontology_HasRequiredModelComponents.md) | <br/>| 430 |
-| [http___templekg.org_ontology_HasSourceType](slots/http___templekg.org_ontology_HasSourceType.md) | <br/>| 106 |
-| [http___templekg.org_ontology_Mention](slots/http___templekg.org_ontology_Mention.md) | <br/>| 22181 |
-| [http___templekg.org_ontology_MountedOn](slots/http___templekg.org_ontology_MountedOn.md) | <br/>| 73 |
-| [http___templekg.org_ontology_Outputs](slots/http___templekg.org_ontology_Outputs.md) | <br/>| 730 |
-| [http___templekg.org_ontology_ProvidedBy](slots/http___templekg.org_ontology_ProvidedBy.md) | <br/>| 508 |
-| [http___templekg.org_ontology_pub_date](slots/http___templekg.org_ontology_pub_date.md) | <br/>| 363 |
-| [http___templekg.org_ontology_RunBy](slots/http___templekg.org_ontology_RunBy.md) | <br/>| 269 |
-| [http___templekg.org_ontology_SIM](slots/http___templekg.org_ontology_SIM.md) | <br/>| 1068 |
-| [http___templekg.org_ontology_start_year](slots/http___templekg.org_ontology_start_year.md) | <br/>| 322 |
-| [http___templekg.org_ontology_TargetsLocation](slots/http___templekg.org_ontology_TargetsLocation.md) | <br/>| 3246 |
-| [http___templekg.org_ontology_test_property](slots/http___templekg.org_ontology_test_property.md) | <br/>| 1 |
-| [http___templekg.org_ontology_tier](slots/http___templekg.org_ontology_tier.md) | <br/>| 322 |
-| [http___templekg.org_ontology_UsedIn](slots/http___templekg.org_ontology_UsedIn.md) | <br/>| 1137 |
-| [http___templekg.org_ontology_UUID](slots/http___templekg.org_ontology_UUID.md) | <br/>| 15877 |
-| [http___templekg.org_ontology_ValidatedBy](slots/http___templekg.org_ontology_ValidatedBy.md) | <br/>| 285 |
-| [http___templekg.org_ontology_WikiAppliesToJurisdiction](slots/http___templekg.org_ontology_WikiAppliesToJurisdiction.md) | <br/>| 3 |
-| [http___templekg.org_ontology_WikiAssociatedHazard](slots/http___templekg.org_ontology_WikiAssociatedHazard.md) | <br/>| 2 |
-| [http___templekg.org_ontology_WikiBasedOn](slots/http___templekg.org_ontology_WikiBasedOn.md) | <br/>| 10 |
-| [http___templekg.org_ontology_WikiBasinCountry](slots/http___templekg.org_ontology_WikiBasinCountry.md) | <br/>| 204 |
-| [http___templekg.org_ontology_WikiCapital](slots/http___templekg.org_ontology_WikiCapital.md) | <br/>| 25 |
-| [http___templekg.org_ontology_WikiCategoryContains](slots/http___templekg.org_ontology_WikiCategoryContains.md) | <br/>| 1 |
-| [http___templekg.org_ontology_WikiChemicalFormula](slots/http___templekg.org_ontology_WikiChemicalFormula.md) | <br/>| 7 |
-| [http___templekg.org_ontology_WikiChild](slots/http___templekg.org_ontology_WikiChild.md) | <br/>| 83 |
-| [http___templekg.org_ontology_WikiContinent](slots/http___templekg.org_ontology_WikiContinent.md) | <br/>| 326 |
-| [http___templekg.org_ontology_WikiCountryOfCitizenship](slots/http___templekg.org_ontology_WikiCountryOfCitizenship.md) | <br/>| 130 |
-| [http___templekg.org_ontology_WikiCreator](slots/http___templekg.org_ontology_WikiCreator.md) | <br/>| 2 |
-| [http___templekg.org_ontology_wikidata_description](slots/http___templekg.org_ontology_wikidata_description.md) | <br/>| 3864 |
-| [http___templekg.org_ontology_wikidata_ids](slots/http___templekg.org_ontology_wikidata_ids.md) | <br/>| 4018 |
-| [http___templekg.org_ontology_WikiDepicts](slots/http___templekg.org_ontology_WikiDepicts.md) | <br/>| 12 |
-| [http___templekg.org_ontology_WikiDerivativeWork](slots/http___templekg.org_ontology_WikiDerivativeWork.md) | <br/>| 3 |
-| [http___templekg.org_ontology_WikiDesignedBy](slots/http___templekg.org_ontology_WikiDesignedBy.md) | <br/>| 1 |
-| [http___templekg.org_ontology_WikiDifferentFrom](slots/http___templekg.org_ontology_WikiDifferentFrom.md) | <br/>| 180 |
-| [http___templekg.org_ontology_WikiElementSymbol](slots/http___templekg.org_ontology_WikiElementSymbol.md) | <br/>| 7 |
-| [http___templekg.org_ontology_WikiExpressedIn](slots/http___templekg.org_ontology_WikiExpressedIn.md) | <br/>| 1 |
-| [http___templekg.org_ontology_WikiFileExtension](slots/http___templekg.org_ontology_WikiFileExtension.md) | <br/>| 12 |
-| [http___templekg.org_ontology_WikiFollowedBy](slots/http___templekg.org_ontology_WikiFollowedBy.md) | <br/>| 253 |
-| [http___templekg.org_ontology_WikiFollows](slots/http___templekg.org_ontology_WikiFollows.md) | <br/>| 252 |
-| [http___templekg.org_ontology_WikiHabitat](slots/http___templekg.org_ontology_WikiHabitat.md) | <br/>| 12 |
-| [http___templekg.org_ontology_WikiHasCause](slots/http___templekg.org_ontology_WikiHasCause.md) | <br/>| 54 |
-| [http___templekg.org_ontology_WikiHasEffect](slots/http___templekg.org_ontology_WikiHasEffect.md) | <br/>| 46 |
-| [http___templekg.org_ontology_WikiHasParts](slots/http___templekg.org_ontology_WikiHasParts.md) | <br/>| 872 |
-| [http___templekg.org_ontology_WikiHasPartsOfTheClass](slots/http___templekg.org_ontology_WikiHasPartsOfTheClass.md) | <br/>| 20 |
-| [http___templekg.org_ontology_WikiHasSubsidiary](slots/http___templekg.org_ontology_WikiHasSubsidiary.md) | <br/>| 9 |
-| [http___templekg.org_ontology_WikiHasUse](slots/http___templekg.org_ontology_WikiHasUse.md) | <br/>| 60 |
-| [http___templekg.org_ontology_WikiInfluencedBy](slots/http___templekg.org_ontology_WikiInfluencedBy.md) | <br/>| 13 |
-| [http___templekg.org_ontology_WikiInstanceOf](slots/http___templekg.org_ontology_WikiInstanceOf.md) | <br/>| 622 |
-| [http___templekg.org_ontology_WikiIsTheStudyOf](slots/http___templekg.org_ontology_WikiIsTheStudyOf.md) | <br/>| 10 |
-| [http___templekg.org_ontology_WikiLocatedInonPhysicalFeature](slots/http___templekg.org_ontology_WikiLocatedInonPhysicalFeature.md) | <br/>| 132 |
-| [http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater](slots/http___templekg.org_ontology_WikiLocatedInOrNextToBodyOfWater.md) | <br/>| 306 |
-| [http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity](slots/http___templekg.org_ontology_WikiLocatedInTheAdministrativeTerritorialEntity.md) | <br/>| 226 |
-| [http___templekg.org_ontology_WikiLocatedOnAstronomicalBody](slots/http___templekg.org_ontology_WikiLocatedOnAstronomicalBody.md) | <br/>| 3 |
-| [http___templekg.org_ontology_WikiLocation](slots/http___templekg.org_ontology_WikiLocation.md) | <br/>| 27 |
-| [http___templekg.org_ontology_WikiMadeFromMaterial](slots/http___templekg.org_ontology_WikiMadeFromMaterial.md) | <br/>| 33 |
-| [http___templekg.org_ontology_WikiMeasures](slots/http___templekg.org_ontology_WikiMeasures.md) | <br/>| 6 |
-| [http___templekg.org_ontology_WikiMediaType](slots/http___templekg.org_ontology_WikiMediaType.md) | <br/>| 14 |
-| [http___templekg.org_ontology_WikiMemberOf](slots/http___templekg.org_ontology_WikiMemberOf.md) | <br/>| 361 |
-| [http___templekg.org_ontology_WikiName](slots/http___templekg.org_ontology_WikiName.md) | <br/>| 1 |
-| [http___templekg.org_ontology_WikiNamedAfter](slots/http___templekg.org_ontology_WikiNamedAfter.md) | <br/>| 65 |
-| [http___templekg.org_ontology_WikiOperator](slots/http___templekg.org_ontology_WikiOperator.md) | <br/>| 77 |
-| [http___templekg.org_ontology_WikiOppositeOf](slots/http___templekg.org_ontology_WikiOppositeOf.md) | <br/>| 45 |
-| [http___templekg.org_ontology_WikiParticipant](slots/http___templekg.org_ontology_WikiParticipant.md) | <br/>| 35 |
-| [http___templekg.org_ontology_WikiPartOf](slots/http___templekg.org_ontology_WikiPartOf.md) | <br/>| 728 |
-| [http___templekg.org_ontology_WikiPdbLigandId](slots/http___templekg.org_ontology_WikiPdbLigandId.md) | <br/>| 5 |
-| [http___templekg.org_ontology_WikiPlaceOfPublication](slots/http___templekg.org_ontology_WikiPlaceOfPublication.md) | <br/>| 110 |
-| [http___templekg.org_ontology_WikiPortOfRegistry](slots/http___templekg.org_ontology_WikiPortOfRegistry.md) | <br/>| 4 |
-| [http___templekg.org_ontology_WikiReplacedBy](slots/http___templekg.org_ontology_WikiReplacedBy.md) | <br/>| 4 |
-| [http___templekg.org_ontology_WikiReplaces](slots/http___templekg.org_ontology_WikiReplaces.md) | <br/>| 35 |
-| [http___templekg.org_ontology_WikiStudiedIn](slots/http___templekg.org_ontology_WikiStudiedIn.md) | <br/>| 43 |
-| [http___templekg.org_ontology_WikiSubclassOf](slots/http___templekg.org_ontology_WikiSubclassOf.md) | <br/>| 360 |
-| [http___templekg.org_ontology_WikiUses](slots/http___templekg.org_ontology_WikiUses.md) | <br/>| 30 |
 
 
 
@@ -6118,14 +4523,16 @@ HttpTemplekg.orgOntologyWeatherEvent ||--|o HttpTemplekg.orgOntologyOthers : "ht
 
 ## IRI prefixes
 
+* bibo: http://purl.org/ontology/bibo/
 * dct: http://purl.org/dc/terms/
 * linkml: https://w3id.org/linkml/
 * okn: https://purl.org/okn/
 * okns: https://purl.org/okn/schema/
 * owl: http://www.w3.org/2002/07/owl#
-* prov: http://www.w3.org/ns/prov#
 * rdfs: http://www.w3.org/2000/01/rdf-schema#
 * sdos: https://schema.org/
+* skos: http://www.w3.org/2004/02/skos/core#
+* voag: http://voag.linkedmodel.org/voag#
 * xsd: http://www.w3.org/2001/XMLSchema#
 * shex: http://www.w3.org/ns/shex#
 * schema: http://schema.org/
