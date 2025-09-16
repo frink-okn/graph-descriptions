@@ -1,11 +1,6 @@
 
 
-# Slot: No slot (predicate) name specified (xsd_maxLength)
-
-
-_No slot (predicate) description specified_
-
-
+# Slot: xsd_maxLength
 
 
 
@@ -44,11 +39,11 @@ URI: [xsd:maxLength](http://www.w3.org/2001/XMLSchema#maxLength)
 
 ```yaml
 name: xsd_maxLength
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#maxLength
 rank: 1000
 slot_uri: xsd:maxLength
 alias: xsd_maxLength

@@ -1,11 +1,6 @@
 
 
-# Class: No class (entity type) name specified (xsd_short)
-
-
-_No class (type) description specified_
-
-
+# Class: XsdShort
 
 
 
@@ -33,8 +28,9 @@ URI: [xsd:short](http://www.w3.org/2001/XMLSchema#short)
 
 
 ## Inheritance
-* [RdfsLiteral](../classes/RdfsLiteral.md)
-    * **XsdShort**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsLiteral](../classes/RdfsLiteral.md)
+        * **XsdShort**
 
 
 
@@ -66,10 +62,9 @@ URI: [xsd:short](http://www.w3.org/2001/XMLSchema#short)
 
 ```yaml
 name: xsd_short
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#short
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:short
@@ -83,10 +78,9 @@ class_uri: xsd:short
 
 ```yaml
 name: xsd_short
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#short
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:short

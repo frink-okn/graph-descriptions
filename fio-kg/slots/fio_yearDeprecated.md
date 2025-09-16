@@ -49,13 +49,15 @@ description: A relation between an industry code and the schema year it was depr
 title: year deprecated
 comments:
 - No occurrences of this slot in the graph.
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://w3id.org/fio/v1/fio#yearDeprecated
 rank: 1000
 slot_uri: fio:yearDeprecated
 alias: fio_yearDeprecated
 union_of:
-- '{''domain'': ''fio_Industry''}'
-- '{''domain'': ''owl_Thing''}'
+- fio_Industry
+- owl_Thing
 range: date
 
 ```

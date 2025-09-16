@@ -1,11 +1,6 @@
 
 
-# Class: No class (entity type) name specified (owl_rational)
-
-
-_No class (type) description specified_
-
-
+# Class: OwlRational
 
 
 
@@ -33,8 +28,9 @@ URI: [owl:rational](http://www.w3.org/2002/07/owl#rational)
 
 
 ## Inheritance
-* [RdfsLiteral](../classes/RdfsLiteral.md)
-    * **OwlRational**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsLiteral](../classes/RdfsLiteral.md)
+        * **OwlRational**
 
 
 
@@ -66,10 +62,9 @@ URI: [owl:rational](http://www.w3.org/2002/07/owl#rational)
 
 ```yaml
 name: owl_rational
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2002/07/owl#rational
 rank: 1000
 is_a: rdfs_Literal
 class_uri: owl:rational
@@ -83,10 +78,9 @@ class_uri: owl:rational
 
 ```yaml
 name: owl_rational
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2002/07/owl#rational
 rank: 1000
 is_a: rdfs_Literal
 class_uri: owl:rational

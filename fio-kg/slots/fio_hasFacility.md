@@ -3,11 +3,6 @@
 # Slot: has Facility (fio_hasFacility)
 
 
-_No slot (predicate) description specified_
-
-
-
-
 
 
 
@@ -26,7 +21,7 @@ URI: [fio:hasFacility](http://w3id.org/fio/v1/fio#hasFacility)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[FioFacility](../classes/FioFacility.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[Be7f93ca25b469f263a4abeaf0a1ee33a](../classes/Be7f93ca25b469f263a4abeaf0a1ee33a.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[B5debef6666ba27aa225105865fd22d6c](../classes/B5debef6666ba27aa225105865fd22d6c.md)&nbsp;or&nbsp;<br />[FioFacility](../classes/FioFacility.md)
 
 
 
@@ -44,23 +39,24 @@ URI: [fio:hasFacility](http://w3id.org/fio/v1/fio#hasFacility)
 
 ```yaml
 name: fio_hasFacility
-description: No slot (predicate) description specified
 title: has Facility
 comments:
 - No occurrences of this slot in the graph.
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://w3id.org/fio/v1/fio#hasFacility
 rank: 1000
 slot_uri: fio:hasFacility
 alias: fio_hasFacility
 union_of:
-- '{''domain'': ''owl_Thing''}'
-- '{''domain'': ''fio_Organization''}'
-- '{''domain'': ''prov_Agent''}'
+- fio_Organization
+- prov_Agent
+- owl_Thing
 range: Any
 any_of:
-- range: fio_Facility
 - range: owl_Thing
-- range: __Be7f93ca25b469f263a4abeaf0a1ee33a
+- range: __B5debef6666ba27aa225105865fd22d6c
+- range: fio_Facility
 
 ```
 </details>

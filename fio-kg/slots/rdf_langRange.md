@@ -1,11 +1,6 @@
 
 
-# Slot: No slot (predicate) name specified (rdf_langRange)
-
-
-_No slot (predicate) description specified_
-
-
+# Slot: rdf_langRange
 
 
 
@@ -44,11 +39,11 @@ URI: [rdf:langRange](http://www.w3.org/1999/02/22-rdf-syntax-ns#langRange)
 
 ```yaml
 name: rdf_langRange
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/1999/02/22-rdf-syntax-ns#langRange
 rank: 1000
 slot_uri: rdf:langRange
 alias: rdf_langRange

@@ -1,11 +1,6 @@
 
 
-# Class: No class (entity type) name specified (xsd_unsignedShort)
-
-
-_No class (type) description specified_
-
-
+# Class: XsdUnsignedShort
 
 
 
@@ -33,8 +28,9 @@ URI: [xsd:unsignedShort](http://www.w3.org/2001/XMLSchema#unsignedShort)
 
 
 ## Inheritance
-* [RdfsLiteral](../classes/RdfsLiteral.md)
-    * **XsdUnsignedShort**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsLiteral](../classes/RdfsLiteral.md)
+        * **XsdUnsignedShort**
 
 
 
@@ -66,10 +62,9 @@ URI: [xsd:unsignedShort](http://www.w3.org/2001/XMLSchema#unsignedShort)
 
 ```yaml
 name: xsd_unsignedShort
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#unsignedShort
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:unsignedShort
@@ -83,10 +78,9 @@ class_uri: xsd:unsignedShort
 
 ```yaml
 name: xsd_unsignedShort
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#unsignedShort
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:unsignedShort

@@ -1,11 +1,6 @@
 
 
-# Class: No class (entity type) name specified (xsd_float)
-
-
-_No class (type) description specified_
-
-
+# Class: XsdFloat
 
 
 
@@ -33,8 +28,9 @@ URI: [xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 
 ## Inheritance
-* [RdfsLiteral](../classes/RdfsLiteral.md)
-    * **XsdFloat**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsLiteral](../classes/RdfsLiteral.md)
+        * **XsdFloat**
 
 
 
@@ -66,10 +62,9 @@ URI: [xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 ```yaml
 name: xsd_float
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#float
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:float
@@ -83,10 +78,9 @@ class_uri: xsd:float
 
 ```yaml
 name: xsd_float
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#float
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:float

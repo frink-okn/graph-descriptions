@@ -1,11 +1,6 @@
 
 
-# Class: No class (entity type) name specified (xsd_language)
-
-
-_No class (type) description specified_
-
-
+# Class: XsdLanguage
 
 
 
@@ -33,8 +28,9 @@ URI: [xsd:language](http://www.w3.org/2001/XMLSchema#language)
 
 
 ## Inheritance
-* [RdfsLiteral](../classes/RdfsLiteral.md)
-    * **XsdLanguage**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsLiteral](../classes/RdfsLiteral.md)
+        * **XsdLanguage**
 
 
 
@@ -66,10 +62,9 @@ URI: [xsd:language](http://www.w3.org/2001/XMLSchema#language)
 
 ```yaml
 name: xsd_language
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#language
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:language
@@ -83,10 +78,9 @@ class_uri: xsd:language
 
 ```yaml
 name: xsd_language
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#language
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:language

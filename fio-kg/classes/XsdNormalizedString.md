@@ -1,11 +1,6 @@
 
 
-# Class: No class (entity type) name specified (xsd_normalizedString)
-
-
-_No class (type) description specified_
-
-
+# Class: XsdNormalizedString
 
 
 
@@ -33,8 +28,9 @@ URI: [xsd:normalizedString](http://www.w3.org/2001/XMLSchema#normalizedString)
 
 
 ## Inheritance
-* [RdfsLiteral](../classes/RdfsLiteral.md)
-    * **XsdNormalizedString**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsLiteral](../classes/RdfsLiteral.md)
+        * **XsdNormalizedString**
 
 
 
@@ -66,10 +62,9 @@ URI: [xsd:normalizedString](http://www.w3.org/2001/XMLSchema#normalizedString)
 
 ```yaml
 name: xsd_normalizedString
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#normalizedString
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:normalizedString
@@ -83,10 +78,9 @@ class_uri: xsd:normalizedString
 
 ```yaml
 name: xsd_normalizedString
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#normalizedString
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:normalizedString

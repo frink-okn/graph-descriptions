@@ -3,11 +3,6 @@
 # Slot: same code (fio_sameCode)
 
 
-_No slot (predicate) description specified_
-
-
-
-
 
 
 
@@ -44,17 +39,18 @@ URI: [fio:sameCode](http://w3id.org/fio/v1/fio#sameCode)
 
 ```yaml
 name: fio_sameCode
-description: No slot (predicate) description specified
 title: same code
 comments:
 - No occurrences of this slot in the graph.
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://w3id.org/fio/v1/fio#sameCode
 rank: 1000
 slot_uri: fio:sameCode
 alias: fio_sameCode
 union_of:
-- '{''domain'': ''fio_Industry''}'
-- '{''domain'': ''owl_Thing''}'
+- fio_Industry
+- owl_Thing
 range: Any
 any_of:
 - range: fio_Industry

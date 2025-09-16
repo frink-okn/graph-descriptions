@@ -1,11 +1,6 @@
 
 
-# Class: No class (entity type) name specified (xsd_long)
-
-
-_No class (type) description specified_
-
-
+# Class: XsdLong
 
 
 
@@ -33,8 +28,9 @@ URI: [xsd:long](http://www.w3.org/2001/XMLSchema#long)
 
 
 ## Inheritance
-* [RdfsLiteral](../classes/RdfsLiteral.md)
-    * **XsdLong**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsLiteral](../classes/RdfsLiteral.md)
+        * **XsdLong**
 
 
 
@@ -66,10 +62,9 @@ URI: [xsd:long](http://www.w3.org/2001/XMLSchema#long)
 
 ```yaml
 name: xsd_long
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#long
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:long
@@ -83,10 +78,9 @@ class_uri: xsd:long
 
 ```yaml
 name: xsd_long
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#long
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:long

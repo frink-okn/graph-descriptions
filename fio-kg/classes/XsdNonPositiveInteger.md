@@ -1,11 +1,6 @@
 
 
-# Class: No class (entity type) name specified (xsd_nonPositiveInteger)
-
-
-_No class (type) description specified_
-
-
+# Class: XsdNonPositiveInteger
 
 
 
@@ -33,8 +28,9 @@ URI: [xsd:nonPositiveInteger](http://www.w3.org/2001/XMLSchema#nonPositiveIntege
 
 
 ## Inheritance
-* [RdfsLiteral](../classes/RdfsLiteral.md)
-    * **XsdNonPositiveInteger**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsLiteral](../classes/RdfsLiteral.md)
+        * **XsdNonPositiveInteger**
 
 
 
@@ -66,10 +62,9 @@ URI: [xsd:nonPositiveInteger](http://www.w3.org/2001/XMLSchema#nonPositiveIntege
 
 ```yaml
 name: xsd_nonPositiveInteger
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#nonPositiveInteger
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:nonPositiveInteger
@@ -83,10 +78,9 @@ class_uri: xsd:nonPositiveInteger
 
 ```yaml
 name: xsd_nonPositiveInteger
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#nonPositiveInteger
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:nonPositiveInteger

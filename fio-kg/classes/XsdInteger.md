@@ -1,11 +1,6 @@
 
 
-# Class: No class (entity type) name specified (xsd_integer)
-
-
-_No class (type) description specified_
-
-
+# Class: XsdInteger
 
 
 
@@ -33,8 +28,9 @@ URI: [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
 
 
 ## Inheritance
-* [RdfsLiteral](../classes/RdfsLiteral.md)
-    * **XsdInteger**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsLiteral](../classes/RdfsLiteral.md)
+        * **XsdInteger**
 
 
 
@@ -66,10 +62,9 @@ URI: [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
 
 ```yaml
 name: xsd_integer
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#integer
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:integer
@@ -83,10 +78,9 @@ class_uri: xsd:integer
 
 ```yaml
 name: xsd_integer
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#integer
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:integer

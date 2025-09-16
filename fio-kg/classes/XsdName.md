@@ -1,11 +1,6 @@
 
 
-# Class: No class (entity type) name specified (xsd_Name)
-
-
-_No class (type) description specified_
-
-
+# Class: XsdName
 
 
 
@@ -33,8 +28,9 @@ URI: [xsd:Name](http://www.w3.org/2001/XMLSchema#Name)
 
 
 ## Inheritance
-* [RdfsLiteral](../classes/RdfsLiteral.md)
-    * **XsdName**
+* [RdfsResource](../classes/RdfsResource.md)
+    * [RdfsLiteral](../classes/RdfsLiteral.md)
+        * **XsdName**
 
 
 
@@ -66,10 +62,9 @@ URI: [xsd:Name](http://www.w3.org/2001/XMLSchema#Name)
 
 ```yaml
 name: xsd_Name
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#Name
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:Name
@@ -83,10 +78,9 @@ class_uri: xsd:Name
 
 ```yaml
 name: xsd_Name
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#Name
 rank: 1000
 is_a: rdfs_Literal
 class_uri: xsd:Name

@@ -1,11 +1,6 @@
 
 
-# Slot: No slot (predicate) name specified (dct_decscription)
-
-
-_No slot (predicate) description specified_
-
-
+# Slot: dct_decscription
 
 
 
@@ -44,11 +39,11 @@ URI: [dct:decscription](http://purl.org/dc/terms/decscription)
 
 ```yaml
 name: dct_decscription
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://purl.org/dc/terms/decscription
 rank: 1000
 slot_uri: dct:decscription
 alias: dct_decscription

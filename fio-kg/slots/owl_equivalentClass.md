@@ -1,14 +1,16 @@
 
 
-# Slot: No slot (predicate) name specified (owl_equivalentClass)
+# Slot: equivalentClass (owl_equivalentClass)
 
 
-_No slot (predicate) description specified_
+_The property that determines that two given classes are equivalent, and that is used to specify datatype definitions._
 
 
 
 
 
+
+This slot occurs 23 times.
 
 
 URI: [owl:equivalentClass](http://www.w3.org/2002/07/owl#equivalentClass)
@@ -32,10 +34,6 @@ URI: [owl:equivalentClass](http://www.w3.org/2002/07/owl#equivalentClass)
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -44,15 +42,15 @@ URI: [owl:equivalentClass](http://www.w3.org/2002/07/owl#equivalentClass)
 
 ```yaml
 name: owl_equivalentClass
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-comments:
+description: The property that determines that two given classes are equivalent, and
+  that is used to specify datatype definitions.
+title: equivalentClass
+notes:
 - No occurrences of this slot in the graph.
-from_schema: fio-kg
-rank: 1000
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/2002/07/owl#
 domain: rdfs_Class
 slot_uri: owl:equivalentClass
-alias: owl_equivalentClass
 range: rdfs_Class
 
 ```

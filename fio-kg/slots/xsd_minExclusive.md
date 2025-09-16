@@ -1,11 +1,6 @@
 
 
-# Slot: No slot (predicate) name specified (xsd_minExclusive)
-
-
-_No slot (predicate) description specified_
-
-
+# Slot: xsd_minExclusive
 
 
 
@@ -44,11 +39,11 @@ URI: [xsd:minExclusive](http://www.w3.org/2001/XMLSchema#minExclusive)
 
 ```yaml
 name: xsd_minExclusive
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
 comments:
 - No occurrences of this slot in the graph.
-from_schema: fio-kg
+from_schema: okns:fio-kg
+exact_mappings:
+- http://www.w3.org/2001/XMLSchema#minExclusive
 rank: 1000
 slot_uri: xsd:minExclusive
 alias: xsd_minExclusive

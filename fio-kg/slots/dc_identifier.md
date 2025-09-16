@@ -1,9 +1,9 @@
 
 
-# Slot: No slot (predicate) name specified (dc_identifier)
+# Slot: Identifier (dc_identifier)
 
 
-_No slot (predicate) description specified_
+_Recommended practice is to identify the resource by means of a string conforming to an identification system._
 
 
 
@@ -27,88 +27,30 @@ URI: [dc:identifier](http://purl.org/dc/elements/1.1/identifier)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [B323a99959d9aa21ec2cbc4652700b98e](../classes/B323a99959d9aa21ec2cbc4652700b98e.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#EnforcementActivity](../classes/HttpW3id.orgFioV1Epa-frs#EnforcementActivity.md) | No class (type) description specified |  yes  |
-| [HttpW3id.orgFioV1Epa-frs#ChemicalStorageProgram](../classes/HttpW3id.orgFioV1Epa-frs#ChemicalStorageProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE OR MONITOR THE STORAGE OF CHEMICALS (E |  no  |
-| [HttpW3id.orgFioV1Epa-frs#EcologyOperation](../classes/HttpW3id.orgFioV1Epa-frs#EcologyOperation.md) | PROGRAMS THAT CONCENTRATE ON ECOLOGICAL SYSTEMS SUCH AS FOREST AND TREE EXPER... |  no  |
-| [HttpW3id.orgFioV1Epa-frs#WaterResourcesProgram](../classes/HttpW3id.orgFioV1Epa-frs#WaterResourcesProgram.md) | ENVIRONMENTAL PROGRAMS THAT MANAGE WATER RESOURCES TO MEET THE NEEDS OF THE N... |  no  |
-| [HttpW3id.orgFioV1Epa-frs#StateSystem](../classes/HttpW3id.orgFioV1Epa-frs#StateSystem.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#UndergroundStorageTankProgram](../classes/HttpW3id.orgFioV1Epa-frs#UndergroundStorageTankProgram.md) | ENVIRONMENTAL PROGRAMS DESIGNED TO REDUCE THE CHANCE OF RELEASES FROM UNDERGR... |  no  |
-| [HttpW3id.orgFioV1Epa-frs#RegistrySystem](../classes/HttpW3id.orgFioV1Epa-frs#RegistrySystem.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#PermitSystem](../classes/HttpW3id.orgFioV1Epa-frs#PermitSystem.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#Record](../classes/HttpW3id.orgFioV1Epa-frs#Record.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#AssistanceSupportProgram](../classes/HttpW3id.orgFioV1Epa-frs#AssistanceSupportProgram.md) | ENVIRONMENTAL PROGRAMS THAT PROVIDE ASSISTANCE TO THE REGULATED COMMUNITY AND... |  no  |
-| [HttpW3id.orgFioV1Epa-frs#EnforcementTrackingRecord](../classes/HttpW3id.orgFioV1Epa-frs#EnforcementTrackingRecord.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#RegistryInterest](../classes/HttpW3id.orgFioV1Epa-frs#RegistryInterest.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#ComplianceRecord](../classes/HttpW3id.orgFioV1Epa-frs#ComplianceRecord.md) | No class (type) description specified |  yes  |
-| [HttpW3id.orgFioV1Epa-frs#SiteSystem](../classes/HttpW3id.orgFioV1Epa-frs#SiteSystem.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#EnforcementSystem](../classes/HttpW3id.orgFioV1Epa-frs#EnforcementSystem.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#RadiationProtectionProgram](../classes/HttpW3id.orgFioV1Epa-frs#RadiationProtectionProgram.md) | ENVIRONMENTAL PROGRAMS DESIGNED TO PROTECT PEOPLE AND THE ENVIRONMENT FROM HA... |  no  |
-| [Bc5ee56b9a6ee0d674e66a9ca3280af36](../classes/Bc5ee56b9a6ee0d674e66a9ca3280af36.md) | No class (type) description specified |  yes  |
-| [HttpW3id.orgFioV1Epa-frs#ChemicalReleaseProgram](../classes/HttpW3id.orgFioV1Epa-frs#ChemicalReleaseProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE OR MONITOR CHEMICALS RELEASED TO THE ENV... |  no  |
-| [B5cbf557105e91552d50c482f8998b8f7](../classes/B5cbf557105e91552d50c482f8998b8f7.md) | No class (type) description specified |  no  |
-| [Be4c25a6d46a768c4e7e51859d6c12510](../classes/Be4c25a6d46a768c4e7e51859d6c12510.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#CoastalOceanProgram](../classes/HttpW3id.orgFioV1Epa-frs#CoastalOceanProgram.md) | ENVIRONMENTAL PROGRAMS THAT IMPROVE THE QUALITY OF COASTAL AND MARINE ECOSYST... |  no  |
-| [HttpW3id.orgFioV1Epa-frs#FacilityType](../classes/HttpW3id.orgFioV1Epa-frs#FacilityType.md) | Type of Facility as defined by EPA FRS facility type controlled vocabulary |  no  |
-| [HttpW3id.orgFioV1Epa-frs#AnimalOperation](../classes/HttpW3id.orgFioV1Epa-frs#AnimalOperation.md) | ENVIRONMENTAL PROGRAMS RELATED TO ANIMAL OPERATIONS E |  no  |
-| [B38a1e90ecccbde897be5fbb09f517af6](../classes/B38a1e90ecccbde897be5fbb09f517af6.md) | No class (type) description specified |  yes  |
-| [HttpW3id.orgFioV1Epa-frs#HealthSafetyProgram](../classes/HttpW3id.orgFioV1Epa-frs#HealthSafetyProgram.md) | PROGRAMS DESIGNED TO REDUCE HAZARDS AND PREVENT INJURIES, ILLNESSES AND DEATH... |  no  |
-| [HttpW3id.orgFioV1Naics#NAICS-IndustryGroup](../classes/HttpW3id.orgFioV1Naics#NAICS-IndustryGroup.md) | No class (type) description specified |  no  |
-| [B08b3e94708f8805ddd7e9bf523dbf45e](../classes/B08b3e94708f8805ddd7e9bf523dbf45e.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#LegalEnforcementActivities](../classes/HttpW3id.orgFioV1Epa-frs#LegalEnforcementActivities.md) | LEGAL OR ENFORCEMENT ACTIVITIES IN SUPPORT OF OTHER ENVIRONMENTAL PROGRAMS |  no  |
-| [HttpW3id.orgFioV1Epa-frs#StateTrackingRecord](../classes/HttpW3id.orgFioV1Epa-frs#StateTrackingRecord.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#ProjectSystem](../classes/HttpW3id.orgFioV1Epa-frs#ProjectSystem.md) | No class (type) description specified |  no  |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | No class (type) description specified |  no  |
-| [B5a22e5b8842ede5af452144337513048](../classes/B5a22e5b8842ede5af452144337513048.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#RiskPlanRecord](../classes/HttpW3id.orgFioV1Epa-frs#RiskPlanRecord.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#TribalTrackingRecord](../classes/HttpW3id.orgFioV1Epa-frs#TribalTrackingRecord.md) | No class (type) description specified |  yes  |
-| [HttpW3id.orgFioV1Naics#NAICS-IndustrySector](../classes/HttpW3id.orgFioV1Naics#NAICS-IndustrySector.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#TribalSystem](../classes/HttpW3id.orgFioV1Epa-frs#TribalSystem.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#ComplianceSystem](../classes/HttpW3id.orgFioV1Epa-frs#ComplianceSystem.md) | No class (type) description specified |  no  |
-| [B2f5e0a6411e701c2d293e6e8665132d5](../classes/B2f5e0a6411e701c2d293e6e8665132d5.md) | No class (type) description specified |  yes  |
-| [Bb80bdb469b0fb8e4ff984c2dd5a85a51](../classes/Bb80bdb469b0fb8e4ff984c2dd5a85a51.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#GroundWaterProgram](../classes/HttpW3id.orgFioV1Epa-frs#GroundWaterProgram.md) | ENVIRONMENTAL PROGRAMS DESIGNED TO PROTECT GROUND WATER (E |  no  |
-| [HttpW3id.orgFioV1Epa-frs#FacilitySiteIdentification](../classes/HttpW3id.orgFioV1Epa-frs#FacilitySiteIdentification.md) | INCLUDES SYSTEMS THAT MAINTAIN BASIC IDENTIFICATION INFORMATION ABOUT FACILIT... |  no  |
-| [OwlThing](../classes/OwlThing.md) | No class (type) description specified |  yes  |
-| [HttpW3id.orgFioV1Naics#NAICS-IndustryCode](../classes/HttpW3id.orgFioV1Naics#NAICS-IndustryCode.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#SupplementalRecord](../classes/HttpW3id.orgFioV1Epa-frs#SupplementalRecord.md) | No class (type) description specified |  yes  |
-| [HttpW3id.orgFioV1Epa-frs#ReportingSystem](../classes/HttpW3id.orgFioV1Epa-frs#ReportingSystem.md) | No class (type) description specified |  no  |
-| [Be46f6e733f357c9a3de32c1b329e779a](../classes/Be46f6e733f357c9a3de32c1b329e779a.md) | No class (type) description specified |  yes  |
-| [HttpW3id.orgFioV1Epa-frs#RemediationRedevelopmentProgram](../classes/HttpW3id.orgFioV1Epa-frs#RemediationRedevelopmentProgram.md) | ENVIRONMENTAL PROGRAMS AIMED AT CLEANING UP AND/OR REDEVELOPING UNCONTROLLED ... |  no  |
-| [HttpW3id.orgFioV1Epa-frs#LegacySystem](../classes/HttpW3id.orgFioV1Epa-frs#LegacySystem.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Naics#NAICS-Industry](../classes/HttpW3id.orgFioV1Naics#NAICS-Industry.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#GrantSystem](../classes/HttpW3id.orgFioV1Epa-frs#GrantSystem.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#SolidWasteProgram](../classes/HttpW3id.orgFioV1Epa-frs#SolidWasteProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE SOLID WASTES (E |  no  |
-| [HttpW3id.orgFioV1Epa-frs#PesticidesProgram](../classes/HttpW3id.orgFioV1Epa-frs#PesticidesProgram.md) | ENVIRONMENTAL PROGRAMS THAT MONITOR BUSINESSES, GOVERNMENT AGENCIES, AND INDI... |  no  |
-| [HttpW3id.orgFioV1Epa-frs#EPA-PFAS-Facility](../classes/HttpW3id.orgFioV1Epa-frs#EPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  yes  |
-| [HttpW3id.orgFioV1Epa-frs#HazardousWasteProgram](../classes/HttpW3id.orgFioV1Epa-frs#HazardousWasteProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE HAZARDOUS WASTE, INCLUDING THE GENERATIO... |  no  |
-| [Be7f93ca25b469f263a4abeaf0a1ee33a](../classes/Be7f93ca25b469f263a4abeaf0a1ee33a.md) | No class (type) description specified |  yes  |
-| [HttpW3id.orgFioV1Epa-frs#ReportingInterest](../classes/HttpW3id.orgFioV1Epa-frs#ReportingInterest.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#StationSystem](../classes/HttpW3id.orgFioV1Epa-frs#StationSystem.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#FRS-Facility](../classes/HttpW3id.orgFioV1Epa-frs#FRS-Facility.md) | No class (type) description specified |  no  |
-| [Bfccfd1b350324c6f9fc54cde2a7c3379](../classes/Bfccfd1b350324c6f9fc54cde2a7c3379.md) | No class (type) description specified |  yes  |
-| [HttpW3id.orgFioV1Epa-frs#ElectronicPermitSystem](../classes/HttpW3id.orgFioV1Epa-frs#ElectronicPermitSystem.md) | ELECTRONIC PERMIT SYSTEM |  no  |
-| [HttpW3id.orgFioV1Epa-frs#RegistrationRecord](../classes/HttpW3id.orgFioV1Epa-frs#RegistrationRecord.md) | No class (type) description specified |  yes  |
-| [HttpW3id.orgFioV1Epa-frs#SiteRecord](../classes/HttpW3id.orgFioV1Epa-frs#SiteRecord.md) | No class (type) description specified |  no  |
-| [FioIndustry](../classes/FioIndustry.md) | A distinct group of productive or profit-making enterprises |  yes  |
-| [HttpW3id.orgFioV1Epa-frs#PermitRecord](../classes/HttpW3id.orgFioV1Epa-frs#PermitRecord.md) | No class (type) description specified |  yes  |
-| [HttpW3id.orgFioV1Epa-frs#EnforcementInterest](../classes/HttpW3id.orgFioV1Epa-frs#EnforcementInterest.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#ProjectRecord](../classes/HttpW3id.orgFioV1Epa-frs#ProjectRecord.md) | No class (type) description specified |  yes  |
-| [B476e3c68daa13b250d73b29632306372](../classes/B476e3c68daa13b250d73b29632306372.md) | No class (type) description specified |  no  |
-| [FioFacility](../classes/FioFacility.md) | No class (type) description specified |  yes  |
-| [B519e31a256acdee86701a7c362224016](../classes/B519e31a256acdee86701a7c362224016.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#ReportingRecord](../classes/HttpW3id.orgFioV1Epa-frs#ReportingRecord.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#DrinkingWaterProgram](../classes/HttpW3id.orgFioV1Epa-frs#DrinkingWaterProgram.md) | ENVIRONMENTAL PROGRAMS THAT PROTECT THE QUALITY OF DRINKING WATER IN THE UNIT... |  no  |
-| [HttpW3id.orgFioV1Epa-frs#SiteInterest](../classes/HttpW3id.orgFioV1Epa-frs#SiteInterest.md) | No class (type) description specified |  no  |
-| [B1c3acc9c4ef48dce3e99075a96c7c557](../classes/B1c3acc9c4ef48dce3e99075a96c7c557.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#Chemicalstorageprograms](../classes/HttpW3id.orgFioV1Epa-frs#Chemicalstorageprograms.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#ComplianceInterest](../classes/HttpW3id.orgFioV1Epa-frs#ComplianceInterest.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#MonitoringRecord](../classes/HttpW3id.orgFioV1Epa-frs#MonitoringRecord.md) | No class (type) description specified |  yes  |
-| [HttpW3id.orgFioV1Naics#NAICS-IndustrySubsector](../classes/HttpW3id.orgFioV1Naics#NAICS-IndustrySubsector.md) | No class (type) description specified |  no  |
-| [HttpW3id.orgFioV1Epa-frs#PermitInterest](../classes/HttpW3id.orgFioV1Epa-frs#PermitInterest.md) | Environmental Interests that create records that are permits or licenses |  no  |
-| [HttpW3id.orgFioV1Epa-frs#WasteWaterProgram](../classes/HttpW3id.orgFioV1Epa-frs#WasteWaterProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE DISCHARGES OF POLLUTANTS TO WATERS OF TH... |  no  |
-| [HttpW3id.orgFioV1Epa-frs#AirProgram](../classes/HttpW3id.orgFioV1Epa-frs#AirProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE OR MONITOR AIR EMISSIONS FROM AREA, STAT... |  no  |
-| [B1568a680b2c949a6bcb95f2b2d85d9d3](../classes/B1568a680b2c949a6bcb95f2b2d85d9d3.md) | No class (type) description specified |  no  |
+| [B707e8df015ee2912f85cf2fec8dc4718](../classes/B707e8df015ee2912f85cf2fec8dc4718.md) |  |  no  |
+| [Be0e551f6155d8e99ee967119022af97d](../classes/Be0e551f6155d8e99ee967119022af97d.md) |  |  no  |
+| [B1d70f10e8204578c89c5f678467193ea](../classes/B1d70f10e8204578c89c5f678467193ea.md) |  |  no  |
+| [Bdbdbfbd4ef20ffc37226553d96831226](../classes/Bdbdbfbd4ef20ffc37226553d96831226.md) |  |  no  |
+| [Bea9d030ae5649d7f06d536c2a467e56f](../classes/Bea9d030ae5649d7f06d536c2a467e56f.md) |  |  no  |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
+| [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) |  |  no  |
+| [NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md) |  |  no  |
+| [Be082c2fc952b5eb7e355834fa6af4865](../classes/Be082c2fc952b5eb7e355834fa6af4865.md) |  |  no  |
+| [B5debef6666ba27aa225105865fd22d6c](../classes/B5debef6666ba27aa225105865fd22d6c.md) |  |  no  |
+| [B912c2f2722265f457d11b52388b1def0](../classes/B912c2f2722265f457d11b52388b1def0.md) |  |  no  |
+| [NaicsNAICS-IndustryGroup](../classes/NaicsNAICS-IndustryGroup.md) |  |  no  |
+| [NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md) |  |  no  |
+| [Ba0ffbf1a7a548fac1e61d3eceada03dd](../classes/Ba0ffbf1a7a548fac1e61d3eceada03dd.md) |  |  no  |
+| [B3a5aa76705834f507db6d3c7d90d63b8](../classes/B3a5aa76705834f507db6d3c7d90d63b8.md) |  |  no  |
+| [B51b8d66516b28a1c54f8d745ede947b9](../classes/B51b8d66516b28a1c54f8d745ede947b9.md) |  |  no  |
+| [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
+| [NaicsNAICS-IndustryCode](../classes/NaicsNAICS-IndustryCode.md) |  |  no  |
+| [B671ac9cd6796151f919e5affbe3cc5f9](../classes/B671ac9cd6796151f919e5affbe3cc5f9.md) |  |  no  |
+| [Bf0c649c8d760a3559d3d5e5b1f68a59f](../classes/Bf0c649c8d760a3559d3d5e5b1f68a59f.md) |  |  no  |
+| [B43f2153f8fa51cc860da104aa4b996c7](../classes/B43f2153f8fa51cc860da104aa4b996c7.md) |  |  no  |
+| [B9968aab18e1237453b5cbb15df1c74b9](../classes/B9968aab18e1237453b5cbb15df1c74b9.md) |  |  no  |
+| [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | Supplemental Record that relates to a facility but primarily identifies somet... |  no  |
+| [Bf906a89c08306329b89456f1d101a6bf](../classes/Bf906a89c08306329b89456f1d101a6bf.md) |  |  no  |
 
 
 
@@ -118,36 +60,15 @@ URI: [dc:identifier](http://purl.org/dc/elements/1.1/identifier)
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [Any](../classes/Any.md)
 
 
 
 
 
+## Comments
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| __Be7f93ca25b469f263a4abeaf0a1ee33a | string | http://w3id.org/fio/v1/epa-frs-data#d.FRS-Facility.110000307891 | 110000307891 | 507450 |
-| http___w3id.org_fio_v1_epa-frs#EPA-PFAS-Facility | string | http://w3id.org/fio/v1/epa-frs-data#d.FRS-Facility.110000307935 | 110000307935 | 22089 |
-| http___w3id.org_fio_v1_epa-frs#SupplementalRecord | string | http://w3id.org/fio/v1/epa-frs-data#d.Record.ACCOUNTNUMBER.938335W | 938335W | 121435 |
-| http___w3id.org_fio_v1_epa-frs#PermitRecord | string | http://w3id.org/fio/v1/epa-frs-data#d.Record.ACES-Supplemental.0010055005 | 0010055005 | 218776 |
-| __B38a1e90ecccbde897be5fbb09f517af6 | string | http://w3id.org/fio/v1/epa-frs-data#d.Record.ACES-Supplemental.0010105004 | 0010105004 | 26083 |
-| http___w3id.org_fio_v1_epa-frs#MonitoringRecord | string | http://w3id.org/fio/v1/epa-frs-data#d.Record.ACES-Supplemental.IL0010550 | IL0010550 | 383584 |
-| __Be46f6e733f357c9a3de32c1b329e779a | string | http://w3id.org/fio/v1/epa-frs-data#d.Record.ACRES.10451 | 10451 | 814 |
-| __B2f5e0a6411e701c2d293e6e8665132d5 | string | http://w3id.org/fio/v1/epa-frs-data#d.Record.AIRS-AFS.0100100001 | 0100100001 | 323858 |
-| __Bfccfd1b350324c6f9fc54cde2a7c3379 | string | http://w3id.org/fio/v1/epa-frs-data#d.Record.AZURITE-Supplemental.1970571 | 1970571 | 1318 |
-| http___w3id.org_fio_v1_epa-frs#EnforcementActivity | string | http://w3id.org/fio/v1/epa-frs-data#d.Record.BIAINDIANSCHOOL.D04B06 | D04B06 | 83027 |
-| http___w3id.org_fio_v1_epa-frs#ComplianceRecord | string | http://w3id.org/fio/v1/epa-frs-data#d.Record.CEDRI.CEDRI10000621 | CEDRI10000621 | 23765 |
-| http___w3id.org_fio_v1_epa-frs#RegistrationRecord | string | http://w3id.org/fio/v1/epa-frs-data#d.Record.EIS.1000011 | 1000011 | 31179 |
-| owl_Thing | string | http://w3id.org/fio/v1/epa-frs-data#d.Record.ICIS.1400016318 | 1400016318 | 121 |
-| fio_Facility | string | http://w3id.org/fio/v1/epa-frs-data#d.Record.ICIS.600005894 | 600005894 | 3 |
-| http___w3id.org_fio_v1_epa-frs#ProjectRecord | string | http://w3id.org/fio/v1/epa-frs-data#d.Record.LMOP.1 | 1 | 380 |
-| http___w3id.org_fio_v1_epa-frs#TribalTrackingRecord | string | http://w3id.org/fio/v1/epa-frs-data#d.Record.NNEMS.18-0654-BONITOCANYON5 | 18-0654 (BONITO CANYON 5) | 80 |
-| __Bc5ee56b9a6ee0d674e66a9ca3280af36 | string | http://w3id.org/fio/v1/epa-frs-data#d.Record.OH-CORE-Supplemental.01-2951-834 | 01-2951-834 | 8847 |
-| fio_Industry | string | http://w3id.org/fio/v1/naics#NAICS-11 | 11 | 3175 |
-
+* description: An unambiguous reference to the resource within a given context.
 
 
 
@@ -157,168 +78,46 @@ URI: [dc:identifier](http://purl.org/dc/elements/1.1/identifier)
 
 ```yaml
 name: dc_identifier
-annotations:
-  count:
-    tag: count
-    value: 1755984
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-examples:
-- object:
-    example_object: '110000307891'
-    example_object_type: string
-    example_predicate: dc:identifier
-    example_subject: http://w3id.org/fio/v1/epa-frs-data#d.FRS-Facility.110000307891
-    example_subject_type: __Be7f93ca25b469f263a4abeaf0a1ee33a
-- object:
-    example_object: '110000307935'
-    example_object_type: string
-    example_predicate: dc:identifier
-    example_subject: http://w3id.org/fio/v1/epa-frs-data#d.FRS-Facility.110000307935
-    example_subject_type: http___w3id.org_fio_v1_epa-frs#EPA-PFAS-Facility
-- object:
-    example_object: 938335W
-    example_object_type: string
-    example_predicate: dc:identifier
-    example_subject: http://w3id.org/fio/v1/epa-frs-data#d.Record.ACCOUNTNUMBER.938335W
-    example_subject_type: http___w3id.org_fio_v1_epa-frs#SupplementalRecord
-- object:
-    example_object: '0010055005'
-    example_object_type: string
-    example_predicate: dc:identifier
-    example_subject: http://w3id.org/fio/v1/epa-frs-data#d.Record.ACES-Supplemental.0010055005
-    example_subject_type: http___w3id.org_fio_v1_epa-frs#PermitRecord
-- object:
-    example_object: '0010105004'
-    example_object_type: string
-    example_predicate: dc:identifier
-    example_subject: http://w3id.org/fio/v1/epa-frs-data#d.Record.ACES-Supplemental.0010105004
-    example_subject_type: __B38a1e90ecccbde897be5fbb09f517af6
-- object:
-    example_object: IL0010550
-    example_object_type: string
-    example_predicate: dc:identifier
-    example_subject: http://w3id.org/fio/v1/epa-frs-data#d.Record.ACES-Supplemental.IL0010550
-    example_subject_type: http___w3id.org_fio_v1_epa-frs#MonitoringRecord
-- object:
-    example_object: '10451'
-    example_object_type: string
-    example_predicate: dc:identifier
-    example_subject: http://w3id.org/fio/v1/epa-frs-data#d.Record.ACRES.10451
-    example_subject_type: __Be46f6e733f357c9a3de32c1b329e779a
-- object:
-    example_object: '0100100001'
-    example_object_type: string
-    example_predicate: dc:identifier
-    example_subject: http://w3id.org/fio/v1/epa-frs-data#d.Record.AIRS-AFS.0100100001
-    example_subject_type: __B2f5e0a6411e701c2d293e6e8665132d5
-- object:
-    example_object: '1970571'
-    example_object_type: string
-    example_predicate: dc:identifier
-    example_subject: http://w3id.org/fio/v1/epa-frs-data#d.Record.AZURITE-Supplemental.1970571
-    example_subject_type: __Bfccfd1b350324c6f9fc54cde2a7c3379
-- object:
-    example_object: D04B06
-    example_object_type: string
-    example_predicate: dc:identifier
-    example_subject: http://w3id.org/fio/v1/epa-frs-data#d.Record.BIAINDIANSCHOOL.D04B06
-    example_subject_type: http___w3id.org_fio_v1_epa-frs#EnforcementActivity
-- object:
-    example_object: CEDRI10000621
-    example_object_type: string
-    example_predicate: dc:identifier
-    example_subject: http://w3id.org/fio/v1/epa-frs-data#d.Record.CEDRI.CEDRI10000621
-    example_subject_type: http___w3id.org_fio_v1_epa-frs#ComplianceRecord
-- object:
-    example_object: '1000011'
-    example_object_type: string
-    example_predicate: dc:identifier
-    example_subject: http://w3id.org/fio/v1/epa-frs-data#d.Record.EIS.1000011
-    example_subject_type: http___w3id.org_fio_v1_epa-frs#RegistrationRecord
-- object:
-    example_object: '1400016318'
-    example_object_type: string
-    example_predicate: dc:identifier
-    example_subject: http://w3id.org/fio/v1/epa-frs-data#d.Record.ICIS.1400016318
-    example_subject_type: owl_Thing
-- object:
-    example_object: '600005894'
-    example_object_type: string
-    example_predicate: dc:identifier
-    example_subject: http://w3id.org/fio/v1/epa-frs-data#d.Record.ICIS.600005894
-    example_subject_type: fio_Facility
-- object:
-    example_object: '1'
-    example_object_type: string
-    example_predicate: dc:identifier
-    example_subject: http://w3id.org/fio/v1/epa-frs-data#d.Record.LMOP.1
-    example_subject_type: http___w3id.org_fio_v1_epa-frs#ProjectRecord
-- object:
-    example_object: 18-0654 (BONITO CANYON 5)
-    example_object_type: string
-    example_predicate: dc:identifier
-    example_subject: http://w3id.org/fio/v1/epa-frs-data#d.Record.NNEMS.18-0654-BONITOCANYON5
-    example_subject_type: http___w3id.org_fio_v1_epa-frs#TribalTrackingRecord
-- object:
-    example_object: 01-2951-834
-    example_object_type: string
-    example_predicate: dc:identifier
-    example_subject: http://w3id.org/fio/v1/epa-frs-data#d.Record.OH-CORE-Supplemental.01-2951-834
-    example_subject_type: __Bc5ee56b9a6ee0d674e66a9ca3280af36
-- object:
-    example_object: '11'
-    example_object_type: string
-    example_predicate: dc:identifier
-    example_subject: http://w3id.org/fio/v1/naics#NAICS-11
-    example_subject_type: fio_Industry
-from_schema: fio-kg
-rank: 1000
+description: Recommended practice is to identify the resource by means of a string
+  conforming to an identification system.
+title: Identifier
+notes:
+- 'A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/identifier)
+  with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See
+  the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/)
+  for an explanation.'
+- No occurrences of this slot in the graph.
+comments:
+- 'description: An unambiguous reference to the resource within a given context.'
+from_schema: okns:dc
+source: http://purl.org/dc/elements/1.1/
 slot_uri: dc:identifier
-alias: dc_identifier
 domain_of:
-- owl_NamedIndividual
-- owl_Thing
-- __B08b3e94708f8805ddd7e9bf523dbf45e
-- __B1568a680b2c949a6bcb95f2b2d85d9d3
-- __B1c3acc9c4ef48dce3e99075a96c7c557
-- __B2f5e0a6411e701c2d293e6e8665132d5
-- __B323a99959d9aa21ec2cbc4652700b98e
-- __B38a1e90ecccbde897be5fbb09f517af6
-- __B476e3c68daa13b250d73b29632306372
-- __B519e31a256acdee86701a7c362224016
-- __B5a22e5b8842ede5af452144337513048
-- __B5cbf557105e91552d50c482f8998b8f7
-- __Bb80bdb469b0fb8e4ff984c2dd5a85a51
-- __Bc5ee56b9a6ee0d674e66a9ca3280af36
-- __Be46f6e733f357c9a3de32c1b329e779a
-- __Be4c25a6d46a768c4e7e51859d6c12510
-- __Be7f93ca25b469f263a4abeaf0a1ee33a
-- __Bfccfd1b350324c6f9fc54cde2a7c3379
-- fio_Facility
-- fio_Industry
-- http___w3id.org_fio_v1_epa-frs#ComplianceRecord
-- http___w3id.org_fio_v1_epa-frs#EPA-PFAS-Facility
-- http___w3id.org_fio_v1_epa-frs#EnforcementActivity
-- http___w3id.org_fio_v1_epa-frs#EnforcementTrackingRecord
-- http___w3id.org_fio_v1_epa-frs#FRS-Facility
-- http___w3id.org_fio_v1_epa-frs#MonitoringRecord
-- http___w3id.org_fio_v1_epa-frs#PermitRecord
-- http___w3id.org_fio_v1_epa-frs#ProjectRecord
-- http___w3id.org_fio_v1_epa-frs#Record
-- http___w3id.org_fio_v1_epa-frs#RegistrationRecord
-- http___w3id.org_fio_v1_epa-frs#ReportingRecord
-- http___w3id.org_fio_v1_epa-frs#RiskPlanRecord
-- http___w3id.org_fio_v1_epa-frs#SiteRecord
-- http___w3id.org_fio_v1_epa-frs#StateTrackingRecord
-- http___w3id.org_fio_v1_epa-frs#SupplementalRecord
-- http___w3id.org_fio_v1_epa-frs#TribalTrackingRecord
-- http___w3id.org_fio_v1_naics#NAICS-Industry
-- http___w3id.org_fio_v1_naics#NAICS-IndustryCode
-- http___w3id.org_fio_v1_naics#NAICS-IndustryGroup
-- http___w3id.org_fio_v1_naics#NAICS-IndustrySector
-- http___w3id.org_fio_v1_naics#NAICS-IndustrySubsector
-range: string
+- __B1d70f10e8204578c89c5f678467193ea
+- __B3a5aa76705834f507db6d3c7d90d63b8
+- __B43f2153f8fa51cc860da104aa4b996c7
+- __B51b8d66516b28a1c54f8d745ede947b9
+- __B5debef6666ba27aa225105865fd22d6c
+- __B671ac9cd6796151f919e5affbe3cc5f9
+- __B707e8df015ee2912f85cf2fec8dc4718
+- __B912c2f2722265f457d11b52388b1def0
+- __B9968aab18e1237453b5cbb15df1c74b9
+- __Ba0ffbf1a7a548fac1e61d3eceada03dd
+- __Bdbdbfbd4ef20ffc37226553d96831226
+- __Be082c2fc952b5eb7e355834fa6af4865
+- __Be0e551f6155d8e99ee967119022af97d
+- __Bea9d030ae5649d7f06d536c2a467e56f
+- __Bf0c649c8d760a3559d3d5e5b1f68a59f
+- __Bf906a89c08306329b89456f1d101a6bf
+- fio-epa-frs_EPA-PFAS-Facility
+- fio-epa-frs_FRS-Facility
+- fio-epa-frs_Record
+- fio-epa-frs_SupplementalRecord
+- naics_NAICS-IndustryCode
+- naics_NAICS-IndustryGroup
+- naics_NAICS-IndustrySector
+- naics_NAICS-IndustrySubsector
+range: Any
 
 ```
 </details>
