@@ -62,7 +62,7 @@ URI: [xsd:long](http://www.w3.org/2001/XMLSchema#long)
 
 ```yaml
 name: xsd_long
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#long
 rank: 1000
@@ -78,7 +78,7 @@ class_uri: xsd:long
 
 ```yaml
 name: xsd_long
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#long
 rank: 1000

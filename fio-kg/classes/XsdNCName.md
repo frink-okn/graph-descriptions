@@ -62,7 +62,7 @@ URI: [xsd:NCName](http://www.w3.org/2001/XMLSchema#NCName)
 
 ```yaml
 name: xsd_NCName
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#NCName
 rank: 1000
@@ -78,7 +78,7 @@ class_uri: xsd:NCName
 
 ```yaml
 name: xsd_NCName
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#NCName
 rank: 1000

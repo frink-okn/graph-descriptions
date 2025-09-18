@@ -62,7 +62,7 @@ URI: [xsd:base64Binary](http://www.w3.org/2001/XMLSchema#base64Binary)
 
 ```yaml
 name: xsd_base64Binary
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#base64Binary
 rank: 1000
@@ -78,7 +78,7 @@ class_uri: xsd:base64Binary
 
 ```yaml
 name: xsd_base64Binary
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#base64Binary
 rank: 1000

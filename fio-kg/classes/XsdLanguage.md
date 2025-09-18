@@ -62,7 +62,7 @@ URI: [xsd:language](http://www.w3.org/2001/XMLSchema#language)
 
 ```yaml
 name: xsd_language
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#language
 rank: 1000
@@ -78,7 +78,7 @@ class_uri: xsd:language
 
 ```yaml
 name: xsd_language
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#language
 rank: 1000

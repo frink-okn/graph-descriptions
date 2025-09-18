@@ -10,7 +10,7 @@ _The class of OWL individuals._
 
 
 
-This class occurs 731253 times.
+This class occurs 731252 times.
 
 
 URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
@@ -24,12 +24,12 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
  classDiagram
     class OwlThing
     click OwlThing href "../OwlThing"
-      OwlThing <|-- ProvSoftwareAgent
-        click ProvSoftwareAgent href "../ProvSoftwareAgent"
       OwlThing <|-- OwlNamedIndividual
         click OwlNamedIndividual href "../OwlNamedIndividual"
       OwlThing <|-- OwlNothing
         click OwlNothing href "../OwlNothing"
+      OwlThing <|-- ProvSoftwareAgent
+        click ProvSoftwareAgent href "../ProvSoftwareAgent"
       OwlThing <|-- TimeDayOfWeek
         click TimeDayOfWeek href "../TimeDayOfWeek"
       OwlThing <|-- TimeTemporalEntity
@@ -40,8 +40,6 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
         click DtypeEnumeration href "../DtypeEnumeration"
       OwlThing <|-- DtypeValueReference
         click DtypeValueReference href "../DtypeValueReference"
-      OwlThing <|-- FoafOnlineAccount
-        click FoafOnlineAccount href "../FoafOnlineAccount"
       OwlThing <|-- VaemDimension
         click VaemDimension href "../VaemDimension"
       OwlThing <|-- VaemGraphMetaData
@@ -50,6 +48,8 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
         click VaemGraphRole href "../VaemGraphRole"
       OwlThing <|-- VaemParty
         click VaemParty href "../VaemParty"
+      OwlThing <|-- FoafOnlineAccount
+        click FoafOnlineAccount href "../FoafOnlineAccount"
       OwlThing <|-- VoagAssignedRole
         click VoagAssignedRole href "../VoagAssignedRole"
       OwlThing <|-- VoagCreativeCommonsJurisdiction
@@ -74,38 +74,38 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
         click QudtComment href "../QudtComment"
       OwlThing <|-- QudtConcept
         click QudtConcept href "../QudtConcept"
-      OwlThing <|-- Node359
-        click Node359 href "../Node359"
-      OwlThing <|-- Node499
-        click Node499 href "../Node499"
-      OwlThing <|-- Node501
-        click Node501 href "../Node501"
-      OwlThing <|-- Node502
-        click Node502 href "../Node502"
-      OwlThing <|-- Node506
-        click Node506 href "../Node506"
-      OwlThing <|-- Node507
-        click Node507 href "../Node507"
-      OwlThing <|-- Node508
-        click Node508 href "../Node508"
-      OwlThing <|-- Node510
-        click Node510 href "../Node510"
-      OwlThing <|-- Node512
-        click Node512 href "../Node512"
-      OwlThing <|-- Node513
-        click Node513 href "../Node513"
-      OwlThing <|-- Node515
-        click Node515 href "../Node515"
-      OwlThing <|-- Node517
-        click Node517 href "../Node517"
-      OwlThing <|-- Node518
-        click Node518 href "../Node518"
-      OwlThing <|-- Node519
-        click Node519 href "../Node519"
-      OwlThing <|-- Node521
-        click Node521 href "../Node521"
-      OwlThing <|-- Node523
-        click Node523 href "../Node523"
+      OwlThing <|-- B1d70f10e8204578c89c5f678467193ea
+        click B1d70f10e8204578c89c5f678467193ea href "../B1d70f10e8204578c89c5f678467193ea"
+      OwlThing <|-- B3a5aa76705834f507db6d3c7d90d63b8
+        click B3a5aa76705834f507db6d3c7d90d63b8 href "../B3a5aa76705834f507db6d3c7d90d63b8"
+      OwlThing <|-- B43f2153f8fa51cc860da104aa4b996c7
+        click B43f2153f8fa51cc860da104aa4b996c7 href "../B43f2153f8fa51cc860da104aa4b996c7"
+      OwlThing <|-- B51b8d66516b28a1c54f8d745ede947b9
+        click B51b8d66516b28a1c54f8d745ede947b9 href "../B51b8d66516b28a1c54f8d745ede947b9"
+      OwlThing <|-- B5debef6666ba27aa225105865fd22d6c
+        click B5debef6666ba27aa225105865fd22d6c href "../B5debef6666ba27aa225105865fd22d6c"
+      OwlThing <|-- B671ac9cd6796151f919e5affbe3cc5f9
+        click B671ac9cd6796151f919e5affbe3cc5f9 href "../B671ac9cd6796151f919e5affbe3cc5f9"
+      OwlThing <|-- B707e8df015ee2912f85cf2fec8dc4718
+        click B707e8df015ee2912f85cf2fec8dc4718 href "../B707e8df015ee2912f85cf2fec8dc4718"
+      OwlThing <|-- B912c2f2722265f457d11b52388b1def0
+        click B912c2f2722265f457d11b52388b1def0 href "../B912c2f2722265f457d11b52388b1def0"
+      OwlThing <|-- B9968aab18e1237453b5cbb15df1c74b9
+        click B9968aab18e1237453b5cbb15df1c74b9 href "../B9968aab18e1237453b5cbb15df1c74b9"
+      OwlThing <|-- Ba0ffbf1a7a548fac1e61d3eceada03dd
+        click Ba0ffbf1a7a548fac1e61d3eceada03dd href "../Ba0ffbf1a7a548fac1e61d3eceada03dd"
+      OwlThing <|-- Bdbdbfbd4ef20ffc37226553d96831226
+        click Bdbdbfbd4ef20ffc37226553d96831226 href "../Bdbdbfbd4ef20ffc37226553d96831226"
+      OwlThing <|-- Be082c2fc952b5eb7e355834fa6af4865
+        click Be082c2fc952b5eb7e355834fa6af4865 href "../Be082c2fc952b5eb7e355834fa6af4865"
+      OwlThing <|-- Be0e551f6155d8e99ee967119022af97d
+        click Be0e551f6155d8e99ee967119022af97d href "../Be0e551f6155d8e99ee967119022af97d"
+      OwlThing <|-- Bea9d030ae5649d7f06d536c2a467e56f
+        click Bea9d030ae5649d7f06d536c2a467e56f href "../Bea9d030ae5649d7f06d536c2a467e56f"
+      OwlThing <|-- Bf0c649c8d760a3559d3d5e5b1f68a59f
+        click Bf0c649c8d760a3559d3d5e5b1f68a59f href "../Bf0c649c8d760a3559d3d5e5b1f68a59f"
+      OwlThing <|-- Bf906a89c08306329b89456f1d101a6bf
+        click Bf906a89c08306329b89456f1d101a6bf href "../Bf906a89c08306329b89456f1d101a6bf"
       OwlThing <|-- Fio-epa-frsAirProgram
         click Fio-epa-frsAirProgram href "../Fio-epa-frsAirProgram"
       OwlThing <|-- Fio-epa-frsAnimalOperation
@@ -254,19 +254,19 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
 
 ## Inheritance
 * **OwlThing**
-    * [ProvSoftwareAgent](../classes/ProvSoftwareAgent.md)
     * [OwlNamedIndividual](../classes/OwlNamedIndividual.md)
     * [OwlNothing](../classes/OwlNothing.md)
+    * [ProvSoftwareAgent](../classes/ProvSoftwareAgent.md)
     * [TimeDayOfWeek](../classes/TimeDayOfWeek.md)
     * [TimeTemporalEntity](../classes/TimeTemporalEntity.md)
     * [DtypeEnumeratedValue](../classes/DtypeEnumeratedValue.md)
     * [DtypeEnumeration](../classes/DtypeEnumeration.md)
     * [DtypeValueReference](../classes/DtypeValueReference.md)
-    * [FoafOnlineAccount](../classes/FoafOnlineAccount.md)
     * [VaemDimension](../classes/VaemDimension.md)
     * [VaemGraphMetaData](../classes/VaemGraphMetaData.md)
     * [VaemGraphRole](../classes/VaemGraphRole.md)
     * [VaemParty](../classes/VaemParty.md)
+    * [FoafOnlineAccount](../classes/FoafOnlineAccount.md)
     * [VoagAssignedRole](../classes/VoagAssignedRole.md)
     * [VoagCreativeCommonsJurisdiction](../classes/VoagCreativeCommonsJurisdiction.md)
     * [VoagCreativeCommonsWork](../classes/VoagCreativeCommonsWork.md)
@@ -279,22 +279,22 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
     * [VoagService](../classes/VoagService.md)
     * [QudtComment](../classes/QudtComment.md)
     * [QudtConcept](../classes/QudtConcept.md)
-    * [Node359](../classes/Node359.md)
-    * [Node499](../classes/Node499.md)
-    * [Node501](../classes/Node501.md)
-    * [Node502](../classes/Node502.md)
-    * [Node506](../classes/Node506.md)
-    * [Node507](../classes/Node507.md)
-    * [Node508](../classes/Node508.md)
-    * [Node510](../classes/Node510.md)
-    * [Node512](../classes/Node512.md)
-    * [Node513](../classes/Node513.md)
-    * [Node515](../classes/Node515.md)
-    * [Node517](../classes/Node517.md)
-    * [Node518](../classes/Node518.md)
-    * [Node519](../classes/Node519.md)
-    * [Node521](../classes/Node521.md)
-    * [Node523](../classes/Node523.md)
+    * [B1d70f10e8204578c89c5f678467193ea](../classes/B1d70f10e8204578c89c5f678467193ea.md)
+    * [B3a5aa76705834f507db6d3c7d90d63b8](../classes/B3a5aa76705834f507db6d3c7d90d63b8.md)
+    * [B43f2153f8fa51cc860da104aa4b996c7](../classes/B43f2153f8fa51cc860da104aa4b996c7.md)
+    * [B51b8d66516b28a1c54f8d745ede947b9](../classes/B51b8d66516b28a1c54f8d745ede947b9.md)
+    * [B5debef6666ba27aa225105865fd22d6c](../classes/B5debef6666ba27aa225105865fd22d6c.md)
+    * [B671ac9cd6796151f919e5affbe3cc5f9](../classes/B671ac9cd6796151f919e5affbe3cc5f9.md)
+    * [B707e8df015ee2912f85cf2fec8dc4718](../classes/B707e8df015ee2912f85cf2fec8dc4718.md)
+    * [B912c2f2722265f457d11b52388b1def0](../classes/B912c2f2722265f457d11b52388b1def0.md)
+    * [B9968aab18e1237453b5cbb15df1c74b9](../classes/B9968aab18e1237453b5cbb15df1c74b9.md)
+    * [Ba0ffbf1a7a548fac1e61d3eceada03dd](../classes/Ba0ffbf1a7a548fac1e61d3eceada03dd.md)
+    * [Bdbdbfbd4ef20ffc37226553d96831226](../classes/Bdbdbfbd4ef20ffc37226553d96831226.md)
+    * [Be082c2fc952b5eb7e355834fa6af4865](../classes/Be082c2fc952b5eb7e355834fa6af4865.md)
+    * [Be0e551f6155d8e99ee967119022af97d](../classes/Be0e551f6155d8e99ee967119022af97d.md)
+    * [Bea9d030ae5649d7f06d536c2a467e56f](../classes/Bea9d030ae5649d7f06d536c2a467e56f.md)
+    * [Bf0c649c8d760a3559d3d5e5b1f68a59f](../classes/Bf0c649c8d760a3559d3d5e5b1f68a59f.md)
+    * [Bf906a89c08306329b89456f1d101a6bf](../classes/Bf906a89c08306329b89456f1d101a6bf.md)
     * [Fio-epa-frsAirProgram](../classes/Fio-epa-frsAirProgram.md)
     * [Fio-epa-frsAnimalOperation](../classes/Fio-epa-frsAnimalOperation.md)
     * [Fio-epa-frsAssistanceSupportProgram](../classes/Fio-epa-frsAssistanceSupportProgram.md)
@@ -380,130 +380,130 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [Node359](../classes/Node359.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node359](../classes/Node359.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node359](../classes/Node359.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node359](../classes/Node359.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node359](../classes/Node359.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [Node359](../classes/Node359.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Node359](../classes/Node359.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node499](../classes/Node499.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node499](../classes/Node499.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node499](../classes/Node499.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node499](../classes/Node499.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node499](../classes/Node499.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node499](../classes/Node499.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node499](../classes/Node499.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node499](../classes/Node499.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node499](../classes/Node499.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [Node499](../classes/Node499.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Node501](../classes/Node501.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node501](../classes/Node501.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node501](../classes/Node501.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node501](../classes/Node501.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node501](../classes/Node501.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node501](../classes/Node501.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node501](../classes/Node501.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node501](../classes/Node501.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node501](../classes/Node501.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [Node501](../classes/Node501.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Node502](../classes/Node502.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node502](../classes/Node502.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node502](../classes/Node502.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node502](../classes/Node502.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node502](../classes/Node502.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node502](../classes/Node502.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node502](../classes/Node502.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [Node502](../classes/Node502.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Node502](../classes/Node502.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node506](../classes/Node506.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node506](../classes/Node506.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node506](../classes/Node506.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node506](../classes/Node506.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [Node506](../classes/Node506.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Node506](../classes/Node506.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node507](../classes/Node507.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node507](../classes/Node507.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node507](../classes/Node507.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [Node507](../classes/Node507.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Node508](../classes/Node508.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node508](../classes/Node508.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node508](../classes/Node508.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [Node508](../classes/Node508.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Node510](../classes/Node510.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node510](../classes/Node510.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node510](../classes/Node510.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node510](../classes/Node510.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node510](../classes/Node510.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node510](../classes/Node510.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node510](../classes/Node510.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node510](../classes/Node510.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [Node510](../classes/Node510.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Node510](../classes/Node510.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node512](../classes/Node512.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node512](../classes/Node512.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node512](../classes/Node512.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node512](../classes/Node512.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node512](../classes/Node512.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node512](../classes/Node512.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [Node512](../classes/Node512.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Node513](../classes/Node513.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node513](../classes/Node513.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node513](../classes/Node513.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node513](../classes/Node513.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node513](../classes/Node513.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node513](../classes/Node513.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node513](../classes/Node513.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node513](../classes/Node513.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [Node513](../classes/Node513.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Node513](../classes/Node513.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node515](../classes/Node515.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node515](../classes/Node515.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node515](../classes/Node515.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node515](../classes/Node515.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node515](../classes/Node515.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node515](../classes/Node515.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node515](../classes/Node515.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [Node515](../classes/Node515.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Node515](../classes/Node515.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node517](../classes/Node517.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node517](../classes/Node517.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node517](../classes/Node517.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node517](../classes/Node517.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node517](../classes/Node517.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node517](../classes/Node517.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node517](../classes/Node517.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node517](../classes/Node517.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node517](../classes/Node517.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [Node517](../classes/Node517.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Node518](../classes/Node518.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node518](../classes/Node518.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node518](../classes/Node518.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node518](../classes/Node518.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node518](../classes/Node518.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node518](../classes/Node518.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node518](../classes/Node518.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node518](../classes/Node518.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [Node518](../classes/Node518.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Node518](../classes/Node518.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node519](../classes/Node519.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node519](../classes/Node519.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [Node519](../classes/Node519.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Node519](../classes/Node519.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node521](../classes/Node521.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node521](../classes/Node521.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node521](../classes/Node521.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node521](../classes/Node521.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node521](../classes/Node521.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node521](../classes/Node521.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [Node521](../classes/Node521.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Node523](../classes/Node523.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node523](../classes/Node523.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node523](../classes/Node523.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node523](../classes/Node523.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Node523](../classes/Node523.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [Node523](../classes/Node523.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Node523](../classes/Node523.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B1d70f10e8204578c89c5f678467193ea](../classes/B1d70f10e8204578c89c5f678467193ea.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B1d70f10e8204578c89c5f678467193ea](../classes/B1d70f10e8204578c89c5f678467193ea.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
+| [B1d70f10e8204578c89c5f678467193ea](../classes/B1d70f10e8204578c89c5f678467193ea.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [B1d70f10e8204578c89c5f678467193ea](../classes/B1d70f10e8204578c89c5f678467193ea.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B3a5aa76705834f507db6d3c7d90d63b8](../classes/B3a5aa76705834f507db6d3c7d90d63b8.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B3a5aa76705834f507db6d3c7d90d63b8](../classes/B3a5aa76705834f507db6d3c7d90d63b8.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
+| [B3a5aa76705834f507db6d3c7d90d63b8](../classes/B3a5aa76705834f507db6d3c7d90d63b8.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [B3a5aa76705834f507db6d3c7d90d63b8](../classes/B3a5aa76705834f507db6d3c7d90d63b8.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B43f2153f8fa51cc860da104aa4b996c7](../classes/B43f2153f8fa51cc860da104aa4b996c7.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B43f2153f8fa51cc860da104aa4b996c7](../classes/B43f2153f8fa51cc860da104aa4b996c7.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B43f2153f8fa51cc860da104aa4b996c7](../classes/B43f2153f8fa51cc860da104aa4b996c7.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B43f2153f8fa51cc860da104aa4b996c7](../classes/B43f2153f8fa51cc860da104aa4b996c7.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B43f2153f8fa51cc860da104aa4b996c7](../classes/B43f2153f8fa51cc860da104aa4b996c7.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B43f2153f8fa51cc860da104aa4b996c7](../classes/B43f2153f8fa51cc860da104aa4b996c7.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
+| [B43f2153f8fa51cc860da104aa4b996c7](../classes/B43f2153f8fa51cc860da104aa4b996c7.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [B43f2153f8fa51cc860da104aa4b996c7](../classes/B43f2153f8fa51cc860da104aa4b996c7.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B43f2153f8fa51cc860da104aa4b996c7](../classes/B43f2153f8fa51cc860da104aa4b996c7.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B43f2153f8fa51cc860da104aa4b996c7](../classes/B43f2153f8fa51cc860da104aa4b996c7.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B51b8d66516b28a1c54f8d745ede947b9](../classes/B51b8d66516b28a1c54f8d745ede947b9.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B51b8d66516b28a1c54f8d745ede947b9](../classes/B51b8d66516b28a1c54f8d745ede947b9.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B51b8d66516b28a1c54f8d745ede947b9](../classes/B51b8d66516b28a1c54f8d745ede947b9.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B51b8d66516b28a1c54f8d745ede947b9](../classes/B51b8d66516b28a1c54f8d745ede947b9.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B51b8d66516b28a1c54f8d745ede947b9](../classes/B51b8d66516b28a1c54f8d745ede947b9.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B51b8d66516b28a1c54f8d745ede947b9](../classes/B51b8d66516b28a1c54f8d745ede947b9.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
+| [B51b8d66516b28a1c54f8d745ede947b9](../classes/B51b8d66516b28a1c54f8d745ede947b9.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [B51b8d66516b28a1c54f8d745ede947b9](../classes/B51b8d66516b28a1c54f8d745ede947b9.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B51b8d66516b28a1c54f8d745ede947b9](../classes/B51b8d66516b28a1c54f8d745ede947b9.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B51b8d66516b28a1c54f8d745ede947b9](../classes/B51b8d66516b28a1c54f8d745ede947b9.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B5debef6666ba27aa225105865fd22d6c](../classes/B5debef6666ba27aa225105865fd22d6c.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B5debef6666ba27aa225105865fd22d6c](../classes/B5debef6666ba27aa225105865fd22d6c.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B5debef6666ba27aa225105865fd22d6c](../classes/B5debef6666ba27aa225105865fd22d6c.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
+| [B5debef6666ba27aa225105865fd22d6c](../classes/B5debef6666ba27aa225105865fd22d6c.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [B5debef6666ba27aa225105865fd22d6c](../classes/B5debef6666ba27aa225105865fd22d6c.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B5debef6666ba27aa225105865fd22d6c](../classes/B5debef6666ba27aa225105865fd22d6c.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B5debef6666ba27aa225105865fd22d6c](../classes/B5debef6666ba27aa225105865fd22d6c.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B671ac9cd6796151f919e5affbe3cc5f9](../classes/B671ac9cd6796151f919e5affbe3cc5f9.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B671ac9cd6796151f919e5affbe3cc5f9](../classes/B671ac9cd6796151f919e5affbe3cc5f9.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B671ac9cd6796151f919e5affbe3cc5f9](../classes/B671ac9cd6796151f919e5affbe3cc5f9.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B671ac9cd6796151f919e5affbe3cc5f9](../classes/B671ac9cd6796151f919e5affbe3cc5f9.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B671ac9cd6796151f919e5affbe3cc5f9](../classes/B671ac9cd6796151f919e5affbe3cc5f9.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B671ac9cd6796151f919e5affbe3cc5f9](../classes/B671ac9cd6796151f919e5affbe3cc5f9.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
+| [B671ac9cd6796151f919e5affbe3cc5f9](../classes/B671ac9cd6796151f919e5affbe3cc5f9.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [B671ac9cd6796151f919e5affbe3cc5f9](../classes/B671ac9cd6796151f919e5affbe3cc5f9.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B671ac9cd6796151f919e5affbe3cc5f9](../classes/B671ac9cd6796151f919e5affbe3cc5f9.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B671ac9cd6796151f919e5affbe3cc5f9](../classes/B671ac9cd6796151f919e5affbe3cc5f9.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B707e8df015ee2912f85cf2fec8dc4718](../classes/B707e8df015ee2912f85cf2fec8dc4718.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B707e8df015ee2912f85cf2fec8dc4718](../classes/B707e8df015ee2912f85cf2fec8dc4718.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B707e8df015ee2912f85cf2fec8dc4718](../classes/B707e8df015ee2912f85cf2fec8dc4718.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
+| [B707e8df015ee2912f85cf2fec8dc4718](../classes/B707e8df015ee2912f85cf2fec8dc4718.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [B707e8df015ee2912f85cf2fec8dc4718](../classes/B707e8df015ee2912f85cf2fec8dc4718.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B707e8df015ee2912f85cf2fec8dc4718](../classes/B707e8df015ee2912f85cf2fec8dc4718.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B912c2f2722265f457d11b52388b1def0](../classes/B912c2f2722265f457d11b52388b1def0.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B912c2f2722265f457d11b52388b1def0](../classes/B912c2f2722265f457d11b52388b1def0.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B912c2f2722265f457d11b52388b1def0](../classes/B912c2f2722265f457d11b52388b1def0.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B912c2f2722265f457d11b52388b1def0](../classes/B912c2f2722265f457d11b52388b1def0.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B912c2f2722265f457d11b52388b1def0](../classes/B912c2f2722265f457d11b52388b1def0.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B912c2f2722265f457d11b52388b1def0](../classes/B912c2f2722265f457d11b52388b1def0.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
+| [B912c2f2722265f457d11b52388b1def0](../classes/B912c2f2722265f457d11b52388b1def0.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [B912c2f2722265f457d11b52388b1def0](../classes/B912c2f2722265f457d11b52388b1def0.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B912c2f2722265f457d11b52388b1def0](../classes/B912c2f2722265f457d11b52388b1def0.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B912c2f2722265f457d11b52388b1def0](../classes/B912c2f2722265f457d11b52388b1def0.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B9968aab18e1237453b5cbb15df1c74b9](../classes/B9968aab18e1237453b5cbb15df1c74b9.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B9968aab18e1237453b5cbb15df1c74b9](../classes/B9968aab18e1237453b5cbb15df1c74b9.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B9968aab18e1237453b5cbb15df1c74b9](../classes/B9968aab18e1237453b5cbb15df1c74b9.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B9968aab18e1237453b5cbb15df1c74b9](../classes/B9968aab18e1237453b5cbb15df1c74b9.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
+| [B9968aab18e1237453b5cbb15df1c74b9](../classes/B9968aab18e1237453b5cbb15df1c74b9.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [B9968aab18e1237453b5cbb15df1c74b9](../classes/B9968aab18e1237453b5cbb15df1c74b9.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B9968aab18e1237453b5cbb15df1c74b9](../classes/B9968aab18e1237453b5cbb15df1c74b9.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Ba0ffbf1a7a548fac1e61d3eceada03dd](../classes/Ba0ffbf1a7a548fac1e61d3eceada03dd.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Ba0ffbf1a7a548fac1e61d3eceada03dd](../classes/Ba0ffbf1a7a548fac1e61d3eceada03dd.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Ba0ffbf1a7a548fac1e61d3eceada03dd](../classes/Ba0ffbf1a7a548fac1e61d3eceada03dd.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
+| [Ba0ffbf1a7a548fac1e61d3eceada03dd](../classes/Ba0ffbf1a7a548fac1e61d3eceada03dd.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [Ba0ffbf1a7a548fac1e61d3eceada03dd](../classes/Ba0ffbf1a7a548fac1e61d3eceada03dd.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Ba0ffbf1a7a548fac1e61d3eceada03dd](../classes/Ba0ffbf1a7a548fac1e61d3eceada03dd.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Ba0ffbf1a7a548fac1e61d3eceada03dd](../classes/Ba0ffbf1a7a548fac1e61d3eceada03dd.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bdbdbfbd4ef20ffc37226553d96831226](../classes/Bdbdbfbd4ef20ffc37226553d96831226.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bdbdbfbd4ef20ffc37226553d96831226](../classes/Bdbdbfbd4ef20ffc37226553d96831226.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bdbdbfbd4ef20ffc37226553d96831226](../classes/Bdbdbfbd4ef20ffc37226553d96831226.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bdbdbfbd4ef20ffc37226553d96831226](../classes/Bdbdbfbd4ef20ffc37226553d96831226.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bdbdbfbd4ef20ffc37226553d96831226](../classes/Bdbdbfbd4ef20ffc37226553d96831226.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bdbdbfbd4ef20ffc37226553d96831226](../classes/Bdbdbfbd4ef20ffc37226553d96831226.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
+| [Bdbdbfbd4ef20ffc37226553d96831226](../classes/Bdbdbfbd4ef20ffc37226553d96831226.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [Bdbdbfbd4ef20ffc37226553d96831226](../classes/Bdbdbfbd4ef20ffc37226553d96831226.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bdbdbfbd4ef20ffc37226553d96831226](../classes/Bdbdbfbd4ef20ffc37226553d96831226.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bdbdbfbd4ef20ffc37226553d96831226](../classes/Bdbdbfbd4ef20ffc37226553d96831226.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Be082c2fc952b5eb7e355834fa6af4865](../classes/Be082c2fc952b5eb7e355834fa6af4865.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Be082c2fc952b5eb7e355834fa6af4865](../classes/Be082c2fc952b5eb7e355834fa6af4865.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Be082c2fc952b5eb7e355834fa6af4865](../classes/Be082c2fc952b5eb7e355834fa6af4865.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Be082c2fc952b5eb7e355834fa6af4865](../classes/Be082c2fc952b5eb7e355834fa6af4865.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
+| [Be082c2fc952b5eb7e355834fa6af4865](../classes/Be082c2fc952b5eb7e355834fa6af4865.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [Be082c2fc952b5eb7e355834fa6af4865](../classes/Be082c2fc952b5eb7e355834fa6af4865.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Be082c2fc952b5eb7e355834fa6af4865](../classes/Be082c2fc952b5eb7e355834fa6af4865.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Be0e551f6155d8e99ee967119022af97d](../classes/Be0e551f6155d8e99ee967119022af97d.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Be0e551f6155d8e99ee967119022af97d](../classes/Be0e551f6155d8e99ee967119022af97d.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Be0e551f6155d8e99ee967119022af97d](../classes/Be0e551f6155d8e99ee967119022af97d.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Be0e551f6155d8e99ee967119022af97d](../classes/Be0e551f6155d8e99ee967119022af97d.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Be0e551f6155d8e99ee967119022af97d](../classes/Be0e551f6155d8e99ee967119022af97d.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Be0e551f6155d8e99ee967119022af97d](../classes/Be0e551f6155d8e99ee967119022af97d.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
+| [Be0e551f6155d8e99ee967119022af97d](../classes/Be0e551f6155d8e99ee967119022af97d.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [Be0e551f6155d8e99ee967119022af97d](../classes/Be0e551f6155d8e99ee967119022af97d.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Be0e551f6155d8e99ee967119022af97d](../classes/Be0e551f6155d8e99ee967119022af97d.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bea9d030ae5649d7f06d536c2a467e56f](../classes/Bea9d030ae5649d7f06d536c2a467e56f.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bea9d030ae5649d7f06d536c2a467e56f](../classes/Bea9d030ae5649d7f06d536c2a467e56f.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
+| [Bea9d030ae5649d7f06d536c2a467e56f](../classes/Bea9d030ae5649d7f06d536c2a467e56f.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [Bea9d030ae5649d7f06d536c2a467e56f](../classes/Bea9d030ae5649d7f06d536c2a467e56f.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bf0c649c8d760a3559d3d5e5b1f68a59f](../classes/Bf0c649c8d760a3559d3d5e5b1f68a59f.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bf0c649c8d760a3559d3d5e5b1f68a59f](../classes/Bf0c649c8d760a3559d3d5e5b1f68a59f.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bf0c649c8d760a3559d3d5e5b1f68a59f](../classes/Bf0c649c8d760a3559d3d5e5b1f68a59f.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bf0c649c8d760a3559d3d5e5b1f68a59f](../classes/Bf0c649c8d760a3559d3d5e5b1f68a59f.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bf0c649c8d760a3559d3d5e5b1f68a59f](../classes/Bf0c649c8d760a3559d3d5e5b1f68a59f.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bf0c649c8d760a3559d3d5e5b1f68a59f](../classes/Bf0c649c8d760a3559d3d5e5b1f68a59f.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
+| [Bf0c649c8d760a3559d3d5e5b1f68a59f](../classes/Bf0c649c8d760a3559d3d5e5b1f68a59f.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [Bf0c649c8d760a3559d3d5e5b1f68a59f](../classes/Bf0c649c8d760a3559d3d5e5b1f68a59f.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bf0c649c8d760a3559d3d5e5b1f68a59f](../classes/Bf0c649c8d760a3559d3d5e5b1f68a59f.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bf0c649c8d760a3559d3d5e5b1f68a59f](../classes/Bf0c649c8d760a3559d3d5e5b1f68a59f.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bf906a89c08306329b89456f1d101a6bf](../classes/Bf906a89c08306329b89456f1d101a6bf.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bf906a89c08306329b89456f1d101a6bf](../classes/Bf906a89c08306329b89456f1d101a6bf.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bf906a89c08306329b89456f1d101a6bf](../classes/Bf906a89c08306329b89456f1d101a6bf.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bf906a89c08306329b89456f1d101a6bf](../classes/Bf906a89c08306329b89456f1d101a6bf.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bf906a89c08306329b89456f1d101a6bf](../classes/Bf906a89c08306329b89456f1d101a6bf.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bf906a89c08306329b89456f1d101a6bf](../classes/Bf906a89c08306329b89456f1d101a6bf.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
+| [Bf906a89c08306329b89456f1d101a6bf](../classes/Bf906a89c08306329b89456f1d101a6bf.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [Bf906a89c08306329b89456f1d101a6bf](../classes/Bf906a89c08306329b89456f1d101a6bf.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Bf906a89c08306329b89456f1d101a6bf](../classes/Bf906a89c08306329b89456f1d101a6bf.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsAgency](../classes/Fio-epa-frsAgency.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsAgency](../classes/Fio-epa-frsAgency.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsAgency.Agriculture](../classes/Fio-epa-frsAgency.Agriculture.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
@@ -556,12 +556,12 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
 | [Fio-epa-frsComplianceSystem](../classes/Fio-epa-frsComplianceSystem.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsDrinkingWaterProgram](../classes/Fio-epa-frsDrinkingWaterProgram.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsDrinkingWaterProgram](../classes/Fio-epa-frsDrinkingWaterProgram.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | [fio_epa_frs_ofFacilityType](../slots/fio_epa_frs_ofFacilityType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsEcologyOperation](../classes/Fio-epa-frsEcologyOperation.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsEcologyOperation](../classes/Fio-epa-frsEcologyOperation.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsElectronicPermitSystem](../classes/Fio-epa-frsElectronicPermitSystem.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
@@ -574,17 +574,17 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
 | [Fio-epa-frsEnvironmentalInterestByProgram](../classes/Fio-epa-frsEnvironmentalInterestByProgram.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsEnvironmentalInterestType](../classes/Fio-epa-frsEnvironmentalInterestType.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsEnvironmentalInterestType](../classes/Fio-epa-frsEnvironmentalInterestType.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_ofFacilityType](../slots/fio_epa_frs_ofFacilityType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_ofFacilityType](../slots/fio_epa_frs_ofFacilityType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsFacilitySiteIdentification](../classes/Fio-epa-frsFacilitySiteIdentification.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsFacilitySiteIdentification](../classes/Fio-epa-frsFacilitySiteIdentification.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsFacilityType](../classes/Fio-epa-frsFacilityType.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
@@ -614,14 +614,14 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
 | [Fio-epa-frsProjectSystem](../classes/Fio-epa-frsProjectSystem.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsRadiationProtectionProgram](../classes/Fio-epa-frsRadiationProtectionProgram.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsRadiationProtectionProgram](../classes/Fio-epa-frsRadiationProtectionProgram.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsRegistryInterest](../classes/Fio-epa-frsRegistryInterest.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsRegistryInterest](../classes/Fio-epa-frsRegistryInterest.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsRegistrySystem](../classes/Fio-epa-frsRegistrySystem.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
@@ -644,16 +644,16 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
 | [Fio-epa-frsSolidWasteProgram](../classes/Fio-epa-frsSolidWasteProgram.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsStateSystem](../classes/Fio-epa-frsStateSystem.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsStateSystem](../classes/Fio-epa-frsStateSystem.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [fio_epa_frs_hasEnvironmentalInterest](../slots/fio_epa_frs_hasEnvironmentalInterest.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [fio_epa_frs_hasRecord](../slots/fio_epa_frs_hasRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [fio_epa_frs_hasSupplementalRecord](../slots/fio_epa_frs_hasSupplementalRecord.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [fio_epa_frs_ofInterestType](../slots/fio_epa_frs_ofInterestType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsTribalSystem](../classes/Fio-epa-frsTribalSystem.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsTribalSystem](../classes/Fio-epa-frsTribalSystem.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
 | [Fio-epa-frsUndergroundStorageTankProgram](../classes/Fio-epa-frsUndergroundStorageTankProgram.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
@@ -666,17 +666,17 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
 | [FioIndustry](../classes/FioIndustry.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
 | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [NaicsNAICS-IndustryCode](../classes/NaicsNAICS-IndustryCode.md) | [fio_subcodeOf](../slots/fio_subcodeOf.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [NaicsNAICS-IndustryCode](../classes/NaicsNAICS-IndustryCode.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [NaicsNAICS-IndustryCode](../classes/NaicsNAICS-IndustryCode.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [NaicsNAICS-IndustryGroup](../classes/NaicsNAICS-IndustryGroup.md) | [fio_subcodeOf](../slots/fio_subcodeOf.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [NaicsNAICS-IndustryCode](../classes/NaicsNAICS-IndustryCode.md) | [fio_subcodeOf](../slots/fio_subcodeOf.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [NaicsNAICS-IndustryGroup](../classes/NaicsNAICS-IndustryGroup.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [NaicsNAICS-IndustryGroup](../classes/NaicsNAICS-IndustryGroup.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [NaicsNAICS-IndustryGroup](../classes/NaicsNAICS-IndustryGroup.md) | [fio_subcodeOf](../slots/fio_subcodeOf.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md) | [fio_subcodeOf](../slots/fio_subcodeOf.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md) | [fio_subcodeOf](../slots/fio_subcodeOf.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 
 
 

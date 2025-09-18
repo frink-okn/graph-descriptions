@@ -68,7 +68,7 @@ URI: [fio-epa-frs:PermitRecord](http://w3id.org/fio/v1/epa-frs#PermitRecord)
 name: fio-epa-frs_PermitRecord
 description: A record that tracks a permit or license awarded to the facility
 title: Permit or license record
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/epa-frs#PermitRecord
 rank: 1000
@@ -86,7 +86,7 @@ class_uri: fio-epa-frs:PermitRecord
 name: fio-epa-frs_PermitRecord
 description: A record that tracks a permit or license awarded to the facility
 title: Permit or license record
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/epa-frs#PermitRecord
 rank: 1000

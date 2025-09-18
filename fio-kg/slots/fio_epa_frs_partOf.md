@@ -47,7 +47,7 @@ URI: [fio-epa-frs:partOf](http://w3id.org/fio/v1/epa-frs#partOf)
 
 ```yaml
 name: fio-epa-frs_partOf
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/epa-frs#partOf
 rank: 1000

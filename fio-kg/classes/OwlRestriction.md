@@ -10,7 +10,7 @@ _The class of property restrictions._
 
 
 
-This class occurs 16 times.
+This class occurs 32 times.
 
 
 URI: [owl:Restriction](http://www.w3.org/2002/07/owl#Restriction)

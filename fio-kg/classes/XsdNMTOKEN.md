@@ -62,7 +62,7 @@ URI: [xsd:NMTOKEN](http://www.w3.org/2001/XMLSchema#NMTOKEN)
 
 ```yaml
 name: xsd_NMTOKEN
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#NMTOKEN
 rank: 1000
@@ -78,7 +78,7 @@ class_uri: xsd:NMTOKEN
 
 ```yaml
 name: xsd_NMTOKEN
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#NMTOKEN
 rank: 1000

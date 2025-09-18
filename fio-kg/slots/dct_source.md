@@ -27,10 +27,20 @@ URI: [dct:source](http://purl.org/dc/terms/source)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Fio-epa-frsLegacySystem](../classes/Fio-epa-frsLegacySystem.md) |  |  no  |
-| [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |  |  no  |
-| [Fio-epa-frsProjectSystem](../classes/Fio-epa-frsProjectSystem.md) |  |  no  |
+| [QudtContextualUnit](../classes/QudtContextualUnit.md) |  |  no  |
+| [QudtDerivedUnit](../classes/QudtDerivedUnit.md) | A DerivedUnit is a type specification for units that are derived from other u... |  no  |
 | [Fio-epa-frsSiteSystem](../classes/Fio-epa-frsSiteSystem.md) |  |  no  |
+| [Fio-epa-frsProjectSystem](../classes/Fio-epa-frsProjectSystem.md) |  |  no  |
+| [QudtCurrencyUnit](../classes/QudtCurrencyUnit.md) | Currency Units have their own subclass of unit because: (a) they have additon... |  no  |
+| [QudtDimensionlessUnit](../classes/QudtDimensionlessUnit.md) | A Dimensionless Unit is a quantity for which all the exponents of the factors... |  no  |
+| [QudtSolidAngleUnit](../classes/QudtSolidAngleUnit.md) | The solid angle subtended by a surface S is defined as the surface area of a ... |  no  |
+| [QudtUnit](../classes/QudtUnit.md) | A unit of measure, or unit, is a particular quantity value that has been chos... |  no  |
+| [QudtLogarithmicUnit](../classes/QudtLogarithmicUnit.md) | Logarithmic units are abstract mathematical units that can be used to express... |  no  |
+| [Fio-epa-frsLegacySystem](../classes/Fio-epa-frsLegacySystem.md) |  |  no  |
+| [QudtPlaneAngleUnit](../classes/QudtPlaneAngleUnit.md) |  |  no  |
+| [QudtAngleUnit](../classes/QudtAngleUnit.md) | All units relating to specification of angles |  no  |
+| [QudtCountingUnit](../classes/QudtCountingUnit.md) | Used for all units that express counts |  no  |
+| [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |  |  no  |
 
 
 
@@ -49,7 +59,6 @@ URI: [dct:source](http://purl.org/dc/terms/source)
 ## Comments
 
 * description: A related resource from which the described resource is derived.
-* No occurrences of this slot in the graph.
 
 
 
@@ -64,13 +73,15 @@ description: This property is intended to be used with non-literal values. The d
   is to identify the related resource by means of a URI or a string conforming to
   a formal identification system.
 title: Source
+notes:
+- No occurrences of this slot in the graph.
 comments:
 - 'description: A related resource from which the described resource is derived.'
-- No occurrences of this slot in the graph.
 from_schema: okns:dc
 source: http://purl.org/dc/terms/
 slot_uri: dct:source
 domain_of:
+- qudt_Unit
 - fio-epa-frs_LegacySystem
 - fio-epa-frs_ProjectSystem
 - fio-epa-frs_ReportingSystem

@@ -76,7 +76,7 @@ title: Facility Monitoring Record
 comments:
 - 'description: Monitoring Record for a facility'
 - 'title: Monitoring Record'
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/epa-frs#MonitoringRecord
 rank: 1000
@@ -97,7 +97,7 @@ title: Facility Monitoring Record
 comments:
 - 'description: Monitoring Record for a facility'
 - 'title: Monitoring Record'
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/epa-frs#MonitoringRecord
 rank: 1000

@@ -10,7 +10,7 @@ _The property that determines the individual that a has-value restriction refers
 
 
 
-This slot occurs 2 times.
+This slot occurs 4 times.
 
 
 URI: [owl:hasValue](http://www.w3.org/2002/07/owl#hasValue)
@@ -34,10 +34,6 @@ URI: [owl:hasValue](http://www.w3.org/2002/07/owl#hasValue)
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -49,7 +45,7 @@ name: owl_hasValue
 description: The property that determines the individual that a has-value restriction
   refers to.
 title: hasValue
-comments:
+notes:
 - No occurrences of this slot in the graph.
 from_schema: okns:owl-rdf-rdfs
 source: http://www.w3.org/2002/07/owl#

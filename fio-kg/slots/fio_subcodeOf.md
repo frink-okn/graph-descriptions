@@ -28,8 +28,8 @@ URI: [fio:subcodeOf](http://w3id.org/fio/v1/fio#subcodeOf)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [NaicsNAICS-IndustryGroup](../classes/NaicsNAICS-IndustryGroup.md) |  |  no  |
-| [NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md) |  |  no  |
 | [NaicsNAICS-IndustryCode](../classes/NaicsNAICS-IndustryCode.md) |  |  no  |
+| [NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md) |  |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [fio:subcodeOf](http://w3id.org/fio/v1/fio#subcodeOf)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[OwlNamedIndividual](../classes/OwlNamedIndividual.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[NaicsNAICS-IndustryGroup](../classes/NaicsNAICS-IndustryGroup.md)&nbsp;or&nbsp;<br />[FioIndustry](../classes/FioIndustry.md)&nbsp;or&nbsp;<br />[NaicsNAICS-IndustryCode](../classes/NaicsNAICS-IndustryCode.md)&nbsp;or&nbsp;<br />[NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md)&nbsp;or&nbsp;<br />[NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[NaicsNAICS-IndustryGroup](../classes/NaicsNAICS-IndustryGroup.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md)&nbsp;or&nbsp;<br />[NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md)&nbsp;or&nbsp;<br />[NaicsNAICS-IndustryCode](../classes/NaicsNAICS-IndustryCode.md)&nbsp;or&nbsp;<br />[FioIndustry](../classes/FioIndustry.md)&nbsp;or&nbsp;<br />[OwlNamedIndividual](../classes/OwlNamedIndividual.md)
 
 
 
@@ -55,7 +55,7 @@ URI: [fio:subcodeOf](http://w3id.org/fio/v1/fio#subcodeOf)
 name: fio_subcodeOf
 description: A hierarchical relation between an industry and its parent industry
 title: subcode of
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/fio#subcodeOf
 rank: 1000
@@ -66,17 +66,17 @@ domain_of:
 - naics_NAICS-IndustryGroup
 - naics_NAICS-IndustrySubsector
 union_of:
-- owl_Thing
 - fio_Industry
+- owl_Thing
 range: Any
 any_of:
-- range: owl_NamedIndividual
-- range: owl_Thing
 - range: naics_NAICS-IndustryGroup
-- range: fio_Industry
-- range: naics_NAICS-IndustryCode
-- range: naics_NAICS-IndustrySector
+- range: owl_Thing
 - range: naics_NAICS-IndustrySubsector
+- range: naics_NAICS-IndustrySector
+- range: naics_NAICS-IndustryCode
+- range: fio_Industry
+- range: owl_NamedIndividual
 
 ```
 </details>

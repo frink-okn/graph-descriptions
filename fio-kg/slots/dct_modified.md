@@ -27,8 +27,8 @@ URI: [dct:modified](http://purl.org/dc/terms/modified)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [VaemGraphMetaData](../classes/VaemGraphMetaData.md) | "vaem:GraphMetaData" defines basic metadata for the registration and publishi... |  no  |
 | [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
+| [VaemGraphMetaData](../classes/VaemGraphMetaData.md) | "vaem:GraphMetaData" defines basic metadata for the registration and publishi... |  no  |
 | [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
 
 
@@ -39,7 +39,7 @@ URI: [dct:modified](http://purl.org/dc/terms/modified)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[RdfsLiteral](../classes/RdfsLiteral.md)
 
 
 
@@ -72,8 +72,8 @@ domain_of:
 subproperty_of: dct_date
 range: Any
 any_of:
-- range: rdfs_Literal
 - range: date
+- range: rdfs_Literal
 
 ```
 </details>

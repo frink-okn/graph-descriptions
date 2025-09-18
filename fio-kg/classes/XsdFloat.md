@@ -62,7 +62,7 @@ URI: [xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 ```yaml
 name: xsd_float
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#float
 rank: 1000
@@ -78,7 +78,7 @@ class_uri: xsd:float
 
 ```yaml
 name: xsd_float
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#float
 rank: 1000

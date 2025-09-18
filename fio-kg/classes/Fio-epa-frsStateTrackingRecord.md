@@ -63,7 +63,7 @@ URI: [fio-epa-frs:StateTrackingRecord](http://w3id.org/fio/v1/epa-frs#StateTrack
 name: fio-epa-frs_StateTrackingRecord
 title: No class (entity type) name specified -- this class is noted as a superclass
   of another class in this graph but has not itself been defined.
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/epa-frs#StateTrackingRecord
 rank: 1000
@@ -81,7 +81,7 @@ class_uri: fio-epa-frs:StateTrackingRecord
 name: fio-epa-frs_StateTrackingRecord
 title: No class (entity type) name specified -- this class is noted as a superclass
   of another class in this graph but has not itself been defined.
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/epa-frs#StateTrackingRecord
 rank: 1000

@@ -27,8 +27,8 @@ URI: [dct:date](http://purl.org/dc/terms/date)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
 | [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
 
 
 
@@ -47,7 +47,6 @@ URI: [dct:date](http://purl.org/dc/terms/date)
 ## Comments
 
 * description: A point or period of time associated with an event in the lifecycle of the resource.
-* No occurrences of this slot in the graph.
 
 
 
@@ -67,10 +66,11 @@ description: Date may be used to express temporal information at any level of gr
   start and end dates are separated by a '/' (slash) character.  Either the start
   or end date may be missing.
 title: Date
+notes:
+- No occurrences of this slot in the graph.
 comments:
 - 'description: A point or period of time associated with an event in the lifecycle
   of the resource.'
-- No occurrences of this slot in the graph.
 from_schema: okns:dc
 source: http://purl.org/dc/terms/
 slot_uri: dct:date

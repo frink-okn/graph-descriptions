@@ -62,7 +62,7 @@ URI: [xsd:hexBinary](http://www.w3.org/2001/XMLSchema#hexBinary)
 
 ```yaml
 name: xsd_hexBinary
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#hexBinary
 rank: 1000
@@ -78,7 +78,7 @@ class_uri: xsd:hexBinary
 
 ```yaml
 name: xsd_hexBinary
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#hexBinary
 rank: 1000

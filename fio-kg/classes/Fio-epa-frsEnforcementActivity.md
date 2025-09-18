@@ -69,7 +69,7 @@ name: fio-epa-frs_EnforcementActivity
 description: A record that tracks a specific legal, corrective or assistance action
   taken against a facility
 title: Enforcement or Compliance record
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/epa-frs#EnforcementActivity
 rank: 1000
@@ -88,7 +88,7 @@ name: fio-epa-frs_EnforcementActivity
 description: A record that tracks a specific legal, corrective or assistance action
   taken against a facility
 title: Enforcement or Compliance record
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/epa-frs#EnforcementActivity
 rank: 1000

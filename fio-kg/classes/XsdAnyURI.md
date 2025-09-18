@@ -62,7 +62,7 @@ URI: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
 
 ```yaml
 name: xsd_anyURI
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#anyURI
 rank: 1000
@@ -78,7 +78,7 @@ class_uri: xsd:anyURI
 
 ```yaml
 name: xsd_anyURI
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#anyURI
 rank: 1000

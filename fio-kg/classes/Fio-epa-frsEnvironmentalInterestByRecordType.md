@@ -69,7 +69,7 @@ name: fio-epa-frs_EnvironmentalInterestByRecordType
 description: Interest classification based on the main subject of the record and what
   type of activity or entity it identifies.
 title: Environmental Interest By Record Type
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/epa-frs#EnvironmentalInterestByRecordType
 rank: 1000
@@ -88,7 +88,7 @@ name: fio-epa-frs_EnvironmentalInterestByRecordType
 description: Interest classification based on the main subject of the record and what
   type of activity or entity it identifies.
 title: Environmental Interest By Record Type
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/epa-frs#EnvironmentalInterestByRecordType
 rank: 1000

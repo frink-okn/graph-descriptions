@@ -10,7 +10,7 @@ _The property that determines the class that an existential property restriction
 
 
 
-This slot occurs 14 times.
+This slot occurs 28 times.
 
 
 URI: [owl:someValuesFrom](http://www.w3.org/2002/07/owl#someValuesFrom)
@@ -34,10 +34,6 @@ URI: [owl:someValuesFrom](http://www.w3.org/2002/07/owl#someValuesFrom)
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -49,7 +45,7 @@ name: owl_someValuesFrom
 description: The property that determines the class that an existential property restriction
   refers to.
 title: someValuesFrom
-comments:
+notes:
 - No occurrences of this slot in the graph.
 from_schema: okns:owl-rdf-rdfs
 source: http://www.w3.org/2002/07/owl#

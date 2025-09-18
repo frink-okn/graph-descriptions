@@ -62,7 +62,7 @@ URI: [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
 
 ```yaml
 name: xsd_integer
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#integer
 rank: 1000
@@ -78,7 +78,7 @@ class_uri: xsd:integer
 
 ```yaml
 name: xsd_integer
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#integer
 rank: 1000

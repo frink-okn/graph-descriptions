@@ -41,7 +41,7 @@ URI: [rdf:_1](http://www.w3.org/1999/02/22-rdf-syntax-ns#_1)
 name: rdf__1
 comments:
 - No occurrences of this slot in the graph.
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/1999/02/22-rdf-syntax-ns#_1
 rank: 1000

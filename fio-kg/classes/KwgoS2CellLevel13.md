@@ -50,8 +50,8 @@ URI: [kwgo:S2Cell_Level13](http://stko-kwg.geog.ucsb.edu/lod/ontology/S2Cell_Lev
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [kwgo_sfContains](../slots/kwgo_sfContains.md) | 0..1 <br/> [Any](../classes/Any.md) | KWG's spatial contains relation <br/> No occurrences of this slot in the graph. | direct | 136099 |
-| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/> No occurrences of this slot in the graph. | direct | 499018 |
+| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/>  | direct | 499018 |
+| [kwgo_sfContains](../slots/kwgo_sfContains.md) | 0..1 <br/> [Any](../classes/Any.md) | KWG's spatial contains relation <br/>  | direct | 137222 |
 
 
 
@@ -76,11 +76,11 @@ URI: [kwgo:S2Cell_Level13](http://stko-kwg.geog.ucsb.edu/lod/ontology/S2Cell_Lev
 
 ```yaml
 name: kwgo_S2Cell_Level13
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 rank: 1000
 slots:
-- kwgo_sfContains
 - owl_sameAs
+- kwgo_sfContains
 class_uri: kwgo:S2Cell_Level13
 
 ```
@@ -92,28 +92,14 @@ class_uri: kwgo:S2Cell_Level13
 
 ```yaml
 name: kwgo_S2Cell_Level13
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 rank: 1000
 attributes:
-  kwgo_sfContains:
-    name: kwgo_sfContains
-    description: KWG's spatial contains relation
-    title: contains (simple feature)
-    comments:
-    - No occurrences of this slot in the graph.
-    from_schema: okns:kwg
-    slot_uri: kwgo:sfContains
-    alias: kwgo_sfContains
-    owner: kwgo_S2Cell_Level13
-    domain_of:
-    - kwgo_S2Cell_Level13
-    subproperty_of: kwgo_spatialRelation
-    range: Any
   owl_sameAs:
     name: owl_sameAs
     description: The property that determines that two given individuals are equal.
     title: sameAs
-    comments:
+    notes:
     - No occurrences of this slot in the graph.
     from_schema: okns:owl-rdf-rdfs
     source: http://www.w3.org/2002/07/owl#
@@ -122,22 +108,22 @@ attributes:
     alias: owl_sameAs
     owner: kwgo_S2Cell_Level13
     domain_of:
-    - __node359
-    - __node499
-    - __node501
-    - __node502
-    - __node506
-    - __node507
-    - __node508
-    - __node510
-    - __node512
-    - __node513
-    - __node515
-    - __node517
-    - __node518
-    - __node519
-    - __node521
-    - __node523
+    - __B1d70f10e8204578c89c5f678467193ea
+    - __B3a5aa76705834f507db6d3c7d90d63b8
+    - __B43f2153f8fa51cc860da104aa4b996c7
+    - __B51b8d66516b28a1c54f8d745ede947b9
+    - __B5debef6666ba27aa225105865fd22d6c
+    - __B671ac9cd6796151f919e5affbe3cc5f9
+    - __B707e8df015ee2912f85cf2fec8dc4718
+    - __B912c2f2722265f457d11b52388b1def0
+    - __B9968aab18e1237453b5cbb15df1c74b9
+    - __Ba0ffbf1a7a548fac1e61d3eceada03dd
+    - __Bdbdbfbd4ef20ffc37226553d96831226
+    - __Be082c2fc952b5eb7e355834fa6af4865
+    - __Be0e551f6155d8e99ee967119022af97d
+    - __Bea9d030ae5649d7f06d536c2a467e56f
+    - __Bf0c649c8d760a3559d3d5e5b1f68a59f
+    - __Bf906a89c08306329b89456f1d101a6bf
     - fio-epa-frs_Agency
     - fio-epa-frs_Agency.Agriculture
     - fio-epa-frs_Agency.Commerce
@@ -209,6 +195,20 @@ attributes:
     - naics_NAICS-IndustrySector
     - naics_NAICS-IndustrySubsector
     range: owl_Thing
+  kwgo_sfContains:
+    name: kwgo_sfContains
+    description: KWG's spatial contains relation
+    title: contains (simple feature)
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:kwg
+    slot_uri: kwgo:sfContains
+    alias: kwgo_sfContains
+    owner: kwgo_S2Cell_Level13
+    domain_of:
+    - kwgo_S2Cell_Level13
+    subproperty_of: kwgo_spatialRelation
+    range: Any
 class_uri: kwgo:S2Cell_Level13
 
 ```

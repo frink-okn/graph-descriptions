@@ -22,9 +22,9 @@ URI: [fio-epa-frs:replacedBy](http://w3id.org/fio/v1/epa-frs#replacedBy)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Fio-epa-frsLegacySystem](../classes/Fio-epa-frsLegacySystem.md) |  |  no  |
-| [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |  |  no  |
 | [Fio-epa-frsSiteSystem](../classes/Fio-epa-frsSiteSystem.md) |  |  no  |
+| [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |  |  no  |
+| [Fio-epa-frsLegacySystem](../classes/Fio-epa-frsLegacySystem.md) |  |  no  |
 
 
 
@@ -34,7 +34,7 @@ URI: [fio-epa-frs:replacedBy](http://w3id.org/fio/v1/epa-frs#replacedBy)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[Fio-epa-frsSiteSystem](../classes/Fio-epa-frsSiteSystem.md)&nbsp;or&nbsp;<br />[Fio-epa-frsProgramInformationSystem](../classes/Fio-epa-frsProgramInformationSystem.md)&nbsp;or&nbsp;<br />[Fio-epa-frsPermitSystem](../classes/Fio-epa-frsPermitSystem.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[Fio-epa-frsProgramInformationSystem](../classes/Fio-epa-frsProgramInformationSystem.md)&nbsp;or&nbsp;<br />[Fio-epa-frsSiteSystem](../classes/Fio-epa-frsSiteSystem.md)&nbsp;or&nbsp;<br />[Fio-epa-frsPermitSystem](../classes/Fio-epa-frsPermitSystem.md)
 
 
 
@@ -48,7 +48,7 @@ URI: [fio-epa-frs:replacedBy](http://w3id.org/fio/v1/epa-frs#replacedBy)
 
 ```yaml
 name: fio-epa-frs_replacedBy
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/epa-frs#replacedBy
 rank: 1000
@@ -61,8 +61,8 @@ domain_of:
 range: Any
 any_of:
 - range: owl_Thing
-- range: fio-epa-frs_SiteSystem
 - range: fio-epa-frs_ProgramInformationSystem
+- range: fio-epa-frs_SiteSystem
 - range: fio-epa-frs_PermitSystem
 
 ```

@@ -10,7 +10,7 @@ _The distinction between titles and alternative titles is application-specific._
 
 
 
-This slot occurs 529535 times.
+This slot occurs 529538 times.
 
 
 URI: [dct:alternative](http://purl.org/dc/terms/alternative)
@@ -27,8 +27,8 @@ URI: [dct:alternative](http://purl.org/dc/terms/alternative)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
 | [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
 
 
 
@@ -47,7 +47,6 @@ URI: [dct:alternative](http://purl.org/dc/terms/alternative)
 ## Comments
 
 * description: An alternative name for the resource.
-* No occurrences of this slot in the graph.
 
 
 
@@ -59,9 +58,10 @@ URI: [dct:alternative](http://purl.org/dc/terms/alternative)
 name: dct_alternative
 description: The distinction between titles and alternative titles is application-specific.
 title: Alternative Title
+notes:
+- No occurrences of this slot in the graph.
 comments:
 - 'description: An alternative name for the resource.'
-- No occurrences of this slot in the graph.
 from_schema: okns:dc
 source: http://purl.org/dc/terms/
 slot_uri: dct:alternative

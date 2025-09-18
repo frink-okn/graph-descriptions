@@ -28,8 +28,8 @@ URI: [fio:ofYear](http://w3id.org/fio/v1/fio#ofYear)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [NaicsNAICS-IndustryGroup](../classes/NaicsNAICS-IndustryGroup.md) |  |  no  |
-| [NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md) |  |  no  |
 | [NaicsNAICS-IndustryCode](../classes/NaicsNAICS-IndustryCode.md) |  |  no  |
+| [NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md) |  |  no  |
 | [NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md) |  |  no  |
 
 
@@ -40,7 +40,7 @@ URI: [fio:ofYear](http://w3id.org/fio/v1/fio#ofYear)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date)&nbsp;or&nbsp;<br />[XsdGYear](../classes/XsdGYear.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[XsdGYear](../classes/XsdGYear.md)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date)
 
 
 
@@ -56,7 +56,7 @@ URI: [fio:ofYear](http://w3id.org/fio/v1/fio#ofYear)
 name: fio_ofYear
 description: A relation between an industry code and the schema year it belongs to.
 title: of Year
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/fio#ofYear
 rank: 1000
@@ -68,12 +68,12 @@ domain_of:
 - naics_NAICS-IndustrySector
 - naics_NAICS-IndustrySubsector
 union_of:
-- owl_Thing
 - fio_Industry
+- owl_Thing
 range: Any
 any_of:
-- range: date
 - range: xsd_gYear
+- range: date
 
 ```
 </details>

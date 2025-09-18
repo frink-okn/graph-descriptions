@@ -54,7 +54,7 @@ URI: [xsd:date](http://www.w3.org/2001/XMLSchema#date)
 
 ```yaml
 name: xsd_date
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#date
 rank: 1000
@@ -69,7 +69,7 @@ class_uri: xsd:date
 
 ```yaml
 name: xsd_date
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#date
 rank: 1000

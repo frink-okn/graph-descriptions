@@ -62,7 +62,7 @@ URI: [xsd:unsignedShort](http://www.w3.org/2001/XMLSchema#unsignedShort)
 
 ```yaml
 name: xsd_unsignedShort
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#unsignedShort
 rank: 1000
@@ -78,7 +78,7 @@ class_uri: xsd:unsignedShort
 
 ```yaml
 name: xsd_unsignedShort
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#unsignedShort
 rank: 1000

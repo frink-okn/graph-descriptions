@@ -22,8 +22,8 @@ URI: [fio-epa-frs:ofFacilityType](http://w3id.org/fio/v1/epa-frs#ofFacilityType)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
 | [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
 
 
 
@@ -48,7 +48,7 @@ URI: [fio-epa-frs:ofFacilityType](http://w3id.org/fio/v1/epa-frs#ofFacilityType)
 ```yaml
 name: fio-epa-frs_ofFacilityType
 title: of facility type
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/epa-frs#ofFacilityType
 rank: 1000
@@ -59,8 +59,8 @@ domain_of:
 - fio-epa-frs_FRS-Facility
 union_of:
 - owl_Thing
-- __node359
 - fio-epa-frs_FRS-Facility
+- __B5debef6666ba27aa225105865fd22d6c
 - fio_Facility
 range: Any
 any_of:

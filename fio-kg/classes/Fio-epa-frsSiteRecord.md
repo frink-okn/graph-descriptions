@@ -69,7 +69,7 @@ name: fio-epa-frs_SiteRecord
 description: A record that monitors a site, beyond specific ownership of one organization
   and their activities, e.g. superfund site, air monitoring site
 title: Site Record
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/epa-frs#SiteRecord
 rank: 1000
@@ -88,7 +88,7 @@ name: fio-epa-frs_SiteRecord
 description: A record that monitors a site, beyond specific ownership of one organization
   and their activities, e.g. superfund site, air monitoring site
 title: Site Record
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/epa-frs#SiteRecord
 rank: 1000

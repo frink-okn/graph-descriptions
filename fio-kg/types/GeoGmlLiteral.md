@@ -24,8 +24,8 @@ URI: [geo:gmlLiteral](http://www.opengis.net/ont/geosparql#gmlLiteral)
 
 ## Comments
 
-* source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/gml-literal
 * source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/gml-literal
+* source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/gml-literal
 
 ## See Also
 

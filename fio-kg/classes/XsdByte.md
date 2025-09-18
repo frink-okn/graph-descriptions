@@ -62,7 +62,7 @@ URI: [xsd:byte](http://www.w3.org/2001/XMLSchema#byte)
 
 ```yaml
 name: xsd_byte
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#byte
 rank: 1000
@@ -78,7 +78,7 @@ class_uri: xsd:byte
 
 ```yaml
 name: xsd_byte
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#byte
 rank: 1000

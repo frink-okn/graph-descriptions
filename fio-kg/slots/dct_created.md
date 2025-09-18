@@ -27,8 +27,8 @@ URI: [dct:created](http://purl.org/dc/terms/created)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [VaemGraphMetaData](../classes/VaemGraphMetaData.md) | "vaem:GraphMetaData" defines basic metadata for the registration and publishi... |  no  |
 | [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
+| [VaemGraphMetaData](../classes/VaemGraphMetaData.md) | "vaem:GraphMetaData" defines basic metadata for the registration and publishi... |  no  |
 | [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
 
 
@@ -48,7 +48,6 @@ URI: [dct:created](http://purl.org/dc/terms/created)
 ## Comments
 
 * description: Date of creation of the resource.
-* No occurrences of this slot in the graph.
 
 
 
@@ -61,9 +60,10 @@ name: dct_created
 description: Recommended practice is to describe the date, date/time, or period of
   time as recommended for the property Date, of which this is a subproperty.
 title: Date Created
+notes:
+- No occurrences of this slot in the graph.
 comments:
 - 'description: Date of creation of the resource.'
-- No occurrences of this slot in the graph.
 from_schema: okns:dc
 source: http://purl.org/dc/terms/
 slot_uri: dct:created

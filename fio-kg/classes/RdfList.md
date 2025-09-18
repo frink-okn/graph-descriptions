@@ -71,9 +71,9 @@ URI: [rdf:List](http://www.w3.org/1999/02/22-rdf-syntax-ns#List)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [rdfs_isDefinedBy](../slots/rdfs_isDefinedBy.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[OwlOntology](../classes/OwlOntology.md)&nbsp;or&nbsp;<br />[RdfsResource](../classes/RdfsResource.md) | The definition of the subject resource <br/>  | direct |  |
-| [rdfs_comment](../slots/rdfs_comment.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | A description of the subject resource <br/>  | direct |  |
 | [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | A human-readable name for the subject <br/>  | direct |  |
+| [rdfs_comment](../slots/rdfs_comment.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | A description of the subject resource <br/>  | direct |  |
+| [rdfs_isDefinedBy](../slots/rdfs_isDefinedBy.md) | 0..1 <br/> [OwlOntology](../classes/OwlOntology.md)&nbsp;or&nbsp;<br />[RdfsResource](../classes/RdfsResource.md) | The definition of the subject resource <br/>  | direct |  |
 
 
 
@@ -104,9 +104,9 @@ from_schema: okns:owl-rdf-rdfs
 source: http://www.w3.org/1999/02/22-rdf-syntax-ns#
 is_a: rdfs_Resource
 slots:
-- rdfs_isDefinedBy
-- rdfs_comment
 - rdfs_label
+- rdfs_comment
+- rdfs_isDefinedBy
 class_uri: rdf:List
 
 ```
@@ -124,171 +124,6 @@ from_schema: okns:owl-rdf-rdfs
 source: http://www.w3.org/1999/02/22-rdf-syntax-ns#
 is_a: rdfs_Resource
 attributes:
-  rdfs_isDefinedBy:
-    name: rdfs_isDefinedBy
-    description: The definition of the subject resource.
-    title: isDefinedBy
-    from_schema: okns:owl-rdf-rdfs
-    source: http://www.w3.org/2000/01/rdf-schema#
-    domain: rdfs_Resource
-    slot_uri: rdfs:isDefinedBy
-    alias: rdfs_isDefinedBy
-    owner: rdf_List
-    domain_of:
-    - dcam_VocabularyEncodingScheme
-    - owl_OntologyProperty
-    - rdf_List
-    - rdfs_Datatype
-    - vaem_GraphMetaData
-    - vaem_GraphRole
-    - vaem_Party
-    - vaem_CatalogEntry
-    - voag_Attribution
-    - voag_AttributionLogo
-    - voag_ChangeFrequency
-    - voag_ChangeType
-    - voag_ConfidentialityLevel
-    - voag_CreativeCommonsPermission
-    - voag_CreativeCommonsProhibition
-    - voag_CreativeCommonsRequirement
-    - voag_Governance
-    - voag_GovernanceRole
-    - voag_Icon
-    - voag_IssueStatus
-    - voag_LicenseModel
-    - voag_Logo
-    - voag_Maturity
-    - voag_OrganizationLogo
-    - voag_Pedigree
-    - voag_PriorityValue
-    - voag_ProductLogo
-    - voag_Provenance
-    - voag_PublicationStatus
-    - voag_SchemaGraph
-    - qudt_AspectClass
-    - qudt_BitEncodingType
-    - qudt_BooleanEncodingType
-    - qudt_ByteEncodingType
-    - qudt_CardinalityType
-    - qudt_CharEncodingType
-    - qudt_DateTimeStringEncodingType
-    - qudt_EndianType
-    - qudt_FloatingPointEncodingType
-    - qudt_IntegerEncodingType
-    - qudt_OrderedType
-    - qudt_SignednessType
-    - kwgo_CensusObservableProperty
-    subproperty_of: rdfs_seeAlso
-    range: Any
-    any_of:
-    - range: uri
-    - range: owl_Ontology
-    - range: rdfs_Resource
-  rdfs_comment:
-    name: rdfs_comment
-    description: A description of the subject resource.
-    title: comment
-    from_schema: okns:owl-rdf-rdfs
-    source: http://www.w3.org/2000/01/rdf-schema#
-    domain: rdfs_Resource
-    slot_uri: rdfs:comment
-    alias: rdfs_comment
-    owner: rdf_List
-    domain_of:
-    - dcam_VocabularyEncodingScheme
-    - owl_OntologyProperty
-    - rdf_List
-    - rdfs_Datatype
-    - sdos_ActionStatusType
-    - sdos_AdultOrientedEnumeration
-    - sdos_BoardingPolicyType
-    - sdos_BodyMeasurementTypeEnumeration
-    - sdos_BookFormatType
-    - sdos_Boolean
-    - sdos_CarUsageType
-    - sdos_CertificationStatusEnumeration
-    - sdos_ContactPointOption
-    - sdos_DayOfWeek
-    - sdos_DeliveryMethod
-    - sdos_DigitalDocumentPermissionType
-    - sdos_DigitalPlatformEnumeration
-    - sdos_DriveWheelConfigurationValue
-    - sdos_DrugCostCategory
-    - sdos_DrugPregnancyCategory
-    - sdos_DrugPrescriptionStatus
-    - sdos_EUEnergyEfficiencyEnumeration
-    - sdos_EnergyStarEnergyEfficiencyEnumeration
-    - sdos_EventAttendanceModeEnumeration
-    - sdos_EventStatusType
-    - sdos_FulfillmentTypeEnumeration
-    - sdos_GameAvailabilityEnumeration
-    - sdos_GamePlayMode
-    - sdos_GameServerStatus
-    - sdos_GenderType
-    - sdos_GovernmentBenefitsType
-    - sdos_HealthAspectEnumeration
-    - sdos_IPTCDigitalSourceEnumeration
-    - sdos_IncentiveQualifiedExpenseType
-    - sdos_IncentiveStatus
-    - sdos_IncentiveType
-    - sdos_InfectiousAgentClass
-    - sdos_ItemAvailability
-    - sdos_ItemListOrderType
-    - sdos_LegalForceStatus
-    - sdos_LegalValueLevel
-    - sdos_MapCategoryType
-    - sdos_MeasurementMethodEnum
-    - sdos_MediaManipulationRatingEnumeration
-    - sdos_MedicalAudienceType
-    - sdos_MedicalDevicePurpose
-    - sdos_MedicalEvidenceLevel
-    - sdos_MedicalImagingTechnique
-    - sdos_MedicalObservationalStudyDesign
-    - sdos_MedicalProcedureType
-    - sdos_MedicalSpecialty
-    - sdos_MedicalStudyStatus
-    - sdos_MedicalTrialDesign
-    - sdos_MedicineSystem
-    - sdos_MerchantReturnEnumeration
-    - sdos_MusicAlbumProductionType
-    - sdos_MusicAlbumReleaseType
-    - sdos_MusicReleaseFormatType
-    - sdos_NLNonprofitType
-    - sdos_OfferItemCondition
-    - sdos_OrderStatus
-    - sdos_PaymentMethodType
-    - sdos_PaymentStatusType
-    - sdos_PhysicalActivityCategory
-    - sdos_PhysicalExam
-    - sdos_PriceComponentTypeEnumeration
-    - sdos_PriceTypeEnumeration
-    - sdos_ProductReturnEnumeration
-    - sdos_PurchaseType
-    - sdos_RefundTypeEnumeration
-    - sdos_ReservationStatusType
-    - sdos_RestrictedDiet
-    - sdos_ReturnFeesEnumeration
-    - sdos_ReturnLabelSourceEnumeration
-    - sdos_ReturnMethodEnumeration
-    - sdos_RsvpResponseType
-    - sdos_SizeSystemEnumeration
-    - sdos_SteeringPositionValue
-    - sdos_TierBenefitEnumeration
-    - sdos_UKNonprofitType
-    - sdos_USNonprofitType
-    - sdos_WearableMeasurementTypeEnumeration
-    - sdos_WearableSizeGroupEnumeration
-    - sdos_WearableSizeSystemEnumeration
-    - rdf_DatatypeProperty
-    - qudt_AspectClass
-    - kwgo_CensusObservableProperty
-    - kwgo_LSADArea
-    - kwgo_MTBSFireObservableProperty
-    - kwgo_SoilMapUnitObservableProperty
-    range: Any
-    any_of:
-    - range: rdfs_Literal
-    - range: string
   rdfs_label:
     name: rdfs_label
     description: A human-readable name for the subject.
@@ -301,11 +136,14 @@ attributes:
     owner: rdf_List
     domain_of:
     - dcam_VocabularyEncodingScheme
-    - owl_OntologyProperty
+    - dct_AgentClass
     - rdf_List
     - rdfs_Datatype
     - time_DayOfWeek
     - time_TemporalUnit
+    - vaem_GraphMetaData
+    - vaem_GraphRole
+    - vaem_Party
     - sdos_ActionStatusType
     - sdos_AdultOrientedEnumeration
     - sdos_BoardingPolicyType
@@ -315,6 +153,7 @@ attributes:
     - sdos_CarUsageType
     - sdos_CertificationStatusEnumeration
     - sdos_ContactPointOption
+    - sdos_DataType
     - sdos_DayOfWeek
     - sdos_DeliveryMethod
     - sdos_DigitalDocumentPermissionType
@@ -387,9 +226,6 @@ attributes:
     - sdos_WearableSizeGroupEnumeration
     - sdos_WearableSizeSystemEnumeration
     - rdf_DatatypeProperty
-    - vaem_GraphMetaData
-    - vaem_GraphRole
-    - vaem_Party
     - vaem_CatalogEntry
     - voag_Attribution
     - voag_AttributionLogo
@@ -414,17 +250,26 @@ attributes:
     - voag_PublicationStatus
     - voag_SchemaGraph
     - qudt_AspectClass
+    - qudt_BinaryPrefix
     - qudt_BitEncodingType
     - qudt_BooleanEncodingType
     - qudt_ByteEncodingType
     - qudt_CardinalityType
     - qudt_CharEncodingType
+    - qudt_ContextualUnit
+    - qudt_CountingUnit
+    - qudt_CurrencyUnit
     - qudt_DateTimeStringEncodingType
+    - qudt_DecimalPrefix
+    - qudt_DerivedUnit
+    - qudt_DimensionlessUnit
     - qudt_EndianType
     - qudt_FloatingPointEncodingType
     - qudt_IntegerEncodingType
+    - qudt_LogarithmicUnit
     - qudt_OrderedType
     - qudt_SignednessType
+    - qudt_Unit
     - kwgo_AirPollutant
     - kwgo_BlueskyWildfireObservableProperty
     - kwgo_CensusObservableProperty
@@ -447,22 +292,22 @@ attributes:
     - kwgo_StormTrackObservableProperty
     - kwgo_StormTrackletObservableProperty
     - kwgo_VulnerabilityObservableProperty
-    - __node359
-    - __node499
-    - __node501
-    - __node502
-    - __node506
-    - __node507
-    - __node508
-    - __node510
-    - __node512
-    - __node513
-    - __node515
-    - __node517
-    - __node518
-    - __node519
-    - __node521
-    - __node523
+    - __B1d70f10e8204578c89c5f678467193ea
+    - __B3a5aa76705834f507db6d3c7d90d63b8
+    - __B43f2153f8fa51cc860da104aa4b996c7
+    - __B51b8d66516b28a1c54f8d745ede947b9
+    - __B5debef6666ba27aa225105865fd22d6c
+    - __B671ac9cd6796151f919e5affbe3cc5f9
+    - __B707e8df015ee2912f85cf2fec8dc4718
+    - __B912c2f2722265f457d11b52388b1def0
+    - __B9968aab18e1237453b5cbb15df1c74b9
+    - __Ba0ffbf1a7a548fac1e61d3eceada03dd
+    - __Bdbdbfbd4ef20ffc37226553d96831226
+    - __Be082c2fc952b5eb7e355834fa6af4865
+    - __Be0e551f6155d8e99ee967119022af97d
+    - __Bea9d030ae5649d7f06d536c2a467e56f
+    - __Bf0c649c8d760a3559d3d5e5b1f68a59f
+    - __Bf906a89c08306329b89456f1d101a6bf
     - fio-epa-frs_Agency
     - fio-epa-frs_Agency.Agriculture
     - fio-epa-frs_Agency.Commerce
@@ -534,6 +379,182 @@ attributes:
     any_of:
     - range: rdfs_Literal
     - range: string
+  rdfs_comment:
+    name: rdfs_comment
+    description: A description of the subject resource.
+    title: comment
+    from_schema: okns:owl-rdf-rdfs
+    source: http://www.w3.org/2000/01/rdf-schema#
+    domain: rdfs_Resource
+    slot_uri: rdfs:comment
+    alias: rdfs_comment
+    owner: rdf_List
+    domain_of:
+    - dcam_VocabularyEncodingScheme
+    - dct_AgentClass
+    - rdf_List
+    - rdfs_Datatype
+    - sdos_ActionStatusType
+    - sdos_AdultOrientedEnumeration
+    - sdos_BoardingPolicyType
+    - sdos_BodyMeasurementTypeEnumeration
+    - sdos_BookFormatType
+    - sdos_Boolean
+    - sdos_CarUsageType
+    - sdos_CertificationStatusEnumeration
+    - sdos_ContactPointOption
+    - sdos_DataType
+    - sdos_DayOfWeek
+    - sdos_DeliveryMethod
+    - sdos_DigitalDocumentPermissionType
+    - sdos_DigitalPlatformEnumeration
+    - sdos_DriveWheelConfigurationValue
+    - sdos_DrugCostCategory
+    - sdos_DrugPregnancyCategory
+    - sdos_DrugPrescriptionStatus
+    - sdos_EUEnergyEfficiencyEnumeration
+    - sdos_EnergyStarEnergyEfficiencyEnumeration
+    - sdos_EventAttendanceModeEnumeration
+    - sdos_EventStatusType
+    - sdos_FulfillmentTypeEnumeration
+    - sdos_GameAvailabilityEnumeration
+    - sdos_GamePlayMode
+    - sdos_GameServerStatus
+    - sdos_GenderType
+    - sdos_GovernmentBenefitsType
+    - sdos_HealthAspectEnumeration
+    - sdos_IPTCDigitalSourceEnumeration
+    - sdos_IncentiveQualifiedExpenseType
+    - sdos_IncentiveStatus
+    - sdos_IncentiveType
+    - sdos_InfectiousAgentClass
+    - sdos_ItemAvailability
+    - sdos_ItemListOrderType
+    - sdos_LegalForceStatus
+    - sdos_LegalValueLevel
+    - sdos_MapCategoryType
+    - sdos_MeasurementMethodEnum
+    - sdos_MediaManipulationRatingEnumeration
+    - sdos_MedicalAudienceType
+    - sdos_MedicalDevicePurpose
+    - sdos_MedicalEvidenceLevel
+    - sdos_MedicalImagingTechnique
+    - sdos_MedicalObservationalStudyDesign
+    - sdos_MedicalProcedureType
+    - sdos_MedicalSpecialty
+    - sdos_MedicalStudyStatus
+    - sdos_MedicalTrialDesign
+    - sdos_MedicineSystem
+    - sdos_MerchantReturnEnumeration
+    - sdos_MusicAlbumProductionType
+    - sdos_MusicAlbumReleaseType
+    - sdos_MusicReleaseFormatType
+    - sdos_NLNonprofitType
+    - sdos_OfferItemCondition
+    - sdos_OrderStatus
+    - sdos_PaymentMethodType
+    - sdos_PaymentStatusType
+    - sdos_PhysicalActivityCategory
+    - sdos_PhysicalExam
+    - sdos_PriceComponentTypeEnumeration
+    - sdos_PriceTypeEnumeration
+    - sdos_ProductReturnEnumeration
+    - sdos_PurchaseType
+    - sdos_RefundTypeEnumeration
+    - sdos_ReservationStatusType
+    - sdos_RestrictedDiet
+    - sdos_ReturnFeesEnumeration
+    - sdos_ReturnLabelSourceEnumeration
+    - sdos_ReturnMethodEnumeration
+    - sdos_RsvpResponseType
+    - sdos_SizeSystemEnumeration
+    - sdos_SteeringPositionValue
+    - sdos_TierBenefitEnumeration
+    - sdos_UKNonprofitType
+    - sdos_USNonprofitType
+    - sdos_WearableMeasurementTypeEnumeration
+    - sdos_WearableSizeGroupEnumeration
+    - sdos_WearableSizeSystemEnumeration
+    - rdf_DatatypeProperty
+    - qudt_AspectClass
+    - qudt_DerivedUnit
+    - qudt_Unit
+    - kwgo_CensusObservableProperty
+    - kwgo_LSADArea
+    - kwgo_MTBSFireObservableProperty
+    - kwgo_SoilMapUnitObservableProperty
+    range: Any
+    any_of:
+    - range: rdfs_Literal
+    - range: string
+  rdfs_isDefinedBy:
+    name: rdfs_isDefinedBy
+    description: The definition of the subject resource.
+    title: isDefinedBy
+    from_schema: okns:owl-rdf-rdfs
+    source: http://www.w3.org/2000/01/rdf-schema#
+    domain: rdfs_Resource
+    slot_uri: rdfs:isDefinedBy
+    alias: rdfs_isDefinedBy
+    owner: rdf_List
+    domain_of:
+    - dcam_VocabularyEncodingScheme
+    - dct_AgentClass
+    - rdf_List
+    - rdfs_Datatype
+    - vaem_GraphMetaData
+    - vaem_GraphRole
+    - vaem_Party
+    - vaem_CatalogEntry
+    - voag_Attribution
+    - voag_AttributionLogo
+    - voag_ChangeFrequency
+    - voag_ChangeType
+    - voag_ConfidentialityLevel
+    - voag_CreativeCommonsPermission
+    - voag_CreativeCommonsProhibition
+    - voag_CreativeCommonsRequirement
+    - voag_Governance
+    - voag_GovernanceRole
+    - voag_Icon
+    - voag_IssueStatus
+    - voag_LicenseModel
+    - voag_Logo
+    - voag_Maturity
+    - voag_OrganizationLogo
+    - voag_Pedigree
+    - voag_PriorityValue
+    - voag_ProductLogo
+    - voag_Provenance
+    - voag_PublicationStatus
+    - voag_SchemaGraph
+    - qudt_AspectClass
+    - qudt_BinaryPrefix
+    - qudt_BitEncodingType
+    - qudt_BooleanEncodingType
+    - qudt_ByteEncodingType
+    - qudt_CardinalityType
+    - qudt_CharEncodingType
+    - qudt_ContextualUnit
+    - qudt_CountingUnit
+    - qudt_CurrencyUnit
+    - qudt_DateTimeStringEncodingType
+    - qudt_DecimalPrefix
+    - qudt_DerivedUnit
+    - qudt_DimensionlessUnit
+    - qudt_EndianType
+    - qudt_FloatingPointEncodingType
+    - qudt_IntegerEncodingType
+    - qudt_LogarithmicUnit
+    - qudt_OrderedType
+    - qudt_SignednessType
+    - qudt_Unit
+    - kwgo_CensusObservableProperty
+    subproperty_of: rdfs_seeAlso
+    range: Any
+    any_of:
+    - range: owl_Ontology
+    - range: rdfs_Resource
 class_uri: rdf:List
 
 ```

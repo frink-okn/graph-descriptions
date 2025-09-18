@@ -37,12 +37,9 @@ URI: [geo:asWKT](http://www.opengis.net/ont/geosparql#asWKT)
 ## Comments
 
 * source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/geometry-as-wkt-literal
-* source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/geometry-as-wkt-literal
 * source: http://www.opengis.net/ont/geosparql#
-* source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/geometry-as-wkt-literal
 * source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/geometry-as-wkt-literal
 * description: The WKT serialization of a Geometry
-* No occurrences of this slot in the graph.
 
 
 
@@ -53,14 +50,13 @@ URI: [geo:asWKT](http://www.opengis.net/ont/geosparql#asWKT)
 ```yaml
 name: geo_asWKT
 description: The WKT serialization of a Geometry
+notes:
+- No occurrences of this slot in the graph.
 comments:
 - 'source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/geometry-as-wkt-literal'
-- 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/geometry-as-wkt-literal'
 - 'source: http://www.opengis.net/ont/geosparql#'
-- 'source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/geometry-as-wkt-literal'
 - 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/geometry-as-wkt-literal'
 - 'description: The WKT serialization of a Geometry'
-- No occurrences of this slot in the graph.
 from_schema: okns:geo
 source: http://www.opengis.net/ont/geosparql#
 domain: geo_Geometry

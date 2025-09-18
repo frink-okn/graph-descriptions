@@ -62,7 +62,7 @@ URI: [xsd:decimal](http://www.w3.org/2001/XMLSchema#decimal)
 
 ```yaml
 name: xsd_decimal
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#decimal
 rank: 1000
@@ -78,7 +78,7 @@ class_uri: xsd:decimal
 
 ```yaml
 name: xsd_decimal
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#decimal
 rank: 1000

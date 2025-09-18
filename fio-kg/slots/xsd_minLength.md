@@ -41,7 +41,7 @@ URI: [xsd:minLength](http://www.w3.org/2001/XMLSchema#minLength)
 name: xsd_minLength
 comments:
 - No occurrences of this slot in the graph.
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#minLength
 rank: 1000

@@ -62,7 +62,7 @@ URI: [xsd:nonPositiveInteger](http://www.w3.org/2001/XMLSchema#nonPositiveIntege
 
 ```yaml
 name: xsd_nonPositiveInteger
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#nonPositiveInteger
 rank: 1000
@@ -78,7 +78,7 @@ class_uri: xsd:nonPositiveInteger
 
 ```yaml
 name: xsd_nonPositiveInteger
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#nonPositiveInteger
 rank: 1000

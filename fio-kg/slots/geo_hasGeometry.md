@@ -27,8 +27,8 @@ URI: [geo:hasGeometry](http://www.opengis.net/ont/geosparql#hasGeometry)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
 | [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
 
 
 
@@ -46,13 +46,10 @@ URI: [geo:hasGeometry](http://www.opengis.net/ont/geosparql#hasGeometry)
 
 ## Comments
 
-* source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties
 * source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties
 * source: http://www.opengis.net/ont/geosparql#
 * source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties
-* source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties
 * description: A spatial representation for a given Feature.
-* No occurrences of this slot in the graph.
 
 
 
@@ -65,14 +62,13 @@ name: geo_hasGeometry
 description: A spatial representation for a given Feature.
 title: No slot (predicate) name specified -- this slot is noted as a subproperty of
   another slot in this graph but has not itself been defined.
+notes:
+- No occurrences of this slot in the graph.
 comments:
-- 'source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties'
 - 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties'
 - 'source: http://www.opengis.net/ont/geosparql#'
 - 'source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties'
-- 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties'
 - 'description: A spatial representation for a given Feature.'
-- No occurrences of this slot in the graph.
 from_schema: okns:geo
 source: http://www.opengis.net/ont/geosparql#
 domain: geo_Feature

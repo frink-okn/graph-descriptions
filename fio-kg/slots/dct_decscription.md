@@ -41,7 +41,7 @@ URI: [dct:decscription](http://purl.org/dc/terms/decscription)
 name: dct_decscription
 comments:
 - No occurrences of this slot in the graph.
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://purl.org/dc/terms/decscription
 rank: 1000

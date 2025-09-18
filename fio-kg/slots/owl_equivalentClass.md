@@ -34,10 +34,6 @@ URI: [owl:equivalentClass](http://www.w3.org/2002/07/owl#equivalentClass)
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -49,7 +45,7 @@ name: owl_equivalentClass
 description: The property that determines that two given classes are equivalent, and
   that is used to specify datatype definitions.
 title: equivalentClass
-comments:
+notes:
 - No occurrences of this slot in the graph.
 from_schema: okns:owl-rdf-rdfs
 source: http://www.w3.org/2002/07/owl#

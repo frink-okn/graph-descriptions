@@ -69,7 +69,7 @@ name: fio_Facility
 description: Any physical building, building complex or site (e.g. an airstrip, a
   mine, or superfund site) at which a commercial or institutional activity occurs.
 title: Facility
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/fio#Facility
 rank: 1000
@@ -88,7 +88,7 @@ name: fio_Facility
 description: Any physical building, building complex or site (e.g. an airstrip, a
   mine, or superfund site) at which a commercial or institutional activity occurs.
 title: Facility
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/fio#Facility
 rank: 1000

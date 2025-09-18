@@ -10,7 +10,7 @@ _KWG's spatial contains relation_
 
 
 
-This slot occurs 221599 times.
+This slot occurs 632174 times.
 
 
 URI: [kwgo:sfContains](http://stko-kwg.geog.ucsb.edu/lod/ontology/sfContains)
@@ -43,10 +43,6 @@ URI: [kwgo:sfContains](http://stko-kwg.geog.ucsb.edu/lod/ontology/sfContains)
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -57,7 +53,7 @@ URI: [kwgo:sfContains](http://stko-kwg.geog.ucsb.edu/lod/ontology/sfContains)
 name: kwgo_sfContains
 description: KWG's spatial contains relation
 title: contains (simple feature)
-comments:
+notes:
 - No occurrences of this slot in the graph.
 from_schema: okns:kwg
 slot_uri: kwgo:sfContains

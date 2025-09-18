@@ -62,7 +62,7 @@ URI: [xsd:boolean](http://www.w3.org/2001/XMLSchema#boolean)
 
 ```yaml
 name: xsd_boolean
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#boolean
 rank: 1000
@@ -78,7 +78,7 @@ class_uri: xsd:boolean
 
 ```yaml
 name: xsd_boolean
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#boolean
 rank: 1000

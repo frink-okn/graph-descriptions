@@ -63,7 +63,7 @@ URI: [fio:Organization](http://w3id.org/fio/v1/fio#Organization)
 name: fio_Organization
 description: ''
 title: Organization
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/fio#Organization
 rank: 1000
@@ -81,7 +81,7 @@ class_uri: fio:Organization
 name: fio_Organization
 description: ''
 title: Organization
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/fio#Organization
 rank: 1000

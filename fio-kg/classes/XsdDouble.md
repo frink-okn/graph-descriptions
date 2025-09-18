@@ -62,7 +62,7 @@ URI: [xsd:double](http://www.w3.org/2001/XMLSchema#double)
 
 ```yaml
 name: xsd_double
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#double
 rank: 1000
@@ -78,7 +78,7 @@ class_uri: xsd:double
 
 ```yaml
 name: xsd_double
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#double
 rank: 1000

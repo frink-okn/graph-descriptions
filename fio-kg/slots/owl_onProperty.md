@@ -10,7 +10,7 @@ _The property that determines the property that a property restriction refers to
 
 
 
-This slot occurs 16 times.
+This slot occurs 32 times.
 
 
 URI: [owl:onProperty](http://www.w3.org/2002/07/owl#onProperty)
@@ -34,10 +34,6 @@ URI: [owl:onProperty](http://www.w3.org/2002/07/owl#onProperty)
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -49,7 +45,7 @@ name: owl_onProperty
 description: The property that determines the property that a property restriction
   refers to.
 title: onProperty
-comments:
+notes:
 - No occurrences of this slot in the graph.
 from_schema: okns:owl-rdf-rdfs
 source: http://www.w3.org/2002/07/owl#

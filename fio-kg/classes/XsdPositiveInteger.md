@@ -62,7 +62,7 @@ URI: [xsd:positiveInteger](http://www.w3.org/2001/XMLSchema#positiveInteger)
 
 ```yaml
 name: xsd_positiveInteger
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#positiveInteger
 rank: 1000
@@ -78,7 +78,7 @@ class_uri: xsd:positiveInteger
 
 ```yaml
 name: xsd_positiveInteger
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#positiveInteger
 rank: 1000

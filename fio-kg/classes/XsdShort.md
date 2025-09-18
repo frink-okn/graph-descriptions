@@ -62,7 +62,7 @@ URI: [xsd:short](http://www.w3.org/2001/XMLSchema#short)
 
 ```yaml
 name: xsd_short
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#short
 rank: 1000
@@ -78,7 +78,7 @@ class_uri: xsd:short
 
 ```yaml
 name: xsd_short
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#short
 rank: 1000

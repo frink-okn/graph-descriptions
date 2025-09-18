@@ -53,7 +53,7 @@ URI: [fio:Industry](http://w3id.org/fio/v1/fio#Industry)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/> No occurrences of this slot in the graph. | direct | 736 |
+| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/>  | direct | 736 |
 
 
 
@@ -63,40 +63,40 @@ URI: [fio:Industry](http://w3id.org/fio/v1/fio#Industry)
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [Node359](../classes/Node359.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node359](../classes/Node359.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node359](../classes/Node359.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node499](../classes/Node499.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node499](../classes/Node499.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node499](../classes/Node499.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node501](../classes/Node501.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node501](../classes/Node501.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node501](../classes/Node501.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node502](../classes/Node502.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node502](../classes/Node502.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node506](../classes/Node506.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node506](../classes/Node506.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node510](../classes/Node510.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node510](../classes/Node510.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node510](../classes/Node510.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node512](../classes/Node512.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node512](../classes/Node512.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node512](../classes/Node512.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node513](../classes/Node513.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node513](../classes/Node513.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node513](../classes/Node513.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node515](../classes/Node515.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node515](../classes/Node515.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node517](../classes/Node517.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node517](../classes/Node517.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node517](../classes/Node517.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node518](../classes/Node518.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node518](../classes/Node518.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Node518](../classes/Node518.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [B43f2153f8fa51cc860da104aa4b996c7](../classes/B43f2153f8fa51cc860da104aa4b996c7.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [B43f2153f8fa51cc860da104aa4b996c7](../classes/B43f2153f8fa51cc860da104aa4b996c7.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [B43f2153f8fa51cc860da104aa4b996c7](../classes/B43f2153f8fa51cc860da104aa4b996c7.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [B51b8d66516b28a1c54f8d745ede947b9](../classes/B51b8d66516b28a1c54f8d745ede947b9.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [B51b8d66516b28a1c54f8d745ede947b9](../classes/B51b8d66516b28a1c54f8d745ede947b9.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [B51b8d66516b28a1c54f8d745ede947b9](../classes/B51b8d66516b28a1c54f8d745ede947b9.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [B5debef6666ba27aa225105865fd22d6c](../classes/B5debef6666ba27aa225105865fd22d6c.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [B5debef6666ba27aa225105865fd22d6c](../classes/B5debef6666ba27aa225105865fd22d6c.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [B5debef6666ba27aa225105865fd22d6c](../classes/B5debef6666ba27aa225105865fd22d6c.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [B671ac9cd6796151f919e5affbe3cc5f9](../classes/B671ac9cd6796151f919e5affbe3cc5f9.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [B671ac9cd6796151f919e5affbe3cc5f9](../classes/B671ac9cd6796151f919e5affbe3cc5f9.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [B671ac9cd6796151f919e5affbe3cc5f9](../classes/B671ac9cd6796151f919e5affbe3cc5f9.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [B707e8df015ee2912f85cf2fec8dc4718](../classes/B707e8df015ee2912f85cf2fec8dc4718.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [B707e8df015ee2912f85cf2fec8dc4718](../classes/B707e8df015ee2912f85cf2fec8dc4718.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [B912c2f2722265f457d11b52388b1def0](../classes/B912c2f2722265f457d11b52388b1def0.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [B912c2f2722265f457d11b52388b1def0](../classes/B912c2f2722265f457d11b52388b1def0.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [B912c2f2722265f457d11b52388b1def0](../classes/B912c2f2722265f457d11b52388b1def0.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Ba0ffbf1a7a548fac1e61d3eceada03dd](../classes/Ba0ffbf1a7a548fac1e61d3eceada03dd.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Ba0ffbf1a7a548fac1e61d3eceada03dd](../classes/Ba0ffbf1a7a548fac1e61d3eceada03dd.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Ba0ffbf1a7a548fac1e61d3eceada03dd](../classes/Ba0ffbf1a7a548fac1e61d3eceada03dd.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Bdbdbfbd4ef20ffc37226553d96831226](../classes/Bdbdbfbd4ef20ffc37226553d96831226.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Bdbdbfbd4ef20ffc37226553d96831226](../classes/Bdbdbfbd4ef20ffc37226553d96831226.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Bdbdbfbd4ef20ffc37226553d96831226](../classes/Bdbdbfbd4ef20ffc37226553d96831226.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Be0e551f6155d8e99ee967119022af97d](../classes/Be0e551f6155d8e99ee967119022af97d.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Be0e551f6155d8e99ee967119022af97d](../classes/Be0e551f6155d8e99ee967119022af97d.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Bf0c649c8d760a3559d3d5e5b1f68a59f](../classes/Bf0c649c8d760a3559d3d5e5b1f68a59f.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Bf0c649c8d760a3559d3d5e5b1f68a59f](../classes/Bf0c649c8d760a3559d3d5e5b1f68a59f.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Bf0c649c8d760a3559d3d5e5b1f68a59f](../classes/Bf0c649c8d760a3559d3d5e5b1f68a59f.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Bf906a89c08306329b89456f1d101a6bf](../classes/Bf906a89c08306329b89456f1d101a6bf.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Bf906a89c08306329b89456f1d101a6bf](../classes/Bf906a89c08306329b89456f1d101a6bf.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
 | [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
 | [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_ofSecondaryIndustry](../slots/fio_epa_frs_ofSecondaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
 | [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
 | [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
 | [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [FioIndustry](../classes/FioIndustry.md) |
@@ -128,7 +128,7 @@ URI: [fio:Industry](http://w3id.org/fio/v1/fio#Industry)
 name: fio_Industry
 description: A distinct group of productive or profit-making enterprises.
 title: Industry
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/fio#Industry
 rank: 1000
@@ -148,7 +148,7 @@ class_uri: fio:Industry
 name: fio_Industry
 description: A distinct group of productive or profit-making enterprises.
 title: Industry
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://w3id.org/fio/v1/fio#Industry
 rank: 1000
@@ -158,7 +158,7 @@ attributes:
     name: owl_sameAs
     description: The property that determines that two given individuals are equal.
     title: sameAs
-    comments:
+    notes:
     - No occurrences of this slot in the graph.
     from_schema: okns:owl-rdf-rdfs
     source: http://www.w3.org/2002/07/owl#
@@ -167,22 +167,22 @@ attributes:
     alias: owl_sameAs
     owner: fio_Industry
     domain_of:
-    - __node359
-    - __node499
-    - __node501
-    - __node502
-    - __node506
-    - __node507
-    - __node508
-    - __node510
-    - __node512
-    - __node513
-    - __node515
-    - __node517
-    - __node518
-    - __node519
-    - __node521
-    - __node523
+    - __B1d70f10e8204578c89c5f678467193ea
+    - __B3a5aa76705834f507db6d3c7d90d63b8
+    - __B43f2153f8fa51cc860da104aa4b996c7
+    - __B51b8d66516b28a1c54f8d745ede947b9
+    - __B5debef6666ba27aa225105865fd22d6c
+    - __B671ac9cd6796151f919e5affbe3cc5f9
+    - __B707e8df015ee2912f85cf2fec8dc4718
+    - __B912c2f2722265f457d11b52388b1def0
+    - __B9968aab18e1237453b5cbb15df1c74b9
+    - __Ba0ffbf1a7a548fac1e61d3eceada03dd
+    - __Bdbdbfbd4ef20ffc37226553d96831226
+    - __Be082c2fc952b5eb7e355834fa6af4865
+    - __Be0e551f6155d8e99ee967119022af97d
+    - __Bea9d030ae5649d7f06d536c2a467e56f
+    - __Bf0c649c8d760a3559d3d5e5b1f68a59f
+    - __Bf906a89c08306329b89456f1d101a6bf
     - fio-epa-frs_Agency
     - fio-epa-frs_Agency.Agriculture
     - fio-epa-frs_Agency.Commerce

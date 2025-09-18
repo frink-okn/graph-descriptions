@@ -62,7 +62,7 @@ URI: [xsd:unsignedInt](http://www.w3.org/2001/XMLSchema#unsignedInt)
 
 ```yaml
 name: xsd_unsignedInt
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#unsignedInt
 rank: 1000
@@ -78,7 +78,7 @@ class_uri: xsd:unsignedInt
 
 ```yaml
 name: xsd_unsignedInt
-from_schema: okns:fiokg
+from_schema: okns:fio-kg
 exact_mappings:
 - http://www.w3.org/2001/XMLSchema#unsignedInt
 rank: 1000
