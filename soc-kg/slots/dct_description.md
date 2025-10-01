@@ -27,35 +27,35 @@ URI: [dct:description](http://purl.org/dc/terms/description)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [QudtLogarithmicUnit](../classes/QudtLogarithmicUnit.md) | Logarithmic units are abstract mathematical units that can be used to express... |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalSpecies](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalSpecies.md) |  |  no  |
-| [QudtDimensionlessUnit](../classes/QudtDimensionlessUnit.md) | A Dimensionless Unit is a quantity for which all the exponents of the factors... |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Thesis](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Thesis.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278FertilizerAmendment](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278FertilizerAmendment.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ProjectScenario](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ProjectScenario.md) |  |  no  |
-| [QudtDecimalPrefix](../classes/QudtDecimalPrefix.md) | A <em>Decimal Prefix</em> is a prefix for multiples of units that are powers ... |  no  |
-| [QudtCountingUnit](../classes/QudtCountingUnit.md) | Used for all units that express counts |  no  |
-| [QudtSolidAngleUnit](../classes/QudtSolidAngleUnit.md) | The solid angle subtended by a surface S is defined as the surface area of a ... |  no  |
-| [QudtDerivedUnit](../classes/QudtDerivedUnit.md) | A DerivedUnit is a type specification for units that are derived from other u... |  no  |
-| [QudtAngleUnit](../classes/QudtAngleUnit.md) | All units relating to specification of angles |  no  |
-| [QudtCurrencyUnit](../classes/QudtCurrencyUnit.md) | Currency Units have their own subclass of unit because: (a) they have additon... |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Thesis](../classes/HttpsIdir.uta.eduSockg-ontology#Thesis.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#FertilizerAmendment](../classes/HttpsIdir.uta.eduSockg-ontology#FertilizerAmendment.md) |  |  no  |
 | [QudtUnit](../classes/QudtUnit.md) | A unit of measure, or unit, is a particular quantity value that has been chos... |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278CoverCrop](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278CoverCrop.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#ProjectScenario](../classes/HttpsIdir.uta.eduSockg-ontology#ProjectScenario.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Treatment](../classes/HttpsIdir.uta.eduSockg-ontology#Treatment.md) |  |  no  |
 | [QudtContextualUnit](../classes/QudtContextualUnit.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueRemoval](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueRemoval.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Rotation](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Rotation.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Project](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Project.md) |  |  no  |
-| [QudtBinaryPrefix](../classes/QudtBinaryPrefix.md) | A <em>Binary Prefix</em> is a prefix for multiples of units in data processin... |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Tillage](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Tillage.md) |  |  no  |
-| [QudtCardinalityType](../classes/QudtCardinalityType.md) | In mathematics, the cardinality of a set is a measure of the number of elemen... |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Timing](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Timing.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Proceedings](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Proceedings.md) |  |  no  |
-| [QudtPlaneAngleUnit](../classes/QudtPlaneAngleUnit.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingRate](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingRate.md) |  |  no  |
+| [QudtAngleUnit](../classes/QudtAngleUnit.md) | All units relating to specification of angles |  no  |
+| [QudtCountingUnit](../classes/QudtCountingUnit.md) | Used for all units that express counts |  no  |
 | [VaemGraphRole](../classes/VaemGraphRole.md) | GraphRole is used to characterize how a graph of resources participates in an... |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Location](../classes/HttpsIdir.uta.eduSockg-ontology#Location.md) |  |  no  |
+| [QudtDecimalPrefix](../classes/QudtDecimalPrefix.md) | A <em>Decimal Prefix</em> is a prefix for multiples of units that are powers ... |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#CoverCrop](../classes/HttpsIdir.uta.eduSockg-ontology#CoverCrop.md) |  |  no  |
+| [QudtDerivedUnit](../classes/QudtDerivedUnit.md) | A DerivedUnit is a type specification for units that are derived from other u... |  no  |
+| [QudtDimensionlessUnit](../classes/QudtDimensionlessUnit.md) | A Dimensionless Unit is a quantity for which all the exponents of the factors... |  no  |
+| [QudtPlaneAngleUnit](../classes/QudtPlaneAngleUnit.md) |  |  no  |
+| [QudtSolidAngleUnit](../classes/QudtSolidAngleUnit.md) | The solid angle subtended by a surface S is defined as the surface area of a ... |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#JournalArticle](../classes/HttpsIdir.uta.eduSockg-ontology#JournalArticle.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#ResidueRemoval](../classes/HttpsIdir.uta.eduSockg-ontology#ResidueRemoval.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Rotation](../classes/HttpsIdir.uta.eduSockg-ontology#Rotation.md) |  |  no  |
+| [QudtCardinalityType](../classes/QudtCardinalityType.md) | In mathematics, the cardinality of a set is a measure of the number of elemen... |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Proceedings](../classes/HttpsIdir.uta.eduSockg-ontology#Proceedings.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Tillage](../classes/HttpsIdir.uta.eduSockg-ontology#Tillage.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#GrazingRate](../classes/HttpsIdir.uta.eduSockg-ontology#GrazingRate.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Project](../classes/HttpsIdir.uta.eduSockg-ontology#Project.md) |  |  no  |
+| [QudtCurrencyUnit](../classes/QudtCurrencyUnit.md) | Currency Units have their own subclass of unit because: (a) they have additon... |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#AnimalSpecies](../classes/HttpsIdir.uta.eduSockg-ontology#AnimalSpecies.md) |  |  no  |
+| [QudtLogarithmicUnit](../classes/QudtLogarithmicUnit.md) | Logarithmic units are abstract mathematical units that can be used to express... |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Timing](../classes/HttpsIdir.uta.eduSockg-ontology#Timing.md) |  |  no  |
+| [QudtBinaryPrefix](../classes/QudtBinaryPrefix.md) | A <em>Binary Prefix</em> is a prefix for multiples of units in data processin... |  no  |
 
 
 
@@ -102,21 +102,21 @@ domain_of:
 - qudt_LogarithmicUnit
 - qudt_Unit
 - vaem_GraphRole
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_AnimalSpecies
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_CoverCrop
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_FertilizerAmendment
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_GrazingRate
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_JournalArticle
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Location
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Proceedings
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Project
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_ProjectScenario
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_ResidueRemoval
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Rotation
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Thesis
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Tillage
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Timing
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Treatment
+- https___idir.uta.edu_sockg-ontology#AnimalSpecies
+- https___idir.uta.edu_sockg-ontology#CoverCrop
+- https___idir.uta.edu_sockg-ontology#FertilizerAmendment
+- https___idir.uta.edu_sockg-ontology#GrazingRate
+- https___idir.uta.edu_sockg-ontology#JournalArticle
+- https___idir.uta.edu_sockg-ontology#Location
+- https___idir.uta.edu_sockg-ontology#Proceedings
+- https___idir.uta.edu_sockg-ontology#Project
+- https___idir.uta.edu_sockg-ontology#ProjectScenario
+- https___idir.uta.edu_sockg-ontology#ResidueRemoval
+- https___idir.uta.edu_sockg-ontology#Rotation
+- https___idir.uta.edu_sockg-ontology#Thesis
+- https___idir.uta.edu_sockg-ontology#Tillage
+- https___idir.uta.edu_sockg-ontology#Timing
+- https___idir.uta.edu_sockg-ontology#Treatment
 subproperty_of: dc_description
 range: string
 

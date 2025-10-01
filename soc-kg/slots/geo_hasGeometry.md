@@ -27,7 +27,7 @@ URI: [geo:hasGeometry](http://www.opengis.net/ont/geosparql#hasGeometry)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Location](../classes/HttpsIdir.uta.eduSockg-ontology#Location.md) |  |  no  |
 
 
 
@@ -73,7 +73,7 @@ source: http://www.opengis.net/ont/geosparql#
 domain: geo_Feature
 slot_uri: geo:hasGeometry
 domain_of:
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Location
+- https___idir.uta.edu_sockg-ontology#Location
 range: geo_Geometry
 
 ```

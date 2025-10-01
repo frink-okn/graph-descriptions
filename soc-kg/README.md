@@ -8,34 +8,132 @@
 
 ```mermaid
 erDiagram
-FoafAgent {
+GeoFeature {
 
 }
-FoafDocument {
+GeoFeatureCollection {
 
 }
-Wn16Credential {
+GeoGeometry {
 
 }
-Wn16Endorsement-4 {
+GeoGeometryCollection {
 
 }
-Wn16Event {
+GeoSpatialObject {
 
 }
-WotEncryptedDocument {
+GeoSpatialObjectCollection {
 
 }
-WotEndorsement {
+DcamVocabularyEncodingScheme {
+    date dct_issued  
+    string rdfs_label  
+    string rdfs_comment  
+    uri rdfs_seeAlso  
+}
+DcmitypeCollection {
 
 }
-WotPubKey {
+DcmitypeDataset {
 
 }
-WotSigEvent {
+DcmitypeEvent {
 
 }
-WotUser {
+DcmitypeImage {
+
+}
+DcmitypeInteractiveResource {
+
+}
+DcmitypeMovingImage {
+
+}
+DcmitypePhysicalObject {
+
+}
+DcmitypeService {
+
+}
+DcmitypeSoftware {
+
+}
+DcmitypeSound {
+
+}
+DcmitypeStillImage {
+
+}
+DcmitypeText {
+
+}
+DctAgent {
+
+}
+DctAgentClass {
+    string rdfs_label  
+    string rdfs_comment  
+    date dct_issued  
+}
+DctBibliographicResource {
+
+}
+DctFileFormat {
+
+}
+DctFrequency {
+
+}
+DctJurisdiction {
+
+}
+DctLicenseDocument {
+
+}
+DctLinguisticSystem {
+
+}
+DctLocation {
+
+}
+DctLocationPeriodOrJurisdiction {
+
+}
+DctMediaType {
+
+}
+DctMediaTypeOrExtent {
+
+}
+DctMethodOfAccrual {
+
+}
+DctMethodOfInstruction {
+
+}
+DctPeriodOfTime {
+
+}
+DctPhysicalMedium {
+
+}
+DctPhysicalResource {
+
+}
+DctPolicy {
+
+}
+DctProvenanceStatement {
+
+}
+DctRightsStatement {
+
+}
+DctSizeOrDuration {
+
+}
+DctStandard {
 
 }
 OwlAllDifferent {
@@ -158,419 +256,6 @@ RdfsLiteral {
 
 }
 RdfsResource {
-
-}
-FoafGroup {
-
-}
-FoafImage {
-
-}
-FoafLabelProperty {
-
-}
-FoafOnlineAccount {
-
-}
-FoafOnlineChatAccount {
-
-}
-FoafOnlineEcommerceAccount {
-
-}
-FoafOnlineGamingAccount {
-
-}
-FoafOrganization {
-
-}
-FoafPerson {
-
-}
-FoafPersonalProfileDocument {
-
-}
-FoafProject {
-
-}
-DcamVocabularyEncodingScheme {
-    date dct_issued  
-    string rdfs_label  
-    string rdfs_comment  
-    uri rdfs_seeAlso  
-}
-DcmitypeCollection {
-
-}
-DcmitypeDataset {
-
-}
-DcmitypeEvent {
-
-}
-DcmitypeImage {
-
-}
-DcmitypeInteractiveResource {
-
-}
-DcmitypeMovingImage {
-
-}
-DcmitypePhysicalObject {
-
-}
-DcmitypeService {
-
-}
-DcmitypeSoftware {
-
-}
-DcmitypeSound {
-
-}
-DcmitypeStillImage {
-
-}
-DcmitypeText {
-
-}
-DctAgent {
-
-}
-DctAgentClass {
-    string rdfs_label  
-    string rdfs_comment  
-    date dct_issued  
-}
-DctBibliographicResource {
-
-}
-DctFileFormat {
-
-}
-DctFrequency {
-
-}
-DctJurisdiction {
-
-}
-DctLicenseDocument {
-
-}
-DctLinguisticSystem {
-
-}
-DctLocation {
-
-}
-DctLocationPeriodOrJurisdiction {
-
-}
-DctMediaType {
-
-}
-DctMediaTypeOrExtent {
-
-}
-DctMethodOfAccrual {
-
-}
-DctMethodOfInstruction {
-
-}
-DctPeriodOfTime {
-
-}
-DctPhysicalMedium {
-
-}
-DctPhysicalResource {
-
-}
-DctPolicy {
-
-}
-DctProvenanceStatement {
-
-}
-DctRightsStatement {
-
-}
-DctSizeOrDuration {
-
-}
-DctStandard {
-
-}
-TimeDateTimeDescription {
-
-}
-TimeDateTimeInterval {
-
-}
-TimeDayOfWeek {
-    string rdfs_label  
-}
-TimeDuration {
-
-}
-TimeDurationDescription {
-
-}
-TimeGeneralDateTimeDescription {
-
-}
-TimeGeneralDurationDescription {
-
-}
-TimeInstant {
-
-}
-TimeInterval {
-
-}
-TimeJanuary {
-
-}
-TimeMonthOfYear {
-
-}
-TimeProperInterval {
-
-}
-TimeTRS {
-
-}
-TimeTemporalDuration {
-
-}
-TimeTemporalEntity {
-
-}
-TimeTemporalPosition {
-
-}
-TimeTemporalUnit {
-    decimal time_weeks  
-    decimal time_months  
-    decimal time_hours  
-    decimal time_years  
-    string rdfs_label  
-    decimal time_days  
-    decimal time_seconds  
-    decimal time_minutes  
-}
-TimeTimePosition {
-
-}
-TimeTimeZone {
-
-}
-TimeYear {
-
-}
-XsdDateTimeStamp {
-
-}
-XsdDuration {
-
-}
-XsdGYear {
-
-}
-XsdGYearMonth {
-
-}
-WgsPoint {
-
-}
-WgsSpatialThing {
-
-}
-EventEvent {
-
-}
-EventFactor {
-
-}
-EventProduct {
-
-}
-BiboAcademicArticle {
-
-}
-BiboArticle {
-
-}
-BiboAudioDocument {
-
-}
-BiboAudioVisualDocument {
-
-}
-BiboBill {
-
-}
-BiboBook {
-
-}
-BiboBookSection {
-
-}
-BiboBrief {
-
-}
-BiboChapter {
-
-}
-BiboCode {
-
-}
-BiboCollectedDocument {
-
-}
-BiboCollection {
-
-}
-BiboConference {
-
-}
-BiboCourtReporter {
-
-}
-BiboDocument {
-
-}
-BiboDocumentPart {
-
-}
-BiboDocumentStatus {
-    string rdfs_label  
-    string rdfs_comment  
-}
-BiboEditedBook {
-
-}
-BiboEmail {
-
-}
-BiboEvent {
-
-}
-BiboExcerpt {
-
-}
-BiboFilm {
-
-}
-BiboHearing {
-
-}
-BiboImage {
-
-}
-BiboInterview {
-
-}
-BiboIssue {
-
-}
-BiboJournal {
-
-}
-BiboLegalCaseDocument {
-
-}
-BiboLegalDecision {
-
-}
-BiboLegalDocument {
-
-}
-BiboLegislation {
-
-}
-BiboLetter {
-
-}
-BiboMagazine {
-
-}
-BiboManual {
-
-}
-BiboManuscript {
-
-}
-BiboMap {
-
-}
-BiboMultiVolumeBook {
-
-}
-BiboNewspaper {
-
-}
-BiboNote {
-
-}
-BiboPatent {
-
-}
-BiboPerformance {
-
-}
-BiboPeriodical {
-
-}
-BiboPersonalCommunication {
-
-}
-BiboPersonalCommunicationDocument {
-
-}
-BiboProceedings {
-
-}
-BiboQuote {
-
-}
-BiboReferenceSource {
-
-}
-BiboReport {
-
-}
-BiboSeries {
-
-}
-BiboSlide {
-
-}
-BiboSlideshow {
-
-}
-BiboStandard {
-
-}
-BiboStatute {
-
-}
-BiboThesis {
-
-}
-BiboThesisDegree {
-    string rdfs_label  
-    string rdfs_comment  
-}
-BiboWebpage {
-
-}
-BiboWebsite {
-
-}
-BiboWorkshop {
 
 }
 QudtAbstractQuantityKind {
@@ -1208,1030 +893,6 @@ QudtVerifiable {
 
 }
 XsdString {
-
-}
-GeoFeature {
-
-}
-GeoFeatureCollection {
-
-}
-GeoGeometry {
-
-}
-GeoGeometryCollection {
-
-}
-GeoSpatialObject {
-
-}
-GeoSpatialObjectCollection {
-
-}
-HttpPurl.orgVocabFrbrCoreEndeavour {
-
-}
-IospressGeoCodedLocation {
-
-}
-IrdrAnimalIncident {
-
-}
-IrdrBiological {
-
-}
-IrdrClimatological {
-
-}
-IrdrConvectiveStorm {
-
-}
-IrdrDisease {
-
-}
-IrdrDrought {
-
-}
-IrdrEarthquake {
-
-}
-IrdrExtraterrestrial {
-
-}
-IrdrExtratropicalStorm {
-
-}
-IrdrExtremeTemperature {
-
-}
-IrdrFlood {
-
-}
-IrdrFog {
-
-}
-IrdrGeophysical {
-
-}
-IrdrGlacialLakeOutburst {
-
-}
-IrdrHydrological {
-
-}
-IrdrImpact {
-
-}
-IrdrInsectInfestation {
-
-}
-IrdrLandslide {
-
-}
-IrdrMassMovement {
-
-}
-IrdrMetereological {
-
-}
-IrdrSpaceWeather {
-
-}
-IrdrTropicalCyclone {
-
-}
-IrdrVolcanicActivity {
-
-}
-IrdrWaveAction {
-
-}
-IrdrWildfire {
-
-}
-KwgoATH {
-
-}
-KwgoAdministrativeRegion {
-
-}
-KwgoAdministrativeRegion0 {
-
-}
-KwgoAdministrativeRegion1 {
-
-}
-KwgoAdministrativeRegion2 {
-
-}
-KwgoAdministrativeRegion3 {
-
-}
-KwgoAdministrativeRegion4 {
-
-}
-KwgoAdministrativeRegion5 {
-
-}
-KwgoAdministrativeRegion6 {
-
-}
-KwgoAirPollutant {
-    string rdfs_label  
-}
-KwgoAirQualityInstrument {
-
-}
-KwgoAirQualityObservation {
-
-}
-KwgoAirQualityObservationCollection {
-
-}
-KwgoAirQualitySite {
-
-}
-KwgoBlueskyModel {
-
-}
-KwgoBlueskyModeledWildfire {
-
-}
-KwgoBlueskyWildfireObservableProperty {
-    string rdfs_label  
-}
-KwgoBlueskyWildfireObservation {
-
-}
-KwgoBlueskyWildfireObservationCollection {
-
-}
-KwgoCTH {
-
-}
-KwgoCell {
-
-}
-KwgoCensusACS5YearEstimatesObservation {
-
-}
-KwgoCensusACS5YearEstimatesObservationCollection {
-
-}
-KwgoCensusObservableProperty {
-    string rdfs_comment  
-    string rdfs_label  
-}
-KwgoChiefJudge {
-
-}
-KwgoClimateDivisionObservationCollection {
-
-}
-KwgoClimateDivisionObservationResult {
-
-}
-KwgoClimateDivisionPropertyObservationCollection {
-
-}
-KwgoClimateObservableProperty {
-    string rdfs_label  
-}
-KwgoClimateObservation {
-
-}
-KwgoComplexFire {
-
-}
-KwgoCrisisCounselling {
-
-}
-KwgoCroplandObservableProperty {
-    string rdfs_label  
-}
-KwgoCroplandObservation {
-
-}
-KwgoCroplandObservationCollection {
-
-}
-KwgoCroplandResult {
-
-}
-KwgoDebrisRemoval-PA-A {
-
-}
-KwgoDeclaration {
-
-}
-KwgoDirectFederalAssistance {
-
-}
-KwgoDisaster {
-
-}
-KwgoDisasterHousing {
-
-}
-KwgoDisasterUnemploymentAssistance {
-
-}
-KwgoDoD {
-
-}
-KwgoDroughtIntensity {
-    string rdfs_label  
-}
-KwgoDroughtZone {
-
-}
-KwgoDroughtZoneOverlapObservation {
-
-}
-KwgoDroughtZoneOverlapObservationCollection {
-
-}
-KwgoEarthquake {
-
-}
-KwgoEarthquakeObservableProperty {
-
-}
-KwgoEarthquakeObservationCollection {
-
-}
-KwgoEmergencyDeclaration {
-
-}
-KwgoEventSegment {
-
-}
-KwgoExpertiseTopic {
-
-}
-KwgoFederalJudicalDistrict {
-
-}
-KwgoFieldsOfStudy {
-
-}
-KwgoFire {
-
-}
-KwgoFireCause {
-    string rdfs_label  
-}
-KwgoFireManagementAssistance-PA-I {
-
-}
-KwgoFireManagementDeclaration {
-
-}
-KwgoFireMappingAssessmentLabel {
-
-}
-KwgoFix {
-
-}
-KwgoGeometry {
-
-}
-KwgoGeometryCollection {
-
-}
-KwgoHazard {
-
-}
-KwgoHazardEpisode {
-
-}
-KwgoHazardMitigation {
-
-}
-KwgoHelipadAvailability {
-    string rdfs_label  
-}
-KwgoHospital {
-
-}
-KwgoHospitalStatus {
-    string rdfs_label  
-}
-KwgoHospitalType {
-    string rdfs_label  
-}
-KwgoHousingAssistance {
-
-}
-KwgoImpactObservableProperty {
-    string rdfs_label  
-}
-KwgoImpactObservation {
-
-}
-KwgoImpactObservationCollection {
-
-}
-KwgoIndividualAndFamilyGrant {
-
-}
-KwgoIndividualAssistance {
-
-}
-KwgoIndividualAssistance-PA-C {
-
-}
-KwgoIndividualsAndHouseholds {
-
-}
-KwgoJudegeInfo {
-
-}
-KwgoLSADArea {
-    string rdfs_comment  
-    string rdfs_label  
-}
-KwgoLevelI {
-
-}
-KwgoLevelII {
-
-}
-KwgoLevelIII {
-
-}
-KwgoLevelIIIPediatric {
-
-}
-KwgoLevelIIPediatric {
-
-}
-KwgoLevelIIRehab {
-
-}
-KwgoLevelIV {
-
-}
-KwgoLevelIPediatric {
-
-}
-KwgoLevelIPediatricRehab {
-
-}
-KwgoLevelIRehab {
-
-}
-KwgoLevelPediatric {
-
-}
-KwgoLevelV {
-
-}
-KwgoMTBSComplexFire {
-
-}
-KwgoMTBSFire {
-
-}
-KwgoMTBSFireObservableProperty {
-    string rdfs_comment  
-    string rdfs_label  
-}
-KwgoMTBSFireObservation {
-
-}
-KwgoMTBSFireObservationCollection {
-
-}
-KwgoMTBSOutOfAreaResponseFire {
-
-}
-KwgoMTBSPrescribedFire {
-
-}
-KwgoMTBSUnknownFire {
-
-}
-KwgoMTBSWildfire {
-
-}
-KwgoMTBSWildlandFireUse {
-
-}
-KwgoMagnitudeObservableProperty {
-    string rdfs_label  
-}
-KwgoMagnitudeObservation {
-
-}
-KwgoMagnitudeObservationCollection {
-
-}
-KwgoMajorDisasterDeclaration {
-
-}
-KwgoMappingProgram {
-
-}
-KwgoNIFCFire {
-
-}
-KwgoNIFCFireObservableProperty {
-    string rdfs_label  
-}
-KwgoNIFCFireObservation {
-
-}
-KwgoNIFCIncidentComplexFire {
-
-}
-KwgoNIFCPrescribedFire {
-
-}
-KwgoNIFCWildfire {
-
-}
-KwgoNOAAAstronomicalLowTide {
-
-}
-KwgoNOAAAvalanche {
-
-}
-KwgoNOAABlizzard {
-
-}
-KwgoNOAACoastalFlood {
-
-}
-KwgoNOAAColdWindChill {
-
-}
-KwgoNOAADebrisFlow {
-
-}
-KwgoNOAADenseFog {
-
-}
-KwgoNOAADenseSmoke {
-
-}
-KwgoNOAADrought {
-
-}
-KwgoNOAADustDevil {
-
-}
-KwgoNOAADustStorm {
-
-}
-KwgoNOAAExcessiveHeat {
-
-}
-KwgoNOAAExtremeColdWindChill {
-
-}
-KwgoNOAAFlashFlood {
-
-}
-KwgoNOAAFlood {
-
-}
-KwgoNOAAFreezingFog {
-
-}
-KwgoNOAAFrostFreeze {
-
-}
-KwgoNOAAFunnelCloud {
-
-}
-KwgoNOAAHail {
-
-}
-KwgoNOAAHazard {
-
-}
-KwgoNOAAHeat {
-
-}
-KwgoNOAAHeavyRain {
-
-}
-KwgoNOAAHeavySnow {
-
-}
-KwgoNOAAHighSurf {
-
-}
-KwgoNOAAHighWind {
-
-}
-KwgoNOAAHurricane {
-
-}
-KwgoNOAAIceStorm {
-
-}
-KwgoNOAALake-EffectSnow {
-
-}
-KwgoNOAALakeshoreFlood {
-
-}
-KwgoNOAALightning {
-
-}
-KwgoNOAAMarineHail {
-
-}
-KwgoNOAAMarineHighWind {
-
-}
-KwgoNOAAMarineHurricaneTyphoon {
-
-}
-KwgoNOAAMarineStrongWind {
-
-}
-KwgoNOAAMarineThunderstormWind {
-
-}
-KwgoNOAAMarineTropicalDepression {
-
-}
-KwgoNOAAMarineTropicalStorm {
-
-}
-KwgoNOAARipCurrent {
-
-}
-KwgoNOAASleet {
-
-}
-KwgoNOAASneakerwave {
-
-}
-KwgoNOAAStormSurgeTide {
-
-}
-KwgoNOAAStrongWind {
-
-}
-KwgoNOAAThunderstormWind {
-
-}
-KwgoNOAATornado {
-
-}
-KwgoNOAATropicalDepression {
-
-}
-KwgoNOAATropicalStorm {
-
-}
-KwgoNOAAWaterspout {
-
-}
-KwgoNOAAWildfire {
-
-}
-KwgoNOAAWinterStorm {
-
-}
-KwgoNOAAWinterWeather {
-
-}
-KwgoNWZone {
-
-}
-KwgoNielsenMarketZone {
-
-}
-KwgoOther {
-
-}
-KwgoOutOfAreaResponseFire {
-
-}
-KwgoPARC {
-
-}
-KwgoPrescribedFire {
-
-}
-KwgoProgram {
-
-}
-KwgoProtectiveMeasures-PA-B {
-
-}
-KwgoPublicAssistance {
-
-}
-KwgoPublicBuildings-PA-F {
-
-}
-KwgoPublicHealthObservableProperty {
-    string rdfs_label  
-}
-KwgoPublicHealthObservation {
-
-}
-KwgoPublicHealthObservationCollection {
-
-}
-KwgoPublicUtilitiesPA-G {
-
-}
-KwgoQuantity {
-
-}
-KwgoRPTC {
-
-}
-KwgoRTC {
-
-}
-KwgoRTH {
-
-}
-KwgoRecreationalOrOther-PA-H {
-
-}
-KwgoRegion {
-
-}
-KwgoRegionalCircuit {
-
-}
-KwgoRoadSegment {
-
-}
-KwgoRoadSegmentNode {
-
-}
-KwgoRoadType {
-    string rdfs_label  
-}
-KwgoRoadsAndBridges-PA-D {
-
-}
-KwgoS2Cell {
-
-}
-KwgoSmallBusinessAdministration {
-
-}
-KwgoSmokePlumeObservableProperty {
-    string rdfs_label  
-}
-KwgoSmokePlumeObservation {
-
-}
-KwgoSmokePlumeSnapshot {
-
-}
-KwgoSoilMapUnit {
-
-}
-KwgoSoilMapUnitObservableProperty {
-    string rdfs_comment  
-    string rdfs_label  
-}
-KwgoSoilMapUnitObservation {
-
-}
-KwgoSoilMapUnitObservationCollection {
-
-}
-KwgoSoilMapUnitOverlapObservation {
-
-}
-KwgoStormTrack {
-
-}
-KwgoStormTrackObservableProperty {
-    string rdfs_label  
-}
-KwgoStormTrackObservation {
-
-}
-KwgoStormTrackObservationCollection {
-
-}
-KwgoStormTracklet {
-
-}
-KwgoStormTrackletObservableProperty {
-    string rdfs_label  
-}
-KwgoStormTrackletObservation {
-
-}
-KwgoStormTrackletObservationCollection {
-
-}
-KwgoTRF {
-
-}
-KwgoTRH {
-
-}
-KwgoTornadoMagnitudeObservationCollection {
-
-}
-KwgoTraumaDescription {
-
-}
-KwgoTraumaLevelCare {
-
-}
-KwgoUSCensusMSA {
-
-}
-KwgoUSClimateDivision {
-
-}
-KwgoUSPresident {
-
-}
-KwgoVenue {
-
-}
-KwgoVulnerabilityIndexObservation {
-
-}
-KwgoVulnerabilityObservableProperty {
-    string rdfs_label  
-}
-KwgoWaterControlFacilities-PA-E {
-
-}
-KwgoWildfire {
-
-}
-KwgoWildlandFireUse {
-
-}
-KwgoWindMagnitudeObservationCollection {
-
-}
-KwgoZipCodeArea {
-
-}
-SosaEarthquakeObservation {
-
-}
-SosaFeatureOfInterest {
-
-}
-SosaObservableProperty {
-
-}
-SosaObservation {
-
-}
-SosaObservationCollection {
-
-}
-SosaPlatform {
-
-}
-SosaResult {
-
-}
-SosaSensor {
-
-}
-ProvAccept {
-
-}
-ProvActivity {
-
-}
-ProvActivityInfluence {
-
-}
-ProvAgent {
-
-}
-ProvAgentInfluence {
-
-}
-ProvAssociation {
-
-}
-ProvAttribution {
-
-}
-ProvBundle {
-
-}
-ProvCollection {
-
-}
-ProvCommunication {
-
-}
-ProvContribute {
-
-}
-ProvContributor {
-
-}
-ProvCopyright {
-
-}
-ProvCreate {
-
-}
-ProvCreator {
-
-}
-ProvDelegation {
-
-}
-ProvDerivation {
-
-}
-ProvDictionary {
-
-}
-ProvDirectQueryService {
-
-}
-ProvEmptyCollection {
-
-}
-ProvEmptyDictionary {
-
-}
-ProvEnd {
-
-}
-ProvEntity {
-
-}
-ProvEntityInfluence {
-
-}
-ProvGeneration {
-
-}
-ProvInfluence {
-
-}
-ProvInsertion {
-
-}
-ProvInstantaneousEvent {
-
-}
-ProvInvalidation {
-
-}
-ProvKeyEntityPair {
-
-}
-ProvLocation {
-
-}
-ProvModify {
-
-}
-ProvOrganization {
-
-}
-ProvPerson {
-
-}
-ProvPlan {
-
-}
-ProvPrimarySource {
-
-}
-ProvPublish {
-
-}
-ProvPublisher {
-
-}
-ProvQuotation {
-
-}
-ProvRemoval {
-
-}
-ProvReplace {
-
-}
-ProvRevision {
-
-}
-ProvRightsAssignment {
-
-}
-ProvRightsHolder {
-
-}
-ProvRole {
-
-}
-ProvServiceDescription {
-
-}
-ProvSoftwareAgent {
-
-}
-ProvStart {
-
-}
-ProvSubmit {
-
-}
-ProvUsage {
-
-}
-DtypeCodeList {
-
-}
-DtypeCompositeCodeList {
-
-}
-DtypeDerivedCodeList {
-
-}
-DtypeEnumeratedValue {
-
-}
-DtypeEnumeration {
-
-}
-DtypeSimpleCodeList {
-
-}
-DtypeValueReference {
-
-}
-XsdAnySimpleType {
-
-}
-SkosCollection {
-
-}
-SkosConcept {
-
-}
-SkosConceptScheme {
-
-}
-SkosOrderedCollection {
-
-}
-VaemAspect {
-
-}
-VaemDimension {
-
-}
-VaemDiscipline {
-
-}
-VaemDomain {
-
-}
-VaemGraphMetaData {
-    uri vaem_namespace  
-    string dct_title  
-    string vaem_withAttributionTo  
-    uri vaem_latestPublishedVersion  
-    uri vaem_usesNonImportedResource  
-    uri vaem_turtleFileURL  
-    string vaem_owner  
-    string vaem_revision  
-    uri vaem_rdfxmlFileURL  
-    string vaem_intent  
-    string vaem_namespacePrefix  
-    string rdfs_label  
-    string vaem_title  
-    string vaem_description  
-    uri vaem_previousPublishedVersion  
-    uri vaem_logo  
-    string vaem_name  
-    date dct_modified  
-}
-VaemGraphRole {
-    string rdfs_label  
-    string vaem_filePrefix  
-    string dct_description  
-}
-VaemParty {
-    string rdfs_label  
-    uri vaem_url  
-    string vaem_name  
-}
-VaemViewpoint {
 
 }
 Sdos3DModel {
@@ -5185,6 +3846,1345 @@ SdosXPathType {
 SdosZoo {
 
 }
+SkosCollection {
+
+}
+SkosConcept {
+
+}
+SkosConceptScheme {
+
+}
+SkosOrderedCollection {
+
+}
+HttpPurl.orgVocabFrbrCoreEndeavour {
+
+}
+IospressGeoCodedLocation {
+
+}
+IrdrAnimalIncident {
+
+}
+IrdrBiological {
+
+}
+IrdrClimatological {
+
+}
+IrdrConvectiveStorm {
+
+}
+IrdrDisease {
+
+}
+IrdrDrought {
+
+}
+IrdrEarthquake {
+
+}
+IrdrExtraterrestrial {
+
+}
+IrdrExtratropicalStorm {
+
+}
+IrdrExtremeTemperature {
+
+}
+IrdrFlood {
+
+}
+IrdrFog {
+
+}
+IrdrGeophysical {
+
+}
+IrdrGlacialLakeOutburst {
+
+}
+IrdrHydrological {
+
+}
+IrdrImpact {
+
+}
+IrdrInsectInfestation {
+
+}
+IrdrLandslide {
+
+}
+IrdrMassMovement {
+
+}
+IrdrMetereological {
+
+}
+IrdrSpaceWeather {
+
+}
+IrdrTropicalCyclone {
+
+}
+IrdrVolcanicActivity {
+
+}
+IrdrWaveAction {
+
+}
+IrdrWildfire {
+
+}
+KwgoATH {
+
+}
+KwgoAdministrativeRegion {
+
+}
+KwgoAdministrativeRegion0 {
+
+}
+KwgoAdministrativeRegion1 {
+
+}
+KwgoAdministrativeRegion2 {
+
+}
+KwgoAdministrativeRegion3 {
+
+}
+KwgoAdministrativeRegion4 {
+
+}
+KwgoAdministrativeRegion5 {
+
+}
+KwgoAdministrativeRegion6 {
+
+}
+KwgoAirPollutant {
+    string rdfs_label  
+}
+KwgoAirQualityInstrument {
+
+}
+KwgoAirQualityObservation {
+
+}
+KwgoAirQualityObservationCollection {
+
+}
+KwgoAirQualitySite {
+
+}
+KwgoBlueskyModel {
+
+}
+KwgoBlueskyModeledWildfire {
+
+}
+KwgoBlueskyWildfireObservableProperty {
+    string rdfs_label  
+}
+KwgoBlueskyWildfireObservation {
+
+}
+KwgoBlueskyWildfireObservationCollection {
+
+}
+KwgoCTH {
+
+}
+KwgoCell {
+
+}
+KwgoCensusACS5YearEstimatesObservation {
+
+}
+KwgoCensusACS5YearEstimatesObservationCollection {
+
+}
+KwgoCensusObservableProperty {
+    string rdfs_comment  
+    string rdfs_label  
+}
+KwgoChiefJudge {
+
+}
+KwgoClimateDivisionObservationCollection {
+
+}
+KwgoClimateDivisionObservationResult {
+
+}
+KwgoClimateDivisionPropertyObservationCollection {
+
+}
+KwgoClimateObservableProperty {
+    string rdfs_label  
+}
+KwgoClimateObservation {
+
+}
+KwgoComplexFire {
+
+}
+KwgoCrisisCounselling {
+
+}
+KwgoCroplandObservableProperty {
+    string rdfs_label  
+}
+KwgoCroplandObservation {
+
+}
+KwgoCroplandObservationCollection {
+
+}
+KwgoCroplandResult {
+
+}
+KwgoDebrisRemoval-PA-A {
+
+}
+KwgoDeclaration {
+
+}
+KwgoDirectFederalAssistance {
+
+}
+KwgoDisaster {
+
+}
+KwgoDisasterHousing {
+
+}
+KwgoDisasterUnemploymentAssistance {
+
+}
+KwgoDoD {
+
+}
+KwgoDroughtIntensity {
+    string rdfs_label  
+}
+KwgoDroughtZone {
+
+}
+KwgoDroughtZoneOverlapObservation {
+
+}
+KwgoDroughtZoneOverlapObservationCollection {
+
+}
+KwgoEarthquake {
+
+}
+KwgoEarthquakeObservableProperty {
+
+}
+KwgoEarthquakeObservationCollection {
+
+}
+KwgoEmergencyDeclaration {
+
+}
+KwgoEventSegment {
+
+}
+KwgoExpertiseTopic {
+
+}
+KwgoFederalJudicalDistrict {
+
+}
+KwgoFieldsOfStudy {
+
+}
+KwgoFire {
+
+}
+KwgoFireCause {
+    string rdfs_label  
+}
+KwgoFireManagementAssistance-PA-I {
+
+}
+KwgoFireManagementDeclaration {
+
+}
+KwgoFireMappingAssessmentLabel {
+
+}
+KwgoFix {
+
+}
+KwgoGeometry {
+
+}
+KwgoGeometryCollection {
+
+}
+KwgoHazard {
+
+}
+KwgoHazardEpisode {
+
+}
+KwgoHazardMitigation {
+
+}
+KwgoHelipadAvailability {
+    string rdfs_label  
+}
+KwgoHospital {
+
+}
+KwgoHospitalStatus {
+    string rdfs_label  
+}
+KwgoHospitalType {
+    string rdfs_label  
+}
+KwgoHousingAssistance {
+
+}
+KwgoImpactObservableProperty {
+    string rdfs_label  
+}
+KwgoImpactObservation {
+
+}
+KwgoImpactObservationCollection {
+
+}
+KwgoIndividualAndFamilyGrant {
+
+}
+KwgoIndividualAssistance {
+
+}
+KwgoIndividualAssistance-PA-C {
+
+}
+KwgoIndividualsAndHouseholds {
+
+}
+KwgoJudegeInfo {
+
+}
+KwgoLSADArea {
+    string rdfs_comment  
+    string rdfs_label  
+}
+KwgoLevelI {
+
+}
+KwgoLevelII {
+
+}
+KwgoLevelIII {
+
+}
+KwgoLevelIIIPediatric {
+
+}
+KwgoLevelIIPediatric {
+
+}
+KwgoLevelIIRehab {
+
+}
+KwgoLevelIV {
+
+}
+KwgoLevelIPediatric {
+
+}
+KwgoLevelIPediatricRehab {
+
+}
+KwgoLevelIRehab {
+
+}
+KwgoLevelPediatric {
+
+}
+KwgoLevelV {
+
+}
+KwgoMTBSComplexFire {
+
+}
+KwgoMTBSFire {
+
+}
+KwgoMTBSFireObservableProperty {
+    string rdfs_comment  
+    string rdfs_label  
+}
+KwgoMTBSFireObservation {
+
+}
+KwgoMTBSFireObservationCollection {
+
+}
+KwgoMTBSOutOfAreaResponseFire {
+
+}
+KwgoMTBSPrescribedFire {
+
+}
+KwgoMTBSUnknownFire {
+
+}
+KwgoMTBSWildfire {
+
+}
+KwgoMTBSWildlandFireUse {
+
+}
+KwgoMagnitudeObservableProperty {
+    string rdfs_label  
+}
+KwgoMagnitudeObservation {
+
+}
+KwgoMagnitudeObservationCollection {
+
+}
+KwgoMajorDisasterDeclaration {
+
+}
+KwgoMappingProgram {
+
+}
+KwgoNIFCFire {
+
+}
+KwgoNIFCFireObservableProperty {
+    string rdfs_label  
+}
+KwgoNIFCFireObservation {
+
+}
+KwgoNIFCIncidentComplexFire {
+
+}
+KwgoNIFCPrescribedFire {
+
+}
+KwgoNIFCWildfire {
+
+}
+KwgoNOAAAstronomicalLowTide {
+
+}
+KwgoNOAAAvalanche {
+
+}
+KwgoNOAABlizzard {
+
+}
+KwgoNOAACoastalFlood {
+
+}
+KwgoNOAAColdWindChill {
+
+}
+KwgoNOAADebrisFlow {
+
+}
+KwgoNOAADenseFog {
+
+}
+KwgoNOAADenseSmoke {
+
+}
+KwgoNOAADrought {
+
+}
+KwgoNOAADustDevil {
+
+}
+KwgoNOAADustStorm {
+
+}
+KwgoNOAAExcessiveHeat {
+
+}
+KwgoNOAAExtremeColdWindChill {
+
+}
+KwgoNOAAFlashFlood {
+
+}
+KwgoNOAAFlood {
+
+}
+KwgoNOAAFreezingFog {
+
+}
+KwgoNOAAFrostFreeze {
+
+}
+KwgoNOAAFunnelCloud {
+
+}
+KwgoNOAAHail {
+
+}
+KwgoNOAAHazard {
+
+}
+KwgoNOAAHeat {
+
+}
+KwgoNOAAHeavyRain {
+
+}
+KwgoNOAAHeavySnow {
+
+}
+KwgoNOAAHighSurf {
+
+}
+KwgoNOAAHighWind {
+
+}
+KwgoNOAAHurricane {
+
+}
+KwgoNOAAIceStorm {
+
+}
+KwgoNOAALake-EffectSnow {
+
+}
+KwgoNOAALakeshoreFlood {
+
+}
+KwgoNOAALightning {
+
+}
+KwgoNOAAMarineHail {
+
+}
+KwgoNOAAMarineHighWind {
+
+}
+KwgoNOAAMarineHurricaneTyphoon {
+
+}
+KwgoNOAAMarineStrongWind {
+
+}
+KwgoNOAAMarineThunderstormWind {
+
+}
+KwgoNOAAMarineTropicalDepression {
+
+}
+KwgoNOAAMarineTropicalStorm {
+
+}
+KwgoNOAARipCurrent {
+
+}
+KwgoNOAASleet {
+
+}
+KwgoNOAASneakerwave {
+
+}
+KwgoNOAAStormSurgeTide {
+
+}
+KwgoNOAAStrongWind {
+
+}
+KwgoNOAAThunderstormWind {
+
+}
+KwgoNOAATornado {
+
+}
+KwgoNOAATropicalDepression {
+
+}
+KwgoNOAATropicalStorm {
+
+}
+KwgoNOAAWaterspout {
+
+}
+KwgoNOAAWildfire {
+
+}
+KwgoNOAAWinterStorm {
+
+}
+KwgoNOAAWinterWeather {
+
+}
+KwgoNWZone {
+
+}
+KwgoNielsenMarketZone {
+
+}
+KwgoOther {
+
+}
+KwgoOutOfAreaResponseFire {
+
+}
+KwgoPARC {
+
+}
+KwgoPrescribedFire {
+
+}
+KwgoProgram {
+
+}
+KwgoProtectiveMeasures-PA-B {
+
+}
+KwgoPublicAssistance {
+
+}
+KwgoPublicBuildings-PA-F {
+
+}
+KwgoPublicHealthObservableProperty {
+    string rdfs_label  
+}
+KwgoPublicHealthObservation {
+
+}
+KwgoPublicHealthObservationCollection {
+
+}
+KwgoPublicUtilitiesPA-G {
+
+}
+KwgoQuantity {
+
+}
+KwgoRPTC {
+
+}
+KwgoRTC {
+
+}
+KwgoRTH {
+
+}
+KwgoRecreationalOrOther-PA-H {
+
+}
+KwgoRegion {
+
+}
+KwgoRegionalCircuit {
+
+}
+KwgoRoadSegment {
+
+}
+KwgoRoadSegmentNode {
+
+}
+KwgoRoadType {
+    string rdfs_label  
+}
+KwgoRoadsAndBridges-PA-D {
+
+}
+KwgoS2Cell {
+
+}
+KwgoSmallBusinessAdministration {
+
+}
+KwgoSmokePlumeObservableProperty {
+    string rdfs_label  
+}
+KwgoSmokePlumeObservation {
+
+}
+KwgoSmokePlumeSnapshot {
+
+}
+KwgoSoilMapUnit {
+
+}
+KwgoSoilMapUnitObservableProperty {
+    string rdfs_comment  
+    string rdfs_label  
+}
+KwgoSoilMapUnitObservation {
+
+}
+KwgoSoilMapUnitObservationCollection {
+
+}
+KwgoSoilMapUnitOverlapObservation {
+
+}
+KwgoStormTrack {
+
+}
+KwgoStormTrackObservableProperty {
+    string rdfs_label  
+}
+KwgoStormTrackObservation {
+
+}
+KwgoStormTrackObservationCollection {
+
+}
+KwgoStormTracklet {
+
+}
+KwgoStormTrackletObservableProperty {
+    string rdfs_label  
+}
+KwgoStormTrackletObservation {
+
+}
+KwgoStormTrackletObservationCollection {
+
+}
+KwgoTRF {
+
+}
+KwgoTRH {
+
+}
+KwgoTornadoMagnitudeObservationCollection {
+
+}
+KwgoTraumaDescription {
+
+}
+KwgoTraumaLevelCare {
+
+}
+KwgoUSCensusMSA {
+
+}
+KwgoUSClimateDivision {
+
+}
+KwgoUSPresident {
+
+}
+KwgoVenue {
+
+}
+KwgoVulnerabilityIndexObservation {
+
+}
+KwgoVulnerabilityObservableProperty {
+    string rdfs_label  
+}
+KwgoWaterControlFacilities-PA-E {
+
+}
+KwgoWildfire {
+
+}
+KwgoWildlandFireUse {
+
+}
+KwgoWindMagnitudeObservationCollection {
+
+}
+KwgoZipCodeArea {
+
+}
+SosaEarthquakeObservation {
+
+}
+SosaFeatureOfInterest {
+
+}
+SosaObservableProperty {
+
+}
+SosaObservation {
+
+}
+SosaObservationCollection {
+
+}
+SosaPlatform {
+
+}
+SosaResult {
+
+}
+SosaSensor {
+
+}
+FoafAgent {
+
+}
+FoafDocument {
+
+}
+Wn16Credential {
+
+}
+Wn16Endorsement-4 {
+
+}
+Wn16Event {
+
+}
+WotEncryptedDocument {
+
+}
+WotEndorsement {
+
+}
+WotPubKey {
+
+}
+WotSigEvent {
+
+}
+WotUser {
+
+}
+FoafGroup {
+
+}
+FoafImage {
+
+}
+FoafLabelProperty {
+
+}
+FoafOnlineAccount {
+
+}
+FoafOnlineChatAccount {
+
+}
+FoafOnlineEcommerceAccount {
+
+}
+FoafOnlineGamingAccount {
+
+}
+FoafOrganization {
+
+}
+FoafPerson {
+
+}
+FoafPersonalProfileDocument {
+
+}
+FoafProject {
+
+}
+TimeDateTimeDescription {
+
+}
+TimeDateTimeInterval {
+
+}
+TimeDayOfWeek {
+    string rdfs_label  
+}
+TimeDuration {
+
+}
+TimeDurationDescription {
+
+}
+TimeGeneralDateTimeDescription {
+
+}
+TimeGeneralDurationDescription {
+
+}
+TimeInstant {
+
+}
+TimeInterval {
+
+}
+TimeJanuary {
+
+}
+TimeMonthOfYear {
+
+}
+TimeProperInterval {
+
+}
+TimeTRS {
+
+}
+TimeTemporalDuration {
+
+}
+TimeTemporalEntity {
+
+}
+TimeTemporalPosition {
+
+}
+TimeTemporalUnit {
+    decimal time_weeks  
+    decimal time_months  
+    decimal time_hours  
+    decimal time_years  
+    string rdfs_label  
+    decimal time_days  
+    decimal time_seconds  
+    decimal time_minutes  
+}
+TimeTimePosition {
+
+}
+TimeTimeZone {
+
+}
+TimeYear {
+
+}
+XsdDateTimeStamp {
+
+}
+XsdDuration {
+
+}
+XsdGYear {
+
+}
+XsdGYearMonth {
+
+}
+WgsPoint {
+
+}
+WgsSpatialThing {
+
+}
+EventEvent {
+
+}
+EventFactor {
+
+}
+EventProduct {
+
+}
+BiboAcademicArticle {
+
+}
+BiboArticle {
+
+}
+BiboAudioDocument {
+
+}
+BiboAudioVisualDocument {
+
+}
+BiboBill {
+
+}
+BiboBook {
+
+}
+BiboBookSection {
+
+}
+BiboBrief {
+
+}
+BiboChapter {
+
+}
+BiboCode {
+
+}
+BiboCollectedDocument {
+
+}
+BiboCollection {
+
+}
+BiboConference {
+
+}
+BiboCourtReporter {
+
+}
+BiboDocument {
+
+}
+BiboDocumentPart {
+
+}
+BiboDocumentStatus {
+    string rdfs_label  
+    string rdfs_comment  
+}
+BiboEditedBook {
+
+}
+BiboEmail {
+
+}
+BiboEvent {
+
+}
+BiboExcerpt {
+
+}
+BiboFilm {
+
+}
+BiboHearing {
+
+}
+BiboImage {
+
+}
+BiboInterview {
+
+}
+BiboIssue {
+
+}
+BiboJournal {
+
+}
+BiboLegalCaseDocument {
+
+}
+BiboLegalDecision {
+
+}
+BiboLegalDocument {
+
+}
+BiboLegislation {
+
+}
+BiboLetter {
+
+}
+BiboMagazine {
+
+}
+BiboManual {
+
+}
+BiboManuscript {
+
+}
+BiboMap {
+
+}
+BiboMultiVolumeBook {
+
+}
+BiboNewspaper {
+
+}
+BiboNote {
+
+}
+BiboPatent {
+
+}
+BiboPerformance {
+
+}
+BiboPeriodical {
+
+}
+BiboPersonalCommunication {
+
+}
+BiboPersonalCommunicationDocument {
+
+}
+BiboProceedings {
+
+}
+BiboQuote {
+
+}
+BiboReferenceSource {
+
+}
+BiboReport {
+
+}
+BiboSeries {
+
+}
+BiboSlide {
+
+}
+BiboSlideshow {
+
+}
+BiboStandard {
+
+}
+BiboStatute {
+
+}
+BiboThesis {
+
+}
+BiboThesisDegree {
+    string rdfs_label  
+    string rdfs_comment  
+}
+BiboWebpage {
+
+}
+BiboWebsite {
+
+}
+BiboWorkshop {
+
+}
+ProvAccept {
+
+}
+ProvActivity {
+
+}
+ProvActivityInfluence {
+
+}
+ProvAgent {
+
+}
+ProvAgentInfluence {
+
+}
+ProvAssociation {
+
+}
+ProvAttribution {
+
+}
+ProvBundle {
+
+}
+ProvCollection {
+
+}
+ProvCommunication {
+
+}
+ProvContribute {
+
+}
+ProvContributor {
+
+}
+ProvCopyright {
+
+}
+ProvCreate {
+
+}
+ProvCreator {
+
+}
+ProvDelegation {
+
+}
+ProvDerivation {
+
+}
+ProvDictionary {
+
+}
+ProvDirectQueryService {
+
+}
+ProvEmptyCollection {
+
+}
+ProvEmptyDictionary {
+
+}
+ProvEnd {
+
+}
+ProvEntity {
+
+}
+ProvEntityInfluence {
+
+}
+ProvGeneration {
+
+}
+ProvInfluence {
+
+}
+ProvInsertion {
+
+}
+ProvInstantaneousEvent {
+
+}
+ProvInvalidation {
+
+}
+ProvKeyEntityPair {
+
+}
+ProvLocation {
+
+}
+ProvModify {
+
+}
+ProvOrganization {
+
+}
+ProvPerson {
+
+}
+ProvPlan {
+
+}
+ProvPrimarySource {
+
+}
+ProvPublish {
+
+}
+ProvPublisher {
+
+}
+ProvQuotation {
+
+}
+ProvRemoval {
+
+}
+ProvReplace {
+
+}
+ProvRevision {
+
+}
+ProvRightsAssignment {
+
+}
+ProvRightsHolder {
+
+}
+ProvRole {
+
+}
+ProvServiceDescription {
+
+}
+ProvSoftwareAgent {
+
+}
+ProvStart {
+
+}
+ProvSubmit {
+
+}
+ProvUsage {
+
+}
+DtypeCodeList {
+
+}
+DtypeCompositeCodeList {
+
+}
+DtypeDerivedCodeList {
+
+}
+DtypeEnumeratedValue {
+
+}
+DtypeEnumeration {
+
+}
+DtypeSimpleCodeList {
+
+}
+DtypeValueReference {
+
+}
+XsdAnySimpleType {
+
+}
+VaemAspect {
+
+}
+VaemDimension {
+
+}
+VaemDiscipline {
+
+}
+VaemDomain {
+
+}
+VaemGraphMetaData {
+    uri vaem_namespace  
+    string dct_title  
+    string vaem_withAttributionTo  
+    uri vaem_latestPublishedVersion  
+    uri vaem_usesNonImportedResource  
+    uri vaem_turtleFileURL  
+    string vaem_owner  
+    string vaem_revision  
+    uri vaem_rdfxmlFileURL  
+    string vaem_intent  
+    string vaem_namespacePrefix  
+    string rdfs_label  
+    string vaem_title  
+    string vaem_description  
+    uri vaem_previousPublishedVersion  
+    uri vaem_logo  
+    string vaem_name  
+    date dct_modified  
+}
+VaemGraphRole {
+    string rdfs_label  
+    string vaem_filePrefix  
+    string dct_description  
+}
+VaemParty {
+    string rdfs_label  
+    uri vaem_url  
+    string vaem_name  
+}
+VaemViewpoint {
+
+}
 IcalDomainOfRrule {
 
 }
@@ -5488,508 +5488,307 @@ VoagStandard {
 VoagVocabGraph {
 
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Abstract {
-    string http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_correspondingAuthor  
-    string rdfs_label  
+HttpsIdir.uta.eduSockg-ontology#Abstract {
     date dct_issued  
+    string https___idir.uta.edu_sockg_ontology#correspondingAuthor  
     string dct_title  
+    string rdfs_label  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ActiveIngredient {
+HttpsIdir.uta.eduSockg-ontology#ActiveIngredient {
+    string rdfs_label  
     string coso_casNumber  
+}
+HttpsIdir.uta.eduSockg-ontology#Amendment {
+    date https___idir.uta.edu_sockg_ontology#startDate  
+}
+HttpsIdir.uta.eduSockg-ontology#AmendmentPlacement {
     string rdfs_label  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment {
-    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_startDate  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AmendmentPlacement {
+HttpsIdir.uta.eduSockg-ontology#AmendmentType {
     string rdfs_label  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AmendmentType {
+HttpsIdir.uta.eduSockg-ontology#AnimalClass {
     string rdfs_label  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalClass {
-    string rdfs_label  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalSpecies {
+HttpsIdir.uta.eduSockg-ontology#AnimalSpecies {
     string rdfs_label  
     string dct_description  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate {
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy {
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral {
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BookChapter {
-    string http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_correspondingAuthor  
-    string rdfs_label  
-    date dct_issued  
-    string dct_title  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BroadleafOrGrass {
-    string rdfs_label  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278CoverCrop {
-    string dct_description  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Cultivar {
-    string rdfs_label  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278CuttingHeight {
-    string rdfs_label  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Equipment {
-    string rdfs_label  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit {
-    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_endDate  
-    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_startDate  
-    boolean http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_inferred  
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitUrl  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278FertilizerAmendment {
-    string dct_description  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278FundingSource {
-    string rdfs_label  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss {
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingManagement {
-    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_endDate  
-    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_startDate  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingPlants {
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingRate {
-    string dct_description  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage {
-    string rdfs_label  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStageManagement {
+HttpsIdir.uta.eduSockg-ontology#BiomassAnalysis {
 
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction {
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
+HttpsIdir.uta.eduSockg-ontology#BiomassCarbohydrate {
+    uri https___idir.uta.edu_sockg_ontology#usesTreatment  
+    uri https___idir.uta.edu_sockg_ontology#fromUnit  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestedFraction {
-    string rdfs_label  
+HttpsIdir.uta.eduSockg-ontology#BiomassEnergy {
+    uri https___idir.uta.edu_sockg_ontology#usesTreatment  
+    uri https___idir.uta.edu_sockg_ontology#fromUnit  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Irrigation {
-    string rdfs_label  
+HttpsIdir.uta.eduSockg-ontology#BiomassMineral {
+    uri https___idir.uta.edu_sockg_ontology#usesTreatment  
+    uri https___idir.uta.edu_sockg_ontology#fromUnit  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle {
-    string http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_correspondingAuthor  
-    string rdfs_label  
+HttpsIdir.uta.eduSockg-ontology#BookChapter {
     date dct_issued  
+    string https___idir.uta.edu_sockg_ontology#correspondingAuthor  
     string dct_title  
-    string dct_description  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location {
-    string rdfs_label  
-    string dct_description  
-    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_endDate  
-    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_startDate  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278LossesOrDeposition {
     string rdfs_label  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement {
+HttpsIdir.uta.eduSockg-ontology#BroadleafOrGrass {
+    string rdfs_label  
+}
+HttpsIdir.uta.eduSockg-ontology#ChamberPlacement {
+    string rdfs_label  
+}
+HttpsIdir.uta.eduSockg-ontology#CoverCrop {
+    string dct_description  
+}
+HttpsIdir.uta.eduSockg-ontology#CropRelatedMeasurement {
 
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency {
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278OtherEvents {
+HttpsIdir.uta.eduSockg-ontology#Cultivar {
     string rdfs_label  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Parameter {
+HttpsIdir.uta.eduSockg-ontology#CuttingHeight {
     string rdfs_label  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PesticidePlacement {
+HttpsIdir.uta.eduSockg-ontology#Equipment {
     string rdfs_label  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PesticideTarget {
+HttpsIdir.uta.eduSockg-ontology#ErosionMeasurement {
+
+}
+HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit {
+    uri https___idir.uta.edu_sockg_ontology#unitUrl  
+    boolean https___idir.uta.edu_sockg_ontology#inferred  
+    date https___idir.uta.edu_sockg_ontology#startDate  
+    date https___idir.uta.edu_sockg_ontology#endDate  
+}
+HttpsIdir.uta.eduSockg-ontology#FertilizerAmendment {
+    string dct_description  
+}
+HttpsIdir.uta.eduSockg-ontology#FundingSource {
     string rdfs_label  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantFraction {
+HttpsIdir.uta.eduSockg-ontology#GHGFlux {
+    uri https___idir.uta.edu_sockg_ontology#usesTreatment  
+    uri https___idir.uta.edu_sockg_ontology#fromUnit  
+}
+HttpsIdir.uta.eduSockg-ontology#GasNutrientLoss {
+    uri https___idir.uta.edu_sockg_ontology#usesTreatment  
+    uri https___idir.uta.edu_sockg_ontology#fromUnit  
+}
+HttpsIdir.uta.eduSockg-ontology#GrazingManagement {
+    date https___idir.uta.edu_sockg_ontology#startDate  
+    date https___idir.uta.edu_sockg_ontology#endDate  
+}
+HttpsIdir.uta.eduSockg-ontology#GrazingPlants {
+    uri https___idir.uta.edu_sockg_ontology#usesTreatment  
+    uri https___idir.uta.edu_sockg_ontology#fromUnit  
+}
+HttpsIdir.uta.eduSockg-ontology#GrazingRate {
+    string dct_description  
+}
+HttpsIdir.uta.eduSockg-ontology#GrowthStage {
     string rdfs_label  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingManagement {
-    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_startDate  
+HttpsIdir.uta.eduSockg-ontology#GrowthStageManagement {
+
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingMethod {
+HttpsIdir.uta.eduSockg-ontology#GrowthStageRelatedMeasurement {
+
+}
+HttpsIdir.uta.eduSockg-ontology#HarvestFraction {
+    uri https___idir.uta.edu_sockg_ontology#usesTreatment  
+    uri https___idir.uta.edu_sockg_ontology#fromUnit  
+}
+HttpsIdir.uta.eduSockg-ontology#HarvestedFraction {
     string rdfs_label  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PopularArticle {
-    string http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_correspondingAuthor  
+HttpsIdir.uta.eduSockg-ontology#Irrigation {
     string rdfs_label  
+}
+HttpsIdir.uta.eduSockg-ontology#JournalArticle {
     date dct_issued  
-    string dct_title  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Proceedings {
-    string http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_correspondingAuthor  
-    string rdfs_label  
-    date dct_issued  
+    string https___idir.uta.edu_sockg_ontology#correspondingAuthor  
     string dct_title  
     string dct_description  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Project {
-    string dct_description  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ProjectScenario {
-    string dct_description  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Report {
-    string http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_correspondingAuthor  
-    string rdfs_label  
-    date dct_issued  
-    string dct_title  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement {
-    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_startDate  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement {
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueRemoval {
-    string dct_description  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Rotation {
-    string dct_description  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SimulationModel {
     string rdfs_label  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site {
+HttpsIdir.uta.eduSockg-ontology#Location {
+    string dct_description  
+    string rdfs_label  
+    date https___idir.uta.edu_sockg_ontology#endDate  
+    date https___idir.uta.edu_sockg_ontology#startDate  
+}
+HttpsIdir.uta.eduSockg-ontology#LossesOrDeposition {
+    string rdfs_label  
+}
+HttpsIdir.uta.eduSockg-ontology#MeasurableEntity {
 
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample {
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
+HttpsIdir.uta.eduSockg-ontology#Measurement {
+
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample {
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
+HttpsIdir.uta.eduSockg-ontology#NutrientEfficiency {
+    uri https___idir.uta.edu_sockg_ontology#usesTreatment  
+    uri https___idir.uta.edu_sockg_ontology#fromUnit  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilCover {
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample {
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SpeciesMix {
+HttpsIdir.uta.eduSockg-ontology#OtherEvents {
     string rdfs_label  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278StartStopInterval {
+HttpsIdir.uta.eduSockg-ontology#Parameter {
     string rdfs_label  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SurfaceOrLeaching {
+HttpsIdir.uta.eduSockg-ontology#PesticidePlacement {
     string rdfs_label  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Thesis {
-    string http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_correspondingAuthor  
+HttpsIdir.uta.eduSockg-ontology#PesticideTarget {
     string rdfs_label  
+}
+HttpsIdir.uta.eduSockg-ontology#PlantFraction {
+    string rdfs_label  
+}
+HttpsIdir.uta.eduSockg-ontology#PlantFractionRelatedMeasurement {
+
+}
+HttpsIdir.uta.eduSockg-ontology#PlantingManagement {
+    date https___idir.uta.edu_sockg_ontology#startDate  
+}
+HttpsIdir.uta.eduSockg-ontology#PlantingMethod {
+    string rdfs_label  
+}
+HttpsIdir.uta.eduSockg-ontology#PopularArticle {
     date dct_issued  
+    string https___idir.uta.edu_sockg_ontology#correspondingAuthor  
+    string dct_title  
+    string rdfs_label  
+}
+HttpsIdir.uta.eduSockg-ontology#PossiblySimulatedMeasurement {
+
+}
+HttpsIdir.uta.eduSockg-ontology#Proceedings {
+    date dct_issued  
+    string https___idir.uta.edu_sockg_ontology#correspondingAuthor  
     string dct_title  
     string dct_description  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Tillage {
-    string dct_description  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageEvent {
     string rdfs_label  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageManagement {
-    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_startDate  
+HttpsIdir.uta.eduSockg-ontology#Project {
+    string dct_description  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageMethod {
+HttpsIdir.uta.eduSockg-ontology#ProjectScenario {
+    string dct_description  
+}
+HttpsIdir.uta.eduSockg-ontology#QualityMeasurement {
+
+}
+HttpsIdir.uta.eduSockg-ontology#Report {
+    date dct_issued  
+    string https___idir.uta.edu_sockg_ontology#correspondingAuthor  
+    string dct_title  
     string rdfs_label  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Timing {
+HttpsIdir.uta.eduSockg-ontology#ResidueManagement {
+    date https___idir.uta.edu_sockg_ontology#startDate  
+}
+HttpsIdir.uta.eduSockg-ontology#ResidueMeasurement {
+    uri https___idir.uta.edu_sockg_ontology#usesTreatment  
+    uri https___idir.uta.edu_sockg_ontology#fromUnit  
+}
+HttpsIdir.uta.eduSockg-ontology#ResidueRemoval {
     string dct_description  
 }
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment {
+HttpsIdir.uta.eduSockg-ontology#Rotation {
     string dct_description  
-    boolean http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_organicManagement  
-    boolean http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_tileDrainage  
-    boolean http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_irrigation  
-    date http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_startDate  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityArea {
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration {
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea {
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
-}
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake {
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit  
-    uri http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment  
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#Abstract {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#ActiveIngredient {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#Amendment {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#AmendmentPlacement {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#AnimalClass {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#AnimalSpecies {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#BiomassAnalysis {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#BiomassCarbohydrate {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#BiomassEnergy {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#BiomassMineral {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#BookChapter {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#BroadleafOrGrass {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#ChamberPlacement {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#CoverCrop {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#CropRelatedMeasurement {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#Cultivar {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#CuttingHeight {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#Equipment {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#ErosionMeasurement {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#ExperimentalUnit {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#FertilizerAmendment {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#FundingSource {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#GHGFlux {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#GasNutrientLoss {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#GrazingManagement {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#GrazingPlants {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#GrazingRate {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#GrowthStage {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#GrowthStageManagement {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#GrowthStageRelatedMeasurement {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#HarvestFraction {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#HarvestedFraction {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#Irrigation {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#JournalArticle {
-
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#Location {
+HttpsIdir.uta.eduSockg-ontology#Sample {
 
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#LossesOrDeposition {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#MeasurableEntity {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#Measurement {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#NutrientEfficiency {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#OtherEvents {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#Parameter {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#PesticidePlacement {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#PesticideTarget {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#PlantFraction {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#PlantFractionRelatedMeasurement {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#PlantingManagement {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#PlantingMethod {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#PopularArticle {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#PossiblySimulatedMeasurement {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#Proceedings {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#Project {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#ProjectScenario {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#QualityMeasurement {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#Report {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#ResidueManagement {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#ResidueMeasurement {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#ResidueRemoval {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#Rotation {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#Sample {
-
-}
-HttpsIdir.uta.eduSockg-ontologyDocs#SimulationModel {
-
+HttpsIdir.uta.eduSockg-ontology#SimulationModel {
+    string rdfs_label  
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#Site {
+HttpsIdir.uta.eduSockg-ontology#Site {
 
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#SoilBiologicalSample {
-
+HttpsIdir.uta.eduSockg-ontology#SoilBiologicalSample {
+    uri https___idir.uta.edu_sockg_ontology#usesTreatment  
+    uri https___idir.uta.edu_sockg_ontology#fromUnit  
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#SoilChemicalSample {
-
+HttpsIdir.uta.eduSockg-ontology#SoilChemicalSample {
+    uri https___idir.uta.edu_sockg_ontology#usesTreatment  
+    uri https___idir.uta.edu_sockg_ontology#fromUnit  
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#SoilCover {
-
+HttpsIdir.uta.eduSockg-ontology#SoilCover {
+    uri https___idir.uta.edu_sockg_ontology#usesTreatment  
+    uri https___idir.uta.edu_sockg_ontology#fromUnit  
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#SoilPhysicalSample {
-
+HttpsIdir.uta.eduSockg-ontology#SoilPhysicalSample {
+    uri https___idir.uta.edu_sockg_ontology#usesTreatment  
+    uri https___idir.uta.edu_sockg_ontology#fromUnit  
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#SoilSample {
+HttpsIdir.uta.eduSockg-ontology#SoilSample {
 
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#SpeciesMix {
-
+HttpsIdir.uta.eduSockg-ontology#SpeciesMix {
+    string rdfs_label  
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#StartStopInterval {
-
+HttpsIdir.uta.eduSockg-ontology#StartStopInterval {
+    string rdfs_label  
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#SurfaceOrLeaching {
-
+HttpsIdir.uta.eduSockg-ontology#SurfaceOrLeaching {
+    string rdfs_label  
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#Thesis {
-
+HttpsIdir.uta.eduSockg-ontology#Thesis {
+    date dct_issued  
+    string https___idir.uta.edu_sockg_ontology#correspondingAuthor  
+    string dct_title  
+    string dct_description  
+    string rdfs_label  
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#Tillage {
-
+HttpsIdir.uta.eduSockg-ontology#Tillage {
+    string dct_description  
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#TillageEvent {
-
+HttpsIdir.uta.eduSockg-ontology#TillageEvent {
+    string rdfs_label  
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#TillageManagement {
-
+HttpsIdir.uta.eduSockg-ontology#TillageManagement {
+    date https___idir.uta.edu_sockg_ontology#startDate  
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#TillageMethod {
-
+HttpsIdir.uta.eduSockg-ontology#TillageMethod {
+    string rdfs_label  
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#Timing {
-
+HttpsIdir.uta.eduSockg-ontology#Timing {
+    string dct_description  
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#Treatment {
-
+HttpsIdir.uta.eduSockg-ontology#Treatment {
+    boolean https___idir.uta.edu_sockg_ontology#tileDrainage  
+    string dct_description  
+    date https___idir.uta.edu_sockg_ontology#startDate  
+    boolean https___idir.uta.edu_sockg_ontology#organicManagement  
+    boolean https___idir.uta.edu_sockg_ontology#irrigation  
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#WaterQualityArea {
-
+HttpsIdir.uta.eduSockg-ontology#WaterQualityArea {
+    uri https___idir.uta.edu_sockg_ontology#usesTreatment  
+    uri https___idir.uta.edu_sockg_ontology#fromUnit  
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#WaterQualityConcentration {
-
+HttpsIdir.uta.eduSockg-ontology#WaterQualityConcentration {
+    uri https___idir.uta.edu_sockg_ontology#usesTreatment  
+    uri https___idir.uta.edu_sockg_ontology#fromUnit  
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#WeatherObservation {
-
+HttpsIdir.uta.eduSockg-ontology#WeatherObservation {
+    boolean https___idir.uta.edu_sockg_ontology#badValueFlag  
+    uri https___idir.uta.edu_sockg_ontology#usesTreatment  
+    uri https___idir.uta.edu_sockg_ontology#fromUnit  
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#WindErosionArea {
-
+HttpsIdir.uta.eduSockg-ontology#WindErosionArea {
+    uri https___idir.uta.edu_sockg_ontology#usesTreatment  
+    uri https___idir.uta.edu_sockg_ontology#fromUnit  
 }
-HttpsIdir.uta.eduSockg-ontologyDocs#YieldNutrientUptake {
-
+HttpsIdir.uta.eduSockg-ontology#YieldNutrientUptake {
+    uri https___idir.uta.edu_sockg_ontology#usesTreatment  
+    uri https___idir.uta.edu_sockg_ontology#fromUnit  
 }
 HttpsLod.nal.usda.govNalt7140 {
     string rdfs_label  
@@ -5998,6 +5797,17 @@ KwgoS2CellLevel13 {
 
 }
 
+DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "dct_issued"
+DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "rdfs_label"
+DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "rdfs_comment"
+DcamVocabularyEncodingScheme ||--|o RdfsResource : "rdfs_seeAlso"
+DcamVocabularyEncodingScheme ||--|o OwlOntology : "rdfs_isDefinedBy"
+DcamVocabularyEncodingScheme ||--|o RdfsResource : "rdfs_isDefinedBy"
+DctAgentClass ||--|o RdfsLiteral : "rdfs_label"
+DctAgentClass ||--|o RdfsLiteral : "rdfs_comment"
+DctAgentClass ||--|o RdfsLiteral : "dct_issued"
+DctAgentClass ||--|o OwlOntology : "rdfs_isDefinedBy"
+DctAgentClass ||--|o RdfsResource : "rdfs_isDefinedBy"
 OwlDataRange ||--|o OwlOntology : "rdfs_isDefinedBy"
 OwlDataRange ||--|o RdfsResource : "rdfs_isDefinedBy"
 OwlDataRange ||--|o RdfsClass : "rdfs_subClassOf"
@@ -6014,23 +5824,6 @@ RdfsDatatype ||--|o RdfsClass : "rdfs_subClassOf"
 RdfsDatatype ||--|o RdfsResource : "rdfs_seeAlso"
 RdfsDatatype ||--|o RdfsLiteral : "rdfs_label"
 RdfsDatatype ||--|o RdfsLiteral : "rdfs_comment"
-DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "dct_issued"
-DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "rdfs_label"
-DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "rdfs_comment"
-DcamVocabularyEncodingScheme ||--|o RdfsResource : "rdfs_seeAlso"
-DcamVocabularyEncodingScheme ||--|o OwlOntology : "rdfs_isDefinedBy"
-DcamVocabularyEncodingScheme ||--|o RdfsResource : "rdfs_isDefinedBy"
-DctAgentClass ||--|o RdfsLiteral : "rdfs_label"
-DctAgentClass ||--|o RdfsLiteral : "rdfs_comment"
-DctAgentClass ||--|o RdfsLiteral : "dct_issued"
-DctAgentClass ||--|o OwlOntology : "rdfs_isDefinedBy"
-DctAgentClass ||--|o RdfsResource : "rdfs_isDefinedBy"
-TimeDayOfWeek ||--|o RdfsLiteral : "rdfs_label"
-TimeTemporalUnit ||--|o RdfsLiteral : "rdfs_label"
-BiboDocumentStatus ||--|o RdfsLiteral : "rdfs_label"
-BiboDocumentStatus ||--|o RdfsLiteral : "rdfs_comment"
-BiboThesisDegree ||--|o RdfsLiteral : "rdfs_label"
-BiboThesisDegree ||--|o RdfsLiteral : "rdfs_comment"
 QudtAngleUnit ||--|o RdfsLiteral : "rdfs_label"
 QudtAngleUnit ||--|o QudtQuantityKindDimensionVector : "qudt_hasDimensionVector"
 QudtAngleUnit ||--|o QudtQuantityKind : "qudt_hasQuantityKind"
@@ -6300,51 +6093,6 @@ QudtUnit ||--|o QudtCountingUnit : "qudt_exactMatch"
 QudtUnit ||--|o QudtQuantityKindDimensionVector : "qudt_hasDimensionVector"
 QudtUnit ||--|o QudtQuantityKindDimensionVector : "qudt_qkdvDenominator"
 QudtUnit ||--|o ProvEntity : "prov_wasDerivedFrom"
-KwgoAirPollutant ||--|o RdfsLiteral : "rdfs_label"
-KwgoBlueskyWildfireObservableProperty ||--|o RdfsLiteral : "rdfs_label"
-KwgoCensusObservableProperty ||--|o RdfsLiteral : "rdfs_comment"
-KwgoCensusObservableProperty ||--|o RdfsLiteral : "rdfs_label"
-KwgoCensusObservableProperty ||--|o OwlOntology : "rdfs_isDefinedBy"
-KwgoCensusObservableProperty ||--|o RdfsResource : "rdfs_isDefinedBy"
-KwgoClimateObservableProperty ||--|o RdfsLiteral : "rdfs_label"
-KwgoCroplandObservableProperty ||--|o RdfsLiteral : "rdfs_label"
-KwgoDroughtIntensity ||--|o RdfsLiteral : "rdfs_label"
-KwgoFireCause ||--|o RdfsLiteral : "rdfs_label"
-KwgoHelipadAvailability ||--|o RdfsLiteral : "rdfs_label"
-KwgoHospitalStatus ||--|o RdfsLiteral : "rdfs_label"
-KwgoHospitalType ||--|o RdfsLiteral : "rdfs_label"
-KwgoImpactObservableProperty ||--|o RdfsLiteral : "rdfs_label"
-KwgoLSADArea ||--|o RdfsLiteral : "rdfs_comment"
-KwgoLSADArea ||--|o RdfsLiteral : "rdfs_label"
-KwgoMTBSFireObservableProperty ||--|o RdfsLiteral : "rdfs_comment"
-KwgoMTBSFireObservableProperty ||--|o RdfsLiteral : "rdfs_label"
-KwgoMagnitudeObservableProperty ||--|o RdfsLiteral : "rdfs_label"
-KwgoNIFCFireObservableProperty ||--|o RdfsLiteral : "rdfs_label"
-KwgoPublicHealthObservableProperty ||--|o RdfsLiteral : "rdfs_label"
-KwgoRoadType ||--|o RdfsLiteral : "rdfs_label"
-KwgoSmokePlumeObservableProperty ||--|o RdfsLiteral : "rdfs_label"
-KwgoSoilMapUnitObservableProperty ||--|o RdfsLiteral : "rdfs_comment"
-KwgoSoilMapUnitObservableProperty ||--|o RdfsLiteral : "rdfs_label"
-KwgoStormTrackObservableProperty ||--|o RdfsLiteral : "rdfs_label"
-KwgoStormTrackletObservableProperty ||--|o RdfsLiteral : "rdfs_label"
-KwgoVulnerabilityObservableProperty ||--|o RdfsLiteral : "rdfs_label"
-VaemGraphMetaData ||--|o VaemGraphRole : "vaem_hasGraphRole"
-VaemGraphMetaData ||--|o VaemParty : "vaem_hasOwner"
-VaemGraphMetaData ||--|o RdfsLiteral : "dct_title"
-VaemGraphMetaData ||--|o OwlAnnotationProperty : "vaem_usesNonImportedResource"
-VaemGraphMetaData ||--|o RdfsResource : "vaem_usesNonImportedResource"
-VaemGraphMetaData ||--|o RdfsLiteral : "dct_created"
-VaemGraphMetaData ||--|o VaemParty : "vaem_hasSteward"
-VaemGraphMetaData ||--|o RdfsLiteral : "rdfs_label"
-VaemGraphMetaData ||--|o OwlOntology : "rdfs_isDefinedBy"
-VaemGraphMetaData ||--|o RdfsResource : "rdfs_isDefinedBy"
-VaemGraphMetaData ||--|o RdfsLiteral : "dct_modified"
-VaemGraphRole ||--|o RdfsLiteral : "rdfs_label"
-VaemGraphRole ||--|o OwlOntology : "rdfs_isDefinedBy"
-VaemGraphRole ||--|o RdfsResource : "rdfs_isDefinedBy"
-VaemParty ||--|o RdfsLiteral : "rdfs_label"
-VaemParty ||--|o OwlOntology : "rdfs_isDefinedBy"
-VaemParty ||--|o RdfsResource : "rdfs_isDefinedBy"
 SdosActionStatusType ||--|o RdfsLiteral : "rdfs_comment"
 SdosActionStatusType ||--|o RdfsLiteral : "rdfs_label"
 SdosAdultOrientedEnumeration ||--|o RdfsLiteral : "rdfs_comment"
@@ -6647,6 +6395,57 @@ SdosWearableSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosWearableSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosWearableSizeSystemEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosWearableSizeSystemEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+KwgoAirPollutant ||--|o RdfsLiteral : "rdfs_label"
+KwgoBlueskyWildfireObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoCensusObservableProperty ||--|o RdfsLiteral : "rdfs_comment"
+KwgoCensusObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoCensusObservableProperty ||--|o OwlOntology : "rdfs_isDefinedBy"
+KwgoCensusObservableProperty ||--|o RdfsResource : "rdfs_isDefinedBy"
+KwgoClimateObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoCroplandObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoDroughtIntensity ||--|o RdfsLiteral : "rdfs_label"
+KwgoFireCause ||--|o RdfsLiteral : "rdfs_label"
+KwgoHelipadAvailability ||--|o RdfsLiteral : "rdfs_label"
+KwgoHospitalStatus ||--|o RdfsLiteral : "rdfs_label"
+KwgoHospitalType ||--|o RdfsLiteral : "rdfs_label"
+KwgoImpactObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoLSADArea ||--|o RdfsLiteral : "rdfs_comment"
+KwgoLSADArea ||--|o RdfsLiteral : "rdfs_label"
+KwgoMTBSFireObservableProperty ||--|o RdfsLiteral : "rdfs_comment"
+KwgoMTBSFireObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoMagnitudeObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoNIFCFireObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoPublicHealthObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoRoadType ||--|o RdfsLiteral : "rdfs_label"
+KwgoSmokePlumeObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoSoilMapUnitObservableProperty ||--|o RdfsLiteral : "rdfs_comment"
+KwgoSoilMapUnitObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoStormTrackObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoStormTrackletObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+KwgoVulnerabilityObservableProperty ||--|o RdfsLiteral : "rdfs_label"
+TimeDayOfWeek ||--|o RdfsLiteral : "rdfs_label"
+TimeTemporalUnit ||--|o RdfsLiteral : "rdfs_label"
+BiboDocumentStatus ||--|o RdfsLiteral : "rdfs_label"
+BiboDocumentStatus ||--|o RdfsLiteral : "rdfs_comment"
+BiboThesisDegree ||--|o RdfsLiteral : "rdfs_label"
+BiboThesisDegree ||--|o RdfsLiteral : "rdfs_comment"
+VaemGraphMetaData ||--|o VaemGraphRole : "vaem_hasGraphRole"
+VaemGraphMetaData ||--|o VaemParty : "vaem_hasOwner"
+VaemGraphMetaData ||--|o RdfsLiteral : "dct_title"
+VaemGraphMetaData ||--|o OwlAnnotationProperty : "vaem_usesNonImportedResource"
+VaemGraphMetaData ||--|o RdfsResource : "vaem_usesNonImportedResource"
+VaemGraphMetaData ||--|o RdfsLiteral : "dct_created"
+VaemGraphMetaData ||--|o VaemParty : "vaem_hasSteward"
+VaemGraphMetaData ||--|o RdfsLiteral : "rdfs_label"
+VaemGraphMetaData ||--|o OwlOntology : "rdfs_isDefinedBy"
+VaemGraphMetaData ||--|o RdfsResource : "rdfs_isDefinedBy"
+VaemGraphMetaData ||--|o RdfsLiteral : "dct_modified"
+VaemGraphRole ||--|o RdfsLiteral : "rdfs_label"
+VaemGraphRole ||--|o OwlOntology : "rdfs_isDefinedBy"
+VaemGraphRole ||--|o RdfsResource : "rdfs_isDefinedBy"
+VaemParty ||--|o RdfsLiteral : "rdfs_label"
+VaemParty ||--|o OwlOntology : "rdfs_isDefinedBy"
+VaemParty ||--|o RdfsResource : "rdfs_isDefinedBy"
 AdmsSemanticAssetDistribution ||--|o SkosConcept : "adms_status"
 RdfDatatypeProperty ||--|o RdfsClass : "rdfs_domain"
 RdfDatatypeProperty ||--|o RdfsLiteral : "rdfs_comment"
@@ -6730,254 +6529,272 @@ VoagPublicationStatus ||--|o RdfsLiteral : "rdfs_label"
 VoagSchemaGraph ||--|o OwlOntology : "rdfs_isDefinedBy"
 VoagSchemaGraph ||--|o RdfsResource : "rdfs_isDefinedBy"
 VoagSchemaGraph ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Abstract ||--|o RdfsLiteral : "dct_bibliographicCitation"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Abstract ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Abstract ||--|o RdfsLiteral : "dct_issued"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Abstract ||--|o RdfsLiteral : "dct_title"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ActiveIngredient ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PesticideTarget : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasPesticideTarget"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ActiveIngredient : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasPesticideActiveIngredient"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PesticidePlacement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_withPesticidePlacement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AmendmentType : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasAmendmentType"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Irrigation : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesIrrigation"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AmendmentPlacement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_withPlacement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AmendmentPlacement ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AmendmentType ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalClass ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalSpecies ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantFraction : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasPlantFraction"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate ||--|o RdfsLiteral : "dct_date"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantFraction : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasPlantFraction"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy ||--|o RdfsLiteral : "dct_date"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantFraction : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasPlantFraction"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral ||--|o RdfsLiteral : "dct_date"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BookChapter ||--|o RdfsLiteral : "dct_bibliographicCitation"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BookChapter ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BookChapter ||--|o RdfsLiteral : "dct_issued"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BookChapter ||--|o RdfsLiteral : "dct_title"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BroadleafOrGrass ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Cultivar ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278CuttingHeight ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Equipment ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_unitHasResidueManagement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStageManagement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_unitHasGrowthStageManagement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingManagement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_unitHasPlantingManagement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingManagement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_unitHasGrazingManagement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageManagement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_unitHasTillageManagement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_unitHasAmendment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit ||--|o RdfsLiteral : "dct_identifier"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278FundingSource ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278StartStopInterval : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_withStartStopInterval"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SimulationModel : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesModel"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss ||--|o RdfsLiteral : "dct_date"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalSpecies : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasAnimalSpecies"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalClass : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasAnimalClass"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278OtherEvents : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasOtherEvents"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingPlants ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SpeciesMix : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasSpeciesMix"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingPlants ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingPlants ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingPlants ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingPlants ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BroadleafOrGrass : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasBroadleafOrGrass"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingPlants ||--|o RdfsLiteral : "dct_date"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingPlants ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStageManagement ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStageManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStageManagement ||--|o RdfsLiteral : "dct_date"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantFraction : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasPlantFraction"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction ||--|o RdfsLiteral : "dct_date"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestedFraction ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Irrigation ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle ||--|o RdfsLiteral : "dct_bibliographicCitation"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle ||--|o RdfsLiteral : "dct_issued"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle ||--|o RdfsLiteral : "dct_title"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle ||--|o RdfsLiteral : "dct_identifier"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278FundingSource : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fundedBy"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site : "spatial_connectedTo"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location : "spatial_connectedTo"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o KwgoAdministrativeRegion2 : "spatial_connectedTo"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o KwgoS2CellLevel13 : "spatial_connectedTo"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BookChapter : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_cites"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PopularArticle : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_cites"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Report : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_cites"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o DctBibliographicResource : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_cites"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Proceedings : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_cites"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Abstract : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_cites"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Thesis : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_cites"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_cites"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasTreatment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o GeoGeometry : "geo_hasGeometry"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location ||--|o RdfsLiteral : "dct_identifier"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278LossesOrDeposition ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement ||--|o QudtQuantityValue : "qudt_quantityValue"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Parameter : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_of"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantFraction : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasPlantFraction"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency ||--|o RdfsLiteral : "dct_date"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278OtherEvents ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Parameter ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PesticidePlacement ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PesticideTarget ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantFraction ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Cultivar : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCultivar"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingManagement ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingMethod : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesPlantingMethod"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingMethod ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PopularArticle ||--|o RdfsLiteral : "dct_bibliographicCitation"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PopularArticle ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PopularArticle ||--|o RdfsLiteral : "dct_issued"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PopularArticle ||--|o RdfsLiteral : "dct_title"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Proceedings ||--|o RdfsLiteral : "dct_bibliographicCitation"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Proceedings ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Proceedings ||--|o RdfsLiteral : "dct_issued"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Proceedings ||--|o RdfsLiteral : "dct_title"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Report ||--|o RdfsLiteral : "dct_bibliographicCitation"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Report ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Report ||--|o RdfsLiteral : "dct_issued"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Report ||--|o RdfsLiteral : "dct_title"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278CuttingHeight : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_withCuttingHeight"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Equipment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesEquipment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement ||--|o RdfsLiteral : "dct_date"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestedFraction : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasHarvestedFraction"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SimulationModel ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site ||--|o SdosText : "sdos_postalCode"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site : "spatial_connectedTo"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location : "spatial_connectedTo"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site ||--|o KwgoAdministrativeRegion2 : "spatial_connectedTo"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site ||--|o KwgoS2CellLevel13 : "spatial_connectedTo"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site ||--|o RdfsLiteral : "dct_identifier"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample ||--|o RdfsLiteral : "dct_date"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample ||--|o QudtQuantityValue : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_lowerDepth"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample ||--|o QudtQuantityValue : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_upperDepth"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SimulationModel : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesModel"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample ||--|o RdfsLiteral : "dct_date"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample ||--|o QudtQuantityValue : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_lowerDepth"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample ||--|o QudtQuantityValue : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_upperDepth"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilCover ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Timing : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasTiming"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilCover ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilCover ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilCover ||--|o RdfsLiteral : "dct_date"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilCover ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SimulationModel : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesModel"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample ||--|o RdfsLiteral : "dct_date"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample ||--|o QudtQuantityValue : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_lowerDepth"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample ||--|o QudtQuantityValue : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_upperDepth"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SpeciesMix ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278StartStopInterval ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SurfaceOrLeaching ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Thesis ||--|o RdfsLiteral : "dct_bibliographicCitation"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Thesis ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Thesis ||--|o RdfsLiteral : "dct_issued"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Thesis ||--|o RdfsLiteral : "dct_title"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageEvent ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageEvent : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasTillageEvent"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageManagement ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageMethod : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTillageMethod"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageManagement ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageMethod ||--|o RdfsLiteral : "rdfs_label"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStageManagement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_treatmentHasGrowthStageManagement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_treatmentHasAmendment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingManagement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_treatmentHasPlantingManagement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ProjectScenario : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasProjectScenario"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalSpecies : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasAnimalSpecies"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingManagement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_treatmentHasGrazingManagement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_treatmentHasResidueManagement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueRemoval : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesResidueRemoval"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Rotation : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasRotation"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278FertilizerAmendment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesFertilizerAmendment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Project : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromProject"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingRate : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrazingRate"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o RdfsLiteral : "dct_identifier"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278CoverCrop : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesCoverCrop"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Tillage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasTillage"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageManagement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_treatmentHasTillageManagement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278LossesOrDeposition : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasLossesOrDeposition"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityArea ||--|o RdfsLiteral : "dct_date"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SurfaceOrLeaching : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasSurfaceOrLeaching"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278StartStopInterval : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_withStartStopInterval"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SimulationModel : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesModel"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration ||--|o RdfsLiteral : "dct_date"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SurfaceOrLeaching : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasSurfaceOrLeaching"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278LossesOrDeposition : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasLossesOrDeposition"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278StartStopInterval : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_withStartStopInterval"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SimulationModel : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesModel"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea ||--|o RdfsLiteral : "dct_date"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantFraction : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasPlantFraction"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_fromUnit"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_usesTreatment"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasGrowthStage"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake ||--|o RdfsLiteral : "dct_date"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake ||--|o HttpsLod.nal.usda.govNalt7140 : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasCrop"
-HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement : "http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#Abstract ||--|o RdfsLiteral : "dct_issued"
+HttpsIdir.uta.eduSockg-ontology#Abstract ||--|o RdfsLiteral : "dct_bibliographicCitation"
+HttpsIdir.uta.eduSockg-ontology#Abstract ||--|o RdfsLiteral : "dct_title"
+HttpsIdir.uta.eduSockg-ontology#Abstract ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#ActiveIngredient ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#Amendment ||--|o HttpsIdir.uta.eduSockg-ontology#PesticidePlacement : "https___idir.uta.edu_sockg-ontology#withPesticidePlacement"
+HttpsIdir.uta.eduSockg-ontology#Amendment ||--|o HttpsIdir.uta.eduSockg-ontology#Irrigation : "https___idir.uta.edu_sockg-ontology#usesIrrigation"
+HttpsIdir.uta.eduSockg-ontology#Amendment ||--|o HttpsLod.nal.usda.govNalt7140 : "https___idir.uta.edu_sockg-ontology#hasCrop"
+HttpsIdir.uta.eduSockg-ontology#Amendment ||--|o HttpsIdir.uta.eduSockg-ontology#PesticideTarget : "https___idir.uta.edu_sockg-ontology#hasPesticideTarget"
+HttpsIdir.uta.eduSockg-ontology#Amendment ||--|o HttpsIdir.uta.eduSockg-ontology#AmendmentType : "https___idir.uta.edu_sockg-ontology#hasAmendmentType"
+HttpsIdir.uta.eduSockg-ontology#Amendment ||--|o HttpsIdir.uta.eduSockg-ontology#AmendmentPlacement : "https___idir.uta.edu_sockg-ontology#withPlacement"
+HttpsIdir.uta.eduSockg-ontology#Amendment ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#Amendment ||--|o HttpsIdir.uta.eduSockg-ontology#ActiveIngredient : "https___idir.uta.edu_sockg-ontology#hasPesticideActiveIngredient"
+HttpsIdir.uta.eduSockg-ontology#AmendmentPlacement ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#AmendmentType ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#AnimalClass ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#AnimalSpecies ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#BiomassCarbohydrate ||--|o HttpsLod.nal.usda.govNalt7140 : "https___idir.uta.edu_sockg-ontology#hasCrop"
+HttpsIdir.uta.eduSockg-ontology#BiomassCarbohydrate ||--|o RdfsLiteral : "dct_date"
+HttpsIdir.uta.eduSockg-ontology#BiomassCarbohydrate ||--|o HttpsIdir.uta.eduSockg-ontology#Treatment : "https___idir.uta.edu_sockg-ontology#usesTreatment"
+HttpsIdir.uta.eduSockg-ontology#BiomassCarbohydrate ||--|o HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit : "https___idir.uta.edu_sockg-ontology#fromUnit"
+HttpsIdir.uta.eduSockg-ontology#BiomassCarbohydrate ||--|o HttpsIdir.uta.eduSockg-ontology#GrowthStage : "https___idir.uta.edu_sockg-ontology#hasGrowthStage"
+HttpsIdir.uta.eduSockg-ontology#BiomassCarbohydrate ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#BiomassCarbohydrate ||--|o HttpsIdir.uta.eduSockg-ontology#PlantFractionRelatedMeasurement : "https___idir.uta.edu_sockg-ontology#hasPlantFraction"
+HttpsIdir.uta.eduSockg-ontology#BiomassCarbohydrate ||--|o HttpsIdir.uta.eduSockg-ontology#PlantFraction : "https___idir.uta.edu_sockg-ontology#hasPlantFraction"
+HttpsIdir.uta.eduSockg-ontology#BiomassEnergy ||--|o HttpsLod.nal.usda.govNalt7140 : "https___idir.uta.edu_sockg-ontology#hasCrop"
+HttpsIdir.uta.eduSockg-ontology#BiomassEnergy ||--|o RdfsLiteral : "dct_date"
+HttpsIdir.uta.eduSockg-ontology#BiomassEnergy ||--|o HttpsIdir.uta.eduSockg-ontology#Treatment : "https___idir.uta.edu_sockg-ontology#usesTreatment"
+HttpsIdir.uta.eduSockg-ontology#BiomassEnergy ||--|o HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit : "https___idir.uta.edu_sockg-ontology#fromUnit"
+HttpsIdir.uta.eduSockg-ontology#BiomassEnergy ||--|o HttpsIdir.uta.eduSockg-ontology#GrowthStage : "https___idir.uta.edu_sockg-ontology#hasGrowthStage"
+HttpsIdir.uta.eduSockg-ontology#BiomassEnergy ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#BiomassEnergy ||--|o HttpsIdir.uta.eduSockg-ontology#PlantFractionRelatedMeasurement : "https___idir.uta.edu_sockg-ontology#hasPlantFraction"
+HttpsIdir.uta.eduSockg-ontology#BiomassEnergy ||--|o HttpsIdir.uta.eduSockg-ontology#PlantFraction : "https___idir.uta.edu_sockg-ontology#hasPlantFraction"
+HttpsIdir.uta.eduSockg-ontology#BiomassMineral ||--|o HttpsLod.nal.usda.govNalt7140 : "https___idir.uta.edu_sockg-ontology#hasCrop"
+HttpsIdir.uta.eduSockg-ontology#BiomassMineral ||--|o RdfsLiteral : "dct_date"
+HttpsIdir.uta.eduSockg-ontology#BiomassMineral ||--|o HttpsIdir.uta.eduSockg-ontology#Treatment : "https___idir.uta.edu_sockg-ontology#usesTreatment"
+HttpsIdir.uta.eduSockg-ontology#BiomassMineral ||--|o HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit : "https___idir.uta.edu_sockg-ontology#fromUnit"
+HttpsIdir.uta.eduSockg-ontology#BiomassMineral ||--|o HttpsIdir.uta.eduSockg-ontology#GrowthStage : "https___idir.uta.edu_sockg-ontology#hasGrowthStage"
+HttpsIdir.uta.eduSockg-ontology#BiomassMineral ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#BiomassMineral ||--|o HttpsIdir.uta.eduSockg-ontology#PlantFractionRelatedMeasurement : "https___idir.uta.edu_sockg-ontology#hasPlantFraction"
+HttpsIdir.uta.eduSockg-ontology#BiomassMineral ||--|o HttpsIdir.uta.eduSockg-ontology#PlantFraction : "https___idir.uta.edu_sockg-ontology#hasPlantFraction"
+HttpsIdir.uta.eduSockg-ontology#BookChapter ||--|o RdfsLiteral : "dct_issued"
+HttpsIdir.uta.eduSockg-ontology#BookChapter ||--|o RdfsLiteral : "dct_bibliographicCitation"
+HttpsIdir.uta.eduSockg-ontology#BookChapter ||--|o RdfsLiteral : "dct_title"
+HttpsIdir.uta.eduSockg-ontology#BookChapter ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#BroadleafOrGrass ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#ChamberPlacement ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#Cultivar ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#CuttingHeight ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#Equipment ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit ||--|o HttpsIdir.uta.eduSockg-ontology#GrazingManagement : "https___idir.uta.edu_sockg-ontology#unitHasGrazingManagement"
+HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit ||--|o HttpsIdir.uta.eduSockg-ontology#ResidueManagement : "https___idir.uta.edu_sockg-ontology#unitHasResidueManagement"
+HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit ||--|o HttpsIdir.uta.eduSockg-ontology#PlantingManagement : "https___idir.uta.edu_sockg-ontology#unitHasPlantingManagement"
+HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit ||--|o HttpsIdir.uta.eduSockg-ontology#GrowthStageManagement : "https___idir.uta.edu_sockg-ontology#unitHasGrowthStageManagement"
+HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit ||--|o HttpsIdir.uta.eduSockg-ontology#Amendment : "https___idir.uta.edu_sockg-ontology#unitHasAmendment"
+HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit ||--|o RdfsLiteral : "dct_identifier"
+HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit ||--|o HttpsIdir.uta.eduSockg-ontology#TillageManagement : "https___idir.uta.edu_sockg-ontology#unitHasTillageManagement"
+HttpsIdir.uta.eduSockg-ontology#FundingSource ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#GHGFlux ||--|o HttpsLod.nal.usda.govNalt7140 : "https___idir.uta.edu_sockg-ontology#hasCrop"
+HttpsIdir.uta.eduSockg-ontology#GHGFlux ||--|o RdfsLiteral : "dct_date"
+HttpsIdir.uta.eduSockg-ontology#GHGFlux ||--|o HttpsIdir.uta.eduSockg-ontology#Treatment : "https___idir.uta.edu_sockg-ontology#usesTreatment"
+HttpsIdir.uta.eduSockg-ontology#GHGFlux ||--|o HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit : "https___idir.uta.edu_sockg-ontology#fromUnit"
+HttpsIdir.uta.eduSockg-ontology#GHGFlux ||--|o HttpsIdir.uta.eduSockg-ontology#ChamberPlacement : "https___idir.uta.edu_sockg-ontology#hasChamberPlacement"
+HttpsIdir.uta.eduSockg-ontology#GHGFlux ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#GasNutrientLoss ||--|o HttpsIdir.uta.eduSockg-ontology#StartStopInterval : "https___idir.uta.edu_sockg-ontology#withStartStopInterval"
+HttpsIdir.uta.eduSockg-ontology#GasNutrientLoss ||--|o HttpsIdir.uta.eduSockg-ontology#SimulationModel : "https___idir.uta.edu_sockg-ontology#usesModel"
+HttpsIdir.uta.eduSockg-ontology#GasNutrientLoss ||--|o HttpsLod.nal.usda.govNalt7140 : "https___idir.uta.edu_sockg-ontology#hasCrop"
+HttpsIdir.uta.eduSockg-ontology#GasNutrientLoss ||--|o RdfsLiteral : "dct_date"
+HttpsIdir.uta.eduSockg-ontology#GasNutrientLoss ||--|o HttpsIdir.uta.eduSockg-ontology#Treatment : "https___idir.uta.edu_sockg-ontology#usesTreatment"
+HttpsIdir.uta.eduSockg-ontology#GasNutrientLoss ||--|o HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit : "https___idir.uta.edu_sockg-ontology#fromUnit"
+HttpsIdir.uta.eduSockg-ontology#GasNutrientLoss ||--|o HttpsIdir.uta.eduSockg-ontology#GrowthStage : "https___idir.uta.edu_sockg-ontology#hasGrowthStage"
+HttpsIdir.uta.eduSockg-ontology#GasNutrientLoss ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#GrazingManagement ||--|o HttpsIdir.uta.eduSockg-ontology#OtherEvents : "https___idir.uta.edu_sockg-ontology#hasOtherEvents"
+HttpsIdir.uta.eduSockg-ontology#GrazingManagement ||--|o HttpsIdir.uta.eduSockg-ontology#AnimalClass : "https___idir.uta.edu_sockg-ontology#hasAnimalClass"
+HttpsIdir.uta.eduSockg-ontology#GrazingManagement ||--|o HttpsIdir.uta.eduSockg-ontology#AnimalSpecies : "https___idir.uta.edu_sockg-ontology#hasAnimalSpecies"
+HttpsIdir.uta.eduSockg-ontology#GrazingManagement ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#GrazingPlants ||--|o HttpsIdir.uta.eduSockg-ontology#SpeciesMix : "https___idir.uta.edu_sockg-ontology#hasSpeciesMix"
+HttpsIdir.uta.eduSockg-ontology#GrazingPlants ||--|o RdfsLiteral : "dct_date"
+HttpsIdir.uta.eduSockg-ontology#GrazingPlants ||--|o HttpsIdir.uta.eduSockg-ontology#Treatment : "https___idir.uta.edu_sockg-ontology#usesTreatment"
+HttpsIdir.uta.eduSockg-ontology#GrazingPlants ||--|o HttpsIdir.uta.eduSockg-ontology#BroadleafOrGrass : "https___idir.uta.edu_sockg-ontology#hasBroadleafOrGrass"
+HttpsIdir.uta.eduSockg-ontology#GrazingPlants ||--|o HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit : "https___idir.uta.edu_sockg-ontology#fromUnit"
+HttpsIdir.uta.eduSockg-ontology#GrazingPlants ||--|o HttpsIdir.uta.eduSockg-ontology#GrowthStage : "https___idir.uta.edu_sockg-ontology#hasGrowthStage"
+HttpsIdir.uta.eduSockg-ontology#GrazingPlants ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#GrowthStage ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#GrowthStageManagement ||--|o HttpsIdir.uta.eduSockg-ontology#GrowthStage : "https___idir.uta.edu_sockg-ontology#hasGrowthStage"
+HttpsIdir.uta.eduSockg-ontology#GrowthStageManagement ||--|o HttpsLod.nal.usda.govNalt7140 : "https___idir.uta.edu_sockg-ontology#hasCrop"
+HttpsIdir.uta.eduSockg-ontology#GrowthStageManagement ||--|o RdfsLiteral : "dct_date"
+HttpsIdir.uta.eduSockg-ontology#HarvestFraction ||--|o HttpsLod.nal.usda.govNalt7140 : "https___idir.uta.edu_sockg-ontology#hasCrop"
+HttpsIdir.uta.eduSockg-ontology#HarvestFraction ||--|o RdfsLiteral : "dct_date"
+HttpsIdir.uta.eduSockg-ontology#HarvestFraction ||--|o HttpsIdir.uta.eduSockg-ontology#Treatment : "https___idir.uta.edu_sockg-ontology#usesTreatment"
+HttpsIdir.uta.eduSockg-ontology#HarvestFraction ||--|o HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit : "https___idir.uta.edu_sockg-ontology#fromUnit"
+HttpsIdir.uta.eduSockg-ontology#HarvestFraction ||--|o HttpsIdir.uta.eduSockg-ontology#GrowthStage : "https___idir.uta.edu_sockg-ontology#hasGrowthStage"
+HttpsIdir.uta.eduSockg-ontology#HarvestFraction ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#HarvestFraction ||--|o HttpsIdir.uta.eduSockg-ontology#PlantFractionRelatedMeasurement : "https___idir.uta.edu_sockg-ontology#hasPlantFraction"
+HttpsIdir.uta.eduSockg-ontology#HarvestFraction ||--|o HttpsIdir.uta.eduSockg-ontology#PlantFraction : "https___idir.uta.edu_sockg-ontology#hasPlantFraction"
+HttpsIdir.uta.eduSockg-ontology#HarvestedFraction ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#Irrigation ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#JournalArticle ||--|o RdfsLiteral : "dct_issued"
+HttpsIdir.uta.eduSockg-ontology#JournalArticle ||--|o RdfsLiteral : "dct_bibliographicCitation"
+HttpsIdir.uta.eduSockg-ontology#JournalArticle ||--|o RdfsLiteral : "dct_title"
+HttpsIdir.uta.eduSockg-ontology#JournalArticle ||--|o RdfsLiteral : "dct_identifier"
+HttpsIdir.uta.eduSockg-ontology#JournalArticle ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#Location ||--|o HttpsIdir.uta.eduSockg-ontology#FundingSource : "https___idir.uta.edu_sockg-ontology#fundedBy"
+HttpsIdir.uta.eduSockg-ontology#Location ||--|o KwgoS2CellLevel13 : "spatial_connectedTo"
+HttpsIdir.uta.eduSockg-ontology#Location ||--|o KwgoAdministrativeRegion2 : "spatial_connectedTo"
+HttpsIdir.uta.eduSockg-ontology#Location ||--|o HttpsIdir.uta.eduSockg-ontology#Location : "spatial_connectedTo"
+HttpsIdir.uta.eduSockg-ontology#Location ||--|o HttpsIdir.uta.eduSockg-ontology#Site : "spatial_connectedTo"
+HttpsIdir.uta.eduSockg-ontology#Location ||--|o HttpsIdir.uta.eduSockg-ontology#Abstract : "https___idir.uta.edu_sockg-ontology#cites"
+HttpsIdir.uta.eduSockg-ontology#Location ||--|o HttpsIdir.uta.eduSockg-ontology#Proceedings : "https___idir.uta.edu_sockg-ontology#cites"
+HttpsIdir.uta.eduSockg-ontology#Location ||--|o HttpsIdir.uta.eduSockg-ontology#BookChapter : "https___idir.uta.edu_sockg-ontology#cites"
+HttpsIdir.uta.eduSockg-ontology#Location ||--|o HttpsIdir.uta.eduSockg-ontology#PopularArticle : "https___idir.uta.edu_sockg-ontology#cites"
+HttpsIdir.uta.eduSockg-ontology#Location ||--|o HttpsIdir.uta.eduSockg-ontology#JournalArticle : "https___idir.uta.edu_sockg-ontology#cites"
+HttpsIdir.uta.eduSockg-ontology#Location ||--|o DctBibliographicResource : "https___idir.uta.edu_sockg-ontology#cites"
+HttpsIdir.uta.eduSockg-ontology#Location ||--|o HttpsIdir.uta.eduSockg-ontology#Thesis : "https___idir.uta.edu_sockg-ontology#cites"
+HttpsIdir.uta.eduSockg-ontology#Location ||--|o HttpsIdir.uta.eduSockg-ontology#Report : "https___idir.uta.edu_sockg-ontology#cites"
+HttpsIdir.uta.eduSockg-ontology#Location ||--|o HttpsIdir.uta.eduSockg-ontology#Treatment : "https___idir.uta.edu_sockg-ontology#hasTreatment"
+HttpsIdir.uta.eduSockg-ontology#Location ||--|o RdfsLiteral : "dct_identifier"
+HttpsIdir.uta.eduSockg-ontology#Location ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#Location ||--|o GeoGeometry : "geo_hasGeometry"
+HttpsIdir.uta.eduSockg-ontology#LossesOrDeposition ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#Measurement ||--|o QudtQuantityValue : "qudt_quantityValue"
+HttpsIdir.uta.eduSockg-ontology#Measurement ||--|o HttpsIdir.uta.eduSockg-ontology#Parameter : "https___idir.uta.edu_sockg-ontology#of"
+HttpsIdir.uta.eduSockg-ontology#NutrientEfficiency ||--|o HttpsLod.nal.usda.govNalt7140 : "https___idir.uta.edu_sockg-ontology#hasCrop"
+HttpsIdir.uta.eduSockg-ontology#NutrientEfficiency ||--|o RdfsLiteral : "dct_date"
+HttpsIdir.uta.eduSockg-ontology#NutrientEfficiency ||--|o HttpsIdir.uta.eduSockg-ontology#Treatment : "https___idir.uta.edu_sockg-ontology#usesTreatment"
+HttpsIdir.uta.eduSockg-ontology#NutrientEfficiency ||--|o HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit : "https___idir.uta.edu_sockg-ontology#fromUnit"
+HttpsIdir.uta.eduSockg-ontology#NutrientEfficiency ||--|o HttpsIdir.uta.eduSockg-ontology#GrowthStage : "https___idir.uta.edu_sockg-ontology#hasGrowthStage"
+HttpsIdir.uta.eduSockg-ontology#NutrientEfficiency ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#NutrientEfficiency ||--|o HttpsIdir.uta.eduSockg-ontology#PlantFractionRelatedMeasurement : "https___idir.uta.edu_sockg-ontology#hasPlantFraction"
+HttpsIdir.uta.eduSockg-ontology#NutrientEfficiency ||--|o HttpsIdir.uta.eduSockg-ontology#PlantFraction : "https___idir.uta.edu_sockg-ontology#hasPlantFraction"
+HttpsIdir.uta.eduSockg-ontology#OtherEvents ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#Parameter ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#PesticidePlacement ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#PesticideTarget ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#PlantFraction ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#PlantingManagement ||--|o HttpsLod.nal.usda.govNalt7140 : "https___idir.uta.edu_sockg-ontology#hasCrop"
+HttpsIdir.uta.eduSockg-ontology#PlantingManagement ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#PlantingManagement ||--|o HttpsIdir.uta.eduSockg-ontology#Cultivar : "https___idir.uta.edu_sockg-ontology#hasCultivar"
+HttpsIdir.uta.eduSockg-ontology#PlantingManagement ||--|o HttpsIdir.uta.eduSockg-ontology#PlantingMethod : "https___idir.uta.edu_sockg-ontology#usesPlantingMethod"
+HttpsIdir.uta.eduSockg-ontology#PlantingMethod ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#PopularArticle ||--|o RdfsLiteral : "dct_issued"
+HttpsIdir.uta.eduSockg-ontology#PopularArticle ||--|o RdfsLiteral : "dct_bibliographicCitation"
+HttpsIdir.uta.eduSockg-ontology#PopularArticle ||--|o RdfsLiteral : "dct_title"
+HttpsIdir.uta.eduSockg-ontology#PopularArticle ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#Proceedings ||--|o RdfsLiteral : "dct_issued"
+HttpsIdir.uta.eduSockg-ontology#Proceedings ||--|o RdfsLiteral : "dct_bibliographicCitation"
+HttpsIdir.uta.eduSockg-ontology#Proceedings ||--|o RdfsLiteral : "dct_title"
+HttpsIdir.uta.eduSockg-ontology#Proceedings ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#Report ||--|o RdfsLiteral : "dct_issued"
+HttpsIdir.uta.eduSockg-ontology#Report ||--|o RdfsLiteral : "dct_bibliographicCitation"
+HttpsIdir.uta.eduSockg-ontology#Report ||--|o RdfsLiteral : "dct_title"
+HttpsIdir.uta.eduSockg-ontology#Report ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#ResidueManagement ||--|o HttpsLod.nal.usda.govNalt7140 : "https___idir.uta.edu_sockg-ontology#hasCrop"
+HttpsIdir.uta.eduSockg-ontology#ResidueManagement ||--|o HttpsIdir.uta.eduSockg-ontology#Equipment : "https___idir.uta.edu_sockg-ontology#usesEquipment"
+HttpsIdir.uta.eduSockg-ontology#ResidueManagement ||--|o HttpsIdir.uta.eduSockg-ontology#CuttingHeight : "https___idir.uta.edu_sockg-ontology#withCuttingHeight"
+HttpsIdir.uta.eduSockg-ontology#ResidueManagement ||--|o HttpsIdir.uta.eduSockg-ontology#GrowthStage : "https___idir.uta.edu_sockg-ontology#hasGrowthStage"
+HttpsIdir.uta.eduSockg-ontology#ResidueManagement ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#ResidueMeasurement ||--|o HttpsLod.nal.usda.govNalt7140 : "https___idir.uta.edu_sockg-ontology#hasCrop"
+HttpsIdir.uta.eduSockg-ontology#ResidueMeasurement ||--|o HttpsIdir.uta.eduSockg-ontology#HarvestedFraction : "https___idir.uta.edu_sockg-ontology#hasHarvestedFraction"
+HttpsIdir.uta.eduSockg-ontology#ResidueMeasurement ||--|o RdfsLiteral : "dct_date"
+HttpsIdir.uta.eduSockg-ontology#ResidueMeasurement ||--|o HttpsIdir.uta.eduSockg-ontology#Treatment : "https___idir.uta.edu_sockg-ontology#usesTreatment"
+HttpsIdir.uta.eduSockg-ontology#ResidueMeasurement ||--|o HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit : "https___idir.uta.edu_sockg-ontology#fromUnit"
+HttpsIdir.uta.eduSockg-ontology#ResidueMeasurement ||--|o HttpsIdir.uta.eduSockg-ontology#GrowthStage : "https___idir.uta.edu_sockg-ontology#hasGrowthStage"
+HttpsIdir.uta.eduSockg-ontology#ResidueMeasurement ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#SimulationModel ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#Site ||--|o KwgoS2CellLevel13 : "spatial_connectedTo"
+HttpsIdir.uta.eduSockg-ontology#Site ||--|o KwgoAdministrativeRegion2 : "spatial_connectedTo"
+HttpsIdir.uta.eduSockg-ontology#Site ||--|o HttpsIdir.uta.eduSockg-ontology#Location : "spatial_connectedTo"
+HttpsIdir.uta.eduSockg-ontology#Site ||--|o HttpsIdir.uta.eduSockg-ontology#Site : "spatial_connectedTo"
+HttpsIdir.uta.eduSockg-ontology#Site ||--|o RdfsLiteral : "dct_identifier"
+HttpsIdir.uta.eduSockg-ontology#Site ||--|o SdosText : "sdos_postalCode"
+HttpsIdir.uta.eduSockg-ontology#SoilBiologicalSample ||--|o RdfsLiteral : "dct_date"
+HttpsIdir.uta.eduSockg-ontology#SoilBiologicalSample ||--|o QudtQuantityValue : "https___idir.uta.edu_sockg-ontology#upperDepth"
+HttpsIdir.uta.eduSockg-ontology#SoilBiologicalSample ||--|o HttpsIdir.uta.eduSockg-ontology#Treatment : "https___idir.uta.edu_sockg-ontology#usesTreatment"
+HttpsIdir.uta.eduSockg-ontology#SoilBiologicalSample ||--|o HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit : "https___idir.uta.edu_sockg-ontology#fromUnit"
+HttpsIdir.uta.eduSockg-ontology#SoilBiologicalSample ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#SoilBiologicalSample ||--|o QudtQuantityValue : "https___idir.uta.edu_sockg-ontology#lowerDepth"
+HttpsIdir.uta.eduSockg-ontology#SoilChemicalSample ||--|o HttpsIdir.uta.eduSockg-ontology#SimulationModel : "https___idir.uta.edu_sockg-ontology#usesModel"
+HttpsIdir.uta.eduSockg-ontology#SoilChemicalSample ||--|o RdfsLiteral : "dct_date"
+HttpsIdir.uta.eduSockg-ontology#SoilChemicalSample ||--|o QudtQuantityValue : "https___idir.uta.edu_sockg-ontology#upperDepth"
+HttpsIdir.uta.eduSockg-ontology#SoilChemicalSample ||--|o HttpsIdir.uta.eduSockg-ontology#Treatment : "https___idir.uta.edu_sockg-ontology#usesTreatment"
+HttpsIdir.uta.eduSockg-ontology#SoilChemicalSample ||--|o HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit : "https___idir.uta.edu_sockg-ontology#fromUnit"
+HttpsIdir.uta.eduSockg-ontology#SoilChemicalSample ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#SoilChemicalSample ||--|o QudtQuantityValue : "https___idir.uta.edu_sockg-ontology#lowerDepth"
+HttpsIdir.uta.eduSockg-ontology#SoilCover ||--|o HttpsLod.nal.usda.govNalt7140 : "https___idir.uta.edu_sockg-ontology#hasCrop"
+HttpsIdir.uta.eduSockg-ontology#SoilCover ||--|o HttpsIdir.uta.eduSockg-ontology#Timing : "https___idir.uta.edu_sockg-ontology#hasTiming"
+HttpsIdir.uta.eduSockg-ontology#SoilCover ||--|o RdfsLiteral : "dct_date"
+HttpsIdir.uta.eduSockg-ontology#SoilCover ||--|o HttpsIdir.uta.eduSockg-ontology#Treatment : "https___idir.uta.edu_sockg-ontology#usesTreatment"
+HttpsIdir.uta.eduSockg-ontology#SoilCover ||--|o HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit : "https___idir.uta.edu_sockg-ontology#fromUnit"
+HttpsIdir.uta.eduSockg-ontology#SoilPhysicalSample ||--|o HttpsIdir.uta.eduSockg-ontology#SimulationModel : "https___idir.uta.edu_sockg-ontology#usesModel"
+HttpsIdir.uta.eduSockg-ontology#SoilPhysicalSample ||--|o RdfsLiteral : "dct_date"
+HttpsIdir.uta.eduSockg-ontology#SoilPhysicalSample ||--|o QudtQuantityValue : "https___idir.uta.edu_sockg-ontology#upperDepth"
+HttpsIdir.uta.eduSockg-ontology#SoilPhysicalSample ||--|o HttpsIdir.uta.eduSockg-ontology#Treatment : "https___idir.uta.edu_sockg-ontology#usesTreatment"
+HttpsIdir.uta.eduSockg-ontology#SoilPhysicalSample ||--|o HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit : "https___idir.uta.edu_sockg-ontology#fromUnit"
+HttpsIdir.uta.eduSockg-ontology#SoilPhysicalSample ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#SoilPhysicalSample ||--|o QudtQuantityValue : "https___idir.uta.edu_sockg-ontology#lowerDepth"
+HttpsIdir.uta.eduSockg-ontology#SpeciesMix ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#StartStopInterval ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#SurfaceOrLeaching ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#Thesis ||--|o RdfsLiteral : "dct_issued"
+HttpsIdir.uta.eduSockg-ontology#Thesis ||--|o RdfsLiteral : "dct_bibliographicCitation"
+HttpsIdir.uta.eduSockg-ontology#Thesis ||--|o RdfsLiteral : "dct_title"
+HttpsIdir.uta.eduSockg-ontology#Thesis ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#TillageEvent ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#TillageManagement ||--|o HttpsIdir.uta.eduSockg-ontology#TillageEvent : "https___idir.uta.edu_sockg-ontology#hasTillageEvent"
+HttpsIdir.uta.eduSockg-ontology#TillageManagement ||--|o HttpsLod.nal.usda.govNalt7140 : "https___idir.uta.edu_sockg-ontology#hasCrop"
+HttpsIdir.uta.eduSockg-ontology#TillageManagement ||--|o HttpsIdir.uta.eduSockg-ontology#TillageMethod : "https___idir.uta.edu_sockg-ontology#usesTillageMethod"
+HttpsIdir.uta.eduSockg-ontology#TillageManagement ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#TillageMethod ||--|o RdfsLiteral : "rdfs_label"
+HttpsIdir.uta.eduSockg-ontology#Treatment ||--|o HttpsIdir.uta.eduSockg-ontology#GrowthStageManagement : "https___idir.uta.edu_sockg-ontology#treatmentHasGrowthStageManagement"
+HttpsIdir.uta.eduSockg-ontology#Treatment ||--|o HttpsIdir.uta.eduSockg-ontology#Rotation : "https___idir.uta.edu_sockg-ontology#hasRotation"
+HttpsIdir.uta.eduSockg-ontology#Treatment ||--|o HttpsIdir.uta.eduSockg-ontology#ProjectScenario : "https___idir.uta.edu_sockg-ontology#hasProjectScenario"
+HttpsIdir.uta.eduSockg-ontology#Treatment ||--|o HttpsIdir.uta.eduSockg-ontology#TillageManagement : "https___idir.uta.edu_sockg-ontology#treatmentHasTillageManagement"
+HttpsIdir.uta.eduSockg-ontology#Treatment ||--|o HttpsIdir.uta.eduSockg-ontology#CoverCrop : "https___idir.uta.edu_sockg-ontology#usesCoverCrop"
+HttpsIdir.uta.eduSockg-ontology#Treatment ||--|o HttpsIdir.uta.eduSockg-ontology#ResidueRemoval : "https___idir.uta.edu_sockg-ontology#usesResidueRemoval"
+HttpsIdir.uta.eduSockg-ontology#Treatment ||--|o HttpsIdir.uta.eduSockg-ontology#Project : "https___idir.uta.edu_sockg-ontology#fromProject"
+HttpsIdir.uta.eduSockg-ontology#Treatment ||--|o HttpsIdir.uta.eduSockg-ontology#GrazingManagement : "https___idir.uta.edu_sockg-ontology#treatmentHasGrazingManagement"
+HttpsIdir.uta.eduSockg-ontology#Treatment ||--|o HttpsIdir.uta.eduSockg-ontology#AnimalSpecies : "https___idir.uta.edu_sockg-ontology#hasAnimalSpecies"
+HttpsIdir.uta.eduSockg-ontology#Treatment ||--|o RdfsLiteral : "dct_identifier"
+HttpsIdir.uta.eduSockg-ontology#Treatment ||--|o HttpsIdir.uta.eduSockg-ontology#GrazingRate : "https___idir.uta.edu_sockg-ontology#hasGrazingRate"
+HttpsIdir.uta.eduSockg-ontology#Treatment ||--|o HttpsIdir.uta.eduSockg-ontology#PlantingManagement : "https___idir.uta.edu_sockg-ontology#treatmentHasPlantingManagement"
+HttpsIdir.uta.eduSockg-ontology#Treatment ||--|o HttpsIdir.uta.eduSockg-ontology#ResidueManagement : "https___idir.uta.edu_sockg-ontology#treatmentHasResidueManagement"
+HttpsIdir.uta.eduSockg-ontology#Treatment ||--|o HttpsIdir.uta.eduSockg-ontology#Amendment : "https___idir.uta.edu_sockg-ontology#treatmentHasAmendment"
+HttpsIdir.uta.eduSockg-ontology#Treatment ||--|o HttpsIdir.uta.eduSockg-ontology#Tillage : "https___idir.uta.edu_sockg-ontology#hasTillage"
+HttpsIdir.uta.eduSockg-ontology#Treatment ||--|o HttpsIdir.uta.eduSockg-ontology#FertilizerAmendment : "https___idir.uta.edu_sockg-ontology#usesFertilizerAmendment"
+HttpsIdir.uta.eduSockg-ontology#WaterQualityArea ||--|o HttpsIdir.uta.eduSockg-ontology#SurfaceOrLeaching : "https___idir.uta.edu_sockg-ontology#hasSurfaceOrLeaching"
+HttpsIdir.uta.eduSockg-ontology#WaterQualityArea ||--|o RdfsLiteral : "dct_date"
+HttpsIdir.uta.eduSockg-ontology#WaterQualityArea ||--|o HttpsIdir.uta.eduSockg-ontology#Treatment : "https___idir.uta.edu_sockg-ontology#usesTreatment"
+HttpsIdir.uta.eduSockg-ontology#WaterQualityArea ||--|o HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit : "https___idir.uta.edu_sockg-ontology#fromUnit"
+HttpsIdir.uta.eduSockg-ontology#WaterQualityArea ||--|o HttpsIdir.uta.eduSockg-ontology#LossesOrDeposition : "https___idir.uta.edu_sockg-ontology#hasLossesOrDeposition"
+HttpsIdir.uta.eduSockg-ontology#WaterQualityArea ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#WaterQualityConcentration ||--|o HttpsIdir.uta.eduSockg-ontology#StartStopInterval : "https___idir.uta.edu_sockg-ontology#withStartStopInterval"
+HttpsIdir.uta.eduSockg-ontology#WaterQualityConcentration ||--|o HttpsIdir.uta.eduSockg-ontology#SimulationModel : "https___idir.uta.edu_sockg-ontology#usesModel"
+HttpsIdir.uta.eduSockg-ontology#WaterQualityConcentration ||--|o HttpsLod.nal.usda.govNalt7140 : "https___idir.uta.edu_sockg-ontology#hasCrop"
+HttpsIdir.uta.eduSockg-ontology#WaterQualityConcentration ||--|o HttpsIdir.uta.eduSockg-ontology#SurfaceOrLeaching : "https___idir.uta.edu_sockg-ontology#hasSurfaceOrLeaching"
+HttpsIdir.uta.eduSockg-ontology#WaterQualityConcentration ||--|o RdfsLiteral : "dct_date"
+HttpsIdir.uta.eduSockg-ontology#WaterQualityConcentration ||--|o HttpsIdir.uta.eduSockg-ontology#Treatment : "https___idir.uta.edu_sockg-ontology#usesTreatment"
+HttpsIdir.uta.eduSockg-ontology#WaterQualityConcentration ||--|o HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit : "https___idir.uta.edu_sockg-ontology#fromUnit"
+HttpsIdir.uta.eduSockg-ontology#WaterQualityConcentration ||--|o HttpsIdir.uta.eduSockg-ontology#GrowthStage : "https___idir.uta.edu_sockg-ontology#hasGrowthStage"
+HttpsIdir.uta.eduSockg-ontology#WaterQualityConcentration ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#WeatherObservation ||--|o RdfsLiteral : "dct_date"
+HttpsIdir.uta.eduSockg-ontology#WeatherObservation ||--|o HttpsIdir.uta.eduSockg-ontology#Location : "https___idir.uta.edu_sockg-ontology#weatherAt"
+HttpsIdir.uta.eduSockg-ontology#WeatherObservation ||--|o HttpsIdir.uta.eduSockg-ontology#Treatment : "https___idir.uta.edu_sockg-ontology#usesTreatment"
+HttpsIdir.uta.eduSockg-ontology#WeatherObservation ||--|o HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit : "https___idir.uta.edu_sockg-ontology#fromUnit"
+HttpsIdir.uta.eduSockg-ontology#WeatherObservation ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#WindErosionArea ||--|o HttpsIdir.uta.eduSockg-ontology#StartStopInterval : "https___idir.uta.edu_sockg-ontology#withStartStopInterval"
+HttpsIdir.uta.eduSockg-ontology#WindErosionArea ||--|o HttpsIdir.uta.eduSockg-ontology#SimulationModel : "https___idir.uta.edu_sockg-ontology#usesModel"
+HttpsIdir.uta.eduSockg-ontology#WindErosionArea ||--|o HttpsIdir.uta.eduSockg-ontology#LossesOrDeposition : "https___idir.uta.edu_sockg-ontology#hasLossesOrDeposition"
+HttpsIdir.uta.eduSockg-ontology#WindErosionArea ||--|o RdfsLiteral : "dct_date"
+HttpsIdir.uta.eduSockg-ontology#WindErosionArea ||--|o HttpsIdir.uta.eduSockg-ontology#Treatment : "https___idir.uta.edu_sockg-ontology#usesTreatment"
+HttpsIdir.uta.eduSockg-ontology#WindErosionArea ||--|o HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit : "https___idir.uta.edu_sockg-ontology#fromUnit"
+HttpsIdir.uta.eduSockg-ontology#WindErosionArea ||--|o HttpsIdir.uta.eduSockg-ontology#GrowthStage : "https___idir.uta.edu_sockg-ontology#hasGrowthStage"
+HttpsIdir.uta.eduSockg-ontology#WindErosionArea ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#YieldNutrientUptake ||--|o HttpsLod.nal.usda.govNalt7140 : "https___idir.uta.edu_sockg-ontology#hasCrop"
+HttpsIdir.uta.eduSockg-ontology#YieldNutrientUptake ||--|o RdfsLiteral : "dct_date"
+HttpsIdir.uta.eduSockg-ontology#YieldNutrientUptake ||--|o HttpsIdir.uta.eduSockg-ontology#Treatment : "https___idir.uta.edu_sockg-ontology#usesTreatment"
+HttpsIdir.uta.eduSockg-ontology#YieldNutrientUptake ||--|o HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit : "https___idir.uta.edu_sockg-ontology#fromUnit"
+HttpsIdir.uta.eduSockg-ontology#YieldNutrientUptake ||--|o HttpsIdir.uta.eduSockg-ontology#GrowthStage : "https___idir.uta.edu_sockg-ontology#hasGrowthStage"
+HttpsIdir.uta.eduSockg-ontology#YieldNutrientUptake ||--|o HttpsIdir.uta.eduSockg-ontology#Measurement : "https___idir.uta.edu_sockg-ontology#hasMeasurement"
+HttpsIdir.uta.eduSockg-ontology#YieldNutrientUptake ||--|o HttpsIdir.uta.eduSockg-ontology#PlantFractionRelatedMeasurement : "https___idir.uta.edu_sockg-ontology#hasPlantFraction"
+HttpsIdir.uta.eduSockg-ontology#YieldNutrientUptake ||--|o HttpsIdir.uta.eduSockg-ontology#PlantFraction : "https___idir.uta.edu_sockg-ontology#hasPlantFraction"
 HttpsLod.nal.usda.govNalt7140 ||--|o RdfsLiteral : "rdfs_label"
-KwgoS2CellLevel13 ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site : "spatial_connectedTo"
-KwgoS2CellLevel13 ||--|o HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location : "spatial_connectedTo"
-KwgoS2CellLevel13 ||--|o KwgoAdministrativeRegion2 : "spatial_connectedTo"
 KwgoS2CellLevel13 ||--|o KwgoS2CellLevel13 : "spatial_connectedTo"
+KwgoS2CellLevel13 ||--|o KwgoAdministrativeRegion2 : "spatial_connectedTo"
+KwgoS2CellLevel13 ||--|o HttpsIdir.uta.eduSockg-ontology#Location : "spatial_connectedTo"
+KwgoS2CellLevel13 ||--|o HttpsIdir.uta.eduSockg-ontology#Site : "spatial_connectedTo"
 
 ```
 
@@ -6986,15 +6803,14 @@ KwgoS2CellLevel13 ||--|o KwgoS2CellLevel13 : "spatial_connectedTo"
 ## Imports
 
 
-* okns:bibo
-* okns:kwg
-* okns:qudt
 * okns:geo
-* okns:extended_types
-* okns:sdo
 * okns:dc
+* okns:kwg
 * linkml:types
 * okns:owl-rdf-rdfs
+* okns:bibo
+* okns:sdo
+* okns:qudt
 
 
 
@@ -7003,158 +6819,90 @@ KwgoS2CellLevel13 ||--|o KwgoS2CellLevel13 : "spatial_connectedTo"
 | Class | Description | Occurrences |
 | --- | --- | --- |
 | [DctBibliographicResource](classes/DctBibliographicResource.md) | A book, article, or other documentary resource.<br/>| 14 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#Abstract](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Abstract.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#BookChapter](classes/HttpsIdir.uta.eduSockg-ontologyDocs#BookChapter.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#JournalArticle](classes/HttpsIdir.uta.eduSockg-ontologyDocs#JournalArticle.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#PopularArticle](classes/HttpsIdir.uta.eduSockg-ontologyDocs#PopularArticle.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#Proceedings](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Proceedings.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#Report](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Report.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#Thesis](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Thesis.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#Abstract](classes/HttpsIdir.uta.eduSockg-ontology#Abstract.md) | None<br/>| 3 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#BookChapter](classes/HttpsIdir.uta.eduSockg-ontology#BookChapter.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#JournalArticle](classes/HttpsIdir.uta.eduSockg-ontology#JournalArticle.md) | None<br/>| 149 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#PopularArticle](classes/HttpsIdir.uta.eduSockg-ontology#PopularArticle.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#Proceedings](classes/HttpsIdir.uta.eduSockg-ontology#Proceedings.md) | None<br/>| 3 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#Report](classes/HttpsIdir.uta.eduSockg-ontology#Report.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#Thesis](classes/HttpsIdir.uta.eduSockg-ontology#Thesis.md) | None<br/>| 4 | 
 | [GeoSpatialObject](classes/GeoSpatialObject.md) | Anything spatial (being or having a shape, position or an extent).<br/>|  | 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GeoFeature](classes/GeoFeature.md) | A discrete spatial phenomenon in a universe of discourse.<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#ExperimentalUnit](classes/HttpsIdir.uta.eduSockg-ontologyDocs#ExperimentalUnit.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#Location](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Location.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#Site](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Site.md) | None<br/>|  | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Abstract](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Abstract.md) | None<br/>| 3 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ActiveIngredient](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ActiveIngredient.md) | None<br/>| 84 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment.md) | None<br/>| 47106 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AmendmentPlacement](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AmendmentPlacement.md) | None<br/>| 10 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AmendmentType](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AmendmentType.md) | None<br/>| 73 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalClass](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalClass.md) | None<br/>| 4 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalSpecies](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278AnimalSpecies.md) | None<br/>| 3 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate.md) | None<br/>| 1367 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy.md) | None<br/>| 799 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral.md) | None<br/>| 6739 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BookChapter](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BookChapter.md) | None<br/>| 2 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BroadleafOrGrass](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BroadleafOrGrass.md) | None<br/>| 2 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278CoverCrop](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278CoverCrop.md) | None<br/>| 8 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Cultivar](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Cultivar.md) | None<br/>| 308 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278CuttingHeight](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278CuttingHeight.md) | None<br/>| 17 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Equipment](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Equipment.md) | None<br/>| 12 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit.md) | None<br/>| 3863 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278FertilizerAmendment](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278FertilizerAmendment.md) | None<br/>| 4 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278FundingSource](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278FundingSource.md) | None<br/>| 7 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss.md) | None<br/>| 2231 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingManagement](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingManagement.md) | None<br/>| 1951 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingPlants](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingPlants.md) | None<br/>| 6996 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingRate](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrazingRate.md) | None<br/>| 3 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStage.md) | None<br/>| 33 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStageManagement](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStageManagement.md) | None<br/>| 5148 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestedFraction](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestedFraction.md) | None<br/>| 12 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction.md) | None<br/>| 9470 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Irrigation](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Irrigation.md) | None<br/>| 4 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle.md) | None<br/>| 149 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location.md) | None<br/>| 58 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278LossesOrDeposition](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278LossesOrDeposition.md) | None<br/>| 2 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement.md) | None<br/>| 911199 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency.md) | None<br/>| 5159 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278OtherEvents](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278OtherEvents.md) | None<br/>| 2 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Parameter](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Parameter.md) | None<br/>| 135 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PesticidePlacement](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PesticidePlacement.md) | None<br/>| 5 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PesticideTarget](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PesticideTarget.md) | None<br/>| 38 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantFraction](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantFraction.md) | None<br/>| 29 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingManagement](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingManagement.md) | None<br/>| 23728 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingMethod](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingMethod.md) | None<br/>| 6 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PopularArticle](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PopularArticle.md) | None<br/>| 1 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Proceedings](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Proceedings.md) | None<br/>| 3 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Project](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Project.md) | None<br/>| 3 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ProjectScenario](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ProjectScenario.md) | None<br/>| 19 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Report](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Report.md) | None<br/>| 1 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement.md) | None<br/>| 3334 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement.md) | None<br/>| 18512 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueRemoval](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueRemoval.md) | None<br/>| 3 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Rotation](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Rotation.md) | None<br/>| 66 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SimulationModel](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SimulationModel.md) | None<br/>| 12 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site.md) | None<br/>| 60 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample.md) | None<br/>| 18273 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample.md) | None<br/>| 54269 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilCover](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilCover.md) | None<br/>| 1034 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample.md) | None<br/>| 28237 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SpeciesMix](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SpeciesMix.md) | None<br/>| 7 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278StartStopInterval](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278StartStopInterval.md) | None<br/>| 3 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SurfaceOrLeaching](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SurfaceOrLeaching.md) | None<br/>| 2 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Thesis](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Thesis.md) | None<br/>| 4 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Tillage](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Tillage.md) | None<br/>| 8 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageEvent](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageEvent.md) | None<br/>| 18 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageManagement](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageManagement.md) | None<br/>| 27450 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageMethod](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageMethod.md) | None<br/>| 61 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Timing](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Timing.md) | None<br/>| 7 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment.md) | None<br/>| 769 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityArea](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityArea.md) | None<br/>| 681 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration.md) | None<br/>| 2305 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WindErosionArea.md) | None<br/>| 34 | 
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake](classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake.md) | None<br/>| 704 | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#ActiveIngredient](classes/HttpsIdir.uta.eduSockg-ontologyDocs#ActiveIngredient.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#AmendmentPlacement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#AmendmentPlacement.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#AnimalClass](classes/HttpsIdir.uta.eduSockg-ontologyDocs#AnimalClass.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#AnimalSpecies](classes/HttpsIdir.uta.eduSockg-ontologyDocs#AnimalSpecies.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#BroadleafOrGrass](classes/HttpsIdir.uta.eduSockg-ontologyDocs#BroadleafOrGrass.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#ChamberPlacement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#ChamberPlacement.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#CoverCrop](classes/HttpsIdir.uta.eduSockg-ontologyDocs#CoverCrop.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#Cultivar](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Cultivar.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#CuttingHeight](classes/HttpsIdir.uta.eduSockg-ontologyDocs#CuttingHeight.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#Equipment](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Equipment.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#FertilizerAmendment](classes/HttpsIdir.uta.eduSockg-ontologyDocs#FertilizerAmendment.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#FundingSource](classes/HttpsIdir.uta.eduSockg-ontologyDocs#FundingSource.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#GrazingRate](classes/HttpsIdir.uta.eduSockg-ontologyDocs#GrazingRate.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#GrowthStage](classes/HttpsIdir.uta.eduSockg-ontologyDocs#GrowthStage.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#HarvestedFraction](classes/HttpsIdir.uta.eduSockg-ontologyDocs#HarvestedFraction.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#Irrigation](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Irrigation.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#LossesOrDeposition](classes/HttpsIdir.uta.eduSockg-ontologyDocs#LossesOrDeposition.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#MeasurableEntity](classes/HttpsIdir.uta.eduSockg-ontologyDocs#MeasurableEntity.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#Amendment](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Amendment.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#GrazingManagement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#GrazingManagement.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#GrowthStageManagement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#GrowthStageManagement.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#PlantingManagement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#PlantingManagement.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#ResidueManagement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#ResidueManagement.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#Sample](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Sample.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#CropRelatedMeasurement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#CropRelatedMeasurement.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#GHGFlux](classes/HttpsIdir.uta.eduSockg-ontologyDocs#GHGFlux.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#SoilCover](classes/HttpsIdir.uta.eduSockg-ontologyDocs#SoilCover.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#ErosionMeasurement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#ErosionMeasurement.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#GrowthStageRelatedMeasurement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#GrowthStageRelatedMeasurement.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#GrazingPlants](classes/HttpsIdir.uta.eduSockg-ontologyDocs#GrazingPlants.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#ResidueMeasurement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#ResidueMeasurement.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#PlantFractionRelatedMeasurement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#PlantFractionRelatedMeasurement.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#BiomassAnalysis](classes/HttpsIdir.uta.eduSockg-ontologyDocs#BiomassAnalysis.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#BiomassCarbohydrate](classes/HttpsIdir.uta.eduSockg-ontologyDocs#BiomassCarbohydrate.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#BiomassEnergy](classes/HttpsIdir.uta.eduSockg-ontologyDocs#BiomassEnergy.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#BiomassMineral](classes/HttpsIdir.uta.eduSockg-ontologyDocs#BiomassMineral.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#HarvestFraction](classes/HttpsIdir.uta.eduSockg-ontologyDocs#HarvestFraction.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#NutrientEfficiency](classes/HttpsIdir.uta.eduSockg-ontologyDocs#NutrientEfficiency.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#PossiblySimulatedMeasurement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#PossiblySimulatedMeasurement.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#SoilSample](classes/HttpsIdir.uta.eduSockg-ontologyDocs#SoilSample.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#SoilBiologicalSample](classes/HttpsIdir.uta.eduSockg-ontologyDocs#SoilBiologicalSample.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#SoilChemicalSample](classes/HttpsIdir.uta.eduSockg-ontologyDocs#SoilChemicalSample.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#SoilPhysicalSample](classes/HttpsIdir.uta.eduSockg-ontologyDocs#SoilPhysicalSample.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#WindErosionArea](classes/HttpsIdir.uta.eduSockg-ontologyDocs#WindErosionArea.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#YieldNutrientUptake](classes/HttpsIdir.uta.eduSockg-ontologyDocs#YieldNutrientUptake.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#QualityMeasurement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#QualityMeasurement.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#GasNutrientLoss](classes/HttpsIdir.uta.eduSockg-ontologyDocs#GasNutrientLoss.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#WaterQualityArea](classes/HttpsIdir.uta.eduSockg-ontologyDocs#WaterQualityArea.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#WaterQualityConcentration](classes/HttpsIdir.uta.eduSockg-ontologyDocs#WaterQualityConcentration.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#TillageManagement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#TillageManagement.md) | None<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontologyDocs#WeatherObservation](classes/HttpsIdir.uta.eduSockg-ontologyDocs#WeatherObservation.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#Measurement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Measurement.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#OtherEvents](classes/HttpsIdir.uta.eduSockg-ontologyDocs#OtherEvents.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#Parameter](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Parameter.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#PesticidePlacement](classes/HttpsIdir.uta.eduSockg-ontologyDocs#PesticidePlacement.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#PesticideTarget](classes/HttpsIdir.uta.eduSockg-ontologyDocs#PesticideTarget.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#PlantFraction](classes/HttpsIdir.uta.eduSockg-ontologyDocs#PlantFraction.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#PlantingMethod](classes/HttpsIdir.uta.eduSockg-ontologyDocs#PlantingMethod.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#Project](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Project.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#ProjectScenario](classes/HttpsIdir.uta.eduSockg-ontologyDocs#ProjectScenario.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#ResidueRemoval](classes/HttpsIdir.uta.eduSockg-ontologyDocs#ResidueRemoval.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#Rotation](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Rotation.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#SimulationModel](classes/HttpsIdir.uta.eduSockg-ontologyDocs#SimulationModel.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#SpeciesMix](classes/HttpsIdir.uta.eduSockg-ontologyDocs#SpeciesMix.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#StartStopInterval](classes/HttpsIdir.uta.eduSockg-ontologyDocs#StartStopInterval.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#SurfaceOrLeaching](classes/HttpsIdir.uta.eduSockg-ontologyDocs#SurfaceOrLeaching.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#Tillage](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Tillage.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#TillageEvent](classes/HttpsIdir.uta.eduSockg-ontologyDocs#TillageEvent.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#TillageMethod](classes/HttpsIdir.uta.eduSockg-ontologyDocs#TillageMethod.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#Timing](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Timing.md) | None<br/>|  | 
-| [HttpsIdir.uta.eduSockg-ontologyDocs#Treatment](classes/HttpsIdir.uta.eduSockg-ontologyDocs#Treatment.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit](classes/HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit.md) | None<br/>| 3863 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#Location](classes/HttpsIdir.uta.eduSockg-ontology#Location.md) | None<br/>| 58 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#Site](classes/HttpsIdir.uta.eduSockg-ontology#Site.md) | None<br/>| 60 | 
+| [HttpsIdir.uta.eduSockg-ontology#ActiveIngredient](classes/HttpsIdir.uta.eduSockg-ontology#ActiveIngredient.md) | None<br/>| 84 | 
+| [HttpsIdir.uta.eduSockg-ontology#AmendmentPlacement](classes/HttpsIdir.uta.eduSockg-ontology#AmendmentPlacement.md) | None<br/>| 10 | 
+| [HttpsIdir.uta.eduSockg-ontology#AmendmentType](classes/HttpsIdir.uta.eduSockg-ontology#AmendmentType.md) | None<br/>| 73 | 
+| [HttpsIdir.uta.eduSockg-ontology#AnimalClass](classes/HttpsIdir.uta.eduSockg-ontology#AnimalClass.md) | None<br/>| 4 | 
+| [HttpsIdir.uta.eduSockg-ontology#AnimalSpecies](classes/HttpsIdir.uta.eduSockg-ontology#AnimalSpecies.md) | None<br/>| 3 | 
+| [HttpsIdir.uta.eduSockg-ontology#BroadleafOrGrass](classes/HttpsIdir.uta.eduSockg-ontology#BroadleafOrGrass.md) | None<br/>| 2 | 
+| [HttpsIdir.uta.eduSockg-ontology#ChamberPlacement](classes/HttpsIdir.uta.eduSockg-ontology#ChamberPlacement.md) | None<br/>| 7 | 
+| [HttpsIdir.uta.eduSockg-ontology#CoverCrop](classes/HttpsIdir.uta.eduSockg-ontology#CoverCrop.md) | None<br/>| 8 | 
+| [HttpsIdir.uta.eduSockg-ontology#Cultivar](classes/HttpsIdir.uta.eduSockg-ontology#Cultivar.md) | None<br/>| 308 | 
+| [HttpsIdir.uta.eduSockg-ontology#CuttingHeight](classes/HttpsIdir.uta.eduSockg-ontology#CuttingHeight.md) | None<br/>| 17 | 
+| [HttpsIdir.uta.eduSockg-ontology#Equipment](classes/HttpsIdir.uta.eduSockg-ontology#Equipment.md) | None<br/>| 12 | 
+| [HttpsIdir.uta.eduSockg-ontology#FertilizerAmendment](classes/HttpsIdir.uta.eduSockg-ontology#FertilizerAmendment.md) | None<br/>| 4 | 
+| [HttpsIdir.uta.eduSockg-ontology#FundingSource](classes/HttpsIdir.uta.eduSockg-ontology#FundingSource.md) | None<br/>| 7 | 
+| [HttpsIdir.uta.eduSockg-ontology#GrazingRate](classes/HttpsIdir.uta.eduSockg-ontology#GrazingRate.md) | None<br/>| 3 | 
+| [HttpsIdir.uta.eduSockg-ontology#GrowthStage](classes/HttpsIdir.uta.eduSockg-ontology#GrowthStage.md) | None<br/>| 33 | 
+| [HttpsIdir.uta.eduSockg-ontology#HarvestedFraction](classes/HttpsIdir.uta.eduSockg-ontology#HarvestedFraction.md) | None<br/>| 12 | 
+| [HttpsIdir.uta.eduSockg-ontology#Irrigation](classes/HttpsIdir.uta.eduSockg-ontology#Irrigation.md) | None<br/>| 4 | 
+| [HttpsIdir.uta.eduSockg-ontology#LossesOrDeposition](classes/HttpsIdir.uta.eduSockg-ontology#LossesOrDeposition.md) | None<br/>| 2 | 
+| [HttpsIdir.uta.eduSockg-ontology#MeasurableEntity](classes/HttpsIdir.uta.eduSockg-ontology#MeasurableEntity.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#Amendment](classes/HttpsIdir.uta.eduSockg-ontology#Amendment.md) | None<br/>| 47106 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#GrazingManagement](classes/HttpsIdir.uta.eduSockg-ontology#GrazingManagement.md) | None<br/>| 1951 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#GrowthStageManagement](classes/HttpsIdir.uta.eduSockg-ontology#GrowthStageManagement.md) | None<br/>| 5148 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#PlantingManagement](classes/HttpsIdir.uta.eduSockg-ontology#PlantingManagement.md) | None<br/>| 23728 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#ResidueManagement](classes/HttpsIdir.uta.eduSockg-ontology#ResidueManagement.md) | None<br/>| 3334 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#Sample](classes/HttpsIdir.uta.eduSockg-ontology#Sample.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#CropRelatedMeasurement](classes/HttpsIdir.uta.eduSockg-ontology#CropRelatedMeasurement.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#GHGFlux](classes/HttpsIdir.uta.eduSockg-ontology#GHGFlux.md) | None<br/>| 132766 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#SoilCover](classes/HttpsIdir.uta.eduSockg-ontology#SoilCover.md) | None<br/>| 1034 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#ErosionMeasurement](classes/HttpsIdir.uta.eduSockg-ontology#ErosionMeasurement.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#GrowthStageRelatedMeasurement](classes/HttpsIdir.uta.eduSockg-ontology#GrowthStageRelatedMeasurement.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#GrazingPlants](classes/HttpsIdir.uta.eduSockg-ontology#GrazingPlants.md) | None<br/>| 6996 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#ResidueMeasurement](classes/HttpsIdir.uta.eduSockg-ontology#ResidueMeasurement.md) | None<br/>| 18512 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#PlantFractionRelatedMeasurement](classes/HttpsIdir.uta.eduSockg-ontology#PlantFractionRelatedMeasurement.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#BiomassAnalysis](classes/HttpsIdir.uta.eduSockg-ontology#BiomassAnalysis.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#BiomassCarbohydrate](classes/HttpsIdir.uta.eduSockg-ontology#BiomassCarbohydrate.md) | None<br/>| 1367 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#BiomassEnergy](classes/HttpsIdir.uta.eduSockg-ontology#BiomassEnergy.md) | None<br/>| 799 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#BiomassMineral](classes/HttpsIdir.uta.eduSockg-ontology#BiomassMineral.md) | None<br/>| 6739 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#HarvestFraction](classes/HttpsIdir.uta.eduSockg-ontology#HarvestFraction.md) | None<br/>| 9470 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#NutrientEfficiency](classes/HttpsIdir.uta.eduSockg-ontology#NutrientEfficiency.md) | None<br/>| 5159 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#PossiblySimulatedMeasurement](classes/HttpsIdir.uta.eduSockg-ontology#PossiblySimulatedMeasurement.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#SoilSample](classes/HttpsIdir.uta.eduSockg-ontology#SoilSample.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#SoilBiologicalSample](classes/HttpsIdir.uta.eduSockg-ontology#SoilBiologicalSample.md) | None<br/>| 18273 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#SoilChemicalSample](classes/HttpsIdir.uta.eduSockg-ontology#SoilChemicalSample.md) | None<br/>| 54269 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#SoilPhysicalSample](classes/HttpsIdir.uta.eduSockg-ontology#SoilPhysicalSample.md) | None<br/>| 28237 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#WindErosionArea](classes/HttpsIdir.uta.eduSockg-ontology#WindErosionArea.md) | None<br/>| 34 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#YieldNutrientUptake](classes/HttpsIdir.uta.eduSockg-ontology#YieldNutrientUptake.md) | None<br/>| 704 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#QualityMeasurement](classes/HttpsIdir.uta.eduSockg-ontology#QualityMeasurement.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#GasNutrientLoss](classes/HttpsIdir.uta.eduSockg-ontology#GasNutrientLoss.md) | None<br/>| 2231 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#WaterQualityArea](classes/HttpsIdir.uta.eduSockg-ontology#WaterQualityArea.md) | None<br/>| 681 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#WaterQualityConcentration](classes/HttpsIdir.uta.eduSockg-ontology#WaterQualityConcentration.md) | None<br/>| 2305 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#TillageManagement](classes/HttpsIdir.uta.eduSockg-ontology#TillageManagement.md) | None<br/>| 27450 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HttpsIdir.uta.eduSockg-ontology#WeatherObservation](classes/HttpsIdir.uta.eduSockg-ontology#WeatherObservation.md) | None<br/>| 149774 | 
+| [HttpsIdir.uta.eduSockg-ontology#Measurement](classes/HttpsIdir.uta.eduSockg-ontology#Measurement.md) | None<br/>| 3180012 | 
+| [HttpsIdir.uta.eduSockg-ontology#OtherEvents](classes/HttpsIdir.uta.eduSockg-ontology#OtherEvents.md) | None<br/>| 2 | 
+| [HttpsIdir.uta.eduSockg-ontology#Parameter](classes/HttpsIdir.uta.eduSockg-ontology#Parameter.md) | None<br/>| 156 | 
+| [HttpsIdir.uta.eduSockg-ontology#PesticidePlacement](classes/HttpsIdir.uta.eduSockg-ontology#PesticidePlacement.md) | None<br/>| 5 | 
+| [HttpsIdir.uta.eduSockg-ontology#PesticideTarget](classes/HttpsIdir.uta.eduSockg-ontology#PesticideTarget.md) | None<br/>| 38 | 
+| [HttpsIdir.uta.eduSockg-ontology#PlantFraction](classes/HttpsIdir.uta.eduSockg-ontology#PlantFraction.md) | None<br/>| 29 | 
+| [HttpsIdir.uta.eduSockg-ontology#PlantingMethod](classes/HttpsIdir.uta.eduSockg-ontology#PlantingMethod.md) | None<br/>| 6 | 
+| [HttpsIdir.uta.eduSockg-ontology#Project](classes/HttpsIdir.uta.eduSockg-ontology#Project.md) | None<br/>| 3 | 
+| [HttpsIdir.uta.eduSockg-ontology#ProjectScenario](classes/HttpsIdir.uta.eduSockg-ontology#ProjectScenario.md) | None<br/>| 19 | 
+| [HttpsIdir.uta.eduSockg-ontology#ResidueRemoval](classes/HttpsIdir.uta.eduSockg-ontology#ResidueRemoval.md) | None<br/>| 3 | 
+| [HttpsIdir.uta.eduSockg-ontology#Rotation](classes/HttpsIdir.uta.eduSockg-ontology#Rotation.md) | None<br/>| 66 | 
+| [HttpsIdir.uta.eduSockg-ontology#SimulationModel](classes/HttpsIdir.uta.eduSockg-ontology#SimulationModel.md) | None<br/>| 12 | 
+| [HttpsIdir.uta.eduSockg-ontology#SpeciesMix](classes/HttpsIdir.uta.eduSockg-ontology#SpeciesMix.md) | None<br/>| 7 | 
+| [HttpsIdir.uta.eduSockg-ontology#StartStopInterval](classes/HttpsIdir.uta.eduSockg-ontology#StartStopInterval.md) | None<br/>| 3 | 
+| [HttpsIdir.uta.eduSockg-ontology#SurfaceOrLeaching](classes/HttpsIdir.uta.eduSockg-ontology#SurfaceOrLeaching.md) | None<br/>| 2 | 
+| [HttpsIdir.uta.eduSockg-ontology#Tillage](classes/HttpsIdir.uta.eduSockg-ontology#Tillage.md) | None<br/>| 8 | 
+| [HttpsIdir.uta.eduSockg-ontology#TillageEvent](classes/HttpsIdir.uta.eduSockg-ontology#TillageEvent.md) | None<br/>| 18 | 
+| [HttpsIdir.uta.eduSockg-ontology#TillageMethod](classes/HttpsIdir.uta.eduSockg-ontology#TillageMethod.md) | None<br/>| 61 | 
+| [HttpsIdir.uta.eduSockg-ontology#Timing](classes/HttpsIdir.uta.eduSockg-ontology#Timing.md) | None<br/>| 7 | 
+| [HttpsIdir.uta.eduSockg-ontology#Treatment](classes/HttpsIdir.uta.eduSockg-ontology#Treatment.md) | None<br/>| 769 | 
 | [HttpsLod.nal.usda.govNalt7140](classes/HttpsLod.nal.usda.govNalt7140.md) | None<br/>| 48 | 
 | [KwgoS2CellLevel13](classes/KwgoS2CellLevel13.md) | None<br/>| 1069 | 
 
@@ -7167,136 +6915,74 @@ KwgoS2CellLevel13 ||--|o KwgoS2CellLevel13 : "spatial_connectedTo"
 | Slot | Description | Occurrences |
 | --- | --- | --- |
 | [coso_casNumber](slots/coso_casNumber.md) | <br/>| 84 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_cites](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_cites.md) | <br/>| 177 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_correspondingAuthor](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_correspondingAuthor.md) | <br/>| 136 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_endDate](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_endDate.md) | <br/>| 3974 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromProject](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromProject.md) | <br/>| 935 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fromUnit.md) | <br/>| 156810 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fundedBy](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_fundedBy.md) | <br/>| 54 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasAmendmentType](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasAmendmentType.md) | <br/>| 25357 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasAnimalClass](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasAnimalClass.md) | <br/>| 1833 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasAnimalSpecies](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasAnimalSpecies.md) | <br/>| 1954 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasBroadleafOrGrass](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasBroadleafOrGrass.md) | <br/>| 6996 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop.md) | <br/>| 149843 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCultivar](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCultivar.md) | <br/>| 20926 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasGrazingRate](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasGrazingRate.md) | <br/>| 20 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasGrowthStage](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasGrowthStage.md) | <br/>| 56789 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasHarvestedFraction](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasHarvestedFraction.md) | <br/>| 18154 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasLossesOrDeposition](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasLossesOrDeposition.md) | <br/>| 149 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasMeasurement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasMeasurement.md) | <br/>| 911199 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasOtherEvents](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasOtherEvents.md) | <br/>| 4 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasPesticideActiveIngredient](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasPesticideActiveIngredient.md) | <br/>| 16104 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasPesticideTarget](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasPesticideTarget.md) | <br/>| 12841 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasPlantFraction](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasPlantFraction.md) | <br/>| 24130 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasProjectScenario](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasProjectScenario.md) | <br/>| 826 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasRotation](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasRotation.md) | <br/>| 761 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasSpeciesMix](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasSpeciesMix.md) | <br/>| 6996 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasSurfaceOrLeaching](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasSurfaceOrLeaching.md) | <br/>| 2986 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasTillage](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasTillage.md) | <br/>| 711 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasTillageEvent](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasTillageEvent.md) | <br/>| 27450 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasTiming](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasTiming.md) | <br/>| 1034 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasTreatment](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasTreatment.md) | <br/>| 769 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_inferred](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_inferred.md) | <br/>| 3863 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_irrigation](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_irrigation.md) | <br/>| 774 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_lowerDepth](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_lowerDepth.md) | <br/>| 100779 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_of](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_of.md) | <br/>| 911199 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_organicManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_organicManagement.md) | <br/>| 769 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_startDate](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_startDate.md) | <br/>| 107758 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_tileDrainage](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_tileDrainage.md) | <br/>| 438 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasAmendment](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasAmendment.md) | <br/>| 47106 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasGrazingManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasGrazingManagement.md) | <br/>| 1951 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasGrowthStageManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasGrowthStageManagement.md) | <br/>| 5148 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasPlantingManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasPlantingManagement.md) | <br/>| 23728 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasResidueManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasResidueManagement.md) | <br/>| 3334 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasTillageManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_treatmentHasTillageManagement.md) | <br/>| 27450 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasAmendment](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasAmendment.md) | <br/>| 47106 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasGrazingManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasGrazingManagement.md) | <br/>| 1951 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasGrowthStageManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasGrowthStageManagement.md) | <br/>| 5148 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasPlantingManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasPlantingManagement.md) | <br/>| 23728 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasResidueManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasResidueManagement.md) | <br/>| 3334 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasTillageManagement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitHasTillageManagement.md) | <br/>| 27449 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitUrl](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_unitUrl.md) | <br/>| 23 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_upperDepth](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_upperDepth.md) | <br/>| 100779 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesCoverCrop](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesCoverCrop.md) | <br/>| 194 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesEquipment](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesEquipment.md) | <br/>| 3070 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesFertilizerAmendment](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesFertilizerAmendment.md) | <br/>| 653 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesIrrigation](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesIrrigation.md) | <br/>| 6063 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesModel](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesModel.md) | <br/>| 923 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesPlantingMethod](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesPlantingMethod.md) | <br/>| 22592 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesResidueRemoval](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesResidueRemoval.md) | <br/>| 769 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTillageMethod](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTillageMethod.md) | <br/>| 24709 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_usesTreatment.md) | <br/>| 156810 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_withCuttingHeight](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_withCuttingHeight.md) | <br/>| 2954 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_withPesticidePlacement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_withPesticidePlacement.md) | <br/>| 9498 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_withPlacement](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_withPlacement.md) | <br/>| 24794 |
-| [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_withStartStopInterval](slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_withStartStopInterval.md) | <br/>| 1722 |
-| [https___idir.uta.edu_sockg_ontology_docs#badValueFlag](slots/https___idir.uta.edu_sockg_ontology_docs#badValueFlag.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#cites](slots/https___idir.uta.edu_sockg_ontology_docs#cites.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#correspondingAuthor](slots/https___idir.uta.edu_sockg_ontology_docs#correspondingAuthor.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#endDate](slots/https___idir.uta.edu_sockg_ontology_docs#endDate.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#fromProject](slots/https___idir.uta.edu_sockg_ontology_docs#fromProject.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#fromUnit](slots/https___idir.uta.edu_sockg_ontology_docs#fromUnit.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#fundedBy](slots/https___idir.uta.edu_sockg_ontology_docs#fundedBy.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasAnimalClass](slots/https___idir.uta.edu_sockg_ontology_docs#hasAnimalClass.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasAnimalSpecies](slots/https___idir.uta.edu_sockg_ontology_docs#hasAnimalSpecies.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasBroadleafOrGrass](slots/https___idir.uta.edu_sockg_ontology_docs#hasBroadleafOrGrass.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasChamberPlacement](slots/https___idir.uta.edu_sockg_ontology_docs#hasChamberPlacement.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasCrop](slots/https___idir.uta.edu_sockg_ontology_docs#hasCrop.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasCultivar](slots/https___idir.uta.edu_sockg_ontology_docs#hasCultivar.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasGrazingRate](slots/https___idir.uta.edu_sockg_ontology_docs#hasGrazingRate.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasGrowthStage](slots/https___idir.uta.edu_sockg_ontology_docs#hasGrowthStage.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasHarvestedFraction](slots/https___idir.uta.edu_sockg_ontology_docs#hasHarvestedFraction.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasLossesOrDeposition](slots/https___idir.uta.edu_sockg_ontology_docs#hasLossesOrDeposition.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasMeasurement](slots/https___idir.uta.edu_sockg_ontology_docs#hasMeasurement.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasOtherEvents](slots/https___idir.uta.edu_sockg_ontology_docs#hasOtherEvents.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasPesticideActiveIngredient](slots/https___idir.uta.edu_sockg_ontology_docs#hasPesticideActiveIngredient.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasPesticideTarget](slots/https___idir.uta.edu_sockg_ontology_docs#hasPesticideTarget.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasPlantFraction](slots/https___idir.uta.edu_sockg_ontology_docs#hasPlantFraction.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasProjectScenario](slots/https___idir.uta.edu_sockg_ontology_docs#hasProjectScenario.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasRotation](slots/https___idir.uta.edu_sockg_ontology_docs#hasRotation.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasSpeciesMix](slots/https___idir.uta.edu_sockg_ontology_docs#hasSpeciesMix.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasStandardDeviation](slots/https___idir.uta.edu_sockg_ontology_docs#hasStandardDeviation.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasSurfaceOrLeaching](slots/https___idir.uta.edu_sockg_ontology_docs#hasSurfaceOrLeaching.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasTillage](slots/https___idir.uta.edu_sockg_ontology_docs#hasTillage.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasTillageEvent](slots/https___idir.uta.edu_sockg_ontology_docs#hasTillageEvent.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasTiming](slots/https___idir.uta.edu_sockg_ontology_docs#hasTiming.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#hasTreatment](slots/https___idir.uta.edu_sockg_ontology_docs#hasTreatment.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#inferred](slots/https___idir.uta.edu_sockg_ontology_docs#inferred.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#irrigation](slots/https___idir.uta.edu_sockg_ontology_docs#irrigation.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#isInterpolated](slots/https___idir.uta.edu_sockg_ontology_docs#isInterpolated.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#lowerDepth](slots/https___idir.uta.edu_sockg_ontology_docs#lowerDepth.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#of](slots/https___idir.uta.edu_sockg_ontology_docs#of.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#organicManagement](slots/https___idir.uta.edu_sockg_ontology_docs#organicManagement.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#startDate](slots/https___idir.uta.edu_sockg_ontology_docs#startDate.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#tileDrainage](slots/https___idir.uta.edu_sockg_ontology_docs#tileDrainage.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#treatmentHasAmendment](slots/https___idir.uta.edu_sockg_ontology_docs#treatmentHasAmendment.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#treatmentHasGrazingManagement](slots/https___idir.uta.edu_sockg_ontology_docs#treatmentHasGrazingManagement.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#treatmentHasGrowthStageManagement](slots/https___idir.uta.edu_sockg_ontology_docs#treatmentHasGrowthStageManagement.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#treatmentHasPlantingManagement](slots/https___idir.uta.edu_sockg_ontology_docs#treatmentHasPlantingManagement.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#treatmentHasResidueManagement](slots/https___idir.uta.edu_sockg_ontology_docs#treatmentHasResidueManagement.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#treatmentHasTillageManagement](slots/https___idir.uta.edu_sockg_ontology_docs#treatmentHasTillageManagement.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#unitHasAmendment](slots/https___idir.uta.edu_sockg_ontology_docs#unitHasAmendment.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#unitHasGrazingManagement](slots/https___idir.uta.edu_sockg_ontology_docs#unitHasGrazingManagement.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#unitHasGrowthStageManagement](slots/https___idir.uta.edu_sockg_ontology_docs#unitHasGrowthStageManagement.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#unitHasPlantingManagement](slots/https___idir.uta.edu_sockg_ontology_docs#unitHasPlantingManagement.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#unitHasResidueManagement](slots/https___idir.uta.edu_sockg_ontology_docs#unitHasResidueManagement.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#unitHasTillageManagement](slots/https___idir.uta.edu_sockg_ontology_docs#unitHasTillageManagement.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#unitUrl](slots/https___idir.uta.edu_sockg_ontology_docs#unitUrl.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#upperDepth](slots/https___idir.uta.edu_sockg_ontology_docs#upperDepth.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#usesCoverCrop](slots/https___idir.uta.edu_sockg_ontology_docs#usesCoverCrop.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#usesEquipment](slots/https___idir.uta.edu_sockg_ontology_docs#usesEquipment.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#usesFertilizerAmendment](slots/https___idir.uta.edu_sockg_ontology_docs#usesFertilizerAmendment.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#usesIrrigation](slots/https___idir.uta.edu_sockg_ontology_docs#usesIrrigation.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#usesModel](slots/https___idir.uta.edu_sockg_ontology_docs#usesModel.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#usesPlantingMethod](slots/https___idir.uta.edu_sockg_ontology_docs#usesPlantingMethod.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#usesResidueRemoval](slots/https___idir.uta.edu_sockg_ontology_docs#usesResidueRemoval.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#usesTillageMethod](slots/https___idir.uta.edu_sockg_ontology_docs#usesTillageMethod.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#usesTreatment](slots/https___idir.uta.edu_sockg_ontology_docs#usesTreatment.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#weatherAt](slots/https___idir.uta.edu_sockg_ontology_docs#weatherAt.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#withCuttingHeight](slots/https___idir.uta.edu_sockg_ontology_docs#withCuttingHeight.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#withPesticidePlacement](slots/https___idir.uta.edu_sockg_ontology_docs#withPesticidePlacement.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#withPlacement](slots/https___idir.uta.edu_sockg_ontology_docs#withPlacement.md) | <br/>No occurrences of this slot in the graph.|  |
-| [https___idir.uta.edu_sockg_ontology_docs#withStartStopInterval](slots/https___idir.uta.edu_sockg_ontology_docs#withStartStopInterval.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology#badValueFlag](slots/https___idir.uta.edu_sockg_ontology#badValueFlag.md) | <br/>| 149774 |
+| [https___idir.uta.edu_sockg_ontology#cites](slots/https___idir.uta.edu_sockg_ontology#cites.md) | <br/>| 177 |
+| [https___idir.uta.edu_sockg_ontology#correspondingAuthor](slots/https___idir.uta.edu_sockg_ontology#correspondingAuthor.md) | <br/>| 136 |
+| [https___idir.uta.edu_sockg_ontology#endDate](slots/https___idir.uta.edu_sockg_ontology#endDate.md) | <br/>| 3974 |
+| [https___idir.uta.edu_sockg_ontology#fromProject](slots/https___idir.uta.edu_sockg_ontology#fromProject.md) | <br/>| 935 |
+| [https___idir.uta.edu_sockg_ontology#fromUnit](slots/https___idir.uta.edu_sockg_ontology#fromUnit.md) | <br/>| 439350 |
+| [https___idir.uta.edu_sockg_ontology#fundedBy](slots/https___idir.uta.edu_sockg_ontology#fundedBy.md) | <br/>| 54 |
+| [https___idir.uta.edu_sockg_ontology#hasAmendmentType](slots/https___idir.uta.edu_sockg_ontology#hasAmendmentType.md) | <br/>| 25357 |
+| [https___idir.uta.edu_sockg_ontology#hasAnimalClass](slots/https___idir.uta.edu_sockg_ontology#hasAnimalClass.md) | <br/>| 1833 |
+| [https___idir.uta.edu_sockg_ontology#hasAnimalSpecies](slots/https___idir.uta.edu_sockg_ontology#hasAnimalSpecies.md) | <br/>| 1954 |
+| [https___idir.uta.edu_sockg_ontology#hasBroadleafOrGrass](slots/https___idir.uta.edu_sockg_ontology#hasBroadleafOrGrass.md) | <br/>| 6996 |
+| [https___idir.uta.edu_sockg_ontology#hasChamberPlacement](slots/https___idir.uta.edu_sockg_ontology#hasChamberPlacement.md) | <br/>| 127419 |
+| [https___idir.uta.edu_sockg_ontology#hasCrop](slots/https___idir.uta.edu_sockg_ontology#hasCrop.md) | <br/>| 278818 |
+| [https___idir.uta.edu_sockg_ontology#hasCultivar](slots/https___idir.uta.edu_sockg_ontology#hasCultivar.md) | <br/>| 20926 |
+| [https___idir.uta.edu_sockg_ontology#hasGrazingRate](slots/https___idir.uta.edu_sockg_ontology#hasGrazingRate.md) | <br/>| 20 |
+| [https___idir.uta.edu_sockg_ontology#hasGrowthStage](slots/https___idir.uta.edu_sockg_ontology#hasGrowthStage.md) | <br/>| 56789 |
+| [https___idir.uta.edu_sockg_ontology#hasHarvestedFraction](slots/https___idir.uta.edu_sockg_ontology#hasHarvestedFraction.md) | <br/>| 18154 |
+| [https___idir.uta.edu_sockg_ontology#hasLossesOrDeposition](slots/https___idir.uta.edu_sockg_ontology#hasLossesOrDeposition.md) | <br/>| 149 |
+| [https___idir.uta.edu_sockg_ontology#hasMeasurement](slots/https___idir.uta.edu_sockg_ontology#hasMeasurement.md) | <br/>| 3180012 |
+| [https___idir.uta.edu_sockg_ontology#hasOtherEvents](slots/https___idir.uta.edu_sockg_ontology#hasOtherEvents.md) | <br/>| 4 |
+| [https___idir.uta.edu_sockg_ontology#hasPesticideActiveIngredient](slots/https___idir.uta.edu_sockg_ontology#hasPesticideActiveIngredient.md) | <br/>| 16104 |
+| [https___idir.uta.edu_sockg_ontology#hasPesticideTarget](slots/https___idir.uta.edu_sockg_ontology#hasPesticideTarget.md) | <br/>| 12841 |
+| [https___idir.uta.edu_sockg_ontology#hasPlantFraction](slots/https___idir.uta.edu_sockg_ontology#hasPlantFraction.md) | <br/>| 24130 |
+| [https___idir.uta.edu_sockg_ontology#hasProjectScenario](slots/https___idir.uta.edu_sockg_ontology#hasProjectScenario.md) | <br/>| 826 |
+| [https___idir.uta.edu_sockg_ontology#hasRotation](slots/https___idir.uta.edu_sockg_ontology#hasRotation.md) | <br/>| 761 |
+| [https___idir.uta.edu_sockg_ontology#hasSpeciesMix](slots/https___idir.uta.edu_sockg_ontology#hasSpeciesMix.md) | <br/>| 6996 |
+| [https___idir.uta.edu_sockg_ontology#hasStandardDeviation](slots/https___idir.uta.edu_sockg_ontology#hasStandardDeviation.md) | <br/>No occurrences of this slot in the graph.|  |
+| [https___idir.uta.edu_sockg_ontology#hasSurfaceOrLeaching](slots/https___idir.uta.edu_sockg_ontology#hasSurfaceOrLeaching.md) | <br/>| 2986 |
+| [https___idir.uta.edu_sockg_ontology#hasTillage](slots/https___idir.uta.edu_sockg_ontology#hasTillage.md) | <br/>| 711 |
+| [https___idir.uta.edu_sockg_ontology#hasTillageEvent](slots/https___idir.uta.edu_sockg_ontology#hasTillageEvent.md) | <br/>| 27450 |
+| [https___idir.uta.edu_sockg_ontology#hasTiming](slots/https___idir.uta.edu_sockg_ontology#hasTiming.md) | <br/>| 1034 |
+| [https___idir.uta.edu_sockg_ontology#hasTreatment](slots/https___idir.uta.edu_sockg_ontology#hasTreatment.md) | <br/>| 769 |
+| [https___idir.uta.edu_sockg_ontology#inferred](slots/https___idir.uta.edu_sockg_ontology#inferred.md) | <br/>| 3863 |
+| [https___idir.uta.edu_sockg_ontology#irrigation](slots/https___idir.uta.edu_sockg_ontology#irrigation.md) | <br/>| 774 |
+| [https___idir.uta.edu_sockg_ontology#isInterpolated](slots/https___idir.uta.edu_sockg_ontology#isInterpolated.md) | <br/>| 397571 |
+| [https___idir.uta.edu_sockg_ontology#lowerDepth](slots/https___idir.uta.edu_sockg_ontology#lowerDepth.md) | <br/>| 100779 |
+| [https___idir.uta.edu_sockg_ontology#of](slots/https___idir.uta.edu_sockg_ontology#of.md) | <br/>| 3180012 |
+| [https___idir.uta.edu_sockg_ontology#organicManagement](slots/https___idir.uta.edu_sockg_ontology#organicManagement.md) | <br/>| 769 |
+| [https___idir.uta.edu_sockg_ontology#startDate](slots/https___idir.uta.edu_sockg_ontology#startDate.md) | <br/>| 107758 |
+| [https___idir.uta.edu_sockg_ontology#tileDrainage](slots/https___idir.uta.edu_sockg_ontology#tileDrainage.md) | <br/>| 438 |
+| [https___idir.uta.edu_sockg_ontology#treatmentHasAmendment](slots/https___idir.uta.edu_sockg_ontology#treatmentHasAmendment.md) | <br/>| 47106 |
+| [https___idir.uta.edu_sockg_ontology#treatmentHasGrazingManagement](slots/https___idir.uta.edu_sockg_ontology#treatmentHasGrazingManagement.md) | <br/>| 1951 |
+| [https___idir.uta.edu_sockg_ontology#treatmentHasGrowthStageManagement](slots/https___idir.uta.edu_sockg_ontology#treatmentHasGrowthStageManagement.md) | <br/>| 5148 |
+| [https___idir.uta.edu_sockg_ontology#treatmentHasPlantingManagement](slots/https___idir.uta.edu_sockg_ontology#treatmentHasPlantingManagement.md) | <br/>| 23728 |
+| [https___idir.uta.edu_sockg_ontology#treatmentHasResidueManagement](slots/https___idir.uta.edu_sockg_ontology#treatmentHasResidueManagement.md) | <br/>| 3334 |
+| [https___idir.uta.edu_sockg_ontology#treatmentHasTillageManagement](slots/https___idir.uta.edu_sockg_ontology#treatmentHasTillageManagement.md) | <br/>| 27450 |
+| [https___idir.uta.edu_sockg_ontology#unitHasAmendment](slots/https___idir.uta.edu_sockg_ontology#unitHasAmendment.md) | <br/>| 47106 |
+| [https___idir.uta.edu_sockg_ontology#unitHasGrazingManagement](slots/https___idir.uta.edu_sockg_ontology#unitHasGrazingManagement.md) | <br/>| 1951 |
+| [https___idir.uta.edu_sockg_ontology#unitHasGrowthStageManagement](slots/https___idir.uta.edu_sockg_ontology#unitHasGrowthStageManagement.md) | <br/>| 5148 |
+| [https___idir.uta.edu_sockg_ontology#unitHasPlantingManagement](slots/https___idir.uta.edu_sockg_ontology#unitHasPlantingManagement.md) | <br/>| 23728 |
+| [https___idir.uta.edu_sockg_ontology#unitHasResidueManagement](slots/https___idir.uta.edu_sockg_ontology#unitHasResidueManagement.md) | <br/>| 3334 |
+| [https___idir.uta.edu_sockg_ontology#unitHasTillageManagement](slots/https___idir.uta.edu_sockg_ontology#unitHasTillageManagement.md) | <br/>| 27449 |
+| [https___idir.uta.edu_sockg_ontology#unitUrl](slots/https___idir.uta.edu_sockg_ontology#unitUrl.md) | <br/>| 23 |
+| [https___idir.uta.edu_sockg_ontology#upperDepth](slots/https___idir.uta.edu_sockg_ontology#upperDepth.md) | <br/>| 100779 |
+| [https___idir.uta.edu_sockg_ontology#usesCoverCrop](slots/https___idir.uta.edu_sockg_ontology#usesCoverCrop.md) | <br/>| 194 |
+| [https___idir.uta.edu_sockg_ontology#usesEquipment](slots/https___idir.uta.edu_sockg_ontology#usesEquipment.md) | <br/>| 3070 |
+| [https___idir.uta.edu_sockg_ontology#usesFertilizerAmendment](slots/https___idir.uta.edu_sockg_ontology#usesFertilizerAmendment.md) | <br/>| 653 |
+| [https___idir.uta.edu_sockg_ontology#usesIrrigation](slots/https___idir.uta.edu_sockg_ontology#usesIrrigation.md) | <br/>| 6063 |
+| [https___idir.uta.edu_sockg_ontology#usesModel](slots/https___idir.uta.edu_sockg_ontology#usesModel.md) | <br/>| 923 |
+| [https___idir.uta.edu_sockg_ontology#usesPlantingMethod](slots/https___idir.uta.edu_sockg_ontology#usesPlantingMethod.md) | <br/>| 22592 |
+| [https___idir.uta.edu_sockg_ontology#usesResidueRemoval](slots/https___idir.uta.edu_sockg_ontology#usesResidueRemoval.md) | <br/>| 769 |
+| [https___idir.uta.edu_sockg_ontology#usesTillageMethod](slots/https___idir.uta.edu_sockg_ontology#usesTillageMethod.md) | <br/>| 24709 |
+| [https___idir.uta.edu_sockg_ontology#usesTreatment](slots/https___idir.uta.edu_sockg_ontology#usesTreatment.md) | <br/>| 439350 |
+| [https___idir.uta.edu_sockg_ontology#weatherAt](slots/https___idir.uta.edu_sockg_ontology#weatherAt.md) | <br/>| 149774 |
+| [https___idir.uta.edu_sockg_ontology#withCuttingHeight](slots/https___idir.uta.edu_sockg_ontology#withCuttingHeight.md) | <br/>| 2954 |
+| [https___idir.uta.edu_sockg_ontology#withPesticidePlacement](slots/https___idir.uta.edu_sockg_ontology#withPesticidePlacement.md) | <br/>| 9498 |
+| [https___idir.uta.edu_sockg_ontology#withPlacement](slots/https___idir.uta.edu_sockg_ontology#withPlacement.md) | <br/>| 24794 |
+| [https___idir.uta.edu_sockg_ontology#withStartStopInterval](slots/https___idir.uta.edu_sockg_ontology#withStartStopInterval.md) | <br/>| 1722 |
 | [sdos_isPrimaryContact](slots/sdos_isPrimaryContact.md) | <br/>| 140 |
 | [sdos_role](slots/sdos_role.md) | <br/>| 151 |
 | [spatial_connectedTo](slots/spatial_connectedTo.md) | <br/>| 2322 |

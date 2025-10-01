@@ -10,7 +10,7 @@ _This property relates a factor unit its unit_
 
 
 
-This slot occurs 1112757 times.
+This slot occurs 3381570 times.
 
 
 URI: [qudt:hasUnit](http://qudt.org/schema/qudt/hasUnit)

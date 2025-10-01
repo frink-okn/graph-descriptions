@@ -27,8 +27,8 @@ URI: [kwgo:sfContains](http://stko-kwg.geog.ucsb.edu/lod/ontology/sfContains)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Location](../classes/HttpsIdir.uta.eduSockg-ontology#Location.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Site](../classes/HttpsIdir.uta.eduSockg-ontology#Site.md) |  |  no  |
 
 
 
@@ -59,8 +59,8 @@ notes:
 from_schema: okns:kwg
 slot_uri: kwgo:sfContains
 domain_of:
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Location
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Site
+- https___idir.uta.edu_sockg-ontology#Location
+- https___idir.uta.edu_sockg-ontology#Site
 subproperty_of: kwgo_spatialRelation
 range: Any
 

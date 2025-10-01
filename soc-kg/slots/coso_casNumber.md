@@ -22,7 +22,7 @@ URI: [coso:casNumber](http://w3id.org/coso/v1/contaminoso#casNumber)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ActiveIngredient](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ActiveIngredient.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#ActiveIngredient](../classes/HttpsIdir.uta.eduSockg-ontology#ActiveIngredient.md) |  |  no  |
 
 
 
@@ -51,7 +51,7 @@ rank: 1000
 slot_uri: coso:casNumber
 alias: coso_casNumber
 domain_of:
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_ActiveIngredient
+- https___idir.uta.edu_sockg-ontology#ActiveIngredient
 range: string
 
 ```

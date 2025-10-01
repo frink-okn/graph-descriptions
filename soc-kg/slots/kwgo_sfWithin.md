@@ -27,10 +27,10 @@ URI: [kwgo:sfWithin](http://stko-kwg.geog.ucsb.edu/lod/ontology/sfWithin)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Location](../classes/HttpsIdir.uta.eduSockg-ontology#Location.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit](../classes/HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Site](../classes/HttpsIdir.uta.eduSockg-ontology#Site.md) |  |  no  |
 | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location.md) |  |  no  |
 
 
 
@@ -61,9 +61,9 @@ notes:
 from_schema: okns:kwg
 slot_uri: kwgo:sfWithin
 domain_of:
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_ExperimentalUnit
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Location
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Site
+- https___idir.uta.edu_sockg-ontology#ExperimentalUnit
+- https___idir.uta.edu_sockg-ontology#Location
+- https___idir.uta.edu_sockg-ontology#Site
 - kwgo_S2Cell_Level13
 subproperty_of: kwgo_spatialRelation
 range: Any

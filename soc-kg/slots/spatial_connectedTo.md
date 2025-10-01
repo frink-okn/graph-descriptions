@@ -22,9 +22,9 @@ URI: [spatial:connectedTo](http://purl.org/spatialai/spatial/spatial-full#connec
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Location](../classes/HttpsIdir.uta.eduSockg-ontology#Location.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Site](../classes/HttpsIdir.uta.eduSockg-ontology#Site.md) |  |  no  |
 | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location.md) |  |  no  |
 
 
 
@@ -34,7 +34,7 @@ URI: [spatial:connectedTo](http://purl.org/spatialai/spatial/spatial-full#connec
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site.md)&nbsp;or&nbsp;<br />[HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location.md)&nbsp;or&nbsp;<br />[KwgoAdministrativeRegion2](../classes/KwgoAdministrativeRegion2.md)&nbsp;or&nbsp;<br />[KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md)&nbsp;or&nbsp;<br />[KwgoAdministrativeRegion2](../classes/KwgoAdministrativeRegion2.md)&nbsp;or&nbsp;<br />[HttpsIdir.uta.eduSockg-ontology#Location](../classes/HttpsIdir.uta.eduSockg-ontology#Location.md)&nbsp;or&nbsp;<br />[HttpsIdir.uta.eduSockg-ontology#Site](../classes/HttpsIdir.uta.eduSockg-ontology#Site.md)
 
 
 
@@ -54,16 +54,16 @@ rank: 1000
 slot_uri: spatial:connectedTo
 alias: spatial_connectedTo
 domain_of:
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Location
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Site
+- https___idir.uta.edu_sockg-ontology#Location
+- https___idir.uta.edu_sockg-ontology#Site
 - kwgo_S2Cell_Level13
 subproperty_of: spatial_spatiallyRelatedTo
 range: Any
 any_of:
-- range: http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Site
-- range: http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Location
-- range: kwgo_AdministrativeRegion_2
 - range: kwgo_S2Cell_Level13
+- range: kwgo_AdministrativeRegion_2
+- range: https___idir.uta.edu_sockg-ontology#Location
+- range: https___idir.uta.edu_sockg-ontology#Site
 
 ```
 </details>

@@ -10,7 +10,7 @@ _A <i>Quantity Value</i> expresses the magnitude and kind of a quantity and is g
 
 
 
-This class occurs 1112757 times.
+This class occurs 3381570 times.
 
 
 URI: [qudt:QuantityValue](http://qudt.org/schema/qudt/QuantityValue)
@@ -63,13 +63,13 @@ URI: [qudt:QuantityValue](http://qudt.org/schema/qudt/QuantityValue)
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement.md) | [qudt_quantityValue](../slots/qudt_quantityValue.md) | range | [QudtQuantityValue](../classes/QudtQuantityValue.md) |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_lowerDepth](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_lowerDepth.md) | range | [QudtQuantityValue](../classes/QudtQuantityValue.md) |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilBiologicalSample.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_upperDepth](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_upperDepth.md) | range | [QudtQuantityValue](../classes/QudtQuantityValue.md) |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_lowerDepth](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_lowerDepth.md) | range | [QudtQuantityValue](../classes/QudtQuantityValue.md) |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilChemicalSample.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_upperDepth](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_upperDepth.md) | range | [QudtQuantityValue](../classes/QudtQuantityValue.md) |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_lowerDepth](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_lowerDepth.md) | range | [QudtQuantityValue](../classes/QudtQuantityValue.md) |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilPhysicalSample.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_upperDepth](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_upperDepth.md) | range | [QudtQuantityValue](../classes/QudtQuantityValue.md) |
+| [HttpsIdir.uta.eduSockg-ontology#Measurement](../classes/HttpsIdir.uta.eduSockg-ontology#Measurement.md) | [qudt_quantityValue](../slots/qudt_quantityValue.md) | range | [QudtQuantityValue](../classes/QudtQuantityValue.md) |
+| [HttpsIdir.uta.eduSockg-ontology#SoilBiologicalSample](../classes/HttpsIdir.uta.eduSockg-ontology#SoilBiologicalSample.md) | [https___idir.uta.edu_sockg_ontology#upperDepth](../slots/https___idir.uta.edu_sockg_ontology#upperDepth.md) | range | [QudtQuantityValue](../classes/QudtQuantityValue.md) |
+| [HttpsIdir.uta.eduSockg-ontology#SoilBiologicalSample](../classes/HttpsIdir.uta.eduSockg-ontology#SoilBiologicalSample.md) | [https___idir.uta.edu_sockg_ontology#lowerDepth](../slots/https___idir.uta.edu_sockg_ontology#lowerDepth.md) | range | [QudtQuantityValue](../classes/QudtQuantityValue.md) |
+| [HttpsIdir.uta.eduSockg-ontology#SoilChemicalSample](../classes/HttpsIdir.uta.eduSockg-ontology#SoilChemicalSample.md) | [https___idir.uta.edu_sockg_ontology#upperDepth](../slots/https___idir.uta.edu_sockg_ontology#upperDepth.md) | range | [QudtQuantityValue](../classes/QudtQuantityValue.md) |
+| [HttpsIdir.uta.eduSockg-ontology#SoilChemicalSample](../classes/HttpsIdir.uta.eduSockg-ontology#SoilChemicalSample.md) | [https___idir.uta.edu_sockg_ontology#lowerDepth](../slots/https___idir.uta.edu_sockg_ontology#lowerDepth.md) | range | [QudtQuantityValue](../classes/QudtQuantityValue.md) |
+| [HttpsIdir.uta.eduSockg-ontology#SoilPhysicalSample](../classes/HttpsIdir.uta.eduSockg-ontology#SoilPhysicalSample.md) | [https___idir.uta.edu_sockg_ontology#upperDepth](../slots/https___idir.uta.edu_sockg_ontology#upperDepth.md) | range | [QudtQuantityValue](../classes/QudtQuantityValue.md) |
+| [HttpsIdir.uta.eduSockg-ontology#SoilPhysicalSample](../classes/HttpsIdir.uta.eduSockg-ontology#SoilPhysicalSample.md) | [https___idir.uta.edu_sockg_ontology#lowerDepth](../slots/https___idir.uta.edu_sockg_ontology#lowerDepth.md) | range | [QudtQuantityValue](../classes/QudtQuantityValue.md) |
 
 
 

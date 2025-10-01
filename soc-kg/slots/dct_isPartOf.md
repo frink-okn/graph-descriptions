@@ -27,7 +27,7 @@ URI: [dct:isPartOf](http://purl.org/dc/terms/isPartOf)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BookChapter](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BookChapter.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#BookChapter](../classes/HttpsIdir.uta.eduSockg-ontology#BookChapter.md) |  |  no  |
 
 
 
@@ -67,7 +67,7 @@ from_schema: okns:dc
 source: http://purl.org/dc/terms/
 slot_uri: dct:isPartOf
 domain_of:
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_BookChapter
+- https___idir.uta.edu_sockg-ontology#BookChapter
 subproperty_of: dct_relation
 range: Any
 

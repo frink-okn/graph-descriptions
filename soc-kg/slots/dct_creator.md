@@ -27,13 +27,13 @@ URI: [dct:creator](http://purl.org/dc/terms/creator)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Report](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Report.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BookChapter](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BookChapter.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Abstract](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Abstract.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Proceedings](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Proceedings.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PopularArticle](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PopularArticle.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Thesis](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Thesis.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Abstract](../classes/HttpsIdir.uta.eduSockg-ontology#Abstract.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#PopularArticle](../classes/HttpsIdir.uta.eduSockg-ontology#PopularArticle.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#JournalArticle](../classes/HttpsIdir.uta.eduSockg-ontology#JournalArticle.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Thesis](../classes/HttpsIdir.uta.eduSockg-ontology#Thesis.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#BookChapter](../classes/HttpsIdir.uta.eduSockg-ontology#BookChapter.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Proceedings](../classes/HttpsIdir.uta.eduSockg-ontology#Proceedings.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Report](../classes/HttpsIdir.uta.eduSockg-ontology#Report.md) |  |  no  |
 
 
 
@@ -75,13 +75,13 @@ exact_mappings:
 - http://xmlns.com/foaf/0.1/maker
 slot_uri: dct:creator
 domain_of:
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Abstract
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_BookChapter
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_JournalArticle
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_PopularArticle
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Proceedings
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Report
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Thesis
+- https___idir.uta.edu_sockg-ontology#Abstract
+- https___idir.uta.edu_sockg-ontology#BookChapter
+- https___idir.uta.edu_sockg-ontology#JournalArticle
+- https___idir.uta.edu_sockg-ontology#PopularArticle
+- https___idir.uta.edu_sockg-ontology#Proceedings
+- https___idir.uta.edu_sockg-ontology#Report
+- https___idir.uta.edu_sockg-ontology#Thesis
 subproperty_of: dct_contributor
 range: Any
 

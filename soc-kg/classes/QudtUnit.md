@@ -653,8 +653,8 @@ attributes:
     alias: rdfs_seeAlso
     owner: qudt_Unit
     domain_of:
-    - rdfs_Datatype
     - dcam_VocabularyEncodingScheme
+    - rdfs_Datatype
     - qudt_DerivedUnit
     - qudt_Unit
     range: Any
@@ -898,10 +898,10 @@ attributes:
     alias: rdfs_isDefinedBy
     owner: qudt_Unit
     domain_of:
-    - rdf_List
-    - rdfs_Datatype
     - dcam_VocabularyEncodingScheme
     - dct_AgentClass
+    - rdf_List
+    - rdfs_Datatype
     - qudt_AspectClass
     - qudt_BinaryPrefix
     - qudt_BitEncodingType
@@ -985,19 +985,13 @@ attributes:
     alias: rdfs_comment
     owner: qudt_Unit
     domain_of:
-    - rdf_List
-    - rdfs_Datatype
     - dcam_VocabularyEncodingScheme
     - dct_AgentClass
-    - bibo_DocumentStatus
-    - bibo_ThesisDegree
+    - rdf_List
+    - rdfs_Datatype
     - qudt_AspectClass
     - qudt_DerivedUnit
     - qudt_Unit
-    - kwgo_CensusObservableProperty
-    - kwgo_LSADArea
-    - kwgo_MTBSFireObservableProperty
-    - kwgo_SoilMapUnitObservableProperty
     - sdos_ActionStatusType
     - sdos_AdultOrientedEnumeration
     - sdos_BoardingPolicyType
@@ -1079,6 +1073,12 @@ attributes:
     - sdos_WearableMeasurementTypeEnumeration
     - sdos_WearableSizeGroupEnumeration
     - sdos_WearableSizeSystemEnumeration
+    - kwgo_CensusObservableProperty
+    - kwgo_LSADArea
+    - kwgo_MTBSFireObservableProperty
+    - kwgo_SoilMapUnitObservableProperty
+    - bibo_DocumentStatus
+    - bibo_ThesisDegree
     - rdf_DatatypeProperty
     range: Any
     any_of:
@@ -1294,14 +1294,10 @@ attributes:
     alias: rdfs_label
     owner: qudt_Unit
     domain_of:
-    - rdf_List
-    - rdfs_Datatype
     - dcam_VocabularyEncodingScheme
     - dct_AgentClass
-    - time_DayOfWeek
-    - time_TemporalUnit
-    - bibo_DocumentStatus
-    - bibo_ThesisDegree
+    - rdf_List
+    - rdfs_Datatype
     - qudt_AspectClass
     - qudt_BinaryPrefix
     - qudt_BitEncodingType
@@ -1323,31 +1319,6 @@ attributes:
     - qudt_OrderedType
     - qudt_SignednessType
     - qudt_Unit
-    - kwgo_AirPollutant
-    - kwgo_BlueskyWildfireObservableProperty
-    - kwgo_CensusObservableProperty
-    - kwgo_ClimateObservableProperty
-    - kwgo_CroplandObservableProperty
-    - kwgo_DroughtIntensity
-    - kwgo_FireCause
-    - kwgo_HelipadAvailability
-    - kwgo_HospitalStatus
-    - kwgo_HospitalType
-    - kwgo_ImpactObservableProperty
-    - kwgo_LSADArea
-    - kwgo_MTBSFireObservableProperty
-    - kwgo_MagnitudeObservableProperty
-    - kwgo_NIFCFireObservableProperty
-    - kwgo_PublicHealthObservableProperty
-    - kwgo_RoadType
-    - kwgo_SmokePlumeObservableProperty
-    - kwgo_SoilMapUnitObservableProperty
-    - kwgo_StormTrackObservableProperty
-    - kwgo_StormTrackletObservableProperty
-    - kwgo_VulnerabilityObservableProperty
-    - vaem_GraphMetaData
-    - vaem_GraphRole
-    - vaem_Party
     - sdos_ActionStatusType
     - sdos_AdultOrientedEnumeration
     - sdos_BoardingPolicyType
@@ -1429,6 +1400,35 @@ attributes:
     - sdos_WearableMeasurementTypeEnumeration
     - sdos_WearableSizeGroupEnumeration
     - sdos_WearableSizeSystemEnumeration
+    - kwgo_AirPollutant
+    - kwgo_BlueskyWildfireObservableProperty
+    - kwgo_CensusObservableProperty
+    - kwgo_ClimateObservableProperty
+    - kwgo_CroplandObservableProperty
+    - kwgo_DroughtIntensity
+    - kwgo_FireCause
+    - kwgo_HelipadAvailability
+    - kwgo_HospitalStatus
+    - kwgo_HospitalType
+    - kwgo_ImpactObservableProperty
+    - kwgo_LSADArea
+    - kwgo_MTBSFireObservableProperty
+    - kwgo_MagnitudeObservableProperty
+    - kwgo_NIFCFireObservableProperty
+    - kwgo_PublicHealthObservableProperty
+    - kwgo_RoadType
+    - kwgo_SmokePlumeObservableProperty
+    - kwgo_SoilMapUnitObservableProperty
+    - kwgo_StormTrackObservableProperty
+    - kwgo_StormTrackletObservableProperty
+    - kwgo_VulnerabilityObservableProperty
+    - time_DayOfWeek
+    - time_TemporalUnit
+    - bibo_DocumentStatus
+    - bibo_ThesisDegree
+    - vaem_GraphMetaData
+    - vaem_GraphRole
+    - vaem_Party
     - rdf_DatatypeProperty
     - vaem_CatalogEntry
     - voag_Attribution
@@ -1453,40 +1453,41 @@ attributes:
     - voag_Provenance
     - voag_PublicationStatus
     - voag_SchemaGraph
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Abstract
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_ActiveIngredient
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_AmendmentPlacement
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_AmendmentType
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_AnimalClass
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_AnimalSpecies
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_BookChapter
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_BroadleafOrGrass
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Cultivar
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_CuttingHeight
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Equipment
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_FundingSource
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_GrowthStage
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_HarvestedFraction
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Irrigation
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_JournalArticle
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Location
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_LossesOrDeposition
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_OtherEvents
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Parameter
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_PesticidePlacement
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_PesticideTarget
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_PlantFraction
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_PlantingMethod
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_PopularArticle
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Proceedings
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Report
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_SimulationModel
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_SpeciesMix
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_StartStopInterval
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_SurfaceOrLeaching
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Thesis
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_TillageEvent
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_TillageMethod
+    - https___idir.uta.edu_sockg-ontology#Abstract
+    - https___idir.uta.edu_sockg-ontology#ActiveIngredient
+    - https___idir.uta.edu_sockg-ontology#AmendmentPlacement
+    - https___idir.uta.edu_sockg-ontology#AmendmentType
+    - https___idir.uta.edu_sockg-ontology#AnimalClass
+    - https___idir.uta.edu_sockg-ontology#AnimalSpecies
+    - https___idir.uta.edu_sockg-ontology#BookChapter
+    - https___idir.uta.edu_sockg-ontology#BroadleafOrGrass
+    - https___idir.uta.edu_sockg-ontology#ChamberPlacement
+    - https___idir.uta.edu_sockg-ontology#Cultivar
+    - https___idir.uta.edu_sockg-ontology#CuttingHeight
+    - https___idir.uta.edu_sockg-ontology#Equipment
+    - https___idir.uta.edu_sockg-ontology#FundingSource
+    - https___idir.uta.edu_sockg-ontology#GrowthStage
+    - https___idir.uta.edu_sockg-ontology#HarvestedFraction
+    - https___idir.uta.edu_sockg-ontology#Irrigation
+    - https___idir.uta.edu_sockg-ontology#JournalArticle
+    - https___idir.uta.edu_sockg-ontology#Location
+    - https___idir.uta.edu_sockg-ontology#LossesOrDeposition
+    - https___idir.uta.edu_sockg-ontology#OtherEvents
+    - https___idir.uta.edu_sockg-ontology#Parameter
+    - https___idir.uta.edu_sockg-ontology#PesticidePlacement
+    - https___idir.uta.edu_sockg-ontology#PesticideTarget
+    - https___idir.uta.edu_sockg-ontology#PlantFraction
+    - https___idir.uta.edu_sockg-ontology#PlantingMethod
+    - https___idir.uta.edu_sockg-ontology#PopularArticle
+    - https___idir.uta.edu_sockg-ontology#Proceedings
+    - https___idir.uta.edu_sockg-ontology#Report
+    - https___idir.uta.edu_sockg-ontology#SimulationModel
+    - https___idir.uta.edu_sockg-ontology#SpeciesMix
+    - https___idir.uta.edu_sockg-ontology#StartStopInterval
+    - https___idir.uta.edu_sockg-ontology#SurfaceOrLeaching
+    - https___idir.uta.edu_sockg-ontology#Thesis
+    - https___idir.uta.edu_sockg-ontology#TillageEvent
+    - https___idir.uta.edu_sockg-ontology#TillageMethod
     - https___lod.nal.usda.gov_nalt_7140
     range: Any
     any_of:
@@ -1621,21 +1622,21 @@ attributes:
     - qudt_LogarithmicUnit
     - qudt_Unit
     - vaem_GraphRole
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_AnimalSpecies
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_CoverCrop
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_FertilizerAmendment
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_GrazingRate
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_JournalArticle
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Location
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Proceedings
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Project
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_ProjectScenario
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_ResidueRemoval
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Rotation
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Thesis
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Tillage
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Timing
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Treatment
+    - https___idir.uta.edu_sockg-ontology#AnimalSpecies
+    - https___idir.uta.edu_sockg-ontology#CoverCrop
+    - https___idir.uta.edu_sockg-ontology#FertilizerAmendment
+    - https___idir.uta.edu_sockg-ontology#GrazingRate
+    - https___idir.uta.edu_sockg-ontology#JournalArticle
+    - https___idir.uta.edu_sockg-ontology#Location
+    - https___idir.uta.edu_sockg-ontology#Proceedings
+    - https___idir.uta.edu_sockg-ontology#Project
+    - https___idir.uta.edu_sockg-ontology#ProjectScenario
+    - https___idir.uta.edu_sockg-ontology#ResidueRemoval
+    - https___idir.uta.edu_sockg-ontology#Rotation
+    - https___idir.uta.edu_sockg-ontology#Thesis
+    - https___idir.uta.edu_sockg-ontology#Tillage
+    - https___idir.uta.edu_sockg-ontology#Timing
+    - https___idir.uta.edu_sockg-ontology#Treatment
     subproperty_of: dc_description
     range: string
   prov_wasDerivedFrom:

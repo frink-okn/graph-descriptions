@@ -27,7 +27,7 @@ URI: [sdos:postalCode](https://schema.org/postalCode)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Site](../classes/HttpsIdir.uta.eduSockg-ontology#Site.md) |  |  no  |
 
 
 
@@ -59,7 +59,7 @@ from_schema: okns:sdo
 source: https://github.com/schemaorg/schemaorg/issues/2506
 slot_uri: sdos:postalCode
 domain_of:
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Site
+- https___idir.uta.edu_sockg-ontology#Site
 union_of:
 - sdos_PostalAddress
 - sdos_DefinedRegion

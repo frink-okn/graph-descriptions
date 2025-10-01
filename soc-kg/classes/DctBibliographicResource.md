@@ -24,20 +24,20 @@ URI: [dct:BibliographicResource](http://purl.org/dc/terms/BibliographicResource)
  classDiagram
     class DctBibliographicResource
     click DctBibliographicResource href "../DctBibliographicResource"
-      DctBibliographicResource <|-- HttpsIdir.uta.eduSockg-ontologyDocs#Abstract
-        click HttpsIdir.uta.eduSockg-ontologyDocs#Abstract href "../HttpsIdir.uta.eduSockg-ontologyDocs#Abstract"
-      DctBibliographicResource <|-- HttpsIdir.uta.eduSockg-ontologyDocs#BookChapter
-        click HttpsIdir.uta.eduSockg-ontologyDocs#BookChapter href "../HttpsIdir.uta.eduSockg-ontologyDocs#BookChapter"
-      DctBibliographicResource <|-- HttpsIdir.uta.eduSockg-ontologyDocs#JournalArticle
-        click HttpsIdir.uta.eduSockg-ontologyDocs#JournalArticle href "../HttpsIdir.uta.eduSockg-ontologyDocs#JournalArticle"
-      DctBibliographicResource <|-- HttpsIdir.uta.eduSockg-ontologyDocs#PopularArticle
-        click HttpsIdir.uta.eduSockg-ontologyDocs#PopularArticle href "../HttpsIdir.uta.eduSockg-ontologyDocs#PopularArticle"
-      DctBibliographicResource <|-- HttpsIdir.uta.eduSockg-ontologyDocs#Proceedings
-        click HttpsIdir.uta.eduSockg-ontologyDocs#Proceedings href "../HttpsIdir.uta.eduSockg-ontologyDocs#Proceedings"
-      DctBibliographicResource <|-- HttpsIdir.uta.eduSockg-ontologyDocs#Report
-        click HttpsIdir.uta.eduSockg-ontologyDocs#Report href "../HttpsIdir.uta.eduSockg-ontologyDocs#Report"
-      DctBibliographicResource <|-- HttpsIdir.uta.eduSockg-ontologyDocs#Thesis
-        click HttpsIdir.uta.eduSockg-ontologyDocs#Thesis href "../HttpsIdir.uta.eduSockg-ontologyDocs#Thesis"
+      DctBibliographicResource <|-- HttpsIdir.uta.eduSockg-ontology#Abstract
+        click HttpsIdir.uta.eduSockg-ontology#Abstract href "../HttpsIdir.uta.eduSockg-ontology#Abstract"
+      DctBibliographicResource <|-- HttpsIdir.uta.eduSockg-ontology#BookChapter
+        click HttpsIdir.uta.eduSockg-ontology#BookChapter href "../HttpsIdir.uta.eduSockg-ontology#BookChapter"
+      DctBibliographicResource <|-- HttpsIdir.uta.eduSockg-ontology#JournalArticle
+        click HttpsIdir.uta.eduSockg-ontology#JournalArticle href "../HttpsIdir.uta.eduSockg-ontology#JournalArticle"
+      DctBibliographicResource <|-- HttpsIdir.uta.eduSockg-ontology#PopularArticle
+        click HttpsIdir.uta.eduSockg-ontology#PopularArticle href "../HttpsIdir.uta.eduSockg-ontology#PopularArticle"
+      DctBibliographicResource <|-- HttpsIdir.uta.eduSockg-ontology#Proceedings
+        click HttpsIdir.uta.eduSockg-ontology#Proceedings href "../HttpsIdir.uta.eduSockg-ontology#Proceedings"
+      DctBibliographicResource <|-- HttpsIdir.uta.eduSockg-ontology#Report
+        click HttpsIdir.uta.eduSockg-ontology#Report href "../HttpsIdir.uta.eduSockg-ontology#Report"
+      DctBibliographicResource <|-- HttpsIdir.uta.eduSockg-ontology#Thesis
+        click HttpsIdir.uta.eduSockg-ontology#Thesis href "../HttpsIdir.uta.eduSockg-ontology#Thesis"
       
       
 ```
@@ -48,13 +48,13 @@ URI: [dct:BibliographicResource](http://purl.org/dc/terms/BibliographicResource)
 
 ## Inheritance
 * **DctBibliographicResource**
-    * [HttpsIdir.uta.eduSockg-ontologyDocs#Abstract](../classes/HttpsIdir.uta.eduSockg-ontologyDocs#Abstract.md)
-    * [HttpsIdir.uta.eduSockg-ontologyDocs#BookChapter](../classes/HttpsIdir.uta.eduSockg-ontologyDocs#BookChapter.md)
-    * [HttpsIdir.uta.eduSockg-ontologyDocs#JournalArticle](../classes/HttpsIdir.uta.eduSockg-ontologyDocs#JournalArticle.md)
-    * [HttpsIdir.uta.eduSockg-ontologyDocs#PopularArticle](../classes/HttpsIdir.uta.eduSockg-ontologyDocs#PopularArticle.md)
-    * [HttpsIdir.uta.eduSockg-ontologyDocs#Proceedings](../classes/HttpsIdir.uta.eduSockg-ontologyDocs#Proceedings.md)
-    * [HttpsIdir.uta.eduSockg-ontologyDocs#Report](../classes/HttpsIdir.uta.eduSockg-ontologyDocs#Report.md)
-    * [HttpsIdir.uta.eduSockg-ontologyDocs#Thesis](../classes/HttpsIdir.uta.eduSockg-ontologyDocs#Thesis.md)
+    * [HttpsIdir.uta.eduSockg-ontology#Abstract](../classes/HttpsIdir.uta.eduSockg-ontology#Abstract.md)
+    * [HttpsIdir.uta.eduSockg-ontology#BookChapter](../classes/HttpsIdir.uta.eduSockg-ontology#BookChapter.md)
+    * [HttpsIdir.uta.eduSockg-ontology#JournalArticle](../classes/HttpsIdir.uta.eduSockg-ontology#JournalArticle.md)
+    * [HttpsIdir.uta.eduSockg-ontology#PopularArticle](../classes/HttpsIdir.uta.eduSockg-ontology#PopularArticle.md)
+    * [HttpsIdir.uta.eduSockg-ontology#Proceedings](../classes/HttpsIdir.uta.eduSockg-ontology#Proceedings.md)
+    * [HttpsIdir.uta.eduSockg-ontology#Report](../classes/HttpsIdir.uta.eduSockg-ontology#Report.md)
+    * [HttpsIdir.uta.eduSockg-ontology#Thesis](../classes/HttpsIdir.uta.eduSockg-ontology#Thesis.md)
 
 
 
@@ -71,7 +71,14 @@ URI: [dct:BibliographicResource](http://purl.org/dc/terms/BibliographicResource)
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_cites](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_cites.md) | any_of[range] | [DctBibliographicResource](../classes/DctBibliographicResource.md) |
+| [HttpsIdir.uta.eduSockg-ontology#Abstract](../classes/HttpsIdir.uta.eduSockg-ontology#Abstract.md) | [https___idir.uta.edu_sockg_ontology#correspondingAuthor](../slots/https___idir.uta.edu_sockg_ontology#correspondingAuthor.md) | domain | [DctBibliographicResource](../classes/DctBibliographicResource.md) |
+| [HttpsIdir.uta.eduSockg-ontology#BookChapter](../classes/HttpsIdir.uta.eduSockg-ontology#BookChapter.md) | [https___idir.uta.edu_sockg_ontology#correspondingAuthor](../slots/https___idir.uta.edu_sockg_ontology#correspondingAuthor.md) | domain | [DctBibliographicResource](../classes/DctBibliographicResource.md) |
+| [HttpsIdir.uta.eduSockg-ontology#JournalArticle](../classes/HttpsIdir.uta.eduSockg-ontology#JournalArticle.md) | [https___idir.uta.edu_sockg_ontology#correspondingAuthor](../slots/https___idir.uta.edu_sockg_ontology#correspondingAuthor.md) | domain | [DctBibliographicResource](../classes/DctBibliographicResource.md) |
+| [HttpsIdir.uta.eduSockg-ontology#Location](../classes/HttpsIdir.uta.eduSockg-ontology#Location.md) | [https___idir.uta.edu_sockg_ontology#cites](../slots/https___idir.uta.edu_sockg_ontology#cites.md) | any_of[range] | [DctBibliographicResource](../classes/DctBibliographicResource.md) |
+| [HttpsIdir.uta.eduSockg-ontology#PopularArticle](../classes/HttpsIdir.uta.eduSockg-ontology#PopularArticle.md) | [https___idir.uta.edu_sockg_ontology#correspondingAuthor](../slots/https___idir.uta.edu_sockg_ontology#correspondingAuthor.md) | domain | [DctBibliographicResource](../classes/DctBibliographicResource.md) |
+| [HttpsIdir.uta.eduSockg-ontology#Proceedings](../classes/HttpsIdir.uta.eduSockg-ontology#Proceedings.md) | [https___idir.uta.edu_sockg_ontology#correspondingAuthor](../slots/https___idir.uta.edu_sockg_ontology#correspondingAuthor.md) | domain | [DctBibliographicResource](../classes/DctBibliographicResource.md) |
+| [HttpsIdir.uta.eduSockg-ontology#Report](../classes/HttpsIdir.uta.eduSockg-ontology#Report.md) | [https___idir.uta.edu_sockg_ontology#correspondingAuthor](../slots/https___idir.uta.edu_sockg_ontology#correspondingAuthor.md) | domain | [DctBibliographicResource](../classes/DctBibliographicResource.md) |
+| [HttpsIdir.uta.eduSockg-ontology#Thesis](../classes/HttpsIdir.uta.eduSockg-ontology#Thesis.md) | [https___idir.uta.edu_sockg_ontology#correspondingAuthor](../slots/https___idir.uta.edu_sockg_ontology#correspondingAuthor.md) | domain | [DctBibliographicResource](../classes/DctBibliographicResource.md) |
 
 
 

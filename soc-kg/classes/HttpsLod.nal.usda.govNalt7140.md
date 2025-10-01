@@ -51,21 +51,22 @@ URI: [https://lod.nal.usda.gov/nalt/7140](https://lod.nal.usda.gov/nalt/7140)
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Amendment.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassCarbohydrate.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassEnergy.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278BiomassMineral.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GasNutrientLoss.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStageManagement](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278GrowthStageManagement.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278HarvestFraction.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278NutrientEfficiency.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingManagement](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278PlantingManagement.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueManagement.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ResidueMeasurement.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilCover](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278SoilCover.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageManagement](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278TillageManagement.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278WaterQualityConcentration.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278YieldNutrientUptake.md) | [http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop](../slots/http___www.semanticweb.org_trash_ontologies_2025_5_untitled_ontology_278_hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
+| [HttpsIdir.uta.eduSockg-ontology#Amendment](../classes/HttpsIdir.uta.eduSockg-ontology#Amendment.md) | [https___idir.uta.edu_sockg_ontology#hasCrop](../slots/https___idir.uta.edu_sockg_ontology#hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
+| [HttpsIdir.uta.eduSockg-ontology#BiomassCarbohydrate](../classes/HttpsIdir.uta.eduSockg-ontology#BiomassCarbohydrate.md) | [https___idir.uta.edu_sockg_ontology#hasCrop](../slots/https___idir.uta.edu_sockg_ontology#hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
+| [HttpsIdir.uta.eduSockg-ontology#BiomassEnergy](../classes/HttpsIdir.uta.eduSockg-ontology#BiomassEnergy.md) | [https___idir.uta.edu_sockg_ontology#hasCrop](../slots/https___idir.uta.edu_sockg_ontology#hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
+| [HttpsIdir.uta.eduSockg-ontology#BiomassMineral](../classes/HttpsIdir.uta.eduSockg-ontology#BiomassMineral.md) | [https___idir.uta.edu_sockg_ontology#hasCrop](../slots/https___idir.uta.edu_sockg_ontology#hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
+| [HttpsIdir.uta.eduSockg-ontology#GHGFlux](../classes/HttpsIdir.uta.eduSockg-ontology#GHGFlux.md) | [https___idir.uta.edu_sockg_ontology#hasCrop](../slots/https___idir.uta.edu_sockg_ontology#hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
+| [HttpsIdir.uta.eduSockg-ontology#GasNutrientLoss](../classes/HttpsIdir.uta.eduSockg-ontology#GasNutrientLoss.md) | [https___idir.uta.edu_sockg_ontology#hasCrop](../slots/https___idir.uta.edu_sockg_ontology#hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
+| [HttpsIdir.uta.eduSockg-ontology#GrowthStageManagement](../classes/HttpsIdir.uta.eduSockg-ontology#GrowthStageManagement.md) | [https___idir.uta.edu_sockg_ontology#hasCrop](../slots/https___idir.uta.edu_sockg_ontology#hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
+| [HttpsIdir.uta.eduSockg-ontology#HarvestFraction](../classes/HttpsIdir.uta.eduSockg-ontology#HarvestFraction.md) | [https___idir.uta.edu_sockg_ontology#hasCrop](../slots/https___idir.uta.edu_sockg_ontology#hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
+| [HttpsIdir.uta.eduSockg-ontology#NutrientEfficiency](../classes/HttpsIdir.uta.eduSockg-ontology#NutrientEfficiency.md) | [https___idir.uta.edu_sockg_ontology#hasCrop](../slots/https___idir.uta.edu_sockg_ontology#hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
+| [HttpsIdir.uta.eduSockg-ontology#PlantingManagement](../classes/HttpsIdir.uta.eduSockg-ontology#PlantingManagement.md) | [https___idir.uta.edu_sockg_ontology#hasCrop](../slots/https___idir.uta.edu_sockg_ontology#hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
+| [HttpsIdir.uta.eduSockg-ontology#ResidueManagement](../classes/HttpsIdir.uta.eduSockg-ontology#ResidueManagement.md) | [https___idir.uta.edu_sockg_ontology#hasCrop](../slots/https___idir.uta.edu_sockg_ontology#hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
+| [HttpsIdir.uta.eduSockg-ontology#ResidueMeasurement](../classes/HttpsIdir.uta.eduSockg-ontology#ResidueMeasurement.md) | [https___idir.uta.edu_sockg_ontology#hasCrop](../slots/https___idir.uta.edu_sockg_ontology#hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
+| [HttpsIdir.uta.eduSockg-ontology#SoilCover](../classes/HttpsIdir.uta.eduSockg-ontology#SoilCover.md) | [https___idir.uta.edu_sockg_ontology#hasCrop](../slots/https___idir.uta.edu_sockg_ontology#hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
+| [HttpsIdir.uta.eduSockg-ontology#TillageManagement](../classes/HttpsIdir.uta.eduSockg-ontology#TillageManagement.md) | [https___idir.uta.edu_sockg_ontology#hasCrop](../slots/https___idir.uta.edu_sockg_ontology#hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
+| [HttpsIdir.uta.eduSockg-ontology#WaterQualityConcentration](../classes/HttpsIdir.uta.eduSockg-ontology#WaterQualityConcentration.md) | [https___idir.uta.edu_sockg_ontology#hasCrop](../slots/https___idir.uta.edu_sockg_ontology#hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
+| [HttpsIdir.uta.eduSockg-ontology#YieldNutrientUptake](../classes/HttpsIdir.uta.eduSockg-ontology#YieldNutrientUptake.md) | [https___idir.uta.edu_sockg_ontology#hasCrop](../slots/https___idir.uta.edu_sockg_ontology#hasCrop.md) | range | [HttpsLod.nal.usda.govNalt7140](../classes/HttpsLod.nal.usda.govNalt7140.md) |
 
 
 
@@ -116,14 +117,10 @@ attributes:
     alias: rdfs_label
     owner: https___lod.nal.usda.gov_nalt_7140
     domain_of:
-    - rdf_List
-    - rdfs_Datatype
     - dcam_VocabularyEncodingScheme
     - dct_AgentClass
-    - time_DayOfWeek
-    - time_TemporalUnit
-    - bibo_DocumentStatus
-    - bibo_ThesisDegree
+    - rdf_List
+    - rdfs_Datatype
     - qudt_AspectClass
     - qudt_BinaryPrefix
     - qudt_BitEncodingType
@@ -145,31 +142,6 @@ attributes:
     - qudt_OrderedType
     - qudt_SignednessType
     - qudt_Unit
-    - kwgo_AirPollutant
-    - kwgo_BlueskyWildfireObservableProperty
-    - kwgo_CensusObservableProperty
-    - kwgo_ClimateObservableProperty
-    - kwgo_CroplandObservableProperty
-    - kwgo_DroughtIntensity
-    - kwgo_FireCause
-    - kwgo_HelipadAvailability
-    - kwgo_HospitalStatus
-    - kwgo_HospitalType
-    - kwgo_ImpactObservableProperty
-    - kwgo_LSADArea
-    - kwgo_MTBSFireObservableProperty
-    - kwgo_MagnitudeObservableProperty
-    - kwgo_NIFCFireObservableProperty
-    - kwgo_PublicHealthObservableProperty
-    - kwgo_RoadType
-    - kwgo_SmokePlumeObservableProperty
-    - kwgo_SoilMapUnitObservableProperty
-    - kwgo_StormTrackObservableProperty
-    - kwgo_StormTrackletObservableProperty
-    - kwgo_VulnerabilityObservableProperty
-    - vaem_GraphMetaData
-    - vaem_GraphRole
-    - vaem_Party
     - sdos_ActionStatusType
     - sdos_AdultOrientedEnumeration
     - sdos_BoardingPolicyType
@@ -251,6 +223,35 @@ attributes:
     - sdos_WearableMeasurementTypeEnumeration
     - sdos_WearableSizeGroupEnumeration
     - sdos_WearableSizeSystemEnumeration
+    - kwgo_AirPollutant
+    - kwgo_BlueskyWildfireObservableProperty
+    - kwgo_CensusObservableProperty
+    - kwgo_ClimateObservableProperty
+    - kwgo_CroplandObservableProperty
+    - kwgo_DroughtIntensity
+    - kwgo_FireCause
+    - kwgo_HelipadAvailability
+    - kwgo_HospitalStatus
+    - kwgo_HospitalType
+    - kwgo_ImpactObservableProperty
+    - kwgo_LSADArea
+    - kwgo_MTBSFireObservableProperty
+    - kwgo_MagnitudeObservableProperty
+    - kwgo_NIFCFireObservableProperty
+    - kwgo_PublicHealthObservableProperty
+    - kwgo_RoadType
+    - kwgo_SmokePlumeObservableProperty
+    - kwgo_SoilMapUnitObservableProperty
+    - kwgo_StormTrackObservableProperty
+    - kwgo_StormTrackletObservableProperty
+    - kwgo_VulnerabilityObservableProperty
+    - time_DayOfWeek
+    - time_TemporalUnit
+    - bibo_DocumentStatus
+    - bibo_ThesisDegree
+    - vaem_GraphMetaData
+    - vaem_GraphRole
+    - vaem_Party
     - rdf_DatatypeProperty
     - vaem_CatalogEntry
     - voag_Attribution
@@ -275,40 +276,41 @@ attributes:
     - voag_Provenance
     - voag_PublicationStatus
     - voag_SchemaGraph
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Abstract
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_ActiveIngredient
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_AmendmentPlacement
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_AmendmentType
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_AnimalClass
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_AnimalSpecies
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_BookChapter
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_BroadleafOrGrass
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Cultivar
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_CuttingHeight
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Equipment
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_FundingSource
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_GrowthStage
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_HarvestedFraction
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Irrigation
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_JournalArticle
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Location
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_LossesOrDeposition
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_OtherEvents
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Parameter
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_PesticidePlacement
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_PesticideTarget
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_PlantFraction
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_PlantingMethod
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_PopularArticle
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Proceedings
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Report
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_SimulationModel
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_SpeciesMix
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_StartStopInterval
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_SurfaceOrLeaching
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Thesis
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_TillageEvent
-    - http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_TillageMethod
+    - https___idir.uta.edu_sockg-ontology#Abstract
+    - https___idir.uta.edu_sockg-ontology#ActiveIngredient
+    - https___idir.uta.edu_sockg-ontology#AmendmentPlacement
+    - https___idir.uta.edu_sockg-ontology#AmendmentType
+    - https___idir.uta.edu_sockg-ontology#AnimalClass
+    - https___idir.uta.edu_sockg-ontology#AnimalSpecies
+    - https___idir.uta.edu_sockg-ontology#BookChapter
+    - https___idir.uta.edu_sockg-ontology#BroadleafOrGrass
+    - https___idir.uta.edu_sockg-ontology#ChamberPlacement
+    - https___idir.uta.edu_sockg-ontology#Cultivar
+    - https___idir.uta.edu_sockg-ontology#CuttingHeight
+    - https___idir.uta.edu_sockg-ontology#Equipment
+    - https___idir.uta.edu_sockg-ontology#FundingSource
+    - https___idir.uta.edu_sockg-ontology#GrowthStage
+    - https___idir.uta.edu_sockg-ontology#HarvestedFraction
+    - https___idir.uta.edu_sockg-ontology#Irrigation
+    - https___idir.uta.edu_sockg-ontology#JournalArticle
+    - https___idir.uta.edu_sockg-ontology#Location
+    - https___idir.uta.edu_sockg-ontology#LossesOrDeposition
+    - https___idir.uta.edu_sockg-ontology#OtherEvents
+    - https___idir.uta.edu_sockg-ontology#Parameter
+    - https___idir.uta.edu_sockg-ontology#PesticidePlacement
+    - https___idir.uta.edu_sockg-ontology#PesticideTarget
+    - https___idir.uta.edu_sockg-ontology#PlantFraction
+    - https___idir.uta.edu_sockg-ontology#PlantingMethod
+    - https___idir.uta.edu_sockg-ontology#PopularArticle
+    - https___idir.uta.edu_sockg-ontology#Proceedings
+    - https___idir.uta.edu_sockg-ontology#Report
+    - https___idir.uta.edu_sockg-ontology#SimulationModel
+    - https___idir.uta.edu_sockg-ontology#SpeciesMix
+    - https___idir.uta.edu_sockg-ontology#StartStopInterval
+    - https___idir.uta.edu_sockg-ontology#SurfaceOrLeaching
+    - https___idir.uta.edu_sockg-ontology#Thesis
+    - https___idir.uta.edu_sockg-ontology#TillageEvent
+    - https___idir.uta.edu_sockg-ontology#TillageMethod
     - https___lod.nal.usda.gov_nalt_7140
     range: Any
     any_of:

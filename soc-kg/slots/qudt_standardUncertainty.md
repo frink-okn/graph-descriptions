@@ -10,7 +10,7 @@ _The standard uncertainty of a quantity is the estimated standard deviation of t
 
 
 
-This slot occurs 2875 times.
+This slot occurs 403751 times.
 
 
 URI: [qudt:standardUncertainty](http://qudt.org/schema/qudt/standardUncertainty)

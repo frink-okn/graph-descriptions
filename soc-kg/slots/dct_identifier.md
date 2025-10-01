@@ -27,11 +27,11 @@ URI: [dct:identifier](http://purl.org/dc/terms/identifier)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278JournalArticle.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Site.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278ExperimentalUnit.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Treatment.md) |  |  no  |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Location.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Location](../classes/HttpsIdir.uta.eduSockg-ontology#Location.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit](../classes/HttpsIdir.uta.eduSockg-ontology#ExperimentalUnit.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#JournalArticle](../classes/HttpsIdir.uta.eduSockg-ontology#JournalArticle.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Site](../classes/HttpsIdir.uta.eduSockg-ontology#Site.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Treatment](../classes/HttpsIdir.uta.eduSockg-ontology#Treatment.md) |  |  no  |
 
 
 
@@ -72,11 +72,11 @@ from_schema: okns:dc
 source: http://purl.org/dc/terms/
 slot_uri: dct:identifier
 domain_of:
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_ExperimentalUnit
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_JournalArticle
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Location
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Site
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Treatment
+- https___idir.uta.edu_sockg-ontology#ExperimentalUnit
+- https___idir.uta.edu_sockg-ontology#JournalArticle
+- https___idir.uta.edu_sockg-ontology#Location
+- https___idir.uta.edu_sockg-ontology#Site
+- https___idir.uta.edu_sockg-ontology#Treatment
 subproperty_of: dc_identifier
 range: rdfs_Literal
 

@@ -5,7 +5,7 @@
 
 
 
-This slot occurs 911199 times.
+This slot occurs 3180012 times.
 
 
 URI: [qudt:quantityValue](http://qudt.org/schema/qudt/quantityValue)
@@ -22,7 +22,7 @@ URI: [qudt:quantityValue](http://qudt.org/schema/qudt/quantityValue)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement](../classes/HttpWww.semanticweb.orgTrashOntologies20255Untitled-ontology-278Measurement.md) |  |  no  |
+| [HttpsIdir.uta.eduSockg-ontology#Measurement](../classes/HttpsIdir.uta.eduSockg-ontology#Measurement.md) |  |  no  |
 
 
 
@@ -53,7 +53,7 @@ from_schema: okns:qudt
 source: http://qudt.org/schema/qudt
 slot_uri: qudt:quantityValue
 domain_of:
-- http___www.semanticweb.org_trash_ontologies_2025_5_untitled-ontology-278_Measurement
+- https___idir.uta.edu_sockg-ontology#Measurement
 range: qudt_QuantityValue
 
 ```

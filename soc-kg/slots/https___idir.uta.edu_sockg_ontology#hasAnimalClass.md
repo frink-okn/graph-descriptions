@@ -1,0 +1,59 @@
+
+
+# Slot: https___idir.uta.edu_sockg_ontology#hasAnimalClass
+
+
+
+
+This slot occurs 1833 times.
+
+
+URI: [https://idir.uta.edu/sockg-ontology#hasAnimalClass](https://idir.uta.edu/sockg-ontology#hasAnimalClass)
+
+
+
+<!-- no inheritance hierarchy -->
+
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [HttpsIdir.uta.eduSockg-ontology#GrazingManagement](../classes/HttpsIdir.uta.eduSockg-ontology#GrazingManagement.md) |  |  no  |
+
+
+
+
+
+
+
+## Properties
+
+* Range: [HttpsIdir.uta.eduSockg-ontology#AnimalClass](../classes/HttpsIdir.uta.eduSockg-ontology#AnimalClass.md)
+
+
+
+
+
+
+
+## LinkML Source
+
+<details>
+
+```yaml
+name: https___idir.uta.edu_sockg-ontology#hasAnimalClass
+from_schema: okns:soc-kg
+rank: 1000
+domain: https___idir.uta.edu_sockg-ontology#GrazingManagement
+slot_uri: https://idir.uta.edu/sockg-ontology#hasAnimalClass
+alias: https___idir.uta.edu_sockg_ontology#hasAnimalClass
+domain_of:
+- https___idir.uta.edu_sockg-ontology#GrazingManagement
+range: https___idir.uta.edu_sockg-ontology#AnimalClass
+
+```
+</details>

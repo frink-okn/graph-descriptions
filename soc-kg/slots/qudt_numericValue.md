@@ -5,7 +5,7 @@
 
 
 
-This slot occurs 1112757 times.
+This slot occurs 3381570 times.
 
 
 URI: [qudt:numericValue](http://qudt.org/schema/qudt/numericValue)
