@@ -8,6 +8,146 @@ Standards-first export using GCMD IRIs, single Wikidata exactMatch links, and es
 
 ```mermaid
 erDiagram
+DcamVocabularyEncodingScheme {
+    date dct_issued  
+    string rdfs_label  
+    string rdfs_comment  
+    uri rdfs_seeAlso  
+}
+DcmitypeCollection {
+
+}
+DcmitypeDataset {
+
+}
+DcmitypeEvent {
+
+}
+DcmitypeImage {
+
+}
+DcmitypeInteractiveResource {
+
+}
+DcmitypeMovingImage {
+
+}
+DcmitypePhysicalObject {
+
+}
+DcmitypeService {
+
+}
+DcmitypeSoftware {
+
+}
+DcmitypeSound {
+
+}
+DcmitypeStillImage {
+
+}
+DcmitypeText {
+
+}
+DctAgent {
+
+}
+DctAgentClass {
+    string rdfs_label  
+    string rdfs_comment  
+    date dct_issued  
+}
+DctBibliographicResource {
+
+}
+DctFileFormat {
+
+}
+DctFrequency {
+
+}
+DctJurisdiction {
+
+}
+DctLicenseDocument {
+
+}
+DctLinguisticSystem {
+
+}
+DctLocation {
+
+}
+DctLocationPeriodOrJurisdiction {
+
+}
+DctMediaType {
+
+}
+DctMediaTypeOrExtent {
+
+}
+DctMethodOfAccrual {
+
+}
+DctMethodOfInstruction {
+
+}
+DctPeriodOfTime {
+
+}
+DctPhysicalMedium {
+
+}
+DctPhysicalResource {
+
+}
+DctPolicy {
+
+}
+DctProvenanceStatement {
+
+}
+DctRightsStatement {
+
+}
+DctSizeOrDuration {
+
+}
+DctStandard {
+
+}
+FoafAgent {
+
+}
+FoafDocument {
+
+}
+Wn16Credential {
+
+}
+Wn16Endorsement-4 {
+
+}
+Wn16Event {
+
+}
+WotEncryptedDocument {
+
+}
+WotEndorsement {
+
+}
+WotPubKey {
+
+}
+WotSigEvent {
+
+}
+WotUser {
+
+}
 OwlAllDifferent {
 
 }
@@ -130,36 +270,6 @@ RdfsLiteral {
 RdfsResource {
 
 }
-FoafAgent {
-
-}
-FoafDocument {
-
-}
-Wn16Credential {
-
-}
-Wn16Endorsement-4 {
-
-}
-Wn16Event {
-
-}
-WotEncryptedDocument {
-
-}
-WotEndorsement {
-
-}
-WotPubKey {
-
-}
-WotSigEvent {
-
-}
-WotUser {
-
-}
 FoafGroup {
 
 }
@@ -191,116 +301,6 @@ FoafPersonalProfileDocument {
 
 }
 FoafProject {
-
-}
-DcamVocabularyEncodingScheme {
-    date dct_issued  
-    string rdfs_label  
-    string rdfs_comment  
-    uri rdfs_seeAlso  
-}
-DcmitypeCollection {
-
-}
-DcmitypeDataset {
-
-}
-DcmitypeEvent {
-
-}
-DcmitypeImage {
-
-}
-DcmitypeInteractiveResource {
-
-}
-DcmitypeMovingImage {
-
-}
-DcmitypePhysicalObject {
-
-}
-DcmitypeService {
-
-}
-DcmitypeSoftware {
-
-}
-DcmitypeSound {
-
-}
-DcmitypeStillImage {
-
-}
-DcmitypeText {
-
-}
-DctAgent {
-
-}
-DctAgentClass {
-    string rdfs_label  
-    string rdfs_comment  
-    date dct_issued  
-}
-DctBibliographicResource {
-
-}
-DctFileFormat {
-
-}
-DctFrequency {
-
-}
-DctJurisdiction {
-
-}
-DctLicenseDocument {
-
-}
-DctLinguisticSystem {
-
-}
-DctLocation {
-
-}
-DctLocationPeriodOrJurisdiction {
-
-}
-DctMediaType {
-
-}
-DctMediaTypeOrExtent {
-
-}
-DctMethodOfAccrual {
-
-}
-DctMethodOfInstruction {
-
-}
-DctPeriodOfTime {
-
-}
-DctPhysicalMedium {
-
-}
-DctPhysicalResource {
-
-}
-DctPolicy {
-
-}
-DctProvenanceStatement {
-
-}
-DctRightsStatement {
-
-}
-DctSizeOrDuration {
-
-}
-DctStandard {
 
 }
 SkosCollection {
@@ -4059,6 +4059,17 @@ VoagVocabGraph {
 
 }
 
+DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "dct_issued"
+DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "rdfs_label"
+DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "rdfs_comment"
+DcamVocabularyEncodingScheme ||--|o RdfsResource : "rdfs_seeAlso"
+DcamVocabularyEncodingScheme ||--|o OwlOntology : "rdfs_isDefinedBy"
+DcamVocabularyEncodingScheme ||--|o RdfsResource : "rdfs_isDefinedBy"
+DctAgentClass ||--|o RdfsLiteral : "rdfs_label"
+DctAgentClass ||--|o RdfsLiteral : "rdfs_comment"
+DctAgentClass ||--|o RdfsLiteral : "dct_issued"
+DctAgentClass ||--|o OwlOntology : "rdfs_isDefinedBy"
+DctAgentClass ||--|o RdfsResource : "rdfs_isDefinedBy"
 OwlDataRange ||--|o OwlOntology : "rdfs_isDefinedBy"
 OwlDataRange ||--|o RdfsResource : "rdfs_isDefinedBy"
 OwlDataRange ||--|o RdfsClass : "rdfs_subClassOf"
@@ -4075,17 +4086,6 @@ RdfsDatatype ||--|o RdfsClass : "rdfs_subClassOf"
 RdfsDatatype ||--|o RdfsResource : "rdfs_seeAlso"
 RdfsDatatype ||--|o RdfsLiteral : "rdfs_label"
 RdfsDatatype ||--|o RdfsLiteral : "rdfs_comment"
-DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "dct_issued"
-DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "rdfs_label"
-DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "rdfs_comment"
-DcamVocabularyEncodingScheme ||--|o RdfsResource : "rdfs_seeAlso"
-DcamVocabularyEncodingScheme ||--|o OwlOntology : "rdfs_isDefinedBy"
-DcamVocabularyEncodingScheme ||--|o RdfsResource : "rdfs_isDefinedBy"
-DctAgentClass ||--|o RdfsLiteral : "rdfs_label"
-DctAgentClass ||--|o RdfsLiteral : "rdfs_comment"
-DctAgentClass ||--|o RdfsLiteral : "dct_issued"
-DctAgentClass ||--|o OwlOntology : "rdfs_isDefinedBy"
-DctAgentClass ||--|o RdfsResource : "rdfs_isDefinedBy"
 TimeDayOfWeek ||--|o RdfsLiteral : "rdfs_label"
 TimeTemporalUnit ||--|o RdfsLiteral : "rdfs_label"
 BiboDocumentStatus ||--|o RdfsLiteral : "rdfs_label"
@@ -4502,12 +4502,12 @@ VoagSchemaGraph ||--|o RdfsLiteral : "rdfs_label"
 ## Imports
 
 
-* okns:owl-rdf-rdfs
-* okns:bibo
 * okns:dc
-* okns:voag
+* okns:bibo
+* okns:owl-rdf-rdfs
 * okns:skos
 * okns:sdo
+* okns:voag
 * linkml:types
 
 

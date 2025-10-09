@@ -27,8 +27,8 @@ URI: [skos:exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SdosLegalForceStatus](../classes/SdosLegalForceStatus.md) | A list of possible statuses for the legal force of a legislation |  no  |
 | [SdosLegalValueLevel](../classes/SdosLegalValueLevel.md) | A list of possible levels for the legal validity of a legislation |  no  |
+| [SdosLegalForceStatus](../classes/SdosLegalForceStatus.md) | A list of possible statuses for the legal force of a legislation |  no  |
 | [SdosIPTCDigitalSourceEnumeration](../classes/SdosIPTCDigitalSourceEnumeration.md) | <a href="https://www |  no  |
 
 

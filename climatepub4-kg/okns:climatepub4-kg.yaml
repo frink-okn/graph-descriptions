@@ -640,16 +640,16 @@ description: Standards-first export using GCMD IRIs, single Wikidata exactMatch 
 title: climatemodelskg
 comments:
 - 'title: Temple KG Export'
-created_on: '2025-09-15T13:45:26.676545'
-last_updated_on: '2025-09-15T13:45:26.676545'
+created_on: '2025-10-09T00:29:35.831004'
+last_updated_on: '2025-10-09T00:29:35.831004'
 id: okns:climatepub4-kg
 imports:
-- okns:owl-rdf-rdfs
-- okns:bibo
 - okns:dc
-- okns:voag
+- okns:bibo
+- okns:owl-rdf-rdfs
 - okns:skos
 - okns:sdo
+- okns:voag
 - linkml:types
 prefixes:
   bibo:
