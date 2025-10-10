@@ -1,0 +1,1219 @@
+name: spoke-kg
+annotations:
+  counts:
+    tag: counts
+    value:
+      classes:
+        tag: classes
+        value:
+          neo4j:Compound:
+            tag: neo4j:Compound
+            value: 798
+          neo4j:Disease:
+            tag: neo4j:Disease
+            value: 180
+          neo4j:Environment:
+            tag: neo4j:Environment
+            value: 2
+          neo4j:Location:
+            tag: neo4j:Location
+            value: 106067
+          neo4j:Organism:
+            tag: neo4j:Organism
+            value: 321442
+          neo4j:SDoH:
+            tag: neo4j:SDoH
+            value: 1426
+      pairs:
+        tag: pairs
+        value:
+          neo4j:ASSOCIATES_SaD:
+            tag: neo4j:ASSOCIATES_SaD
+            value:
+              neo4j:SDoH:
+                tag: neo4j:SDoH
+                value:
+                  neo4j:Disease:
+                    tag: neo4j:Disease
+                    value: 39
+          neo4j:CONTRAINDICATES_CcD:
+            tag: neo4j:CONTRAINDICATES_CcD
+            value:
+              neo4j:Compound:
+                tag: neo4j:Compound
+                value:
+                  neo4j:Disease:
+                    tag: neo4j:Disease
+                    value: 51
+          neo4j:FOUNDIN_CfL:
+            tag: neo4j:FOUNDIN_CfL
+            value:
+              neo4j:Compound:
+                tag: neo4j:Compound
+                value:
+                  neo4j:Location:
+                    tag: neo4j:Location
+                    value: 563803
+          neo4j:FOUNDIN_EfL:
+            tag: neo4j:FOUNDIN_EfL
+            value:
+              neo4j:Environment:
+                tag: neo4j:Environment
+                value:
+                  neo4j:Location:
+                    tag: neo4j:Location
+                    value: 11367
+          neo4j:HASROLE_ChC:
+            tag: neo4j:HASROLE_ChC
+            value:
+              neo4j:Compound:
+                tag: neo4j:Compound
+                value:
+                  neo4j:Compound:
+                    tag: neo4j:Compound
+                    value: 34
+          neo4j:INTERACTS_CiC:
+            tag: neo4j:INTERACTS_CiC
+            value:
+              neo4j:Compound:
+                tag: neo4j:Compound
+                value:
+                  neo4j:Compound:
+                    tag: neo4j:Compound
+                    value: 1
+          neo4j:ISA_CiC:
+            tag: neo4j:ISA_CiC
+            value:
+              neo4j:Compound:
+                tag: neo4j:Compound
+                value:
+                  neo4j:Compound:
+                    tag: neo4j:Compound
+                    value: 56
+          neo4j:ISA_DiD:
+            tag: neo4j:ISA_DiD
+            value:
+              neo4j:Disease:
+                tag: neo4j:Disease
+                value:
+                  neo4j:Disease:
+                    tag: neo4j:Disease
+                    value: 41
+          neo4j:ISA_EiE:
+            tag: neo4j:ISA_EiE
+            value:
+              neo4j:Environment:
+                tag: neo4j:Environment
+                value:
+                  neo4j:Environment:
+                    tag: neo4j:Environment
+                    value: 1
+          neo4j:ISA_SiS:
+            tag: neo4j:ISA_SiS
+            value:
+              neo4j:SDoH:
+                tag: neo4j:SDoH
+                value:
+                  neo4j:SDoH:
+                    tag: neo4j:SDoH
+                    value: 999
+          neo4j:ISOLATEDIN_OiL:
+            tag: neo4j:ISOLATEDIN_OiL
+            value:
+              neo4j:Organism:
+                tag: neo4j:Organism
+                value:
+                  neo4j:Location:
+                    tag: neo4j:Location
+                    value: 321442
+          neo4j:MORTALITY_DmL:
+            tag: neo4j:MORTALITY_DmL
+            value:
+              neo4j:Disease:
+                tag: neo4j:Disease
+                value:
+                  neo4j:Location:
+                    tag: neo4j:Location
+                    value: 10802
+          neo4j:PARTOF_CpC:
+            tag: neo4j:PARTOF_CpC
+            value:
+              neo4j:Compound:
+                tag: neo4j:Compound
+                value:
+                  neo4j:Compound:
+                    tag: neo4j:Compound
+                    value: 18
+          neo4j:PARTOF_LpL:
+            tag: neo4j:PARTOF_LpL
+            value:
+              neo4j:Location:
+                tag: neo4j:Location
+                value:
+                  neo4j:Location:
+                    tag: neo4j:Location
+                    value: 119810
+          neo4j:PREVALENCEIN_SpL:
+            tag: neo4j:PREVALENCEIN_SpL
+            value:
+              neo4j:SDoH:
+                tag: neo4j:SDoH
+                value:
+                  neo4j:Location:
+                    tag: neo4j:Location
+                    value: 2999117
+          neo4j:PREVALENCE_DpL:
+            tag: neo4j:PREVALENCE_DpL
+            value:
+              neo4j:Disease:
+                tag: neo4j:Disease
+                value:
+                  neo4j:Location:
+                    tag: neo4j:Location
+                    value: 275085
+          neo4j:RESEMBLES_DrD:
+            tag: neo4j:RESEMBLES_DrD
+            value:
+              neo4j:Disease:
+                tag: neo4j:Disease
+                value:
+                  neo4j:Disease:
+                    tag: neo4j:Disease
+                    value: 67
+          neo4j:RESPONDS_TO_OrC:
+            tag: neo4j:RESPONDS_TO_OrC
+            value:
+              neo4j:Organism:
+                tag: neo4j:Organism
+                value:
+                  neo4j:Compound:
+                    tag: neo4j:Compound
+                    value: 5138
+          neo4j:TREATS_CtD:
+            tag: neo4j:TREATS_CtD
+            value:
+              neo4j:Compound:
+                tag: neo4j:Compound
+                value:
+                  neo4j:Disease:
+                    tag: neo4j:Disease
+                    value: 163
+          neo4j:identifier:
+            tag: neo4j:identifier
+            value:
+              neo4j:Compound:
+                tag: neo4j:Compound
+                value:
+                  string:
+                    tag: string
+                    value: 798
+              neo4j:Disease:
+                tag: neo4j:Disease
+                value:
+                  string:
+                    tag: string
+                    value: 180
+              neo4j:Environment:
+                tag: neo4j:Environment
+                value:
+                  string:
+                    tag: string
+                    value: 2
+              neo4j:Location:
+                tag: neo4j:Location
+                value:
+                  string:
+                    tag: string
+                    value: 106067
+              neo4j:Organism:
+                tag: neo4j:Organism
+                value:
+                  string:
+                    tag: string
+                    value: 321442
+              neo4j:SDoH:
+                tag: neo4j:SDoH
+                value:
+                  string:
+                    tag: string
+                    value: 1426
+          neo4j:name:
+            tag: neo4j:name
+            value:
+              neo4j:Compound:
+                tag: neo4j:Compound
+                value:
+                  string:
+                    tag: string
+                    value: 798
+              neo4j:Disease:
+                tag: neo4j:Disease
+                value:
+                  string:
+                    tag: string
+                    value: 180
+              neo4j:Environment:
+                tag: neo4j:Environment
+                value:
+                  string:
+                    tag: string
+                    value: 2
+              neo4j:Location:
+                tag: neo4j:Location
+                value:
+                  string:
+                    tag: string
+                    value: 106067
+              neo4j:Organism:
+                tag: neo4j:Organism
+                value:
+                  string:
+                    tag: string
+                    value: 321442
+              neo4j:SDoH:
+                tag: neo4j:SDoH
+                value:
+                  string:
+                    tag: string
+                    value: 1426
+          neo4j:source:
+            tag: neo4j:source
+            value:
+              neo4j:Disease:
+                tag: neo4j:Disease
+                value:
+                  string:
+                    tag: string
+                    value: 180
+          neo4j:sources:
+            tag: neo4j:sources
+            value:
+              neo4j:Compound:
+                tag: neo4j:Compound
+                value:
+                  string:
+                    tag: string
+                    value: 3336
+              neo4j:Environment:
+                tag: neo4j:Environment
+                value:
+                  string:
+                    tag: string
+                    value: 2
+              neo4j:Location:
+                tag: neo4j:Location
+                value:
+                  string:
+                    tag: string
+                    value: 106067
+              neo4j:Organism:
+                tag: neo4j:Organism
+                value:
+                  string:
+                    tag: string
+                    value: 321442
+              neo4j:SDoH:
+                tag: neo4j:SDoH
+                value:
+                  string:
+                    tag: string
+                    value: 1426
+      slots:
+        tag: slots
+        value:
+          neo4j:ASSOCIATES_SaD:
+            tag: neo4j:ASSOCIATES_SaD
+            value: 39
+          neo4j:CONTRAINDICATES_CcD:
+            tag: neo4j:CONTRAINDICATES_CcD
+            value: 51
+          neo4j:FOUNDIN_CfL:
+            tag: neo4j:FOUNDIN_CfL
+            value: 563803
+          neo4j:FOUNDIN_EfL:
+            tag: neo4j:FOUNDIN_EfL
+            value: 11367
+          neo4j:HASROLE_ChC:
+            tag: neo4j:HASROLE_ChC
+            value: 34
+          neo4j:INTERACTS_CiC:
+            tag: neo4j:INTERACTS_CiC
+            value: 1
+          neo4j:ISA_CiC:
+            tag: neo4j:ISA_CiC
+            value: 56
+          neo4j:ISA_DiD:
+            tag: neo4j:ISA_DiD
+            value: 41
+          neo4j:ISA_EiE:
+            tag: neo4j:ISA_EiE
+            value: 1
+          neo4j:ISA_SiS:
+            tag: neo4j:ISA_SiS
+            value: 999
+          neo4j:ISOLATEDIN_OiL:
+            tag: neo4j:ISOLATEDIN_OiL
+            value: 321442
+          neo4j:MORTALITY_DmL:
+            tag: neo4j:MORTALITY_DmL
+            value: 10802
+          neo4j:PARTOF_CpC:
+            tag: neo4j:PARTOF_CpC
+            value: 18
+          neo4j:PARTOF_LpL:
+            tag: neo4j:PARTOF_LpL
+            value: 119810
+          neo4j:PREVALENCEIN_SpL:
+            tag: neo4j:PREVALENCEIN_SpL
+            value: 2999117
+          neo4j:PREVALENCE_DpL:
+            tag: neo4j:PREVALENCE_DpL
+            value: 275085
+          neo4j:RESEMBLES_DrD:
+            tag: neo4j:RESEMBLES_DrD
+            value: 67
+          neo4j:RESPONDS_TO_OrC:
+            tag: neo4j:RESPONDS_TO_OrC
+            value: 5138
+          neo4j:TREATS_CtD:
+            tag: neo4j:TREATS_CtD
+            value: 163
+          neo4j:identifier:
+            tag: neo4j:identifier
+            value: 429915
+          neo4j:name:
+            tag: neo4j:name
+            value: 429915
+          neo4j:source:
+            tag: neo4j:source
+            value: 180
+          neo4j:sources:
+            tag: neo4j:sources
+            value: 432273
+  examples:
+    tag: examples
+    value:
+      classes:
+        tag: classes
+        value:
+          neo4j:Compound:
+            tag: neo4j:Compound
+            value: neo4j://graph.individuals#778857
+          neo4j:Disease:
+            tag: neo4j:Disease
+            value: neo4j://graph.individuals#153323
+          neo4j:Environment:
+            tag: neo4j:Environment
+            value: neo4j://graph.individuals#105030
+          neo4j:Location:
+            tag: neo4j:Location
+            value: neo4j://graph.individuals#84571
+          neo4j:Organism:
+            tag: neo4j:Organism
+            value: neo4j://graph.individuals#38641
+          neo4j:SDoH:
+            tag: neo4j:SDoH
+            value: neo4j://graph.individuals#29697526
+      pairs:
+        tag: pairs
+        value:
+          neo4j:ASSOCIATES_SaD:
+            tag: neo4j:ASSOCIATES_SaD
+            value:
+              neo4j:SDoH:
+                tag: neo4j:SDoH
+                value:
+                  neo4j:Disease:
+                    tag: neo4j:Disease
+                    value:
+                      object:
+                        tag: object
+                        value: neo4j://graph.individuals#146592
+                      predicate:
+                        tag: predicate
+                        value: neo4j:ASSOCIATES_SaD
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#29588620
+          neo4j:CONTRAINDICATES_CcD:
+            tag: neo4j:CONTRAINDICATES_CcD
+            value:
+              neo4j:Compound:
+                tag: neo4j:Compound
+                value:
+                  neo4j:Disease:
+                    tag: neo4j:Disease
+                    value:
+                      object:
+                        tag: object
+                        value: neo4j://graph.individuals#143290
+                      predicate:
+                        tag: predicate
+                        value: neo4j:CONTRAINDICATES_CcD
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#1961711
+          neo4j:FOUNDIN_CfL:
+            tag: neo4j:FOUNDIN_CfL
+            value:
+              neo4j:Compound:
+                tag: neo4j:Compound
+                value:
+                  neo4j:Location:
+                    tag: neo4j:Location
+                    value:
+                      object:
+                        tag: object
+                        value: neo4j://graph.individuals#30641873
+                      predicate:
+                        tag: predicate
+                        value: neo4j:FOUNDIN_CfL
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#1961711
+          neo4j:FOUNDIN_EfL:
+            tag: neo4j:FOUNDIN_EfL
+            value:
+              neo4j:Environment:
+                tag: neo4j:Environment
+                value:
+                  neo4j:Location:
+                    tag: neo4j:Location
+                    value:
+                      object:
+                        tag: object
+                        value: neo4j://graph.individuals#29623933
+                      predicate:
+                        tag: predicate
+                        value: neo4j:FOUNDIN_EfL
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#105029
+          neo4j:HASROLE_ChC:
+            tag: neo4j:HASROLE_ChC
+            value:
+              neo4j:Compound:
+                tag: neo4j:Compound
+                value:
+                  neo4j:Compound:
+                    tag: neo4j:Compound
+                    value:
+                      object:
+                        tag: object
+                        value: neo4j://graph.individuals#2489790
+                      predicate:
+                        tag: predicate
+                        value: neo4j:HASROLE_ChC
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#384907
+          neo4j:INTERACTS_CiC:
+            tag: neo4j:INTERACTS_CiC
+            value:
+              neo4j:Compound:
+                tag: neo4j:Compound
+                value:
+                  neo4j:Compound:
+                    tag: neo4j:Compound
+                    value:
+                      object:
+                        tag: object
+                        value: neo4j://graph.individuals#386675
+                      predicate:
+                        tag: predicate
+                        value: neo4j:INTERACTS_CiC
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#385755
+          neo4j:ISA_CiC:
+            tag: neo4j:ISA_CiC
+            value:
+              neo4j:Compound:
+                tag: neo4j:Compound
+                value:
+                  neo4j:Compound:
+                    tag: neo4j:Compound
+                    value:
+                      object:
+                        tag: object
+                        value: neo4j://graph.individuals#199938
+                      predicate:
+                        tag: predicate
+                        value: neo4j:ISA_CiC
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#199938
+          neo4j:ISA_DiD:
+            tag: neo4j:ISA_DiD
+            value:
+              neo4j:Disease:
+                tag: neo4j:Disease
+                value:
+                  neo4j:Disease:
+                    tag: neo4j:Disease
+                    value:
+                      object:
+                        tag: object
+                        value: neo4j://graph.individuals#152071
+                      predicate:
+                        tag: predicate
+                        value: neo4j:ISA_DiD
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#142359
+          neo4j:ISA_EiE:
+            tag: neo4j:ISA_EiE
+            value:
+              neo4j:Environment:
+                tag: neo4j:Environment
+                value:
+                  neo4j:Environment:
+                    tag: neo4j:Environment
+                    value:
+                      object:
+                        tag: object
+                        value: neo4j://graph.individuals#105029
+                      predicate:
+                        tag: predicate
+                        value: neo4j:ISA_EiE
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#105030
+          neo4j:ISA_SiS:
+            tag: neo4j:ISA_SiS
+            value:
+              neo4j:SDoH:
+                tag: neo4j:SDoH
+                value:
+                  neo4j:SDoH:
+                    tag: neo4j:SDoH
+                    value:
+                      object:
+                        tag: object
+                        value: neo4j://graph.individuals#29591045
+                      predicate:
+                        tag: predicate
+                        value: neo4j:ISA_SiS
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#119274
+          neo4j:ISOLATEDIN_OiL:
+            tag: neo4j:ISOLATEDIN_OiL
+            value:
+              neo4j:Organism:
+                tag: neo4j:Organism
+                value:
+                  neo4j:Location:
+                    tag: neo4j:Location
+                    value:
+                      object:
+                        tag: object
+                        value: neo4j://graph.individuals#80505
+                      predicate:
+                        tag: predicate
+                        value: neo4j:ISOLATEDIN_OiL
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#105042
+          neo4j:MORTALITY_DmL:
+            tag: neo4j:MORTALITY_DmL
+            value:
+              neo4j:Disease:
+                tag: neo4j:Disease
+                value:
+                  neo4j:Location:
+                    tag: neo4j:Location
+                    value:
+                      object:
+                        tag: object
+                        value: neo4j://graph.individuals#80505
+                      predicate:
+                        tag: predicate
+                        value: neo4j:MORTALITY_DmL
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#142803
+          neo4j:PARTOF_CpC:
+            tag: neo4j:PARTOF_CpC
+            value:
+              neo4j:Compound:
+                tag: neo4j:Compound
+                value:
+                  neo4j:Compound:
+                    tag: neo4j:Compound
+                    value:
+                      object:
+                        tag: object
+                        value: neo4j://graph.individuals#2409412
+                      predicate:
+                        tag: predicate
+                        value: neo4j:PARTOF_CpC
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#2488144
+          neo4j:PARTOF_LpL:
+            tag: neo4j:PARTOF_LpL
+            value:
+              neo4j:Location:
+                tag: neo4j:Location
+                value:
+                  neo4j:Location:
+                    tag: neo4j:Location
+                    value:
+                      object:
+                        tag: object
+                        value: neo4j://graph.individuals#29670892
+                      predicate:
+                        tag: predicate
+                        value: neo4j:PARTOF_LpL
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#123230
+          neo4j:PREVALENCEIN_SpL:
+            tag: neo4j:PREVALENCEIN_SpL
+            value:
+              neo4j:SDoH:
+                tag: neo4j:SDoH
+                value:
+                  neo4j:Location:
+                    tag: neo4j:Location
+                    value:
+                      object:
+                        tag: object
+                        value: neo4j://graph.individuals#29668688
+                      predicate:
+                        tag: predicate
+                        value: neo4j:PREVALENCEIN_SpL
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#29588631
+          neo4j:PREVALENCE_DpL:
+            tag: neo4j:PREVALENCE_DpL
+            value:
+              neo4j:Disease:
+                tag: neo4j:Disease
+                value:
+                  neo4j:Location:
+                    tag: neo4j:Location
+                    value:
+                      object:
+                        tag: object
+                        value: neo4j://graph.individuals#123230
+                      predicate:
+                        tag: predicate
+                        value: neo4j:PREVALENCE_DpL
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#142637
+          neo4j:RESEMBLES_DrD:
+            tag: neo4j:RESEMBLES_DrD
+            value:
+              neo4j:Disease:
+                tag: neo4j:Disease
+                value:
+                  neo4j:Disease:
+                    tag: neo4j:Disease
+                    value:
+                      object:
+                        tag: object
+                        value: neo4j://graph.individuals#149541
+                      predicate:
+                        tag: predicate
+                        value: neo4j:RESEMBLES_DrD
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#142769
+          neo4j:RESPONDS_TO_OrC:
+            tag: neo4j:RESPONDS_TO_OrC
+            value:
+              neo4j:Organism:
+                tag: neo4j:Organism
+                value:
+                  neo4j:Compound:
+                    tag: neo4j:Compound
+                    value:
+                      object:
+                        tag: object
+                        value: neo4j://graph.individuals#1961711
+                      predicate:
+                        tag: predicate
+                        value: neo4j:RESPONDS_TO_OrC
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#105236
+          neo4j:TREATS_CtD:
+            tag: neo4j:TREATS_CtD
+            value:
+              neo4j:Compound:
+                tag: neo4j:Compound
+                value:
+                  neo4j:Disease:
+                    tag: neo4j:Disease
+                    value:
+                      object:
+                        tag: object
+                        value: neo4j://graph.individuals#145938
+                      predicate:
+                        tag: predicate
+                        value: neo4j:TREATS_CtD
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#1961711
+          neo4j:identifier:
+            tag: neo4j:identifier
+            value:
+              neo4j:Compound:
+                tag: neo4j:Compound
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: inchikey:NWXMGUDVXFXRIG-WESIUVDSSA-N
+                      predicate:
+                        tag: predicate
+                        value: neo4j:identifier
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#1961711
+              neo4j:Disease:
+                tag: neo4j:Disease
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: DOID:3074
+                      predicate:
+                        tag: predicate
+                        value: neo4j:identifier
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#142359
+              neo4j:Environment:
+                tag: neo4j:Environment
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: ENVO_01000405
+                      predicate:
+                        tag: predicate
+                        value: neo4j:identifier
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#105029
+              neo4j:Location:
+                tag: neo4j:Location
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 049999985379
+                      predicate:
+                        tag: predicate
+                        value: neo4j:identifier
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#123229
+              neo4j:Organism:
+                tag: neo4j:Organism
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: '104102.36'
+                      predicate:
+                        tag: predicate
+                        value: neo4j:identifier
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#105042
+              neo4j:SDoH:
+                tag: neo4j:SDoH
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: '158928002'
+                      predicate:
+                        tag: predicate
+                        value: neo4j:identifier
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#119274
+          neo4j:name:
+            tag: neo4j:name
+            value:
+              neo4j:Compound:
+                tag: neo4j:Compound
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Tetracycline
+                      predicate:
+                        tag: predicate
+                        value: neo4j:name
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#1961711
+              neo4j:Disease:
+                tag: neo4j:Disease
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: giant cell glioblastoma
+                      predicate:
+                        tag: predicate
+                        value: neo4j:name
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#142359
+              neo4j:Environment:
+                tag: neo4j:Environment
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: respirable suspended particulate matter
+                      predicate:
+                        tag: predicate
+                        value: neo4j:name
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#105029
+              neo4j:Location:
+                tag: neo4j:Location
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Outside city limits
+                      predicate:
+                        tag: predicate
+                        value: neo4j:name
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#123229
+              neo4j:Organism:
+                tag: neo4j:Organism
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Acetobacter tropicalis strain DmPark25_167
+                      predicate:
+                        tag: predicate
+                        value: neo4j:name
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#105042
+              neo4j:SDoH:
+                tag: neo4j:SDoH
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Social scientist (occupation)
+                      predicate:
+                        tag: predicate
+                        value: neo4j:name
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#119274
+          neo4j:source:
+            tag: neo4j:source
+            value:
+              neo4j:Disease:
+                tag: neo4j:Disease
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Disease Ontology
+                      predicate:
+                        tag: predicate
+                        value: neo4j:source
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#142359
+          neo4j:sources:
+            tag: neo4j:sources
+            value:
+              neo4j:Compound:
+                tag: neo4j:Compound
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: BioCyc
+                      predicate:
+                        tag: predicate
+                        value: neo4j:sources
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#1961711
+              neo4j:Environment:
+                tag: neo4j:Environment
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Environment Ontology
+                      predicate:
+                        tag: predicate
+                        value: neo4j:sources
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#105029
+              neo4j:Location:
+                tag: neo4j:Location
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: UnitedStatesZipcode_database
+                      predicate:
+                        tag: predicate
+                        value: neo4j:sources
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#123229
+              neo4j:Organism:
+                tag: neo4j:Organism
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: BV-BRC
+                      predicate:
+                        tag: predicate
+                        value: neo4j:sources
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#105042
+              neo4j:SDoH:
+                tag: neo4j:SDoH
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: SNOMED CT
+                      predicate:
+                        tag: predicate
+                        value: neo4j:sources
+                      subject:
+                        tag: subject
+                        value: neo4j://graph.individuals#119274
+title: spoke
+created_on: '2025-10-10T15:43:23.113661'
+last_updated_on: '2025-10-10T15:43:23.113661'
+id: okns:spoke-kg
+imports:
+- linkml:types
+prefixes:
+  linkml:
+    prefix_prefix: linkml
+    prefix_reference: https://w3id.org/linkml/
+  neo4j:
+    prefix_prefix: neo4j
+    prefix_reference: neo4j://graph.schema#
+  okn:
+    prefix_prefix: okn
+    prefix_reference: https://purl.org/okn/
+  okns:
+    prefix_prefix: okns
+    prefix_reference: https://purl.org/okn/schema/
+default_prefix: okns
+slots:
+  neo4j_ASSOCIATES_SaD:
+    name: neo4j_ASSOCIATES_SaD
+    slot_uri: neo4j:ASSOCIATES_SaD
+    range: neo4j_Disease
+  neo4j_CONTRAINDICATES_CcD:
+    name: neo4j_CONTRAINDICATES_CcD
+    slot_uri: neo4j:CONTRAINDICATES_CcD
+    range: neo4j_Disease
+  neo4j_FOUNDIN_CfL:
+    name: neo4j_FOUNDIN_CfL
+    slot_uri: neo4j:FOUNDIN_CfL
+    range: neo4j_Location
+  neo4j_FOUNDIN_EfL:
+    name: neo4j_FOUNDIN_EfL
+    slot_uri: neo4j:FOUNDIN_EfL
+    range: neo4j_Location
+  neo4j_HASROLE_ChC:
+    name: neo4j_HASROLE_ChC
+    slot_uri: neo4j:HASROLE_ChC
+    range: neo4j_Compound
+  neo4j_INTERACTS_CiC:
+    name: neo4j_INTERACTS_CiC
+    slot_uri: neo4j:INTERACTS_CiC
+    range: neo4j_Compound
+  neo4j_ISA_CiC:
+    name: neo4j_ISA_CiC
+    slot_uri: neo4j:ISA_CiC
+    range: neo4j_Compound
+  neo4j_ISA_DiD:
+    name: neo4j_ISA_DiD
+    slot_uri: neo4j:ISA_DiD
+    range: neo4j_Disease
+  neo4j_ISA_EiE:
+    name: neo4j_ISA_EiE
+    slot_uri: neo4j:ISA_EiE
+    range: neo4j_Environment
+  neo4j_ISA_SiS:
+    name: neo4j_ISA_SiS
+    slot_uri: neo4j:ISA_SiS
+    range: neo4j_SDoH
+  neo4j_ISOLATEDIN_OiL:
+    name: neo4j_ISOLATEDIN_OiL
+    slot_uri: neo4j:ISOLATEDIN_OiL
+    range: neo4j_Location
+  neo4j_MORTALITY_DmL:
+    name: neo4j_MORTALITY_DmL
+    slot_uri: neo4j:MORTALITY_DmL
+    range: neo4j_Location
+  neo4j_PARTOF_CpC:
+    name: neo4j_PARTOF_CpC
+    slot_uri: neo4j:PARTOF_CpC
+    range: neo4j_Compound
+  neo4j_PARTOF_LpL:
+    name: neo4j_PARTOF_LpL
+    slot_uri: neo4j:PARTOF_LpL
+    range: neo4j_Location
+  neo4j_PREVALENCEIN_SpL:
+    name: neo4j_PREVALENCEIN_SpL
+    slot_uri: neo4j:PREVALENCEIN_SpL
+    range: neo4j_Location
+  neo4j_PREVALENCE_DpL:
+    name: neo4j_PREVALENCE_DpL
+    slot_uri: neo4j:PREVALENCE_DpL
+    range: neo4j_Location
+  neo4j_RESEMBLES_DrD:
+    name: neo4j_RESEMBLES_DrD
+    slot_uri: neo4j:RESEMBLES_DrD
+    range: neo4j_Disease
+  neo4j_RESPONDS_TO_OrC:
+    name: neo4j_RESPONDS_TO_OrC
+    slot_uri: neo4j:RESPONDS_TO_OrC
+    range: neo4j_Compound
+  neo4j_TREATS_CtD:
+    name: neo4j_TREATS_CtD
+    slot_uri: neo4j:TREATS_CtD
+    range: neo4j_Disease
+  neo4j_identifier:
+    name: neo4j_identifier
+    slot_uri: neo4j:identifier
+    range: string
+  neo4j_name:
+    name: neo4j_name
+    slot_uri: neo4j:name
+    range: string
+  neo4j_source:
+    name: neo4j_source
+    slot_uri: neo4j:source
+    range: string
+  neo4j_sources:
+    name: neo4j_sources
+    slot_uri: neo4j:sources
+    range: string
+classes:
+  neo4j_Compound:
+    name: neo4j_Compound
+    slots:
+    - neo4j_sources
+    - neo4j_identifier
+    - neo4j_ISA_CiC
+    - neo4j_FOUNDIN_CfL
+    - neo4j_INTERACTS_CiC
+    - neo4j_name
+    - neo4j_PARTOF_CpC
+    - neo4j_TREATS_CtD
+    - neo4j_HASROLE_ChC
+    - neo4j_CONTRAINDICATES_CcD
+    class_uri: neo4j:Compound
+  neo4j_Disease:
+    name: neo4j_Disease
+    slots:
+    - neo4j_RESEMBLES_DrD
+    - neo4j_identifier
+    - neo4j_ISA_DiD
+    - neo4j_source
+    - neo4j_MORTALITY_DmL
+    - neo4j_name
+    - neo4j_PREVALENCE_DpL
+    class_uri: neo4j:Disease
+  neo4j_Environment:
+    name: neo4j_Environment
+    slots:
+    - neo4j_sources
+    - neo4j_FOUNDIN_EfL
+    - neo4j_identifier
+    - neo4j_name
+    - neo4j_ISA_EiE
+    class_uri: neo4j:Environment
+  neo4j_Location:
+    name: neo4j_Location
+    slots:
+    - neo4j_identifier
+    - neo4j_name
+    - neo4j_PARTOF_LpL
+    - neo4j_sources
+    class_uri: neo4j:Location
+  neo4j_Organism:
+    name: neo4j_Organism
+    slots:
+    - neo4j_sources
+    - neo4j_identifier
+    - neo4j_RESPONDS_TO_OrC
+    - neo4j_ISOLATEDIN_OiL
+    - neo4j_name
+    class_uri: neo4j:Organism
+  neo4j_SDoH:
+    name: neo4j_SDoH
+    slots:
+    - neo4j_sources
+    - neo4j_ISA_SiS
+    - neo4j_PREVALENCEIN_SpL
+    - neo4j_identifier
+    - neo4j_ASSOCIATES_SaD
+    - neo4j_name
+    class_uri: neo4j:SDoH
+source_file: /code/spoke-kg.yaml

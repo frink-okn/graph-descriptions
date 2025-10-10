@@ -1,12 +1,11 @@
 
 
-# Class: No class name specified (neo4j_Location)
-
-
-_No class (type) description specified_
+# Class: Neo4jLocation
 
 
 
+
+This class occurs 106067 times.
 
 
 URI: [neo4j:Location](neo4j://graph.schema#Location)
@@ -67,12 +66,12 @@ URI: [neo4j:Location](neo4j://graph.schema#Location)
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [neo4j_name](../slots/neo4j_name.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 2 occurrences with subject type neo4j_Environment and object type string.<br/>1426 occurrences with subject type neo4j_SDoH and object type string.<br/>106067 occurrences with subject type neo4j_Location and object type string.<br/>180 occurrences with subject type neo4j_Disease and object type string.<br/>798 occurrences with subject type neo4j_Compound and object type string.<br/>321442 occurrences with subject type neo4j_Organism and object type string. | direct |
-| [neo4j_PARTOF_LpL](../slots/neo4j_PARTOF_LpL.md) | 0..1 <br/> [Neo4jLocation](../classes/Neo4jLocation.md) | No slot (predicate) description specified <br/> 119810 occurrences with subject type neo4j_Location and object type neo4j_Location. | direct |
-| [neo4j_identifier](../slots/neo4j_identifier.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 2 occurrences with subject type neo4j_Environment and object type string.<br/>1426 occurrences with subject type neo4j_SDoH and object type string.<br/>106067 occurrences with subject type neo4j_Location and object type string.<br/>180 occurrences with subject type neo4j_Disease and object type string.<br/>798 occurrences with subject type neo4j_Compound and object type string.<br/>321442 occurrences with subject type neo4j_Organism and object type string. | direct |
-| [neo4j_sources](../slots/neo4j_sources.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 2 occurrences with subject type neo4j_Environment and object type string.<br/>1426 occurrences with subject type neo4j_SDoH and object type string.<br/>106067 occurrences with subject type neo4j_Location and object type string.<br/>3336 occurrences with subject type neo4j_Compound and object type string.<br/>321442 occurrences with subject type neo4j_Organism and object type string. | direct |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
+| [neo4j_identifier](../slots/neo4j_identifier.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 106067 |
+| [neo4j_name](../slots/neo4j_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 106067 |
+| [neo4j_PARTOF_LpL](../slots/neo4j_PARTOF_LpL.md) | 0..1 <br/> [Neo4jLocation](../classes/Neo4jLocation.md) |  <br/>  | direct | 119810 |
+| [neo4j_sources](../slots/neo4j_sources.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 106067 |
 
 
 
@@ -96,38 +95,6 @@ URI: [neo4j:Location](neo4j://graph.schema#Location)
 
 
 
-## Examples
-
-| Value |
-| --- |
-| neo4j://graph.individuals#123229 |
-
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: spoke-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | neo4j:Location |
-| native | spoke-kg/:Neo4jLocation |
-
-
-
 
 
 
@@ -139,21 +106,15 @@ URI: [neo4j:Location](neo4j://graph.schema#Location)
 ### Direct
 
 <details>
+
 ```yaml
 name: neo4j_Location
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class name specified
-notes:
-- Class with 106067 occurrences.
-examples:
-- value: neo4j://graph.individuals#123229
-from_schema: spoke-kg
+from_schema: okns:spoke-kg
 rank: 1000
 slots:
+- neo4j_identifier
 - neo4j_name
 - neo4j_PARTOF_LpL
-- neo4j_identifier
 - neo4j_sources
 class_uri: neo4j:Location
 
@@ -163,60 +124,30 @@ class_uri: neo4j:Location
 ### Induced
 
 <details>
+
 ```yaml
 name: neo4j_Location
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class name specified
-notes:
-- Class with 106067 occurrences.
-examples:
-- value: neo4j://graph.individuals#123229
-from_schema: spoke-kg
+from_schema: okns:spoke-kg
 rank: 1000
 attributes:
+  neo4j_identifier:
+    name: neo4j_identifier
+    from_schema: okns:spoke-kg
+    rank: 1000
+    slot_uri: neo4j:identifier
+    alias: neo4j_identifier
+    owner: neo4j_Location
+    domain_of:
+    - neo4j_Compound
+    - neo4j_Disease
+    - neo4j_Environment
+    - neo4j_Location
+    - neo4j_Organism
+    - neo4j_SDoH
+    range: string
   neo4j_name:
     name: neo4j_name
-    description: No slot (predicate) description specified
-    comments:
-    - 2 occurrences with subject type neo4j_Environment and object type string.
-    - 1426 occurrences with subject type neo4j_SDoH and object type string.
-    - 106067 occurrences with subject type neo4j_Location and object type string.
-    - 180 occurrences with subject type neo4j_Disease and object type string.
-    - 798 occurrences with subject type neo4j_Compound and object type string.
-    - 321442 occurrences with subject type neo4j_Organism and object type string.
-    examples:
-    - description: neo4j_Environment → string
-      object:
-        example_object: respirable suspended particulate matter
-        example_predicate: neo4j:name
-        example_subject: neo4j://graph.individuals#105029
-    - description: neo4j_SDoH → string
-      object:
-        example_object: Social scientist (occupation)
-        example_predicate: neo4j:name
-        example_subject: neo4j://graph.individuals#119274
-    - description: neo4j_Location → string
-      object:
-        example_object: Outside city limits
-        example_predicate: neo4j:name
-        example_subject: neo4j://graph.individuals#123229
-    - description: neo4j_Disease → string
-      object:
-        example_object: giant cell glioblastoma
-        example_predicate: neo4j:name
-        example_subject: neo4j://graph.individuals#142359
-    - description: neo4j_Compound → string
-      object:
-        example_object: Tetracycline
-        example_predicate: neo4j:name
-        example_subject: neo4j://graph.individuals#1961711
-    - description: neo4j_Organism → string
-      object:
-        example_object: Acetobacter tropicalis strain DmPark25_167
-        example_predicate: neo4j:name
-        example_subject: neo4j://graph.individuals#105042
-    from_schema: spoke-kg
+    from_schema: okns:spoke-kg
     rank: 1000
     slot_uri: neo4j:name
     alias: neo4j_name
@@ -231,16 +162,7 @@ attributes:
     range: string
   neo4j_PARTOF_LpL:
     name: neo4j_PARTOF_LpL
-    description: No slot (predicate) description specified
-    comments:
-    - 119810 occurrences with subject type neo4j_Location and object type neo4j_Location.
-    examples:
-    - description: neo4j_Location → neo4j_Location
-      object:
-        example_object: neo4j://graph.individuals#80740
-        example_predicate: neo4j:PARTOF_LpL
-        example_subject: neo4j://graph.individuals#84571
-    from_schema: spoke-kg
+    from_schema: okns:spoke-kg
     rank: 1000
     slot_uri: neo4j:PARTOF_LpL
     alias: neo4j_PARTOF_LpL
@@ -248,96 +170,9 @@ attributes:
     domain_of:
     - neo4j_Location
     range: neo4j_Location
-  neo4j_identifier:
-    name: neo4j_identifier
-    description: No slot (predicate) description specified
-    comments:
-    - 2 occurrences with subject type neo4j_Environment and object type string.
-    - 1426 occurrences with subject type neo4j_SDoH and object type string.
-    - 106067 occurrences with subject type neo4j_Location and object type string.
-    - 180 occurrences with subject type neo4j_Disease and object type string.
-    - 798 occurrences with subject type neo4j_Compound and object type string.
-    - 321442 occurrences with subject type neo4j_Organism and object type string.
-    examples:
-    - description: neo4j_Environment → string
-      object:
-        example_object: ENVO_01000405
-        example_predicate: neo4j:identifier
-        example_subject: neo4j://graph.individuals#105029
-    - description: neo4j_SDoH → string
-      object:
-        example_object: '158928002'
-        example_predicate: neo4j:identifier
-        example_subject: neo4j://graph.individuals#119274
-    - description: neo4j_Location → string
-      object:
-        example_object: 049999985379
-        example_predicate: neo4j:identifier
-        example_subject: neo4j://graph.individuals#123229
-    - description: neo4j_Disease → string
-      object:
-        example_object: DOID:3074
-        example_predicate: neo4j:identifier
-        example_subject: neo4j://graph.individuals#142359
-    - description: neo4j_Compound → string
-      object:
-        example_object: inchikey:NWXMGUDVXFXRIG-WESIUVDSSA-N
-        example_predicate: neo4j:identifier
-        example_subject: neo4j://graph.individuals#1961711
-    - description: neo4j_Organism → string
-      object:
-        example_object: '104102.36'
-        example_predicate: neo4j:identifier
-        example_subject: neo4j://graph.individuals#105042
-    from_schema: spoke-kg
-    rank: 1000
-    slot_uri: neo4j:identifier
-    alias: neo4j_identifier
-    owner: neo4j_Location
-    domain_of:
-    - neo4j_Compound
-    - neo4j_Disease
-    - neo4j_Environment
-    - neo4j_Location
-    - neo4j_Organism
-    - neo4j_SDoH
-    range: string
   neo4j_sources:
     name: neo4j_sources
-    description: No slot (predicate) description specified
-    comments:
-    - 2 occurrences with subject type neo4j_Environment and object type string.
-    - 1426 occurrences with subject type neo4j_SDoH and object type string.
-    - 106067 occurrences with subject type neo4j_Location and object type string.
-    - 3336 occurrences with subject type neo4j_Compound and object type string.
-    - 321442 occurrences with subject type neo4j_Organism and object type string.
-    examples:
-    - description: neo4j_Environment → string
-      object:
-        example_object: Environment Ontology
-        example_predicate: neo4j:sources
-        example_subject: neo4j://graph.individuals#105029
-    - description: neo4j_SDoH → string
-      object:
-        example_object: SNOMED CT
-        example_predicate: neo4j:sources
-        example_subject: neo4j://graph.individuals#119274
-    - description: neo4j_Location → string
-      object:
-        example_object: UnitedStatesZipcode_database
-        example_predicate: neo4j:sources
-        example_subject: neo4j://graph.individuals#123229
-    - description: neo4j_Compound → string
-      object:
-        example_object: BioCyc
-        example_predicate: neo4j:sources
-        example_subject: neo4j://graph.individuals#1961711
-    - description: neo4j_Organism → string
-      object:
-        example_object: BV-BRC
-        example_predicate: neo4j:sources
-        example_subject: neo4j://graph.individuals#105042
-    from_schema: spoke-kg
+    from_schema: okns:spoke-kg
     rank: 1000
     slot_uri: neo4j:sources
     alias: neo4j_sources

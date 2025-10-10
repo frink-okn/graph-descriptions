@@ -1,6 +1,6 @@
 # spoke-kg
 
-No schema description specified
+None
 
-URI: spoke-kg
+URI: okns:spoke-kg
 
