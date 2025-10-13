@@ -7,7 +7,7 @@ _Rational number._
 
 
 
-URI: [owl:rational](http://www.w3.org/2002/07/owl#rational)
+URI: [owl:rational](owl:rational)
 
 * [base](https://w3id.org/linkml/base): Decimal
 

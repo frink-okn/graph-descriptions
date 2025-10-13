@@ -5,6 +5,8 @@
 
 
 
+This slot occurs 30757 times.
+
 
 URI: [https://climatepub4kg.github.io/ontology#PRODUCES_VARIABLE](https://climatepub4kg.github.io/ontology#PRODUCES_VARIABLE)
 
@@ -12,6 +14,17 @@ URI: [https://climatepub4kg.github.io/ontology#PRODUCES_VARIABLE](https://climat
 
 <!-- no inheritance hierarchy -->
 
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [HttpsClimatepub4kg.github.ioOntology#RCM](../classes/HttpsClimatepub4kg.github.ioOntology#RCM.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#SourceComponent](../classes/HttpsClimatepub4kg.github.ioOntology#SourceComponent.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#Source](../classes/HttpsClimatepub4kg.github.ioOntology#Source.md) |  |  no  |
 
 
 
@@ -27,10 +40,6 @@ URI: [https://climatepub4kg.github.io/ontology#PRODUCES_VARIABLE](https://climat
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -39,13 +48,14 @@ URI: [https://climatepub4kg.github.io/ontology#PRODUCES_VARIABLE](https://climat
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE
-comments:
-- No occurrences of this slot in the graph.
 from_schema: okns:climatepub4-kg
 rank: 1000
-domain: https___climatepub4kg.github.io_ontology#Source
 slot_uri: https://climatepub4kg.github.io/ontology#PRODUCES_VARIABLE
 alias: https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE
+domain_of:
+- https___climatepub4kg.github.io_ontology#RCM
+- https___climatepub4kg.github.io_ontology#Source
+- https___climatepub4kg.github.io_ontology#SourceComponent
 range: https___climatepub4kg.github.io_ontology#Variable
 
 ```

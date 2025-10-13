@@ -1,0 +1,58 @@
+
+
+# Slot: neo4j_postal_code_regex
+
+
+
+
+This slot occurs 252 times.
+
+
+URI: [neo4j:postal_code_regex](neo4j://graph.schema#postal_code_regex)
+
+
+
+<!-- no inheritance hierarchy -->
+
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |  |  no  |
+
+
+
+
+
+
+
+## Properties
+
+* Range: [xsd:string](xsd:string)
+
+
+
+
+
+
+
+## LinkML Source
+
+<details>
+
+```yaml
+name: neo4j_postal_code_regex
+from_schema: okns:climatepub4-kg
+rank: 1000
+slot_uri: neo4j:postal_code_regex
+alias: neo4j_postal_code_regex
+domain_of:
+- https___climatepub4kg.github.io_ontology#Country
+range: string
+
+```
+</details>

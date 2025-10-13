@@ -5,6 +5,8 @@
 
 
 
+This slot occurs 125 times.
+
 
 URI: [https://climatepub4kg.github.io/ontology#COVERS_DOMAIN](https://climatepub4kg.github.io/ontology#COVERS_DOMAIN)
 
@@ -12,6 +14,16 @@ URI: [https://climatepub4kg.github.io/ontology#COVERS_DOMAIN](https://climatepub
 
 <!-- no inheritance hierarchy -->
 
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [HttpsClimatepub4kg.github.ioOntology#RCM](../classes/HttpsClimatepub4kg.github.ioOntology#RCM.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#Project](../classes/HttpsClimatepub4kg.github.ioOntology#Project.md) |  |  no  |
 
 
 
@@ -27,10 +39,6 @@ URI: [https://climatepub4kg.github.io/ontology#COVERS_DOMAIN](https://climatepub
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -39,13 +47,13 @@ URI: [https://climatepub4kg.github.io/ontology#COVERS_DOMAIN](https://climatepub
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#COVERS_DOMAIN
-comments:
-- No occurrences of this slot in the graph.
 from_schema: okns:climatepub4-kg
 rank: 1000
-domain: __B387941c545ea277ca70971c2fc8efd34
 slot_uri: https://climatepub4kg.github.io/ontology#COVERS_DOMAIN
 alias: https___climatepub4kg.github.io_ontology#COVERS_DOMAIN
+domain_of:
+- https___climatepub4kg.github.io_ontology#Project
+- https___climatepub4kg.github.io_ontology#RCM
 range: https___climatepub4kg.github.io_ontology#Domain
 
 ```

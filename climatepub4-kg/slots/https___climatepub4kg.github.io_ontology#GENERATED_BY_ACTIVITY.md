@@ -5,6 +5,8 @@
 
 
 
+This slot occurs 623 times.
+
 
 URI: [https://climatepub4kg.github.io/ontology#GENERATED_BY_ACTIVITY](https://climatepub4kg.github.io/ontology#GENERATED_BY_ACTIVITY)
 
@@ -12,6 +14,15 @@ URI: [https://climatepub4kg.github.io/ontology#GENERATED_BY_ACTIVITY](https://cl
 
 <!-- no inheritance hierarchy -->
 
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [HttpsClimatepub4kg.github.ioOntology#Source](../classes/HttpsClimatepub4kg.github.ioOntology#Source.md) |  |  no  |
 
 
 
@@ -27,10 +38,6 @@ URI: [https://climatepub4kg.github.io/ontology#GENERATED_BY_ACTIVITY](https://cl
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -39,13 +46,12 @@ URI: [https://climatepub4kg.github.io/ontology#GENERATED_BY_ACTIVITY](https://cl
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#GENERATED_BY_ACTIVITY
-comments:
-- No occurrences of this slot in the graph.
 from_schema: okns:climatepub4-kg
 rank: 1000
-domain: https___climatepub4kg.github.io_ontology#Source
 slot_uri: https://climatepub4kg.github.io/ontology#GENERATED_BY_ACTIVITY
 alias: https___climatepub4kg.github.io_ontology#GENERATED_BY_ACTIVITY
+domain_of:
+- https___climatepub4kg.github.io_ontology#Source
 range: https___climatepub4kg.github.io_ontology#Activity
 
 ```

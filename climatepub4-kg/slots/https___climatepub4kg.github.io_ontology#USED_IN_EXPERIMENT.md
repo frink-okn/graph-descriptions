@@ -5,6 +5,8 @@
 
 
 
+This slot occurs 2019 times.
+
 
 URI: [https://climatepub4kg.github.io/ontology#USED_IN_EXPERIMENT](https://climatepub4kg.github.io/ontology#USED_IN_EXPERIMENT)
 
@@ -12,6 +14,16 @@ URI: [https://climatepub4kg.github.io/ontology#USED_IN_EXPERIMENT](https://clima
 
 <!-- no inheritance hierarchy -->
 
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [HttpsClimatepub4kg.github.ioOntology#RCM](../classes/HttpsClimatepub4kg.github.ioOntology#RCM.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#Source](../classes/HttpsClimatepub4kg.github.ioOntology#Source.md) |  |  no  |
 
 
 
@@ -27,10 +39,6 @@ URI: [https://climatepub4kg.github.io/ontology#USED_IN_EXPERIMENT](https://clima
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -39,13 +47,13 @@ URI: [https://climatepub4kg.github.io/ontology#USED_IN_EXPERIMENT](https://clima
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#USED_IN_EXPERIMENT
-comments:
-- No occurrences of this slot in the graph.
 from_schema: okns:climatepub4-kg
 rank: 1000
-domain: __B5094751a17681c2cdc259f96bc41e048
 slot_uri: https://climatepub4kg.github.io/ontology#USED_IN_EXPERIMENT
 alias: https___climatepub4kg.github.io_ontology#USED_IN_EXPERIMENT
+domain_of:
+- https___climatepub4kg.github.io_ontology#RCM
+- https___climatepub4kg.github.io_ontology#Source
 range: https___climatepub4kg.github.io_ontology#Experiment
 
 ```

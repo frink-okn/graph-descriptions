@@ -5,6 +5,8 @@
 
 
 
+This slot occurs 1048 times.
+
 
 URI: [https://climatepub4kg.github.io/ontology#PART_OF_PROJECT](https://climatepub4kg.github.io/ontology#PART_OF_PROJECT)
 
@@ -12,6 +14,18 @@ URI: [https://climatepub4kg.github.io/ontology#PART_OF_PROJECT](https://climatep
 
 <!-- no inheritance hierarchy -->
 
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [HttpsClimatepub4kg.github.ioOntology#RCM](../classes/HttpsClimatepub4kg.github.ioOntology#RCM.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#Source](../classes/HttpsClimatepub4kg.github.ioOntology#Source.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#Activity](../classes/HttpsClimatepub4kg.github.ioOntology#Activity.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#Experiment](../classes/HttpsClimatepub4kg.github.ioOntology#Experiment.md) |  |  no  |
 
 
 
@@ -27,10 +41,6 @@ URI: [https://climatepub4kg.github.io/ontology#PART_OF_PROJECT](https://climatep
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -39,13 +49,15 @@ URI: [https://climatepub4kg.github.io/ontology#PART_OF_PROJECT](https://climatep
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#PART_OF_PROJECT
-comments:
-- No occurrences of this slot in the graph.
 from_schema: okns:climatepub4-kg
 rank: 1000
-domain: __B414c1dabd5719bf5b91d2ca8ac48f25e
 slot_uri: https://climatepub4kg.github.io/ontology#PART_OF_PROJECT
 alias: https___climatepub4kg.github.io_ontology#PART_OF_PROJECT
+domain_of:
+- https___climatepub4kg.github.io_ontology#Activity
+- https___climatepub4kg.github.io_ontology#Experiment
+- https___climatepub4kg.github.io_ontology#RCM
+- https___climatepub4kg.github.io_ontology#Source
 range: https___climatepub4kg.github.io_ontology#Project
 
 ```

@@ -5,6 +5,8 @@
 
 
 
+This slot occurs 986 times.
+
 
 URI: [https://climatepub4kg.github.io/ontology#USES_FORCING](https://climatepub4kg.github.io/ontology#USES_FORCING)
 
@@ -12,6 +14,15 @@ URI: [https://climatepub4kg.github.io/ontology#USES_FORCING](https://climatepub4
 
 <!-- no inheritance hierarchy -->
 
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [HttpsClimatepub4kg.github.ioOntology#Experiment](../classes/HttpsClimatepub4kg.github.ioOntology#Experiment.md) |  |  no  |
 
 
 
@@ -27,10 +38,6 @@ URI: [https://climatepub4kg.github.io/ontology#USES_FORCING](https://climatepub4
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -39,13 +46,12 @@ URI: [https://climatepub4kg.github.io/ontology#USES_FORCING](https://climatepub4
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#USES_FORCING
-comments:
-- No occurrences of this slot in the graph.
 from_schema: okns:climatepub4-kg
 rank: 1000
-domain: https___climatepub4kg.github.io_ontology#Experiment
 slot_uri: https://climatepub4kg.github.io/ontology#USES_FORCING
 alias: https___climatepub4kg.github.io_ontology#USES_FORCING
+domain_of:
+- https___climatepub4kg.github.io_ontology#Experiment
 range: https___climatepub4kg.github.io_ontology#Forcing
 
 ```

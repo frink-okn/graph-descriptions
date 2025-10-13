@@ -5,6 +5,8 @@
 
 
 
+This slot occurs 170 times.
+
 
 URI: [https://climatepub4kg.github.io/ontology#FOCUSES_ON_REALM](https://climatepub4kg.github.io/ontology#FOCUSES_ON_REALM)
 
@@ -12,6 +14,15 @@ URI: [https://climatepub4kg.github.io/ontology#FOCUSES_ON_REALM](https://climate
 
 <!-- no inheritance hierarchy -->
 
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [HttpsClimatepub4kg.github.ioOntology#Activity](../classes/HttpsClimatepub4kg.github.ioOntology#Activity.md) |  |  no  |
 
 
 
@@ -27,10 +38,6 @@ URI: [https://climatepub4kg.github.io/ontology#FOCUSES_ON_REALM](https://climate
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -39,13 +46,12 @@ URI: [https://climatepub4kg.github.io/ontology#FOCUSES_ON_REALM](https://climate
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#FOCUSES_ON_REALM
-comments:
-- No occurrences of this slot in the graph.
 from_schema: okns:climatepub4-kg
 rank: 1000
-domain: https___climatepub4kg.github.io_ontology#Activity
 slot_uri: https://climatepub4kg.github.io/ontology#FOCUSES_ON_REALM
 alias: https___climatepub4kg.github.io_ontology#FOCUSES_ON_REALM
+domain_of:
+- https___climatepub4kg.github.io_ontology#Activity
 range: https___climatepub4kg.github.io_ontology#Realm
 
 ```

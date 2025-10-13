@@ -5,6 +5,8 @@
 
 
 
+This slot occurs 213 times.
+
 
 URI: [https://climatepub4kg.github.io/ontology#PARTICIPATED_IN](https://climatepub4kg.github.io/ontology#PARTICIPATED_IN)
 
@@ -12,6 +14,15 @@ URI: [https://climatepub4kg.github.io/ontology#PARTICIPATED_IN](https://climatep
 
 <!-- no inheritance hierarchy -->
 
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [HttpsClimatepub4kg.github.ioOntology#Institute](../classes/HttpsClimatepub4kg.github.ioOntology#Institute.md) |  |  no  |
 
 
 
@@ -27,10 +38,6 @@ URI: [https://climatepub4kg.github.io/ontology#PARTICIPATED_IN](https://climatep
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -39,13 +46,12 @@ URI: [https://climatepub4kg.github.io/ontology#PARTICIPATED_IN](https://climatep
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#PARTICIPATED_IN
-comments:
-- No occurrences of this slot in the graph.
 from_schema: okns:climatepub4-kg
 rank: 1000
-domain: https___climatepub4kg.github.io_ontology#Institute
 slot_uri: https://climatepub4kg.github.io/ontology#PARTICIPATED_IN
 alias: https___climatepub4kg.github.io_ontology#PARTICIPATED_IN
+domain_of:
+- https___climatepub4kg.github.io_ontology#Institute
 range: https___climatepub4kg.github.io_ontology#Project
 
 ```
