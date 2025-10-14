@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_rcm_version
+# Slot: rcm_version (neo4j_rcm_version)
 
 
 
@@ -32,7 +32,7 @@ URI: [neo4j:rcm_version](neo4j://graph.schema#rcm_version)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -46,8 +46,10 @@ URI: [neo4j:rcm_version](neo4j://graph.schema#rcm_version)
 
 ```yaml
 name: neo4j_rcm_version
+title: rcm_version
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: neo4j_RCM
 slot_uri: neo4j:rcm_version
 alias: neo4j_rcm_version
 domain_of:

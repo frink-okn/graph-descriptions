@@ -32,7 +32,7 @@ URI: [https://climatepub4kg.github.io/ontology#COVERS_REGION](https://climatepub
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HttpsClimatepub4kg.github.ioOntology#Continent](../classes/HttpsClimatepub4kg.github.ioOntology#Continent.md)&nbsp;or&nbsp;<br />[HttpsClimatepub4kg.github.ioOntology#CountrySubdivision](../classes/HttpsClimatepub4kg.github.ioOntology#CountrySubdivision.md)&nbsp;or&nbsp;<br />[HttpsClimatepub4kg.github.ioOntology#NoCountryRegion](../classes/HttpsClimatepub4kg.github.ioOntology#NoCountryRegion.md)&nbsp;or&nbsp;<br />[HttpsClimatepub4kg.github.ioOntology#City](../classes/HttpsClimatepub4kg.github.ioOntology#City.md)&nbsp;or&nbsp;<br />[HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md)&nbsp;or&nbsp;<br />[HttpsClimatepub4kg.github.ioOntology#WaterBodies](../classes/HttpsClimatepub4kg.github.ioOntology#WaterBodies.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HttpsClimatepub4kg.github.ioOntology#WaterBodies](../classes/HttpsClimatepub4kg.github.ioOntology#WaterBodies.md)&nbsp;or&nbsp;<br />[HttpsClimatepub4kg.github.ioOntology#NoCountryRegion](../classes/HttpsClimatepub4kg.github.ioOntology#NoCountryRegion.md)&nbsp;or&nbsp;<br />[HttpsClimatepub4kg.github.ioOntology#City](../classes/HttpsClimatepub4kg.github.ioOntology#City.md)&nbsp;or&nbsp;<br />[HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md)&nbsp;or&nbsp;<br />[HttpsClimatepub4kg.github.ioOntology#Continent](../classes/HttpsClimatepub4kg.github.ioOntology#Continent.md)&nbsp;or&nbsp;<br />[HttpsClimatepub4kg.github.ioOntology#CountrySubdivision](../classes/HttpsClimatepub4kg.github.ioOntology#CountrySubdivision.md)
 
 
 
@@ -54,12 +54,12 @@ domain_of:
 - https___climatepub4kg.github.io_ontology#RCM
 range: Any
 any_of:
-- range: https___climatepub4kg.github.io_ontology#Continent
-- range: https___climatepub4kg.github.io_ontology#Country_Subdivision
+- range: https___climatepub4kg.github.io_ontology#Water_Bodies
 - range: https___climatepub4kg.github.io_ontology#No_Country_Region
 - range: https___climatepub4kg.github.io_ontology#City
 - range: https___climatepub4kg.github.io_ontology#Country
-- range: https___climatepub4kg.github.io_ontology#Water_Bodies
+- range: https___climatepub4kg.github.io_ontology#Continent
+- range: https___climatepub4kg.github.io_ontology#Country_Subdivision
 
 ```
 </details>

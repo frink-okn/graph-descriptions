@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_languages
+# Slot: languages (neo4j_languages)
 
 
 
@@ -32,7 +32,7 @@ URI: [neo4j:languages](neo4j://graph.schema#languages)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -46,8 +46,10 @@ URI: [neo4j:languages](neo4j://graph.schema#languages)
 
 ```yaml
 name: neo4j_languages
+title: languages
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: neo4j_Country
 slot_uri: neo4j:languages
 alias: neo4j_languages
 domain_of:

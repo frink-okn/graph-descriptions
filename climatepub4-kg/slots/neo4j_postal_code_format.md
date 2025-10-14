@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_postal_code_format
+# Slot: postal_code_format (neo4j_postal_code_format)
 
 
 
@@ -32,7 +32,7 @@ URI: [neo4j:postal_code_format](neo4j://graph.schema#postal_code_format)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -46,8 +46,10 @@ URI: [neo4j:postal_code_format](neo4j://graph.schema#postal_code_format)
 
 ```yaml
 name: neo4j_postal_code_format
+title: postal_code_format
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: neo4j_Country
 slot_uri: neo4j:postal_code_format
 alias: neo4j_postal_code_format
 domain_of:

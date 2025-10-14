@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_id
+# Slot: id (neo4j_id)
 
 
 
@@ -32,7 +32,7 @@ URI: [neo4j:id](neo4j://graph.schema#id)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -46,8 +46,10 @@ URI: [neo4j:id](neo4j://graph.schema#id)
 
 ```yaml
 name: neo4j_id
+title: id
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: neo4j_Paper
 slot_uri: neo4j:id
 alias: neo4j_id
 domain_of:

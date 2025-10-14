@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_variable_units
+# Slot: variable_units (neo4j_variable_units)
 
 
 
@@ -32,7 +32,7 @@ URI: [neo4j:variable_units](neo4j://graph.schema#variable_units)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -46,8 +46,10 @@ URI: [neo4j:variable_units](neo4j://graph.schema#variable_units)
 
 ```yaml
 name: neo4j_variable_units
+title: variable_units
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: neo4j_Variable
 slot_uri: neo4j:variable_units
 alias: neo4j_variable_units
 domain_of:

@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_area_sqkm
+# Slot: area_sqkm (neo4j_area_sqkm)
 
 
 
@@ -32,7 +32,7 @@ URI: [neo4j:area_sqkm](neo4j://graph.schema#area_sqkm)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -46,8 +46,10 @@ URI: [neo4j:area_sqkm](neo4j://graph.schema#area_sqkm)
 
 ```yaml
 name: neo4j_area_sqkm
+title: area_sqkm
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: neo4j_Country
 slot_uri: neo4j:area_sqkm
 alias: neo4j_area_sqkm
 domain_of:

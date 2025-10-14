@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_isonumeric
+# Slot: isonumeric (neo4j_isonumeric)
 
 
 
@@ -32,7 +32,7 @@ URI: [neo4j:isonumeric](neo4j://graph.schema#isonumeric)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -46,8 +46,10 @@ URI: [neo4j:isonumeric](neo4j://graph.schema#isonumeric)
 
 ```yaml
 name: neo4j_isonumeric
+title: isonumeric
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: neo4j_Country
 slot_uri: neo4j:isonumeric
 alias: neo4j_isonumeric
 domain_of:

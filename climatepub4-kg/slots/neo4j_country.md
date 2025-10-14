@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_country
+# Slot: country (neo4j_country)
 
 
 
@@ -32,7 +32,7 @@ URI: [neo4j:country](neo4j://graph.schema#country)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -46,8 +46,10 @@ URI: [neo4j:country](neo4j://graph.schema#country)
 
 ```yaml
 name: neo4j_country
+title: country
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: neo4j_Country
 slot_uri: neo4j:country
 alias: neo4j_country
 domain_of:

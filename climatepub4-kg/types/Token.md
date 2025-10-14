@@ -7,7 +7,7 @@ _Tokenized string, one that does not contain the carriage return (#xD), line fee
 
 
 
-URI: [xsd:token](xsd:token)
+URI: [xsd:token](http://www.w3.org/2001/XMLSchema#token)
 
 * [base](https://w3id.org/linkml/base): str
 

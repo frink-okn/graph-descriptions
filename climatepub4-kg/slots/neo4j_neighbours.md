@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_neighbours
+# Slot: neighbours (neo4j_neighbours)
 
 
 
@@ -32,7 +32,7 @@ URI: [neo4j:neighbours](neo4j://graph.schema#neighbours)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -46,8 +46,10 @@ URI: [neo4j:neighbours](neo4j://graph.schema#neighbours)
 
 ```yaml
 name: neo4j_neighbours
+title: neighbours
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: neo4j_Country
 slot_uri: neo4j:neighbours
 alias: neo4j_neighbours
 domain_of:

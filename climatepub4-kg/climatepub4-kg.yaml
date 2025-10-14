@@ -7692,474 +7692,684 @@ classes:
     class_uri: https://climatepub4kg.github.io/ontology#Activity
     name: https___climatepub4kg.github.io_ontology#Activity
     slots:
-    - neo4j_uuid
     - neo4j_names
-    - neo4j_name
-    - https___climatepub4kg.github.io_ontology#PART_OF_PROJECT
     - https___climatepub4kg.github.io_ontology#FOCUSES_ON_REALM
+    - https___climatepub4kg.github.io_ontology#PART_OF_PROJECT
+    - neo4j_name
+    - neo4j_uuid
   https___climatepub4kg.github.io_ontology#City:
     class_uri: https://climatepub4kg.github.io/ontology#City
     name: https___climatepub4kg.github.io_ontology#City
     slots:
-    - neo4j_longitude
     - neo4j_asciiname
-    - https___climatepub4kg.github.io_ontology#IN_COUNTRY
-    - neo4j_population
-    - neo4j_elevation
     - neo4j_dem
-    - neo4j_alternatenames
-    - neo4j_modification_date
-    - neo4j_country_code
-    - neo4j_latitude
-    - neo4j_admin2_code
-    - neo4j_timezone
-    - neo4j_feature_class
-    - neo4j_feature_code
-    - neo4j_uuid
-    - neo4j_admin3_code
-    - neo4j_admin1_code
-    - neo4j_admin4_code
-    - neo4j_geonameid
-    - neo4j_name
     - neo4j_cc2
+    - neo4j_feature_class
+    - neo4j_alternatenames
+    - neo4j_elevation
+    - neo4j_longitude
+    - neo4j_geonameid
+    - neo4j_timezone
+    - neo4j_latitude
+    - neo4j_admin1_code
+    - neo4j_modification_date
+    - neo4j_name
+    - neo4j_admin2_code
+    - neo4j_country_code
+    - neo4j_admin3_code
+    - neo4j_uuid
+    - neo4j_population
+    - neo4j_admin4_code
+    - https___climatepub4kg.github.io_ontology#IN_COUNTRY
+    - neo4j_feature_code
   https___climatepub4kg.github.io_ontology#Continent:
     class_uri: https://climatepub4kg.github.io/ontology#Continent
     name: https___climatepub4kg.github.io_ontology#Continent
     slots:
-    - neo4j_uuid
-    - neo4j_iso
     - neo4j_name
+    - neo4j_iso
     - neo4j_geonameid
+    - neo4j_uuid
   https___climatepub4kg.github.io_ontology#Country:
     class_uri: https://climatepub4kg.github.io/ontology#Country
     name: https___climatepub4kg.github.io_ontology#Country
     slots:
-    - neo4j_population
-    - neo4j_postal_code_format
-    - neo4j_currencyname
-    - neo4j_neighbours
-    - neo4j_languages
-    - neo4j_tld
-    - neo4j_east
-    - neo4j_isonumeric
-    - neo4j_phone
-    - neo4j_south
-    - https___climatepub4kg.github.io_ontology#IN_CONTINENT
-    - neo4j_west
-    - neo4j_north
-    - neo4j_equivalent_fips_code
-    - neo4j_area_sqkm
-    - neo4j_iso3
-    - neo4j_iso
-    - neo4j_uuid
-    - neo4j_currencycode
-    - neo4j_postal_code_regex
-    - neo4j_continent
-    - neo4j_geonameid
-    - neo4j_capital
-    - neo4j_name
-    - neo4j_fips
     - neo4j_country
+    - neo4j_area_sqkm
+    - neo4j_south
+    - neo4j_postal_code_regex
+    - neo4j_phone
+    - neo4j_west
+    - neo4j_currencyname
+    - neo4j_iso3
+    - neo4j_neighbours
+    - neo4j_fips
+    - neo4j_postal_code_format
+    - neo4j_isonumeric
+    - neo4j_languages
+    - https___climatepub4kg.github.io_ontology#IN_CONTINENT
+    - neo4j_tld
+    - neo4j_currencycode
+    - neo4j_iso
+    - neo4j_geonameid
+    - neo4j_east
+    - neo4j_equivalent_fips_code
+    - neo4j_north
+    - neo4j_name
+    - neo4j_capital
+    - neo4j_uuid
+    - neo4j_population
+    - neo4j_continent
   https___climatepub4kg.github.io_ontology#Country_Subdivision:
     class_uri: https://climatepub4kg.github.io/ontology#Country_Subdivision
     name: https___climatepub4kg.github.io_ontology#Country_Subdivision
     slots:
-    - neo4j_east
+    - neo4j_code
+    - neo4j_north
     - neo4j_asciiname
     - neo4j_south
-    - https___climatepub4kg.github.io_ontology#IN_COUNTRY
-    - neo4j_geonameid
-    - neo4j_code
-    - neo4j_west
     - neo4j_name
+    - https___climatepub4kg.github.io_ontology#IN_COUNTRY
+    - neo4j_west
     - neo4j_uuid
-    - neo4j_north
+    - neo4j_geonameid
+    - neo4j_east
   https___climatepub4kg.github.io_ontology#Domain:
     class_uri: https://climatepub4kg.github.io/ontology#Domain
     name: https___climatepub4kg.github.io_ontology#Domain
     slots:
-    - neo4j_uuid
     - neo4j_name
     - neo4j_names
+    - neo4j_uuid
   https___climatepub4kg.github.io_ontology#Ensemble:
     class_uri: https://climatepub4kg.github.io/ontology#Ensemble
     name: https___climatepub4kg.github.io_ontology#Ensemble
     slots:
-    - neo4j_uuid
     - neo4j_name
     - neo4j_names
+    - neo4j_uuid
   https___climatepub4kg.github.io_ontology#Experiment:
     class_uri: https://climatepub4kg.github.io/ontology#Experiment
     name: https___climatepub4kg.github.io_ontology#Experiment
     slots:
-    - neo4j_experiment_title
-    - https___climatepub4kg.github.io_ontology#USES_FORCING
-    - https___climatepub4kg.github.io_ontology#PERFORMED_BY_INSTITUTE
     - neo4j_names
-    - https___climatepub4kg.github.io_ontology#HAS_SUB_EXPERIMENT
-    - https___climatepub4kg.github.io_ontology#PART_OF_PROJECT
-    - neo4j_name
     - https___climatepub4kg.github.io_ontology#HAS_SPATIAL_RESOLUTION
+    - https___climatepub4kg.github.io_ontology#PART_OF_PROJECT
+    - https___climatepub4kg.github.io_ontology#HAS_SUB_EXPERIMENT
+    - https___climatepub4kg.github.io_ontology#USES_FORCING
+    - https___climatepub4kg.github.io_ontology#APPLIES_TO_REALM
+    - neo4j_name
     - neo4j_uuid
     - https___climatepub4kg.github.io_ontology#INCLUDES_ENSEMBLE_MEMBER
-    - https___climatepub4kg.github.io_ontology#APPLIES_TO_REALM
+    - https___climatepub4kg.github.io_ontology#PERFORMED_BY_INSTITUTE
+    - neo4j_experiment_title
   https___climatepub4kg.github.io_ontology#ExperimentFamily:
     class_uri: https://climatepub4kg.github.io/ontology#ExperimentFamily
     name: https___climatepub4kg.github.io_ontology#ExperimentFamily
     slots:
-    - https___climatepub4kg.github.io_ontology#INCLUDES_EXPERIMENT
-    - neo4j_uuid
     - neo4j_name
     - neo4j_names
+    - neo4j_uuid
+    - https___climatepub4kg.github.io_ontology#INCLUDES_EXPERIMENT
   https___climatepub4kg.github.io_ontology#Field:
     class_uri: https://climatepub4kg.github.io/ontology#Field
     name: https___climatepub4kg.github.io_ontology#Field
     slots:
+    - neo4j_name
     - neo4j_paper_id
     - neo4j_uuid
-    - neo4j_name
   https___climatepub4kg.github.io_ontology#Forcing:
     class_uri: https://climatepub4kg.github.io/ontology#Forcing
     name: https___climatepub4kg.github.io_ontology#Forcing
     slots:
-    - neo4j_uuid
     - neo4j_name
     - neo4j_names
+    - neo4j_uuid
   https___climatepub4kg.github.io_ontology#Frequency:
     class_uri: https://climatepub4kg.github.io/ontology#Frequency
     name: https___climatepub4kg.github.io_ontology#Frequency
     slots:
-    - neo4j_uuid
     - neo4j_name
     - neo4j_names
+    - neo4j_uuid
   https___climatepub4kg.github.io_ontology#Innovation:
     class_uri: https://climatepub4kg.github.io/ontology#Innovation
     name: https___climatepub4kg.github.io_ontology#Innovation
     slots:
+    - neo4j_name
     - neo4j_paper_id
     - neo4j_uuid
-    - neo4j_name
   https___climatepub4kg.github.io_ontology#Institute:
     class_uri: https://climatepub4kg.github.io/ontology#Institute
     name: https___climatepub4kg.github.io_ontology#Institute
     slots:
-    - neo4j_uuid
-    - https___climatepub4kg.github.io_ontology#PARTICIPATED_IN
     - neo4j_name
     - neo4j_names
+    - https___climatepub4kg.github.io_ontology#PARTICIPATED_IN
+    - neo4j_uuid
   https___climatepub4kg.github.io_ontology#Instrument:
     class_uri: https://climatepub4kg.github.io/ontology#Instrument
     name: https___climatepub4kg.github.io_ontology#Instrument
     slots:
-    - neo4j_added_from_paper_id
     - neo4j_name
+    - neo4j_added_from_paper_id
     - neo4j_uuid
   https___climatepub4kg.github.io_ontology#Keyword:
     class_uri: https://climatepub4kg.github.io/ontology#Keyword
     name: https___climatepub4kg.github.io_ontology#Keyword
     slots:
-    - neo4j_uuid
     - neo4j_name
+    - neo4j_uuid
   https___climatepub4kg.github.io_ontology#MIPEra:
     class_uri: https://climatepub4kg.github.io/ontology#MIPEra
     name: https___climatepub4kg.github.io_ontology#MIPEra
     slots:
-    - neo4j_uuid
     - neo4j_name
     - neo4j_names
+    - neo4j_uuid
   https___climatepub4kg.github.io_ontology#Member:
     class_uri: https://climatepub4kg.github.io/ontology#Member
     name: https___climatepub4kg.github.io_ontology#Member
     slots:
-    - neo4j_uuid
     - neo4j_name
     - neo4j_names
+    - neo4j_uuid
   https___climatepub4kg.github.io_ontology#Method:
     class_uri: https://climatepub4kg.github.io/ontology#Method
     name: https___climatepub4kg.github.io_ontology#Method
     slots:
+    - https___climatepub4kg.github.io_ontology#METHOD_WORKS_ON_TASK
     - neo4j_paper_id
     - https___climatepub4kg.github.io_ontology#METHOD_HAS_INNOVATION
-    - https___climatepub4kg.github.io_ontology#METHOD_SOLVES_PROBLEM
-    - https___climatepub4kg.github.io_ontology#METHOD_HAS_RESULT
-    - https___climatepub4kg.github.io_ontology#METHOD_WORKS_ON_TASK
-    - neo4j_name
     - https___climatepub4kg.github.io_ontology#METHOD_EXPERIMENTS_ON_OBSERVATIONAL_DATASET
-    - neo4j_uuid
+    - neo4j_name
+    - https___climatepub4kg.github.io_ontology#METHOD_SOLVES_PROBLEM
     - https___climatepub4kg.github.io_ontology#METHOD_USES_METRIC
+    - neo4j_uuid
+    - https___climatepub4kg.github.io_ontology#METHOD_HAS_RESULT
     - https___climatepub4kg.github.io_ontology#METHOD_USES_MODEL
   https___climatepub4kg.github.io_ontology#Metric:
     class_uri: https://climatepub4kg.github.io/ontology#Metric
     name: https___climatepub4kg.github.io_ontology#Metric
     slots:
-    - neo4j_uuid
-    - neo4j_added_from_paper_id
     - neo4j_name
+    - neo4j_added_from_paper_id
+    - neo4j_uuid
   https___climatepub4kg.github.io_ontology#Model:
     class_uri: https://climatepub4kg.github.io/ontology#Model
     name: https___climatepub4kg.github.io_ontology#Model
     slots:
-    - neo4j_paper_id
-    - https___climatepub4kg.github.io_ontology#CORRESPONDS_TO
+    - https___climatepub4kg.github.io_ontology#MODEL_EXPERIMENTS_ON_OBSERVATIONAL_DATASET
+    - https___climatepub4kg.github.io_ontology#MODEL_SOLVES_PROBLEM
+    - https___climatepub4kg.github.io_ontology#MODEL_WORKS_FOR_TASK
     - https___climatepub4kg.github.io_ontology#MODEL_USES_METRIC
     - https___climatepub4kg.github.io_ontology#MODEL_HAS_RESULT
     - neo4j_name
-    - https___climatepub4kg.github.io_ontology#MODEL_WORKS_FOR_TASK
-    - https___climatepub4kg.github.io_ontology#MODEL_EXPERIMENTS_ON_OBSERVATIONAL_DATASET
     - neo4j_uuid
-    - https___climatepub4kg.github.io_ontology#MODEL_SOLVES_PROBLEM
+    - https___climatepub4kg.github.io_ontology#CORRESPONDS_TO
+    - neo4j_paper_id
   https___climatepub4kg.github.io_ontology#Natural_Hazard:
     class_uri: https://climatepub4kg.github.io/ontology#Natural_Hazard
     name: https___climatepub4kg.github.io_ontology#Natural_Hazard
     slots:
-    - neo4j_added_from_paper_id
     - neo4j_name
+    - neo4j_added_from_paper_id
     - neo4j_uuid
   https___climatepub4kg.github.io_ontology#No_Country_Region:
     class_uri: https://climatepub4kg.github.io/ontology#No_Country_Region
     name: https___climatepub4kg.github.io_ontology#No_Country_Region
     slots:
-    - neo4j_longitude
     - neo4j_asciiname
-    - neo4j_population
-    - neo4j_elevation
     - neo4j_dem
-    - neo4j_alternatenames
-    - neo4j_modification_date
-    - neo4j_country_code
-    - neo4j_latitude
-    - neo4j_admin2_code
-    - neo4j_timezone
-    - neo4j_feature_class
-    - neo4j_feature_code
-    - neo4j_uuid
-    - neo4j_admin3_code
-    - neo4j_admin1_code
-    - neo4j_admin4_code
-    - neo4j_geonameid
-    - neo4j_name
     - neo4j_cc2
+    - neo4j_feature_class
+    - neo4j_alternatenames
+    - neo4j_elevation
+    - neo4j_longitude
+    - neo4j_geonameid
+    - neo4j_timezone
+    - neo4j_latitude
+    - neo4j_admin1_code
+    - neo4j_modification_date
+    - neo4j_name
+    - neo4j_admin2_code
+    - neo4j_country_code
+    - neo4j_admin3_code
+    - neo4j_uuid
+    - neo4j_population
+    - neo4j_admin4_code
+    - neo4j_feature_code
   https___climatepub4kg.github.io_ontology#ObservationalDataset:
     class_uri: https://climatepub4kg.github.io/ontology#ObservationalDataset
     name: https___climatepub4kg.github.io_ontology#ObservationalDataset
     slots:
-    - neo4j_uuid
     - neo4j_name
+    - neo4j_uuid
   https___climatepub4kg.github.io_ontology#Ocean_Circulation:
     class_uri: https://climatepub4kg.github.io/ontology#Ocean_Circulation
     name: https___climatepub4kg.github.io_ontology#Ocean_Circulation
     slots:
-    - neo4j_added_from_paper_id
     - neo4j_name
+    - neo4j_added_from_paper_id
     - neo4j_uuid
   https___climatepub4kg.github.io_ontology#Paper:
     class_uri: https://climatepub4kg.github.io/ontology#Paper
     name: https___climatepub4kg.github.io_ontology#Paper
     slots:
     - https___climatepub4kg.github.io_ontology#PAPER_HAS_INNOVATION
-    - https___climatepub4kg.github.io_ontology#PAPER_USES_METRIC
-    - https___climatepub4kg.github.io_ontology#PAPER_EXPERIMENTS_ON_OBSERVATIONAL_DATASET
-    - https___climatepub4kg.github.io_ontology#PAPER_APPLIES_METHOD
-    - https___climatepub4kg.github.io_ontology#PAPER_HAS_RESULT
-    - neo4j_id
-    - neo4j_title
-    - https___climatepub4kg.github.io_ontology#PAPER_SOLVES_PROBLEM
-    - https___climatepub4kg.github.io_ontology#PAPER_HAS_KEYWORD
-    - neo4j_name
     - https___climatepub4kg.github.io_ontology#PAPER_BELONGS_TO_FIELD
-    - https___climatepub4kg.github.io_ontology#PAPER_HAS_MODEL
-    - https___climatepub4kg.github.io_ontology#PAPER_MENTIONS
-    - neo4j_uuid
+    - https___climatepub4kg.github.io_ontology#PAPER_APPLIES_METHOD
     - https___climatepub4kg.github.io_ontology#PAPER_WORKS_ON_TASK
+    - https___climatepub4kg.github.io_ontology#PAPER_EXPERIMENTS_ON_OBSERVATIONAL_DATASET
+    - https___climatepub4kg.github.io_ontology#PAPER_MENTIONS
+    - neo4j_title
+    - neo4j_name
+    - https___climatepub4kg.github.io_ontology#PAPER_SOLVES_PROBLEM
+    - https___climatepub4kg.github.io_ontology#PAPER_USES_METRIC
+    - neo4j_uuid
+    - neo4j_id
+    - https___climatepub4kg.github.io_ontology#PAPER_HAS_MODEL
+    - https___climatepub4kg.github.io_ontology#PAPER_HAS_RESULT
+    - https___climatepub4kg.github.io_ontology#PAPER_HAS_KEYWORD
   https___climatepub4kg.github.io_ontology#PhysicalFeature:
     class_uri: https://climatepub4kg.github.io/ontology#PhysicalFeature
     name: https___climatepub4kg.github.io_ontology#PhysicalFeature
     slots:
-    - neo4j_added_from_paper_id
     - neo4j_name
+    - neo4j_added_from_paper_id
     - neo4j_uuid
   https___climatepub4kg.github.io_ontology#PhysicalScheme:
     class_uri: https://climatepub4kg.github.io/ontology#PhysicalScheme
     name: https___climatepub4kg.github.io_ontology#PhysicalScheme
     slots:
-    - neo4j_added_from_paper_id
     - neo4j_name
+    - neo4j_added_from_paper_id
     - neo4j_uuid
   https___climatepub4kg.github.io_ontology#Platform:
     class_uri: https://climatepub4kg.github.io/ontology#Platform
     name: https___climatepub4kg.github.io_ontology#Platform
     slots:
-    - neo4j_added_from_paper_id
     - neo4j_name
+    - neo4j_added_from_paper_id
     - neo4j_uuid
   https___climatepub4kg.github.io_ontology#Problem:
     class_uri: https://climatepub4kg.github.io/ontology#Problem
     name: https___climatepub4kg.github.io_ontology#Problem
     slots:
+    - neo4j_name
     - neo4j_paper_id
     - neo4j_uuid
-    - neo4j_name
   https___climatepub4kg.github.io_ontology#Project:
     class_uri: https://climatepub4kg.github.io/ontology#Project
     name: https___climatepub4kg.github.io_ontology#Project
     slots:
-    - neo4j_uuid
     - neo4j_name
-    - https___climatepub4kg.github.io_ontology#COVERS_DOMAIN
     - neo4j_names
+    - https___climatepub4kg.github.io_ontology#COVERS_DOMAIN
+    - neo4j_uuid
   https___climatepub4kg.github.io_ontology#RCM:
     class_uri: https://climatepub4kg.github.io/ontology#RCM
     name: https___climatepub4kg.github.io_ontology#RCM
     slots:
-    - https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE
-    - https___climatepub4kg.github.io_ontology#COVERS_DOMAIN
-    - https___climatepub4kg.github.io_ontology#USED_IN_EXPERIMENT
     - neo4j_names
-    - https___climatepub4kg.github.io_ontology#DRIVEN_BY_SOURCE
-    - neo4j_rcm_version
     - https___climatepub4kg.github.io_ontology#PART_OF_PROJECT
+    - neo4j_rcm_version
+    - https___climatepub4kg.github.io_ontology#COVERS_DOMAIN
     - neo4j_name
     - https___climatepub4kg.github.io_ontology#COVERS_REGION
+    - https___climatepub4kg.github.io_ontology#DRIVEN_BY_SOURCE
     - neo4j_uuid
+    - https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE
+    - https___climatepub4kg.github.io_ontology#USED_IN_EXPERIMENT
   https___climatepub4kg.github.io_ontology#Realm:
     class_uri: https://climatepub4kg.github.io/ontology#Realm
     name: https___climatepub4kg.github.io_ontology#Realm
     slots:
-    - neo4j_uuid
     - neo4j_name
     - neo4j_names
+    - neo4j_uuid
   https___climatepub4kg.github.io_ontology#Resolution:
     class_uri: https://climatepub4kg.github.io/ontology#Resolution
     name: https___climatepub4kg.github.io_ontology#Resolution
     slots:
-    - neo4j_uuid
     - neo4j_name
     - neo4j_names
+    - neo4j_uuid
   https___climatepub4kg.github.io_ontology#Result:
     class_uri: https://climatepub4kg.github.io/ontology#Result
     name: https___climatepub4kg.github.io_ontology#Result
     slots:
-    - neo4j_uuid
     - https___climatepub4kg.github.io_ontology#RESULT_HAS_METRIC
     - neo4j_name
+    - neo4j_uuid
   https___climatepub4kg.github.io_ontology#SimulationType:
     class_uri: https://climatepub4kg.github.io/ontology#SimulationType
     name: https___climatepub4kg.github.io_ontology#SimulationType
     slots:
-    - neo4j_added_from_paper_id
     - neo4j_name
+    - neo4j_added_from_paper_id
     - neo4j_uuid
   https___climatepub4kg.github.io_ontology#Source:
     class_uri: https://climatepub4kg.github.io/ontology#Source
     name: https___climatepub4kg.github.io_ontology#Source
     slots:
-    - https___climatepub4kg.github.io_ontology#HAS_METRIC
-    - https___climatepub4kg.github.io_ontology#PRODUCED_BY_INSTITUTE
-    - https___climatepub4kg.github.io_ontology#USED_IN_EXPERIMENT
     - https___climatepub4kg.github.io_ontology#HAS_SIMULATION_TYPE
+    - https___climatepub4kg.github.io_ontology#HAS_METRIC
     - https___climatepub4kg.github.io_ontology#ASSOCIATED_WITH_MEMBER
-    - https___climatepub4kg.github.io_ontology#PART_OF_PROJECT
-    - https___climatepub4kg.github.io_ontology#HAS_PHYSICAL_FEATURE
-    - https___climatepub4kg.github.io_ontology#APPLIES_TO_REALM
-    - https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE
-    - https___climatepub4kg.github.io_ontology#USES_PHYSICAL_SCHEME
-    - neo4j_names
-    - https___climatepub4kg.github.io_ontology#PART_OF_ENSEMBLE
-    - https___climatepub4kg.github.io_ontology#BELONGS_TO_MIP_ERA
-    - https___climatepub4kg.github.io_ontology#HAS_SOURCE_COMPONENT
-    - neo4j_uuid
-    - https___climatepub4kg.github.io_ontology#INHERITED_FROM
     - https___climatepub4kg.github.io_ontology#SAMPLED_AT_FREQUENCY
-    - https___climatepub4kg.github.io_ontology#HAS_SUBSEQUENT_VERSION
-    - https___climatepub4kg.github.io_ontology#IS_OF_TYPE
     - https___climatepub4kg.github.io_ontology#GENERATED_BY_ACTIVITY
-    - neo4j_name
+    - https___climatepub4kg.github.io_ontology#BELONGS_TO_MIP_ERA
+    - neo4j_names
+    - https___climatepub4kg.github.io_ontology#IS_OF_TYPE
     - https___climatepub4kg.github.io_ontology#HAS_SPATIAL_RESOLUTION
+    - https___climatepub4kg.github.io_ontology#PART_OF_PROJECT
+    - neo4j_name
+    - neo4j_uuid
+    - https___climatepub4kg.github.io_ontology#HAS_SOURCE_COMPONENT
+    - https___climatepub4kg.github.io_ontology#PRODUCED_BY_INSTITUTE
+    - https___climatepub4kg.github.io_ontology#HAS_PHYSICAL_FEATURE
+    - https___climatepub4kg.github.io_ontology#USED_IN_EXPERIMENT
+    - https___climatepub4kg.github.io_ontology#APPLIES_TO_REALM
+    - https___climatepub4kg.github.io_ontology#USES_PHYSICAL_SCHEME
+    - https___climatepub4kg.github.io_ontology#PART_OF_ENSEMBLE
+    - https___climatepub4kg.github.io_ontology#INHERITED_FROM
+    - https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE
+    - https___climatepub4kg.github.io_ontology#HAS_SUBSEQUENT_VERSION
   https___climatepub4kg.github.io_ontology#SourceComponent:
     class_uri: https://climatepub4kg.github.io/ontology#SourceComponent
     name: https___climatepub4kg.github.io_ontology#SourceComponent
     slots:
-    - https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE
-    - https___climatepub4kg.github.io_ontology#HAS_SUBSEQUENT_VERSION
-    - neo4j_added_from_paper_id
-    - https___climatepub4kg.github.io_ontology#HAS_SOURCE_COMPONENT
+    - https___climatepub4kg.github.io_ontology#APPLIES_TO_REALM
     - neo4j_name
     - neo4j_uuid
-    - https___climatepub4kg.github.io_ontology#APPLIES_TO_REALM
+    - https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE
+    - neo4j_added_from_paper_id
+    - https___climatepub4kg.github.io_ontology#HAS_SUBSEQUENT_VERSION
+    - https___climatepub4kg.github.io_ontology#HAS_SOURCE_COMPONENT
   https___climatepub4kg.github.io_ontology#SourceType:
     class_uri: https://climatepub4kg.github.io/ontology#SourceType
     name: https___climatepub4kg.github.io_ontology#SourceType
     slots:
-    - neo4j_uuid
     - neo4j_name
     - neo4j_names
+    - neo4j_uuid
   https___climatepub4kg.github.io_ontology#SubExperiment:
     class_uri: https://climatepub4kg.github.io/ontology#SubExperiment
     name: https___climatepub4kg.github.io_ontology#SubExperiment
     slots:
-    - neo4j_uuid
     - neo4j_name
     - neo4j_names
+    - neo4j_uuid
   https___climatepub4kg.github.io_ontology#Task:
     class_uri: https://climatepub4kg.github.io/ontology#Task
     name: https___climatepub4kg.github.io_ontology#Task
     slots:
-    - neo4j_paper_id
     - https___climatepub4kg.github.io_ontology#TASK_FACES_PROBLEM
-    - https___climatepub4kg.github.io_ontology#TASK_EXPERIMENTS_ON_OBSERVATIONAL_DATASET
     - https___climatepub4kg.github.io_ontology#TASK_USES_METRIC
     - neo4j_name
+    - https___climatepub4kg.github.io_ontology#TASK_EXPERIMENTS_ON_OBSERVATIONAL_DATASET
     - neo4j_uuid
+    - neo4j_paper_id
   https___climatepub4kg.github.io_ontology#Teleconnection:
     class_uri: https://climatepub4kg.github.io/ontology#Teleconnection
     name: https___climatepub4kg.github.io_ontology#Teleconnection
     slots:
-    - neo4j_added_from_paper_id
     - neo4j_name
+    - neo4j_added_from_paper_id
     - neo4j_uuid
   https___climatepub4kg.github.io_ontology#Variable:
     class_uri: https://climatepub4kg.github.io/ontology#Variable
     name: https___climatepub4kg.github.io_ontology#Variable
     slots:
     - neo4j_names
-    - neo4j_cf_standard_name
-    - neo4j_variable_units
-    - neo4j_name
-    - neo4j_variable_long_name
     - https___climatepub4kg.github.io_ontology#HAS_SPATIAL_RESOLUTION
+    - neo4j_variable_long_name
+    - neo4j_name
+    - neo4j_cf_standard_name
     - neo4j_uuid
+    - neo4j_variable_units
   https___climatepub4kg.github.io_ontology#Water_Bodies:
     class_uri: https://climatepub4kg.github.io/ontology#Water_Bodies
     name: https___climatepub4kg.github.io_ontology#Water_Bodies
     slots:
-    - neo4j_east
+    - neo4j_north
     - neo4j_south
-    - neo4j_geonameid
-    - neo4j_west
     - neo4j_name
+    - neo4j_west
     - neo4j_uuid
     - neo4j_Name
-    - neo4j_north
+    - neo4j_geonameid
+    - neo4j_east
   https___climatepub4kg.github.io_ontology#Weather_Event:
     class_uri: https://climatepub4kg.github.io/ontology#Weather_Event
     name: https___climatepub4kg.github.io_ontology#Weather_Event
     slots:
-    - neo4j_added_from_paper_id
     - neo4j_name
+    - neo4j_added_from_paper_id
     - neo4j_uuid
-created_on: '2025-10-13T17:14:17.925575'
+  neo4j_Activity:
+    class_uri: neo4j:Activity
+    name: neo4j_Activity
+    title: Activity
+  neo4j_City:
+    class_uri: neo4j:City
+    name: neo4j_City
+    title: City
+  neo4j_Continent:
+    class_uri: neo4j:Continent
+    name: neo4j_Continent
+    title: Continent
+  neo4j_Country:
+    class_uri: neo4j:Country
+    name: neo4j_Country
+    title: Country
+  neo4j_Country_Subdivision:
+    class_uri: neo4j:Country_Subdivision
+    name: neo4j_Country_Subdivision
+    title: Country_Subdivision
+  neo4j_Domain:
+    class_uri: neo4j:Domain
+    name: neo4j_Domain
+    title: Domain
+  neo4j_Ensemble:
+    class_uri: neo4j:Ensemble
+    name: neo4j_Ensemble
+    title: Ensemble
+  neo4j_Experiment:
+    class_uri: neo4j:Experiment
+    name: neo4j_Experiment
+    title: Experiment
+  neo4j_ExperimentFamily:
+    class_uri: neo4j:ExperimentFamily
+    name: neo4j_ExperimentFamily
+    title: ExperimentFamily
+  neo4j_Field:
+    class_uri: neo4j:Field
+    name: neo4j_Field
+    title: Field
+  neo4j_Forcing:
+    class_uri: neo4j:Forcing
+    name: neo4j_Forcing
+    title: Forcing
+  neo4j_Frequency:
+    class_uri: neo4j:Frequency
+    name: neo4j_Frequency
+    title: Frequency
+  neo4j_GridLabel:
+    class_uri: neo4j:GridLabel
+    name: neo4j_GridLabel
+    title: GridLabel
+  neo4j_Innovation:
+    class_uri: neo4j:Innovation
+    name: neo4j_Innovation
+    title: Innovation
+  neo4j_Institute:
+    class_uri: neo4j:Institute
+    name: neo4j_Institute
+    title: Institute
+  neo4j_Instrument:
+    class_uri: neo4j:Instrument
+    name: neo4j_Instrument
+    title: Instrument
+  neo4j_Keyword:
+    class_uri: neo4j:Keyword
+    name: neo4j_Keyword
+    title: Keyword
+  neo4j_MIPEra:
+    class_uri: neo4j:MIPEra
+    name: neo4j_MIPEra
+    title: MIPEra
+  neo4j_Member:
+    class_uri: neo4j:Member
+    name: neo4j_Member
+    title: Member
+  neo4j_Method:
+    class_uri: neo4j:Method
+    name: neo4j_Method
+    title: Method
+  neo4j_Metric:
+    class_uri: neo4j:Metric
+    name: neo4j_Metric
+    title: Metric
+  neo4j_Model:
+    class_uri: neo4j:Model
+    name: neo4j_Model
+    title: Model
+  neo4j_NaturalHazardType:
+    class_uri: neo4j:NaturalHazardType
+    name: neo4j_NaturalHazardType
+    title: NaturalHazardType
+  neo4j_Natural_Hazard:
+    class_uri: neo4j:Natural_Hazard
+    name: neo4j_Natural_Hazard
+    title: Natural_Hazard
+  neo4j_No_Country_Region:
+    class_uri: neo4j:No_Country_Region
+    name: neo4j_No_Country_Region
+    title: No_Country_Region
+  neo4j_ObservationalDataset:
+    class_uri: neo4j:ObservationalDataset
+    name: neo4j_ObservationalDataset
+    title: ObservationalDataset
+  neo4j_Ocean_Circulation:
+    class_uri: neo4j:Ocean_Circulation
+    name: neo4j_Ocean_Circulation
+    title: Ocean_Circulation
+  neo4j_Paper:
+    class_uri: neo4j:Paper
+    name: neo4j_Paper
+    title: Paper
+  neo4j_PhysicalFeature:
+    class_uri: neo4j:PhysicalFeature
+    name: neo4j_PhysicalFeature
+    title: PhysicalFeature
+  neo4j_PhysicalScheme:
+    class_uri: neo4j:PhysicalScheme
+    name: neo4j_PhysicalScheme
+    title: PhysicalScheme
+  neo4j_Platform:
+    class_uri: neo4j:Platform
+    name: neo4j_Platform
+    title: Platform
+  neo4j_Problem:
+    class_uri: neo4j:Problem
+    name: neo4j_Problem
+    title: Problem
+  neo4j_Project:
+    class_uri: neo4j:Project
+    name: neo4j_Project
+    title: Project
+  neo4j_RCM:
+    class_uri: neo4j:RCM
+    name: neo4j_RCM
+    title: RCM
+  neo4j_Realm:
+    class_uri: neo4j:Realm
+    name: neo4j_Realm
+    title: Realm
+  neo4j_Resolution:
+    class_uri: neo4j:Resolution
+    name: neo4j_Resolution
+    title: Resolution
+  neo4j_Result:
+    class_uri: neo4j:Result
+    name: neo4j_Result
+    title: Result
+  neo4j_SimulationType:
+    class_uri: neo4j:SimulationType
+    name: neo4j_SimulationType
+    title: SimulationType
+  neo4j_Source:
+    class_uri: neo4j:Source
+    name: neo4j_Source
+    title: Source
+  neo4j_SourceComponent:
+    class_uri: neo4j:SourceComponent
+    name: neo4j_SourceComponent
+    title: SourceComponent
+  neo4j_SourceType:
+    class_uri: neo4j:SourceType
+    name: neo4j_SourceType
+    title: SourceType
+  neo4j_SubExperiment:
+    class_uri: neo4j:SubExperiment
+    name: neo4j_SubExperiment
+    title: SubExperiment
+  neo4j_Task:
+    class_uri: neo4j:Task
+    name: neo4j_Task
+    title: Task
+  neo4j_Teleconnection:
+    class_uri: neo4j:Teleconnection
+    name: neo4j_Teleconnection
+    title: Teleconnection
+  neo4j_Variable:
+    class_uri: neo4j:Variable
+    name: neo4j_Variable
+    title: Variable
+  neo4j_Water_Bodies:
+    class_uri: neo4j:Water_Bodies
+    name: neo4j_Water_Bodies
+    title: Water_Bodies
+  neo4j_Weather_Event:
+    class_uri: neo4j:Weather_Event
+    name: neo4j_Weather_Event
+    title: Weather_Event
+  neo4j__GraphConfig:
+    class_uri: neo4j:_GraphConfig
+    name: neo4j__GraphConfig
+    title: No class (entity type) name specified -- this class is noted as being in
+      the domain or range of a slot in this graph but has not itself been defined.
+  neo4j__MapDef:
+    class_uri: neo4j:_MapDef
+    name: neo4j__MapDef
+    title: No class (entity type) name specified -- this class is noted as being in
+      the domain or range of a slot in this graph but has not itself been defined.
+  neo4j__MapNs:
+    class_uri: neo4j:_MapNs
+    name: neo4j__MapNs
+    title: No class (entity type) name specified -- this class is noted as being in
+      the domain or range of a slot in this graph but has not itself been defined.
+  neo4j__NsPrefDef:
+    class_uri: neo4j:_NsPrefDef
+    name: neo4j__NsPrefDef
+    title: No class (entity type) name specified -- this class is noted as being in
+      the domain or range of a slot in this graph but has not itself been defined.
+created_on: '2025-10-14T01:48:49.215755'
 default_prefix: okns
 id: okns:climatepub4-kg
 imports:
-- linkml:types
 - okns:extended_types
-last_updated_on: '2025-10-13T17:14:17.925575'
+- linkml:types
+last_updated_on: '2025-10-14T01:48:49.215755'
 name: climatepub4-kg
 prefixes:
   linkml: https://w3id.org/linkml/
   neo4j: neo4j://graph.schema#
   okn: https://purl.org/okn/
   okns: https://purl.org/okn/schema/
+  owl: http://www.w3.org/2002/07/owl#
+  xsd: http://www.w3.org/2001/XMLSchema#
 slots:
   https___climatepub4kg.github.io_ontology#APPLIES_TO_REALM:
     range: https___climatepub4kg.github.io_ontology#Realm
@@ -8178,12 +8388,12 @@ slots:
     slot_uri: https://climatepub4kg.github.io/ontology#COVERS_DOMAIN
   https___climatepub4kg.github.io_ontology#COVERS_REGION:
     any_of:
-    - range: https___climatepub4kg.github.io_ontology#Continent
-    - range: https___climatepub4kg.github.io_ontology#Country_Subdivision
+    - range: https___climatepub4kg.github.io_ontology#Water_Bodies
     - range: https___climatepub4kg.github.io_ontology#No_Country_Region
     - range: https___climatepub4kg.github.io_ontology#City
     - range: https___climatepub4kg.github.io_ontology#Country
-    - range: https___climatepub4kg.github.io_ontology#Water_Bodies
+    - range: https___climatepub4kg.github.io_ontology#Continent
+    - range: https___climatepub4kg.github.io_ontology#Country_Subdivision
     range: Any
     slot_uri: https://climatepub4kg.github.io/ontology#COVERS_REGION
   https___climatepub4kg.github.io_ontology#DRIVEN_BY_SOURCE:
@@ -8212,8 +8422,8 @@ slots:
     slot_uri: https://climatepub4kg.github.io/ontology#HAS_SPATIAL_RESOLUTION
   https___climatepub4kg.github.io_ontology#HAS_SUBSEQUENT_VERSION:
     any_of:
-    - range: https___climatepub4kg.github.io_ontology#SourceComponent
     - range: https___climatepub4kg.github.io_ontology#Source
+    - range: https___climatepub4kg.github.io_ontology#SourceComponent
     range: Any
     slot_uri: https://climatepub4kg.github.io/ontology#HAS_SUBSEQUENT_VERSION
   https___climatepub4kg.github.io_ontology#HAS_SUB_EXPERIMENT:
@@ -8296,35 +8506,35 @@ slots:
     slot_uri: https://climatepub4kg.github.io/ontology#PAPER_HAS_RESULT
   https___climatepub4kg.github.io_ontology#PAPER_MENTIONS:
     any_of:
-    - range: https___climatepub4kg.github.io_ontology#Instrument
-    - range: https___climatepub4kg.github.io_ontology#Platform
-    - range: https___climatepub4kg.github.io_ontology#Project
-    - range: https___climatepub4kg.github.io_ontology#Member
-    - range: https___climatepub4kg.github.io_ontology#ExperimentFamily
-    - range: https___climatepub4kg.github.io_ontology#Institute
-    - range: https___climatepub4kg.github.io_ontology#Continent
-    - range: https___climatepub4kg.github.io_ontology#Activity
-    - range: https___climatepub4kg.github.io_ontology#Country_Subdivision
-    - range: https___climatepub4kg.github.io_ontology#PhysicalScheme
-    - range: https___climatepub4kg.github.io_ontology#SourceComponent
-    - range: https___climatepub4kg.github.io_ontology#No_Country_Region
-    - range: https___climatepub4kg.github.io_ontology#Experiment
-    - range: https___climatepub4kg.github.io_ontology#Realm
-    - range: https___climatepub4kg.github.io_ontology#MIPEra
-    - range: https___climatepub4kg.github.io_ontology#SourceType
     - range: https___climatepub4kg.github.io_ontology#Teleconnection
-    - range: https___climatepub4kg.github.io_ontology#Natural_Hazard
+    - range: https___climatepub4kg.github.io_ontology#SourceComponent
+    - range: https___climatepub4kg.github.io_ontology#Realm
     - range: https___climatepub4kg.github.io_ontology#Resolution
-    - range: https___climatepub4kg.github.io_ontology#Ocean_Circulation
-    - range: https___climatepub4kg.github.io_ontology#SimulationType
-    - range: https___climatepub4kg.github.io_ontology#Weather_Event
-    - range: https___climatepub4kg.github.io_ontology#PhysicalFeature
-    - range: https___climatepub4kg.github.io_ontology#Country
-    - range: https___climatepub4kg.github.io_ontology#City
-    - range: https___climatepub4kg.github.io_ontology#Metric
-    - range: https___climatepub4kg.github.io_ontology#Variable
+    - range: https___climatepub4kg.github.io_ontology#Project
+    - range: https___climatepub4kg.github.io_ontology#Continent
+    - range: https___climatepub4kg.github.io_ontology#Experiment
     - range: https___climatepub4kg.github.io_ontology#Source
     - range: https___climatepub4kg.github.io_ontology#Water_Bodies
+    - range: https___climatepub4kg.github.io_ontology#Platform
+    - range: https___climatepub4kg.github.io_ontology#SimulationType
+    - range: https___climatepub4kg.github.io_ontology#Activity
+    - range: https___climatepub4kg.github.io_ontology#Natural_Hazard
+    - range: https___climatepub4kg.github.io_ontology#ExperimentFamily
+    - range: https___climatepub4kg.github.io_ontology#Variable
+    - range: https___climatepub4kg.github.io_ontology#Weather_Event
+    - range: https___climatepub4kg.github.io_ontology#City
+    - range: https___climatepub4kg.github.io_ontology#SourceType
+    - range: https___climatepub4kg.github.io_ontology#PhysicalFeature
+    - range: https___climatepub4kg.github.io_ontology#No_Country_Region
+    - range: https___climatepub4kg.github.io_ontology#MIPEra
+    - range: https___climatepub4kg.github.io_ontology#Institute
+    - range: https___climatepub4kg.github.io_ontology#PhysicalScheme
+    - range: https___climatepub4kg.github.io_ontology#Instrument
+    - range: https___climatepub4kg.github.io_ontology#Country_Subdivision
+    - range: https___climatepub4kg.github.io_ontology#Member
+    - range: https___climatepub4kg.github.io_ontology#Ocean_Circulation
+    - range: https___climatepub4kg.github.io_ontology#Metric
+    - range: https___climatepub4kg.github.io_ontology#Country
     range: Any
     slot_uri: https://climatepub4kg.github.io/ontology#PAPER_MENTIONS
   https___climatepub4kg.github.io_ontology#PAPER_SOLVES_PROBLEM:
@@ -8378,163 +8588,1219 @@ slots:
   https___climatepub4kg.github.io_ontology#USES_PHYSICAL_SCHEME:
     range: https___climatepub4kg.github.io_ontology#PhysicalScheme
     slot_uri: https://climatepub4kg.github.io/ontology#USES_PHYSICAL_SCHEME
+  neo4j_APPLIES_TO_REALM:
+    name: neo4j_APPLIES_TO_REALM
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Realm
+    slot_uri: neo4j:APPLIES_TO_REALM
+    title: APPLIES_TO_REALM
+    union_of:
+    - neo4j_SourceComponent
+    - neo4j_Source
+    - neo4j_Experiment
+  neo4j_ASSOCIATED_WITH_MEMBER:
+    domain: neo4j_Source
+    name: neo4j_ASSOCIATED_WITH_MEMBER
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Member
+    slot_uri: neo4j:ASSOCIATED_WITH_MEMBER
+    title: ASSOCIATED_WITH_MEMBER
+  neo4j_BELONGS_TO_MIP_ERA:
+    domain: neo4j_Source
+    name: neo4j_BELONGS_TO_MIP_ERA
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_MIPEra
+    slot_uri: neo4j:BELONGS_TO_MIP_ERA
+    title: BELONGS_TO_MIP_ERA
+  neo4j_CORRESPONDS_TO:
+    domain: neo4j_Model
+    name: neo4j_CORRESPONDS_TO
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Source
+    slot_uri: neo4j:CORRESPONDS_TO
+    title: CORRESPONDS_TO
+  neo4j_COVERS_DOMAIN:
+    name: neo4j_COVERS_DOMAIN
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Domain
+    slot_uri: neo4j:COVERS_DOMAIN
+    title: COVERS_DOMAIN
+    union_of:
+    - neo4j_RCM
+    - neo4j_Project
+  neo4j_COVERS_REGION:
+    any_of:
+    - range: neo4j_City
+    - range: neo4j_Water_Bodies
+    - range: neo4j_Country
+    - range: neo4j_Country_Subdivision
+    - range: neo4j_No_Country_Region
+    - range: neo4j_Continent
+    domain: neo4j_RCM
+    name: neo4j_COVERS_REGION
+    notes:
+    - No occurrences of this slot in the graph.
+    range: Any
+    slot_uri: neo4j:COVERS_REGION
+    title: COVERS_REGION
+  neo4j_DRIVEN_BY_SOURCE:
+    domain: neo4j_RCM
+    name: neo4j_DRIVEN_BY_SOURCE
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Source
+    slot_uri: neo4j:DRIVEN_BY_SOURCE
+    title: DRIVEN_BY_SOURCE
+  neo4j_FOCUSES_ON_REALM:
+    domain: neo4j_Activity
+    name: neo4j_FOCUSES_ON_REALM
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Realm
+    slot_uri: neo4j:FOCUSES_ON_REALM
+    title: FOCUSES_ON_REALM
+  neo4j_GENERATED_BY_ACTIVITY:
+    domain: neo4j_Source
+    name: neo4j_GENERATED_BY_ACTIVITY
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Activity
+    slot_uri: neo4j:GENERATED_BY_ACTIVITY
+    title: GENERATED_BY_ACTIVITY
+  neo4j_HAS_METRIC:
+    domain: neo4j_Source
+    name: neo4j_HAS_METRIC
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Metric
+    slot_uri: neo4j:HAS_METRIC
+    title: HAS_METRIC
+  neo4j_HAS_PHYSICAL_FEATURE:
+    domain: neo4j_Source
+    name: neo4j_HAS_PHYSICAL_FEATURE
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_PhysicalFeature
+    slot_uri: neo4j:HAS_PHYSICAL_FEATURE
+    title: HAS_PHYSICAL_FEATURE
+  neo4j_HAS_SIMULATION_TYPE:
+    domain: neo4j_Source
+    name: neo4j_HAS_SIMULATION_TYPE
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_SimulationType
+    slot_uri: neo4j:HAS_SIMULATION_TYPE
+    title: HAS_SIMULATION_TYPE
+  neo4j_HAS_SOURCE_COMPONENT:
+    name: neo4j_HAS_SOURCE_COMPONENT
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_SourceComponent
+    slot_uri: neo4j:HAS_SOURCE_COMPONENT
+    title: HAS_SOURCE_COMPONENT
+    union_of:
+    - neo4j_SourceComponent
+    - neo4j_Source
+  neo4j_HAS_SPATIAL_RESOLUTION:
+    name: neo4j_HAS_SPATIAL_RESOLUTION
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Resolution
+    slot_uri: neo4j:HAS_SPATIAL_RESOLUTION
+    title: HAS_SPATIAL_RESOLUTION
+    union_of:
+    - neo4j_Variable
+    - neo4j_Source
+    - neo4j_Experiment
+  neo4j_HAS_SUBSEQUENT_VERSION:
+    any_of:
+    - range: neo4j_SourceComponent
+    - range: neo4j_Source
+    name: neo4j_HAS_SUBSEQUENT_VERSION
+    notes:
+    - No occurrences of this slot in the graph.
+    range: Any
+    slot_uri: neo4j:HAS_SUBSEQUENT_VERSION
+    title: HAS_SUBSEQUENT_VERSION
+    union_of:
+    - neo4j_SourceComponent
+    - neo4j_Source
+  neo4j_HAS_SUB_EXPERIMENT:
+    domain: neo4j_Experiment
+    name: neo4j_HAS_SUB_EXPERIMENT
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_SubExperiment
+    slot_uri: neo4j:HAS_SUB_EXPERIMENT
+    title: HAS_SUB_EXPERIMENT
+  neo4j_INCLUDES_ENSEMBLE_MEMBER:
+    domain: neo4j_Experiment
+    name: neo4j_INCLUDES_ENSEMBLE_MEMBER
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Ensemble
+    slot_uri: neo4j:INCLUDES_ENSEMBLE_MEMBER
+    title: INCLUDES_ENSEMBLE_MEMBER
+  neo4j_INCLUDES_EXPERIMENT:
+    domain: neo4j_ExperimentFamily
+    name: neo4j_INCLUDES_EXPERIMENT
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Experiment
+    slot_uri: neo4j:INCLUDES_EXPERIMENT
+    title: INCLUDES_EXPERIMENT
+  neo4j_INHERITED_FROM:
+    domain: neo4j_Source
+    name: neo4j_INHERITED_FROM
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Source
+    slot_uri: neo4j:INHERITED_FROM
+    title: INHERITED_FROM
+  neo4j_IN_CONTINENT:
+    domain: neo4j_Country
+    name: neo4j_IN_CONTINENT
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Continent
+    slot_uri: neo4j:IN_CONTINENT
+    title: IN_CONTINENT
+  neo4j_IN_COUNTRY:
+    name: neo4j_IN_COUNTRY
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Country
+    slot_uri: neo4j:IN_COUNTRY
+    title: IN_COUNTRY
+    union_of:
+    - neo4j_Country_Subdivision
+    - neo4j_City
+  neo4j_IS_OF_TYPE:
+    domain: neo4j_Source
+    name: neo4j_IS_OF_TYPE
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_SourceType
+    slot_uri: neo4j:IS_OF_TYPE
+    title: IS_OF_TYPE
+  neo4j_METHOD_EXPERIMENTS_ON_OBSERVATIONAL_DATASET:
+    domain: neo4j_Method
+    name: neo4j_METHOD_EXPERIMENTS_ON_OBSERVATIONAL_DATASET
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_ObservationalDataset
+    slot_uri: neo4j:METHOD_EXPERIMENTS_ON_OBSERVATIONAL_DATASET
+    title: METHOD_EXPERIMENTS_ON_OBSERVATIONAL_DATASET
+  neo4j_METHOD_HAS_INNOVATION:
+    domain: neo4j_Method
+    name: neo4j_METHOD_HAS_INNOVATION
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Innovation
+    slot_uri: neo4j:METHOD_HAS_INNOVATION
+    title: METHOD_HAS_INNOVATION
+  neo4j_METHOD_HAS_RESULT:
+    domain: neo4j_Method
+    name: neo4j_METHOD_HAS_RESULT
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Result
+    slot_uri: neo4j:METHOD_HAS_RESULT
+    title: METHOD_HAS_RESULT
+  neo4j_METHOD_SOLVES_PROBLEM:
+    domain: neo4j_Method
+    name: neo4j_METHOD_SOLVES_PROBLEM
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Problem
+    slot_uri: neo4j:METHOD_SOLVES_PROBLEM
+    title: METHOD_SOLVES_PROBLEM
+  neo4j_METHOD_USES_METRIC:
+    domain: neo4j_Method
+    name: neo4j_METHOD_USES_METRIC
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Metric
+    slot_uri: neo4j:METHOD_USES_METRIC
+    title: METHOD_USES_METRIC
+  neo4j_METHOD_USES_MODEL:
+    domain: neo4j_Method
+    name: neo4j_METHOD_USES_MODEL
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Model
+    slot_uri: neo4j:METHOD_USES_MODEL
+    title: METHOD_USES_MODEL
+  neo4j_METHOD_WORKS_ON_TASK:
+    domain: neo4j_Method
+    name: neo4j_METHOD_WORKS_ON_TASK
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Task
+    slot_uri: neo4j:METHOD_WORKS_ON_TASK
+    title: METHOD_WORKS_ON_TASK
+  neo4j_MODEL_EXPERIMENTS_ON_OBSERVATIONAL_DATASET:
+    domain: neo4j_Model
+    name: neo4j_MODEL_EXPERIMENTS_ON_OBSERVATIONAL_DATASET
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_ObservationalDataset
+    slot_uri: neo4j:MODEL_EXPERIMENTS_ON_OBSERVATIONAL_DATASET
+    title: MODEL_EXPERIMENTS_ON_OBSERVATIONAL_DATASET
+  neo4j_MODEL_HAS_RESULT:
+    domain: neo4j_Model
+    name: neo4j_MODEL_HAS_RESULT
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Result
+    slot_uri: neo4j:MODEL_HAS_RESULT
+    title: MODEL_HAS_RESULT
+  neo4j_MODEL_SOLVES_PROBLEM:
+    domain: neo4j_Model
+    name: neo4j_MODEL_SOLVES_PROBLEM
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Problem
+    slot_uri: neo4j:MODEL_SOLVES_PROBLEM
+    title: MODEL_SOLVES_PROBLEM
+  neo4j_MODEL_USES_METRIC:
+    domain: neo4j_Model
+    name: neo4j_MODEL_USES_METRIC
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Metric
+    slot_uri: neo4j:MODEL_USES_METRIC
+    title: MODEL_USES_METRIC
+  neo4j_MODEL_WORKS_FOR_TASK:
+    domain: neo4j_Model
+    name: neo4j_MODEL_WORKS_FOR_TASK
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Task
+    slot_uri: neo4j:MODEL_WORKS_FOR_TASK
+    title: MODEL_WORKS_FOR_TASK
   neo4j_Name:
+    domain: neo4j_Water_Bodies
+    name: neo4j_Name
     range: string
     slot_uri: neo4j:Name
+    title: Name
+  neo4j_PAPER_APPLIES_METHOD:
+    domain: neo4j_Paper
+    name: neo4j_PAPER_APPLIES_METHOD
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Method
+    slot_uri: neo4j:PAPER_APPLIES_METHOD
+    title: PAPER_APPLIES_METHOD
+  neo4j_PAPER_BELONGS_TO_FIELD:
+    domain: neo4j_Paper
+    name: neo4j_PAPER_BELONGS_TO_FIELD
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Field
+    slot_uri: neo4j:PAPER_BELONGS_TO_FIELD
+    title: PAPER_BELONGS_TO_FIELD
+  neo4j_PAPER_EXPERIMENTS_ON_OBSERVATIONAL_DATASET:
+    domain: neo4j_Paper
+    name: neo4j_PAPER_EXPERIMENTS_ON_OBSERVATIONAL_DATASET
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_ObservationalDataset
+    slot_uri: neo4j:PAPER_EXPERIMENTS_ON_OBSERVATIONAL_DATASET
+    title: PAPER_EXPERIMENTS_ON_OBSERVATIONAL_DATASET
+  neo4j_PAPER_HAS_INNOVATION:
+    domain: neo4j_Paper
+    name: neo4j_PAPER_HAS_INNOVATION
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Innovation
+    slot_uri: neo4j:PAPER_HAS_INNOVATION
+    title: PAPER_HAS_INNOVATION
+  neo4j_PAPER_HAS_KEYWORD:
+    domain: neo4j_Paper
+    name: neo4j_PAPER_HAS_KEYWORD
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Keyword
+    slot_uri: neo4j:PAPER_HAS_KEYWORD
+    title: PAPER_HAS_KEYWORD
+  neo4j_PAPER_HAS_MODEL:
+    domain: neo4j_Paper
+    name: neo4j_PAPER_HAS_MODEL
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Model
+    slot_uri: neo4j:PAPER_HAS_MODEL
+    title: PAPER_HAS_MODEL
+  neo4j_PAPER_HAS_RESULT:
+    domain: neo4j_Paper
+    name: neo4j_PAPER_HAS_RESULT
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Result
+    slot_uri: neo4j:PAPER_HAS_RESULT
+    title: PAPER_HAS_RESULT
+  neo4j_PAPER_MENTIONS:
+    any_of:
+    - range: neo4j_Variable
+    - range: neo4j_Ocean_Circulation
+    - range: neo4j_Country
+    - range: neo4j_Source
+    - range: neo4j_SourceType
+    - range: neo4j_PhysicalScheme
+    - range: neo4j_No_Country_Region
+    - range: neo4j_Realm
+    - range: neo4j_MIPEra
+    - range: neo4j_Teleconnection
+    - range: neo4j_Resolution
+    - range: neo4j_Activity
+    - range: neo4j_Metric
+    - range: neo4j_ExperimentFamily
+    - range: neo4j_SourceComponent
+    - range: neo4j_Platform
+    - range: neo4j_Member
+    - range: neo4j_SimulationType
+    - range: neo4j_Continent
+    - range: neo4j_Weather_Event
+    - range: neo4j_Natural_Hazard
+    - range: neo4j_City
+    - range: neo4j_Instrument
+    - range: neo4j_PhysicalFeature
+    - range: neo4j_Water_Bodies
+    - range: neo4j_Experiment
+    - range: neo4j_Country_Subdivision
+    - range: neo4j_Institute
+    - range: neo4j_Project
+    domain: neo4j_Paper
+    name: neo4j_PAPER_MENTIONS
+    notes:
+    - No occurrences of this slot in the graph.
+    range: Any
+    slot_uri: neo4j:PAPER_MENTIONS
+    title: PAPER_MENTIONS
+  neo4j_PAPER_SOLVES_PROBLEM:
+    domain: neo4j_Paper
+    name: neo4j_PAPER_SOLVES_PROBLEM
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Problem
+    slot_uri: neo4j:PAPER_SOLVES_PROBLEM
+    title: PAPER_SOLVES_PROBLEM
+  neo4j_PAPER_USES_METRIC:
+    domain: neo4j_Paper
+    name: neo4j_PAPER_USES_METRIC
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Metric
+    slot_uri: neo4j:PAPER_USES_METRIC
+    title: PAPER_USES_METRIC
+  neo4j_PAPER_WORKS_ON_TASK:
+    domain: neo4j_Paper
+    name: neo4j_PAPER_WORKS_ON_TASK
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Task
+    slot_uri: neo4j:PAPER_WORKS_ON_TASK
+    title: PAPER_WORKS_ON_TASK
+  neo4j_PARTICIPATED_IN:
+    domain: neo4j_Institute
+    name: neo4j_PARTICIPATED_IN
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Project
+    slot_uri: neo4j:PARTICIPATED_IN
+    title: PARTICIPATED_IN
+  neo4j_PART_OF_ENSEMBLE:
+    domain: neo4j_Source
+    name: neo4j_PART_OF_ENSEMBLE
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Ensemble
+    slot_uri: neo4j:PART_OF_ENSEMBLE
+    title: PART_OF_ENSEMBLE
+  neo4j_PART_OF_PROJECT:
+    name: neo4j_PART_OF_PROJECT
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Project
+    slot_uri: neo4j:PART_OF_PROJECT
+    title: PART_OF_PROJECT
+    union_of:
+    - neo4j_RCM
+    - neo4j_Activity
+    - neo4j_Experiment
+    - neo4j_Source
+  neo4j_PERFORMED_BY_INSTITUTE:
+    domain: neo4j_Experiment
+    name: neo4j_PERFORMED_BY_INSTITUTE
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Institute
+    slot_uri: neo4j:PERFORMED_BY_INSTITUTE
+    title: PERFORMED_BY_INSTITUTE
+  neo4j_PRODUCED_BY_INSTITUTE:
+    domain: neo4j_Source
+    name: neo4j_PRODUCED_BY_INSTITUTE
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Institute
+    slot_uri: neo4j:PRODUCED_BY_INSTITUTE
+    title: PRODUCED_BY_INSTITUTE
+  neo4j_PRODUCES_VARIABLE:
+    name: neo4j_PRODUCES_VARIABLE
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Variable
+    slot_uri: neo4j:PRODUCES_VARIABLE
+    title: PRODUCES_VARIABLE
+    union_of:
+    - neo4j_RCM
+    - neo4j_SourceComponent
+    - neo4j_Source
+  neo4j_RESULT_HAS_METRIC:
+    domain: neo4j_Result
+    name: neo4j_RESULT_HAS_METRIC
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Metric
+    slot_uri: neo4j:RESULT_HAS_METRIC
+    title: RESULT_HAS_METRIC
+  neo4j_SAMPLED_AT_FREQUENCY:
+    domain: neo4j_Source
+    name: neo4j_SAMPLED_AT_FREQUENCY
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Frequency
+    slot_uri: neo4j:SAMPLED_AT_FREQUENCY
+    title: SAMPLED_AT_FREQUENCY
+  neo4j_TASK_EXPERIMENTS_ON_OBSERVATIONAL_DATASET:
+    domain: neo4j_Task
+    name: neo4j_TASK_EXPERIMENTS_ON_OBSERVATIONAL_DATASET
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_ObservationalDataset
+    slot_uri: neo4j:TASK_EXPERIMENTS_ON_OBSERVATIONAL_DATASET
+    title: TASK_EXPERIMENTS_ON_OBSERVATIONAL_DATASET
+  neo4j_TASK_FACES_PROBLEM:
+    domain: neo4j_Task
+    name: neo4j_TASK_FACES_PROBLEM
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Problem
+    slot_uri: neo4j:TASK_FACES_PROBLEM
+    title: TASK_FACES_PROBLEM
+  neo4j_TASK_USES_METRIC:
+    domain: neo4j_Task
+    name: neo4j_TASK_USES_METRIC
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Metric
+    slot_uri: neo4j:TASK_USES_METRIC
+    title: TASK_USES_METRIC
+  neo4j_USED_IN_EXPERIMENT:
+    name: neo4j_USED_IN_EXPERIMENT
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Experiment
+    slot_uri: neo4j:USED_IN_EXPERIMENT
+    title: USED_IN_EXPERIMENT
+    union_of:
+    - neo4j_RCM
+    - neo4j_Source
+  neo4j_USES_FORCING:
+    domain: neo4j_Experiment
+    name: neo4j_USES_FORCING
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_Forcing
+    slot_uri: neo4j:USES_FORCING
+    title: USES_FORCING
+  neo4j_USES_PHYSICAL_SCHEME:
+    domain: neo4j_Source
+    name: neo4j_USES_PHYSICAL_SCHEME
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j_PhysicalScheme
+    slot_uri: neo4j:USES_PHYSICAL_SCHEME
+    title: USES_PHYSICAL_SCHEME
+  neo4j__IN:
+    domain: neo4j__MapDef
+    name: neo4j__IN
+    notes:
+    - No occurrences of this slot in the graph.
+    range: neo4j__MapNs
+    slot_uri: neo4j:_IN
+    title: _IN
+  neo4j__applyNeo4jNaming:
+    domain: neo4j__GraphConfig
+    name: neo4j__applyNeo4jNaming
+    notes:
+    - No occurrences of this slot in the graph.
+    range: boolean
+    slot_uri: neo4j:_applyNeo4jNaming
+    title: _applyNeo4jNaming
+  neo4j__classLabel:
+    domain: neo4j__GraphConfig
+    name: neo4j__classLabel
+    notes:
+    - No occurrences of this slot in the graph.
+    range: string
+    slot_uri: neo4j:_classLabel
+    title: _classLabel
+  neo4j__classNamePropName:
+    domain: neo4j__GraphConfig
+    name: neo4j__classNamePropName
+    notes:
+    - No occurrences of this slot in the graph.
+    range: string
+    slot_uri: neo4j:_classNamePropName
+    title: _classNamePropName
+  neo4j__dataTypePropertyLabel:
+    domain: neo4j__GraphConfig
+    name: neo4j__dataTypePropertyLabel
+    notes:
+    - No occurrences of this slot in the graph.
+    range: string
+    slot_uri: neo4j:_dataTypePropertyLabel
+    title: _dataTypePropertyLabel
+  neo4j__domainRel:
+    domain: neo4j__GraphConfig
+    name: neo4j__domainRel
+    notes:
+    - No occurrences of this slot in the graph.
+    range: string
+    slot_uri: neo4j:_domainRel
+    title: _domainRel
+  neo4j__handleMultival:
+    domain: neo4j__GraphConfig
+    name: neo4j__handleMultival
+    notes:
+    - No occurrences of this slot in the graph.
+    range: string
+    slot_uri: neo4j:_handleMultival
+    title: _handleMultival
+  neo4j__handleRDFTypes:
+    domain: neo4j__GraphConfig
+    name: neo4j__handleRDFTypes
+    notes:
+    - No occurrences of this slot in the graph.
+    range: string
+    slot_uri: neo4j:_handleRDFTypes
+    title: _handleRDFTypes
+  neo4j__handleVocabUris:
+    domain: neo4j__GraphConfig
+    name: neo4j__handleVocabUris
+    notes:
+    - No occurrences of this slot in the graph.
+    range: string
+    slot_uri: neo4j:_handleVocabUris
+    title: _handleVocabUris
+  neo4j__keepCustomDataTypes:
+    domain: neo4j__GraphConfig
+    name: neo4j__keepCustomDataTypes
+    notes:
+    - No occurrences of this slot in the graph.
+    range: boolean
+    slot_uri: neo4j:_keepCustomDataTypes
+    title: _keepCustomDataTypes
+  neo4j__keepLangTag:
+    domain: neo4j__GraphConfig
+    name: neo4j__keepLangTag
+    notes:
+    - No occurrences of this slot in the graph.
+    range: boolean
+    slot_uri: neo4j:_keepLangTag
+    title: _keepLangTag
+  neo4j__key:
+    domain: neo4j__MapDef
+    name: neo4j__key
+    notes:
+    - No occurrences of this slot in the graph.
+    range: string
+    slot_uri: neo4j:_key
+    title: _key
+  neo4j__local:
+    domain: neo4j__MapDef
+    name: neo4j__local
+    notes:
+    - No occurrences of this slot in the graph.
+    range: string
+    slot_uri: neo4j:_local
+    title: _local
+  neo4j__ns:
+    domain: neo4j__MapNs
+    name: neo4j__ns
+    notes:
+    - No occurrences of this slot in the graph.
+    range: string
+    slot_uri: neo4j:_ns
+    title: _ns
+  neo4j__objectPropertyLabel:
+    domain: neo4j__GraphConfig
+    name: neo4j__objectPropertyLabel
+    notes:
+    - No occurrences of this slot in the graph.
+    range: string
+    slot_uri: neo4j:_objectPropertyLabel
+    title: _objectPropertyLabel
+  neo4j__prefix:
+    domain: neo4j__MapNs
+    name: neo4j__prefix
+    notes:
+    - No occurrences of this slot in the graph.
+    range: string
+    slot_uri: neo4j:_prefix
+    title: _prefix
+  neo4j__rangeRel:
+    domain: neo4j__GraphConfig
+    name: neo4j__rangeRel
+    notes:
+    - No occurrences of this slot in the graph.
+    range: string
+    slot_uri: neo4j:_rangeRel
+    title: _rangeRel
+  neo4j__relNamePropName:
+    domain: neo4j__GraphConfig
+    name: neo4j__relNamePropName
+    notes:
+    - No occurrences of this slot in the graph.
+    range: string
+    slot_uri: neo4j:_relNamePropName
+    title: _relNamePropName
+  neo4j__subClassOfRel:
+    domain: neo4j__GraphConfig
+    name: neo4j__subClassOfRel
+    notes:
+    - No occurrences of this slot in the graph.
+    range: string
+    slot_uri: neo4j:_subClassOfRel
+    title: _subClassOfRel
+  neo4j__subPropertyOfRel:
+    domain: neo4j__GraphConfig
+    name: neo4j__subPropertyOfRel
+    notes:
+    - No occurrences of this slot in the graph.
+    range: string
+    slot_uri: neo4j:_subPropertyOfRel
+    title: _subPropertyOfRel
   neo4j_added_from_paper_id:
+    name: neo4j_added_from_paper_id
     range: string
     slot_uri: neo4j:added_from_paper_id
+    title: added_from_paper_id
+    union_of:
+    - neo4j_SourceComponent
+    - neo4j_Natural_Hazard
+    - neo4j_Platform
+    - neo4j_Instrument
+    - neo4j_PhysicalFeature
+    - neo4j_SimulationType
+    - neo4j_Teleconnection
+    - neo4j_Ocean_Circulation
+    - neo4j_PhysicalScheme
+    - neo4j_Metric
+    - neo4j_Weather_Event
   neo4j_admin1_code:
+    name: neo4j_admin1_code
     range: string
     slot_uri: neo4j:admin1_code
+    title: admin1_code
+    union_of:
+    - neo4j_No_Country_Region
+    - neo4j_City
   neo4j_admin2_code:
+    name: neo4j_admin2_code
     range: string
     slot_uri: neo4j:admin2_code
+    title: admin2_code
+    union_of:
+    - neo4j_No_Country_Region
+    - neo4j_City
   neo4j_admin3_code:
+    name: neo4j_admin3_code
     range: string
     slot_uri: neo4j:admin3_code
+    title: admin3_code
+    union_of:
+    - neo4j_No_Country_Region
+    - neo4j_City
   neo4j_admin4_code:
+    name: neo4j_admin4_code
     range: string
     slot_uri: neo4j:admin4_code
+    title: admin4_code
+    union_of:
+    - neo4j_No_Country_Region
+    - neo4j_City
   neo4j_alternatenames:
+    name: neo4j_alternatenames
     range: string
     slot_uri: neo4j:alternatenames
+    title: alternatenames
+    union_of:
+    - neo4j_No_Country_Region
+    - neo4j_City
   neo4j_area_sqkm:
+    domain: neo4j_Country
+    name: neo4j_area_sqkm
     range: string
     slot_uri: neo4j:area_sqkm
+    title: area_sqkm
   neo4j_asciiname:
+    name: neo4j_asciiname
     range: string
     slot_uri: neo4j:asciiname
+    title: asciiname
+    union_of:
+    - neo4j_No_Country_Region
+    - neo4j_Country_Subdivision
+    - neo4j_City
   neo4j_capital:
+    domain: neo4j_Country
+    name: neo4j_capital
     range: string
     slot_uri: neo4j:capital
+    title: capital
   neo4j_cc2:
+    name: neo4j_cc2
     range: string
     slot_uri: neo4j:cc2
+    title: cc2
+    union_of:
+    - neo4j_No_Country_Region
+    - neo4j_City
   neo4j_cf_standard_name:
+    domain: neo4j_Variable
+    name: neo4j_cf_standard_name
     range: string
     slot_uri: neo4j:cf_standard_name
+    title: cf_standard_name
+  neo4j_climid:
+    domain: neo4j__NsPrefDef
+    name: neo4j_climid
+    notes:
+    - No occurrences of this slot in the graph.
+    range: string
+    slot_uri: neo4j:climid
+    title: climid
+  neo4j_clm:
+    domain: neo4j__NsPrefDef
+    name: neo4j_clm
+    notes:
+    - No occurrences of this slot in the graph.
+    range: string
+    slot_uri: neo4j:clm
+    title: clm
   neo4j_code:
+    domain: neo4j_Country_Subdivision
+    name: neo4j_code
     range: string
     slot_uri: neo4j:code
+    title: code
   neo4j_continent:
+    domain: neo4j_Country
+    name: neo4j_continent
     range: string
     slot_uri: neo4j:continent
+    title: continent
   neo4j_country:
+    domain: neo4j_Country
+    name: neo4j_country
     range: string
     slot_uri: neo4j:country
+    title: country
   neo4j_country_code:
+    name: neo4j_country_code
     range: string
     slot_uri: neo4j:country_code
+    title: country_code
+    union_of:
+    - neo4j_No_Country_Region
+    - neo4j_City
   neo4j_currencycode:
+    domain: neo4j_Country
+    name: neo4j_currencycode
     range: string
     slot_uri: neo4j:currencycode
+    title: currencycode
   neo4j_currencyname:
+    domain: neo4j_Country
+    name: neo4j_currencyname
     range: string
     slot_uri: neo4j:currencyname
+    title: currencyname
   neo4j_dem:
+    name: neo4j_dem
     range: string
     slot_uri: neo4j:dem
+    title: dem
+    union_of:
+    - neo4j_No_Country_Region
+    - neo4j_City
   neo4j_east:
+    name: neo4j_east
     range: string
     slot_uri: neo4j:east
+    title: east
+    union_of:
+    - neo4j_Water_Bodies
+    - neo4j_Country
+    - neo4j_Country_Subdivision
   neo4j_elevation:
+    name: neo4j_elevation
     range: string
     slot_uri: neo4j:elevation
+    title: elevation
+    union_of:
+    - neo4j_No_Country_Region
+    - neo4j_City
   neo4j_equivalent_fips_code:
+    domain: neo4j_Country
+    name: neo4j_equivalent_fips_code
     range: string
     slot_uri: neo4j:equivalent_fips_code
+    title: equivalent_fips_code
   neo4j_experiment_title:
+    domain: neo4j_Experiment
+    name: neo4j_experiment_title
     range: string
     slot_uri: neo4j:experiment_title
+    title: experiment_title
   neo4j_feature_class:
+    name: neo4j_feature_class
     range: string
     slot_uri: neo4j:feature_class
+    title: feature_class
+    union_of:
+    - neo4j_No_Country_Region
+    - neo4j_City
   neo4j_feature_code:
+    name: neo4j_feature_code
     range: string
     slot_uri: neo4j:feature_code
+    title: feature_code
+    union_of:
+    - neo4j_No_Country_Region
+    - neo4j_City
   neo4j_fips:
+    domain: neo4j_Country
+    name: neo4j_fips
     range: string
     slot_uri: neo4j:fips
+    title: fips
   neo4j_geonameid:
+    name: neo4j_geonameid
     range: string
     slot_uri: neo4j:geonameid
+    title: geonameid
+    union_of:
+    - neo4j_City
+    - neo4j_Water_Bodies
+    - neo4j_Country
+    - neo4j_Country_Subdivision
+    - neo4j_No_Country_Region
+    - neo4j_Continent
   neo4j_id:
+    domain: neo4j_Paper
+    name: neo4j_id
     range: string
     slot_uri: neo4j:id
+    title: id
   neo4j_iso:
+    name: neo4j_iso
     range: string
     slot_uri: neo4j:iso
+    title: iso
+    union_of:
+    - neo4j_Country
+    - neo4j_Continent
   neo4j_iso3:
+    domain: neo4j_Country
+    name: neo4j_iso3
     range: string
     slot_uri: neo4j:iso3
+    title: iso3
   neo4j_isonumeric:
+    domain: neo4j_Country
+    name: neo4j_isonumeric
     range: string
     slot_uri: neo4j:isonumeric
+    title: isonumeric
   neo4j_languages:
+    domain: neo4j_Country
+    name: neo4j_languages
     range: string
     slot_uri: neo4j:languages
+    title: languages
   neo4j_latitude:
+    name: neo4j_latitude
     range: string
     slot_uri: neo4j:latitude
+    title: latitude
+    union_of:
+    - neo4j_No_Country_Region
+    - neo4j_City
   neo4j_longitude:
+    name: neo4j_longitude
     range: string
     slot_uri: neo4j:longitude
+    title: longitude
+    union_of:
+    - neo4j_No_Country_Region
+    - neo4j_City
   neo4j_modification_date:
+    name: neo4j_modification_date
     range: string
     slot_uri: neo4j:modification_date
+    title: modification_date
+    union_of:
+    - neo4j_No_Country_Region
+    - neo4j_City
   neo4j_name:
+    name: neo4j_name
     range: string
     slot_uri: neo4j:name
+    title: name
+    union_of:
+    - neo4j_Forcing
+    - neo4j_Variable
+    - neo4j_Keyword
+    - neo4j_RCM
+    - neo4j_Ocean_Circulation
+    - neo4j_Country
+    - neo4j_Source
+    - neo4j_SourceType
+    - neo4j_PhysicalScheme
+    - neo4j_No_Country_Region
+    - neo4j_Paper
+    - neo4j_Realm
+    - neo4j_MIPEra
+    - neo4j_Domain
+    - neo4j_Teleconnection
+    - neo4j_SubExperiment
+    - neo4j_Resolution
+    - neo4j_Activity
+    - neo4j_Result
+    - neo4j_Task
+    - neo4j_Problem
+    - neo4j_ExperimentFamily
+    - neo4j_Method
+    - neo4j_Metric
+    - neo4j_SourceComponent
+    - neo4j_Innovation
+    - neo4j_Ensemble
+    - neo4j_Platform
+    - neo4j_ObservationalDataset
+    - neo4j_Frequency
+    - neo4j_GridLabel
+    - neo4j_Member
+    - neo4j_SimulationType
+    - neo4j_Continent
+    - neo4j_Weather_Event
+    - neo4j_Model
+    - neo4j_Natural_Hazard
+    - neo4j_City
+    - neo4j_Instrument
+    - neo4j_PhysicalFeature
+    - neo4j_Field
+    - neo4j_Water_Bodies
+    - neo4j_Experiment
+    - neo4j_Country_Subdivision
+    - neo4j_Institute
+    - neo4j_NaturalHazardType
+    - neo4j_Project
   neo4j_names:
+    name: neo4j_names
     range: string
     slot_uri: neo4j:names
+    title: names
+    union_of:
+    - neo4j_Forcing
+    - neo4j_Variable
+    - neo4j_RCM
+    - neo4j_Source
+    - neo4j_SourceType
+    - neo4j_Realm
+    - neo4j_MIPEra
+    - neo4j_Domain
+    - neo4j_SubExperiment
+    - neo4j_Resolution
+    - neo4j_Activity
+    - neo4j_ExperimentFamily
+    - neo4j_Ensemble
+    - neo4j_Frequency
+    - neo4j_GridLabel
+    - neo4j_Member
+    - neo4j_Experiment
+    - neo4j_Institute
+    - neo4j_Project
   neo4j_neighbours:
+    domain: neo4j_Country
+    name: neo4j_neighbours
     range: string
     slot_uri: neo4j:neighbours
+    title: neighbours
   neo4j_north:
+    name: neo4j_north
     range: string
     slot_uri: neo4j:north
+    title: north
+    union_of:
+    - neo4j_Water_Bodies
+    - neo4j_Country
+    - neo4j_Country_Subdivision
   neo4j_paper_id:
+    name: neo4j_paper_id
     range: string
     slot_uri: neo4j:paper_id
+    title: paper_id
+    union_of:
+    - neo4j_Innovation
+    - neo4j_Model
+    - neo4j_Field
+    - neo4j_Task
+    - neo4j_Problem
+    - neo4j_Method
   neo4j_phone:
+    domain: neo4j_Country
+    name: neo4j_phone
     range: string
     slot_uri: neo4j:phone
+    title: phone
   neo4j_population:
+    name: neo4j_population
     range: string
     slot_uri: neo4j:population
+    title: population
+    union_of:
+    - neo4j_No_Country_Region
+    - neo4j_Country
+    - neo4j_City
   neo4j_postal_code_format:
+    domain: neo4j_Country
+    name: neo4j_postal_code_format
     range: string
     slot_uri: neo4j:postal_code_format
+    title: postal_code_format
   neo4j_postal_code_regex:
+    domain: neo4j_Country
+    name: neo4j_postal_code_regex
     range: string
     slot_uri: neo4j:postal_code_regex
+    title: postal_code_regex
   neo4j_rcm_version:
+    domain: neo4j_RCM
+    name: neo4j_rcm_version
     range: string
     slot_uri: neo4j:rcm_version
+    title: rcm_version
   neo4j_south:
+    name: neo4j_south
     range: string
     slot_uri: neo4j:south
+    title: south
+    union_of:
+    - neo4j_Water_Bodies
+    - neo4j_Country
+    - neo4j_Country_Subdivision
   neo4j_timezone:
+    name: neo4j_timezone
     range: string
     slot_uri: neo4j:timezone
+    title: timezone
+    union_of:
+    - neo4j_No_Country_Region
+    - neo4j_City
   neo4j_title:
+    domain: neo4j_Paper
+    name: neo4j_title
     range: string
     slot_uri: neo4j:title
+    title: title
   neo4j_tld:
+    domain: neo4j_Country
+    name: neo4j_tld
     range: string
     slot_uri: neo4j:tld
+    title: tld
   neo4j_uuid:
+    name: neo4j_uuid
     range: string
     slot_uri: neo4j:uuid
+    title: uuid
+    union_of:
+    - neo4j_Forcing
+    - neo4j_Variable
+    - neo4j_Keyword
+    - neo4j_RCM
+    - neo4j_Ocean_Circulation
+    - neo4j_Country
+    - neo4j_Source
+    - neo4j_SourceType
+    - neo4j_PhysicalScheme
+    - neo4j_No_Country_Region
+    - neo4j_Paper
+    - neo4j_Realm
+    - neo4j_MIPEra
+    - neo4j_Domain
+    - neo4j_Teleconnection
+    - neo4j_SubExperiment
+    - neo4j_Resolution
+    - neo4j_Activity
+    - neo4j_Result
+    - neo4j_Task
+    - neo4j_Problem
+    - neo4j_ExperimentFamily
+    - neo4j_Method
+    - neo4j_Metric
+    - neo4j_SourceComponent
+    - neo4j_Innovation
+    - neo4j_Ensemble
+    - neo4j_Platform
+    - neo4j_ObservationalDataset
+    - neo4j_Frequency
+    - neo4j_GridLabel
+    - neo4j_Member
+    - neo4j_SimulationType
+    - neo4j_Continent
+    - neo4j_Weather_Event
+    - neo4j_Model
+    - neo4j_Natural_Hazard
+    - neo4j_City
+    - neo4j_Instrument
+    - neo4j_PhysicalFeature
+    - neo4j_Field
+    - neo4j_Water_Bodies
+    - neo4j_Experiment
+    - neo4j_Country_Subdivision
+    - neo4j_Institute
+    - neo4j_NaturalHazardType
+    - neo4j_Project
   neo4j_variable_long_name:
+    domain: neo4j_Variable
+    name: neo4j_variable_long_name
     range: string
     slot_uri: neo4j:variable_long_name
+    title: variable_long_name
   neo4j_variable_units:
+    domain: neo4j_Variable
+    name: neo4j_variable_units
     range: string
     slot_uri: neo4j:variable_units
+    title: variable_units
   neo4j_west:
+    name: neo4j_west
     range: string
     slot_uri: neo4j:west
+    title: west
+    union_of:
+    - neo4j_Water_Bodies
+    - neo4j_Country
+    - neo4j_Country_Subdivision
 title: climatemodelskg

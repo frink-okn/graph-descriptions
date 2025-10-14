@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_equivalent_fips_code
+# Slot: equivalent_fips_code (neo4j_equivalent_fips_code)
 
 
 
@@ -32,7 +32,7 @@ URI: [neo4j:equivalent_fips_code](neo4j://graph.schema#equivalent_fips_code)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -46,8 +46,10 @@ URI: [neo4j:equivalent_fips_code](neo4j://graph.schema#equivalent_fips_code)
 
 ```yaml
 name: neo4j_equivalent_fips_code
+title: equivalent_fips_code
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: neo4j_Country
 slot_uri: neo4j:equivalent_fips_code
 alias: neo4j_equivalent_fips_code
 domain_of:

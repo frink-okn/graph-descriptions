@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_experiment_title
+# Slot: experiment_title (neo4j_experiment_title)
 
 
 
@@ -32,7 +32,7 @@ URI: [neo4j:experiment_title](neo4j://graph.schema#experiment_title)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -46,8 +46,10 @@ URI: [neo4j:experiment_title](neo4j://graph.schema#experiment_title)
 
 ```yaml
 name: neo4j_experiment_title
+title: experiment_title
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: neo4j_Experiment
 slot_uri: neo4j:experiment_title
 alias: neo4j_experiment_title
 domain_of:

@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_dem
+# Slot: dem (neo4j_dem)
 
 
 
@@ -22,8 +22,8 @@ URI: [neo4j:dem](neo4j://graph.schema#dem)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpsClimatepub4kg.github.ioOntology#City](../classes/HttpsClimatepub4kg.github.ioOntology#City.md) |  |  no  |
 | [HttpsClimatepub4kg.github.ioOntology#NoCountryRegion](../classes/HttpsClimatepub4kg.github.ioOntology#NoCountryRegion.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#City](../classes/HttpsClimatepub4kg.github.ioOntology#City.md) |  |  no  |
 
 
 
@@ -33,7 +33,7 @@ URI: [neo4j:dem](neo4j://graph.schema#dem)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -47,6 +47,7 @@ URI: [neo4j:dem](neo4j://graph.schema#dem)
 
 ```yaml
 name: neo4j_dem
+title: dem
 from_schema: okns:climatepub4-kg
 rank: 1000
 slot_uri: neo4j:dem
@@ -54,6 +55,9 @@ alias: neo4j_dem
 domain_of:
 - https___climatepub4kg.github.io_ontology#City
 - https___climatepub4kg.github.io_ontology#No_Country_Region
+union_of:
+- neo4j_No_Country_Region
+- neo4j_City
 range: string
 
 ```

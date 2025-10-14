@@ -22,8 +22,8 @@ URI: [https://climatepub4kg.github.io/ontology#HAS_SUBSEQUENT_VERSION](https://c
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpsClimatepub4kg.github.ioOntology#SourceComponent](../classes/HttpsClimatepub4kg.github.ioOntology#SourceComponent.md) |  |  no  |
 | [HttpsClimatepub4kg.github.ioOntology#Source](../classes/HttpsClimatepub4kg.github.ioOntology#Source.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#SourceComponent](../classes/HttpsClimatepub4kg.github.ioOntology#SourceComponent.md) |  |  no  |
 
 
 
@@ -33,7 +33,7 @@ URI: [https://climatepub4kg.github.io/ontology#HAS_SUBSEQUENT_VERSION](https://c
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HttpsClimatepub4kg.github.ioOntology#SourceComponent](../classes/HttpsClimatepub4kg.github.ioOntology#SourceComponent.md)&nbsp;or&nbsp;<br />[HttpsClimatepub4kg.github.ioOntology#Source](../classes/HttpsClimatepub4kg.github.ioOntology#Source.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HttpsClimatepub4kg.github.ioOntology#Source](../classes/HttpsClimatepub4kg.github.ioOntology#Source.md)&nbsp;or&nbsp;<br />[HttpsClimatepub4kg.github.ioOntology#SourceComponent](../classes/HttpsClimatepub4kg.github.ioOntology#SourceComponent.md)
 
 
 
@@ -56,8 +56,8 @@ domain_of:
 - https___climatepub4kg.github.io_ontology#SourceComponent
 range: Any
 any_of:
-- range: https___climatepub4kg.github.io_ontology#SourceComponent
 - range: https___climatepub4kg.github.io_ontology#Source
+- range: https___climatepub4kg.github.io_ontology#SourceComponent
 
 ```
 </details>

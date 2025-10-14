@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_currencyname
+# Slot: currencyname (neo4j_currencyname)
 
 
 
@@ -32,7 +32,7 @@ URI: [neo4j:currencyname](neo4j://graph.schema#currencyname)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -46,8 +46,10 @@ URI: [neo4j:currencyname](neo4j://graph.schema#currencyname)
 
 ```yaml
 name: neo4j_currencyname
+title: currencyname
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: neo4j_Country
 slot_uri: neo4j:currencyname
 alias: neo4j_currencyname
 domain_of:

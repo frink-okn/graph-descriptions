@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_tld
+# Slot: tld (neo4j_tld)
 
 
 
@@ -32,7 +32,7 @@ URI: [neo4j:tld](neo4j://graph.schema#tld)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -46,8 +46,10 @@ URI: [neo4j:tld](neo4j://graph.schema#tld)
 
 ```yaml
 name: neo4j_tld
+title: tld
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: neo4j_Country
 slot_uri: neo4j:tld
 alias: neo4j_tld
 domain_of:

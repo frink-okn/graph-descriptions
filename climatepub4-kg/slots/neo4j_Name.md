@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_Name
+# Slot: Name (neo4j_Name)
 
 
 
@@ -32,7 +32,7 @@ URI: [neo4j:Name](neo4j://graph.schema#Name)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -46,8 +46,10 @@ URI: [neo4j:Name](neo4j://graph.schema#Name)
 
 ```yaml
 name: neo4j_Name
+title: Name
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: neo4j_Water_Bodies
 slot_uri: neo4j:Name
 alias: neo4j_Name
 domain_of:

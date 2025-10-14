@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_code
+# Slot: code (neo4j_code)
 
 
 
@@ -32,7 +32,7 @@ URI: [neo4j:code](neo4j://graph.schema#code)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -46,8 +46,10 @@ URI: [neo4j:code](neo4j://graph.schema#code)
 
 ```yaml
 name: neo4j_code
+title: code
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: neo4j_Country_Subdivision
 slot_uri: neo4j:code
 alias: neo4j_code
 domain_of:

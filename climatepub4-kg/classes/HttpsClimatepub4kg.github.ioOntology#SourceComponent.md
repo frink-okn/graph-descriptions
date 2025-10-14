@@ -95,13 +95,13 @@ URI: [https://climatepub4kg.github.io/ontology#SourceComponent](https://climatep
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE](../slots/https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE.md) | 0..1 <br/> [HttpsClimatepub4kg.github.ioOntology#Variable](../classes/HttpsClimatepub4kg.github.ioOntology#Variable.md) |  <br/>  | direct | 28 |
-| [https___climatepub4kg.github.io_ontology#HAS_SUBSEQUENT_VERSION](../slots/https___climatepub4kg.github.io_ontology#HAS_SUBSEQUENT_VERSION.md) | 0..1 <br/> [HttpsClimatepub4kg.github.ioOntology#SourceComponent](../classes/HttpsClimatepub4kg.github.ioOntology#SourceComponent.md)&nbsp;or&nbsp;<br />[HttpsClimatepub4kg.github.ioOntology#Source](../classes/HttpsClimatepub4kg.github.ioOntology#Source.md) |  <br/>  | direct | 43 |
-| [neo4j_added_from_paper_id](../slots/neo4j_added_from_paper_id.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 431 |
-| [https___climatepub4kg.github.io_ontology#HAS_SOURCE_COMPONENT](../slots/https___climatepub4kg.github.io_ontology#HAS_SOURCE_COMPONENT.md) | 0..1 <br/> [HttpsClimatepub4kg.github.ioOntology#SourceComponent](../classes/HttpsClimatepub4kg.github.ioOntology#SourceComponent.md) |  <br/>  | direct | 29 |
-| [neo4j_name](../slots/neo4j_name.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 559 |
-| [neo4j_uuid](../slots/neo4j_uuid.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 559 |
 | [https___climatepub4kg.github.io_ontology#APPLIES_TO_REALM](../slots/https___climatepub4kg.github.io_ontology#APPLIES_TO_REALM.md) | 0..1 <br/> [HttpsClimatepub4kg.github.ioOntology#Realm](../classes/HttpsClimatepub4kg.github.ioOntology#Realm.md) |  <br/>  | direct | 280 |
+| [neo4j_name](../slots/neo4j_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 559 |
+| [neo4j_uuid](../slots/neo4j_uuid.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 559 |
+| [https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE](../slots/https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE.md) | 0..1 <br/> [HttpsClimatepub4kg.github.ioOntology#Variable](../classes/HttpsClimatepub4kg.github.ioOntology#Variable.md) |  <br/>  | direct | 28 |
+| [neo4j_added_from_paper_id](../slots/neo4j_added_from_paper_id.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 431 |
+| [https___climatepub4kg.github.io_ontology#HAS_SUBSEQUENT_VERSION](../slots/https___climatepub4kg.github.io_ontology#HAS_SUBSEQUENT_VERSION.md) | 0..1 <br/> [HttpsClimatepub4kg.github.ioOntology#Source](../classes/HttpsClimatepub4kg.github.ioOntology#Source.md)&nbsp;or&nbsp;<br />[HttpsClimatepub4kg.github.ioOntology#SourceComponent](../classes/HttpsClimatepub4kg.github.ioOntology#SourceComponent.md) |  <br/>  | direct | 43 |
+| [https___climatepub4kg.github.io_ontology#HAS_SOURCE_COMPONENT](../slots/https___climatepub4kg.github.io_ontology#HAS_SOURCE_COMPONENT.md) | 0..1 <br/> [HttpsClimatepub4kg.github.ioOntology#SourceComponent](../classes/HttpsClimatepub4kg.github.ioOntology#SourceComponent.md) |  <br/>  | direct | 29 |
 
 
 
@@ -140,13 +140,13 @@ name: https___climatepub4kg.github.io_ontology#SourceComponent
 from_schema: okns:climatepub4-kg
 rank: 1000
 slots:
-- https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE
-- https___climatepub4kg.github.io_ontology#HAS_SUBSEQUENT_VERSION
-- neo4j_added_from_paper_id
-- https___climatepub4kg.github.io_ontology#HAS_SOURCE_COMPONENT
+- https___climatepub4kg.github.io_ontology#APPLIES_TO_REALM
 - neo4j_name
 - neo4j_uuid
-- https___climatepub4kg.github.io_ontology#APPLIES_TO_REALM
+- https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE
+- neo4j_added_from_paper_id
+- https___climatepub4kg.github.io_ontology#HAS_SUBSEQUENT_VERSION
+- https___climatepub4kg.github.io_ontology#HAS_SOURCE_COMPONENT
 class_uri: https://climatepub4kg.github.io/ontology#SourceComponent
 
 ```
@@ -161,65 +161,21 @@ name: https___climatepub4kg.github.io_ontology#SourceComponent
 from_schema: okns:climatepub4-kg
 rank: 1000
 attributes:
-  https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE:
-    name: https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE
+  https___climatepub4kg.github.io_ontology#APPLIES_TO_REALM:
+    name: https___climatepub4kg.github.io_ontology#APPLIES_TO_REALM
     from_schema: okns:climatepub4-kg
     rank: 1000
-    slot_uri: https://climatepub4kg.github.io/ontology#PRODUCES_VARIABLE
-    alias: https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE
+    slot_uri: https://climatepub4kg.github.io/ontology#APPLIES_TO_REALM
+    alias: https___climatepub4kg.github.io_ontology#APPLIES_TO_REALM
     owner: https___climatepub4kg.github.io_ontology#SourceComponent
     domain_of:
-    - https___climatepub4kg.github.io_ontology#RCM
+    - https___climatepub4kg.github.io_ontology#Experiment
     - https___climatepub4kg.github.io_ontology#Source
     - https___climatepub4kg.github.io_ontology#SourceComponent
-    range: https___climatepub4kg.github.io_ontology#Variable
-  https___climatepub4kg.github.io_ontology#HAS_SUBSEQUENT_VERSION:
-    name: https___climatepub4kg.github.io_ontology#HAS_SUBSEQUENT_VERSION
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    slot_uri: https://climatepub4kg.github.io/ontology#HAS_SUBSEQUENT_VERSION
-    alias: https___climatepub4kg.github.io_ontology#HAS_SUBSEQUENT_VERSION
-    owner: https___climatepub4kg.github.io_ontology#SourceComponent
-    domain_of:
-    - https___climatepub4kg.github.io_ontology#Source
-    - https___climatepub4kg.github.io_ontology#SourceComponent
-    range: Any
-    any_of:
-    - range: https___climatepub4kg.github.io_ontology#SourceComponent
-    - range: https___climatepub4kg.github.io_ontology#Source
-  neo4j_added_from_paper_id:
-    name: neo4j_added_from_paper_id
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    slot_uri: neo4j:added_from_paper_id
-    alias: neo4j_added_from_paper_id
-    owner: https___climatepub4kg.github.io_ontology#SourceComponent
-    domain_of:
-    - https___climatepub4kg.github.io_ontology#Instrument
-    - https___climatepub4kg.github.io_ontology#Metric
-    - https___climatepub4kg.github.io_ontology#Natural_Hazard
-    - https___climatepub4kg.github.io_ontology#Ocean_Circulation
-    - https___climatepub4kg.github.io_ontology#PhysicalFeature
-    - https___climatepub4kg.github.io_ontology#PhysicalScheme
-    - https___climatepub4kg.github.io_ontology#Platform
-    - https___climatepub4kg.github.io_ontology#SimulationType
-    - https___climatepub4kg.github.io_ontology#SourceComponent
-    - https___climatepub4kg.github.io_ontology#Teleconnection
-    - https___climatepub4kg.github.io_ontology#Weather_Event
-    range: string
-  https___climatepub4kg.github.io_ontology#HAS_SOURCE_COMPONENT:
-    name: https___climatepub4kg.github.io_ontology#HAS_SOURCE_COMPONENT
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    slot_uri: https://climatepub4kg.github.io/ontology#HAS_SOURCE_COMPONENT
-    alias: https___climatepub4kg.github.io_ontology#HAS_SOURCE_COMPONENT
-    owner: https___climatepub4kg.github.io_ontology#SourceComponent
-    domain_of:
-    - https___climatepub4kg.github.io_ontology#Source
-    - https___climatepub4kg.github.io_ontology#SourceComponent
-    range: https___climatepub4kg.github.io_ontology#SourceComponent
+    range: https___climatepub4kg.github.io_ontology#Realm
   neo4j_name:
     name: neo4j_name
+    title: name
     from_schema: okns:climatepub4-kg
     rank: 1000
     slot_uri: neo4j:name
@@ -271,9 +227,58 @@ attributes:
     - https___climatepub4kg.github.io_ontology#Variable
     - https___climatepub4kg.github.io_ontology#Water_Bodies
     - https___climatepub4kg.github.io_ontology#Weather_Event
+    union_of:
+    - neo4j_Forcing
+    - neo4j_Variable
+    - neo4j_Keyword
+    - neo4j_RCM
+    - neo4j_Ocean_Circulation
+    - neo4j_Country
+    - neo4j_Source
+    - neo4j_SourceType
+    - neo4j_PhysicalScheme
+    - neo4j_No_Country_Region
+    - neo4j_Paper
+    - neo4j_Realm
+    - neo4j_MIPEra
+    - neo4j_Domain
+    - neo4j_Teleconnection
+    - neo4j_SubExperiment
+    - neo4j_Resolution
+    - neo4j_Activity
+    - neo4j_Result
+    - neo4j_Task
+    - neo4j_Problem
+    - neo4j_ExperimentFamily
+    - neo4j_Method
+    - neo4j_Metric
+    - neo4j_SourceComponent
+    - neo4j_Innovation
+    - neo4j_Ensemble
+    - neo4j_Platform
+    - neo4j_ObservationalDataset
+    - neo4j_Frequency
+    - neo4j_GridLabel
+    - neo4j_Member
+    - neo4j_SimulationType
+    - neo4j_Continent
+    - neo4j_Weather_Event
+    - neo4j_Model
+    - neo4j_Natural_Hazard
+    - neo4j_City
+    - neo4j_Instrument
+    - neo4j_PhysicalFeature
+    - neo4j_Field
+    - neo4j_Water_Bodies
+    - neo4j_Experiment
+    - neo4j_Country_Subdivision
+    - neo4j_Institute
+    - neo4j_NaturalHazardType
+    - neo4j_Project
     range: string
   neo4j_uuid:
     name: neo4j_uuid
+    title: uuid
     from_schema: okns:climatepub4-kg
     rank: 1000
     slot_uri: neo4j:uuid
@@ -325,19 +330,125 @@ attributes:
     - https___climatepub4kg.github.io_ontology#Variable
     - https___climatepub4kg.github.io_ontology#Water_Bodies
     - https___climatepub4kg.github.io_ontology#Weather_Event
+    union_of:
+    - neo4j_Forcing
+    - neo4j_Variable
+    - neo4j_Keyword
+    - neo4j_RCM
+    - neo4j_Ocean_Circulation
+    - neo4j_Country
+    - neo4j_Source
+    - neo4j_SourceType
+    - neo4j_PhysicalScheme
+    - neo4j_No_Country_Region
+    - neo4j_Paper
+    - neo4j_Realm
+    - neo4j_MIPEra
+    - neo4j_Domain
+    - neo4j_Teleconnection
+    - neo4j_SubExperiment
+    - neo4j_Resolution
+    - neo4j_Activity
+    - neo4j_Result
+    - neo4j_Task
+    - neo4j_Problem
+    - neo4j_ExperimentFamily
+    - neo4j_Method
+    - neo4j_Metric
+    - neo4j_SourceComponent
+    - neo4j_Innovation
+    - neo4j_Ensemble
+    - neo4j_Platform
+    - neo4j_ObservationalDataset
+    - neo4j_Frequency
+    - neo4j_GridLabel
+    - neo4j_Member
+    - neo4j_SimulationType
+    - neo4j_Continent
+    - neo4j_Weather_Event
+    - neo4j_Model
+    - neo4j_Natural_Hazard
+    - neo4j_City
+    - neo4j_Instrument
+    - neo4j_PhysicalFeature
+    - neo4j_Field
+    - neo4j_Water_Bodies
+    - neo4j_Experiment
+    - neo4j_Country_Subdivision
+    - neo4j_Institute
+    - neo4j_NaturalHazardType
+    - neo4j_Project
     range: string
-  https___climatepub4kg.github.io_ontology#APPLIES_TO_REALM:
-    name: https___climatepub4kg.github.io_ontology#APPLIES_TO_REALM
+  https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE:
+    name: https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE
     from_schema: okns:climatepub4-kg
     rank: 1000
-    slot_uri: https://climatepub4kg.github.io/ontology#APPLIES_TO_REALM
-    alias: https___climatepub4kg.github.io_ontology#APPLIES_TO_REALM
+    slot_uri: https://climatepub4kg.github.io/ontology#PRODUCES_VARIABLE
+    alias: https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE
     owner: https___climatepub4kg.github.io_ontology#SourceComponent
     domain_of:
-    - https___climatepub4kg.github.io_ontology#Experiment
+    - https___climatepub4kg.github.io_ontology#RCM
     - https___climatepub4kg.github.io_ontology#Source
     - https___climatepub4kg.github.io_ontology#SourceComponent
-    range: https___climatepub4kg.github.io_ontology#Realm
+    range: https___climatepub4kg.github.io_ontology#Variable
+  neo4j_added_from_paper_id:
+    name: neo4j_added_from_paper_id
+    title: added_from_paper_id
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    slot_uri: neo4j:added_from_paper_id
+    alias: neo4j_added_from_paper_id
+    owner: https___climatepub4kg.github.io_ontology#SourceComponent
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#Instrument
+    - https___climatepub4kg.github.io_ontology#Metric
+    - https___climatepub4kg.github.io_ontology#Natural_Hazard
+    - https___climatepub4kg.github.io_ontology#Ocean_Circulation
+    - https___climatepub4kg.github.io_ontology#PhysicalFeature
+    - https___climatepub4kg.github.io_ontology#PhysicalScheme
+    - https___climatepub4kg.github.io_ontology#Platform
+    - https___climatepub4kg.github.io_ontology#SimulationType
+    - https___climatepub4kg.github.io_ontology#SourceComponent
+    - https___climatepub4kg.github.io_ontology#Teleconnection
+    - https___climatepub4kg.github.io_ontology#Weather_Event
+    union_of:
+    - neo4j_SourceComponent
+    - neo4j_Natural_Hazard
+    - neo4j_Platform
+    - neo4j_Instrument
+    - neo4j_PhysicalFeature
+    - neo4j_SimulationType
+    - neo4j_Teleconnection
+    - neo4j_Ocean_Circulation
+    - neo4j_PhysicalScheme
+    - neo4j_Metric
+    - neo4j_Weather_Event
+    range: string
+  https___climatepub4kg.github.io_ontology#HAS_SUBSEQUENT_VERSION:
+    name: https___climatepub4kg.github.io_ontology#HAS_SUBSEQUENT_VERSION
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    slot_uri: https://climatepub4kg.github.io/ontology#HAS_SUBSEQUENT_VERSION
+    alias: https___climatepub4kg.github.io_ontology#HAS_SUBSEQUENT_VERSION
+    owner: https___climatepub4kg.github.io_ontology#SourceComponent
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#Source
+    - https___climatepub4kg.github.io_ontology#SourceComponent
+    range: Any
+    any_of:
+    - range: https___climatepub4kg.github.io_ontology#Source
+    - range: https___climatepub4kg.github.io_ontology#SourceComponent
+  https___climatepub4kg.github.io_ontology#HAS_SOURCE_COMPONENT:
+    name: https___climatepub4kg.github.io_ontology#HAS_SOURCE_COMPONENT
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    slot_uri: https://climatepub4kg.github.io/ontology#HAS_SOURCE_COMPONENT
+    alias: https___climatepub4kg.github.io_ontology#HAS_SOURCE_COMPONENT
+    owner: https___climatepub4kg.github.io_ontology#SourceComponent
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#Source
+    - https___climatepub4kg.github.io_ontology#SourceComponent
+    range: https___climatepub4kg.github.io_ontology#SourceComponent
 class_uri: https://climatepub4kg.github.io/ontology#SourceComponent
 
 ```

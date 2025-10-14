@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_continent
+# Slot: continent (neo4j_continent)
 
 
 
@@ -32,7 +32,7 @@ URI: [neo4j:continent](neo4j://graph.schema#continent)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -46,8 +46,10 @@ URI: [neo4j:continent](neo4j://graph.schema#continent)
 
 ```yaml
 name: neo4j_continent
+title: continent
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: neo4j_Country
 slot_uri: neo4j:continent
 alias: neo4j_continent
 domain_of:

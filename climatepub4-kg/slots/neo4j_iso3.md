@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_iso3
+# Slot: iso3 (neo4j_iso3)
 
 
 
@@ -32,7 +32,7 @@ URI: [neo4j:iso3](neo4j://graph.schema#iso3)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -46,8 +46,10 @@ URI: [neo4j:iso3](neo4j://graph.schema#iso3)
 
 ```yaml
 name: neo4j_iso3
+title: iso3
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: neo4j_Country
 slot_uri: neo4j:iso3
 alias: neo4j_iso3
 domain_of:

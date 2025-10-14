@@ -7,7 +7,7 @@ _Real number._
 
 
 
-URI: [owl:real](owl:real)
+URI: [owl:real](http://www.w3.org/2002/07/owl#real)
 
 * [base](https://w3id.org/linkml/base): Decimal
 

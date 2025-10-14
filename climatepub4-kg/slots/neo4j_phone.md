@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_phone
+# Slot: phone (neo4j_phone)
 
 
 
@@ -32,7 +32,7 @@ URI: [neo4j:phone](neo4j://graph.schema#phone)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -46,8 +46,10 @@ URI: [neo4j:phone](neo4j://graph.schema#phone)
 
 ```yaml
 name: neo4j_phone
+title: phone
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: neo4j_Country
 slot_uri: neo4j:phone
 alias: neo4j_phone
 domain_of:

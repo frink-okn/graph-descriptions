@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_iso
+# Slot: iso (neo4j_iso)
 
 
 
@@ -33,7 +33,7 @@ URI: [neo4j:iso](neo4j://graph.schema#iso)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -47,6 +47,7 @@ URI: [neo4j:iso](neo4j://graph.schema#iso)
 
 ```yaml
 name: neo4j_iso
+title: iso
 from_schema: okns:climatepub4-kg
 rank: 1000
 slot_uri: neo4j:iso
@@ -54,6 +55,9 @@ alias: neo4j_iso
 domain_of:
 - https___climatepub4kg.github.io_ontology#Continent
 - https___climatepub4kg.github.io_ontology#Country
+union_of:
+- neo4j_Country
+- neo4j_Continent
 range: string
 
 ```

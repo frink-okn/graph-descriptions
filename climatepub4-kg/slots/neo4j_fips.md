@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_fips
+# Slot: fips (neo4j_fips)
 
 
 
@@ -32,7 +32,7 @@ URI: [neo4j:fips](neo4j://graph.schema#fips)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -46,8 +46,10 @@ URI: [neo4j:fips](neo4j://graph.schema#fips)
 
 ```yaml
 name: neo4j_fips
+title: fips
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: neo4j_Country
 slot_uri: neo4j:fips
 alias: neo4j_fips
 domain_of:

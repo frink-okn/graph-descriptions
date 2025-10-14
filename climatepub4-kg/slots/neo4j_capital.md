@@ -1,6 +1,6 @@
 
 
-# Slot: neo4j_capital
+# Slot: capital (neo4j_capital)
 
 
 
@@ -32,7 +32,7 @@ URI: [neo4j:capital](neo4j://graph.schema#capital)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -46,8 +46,10 @@ URI: [neo4j:capital](neo4j://graph.schema#capital)
 
 ```yaml
 name: neo4j_capital
+title: capital
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: neo4j_Country
 slot_uri: neo4j:capital
 alias: neo4j_capital
 domain_of:
