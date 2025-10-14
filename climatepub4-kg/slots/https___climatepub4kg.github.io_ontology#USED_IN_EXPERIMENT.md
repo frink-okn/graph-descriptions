@@ -22,8 +22,8 @@ URI: [https://climatepub4kg.github.io/ontology#USED_IN_EXPERIMENT](https://clima
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpsClimatepub4kg.github.ioOntology#RCM](../classes/HttpsClimatepub4kg.github.ioOntology#RCM.md) |  |  no  |
 | [HttpsClimatepub4kg.github.ioOntology#Source](../classes/HttpsClimatepub4kg.github.ioOntology#Source.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#RCM](../classes/HttpsClimatepub4kg.github.ioOntology#RCM.md) |  |  no  |
 
 
 

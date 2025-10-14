@@ -22,8 +22,8 @@ URI: [neo4j:iso](neo4j://graph.schema#iso)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |  |  no  |
 | [HttpsClimatepub4kg.github.ioOntology#Continent](../classes/HttpsClimatepub4kg.github.ioOntology#Continent.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |  |  no  |
 
 
 

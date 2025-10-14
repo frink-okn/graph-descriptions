@@ -22,9 +22,9 @@ URI: [neo4j:east](neo4j://graph.schema#east)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpsClimatepub4kg.github.ioOntology#WaterBodies](../classes/HttpsClimatepub4kg.github.ioOntology#WaterBodies.md) |  |  no  |
-| [HttpsClimatepub4kg.github.ioOntology#CountrySubdivision](../classes/HttpsClimatepub4kg.github.ioOntology#CountrySubdivision.md) |  |  no  |
 | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#CountrySubdivision](../classes/HttpsClimatepub4kg.github.ioOntology#CountrySubdivision.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#WaterBodies](../classes/HttpsClimatepub4kg.github.ioOntology#WaterBodies.md) |  |  no  |
 
 
 
@@ -58,8 +58,8 @@ domain_of:
 - https___climatepub4kg.github.io_ontology#Country_Subdivision
 - https___climatepub4kg.github.io_ontology#Water_Bodies
 union_of:
-- neo4j_Water_Bodies
 - neo4j_Country
+- neo4j_Water_Bodies
 - neo4j_Country_Subdivision
 range: string
 

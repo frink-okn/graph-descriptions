@@ -39,9 +39,9 @@ URI: [neo4j:Variable](neo4j://graph.schema#Variable)
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [HttpsClimatepub4kg.github.ioOntology#Variable](../classes/HttpsClimatepub4kg.github.ioOntology#Variable.md) | [neo4j_variable_long_name](../slots/neo4j_variable_long_name.md) | domain | [Neo4jVariable](../classes/Neo4jVariable.md) |
 | [HttpsClimatepub4kg.github.ioOntology#Variable](../classes/HttpsClimatepub4kg.github.ioOntology#Variable.md) | [neo4j_cf_standard_name](../slots/neo4j_cf_standard_name.md) | domain | [Neo4jVariable](../classes/Neo4jVariable.md) |
 | [HttpsClimatepub4kg.github.ioOntology#Variable](../classes/HttpsClimatepub4kg.github.ioOntology#Variable.md) | [neo4j_variable_units](../slots/neo4j_variable_units.md) | domain | [Neo4jVariable](../classes/Neo4jVariable.md) |
+| [HttpsClimatepub4kg.github.ioOntology#Variable](../classes/HttpsClimatepub4kg.github.ioOntology#Variable.md) | [neo4j_variable_long_name](../slots/neo4j_variable_long_name.md) | domain | [Neo4jVariable](../classes/Neo4jVariable.md) |
 
 
 

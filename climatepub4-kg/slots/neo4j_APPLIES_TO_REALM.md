@@ -43,9 +43,9 @@ rank: 1000
 slot_uri: neo4j:APPLIES_TO_REALM
 alias: neo4j_APPLIES_TO_REALM
 union_of:
+- neo4j_Experiment
 - neo4j_SourceComponent
 - neo4j_Source
-- neo4j_Experiment
 range: neo4j_Realm
 
 ```

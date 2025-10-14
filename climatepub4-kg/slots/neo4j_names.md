@@ -22,24 +22,24 @@ URI: [neo4j:names](neo4j://graph.schema#names)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpsClimatepub4kg.github.ioOntology#Source](../classes/HttpsClimatepub4kg.github.ioOntology#Source.md) |  |  no  |
-| [HttpsClimatepub4kg.github.ioOntology#Ensemble](../classes/HttpsClimatepub4kg.github.ioOntology#Ensemble.md) |  |  no  |
-| [HttpsClimatepub4kg.github.ioOntology#Project](../classes/HttpsClimatepub4kg.github.ioOntology#Project.md) |  |  no  |
-| [HttpsClimatepub4kg.github.ioOntology#Activity](../classes/HttpsClimatepub4kg.github.ioOntology#Activity.md) |  |  no  |
-| [HttpsClimatepub4kg.github.ioOntology#Realm](../classes/HttpsClimatepub4kg.github.ioOntology#Realm.md) |  |  no  |
-| [HttpsClimatepub4kg.github.ioOntology#Domain](../classes/HttpsClimatepub4kg.github.ioOntology#Domain.md) |  |  no  |
-| [HttpsClimatepub4kg.github.ioOntology#ExperimentFamily](../classes/HttpsClimatepub4kg.github.ioOntology#ExperimentFamily.md) |  |  no  |
 | [HttpsClimatepub4kg.github.ioOntology#SubExperiment](../classes/HttpsClimatepub4kg.github.ioOntology#SubExperiment.md) |  |  no  |
-| [HttpsClimatepub4kg.github.ioOntology#Variable](../classes/HttpsClimatepub4kg.github.ioOntology#Variable.md) |  |  no  |
-| [HttpsClimatepub4kg.github.ioOntology#SourceType](../classes/HttpsClimatepub4kg.github.ioOntology#SourceType.md) |  |  no  |
-| [HttpsClimatepub4kg.github.ioOntology#RCM](../classes/HttpsClimatepub4kg.github.ioOntology#RCM.md) |  |  no  |
-| [HttpsClimatepub4kg.github.ioOntology#Institute](../classes/HttpsClimatepub4kg.github.ioOntology#Institute.md) |  |  no  |
-| [HttpsClimatepub4kg.github.ioOntology#MIPEra](../classes/HttpsClimatepub4kg.github.ioOntology#MIPEra.md) |  |  no  |
-| [HttpsClimatepub4kg.github.ioOntology#Frequency](../classes/HttpsClimatepub4kg.github.ioOntology#Frequency.md) |  |  no  |
-| [HttpsClimatepub4kg.github.ioOntology#Resolution](../classes/HttpsClimatepub4kg.github.ioOntology#Resolution.md) |  |  no  |
-| [HttpsClimatepub4kg.github.ioOntology#Experiment](../classes/HttpsClimatepub4kg.github.ioOntology#Experiment.md) |  |  no  |
-| [HttpsClimatepub4kg.github.ioOntology#Member](../classes/HttpsClimatepub4kg.github.ioOntology#Member.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#Source](../classes/HttpsClimatepub4kg.github.ioOntology#Source.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#Domain](../classes/HttpsClimatepub4kg.github.ioOntology#Domain.md) |  |  no  |
 | [HttpsClimatepub4kg.github.ioOntology#Forcing](../classes/HttpsClimatepub4kg.github.ioOntology#Forcing.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#Experiment](../classes/HttpsClimatepub4kg.github.ioOntology#Experiment.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#Ensemble](../classes/HttpsClimatepub4kg.github.ioOntology#Ensemble.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#MIPEra](../classes/HttpsClimatepub4kg.github.ioOntology#MIPEra.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#Member](../classes/HttpsClimatepub4kg.github.ioOntology#Member.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#Activity](../classes/HttpsClimatepub4kg.github.ioOntology#Activity.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#Project](../classes/HttpsClimatepub4kg.github.ioOntology#Project.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#RCM](../classes/HttpsClimatepub4kg.github.ioOntology#RCM.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#Resolution](../classes/HttpsClimatepub4kg.github.ioOntology#Resolution.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#SourceType](../classes/HttpsClimatepub4kg.github.ioOntology#SourceType.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#Variable](../classes/HttpsClimatepub4kg.github.ioOntology#Variable.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#Frequency](../classes/HttpsClimatepub4kg.github.ioOntology#Frequency.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#Realm](../classes/HttpsClimatepub4kg.github.ioOntology#Realm.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#ExperimentFamily](../classes/HttpsClimatepub4kg.github.ioOntology#ExperimentFamily.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#Institute](../classes/HttpsClimatepub4kg.github.ioOntology#Institute.md) |  |  no  |
 
 
 
@@ -88,25 +88,25 @@ domain_of:
 - https___climatepub4kg.github.io_ontology#SubExperiment
 - https___climatepub4kg.github.io_ontology#Variable
 union_of:
+- neo4j_Experiment
+- neo4j_Institute
+- neo4j_Member
+- neo4j_GridLabel
+- neo4j_Project
+- neo4j_Ensemble
+- neo4j_ExperimentFamily
 - neo4j_Forcing
 - neo4j_Variable
 - neo4j_RCM
-- neo4j_Source
-- neo4j_SourceType
-- neo4j_Realm
-- neo4j_MIPEra
 - neo4j_Domain
 - neo4j_SubExperiment
-- neo4j_Resolution
-- neo4j_Activity
-- neo4j_ExperimentFamily
-- neo4j_Ensemble
+- neo4j_MIPEra
 - neo4j_Frequency
-- neo4j_GridLabel
-- neo4j_Member
-- neo4j_Experiment
-- neo4j_Institute
-- neo4j_Project
+- neo4j_Realm
+- neo4j_Activity
+- neo4j_Resolution
+- neo4j_SourceType
+- neo4j_Source
 range: string
 
 ```

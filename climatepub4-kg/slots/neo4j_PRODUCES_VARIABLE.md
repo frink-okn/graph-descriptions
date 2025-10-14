@@ -43,8 +43,8 @@ rank: 1000
 slot_uri: neo4j:PRODUCES_VARIABLE
 alias: neo4j_PRODUCES_VARIABLE
 union_of:
-- neo4j_RCM
 - neo4j_SourceComponent
+- neo4j_RCM
 - neo4j_Source
 range: neo4j_Variable
 

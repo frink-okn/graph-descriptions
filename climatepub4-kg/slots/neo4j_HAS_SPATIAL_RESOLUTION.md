@@ -43,9 +43,9 @@ rank: 1000
 slot_uri: neo4j:HAS_SPATIAL_RESOLUTION
 alias: neo4j_HAS_SPATIAL_RESOLUTION
 union_of:
-- neo4j_Variable
-- neo4j_Source
 - neo4j_Experiment
+- neo4j_Source
+- neo4j_Variable
 range: neo4j_Resolution
 
 ```

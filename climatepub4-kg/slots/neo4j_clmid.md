@@ -1,12 +1,12 @@
 
 
-# Slot: climid (neo4j_climid)
+# Slot: clmid (neo4j_clmid)
 
 
 
 
 
-URI: [neo4j:climid](neo4j://graph.schema#climid)
+URI: [neo4j:clmid](neo4j://graph.schema#clmid)
 
 
 
@@ -34,15 +34,15 @@ URI: [neo4j:climid](neo4j://graph.schema#climid)
 <details>
 
 ```yaml
-name: neo4j_climid
-title: climid
+name: neo4j_clmid
+title: clmid
 notes:
 - No occurrences of this slot in the graph.
 from_schema: okns:climatepub4-kg
 rank: 1000
 domain: neo4j__NsPrefDef
-slot_uri: neo4j:climid
-alias: neo4j_climid
+slot_uri: neo4j:clmid
+alias: neo4j_clmid
 range: string
 
 ```

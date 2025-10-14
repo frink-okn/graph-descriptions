@@ -43,8 +43,8 @@ rank: 1000
 slot_uri: neo4j:IN_COUNTRY
 alias: neo4j_IN_COUNTRY
 union_of:
-- neo4j_Country_Subdivision
 - neo4j_City
+- neo4j_Country_Subdivision
 range: neo4j_Country
 
 ```

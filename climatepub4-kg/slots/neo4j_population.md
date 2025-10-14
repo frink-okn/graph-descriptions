@@ -23,8 +23,8 @@ URI: [neo4j:population](neo4j://graph.schema#population)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [HttpsClimatepub4kg.github.ioOntology#NoCountryRegion](../classes/HttpsClimatepub4kg.github.ioOntology#NoCountryRegion.md) |  |  no  |
-| [HttpsClimatepub4kg.github.ioOntology#City](../classes/HttpsClimatepub4kg.github.ioOntology#City.md) |  |  no  |
 | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#City](../classes/HttpsClimatepub4kg.github.ioOntology#City.md) |  |  no  |
 
 
 
@@ -58,9 +58,9 @@ domain_of:
 - https___climatepub4kg.github.io_ontology#Country
 - https___climatepub4kg.github.io_ontology#No_Country_Region
 union_of:
-- neo4j_No_Country_Region
 - neo4j_Country
 - neo4j_City
+- neo4j_No_Country_Region
 range: string
 
 ```

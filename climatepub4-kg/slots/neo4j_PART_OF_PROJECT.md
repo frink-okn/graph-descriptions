@@ -43,9 +43,9 @@ rank: 1000
 slot_uri: neo4j:PART_OF_PROJECT
 alias: neo4j_PART_OF_PROJECT
 union_of:
+- neo4j_Experiment
 - neo4j_RCM
 - neo4j_Activity
-- neo4j_Experiment
 - neo4j_Source
 range: neo4j_Project
 

@@ -39,8 +39,8 @@ URI: [neo4j:Paper](neo4j://graph.schema#Paper)
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [HttpsClimatepub4kg.github.ioOntology#Paper](../classes/HttpsClimatepub4kg.github.ioOntology#Paper.md) | [neo4j_title](../slots/neo4j_title.md) | domain | [Neo4jPaper](../classes/Neo4jPaper.md) |
 | [HttpsClimatepub4kg.github.ioOntology#Paper](../classes/HttpsClimatepub4kg.github.ioOntology#Paper.md) | [neo4j_id](../slots/neo4j_id.md) | domain | [Neo4jPaper](../classes/Neo4jPaper.md) |
+| [HttpsClimatepub4kg.github.ioOntology#Paper](../classes/HttpsClimatepub4kg.github.ioOntology#Paper.md) | [neo4j_title](../slots/neo4j_title.md) | domain | [Neo4jPaper](../classes/Neo4jPaper.md) |
 
 
 

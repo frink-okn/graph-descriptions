@@ -58,9 +58,9 @@ domain_of:
 - https___climatepub4kg.github.io_ontology#Country_Subdivision
 - https___climatepub4kg.github.io_ontology#No_Country_Region
 union_of:
-- neo4j_No_Country_Region
-- neo4j_Country_Subdivision
 - neo4j_City
+- neo4j_Country_Subdivision
+- neo4j_No_Country_Region
 range: string
 
 ```
