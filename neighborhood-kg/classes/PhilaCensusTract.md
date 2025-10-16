@@ -1,12 +1,11 @@
 
 
-# Class: No class (type) name specified (phila_CensusTract)
-
-
-_No class (type) description specified_
+# Class: PhilaCensusTract
 
 
 
+
+This class occurs 361 times.
 
 
 URI: [phila:CensusTract](https://metadata.phila.gov/CensusTract)
@@ -31,8 +30,8 @@ URI: [phila:CensusTract](https://metadata.phila.gov/CensusTract)
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
 
 
 
@@ -50,23 +49,6 @@ URI: [phila:CensusTract](https://metadata.phila.gov/CensusTract)
 
 
 
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | phila:CensusTract |
-| native | neighborhood-information-kg/:PhilaCensusTract |
-
-
 
 
 
@@ -79,13 +61,10 @@ URI: [phila:CensusTract](https://metadata.phila.gov/CensusTract)
 ### Direct
 
 <details>
+
 ```yaml
 name: phila_CensusTract
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (type) name specified
-notes:
-- Class with 361 occurrences.
+from_schema: okns:neighborhood-kg
 rank: 1000
 class_uri: phila:CensusTract
 
@@ -95,13 +74,10 @@ class_uri: phila:CensusTract
 ### Induced
 
 <details>
+
 ```yaml
 name: phila_CensusTract
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (type) name specified
-notes:
-- Class with 361 occurrences.
+from_schema: okns:neighborhood-kg
 rank: 1000
 class_uri: phila:CensusTract
 
