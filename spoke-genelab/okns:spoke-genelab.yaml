@@ -1,0 +1,2742 @@
+name: spoke-genelab
+annotations:
+  counts:
+    tag: counts
+    value:
+      classes:
+        tag: classes
+        value:
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+            value: 8
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+            value: 5663
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission
+            value: 23
+          https://w3id.org/biolink/vocab/AnatomicalEntity:
+            tag: https://w3id.org/biolink/vocab/AnatomicalEntity
+            value: 33
+          https://w3id.org/biolink/vocab/Cell:
+            tag: https://w3id.org/biolink/vocab/Cell
+            value: 7
+          https://w3id.org/biolink/vocab/Gene:
+            tag: https://w3id.org/biolink/vocab/Gene
+            value: 59756
+          https://w3id.org/biolink/vocab/Study:
+            tag: https://w3id.org/biolink/vocab/Study
+            value: 140
+          obo:OBI_0000070:
+            tag: obo:OBI_0000070
+            value: 6467
+          rdf:Statement:
+            tag: rdf:Statement
+            value: 13218225
+      pairs:
+        tag: pairs
+        value:
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/CONDUCTED_MIcS:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/CONDUCTED_MIcS
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission
+                value:
+                  https://w3id.org/biolink/vocab/Study:
+                    tag: https://w3id.org/biolink/vocab/Study
+                    value: 86
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/INVESTIGATED_ASiA:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/INVESTIGATED_ASiA
+            value:
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  https://w3id.org/biolink/vocab/AnatomicalEntity:
+                    tag: https://w3id.org/biolink/vocab/AnatomicalEntity
+                    value: 5033
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/INVESTIGATED_ASiCT:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/INVESTIGATED_ASiCT
+            value:
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  https://w3id.org/biolink/vocab/Cell:
+                    tag: https://w3id.org/biolink/vocab/Cell
+                    value: 1134
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/IS_ORTHOLOG_MGiG:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/IS_ORTHOLOG_MGiG
+            value:
+              https://w3id.org/biolink/vocab/Gene:
+                tag: https://w3id.org/biolink/vocab/Gene
+                value:
+                  https://w3id.org/biolink/vocab/Gene:
+                    tag: https://w3id.org/biolink/vocab/Gene
+                    value: 57492
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/MEASURED_DIFFERENTIAL_EXPRESSION_ASmMG:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MEASURED_DIFFERENTIAL_EXPRESSION_ASmMG
+            value:
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  https://w3id.org/biolink/vocab/Gene:
+                    tag: https://w3id.org/biolink/vocab/Gene
+                    value: 13208662
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/MEASURED_DIFFERENTIAL_METHYLATION_ASmMR:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MEASURED_DIFFERENTIAL_METHYLATION_ASmMR
+            value:
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                    tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                    value: 9555
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/METHYLATED_IN_MGmMR:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/METHYLATED_IN_MGmMR
+            value:
+              https://w3id.org/biolink/vocab/Gene:
+                tag: https://w3id.org/biolink/vocab/Gene
+                value:
+                  https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                    tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                    value: 5694
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaRelationship:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaRelationship
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                    tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                    value: 8
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/PERFORMED_SpAS:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/PERFORMED_SpAS
+            value:
+              https://w3id.org/biolink/vocab/Study:
+                tag: https://w3id.org/biolink/vocab/Study
+                value:
+                  obo:OBI_0000070:
+                    tag: obo:OBI_0000070
+                    value: 6467
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/adj_p_value:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/adj_p_value
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  double:
+                    tag: double
+                    value: 13208663
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 1
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                value:
+                  uri:
+                    tag: uri
+                    value: 5663
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/dist_to_feature:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/dist_to_feature
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  integer:
+                    tag: integer
+                    value: 1
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                value:
+                  integer:
+                    tag: integer
+                    value: 5663
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/end:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/end
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  integer:
+                    tag: integer
+                    value: 1
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                value:
+                  integer:
+                    tag: integer
+                    value: 5663
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/end_date:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/end_date
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  date:
+                    tag: date
+                    value: 1
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission
+                value:
+                  date:
+                    tag: date
+                    value: 22
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/factor_space_1:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/factor_space_1
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 1
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value: 3019
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/factor_space_2:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/factor_space_2
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 1
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value: 3103
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/factors_1:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/factors_1
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 1
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value: 17069
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/factors_2:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/factors_2
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 1
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value: 17641
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/flight_program:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/flight_program
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 1
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission
+                value:
+                  string:
+                    tag: string
+                    value: 21
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/from:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/from
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  string:
+                    tag: string
+                    value: 8
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/in_exon:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/in_exon
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  boolean:
+                    tag: boolean
+                    value: 1
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                value:
+                  boolean:
+                    tag: boolean
+                    value: 5663
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/in_intron:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/in_intron
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  boolean:
+                    tag: boolean
+                    value: 1
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                value:
+                  boolean:
+                    tag: boolean
+                    value: 5663
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/in_promoter:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/in_promoter
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  boolean:
+                    tag: boolean
+                    value: 1
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                value:
+                  boolean:
+                    tag: boolean
+                    value: 5663
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/log2fc:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/log2fc
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  double:
+                    tag: double
+                    value: 13208663
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/material_1:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_1
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 1
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value: 6467
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/material_2:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_2
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 1
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value: 6467
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/material_id_1:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_id_1
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 1
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  https://w3id.org/biolink/vocab/AnatomicalEntity:
+                    tag: https://w3id.org/biolink/vocab/AnatomicalEntity
+                    value: 5031
+                  https://w3id.org/biolink/vocab/Cell:
+                    tag: https://w3id.org/biolink/vocab/Cell
+                    value: 1132
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/material_id_2:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_id_2
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 1
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  https://w3id.org/biolink/vocab/AnatomicalEntity:
+                    tag: https://w3id.org/biolink/vocab/AnatomicalEntity
+                    value: 5031
+                  https://w3id.org/biolink/vocab/Cell:
+                    tag: https://w3id.org/biolink/vocab/Cell
+                    value: 1132
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/material_name_1:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_name_1
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 1
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value: 6163
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/material_name_2:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_name_2
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 1
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value: 6163
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/measurement:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/measurement
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 1
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value: 6467
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/methylation_diff:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/methylation_diff
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  double:
+                    tag: double
+                    value: 9556
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/organism:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/organism
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 2
+              https://w3id.org/biolink/vocab/Gene:
+                tag: https://w3id.org/biolink/vocab/Gene
+                value:
+                  string:
+                    tag: string
+                    value: 58649
+              https://w3id.org/biolink/vocab/Study:
+                tag: https://w3id.org/biolink/vocab/Study
+                value:
+                  string:
+                    tag: string
+                    value: 140
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/project_title:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/project_title
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 1
+              https://w3id.org/biolink/vocab/Study:
+                tag: https://w3id.org/biolink/vocab/Study
+                value:
+                  string:
+                    tag: string
+                    value: 76
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/project_type:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/project_type
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 1
+              https://w3id.org/biolink/vocab/Study:
+                tag: https://w3id.org/biolink/vocab/Study
+                value:
+                  string:
+                    tag: string
+                    value: 140
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/q_value:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/q_value
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  double:
+                    tag: double
+                    value: 9556
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/space_program:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/space_program
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 1
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission
+                value:
+                  string:
+                    tag: string
+                    value: 23
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/start:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/start
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  integer:
+                    tag: integer
+                    value: 1
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                value:
+                  integer:
+                    tag: integer
+                    value: 5663
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/start_date:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/start_date
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  date:
+                    tag: date
+                    value: 1
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission
+                value:
+                  date:
+                    tag: date
+                    value: 23
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/symbol:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/symbol
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 1
+              https://w3id.org/biolink/vocab/Gene:
+                tag: https://w3id.org/biolink/vocab/Gene
+                value:
+                  string:
+                    tag: string
+                    value: 58649
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/taxonomy:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/taxonomy
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 2
+              https://w3id.org/biolink/vocab/Gene:
+                tag: https://w3id.org/biolink/vocab/Gene
+                value:
+                  uri:
+                    tag: uri
+                    value: 58649
+              https://w3id.org/biolink/vocab/Study:
+                tag: https://w3id.org/biolink/vocab/Study
+                value:
+                  uri:
+                    tag: uri
+                    value: 140
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/technology:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/technology
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 1
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value: 6467
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/to:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/to
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  string:
+                    tag: string
+                    value: 8
+          rdf:object:
+            tag: rdf:object
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                    tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                    value: 8
+                  https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                    tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                    value: 9555
+                  https://w3id.org/biolink/vocab/Gene:
+                    tag: https://w3id.org/biolink/vocab/Gene
+                    value: 13208662
+          rdf:predicate:
+            tag: rdf:predicate
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  uri:
+                    tag: uri
+                    value: 13218225
+          rdf:subject:
+            tag: rdf:subject
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                    tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                    value: 8
+                  obo:OBI_0000070:
+                    tag: obo:OBI_0000070
+                    value: 13218217
+          rdfs:comment:
+            tag: rdfs:comment
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 1
+              https://w3id.org/biolink/vocab/Study:
+                tag: https://w3id.org/biolink/vocab/Study
+                value:
+                  string:
+                    tag: string
+                    value: 140
+          rdfs:label:
+            tag: rdfs:label
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value: 13
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                value:
+                  string:
+                    tag: string
+                    value: 5663
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission
+                value:
+                  string:
+                    tag: string
+                    value: 23
+              https://w3id.org/biolink/vocab/Gene:
+                tag: https://w3id.org/biolink/vocab/Gene
+                value:
+                  string:
+                    tag: string
+                    value: 58649
+              https://w3id.org/biolink/vocab/Study:
+                tag: https://w3id.org/biolink/vocab/Study
+                value:
+                  string:
+                    tag: string
+                    value: 140
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value: 6467
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  string:
+                    tag: string
+                    value: 8
+      slots:
+        tag: slots
+        value:
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/CONDUCTED_MIcS:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/CONDUCTED_MIcS
+            value: 86
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/INVESTIGATED_ASiA:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/INVESTIGATED_ASiA
+            value: 5033
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/INVESTIGATED_ASiCT:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/INVESTIGATED_ASiCT
+            value: 1134
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/IS_ORTHOLOG_MGiG:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/IS_ORTHOLOG_MGiG
+            value: 57492
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/MEASURED_DIFFERENTIAL_EXPRESSION_ASmMG:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MEASURED_DIFFERENTIAL_EXPRESSION_ASmMG
+            value: 13208662
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/MEASURED_DIFFERENTIAL_METHYLATION_ASmMR:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MEASURED_DIFFERENTIAL_METHYLATION_ASmMR
+            value: 9555
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/METHYLATED_IN_MGmMR:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/METHYLATED_IN_MGmMR
+            value: 5694
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaRelationship:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaRelationship
+            value: 8
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/PERFORMED_SpAS:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/PERFORMED_SpAS
+            value: 6467
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/adj_p_value:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/adj_p_value
+            value: 13208663
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome
+            value: 5664
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/dist_to_feature:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/dist_to_feature
+            value: 5664
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/end:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/end
+            value: 5664
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/end_date:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/end_date
+            value: 23
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/factor_space_1:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/factor_space_1
+            value: 3020
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/factor_space_2:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/factor_space_2
+            value: 3104
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/factors_1:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/factors_1
+            value: 17070
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/factors_2:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/factors_2
+            value: 17642
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/flight_program:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/flight_program
+            value: 22
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/from:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/from
+            value: 8
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/in_exon:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/in_exon
+            value: 5664
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/in_intron:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/in_intron
+            value: 5664
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/in_promoter:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/in_promoter
+            value: 5664
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/log2fc:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/log2fc
+            value: 13208663
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/material_1:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_1
+            value: 6468
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/material_2:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_2
+            value: 6468
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/material_id_1:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_id_1
+            value: 6164
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/material_id_2:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_id_2
+            value: 6164
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/material_name_1:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_name_1
+            value: 6164
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/material_name_2:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_name_2
+            value: 6164
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/measurement:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/measurement
+            value: 6468
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/methylation_diff:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/methylation_diff
+            value: 9556
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/organism:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/organism
+            value: 58791
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/project_title:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/project_title
+            value: 77
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/project_type:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/project_type
+            value: 141
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/q_value:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/q_value
+            value: 9556
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/space_program:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/space_program
+            value: 24
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/start:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/start
+            value: 5664
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/start_date:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/start_date
+            value: 24
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/symbol:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/symbol
+            value: 58650
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/taxonomy:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/taxonomy
+            value: 58791
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/technology:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/technology
+            value: 6468
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/to:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/to
+            value: 8
+          rdf:object:
+            tag: rdf:object
+            value: 13218225
+          rdf:predicate:
+            tag: rdf:predicate
+            value: 13218225
+          rdf:subject:
+            tag: rdf:subject
+            value: 13218225
+          rdfs:comment:
+            tag: rdfs:comment
+            value: 141
+          rdfs:label:
+            tag: rdfs:label
+            value: 70963
+  examples:
+    tag: examples
+    value:
+      classes:
+        tag: classes
+        value:
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+            value: https://purl.org/okn/frink/kg/spoke-genelab/node/35726
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+            value: https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome/Y/90755001-90756000
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission
+            value: https://purl.org/okn/frink/kg/spoke-genelab/node/SpaceX-9
+          https://w3id.org/biolink/vocab/AnatomicalEntity:
+            tag: https://w3id.org/biolink/vocab/AnatomicalEntity
+            value: obo:UBERON_0014890
+          https://w3id.org/biolink/vocab/Cell:
+            tag: https://w3id.org/biolink/vocab/Cell
+            value: obo:CL_4030029
+          https://w3id.org/biolink/vocab/Gene:
+            tag: https://w3id.org/biolink/vocab/Gene
+            value: http://www.ncbi.nlm.nih.gov/gene/790909
+          https://w3id.org/biolink/vocab/Study:
+            tag: https://w3id.org/biolink/vocab/Study
+            value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-93
+          obo:OBI_0000070:
+            tag: obo:OBI_0000070
+            value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-99-ab33086c2ee774bc549a316600eba379
+          rdf:Statement:
+            tag: rdf:Statement
+            value: https://purl.org/okn/frink/kg/spoke-genelab/relationship/999999
+      pairs:
+        tag: pairs
+        value:
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/CONDUCTED_MIcS:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/CONDUCTED_MIcS
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission
+                value:
+                  https://w3id.org/biolink/vocab/Study:
+                    tag: https://w3id.org/biolink/vocab/Study
+                    value:
+                      object:
+                        tag: object
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-13
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/CONDUCTED_MIcS
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/Expedition-14
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/INVESTIGATED_ASiA:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/INVESTIGATED_ASiA
+            value:
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  https://w3id.org/biolink/vocab/AnatomicalEntity:
+                    tag: https://w3id.org/biolink/vocab/AnatomicalEntity
+                    value:
+                      object:
+                        tag: object
+                        value: obo:UBERON_0004548
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/INVESTIGATED_ASiA
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100-f1b7f0b93f8d28bc606c5c1127f2d7c9
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/INVESTIGATED_ASiCT:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/INVESTIGATED_ASiCT
+            value:
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  https://w3id.org/biolink/vocab/Cell:
+                    tag: https://w3id.org/biolink/vocab/Cell
+                    value:
+                      object:
+                        tag: object
+                        value: obo:CL_0000000
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/INVESTIGATED_ASiCT
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-109-09d1a627e89b968e6af5f5dae2d13cfb
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/IS_ORTHOLOG_MGiG:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/IS_ORTHOLOG_MGiG
+            value:
+              https://w3id.org/biolink/vocab/Gene:
+                tag: https://w3id.org/biolink/vocab/Gene
+                value:
+                  https://w3id.org/biolink/vocab/Gene:
+                    tag: https://w3id.org/biolink/vocab/Gene
+                    value:
+                      object:
+                        tag: object
+                        value: http://www.ncbi.nlm.nih.gov/gene/1
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/IS_ORTHOLOG_MGiG
+                      subject:
+                        tag: subject
+                        value: http://www.ncbi.nlm.nih.gov/gene/1
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/MEASURED_DIFFERENTIAL_EXPRESSION_ASmMG:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MEASURED_DIFFERENTIAL_EXPRESSION_ASmMG
+            value:
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  https://w3id.org/biolink/vocab/Gene:
+                    tag: https://w3id.org/biolink/vocab/Gene
+                    value:
+                      object:
+                        tag: object
+                        value: http://www.ncbi.nlm.nih.gov/gene/100038882
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/MEASURED_DIFFERENTIAL_EXPRESSION_ASmMG
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100-f1b7f0b93f8d28bc606c5c1127f2d7c9
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/MEASURED_DIFFERENTIAL_METHYLATION_ASmMR:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MEASURED_DIFFERENTIAL_METHYLATION_ASmMR
+            value:
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                    tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                    value:
+                      object:
+                        tag: object
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome/1/120523001-120524000
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/MEASURED_DIFFERENTIAL_METHYLATION_ASmMR
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-103-fc4f2bf1889cf5f1db0464b0d6eed50f
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/METHYLATED_IN_MGmMR:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/METHYLATED_IN_MGmMR
+            value:
+              https://w3id.org/biolink/vocab/Gene:
+                tag: https://w3id.org/biolink/vocab/Gene
+                value:
+                  https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                    tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                    value:
+                      object:
+                        tag: object
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome/4/134482001-134483000
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/METHYLATED_IN_MGmMR
+                      subject:
+                        tag: subject
+                        value: http://www.ncbi.nlm.nih.gov/gene/100017
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaRelationship:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaRelationship
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                    tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                    value:
+                      object:
+                        tag: object
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35719
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaRelationship
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35720
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/PERFORMED_SpAS:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/PERFORMED_SpAS
+            value:
+              https://w3id.org/biolink/vocab/Study:
+                tag: https://w3id.org/biolink/vocab/Study
+                value:
+                  obo:OBI_0000070:
+                    tag: obo:OBI_0000070
+                    value:
+                      object:
+                        tag: object
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100-f1b7f0b93f8d28bc606c5c1127f2d7c9
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/PERFORMED_SpAS
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/adj_p_value:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/adj_p_value
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  double:
+                    tag: double
+                    value:
+                      object:
+                        tag: object
+                        value: '0.0114506370854228'
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/adj_p_value
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/relationship/0
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Name or number of the chromosome (string)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35724
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome/1
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome/1/105965001-105966000
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/dist_to_feature:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/dist_to_feature
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  integer:
+                    tag: integer
+                    value:
+                      object:
+                        tag: object
+                        value: Distance to feature (int)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/dist_to_feature
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35724
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                value:
+                  integer:
+                    tag: integer
+                    value:
+                      object:
+                        tag: object
+                        value: '25529'
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/dist_to_feature
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome/1/105965001-105966000
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/end:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/end
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  integer:
+                    tag: integer
+                    value:
+                      object:
+                        tag: object
+                        value: Ending base pair position (int)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/end
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35724
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                value:
+                  integer:
+                    tag: integer
+                    value:
+                      object:
+                        tag: object
+                        value: '105966000'
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/end
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome/1/105965001-105966000
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/end_date:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/end_date
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  date:
+                    tag: date
+                    value:
+                      object:
+                        tag: object
+                        value: End date of mission (date)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/end_date
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35725
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission
+                value:
+                  date:
+                    tag: date
+                    value:
+                      object:
+                        tag: object
+                        value: '2007-04-21'
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/end_date
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/Expedition-14
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/factor_space_1:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/factor_space_1
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 'Primary experimental grouping for samples used the
+                          in assay, indicating whether it was exposed to Space Flight
+                          or maintained under control conditions: Ground Control,
+                          Basal Control, or Vivarium Control (string)'
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/factor_space_1
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35720
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Space Flight
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/factor_space_1
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100-f1b7f0b93f8d28bc606c5c1127f2d7c9
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/factor_space_2:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/factor_space_2
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 'Secondary experimental grouping for samples used in
+                          the assay, indicating whether it was exposed to Space Flight
+                          or maintained under control conditions: Ground Control,
+                          Basal Control, or Vivarium Control (string)'
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/factor_space_2
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35720
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Ground Control
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/factor_space_2
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100-f1b7f0b93f8d28bc606c5c1127f2d7c9
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/factors_1:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/factors_1
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Primary experimental factor(s) applied at the assay
+                          level (independent variables intentionally varied by the
+                          investigator); often corresponds to study-level design (e.g.,
+                          Ground Control). Additional factors (e.g., dose, time point,
+                          sex, strain) may also be included. (string[])
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/factors_1
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35720
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Space Flight
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/factors_1
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100-f1b7f0b93f8d28bc606c5c1127f2d7c9
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/factors_2:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/factors_2
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Secondary experimental factor(s) for this assay, typically
+                          the comparative group(s) in analysis connecting this assay
+                          to differential conditions (e.g., Space Flight). (string[])
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/factors_2
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35720
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Ground Control
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/factors_2
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100-f1b7f0b93f8d28bc606c5c1127f2d7c9
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/flight_program:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/flight_program
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Type of flight program (string)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/flight_program
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35725
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: International Space Station (ISS)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/flight_program
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/Expedition-14
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/from:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/from
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Unique assay identifier combining GeneLab dataset accession
+                          and MD5 hash of metadata (links assay to dataset and ensures
+                          version integrity) (string)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/from
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/relationship/1152924803141766024
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/in_exon:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/in_exon
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  boolean:
+                    tag: boolean
+                    value:
+                      object:
+                        tag: object
+                        value: 'false'
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/in_exon
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35724
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                value:
+                  boolean:
+                    tag: boolean
+                    value:
+                      object:
+                        tag: object
+                        value: 'false'
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/in_exon
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome/1/105965001-105966000
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/in_intron:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/in_intron
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  boolean:
+                    tag: boolean
+                    value:
+                      object:
+                        tag: object
+                        value: 'false'
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/in_intron
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35724
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                value:
+                  boolean:
+                    tag: boolean
+                    value:
+                      object:
+                        tag: object
+                        value: 'false'
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/in_intron
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome/1/105965001-105966000
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/in_promoter:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/in_promoter
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  boolean:
+                    tag: boolean
+                    value:
+                      object:
+                        tag: object
+                        value: 'false'
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/in_promoter
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35724
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                value:
+                  boolean:
+                    tag: boolean
+                    value:
+                      object:
+                        tag: object
+                        value: 'false'
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/in_promoter
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome/1/105965001-105966000
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/log2fc:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/log2fc
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  double:
+                    tag: double
+                    value:
+                      object:
+                        tag: object
+                        value: '0.560213587783421'
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/log2fc
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/relationship/0
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/material_1:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_1
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Biological material analyzed in the first assay group
+                          (e.g., tissue, cell type, organ) (string)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_1
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35720
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: left eye
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_1
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100-f1b7f0b93f8d28bc606c5c1127f2d7c9
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/material_2:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_2
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Biological material analyzed in the second assay group
+                          (e.g., tissue, cell type, organ) (string)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_2
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35720
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: left eye
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_2
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100-f1b7f0b93f8d28bc606c5c1127f2d7c9
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/material_id_1:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_id_1
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Controlled ontology identifier for the first material
+                          (e.g., UBERON code) (string)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_id_1
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35720
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  https://w3id.org/biolink/vocab/AnatomicalEntity:
+                    tag: https://w3id.org/biolink/vocab/AnatomicalEntity
+                    value:
+                      object:
+                        tag: object
+                        value: obo:UBERON_0004548
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_id_1
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100-f1b7f0b93f8d28bc606c5c1127f2d7c9
+                  https://w3id.org/biolink/vocab/Cell:
+                    tag: https://w3id.org/biolink/vocab/Cell
+                    value:
+                      object:
+                        tag: object
+                        value: obo:CL_0000000
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_id_1
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-109-09d1a627e89b968e6af5f5dae2d13cfb
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/material_id_2:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_id_2
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Controlled ontology identifier for the second material
+                          (e.g., UBERON code) (string)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_id_2
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35720
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  https://w3id.org/biolink/vocab/AnatomicalEntity:
+                    tag: https://w3id.org/biolink/vocab/AnatomicalEntity
+                    value:
+                      object:
+                        tag: object
+                        value: obo:UBERON_0004548
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_id_2
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100-f1b7f0b93f8d28bc606c5c1127f2d7c9
+                  https://w3id.org/biolink/vocab/Cell:
+                    tag: https://w3id.org/biolink/vocab/Cell
+                    value:
+                      object:
+                        tag: object
+                        value: obo:CL_0000000
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_id_2
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-109-09d1a627e89b968e6af5f5dae2d13cfb
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/material_name_1:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_name_1
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Preferred ontology-based name for the first material
+                          (e.g., UBERON term) (string)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_name_1
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35720
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: left eye
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_name_1
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100-f1b7f0b93f8d28bc606c5c1127f2d7c9
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/material_name_2:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_name_2
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Preferred ontology-based name for the second material
+                          (e.g., UBERON term) (string)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_name_2
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35720
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: left eye
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_name_2
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100-f1b7f0b93f8d28bc606c5c1127f2d7c9
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/measurement:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/measurement
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Type of data produced by the assay, describing the
+                          focus of the analysis (string)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/measurement
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35720
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: transcription profiling
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/measurement
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100-f1b7f0b93f8d28bc606c5c1127f2d7c9
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/methylation_diff:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/methylation_diff
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  double:
+                    tag: double
+                    value:
+                      object:
+                        tag: object
+                        value: '8.67184609692934'
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/methylation_diff
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/relationship/1152921504606847050
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/organism:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/organism
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: NCBI scientifc name for the model organism (string)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/organism
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35723
+              https://w3id.org/biolink/vocab/Gene:
+                tag: https://w3id.org/biolink/vocab/Gene
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Homo sapiens
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/organism
+                      subject:
+                        tag: subject
+                        value: http://www.ncbi.nlm.nih.gov/gene/1
+              https://w3id.org/biolink/vocab/Study:
+                tag: https://w3id.org/biolink/vocab/Study
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Mus musculus
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/organism
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/project_title:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/project_title
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Title of project (string)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/project_title
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35726
+              https://w3id.org/biolink/vocab/Study:
+                tag: https://w3id.org/biolink/vocab/Study
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Rodent Research 1
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/project_title
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/project_type:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/project_type
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Type of project (string)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/project_type
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35726
+              https://w3id.org/biolink/vocab/Study:
+                tag: https://w3id.org/biolink/vocab/Study
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Spaceflight Study
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/project_type
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/q_value:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/q_value
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  double:
+                    tag: double
+                    value:
+                      object:
+                        tag: object
+                        value: '0.0020305621117591'
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/q_value
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/relationship/1152921504606847050
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/space_program:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/space_program
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Sponsor of the mission (string)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/space_program
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35725
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: NASA
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/space_program
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/Expedition-14
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/start:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/start
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  integer:
+                    tag: integer
+                    value:
+                      object:
+                        tag: object
+                        value: Starting base pair position (int)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/start
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35724
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                value:
+                  integer:
+                    tag: integer
+                    value:
+                      object:
+                        tag: object
+                        value: '105965001'
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/start
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome/1/105965001-105966000
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/start_date:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/start_date
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  date:
+                    tag: date
+                    value:
+                      object:
+                        tag: object
+                        value: Start date of mission (date)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/start_date
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35725
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission
+                value:
+                  date:
+                    tag: date
+                    value:
+                      object:
+                        tag: object
+                        value: '2006-09-18'
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/start_date
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/Expedition-14
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/symbol:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/symbol
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Gene symbol for model organism (string)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/symbol
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35723
+              https://w3id.org/biolink/vocab/Gene:
+                tag: https://w3id.org/biolink/vocab/Gene
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: A1BG
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/symbol
+                      subject:
+                        tag: subject
+                        value: http://www.ncbi.nlm.nih.gov/gene/1
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/taxonomy:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/taxonomy
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: NCBI taxonomy id for the model organism (string)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/taxonomy
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35723
+              https://w3id.org/biolink/vocab/Gene:
+                tag: https://w3id.org/biolink/vocab/Gene
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: obo:NCBITaxon_9606
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/taxonomy
+                      subject:
+                        tag: subject
+                        value: http://www.ncbi.nlm.nih.gov/gene/1
+              https://w3id.org/biolink/vocab/Study:
+                tag: https://w3id.org/biolink/vocab/Study
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: obo:NCBITaxon_10090
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/taxonomy
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/technology:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/technology
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Platform or method used to generate assay data (e.g.,
+                          sequencing platform, mass spectrometry, imaging) (string)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/technology
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35720
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: RNA Sequencing (RNA-Seq)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/technology
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100-f1b7f0b93f8d28bc606c5c1127f2d7c9
+          https://purl.org/okn/frink/kg/spoke-genelab/schema/to:
+            tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/to
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: UBERON Ontology ID (string)
+                      predicate:
+                        tag: predicate
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/to
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/relationship/1152924803141766024
+          rdf:object:
+            tag: rdf:object
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                    tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                    value:
+                      object:
+                        tag: object
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35719
+                      predicate:
+                        tag: predicate
+                        value: rdf:object
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/relationship/1152924803141766024
+                  https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                    tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                    value:
+                      object:
+                        tag: object
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome/1/17167001-17168000
+                      predicate:
+                        tag: predicate
+                        value: rdf:object
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/relationship/1152921504606847050
+                  https://w3id.org/biolink/vocab/Gene:
+                    tag: https://w3id.org/biolink/vocab/Gene
+                    value:
+                      object:
+                        tag: object
+                        value: http://www.ncbi.nlm.nih.gov/gene/319982
+                      predicate:
+                        tag: predicate
+                        value: rdf:object
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/relationship/0
+          rdf:predicate:
+            tag: rdf:predicate
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/MEASURED_DIFFERENTIAL_EXPRESSION_ASmMG
+                      predicate:
+                        tag: predicate
+                        value: rdf:predicate
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/relationship/0
+          rdf:subject:
+            tag: rdf:subject
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                    tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                    value:
+                      object:
+                        tag: object
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35720
+                      predicate:
+                        tag: predicate
+                        value: rdf:subject
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/relationship/1152924803141766024
+                  obo:OBI_0000070:
+                    tag: obo:OBI_0000070
+                    value:
+                      object:
+                        tag: object
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-379-5bf3b4a886eff8565c47f847f4ac5d49
+                      predicate:
+                        tag: predicate
+                        value: rdf:subject
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/relationship/0
+          rdfs:comment:
+            tag: rdfs:comment
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Description of the study (string)
+                      predicate:
+                        tag: predicate
+                        value: rdfs:comment
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35726
+              https://w3id.org/biolink/vocab/Study:
+                tag: https://w3id.org/biolink/vocab/Study
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: NASA's Rodent Research (RR) project is playing a critical
+                          role in advancing biomedical research on the physiological
+                          effects of space environments. Due to the limited resources
+                          for conducting biological experiments aboard the International
+                          Space Station (ISS), it is imperative to use crew time efficiently
+                          while maximizing high-quality science return. NASA's GeneLab
+                          project has as its primary objectives to 1) further increase
+                          the value of these experiments using a multi-omics, systems
+                          biology-based approach, and 2) disseminate these data without
+                          restrictions to the scientific community. The current investigation
+                          assessed viability of RNA, DNA, and protein extracted from
+                          archived RR-1 tissue samples for epigenomic, transcriptomic,
+                          and proteomic assays. During the first RR spaceflight experiment,
+                          a variety of tissue types were harvested from subjects,
+                          snap-frozen or RNAlater-preserved, and then stored at least
+                          a year at -80C after return to Earth. They were then prioritized
+                          for this investigation based on likelihood of significant
+                          scientific value for spaceflight research. All tissues were
+                          made available to GeneLab through the bio-specimen sharing
+                          program managed by the Ames Life Science Data Archive and
+                          included mouse adrenal glands, quadriceps, gastrocnemius,
+                          tibialis anterior, extensor digitorum longus, soleus, eye,
+                          and kidney. We report here protocols for and results of
+                          these tissue extractions, and thus, the feasibility and
+                          value of these kinds of omics analyses. In addition to providing
+                          additional opportunities for investigation of spaceflight
+                          effects on the mouse transcriptome and proteome in new kinds
+                          of tissues, our results may also be of value to program
+                          managers for the prioritization of ISS crew time for rodent
+                          research activities.
+                      predicate:
+                        tag: predicate
+                        value: rdfs:comment
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100
+          rdfs:label:
+            tag: rdfs:label
+            value:
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Anatomy
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/35719
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 1:105965001-105966000
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome/1/105965001-105966000
+              https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission:
+                tag: https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Expedition 14
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/Expedition-14
+              https://w3id.org/biolink/vocab/Gene:
+                tag: https://w3id.org/biolink/vocab/Gene
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: alpha-1-B glycoprotein
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: http://www.ncbi.nlm.nih.gov/gene/1
+              https://w3id.org/biolink/vocab/Study:
+                tag: https://w3id.org/biolink/vocab/Study
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: OSD-100
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100
+              obo:OBI_0000070:
+                tag: obo:OBI_0000070
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: OSD-100_transcription-profiling_rna-sequencing-(rna-seq)
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/node/OSD-100-f1b7f0b93f8d28bc606c5c1127f2d7c9
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: INVESTIGATED_ASiA
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: https://purl.org/okn/frink/kg/spoke-genelab/relationship/1152924803141766024
+title: spoke-genelab
+created_on: '2025-10-17T00:27:07.632148'
+last_updated_on: '2025-10-17T00:27:07.632148'
+id: okns:spoke-genelab
+imports:
+- okns:owl-rdf-rdfs
+- okns:extended_types
+- linkml:types
+prefixes:
+  linkml:
+    prefix_prefix: linkml
+    prefix_reference: https://w3id.org/linkml/
+  obo:
+    prefix_prefix: obo
+    prefix_reference: http://purl.obolibrary.org/obo/
+  okn:
+    prefix_prefix: okn
+    prefix_reference: https://purl.org/okn/
+  okns:
+    prefix_prefix: okns
+    prefix_reference: https://purl.org/okn/schema/
+  rdf:
+    prefix_prefix: rdf
+    prefix_reference: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs:
+    prefix_prefix: rdfs
+    prefix_reference: http://www.w3.org/2000/01/rdf-schema#
+default_prefix: okns
+slots:
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_CONDUCTED_MIcS:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_CONDUCTED_MIcS
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/CONDUCTED_MIcS
+    range: https___w3id.org_biolink_vocab_Study
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_INVESTIGATED_ASiA:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_INVESTIGATED_ASiA
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/INVESTIGATED_ASiA
+    range: https___w3id.org_biolink_vocab_AnatomicalEntity
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_INVESTIGATED_ASiCT:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_INVESTIGATED_ASiCT
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/INVESTIGATED_ASiCT
+    range: https___w3id.org_biolink_vocab_Cell
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_IS_ORTHOLOG_MGiG:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_IS_ORTHOLOG_MGiG
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/IS_ORTHOLOG_MGiG
+    range: https___w3id.org_biolink_vocab_Gene
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_MEASURED_DIFFERENTIAL_EXPRESSION_ASmMG:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_MEASURED_DIFFERENTIAL_EXPRESSION_ASmMG
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/MEASURED_DIFFERENTIAL_EXPRESSION_ASmMG
+    range: https___w3id.org_biolink_vocab_Gene
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_MEASURED_DIFFERENTIAL_METHYLATION_ASmMR:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_MEASURED_DIFFERENTIAL_METHYLATION_ASmMR
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/MEASURED_DIFFERENTIAL_METHYLATION_ASmMR
+    range: https___purl.org_okn_frink_kg_spoke-genelab_schema_MethylationRegion
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_METHYLATED_IN_MGmMR:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_METHYLATED_IN_MGmMR
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/METHYLATED_IN_MGmMR
+    range: https___purl.org_okn_frink_kg_spoke-genelab_schema_MethylationRegion
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_MetaRelationship:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_MetaRelationship
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaRelationship
+    range: https___purl.org_okn_frink_kg_spoke-genelab_schema_MetaNode
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_PERFORMED_SpAS:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_PERFORMED_SpAS
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/PERFORMED_SpAS
+    range: obo_OBI_0000070
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_adj_p_value:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_adj_p_value
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/adj_p_value
+    range: double
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_chromosome:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_chromosome
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/chromosome
+    range: Any
+    any_of:
+    - range: uri
+    - range: string
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_dist_to_feature:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_dist_to_feature
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/dist_to_feature
+    range: integer
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_end:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_end
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/end
+    range: integer
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_end_date:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_end_date
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/end_date
+    range: date
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_factor_space_1:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_factor_space_1
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/factor_space_1
+    range: string
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_factor_space_2:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_factor_space_2
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/factor_space_2
+    range: string
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_factors_1:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_factors_1
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/factors_1
+    range: string
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_factors_2:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_factors_2
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/factors_2
+    range: string
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_flight_program:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_flight_program
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/flight_program
+    range: string
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_from:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_from
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/from
+    range: string
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_in_exon:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_in_exon
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/in_exon
+    range: boolean
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_in_intron:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_in_intron
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/in_intron
+    range: boolean
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_in_promoter:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_in_promoter
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/in_promoter
+    range: boolean
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_log2fc:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_log2fc
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/log2fc
+    range: double
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_material_1:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_material_1
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_1
+    range: string
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_material_2:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_material_2
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_2
+    range: string
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_material_id_1:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_material_id_1
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_id_1
+    range: Any
+    any_of:
+    - range: https___w3id.org_biolink_vocab_AnatomicalEntity
+    - range: string
+    - range: https___w3id.org_biolink_vocab_Cell
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_material_id_2:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_material_id_2
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_id_2
+    range: Any
+    any_of:
+    - range: https___w3id.org_biolink_vocab_AnatomicalEntity
+    - range: string
+    - range: https___w3id.org_biolink_vocab_Cell
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_material_name_1:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_material_name_1
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_name_1
+    range: string
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_material_name_2:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_material_name_2
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/material_name_2
+    range: string
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_measurement:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_measurement
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/measurement
+    range: string
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_methylation_diff:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_methylation_diff
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/methylation_diff
+    range: double
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_organism:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_organism
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/organism
+    range: string
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_project_title:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_project_title
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/project_title
+    range: string
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_project_type:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_project_type
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/project_type
+    range: string
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_q_value:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_q_value
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/q_value
+    range: double
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_space_program:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_space_program
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/space_program
+    range: string
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_start:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_start
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/start
+    range: integer
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_start_date:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_start_date
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/start_date
+    range: date
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_symbol:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_symbol
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/symbol
+    range: string
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_taxonomy:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_taxonomy
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/taxonomy
+    range: Any
+    any_of:
+    - range: uri
+    - range: string
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_technology:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_technology
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/technology
+    range: string
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_to:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_to
+    slot_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/to
+    range: string
+classes:
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_MetaNode:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_MetaNode
+    slots:
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_end
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_start_date
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_material_2
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_taxonomy
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_symbol
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_factor_space_1
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_dist_to_feature
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_start
+    - rdfs_label
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_material_id_2
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_flight_program
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_material_1
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_material_name_2
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_technology
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_organism
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_material_name_1
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_project_type
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_chromosome
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_measurement
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_end_date
+    - rdfs_comment
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_in_exon
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_factors_1
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_in_promoter
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_project_title
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_space_program
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_MetaRelationship
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_in_intron
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_factor_space_2
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_material_id_1
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_factors_2
+    class_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/MetaNode
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_MethylationRegion:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_MethylationRegion
+    slots:
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_end
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_start
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_chromosome
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_in_intron
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_in_promoter
+    - rdfs_label
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_dist_to_feature
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_in_exon
+    class_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/MethylationRegion
+  https___purl.org_okn_frink_kg_spoke-genelab_schema_Mission:
+    name: https___purl.org_okn_frink_kg_spoke-genelab_schema_Mission
+    slots:
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_space_program
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_start_date
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_CONDUCTED_MIcS
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_end_date
+    - rdfs_label
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_flight_program
+    class_uri: https://purl.org/okn/frink/kg/spoke-genelab/schema/Mission
+  https___w3id.org_biolink_vocab_AnatomicalEntity:
+    name: https___w3id.org_biolink_vocab_AnatomicalEntity
+    class_uri: https://w3id.org/biolink/vocab/AnatomicalEntity
+  https___w3id.org_biolink_vocab_Cell:
+    name: https___w3id.org_biolink_vocab_Cell
+    class_uri: https://w3id.org/biolink/vocab/Cell
+  https___w3id.org_biolink_vocab_Gene:
+    name: https___w3id.org_biolink_vocab_Gene
+    slots:
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_IS_ORTHOLOG_MGiG
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_organism
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_METHYLATED_IN_MGmMR
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_taxonomy
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_symbol
+    - rdfs_label
+    class_uri: https://w3id.org/biolink/vocab/Gene
+  https___w3id.org_biolink_vocab_Study:
+    name: https___w3id.org_biolink_vocab_Study
+    slots:
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_project_title
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_organism
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_project_type
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_taxonomy
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_PERFORMED_SpAS
+    - rdfs_comment
+    - rdfs_label
+    class_uri: https://w3id.org/biolink/vocab/Study
+  obo_OBI_0000070:
+    name: obo_OBI_0000070
+    slots:
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_INVESTIGATED_ASiA
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_material_1
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_material_name_2
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_technology
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_material_name_1
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_MEASURED_DIFFERENTIAL_METHYLATION_ASmMR
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_INVESTIGATED_ASiCT
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_material_2
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_MEASURED_DIFFERENTIAL_EXPRESSION_ASmMG
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_measurement
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_factor_space_2
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_material_id_1
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_factor_space_1
+    - rdfs_label
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_material_id_2
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_factors_1
+    - https___purl.org_okn_frink_kg_spoke-genelab_schema_factors_2
+    class_uri: obo:OBI_0000070
+source_file: /code/spoke-genelab.yaml
