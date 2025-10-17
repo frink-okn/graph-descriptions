@@ -3,7 +3,9 @@
 # Class: Substance Abuse (rural_substanceabuse_SubstanceAbuse)
 
 
-_No class (type) description specified_
+_Categories of substance type and related incident types, extracted from National Survey on Drug Use and Health (NSDUH)._
+
+
 
 
 
@@ -20,6 +22,16 @@ URI: [rural:substanceabuse/SubstanceAbuse](http://sail.ua.edu/ruralkg/substancea
  classDiagram
     class RuralSubstanceabuseSubstanceAbuse
     click RuralSubstanceabuseSubstanceAbuse href "../RuralSubstanceabuseSubstanceAbuse"
+      RuralSubstanceabuseSubstanceAbuse <|-- RuralSubstanceabuseConceptGeographicIndicators
+        click RuralSubstanceabuseConceptGeographicIndicators href "../RuralSubstanceabuseConceptGeographicIndicators"
+      RuralSubstanceabuseSubstanceAbuse <|-- RuralSubstanceabuseConceptMentalHealth
+        click RuralSubstanceabuseConceptMentalHealth href "../RuralSubstanceabuseConceptMentalHealth"
+      RuralSubstanceabuseSubstanceAbuse <|-- RuralSubstanceabuseConceptSocialDeterminants
+        click RuralSubstanceabuseConceptSocialDeterminants href "../RuralSubstanceabuseConceptSocialDeterminants"
+      RuralSubstanceabuseSubstanceAbuse <|-- RuralSubstanceabuseConceptSubstanceUse
+        click RuralSubstanceabuseConceptSubstanceUse href "../RuralSubstanceabuseConceptSubstanceUse"
+      RuralSubstanceabuseSubstanceAbuse <|-- RuralSubstanceabuseConceptSurveyMethodology
+        click RuralSubstanceabuseConceptSurveyMethodology href "../RuralSubstanceabuseConceptSurveyMethodology"
       RuralSubstanceabuseSubstanceAbuse <|-- RuralSubstanceabuseSubstance
         click RuralSubstanceabuseSubstance href "../RuralSubstanceabuseSubstance"
       RuralSubstanceabuseSubstanceAbuse <|-- RuralSubstanceabuseSubstanceRelatedIncident
@@ -34,6 +46,11 @@ URI: [rural:substanceabuse/SubstanceAbuse](http://sail.ua.edu/ruralkg/substancea
 
 ## Inheritance
 * **RuralSubstanceabuseSubstanceAbuse**
+    * [RuralSubstanceabuseConceptGeographicIndicators](../classes/RuralSubstanceabuseConceptGeographicIndicators.md)
+    * [RuralSubstanceabuseConceptMentalHealth](../classes/RuralSubstanceabuseConceptMentalHealth.md)
+    * [RuralSubstanceabuseConceptSocialDeterminants](../classes/RuralSubstanceabuseConceptSocialDeterminants.md)
+    * [RuralSubstanceabuseConceptSubstanceUse](../classes/RuralSubstanceabuseConceptSubstanceUse.md)
+    * [RuralSubstanceabuseConceptSurveyMethodology](../classes/RuralSubstanceabuseConceptSurveyMethodology.md)
     * [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md)
     * [RuralSubstanceabuseSubstanceRelatedIncident](../classes/RuralSubstanceabuseSubstanceRelatedIncident.md)
 
@@ -41,8 +58,8 @@ URI: [rural:substanceabuse/SubstanceAbuse](http://sail.ua.edu/ruralkg/substancea
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
 
 
 
@@ -50,34 +67,6 @@ URI: [rural:substanceabuse/SubstanceAbuse](http://sail.ua.edu/ruralkg/substancea
 
 
 
-
-
-## Comments
-
-* Categories of substance type and related incident types, extracted from National Survey on Drug Use and Health (NSDUH).
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: rural-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | rural:substanceabuse/SubstanceAbuse |
-| native | rural-kg/:RuralSubstanceabuseSubstanceAbuse |
 
 
 
@@ -92,17 +81,13 @@ URI: [rural:substanceabuse/SubstanceAbuse](http://sail.ua.edu/ruralkg/substancea
 ### Direct
 
 <details>
+
 ```yaml
 name: rural_substanceabuse_SubstanceAbuse
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
+description: Categories of substance type and related incident types, extracted from
+  National Survey on Drug Use and Health (NSDUH).
 title: Substance Abuse
-notes:
-- Class with 0 occurrences.
-comments:
-- Categories of substance type and related incident types, extracted from National
-  Survey on Drug Use and Health (NSDUH).
-from_schema: rural-kg
+from_schema: okns:rural-kg
 source: http://sail.ua.edu/ruralkg/ontology
 rank: 1000
 class_uri: rural:substanceabuse/SubstanceAbuse
@@ -113,17 +98,13 @@ class_uri: rural:substanceabuse/SubstanceAbuse
 ### Induced
 
 <details>
+
 ```yaml
 name: rural_substanceabuse_SubstanceAbuse
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
+description: Categories of substance type and related incident types, extracted from
+  National Survey on Drug Use and Health (NSDUH).
 title: Substance Abuse
-notes:
-- Class with 0 occurrences.
-comments:
-- Categories of substance type and related incident types, extracted from National
-  Survey on Drug Use and Health (NSDUH).
-from_schema: rural-kg
+from_schema: okns:rural-kg
 source: http://sail.ua.edu/ruralkg/ontology
 rank: 1000
 class_uri: rural:substanceabuse/SubstanceAbuse

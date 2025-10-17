@@ -3,7 +3,9 @@
 # Class: Administrative Area (rural_administrativearea_AdministrativeArea)
 
 
-_No class (type) description specified_
+_Covers all administrative regions, including State, City, County, and MSA (undergoing)._
+
+
 
 
 
@@ -44,8 +46,8 @@ URI: [rural:administrativearea/AdministrativeArea](http://sail.ua.edu/ruralkg/ad
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
 
 
 
@@ -53,34 +55,6 @@ URI: [rural:administrativearea/AdministrativeArea](http://sail.ua.edu/ruralkg/ad
 
 
 
-
-
-## Comments
-
-* Covers all administrative regions, including State, City, County, and MSA (undergoing).
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: rural-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | rural:administrativearea/AdministrativeArea |
-| native | rural-kg/:RuralAdministrativeareaAdministrativeArea |
 
 
 
@@ -95,16 +69,13 @@ URI: [rural:administrativearea/AdministrativeArea](http://sail.ua.edu/ruralkg/ad
 ### Direct
 
 <details>
+
 ```yaml
 name: rural_administrativearea_AdministrativeArea
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
+description: Covers all administrative regions, including State, City, County, and
+  MSA (undergoing).
 title: Administrative Area
-notes:
-- Class with 0 occurrences.
-comments:
-- Covers all administrative regions, including State, City, County, and MSA (undergoing).
-from_schema: rural-kg
+from_schema: okns:rural-kg
 source: http://sail.ua.edu/ruralkg/ontology
 rank: 1000
 class_uri: rural:administrativearea/AdministrativeArea
@@ -115,16 +86,13 @@ class_uri: rural:administrativearea/AdministrativeArea
 ### Induced
 
 <details>
+
 ```yaml
 name: rural_administrativearea_AdministrativeArea
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
+description: Covers all administrative regions, including State, City, County, and
+  MSA (undergoing).
 title: Administrative Area
-notes:
-- Class with 0 occurrences.
-comments:
-- Covers all administrative regions, including State, City, County, and MSA (undergoing).
-from_schema: rural-kg
+from_schema: okns:rural-kg
 source: http://sail.ua.edu/ruralkg/ontology
 rank: 1000
 class_uri: rural:administrativearea/AdministrativeArea

@@ -3,10 +3,9 @@
 # Slot: rural_settlementtype_code
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 10 times.
 
 
 URI: [rural:settlementtype/code](http://sail.ua.edu/ruralkg/settlementtype/code)
@@ -23,7 +22,7 @@ URI: [rural:settlementtype/code](http://sail.ua.edu/ruralkg/settlementtype/code)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSettlementtypeRUCC](../classes/RuralSettlementtypeRUCC.md) | No class (type) description specified |  no  |
+| [RuralSettlementtypeRUCC](../classes/RuralSettlementtypeRUCC.md) | Rural-Urban Continuum Code classification |  no  |
 
 
 
@@ -40,58 +39,14 @@ URI: [rural:settlementtype/code](http://sail.ua.edu/ruralkg/settlementtype/code)
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| rural_settlementtype_RUCC → string | rural:settlementtype/RUCC_2013_0 | rural:settlementtype/code | 0 |
-
-
-## Comments
-
-* 10 occurrences with subject type rural_settlementtype_RUCC and object type string.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: rural-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | rural:settlementtype/code |
-| native | rural-kg/:rural_settlementtype_code |
-
-
-
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: rural_settlementtype_code
-description: No slot (predicate) description specified
-comments:
-- 10 occurrences with subject type rural_settlementtype_RUCC and object type string.
-examples:
-- description: rural_settlementtype_RUCC → string
-  object:
-    example_object: '0'
-    example_predicate: rural:settlementtype/code
-    example_subject: rural:settlementtype/RUCC_2013_0
-from_schema: rural-kg
+from_schema: okns:rural-kg
 rank: 1000
 slot_uri: rural:settlementtype/code
 alias: rural_settlementtype_code

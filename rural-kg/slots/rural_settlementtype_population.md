@@ -3,10 +3,9 @@
 # Slot: rural_settlementtype_population
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 3234 times.
 
 
 URI: [rural:settlementtype/population](http://sail.ua.edu/ruralkg/settlementtype/population)
@@ -23,7 +22,7 @@ URI: [rural:settlementtype/population](http://sail.ua.edu/ruralkg/settlementtype
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSettlementtypeCountyStatus](../classes/RuralSettlementtypeCountyStatus.md) | No class (type) description specified |  no  |
+| [RuralSettlementtypeCountyStatus](../classes/RuralSettlementtypeCountyStatus.md) | Status of a county in terms of rural or urban classification |  no  |
 
 
 
@@ -40,59 +39,14 @@ URI: [rural:settlementtype/population](http://sail.ua.edu/ruralkg/settlementtype
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| rural_settlementtype_CountyStatus → integer | rural:settlementtype/CountyStatus_01001_2013 | rural:settlementtype/population | 54571 |
-
-
-## Comments
-
-* 3234 occurrences with subject type rural_settlementtype_CountyStatus and object type integer.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: rural-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | rural:settlementtype/population |
-| native | rural-kg/:rural_settlementtype_population |
-
-
-
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: rural_settlementtype_population
-description: No slot (predicate) description specified
-comments:
-- 3234 occurrences with subject type rural_settlementtype_CountyStatus and object
-  type integer.
-examples:
-- description: rural_settlementtype_CountyStatus → integer
-  object:
-    example_object: '54571'
-    example_predicate: rural:settlementtype/population
-    example_subject: rural:settlementtype/CountyStatus_01001_2013
-from_schema: rural-kg
+from_schema: okns:rural-kg
 rank: 1000
 slot_uri: rural:settlementtype/population
 alias: rural_settlementtype_population

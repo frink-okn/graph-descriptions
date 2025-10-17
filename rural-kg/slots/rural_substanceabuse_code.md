@@ -3,10 +3,9 @@
 # Slot: rural_substanceabuse_code
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 23 times.
 
 
 URI: [rural:substanceabuse/code](http://sail.ua.edu/ruralkg/substanceabuse/code)
@@ -23,7 +22,7 @@ URI: [rural:substanceabuse/code](http://sail.ua.edu/ruralkg/substanceabuse/code)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | No class (type) description specified |  no  |
+| [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | Types of substances that can be abused |  no  |
 
 
 
@@ -40,59 +39,14 @@ URI: [rural:substanceabuse/code](http://sail.ua.edu/ruralkg/substanceabuse/code)
 
 
 
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| rural_substanceabuse_Substance → string | rural:substanceabuse/Substance_1 | rural:substanceabuse/code | None |
-
-
-## Comments
-
-* 25 occurrences with subject type rural_substanceabuse_Substance and object type string.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: rural-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | rural:substanceabuse/code |
-| native | rural-kg/:rural_substanceabuse_code |
-
-
-
 
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: rural_substanceabuse_code
-description: No slot (predicate) description specified
-comments:
-- 25 occurrences with subject type rural_substanceabuse_Substance and object type
-  string.
-examples:
-- description: rural_substanceabuse_Substance → string
-  object:
-    example_object: None
-    example_predicate: rural:substanceabuse/code
-    example_subject: rural:substanceabuse/Substance_1
-from_schema: rural-kg
+from_schema: okns:rural-kg
 rank: 1000
 slot_uri: rural:substanceabuse/code
 alias: rural_substanceabuse_code

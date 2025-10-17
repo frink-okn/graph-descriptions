@@ -1,12 +1,16 @@
 
 
-# Class: No class (type) name specified (rural_settlementtype_RUCC)
+# Class: RuralSettlementtypeRUCC
 
 
-_No class (type) description specified_
+_Rural-Urban Continuum Code classification._
 
 
 
+
+
+
+This class occurs 10 times.
 
 
 URI: [rural:settlementtype/RUCC](http://sail.ua.edu/ruralkg/settlementtype/RUCC)
@@ -65,11 +69,11 @@ URI: [rural:settlementtype/RUCC](http://sail.ua.edu/ruralkg/settlementtype/RUCC)
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [rural_settlementtype_year](../slots/rural_settlementtype_year.md) | 0..1 <br/> [xsd:integer](xsd:integer) | No slot (predicate) description specified <br/> 10 occurrences with subject type rural_settlementtype_RUCC and object type integer.<br/>3234 occurrences with subject type rural_settlementtype_CountyStatus and object type integer. | direct |
-| [rural_settlementtype_code](../slots/rural_settlementtype_code.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 10 occurrences with subject type rural_settlementtype_RUCC and object type string. | direct |
-| [rural_settlementtype_description](../slots/rural_settlementtype_description.md) | 0..1 <br/> [xsd:string](xsd:string) | No slot (predicate) description specified <br/> 10 occurrences with subject type rural_settlementtype_RUCC and object type string. | direct |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
+| [rural_settlementtype_code](../slots/rural_settlementtype_code.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 10 |
+| [rural_settlementtype_description](../slots/rural_settlementtype_description.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 10 |
+| [rural_settlementtype_year](../slots/rural_settlementtype_year.md) | 0..1 <br/> [xsd:integer](xsd:integer) |  <br/>  | direct | 10 |
 
 
 
@@ -86,34 +90,6 @@ URI: [rural:settlementtype/RUCC](http://sail.ua.edu/ruralkg/settlementtype/RUCC)
 
 
 
-## Comments
-
-* Rural-Urban Continuum Code classification.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: rural-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | rural:settlementtype/RUCC |
-| native | rural-kg/:RuralSettlementtypeRUCC |
-
-
 
 
 
@@ -126,22 +102,17 @@ URI: [rural:settlementtype/RUCC](http://sail.ua.edu/ruralkg/settlementtype/RUCC)
 ### Direct
 
 <details>
+
 ```yaml
 name: rural_settlementtype_RUCC
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (type) name specified
-notes:
-- Class with 10 occurrences.
-comments:
-- Rural-Urban Continuum Code classification.
-from_schema: rural-kg
+description: Rural-Urban Continuum Code classification.
+from_schema: okns:rural-kg
 rank: 1000
 is_a: rural_settlementtype_SettlementType
 slots:
-- rural_settlementtype_year
 - rural_settlementtype_code
 - rural_settlementtype_description
+- rural_settlementtype_year
 class_uri: rural:settlementtype/RUCC
 
 ```
@@ -150,58 +121,17 @@ class_uri: rural:settlementtype/RUCC
 ### Induced
 
 <details>
+
 ```yaml
 name: rural_settlementtype_RUCC
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (type) name specified
-notes:
-- Class with 10 occurrences.
-comments:
-- Rural-Urban Continuum Code classification.
-from_schema: rural-kg
+description: Rural-Urban Continuum Code classification.
+from_schema: okns:rural-kg
 rank: 1000
 is_a: rural_settlementtype_SettlementType
 attributes:
-  rural_settlementtype_year:
-    name: rural_settlementtype_year
-    description: No slot (predicate) description specified
-    comments:
-    - 10 occurrences with subject type rural_settlementtype_RUCC and object type integer.
-    - 3234 occurrences with subject type rural_settlementtype_CountyStatus and object
-      type integer.
-    examples:
-    - description: rural_settlementtype_RUCC → integer
-      object:
-        example_object: '2013'
-        example_predicate: rural:settlementtype/year
-        example_subject: rural:settlementtype/RUCC_2013_0
-    - description: rural_settlementtype_CountyStatus → integer
-      object:
-        example_object: '2013'
-        example_predicate: rural:settlementtype/year
-        example_subject: rural:settlementtype/CountyStatus_01001_2013
-    from_schema: rural-kg
-    rank: 1000
-    slot_uri: rural:settlementtype/year
-    alias: rural_settlementtype_year
-    owner: rural_settlementtype_RUCC
-    domain_of:
-    - rural_settlementtype_CountyStatus
-    - rural_settlementtype_RUCC
-    range: integer
   rural_settlementtype_code:
     name: rural_settlementtype_code
-    description: No slot (predicate) description specified
-    comments:
-    - 10 occurrences with subject type rural_settlementtype_RUCC and object type string.
-    examples:
-    - description: rural_settlementtype_RUCC → string
-      object:
-        example_object: '0'
-        example_predicate: rural:settlementtype/code
-        example_subject: rural:settlementtype/RUCC_2013_0
-    from_schema: rural-kg
+    from_schema: okns:rural-kg
     rank: 1000
     slot_uri: rural:settlementtype/code
     alias: rural_settlementtype_code
@@ -211,16 +141,7 @@ attributes:
     range: string
   rural_settlementtype_description:
     name: rural_settlementtype_description
-    description: No slot (predicate) description specified
-    comments:
-    - 10 occurrences with subject type rural_settlementtype_RUCC and object type string.
-    examples:
-    - description: rural_settlementtype_RUCC → string
-      object:
-        example_object: Not Applicable
-        example_predicate: rural:settlementtype/description
-        example_subject: rural:settlementtype/RUCC_2013_0
-    from_schema: rural-kg
+    from_schema: okns:rural-kg
     rank: 1000
     slot_uri: rural:settlementtype/description
     alias: rural_settlementtype_description
@@ -228,6 +149,17 @@ attributes:
     domain_of:
     - rural_settlementtype_RUCC
     range: string
+  rural_settlementtype_year:
+    name: rural_settlementtype_year
+    from_schema: okns:rural-kg
+    rank: 1000
+    slot_uri: rural:settlementtype/year
+    alias: rural_settlementtype_year
+    owner: rural_settlementtype_RUCC
+    domain_of:
+    - rural_settlementtype_CountyStatus
+    - rural_settlementtype_RUCC
+    range: integer
 class_uri: rural:settlementtype/RUCC
 
 ```
