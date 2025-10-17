@@ -80,10 +80,10 @@ URI: [rural:administrativearea/State](http://sail.ua.edu/ruralkg/administrativea
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [rural_administrativearea_abbreviation](../slots/rural_administrativearea_abbreviation.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 56 |
-| [rural_administrativearea_name](../slots/rural_administrativearea_name.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 56 |
-| [rural_administrativearea_containsPlace](../slots/rural_administrativearea_containsPlace.md) | 0..1 <br/> [RuralAdministrativeareaCounty](../classes/RuralAdministrativeareaCounty.md) |  <br/>  | direct | 3253 |
 | [rural_administrativearea_fips](../slots/rural_administrativearea_fips.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 56 |
+| [rural_administrativearea_name](../slots/rural_administrativearea_name.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 56 |
+| [rural_administrativearea_abbreviation](../slots/rural_administrativearea_abbreviation.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 56 |
+| [rural_administrativearea_containsPlace](../slots/rural_administrativearea_containsPlace.md) | 0..1 <br/> [RuralAdministrativeareaCounty](../classes/RuralAdministrativeareaCounty.md) |  <br/>  | direct | 3253 |
 
 
 
@@ -113,10 +113,10 @@ from_schema: okns:rural-kg
 rank: 1000
 is_a: rural_administrativearea_AdministrativeArea
 slots:
-- rural_administrativearea_abbreviation
-- rural_administrativearea_name
-- rural_administrativearea_containsPlace
 - rural_administrativearea_fips
+- rural_administrativearea_name
+- rural_administrativearea_abbreviation
+- rural_administrativearea_containsPlace
 class_uri: rural:administrativearea/State
 
 ```
@@ -133,14 +133,15 @@ from_schema: okns:rural-kg
 rank: 1000
 is_a: rural_administrativearea_AdministrativeArea
 attributes:
-  rural_administrativearea_abbreviation:
-    name: rural_administrativearea_abbreviation
+  rural_administrativearea_fips:
+    name: rural_administrativearea_fips
     from_schema: okns:rural-kg
     rank: 1000
-    slot_uri: rural:administrativearea/abbreviation
-    alias: rural_administrativearea_abbreviation
+    slot_uri: rural:administrativearea/fips
+    alias: rural_administrativearea_fips
     owner: rural_administrativearea_State
     domain_of:
+    - rural_administrativearea_County
     - rural_administrativearea_State
     range: string
   rural_administrativearea_name:
@@ -155,6 +156,16 @@ attributes:
     - rural_administrativearea_County
     - rural_administrativearea_State
     range: string
+  rural_administrativearea_abbreviation:
+    name: rural_administrativearea_abbreviation
+    from_schema: okns:rural-kg
+    rank: 1000
+    slot_uri: rural:administrativearea/abbreviation
+    alias: rural_administrativearea_abbreviation
+    owner: rural_administrativearea_State
+    domain_of:
+    - rural_administrativearea_State
+    range: string
   rural_administrativearea_containsPlace:
     name: rural_administrativearea_containsPlace
     from_schema: okns:rural-kg
@@ -165,17 +176,6 @@ attributes:
     domain_of:
     - rural_administrativearea_State
     range: rural_administrativearea_County
-  rural_administrativearea_fips:
-    name: rural_administrativearea_fips
-    from_schema: okns:rural-kg
-    rank: 1000
-    slot_uri: rural:administrativearea/fips
-    alias: rural_administrativearea_fips
-    owner: rural_administrativearea_State
-    domain_of:
-    - rural_administrativearea_County
-    - rural_administrativearea_State
-    range: string
 class_uri: rural:administrativearea/State
 
 ```

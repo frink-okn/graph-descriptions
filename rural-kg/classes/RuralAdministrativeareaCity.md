@@ -89,11 +89,11 @@ URI: [rural:administrativearea/City](http://sail.ua.edu/ruralkg/administrativear
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
+| [rural_administrativearea_longitude](../slots/rural_administrativearea_longitude.md) | 0..1 <br/> [xsd:float](xsd:float) |  <br/>  | direct | 31120 |
 | [rural_administrativearea_latitude](../slots/rural_administrativearea_latitude.md) | 0..1 <br/> [xsd:float](xsd:float) |  <br/>  | direct | 31120 |
 | [rural_administrativearea_primaryCounty](../slots/rural_administrativearea_primaryCounty.md) | 0..1 <br/> [RuralAdministrativeareaCounty](../classes/RuralAdministrativeareaCounty.md) |  <br/>  | direct | 31120 |
 | [rural_administrativearea_name](../slots/rural_administrativearea_name.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 31120 |
 | [rural_administrativearea_ranking](../slots/rural_administrativearea_ranking.md) | 0..1 <br/> [xsd:integer](xsd:integer) |  <br/>  | direct | 31120 |
-| [rural_administrativearea_longitude](../slots/rural_administrativearea_longitude.md) | 0..1 <br/> [xsd:float](xsd:float) |  <br/>  | direct | 31120 |
 
 
 
@@ -130,11 +130,11 @@ from_schema: okns:rural-kg
 rank: 1000
 is_a: rural_administrativearea_AdministrativeArea
 slots:
+- rural_administrativearea_longitude
 - rural_administrativearea_latitude
 - rural_administrativearea_primaryCounty
 - rural_administrativearea_name
 - rural_administrativearea_ranking
-- rural_administrativearea_longitude
 class_uri: rural:administrativearea/City
 
 ```
@@ -151,6 +151,16 @@ from_schema: okns:rural-kg
 rank: 1000
 is_a: rural_administrativearea_AdministrativeArea
 attributes:
+  rural_administrativearea_longitude:
+    name: rural_administrativearea_longitude
+    from_schema: okns:rural-kg
+    rank: 1000
+    slot_uri: rural:administrativearea/longitude
+    alias: rural_administrativearea_longitude
+    owner: rural_administrativearea_City
+    domain_of:
+    - rural_administrativearea_City
+    range: float
   rural_administrativearea_latitude:
     name: rural_administrativearea_latitude
     from_schema: okns:rural-kg
@@ -193,16 +203,6 @@ attributes:
     domain_of:
     - rural_administrativearea_City
     range: integer
-  rural_administrativearea_longitude:
-    name: rural_administrativearea_longitude
-    from_schema: okns:rural-kg
-    rank: 1000
-    slot_uri: rural:administrativearea/longitude
-    alias: rural_administrativearea_longitude
-    owner: rural_administrativearea_City
-    domain_of:
-    - rural_administrativearea_City
-    range: float
 class_uri: rural:administrativearea/City
 
 ```

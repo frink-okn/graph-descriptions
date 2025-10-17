@@ -12,19 +12,19 @@ RuralAdministrativeareaAdministrativeArea {
 
 }
 RuralAdministrativeareaCity {
+    float rural_administrativearea_longitude  
     float rural_administrativearea_latitude  
     string rural_administrativearea_name  
     integer rural_administrativearea_ranking  
-    float rural_administrativearea_longitude  
 }
 RuralAdministrativeareaCounty {
     string rural_administrativearea_name  
     string rural_administrativearea_fips  
 }
 RuralAdministrativeareaState {
-    string rural_administrativearea_abbreviation  
-    string rural_administrativearea_name  
     string rural_administrativearea_fips  
+    string rural_administrativearea_name  
+    string rural_administrativearea_abbreviation  
 }
 RuralJusticeAdministrativeSegment {
 
@@ -241,9 +241,9 @@ RuralSettlementtypeCountyStatus {
     integer rural_settlementtype_year  
 }
 RuralSettlementtypeRUCC {
-    string rural_settlementtype_code  
-    string rural_settlementtype_description  
     integer rural_settlementtype_year  
+    string rural_settlementtype_description  
+    string rural_settlementtype_code  
 }
 RuralSettlementtypeSettlementType {
 
@@ -366,69 +366,69 @@ RuralSubstanceabuseConceptYouthMentalHealth {
 
 }
 RuralSubstanceabuseSubstance {
-    string rural_substanceabuse_description  
-    integer rural_substanceabuse_year  
-    string rural_substanceabuse_identifier  
-    string rural_substanceabuse_name  
     string rural_substanceabuse_fromDataset  
+    integer rural_substanceabuse_year  
+    string rural_substanceabuse_name  
     string rural_substanceabuse_code  
+    string rural_substanceabuse_description  
+    string rural_substanceabuse_identifier  
 }
 RuralSubstanceabuseSubstanceAbuse {
 
 }
 RuralSubstanceabuseSubstanceRelatedIncident {
-    string rural_substanceabuse_fromDataset  
-    string rural_substanceabuse_name  
     integer rural_substanceabuse_year  
+    string rural_substanceabuse_name  
+    string rural_substanceabuse_fromDataset  
 }
 RuralTreatmentMentalHealthService {
+    integer rural_treatment_year  
     string rural_treatment_name  
     string rural_treatment_description  
     string rural_treatment_code  
-    integer rural_treatment_year  
 }
 RuralTreatmentMentalHealthServiceCategory {
+    integer rural_treatment_year  
     string rural_treatment_name  
     string rural_treatment_code  
-    integer rural_treatment_year  
 }
 RuralTreatmentTreatment {
 
 }
 RuralTreatmentTreatmentProvider {
     string rural_treatment_alias  
-    string rural_treatment_phone  
-    uri rural_treatment_inCity  
     string rural_treatment_address  
     string rural_treatment_name  
     string rural_treatment_zipcode  
+    uri rural_treatment_inCity  
+    string rural_treatment_phone  
 }
 RuralVariableAnswer {
 
 }
 RuralVariableNIBRS {
     string rural_variable_generatedDescription  
-    string rural_variable_description  
-    string rural_variable_code  
-    string rural_variable_content  
     string rural_variable_fromDataset  
+    string rural_variable_description  
     integer rural_variable_year  
+    string rural_variable_content  
+    string rural_variable_code  
 }
 RuralVariableNIBRSAnswer {
-    string rural_variable_answerContent  
     string rural_variable_answerCode  
+    string rural_variable_answerContent  
 }
 RuralVariableNSDUH {
     string rural_variable_generatedDescription  
-    string rural_variable_description  
-    string rural_variable_code  
-    string rural_variable_content  
     string rural_variable_fromDataset  
+    string rural_variable_description  
     integer rural_variable_year  
+    string rural_variable_content  
+    string rural_variable_code  
 }
 RuralVariableNSDUHAnswer {
-    string rural_variable_answerContent  
     string rural_variable_answerCode  
+    string rural_variable_answerContent  
 }
 RuralVariableVariable {
 
@@ -436,15 +436,15 @@ RuralVariableVariable {
 
 RuralAdministrativeareaCity ||--|o RuralAdministrativeareaCounty : "rural_administrativearea_primaryCounty"
 RuralAdministrativeareaState ||--|o RuralAdministrativeareaCounty : "rural_administrativearea_containsPlace"
-RuralSettlementtypeCountyStatus ||--|o RuralAdministrativeareaCounty : "rural_settlementtype_censusCounty"
 RuralSettlementtypeCountyStatus ||--|o RuralSettlementtypeRUCC : "rural_settlementtype_hasRUCC"
+RuralSettlementtypeCountyStatus ||--|o RuralAdministrativeareaCounty : "rural_settlementtype_censusCounty"
 RuralTreatmentMentalHealthServiceCategory ||--|o RuralTreatmentMentalHealthService : "rural_treatment_containsService"
 RuralTreatmentTreatmentProvider ||--|o RuralTreatmentMentalHealthService : "rural_treatment_providesService"
 RuralTreatmentTreatmentProvider ||--|o RuralAdministrativeareaCity : "rural_treatment_inCity"
-RuralVariableNIBRS ||--|o RuralVariableNSDUHAnswer : "rural_variable_hasAnswer"
 RuralVariableNIBRS ||--|o RuralVariableNIBRSAnswer : "rural_variable_hasAnswer"
-RuralVariableNSDUH ||--|o RuralVariableNSDUHAnswer : "rural_variable_hasAnswer"
+RuralVariableNIBRS ||--|o RuralVariableNSDUHAnswer : "rural_variable_hasAnswer"
 RuralVariableNSDUH ||--|o RuralVariableNIBRSAnswer : "rural_variable_hasAnswer"
+RuralVariableNSDUH ||--|o RuralVariableNSDUHAnswer : "rural_variable_hasAnswer"
 
 ```
 

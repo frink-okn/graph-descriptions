@@ -71,9 +71,9 @@ URI: [rural:substanceabuse/SubstanceRelatedIncident](http://sail.ua.edu/ruralkg/
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [rural_substanceabuse_fromDataset](../slots/rural_substanceabuse_fromDataset.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 17 |
-| [rural_substanceabuse_name](../slots/rural_substanceabuse_name.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 17 |
 | [rural_substanceabuse_year](../slots/rural_substanceabuse_year.md) | 0..1 <br/> [xsd:integer](xsd:integer) |  <br/>  | direct | 17 |
+| [rural_substanceabuse_name](../slots/rural_substanceabuse_name.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 17 |
+| [rural_substanceabuse_fromDataset](../slots/rural_substanceabuse_fromDataset.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 17 |
 
 
 
@@ -103,9 +103,9 @@ from_schema: okns:rural-kg
 rank: 1000
 is_a: rural_substanceabuse_SubstanceAbuse
 slots:
-- rural_substanceabuse_fromDataset
-- rural_substanceabuse_name
 - rural_substanceabuse_year
+- rural_substanceabuse_name
+- rural_substanceabuse_fromDataset
 class_uri: rural:substanceabuse/SubstanceRelatedIncident
 
 ```
@@ -122,28 +122,6 @@ from_schema: okns:rural-kg
 rank: 1000
 is_a: rural_substanceabuse_SubstanceAbuse
 attributes:
-  rural_substanceabuse_fromDataset:
-    name: rural_substanceabuse_fromDataset
-    from_schema: okns:rural-kg
-    rank: 1000
-    slot_uri: rural:substanceabuse/fromDataset
-    alias: rural_substanceabuse_fromDataset
-    owner: rural_substanceabuse_SubstanceRelatedIncident
-    domain_of:
-    - rural_substanceabuse_Substance
-    - rural_substanceabuse_SubstanceRelatedIncident
-    range: string
-  rural_substanceabuse_name:
-    name: rural_substanceabuse_name
-    from_schema: okns:rural-kg
-    rank: 1000
-    slot_uri: rural:substanceabuse/name
-    alias: rural_substanceabuse_name
-    owner: rural_substanceabuse_SubstanceRelatedIncident
-    domain_of:
-    - rural_substanceabuse_Substance
-    - rural_substanceabuse_SubstanceRelatedIncident
-    range: string
   rural_substanceabuse_year:
     name: rural_substanceabuse_year
     from_schema: okns:rural-kg
@@ -155,6 +133,28 @@ attributes:
     - rural_substanceabuse_Substance
     - rural_substanceabuse_SubstanceRelatedIncident
     range: integer
+  rural_substanceabuse_name:
+    name: rural_substanceabuse_name
+    from_schema: okns:rural-kg
+    rank: 1000
+    slot_uri: rural:substanceabuse/name
+    alias: rural_substanceabuse_name
+    owner: rural_substanceabuse_SubstanceRelatedIncident
+    domain_of:
+    - rural_substanceabuse_Substance
+    - rural_substanceabuse_SubstanceRelatedIncident
+    range: string
+  rural_substanceabuse_fromDataset:
+    name: rural_substanceabuse_fromDataset
+    from_schema: okns:rural-kg
+    rank: 1000
+    slot_uri: rural:substanceabuse/fromDataset
+    alias: rural_substanceabuse_fromDataset
+    owner: rural_substanceabuse_SubstanceRelatedIncident
+    domain_of:
+    - rural_substanceabuse_Substance
+    - rural_substanceabuse_SubstanceRelatedIncident
+    range: string
 class_uri: rural:substanceabuse/SubstanceRelatedIncident
 
 ```

@@ -22,9 +22,9 @@ URI: [rural:treatment/name](http://sail.ua.edu/ruralkg/treatment/name)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralTreatmentTreatmentProvider](../classes/RuralTreatmentTreatmentProvider.md) | Entities that provide treatment services |  no  |
 | [RuralTreatmentMentalHealthServiceCategory](../classes/RuralTreatmentMentalHealthServiceCategory.md) | Categories of mental health services |  no  |
 | [RuralTreatmentMentalHealthService](../classes/RuralTreatmentMentalHealthService.md) | Specific mental health services offered |  no  |
+| [RuralTreatmentTreatmentProvider](../classes/RuralTreatmentTreatmentProvider.md) | Entities that provide treatment services |  no  |
 
 
 

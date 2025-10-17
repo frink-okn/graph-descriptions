@@ -33,7 +33,7 @@ URI: [rural:variable/hasAnswer](http://sail.ua.edu/ruralkg/variable/hasAnswer)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[RuralVariableNSDUHAnswer](../classes/RuralVariableNSDUHAnswer.md)&nbsp;or&nbsp;<br />[RuralVariableNIBRSAnswer](../classes/RuralVariableNIBRSAnswer.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[RuralVariableNIBRSAnswer](../classes/RuralVariableNIBRSAnswer.md)&nbsp;or&nbsp;<br />[RuralVariableNSDUHAnswer](../classes/RuralVariableNSDUHAnswer.md)
 
 
 
@@ -56,8 +56,8 @@ domain_of:
 - rural_variable_NSDUH
 range: Any
 any_of:
-- range: rural_variable_NSDUHAnswer
 - range: rural_variable_NIBRSAnswer
+- range: rural_variable_NSDUHAnswer
 
 ```
 </details>
