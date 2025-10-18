@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#METHOD_HAS_RESULT
+# Slot: METHOD_HAS_RESULT (https___climatepub4kg.github.io_ontology#METHOD_HAS_RESULT)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#METHOD_HAS_RESULT](https://climat
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#METHOD_HAS_RESULT
+title: METHOD_HAS_RESULT
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Method
 slot_uri: https://climatepub4kg.github.io/ontology#METHOD_HAS_RESULT
 alias: https___climatepub4kg.github.io_ontology#METHOD_HAS_RESULT
 domain_of:

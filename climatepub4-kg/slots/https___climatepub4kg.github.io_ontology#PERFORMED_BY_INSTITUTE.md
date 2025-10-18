@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#PERFORMED_BY_INSTITUTE
+# Slot: PERFORMED_BY_INSTITUTE (https___climatepub4kg.github.io_ontology#PERFORMED_BY_INSTITUTE)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#PERFORMED_BY_INSTITUTE](https://c
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#PERFORMED_BY_INSTITUTE
+title: PERFORMED_BY_INSTITUTE
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Experiment
 slot_uri: https://climatepub4kg.github.io/ontology#PERFORMED_BY_INSTITUTE
 alias: https___climatepub4kg.github.io_ontology#PERFORMED_BY_INSTITUTE
 domain_of:

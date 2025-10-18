@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#PAPER_APPLIES_METHOD
+# Slot: PAPER_APPLIES_METHOD (https___climatepub4kg.github.io_ontology#PAPER_APPLIES_METHOD)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#PAPER_APPLIES_METHOD](https://cli
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#PAPER_APPLIES_METHOD
+title: PAPER_APPLIES_METHOD
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Paper
 slot_uri: https://climatepub4kg.github.io/ontology#PAPER_APPLIES_METHOD
 alias: https___climatepub4kg.github.io_ontology#PAPER_APPLIES_METHOD
 domain_of:

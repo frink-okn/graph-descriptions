@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#PAPER_BELONGS_TO_FIELD
+# Slot: PAPER_BELONGS_TO_FIELD (https___climatepub4kg.github.io_ontology#PAPER_BELONGS_TO_FIELD)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#PAPER_BELONGS_TO_FIELD](https://c
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#PAPER_BELONGS_TO_FIELD
+title: PAPER_BELONGS_TO_FIELD
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Paper
 slot_uri: https://climatepub4kg.github.io/ontology#PAPER_BELONGS_TO_FIELD
 alias: https___climatepub4kg.github.io_ontology#PAPER_BELONGS_TO_FIELD
 domain_of:

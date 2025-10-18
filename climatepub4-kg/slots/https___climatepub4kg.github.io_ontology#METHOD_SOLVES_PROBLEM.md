@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#METHOD_SOLVES_PROBLEM
+# Slot: METHOD_SOLVES_PROBLEM (https___climatepub4kg.github.io_ontology#METHOD_SOLVES_PROBLEM)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#METHOD_SOLVES_PROBLEM](https://cl
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#METHOD_SOLVES_PROBLEM
+title: METHOD_SOLVES_PROBLEM
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Method
 slot_uri: https://climatepub4kg.github.io/ontology#METHOD_SOLVES_PROBLEM
 alias: https___climatepub4kg.github.io_ontology#METHOD_SOLVES_PROBLEM
 domain_of:

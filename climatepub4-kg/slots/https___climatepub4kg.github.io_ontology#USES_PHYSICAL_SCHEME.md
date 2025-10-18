@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#USES_PHYSICAL_SCHEME
+# Slot: USES_PHYSICAL_SCHEME (https___climatepub4kg.github.io_ontology#USES_PHYSICAL_SCHEME)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#USES_PHYSICAL_SCHEME](https://cli
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#USES_PHYSICAL_SCHEME
+title: USES_PHYSICAL_SCHEME
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Source
 slot_uri: https://climatepub4kg.github.io/ontology#USES_PHYSICAL_SCHEME
 alias: https___climatepub4kg.github.io_ontology#USES_PHYSICAL_SCHEME
 domain_of:

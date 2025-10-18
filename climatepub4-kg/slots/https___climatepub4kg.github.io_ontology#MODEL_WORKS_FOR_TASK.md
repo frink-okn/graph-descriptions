@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#MODEL_WORKS_FOR_TASK
+# Slot: MODEL_WORKS_FOR_TASK (https___climatepub4kg.github.io_ontology#MODEL_WORKS_FOR_TASK)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#MODEL_WORKS_FOR_TASK](https://cli
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#MODEL_WORKS_FOR_TASK
+title: MODEL_WORKS_FOR_TASK
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Model
 slot_uri: https://climatepub4kg.github.io/ontology#MODEL_WORKS_FOR_TASK
 alias: https___climatepub4kg.github.io_ontology#MODEL_WORKS_FOR_TASK
 domain_of:

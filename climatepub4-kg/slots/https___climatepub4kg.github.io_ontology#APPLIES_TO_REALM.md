@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#APPLIES_TO_REALM
+# Slot: APPLIES_TO_REALM (https___climatepub4kg.github.io_ontology#APPLIES_TO_REALM)
 
 
 
@@ -48,6 +48,7 @@ URI: [https://climatepub4kg.github.io/ontology#APPLIES_TO_REALM](https://climate
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#APPLIES_TO_REALM
+title: APPLIES_TO_REALM
 from_schema: okns:climatepub4-kg
 rank: 1000
 slot_uri: https://climatepub4kg.github.io/ontology#APPLIES_TO_REALM
@@ -56,6 +57,10 @@ domain_of:
 - https___climatepub4kg.github.io_ontology#Experiment
 - https___climatepub4kg.github.io_ontology#Source
 - https___climatepub4kg.github.io_ontology#SourceComponent
+union_of:
+- https___climatepub4kg.github.io_ontology#Experiment
+- https___climatepub4kg.github.io_ontology#SourceComponent
+- https___climatepub4kg.github.io_ontology#Source
 range: https___climatepub4kg.github.io_ontology#Realm
 
 ```

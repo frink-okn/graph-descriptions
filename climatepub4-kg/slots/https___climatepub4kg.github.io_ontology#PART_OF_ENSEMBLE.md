@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#PART_OF_ENSEMBLE
+# Slot: PART_OF_ENSEMBLE (https___climatepub4kg.github.io_ontology#PART_OF_ENSEMBLE)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#PART_OF_ENSEMBLE](https://climate
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#PART_OF_ENSEMBLE
+title: PART_OF_ENSEMBLE
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Source
 slot_uri: https://climatepub4kg.github.io/ontology#PART_OF_ENSEMBLE
 alias: https___climatepub4kg.github.io_ontology#PART_OF_ENSEMBLE
 domain_of:

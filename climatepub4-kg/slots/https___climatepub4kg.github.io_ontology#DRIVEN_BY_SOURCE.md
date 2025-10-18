@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#DRIVEN_BY_SOURCE
+# Slot: DRIVEN_BY_SOURCE (https___climatepub4kg.github.io_ontology#DRIVEN_BY_SOURCE)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#DRIVEN_BY_SOURCE](https://climate
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#DRIVEN_BY_SOURCE
+title: DRIVEN_BY_SOURCE
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#RCM
 slot_uri: https://climatepub4kg.github.io/ontology#DRIVEN_BY_SOURCE
 alias: https___climatepub4kg.github.io_ontology#DRIVEN_BY_SOURCE
 domain_of:

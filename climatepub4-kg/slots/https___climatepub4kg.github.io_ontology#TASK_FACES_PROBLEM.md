@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#TASK_FACES_PROBLEM
+# Slot: TASK_FACES_PROBLEM (https___climatepub4kg.github.io_ontology#TASK_FACES_PROBLEM)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#TASK_FACES_PROBLEM](https://clima
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#TASK_FACES_PROBLEM
+title: TASK_FACES_PROBLEM
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Task
 slot_uri: https://climatepub4kg.github.io/ontology#TASK_FACES_PROBLEM
 alias: https___climatepub4kg.github.io_ontology#TASK_FACES_PROBLEM
 domain_of:

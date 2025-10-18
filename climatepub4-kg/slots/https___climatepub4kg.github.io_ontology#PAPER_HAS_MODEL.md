@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#PAPER_HAS_MODEL
+# Slot: PAPER_HAS_MODEL (https___climatepub4kg.github.io_ontology#PAPER_HAS_MODEL)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#PAPER_HAS_MODEL](https://climatep
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#PAPER_HAS_MODEL
+title: PAPER_HAS_MODEL
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Paper
 slot_uri: https://climatepub4kg.github.io/ontology#PAPER_HAS_MODEL
 alias: https___climatepub4kg.github.io_ontology#PAPER_HAS_MODEL
 domain_of:

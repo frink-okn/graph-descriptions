@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#METHOD_WORKS_ON_TASK
+# Slot: METHOD_WORKS_ON_TASK (https___climatepub4kg.github.io_ontology#METHOD_WORKS_ON_TASK)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#METHOD_WORKS_ON_TASK](https://cli
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#METHOD_WORKS_ON_TASK
+title: METHOD_WORKS_ON_TASK
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Method
 slot_uri: https://climatepub4kg.github.io/ontology#METHOD_WORKS_ON_TASK
 alias: https___climatepub4kg.github.io_ontology#METHOD_WORKS_ON_TASK
 domain_of:

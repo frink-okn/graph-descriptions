@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#IN_COUNTRY
+# Slot: IN_COUNTRY (https___climatepub4kg.github.io_ontology#IN_COUNTRY)
 
 
 
@@ -47,6 +47,7 @@ URI: [https://climatepub4kg.github.io/ontology#IN_COUNTRY](https://climatepub4kg
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#IN_COUNTRY
+title: IN_COUNTRY
 from_schema: okns:climatepub4-kg
 rank: 1000
 slot_uri: https://climatepub4kg.github.io/ontology#IN_COUNTRY
@@ -54,6 +55,9 @@ alias: https___climatepub4kg.github.io_ontology#IN_COUNTRY
 domain_of:
 - https___climatepub4kg.github.io_ontology#City
 - https___climatepub4kg.github.io_ontology#Country_Subdivision
+union_of:
+- https___climatepub4kg.github.io_ontology#Country_Subdivision
+- https___climatepub4kg.github.io_ontology#City
 range: https___climatepub4kg.github.io_ontology#Country
 
 ```

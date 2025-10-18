@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#GENERATED_BY_ACTIVITY
+# Slot: GENERATED_BY_ACTIVITY (https___climatepub4kg.github.io_ontology#GENERATED_BY_ACTIVITY)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#GENERATED_BY_ACTIVITY](https://cl
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#GENERATED_BY_ACTIVITY
+title: GENERATED_BY_ACTIVITY
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Source
 slot_uri: https://climatepub4kg.github.io/ontology#GENERATED_BY_ACTIVITY
 alias: https___climatepub4kg.github.io_ontology#GENERATED_BY_ACTIVITY
 domain_of:

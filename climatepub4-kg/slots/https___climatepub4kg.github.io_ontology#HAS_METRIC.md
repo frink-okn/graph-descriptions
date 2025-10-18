@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#HAS_METRIC
+# Slot: HAS_METRIC (https___climatepub4kg.github.io_ontology#HAS_METRIC)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#HAS_METRIC](https://climatepub4kg
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#HAS_METRIC
+title: HAS_METRIC
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Source
 slot_uri: https://climatepub4kg.github.io/ontology#HAS_METRIC
 alias: https___climatepub4kg.github.io_ontology#HAS_METRIC
 domain_of:

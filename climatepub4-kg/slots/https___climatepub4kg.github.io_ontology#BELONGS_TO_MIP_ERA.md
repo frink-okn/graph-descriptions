@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#BELONGS_TO_MIP_ERA
+# Slot: BELONGS_TO_MIP_ERA (https___climatepub4kg.github.io_ontology#BELONGS_TO_MIP_ERA)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#BELONGS_TO_MIP_ERA](https://clima
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#BELONGS_TO_MIP_ERA
+title: BELONGS_TO_MIP_ERA
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Source
 slot_uri: https://climatepub4kg.github.io/ontology#BELONGS_TO_MIP_ERA
 alias: https___climatepub4kg.github.io_ontology#BELONGS_TO_MIP_ERA
 domain_of:

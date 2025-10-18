@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#USED_IN_EXPERIMENT
+# Slot: USED_IN_EXPERIMENT (https___climatepub4kg.github.io_ontology#USED_IN_EXPERIMENT)
 
 
 
@@ -47,6 +47,7 @@ URI: [https://climatepub4kg.github.io/ontology#USED_IN_EXPERIMENT](https://clima
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#USED_IN_EXPERIMENT
+title: USED_IN_EXPERIMENT
 from_schema: okns:climatepub4-kg
 rank: 1000
 slot_uri: https://climatepub4kg.github.io/ontology#USED_IN_EXPERIMENT
@@ -54,6 +55,9 @@ alias: https___climatepub4kg.github.io_ontology#USED_IN_EXPERIMENT
 domain_of:
 - https___climatepub4kg.github.io_ontology#RCM
 - https___climatepub4kg.github.io_ontology#Source
+union_of:
+- https___climatepub4kg.github.io_ontology#Source
+- https___climatepub4kg.github.io_ontology#RCM
 range: https___climatepub4kg.github.io_ontology#Experiment
 
 ```

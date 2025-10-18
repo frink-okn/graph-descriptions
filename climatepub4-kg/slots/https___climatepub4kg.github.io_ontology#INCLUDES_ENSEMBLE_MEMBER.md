@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#INCLUDES_ENSEMBLE_MEMBER
+# Slot: INCLUDES_ENSEMBLE_MEMBER (https___climatepub4kg.github.io_ontology#INCLUDES_ENSEMBLE_MEMBER)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#INCLUDES_ENSEMBLE_MEMBER](https:/
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#INCLUDES_ENSEMBLE_MEMBER
+title: INCLUDES_ENSEMBLE_MEMBER
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Experiment
 slot_uri: https://climatepub4kg.github.io/ontology#INCLUDES_ENSEMBLE_MEMBER
 alias: https___climatepub4kg.github.io_ontology#INCLUDES_ENSEMBLE_MEMBER
 domain_of:

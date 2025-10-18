@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#PAPER_HAS_INNOVATION
+# Slot: PAPER_HAS_INNOVATION (https___climatepub4kg.github.io_ontology#PAPER_HAS_INNOVATION)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#PAPER_HAS_INNOVATION](https://cli
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#PAPER_HAS_INNOVATION
+title: PAPER_HAS_INNOVATION
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Paper
 slot_uri: https://climatepub4kg.github.io/ontology#PAPER_HAS_INNOVATION
 alias: https___climatepub4kg.github.io_ontology#PAPER_HAS_INNOVATION
 domain_of:

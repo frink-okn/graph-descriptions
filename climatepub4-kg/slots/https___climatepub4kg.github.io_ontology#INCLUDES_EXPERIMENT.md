@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#INCLUDES_EXPERIMENT
+# Slot: INCLUDES_EXPERIMENT (https___climatepub4kg.github.io_ontology#INCLUDES_EXPERIMENT)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#INCLUDES_EXPERIMENT](https://clim
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#INCLUDES_EXPERIMENT
+title: INCLUDES_EXPERIMENT
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#ExperimentFamily
 slot_uri: https://climatepub4kg.github.io/ontology#INCLUDES_EXPERIMENT
 alias: https___climatepub4kg.github.io_ontology#INCLUDES_EXPERIMENT
 domain_of:

@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#INHERITED_FROM
+# Slot: INHERITED_FROM (https___climatepub4kg.github.io_ontology#INHERITED_FROM)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#INHERITED_FROM](https://climatepu
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#INHERITED_FROM
+title: INHERITED_FROM
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Source
 slot_uri: https://climatepub4kg.github.io/ontology#INHERITED_FROM
 alias: https___climatepub4kg.github.io_ontology#INHERITED_FROM
 domain_of:

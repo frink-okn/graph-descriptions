@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE
+# Slot: PRODUCES_VARIABLE (https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE)
 
 
 
@@ -48,6 +48,7 @@ URI: [https://climatepub4kg.github.io/ontology#PRODUCES_VARIABLE](https://climat
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#PRODUCES_VARIABLE
+title: PRODUCES_VARIABLE
 from_schema: okns:climatepub4-kg
 rank: 1000
 slot_uri: https://climatepub4kg.github.io/ontology#PRODUCES_VARIABLE
@@ -56,6 +57,10 @@ domain_of:
 - https___climatepub4kg.github.io_ontology#RCM
 - https___climatepub4kg.github.io_ontology#Source
 - https___climatepub4kg.github.io_ontology#SourceComponent
+union_of:
+- https___climatepub4kg.github.io_ontology#SourceComponent
+- https___climatepub4kg.github.io_ontology#Source
+- https___climatepub4kg.github.io_ontology#RCM
 range: https___climatepub4kg.github.io_ontology#Variable
 
 ```

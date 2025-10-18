@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#PART_OF_PROJECT
+# Slot: PART_OF_PROJECT (https___climatepub4kg.github.io_ontology#PART_OF_PROJECT)
 
 
 
@@ -23,8 +23,8 @@ URI: [https://climatepub4kg.github.io/ontology#PART_OF_PROJECT](https://climatep
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [HttpsClimatepub4kg.github.ioOntology#Source](../classes/HttpsClimatepub4kg.github.ioOntology#Source.md) |  |  no  |
-| [HttpsClimatepub4kg.github.ioOntology#Activity](../classes/HttpsClimatepub4kg.github.ioOntology#Activity.md) |  |  no  |
 | [HttpsClimatepub4kg.github.ioOntology#RCM](../classes/HttpsClimatepub4kg.github.ioOntology#RCM.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#Activity](../classes/HttpsClimatepub4kg.github.ioOntology#Activity.md) |  |  no  |
 | [HttpsClimatepub4kg.github.ioOntology#Experiment](../classes/HttpsClimatepub4kg.github.ioOntology#Experiment.md) |  |  no  |
 
 
@@ -49,6 +49,7 @@ URI: [https://climatepub4kg.github.io/ontology#PART_OF_PROJECT](https://climatep
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#PART_OF_PROJECT
+title: PART_OF_PROJECT
 from_schema: okns:climatepub4-kg
 rank: 1000
 slot_uri: https://climatepub4kg.github.io/ontology#PART_OF_PROJECT
@@ -58,6 +59,11 @@ domain_of:
 - https___climatepub4kg.github.io_ontology#Experiment
 - https___climatepub4kg.github.io_ontology#RCM
 - https___climatepub4kg.github.io_ontology#Source
+union_of:
+- https___climatepub4kg.github.io_ontology#Experiment
+- https___climatepub4kg.github.io_ontology#RCM
+- https___climatepub4kg.github.io_ontology#Source
+- https___climatepub4kg.github.io_ontology#Activity
 range: https___climatepub4kg.github.io_ontology#Project
 
 ```

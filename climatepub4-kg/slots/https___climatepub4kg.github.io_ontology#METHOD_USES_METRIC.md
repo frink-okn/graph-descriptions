@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#METHOD_USES_METRIC
+# Slot: METHOD_USES_METRIC (https___climatepub4kg.github.io_ontology#METHOD_USES_METRIC)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#METHOD_USES_METRIC](https://clima
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#METHOD_USES_METRIC
+title: METHOD_USES_METRIC
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Method
 slot_uri: https://climatepub4kg.github.io/ontology#METHOD_USES_METRIC
 alias: https___climatepub4kg.github.io_ontology#METHOD_USES_METRIC
 domain_of:

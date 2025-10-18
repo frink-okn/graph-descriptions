@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#IN_CONTINENT
+# Slot: IN_CONTINENT (https___climatepub4kg.github.io_ontology#IN_CONTINENT)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#IN_CONTINENT](https://climatepub4
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#IN_CONTINENT
+title: IN_CONTINENT
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Country
 slot_uri: https://climatepub4kg.github.io/ontology#IN_CONTINENT
 alias: https___climatepub4kg.github.io_ontology#IN_CONTINENT
 domain_of:

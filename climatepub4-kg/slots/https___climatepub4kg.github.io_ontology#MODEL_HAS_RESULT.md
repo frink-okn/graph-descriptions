@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#MODEL_HAS_RESULT
+# Slot: MODEL_HAS_RESULT (https___climatepub4kg.github.io_ontology#MODEL_HAS_RESULT)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#MODEL_HAS_RESULT](https://climate
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#MODEL_HAS_RESULT
+title: MODEL_HAS_RESULT
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Model
 slot_uri: https://climatepub4kg.github.io/ontology#MODEL_HAS_RESULT
 alias: https___climatepub4kg.github.io_ontology#MODEL_HAS_RESULT
 domain_of:

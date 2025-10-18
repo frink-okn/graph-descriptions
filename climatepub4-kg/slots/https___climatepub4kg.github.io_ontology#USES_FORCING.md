@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#USES_FORCING
+# Slot: USES_FORCING (https___climatepub4kg.github.io_ontology#USES_FORCING)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#USES_FORCING](https://climatepub4
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#USES_FORCING
+title: USES_FORCING
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Experiment
 slot_uri: https://climatepub4kg.github.io/ontology#USES_FORCING
 alias: https___climatepub4kg.github.io_ontology#USES_FORCING
 domain_of:

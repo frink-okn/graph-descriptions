@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#COVERS_DOMAIN
+# Slot: COVERS_DOMAIN (https___climatepub4kg.github.io_ontology#COVERS_DOMAIN)
 
 
 
@@ -22,8 +22,8 @@ URI: [https://climatepub4kg.github.io/ontology#COVERS_DOMAIN](https://climatepub
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpsClimatepub4kg.github.ioOntology#RCM](../classes/HttpsClimatepub4kg.github.ioOntology#RCM.md) |  |  no  |
 | [HttpsClimatepub4kg.github.ioOntology#Project](../classes/HttpsClimatepub4kg.github.ioOntology#Project.md) |  |  no  |
+| [HttpsClimatepub4kg.github.ioOntology#RCM](../classes/HttpsClimatepub4kg.github.ioOntology#RCM.md) |  |  no  |
 
 
 
@@ -47,6 +47,7 @@ URI: [https://climatepub4kg.github.io/ontology#COVERS_DOMAIN](https://climatepub
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#COVERS_DOMAIN
+title: COVERS_DOMAIN
 from_schema: okns:climatepub4-kg
 rank: 1000
 slot_uri: https://climatepub4kg.github.io/ontology#COVERS_DOMAIN
@@ -54,6 +55,9 @@ alias: https___climatepub4kg.github.io_ontology#COVERS_DOMAIN
 domain_of:
 - https___climatepub4kg.github.io_ontology#Project
 - https___climatepub4kg.github.io_ontology#RCM
+union_of:
+- https___climatepub4kg.github.io_ontology#RCM
+- https___climatepub4kg.github.io_ontology#Project
 range: https___climatepub4kg.github.io_ontology#Domain
 
 ```

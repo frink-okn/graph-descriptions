@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#PRODUCED_BY_INSTITUTE
+# Slot: PRODUCED_BY_INSTITUTE (https___climatepub4kg.github.io_ontology#PRODUCED_BY_INSTITUTE)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#PRODUCED_BY_INSTITUTE](https://cl
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#PRODUCED_BY_INSTITUTE
+title: PRODUCED_BY_INSTITUTE
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Source
 slot_uri: https://climatepub4kg.github.io/ontology#PRODUCED_BY_INSTITUTE
 alias: https___climatepub4kg.github.io_ontology#PRODUCED_BY_INSTITUTE
 domain_of:

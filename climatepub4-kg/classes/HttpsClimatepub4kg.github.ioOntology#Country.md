@@ -1,6 +1,6 @@
 
 
-# Class: HttpsClimatepub4kg.github.ioOntology#Country
+# Class: Country (https___climatepub4kg.github.io_ontology#Country)
 
 
 
@@ -19,6 +19,96 @@ URI: [https://climatepub4kg.github.io/ontology#Country](https://climatepub4kg.gi
  classDiagram
     class HttpsClimatepub4kg.github.ioOntology#Country
     click HttpsClimatepub4kg.github.ioOntology#Country href "../HttpsClimatepub4kg.github.ioOntology#Country"
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#area_sqkm
+        
+          
+    
+    
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#area_sqkm
+    click String href "../String"
+
+        
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#capital
+        
+          
+    
+    
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#capital
+    click String href "../String"
+
+        
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#continent
+        
+          
+    
+    
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#continent
+    click String href "../String"
+
+        
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#country
+        
+          
+    
+    
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#country
+    click String href "../String"
+
+        
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#currencycode
+        
+          
+    
+    
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#currencycode
+    click String href "../String"
+
+        
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#currencyname
+        
+          
+    
+    
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#currencyname
+    click String href "../String"
+
+        
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#east
+        
+          
+    
+    
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#east
+    click String href "../String"
+
+        
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#equivalent_fips_code
+        
+          
+    
+    
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#equivalent_fips_code
+    click String href "../String"
+
+        
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#fips
+        
+          
+    
+    
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#fips
+    click String href "../String"
+
+        
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#geonameid
+        
+          
+    
+    
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#geonameid
+    click String href "../String"
+
+        
       HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#IN_CONTINENT
         
           
@@ -28,228 +118,138 @@ URI: [https://climatepub4kg.github.io/ontology#Country](https://climatepub4kg.gi
     click HttpsClimatepub4kg.github.ioOntology#Continent href "../HttpsClimatepub4kg.github.ioOntology#Continent"
 
         
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_area_sqkm
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#iso
         
           
     
     
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_area_sqkm
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#iso
     click String href "../String"
 
         
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_capital
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#iso3
         
           
     
     
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_capital
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#iso3
     click String href "../String"
 
         
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_continent
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#isonumeric
         
           
     
     
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_continent
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#isonumeric
     click String href "../String"
 
         
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_country
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#languages
         
           
     
     
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_country
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#languages
     click String href "../String"
 
         
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_currencycode
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#name
         
           
     
     
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_currencycode
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#name
     click String href "../String"
 
         
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_currencyname
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#neighbours
         
           
     
     
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_currencyname
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#neighbours
     click String href "../String"
 
         
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_east
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#north
         
           
     
     
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_east
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#north
     click String href "../String"
 
         
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_equivalent_fips_code
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#phone
         
           
     
     
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_equivalent_fips_code
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#phone
     click String href "../String"
 
         
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_fips
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#population
         
           
     
     
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_fips
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#population
     click String href "../String"
 
         
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_geonameid
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#postal_code_format
         
           
     
     
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_geonameid
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#postal_code_format
     click String href "../String"
 
         
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_iso
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#postal_code_regex
         
           
     
     
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_iso
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#postal_code_regex
     click String href "../String"
 
         
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_iso3
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#south
         
           
     
     
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_iso3
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#south
     click String href "../String"
 
         
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_isonumeric
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#tld
         
           
     
     
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_isonumeric
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#tld
     click String href "../String"
 
         
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_languages
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#uuid
         
           
     
     
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_languages
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#uuid
     click String href "../String"
 
         
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_name
+      HttpsClimatepub4kg.github.ioOntology#Country : https___climatepub4kg.github.io_ontology#west
         
           
     
     
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_name
-    click String href "../String"
-
-        
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_neighbours
-        
-          
-    
-    
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_neighbours
-    click String href "../String"
-
-        
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_north
-        
-          
-    
-    
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_north
-    click String href "../String"
-
-        
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_phone
-        
-          
-    
-    
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_phone
-    click String href "../String"
-
-        
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_population
-        
-          
-    
-    
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_population
-    click String href "../String"
-
-        
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_postal_code_format
-        
-          
-    
-    
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_postal_code_format
-    click String href "../String"
-
-        
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_postal_code_regex
-        
-          
-    
-    
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_postal_code_regex
-    click String href "../String"
-
-        
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_south
-        
-          
-    
-    
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_south
-    click String href "../String"
-
-        
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_tld
-        
-          
-    
-    
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_tld
-    click String href "../String"
-
-        
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_uuid
-        
-          
-    
-    
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_uuid
-    click String href "../String"
-
-        
-      HttpsClimatepub4kg.github.ioOntology#Country : neo4j_west
-        
-          
-    
-    
-    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : neo4j_west
+    HttpsClimatepub4kg.github.ioOntology#Country --> "0..1" String : https___climatepub4kg.github.io_ontology#west
     click String href "../String"
 
         
@@ -266,32 +266,32 @@ URI: [https://climatepub4kg.github.io/ontology#Country](https://climatepub4kg.gi
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [neo4j_currencycode](../slots/neo4j_currencycode.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_area_sqkm](../slots/neo4j_area_sqkm.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_east](../slots/neo4j_east.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_currencyname](../slots/neo4j_currencyname.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_geonameid](../slots/neo4j_geonameid.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_north](../slots/neo4j_north.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_population](../slots/neo4j_population.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_name](../slots/neo4j_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_phone](../slots/neo4j_phone.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_country](../slots/neo4j_country.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_postal_code_format](../slots/neo4j_postal_code_format.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_isonumeric](../slots/neo4j_isonumeric.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_neighbours](../slots/neo4j_neighbours.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_tld](../slots/neo4j_tld.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_uuid](../slots/neo4j_uuid.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_fips](../slots/neo4j_fips.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_south](../slots/neo4j_south.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_capital](../slots/neo4j_capital.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#equivalent_fips_code](../slots/https___climatepub4kg.github.io_ontology#equivalent_fips_code.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#continent](../slots/https___climatepub4kg.github.io_ontology#continent.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#currencycode](../slots/https___climatepub4kg.github.io_ontology#currencycode.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#area_sqkm](../slots/https___climatepub4kg.github.io_ontology#area_sqkm.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#geonameid](../slots/https___climatepub4kg.github.io_ontology#geonameid.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#postal_code_regex](../slots/https___climatepub4kg.github.io_ontology#postal_code_regex.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#capital](../slots/https___climatepub4kg.github.io_ontology#capital.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
 | [https___climatepub4kg.github.io_ontology#IN_CONTINENT](../slots/https___climatepub4kg.github.io_ontology#IN_CONTINENT.md) | 0..1 <br/> [HttpsClimatepub4kg.github.ioOntology#Continent](../classes/HttpsClimatepub4kg.github.ioOntology#Continent.md) |  <br/>  | direct | 210 |
-| [neo4j_iso](../slots/neo4j_iso.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_continent](../slots/neo4j_continent.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_iso3](../slots/neo4j_iso3.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_languages](../slots/neo4j_languages.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_postal_code_regex](../slots/neo4j_postal_code_regex.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_equivalent_fips_code](../slots/neo4j_equivalent_fips_code.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
-| [neo4j_west](../slots/neo4j_west.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#fips](../slots/https___climatepub4kg.github.io_ontology#fips.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#population](../slots/https___climatepub4kg.github.io_ontology#population.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#south](../slots/https___climatepub4kg.github.io_ontology#south.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#isonumeric](../slots/https___climatepub4kg.github.io_ontology#isonumeric.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#neighbours](../slots/https___climatepub4kg.github.io_ontology#neighbours.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#iso](../slots/https___climatepub4kg.github.io_ontology#iso.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#currencyname](../slots/https___climatepub4kg.github.io_ontology#currencyname.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#iso3](../slots/https___climatepub4kg.github.io_ontology#iso3.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#east](../slots/https___climatepub4kg.github.io_ontology#east.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#tld](../slots/https___climatepub4kg.github.io_ontology#tld.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#west](../slots/https___climatepub4kg.github.io_ontology#west.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#north](../slots/https___climatepub4kg.github.io_ontology#north.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#name](../slots/https___climatepub4kg.github.io_ontology#name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#phone](../slots/https___climatepub4kg.github.io_ontology#phone.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#country](../slots/https___climatepub4kg.github.io_ontology#country.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#languages](../slots/https___climatepub4kg.github.io_ontology#languages.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#postal_code_format](../slots/https___climatepub4kg.github.io_ontology#postal_code_format.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
+| [https___climatepub4kg.github.io_ontology#uuid](../slots/https___climatepub4kg.github.io_ontology#uuid.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 252 |
 
 
 
@@ -302,6 +302,23 @@ URI: [https://climatepub4kg.github.io/ontology#Country](https://climatepub4kg.gi
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
 | [HttpsClimatepub4kg.github.ioOntology#City](../classes/HttpsClimatepub4kg.github.ioOntology#City.md) | [https___climatepub4kg.github.io_ontology#IN_COUNTRY](../slots/https___climatepub4kg.github.io_ontology#IN_COUNTRY.md) | range | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
+| [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) | [https___climatepub4kg.github.io_ontology#equivalent_fips_code](../slots/https___climatepub4kg.github.io_ontology#equivalent_fips_code.md) | domain | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
+| [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) | [https___climatepub4kg.github.io_ontology#continent](../slots/https___climatepub4kg.github.io_ontology#continent.md) | domain | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
+| [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) | [https___climatepub4kg.github.io_ontology#currencycode](../slots/https___climatepub4kg.github.io_ontology#currencycode.md) | domain | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
+| [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) | [https___climatepub4kg.github.io_ontology#area_sqkm](../slots/https___climatepub4kg.github.io_ontology#area_sqkm.md) | domain | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
+| [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) | [https___climatepub4kg.github.io_ontology#postal_code_regex](../slots/https___climatepub4kg.github.io_ontology#postal_code_regex.md) | domain | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
+| [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) | [https___climatepub4kg.github.io_ontology#capital](../slots/https___climatepub4kg.github.io_ontology#capital.md) | domain | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
+| [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) | [https___climatepub4kg.github.io_ontology#IN_CONTINENT](../slots/https___climatepub4kg.github.io_ontology#IN_CONTINENT.md) | domain | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
+| [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) | [https___climatepub4kg.github.io_ontology#fips](../slots/https___climatepub4kg.github.io_ontology#fips.md) | domain | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
+| [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) | [https___climatepub4kg.github.io_ontology#isonumeric](../slots/https___climatepub4kg.github.io_ontology#isonumeric.md) | domain | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
+| [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) | [https___climatepub4kg.github.io_ontology#neighbours](../slots/https___climatepub4kg.github.io_ontology#neighbours.md) | domain | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
+| [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) | [https___climatepub4kg.github.io_ontology#currencyname](../slots/https___climatepub4kg.github.io_ontology#currencyname.md) | domain | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
+| [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) | [https___climatepub4kg.github.io_ontology#iso3](../slots/https___climatepub4kg.github.io_ontology#iso3.md) | domain | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
+| [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) | [https___climatepub4kg.github.io_ontology#tld](../slots/https___climatepub4kg.github.io_ontology#tld.md) | domain | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
+| [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) | [https___climatepub4kg.github.io_ontology#phone](../slots/https___climatepub4kg.github.io_ontology#phone.md) | domain | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
+| [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) | [https___climatepub4kg.github.io_ontology#country](../slots/https___climatepub4kg.github.io_ontology#country.md) | domain | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
+| [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) | [https___climatepub4kg.github.io_ontology#languages](../slots/https___climatepub4kg.github.io_ontology#languages.md) | domain | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
+| [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) | [https___climatepub4kg.github.io_ontology#postal_code_format](../slots/https___climatepub4kg.github.io_ontology#postal_code_format.md) | domain | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
 | [HttpsClimatepub4kg.github.ioOntology#CountrySubdivision](../classes/HttpsClimatepub4kg.github.ioOntology#CountrySubdivision.md) | [https___climatepub4kg.github.io_ontology#IN_COUNTRY](../slots/https___climatepub4kg.github.io_ontology#IN_COUNTRY.md) | range | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
 | [HttpsClimatepub4kg.github.ioOntology#Paper](../classes/HttpsClimatepub4kg.github.ioOntology#Paper.md) | [https___climatepub4kg.github.io_ontology#PAPER_MENTIONS](../slots/https___climatepub4kg.github.io_ontology#PAPER_MENTIONS.md) | any_of[range] | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
 | [HttpsClimatepub4kg.github.ioOntology#RCM](../classes/HttpsClimatepub4kg.github.ioOntology#RCM.md) | [https___climatepub4kg.github.io_ontology#COVERS_REGION](../slots/https___climatepub4kg.github.io_ontology#COVERS_REGION.md) | any_of[range] | [HttpsClimatepub4kg.github.ioOntology#Country](../classes/HttpsClimatepub4kg.github.ioOntology#Country.md) |
@@ -326,35 +343,36 @@ URI: [https://climatepub4kg.github.io/ontology#Country](https://climatepub4kg.gi
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#Country
+title: Country
 from_schema: okns:climatepub4-kg
 rank: 1000
 slots:
-- neo4j_currencycode
-- neo4j_area_sqkm
-- neo4j_east
-- neo4j_currencyname
-- neo4j_geonameid
-- neo4j_north
-- neo4j_population
-- neo4j_name
-- neo4j_phone
-- neo4j_country
-- neo4j_postal_code_format
-- neo4j_isonumeric
-- neo4j_neighbours
-- neo4j_tld
-- neo4j_uuid
-- neo4j_fips
-- neo4j_south
-- neo4j_capital
+- https___climatepub4kg.github.io_ontology#equivalent_fips_code
+- https___climatepub4kg.github.io_ontology#continent
+- https___climatepub4kg.github.io_ontology#currencycode
+- https___climatepub4kg.github.io_ontology#area_sqkm
+- https___climatepub4kg.github.io_ontology#geonameid
+- https___climatepub4kg.github.io_ontology#postal_code_regex
+- https___climatepub4kg.github.io_ontology#capital
 - https___climatepub4kg.github.io_ontology#IN_CONTINENT
-- neo4j_iso
-- neo4j_continent
-- neo4j_iso3
-- neo4j_languages
-- neo4j_postal_code_regex
-- neo4j_equivalent_fips_code
-- neo4j_west
+- https___climatepub4kg.github.io_ontology#fips
+- https___climatepub4kg.github.io_ontology#population
+- https___climatepub4kg.github.io_ontology#south
+- https___climatepub4kg.github.io_ontology#isonumeric
+- https___climatepub4kg.github.io_ontology#neighbours
+- https___climatepub4kg.github.io_ontology#iso
+- https___climatepub4kg.github.io_ontology#currencyname
+- https___climatepub4kg.github.io_ontology#iso3
+- https___climatepub4kg.github.io_ontology#east
+- https___climatepub4kg.github.io_ontology#tld
+- https___climatepub4kg.github.io_ontology#west
+- https___climatepub4kg.github.io_ontology#north
+- https___climatepub4kg.github.io_ontology#name
+- https___climatepub4kg.github.io_ontology#phone
+- https___climatepub4kg.github.io_ontology#country
+- https___climatepub4kg.github.io_ontology#languages
+- https___climatepub4kg.github.io_ontology#postal_code_format
+- https___climatepub4kg.github.io_ontology#uuid
 class_uri: https://climatepub4kg.github.io/ontology#Country
 
 ```
@@ -366,69 +384,65 @@ class_uri: https://climatepub4kg.github.io/ontology#Country
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#Country
+title: Country
 from_schema: okns:climatepub4-kg
 rank: 1000
 attributes:
-  neo4j_currencycode:
-    name: neo4j_currencycode
+  https___climatepub4kg.github.io_ontology#equivalent_fips_code:
+    name: https___climatepub4kg.github.io_ontology#equivalent_fips_code
+    title: equivalent_fips_code
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    domain: https___climatepub4kg.github.io_ontology#Country
+    slot_uri: https://climatepub4kg.github.io/ontology#equivalent_fips_code
+    alias: https___climatepub4kg.github.io_ontology#equivalent_fips_code
+    owner: https___climatepub4kg.github.io_ontology#Country
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#Country
+    range: string
+  https___climatepub4kg.github.io_ontology#continent:
+    name: https___climatepub4kg.github.io_ontology#continent
+    title: continent
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    domain: https___climatepub4kg.github.io_ontology#Country
+    slot_uri: https://climatepub4kg.github.io/ontology#continent
+    alias: https___climatepub4kg.github.io_ontology#continent
+    owner: https___climatepub4kg.github.io_ontology#Country
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#Country
+    range: string
+  https___climatepub4kg.github.io_ontology#currencycode:
+    name: https___climatepub4kg.github.io_ontology#currencycode
     title: currencycode
     from_schema: okns:climatepub4-kg
     rank: 1000
-    domain: neo4j_Country
-    slot_uri: neo4j:currencycode
-    alias: neo4j_currencycode
+    domain: https___climatepub4kg.github.io_ontology#Country
+    slot_uri: https://climatepub4kg.github.io/ontology#currencycode
+    alias: https___climatepub4kg.github.io_ontology#currencycode
     owner: https___climatepub4kg.github.io_ontology#Country
     domain_of:
     - https___climatepub4kg.github.io_ontology#Country
     range: string
-  neo4j_area_sqkm:
-    name: neo4j_area_sqkm
+  https___climatepub4kg.github.io_ontology#area_sqkm:
+    name: https___climatepub4kg.github.io_ontology#area_sqkm
     title: area_sqkm
     from_schema: okns:climatepub4-kg
     rank: 1000
-    domain: neo4j_Country
-    slot_uri: neo4j:area_sqkm
-    alias: neo4j_area_sqkm
+    domain: https___climatepub4kg.github.io_ontology#Country
+    slot_uri: https://climatepub4kg.github.io/ontology#area_sqkm
+    alias: https___climatepub4kg.github.io_ontology#area_sqkm
     owner: https___climatepub4kg.github.io_ontology#Country
     domain_of:
     - https___climatepub4kg.github.io_ontology#Country
     range: string
-  neo4j_east:
-    name: neo4j_east
-    title: east
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    slot_uri: neo4j:east
-    alias: neo4j_east
-    owner: https___climatepub4kg.github.io_ontology#Country
-    domain_of:
-    - https___climatepub4kg.github.io_ontology#Country
-    - https___climatepub4kg.github.io_ontology#Country_Subdivision
-    - https___climatepub4kg.github.io_ontology#Water_Bodies
-    union_of:
-    - neo4j_Country
-    - neo4j_Water_Bodies
-    - neo4j_Country_Subdivision
-    range: string
-  neo4j_currencyname:
-    name: neo4j_currencyname
-    title: currencyname
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    domain: neo4j_Country
-    slot_uri: neo4j:currencyname
-    alias: neo4j_currencyname
-    owner: https___climatepub4kg.github.io_ontology#Country
-    domain_of:
-    - https___climatepub4kg.github.io_ontology#Country
-    range: string
-  neo4j_geonameid:
-    name: neo4j_geonameid
+  https___climatepub4kg.github.io_ontology#geonameid:
+    name: https___climatepub4kg.github.io_ontology#geonameid
     title: geonameid
     from_schema: okns:climatepub4-kg
     rank: 1000
-    slot_uri: neo4j:geonameid
-    alias: neo4j_geonameid
+    slot_uri: https://climatepub4kg.github.io/ontology#geonameid
+    alias: https___climatepub4kg.github.io_ontology#geonameid
     owner: https___climatepub4kg.github.io_ontology#Country
     domain_of:
     - https___climatepub4kg.github.io_ontology#City
@@ -438,467 +452,474 @@ attributes:
     - https___climatepub4kg.github.io_ontology#No_Country_Region
     - https___climatepub4kg.github.io_ontology#Water_Bodies
     union_of:
-    - neo4j_Country
-    - neo4j_City
-    - neo4j_Country_Subdivision
-    - neo4j_Continent
-    - neo4j_No_Country_Region
-    - neo4j_Water_Bodies
-    range: string
-  neo4j_north:
-    name: neo4j_north
-    title: north
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    slot_uri: neo4j:north
-    alias: neo4j_north
-    owner: https___climatepub4kg.github.io_ontology#Country
-    domain_of:
-    - https___climatepub4kg.github.io_ontology#Country
-    - https___climatepub4kg.github.io_ontology#Country_Subdivision
-    - https___climatepub4kg.github.io_ontology#Water_Bodies
-    union_of:
-    - neo4j_Country
-    - neo4j_Water_Bodies
-    - neo4j_Country_Subdivision
-    range: string
-  neo4j_population:
-    name: neo4j_population
-    title: population
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    slot_uri: neo4j:population
-    alias: neo4j_population
-    owner: https___climatepub4kg.github.io_ontology#Country
-    domain_of:
-    - https___climatepub4kg.github.io_ontology#City
-    - https___climatepub4kg.github.io_ontology#Country
-    - https___climatepub4kg.github.io_ontology#No_Country_Region
-    union_of:
-    - neo4j_Country
-    - neo4j_City
-    - neo4j_No_Country_Region
-    range: string
-  neo4j_name:
-    name: neo4j_name
-    title: name
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    slot_uri: neo4j:name
-    alias: neo4j_name
-    owner: https___climatepub4kg.github.io_ontology#Country
-    domain_of:
-    - https___climatepub4kg.github.io_ontology#Activity
-    - https___climatepub4kg.github.io_ontology#City
     - https___climatepub4kg.github.io_ontology#Continent
-    - https___climatepub4kg.github.io_ontology#Country
-    - https___climatepub4kg.github.io_ontology#Country_Subdivision
-    - https___climatepub4kg.github.io_ontology#Domain
-    - https___climatepub4kg.github.io_ontology#Ensemble
-    - https___climatepub4kg.github.io_ontology#Experiment
-    - https___climatepub4kg.github.io_ontology#ExperimentFamily
-    - https___climatepub4kg.github.io_ontology#Field
-    - https___climatepub4kg.github.io_ontology#Forcing
-    - https___climatepub4kg.github.io_ontology#Frequency
-    - https___climatepub4kg.github.io_ontology#Innovation
-    - https___climatepub4kg.github.io_ontology#Institute
-    - https___climatepub4kg.github.io_ontology#Instrument
-    - https___climatepub4kg.github.io_ontology#Keyword
-    - https___climatepub4kg.github.io_ontology#MIPEra
-    - https___climatepub4kg.github.io_ontology#Member
-    - https___climatepub4kg.github.io_ontology#Method
-    - https___climatepub4kg.github.io_ontology#Metric
-    - https___climatepub4kg.github.io_ontology#Model
-    - https___climatepub4kg.github.io_ontology#Natural_Hazard
     - https___climatepub4kg.github.io_ontology#No_Country_Region
-    - https___climatepub4kg.github.io_ontology#ObservationalDataset
-    - https___climatepub4kg.github.io_ontology#Ocean_Circulation
-    - https___climatepub4kg.github.io_ontology#Paper
-    - https___climatepub4kg.github.io_ontology#PhysicalFeature
-    - https___climatepub4kg.github.io_ontology#PhysicalScheme
-    - https___climatepub4kg.github.io_ontology#Platform
-    - https___climatepub4kg.github.io_ontology#Problem
-    - https___climatepub4kg.github.io_ontology#Project
-    - https___climatepub4kg.github.io_ontology#RCM
-    - https___climatepub4kg.github.io_ontology#Realm
-    - https___climatepub4kg.github.io_ontology#Resolution
-    - https___climatepub4kg.github.io_ontology#Result
-    - https___climatepub4kg.github.io_ontology#SimulationType
-    - https___climatepub4kg.github.io_ontology#Source
-    - https___climatepub4kg.github.io_ontology#SourceComponent
-    - https___climatepub4kg.github.io_ontology#SourceType
-    - https___climatepub4kg.github.io_ontology#SubExperiment
-    - https___climatepub4kg.github.io_ontology#Task
-    - https___climatepub4kg.github.io_ontology#Teleconnection
-    - https___climatepub4kg.github.io_ontology#Variable
-    - https___climatepub4kg.github.io_ontology#Water_Bodies
-    - https___climatepub4kg.github.io_ontology#Weather_Event
-    union_of:
-    - neo4j_Experiment
-    - neo4j_Model
-    - neo4j_Institute
-    - neo4j_ObservationalDataset
-    - neo4j_Instrument
-    - neo4j_Method
-    - neo4j_Metric
-    - neo4j_Member
-    - neo4j_No_Country_Region
-    - neo4j_Natural_Hazard
-    - neo4j_Problem
-    - neo4j_Water_Bodies
-    - neo4j_Country
-    - neo4j_GridLabel
-    - neo4j_Innovation
-    - neo4j_Project
-    - neo4j_Ensemble
-    - neo4j_SourceType
-    - neo4j_ExperimentFamily
-    - neo4j_Forcing
-    - neo4j_NaturalHazardType
-    - neo4j_Ocean_Circulation
-    - neo4j_Variable
-    - neo4j_Field
-    - neo4j_Teleconnection
-    - neo4j_City
-    - neo4j_RCM
-    - neo4j_Keyword
-    - neo4j_Continent
-    - neo4j_Task
-    - neo4j_Domain
-    - neo4j_PhysicalScheme
-    - neo4j_SubExperiment
-    - neo4j_Paper
-    - neo4j_MIPEra
-    - neo4j_Weather_Event
-    - neo4j_Result
-    - neo4j_Platform
-    - neo4j_Frequency
-    - neo4j_Country_Subdivision
-    - neo4j_Realm
-    - neo4j_SimulationType
-    - neo4j_Activity
-    - neo4j_Resolution
-    - neo4j_PhysicalFeature
-    - neo4j_SourceComponent
-    - neo4j_Source
-    range: string
-  neo4j_phone:
-    name: neo4j_phone
-    title: phone
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    domain: neo4j_Country
-    slot_uri: neo4j:phone
-    alias: neo4j_phone
-    owner: https___climatepub4kg.github.io_ontology#Country
-    domain_of:
-    - https___climatepub4kg.github.io_ontology#Country
-    range: string
-  neo4j_country:
-    name: neo4j_country
-    title: country
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    domain: neo4j_Country
-    slot_uri: neo4j:country
-    alias: neo4j_country
-    owner: https___climatepub4kg.github.io_ontology#Country
-    domain_of:
-    - https___climatepub4kg.github.io_ontology#Country
-    range: string
-  neo4j_postal_code_format:
-    name: neo4j_postal_code_format
-    title: postal_code_format
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    domain: neo4j_Country
-    slot_uri: neo4j:postal_code_format
-    alias: neo4j_postal_code_format
-    owner: https___climatepub4kg.github.io_ontology#Country
-    domain_of:
-    - https___climatepub4kg.github.io_ontology#Country
-    range: string
-  neo4j_isonumeric:
-    name: neo4j_isonumeric
-    title: isonumeric
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    domain: neo4j_Country
-    slot_uri: neo4j:isonumeric
-    alias: neo4j_isonumeric
-    owner: https___climatepub4kg.github.io_ontology#Country
-    domain_of:
-    - https___climatepub4kg.github.io_ontology#Country
-    range: string
-  neo4j_neighbours:
-    name: neo4j_neighbours
-    title: neighbours
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    domain: neo4j_Country
-    slot_uri: neo4j:neighbours
-    alias: neo4j_neighbours
-    owner: https___climatepub4kg.github.io_ontology#Country
-    domain_of:
-    - https___climatepub4kg.github.io_ontology#Country
-    range: string
-  neo4j_tld:
-    name: neo4j_tld
-    title: tld
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    domain: neo4j_Country
-    slot_uri: neo4j:tld
-    alias: neo4j_tld
-    owner: https___climatepub4kg.github.io_ontology#Country
-    domain_of:
-    - https___climatepub4kg.github.io_ontology#Country
-    range: string
-  neo4j_uuid:
-    name: neo4j_uuid
-    title: uuid
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    slot_uri: neo4j:uuid
-    alias: neo4j_uuid
-    owner: https___climatepub4kg.github.io_ontology#Country
-    domain_of:
-    - https___climatepub4kg.github.io_ontology#Activity
+    - https___climatepub4kg.github.io_ontology#Country_Subdivision
     - https___climatepub4kg.github.io_ontology#City
-    - https___climatepub4kg.github.io_ontology#Continent
-    - https___climatepub4kg.github.io_ontology#Country
-    - https___climatepub4kg.github.io_ontology#Country_Subdivision
-    - https___climatepub4kg.github.io_ontology#Domain
-    - https___climatepub4kg.github.io_ontology#Ensemble
-    - https___climatepub4kg.github.io_ontology#Experiment
-    - https___climatepub4kg.github.io_ontology#ExperimentFamily
-    - https___climatepub4kg.github.io_ontology#Field
-    - https___climatepub4kg.github.io_ontology#Forcing
-    - https___climatepub4kg.github.io_ontology#Frequency
-    - https___climatepub4kg.github.io_ontology#Innovation
-    - https___climatepub4kg.github.io_ontology#Institute
-    - https___climatepub4kg.github.io_ontology#Instrument
-    - https___climatepub4kg.github.io_ontology#Keyword
-    - https___climatepub4kg.github.io_ontology#MIPEra
-    - https___climatepub4kg.github.io_ontology#Member
-    - https___climatepub4kg.github.io_ontology#Method
-    - https___climatepub4kg.github.io_ontology#Metric
-    - https___climatepub4kg.github.io_ontology#Model
-    - https___climatepub4kg.github.io_ontology#Natural_Hazard
-    - https___climatepub4kg.github.io_ontology#No_Country_Region
-    - https___climatepub4kg.github.io_ontology#ObservationalDataset
-    - https___climatepub4kg.github.io_ontology#Ocean_Circulation
-    - https___climatepub4kg.github.io_ontology#Paper
-    - https___climatepub4kg.github.io_ontology#PhysicalFeature
-    - https___climatepub4kg.github.io_ontology#PhysicalScheme
-    - https___climatepub4kg.github.io_ontology#Platform
-    - https___climatepub4kg.github.io_ontology#Problem
-    - https___climatepub4kg.github.io_ontology#Project
-    - https___climatepub4kg.github.io_ontology#RCM
-    - https___climatepub4kg.github.io_ontology#Realm
-    - https___climatepub4kg.github.io_ontology#Resolution
-    - https___climatepub4kg.github.io_ontology#Result
-    - https___climatepub4kg.github.io_ontology#SimulationType
-    - https___climatepub4kg.github.io_ontology#Source
-    - https___climatepub4kg.github.io_ontology#SourceComponent
-    - https___climatepub4kg.github.io_ontology#SourceType
-    - https___climatepub4kg.github.io_ontology#SubExperiment
-    - https___climatepub4kg.github.io_ontology#Task
-    - https___climatepub4kg.github.io_ontology#Teleconnection
-    - https___climatepub4kg.github.io_ontology#Variable
     - https___climatepub4kg.github.io_ontology#Water_Bodies
-    - https___climatepub4kg.github.io_ontology#Weather_Event
-    union_of:
-    - neo4j_Experiment
-    - neo4j_Model
-    - neo4j_Institute
-    - neo4j_ObservationalDataset
-    - neo4j_Instrument
-    - neo4j_Method
-    - neo4j_Metric
-    - neo4j_Member
-    - neo4j_No_Country_Region
-    - neo4j_Natural_Hazard
-    - neo4j_Problem
-    - neo4j_Water_Bodies
-    - neo4j_Country
-    - neo4j_GridLabel
-    - neo4j_Innovation
-    - neo4j_Project
-    - neo4j_Ensemble
-    - neo4j_SourceType
-    - neo4j_ExperimentFamily
-    - neo4j_Forcing
-    - neo4j_NaturalHazardType
-    - neo4j_Ocean_Circulation
-    - neo4j_Variable
-    - neo4j_Field
-    - neo4j_Teleconnection
-    - neo4j_City
-    - neo4j_RCM
-    - neo4j_Keyword
-    - neo4j_Continent
-    - neo4j_Task
-    - neo4j_Domain
-    - neo4j_PhysicalScheme
-    - neo4j_SubExperiment
-    - neo4j_Paper
-    - neo4j_MIPEra
-    - neo4j_Weather_Event
-    - neo4j_Result
-    - neo4j_Platform
-    - neo4j_Frequency
-    - neo4j_Country_Subdivision
-    - neo4j_Realm
-    - neo4j_SimulationType
-    - neo4j_Activity
-    - neo4j_Resolution
-    - neo4j_PhysicalFeature
-    - neo4j_SourceComponent
-    - neo4j_Source
+    - https___climatepub4kg.github.io_ontology#Country
     range: string
-  neo4j_fips:
-    name: neo4j_fips
-    title: fips
+  https___climatepub4kg.github.io_ontology#postal_code_regex:
+    name: https___climatepub4kg.github.io_ontology#postal_code_regex
+    title: postal_code_regex
     from_schema: okns:climatepub4-kg
     rank: 1000
-    domain: neo4j_Country
-    slot_uri: neo4j:fips
-    alias: neo4j_fips
+    domain: https___climatepub4kg.github.io_ontology#Country
+    slot_uri: https://climatepub4kg.github.io/ontology#postal_code_regex
+    alias: https___climatepub4kg.github.io_ontology#postal_code_regex
     owner: https___climatepub4kg.github.io_ontology#Country
     domain_of:
     - https___climatepub4kg.github.io_ontology#Country
     range: string
-  neo4j_south:
-    name: neo4j_south
-    title: south
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    slot_uri: neo4j:south
-    alias: neo4j_south
-    owner: https___climatepub4kg.github.io_ontology#Country
-    domain_of:
-    - https___climatepub4kg.github.io_ontology#Country
-    - https___climatepub4kg.github.io_ontology#Country_Subdivision
-    - https___climatepub4kg.github.io_ontology#Water_Bodies
-    union_of:
-    - neo4j_Country
-    - neo4j_Water_Bodies
-    - neo4j_Country_Subdivision
-    range: string
-  neo4j_capital:
-    name: neo4j_capital
+  https___climatepub4kg.github.io_ontology#capital:
+    name: https___climatepub4kg.github.io_ontology#capital
     title: capital
     from_schema: okns:climatepub4-kg
     rank: 1000
-    domain: neo4j_Country
-    slot_uri: neo4j:capital
-    alias: neo4j_capital
+    domain: https___climatepub4kg.github.io_ontology#Country
+    slot_uri: https://climatepub4kg.github.io/ontology#capital
+    alias: https___climatepub4kg.github.io_ontology#capital
     owner: https___climatepub4kg.github.io_ontology#Country
     domain_of:
     - https___climatepub4kg.github.io_ontology#Country
     range: string
   https___climatepub4kg.github.io_ontology#IN_CONTINENT:
     name: https___climatepub4kg.github.io_ontology#IN_CONTINENT
+    title: IN_CONTINENT
     from_schema: okns:climatepub4-kg
     rank: 1000
+    domain: https___climatepub4kg.github.io_ontology#Country
     slot_uri: https://climatepub4kg.github.io/ontology#IN_CONTINENT
     alias: https___climatepub4kg.github.io_ontology#IN_CONTINENT
     owner: https___climatepub4kg.github.io_ontology#Country
     domain_of:
     - https___climatepub4kg.github.io_ontology#Country
     range: https___climatepub4kg.github.io_ontology#Continent
-  neo4j_iso:
-    name: neo4j_iso
-    title: iso
+  https___climatepub4kg.github.io_ontology#fips:
+    name: https___climatepub4kg.github.io_ontology#fips
+    title: fips
     from_schema: okns:climatepub4-kg
     rank: 1000
-    slot_uri: neo4j:iso
-    alias: neo4j_iso
+    domain: https___climatepub4kg.github.io_ontology#Country
+    slot_uri: https://climatepub4kg.github.io/ontology#fips
+    alias: https___climatepub4kg.github.io_ontology#fips
     owner: https___climatepub4kg.github.io_ontology#Country
     domain_of:
-    - https___climatepub4kg.github.io_ontology#Continent
     - https___climatepub4kg.github.io_ontology#Country
+    range: string
+  https___climatepub4kg.github.io_ontology#population:
+    name: https___climatepub4kg.github.io_ontology#population
+    title: population
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    slot_uri: https://climatepub4kg.github.io/ontology#population
+    alias: https___climatepub4kg.github.io_ontology#population
+    owner: https___climatepub4kg.github.io_ontology#Country
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#City
+    - https___climatepub4kg.github.io_ontology#Country
+    - https___climatepub4kg.github.io_ontology#No_Country_Region
     union_of:
-    - neo4j_Country
-    - neo4j_Continent
-    range: string
-  neo4j_continent:
-    name: neo4j_continent
-    title: continent
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    domain: neo4j_Country
-    slot_uri: neo4j:continent
-    alias: neo4j_continent
-    owner: https___climatepub4kg.github.io_ontology#Country
-    domain_of:
     - https___climatepub4kg.github.io_ontology#Country
+    - https___climatepub4kg.github.io_ontology#City
+    - https___climatepub4kg.github.io_ontology#No_Country_Region
     range: string
-  neo4j_iso3:
-    name: neo4j_iso3
-    title: iso3
+  https___climatepub4kg.github.io_ontology#south:
+    name: https___climatepub4kg.github.io_ontology#south
+    title: south
     from_schema: okns:climatepub4-kg
     rank: 1000
-    domain: neo4j_Country
-    slot_uri: neo4j:iso3
-    alias: neo4j_iso3
-    owner: https___climatepub4kg.github.io_ontology#Country
-    domain_of:
-    - https___climatepub4kg.github.io_ontology#Country
-    range: string
-  neo4j_languages:
-    name: neo4j_languages
-    title: languages
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    domain: neo4j_Country
-    slot_uri: neo4j:languages
-    alias: neo4j_languages
-    owner: https___climatepub4kg.github.io_ontology#Country
-    domain_of:
-    - https___climatepub4kg.github.io_ontology#Country
-    range: string
-  neo4j_postal_code_regex:
-    name: neo4j_postal_code_regex
-    title: postal_code_regex
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    domain: neo4j_Country
-    slot_uri: neo4j:postal_code_regex
-    alias: neo4j_postal_code_regex
-    owner: https___climatepub4kg.github.io_ontology#Country
-    domain_of:
-    - https___climatepub4kg.github.io_ontology#Country
-    range: string
-  neo4j_equivalent_fips_code:
-    name: neo4j_equivalent_fips_code
-    title: equivalent_fips_code
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    domain: neo4j_Country
-    slot_uri: neo4j:equivalent_fips_code
-    alias: neo4j_equivalent_fips_code
-    owner: https___climatepub4kg.github.io_ontology#Country
-    domain_of:
-    - https___climatepub4kg.github.io_ontology#Country
-    range: string
-  neo4j_west:
-    name: neo4j_west
-    title: west
-    from_schema: okns:climatepub4-kg
-    rank: 1000
-    slot_uri: neo4j:west
-    alias: neo4j_west
+    slot_uri: https://climatepub4kg.github.io/ontology#south
+    alias: https___climatepub4kg.github.io_ontology#south
     owner: https___climatepub4kg.github.io_ontology#Country
     domain_of:
     - https___climatepub4kg.github.io_ontology#Country
     - https___climatepub4kg.github.io_ontology#Country_Subdivision
     - https___climatepub4kg.github.io_ontology#Water_Bodies
     union_of:
-    - neo4j_Country
-    - neo4j_Water_Bodies
-    - neo4j_Country_Subdivision
+    - https___climatepub4kg.github.io_ontology#Water_Bodies
+    - https___climatepub4kg.github.io_ontology#Country
+    - https___climatepub4kg.github.io_ontology#Country_Subdivision
+    range: string
+  https___climatepub4kg.github.io_ontology#isonumeric:
+    name: https___climatepub4kg.github.io_ontology#isonumeric
+    title: isonumeric
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    domain: https___climatepub4kg.github.io_ontology#Country
+    slot_uri: https://climatepub4kg.github.io/ontology#isonumeric
+    alias: https___climatepub4kg.github.io_ontology#isonumeric
+    owner: https___climatepub4kg.github.io_ontology#Country
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#Country
+    range: string
+  https___climatepub4kg.github.io_ontology#neighbours:
+    name: https___climatepub4kg.github.io_ontology#neighbours
+    title: neighbours
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    domain: https___climatepub4kg.github.io_ontology#Country
+    slot_uri: https://climatepub4kg.github.io/ontology#neighbours
+    alias: https___climatepub4kg.github.io_ontology#neighbours
+    owner: https___climatepub4kg.github.io_ontology#Country
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#Country
+    range: string
+  https___climatepub4kg.github.io_ontology#iso:
+    name: https___climatepub4kg.github.io_ontology#iso
+    title: iso
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    slot_uri: https://climatepub4kg.github.io/ontology#iso
+    alias: https___climatepub4kg.github.io_ontology#iso
+    owner: https___climatepub4kg.github.io_ontology#Country
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#Continent
+    - https___climatepub4kg.github.io_ontology#Country
+    union_of:
+    - https___climatepub4kg.github.io_ontology#Continent
+    - https___climatepub4kg.github.io_ontology#Country
+    range: string
+  https___climatepub4kg.github.io_ontology#currencyname:
+    name: https___climatepub4kg.github.io_ontology#currencyname
+    title: currencyname
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    domain: https___climatepub4kg.github.io_ontology#Country
+    slot_uri: https://climatepub4kg.github.io/ontology#currencyname
+    alias: https___climatepub4kg.github.io_ontology#currencyname
+    owner: https___climatepub4kg.github.io_ontology#Country
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#Country
+    range: string
+  https___climatepub4kg.github.io_ontology#iso3:
+    name: https___climatepub4kg.github.io_ontology#iso3
+    title: iso3
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    domain: https___climatepub4kg.github.io_ontology#Country
+    slot_uri: https://climatepub4kg.github.io/ontology#iso3
+    alias: https___climatepub4kg.github.io_ontology#iso3
+    owner: https___climatepub4kg.github.io_ontology#Country
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#Country
+    range: string
+  https___climatepub4kg.github.io_ontology#east:
+    name: https___climatepub4kg.github.io_ontology#east
+    title: east
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    slot_uri: https://climatepub4kg.github.io/ontology#east
+    alias: https___climatepub4kg.github.io_ontology#east
+    owner: https___climatepub4kg.github.io_ontology#Country
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#Country
+    - https___climatepub4kg.github.io_ontology#Country_Subdivision
+    - https___climatepub4kg.github.io_ontology#Water_Bodies
+    union_of:
+    - https___climatepub4kg.github.io_ontology#Water_Bodies
+    - https___climatepub4kg.github.io_ontology#Country
+    - https___climatepub4kg.github.io_ontology#Country_Subdivision
+    range: string
+  https___climatepub4kg.github.io_ontology#tld:
+    name: https___climatepub4kg.github.io_ontology#tld
+    title: tld
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    domain: https___climatepub4kg.github.io_ontology#Country
+    slot_uri: https://climatepub4kg.github.io/ontology#tld
+    alias: https___climatepub4kg.github.io_ontology#tld
+    owner: https___climatepub4kg.github.io_ontology#Country
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#Country
+    range: string
+  https___climatepub4kg.github.io_ontology#west:
+    name: https___climatepub4kg.github.io_ontology#west
+    title: west
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    slot_uri: https://climatepub4kg.github.io/ontology#west
+    alias: https___climatepub4kg.github.io_ontology#west
+    owner: https___climatepub4kg.github.io_ontology#Country
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#Country
+    - https___climatepub4kg.github.io_ontology#Country_Subdivision
+    - https___climatepub4kg.github.io_ontology#Water_Bodies
+    union_of:
+    - https___climatepub4kg.github.io_ontology#Water_Bodies
+    - https___climatepub4kg.github.io_ontology#Country
+    - https___climatepub4kg.github.io_ontology#Country_Subdivision
+    range: string
+  https___climatepub4kg.github.io_ontology#north:
+    name: https___climatepub4kg.github.io_ontology#north
+    title: north
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    slot_uri: https://climatepub4kg.github.io/ontology#north
+    alias: https___climatepub4kg.github.io_ontology#north
+    owner: https___climatepub4kg.github.io_ontology#Country
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#Country
+    - https___climatepub4kg.github.io_ontology#Country_Subdivision
+    - https___climatepub4kg.github.io_ontology#Water_Bodies
+    union_of:
+    - https___climatepub4kg.github.io_ontology#Water_Bodies
+    - https___climatepub4kg.github.io_ontology#Country
+    - https___climatepub4kg.github.io_ontology#Country_Subdivision
+    range: string
+  https___climatepub4kg.github.io_ontology#name:
+    name: https___climatepub4kg.github.io_ontology#name
+    title: name
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    slot_uri: https://climatepub4kg.github.io/ontology#name
+    alias: https___climatepub4kg.github.io_ontology#name
+    owner: https___climatepub4kg.github.io_ontology#Country
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#Activity
+    - https___climatepub4kg.github.io_ontology#City
+    - https___climatepub4kg.github.io_ontology#Continent
+    - https___climatepub4kg.github.io_ontology#Country
+    - https___climatepub4kg.github.io_ontology#Country_Subdivision
+    - https___climatepub4kg.github.io_ontology#Domain
+    - https___climatepub4kg.github.io_ontology#Ensemble
+    - https___climatepub4kg.github.io_ontology#Experiment
+    - https___climatepub4kg.github.io_ontology#ExperimentFamily
+    - https___climatepub4kg.github.io_ontology#Field
+    - https___climatepub4kg.github.io_ontology#Forcing
+    - https___climatepub4kg.github.io_ontology#Frequency
+    - https___climatepub4kg.github.io_ontology#Innovation
+    - https___climatepub4kg.github.io_ontology#Institute
+    - https___climatepub4kg.github.io_ontology#Instrument
+    - https___climatepub4kg.github.io_ontology#Keyword
+    - https___climatepub4kg.github.io_ontology#MIPEra
+    - https___climatepub4kg.github.io_ontology#Member
+    - https___climatepub4kg.github.io_ontology#Method
+    - https___climatepub4kg.github.io_ontology#Metric
+    - https___climatepub4kg.github.io_ontology#Model
+    - https___climatepub4kg.github.io_ontology#Natural_Hazard
+    - https___climatepub4kg.github.io_ontology#No_Country_Region
+    - https___climatepub4kg.github.io_ontology#ObservationalDataset
+    - https___climatepub4kg.github.io_ontology#Ocean_Circulation
+    - https___climatepub4kg.github.io_ontology#Paper
+    - https___climatepub4kg.github.io_ontology#PhysicalFeature
+    - https___climatepub4kg.github.io_ontology#PhysicalScheme
+    - https___climatepub4kg.github.io_ontology#Platform
+    - https___climatepub4kg.github.io_ontology#Problem
+    - https___climatepub4kg.github.io_ontology#Project
+    - https___climatepub4kg.github.io_ontology#RCM
+    - https___climatepub4kg.github.io_ontology#Realm
+    - https___climatepub4kg.github.io_ontology#Resolution
+    - https___climatepub4kg.github.io_ontology#Result
+    - https___climatepub4kg.github.io_ontology#SimulationType
+    - https___climatepub4kg.github.io_ontology#Source
+    - https___climatepub4kg.github.io_ontology#SourceComponent
+    - https___climatepub4kg.github.io_ontology#SourceType
+    - https___climatepub4kg.github.io_ontology#SubExperiment
+    - https___climatepub4kg.github.io_ontology#Task
+    - https___climatepub4kg.github.io_ontology#Teleconnection
+    - https___climatepub4kg.github.io_ontology#Variable
+    - https___climatepub4kg.github.io_ontology#Water_Bodies
+    - https___climatepub4kg.github.io_ontology#Weather_Event
+    union_of:
+    - https___climatepub4kg.github.io_ontology#Platform
+    - https___climatepub4kg.github.io_ontology#Realm
+    - https___climatepub4kg.github.io_ontology#Task
+    - https___climatepub4kg.github.io_ontology#Domain
+    - https___climatepub4kg.github.io_ontology#No_Country_Region
+    - https___climatepub4kg.github.io_ontology#Ocean_Circulation
+    - https___climatepub4kg.github.io_ontology#Water_Bodies
+    - https___climatepub4kg.github.io_ontology#Ensemble
+    - https___climatepub4kg.github.io_ontology#Model
+    - https___climatepub4kg.github.io_ontology#SourceComponent
+    - https___climatepub4kg.github.io_ontology#SimulationType
+    - https___climatepub4kg.github.io_ontology#Natural_Hazard
+    - https___climatepub4kg.github.io_ontology#Source
+    - https___climatepub4kg.github.io_ontology#Metric
+    - https___climatepub4kg.github.io_ontology#Problem
+    - https___climatepub4kg.github.io_ontology#Weather_Event
+    - https___climatepub4kg.github.io_ontology#Member
+    - https___climatepub4kg.github.io_ontology#Result
+    - https___climatepub4kg.github.io_ontology#Country
+    - https___climatepub4kg.github.io_ontology#PhysicalFeature
+    - https___climatepub4kg.github.io_ontology#ObservationalDataset
+    - https___climatepub4kg.github.io_ontology#NaturalHazardType
+    - https___climatepub4kg.github.io_ontology#Activity
+    - https___climatepub4kg.github.io_ontology#Innovation
+    - https___climatepub4kg.github.io_ontology#Experiment
+    - https___climatepub4kg.github.io_ontology#Variable
+    - https___climatepub4kg.github.io_ontology#Continent
+    - https___climatepub4kg.github.io_ontology#Teleconnection
+    - https___climatepub4kg.github.io_ontology#ExperimentFamily
+    - https___climatepub4kg.github.io_ontology#SourceType
+    - https___climatepub4kg.github.io_ontology#Country_Subdivision
+    - https___climatepub4kg.github.io_ontology#Field
+    - https___climatepub4kg.github.io_ontology#Method
+    - https___climatepub4kg.github.io_ontology#GridLabel
+    - https___climatepub4kg.github.io_ontology#SubExperiment
+    - https___climatepub4kg.github.io_ontology#Instrument
+    - https___climatepub4kg.github.io_ontology#Institute
+    - https___climatepub4kg.github.io_ontology#Forcing
+    - https___climatepub4kg.github.io_ontology#Paper
+    - https___climatepub4kg.github.io_ontology#Resolution
+    - https___climatepub4kg.github.io_ontology#MIPEra
+    - https___climatepub4kg.github.io_ontology#PhysicalScheme
+    - https___climatepub4kg.github.io_ontology#RCM
+    - https___climatepub4kg.github.io_ontology#Frequency
+    - https___climatepub4kg.github.io_ontology#Keyword
+    - https___climatepub4kg.github.io_ontology#City
+    - https___climatepub4kg.github.io_ontology#Project
+    range: string
+  https___climatepub4kg.github.io_ontology#phone:
+    name: https___climatepub4kg.github.io_ontology#phone
+    title: phone
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    domain: https___climatepub4kg.github.io_ontology#Country
+    slot_uri: https://climatepub4kg.github.io/ontology#phone
+    alias: https___climatepub4kg.github.io_ontology#phone
+    owner: https___climatepub4kg.github.io_ontology#Country
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#Country
+    range: string
+  https___climatepub4kg.github.io_ontology#country:
+    name: https___climatepub4kg.github.io_ontology#country
+    title: country
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    domain: https___climatepub4kg.github.io_ontology#Country
+    slot_uri: https://climatepub4kg.github.io/ontology#country
+    alias: https___climatepub4kg.github.io_ontology#country
+    owner: https___climatepub4kg.github.io_ontology#Country
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#Country
+    range: string
+  https___climatepub4kg.github.io_ontology#languages:
+    name: https___climatepub4kg.github.io_ontology#languages
+    title: languages
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    domain: https___climatepub4kg.github.io_ontology#Country
+    slot_uri: https://climatepub4kg.github.io/ontology#languages
+    alias: https___climatepub4kg.github.io_ontology#languages
+    owner: https___climatepub4kg.github.io_ontology#Country
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#Country
+    range: string
+  https___climatepub4kg.github.io_ontology#postal_code_format:
+    name: https___climatepub4kg.github.io_ontology#postal_code_format
+    title: postal_code_format
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    domain: https___climatepub4kg.github.io_ontology#Country
+    slot_uri: https://climatepub4kg.github.io/ontology#postal_code_format
+    alias: https___climatepub4kg.github.io_ontology#postal_code_format
+    owner: https___climatepub4kg.github.io_ontology#Country
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#Country
+    range: string
+  https___climatepub4kg.github.io_ontology#uuid:
+    name: https___climatepub4kg.github.io_ontology#uuid
+    title: uuid
+    from_schema: okns:climatepub4-kg
+    rank: 1000
+    slot_uri: https://climatepub4kg.github.io/ontology#uuid
+    alias: https___climatepub4kg.github.io_ontology#uuid
+    owner: https___climatepub4kg.github.io_ontology#Country
+    domain_of:
+    - https___climatepub4kg.github.io_ontology#Activity
+    - https___climatepub4kg.github.io_ontology#City
+    - https___climatepub4kg.github.io_ontology#Continent
+    - https___climatepub4kg.github.io_ontology#Country
+    - https___climatepub4kg.github.io_ontology#Country_Subdivision
+    - https___climatepub4kg.github.io_ontology#Domain
+    - https___climatepub4kg.github.io_ontology#Ensemble
+    - https___climatepub4kg.github.io_ontology#Experiment
+    - https___climatepub4kg.github.io_ontology#ExperimentFamily
+    - https___climatepub4kg.github.io_ontology#Field
+    - https___climatepub4kg.github.io_ontology#Forcing
+    - https___climatepub4kg.github.io_ontology#Frequency
+    - https___climatepub4kg.github.io_ontology#Innovation
+    - https___climatepub4kg.github.io_ontology#Institute
+    - https___climatepub4kg.github.io_ontology#Instrument
+    - https___climatepub4kg.github.io_ontology#Keyword
+    - https___climatepub4kg.github.io_ontology#MIPEra
+    - https___climatepub4kg.github.io_ontology#Member
+    - https___climatepub4kg.github.io_ontology#Method
+    - https___climatepub4kg.github.io_ontology#Metric
+    - https___climatepub4kg.github.io_ontology#Model
+    - https___climatepub4kg.github.io_ontology#Natural_Hazard
+    - https___climatepub4kg.github.io_ontology#No_Country_Region
+    - https___climatepub4kg.github.io_ontology#ObservationalDataset
+    - https___climatepub4kg.github.io_ontology#Ocean_Circulation
+    - https___climatepub4kg.github.io_ontology#Paper
+    - https___climatepub4kg.github.io_ontology#PhysicalFeature
+    - https___climatepub4kg.github.io_ontology#PhysicalScheme
+    - https___climatepub4kg.github.io_ontology#Platform
+    - https___climatepub4kg.github.io_ontology#Problem
+    - https___climatepub4kg.github.io_ontology#Project
+    - https___climatepub4kg.github.io_ontology#RCM
+    - https___climatepub4kg.github.io_ontology#Realm
+    - https___climatepub4kg.github.io_ontology#Resolution
+    - https___climatepub4kg.github.io_ontology#Result
+    - https___climatepub4kg.github.io_ontology#SimulationType
+    - https___climatepub4kg.github.io_ontology#Source
+    - https___climatepub4kg.github.io_ontology#SourceComponent
+    - https___climatepub4kg.github.io_ontology#SourceType
+    - https___climatepub4kg.github.io_ontology#SubExperiment
+    - https___climatepub4kg.github.io_ontology#Task
+    - https___climatepub4kg.github.io_ontology#Teleconnection
+    - https___climatepub4kg.github.io_ontology#Variable
+    - https___climatepub4kg.github.io_ontology#Water_Bodies
+    - https___climatepub4kg.github.io_ontology#Weather_Event
+    union_of:
+    - https___climatepub4kg.github.io_ontology#Platform
+    - https___climatepub4kg.github.io_ontology#Realm
+    - https___climatepub4kg.github.io_ontology#Task
+    - https___climatepub4kg.github.io_ontology#Domain
+    - https___climatepub4kg.github.io_ontology#No_Country_Region
+    - https___climatepub4kg.github.io_ontology#Ocean_Circulation
+    - https___climatepub4kg.github.io_ontology#Water_Bodies
+    - https___climatepub4kg.github.io_ontology#Ensemble
+    - https___climatepub4kg.github.io_ontology#Model
+    - https___climatepub4kg.github.io_ontology#SourceComponent
+    - https___climatepub4kg.github.io_ontology#SimulationType
+    - https___climatepub4kg.github.io_ontology#Natural_Hazard
+    - https___climatepub4kg.github.io_ontology#Source
+    - https___climatepub4kg.github.io_ontology#Metric
+    - https___climatepub4kg.github.io_ontology#Problem
+    - https___climatepub4kg.github.io_ontology#Weather_Event
+    - https___climatepub4kg.github.io_ontology#Member
+    - https___climatepub4kg.github.io_ontology#Result
+    - https___climatepub4kg.github.io_ontology#Country
+    - https___climatepub4kg.github.io_ontology#PhysicalFeature
+    - https___climatepub4kg.github.io_ontology#ObservationalDataset
+    - https___climatepub4kg.github.io_ontology#NaturalHazardType
+    - https___climatepub4kg.github.io_ontology#Activity
+    - https___climatepub4kg.github.io_ontology#Innovation
+    - https___climatepub4kg.github.io_ontology#Experiment
+    - https___climatepub4kg.github.io_ontology#Variable
+    - https___climatepub4kg.github.io_ontology#Continent
+    - https___climatepub4kg.github.io_ontology#Teleconnection
+    - https___climatepub4kg.github.io_ontology#ExperimentFamily
+    - https___climatepub4kg.github.io_ontology#SourceType
+    - https___climatepub4kg.github.io_ontology#Country_Subdivision
+    - https___climatepub4kg.github.io_ontology#Field
+    - https___climatepub4kg.github.io_ontology#Method
+    - https___climatepub4kg.github.io_ontology#GridLabel
+    - https___climatepub4kg.github.io_ontology#SubExperiment
+    - https___climatepub4kg.github.io_ontology#Instrument
+    - https___climatepub4kg.github.io_ontology#Institute
+    - https___climatepub4kg.github.io_ontology#Forcing
+    - https___climatepub4kg.github.io_ontology#Paper
+    - https___climatepub4kg.github.io_ontology#Resolution
+    - https___climatepub4kg.github.io_ontology#MIPEra
+    - https___climatepub4kg.github.io_ontology#PhysicalScheme
+    - https___climatepub4kg.github.io_ontology#RCM
+    - https___climatepub4kg.github.io_ontology#Frequency
+    - https___climatepub4kg.github.io_ontology#Keyword
+    - https___climatepub4kg.github.io_ontology#City
+    - https___climatepub4kg.github.io_ontology#Project
     range: string
 class_uri: https://climatepub4kg.github.io/ontology#Country
 

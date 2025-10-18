@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#TASK_USES_METRIC
+# Slot: TASK_USES_METRIC (https___climatepub4kg.github.io_ontology#TASK_USES_METRIC)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#TASK_USES_METRIC](https://climate
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#TASK_USES_METRIC
+title: TASK_USES_METRIC
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Task
 slot_uri: https://climatepub4kg.github.io/ontology#TASK_USES_METRIC
 alias: https___climatepub4kg.github.io_ontology#TASK_USES_METRIC
 domain_of:

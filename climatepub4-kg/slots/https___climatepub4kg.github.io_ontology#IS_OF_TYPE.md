@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#IS_OF_TYPE
+# Slot: IS_OF_TYPE (https___climatepub4kg.github.io_ontology#IS_OF_TYPE)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#IS_OF_TYPE](https://climatepub4kg
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#IS_OF_TYPE
+title: IS_OF_TYPE
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Source
 slot_uri: https://climatepub4kg.github.io/ontology#IS_OF_TYPE
 alias: https___climatepub4kg.github.io_ontology#IS_OF_TYPE
 domain_of:

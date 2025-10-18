@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#HAS_SUB_EXPERIMENT
+# Slot: HAS_SUB_EXPERIMENT (https___climatepub4kg.github.io_ontology#HAS_SUB_EXPERIMENT)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#HAS_SUB_EXPERIMENT](https://clima
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#HAS_SUB_EXPERIMENT
+title: HAS_SUB_EXPERIMENT
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Experiment
 slot_uri: https://climatepub4kg.github.io/ontology#HAS_SUB_EXPERIMENT
 alias: https___climatepub4kg.github.io_ontology#HAS_SUB_EXPERIMENT
 domain_of:

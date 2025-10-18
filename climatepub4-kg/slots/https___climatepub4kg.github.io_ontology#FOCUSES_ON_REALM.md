@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#FOCUSES_ON_REALM
+# Slot: FOCUSES_ON_REALM (https___climatepub4kg.github.io_ontology#FOCUSES_ON_REALM)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#FOCUSES_ON_REALM](https://climate
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#FOCUSES_ON_REALM
+title: FOCUSES_ON_REALM
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Activity
 slot_uri: https://climatepub4kg.github.io/ontology#FOCUSES_ON_REALM
 alias: https___climatepub4kg.github.io_ontology#FOCUSES_ON_REALM
 domain_of:

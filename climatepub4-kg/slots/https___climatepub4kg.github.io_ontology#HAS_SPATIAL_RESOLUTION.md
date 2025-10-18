@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#HAS_SPATIAL_RESOLUTION
+# Slot: HAS_SPATIAL_RESOLUTION (https___climatepub4kg.github.io_ontology#HAS_SPATIAL_RESOLUTION)
 
 
 
@@ -48,6 +48,7 @@ URI: [https://climatepub4kg.github.io/ontology#HAS_SPATIAL_RESOLUTION](https://c
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#HAS_SPATIAL_RESOLUTION
+title: HAS_SPATIAL_RESOLUTION
 from_schema: okns:climatepub4-kg
 rank: 1000
 slot_uri: https://climatepub4kg.github.io/ontology#HAS_SPATIAL_RESOLUTION
@@ -56,6 +57,10 @@ domain_of:
 - https___climatepub4kg.github.io_ontology#Experiment
 - https___climatepub4kg.github.io_ontology#Source
 - https___climatepub4kg.github.io_ontology#Variable
+union_of:
+- https___climatepub4kg.github.io_ontology#Experiment
+- https___climatepub4kg.github.io_ontology#Variable
+- https___climatepub4kg.github.io_ontology#Source
 range: https___climatepub4kg.github.io_ontology#Resolution
 
 ```

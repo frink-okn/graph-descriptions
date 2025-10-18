@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#HAS_SIMULATION_TYPE
+# Slot: HAS_SIMULATION_TYPE (https___climatepub4kg.github.io_ontology#HAS_SIMULATION_TYPE)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#HAS_SIMULATION_TYPE](https://clim
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#HAS_SIMULATION_TYPE
+title: HAS_SIMULATION_TYPE
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Source
 slot_uri: https://climatepub4kg.github.io/ontology#HAS_SIMULATION_TYPE
 alias: https___climatepub4kg.github.io_ontology#HAS_SIMULATION_TYPE
 domain_of:

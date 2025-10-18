@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#HAS_PHYSICAL_FEATURE
+# Slot: HAS_PHYSICAL_FEATURE (https___climatepub4kg.github.io_ontology#HAS_PHYSICAL_FEATURE)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#HAS_PHYSICAL_FEATURE](https://cli
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#HAS_PHYSICAL_FEATURE
+title: HAS_PHYSICAL_FEATURE
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Source
 slot_uri: https://climatepub4kg.github.io/ontology#HAS_PHYSICAL_FEATURE
 alias: https___climatepub4kg.github.io_ontology#HAS_PHYSICAL_FEATURE
 domain_of:

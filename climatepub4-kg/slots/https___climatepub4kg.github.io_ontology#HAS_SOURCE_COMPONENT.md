@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#HAS_SOURCE_COMPONENT
+# Slot: HAS_SOURCE_COMPONENT (https___climatepub4kg.github.io_ontology#HAS_SOURCE_COMPONENT)
 
 
 
@@ -47,6 +47,7 @@ URI: [https://climatepub4kg.github.io/ontology#HAS_SOURCE_COMPONENT](https://cli
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#HAS_SOURCE_COMPONENT
+title: HAS_SOURCE_COMPONENT
 from_schema: okns:climatepub4-kg
 rank: 1000
 slot_uri: https://climatepub4kg.github.io/ontology#HAS_SOURCE_COMPONENT
@@ -54,6 +55,9 @@ alias: https___climatepub4kg.github.io_ontology#HAS_SOURCE_COMPONENT
 domain_of:
 - https___climatepub4kg.github.io_ontology#Source
 - https___climatepub4kg.github.io_ontology#SourceComponent
+union_of:
+- https___climatepub4kg.github.io_ontology#SourceComponent
+- https___climatepub4kg.github.io_ontology#Source
 range: https___climatepub4kg.github.io_ontology#SourceComponent
 
 ```

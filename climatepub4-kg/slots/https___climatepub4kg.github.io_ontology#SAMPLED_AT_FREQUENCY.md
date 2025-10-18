@@ -1,6 +1,6 @@
 
 
-# Slot: https___climatepub4kg.github.io_ontology#SAMPLED_AT_FREQUENCY
+# Slot: SAMPLED_AT_FREQUENCY (https___climatepub4kg.github.io_ontology#SAMPLED_AT_FREQUENCY)
 
 
 
@@ -46,8 +46,10 @@ URI: [https://climatepub4kg.github.io/ontology#SAMPLED_AT_FREQUENCY](https://cli
 
 ```yaml
 name: https___climatepub4kg.github.io_ontology#SAMPLED_AT_FREQUENCY
+title: SAMPLED_AT_FREQUENCY
 from_schema: okns:climatepub4-kg
 rank: 1000
+domain: https___climatepub4kg.github.io_ontology#Source
 slot_uri: https://climatepub4kg.github.io/ontology#SAMPLED_AT_FREQUENCY
 alias: https___climatepub4kg.github.io_ontology#SAMPLED_AT_FREQUENCY
 domain_of:
