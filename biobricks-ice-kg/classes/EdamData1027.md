@@ -1,12 +1,11 @@
 
 
-# Class: TODO -- what's a good name for this class (type)? (edam_data_1027)
-
-
-_No type description provided_
+# Class: EdamData1027
 
 
 
+
+This class occurs 526 times.
 
 
 URI: [edam:data_1027](http://edamontology.org/data_1027)
@@ -31,8 +30,8 @@ URI: [edam:data_1027](http://edamontology.org/data_1027)
 
 ## Slots
 
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
 
 
 
@@ -50,43 +49,6 @@ URI: [edam:data_1027](http://edamontology.org/data_1027)
 
 
 
-## Examples
-
-| Value |
-| --- |
-| https://www.ncbi.nlm.nih.gov/gene/10000 |
-
-## TODOs
-
-* TODO -- Todos for this class go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: biobricks-ice-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | edam:data_1027 |
-| native | biobricks-ice-kg/:EdamData1027 |
-
-
-
 
 
 
@@ -98,19 +60,10 @@ URI: [edam:data_1027](http://edamontology.org/data_1027)
 ### Direct
 
 <details>
+
 ```yaml
 name: edam_data_1027
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 526 occurences.
-examples:
-- value: https://www.ncbi.nlm.nih.gov/gene/10000
-from_schema: biobricks-ice-kg
+from_schema: okns:biobricks-ice-kg
 rank: 1000
 class_uri: edam:data_1027
 
@@ -120,19 +73,10 @@ class_uri: edam:data_1027
 ### Induced
 
 <details>
+
 ```yaml
 name: edam_data_1027
-description: No type description provided
-title: TODO -- what's a good name for this class (type)?
-todos:
-- TODO -- Todos for this class go here
-- or you can delete the todos
-- if you think the class is perfect.
-notes:
-- Class with 526 occurences.
-examples:
-- value: https://www.ncbi.nlm.nih.gov/gene/10000
-from_schema: biobricks-ice-kg
+from_schema: okns:biobricks-ice-kg
 rank: 1000
 class_uri: edam:data_1027
 

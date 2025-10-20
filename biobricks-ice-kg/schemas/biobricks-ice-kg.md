@@ -1,6 +1,6 @@
 # biobricks-ice-kg
 
-TODO -- tell the world what this schema describes.
+None
 
-URI: biobricks-ice-kg
+URI: okns:biobricks-ice-kg
 
