@@ -1,0 +1,34 @@
+annotations:
+  counts:
+    tag: counts
+    value:
+      classes:
+        tag: classes
+        value: {}
+      pairs:
+        tag: pairs
+        value: {}
+      slots:
+        tag: slots
+        value: {}
+  examples:
+    tag: examples
+    value:
+      classes:
+        tag: classes
+        value: {}
+      pairs:
+        tag: pairs
+        value: {}
+classes: {}
+created_on: '2025-10-20T18:31:12.716805'
+default_prefix: okns
+id: okns:biobricks-aopwiki-kg
+imports: []
+last_updated_on: '2025-10-20T18:31:12.716805'
+name: biobricks-aopwiki-kg
+prefixes:
+  okn: https://purl.org/okn/
+  okns: https://purl.org/okn/schema/
+slots: {}
+title: biobricks-aopwiki
