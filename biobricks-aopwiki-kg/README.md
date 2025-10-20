@@ -8,6 +8,18 @@
 
 ```mermaid
 erDiagram
+SkosCollection {
+
+}
+SkosConcept {
+
+}
+SkosConceptScheme {
+
+}
+SkosOrderedCollection {
+
+}
 DcamVocabularyEncodingScheme {
     date dct_issued  
     string rdfs_label  
@@ -240,18 +252,6 @@ RdfsLiteral {
 RdfsResource {
 
 }
-SkosCollection {
-
-}
-SkosConcept {
-
-}
-SkosConceptScheme {
-
-}
-SkosOrderedCollection {
-
-}
 WgsPoint {
 
 }
@@ -364,11 +364,11 @@ FoafProject {
 
 }
 EdamData1025 {
-    string edam_data_2298  
     uri rdfs_seeAlso  
     string edam_data_1033  
-    string edam_data_1027  
+    string edam_data_2298  
     string edam_data_2291  
+    string edam_data_1027  
 }
 EdamData1027 {
     string edam_data_1027  
@@ -384,59 +384,59 @@ EdamData2298 {
     string edam_data_2298  
 }
 HttpAopkb.orgAopOntology#AdverseOutcomePathway {
-    string obo_PATO_0000047  
-    string http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C25725  
-    string http___aopkb.org_aop_ontology#LifeStageContext  
-    string edam_operation_3799  
-    date dct_modified  
-    uri rdfs_seeAlso  
-    string http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C25217  
     string http___aopkb.org_aop_ontology#AopContext  
-    string http___aopkb.org_aop_ontology#has_evidence  
-    string http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C48192  
-    string rdfs_label  
+    uri rdfs_seeAlso  
     string http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C25688  
+    string http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C25217  
+    string edam_operation_3799  
+    string http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C48192  
+    string http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C25725  
+    string rdfs_label  
+    string http___aopkb.org_aop_ontology#has_evidence  
+    string obo_PATO_0000047  
+    string http___aopkb.org_aop_ontology#LifeStageContext  
+    date dct_modified  
 }
 HttpAopkb.orgAopOntology#CellTypeContext {
 
 }
 HttpAopkb.orgAopOntology#KeyEvent {
-    string obo_PATO_0000047  
-    string obo_PATO_0000001  
-    string obo_MMO_0000000  
-    string http___purl.bioontology.org_ontology_NCBITAXON_131567  
-    string http___aopkb.org_aop_ontology#LifeStageContext  
-    string http___aopkb.org_aop_ontology#CellTypeContext  
     uri rdfs_seeAlso  
-    string obo_PATO_0001241  
     uri obo_PATO_0001241  
-    string http___aopkb.org_aop_ontology#OrganContext  
+    string obo_PATO_0001241  
+    string http___purl.bioontology.org_ontology_NCBITAXON_131567  
+    string http___aopkb.org_aop_ontology#CellTypeContext  
     string http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C25664  
+    string http___aopkb.org_aop_ontology#OrganContext  
+    string obo_MMO_0000000  
     string rdfs_label  
+    string obo_PATO_0000001  
+    string obo_PATO_0000047  
+    string http___aopkb.org_aop_ontology#LifeStageContext  
 }
 HttpAopkb.orgAopOntology#KeyEventRelationship {
-    string http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C71478  
     uri rdfs_seeAlso  
     string http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C80263  
+    date dct_modified  
     string rdfs_label  
     string edam_data_2042  
-    date dct_modified  
+    string http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C71478  
 }
 HttpAopkb.orgAopOntology#OrganContext {
 
 }
 HttpNcicb.nci.nih.govXmlOwlEVSThesaurus.owl#C54571 {
+    string http___aopkb.org_aop_ontology#has_chemical_entity  
     string rdfs_label  
     date dct_modified  
-    string http___aopkb.org_aop_ontology#has_chemical_entity  
 }
 HttpPurl.bioontology.orgOntologyNCBITAXON131567 {
 
 }
 HttpSemanticscience.orgResourceCHEMINF000000 {
+    string http___semanticscience.org_resource_CHEMINF_000446  
     uri http___semanticscience.org_resource_CHEMINF_000059  
     uri http___semanticscience.org_resource_CHEMINF_000568  
-    string http___semanticscience.org_resource_CHEMINF_000446  
 }
 HttpSemanticscience.orgResourceCHEMINF000140 {
     string http___semanticscience.org_resource_CHEMINF_000140  
@@ -460,9 +460,9 @@ HttpSemanticscience.orgResourceCHEMINF000412 {
     string http___semanticscience.org_resource_CHEMINF_000412  
 }
 HttpSemanticscience.orgResourceCHEMINF000446 {
+    string http___semanticscience.org_resource_CHEMINF_000446  
     uri http___semanticscience.org_resource_CHEMINF_000059  
     uri http___semanticscience.org_resource_CHEMINF_000568  
-    string http___semanticscience.org_resource_CHEMINF_000446  
 }
 HttpSemanticscience.orgResourceCHEMINF000564 {
     string http___semanticscience.org_resource_CHEMINF_000564  
@@ -505,45 +505,45 @@ EdamData1025 ||--|o RdfsResource : "rdfs_seeAlso"
 EdamData1025 ||--|o OwlThing : "owl_sameAs"
 EdamData2291 ||--|o RdfsResource : "rdfs_seeAlso"
 EdamData2291 ||--|o OwlThing : "owl_sameAs"
-HttpAopkb.orgAopOntology#AdverseOutcomePathway ||--|o HttpAopkb.orgAopOntology#KeyEvent : "http___aopkb.org_aop_ontology#has_key_event"
-HttpAopkb.orgAopOntology#AdverseOutcomePathway ||--|o HttpNcicb.nci.nih.govXmlOwlEVSThesaurus.owl#C54571 : "http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C54571"
-HttpAopkb.orgAopOntology#AdverseOutcomePathway ||--|o HttpAopkb.orgAopOntology#KeyEventRelationship : "http___aopkb.org_aop_ontology#has_key_event_relationship"
-HttpAopkb.orgAopOntology#AdverseOutcomePathway ||--|o RdfsLiteral : "dct_alternative"
-HttpAopkb.orgAopOntology#AdverseOutcomePathway ||--|o RdfsLiteral : "dct_modified"
-HttpAopkb.orgAopOntology#AdverseOutcomePathway ||--|o HttpAopkb.orgAopOntology#KeyEvent : "http___aopkb.org_aop_ontology#has_adverse_outcome"
 HttpAopkb.orgAopOntology#AdverseOutcomePathway ||--|o RdfsResource : "rdfs_seeAlso"
 HttpAopkb.orgAopOntology#AdverseOutcomePathway ||--|o FoafDocument : "foaf_page"
-HttpAopkb.orgAopOntology#AdverseOutcomePathway ||--|o HttpAopkb.orgAopOntology#KeyEvent : "http___aopkb.org_aop_ontology#has_molecular_initiating_event"
+HttpAopkb.orgAopOntology#AdverseOutcomePathway ||--|o HttpAopkb.orgAopOntology#KeyEventRelationship : "http___aopkb.org_aop_ontology#has_key_event_relationship"
 HttpAopkb.orgAopOntology#AdverseOutcomePathway ||--|o RdfsLiteral : "rdfs_label"
+HttpAopkb.orgAopOntology#AdverseOutcomePathway ||--|o HttpNcicb.nci.nih.govXmlOwlEVSThesaurus.owl#C54571 : "http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C54571"
+HttpAopkb.orgAopOntology#AdverseOutcomePathway ||--|o HttpAopkb.orgAopOntology#KeyEvent : "http___aopkb.org_aop_ontology#has_adverse_outcome"
+HttpAopkb.orgAopOntology#AdverseOutcomePathway ||--|o HttpAopkb.orgAopOntology#KeyEvent : "http___aopkb.org_aop_ontology#has_key_event"
+HttpAopkb.orgAopOntology#AdverseOutcomePathway ||--|o HttpAopkb.orgAopOntology#KeyEvent : "http___aopkb.org_aop_ontology#has_molecular_initiating_event"
+HttpAopkb.orgAopOntology#AdverseOutcomePathway ||--|o RdfsLiteral : "dct_alternative"
 HttpAopkb.orgAopOntology#AdverseOutcomePathway ||--|o RdfsLiteral : "dct_created"
-HttpAopkb.orgAopOntology#KeyEvent ||--|o RdfsLiteral : "dct_alternative"
-HttpAopkb.orgAopOntology#KeyEvent ||--|o OboGO0008150 : "obo_GO_0008150"
-HttpAopkb.orgAopOntology#KeyEvent ||--|o HttpPurl.bioontology.orgOntologyNCBITAXON131567 : "http___purl.bioontology.org_ontology_NCBITAXON_131567"
-HttpAopkb.orgAopOntology#KeyEvent ||--|o EdamData1025 : "edam_data_1025"
-HttpAopkb.orgAopOntology#KeyEvent ||--|o EdamData2298 : "edam_data_1025"
-HttpAopkb.orgAopOntology#KeyEvent ||--|o HttpAopkb.orgAopOntology#CellTypeContext : "http___aopkb.org_aop_ontology#CellTypeContext"
+HttpAopkb.orgAopOntology#AdverseOutcomePathway ||--|o RdfsLiteral : "dct_modified"
 HttpAopkb.orgAopOntology#KeyEvent ||--|o RdfsResource : "rdfs_seeAlso"
-HttpAopkb.orgAopOntology#KeyEvent ||--|o OboGO0008150 : "obo_PATO_0001241"
 HttpAopkb.orgAopOntology#KeyEvent ||--|o HttpAopkb.orgAopOntology#CellTypeContext : "obo_PATO_0001241"
 HttpAopkb.orgAopOntology#KeyEvent ||--|o HttpAopkb.orgAopOntology#OrganContext : "obo_PATO_0001241"
+HttpAopkb.orgAopOntology#KeyEvent ||--|o OboGO0008150 : "obo_PATO_0001241"
+HttpAopkb.orgAopOntology#KeyEvent ||--|o HttpPurl.bioontology.orgOntologyNCBITAXON131567 : "http___purl.bioontology.org_ontology_NCBITAXON_131567"
 HttpAopkb.orgAopOntology#KeyEvent ||--|o FoafDocument : "foaf_page"
+HttpAopkb.orgAopOntology#KeyEvent ||--|o HttpAopkb.orgAopOntology#CellTypeContext : "http___aopkb.org_aop_ontology#CellTypeContext"
+HttpAopkb.orgAopOntology#KeyEvent ||--|o EdamData1025 : "edam_data_1025"
+HttpAopkb.orgAopOntology#KeyEvent ||--|o EdamData2298 : "edam_data_1025"
 HttpAopkb.orgAopOntology#KeyEvent ||--|o HttpAopkb.orgAopOntology#OrganContext : "http___aopkb.org_aop_ontology#OrganContext"
 HttpAopkb.orgAopOntology#KeyEvent ||--|o RdfsLiteral : "rdfs_label"
+HttpAopkb.orgAopOntology#KeyEvent ||--|o RdfsLiteral : "dct_alternative"
+HttpAopkb.orgAopOntology#KeyEvent ||--|o OboGO0008150 : "obo_GO_0008150"
+HttpAopkb.orgAopOntology#KeyEventRelationship ||--|o HttpAopkb.orgAopOntology#KeyEvent : "http___aopkb.org_aop_ontology#has_upstream_key_event"
 HttpAopkb.orgAopOntology#KeyEventRelationship ||--|o RdfsResource : "rdfs_seeAlso"
 HttpAopkb.orgAopOntology#KeyEventRelationship ||--|o FoafDocument : "foaf_page"
-HttpAopkb.orgAopOntology#KeyEventRelationship ||--|o HttpAopkb.orgAopOntology#KeyEvent : "http___aopkb.org_aop_ontology#has_upstream_key_event"
+HttpAopkb.orgAopOntology#KeyEventRelationship ||--|o RdfsLiteral : "dct_modified"
 HttpAopkb.orgAopOntology#KeyEventRelationship ||--|o RdfsLiteral : "rdfs_label"
 HttpAopkb.orgAopOntology#KeyEventRelationship ||--|o HttpAopkb.orgAopOntology#KeyEvent : "http___aopkb.org_aop_ontology#has_downstream_key_event"
-HttpAopkb.orgAopOntology#KeyEventRelationship ||--|o RdfsLiteral : "dct_modified"
 HttpAopkb.orgAopOntology#KeyEventRelationship ||--|o EdamData1025 : "edam_data_1025"
 HttpAopkb.orgAopOntology#KeyEventRelationship ||--|o EdamData2298 : "edam_data_1025"
 HttpAopkb.orgAopOntology#KeyEventRelationship ||--|o RdfsLiteral : "dct_created"
-HttpNcicb.nci.nih.govXmlOwlEVSThesaurus.owl#C54571 ||--|o FoafDocument : "foaf_page"
-HttpNcicb.nci.nih.govXmlOwlEVSThesaurus.owl#C54571 ||--|o RdfsLiteral : "rdfs_label"
-HttpNcicb.nci.nih.govXmlOwlEVSThesaurus.owl#C54571 ||--|o RdfsLiteral : "dct_modified"
 HttpNcicb.nci.nih.govXmlOwlEVSThesaurus.owl#C54571 ||--|o HttpSemanticscience.orgResourceCHEMINF000000 : "http___aopkb.org_aop_ontology#has_chemical_entity"
 HttpNcicb.nci.nih.govXmlOwlEVSThesaurus.owl#C54571 ||--|o HttpSemanticscience.orgResourceCHEMINF000446 : "http___aopkb.org_aop_ontology#has_chemical_entity"
+HttpNcicb.nci.nih.govXmlOwlEVSThesaurus.owl#C54571 ||--|o FoafDocument : "foaf_page"
+HttpNcicb.nci.nih.govXmlOwlEVSThesaurus.owl#C54571 ||--|o RdfsLiteral : "rdfs_label"
 HttpNcicb.nci.nih.govXmlOwlEVSThesaurus.owl#C54571 ||--|o RdfsLiteral : "dct_created"
+HttpNcicb.nci.nih.govXmlOwlEVSThesaurus.owl#C54571 ||--|o RdfsLiteral : "dct_modified"
 HttpSemanticscience.orgResourceCHEMINF000000 ||--|o RdfsLiteral : "dct_alternative"
 HttpSemanticscience.orgResourceCHEMINF000446 ||--|o RdfsLiteral : "dct_alternative"
 
@@ -554,12 +554,12 @@ HttpSemanticscience.orgResourceCHEMINF000446 ||--|o RdfsLiteral : "dct_alternati
 ## Imports
 
 
-* okns:dc
-* linkml:types
-* okns:owl-rdf-rdfs
-* okns:foaf
-* okns:skos
 * okns:extended_types
+* okns:skos
+* okns:dc
+* okns:owl-rdf-rdfs
+* linkml:types
+* okns:foaf
 
 
 

@@ -22,8 +22,8 @@ URI: [edam:data_2298](http://edamontology.org/data_2298)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [EdamData1025](../classes/EdamData1025.md) |  |  no  |
 | [EdamData2298](../classes/EdamData2298.md) |  |  no  |
+| [EdamData1025](../classes/EdamData1025.md) |  |  no  |
 
 
 

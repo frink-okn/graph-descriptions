@@ -113,15 +113,15 @@ URI: [edam:data_1025](http://edamontology.org/data_1025)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [edam_data_2298](../slots/edam_data_2298.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 1621 |
 | [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [RdfsResource](../classes/RdfsResource.md)&nbsp;or&nbsp;<br />[xsd:anyURI](xsd:anyURI) | Further information about the subject resource <br/>  | direct | 526 |
+| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/>  | direct | 526 |
 | [dc_identifier](../slots/dc_identifier.md) | 0..1 <br/> [Any](../classes/Any.md) | Recommended practice is to identify the resource by means of a string conform... <br/> description: An unambiguous reference to the resource within a given context. | direct | 12500 |
-| [skos_exactMatch](../slots/skos_exactMatch.md) | 0..1 <br/> [Any](../classes/Any.md) | skos:exactMatch is used to link two concepts, indicating a high degree of con... <br/> description: skos:exactMatch is disjoint with each of the properties skos:broadMatch and skos:relatedMatch. | direct | 20790 |
 | [dc_source](../slots/dc_source.md) | 0..1 <br/> [Any](../classes/Any.md) | The described resource may be derived from the related resource in whole or i... <br/> description: A related resource from which the described resource is derived. | direct | 12500 |
 | [edam_data_1033](../slots/edam_data_1033.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 1478 |
-| [edam_data_1027](../slots/edam_data_1027.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 1518 |
+| [skos_exactMatch](../slots/skos_exactMatch.md) | 0..1 <br/> [Any](../classes/Any.md) | skos:exactMatch is used to link two concepts, indicating a high degree of con... <br/> description: skos:exactMatch is disjoint with each of the properties skos:broadMatch and skos:relatedMatch. | direct | 20790 |
+| [edam_data_2298](../slots/edam_data_2298.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 1621 |
 | [edam_data_2291](../slots/edam_data_2291.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 7883 |
-| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/>  | direct | 526 |
+| [edam_data_1027](../slots/edam_data_1027.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 1518 |
 
 
 
@@ -157,15 +157,15 @@ name: edam_data_1025
 from_schema: okns:biobricks-aopwiki-kg
 rank: 1000
 slots:
-- edam_data_2298
 - rdfs_seeAlso
+- owl_sameAs
 - dc_identifier
-- skos_exactMatch
 - dc_source
 - edam_data_1033
-- edam_data_1027
+- skos_exactMatch
+- edam_data_2298
 - edam_data_2291
-- owl_sameAs
+- edam_data_1027
 class_uri: edam:data_1025
 
 ```
@@ -180,17 +180,6 @@ name: edam_data_1025
 from_schema: okns:biobricks-aopwiki-kg
 rank: 1000
 attributes:
-  edam_data_2298:
-    name: edam_data_2298
-    from_schema: okns:biobricks-aopwiki-kg
-    rank: 1000
-    slot_uri: edam:data_2298
-    alias: edam_data_2298
-    owner: edam_data_1025
-    domain_of:
-    - edam_data_1025
-    - edam_data_2298
-    range: string
   rdfs_seeAlso:
     name: rdfs_seeAlso
     description: Further information about the subject resource.
@@ -213,6 +202,22 @@ attributes:
     any_of:
     - range: rdfs_Resource
     - range: uri
+  owl_sameAs:
+    name: owl_sameAs
+    description: The property that determines that two given individuals are equal.
+    title: sameAs
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:owl-rdf-rdfs
+    source: http://www.w3.org/2002/07/owl#
+    domain: owl_Thing
+    slot_uri: owl:sameAs
+    alias: owl_sameAs
+    owner: edam_data_1025
+    domain_of:
+    - edam_data_1025
+    - edam_data_2291
+    range: owl_Thing
   dc_identifier:
     name: dc_identifier
     description: Recommended practice is to identify the resource by means of a string
@@ -256,30 +261,6 @@ attributes:
     - http___semanticscience.org_resource_CHEMINF_000564
     - http___semanticscience.org_resource_CHEMINF_000567
     - obo_GO_0008150
-    range: Any
-  skos_exactMatch:
-    name: skos_exactMatch
-    description: skos:exactMatch is used to link two concepts, indicating a high degree
-      of confidence that the concepts can be used interchangeably across a wide range
-      of information retrieval applications. skos:exactMatch is a transitive property,
-      and is a sub-property of skos:closeMatch.
-    title: has exact match
-    notes:
-    - No occurrences of this slot in the graph.
-    comments:
-    - 'description: skos:exactMatch is disjoint with each of the properties skos:broadMatch
-      and skos:relatedMatch.'
-    from_schema: okns:skos
-    source: http://www.w3.org/2004/02/skos/core
-    slot_uri: skos:exactMatch
-    alias: skos_exactMatch
-    owner: edam_data_1025
-    domain_of:
-    - edam_data_1025
-    - edam_data_2298
-    - http___semanticscience.org_resource_CHEMINF_000000
-    - http___semanticscience.org_resource_CHEMINF_000446
-    subproperty_of: skos_closeMatch
     range: Any
   dc_source:
     name: dc_source
@@ -335,16 +316,40 @@ attributes:
     - edam_data_1025
     - edam_data_1033
     range: string
-  edam_data_1027:
-    name: edam_data_1027
-    from_schema: okns:biobricks-aopwiki-kg
-    rank: 1000
-    slot_uri: edam:data_1027
-    alias: edam_data_1027
+  skos_exactMatch:
+    name: skos_exactMatch
+    description: skos:exactMatch is used to link two concepts, indicating a high degree
+      of confidence that the concepts can be used interchangeably across a wide range
+      of information retrieval applications. skos:exactMatch is a transitive property,
+      and is a sub-property of skos:closeMatch.
+    title: has exact match
+    notes:
+    - No occurrences of this slot in the graph.
+    comments:
+    - 'description: skos:exactMatch is disjoint with each of the properties skos:broadMatch
+      and skos:relatedMatch.'
+    from_schema: okns:skos
+    source: http://www.w3.org/2004/02/skos/core
+    slot_uri: skos:exactMatch
+    alias: skos_exactMatch
     owner: edam_data_1025
     domain_of:
     - edam_data_1025
-    - edam_data_1027
+    - edam_data_2298
+    - http___semanticscience.org_resource_CHEMINF_000000
+    - http___semanticscience.org_resource_CHEMINF_000446
+    subproperty_of: skos_closeMatch
+    range: Any
+  edam_data_2298:
+    name: edam_data_2298
+    from_schema: okns:biobricks-aopwiki-kg
+    rank: 1000
+    slot_uri: edam:data_2298
+    alias: edam_data_2298
+    owner: edam_data_1025
+    domain_of:
+    - edam_data_1025
+    - edam_data_2298
     range: string
   edam_data_2291:
     name: edam_data_2291
@@ -357,22 +362,17 @@ attributes:
     - edam_data_1025
     - edam_data_2291
     range: string
-  owl_sameAs:
-    name: owl_sameAs
-    description: The property that determines that two given individuals are equal.
-    title: sameAs
-    notes:
-    - No occurrences of this slot in the graph.
-    from_schema: okns:owl-rdf-rdfs
-    source: http://www.w3.org/2002/07/owl#
-    domain: owl_Thing
-    slot_uri: owl:sameAs
-    alias: owl_sameAs
+  edam_data_1027:
+    name: edam_data_1027
+    from_schema: okns:biobricks-aopwiki-kg
+    rank: 1000
+    slot_uri: edam:data_1027
+    alias: edam_data_1027
     owner: edam_data_1025
     domain_of:
     - edam_data_1025
-    - edam_data_2291
-    range: owl_Thing
+    - edam_data_1027
+    range: string
 class_uri: edam:data_1025
 
 ```

@@ -27,10 +27,10 @@ URI: [skos:exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpSemanticscience.orgResourceCHEMINF000446](../classes/HttpSemanticscience.orgResourceCHEMINF000446.md) |  |  no  |
-| [EdamData1025](../classes/EdamData1025.md) |  |  no  |
 | [HttpSemanticscience.orgResourceCHEMINF000000](../classes/HttpSemanticscience.orgResourceCHEMINF000000.md) |  |  no  |
+| [HttpSemanticscience.orgResourceCHEMINF000446](../classes/HttpSemanticscience.orgResourceCHEMINF000446.md) |  |  no  |
 | [EdamData2298](../classes/EdamData2298.md) |  |  no  |
+| [EdamData1025](../classes/EdamData1025.md) |  |  no  |
 
 
 

@@ -27,14 +27,14 @@ URI: [rdfs:seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [EdamData2291](../classes/EdamData2291.md) |  |  no  |
-| [RdfsDatatype](../classes/RdfsDatatype.md) | The class of RDF datatypes |  no  |
 | [HttpAopkb.orgAopOntology#KeyEventRelationship](../classes/HttpAopkb.orgAopOntology#KeyEventRelationship.md) |  |  no  |
-| [DcamVocabularyEncodingScheme](../classes/DcamVocabularyEncodingScheme.md) | An enumerated set of resources |  no  |
+| [EdamData2291](../classes/EdamData2291.md) |  |  no  |
 | [HttpAopkb.orgAopOntology#AdverseOutcomePathway](../classes/HttpAopkb.orgAopOntology#AdverseOutcomePathway.md) |  |  no  |
-| [EdamData1025](../classes/EdamData1025.md) |  |  no  |
-| [OwlDataRange](../classes/OwlDataRange.md) | The class of OWL data ranges, which are special kinds of datatypes |  no  |
 | [HttpAopkb.orgAopOntology#KeyEvent](../classes/HttpAopkb.orgAopOntology#KeyEvent.md) |  |  no  |
+| [EdamData1025](../classes/EdamData1025.md) |  |  no  |
+| [DcamVocabularyEncodingScheme](../classes/DcamVocabularyEncodingScheme.md) | An enumerated set of resources |  no  |
+| [RdfsDatatype](../classes/RdfsDatatype.md) | The class of RDF datatypes |  no  |
+| [OwlDataRange](../classes/OwlDataRange.md) | The class of OWL data ranges, which are special kinds of datatypes |  no  |
 
 
 

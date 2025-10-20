@@ -158,19 +158,19 @@ URI: [http://aopkb.org/aop_ontology#KeyEventRelationship](http://aopkb.org/aop_o
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [dct_isPartOf](../slots/dct_isPartOf.md) | 0..1 <br/> [Any](../classes/Any.md) | This property is intended to be used with non-literal values <br/> description: A related resource in which the described resource is physically or logically included. | direct | 2778 |
-| [http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C71478](../slots/http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C71478.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 515 |
-| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [RdfsResource](../classes/RdfsResource.md)&nbsp;or&nbsp;<br />[xsd:anyURI](xsd:anyURI) | Further information about the subject resource <br/>  | direct | 2060 |
-| [dc_identifier](../slots/dc_identifier.md) | 0..1 <br/> [Any](../classes/Any.md) | Recommended practice is to identify the resource by means of a string conform... <br/> description: An unambiguous reference to the resource within a given context. | direct | 2060 |
-| [foaf_page](../slots/foaf_page.md) | 0..1 <br/> [FoafDocument](../classes/FoafDocument.md) | A page or document about this thing <br/>  | direct | 2060 |
-| [dc_description](../slots/dc_description.md) | 0..1 <br/> [Any](../classes/Any.md) | Description may include but is not limited to: an abstract, a table of conten... <br/> description: An account of the resource. | direct | 633 |
-| [http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C80263](../slots/http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C80263.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 623 |
 | [http___aopkb.org_aop_ontology#has_upstream_key_event](../slots/http___aopkb.org_aop_ontology#has_upstream_key_event.md) | 0..1 <br/> [HttpAopkb.orgAopOntology#KeyEvent](../classes/HttpAopkb.orgAopOntology#KeyEvent.md) |  <br/>  | direct | 2060 |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](xsd:string) | A human-readable name for the subject <br/>  | direct | 2060 |
-| [http___aopkb.org_aop_ontology#has_downstream_key_event](../slots/http___aopkb.org_aop_ontology#has_downstream_key_event.md) | 0..1 <br/> [HttpAopkb.orgAopOntology#KeyEvent](../classes/HttpAopkb.orgAopOntology#KeyEvent.md) |  <br/>  | direct | 2060 |
-| [edam_data_2042](../slots/edam_data_2042.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 613 |
+| [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [RdfsResource](../classes/RdfsResource.md)&nbsp;or&nbsp;<br />[xsd:anyURI](xsd:anyURI) | Further information about the subject resource <br/>  | direct | 2060 |
+| [http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C80263](../slots/http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C80263.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 623 |
+| [foaf_page](../slots/foaf_page.md) | 0..1 <br/> [FoafDocument](../classes/FoafDocument.md) | A page or document about this thing <br/>  | direct | 2060 |
+| [dc_identifier](../slots/dc_identifier.md) | 0..1 <br/> [Any](../classes/Any.md) | Recommended practice is to identify the resource by means of a string conform... <br/> description: An unambiguous reference to the resource within a given context. | direct | 2060 |
 | [dct_modified](../slots/dct_modified.md) | 0..1 <br/> [xsd:date](xsd:date)&nbsp;or&nbsp;<br />[RdfsLiteral](../classes/RdfsLiteral.md) | Recommended practice is to describe the date, date/time, or period of time as... <br/> description: Date on which the resource was changed. | direct | 2060 |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](xsd:string) | A human-readable name for the subject <br/>  | direct | 2060 |
+| [dct_isPartOf](../slots/dct_isPartOf.md) | 0..1 <br/> [Any](../classes/Any.md) | This property is intended to be used with non-literal values <br/> description: A related resource in which the described resource is physically or logically included. | direct | 2778 |
+| [dc_description](../slots/dc_description.md) | 0..1 <br/> [Any](../classes/Any.md) | Description may include but is not limited to: an abstract, a table of conten... <br/> description: An account of the resource. | direct | 633 |
+| [http___aopkb.org_aop_ontology#has_downstream_key_event](../slots/http___aopkb.org_aop_ontology#has_downstream_key_event.md) | 0..1 <br/> [HttpAopkb.orgAopOntology#KeyEvent](../classes/HttpAopkb.orgAopOntology#KeyEvent.md) |  <br/>  | direct | 2060 |
 | [edam_data_1025](../slots/edam_data_1025.md) | 0..1 <br/> [EdamData1025](../classes/EdamData1025.md)&nbsp;or&nbsp;<br />[EdamData2298](../classes/EdamData2298.md) |  <br/>  | direct | 7818 |
+| [edam_data_2042](../slots/edam_data_2042.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 613 |
+| [http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C71478](../slots/http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C71478.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 515 |
 | [dct_created](../slots/dct_created.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md) | Recommended practice is to describe the date, date/time, or period of time as... <br/> description: Date of creation of the resource. | direct | 2060 |
 
 
@@ -206,19 +206,19 @@ name: http___aopkb.org_aop_ontology#KeyEventRelationship
 from_schema: okns:biobricks-aopwiki-kg
 rank: 1000
 slots:
-- dct_isPartOf
-- http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C71478
-- rdfs_seeAlso
-- dc_identifier
-- foaf_page
-- dc_description
-- http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C80263
 - http___aopkb.org_aop_ontology#has_upstream_key_event
-- rdfs_label
-- http___aopkb.org_aop_ontology#has_downstream_key_event
-- edam_data_2042
+- rdfs_seeAlso
+- http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C80263
+- foaf_page
+- dc_identifier
 - dct_modified
+- rdfs_label
+- dct_isPartOf
+- dc_description
+- http___aopkb.org_aop_ontology#has_downstream_key_event
 - edam_data_1025
+- edam_data_2042
+- http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C71478
 - dct_created
 class_uri: http://aopkb.org/aop_ontology#KeyEventRelationship
 
@@ -234,39 +234,16 @@ name: http___aopkb.org_aop_ontology#KeyEventRelationship
 from_schema: okns:biobricks-aopwiki-kg
 rank: 1000
 attributes:
-  dct_isPartOf:
-    name: dct_isPartOf
-    description: This property is intended to be used with non-literal values. This
-      property is an inverse property of Has Part.
-    title: Is Part Of
-    notes:
-    - No occurrences of this slot in the graph.
-    comments:
-    - 'description: A related resource in which the described resource is physically
-      or logically included.'
-    from_schema: okns:dc
-    source: http://purl.org/dc/terms/
-    slot_uri: dct:isPartOf
-    alias: dct_isPartOf
-    owner: http___aopkb.org_aop_ontology#KeyEventRelationship
-    domain_of:
-    - http___aopkb.org_aop_ontology#KeyEvent
-    - http___aopkb.org_aop_ontology#KeyEventRelationship
-    - http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C54571
-    - http___semanticscience.org_resource_CHEMINF_000000
-    - http___semanticscience.org_resource_CHEMINF_000446
-    subproperty_of: dct_relation
-    range: Any
-  http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C71478:
-    name: http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C71478
+  http___aopkb.org_aop_ontology#has_upstream_key_event:
+    name: http___aopkb.org_aop_ontology#has_upstream_key_event
     from_schema: okns:biobricks-aopwiki-kg
     rank: 1000
-    slot_uri: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71478
-    alias: http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C71478
+    slot_uri: http://aopkb.org/aop_ontology#has_upstream_key_event
+    alias: http___aopkb.org_aop_ontology#has_upstream_key_event
     owner: http___aopkb.org_aop_ontology#KeyEventRelationship
     domain_of:
     - http___aopkb.org_aop_ontology#KeyEventRelationship
-    range: string
+    range: http___aopkb.org_aop_ontology#KeyEvent
   rdfs_seeAlso:
     name: rdfs_seeAlso
     description: Further information about the subject resource.
@@ -289,6 +266,35 @@ attributes:
     any_of:
     - range: rdfs_Resource
     - range: uri
+  http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C80263:
+    name: http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C80263
+    from_schema: okns:biobricks-aopwiki-kg
+    rank: 1000
+    slot_uri: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C80263
+    alias: http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C80263
+    owner: http___aopkb.org_aop_ontology#KeyEventRelationship
+    domain_of:
+    - http___aopkb.org_aop_ontology#KeyEventRelationship
+    range: string
+  foaf_page:
+    name: foaf_page
+    description: A page or document about this thing.
+    title: page
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:foaf
+    source: http://xmlns.com/foaf/0.1/
+    domain: owl_Thing
+    slot_uri: foaf:page
+    alias: foaf_page
+    owner: http___aopkb.org_aop_ontology#KeyEventRelationship
+    domain_of:
+    - http___aopkb.org_aop_ontology#AdverseOutcomePathway
+    - http___aopkb.org_aop_ontology#KeyEvent
+    - http___aopkb.org_aop_ontology#KeyEventRelationship
+    - http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C54571
+    inverse: foaf_topic
+    range: foaf_Document
   dc_identifier:
     name: dc_identifier
     description: Recommended practice is to identify the resource by means of a string
@@ -333,25 +339,73 @@ attributes:
     - http___semanticscience.org_resource_CHEMINF_000567
     - obo_GO_0008150
     range: Any
-  foaf_page:
-    name: foaf_page
-    description: A page or document about this thing.
-    title: page
-    notes:
-    - No occurrences of this slot in the graph.
-    from_schema: okns:foaf
-    source: http://xmlns.com/foaf/0.1/
-    domain: owl_Thing
-    slot_uri: foaf:page
-    alias: foaf_page
+  dct_modified:
+    name: dct_modified
+    description: Recommended practice is to describe the date, date/time, or period
+      of time as recommended for the property Date, of which this is a subproperty.
+    title: Date Modified
+    comments:
+    - 'description: Date on which the resource was changed.'
+    from_schema: okns:dc
+    source: http://purl.org/dc/terms/
+    slot_uri: dct:modified
+    alias: dct_modified
     owner: http___aopkb.org_aop_ontology#KeyEventRelationship
     domain_of:
+    - http___aopkb.org_aop_ontology#AdverseOutcomePathway
+    - http___aopkb.org_aop_ontology#KeyEventRelationship
+    - http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C54571
+    subproperty_of: dct_date
+    range: Any
+    any_of:
+    - range: date
+    - range: rdfs_Literal
+  rdfs_label:
+    name: rdfs_label
+    description: A human-readable name for the subject.
+    title: label
+    from_schema: okns:owl-rdf-rdfs
+    source: http://www.w3.org/2000/01/rdf-schema#
+    domain: rdfs_Resource
+    slot_uri: rdfs:label
+    alias: rdfs_label
+    owner: http___aopkb.org_aop_ontology#KeyEventRelationship
+    domain_of:
+    - dcam_VocabularyEncodingScheme
+    - dct_AgentClass
+    - rdf_List
+    - rdfs_Datatype
     - http___aopkb.org_aop_ontology#AdverseOutcomePathway
     - http___aopkb.org_aop_ontology#KeyEvent
     - http___aopkb.org_aop_ontology#KeyEventRelationship
     - http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C54571
-    inverse: foaf_topic
-    range: foaf_Document
+    range: Any
+    any_of:
+    - range: rdfs_Literal
+    - range: string
+  dct_isPartOf:
+    name: dct_isPartOf
+    description: This property is intended to be used with non-literal values. This
+      property is an inverse property of Has Part.
+    title: Is Part Of
+    notes:
+    - No occurrences of this slot in the graph.
+    comments:
+    - 'description: A related resource in which the described resource is physically
+      or logically included.'
+    from_schema: okns:dc
+    source: http://purl.org/dc/terms/
+    slot_uri: dct:isPartOf
+    alias: dct_isPartOf
+    owner: http___aopkb.org_aop_ontology#KeyEventRelationship
+    domain_of:
+    - http___aopkb.org_aop_ontology#KeyEvent
+    - http___aopkb.org_aop_ontology#KeyEventRelationship
+    - http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C54571
+    - http___semanticscience.org_resource_CHEMINF_000000
+    - http___semanticscience.org_resource_CHEMINF_000446
+    subproperty_of: dct_relation
+    range: Any
   dc_description:
     name: dc_description
     description: 'Description may include but is not limited to: an abstract, a table
@@ -376,49 +430,6 @@ attributes:
     - http___aopkb.org_aop_ontology#KeyEventRelationship
     - http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C54571
     range: Any
-  http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C80263:
-    name: http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C80263
-    from_schema: okns:biobricks-aopwiki-kg
-    rank: 1000
-    slot_uri: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C80263
-    alias: http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C80263
-    owner: http___aopkb.org_aop_ontology#KeyEventRelationship
-    domain_of:
-    - http___aopkb.org_aop_ontology#KeyEventRelationship
-    range: string
-  http___aopkb.org_aop_ontology#has_upstream_key_event:
-    name: http___aopkb.org_aop_ontology#has_upstream_key_event
-    from_schema: okns:biobricks-aopwiki-kg
-    rank: 1000
-    slot_uri: http://aopkb.org/aop_ontology#has_upstream_key_event
-    alias: http___aopkb.org_aop_ontology#has_upstream_key_event
-    owner: http___aopkb.org_aop_ontology#KeyEventRelationship
-    domain_of:
-    - http___aopkb.org_aop_ontology#KeyEventRelationship
-    range: http___aopkb.org_aop_ontology#KeyEvent
-  rdfs_label:
-    name: rdfs_label
-    description: A human-readable name for the subject.
-    title: label
-    from_schema: okns:owl-rdf-rdfs
-    source: http://www.w3.org/2000/01/rdf-schema#
-    domain: rdfs_Resource
-    slot_uri: rdfs:label
-    alias: rdfs_label
-    owner: http___aopkb.org_aop_ontology#KeyEventRelationship
-    domain_of:
-    - dcam_VocabularyEncodingScheme
-    - dct_AgentClass
-    - rdf_List
-    - rdfs_Datatype
-    - http___aopkb.org_aop_ontology#AdverseOutcomePathway
-    - http___aopkb.org_aop_ontology#KeyEvent
-    - http___aopkb.org_aop_ontology#KeyEventRelationship
-    - http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C54571
-    range: Any
-    any_of:
-    - range: rdfs_Literal
-    - range: string
   http___aopkb.org_aop_ontology#has_downstream_key_event:
     name: http___aopkb.org_aop_ontology#has_downstream_key_event
     from_schema: okns:biobricks-aopwiki-kg
@@ -429,37 +440,6 @@ attributes:
     domain_of:
     - http___aopkb.org_aop_ontology#KeyEventRelationship
     range: http___aopkb.org_aop_ontology#KeyEvent
-  edam_data_2042:
-    name: edam_data_2042
-    from_schema: okns:biobricks-aopwiki-kg
-    rank: 1000
-    slot_uri: edam:data_2042
-    alias: edam_data_2042
-    owner: http___aopkb.org_aop_ontology#KeyEventRelationship
-    domain_of:
-    - http___aopkb.org_aop_ontology#KeyEventRelationship
-    range: string
-  dct_modified:
-    name: dct_modified
-    description: Recommended practice is to describe the date, date/time, or period
-      of time as recommended for the property Date, of which this is a subproperty.
-    title: Date Modified
-    comments:
-    - 'description: Date on which the resource was changed.'
-    from_schema: okns:dc
-    source: http://purl.org/dc/terms/
-    slot_uri: dct:modified
-    alias: dct_modified
-    owner: http___aopkb.org_aop_ontology#KeyEventRelationship
-    domain_of:
-    - http___aopkb.org_aop_ontology#AdverseOutcomePathway
-    - http___aopkb.org_aop_ontology#KeyEventRelationship
-    - http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C54571
-    subproperty_of: dct_date
-    range: Any
-    any_of:
-    - range: date
-    - range: rdfs_Literal
   edam_data_1025:
     name: edam_data_1025
     from_schema: okns:biobricks-aopwiki-kg
@@ -474,6 +454,26 @@ attributes:
     any_of:
     - range: edam_data_1025
     - range: edam_data_2298
+  edam_data_2042:
+    name: edam_data_2042
+    from_schema: okns:biobricks-aopwiki-kg
+    rank: 1000
+    slot_uri: edam:data_2042
+    alias: edam_data_2042
+    owner: http___aopkb.org_aop_ontology#KeyEventRelationship
+    domain_of:
+    - http___aopkb.org_aop_ontology#KeyEventRelationship
+    range: string
+  http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C71478:
+    name: http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C71478
+    from_schema: okns:biobricks-aopwiki-kg
+    rank: 1000
+    slot_uri: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71478
+    alias: http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C71478
+    owner: http___aopkb.org_aop_ontology#KeyEventRelationship
+    domain_of:
+    - http___aopkb.org_aop_ontology#KeyEventRelationship
+    range: string
   dct_created:
     name: dct_created
     description: Recommended practice is to describe the date, date/time, or period

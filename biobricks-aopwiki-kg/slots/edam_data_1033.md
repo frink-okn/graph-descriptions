@@ -22,8 +22,8 @@ URI: [edam:data_1033](http://edamontology.org/data_1033)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [EdamData1025](../classes/EdamData1025.md) |  |  no  |
 | [EdamData1033](../classes/EdamData1033.md) |  |  no  |
+| [EdamData1025](../classes/EdamData1025.md) |  |  no  |
 
 
 

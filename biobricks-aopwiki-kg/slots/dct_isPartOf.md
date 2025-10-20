@@ -27,10 +27,10 @@ URI: [dct:isPartOf](http://purl.org/dc/terms/isPartOf)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpSemanticscience.orgResourceCHEMINF000446](../classes/HttpSemanticscience.orgResourceCHEMINF000446.md) |  |  no  |
-| [HttpNcicb.nci.nih.govXmlOwlEVSThesaurus.owl#C54571](../classes/HttpNcicb.nci.nih.govXmlOwlEVSThesaurus.owl#C54571.md) |  |  no  |
-| [HttpAopkb.orgAopOntology#KeyEventRelationship](../classes/HttpAopkb.orgAopOntology#KeyEventRelationship.md) |  |  no  |
 | [HttpSemanticscience.orgResourceCHEMINF000000](../classes/HttpSemanticscience.orgResourceCHEMINF000000.md) |  |  no  |
+| [HttpNcicb.nci.nih.govXmlOwlEVSThesaurus.owl#C54571](../classes/HttpNcicb.nci.nih.govXmlOwlEVSThesaurus.owl#C54571.md) |  |  no  |
+| [HttpSemanticscience.orgResourceCHEMINF000446](../classes/HttpSemanticscience.orgResourceCHEMINF000446.md) |  |  no  |
+| [HttpAopkb.orgAopOntology#KeyEventRelationship](../classes/HttpAopkb.orgAopOntology#KeyEventRelationship.md) |  |  no  |
 | [HttpAopkb.orgAopOntology#KeyEvent](../classes/HttpAopkb.orgAopOntology#KeyEvent.md) |  |  no  |
 
 

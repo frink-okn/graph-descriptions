@@ -22,8 +22,8 @@ URI: [http://semanticscience.org/resource/CHEMINF_000446](http://semanticscience
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpSemanticscience.orgResourceCHEMINF000446](../classes/HttpSemanticscience.orgResourceCHEMINF000446.md) |  |  no  |
 | [HttpSemanticscience.orgResourceCHEMINF000000](../classes/HttpSemanticscience.orgResourceCHEMINF000000.md) |  |  no  |
+| [HttpSemanticscience.orgResourceCHEMINF000446](../classes/HttpSemanticscience.orgResourceCHEMINF000446.md) |  |  no  |
 
 
 

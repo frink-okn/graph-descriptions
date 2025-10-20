@@ -32,14 +32,14 @@ URI: [http://aopkb.org/aop_ontology#CellTypeContext](http://aopkb.org/aop_ontolo
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[HttpAopkb.orgAopOntology#CellTypeContext](../classes/HttpAopkb.orgAopOntology#CellTypeContext.md)&nbsp;or&nbsp;<br />[xsd:string](xsd:string)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](xsd:string)&nbsp;or&nbsp;<br />[HttpAopkb.orgAopOntology#CellTypeContext](../classes/HttpAopkb.orgAopOntology#CellTypeContext.md)
 
 ## Usages
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [HttpAopkb.orgAopOntology#KeyEvent](../classes/HttpAopkb.orgAopOntology#KeyEvent.md) | [HttpAopkb.orgAopOntology#CellTypeContext](../classes/HttpAopkb.orgAopOntology#CellTypeContext.md) | any_of[range] | [HttpAopkb.orgAopOntology#CellTypeContext](../classes/HttpAopkb.orgAopOntology#CellTypeContext.md) |
 | [HttpAopkb.orgAopOntology#KeyEvent](../classes/HttpAopkb.orgAopOntology#KeyEvent.md) | [obo_PATO_0001241](../slots/obo_PATO_0001241.md) | any_of[range] | [HttpAopkb.orgAopOntology#CellTypeContext](../classes/HttpAopkb.orgAopOntology#CellTypeContext.md) |
+| [HttpAopkb.orgAopOntology#KeyEvent](../classes/HttpAopkb.orgAopOntology#KeyEvent.md) | [HttpAopkb.orgAopOntology#CellTypeContext](../classes/HttpAopkb.orgAopOntology#CellTypeContext.md) | any_of[range] | [HttpAopkb.orgAopOntology#CellTypeContext](../classes/HttpAopkb.orgAopOntology#CellTypeContext.md) |
 
 
 
@@ -62,8 +62,8 @@ domain_of:
 - http___aopkb.org_aop_ontology#KeyEvent
 range: Any
 any_of:
-- range: http___aopkb.org_aop_ontology#CellTypeContext
 - range: string
+- range: http___aopkb.org_aop_ontology#CellTypeContext
 
 ```
 </details>

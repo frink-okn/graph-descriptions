@@ -113,15 +113,15 @@ URI: [http://semanticscience.org/resource/CHEMINF_000446](http://semanticscience
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [dct_isPartOf](../slots/dct_isPartOf.md) | 0..1 <br/> [Any](../classes/Any.md) | This property is intended to be used with non-literal values <br/> description: A related resource in which the described resource is physically or logically included. | direct | 397 |
+| [http___semanticscience.org_resource_CHEMINF_000446](../slots/http___semanticscience.org_resource_CHEMINF_000446.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 391 |
 | [dc_identifier](../slots/dc_identifier.md) | 0..1 <br/> [Any](../classes/Any.md) | Recommended practice is to identify the resource by means of a string conform... <br/> description: An unambiguous reference to the resource within a given context. | direct | 782 |
-| [skos_exactMatch](../slots/skos_exactMatch.md) | 0..1 <br/> [Any](../classes/Any.md) | skos:exactMatch is used to link two concepts, indicating a high degree of con... <br/> description: skos:exactMatch is disjoint with each of the properties skos:broadMatch and skos:relatedMatch. | direct | 3297 |
-| [dct_alternative](../slots/dct_alternative.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md) | The distinction between titles and alternative titles is application-specific <br/> description: An alternative name for the resource. | direct | 13157 |
-| [dc_source](../slots/dc_source.md) | 0..1 <br/> [Any](../classes/Any.md) | The described resource may be derived from the related resource in whole or i... <br/> description: A related resource from which the described resource is derived. | direct | 391 |
 | [dc_title](../slots/dc_title.md) | 0..1 <br/> [Any](../classes/Any.md) | A name given to the resource <br/>  | direct | 391 |
 | [http___semanticscience.org_resource_CHEMINF_000059](../slots/http___semanticscience.org_resource_CHEMINF_000059.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI) |  <br/>  | direct | 375 |
 | [http___semanticscience.org_resource_CHEMINF_000568](../slots/http___semanticscience.org_resource_CHEMINF_000568.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI) |  <br/>  | direct | 391 |
-| [http___semanticscience.org_resource_CHEMINF_000446](../slots/http___semanticscience.org_resource_CHEMINF_000446.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 391 |
+| [dct_isPartOf](../slots/dct_isPartOf.md) | 0..1 <br/> [Any](../classes/Any.md) | This property is intended to be used with non-literal values <br/> description: A related resource in which the described resource is physically or logically included. | direct | 397 |
+| [dct_alternative](../slots/dct_alternative.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md) | The distinction between titles and alternative titles is application-specific <br/> description: An alternative name for the resource. | direct | 13157 |
+| [dc_source](../slots/dc_source.md) | 0..1 <br/> [Any](../classes/Any.md) | The described resource may be derived from the related resource in whole or i... <br/> description: A related resource from which the described resource is derived. | direct | 391 |
+| [skos_exactMatch](../slots/skos_exactMatch.md) | 0..1 <br/> [Any](../classes/Any.md) | skos:exactMatch is used to link two concepts, indicating a high degree of con... <br/> description: skos:exactMatch is disjoint with each of the properties skos:broadMatch and skos:relatedMatch. | direct | 3297 |
 
 
 
@@ -156,15 +156,15 @@ name: http___semanticscience.org_resource_CHEMINF_000446
 from_schema: okns:biobricks-aopwiki-kg
 rank: 1000
 slots:
-- dct_isPartOf
+- http___semanticscience.org_resource_CHEMINF_000446
 - dc_identifier
-- skos_exactMatch
-- dct_alternative
-- dc_source
 - dc_title
 - http___semanticscience.org_resource_CHEMINF_000059
 - http___semanticscience.org_resource_CHEMINF_000568
-- http___semanticscience.org_resource_CHEMINF_000446
+- dct_isPartOf
+- dct_alternative
+- dc_source
+- skos_exactMatch
 class_uri: http://semanticscience.org/resource/CHEMINF_000446
 
 ```
@@ -179,29 +179,17 @@ name: http___semanticscience.org_resource_CHEMINF_000446
 from_schema: okns:biobricks-aopwiki-kg
 rank: 1000
 attributes:
-  dct_isPartOf:
-    name: dct_isPartOf
-    description: This property is intended to be used with non-literal values. This
-      property is an inverse property of Has Part.
-    title: Is Part Of
-    notes:
-    - No occurrences of this slot in the graph.
-    comments:
-    - 'description: A related resource in which the described resource is physically
-      or logically included.'
-    from_schema: okns:dc
-    source: http://purl.org/dc/terms/
-    slot_uri: dct:isPartOf
-    alias: dct_isPartOf
+  http___semanticscience.org_resource_CHEMINF_000446:
+    name: http___semanticscience.org_resource_CHEMINF_000446
+    from_schema: okns:biobricks-aopwiki-kg
+    rank: 1000
+    slot_uri: http://semanticscience.org/resource/CHEMINF_000446
+    alias: http___semanticscience.org_resource_CHEMINF_000446
     owner: http___semanticscience.org_resource_CHEMINF_000446
     domain_of:
-    - http___aopkb.org_aop_ontology#KeyEvent
-    - http___aopkb.org_aop_ontology#KeyEventRelationship
-    - http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C54571
     - http___semanticscience.org_resource_CHEMINF_000000
     - http___semanticscience.org_resource_CHEMINF_000446
-    subproperty_of: dct_relation
-    range: Any
+    range: string
   dc_identifier:
     name: dc_identifier
     description: Recommended practice is to identify the resource by means of a string
@@ -246,29 +234,76 @@ attributes:
     - http___semanticscience.org_resource_CHEMINF_000567
     - obo_GO_0008150
     range: Any
-  skos_exactMatch:
-    name: skos_exactMatch
-    description: skos:exactMatch is used to link two concepts, indicating a high degree
-      of confidence that the concepts can be used interchangeably across a wide range
-      of information retrieval applications. skos:exactMatch is a transitive property,
-      and is a sub-property of skos:closeMatch.
-    title: has exact match
+  dc_title:
+    name: dc_title
+    description: A name given to the resource.
+    title: Title
+    notes:
+    - 'A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/title)
+      with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See
+      the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/)
+      for an explanation.'
+    - No occurrences of this slot in the graph.
+    from_schema: okns:dc
+    source: http://purl.org/dc/elements/1.1/
+    slot_uri: dc:title
+    alias: dc_title
+    owner: http___semanticscience.org_resource_CHEMINF_000446
+    domain_of:
+    - http___aopkb.org_aop_ontology#AdverseOutcomePathway
+    - http___aopkb.org_aop_ontology#CellTypeContext
+    - http___aopkb.org_aop_ontology#KeyEvent
+    - http___aopkb.org_aop_ontology#OrganContext
+    - http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C54571
+    - http___purl.bioontology.org_ontology_NCBITAXON_131567
+    - http___semanticscience.org_resource_CHEMINF_000000
+    - http___semanticscience.org_resource_CHEMINF_000446
+    - obo_GO_0008150
+    range: Any
+  http___semanticscience.org_resource_CHEMINF_000059:
+    name: http___semanticscience.org_resource_CHEMINF_000059
+    from_schema: okns:biobricks-aopwiki-kg
+    rank: 1000
+    slot_uri: http://semanticscience.org/resource/CHEMINF_000059
+    alias: http___semanticscience.org_resource_CHEMINF_000059
+    owner: http___semanticscience.org_resource_CHEMINF_000446
+    domain_of:
+    - http___semanticscience.org_resource_CHEMINF_000000
+    - http___semanticscience.org_resource_CHEMINF_000446
+    range: uri
+  http___semanticscience.org_resource_CHEMINF_000568:
+    name: http___semanticscience.org_resource_CHEMINF_000568
+    from_schema: okns:biobricks-aopwiki-kg
+    rank: 1000
+    slot_uri: http://semanticscience.org/resource/CHEMINF_000568
+    alias: http___semanticscience.org_resource_CHEMINF_000568
+    owner: http___semanticscience.org_resource_CHEMINF_000446
+    domain_of:
+    - http___semanticscience.org_resource_CHEMINF_000000
+    - http___semanticscience.org_resource_CHEMINF_000446
+    range: uri
+  dct_isPartOf:
+    name: dct_isPartOf
+    description: This property is intended to be used with non-literal values. This
+      property is an inverse property of Has Part.
+    title: Is Part Of
     notes:
     - No occurrences of this slot in the graph.
     comments:
-    - 'description: skos:exactMatch is disjoint with each of the properties skos:broadMatch
-      and skos:relatedMatch.'
-    from_schema: okns:skos
-    source: http://www.w3.org/2004/02/skos/core
-    slot_uri: skos:exactMatch
-    alias: skos_exactMatch
+    - 'description: A related resource in which the described resource is physically
+      or logically included.'
+    from_schema: okns:dc
+    source: http://purl.org/dc/terms/
+    slot_uri: dct:isPartOf
+    alias: dct_isPartOf
     owner: http___semanticscience.org_resource_CHEMINF_000446
     domain_of:
-    - edam_data_1025
-    - edam_data_2298
+    - http___aopkb.org_aop_ontology#KeyEvent
+    - http___aopkb.org_aop_ontology#KeyEventRelationship
+    - http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C54571
     - http___semanticscience.org_resource_CHEMINF_000000
     - http___semanticscience.org_resource_CHEMINF_000446
-    subproperty_of: skos_closeMatch
+    subproperty_of: dct_relation
     range: Any
   dct_alternative:
     name: dct_alternative
@@ -333,65 +368,30 @@ attributes:
     - http___semanticscience.org_resource_CHEMINF_000567
     - obo_GO_0008150
     range: Any
-  dc_title:
-    name: dc_title
-    description: A name given to the resource.
-    title: Title
+  skos_exactMatch:
+    name: skos_exactMatch
+    description: skos:exactMatch is used to link two concepts, indicating a high degree
+      of confidence that the concepts can be used interchangeably across a wide range
+      of information retrieval applications. skos:exactMatch is a transitive property,
+      and is a sub-property of skos:closeMatch.
+    title: has exact match
     notes:
-    - 'A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/title)
-      with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See
-      the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/)
-      for an explanation.'
     - No occurrences of this slot in the graph.
-    from_schema: okns:dc
-    source: http://purl.org/dc/elements/1.1/
-    slot_uri: dc:title
-    alias: dc_title
+    comments:
+    - 'description: skos:exactMatch is disjoint with each of the properties skos:broadMatch
+      and skos:relatedMatch.'
+    from_schema: okns:skos
+    source: http://www.w3.org/2004/02/skos/core
+    slot_uri: skos:exactMatch
+    alias: skos_exactMatch
     owner: http___semanticscience.org_resource_CHEMINF_000446
     domain_of:
-    - http___aopkb.org_aop_ontology#AdverseOutcomePathway
-    - http___aopkb.org_aop_ontology#CellTypeContext
-    - http___aopkb.org_aop_ontology#KeyEvent
-    - http___aopkb.org_aop_ontology#OrganContext
-    - http___ncicb.nci.nih.gov_xml_owl_EVS_Thesaurus.owl#C54571
-    - http___purl.bioontology.org_ontology_NCBITAXON_131567
+    - edam_data_1025
+    - edam_data_2298
     - http___semanticscience.org_resource_CHEMINF_000000
     - http___semanticscience.org_resource_CHEMINF_000446
-    - obo_GO_0008150
+    subproperty_of: skos_closeMatch
     range: Any
-  http___semanticscience.org_resource_CHEMINF_000059:
-    name: http___semanticscience.org_resource_CHEMINF_000059
-    from_schema: okns:biobricks-aopwiki-kg
-    rank: 1000
-    slot_uri: http://semanticscience.org/resource/CHEMINF_000059
-    alias: http___semanticscience.org_resource_CHEMINF_000059
-    owner: http___semanticscience.org_resource_CHEMINF_000446
-    domain_of:
-    - http___semanticscience.org_resource_CHEMINF_000000
-    - http___semanticscience.org_resource_CHEMINF_000446
-    range: uri
-  http___semanticscience.org_resource_CHEMINF_000568:
-    name: http___semanticscience.org_resource_CHEMINF_000568
-    from_schema: okns:biobricks-aopwiki-kg
-    rank: 1000
-    slot_uri: http://semanticscience.org/resource/CHEMINF_000568
-    alias: http___semanticscience.org_resource_CHEMINF_000568
-    owner: http___semanticscience.org_resource_CHEMINF_000446
-    domain_of:
-    - http___semanticscience.org_resource_CHEMINF_000000
-    - http___semanticscience.org_resource_CHEMINF_000446
-    range: uri
-  http___semanticscience.org_resource_CHEMINF_000446:
-    name: http___semanticscience.org_resource_CHEMINF_000446
-    from_schema: okns:biobricks-aopwiki-kg
-    rank: 1000
-    slot_uri: http://semanticscience.org/resource/CHEMINF_000446
-    alias: http___semanticscience.org_resource_CHEMINF_000446
-    owner: http___semanticscience.org_resource_CHEMINF_000446
-    domain_of:
-    - http___semanticscience.org_resource_CHEMINF_000000
-    - http___semanticscience.org_resource_CHEMINF_000446
-    range: string
 class_uri: http://semanticscience.org/resource/CHEMINF_000446
 
 ```

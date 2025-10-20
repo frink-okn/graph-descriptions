@@ -29,13 +29,13 @@ URI: [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label)
 | --- | --- | --- |
 | [HttpNcicb.nci.nih.govXmlOwlEVSThesaurus.owl#C54571](../classes/HttpNcicb.nci.nih.govXmlOwlEVSThesaurus.owl#C54571.md) |  |  no  |
 | [HttpAopkb.orgAopOntology#KeyEventRelationship](../classes/HttpAopkb.orgAopOntology#KeyEventRelationship.md) |  |  no  |
-| [RdfsDatatype](../classes/RdfsDatatype.md) | The class of RDF datatypes |  no  |
+| [HttpAopkb.orgAopOntology#AdverseOutcomePathway](../classes/HttpAopkb.orgAopOntology#AdverseOutcomePathway.md) |  |  no  |
+| [HttpAopkb.orgAopOntology#KeyEvent](../classes/HttpAopkb.orgAopOntology#KeyEvent.md) |  |  no  |
 | [DctAgentClass](../classes/DctAgentClass.md) | A group of agents |  no  |
 | [DcamVocabularyEncodingScheme](../classes/DcamVocabularyEncodingScheme.md) | An enumerated set of resources |  no  |
-| [HttpAopkb.orgAopOntology#AdverseOutcomePathway](../classes/HttpAopkb.orgAopOntology#AdverseOutcomePathway.md) |  |  no  |
+| [RdfsDatatype](../classes/RdfsDatatype.md) | The class of RDF datatypes |  no  |
 | [OwlDataRange](../classes/OwlDataRange.md) | The class of OWL data ranges, which are special kinds of datatypes |  no  |
 | [RdfList](../classes/RdfList.md) | The class of RDF Lists |  no  |
-| [HttpAopkb.orgAopOntology#KeyEvent](../classes/HttpAopkb.orgAopOntology#KeyEvent.md) |  |  no  |
 
 
 
