@@ -21,11 +21,11 @@ annotations:
         tag: pairs
         value: {}
 classes: {}
-created_on: '2025-10-21T22:25:00.160466'
+created_on: '2025-10-22T14:49:28.186413'
 default_prefix: okns
 id: okns:climatepub4-kg
 imports: []
-last_updated_on: '2025-10-21T22:25:00.160466'
+last_updated_on: '2025-10-22T14:49:28.186413'
 name: climatepub4-kg
 prefixes:
   okn: https://purl.org/okn/
