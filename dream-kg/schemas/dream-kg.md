@@ -1,6 +1,6 @@
 # dream-kg
 
-No schema description specified
+None
 
-URI: dream-kg
+URI: okns:dream-kg
 

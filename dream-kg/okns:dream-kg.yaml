@@ -1,34 +1,31 @@
+name: dream-kg
 annotations:
   counts:
     tag: counts
     value:
       classes:
         tag: classes
-        value: {}
       pairs:
         tag: pairs
-        value: {}
       slots:
         tag: slots
-        value: {}
   examples:
     tag: examples
     value:
       classes:
         tag: classes
-        value: {}
       pairs:
         tag: pairs
-        value: {}
-classes: {}
-created_on: '2025-10-22T16:20:46.830679'
-default_prefix: okns
-id: okns:dream-kg
-imports: []
-last_updated_on: '2025-10-22T16:20:46.830679'
-name: dream-kg
-prefixes:
-  okn: https://purl.org/okn/
-  okns: https://purl.org/okn/schema/
-slots: {}
 title: dreamkg
+created_on: '2025-10-22T16:20:46.830679'
+last_updated_on: '2025-10-22T16:20:46.830679'
+id: okns:dream-kg
+prefixes:
+  okn:
+    prefix_prefix: okn
+    prefix_reference: https://purl.org/okn/
+  okns:
+    prefix_prefix: okns
+    prefix_reference: https://purl.org/okn/schema/
+default_prefix: okns
+source_file: /code/dream-kg.yaml
