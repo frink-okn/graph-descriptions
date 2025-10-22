@@ -93,12 +93,12 @@ URI: [fio-epa-frs:ReportingSystem](http://w3id.org/fio/v1/epa-frs#ReportingSyste
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [dct_source](../slots/dct_source.md) | 0..1 <br/> [Any](../classes/Any.md) | This property is intended to be used with non-literal values <br/> description: A related resource from which the described resource is derived. | direct | 1 |
 | [dct_description](../slots/dct_description.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | Description may include but is not limited to: an abstract, a table of conten... <br/> description: An account of the resource. | direct | 20 |
-| [fio_epa_frs_replacedBy](../slots/fio_epa_frs_replacedBy.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[Fio-epa-frsProgramInformationSystem](../classes/Fio-epa-frsProgramInformationSystem.md)&nbsp;or&nbsp;<br />[Fio-epa-frsSiteSystem](../classes/Fio-epa-frsSiteSystem.md)&nbsp;or&nbsp;<br />[Fio-epa-frsPermitSystem](../classes/Fio-epa-frsPermitSystem.md) |  <br/>  | direct | 2 |
-| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/>  | direct | 25 |
-| [fio_epa_frs_partOf](../slots/fio_epa_frs_partOf.md) | 0..1 <br/> [Fio-epa-frsProgramInformationSystem](../classes/Fio-epa-frsProgramInformationSystem.md)&nbsp;or&nbsp;<br />[Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |  <br/>  | direct | 1 |
+| [fio_epa_frs_replacedBy](../slots/fio_epa_frs_replacedBy.md) | 0..1 <br/> [Fio-epa-frsSiteSystem](../classes/Fio-epa-frsSiteSystem.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[Fio-epa-frsPermitSystem](../classes/Fio-epa-frsPermitSystem.md)&nbsp;or&nbsp;<br />[Fio-epa-frsProgramInformationSystem](../classes/Fio-epa-frsProgramInformationSystem.md) |  <br/>  | direct | 2 |
 | [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | A human-readable name for the subject <br/>  | direct | 20 |
+| [fio_epa_frs_partOf](../slots/fio_epa_frs_partOf.md) | 0..1 <br/> [Fio-epa-frsProgramInformationSystem](../classes/Fio-epa-frsProgramInformationSystem.md)&nbsp;or&nbsp;<br />[Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |  <br/>  | direct | 1 |
+| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/>  | direct | 25 |
+| [dct_source](../slots/dct_source.md) | 0..1 <br/> [Any](../classes/Any.md) | This property is intended to be used with non-literal values <br/> description: A related resource from which the described resource is derived. | direct | 1 |
 
 
 
@@ -108,27 +108,22 @@ URI: [fio-epa-frs:ReportingSystem](http://w3id.org/fio/v1/epa-frs#ReportingSyste
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [B1d70f10e8204578c89c5f678467193ea](../classes/B1d70f10e8204578c89c5f678467193ea.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
-| [B3a5aa76705834f507db6d3c7d90d63b8](../classes/B3a5aa76705834f507db6d3c7d90d63b8.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
-| [B43f2153f8fa51cc860da104aa4b996c7](../classes/B43f2153f8fa51cc860da104aa4b996c7.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
-| [B51b8d66516b28a1c54f8d745ede947b9](../classes/B51b8d66516b28a1c54f8d745ede947b9.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
-| [B5debef6666ba27aa225105865fd22d6c](../classes/B5debef6666ba27aa225105865fd22d6c.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
-| [B671ac9cd6796151f919e5affbe3cc5f9](../classes/B671ac9cd6796151f919e5affbe3cc5f9.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
-| [B707e8df015ee2912f85cf2fec8dc4718](../classes/B707e8df015ee2912f85cf2fec8dc4718.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
-| [B912c2f2722265f457d11b52388b1def0](../classes/B912c2f2722265f457d11b52388b1def0.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
-| [B9968aab18e1237453b5cbb15df1c74b9](../classes/B9968aab18e1237453b5cbb15df1c74b9.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
-| [Ba0ffbf1a7a548fac1e61d3eceada03dd](../classes/Ba0ffbf1a7a548fac1e61d3eceada03dd.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
-| [Bdbdbfbd4ef20ffc37226553d96831226](../classes/Bdbdbfbd4ef20ffc37226553d96831226.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
-| [Be082c2fc952b5eb7e355834fa6af4865](../classes/Be082c2fc952b5eb7e355834fa6af4865.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
-| [Be0e551f6155d8e99ee967119022af97d](../classes/Be0e551f6155d8e99ee967119022af97d.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
-| [Bea9d030ae5649d7f06d536c2a467e56f](../classes/Bea9d030ae5649d7f06d536c2a467e56f.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
-| [Bf0c649c8d760a3559d3d5e5b1f68a59f](../classes/Bf0c649c8d760a3559d3d5e5b1f68a59f.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
-| [Bf906a89c08306329b89456f1d101a6bf](../classes/Bf906a89c08306329b89456f1d101a6bf.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
+| [Fio-epa-frsComplianceRecord](../classes/Fio-epa-frsComplianceRecord.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
+| [Fio-epa-frsEnforcementActivity](../classes/Fio-epa-frsEnforcementActivity.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
+| [Fio-epa-frsEnforcementTrackingRecord](../classes/Fio-epa-frsEnforcementTrackingRecord.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
 | [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
+| [Fio-epa-frsPermitRecord](../classes/Fio-epa-frsPermitRecord.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
 | [Fio-epa-frsPermitSystem](../classes/Fio-epa-frsPermitSystem.md) | [fio_epa_frs_partOf](../slots/fio_epa_frs_partOf.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
+| [Fio-epa-frsProjectRecord](../classes/Fio-epa-frsProjectRecord.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
 | [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
+| [Fio-epa-frsRegistrationRecord](../classes/Fio-epa-frsRegistrationRecord.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
+| [Fio-epa-frsReportingRecord](../classes/Fio-epa-frsReportingRecord.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
 | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) | [fio_epa_frs_partOf](../slots/fio_epa_frs_partOf.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
+| [Fio-epa-frsRiskPlanRecord](../classes/Fio-epa-frsRiskPlanRecord.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
+| [Fio-epa-frsSiteRecord](../classes/Fio-epa-frsSiteRecord.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
+| [Fio-epa-frsStateTrackingRecord](../classes/Fio-epa-frsStateTrackingRecord.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
 | [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
+| [Fio-epa-frsTribalTrackingRecord](../classes/Fio-epa-frsTribalTrackingRecord.md) | [fio_epa_frs_fromSystem](../slots/fio_epa_frs_fromSystem.md) | any_of[range] | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |
 
 
 
@@ -151,17 +146,15 @@ URI: [fio-epa-frs:ReportingSystem](http://w3id.org/fio/v1/epa-frs#ReportingSyste
 ```yaml
 name: fio-epa-frs_ReportingSystem
 from_schema: okns:fio-kg
-exact_mappings:
-- http://w3id.org/fio/v1/epa-frs#ReportingSystem
 rank: 1000
 is_a: owl_Thing
 slots:
-- dct_source
 - dct_description
 - fio-epa-frs_replacedBy
-- owl_sameAs
-- fio-epa-frs_partOf
 - rdfs_label
+- fio-epa-frs_partOf
+- owl_sameAs
+- dct_source
 class_uri: fio-epa-frs:ReportingSystem
 
 ```
@@ -174,35 +167,9 @@ class_uri: fio-epa-frs:ReportingSystem
 ```yaml
 name: fio-epa-frs_ReportingSystem
 from_schema: okns:fio-kg
-exact_mappings:
-- http://w3id.org/fio/v1/epa-frs#ReportingSystem
 rank: 1000
 is_a: owl_Thing
 attributes:
-  dct_source:
-    name: dct_source
-    description: This property is intended to be used with non-literal values. The
-      described resource may be derived from the related resource in whole or in part.
-      Best practice is to identify the related resource by means of a URI or a string
-      conforming to a formal identification system.
-    title: Source
-    notes:
-    - No occurrences of this slot in the graph.
-    comments:
-    - 'description: A related resource from which the described resource is derived.'
-    from_schema: okns:dc
-    source: http://purl.org/dc/terms/
-    slot_uri: dct:source
-    alias: dct_source
-    owner: fio-epa-frs_ReportingSystem
-    domain_of:
-    - qudt_Unit
-    - fio-epa-frs_LegacySystem
-    - fio-epa-frs_ProjectSystem
-    - fio-epa-frs_ReportingSystem
-    - fio-epa-frs_SiteSystem
-    subproperty_of: dct_relation
-    range: Any
   dct_description:
     name: dct_description
     description: 'Description may include but is not limited to: an abstract, a table
@@ -226,19 +193,7 @@ attributes:
     - qudt_DimensionlessUnit
     - qudt_LogarithmicUnit
     - qudt_Unit
-    - __B1d70f10e8204578c89c5f678467193ea
-    - __B3a5aa76705834f507db6d3c7d90d63b8
-    - __B51b8d66516b28a1c54f8d745ede947b9
-    - __B5debef6666ba27aa225105865fd22d6c
-    - __B671ac9cd6796151f919e5affbe3cc5f9
-    - __B912c2f2722265f457d11b52388b1def0
-    - __B9968aab18e1237453b5cbb15df1c74b9
-    - __Ba0ffbf1a7a548fac1e61d3eceada03dd
-    - __Bdbdbfbd4ef20ffc37226553d96831226
-    - __Be082c2fc952b5eb7e355834fa6af4865
-    - __Bea9d030ae5649d7f06d536c2a467e56f
-    - __Bf0c649c8d760a3559d3d5e5b1f68a59f
-    - __Bf906a89c08306329b89456f1d101a6bf
+    - __B78889d67d06fc8a172807dd97a6eabac
     - fio-epa-frs_AirProgram
     - fio-epa-frs_AnimalOperation
     - fio-epa-frs_AssistanceSupportProgram
@@ -250,8 +205,10 @@ attributes:
     - fio-epa-frs_DrinkingWaterProgram
     - fio-epa-frs_EcologyOperation
     - fio-epa-frs_ElectronicPermitSystem
+    - fio-epa-frs_EnforcementActivity
     - fio-epa-frs_EnforcementInterest
     - fio-epa-frs_EnforcementSystem
+    - fio-epa-frs_EnforcementTrackingRecord
     - fio-epa-frs_EnvironmentalInterestByProgram
     - fio-epa-frs_FRS-Facility
     - fio-epa-frs_FacilitySiteIdentification
@@ -262,23 +219,30 @@ attributes:
     - fio-epa-frs_LegacySystem
     - fio-epa-frs_LegalEnforcementActivities
     - fio-epa-frs_PermitInterest
+    - fio-epa-frs_PermitRecord
     - fio-epa-frs_PermitSystem
     - fio-epa-frs_PesticidesProgram
     - fio-epa-frs_ProgramInformationSystem
+    - fio-epa-frs_ProjectRecord
     - fio-epa-frs_ProjectSystem
     - fio-epa-frs_RadiationProtectionProgram
+    - fio-epa-frs_RegistrationRecord
     - fio-epa-frs_RegistryInterest
     - fio-epa-frs_RegistrySystem
     - fio-epa-frs_RemediationRedevelopmentProgram
     - fio-epa-frs_ReportingInterest
+    - fio-epa-frs_ReportingRecord
     - fio-epa-frs_ReportingSystem
     - fio-epa-frs_RiskInterest
+    - fio-epa-frs_RiskPlanRecord
     - fio-epa-frs_SiteInterest
+    - fio-epa-frs_SiteRecord
     - fio-epa-frs_SiteSystem
     - fio-epa-frs_SolidWasteProgram
     - fio-epa-frs_StateSystem
     - fio-epa-frs_SupplementalRecord
     - fio-epa-frs_TribalSystem
+    - fio-epa-frs_TribalTrackingRecord
     - fio-epa-frs_UndergroundStorageTankProgram
     - fio-epa-frs_WasteWaterProgram
     - fio-epa-frs_WaterResourcesProgram
@@ -287,8 +251,6 @@ attributes:
   fio-epa-frs_replacedBy:
     name: fio-epa-frs_replacedBy
     from_schema: okns:fio-kg
-    exact_mappings:
-    - http://w3id.org/fio/v1/epa-frs#replacedBy
     rank: 1000
     slot_uri: fio-epa-frs:replacedBy
     alias: fio_epa_frs_replacedBy
@@ -299,126 +261,10 @@ attributes:
     - fio-epa-frs_SiteSystem
     range: Any
     any_of:
-    - range: owl_Thing
-    - range: fio-epa-frs_ProgramInformationSystem
     - range: fio-epa-frs_SiteSystem
+    - range: owl_Thing
     - range: fio-epa-frs_PermitSystem
-  owl_sameAs:
-    name: owl_sameAs
-    description: The property that determines that two given individuals are equal.
-    title: sameAs
-    notes:
-    - No occurrences of this slot in the graph.
-    from_schema: okns:owl-rdf-rdfs
-    source: http://www.w3.org/2002/07/owl#
-    domain: owl_Thing
-    slot_uri: owl:sameAs
-    alias: owl_sameAs
-    owner: fio-epa-frs_ReportingSystem
-    domain_of:
-    - __B1d70f10e8204578c89c5f678467193ea
-    - __B3a5aa76705834f507db6d3c7d90d63b8
-    - __B43f2153f8fa51cc860da104aa4b996c7
-    - __B51b8d66516b28a1c54f8d745ede947b9
-    - __B5debef6666ba27aa225105865fd22d6c
-    - __B671ac9cd6796151f919e5affbe3cc5f9
-    - __B707e8df015ee2912f85cf2fec8dc4718
-    - __B912c2f2722265f457d11b52388b1def0
-    - __B9968aab18e1237453b5cbb15df1c74b9
-    - __Ba0ffbf1a7a548fac1e61d3eceada03dd
-    - __Bdbdbfbd4ef20ffc37226553d96831226
-    - __Be082c2fc952b5eb7e355834fa6af4865
-    - __Be0e551f6155d8e99ee967119022af97d
-    - __Bea9d030ae5649d7f06d536c2a467e56f
-    - __Bf0c649c8d760a3559d3d5e5b1f68a59f
-    - __Bf906a89c08306329b89456f1d101a6bf
-    - fio-epa-frs_Agency
-    - fio-epa-frs_Agency.Agriculture
-    - fio-epa-frs_Agency.Commerce
-    - fio-epa-frs_Agency.Congress
-    - fio-epa-frs_Agency.Defense
-    - fio-epa-frs_Agency.Energy
-    - fio-epa-frs_Agency.HealthandHumanServices
-    - fio-epa-frs_Agency.HomelandSecurity
-    - fio-epa-frs_Agency.HousingandUrbanDevelopment
-    - fio-epa-frs_Agency.Interior
-    - fio-epa-frs_Agency.Judicial
-    - fio-epa-frs_Agency.Justice
-    - fio-epa-frs_Agency.Labor
-    - fio-epa-frs_Agency.State
-    - fio-epa-frs_Agency.Transportation
-    - fio-epa-frs_Agency.Treasury
-    - fio-epa-frs_Agency.VeteransAffairs
-    - fio-epa-frs_AirProgram
-    - fio-epa-frs_AnimalOperation
-    - fio-epa-frs_AssistanceSupportProgram
-    - fio-epa-frs_ChemicalReleaseProgram
-    - fio-epa-frs_ChemicalStorageProgram
-    - fio-epa-frs_CoastalOceanProgram
-    - fio-epa-frs_ComplianceInterest
-    - fio-epa-frs_ComplianceSystem
-    - fio-epa-frs_DrinkingWaterProgram
-    - fio-epa-frs_EPA-PFAS-Facility
-    - fio-epa-frs_EcologyOperation
-    - fio-epa-frs_ElectronicPermitSystem
-    - fio-epa-frs_EnforcementInterest
-    - fio-epa-frs_EnforcementSystem
-    - fio-epa-frs_EnvironmentalInterestByProgram
-    - fio-epa-frs_EnvironmentalInterestType
-    - fio-epa-frs_FRS-Facility
-    - fio-epa-frs_FacilitySiteIdentification
-    - fio-epa-frs_FacilityType
-    - fio-epa-frs_GrantSystem
-    - fio-epa-frs_GroundWaterProgram
-    - fio-epa-frs_HazardousWasteProgram
-    - fio-epa-frs_HealthSafetyProgram
-    - fio-epa-frs_LegacySystem
-    - fio-epa-frs_LegalEnforcementActivities
-    - fio-epa-frs_PermitInterest
-    - fio-epa-frs_PermitSystem
-    - fio-epa-frs_PesticidesProgram
-    - fio-epa-frs_ProgramInformationSystem
-    - fio-epa-frs_ProjectSystem
-    - fio-epa-frs_RadiationProtectionProgram
-    - fio-epa-frs_Record
-    - fio-epa-frs_RegistryInterest
-    - fio-epa-frs_RegistrySystem
-    - fio-epa-frs_RemediationRedevelopmentProgram
-    - fio-epa-frs_ReportingInterest
-    - fio-epa-frs_ReportingSystem
-    - fio-epa-frs_RiskInterest
-    - fio-epa-frs_SiteInterest
-    - fio-epa-frs_SiteSystem
-    - fio-epa-frs_SolidWasteProgram
-    - fio-epa-frs_StateSystem
-    - fio-epa-frs_SupplementalRecord
-    - fio-epa-frs_TribalSystem
-    - fio-epa-frs_UndergroundStorageTankProgram
-    - fio-epa-frs_WasteWaterProgram
-    - fio-epa-frs_WaterResourcesProgram
-    - fio_Industry
-    - kwgo_S2Cell_Level13
-    - naics_NAICS-IndustryCode
-    - naics_NAICS-IndustryGroup
-    - naics_NAICS-IndustrySector
-    - naics_NAICS-IndustrySubsector
-    range: owl_Thing
-  fio-epa-frs_partOf:
-    name: fio-epa-frs_partOf
-    from_schema: okns:fio-kg
-    exact_mappings:
-    - http://w3id.org/fio/v1/epa-frs#partOf
-    rank: 1000
-    slot_uri: fio-epa-frs:partOf
-    alias: fio_epa_frs_partOf
-    owner: fio-epa-frs_ReportingSystem
-    domain_of:
-    - fio-epa-frs_PermitSystem
-    - fio-epa-frs_ReportingSystem
-    range: Any
-    any_of:
     - range: fio-epa-frs_ProgramInformationSystem
-    - range: fio-epa-frs_ReportingSystem
   rdfs_label:
     name: rdfs_label
     description: A human-readable name for the subject.
@@ -430,12 +276,12 @@ attributes:
     alias: rdfs_label
     owner: fio-epa-frs_ReportingSystem
     domain_of:
+    - time_DayOfWeek
+    - time_TemporalUnit
     - dcam_VocabularyEncodingScheme
     - dct_AgentClass
     - rdf_List
     - rdfs_Datatype
-    - time_DayOfWeek
-    - time_TemporalUnit
     - vaem_GraphMetaData
     - vaem_GraphRole
     - vaem_Party
@@ -587,22 +433,7 @@ attributes:
     - kwgo_StormTrackObservableProperty
     - kwgo_StormTrackletObservableProperty
     - kwgo_VulnerabilityObservableProperty
-    - __B1d70f10e8204578c89c5f678467193ea
-    - __B3a5aa76705834f507db6d3c7d90d63b8
-    - __B43f2153f8fa51cc860da104aa4b996c7
-    - __B51b8d66516b28a1c54f8d745ede947b9
-    - __B5debef6666ba27aa225105865fd22d6c
-    - __B671ac9cd6796151f919e5affbe3cc5f9
-    - __B707e8df015ee2912f85cf2fec8dc4718
-    - __B912c2f2722265f457d11b52388b1def0
-    - __B9968aab18e1237453b5cbb15df1c74b9
-    - __Ba0ffbf1a7a548fac1e61d3eceada03dd
-    - __Bdbdbfbd4ef20ffc37226553d96831226
-    - __Be082c2fc952b5eb7e355834fa6af4865
-    - __Be0e551f6155d8e99ee967119022af97d
-    - __Bea9d030ae5649d7f06d536c2a467e56f
-    - __Bf0c649c8d760a3559d3d5e5b1f68a59f
-    - __Bf906a89c08306329b89456f1d101a6bf
+    - __B78889d67d06fc8a172807dd97a6eabac
     - fio-epa-frs_Agency
     - fio-epa-frs_Agency.Agriculture
     - fio-epa-frs_Agency.Commerce
@@ -627,13 +458,16 @@ attributes:
     - fio-epa-frs_ChemicalStorageProgram
     - fio-epa-frs_CoastalOceanProgram
     - fio-epa-frs_ComplianceInterest
+    - fio-epa-frs_ComplianceRecord
     - fio-epa-frs_ComplianceSystem
     - fio-epa-frs_DrinkingWaterProgram
     - fio-epa-frs_EPA-PFAS-Facility
     - fio-epa-frs_EcologyOperation
     - fio-epa-frs_ElectronicPermitSystem
+    - fio-epa-frs_EnforcementActivity
     - fio-epa-frs_EnforcementInterest
     - fio-epa-frs_EnforcementSystem
+    - fio-epa-frs_EnforcementTrackingRecord
     - fio-epa-frs_EnvironmentalInterestByProgram
     - fio-epa-frs_EnvironmentalInterestType
     - fio-epa-frs_FRS-Facility
@@ -646,23 +480,31 @@ attributes:
     - fio-epa-frs_LegacySystem
     - fio-epa-frs_LegalEnforcementActivities
     - fio-epa-frs_PermitInterest
+    - fio-epa-frs_PermitRecord
     - fio-epa-frs_PermitSystem
     - fio-epa-frs_PesticidesProgram
     - fio-epa-frs_ProgramInformationSystem
+    - fio-epa-frs_ProjectRecord
     - fio-epa-frs_ProjectSystem
     - fio-epa-frs_RadiationProtectionProgram
+    - fio-epa-frs_RegistrationRecord
     - fio-epa-frs_RegistryInterest
     - fio-epa-frs_RegistrySystem
     - fio-epa-frs_RemediationRedevelopmentProgram
     - fio-epa-frs_ReportingInterest
+    - fio-epa-frs_ReportingRecord
     - fio-epa-frs_ReportingSystem
     - fio-epa-frs_RiskInterest
+    - fio-epa-frs_RiskPlanRecord
     - fio-epa-frs_SiteInterest
+    - fio-epa-frs_SiteRecord
     - fio-epa-frs_SiteSystem
     - fio-epa-frs_SolidWasteProgram
     - fio-epa-frs_StateSystem
+    - fio-epa-frs_StateTrackingRecord
     - fio-epa-frs_SupplementalRecord
     - fio-epa-frs_TribalSystem
+    - fio-epa-frs_TribalTrackingRecord
     - fio-epa-frs_UndergroundStorageTankProgram
     - fio-epa-frs_WasteWaterProgram
     - fio-epa-frs_WaterResourcesProgram
@@ -674,6 +516,140 @@ attributes:
     any_of:
     - range: rdfs_Literal
     - range: string
+  fio-epa-frs_partOf:
+    name: fio-epa-frs_partOf
+    from_schema: okns:fio-kg
+    rank: 1000
+    slot_uri: fio-epa-frs:partOf
+    alias: fio_epa_frs_partOf
+    owner: fio-epa-frs_ReportingSystem
+    domain_of:
+    - fio-epa-frs_PermitSystem
+    - fio-epa-frs_ReportingSystem
+    range: Any
+    any_of:
+    - range: fio-epa-frs_ProgramInformationSystem
+    - range: fio-epa-frs_ReportingSystem
+  owl_sameAs:
+    name: owl_sameAs
+    description: The property that determines that two given individuals are equal.
+    title: sameAs
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:owl-rdf-rdfs
+    source: http://www.w3.org/2002/07/owl#
+    domain: owl_Thing
+    slot_uri: owl:sameAs
+    alias: owl_sameAs
+    owner: fio-epa-frs_ReportingSystem
+    domain_of:
+    - __B78889d67d06fc8a172807dd97a6eabac
+    - fio-epa-frs_Agency
+    - fio-epa-frs_Agency.Agriculture
+    - fio-epa-frs_Agency.Commerce
+    - fio-epa-frs_Agency.Congress
+    - fio-epa-frs_Agency.Defense
+    - fio-epa-frs_Agency.Energy
+    - fio-epa-frs_Agency.HealthandHumanServices
+    - fio-epa-frs_Agency.HomelandSecurity
+    - fio-epa-frs_Agency.HousingandUrbanDevelopment
+    - fio-epa-frs_Agency.Interior
+    - fio-epa-frs_Agency.Judicial
+    - fio-epa-frs_Agency.Justice
+    - fio-epa-frs_Agency.Labor
+    - fio-epa-frs_Agency.State
+    - fio-epa-frs_Agency.Transportation
+    - fio-epa-frs_Agency.Treasury
+    - fio-epa-frs_Agency.VeteransAffairs
+    - fio-epa-frs_AirProgram
+    - fio-epa-frs_AnimalOperation
+    - fio-epa-frs_AssistanceSupportProgram
+    - fio-epa-frs_ChemicalReleaseProgram
+    - fio-epa-frs_ChemicalStorageProgram
+    - fio-epa-frs_CoastalOceanProgram
+    - fio-epa-frs_ComplianceInterest
+    - fio-epa-frs_ComplianceRecord
+    - fio-epa-frs_ComplianceSystem
+    - fio-epa-frs_DrinkingWaterProgram
+    - fio-epa-frs_EPA-PFAS-Facility
+    - fio-epa-frs_EcologyOperation
+    - fio-epa-frs_ElectronicPermitSystem
+    - fio-epa-frs_EnforcementActivity
+    - fio-epa-frs_EnforcementInterest
+    - fio-epa-frs_EnforcementSystem
+    - fio-epa-frs_EnforcementTrackingRecord
+    - fio-epa-frs_EnvironmentalInterestByProgram
+    - fio-epa-frs_EnvironmentalInterestType
+    - fio-epa-frs_FRS-Facility
+    - fio-epa-frs_FacilitySiteIdentification
+    - fio-epa-frs_FacilityType
+    - fio-epa-frs_GrantSystem
+    - fio-epa-frs_GroundWaterProgram
+    - fio-epa-frs_HazardousWasteProgram
+    - fio-epa-frs_HealthSafetyProgram
+    - fio-epa-frs_LegacySystem
+    - fio-epa-frs_LegalEnforcementActivities
+    - fio-epa-frs_PermitInterest
+    - fio-epa-frs_PermitRecord
+    - fio-epa-frs_PermitSystem
+    - fio-epa-frs_PesticidesProgram
+    - fio-epa-frs_ProgramInformationSystem
+    - fio-epa-frs_ProjectRecord
+    - fio-epa-frs_ProjectSystem
+    - fio-epa-frs_RadiationProtectionProgram
+    - fio-epa-frs_Record
+    - fio-epa-frs_RegistrationRecord
+    - fio-epa-frs_RegistryInterest
+    - fio-epa-frs_RegistrySystem
+    - fio-epa-frs_RemediationRedevelopmentProgram
+    - fio-epa-frs_ReportingInterest
+    - fio-epa-frs_ReportingRecord
+    - fio-epa-frs_ReportingSystem
+    - fio-epa-frs_RiskInterest
+    - fio-epa-frs_RiskPlanRecord
+    - fio-epa-frs_SiteInterest
+    - fio-epa-frs_SiteRecord
+    - fio-epa-frs_SiteSystem
+    - fio-epa-frs_SolidWasteProgram
+    - fio-epa-frs_StateSystem
+    - fio-epa-frs_StateTrackingRecord
+    - fio-epa-frs_SupplementalRecord
+    - fio-epa-frs_TribalSystem
+    - fio-epa-frs_TribalTrackingRecord
+    - fio-epa-frs_UndergroundStorageTankProgram
+    - fio-epa-frs_WasteWaterProgram
+    - fio-epa-frs_WaterResourcesProgram
+    - fio_Industry
+    - kwgo_S2Cell_Level13
+    - naics_NAICS-IndustryCode
+    - naics_NAICS-IndustryGroup
+    - naics_NAICS-IndustrySector
+    - naics_NAICS-IndustrySubsector
+    range: owl_Thing
+  dct_source:
+    name: dct_source
+    description: This property is intended to be used with non-literal values. The
+      described resource may be derived from the related resource in whole or in part.
+      Best practice is to identify the related resource by means of a URI or a string
+      conforming to a formal identification system.
+    title: Source
+    notes:
+    - No occurrences of this slot in the graph.
+    comments:
+    - 'description: A related resource from which the described resource is derived.'
+    from_schema: okns:dc
+    source: http://purl.org/dc/terms/
+    slot_uri: dct:source
+    alias: dct_source
+    owner: fio-epa-frs_ReportingSystem
+    domain_of:
+    - qudt_Unit
+    - fio-epa-frs_LegacySystem
+    - fio-epa-frs_ProjectSystem
+    - fio-epa-frs_ReportingSystem
+    - fio-epa-frs_SiteSystem
+    subproperty_of: dct_relation
+    range: Any
 class_uri: fio-epa-frs:ReportingSystem
 
 ```

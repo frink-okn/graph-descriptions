@@ -22,8 +22,8 @@ URI: [fio-epa-frs:partOf](http://w3id.org/fio/v1/epa-frs#partOf)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Fio-epa-frsPermitSystem](../classes/Fio-epa-frsPermitSystem.md) |  |  no  |
 | [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |  |  no  |
+| [Fio-epa-frsPermitSystem](../classes/Fio-epa-frsPermitSystem.md) |  |  no  |
 
 
 
@@ -48,8 +48,6 @@ URI: [fio-epa-frs:partOf](http://w3id.org/fio/v1/epa-frs#partOf)
 ```yaml
 name: fio-epa-frs_partOf
 from_schema: okns:fio-kg
-exact_mappings:
-- http://w3id.org/fio/v1/epa-frs#partOf
 rank: 1000
 slot_uri: fio-epa-frs:partOf
 alias: fio_epa_frs_partOf

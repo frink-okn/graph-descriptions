@@ -32,10 +32,6 @@ URI: [fio:yearDeprecated](http://w3id.org/fio/v1/fio#yearDeprecated)
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -47,17 +43,15 @@ name: fio_yearDeprecated
 description: A relation between an industry code and the schema year it was deprecated
   and removed as a industry code with the same meaning.
 title: year deprecated
-comments:
+notes:
 - No occurrences of this slot in the graph.
 from_schema: okns:fio-kg
-exact_mappings:
-- http://w3id.org/fio/v1/fio#yearDeprecated
 rank: 1000
 slot_uri: fio:yearDeprecated
 alias: fio_yearDeprecated
 union_of:
-- fio_Industry
 - owl_Thing
+- fio_Industry
 range: date
 
 ```

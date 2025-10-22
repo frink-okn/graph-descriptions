@@ -64,8 +64,6 @@ name: fio_Organization
 description: ''
 title: Organization
 from_schema: okns:fio-kg
-exact_mappings:
-- http://w3id.org/fio/v1/fio#Organization
 rank: 1000
 is_a: prov_Agent
 class_uri: fio:Organization
@@ -82,8 +80,6 @@ name: fio_Organization
 description: ''
 title: Organization
 from_schema: okns:fio-kg
-exact_mappings:
-- http://w3id.org/fio/v1/fio#Organization
 rank: 1000
 is_a: prov_Agent
 class_uri: fio:Organization

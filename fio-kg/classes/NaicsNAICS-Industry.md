@@ -62,8 +62,6 @@ URI: [naics:NAICS-Industry](http://w3id.org/fio/v1/naics#NAICS-Industry)
 ```yaml
 name: naics_NAICS-Industry
 from_schema: okns:fio-kg
-exact_mappings:
-- http://w3id.org/fio/v1/naics#NAICS-Industry
 rank: 1000
 is_a: owl_Thing
 class_uri: naics:NAICS-Industry
@@ -78,8 +76,6 @@ class_uri: naics:NAICS-Industry
 ```yaml
 name: naics_NAICS-Industry
 from_schema: okns:fio-kg
-exact_mappings:
-- http://w3id.org/fio/v1/naics#NAICS-Industry
 rank: 1000
 is_a: owl_Thing
 class_uri: naics:NAICS-Industry
