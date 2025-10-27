@@ -1,16 +1,9 @@
 
 
-# Slot: No slot (predicate) name specified (securechain_discover)
-
-
-_No slot (predicate) description specified_
+# Slot: securechain_discover
 
 
 
-
-
-
-This slot occurs 0 times.
 
 
 URI: [securechain:discover](https://w3id.org/secure-chain/discover)
@@ -28,15 +21,11 @@ URI: [securechain:discover](https://w3id.org/secure-chain/discover)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)
+* Range: [SecurechainVulnerability](../classes/SecurechainVulnerability.md)
 
 
 
 
-
-## Comments
-
-* No occurrences of this slot in the graph.
 
 
 
@@ -46,19 +35,13 @@ URI: [securechain:discover](https://w3id.org/secure-chain/discover)
 
 ```yaml
 name: securechain_discover
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-comments:
+notes:
 - No occurrences of this slot in the graph.
-from_schema: secure-chain-kg
+from_schema: okns:secure-chain-kg
 rank: 1000
 slot_uri: securechain:discover
 alias: securechain_discover
-range: Any
+range: securechain_Vulnerability
 
 ```
 </details>

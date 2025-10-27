@@ -1,6 +1,6 @@
 # secure-chain-kg
 
-No schema description specified
+None
 
-URI: secure-chain-kg
+URI: okns:secure-chain-kg
 

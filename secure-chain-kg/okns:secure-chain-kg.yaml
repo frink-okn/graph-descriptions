@@ -1,3 +1,4 @@
+name: secure-chain-kg
 annotations:
   counts:
     tag: counts
@@ -1054,11 +1055,98 @@ annotations:
                       subject:
                         tag: subject
                         value: https://conan.io/center/recipes/asn1c?version=0.9.28
+title: securechainkg
+created_on: '2025-10-27T21:06:42.650630'
+last_updated_on: '2025-10-27T21:06:42.650630'
+id: okns:secure-chain-kg
+imports:
+- okns:sdo
+- linkml:types
+- okns:extended_types
+prefixes:
+  linkml:
+    prefix_prefix: linkml
+    prefix_reference: https://w3id.org/linkml/
+  okn:
+    prefix_prefix: okn
+    prefix_reference: https://purl.org/okn/
+  okns:
+    prefix_prefix: okns
+    prefix_reference: https://purl.org/okn/schema/
+  owl:
+    prefix_prefix: owl
+    prefix_reference: http://www.w3.org/2002/07/owl#
+  rdf:
+    prefix_prefix: rdf
+    prefix_reference: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs:
+    prefix_prefix: rdfs
+    prefix_reference: http://www.w3.org/2000/01/rdf-schema#
+  sdos:
+    prefix_prefix: sdos
+    prefix_reference: https://schema.org/
+  securechain:
+    prefix_prefix: securechain
+    prefix_reference: https://w3id.org/secure-chain/
+default_prefix: okns
+slots:
+  securechain_dependsOn:
+    name: securechain_dependsOn
+    domain: securechain_SoftwareVersion
+    slot_uri: securechain:dependsOn
+    range: securechain_SoftwareVersion
+  securechain_discover:
+    name: securechain_discover
+    notes:
+    - No occurrences of this slot in the graph.
+    slot_uri: securechain:discover
+    range: securechain_Vulnerability
+  securechain_ecosystem:
+    name: securechain_ecosystem
+    domain: securechain_Software
+    slot_uri: securechain:ecosystem
+    range: Any
+    any_of:
+    - range: sdos_Text
+    - range: string
+  securechain_hasHardwareVersion:
+    name: securechain_hasHardwareVersion
+    domain: securechain_Hardware
+    slot_uri: securechain:hasHardwareVersion
+    range: securechain_HardwareVersion
+  securechain_hasSoftwareVersion:
+    name: securechain_hasSoftwareVersion
+    domain: securechain_Software
+    slot_uri: securechain:hasSoftwareVersion
+    range: securechain_SoftwareVersion
+  securechain_operatesOn:
+    name: securechain_operatesOn
+    notes:
+    - No occurrences of this slot in the graph.
+    domain: securechain_SoftwareVersion
+    slot_uri: securechain:operatesOn
+    range: securechain_HardwareVersion
+  securechain_versionName:
+    name: securechain_versionName
+    slot_uri: securechain:versionName
+    range: Any
+    any_of:
+    - range: sdos_Text
+    - range: string
+  securechain_vulnerabilityType:
+    name: securechain_vulnerabilityType
+    domain: securechain_Vulnerability
+    slot_uri: securechain:vulnerabilityType
+    range: securechain_VulnerabilityType
+  securechain_vulnerableTo:
+    name: securechain_vulnerableTo
+    domain: securechain_SoftwareVersion
+    slot_uri: securechain:vulnerableTo
+    range: securechain_Vulnerability
 classes:
   securechain_Hardware:
-    class_uri: securechain:Hardware
-    is_a: sdos_Product
     name: securechain_Hardware
+    is_a: sdos_Product
     slots:
     - securechain_hasSoftwareVersion
     - securechain_ecosystem
@@ -1066,24 +1154,24 @@ classes:
     - sdos_programmingLanguage
     - securechain_hasHardwareVersion
     - sdos_manufacturer
+    class_uri: securechain:Hardware
   securechain_HardwareVersion:
-    class_uri: securechain:HardwareVersion
-    is_a: securechain_Hardware
     name: securechain_HardwareVersion
+    is_a: securechain_Hardware
     slots:
     - securechain_vulnerableTo
     - securechain_versionName
+    class_uri: securechain:HardwareVersion
   securechain_License:
-    class_uri: securechain:License
-    is_a: sdos_CreativeWork
     name: securechain_License
+    is_a: sdos_CreativeWork
     slots:
     - sdos_name
     - sdos_identifier
+    class_uri: securechain:License
   securechain_Software:
-    class_uri: securechain:Software
-    is_a: sdos_SoftwareApplication
     name: securechain_Software
+    is_a: sdos_SoftwareApplication
     slots:
     - securechain_hasSoftwareVersion
     - securechain_ecosystem
@@ -1094,99 +1182,28 @@ classes:
     - sdos_identifier
     - securechain_hasHardwareVersion
     - sdos_manufacturer
+    class_uri: securechain:Software
   securechain_SoftwareVersion:
-    class_uri: securechain:SoftwareVersion
-    is_a: securechain_Software
     name: securechain_SoftwareVersion
+    is_a: securechain_Software
     slots:
     - securechain_versionName
     - sdos_url
     - sdos_license
     - securechain_dependsOn
     - securechain_vulnerableTo
+    class_uri: securechain:SoftwareVersion
   securechain_Vulnerability:
-    class_uri: securechain:Vulnerability
-    is_a: sdos_Intangible
     name: securechain_Vulnerability
+    is_a: sdos_Intangible
     slots:
     - sdos_identifier
     - securechain_vulnerabilityType
+    class_uri: securechain:Vulnerability
   securechain_VulnerabilityType:
-    class_uri: securechain:VulnerabilityType
-    is_a: sdos_Intangible
     name: securechain_VulnerabilityType
+    is_a: sdos_Intangible
     slots:
     - sdos_identifier
-created_on: '2025-10-27T21:06:42.650630'
-default_prefix: okns
-id: okns:secure-chain-kg
-imports:
-- okns:sdo
-- linkml:types
-- okns:extended_types
-last_updated_on: '2025-10-27T21:06:42.650630'
-name: secure-chain-kg
-prefixes:
-  linkml: https://w3id.org/linkml/
-  okn: https://purl.org/okn/
-  okns: https://purl.org/okn/schema/
-  owl: http://www.w3.org/2002/07/owl#
-  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
-  rdfs: http://www.w3.org/2000/01/rdf-schema#
-  sdos: https://schema.org/
-  securechain: https://w3id.org/secure-chain/
-slots:
-  securechain_dependsOn:
-    domain: securechain_SoftwareVersion
-    name: securechain_dependsOn
-    range: securechain_SoftwareVersion
-    slot_uri: securechain:dependsOn
-  securechain_discover:
-    name: securechain_discover
-    notes:
-    - No occurrences of this slot in the graph.
-    range: securechain_Vulnerability
-    slot_uri: securechain:discover
-  securechain_ecosystem:
-    any_of:
-    - range: sdos_Text
-    - range: string
-    domain: securechain_Software
-    name: securechain_ecosystem
-    range: Any
-    slot_uri: securechain:ecosystem
-  securechain_hasHardwareVersion:
-    domain: securechain_Hardware
-    name: securechain_hasHardwareVersion
-    range: securechain_HardwareVersion
-    slot_uri: securechain:hasHardwareVersion
-  securechain_hasSoftwareVersion:
-    domain: securechain_Software
-    name: securechain_hasSoftwareVersion
-    range: securechain_SoftwareVersion
-    slot_uri: securechain:hasSoftwareVersion
-  securechain_operatesOn:
-    domain: securechain_SoftwareVersion
-    name: securechain_operatesOn
-    notes:
-    - No occurrences of this slot in the graph.
-    range: securechain_HardwareVersion
-    slot_uri: securechain:operatesOn
-  securechain_versionName:
-    any_of:
-    - range: sdos_Text
-    - range: string
-    name: securechain_versionName
-    range: Any
-    slot_uri: securechain:versionName
-  securechain_vulnerabilityType:
-    domain: securechain_Vulnerability
-    name: securechain_vulnerabilityType
-    range: securechain_VulnerabilityType
-    slot_uri: securechain:vulnerabilityType
-  securechain_vulnerableTo:
-    domain: securechain_SoftwareVersion
-    name: securechain_vulnerableTo
-    range: securechain_Vulnerability
-    slot_uri: securechain:vulnerableTo
-title: securechainkg
+    class_uri: securechain:VulnerabilityType
+source_file: /code/secure-chain-kg.yaml
