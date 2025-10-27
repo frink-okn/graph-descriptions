@@ -22,8 +22,8 @@ URI: [rural:variable/year](http://sail.ua.edu/ruralkg/variable/year)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralVariableNSDUH](../classes/RuralVariableNSDUH.md) | Variables from the National Survey on Drug Use and Health dataset |  no  |
 | [RuralVariableNIBRS](../classes/RuralVariableNIBRS.md) | Variables from the National Incident-Based Reporting System dataset |  no  |
+| [RuralVariableNSDUH](../classes/RuralVariableNSDUH.md) | Variables from the National Survey on Drug Use and Health dataset |  no  |
 
 
 

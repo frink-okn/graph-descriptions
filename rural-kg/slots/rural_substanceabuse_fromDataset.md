@@ -22,8 +22,8 @@ URI: [rural:substanceabuse/fromDataset](http://sail.ua.edu/ruralkg/substanceabus
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralSubstanceabuseSubstanceRelatedIncident](../classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | Types of incidents related to substance abuse |  no  |
 | [RuralSubstanceabuseSubstance](../classes/RuralSubstanceabuseSubstance.md) | Types of substances that can be abused |  no  |
+| [RuralSubstanceabuseSubstanceRelatedIncident](../classes/RuralSubstanceabuseSubstanceRelatedIncident.md) | Types of incidents related to substance abuse |  no  |
 
 
 

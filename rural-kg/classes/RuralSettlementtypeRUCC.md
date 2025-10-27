@@ -71,9 +71,9 @@ URI: [rural:settlementtype/RUCC](http://sail.ua.edu/ruralkg/settlementtype/RUCC)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
+| [rural_settlementtype_code](../slots/rural_settlementtype_code.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 10 |
 | [rural_settlementtype_year](../slots/rural_settlementtype_year.md) | 0..1 <br/> [xsd:integer](xsd:integer) |  <br/>  | direct | 10 |
 | [rural_settlementtype_description](../slots/rural_settlementtype_description.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 10 |
-| [rural_settlementtype_code](../slots/rural_settlementtype_code.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 10 |
 
 
 
@@ -110,9 +110,9 @@ from_schema: okns:rural-kg
 rank: 1000
 is_a: rural_settlementtype_SettlementType
 slots:
+- rural_settlementtype_code
 - rural_settlementtype_year
 - rural_settlementtype_description
-- rural_settlementtype_code
 class_uri: rural:settlementtype/RUCC
 
 ```
@@ -129,6 +129,16 @@ from_schema: okns:rural-kg
 rank: 1000
 is_a: rural_settlementtype_SettlementType
 attributes:
+  rural_settlementtype_code:
+    name: rural_settlementtype_code
+    from_schema: okns:rural-kg
+    rank: 1000
+    slot_uri: rural:settlementtype/code
+    alias: rural_settlementtype_code
+    owner: rural_settlementtype_RUCC
+    domain_of:
+    - rural_settlementtype_RUCC
+    range: string
   rural_settlementtype_year:
     name: rural_settlementtype_year
     from_schema: okns:rural-kg
@@ -146,16 +156,6 @@ attributes:
     rank: 1000
     slot_uri: rural:settlementtype/description
     alias: rural_settlementtype_description
-    owner: rural_settlementtype_RUCC
-    domain_of:
-    - rural_settlementtype_RUCC
-    range: string
-  rural_settlementtype_code:
-    name: rural_settlementtype_code
-    from_schema: okns:rural-kg
-    rank: 1000
-    slot_uri: rural:settlementtype/code
-    alias: rural_settlementtype_code
     owner: rural_settlementtype_RUCC
     domain_of:
     - rural_settlementtype_RUCC

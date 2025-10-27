@@ -1775,7 +1775,7 @@ comments:
 - 'created_by: University of Alabama, SAIL Lab, RuralKG Team'
 - 'title: RuralKG Ontology'
 created_on: '2025-01-30T12:00:00'
-last_updated_on: '2025-10-17T18:31:15.902893'
+last_updated_on: '2025-10-27T13:04:27.213544'
 id: okns:rural-kg
 version: 0.1.1
 imports:
@@ -1907,8 +1907,8 @@ slots:
     slot_uri: rural:treatment/inCity
     range: Any
     any_of:
-    - range: rural_administrativearea_City
     - range: uri
+    - range: rural_administrativearea_City
   rural_treatment_name:
     name: rural_treatment_name
     slot_uri: rural:treatment/name
@@ -1981,10 +1981,10 @@ classes:
     description: City entities within a county or state.
     is_a: rural_administrativearea_AdministrativeArea
     slots:
-    - rural_administrativearea_longitude
     - rural_administrativearea_latitude
-    - rural_administrativearea_primaryCounty
     - rural_administrativearea_name
+    - rural_administrativearea_primaryCounty
+    - rural_administrativearea_longitude
     - rural_administrativearea_ranking
     class_uri: rural:administrativearea/City
   rural_administrativearea_County:
@@ -1992,18 +1992,18 @@ classes:
     description: Defines counties within a state.
     is_a: rural_administrativearea_AdministrativeArea
     slots:
-    - rural_administrativearea_name
     - rural_administrativearea_fips
+    - rural_administrativearea_name
     class_uri: rural:administrativearea/County
   rural_administrativearea_State:
     name: rural_administrativearea_State
     description: Represents individual states within U.S.
     is_a: rural_administrativearea_AdministrativeArea
     slots:
-    - rural_administrativearea_fips
-    - rural_administrativearea_name
     - rural_administrativearea_abbreviation
+    - rural_administrativearea_fips
     - rural_administrativearea_containsPlace
+    - rural_administrativearea_name
     class_uri: rural:administrativearea/State
   rural_justice_AdministrativeSegment:
     name: rural_justice_AdministrativeSegment
@@ -2441,19 +2441,19 @@ classes:
     description: Status of a county in terms of rural or urban classification.
     is_a: rural_settlementtype_SettlementType
     slots:
-    - rural_settlementtype_population
     - rural_settlementtype_hasRUCC
-    - rural_settlementtype_censusCounty
+    - rural_settlementtype_population
     - rural_settlementtype_year
+    - rural_settlementtype_censusCounty
     class_uri: rural:settlementtype/CountyStatus
   rural_settlementtype_RUCC:
     name: rural_settlementtype_RUCC
     description: Rural-Urban Continuum Code classification.
     is_a: rural_settlementtype_SettlementType
     slots:
+    - rural_settlementtype_code
     - rural_settlementtype_year
     - rural_settlementtype_description
-    - rural_settlementtype_code
     class_uri: rural:settlementtype/RUCC
   rural_settlementtype_SettlementType:
     name: rural_settlementtype_SettlementType
@@ -2723,12 +2723,12 @@ classes:
     description: Types of substances that can be abused.
     is_a: rural_substanceabuse_SubstanceAbuse
     slots:
-    - rural_substanceabuse_fromDataset
-    - rural_substanceabuse_year
-    - rural_substanceabuse_name
     - rural_substanceabuse_code
-    - rural_substanceabuse_description
     - rural_substanceabuse_identifier
+    - rural_substanceabuse_description
+    - rural_substanceabuse_name
+    - rural_substanceabuse_year
+    - rural_substanceabuse_fromDataset
     class_uri: rural:substanceabuse/Substance
   rural_substanceabuse_SubstanceAbuse:
     name: rural_substanceabuse_SubstanceAbuse
@@ -2751,10 +2751,10 @@ classes:
     description: Specific mental health services offered.
     is_a: rural_treatment_Treatment
     slots:
-    - rural_treatment_year
-    - rural_treatment_name
     - rural_treatment_description
+    - rural_treatment_year
     - rural_treatment_code
+    - rural_treatment_name
     class_uri: rural:treatment/MentalHealthService
   rural_treatment_MentalHealthServiceCategory:
     name: rural_treatment_MentalHealthServiceCategory
@@ -2762,9 +2762,9 @@ classes:
     is_a: rural_treatment_Treatment
     slots:
     - rural_treatment_year
+    - rural_treatment_code
     - rural_treatment_containsService
     - rural_treatment_name
-    - rural_treatment_code
     class_uri: rural:treatment/MentalHealthServiceCategory
   rural_treatment_Treatment:
     name: rural_treatment_Treatment
@@ -2778,13 +2778,13 @@ classes:
     description: Entities that provide treatment services.
     is_a: rural_treatment_Treatment
     slots:
-    - rural_treatment_providesService
     - rural_treatment_alias
-    - rural_treatment_address
-    - rural_treatment_name
     - rural_treatment_zipcode
+    - rural_treatment_providesService
     - rural_treatment_inCity
+    - rural_treatment_name
     - rural_treatment_phone
+    - rural_treatment_address
     class_uri: rural:treatment/TreatmentProvider
   rural_variable_Answer:
     name: rural_variable_Answer
@@ -2796,12 +2796,12 @@ classes:
     description: Variables from the National Incident-Based Reporting System dataset.
     is_a: rural_variable_Variable
     slots:
-    - rural_variable_hasAnswer
-    - rural_variable_generatedDescription
-    - rural_variable_fromDataset
     - rural_variable_description
     - rural_variable_year
+    - rural_variable_hasAnswer
     - rural_variable_content
+    - rural_variable_fromDataset
+    - rural_variable_generatedDescription
     - rural_variable_code
     class_uri: rural:variable/NIBRS
   rural_variable_NIBRSAnswer:
@@ -2809,20 +2809,20 @@ classes:
     description: Answer options for NIBRS variables.
     is_a: rural_variable_Answer
     slots:
-    - rural_variable_answerCode
     - rural_variable_answerContent
+    - rural_variable_answerCode
     class_uri: rural:variable/NIBRSAnswer
   rural_variable_NSDUH:
     name: rural_variable_NSDUH
     description: Variables from the National Survey on Drug Use and Health dataset.
     is_a: rural_variable_Variable
     slots:
-    - rural_variable_hasAnswer
-    - rural_variable_generatedDescription
-    - rural_variable_fromDataset
     - rural_variable_description
     - rural_variable_year
+    - rural_variable_hasAnswer
     - rural_variable_content
+    - rural_variable_fromDataset
+    - rural_variable_generatedDescription
     - rural_variable_code
     class_uri: rural:variable/NSDUH
   rural_variable_NSDUHAnswer:
@@ -2830,8 +2830,8 @@ classes:
     description: Answer options for NSDUH variables.
     is_a: rural_variable_Answer
     slots:
-    - rural_variable_answerCode
     - rural_variable_answerContent
+    - rural_variable_answerCode
     class_uri: rural:variable/NSDUHAnswer
   rural_variable_Variable:
     name: rural_variable_Variable

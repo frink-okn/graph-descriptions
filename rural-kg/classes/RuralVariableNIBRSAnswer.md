@@ -63,8 +63,8 @@ URI: [rural:variable/NIBRSAnswer](http://sail.ua.edu/ruralkg/variable/NIBRSAnswe
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [rural_variable_answerCode](../slots/rural_variable_answerCode.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 2258 |
 | [rural_variable_answerContent](../slots/rural_variable_answerContent.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 2258 |
+| [rural_variable_answerCode](../slots/rural_variable_answerCode.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 2258 |
 
 
 
@@ -102,8 +102,8 @@ from_schema: okns:rural-kg
 rank: 1000
 is_a: rural_variable_Answer
 slots:
-- rural_variable_answerCode
 - rural_variable_answerContent
+- rural_variable_answerCode
 class_uri: rural:variable/NIBRSAnswer
 
 ```
@@ -120,23 +120,23 @@ from_schema: okns:rural-kg
 rank: 1000
 is_a: rural_variable_Answer
 attributes:
-  rural_variable_answerCode:
-    name: rural_variable_answerCode
-    from_schema: okns:rural-kg
-    rank: 1000
-    slot_uri: rural:variable/answerCode
-    alias: rural_variable_answerCode
-    owner: rural_variable_NIBRSAnswer
-    domain_of:
-    - rural_variable_NIBRSAnswer
-    - rural_variable_NSDUHAnswer
-    range: string
   rural_variable_answerContent:
     name: rural_variable_answerContent
     from_schema: okns:rural-kg
     rank: 1000
     slot_uri: rural:variable/answerContent
     alias: rural_variable_answerContent
+    owner: rural_variable_NIBRSAnswer
+    domain_of:
+    - rural_variable_NIBRSAnswer
+    - rural_variable_NSDUHAnswer
+    range: string
+  rural_variable_answerCode:
+    name: rural_variable_answerCode
+    from_schema: okns:rural-kg
+    rank: 1000
+    slot_uri: rural:variable/answerCode
+    alias: rural_variable_answerCode
     owner: rural_variable_NIBRSAnswer
     domain_of:
     - rural_variable_NIBRSAnswer

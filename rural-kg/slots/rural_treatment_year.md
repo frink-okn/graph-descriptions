@@ -22,8 +22,8 @@ URI: [rural:treatment/year](http://sail.ua.edu/ruralkg/treatment/year)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralTreatmentMentalHealthServiceCategory](../classes/RuralTreatmentMentalHealthServiceCategory.md) | Categories of mental health services |  no  |
 | [RuralTreatmentMentalHealthService](../classes/RuralTreatmentMentalHealthService.md) | Specific mental health services offered |  no  |
+| [RuralTreatmentMentalHealthServiceCategory](../classes/RuralTreatmentMentalHealthServiceCategory.md) | Categories of mental health services |  no  |
 
 
 

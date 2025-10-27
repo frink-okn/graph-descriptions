@@ -32,7 +32,7 @@ URI: [rural:treatment/inCity](http://sail.ua.edu/ruralkg/treatment/inCity)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[RuralAdministrativeareaCity](../classes/RuralAdministrativeareaCity.md)&nbsp;or&nbsp;<br />[xsd:anyURI](xsd:anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:anyURI](xsd:anyURI)&nbsp;or&nbsp;<br />[RuralAdministrativeareaCity](../classes/RuralAdministrativeareaCity.md)
 
 
 
@@ -54,8 +54,8 @@ domain_of:
 - rural_treatment_TreatmentProvider
 range: Any
 any_of:
-- range: rural_administrativearea_City
 - range: uri
+- range: rural_administrativearea_City
 
 ```
 </details>

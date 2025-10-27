@@ -22,8 +22,8 @@ URI: [rural:variable/answerContent](http://sail.ua.edu/ruralkg/variable/answerCo
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [RuralVariableNSDUHAnswer](../classes/RuralVariableNSDUHAnswer.md) | Answer options for NSDUH variables |  no  |
 | [RuralVariableNIBRSAnswer](../classes/RuralVariableNIBRSAnswer.md) | Answer options for NIBRS variables |  no  |
+| [RuralVariableNSDUHAnswer](../classes/RuralVariableNSDUHAnswer.md) | Answer options for NSDUH variables |  no  |
 
 
 
