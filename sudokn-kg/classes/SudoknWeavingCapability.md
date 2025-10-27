@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_WeavingCapability)
-
-
-_No class (type) description specified_
+# Class: weaving capability (sudokn_WeavingCapability)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:WeavingCapability](http://asu.edu/semantics/SUDOKN/WeavingCapability)
@@ -70,14 +63,8 @@ URI: [sudokn:WeavingCapability](http://asu.edu/semantics/SUDOKN/WeavingCapabilit
 
 ```yaml
 name: sudokn_WeavingCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: weaving capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_TextileProcessCapability
 class_uri: sudokn:WeavingCapability
@@ -91,14 +78,8 @@ class_uri: sudokn:WeavingCapability
 
 ```yaml
 name: sudokn_WeavingCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: weaving capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_TextileProcessCapability
 class_uri: sudokn:WeavingCapability

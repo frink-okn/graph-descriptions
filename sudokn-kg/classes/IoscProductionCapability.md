@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified -- this class is noted as a superclass of another class in this graph but has not itself been defined. (iosc_ProductionCapability)
-
-
-_No class (type) description specified_
+# Class: No class (entity type) name specified -- this class is noted as a superclass of another class in this graph but has not itself been defined. (iosc_ProductionCapability)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [iosc:ProductionCapability](https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/ProductionCapability)
@@ -77,15 +70,9 @@ URI: [iosc:ProductionCapability](https://spec.industrialontologies.org/ontology/
 
 ```yaml
 name: iosc_ProductionCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified -- this class is noted as a superclass of another
-  class in this graph but has not itself been defined.
-from_schema: sudokn-kg
+title: No class (entity type) name specified -- this class is noted as a superclass
+  of another class in this graph but has not itself been defined.
+from_schema: okns:sudokn-kg
 rank: 1000
 class_uri: iosc:ProductionCapability
 
@@ -98,15 +85,9 @@ class_uri: iosc:ProductionCapability
 
 ```yaml
 name: iosc_ProductionCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified -- this class is noted as a superclass of another
-  class in this graph but has not itself been defined.
-from_schema: sudokn-kg
+title: No class (entity type) name specified -- this class is noted as a superclass
+  of another class in this graph but has not itself been defined.
+from_schema: okns:sudokn-kg
 rank: 1000
 class_uri: iosc:ProductionCapability
 

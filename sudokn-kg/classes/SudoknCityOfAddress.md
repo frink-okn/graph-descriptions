@@ -1,11 +1,6 @@
 
 
-# Class: No class (type) name specified (sudokn_CityOfAddress)
-
-
-_No class (type) description specified_
-
-
+# Class: city of address (sudokn_CityOfAddress)
 
 
 
@@ -68,14 +63,8 @@ URI: [sudokn:CityOfAddress](http://asu.edu/semantics/SUDOKN/CityOfAddress)
 
 ```yaml
 name: sudokn_CityOfAddress
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: city of address
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: io_PhysicalLocationIdentifier
 class_uri: sudokn:CityOfAddress
@@ -89,14 +78,8 @@ class_uri: sudokn:CityOfAddress
 
 ```yaml
 name: sudokn_CityOfAddress
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: city of address
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: io_PhysicalLocationIdentifier
 class_uri: sudokn:CityOfAddress

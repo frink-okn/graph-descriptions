@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_CADCAMCapability)
-
-
-_No class (type) description specified_
+# Class: CAD/CAM capability (sudokn_CADCAMCapability)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:CADCAMCapability](http://asu.edu/semantics/SUDOKN/CADCAMCapability)
@@ -69,14 +62,8 @@ URI: [sudokn:CADCAMCapability](http://asu.edu/semantics/SUDOKN/CADCAMCapability)
 
 ```yaml
 name: sudokn_CADCAMCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: CAD/CAM capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_EngineeringCapability
 class_uri: sudokn:CADCAMCapability
@@ -90,14 +77,8 @@ class_uri: sudokn:CADCAMCapability
 
 ```yaml
 name: sudokn_CADCAMCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: CAD/CAM capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_EngineeringCapability
 class_uri: sudokn:CADCAMCapability

@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_MaterialProcessingCapability)
-
-
-_No class (type) description specified_
+# Class: material processing capability (sudokn_MaterialProcessingCapability)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:MaterialProcessingCapability](http://asu.edu/semantics/SUDOKN/MaterialProcessingCapability)
@@ -28,6 +21,8 @@ URI: [sudokn:MaterialProcessingCapability](http://asu.edu/semantics/SUDOKN/Mater
         click IoscProductionCapability href "../IoscProductionCapability"
       
 
+      SudoknMaterialProcessingCapability <|-- SudoknCarbideProcessingCapability
+        click SudoknCarbideProcessingCapability href "../SudoknCarbideProcessingCapability"
       SudoknMaterialProcessingCapability <|-- SudoknCarbonProcessingCapability
         click SudoknCarbonProcessingCapability href "../SudoknCarbonProcessingCapability"
       SudoknMaterialProcessingCapability <|-- SudoknCeramicProcessingCapability
@@ -38,6 +33,8 @@ URI: [sudokn:MaterialProcessingCapability](http://asu.edu/semantics/SUDOKN/Mater
         click SudoknCompositeProcessingCapability href "../SudoknCompositeProcessingCapability"
       SudoknMaterialProcessingCapability <|-- SudoknElectronicProcessingCapability
         click SudoknElectronicProcessingCapability href "../SudoknElectronicProcessingCapability"
+      SudoknMaterialProcessingCapability <|-- SudoknExoticMaterialProcessingCapability
+        click SudoknExoticMaterialProcessingCapability href "../SudoknExoticMaterialProcessingCapability"
       SudoknMaterialProcessingCapability <|-- SudoknFiberProcessingCapability
         click SudoknFiberProcessingCapability href "../SudoknFiberProcessingCapability"
       SudoknMaterialProcessingCapability <|-- SudoknFoamProcessingCapability
@@ -52,6 +49,8 @@ URI: [sudokn:MaterialProcessingCapability](http://asu.edu/semantics/SUDOKN/Mater
         click SudoknRubberProcessingCapability href "../SudoknRubberProcessingCapability"
       SudoknMaterialProcessingCapability <|-- SudoknSiliconeProcessingCapability
         click SudoknSiliconeProcessingCapability href "../SudoknSiliconeProcessingCapability"
+      SudoknMaterialProcessingCapability <|-- SudoknTeflonProcessingCapability
+        click SudoknTeflonProcessingCapability href "../SudoknTeflonProcessingCapability"
       SudoknMaterialProcessingCapability <|-- SudoknUrethaneProcessingCapability
         click SudoknUrethaneProcessingCapability href "../SudoknUrethaneProcessingCapability"
       SudoknMaterialProcessingCapability <|-- SudoknWoodProcessingCapability
@@ -68,11 +67,13 @@ URI: [sudokn:MaterialProcessingCapability](http://asu.edu/semantics/SUDOKN/Mater
 ## Inheritance
 * [IoscProductionCapability](../classes/IoscProductionCapability.md)
     * **SudoknMaterialProcessingCapability**
+        * [SudoknCarbideProcessingCapability](../classes/SudoknCarbideProcessingCapability.md)
         * [SudoknCarbonProcessingCapability](../classes/SudoknCarbonProcessingCapability.md)
         * [SudoknCeramicProcessingCapability](../classes/SudoknCeramicProcessingCapability.md)
         * [SudoknChemicalsProcessingCapability](../classes/SudoknChemicalsProcessingCapability.md)
         * [SudoknCompositeProcessingCapability](../classes/SudoknCompositeProcessingCapability.md)
         * [SudoknElectronicProcessingCapability](../classes/SudoknElectronicProcessingCapability.md)
+        * [SudoknExoticMaterialProcessingCapability](../classes/SudoknExoticMaterialProcessingCapability.md)
         * [SudoknFiberProcessingCapability](../classes/SudoknFiberProcessingCapability.md)
         * [SudoknFoamProcessingCapability](../classes/SudoknFoamProcessingCapability.md)
         * [SudoknGlassProcessingCapability](../classes/SudoknGlassProcessingCapability.md)
@@ -80,6 +81,7 @@ URI: [sudokn:MaterialProcessingCapability](http://asu.edu/semantics/SUDOKN/Mater
         * [SudoknPlasticProcessingCapability](../classes/SudoknPlasticProcessingCapability.md)
         * [SudoknRubberProcessingCapability](../classes/SudoknRubberProcessingCapability.md)
         * [SudoknSiliconeProcessingCapability](../classes/SudoknSiliconeProcessingCapability.md)
+        * [SudoknTeflonProcessingCapability](../classes/SudoknTeflonProcessingCapability.md)
         * [SudoknUrethaneProcessingCapability](../classes/SudoknUrethaneProcessingCapability.md)
         * [SudoknWoodProcessingCapability](../classes/SudoknWoodProcessingCapability.md)
 
@@ -92,6 +94,13 @@ URI: [sudokn:MaterialProcessingCapability](http://asu.edu/semantics/SUDOKN/Mater
 
 
 
+
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [IoManufacturer](../classes/IoManufacturer.md) | [sudokn_hasMaterialCapability](../slots/sudokn_hasMaterialCapability.md) | any_of[range] | [SudoknMaterialProcessingCapability](../classes/SudoknMaterialProcessingCapability.md) |
 
 
 
@@ -113,14 +122,8 @@ URI: [sudokn:MaterialProcessingCapability](http://asu.edu/semantics/SUDOKN/Mater
 
 ```yaml
 name: sudokn_MaterialProcessingCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: material processing capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: iosc_ProductionCapability
 class_uri: sudokn:MaterialProcessingCapability
@@ -134,14 +137,8 @@ class_uri: sudokn:MaterialProcessingCapability
 
 ```yaml
 name: sudokn_MaterialProcessingCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: material processing capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: iosc_ProductionCapability
 class_uri: sudokn:MaterialProcessingCapability

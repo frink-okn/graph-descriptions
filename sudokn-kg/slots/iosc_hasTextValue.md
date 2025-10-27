@@ -1,11 +1,6 @@
 
 
-# Slot: iosc_hasTextValue
-
-
-_No slot (predicate) description specified_
-
-
+# Slot: No slot (predicate) name specified -- this slot is noted as a subproperty of another slot in this graph but has not itself been defined. (iosc_hasTextValue)
 
 
 
@@ -27,7 +22,7 @@ URI: [iosc:hasTextValue](https://spec.industrialontologies.org/ontology/supplych
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknPostalAddress](../classes/SudoknPostalAddress.md) | No class (type) description specified |  yes  |
+| [SudoknPostalAddress](../classes/SudoknPostalAddress.md) |  |  no  |
 
 
 
@@ -44,14 +39,6 @@ URI: [iosc:hasTextValue](https://spec.industrialontologies.org/ontology/supplych
 
 
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| sudokn_PostalAddress | string | sudokn:101PIPE-PostalAddress | 10255 BEECH AVENUE | 19102 |
-
-
-
 
 ## LinkML Source
 
@@ -59,19 +46,9 @@ URI: [iosc:hasTextValue](https://spec.industrialontologies.org/ontology/supplych
 
 ```yaml
 name: iosc_hasTextValue
-annotations:
-  count:
-    tag: count
-    value: 19102
-description: No slot (predicate) description specified
-examples:
-- object:
-    example_object: 10255 BEECH AVENUE
-    example_object_type: string
-    example_predicate: iosc:hasTextValue
-    example_subject: sudokn:101PIPE-PostalAddress
-    example_subject_type: sudokn_PostalAddress
-from_schema: sudokn-kg
+title: No slot (predicate) name specified -- this slot is noted as a subproperty of
+  another slot in this graph but has not itself been defined.
+from_schema: okns:sudokn-kg
 rank: 1000
 slot_uri: iosc:hasTextValue
 alias: iosc_hasTextValue

@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_QualityCertificate)
-
-
-_No class (type) description specified_
+# Class: quality certificate (sudokn_QualityCertificate)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:QualityCertificate](http://asu.edu/semantics/SUDOKN/QualityCertificate)
@@ -42,8 +35,10 @@ URI: [sudokn:QualityCertificate](http://asu.edu/semantics/SUDOKN/QualityCertific
         click SudoknGWOCertificate href "../SudoknGWOCertificate"
       SudoknQualityCertificate <|-- SudoknHAACPCertificate
         click SudoknHAACPCertificate href "../SudoknHAACPCertificate"
-      SudoknQualityCertificate <|-- SudoknISOCertificate
-        click SudoknISOCertificate href "../SudoknISOCertificate"
+      SudoknQualityCertificate <|-- SudoknIATFCertificate
+        click SudoknIATFCertificate href "../SudoknIATFCertificate"
+      SudoknQualityCertificate <|-- SudoknISOQualityCertificate
+        click SudoknISOQualityCertificate href "../SudoknISOQualityCertificate"
       SudoknQualityCertificate <|-- SudoknISTSCertificate
         click SudoknISTSCertificate href "../SudoknISTSCertificate"
       SudoknQualityCertificate <|-- SudoknITARCertificate
@@ -78,7 +73,8 @@ URI: [sudokn:QualityCertificate](http://asu.edu/semantics/SUDOKN/QualityCertific
             * [SudoknFDACertificate](../classes/SudoknFDACertificate.md)
             * [SudoknGWOCertificate](../classes/SudoknGWOCertificate.md)
             * [SudoknHAACPCertificate](../classes/SudoknHAACPCertificate.md)
-            * [SudoknISOCertificate](../classes/SudoknISOCertificate.md)
+            * [SudoknIATFCertificate](../classes/SudoknIATFCertificate.md)
+            * [SudoknISOQualityCertificate](../classes/SudoknISOQualityCertificate.md)
             * [SudoknISTSCertificate](../classes/SudoknISTSCertificate.md)
             * [SudoknITARCertificate](../classes/SudoknITARCertificate.md)
             * [SudoknKosherApprovedCertificate](../classes/SudoknKosherApprovedCertificate.md)
@@ -117,14 +113,8 @@ URI: [sudokn:QualityCertificate](http://asu.edu/semantics/SUDOKN/QualityCertific
 
 ```yaml
 name: sudokn_QualityCertificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: quality certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_Certificate
 class_uri: sudokn:QualityCertificate
@@ -138,14 +128,8 @@ class_uri: sudokn:QualityCertificate
 
 ```yaml
 name: sudokn_QualityCertificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: quality certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_Certificate
 class_uri: sudokn:QualityCertificate

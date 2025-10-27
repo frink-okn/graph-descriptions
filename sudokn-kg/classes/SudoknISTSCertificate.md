@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_ISTSCertificate)
-
-
-_No class (type) description specified_
+# Class: ISTS certificate (sudokn_ISTSCertificate)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:ISTSCertificate](http://asu.edu/semantics/SUDOKN/ISTSCertificate)
@@ -28,8 +21,8 @@ URI: [sudokn:ISTSCertificate](http://asu.edu/semantics/SUDOKN/ISTSCertificate)
         click SudoknQualityCertificate href "../SudoknQualityCertificate"
       
 
-      SudoknISTSCertificate <|-- SudoknISTS-16949Certificate
-        click SudoknISTS-16949Certificate href "../SudoknISTS-16949Certificate"
+      SudoknISTSCertificate <|-- SudoknISTS16949Certificate
+        click SudoknISTS16949Certificate href "../SudoknISTS16949Certificate"
       
       
       
@@ -44,7 +37,7 @@ URI: [sudokn:ISTSCertificate](http://asu.edu/semantics/SUDOKN/ISTSCertificate)
     * [SudoknCertificate](../classes/SudoknCertificate.md)
         * [SudoknQualityCertificate](../classes/SudoknQualityCertificate.md)
             * **SudoknISTSCertificate**
-                * [SudoknISTS-16949Certificate](../classes/SudoknISTS-16949Certificate.md)
+                * [SudoknISTS16949Certificate](../classes/SudoknISTS16949Certificate.md)
 
 
 
@@ -76,14 +69,8 @@ URI: [sudokn:ISTSCertificate](http://asu.edu/semantics/SUDOKN/ISTSCertificate)
 
 ```yaml
 name: sudokn_ISTSCertificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: ISTS certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_QualityCertificate
 class_uri: sudokn:ISTSCertificate
@@ -97,14 +84,8 @@ class_uri: sudokn:ISTSCertificate
 
 ```yaml
 name: sudokn_ISTSCertificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: ISTS certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_QualityCertificate
 class_uri: sudokn:ISTSCertificate

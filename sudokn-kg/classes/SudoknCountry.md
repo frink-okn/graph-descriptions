@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_Country)
-
-
-_No class (type) description specified_
+# Class: SudoknCountry
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:Country](http://asu.edu/semantics/SUDOKN/Country)
@@ -69,14 +62,7 @@ URI: [sudokn:Country](http://asu.edu/semantics/SUDOKN/Country)
 
 ```yaml
 name: sudokn_Country
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_GeopoliticalSite
 class_uri: sudokn:Country
@@ -90,14 +76,7 @@ class_uri: sudokn:Country
 
 ```yaml
 name: sudokn_Country
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_GeopoliticalSite
 class_uri: sudokn:Country

@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_TextileProcessCapability)
-
-
-_No class (type) description specified_
+# Class: textile process capability (sudokn_TextileProcessCapability)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:TextileProcessCapability](http://asu.edu/semantics/SUDOKN/TextileProcessCapability)
@@ -84,14 +77,8 @@ URI: [sudokn:TextileProcessCapability](http://asu.edu/semantics/SUDOKN/TextilePr
 
 ```yaml
 name: sudokn_TextileProcessCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: textile process capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_ManufacturingProcessCapability
 class_uri: sudokn:TextileProcessCapability
@@ -105,14 +92,8 @@ class_uri: sudokn:TextileProcessCapability
 
 ```yaml
 name: sudokn_TextileProcessCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: textile process capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_ManufacturingProcessCapability
 class_uri: sudokn:TextileProcessCapability

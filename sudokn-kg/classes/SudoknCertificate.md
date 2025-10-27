@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_Certificate)
-
-
-_No class (type) description specified_
+# Class: certificate (sudokn_Certificate)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:Certificate](http://asu.edu/semantics/SUDOKN/Certificate)
@@ -28,8 +21,14 @@ URI: [sudokn:Certificate](http://asu.edu/semantics/SUDOKN/Certificate)
         click IoInformationContentEntity href "../IoInformationContentEntity"
       
 
+      SudoknCertificate <|-- SudoknOccupationalHealthAndSafetyCertificate
+        click SudoknOccupationalHealthAndSafetyCertificate href "../SudoknOccupationalHealthAndSafetyCertificate"
+      SudoknCertificate <|-- SudoknProfessionalCertificate
+        click SudoknProfessionalCertificate href "../SudoknProfessionalCertificate"
       SudoknCertificate <|-- SudoknQualityCertificate
         click SudoknQualityCertificate href "../SudoknQualityCertificate"
+      SudoknCertificate <|-- SudoknSustainabilityCertificate
+        click SudoknSustainabilityCertificate href "../SudoknSustainabilityCertificate"
       
       
       
@@ -42,7 +41,10 @@ URI: [sudokn:Certificate](http://asu.edu/semantics/SUDOKN/Certificate)
 ## Inheritance
 * [IoInformationContentEntity](../classes/IoInformationContentEntity.md)
     * **SudoknCertificate**
+        * [SudoknOccupationalHealthAndSafetyCertificate](../classes/SudoknOccupationalHealthAndSafetyCertificate.md)
+        * [SudoknProfessionalCertificate](../classes/SudoknProfessionalCertificate.md)
         * [SudoknQualityCertificate](../classes/SudoknQualityCertificate.md)
+        * [SudoknSustainabilityCertificate](../classes/SudoknSustainabilityCertificate.md)
 
 
 
@@ -53,6 +55,15 @@ URI: [sudokn:Certificate](http://asu.edu/semantics/SUDOKN/Certificate)
 
 
 
+
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [IoManufacturer](../classes/IoManufacturer.md) | [sudokn_hasCertificate](../slots/sudokn_hasCertificate.md) | any_of[range] | [SudoknCertificate](../classes/SudoknCertificate.md) |
+| [SudoknAS9100Certificate](../classes/SudoknAS9100Certificate.md) | [sudokn_attestsTo](../slots/sudokn_attestsTo.md) | domain | [SudoknCertificate](../classes/SudoknCertificate.md) |
+| [SudoknISO9000Certificate](../classes/SudoknISO9000Certificate.md) | [sudokn_attestsTo](../slots/sudokn_attestsTo.md) | domain | [SudoknCertificate](../classes/SudoknCertificate.md) |
 
 
 
@@ -74,14 +85,8 @@ URI: [sudokn:Certificate](http://asu.edu/semantics/SUDOKN/Certificate)
 
 ```yaml
 name: sudokn_Certificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: io_InformationContentEntity
 class_uri: sudokn:Certificate
@@ -95,14 +100,8 @@ class_uri: sudokn:Certificate
 
 ```yaml
 name: sudokn_Certificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: io_InformationContentEntity
 class_uri: sudokn:Certificate

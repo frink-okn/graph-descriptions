@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_MetalProductsIndustry)
-
-
-_No class (type) description specified_
+# Class: metal production Industry (sudokn_MetalProductsIndustry)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:MetalProductsIndustry](http://asu.edu/semantics/SUDOKN/MetalProductsIndustry)
@@ -68,14 +61,8 @@ URI: [sudokn:MetalProductsIndustry](http://asu.edu/semantics/SUDOKN/MetalProduct
 
 ```yaml
 name: sudokn_MetalProductsIndustry
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: metal production Industry
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: iosc_Industry
 class_uri: sudokn:MetalProductsIndustry
@@ -89,14 +76,8 @@ class_uri: sudokn:MetalProductsIndustry
 
 ```yaml
 name: sudokn_MetalProductsIndustry
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: metal production Industry
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: iosc_Industry
 class_uri: sudokn:MetalProductsIndustry

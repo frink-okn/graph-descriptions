@@ -1,11 +1,6 @@
 
 
-# Class: No class (type) name specified (sudokn_BuildingNumber)
-
-
-_No class (type) description specified_
-
-
+# Class: building number (sudokn_BuildingNumber)
 
 
 
@@ -68,14 +63,8 @@ URI: [sudokn:BuildingNumber](http://asu.edu/semantics/SUDOKN/BuildingNumber)
 
 ```yaml
 name: sudokn_BuildingNumber
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: building number
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: io_PhysicalLocationIdentifier
 class_uri: sudokn:BuildingNumber
@@ -89,14 +78,8 @@ class_uri: sudokn:BuildingNumber
 
 ```yaml
 name: sudokn_BuildingNumber
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: building number
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: io_PhysicalLocationIdentifier
 class_uri: sudokn:BuildingNumber

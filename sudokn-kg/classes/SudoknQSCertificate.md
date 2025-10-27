@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_QSCertificate)
-
-
-_No class (type) description specified_
+# Class: QS certificate (sudokn_QSCertificate)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:QSCertificate](http://asu.edu/semantics/SUDOKN/QSCertificate)
@@ -76,14 +69,8 @@ URI: [sudokn:QSCertificate](http://asu.edu/semantics/SUDOKN/QSCertificate)
 
 ```yaml
 name: sudokn_QSCertificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: QS certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_QualityCertificate
 class_uri: sudokn:QSCertificate
@@ -97,14 +84,8 @@ class_uri: sudokn:QSCertificate
 
 ```yaml
 name: sudokn_QSCertificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: QS certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_QualityCertificate
 class_uri: sudokn:QSCertificate

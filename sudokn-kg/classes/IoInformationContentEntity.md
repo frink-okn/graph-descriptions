@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified -- this class is noted as a superclass of another class in this graph but has not itself been defined. (io_InformationContentEntity)
-
-
-_No class (type) description specified_
+# Class: No class (entity type) name specified -- this class is noted as a superclass of another class in this graph but has not itself been defined. (io_InformationContentEntity)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [io:InformationContentEntity](https://spec.industrialontologies.org/ontology/core/Core/InformationContentEntity)
@@ -24,12 +17,12 @@ URI: [io:InformationContentEntity](https://spec.industrialontologies.org/ontolog
  classDiagram
     class IoInformationContentEntity
     click IoInformationContentEntity href "../IoInformationContentEntity"
+      IoInformationContentEntity <|-- SudoknBusinessDescription
+        click SudoknBusinessDescription href "../SudoknBusinessDescription"
       IoInformationContentEntity <|-- SudoknCertificate
         click SudoknCertificate href "../SudoknCertificate"
       IoInformationContentEntity <|-- SudoknClassifier
         click SudoknClassifier href "../SudoknClassifier"
-      IoInformationContentEntity <|-- SudoknTwoDimensionalCartesianSpatialCoordinateDatum
-        click SudoknTwoDimensionalCartesianSpatialCoordinateDatum href "../SudoknTwoDimensionalCartesianSpatialCoordinateDatum"
       
       
 ```
@@ -40,9 +33,9 @@ URI: [io:InformationContentEntity](https://spec.industrialontologies.org/ontolog
 
 ## Inheritance
 * **IoInformationContentEntity**
+    * [SudoknBusinessDescription](../classes/SudoknBusinessDescription.md)
     * [SudoknCertificate](../classes/SudoknCertificate.md)
     * [SudoknClassifier](../classes/SudoknClassifier.md)
-    * [SudoknTwoDimensionalCartesianSpatialCoordinateDatum](../classes/SudoknTwoDimensionalCartesianSpatialCoordinateDatum.md)
 
 
 
@@ -74,15 +67,9 @@ URI: [io:InformationContentEntity](https://spec.industrialontologies.org/ontolog
 
 ```yaml
 name: io_InformationContentEntity
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified -- this class is noted as a superclass of another
-  class in this graph but has not itself been defined.
-from_schema: sudokn-kg
+title: No class (entity type) name specified -- this class is noted as a superclass
+  of another class in this graph but has not itself been defined.
+from_schema: okns:sudokn-kg
 rank: 1000
 class_uri: io:InformationContentEntity
 
@@ -95,15 +82,9 @@ class_uri: io:InformationContentEntity
 
 ```yaml
 name: io_InformationContentEntity
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified -- this class is noted as a superclass of another
-  class in this graph but has not itself been defined.
-from_schema: sudokn-kg
+title: No class (entity type) name specified -- this class is noted as a superclass
+  of another class in this graph but has not itself been defined.
+from_schema: okns:sudokn-kg
 rank: 1000
 class_uri: io:InformationContentEntity
 

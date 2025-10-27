@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_CrochetCapability)
-
-
-_No class (type) description specified_
+# Class: crochet capability (sudokn_CrochetCapability)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:CrochetCapability](http://asu.edu/semantics/SUDOKN/CrochetCapability)
@@ -70,14 +63,8 @@ URI: [sudokn:CrochetCapability](http://asu.edu/semantics/SUDOKN/CrochetCapabilit
 
 ```yaml
 name: sudokn_CrochetCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: crochet capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_TextileProcessCapability
 class_uri: sudokn:CrochetCapability
@@ -91,14 +78,8 @@ class_uri: sudokn:CrochetCapability
 
 ```yaml
 name: sudokn_CrochetCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: crochet capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_TextileProcessCapability
 class_uri: sudokn:CrochetCapability

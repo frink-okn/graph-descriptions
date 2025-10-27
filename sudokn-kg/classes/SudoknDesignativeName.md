@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_DesignativeName)
-
-
-_No class (type) description specified_
+# Class: designative name (sudokn_DesignativeName)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:DesignativeName](http://asu.edu/semantics/SUDOKN/DesignativeName)
@@ -77,14 +70,8 @@ URI: [sudokn:DesignativeName](http://asu.edu/semantics/SUDOKN/DesignativeName)
 
 ```yaml
 name: sudokn_DesignativeName
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: designative name
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: io_Identifier
 class_uri: sudokn:DesignativeName
@@ -98,14 +85,8 @@ class_uri: sudokn:DesignativeName
 
 ```yaml
 name: sudokn_DesignativeName
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: designative name
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: io_Identifier
 class_uri: sudokn:DesignativeName

@@ -1,11 +1,6 @@
 
 
-# Class: No class (type) name specified (sudokn__OrganizationSize)
-
-
-_No class (type) description specified_
-
-
+# Class: organization size (sudokn__OrganizationSize)
 
 
 
@@ -68,14 +63,8 @@ URI: [sudokn:/OrganizationSize](http://asu.edu/semantics/SUDOKN//OrganizationSiz
 
 ```yaml
 name: sudokn__OrganizationSize
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: organization size
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: obo_BFO_0000019
 class_uri: sudokn:/OrganizationSize
@@ -89,14 +78,8 @@ class_uri: sudokn:/OrganizationSize
 
 ```yaml
 name: sudokn__OrganizationSize
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: organization size
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: obo_BFO_0000019
 class_uri: sudokn:/OrganizationSize

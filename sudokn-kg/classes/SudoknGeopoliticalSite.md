@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_GeopoliticalSite)
-
-
-_No class (type) description specified_
+# Class: No class (entity type) name specified -- this class is noted as a superclass of another class in this graph but has not itself been defined. (sudokn_GeopoliticalSite)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:GeopoliticalSite](http://asu.edu/semantics/SUDOKN/GeopoliticalSite)
@@ -83,14 +76,9 @@ URI: [sudokn:GeopoliticalSite](http://asu.edu/semantics/SUDOKN/GeopoliticalSite)
 
 ```yaml
 name: sudokn_GeopoliticalSite
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: No class (entity type) name specified -- this class is noted as a superclass
+  of another class in this graph but has not itself been defined.
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: obo_BFO_0000029
 class_uri: sudokn:GeopoliticalSite
@@ -104,14 +92,9 @@ class_uri: sudokn:GeopoliticalSite
 
 ```yaml
 name: sudokn_GeopoliticalSite
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: No class (entity type) name specified -- this class is noted as a superclass
+  of another class in this graph but has not itself been defined.
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: obo_BFO_0000029
 class_uri: sudokn:GeopoliticalSite

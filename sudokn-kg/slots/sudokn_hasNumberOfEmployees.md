@@ -1,11 +1,6 @@
 
 
-# Slot: No slot (predicate) name specified (sudokn_hasNumberOfEmployees)
-
-
-_No slot (predicate) description specified_
-
-
+# Slot: sudokn_hasNumberOfEmployees
 
 
 
@@ -27,7 +22,7 @@ URI: [sudokn:hasNumberOfEmployees](http://asu.edu/semantics/SUDOKN/hasNumberOfEm
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [IoManufacturer](../classes/IoManufacturer.md) | No class (type) description specified |  yes  |
+| [IoManufacturer](../classes/IoManufacturer.md) |  |  no  |
 
 
 
@@ -37,25 +32,10 @@ URI: [sudokn:hasNumberOfEmployees](http://asu.edu/semantics/SUDOKN/hasNumberOfEm
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
-
-## Usages
-
-| used by | used in | type | used |
-| ---  | --- | --- | --- |
-| [IoManufacturer](../classes/IoManufacturer.md) | [sudokn_hasNumberOfEmployees](../slots/sudokn_hasNumberOfEmployees.md) | domain | [sudokn_hasNumberOfEmployees](../slots/sudokn_hasNumberOfEmployees.md) |
+* Range: [Int32](../types/Int32.md)
 
 
 
-
-
-
-
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| io_Manufacturer | integer | sudokn:101PIPE-company-inst | 50 | 6931 |
 
 
 
@@ -66,30 +46,14 @@ URI: [sudokn:hasNumberOfEmployees](http://asu.edu/semantics/SUDOKN/hasNumberOfEm
 
 ```yaml
 name: sudokn_hasNumberOfEmployees
-annotations:
-  count:
-    tag: count
-    value: 6931
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-examples:
-- object:
-    example_object: '50'
-    example_object_type: integer
-    example_predicate: sudokn:hasNumberOfEmployees
-    example_subject: sudokn:101PIPE-company-inst
-    example_subject_type: io_Manufacturer
-from_schema: sudokn-kg
+from_schema: okns:sudokn-kg
 rank: 1000
-domain: sudokn_hasNumberOfEmployees
+domain: io_Organization
 slot_uri: sudokn:hasNumberOfEmployees
 alias: sudokn_hasNumberOfEmployees
 domain_of:
 - io_Manufacturer
-range: Any
-any_of:
-- range: uri
-- range: integer
+range: int32
 
 ```
 </details>

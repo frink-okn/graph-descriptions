@@ -1,16 +1,9 @@
 
 
-# Slot: No slot (predicate) name specified (sudokn_hasSpecialBusinessStatusClassifier)
-
-
-_No slot (predicate) description specified_
+# Slot: has special business status classifier (sudokn_hasSpecialBusinessStatusClassifier)
 
 
 
-
-
-
-This slot occurs 0 times.
 
 
 URI: [sudokn:hasSpecialBusinessStatusClassifier](http://asu.edu/semantics/SUDOKN/hasSpecialBusinessStatusClassifier)
@@ -28,15 +21,11 @@ URI: [sudokn:hasSpecialBusinessStatusClassifier](http://asu.edu/semantics/SUDOKN
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [SudoknSpecialBusinessStatusClassifier](../classes/SudoknSpecialBusinessStatusClassifier.md)
 
 
 
 
-
-## Comments
-
-* No occurrences of this slot in the graph.
 
 
 
@@ -46,20 +35,15 @@ URI: [sudokn:hasSpecialBusinessStatusClassifier](http://asu.edu/semantics/SUDOKN
 
 ```yaml
 name: sudokn_hasSpecialBusinessStatusClassifier
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-comments:
+title: has special business status classifier
+notes:
 - No occurrences of this slot in the graph.
-from_schema: sudokn-kg
+from_schema: okns:sudokn-kg
 rank: 1000
-domain: sudokn_hasSpecialBusinessStatusClassifier
+domain: io_Organization
 slot_uri: sudokn:hasSpecialBusinessStatusClassifier
 alias: sudokn_hasSpecialBusinessStatusClassifier
-range: uri
+range: sudokn_SpecialBusinessStatusClassifier
 
 ```
 </details>

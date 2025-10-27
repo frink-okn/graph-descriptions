@@ -1,11 +1,6 @@
 
 
-# Class: No class (type) name specified (sudokn_EmailAddress)
-
-
-_No class (type) description specified_
-
-
+# Class: email address (sudokn_EmailAddress)
 
 
 
@@ -55,7 +50,6 @@ URI: [sudokn:EmailAddress](http://asu.edu/semantics/SUDOKN/EmailAddress)
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
 | [IoManufacturer](../classes/IoManufacturer.md) | [sudokn_hasEmailAddress](../slots/sudokn_hasEmailAddress.md) | any_of[range] | [SudoknEmailAddress](../classes/SudoknEmailAddress.md) |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | [sudokn_hasEmailAddress](../slots/sudokn_hasEmailAddress.md) | any_of[range] | [SudoknEmailAddress](../classes/SudoknEmailAddress.md) |
 
 
 
@@ -77,14 +71,8 @@ URI: [sudokn:EmailAddress](http://asu.edu/semantics/SUDOKN/EmailAddress)
 
 ```yaml
 name: sudokn_EmailAddress
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: email address
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_VitualLocationIdentifier
 class_uri: sudokn:EmailAddress
@@ -98,14 +86,8 @@ class_uri: sudokn:EmailAddress
 
 ```yaml
 name: sudokn_EmailAddress
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: email address
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_VitualLocationIdentifier
 class_uri: sudokn:EmailAddress

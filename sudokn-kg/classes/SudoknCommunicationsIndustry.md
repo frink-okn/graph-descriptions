@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_CommunicationsIndustry)
-
-
-_No class (type) description specified_
+# Class: communication industry (sudokn_CommunicationsIndustry)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:CommunicationsIndustry](http://asu.edu/semantics/SUDOKN/CommunicationsIndustry)
@@ -68,14 +61,8 @@ URI: [sudokn:CommunicationsIndustry](http://asu.edu/semantics/SUDOKN/Communicati
 
 ```yaml
 name: sudokn_CommunicationsIndustry
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: communication industry
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: iosc_Industry
 class_uri: sudokn:CommunicationsIndustry
@@ -89,14 +76,8 @@ class_uri: sudokn:CommunicationsIndustry
 
 ```yaml
 name: sudokn_CommunicationsIndustry
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: communication industry
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: iosc_Industry
 class_uri: sudokn:CommunicationsIndustry

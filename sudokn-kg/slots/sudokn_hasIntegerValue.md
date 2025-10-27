@@ -1,11 +1,6 @@
 
 
-# Slot: sudokn_hasIntegerValue
-
-
-_No slot (predicate) description specified_
-
-
+# Slot: has integer value (sudokn_hasIntegerValue)
 
 
 
@@ -27,7 +22,7 @@ URI: [sudokn:hasIntegerValue](http://asu.edu/semantics/SUDOKN/hasIntegerValue)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknUSPostalCode](../classes/SudoknUSPostalCode.md) | No class (type) description specified |  yes  |
+| [SudoknUSPostalCode](../classes/SudoknUSPostalCode.md) |  |  no  |
 
 
 
@@ -44,14 +39,6 @@ URI: [sudokn:hasIntegerValue](http://asu.edu/semantics/SUDOKN/hasIntegerValue)
 
 
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| sudokn_USPostalCode | string | sudokn:101PIPE-site-FONTANA-92335-site-zip | 92335 | 18729 |
-
-
-
 
 ## LinkML Source
 
@@ -59,24 +46,14 @@ URI: [sudokn:hasIntegerValue](http://asu.edu/semantics/SUDOKN/hasIntegerValue)
 
 ```yaml
 name: sudokn_hasIntegerValue
-annotations:
-  count:
-    tag: count
-    value: 18729
-description: No slot (predicate) description specified
-examples:
-- object:
-    example_object: '92335'
-    example_object_type: string
-    example_predicate: sudokn:hasIntegerValue
-    example_subject: sudokn:101PIPE-site-FONTANA-92335-site-zip
-    example_subject_type: sudokn_USPostalCode
-from_schema: sudokn-kg
+title: has integer value
+from_schema: okns:sudokn-kg
 rank: 1000
 slot_uri: sudokn:hasIntegerValue
 alias: sudokn_hasIntegerValue
 domain_of:
 - sudokn_USPostalCode
+subproperty_of: owl_topDataProperty
 range: string
 
 ```

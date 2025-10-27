@@ -1,11 +1,6 @@
 
 
-# Slot: No slot (predicate) name specified (sudokn_manufactures)
-
-
-_No slot (predicate) description specified_
-
-
+# Slot: manufactures (sudokn_manufactures)
 
 
 
@@ -27,7 +22,7 @@ URI: [sudokn:manufactures](http://asu.edu/semantics/SUDOKN/manufactures)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [IoManufacturer](../classes/IoManufacturer.md) | No class (type) description specified |  yes  |
+| [IoManufacturer](../classes/IoManufacturer.md) |  |  no  |
 
 
 
@@ -37,25 +32,10 @@ URI: [sudokn:manufactures](http://asu.edu/semantics/SUDOKN/manufactures)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[IoMaterialProduct](../classes/IoMaterialProduct.md)
-
-## Usages
-
-| used by | used in | type | used |
-| ---  | --- | --- | --- |
-| [IoManufacturer](../classes/IoManufacturer.md) | [sudokn_manufactures](../slots/sudokn_manufactures.md) | domain | [sudokn_manufactures](../slots/sudokn_manufactures.md) |
+* Range: [IoMaterialProduct](../classes/IoMaterialProduct.md)
 
 
 
-
-
-
-
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| io_Manufacturer | io_MaterialProduct | sudokn:101PIPE-company-inst | sudokn:BlowoffStations-product | 71660 |
 
 
 
@@ -66,30 +46,15 @@ URI: [sudokn:manufactures](http://asu.edu/semantics/SUDOKN/manufactures)
 
 ```yaml
 name: sudokn_manufactures
-annotations:
-  count:
-    tag: count
-    value: 71660
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-examples:
-- object:
-    example_object: sudokn:BlowoffStations-product
-    example_object_type: io_MaterialProduct
-    example_predicate: sudokn:manufactures
-    example_subject: sudokn:101PIPE-company-inst
-    example_subject_type: io_Manufacturer
-from_schema: sudokn-kg
+title: manufactures
+from_schema: okns:sudokn-kg
 rank: 1000
-domain: sudokn_manufactures
+domain: io_Organization
 slot_uri: sudokn:manufactures
 alias: sudokn_manufactures
 domain_of:
 - io_Manufacturer
-range: Any
-any_of:
-- range: uri
-- range: io_MaterialProduct
+range: io_MaterialProduct
 
 ```
 </details>

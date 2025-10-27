@@ -1,11 +1,6 @@
 
 
-# Class: No class (type) name specified (sudokn_TwoDimensionalCartesianSpatialCoordinateDatum)
-
-
-_No class (type) description specified_
-
-
+# Class: two dimensional cartesian spatial coordinate datum (sudokn_TwoDimensionalCartesianSpatialCoordinateDatum)
 
 
 
@@ -24,8 +19,8 @@ URI: [sudokn:TwoDimensionalCartesianSpatialCoordinateDatum](http://asu.edu/seman
  classDiagram
     class SudoknTwoDimensionalCartesianSpatialCoordinateDatum
     click SudoknTwoDimensionalCartesianSpatialCoordinateDatum href "../SudoknTwoDimensionalCartesianSpatialCoordinateDatum"
-      IoInformationContentEntity <|-- SudoknTwoDimensionalCartesianSpatialCoordinateDatum
-        click IoInformationContentEntity href "../IoInformationContentEntity"
+      IoPhysicalLocationIdentifier <|-- SudoknTwoDimensionalCartesianSpatialCoordinateDatum
+        click IoPhysicalLocationIdentifier href "../IoPhysicalLocationIdentifier"
       
       SudoknTwoDimensionalCartesianSpatialCoordinateDatum : sudokn_hasLatitudeValue
         
@@ -53,7 +48,7 @@ URI: [sudokn:TwoDimensionalCartesianSpatialCoordinateDatum](http://asu.edu/seman
 
 
 ## Inheritance
-* [IoInformationContentEntity](../classes/IoInformationContentEntity.md)
+* [IoPhysicalLocationIdentifier](../classes/IoPhysicalLocationIdentifier.md)
     * **SudoknTwoDimensionalCartesianSpatialCoordinateDatum**
 
 
@@ -62,8 +57,8 @@ URI: [sudokn:TwoDimensionalCartesianSpatialCoordinateDatum](http://asu.edu/seman
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [sudokn_hasLatitudeValue](../slots/sudokn_hasLatitudeValue.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 19082 |
-| [sudokn_hasLongitudeValue](../slots/sudokn_hasLongitudeValue.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 19083 |
+| [sudokn_hasLongitudeValue](../slots/sudokn_hasLongitudeValue.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 19083 |
+| [sudokn_hasLatitudeValue](../slots/sudokn_hasLatitudeValue.md) | 0..1 <br/> [xsd:float](http://www.w3.org/2001/XMLSchema#float)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 19082 |
 
 
 
@@ -95,32 +90,13 @@ URI: [sudokn:TwoDimensionalCartesianSpatialCoordinateDatum](http://asu.edu/seman
 
 ```yaml
 name: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 20728
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: two dimensional cartesian spatial coordinate datum
+from_schema: okns:sudokn-kg
 rank: 1000
-is_a: io_InformationContentEntity
+is_a: io_PhysicalLocationIdentifier
 slots:
-- sudokn_hasLatitudeValue
 - sudokn_hasLongitudeValue
-slot_usage:
-  sudokn_hasLatitudeValue:
-    name: sudokn_hasLatitudeValue
-    annotations:
-      string:
-        tag: string
-        value: 19082
-  sudokn_hasLongitudeValue:
-    name: sudokn_hasLongitudeValue
-    annotations:
-      string:
-        tag: string
-        value: 19083
+- sudokn_hasLatitudeValue
 class_uri: sudokn:TwoDimensionalCartesianSpatialCoordinateDatum
 
 ```
@@ -132,81 +108,40 @@ class_uri: sudokn:TwoDimensionalCartesianSpatialCoordinateDatum
 
 ```yaml
 name: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 20728
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: two dimensional cartesian spatial coordinate datum
+from_schema: okns:sudokn-kg
 rank: 1000
-is_a: io_InformationContentEntity
-slot_usage:
-  sudokn_hasLatitudeValue:
-    name: sudokn_hasLatitudeValue
-    annotations:
-      string:
-        tag: string
-        value: 19082
-  sudokn_hasLongitudeValue:
-    name: sudokn_hasLongitudeValue
-    annotations:
-      string:
-        tag: string
-        value: 19083
+is_a: io_PhysicalLocationIdentifier
 attributes:
-  sudokn_hasLatitudeValue:
-    name: sudokn_hasLatitudeValue
-    annotations:
-      string:
-        tag: string
-        value: 19082
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '34.0677902'
-        example_object_type: string
-        example_predicate: sudokn:hasLatitudeValue
-        example_subject: sudokn:101PIPE-site-FONTANA-92335-coordinates
-        example_subject_type: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
-    from_schema: sudokn-kg
-    rank: 1000
-    slot_uri: sudokn:hasLatitudeValue
-    alias: sudokn_hasLatitudeValue
-    owner: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
-    domain_of:
-    - sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
-    range: Any
-    any_of:
-    - range: uri
-    - range: string
   sudokn_hasLongitudeValue:
     name: sudokn_hasLongitudeValue
-    annotations:
-      string:
-        tag: string
-        value: 19083
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: '-117.4708951'
-        example_object_type: string
-        example_predicate: sudokn:hasLongitudeValue
-        example_subject: sudokn:101PIPE-site-FONTANA-92335-coordinates
-        example_subject_type: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
-    from_schema: sudokn-kg
+    title: has logitude value
+    from_schema: okns:sudokn-kg
     rank: 1000
     slot_uri: sudokn:hasLongitudeValue
     alias: sudokn_hasLongitudeValue
     owner: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
     domain_of:
     - sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
+    subproperty_of: owl_topDataProperty
     range: Any
     any_of:
-    - range: uri
+    - range: float
+    - range: string
+  sudokn_hasLatitudeValue:
+    name: sudokn_hasLatitudeValue
+    title: has latitude value
+    from_schema: okns:sudokn-kg
+    rank: 1000
+    slot_uri: sudokn:hasLatitudeValue
+    alias: sudokn_hasLatitudeValue
+    owner: sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
+    domain_of:
+    - sudokn_TwoDimensionalCartesianSpatialCoordinateDatum
+    subproperty_of: owl_topDataProperty
+    range: Any
+    any_of:
+    - range: float
     - range: string
 class_uri: sudokn:TwoDimensionalCartesianSpatialCoordinateDatum
 

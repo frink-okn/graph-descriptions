@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_BritishRetailConsortiumCertificate)
-
-
-_No class (type) description specified_
+# Class: british retail consortium certificate (sudokn_BritishRetailConsortiumCertificate)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:BritishRetailConsortiumCertificate](http://asu.edu/semantics/SUDOKN/BritishRetailConsortiumCertificate)
@@ -70,14 +63,8 @@ URI: [sudokn:BritishRetailConsortiumCertificate](http://asu.edu/semantics/SUDOKN
 
 ```yaml
 name: sudokn_BritishRetailConsortiumCertificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: british retail consortium certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_QualityCertificate
 class_uri: sudokn:BritishRetailConsortiumCertificate
@@ -91,14 +78,8 @@ class_uri: sudokn:BritishRetailConsortiumCertificate
 
 ```yaml
 name: sudokn_BritishRetailConsortiumCertificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: british retail consortium certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_QualityCertificate
 class_uri: sudokn:BritishRetailConsortiumCertificate

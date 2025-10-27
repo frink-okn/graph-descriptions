@@ -1,11 +1,6 @@
 
 
-# Slot: No slot (predicate) name specified (sudokn_hasOrganizationYearOfEstablishment)
-
-
-_No slot (predicate) description specified_
-
-
+# Slot: sudokn_hasOrganizationYearOfEstablishment
 
 
 
@@ -27,7 +22,7 @@ URI: [sudokn:hasOrganizationYearOfEstablishment](http://asu.edu/semantics/SUDOKN
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [IoManufacturer](../classes/IoManufacturer.md) | No class (type) description specified |  yes  |
+| [IoManufacturer](../classes/IoManufacturer.md) |  |  no  |
 
 
 
@@ -44,14 +39,6 @@ URI: [sudokn:hasOrganizationYearOfEstablishment](http://asu.edu/semantics/SUDOKN
 
 
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| io_Manufacturer | string | sudokn:A-LineCorporation | 1995 | 280 |
-
-
-
 
 ## LinkML Source
 
@@ -59,20 +46,7 @@ URI: [sudokn:hasOrganizationYearOfEstablishment](http://asu.edu/semantics/SUDOKN
 
 ```yaml
 name: sudokn_hasOrganizationYearOfEstablishment
-annotations:
-  count:
-    tag: count
-    value: 280
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-examples:
-- object:
-    example_object: '1995'
-    example_object_type: string
-    example_predicate: sudokn:hasOrganizationYearOfEstablishment
-    example_subject: sudokn:A-LineCorporation
-    example_subject_type: io_Manufacturer
-from_schema: sudokn-kg
+from_schema: okns:sudokn-kg
 rank: 1000
 slot_uri: sudokn:hasOrganizationYearOfEstablishment
 alias: sudokn_hasOrganizationYearOfEstablishment

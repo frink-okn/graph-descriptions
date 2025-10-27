@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_ToolDesignCapability)
-
-
-_No class (type) description specified_
+# Class: tool design capability (sudokn_ToolDesignCapability)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:ToolDesignCapability](http://asu.edu/semantics/SUDOKN/ToolDesignCapability)
@@ -32,6 +25,8 @@ URI: [sudokn:ToolDesignCapability](http://asu.edu/semantics/SUDOKN/ToolDesignCap
         click SudoknDieDesignCapability href "../SudoknDieDesignCapability"
       SudoknToolDesignCapability <|-- SudoknFixtureDesignCapability
         click SudoknFixtureDesignCapability href "../SudoknFixtureDesignCapability"
+      SudoknToolDesignCapability <|-- SudoknMoldDesignCapability
+        click SudoknMoldDesignCapability href "../SudoknMoldDesignCapability"
       
       
       
@@ -47,6 +42,7 @@ URI: [sudokn:ToolDesignCapability](http://asu.edu/semantics/SUDOKN/ToolDesignCap
         * **SudoknToolDesignCapability**
             * [SudoknDieDesignCapability](../classes/SudoknDieDesignCapability.md)
             * [SudoknFixtureDesignCapability](../classes/SudoknFixtureDesignCapability.md)
+            * [SudoknMoldDesignCapability](../classes/SudoknMoldDesignCapability.md)
 
 
 
@@ -78,14 +74,8 @@ URI: [sudokn:ToolDesignCapability](http://asu.edu/semantics/SUDOKN/ToolDesignCap
 
 ```yaml
 name: sudokn_ToolDesignCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: tool design capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_EngineeringCapability
 class_uri: sudokn:ToolDesignCapability
@@ -99,14 +89,8 @@ class_uri: sudokn:ToolDesignCapability
 
 ```yaml
 name: sudokn_ToolDesignCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: tool design capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_EngineeringCapability
 class_uri: sudokn:ToolDesignCapability

@@ -1,11 +1,6 @@
 
 
-# Slot: sudokn_locatedInState
-
-
-_No slot (predicate) description specified_
-
-
+# Slot: located in state (sudokn_locatedInState)
 
 
 
@@ -27,7 +22,7 @@ URI: [sudokn:locatedInState](http://asu.edu/semantics/SUDOKN/locatedInState)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknCity](../classes/SudoknCity.md) | No class (type) description specified |  yes  |
+| [SudoknCity](../classes/SudoknCity.md) |  |  no  |
 
 
 
@@ -44,14 +39,6 @@ URI: [sudokn:locatedInState](http://asu.edu/semantics/SUDOKN/locatedInState)
 
 
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| sudokn_City | sudokn_State | sudokn:(NO%20CITY)-City | sudokn:HUMB-State | 3734 |
-
-
-
 
 ## LinkML Source
 
@@ -59,24 +46,16 @@ URI: [sudokn:locatedInState](http://asu.edu/semantics/SUDOKN/locatedInState)
 
 ```yaml
 name: sudokn_locatedInState
-annotations:
-  count:
-    tag: count
-    value: 3734
-description: No slot (predicate) description specified
-examples:
-- object:
-    example_object: sudokn:HUMB-State
-    example_object_type: sudokn_State
-    example_predicate: sudokn:locatedInState
-    example_subject: sudokn:(NO%20CITY)-City
-    example_subject_type: sudokn_City
-from_schema: sudokn-kg
+title: located in state
+from_schema: okns:sudokn-kg
 rank: 1000
+domain: iosc_GeospatialSite
 slot_uri: sudokn:locatedInState
 alias: sudokn_locatedInState
 domain_of:
 - sudokn_City
+subproperty_of: obo_BFO_0000171
+inverse: sudokn_stateOf
 range: sudokn_State
 
 ```

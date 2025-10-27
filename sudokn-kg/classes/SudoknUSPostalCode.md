@@ -1,16 +1,11 @@
 
 
-# Class: No class (type) name specified (sudokn_USPostalCode)
-
-
-_No class (type) description specified_
+# Class: US postal code (sudokn_USPostalCode)
 
 
 
 
-
-
-This class occurs 20424 times.
+This class occurs 20425 times.
 
 
 URI: [sudokn:USPostalCode](http://asu.edu/semantics/SUDOKN/USPostalCode)
@@ -24,6 +19,9 @@ URI: [sudokn:USPostalCode](http://asu.edu/semantics/SUDOKN/USPostalCode)
  classDiagram
     class SudoknUSPostalCode
     click SudoknUSPostalCode href "../SudoknUSPostalCode"
+      IoPhysicalLocationIdentifier <|-- SudoknUSPostalCode
+        click IoPhysicalLocationIdentifier href "../IoPhysicalLocationIdentifier"
+      
       SudoknUSPostalCode : sudokn_hasIntegerValue
         
           
@@ -39,14 +37,18 @@ URI: [sudokn:USPostalCode](http://asu.edu/semantics/SUDOKN/USPostalCode)
 
 
 
-<!-- no inheritance hierarchy -->
+
+## Inheritance
+* [IoPhysicalLocationIdentifier](../classes/IoPhysicalLocationIdentifier.md)
+    * **SudoknUSPostalCode**
+
 
 
 ## Slots
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [sudokn_hasIntegerValue](../slots/sudokn_hasIntegerValue.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 18729 |
+| [sudokn_hasIntegerValue](../slots/sudokn_hasIntegerValue.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 18729 |
 
 
 
@@ -56,7 +58,9 @@ URI: [sudokn:USPostalCode](http://asu.edu/semantics/SUDOKN/USPostalCode)
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
+| [IoManufacturer](../classes/IoManufacturer.md) | [sudokn_hasPostalAddress](../slots/sudokn_hasPostalAddress.md) | any_of[range] | [SudoknUSPostalCode](../classes/SudoknUSPostalCode.md) |
 | [SudoknGeospatialLocation](../classes/SudoknGeospatialLocation.md) | [sudokn_hasZIPcode](../slots/sudokn_hasZIPcode.md) | range | [SudoknUSPostalCode](../classes/SudoknUSPostalCode.md) |
+| [SudoknGeospatialLocation](../classes/SudoknGeospatialLocation.md) | [sudokn_hasPostalAddress](../slots/sudokn_hasPostalAddress.md) | any_of[range] | [SudoknUSPostalCode](../classes/SudoknUSPostalCode.md) |
 
 
 
@@ -78,24 +82,12 @@ URI: [sudokn:USPostalCode](http://asu.edu/semantics/SUDOKN/USPostalCode)
 
 ```yaml
 name: sudokn_USPostalCode
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 20424
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: US postal code
+from_schema: okns:sudokn-kg
 rank: 1000
+is_a: io_PhysicalLocationIdentifier
 slots:
 - sudokn_hasIntegerValue
-slot_usage:
-  sudokn_hasIntegerValue:
-    name: sudokn_hasIntegerValue
-    annotations:
-      string:
-        tag: string
-        value: 18729
 class_uri: sudokn:USPostalCode
 
 ```
@@ -107,44 +99,22 @@ class_uri: sudokn:USPostalCode
 
 ```yaml
 name: sudokn_USPostalCode
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 20424
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: US postal code
+from_schema: okns:sudokn-kg
 rank: 1000
-slot_usage:
-  sudokn_hasIntegerValue:
-    name: sudokn_hasIntegerValue
-    annotations:
-      string:
-        tag: string
-        value: 18729
+is_a: io_PhysicalLocationIdentifier
 attributes:
   sudokn_hasIntegerValue:
     name: sudokn_hasIntegerValue
-    annotations:
-      string:
-        tag: string
-        value: 18729
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: '92335'
-        example_object_type: string
-        example_predicate: sudokn:hasIntegerValue
-        example_subject: sudokn:101PIPE-site-FONTANA-92335-site-zip
-        example_subject_type: sudokn_USPostalCode
-    from_schema: sudokn-kg
+    title: has integer value
+    from_schema: okns:sudokn-kg
     rank: 1000
     slot_uri: sudokn:hasIntegerValue
     alias: sudokn_hasIntegerValue
     owner: sudokn_USPostalCode
     domain_of:
     - sudokn_USPostalCode
+    subproperty_of: owl_topDataProperty
     range: string
 class_uri: sudokn:USPostalCode
 

@@ -1,6 +1,6 @@
-# No schema name specified
+# sudokn
 
-SUDOKN Ontology is developed at the Semantic Computing Lab ast ASU. SUDOKN provides the necessary semantics for describing the capabilities of manufacturing companies. SUDOKN used BFO as the top-level ontology and IOF Core and IOF Supply Chain as the mid-level ontologies
+SUDOKN Ontology is developed at the Semantic Computing Lab at Arizona State University. SUDOKN provides the necessary semantics for describing the capabilities of manufacturing companies. SUDOKN uses BFO as the top-level ontology and IOF Core and IOF Supply Chain as the mid-level ontologies
 
 
 
@@ -8,6 +8,131 @@ SUDOKN Ontology is developed at the Semantic Computing Lab ast ASU. SUDOKN provi
 
 ```mermaid
 erDiagram
+OwlAllDifferent {
+
+}
+OwlAllDisjointClasses {
+
+}
+OwlAllDisjointProperties {
+
+}
+OwlAnnotation {
+
+}
+OwlAnnotationProperty {
+
+}
+OwlAsymmetricProperty {
+
+}
+OwlAxiom {
+
+}
+OwlClass {
+
+}
+OwlDataRange {
+    uri rdfs_seeAlso  
+    string rdfs_label  
+    string rdfs_comment  
+}
+OwlDatatypeProperty {
+
+}
+OwlDeprecatedClass {
+
+}
+OwlDeprecatedProperty {
+
+}
+OwlFunctionalProperty {
+
+}
+OwlInverseFunctionalProperty {
+
+}
+OwlIrreflexiveProperty {
+
+}
+OwlNamedIndividual {
+
+}
+OwlNegativePropertyAssertion {
+
+}
+OwlNothing {
+
+}
+OwlObjectProperty {
+
+}
+OwlOntology {
+
+}
+OwlOntologyProperty {
+
+}
+OwlReflexiveProperty {
+
+}
+OwlRestriction {
+
+}
+OwlSymmetricProperty {
+
+}
+OwlThing {
+
+}
+OwlTransitiveProperty {
+
+}
+RdfAlt {
+
+}
+RdfBag {
+
+}
+RdfCompoundLiteral {
+
+}
+RdfList {
+    string rdfs_label  
+    string rdfs_comment  
+}
+RdfProperty {
+
+}
+RdfSeq {
+
+}
+RdfStatement {
+
+}
+RdfsClass {
+
+}
+RdfsContainer {
+
+}
+RdfsContainerMembershipProperty {
+
+}
+RdfsDatatype {
+    uri rdfs_seeAlso  
+    string rdfs_label  
+    string rdfs_comment  
+}
+RdfsLiteral {
+
+}
+RdfsResource {
+
+}
+IoCapability {
+
+}
 IoGroupOfPersons {
 
 }
@@ -18,26 +143,21 @@ IoInformationContentEntity {
 
 }
 IoManufacturer {
-    uri sudokn_hasManagementCapability  
-    uri sudokn_hasWebAddress  
-    uri sudokn_hasEmailAddress  
-    uri sudokn_hasNumberOfEmployees  
-    integer sudokn_hasNumberOfEmployees  
-    uri sudokn_hasProcessCapability  
-    uri sudokn_hasPostalAddress  
-    string rdfs_label  
-    uri sudokn_hasMaterialCapability  
-    uri sudokn_manufactures  
-    uri sudokn_hasCertificate  
-    uri sudokn_suppliesToIndustry  
     string sudokn_hasOrganizationYearOfEstablishment  
-    uri sudokn_hasNAICSClassifier  
-    uri sudokn_hasOwnershipStatusClassifier  
+    uri sudokn_hasPostalAddress  
+    int32 sudokn_hasNumberOfEmployees  
+    string rdfs_label  
 }
 IoMaterialProduct {
     string rdfs_label  
 }
+IoOrganization {
+
+}
 IoPhysicalLocationIdentifier {
+
+}
+IoscGeospatialSite {
 
 }
 IoscIndustry {
@@ -52,29 +172,15 @@ OboBFO0000019 {
 OboBFO0000029 {
 
 }
-OwlAllDisjointClasses {
-    uri owl_members  
-}
-OwlNamedIndividual {
-    uri sudokn_hasManagementCapability  
-    uri sudokn_hasWebAddress  
-    uri sudokn_hasEmailAddress  
-    uri sudokn_hasProcessCapability  
-    uri sudokn_attestsTo  
-    uri sudokn_hasPostalAddress  
-    uri sudokn_hasMaterialCapability  
-    uri sudokn_hasNAICSClassifier  
-    uri sudokn_hasCertificate  
-    uri sudokn_suppliesToIndustry  
-    string rdfs_label  
-    string skos_altLabel  
-    uri sudokn_hasOwnershipStatusClassifier  
-}
 Sudokn2-AxisCNCTurningCapability {
     string rdfs_label  
 }
 Sudokn3DPrintingCapability {
     string rdfs_label  
+}
+SudoknAICS336999 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknAS9000Certificate {
     string rdfs_label  
@@ -86,11 +192,13 @@ SudoknAS9100 {
     string rdfs_label  
 }
 SudoknAS9100Certificate {
-    uri sudokn_attestsTo  
     string rdfs_label  
 }
 SudoknAS9102Certificate {
     string rdfs_label  
+}
+SudoknAS9120Certificate {
+
 }
 SudoknASCertificate {
 
@@ -110,12 +218,6 @@ SudoknAbrasiveCleaningCapability {
 SudoknAbrassiveMachiningCapability {
     string rdfs_label  
 }
-SudoknAccommodationAndFoodServices {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
-    string sudokn_hasNAICSTextValue  
-}
 SudoknAcetalProcessingCapability {
     string rdfs_label  
 }
@@ -128,22 +230,16 @@ SudoknAdditiveManufacturingCapability {
 SudoknAddtiveManufacturingCapability {
     string rdfs_label  
 }
-SudoknAdministrativeAndSupportAndWasteServices {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
-    string sudokn_hasNAICSTextValue  
+SudoknAdhesiveBondingCapability {
+    string rdfs_label  
 }
 SudoknAerospaceIndustry {
     string rdfs_label  
 }
-SudoknAgricultureForestryFishingAndHunting {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
-    string sudokn_hasNAICSTextValue  
-}
 SudoknAgricultureIndustry {
+    string rdfs_label  
+}
+SudoknAlkalineOxideConversionCoatingCapability {
     string rdfs_label  
 }
 SudoknAlloySteelProcessingCapability {
@@ -161,17 +257,8 @@ SudoknAnodizingCapability {
 SudoknApparelIndustry {
     string rdfs_label  
 }
-SudoknArtsEnterntainmentAndRecreation {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
-    string sudokn_hasNAICSTextValue  
-}
 SudoknAssemblyCapability {
     string rdfs_label  
-}
-SudoknAssemblyCapibility {
-
 }
 SudoknAtomicHydrogenWeldingCapability {
     string rdfs_label  
@@ -227,7 +314,16 @@ SudoknBroachingCapability {
 SudoknBronzeProcessingCapability {
     string rdfs_label  
 }
+SudoknBuffingCapability {
+    string rdfs_label  
+}
 SudoknBuildingNumber {
+
+}
+SudoknBulgeFormingCapability {
+    string rdfs_label  
+}
+SudoknBusinessDescription {
 
 }
 SudoknBusinessEquipmentIndustry {
@@ -243,6 +339,9 @@ SudoknCADCapability {
     string rdfs_label  
 }
 SudoknCAECapability {
+
+}
+SudoknCAMCapability {
 
 }
 SudoknCNCBendingCapability {
@@ -282,6 +381,9 @@ SudoknCNCPlasmaCuttingCapability {
     string rdfs_label  
 }
 SudoknCNCPressBrakeCapability {
+    string rdfs_label  
+}
+SudoknCNCRoutingCapability {
     string rdfs_label  
 }
 SudoknCNCTurningCapability {
@@ -347,7 +449,19 @@ SudoknChemicalCleaningCapability {
 SudoknChemicalCoatingCapability {
     string rdfs_label  
 }
+SudoknChemicalConversionCoatingCapability {
+    string rdfs_label  
+}
+SudoknChemicalEngravingCapability {
+    string rdfs_label  
+}
+SudoknChemicalMachiningCapability {
+    string rdfs_label  
+}
 SudoknChemicalProcessingCapability {
+    string rdfs_label  
+}
+SudoknChemicalVaporDepositionCapability {
     string rdfs_label  
 }
 SudoknChemicalsProcessingCapability {
@@ -370,6 +484,9 @@ SudoknClassifier {
 }
 SudoknClyndricalGrindingCapability {
     string rdfs_label  
+}
+SudoknCoalIndustry {
+
 }
 SudoknCoatingCapability {
     string rdfs_label  
@@ -398,17 +515,14 @@ SudoknCommunicationsIndustry {
 SudoknCompositeProcessingCapability {
     string rdfs_label  
 }
+SudoknCompressionMoldingCapability {
+    string rdfs_label  
+}
 SudoknComputerIndustry {
     string rdfs_label  
 }
 SudoknComputersandElectronicProductsIndustry {
     string rdfs_label  
-}
-SudoknConstruction {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
-    string sudokn_hasNAICSTextValue  
 }
 SudoknConstructionIndustry {
     string rdfs_label  
@@ -446,10 +560,16 @@ SudoknCreepFeedGrindingCapability {
 SudoknCrochetCapability {
 
 }
+SudoknCurvicGrindingCapability {
+    string rdfs_label  
+}
 SudoknCustomFoamCuttingCapability {
     string rdfs_label  
 }
 SudoknCuttingCapability {
+    string rdfs_label  
+}
+SudoknCyanidingCapability {
     string rdfs_label  
 }
 SudoknCylindricalGrindingCapability {
@@ -469,6 +589,9 @@ SudoknDelrinProcessingCapability {
 }
 SudoknDesignativeName {
 
+}
+SudoknDiamondMachiningCapability {
+    string rdfs_label  
 }
 SudoknDieCastingCapability {
     string rdfs_label  
@@ -494,6 +617,9 @@ SudoknDigitalPrintingCapability {
 SudoknDipBrazingCapability {
     string rdfs_label  
 }
+SudoknDisabledVeteranOwned {
+    string rdfs_label  
+}
 SudoknDrawingCapability {
     string rdfs_label  
 }
@@ -511,12 +637,6 @@ SudoknEducationIndustry {
 }
 SudoknEducationalInstitutionsIndustry {
     string rdfs_label  
-}
-SudoknEducationalServices {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
-    string sudokn_hasNAICSTextValue  
 }
 SudoknElectolessNickelPlatingCapability {
     string rdfs_label  
@@ -551,6 +671,9 @@ SudoknElectrolessNickelPlatingCapability {
 SudoknElectrolessPlatingCapability {
     string rdfs_label  
 }
+SudoknElectronBeamMachiningCapability {
+    string rdfs_label  
+}
 SudoknElectronBeamWeldingCapability {
     string rdfs_label  
 }
@@ -581,10 +704,19 @@ SudoknEndFormingCapability {
 SudoknEndMillingCapability {
     string rdfs_label  
 }
+SudoknEnergyIndustry {
+
+}
 SudoknEngineeringCapability {
 
 }
 SudoknEngineeringDesignCapability {
+    string rdfs_label  
+}
+SudoknEngravingCapability {
+    string rdfs_label  
+}
+SudoknErosionMachiningCapability {
     string rdfs_label  
 }
 SudoknEtchingCapability {
@@ -605,16 +737,16 @@ SudoknExtrudingCapability {
 SudoknExtrusionCapability {
     string rdfs_label  
 }
-SudoknFDA-GMPCertificate {
-    string rdfs_label  
-}
-SudoknFDA-PMACertificate {
-    string rdfs_label  
-}
 SudoknFDACertificate {
     string rdfs_label  
 }
+SudoknFDAGMPCertificate {
+    string rdfs_label  
+}
 SudoknFDAGMPCompliant {
+    string rdfs_label  
+}
+SudoknFDAPMACertificate {
     string rdfs_label  
 }
 SudoknFabricatingCapability {
@@ -638,13 +770,10 @@ SudoknFiberProcessingCapability {
 SudoknFillingCapability {
     string rdfs_label  
 }
-SudoknFinanceAndInsurance {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
-    string sudokn_hasNAICSTextValue  
-}
 SudoknFinishingCapability {
+    string rdfs_label  
+}
+SudoknFiveAxixMachiningCapability {
     string rdfs_label  
 }
 SudoknFixtureDesignCapability {
@@ -654,6 +783,9 @@ SudoknFixturingCapability {
     string rdfs_label  
 }
 SudoknFlameSprayingCapability {
+    string rdfs_label  
+}
+SudoknFluxCoredArcWeldingCapability {
     string rdfs_label  
 }
 SudoknFoamProcessingCapability {
@@ -677,6 +809,12 @@ SudoknFurnaceBrazingCapability {
 SudoknFurnitureIndustry {
     string rdfs_label  
 }
+SudoknFusedDepositionModelingCapability {
+    string rdfs_label  
+}
+SudoknFusedNitrateConversionCoatingCapability {
+    string rdfs_label  
+}
 SudoknGWOCertificate {
 
 }
@@ -696,6 +834,9 @@ SudoknGasWeldingCapability {
     string rdfs_label  
 }
 SudoknGearCuttingCapability {
+    string rdfs_label  
+}
+SudoknGearGashingCapability {
     string rdfs_label  
 }
 SudoknGearHobbingCapability {
@@ -722,7 +863,13 @@ SudoknGovernmentIndustry {
 SudoknGraphiteProcessingCapability {
     string rdfs_label  
 }
+SudoknGravityCastingCapability {
+    string rdfs_label  
+}
 SudoknGrindingCapability {
+    string rdfs_label  
+}
+SudoknGunDrillingCapability {
     string rdfs_label  
 }
 SudoknHAACPCertificate {
@@ -740,12 +887,6 @@ SudoknHastelloyProcessingCapability {
 SudoknHealthCareServicesIndustry {
     string rdfs_label  
 }
-SudoknHealthcareAndSocialAssistance {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
-    string sudokn_hasNAICSTextValue  
-}
 SudoknHealthcareServices {
 
 }
@@ -756,7 +897,7 @@ SudoknHeatTreatingCapability {
     string rdfs_label  
 }
 SudoknHighEnergyBeamMachiningCapability {
-
+    string rdfs_label  
 }
 SudoknHighEnergyBeamWeldingCapability {
     string rdfs_label  
@@ -773,6 +914,9 @@ SudoknHoleMakingCapability {
 SudoknHoningCapability {
     string rdfs_label  
 }
+SudoknHorizontalBoringCapability {
+    string rdfs_label  
+}
 SudoknHorizontalMillingCapability {
     string rdfs_label  
 }
@@ -780,6 +924,12 @@ SudoknHotDipGalvanizingCapability {
     string rdfs_label  
 }
 SudoknIATF16949Certificate {
+    string rdfs_label  
+}
+SudoknIATFCertificate {
+
+}
+SudoknIDODGrindingCapability {
     string rdfs_label  
 }
 SudoknIS-TS16949 {
@@ -801,17 +951,19 @@ SudoknISO14001Certificate {
     string rdfs_label  
 }
 SudoknISO17265Certificate {
-    string rdfs_label  
+
 }
 SudoknISO27001Certificate {
-    string rdfs_label  
+
+}
+SudoknISO45001Certificate {
+
 }
 SudoknISO9000 {
     string rdfs_label  
 }
 SudoknISO9000Certificate {
-    uri sudokn_attestsTo  
-    string rdfs_label  
+
 }
 SudoknISO9001 {
     string rdfs_label  
@@ -822,7 +974,7 @@ SudoknISO9001Certificate {
 SudoknISOCertificate {
     string rdfs_label  
 }
-SudoknISTS-16949Certificate {
+SudoknISOQualityCertificate {
 
 }
 SudoknISTS16949Certificate {
@@ -852,11 +1004,8 @@ SudoknIndustrialMachineryandEquipmentIndustry {
 SudoknIndustry {
     string rdfs_label  
 }
-SudoknInformation {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
-    string sudokn_hasNAICSTextValue  
+SudoknInformationTechnologyIndustry {
+
 }
 SudoknInfraredBrazingCapability {
     string rdfs_label  
@@ -903,10 +1052,19 @@ SudoknKovarProcessingCapability {
 SudoknLEEDCertificate {
     string rdfs_label  
 }
+SudoknLabelingCapability {
+    string rdfs_label  
+}
+SudoknLappingCapability {
+    string rdfs_label  
+}
 SudoknLaserBeamWeldingCapability {
     string rdfs_label  
 }
 SudoknLaserCuttingCapability {
+    string rdfs_label  
+}
+SudoknLaserEngravingCapability {
     string rdfs_label  
 }
 SudoknLaserEtchingCapability {
@@ -931,6 +1089,12 @@ SudoknLiquidCoatingCapability {
     string rdfs_label  
 }
 SudoknLiveToolingCapability {
+    string rdfs_label  
+}
+SudoknLostFoamCastingCapability {
+    string rdfs_label  
+}
+SudoknLowAlloySteelLeadProcessingCapability {
     string rdfs_label  
 }
 SudoknLowAlloySteelProcessingCapability {
@@ -960,18 +1124,6 @@ SudoknMagnesiumProcessingCapability {
 SudoknManMadeFiberProcessingCapability {
     string rdfs_label  
 }
-SudoknManagementOfCompaniesAndEnterprise {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
-    string sudokn_hasNAICSTextValue  
-}
-SudoknManufacturing {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
-    string sudokn_hasNAICSTextValue  
-}
 SudoknManufacturingProcessCapability {
 
 }
@@ -996,6 +1148,9 @@ SudoknMediaBlastingCapability {
 SudoknMetalFabricationCapability {
     string rdfs_label  
 }
+SudoknMetalInjectionMoldingCapability {
+    string rdfs_label  
+}
 SudoknMetalProcessingCapability {
     string rdfs_label  
 }
@@ -1017,6 +1172,9 @@ SudoknMetalsProductsIndustry {
 SudoknMetalworkingCapability {
     string rdfs_label  
 }
+SudoknMicroDrillingCapability {
+    string rdfs_label  
+}
 SudoknMigWeldingCapability {
     string rdfs_label  
 }
@@ -1026,14 +1184,14 @@ SudoknMilitaryIndustry {
 SudoknMillingCapability {
     string rdfs_label  
 }
-SudoknMining {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
-    string sudokn_hasNAICSTextValue  
-}
 SudoknMiningIndustry {
     string rdfs_label  
+}
+SudoknMinorityOwned {
+    string rdfs_label  
+}
+SudoknMoldDesignCapability {
+
 }
 SudoknMoldMakingCapability {
     string rdfs_label  
@@ -1053,269 +1211,818 @@ SudoknNADCAPAC7004 {
 SudoknNADCAPCertificate {
     string rdfs_label  
 }
-SudoknNAICS332111 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
+SudoknNAICS33 {
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS331 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS331110 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS331210 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS331221 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS331222 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS331313 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS331314 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS331315 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS331318 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS331410 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS331420 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS331491 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS331492 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS331511 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS331512 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS331513 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS331523 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS331524 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS331529 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS332 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS332111 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332112 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332114 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332115 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332116 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332117 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS332119 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332211 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332212 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332213 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332214 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS332215 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS332216 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332311 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332312 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332313 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332321 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332322 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332323 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332410 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332420 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332431 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332439 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332510 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332611 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332612 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS332613 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332618 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332710 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332721 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332722 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332811 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332812 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332813 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332911 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332912 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332913 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332919 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332991 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332992 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS332993 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332994 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332995 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332996 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332997 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332998 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICS332999 {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333111 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333112 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333120 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333131 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333132 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333241 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333242 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333243 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333248 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333310 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333413 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333414 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333415 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333511 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333514 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333515 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333517 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333519 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333611 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333612 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333613 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333618 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333912 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333914 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333921 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333922 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333923 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333924 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333991 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333992 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333993 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333994 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333995 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333996 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS333998 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334111 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334112 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334118 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334210 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334220 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334290 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334310 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334412 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334413 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334416 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334417 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334418 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334419 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334510 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334511 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334512 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334513 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334514 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334515 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334516 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334517 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334519 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS334610 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS335 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS335131 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS335132 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS335139 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS335210 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS335220 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS335311 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS335312 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS335313 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS335314 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS335910 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS335921 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS335929 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS335931 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS335932 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS335991 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS335999 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336110 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336120 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336211 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336212 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336213 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336214 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336310 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336320 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336330 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336340 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336350 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336360 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336370 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336390 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336411 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336412 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336413 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336414 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336415 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336419 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336510 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336611 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336612 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336991 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS336992 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS337 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS337110 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS337121 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS337122 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS337126 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS337127 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS337211 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS337212 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS337214 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS337215 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS337910 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS337920 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS339 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS339112 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS339113 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS339114 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS339115 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS339116 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS339910 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS339920 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS339930 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS339940 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS339950 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS339991 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS339992 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS339993 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS339994 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS339995 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
+}
+SudoknNAICS339999 {
+    string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
 SudoknNAICSClassifier {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
     string sudokn_hasNAICSTextValue  
+    integer sudokn_hasNAICSCodeValue  
 }
-SudoknNIST-800-171Certificate {
+SudoknNIST800171Certificate {
 
 }
 SudoknNISTCertificate {
 
+}
+SudoknNativeAmericanOwned {
+    string rdfs_label  
 }
 SudoknNaturalFiberProcessingCapability {
     string rdfs_label  
@@ -1335,8 +2042,17 @@ SudoknNomexProcessingCapability {
 SudoknNotchingCapability {
     string rdfs_label  
 }
+SudoknNuclearEnergyIndustry {
+
+}
 SudoknNylonProcessingCapability {
     string rdfs_label  
+}
+SudoknOHSAS18001Certificate {
+
+}
+SudoknOccupationalHealthAndSafetyCertificate {
+
 }
 SudoknOffshoreWindIndustry {
     string rdfs_label  
@@ -1352,9 +2068,11 @@ SudoknOrganizationName {
 }
 SudoknOwnershipStatusClassifier {
     string rdfs_label  
-    string skos_altLabel  
 }
 SudoknOxy-FuelCuttingCapability {
+    string rdfs_label  
+}
+SudoknOxyFuelCutting {
     string rdfs_label  
 }
 SudoknPLCProgrammingCapability {
@@ -1393,13 +2111,22 @@ SudoknPercussionWeldingCapability {
 SudoknPermanentMoldCastingCapability {
     string rdfs_label  
 }
+SudoknPharmaceuticalIndustry {
+
+}
 SudoknPhosBronzeProcessingCapability {
     string rdfs_label  
 }
 SudoknPhosphateCoatingCapability {
     string rdfs_label  
 }
+SudoknPhosphateConversionCoatingCapability {
+    string rdfs_label  
+}
 SudoknPhosphorBronzeProcessingCapability {
+    string rdfs_label  
+}
+SudoknPhotochemicalMachiningProcess {
     string rdfs_label  
 }
 SudoknPhysicalVaporDepositionCapability {
@@ -1441,6 +2168,9 @@ SudoknPlatingCapability {
 SudoknPlatinumProcessingCapability {
     string rdfs_label  
 }
+SudoknPlungeGrindingCapability {
+    string rdfs_label  
+}
 SudoknPolishingCapability {
     string rdfs_label  
 }
@@ -1456,10 +2186,16 @@ SudoknPostalAddress {
 SudoknPowderCoatingCapability {
     string rdfs_label  
 }
+SudoknPowderMetalFormingCapability {
+    string rdfs_label  
+}
 SudoknPreciousMaterialProcessingCapability {
     string rdfs_label  
 }
 SudoknPressBrakingCapability {
+    string rdfs_label  
+}
+SudoknPressFittingCapability {
     string rdfs_label  
 }
 SudoknPressingCapability {
@@ -1477,13 +2213,7 @@ SudoknPrintingCapability {
 SudoknProductDesignCapability {
     string rdfs_label  
 }
-SudoknProfessionalScientificAndTechnicalServices {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
-    string sudokn_hasNAICSTextValue  
-}
-SudoknProfessionalServices {
+SudoknProfessionalCertificate {
 
 }
 SudoknProfessionalServicesIndustry {
@@ -1497,12 +2227,6 @@ SudoknPrototypeManufacturingCapability {
 }
 SudoknPrototypingCapability {
     string rdfs_label  
-}
-SudoknPublicAdministration {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
-    string sudokn_hasNAICSTextValue  
 }
 SudoknPulsedElectrochemicalMachiningCapability {
     string rdfs_label  
@@ -1525,9 +2249,6 @@ SudoknQualityCertificate {
 SudoknQualityManagementCapability {
 
 }
-SudoknRAMEDMCapability {
-    string rdfs_label  
-}
 SudoknRAMEdmCapability {
     string rdfs_label  
 }
@@ -1537,17 +2258,17 @@ SudoknRamEDMCapability {
 SudoknRapidPrototypingCapability {
     string rdfs_label  
 }
-SudoknRealEstateRentalAndLeasing {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
-    string sudokn_hasNAICSTextValue  
+SudoknReactionInjectionMoldingCapability {
+    string rdfs_label  
 }
 SudoknReamingCapability {
     string rdfs_label  
 }
 SudoknRecyclingIndustry {
     string rdfs_label  
+}
+SudoknRenewableEnergyIndustry {
+
 }
 SudoknResistanceBrazingCapability {
     string rdfs_label  
@@ -1560,12 +2281,6 @@ SudoknRestaurantIndustry {
 }
 SudoknRetailIndustry {
     string rdfs_label  
-}
-SudoknRetailTrade {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
-    string sudokn_hasNAICSTextValue  
 }
 SudoknRetailTradeIndustry {
     string rdfs_label  
@@ -1582,7 +2297,16 @@ SudoknRivettingCapability {
 SudoknRoboticWeldingCapability {
     string rdfs_label  
 }
+SudoknRollDieEngravingCapability {
+    string rdfs_label  
+}
 SudoknRollingCapability {
+    string rdfs_label  
+}
+SudoknRotationalMoldingCapability {
+    string rdfs_label  
+}
+SudoknRubberInjectionMoldingCapability {
     string rdfs_label  
 }
 SudoknRubberProcessingCapability {
@@ -1604,6 +2328,15 @@ SudoknScreenPrintingCapability {
     string rdfs_label  
 }
 SudoknSeamWeldingCapability {
+    string rdfs_label  
+}
+SudoknSelectiveLaserSinteringCapability {
+    string rdfs_label  
+}
+SudoknSemiconductorFabricatingCapability {
+    string rdfs_label  
+}
+SudoknSevenAxisMachiningCapability {
     string rdfs_label  
 }
 SudoknSewingCapability {
@@ -1628,6 +2361,9 @@ SudoknSheetMetalProcessingCapability {
     string rdfs_label  
 }
 SudoknShellMoldCastingCapability {
+    string rdfs_label  
+}
+SudoknShellMoldingCapability {
     string rdfs_label  
 }
 SudoknShieldedMetalArcWeldingCapability {
@@ -1663,10 +2399,19 @@ SudoknSinteringCapability {
 SudoknSlabMillingCapability {
     string rdfs_label  
 }
+SudoknSmallDisadvantagedBusiness {
+    string rdfs_label  
+}
+SudoknSmallHoleDrillingCapability {
+    string rdfs_label  
+}
 SudoknSmeltingCapability {
     string rdfs_label  
 }
 SudoknSolderingCapability {
+    string rdfs_label  
+}
+SudoknSparkPlasmaSinteringCapability {
     string rdfs_label  
 }
 SudoknSpecialBusinessStatusClassifier {
@@ -1685,6 +2430,9 @@ SudoknSportsandLeisureIndustry {
     string rdfs_label  
 }
 SudoknSpotWeldingCapability {
+    string rdfs_label  
+}
+SudoknSqueezeCastingCapability {
     string rdfs_label  
 }
 SudoknStainlessSteelProcessingCapability {
@@ -1708,6 +2456,9 @@ SudoknSteelManufacturingCapability {
 SudoknSteelProcessingCapability {
     string rdfs_label  
 }
+SudoknStereolithographyCapability {
+    string rdfs_label  
+}
 SudoknStreetAddress {
 
 }
@@ -1718,6 +2469,9 @@ SudoknStudWeldingCapability {
     string rdfs_label  
 }
 SudoknSubmergedArcWeldingCapability {
+    string rdfs_label  
+}
+SudoknSuperAlloyProcessingCapability {
     string rdfs_label  
 }
 SudoknSurfaceFinishingCapability {
@@ -1731,6 +2485,9 @@ SudoknSurfaceHardeningCapability {
 }
 SudoknSurfacePreparationCapability {
     string rdfs_label  
+}
+SudoknSustainabilityCertificate {
+
 }
 SudoknSwissMachiningCapability {
     string rdfs_label  
@@ -1774,13 +2531,22 @@ SudoknThermaJoiningCapability {
 SudoknThermalCoatingCapability {
     string rdfs_label  
 }
+SudoknThermalSprayCoatingCapability {
+    string rdfs_label  
+}
 SudoknThermalSubtractionCapability {
-
+    string rdfs_label  
 }
 SudoknThermalWeldingCapability {
     string rdfs_label  
 }
 SudoknThermoformingCapability {
+    string rdfs_label  
+}
+SudoknThreadMillingCapability {
+    string rdfs_label  
+}
+SudoknThreadingCapability {
     string rdfs_label  
 }
 SudoknTinProcessingCapability {
@@ -1799,13 +2565,10 @@ SudoknTorchBrazingCapability {
     string rdfs_label  
 }
 SudoknTorchCuttingCapability {
-
+    string rdfs_label  
 }
-SudoknTransportationAndWarehousing {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
-    string sudokn_hasNAICSTextValue  
+SudoknTransferMoldingCapability {
+    string rdfs_label  
 }
 SudoknTransportationIndustry {
     string rdfs_label  
@@ -1829,28 +2592,22 @@ SudoknTurretPunchingCapability {
     string rdfs_label  
 }
 SudoknTwoDimensionalCartesianSpatialCoordinateDatum {
-    uri sudokn_hasLatitudeValue  
-    string sudokn_hasLatitudeValue  
-    uri sudokn_hasLongitudeValue  
+    float sudokn_hasLongitudeValue  
     string sudokn_hasLongitudeValue  
+    float sudokn_hasLatitudeValue  
+    string sudokn_hasLatitudeValue  
 }
 SudoknUSPostalCode {
     string sudokn_hasIntegerValue  
 }
+SudoknUltrasonicCleaningCapability {
+    string rdfs_label  
+}
 SudoknUltrasonicWeldingCapability {
     string rdfs_label  
 }
-SudoknUnitedStatesPostalCode {
-
-}
 SudoknUrethaneProcessingCapability {
     string rdfs_label  
-}
-SudoknUtilities {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
-    string sudokn_hasNAICSTextValue  
 }
 SudoknUtilitiesIndustry {
     string rdfs_label  
@@ -1864,7 +2621,13 @@ SudoknVacuumFormingCapability {
 SudoknVacuumHardeningCapability {
     string rdfs_label  
 }
+SudoknVacuumMoldingCapability {
+    string rdfs_label  
+}
 SudoknVacuumPackagingCapability {
+    string rdfs_label  
+}
+SudoknVacuumPressingCapability {
     string rdfs_label  
 }
 SudoknVaporizedMetalCoatingCapability {
@@ -1873,7 +2636,13 @@ SudoknVaporizedMetalCoatingCapability {
 SudoknVerticalMillingCapability {
     string rdfs_label  
 }
+SudoknVeteranOwned {
+    string rdfs_label  
+}
 SudoknVitualLocationIdentifier {
+
+}
+SudoknWarehousingAndStorage {
 
 }
 SudoknWarehousingAndStorageIndustry {
@@ -1909,12 +2678,6 @@ SudoknWeldingCapability {
 SudoknWetPaintingCapability {
     string rdfs_label  
 }
-SudoknWholesaleTrade {
-    uri sudokn_hasNAICSCodeValue  
-    integer sudokn_hasNAICSCodeValue  
-    uri sudokn_hasNAICSTextValue  
-    string sudokn_hasNAICSTextValue  
-}
 SudoknWireBendingCapability {
     string rdfs_label  
 }
@@ -1930,6 +2693,9 @@ SudoknWireHarnessAssemblyCapability {
 SudoknWiringCapability {
     string rdfs_label  
 }
+SudoknWomenOwned {
+    string rdfs_label  
+}
 SudoknWoodProcessingCapability {
     string rdfs_label  
 }
@@ -1940,6 +2706,9 @@ SudoknWoodWorkingCapability {
     string rdfs_label  
 }
 SudoknWoodworkingCapability {
+    string rdfs_label  
+}
+SudoknZeroStockMachiningCapability {
     string rdfs_label  
 }
 SudoknZincAlloyProcessingCapability {
@@ -1958,843 +2727,994 @@ SudoknOrganizationSize {
 
 }
 
-IoManufacturer ||--|o OwlNamedIndividual : "sudokn_hasManagementCapability"
-IoManufacturer ||--|o SudoknQualityManagementCapability : "sudokn_hasManagementCapability"
-IoManufacturer ||--|o OwlNamedIndividual : "sudokn_hasName"
-IoManufacturer ||--|o SudoknOrganizationName : "sudokn_hasName"
-IoManufacturer ||--|o OwlNamedIndividual : "sudokn_hasWebAddress"
-IoManufacturer ||--|o SudoknWebAddress : "sudokn_hasWebAddress"
-IoManufacturer ||--|o OwlNamedIndividual : "sudokn_hasEmailAddress"
-IoManufacturer ||--|o SudoknEmailAddress : "sudokn_hasEmailAddress"
-IoManufacturer ||--|o SudoknCenterlessGrindingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknElectronBeamWeldingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknLiveToolingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknInductionHeatingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknRoboticWeldingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknDeepFreezingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknLaserCuttingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknRamEDMCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCNCCuttingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCNCTurningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknAssemblyCapibility : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPLCProgrammingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknElectolessNickelPlatingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknHoningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPlasticMachiningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknEDMCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCNCmillingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknLatheWorkCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPulsedElectrochemicalMachiningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCNCVerticalMillingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknTubingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSwissMachiningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknNickelPlatingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknVacuumFormingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPlasmaSprayingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknRivettingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSanitaryWeldingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknZincArcSprayCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknMoldingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCNCMillingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknWaterjetCuttimgCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSheetMetalFormingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknMachineBuildingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknEndFormingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSandBlastingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSmeltingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknGrindingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknDieCastingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknMediaBlastingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknWaterjetCuttingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCylindricalGrindingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknWireFormingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknFixtureDesignCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknElectricalDischargeMachiningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCustomFoamCuttingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknWireEDMCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknFixturingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknHardeningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o Sudokn3DPrintingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPackagingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknReverseEngineeringCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknKnittingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknWaterJetCuttingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknRollingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknExtrusionCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknAssemblyCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknMechanicalJoiningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknNotchingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknBroachingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknFormingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknNitridingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknGalvanizingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknMetalStampingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCarburizingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknFabricatingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknMetalFabricationCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCNCLaserCuttingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknMIGWeldingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPemInsertionCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknElectropolishingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknAnnealingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknLaserProcessingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknEtchingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPaintingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknVacuumPackagingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknMillingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknScreenPrintingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknContinuousCastingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknVacuumCastingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknThermoformingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCNCLatheCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCoatingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknWoodworkingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCADCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknChemicalProcessingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSurfaceFinishingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknMetalworkingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSurfacePreparationCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPunchingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCNCPressBrakeCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknTappingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknWiringCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPackingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCreepFeedGrindingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknToolMakingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCNCMachiningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknMachiningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o Sudokn2-AxisCNCTurningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPhosphateCoatingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknAddtiveManufacturingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknExtrudingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCNCCylindricalGrindingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPlatingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknResistanceWeldingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknTurningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknKittingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknTubeFormingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknStampingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknWetPaintingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknFinishingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknInvestmentCastingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPolishingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknVacuumHardeningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknRAMEdmCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSteelManufacturingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknEmbossingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknDrawingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPassivationCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCNCGrindingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknLaserWeldingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCerakoteCoatingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPrintingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknBendingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknHarperizingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknForgingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknRivetingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknRapidPrototypingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknProductDesignCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPipingFabricationCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSwissTurningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknBrassBlackeningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknHeatTreatingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknChemicalCoatingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknWireBendingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSinteringCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPressingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknBrazingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSolderingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknFlameSprayingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPressBrakingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknWeldingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknFasteningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCentrifugalCastingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCuttingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSilkScreeningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCNCWireBendingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknMigWeldingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknShearingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSewingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknEngineeringDesignCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknVerticalMillingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknWireHarnessAssemblyCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknMetalSpinningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o OwlNamedIndividual : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCeramicMoldCastingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknAdditiveManufacturingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSandCastingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknWoodWorkingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknInstallationCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSpotWeldingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknChromateConversionCoatingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknMoldMakingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPhysicalVaporDepositionCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknElectrolessNickelPlatingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknElectrolessPlatingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknHorizontalMillingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknMechanicalAssemblyCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknDieMakingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPrototypeManufacturingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPlasmaCuttingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCarbonitridingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknOxy-FuelCuttingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknDigitalPrintingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknDrillingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCNCPlasmaCuttingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknDeepHoleDrillingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknHotDipGalvanizingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknAbrasiveCleaningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknDeburringCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSpinningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknLiquidCoatingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknAnodizingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknAcrylicFabricationCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPolycrystallineDiamondMachiningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPlaningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknVaporizedMetalCoatingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknBlackOxideCoatingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknReamingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknMIGWeldinCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSurfaceGrindingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknBoringCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCastingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSheetMetalProcessingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknShrinkFittingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknTIGWeldingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSinkerEdmCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknShapingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknKnurlingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknElectroplatingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknElectroPlatingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPowderCoatingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSheetMetalFabricationCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknFillingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknTurretPunchingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknOilGroovingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknTubeBendingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCNCFormingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPlasterMoldCastingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknGearCuttingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCNCBendingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPermanentMoldCastingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknLaserEtchingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknChemicalCleaningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknPrototypingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknSinkerEDMCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknShellMoldCastingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknFabricationCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknFiberOpticLaserCuttingCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknCNCHorizontalTurningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o SudoknJoiningCapability : "sudokn_hasProcessCapability"
-IoManufacturer ||--|o OwlNamedIndividual : "sudokn_hasPostalAddress"
-IoManufacturer ||--|o SudoknPostalAddress : "sudokn_hasPostalAddress"
-IoManufacturer ||--|o SudoknUnitedStatesPostalCode : "sudokn_hasPostalAddress"
-IoManufacturer ||--|o SudoknNAICS332116 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332618 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332913 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332321 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332722 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332991 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332811 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332813 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332212 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332510 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332312 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332420 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332213 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332997 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332410 : "sudokn_hasPrimaryNAICSClassifier"
+OwlDataRange ||--|o OwlOntology : "rdfs_isDefinedBy"
+OwlDataRange ||--|o RdfsResource : "rdfs_isDefinedBy"
+OwlDataRange ||--|o RdfsClass : "rdfs_subClassOf"
+OwlDataRange ||--|o RdfsResource : "rdfs_seeAlso"
+OwlDataRange ||--|o RdfsLiteral : "rdfs_label"
+OwlDataRange ||--|o RdfsLiteral : "rdfs_comment"
+RdfList ||--|o RdfsLiteral : "rdfs_label"
+RdfList ||--|o RdfsLiteral : "rdfs_comment"
+RdfList ||--|o OwlOntology : "rdfs_isDefinedBy"
+RdfList ||--|o RdfsResource : "rdfs_isDefinedBy"
+RdfsDatatype ||--|o OwlOntology : "rdfs_isDefinedBy"
+RdfsDatatype ||--|o RdfsResource : "rdfs_isDefinedBy"
+RdfsDatatype ||--|o RdfsClass : "rdfs_subClassOf"
+RdfsDatatype ||--|o RdfsResource : "rdfs_seeAlso"
+RdfsDatatype ||--|o RdfsLiteral : "rdfs_label"
+RdfsDatatype ||--|o RdfsLiteral : "rdfs_comment"
+IoManufacturer ||--|o SudoknGeospatialLocation : "sudokn_organizationLocatedIn"
 IoManufacturer ||--|o SudoknNAICS332612 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332995 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332611 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332211 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332912 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332999 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332812 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332998 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332722 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332813 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332811 : "sudokn_hasPrimaryNAICSClassifier"
 IoManufacturer ||--|o SudoknNAICS332311 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332115 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332812 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332611 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332995 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332312 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332212 : "sudokn_hasPrimaryNAICSClassifier"
 IoManufacturer ||--|o SudoknNAICS332112 : "sudokn_hasPrimaryNAICSClassifier"
 IoManufacturer ||--|o SudoknNAICS332919 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332117 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332322 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332710 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332439 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332115 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332114 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332431 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICSClassifier : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332211 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332323 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332913 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332410 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332997 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332991 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332116 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332510 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332420 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332213 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332999 : "sudokn_hasPrimaryNAICSClassifier"
 IoManufacturer ||--|o SudoknNAICS332111 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332313 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332996 : "sudokn_hasPrimaryNAICSClassifier"
 IoManufacturer ||--|o SudoknNAICS332992 : "sudokn_hasPrimaryNAICSClassifier"
 IoManufacturer ||--|o SudoknNAICS332721 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332994 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332911 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICSClassifier : "sudokn_hasPrimaryNAICSClassifier"
 IoManufacturer ||--|o SudoknNAICS332214 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332323 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332996 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknNAICS332313 : "sudokn_hasPrimaryNAICSClassifier"
-IoManufacturer ||--|o SudoknGeospatialLocation : "sudokn_organizationLocatedIn"
-IoManufacturer ||--|o SudoknNAICSClassifier : "sudokn_hasSecondaryNAICSClassifier"
-IoManufacturer ||--|o SudoknMetalProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknTeflonProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknZirconProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknTinProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknColdRolledSteelProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknCopperProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknTungstenProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknKovarProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknPhosBronzeProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknGraphiteProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknPlasticProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknAlloySteelProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknSiliconeProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknAcetalProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknMolybdenumProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknInvarProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknWoodProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknPlatinumProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknPreciousMaterialProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknDifficultToMachineMaterialsProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknPolycarbonateProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknZincProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknPhosphorBronzeProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknBronzeProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknSteelProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknUrethaneProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknInconelProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknStainlessSteelProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknRubberProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknHastelloyProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknExoticMaterialProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknZincAlloyProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknWaspaloyProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknExtremelyHardMaterialProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknBrassProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknGoldProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknChromiumProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknIronProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknKaptonProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknNomexProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknGlassProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknFoamProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknManMadeFiberProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknHighGradeAluminumProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknLeadProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknAluminumProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknPalladiumProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknCompositeProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknCeramicProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknNylonProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknCarbideProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknChemicalsProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknNaturalFiberProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknTantalumProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknMagnesiumProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknSilverProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o OwlNamedIndividual : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknLexanProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknTitaniumProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknSpecialMaterialsProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknCobaltProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknBerylliumProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknNickelProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknSteelAlloyProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknLowAlloySteelProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknDelrinProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o SudoknCarbonGraphiteProcessingCapability : "sudokn_hasMaterialCapability"
-IoManufacturer ||--|o IoMaterialProduct : "sudokn_manufactures"
+IoManufacturer ||--|o SudoknNAICS332117 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332994 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332912 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332322 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332998 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332710 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332114 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332911 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332321 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332618 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332439 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknNAICS332431 : "sudokn_hasPrimaryNAICSClassifier"
+IoManufacturer ||--|o SudoknOwnershipStatusClassifier : "sudokn_hasOwnershipStatusClassifier"
+IoManufacturer ||--|o OwlClass : "sudokn_hasOwnershipStatusClassifier"
+IoManufacturer ||--|o OwlNamedIndividual : "sudokn_hasOwnershipStatusClassifier"
+IoManufacturer ||--|o SudoknISO13485Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknISO14000Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknASMECertificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknKOSHERApproved : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknFDAGMPCompliant : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknISO14001 : "sudokn_hasCertificate"
+IoManufacturer ||--|o OwlNamedIndividual : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknAWSWelderCertificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknISO9001 : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknISOCertificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknNADCAPAC7004 : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknLEEDCertificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknISTS16949Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknISO9001Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknNADCAPCertificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknAS9100Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknISO13485 : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknISO14001Certificate : "sudokn_hasCertificate"
 IoManufacturer ||--|o SudoknFDACertificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknCertificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknASME : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknIS-TS16949 : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknIATF16949Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknITARCertificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknBABACertificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknQS9000 : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknITARCompliant : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknAS9102Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknBritishRetailConsortiumAccreditation : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknQS9000Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknAS9000Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknISO9000Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknTI9000Certificate : "sudokn_hasCertificate"
+IoManufacturer ||--|o SudoknAS9100 : "sudokn_hasCertificate"
 IoManufacturer ||--|o SudoknHAACPCertificate : "sudokn_hasCertificate"
 IoManufacturer ||--|o SudoknISO9000 : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknITARCompliant : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknIATF16949Certificate : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknQS9000Certificate : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknISO14001Certificate : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknASME : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknFDAGMPCompliant : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknISO14000Certificate : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknISO9001 : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknISO9000Certificate : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknBABACertificate : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknISO13485Certificate : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknAS9100 : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknISO9001Certificate : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknISTS16949Certificate : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknIS-TS16949 : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknLEEDCertificate : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknTI9000Certificate : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknNADCAPCertificate : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknAWSWelderCertificate : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknAS9100Certificate : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknISOCertificate : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknBritishRetailConsortiumAccreditation : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknITARCertificate : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknQS9000 : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknAS9102Certificate : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknNADCAPAC7004 : "sudokn_hasCertificate"
-IoManufacturer ||--|o OwlNamedIndividual : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknASMECertificate : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknAS9000Certificate : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknISO13485 : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknISO14001 : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknKOSHERApproved : "sudokn_hasCertificate"
-IoManufacturer ||--|o SudoknElectronicAutomotiveInudstry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknHealthCareServicesIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknIndustrialMachineryandEquipmentIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknWaterandSewerUtilitiesIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknRetailTradeIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknEducationIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknAutomotiveIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknOffshoreWindIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknPaperIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknConstructionIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknCommunicationandElectronicPowerUtilitiesIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknPrintingAndInformationIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknConsumerGoods : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknElectronicProductIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknProfessionalServicesIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknMiningIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknComputersandElectronicProductsIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknWoodProductManufacturingIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknAgricultureIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknWarehousingAndStorageIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknSportsAndLeisureIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknConsumerGoodsIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknOilAndGasIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknBusinessEquipmentIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknTextiles : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknRetailIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknPaperandPaperboardProductsIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknTransportationIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknHealthcareServicesIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknGovernmentIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o IoMaterialProduct : "sudokn_manufactures"
+IoManufacturer ||--|o OwlNamedIndividual : "sudokn_hasManagementCapability"
+IoManufacturer ||--|o SudoknQualityManagementCapability : "sudokn_hasManagementCapability"
+IoManufacturer ||--|o SudoknCeramicProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknMetalProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknCobaltProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknWaspaloyProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknExtremelyHardMaterialProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknDifficultToMachineMaterialsProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknPhosBronzeProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknPolycarbonateProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknStainlessSteelProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknTungstenProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknSpecialMaterialsProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknZincProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknZirconProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o OwlNamedIndividual : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknGraphiteProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknPlasticProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknColdRolledSteelProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknManMadeFiberProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknNaturalFiberProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknBronzeProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknCopperProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknBerylliumProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknNomexProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknTitaniumProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknLexanProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknExoticMaterialProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknNylonProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknAcetalProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknDelrinProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknZincAlloyProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknSiliconeProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknLowAlloySteelProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknKaptonProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknInvarProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknHighGradeAluminumProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknGoldProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknSteelProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknAluminumProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknHastelloyProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknRubberProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknTeflonProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknPlatinumProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknAlloySteelProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknLeadProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknNickelProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknPhosphorBronzeProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknBrassProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknTantalumProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknTinProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknGlassProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknMagnesiumProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknFoamProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknCarbonGraphiteProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknMolybdenumProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknIronProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknUrethaneProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknSilverProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknChemicalsProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknMaterialProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknPalladiumProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknKovarProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknCarbideProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknWoodProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknInconelProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknCompositeProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknChromiumProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknPreciousMaterialProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o SudoknSteelAlloyProcessingCapability : "sudokn_hasMaterialCapability"
+IoManufacturer ||--|o OwlNamedIndividual : "sudokn_hasEmailAddress"
+IoManufacturer ||--|o SudoknEmailAddress : "sudokn_hasEmailAddress"
+IoManufacturer ||--|o SudoknPostalAddress : "sudokn_hasPostalAddress"
+IoManufacturer ||--|o OwlNamedIndividual : "sudokn_hasPostalAddress"
+IoManufacturer ||--|o SudoknUSPostalCode : "sudokn_hasPostalAddress"
 IoManufacturer ||--|o SudoknUtilitiesIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknRecyclingIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknSportsandLeisureIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknFoodIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknPlasticAndRubberIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknTextilesIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknApparelIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknEducationalInstitutionsIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknAerospaceIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknGovermentIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknMachinaryAndEquipmentIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o OwlNamedIndividual : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknMetalProductionIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknMetalsProductsIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknMiningIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknPaperIndustry : "sudokn_suppliesToIndustry"
 IoManufacturer ||--|o SudoknPlasticsandRubberProductsIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknChemicalAndPetrochemicalIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknElectricVehiclesIndustry : "sudokn_suppliesToIndustry"
-IoManufacturer ||--|o SudoknMilitaryIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknWaterandSewerUtilitiesIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknMetalsProductsIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknTextiles : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknGovernmentIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknConsumerGoodsIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknConsumerGoods : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknEducationalInstitutionsIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknConstructionIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknComputersandElectronicProductsIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o OwlNamedIndividual : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknApparelIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknMetalProductionIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknEducationIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknOffshoreWindIndustry : "sudokn_suppliesToIndustry"
 IoManufacturer ||--|o SudoknFurnitureIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknElectricVehiclesIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknGovermentIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknPlasticAndRubberIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknSportsAndLeisureIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknAerospaceIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknWarehousingAndStorageIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o IoscIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknHealthCareServicesIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknRetailIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknWoodProductManufacturingIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknPrintingAndInformationIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknMilitaryIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknElectronicProductIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknAutomotiveIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknChemicalAndPetrochemicalIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknTextilesIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknMachinaryAndEquipmentIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknFoodIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknRecyclingIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknProfessionalServicesIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknIndustrialMachineryandEquipmentIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknTransportationIndustry : "sudokn_suppliesToIndustry"
 IoManufacturer ||--|o SudoknCommunicationIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknHealthcareServicesIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknBusinessEquipmentIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknElectronicAutomotiveInudstry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknPaperandPaperboardProductsIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknSportsandLeisureIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknOilAndGasIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknCommunicationandElectronicPowerUtilitiesIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknAgricultureIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o SudoknRetailTradeIndustry : "sudokn_suppliesToIndustry"
+IoManufacturer ||--|o OwlNamedIndividual : "sudokn_hasName"
+IoManufacturer ||--|o SudoknOrganizationName : "sudokn_hasName"
+IoManufacturer ||--|o SudoknNAICSClassifier : "sudokn_hasSecondaryNAICSClassifier"
 IoManufacturer ||--|o OwlNamedIndividual : "sudokn_hasNAICSClassifier"
 IoManufacturer ||--|o SudoknNAICSClassifier : "sudokn_hasNAICSClassifier"
-IoManufacturer ||--|o OwlNamedIndividual : "sudokn_hasOwnershipStatusClassifier"
-IoManufacturer ||--|o SudoknOwnershipStatusClassifier : "sudokn_hasOwnershipStatusClassifier"
-OwlNamedIndividual ||--|o OwlNamedIndividual : "sudokn_hasManagementCapability"
-OwlNamedIndividual ||--|o SudoknQualityManagementCapability : "sudokn_hasManagementCapability"
-OwlNamedIndividual ||--|o OwlNamedIndividual : "sudokn_hasName"
-OwlNamedIndividual ||--|o SudoknOrganizationName : "sudokn_hasName"
-OwlNamedIndividual ||--|o OwlNamedIndividual : "sudokn_hasWebAddress"
-OwlNamedIndividual ||--|o SudoknWebAddress : "sudokn_hasWebAddress"
-OwlNamedIndividual ||--|o OwlNamedIndividual : "sudokn_hasEmailAddress"
-OwlNamedIndividual ||--|o SudoknEmailAddress : "sudokn_hasEmailAddress"
-OwlNamedIndividual ||--|o SudoknCenterlessGrindingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknElectronBeamWeldingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknLiveToolingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknInductionHeatingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknRoboticWeldingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknDeepFreezingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknLaserCuttingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknRamEDMCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCNCCuttingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCNCTurningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknAssemblyCapibility : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPLCProgrammingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknElectolessNickelPlatingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknHoningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPlasticMachiningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknEDMCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCNCmillingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknLatheWorkCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPulsedElectrochemicalMachiningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCNCVerticalMillingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknTubingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSwissMachiningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknNickelPlatingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknVacuumFormingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPlasmaSprayingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknRivettingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSanitaryWeldingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknZincArcSprayCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknMoldingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCNCMillingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknWaterjetCuttimgCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSheetMetalFormingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknMachineBuildingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknEndFormingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSandBlastingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSmeltingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknGrindingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknDieCastingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknMediaBlastingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknWaterjetCuttingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCylindricalGrindingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknWireFormingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknFixtureDesignCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknElectricalDischargeMachiningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCustomFoamCuttingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknWireEDMCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknFixturingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknHardeningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o Sudokn3DPrintingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPackagingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknReverseEngineeringCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknKnittingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknWaterJetCuttingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknRollingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknExtrusionCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknAssemblyCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknMechanicalJoiningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknNotchingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknBroachingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknFormingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknNitridingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknGalvanizingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknMetalStampingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCarburizingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknFabricatingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknMetalFabricationCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCNCLaserCuttingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknMIGWeldingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPemInsertionCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknElectropolishingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknAnnealingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknLaserProcessingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknEtchingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPaintingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknVacuumPackagingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknMillingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknScreenPrintingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknContinuousCastingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknVacuumCastingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknThermoformingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCNCLatheCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCoatingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknWoodworkingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCADCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknChemicalProcessingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSurfaceFinishingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknMetalworkingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSurfacePreparationCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPunchingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCNCPressBrakeCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknTappingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknWiringCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPackingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCreepFeedGrindingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknToolMakingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCNCMachiningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknMachiningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o Sudokn2-AxisCNCTurningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPhosphateCoatingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknAddtiveManufacturingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknExtrudingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCNCCylindricalGrindingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPlatingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknResistanceWeldingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknTurningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknKittingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknTubeFormingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknStampingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknWetPaintingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknFinishingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknInvestmentCastingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPolishingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknVacuumHardeningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknRAMEdmCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSteelManufacturingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknEmbossingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknDrawingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPassivationCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCNCGrindingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknLaserWeldingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCerakoteCoatingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPrintingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknBendingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknHarperizingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknForgingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknRivetingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknRapidPrototypingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknProductDesignCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPipingFabricationCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSwissTurningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknBrassBlackeningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknHeatTreatingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknChemicalCoatingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknWireBendingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSinteringCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPressingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknBrazingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSolderingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknFlameSprayingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPressBrakingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknWeldingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknFasteningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCentrifugalCastingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCuttingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSilkScreeningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCNCWireBendingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknMigWeldingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknShearingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSewingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknEngineeringDesignCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknVerticalMillingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknWireHarnessAssemblyCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknMetalSpinningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o OwlNamedIndividual : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCeramicMoldCastingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknAdditiveManufacturingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSandCastingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknWoodWorkingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknInstallationCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSpotWeldingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknChromateConversionCoatingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknMoldMakingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPhysicalVaporDepositionCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknElectrolessNickelPlatingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknElectrolessPlatingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknHorizontalMillingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknMechanicalAssemblyCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknDieMakingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPrototypeManufacturingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPlasmaCuttingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCarbonitridingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknOxy-FuelCuttingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknDigitalPrintingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknDrillingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCNCPlasmaCuttingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknDeepHoleDrillingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknHotDipGalvanizingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknAbrasiveCleaningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknDeburringCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSpinningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknLiquidCoatingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknAnodizingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknAcrylicFabricationCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPolycrystallineDiamondMachiningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPlaningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknVaporizedMetalCoatingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknBlackOxideCoatingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknReamingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknMIGWeldinCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSurfaceGrindingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknBoringCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCastingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSheetMetalProcessingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknShrinkFittingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknTIGWeldingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSinkerEdmCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknShapingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknKnurlingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknElectroplatingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknElectroPlatingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPowderCoatingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSheetMetalFabricationCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknFillingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknTurretPunchingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknOilGroovingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknTubeBendingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCNCFormingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPlasterMoldCastingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknGearCuttingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCNCBendingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPermanentMoldCastingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknLaserEtchingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknChemicalCleaningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknPrototypingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknSinkerEDMCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknShellMoldCastingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknFabricationCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknFiberOpticLaserCuttingCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknCNCHorizontalTurningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o SudoknJoiningCapability : "sudokn_hasProcessCapability"
-OwlNamedIndividual ||--|o OwlNamedIndividual : "sudokn_attestsTo"
-OwlNamedIndividual ||--|o SudoknQualityManagementCapability : "sudokn_attestsTo"
-OwlNamedIndividual ||--|o OwlNamedIndividual : "sudokn_hasPostalAddress"
-OwlNamedIndividual ||--|o SudoknPostalAddress : "sudokn_hasPostalAddress"
-OwlNamedIndividual ||--|o SudoknUnitedStatesPostalCode : "sudokn_hasPostalAddress"
-OwlNamedIndividual ||--|o SudoknMetalProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknTeflonProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknZirconProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknTinProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknColdRolledSteelProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknCopperProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknTungstenProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknKovarProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknPhosBronzeProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknGraphiteProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknPlasticProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknAlloySteelProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknSiliconeProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknAcetalProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknMolybdenumProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknInvarProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknWoodProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknPlatinumProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknPreciousMaterialProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknDifficultToMachineMaterialsProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknPolycarbonateProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknZincProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknPhosphorBronzeProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknBronzeProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknSteelProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknUrethaneProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknInconelProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknStainlessSteelProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknRubberProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknHastelloyProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknExoticMaterialProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknZincAlloyProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknWaspaloyProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknExtremelyHardMaterialProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknBrassProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknGoldProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknChromiumProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknIronProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknKaptonProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknNomexProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknGlassProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknFoamProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknManMadeFiberProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknHighGradeAluminumProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknLeadProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknAluminumProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknPalladiumProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknCompositeProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknCeramicProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknNylonProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknCarbideProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknChemicalsProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknNaturalFiberProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknTantalumProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknMagnesiumProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknSilverProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o OwlNamedIndividual : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknLexanProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknTitaniumProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknSpecialMaterialsProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknCobaltProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknBerylliumProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknNickelProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknSteelAlloyProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknLowAlloySteelProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknDelrinProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o SudoknCarbonGraphiteProcessingCapability : "sudokn_hasMaterialCapability"
-OwlNamedIndividual ||--|o OwlNamedIndividual : "sudokn_hasNAICSClassifier"
-OwlNamedIndividual ||--|o SudoknNAICSClassifier : "sudokn_hasNAICSClassifier"
-OwlNamedIndividual ||--|o SudoknFDACertificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknHAACPCertificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknISO9000 : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknITARCompliant : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknIATF16949Certificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknQS9000Certificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknISO14001Certificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknASME : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknFDAGMPCompliant : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknISO14000Certificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknISO9001 : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknISO9000Certificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknBABACertificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknISO13485Certificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknAS9100 : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknISO9001Certificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknISTS16949Certificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknIS-TS16949 : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknLEEDCertificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknTI9000Certificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknNADCAPCertificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknAWSWelderCertificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknAS9100Certificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknISOCertificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknBritishRetailConsortiumAccreditation : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknITARCertificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknQS9000 : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknAS9102Certificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknNADCAPAC7004 : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o OwlNamedIndividual : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknASMECertificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknAS9000Certificate : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknISO13485 : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknISO14001 : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknKOSHERApproved : "sudokn_hasCertificate"
-OwlNamedIndividual ||--|o SudoknElectronicAutomotiveInudstry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknHealthCareServicesIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknIndustrialMachineryandEquipmentIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknWaterandSewerUtilitiesIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknRetailTradeIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknEducationIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknAutomotiveIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknOffshoreWindIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknPaperIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknConstructionIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknCommunicationandElectronicPowerUtilitiesIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknPrintingAndInformationIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknConsumerGoods : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknElectronicProductIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknProfessionalServicesIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknMiningIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknComputersandElectronicProductsIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknWoodProductManufacturingIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknAgricultureIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknWarehousingAndStorageIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknSportsAndLeisureIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknConsumerGoodsIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknOilAndGasIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknBusinessEquipmentIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknTextiles : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknRetailIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknPaperandPaperboardProductsIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknTransportationIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknHealthcareServicesIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknGovernmentIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknUtilitiesIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknRecyclingIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknSportsandLeisureIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknFoodIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknPlasticAndRubberIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknTextilesIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknApparelIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknEducationalInstitutionsIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknAerospaceIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknGovermentIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknMachinaryAndEquipmentIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o OwlNamedIndividual : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknMetalProductionIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknMetalsProductsIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknPlasticsandRubberProductsIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknChemicalAndPetrochemicalIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknElectricVehiclesIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknMilitaryIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknFurnitureIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o SudoknCommunicationIndustry : "sudokn_suppliesToIndustry"
-OwlNamedIndividual ||--|o OwlNamedIndividual : "sudokn_hasOwnershipStatusClassifier"
-OwlNamedIndividual ||--|o SudoknOwnershipStatusClassifier : "sudokn_hasOwnershipStatusClassifier"
+IoManufacturer ||--|o RdfsLiteral : "rdfs_label"
+IoManufacturer ||--|o OwlNamedIndividual : "sudokn_hasWebAddress"
+IoManufacturer ||--|o SudoknWebAddress : "sudokn_hasWebAddress"
+IoManufacturer ||--|o SudoknReverseEngineeringCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCPlasmaCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSewingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPressBrakingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknForgingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknExtrudingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSwissMachiningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCylindricalGrindingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknChromateConversionCoatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCFormingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknTubingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWiringCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknElectrolessPlatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknFixtureDesignCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSpinningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMechanicalJoiningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknOilGroovingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPlaningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknBendingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSurfacePreparationCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCMachiningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknDrillingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknElectrolessNickelPlatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPunchingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMigWeldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCeramicMoldCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o Sudokn3DPrintingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknDeepFreezingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknFiberOpticLaserCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknVaporizedMetalCoatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPressingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknFillingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknVacuumFormingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknToolMakingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknKittingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSinkerEdmCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknEndFormingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknKnittingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCenterlessGrindingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknTurningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknManufacturingProcessCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknDrawingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknLaserCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPassivationCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknContinuousCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknInductionHeatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMachineBuildingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknHotDipGalvanizingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCCylindricalGrindingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSinteringCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknChemicalProcessingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknInstallationCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknBroachingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknDeburringCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWireFormingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPlasmaSprayingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknAssemblyCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCLaserCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknBrazingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknGearCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCoatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o OwlNamedIndividual : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknHoningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSwissTurningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknTubeFormingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPrototypeManufacturingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMIGWeldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknGrindingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknTIGWeldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCBendingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknZincArcSprayCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCTurningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknFabricationCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMetalSpinningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknVacuumCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknRapidPrototypingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMIGWeldinCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCGrindingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknFinishingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSheetMetalProcessingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknLaserEtchingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSheetMetalFabricationCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknElectricalDischargeMachiningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMillingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknAnodizingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknOxy-FuelCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknRollingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPermanentMoldCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknElectronBeamWeldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknElectroplatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknThermoformingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCarburizingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknLaserProcessingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknProductDesignCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknHardeningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPrintingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMetalStampingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWetPaintingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknBrassBlackeningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPackagingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknEngineeringDesignCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknShearingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknAddtiveManufacturingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknStampingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknFasteningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknRivetingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknHorizontalMillingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCerakoteCoatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSanitaryWeldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSolderingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknLatheWorkCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSilkScreeningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknAnnealingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPLCProgrammingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknRoboticWeldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknHeatTreatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknAbrasiveCleaningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPaintingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknFormingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknElectropolishingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSandBlastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWireEDMCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknFabricatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCADCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMetalFabricationCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWaterjetCuttimgCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknEmbossingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCmillingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknInvestmentCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknTurretPunchingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknChemicalCoatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCHorizontalTurningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPolishingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSandCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSinkerEDMCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCPressBrakeCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPipingFabricationCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknVacuumPackagingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSpotWeldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPlasticMachiningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPlasmaCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknLiveToolingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMachiningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWaterjetCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknBoringCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknRamEDMCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMechanicalAssemblyCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCentrifugalCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknAcrylicFabricationCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPlatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSmeltingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCLatheCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPulsedElectrochemicalMachiningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknChemicalCleaningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknScreenPrintingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknAdditiveManufacturingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknExtrusionCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMediaBlastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSteelManufacturingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknJoiningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPowderCoatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknDeepHoleDrillingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknNitridingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSheetMetalFormingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMetalworkingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknBlackOxideCoatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknNotchingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknElectroPlatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPrototypingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSurfaceGrindingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknFixturingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknGalvanizingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknTubeBendingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknResistanceWeldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknEDMCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCVerticalMillingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMoldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknShellMoldCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPackingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknVacuumHardeningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCMillingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWoodworkingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknRAMEdmCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknHarperizingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknSurfaceFinishingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknShapingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPhysicalVaporDepositionCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCarbonitridingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknNickelPlatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknMoldMakingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPlasterMoldCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknLaserWeldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCNCWireBendingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknEtchingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknKnurlingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPhosphateCoatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o Sudokn2-AxisCNCTurningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknLiquidCoatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknFlameSprayingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWaterJetCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknElectolessNickelPlatingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPolycrystallineDiamondMachiningCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknRivettingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknPemInsertionCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCustomFoamCuttingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknTappingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWireHarnessAssemblyCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknDieCastingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWoodWorkingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknReamingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknShrinkFittingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknCreepFeedGrindingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWireBendingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknWeldingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknDigitalPrintingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknVerticalMillingCapability : "sudokn_hasProcessCapability"
+IoManufacturer ||--|o SudoknDieMakingCapability : "sudokn_hasProcessCapability"
+IoMaterialProduct ||--|o RdfsLiteral : "rdfs_label"
+Sudokn2-AxisCNCTurningCapability ||--|o RdfsLiteral : "rdfs_label"
+Sudokn3DPrintingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknAS9000Certificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknAS9100 ||--|o RdfsLiteral : "rdfs_label"
+SudoknAS9100Certificate ||--|o IoCapability : "sudokn_attestsTo"
 SudoknAS9100Certificate ||--|o OwlNamedIndividual : "sudokn_attestsTo"
 SudoknAS9100Certificate ||--|o SudoknQualityManagementCapability : "sudokn_attestsTo"
+SudoknAS9100Certificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknAS9102Certificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknASME ||--|o RdfsLiteral : "rdfs_label"
+SudoknASMECertificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknAWSWelderCertificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknAbrasiveCleaningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknAbrassiveMachiningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknAcetalProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknAcrylicFabricationCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknAdditiveManufacturingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknAddtiveManufacturingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknAdhesiveBondingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknAerospaceIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknAgricultureIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknAlkalineOxideConversionCoatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknAlloySteelProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknAluminumProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknAnnealingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknAnodizingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknApparelIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknAssemblyCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknAtomicHydrogenWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknAutomotiveIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknBABACertificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknBeltSandingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknBendingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknBerylliumProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknBeverageIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknBlackOxideCoatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknBoringCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknBrassBlackeningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknBrassProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknBrazeWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknBrazingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknBritishRetailConsortiumAccreditation ||--|o RdfsLiteral : "rdfs_label"
+SudoknBroachingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknBronzeProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknBuffingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknBulgeFormingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknBusinessEquipmentIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknButtWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCADCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCNCBendingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCNCClyndricalGrindingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCNCCuttingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCNCCylindricalGrindingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCNCFormingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCNCGrindingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCNCHorizontalTurningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCNCLaserCuttingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCNCLatheCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCNCMachiningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCNCMillingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCNCPlasmaCuttingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCNCPressBrakeCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCNCRoutingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCNCTurningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCNCVerticalMillingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCNCWireBendingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCNCmillingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCarbideProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCarbonArcBrazingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCarbonArcWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCarbonGraphiteProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCarbonitridingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCarburizingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCastingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCenterlessGrindingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCentrifugalCastingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCerakoteCoatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCeramicMoldCastingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCeramicProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknChemicalAndPetrochemicalIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknChemicalCleaningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknChemicalCoatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknChemicalConversionCoatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknChemicalEngravingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknChemicalMachiningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknChemicalProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknChemicalVaporDepositionCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknChemicalsProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknChromateConversionCoatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknChromiumProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
 SudoknCity ||--|o SudoknState : "sudokn_locatedInState"
-SudoknGeospatialLocation ||--|o SudoknUSPostalCode : "sudokn_hasZIPcode"
-SudoknGeospatialLocation ||--|o SudoknTwoDimensionalCartesianSpatialCoordinateDatum : "sudokn_hasSpatialCoordinates"
+SudoknCity ||--|o RdfsLiteral : "rdfs_label"
+SudoknClyndricalGrindingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCoatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCobaltProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknColdRolledSteelProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCombustableGasWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCommunicationAndElectronicPowerUtilitiesIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknCommunicationIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknCommunicationandElectronicPowerUtilitiesIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknCompositeProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCompressionMoldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknComputerIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknComputersandElectronicProductsIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknConstructionIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknConsumerGoods ||--|o RdfsLiteral : "rdfs_label"
+SudoknConsumerGoodsIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknContinuousCastingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCopperProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCounterBoringCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCounterSinkingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCreepFeedGrindingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCurvicGrindingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCustomFoamCuttingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCuttingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCyanidingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknCylindricalGrindingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknDeburringCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknDeepFreezingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknDeepHoleDrillingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknDelrinProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknDiamondMachiningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknDieCastingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknDieMakingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknDifficultToMachineMaterialsProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknDiffusionBondingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknDiffusionHardeningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknDigitalPrintingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknDipBrazingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknDisabledVeteranOwned ||--|o RdfsLiteral : "rdfs_label"
+SudoknDrawingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknDrillingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknEDMCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknEducationIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknEducationalInstitutionsIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknElectolessNickelPlatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknElectricArcWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknElectricAutomotiveIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknElectricVehiclesIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknElectricalDischargeMachiningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknElectricalResistanceWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknElectroPlatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknElectroSlagWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknElectrolessNickelPlating ||--|o RdfsLiteral : "rdfs_label"
+SudoknElectrolessNickelPlatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknElectrolessPlatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknElectronBeamMachiningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknElectronBeamWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknElectronicAutomotiveInudstry ||--|o RdfsLiteral : "rdfs_label"
+SudoknElectronicProductIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknElectroplatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknElectropolishingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknEmbossingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknEndFormingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknEndMillingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknEngineeringDesignCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknEngravingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknErosionMachiningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknEtchingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknExoticMaterialProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknExplosiveWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknExtremelyHardMaterialProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknExtrudingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknExtrusionCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknFDACertificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknFDAGMPCertificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknFDAGMPCompliant ||--|o RdfsLiteral : "rdfs_label"
+SudoknFDAPMACertificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknFabricatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknFabricationCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknFaceMillingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknFasteningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknFiberOpticLaserCuttingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknFillingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknFinishingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknFiveAxixMachiningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknFixtureDesignCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknFixturingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknFlameSprayingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknFluxCoredArcWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknFoamProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknFoodIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknForgingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknFormingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknFrictionWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknFurnaceBrazingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknFurnitureIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknFusedDepositionModelingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknFusedNitrateConversionCoatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknGalvanizingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknGasBrazingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknGasMetalArcWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknGasTungstenArcWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknGasWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknGearCuttingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknGearGashingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknGearHobbingCapability ||--|o RdfsLiteral : "rdfs_label"
 SudoknGeospatialLocation ||--|o SudoknCity : "sudokn_locatedInCity"
-SudoknGeospatialLocation ||--|o OwlNamedIndividual : "sudokn_hasPostalAddress"
+SudoknGeospatialLocation ||--|o SudoknTwoDimensionalCartesianSpatialCoordinateDatum : "sudokn_hasSpatialCoordinates"
+SudoknGeospatialLocation ||--|o SudoknUSPostalCode : "sudokn_hasZIPcode"
 SudoknGeospatialLocation ||--|o SudoknPostalAddress : "sudokn_hasPostalAddress"
-SudoknGeospatialLocation ||--|o SudoknUnitedStatesPostalCode : "sudokn_hasPostalAddress"
+SudoknGeospatialLocation ||--|o OwlNamedIndividual : "sudokn_hasPostalAddress"
+SudoknGeospatialLocation ||--|o SudoknUSPostalCode : "sudokn_hasPostalAddress"
+SudoknGlassProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknGoldProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknGovermentIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknGovernmentIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknGraphiteProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknGravityCastingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknGrindingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknGunDrillingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknHAACPCertificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknHardeningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknHarperizingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknHastelloyProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknHealthCareServicesIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknHealthcareServicesIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknHeatTreatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknHighEnergyBeamMachiningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknHighEnergyBeamWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknHighGradeAluminumProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknHoleDrillingEDMCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknHoleMakingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknHoningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknHorizontalBoringCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknHorizontalMillingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknHotDipGalvanizingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknIATF16949Certificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknIDODGrindingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknIS-TS16949 ||--|o RdfsLiteral : "rdfs_label"
+SudoknISO13485 ||--|o RdfsLiteral : "rdfs_label"
+SudoknISO13485Certificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknISO14000Certificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknISO14001 ||--|o RdfsLiteral : "rdfs_label"
+SudoknISO14001Certificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknISO9000 ||--|o RdfsLiteral : "rdfs_label"
+SudoknISO9000Certificate ||--|o IoCapability : "sudokn_attestsTo"
 SudoknISO9000Certificate ||--|o OwlNamedIndividual : "sudokn_attestsTo"
 SudoknISO9000Certificate ||--|o SudoknQualityManagementCapability : "sudokn_attestsTo"
+SudoknISO9001 ||--|o RdfsLiteral : "rdfs_label"
+SudoknISO9001Certificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknISOCertificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknISTS16949Certificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknITARCertificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknITARCompliant ||--|o RdfsLiteral : "rdfs_label"
+SudoknInconelProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknInductionBrazingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknInductionHeatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknIndustrialMachineryandEquipmentIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknInfraredBrazingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknInjectionMoldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknInstallationCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknInvarProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknInvestmentCastingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknIronProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknJoiningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknKOSHERApproved ||--|o RdfsLiteral : "rdfs_label"
+SudoknKaptonProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknKittingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknKnittingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknKnurlingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknKovarProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknLEEDCertificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknLabelingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknLappingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknLaserBeamWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknLaserCuttingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknLaserEngravingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknLaserEtchingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknLaserProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknLaserWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknLatheWorkCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknLeadProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknLexanProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknLiquidCoatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknLiveToolingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknLostFoamCastingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknLowAlloySteelLeadProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknLowAlloySteelProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMIGWeldinCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMIGWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMachinaryAndEquipmentIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknMachineBuildingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMachiningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMagnesiumAlloyProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMagnesiumProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknManMadeFiberProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMechanicalAssemblyCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMechanicalCoatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMechanicalJoiningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMechanicalWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMediaBlastingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMetalFabricationCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMetalInjectionMoldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMetalProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMetalProductionIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknMetalSpinningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMetalStampingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMetalsProductsIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknMetalworkingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMicroDrillingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMigWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMilitaryIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknMillingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMiningIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknMinorityOwned ||--|o RdfsLiteral : "rdfs_label"
+SudoknMoldMakingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMoldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMolybdenumProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknMultiPointCuttingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknNADCAPAC7004 ||--|o RdfsLiteral : "rdfs_label"
+SudoknNADCAPCertificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknNativeAmericanOwned ||--|o RdfsLiteral : "rdfs_label"
+SudoknNaturalFiberProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknNickelPlatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknNickelProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknNitridingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknNomexProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknNotchingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknNylonProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknOffshoreWindIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknOilAndGasIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknOilGroovingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknOwnershipStatusClassifier ||--|o RdfsLiteral : "rdfs_label"
+SudoknOxy-FuelCuttingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknOxyFuelCutting ||--|o RdfsLiteral : "rdfs_label"
+SudoknPLCProgrammingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPackagingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPackingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPaintingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPalladiumProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPaperIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknPaperandPaperboardProductsIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknPaperboardProductsIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknPassivationCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPemInsertionCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPercussionWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPermanentMoldCastingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPhosBronzeProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPhosphateCoatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPhosphateConversionCoatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPhosphorBronzeProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPhotochemicalMachiningProcess ||--|o RdfsLiteral : "rdfs_label"
+SudoknPhysicalVaporDepositionCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPipingFabricationCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPlaningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPlasmaArcWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPlasmaCuttingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPlasmaSprayingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPlasterMoldCastingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPlasticAndRubberIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknPlasticMachiningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPlasticProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPlasticsandRubberProductsIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknPlatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPlatinumProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPlungeGrindingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPolishingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPolycarbonateProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPolycrystallineDiamondMachiningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPowderCoatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPowderMetalFormingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPreciousMaterialProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPressBrakingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPressFittingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPressingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPressureWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPrintingAndInformationIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknPrintingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknProductDesignCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknProfessionalServicesIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknProjectionWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPrototypeManufacturingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPrototypingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPulsedElectrochemicalMachiningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknPunchingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknQS9000 ||--|o RdfsLiteral : "rdfs_label"
+SudoknQS9000Certificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknRAMEdmCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknRamEDMCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknRapidPrototypingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknReactionInjectionMoldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknReamingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknRecyclingIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknResistanceBrazingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknResistanceWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknRestaurantIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknRetailIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknRetailTradeIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknReverseEngineeringCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknRivetingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknRivettingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknRoboticWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknRollDieEngravingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknRollingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknRotationalMoldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknRubberInjectionMoldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknRubberProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSandBlastingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSandCastingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSanitaryWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSawingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknScreenPrintingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSeamWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSelectiveLaserSinteringCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSemiconductorFabricatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSevenAxisMachiningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSewingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknShapingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknShearingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSheeringCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSheetMetalFabricationCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSheetMetalFormingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSheetMetalProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknShellMoldCastingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknShellMoldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknShieldedMetalArcWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknShotPeeningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknShrinkFittingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSiliconeProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSilkScreeningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSilverProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSinglePointCuttingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSinkerEDMCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSinkerEdmCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSinteringCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSlabMillingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSmallDisadvantagedBusiness ||--|o RdfsLiteral : "rdfs_label"
+SudoknSmallHoleDrillingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSmeltingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSolderingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSparkPlasmaSinteringCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSpecialMaterialsProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSpinningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSportsAndLeisureIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknSportsandLeisureIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknSpotWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSqueezeCastingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknStainlessSteelProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknStampingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknState ||--|o RdfsLiteral : "rdfs_label"
+SudoknSteelAlloyProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSteelManufacturingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSteelProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknStereolithographyCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknStretchFormingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknStudWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSubmergedArcWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSuperAlloyProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSurfaceFinishingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSurfaceGrindingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSurfaceHardeningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSurfacePreparationCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSwissMachiningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknSwissTurningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknTI9000Certificate ||--|o RdfsLiteral : "rdfs_label"
+SudoknTIGWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknTantalumProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknTappingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknTeflonProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknTextiles ||--|o RdfsLiteral : "rdfs_label"
+SudoknTextilesIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknThermaJoiningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknThermalCoatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknThermalSprayCoatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknThermalSubtractionCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknThermalWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknThermoformingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknThreadMillingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknThreadingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknTinProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknTitaniumProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknToolMakingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknTorchBrazingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknTorchCuttingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknTransferMoldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknTransportationIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknTubeBendingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknTubeFormingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknTubingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknTungstenProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknTurningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknTurretPunchingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknUltrasonicCleaningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknUltrasonicWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknUrethaneProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknUtilitiesIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknVacuumCastingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknVacuumFormingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknVacuumHardeningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknVacuumMoldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknVacuumPackagingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknVacuumPressingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknVaporizedMetalCoatingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknVerticalMillingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknVeteranOwned ||--|o RdfsLiteral : "rdfs_label"
+SudoknWarehousingAndStorageIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknWaspaloyProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknWaterAndSewerUtilitiesIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknWaterJetCuttingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknWaterandSewerUtilitiesIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknWaterjetCuttimgCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknWaterjetCuttingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknWeldingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknWetPaintingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknWireBendingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknWireEDMCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknWireFormingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknWireHarnessAssemblyCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknWiringCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknWomenOwned ||--|o RdfsLiteral : "rdfs_label"
+SudoknWoodProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknWoodProductManufacturingIndustry ||--|o RdfsLiteral : "rdfs_label"
+SudoknWoodWorkingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknWoodworkingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknZeroStockMachiningCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknZincAlloyProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknZincArcSprayCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknZincProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
+SudoknZirconProcessingCapability ||--|o RdfsLiteral : "rdfs_label"
 
 ```
+
+
+
+## Imports
+
+
+* okns:extended_types
+* linkml:types
+* okns:owl-rdf-rdfs
 
 
 
@@ -2802,583 +3722,802 @@ SudoknISO9000Certificate ||--|o SudoknQualityManagementCapability : "sudokn_atte
 
 | Class | Description | Occurrences |
 | --- | --- | --- |
-| [IoGroupOfPersons](classes/IoGroupOfPersons.md) | No class (type) description specified<br/>| 0 | 
-| [IoIdentifier](classes/IoIdentifier.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDesignativeName](classes/SudoknDesignativeName.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBrandName](classes/SudoknBrandName.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOrganizationName](classes/SudoknOrganizationName.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVitualLocationIdentifier](classes/SudoknVitualLocationIdentifier.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEmailAddress](classes/SudoknEmailAddress.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWebAddress](classes/SudoknWebAddress.md) | No class (type) description specified<br/>| 1 | 
-| [IoInformationContentEntity](classes/IoInformationContentEntity.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCertificate](classes/SudoknCertificate.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknQualityCertificate](classes/SudoknQualityCertificate.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknASCertificate](classes/SudoknASCertificate.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAS9003Certificate](classes/SudoknAS9003Certificate.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAS9100Certificate](classes/SudoknAS9100Certificate.md) | No class (type) description specified<br/>| 1220 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAS9102Certificate](classes/SudoknAS9102Certificate.md) | No class (type) description specified<br/>| 9 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknASMECertificate](classes/SudoknASMECertificate.md) | No class (type) description specified<br/>| 804 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBABACertificate](classes/SudoknBABACertificate.md) | No class (type) description specified<br/>| 3 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBritishRetailConsortiumCertificate](classes/SudoknBritishRetailConsortiumCertificate.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFDACertificate](classes/SudoknFDACertificate.md) | No class (type) description specified<br/>| 5 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFDA-GMPCertificate](classes/SudoknFDA-GMPCertificate.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFDA-PMACertificate](classes/SudoknFDA-PMACertificate.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGWOCertificate](classes/SudoknGWOCertificate.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHAACPCertificate](classes/SudoknHAACPCertificate.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISOCertificate](classes/SudoknISOCertificate.md) | No class (type) description specified<br/>| 67 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO13485Certificate](classes/SudoknISO13485Certificate.md) | No class (type) description specified<br/>| 326 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO14000Certificate](classes/SudoknISO14000Certificate.md) | No class (type) description specified<br/>| 12 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO14001Certificate](classes/SudoknISO14001Certificate.md) | No class (type) description specified<br/>| 321 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO17265Certificate](classes/SudoknISO17265Certificate.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO27001Certificate](classes/SudoknISO27001Certificate.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO9000Certificate](classes/SudoknISO9000Certificate.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO9001Certificate](classes/SudoknISO9001Certificate.md) | No class (type) description specified<br/>| 3466 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISTSCertificate](classes/SudoknISTSCertificate.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISTS-16949Certificate](classes/SudoknISTS-16949Certificate.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknITARCertificate](classes/SudoknITARCertificate.md) | No class (type) description specified<br/>| 127 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknKosherApprovedCertificate](classes/SudoknKosherApprovedCertificate.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNADCAPCertificate](classes/SudoknNADCAPCertificate.md) | No class (type) description specified<br/>| 467 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNISTCertificate](classes/SudoknNISTCertificate.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNIST-800-171Certificate](classes/SudoknNIST-800-171Certificate.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknQSCertificate](classes/SudoknQSCertificate.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknQS9000Certificate](classes/SudoknQS9000Certificate.md) | No class (type) description specified<br/>| 41 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTICertificate](classes/SudoknTICertificate.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTI-9000Certificate](classes/SudoknTI-9000Certificate.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknClassifier](classes/SudoknClassifier.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICSClassifier](classes/SudoknNAICSClassifier.md) | No class (type) description specified<br/>| 23 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAccommodationAndFoodServices](classes/SudoknAccommodationAndFoodServices.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAdministrativeAndSupportAndWasteServices](classes/SudoknAdministrativeAndSupportAndWasteServices.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAgricultureForestryFishingAndHunting](classes/SudoknAgricultureForestryFishingAndHunting.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknArtsEnterntainmentAndRecreation](classes/SudoknArtsEnterntainmentAndRecreation.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknConstruction](classes/SudoknConstruction.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEducationalServices](classes/SudoknEducationalServices.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFinanceAndInsurance](classes/SudoknFinanceAndInsurance.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHealthcareAndSocialAssistance](classes/SudoknHealthcareAndSocialAssistance.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknInformation](classes/SudoknInformation.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknManagementOfCompaniesAndEnterprise](classes/SudoknManagementOfCompaniesAndEnterprise.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknManufacturing](classes/SudoknManufacturing.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMining](classes/SudoknMining.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknProfessionalScientificAndTechnicalServices](classes/SudoknProfessionalScientificAndTechnicalServices.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPublicAdministration](classes/SudoknPublicAdministration.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRealEstateRentalAndLeasing](classes/SudoknRealEstateRentalAndLeasing.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRetailTrade](classes/SudoknRetailTrade.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTransportationAndWarehousing](classes/SudoknTransportationAndWarehousing.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknUtilities](classes/SudoknUtilities.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWholesaleTrade](classes/SudoknWholesaleTrade.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSpecialBusinessStatusClassifier](classes/SudoknSpecialBusinessStatusClassifier.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOwnershipStatusClassifier](classes/SudoknOwnershipStatusClassifier.md) | No class (type) description specified<br/>| 8 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTwoDimensionalCartesianSpatialCoordinateDatum](classes/SudoknTwoDimensionalCartesianSpatialCoordinateDatum.md) | No class (type) description specified<br/>| 20728 | 
-| [IoManufacturer](classes/IoManufacturer.md) | No class (type) description specified<br/>| 11367 | 
-| [IoMaterialProduct](classes/IoMaterialProduct.md) | No class (type) description specified<br/>| 44818 | 
-| [IoPhysicalLocationIdentifier](classes/IoPhysicalLocationIdentifier.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBuildingNumber](classes/SudoknBuildingNumber.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCityOfAddress](classes/SudoknCityOfAddress.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCountryOfAddress](classes/SudoknCountryOfAddress.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPostalAddress](classes/SudoknPostalAddress.md) | No class (type) description specified<br/>| 20728 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStateOfAddress](classes/SudoknStateOfAddress.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStreetAddress](classes/SudoknStreetAddress.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknUnitedStatesPostalCode](classes/SudoknUnitedStatesPostalCode.md) | No class (type) description specified<br/>| 1 | 
-| [IoscIndustry](classes/IoscIndustry.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAerospaceIndustry](classes/SudoknAerospaceIndustry.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAgricultureIndustry](classes/SudoknAgricultureIndustry.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknApparelIndustry](classes/SudoknApparelIndustry.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAutomotiveIndustry](classes/SudoknAutomotiveIndustry.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectricAutomotiveIndustry](classes/SudoknElectricAutomotiveIndustry.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBusinessEquipmentIndustry](classes/SudoknBusinessEquipmentIndustry.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCommunicationsIndustry](classes/SudoknCommunicationsIndustry.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknConstructionIndustry](classes/SudoknConstructionIndustry.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknConsumerGoodsIndustry](classes/SudoknConsumerGoodsIndustry.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEducationIndustry](classes/SudoknEducationIndustry.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectronicProductIndustry](classes/SudoknElectronicProductIndustry.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknComputerIndustry](classes/SudoknComputerIndustry.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFoodIndustry](classes/SudoknFoodIndustry.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBeverageIndustry](classes/SudoknBeverageIndustry.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRestaurantIndustry](classes/SudoknRestaurantIndustry.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFurnitureIndustry](classes/SudoknFurnitureIndustry.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGovernmentIndustry](classes/SudoknGovernmentIndustry.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHealthcareServices](classes/SudoknHealthcareServices.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMachinaryAndEquipmentIndustry](classes/SudoknMachinaryAndEquipmentIndustry.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMetalProductsIndustry](classes/SudoknMetalProductsIndustry.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMilitaryIndustry](classes/SudoknMilitaryIndustry.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMiningIndustry](classes/SudoknMiningIndustry.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOffshoreWindIndustry](classes/SudoknOffshoreWindIndustry.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPaperIndustry](classes/SudoknPaperIndustry.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPaperboardProductsIndustry](classes/SudoknPaperboardProductsIndustry.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlasticAndRubberIndustry](classes/SudoknPlasticAndRubberIndustry.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPrintingAndInformationIndustry](classes/SudoknPrintingAndInformationIndustry.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknProfessionalServices](classes/SudoknProfessionalServices.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRecyclingIndustry](classes/SudoknRecyclingIndustry.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRetailIndustry](classes/SudoknRetailIndustry.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSportsAndLeisureIndustry](classes/SudoknSportsAndLeisureIndustry.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTextilesIndustry](classes/SudoknTextilesIndustry.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTransportationIndustry](classes/SudoknTransportationIndustry.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknUtilitiesIndustry](classes/SudoknUtilitiesIndustry.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCommunicationAndElectronicPowerUtilitiesIndustry](classes/SudoknCommunicationAndElectronicPowerUtilitiesIndustry.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWaterAndSewerUtilitiesIndustry](classes/SudoknWaterAndSewerUtilitiesIndustry.md) | No class (type) description specified<br/>| 0 | 
-| [IoscProductionCapability](classes/IoscProductionCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEngineeringCapability](classes/SudoknEngineeringCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCADCAMCapability](classes/SudoknCADCAMCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCADCapability](classes/SudoknCADCapability.md) | No class (type) description specified<br/>| 3 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCAECapability](classes/SudoknCAECapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEngineeringDesignCapability](classes/SudoknEngineeringDesignCapability.md) | No class (type) description specified<br/>| 28 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPLCProgrammingCapability](classes/SudoknPLCProgrammingCapability.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknReverseEngineeringCapability](classes/SudoknReverseEngineeringCapability.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknToolDesignCapability](classes/SudoknToolDesignCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDieDesignCapability](classes/SudoknDieDesignCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFixtureDesignCapability](classes/SudoknFixtureDesignCapability.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknManufacturingProcessCapability](classes/SudoknManufacturingProcessCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAssemblyCapibility](classes/SudoknAssemblyCapibility.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFabricatingCapability](classes/SudoknFabricatingCapability.md) | No class (type) description specified<br/>| 2518 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknKittingCapability](classes/SudoknKittingCapability.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWireHarnessAssemblyCapability](classes/SudoknWireHarnessAssemblyCapability.md) | No class (type) description specified<br/>| 23 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCastingCapability](classes/SudoknCastingCapability.md) | No class (type) description specified<br/>| 1195 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFinishingCapability](classes/SudoknFinishingCapability.md) | No class (type) description specified<br/>| 1615 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCoatingCapability](classes/SudoknCoatingCapability.md) | No class (type) description specified<br/>| 1744 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBlackOxideCoatingCapability](classes/SudoknBlackOxideCoatingCapability.md) | No class (type) description specified<br/>| 228 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknChemicalCoatingCapability](classes/SudoknChemicalCoatingCapability.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectroPlatingCapability](classes/SudoknElectroPlatingCapability.md) | No class (type) description specified<br/>| 1339 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectrolessNickelPlating](classes/SudoknElectrolessNickelPlating.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGalvanizingCapability](classes/SudoknGalvanizingCapability.md) | No class (type) description specified<br/>| 72 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMechanicalCoatingCapability](classes/SudoknMechanicalCoatingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPowderCoatingCapability](classes/SudoknPowderCoatingCapability.md) | No class (type) description specified<br/>| 679 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPhosphateCoatingCapability](classes/SudoknPhosphateCoatingCapability.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPrintingCapability](classes/SudoknPrintingCapability.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWetPaintingCapability](classes/SudoknWetPaintingCapability.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknThermalCoatingCapability](classes/SudoknThermalCoatingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVaporizedMetalCoatingCapability](classes/SudoknVaporizedMetalCoatingCapability.md) | No class (type) description specified<br/>| 13 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPhysicalVaporDepositionCapability](classes/SudoknPhysicalVaporDepositionCapability.md) | No class (type) description specified<br/>| 10 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSurfacePreparationCapability](classes/SudoknSurfacePreparationCapability.md) | No class (type) description specified<br/>| 550 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBeltSandingCapability](classes/SudoknBeltSandingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSandBlastingCapability](classes/SudoknSandBlastingCapability.md) | No class (type) description specified<br/>| 340 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknShotPeeningCapability](classes/SudoknShotPeeningCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknForgingCapability](classes/SudoknForgingCapability.md) | No class (type) description specified<br/>| 609 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFormingCapability](classes/SudoknFormingCapability.md) | No class (type) description specified<br/>| 1802 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDrawingCapability](classes/SudoknDrawingCapability.md) | No class (type) description specified<br/>| 1449 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknExtrudingCapability](classes/SudoknExtrudingCapability.md) | No class (type) description specified<br/>| 602 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRollingCapability](classes/SudoknRollingCapability.md) | No class (type) description specified<br/>| 605 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHeatTreatingCapability](classes/SudoknHeatTreatingCapability.md) | No class (type) description specified<br/>| 923 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHardeningCapability](classes/SudoknHardeningCapability.md) | No class (type) description specified<br/>| 269 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSurfaceHardeningCapability](classes/SudoknSurfaceHardeningCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDiffusionHardeningCapability](classes/SudoknDiffusionHardeningCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCarburizingCapability](classes/SudoknCarburizingCapability.md) | No class (type) description specified<br/>| 81 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNitridingCapability](classes/SudoknNitridingCapability.md) | No class (type) description specified<br/>| 45 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVacuumHardeningCapability](classes/SudoknVacuumHardeningCapability.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknJoiningCapability](classes/SudoknJoiningCapability.md) | No class (type) description specified<br/>| 437 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMechanicalJoiningCapability](classes/SudoknMechanicalJoiningCapability.md) | No class (type) description specified<br/>| 3 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMechanicalWeldingCapability](classes/SudoknMechanicalWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknExplosiveWeldingCapability](classes/SudoknExplosiveWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFrictionWeldingCapability](classes/SudoknFrictionWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPressureWeldingCapability](classes/SudoknPressureWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknUltrasonicWeldingCapability](classes/SudoknUltrasonicWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRivetingCapability](classes/SudoknRivetingCapability.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknThermaJoiningCapability](classes/SudoknThermaJoiningCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBrazingCapability](classes/SudoknBrazingCapability.md) | No class (type) description specified<br/>| 147 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDipBrazingCapability](classes/SudoknDipBrazingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFurnaceBrazingCapability](classes/SudoknFurnaceBrazingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknInductionBrazingCapability](classes/SudoknInductionBrazingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknInfraredBrazingCapability](classes/SudoknInfraredBrazingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknResistanceBrazingCapability](classes/SudoknResistanceBrazingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTorchBrazingCapability](classes/SudoknTorchBrazingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSolderingCapability](classes/SudoknSolderingCapability.md) | No class (type) description specified<br/>| 271 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknThermalWeldingCapability](classes/SudoknThermalWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBrazeWeldingCapability](classes/SudoknBrazeWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCarbonArcBrazingCapability](classes/SudoknCarbonArcBrazingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGasBrazingCapability](classes/SudoknGasBrazingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDiffusionBondingCapability](classes/SudoknDiffusionBondingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectricalResistanceWeldingCapability](classes/SudoknElectricalResistanceWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknButtWeldingCapability](classes/SudoknButtWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectroSlagWeldingCapability](classes/SudoknElectroSlagWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPercussionWeldingCapability](classes/SudoknPercussionWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknProjectionWeldingCapability](classes/SudoknProjectionWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSeamWeldingCapability](classes/SudoknSeamWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSpotWeldingCapability](classes/SudoknSpotWeldingCapability.md) | No class (type) description specified<br/>| 3 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectricArcWeldingCapability](classes/SudoknElectricArcWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCarbonArcWeldingCapability](classes/SudoknCarbonArcWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGasMetalArcWeldingCapability](classes/SudoknGasMetalArcWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMIGWeldingCapability](classes/SudoknMIGWeldingCapability.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGasTungstenArcWeldingCapability](classes/SudoknGasTungstenArcWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTIGWeldingCapability](classes/SudoknTIGWeldingCapability.md) | No class (type) description specified<br/>| 3 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknShieldedMetalArcWeldingCapability](classes/SudoknShieldedMetalArcWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStudWeldingCapability](classes/SudoknStudWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSubmergedArcWeldingCapability](classes/SudoknSubmergedArcWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGasWeldingCapability](classes/SudoknGasWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAtomicHydrogenWeldingCapability](classes/SudoknAtomicHydrogenWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCombustableGasWeldingCapability](classes/SudoknCombustableGasWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHighEnergyBeamWeldingCapability](classes/SudoknHighEnergyBeamWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectronBeamWeldingCapability](classes/SudoknElectronBeamWeldingCapability.md) | No class (type) description specified<br/>| 6 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknLaserBeamWeldingCapability](classes/SudoknLaserBeamWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlasmaArcWeldingCapability](classes/SudoknPlasmaArcWeldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMachiningCapability](classes/SudoknMachiningCapability.md) | No class (type) description specified<br/>| 3494 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAbrassiveMachiningCapability](classes/SudoknAbrassiveMachiningCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGrindingCapability](classes/SudoknGrindingCapability.md) | No class (type) description specified<br/>| 1654 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCenterlessGrindingCapability](classes/SudoknCenterlessGrindingCapability.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknClyndricalGrindingCapability](classes/SudoknClyndricalGrindingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCClyndricalGrindingCapability](classes/SudoknCNCClyndricalGrindingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHoningCapability](classes/SudoknHoningCapability.md) | No class (type) description specified<br/>| 460 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCMachiningCapability](classes/SudoknCNCMachiningCapability.md) | No class (type) description specified<br/>| 1427 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMultiPointCuttingCapability](classes/SudoknMultiPointCuttingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBroachingCapability](classes/SudoknBroachingCapability.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGearCuttingCapability](classes/SudoknGearCuttingCapability.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGearHobbingCapability](classes/SudoknGearHobbingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHoleMakingCapability](classes/SudoknHoleMakingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCounterBoringCapability](classes/SudoknCounterBoringCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCounterSinkingCapability](classes/SudoknCounterSinkingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDrillingCapability](classes/SudoknDrillingCapability.md) | No class (type) description specified<br/>| 1361 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDeepHoleDrillingCapability](classes/SudoknDeepHoleDrillingCapability.md) | No class (type) description specified<br/>| 81 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknReamingCapability](classes/SudoknReamingCapability.md) | No class (type) description specified<br/>| 278 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTappingCapability](classes/SudoknTappingCapability.md) | No class (type) description specified<br/>| 860 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMillingCapability](classes/SudoknMillingCapability.md) | No class (type) description specified<br/>| 2311 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCMillingCapability](classes/SudoknCNCMillingCapability.md) | No class (type) description specified<br/>| 1105 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHorizontalMillingCapability](classes/SudoknHorizontalMillingCapability.md) | No class (type) description specified<br/>| 181 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSlabMillingCapability](classes/SudoknSlabMillingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVerticalMillingCapability](classes/SudoknVerticalMillingCapability.md) | No class (type) description specified<br/>| 437 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEndMillingCapability](classes/SudoknEndMillingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFaceMillingCapability](classes/SudoknFaceMillingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSawingCapability](classes/SudoknSawingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSinglePointCuttingCapability](classes/SudoknSinglePointCuttingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlaningCapability](classes/SudoknPlaningCapability.md) | No class (type) description specified<br/>| 17 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknShapingCapability](classes/SudoknShapingCapability.md) | No class (type) description specified<br/>| 504 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTurningCapability](classes/SudoknTurningCapability.md) | No class (type) description specified<br/>| 2077 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCTurningCapability](classes/SudoknCNCTurningCapability.md) | No class (type) description specified<br/>| 16 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMoldingCapability](classes/SudoknMoldingCapability.md) | No class (type) description specified<br/>| 644 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknInjectionMoldingCapability](classes/SudoknInjectionMoldingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPackingCapability](classes/SudoknPackingCapability.md) | No class (type) description specified<br/>| 1765 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSheetMetalProcessingCapability](classes/SudoknSheetMetalProcessingCapability.md) | No class (type) description specified<br/>| 28 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBendingCapability](classes/SudoknBendingCapability.md) | No class (type) description specified<br/>| 945 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWireBendingCapability](classes/SudoknWireBendingCapability.md) | No class (type) description specified<br/>| 3 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEmbossingCapability](classes/SudoknEmbossingCapability.md) | No class (type) description specified<br/>| 69 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPunchingCapability](classes/SudoknPunchingCapability.md) | No class (type) description specified<br/>| 7 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSheeringCapability](classes/SudoknSheeringCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSpinningCapability](classes/SudoknSpinningCapability.md) | No class (type) description specified<br/>| 38 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStampingCapability](classes/SudoknStampingCapability.md) | No class (type) description specified<br/>| 1216 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStretchFormingCapability](classes/SudoknStretchFormingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTextileProcessCapability](classes/SudoknTextileProcessCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCrochetCapability](classes/SudoknCrochetCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDyeingCapability](classes/SudoknDyeingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknKnittingCapability](classes/SudoknKnittingCapability.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWeavingCapability](classes/SudoknWeavingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknThermalSubtractionCapability](classes/SudoknThermalSubtractionCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEDMCapability](classes/SudoknEDMCapability.md) | No class (type) description specified<br/>| 1114 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHoleDrillingEDMCapability](classes/SudoknHoleDrillingEDMCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRAMEDMCapability](classes/SudoknRAMEDMCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSinkerEDMCapability](classes/SudoknSinkerEDMCapability.md) | No class (type) description specified<br/>| 148 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWireEDMCapability](classes/SudoknWireEDMCapability.md) | No class (type) description specified<br/>| 644 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHighEnergyBeamMachiningCapability](classes/SudoknHighEnergyBeamMachiningCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknLaserCuttingCapability](classes/SudoknLaserCuttingCapability.md) | No class (type) description specified<br/>| 581 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCLaserCuttingCapability](classes/SudoknCNCLaserCuttingCapability.md) | No class (type) description specified<br/>| 1 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTorchCuttingCapability](classes/SudoknTorchCuttingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlasmaCuttingCapability](classes/SudoknPlasmaCuttingCapability.md) | No class (type) description specified<br/>| 235 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknToolMakingCapability](classes/SudoknToolMakingCapability.md) | No class (type) description specified<br/>| 6 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMoldMakingCapability](classes/SudoknMoldMakingCapability.md) | No class (type) description specified<br/>| 8 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWoodWorkingCapability](classes/SudoknWoodWorkingCapability.md) | No class (type) description specified<br/>| 12 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMaterialProcessingCapability](classes/SudoknMaterialProcessingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCarbonProcessingCapability](classes/SudoknCarbonProcessingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCeramicProcessingCapability](classes/SudoknCeramicProcessingCapability.md) | No class (type) description specified<br/>| 1051 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknChemicalsProcessingCapability](classes/SudoknChemicalsProcessingCapability.md) | No class (type) description specified<br/>| 1344 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCompositeProcessingCapability](classes/SudoknCompositeProcessingCapability.md) | No class (type) description specified<br/>| 1196 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectronicProcessingCapability](classes/SudoknElectronicProcessingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFiberProcessingCapability](classes/SudoknFiberProcessingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknManMadeFiberProcessingCapability](classes/SudoknManMadeFiberProcessingCapability.md) | No class (type) description specified<br/>| 2 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNaturalFiberProcessingCapability](classes/SudoknNaturalFiberProcessingCapability.md) | No class (type) description specified<br/>| 15 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFoamProcessingCapability](classes/SudoknFoamProcessingCapability.md) | No class (type) description specified<br/>| 1065 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGlassProcessingCapability](classes/SudoknGlassProcessingCapability.md) | No class (type) description specified<br/>| 2866 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMetalProcessingCapability](classes/SudoknMetalProcessingCapability.md) | No class (type) description specified<br/>| 6560 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAluminumProcessingCapability](classes/SudoknAluminumProcessingCapability.md) | No class (type) description specified<br/>| 5647 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBrassProcessingCapability](classes/SudoknBrassProcessingCapability.md) | No class (type) description specified<br/>| 2596 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBronzeProcessingCapability](classes/SudoknBronzeProcessingCapability.md) | No class (type) description specified<br/>| 1754 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCopperProcessingCapability](classes/SudoknCopperProcessingCapability.md) | No class (type) description specified<br/>| 2784 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknIronProcessingCapability](classes/SudoknIronProcessingCapability.md) | No class (type) description specified<br/>| 5903 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMagnesiumAlloyProcessingCapability](classes/SudoknMagnesiumAlloyProcessingCapability.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSteelProcessingCapability](classes/SudoknSteelProcessingCapability.md) | No class (type) description specified<br/>| 7200 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStainlessSteelProcessingCapability](classes/SudoknStainlessSteelProcessingCapability.md) | No class (type) description specified<br/>| 4796 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTitaniumProcessingCapability](classes/SudoknTitaniumProcessingCapability.md) | No class (type) description specified<br/>| 1349 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknZincAlloyProcessingCapability](classes/SudoknZincAlloyProcessingCapability.md) | No class (type) description specified<br/>| 80 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlasticProcessingCapability](classes/SudoknPlasticProcessingCapability.md) | No class (type) description specified<br/>| 4159 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRubberProcessingCapability](classes/SudoknRubberProcessingCapability.md) | No class (type) description specified<br/>| 1830 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSiliconeProcessingCapability](classes/SudoknSiliconeProcessingCapability.md) | No class (type) description specified<br/>| 690 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknUrethaneProcessingCapability](classes/SudoknUrethaneProcessingCapability.md) | No class (type) description specified<br/>| 1039 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWoodProcessingCapability](classes/SudoknWoodProcessingCapability.md) | No class (type) description specified<br/>| 2918 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknQualityManagementCapability](classes/SudoknQualityManagementCapability.md) | No class (type) description specified<br/>| 1 | 
-| [OboBFO0000019](classes/OboBFO0000019.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOrganizationSize](classes/SudoknOrganizationSize.md) | No class (type) description specified<br/>| 1 | 
-| [OboBFO0000029](classes/OboBFO0000029.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGeopoliticalSite](classes/SudoknGeopoliticalSite.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCity](classes/SudoknCity.md) | No class (type) description specified<br/>| 2994 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCountry](classes/SudoknCountry.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCounty](classes/SudoknCounty.md) | No class (type) description specified<br/>| 0 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknState](classes/SudoknState.md) | No class (type) description specified<br/>| 129 | 
-| [OwlAllDisjointClasses](classes/OwlAllDisjointClasses.md) | No class (type) description specified<br/>| 14 | 
-| [OwlNamedIndividual](classes/OwlNamedIndividual.md) | No class (type) description specified<br/>| 29 | 
-| [Sudokn2-AxisCNCTurningCapability](classes/Sudokn2-AxisCNCTurningCapability.md) | No class (type) description specified<br/>| 1 | 
-| [Sudokn3DPrintingCapability](classes/Sudokn3DPrintingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknAbrasiveCleaningCapability](classes/SudoknAbrasiveCleaningCapability.md) | No class (type) description specified<br/>| 9 | 
-| [SudoknAcetalProcessingCapability](classes/SudoknAcetalProcessingCapability.md) | No class (type) description specified<br/>| 362 | 
-| [SudoknAcrylicFabricationCapability](classes/SudoknAcrylicFabricationCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknAdditiveManufacturingCapability](classes/SudoknAdditiveManufacturingCapability.md) | No class (type) description specified<br/>| 209 | 
-| [SudoknAddtiveManufacturingCapability](classes/SudoknAddtiveManufacturingCapability.md) | No class (type) description specified<br/>| 337 | 
-| [SudoknAlloySteelProcessingCapability](classes/SudoknAlloySteelProcessingCapability.md) | No class (type) description specified<br/>| 825 | 
-| [SudoknAnnealingCapability](classes/SudoknAnnealingCapability.md) | No class (type) description specified<br/>| 99 | 
-| [SudoknAnodizingCapability](classes/SudoknAnodizingCapability.md) | No class (type) description specified<br/>| 659 | 
-| [SudoknAS9000Certificate](classes/SudoknAS9000Certificate.md) | No class (type) description specified<br/>| 5 | 
-| [SudoknAS9100](classes/SudoknAS9100.md) | No class (type) description specified<br/>| 20 | 
-| [SudoknASME](classes/SudoknASME.md) | No class (type) description specified<br/>| 10 | 
-| [SudoknAssemblyCapability](classes/SudoknAssemblyCapability.md) | No class (type) description specified<br/>| 2931 | 
-| [SudoknAWSWelderCertificate](classes/SudoknAWSWelderCertificate.md) | No class (type) description specified<br/>| 48 | 
-| [SudoknBerylliumProcessingCapability](classes/SudoknBerylliumProcessingCapability.md) | No class (type) description specified<br/>| 360 | 
-| [SudoknBoringCapability](classes/SudoknBoringCapability.md) | No class (type) description specified<br/>| 857 | 
-| [SudoknBrassBlackeningCapability](classes/SudoknBrassBlackeningCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknBritishRetailConsortiumAccreditation](classes/SudoknBritishRetailConsortiumAccreditation.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknCarbideProcessingCapability](classes/SudoknCarbideProcessingCapability.md) | No class (type) description specified<br/>| 786 | 
-| [SudoknCarbonGraphiteProcessingCapability](classes/SudoknCarbonGraphiteProcessingCapability.md) | No class (type) description specified<br/>| 13 | 
-| [SudoknCarbonitridingCapability](classes/SudoknCarbonitridingCapability.md) | No class (type) description specified<br/>| 43 | 
-| [SudoknCentrifugalCastingCapability](classes/SudoknCentrifugalCastingCapability.md) | No class (type) description specified<br/>| 17 | 
-| [SudoknCerakoteCoatingCapability](classes/SudoknCerakoteCoatingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknCeramicMoldCastingCapability](classes/SudoknCeramicMoldCastingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknChemicalAndPetrochemicalIndustry](classes/SudoknChemicalAndPetrochemicalIndustry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknChemicalCleaningCapability](classes/SudoknChemicalCleaningCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknChemicalProcessingCapability](classes/SudoknChemicalProcessingCapability.md) | No class (type) description specified<br/>| 194 | 
-| [SudoknChromateConversionCoatingCapability](classes/SudoknChromateConversionCoatingCapability.md) | No class (type) description specified<br/>| 139 | 
-| [SudoknChromiumProcessingCapability](classes/SudoknChromiumProcessingCapability.md) | No class (type) description specified<br/>| 551 | 
-| [SudoknCNCBendingCapability](classes/SudoknCNCBendingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknCNCCuttingCapability](classes/SudoknCNCCuttingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknCNCCylindricalGrindingCapability](classes/SudoknCNCCylindricalGrindingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknCNCFormingCapability](classes/SudoknCNCFormingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknCNCGrindingCapability](classes/SudoknCNCGrindingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknCNCHorizontalTurningCapability](classes/SudoknCNCHorizontalTurningCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknCNCLatheCapability](classes/SudoknCNCLatheCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknCNCmillingCapability](classes/SudoknCNCmillingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknCNCPlasmaCuttingCapability](classes/SudoknCNCPlasmaCuttingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknCNCPressBrakeCapability](classes/SudoknCNCPressBrakeCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknCNCVerticalMillingCapability](classes/SudoknCNCVerticalMillingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknCNCWireBendingCapability](classes/SudoknCNCWireBendingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknCobaltProcessingCapability](classes/SudoknCobaltProcessingCapability.md) | No class (type) description specified<br/>| 303 | 
-| [SudoknColdRolledSteelProcessingCapability](classes/SudoknColdRolledSteelProcessingCapability.md) | No class (type) description specified<br/>| 252 | 
-| [SudoknCommunicationandElectronicPowerUtilitiesIndustry](classes/SudoknCommunicationandElectronicPowerUtilitiesIndustry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknCommunicationIndustry](classes/SudoknCommunicationIndustry.md) | No class (type) description specified<br/>| 2 | 
-| [SudoknComputersandElectronicProductsIndustry](classes/SudoknComputersandElectronicProductsIndustry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknConsumerGoods](classes/SudoknConsumerGoods.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknContinuousCastingCapability](classes/SudoknContinuousCastingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknCreepFeedGrindingCapability](classes/SudoknCreepFeedGrindingCapability.md) | No class (type) description specified<br/>| 8 | 
-| [SudoknCustomFoamCuttingCapability](classes/SudoknCustomFoamCuttingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknCuttingCapability](classes/SudoknCuttingCapability.md) | No class (type) description specified<br/>| 19 | 
-| [SudoknCylindricalGrindingCapability](classes/SudoknCylindricalGrindingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknDeburringCapability](classes/SudoknDeburringCapability.md) | No class (type) description specified<br/>| 86 | 
-| [SudoknDeepFreezingCapability](classes/SudoknDeepFreezingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknDelrinProcessingCapability](classes/SudoknDelrinProcessingCapability.md) | No class (type) description specified<br/>| 289 | 
-| [SudoknDieCastingCapability](classes/SudoknDieCastingCapability.md) | No class (type) description specified<br/>| 220 | 
-| [SudoknDieMakingCapability](classes/SudoknDieMakingCapability.md) | No class (type) description specified<br/>| 6 | 
-| [SudoknDifficultToMachineMaterialsProcessingCapability](classes/SudoknDifficultToMachineMaterialsProcessingCapability.md) | No class (type) description specified<br/>| 28 | 
-| [SudoknDigitalPrintingCapability](classes/SudoknDigitalPrintingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknEducationalInstitutionsIndustry](classes/SudoknEducationalInstitutionsIndustry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknElectolessNickelPlatingCapability](classes/SudoknElectolessNickelPlatingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknElectricalDischargeMachiningCapability](classes/SudoknElectricalDischargeMachiningCapability.md) | No class (type) description specified<br/>| 197 | 
-| [SudoknElectricVehiclesIndustry](classes/SudoknElectricVehiclesIndustry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknElectrolessNickelPlatingCapability](classes/SudoknElectrolessNickelPlatingCapability.md) | No class (type) description specified<br/>| 214 | 
-| [SudoknElectrolessPlatingCapability](classes/SudoknElectrolessPlatingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknElectronicAutomotiveInudstry](classes/SudoknElectronicAutomotiveInudstry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknElectroplatingCapability](classes/SudoknElectroplatingCapability.md) | No class (type) description specified<br/>| 3 | 
-| [SudoknElectropolishingCapability](classes/SudoknElectropolishingCapability.md) | No class (type) description specified<br/>| 61 | 
-| [SudoknEndFormingCapability](classes/SudoknEndFormingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknEtchingCapability](classes/SudoknEtchingCapability.md) | No class (type) description specified<br/>| 487 | 
-| [SudoknExoticMaterialProcessingCapability](classes/SudoknExoticMaterialProcessingCapability.md) | No class (type) description specified<br/>| 317 | 
-| [SudoknExtremelyHardMaterialProcessingCapability](classes/SudoknExtremelyHardMaterialProcessingCapability.md) | No class (type) description specified<br/>| 12 | 
-| [SudoknExtrusionCapability](classes/SudoknExtrusionCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknFabricationCapability](classes/SudoknFabricationCapability.md) | No class (type) description specified<br/>| 121 | 
-| [SudoknFasteningCapability](classes/SudoknFasteningCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknFDAGMPCompliant](classes/SudoknFDAGMPCompliant.md) | No class (type) description specified<br/>| 2 | 
-| [SudoknFiberOpticLaserCuttingCapability](classes/SudoknFiberOpticLaserCuttingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknFillingCapability](classes/SudoknFillingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknFixturingCapability](classes/SudoknFixturingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknFlameSprayingCapability](classes/SudoknFlameSprayingCapability.md) | No class (type) description specified<br/>| 6 | 
-| [SudoknGeospatialLocation](classes/SudoknGeospatialLocation.md) | No class (type) description specified<br/>| 20728 | 
-| [SudoknGoldProcessingCapability](classes/SudoknGoldProcessingCapability.md) | No class (type) description specified<br/>| 1302 | 
-| [SudoknGovermentIndustry](classes/SudoknGovermentIndustry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknGraphiteProcessingCapability](classes/SudoknGraphiteProcessingCapability.md) | No class (type) description specified<br/>| 472 | 
-| [SudoknHarperizingCapability](classes/SudoknHarperizingCapability.md) | No class (type) description specified<br/>| 2 | 
-| [SudoknHastelloyProcessingCapability](classes/SudoknHastelloyProcessingCapability.md) | No class (type) description specified<br/>| 321 | 
-| [SudoknHealthcareServicesIndustry](classes/SudoknHealthcareServicesIndustry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknHealthCareServicesIndustry](classes/SudoknHealthCareServicesIndustry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknHighGradeAluminumProcessingCapability](classes/SudoknHighGradeAluminumProcessingCapability.md) | No class (type) description specified<br/>| 5 | 
-| [SudoknHotDipGalvanizingCapability](classes/SudoknHotDipGalvanizingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknIATF16949Certificate](classes/SudoknIATF16949Certificate.md) | No class (type) description specified<br/>| 330 | 
-| [SudoknInconelProcessingCapability](classes/SudoknInconelProcessingCapability.md) | No class (type) description specified<br/>| 906 | 
-| [SudoknInductionHeatingCapability](classes/SudoknInductionHeatingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknIndustrialMachineryandEquipmentIndustry](classes/SudoknIndustrialMachineryandEquipmentIndustry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknIndustry](classes/SudoknIndustry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknInstallationCapability](classes/SudoknInstallationCapability.md) | No class (type) description specified<br/>| 2 | 
-| [SudoknInvarProcessingCapability](classes/SudoknInvarProcessingCapability.md) | No class (type) description specified<br/>| 219 | 
-| [SudoknInvestmentCastingCapability](classes/SudoknInvestmentCastingCapability.md) | No class (type) description specified<br/>| 83 | 
-| [SudoknIS-TS16949](classes/SudoknIS-TS16949.md) | No class (type) description specified<br/>| 6 | 
-| [SudoknISO13485](classes/SudoknISO13485.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknISO14001](classes/SudoknISO14001.md) | No class (type) description specified<br/>| 7 | 
-| [SudoknISO9000](classes/SudoknISO9000.md) | No class (type) description specified<br/>| 31 | 
-| [SudoknISO9001](classes/SudoknISO9001.md) | No class (type) description specified<br/>| 82 | 
-| [SudoknISTS16949Certificate](classes/SudoknISTS16949Certificate.md) | No class (type) description specified<br/>| 4 | 
-| [SudoknITARCompliant](classes/SudoknITARCompliant.md) | No class (type) description specified<br/>| 8 | 
-| [SudoknKaptonProcessingCapability](classes/SudoknKaptonProcessingCapability.md) | No class (type) description specified<br/>| 32 | 
-| [SudoknKnurlingCapability](classes/SudoknKnurlingCapability.md) | No class (type) description specified<br/>| 64 | 
-| [SudoknKOSHERApproved](classes/SudoknKOSHERApproved.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknKovarProcessingCapability](classes/SudoknKovarProcessingCapability.md) | No class (type) description specified<br/>| 197 | 
-| [SudoknLaserEtchingCapability](classes/SudoknLaserEtchingCapability.md) | No class (type) description specified<br/>| 81 | 
-| [SudoknLaserProcessingCapability](classes/SudoknLaserProcessingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknLaserWeldingCapability](classes/SudoknLaserWeldingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknLatheWorkCapability](classes/SudoknLatheWorkCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknLeadProcessingCapability](classes/SudoknLeadProcessingCapability.md) | No class (type) description specified<br/>| 2484 | 
-| [SudoknLEEDCertificate](classes/SudoknLEEDCertificate.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknLexanProcessingCapability](classes/SudoknLexanProcessingCapability.md) | No class (type) description specified<br/>| 461 | 
-| [SudoknLiquidCoatingCapability](classes/SudoknLiquidCoatingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknLiveToolingCapability](classes/SudoknLiveToolingCapability.md) | No class (type) description specified<br/>| 287 | 
-| [SudoknLowAlloySteelProcessingCapability](classes/SudoknLowAlloySteelProcessingCapability.md) | No class (type) description specified<br/>| 120 | 
-| [SudoknMachineBuildingCapability](classes/SudoknMachineBuildingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknMagnesiumProcessingCapability](classes/SudoknMagnesiumProcessingCapability.md) | No class (type) description specified<br/>| 419 | 
-| [SudoknMechanicalAssemblyCapability](classes/SudoknMechanicalAssemblyCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknMediaBlastingCapability](classes/SudoknMediaBlastingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknMetalFabricationCapability](classes/SudoknMetalFabricationCapability.md) | No class (type) description specified<br/>| 6 | 
-| [SudoknMetalProductionIndustry](classes/SudoknMetalProductionIndustry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknMetalSpinningCapability](classes/SudoknMetalSpinningCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknMetalsProductsIndustry](classes/SudoknMetalsProductsIndustry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknMetalStampingCapability](classes/SudoknMetalStampingCapability.md) | No class (type) description specified<br/>| 2 | 
-| [SudoknMetalworkingCapability](classes/SudoknMetalworkingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknMIGWeldinCapability](classes/SudoknMIGWeldinCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknMigWeldingCapability](classes/SudoknMigWeldingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknMolybdenumProcessingCapability](classes/SudoknMolybdenumProcessingCapability.md) | No class (type) description specified<br/>| 382 | 
-| [SudoknNADCAPAC7004](classes/SudoknNADCAPAC7004.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332111](classes/SudoknNAICS332111.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332112](classes/SudoknNAICS332112.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332114](classes/SudoknNAICS332114.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332115](classes/SudoknNAICS332115.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332116](classes/SudoknNAICS332116.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332117](classes/SudoknNAICS332117.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332211](classes/SudoknNAICS332211.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332212](classes/SudoknNAICS332212.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332213](classes/SudoknNAICS332213.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332214](classes/SudoknNAICS332214.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332311](classes/SudoknNAICS332311.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332312](classes/SudoknNAICS332312.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332313](classes/SudoknNAICS332313.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332321](classes/SudoknNAICS332321.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332322](classes/SudoknNAICS332322.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332323](classes/SudoknNAICS332323.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332410](classes/SudoknNAICS332410.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332420](classes/SudoknNAICS332420.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332431](classes/SudoknNAICS332431.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332439](classes/SudoknNAICS332439.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332510](classes/SudoknNAICS332510.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332611](classes/SudoknNAICS332611.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332612](classes/SudoknNAICS332612.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332618](classes/SudoknNAICS332618.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332710](classes/SudoknNAICS332710.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332721](classes/SudoknNAICS332721.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332722](classes/SudoknNAICS332722.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332811](classes/SudoknNAICS332811.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332812](classes/SudoknNAICS332812.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332813](classes/SudoknNAICS332813.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332911](classes/SudoknNAICS332911.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332912](classes/SudoknNAICS332912.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332913](classes/SudoknNAICS332913.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332919](classes/SudoknNAICS332919.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332991](classes/SudoknNAICS332991.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332992](classes/SudoknNAICS332992.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332994](classes/SudoknNAICS332994.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332995](classes/SudoknNAICS332995.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332996](classes/SudoknNAICS332996.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332997](classes/SudoknNAICS332997.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332998](classes/SudoknNAICS332998.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNAICS332999](classes/SudoknNAICS332999.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNickelPlatingCapability](classes/SudoknNickelPlatingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknNickelProcessingCapability](classes/SudoknNickelProcessingCapability.md) | No class (type) description specified<br/>| 1603 | 
-| [SudoknNomexProcessingCapability](classes/SudoknNomexProcessingCapability.md) | No class (type) description specified<br/>| 58 | 
-| [SudoknNotchingCapability](classes/SudoknNotchingCapability.md) | No class (type) description specified<br/>| 109 | 
-| [SudoknNylonProcessingCapability](classes/SudoknNylonProcessingCapability.md) | No class (type) description specified<br/>| 1177 | 
-| [SudoknOilAndGasIndustry](classes/SudoknOilAndGasIndustry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknOilGroovingCapability](classes/SudoknOilGroovingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknOxy-FuelCuttingCapability](classes/SudoknOxy-FuelCuttingCapability.md) | No class (type) description specified<br/>| 27 | 
-| [SudoknPackagingCapability](classes/SudoknPackagingCapability.md) | No class (type) description specified<br/>| 3 | 
-| [SudoknPaintingCapability](classes/SudoknPaintingCapability.md) | No class (type) description specified<br/>| 3 | 
-| [SudoknPalladiumProcessingCapability](classes/SudoknPalladiumProcessingCapability.md) | No class (type) description specified<br/>| 78 | 
-| [SudoknPaperandPaperboardProductsIndustry](classes/SudoknPaperandPaperboardProductsIndustry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknPassivationCapability](classes/SudoknPassivationCapability.md) | No class (type) description specified<br/>| 280 | 
-| [SudoknPemInsertionCapability](classes/SudoknPemInsertionCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknPermanentMoldCastingCapability](classes/SudoknPermanentMoldCastingCapability.md) | No class (type) description specified<br/>| 10 | 
-| [SudoknPhosBronzeProcessingCapability](classes/SudoknPhosBronzeProcessingCapability.md) | No class (type) description specified<br/>| 12 | 
-| [SudoknPhosphorBronzeProcessingCapability](classes/SudoknPhosphorBronzeProcessingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknPipingFabricationCapability](classes/SudoknPipingFabricationCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknPlasmaSprayingCapability](classes/SudoknPlasmaSprayingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknPlasterMoldCastingCapability](classes/SudoknPlasterMoldCastingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknPlasticMachiningCapability](classes/SudoknPlasticMachiningCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknPlasticsandRubberProductsIndustry](classes/SudoknPlasticsandRubberProductsIndustry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknPlatingCapability](classes/SudoknPlatingCapability.md) | No class (type) description specified<br/>| 2 | 
-| [SudoknPlatinumProcessingCapability](classes/SudoknPlatinumProcessingCapability.md) | No class (type) description specified<br/>| 225 | 
-| [SudoknPolishingCapability](classes/SudoknPolishingCapability.md) | No class (type) description specified<br/>| 456 | 
-| [SudoknPolycarbonateProcessingCapability](classes/SudoknPolycarbonateProcessingCapability.md) | No class (type) description specified<br/>| 693 | 
-| [SudoknPolycrystallineDiamondMachiningCapability](classes/SudoknPolycrystallineDiamondMachiningCapability.md) | No class (type) description specified<br/>| 70 | 
-| [SudoknPreciousMaterialProcessingCapability](classes/SudoknPreciousMaterialProcessingCapability.md) | No class (type) description specified<br/>| 6 | 
-| [SudoknPressBrakingCapability](classes/SudoknPressBrakingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknPressingCapability](classes/SudoknPressingCapability.md) | No class (type) description specified<br/>| 6 | 
-| [SudoknProductDesignCapability](classes/SudoknProductDesignCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknProfessionalServicesIndustry](classes/SudoknProfessionalServicesIndustry.md) | No class (type) description specified<br/>| 2 | 
-| [SudoknPrototypeManufacturingCapability](classes/SudoknPrototypeManufacturingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknPrototypingCapability](classes/SudoknPrototypingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknPulsedElectrochemicalMachiningCapability](classes/SudoknPulsedElectrochemicalMachiningCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknQS9000](classes/SudoknQS9000.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknRamEDMCapability](classes/SudoknRamEDMCapability.md) | No class (type) description specified<br/>| 28 | 
-| [SudoknRAMEdmCapability](classes/SudoknRAMEdmCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknRapidPrototypingCapability](classes/SudoknRapidPrototypingCapability.md) | No class (type) description specified<br/>| 256 | 
-| [SudoknResistanceWeldingCapability](classes/SudoknResistanceWeldingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknRetailTradeIndustry](classes/SudoknRetailTradeIndustry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknRivettingCapability](classes/SudoknRivettingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknRoboticWeldingCapability](classes/SudoknRoboticWeldingCapability.md) | No class (type) description specified<br/>| 2 | 
-| [SudoknSandCastingCapability](classes/SudoknSandCastingCapability.md) | No class (type) description specified<br/>| 4 | 
-| [SudoknSanitaryWeldingCapability](classes/SudoknSanitaryWeldingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknScreenPrintingCapability](classes/SudoknScreenPrintingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknSewingCapability](classes/SudoknSewingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknShearingCapability](classes/SudoknShearingCapability.md) | No class (type) description specified<br/>| 13 | 
-| [SudoknSheetMetalFabricationCapability](classes/SudoknSheetMetalFabricationCapability.md) | No class (type) description specified<br/>| 5 | 
-| [SudoknSheetMetalFormingCapability](classes/SudoknSheetMetalFormingCapability.md) | No class (type) description specified<br/>| 2 | 
-| [SudoknShellMoldCastingCapability](classes/SudoknShellMoldCastingCapability.md) | No class (type) description specified<br/>| 2 | 
-| [SudoknShrinkFittingCapability](classes/SudoknShrinkFittingCapability.md) | No class (type) description specified<br/>| 9 | 
-| [SudoknSilkScreeningCapability](classes/SudoknSilkScreeningCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknSilverProcessingCapability](classes/SudoknSilverProcessingCapability.md) | No class (type) description specified<br/>| 1251 | 
-| [SudoknSinkerEdmCapability](classes/SudoknSinkerEdmCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknSinteringCapability](classes/SudoknSinteringCapability.md) | No class (type) description specified<br/>| 56 | 
-| [SudoknSmeltingCapability](classes/SudoknSmeltingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknSpecialMaterialsProcessingCapability](classes/SudoknSpecialMaterialsProcessingCapability.md) | No class (type) description specified<br/>| 71 | 
-| [SudoknSportsandLeisureIndustry](classes/SudoknSportsandLeisureIndustry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknSteelAlloyProcessingCapability](classes/SudoknSteelAlloyProcessingCapability.md) | No class (type) description specified<br/>| 365 | 
-| [SudoknSteelManufacturingCapability](classes/SudoknSteelManufacturingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknSurfaceFinishingCapability](classes/SudoknSurfaceFinishingCapability.md) | No class (type) description specified<br/>| 76 | 
-| [SudoknSurfaceGrindingCapability](classes/SudoknSurfaceGrindingCapability.md) | No class (type) description specified<br/>| 2 | 
-| [SudoknSwissMachiningCapability](classes/SudoknSwissMachiningCapability.md) | No class (type) description specified<br/>| 19 | 
-| [SudoknSwissTurningCapability](classes/SudoknSwissTurningCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknTantalumProcessingCapability](classes/SudoknTantalumProcessingCapability.md) | No class (type) description specified<br/>| 234 | 
-| [SudoknTeflonProcessingCapability](classes/SudoknTeflonProcessingCapability.md) | No class (type) description specified<br/>| 538 | 
-| [SudoknTextiles](classes/SudoknTextiles.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknThermoformingCapability](classes/SudoknThermoformingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknTI9000Certificate](classes/SudoknTI9000Certificate.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknTinProcessingCapability](classes/SudoknTinProcessingCapability.md) | No class (type) description specified<br/>| 417 | 
-| [SudoknTubeBendingCapability](classes/SudoknTubeBendingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknTubeFormingCapability](classes/SudoknTubeFormingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknTubingCapability](classes/SudoknTubingCapability.md) | No class (type) description specified<br/>| 533 | 
-| [SudoknTungstenProcessingCapability](classes/SudoknTungstenProcessingCapability.md) | No class (type) description specified<br/>| 820 | 
-| [SudoknTurretPunchingCapability](classes/SudoknTurretPunchingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknUSPostalCode](classes/SudoknUSPostalCode.md) | No class (type) description specified<br/>| 20424 | 
-| [SudoknVacuumCastingCapability](classes/SudoknVacuumCastingCapability.md) | No class (type) description specified<br/>| 16 | 
-| [SudoknVacuumFormingCapability](classes/SudoknVacuumFormingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknVacuumPackagingCapability](classes/SudoknVacuumPackagingCapability.md) | No class (type) description specified<br/>| 2 | 
-| [SudoknWarehousingAndStorageIndustry](classes/SudoknWarehousingAndStorageIndustry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknWaspaloyProcessingCapability](classes/SudoknWaspaloyProcessingCapability.md) | No class (type) description specified<br/>| 66 | 
-| [SudoknWaterandSewerUtilitiesIndustry](classes/SudoknWaterandSewerUtilitiesIndustry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknWaterjetCuttimgCapability](classes/SudoknWaterjetCuttimgCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknWaterjetCuttingCapability](classes/SudoknWaterjetCuttingCapability.md) | No class (type) description specified<br/>| 373 | 
-| [SudoknWaterJetCuttingCapability](classes/SudoknWaterJetCuttingCapability.md) | No class (type) description specified<br/>| 2 | 
-| [SudoknWeldingCapability](classes/SudoknWeldingCapability.md) | No class (type) description specified<br/>| 2700 | 
-| [SudoknWireFormingCapability](classes/SudoknWireFormingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknWiringCapability](classes/SudoknWiringCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknWoodProductManufacturingIndustry](classes/SudoknWoodProductManufacturingIndustry.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknWoodworkingCapability](classes/SudoknWoodworkingCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknZincArcSprayCapability](classes/SudoknZincArcSprayCapability.md) | No class (type) description specified<br/>| 1 | 
-| [SudoknZincProcessingCapability](classes/SudoknZincProcessingCapability.md) | No class (type) description specified<br/>| 1266 | 
-| [SudoknZirconProcessingCapability](classes/SudoknZirconProcessingCapability.md) | No class (type) description specified<br/>| 240 | 
+| [IoCapability](classes/IoCapability.md) | None<br/>|  | 
+| [IoGroupOfPersons](classes/IoGroupOfPersons.md) | None<br/>|  | 
+| [IoIdentifier](classes/IoIdentifier.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDesignativeName](classes/SudoknDesignativeName.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBrandName](classes/SudoknBrandName.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOrganizationName](classes/SudoknOrganizationName.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVitualLocationIdentifier](classes/SudoknVitualLocationIdentifier.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEmailAddress](classes/SudoknEmailAddress.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWebAddress](classes/SudoknWebAddress.md) | None<br/>| 1 | 
+| [IoInformationContentEntity](classes/IoInformationContentEntity.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBusinessDescription](classes/SudoknBusinessDescription.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCertificate](classes/SudoknCertificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOccupationalHealthAndSafetyCertificate](classes/SudoknOccupationalHealthAndSafetyCertificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO45001Certificate](classes/SudoknISO45001Certificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOHSAS18001Certificate](classes/SudoknOHSAS18001Certificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknProfessionalCertificate](classes/SudoknProfessionalCertificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAWSWelderCertificate](classes/SudoknAWSWelderCertificate.md) | None<br/>| 48 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknQualityCertificate](classes/SudoknQualityCertificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknASCertificate](classes/SudoknASCertificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAS9000Certificate](classes/SudoknAS9000Certificate.md) | None<br/>| 5 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAS9003Certificate](classes/SudoknAS9003Certificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAS9100Certificate](classes/SudoknAS9100Certificate.md) | None<br/>| 1220 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAS9102Certificate](classes/SudoknAS9102Certificate.md) | None<br/>| 9 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAS9120Certificate](classes/SudoknAS9120Certificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknASMECertificate](classes/SudoknASMECertificate.md) | None<br/>| 804 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBABACertificate](classes/SudoknBABACertificate.md) | None<br/>| 3 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBritishRetailConsortiumCertificate](classes/SudoknBritishRetailConsortiumCertificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFDACertificate](classes/SudoknFDACertificate.md) | None<br/>| 5 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFDAGMPCertificate](classes/SudoknFDAGMPCertificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFDAPMACertificate](classes/SudoknFDAPMACertificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGWOCertificate](classes/SudoknGWOCertificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHAACPCertificate](classes/SudoknHAACPCertificate.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknIATFCertificate](classes/SudoknIATFCertificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknIATF16949Certificate](classes/SudoknIATF16949Certificate.md) | None<br/>| 330 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISOQualityCertificate](classes/SudoknISOQualityCertificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO13485Certificate](classes/SudoknISO13485Certificate.md) | None<br/>| 326 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO14000Certificate](classes/SudoknISO14000Certificate.md) | None<br/>| 12 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO14001Certificate](classes/SudoknISO14001Certificate.md) | None<br/>| 321 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO17265Certificate](classes/SudoknISO17265Certificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO27001Certificate](classes/SudoknISO27001Certificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO9000Certificate](classes/SudoknISO9000Certificate.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISO9001Certificate](classes/SudoknISO9001Certificate.md) | None<br/>| 3466 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISTSCertificate](classes/SudoknISTSCertificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknISTS16949Certificate](classes/SudoknISTS16949Certificate.md) | None<br/>| 4 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknITARCertificate](classes/SudoknITARCertificate.md) | None<br/>| 127 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknKosherApprovedCertificate](classes/SudoknKosherApprovedCertificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNADCAPCertificate](classes/SudoknNADCAPCertificate.md) | None<br/>| 467 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNISTCertificate](classes/SudoknNISTCertificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNIST800171Certificate](classes/SudoknNIST800171Certificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknQSCertificate](classes/SudoknQSCertificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknQS9000Certificate](classes/SudoknQS9000Certificate.md) | None<br/>| 41 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTICertificate](classes/SudoknTICertificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTI-9000Certificate](classes/SudoknTI-9000Certificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSustainabilityCertificate](classes/SudoknSustainabilityCertificate.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknLEEDCertificate](classes/SudoknLEEDCertificate.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknClassifier](classes/SudoknClassifier.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICSClassifier](classes/SudoknNAICSClassifier.md) | None<br/>| 23 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS33](classes/SudoknNAICS33.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS331](classes/SudoknNAICS331.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS331110](classes/SudoknNAICS331110.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS331210](classes/SudoknNAICS331210.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS331221](classes/SudoknNAICS331221.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS331222](classes/SudoknNAICS331222.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS331313](classes/SudoknNAICS331313.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS331314](classes/SudoknNAICS331314.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS331315](classes/SudoknNAICS331315.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS331318](classes/SudoknNAICS331318.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS331410](classes/SudoknNAICS331410.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS331420](classes/SudoknNAICS331420.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS331491](classes/SudoknNAICS331491.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS331492](classes/SudoknNAICS331492.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS331511](classes/SudoknNAICS331511.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS331512](classes/SudoknNAICS331512.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS331513](classes/SudoknNAICS331513.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS331523](classes/SudoknNAICS331523.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS331524](classes/SudoknNAICS331524.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS331529](classes/SudoknNAICS331529.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332](classes/SudoknNAICS332.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332111](classes/SudoknNAICS332111.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332112](classes/SudoknNAICS332112.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332114](classes/SudoknNAICS332114.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332117](classes/SudoknNAICS332117.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332119](classes/SudoknNAICS332119.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332215](classes/SudoknNAICS332215.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332216](classes/SudoknNAICS332216.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332311](classes/SudoknNAICS332311.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332312](classes/SudoknNAICS332312.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332313](classes/SudoknNAICS332313.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332321](classes/SudoknNAICS332321.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332322](classes/SudoknNAICS332322.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332323](classes/SudoknNAICS332323.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332410](classes/SudoknNAICS332410.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332420](classes/SudoknNAICS332420.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332431](classes/SudoknNAICS332431.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332439](classes/SudoknNAICS332439.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332510](classes/SudoknNAICS332510.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332613](classes/SudoknNAICS332613.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332618](classes/SudoknNAICS332618.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332710](classes/SudoknNAICS332710.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332721](classes/SudoknNAICS332721.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332722](classes/SudoknNAICS332722.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332811](classes/SudoknNAICS332811.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332812](classes/SudoknNAICS332812.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332813](classes/SudoknNAICS332813.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332911](classes/SudoknNAICS332911.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332912](classes/SudoknNAICS332912.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332913](classes/SudoknNAICS332913.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332919](classes/SudoknNAICS332919.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332991](classes/SudoknNAICS332991.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332992](classes/SudoknNAICS332992.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333](classes/SudoknNAICS333.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332993](classes/SudoknNAICS332993.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332994](classes/SudoknNAICS332994.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332996](classes/SudoknNAICS332996.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS332999](classes/SudoknNAICS332999.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333111](classes/SudoknNAICS333111.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333112](classes/SudoknNAICS333112.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333120](classes/SudoknNAICS333120.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333131](classes/SudoknNAICS333131.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333132](classes/SudoknNAICS333132.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333241](classes/SudoknNAICS333241.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333242](classes/SudoknNAICS333242.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333243](classes/SudoknNAICS333243.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333248](classes/SudoknNAICS333248.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333310](classes/SudoknNAICS333310.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333413](classes/SudoknNAICS333413.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333414](classes/SudoknNAICS333414.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333415](classes/SudoknNAICS333415.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333511](classes/SudoknNAICS333511.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333514](classes/SudoknNAICS333514.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333515](classes/SudoknNAICS333515.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333517](classes/SudoknNAICS333517.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333519](classes/SudoknNAICS333519.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333611](classes/SudoknNAICS333611.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333612](classes/SudoknNAICS333612.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333613](classes/SudoknNAICS333613.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333618](classes/SudoknNAICS333618.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333912](classes/SudoknNAICS333912.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333914](classes/SudoknNAICS333914.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333921](classes/SudoknNAICS333921.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333922](classes/SudoknNAICS333922.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333923](classes/SudoknNAICS333923.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333924](classes/SudoknNAICS333924.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333991](classes/SudoknNAICS333991.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333992](classes/SudoknNAICS333992.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333993](classes/SudoknNAICS333993.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333994](classes/SudoknNAICS333994.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333995](classes/SudoknNAICS333995.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333996](classes/SudoknNAICS333996.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS333998](classes/SudoknNAICS333998.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334](classes/SudoknNAICS334.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334111](classes/SudoknNAICS334111.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334112](classes/SudoknNAICS334112.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334118](classes/SudoknNAICS334118.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334210](classes/SudoknNAICS334210.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334220](classes/SudoknNAICS334220.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334290](classes/SudoknNAICS334290.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334310](classes/SudoknNAICS334310.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334412](classes/SudoknNAICS334412.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334413](classes/SudoknNAICS334413.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334416](classes/SudoknNAICS334416.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334417](classes/SudoknNAICS334417.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334418](classes/SudoknNAICS334418.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334419](classes/SudoknNAICS334419.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334510](classes/SudoknNAICS334510.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334511](classes/SudoknNAICS334511.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334512](classes/SudoknNAICS334512.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334513](classes/SudoknNAICS334513.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334514](classes/SudoknNAICS334514.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334515](classes/SudoknNAICS334515.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334516](classes/SudoknNAICS334516.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334517](classes/SudoknNAICS334517.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334519](classes/SudoknNAICS334519.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS334610](classes/SudoknNAICS334610.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS335](classes/SudoknNAICS335.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS335131](classes/SudoknNAICS335131.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS335132](classes/SudoknNAICS335132.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS335139](classes/SudoknNAICS335139.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS335210](classes/SudoknNAICS335210.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS335220](classes/SudoknNAICS335220.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS335311](classes/SudoknNAICS335311.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS335312](classes/SudoknNAICS335312.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS335313](classes/SudoknNAICS335313.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS335314](classes/SudoknNAICS335314.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS335910](classes/SudoknNAICS335910.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS335921](classes/SudoknNAICS335921.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS335929](classes/SudoknNAICS335929.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS335931](classes/SudoknNAICS335931.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS335932](classes/SudoknNAICS335932.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS335991](classes/SudoknNAICS335991.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS335999](classes/SudoknNAICS335999.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336](classes/SudoknNAICS336.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAICS336999](classes/SudoknAICS336999.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336110](classes/SudoknNAICS336110.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336120](classes/SudoknNAICS336120.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336211](classes/SudoknNAICS336211.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336212](classes/SudoknNAICS336212.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336213](classes/SudoknNAICS336213.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336214](classes/SudoknNAICS336214.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336310](classes/SudoknNAICS336310.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336320](classes/SudoknNAICS336320.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336330](classes/SudoknNAICS336330.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336340](classes/SudoknNAICS336340.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336350](classes/SudoknNAICS336350.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336360](classes/SudoknNAICS336360.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336370](classes/SudoknNAICS336370.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336390](classes/SudoknNAICS336390.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336411](classes/SudoknNAICS336411.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336412](classes/SudoknNAICS336412.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336413](classes/SudoknNAICS336413.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336414](classes/SudoknNAICS336414.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336415](classes/SudoknNAICS336415.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336419](classes/SudoknNAICS336419.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336510](classes/SudoknNAICS336510.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336611](classes/SudoknNAICS336611.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336612](classes/SudoknNAICS336612.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336991](classes/SudoknNAICS336991.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS336992](classes/SudoknNAICS336992.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS337](classes/SudoknNAICS337.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS337110](classes/SudoknNAICS337110.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS337121](classes/SudoknNAICS337121.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS337122](classes/SudoknNAICS337122.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS337126](classes/SudoknNAICS337126.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS337127](classes/SudoknNAICS337127.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS337211](classes/SudoknNAICS337211.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS337212](classes/SudoknNAICS337212.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS337214](classes/SudoknNAICS337214.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS337215](classes/SudoknNAICS337215.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS337910](classes/SudoknNAICS337910.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS337920](classes/SudoknNAICS337920.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS339](classes/SudoknNAICS339.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS339112](classes/SudoknNAICS339112.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS339113](classes/SudoknNAICS339113.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS339114](classes/SudoknNAICS339114.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS339115](classes/SudoknNAICS339115.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS339116](classes/SudoknNAICS339116.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS339910](classes/SudoknNAICS339910.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS339920](classes/SudoknNAICS339920.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS339930](classes/SudoknNAICS339930.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS339940](classes/SudoknNAICS339940.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS339950](classes/SudoknNAICS339950.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS339991](classes/SudoknNAICS339991.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS339992](classes/SudoknNAICS339992.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS339993](classes/SudoknNAICS339993.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS339994](classes/SudoknNAICS339994.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS339995](classes/SudoknNAICS339995.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNAICS339999](classes/SudoknNAICS339999.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSpecialBusinessStatusClassifier](classes/SudoknSpecialBusinessStatusClassifier.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOwnershipStatusClassifier](classes/SudoknOwnershipStatusClassifier.md) | None<br/>| 6 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDisabledVeteranOwned](classes/SudoknDisabledVeteranOwned.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMinorityOwned](classes/SudoknMinorityOwned.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNativeAmericanOwned](classes/SudoknNativeAmericanOwned.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSmallDisadvantagedBusiness](classes/SudoknSmallDisadvantagedBusiness.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVeteranOwned](classes/SudoknVeteranOwned.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWomenOwned](classes/SudoknWomenOwned.md) | None<br/>|  | 
+| [IoManufacturer](classes/IoManufacturer.md) | None<br/>| 11367 | 
+| [IoMaterialProduct](classes/IoMaterialProduct.md) | None<br/>| 44818 | 
+| [IoOrganization](classes/IoOrganization.md) | None<br/>|  | 
+| [IoPhysicalLocationIdentifier](classes/IoPhysicalLocationIdentifier.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBuildingNumber](classes/SudoknBuildingNumber.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCityOfAddress](classes/SudoknCityOfAddress.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCountryOfAddress](classes/SudoknCountryOfAddress.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPostalAddress](classes/SudoknPostalAddress.md) | None<br/>| 20728 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStateOfAddress](classes/SudoknStateOfAddress.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStreetAddress](classes/SudoknStreetAddress.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTwoDimensionalCartesianSpatialCoordinateDatum](classes/SudoknTwoDimensionalCartesianSpatialCoordinateDatum.md) | None<br/>| 20728 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknUSPostalCode](classes/SudoknUSPostalCode.md) | None<br/>| 20425 | 
+| [IoscGeospatialSite](classes/IoscGeospatialSite.md) | None<br/>|  | 
+| [IoscIndustry](classes/IoscIndustry.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAerospaceIndustry](classes/SudoknAerospaceIndustry.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAgricultureIndustry](classes/SudoknAgricultureIndustry.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknApparelIndustry](classes/SudoknApparelIndustry.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAutomotiveIndustry](classes/SudoknAutomotiveIndustry.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectricAutomotiveIndustry](classes/SudoknElectricAutomotiveIndustry.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBusinessEquipmentIndustry](classes/SudoknBusinessEquipmentIndustry.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknChemicalAndPetrochemicalIndustry](classes/SudoknChemicalAndPetrochemicalIndustry.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCommunicationsIndustry](classes/SudoknCommunicationsIndustry.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknConstructionIndustry](classes/SudoknConstructionIndustry.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknConsumerGoodsIndustry](classes/SudoknConsumerGoodsIndustry.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEducationIndustry](classes/SudoknEducationIndustry.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectronicProductIndustry](classes/SudoknElectronicProductIndustry.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknComputerIndustry](classes/SudoknComputerIndustry.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEnergyIndustry](classes/SudoknEnergyIndustry.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCoalIndustry](classes/SudoknCoalIndustry.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNuclearEnergyIndustry](classes/SudoknNuclearEnergyIndustry.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOilAndGasIndustry](classes/SudoknOilAndGasIndustry.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRenewableEnergyIndustry](classes/SudoknRenewableEnergyIndustry.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOffshoreWindIndustry](classes/SudoknOffshoreWindIndustry.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFoodIndustry](classes/SudoknFoodIndustry.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBeverageIndustry](classes/SudoknBeverageIndustry.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRestaurantIndustry](classes/SudoknRestaurantIndustry.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFurnitureIndustry](classes/SudoknFurnitureIndustry.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGovernmentIndustry](classes/SudoknGovernmentIndustry.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHealthcareServices](classes/SudoknHealthcareServices.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknInformationTechnologyIndustry](classes/SudoknInformationTechnologyIndustry.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMachinaryAndEquipmentIndustry](classes/SudoknMachinaryAndEquipmentIndustry.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMetalProductsIndustry](classes/SudoknMetalProductsIndustry.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMilitaryIndustry](classes/SudoknMilitaryIndustry.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMiningIndustry](classes/SudoknMiningIndustry.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPaperIndustry](classes/SudoknPaperIndustry.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPaperboardProductsIndustry](classes/SudoknPaperboardProductsIndustry.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPharmaceuticalIndustry](classes/SudoknPharmaceuticalIndustry.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlasticAndRubberIndustry](classes/SudoknPlasticAndRubberIndustry.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPrintingAndInformationIndustry](classes/SudoknPrintingAndInformationIndustry.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknProfessionalServicesIndustry](classes/SudoknProfessionalServicesIndustry.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRecyclingIndustry](classes/SudoknRecyclingIndustry.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRetailIndustry](classes/SudoknRetailIndustry.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSportsAndLeisureIndustry](classes/SudoknSportsAndLeisureIndustry.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTextilesIndustry](classes/SudoknTextilesIndustry.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTransportationIndustry](classes/SudoknTransportationIndustry.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknUtilitiesIndustry](classes/SudoknUtilitiesIndustry.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCommunicationAndElectronicPowerUtilitiesIndustry](classes/SudoknCommunicationAndElectronicPowerUtilitiesIndustry.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWaterAndSewerUtilitiesIndustry](classes/SudoknWaterAndSewerUtilitiesIndustry.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWarehousingAndStorage](classes/SudoknWarehousingAndStorage.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWoodProductManufacturingIndustry](classes/SudoknWoodProductManufacturingIndustry.md) | None<br/>| 1 | 
+| [IoscProductionCapability](classes/IoscProductionCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEngineeringCapability](classes/SudoknEngineeringCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCADCAMCapability](classes/SudoknCADCAMCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCADCapability](classes/SudoknCADCapability.md) | None<br/>| 3 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCAECapability](classes/SudoknCAECapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCAMCapability](classes/SudoknCAMCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEngineeringDesignCapability](classes/SudoknEngineeringDesignCapability.md) | None<br/>| 28 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPLCProgrammingCapability](classes/SudoknPLCProgrammingCapability.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRapidPrototypingCapability](classes/SudoknRapidPrototypingCapability.md) | None<br/>| 256 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknReverseEngineeringCapability](classes/SudoknReverseEngineeringCapability.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknToolDesignCapability](classes/SudoknToolDesignCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDieDesignCapability](classes/SudoknDieDesignCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFixtureDesignCapability](classes/SudoknFixtureDesignCapability.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMoldDesignCapability](classes/SudoknMoldDesignCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknManufacturingProcessCapability](classes/SudoknManufacturingProcessCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAdditiveManufacturingCapability](classes/SudoknAdditiveManufacturingCapability.md) | None<br/>| 209 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFusedDepositionModelingCapability](classes/SudoknFusedDepositionModelingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSelectiveLaserSinteringCapability](classes/SudoknSelectiveLaserSinteringCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStereolithographyCapability](classes/SudoknStereolithographyCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAssemblyCapability](classes/SudoknAssemblyCapability.md) | None<br/>| 2932 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFabricatingCapability](classes/SudoknFabricatingCapability.md) | None<br/>| 2518 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSemiconductorFabricatingCapability](classes/SudoknSemiconductorFabricatingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknKittingCapability](classes/SudoknKittingCapability.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWireHarnessAssemblyCapability](classes/SudoknWireHarnessAssemblyCapability.md) | None<br/>| 23 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCastingCapability](classes/SudoknCastingCapability.md) | None<br/>| 1195 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCentrifugalCastingCapability](classes/SudoknCentrifugalCastingCapability.md) | None<br/>| 17 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCeramicMoldCastingCapability](classes/SudoknCeramicMoldCastingCapability.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknContinuousCastingCapability](classes/SudoknContinuousCastingCapability.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDieCastingCapability](classes/SudoknDieCastingCapability.md) | None<br/>| 220 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGravityCastingCapability](classes/SudoknGravityCastingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPermanentMoldCastingCapability](classes/SudoknPermanentMoldCastingCapability.md) | None<br/>| 10 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknInvestmentCastingCapability](classes/SudoknInvestmentCastingCapability.md) | None<br/>| 83 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknLostFoamCastingCapability](classes/SudoknLostFoamCastingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlasterMoldCastingCapability](classes/SudoknPlasterMoldCastingCapability.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSandCastingCapability](classes/SudoknSandCastingCapability.md) | None<br/>| 4 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknShellMoldingCapability](classes/SudoknShellMoldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSqueezeCastingCapability](classes/SudoknSqueezeCastingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVacuumCastingCapability](classes/SudoknVacuumCastingCapability.md) | None<br/>| 16 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknChemicalProcessingCapability](classes/SudoknChemicalProcessingCapability.md) | None<br/>| 194 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknForgingCapability](classes/SudoknForgingCapability.md) | None<br/>| 609 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFormingCapability](classes/SudoknFormingCapability.md) | None<br/>| 1802 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDrawingCapability](classes/SudoknDrawingCapability.md) | None<br/>| 1449 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknExtrudingCapability](classes/SudoknExtrudingCapability.md) | None<br/>| 602 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknKnurlingCapability](classes/SudoknKnurlingCapability.md) | None<br/>| 64 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPowderMetalFormingCapability](classes/SudoknPowderMetalFormingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSparkPlasmaSinteringCapability](classes/SudoknSparkPlasmaSinteringCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRollDieEngravingCapability](classes/SudoknRollDieEngravingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRollingCapability](classes/SudoknRollingCapability.md) | None<br/>| 605 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknThermoformingCapability](classes/SudoknThermoformingCapability.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVacuumPressingCapability](classes/SudoknVacuumPressingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTubingCapability](classes/SudoknTubingCapability.md) | None<br/>| 533 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHeatTreatingCapability](classes/SudoknHeatTreatingCapability.md) | None<br/>| 923 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAnnealingCapability](classes/SudoknAnnealingCapability.md) | None<br/>| 99 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHardeningCapability](classes/SudoknHardeningCapability.md) | None<br/>| 269 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSurfaceHardeningCapability](classes/SudoknSurfaceHardeningCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCyanidingCapability](classes/SudoknCyanidingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDiffusionHardeningCapability](classes/SudoknDiffusionHardeningCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCarbonitridingCapability](classes/SudoknCarbonitridingCapability.md) | None<br/>| 43 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCarburizingCapability](classes/SudoknCarburizingCapability.md) | None<br/>| 81 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNitridingCapability](classes/SudoknNitridingCapability.md) | None<br/>| 45 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVacuumHardeningCapability](classes/SudoknVacuumHardeningCapability.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSinteringCapability](classes/SudoknSinteringCapability.md) | None<br/>| 56 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknJoiningCapability](classes/SudoknJoiningCapability.md) | None<br/>| 437 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAdhesiveBondingCapability](classes/SudoknAdhesiveBondingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMechanicalJoiningCapability](classes/SudoknMechanicalJoiningCapability.md) | None<br/>| 3 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMechanicalWeldingCapability](classes/SudoknMechanicalWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknExplosiveWeldingCapability](classes/SudoknExplosiveWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFrictionWeldingCapability](classes/SudoknFrictionWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPressureWeldingCapability](classes/SudoknPressureWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknUltrasonicWeldingCapability](classes/SudoknUltrasonicWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPressFittingCapability](classes/SudoknPressFittingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknShrinkFittingCapability](classes/SudoknShrinkFittingCapability.md) | None<br/>| 9 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRivetingCapability](classes/SudoknRivetingCapability.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknThermaJoiningCapability](classes/SudoknThermaJoiningCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBrazingCapability](classes/SudoknBrazingCapability.md) | None<br/>| 147 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDipBrazingCapability](classes/SudoknDipBrazingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFurnaceBrazingCapability](classes/SudoknFurnaceBrazingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknInductionBrazingCapability](classes/SudoknInductionBrazingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknInfraredBrazingCapability](classes/SudoknInfraredBrazingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknResistanceBrazingCapability](classes/SudoknResistanceBrazingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTorchBrazingCapability](classes/SudoknTorchBrazingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSolderingCapability](classes/SudoknSolderingCapability.md) | None<br/>| 271 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknThermalWeldingCapability](classes/SudoknThermalWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBrazeWeldingCapability](classes/SudoknBrazeWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCarbonArcBrazingCapability](classes/SudoknCarbonArcBrazingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGasBrazingCapability](classes/SudoknGasBrazingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDiffusionBondingCapability](classes/SudoknDiffusionBondingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectricalResistanceWeldingCapability](classes/SudoknElectricalResistanceWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknButtWeldingCapability](classes/SudoknButtWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectroSlagWeldingCapability](classes/SudoknElectroSlagWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPercussionWeldingCapability](classes/SudoknPercussionWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknProjectionWeldingCapability](classes/SudoknProjectionWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSeamWeldingCapability](classes/SudoknSeamWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSpotWeldingCapability](classes/SudoknSpotWeldingCapability.md) | None<br/>| 3 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectricArcWeldingCapability](classes/SudoknElectricArcWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCarbonArcWeldingCapability](classes/SudoknCarbonArcWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFluxCoredArcWeldingCapability](classes/SudoknFluxCoredArcWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGasMetalArcWeldingCapability](classes/SudoknGasMetalArcWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMIGWeldingCapability](classes/SudoknMIGWeldingCapability.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGasTungstenArcWeldingCapability](classes/SudoknGasTungstenArcWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTIGWeldingCapability](classes/SudoknTIGWeldingCapability.md) | None<br/>| 3 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknShieldedMetalArcWeldingCapability](classes/SudoknShieldedMetalArcWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStudWeldingCapability](classes/SudoknStudWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSubmergedArcWeldingCapability](classes/SudoknSubmergedArcWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGasWeldingCapability](classes/SudoknGasWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAtomicHydrogenWeldingCapability](classes/SudoknAtomicHydrogenWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCombustableGasWeldingCapability](classes/SudoknCombustableGasWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHighEnergyBeamWeldingCapability](classes/SudoknHighEnergyBeamWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectronBeamWeldingCapability](classes/SudoknElectronBeamWeldingCapability.md) | None<br/>| 6 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknLaserBeamWeldingCapability](classes/SudoknLaserBeamWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlasmaArcWeldingCapability](classes/SudoknPlasmaArcWeldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMachiningCapability](classes/SudoknMachiningCapability.md) | None<br/>| 3494 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAbrassiveMachiningCapability](classes/SudoknAbrassiveMachiningCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBuffingCapability](classes/SudoknBuffingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGrindingCapability](classes/SudoknGrindingCapability.md) | None<br/>| 1654 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCenterlessGrindingCapability](classes/SudoknCenterlessGrindingCapability.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknClyndricalGrindingCapability](classes/SudoknClyndricalGrindingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCClyndricalGrindingCapability](classes/SudoknCNCClyndricalGrindingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCreepFeedGrindingCapability](classes/SudoknCreepFeedGrindingCapability.md) | None<br/>| 8 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCurvicGrindingCapability](classes/SudoknCurvicGrindingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknIDODGrindingCapability](classes/SudoknIDODGrindingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlungeGrindingCapability](classes/SudoknPlungeGrindingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHoningCapability](classes/SudoknHoningCapability.md) | None<br/>| 460 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknLappingCapability](classes/SudoknLappingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknChemicalMachiningCapability](classes/SudoknChemicalMachiningCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknChemicalEngravingCapability](classes/SudoknChemicalEngravingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEtchingCapability](classes/SudoknEtchingCapability.md) | None<br/>| 487 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPhotochemicalMachiningProcess](classes/SudoknPhotochemicalMachiningProcess.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCMachiningCapability](classes/SudoknCNCMachiningCapability.md) | None<br/>| 1427 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCRoutingCapability](classes/SudoknCNCRoutingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFiveAxixMachiningCapability](classes/SudoknFiveAxixMachiningCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSevenAxisMachiningCapability](classes/SudoknSevenAxisMachiningCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDeburringCapability](classes/SudoknDeburringCapability.md) | None<br/>| 86 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEngravingCapability](classes/SudoknEngravingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknLaserEngravingCapability](classes/SudoknLaserEngravingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknErosionMachiningCapability](classes/SudoknErosionMachiningCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWaterjetCuttingCapability](classes/SudoknWaterjetCuttingCapability.md) | None<br/>| 373 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMultiPointCuttingCapability](classes/SudoknMultiPointCuttingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBroachingCapability](classes/SudoknBroachingCapability.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGearCuttingCapability](classes/SudoknGearCuttingCapability.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGearHobbingCapability](classes/SudoknGearHobbingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHoleMakingCapability](classes/SudoknHoleMakingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCounterBoringCapability](classes/SudoknCounterBoringCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCounterSinkingCapability](classes/SudoknCounterSinkingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDrillingCapability](classes/SudoknDrillingCapability.md) | None<br/>| 1361 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDeepHoleDrillingCapability](classes/SudoknDeepHoleDrillingCapability.md) | None<br/>| 81 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGunDrillingCapability](classes/SudoknGunDrillingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMicroDrillingCapability](classes/SudoknMicroDrillingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSmallHoleDrillingCapability](classes/SudoknSmallHoleDrillingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknReamingCapability](classes/SudoknReamingCapability.md) | None<br/>| 278 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTappingCapability](classes/SudoknTappingCapability.md) | None<br/>| 860 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMillingCapability](classes/SudoknMillingCapability.md) | None<br/>| 2311 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCMillingCapability](classes/SudoknCNCMillingCapability.md) | None<br/>| 1105 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGearGashingCapability](classes/SudoknGearGashingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHorizontalMillingCapability](classes/SudoknHorizontalMillingCapability.md) | None<br/>| 181 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSlabMillingCapability](classes/SudoknSlabMillingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknThreadMillingCapability](classes/SudoknThreadMillingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVerticalMillingCapability](classes/SudoknVerticalMillingCapability.md) | None<br/>| 437 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEndMillingCapability](classes/SudoknEndMillingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFaceMillingCapability](classes/SudoknFaceMillingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSawingCapability](classes/SudoknSawingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlasticMachiningCapability](classes/SudoknPlasticMachiningCapability.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPolycrystallineDiamondMachiningCapability](classes/SudoknPolycrystallineDiamondMachiningCapability.md) | None<br/>| 70 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSinglePointCuttingCapability](classes/SudoknSinglePointCuttingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDiamondMachiningCapability](classes/SudoknDiamondMachiningCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOilGroovingCapability](classes/SudoknOilGroovingCapability.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlaningCapability](classes/SudoknPlaningCapability.md) | None<br/>| 17 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknShapingCapability](classes/SudoknShapingCapability.md) | None<br/>| 504 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTurningCapability](classes/SudoknTurningCapability.md) | None<br/>| 2077 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBoringCapability](classes/SudoknBoringCapability.md) | None<br/>| 857 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHorizontalBoringCapability](classes/SudoknHorizontalBoringCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCTurningCapability](classes/SudoknCNCTurningCapability.md) | None<br/>| 16 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknLiveToolingCapability](classes/SudoknLiveToolingCapability.md) | None<br/>| 287 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSwissMachiningCapability](classes/SudoknSwissMachiningCapability.md) | None<br/>| 19 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknThermalSubtractionCapability](classes/SudoknThermalSubtractionCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEDMCapability](classes/SudoknEDMCapability.md) | None<br/>| 1114 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHoleDrillingEDMCapability](classes/SudoknHoleDrillingEDMCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRamEDMCapability](classes/SudoknRamEDMCapability.md) | None<br/>| 28 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSinkerEDMCapability](classes/SudoknSinkerEDMCapability.md) | None<br/>| 148 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWireEDMCapability](classes/SudoknWireEDMCapability.md) | None<br/>| 644 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHighEnergyBeamMachiningCapability](classes/SudoknHighEnergyBeamMachiningCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectronBeamMachiningCapability](classes/SudoknElectronBeamMachiningCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknLaserCuttingCapability](classes/SudoknLaserCuttingCapability.md) | None<br/>| 581 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCNCLaserCuttingCapability](classes/SudoknCNCLaserCuttingCapability.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknLaserEtchingCapability](classes/SudoknLaserEtchingCapability.md) | None<br/>| 81 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTorchCuttingCapability](classes/SudoknTorchCuttingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOxyFuelCutting](classes/SudoknOxyFuelCutting.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlasmaCuttingCapability](classes/SudoknPlasmaCuttingCapability.md) | None<br/>| 235 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknThreadingCapability](classes/SudoknThreadingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknZeroStockMachiningCapability](classes/SudoknZeroStockMachiningCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMoldingCapability](classes/SudoknMoldingCapability.md) | None<br/>| 644 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCompressionMoldingCapability](classes/SudoknCompressionMoldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknInjectionMoldingCapability](classes/SudoknInjectionMoldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMetalInjectionMoldingCapability](classes/SudoknMetalInjectionMoldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknReactionInjectionMoldingCapability](classes/SudoknReactionInjectionMoldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRubberInjectionMoldingCapability](classes/SudoknRubberInjectionMoldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRotationalMoldingCapability](classes/SudoknRotationalMoldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTransferMoldingCapability](classes/SudoknTransferMoldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVacuumMoldingCapability](classes/SudoknVacuumMoldingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPackingCapability](classes/SudoknPackingCapability.md) | None<br/>| 1765 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknLabelingCapability](classes/SudoknLabelingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVacuumPackagingCapability](classes/SudoknVacuumPackagingCapability.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSheetMetalProcessingCapability](classes/SudoknSheetMetalProcessingCapability.md) | None<br/>| 28 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBendingCapability](classes/SudoknBendingCapability.md) | None<br/>| 945 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTubeBendingCapability](classes/SudoknTubeBendingCapability.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWireBendingCapability](classes/SudoknWireBendingCapability.md) | None<br/>| 3 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBulgeFormingCapability](classes/SudoknBulgeFormingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknEmbossingCapability](classes/SudoknEmbossingCapability.md) | None<br/>| 69 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNotchingCapability](classes/SudoknNotchingCapability.md) | None<br/>| 109 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPunchingCapability](classes/SudoknPunchingCapability.md) | None<br/>| 7 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSheeringCapability](classes/SudoknSheeringCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSpinningCapability](classes/SudoknSpinningCapability.md) | None<br/>| 38 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStampingCapability](classes/SudoknStampingCapability.md) | None<br/>| 1216 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStretchFormingCapability](classes/SudoknStretchFormingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSurfaceFinishingCapability](classes/SudoknSurfaceFinishingCapability.md) | None<br/>| 77 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCoatingCapability](classes/SudoknCoatingCapability.md) | None<br/>| 1744 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBlackOxideCoatingCapability](classes/SudoknBlackOxideCoatingCapability.md) | None<br/>| 228 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknChemicalCoatingCapability](classes/SudoknChemicalCoatingCapability.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAnodizingCapability](classes/SudoknAnodizingCapability.md) | None<br/>| 659 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknChemicalConversionCoatingCapability](classes/SudoknChemicalConversionCoatingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAlkalineOxideConversionCoatingCapability](classes/SudoknAlkalineOxideConversionCoatingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknChromateConversionCoatingCapability](classes/SudoknChromateConversionCoatingCapability.md) | None<br/>| 139 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFusedNitrateConversionCoatingCapability](classes/SudoknFusedNitrateConversionCoatingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPhosphateConversionCoatingCapability](classes/SudoknPhosphateConversionCoatingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlatingCapability](classes/SudoknPlatingCapability.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectroPlatingCapability](classes/SudoknElectroPlatingCapability.md) | None<br/>| 1339 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectrolessNickelPlating](classes/SudoknElectrolessNickelPlating.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGalvanizingCapability](classes/SudoknGalvanizingCapability.md) | None<br/>| 72 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMechanicalCoatingCapability](classes/SudoknMechanicalCoatingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPowderCoatingCapability](classes/SudoknPowderCoatingCapability.md) | None<br/>| 679 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPassivationCapability](classes/SudoknPassivationCapability.md) | None<br/>| 280 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPhosphateCoatingCapability](classes/SudoknPhosphateCoatingCapability.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPrintingCapability](classes/SudoknPrintingCapability.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWetPaintingCapability](classes/SudoknWetPaintingCapability.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknThermalCoatingCapability](classes/SudoknThermalCoatingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknThermalSprayCoatingCapability](classes/SudoknThermalSprayCoatingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFlameSprayingCapability](classes/SudoknFlameSprayingCapability.md) | None<br/>| 6 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlasmaSprayingCapability](classes/SudoknPlasmaSprayingCapability.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknVaporizedMetalCoatingCapability](classes/SudoknVaporizedMetalCoatingCapability.md) | None<br/>| 13 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknChemicalVaporDepositionCapability](classes/SudoknChemicalVaporDepositionCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPhysicalVaporDepositionCapability](classes/SudoknPhysicalVaporDepositionCapability.md) | None<br/>| 10 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSurfacePreparationCapability](classes/SudoknSurfacePreparationCapability.md) | None<br/>| 550 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBeltSandingCapability](classes/SudoknBeltSandingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHarperizingCapability](classes/SudoknHarperizingCapability.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPolishingCapability](classes/SudoknPolishingCapability.md) | None<br/>| 456 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectropolishingCapability](classes/SudoknElectropolishingCapability.md) | None<br/>| 61 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSandBlastingCapability](classes/SudoknSandBlastingCapability.md) | None<br/>| 340 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknShotPeeningCapability](classes/SudoknShotPeeningCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknUltrasonicCleaningCapability](classes/SudoknUltrasonicCleaningCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTextileProcessCapability](classes/SudoknTextileProcessCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCrochetCapability](classes/SudoknCrochetCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDyeingCapability](classes/SudoknDyeingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknKnittingCapability](classes/SudoknKnittingCapability.md) | None<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWeavingCapability](classes/SudoknWeavingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknToolMakingCapability](classes/SudoknToolMakingCapability.md) | None<br/>| 6 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMoldMakingCapability](classes/SudoknMoldMakingCapability.md) | None<br/>| 8 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWoodWorkingCapability](classes/SudoknWoodWorkingCapability.md) | None<br/>| 12 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMaterialProcessingCapability](classes/SudoknMaterialProcessingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCarbideProcessingCapability](classes/SudoknCarbideProcessingCapability.md) | None<br/>| 786 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCarbonProcessingCapability](classes/SudoknCarbonProcessingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGraphiteProcessingCapability](classes/SudoknGraphiteProcessingCapability.md) | None<br/>| 472 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCeramicProcessingCapability](classes/SudoknCeramicProcessingCapability.md) | None<br/>| 1051 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknChemicalsProcessingCapability](classes/SudoknChemicalsProcessingCapability.md) | None<br/>| 1344 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCompositeProcessingCapability](classes/SudoknCompositeProcessingCapability.md) | None<br/>| 1196 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknElectronicProcessingCapability](classes/SudoknElectronicProcessingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknExoticMaterialProcessingCapability](classes/SudoknExoticMaterialProcessingCapability.md) | None<br/>| 317 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFiberProcessingCapability](classes/SudoknFiberProcessingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknManMadeFiberProcessingCapability](classes/SudoknManMadeFiberProcessingCapability.md) | None<br/>| 2 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNaturalFiberProcessingCapability](classes/SudoknNaturalFiberProcessingCapability.md) | None<br/>| 15 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknFoamProcessingCapability](classes/SudoknFoamProcessingCapability.md) | None<br/>| 1065 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGlassProcessingCapability](classes/SudoknGlassProcessingCapability.md) | None<br/>| 2866 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMetalProcessingCapability](classes/SudoknMetalProcessingCapability.md) | None<br/>| 6560 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAluminumProcessingCapability](classes/SudoknAluminumProcessingCapability.md) | None<br/>| 5647 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBerylliumProcessingCapability](classes/SudoknBerylliumProcessingCapability.md) | None<br/>| 360 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBrassProcessingCapability](classes/SudoknBrassProcessingCapability.md) | None<br/>| 2596 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknBronzeProcessingCapability](classes/SudoknBronzeProcessingCapability.md) | None<br/>| 1754 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPhosphorBronzeProcessingCapability](classes/SudoknPhosphorBronzeProcessingCapability.md) | phosphor bronze processing capability<br/>| 1 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknChromiumProcessingCapability](classes/SudoknChromiumProcessingCapability.md) | None<br/>| 551 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCobaltProcessingCapability](classes/SudoknCobaltProcessingCapability.md) | None<br/>| 303 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCopperProcessingCapability](classes/SudoknCopperProcessingCapability.md) | None<br/>| 2784 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknHastelloyProcessingCapability](classes/SudoknHastelloyProcessingCapability.md) | None<br/>| 321 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknInconelProcessingCapability](classes/SudoknInconelProcessingCapability.md) | None<br/>| 906 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknInvarProcessingCapability](classes/SudoknInvarProcessingCapability.md) | None<br/>| 219 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknIronProcessingCapability](classes/SudoknIronProcessingCapability.md) | None<br/>| 5903 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknKaptonProcessingCapability](classes/SudoknKaptonProcessingCapability.md) | None<br/>| 32 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknKovarProcessingCapability](classes/SudoknKovarProcessingCapability.md) | None<br/>| 197 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknLeadProcessingCapability](classes/SudoknLeadProcessingCapability.md) | None<br/>| 2484 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknLexanProcessingCapability](classes/SudoknLexanProcessingCapability.md) | None<br/>| 461 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMagnesiumAlloyProcessingCapability](classes/SudoknMagnesiumAlloyProcessingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknMolybdenumProcessingCapability](classes/SudoknMolybdenumProcessingCapability.md) | None<br/>| 382 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknNickelProcessingCapability](classes/SudoknNickelProcessingCapability.md) | None<br/>| 1603 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPalladiumProcessingCapability](classes/SudoknPalladiumProcessingCapability.md) | None<br/>| 78 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlatinumProcessingCapability](classes/SudoknPlatinumProcessingCapability.md) | None<br/>| 225 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSilverProcessingCapability](classes/SudoknSilverProcessingCapability.md) | None<br/>| 1251 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSteelProcessingCapability](classes/SudoknSteelProcessingCapability.md) | None<br/>| 7200 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAlloySteelProcessingCapability](classes/SudoknAlloySteelProcessingCapability.md) | None<br/>| 825 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknLowAlloySteelLeadProcessingCapability](classes/SudoknLowAlloySteelLeadProcessingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknColdRolledSteelProcessingCapability](classes/SudoknColdRolledSteelProcessingCapability.md) | None<br/>| 252 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknStainlessSteelProcessingCapability](classes/SudoknStainlessSteelProcessingCapability.md) | None<br/>| 4796 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSuperAlloyProcessingCapability](classes/SudoknSuperAlloyProcessingCapability.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWaspaloyProcessingCapability](classes/SudoknWaspaloyProcessingCapability.md) | None<br/>| 66 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTitaniumProcessingCapability](classes/SudoknTitaniumProcessingCapability.md) | None<br/>| 1349 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTungstenProcessingCapability](classes/SudoknTungstenProcessingCapability.md) | None<br/>| 820 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknZincAlloyProcessingCapability](classes/SudoknZincAlloyProcessingCapability.md) | None<br/>| 80 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPlasticProcessingCapability](classes/SudoknPlasticProcessingCapability.md) | None<br/>| 4159 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknAcetalProcessingCapability](classes/SudoknAcetalProcessingCapability.md) | None<br/>| 362 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknDelrinProcessingCapability](classes/SudoknDelrinProcessingCapability.md) | None<br/>| 289 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknPolycarbonateProcessingCapability](classes/SudoknPolycarbonateProcessingCapability.md) | None<br/>| 693 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknRubberProcessingCapability](classes/SudoknRubberProcessingCapability.md) | None<br/>| 1830 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknSiliconeProcessingCapability](classes/SudoknSiliconeProcessingCapability.md) | None<br/>| 690 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknTeflonProcessingCapability](classes/SudoknTeflonProcessingCapability.md) | None<br/>| 538 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknUrethaneProcessingCapability](classes/SudoknUrethaneProcessingCapability.md) | None<br/>| 1039 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknWoodProcessingCapability](classes/SudoknWoodProcessingCapability.md) | None<br/>| 2918 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknQualityManagementCapability](classes/SudoknQualityManagementCapability.md) | None<br/>| 1 | 
+| [OboBFO0000019](classes/OboBFO0000019.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknOrganizationSize](classes/SudoknOrganizationSize.md) | None<br/>| 1 | 
+| [OboBFO0000029](classes/OboBFO0000029.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknGeopoliticalSite](classes/SudoknGeopoliticalSite.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCity](classes/SudoknCity.md) | None<br/>| 2994 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCountry](classes/SudoknCountry.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknCounty](classes/SudoknCounty.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SudoknState](classes/SudoknState.md) | None<br/>| 129 | 
+| [Sudokn2-AxisCNCTurningCapability](classes/Sudokn2-AxisCNCTurningCapability.md) | None<br/>| 1 | 
+| [Sudokn3DPrintingCapability](classes/Sudokn3DPrintingCapability.md) | None<br/>| 1 | 
+| [SudoknAbrasiveCleaningCapability](classes/SudoknAbrasiveCleaningCapability.md) | None<br/>| 9 | 
+| [SudoknAcrylicFabricationCapability](classes/SudoknAcrylicFabricationCapability.md) | None<br/>| 1 | 
+| [SudoknAddtiveManufacturingCapability](classes/SudoknAddtiveManufacturingCapability.md) | None<br/>| 337 | 
+| [SudoknAS9100](classes/SudoknAS9100.md) | None<br/>| 20 | 
+| [SudoknASME](classes/SudoknASME.md) | None<br/>| 10 | 
+| [SudoknBrassBlackeningCapability](classes/SudoknBrassBlackeningCapability.md) | None<br/>| 1 | 
+| [SudoknBritishRetailConsortiumAccreditation](classes/SudoknBritishRetailConsortiumAccreditation.md) | None<br/>| 1 | 
+| [SudoknCarbonGraphiteProcessingCapability](classes/SudoknCarbonGraphiteProcessingCapability.md) | None<br/>| 13 | 
+| [SudoknCerakoteCoatingCapability](classes/SudoknCerakoteCoatingCapability.md) | None<br/>| 1 | 
+| [SudoknChemicalCleaningCapability](classes/SudoknChemicalCleaningCapability.md) | None<br/>| 1 | 
+| [SudoknCNCBendingCapability](classes/SudoknCNCBendingCapability.md) | None<br/>| 1 | 
+| [SudoknCNCCuttingCapability](classes/SudoknCNCCuttingCapability.md) | None<br/>| 1 | 
+| [SudoknCNCCylindricalGrindingCapability](classes/SudoknCNCCylindricalGrindingCapability.md) | None<br/>| 1 | 
+| [SudoknCNCFormingCapability](classes/SudoknCNCFormingCapability.md) | None<br/>| 1 | 
+| [SudoknCNCGrindingCapability](classes/SudoknCNCGrindingCapability.md) | None<br/>| 1 | 
+| [SudoknCNCHorizontalTurningCapability](classes/SudoknCNCHorizontalTurningCapability.md) | None<br/>| 1 | 
+| [SudoknCNCLatheCapability](classes/SudoknCNCLatheCapability.md) | None<br/>| 1 | 
+| [SudoknCNCmillingCapability](classes/SudoknCNCmillingCapability.md) | None<br/>| 1 | 
+| [SudoknCNCPlasmaCuttingCapability](classes/SudoknCNCPlasmaCuttingCapability.md) | None<br/>| 1 | 
+| [SudoknCNCPressBrakeCapability](classes/SudoknCNCPressBrakeCapability.md) | None<br/>| 1 | 
+| [SudoknCNCVerticalMillingCapability](classes/SudoknCNCVerticalMillingCapability.md) | None<br/>| 1 | 
+| [SudoknCNCWireBendingCapability](classes/SudoknCNCWireBendingCapability.md) | None<br/>| 1 | 
+| [SudoknCommunicationandElectronicPowerUtilitiesIndustry](classes/SudoknCommunicationandElectronicPowerUtilitiesIndustry.md) | None<br/>| 1 | 
+| [SudoknCommunicationIndustry](classes/SudoknCommunicationIndustry.md) | None<br/>| 2 | 
+| [SudoknComputersandElectronicProductsIndustry](classes/SudoknComputersandElectronicProductsIndustry.md) | None<br/>| 1 | 
+| [SudoknConsumerGoods](classes/SudoknConsumerGoods.md) | None<br/>| 1 | 
+| [SudoknCustomFoamCuttingCapability](classes/SudoknCustomFoamCuttingCapability.md) | None<br/>| 1 | 
+| [SudoknCuttingCapability](classes/SudoknCuttingCapability.md) | None<br/>| 19 | 
+| [SudoknCylindricalGrindingCapability](classes/SudoknCylindricalGrindingCapability.md) | None<br/>| 1 | 
+| [SudoknDeepFreezingCapability](classes/SudoknDeepFreezingCapability.md) | None<br/>| 1 | 
+| [SudoknDieMakingCapability](classes/SudoknDieMakingCapability.md) | None<br/>| 6 | 
+| [SudoknDifficultToMachineMaterialsProcessingCapability](classes/SudoknDifficultToMachineMaterialsProcessingCapability.md) | None<br/>| 28 | 
+| [SudoknDigitalPrintingCapability](classes/SudoknDigitalPrintingCapability.md) | None<br/>| 1 | 
+| [SudoknEducationalInstitutionsIndustry](classes/SudoknEducationalInstitutionsIndustry.md) | None<br/>| 1 | 
+| [SudoknElectolessNickelPlatingCapability](classes/SudoknElectolessNickelPlatingCapability.md) | None<br/>| 1 | 
+| [SudoknElectricalDischargeMachiningCapability](classes/SudoknElectricalDischargeMachiningCapability.md) | None<br/>| 197 | 
+| [SudoknElectricVehiclesIndustry](classes/SudoknElectricVehiclesIndustry.md) | None<br/>| 1 | 
+| [SudoknElectrolessNickelPlatingCapability](classes/SudoknElectrolessNickelPlatingCapability.md) | None<br/>| 214 | 
+| [SudoknElectrolessPlatingCapability](classes/SudoknElectrolessPlatingCapability.md) | None<br/>| 1 | 
+| [SudoknElectronicAutomotiveInudstry](classes/SudoknElectronicAutomotiveInudstry.md) | None<br/>| 1 | 
+| [SudoknElectroplatingCapability](classes/SudoknElectroplatingCapability.md) | None<br/>| 3 | 
+| [SudoknEndFormingCapability](classes/SudoknEndFormingCapability.md) | None<br/>| 1 | 
+| [SudoknExtremelyHardMaterialProcessingCapability](classes/SudoknExtremelyHardMaterialProcessingCapability.md) | None<br/>| 12 | 
+| [SudoknExtrusionCapability](classes/SudoknExtrusionCapability.md) | None<br/>| 1 | 
+| [SudoknFabricationCapability](classes/SudoknFabricationCapability.md) | None<br/>| 121 | 
+| [SudoknFasteningCapability](classes/SudoknFasteningCapability.md) | None<br/>| 1 | 
+| [SudoknFDAGMPCompliant](classes/SudoknFDAGMPCompliant.md) | None<br/>| 2 | 
+| [SudoknFiberOpticLaserCuttingCapability](classes/SudoknFiberOpticLaserCuttingCapability.md) | None<br/>| 1 | 
+| [SudoknFillingCapability](classes/SudoknFillingCapability.md) | None<br/>| 1 | 
+| [SudoknFinishingCapability](classes/SudoknFinishingCapability.md) | None<br/>| 1614 | 
+| [SudoknFixturingCapability](classes/SudoknFixturingCapability.md) | None<br/>| 1 | 
+| [SudoknGeospatialLocation](classes/SudoknGeospatialLocation.md) | None<br/>| 20728 | 
+| [SudoknGoldProcessingCapability](classes/SudoknGoldProcessingCapability.md) | None<br/>| 1302 | 
+| [SudoknGovermentIndustry](classes/SudoknGovermentIndustry.md) | None<br/>| 1 | 
+| [SudoknHealthcareServicesIndustry](classes/SudoknHealthcareServicesIndustry.md) | None<br/>| 1 | 
+| [SudoknHealthCareServicesIndustry](classes/SudoknHealthCareServicesIndustry.md) | None<br/>| 1 | 
+| [SudoknHighGradeAluminumProcessingCapability](classes/SudoknHighGradeAluminumProcessingCapability.md) | None<br/>| 5 | 
+| [SudoknHotDipGalvanizingCapability](classes/SudoknHotDipGalvanizingCapability.md) | None<br/>| 1 | 
+| [SudoknInductionHeatingCapability](classes/SudoknInductionHeatingCapability.md) | None<br/>| 1 | 
+| [SudoknIndustrialMachineryandEquipmentIndustry](classes/SudoknIndustrialMachineryandEquipmentIndustry.md) | None<br/>| 1 | 
+| [SudoknIndustry](classes/SudoknIndustry.md) | None<br/>| 1 | 
+| [SudoknInstallationCapability](classes/SudoknInstallationCapability.md) | None<br/>| 2 | 
+| [SudoknIS-TS16949](classes/SudoknIS-TS16949.md) | None<br/>| 6 | 
+| [SudoknISO13485](classes/SudoknISO13485.md) | None<br/>| 1 | 
+| [SudoknISO14001](classes/SudoknISO14001.md) | None<br/>| 7 | 
+| [SudoknISO9000](classes/SudoknISO9000.md) | None<br/>| 31 | 
+| [SudoknISO9001](classes/SudoknISO9001.md) | None<br/>| 82 | 
+| [SudoknISOCertificate](classes/SudoknISOCertificate.md) | None<br/>| 67 | 
+| [SudoknITARCompliant](classes/SudoknITARCompliant.md) | None<br/>| 8 | 
+| [SudoknKOSHERApproved](classes/SudoknKOSHERApproved.md) | None<br/>| 1 | 
+| [SudoknLaserProcessingCapability](classes/SudoknLaserProcessingCapability.md) | None<br/>| 1 | 
+| [SudoknLaserWeldingCapability](classes/SudoknLaserWeldingCapability.md) | None<br/>| 1 | 
+| [SudoknLatheWorkCapability](classes/SudoknLatheWorkCapability.md) | None<br/>| 1 | 
+| [SudoknLiquidCoatingCapability](classes/SudoknLiquidCoatingCapability.md) | None<br/>| 1 | 
+| [SudoknLowAlloySteelProcessingCapability](classes/SudoknLowAlloySteelProcessingCapability.md) | None<br/>| 120 | 
+| [SudoknMachineBuildingCapability](classes/SudoknMachineBuildingCapability.md) | None<br/>| 1 | 
+| [SudoknMagnesiumProcessingCapability](classes/SudoknMagnesiumProcessingCapability.md) | None<br/>| 419 | 
+| [SudoknMechanicalAssemblyCapability](classes/SudoknMechanicalAssemblyCapability.md) | None<br/>| 1 | 
+| [SudoknMediaBlastingCapability](classes/SudoknMediaBlastingCapability.md) | None<br/>| 1 | 
+| [SudoknMetalFabricationCapability](classes/SudoknMetalFabricationCapability.md) | None<br/>| 6 | 
+| [SudoknMetalProductionIndustry](classes/SudoknMetalProductionIndustry.md) | None<br/>| 1 | 
+| [SudoknMetalSpinningCapability](classes/SudoknMetalSpinningCapability.md) | None<br/>| 1 | 
+| [SudoknMetalsProductsIndustry](classes/SudoknMetalsProductsIndustry.md) | None<br/>| 1 | 
+| [SudoknMetalStampingCapability](classes/SudoknMetalStampingCapability.md) | None<br/>| 2 | 
+| [SudoknMetalworkingCapability](classes/SudoknMetalworkingCapability.md) | None<br/>| 1 | 
+| [SudoknMIGWeldinCapability](classes/SudoknMIGWeldinCapability.md) | None<br/>| 1 | 
+| [SudoknMigWeldingCapability](classes/SudoknMigWeldingCapability.md) | None<br/>| 1 | 
+| [SudoknNADCAPAC7004](classes/SudoknNADCAPAC7004.md) | None<br/>| 1 | 
+| [SudoknNAICS332115](classes/SudoknNAICS332115.md) | None<br/>| 1 | 
+| [SudoknNAICS332116](classes/SudoknNAICS332116.md) | None<br/>| 1 | 
+| [SudoknNAICS332211](classes/SudoknNAICS332211.md) | None<br/>| 1 | 
+| [SudoknNAICS332212](classes/SudoknNAICS332212.md) | None<br/>| 1 | 
+| [SudoknNAICS332213](classes/SudoknNAICS332213.md) | None<br/>| 1 | 
+| [SudoknNAICS332214](classes/SudoknNAICS332214.md) | None<br/>| 1 | 
+| [SudoknNAICS332611](classes/SudoknNAICS332611.md) | None<br/>| 1 | 
+| [SudoknNAICS332612](classes/SudoknNAICS332612.md) | None<br/>| 1 | 
+| [SudoknNAICS332995](classes/SudoknNAICS332995.md) | None<br/>| 1 | 
+| [SudoknNAICS332997](classes/SudoknNAICS332997.md) | None<br/>| 1 | 
+| [SudoknNAICS332998](classes/SudoknNAICS332998.md) | None<br/>| 1 | 
+| [SudoknNickelPlatingCapability](classes/SudoknNickelPlatingCapability.md) | None<br/>| 1 | 
+| [SudoknNomexProcessingCapability](classes/SudoknNomexProcessingCapability.md) | None<br/>| 58 | 
+| [SudoknNylonProcessingCapability](classes/SudoknNylonProcessingCapability.md) | None<br/>| 1177 | 
+| [SudoknOxy-FuelCuttingCapability](classes/SudoknOxy-FuelCuttingCapability.md) | None<br/>| 27 | 
+| [SudoknPackagingCapability](classes/SudoknPackagingCapability.md) | None<br/>| 3 | 
+| [SudoknPaintingCapability](classes/SudoknPaintingCapability.md) | None<br/>| 3 | 
+| [SudoknPaperandPaperboardProductsIndustry](classes/SudoknPaperandPaperboardProductsIndustry.md) | None<br/>| 1 | 
+| [SudoknPemInsertionCapability](classes/SudoknPemInsertionCapability.md) | None<br/>| 1 | 
+| [SudoknPhosBronzeProcessingCapability](classes/SudoknPhosBronzeProcessingCapability.md) | None<br/>| 12 | 
+| [SudoknPipingFabricationCapability](classes/SudoknPipingFabricationCapability.md) | None<br/>| 1 | 
+| [SudoknPlasticsandRubberProductsIndustry](classes/SudoknPlasticsandRubberProductsIndustry.md) | None<br/>| 1 | 
+| [SudoknPreciousMaterialProcessingCapability](classes/SudoknPreciousMaterialProcessingCapability.md) | None<br/>| 6 | 
+| [SudoknPressBrakingCapability](classes/SudoknPressBrakingCapability.md) | None<br/>| 1 | 
+| [SudoknPressingCapability](classes/SudoknPressingCapability.md) | None<br/>| 6 | 
+| [SudoknProductDesignCapability](classes/SudoknProductDesignCapability.md) | None<br/>| 1 | 
+| [SudoknPrototypeManufacturingCapability](classes/SudoknPrototypeManufacturingCapability.md) | None<br/>| 1 | 
+| [SudoknPrototypingCapability](classes/SudoknPrototypingCapability.md) | None<br/>| 1 | 
+| [SudoknPulsedElectrochemicalMachiningCapability](classes/SudoknPulsedElectrochemicalMachiningCapability.md) | None<br/>| 1 | 
+| [SudoknQS9000](classes/SudoknQS9000.md) | None<br/>| 1 | 
+| [SudoknRAMEdmCapability](classes/SudoknRAMEdmCapability.md) | None<br/>| 1 | 
+| [SudoknResistanceWeldingCapability](classes/SudoknResistanceWeldingCapability.md) | None<br/>| 1 | 
+| [SudoknRetailTradeIndustry](classes/SudoknRetailTradeIndustry.md) | None<br/>| 1 | 
+| [SudoknRivettingCapability](classes/SudoknRivettingCapability.md) | None<br/>| 1 | 
+| [SudoknRoboticWeldingCapability](classes/SudoknRoboticWeldingCapability.md) | None<br/>| 2 | 
+| [SudoknSanitaryWeldingCapability](classes/SudoknSanitaryWeldingCapability.md) | None<br/>| 1 | 
+| [SudoknScreenPrintingCapability](classes/SudoknScreenPrintingCapability.md) | None<br/>| 1 | 
+| [SudoknSewingCapability](classes/SudoknSewingCapability.md) | None<br/>| 1 | 
+| [SudoknShearingCapability](classes/SudoknShearingCapability.md) | None<br/>| 13 | 
+| [SudoknSheetMetalFabricationCapability](classes/SudoknSheetMetalFabricationCapability.md) | None<br/>| 5 | 
+| [SudoknSheetMetalFormingCapability](classes/SudoknSheetMetalFormingCapability.md) | None<br/>| 2 | 
+| [SudoknShellMoldCastingCapability](classes/SudoknShellMoldCastingCapability.md) | None<br/>| 2 | 
+| [SudoknSilkScreeningCapability](classes/SudoknSilkScreeningCapability.md) | None<br/>| 1 | 
+| [SudoknSinkerEdmCapability](classes/SudoknSinkerEdmCapability.md) | None<br/>| 1 | 
+| [SudoknSmeltingCapability](classes/SudoknSmeltingCapability.md) | None<br/>| 1 | 
+| [SudoknSpecialMaterialsProcessingCapability](classes/SudoknSpecialMaterialsProcessingCapability.md) | None<br/>| 71 | 
+| [SudoknSportsandLeisureIndustry](classes/SudoknSportsandLeisureIndustry.md) | None<br/>| 1 | 
+| [SudoknSteelAlloyProcessingCapability](classes/SudoknSteelAlloyProcessingCapability.md) | None<br/>| 365 | 
+| [SudoknSteelManufacturingCapability](classes/SudoknSteelManufacturingCapability.md) | None<br/>| 1 | 
+| [SudoknSurfaceGrindingCapability](classes/SudoknSurfaceGrindingCapability.md) | None<br/>| 2 | 
+| [SudoknSwissTurningCapability](classes/SudoknSwissTurningCapability.md) | None<br/>| 1 | 
+| [SudoknTantalumProcessingCapability](classes/SudoknTantalumProcessingCapability.md) | None<br/>| 234 | 
+| [SudoknTextiles](classes/SudoknTextiles.md) | None<br/>| 1 | 
+| [SudoknTI9000Certificate](classes/SudoknTI9000Certificate.md) | None<br/>| 1 | 
+| [SudoknTinProcessingCapability](classes/SudoknTinProcessingCapability.md) | None<br/>| 417 | 
+| [SudoknTubeFormingCapability](classes/SudoknTubeFormingCapability.md) | None<br/>| 1 | 
+| [SudoknTurretPunchingCapability](classes/SudoknTurretPunchingCapability.md) | None<br/>| 1 | 
+| [SudoknVacuumFormingCapability](classes/SudoknVacuumFormingCapability.md) | None<br/>| 1 | 
+| [SudoknWarehousingAndStorageIndustry](classes/SudoknWarehousingAndStorageIndustry.md) | None<br/>| 1 | 
+| [SudoknWaterandSewerUtilitiesIndustry](classes/SudoknWaterandSewerUtilitiesIndustry.md) | None<br/>| 1 | 
+| [SudoknWaterjetCuttimgCapability](classes/SudoknWaterjetCuttimgCapability.md) | None<br/>| 1 | 
+| [SudoknWaterJetCuttingCapability](classes/SudoknWaterJetCuttingCapability.md) | None<br/>| 2 | 
+| [SudoknWeldingCapability](classes/SudoknWeldingCapability.md) | None<br/>| 2700 | 
+| [SudoknWireFormingCapability](classes/SudoknWireFormingCapability.md) | None<br/>| 1 | 
+| [SudoknWiringCapability](classes/SudoknWiringCapability.md) | None<br/>| 1 | 
+| [SudoknWoodworkingCapability](classes/SudoknWoodworkingCapability.md) | None<br/>| 1 | 
+| [SudoknZincArcSprayCapability](classes/SudoknZincArcSprayCapability.md) | None<br/>| 1 | 
+| [SudoknZincProcessingCapability](classes/SudoknZincProcessingCapability.md) | None<br/>| 1266 | 
+| [SudoknZirconProcessingCapability](classes/SudoknZirconProcessingCapability.md) | None<br/>| 240 | 
 
 
 
@@ -3388,43 +4527,46 @@ SudoknISO9000Certificate ||--|o SudoknQualityManagementCapability : "sudokn_atte
 
 | Slot | Description | Occurrences |
 | --- | --- | --- |
-| [https___spec.industrialontologies.org_ontology_core_meta_AnnotationVocabulary_replacedBy](slots/https___spec.industrialontologies.org_ontology_core_meta_AnnotationVocabulary_replacedBy.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.| 0 |
-| [iosc_hasTextValue](slots/iosc_hasTextValue.md) | No slot (predicate) description specified<br/>| 19102 |
-| [owl_members](slots/owl_members.md) | No slot (predicate) description specified<br/>| 14 |
-| [rdfs_label](slots/rdfs_label.md) | No slot (predicate) description specified<br/>| 198617 |
-| [skos_altLabel](slots/skos_altLabel.md) | No slot (predicate) description specified<br/>| 1 |
-| [sudokn_attestsTo](slots/sudokn_attestsTo.md) | No slot (predicate) description specified<br/>| 2 |
-| [sudokn_hasAddressPart](slots/sudokn_hasAddressPart.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.| 0 |
-| [sudokn_hasCertificate](slots/sudokn_hasCertificate.md) | No slot (predicate) description specified<br/>| 7430 |
-| [sudokn_hasEmailAddress](slots/sudokn_hasEmailAddress.md) | No slot (predicate) description specified<br/>| 1 |
-| [sudokn_hasIntegerValue](slots/sudokn_hasIntegerValue.md) | No slot (predicate) description specified<br/>| 18729 |
-| [sudokn_hasLatitudeValue](slots/sudokn_hasLatitudeValue.md) | No slot (predicate) description specified<br/>| 19082 |
-| [sudokn_hasLongitudeValue](slots/sudokn_hasLongitudeValue.md) | No slot (predicate) description specified<br/>| 19083 |
-| [sudokn_hasManagementCapability](slots/sudokn_hasManagementCapability.md) | No slot (predicate) description specified<br/>| 1 |
-| [sudokn_hasMaterialCapability](slots/sudokn_hasMaterialCapability.md) | No slot (predicate) description specified<br/>| 77383 |
-| [sudokn_hasNAICSClassifier](slots/sudokn_hasNAICSClassifier.md) | No slot (predicate) description specified<br/>| 1 |
-| [sudokn_hasNAICSCodeValue](slots/sudokn_hasNAICSCodeValue.md) | No slot (predicate) description specified<br/>| 64 |
-| [sudokn_hasNAICSTextValue](slots/sudokn_hasNAICSTextValue.md) | No slot (predicate) description specified<br/>| 65 |
-| [sudokn_hasName](slots/sudokn_hasName.md) | No slot (predicate) description specified<br/>| 1 |
-| [sudokn_hasNumberOfEmployees](slots/sudokn_hasNumberOfEmployees.md) | No slot (predicate) description specified<br/>| 6931 |
-| [sudokn_hasOrganizationYearOfEstablishment](slots/sudokn_hasOrganizationYearOfEstablishment.md) | No slot (predicate) description specified<br/>| 280 |
-| [sudokn_hasOwnershipStatusClassifier](slots/sudokn_hasOwnershipStatusClassifier.md) | No slot (predicate) description specified<br/>| 1120 |
-| [sudokn_hasPostalAddress](slots/sudokn_hasPostalAddress.md) | No slot (predicate) description specified<br/>| 20729 |
-| [sudokn_hasPrimaryNAICSClassifier](slots/sudokn_hasPrimaryNAICSClassifier.md) | No slot (predicate) description specified<br/>| 6624 |
-| [sudokn_hasPrimaryNIACSClassifier](slots/sudokn_hasPrimaryNIACSClassifier.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.| 0 |
-| [sudokn_hasProcessCapability](slots/sudokn_hasProcessCapability.md) | No slot (predicate) description specified<br/>| 53953 |
-| [sudokn_hasSecondaryNAICSClassifier](slots/sudokn_hasSecondaryNAICSClassifier.md) | No slot (predicate) description specified<br/>| 112 |
-| [sudokn_hasSecondaryNIACSClassifier](slots/sudokn_hasSecondaryNIACSClassifier.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.| 0 |
-| [sudokn_hasSpatialCoordinates](slots/sudokn_hasSpatialCoordinates.md) | No slot (predicate) description specified<br/>| 20728 |
-| [sudokn_hasSpecialBusinessStatusClassifier](slots/sudokn_hasSpecialBusinessStatusClassifier.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.| 0 |
-| [sudokn_hasWebAddress](slots/sudokn_hasWebAddress.md) | No slot (predicate) description specified<br/>| 1 |
-| [sudokn_hasZIPcode](slots/sudokn_hasZIPcode.md) | No slot (predicate) description specified<br/>| 20424 |
-| [sudokn_locatedInCity](slots/sudokn_locatedInCity.md) | No slot (predicate) description specified<br/>| 19022 |
-| [sudokn_locatedInState](slots/sudokn_locatedInState.md) | No slot (predicate) description specified<br/>| 3734 |
-| [sudokn_manufactures](slots/sudokn_manufactures.md) | No slot (predicate) description specified<br/>| 71660 |
-| [sudokn_OrganizationLocatedIn](slots/sudokn_OrganizationLocatedIn.md) | No slot (predicate) description specified<br/>No occurrences of this slot in the graph.| 0 |
-| [sudokn_organizationLocatedIn](slots/sudokn_organizationLocatedIn.md) | No slot (predicate) description specified<br/>| 20728 |
-| [sudokn_suppliesToIndustry](slots/sudokn_suppliesToIndustry.md) | No slot (predicate) description specified<br/>| 26411 |
+| [https___spec.industrialontologies.org_ontology_core_meta_AnnotationVocabulary_replacedBy](slots/https___spec.industrialontologies.org_ontology_core_meta_AnnotationVocabulary_replacedBy.md) | <br/>|  |
+| [io_denotedBy](slots/io_denotedBy.md) | <br/>|  |
+| [iosc_hasTextValue](slots/iosc_hasTextValue.md) | <br/>| 19102 |
+| [obo_BFO_0000124](slots/obo_BFO_0000124.md) | <br/>|  |
+| [obo_BFO_0000171](slots/obo_BFO_0000171.md) | <br/>|  |
+| [obo_BFO_0000178](slots/obo_BFO_0000178.md) | <br/>|  |
+| [sudokn_attestsTo](slots/sudokn_attestsTo.md) | <br/>| 2 |
+| [sudokn_CityOf](slots/sudokn_CityOf.md) | <br/>|  |
+| [sudokn_hasAddressPart](slots/sudokn_hasAddressPart.md) | <br/>|  |
+| [sudokn_hasCertificate](slots/sudokn_hasCertificate.md) | <br/>| 7430 |
+| [sudokn_hasEmailAddress](slots/sudokn_hasEmailAddress.md) | <br/>| 1 |
+| [sudokn_hasIntegerValue](slots/sudokn_hasIntegerValue.md) | <br/>| 18729 |
+| [sudokn_hasLatitudeValue](slots/sudokn_hasLatitudeValue.md) | <br/>| 19082 |
+| [sudokn_hasLongitudeValue](slots/sudokn_hasLongitudeValue.md) | <br/>| 19083 |
+| [sudokn_hasManagementCapability](slots/sudokn_hasManagementCapability.md) | <br/>| 1 |
+| [sudokn_hasMaterialCapability](slots/sudokn_hasMaterialCapability.md) | <br/>| 77383 |
+| [sudokn_hasNAICSClassifier](slots/sudokn_hasNAICSClassifier.md) | <br/>| 1 |
+| [sudokn_hasNAICSCodeValue](slots/sudokn_hasNAICSCodeValue.md) | <br/>| 64 |
+| [sudokn_hasNAICSTextValue](slots/sudokn_hasNAICSTextValue.md) | <br/>| 65 |
+| [sudokn_hasName](slots/sudokn_hasName.md) | <br/>| 1 |
+| [sudokn_hasNumberOfEmployees](slots/sudokn_hasNumberOfEmployees.md) | <br/>| 6931 |
+| [sudokn_hasOrganizationYearOfEstablishment](slots/sudokn_hasOrganizationYearOfEstablishment.md) | <br/>| 280 |
+| [sudokn_hasOwnershipStatusClassifier](slots/sudokn_hasOwnershipStatusClassifier.md) | <br/>| 1120 |
+| [sudokn_hasPostalAddress](slots/sudokn_hasPostalAddress.md) | <br/>| 20729 |
+| [sudokn_hasPrimaryNAICSClassifier](slots/sudokn_hasPrimaryNAICSClassifier.md) | <br/>| 6624 |
+| [sudokn_hasProcessCapability](slots/sudokn_hasProcessCapability.md) | <br/>| 53953 |
+| [sudokn_hasSecondaryNAICSClassifier](slots/sudokn_hasSecondaryNAICSClassifier.md) | <br/>| 112 |
+| [sudokn_hasSecondaryNIACSClassifier](slots/sudokn_hasSecondaryNIACSClassifier.md) | <br/>|  |
+| [sudokn_hasSpatialCoordinates](slots/sudokn_hasSpatialCoordinates.md) | <br/>| 20728 |
+| [sudokn_hasSpecialBusinessStatusClassifier](slots/sudokn_hasSpecialBusinessStatusClassifier.md) | <br/>|  |
+| [sudokn_hasWebAddress](slots/sudokn_hasWebAddress.md) | <br/>| 1 |
+| [sudokn_hasZIPCode](slots/sudokn_hasZIPCode.md) | has ZIP code<br/>|  |
+| [sudokn_hasZIPcode](slots/sudokn_hasZIPcode.md) | <br/>| 20424 |
+| [sudokn_locatedInCity](slots/sudokn_locatedInCity.md) | <br/>| 19022 |
+| [sudokn_locatedInState](slots/sudokn_locatedInState.md) | <br/>| 3734 |
+| [sudokn_manufactures](slots/sudokn_manufactures.md) | <br/>| 71660 |
+| [sudokn_OrganizationLocatedIn](slots/sudokn_OrganizationLocatedIn.md) | <br/>|  |
+| [sudokn_organizationLocatedIn](slots/sudokn_organizationLocatedIn.md) | <br/>| 20728 |
+| [sudokn_stateOf](slots/sudokn_stateOf.md) | <br/>|  |
+| [sudokn_suppliesToIndustry](slots/sudokn_suppliesToIndustry.md) | <br/>| 26411 |
 
 
 
@@ -3440,11 +4582,10 @@ SudoknISO9000Certificate ||--|o SudoknQualityManagementCapability : "sudokn_atte
 * iosc: https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/
 * linkml: https://w3id.org/linkml/
 * obo: http://purl.obolibrary.org/obo/
+* okn: https://purl.org/okn/
+* okns: https://purl.org/okn/schema/
 * owl: http://www.w3.org/2002/07/owl#
 * rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
 * rdfs: http://www.w3.org/2000/01/rdf-schema#
-* skos: http://www.w3.org/2004/02/skos/core#
 * sudokn: http://asu.edu/semantics/SUDOKN/
 * xsd: http://www.w3.org/2001/XMLSchema#
-* shex: http://www.w3.org/ns/shex#
-* schema: http://schema.org/

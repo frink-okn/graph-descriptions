@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_KosherApprovedCertificate)
-
-
-_No class (type) description specified_
+# Class: kosher approved certificate (sudokn_KosherApprovedCertificate)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:KosherApprovedCertificate](http://asu.edu/semantics/SUDOKN/KosherApprovedCertificate)
@@ -70,14 +63,8 @@ URI: [sudokn:KosherApprovedCertificate](http://asu.edu/semantics/SUDOKN/KosherAp
 
 ```yaml
 name: sudokn_KosherApprovedCertificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: kosher approved certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_QualityCertificate
 class_uri: sudokn:KosherApprovedCertificate
@@ -91,14 +78,8 @@ class_uri: sudokn:KosherApprovedCertificate
 
 ```yaml
 name: sudokn_KosherApprovedCertificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: kosher approved certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_QualityCertificate
 class_uri: sudokn:KosherApprovedCertificate

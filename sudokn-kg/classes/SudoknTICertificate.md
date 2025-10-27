@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_TICertificate)
-
-
-_No class (type) description specified_
+# Class: TI certificate (sudokn_TICertificate)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:TICertificate](http://asu.edu/semantics/SUDOKN/TICertificate)
@@ -76,14 +69,8 @@ URI: [sudokn:TICertificate](http://asu.edu/semantics/SUDOKN/TICertificate)
 
 ```yaml
 name: sudokn_TICertificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: TI certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_QualityCertificate
 class_uri: sudokn:TICertificate
@@ -97,14 +84,8 @@ class_uri: sudokn:TICertificate
 
 ```yaml
 name: sudokn_TICertificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: TI certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_QualityCertificate
 class_uri: sudokn:TICertificate

@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_DieDesignCapability)
-
-
-_No class (type) description specified_
+# Class: die design capability (sudokn_DieDesignCapability)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:DieDesignCapability](http://asu.edu/semantics/SUDOKN/DieDesignCapability)
@@ -70,14 +63,8 @@ URI: [sudokn:DieDesignCapability](http://asu.edu/semantics/SUDOKN/DieDesignCapab
 
 ```yaml
 name: sudokn_DieDesignCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: die design capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_ToolDesignCapability
 class_uri: sudokn:DieDesignCapability
@@ -91,14 +78,8 @@ class_uri: sudokn:DieDesignCapability
 
 ```yaml
 name: sudokn_DieDesignCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: die design capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_ToolDesignCapability
 class_uri: sudokn:DieDesignCapability
