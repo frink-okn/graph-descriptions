@@ -248,14 +248,14 @@ PhilaCensusTract {
 }
 PhilaIncident {
     boolean phila_is_fatal  
-    string phila_OffenderWound  
-    boolean phila_OffenderDeceased  
-    uri phila_OffenderSex  
-    boolean phila_OfficerInvolved  
     boolean phila_OffenderInjured  
     http___qudt.org_vocab_unit_YR phila_age_of  
-    string phila_OffenderRace  
+    uri phila_OffenderSex  
+    string phila_OffenderWound  
     uri phila_OffenderRace  
+    string phila_OffenderRace  
+    boolean phila_OffenderDeceased  
+    boolean phila_OfficerInvolved  
 }
 PhilaLocation {
 
@@ -299,8 +299,8 @@ PhilaIncident ||--|o PhilaCensusTract : "phila_happened_at"
 ## Imports
 
 
-* okns:extended_types
 * linkml:types
+* okns:extended_types
 * okns:dc
 
 

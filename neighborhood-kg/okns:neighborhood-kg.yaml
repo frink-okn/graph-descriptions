@@ -406,12 +406,12 @@ annotations:
                         tag: subject
                         value: phila:OBJ_11856539
 title: nikg
-created_on: '2025-10-16T18:14:27.064655'
-last_updated_on: '2025-10-16T18:14:27.064655'
+created_on: '2025-10-27T12:46:54.347481'
+last_updated_on: '2025-10-27T12:46:54.347481'
 id: okns:neighborhood-kg
 imports:
-- okns:extended_types
 - linkml:types
+- okns:extended_types
 - okns:dc
 prefixes:
   dct:
@@ -455,8 +455,8 @@ slots:
     slot_uri: phila:OffenderRace
     range: Any
     any_of:
-    - range: string
     - range: uri
+    - range: string
   phila_OffenderSex:
     name: phila_OffenderSex
     slot_uri: phila:OffenderSex
@@ -497,16 +497,16 @@ classes:
   phila_Incident:
     name: phila_Incident
     slots:
-    - phila_is_fatal
     - dct_date
-    - phila_OffenderWound
-    - phila_OffenderDeceased
-    - phila_OffenderSex
-    - phila_OfficerInvolved
-    - phila_happened_at
+    - phila_is_fatal
     - phila_OffenderInjured
     - phila_age_of
+    - phila_OffenderSex
+    - phila_OffenderWound
     - phila_OffenderRace
+    - phila_happened_at
+    - phila_OffenderDeceased
+    - phila_OfficerInvolved
     class_uri: phila:Incident
   phila_Location:
     name: phila_Location

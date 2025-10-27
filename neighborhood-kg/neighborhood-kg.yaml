@@ -417,27 +417,27 @@ classes:
     class_uri: phila:Incident
     name: phila_Incident
     slots:
-    - phila_is_fatal
     - dct_date
-    - phila_OffenderWound
-    - phila_OffenderDeceased
-    - phila_OffenderSex
-    - phila_OfficerInvolved
-    - phila_happened_at
+    - phila_is_fatal
     - phila_OffenderInjured
     - phila_age_of
+    - phila_OffenderSex
+    - phila_OffenderWound
     - phila_OffenderRace
+    - phila_happened_at
+    - phila_OffenderDeceased
+    - phila_OfficerInvolved
   phila_Location:
     class_uri: phila:Location
     name: phila_Location
-created_on: '2025-10-16T18:14:27.064655'
+created_on: '2025-10-27T12:46:54.347481'
 default_prefix: okns
 id: okns:neighborhood-kg
 imports:
-- okns:extended_types
 - linkml:types
+- okns:extended_types
 - okns:dc
-last_updated_on: '2025-10-16T18:14:27.064655'
+last_updated_on: '2025-10-27T12:46:54.347481'
 name: neighborhood-kg
 prefixes:
   dct: http://purl.org/dc/terms/
@@ -456,8 +456,8 @@ slots:
     slot_uri: phila:OffenderInjured
   phila_OffenderRace:
     any_of:
-    - range: string
     - range: uri
+    - range: string
     range: Any
     slot_uri: phila:OffenderRace
   phila_OffenderSex:

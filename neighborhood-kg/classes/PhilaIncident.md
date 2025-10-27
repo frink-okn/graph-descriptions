@@ -115,16 +115,16 @@ URI: [phila:Incident](https://metadata.phila.gov/Incident)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [phila_is_fatal](../slots/phila_is_fatal.md) | 0..1 <br/> [xsd:boolean](xsd:boolean) |  <br/>  | direct | 15205 |
 | [dct_date](../slots/dct_date.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md) | Date may be used to express temporal information at any level of granularity <br/> description: A point or period of time associated with an event in the lifecycle of the resource. | direct | 15328 |
-| [phila_OffenderWound](../slots/phila_OffenderWound.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 15200 |
-| [phila_OffenderDeceased](../slots/phila_OffenderDeceased.md) | 0..1 <br/> [xsd:boolean](xsd:boolean) |  <br/>  | direct | 15328 |
-| [phila_OffenderSex](../slots/phila_OffenderSex.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI) |  <br/>  | direct | 15328 |
-| [phila_OfficerInvolved](../slots/phila_OfficerInvolved.md) | 0..1 <br/> [xsd:boolean](xsd:boolean) |  <br/>  | direct | 15328 |
-| [phila_happened_at](../slots/phila_happened_at.md) | 0..1 <br/> [PhilaCensusTract](../classes/PhilaCensusTract.md) |  <br/>  | direct | 15328 |
+| [phila_is_fatal](../slots/phila_is_fatal.md) | 0..1 <br/> [xsd:boolean](xsd:boolean) |  <br/>  | direct | 15205 |
 | [phila_OffenderInjured](../slots/phila_OffenderInjured.md) | 0..1 <br/> [xsd:boolean](xsd:boolean) |  <br/>  | direct | 15328 |
 | [phila_age_of](../slots/phila_age_of.md) | 0..1 <br/> [HttpQudt.orgVocabUnitYR](../types/HttpQudt.orgVocabUnitYR.md) |  <br/>  | direct | 15093 |
-| [phila_OffenderRace](../slots/phila_OffenderRace.md) | 0..1 <br/> [xsd:string](xsd:string)&nbsp;or&nbsp;<br />[xsd:anyURI](xsd:anyURI) |  <br/>  | direct | 15205 |
+| [phila_OffenderSex](../slots/phila_OffenderSex.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI) |  <br/>  | direct | 15328 |
+| [phila_OffenderWound](../slots/phila_OffenderWound.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 15200 |
+| [phila_OffenderRace](../slots/phila_OffenderRace.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI)&nbsp;or&nbsp;<br />[xsd:string](xsd:string) |  <br/>  | direct | 15205 |
+| [phila_happened_at](../slots/phila_happened_at.md) | 0..1 <br/> [PhilaCensusTract](../classes/PhilaCensusTract.md) |  <br/>  | direct | 15328 |
+| [phila_OffenderDeceased](../slots/phila_OffenderDeceased.md) | 0..1 <br/> [xsd:boolean](xsd:boolean) |  <br/>  | direct | 15328 |
+| [phila_OfficerInvolved](../slots/phila_OfficerInvolved.md) | 0..1 <br/> [xsd:boolean](xsd:boolean) |  <br/>  | direct | 15328 |
 
 
 
@@ -152,16 +152,16 @@ name: phila_Incident
 from_schema: okns:neighborhood-kg
 rank: 1000
 slots:
-- phila_is_fatal
 - dct_date
-- phila_OffenderWound
-- phila_OffenderDeceased
-- phila_OffenderSex
-- phila_OfficerInvolved
-- phila_happened_at
+- phila_is_fatal
 - phila_OffenderInjured
 - phila_age_of
+- phila_OffenderSex
+- phila_OffenderWound
 - phila_OffenderRace
+- phila_happened_at
+- phila_OffenderDeceased
+- phila_OfficerInvolved
 class_uri: phila:Incident
 
 ```
@@ -176,16 +176,6 @@ name: phila_Incident
 from_schema: okns:neighborhood-kg
 rank: 1000
 attributes:
-  phila_is_fatal:
-    name: phila_is_fatal
-    from_schema: okns:neighborhood-kg
-    rank: 1000
-    slot_uri: phila:is_fatal
-    alias: phila_is_fatal
-    owner: phila_Incident
-    domain_of:
-    - phila_Incident
-    range: boolean
   dct_date:
     name: dct_date
     description: Date may be used to express temporal information at any level of
@@ -213,56 +203,16 @@ attributes:
     - phila_Incident
     subproperty_of: dc_date
     range: rdfs_Literal
-  phila_OffenderWound:
-    name: phila_OffenderWound
+  phila_is_fatal:
+    name: phila_is_fatal
     from_schema: okns:neighborhood-kg
     rank: 1000
-    slot_uri: phila:OffenderWound
-    alias: phila_OffenderWound
-    owner: phila_Incident
-    domain_of:
-    - phila_Incident
-    range: string
-  phila_OffenderDeceased:
-    name: phila_OffenderDeceased
-    from_schema: okns:neighborhood-kg
-    rank: 1000
-    slot_uri: phila:OffenderDeceased
-    alias: phila_OffenderDeceased
+    slot_uri: phila:is_fatal
+    alias: phila_is_fatal
     owner: phila_Incident
     domain_of:
     - phila_Incident
     range: boolean
-  phila_OffenderSex:
-    name: phila_OffenderSex
-    from_schema: okns:neighborhood-kg
-    rank: 1000
-    slot_uri: phila:OffenderSex
-    alias: phila_OffenderSex
-    owner: phila_Incident
-    domain_of:
-    - phila_Incident
-    range: uri
-  phila_OfficerInvolved:
-    name: phila_OfficerInvolved
-    from_schema: okns:neighborhood-kg
-    rank: 1000
-    slot_uri: phila:OfficerInvolved
-    alias: phila_OfficerInvolved
-    owner: phila_Incident
-    domain_of:
-    - phila_Incident
-    range: boolean
-  phila_happened_at:
-    name: phila_happened_at
-    from_schema: okns:neighborhood-kg
-    rank: 1000
-    slot_uri: phila:happened_at
-    alias: phila_happened_at
-    owner: phila_Incident
-    domain_of:
-    - phila_Incident
-    range: phila_CensusTract
   phila_OffenderInjured:
     name: phila_OffenderInjured
     from_schema: okns:neighborhood-kg
@@ -283,6 +233,26 @@ attributes:
     domain_of:
     - phila_Incident
     range: http___qudt.org_vocab_unit_YR
+  phila_OffenderSex:
+    name: phila_OffenderSex
+    from_schema: okns:neighborhood-kg
+    rank: 1000
+    slot_uri: phila:OffenderSex
+    alias: phila_OffenderSex
+    owner: phila_Incident
+    domain_of:
+    - phila_Incident
+    range: uri
+  phila_OffenderWound:
+    name: phila_OffenderWound
+    from_schema: okns:neighborhood-kg
+    rank: 1000
+    slot_uri: phila:OffenderWound
+    alias: phila_OffenderWound
+    owner: phila_Incident
+    domain_of:
+    - phila_Incident
+    range: string
   phila_OffenderRace:
     name: phila_OffenderRace
     from_schema: okns:neighborhood-kg
@@ -294,8 +264,38 @@ attributes:
     - phila_Incident
     range: Any
     any_of:
-    - range: string
     - range: uri
+    - range: string
+  phila_happened_at:
+    name: phila_happened_at
+    from_schema: okns:neighborhood-kg
+    rank: 1000
+    slot_uri: phila:happened_at
+    alias: phila_happened_at
+    owner: phila_Incident
+    domain_of:
+    - phila_Incident
+    range: phila_CensusTract
+  phila_OffenderDeceased:
+    name: phila_OffenderDeceased
+    from_schema: okns:neighborhood-kg
+    rank: 1000
+    slot_uri: phila:OffenderDeceased
+    alias: phila_OffenderDeceased
+    owner: phila_Incident
+    domain_of:
+    - phila_Incident
+    range: boolean
+  phila_OfficerInvolved:
+    name: phila_OfficerInvolved
+    from_schema: okns:neighborhood-kg
+    rank: 1000
+    slot_uri: phila:OfficerInvolved
+    alias: phila_OfficerInvolved
+    owner: phila_Incident
+    domain_of:
+    - phila_Incident
+    range: boolean
 class_uri: phila:Incident
 
 ```

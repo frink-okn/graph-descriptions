@@ -32,7 +32,7 @@ URI: [phila:OffenderRace](https://metadata.phila.gov/OffenderRace)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](xsd:string)&nbsp;or&nbsp;<br />[xsd:anyURI](xsd:anyURI)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:anyURI](xsd:anyURI)&nbsp;or&nbsp;<br />[xsd:string](xsd:string)
 
 
 
@@ -54,8 +54,8 @@ domain_of:
 - phila_Incident
 range: Any
 any_of:
-- range: string
 - range: uri
+- range: string
 
 ```
 </details>
