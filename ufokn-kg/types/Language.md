@@ -7,7 +7,7 @@ _Formal natural language identifier, as defined by [BCP 47] (currently represent
 
 
 
-URI: [xsd:language](xsd:language)
+URI: [xsd:language](http://www.w3.org/2001/XMLSchema#language)
 
 * [base](https://w3id.org/linkml/base): str
 

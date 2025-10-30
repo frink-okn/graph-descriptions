@@ -2959,6 +2959,18 @@ SdosXPathType {
 SdosZoo {
 
 }
+SkosCollection {
+
+}
+SkosConcept {
+
+}
+SkosConceptScheme {
+
+}
+SkosOrderedCollection {
+
+}
 OwlAllDifferent {
 
 }
@@ -3079,18 +3091,6 @@ RdfsLiteral {
 
 }
 RdfsResource {
-
-}
-SkosCollection {
-
-}
-SkosConcept {
-
-}
-SkosConceptScheme {
-
-}
-SkosOrderedCollection {
 
 }
 GeoFeature {
@@ -3433,15 +3433,15 @@ RdfsDatatype ||--|o RdfsClass : "rdfs_subClassOf"
 RdfsDatatype ||--|o RdfsResource : "rdfs_seeAlso"
 RdfsDatatype ||--|o RdfsLiteral : "rdfs_label"
 RdfsDatatype ||--|o RdfsLiteral : "rdfs_comment"
-Kwgos#S2Cell ||--|o SdosText : "sdos_name"
 Kwgos#S2Cell ||--|o SdosTextObject : "sdos_description"
 Kwgos#S2Cell ||--|o SdosText : "sdos_description"
+Kwgos#S2Cell ||--|o SdosText : "sdos_name"
+Kwgos#S2Cell ||--|o SdosURL : "sdos_additionalType"
+Kwgos#S2Cell ||--|o SdosText : "sdos_additionalType"
 Kwgos#S2Cell ||--|o SdosNumber : "sdos_value"
 Kwgos#S2Cell ||--|o SdosStructuredValue : "sdos_value"
 Kwgos#S2Cell ||--|o SdosBoolean : "sdos_value"
 Kwgos#S2Cell ||--|o SdosText : "sdos_value"
-Kwgos#S2Cell ||--|o SdosURL : "sdos_additionalType"
-Kwgos#S2Cell ||--|o SdosText : "sdos_additionalType"
 
 ```
 
@@ -3450,9 +3450,9 @@ Kwgos#S2Cell ||--|o SdosText : "sdos_additionalType"
 ## Imports
 
 
+* okns:geo
 * okns:sdo
 * linkml:types
-* okns:geo
 
 
 
@@ -3481,3 +3481,6 @@ Kwgos#S2Cell ||--|o SdosText : "sdos_additionalType"
 * okn: https://purl.org/okn/
 * okns: https://purl.org/okn/schema/
 * sdos: https://schema.org/
+* xsd: http://www.w3.org/2001/XMLSchema#
+* shex: http://www.w3.org/ns/shex#
+* schema: http://schema.org/

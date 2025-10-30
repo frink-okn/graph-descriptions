@@ -158,15 +158,6 @@ annotations:
                   double:
                     tag: double
                     value: 5927018
-          sdos:measuredProperty:
-            tag: sdos:measuredProperty
-            value:
-              sdos:Observation:
-                tag: sdos:Observation
-                value:
-                  uri:
-                    tag: uri
-                    value: 68060
           sdos:name:
             tag: sdos:name
             value:
@@ -349,13 +340,13 @@ annotations:
         value:
           kwgos:#S2Cell:
             tag: kwgos:#S2Cell
-            value: _:Bfffffdb7c5fd8b36634b45bb83edb11c
+            value: _:Bfffffca01ccabef9f0edb30dae75b67e
           sdos:GeoCoordinates:
             tag: sdos:GeoCoordinates
-            value: _:Bffffffafac937b94603ad443dbacb74d
+            value: _:Bfffff74e5b02d826e401b75ae8c2c539
           sdos:GeoShape:
             tag: sdos:GeoShape
-            value: _:Bfffffff804a8269a9ffe9512c5b35447
+            value: _:Bfffff62778ccada4aecb04f4de299013
           sdos:Observation:
             tag: sdos:Observation
             value: uri:WEN-OKN_impacts_observation_f2r2v5qg5sbu_2024102908
@@ -364,7 +355,7 @@ annotations:
             value: https://ufokn.org/id/urmi/dpqwz0m0gs3b
           sdos:PropertyValue:
             tag: sdos:PropertyValue
-            value: _:Bfffffffa3e7eea401c83d394b92be0f4
+            value: _:Bffffff9fe19c32d2ba04a90b38369fa8
       pairs:
         tag: pairs
         value:
@@ -379,13 +370,13 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: POINT( -81.7696215000079 40.86704035004658 )
+                        value: POINT( -83.53808459878009 41.52350958040667 )
                       predicate:
                         tag: predicate
                         value: geo:asWKT
                       subject:
                         tag: subject
-                        value: _:B000001b10d71412da57f9b59158cf68a
+                        value: _:B00000270d45481dbb43682c376b1e105
           sdos:additionalType:
             tag: sdos:additionalType
             value:
@@ -403,7 +394,7 @@ annotations:
                         value: sdos:additionalType
                       subject:
                         tag: subject
-                        value: _:B000002a9e9a92e8df0d46366bd1be9ae
+                        value: _:B00000032aed8a0eec0dd64d10d094069
               sdos:Place:
                 tag: sdos:Place
                 value:
@@ -433,7 +424,7 @@ annotations:
                         value: sdos:additionalType
                       subject:
                         tag: subject
-                        value: _:B000002a9e9a92e8df0d46366bd1be9ae
+                        value: _:B00000032aed8a0eec0dd64d10d094069
           sdos:description:
             tag: sdos:description
             value:
@@ -451,7 +442,7 @@ annotations:
                         value: sdos:description
                       subject:
                         tag: subject
-                        value: _:B000002a9e9a92e8df0d46366bd1be9ae
+                        value: _:B00000032aed8a0eec0dd64d10d094069
               sdos:Observation:
                 tag: sdos:Observation
                 value:
@@ -491,13 +482,13 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: Area of feature in square meters
+                        value: S2 cell at level 13
                       predicate:
                         tag: predicate
                         value: sdos:description
                       subject:
                         tag: subject
-                        value: _:B0000017176b3a3245b1942bba481b6f9
+                        value: _:B00000032aed8a0eec0dd64d10d094069
           sdos:elevation:
             tag: sdos:elevation
             value:
@@ -509,13 +500,13 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: '4.211213111877441'
+                        value: '17.56233024597168'
                       predicate:
                         tag: predicate
                         value: sdos:elevation
                       subject:
                         tag: subject
-                        value: _:B000001cfd4c16453e43341dda82e9afe
+                        value: _:B00000c1ed4e6cc9338c8ecab34cc67b0
           sdos:geo:
             tag: sdos:geo
             value:
@@ -527,7 +518,7 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: _:Bb7f50304a393a25d5a46bd2322c93bc9
+                        value: _:B2f39280bae507f1f5aeea989771c2da2
                       predicate:
                         tag: predicate
                         value: sdos:geo
@@ -539,7 +530,7 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: _:B6a8bb8fff08f16f34e19363a09ef887f
+                        value: _:B4d9376a6afd922fc90a962e499347fa8
                       predicate:
                         tag: predicate
                         value: sdos:geo
@@ -554,7 +545,7 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: _:B16d7d4a6ffdd0e11b376a38109407505
+                        value: _:B068b9e5466cdb81b6576b87dfa956de0
                       predicate:
                         tag: predicate
                         value: sdos:geo
@@ -566,7 +557,7 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: _:B68f7180be4d195c49f669a05896b47ef
+                        value: _:B0caf49cda4beeac457e605fb2a63a624
                       predicate:
                         tag: predicate
                         value: sdos:geo
@@ -584,25 +575,25 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: _:B93601077b1a5319e6c74e055b8199de6
+                        value: _:B768c1ba308d406413d12039b1897f3e5
                       predicate:
                         tag: predicate
                         value: sdos:identifier
                       subject:
                         tag: subject
-                        value: _:B000001b10d71412da57f9b59158cf68a
+                        value: _:B00000270d45481dbb43682c376b1e105
                   sdos:PropertyValue:
                     tag: sdos:PropertyValue
                     value:
                       object:
                         tag: object
-                        value: _:B93601077b1a5319e6c74e055b8199de6
+                        value: _:B768c1ba308d406413d12039b1897f3e5
                       predicate:
                         tag: predicate
                         value: sdos:identifier
                       subject:
                         tag: subject
-                        value: _:B000001b10d71412da57f9b59158cf68a
+                        value: _:B00000270d45481dbb43682c376b1e105
               sdos:Place:
                 tag: sdos:Place
                 value:
@@ -611,7 +602,7 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: _:B04d32b924c29efb64b82809b7d43dc2a
+                        value: _:B16dbab08f4bfdb3614b36df85645ec6d
                       predicate:
                         tag: predicate
                         value: sdos:identifier
@@ -644,7 +635,7 @@ annotations:
                         value: sdos:identifier
                       subject:
                         tag: subject
-                        value: _:B000174df5008146f17adc68233f3115d
+                        value: _:B0000a771d6d55f08b90a0ec24f88df60
           sdos:latitude:
             tag: sdos:latitude
             value:
@@ -656,13 +647,13 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: '39.70598569702349'
+                        value: '39.94372211516241'
                       predicate:
                         tag: predicate
                         value: sdos:latitude
                       subject:
                         tag: subject
-                        value: _:B000001cfd4c16453e43341dda82e9afe
+                        value: _:B00000c1ed4e6cc9338c8ecab34cc67b0
           sdos:longitude:
             tag: sdos:longitude
             value:
@@ -674,31 +665,13 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: '-84.1152223778862'
+                        value: '-82.99914237310664'
                       predicate:
                         tag: predicate
                         value: sdos:longitude
                       subject:
                         tag: subject
-                        value: _:B000001cfd4c16453e43341dda82e9afe
-          sdos:measuredProperty:
-            tag: sdos:measuredProperty
-            value:
-              sdos:Observation:
-                tag: sdos:Observation
-                value:
-                  uri:
-                    tag: uri
-                    value:
-                      object:
-                        tag: object
-                        value: _:B07995a52e189b664ca584cf08c85e62d
-                      predicate:
-                        tag: predicate
-                        value: sdos:measuredProperty
-                      subject:
-                        tag: subject
-                        value: uri:WEN-OKN_impacts_observation_9mvu6s0twh5x_2024102908
+                        value: _:B00000c1ed4e6cc9338c8ecab34cc67b0
           sdos:name:
             tag: sdos:name
             value:
@@ -716,7 +689,7 @@ annotations:
                         value: sdos:name
                       subject:
                         tag: subject
-                        value: _:B000002a9e9a92e8df0d46366bd1be9ae
+                        value: _:B00000032aed8a0eec0dd64d10d094069
               sdos:Observation:
                 tag: sdos:Observation
                 value:
@@ -755,13 +728,13 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: Area
+                        value: s2Level13
                       predicate:
                         tag: predicate
                         value: sdos:name
                       subject:
                         tag: subject
-                        value: _:B0000017176b3a3245b1942bba481b6f9
+                        value: _:B00000032aed8a0eec0dd64d10d094069
               untyped:
                 tag: untyped
                 value:
@@ -776,7 +749,7 @@ annotations:
                         value: sdos:name
                       subject:
                         tag: subject
-                        value: _:B000174df5008146f17adc68233f3115d
+                        value: _:B0000a771d6d55f08b90a0ec24f88df60
           sdos:observationAbout:
             tag: sdos:observationAbout
             value:
@@ -842,7 +815,7 @@ annotations:
                         value: sdos:propertyID
                       subject:
                         tag: subject
-                        value: _:B0000017176b3a3245b1942bba481b6f9
+                        value: _:B000001af50fc1cd89e05fea0f8a7f185
           sdos:unitCode:
             tag: sdos:unitCode
             value:
@@ -860,7 +833,7 @@ annotations:
                         value: sdos:unitCode
                       subject:
                         tag: subject
-                        value: _:B0000017176b3a3245b1942bba481b6f9
+                        value: _:B000001af50fc1cd89e05fea0f8a7f185
           sdos:unitText:
             tag: sdos:unitText
             value:
@@ -878,7 +851,7 @@ annotations:
                         value: sdos:unitText
                       subject:
                         tag: subject
-                        value: _:B0000017176b3a3245b1942bba481b6f9
+                        value: _:B000001af50fc1cd89e05fea0f8a7f185
           sdos:value:
             tag: sdos:value
             value:
@@ -890,13 +863,13 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: '9815733187584720896'
+                        value: '9816684849258299392'
                       predicate:
                         tag: predicate
                         value: sdos:value
                       subject:
                         tag: subject
-                        value: _:B000002a9e9a92e8df0d46366bd1be9ae
+                        value: _:B00000032aed8a0eec0dd64d10d094069
               sdos:Observation:
                 tag: sdos:Observation
                 value:
@@ -920,25 +893,25 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: '39.33200744470396'
+                        value: '218.4015955290656'
                       predicate:
                         tag: predicate
                         value: sdos:value
                       subject:
                         tag: subject
-                        value: _:B0000017176b3a3245b1942bba481b6f9
+                        value: _:B000001af50fc1cd89e05fea0f8a7f185
                   string:
                     tag: string
                     value:
                       object:
                         tag: object
-                        value: dnupd1shmzzy
+                        value: '9816684849258299392'
                       predicate:
                         tag: predicate
                         value: sdos:value
                       subject:
                         tag: subject
-                        value: _:B0000019fdc1eed5a2ff077a79f93bbce
+                        value: _:B00000032aed8a0eec0dd64d10d094069
           sdos:variableMeasured:
             tag: sdos:variableMeasured
             value:
@@ -950,7 +923,7 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: _:B9ca4f20fefdac116a9266001c06a60f8
+                        value: _:B0e12e812ae2635f806db0c4f8542e16c
                       predicate:
                         tag: predicate
                         value: sdos:variableMeasured
@@ -965,7 +938,7 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: _:Be67aaa774ac0157b0dc04bc9f15b366d
+                        value: _:B717effee8651e04c626fd0fb46ff2490
                       predicate:
                         tag: predicate
                         value: sdos:variableMeasured
@@ -977,18 +950,18 @@ classes:
     class_uri: kwgos:#S2Cell
     name: kwgos_#S2Cell
     slots:
-    - sdos_name
     - sdos_description
-    - sdos_value
+    - sdos_name
     - sdos_additionalType
-created_on: '2025-09-29T17:35:52.479075'
+    - sdos_value
+created_on: '2025-10-30T03:52:12.107781'
 default_prefix: okns
 id: okns:ufokn-kg
 imports:
+- okns:geo
 - okns:sdo
 - linkml:types
-- okns:geo
-last_updated_on: '2025-09-29T17:35:52.479075'
+last_updated_on: '2025-10-30T03:52:12.107781'
 name: ufokn-kg
 prefixes:
   geo: http://www.opengis.net/ont/geosparql#
