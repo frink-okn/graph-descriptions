@@ -1,34 +1,31 @@
+name: sawgraph-kg
 annotations:
   counts:
     tag: counts
     value:
       classes:
         tag: classes
-        value: {}
       pairs:
         tag: pairs
-        value: {}
       slots:
         tag: slots
-        value: {}
   examples:
     tag: examples
     value:
       classes:
         tag: classes
-        value: {}
       pairs:
         tag: pairs
-        value: {}
-classes: {}
-created_on: '2025-10-30T22:52:22.072746'
-default_prefix: okns
-id: okns:sawgraph-kg
-imports: []
-last_updated_on: '2025-10-30T22:52:22.072746'
-name: sawgraph-kg
-prefixes:
-  okn: https://purl.org/okn/
-  okns: https://purl.org/okn/schema/
-slots: {}
 title: sawgraph
+created_on: '2025-10-30T22:52:22.072746'
+last_updated_on: '2025-10-30T22:52:22.072746'
+id: okns:sawgraph-kg
+prefixes:
+  okn:
+    prefix_prefix: okn
+    prefix_reference: https://purl.org/okn/
+  okns:
+    prefix_prefix: okns
+    prefix_reference: https://purl.org/okn/schema/
+default_prefix: okns
+source_file: /code/sawgraph-kg.yaml
