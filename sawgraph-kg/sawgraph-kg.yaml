@@ -21,11 +21,11 @@ annotations:
         tag: pairs
         value: {}
 classes: {}
-created_on: '2025-10-31T01:11:25.298587'
+created_on: '2025-10-31T01:28:45.189080'
 default_prefix: okns
 id: okns:sawgraph-kg
 imports: []
-last_updated_on: '2025-10-31T01:11:25.298587'
+last_updated_on: '2025-10-31T01:28:45.189080'
 name: sawgraph-kg
 prefixes:
   okn: https://purl.org/okn/
