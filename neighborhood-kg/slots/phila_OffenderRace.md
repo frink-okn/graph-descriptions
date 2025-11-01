@@ -5,7 +5,7 @@
 
 
 
-This slot occurs 15205 times.
+This slot occurs 15328 times.
 
 
 URI: [phila:OffenderRace](https://metadata.phila.gov/OffenderRace)
@@ -32,7 +32,7 @@ URI: [phila:OffenderRace](https://metadata.phila.gov/OffenderRace)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:anyURI](xsd:anyURI)&nbsp;or&nbsp;<br />[xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -52,10 +52,7 @@ slot_uri: phila:OffenderRace
 alias: phila_OffenderRace
 domain_of:
 - phila_Incident
-range: Any
-any_of:
-- range: uri
-- range: string
+range: string
 
 ```
 </details>

@@ -5,8 +5,6 @@
 
 
 
-This class occurs 8 times.
-
 
 URI: [phila:BlockGroup](https://metadata.phila.gov/BlockGroup)
 
@@ -19,15 +17,6 @@ URI: [phila:BlockGroup](https://metadata.phila.gov/BlockGroup)
  classDiagram
     class PhilaBlockGroup
     click PhilaBlockGroup href "../PhilaBlockGroup"
-      PhilaBlockGroup : phila_belongs_to
-        
-          
-    
-    
-    PhilaBlockGroup --> "0..1" PhilaCensusTract : phila_belongs_to
-    click PhilaCensusTract href "../PhilaCensusTract"
-
-        
       
 ```
 
@@ -41,7 +30,6 @@ URI: [phila:BlockGroup](https://metadata.phila.gov/BlockGroup)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [phila_belongs_to](../slots/phila_belongs_to.md) | 0..1 <br/> [PhilaCensusTract](../classes/PhilaCensusTract.md) |  <br/>  | direct | 1250 |
 
 
 
@@ -68,8 +56,6 @@ URI: [phila:BlockGroup](https://metadata.phila.gov/BlockGroup)
 name: phila_BlockGroup
 from_schema: okns:neighborhood-kg
 rank: 1000
-slots:
-- phila_belongs_to
 class_uri: phila:BlockGroup
 
 ```
@@ -83,17 +69,6 @@ class_uri: phila:BlockGroup
 name: phila_BlockGroup
 from_schema: okns:neighborhood-kg
 rank: 1000
-attributes:
-  phila_belongs_to:
-    name: phila_belongs_to
-    from_schema: okns:neighborhood-kg
-    rank: 1000
-    slot_uri: phila:belongs_to
-    alias: phila_belongs_to
-    owner: phila_BlockGroup
-    domain_of:
-    - phila_BlockGroup
-    range: phila_CensusTract
 class_uri: phila:BlockGroup
 
 ```

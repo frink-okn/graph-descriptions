@@ -32,7 +32,7 @@ URI: [phila:OffenderDeceased](https://metadata.phila.gov/OffenderDeceased)
 
 ## Properties
 
-* Range: [xsd:boolean](xsd:boolean)
+* Range: [xsd:boolean](http://www.w3.org/2001/XMLSchema#boolean)
 
 
 

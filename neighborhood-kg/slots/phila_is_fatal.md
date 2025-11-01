@@ -5,7 +5,7 @@
 
 
 
-This slot occurs 15205 times.
+This slot occurs 15328 times.
 
 
 URI: [phila:is_fatal](https://metadata.phila.gov/is_fatal)
@@ -32,7 +32,7 @@ URI: [phila:is_fatal](https://metadata.phila.gov/is_fatal)
 
 ## Properties
 
-* Range: [xsd:boolean](xsd:boolean)
+* Range: [xsd:boolean](http://www.w3.org/2001/XMLSchema#boolean)
 
 
 

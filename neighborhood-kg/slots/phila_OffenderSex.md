@@ -32,7 +32,7 @@ URI: [phila:OffenderSex](https://metadata.phila.gov/OffenderSex)
 
 ## Properties
 
-* Range: [xsd:anyURI](xsd:anyURI)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -52,7 +52,7 @@ slot_uri: phila:OffenderSex
 alias: phila_OffenderSex
 domain_of:
 - phila_Incident
-range: uri
+range: string
 
 ```
 </details>

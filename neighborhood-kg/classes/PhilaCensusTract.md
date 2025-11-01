@@ -41,7 +41,6 @@ URI: [phila:CensusTract](https://metadata.phila.gov/CensusTract)
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [PhilaBlockGroup](../classes/PhilaBlockGroup.md) | [phila_belongs_to](../slots/phila_belongs_to.md) | range | [PhilaCensusTract](../classes/PhilaCensusTract.md) |
 | [PhilaIncident](../classes/PhilaIncident.md) | [phila_happened_at](../slots/phila_happened_at.md) | range | [PhilaCensusTract](../classes/PhilaCensusTract.md) |
 
 
