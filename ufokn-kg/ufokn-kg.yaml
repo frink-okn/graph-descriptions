@@ -1,0 +1,974 @@
+annotations:
+  counts:
+    tag: counts
+    value:
+      classes:
+        tag: classes
+        value:
+          kwgos:#S2Cell:
+            tag: kwgos:#S2Cell
+            value: 11717916
+          sdos:GeoCoordinates:
+            tag: sdos:GeoCoordinates
+            value: 5927018
+          sdos:GeoShape:
+            tag: sdos:GeoShape
+            value: 5927018
+          sdos:Observation:
+            tag: sdos:Observation
+            value: 67760
+          sdos:Place:
+            tag: sdos:Place
+            value: 5839329
+          sdos:PropertyValue:
+            tag: sdos:PropertyValue
+            value: 41080766
+      pairs:
+        tag: pairs
+        value:
+          geo:asWKT:
+            tag: geo:asWKT
+            value:
+              sdos:GeoShape:
+                tag: sdos:GeoShape
+                value:
+                  geo:wktLiteral:
+                    tag: geo:wktLiteral
+                    value: 5927018
+          sdos:additionalType:
+            tag: sdos:additionalType
+            value:
+              kwgos:#S2Cell:
+                tag: kwgos:#S2Cell
+                value:
+                  uri:
+                    tag: uri
+                    value: 11717916
+              sdos:Place:
+                tag: sdos:Place
+                value:
+                  string:
+                    tag: string
+                    value: 5839332
+              sdos:PropertyValue:
+                tag: sdos:PropertyValue
+                value:
+                  uri:
+                    tag: uri
+                    value: 11717916
+          sdos:description:
+            tag: sdos:description
+            value:
+              kwgos:#S2Cell:
+                tag: kwgos:#S2Cell
+                value:
+                  string:
+                    tag: string
+                    value: 11717916
+              sdos:Observation:
+                tag: sdos:Observation
+                value:
+                  string:
+                    tag: string
+                    value: 67760
+              sdos:Place:
+                tag: sdos:Place
+                value:
+                  string:
+                    tag: string
+                    value: 5846397
+              sdos:PropertyValue:
+                tag: sdos:PropertyValue
+                value:
+                  string:
+                    tag: string
+                    value: 17576874
+          sdos:elevation:
+            tag: sdos:elevation
+            value:
+              sdos:GeoCoordinates:
+                tag: sdos:GeoCoordinates
+                value:
+                  double:
+                    tag: double
+                    value: 5858958
+          sdos:geo:
+            tag: sdos:geo
+            value:
+              sdos:Place:
+                tag: sdos:Place
+                value:
+                  sdos:GeoCoordinates:
+                    tag: sdos:GeoCoordinates
+                    value: 5859530
+                  sdos:GeoShape:
+                    tag: sdos:GeoShape
+                    value: 5859530
+              untyped:
+                tag: untyped
+                value:
+                  sdos:GeoCoordinates:
+                    tag: sdos:GeoCoordinates
+                    value: 67488
+                  sdos:GeoShape:
+                    tag: sdos:GeoShape
+                    value: 67488
+          sdos:identifier:
+            tag: sdos:identifier
+            value:
+              sdos:GeoShape:
+                tag: sdos:GeoShape
+                value:
+                  kwgos:#S2Cell:
+                    tag: kwgos:#S2Cell
+                    value: 11717916
+                  sdos:PropertyValue:
+                    tag: sdos:PropertyValue
+                    value: 11717916
+              sdos:Place:
+                tag: sdos:Place
+                value:
+                  sdos:PropertyValue:
+                    tag: sdos:PropertyValue
+                    value: 23435832
+                  string:
+                    tag: string
+                    value: 570
+              untyped:
+                tag: untyped
+                value:
+                  string:
+                    tag: string
+                    value: 115002
+          sdos:latitude:
+            tag: sdos:latitude
+            value:
+              sdos:GeoCoordinates:
+                tag: sdos:GeoCoordinates
+                value:
+                  double:
+                    tag: double
+                    value: 5927018
+          sdos:longitude:
+            tag: sdos:longitude
+            value:
+              sdos:GeoCoordinates:
+                tag: sdos:GeoCoordinates
+                value:
+                  double:
+                    tag: double
+                    value: 5927018
+          sdos:name:
+            tag: sdos:name
+            value:
+              kwgos:#S2Cell:
+                tag: kwgos:#S2Cell
+                value:
+                  string:
+                    tag: string
+                    value: 11717916
+              sdos:Observation:
+                tag: sdos:Observation
+                value:
+                  string:
+                    tag: string
+                    value: 67760
+              sdos:Place:
+                tag: sdos:Place
+                value:
+                  string:
+                    tag: string
+                    value: 5839899
+              sdos:PropertyValue:
+                tag: sdos:PropertyValue
+                value:
+                  string:
+                    tag: string
+                    value: 41080766
+              untyped:
+                tag: untyped
+                value:
+                  string:
+                    tag: string
+                    value: 115002
+          sdos:observationAbout:
+            tag: sdos:observationAbout
+            value:
+              sdos:Observation:
+                tag: sdos:Observation
+                value:
+                  sdos:Place:
+                    tag: sdos:Place
+                    value: 570
+                  uri:
+                    tag: uri
+                    value: 67190
+          sdos:observationDate:
+            tag: sdos:observationDate
+            value:
+              sdos:Observation:
+                tag: sdos:Observation
+                value:
+                  string:
+                    tag: string
+                    value: 67760
+          sdos:propertyID:
+            tag: sdos:propertyID
+            value:
+              sdos:PropertyValue:
+                tag: sdos:PropertyValue
+                value:
+                  string:
+                    tag: string
+                    value: 5927018
+          sdos:unitCode:
+            tag: sdos:unitCode
+            value:
+              sdos:PropertyValue:
+                tag: sdos:PropertyValue
+                value:
+                  string:
+                    tag: string
+                    value: 5927018
+          sdos:unitText:
+            tag: sdos:unitText
+            value:
+              sdos:PropertyValue:
+                tag: sdos:PropertyValue
+                value:
+                  string:
+                    tag: string
+                    value: 5858958
+          sdos:value:
+            tag: sdos:value
+            value:
+              kwgos:#S2Cell:
+                tag: kwgos:#S2Cell
+                value:
+                  string:
+                    tag: string
+                    value: 11717916
+              sdos:Observation:
+                tag: sdos:Observation
+                value:
+                  string:
+                    tag: string
+                    value: 67760
+              sdos:PropertyValue:
+                tag: sdos:PropertyValue
+                value:
+                  double:
+                    tag: double
+                    value: 5858958
+                  string:
+                    tag: string
+                    value: 35221808
+          sdos:variableMeasured:
+            tag: sdos:variableMeasured
+            value:
+              sdos:Observation:
+                tag: sdos:Observation
+                value:
+                  sdos:PropertyValue:
+                    tag: sdos:PropertyValue
+                    value: 68060
+              sdos:Place:
+                tag: sdos:Place
+                value:
+                  sdos:PropertyValue:
+                    tag: sdos:PropertyValue
+                    value: 5858958
+      slots:
+        tag: slots
+        value:
+          geo:asWKT:
+            tag: geo:asWKT
+            value: 5927018
+          sdos:additionalType:
+            tag: sdos:additionalType
+            value: 17557248
+          sdos:description:
+            tag: sdos:description
+            value: 23491031
+          sdos:elevation:
+            tag: sdos:elevation
+            value: 5858958
+          sdos:geo:
+            tag: sdos:geo
+            value: 11854036
+          sdos:identifier:
+            tag: sdos:identifier
+            value: 35269320
+          sdos:latitude:
+            tag: sdos:latitude
+            value: 5927018
+          sdos:longitude:
+            tag: sdos:longitude
+            value: 5927018
+          sdos:measuredProperty:
+            tag: sdos:measuredProperty
+            value: 68060
+          sdos:name:
+            tag: sdos:name
+            value: 47103427
+          sdos:observationAbout:
+            tag: sdos:observationAbout
+            value: 67760
+          sdos:observationDate:
+            tag: sdos:observationDate
+            value: 67760
+          sdos:propertyID:
+            tag: sdos:propertyID
+            value: 5927018
+          sdos:unitCode:
+            tag: sdos:unitCode
+            value: 5927018
+          sdos:unitText:
+            tag: sdos:unitText
+            value: 5858958
+          sdos:value:
+            tag: sdos:value
+            value: 41148526
+          sdos:variableMeasured:
+            tag: sdos:variableMeasured
+            value: 5927018
+  examples:
+    tag: examples
+    value:
+      classes:
+        tag: classes
+        value:
+          kwgos:#S2Cell:
+            tag: kwgos:#S2Cell
+            value: _:Bfffffca01ccabef9f0edb30dae75b67e
+          sdos:GeoCoordinates:
+            tag: sdos:GeoCoordinates
+            value: _:Bfffff74e5b02d826e401b75ae8c2c539
+          sdos:GeoShape:
+            tag: sdos:GeoShape
+            value: _:Bfffff62778ccada4aecb04f4de299013
+          sdos:Observation:
+            tag: sdos:Observation
+            value: uri:WEN-OKN_impacts_observation_f2r2v5qg5sbu_2024102908
+          sdos:Place:
+            tag: sdos:Place
+            value: https://ufokn.org/id/urmi/dpqwz0m0gs3b
+          sdos:PropertyValue:
+            tag: sdos:PropertyValue
+            value: _:Bffffff9fe19c32d2ba04a90b38369fa8
+      pairs:
+        tag: pairs
+        value:
+          geo:asWKT:
+            tag: geo:asWKT
+            value:
+              sdos:GeoShape:
+                tag: sdos:GeoShape
+                value:
+                  geo:wktLiteral:
+                    tag: geo:wktLiteral
+                    value:
+                      object:
+                        tag: object
+                        value: POINT( -83.53808459878009 41.52350958040667 )
+                      predicate:
+                        tag: predicate
+                        value: geo:asWKT
+                      subject:
+                        tag: subject
+                        value: _:B00000270d45481dbb43682c376b1e105
+          sdos:additionalType:
+            tag: sdos:additionalType
+            value:
+              kwgos:#S2Cell:
+                tag: kwgos:#S2Cell
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: kwgos:#S2Cell
+                      predicate:
+                        tag: predicate
+                        value: sdos:additionalType
+                      subject:
+                        tag: subject
+                        value: _:B00000032aed8a0eec0dd64d10d094069
+              sdos:Place:
+                tag: sdos:Place
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: building
+                      predicate:
+                        tag: predicate
+                        value: sdos:additionalType
+                      subject:
+                        tag: subject
+                        value: https://ufokn.org/id/urmi/dngwy1rgvs9t
+              sdos:PropertyValue:
+                tag: sdos:PropertyValue
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: kwgos:#S2Cell
+                      predicate:
+                        tag: predicate
+                        value: sdos:additionalType
+                      subject:
+                        tag: subject
+                        value: _:B00000032aed8a0eec0dd64d10d094069
+          sdos:description:
+            tag: sdos:description
+            value:
+              kwgos:#S2Cell:
+                tag: kwgos:#S2Cell
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: S2 cell at level 13
+                      predicate:
+                        tag: predicate
+                        value: sdos:description
+                      subject:
+                        tag: subject
+                        value: _:B00000032aed8a0eec0dd64d10d094069
+              sdos:Observation:
+                tag: sdos:Observation
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: An prediction of depth of flood for a building at POINT(-115.55325014420565,33.11375976470062)
+                          for time 2024-10-29T08:00:00
+                      predicate:
+                        tag: predicate
+                        value: sdos:description
+                      subject:
+                        tag: subject
+                        value: uri:WEN-OKN_impacts_observation_9mvu6s0twh5x_2024102908
+              sdos:Place:
+                tag: sdos:Place
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: osm:building:..
+                      predicate:
+                        tag: predicate
+                        value: sdos:description
+                      subject:
+                        tag: subject
+                        value: https://ufokn.org/id/urmi/dngwy1rgvs9t
+              sdos:PropertyValue:
+                tag: sdos:PropertyValue
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: S2 cell at level 13
+                      predicate:
+                        tag: predicate
+                        value: sdos:description
+                      subject:
+                        tag: subject
+                        value: _:B00000032aed8a0eec0dd64d10d094069
+          sdos:elevation:
+            tag: sdos:elevation
+            value:
+              sdos:GeoCoordinates:
+                tag: sdos:GeoCoordinates
+                value:
+                  double:
+                    tag: double
+                    value:
+                      object:
+                        tag: object
+                        value: '17.56233024597168'
+                      predicate:
+                        tag: predicate
+                        value: sdos:elevation
+                      subject:
+                        tag: subject
+                        value: _:B00000c1ed4e6cc9338c8ecab34cc67b0
+          sdos:geo:
+            tag: sdos:geo
+            value:
+              sdos:Place:
+                tag: sdos:Place
+                value:
+                  sdos:GeoCoordinates:
+                    tag: sdos:GeoCoordinates
+                    value:
+                      object:
+                        tag: object
+                        value: _:B2f39280bae507f1f5aeea989771c2da2
+                      predicate:
+                        tag: predicate
+                        value: sdos:geo
+                      subject:
+                        tag: subject
+                        value: https://ufokn.org/id/urmi/dngwy1rgvs9t
+                  sdos:GeoShape:
+                    tag: sdos:GeoShape
+                    value:
+                      object:
+                        tag: object
+                        value: _:B4d9376a6afd922fc90a962e499347fa8
+                      predicate:
+                        tag: predicate
+                        value: sdos:geo
+                      subject:
+                        tag: subject
+                        value: https://ufokn.org/id/urmi/dngwy1rgvs9t
+              untyped:
+                tag: untyped
+                value:
+                  sdos:GeoCoordinates:
+                    tag: sdos:GeoCoordinates
+                    value:
+                      object:
+                        tag: object
+                        value: _:B068b9e5466cdb81b6576b87dfa956de0
+                      predicate:
+                        tag: predicate
+                        value: sdos:geo
+                      subject:
+                        tag: subject
+                        value: https://ufokn.org/id/urmi/9mvu6s0twh5x
+                  sdos:GeoShape:
+                    tag: sdos:GeoShape
+                    value:
+                      object:
+                        tag: object
+                        value: _:B0caf49cda4beeac457e605fb2a63a624
+                      predicate:
+                        tag: predicate
+                        value: sdos:geo
+                      subject:
+                        tag: subject
+                        value: https://ufokn.org/id/urmi/9mvu6s0twh5x
+          sdos:identifier:
+            tag: sdos:identifier
+            value:
+              sdos:GeoShape:
+                tag: sdos:GeoShape
+                value:
+                  kwgos:#S2Cell:
+                    tag: kwgos:#S2Cell
+                    value:
+                      object:
+                        tag: object
+                        value: _:B768c1ba308d406413d12039b1897f3e5
+                      predicate:
+                        tag: predicate
+                        value: sdos:identifier
+                      subject:
+                        tag: subject
+                        value: _:B00000270d45481dbb43682c376b1e105
+                  sdos:PropertyValue:
+                    tag: sdos:PropertyValue
+                    value:
+                      object:
+                        tag: object
+                        value: _:B768c1ba308d406413d12039b1897f3e5
+                      predicate:
+                        tag: predicate
+                        value: sdos:identifier
+                      subject:
+                        tag: subject
+                        value: _:B00000270d45481dbb43682c376b1e105
+              sdos:Place:
+                tag: sdos:Place
+                value:
+                  sdos:PropertyValue:
+                    tag: sdos:PropertyValue
+                    value:
+                      object:
+                        tag: object
+                        value: _:B16dbab08f4bfdb3614b36df85645ec6d
+                      predicate:
+                        tag: predicate
+                        value: sdos:identifier
+                      subject:
+                        tag: subject
+                        value: https://ufokn.org/id/urmi/dngwy1rgvs9t
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: https://ufokn.org/id/urmi/dngwy1rgvs9t
+                      predicate:
+                        tag: predicate
+                        value: sdos:identifier
+                      subject:
+                        tag: subject
+                        value: https://ufokn.org/id/urmi/dngwy1rgvs9t
+              untyped:
+                tag: untyped
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: https://www.wikidata.org/wiki/Q8068
+                      predicate:
+                        tag: predicate
+                        value: sdos:identifier
+                      subject:
+                        tag: subject
+                        value: _:B0000a771d6d55f08b90a0ec24f88df60
+          sdos:latitude:
+            tag: sdos:latitude
+            value:
+              sdos:GeoCoordinates:
+                tag: sdos:GeoCoordinates
+                value:
+                  double:
+                    tag: double
+                    value:
+                      object:
+                        tag: object
+                        value: '39.94372211516241'
+                      predicate:
+                        tag: predicate
+                        value: sdos:latitude
+                      subject:
+                        tag: subject
+                        value: _:B00000c1ed4e6cc9338c8ecab34cc67b0
+          sdos:longitude:
+            tag: sdos:longitude
+            value:
+              sdos:GeoCoordinates:
+                tag: sdos:GeoCoordinates
+                value:
+                  double:
+                    tag: double
+                    value:
+                      object:
+                        tag: object
+                        value: '-82.99914237310664'
+                      predicate:
+                        tag: predicate
+                        value: sdos:longitude
+                      subject:
+                        tag: subject
+                        value: _:B00000c1ed4e6cc9338c8ecab34cc67b0
+          sdos:name:
+            tag: sdos:name
+            value:
+              kwgos:#S2Cell:
+                tag: kwgos:#S2Cell
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: s2Level13
+                      predicate:
+                        tag: predicate
+                        value: sdos:name
+                      subject:
+                        tag: subject
+                        value: _:B00000032aed8a0eec0dd64d10d094069
+              sdos:Observation:
+                tag: sdos:Observation
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 'Flooded Building 9mvu6s0twh5x '
+                      predicate:
+                        tag: predicate
+                        value: sdos:name
+                      subject:
+                        tag: subject
+                        value: uri:WEN-OKN_impacts_observation_9mvu6s0twh5x_2024102908
+              sdos:Place:
+                tag: sdos:Place
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: building flooded dngwy1rgvs9t
+                      predicate:
+                        tag: predicate
+                        value: sdos:name
+                      subject:
+                        tag: subject
+                        value: https://ufokn.org/id/urmi/dngwy1rgvs9t
+              sdos:PropertyValue:
+                tag: sdos:PropertyValue
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: s2Level13
+                      predicate:
+                        tag: predicate
+                        value: sdos:name
+                      subject:
+                        tag: subject
+                        value: _:B00000032aed8a0eec0dd64d10d094069
+              untyped:
+                tag: untyped
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: flood
+                      predicate:
+                        tag: predicate
+                        value: sdos:name
+                      subject:
+                        tag: subject
+                        value: _:B0000a771d6d55f08b90a0ec24f88df60
+          sdos:observationAbout:
+            tag: sdos:observationAbout
+            value:
+              sdos:Observation:
+                tag: sdos:Observation
+                value:
+                  sdos:Place:
+                    tag: sdos:Place
+                    value:
+                      object:
+                        tag: object
+                        value: https://ufokn.org/id/urmi/dngwy1rgvs9t
+                      predicate:
+                        tag: predicate
+                        value: sdos:observationAbout
+                      subject:
+                        tag: subject
+                        value: uri:WEN-OKN_impacts_observation_dngwy1rgvs9t_2024080109
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: https://ufokn.org/id/urmi/9mvu6s0twh5x
+                      predicate:
+                        tag: predicate
+                        value: sdos:observationAbout
+                      subject:
+                        tag: subject
+                        value: uri:WEN-OKN_impacts_observation_9mvu6s0twh5x_2024102908
+          sdos:observationDate:
+            tag: sdos:observationDate
+            value:
+              sdos:Observation:
+                tag: sdos:Observation
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: '2024-10-29T08:00:00'
+                      predicate:
+                        tag: predicate
+                        value: sdos:observationDate
+                      subject:
+                        tag: subject
+                        value: uri:WEN-OKN_impacts_observation_9mvu6s0twh5x_2024102908
+          sdos:propertyID:
+            tag: sdos:propertyID
+            value:
+              sdos:PropertyValue:
+                tag: sdos:PropertyValue
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: https://www.wikidata.org/wiki/Q25343
+                      predicate:
+                        tag: predicate
+                        value: sdos:propertyID
+                      subject:
+                        tag: subject
+                        value: _:B000001af50fc1cd89e05fea0f8a7f185
+          sdos:unitCode:
+            tag: sdos:unitCode
+            value:
+              sdos:PropertyValue:
+                tag: sdos:PropertyValue
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: http://qudt.org/vocab/unit/M2
+                      predicate:
+                        tag: predicate
+                        value: sdos:unitCode
+                      subject:
+                        tag: subject
+                        value: _:B000001af50fc1cd89e05fea0f8a7f185
+          sdos:unitText:
+            tag: sdos:unitText
+            value:
+              sdos:PropertyValue:
+                tag: sdos:PropertyValue
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: m^2
+                      predicate:
+                        tag: predicate
+                        value: sdos:unitText
+                      subject:
+                        tag: subject
+                        value: _:B000001af50fc1cd89e05fea0f8a7f185
+          sdos:value:
+            tag: sdos:value
+            value:
+              kwgos:#S2Cell:
+                tag: kwgos:#S2Cell
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: '9816684849258299392'
+                      predicate:
+                        tag: predicate
+                        value: sdos:value
+                      subject:
+                        tag: subject
+                        value: _:B00000032aed8a0eec0dd64d10d094069
+              sdos:Observation:
+                tag: sdos:Observation
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 'true'
+                      predicate:
+                        tag: predicate
+                        value: sdos:value
+                      subject:
+                        tag: subject
+                        value: uri:WEN-OKN_impacts_observation_9mvu6s0twh5x_2024102908
+              sdos:PropertyValue:
+                tag: sdos:PropertyValue
+                value:
+                  double:
+                    tag: double
+                    value:
+                      object:
+                        tag: object
+                        value: '218.4015955290656'
+                      predicate:
+                        tag: predicate
+                        value: sdos:value
+                      subject:
+                        tag: subject
+                        value: _:B000001af50fc1cd89e05fea0f8a7f185
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: '9816684849258299392'
+                      predicate:
+                        tag: predicate
+                        value: sdos:value
+                      subject:
+                        tag: subject
+                        value: _:B00000032aed8a0eec0dd64d10d094069
+          sdos:variableMeasured:
+            tag: sdos:variableMeasured
+            value:
+              sdos:Observation:
+                tag: sdos:Observation
+                value:
+                  sdos:PropertyValue:
+                    tag: sdos:PropertyValue
+                    value:
+                      object:
+                        tag: object
+                        value: _:B0e12e812ae2635f806db0c4f8542e16c
+                      predicate:
+                        tag: predicate
+                        value: sdos:variableMeasured
+                      subject:
+                        tag: subject
+                        value: uri:WEN-OKN_impacts_observation_9mvu6s0twh5x_2024102908
+              sdos:Place:
+                tag: sdos:Place
+                value:
+                  sdos:PropertyValue:
+                    tag: sdos:PropertyValue
+                    value:
+                      object:
+                        tag: object
+                        value: _:B717effee8651e04c626fd0fb46ff2490
+                      predicate:
+                        tag: predicate
+                        value: sdos:variableMeasured
+                      subject:
+                        tag: subject
+                        value: https://ufokn.org/id/urmi/dngwy1rgvs9t
+classes:
+  kwgos_#S2Cell:
+    class_uri: kwgos:#S2Cell
+    name: kwgos_#S2Cell
+    slots:
+    - sdos_description
+    - sdos_name
+    - sdos_additionalType
+    - sdos_value
+created_on: '2025-10-30T03:52:12.107781'
+default_prefix: okns
+id: okns:ufokn-kg
+imports:
+- okns:geo
+- okns:sdo
+- linkml:types
+last_updated_on: '2025-10-30T03:52:12.107781'
+name: ufokn-kg
+prefixes:
+  geo: http://www.opengis.net/ont/geosparql#
+  kwgos: https://stko-kwg.geog.ucsb.edu/lod/ontology
+  linkml: https://w3id.org/linkml/
+  okn: https://purl.org/okn/
+  okns: https://purl.org/okn/schema/
+  sdos: https://schema.org/
+slots: {}
+title: ufokn

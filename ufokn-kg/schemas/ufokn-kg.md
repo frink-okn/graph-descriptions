@@ -1,6 +1,6 @@
 # ufokn-kg
 
-TODO -- tell the world what this schema describes.
+None
 
-URI: ufokn-kg
+URI: okns:ufokn-kg
 
