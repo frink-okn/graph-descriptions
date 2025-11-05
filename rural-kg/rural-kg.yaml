@@ -1,0 +1,2790 @@
+annotations:
+  counts:
+    tag: counts
+    value:
+      classes:
+        tag: classes
+        value:
+          rural:administrativearea/City:
+            tag: rural:administrativearea/City
+            value: 31120
+          rural:administrativearea/County:
+            tag: rural:administrativearea/County
+            value: 3253
+          rural:administrativearea/State:
+            tag: rural:administrativearea/State
+            value: 56
+          rural:settlementtype/CountyStatus:
+            tag: rural:settlementtype/CountyStatus
+            value: 3234
+          rural:settlementtype/RUCC:
+            tag: rural:settlementtype/RUCC
+            value: 10
+          rural:substanceabuse/Substance:
+            tag: rural:substanceabuse/Substance
+            value: 23
+          rural:substanceabuse/SubstanceRelatedIncident:
+            tag: rural:substanceabuse/SubstanceRelatedIncident
+            value: 17
+          rural:treatment/MentalHealthService:
+            tag: rural:treatment/MentalHealthService
+            value: 176
+          rural:treatment/MentalHealthServiceCategory:
+            tag: rural:treatment/MentalHealthServiceCategory
+            value: 21
+          rural:treatment/TreatmentProvider:
+            tag: rural:treatment/TreatmentProvider
+            value: 9037
+          rural:variable/NIBRS:
+            tag: rural:variable/NIBRS
+            value: 469
+          rural:variable/NIBRSAnswer:
+            tag: rural:variable/NIBRSAnswer
+            value: 2258
+          rural:variable/NSDUH:
+            tag: rural:variable/NSDUH
+            value: 2464
+          rural:variable/NSDUHAnswer:
+            tag: rural:variable/NSDUHAnswer
+            value: 14923
+      pairs:
+        tag: pairs
+        value:
+          rural:administrativearea/abbreviation:
+            tag: rural:administrativearea/abbreviation
+            value:
+              rural:administrativearea/State:
+                tag: rural:administrativearea/State
+                value:
+                  string:
+                    tag: string
+                    value: 56
+          rural:administrativearea/containsPlace:
+            tag: rural:administrativearea/containsPlace
+            value:
+              rural:administrativearea/State:
+                tag: rural:administrativearea/State
+                value:
+                  rural:administrativearea/County:
+                    tag: rural:administrativearea/County
+                    value: 3253
+          rural:administrativearea/fips:
+            tag: rural:administrativearea/fips
+            value:
+              rural:administrativearea/County:
+                tag: rural:administrativearea/County
+                value:
+                  string:
+                    tag: string
+                    value: 3253
+              rural:administrativearea/State:
+                tag: rural:administrativearea/State
+                value:
+                  string:
+                    tag: string
+                    value: 56
+          rural:administrativearea/latitude:
+            tag: rural:administrativearea/latitude
+            value:
+              rural:administrativearea/City:
+                tag: rural:administrativearea/City
+                value:
+                  float:
+                    tag: float
+                    value: 31120
+          rural:administrativearea/longitude:
+            tag: rural:administrativearea/longitude
+            value:
+              rural:administrativearea/City:
+                tag: rural:administrativearea/City
+                value:
+                  float:
+                    tag: float
+                    value: 31120
+          rural:administrativearea/name:
+            tag: rural:administrativearea/name
+            value:
+              rural:administrativearea/City:
+                tag: rural:administrativearea/City
+                value:
+                  string:
+                    tag: string
+                    value: 31120
+              rural:administrativearea/County:
+                tag: rural:administrativearea/County
+                value:
+                  string:
+                    tag: string
+                    value: 3253
+              rural:administrativearea/State:
+                tag: rural:administrativearea/State
+                value:
+                  string:
+                    tag: string
+                    value: 56
+          rural:administrativearea/primaryCounty:
+            tag: rural:administrativearea/primaryCounty
+            value:
+              rural:administrativearea/City:
+                tag: rural:administrativearea/City
+                value:
+                  rural:administrativearea/County:
+                    tag: rural:administrativearea/County
+                    value: 31120
+          rural:administrativearea/ranking:
+            tag: rural:administrativearea/ranking
+            value:
+              rural:administrativearea/City:
+                tag: rural:administrativearea/City
+                value:
+                  integer:
+                    tag: integer
+                    value: 31120
+          rural:settlementtype/censusCounty:
+            tag: rural:settlementtype/censusCounty
+            value:
+              rural:settlementtype/CountyStatus:
+                tag: rural:settlementtype/CountyStatus
+                value:
+                  rural:administrativearea/County:
+                    tag: rural:administrativearea/County
+                    value: 3234
+          rural:settlementtype/code:
+            tag: rural:settlementtype/code
+            value:
+              rural:settlementtype/RUCC:
+                tag: rural:settlementtype/RUCC
+                value:
+                  string:
+                    tag: string
+                    value: 10
+          rural:settlementtype/description:
+            tag: rural:settlementtype/description
+            value:
+              rural:settlementtype/RUCC:
+                tag: rural:settlementtype/RUCC
+                value:
+                  string:
+                    tag: string
+                    value: 10
+          rural:settlementtype/hasRUCC:
+            tag: rural:settlementtype/hasRUCC
+            value:
+              rural:settlementtype/CountyStatus:
+                tag: rural:settlementtype/CountyStatus
+                value:
+                  rural:settlementtype/RUCC:
+                    tag: rural:settlementtype/RUCC
+                    value: 3234
+          rural:settlementtype/population:
+            tag: rural:settlementtype/population
+            value:
+              rural:settlementtype/CountyStatus:
+                tag: rural:settlementtype/CountyStatus
+                value:
+                  integer:
+                    tag: integer
+                    value: 3234
+          rural:settlementtype/year:
+            tag: rural:settlementtype/year
+            value:
+              rural:settlementtype/CountyStatus:
+                tag: rural:settlementtype/CountyStatus
+                value:
+                  integer:
+                    tag: integer
+                    value: 3234
+              rural:settlementtype/RUCC:
+                tag: rural:settlementtype/RUCC
+                value:
+                  integer:
+                    tag: integer
+                    value: 10
+          rural:substanceabuse/code:
+            tag: rural:substanceabuse/code
+            value:
+              rural:substanceabuse/Substance:
+                tag: rural:substanceabuse/Substance
+                value:
+                  string:
+                    tag: string
+                    value: 23
+          rural:substanceabuse/description:
+            tag: rural:substanceabuse/description
+            value:
+              rural:substanceabuse/Substance:
+                tag: rural:substanceabuse/Substance
+                value:
+                  string:
+                    tag: string
+                    value: 23
+          rural:substanceabuse/fromDataset:
+            tag: rural:substanceabuse/fromDataset
+            value:
+              rural:substanceabuse/Substance:
+                tag: rural:substanceabuse/Substance
+                value:
+                  string:
+                    tag: string
+                    value: 23
+              rural:substanceabuse/SubstanceRelatedIncident:
+                tag: rural:substanceabuse/SubstanceRelatedIncident
+                value:
+                  string:
+                    tag: string
+                    value: 17
+          rural:substanceabuse/identifier:
+            tag: rural:substanceabuse/identifier
+            value:
+              rural:substanceabuse/Substance:
+                tag: rural:substanceabuse/Substance
+                value:
+                  string:
+                    tag: string
+                    value: 23
+          rural:substanceabuse/name:
+            tag: rural:substanceabuse/name
+            value:
+              rural:substanceabuse/Substance:
+                tag: rural:substanceabuse/Substance
+                value:
+                  string:
+                    tag: string
+                    value: 23
+              rural:substanceabuse/SubstanceRelatedIncident:
+                tag: rural:substanceabuse/SubstanceRelatedIncident
+                value:
+                  string:
+                    tag: string
+                    value: 17
+          rural:substanceabuse/year:
+            tag: rural:substanceabuse/year
+            value:
+              rural:substanceabuse/Substance:
+                tag: rural:substanceabuse/Substance
+                value:
+                  integer:
+                    tag: integer
+                    value: 23
+              rural:substanceabuse/SubstanceRelatedIncident:
+                tag: rural:substanceabuse/SubstanceRelatedIncident
+                value:
+                  integer:
+                    tag: integer
+                    value: 17
+          rural:treatment/address:
+            tag: rural:treatment/address
+            value:
+              rural:treatment/TreatmentProvider:
+                tag: rural:treatment/TreatmentProvider
+                value:
+                  string:
+                    tag: string
+                    value: 9037
+          rural:treatment/alias:
+            tag: rural:treatment/alias
+            value:
+              rural:treatment/TreatmentProvider:
+                tag: rural:treatment/TreatmentProvider
+                value:
+                  string:
+                    tag: string
+                    value: 9037
+          rural:treatment/code:
+            tag: rural:treatment/code
+            value:
+              rural:treatment/MentalHealthService:
+                tag: rural:treatment/MentalHealthService
+                value:
+                  string:
+                    tag: string
+                    value: 176
+              rural:treatment/MentalHealthServiceCategory:
+                tag: rural:treatment/MentalHealthServiceCategory
+                value:
+                  string:
+                    tag: string
+                    value: 21
+          rural:treatment/containsService:
+            tag: rural:treatment/containsService
+            value:
+              rural:treatment/MentalHealthServiceCategory:
+                tag: rural:treatment/MentalHealthServiceCategory
+                value:
+                  rural:treatment/MentalHealthService:
+                    tag: rural:treatment/MentalHealthService
+                    value: 176
+          rural:treatment/description:
+            tag: rural:treatment/description
+            value:
+              rural:treatment/MentalHealthService:
+                tag: rural:treatment/MentalHealthService
+                value:
+                  string:
+                    tag: string
+                    value: 176
+          rural:treatment/inCity:
+            tag: rural:treatment/inCity
+            value:
+              rural:treatment/TreatmentProvider:
+                tag: rural:treatment/TreatmentProvider
+                value:
+                  rural:administrativearea/City:
+                    tag: rural:administrativearea/City
+                    value: 8117
+                  uri:
+                    tag: uri
+                    value: 920
+          rural:treatment/name:
+            tag: rural:treatment/name
+            value:
+              rural:treatment/MentalHealthService:
+                tag: rural:treatment/MentalHealthService
+                value:
+                  string:
+                    tag: string
+                    value: 176
+              rural:treatment/MentalHealthServiceCategory:
+                tag: rural:treatment/MentalHealthServiceCategory
+                value:
+                  string:
+                    tag: string
+                    value: 21
+              rural:treatment/TreatmentProvider:
+                tag: rural:treatment/TreatmentProvider
+                value:
+                  string:
+                    tag: string
+                    value: 9037
+          rural:treatment/phone:
+            tag: rural:treatment/phone
+            value:
+              rural:treatment/TreatmentProvider:
+                tag: rural:treatment/TreatmentProvider
+                value:
+                  string:
+                    tag: string
+                    value: 9037
+          rural:treatment/providesService:
+            tag: rural:treatment/providesService
+            value:
+              rural:treatment/TreatmentProvider:
+                tag: rural:treatment/TreatmentProvider
+                value:
+                  rural:treatment/MentalHealthService:
+                    tag: rural:treatment/MentalHealthService
+                    value: 442841
+          rural:treatment/year:
+            tag: rural:treatment/year
+            value:
+              rural:treatment/MentalHealthService:
+                tag: rural:treatment/MentalHealthService
+                value:
+                  integer:
+                    tag: integer
+                    value: 176
+              rural:treatment/MentalHealthServiceCategory:
+                tag: rural:treatment/MentalHealthServiceCategory
+                value:
+                  integer:
+                    tag: integer
+                    value: 21
+          rural:treatment/zipcode:
+            tag: rural:treatment/zipcode
+            value:
+              rural:treatment/TreatmentProvider:
+                tag: rural:treatment/TreatmentProvider
+                value:
+                  string:
+                    tag: string
+                    value: 9037
+          rural:variable/answerCode:
+            tag: rural:variable/answerCode
+            value:
+              rural:variable/NIBRSAnswer:
+                tag: rural:variable/NIBRSAnswer
+                value:
+                  string:
+                    tag: string
+                    value: 2258
+              rural:variable/NSDUHAnswer:
+                tag: rural:variable/NSDUHAnswer
+                value:
+                  string:
+                    tag: string
+                    value: 14923
+          rural:variable/answerContent:
+            tag: rural:variable/answerContent
+            value:
+              rural:variable/NIBRSAnswer:
+                tag: rural:variable/NIBRSAnswer
+                value:
+                  string:
+                    tag: string
+                    value: 2258
+              rural:variable/NSDUHAnswer:
+                tag: rural:variable/NSDUHAnswer
+                value:
+                  string:
+                    tag: string
+                    value: 14923
+          rural:variable/code:
+            tag: rural:variable/code
+            value:
+              rural:variable/NIBRS:
+                tag: rural:variable/NIBRS
+                value:
+                  string:
+                    tag: string
+                    value: 469
+              rural:variable/NSDUH:
+                tag: rural:variable/NSDUH
+                value:
+                  string:
+                    tag: string
+                    value: 2464
+          rural:variable/content:
+            tag: rural:variable/content
+            value:
+              rural:variable/NIBRS:
+                tag: rural:variable/NIBRS
+                value:
+                  string:
+                    tag: string
+                    value: 469
+              rural:variable/NSDUH:
+                tag: rural:variable/NSDUH
+                value:
+                  string:
+                    tag: string
+                    value: 2465
+          rural:variable/description:
+            tag: rural:variable/description
+            value:
+              rural:variable/NIBRS:
+                tag: rural:variable/NIBRS
+                value:
+                  string:
+                    tag: string
+                    value: 469
+              rural:variable/NSDUH:
+                tag: rural:variable/NSDUH
+                value:
+                  string:
+                    tag: string
+                    value: 2464
+          rural:variable/fromDataset:
+            tag: rural:variable/fromDataset
+            value:
+              rural:variable/NIBRS:
+                tag: rural:variable/NIBRS
+                value:
+                  string:
+                    tag: string
+                    value: 469
+              rural:variable/NSDUH:
+                tag: rural:variable/NSDUH
+                value:
+                  string:
+                    tag: string
+                    value: 2464
+          rural:variable/generatedDescription:
+            tag: rural:variable/generatedDescription
+            value:
+              rural:variable/NIBRS:
+                tag: rural:variable/NIBRS
+                value:
+                  string:
+                    tag: string
+                    value: 469
+              rural:variable/NSDUH:
+                tag: rural:variable/NSDUH
+                value:
+                  string:
+                    tag: string
+                    value: 2465
+          rural:variable/hasAnswer:
+            tag: rural:variable/hasAnswer
+            value:
+              rural:variable/NIBRS:
+                tag: rural:variable/NIBRS
+                value:
+                  rural:variable/NIBRSAnswer:
+                    tag: rural:variable/NIBRSAnswer
+                    value: 2258
+              rural:variable/NSDUH:
+                tag: rural:variable/NSDUH
+                value:
+                  rural:variable/NSDUHAnswer:
+                    tag: rural:variable/NSDUHAnswer
+                    value: 14923
+          rural:variable/year:
+            tag: rural:variable/year
+            value:
+              rural:variable/NIBRS:
+                tag: rural:variable/NIBRS
+                value:
+                  integer:
+                    tag: integer
+                    value: 469
+              rural:variable/NSDUH:
+                tag: rural:variable/NSDUH
+                value:
+                  integer:
+                    tag: integer
+                    value: 2464
+      slots:
+        tag: slots
+        value:
+          rural:administrativearea/abbreviation:
+            tag: rural:administrativearea/abbreviation
+            value: 56
+          rural:administrativearea/containsPlace:
+            tag: rural:administrativearea/containsPlace
+            value: 3253
+          rural:administrativearea/fips:
+            tag: rural:administrativearea/fips
+            value: 3309
+          rural:administrativearea/latitude:
+            tag: rural:administrativearea/latitude
+            value: 31120
+          rural:administrativearea/longitude:
+            tag: rural:administrativearea/longitude
+            value: 31120
+          rural:administrativearea/name:
+            tag: rural:administrativearea/name
+            value: 34429
+          rural:administrativearea/primaryCounty:
+            tag: rural:administrativearea/primaryCounty
+            value: 31120
+          rural:administrativearea/ranking:
+            tag: rural:administrativearea/ranking
+            value: 31120
+          rural:settlementtype/censusCounty:
+            tag: rural:settlementtype/censusCounty
+            value: 3234
+          rural:settlementtype/code:
+            tag: rural:settlementtype/code
+            value: 10
+          rural:settlementtype/description:
+            tag: rural:settlementtype/description
+            value: 10
+          rural:settlementtype/hasRUCC:
+            tag: rural:settlementtype/hasRUCC
+            value: 3234
+          rural:settlementtype/population:
+            tag: rural:settlementtype/population
+            value: 3234
+          rural:settlementtype/year:
+            tag: rural:settlementtype/year
+            value: 3244
+          rural:substanceabuse/code:
+            tag: rural:substanceabuse/code
+            value: 23
+          rural:substanceabuse/description:
+            tag: rural:substanceabuse/description
+            value: 23
+          rural:substanceabuse/fromDataset:
+            tag: rural:substanceabuse/fromDataset
+            value: 40
+          rural:substanceabuse/identifier:
+            tag: rural:substanceabuse/identifier
+            value: 23
+          rural:substanceabuse/name:
+            tag: rural:substanceabuse/name
+            value: 40
+          rural:substanceabuse/year:
+            tag: rural:substanceabuse/year
+            value: 40
+          rural:treatment/address:
+            tag: rural:treatment/address
+            value: 9037
+          rural:treatment/alias:
+            tag: rural:treatment/alias
+            value: 9037
+          rural:treatment/code:
+            tag: rural:treatment/code
+            value: 197
+          rural:treatment/containsService:
+            tag: rural:treatment/containsService
+            value: 176
+          rural:treatment/description:
+            tag: rural:treatment/description
+            value: 176
+          rural:treatment/inCity:
+            tag: rural:treatment/inCity
+            value: 9037
+          rural:treatment/name:
+            tag: rural:treatment/name
+            value: 9234
+          rural:treatment/phone:
+            tag: rural:treatment/phone
+            value: 9037
+          rural:treatment/providesService:
+            tag: rural:treatment/providesService
+            value: 442841
+          rural:treatment/year:
+            tag: rural:treatment/year
+            value: 197
+          rural:treatment/zipcode:
+            tag: rural:treatment/zipcode
+            value: 9037
+          rural:variable/answerCode:
+            tag: rural:variable/answerCode
+            value: 17181
+          rural:variable/answerContent:
+            tag: rural:variable/answerContent
+            value: 17181
+          rural:variable/code:
+            tag: rural:variable/code
+            value: 2933
+          rural:variable/content:
+            tag: rural:variable/content
+            value: 2934
+          rural:variable/description:
+            tag: rural:variable/description
+            value: 2933
+          rural:variable/fromDataset:
+            tag: rural:variable/fromDataset
+            value: 2933
+          rural:variable/generatedDescription:
+            tag: rural:variable/generatedDescription
+            value: 2934
+          rural:variable/hasAnswer:
+            tag: rural:variable/hasAnswer
+            value: 17181
+          rural:variable/year:
+            tag: rural:variable/year
+            value: 2933
+  examples:
+    tag: examples
+    value:
+      classes:
+        tag: classes
+        value:
+          rural:administrativearea/City:
+            tag: rural:administrativearea/City
+            value: rural:administrativearea/City_1840153164
+          rural:administrativearea/County:
+            tag: rural:administrativearea/County
+            value: rural:administrativearea/County_78030
+          rural:administrativearea/State:
+            tag: rural:administrativearea/State
+            value: rural:administrativearea/State_WY
+          rural:settlementtype/CountyStatus:
+            tag: rural:settlementtype/CountyStatus
+            value: rural:settlementtype/CountyStatus_78030_2013
+          rural:settlementtype/RUCC:
+            tag: rural:settlementtype/RUCC
+            value: rural:settlementtype/RUCC_2013_9
+          rural:substanceabuse/Substance:
+            tag: rural:substanceabuse/Substance
+            value: rural:substanceabuse/Substance_f0efa50d-775f-418d-96f4-5ed0a393d3d2
+          rural:substanceabuse/SubstanceRelatedIncident:
+            tag: rural:substanceabuse/SubstanceRelatedIncident
+            value: rural:substanceabuse/SIT_f751b795-a570-41d5-974a-bd0dea99f158
+          rural:treatment/MentalHealthService:
+            tag: rural:treatment/MentalHealthService
+            value: rural:treatment/MHS_ZIPRA
+          rural:treatment/MentalHealthServiceCategory:
+            tag: rural:treatment/MentalHealthServiceCategory
+            value: rural:treatment/MHSC_TC
+          rural:treatment/TreatmentProvider:
+            tag: rural:treatment/TreatmentProvider
+            value: rural:treatment/TP_999
+          rural:variable/NIBRS:
+            tag: rural:variable/NIBRS
+            value: rural:variable/NIBRS_V6019
+          rural:variable/NIBRSAnswer:
+            tag: rural:variable/NIBRSAnswer
+            value: rural:variable/Answer_NIBRS_fffbdc7e_9662_4fbc_911f_a490c83ae5f4
+          rural:variable/NSDUH:
+            tag: rural:variable/NSDUH
+            value: rural:variable/NSDUH_YUSUITHKYR
+          rural:variable/NSDUHAnswer:
+            tag: rural:variable/NSDUHAnswer
+            value: rural:variable/Answer_NSDUH_fffd5b13_0e76_4e94_9f3e_62213d525b29
+      pairs:
+        tag: pairs
+        value:
+          rural:administrativearea/abbreviation:
+            tag: rural:administrativearea/abbreviation
+            value:
+              rural:administrativearea/State:
+                tag: rural:administrativearea/State
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: AK
+                      predicate:
+                        tag: predicate
+                        value: rural:administrativearea/abbreviation
+                      subject:
+                        tag: subject
+                        value: rural:administrativearea/State_AK
+          rural:administrativearea/containsPlace:
+            tag: rural:administrativearea/containsPlace
+            value:
+              rural:administrativearea/State:
+                tag: rural:administrativearea/State
+                value:
+                  rural:administrativearea/County:
+                    tag: rural:administrativearea/County
+                    value:
+                      object:
+                        tag: object
+                        value: rural:administrativearea/County_02013
+                      predicate:
+                        tag: predicate
+                        value: rural:administrativearea/containsPlace
+                      subject:
+                        tag: subject
+                        value: rural:administrativearea/State_AK
+          rural:administrativearea/fips:
+            tag: rural:administrativearea/fips
+            value:
+              rural:administrativearea/County:
+                tag: rural:administrativearea/County
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: '01001'
+                      predicate:
+                        tag: predicate
+                        value: rural:administrativearea/fips
+                      subject:
+                        tag: subject
+                        value: rural:administrativearea/County_01001
+              rural:administrativearea/State:
+                tag: rural:administrativearea/State
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: '02'
+                      predicate:
+                        tag: predicate
+                        value: rural:administrativearea/fips
+                      subject:
+                        tag: subject
+                        value: rural:administrativearea/State_AK
+          rural:administrativearea/latitude:
+            tag: rural:administrativearea/latitude
+            value:
+              rural:administrativearea/City:
+                tag: rural:administrativearea/City
+                value:
+                  float:
+                    tag: float
+                    value:
+                      object:
+                        tag: object
+                        value: '18.2319'
+                      predicate:
+                        tag: predicate
+                        value: rural:administrativearea/latitude
+                      subject:
+                        tag: subject
+                        value: rural:administrativearea/City_1630023540
+          rural:administrativearea/longitude:
+            tag: rural:administrativearea/longitude
+            value:
+              rural:administrativearea/City:
+                tag: rural:administrativearea/City
+                value:
+                  float:
+                    tag: float
+                    value:
+                      object:
+                        tag: object
+                        value: '-66.0388'
+                      predicate:
+                        tag: predicate
+                        value: rural:administrativearea/longitude
+                      subject:
+                        tag: subject
+                        value: rural:administrativearea/City_1630023540
+          rural:administrativearea/name:
+            tag: rural:administrativearea/name
+            value:
+              rural:administrativearea/City:
+                tag: rural:administrativearea/City
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Caguas
+                      predicate:
+                        tag: predicate
+                        value: rural:administrativearea/name
+                      subject:
+                        tag: subject
+                        value: rural:administrativearea/City_1630023540
+              rural:administrativearea/County:
+                tag: rural:administrativearea/County
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Autauga
+                      predicate:
+                        tag: predicate
+                        value: rural:administrativearea/name
+                      subject:
+                        tag: subject
+                        value: rural:administrativearea/County_01001
+              rural:administrativearea/State:
+                tag: rural:administrativearea/State
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Alaska
+                      predicate:
+                        tag: predicate
+                        value: rural:administrativearea/name
+                      subject:
+                        tag: subject
+                        value: rural:administrativearea/State_AK
+          rural:administrativearea/primaryCounty:
+            tag: rural:administrativearea/primaryCounty
+            value:
+              rural:administrativearea/City:
+                tag: rural:administrativearea/City
+                value:
+                  rural:administrativearea/County:
+                    tag: rural:administrativearea/County
+                    value:
+                      object:
+                        tag: object
+                        value: rural:administrativearea/County_72025
+                      predicate:
+                        tag: predicate
+                        value: rural:administrativearea/primaryCounty
+                      subject:
+                        tag: subject
+                        value: rural:administrativearea/City_1630023540
+          rural:administrativearea/ranking:
+            tag: rural:administrativearea/ranking
+            value:
+              rural:administrativearea/City:
+                tag: rural:administrativearea/City
+                value:
+                  integer:
+                    tag: integer
+                    value:
+                      object:
+                        tag: object
+                        value: '2'
+                      predicate:
+                        tag: predicate
+                        value: rural:administrativearea/ranking
+                      subject:
+                        tag: subject
+                        value: rural:administrativearea/City_1630023540
+          rural:settlementtype/censusCounty:
+            tag: rural:settlementtype/censusCounty
+            value:
+              rural:settlementtype/CountyStatus:
+                tag: rural:settlementtype/CountyStatus
+                value:
+                  rural:administrativearea/County:
+                    tag: rural:administrativearea/County
+                    value:
+                      object:
+                        tag: object
+                        value: rural:administrativearea/County_01001
+                      predicate:
+                        tag: predicate
+                        value: rural:settlementtype/censusCounty
+                      subject:
+                        tag: subject
+                        value: rural:settlementtype/CountyStatus_01001_2013
+          rural:settlementtype/code:
+            tag: rural:settlementtype/code
+            value:
+              rural:settlementtype/RUCC:
+                tag: rural:settlementtype/RUCC
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: '0'
+                      predicate:
+                        tag: predicate
+                        value: rural:settlementtype/code
+                      subject:
+                        tag: subject
+                        value: rural:settlementtype/RUCC_2013_0
+          rural:settlementtype/description:
+            tag: rural:settlementtype/description
+            value:
+              rural:settlementtype/RUCC:
+                tag: rural:settlementtype/RUCC
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Not Applicable
+                      predicate:
+                        tag: predicate
+                        value: rural:settlementtype/description
+                      subject:
+                        tag: subject
+                        value: rural:settlementtype/RUCC_2013_0
+          rural:settlementtype/hasRUCC:
+            tag: rural:settlementtype/hasRUCC
+            value:
+              rural:settlementtype/CountyStatus:
+                tag: rural:settlementtype/CountyStatus
+                value:
+                  rural:settlementtype/RUCC:
+                    tag: rural:settlementtype/RUCC
+                    value:
+                      object:
+                        tag: object
+                        value: rural:settlementtype/RUCC_2013_2
+                      predicate:
+                        tag: predicate
+                        value: rural:settlementtype/hasRUCC
+                      subject:
+                        tag: subject
+                        value: rural:settlementtype/CountyStatus_01001_2013
+          rural:settlementtype/population:
+            tag: rural:settlementtype/population
+            value:
+              rural:settlementtype/CountyStatus:
+                tag: rural:settlementtype/CountyStatus
+                value:
+                  integer:
+                    tag: integer
+                    value:
+                      object:
+                        tag: object
+                        value: '54571'
+                      predicate:
+                        tag: predicate
+                        value: rural:settlementtype/population
+                      subject:
+                        tag: subject
+                        value: rural:settlementtype/CountyStatus_01001_2013
+          rural:settlementtype/year:
+            tag: rural:settlementtype/year
+            value:
+              rural:settlementtype/CountyStatus:
+                tag: rural:settlementtype/CountyStatus
+                value:
+                  integer:
+                    tag: integer
+                    value:
+                      object:
+                        tag: object
+                        value: '2013'
+                      predicate:
+                        tag: predicate
+                        value: rural:settlementtype/year
+                      subject:
+                        tag: subject
+                        value: rural:settlementtype/CountyStatus_01001_2013
+              rural:settlementtype/RUCC:
+                tag: rural:settlementtype/RUCC
+                value:
+                  integer:
+                    tag: integer
+                    value:
+                      object:
+                        tag: object
+                        value: '2013'
+                      predicate:
+                        tag: predicate
+                        value: rural:settlementtype/year
+                      subject:
+                        tag: subject
+                        value: rural:settlementtype/RUCC_2013_0
+          rural:substanceabuse/code:
+            tag: rural:substanceabuse/code
+            value:
+              rural:substanceabuse/Substance:
+                tag: rural:substanceabuse/Substance
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: None
+                      predicate:
+                        tag: predicate
+                        value: rural:substanceabuse/code
+                      subject:
+                        tag: subject
+                        value: rural:substanceabuse/Substance_135de041-4e4c-457b-ae79-e0d912bb5e65
+          rural:substanceabuse/description:
+            tag: rural:substanceabuse/description
+            value:
+              rural:substanceabuse/Substance:
+                tag: rural:substanceabuse/Substance
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Crack is a chemically altered, smokeable form of cocaine
+                          base, characterized by its rapid onset and intense effects.
+                      predicate:
+                        tag: predicate
+                        value: rural:substanceabuse/description
+                      subject:
+                        tag: subject
+                        value: rural:substanceabuse/Substance_135de041-4e4c-457b-ae79-e0d912bb5e65
+          rural:substanceabuse/fromDataset:
+            tag: rural:substanceabuse/fromDataset
+            value:
+              rural:substanceabuse/Substance:
+                tag: rural:substanceabuse/Substance
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: NSDUH
+                      predicate:
+                        tag: predicate
+                        value: rural:substanceabuse/fromDataset
+                      subject:
+                        tag: subject
+                        value: rural:substanceabuse/Substance_135de041-4e4c-457b-ae79-e0d912bb5e65
+              rural:substanceabuse/SubstanceRelatedIncident:
+                tag: rural:substanceabuse/SubstanceRelatedIncident
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: NSDUH
+                      predicate:
+                        tag: predicate
+                        value: rural:substanceabuse/fromDataset
+                      subject:
+                        tag: subject
+                        value: rural:substanceabuse/SIT_0a4420e8-a255-4baa-b67b-8f165fead0a4
+          rural:substanceabuse/identifier:
+            tag: rural:substanceabuse/identifier
+            value:
+              rural:substanceabuse/Substance:
+                tag: rural:substanceabuse/Substance
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Q330694
+                      predicate:
+                        tag: predicate
+                        value: rural:substanceabuse/identifier
+                      subject:
+                        tag: subject
+                        value: rural:substanceabuse/Substance_135de041-4e4c-457b-ae79-e0d912bb5e65
+          rural:substanceabuse/name:
+            tag: rural:substanceabuse/name
+            value:
+              rural:substanceabuse/Substance:
+                tag: rural:substanceabuse/Substance
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Crack
+                      predicate:
+                        tag: predicate
+                        value: rural:substanceabuse/name
+                      subject:
+                        tag: subject
+                        value: rural:substanceabuse/Substance_135de041-4e4c-457b-ae79-e0d912bb5e65
+              rural:substanceabuse/SubstanceRelatedIncident:
+                tag: rural:substanceabuse/SubstanceRelatedIncident
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: High Frequency Substance Usage
+                      predicate:
+                        tag: predicate
+                        value: rural:substanceabuse/name
+                      subject:
+                        tag: subject
+                        value: rural:substanceabuse/SIT_0a4420e8-a255-4baa-b67b-8f165fead0a4
+          rural:substanceabuse/year:
+            tag: rural:substanceabuse/year
+            value:
+              rural:substanceabuse/Substance:
+                tag: rural:substanceabuse/Substance
+                value:
+                  integer:
+                    tag: integer
+                    value:
+                      object:
+                        tag: object
+                        value: '2022'
+                      predicate:
+                        tag: predicate
+                        value: rural:substanceabuse/year
+                      subject:
+                        tag: subject
+                        value: rural:substanceabuse/Substance_135de041-4e4c-457b-ae79-e0d912bb5e65
+              rural:substanceabuse/SubstanceRelatedIncident:
+                tag: rural:substanceabuse/SubstanceRelatedIncident
+                value:
+                  integer:
+                    tag: integer
+                    value:
+                      object:
+                        tag: object
+                        value: '2022'
+                      predicate:
+                        tag: predicate
+                        value: rural:substanceabuse/year
+                      subject:
+                        tag: subject
+                        value: rural:substanceabuse/SIT_0a4420e8-a255-4baa-b67b-8f165fead0a4
+          rural:treatment/address:
+            tag: rural:treatment/address
+            value:
+              rural:treatment/TreatmentProvider:
+                tag: rural:treatment/TreatmentProvider
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 219 Dothan Road, NaN
+                      predicate:
+                        tag: predicate
+                        value: rural:treatment/address
+                      subject:
+                        tag: subject
+                        value: rural:treatment/TP_1
+          rural:treatment/alias:
+            tag: rural:treatment/alias
+            value:
+              rural:treatment/TreatmentProvider:
+                tag: rural:treatment/TreatmentProvider
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Henry County Clinic
+                      predicate:
+                        tag: predicate
+                        value: rural:treatment/alias
+                      subject:
+                        tag: subject
+                        value: rural:treatment/TP_1
+          rural:treatment/code:
+            tag: rural:treatment/code
+            value:
+              rural:treatment/MentalHealthService:
+                tag: rural:treatment/MentalHealthService
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: ACT
+                      predicate:
+                        tag: predicate
+                        value: rural:treatment/code
+                      subject:
+                        tag: subject
+                        value: rural:treatment/MHS_ACT
+              rural:treatment/MentalHealthServiceCategory:
+                tag: rural:treatment/MentalHealthServiceCategory
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: AGE
+                      predicate:
+                        tag: predicate
+                        value: rural:treatment/code
+                      subject:
+                        tag: subject
+                        value: rural:treatment/MHSC_AGE
+          rural:treatment/containsService:
+            tag: rural:treatment/containsService
+            value:
+              rural:treatment/MentalHealthServiceCategory:
+                tag: rural:treatment/MentalHealthServiceCategory
+                value:
+                  rural:treatment/MentalHealthService:
+                    tag: rural:treatment/MentalHealthService
+                    value:
+                      object:
+                        tag: object
+                        value: rural:treatment/MHS_ADLT
+                      predicate:
+                        tag: predicate
+                        value: rural:treatment/containsService
+                      subject:
+                        tag: subject
+                        value: rural:treatment/MHSC_AGE
+          rural:treatment/description:
+            tag: rural:treatment/description
+            value:
+              rural:treatment/MentalHealthService:
+                tag: rural:treatment/MentalHealthService
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: A multi-disciplinary clinical team approach, helps
+                          those with serious mental illness live in the community
+                          by providing 24-hour intensive community services in the
+                          individual's natural setting.
+                      predicate:
+                        tag: predicate
+                        value: rural:treatment/description
+                      subject:
+                        tag: subject
+                        value: rural:treatment/MHS_ACT
+          rural:treatment/inCity:
+            tag: rural:treatment/inCity
+            value:
+              rural:treatment/TreatmentProvider:
+                tag: rural:treatment/TreatmentProvider
+                value:
+                  rural:administrativearea/City:
+                    tag: rural:administrativearea/City
+                    value:
+                      object:
+                        tag: object
+                        value: rural:administrativearea/City_1840000552
+                      predicate:
+                        tag: predicate
+                        value: rural:treatment/inCity
+                      subject:
+                        tag: subject
+                        value: rural:treatment/TP_1
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: rural:administrativearea/City_None
+                      predicate:
+                        tag: predicate
+                        value: rural:treatment/inCity
+                      subject:
+                        tag: subject
+                        value: rural:treatment/TP_1107
+          rural:treatment/name:
+            tag: rural:treatment/name
+            value:
+              rural:treatment/MentalHealthService:
+                tag: rural:treatment/MentalHealthService
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Assertive community treatment
+                      predicate:
+                        tag: predicate
+                        value: rural:treatment/name
+                      subject:
+                        tag: subject
+                        value: rural:treatment/MHS_ACT
+              rural:treatment/MentalHealthServiceCategory:
+                tag: rural:treatment/MentalHealthServiceCategory
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Age Groups Accepted
+                      predicate:
+                        tag: predicate
+                        value: rural:treatment/name
+                      subject:
+                        tag: subject
+                        value: rural:treatment/MHSC_AGE
+              rural:treatment/TreatmentProvider:
+                tag: rural:treatment/TreatmentProvider
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: SpectraCare Health Systems
+                      predicate:
+                        tag: predicate
+                        value: rural:treatment/name
+                      subject:
+                        tag: subject
+                        value: rural:treatment/TP_1
+          rural:treatment/phone:
+            tag: rural:treatment/phone
+            value:
+              rural:treatment/TreatmentProvider:
+                tag: rural:treatment/TreatmentProvider
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 800-951-4357
+                      predicate:
+                        tag: predicate
+                        value: rural:treatment/phone
+                      subject:
+                        tag: subject
+                        value: rural:treatment/TP_1
+          rural:treatment/providesService:
+            tag: rural:treatment/providesService
+            value:
+              rural:treatment/TreatmentProvider:
+                tag: rural:treatment/TreatmentProvider
+                value:
+                  rural:treatment/MentalHealthService:
+                    tag: rural:treatment/MentalHealthService
+                    value:
+                      object:
+                        tag: object
+                        value: rural:treatment/MHS_ACT
+                      predicate:
+                        tag: predicate
+                        value: rural:treatment/providesService
+                      subject:
+                        tag: subject
+                        value: rural:treatment/TP_1
+          rural:treatment/year:
+            tag: rural:treatment/year
+            value:
+              rural:treatment/MentalHealthService:
+                tag: rural:treatment/MentalHealthService
+                value:
+                  integer:
+                    tag: integer
+                    value:
+                      object:
+                        tag: object
+                        value: '2022'
+                      predicate:
+                        tag: predicate
+                        value: rural:treatment/year
+                      subject:
+                        tag: subject
+                        value: rural:treatment/MHS_ACT
+              rural:treatment/MentalHealthServiceCategory:
+                tag: rural:treatment/MentalHealthServiceCategory
+                value:
+                  integer:
+                    tag: integer
+                    value:
+                      object:
+                        tag: object
+                        value: '2022'
+                      predicate:
+                        tag: predicate
+                        value: rural:treatment/year
+                      subject:
+                        tag: subject
+                        value: rural:treatment/MHSC_AGE
+          rural:treatment/zipcode:
+            tag: rural:treatment/zipcode
+            value:
+              rural:treatment/TreatmentProvider:
+                tag: rural:treatment/TreatmentProvider
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: '36310'
+                      predicate:
+                        tag: predicate
+                        value: rural:treatment/zipcode
+                      subject:
+                        tag: subject
+                        value: rural:treatment/TP_1
+          rural:variable/answerCode:
+            tag: rural:variable/answerCode
+            value:
+              rural:variable/NIBRSAnswer:
+                tag: rural:variable/NIBRSAnswer
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 11 to 99
+                      predicate:
+                        tag: predicate
+                        value: rural:variable/answerCode
+                      subject:
+                        tag: subject
+                        value: rural:variable/Answer_NIBRS_00197c86_7dda_40b2_b9d4_bad1de2431cd
+              rural:variable/NSDUHAnswer:
+                tag: rural:variable/NSDUHAnswer
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: '1'
+                      predicate:
+                        tag: predicate
+                        value: rural:variable/answerCode
+                      subject:
+                        tag: subject
+                        value: rural:variable/Answer_NSDUH_00015cd8_3a4f_462c_8283_0fe05eb9d836
+          rural:variable/answerContent:
+            tag: rural:variable/answerContent
+            value:
+              rural:variable/NIBRSAnswer:
+                tag: rural:variable/NIBRSAnswer
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: See Value Reference 5 in Common Values tab for bias
+                          motivation codes
+                      predicate:
+                        tag: predicate
+                        value: rural:variable/answerContent
+                      subject:
+                        tag: subject
+                        value: rural:variable/Answer_NIBRS_00197c86_7dda_40b2_b9d4_bad1de2431cd
+              rural:variable/NSDUHAnswer:
+                tag: rural:variable/NSDUHAnswer
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 'Yes'
+                      predicate:
+                        tag: predicate
+                        value: rural:variable/answerContent
+                      subject:
+                        tag: subject
+                        value: rural:variable/Answer_NSDUH_00015cd8_3a4f_462c_8283_0fe05eb9d836
+          rural:variable/code:
+            tag: rural:variable/code
+            value:
+              rural:variable/NIBRS:
+                tag: rural:variable/NIBRS
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: BH016
+                      predicate:
+                        tag: predicate
+                        value: rural:variable/code
+                      subject:
+                        tag: subject
+                        value: rural:variable/NIBRS_BH016
+              rural:variable/NSDUH:
+                tag: rural:variable/NSDUH
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: AALTMDE
+                      predicate:
+                        tag: predicate
+                        value: rural:variable/code
+                      subject:
+                        tag: subject
+                        value: rural:variable/NSDUH_AALTMDE
+          rural:variable/content:
+            tag: rural:variable/content
+            value:
+              rural:variable/NIBRS:
+                tag: rural:variable/NIBRS
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: JUDICIAL DISTRICT
+                      predicate:
+                        tag: predicate
+                        value: rural:variable/content
+                      subject:
+                        tag: subject
+                        value: rural:variable/NIBRS_BH016
+              rural:variable/NSDUH:
+                tag: rural:variable/NSDUH
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 'RC-ADULT: SAW/TALK TO ALT SERV PROF ABT DEPRS FEELINGS
+                          IN PY'
+                      predicate:
+                        tag: predicate
+                        value: rural:variable/content
+                      subject:
+                        tag: subject
+                        value: rural:variable/NSDUH_AALTMDE
+          rural:variable/description:
+            tag: rural:variable/description
+            value:
+              rural:variable/NIBRS:
+                tag: rural:variable/NIBRS
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: BH016 is the code of the US Federal judicial district
+                          in which the agency is located. It is a three-digit numeric
+                          code followed by a letter which designates the region within
+                          the state.
+                      predicate:
+                        tag: predicate
+                        value: rural:variable/description
+                      subject:
+                        tag: subject
+                        value: rural:variable/NIBRS_BH016
+              rural:variable/NSDUH:
+                tag: rural:variable/NSDUH
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 'The following variable, AALTMDE, indicates whether
+                          an adult reported seeing or talking to an alternative service
+                          professional about MDE in the past year. Adults were classified
+                          as having seen or talked to an alternative service professional,
+                          AALTMDE=1, if they reported seeing or talking to any of
+                          the following professionals: religious or spiritual advisor
+                          (ARELIMD=1) or herbalist, chiropractor, acupuncturist, or
+                          massage therapist (AHBCHMDE=1). Respondents were classified
+                          as having not seen or talked to an alternative service professional,
+                          AALTMDE=0, if they reported not seeing or talking to all
+                          of the professionals listed above.'
+                      predicate:
+                        tag: predicate
+                        value: rural:variable/description
+                      subject:
+                        tag: subject
+                        value: rural:variable/NSDUH_AALTMDE
+          rural:variable/fromDataset:
+            tag: rural:variable/fromDataset
+            value:
+              rural:variable/NIBRS:
+                tag: rural:variable/NIBRS
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: NIBRS
+                      predicate:
+                        tag: predicate
+                        value: rural:variable/fromDataset
+                      subject:
+                        tag: subject
+                        value: rural:variable/NIBRS_BH016
+              rural:variable/NSDUH:
+                tag: rural:variable/NSDUH
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: NSDUH
+                      predicate:
+                        tag: predicate
+                        value: rural:variable/fromDataset
+                      subject:
+                        tag: subject
+                        value: rural:variable/NSDUH_AALTMDE
+          rural:variable/generatedDescription:
+            tag: rural:variable/generatedDescription
+            value:
+              rural:variable/NIBRS:
+                tag: rural:variable/NIBRS
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: JUDICIAL DISTRICT is a geographic designation that
+                          identifies the legal jurisdiction for prosecuting crimes
+                          and administering justice in law enforcement reporting.
+                      predicate:
+                        tag: predicate
+                        value: rural:variable/generatedDescription
+                      subject:
+                        tag: subject
+                        value: rural:variable/NIBRS_BH016
+              rural:variable/NSDUH:
+                tag: rural:variable/NSDUH
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: The variable AALTMDE indicates whether an adult reported
+                          seeing or talking to an alternative service professional
+                          about MDE (Major Depressive Episode) in the past year. Specifically,
+                          it's coded as AALTMDE=1 if the adult reported seeing or
+                          talking to professionals such as a religious or spiritual
+                          advisor, herbalist, chiropractor, acupuncturist, or massage
+                          therapist about their depressive feelings. If the respondent
+                          did not see or talk to any of these professionals, AALTMDE=0.
+                      predicate:
+                        tag: predicate
+                        value: rural:variable/generatedDescription
+                      subject:
+                        tag: subject
+                        value: rural:variable/NSDUH_AALTMDE
+          rural:variable/hasAnswer:
+            tag: rural:variable/hasAnswer
+            value:
+              rural:variable/NIBRS:
+                tag: rural:variable/NIBRS
+                value:
+                  rural:variable/NIBRSAnswer:
+                    tag: rural:variable/NIBRSAnswer
+                    value:
+                      object:
+                        tag: object
+                        value: rural:variable/Answer_NIBRS_33bdb7b5_05ce_47c1_835b_1f64e167f4a9
+                      predicate:
+                        tag: predicate
+                        value: rural:variable/hasAnswer
+                      subject:
+                        tag: subject
+                        value: rural:variable/NIBRS_BH016
+              rural:variable/NSDUH:
+                tag: rural:variable/NSDUH
+                value:
+                  rural:variable/NSDUHAnswer:
+                    tag: rural:variable/NSDUHAnswer
+                    value:
+                      object:
+                        tag: object
+                        value: rural:variable/Answer_NSDUH_ba62e667_33af_4340_ba27_5558e468bcd1
+                      predicate:
+                        tag: predicate
+                        value: rural:variable/hasAnswer
+                      subject:
+                        tag: subject
+                        value: rural:variable/NSDUH_AALTMDE
+          rural:variable/year:
+            tag: rural:variable/year
+            value:
+              rural:variable/NIBRS:
+                tag: rural:variable/NIBRS
+                value:
+                  integer:
+                    tag: integer
+                    value:
+                      object:
+                        tag: object
+                        value: '2022'
+                      predicate:
+                        tag: predicate
+                        value: rural:variable/year
+                      subject:
+                        tag: subject
+                        value: rural:variable/NIBRS_BH016
+              rural:variable/NSDUH:
+                tag: rural:variable/NSDUH
+                value:
+                  integer:
+                    tag: integer
+                    value:
+                      object:
+                        tag: object
+                        value: '2022'
+                      predicate:
+                        tag: predicate
+                        value: rural:variable/year
+                      subject:
+                        tag: subject
+                        value: rural:variable/NSDUH_AALTMDE
+classes:
+  rural_administrativearea_AdministrativeArea:
+    class_uri: rural:administrativearea/AdministrativeArea
+    description: Covers all administrative regions, including State, City, County,
+      and MSA (undergoing).
+    name: rural_administrativearea_AdministrativeArea
+    source: http://sail.ua.edu/ruralkg/ontology
+    title: Administrative Area
+  rural_administrativearea_City:
+    class_uri: rural:administrativearea/City
+    description: City entities within a county or state.
+    is_a: rural_administrativearea_AdministrativeArea
+    name: rural_administrativearea_City
+    slots:
+    - rural_administrativearea_latitude
+    - rural_administrativearea_name
+    - rural_administrativearea_primaryCounty
+    - rural_administrativearea_longitude
+    - rural_administrativearea_ranking
+  rural_administrativearea_County:
+    class_uri: rural:administrativearea/County
+    description: Defines counties within a state.
+    is_a: rural_administrativearea_AdministrativeArea
+    name: rural_administrativearea_County
+    slots:
+    - rural_administrativearea_fips
+    - rural_administrativearea_name
+  rural_administrativearea_State:
+    class_uri: rural:administrativearea/State
+    description: Represents individual states within U.S.
+    is_a: rural_administrativearea_AdministrativeArea
+    name: rural_administrativearea_State
+    slots:
+    - rural_administrativearea_abbreviation
+    - rural_administrativearea_fips
+    - rural_administrativearea_containsPlace
+    - rural_administrativearea_name
+  rural_justice_AdministrativeSegment:
+    class_uri: rural:justice/AdministrativeSegment
+    description: NIBRS Administrative Segment
+    is_a: rural_justice_Justice
+    name: rural_justice_AdministrativeSegment
+    title: Administrative Segment
+  rural_justice_ArresteeSegment:
+    class_uri: rural:justice/ArresteeSegment
+    description: NIBRS Arrestee Segment
+    is_a: rural_justice_Justice
+    name: rural_justice_ArresteeSegment
+    title: Arrestee Segment
+  rural_justice_DataElement08A-BiasMotivation:
+    class_uri: rural:justice/DataElement08A-BiasMotivation
+    description: 'NIBRS data element: Data Element 08A - Bias Motivation'
+    is_a: rural_justice_OffenseSegment
+    name: rural_justice_DataElement08A-BiasMotivation
+    title: Data Element 08A - Bias Motivation
+  rural_justice_DataElement1-ORI:
+    class_uri: rural:justice/DataElement1-ORI
+    description: 'NIBRS data element: Data Element 1 - ORI'
+    is_a: rural_justice_AdministrativeSegment
+    name: rural_justice_DataElement1-ORI
+    title: Data Element 1 - ORI
+  rural_justice_DataElement10-NumberofPremisesEntered:
+    class_uri: rural:justice/DataElement10-NumberofPremisesEntered
+    description: 'NIBRS data element: Data Element 10 - Number of Premises Entered'
+    is_a: rural_justice_OffenseSegment
+    name: rural_justice_DataElement10-NumberofPremisesEntered
+    title: Data Element 10 - Number of Premises Entered
+  rural_justice_DataElement11-MethodofEntry:
+    class_uri: rural:justice/DataElement11-MethodofEntry
+    description: 'NIBRS data element: Data Element 11 - Method of Entry'
+    is_a: rural_justice_OffenseSegment
+    name: rural_justice_DataElement11-MethodofEntry
+    title: Data Element 11 - Method of Entry
+  rural_justice_DataElement12-TypeCriminalActivity_GangInformation:
+    class_uri: rural:justice/DataElement12-TypeCriminalActivity_GangInformation
+    description: 'NIBRS data element: Data Element 12 - Type Criminal Activity/Gang
+      Information'
+    is_a: rural_justice_OffenseSegment
+    name: rural_justice_DataElement12-TypeCriminalActivity_GangInformation
+    title: Data Element 12 - Type Criminal Activity/Gang Information
+  rural_justice_DataElement13-TypeWeapon_ForceInvolved:
+    class_uri: rural:justice/DataElement13-TypeWeapon_ForceInvolved
+    description: 'NIBRS data element: Data Element 13 - Type Weapon/Force Involved'
+    is_a: rural_justice_OffenseSegment
+    name: rural_justice_DataElement13-TypeWeapon_ForceInvolved
+    title: Data Element 13 - Type Weapon/Force Involved
+  rural_justice_DataElement14-TypePropertyLoss_Etc.:
+    class_uri: rural:justice/DataElement14-TypePropertyLoss_Etc.
+    description: 'NIBRS data element: Data Element 14 - Type Property Loss/Etc.'
+    is_a: rural_justice_PropertySegment
+    name: rural_justice_DataElement14-TypePropertyLoss_Etc.
+    title: Data Element 14 - Type Property Loss/Etc.
+  rural_justice_DataElement15-PropertyDescription:
+    class_uri: rural:justice/DataElement15-PropertyDescription
+    description: 'NIBRS data element: Data Element 15 - Property Description'
+    is_a: rural_justice_PropertySegment
+    name: rural_justice_DataElement15-PropertyDescription
+    title: Data Element 15 - Property Description
+  rural_justice_DataElement16-ValueofProperty:
+    class_uri: rural:justice/DataElement16-ValueofProperty
+    description: 'NIBRS data element: Data Element 16 - Value of Property'
+    is_a: rural_justice_PropertySegment
+    name: rural_justice_DataElement16-ValueofProperty
+    title: Data Element 16 - Value of Property
+  rural_justice_DataElement17-DateRecovered:
+    class_uri: rural:justice/DataElement17-DateRecovered
+    description: 'NIBRS data element: Data Element 17 - Date Recovered'
+    is_a: rural_justice_PropertySegment
+    name: rural_justice_DataElement17-DateRecovered
+    title: Data Element 17 - Date Recovered
+  rural_justice_DataElement18-NumberofStolenMotorVehicles:
+    class_uri: rural:justice/DataElement18-NumberofStolenMotorVehicles
+    description: 'NIBRS data element: Data Element 18 - Number of Stolen Motor Vehicles'
+    is_a: rural_justice_PropertySegment
+    name: rural_justice_DataElement18-NumberofStolenMotorVehicles
+    title: Data Element 18 - Number of Stolen Motor Vehicles
+  rural_justice_DataElement19-NumberofRecoveredMotorVehicles:
+    class_uri: rural:justice/DataElement19-NumberofRecoveredMotorVehicles
+    description: 'NIBRS data element: Data Element 19 - Number of Recovered Motor
+      Vehicles'
+    is_a: rural_justice_PropertySegment
+    name: rural_justice_DataElement19-NumberofRecoveredMotorVehicles
+    title: Data Element 19 - Number of Recovered Motor Vehicles
+  rural_justice_DataElement1A-FederalJudicialDistrict:
+    class_uri: rural:justice/DataElement1A-FederalJudicialDistrict
+    description: 'NIBRS data element: Data Element 1A - Federal Judicial District'
+    is_a: rural_justice_AdministrativeSegment
+    name: rural_justice_DataElement1A-FederalJudicialDistrict
+    title: Data Element 1A - Federal Judicial District
+  rural_justice_DataElement2-IncidentNumber:
+    class_uri: rural:justice/DataElement2-IncidentNumber
+    description: 'NIBRS data element: Data Element 2 - Incident Number'
+    is_a: rural_justice_AdministrativeSegment
+    name: rural_justice_DataElement2-IncidentNumber
+    title: Data Element 2 - Incident Number
+  rural_justice_DataElement20:
+    class_uri: rural:justice/DataElement20
+    description: 'NIBRS data element: Data Element 20'
+    is_a: rural_justice_PropertySegment
+    name: rural_justice_DataElement20
+    title: Data Element 20
+  rural_justice_DataElement20-SuspectedDrugType:
+    class_uri: rural:justice/DataElement20-SuspectedDrugType
+    description: 'NIBRS data element: Data Element 20 - Suspected Drug Type'
+    is_a: rural_justice_PropertySegment
+    name: rural_justice_DataElement20-SuspectedDrugType
+    title: Data Element 20 - Suspected Drug Type
+  rural_justice_DataElement21-EstimatedDrugQuantity:
+    class_uri: rural:justice/DataElement21-EstimatedDrugQuantity
+    description: 'NIBRS data element: Data Element 21 - Estimated Drug Quantity'
+    is_a: rural_justice_PropertySegment
+    name: rural_justice_DataElement21-EstimatedDrugQuantity
+    title: Data Element 21 - Estimated Drug Quantity
+  rural_justice_DataElement22-EstimatedDrugQuantity:
+    class_uri: rural:justice/DataElement22-EstimatedDrugQuantity
+    description: 'NIBRS data element: Data Element 22 - Estimated Drug Quantity'
+    is_a: rural_justice_PropertySegment
+    name: rural_justice_DataElement22-EstimatedDrugQuantity
+    title: Data Element 22 - Estimated Drug Quantity
+  rural_justice_DataElement23-VictimSequenceNumber:
+    class_uri: rural:justice/DataElement23-VictimSequenceNumber
+    description: 'NIBRS data element: Data Element 23 - Victim Sequence Number'
+    is_a: rural_justice_VictimSegment
+    name: rural_justice_DataElement23-VictimSequenceNumber
+    title: Data Element 23 - Victim Sequence Number
+  rural_justice_DataElement24-VictimConnectedtoUCROffenseCode:
+    class_uri: rural:justice/DataElement24-VictimConnectedtoUCROffenseCode
+    description: 'NIBRS data element: Data Element 24 - Victim Connected to UCR Offense
+      Code'
+    is_a: rural_justice_VictimSegment
+    name: rural_justice_DataElement24-VictimConnectedtoUCROffenseCode
+    title: Data Element 24 - Victim Connected to UCR Offense Code
+  rural_justice_DataElement25-TypeofVictim:
+    class_uri: rural:justice/DataElement25-TypeofVictim
+    description: 'NIBRS data element: Data Element 25 - Type of Victim'
+    is_a: rural_justice_VictimSegment
+    name: rural_justice_DataElement25-TypeofVictim
+    title: Data Element 25 - Type of Victim
+  rural_justice_DataElement25A-TypeofOfficerActivity_Circumstance:
+    class_uri: rural:justice/DataElement25A-TypeofOfficerActivity_Circumstance
+    description: 'NIBRS data element: Data Element 25A - Type of Officer Activity/Circumstance'
+    is_a: rural_justice_VictimSegment
+    name: rural_justice_DataElement25A-TypeofOfficerActivity_Circumstance
+    title: Data Element 25A - Type of Officer Activity/Circumstance
+  rural_justice_DataElement25B-OfficerAssignmentType:
+    class_uri: rural:justice/DataElement25B-OfficerAssignmentType
+    description: 'NIBRS data element: Data Element 25B - Officer Assignment Type'
+    is_a: rural_justice_VictimSegment
+    name: rural_justice_DataElement25B-OfficerAssignmentType
+    title: Data Element 25B - Officer Assignment Type
+  rural_justice_DataElement25C-Officer-ORIOtherJurisdiction:
+    class_uri: rural:justice/DataElement25C-Officer-ORIOtherJurisdiction
+    description: 'NIBRS data element: Data Element 25C - Officer-ORI Other Jurisdiction'
+    is_a: rural_justice_VictimSegment
+    name: rural_justice_DataElement25C-Officer-ORIOtherJurisdiction
+    title: Data Element 25C - Officer-ORI Other Jurisdiction
+  rural_justice_DataElement26-AgeofVictim:
+    class_uri: rural:justice/DataElement26-AgeofVictim
+    description: 'NIBRS data element: Data Element 26 - Age of Victim'
+    is_a: rural_justice_VictimSegment
+    name: rural_justice_DataElement26-AgeofVictim
+    title: Data Element 26 - Age of Victim
+  rural_justice_DataElement27-SexofVictim:
+    class_uri: rural:justice/DataElement27-SexofVictim
+    description: 'NIBRS data element: Data Element 27 - Sex of Victim'
+    is_a: rural_justice_VictimSegment
+    name: rural_justice_DataElement27-SexofVictim
+    title: Data Element 27 - Sex of Victim
+  rural_justice_DataElement28-RaceofVictim:
+    class_uri: rural:justice/DataElement28-RaceofVictim
+    description: 'NIBRS data element: Data Element 28 - Race of Victim'
+    is_a: rural_justice_VictimSegment
+    name: rural_justice_DataElement28-RaceofVictim
+    title: Data Element 28 - Race of Victim
+  rural_justice_DataElement29-EthnicityofVictim:
+    class_uri: rural:justice/DataElement29-EthnicityofVictim
+    description: 'NIBRS data element: Data Element 29 - Ethnicity of Victim'
+    is_a: rural_justice_VictimSegment
+    name: rural_justice_DataElement29-EthnicityofVictim
+    title: Data Element 29 - Ethnicity of Victim
+  rural_justice_DataElement2A-CargoTheft:
+    class_uri: rural:justice/DataElement2A-CargoTheft
+    description: 'NIBRS data element: Data Element 2A - Cargo Theft'
+    is_a: rural_justice_AdministrativeSegment
+    name: rural_justice_DataElement2A-CargoTheft
+    title: Data Element 2A - Cargo Theft
+  rural_justice_DataElement30-ResidentStatusofVictim:
+    class_uri: rural:justice/DataElement30-ResidentStatusofVictim
+    description: 'NIBRS data element: Data Element 30 - Resident Status of Victim'
+    is_a: rural_justice_VictimSegment
+    name: rural_justice_DataElement30-ResidentStatusofVictim
+    title: Data Element 30 - Resident Status of Victim
+  rural_justice_DataElement31-AggravatedAssault_HomicideCircumstances:
+    class_uri: rural:justice/DataElement31-AggravatedAssault_HomicideCircumstances
+    description: 'NIBRS data element: Data Element 31 - Aggravated Assault/Homicide
+      Circumstances'
+    is_a: rural_justice_VictimSegment
+    name: rural_justice_DataElement31-AggravatedAssault_HomicideCircumstances
+    title: Data Element 31 - Aggravated Assault/Homicide Circumstances
+  rural_justice_DataElement32-AdditionalJustifiableHomicideCircumstances:
+    class_uri: rural:justice/DataElement32-AdditionalJustifiableHomicideCircumstances
+    description: 'NIBRS data element: Data Element 32 - Additional Justifiable Homicide
+      Circumstances'
+    is_a: rural_justice_VictimSegment
+    name: rural_justice_DataElement32-AdditionalJustifiableHomicideCircumstances
+    title: Data Element 32 - Additional Justifiable Homicide Circumstances
+  rural_justice_DataElement33-TypeInjury:
+    class_uri: rural:justice/DataElement33-TypeInjury
+    description: 'NIBRS data element: Data Element 33 - Type Injury'
+    is_a: rural_justice_VictimSegment
+    name: rural_justice_DataElement33-TypeInjury
+    title: Data Element 33 - Type Injury
+  rural_justice_DataElement34-OffenderNumbertobeRelated:
+    class_uri: rural:justice/DataElement34-OffenderNumbertobeRelated
+    description: 'NIBRS data element: Data Element 34 - Offender Number to be Related'
+    is_a: rural_justice_VictimSegment
+    name: rural_justice_DataElement34-OffenderNumbertobeRelated
+    title: Data Element 34 - Offender Number to be Related
+  rural_justice_DataElement35-RelationshipofVictimtoOffender:
+    class_uri: rural:justice/DataElement35-RelationshipofVictimtoOffender
+    description: 'NIBRS data element: Data Element 35 - Relationship of Victim to
+      Offender'
+    is_a: rural_justice_VictimSegment
+    name: rural_justice_DataElement35-RelationshipofVictimtoOffender
+    title: Data Element 35 - Relationship of Victim to Offender
+  rural_justice_DataElement36-OffenderSequenceNumber:
+    class_uri: rural:justice/DataElement36-OffenderSequenceNumber
+    description: 'NIBRS data element: Data Element 36 - Offender Sequence Number'
+    is_a: rural_justice_OffenderSegment
+    name: rural_justice_DataElement36-OffenderSequenceNumber
+    title: Data Element 36 - Offender Sequence Number
+  rural_justice_DataElement37-AgeofOffender:
+    class_uri: rural:justice/DataElement37-AgeofOffender
+    description: 'NIBRS data element: Data Element 37 - Age of Offender'
+    is_a: rural_justice_OffenderSegment
+    name: rural_justice_DataElement37-AgeofOffender
+    title: Data Element 37 - Age of Offender
+  rural_justice_DataElement38-SexofOffender:
+    class_uri: rural:justice/DataElement38-SexofOffender
+    description: 'NIBRS data element: Data Element 38 - Sex of Offender'
+    is_a: rural_justice_OffenderSegment
+    name: rural_justice_DataElement38-SexofOffender
+    title: Data Element 38 - Sex of Offender
+  rural_justice_DataElement39-RaceofOffender:
+    class_uri: rural:justice/DataElement39-RaceofOffender
+    description: 'NIBRS data element: Data Element 39 - Race of Offender'
+    is_a: rural_justice_OffenderSegment
+    name: rural_justice_DataElement39-RaceofOffender
+    title: Data Element 39 - Race of Offender
+  rural_justice_DataElement39A-EthnicityofOffender:
+    class_uri: rural:justice/DataElement39A-EthnicityofOffender
+    description: 'NIBRS data element: Data Element 39A - Ethnicity of Offender'
+    is_a: rural_justice_OffenderSegment
+    name: rural_justice_DataElement39A-EthnicityofOffender
+    title: Data Element 39A - Ethnicity of Offender
+  rural_justice_DataElement4-ClearedExceptionally:
+    class_uri: rural:justice/DataElement4-ClearedExceptionally
+    description: 'NIBRS data element: Data Element 4 - Cleared Exceptionally'
+    is_a: rural_justice_AdministrativeSegment
+    name: rural_justice_DataElement4-ClearedExceptionally
+    title: Data Element 4 - Cleared Exceptionally
+  rural_justice_DataElement40-ArresteeSequenceNumber:
+    class_uri: rural:justice/DataElement40-ArresteeSequenceNumber
+    description: 'NIBRS data element: Data Element 40 - Arrestee Sequence Number'
+    is_a: rural_justice_ArresteeSegment
+    name: rural_justice_DataElement40-ArresteeSequenceNumber
+    title: Data Element 40 - Arrestee Sequence Number
+  rural_justice_DataElement41-ArrestTransactionNumber:
+    class_uri: rural:justice/DataElement41-ArrestTransactionNumber
+    description: 'NIBRS data element: Data Element 41 - Arrest Transaction Number'
+    is_a: rural_justice_ArresteeSegment
+    name: rural_justice_DataElement41-ArrestTransactionNumber
+    title: Data Element 41 - Arrest Transaction Number
+  rural_justice_DataElement42-ArrestDate:
+    class_uri: rural:justice/DataElement42-ArrestDate
+    description: 'NIBRS data element: Data Element 42 - Arrest Date'
+    is_a: rural_justice_ArresteeSegment
+    name: rural_justice_DataElement42-ArrestDate
+    title: Data Element 42 - Arrest Date
+  rural_justice_DataElement43-TypeofArrest:
+    class_uri: rural:justice/DataElement43-TypeofArrest
+    description: 'NIBRS data element: Data Element 43 - Type of Arrest'
+    is_a: rural_justice_ArresteeSegment
+    name: rural_justice_DataElement43-TypeofArrest
+    title: Data Element 43 - Type of Arrest
+  rural_justice_DataElement44-MultipleArresteeSegmentsIndicator:
+    class_uri: rural:justice/DataElement44-MultipleArresteeSegmentsIndicator
+    description: 'NIBRS data element: Data Element 44 - Multiple Arrestee Segments
+      Indicator'
+    is_a: rural_justice_ArresteeSegment
+    name: rural_justice_DataElement44-MultipleArresteeSegmentsIndicator
+    title: Data Element 44 - Multiple Arrestee Segments Indicator
+  rural_justice_DataElement45-UCRArrestOffenseCode:
+    class_uri: rural:justice/DataElement45-UCRArrestOffenseCode
+    description: 'NIBRS data element: Data Element 45 - UCR Arrest Offense Code'
+    is_a: rural_justice_ArresteeSegment
+    name: rural_justice_DataElement45-UCRArrestOffenseCode
+    title: Data Element 45 - UCR Arrest Offense Code
+  rural_justice_DataElement46-ArresteeWasArmedWith:
+    class_uri: rural:justice/DataElement46-ArresteeWasArmedWith
+    description: 'NIBRS data element: Data Element 46 - Arrestee Was Armed With'
+    is_a: rural_justice_ArresteeSegment
+    name: rural_justice_DataElement46-ArresteeWasArmedWith
+    title: Data Element 46 - Arrestee Was Armed With
+  rural_justice_DataElement47-AgeofArrestee:
+    class_uri: rural:justice/DataElement47-AgeofArrestee
+    description: 'NIBRS data element: Data Element 47 - Age of Arrestee'
+    is_a: rural_justice_ArresteeSegment
+    name: rural_justice_DataElement47-AgeofArrestee
+    title: Data Element 47 - Age of Arrestee
+  rural_justice_DataElement48-SexofArrestee:
+    class_uri: rural:justice/DataElement48-SexofArrestee
+    description: 'NIBRS data element: Data Element 48 - Sex of Arrestee'
+    is_a: rural_justice_ArresteeSegment
+    name: rural_justice_DataElement48-SexofArrestee
+    title: Data Element 48 - Sex of Arrestee
+  rural_justice_DataElement49-RaceofArrestee:
+    class_uri: rural:justice/DataElement49-RaceofArrestee
+    description: 'NIBRS data element: Data Element 49 - Race of Arrestee'
+    is_a: rural_justice_ArresteeSegment
+    name: rural_justice_DataElement49-RaceofArrestee
+    title: Data Element 49 - Race of Arrestee
+  rural_justice_DataElement5-ExceptionalClearanceDate:
+    class_uri: rural:justice/DataElement5-ExceptionalClearanceDate
+    description: 'NIBRS data element: Data Element 5 - Exceptional Clearance Date'
+    is_a: rural_justice_AdministrativeSegment
+    name: rural_justice_DataElement5-ExceptionalClearanceDate
+    title: Data Element 5 - Exceptional Clearance Date
+  rural_justice_DataElement50-EthnicityofArrestee:
+    class_uri: rural:justice/DataElement50-EthnicityofArrestee
+    description: 'NIBRS data element: Data Element 50 - Ethnicity of Arrestee'
+    is_a: rural_justice_ArresteeSegment
+    name: rural_justice_DataElement50-EthnicityofArrestee
+    title: Data Element 50 - Ethnicity of Arrestee
+  rural_justice_DataElement51-ResidentStatusofArrestee:
+    class_uri: rural:justice/DataElement51-ResidentStatusofArrestee
+    description: 'NIBRS data element: Data Element 51 - Resident Status of Arrestee'
+    is_a: rural_justice_ArresteeSegment
+    name: rural_justice_DataElement51-ResidentStatusofArrestee
+    title: Data Element 51 - Resident Status of Arrestee
+  rural_justice_DataElement52-DispositionofArresteeUnder18:
+    class_uri: rural:justice/DataElement52-DispositionofArresteeUnder18
+    description: 'NIBRS data element: Data Element 52 - Disposition of Arrestee Under
+      18'
+    is_a: rural_justice_ArresteeSegment
+    name: rural_justice_DataElement52-DispositionofArresteeUnder18
+    title: Data Element 52 - Disposition of Arrestee Under 18
+  rural_justice_DataElement52-DispositionofArresteeUnder19:
+    class_uri: rural:justice/DataElement52-DispositionofArresteeUnder19
+    description: 'NIBRS data element: Data Element 52 - Disposition of Arrestee Under
+      19'
+    is_a: rural_justice_ArresteeSegment
+    name: rural_justice_DataElement52-DispositionofArresteeUnder19
+    title: Data Element 52 - Disposition of Arrestee Under 19
+  rural_justice_DataElement52-DispositionofArresteeUnder20:
+    class_uri: rural:justice/DataElement52-DispositionofArresteeUnder20
+    description: 'NIBRS data element: Data Element 52 - Disposition of Arrestee Under
+      20'
+    is_a: rural_justice_ArresteeSegment
+    name: rural_justice_DataElement52-DispositionofArresteeUnder20
+    title: Data Element 52 - Disposition of Arrestee Under 20
+  rural_justice_DataElement6-UCROffenseCode:
+    class_uri: rural:justice/DataElement6-UCROffenseCode
+    description: 'NIBRS data element: Data Element 6 - UCR Offense Code'
+    is_a: rural_justice_OffenseSegment
+    name: rural_justice_DataElement6-UCROffenseCode
+    title: Data Element 6 - UCR Offense Code
+  rural_justice_DataElement7-OffenseAttempted_Completed:
+    class_uri: rural:justice/DataElement7-OffenseAttempted_Completed
+    description: 'NIBRS data element: Data Element 7 - Offense Attempted/Completed'
+    is_a: rural_justice_OffenseSegment
+    name: rural_justice_DataElement7-OffenseAttempted_Completed
+    title: Data Element 7 - Offense Attempted/Completed
+  rural_justice_DataElement8-OffenderSuspectedofUsing:
+    class_uri: rural:justice/DataElement8-OffenderSuspectedofUsing
+    description: 'NIBRS data element: Data Element 8 - Offender Suspected of Using'
+    is_a: rural_justice_OffenseSegment
+    name: rural_justice_DataElement8-OffenderSuspectedofUsing
+    title: Data Element 8 - Offender Suspected of Using
+  rural_justice_DataElement9-LocationType:
+    class_uri: rural:justice/DataElement9-LocationType
+    description: 'NIBRS data element: Data Element 9 - Location Type'
+    is_a: rural_justice_OffenseSegment
+    name: rural_justice_DataElement9-LocationType
+    title: Data Element 9 - Location Type
+  rural_justice_GroupBArrestReportSegment:
+    class_uri: rural:justice/GroupBArrestReportSegment
+    description: NIBRS Group B Arrest Report Segment
+    is_a: rural_justice_Justice
+    name: rural_justice_GroupBArrestReportSegment
+    title: Group B Arrest Report Segment
+  rural_justice_Justice:
+    class_uri: rural:justice/Justice
+    description: Justice data, including crime data, extracted from National Incident-Based
+      Reporting System (NIBRS).
+    name: rural_justice_Justice
+    source: http://sail.ua.edu/ruralkg/ontology
+    title: Justice
+  rural_justice_OffenderSegment:
+    class_uri: rural:justice/OffenderSegment
+    description: NIBRS Offender Segment
+    is_a: rural_justice_Justice
+    name: rural_justice_OffenderSegment
+    title: Offender Segment
+  rural_justice_OffenseSegment:
+    class_uri: rural:justice/OffenseSegment
+    description: NIBRS Offense Segment
+    is_a: rural_justice_Justice
+    name: rural_justice_OffenseSegment
+    title: Offense Segment
+  rural_justice_PropertySegment:
+    class_uri: rural:justice/PropertySegment
+    description: NIBRS Property Segment
+    is_a: rural_justice_Justice
+    name: rural_justice_PropertySegment
+    title: Property Segment
+  rural_justice_VictimSegment:
+    class_uri: rural:justice/VictimSegment
+    description: NIBRS Victim Segment
+    is_a: rural_justice_Justice
+    name: rural_justice_VictimSegment
+    title: Victim Segment
+  rural_justice_ZeroReportSegment:
+    class_uri: rural:justice/ZeroReportSegment
+    description: NIBRS Zero Report Segment
+    is_a: rural_justice_Justice
+    name: rural_justice_ZeroReportSegment
+    title: Zero Report Segment
+  rural_settlementtype_CountyStatus:
+    class_uri: rural:settlementtype/CountyStatus
+    description: Status of a county in terms of rural or urban classification.
+    is_a: rural_settlementtype_SettlementType
+    name: rural_settlementtype_CountyStatus
+    slots:
+    - rural_settlementtype_hasRUCC
+    - rural_settlementtype_population
+    - rural_settlementtype_year
+    - rural_settlementtype_censusCounty
+  rural_settlementtype_RUCC:
+    class_uri: rural:settlementtype/RUCC
+    description: Rural-Urban Continuum Code classification.
+    is_a: rural_settlementtype_SettlementType
+    name: rural_settlementtype_RUCC
+    slots:
+    - rural_settlementtype_code
+    - rural_settlementtype_year
+    - rural_settlementtype_description
+  rural_settlementtype_SettlementType:
+    class_uri: rural:settlementtype/SettlementType
+    description: Rural-Urban Continuum Code (RUCC) is incorporated. Categorize county-level
+      areas into Metro or Nonmetro. It is an indicator for determining the rural-urban
+      continuum code (RUCC) classification
+    name: rural_settlementtype_SettlementType
+    source: http://sail.ua.edu/ruralkg/ontology
+    title: Settlement Type
+  rural_substanceabuse_Concept_Adult_Depression:
+    class_uri: rural:substanceabuse/Concept_Adult_Depression
+    description: Adult-specific depression measures including symptoms, severity,
+      and functional impairment
+    is_a: rural_substanceabuse_Concept_Depression
+    name: rural_substanceabuse_Concept_Adult_Depression
+    title: Adult Depression
+  rural_substanceabuse_Concept_Alcohol_Use:
+    class_uri: rural:substanceabuse/Concept_Alcohol_Use
+    description: Comprehensive alcohol use measures including consumption patterns,
+      disorders, and age of initiation
+    is_a: rural_substanceabuse_Concept_Substance_Use
+    name: rural_substanceabuse_Concept_Alcohol_Use
+    title: Alcohol Use
+  rural_substanceabuse_Concept_COVID_19_Impact:
+    class_uri: rural:substanceabuse/Concept_COVID_19_Impact
+    description: COVID-19 pandemic effects on substance use, mental health, and service
+      access
+    is_a: rural_substanceabuse_Concept_Social_Determinants
+    name: rural_substanceabuse_Concept_COVID_19_Impact
+    title: COVID-19 Impact
+  rural_substanceabuse_Concept_Cannabis_Use:
+    class_uri: rural:substanceabuse/Concept_Cannabis_Use
+    description: Marijuana and cannabis product use including blunts, with measures
+      of frequency and disorders
+    is_a: rural_substanceabuse_Concept_Substance_Use
+    name: rural_substanceabuse_Concept_Cannabis_Use
+    title: Cannabis Use
+  rural_substanceabuse_Concept_Census_Block:
+    class_uri: rural:substanceabuse/Concept_Census_Block
+    description: Census block identifiers and American Indian Area indicators
+    is_a: rural_substanceabuse_Concept_Geographic_Indicators
+    name: rural_substanceabuse_Concept_Census_Block
+    title: Census Block
+  rural_substanceabuse_Concept_Census_Segment:
+    class_uri: rural:substanceabuse/Concept_Census_Segment
+    description: Census segment identifiers with majority American Indian Area classification
+    is_a: rural_substanceabuse_Concept_Geographic_Indicators
+    name: rural_substanceabuse_Concept_Census_Segment
+    title: Census Segment
+  rural_substanceabuse_Concept_Cocaine_Use:
+    class_uri: rural:substanceabuse/Concept_Cocaine_Use
+    description: Cocaine and crack cocaine use patterns, disorders, and treatment
+    is_a: rural_substanceabuse_Concept_Substance_Use
+    name: rural_substanceabuse_Concept_Cocaine_Use
+    title: Cocaine Use
+  rural_substanceabuse_Concept_County_Classification:
+    class_uri: rural:substanceabuse/Concept_County_Classification
+    description: County-level geographic classifications including urbanization and
+      population density
+    is_a: rural_substanceabuse_Concept_Geographic_Indicators
+    name: rural_substanceabuse_Concept_County_Classification
+    title: County Classification
+  rural_substanceabuse_Concept_Criminal_Justice_Involvement:
+    class_uri: rural:substanceabuse/Concept_Criminal_Justice_Involvement
+    description: Arrests, bookings, probation, parole, and other criminal justice
+      system contacts
+    is_a: rural_substanceabuse_Concept_Social_Determinants
+    name: rural_substanceabuse_Concept_Criminal_Justice_Involvement
+    title: Criminal Justice Involvement
+  rural_substanceabuse_Concept_Demographics:
+    class_uri: rural:substanceabuse/Concept_Demographics
+    description: Core demographic characteristics including age, gender, race, ethnicity,
+      and marital status
+    is_a: rural_substanceabuse_Concept_Social_Determinants
+    name: rural_substanceabuse_Concept_Demographics
+    title: Demographics
+  rural_substanceabuse_Concept_Depression:
+    class_uri: rural:substanceabuse/Concept_Depression
+    description: Major depressive episode and depression symptoms across adult and
+      youth populations
+    is_a: rural_substanceabuse_Concept_Mental_Health
+    name: rural_substanceabuse_Concept_Depression
+    title: Depression
+  rural_substanceabuse_Concept_Education:
+    class_uri: rural:substanceabuse/Concept_Education
+    description: Educational attainment, enrollment status, and academic performance
+    is_a: rural_substanceabuse_Concept_Social_Determinants
+    name: rural_substanceabuse_Concept_Education
+    title: Education
+  rural_substanceabuse_Concept_Emerging_Substances:
+    class_uri: rural:substanceabuse/Concept_Emerging_Substances
+    description: Emerging and novel substances including illegally made fentanyl,
+      kratom, and synthetic drugs
+    is_a: rural_substanceabuse_Concept_Substance_Use
+    name: rural_substanceabuse_Concept_Emerging_Substances
+    title: Emerging Substances
+  rural_substanceabuse_Concept_Employment:
+    class_uri: rural:substanceabuse/Concept_Employment
+    description: Employment status, occupation, work patterns, and workplace characteristics
+    is_a: rural_substanceabuse_Concept_Social_Determinants
+    name: rural_substanceabuse_Concept_Employment
+    title: Employment
+  rural_substanceabuse_Concept_Geographic_Indicators:
+    class_uri: rural:substanceabuse/Concept_Geographic_Indicators
+    description: Geographic units and location identifiers used in survey sampling
+      and analysis
+    is_a: rural_substanceabuse_SubstanceAbuse
+    name: rural_substanceabuse_Concept_Geographic_Indicators
+    title: Geographic Indicators
+  rural_substanceabuse_Concept_Hallucinogen_Use:
+    class_uri: rural:substanceabuse/Concept_Hallucinogen_Use
+    description: Use of hallucinogenic substances including LSD, PCP, peyote, and
+      other psychedelics
+    is_a: rural_substanceabuse_Concept_Substance_Use
+    name: rural_substanceabuse_Concept_Hallucinogen_Use
+    title: Hallucinogen Use
+  rural_substanceabuse_Concept_Health_Insurance:
+    class_uri: rural:substanceabuse/Concept_Health_Insurance
+    description: Health insurance coverage, types, and gaps in coverage
+    is_a: rural_substanceabuse_Concept_Social_Determinants
+    name: rural_substanceabuse_Concept_Health_Insurance
+    title: Health Insurance
+  rural_substanceabuse_Concept_Heroin_Use:
+    class_uri: rural:substanceabuse/Concept_Heroin_Use
+    description: Heroin use patterns, injection drug use, and associated disorders
+    is_a: rural_substanceabuse_Concept_Substance_Use
+    name: rural_substanceabuse_Concept_Heroin_Use
+    title: Heroin Use
+  rural_substanceabuse_Concept_Household_Composition:
+    class_uri: rural:substanceabuse/Concept_Household_Composition
+    description: Family structure, household size, and living arrangements
+    is_a: rural_substanceabuse_Concept_Social_Determinants
+    name: rural_substanceabuse_Concept_Household_Composition
+    title: Household Composition
+  rural_substanceabuse_Concept_Income_and_Poverty:
+    class_uri: rural:substanceabuse/Concept_Income_and_Poverty
+    description: Household income, family income, poverty status, and economic hardship
+    is_a: rural_substanceabuse_Concept_Social_Determinants
+    name: rural_substanceabuse_Concept_Income_and_Poverty
+    title: Income and Poverty
+  rural_substanceabuse_Concept_Inhalant_Use:
+    class_uri: rural:substanceabuse/Concept_Inhalant_Use
+    description: Use of inhalants and volatile substances for intoxication purposes
+    is_a: rural_substanceabuse_Concept_Substance_Use
+    name: rural_substanceabuse_Concept_Inhalant_Use
+    title: Inhalant Use
+  rural_substanceabuse_Concept_Mental_Health:
+    class_uri: rural:substanceabuse/Concept_Mental_Health
+    description: Mental health conditions, symptoms, and treatment across adult and
+      youth populations
+    is_a: rural_substanceabuse_SubstanceAbuse
+    name: rural_substanceabuse_Concept_Mental_Health
+    title: Mental Health
+  rural_substanceabuse_Concept_Mental_Health_Status:
+    class_uri: rural:substanceabuse/Concept_Mental_Health_Status
+    description: Overall mental health status, psychological distress, and functional
+      impairment
+    is_a: rural_substanceabuse_Concept_Mental_Health
+    name: rural_substanceabuse_Concept_Mental_Health_Status
+    title: Mental Health Status
+  rural_substanceabuse_Concept_Mental_Health_Treatment:
+    class_uri: rural:substanceabuse/Concept_Mental_Health_Treatment
+    description: Mental health service utilization, treatment types, and unmet need
+    is_a: rural_substanceabuse_Concept_Mental_Health
+    name: rural_substanceabuse_Concept_Mental_Health_Treatment
+    title: Mental Health Treatment
+  rural_substanceabuse_Concept_Opioid_Use:
+    class_uri: rural:substanceabuse/Concept_Opioid_Use
+    description: Combined measures for heroin and prescription opioid misuse, including
+      disorders and overdose risk
+    is_a: rural_substanceabuse_Concept_Substance_Use
+    name: rural_substanceabuse_Concept_Opioid_Use
+    title: Opioid Use
+  rural_substanceabuse_Concept_Physical_Health:
+    class_uri: rural:substanceabuse/Concept_Physical_Health
+    description: General health status, chronic conditions, and health service utilization
+    is_a: rural_substanceabuse_Concept_Social_Determinants
+    name: rural_substanceabuse_Concept_Physical_Health
+    title: Physical Health
+  rural_substanceabuse_Concept_Prescription_Drug_Misuse:
+    class_uri: rural:substanceabuse/Concept_Prescription_Drug_Misuse
+    description: Non-medical use of prescription medications including pain relievers,
+      tranquilizers, stimulants, and sedatives
+    is_a: rural_substanceabuse_Concept_Substance_Use
+    name: rural_substanceabuse_Concept_Prescription_Drug_Misuse
+    title: Prescription Drug Misuse
+  rural_substanceabuse_Concept_Social_Determinants:
+    class_uri: rural:substanceabuse/Concept_Social_Determinants
+    description: Social, economic, and environmental factors that influence health
+      outcomes
+    is_a: rural_substanceabuse_SubstanceAbuse
+    name: rural_substanceabuse_Concept_Social_Determinants
+    title: Social Determinants
+  rural_substanceabuse_Concept_Stimulant_Use:
+    class_uri: rural:substanceabuse/Concept_Stimulant_Use
+    description: Use of stimulants including methamphetamine and prescription stimulants
+      for non-medical purposes
+    is_a: rural_substanceabuse_Concept_Substance_Use
+    name: rural_substanceabuse_Concept_Stimulant_Use
+    title: Stimulant Use
+  rural_substanceabuse_Concept_Substance_Use:
+    class_uri: rural:substanceabuse/Concept_Substance_Use
+    description: All substance use related measures including alcohol, tobacco, illicit
+      drugs, and prescription drug misuse
+    is_a: rural_substanceabuse_SubstanceAbuse
+    name: rural_substanceabuse_Concept_Substance_Use
+    title: Substance Use
+  rural_substanceabuse_Concept_Substance_Use_Disorders:
+    class_uri: rural:substanceabuse/Concept_Substance_Use_Disorders
+    description: DSM-based substance use disorder diagnoses across all substance categories
+    is_a: rural_substanceabuse_Concept_Substance_Use
+    name: rural_substanceabuse_Concept_Substance_Use_Disorders
+    title: Substance Use Disorders
+  rural_substanceabuse_Concept_Substance_Use_Patterns:
+    class_uri: rural:substanceabuse/Concept_Substance_Use_Patterns
+    description: Cross-substance patterns including polysubstance use, age of first
+      use, and recency of use
+    is_a: rural_substanceabuse_Concept_Substance_Use
+    name: rural_substanceabuse_Concept_Substance_Use_Patterns
+    title: Substance Use Patterns
+  rural_substanceabuse_Concept_Substance_Use_Treatment:
+    class_uri: rural:substanceabuse/Concept_Substance_Use_Treatment
+    description: Treatment receipt, need, and barriers for substance use disorders
+    is_a: rural_substanceabuse_Concept_Substance_Use
+    name: rural_substanceabuse_Concept_Substance_Use_Treatment
+    title: Substance Use Treatment
+  rural_substanceabuse_Concept_Suicide_Risk:
+    class_uri: rural:substanceabuse/Concept_Suicide_Risk
+    description: Suicidal ideation, plans, and attempts across age groups
+    is_a: rural_substanceabuse_Concept_Mental_Health
+    name: rural_substanceabuse_Concept_Suicide_Risk
+    title: Suicide Risk
+  rural_substanceabuse_Concept_Survey_Methodology:
+    class_uri: rural:substanceabuse/Concept_Survey_Methodology
+    description: Survey administration, weighting, and methodological variables
+    is_a: rural_substanceabuse_SubstanceAbuse
+    name: rural_substanceabuse_Concept_Survey_Methodology
+    title: Survey Methodology
+  rural_substanceabuse_Concept_Tobacco_Use:
+    class_uri: rural:substanceabuse/Concept_Tobacco_Use
+    description: All tobacco product use including cigarettes, smokeless tobacco,
+      cigars, and pipe tobacco
+    is_a: rural_substanceabuse_Concept_Substance_Use
+    name: rural_substanceabuse_Concept_Tobacco_Use
+    title: Tobacco Use
+  rural_substanceabuse_Concept_Youth_Depression:
+    class_uri: rural:substanceabuse/Concept_Youth_Depression
+    description: Adolescent depression measures adapted for youth populations
+    is_a: rural_substanceabuse_Concept_Depression
+    name: rural_substanceabuse_Concept_Youth_Depression
+    title: Youth Depression
+  rural_substanceabuse_Concept_Youth_Experiences:
+    class_uri: rural:substanceabuse/Concept_Youth_Experiences
+    description: Youth-specific factors including school engagement, activities, and
+      peer influences
+    is_a: rural_substanceabuse_Concept_Social_Determinants
+    name: rural_substanceabuse_Concept_Youth_Experiences
+    title: Youth Experiences
+  rural_substanceabuse_Concept_Youth_Mental_Health:
+    class_uri: rural:substanceabuse/Concept_Youth_Mental_Health
+    description: Youth-specific mental health measures including school-based services
+    is_a: rural_substanceabuse_Concept_Mental_Health
+    name: rural_substanceabuse_Concept_Youth_Mental_Health
+    title: Youth Mental Health
+  rural_substanceabuse_Substance:
+    class_uri: rural:substanceabuse/Substance
+    description: Types of substances that can be abused.
+    is_a: rural_substanceabuse_SubstanceAbuse
+    name: rural_substanceabuse_Substance
+    slots:
+    - rural_substanceabuse_code
+    - rural_substanceabuse_identifier
+    - rural_substanceabuse_description
+    - rural_substanceabuse_name
+    - rural_substanceabuse_year
+    - rural_substanceabuse_fromDataset
+  rural_substanceabuse_SubstanceAbuse:
+    class_uri: rural:substanceabuse/SubstanceAbuse
+    description: Categories of substance type and related incident types, extracted
+      from National Survey on Drug Use and Health (NSDUH).
+    name: rural_substanceabuse_SubstanceAbuse
+    source: http://sail.ua.edu/ruralkg/ontology
+    title: Substance Abuse
+  rural_substanceabuse_SubstanceRelatedIncident:
+    class_uri: rural:substanceabuse/SubstanceRelatedIncident
+    description: Types of incidents related to substance abuse.
+    is_a: rural_substanceabuse_SubstanceAbuse
+    name: rural_substanceabuse_SubstanceRelatedIncident
+    slots:
+    - rural_substanceabuse_year
+    - rural_substanceabuse_name
+    - rural_substanceabuse_fromDataset
+  rural_treatment_MentalHealthService:
+    class_uri: rural:treatment/MentalHealthService
+    description: Specific mental health services offered.
+    is_a: rural_treatment_Treatment
+    name: rural_treatment_MentalHealthService
+    slots:
+    - rural_treatment_description
+    - rural_treatment_year
+    - rural_treatment_code
+    - rural_treatment_name
+  rural_treatment_MentalHealthServiceCategory:
+    class_uri: rural:treatment/MentalHealthServiceCategory
+    description: Categories of mental health services.
+    is_a: rural_treatment_Treatment
+    name: rural_treatment_MentalHealthServiceCategory
+    slots:
+    - rural_treatment_year
+    - rural_treatment_code
+    - rural_treatment_containsService
+    - rural_treatment_name
+  rural_treatment_Treatment:
+    class_uri: rural:treatment/Treatment
+    description: Mental health services and treatment providers, sourcing from National
+      Directory Of Mental Health Treatment Facilities.
+    name: rural_treatment_Treatment
+    source: http://sail.ua.edu/ruralkg/ontology
+    title: Treatment
+  rural_treatment_TreatmentProvider:
+    class_uri: rural:treatment/TreatmentProvider
+    description: Entities that provide treatment services.
+    is_a: rural_treatment_Treatment
+    name: rural_treatment_TreatmentProvider
+    slots:
+    - rural_treatment_alias
+    - rural_treatment_zipcode
+    - rural_treatment_providesService
+    - rural_treatment_inCity
+    - rural_treatment_name
+    - rural_treatment_phone
+    - rural_treatment_address
+  rural_variable_Answer:
+    class_uri: rural:variable/Answer
+    description: Answer options for survey variables.
+    is_a: rural_variable_Variable
+    name: rural_variable_Answer
+  rural_variable_NIBRS:
+    class_uri: rural:variable/NIBRS
+    description: Variables from the National Incident-Based Reporting System dataset.
+    is_a: rural_variable_Variable
+    name: rural_variable_NIBRS
+    slots:
+    - rural_variable_description
+    - rural_variable_year
+    - rural_variable_hasAnswer
+    - rural_variable_content
+    - rural_variable_fromDataset
+    - rural_variable_generatedDescription
+    - rural_variable_code
+  rural_variable_NIBRSAnswer:
+    class_uri: rural:variable/NIBRSAnswer
+    description: Answer options for NIBRS variables.
+    is_a: rural_variable_Answer
+    name: rural_variable_NIBRSAnswer
+    slots:
+    - rural_variable_answerContent
+    - rural_variable_answerCode
+  rural_variable_NSDUH:
+    class_uri: rural:variable/NSDUH
+    description: Variables from the National Survey on Drug Use and Health dataset.
+    is_a: rural_variable_Variable
+    name: rural_variable_NSDUH
+    slots:
+    - rural_variable_description
+    - rural_variable_year
+    - rural_variable_hasAnswer
+    - rural_variable_content
+    - rural_variable_fromDataset
+    - rural_variable_generatedDescription
+    - rural_variable_code
+  rural_variable_NSDUHAnswer:
+    class_uri: rural:variable/NSDUHAnswer
+    description: Answer options for NSDUH variables.
+    is_a: rural_variable_Answer
+    name: rural_variable_NSDUHAnswer
+    slots:
+    - rural_variable_answerContent
+    - rural_variable_answerCode
+  rural_variable_Variable:
+    class_uri: rural:variable/Variable
+    description: Survey variables and their associated answer options from NSDUH and
+      NIBRS datasets.
+    name: rural_variable_Variable
+    source: http://sail.ua.edu/ruralkg/ontology
+    title: Variable
+comments:
+- 'created_by: University of Alabama, SAIL Lab, RuralKG Team'
+- 'title: RuralKG Ontology'
+created_on: '2025-01-30T12:00:00'
+default_prefix: okns
+description: An ontology which serves the schema for the cross-domain knowledge graph
+  (Rural-KG) to integrate health and justice data for rural resilience.
+id: okns:rural-kg
+imports:
+- linkml:types
+- okns:extended_types
+last_updated_on: '2025-10-27T13:04:27.213544'
+name: rural-kg
+prefixes:
+  linkml: https://w3id.org/linkml/
+  okn: https://purl.org/okn/
+  okns: https://purl.org/okn/schema/
+  owl: http://www.w3.org/2002/07/owl#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rural: http://sail.ua.edu/ruralkg/
+slots:
+  rural_administrativearea_abbreviation:
+    range: string
+    slot_uri: rural:administrativearea/abbreviation
+  rural_administrativearea_containsPlace:
+    range: rural_administrativearea_County
+    slot_uri: rural:administrativearea/containsPlace
+  rural_administrativearea_fips:
+    range: string
+    slot_uri: rural:administrativearea/fips
+  rural_administrativearea_latitude:
+    range: float
+    slot_uri: rural:administrativearea/latitude
+  rural_administrativearea_longitude:
+    range: float
+    slot_uri: rural:administrativearea/longitude
+  rural_administrativearea_name:
+    range: string
+    slot_uri: rural:administrativearea/name
+  rural_administrativearea_primaryCounty:
+    range: rural_administrativearea_County
+    slot_uri: rural:administrativearea/primaryCounty
+  rural_administrativearea_ranking:
+    range: integer
+    slot_uri: rural:administrativearea/ranking
+  rural_settlementtype_censusCounty:
+    range: rural_administrativearea_County
+    slot_uri: rural:settlementtype/censusCounty
+  rural_settlementtype_code:
+    range: string
+    slot_uri: rural:settlementtype/code
+  rural_settlementtype_description:
+    range: string
+    slot_uri: rural:settlementtype/description
+  rural_settlementtype_hasRUCC:
+    range: rural_settlementtype_RUCC
+    slot_uri: rural:settlementtype/hasRUCC
+  rural_settlementtype_population:
+    range: integer
+    slot_uri: rural:settlementtype/population
+  rural_settlementtype_year:
+    range: integer
+    slot_uri: rural:settlementtype/year
+  rural_substanceabuse_code:
+    range: string
+    slot_uri: rural:substanceabuse/code
+  rural_substanceabuse_description:
+    range: string
+    slot_uri: rural:substanceabuse/description
+  rural_substanceabuse_fromDataset:
+    range: string
+    slot_uri: rural:substanceabuse/fromDataset
+  rural_substanceabuse_identifier:
+    range: string
+    slot_uri: rural:substanceabuse/identifier
+  rural_substanceabuse_name:
+    range: string
+    slot_uri: rural:substanceabuse/name
+  rural_substanceabuse_year:
+    range: integer
+    slot_uri: rural:substanceabuse/year
+  rural_treatment_address:
+    range: string
+    slot_uri: rural:treatment/address
+  rural_treatment_alias:
+    range: string
+    slot_uri: rural:treatment/alias
+  rural_treatment_code:
+    range: string
+    slot_uri: rural:treatment/code
+  rural_treatment_containsService:
+    range: rural_treatment_MentalHealthService
+    slot_uri: rural:treatment/containsService
+  rural_treatment_description:
+    range: string
+    slot_uri: rural:treatment/description
+  rural_treatment_inCity:
+    any_of:
+    - range: uri
+    - range: rural_administrativearea_City
+    range: Any
+    slot_uri: rural:treatment/inCity
+  rural_treatment_name:
+    range: string
+    slot_uri: rural:treatment/name
+  rural_treatment_phone:
+    range: string
+    slot_uri: rural:treatment/phone
+  rural_treatment_providesService:
+    range: rural_treatment_MentalHealthService
+    slot_uri: rural:treatment/providesService
+  rural_treatment_year:
+    range: integer
+    slot_uri: rural:treatment/year
+  rural_treatment_zipcode:
+    range: string
+    slot_uri: rural:treatment/zipcode
+  rural_variable_answerCode:
+    range: string
+    slot_uri: rural:variable/answerCode
+  rural_variable_answerContent:
+    range: string
+    slot_uri: rural:variable/answerContent
+  rural_variable_code:
+    range: string
+    slot_uri: rural:variable/code
+  rural_variable_content:
+    range: string
+    slot_uri: rural:variable/content
+  rural_variable_description:
+    range: string
+    slot_uri: rural:variable/description
+  rural_variable_fromDataset:
+    range: string
+    slot_uri: rural:variable/fromDataset
+  rural_variable_generatedDescription:
+    range: string
+    slot_uri: rural:variable/generatedDescription
+  rural_variable_hasAnswer:
+    any_of:
+    - range: rural_variable_NIBRSAnswer
+    - range: rural_variable_NSDUHAnswer
+    range: Any
+    slot_uri: rural:variable/hasAnswer
+  rural_variable_year:
+    range: integer
+    slot_uri: rural:variable/year
+title: ruralkg
+version: 0.1.1
