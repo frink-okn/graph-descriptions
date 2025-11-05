@@ -1,11 +1,6 @@
 
 
-# Slot: No slot (predicate) name specified (securechain_hasHardwareVersion)
-
-
-_No slot (predicate) description specified_
-
-
+# Slot: securechain_hasHardwareVersion
 
 
 
@@ -27,8 +22,10 @@ URI: [securechain:hasHardwareVersion](https://w3id.org/secure-chain/hasHardwareV
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | No class (type) description specified |  no  |
-| [SecurechainHardware](../classes/SecurechainHardware.md) | No class (type) description specified |  yes  |
+| [SecurechainHardware](../classes/SecurechainHardware.md) |  |  no  |
+| [SecurechainSoftware](../classes/SecurechainSoftware.md) |  |  no  |
+| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) |  |  no  |
+| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) |  |  no  |
 
 
 
@@ -45,14 +42,6 @@ URI: [securechain:hasHardwareVersion](https://w3id.org/secure-chain/hasHardwareV
 
 
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| securechain_Hardware | securechain_HardwareVersion | securechain:Hardware/- | securechain:HardwareVersion/-#- | 57295 |
-
-
-
 
 ## LinkML Source
 
@@ -60,25 +49,14 @@ URI: [securechain:hasHardwareVersion](https://w3id.org/secure-chain/hasHardwareV
 
 ```yaml
 name: securechain_hasHardwareVersion
-annotations:
-  count:
-    tag: count
-    value: 57295
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-examples:
-- object:
-    example_object: securechain:HardwareVersion/-#-
-    example_object_type: securechain_HardwareVersion
-    example_predicate: securechain:hasHardwareVersion
-    example_subject: securechain:Hardware/-
-    example_subject_type: securechain_Hardware
-from_schema: secure-chain-kg
+from_schema: okns:secure-chain-kg
 rank: 1000
+domain: securechain_Hardware
 slot_uri: securechain:hasHardwareVersion
 alias: securechain_hasHardwareVersion
 domain_of:
 - securechain_Hardware
+- securechain_Software
 range: securechain_HardwareVersion
 
 ```

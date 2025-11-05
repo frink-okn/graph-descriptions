@@ -1,14 +1,19 @@
 
 
-# Slot: securechain_hasSoftwareVersion
+# Slot: manufacturer (sdos_manufacturer)
+
+
+_The manufacturer of the product._
 
 
 
 
-This slot occurs 8593149 times.
 
 
-URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareVersion)
+This slot occurs 54369 times.
+
+
+URI: [sdos:manufacturer](https://schema.org/manufacturer)
 
 
 
@@ -35,7 +40,7 @@ URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareV
 
 ## Properties
 
-* Range: [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md)
+* Range: [SdosOrganization](../classes/SdosOrganization.md)
 
 
 
@@ -48,16 +53,18 @@ URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareV
 <details>
 
 ```yaml
-name: securechain_hasSoftwareVersion
-from_schema: okns:secure-chain-kg
-rank: 1000
-domain: securechain_Software
-slot_uri: securechain:hasSoftwareVersion
-alias: securechain_hasSoftwareVersion
+name: sdos_manufacturer
+description: The manufacturer of the product.
+title: manufacturer
+notes:
+- No occurrences of this slot in the graph.
+from_schema: okns:sdo
+domain: sdos_Product
+slot_uri: sdos:manufacturer
 domain_of:
 - securechain_Hardware
 - securechain_Software
-range: securechain_SoftwareVersion
+range: sdos_Organization
 
 ```
 </details>

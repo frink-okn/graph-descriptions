@@ -1,16 +1,11 @@
 
 
-# Class: No class (type) name specified (securechain_License)
-
-
-_No class (type) description specified_
+# Class: SecurechainLicense
 
 
 
 
-
-
-This class occurs 0 times.
+This class occurs 294 times.
 
 
 URI: [securechain:License](https://w3id.org/secure-chain/License)
@@ -24,25 +19,25 @@ URI: [securechain:License](https://w3id.org/secure-chain/License)
  classDiagram
     class SecurechainLicense
     click SecurechainLicense href "../SecurechainLicense"
-      HsdoCreativeWork <|-- SecurechainLicense
-        click HsdoCreativeWork href "../HsdoCreativeWork"
+      SdosCreativeWork <|-- SecurechainLicense
+        click SdosCreativeWork href "../SdosCreativeWork"
       
-      SecurechainLicense : hsdo_identifier
+      SecurechainLicense : sdos_identifier
         
           
     
     
-    SecurechainLicense --> "0..1" String : hsdo_identifier
-    click String href "../String"
+    SecurechainLicense --> "0..1" Any : sdos_identifier
+    click Any href "../Any"
 
         
-      SecurechainLicense : hsdo_name
+      SecurechainLicense : sdos_name
         
           
     
     
-    SecurechainLicense --> "0..1" String : hsdo_name
-    click String href "../String"
+    SecurechainLicense --> "0..1" SdosText : sdos_name
+    click SdosText href "../SdosText"
 
         
       
@@ -53,8 +48,9 @@ URI: [securechain:License](https://w3id.org/secure-chain/License)
 
 
 ## Inheritance
-* [HsdoCreativeWork](../classes/HsdoCreativeWork.md)
-    * **SecurechainLicense**
+* [SdosThing](../classes/SdosThing.md)
+    * [SdosCreativeWork](../classes/SdosCreativeWork.md)
+        * **SecurechainLicense**
 
 
 
@@ -62,8 +58,8 @@ URI: [securechain:License](https://w3id.org/secure-chain/License)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [hsdo_name](../slots/hsdo_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | The name of the item | [HsdoCreativeWork](../classes/HsdoCreativeWork.md) |  |
-| [hsdo_identifier](../slots/hsdo_identifier.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | The identifier property represents any kind of identifier for any kind of [[T... | [HsdoCreativeWork](../classes/HsdoCreativeWork.md) |  |
+| [sdos_name](../slots/sdos_name.md) | 0..1 <br/> [SdosText](../classes/SdosText.md) | The name of the item <br/>  | direct | 20 |
+| [sdos_identifier](../slots/sdos_identifier.md) | 0..1 <br/> [SdosURL](../classes/SdosURL.md)&nbsp;or&nbsp;<br />[SdosPropertyValue](../classes/SdosPropertyValue.md)&nbsp;or&nbsp;<br />[SdosText](../classes/SdosText.md) | The identifier property represents any kind of identifier for any kind of [[T... <br/>  | direct | 294 |
 
 
 
@@ -88,16 +84,12 @@ URI: [securechain:License](https://w3id.org/secure-chain/License)
 
 ```yaml
 name: securechain_License
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: secure-chain-kg
+from_schema: okns:secure-chain-kg
 rank: 1000
-is_a: hsdo_CreativeWork
+is_a: sdos_CreativeWork
+slots:
+- sdos_name
+- sdos_identifier
 class_uri: securechain:License
 
 ```
@@ -109,117 +101,56 @@ class_uri: securechain:License
 
 ```yaml
 name: securechain_License
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: secure-chain-kg
+from_schema: okns:secure-chain-kg
 rank: 1000
-is_a: hsdo_CreativeWork
+is_a: sdos_CreativeWork
 attributes:
-  hsdo_name:
-    name: hsdo_name
-    annotations:
-      string:
-        tag: string
-        value: 20
+  sdos_name:
+    name: sdos_name
     description: The name of the item.
     title: name
-    examples:
-    - object:
-        example_object: '-'
-        example_object_type: string
-        example_predicate: hsdo:name
-        example_subject: securechain:Hardware/-
-        example_subject_type: securechain_Hardware
-    - object:
-        example_object: '%240.99_kindle_books_project'
-        example_object_type: string
-        example_predicate: hsdo:name
-        example_subject: schema:Organization/%25240.99_kindle_books_project
-        example_subject_type: hsdo_Organization
-    - object:
-        example_object: Permission to use, copy, modify, and/or distribute this software
-          for any
-        example_object_type: string
-        example_predicate: hsdo:name
-        example_subject: securechain:License/0bsd
-        example_subject_type: hsdo_CreativeWork
-    - object:
-        example_object: ''
-        example_object_type: string
-        example_predicate: hsdo:name
-        example_subject: securechain:Software/
-        example_subject_type: securechain_Software
-    from_schema: secure-chain-kg
-    rank: 1000
-    slot_uri: hsdo:name
-    alias: hsdo_name
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:sdo
+    exact_mappings:
+    - http://purl.org/dc/terms/title
+    domain: sdos_Thing
+    slot_uri: sdos:name
+    alias: sdos_name
     owner: securechain_License
     domain_of:
-    - hsdo_CreativeWork
-    - hsdo_Organization
     - securechain_Hardware
+    - securechain_License
     - securechain_Software
-    range: string
-  hsdo_identifier:
-    name: hsdo_identifier
-    annotations:
-      string:
-        tag: string
-        value: 20
-    description: 'The identifier property represents any kind of identifier for any
+    subproperty_of: rdfs_label
+    range: sdos_Text
+  sdos_identifier:
+    name: sdos_identifier
+    description: The identifier property represents any kind of identifier for any
       kind of [[Thing]], such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides
       dedicated properties for representing many of these, either as textual strings
       or as URL (URI) links. See [background notes](/docs/datamodel.html#identifierBg)
-      for more details.␊        '
+      for more details.
     title: identifier
-    examples:
-    - object:
-        example_object: 0----0
-        example_object_type: string
-        example_predicate: hsdo:identifier
-        example_subject: schema:Person/0----0
-        example_subject_type: hsdo_Person
-    - object:
-        example_object: CVE-1999-0043
-        example_object_type: string
-        example_predicate: hsdo:identifier
-        example_subject: securechain:Vulnerability/CVE-1999-0043
-        example_subject_type: securechain_Vulnerability
-    - object:
-        example_object: CWE-1
-        example_object_type: string
-        example_predicate: hsdo:identifier
-        example_subject: securechain:VulnerabilityType/CWE-1
-        example_subject_type: securechain_VulnerabilityType
-    - object:
-        example_object: Q2150861
-        example_object_type: string
-        example_predicate: hsdo:identifier
-        example_subject: schema:Organization/1Password
-        example_subject_type: hsdo_Organization
-    - object:
-        example_object: 0bsd
-        example_object_type: string
-        example_predicate: hsdo:identifier
-        example_subject: securechain:License/0bsd
-        example_subject_type: hsdo_CreativeWork
-    from_schema: secure-chain-kg
-    rank: 1000
-    slot_uri: hsdo:identifier
-    alias: hsdo_identifier
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:sdo
+    exact_mappings:
+    - http://purl.org/dc/terms/identifier
+    domain: sdos_Thing
+    slot_uri: sdos:identifier
+    alias: sdos_identifier
     owner: securechain_License
     domain_of:
-    - hsdo_CreativeWork
-    - hsdo_Organization
-    - hsdo_Person
+    - securechain_License
+    - securechain_Software
     - securechain_Vulnerability
     - securechain_VulnerabilityType
-    range: string
+    range: Any
+    any_of:
+    - range: sdos_URL
+    - range: sdos_PropertyValue
+    - range: sdos_Text
 class_uri: securechain:License
 
 ```

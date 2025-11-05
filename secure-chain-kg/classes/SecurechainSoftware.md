@@ -1,16 +1,11 @@
 
 
-# Class: No class (type) name specified (securechain_Software)
-
-
-_No class (type) description specified_
+# Class: SecurechainSoftware
 
 
 
 
-
-
-This class occurs 34469 times.
+This class occurs 803769 times.
 
 
 URI: [securechain:Software](https://w3id.org/secure-chain/Software)
@@ -24,30 +19,84 @@ URI: [securechain:Software](https://w3id.org/secure-chain/Software)
  classDiagram
     class SecurechainSoftware
     click SecurechainSoftware href "../SecurechainSoftware"
-      HsdoSoftwareApplication <|-- SecurechainSoftware
-        click HsdoSoftwareApplication href "../HsdoSoftwareApplication"
+      SdosSoftwareApplication <|-- SecurechainSoftware
+        click SdosSoftwareApplication href "../SdosSoftwareApplication"
       
 
       SecurechainSoftware <|-- SecurechainSoftwareVersion
         click SecurechainSoftwareVersion href "../SecurechainSoftwareVersion"
       
       
-      SecurechainSoftware : hsdo_contributor
+      SecurechainSoftware : sdos_contributor
         
           
     
     
-    SecurechainSoftware --> "0..1" HsdoPerson : hsdo_contributor
-    click HsdoPerson href "../HsdoPerson"
+    SecurechainSoftware --> "0..1" Any : sdos_contributor
+    click Any href "../Any"
 
         
-      SecurechainSoftware : hsdo_name
+      SecurechainSoftware : sdos_identifier
         
           
     
     
-    SecurechainSoftware --> "0..1" String : hsdo_name
-    click String href "../String"
+    SecurechainSoftware --> "0..1" Any : sdos_identifier
+    click Any href "../Any"
+
+        
+      SecurechainSoftware : sdos_manufacturer
+        
+          
+    
+    
+    SecurechainSoftware --> "0..1" SdosOrganization : sdos_manufacturer
+    click SdosOrganization href "../SdosOrganization"
+
+        
+      SecurechainSoftware : sdos_name
+        
+          
+    
+    
+    SecurechainSoftware --> "0..1" SdosText : sdos_name
+    click SdosText href "../SdosText"
+
+        
+      SecurechainSoftware : sdos_programmingLanguage
+        
+          
+    
+    
+    SecurechainSoftware --> "0..1" Any : sdos_programmingLanguage
+    click Any href "../Any"
+
+        
+      SecurechainSoftware : sdos_url
+        
+          
+    
+    
+    SecurechainSoftware --> "0..1" SdosURL : sdos_url
+    click SdosURL href "../SdosURL"
+
+        
+      SecurechainSoftware : securechain_ecosystem
+        
+          
+    
+    
+    SecurechainSoftware --> "0..1" Any : securechain_ecosystem
+    click Any href "../Any"
+
+        
+      SecurechainSoftware : securechain_hasHardwareVersion
+        
+          
+    
+    
+    SecurechainSoftware --> "0..1" SecurechainHardwareVersion : securechain_hasHardwareVersion
+    click SecurechainHardwareVersion href "../SecurechainHardwareVersion"
 
         
       SecurechainSoftware : securechain_hasSoftwareVersion
@@ -67,9 +116,11 @@ URI: [securechain:Software](https://w3id.org/secure-chain/Software)
 
 
 ## Inheritance
-* [HsdoSoftwareApplication](../classes/HsdoSoftwareApplication.md)
-    * **SecurechainSoftware**
-        * [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md)
+* [SdosThing](../classes/SdosThing.md)
+    * [SdosCreativeWork](../classes/SdosCreativeWork.md)
+        * [SdosSoftwareApplication](../classes/SdosSoftwareApplication.md)
+            * **SecurechainSoftware**
+                * [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md)
 
 
 
@@ -77,12 +128,32 @@ URI: [securechain:Software](https://w3id.org/secure-chain/Software)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [hsdo_name](../slots/hsdo_name.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | The name of the item <br/>  | direct | 34466 |
-| [hsdo_contributor](../slots/hsdo_contributor.md) | 0..1 <br/> [HsdoPerson](../classes/HsdoPerson.md) | A secondary contributor to the CreativeWork or Event <br/>  | direct | 33048 |
-| [securechain_hasSoftwareVersion](../slots/securechain_hasSoftwareVersion.md) | 0..1 <br/> [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | No slot (predicate) description specified <br/>  | direct | 164001 |
+| [securechain_hasSoftwareVersion](../slots/securechain_hasSoftwareVersion.md) | 0..1 <br/> [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) |  <br/>  | direct | 8593149 |
+| [securechain_ecosystem](../slots/securechain_ecosystem.md) | 0..1 <br/> [SdosText](../classes/SdosText.md)&nbsp;or&nbsp;<br />[xsd:string](xsd:string) |  <br/>  | direct | 803769 |
+| [sdos_url](../slots/sdos_url.md) | 0..1 <br/> [SdosURL](../classes/SdosURL.md) | URL of the item <br/>  | direct | 4 |
+| [sdos_contributor](../slots/sdos_contributor.md) | 0..1 <br/> [SdosOrganization](../classes/SdosOrganization.md)&nbsp;or&nbsp;<br />[SdosPerson](../classes/SdosPerson.md)&nbsp;or&nbsp;<br />[xsd:anyURI](xsd:anyURI) | A secondary contributor to the CreativeWork or Event <br/>  | direct | 32408 |
+| [sdos_name](../slots/sdos_name.md) | 0..1 <br/> [SdosText](../classes/SdosText.md) | The name of the item <br/>  | direct | 803766 |
+| [sdos_programmingLanguage](../slots/sdos_programmingLanguage.md) | 0..1 <br/> [SdosComputerLanguage](../classes/SdosComputerLanguage.md)&nbsp;or&nbsp;<br />[SdosText](../classes/SdosText.md) | The computer programming language <br/>  | direct | 803769 |
+| [sdos_identifier](../slots/sdos_identifier.md) | 0..1 <br/> [SdosURL](../classes/SdosURL.md)&nbsp;or&nbsp;<br />[SdosPropertyValue](../classes/SdosPropertyValue.md)&nbsp;or&nbsp;<br />[SdosText](../classes/SdosText.md) | The identifier property represents any kind of identifier for any kind of [[T... <br/>  | direct | 4 |
+| [securechain_hasHardwareVersion](../slots/securechain_hasHardwareVersion.md) | 0..1 <br/> [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) |  <br/>  | direct | 24 |
+| [sdos_manufacturer](../slots/sdos_manufacturer.md) | 0..1 <br/> [SdosOrganization](../classes/SdosOrganization.md) | The manufacturer of the product <br/>  | direct | 27 |
 
 
 
+
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [SecurechainHardware](../classes/SecurechainHardware.md) | [securechain_hasSoftwareVersion](../slots/securechain_hasSoftwareVersion.md) | domain | [SecurechainSoftware](../classes/SecurechainSoftware.md) |
+| [SecurechainHardware](../classes/SecurechainHardware.md) | [securechain_ecosystem](../slots/securechain_ecosystem.md) | domain | [SecurechainSoftware](../classes/SecurechainSoftware.md) |
+| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | [securechain_hasSoftwareVersion](../slots/securechain_hasSoftwareVersion.md) | domain | [SecurechainSoftware](../classes/SecurechainSoftware.md) |
+| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | [securechain_ecosystem](../slots/securechain_ecosystem.md) | domain | [SecurechainSoftware](../classes/SecurechainSoftware.md) |
+| [SecurechainSoftware](../classes/SecurechainSoftware.md) | [securechain_hasSoftwareVersion](../slots/securechain_hasSoftwareVersion.md) | domain | [SecurechainSoftware](../classes/SecurechainSoftware.md) |
+| [SecurechainSoftware](../classes/SecurechainSoftware.md) | [securechain_ecosystem](../slots/securechain_ecosystem.md) | domain | [SecurechainSoftware](../classes/SecurechainSoftware.md) |
+| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | [securechain_hasSoftwareVersion](../slots/securechain_hasSoftwareVersion.md) | domain | [SecurechainSoftware](../classes/SecurechainSoftware.md) |
+| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | [securechain_ecosystem](../slots/securechain_ecosystem.md) | domain | [SecurechainSoftware](../classes/SecurechainSoftware.md) |
 
 
 
@@ -104,39 +175,19 @@ URI: [securechain:Software](https://w3id.org/secure-chain/Software)
 
 ```yaml
 name: securechain_Software
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 34469
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: secure-chain-kg
+from_schema: okns:secure-chain-kg
 rank: 1000
-is_a: hsdo_SoftwareApplication
+is_a: sdos_SoftwareApplication
 slots:
-- hsdo_name
-- hsdo_contributor
 - securechain_hasSoftwareVersion
-slot_usage:
-  hsdo_contributor:
-    name: hsdo_contributor
-    annotations:
-      hsdo_Person:
-        tag: hsdo_Person
-        value: 33048
-  hsdo_name:
-    name: hsdo_name
-    annotations:
-      string:
-        tag: string
-        value: 34466
-  securechain_hasSoftwareVersion:
-    name: securechain_hasSoftwareVersion
-    annotations:
-      securechain_SoftwareVersion:
-        tag: securechain_SoftwareVersion
-        value: 164001
+- securechain_ecosystem
+- sdos_url
+- sdos_contributor
+- sdos_name
+- sdos_programmingLanguage
+- sdos_identifier
+- securechain_hasHardwareVersion
+- sdos_manufacturer
 class_uri: securechain:Software
 
 ```
@@ -148,133 +199,171 @@ class_uri: securechain:Software
 
 ```yaml
 name: securechain_Software
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 34469
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: secure-chain-kg
+from_schema: okns:secure-chain-kg
 rank: 1000
-is_a: hsdo_SoftwareApplication
-slot_usage:
-  hsdo_contributor:
-    name: hsdo_contributor
-    annotations:
-      hsdo_Person:
-        tag: hsdo_Person
-        value: 33048
-  hsdo_name:
-    name: hsdo_name
-    annotations:
-      string:
-        tag: string
-        value: 34466
-  securechain_hasSoftwareVersion:
-    name: securechain_hasSoftwareVersion
-    annotations:
-      securechain_SoftwareVersion:
-        tag: securechain_SoftwareVersion
-        value: 164001
+is_a: sdos_SoftwareApplication
 attributes:
-  hsdo_name:
-    name: hsdo_name
-    annotations:
-      string:
-        tag: string
-        value: 34466
-    description: The name of the item.
-    title: name
-    examples:
-    - object:
-        example_object: '-'
-        example_object_type: string
-        example_predicate: hsdo:name
-        example_subject: securechain:Hardware/-
-        example_subject_type: securechain_Hardware
-    - object:
-        example_object: '%240.99_kindle_books_project'
-        example_object_type: string
-        example_predicate: hsdo:name
-        example_subject: schema:Organization/%25240.99_kindle_books_project
-        example_subject_type: hsdo_Organization
-    - object:
-        example_object: Permission to use, copy, modify, and/or distribute this software
-          for any
-        example_object_type: string
-        example_predicate: hsdo:name
-        example_subject: securechain:License/0bsd
-        example_subject_type: hsdo_CreativeWork
-    - object:
-        example_object: ''
-        example_object_type: string
-        example_predicate: hsdo:name
-        example_subject: securechain:Software/
-        example_subject_type: securechain_Software
-    from_schema: secure-chain-kg
-    rank: 1000
-    slot_uri: hsdo:name
-    alias: hsdo_name
-    owner: securechain_Software
-    domain_of:
-    - hsdo_CreativeWork
-    - hsdo_Organization
-    - securechain_Hardware
-    - securechain_Software
-    range: string
-  hsdo_contributor:
-    name: hsdo_contributor
-    annotations:
-      hsdo_Person:
-        tag: hsdo_Person
-        value: 33048
-    description: A secondary contributor to the CreativeWork or Event.
-    title: contributor
-    examples:
-    - object:
-        example_object: schema:Person/yrnkrn
-        example_object_type: hsdo_Person
-        example_predicate: hsdo:contributor
-        example_subject: securechain:Software/zapcc
-        example_subject_type: None
-    - object:
-        example_object: schema:Person/JosephA-packt
-        example_object_type: hsdo_Person
-        example_predicate: hsdo:contributor
-        example_subject: securechain:Software/3D-Graphics-Rendering-Cookbook
-        example_subject_type: securechain_Software
-    from_schema: secure-chain-kg
-    rank: 1000
-    slot_uri: hsdo:contributor
-    alias: hsdo_contributor
-    owner: securechain_Software
-    domain_of:
-    - securechain_Software
-    range: hsdo_Person
   securechain_hasSoftwareVersion:
     name: securechain_hasSoftwareVersion
-    annotations:
-      securechain_SoftwareVersion:
-        tag: securechain_SoftwareVersion
-        value: 164001
-    description: No slot (predicate) description specified
-    title: No slot (predicate) name specified
-    examples:
-    - object:
-        example_object: securechain:SoftwareVersion/#%22%2F%2Fapi%23%2A
-        example_object_type: securechain_SoftwareVersion
-        example_predicate: securechain:hasSoftwareVersion
-        example_subject: securechain:Software/
-        example_subject_type: securechain_Software
-    from_schema: secure-chain-kg
+    from_schema: okns:secure-chain-kg
     rank: 1000
+    domain: securechain_Software
     slot_uri: securechain:hasSoftwareVersion
     alias: securechain_hasSoftwareVersion
     owner: securechain_Software
     domain_of:
+    - securechain_Hardware
     - securechain_Software
     range: securechain_SoftwareVersion
+  securechain_ecosystem:
+    name: securechain_ecosystem
+    from_schema: okns:secure-chain-kg
+    rank: 1000
+    domain: securechain_Software
+    slot_uri: securechain:ecosystem
+    alias: securechain_ecosystem
+    owner: securechain_Software
+    domain_of:
+    - securechain_Hardware
+    - securechain_Software
+    range: Any
+    any_of:
+    - range: sdos_Text
+    - range: string
+  sdos_url:
+    name: sdos_url
+    description: URL of the item.
+    title: url
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:sdo
+    domain: sdos_Thing
+    slot_uri: sdos:url
+    alias: sdos_url
+    owner: securechain_Software
+    domain_of:
+    - securechain_Software
+    - securechain_SoftwareVersion
+    range: sdos_URL
+  sdos_contributor:
+    name: sdos_contributor
+    description: A secondary contributor to the CreativeWork or Event.
+    title: contributor
+    from_schema: okns:sdo
+    slot_uri: sdos:contributor
+    alias: sdos_contributor
+    owner: securechain_Software
+    domain_of:
+    - sdos_CarUsageType
+    - sdos_DayOfWeek
+    - sdos_DeliveryMethod
+    - sdos_DriveWheelConfigurationValue
+    - sdos_LegalForceStatus
+    - sdos_LegalValueLevel
+    - sdos_MusicAlbumProductionType
+    - sdos_MusicAlbumReleaseType
+    - sdos_MusicReleaseFormatType
+    - sdos_SteeringPositionValue
+    - securechain_Software
+    union_of:
+    - sdos_CreativeWork
+    - sdos_Event
+    range: Any
+    any_of:
+    - range: sdos_Organization
+    - range: sdos_Person
+    - range: uri
+  sdos_name:
+    name: sdos_name
+    description: The name of the item.
+    title: name
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:sdo
+    exact_mappings:
+    - http://purl.org/dc/terms/title
+    domain: sdos_Thing
+    slot_uri: sdos:name
+    alias: sdos_name
+    owner: securechain_Software
+    domain_of:
+    - securechain_Hardware
+    - securechain_License
+    - securechain_Software
+    subproperty_of: rdfs_label
+    range: sdos_Text
+  sdos_programmingLanguage:
+    name: sdos_programmingLanguage
+    description: The computer programming language.
+    title: programmingLanguage
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:sdo
+    domain: sdos_SoftwareSourceCode
+    slot_uri: sdos:programmingLanguage
+    alias: sdos_programmingLanguage
+    owner: securechain_Software
+    domain_of:
+    - securechain_Hardware
+    - securechain_Software
+    range: Any
+    any_of:
+    - range: sdos_ComputerLanguage
+    - range: sdos_Text
+  sdos_identifier:
+    name: sdos_identifier
+    description: The identifier property represents any kind of identifier for any
+      kind of [[Thing]], such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides
+      dedicated properties for representing many of these, either as textual strings
+      or as URL (URI) links. See [background notes](/docs/datamodel.html#identifierBg)
+      for more details.
+    title: identifier
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:sdo
+    exact_mappings:
+    - http://purl.org/dc/terms/identifier
+    domain: sdos_Thing
+    slot_uri: sdos:identifier
+    alias: sdos_identifier
+    owner: securechain_Software
+    domain_of:
+    - securechain_License
+    - securechain_Software
+    - securechain_Vulnerability
+    - securechain_VulnerabilityType
+    range: Any
+    any_of:
+    - range: sdos_URL
+    - range: sdos_PropertyValue
+    - range: sdos_Text
+  securechain_hasHardwareVersion:
+    name: securechain_hasHardwareVersion
+    from_schema: okns:secure-chain-kg
+    rank: 1000
+    domain: securechain_Hardware
+    slot_uri: securechain:hasHardwareVersion
+    alias: securechain_hasHardwareVersion
+    owner: securechain_Software
+    domain_of:
+    - securechain_Hardware
+    - securechain_Software
+    range: securechain_HardwareVersion
+  sdos_manufacturer:
+    name: sdos_manufacturer
+    description: The manufacturer of the product.
+    title: manufacturer
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:sdo
+    domain: sdos_Product
+    slot_uri: sdos:manufacturer
+    alias: sdos_manufacturer
+    owner: securechain_Software
+    domain_of:
+    - securechain_Hardware
+    - securechain_Software
+    range: sdos_Organization
 class_uri: securechain:Software
 
 ```

@@ -1,14 +1,14 @@
 
 
-# Slot: securechain_hasSoftwareVersion
+# Slot: securechain_ecosystem
 
 
 
 
-This slot occurs 8593149 times.
+This slot occurs 803769 times.
 
 
-URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareVersion)
+URI: [securechain:ecosystem](https://w3id.org/secure-chain/ecosystem)
 
 
 
@@ -35,7 +35,7 @@ URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareV
 
 ## Properties
 
-* Range: [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[SdosText](../classes/SdosText.md)&nbsp;or&nbsp;<br />[xsd:string](xsd:string)
 
 
 
@@ -48,16 +48,19 @@ URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareV
 <details>
 
 ```yaml
-name: securechain_hasSoftwareVersion
+name: securechain_ecosystem
 from_schema: okns:secure-chain-kg
 rank: 1000
 domain: securechain_Software
-slot_uri: securechain:hasSoftwareVersion
-alias: securechain_hasSoftwareVersion
+slot_uri: securechain:ecosystem
+alias: securechain_ecosystem
 domain_of:
 - securechain_Hardware
 - securechain_Software
-range: securechain_SoftwareVersion
+range: Any
+any_of:
+- range: sdos_Text
+- range: string
 
 ```
 </details>

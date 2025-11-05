@@ -1,16 +1,11 @@
 
 
-# Slot: No slot (predicate) name specified (securechain_versionName)
-
-
-_No slot (predicate) description specified_
+# Slot: securechain_versionName
 
 
 
 
-
-
-This slot occurs 221295 times.
+This slot occurs 8650443 times.
 
 
 URI: [securechain:versionName](https://w3id.org/secure-chain/versionName)
@@ -27,8 +22,8 @@ URI: [securechain:versionName](https://w3id.org/secure-chain/versionName)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | No class (type) description specified |  yes  |
-| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | No class (type) description specified |  yes  |
+| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) |  |  no  |
+| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) |  |  no  |
 
 
 
@@ -38,19 +33,10 @@ URI: [securechain:versionName](https://w3id.org/secure-chain/versionName)
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[SdosText](../classes/SdosText.md)&nbsp;or&nbsp;<br />[xsd:string](xsd:string)
 
 
 
-
-
-
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| securechain_HardwareVersion | string | securechain:HardwareVersion/-#- | - | 57295 |
-| securechain_SoftwareVersion | string | securechain:SoftwareVersion/#%22%2F%2Fapi%23%2A | "//api#* | 164000 |
 
 
 
@@ -61,33 +47,17 @@ URI: [securechain:versionName](https://w3id.org/secure-chain/versionName)
 
 ```yaml
 name: securechain_versionName
-annotations:
-  count:
-    tag: count
-    value: 221295
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-examples:
-- object:
-    example_object: '-'
-    example_object_type: string
-    example_predicate: securechain:versionName
-    example_subject: securechain:HardwareVersion/-#-
-    example_subject_type: securechain_HardwareVersion
-- object:
-    example_object: '"//api#*'
-    example_object_type: string
-    example_predicate: securechain:versionName
-    example_subject: securechain:SoftwareVersion/#%22%2F%2Fapi%23%2A
-    example_subject_type: securechain_SoftwareVersion
-from_schema: secure-chain-kg
+from_schema: okns:secure-chain-kg
 rank: 1000
 slot_uri: securechain:versionName
 alias: securechain_versionName
 domain_of:
 - securechain_HardwareVersion
 - securechain_SoftwareVersion
-range: string
+range: Any
+any_of:
+- range: sdos_Text
+- range: string
 
 ```
 </details>
