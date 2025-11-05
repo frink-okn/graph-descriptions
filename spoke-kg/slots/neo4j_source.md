@@ -3,10 +3,9 @@
 # Slot: neo4j_source
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 180 times.
 
 
 URI: [neo4j:source](neo4j://graph.schema#source)
@@ -23,7 +22,7 @@ URI: [neo4j:source](neo4j://graph.schema#source)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Neo4jDisease](../classes/Neo4jDisease.md) | No class (type) description specified |  no  |
+| [Neo4jDisease](../classes/Neo4jDisease.md) |  |  no  |
 
 
 
@@ -33,46 +32,10 @@ URI: [neo4j:source](neo4j://graph.schema#source)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
-
-
-
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| neo4j_Disease → string | neo4j://graph.individuals#142359 | neo4j:source | Disease Ontology |
-
-
-## Comments
-
-* 180 occurrences with subject type neo4j_Disease and object type string.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: spoke-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | neo4j:source |
-| native | spoke-kg/:neo4j_source |
 
 
 
@@ -80,18 +43,10 @@ URI: [neo4j:source](neo4j://graph.schema#source)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: neo4j_source
-description: No slot (predicate) description specified
-comments:
-- 180 occurrences with subject type neo4j_Disease and object type string.
-examples:
-- description: neo4j_Disease → string
-  object:
-    example_object: Disease Ontology
-    example_predicate: neo4j:source
-    example_subject: neo4j://graph.individuals#142359
-from_schema: spoke-kg
+from_schema: okns:spoke-kg
 rank: 1000
 slot_uri: neo4j:source
 alias: neo4j_source
