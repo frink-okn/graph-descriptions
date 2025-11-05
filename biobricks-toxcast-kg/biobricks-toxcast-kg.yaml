@@ -1,0 +1,716 @@
+annotations:
+  counts:
+    tag: counts
+    value:
+      classes:
+        tag: classes
+        value:
+          bao:0000015:
+            tag: bao:0000015
+            value: 2205
+          bao:0000040:
+            tag: bao:0000040
+            value: 3344010
+          bao:0000179:
+            tag: bao:0000179
+            value: 3344010
+          https://w3id.org/biolink/vocab/ChemicalEntity:
+            tag: https://w3id.org/biolink/vocab/ChemicalEntity
+            value: 9542
+          obo:CHEMINF_000000:
+            tag: obo:CHEMINF_000000
+            value: 9542
+          obo:CHEMINF_000446:
+            tag: obo:CHEMINF_000446
+            value: 9542
+          obo:CHEMINF_000568:
+            tag: obo:CHEMINF_000568
+            value: 9542
+      pairs:
+        tag: pairs
+        value:
+          bao:0000209:
+            tag: bao:0000209
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  bao:0000040:
+                    tag: bao:0000040
+                    value: 3344010
+          dc:source:
+            tag: dc:source
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value: 2205
+              obo:CHEMINF_000446:
+                tag: obo:CHEMINF_000446
+                value:
+                  string:
+                    tag: string
+                    value: 9542
+              obo:CHEMINF_000568:
+                tag: obo:CHEMINF_000568
+                value:
+                  string:
+                    tag: string
+                    value: 9542
+          edam:has_identifier:
+            tag: edam:has_identifier
+            value:
+              https://w3id.org/biolink/vocab/ChemicalEntity:
+                tag: https://w3id.org/biolink/vocab/ChemicalEntity
+                value:
+                  obo:CHEMINF_000446:
+                    tag: obo:CHEMINF_000446
+                    value: 9542
+                  obo:CHEMINF_000568:
+                    tag: obo:CHEMINF_000568
+                    value: 9542
+              obo:CHEMINF_000000:
+                tag: obo:CHEMINF_000000
+                value:
+                  obo:CHEMINF_000446:
+                    tag: obo:CHEMINF_000446
+                    value: 9542
+                  obo:CHEMINF_000568:
+                    tag: obo:CHEMINF_000568
+                    value: 9542
+          https://comptox.epa.gov/property/assayID:
+            tag: https://comptox.epa.gov/property/assayID
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value: 2205
+          obo:IAO_0000136:
+            tag: obo:IAO_0000136
+            value:
+              bao:0000179:
+                tag: bao:0000179
+                value:
+                  https://w3id.org/biolink/vocab/ChemicalEntity:
+                    tag: https://w3id.org/biolink/vocab/ChemicalEntity
+                    value: 3344010
+                  obo:CHEMINF_000000:
+                    tag: obo:CHEMINF_000000
+                    value: 3344010
+          obo:OBI_0000299:
+            tag: obo:OBI_0000299
+            value:
+              bao:0000040:
+                tag: bao:0000040
+                value:
+                  bao:0000179:
+                    tag: bao:0000179
+                    value: 3344010
+          obo:RO_0000056:
+            tag: obo:RO_0000056
+            value:
+              https://w3id.org/biolink/vocab/ChemicalEntity:
+                tag: https://w3id.org/biolink/vocab/ChemicalEntity
+                value:
+                  bao:0000040:
+                    tag: bao:0000040
+                    value: 3344010
+              obo:CHEMINF_000000:
+                tag: obo:CHEMINF_000000
+                value:
+                  bao:0000040:
+                    tag: bao:0000040
+                    value: 3344010
+          obo:RO_0000057:
+            tag: obo:RO_0000057
+            value:
+              bao:0000040:
+                tag: bao:0000040
+                value:
+                  https://w3id.org/biolink/vocab/ChemicalEntity:
+                    tag: https://w3id.org/biolink/vocab/ChemicalEntity
+                    value: 3344010
+                  obo:CHEMINF_000000:
+                    tag: obo:CHEMINF_000000
+                    value: 3344010
+          rdfs:label:
+            tag: rdfs:label
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value: 2205
+              bao:0000179:
+                tag: bao:0000179
+                value:
+                  string:
+                    tag: string
+                    value: 3344010
+              https://w3id.org/biolink/vocab/ChemicalEntity:
+                tag: https://w3id.org/biolink/vocab/ChemicalEntity
+                value:
+                  string:
+                    tag: string
+                    value: 9542
+              obo:CHEMINF_000000:
+                tag: obo:CHEMINF_000000
+                value:
+                  string:
+                    tag: string
+                    value: 9542
+              obo:CHEMINF_000446:
+                tag: obo:CHEMINF_000446
+                value:
+                  string:
+                    tag: string
+                    value: 9542
+              obo:CHEMINF_000568:
+                tag: obo:CHEMINF_000568
+                value:
+                  string:
+                    tag: string
+                    value: 9542
+          semsci:000300:
+            tag: semsci:000300
+            value:
+              bao:0000179:
+                tag: bao:0000179
+                value:
+                  string:
+                    tag: string
+                    value: 3380300
+      slots:
+        tag: slots
+        value:
+          bao:0000209:
+            tag: bao:0000209
+            value: 3344010
+          dc:source:
+            tag: dc:source
+            value: 21289
+          edam:has_identifier:
+            tag: edam:has_identifier
+            value: 19084
+          https://comptox.epa.gov/property/assayID:
+            tag: https://comptox.epa.gov/property/assayID
+            value: 2205
+          obo:IAO_0000136:
+            tag: obo:IAO_0000136
+            value: 3344010
+          obo:OBI_0000299:
+            tag: obo:OBI_0000299
+            value: 3344010
+          obo:RO_0000056:
+            tag: obo:RO_0000056
+            value: 3344010
+          obo:RO_0000057:
+            tag: obo:RO_0000057
+            value: 3344010
+          rdfs:label:
+            tag: rdfs:label
+            value: 3374841
+          semsci:000300:
+            tag: semsci:000300
+            value: 3380300
+  examples:
+    tag: examples
+    value:
+      classes:
+        tag: classes
+        value:
+          bao:0000015:
+            tag: bao:0000015
+            value: https://comptox.epa.gov/dashboard/assay-endpoints/VALA_TUBIPS_Antagonist_TubuleLength_dn
+          bao:0000040:
+            tag: bao:0000040
+            value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/None/aeid/999/Measure_Group
+          bao:0000179:
+            tag: bao:0000179
+            value: http://example.com/toxcast/invitrodb.parquet/aeid/999/dsstox_substance_id/None/HitcallEndpoint
+          https://w3id.org/biolink/vocab/ChemicalEntity:
+            tag: https://w3id.org/biolink/vocab/ChemicalEntity
+            value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/None/Chemical_Entity
+          obo:CHEMINF_000000:
+            tag: obo:CHEMINF_000000
+            value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/None/Chemical_Entity
+          obo:CHEMINF_000446:
+            tag: obo:CHEMINF_000446
+            value: http://identifiers.org/cas/None
+          obo:CHEMINF_000568:
+            tag: obo:CHEMINF_000568
+            value: https://comptox.epa.gov/dashboard/chemical/details/None
+      pairs:
+        tag: pairs
+        value:
+          bao:0000209:
+            tag: bao:0000209
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  bao:0000040:
+                    tag: bao:0000040
+                    value:
+                      object:
+                        tag: object
+                        value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/DTXSID0020022/aeid/1855/Measure_Group
+                      predicate:
+                        tag: predicate
+                        value: bao:0000209
+                      subject:
+                        tag: subject
+                        value: https://comptox.epa.gov/dashboard/assay-endpoints/ACEA_AR_agonist_80hr
+          dc:source:
+            tag: dc:source
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: InvitroDB
+                      predicate:
+                        tag: predicate
+                        value: dc:source
+                      subject:
+                        tag: subject
+                        value: https://comptox.epa.gov/dashboard/assay-endpoints/ACEA_AR_agonist_80hr
+              obo:CHEMINF_000446:
+                tag: obo:CHEMINF_000446
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: CAS
+                      predicate:
+                        tag: predicate
+                        value: dc:source
+                      subject:
+                        tag: subject
+                        value: http://identifiers.org/cas/100-00-5
+              obo:CHEMINF_000568:
+                tag: obo:CHEMINF_000568
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: CompTox
+                      predicate:
+                        tag: predicate
+                        value: dc:source
+                      subject:
+                        tag: subject
+                        value: https://comptox.epa.gov/dashboard/chemical/details/DTXSID001044510
+          edam:has_identifier:
+            tag: edam:has_identifier
+            value:
+              https://w3id.org/biolink/vocab/ChemicalEntity:
+                tag: https://w3id.org/biolink/vocab/ChemicalEntity
+                value:
+                  obo:CHEMINF_000446:
+                    tag: obo:CHEMINF_000446
+                    value:
+                      object:
+                        tag: object
+                        value: http://identifiers.org/cas/75365-73-0
+                      predicate:
+                        tag: predicate
+                        value: edam:has_identifier
+                      subject:
+                        tag: subject
+                        value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/DTXSID001044510/Chemical_Entity
+                  obo:CHEMINF_000568:
+                    tag: obo:CHEMINF_000568
+                    value:
+                      object:
+                        tag: object
+                        value: https://comptox.epa.gov/dashboard/chemical/details/DTXSID001044510
+                      predicate:
+                        tag: predicate
+                        value: edam:has_identifier
+                      subject:
+                        tag: subject
+                        value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/DTXSID001044510/Chemical_Entity
+              obo:CHEMINF_000000:
+                tag: obo:CHEMINF_000000
+                value:
+                  obo:CHEMINF_000446:
+                    tag: obo:CHEMINF_000446
+                    value:
+                      object:
+                        tag: object
+                        value: http://identifiers.org/cas/75365-73-0
+                      predicate:
+                        tag: predicate
+                        value: edam:has_identifier
+                      subject:
+                        tag: subject
+                        value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/DTXSID001044510/Chemical_Entity
+                  obo:CHEMINF_000568:
+                    tag: obo:CHEMINF_000568
+                    value:
+                      object:
+                        tag: object
+                        value: https://comptox.epa.gov/dashboard/chemical/details/DTXSID001044510
+                      predicate:
+                        tag: predicate
+                        value: edam:has_identifier
+                      subject:
+                        tag: subject
+                        value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/DTXSID001044510/Chemical_Entity
+          https://comptox.epa.gov/property/assayID:
+            tag: https://comptox.epa.gov/property/assayID
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: '1855'
+                      predicate:
+                        tag: predicate
+                        value: https://comptox.epa.gov/property/assayID
+                      subject:
+                        tag: subject
+                        value: https://comptox.epa.gov/dashboard/assay-endpoints/ACEA_AR_agonist_80hr
+          obo:IAO_0000136:
+            tag: obo:IAO_0000136
+            value:
+              bao:0000179:
+                tag: bao:0000179
+                value:
+                  https://w3id.org/biolink/vocab/ChemicalEntity:
+                    tag: https://w3id.org/biolink/vocab/ChemicalEntity
+                    value:
+                      object:
+                        tag: object
+                        value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/DTXSID0020022/Chemical_Entity
+                      predicate:
+                        tag: predicate
+                        value: obo:IAO_0000136
+                      subject:
+                        tag: subject
+                        value: http://example.com/toxcast/invitrodb.parquet/aeid/10/dsstox_substance_id/DTXSID0020022/HitcallEndpoint
+                  obo:CHEMINF_000000:
+                    tag: obo:CHEMINF_000000
+                    value:
+                      object:
+                        tag: object
+                        value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/DTXSID0020022/Chemical_Entity
+                      predicate:
+                        tag: predicate
+                        value: obo:IAO_0000136
+                      subject:
+                        tag: subject
+                        value: http://example.com/toxcast/invitrodb.parquet/aeid/10/dsstox_substance_id/DTXSID0020022/HitcallEndpoint
+          obo:OBI_0000299:
+            tag: obo:OBI_0000299
+            value:
+              bao:0000040:
+                tag: bao:0000040
+                value:
+                  bao:0000179:
+                    tag: bao:0000179
+                    value:
+                      object:
+                        tag: object
+                        value: http://example.com/toxcast/invitrodb.parquet/aeid/2545/dsstox_substance_id/DTXSID001044510/HitcallEndpoint
+                      predicate:
+                        tag: predicate
+                        value: obo:OBI_0000299
+                      subject:
+                        tag: subject
+                        value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/DTXSID001044510/aeid/2545/Measure_Group
+          obo:RO_0000056:
+            tag: obo:RO_0000056
+            value:
+              https://w3id.org/biolink/vocab/ChemicalEntity:
+                tag: https://w3id.org/biolink/vocab/ChemicalEntity
+                value:
+                  bao:0000040:
+                    tag: bao:0000040
+                    value:
+                      object:
+                        tag: object
+                        value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/DTXSID001044510/aeid/2545/Measure_Group
+                      predicate:
+                        tag: predicate
+                        value: obo:RO_0000056
+                      subject:
+                        tag: subject
+                        value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/DTXSID001044510/Chemical_Entity
+              obo:CHEMINF_000000:
+                tag: obo:CHEMINF_000000
+                value:
+                  bao:0000040:
+                    tag: bao:0000040
+                    value:
+                      object:
+                        tag: object
+                        value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/DTXSID001044510/aeid/2545/Measure_Group
+                      predicate:
+                        tag: predicate
+                        value: obo:RO_0000056
+                      subject:
+                        tag: subject
+                        value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/DTXSID001044510/Chemical_Entity
+          obo:RO_0000057:
+            tag: obo:RO_0000057
+            value:
+              bao:0000040:
+                tag: bao:0000040
+                value:
+                  https://w3id.org/biolink/vocab/ChemicalEntity:
+                    tag: https://w3id.org/biolink/vocab/ChemicalEntity
+                    value:
+                      object:
+                        tag: object
+                        value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/DTXSID001044510/Chemical_Entity
+                      predicate:
+                        tag: predicate
+                        value: obo:RO_0000057
+                      subject:
+                        tag: subject
+                        value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/DTXSID001044510/aeid/2545/Measure_Group
+                  obo:CHEMINF_000000:
+                    tag: obo:CHEMINF_000000
+                    value:
+                      object:
+                        tag: object
+                        value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/DTXSID001044510/Chemical_Entity
+                      predicate:
+                        tag: predicate
+                        value: obo:RO_0000057
+                      subject:
+                        tag: subject
+                        value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/DTXSID001044510/aeid/2545/Measure_Group
+          rdfs:label:
+            tag: rdfs:label
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: ACEA_AR_agonist_80hr
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: https://comptox.epa.gov/dashboard/assay-endpoints/ACEA_AR_agonist_80hr
+              bao:0000179:
+                tag: bao:0000179
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: hitcall
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: http://example.com/toxcast/invitrodb.parquet/aeid/10/dsstox_substance_id/DTXSID0020022/HitcallEndpoint
+              https://w3id.org/biolink/vocab/ChemicalEntity:
+                tag: https://w3id.org/biolink/vocab/ChemicalEntity
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Methyl viologen dichloride hydrate
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/DTXSID001044510/Chemical_Entity
+              obo:CHEMINF_000000:
+                tag: obo:CHEMINF_000000
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Methyl viologen dichloride hydrate
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: http://example.com/toxcast/invitrodb.parquet/dsstox_substance_id/DTXSID001044510/Chemical_Entity
+              obo:CHEMINF_000446:
+                tag: obo:CHEMINF_000446
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 1-Chloro-4-nitrobenzene
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: http://identifiers.org/cas/100-00-5
+              obo:CHEMINF_000568:
+                tag: obo:CHEMINF_000568
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Methyl viologen dichloride hydrate
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: https://comptox.epa.gov/dashboard/chemical/details/DTXSID001044510
+          semsci:000300:
+            tag: semsci:000300
+            value:
+              bao:0000179:
+                tag: bao:0000179
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: '0.0'
+                      predicate:
+                        tag: predicate
+                        value: semsci:000300
+                      subject:
+                        tag: subject
+                        value: http://example.com/toxcast/invitrodb.parquet/aeid/10/dsstox_substance_id/DTXSID0020022/HitcallEndpoint
+classes:
+  bao_0000015:
+    class_uri: bao:0000015
+    name: bao_0000015
+    slots:
+    - bao_0000209
+    - dc_source
+    - rdfs_label
+    - https___comptox.epa.gov_property_assayID
+  bao_0000040:
+    class_uri: bao:0000040
+    name: bao_0000040
+    slots:
+    - obo_OBI_0000299
+    - obo_RO_0000057
+  bao_0000179:
+    class_uri: bao:0000179
+    name: bao_0000179
+    slots:
+    - rdfs_label
+    - semsci_000300
+    - obo_IAO_0000136
+  https___w3id.org_biolink_vocab_ChemicalEntity:
+    class_uri: https://w3id.org/biolink/vocab/ChemicalEntity
+    name: https___w3id.org_biolink_vocab_ChemicalEntity
+    slots:
+    - edam_has_identifier
+    - rdfs_label
+    - obo_RO_0000056
+  obo_CHEMINF_000000:
+    class_uri: obo:CHEMINF_000000
+    name: obo_CHEMINF_000000
+    slots:
+    - edam_has_identifier
+    - rdfs_label
+    - obo_RO_0000056
+  obo_CHEMINF_000446:
+    class_uri: obo:CHEMINF_000446
+    name: obo_CHEMINF_000446
+    slots:
+    - rdfs_label
+    - dc_source
+  obo_CHEMINF_000568:
+    class_uri: obo:CHEMINF_000568
+    name: obo_CHEMINF_000568
+    slots:
+    - rdfs_label
+    - dc_source
+created_on: '2025-10-21T02:40:04.011145'
+default_prefix: okns
+id: okns:biobricks-toxcast-kg
+imports:
+- linkml:types
+- okns:extended_types
+- okns:dc
+- okns:owl-rdf-rdfs
+last_updated_on: '2025-10-21T02:40:04.011145'
+name: biobricks-toxcast-kg
+prefixes:
+  bao: http://www.bioassayontology.org/bao#BAO_
+  dc: http://purl.org/dc/elements/1.1/
+  edam: http://edamontology.org/
+  linkml: https://w3id.org/linkml/
+  obo: http://purl.obolibrary.org/obo/
+  okn: https://purl.org/okn/
+  okns: https://purl.org/okn/schema/
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  semsci: http://semanticscience.org/resource/SIO_
+slots:
+  bao_0000209:
+    range: bao_0000040
+    slot_uri: bao:0000209
+  edam_has_identifier:
+    any_of:
+    - range: obo_CHEMINF_000568
+    - range: obo_CHEMINF_000446
+    range: Any
+    slot_uri: edam:has_identifier
+  https___comptox.epa.gov_property_assayID:
+    range: string
+    slot_uri: https://comptox.epa.gov/property/assayID
+  obo_IAO_0000136:
+    any_of:
+    - range: https___w3id.org_biolink_vocab_ChemicalEntity
+    - range: obo_CHEMINF_000000
+    range: Any
+    slot_uri: obo:IAO_0000136
+  obo_OBI_0000299:
+    range: bao_0000179
+    slot_uri: obo:OBI_0000299
+  obo_RO_0000056:
+    range: bao_0000040
+    slot_uri: obo:RO_0000056
+  obo_RO_0000057:
+    any_of:
+    - range: https___w3id.org_biolink_vocab_ChemicalEntity
+    - range: obo_CHEMINF_000000
+    range: Any
+    slot_uri: obo:RO_0000057
+  semsci_000300:
+    range: string
+    slot_uri: semsci:000300
+title: biobricks-toxcast
