@@ -3,10 +3,9 @@
 # Slot: phila_OffenderSex
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 15328 times.
 
 
 URI: [phila:OffenderSex](https://metadata.phila.gov/OffenderSex)
@@ -23,7 +22,7 @@ URI: [phila:OffenderSex](https://metadata.phila.gov/OffenderSex)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [PhilaIncident](../classes/PhilaIncident.md) | No class (type) description specified |  no  |
+| [PhilaIncident](../classes/PhilaIncident.md) |  |  no  |
 
 
 
@@ -33,46 +32,10 @@ URI: [phila:OffenderSex](https://metadata.phila.gov/OffenderSex)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
-
-
-
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| phila_Incident → string | phila:OBJ_11856539 | phila:OffenderSex | F |
-
-
-## Comments
-
-* 15328 occurrences with subject type phila_Incident and object type string.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: neighborhood-information-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | phila:OffenderSex |
-| native | neighborhood-information-kg/:phila_OffenderSex |
 
 
 
@@ -80,20 +43,10 @@ URI: [phila:OffenderSex](https://metadata.phila.gov/OffenderSex)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: phila_OffenderSex
-description: No slot (predicate) description specified
-comments:
-- 15328 occurrences with subject type phila_Incident and object type string.
-examples:
-- description: phila_Incident → string
-  object:
-    example_object: F
-    example_object_type: string
-    example_predicate: phila:OffenderSex
-    example_subject: phila:OBJ_11856539
-    example_subject_type: phila_Incident
-from_schema: neighborhood-information-kg
+from_schema: okns:neighborhood-kg
 rank: 1000
 slot_uri: phila:OffenderSex
 alias: phila_OffenderSex

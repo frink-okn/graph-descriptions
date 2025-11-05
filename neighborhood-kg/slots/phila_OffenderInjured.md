@@ -3,10 +3,9 @@
 # Slot: phila_OffenderInjured
 
 
-_No slot (predicate) description specified_
 
 
-
+This slot occurs 15328 times.
 
 
 URI: [phila:OffenderInjured](https://metadata.phila.gov/OffenderInjured)
@@ -23,7 +22,7 @@ URI: [phila:OffenderInjured](https://metadata.phila.gov/OffenderInjured)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [PhilaIncident](../classes/PhilaIncident.md) | No class (type) description specified |  no  |
+| [PhilaIncident](../classes/PhilaIncident.md) |  |  no  |
 
 
 
@@ -33,46 +32,10 @@ URI: [phila:OffenderInjured](https://metadata.phila.gov/OffenderInjured)
 
 ## Properties
 
-* Range: [xsd:boolean](xsd:boolean)
+* Range: [xsd:boolean](http://www.w3.org/2001/XMLSchema#boolean)
 
 
 
-
-
-
-## Examples
-
-| Types involved | Subject | Predicate | Object |
-| --- | --- | --- | --- |
-| phila_Incident → boolean | phila:OBJ_11856539 | phila:OffenderInjured | false |
-
-
-## Comments
-
-* 15328 occurrences with subject type phila_Incident and object type boolean.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: neighborhood-information-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | phila:OffenderInjured |
-| native | neighborhood-information-kg/:phila_OffenderInjured |
 
 
 
@@ -80,20 +43,10 @@ URI: [phila:OffenderInjured](https://metadata.phila.gov/OffenderInjured)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: phila_OffenderInjured
-description: No slot (predicate) description specified
-comments:
-- 15328 occurrences with subject type phila_Incident and object type boolean.
-examples:
-- description: phila_Incident → boolean
-  object:
-    example_object: 'false'
-    example_object_type: boolean
-    example_predicate: phila:OffenderInjured
-    example_subject: phila:OBJ_11856539
-    example_subject_type: phila_Incident
-from_schema: neighborhood-information-kg
+from_schema: okns:neighborhood-kg
 rank: 1000
 slot_uri: phila:OffenderInjured
 alias: phila_OffenderInjured

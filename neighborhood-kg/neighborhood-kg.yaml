@@ -1,0 +1,420 @@
+annotations:
+  counts:
+    tag: counts
+    value:
+      classes:
+        tag: classes
+        value:
+          phila:CensusTract:
+            tag: phila:CensusTract
+            value: 361
+          phila:Incident:
+            tag: phila:Incident
+            value: 15328
+          phila:Location:
+            tag: phila:Location
+            value: 9132
+          sf:Point:
+            tag: sf:Point
+            value: 9133
+      pairs:
+        tag: pairs
+        value:
+          geo:asWKT:
+            tag: geo:asWKT
+            value:
+              sf:Point:
+                tag: sf:Point
+                value:
+                  geo:wktLiteral:
+                    tag: geo:wktLiteral
+                    value: 9133
+          geo:hasGeometry:
+            tag: geo:hasGeometry
+            value:
+              phila:Location:
+                tag: phila:Location
+                value:
+                  sf:Point:
+                    tag: sf:Point
+                    value: 9133
+          phila:OffenderDeceased:
+            tag: phila:OffenderDeceased
+            value:
+              phila:Incident:
+                tag: phila:Incident
+                value:
+                  boolean:
+                    tag: boolean
+                    value: 15328
+          phila:OffenderInjured:
+            tag: phila:OffenderInjured
+            value:
+              phila:Incident:
+                tag: phila:Incident
+                value:
+                  boolean:
+                    tag: boolean
+                    value: 15328
+          phila:OffenderRace:
+            tag: phila:OffenderRace
+            value:
+              phila:Incident:
+                tag: phila:Incident
+                value:
+                  string:
+                    tag: string
+                    value: 15328
+          phila:OffenderSex:
+            tag: phila:OffenderSex
+            value:
+              phila:Incident:
+                tag: phila:Incident
+                value:
+                  string:
+                    tag: string
+                    value: 15328
+          phila:OfficerInvolved:
+            tag: phila:OfficerInvolved
+            value:
+              phila:Incident:
+                tag: phila:Incident
+                value:
+                  boolean:
+                    tag: boolean
+                    value: 15328
+          phila:age_of:
+            tag: phila:age_of
+            value:
+              phila:Incident:
+                tag: phila:Incident
+                value:
+                  http://qudt.org/vocab/unit/YR:
+                    tag: http://qudt.org/vocab/unit/YR
+                    value: 15093
+          phila:happened_at:
+            tag: phila:happened_at
+            value:
+              phila:Incident:
+                tag: phila:Incident
+                value:
+                  phila:CensusTract:
+                    tag: phila:CensusTract
+                    value: 15328
+          phila:is_fatal:
+            tag: phila:is_fatal
+            value:
+              phila:Incident:
+                tag: phila:Incident
+                value:
+                  boolean:
+                    tag: boolean
+                    value: 15328
+      slots:
+        tag: slots
+        value:
+          geo:asWKT:
+            tag: geo:asWKT
+            value: 9133
+          geo:hasGeometry:
+            tag: geo:hasGeometry
+            value: 9133
+          phila:OffenderDeceased:
+            tag: phila:OffenderDeceased
+            value: 15328
+          phila:OffenderInjured:
+            tag: phila:OffenderInjured
+            value: 15328
+          phila:OffenderRace:
+            tag: phila:OffenderRace
+            value: 15328
+          phila:OffenderSex:
+            tag: phila:OffenderSex
+            value: 15328
+          phila:OfficerInvolved:
+            tag: phila:OfficerInvolved
+            value: 15328
+          phila:age_of:
+            tag: phila:age_of
+            value: 15093
+          phila:happened_at:
+            tag: phila:happened_at
+            value: 15328
+          phila:is_fatal:
+            tag: phila:is_fatal
+            value: 15328
+  examples:
+    tag: examples
+    value:
+      classes:
+        tag: classes
+        value:
+          phila:CensusTract:
+            tag: phila:CensusTract
+            value: phila:CT_980900
+          phila:Incident:
+            tag: phila:Incident
+            value: phila:OBJ_11871866
+          phila:Location:
+            tag: phila:Location
+            value: phila:withheld
+          sf:Point:
+            tag: sf:Point
+            value: phila:withheld-coordinates/geometry
+      pairs:
+        tag: pairs
+        value:
+          geo:asWKT:
+            tag: geo:asWKT
+            value:
+              sf:Point:
+                tag: sf:Point
+                value:
+                  geo:wktLiteral:
+                    tag: geo:wktLiteral
+                    value:
+                      object:
+                        tag: object
+                        value: POINT(-75.0638645 40.0150223)
+                      predicate:
+                        tag: predicate
+                        value: geo:asWKT
+                      subject:
+                        tag: subject
+                        value: phila:%605537%20TORRESDALE%20AV-coordinates/geometry
+          geo:hasGeometry:
+            tag: geo:hasGeometry
+            value:
+              phila:Location:
+                tag: phila:Location
+                value:
+                  sf:Point:
+                    tag: sf:Point
+                    value:
+                      object:
+                        tag: object
+                        value: phila:0%20BLOCK%20ARRIVALS%20RD-coordinates/geometry
+                      predicate:
+                        tag: predicate
+                        value: geo:hasGeometry
+                      subject:
+                        tag: subject
+                        value: phila:0_BLOCK_ARRIVALS_RD
+          phila:OffenderDeceased:
+            tag: phila:OffenderDeceased
+            value:
+              phila:Incident:
+                tag: phila:Incident
+                value:
+                  boolean:
+                    tag: boolean
+                    value:
+                      object:
+                        tag: object
+                        value: 'false'
+                      predicate:
+                        tag: predicate
+                        value: phila:OffenderDeceased
+                      subject:
+                        tag: subject
+                        value: phila:OBJ_11856539
+          phila:OffenderInjured:
+            tag: phila:OffenderInjured
+            value:
+              phila:Incident:
+                tag: phila:Incident
+                value:
+                  boolean:
+                    tag: boolean
+                    value:
+                      object:
+                        tag: object
+                        value: 'false'
+                      predicate:
+                        tag: predicate
+                        value: phila:OffenderInjured
+                      subject:
+                        tag: subject
+                        value: phila:OBJ_11856539
+          phila:OffenderRace:
+            tag: phila:OffenderRace
+            value:
+              phila:Incident:
+                tag: phila:Incident
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: https://www.wikidata.org/wiki/Q49085
+                      predicate:
+                        tag: predicate
+                        value: phila:OffenderRace
+                      subject:
+                        tag: subject
+                        value: phila:OBJ_11856539
+          phila:OffenderSex:
+            tag: phila:OffenderSex
+            value:
+              phila:Incident:
+                tag: phila:Incident
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: https://www.wikidata.org/wiki/Q6581072
+                      predicate:
+                        tag: predicate
+                        value: phila:OffenderSex
+                      subject:
+                        tag: subject
+                        value: phila:OBJ_11856539
+          phila:OfficerInvolved:
+            tag: phila:OfficerInvolved
+            value:
+              phila:Incident:
+                tag: phila:Incident
+                value:
+                  boolean:
+                    tag: boolean
+                    value:
+                      object:
+                        tag: object
+                        value: 'false'
+                      predicate:
+                        tag: predicate
+                        value: phila:OfficerInvolved
+                      subject:
+                        tag: subject
+                        value: phila:OBJ_11856539
+          phila:age_of:
+            tag: phila:age_of
+            value:
+              phila:Incident:
+                tag: phila:Incident
+                value:
+                  http://qudt.org/vocab/unit/YR:
+                    tag: http://qudt.org/vocab/unit/YR
+                    value:
+                      object:
+                        tag: object
+                        value: '64'
+                      predicate:
+                        tag: predicate
+                        value: phila:age_of
+                      subject:
+                        tag: subject
+                        value: phila:OBJ_11856539
+          phila:happened_at:
+            tag: phila:happened_at
+            value:
+              phila:Incident:
+                tag: phila:Incident
+                value:
+                  phila:CensusTract:
+                    tag: phila:CensusTract
+                    value:
+                      object:
+                        tag: object
+                        value: phila:CT_17500
+                      predicate:
+                        tag: predicate
+                        value: phila:happened_at
+                      subject:
+                        tag: subject
+                        value: phila:OBJ_11856539
+          phila:is_fatal:
+            tag: phila:is_fatal
+            value:
+              phila:Incident:
+                tag: phila:Incident
+                value:
+                  boolean:
+                    tag: boolean
+                    value:
+                      object:
+                        tag: object
+                        value: 'false'
+                      predicate:
+                        tag: predicate
+                        value: phila:is_fatal
+                      subject:
+                        tag: subject
+                        value: phila:OBJ_11856539
+classes:
+  phila_BlockGroup:
+    class_uri: phila:BlockGroup
+    name: phila_BlockGroup
+  phila_CensusTract:
+    class_uri: phila:CensusTract
+    name: phila_CensusTract
+  phila_Incident:
+    class_uri: phila:Incident
+    name: phila_Incident
+    slots:
+    - phila_age_of
+    - phila_OffenderInjured
+    - phila_OfficerInvolved
+    - phila_is_fatal
+    - phila_OffenderDeceased
+    - phila_OffenderRace
+    - phila_happened_at
+    - phila_OffenderSex
+  phila_Location:
+    class_uri: phila:Location
+    name: phila_Location
+    slots:
+    - geo_hasGeometry
+created_on: '2025-11-01T13:33:16.712699'
+default_prefix: okns
+id: okns:neighborhood-kg
+imports:
+- okns:extended_types
+- okns:geo
+- okns:sf
+- linkml:types
+last_updated_on: '2025-11-01T13:33:16.712699'
+name: neighborhood-kg
+prefixes:
+  geo: http://www.opengis.net/ont/geosparql#
+  linkml: https://w3id.org/linkml/
+  okn: https://purl.org/okn/
+  okns: https://purl.org/okn/schema/
+  phila: https://metadata.phila.gov/
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  sf: http://www.opengis.net/ont/sf#
+  wd: http://www.wikidata.org/entity/
+slots:
+  phila_OffenderDeceased:
+    range: boolean
+    slot_uri: phila:OffenderDeceased
+  phila_OffenderInjured:
+    range: boolean
+    slot_uri: phila:OffenderInjured
+  phila_OffenderRace:
+    range: string
+    slot_uri: phila:OffenderRace
+  phila_OffenderSex:
+    range: string
+    slot_uri: phila:OffenderSex
+  phila_OfficerInvolved:
+    range: boolean
+    slot_uri: phila:OfficerInvolved
+  phila_age_of:
+    range: http___qudt.org_vocab_unit_YR
+    slot_uri: phila:age_of
+  phila_happened_at:
+    range: phila_CensusTract
+    slot_uri: phila:happened_at
+  phila_is_fatal:
+    range: boolean
+    slot_uri: phila:is_fatal
+title: nikg
+types:
+  http___qudt.org_vocab_unit_YR:
+    name: http___qudt.org_vocab_unit_YR
+    typeof: string
+    uri: http://qudt.org/vocab/unit/YR
