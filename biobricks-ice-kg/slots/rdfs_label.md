@@ -1,12 +1,16 @@
 
 
-# Slot: rdfs_label
+# Slot: label (rdfs_label)
 
 
-_No slot description provided_
+_A human-readable name for the subject._
 
 
 
+
+
+
+This slot occurs 4314237 times.
 
 
 URI: [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label)
@@ -23,11 +27,17 @@ URI: [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Cheminf000000](../classes/Cheminf000000.md) | No type description provided |  no  |
-| [Bao0000015](../classes/Bao0000015.md) | No type description provided |  no  |
-| [Cheminf000568](../classes/Cheminf000568.md) | No type description provided |  no  |
-| [Cheminf000446](../classes/Cheminf000446.md) | No type description provided |  no  |
-| [Bao0000179](../classes/Bao0000179.md) | No type description provided |  no  |
+| [HttpsW3id.orgBiolinkVocabChemicalEntity](../classes/HttpsW3id.orgBiolinkVocabChemicalEntity.md) |  |  no  |
+| [OwlDataRange](../classes/OwlDataRange.md) | The class of OWL data ranges, which are special kinds of datatypes |  no  |
+| [Bao0000179](../classes/Bao0000179.md) |  |  no  |
+| [RdfList](../classes/RdfList.md) | The class of RDF Lists |  no  |
+| [RdfsDatatype](../classes/RdfsDatatype.md) | The class of RDF datatypes |  no  |
+| [OboCHEMINF000568](../classes/OboCHEMINF000568.md) |  |  no  |
+| [DctAgentClass](../classes/DctAgentClass.md) | A group of agents |  no  |
+| [OboCHEMINF000000](../classes/OboCHEMINF000000.md) |  |  no  |
+| [OboCHEMINF000446](../classes/OboCHEMINF000446.md) |  |  no  |
+| [Bao0000015](../classes/Bao0000015.md) |  |  no  |
+| [DcamVocabularyEncodingScheme](../classes/DcamVocabularyEncodingScheme.md) | An enumerated set of resources |  no  |
 
 
 
@@ -37,59 +47,10 @@ URI: [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](xsd:string)
 
 
 
-
-
-
-## Examples
-
-| Value |
-| --- |
-| http://example.com/ice/ADME_Parameters_Data.parquet/dtxsid/DTXSID001009966/Chemical_Entity rdfs:label Tegafur |
-| http://example.com/ice/ADME_Parameters_Data.parquet/record_id/httk2.2.2_DTXSID001009966/dtxsid/DTXSID001009966/endpoint/Fu/Endpoint rdfs:label Fu |
-| http://identifiers.org/cas/10-00-4 rdfs:label Uliginosin B |
-| https://comptox.epa.gov/dashboard/chemical/details/DTXSID001002091 rdfs:label N-[3-(Dimethylamino)propyl]octadeca-9,12-dienimidic acid |
-| http://example.com/ice/ADME_Parameters_Data.parquet/assay/httk%2C%20Human%20Hepatic%20Intrinsic%20Clearance/Assay rdfs:label httk, Human Hepatic Intrinsic Clearance |
-
-## Comments
-
-* 197214 occurrences with subject type cheminf_000000 and object type string.
-* 413168 occurrences with subject type bao_0000179 and object type string.
-* 542470 occurrences with subject type cheminf_000446 and object type string.
-* 542456 occurrences with subject type cheminf_000568 and object type string.
-* 2063 occurrences with subject type bao_0000015 and object type string.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: biobricks-ice-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | rdfs:label |
-| native | biobricks-ice-kg/:rdfs_label |
 
 
 
@@ -97,40 +58,30 @@ URI: [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label)
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: rdfs_label
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 197214 occurrences with subject type cheminf_000000 and object type string.
-- 413168 occurrences with subject type bao_0000179 and object type string.
-- 542470 occurrences with subject type cheminf_000446 and object type string.
-- 542456 occurrences with subject type cheminf_000568 and object type string.
-- 2063 occurrences with subject type bao_0000015 and object type string.
-examples:
-- value: http://example.com/ice/ADME_Parameters_Data.parquet/dtxsid/DTXSID001009966/Chemical_Entity
-    rdfs:label Tegafur
-- value: http://example.com/ice/ADME_Parameters_Data.parquet/record_id/httk2.2.2_DTXSID001009966/dtxsid/DTXSID001009966/endpoint/Fu/Endpoint
-    rdfs:label Fu
-- value: http://identifiers.org/cas/10-00-4 rdfs:label Uliginosin B
-- value: https://comptox.epa.gov/dashboard/chemical/details/DTXSID001002091 rdfs:label
-    N-[3-(Dimethylamino)propyl]octadeca-9,12-dienimidic acid
-- value: http://example.com/ice/ADME_Parameters_Data.parquet/assay/httk%2C%20Human%20Hepatic%20Intrinsic%20Clearance/Assay
-    rdfs:label httk, Human Hepatic Intrinsic Clearance
-from_schema: biobricks-ice-kg
-rank: 1000
+description: A human-readable name for the subject.
+title: label
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/2000/01/rdf-schema#
+domain: rdfs_Resource
 slot_uri: rdfs:label
-alias: rdfs_label
 domain_of:
+- rdf_List
+- rdfs_Datatype
+- dcam_VocabularyEncodingScheme
+- dct_AgentClass
 - bao_0000015
 - bao_0000179
-- cheminf_000000
-- cheminf_000446
-- cheminf_000568
-range: string
+- https___w3id.org_biolink_vocab_ChemicalEntity
+- obo_CHEMINF_000000
+- obo_CHEMINF_000446
+- obo_CHEMINF_000568
+range: Any
+any_of:
+- range: rdfs_Literal
+- range: string
 
 ```
 </details>

@@ -1,0 +1,1163 @@
+name: biobricks-ice-kg
+annotations:
+  counts:
+    tag: counts
+    value:
+      classes:
+        tag: classes
+        value:
+          bao:0000015:
+            tag: bao:0000015
+            value: 2063
+          bao:0000040:
+            tag: bao:0000040
+            value: 203755
+          bao:0000179:
+            tag: bao:0000179
+            value: 3020705
+          bao:0003064:
+            tag: bao:0003064
+            value: 59
+          edam:data_1027:
+            tag: edam:data_1027
+            value: 526
+          edam:data_1181:
+            tag: edam:data_1181
+            value: 59
+          https://w3id.org/biolink/vocab/ChemicalEntity:
+            tag: https://w3id.org/biolink/vocab/ChemicalEntity
+            value: 206543
+          obo:CHEMINF_000000:
+            tag: obo:CHEMINF_000000
+            value: 206543
+          obo:CHEMINF_000446:
+            tag: obo:CHEMINF_000446
+            value: 538147
+          obo:CHEMINF_000568:
+            tag: obo:CHEMINF_000568
+            value: 538131
+      pairs:
+        tag: pairs
+        value:
+          bao:0000209:
+            tag: bao:0000209
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  bao:0000040:
+                    tag: bao:0000040
+                    value: 9641
+          dc:source:
+            tag: dc:source
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value: 1995
+              obo:CHEMINF_000446:
+                tag: obo:CHEMINF_000446
+                value:
+                  string:
+                    tag: string
+                    value: 538147
+              obo:CHEMINF_000568:
+                tag: obo:CHEMINF_000568
+                value:
+                  string:
+                    tag: string
+                    value: 538131
+          edam:has_identifier:
+            tag: edam:has_identifier
+            value:
+              https://w3id.org/biolink/vocab/ChemicalEntity:
+                tag: https://w3id.org/biolink/vocab/ChemicalEntity
+                value:
+                  obo:CHEMINF_000446:
+                    tag: obo:CHEMINF_000446
+                    value: 206543
+                  obo:CHEMINF_000568:
+                    tag: obo:CHEMINF_000568
+                    value: 206543
+              obo:CHEMINF_000000:
+                tag: obo:CHEMINF_000000
+                value:
+                  obo:CHEMINF_000446:
+                    tag: obo:CHEMINF_000446
+                    value: 206543
+                  obo:CHEMINF_000568:
+                    tag: obo:CHEMINF_000568
+                    value: 206543
+          niehs:assay_entrez_gene_id:
+            tag: niehs:assay_entrez_gene_id
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  edam:data_1027:
+                    tag: edam:data_1027
+                    value: 1814
+          niehs:assay_invitro_assay_format:
+            tag: niehs:assay_invitro_assay_format
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value: 1814
+          niehs:assay_source:
+            tag: niehs:assay_source
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value: 1814
+          niehs:assay_species:
+            tag: niehs:assay_species
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value: 1814
+          niehs:assay_tissue:
+            tag: niehs:assay_tissue
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value: 1814
+          niehs:mayInformOn:
+            tag: niehs:mayInformOn
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value: 3570
+          niehs:throughMechanisticTarget:
+            tag: niehs:throughMechanisticTarget
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value: 2753
+          niehs:throughMechanisticTarget_NCIm:
+            tag: niehs:throughMechanisticTarget_NCIm
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  bao:0003064:
+                    tag: bao:0003064
+                    value: 3015
+                  edam:data_1181:
+                    tag: edam:data_1181
+                    value: 3015
+          obo:ExO_0000055:
+            tag: obo:ExO_0000055
+            value:
+              bao:0000179:
+                tag: bao:0000179
+                value:
+                  string:
+                    tag: string
+                    value: 135113
+          obo:IAO_0000136:
+            tag: obo:IAO_0000136
+            value:
+              bao:0000179:
+                tag: bao:0000179
+                value:
+                  https://w3id.org/biolink/vocab/ChemicalEntity:
+                    tag: https://w3id.org/biolink/vocab/ChemicalEntity
+                    value: 3020705
+                  obo:CHEMINF_000000:
+                    tag: obo:CHEMINF_000000
+                    value: 3020705
+          obo:OBI_0000299:
+            tag: obo:OBI_0000299
+            value:
+              bao:0000040:
+                tag: bao:0000040
+                value:
+                  bao:0000179:
+                    tag: bao:0000179
+                    value: 3021699
+          obo:RO_0000056:
+            tag: obo:RO_0000056
+            value:
+              https://w3id.org/biolink/vocab/ChemicalEntity:
+                tag: https://w3id.org/biolink/vocab/ChemicalEntity
+                value:
+                  bao:0000040:
+                    tag: bao:0000040
+                    value: 2306975
+              obo:CHEMINF_000000:
+                tag: obo:CHEMINF_000000
+                value:
+                  bao:0000040:
+                    tag: bao:0000040
+                    value: 2306975
+          obo:RO_0000057:
+            tag: obo:RO_0000057
+            value:
+              bao:0000040:
+                tag: bao:0000040
+                value:
+                  https://w3id.org/biolink/vocab/ChemicalEntity:
+                    tag: https://w3id.org/biolink/vocab/ChemicalEntity
+                    value: 2306975
+                  obo:CHEMINF_000000:
+                    tag: obo:CHEMINF_000000
+                    value: 2306975
+          rdfs:label:
+            tag: rdfs:label
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value: 2063
+              bao:0000179:
+                tag: bao:0000179
+                value:
+                  string:
+                    tag: string
+                    value: 3020705
+              https://w3id.org/biolink/vocab/ChemicalEntity:
+                tag: https://w3id.org/biolink/vocab/ChemicalEntity
+                value:
+                  string:
+                    tag: string
+                    value: 206543
+              obo:CHEMINF_000000:
+                tag: obo:CHEMINF_000000
+                value:
+                  string:
+                    tag: string
+                    value: 206543
+              obo:CHEMINF_000446:
+                tag: obo:CHEMINF_000446
+                value:
+                  string:
+                    tag: string
+                    value: 542470
+              obo:CHEMINF_000568:
+                tag: obo:CHEMINF_000568
+                value:
+                  string:
+                    tag: string
+                    value: 542456
+          semsci:000221:
+            tag: semsci:000221
+            value:
+              bao:0000179:
+                tag: bao:0000179
+                value:
+                  string:
+                    tag: string
+                    value: 3020705
+          semsci:000300:
+            tag: semsci:000300
+            value:
+              bao:0000179:
+                tag: bao:0000179
+                value:
+                  string:
+                    tag: string
+                    value: 3021184
+          umls:C1708327:
+            tag: umls:C1708327
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  bao:0003064:
+                    tag: bao:0003064
+                    value: 3015
+                  edam:data_1181:
+                    tag: edam:data_1181
+                    value: 3015
+      slots:
+        tag: slots
+        value:
+          bao:0000209:
+            tag: bao:0000209
+            value: 9641
+          dc:source:
+            tag: dc:source
+            value: 1078273
+          edam:has_identifier:
+            tag: edam:has_identifier
+            value: 413086
+          niehs:assay_entrez_gene_id:
+            tag: niehs:assay_entrez_gene_id
+            value: 1814
+          niehs:assay_invitro_assay_format:
+            tag: niehs:assay_invitro_assay_format
+            value: 1814
+          niehs:assay_source:
+            tag: niehs:assay_source
+            value: 1814
+          niehs:assay_species:
+            tag: niehs:assay_species
+            value: 1814
+          niehs:assay_tissue:
+            tag: niehs:assay_tissue
+            value: 1814
+          niehs:mayInformOn:
+            tag: niehs:mayInformOn
+            value: 3570
+          niehs:throughMechanisticTarget:
+            tag: niehs:throughMechanisticTarget
+            value: 2753
+          niehs:throughMechanisticTarget_NCIm:
+            tag: niehs:throughMechanisticTarget_NCIm
+            value: 3015
+          obo:ExO_0000055:
+            tag: obo:ExO_0000055
+            value: 135113
+          obo:IAO_0000136:
+            tag: obo:IAO_0000136
+            value: 3020705
+          obo:OBI_0000299:
+            tag: obo:OBI_0000299
+            value: 3021699
+          obo:RO_0000056:
+            tag: obo:RO_0000056
+            value: 2306975
+          obo:RO_0000057:
+            tag: obo:RO_0000057
+            value: 2306975
+          rdfs:label:
+            tag: rdfs:label
+            value: 4314237
+          semsci:000221:
+            tag: semsci:000221
+            value: 3020705
+          semsci:000300:
+            tag: semsci:000300
+            value: 3021184
+          umls:C1708327:
+            tag: umls:C1708327
+            value: 3015
+  examples:
+    tag: examples
+    value:
+      classes:
+        tag: classes
+        value:
+          bao:0000015:
+            tag: bao:0000015
+            value: https://comptox.epa.gov/dashboard/assay-endpoints/UPITT_HCI_U2OS_AR_TIF2_Nucleoli_Cytoplasm_Ratio_Antagonist
+          bao:0000040:
+            tag: bao:0000040
+            value: http://example.com/ice/cHTS2022_invitrodb34_20220302.parquet/assay/UPITT_HCI_U2OS_AR_TIF2_Nucleoli_Cytoplasm_Ratio_Antagonist/dataset_name/cHTS2022_invitrodb34/Measure_Group
+          bao:0000179:
+            tag: bao:0000179
+            value: http://example.com/ice/cHTS2022_invitrodb34_20220302.parquet/record_id/cHTS2022_invitrodb34_999999/dtxsid/DTXSID2045600/assay/TOX21_ERR_Agonist/endpoint/Call/Endpoint
+          bao:0003064:
+            tag: bao:0003064
+            value: umls:na
+          edam:data_1027:
+            tag: edam:data_1027
+            value: https://www.ncbi.nlm.nih.gov/gene/None
+          edam:data_1181:
+            tag: edam:data_1181
+            value: umls:na
+          https://w3id.org/biolink/vocab/ChemicalEntity:
+            tag: https://w3id.org/biolink/vocab/ChemicalEntity
+            value: http://example.com/ice/cHTS2022_invitrodb34_20220302.parquet/dtxsid/DTXSID90903894/Chemical_Entity
+          obo:CHEMINF_000000:
+            tag: obo:CHEMINF_000000
+            value: http://example.com/ice/cHTS2022_invitrodb34_20220302.parquet/dtxsid/DTXSID90903894/Chemical_Entity
+          obo:CHEMINF_000446:
+            tag: obo:CHEMINF_000446
+            value: http://identifiers.org/cas/None
+          obo:CHEMINF_000568:
+            tag: obo:CHEMINF_000568
+            value: https://comptox.epa.gov/dashboard/chemical/details/None
+      pairs:
+        tag: pairs
+        value:
+          bao:0000209:
+            tag: bao:0000209
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  bao:0000040:
+                    tag: bao:0000040
+                    value:
+                      object:
+                        tag: object
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/dtxsid/DTXSID00144539/assay/httk%2C%20Human%20Hepatic%20Intrinsic%20Clearance/Measure_Group
+                      predicate:
+                        tag: predicate
+                        value: bao:0000209
+                      subject:
+                        tag: subject
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/assay/httk%2C%20Human%20Hepatic%20Intrinsic%20Clearance/Assay
+          dc:source:
+            tag: dc:source
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: InvitroDB
+                      predicate:
+                        tag: predicate
+                        value: dc:source
+                      subject:
+                        tag: subject
+                        value: https://comptox.epa.gov/dashboard/assay-endpoints/ACEA_AR_agonist_80hr
+              obo:CHEMINF_000446:
+                tag: obo:CHEMINF_000446
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: CAS
+                      predicate:
+                        tag: predicate
+                        value: dc:source
+                      subject:
+                        tag: subject
+                        value: http://identifiers.org/cas/10-00-4
+              obo:CHEMINF_000568:
+                tag: obo:CHEMINF_000568
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: CompTox
+                      predicate:
+                        tag: predicate
+                        value: dc:source
+                      subject:
+                        tag: subject
+                        value: https://comptox.epa.gov/dashboard/chemical/details/DTXSID001002091
+          edam:has_identifier:
+            tag: edam:has_identifier
+            value:
+              https://w3id.org/biolink/vocab/ChemicalEntity:
+                tag: https://w3id.org/biolink/vocab/ChemicalEntity
+                value:
+                  obo:CHEMINF_000446:
+                    tag: obo:CHEMINF_000446
+                    value:
+                      object:
+                        tag: object
+                        value: http://identifiers.org/cas/17902-23-7
+                      predicate:
+                        tag: predicate
+                        value: edam:has_identifier
+                      subject:
+                        tag: subject
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/dtxsid/DTXSID001009966/Chemical_Entity
+                  obo:CHEMINF_000568:
+                    tag: obo:CHEMINF_000568
+                    value:
+                      object:
+                        tag: object
+                        value: https://comptox.epa.gov/dashboard/chemical/details/DTXSID001009966
+                      predicate:
+                        tag: predicate
+                        value: edam:has_identifier
+                      subject:
+                        tag: subject
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/dtxsid/DTXSID001009966/Chemical_Entity
+              obo:CHEMINF_000000:
+                tag: obo:CHEMINF_000000
+                value:
+                  obo:CHEMINF_000446:
+                    tag: obo:CHEMINF_000446
+                    value:
+                      object:
+                        tag: object
+                        value: http://identifiers.org/cas/17902-23-7
+                      predicate:
+                        tag: predicate
+                        value: edam:has_identifier
+                      subject:
+                        tag: subject
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/dtxsid/DTXSID001009966/Chemical_Entity
+                  obo:CHEMINF_000568:
+                    tag: obo:CHEMINF_000568
+                    value:
+                      object:
+                        tag: object
+                        value: https://comptox.epa.gov/dashboard/chemical/details/DTXSID001009966
+                      predicate:
+                        tag: predicate
+                        value: edam:has_identifier
+                      subject:
+                        tag: subject
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/dtxsid/DTXSID001009966/Chemical_Entity
+          niehs:assay_entrez_gene_id:
+            tag: niehs:assay_entrez_gene_id
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  edam:data_1027:
+                    tag: edam:data_1027
+                    value:
+                      object:
+                        tag: object
+                        value: https://www.ncbi.nlm.nih.gov/gene/367
+                      predicate:
+                        tag: predicate
+                        value: niehs:assay_entrez_gene_id
+                      subject:
+                        tag: subject
+                        value: https://comptox.epa.gov/dashboard/assay-endpoints/ACEA_AR_agonist_80hr
+          niehs:assay_invitro_assay_format:
+            tag: niehs:assay_invitro_assay_format
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: cell line(22Rv1)
+                      predicate:
+                        tag: predicate
+                        value: niehs:assay_invitro_assay_format
+                      subject:
+                        tag: subject
+                        value: https://comptox.epa.gov/dashboard/assay-endpoints/ACEA_AR_agonist_80hr
+          niehs:assay_source:
+            tag: niehs:assay_source
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: ACEA Biosciences
+                      predicate:
+                        tag: predicate
+                        value: niehs:assay_source
+                      subject:
+                        tag: subject
+                        value: https://comptox.epa.gov/dashboard/assay-endpoints/ACEA_AR_agonist_80hr
+          niehs:assay_species:
+            tag: niehs:assay_species
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: human
+                      predicate:
+                        tag: predicate
+                        value: niehs:assay_species
+                      subject:
+                        tag: subject
+                        value: https://comptox.epa.gov/dashboard/assay-endpoints/ACEA_AR_agonist_80hr
+          niehs:assay_tissue:
+            tag: niehs:assay_tissue
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: prostate
+                      predicate:
+                        tag: predicate
+                        value: niehs:assay_tissue
+                      subject:
+                        tag: subject
+                        value: https://comptox.epa.gov/dashboard/assay-endpoints/ACEA_AR_agonist_80hr
+          niehs:mayInformOn:
+            tag: niehs:mayInformOn
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Androgen - Androgen Receptor Modulation
+                      predicate:
+                        tag: predicate
+                        value: niehs:mayInformOn
+                      subject:
+                        tag: subject
+                        value: https://comptox.epa.gov/dashboard/assay-endpoints/ACEA_AR_agonist_80hr
+          niehs:throughMechanisticTarget:
+            tag: niehs:throughMechanisticTarget
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: AR Modulation
+                      predicate:
+                        tag: predicate
+                        value: niehs:throughMechanisticTarget
+                      subject:
+                        tag: subject
+                        value: https://comptox.epa.gov/dashboard/assay-endpoints/ACEA_AR_agonist_80hr
+          niehs:throughMechanisticTarget_NCIm:
+            tag: niehs:throughMechanisticTarget_NCIm
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  bao:0003064:
+                    tag: bao:0003064
+                    value:
+                      object:
+                        tag: object
+                        value: umls:CUI%3AC1158330
+                      predicate:
+                        tag: predicate
+                        value: niehs:throughMechanisticTarget_NCIm
+                      subject:
+                        tag: subject
+                        value: https://comptox.epa.gov/dashboard/assay-endpoints/ACEA_AR_agonist_80hr
+                  edam:data_1181:
+                    tag: edam:data_1181
+                    value:
+                      object:
+                        tag: object
+                        value: umls:CUI%3AC1158330
+                      predicate:
+                        tag: predicate
+                        value: niehs:throughMechanisticTarget_NCIm
+                      subject:
+                        tag: subject
+                        value: https://comptox.epa.gov/dashboard/assay-endpoints/ACEA_AR_agonist_80hr
+          obo:ExO_0000055:
+            tag: obo:ExO_0000055
+            value:
+              bao:0000179:
+                tag: bao:0000179
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 'Oral: diet'
+                      predicate:
+                        tag: predicate
+                        value: obo:ExO_0000055
+                      subject:
+                        tag: subject
+                        value: http://example.com/ice/DART_Data.parquet/record_id/ECHADartv1_Allen%20et%20al.%201996%3B%20Study%20A_1/dtxsid/DTXSID1020194/endpoint/Body%20weight/Endpoint
+          obo:IAO_0000136:
+            tag: obo:IAO_0000136
+            value:
+              bao:0000179:
+                tag: bao:0000179
+                value:
+                  https://w3id.org/biolink/vocab/ChemicalEntity:
+                    tag: https://w3id.org/biolink/vocab/ChemicalEntity
+                    value:
+                      object:
+                        tag: object
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/dtxsid/DTXSID001009966/Chemical_Entity
+                      predicate:
+                        tag: predicate
+                        value: obo:IAO_0000136
+                      subject:
+                        tag: subject
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/record_id/httk2.2.2_DTXSID001009966/dtxsid/DTXSID001009966/endpoint/Fu/Endpoint
+                  obo:CHEMINF_000000:
+                    tag: obo:CHEMINF_000000
+                    value:
+                      object:
+                        tag: object
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/dtxsid/DTXSID001009966/Chemical_Entity
+                      predicate:
+                        tag: predicate
+                        value: obo:IAO_0000136
+                      subject:
+                        tag: subject
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/record_id/httk2.2.2_DTXSID001009966/dtxsid/DTXSID001009966/endpoint/Fu/Endpoint
+          obo:OBI_0000299:
+            tag: obo:OBI_0000299
+            value:
+              bao:0000040:
+                tag: bao:0000040
+                value:
+                  bao:0000179:
+                    tag: bao:0000179
+                    value:
+                      object:
+                        tag: object
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/record_id/httk2.2.2_DTXSID001009966/dtxsid/DTXSID001009966/endpoint/Fu/Endpoint
+                      predicate:
+                        tag: predicate
+                        value: obo:OBI_0000299
+                      subject:
+                        tag: subject
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/dtxsid/DTXSID001009966/assay/httk%2C%20Rat%20Plasma%20Fraction%20Unbound/Measure_Group
+          obo:RO_0000056:
+            tag: obo:RO_0000056
+            value:
+              https://w3id.org/biolink/vocab/ChemicalEntity:
+                tag: https://w3id.org/biolink/vocab/ChemicalEntity
+                value:
+                  bao:0000040:
+                    tag: bao:0000040
+                    value:
+                      object:
+                        tag: object
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/dtxsid/DTXSID001009966/assay/httk%2C%20Rat%20Plasma%20Fraction%20Unbound/Measure_Group
+                      predicate:
+                        tag: predicate
+                        value: obo:RO_0000056
+                      subject:
+                        tag: subject
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/dtxsid/DTXSID001009966/Chemical_Entity
+              obo:CHEMINF_000000:
+                tag: obo:CHEMINF_000000
+                value:
+                  bao:0000040:
+                    tag: bao:0000040
+                    value:
+                      object:
+                        tag: object
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/dtxsid/DTXSID001009966/assay/httk%2C%20Rat%20Plasma%20Fraction%20Unbound/Measure_Group
+                      predicate:
+                        tag: predicate
+                        value: obo:RO_0000056
+                      subject:
+                        tag: subject
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/dtxsid/DTXSID001009966/Chemical_Entity
+          obo:RO_0000057:
+            tag: obo:RO_0000057
+            value:
+              bao:0000040:
+                tag: bao:0000040
+                value:
+                  https://w3id.org/biolink/vocab/ChemicalEntity:
+                    tag: https://w3id.org/biolink/vocab/ChemicalEntity
+                    value:
+                      object:
+                        tag: object
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/dtxsid/DTXSID001009966/Chemical_Entity
+                      predicate:
+                        tag: predicate
+                        value: obo:RO_0000057
+                      subject:
+                        tag: subject
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/dtxsid/DTXSID001009966/assay/httk%2C%20Rat%20Plasma%20Fraction%20Unbound/Measure_Group
+                  obo:CHEMINF_000000:
+                    tag: obo:CHEMINF_000000
+                    value:
+                      object:
+                        tag: object
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/dtxsid/DTXSID001009966/Chemical_Entity
+                      predicate:
+                        tag: predicate
+                        value: obo:RO_0000057
+                      subject:
+                        tag: subject
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/dtxsid/DTXSID001009966/assay/httk%2C%20Rat%20Plasma%20Fraction%20Unbound/Measure_Group
+          rdfs:label:
+            tag: rdfs:label
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: httk, Human Hepatic Intrinsic Clearance
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/assay/httk%2C%20Human%20Hepatic%20Intrinsic%20Clearance/Assay
+              bao:0000179:
+                tag: bao:0000179
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Fu
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/record_id/httk2.2.2_DTXSID001009966/dtxsid/DTXSID001009966/endpoint/Fu/Endpoint
+              https://w3id.org/biolink/vocab/ChemicalEntity:
+                tag: https://w3id.org/biolink/vocab/ChemicalEntity
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Tegafur
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/dtxsid/DTXSID001009966/Chemical_Entity
+              obo:CHEMINF_000000:
+                tag: obo:CHEMINF_000000
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Tegafur
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/dtxsid/DTXSID001009966/Chemical_Entity
+              obo:CHEMINF_000446:
+                tag: obo:CHEMINF_000446
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Uliginosin B
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: http://identifiers.org/cas/10-00-4
+              obo:CHEMINF_000568:
+                tag: obo:CHEMINF_000568
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: N-[3-(Dimethylamino)propyl]octadeca-9,12-dienimidic
+                          acid
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: https://comptox.epa.gov/dashboard/chemical/details/DTXSID001002091
+          semsci:000221:
+            tag: semsci:000221
+            value:
+              bao:0000179:
+                tag: bao:0000179
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Unitless
+                      predicate:
+                        tag: predicate
+                        value: semsci:000221
+                      subject:
+                        tag: subject
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/record_id/httk2.2.2_DTXSID001009966/dtxsid/DTXSID001009966/endpoint/Fu/Endpoint
+          semsci:000300:
+            tag: semsci:000300
+            value:
+              bao:0000179:
+                tag: bao:0000179
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: '0.78'
+                      predicate:
+                        tag: predicate
+                        value: semsci:000300
+                      subject:
+                        tag: subject
+                        value: http://example.com/ice/ADME_Parameters_Data.parquet/record_id/httk2.2.2_DTXSID001009966/dtxsid/DTXSID001009966/endpoint/Fu/Endpoint
+          umls:C1708327:
+            tag: umls:C1708327
+            value:
+              bao:0000015:
+                tag: bao:0000015
+                value:
+                  bao:0003064:
+                    tag: bao:0003064
+                    value:
+                      object:
+                        tag: object
+                        value: umls:CUI%3AC1158330
+                      predicate:
+                        tag: predicate
+                        value: umls:C1708327
+                      subject:
+                        tag: subject
+                        value: https://comptox.epa.gov/dashboard/assay-endpoints/ACEA_AR_agonist_80hr
+                  edam:data_1181:
+                    tag: edam:data_1181
+                    value:
+                      object:
+                        tag: object
+                        value: umls:CUI%3AC1158330
+                      predicate:
+                        tag: predicate
+                        value: umls:C1708327
+                      subject:
+                        tag: subject
+                        value: https://comptox.epa.gov/dashboard/assay-endpoints/ACEA_AR_agonist_80hr
+title: biobricks-ice
+created_on: '2025-10-20T23:03:09.249796'
+last_updated_on: '2025-10-20T23:03:09.249796'
+id: okns:biobricks-ice-kg
+imports:
+- linkml:types
+- okns:dc
+- okns:extended_types
+- okns:owl-rdf-rdfs
+prefixes:
+  bao:
+    prefix_prefix: bao
+    prefix_reference: http://www.bioassayontology.org/bao#BAO_
+  dc:
+    prefix_prefix: dc
+    prefix_reference: http://purl.org/dc/elements/1.1/
+  edam:
+    prefix_prefix: edam
+    prefix_reference: http://edamontology.org/
+  linkml:
+    prefix_prefix: linkml
+    prefix_reference: https://w3id.org/linkml/
+  niehs:
+    prefix_prefix: niehs
+    prefix_reference: https://ice.ntp.niehs.nih.gov/property/
+  obo:
+    prefix_prefix: obo
+    prefix_reference: http://purl.obolibrary.org/obo/
+  okn:
+    prefix_prefix: okn
+    prefix_reference: https://purl.org/okn/
+  okns:
+    prefix_prefix: okns
+    prefix_reference: https://purl.org/okn/schema/
+  rdfs:
+    prefix_prefix: rdfs
+    prefix_reference: http://www.w3.org/2000/01/rdf-schema#
+  semsci:
+    prefix_prefix: semsci
+    prefix_reference: http://semanticscience.org/resource/SIO_
+  umls:
+    prefix_prefix: umls
+    prefix_reference: 'https://identifiers.org/umls:'
+default_prefix: okns
+slots:
+  bao_0000209:
+    name: bao_0000209
+    slot_uri: bao:0000209
+    range: bao_0000040
+  edam_has_identifier:
+    name: edam_has_identifier
+    slot_uri: edam:has_identifier
+    range: Any
+    any_of:
+    - range: obo_CHEMINF_000568
+    - range: obo_CHEMINF_000446
+  niehs_assay_entrez_gene_id:
+    name: niehs_assay_entrez_gene_id
+    slot_uri: niehs:assay_entrez_gene_id
+    range: edam_data_1027
+  niehs_assay_invitro_assay_format:
+    name: niehs_assay_invitro_assay_format
+    slot_uri: niehs:assay_invitro_assay_format
+    range: string
+  niehs_assay_source:
+    name: niehs_assay_source
+    slot_uri: niehs:assay_source
+    range: string
+  niehs_assay_species:
+    name: niehs_assay_species
+    slot_uri: niehs:assay_species
+    range: string
+  niehs_assay_tissue:
+    name: niehs_assay_tissue
+    slot_uri: niehs:assay_tissue
+    range: string
+  niehs_mayInformOn:
+    name: niehs_mayInformOn
+    slot_uri: niehs:mayInformOn
+    range: string
+  niehs_throughMechanisticTarget:
+    name: niehs_throughMechanisticTarget
+    slot_uri: niehs:throughMechanisticTarget
+    range: string
+  niehs_throughMechanisticTarget_NCIm:
+    name: niehs_throughMechanisticTarget_NCIm
+    slot_uri: niehs:throughMechanisticTarget_NCIm
+    range: Any
+    any_of:
+    - range: bao_0003064
+    - range: edam_data_1181
+  obo_ExO_0000055:
+    name: obo_ExO_0000055
+    slot_uri: obo:ExO_0000055
+    range: string
+  obo_IAO_0000136:
+    name: obo_IAO_0000136
+    slot_uri: obo:IAO_0000136
+    range: Any
+    any_of:
+    - range: https___w3id.org_biolink_vocab_ChemicalEntity
+    - range: obo_CHEMINF_000000
+  obo_OBI_0000299:
+    name: obo_OBI_0000299
+    slot_uri: obo:OBI_0000299
+    range: bao_0000179
+  obo_RO_0000056:
+    name: obo_RO_0000056
+    slot_uri: obo:RO_0000056
+    range: bao_0000040
+  obo_RO_0000057:
+    name: obo_RO_0000057
+    slot_uri: obo:RO_0000057
+    range: Any
+    any_of:
+    - range: https___w3id.org_biolink_vocab_ChemicalEntity
+    - range: obo_CHEMINF_000000
+  semsci_000221:
+    name: semsci_000221
+    slot_uri: semsci:000221
+    range: string
+  semsci_000300:
+    name: semsci_000300
+    slot_uri: semsci:000300
+    range: string
+  umls_C1708327:
+    name: umls_C1708327
+    slot_uri: umls:C1708327
+    range: Any
+    any_of:
+    - range: bao_0003064
+    - range: edam_data_1181
+classes:
+  bao_0000015:
+    name: bao_0000015
+    slots:
+    - niehs_throughMechanisticTarget
+    - niehs_assay_entrez_gene_id
+    - niehs_assay_tissue
+    - niehs_mayInformOn
+    - rdfs_label
+    - niehs_assay_species
+    - umls_C1708327
+    - dc_source
+    - niehs_assay_invitro_assay_format
+    - niehs_throughMechanisticTarget_NCIm
+    - bao_0000209
+    - niehs_assay_source
+    class_uri: bao:0000015
+  bao_0000040:
+    name: bao_0000040
+    slots:
+    - obo_OBI_0000299
+    - obo_RO_0000057
+    class_uri: bao:0000040
+  bao_0000179:
+    name: bao_0000179
+    slots:
+    - obo_ExO_0000055
+    - rdfs_label
+    - semsci_000221
+    - semsci_000300
+    - obo_IAO_0000136
+    class_uri: bao:0000179
+  bao_0003064:
+    name: bao_0003064
+    class_uri: bao:0003064
+  edam_data_1027:
+    name: edam_data_1027
+    class_uri: edam:data_1027
+  edam_data_1181:
+    name: edam_data_1181
+    class_uri: edam:data_1181
+  https___w3id.org_biolink_vocab_ChemicalEntity:
+    name: https___w3id.org_biolink_vocab_ChemicalEntity
+    slots:
+    - edam_has_identifier
+    - obo_RO_0000056
+    - rdfs_label
+    class_uri: https://w3id.org/biolink/vocab/ChemicalEntity
+  obo_CHEMINF_000000:
+    name: obo_CHEMINF_000000
+    slots:
+    - edam_has_identifier
+    - obo_RO_0000056
+    - rdfs_label
+    class_uri: obo:CHEMINF_000000
+  obo_CHEMINF_000446:
+    name: obo_CHEMINF_000446
+    slots:
+    - dc_source
+    - rdfs_label
+    class_uri: obo:CHEMINF_000446
+  obo_CHEMINF_000568:
+    name: obo_CHEMINF_000568
+    slots:
+    - dc_source
+    - rdfs_label
+    class_uri: obo:CHEMINF_000568
+source_file: /code/biobricks-ice-kg.yaml

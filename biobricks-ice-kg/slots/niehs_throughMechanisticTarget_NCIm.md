@@ -3,10 +3,9 @@
 # Slot: niehs_throughMechanisticTarget_NCIm
 
 
-_No slot description provided_
 
 
-
+This slot occurs 3015 times.
 
 
 URI: [niehs:throughMechanisticTarget_NCIm](https://ice.ntp.niehs.nih.gov/property/throughMechanisticTarget_NCIm)
@@ -23,7 +22,7 @@ URI: [niehs:throughMechanisticTarget_NCIm](https://ice.ntp.niehs.nih.gov/propert
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Bao0000015](../classes/Bao0000015.md) | No type description provided |  no  |
+| [Bao0000015](../classes/Bao0000015.md) |  |  no  |
 
 
 
@@ -33,51 +32,10 @@ URI: [niehs:throughMechanisticTarget_NCIm](https://ice.ntp.niehs.nih.gov/propert
 
 ## Properties
 
-* Range: [EdamData1181](../classes/EdamData1181.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[Bao0003064](../classes/Bao0003064.md)&nbsp;or&nbsp;<br />[EdamData1181](../classes/EdamData1181.md)
 
 
 
-
-
-
-## Examples
-
-| Value |
-| --- |
-| https://comptox.epa.gov/dashboard/assay-endpoints/UPITT_HCI_U2OS_AR_TIF2_Nucleoli_Cytoplasm_Ratio_Antagonist niehs:throughMechanisticTarget_NCIm umls:CUI%3AC1625136 |
-
-## Comments
-
-* 3015 occurrences with subject type bao_0000015 and object type edam_data_1181.
-
-## TODOs
-
-* TODO -- Todos for this slot go here
-* or you can delete the todos
-* if you think the class is perfect.
-
-## Identifier and Mapping Information
-
-
-
-
-
-
-
-### Schema Source
-
-
-* from schema: biobricks-ice-kg
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | niehs:throughMechanisticTarget_NCIm |
-| native | biobricks-ice-kg/:niehs_throughMechanisticTarget_NCIm |
 
 
 
@@ -85,25 +43,19 @@ URI: [niehs:throughMechanisticTarget_NCIm](https://ice.ntp.niehs.nih.gov/propert
 ## LinkML Source
 
 <details>
+
 ```yaml
 name: niehs_throughMechanisticTarget_NCIm
-description: No slot description provided
-todos:
-- TODO -- Todos for this slot go here
-- or you can delete the todos
-- if you think the class is perfect.
-comments:
-- 3015 occurrences with subject type bao_0000015 and object type edam_data_1181.
-examples:
-- value: https://comptox.epa.gov/dashboard/assay-endpoints/UPITT_HCI_U2OS_AR_TIF2_Nucleoli_Cytoplasm_Ratio_Antagonist
-    niehs:throughMechanisticTarget_NCIm umls:CUI%3AC1625136
-from_schema: biobricks-ice-kg
+from_schema: okns:biobricks-ice-kg
 rank: 1000
 slot_uri: niehs:throughMechanisticTarget_NCIm
 alias: niehs_throughMechanisticTarget_NCIm
 domain_of:
 - bao_0000015
-range: edam_data_1181
+range: Any
+any_of:
+- range: bao_0003064
+- range: edam_data_1181
 
 ```
 </details>
