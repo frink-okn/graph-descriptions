@@ -1,0 +1,113 @@
+annotations:
+  counts:
+    tag: counts
+    value:
+      classes:
+        tag: classes
+        value:
+          obo:CHEMINF_000446:
+            tag: obo:CHEMINF_000446
+            value: 8947
+      pairs:
+        tag: pairs
+        value:
+          dc:source:
+            tag: dc:source
+            value:
+              obo:CHEMINF_000446:
+                tag: obo:CHEMINF_000446
+                value:
+                  string:
+                    tag: string
+                    value: 8947
+          rdfs:label:
+            tag: rdfs:label
+            value:
+              obo:CHEMINF_000446:
+                tag: obo:CHEMINF_000446
+                value:
+                  string:
+                    tag: string
+                    value: 9045
+      slots:
+        tag: slots
+        value:
+          dc:source:
+            tag: dc:source
+            value: 8947
+          rdfs:label:
+            tag: rdfs:label
+            value: 9045
+  examples:
+    tag: examples
+    value:
+      classes:
+        tag: classes
+        value:
+          obo:CHEMINF_000446:
+            tag: obo:CHEMINF_000446
+            value: http://identifiers.org/cas/NOCAS_57890
+      pairs:
+        tag: pairs
+        value:
+          dc:source:
+            tag: dc:source
+            value:
+              obo:CHEMINF_000446:
+                tag: obo:CHEMINF_000446
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: CAS
+                      predicate:
+                        tag: predicate
+                        value: dc:source
+                      subject:
+                        tag: subject
+                        value: http://identifiers.org/cas/100-00-5
+          rdfs:label:
+            tag: rdfs:label
+            value:
+              obo:CHEMINF_000446:
+                tag: obo:CHEMINF_000446
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 1-Chloro-4-nitrobenzene
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: http://identifiers.org/cas/100-00-5
+classes:
+  obo_CHEMINF_000446:
+    class_uri: obo:CHEMINF_000446
+    name: obo_CHEMINF_000446
+    slots:
+    - rdfs_label
+    - dc_source
+created_on: '2025-10-21T00:48:06.241141'
+default_prefix: okns
+id: okns:biobricks-tox21-kg
+imports:
+- okns:owl-rdf-rdfs
+- linkml:types
+- okns:dc
+last_updated_on: '2025-10-21T00:48:06.241141'
+name: biobricks-tox21-kg
+prefixes:
+  dc: http://purl.org/dc/elements/1.1/
+  linkml: https://w3id.org/linkml/
+  obo: http://purl.obolibrary.org/obo/
+  okn: https://purl.org/okn/
+  okns: https://purl.org/okn/schema/
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+slots: {}
+title: biobricks-tox21

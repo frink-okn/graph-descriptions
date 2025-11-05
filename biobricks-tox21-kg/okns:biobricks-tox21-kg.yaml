@@ -1,0 +1,125 @@
+name: biobricks-tox21-kg
+annotations:
+  counts:
+    tag: counts
+    value:
+      classes:
+        tag: classes
+        value:
+          obo:CHEMINF_000446:
+            tag: obo:CHEMINF_000446
+            value: 8947
+      pairs:
+        tag: pairs
+        value:
+          dc:source:
+            tag: dc:source
+            value:
+              obo:CHEMINF_000446:
+                tag: obo:CHEMINF_000446
+                value:
+                  string:
+                    tag: string
+                    value: 8947
+          rdfs:label:
+            tag: rdfs:label
+            value:
+              obo:CHEMINF_000446:
+                tag: obo:CHEMINF_000446
+                value:
+                  string:
+                    tag: string
+                    value: 9045
+      slots:
+        tag: slots
+        value:
+          dc:source:
+            tag: dc:source
+            value: 8947
+          rdfs:label:
+            tag: rdfs:label
+            value: 9045
+  examples:
+    tag: examples
+    value:
+      classes:
+        tag: classes
+        value:
+          obo:CHEMINF_000446:
+            tag: obo:CHEMINF_000446
+            value: http://identifiers.org/cas/NOCAS_57890
+      pairs:
+        tag: pairs
+        value:
+          dc:source:
+            tag: dc:source
+            value:
+              obo:CHEMINF_000446:
+                tag: obo:CHEMINF_000446
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: CAS
+                      predicate:
+                        tag: predicate
+                        value: dc:source
+                      subject:
+                        tag: subject
+                        value: http://identifiers.org/cas/100-00-5
+          rdfs:label:
+            tag: rdfs:label
+            value:
+              obo:CHEMINF_000446:
+                tag: obo:CHEMINF_000446
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 1-Chloro-4-nitrobenzene
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: http://identifiers.org/cas/100-00-5
+title: biobricks-tox21
+created_on: '2025-10-21T00:48:06.241141'
+last_updated_on: '2025-10-21T00:48:06.241141'
+id: okns:biobricks-tox21-kg
+imports:
+- okns:owl-rdf-rdfs
+- linkml:types
+- okns:dc
+prefixes:
+  dc:
+    prefix_prefix: dc
+    prefix_reference: http://purl.org/dc/elements/1.1/
+  linkml:
+    prefix_prefix: linkml
+    prefix_reference: https://w3id.org/linkml/
+  obo:
+    prefix_prefix: obo
+    prefix_reference: http://purl.obolibrary.org/obo/
+  okn:
+    prefix_prefix: okn
+    prefix_reference: https://purl.org/okn/
+  okns:
+    prefix_prefix: okns
+    prefix_reference: https://purl.org/okn/schema/
+  rdfs:
+    prefix_prefix: rdfs
+    prefix_reference: http://www.w3.org/2000/01/rdf-schema#
+default_prefix: okns
+classes:
+  obo_CHEMINF_000446:
+    name: obo_CHEMINF_000446
+    slots:
+    - rdfs_label
+    - dc_source
+    class_uri: obo:CHEMINF_000446
+source_file: /code/biobricks-tox21-kg.yaml
