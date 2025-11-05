@@ -1,0 +1,210 @@
+annotations:
+  counts:
+    tag: counts
+    value:
+      classes:
+        tag: classes
+        value:
+          http://www.w3.org/ns/oa#Annotation:
+            tag: http://www.w3.org/ns/oa#Annotation
+            value: 10718093
+      pairs:
+        tag: pairs
+        value:
+          dc:format:
+            tag: dc:format
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  string:
+                    tag: string
+                    value: 10718093
+          dc:subject:
+            tag: dc:subject
+            value:
+              http://www.w3.org/ns/oa#Annotation:
+                tag: http://www.w3.org/ns/oa#Annotation
+                value:
+                  uri:
+                    tag: uri
+                    value: 17550399
+          http://www.w3.org/ns/oa#hasBody:
+            tag: http://www.w3.org/ns/oa#hasBody
+            value:
+              http://www.w3.org/ns/oa#Annotation:
+                tag: http://www.w3.org/ns/oa#Annotation
+                value:
+                  uri:
+                    tag: uri
+                    value: 10718093
+          http://www.w3.org/ns/oa#hasTarget:
+            tag: http://www.w3.org/ns/oa#hasTarget
+            value:
+              http://www.w3.org/ns/oa#Annotation:
+                tag: http://www.w3.org/ns/oa#Annotation
+                value:
+                  uri:
+                    tag: uri
+                    value: 17550399
+          rdf:value:
+            tag: rdf:value
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  string:
+                    tag: string
+                    value: 20169149
+      slots:
+        tag: slots
+        value:
+          dc:format:
+            tag: dc:format
+            value: 10718093
+          dc:subject:
+            tag: dc:subject
+            value: 17550399
+          http://www.w3.org/ns/oa#hasBody:
+            tag: http://www.w3.org/ns/oa#hasBody
+            value: 10718093
+          http://www.w3.org/ns/oa#hasTarget:
+            tag: http://www.w3.org/ns/oa#hasTarget
+            value: 17550399
+          rdf:value:
+            tag: rdf:value
+            value: 20169149
+  examples:
+    tag: examples
+    value:
+      classes:
+        tag: classes
+        value:
+          http://www.w3.org/ns/oa#Annotation:
+            tag: http://www.w3.org/ns/oa#Annotation
+            value: http://rdf.ncbi.nlm.nih.gov/pubchem/annotation/ANID9999993
+      pairs:
+        tag: pairs
+        value:
+          dc:format:
+            tag: dc:format
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: text/plain
+                      predicate:
+                        tag: predicate
+                        value: dc:format
+                      subject:
+                        tag: subject
+                        value: http://rdf.ncbi.nlm.nih.gov/pubchem/annotation/ANID1/body
+          dc:subject:
+            tag: dc:subject
+            value:
+              http://www.w3.org/ns/oa#Annotation:
+                tag: http://www.w3.org/ns/oa#Annotation
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID14820
+                      predicate:
+                        tag: predicate
+                        value: dc:subject
+                      subject:
+                        tag: subject
+                        value: http://rdf.ncbi.nlm.nih.gov/pubchem/annotation/ANID1
+          http://www.w3.org/ns/oa#hasBody:
+            tag: http://www.w3.org/ns/oa#hasBody
+            value:
+              http://www.w3.org/ns/oa#Annotation:
+                tag: http://www.w3.org/ns/oa#Annotation
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: http://rdf.ncbi.nlm.nih.gov/pubchem/annotation/ANID1/body
+                      predicate:
+                        tag: predicate
+                        value: http://www.w3.org/ns/oa#hasBody
+                      subject:
+                        tag: subject
+                        value: http://rdf.ncbi.nlm.nih.gov/pubchem/annotation/ANID1
+          http://www.w3.org/ns/oa#hasTarget:
+            tag: http://www.w3.org/ns/oa#hasTarget
+            value:
+              http://www.w3.org/ns/oa#Annotation:
+                tag: http://www.w3.org/ns/oa#Annotation
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID14820
+                      predicate:
+                        tag: predicate
+                        value: http://www.w3.org/ns/oa#hasTarget
+                      subject:
+                        tag: subject
+                        value: http://rdf.ncbi.nlm.nih.gov/pubchem/annotation/ANID1
+          rdf:value:
+            tag: rdf:value
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: (AL) ALABAMA 8 pCi/l /Strontium 90/
+                      predicate:
+                        tag: predicate
+                        value: rdf:value
+                      subject:
+                        tag: subject
+                        value: http://rdf.ncbi.nlm.nih.gov/pubchem/annotation/ANID1/body
+classes:
+  http___www.w3.org_ns_oa#Annotation:
+    class_uri: http://www.w3.org/ns/oa#Annotation
+    name: http___www.w3.org_ns_oa#Annotation
+    slots:
+    - http___www.w3.org_ns_oa#hasTarget
+    - http___www.w3.org_ns_oa#hasBody
+    - dc_subject
+created_on: '2025-10-21T03:06:42.505156'
+default_prefix: okns
+id: okns:biobricks-pubchem-annotations-kg
+imports:
+- okns:dc
+- linkml:types
+- okns:extended_types
+- okns:owl-rdf-rdfs
+last_updated_on: '2025-10-21T03:06:42.505156'
+name: biobricks-pubchem-annotations-kg
+prefixes:
+  dc: http://purl.org/dc/elements/1.1/
+  linkml: https://w3id.org/linkml/
+  okn: https://purl.org/okn/
+  okns: https://purl.org/okn/schema/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+slots:
+  http___www.w3.org_ns_oa#hasBody:
+    range: uri
+    slot_uri: http://www.w3.org/ns/oa#hasBody
+  http___www.w3.org_ns_oa#hasTarget:
+    range: uri
+    slot_uri: http://www.w3.org/ns/oa#hasTarget
+title: biobricks-pubchem-annotations
