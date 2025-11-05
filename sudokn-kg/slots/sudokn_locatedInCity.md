@@ -1,11 +1,6 @@
 
 
-# Slot: sudokn_locatedInCity
-
-
-_No slot (predicate) description specified_
-
-
+# Slot: located in city (sudokn_locatedInCity)
 
 
 
@@ -27,7 +22,7 @@ URI: [sudokn:locatedInCity](http://asu.edu/semantics/SUDOKN/locatedInCity)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SudoknGeospatialLocation](../classes/SudoknGeospatialLocation.md) | No class (type) description specified |  yes  |
+| [SudoknGeospatialLocation](../classes/SudoknGeospatialLocation.md) |  |  no  |
 
 
 
@@ -44,14 +39,6 @@ URI: [sudokn:locatedInCity](http://asu.edu/semantics/SUDOKN/locatedInCity)
 
 
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| sudokn_GeospatialLocation | sudokn_City | sudokn:101PIPE-site | sudokn:FONTANA-City | 19022 |
-
-
-
 
 ## LinkML Source
 
@@ -59,24 +46,15 @@ URI: [sudokn:locatedInCity](http://asu.edu/semantics/SUDOKN/locatedInCity)
 
 ```yaml
 name: sudokn_locatedInCity
-annotations:
-  count:
-    tag: count
-    value: 19022
-description: No slot (predicate) description specified
-examples:
-- object:
-    example_object: sudokn:FONTANA-City
-    example_object_type: sudokn_City
-    example_predicate: sudokn:locatedInCity
-    example_subject: sudokn:101PIPE-site
-    example_subject_type: sudokn_GeospatialLocation
-from_schema: sudokn-kg
+title: located in city
+from_schema: okns:sudokn-kg
 rank: 1000
+domain: iosc_GeospatialSite
 slot_uri: sudokn:locatedInCity
 alias: sudokn_locatedInCity
 domain_of:
 - sudokn_GeospatialLocation
+subproperty_of: obo_BFO_0000171
 range: sudokn_City
 
 ```

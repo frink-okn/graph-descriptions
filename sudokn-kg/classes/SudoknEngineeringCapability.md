@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_EngineeringCapability)
-
-
-_No class (type) description specified_
+# Class: engineering capability (sudokn_EngineeringCapability)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:EngineeringCapability](http://asu.edu/semantics/SUDOKN/EngineeringCapability)
@@ -34,10 +27,14 @@ URI: [sudokn:EngineeringCapability](http://asu.edu/semantics/SUDOKN/EngineeringC
         click SudoknCADCapability href "../SudoknCADCapability"
       SudoknEngineeringCapability <|-- SudoknCAECapability
         click SudoknCAECapability href "../SudoknCAECapability"
+      SudoknEngineeringCapability <|-- SudoknCAMCapability
+        click SudoknCAMCapability href "../SudoknCAMCapability"
       SudoknEngineeringCapability <|-- SudoknEngineeringDesignCapability
         click SudoknEngineeringDesignCapability href "../SudoknEngineeringDesignCapability"
       SudoknEngineeringCapability <|-- SudoknPLCProgrammingCapability
         click SudoknPLCProgrammingCapability href "../SudoknPLCProgrammingCapability"
+      SudoknEngineeringCapability <|-- SudoknRapidPrototypingCapability
+        click SudoknRapidPrototypingCapability href "../SudoknRapidPrototypingCapability"
       SudoknEngineeringCapability <|-- SudoknReverseEngineeringCapability
         click SudoknReverseEngineeringCapability href "../SudoknReverseEngineeringCapability"
       SudoknEngineeringCapability <|-- SudoknToolDesignCapability
@@ -57,8 +54,10 @@ URI: [sudokn:EngineeringCapability](http://asu.edu/semantics/SUDOKN/EngineeringC
         * [SudoknCADCAMCapability](../classes/SudoknCADCAMCapability.md)
         * [SudoknCADCapability](../classes/SudoknCADCapability.md)
         * [SudoknCAECapability](../classes/SudoknCAECapability.md)
+        * [SudoknCAMCapability](../classes/SudoknCAMCapability.md)
         * [SudoknEngineeringDesignCapability](../classes/SudoknEngineeringDesignCapability.md)
         * [SudoknPLCProgrammingCapability](../classes/SudoknPLCProgrammingCapability.md)
+        * [SudoknRapidPrototypingCapability](../classes/SudoknRapidPrototypingCapability.md)
         * [SudoknReverseEngineeringCapability](../classes/SudoknReverseEngineeringCapability.md)
         * [SudoknToolDesignCapability](../classes/SudoknToolDesignCapability.md)
 
@@ -92,14 +91,8 @@ URI: [sudokn:EngineeringCapability](http://asu.edu/semantics/SUDOKN/EngineeringC
 
 ```yaml
 name: sudokn_EngineeringCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: engineering capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: iosc_ProductionCapability
 class_uri: sudokn:EngineeringCapability
@@ -113,14 +106,8 @@ class_uri: sudokn:EngineeringCapability
 
 ```yaml
 name: sudokn_EngineeringCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: engineering capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: iosc_ProductionCapability
 class_uri: sudokn:EngineeringCapability

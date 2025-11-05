@@ -1,11 +1,6 @@
 
 
-# Class: No class (type) name specified (sudokn_OrganizationName)
-
-
-_No class (type) description specified_
-
-
+# Class: organization name (sudokn_OrganizationName)
 
 
 
@@ -55,7 +50,6 @@ URI: [sudokn:OrganizationName](http://asu.edu/semantics/SUDOKN/OrganizationName)
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
 | [IoManufacturer](../classes/IoManufacturer.md) | [sudokn_hasName](../slots/sudokn_hasName.md) | any_of[range] | [SudoknOrganizationName](../classes/SudoknOrganizationName.md) |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | [sudokn_hasName](../slots/sudokn_hasName.md) | any_of[range] | [SudoknOrganizationName](../classes/SudoknOrganizationName.md) |
 
 
 
@@ -77,14 +71,8 @@ URI: [sudokn:OrganizationName](http://asu.edu/semantics/SUDOKN/OrganizationName)
 
 ```yaml
 name: sudokn_OrganizationName
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: organization name
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_DesignativeName
 class_uri: sudokn:OrganizationName
@@ -98,14 +86,8 @@ class_uri: sudokn:OrganizationName
 
 ```yaml
 name: sudokn_OrganizationName
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: organization name
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_DesignativeName
 class_uri: sudokn:OrganizationName

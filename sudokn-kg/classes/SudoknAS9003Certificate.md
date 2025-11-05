@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_AS9003Certificate)
-
-
-_No class (type) description specified_
+# Class: AS 9003 certificate (sudokn_AS9003Certificate)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:AS9003Certificate](http://asu.edu/semantics/SUDOKN/AS9003Certificate)
@@ -71,14 +64,8 @@ URI: [sudokn:AS9003Certificate](http://asu.edu/semantics/SUDOKN/AS9003Certificat
 
 ```yaml
 name: sudokn_AS9003Certificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: AS 9003 certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_ASCertificate
 class_uri: sudokn:AS9003Certificate
@@ -92,14 +79,8 @@ class_uri: sudokn:AS9003Certificate
 
 ```yaml
 name: sudokn_AS9003Certificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: AS 9003 certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_ASCertificate
 class_uri: sudokn:AS9003Certificate

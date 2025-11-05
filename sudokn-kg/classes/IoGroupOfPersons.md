@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (io_GroupOfPersons)
-
-
-_No class (type) description specified_
+# Class: IoGroupOfPersons
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [io:GroupOfPersons](https://spec.industrialontologies.org/ontology/core/Core/GroupOfPersons)
@@ -61,14 +54,7 @@ URI: [io:GroupOfPersons](https://spec.industrialontologies.org/ontology/core/Cor
 
 ```yaml
 name: io_GroupOfPersons
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+from_schema: okns:sudokn-kg
 rank: 1000
 class_uri: io:GroupOfPersons
 
@@ -81,14 +67,7 @@ class_uri: io:GroupOfPersons
 
 ```yaml
 name: io_GroupOfPersons
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+from_schema: okns:sudokn-kg
 rank: 1000
 class_uri: io:GroupOfPersons
 

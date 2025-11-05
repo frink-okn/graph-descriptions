@@ -1,11 +1,6 @@
 
 
-# Class: No class (type) name specified (sudokn_BrandName)
-
-
-_No class (type) description specified_
-
-
+# Class: brand name (sudokn_BrandName)
 
 
 
@@ -69,14 +64,8 @@ URI: [sudokn:BrandName](http://asu.edu/semantics/SUDOKN/BrandName)
 
 ```yaml
 name: sudokn_BrandName
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: brand name
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_DesignativeName
 class_uri: sudokn:BrandName
@@ -90,14 +79,8 @@ class_uri: sudokn:BrandName
 
 ```yaml
 name: sudokn_BrandName
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: brand name
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_DesignativeName
 class_uri: sudokn:BrandName

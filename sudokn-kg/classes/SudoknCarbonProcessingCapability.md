@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_CarbonProcessingCapability)
-
-
-_No class (type) description specified_
+# Class: carbon processing capability (sudokn_CarbonProcessingCapability)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:CarbonProcessingCapability](http://asu.edu/semantics/SUDOKN/CarbonProcessingCapability)
@@ -27,6 +20,11 @@ URI: [sudokn:CarbonProcessingCapability](http://asu.edu/semantics/SUDOKN/CarbonP
       SudoknMaterialProcessingCapability <|-- SudoknCarbonProcessingCapability
         click SudoknMaterialProcessingCapability href "../SudoknMaterialProcessingCapability"
       
+
+      SudoknCarbonProcessingCapability <|-- SudoknGraphiteProcessingCapability
+        click SudoknGraphiteProcessingCapability href "../SudoknGraphiteProcessingCapability"
+      
+      
       
 ```
 
@@ -38,6 +36,7 @@ URI: [sudokn:CarbonProcessingCapability](http://asu.edu/semantics/SUDOKN/CarbonP
 * [IoscProductionCapability](../classes/IoscProductionCapability.md)
     * [SudoknMaterialProcessingCapability](../classes/SudoknMaterialProcessingCapability.md)
         * **SudoknCarbonProcessingCapability**
+            * [SudoknGraphiteProcessingCapability](../classes/SudoknGraphiteProcessingCapability.md)
 
 
 
@@ -69,14 +68,8 @@ URI: [sudokn:CarbonProcessingCapability](http://asu.edu/semantics/SUDOKN/CarbonP
 
 ```yaml
 name: sudokn_CarbonProcessingCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: carbon processing capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_MaterialProcessingCapability
 class_uri: sudokn:CarbonProcessingCapability
@@ -90,14 +83,8 @@ class_uri: sudokn:CarbonProcessingCapability
 
 ```yaml
 name: sudokn_CarbonProcessingCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: carbon processing capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_MaterialProcessingCapability
 class_uri: sudokn:CarbonProcessingCapability

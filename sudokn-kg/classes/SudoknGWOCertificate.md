@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_GWOCertificate)
-
-
-_No class (type) description specified_
+# Class: GWO certificate (sudokn_GWOCertificate)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:GWOCertificate](http://asu.edu/semantics/SUDOKN/GWOCertificate)
@@ -70,14 +63,8 @@ URI: [sudokn:GWOCertificate](http://asu.edu/semantics/SUDOKN/GWOCertificate)
 
 ```yaml
 name: sudokn_GWOCertificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: GWO certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_QualityCertificate
 class_uri: sudokn:GWOCertificate
@@ -91,14 +78,8 @@ class_uri: sudokn:GWOCertificate
 
 ```yaml
 name: sudokn_GWOCertificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: GWO certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_QualityCertificate
 class_uri: sudokn:GWOCertificate

@@ -1,11 +1,6 @@
 
 
-# Class: No class (type) name specified (sudokn_StreetAddress)
-
-
-_No class (type) description specified_
-
-
+# Class: street of address (sudokn_StreetAddress)
 
 
 
@@ -68,14 +63,8 @@ URI: [sudokn:StreetAddress](http://asu.edu/semantics/SUDOKN/StreetAddress)
 
 ```yaml
 name: sudokn_StreetAddress
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: street of address
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: io_PhysicalLocationIdentifier
 class_uri: sudokn:StreetAddress
@@ -89,14 +78,8 @@ class_uri: sudokn:StreetAddress
 
 ```yaml
 name: sudokn_StreetAddress
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: street of address
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: io_PhysicalLocationIdentifier
 class_uri: sudokn:StreetAddress

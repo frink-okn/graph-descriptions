@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified -- this class is noted as a superclass of another class in this graph but has not itself been defined. (iosc_Industry)
-
-
-_No class (type) description specified_
+# Class: No class (entity type) name specified -- this class is noted as a superclass of another class in this graph but has not itself been defined. (iosc_Industry)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [iosc:Industry](https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/Industry)
@@ -34,6 +27,8 @@ URI: [iosc:Industry](https://spec.industrialontologies.org/ontology/supplychain/
         click SudoknAutomotiveIndustry href "../SudoknAutomotiveIndustry"
       IoscIndustry <|-- SudoknBusinessEquipmentIndustry
         click SudoknBusinessEquipmentIndustry href "../SudoknBusinessEquipmentIndustry"
+      IoscIndustry <|-- SudoknChemicalAndPetrochemicalIndustry
+        click SudoknChemicalAndPetrochemicalIndustry href "../SudoknChemicalAndPetrochemicalIndustry"
       IoscIndustry <|-- SudoknCommunicationsIndustry
         click SudoknCommunicationsIndustry href "../SudoknCommunicationsIndustry"
       IoscIndustry <|-- SudoknConstructionIndustry
@@ -44,6 +39,8 @@ URI: [iosc:Industry](https://spec.industrialontologies.org/ontology/supplychain/
         click SudoknEducationIndustry href "../SudoknEducationIndustry"
       IoscIndustry <|-- SudoknElectronicProductIndustry
         click SudoknElectronicProductIndustry href "../SudoknElectronicProductIndustry"
+      IoscIndustry <|-- SudoknEnergyIndustry
+        click SudoknEnergyIndustry href "../SudoknEnergyIndustry"
       IoscIndustry <|-- SudoknFoodIndustry
         click SudoknFoodIndustry href "../SudoknFoodIndustry"
       IoscIndustry <|-- SudoknFurnitureIndustry
@@ -52,6 +49,8 @@ URI: [iosc:Industry](https://spec.industrialontologies.org/ontology/supplychain/
         click SudoknGovernmentIndustry href "../SudoknGovernmentIndustry"
       IoscIndustry <|-- SudoknHealthcareServices
         click SudoknHealthcareServices href "../SudoknHealthcareServices"
+      IoscIndustry <|-- SudoknInformationTechnologyIndustry
+        click SudoknInformationTechnologyIndustry href "../SudoknInformationTechnologyIndustry"
       IoscIndustry <|-- SudoknMachinaryAndEquipmentIndustry
         click SudoknMachinaryAndEquipmentIndustry href "../SudoknMachinaryAndEquipmentIndustry"
       IoscIndustry <|-- SudoknMetalProductsIndustry
@@ -60,16 +59,16 @@ URI: [iosc:Industry](https://spec.industrialontologies.org/ontology/supplychain/
         click SudoknMilitaryIndustry href "../SudoknMilitaryIndustry"
       IoscIndustry <|-- SudoknMiningIndustry
         click SudoknMiningIndustry href "../SudoknMiningIndustry"
-      IoscIndustry <|-- SudoknOffshoreWindIndustry
-        click SudoknOffshoreWindIndustry href "../SudoknOffshoreWindIndustry"
       IoscIndustry <|-- SudoknPaperIndustry
         click SudoknPaperIndustry href "../SudoknPaperIndustry"
+      IoscIndustry <|-- SudoknPharmaceuticalIndustry
+        click SudoknPharmaceuticalIndustry href "../SudoknPharmaceuticalIndustry"
       IoscIndustry <|-- SudoknPlasticAndRubberIndustry
         click SudoknPlasticAndRubberIndustry href "../SudoknPlasticAndRubberIndustry"
       IoscIndustry <|-- SudoknPrintingAndInformationIndustry
         click SudoknPrintingAndInformationIndustry href "../SudoknPrintingAndInformationIndustry"
-      IoscIndustry <|-- SudoknProfessionalServices
-        click SudoknProfessionalServices href "../SudoknProfessionalServices"
+      IoscIndustry <|-- SudoknProfessionalServicesIndustry
+        click SudoknProfessionalServicesIndustry href "../SudoknProfessionalServicesIndustry"
       IoscIndustry <|-- SudoknRecyclingIndustry
         click SudoknRecyclingIndustry href "../SudoknRecyclingIndustry"
       IoscIndustry <|-- SudoknRetailIndustry
@@ -82,6 +81,10 @@ URI: [iosc:Industry](https://spec.industrialontologies.org/ontology/supplychain/
         click SudoknTransportationIndustry href "../SudoknTransportationIndustry"
       IoscIndustry <|-- SudoknUtilitiesIndustry
         click SudoknUtilitiesIndustry href "../SudoknUtilitiesIndustry"
+      IoscIndustry <|-- SudoknWarehousingAndStorage
+        click SudoknWarehousingAndStorage href "../SudoknWarehousingAndStorage"
+      IoscIndustry <|-- SudoknWoodProductManufacturingIndustry
+        click SudoknWoodProductManufacturingIndustry href "../SudoknWoodProductManufacturingIndustry"
       
       
 ```
@@ -97,30 +100,35 @@ URI: [iosc:Industry](https://spec.industrialontologies.org/ontology/supplychain/
     * [SudoknApparelIndustry](../classes/SudoknApparelIndustry.md)
     * [SudoknAutomotiveIndustry](../classes/SudoknAutomotiveIndustry.md)
     * [SudoknBusinessEquipmentIndustry](../classes/SudoknBusinessEquipmentIndustry.md)
+    * [SudoknChemicalAndPetrochemicalIndustry](../classes/SudoknChemicalAndPetrochemicalIndustry.md)
     * [SudoknCommunicationsIndustry](../classes/SudoknCommunicationsIndustry.md)
     * [SudoknConstructionIndustry](../classes/SudoknConstructionIndustry.md)
     * [SudoknConsumerGoodsIndustry](../classes/SudoknConsumerGoodsIndustry.md)
     * [SudoknEducationIndustry](../classes/SudoknEducationIndustry.md)
     * [SudoknElectronicProductIndustry](../classes/SudoknElectronicProductIndustry.md)
+    * [SudoknEnergyIndustry](../classes/SudoknEnergyIndustry.md)
     * [SudoknFoodIndustry](../classes/SudoknFoodIndustry.md)
     * [SudoknFurnitureIndustry](../classes/SudoknFurnitureIndustry.md)
     * [SudoknGovernmentIndustry](../classes/SudoknGovernmentIndustry.md)
     * [SudoknHealthcareServices](../classes/SudoknHealthcareServices.md)
+    * [SudoknInformationTechnologyIndustry](../classes/SudoknInformationTechnologyIndustry.md)
     * [SudoknMachinaryAndEquipmentIndustry](../classes/SudoknMachinaryAndEquipmentIndustry.md)
     * [SudoknMetalProductsIndustry](../classes/SudoknMetalProductsIndustry.md)
     * [SudoknMilitaryIndustry](../classes/SudoknMilitaryIndustry.md)
     * [SudoknMiningIndustry](../classes/SudoknMiningIndustry.md)
-    * [SudoknOffshoreWindIndustry](../classes/SudoknOffshoreWindIndustry.md)
     * [SudoknPaperIndustry](../classes/SudoknPaperIndustry.md)
+    * [SudoknPharmaceuticalIndustry](../classes/SudoknPharmaceuticalIndustry.md)
     * [SudoknPlasticAndRubberIndustry](../classes/SudoknPlasticAndRubberIndustry.md)
     * [SudoknPrintingAndInformationIndustry](../classes/SudoknPrintingAndInformationIndustry.md)
-    * [SudoknProfessionalServices](../classes/SudoknProfessionalServices.md)
+    * [SudoknProfessionalServicesIndustry](../classes/SudoknProfessionalServicesIndustry.md)
     * [SudoknRecyclingIndustry](../classes/SudoknRecyclingIndustry.md)
     * [SudoknRetailIndustry](../classes/SudoknRetailIndustry.md)
     * [SudoknSportsAndLeisureIndustry](../classes/SudoknSportsAndLeisureIndustry.md)
     * [SudoknTextilesIndustry](../classes/SudoknTextilesIndustry.md)
     * [SudoknTransportationIndustry](../classes/SudoknTransportationIndustry.md)
     * [SudoknUtilitiesIndustry](../classes/SudoknUtilitiesIndustry.md)
+    * [SudoknWarehousingAndStorage](../classes/SudoknWarehousingAndStorage.md)
+    * [SudoknWoodProductManufacturingIndustry](../classes/SudoknWoodProductManufacturingIndustry.md)
 
 
 
@@ -131,6 +139,13 @@ URI: [iosc:Industry](https://spec.industrialontologies.org/ontology/supplychain/
 
 
 
+
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [IoManufacturer](../classes/IoManufacturer.md) | [sudokn_suppliesToIndustry](../slots/sudokn_suppliesToIndustry.md) | any_of[range] | [IoscIndustry](../classes/IoscIndustry.md) |
 
 
 
@@ -152,15 +167,9 @@ URI: [iosc:Industry](https://spec.industrialontologies.org/ontology/supplychain/
 
 ```yaml
 name: iosc_Industry
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified -- this class is noted as a superclass of another
-  class in this graph but has not itself been defined.
-from_schema: sudokn-kg
+title: No class (entity type) name specified -- this class is noted as a superclass
+  of another class in this graph but has not itself been defined.
+from_schema: okns:sudokn-kg
 rank: 1000
 class_uri: iosc:Industry
 
@@ -173,15 +182,9 @@ class_uri: iosc:Industry
 
 ```yaml
 name: iosc_Industry
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified -- this class is noted as a superclass of another
-  class in this graph but has not itself been defined.
-from_schema: sudokn-kg
+title: No class (entity type) name specified -- this class is noted as a superclass
+  of another class in this graph but has not itself been defined.
+from_schema: okns:sudokn-kg
 rank: 1000
 class_uri: iosc:Industry
 

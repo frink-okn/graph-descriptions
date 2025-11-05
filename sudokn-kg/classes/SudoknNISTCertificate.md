@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_NISTCertificate)
-
-
-_No class (type) description specified_
+# Class: NIST certificate (sudokn_NISTCertificate)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:NISTCertificate](http://asu.edu/semantics/SUDOKN/NISTCertificate)
@@ -28,8 +21,8 @@ URI: [sudokn:NISTCertificate](http://asu.edu/semantics/SUDOKN/NISTCertificate)
         click SudoknQualityCertificate href "../SudoknQualityCertificate"
       
 
-      SudoknNISTCertificate <|-- SudoknNIST-800-171Certificate
-        click SudoknNIST-800-171Certificate href "../SudoknNIST-800-171Certificate"
+      SudoknNISTCertificate <|-- SudoknNIST800171Certificate
+        click SudoknNIST800171Certificate href "../SudoknNIST800171Certificate"
       
       
       
@@ -44,7 +37,7 @@ URI: [sudokn:NISTCertificate](http://asu.edu/semantics/SUDOKN/NISTCertificate)
     * [SudoknCertificate](../classes/SudoknCertificate.md)
         * [SudoknQualityCertificate](../classes/SudoknQualityCertificate.md)
             * **SudoknNISTCertificate**
-                * [SudoknNIST-800-171Certificate](../classes/SudoknNIST-800-171Certificate.md)
+                * [SudoknNIST800171Certificate](../classes/SudoknNIST800171Certificate.md)
 
 
 
@@ -76,14 +69,8 @@ URI: [sudokn:NISTCertificate](http://asu.edu/semantics/SUDOKN/NISTCertificate)
 
 ```yaml
 name: sudokn_NISTCertificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: NIST certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_QualityCertificate
 class_uri: sudokn:NISTCertificate
@@ -97,14 +84,8 @@ class_uri: sudokn:NISTCertificate
 
 ```yaml
 name: sudokn_NISTCertificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: NIST certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_QualityCertificate
 class_uri: sudokn:NISTCertificate

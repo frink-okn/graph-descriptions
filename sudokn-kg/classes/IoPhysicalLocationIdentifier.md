@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified -- this class is noted as a superclass of another class in this graph but has not itself been defined. (io_PhysicalLocationIdentifier)
-
-
-_No class (type) description specified_
+# Class: No class (entity type) name specified -- this class is noted as a superclass of another class in this graph but has not itself been defined. (io_PhysicalLocationIdentifier)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [io:PhysicalLocationIdentifier](https://spec.industrialontologies.org/ontology/core/Core/PhysicalLocationIdentifier)
@@ -36,8 +29,10 @@ URI: [io:PhysicalLocationIdentifier](https://spec.industrialontologies.org/ontol
         click SudoknStateOfAddress href "../SudoknStateOfAddress"
       IoPhysicalLocationIdentifier <|-- SudoknStreetAddress
         click SudoknStreetAddress href "../SudoknStreetAddress"
-      IoPhysicalLocationIdentifier <|-- SudoknUnitedStatesPostalCode
-        click SudoknUnitedStatesPostalCode href "../SudoknUnitedStatesPostalCode"
+      IoPhysicalLocationIdentifier <|-- SudoknTwoDimensionalCartesianSpatialCoordinateDatum
+        click SudoknTwoDimensionalCartesianSpatialCoordinateDatum href "../SudoknTwoDimensionalCartesianSpatialCoordinateDatum"
+      IoPhysicalLocationIdentifier <|-- SudoknUSPostalCode
+        click SudoknUSPostalCode href "../SudoknUSPostalCode"
       
       
 ```
@@ -54,7 +49,8 @@ URI: [io:PhysicalLocationIdentifier](https://spec.industrialontologies.org/ontol
     * [SudoknPostalAddress](../classes/SudoknPostalAddress.md)
     * [SudoknStateOfAddress](../classes/SudoknStateOfAddress.md)
     * [SudoknStreetAddress](../classes/SudoknStreetAddress.md)
-    * [SudoknUnitedStatesPostalCode](../classes/SudoknUnitedStatesPostalCode.md)
+    * [SudoknTwoDimensionalCartesianSpatialCoordinateDatum](../classes/SudoknTwoDimensionalCartesianSpatialCoordinateDatum.md)
+    * [SudoknUSPostalCode](../classes/SudoknUSPostalCode.md)
 
 
 
@@ -86,15 +82,9 @@ URI: [io:PhysicalLocationIdentifier](https://spec.industrialontologies.org/ontol
 
 ```yaml
 name: io_PhysicalLocationIdentifier
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified -- this class is noted as a superclass of another
-  class in this graph but has not itself been defined.
-from_schema: sudokn-kg
+title: No class (entity type) name specified -- this class is noted as a superclass
+  of another class in this graph but has not itself been defined.
+from_schema: okns:sudokn-kg
 rank: 1000
 class_uri: io:PhysicalLocationIdentifier
 
@@ -107,15 +97,9 @@ class_uri: io:PhysicalLocationIdentifier
 
 ```yaml
 name: io_PhysicalLocationIdentifier
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified -- this class is noted as a superclass of another
-  class in this graph but has not itself been defined.
-from_schema: sudokn-kg
+title: No class (entity type) name specified -- this class is noted as a superclass
+  of another class in this graph but has not itself been defined.
+from_schema: okns:sudokn-kg
 rank: 1000
 class_uri: io:PhysicalLocationIdentifier
 

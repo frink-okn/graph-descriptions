@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_DyeingCapability)
-
-
-_No class (type) description specified_
+# Class: dyeing capability (sudokn_DyeingCapability)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:DyeingCapability](http://asu.edu/semantics/SUDOKN/DyeingCapability)
@@ -70,14 +63,8 @@ URI: [sudokn:DyeingCapability](http://asu.edu/semantics/SUDOKN/DyeingCapability)
 
 ```yaml
 name: sudokn_DyeingCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: dyeing capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_TextileProcessCapability
 class_uri: sudokn:DyeingCapability
@@ -91,14 +78,8 @@ class_uri: sudokn:DyeingCapability
 
 ```yaml
 name: sudokn_DyeingCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: dyeing capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_TextileProcessCapability
 class_uri: sudokn:DyeingCapability

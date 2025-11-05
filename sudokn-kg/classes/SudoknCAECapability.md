@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_CAECapability)
-
-
-_No class (type) description specified_
+# Class: CAE capability (sudokn_CAECapability)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:CAECapability](http://asu.edu/semantics/SUDOKN/CAECapability)
@@ -69,14 +62,8 @@ URI: [sudokn:CAECapability](http://asu.edu/semantics/SUDOKN/CAECapability)
 
 ```yaml
 name: sudokn_CAECapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: CAE capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_EngineeringCapability
 class_uri: sudokn:CAECapability
@@ -90,14 +77,8 @@ class_uri: sudokn:CAECapability
 
 ```yaml
 name: sudokn_CAECapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: CAE capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_EngineeringCapability
 class_uri: sudokn:CAECapability

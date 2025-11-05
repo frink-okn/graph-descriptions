@@ -1,11 +1,6 @@
 
 
-# Class: No class (type) name specified (sudokn_StateOfAddress)
-
-
-_No class (type) description specified_
-
-
+# Class: state of address (sudokn_StateOfAddress)
 
 
 
@@ -68,14 +63,8 @@ URI: [sudokn:StateOfAddress](http://asu.edu/semantics/SUDOKN/StateOfAddress)
 
 ```yaml
 name: sudokn_StateOfAddress
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: state of address
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: io_PhysicalLocationIdentifier
 class_uri: sudokn:StateOfAddress
@@ -89,14 +78,8 @@ class_uri: sudokn:StateOfAddress
 
 ```yaml
 name: sudokn_StateOfAddress
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: state of address
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: io_PhysicalLocationIdentifier
 class_uri: sudokn:StateOfAddress

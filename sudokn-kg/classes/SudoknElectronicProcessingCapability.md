@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_ElectronicProcessingCapability)
-
-
-_No class (type) description specified_
+# Class: electronic processing capability (sudokn_ElectronicProcessingCapability)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:ElectronicProcessingCapability](http://asu.edu/semantics/SUDOKN/ElectronicProcessingCapability)
@@ -69,14 +62,8 @@ URI: [sudokn:ElectronicProcessingCapability](http://asu.edu/semantics/SUDOKN/Ele
 
 ```yaml
 name: sudokn_ElectronicProcessingCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: electronic processing capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_MaterialProcessingCapability
 class_uri: sudokn:ElectronicProcessingCapability
@@ -90,14 +77,8 @@ class_uri: sudokn:ElectronicProcessingCapability
 
 ```yaml
 name: sudokn_ElectronicProcessingCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: electronic processing capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_MaterialProcessingCapability
 class_uri: sudokn:ElectronicProcessingCapability

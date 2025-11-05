@@ -1,11 +1,6 @@
 
 
-# Class: No class (type) name specified (sudokn_WebAddress)
-
-
-_No class (type) description specified_
-
-
+# Class: web address (sudokn_WebAddress)
 
 
 
@@ -55,7 +50,6 @@ URI: [sudokn:WebAddress](http://asu.edu/semantics/SUDOKN/WebAddress)
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
 | [IoManufacturer](../classes/IoManufacturer.md) | [sudokn_hasWebAddress](../slots/sudokn_hasWebAddress.md) | any_of[range] | [SudoknWebAddress](../classes/SudoknWebAddress.md) |
-| [OwlNamedIndividual](../classes/OwlNamedIndividual.md) | [sudokn_hasWebAddress](../slots/sudokn_hasWebAddress.md) | any_of[range] | [SudoknWebAddress](../classes/SudoknWebAddress.md) |
 
 
 
@@ -77,14 +71,8 @@ URI: [sudokn:WebAddress](http://asu.edu/semantics/SUDOKN/WebAddress)
 
 ```yaml
 name: sudokn_WebAddress
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: web address
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_VitualLocationIdentifier
 class_uri: sudokn:WebAddress
@@ -98,14 +86,8 @@ class_uri: sudokn:WebAddress
 
 ```yaml
 name: sudokn_WebAddress
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: web address
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_VitualLocationIdentifier
 class_uri: sudokn:WebAddress

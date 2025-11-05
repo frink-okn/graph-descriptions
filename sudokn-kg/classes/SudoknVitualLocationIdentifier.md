@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_VitualLocationIdentifier)
-
-
-_No class (type) description specified_
+# Class: virtual location identifier (sudokn_VitualLocationIdentifier)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:VitualLocationIdentifier](http://asu.edu/semantics/SUDOKN/VitualLocationIdentifier)
@@ -77,14 +70,8 @@ URI: [sudokn:VitualLocationIdentifier](http://asu.edu/semantics/SUDOKN/VitualLoc
 
 ```yaml
 name: sudokn_VitualLocationIdentifier
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: virtual location identifier
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: io_Identifier
 class_uri: sudokn:VitualLocationIdentifier
@@ -98,14 +85,8 @@ class_uri: sudokn:VitualLocationIdentifier
 
 ```yaml
 name: sudokn_VitualLocationIdentifier
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: virtual location identifier
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: io_Identifier
 class_uri: sudokn:VitualLocationIdentifier

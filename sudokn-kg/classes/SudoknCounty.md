@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_County)
-
-
-_No class (type) description specified_
+# Class: SudoknCounty
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:County](http://asu.edu/semantics/SUDOKN/County)
@@ -69,14 +62,7 @@ URI: [sudokn:County](http://asu.edu/semantics/SUDOKN/County)
 
 ```yaml
 name: sudokn_County
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_GeopoliticalSite
 class_uri: sudokn:County
@@ -90,14 +76,7 @@ class_uri: sudokn:County
 
 ```yaml
 name: sudokn_County
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_GeopoliticalSite
 class_uri: sudokn:County

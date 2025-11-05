@@ -1,11 +1,6 @@
 
 
-# Class: No class (type) name specified (sudokn_CountryOfAddress)
-
-
-_No class (type) description specified_
-
-
+# Class: country of address (sudokn_CountryOfAddress)
 
 
 
@@ -68,14 +63,8 @@ URI: [sudokn:CountryOfAddress](http://asu.edu/semantics/SUDOKN/CountryOfAddress)
 
 ```yaml
 name: sudokn_CountryOfAddress
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: country of address
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: io_PhysicalLocationIdentifier
 class_uri: sudokn:CountryOfAddress
@@ -89,14 +78,8 @@ class_uri: sudokn:CountryOfAddress
 
 ```yaml
 name: sudokn_CountryOfAddress
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 1
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: country of address
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: io_PhysicalLocationIdentifier
 class_uri: sudokn:CountryOfAddress

@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_ASCertificate)
-
-
-_No class (type) description specified_
+# Class: AS certificate (sudokn_ASCertificate)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:ASCertificate](http://asu.edu/semantics/SUDOKN/ASCertificate)
@@ -28,12 +21,16 @@ URI: [sudokn:ASCertificate](http://asu.edu/semantics/SUDOKN/ASCertificate)
         click SudoknQualityCertificate href "../SudoknQualityCertificate"
       
 
+      SudoknASCertificate <|-- SudoknAS9000Certificate
+        click SudoknAS9000Certificate href "../SudoknAS9000Certificate"
       SudoknASCertificate <|-- SudoknAS9003Certificate
         click SudoknAS9003Certificate href "../SudoknAS9003Certificate"
       SudoknASCertificate <|-- SudoknAS9100Certificate
         click SudoknAS9100Certificate href "../SudoknAS9100Certificate"
       SudoknASCertificate <|-- SudoknAS9102Certificate
         click SudoknAS9102Certificate href "../SudoknAS9102Certificate"
+      SudoknASCertificate <|-- SudoknAS9120Certificate
+        click SudoknAS9120Certificate href "../SudoknAS9120Certificate"
       
       
       
@@ -48,9 +45,11 @@ URI: [sudokn:ASCertificate](http://asu.edu/semantics/SUDOKN/ASCertificate)
     * [SudoknCertificate](../classes/SudoknCertificate.md)
         * [SudoknQualityCertificate](../classes/SudoknQualityCertificate.md)
             * **SudoknASCertificate**
+                * [SudoknAS9000Certificate](../classes/SudoknAS9000Certificate.md)
                 * [SudoknAS9003Certificate](../classes/SudoknAS9003Certificate.md)
                 * [SudoknAS9100Certificate](../classes/SudoknAS9100Certificate.md)
                 * [SudoknAS9102Certificate](../classes/SudoknAS9102Certificate.md)
+                * [SudoknAS9120Certificate](../classes/SudoknAS9120Certificate.md)
 
 
 
@@ -82,14 +81,8 @@ URI: [sudokn:ASCertificate](http://asu.edu/semantics/SUDOKN/ASCertificate)
 
 ```yaml
 name: sudokn_ASCertificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: AS certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_QualityCertificate
 class_uri: sudokn:ASCertificate
@@ -103,14 +96,8 @@ class_uri: sudokn:ASCertificate
 
 ```yaml
 name: sudokn_ASCertificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: AS certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_QualityCertificate
 class_uri: sudokn:ASCertificate

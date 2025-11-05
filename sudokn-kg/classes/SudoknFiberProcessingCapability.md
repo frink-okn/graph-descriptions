@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_FiberProcessingCapability)
-
-
-_No class (type) description specified_
+# Class: fiber processing capability (sudokn_FiberProcessingCapability)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:FiberProcessingCapability](http://asu.edu/semantics/SUDOKN/FiberProcessingCapability)
@@ -78,14 +71,8 @@ URI: [sudokn:FiberProcessingCapability](http://asu.edu/semantics/SUDOKN/FiberPro
 
 ```yaml
 name: sudokn_FiberProcessingCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: fiber processing capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_MaterialProcessingCapability
 class_uri: sudokn:FiberProcessingCapability
@@ -99,14 +86,8 @@ class_uri: sudokn:FiberProcessingCapability
 
 ```yaml
 name: sudokn_FiberProcessingCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: fiber processing capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_MaterialProcessingCapability
 class_uri: sudokn:FiberProcessingCapability

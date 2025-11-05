@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_ManufacturingProcessCapability)
-
-
-_No class (type) description specified_
+# Class: manufacturing process capability (sudokn_ManufacturingProcessCapability)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:ManufacturingProcessCapability](http://asu.edu/semantics/SUDOKN/ManufacturingProcessCapability)
@@ -28,12 +21,14 @@ URI: [sudokn:ManufacturingProcessCapability](http://asu.edu/semantics/SUDOKN/Man
         click IoscProductionCapability href "../IoscProductionCapability"
       
 
-      SudoknManufacturingProcessCapability <|-- SudoknAssemblyCapibility
-        click SudoknAssemblyCapibility href "../SudoknAssemblyCapibility"
+      SudoknManufacturingProcessCapability <|-- SudoknAdditiveManufacturingCapability
+        click SudoknAdditiveManufacturingCapability href "../SudoknAdditiveManufacturingCapability"
+      SudoknManufacturingProcessCapability <|-- SudoknAssemblyCapability
+        click SudoknAssemblyCapability href "../SudoknAssemblyCapability"
       SudoknManufacturingProcessCapability <|-- SudoknCastingCapability
         click SudoknCastingCapability href "../SudoknCastingCapability"
-      SudoknManufacturingProcessCapability <|-- SudoknFinishingCapability
-        click SudoknFinishingCapability href "../SudoknFinishingCapability"
+      SudoknManufacturingProcessCapability <|-- SudoknChemicalProcessingCapability
+        click SudoknChemicalProcessingCapability href "../SudoknChemicalProcessingCapability"
       SudoknManufacturingProcessCapability <|-- SudoknForgingCapability
         click SudoknForgingCapability href "../SudoknForgingCapability"
       SudoknManufacturingProcessCapability <|-- SudoknFormingCapability
@@ -50,10 +45,10 @@ URI: [sudokn:ManufacturingProcessCapability](http://asu.edu/semantics/SUDOKN/Man
         click SudoknPackingCapability href "../SudoknPackingCapability"
       SudoknManufacturingProcessCapability <|-- SudoknSheetMetalProcessingCapability
         click SudoknSheetMetalProcessingCapability href "../SudoknSheetMetalProcessingCapability"
+      SudoknManufacturingProcessCapability <|-- SudoknSurfaceFinishingCapability
+        click SudoknSurfaceFinishingCapability href "../SudoknSurfaceFinishingCapability"
       SudoknManufacturingProcessCapability <|-- SudoknTextileProcessCapability
         click SudoknTextileProcessCapability href "../SudoknTextileProcessCapability"
-      SudoknManufacturingProcessCapability <|-- SudoknThermalSubtractionCapability
-        click SudoknThermalSubtractionCapability href "../SudoknThermalSubtractionCapability"
       SudoknManufacturingProcessCapability <|-- SudoknToolMakingCapability
         click SudoknToolMakingCapability href "../SudoknToolMakingCapability"
       SudoknManufacturingProcessCapability <|-- SudoknWoodWorkingCapability
@@ -70,9 +65,10 @@ URI: [sudokn:ManufacturingProcessCapability](http://asu.edu/semantics/SUDOKN/Man
 ## Inheritance
 * [IoscProductionCapability](../classes/IoscProductionCapability.md)
     * **SudoknManufacturingProcessCapability**
-        * [SudoknAssemblyCapibility](../classes/SudoknAssemblyCapibility.md)
+        * [SudoknAdditiveManufacturingCapability](../classes/SudoknAdditiveManufacturingCapability.md)
+        * [SudoknAssemblyCapability](../classes/SudoknAssemblyCapability.md)
         * [SudoknCastingCapability](../classes/SudoknCastingCapability.md)
-        * [SudoknFinishingCapability](../classes/SudoknFinishingCapability.md)
+        * [SudoknChemicalProcessingCapability](../classes/SudoknChemicalProcessingCapability.md)
         * [SudoknForgingCapability](../classes/SudoknForgingCapability.md)
         * [SudoknFormingCapability](../classes/SudoknFormingCapability.md)
         * [SudoknHeatTreatingCapability](../classes/SudoknHeatTreatingCapability.md)
@@ -81,8 +77,8 @@ URI: [sudokn:ManufacturingProcessCapability](http://asu.edu/semantics/SUDOKN/Man
         * [SudoknMoldingCapability](../classes/SudoknMoldingCapability.md)
         * [SudoknPackingCapability](../classes/SudoknPackingCapability.md)
         * [SudoknSheetMetalProcessingCapability](../classes/SudoknSheetMetalProcessingCapability.md)
+        * [SudoknSurfaceFinishingCapability](../classes/SudoknSurfaceFinishingCapability.md)
         * [SudoknTextileProcessCapability](../classes/SudoknTextileProcessCapability.md)
-        * [SudoknThermalSubtractionCapability](../classes/SudoknThermalSubtractionCapability.md)
         * [SudoknToolMakingCapability](../classes/SudoknToolMakingCapability.md)
         * [SudoknWoodWorkingCapability](../classes/SudoknWoodWorkingCapability.md)
 
@@ -95,6 +91,13 @@ URI: [sudokn:ManufacturingProcessCapability](http://asu.edu/semantics/SUDOKN/Man
 
 
 
+
+
+## Usages
+
+| used by | used in | type | used |
+| ---  | --- | --- | --- |
+| [IoManufacturer](../classes/IoManufacturer.md) | [sudokn_hasProcessCapability](../slots/sudokn_hasProcessCapability.md) | any_of[range] | [SudoknManufacturingProcessCapability](../classes/SudoknManufacturingProcessCapability.md) |
 
 
 
@@ -116,14 +119,8 @@ URI: [sudokn:ManufacturingProcessCapability](http://asu.edu/semantics/SUDOKN/Man
 
 ```yaml
 name: sudokn_ManufacturingProcessCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: manufacturing process capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: iosc_ProductionCapability
 class_uri: sudokn:ManufacturingProcessCapability
@@ -137,14 +134,8 @@ class_uri: sudokn:ManufacturingProcessCapability
 
 ```yaml
 name: sudokn_ManufacturingProcessCapability
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: manufacturing process capability
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: iosc_ProductionCapability
 class_uri: sudokn:ManufacturingProcessCapability

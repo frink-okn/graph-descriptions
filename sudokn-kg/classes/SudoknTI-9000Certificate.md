@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_TI-9000Certificate)
-
-
-_No class (type) description specified_
+# Class: TI 9000  certificate (sudokn_TI-9000Certificate)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:TI-9000Certificate](http://asu.edu/semantics/SUDOKN/TI-9000Certificate)
@@ -71,14 +64,8 @@ URI: [sudokn:TI-9000Certificate](http://asu.edu/semantics/SUDOKN/TI-9000Certific
 
 ```yaml
 name: sudokn_TI-9000Certificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: TI 9000  certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_TICertificate
 class_uri: sudokn:TI-9000Certificate
@@ -92,14 +79,8 @@ class_uri: sudokn:TI-9000Certificate
 
 ```yaml
 name: sudokn_TI-9000Certificate
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: TI 9000  certificate
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: sudokn_TICertificate
 class_uri: sudokn:TI-9000Certificate

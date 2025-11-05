@@ -1,16 +1,9 @@
 
 
-# Class: No class (type) name specified (sudokn_HealthcareServices)
-
-
-_No class (type) description specified_
+# Class: healthcare services (sudokn_HealthcareServices)
 
 
 
-
-
-
-This class occurs 0 times.
 
 
 URI: [sudokn:HealthcareServices](http://asu.edu/semantics/SUDOKN/HealthcareServices)
@@ -68,14 +61,8 @@ URI: [sudokn:HealthcareServices](http://asu.edu/semantics/SUDOKN/HealthcareServi
 
 ```yaml
 name: sudokn_HealthcareServices
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: healthcare services
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: iosc_Industry
 class_uri: sudokn:HealthcareServices
@@ -89,14 +76,8 @@ class_uri: sudokn:HealthcareServices
 
 ```yaml
 name: sudokn_HealthcareServices
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 0
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: sudokn-kg
+title: healthcare services
+from_schema: okns:sudokn-kg
 rank: 1000
 is_a: iosc_Industry
 class_uri: sudokn:HealthcareServices
