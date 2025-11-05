@@ -1,6 +1,6 @@
 # climatepub4-kg
 
-No schema description specified
+None
 
-URI: climatepub4-kg
+URI: okns:climatepub4-kg
 
