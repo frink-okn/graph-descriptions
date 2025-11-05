@@ -1,0 +1,284 @@
+name: identifier-mappings
+annotations:
+  counts:
+    tag: counts
+    value:
+      classes:
+        tag: classes
+      pairs:
+        tag: pairs
+        value:
+          owl:equivalentClass:
+            tag: owl:equivalentClass
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  uri:
+                    tag: uri
+                    value: 1721
+          owl:equivalentProperty:
+            tag: owl:equivalentProperty
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  uri:
+                    tag: uri
+                    value: 791
+          rdfs:subPropertyOf:
+            tag: rdfs:subPropertyOf
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  uri:
+                    tag: uri
+                    value: 249
+          skos:exactMatch:
+            tag: skos:exactMatch
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  uri:
+                    tag: uri
+                    value: 25963995
+          skos:narrowMatch:
+            tag: skos:narrowMatch
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  uri:
+                    tag: uri
+                    value: 95
+      slots:
+        tag: slots
+        value:
+          owl:equivalentClass:
+            tag: owl:equivalentClass
+            value: 1721
+          owl:equivalentProperty:
+            tag: owl:equivalentProperty
+            value: 791
+          rdfs:subPropertyOf:
+            tag: rdfs:subPropertyOf
+            value: 249
+          skos:exactMatch:
+            tag: skos:exactMatch
+            value: 25963995
+          skos:narrowMatch:
+            tag: skos:narrowMatch
+            value: 95
+  examples:
+    tag: examples
+    value:
+      classes:
+        tag: classes
+      pairs:
+        tag: pairs
+        value:
+          owl:equivalentClass:
+            tag: owl:equivalentClass
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: wd:Q30148381
+                      predicate:
+                        tag: predicate
+                        value: owl:equivalentClass
+                      subject:
+                        tag: subject
+                        value: wd:Q30148184
+          owl:equivalentProperty:
+            tag: owl:equivalentProperty
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: http://pcp-on-web.de/ontology#disputationHasDissertation
+                      predicate:
+                        tag: predicate
+                        value: owl:equivalentProperty
+                      subject:
+                        tag: subject
+                        value: wd:P1026
+          rdfs:subPropertyOf:
+            tag: rdfs:subPropertyOf
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: wd:P629
+                      predicate:
+                        tag: predicate
+                        value: rdfs:subPropertyOf
+                      subject:
+                        tag: subject
+                        value: http://bibliograph.net/translationOfWork
+          skos:exactMatch:
+            tag: skos:exactMatch
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: http://id.loc.gov/ontologies/bibframe/title
+                      predicate:
+                        tag: predicate
+                        value: skos:exactMatch
+                      subject:
+                        tag: subject
+                        value: wd:P1476
+          skos:narrowMatch:
+            tag: skos:narrowMatch
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: https://d-nb.info/standards/elementset/gnd#succeedingCorporateBody
+                      predicate:
+                        tag: predicate
+                        value: skos:narrowMatch
+                      subject:
+                        tag: subject
+                        value: wd:Q104481692
+title: identifier-mappings
+created_on: '2025-10-27T15:38:14.335092'
+last_updated_on: '2025-10-27T15:38:14.335092'
+id: okns:identifier-mappings
+imports:
+- okns:owl-rdf-rdfs
+- linkml:types
+- okns:skos
+prefixes:
+  bao:
+    prefix_prefix: bao
+    prefix_reference: http://www.bioassayontology.org/bao#BAO_
+  bibo:
+    prefix_prefix: bibo
+    prefix_reference: http://purl.org/ontology/bibo/
+  cidoc-crm:
+    prefix_prefix: cidoc-crm
+    prefix_reference: http://www.cidoc-crm.org/cidoc-crm/
+  dc:
+    prefix_prefix: dc
+    prefix_reference: http://purl.org/dc/elements/1.1/
+  dcat:
+    prefix_prefix: dcat
+    prefix_reference: http://www.w3.org/ns/dcat#
+  dcmitype:
+    prefix_prefix: dcmitype
+    prefix_reference: http://purl.org/dc/dcmitype/
+  dct:
+    prefix_prefix: dct
+    prefix_reference: http://purl.org/dc/terms/
+  edam:
+    prefix_prefix: edam
+    prefix_reference: http://edamontology.org/
+  event:
+    prefix_prefix: event
+    prefix_reference: http://purl.org/NET/c4dm/event.owl#
+  foaf:
+    prefix_prefix: foaf
+    prefix_reference: http://xmlns.com/foaf/0.1/
+  frbr:
+    prefix_prefix: frbr
+    prefix_reference: http://purl.org/vocab/frbr/core#
+  frbroo:
+    prefix_prefix: frbroo
+    prefix_reference: http://iflastandards.info/ns/fr/frbr/frbroo/
+  gr:
+    prefix_prefix: gr
+    prefix_reference: http://purl.org/goodrelations/v1#
+  kwgr:
+    prefix_prefix: kwgr
+    prefix_reference: http://stko-kwg.geog.ucsb.edu/lod/resource/
+  linkml:
+    prefix_prefix: linkml
+    prefix_reference: https://w3id.org/linkml/
+  mo:
+    prefix_prefix: mo
+    prefix_reference: http://purl.org/ontology/mo/
+  obo:
+    prefix_prefix: obo
+    prefix_reference: http://purl.obolibrary.org/obo/
+  okn:
+    prefix_prefix: okn
+    prefix_reference: https://purl.org/okn/
+  okns:
+    prefix_prefix: okns
+    prefix_reference: https://purl.org/okn/schema/
+  org:
+    prefix_prefix: org
+    prefix_reference: http://www.w3.org/ns/org#
+  owl:
+    prefix_prefix: owl
+    prefix_reference: http://www.w3.org/2002/07/owl#
+  qudt:
+    prefix_prefix: qudt
+    prefix_reference: http://qudt.org/schema/qudt/
+  rdf:
+    prefix_prefix: rdf
+    prefix_reference: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs:
+    prefix_prefix: rdfs
+    prefix_reference: http://www.w3.org/2000/01/rdf-schema#
+  sdos:
+    prefix_prefix: sdos
+    prefix_reference: https://schema.org/
+  semsci:
+    prefix_prefix: semsci
+    prefix_reference: http://semanticscience.org/resource/SIO_
+  skos:
+    prefix_prefix: skos
+    prefix_reference: http://www.w3.org/2004/02/skos/core#
+  time:
+    prefix_prefix: time
+    prefix_reference: http://www.w3.org/2006/time#
+  vcard:
+    prefix_prefix: vcard
+    prefix_reference: http://www.w3.org/2006/vcard/ns#
+  voag:
+    prefix_prefix: voag
+    prefix_reference: http://voag.linkedmodel.org/voag#
+  void:
+    prefix_prefix: void
+    prefix_reference: http://rdfs.org/ns/void#
+  wd:
+    prefix_prefix: wd
+    prefix_reference: http://www.wikidata.org/entity/
+  wikibase:
+    prefix_prefix: wikibase
+    prefix_reference: http://wikiba.se/ontology#
+  xhv:
+    prefix_prefix: xhv
+    prefix_reference: http://www.w3.org/1999/xhtml/vocab#
+default_prefix: okns
+source_file: /code/identifier-mappings.yaml

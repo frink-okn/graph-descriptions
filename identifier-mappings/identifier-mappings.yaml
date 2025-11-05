@@ -1,0 +1,219 @@
+annotations:
+  counts:
+    tag: counts
+    value:
+      classes:
+        tag: classes
+        value: {}
+      pairs:
+        tag: pairs
+        value:
+          owl:equivalentClass:
+            tag: owl:equivalentClass
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  uri:
+                    tag: uri
+                    value: 1721
+          owl:equivalentProperty:
+            tag: owl:equivalentProperty
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  uri:
+                    tag: uri
+                    value: 791
+          rdfs:subPropertyOf:
+            tag: rdfs:subPropertyOf
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  uri:
+                    tag: uri
+                    value: 249
+          skos:exactMatch:
+            tag: skos:exactMatch
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  uri:
+                    tag: uri
+                    value: 25963995
+          skos:narrowMatch:
+            tag: skos:narrowMatch
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  uri:
+                    tag: uri
+                    value: 95
+      slots:
+        tag: slots
+        value:
+          owl:equivalentClass:
+            tag: owl:equivalentClass
+            value: 1721
+          owl:equivalentProperty:
+            tag: owl:equivalentProperty
+            value: 791
+          rdfs:subPropertyOf:
+            tag: rdfs:subPropertyOf
+            value: 249
+          skos:exactMatch:
+            tag: skos:exactMatch
+            value: 25963995
+          skos:narrowMatch:
+            tag: skos:narrowMatch
+            value: 95
+  examples:
+    tag: examples
+    value:
+      classes:
+        tag: classes
+        value: {}
+      pairs:
+        tag: pairs
+        value:
+          owl:equivalentClass:
+            tag: owl:equivalentClass
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: wd:Q30148381
+                      predicate:
+                        tag: predicate
+                        value: owl:equivalentClass
+                      subject:
+                        tag: subject
+                        value: wd:Q30148184
+          owl:equivalentProperty:
+            tag: owl:equivalentProperty
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: http://pcp-on-web.de/ontology#disputationHasDissertation
+                      predicate:
+                        tag: predicate
+                        value: owl:equivalentProperty
+                      subject:
+                        tag: subject
+                        value: wd:P1026
+          rdfs:subPropertyOf:
+            tag: rdfs:subPropertyOf
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: wd:P629
+                      predicate:
+                        tag: predicate
+                        value: rdfs:subPropertyOf
+                      subject:
+                        tag: subject
+                        value: http://bibliograph.net/translationOfWork
+          skos:exactMatch:
+            tag: skos:exactMatch
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: http://id.loc.gov/ontologies/bibframe/title
+                      predicate:
+                        tag: predicate
+                        value: skos:exactMatch
+                      subject:
+                        tag: subject
+                        value: wd:P1476
+          skos:narrowMatch:
+            tag: skos:narrowMatch
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: https://d-nb.info/standards/elementset/gnd#succeedingCorporateBody
+                      predicate:
+                        tag: predicate
+                        value: skos:narrowMatch
+                      subject:
+                        tag: subject
+                        value: wd:Q104481692
+classes: {}
+created_on: '2025-10-27T15:38:14.335092'
+default_prefix: okns
+id: okns:identifier-mappings
+imports:
+- okns:owl-rdf-rdfs
+- linkml:types
+- okns:skos
+last_updated_on: '2025-10-27T15:38:14.335092'
+name: identifier-mappings
+prefixes:
+  bao: http://www.bioassayontology.org/bao#BAO_
+  bibo: http://purl.org/ontology/bibo/
+  cidoc-crm: http://www.cidoc-crm.org/cidoc-crm/
+  dc: http://purl.org/dc/elements/1.1/
+  dcat: http://www.w3.org/ns/dcat#
+  dcmitype: http://purl.org/dc/dcmitype/
+  dct: http://purl.org/dc/terms/
+  edam: http://edamontology.org/
+  event: http://purl.org/NET/c4dm/event.owl#
+  foaf: http://xmlns.com/foaf/0.1/
+  frbr: http://purl.org/vocab/frbr/core#
+  frbroo: http://iflastandards.info/ns/fr/frbr/frbroo/
+  gr: http://purl.org/goodrelations/v1#
+  kwgr: http://stko-kwg.geog.ucsb.edu/lod/resource/
+  linkml: https://w3id.org/linkml/
+  mo: http://purl.org/ontology/mo/
+  obo: http://purl.obolibrary.org/obo/
+  okn: https://purl.org/okn/
+  okns: https://purl.org/okn/schema/
+  org: http://www.w3.org/ns/org#
+  owl: http://www.w3.org/2002/07/owl#
+  qudt: http://qudt.org/schema/qudt/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  sdos: https://schema.org/
+  semsci: http://semanticscience.org/resource/SIO_
+  skos: http://www.w3.org/2004/02/skos/core#
+  time: http://www.w3.org/2006/time#
+  vcard: http://www.w3.org/2006/vcard/ns#
+  voag: http://voag.linkedmodel.org/voag#
+  void: http://rdfs.org/ns/void#
+  wd: http://www.wikidata.org/entity/
+  wikibase: http://wikiba.se/ontology#
+  xhv: http://www.w3.org/1999/xhtml/vocab#
+slots: {}
+title: identifier-mappings
