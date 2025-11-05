@@ -27,10 +27,6 @@ URI: [dct:decscription](http://purl.org/dc/terms/decscription)
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -39,11 +35,9 @@ URI: [dct:decscription](http://purl.org/dc/terms/decscription)
 
 ```yaml
 name: dct_decscription
-comments:
+notes:
 - No occurrences of this slot in the graph.
 from_schema: okns:fio-kg
-exact_mappings:
-- http://purl.org/dc/terms/decscription
 rank: 1000
 slot_uri: dct:decscription
 alias: dct_decscription

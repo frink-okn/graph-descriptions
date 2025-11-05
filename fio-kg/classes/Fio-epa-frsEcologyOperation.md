@@ -102,8 +102,6 @@ description: PROGRAMS THAT CONCENTRATE ON ECOLOGICAL SYSTEMS SUCH AS FOREST AND 
   EXPERTISE
 title: ECOLOGY OPERATIONS
 from_schema: okns:fio-kg
-exact_mappings:
-- http://w3id.org/fio/v1/epa-frs#EcologyOperation
 rank: 1000
 is_a: owl_Thing
 slots:
@@ -125,8 +123,6 @@ description: PROGRAMS THAT CONCENTRATE ON ECOLOGICAL SYSTEMS SUCH AS FOREST AND 
   EXPERTISE
 title: ECOLOGY OPERATIONS
 from_schema: okns:fio-kg
-exact_mappings:
-- http://w3id.org/fio/v1/epa-frs#EcologyOperation
 rank: 1000
 is_a: owl_Thing
 attributes:
@@ -153,19 +149,7 @@ attributes:
     - qudt_DimensionlessUnit
     - qudt_LogarithmicUnit
     - qudt_Unit
-    - __B1d70f10e8204578c89c5f678467193ea
-    - __B3a5aa76705834f507db6d3c7d90d63b8
-    - __B51b8d66516b28a1c54f8d745ede947b9
-    - __B5debef6666ba27aa225105865fd22d6c
-    - __B671ac9cd6796151f919e5affbe3cc5f9
-    - __B912c2f2722265f457d11b52388b1def0
-    - __B9968aab18e1237453b5cbb15df1c74b9
-    - __Ba0ffbf1a7a548fac1e61d3eceada03dd
-    - __Bdbdbfbd4ef20ffc37226553d96831226
-    - __Be082c2fc952b5eb7e355834fa6af4865
-    - __Bea9d030ae5649d7f06d536c2a467e56f
-    - __Bf0c649c8d760a3559d3d5e5b1f68a59f
-    - __Bf906a89c08306329b89456f1d101a6bf
+    - __B78889d67d06fc8a172807dd97a6eabac
     - fio-epa-frs_AirProgram
     - fio-epa-frs_AnimalOperation
     - fio-epa-frs_AssistanceSupportProgram
@@ -177,8 +161,10 @@ attributes:
     - fio-epa-frs_DrinkingWaterProgram
     - fio-epa-frs_EcologyOperation
     - fio-epa-frs_ElectronicPermitSystem
+    - fio-epa-frs_EnforcementActivity
     - fio-epa-frs_EnforcementInterest
     - fio-epa-frs_EnforcementSystem
+    - fio-epa-frs_EnforcementTrackingRecord
     - fio-epa-frs_EnvironmentalInterestByProgram
     - fio-epa-frs_FRS-Facility
     - fio-epa-frs_FacilitySiteIdentification
@@ -189,23 +175,30 @@ attributes:
     - fio-epa-frs_LegacySystem
     - fio-epa-frs_LegalEnforcementActivities
     - fio-epa-frs_PermitInterest
+    - fio-epa-frs_PermitRecord
     - fio-epa-frs_PermitSystem
     - fio-epa-frs_PesticidesProgram
     - fio-epa-frs_ProgramInformationSystem
+    - fio-epa-frs_ProjectRecord
     - fio-epa-frs_ProjectSystem
     - fio-epa-frs_RadiationProtectionProgram
+    - fio-epa-frs_RegistrationRecord
     - fio-epa-frs_RegistryInterest
     - fio-epa-frs_RegistrySystem
     - fio-epa-frs_RemediationRedevelopmentProgram
     - fio-epa-frs_ReportingInterest
+    - fio-epa-frs_ReportingRecord
     - fio-epa-frs_ReportingSystem
     - fio-epa-frs_RiskInterest
+    - fio-epa-frs_RiskPlanRecord
     - fio-epa-frs_SiteInterest
+    - fio-epa-frs_SiteRecord
     - fio-epa-frs_SiteSystem
     - fio-epa-frs_SolidWasteProgram
     - fio-epa-frs_StateSystem
     - fio-epa-frs_SupplementalRecord
     - fio-epa-frs_TribalSystem
+    - fio-epa-frs_TribalTrackingRecord
     - fio-epa-frs_UndergroundStorageTankProgram
     - fio-epa-frs_WasteWaterProgram
     - fio-epa-frs_WaterResourcesProgram
@@ -224,22 +217,7 @@ attributes:
     alias: owl_sameAs
     owner: fio-epa-frs_EcologyOperation
     domain_of:
-    - __B1d70f10e8204578c89c5f678467193ea
-    - __B3a5aa76705834f507db6d3c7d90d63b8
-    - __B43f2153f8fa51cc860da104aa4b996c7
-    - __B51b8d66516b28a1c54f8d745ede947b9
-    - __B5debef6666ba27aa225105865fd22d6c
-    - __B671ac9cd6796151f919e5affbe3cc5f9
-    - __B707e8df015ee2912f85cf2fec8dc4718
-    - __B912c2f2722265f457d11b52388b1def0
-    - __B9968aab18e1237453b5cbb15df1c74b9
-    - __Ba0ffbf1a7a548fac1e61d3eceada03dd
-    - __Bdbdbfbd4ef20ffc37226553d96831226
-    - __Be082c2fc952b5eb7e355834fa6af4865
-    - __Be0e551f6155d8e99ee967119022af97d
-    - __Bea9d030ae5649d7f06d536c2a467e56f
-    - __Bf0c649c8d760a3559d3d5e5b1f68a59f
-    - __Bf906a89c08306329b89456f1d101a6bf
+    - __B78889d67d06fc8a172807dd97a6eabac
     - fio-epa-frs_Agency
     - fio-epa-frs_Agency.Agriculture
     - fio-epa-frs_Agency.Commerce
@@ -264,13 +242,16 @@ attributes:
     - fio-epa-frs_ChemicalStorageProgram
     - fio-epa-frs_CoastalOceanProgram
     - fio-epa-frs_ComplianceInterest
+    - fio-epa-frs_ComplianceRecord
     - fio-epa-frs_ComplianceSystem
     - fio-epa-frs_DrinkingWaterProgram
     - fio-epa-frs_EPA-PFAS-Facility
     - fio-epa-frs_EcologyOperation
     - fio-epa-frs_ElectronicPermitSystem
+    - fio-epa-frs_EnforcementActivity
     - fio-epa-frs_EnforcementInterest
     - fio-epa-frs_EnforcementSystem
+    - fio-epa-frs_EnforcementTrackingRecord
     - fio-epa-frs_EnvironmentalInterestByProgram
     - fio-epa-frs_EnvironmentalInterestType
     - fio-epa-frs_FRS-Facility
@@ -283,24 +264,32 @@ attributes:
     - fio-epa-frs_LegacySystem
     - fio-epa-frs_LegalEnforcementActivities
     - fio-epa-frs_PermitInterest
+    - fio-epa-frs_PermitRecord
     - fio-epa-frs_PermitSystem
     - fio-epa-frs_PesticidesProgram
     - fio-epa-frs_ProgramInformationSystem
+    - fio-epa-frs_ProjectRecord
     - fio-epa-frs_ProjectSystem
     - fio-epa-frs_RadiationProtectionProgram
     - fio-epa-frs_Record
+    - fio-epa-frs_RegistrationRecord
     - fio-epa-frs_RegistryInterest
     - fio-epa-frs_RegistrySystem
     - fio-epa-frs_RemediationRedevelopmentProgram
     - fio-epa-frs_ReportingInterest
+    - fio-epa-frs_ReportingRecord
     - fio-epa-frs_ReportingSystem
     - fio-epa-frs_RiskInterest
+    - fio-epa-frs_RiskPlanRecord
     - fio-epa-frs_SiteInterest
+    - fio-epa-frs_SiteRecord
     - fio-epa-frs_SiteSystem
     - fio-epa-frs_SolidWasteProgram
     - fio-epa-frs_StateSystem
+    - fio-epa-frs_StateTrackingRecord
     - fio-epa-frs_SupplementalRecord
     - fio-epa-frs_TribalSystem
+    - fio-epa-frs_TribalTrackingRecord
     - fio-epa-frs_UndergroundStorageTankProgram
     - fio-epa-frs_WasteWaterProgram
     - fio-epa-frs_WaterResourcesProgram
@@ -322,12 +311,12 @@ attributes:
     alias: rdfs_label
     owner: fio-epa-frs_EcologyOperation
     domain_of:
+    - time_DayOfWeek
+    - time_TemporalUnit
     - dcam_VocabularyEncodingScheme
     - dct_AgentClass
     - rdf_List
     - rdfs_Datatype
-    - time_DayOfWeek
-    - time_TemporalUnit
     - vaem_GraphMetaData
     - vaem_GraphRole
     - vaem_Party
@@ -479,22 +468,7 @@ attributes:
     - kwgo_StormTrackObservableProperty
     - kwgo_StormTrackletObservableProperty
     - kwgo_VulnerabilityObservableProperty
-    - __B1d70f10e8204578c89c5f678467193ea
-    - __B3a5aa76705834f507db6d3c7d90d63b8
-    - __B43f2153f8fa51cc860da104aa4b996c7
-    - __B51b8d66516b28a1c54f8d745ede947b9
-    - __B5debef6666ba27aa225105865fd22d6c
-    - __B671ac9cd6796151f919e5affbe3cc5f9
-    - __B707e8df015ee2912f85cf2fec8dc4718
-    - __B912c2f2722265f457d11b52388b1def0
-    - __B9968aab18e1237453b5cbb15df1c74b9
-    - __Ba0ffbf1a7a548fac1e61d3eceada03dd
-    - __Bdbdbfbd4ef20ffc37226553d96831226
-    - __Be082c2fc952b5eb7e355834fa6af4865
-    - __Be0e551f6155d8e99ee967119022af97d
-    - __Bea9d030ae5649d7f06d536c2a467e56f
-    - __Bf0c649c8d760a3559d3d5e5b1f68a59f
-    - __Bf906a89c08306329b89456f1d101a6bf
+    - __B78889d67d06fc8a172807dd97a6eabac
     - fio-epa-frs_Agency
     - fio-epa-frs_Agency.Agriculture
     - fio-epa-frs_Agency.Commerce
@@ -519,13 +493,16 @@ attributes:
     - fio-epa-frs_ChemicalStorageProgram
     - fio-epa-frs_CoastalOceanProgram
     - fio-epa-frs_ComplianceInterest
+    - fio-epa-frs_ComplianceRecord
     - fio-epa-frs_ComplianceSystem
     - fio-epa-frs_DrinkingWaterProgram
     - fio-epa-frs_EPA-PFAS-Facility
     - fio-epa-frs_EcologyOperation
     - fio-epa-frs_ElectronicPermitSystem
+    - fio-epa-frs_EnforcementActivity
     - fio-epa-frs_EnforcementInterest
     - fio-epa-frs_EnforcementSystem
+    - fio-epa-frs_EnforcementTrackingRecord
     - fio-epa-frs_EnvironmentalInterestByProgram
     - fio-epa-frs_EnvironmentalInterestType
     - fio-epa-frs_FRS-Facility
@@ -538,23 +515,31 @@ attributes:
     - fio-epa-frs_LegacySystem
     - fio-epa-frs_LegalEnforcementActivities
     - fio-epa-frs_PermitInterest
+    - fio-epa-frs_PermitRecord
     - fio-epa-frs_PermitSystem
     - fio-epa-frs_PesticidesProgram
     - fio-epa-frs_ProgramInformationSystem
+    - fio-epa-frs_ProjectRecord
     - fio-epa-frs_ProjectSystem
     - fio-epa-frs_RadiationProtectionProgram
+    - fio-epa-frs_RegistrationRecord
     - fio-epa-frs_RegistryInterest
     - fio-epa-frs_RegistrySystem
     - fio-epa-frs_RemediationRedevelopmentProgram
     - fio-epa-frs_ReportingInterest
+    - fio-epa-frs_ReportingRecord
     - fio-epa-frs_ReportingSystem
     - fio-epa-frs_RiskInterest
+    - fio-epa-frs_RiskPlanRecord
     - fio-epa-frs_SiteInterest
+    - fio-epa-frs_SiteRecord
     - fio-epa-frs_SiteSystem
     - fio-epa-frs_SolidWasteProgram
     - fio-epa-frs_StateSystem
+    - fio-epa-frs_StateTrackingRecord
     - fio-epa-frs_SupplementalRecord
     - fio-epa-frs_TribalSystem
+    - fio-epa-frs_TribalTrackingRecord
     - fio-epa-frs_UndergroundStorageTankProgram
     - fio-epa-frs_WasteWaterProgram
     - fio-epa-frs_WaterResourcesProgram

@@ -62,8 +62,6 @@ URI: [fio-epa-frs:StationSystem](http://w3id.org/fio/v1/epa-frs#StationSystem)
 ```yaml
 name: fio-epa-frs_StationSystem
 from_schema: okns:fio-kg
-exact_mappings:
-- http://w3id.org/fio/v1/epa-frs#StationSystem
 rank: 1000
 is_a: owl_Thing
 class_uri: fio-epa-frs:StationSystem
@@ -78,8 +76,6 @@ class_uri: fio-epa-frs:StationSystem
 ```yaml
 name: fio-epa-frs_StationSystem
 from_schema: okns:fio-kg
-exact_mappings:
-- http://w3id.org/fio/v1/epa-frs#StationSystem
 rank: 1000
 is_a: owl_Thing
 class_uri: fio-epa-frs:StationSystem

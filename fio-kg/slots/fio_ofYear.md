@@ -28,9 +28,9 @@ URI: [fio:ofYear](http://w3id.org/fio/v1/fio#ofYear)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [NaicsNAICS-IndustryGroup](../classes/NaicsNAICS-IndustryGroup.md) |  |  no  |
-| [NaicsNAICS-IndustryCode](../classes/NaicsNAICS-IndustryCode.md) |  |  no  |
-| [NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md) |  |  no  |
 | [NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md) |  |  no  |
+| [NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md) |  |  no  |
+| [NaicsNAICS-IndustryCode](../classes/NaicsNAICS-IndustryCode.md) |  |  no  |
 
 
 
@@ -57,8 +57,6 @@ name: fio_ofYear
 description: A relation between an industry code and the schema year it belongs to.
 title: of Year
 from_schema: okns:fio-kg
-exact_mappings:
-- http://w3id.org/fio/v1/fio#ofYear
 rank: 1000
 slot_uri: fio:ofYear
 alias: fio_ofYear
@@ -68,8 +66,8 @@ domain_of:
 - naics_NAICS-IndustrySector
 - naics_NAICS-IndustrySubsector
 union_of:
-- fio_Industry
 - owl_Thing
+- fio_Industry
 range: Any
 any_of:
 - range: xsd_gYear

@@ -27,8 +27,8 @@ URI: [fio-epa-frs:hasFRSId](http://w3id.org/fio/v1/epa-frs#hasFRSId)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
 | [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
+| [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
 
 
 
@@ -38,7 +38,7 @@ URI: [fio-epa-frs:hasFRSId](http://w3id.org/fio/v1/epa-frs#hasFRSId)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[RdfsLiteral](../classes/RdfsLiteral.md)
 
 
 
@@ -55,8 +55,6 @@ name: fio-epa-frs_hasFRSId
 description: has Identifier in EPA Facility Registry Service
 title: has FRS Id
 from_schema: okns:fio-kg
-exact_mappings:
-- http://w3id.org/fio/v1/epa-frs#hasFRSId
 rank: 1000
 slot_uri: fio-epa-frs:hasFRSId
 alias: fio_epa_frs_hasFRSId
@@ -66,13 +64,12 @@ domain_of:
 subproperty_of: dct_identifier
 union_of:
 - owl_Thing
-- fio-epa-frs_FRS-Facility
-- __B5debef6666ba27aa225105865fd22d6c
 - fio_Facility
+- fio-epa-frs_FRS-Facility
 range: Any
 any_of:
-- range: rdfs_Literal
 - range: string
+- range: rdfs_Literal
 
 ```
 </details>

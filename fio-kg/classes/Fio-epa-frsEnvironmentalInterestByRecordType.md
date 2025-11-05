@@ -70,8 +70,6 @@ description: Interest classification based on the main subject of the record and
   type of activity or entity it identifies.
 title: Environmental Interest By Record Type
 from_schema: okns:fio-kg
-exact_mappings:
-- http://w3id.org/fio/v1/epa-frs#EnvironmentalInterestByRecordType
 rank: 1000
 is_a: owl_Thing
 class_uri: fio-epa-frs:EnvironmentalInterestByRecordType
@@ -89,8 +87,6 @@ description: Interest classification based on the main subject of the record and
   type of activity or entity it identifies.
 title: Environmental Interest By Record Type
 from_schema: okns:fio-kg
-exact_mappings:
-- http://w3id.org/fio/v1/epa-frs#EnvironmentalInterestByRecordType
 rank: 1000
 is_a: owl_Thing
 class_uri: fio-epa-frs:EnvironmentalInterestByRecordType

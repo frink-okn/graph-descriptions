@@ -62,8 +62,6 @@ URI: [fio-epa-frs:Chemicalstorageprograms](http://w3id.org/fio/v1/epa-frs#Chemic
 ```yaml
 name: fio-epa-frs_Chemicalstorageprograms
 from_schema: okns:fio-kg
-exact_mappings:
-- http://w3id.org/fio/v1/epa-frs#Chemicalstorageprograms
 rank: 1000
 is_a: owl_Thing
 class_uri: fio-epa-frs:Chemicalstorageprograms
@@ -78,8 +76,6 @@ class_uri: fio-epa-frs:Chemicalstorageprograms
 ```yaml
 name: fio-epa-frs_Chemicalstorageprograms
 from_schema: okns:fio-kg
-exact_mappings:
-- http://w3id.org/fio/v1/epa-frs#Chemicalstorageprograms
 rank: 1000
 is_a: owl_Thing
 class_uri: fio-epa-frs:Chemicalstorageprograms
