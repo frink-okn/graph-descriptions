@@ -1,0 +1,47 @@
+
+
+# Slot: https___purl.org_okn_frink_kg_spoke_schema_state_abbr
+
+
+
+
+This slot occurs 246285 times.
+
+
+URI: [https://purl.org/okn/frink/kg/spoke/schema/state_abbr](https://purl.org/okn/frink/kg/spoke/schema/state_abbr)
+
+
+
+<!-- no inheritance hierarchy -->
+
+
+
+
+
+
+
+
+## Properties
+
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+
+
+
+
+
+
+
+## LinkML Source
+
+<details>
+
+```yaml
+name: https___purl.org_okn_frink_kg_spoke_schema_state_abbr
+from_schema: okns:spoke-kg
+rank: 1000
+slot_uri: https://purl.org/okn/frink/kg/spoke/schema/state_abbr
+alias: https___purl.org_okn_frink_kg_spoke_schema_state_abbr
+range: string
+
+```
+</details>
