@@ -3,11 +3,6 @@
 # Slot: https___w3id.org_biolink_vocab_increases_amount_or_activity_of
 
 
-_No slot (predicate) description specified_
-
-
-
-
 
 
 This slot occurs 467851 times.
@@ -27,7 +22,7 @@ URI: [https://w3id.org/biolink/vocab/increases_amount_or_activity_of](https://w3
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpsW3id.orgBiolinkVocabEntity](../classes/HttpsW3id.orgBiolinkVocabEntity.md) | No class (type) description specified |  yes  |
+| [HttpsW3id.orgBiolinkVocabEntity](../classes/HttpsW3id.orgBiolinkVocabEntity.md) |  |  no  |
 
 
 
@@ -44,14 +39,6 @@ URI: [https://w3id.org/biolink/vocab/increases_amount_or_activity_of](https://w3
 
 
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| https___w3id.org_biolink_vocab_Entity | https___w3id.org_biolink_vocab_Entity | http://linkedlifedata.com/resource/umls/id/C0000039 | http://linkedlifedata.com/resource/umls/id/C0004561 | 467851 |
-
-
-
 
 ## LinkML Source
 
@@ -59,19 +46,7 @@ URI: [https://w3id.org/biolink/vocab/increases_amount_or_activity_of](https://w3
 
 ```yaml
 name: https___w3id.org_biolink_vocab_increases_amount_or_activity_of
-annotations:
-  count:
-    tag: count
-    value: 467851
-description: No slot (predicate) description specified
-examples:
-- object:
-    example_object: http://linkedlifedata.com/resource/umls/id/C0004561
-    example_object_type: https___w3id.org_biolink_vocab_Entity
-    example_predicate: https://w3id.org/biolink/vocab/increases_amount_or_activity_of
-    example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
-    example_subject_type: https___w3id.org_biolink_vocab_Entity
-from_schema: biohealth
+from_schema: okns:biohealth
 rank: 1000
 slot_uri: https://w3id.org/biolink/vocab/increases_amount_or_activity_of
 alias: https___w3id.org_biolink_vocab_increases_amount_or_activity_of

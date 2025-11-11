@@ -1,9 +1,9 @@
 
 
-# Slot: rdfs_label
+# Slot: label (rdfs_label)
 
 
-_No slot (predicate) description specified_
+_A human-readable name for the subject._
 
 
 
@@ -27,7 +27,12 @@ URI: [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpsW3id.orgBiolinkVocabEntity](../classes/HttpsW3id.orgBiolinkVocabEntity.md) | No class (type) description specified |  yes  |
+| [OwlDataRange](../classes/OwlDataRange.md) | The class of OWL data ranges, which are special kinds of datatypes |  no  |
+| [HttpsW3id.orgBiolinkVocabEntity](../classes/HttpsW3id.orgBiolinkVocabEntity.md) |  |  no  |
+| [DctAgentClass](../classes/DctAgentClass.md) | A group of agents |  no  |
+| [DcamVocabularyEncodingScheme](../classes/DcamVocabularyEncodingScheme.md) | An enumerated set of resources |  no  |
+| [RdfList](../classes/RdfList.md) | The class of RDF Lists |  no  |
+| [RdfsDatatype](../classes/RdfsDatatype.md) | The class of RDF datatypes |  no  |
 
 
 
@@ -37,18 +42,10 @@ URI: [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label)
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](xsd:string)
 
 
 
-
-
-
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| https___w3id.org_biolink_vocab_Entity | string | http://linkedlifedata.com/resource/umls/id/C0000039 | 1,2-Dipalmitoylphosphatidylcholine | 250976 |
 
 
 
@@ -59,25 +56,22 @@ URI: [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label)
 
 ```yaml
 name: rdfs_label
-annotations:
-  count:
-    tag: count
-    value: 250976
-description: No slot (predicate) description specified
-examples:
-- object:
-    example_object: 1,2-Dipalmitoylphosphatidylcholine
-    example_object_type: string
-    example_predicate: rdfs:label
-    example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
-    example_subject_type: https___w3id.org_biolink_vocab_Entity
-from_schema: biohealth
-rank: 1000
+description: A human-readable name for the subject.
+title: label
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/2000/01/rdf-schema#
+domain: rdfs_Resource
 slot_uri: rdfs:label
-alias: rdfs_label
 domain_of:
+- rdf_List
+- rdfs_Datatype
+- dcam_VocabularyEncodingScheme
+- dct_AgentClass
 - https___w3id.org_biolink_vocab_Entity
-range: string
+range: Any
+any_of:
+- range: rdfs_Literal
+- range: string
 
 ```
 </details>

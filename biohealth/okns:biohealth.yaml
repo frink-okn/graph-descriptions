@@ -1,0 +1,2517 @@
+name: biohealth
+annotations:
+  counts:
+    tag: counts
+    value:
+      classes:
+        tag: classes
+        value:
+          https://w3id.org/biolink/vocab/Entity:
+            tag: https://w3id.org/biolink/vocab/Entity
+            value: 250976
+          rdf:Statement:
+            tag: rdf:Statement
+            value: 18352179
+      pairs:
+        tag: pairs
+        value:
+          dct:source:
+            tag: dct:source
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  string:
+                    tag: string
+                    value: 18352179
+          https://biohealthkg.proto-okn.net/kg/schema/ADMINISTERED_TO:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/ADMINISTERED_TO
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 234354
+          https://biohealthkg.proto-okn.net/kg/schema/COMPLICATES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/COMPLICATES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 53189
+          https://biohealthkg.proto-okn.net/kg/schema/CONVERTS_TO:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/CONVERTS_TO
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 39403
+          https://biohealthkg.proto-okn.net/kg/schema/LOCATION_OF(SPEC):
+            tag: https://biohealthkg.proto-okn.net/kg/schema/LOCATION_OF(SPEC)
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 2
+          https://biohealthkg.proto-okn.net/kg/schema/MEASUREMENT_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/MEASUREMENT_OF
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 1044
+          https://biohealthkg.proto-okn.net/kg/schema/MEASURES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/MEASURES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 198356
+          https://biohealthkg.proto-okn.net/kg/schema/METHOD_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/METHOD_OF
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 166871
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_ADMINISTERED_TO:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_ADMINISTERED_TO
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 19210
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_AFFECTS:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_AFFECTS
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 232543
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_ASSOCIATED_WITH:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_ASSOCIATED_WITH
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 41914
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_AUGMENTS:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_AUGMENTS
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 29081
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_CAUSES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_CAUSES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 52999
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_COEXISTS_WITH:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_COEXISTS_WITH
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 93570
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_COMPLICATES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_COMPLICATES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 1221
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_CONVERTS_TO:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_CONVERTS_TO
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 890
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_DIAGNOSES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_DIAGNOSES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 22601
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_DISRUPTS:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_DISRUPTS
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 29747
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_INHIBITS:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_INHIBITS
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 38125
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_INTERACTS_WITH:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_INTERACTS_WITH
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 115284
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_ISA:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_ISA
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 25351
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_LOCATION_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_LOCATION_OF
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 125157
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_MANIFESTATION_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_MANIFESTATION_OF
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 1622
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_MEASUREMENT_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_MEASUREMENT_OF
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 32
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_MEASURES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_MEASURES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 4271
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_METHOD_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_METHOD_OF
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 7207
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_OCCURS_IN:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_OCCURS_IN
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 3833
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_PART_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_PART_OF
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 55171
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_PRECEDES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_PRECEDES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 6590
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_PREDISPOSES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_PREDISPOSES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 25427
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_PREVENTS:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_PREVENTS
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 15687
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_PROCESS_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_PROCESS_OF
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 89566
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_PRODUCES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_PRODUCES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 18533
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_STIMULATES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_STIMULATES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 36433
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_TREATS:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_TREATS
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 114679
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_USES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_USES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 11404
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_higher_than:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_higher_than
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 3605
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_lower_than:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_lower_than
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 442
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_same_as:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_same_as
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 5051
+          https://biohealthkg.proto-okn.net/kg/schema/OCCURS_IN:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/OCCURS_IN
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 60478
+          https://biohealthkg.proto-okn.net/kg/schema/PROCESS_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/PROCESS_OF
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 1031114
+          https://biohealthkg.proto-okn.net/kg/schema/PRODUCES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/PRODUCES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 258025
+          https://biohealthkg.proto-okn.net/kg/schema/STIMULATES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/STIMULATES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 537916
+          https://biohealthkg.proto-okn.net/kg/schema/USES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/USES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 487481
+          https://biohealthkg.proto-okn.net/kg/schema/compared_with:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/compared_with
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 370807
+          https://biohealthkg.proto-okn.net/kg/schema/higher_than:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/higher_than
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 99934
+          https://biohealthkg.proto-okn.net/kg/schema/lower_than:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/lower_than
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 18213
+          https://biohealthkg.proto-okn.net/kg/schema/same_as:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/same_as
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 15090
+          https://w3id.org/biolink/vocab/affects:
+            tag: https://w3id.org/biolink/vocab/affects
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 1758014
+          https://w3id.org/biolink/vocab/associated_with:
+            tag: https://w3id.org/biolink/vocab/associated_with
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 668853
+          https://w3id.org/biolink/vocab/category:
+            tag: https://w3id.org/biolink/vocab/category
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  string:
+                    tag: string
+                    value: 1
+                  uri:
+                    tag: uri
+                    value: 250975
+          https://w3id.org/biolink/vocab/causes:
+            tag: https://w3id.org/biolink/vocab/causes
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 924094
+          https://w3id.org/biolink/vocab/coexists_with:
+            tag: https://w3id.org/biolink/vocab/coexists_with
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 1544559
+          https://w3id.org/biolink/vocab/decreases_amount_or_activity_of:
+            tag: https://w3id.org/biolink/vocab/decreases_amount_or_activity_of
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 529827
+          https://w3id.org/biolink/vocab/diagnoses:
+            tag: https://w3id.org/biolink/vocab/diagnoses
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 335442
+          https://w3id.org/biolink/vocab/disrupts:
+            tag: https://w3id.org/biolink/vocab/disrupts
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 449816
+          https://w3id.org/biolink/vocab/increases_amount_or_activity_of:
+            tag: https://w3id.org/biolink/vocab/increases_amount_or_activity_of
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 467851
+          https://w3id.org/biolink/vocab/interacts_with:
+            tag: https://w3id.org/biolink/vocab/interacts_with
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 1198144
+          https://w3id.org/biolink/vocab/location_of:
+            tag: https://w3id.org/biolink/vocab/location_of
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 2223662
+          https://w3id.org/biolink/vocab/manifestation_of:
+            tag: https://w3id.org/biolink/vocab/manifestation_of
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 49173
+          https://w3id.org/biolink/vocab/part_of:
+            tag: https://w3id.org/biolink/vocab/part_of
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 816950
+          https://w3id.org/biolink/vocab/precedes:
+            tag: https://w3id.org/biolink/vocab/precedes
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 182490
+          https://w3id.org/biolink/vocab/predisposes_to_condition:
+            tag: https://w3id.org/biolink/vocab/predisposes_to_condition
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 320163
+          https://w3id.org/biolink/vocab/preventative_for_condition:
+            tag: https://w3id.org/biolink/vocab/preventative_for_condition
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 233021
+          https://w3id.org/biolink/vocab/subclass_of:
+            tag: https://w3id.org/biolink/vocab/subclass_of
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 301438
+          https://w3id.org/biolink/vocab/treats:
+            tag: https://w3id.org/biolink/vocab/treats
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 1549159
+          rdf:object:
+            tag: rdf:object
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 18352179
+          rdf:predicate:
+            tag: rdf:predicate
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  uri:
+                    tag: uri
+                    value: 18352179
+          rdf:subject:
+            tag: rdf:subject
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value: 18352179
+          rdfs:label:
+            tag: rdfs:label
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  string:
+                    tag: string
+                    value: 250976
+      slots:
+        tag: slots
+        value:
+          dct:source:
+            tag: dct:source
+            value: 18352179
+          https://biohealthkg.proto-okn.net/kg/schema/ADMINISTERED_TO:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/ADMINISTERED_TO
+            value: 234354
+          https://biohealthkg.proto-okn.net/kg/schema/COMPLICATES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/COMPLICATES
+            value: 53189
+          https://biohealthkg.proto-okn.net/kg/schema/CONVERTS_TO:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/CONVERTS_TO
+            value: 39403
+          https://biohealthkg.proto-okn.net/kg/schema/LOCATION_OF(SPEC):
+            tag: https://biohealthkg.proto-okn.net/kg/schema/LOCATION_OF(SPEC)
+            value: 2
+          https://biohealthkg.proto-okn.net/kg/schema/MEASUREMENT_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/MEASUREMENT_OF
+            value: 1044
+          https://biohealthkg.proto-okn.net/kg/schema/MEASURES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/MEASURES
+            value: 198356
+          https://biohealthkg.proto-okn.net/kg/schema/METHOD_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/METHOD_OF
+            value: 166871
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_ADMINISTERED_TO:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_ADMINISTERED_TO
+            value: 19210
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_AFFECTS:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_AFFECTS
+            value: 232543
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_ASSOCIATED_WITH:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_ASSOCIATED_WITH
+            value: 41914
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_AUGMENTS:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_AUGMENTS
+            value: 29081
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_CAUSES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_CAUSES
+            value: 52999
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_COEXISTS_WITH:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_COEXISTS_WITH
+            value: 93570
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_COMPLICATES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_COMPLICATES
+            value: 1221
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_CONVERTS_TO:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_CONVERTS_TO
+            value: 890
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_DIAGNOSES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_DIAGNOSES
+            value: 22601
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_DISRUPTS:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_DISRUPTS
+            value: 29747
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_INHIBITS:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_INHIBITS
+            value: 38125
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_INTERACTS_WITH:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_INTERACTS_WITH
+            value: 115284
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_ISA:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_ISA
+            value: 25351
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_LOCATION_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_LOCATION_OF
+            value: 125157
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_MANIFESTATION_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_MANIFESTATION_OF
+            value: 1622
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_MEASUREMENT_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_MEASUREMENT_OF
+            value: 32
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_MEASURES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_MEASURES
+            value: 4271
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_METHOD_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_METHOD_OF
+            value: 7207
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_OCCURS_IN:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_OCCURS_IN
+            value: 3833
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_PART_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_PART_OF
+            value: 55171
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_PRECEDES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_PRECEDES
+            value: 6590
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_PREDISPOSES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_PREDISPOSES
+            value: 25427
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_PREVENTS:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_PREVENTS
+            value: 15687
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_PROCESS_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_PROCESS_OF
+            value: 89566
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_PRODUCES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_PRODUCES
+            value: 18533
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_STIMULATES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_STIMULATES
+            value: 36433
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_TREATS:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_TREATS
+            value: 114679
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_USES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_USES
+            value: 11404
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_higher_than:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_higher_than
+            value: 3605
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_lower_than:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_lower_than
+            value: 442
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_same_as:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_same_as
+            value: 5051
+          https://biohealthkg.proto-okn.net/kg/schema/OCCURS_IN:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/OCCURS_IN
+            value: 60478
+          https://biohealthkg.proto-okn.net/kg/schema/PROCESS_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/PROCESS_OF
+            value: 1031114
+          https://biohealthkg.proto-okn.net/kg/schema/PRODUCES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/PRODUCES
+            value: 258025
+          https://biohealthkg.proto-okn.net/kg/schema/STIMULATES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/STIMULATES
+            value: 537916
+          https://biohealthkg.proto-okn.net/kg/schema/USES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/USES
+            value: 487481
+          https://biohealthkg.proto-okn.net/kg/schema/compared_with:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/compared_with
+            value: 370807
+          https://biohealthkg.proto-okn.net/kg/schema/higher_than:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/higher_than
+            value: 99934
+          https://biohealthkg.proto-okn.net/kg/schema/lower_than:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/lower_than
+            value: 18213
+          https://biohealthkg.proto-okn.net/kg/schema/same_as:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/same_as
+            value: 15090
+          https://w3id.org/biolink/vocab/affects:
+            tag: https://w3id.org/biolink/vocab/affects
+            value: 1758014
+          https://w3id.org/biolink/vocab/associated_with:
+            tag: https://w3id.org/biolink/vocab/associated_with
+            value: 668853
+          https://w3id.org/biolink/vocab/category:
+            tag: https://w3id.org/biolink/vocab/category
+            value: 250976
+          https://w3id.org/biolink/vocab/causes:
+            tag: https://w3id.org/biolink/vocab/causes
+            value: 924094
+          https://w3id.org/biolink/vocab/coexists_with:
+            tag: https://w3id.org/biolink/vocab/coexists_with
+            value: 1544559
+          https://w3id.org/biolink/vocab/decreases_amount_or_activity_of:
+            tag: https://w3id.org/biolink/vocab/decreases_amount_or_activity_of
+            value: 529827
+          https://w3id.org/biolink/vocab/diagnoses:
+            tag: https://w3id.org/biolink/vocab/diagnoses
+            value: 335442
+          https://w3id.org/biolink/vocab/disrupts:
+            tag: https://w3id.org/biolink/vocab/disrupts
+            value: 449816
+          https://w3id.org/biolink/vocab/increases_amount_or_activity_of:
+            tag: https://w3id.org/biolink/vocab/increases_amount_or_activity_of
+            value: 467851
+          https://w3id.org/biolink/vocab/interacts_with:
+            tag: https://w3id.org/biolink/vocab/interacts_with
+            value: 1198144
+          https://w3id.org/biolink/vocab/location_of:
+            tag: https://w3id.org/biolink/vocab/location_of
+            value: 2223662
+          https://w3id.org/biolink/vocab/manifestation_of:
+            tag: https://w3id.org/biolink/vocab/manifestation_of
+            value: 49173
+          https://w3id.org/biolink/vocab/part_of:
+            tag: https://w3id.org/biolink/vocab/part_of
+            value: 816950
+          https://w3id.org/biolink/vocab/precedes:
+            tag: https://w3id.org/biolink/vocab/precedes
+            value: 182490
+          https://w3id.org/biolink/vocab/predisposes_to_condition:
+            tag: https://w3id.org/biolink/vocab/predisposes_to_condition
+            value: 320163
+          https://w3id.org/biolink/vocab/preventative_for_condition:
+            tag: https://w3id.org/biolink/vocab/preventative_for_condition
+            value: 233021
+          https://w3id.org/biolink/vocab/subclass_of:
+            tag: https://w3id.org/biolink/vocab/subclass_of
+            value: 301438
+          https://w3id.org/biolink/vocab/treats:
+            tag: https://w3id.org/biolink/vocab/treats
+            value: 1549159
+          rdf:object:
+            tag: rdf:object
+            value: 18352179
+          rdf:predicate:
+            tag: rdf:predicate
+            value: 18352179
+          rdf:subject:
+            tag: rdf:subject
+            value: 18352179
+          rdfs:label:
+            tag: rdfs:label
+            value: 250976
+  examples:
+    tag: examples
+    value:
+      classes:
+        tag: classes
+        value:
+          https://w3id.org/biolink/vocab/Entity:
+            tag: https://w3id.org/biolink/vocab/Entity
+            value: https://biohealthkg.proto-okn.net/kg/node/C5550934
+          rdf:Statement:
+            tag: rdf:Statement
+            value: https://biohealthkg.proto-okn.net/kg/relationship/9999999
+      pairs:
+        tag: pairs
+        value:
+          dct:source:
+            tag: dct:source
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: MIMIC;PubMed
+                      predicate:
+                        tag: predicate
+                        value: dct:source
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/relationship/0
+          https://biohealthkg.proto-okn.net/kg/schema/ADMINISTERED_TO:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/ADMINISTERED_TO
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0003062
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/ADMINISTERED_TO
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://biohealthkg.proto-okn.net/kg/schema/COMPLICATES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/COMPLICATES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0012634
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/COMPLICATES
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000325
+          https://biohealthkg.proto-okn.net/kg/schema/CONVERTS_TO:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/CONVERTS_TO
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000098
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/CONVERTS_TO
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000097
+          https://biohealthkg.proto-okn.net/kg/schema/LOCATION_OF(SPEC):
+            tag: https://biohealthkg.proto-okn.net/kg/schema/LOCATION_OF(SPEC)
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0281772
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/LOCATION_OF(SPEC)
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C1279104
+          https://biohealthkg.proto-okn.net/kg/schema/MEASUREMENT_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/MEASUREMENT_OF
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0014653
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/MEASUREMENT_OF
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0001779
+          https://biohealthkg.proto-okn.net/kg/schema/MEASURES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/MEASURES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0005615
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/MEASURES
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000853
+          https://biohealthkg.proto-okn.net/kg/schema/METHOD_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/METHOD_OF
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0728940
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/METHOD_OF
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000294
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_ADMINISTERED_TO:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_ADMINISTERED_TO
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0003062
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_ADMINISTERED_TO
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000097
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_AFFECTS:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_AFFECTS
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0019054
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_AFFECTS
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_ASSOCIATED_WITH:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_ASSOCIATED_WITH
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0233565
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_ASSOCIATED_WITH
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000097
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_AUGMENTS:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_AUGMENTS
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0018270
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_AUGMENTS
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_CAUSES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_CAUSES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0036679
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_CAUSES
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_COEXISTS_WITH:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_COEXISTS_WITH
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0034085
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_COEXISTS_WITH
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_COMPLICATES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_COMPLICATES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0041408
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_COMPLICATES
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000768
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_CONVERTS_TO:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_CONVERTS_TO
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0002508
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_CONVERTS_TO
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000378
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_DIAGNOSES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_DIAGNOSES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0028738
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_DIAGNOSES
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0001164
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_DISRUPTS:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_DISRUPTS
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0024348
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_DISRUPTS
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_INHIBITS:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_INHIBITS
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0031667
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_INHIBITS
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_INTERACTS_WITH:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_INTERACTS_WITH
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0002287
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_INTERACTS_WITH
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_ISA:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_ISA
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0031617
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_ISA
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_LOCATION_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_LOCATION_OF
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0162493
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_LOCATION_OF
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000184
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_MANIFESTATION_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_MANIFESTATION_OF
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0009566
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_MANIFESTATION_OF
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000727
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_MEASUREMENT_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_MEASUREMENT_OF
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0232804
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_MEASUREMENT_OF
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0001779
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_MEASURES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_MEASURES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0017168
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_MEASURES
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0001161
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_METHOD_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_METHOD_OF
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0700589
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_METHOD_OF
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000812
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_OCCURS_IN:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_OCCURS_IN
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0008059
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_OCCURS_IN
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000768
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_PART_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_PART_OF
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0023828
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_PART_OF
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_PRECEDES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_PRECEDES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0032914
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_PRECEDES
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000786
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_PREDISPOSES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_PREDISPOSES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0020538
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_PREDISPOSES
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000378
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_PREVENTS:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_PREVENTS
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0600688
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_PREVENTS
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000254
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_PROCESS_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_PROCESS_OF
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0008059
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_PROCESS_OF
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000727
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_PRODUCES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_PRODUCES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0028351
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_PRODUCES
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000378
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_STIMULATES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_STIMULATES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0033621
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_STIMULATES
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000084
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_TREATS:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_TREATS
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0041234
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_TREATS
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000096
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_USES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_USES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0026088
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_USES
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000820
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_higher_than:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_higher_than
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000097
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_higher_than
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000098
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_lower_than:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_lower_than
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0003211
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_lower_than
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000970
+          https://biohealthkg.proto-okn.net/kg/schema/NEG_same_as:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/NEG_same_as
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0020242
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/NEG_same_as
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://biohealthkg.proto-okn.net/kg/schema/OCCURS_IN:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/OCCURS_IN
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0030705
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/OCCURS_IN
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000727
+          https://biohealthkg.proto-okn.net/kg/schema/PROCESS_OF:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/PROCESS_OF
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0001588
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/PROCESS_OF
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000727
+          https://biohealthkg.proto-okn.net/kg/schema/PRODUCES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/PRODUCES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0002728
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/PRODUCES
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000052
+          https://biohealthkg.proto-okn.net/kg/schema/STIMULATES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/STIMULATES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0001041
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/STIMULATES
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://biohealthkg.proto-okn.net/kg/schema/USES:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/USES
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0074554
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/USES
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000163
+          https://biohealthkg.proto-okn.net/kg/schema/compared_with:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/compared_with
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0005308
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/compared_with
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://biohealthkg.proto-okn.net/kg/schema/higher_than:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/higher_than
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0008377
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/higher_than
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://biohealthkg.proto-okn.net/kg/schema/lower_than:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/lower_than
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0008377
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/lower_than
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://biohealthkg.proto-okn.net/kg/schema/same_as:
+            tag: https://biohealthkg.proto-okn.net/kg/schema/same_as
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0008377
+                      predicate:
+                        tag: predicate
+                        value: https://biohealthkg.proto-okn.net/kg/schema/same_as
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://w3id.org/biolink/vocab/affects:
+            tag: https://w3id.org/biolink/vocab/affects
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0007634
+                      predicate:
+                        tag: predicate
+                        value: https://w3id.org/biolink/vocab/affects
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://w3id.org/biolink/vocab/associated_with:
+            tag: https://w3id.org/biolink/vocab/associated_with
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0015230
+                      predicate:
+                        tag: predicate
+                        value: https://w3id.org/biolink/vocab/associated_with
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://w3id.org/biolink/vocab/category:
+            tag: https://w3id.org/biolink/vocab/category
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 'gngm_aapp_gngm_1326_MAP3K8
+
+                          '
+                      predicate:
+                        tag: predicate
+                        value: https://w3id.org/biolink/vocab/category
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C1337108
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/semtype/lipd
+                      predicate:
+                        tag: predicate
+                        value: https://w3id.org/biolink/vocab/category
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://w3id.org/biolink/vocab/causes:
+            tag: https://w3id.org/biolink/vocab/causes
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0001511
+                      predicate:
+                        tag: predicate
+                        value: https://w3id.org/biolink/vocab/causes
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://w3id.org/biolink/vocab/coexists_with:
+            tag: https://w3id.org/biolink/vocab/coexists_with
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0001551
+                      predicate:
+                        tag: predicate
+                        value: https://w3id.org/biolink/vocab/coexists_with
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://w3id.org/biolink/vocab/decreases_amount_or_activity_of:
+            tag: https://w3id.org/biolink/vocab/decreases_amount_or_activity_of
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0001026
+                      predicate:
+                        tag: predicate
+                        value: https://w3id.org/biolink/vocab/decreases_amount_or_activity_of
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://w3id.org/biolink/vocab/diagnoses:
+            tag: https://w3id.org/biolink/vocab/diagnoses
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0010709
+                      predicate:
+                        tag: predicate
+                        value: https://w3id.org/biolink/vocab/diagnoses
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000727
+          https://w3id.org/biolink/vocab/disrupts:
+            tag: https://w3id.org/biolink/vocab/disrupts
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0005486
+                      predicate:
+                        tag: predicate
+                        value: https://w3id.org/biolink/vocab/disrupts
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://w3id.org/biolink/vocab/increases_amount_or_activity_of:
+            tag: https://w3id.org/biolink/vocab/increases_amount_or_activity_of
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0004561
+                      predicate:
+                        tag: predicate
+                        value: https://w3id.org/biolink/vocab/increases_amount_or_activity_of
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://w3id.org/biolink/vocab/interacts_with:
+            tag: https://w3id.org/biolink/vocab/interacts_with
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0001128
+                      predicate:
+                        tag: predicate
+                        value: https://w3id.org/biolink/vocab/interacts_with
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://w3id.org/biolink/vocab/location_of:
+            tag: https://w3id.org/biolink/vocab/location_of
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0026882
+                      predicate:
+                        tag: predicate
+                        value: https://w3id.org/biolink/vocab/location_of
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000052
+          https://w3id.org/biolink/vocab/manifestation_of:
+            tag: https://w3id.org/biolink/vocab/manifestation_of
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000768
+                      predicate:
+                        tag: predicate
+                        value: https://w3id.org/biolink/vocab/manifestation_of
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000727
+          https://w3id.org/biolink/vocab/part_of:
+            tag: https://w3id.org/biolink/vocab/part_of
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0003062
+                      predicate:
+                        tag: predicate
+                        value: https://w3id.org/biolink/vocab/part_of
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://w3id.org/biolink/vocab/precedes:
+            tag: https://w3id.org/biolink/vocab/precedes
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0948370
+                      predicate:
+                        tag: predicate
+                        value: https://w3id.org/biolink/vocab/precedes
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000735
+          https://w3id.org/biolink/vocab/predisposes_to_condition:
+            tag: https://w3id.org/biolink/vocab/predisposes_to_condition
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0596402
+                      predicate:
+                        tag: predicate
+                        value: https://w3id.org/biolink/vocab/predisposes_to_condition
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://w3id.org/biolink/vocab/preventative_for_condition:
+            tag: https://w3id.org/biolink/vocab/preventative_for_condition
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0001511
+                      predicate:
+                        tag: predicate
+                        value: https://w3id.org/biolink/vocab/preventative_for_condition
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://w3id.org/biolink/vocab/subclass_of:
+            tag: https://w3id.org/biolink/vocab/subclass_of
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0008405
+                      predicate:
+                        tag: predicate
+                        value: https://w3id.org/biolink/vocab/subclass_of
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          https://w3id.org/biolink/vocab/treats:
+            tag: https://w3id.org/biolink/vocab/treats
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0001675
+                      predicate:
+                        tag: predicate
+                        value: https://w3id.org/biolink/vocab/treats
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+          rdf:object:
+            tag: rdf:object
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0250480
+                      predicate:
+                        tag: predicate
+                        value: rdf:object
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/relationship/0
+          rdf:predicate:
+            tag: rdf:predicate
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: https://w3id.org/biolink/vocab/subclass_of
+                      predicate:
+                        tag: predicate
+                        value: rdf:predicate
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/relationship/0
+          rdf:subject:
+            tag: rdf:subject
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  https://w3id.org/biolink/vocab/Entity:
+                    tag: https://w3id.org/biolink/vocab/Entity
+                    value:
+                      object:
+                        tag: object
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0250482
+                      predicate:
+                        tag: predicate
+                        value: rdf:subject
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/relationship/0
+          rdfs:label:
+            tag: rdfs:label
+            value:
+              https://w3id.org/biolink/vocab/Entity:
+                tag: https://w3id.org/biolink/vocab/Entity
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 1,2-Dipalmitoylphosphatidylcholine
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: https://biohealthkg.proto-okn.net/kg/node/C0000039
+title: biohealth
+created_on: '2025-11-11T04:52:24.367422'
+last_updated_on: '2025-11-11T04:52:24.367422'
+id: okns:biohealth
+imports:
+- okns:dc
+- linkml:types
+- okns:extended_types
+- okns:owl-rdf-rdfs
+prefixes:
+  dct:
+    prefix_prefix: dct
+    prefix_reference: http://purl.org/dc/terms/
+  linkml:
+    prefix_prefix: linkml
+    prefix_reference: https://w3id.org/linkml/
+  okn:
+    prefix_prefix: okn
+    prefix_reference: https://purl.org/okn/
+  okns:
+    prefix_prefix: okns
+    prefix_reference: https://purl.org/okn/schema/
+  rdf:
+    prefix_prefix: rdf
+    prefix_reference: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs:
+    prefix_prefix: rdfs
+    prefix_reference: http://www.w3.org/2000/01/rdf-schema#
+default_prefix: okns
+slots:
+  https___biohealthkg.proto-okn.net_kg_schema_ADMINISTERED_TO:
+    name: https___biohealthkg.proto-okn.net_kg_schema_ADMINISTERED_TO
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/ADMINISTERED_TO
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_COMPLICATES:
+    name: https___biohealthkg.proto-okn.net_kg_schema_COMPLICATES
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/COMPLICATES
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_CONVERTS_TO:
+    name: https___biohealthkg.proto-okn.net_kg_schema_CONVERTS_TO
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/CONVERTS_TO
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_LOCATION_OF(SPEC):
+    name: https___biohealthkg.proto-okn.net_kg_schema_LOCATION_OF(SPEC)
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/LOCATION_OF(SPEC)
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_MEASUREMENT_OF:
+    name: https___biohealthkg.proto-okn.net_kg_schema_MEASUREMENT_OF
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/MEASUREMENT_OF
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_MEASURES:
+    name: https___biohealthkg.proto-okn.net_kg_schema_MEASURES
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/MEASURES
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_METHOD_OF:
+    name: https___biohealthkg.proto-okn.net_kg_schema_METHOD_OF
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/METHOD_OF
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_ADMINISTERED_TO:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_ADMINISTERED_TO
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_ADMINISTERED_TO
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_AFFECTS:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_AFFECTS
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_AFFECTS
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_ASSOCIATED_WITH:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_ASSOCIATED_WITH
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_ASSOCIATED_WITH
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_AUGMENTS:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_AUGMENTS
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_AUGMENTS
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_CAUSES:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_CAUSES
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_CAUSES
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_COEXISTS_WITH:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_COEXISTS_WITH
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_COEXISTS_WITH
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_COMPLICATES:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_COMPLICATES
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_COMPLICATES
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_CONVERTS_TO:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_CONVERTS_TO
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_CONVERTS_TO
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_DIAGNOSES:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_DIAGNOSES
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_DIAGNOSES
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_DISRUPTS:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_DISRUPTS
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_DISRUPTS
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_INHIBITS:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_INHIBITS
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_INHIBITS
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_INTERACTS_WITH:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_INTERACTS_WITH
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_INTERACTS_WITH
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_ISA:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_ISA
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_ISA
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_LOCATION_OF:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_LOCATION_OF
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_LOCATION_OF
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_MANIFESTATION_OF:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_MANIFESTATION_OF
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_MANIFESTATION_OF
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_MEASUREMENT_OF:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_MEASUREMENT_OF
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_MEASUREMENT_OF
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_MEASURES:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_MEASURES
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_MEASURES
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_METHOD_OF:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_METHOD_OF
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_METHOD_OF
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_OCCURS_IN:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_OCCURS_IN
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_OCCURS_IN
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_PART_OF:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_PART_OF
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_PART_OF
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_PRECEDES:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_PRECEDES
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_PRECEDES
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_PREDISPOSES:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_PREDISPOSES
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_PREDISPOSES
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_PREVENTS:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_PREVENTS
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_PREVENTS
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_PROCESS_OF:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_PROCESS_OF
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_PROCESS_OF
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_PRODUCES:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_PRODUCES
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_PRODUCES
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_STIMULATES:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_STIMULATES
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_STIMULATES
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_TREATS:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_TREATS
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_TREATS
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_USES:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_USES
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_USES
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_higher_than:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_higher_than
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_higher_than
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_lower_than:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_lower_than
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_lower_than
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_NEG_same_as:
+    name: https___biohealthkg.proto-okn.net_kg_schema_NEG_same_as
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/NEG_same_as
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_OCCURS_IN:
+    name: https___biohealthkg.proto-okn.net_kg_schema_OCCURS_IN
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/OCCURS_IN
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_PROCESS_OF:
+    name: https___biohealthkg.proto-okn.net_kg_schema_PROCESS_OF
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/PROCESS_OF
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_PRODUCES:
+    name: https___biohealthkg.proto-okn.net_kg_schema_PRODUCES
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/PRODUCES
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_STIMULATES:
+    name: https___biohealthkg.proto-okn.net_kg_schema_STIMULATES
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/STIMULATES
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_USES:
+    name: https___biohealthkg.proto-okn.net_kg_schema_USES
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/USES
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_compared_with:
+    name: https___biohealthkg.proto-okn.net_kg_schema_compared_with
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/compared_with
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_higher_than:
+    name: https___biohealthkg.proto-okn.net_kg_schema_higher_than
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/higher_than
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_lower_than:
+    name: https___biohealthkg.proto-okn.net_kg_schema_lower_than
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/lower_than
+    range: https___w3id.org_biolink_vocab_Entity
+  https___biohealthkg.proto-okn.net_kg_schema_same_as:
+    name: https___biohealthkg.proto-okn.net_kg_schema_same_as
+    slot_uri: https://biohealthkg.proto-okn.net/kg/schema/same_as
+    range: https___w3id.org_biolink_vocab_Entity
+  https___w3id.org_biolink_vocab_affects:
+    name: https___w3id.org_biolink_vocab_affects
+    slot_uri: https://w3id.org/biolink/vocab/affects
+    range: https___w3id.org_biolink_vocab_Entity
+  https___w3id.org_biolink_vocab_associated_with:
+    name: https___w3id.org_biolink_vocab_associated_with
+    slot_uri: https://w3id.org/biolink/vocab/associated_with
+    range: https___w3id.org_biolink_vocab_Entity
+  https___w3id.org_biolink_vocab_category:
+    name: https___w3id.org_biolink_vocab_category
+    slot_uri: https://w3id.org/biolink/vocab/category
+    range: Any
+    any_of:
+    - range: string
+    - range: uri
+  https___w3id.org_biolink_vocab_causes:
+    name: https___w3id.org_biolink_vocab_causes
+    slot_uri: https://w3id.org/biolink/vocab/causes
+    range: https___w3id.org_biolink_vocab_Entity
+  https___w3id.org_biolink_vocab_coexists_with:
+    name: https___w3id.org_biolink_vocab_coexists_with
+    slot_uri: https://w3id.org/biolink/vocab/coexists_with
+    range: https___w3id.org_biolink_vocab_Entity
+  https___w3id.org_biolink_vocab_decreases_amount_or_activity_of:
+    name: https___w3id.org_biolink_vocab_decreases_amount_or_activity_of
+    slot_uri: https://w3id.org/biolink/vocab/decreases_amount_or_activity_of
+    range: https___w3id.org_biolink_vocab_Entity
+  https___w3id.org_biolink_vocab_diagnoses:
+    name: https___w3id.org_biolink_vocab_diagnoses
+    slot_uri: https://w3id.org/biolink/vocab/diagnoses
+    range: https___w3id.org_biolink_vocab_Entity
+  https___w3id.org_biolink_vocab_disrupts:
+    name: https___w3id.org_biolink_vocab_disrupts
+    slot_uri: https://w3id.org/biolink/vocab/disrupts
+    range: https___w3id.org_biolink_vocab_Entity
+  https___w3id.org_biolink_vocab_increases_amount_or_activity_of:
+    name: https___w3id.org_biolink_vocab_increases_amount_or_activity_of
+    slot_uri: https://w3id.org/biolink/vocab/increases_amount_or_activity_of
+    range: https___w3id.org_biolink_vocab_Entity
+  https___w3id.org_biolink_vocab_interacts_with:
+    name: https___w3id.org_biolink_vocab_interacts_with
+    slot_uri: https://w3id.org/biolink/vocab/interacts_with
+    range: https___w3id.org_biolink_vocab_Entity
+  https___w3id.org_biolink_vocab_location_of:
+    name: https___w3id.org_biolink_vocab_location_of
+    slot_uri: https://w3id.org/biolink/vocab/location_of
+    range: https___w3id.org_biolink_vocab_Entity
+  https___w3id.org_biolink_vocab_manifestation_of:
+    name: https___w3id.org_biolink_vocab_manifestation_of
+    slot_uri: https://w3id.org/biolink/vocab/manifestation_of
+    range: https___w3id.org_biolink_vocab_Entity
+  https___w3id.org_biolink_vocab_part_of:
+    name: https___w3id.org_biolink_vocab_part_of
+    slot_uri: https://w3id.org/biolink/vocab/part_of
+    range: https___w3id.org_biolink_vocab_Entity
+  https___w3id.org_biolink_vocab_precedes:
+    name: https___w3id.org_biolink_vocab_precedes
+    slot_uri: https://w3id.org/biolink/vocab/precedes
+    range: https___w3id.org_biolink_vocab_Entity
+  https___w3id.org_biolink_vocab_predisposes_to_condition:
+    name: https___w3id.org_biolink_vocab_predisposes_to_condition
+    slot_uri: https://w3id.org/biolink/vocab/predisposes_to_condition
+    range: https___w3id.org_biolink_vocab_Entity
+  https___w3id.org_biolink_vocab_preventative_for_condition:
+    name: https___w3id.org_biolink_vocab_preventative_for_condition
+    slot_uri: https://w3id.org/biolink/vocab/preventative_for_condition
+    range: https___w3id.org_biolink_vocab_Entity
+  https___w3id.org_biolink_vocab_subclass_of:
+    name: https___w3id.org_biolink_vocab_subclass_of
+    slot_uri: https://w3id.org/biolink/vocab/subclass_of
+    range: https___w3id.org_biolink_vocab_Entity
+  https___w3id.org_biolink_vocab_treats:
+    name: https___w3id.org_biolink_vocab_treats
+    slot_uri: https://w3id.org/biolink/vocab/treats
+    range: https___w3id.org_biolink_vocab_Entity
+classes:
+  https___w3id.org_biolink_vocab_Entity:
+    name: https___w3id.org_biolink_vocab_Entity
+    slots:
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_METHOD_OF
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_COEXISTS_WITH
+    - https___biohealthkg.proto-okn.net_kg_schema_STIMULATES
+    - https___biohealthkg.proto-okn.net_kg_schema_LOCATION_OF(SPEC)
+    - https___biohealthkg.proto-okn.net_kg_schema_MEASURES
+    - https___biohealthkg.proto-okn.net_kg_schema_PRODUCES
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_LOCATION_OF
+    - https___w3id.org_biolink_vocab_preventative_for_condition
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_CAUSES
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_PART_OF
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_DISRUPTS
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_PRECEDES
+    - https___w3id.org_biolink_vocab_location_of
+    - https___biohealthkg.proto-okn.net_kg_schema_COMPLICATES
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_PREVENTS
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_USES
+    - https___biohealthkg.proto-okn.net_kg_schema_PROCESS_OF
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_PROCESS_OF
+    - https___w3id.org_biolink_vocab_interacts_with
+    - https___w3id.org_biolink_vocab_increases_amount_or_activity_of
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_ADMINISTERED_TO
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_CONVERTS_TO
+    - https___biohealthkg.proto-okn.net_kg_schema_same_as
+    - https___w3id.org_biolink_vocab_associated_with
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_ASSOCIATED_WITH
+    - https___biohealthkg.proto-okn.net_kg_schema_lower_than
+    - https___w3id.org_biolink_vocab_treats
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_AFFECTS
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_MEASUREMENT_OF
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_higher_than
+    - https___biohealthkg.proto-okn.net_kg_schema_USES
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_COMPLICATES
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_PRODUCES
+    - https___biohealthkg.proto-okn.net_kg_schema_OCCURS_IN
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_MEASURES
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_PREDISPOSES
+    - https___w3id.org_biolink_vocab_part_of
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_DIAGNOSES
+    - https___biohealthkg.proto-okn.net_kg_schema_higher_than
+    - https___w3id.org_biolink_vocab_subclass_of
+    - https___w3id.org_biolink_vocab_category
+    - https___w3id.org_biolink_vocab_causes
+    - https___biohealthkg.proto-okn.net_kg_schema_CONVERTS_TO
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_OCCURS_IN
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_lower_than
+    - https___biohealthkg.proto-okn.net_kg_schema_MEASUREMENT_OF
+    - https___w3id.org_biolink_vocab_precedes
+    - https___w3id.org_biolink_vocab_manifestation_of
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_INHIBITS
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_AUGMENTS
+    - https___w3id.org_biolink_vocab_diagnoses
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_STIMULATES
+    - https___w3id.org_biolink_vocab_coexists_with
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_TREATS
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_same_as
+    - https___w3id.org_biolink_vocab_decreases_amount_or_activity_of
+    - https___biohealthkg.proto-okn.net_kg_schema_ADMINISTERED_TO
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_ISA
+    - https___biohealthkg.proto-okn.net_kg_schema_METHOD_OF
+    - https___w3id.org_biolink_vocab_disrupts
+    - https___w3id.org_biolink_vocab_predisposes_to_condition
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_MANIFESTATION_OF
+    - https___w3id.org_biolink_vocab_affects
+    - https___biohealthkg.proto-okn.net_kg_schema_compared_with
+    - https___biohealthkg.proto-okn.net_kg_schema_NEG_INTERACTS_WITH
+    - rdfs_label
+    class_uri: https://w3id.org/biolink/vocab/Entity
+source_file: /code/biohealth.yaml

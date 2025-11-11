@@ -1,9 +1,9 @@
 
 
-# Slot: rdf_subject
+# Slot: subject (rdf_subject)
 
 
-_No slot (predicate) description specified_
+_The subject of the subject RDF statement._
 
 
 
@@ -23,32 +23,15 @@ URI: [rdf:subject](http://www.w3.org/1999/02/22-rdf-syntax-ns#subject)
 
 
 
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [RdfStatement](../classes/RdfStatement.md) | No class (type) description specified |  yes  |
-
-
-
-
 
 
 
 ## Properties
 
-* Range: [HttpsW3id.orgBiolinkVocabEntity](../classes/HttpsW3id.orgBiolinkVocabEntity.md)
+* Range: [RdfsResource](../classes/RdfsResource.md)
 
 
 
-
-
-
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| rdf_Statement | https___w3id.org_biolink_vocab_Entity | https://biohealthkg.proto-okn.net/kg/relationship/0 | http://linkedlifedata.com/resource/umls/id/C0250482 | 18352179 |
 
 
 
@@ -59,25 +42,15 @@ URI: [rdf:subject](http://www.w3.org/1999/02/22-rdf-syntax-ns#subject)
 
 ```yaml
 name: rdf_subject
-annotations:
-  count:
-    tag: count
-    value: 18352179
-description: No slot (predicate) description specified
-examples:
-- object:
-    example_object: http://linkedlifedata.com/resource/umls/id/C0250482
-    example_object_type: https___w3id.org_biolink_vocab_Entity
-    example_predicate: rdf:subject
-    example_subject: https://biohealthkg.proto-okn.net/kg/relationship/0
-    example_subject_type: rdf_Statement
-from_schema: biohealth
-rank: 1000
+description: The subject of the subject RDF statement.
+title: subject
+notes:
+- No occurrences of this slot in the graph.
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+domain: rdf_Statement
 slot_uri: rdf:subject
-alias: rdf_subject
-domain_of:
-- rdf_Statement
-range: https___w3id.org_biolink_vocab_Entity
+range: rdfs_Resource
 
 ```
 </details>
