@@ -1,0 +1,47 @@
+
+
+# Slot: https___purl.org_okn_frink_kg_spoke_schema_resistant_phenotype
+
+
+
+
+This slot occurs 5151 times.
+
+
+URI: [https://purl.org/okn/frink/kg/spoke/schema/resistant_phenotype](https://purl.org/okn/frink/kg/spoke/schema/resistant_phenotype)
+
+
+
+<!-- no inheritance hierarchy -->
+
+
+
+
+
+
+
+
+## Properties
+
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+
+
+
+
+
+
+
+## LinkML Source
+
+<details>
+
+```yaml
+name: https___purl.org_okn_frink_kg_spoke_schema_resistant_phenotype
+from_schema: okns:spoke-kg
+rank: 1000
+slot_uri: https://purl.org/okn/frink/kg/spoke/schema/resistant_phenotype
+alias: https___purl.org_okn_frink_kg_spoke_schema_resistant_phenotype
+range: string
+
+```
+</details>
