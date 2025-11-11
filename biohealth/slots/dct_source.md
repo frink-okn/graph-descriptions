@@ -1,9 +1,9 @@
 
 
-# Slot: dct_source
+# Slot: Source (dct_source)
 
 
-_No slot (predicate) description specified_
+_This property is intended to be used with non-literal values. The described resource may be derived from the related resource in whole or in part. Best practice is to identify the related resource by means of a URI or a string conforming to a formal identification system._
 
 
 
@@ -23,33 +23,20 @@ URI: [dct:source](http://purl.org/dc/terms/source)
 
 
 
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [RdfStatement](../classes/RdfStatement.md) | No class (type) description specified |  yes  |
-
-
-
-
 
 
 
 ## Properties
 
-* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [Any](../classes/Any.md)
 
 
 
 
 
+## Comments
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| rdf_Statement | string | https://biohealthkg.proto-okn.net/kg/relationship/0 | MIMIC;PubMed | 18352179 |
-
+* description: A related resource from which the described resource is derived.
 
 
 
@@ -59,25 +46,20 @@ URI: [dct:source](http://purl.org/dc/terms/source)
 
 ```yaml
 name: dct_source
-annotations:
-  count:
-    tag: count
-    value: 18352179
-description: No slot (predicate) description specified
-examples:
-- object:
-    example_object: MIMIC;PubMed
-    example_object_type: string
-    example_predicate: dct:source
-    example_subject: https://biohealthkg.proto-okn.net/kg/relationship/0
-    example_subject_type: rdf_Statement
-from_schema: biohealth
-rank: 1000
+description: This property is intended to be used with non-literal values. The described
+  resource may be derived from the related resource in whole or in part. Best practice
+  is to identify the related resource by means of a URI or a string conforming to
+  a formal identification system.
+title: Source
+notes:
+- No occurrences of this slot in the graph.
+comments:
+- 'description: A related resource from which the described resource is derived.'
+from_schema: okns:dc
+source: http://purl.org/dc/terms/
 slot_uri: dct:source
-alias: dct_source
-domain_of:
-- rdf_Statement
-range: string
+subproperty_of: dct_relation
+range: Any
 
 ```
 </details>

@@ -1,9 +1,9 @@
 
 
-# Slot: rdf_predicate
+# Slot: predicate (rdf_predicate)
 
 
-_No slot (predicate) description specified_
+_The predicate of the subject RDF statement._
 
 
 
@@ -23,32 +23,15 @@ URI: [rdf:predicate](http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate)
 
 
 
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [RdfStatement](../classes/RdfStatement.md) | No class (type) description specified |  yes  |
-
-
-
-
 
 
 
 ## Properties
 
-* Range: [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI)
+* Range: [RdfsResource](../classes/RdfsResource.md)
 
 
 
-
-
-
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| rdf_Statement | uri | https://biohealthkg.proto-okn.net/kg/relationship/0 | https://w3id.org/biolink/vocab/subclass_of | 18352179 |
 
 
 
@@ -59,25 +42,15 @@ URI: [rdf:predicate](http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate)
 
 ```yaml
 name: rdf_predicate
-annotations:
-  count:
-    tag: count
-    value: 18352179
-description: No slot (predicate) description specified
-examples:
-- object:
-    example_object: https://w3id.org/biolink/vocab/subclass_of
-    example_object_type: uri
-    example_predicate: rdf:predicate
-    example_subject: https://biohealthkg.proto-okn.net/kg/relationship/0
-    example_subject_type: rdf_Statement
-from_schema: biohealth
-rank: 1000
+description: The predicate of the subject RDF statement.
+title: predicate
+notes:
+- No occurrences of this slot in the graph.
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+domain: rdf_Statement
 slot_uri: rdf:predicate
-alias: rdf_predicate
-domain_of:
-- rdf_Statement
-range: uri
+range: rdfs_Resource
 
 ```
 </details>

@@ -3,11 +3,6 @@
 # Slot: https___biohealthkg.proto_okn.net_kg_schema_higher_than
 
 
-_No slot (predicate) description specified_
-
-
-
-
 
 
 This slot occurs 99934 times.
@@ -27,7 +22,7 @@ URI: [https://biohealthkg.proto-okn.net/kg/schema/higher_than](https://biohealth
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HttpsW3id.orgBiolinkVocabEntity](../classes/HttpsW3id.orgBiolinkVocabEntity.md) | No class (type) description specified |  yes  |
+| [HttpsW3id.orgBiolinkVocabEntity](../classes/HttpsW3id.orgBiolinkVocabEntity.md) |  |  no  |
 
 
 
@@ -44,14 +39,6 @@ URI: [https://biohealthkg.proto-okn.net/kg/schema/higher_than](https://biohealth
 
 
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| https___w3id.org_biolink_vocab_Entity | https___w3id.org_biolink_vocab_Entity | http://linkedlifedata.com/resource/umls/id/C0000039 | http://linkedlifedata.com/resource/umls/id/C0008377 | 99934 |
-
-
-
 
 ## LinkML Source
 
@@ -59,19 +46,7 @@ URI: [https://biohealthkg.proto-okn.net/kg/schema/higher_than](https://biohealth
 
 ```yaml
 name: https___biohealthkg.proto-okn.net_kg_schema_higher_than
-annotations:
-  count:
-    tag: count
-    value: 99934
-description: No slot (predicate) description specified
-examples:
-- object:
-    example_object: http://linkedlifedata.com/resource/umls/id/C0008377
-    example_object_type: https___w3id.org_biolink_vocab_Entity
-    example_predicate: https://biohealthkg.proto-okn.net/kg/schema/higher_than
-    example_subject: http://linkedlifedata.com/resource/umls/id/C0000039
-    example_subject_type: https___w3id.org_biolink_vocab_Entity
-from_schema: biohealth
+from_schema: okns:biohealth
 rank: 1000
 slot_uri: https://biohealthkg.proto-okn.net/kg/schema/higher_than
 alias: https___biohealthkg.proto_okn.net_kg_schema_higher_than

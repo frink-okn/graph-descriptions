@@ -1,6 +1,6 @@
 # biohealth
 
-No schema description specified
+None
 
-URI: biohealth
+URI: okns:biohealth
 
