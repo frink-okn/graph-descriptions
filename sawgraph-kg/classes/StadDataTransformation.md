@@ -1,11 +1,6 @@
 
 
-# Class: No class (entity type) name specified (stad_DataTransformation)
-
-
-_No class (type) description specified_
-
-
+# Class: StadDataTransformation
 
 
 
@@ -59,10 +54,7 @@ URI: [stad:DataTransformation](http://purl.org/spatialai/stad/v2/core/DataTransf
 
 ```yaml
 name: stad_DataTransformation
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: sawgraph-kg
+from_schema: okns:sawgraph-kg
 rank: 1000
 class_uri: stad:DataTransformation
 
@@ -75,10 +67,7 @@ class_uri: stad:DataTransformation
 
 ```yaml
 name: stad_DataTransformation
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: sawgraph-kg
+from_schema: okns:sawgraph-kg
 rank: 1000
 class_uri: stad:DataTransformation
 

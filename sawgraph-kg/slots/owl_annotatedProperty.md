@@ -1,14 +1,16 @@
 
 
-# Slot: No slot (predicate) name specified (owl_annotatedProperty)
+# Slot: annotatedProperty (owl_annotatedProperty)
 
 
-_No slot (predicate) description specified_
+_The property that determines the predicate of an annotated axiom or annotated annotation._
 
 
 
 
 
+
+This slot occurs 2 times.
 
 
 URI: [owl:annotatedProperty](http://www.w3.org/2002/07/owl#annotatedProperty)
@@ -26,15 +28,11 @@ URI: [owl:annotatedProperty](http://www.w3.org/2002/07/owl#annotatedProperty)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)
+* Range: [RdfsResource](../classes/RdfsResource.md)
 
 
 
 
-
-## Comments
-
-* No occurrences of this slot in the graph.
 
 
 
@@ -44,15 +42,16 @@ URI: [owl:annotatedProperty](http://www.w3.org/2002/07/owl#annotatedProperty)
 
 ```yaml
 name: owl_annotatedProperty
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-comments:
+description: The property that determines the predicate of an annotated axiom or annotated
+  annotation.
+title: annotatedProperty
+notes:
 - No occurrences of this slot in the graph.
-from_schema: sawgraph-kg
-rank: 1000
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/2002/07/owl#
+domain: rdfs_Resource
 slot_uri: owl:annotatedProperty
-alias: owl_annotatedProperty
-range: Any
+range: rdfs_Resource
 
 ```
 </details>

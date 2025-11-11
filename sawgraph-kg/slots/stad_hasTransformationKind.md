@@ -1,11 +1,6 @@
 
 
-# Slot: No slot (predicate) name specified (stad_hasTransformationKind)
-
-
-_No slot (predicate) description specified_
-
-
+# Slot: stad_hasTransformationKind
 
 
 
@@ -32,10 +27,6 @@ URI: [stad:hasTransformationKind](http://purl.org/spatialai/stad/v2/core/hasTran
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -44,18 +35,16 @@ URI: [stad:hasTransformationKind](http://purl.org/spatialai/stad/v2/core/hasTran
 
 ```yaml
 name: stad_hasTransformationKind
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-comments:
+notes:
 - No occurrences of this slot in the graph.
-from_schema: sawgraph-kg
+from_schema: okns:sawgraph-kg
 rank: 1000
 slot_uri: stad:hasTransformationKind
 alias: stad_hasTransformationKind
 union_of:
-- '{''domain'': ''owl_Thing''}'
-- '{''domain'': ''stad_StatisticalAggregateData''}'
-- '{''domain'': ''stad_Quantity''}'
+- stad_Quantity
+- stad_StatisticalAggregateData
+- owl_Thing
 range: stad_DataTransformation
 
 ```

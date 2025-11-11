@@ -1,14 +1,16 @@
 
 
-# Class: No class (entity type) name specified (owl_Axiom)
+# Class: Axiom (owl_Axiom)
 
 
-_No class (type) description specified_
+_The class of annotated axioms for which the RDF serialization consists of an annotated subject, predicate and object._
 
 
 
 
 
+
+This class occurs 2 times.
 
 
 URI: [owl:Axiom](http://www.w3.org/2002/07/owl#Axiom)
@@ -66,11 +68,11 @@ URI: [owl:Axiom](http://www.w3.org/2002/07/owl#Axiom)
 
 ```yaml
 name: owl_Axiom
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: sawgraph-kg
-rank: 1000
+description: The class of annotated axioms for which the RDF serialization consists
+  of an annotated subject, predicate and object.
+title: Axiom
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/2002/07/owl#
 is_a: rdfs_Resource
 class_uri: owl:Axiom
 
@@ -83,11 +85,11 @@ class_uri: owl:Axiom
 
 ```yaml
 name: owl_Axiom
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified
-from_schema: sawgraph-kg
-rank: 1000
+description: The class of annotated axioms for which the RDF serialization consists
+  of an annotated subject, predicate and object.
+title: Axiom
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/2002/07/owl#
 is_a: rdfs_Resource
 class_uri: owl:Axiom
 

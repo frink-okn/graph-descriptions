@@ -1,14 +1,11 @@
 
 
-# Slot: No slot (predicate) name specified -- this slot is noted as a subproperty of another slot in this graph but has not itself been defined. (sosa_observedProperty)
-
-
-_No slot (predicate) description specified_
+# Slot: observedProperty (sosa_observedProperty)
 
 
 
 
-
+This slot occurs 576763 times.
 
 
 URI: [sosa:observedProperty](http://www.w3.org/ns/sosa/observedProperty)
@@ -17,6 +14,15 @@ URI: [sosa:observedProperty](http://www.w3.org/ns/sosa/observedProperty)
 
 <!-- no inheritance hierarchy -->
 
+
+
+
+
+## Applicable Classes
+
+| Name | Description | Modifies Slot |
+| --- | --- | --- |
+| [HttpW3id.orgSawgraphV1Me-egad#EGAD-PFAS-Observation](../classes/HttpW3id.orgSawgraphV1Me-egad#EGAD-PFAS-Observation.md) |  |  no  |
 
 
 
@@ -32,10 +38,6 @@ URI: [sosa:observedProperty](http://www.w3.org/ns/sosa/observedProperty)
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -44,15 +46,13 @@ URI: [sosa:observedProperty](http://www.w3.org/ns/sosa/observedProperty)
 
 ```yaml
 name: sosa_observedProperty
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified -- this slot is noted as a subproperty of
-  another slot in this graph but has not itself been defined.
-comments:
+title: observedProperty
+notes:
 - No occurrences of this slot in the graph.
-from_schema: sawgraph-kg
-rank: 1000
+from_schema: okns:kwg
 slot_uri: sosa:observedProperty
-alias: sosa_observedProperty
+domain_of:
+- http___w3id.org_sawgraph_v1_me-egad#EGAD-PFAS-Observation
 range: Any
 
 ```

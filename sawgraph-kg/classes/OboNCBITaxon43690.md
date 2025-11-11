@@ -1,0 +1,86 @@
+
+
+# Class: Canarium <eudicots> (obo_NCBITaxon_43690)
+
+
+
+
+
+URI: [obo:NCBITaxon_43690](http://purl.obolibrary.org/obo/NCBITaxon_43690)
+
+
+
+
+
+
+```mermaid
+ classDiagram
+    class OboNCBITaxon43690
+    click OboNCBITaxon43690 href "../OboNCBITaxon43690"
+      OwlThing <|-- OboNCBITaxon43690
+        click OwlThing href "../OwlThing"
+      
+      
+```
+
+
+
+
+
+## Inheritance
+* [OwlThing](../classes/OwlThing.md)
+    * **OboNCBITaxon43690**
+
+
+
+## Slots
+
+| Name | Cardinality and Range | Description | Inheritance | Occurrences |
+| ---  | --- | --- | --- | --- |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## LinkML Source
+
+<!-- TODO: investigate https://stackoverflow.com/questions/37606292/how-to-create-tabbed-code-blocks-in-mkdocs-or-sphinx -->
+
+### Direct
+
+<details>
+
+```yaml
+name: obo_NCBITaxon_43690
+title: Canarium <eudicots>
+from_schema: okns:sawgraph-kg
+rank: 1000
+is_a: owl_Thing
+class_uri: obo:NCBITaxon_43690
+
+```
+</details>
+
+### Induced
+
+<details>
+
+```yaml
+name: obo_NCBITaxon_43690
+title: Canarium <eudicots>
+from_schema: okns:sawgraph-kg
+rank: 1000
+is_a: owl_Thing
+class_uri: obo:NCBITaxon_43690
+
+```
+</details>

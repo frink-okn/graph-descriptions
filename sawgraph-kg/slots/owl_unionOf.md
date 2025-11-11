@@ -1,14 +1,16 @@
 
 
-# Slot: No slot (predicate) name specified (owl_unionOf)
+# Slot: unionOf (owl_unionOf)
 
 
-_No slot (predicate) description specified_
+_The property that determines the collection of classes or data ranges that build a union._
 
 
 
 
 
+
+This slot occurs 8 times.
 
 
 URI: [owl:unionOf](http://www.w3.org/2002/07/owl#unionOf)
@@ -32,10 +34,6 @@ URI: [owl:unionOf](http://www.w3.org/2002/07/owl#unionOf)
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -44,15 +42,15 @@ URI: [owl:unionOf](http://www.w3.org/2002/07/owl#unionOf)
 
 ```yaml
 name: owl_unionOf
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-comments:
+description: The property that determines the collection of classes or data ranges
+  that build a union.
+title: unionOf
+notes:
 - No occurrences of this slot in the graph.
-from_schema: sawgraph-kg
-rank: 1000
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/2002/07/owl#
 domain: rdfs_Class
 slot_uri: owl:unionOf
-alias: owl_unionOf
 range: rdf_List
 
 ```

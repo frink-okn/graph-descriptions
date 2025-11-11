@@ -32,10 +32,6 @@ URI: [http://sawgraph.spatialai.org/v1/sdwis#pwsidNumber](http://sawgraph.spatia
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -50,9 +46,9 @@ description: 'Uniquely identifies the water system within a specific state. Form
   of the EPA region responsible for an Indian reservation, and XXXXXXXXXX = the water
   system identification code assigned by the State.'
 title: public system water identifier
-comments:
+notes:
 - No occurrences of this slot in the graph.
-from_schema: sawgraph-kg
+from_schema: okns:sawgraph-kg
 rank: 1000
 slot_uri: http://sawgraph.spatialai.org/v1/sdwis#pwsidNumber
 alias: http___sawgraph.spatialai.org_v1_sdwis#pwsidNumber

@@ -32,10 +32,6 @@ URI: [me_egad:samplePointNumber](http://sawgraph.spatialai.org/v1/me-egad#sample
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -46,9 +42,9 @@ URI: [me_egad:samplePointNumber](http://sawgraph.spatialai.org/v1/me-egad#sample
 name: me_egad_samplePointNumber
 description: Sample point number in the EGAD dataset from the state of Maine.
 title: sample point number
-comments:
+notes:
 - No occurrences of this slot in the graph.
-from_schema: sawgraph-kg
+from_schema: okns:sawgraph-kg
 rank: 1000
 slot_uri: me_egad:samplePointNumber
 alias: me_egad_samplePointNumber

@@ -26,15 +26,11 @@ URI: [coso:usedAnalysisMethod](http://w3id.org/coso/v1/contaminoso#usedAnalysisM
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[CosoAnalysisMethod](../classes/CosoAnalysisMethod.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[SosaProcedure](../classes/SosaProcedure.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[CosoAnalysisMethod](../classes/CosoAnalysisMethod.md)&nbsp;or&nbsp;<br />[SosaProcedure](../classes/SosaProcedure.md)
 
 
 
 
-
-## Comments
-
-* No occurrences of this slot in the graph.
 
 
 
@@ -47,21 +43,21 @@ name: coso_usedAnalysisMethod
 description: A relation between an observation of a contaminant and the analysis method
   that was used to perform the observation.
 title: used analysis method
-comments:
+notes:
 - No occurrences of this slot in the graph.
-from_schema: sawgraph-kg
+from_schema: okns:sawgraph-kg
 rank: 1000
 slot_uri: coso:usedAnalysisMethod
 alias: coso_usedAnalysisMethod
 subproperty_of: sosa_usedProcedure
 union_of:
-- '{''domain'': ''owl_Thing''}'
-- '{''domain'': ''sosa_Observation''}'
-- '{''domain'': ''coso_ContaminantObservation''}'
+- coso_ContaminantObservation
+- owl_Thing
+- sosa_Observation
 range: Any
 any_of:
-- range: coso_AnalysisMethod
 - range: owl_Thing
+- range: coso_AnalysisMethod
 - range: sosa_Procedure
 
 ```

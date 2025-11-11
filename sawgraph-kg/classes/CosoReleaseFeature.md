@@ -1,9 +1,9 @@
 
 
-# Class: No class (entity type) name specified -- this class is noted as a superclass of another class in this graph but has not itself been defined. (coso_ReleaseFeature)
+# Class: Release Feature (coso_ReleaseFeature)
 
 
-_No class (type) description specified_
+_The discrete spatial phenomenon that may be the target of a release observation._
 
 
 
@@ -22,13 +22,20 @@ URI: [coso:ReleaseFeature](http://w3id.org/coso/v1/contaminoso#ReleaseFeature)
  classDiagram
     class CosoReleaseFeature
     click CosoReleaseFeature href "../CosoReleaseFeature"
+      SosaFeatureOfInterest <|-- CosoReleaseFeature
+        click SosaFeatureOfInterest href "../SosaFeatureOfInterest"
+      
       
 ```
 
 
 
 
-<!-- no inheritance hierarchy -->
+
+## Inheritance
+* [SosaFeatureOfInterest](../classes/SosaFeatureOfInterest.md)
+    * **CosoReleaseFeature**
+
 
 
 ## Slots
@@ -59,12 +66,11 @@ URI: [coso:ReleaseFeature](http://w3id.org/coso/v1/contaminoso#ReleaseFeature)
 
 ```yaml
 name: coso_ReleaseFeature
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified -- this class is noted as a superclass
-  of another class in this graph but has not itself been defined.
-from_schema: sawgraph-kg
+description: The discrete spatial phenomenon that may be the target of a release observation.
+title: Release Feature
+from_schema: okns:sawgraph-kg
 rank: 1000
+is_a: sosa_FeatureOfInterest
 class_uri: coso:ReleaseFeature
 
 ```
@@ -76,12 +82,11 @@ class_uri: coso:ReleaseFeature
 
 ```yaml
 name: coso_ReleaseFeature
-conforms_to: No schema conformance document specified
-description: No class (type) description specified
-title: No class (entity type) name specified -- this class is noted as a superclass
-  of another class in this graph but has not itself been defined.
-from_schema: sawgraph-kg
+description: The discrete spatial phenomenon that may be the target of a release observation.
+title: Release Feature
+from_schema: okns:sawgraph-kg
 rank: 1000
+is_a: sosa_FeatureOfInterest
 class_uri: coso:ReleaseFeature
 
 ```

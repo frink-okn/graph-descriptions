@@ -32,10 +32,6 @@ URI: [me_egad:sampleID](http://sawgraph.spatialai.org/v1/me-egad#sampleID)
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -46,9 +42,9 @@ URI: [me_egad:sampleID](http://sawgraph.spatialai.org/v1/me-egad#sampleID)
 name: me_egad_sampleID
 description: Sample identifier in the EGAD dataset from the state of Maine.
 title: sample identifier
-comments:
+notes:
 - No occurrences of this slot in the graph.
-from_schema: sawgraph-kg
+from_schema: okns:sawgraph-kg
 rank: 1000
 slot_uri: me_egad:sampleID
 alias: me_egad_sampleID

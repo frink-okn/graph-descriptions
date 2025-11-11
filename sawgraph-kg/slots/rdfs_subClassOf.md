@@ -1,14 +1,16 @@
 
 
-# Slot: No slot (predicate) name specified (rdfs_subClassOf)
+# Slot: subClassOf (rdfs_subClassOf)
 
 
-_No slot (predicate) description specified_
+_The subject is a subclass of a class._
 
 
 
 
 
+
+This slot occurs 63 times.
 
 
 URI: [rdfs:subClassOf](http://www.w3.org/2000/01/rdf-schema#subClassOf)
@@ -25,7 +27,10 @@ URI: [rdfs:subClassOf](http://www.w3.org/2000/01/rdf-schema#subClassOf)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [QudtAspectClass](../classes/QudtAspectClass.md) | No class (type) description specified |  yes  |
+| [QudtAspectClass](../classes/QudtAspectClass.md) |  |  no  |
+| [OwlDataRange](../classes/OwlDataRange.md) | The class of OWL data ranges, which are special kinds of datatypes |  no  |
+| [RdfsDatatype](../classes/RdfsDatatype.md) | The class of RDF datatypes |  no  |
+| [SdosMedicalSpecialty](../classes/SdosMedicalSpecialty.md) | Any specific branch of medical science or practice |  no  |
 
 
 
@@ -41,10 +46,6 @@ URI: [rdfs:subClassOf](http://www.w3.org/2000/01/rdf-schema#subClassOf)
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -53,16 +54,15 @@ URI: [rdfs:subClassOf](http://www.w3.org/2000/01/rdf-schema#subClassOf)
 
 ```yaml
 name: rdfs_subClassOf
-description: No slot (predicate) description specified
-title: No slot (predicate) name specified
-comments:
-- No occurrences of this slot in the graph.
-from_schema: sawgraph-kg
-rank: 1000
+description: The subject is a subclass of a class.
+title: subClassOf
+from_schema: okns:owl-rdf-rdfs
+source: http://www.w3.org/2000/01/rdf-schema#
 domain: rdfs_Class
 slot_uri: rdfs:subClassOf
-alias: rdfs_subClassOf
 domain_of:
+- sdos_MedicalSpecialty
+- rdfs_Datatype
 - qudt_AspectClass
 range: rdfs_Class
 

@@ -1,6 +1,6 @@
 # sawgraph-kg
 
-the Contaminant Observation and Samples Ontology (ContaminOSO) STAD and QUDT integration developed as part of the AIKnowsPFAS and SAWGraph projects.
+This ontology supports querying the SAWGraph Knowledge Graph and the KnowWhereGraph. It is an adaptation of the spatial ontology originally published by the KnowWhereGraph Project
 
-URI: sawgraph-kg
+URI: okns:sawgraph-kg
 

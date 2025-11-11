@@ -32,10 +32,6 @@ URI: [me_egad:samplePointWebName](http://sawgraph.spatialai.org/v1/me-egad#sampl
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -46,9 +42,9 @@ URI: [me_egad:samplePointWebName](http://sawgraph.spatialai.org/v1/me-egad#sampl
 name: me_egad_samplePointWebName
 description: Sample point web name in the EGAD dataset from the state of Maine.
 title: sample point web name
-comments:
+notes:
 - No occurrences of this slot in the graph.
-from_schema: sawgraph-kg
+from_schema: okns:sawgraph-kg
 rank: 1000
 slot_uri: me_egad:samplePointWebName
 alias: me_egad_samplePointWebName
