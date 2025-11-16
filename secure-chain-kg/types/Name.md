@@ -7,7 +7,7 @@ _XML Name._
 
 
 
-URI: [xsd:Name](xsd:Name)
+URI: [xsd:Name](http://www.w3.org/2001/XMLSchema#Name)
 
 * [base](https://w3id.org/linkml/base): str
 

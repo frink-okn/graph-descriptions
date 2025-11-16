@@ -3458,10 +3458,10 @@ SecurechainVulnerabilityType ||--|o SdosText : "sdos_identifier"
 ## Imports
 
 
+* okns:sdo
 * okns:owl-rdf-rdfs
 * okns:extended_types
 * linkml:types
-* okns:sdo
 
 
 
@@ -3520,3 +3520,6 @@ SecurechainVulnerabilityType ||--|o SdosText : "sdos_identifier"
 * sdos: https://schema.org/
 * securechain: https://w3id.org/secure-chain/
 * sudokn: http://asu.edu/semantics/SUDOKN/
+* xsd: http://www.w3.org/2001/XMLSchema#
+* shex: http://www.w3.org/ns/shex#
+* schema: http://schema.org/
