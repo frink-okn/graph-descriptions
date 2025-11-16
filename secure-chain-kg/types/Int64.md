@@ -7,7 +7,7 @@ _A 64-bit signed integer_
 
 
 
-URI: [xsd:long](xsd:long)
+URI: [xsd:long](http://www.w3.org/2001/XMLSchema#long)
 
 * [base](https://w3id.org/linkml/base): int
 
