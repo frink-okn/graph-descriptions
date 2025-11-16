@@ -461,9 +461,9 @@ classes:
     is_a: sdos_Product
     name: securechain_Hardware
     slots:
+    - sdos_name
     - securechain_hasHardwareVersion
     - sdos_manufacturer
-    - sdos_name
   securechain_HardwareVersion:
     class_uri: securechain:HardwareVersion
     is_a: securechain_Hardware
@@ -471,9 +471,9 @@ classes:
     slots:
     - securechain_versionName
     - securechain_vulnerableTo
+    - securechain_cpe23
     - owl_sameAs
     - sdos_name
-    - securechain_cpe23
   securechain_License:
     class_uri: securechain:License
     is_a: sdos_CreativeWork
@@ -499,15 +499,15 @@ classes:
     name: securechain_VulnerabilityType
     slots:
     - sdos_identifier
-created_on: '2025-11-16T05:28:08.483590'
+created_on: '2025-11-16T05:35:25.145293'
 default_prefix: okns
 id: okns:secure-chain-kg
 imports:
-- linkml:types
-- okns:owl-rdf-rdfs
 - okns:extended_types
+- okns:owl-rdf-rdfs
+- linkml:types
 - okns:sdo
-last_updated_on: '2025-11-16T05:28:08.483590'
+last_updated_on: '2025-11-16T05:35:25.145293'
 name: secure-chain-kg
 prefixes:
   linkml: https://w3id.org/linkml/
@@ -564,8 +564,8 @@ slots:
     slot_uri: securechain:operatesOn
   securechain_versionName:
     any_of:
-    - range: string
     - range: sdos_Text
+    - range: string
     name: securechain_versionName
     range: Any
     slot_uri: securechain:versionName
