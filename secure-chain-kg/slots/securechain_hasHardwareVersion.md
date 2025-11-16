@@ -22,8 +22,8 @@ URI: [securechain:hasHardwareVersion](https://w3id.org/secure-chain/hasHardwareV
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SecurechainHardware](../classes/SecurechainHardware.md) |  |  no  |
 | [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) |  |  no  |
+| [SecurechainHardware](../classes/SecurechainHardware.md) |  |  no  |
 
 
 

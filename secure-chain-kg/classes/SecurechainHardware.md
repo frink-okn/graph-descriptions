@@ -74,8 +74,8 @@ URI: [securechain:Hardware](https://w3id.org/secure-chain/Hardware)
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
 | [securechain_hasHardwareVersion](../slots/securechain_hasHardwareVersion.md) | 0..1 <br/> [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) |  <br/>  | direct | 59978 |
-| [sdos_name](../slots/sdos_name.md) | 0..1 <br/> [SdosText](../classes/SdosText.md) | The name of the item <br/>  | direct | 60817 |
 | [sdos_manufacturer](../slots/sdos_manufacturer.md) | 0..1 <br/> [SdosOrganization](../classes/SdosOrganization.md) | The manufacturer of the product <br/>  | direct | 59438 |
+| [sdos_name](../slots/sdos_name.md) | 0..1 <br/> [SdosText](../classes/SdosText.md) | The name of the item <br/>  | direct | 60817 |
 
 
 
@@ -113,8 +113,8 @@ rank: 1000
 is_a: sdos_Product
 slots:
 - securechain_hasHardwareVersion
-- sdos_name
 - sdos_manufacturer
+- sdos_name
 class_uri: securechain:Hardware
 
 ```
@@ -141,6 +141,20 @@ attributes:
     domain_of:
     - securechain_Hardware
     range: securechain_HardwareVersion
+  sdos_manufacturer:
+    name: sdos_manufacturer
+    description: The manufacturer of the product.
+    title: manufacturer
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:sdo
+    domain: sdos_Product
+    slot_uri: sdos:manufacturer
+    alias: sdos_manufacturer
+    owner: securechain_Hardware
+    domain_of:
+    - securechain_Hardware
+    range: sdos_Organization
   sdos_name:
     name: sdos_name
     description: The name of the item.
@@ -159,20 +173,6 @@ attributes:
     - securechain_HardwareVersion
     subproperty_of: rdfs_label
     range: sdos_Text
-  sdos_manufacturer:
-    name: sdos_manufacturer
-    description: The manufacturer of the product.
-    title: manufacturer
-    notes:
-    - No occurrences of this slot in the graph.
-    from_schema: okns:sdo
-    domain: sdos_Product
-    slot_uri: sdos:manufacturer
-    alias: sdos_manufacturer
-    owner: securechain_Hardware
-    domain_of:
-    - securechain_Hardware
-    range: sdos_Organization
 class_uri: securechain:Hardware
 
 ```
