@@ -3097,8 +3097,8 @@ SecurechainHardware {
 
 }
 SecurechainHardwareVersion {
-    string securechain_versionName  
     string securechain_cpe23  
+    string securechain_versionName  
 }
 SecurechainLicense {
 
@@ -3435,18 +3435,18 @@ SdosWearableSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosWearableSizeSystemEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosWearableSizeSystemEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
 SecurechainHardware ||--|o SdosOrganization : "sdos_manufacturer"
-SecurechainHardware ||--|o SecurechainHardwareVersion : "securechain_hasHardwareVersion"
 SecurechainHardware ||--|o SdosText : "sdos_name"
-SecurechainHardwareVersion ||--|o SdosText : "securechain_versionName"
-SecurechainHardwareVersion ||--|o SecurechainVulnerability : "securechain_vulnerableTo"
-SecurechainHardwareVersion ||--|o OwlThing : "owl_sameAs"
+SecurechainHardware ||--|o SecurechainHardwareVersion : "securechain_hasHardwareVersion"
 SecurechainHardwareVersion ||--|o SdosText : "sdos_name"
+SecurechainHardwareVersion ||--|o OwlThing : "owl_sameAs"
+SecurechainHardwareVersion ||--|o SecurechainVulnerability : "securechain_vulnerableTo"
+SecurechainHardwareVersion ||--|o SdosText : "securechain_versionName"
 SecurechainHardwareVersion ||--|o SdosOrganization : "sdos_manufacturer"
 SecurechainHardwareVersion ||--|o SecurechainHardwareVersion : "securechain_hasHardwareVersion"
-SecurechainVulnerability ||--|o SecurechainVulnerabilityType : "securechain_vulnerabilityType"
 SecurechainVulnerability ||--|o SdosURL : "sdos_identifier"
 SecurechainVulnerability ||--|o SdosPropertyValue : "sdos_identifier"
 SecurechainVulnerability ||--|o SdosText : "sdos_identifier"
+SecurechainVulnerability ||--|o SecurechainVulnerabilityType : "securechain_vulnerabilityType"
 SecurechainVulnerabilityType ||--|o SdosURL : "sdos_identifier"
 SecurechainVulnerabilityType ||--|o SdosPropertyValue : "sdos_identifier"
 SecurechainVulnerabilityType ||--|o SdosText : "sdos_identifier"
@@ -3459,9 +3459,9 @@ SecurechainVulnerabilityType ||--|o SdosText : "sdos_identifier"
 
 
 * linkml:types
-* okns:extended_types
-* okns:owl-rdf-rdfs
 * okns:sdo
+* okns:owl-rdf-rdfs
+* okns:extended_types
 
 
 
