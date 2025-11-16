@@ -27,8 +27,8 @@ URI: [sdos:identifier](https://schema.org/identifier)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SecurechainVulnerabilityType](../classes/SecurechainVulnerabilityType.md) |  |  no  |
 | [SecurechainVulnerability](../classes/SecurechainVulnerability.md) |  |  no  |
+| [SecurechainVulnerabilityType](../classes/SecurechainVulnerabilityType.md) |  |  no  |
 
 
 
