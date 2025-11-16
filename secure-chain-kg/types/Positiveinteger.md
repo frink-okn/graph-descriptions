@@ -7,7 +7,7 @@ _An integer that is positive_
 
 
 
-URI: [xsd:positiveInteger](xsd:positiveInteger)
+URI: [xsd:positiveInteger](http://www.w3.org/2001/XMLSchema#positiveInteger)
 
 * [base](https://w3id.org/linkml/base): int
 

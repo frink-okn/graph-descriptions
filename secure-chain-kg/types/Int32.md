@@ -7,7 +7,7 @@ _A 32-bit signed integer_
 
 
 
-URI: [xsd:int](xsd:int)
+URI: [xsd:int](http://www.w3.org/2001/XMLSchema#int)
 
 * [base](https://w3id.org/linkml/base): int
 
