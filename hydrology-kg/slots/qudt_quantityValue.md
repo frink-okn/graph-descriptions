@@ -38,10 +38,6 @@ URI: [qudt:quantityValue](http://qudt.org/schema/qudt/quantityValue)
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -51,7 +47,7 @@ URI: [qudt:quantityValue](http://qudt.org/schema/qudt/quantityValue)
 ```yaml
 name: qudt_quantityValue
 title: quantity value
-comments:
+notes:
 - No occurrences of this slot in the graph.
 from_schema: okns:qudt
 source: http://qudt.org/schema/qudt

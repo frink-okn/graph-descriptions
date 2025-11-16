@@ -22,11 +22,11 @@ URI: [us_sdwis:pwsName](http://sawgraph.spatialai.org/v1/us-sdwis#pwsName)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) |  |  no  |
-| [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) |  |  no  |
 | [UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md) |  |  no  |
-| [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) |  |  no  |
+| [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) |  |  no  |
 | [UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md) |  |  no  |
+| [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) |  |  no  |
+| [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) |  |  no  |
 
 
 
@@ -36,7 +36,7 @@ URI: [us_sdwis:pwsName](http://sawgraph.spatialai.org/v1/us-sdwis#pwsName)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[RdfsLiteral](../classes/RdfsLiteral.md)
 
 
 
@@ -51,8 +51,6 @@ URI: [us_sdwis:pwsName](http://sawgraph.spatialai.org/v1/us-sdwis#pwsName)
 ```yaml
 name: us_sdwis_pwsName
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/us-sdwis#pwsName
 rank: 1000
 slot_uri: us_sdwis:pwsName
 alias: us_sdwis_pwsName
@@ -64,15 +62,14 @@ domain_of:
 - us_sdwis_PublicWaterSystem-TNCWS
 subproperty_of: rdfs_label
 union_of:
-- owl_Thing
-- __B4321a9eb518ec74b0f636677676d03cc
-- us_sdwis_PublicWaterSystem
 - geo_Feature
+- us_sdwis_PublicWaterSystem
 - geo_SpatialObject
+- owl_Thing
 range: Any
 any_of:
-- range: rdfs_Literal
 - range: string
+- range: rdfs_Literal
 
 ```
 </details>

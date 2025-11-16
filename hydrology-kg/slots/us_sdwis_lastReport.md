@@ -22,11 +22,11 @@ URI: [us_sdwis:lastReport](http://sawgraph.spatialai.org/v1/us-sdwis#lastReport)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) |  |  no  |
-| [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) |  |  no  |
 | [UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md) |  |  no  |
-| [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) |  |  no  |
+| [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) |  |  no  |
 | [UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md) |  |  no  |
+| [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) |  |  no  |
+| [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) |  |  no  |
 
 
 
@@ -51,8 +51,6 @@ URI: [us_sdwis:lastReport](http://sawgraph.spatialai.org/v1/us-sdwis#lastReport)
 ```yaml
 name: us_sdwis_lastReport
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/us-sdwis#lastReport
 rank: 1000
 slot_uri: us_sdwis:lastReport
 alias: us_sdwis_lastReport

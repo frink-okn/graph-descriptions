@@ -48,7 +48,7 @@ URI: [me_mgs:WellUse](http://sawgraph.spatialai.org/v1/me-mgs#WellUse)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/> No occurrences of this slot in the graph. | direct | 13 |
+| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/>  | direct | 13 |
 
 
 
@@ -81,8 +81,6 @@ URI: [me_mgs:WellUse](http://sawgraph.spatialai.org/v1/me-mgs#WellUse)
 ```yaml
 name: me_mgs_WellUse
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/me-mgs#WellUse
 rank: 1000
 is_a: owl_Thing
 slots:
@@ -99,8 +97,6 @@ class_uri: me_mgs:WellUse
 ```yaml
 name: me_mgs_WellUse
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/me-mgs#WellUse
 rank: 1000
 is_a: owl_Thing
 attributes:
@@ -108,7 +104,7 @@ attributes:
     name: owl_sameAs
     description: The property that determines that two given individuals are equal.
     title: sameAs
-    comments:
+    notes:
     - No occurrences of this slot in the graph.
     from_schema: okns:owl-rdf-rdfs
     source: http://www.w3.org/2002/07/owl#
@@ -117,12 +113,11 @@ attributes:
     alias: owl_sameAs
     owner: me_mgs_WellUse
     domain_of:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
     - http___gwml2.org_def_gwml2#GW_Aquifer
     - http___gwml2.org_def_gwml2#GW_AquiferSystem
     - http___nhdplusv2.spatialai.org_v1_nhdplusv2#FlowPathLength
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
+    - hyf_HY_ElementaryFlowPath
     - il_isgs_ISGS-Well
     - il_isgs_WellDepthInFt
     - il_isgs_WellPurpose
@@ -134,8 +129,6 @@ attributes:
     - me_mgs_WellType
     - me_mgs_WellUse
     - owl_DataProperty
-    - sf_#MultiPolygon
-    - sf_#Polygon
     - us_sdwis_PWS-ServiceArea
     - us_sdwis_PWS-ServiceAreaType
     - us_sdwis_PWS-SourceWaterType

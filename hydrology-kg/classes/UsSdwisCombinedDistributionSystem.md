@@ -62,8 +62,6 @@ URI: [us_sdwis:CombinedDistributionSystem](http://sawgraph.spatialai.org/v1/us-s
 ```yaml
 name: us_sdwis_CombinedDistributionSystem
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/us-sdwis#CombinedDistributionSystem
 rank: 1000
 is_a: owl_Thing
 class_uri: us_sdwis:CombinedDistributionSystem
@@ -78,8 +76,6 @@ class_uri: us_sdwis:CombinedDistributionSystem
 ```yaml
 name: us_sdwis_CombinedDistributionSystem
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/us-sdwis#CombinedDistributionSystem
 rank: 1000
 is_a: owl_Thing
 class_uri: us_sdwis:CombinedDistributionSystem

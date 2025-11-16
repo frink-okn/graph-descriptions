@@ -10,7 +10,7 @@ _The class of OWL individuals._
 
 
 
-This class occurs 1901253 times.
+This class occurs 1974234 times.
 
 
 URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
@@ -24,18 +24,14 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
  classDiagram
     class OwlThing
     click OwlThing href "../OwlThing"
-      OwlThing <|-- QudtComment
-        click QudtComment href "../QudtComment"
-      OwlThing <|-- QudtConcept
-        click QudtConcept href "../QudtConcept"
       OwlThing <|-- OwlNamedIndividual
         click OwlNamedIndividual href "../OwlNamedIndividual"
       OwlThing <|-- OwlNothing
         click OwlNothing href "../OwlNothing"
-      OwlThing <|-- TimeDayOfWeek
-        click TimeDayOfWeek href "../TimeDayOfWeek"
-      OwlThing <|-- TimeTemporalEntity
-        click TimeTemporalEntity href "../TimeTemporalEntity"
+      OwlThing <|-- QudtComment
+        click QudtComment href "../QudtComment"
+      OwlThing <|-- QudtConcept
+        click QudtConcept href "../QudtConcept"
       OwlThing <|-- ProvSoftwareAgent
         click ProvSoftwareAgent href "../ProvSoftwareAgent"
       OwlThing <|-- DtypeEnumeratedValue
@@ -44,8 +40,6 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
         click DtypeEnumeration href "../DtypeEnumeration"
       OwlThing <|-- DtypeValueReference
         click DtypeValueReference href "../DtypeValueReference"
-      OwlThing <|-- FoafOnlineAccount
-        click FoafOnlineAccount href "../FoafOnlineAccount"
       OwlThing <|-- VaemDimension
         click VaemDimension href "../VaemDimension"
       OwlThing <|-- VaemGraphMetaData
@@ -54,6 +48,12 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
         click VaemGraphRole href "../VaemGraphRole"
       OwlThing <|-- VaemParty
         click VaemParty href "../VaemParty"
+      OwlThing <|-- TimeDayOfWeek
+        click TimeDayOfWeek href "../TimeDayOfWeek"
+      OwlThing <|-- TimeTemporalEntity
+        click TimeTemporalEntity href "../TimeTemporalEntity"
+      OwlThing <|-- FoafOnlineAccount
+        click FoafOnlineAccount href "../FoafOnlineAccount"
       OwlThing <|-- VoagAssignedRole
         click VoagAssignedRole href "../VoagAssignedRole"
       OwlThing <|-- VoagCreativeCommonsJurisdiction
@@ -74,10 +74,6 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
         click VoagQualifier href "../VoagQualifier"
       OwlThing <|-- VoagService
         click VoagService href "../VoagService"
-      OwlThing <|-- B4321a9eb518ec74b0f636677676d03cc
-        click B4321a9eb518ec74b0f636677676d03cc href "../B4321a9eb518ec74b0f636677676d03cc"
-      OwlThing <|-- Bf03ad86fab1719a427cbb412f91529fa
-        click Bf03ad86fab1719a427cbb412f91529fa href "../Bf03ad86fab1719a427cbb412f91529fa"
       OwlThing <|-- HttpHyfo.spatialai.orgV1Hyfo#AquiferWaterFeature
         click HttpHyfo.spatialai.orgV1Hyfo#AquiferWaterFeature href "../HttpHyfo.spatialai.orgV1Hyfo#AquiferWaterFeature"
       OwlThing <|-- HttpHyfo.spatialai.orgV1Hyfo#SubsurfaceWaterFeature
@@ -88,10 +84,6 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
         click HttpHyfo.spatialai.orgV1Hyfo#WaterFeature href "../HttpHyfo.spatialai.orgV1Hyfo#WaterFeature"
       OwlThing <|-- HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation
         click HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation href "../HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation"
-      OwlThing <|-- HyfHYCatchmentRealization
-        click HyfHYCatchmentRealization href "../HyfHYCatchmentRealization"
-      OwlThing <|-- HyfHYHydroFeature
-        click HyfHYHydroFeature href "../HyfHYHydroFeature"
       OwlThing <|-- IlIsgsISGS-Well
         click IlIsgsISGS-Well href "../IlIsgsISGS-Well"
       OwlThing <|-- IlIsgsWellDepthInFt
@@ -150,21 +142,21 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
 
 ## Inheritance
 * **OwlThing**
-    * [QudtComment](../classes/QudtComment.md)
-    * [QudtConcept](../classes/QudtConcept.md)
     * [OwlNamedIndividual](../classes/OwlNamedIndividual.md)
     * [OwlNothing](../classes/OwlNothing.md)
-    * [TimeDayOfWeek](../classes/TimeDayOfWeek.md)
-    * [TimeTemporalEntity](../classes/TimeTemporalEntity.md)
+    * [QudtComment](../classes/QudtComment.md)
+    * [QudtConcept](../classes/QudtConcept.md)
     * [ProvSoftwareAgent](../classes/ProvSoftwareAgent.md)
     * [DtypeEnumeratedValue](../classes/DtypeEnumeratedValue.md)
     * [DtypeEnumeration](../classes/DtypeEnumeration.md)
     * [DtypeValueReference](../classes/DtypeValueReference.md)
-    * [FoafOnlineAccount](../classes/FoafOnlineAccount.md)
     * [VaemDimension](../classes/VaemDimension.md)
     * [VaemGraphMetaData](../classes/VaemGraphMetaData.md)
     * [VaemGraphRole](../classes/VaemGraphRole.md)
     * [VaemParty](../classes/VaemParty.md)
+    * [TimeDayOfWeek](../classes/TimeDayOfWeek.md)
+    * [TimeTemporalEntity](../classes/TimeTemporalEntity.md)
+    * [FoafOnlineAccount](../classes/FoafOnlineAccount.md)
     * [VoagAssignedRole](../classes/VoagAssignedRole.md)
     * [VoagCreativeCommonsJurisdiction](../classes/VoagCreativeCommonsJurisdiction.md)
     * [VoagCreativeCommonsWork](../classes/VoagCreativeCommonsWork.md)
@@ -175,15 +167,11 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
     * [VoagProcess](../classes/VoagProcess.md)
     * [VoagQualifier](../classes/VoagQualifier.md)
     * [VoagService](../classes/VoagService.md)
-    * [B4321a9eb518ec74b0f636677676d03cc](../classes/B4321a9eb518ec74b0f636677676d03cc.md)
-    * [Bf03ad86fab1719a427cbb412f91529fa](../classes/Bf03ad86fab1719a427cbb412f91529fa.md)
     * [HttpHyfo.spatialai.orgV1Hyfo#AquiferWaterFeature](../classes/HttpHyfo.spatialai.orgV1Hyfo#AquiferWaterFeature.md)
     * [HttpHyfo.spatialai.orgV1Hyfo#SubsurfaceWaterFeature](../classes/HttpHyfo.spatialai.orgV1Hyfo#SubsurfaceWaterFeature.md)
     * [HttpHyfo.spatialai.orgV1Hyfo#SurfaceWaterFeature](../classes/HttpHyfo.spatialai.orgV1Hyfo#SurfaceWaterFeature.md)
     * [HttpHyfo.spatialai.orgV1Hyfo#WaterFeature](../classes/HttpHyfo.spatialai.orgV1Hyfo#WaterFeature.md)
     * [HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation](../classes/HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation.md)
-    * [HyfHYCatchmentRealization](../classes/HyfHYCatchmentRealization.md)
-    * [HyfHYHydroFeature](../classes/HyfHYHydroFeature.md)
     * [IlIsgsISGS-Well](../classes/IlIsgsISGS-Well.md)
     * [IlIsgsWellDepthInFt](../classes/IlIsgsWellDepthInFt.md)
     * [IlIsgsWellPurpose](../classes/IlIsgsWellPurpose.md)
@@ -224,53 +212,32 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
+| [B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
+| [B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md) | [http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength](../slots/http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md) | [hyf_downstreamFlowPathTC](../slots/hyf_downstreamFlowPathTC.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md) | [hyf_downstreamFlowPath](../slots/hyf_downstreamFlowPath.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md) | [http___gwml2.org_def_gwml2#gwAquiferSystem](../slots/http___gwml2.org_def_gwml2#gwAquiferSystem.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [HttpGwml2.orgDefGwml2#GWAquiferSystem](../classes/HttpGwml2.orgDefGwml2#GWAquiferSystem.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [HttpGwml2.orgDefGwml2#GWAquiferSystem](../classes/HttpGwml2.orgDefGwml2#GWAquiferSystem.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
 | [HttpGwml2.orgDefGwml2#GWAquiferSystem](../classes/HttpGwml2.orgDefGwml2#GWAquiferSystem.md) | [http___gwml2.org_def_gwml2#gwAquiferSystemPart](../slots/http___gwml2.org_def_gwml2#gwAquiferSystemPart.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [HttpGwml2.orgDefGwml2#GWAquiferSystem](../classes/HttpGwml2.orgDefGwml2#GWAquiferSystem.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [HttpGwml2.orgDefGwml2#GWAquiferSystem](../classes/HttpGwml2.orgDefGwml2#GWAquiferSystem.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [HttpGwml2.orgDefGwml2#GWAquiferSystem](../classes/HttpGwml2.orgDefGwml2#GWAquiferSystem.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [HttpNhdplusv2.spatialai.orgV1Nhdplusv2#FlowPathLength](../classes/HttpNhdplusv2.spatialai.orgV1Nhdplusv2#FlowPathLength.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [HttpNhdplusv2.spatialai.orgV1Nhdplusv2#FlowPathLength](../classes/HttpNhdplusv2.spatialai.orgV1Nhdplusv2#FlowPathLength.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYCanal](../classes/HyfHYCanal.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYCanal](../classes/HyfHYCanal.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYCanal](../classes/HyfHYCanal.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYCanal](../classes/HyfHYCanal.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength](../slots/http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [hyf__downstreamFlowPathTC](../slots/hyf__downstreamFlowPathTC.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [hyf__downstreamFlowPath](../slots/hyf__downstreamFlowPath.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength](../slots/http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [hyf_downstreamFlowPathTC](../slots/hyf_downstreamFlowPathTC.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [hyf_downstreamFlowPath](../slots/hyf_downstreamFlowPath.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYEstuary](../classes/HyfHYEstuary.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYEstuary](../classes/HyfHYEstuary.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYEstuary](../classes/HyfHYEstuary.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYEstuary](../classes/HyfHYEstuary.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYImpoundment](../classes/HyfHYImpoundment.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYImpoundment](../classes/HyfHYImpoundment.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYImpoundment](../classes/HyfHYImpoundment.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYImpoundment](../classes/HyfHYImpoundment.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYLagoon](../classes/HyfHYLagoon.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYLagoon](../classes/HyfHYLagoon.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYLagoon](../classes/HyfHYLagoon.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYLagoon](../classes/HyfHYLagoon.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYLake](../classes/HyfHYLake.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYLake](../classes/HyfHYLake.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYLake](../classes/HyfHYLake.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYLake](../classes/HyfHYLake.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYRiver](../classes/HyfHYRiver.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYRiver](../classes/HyfHYRiver.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYRiver](../classes/HyfHYRiver.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYRiver](../classes/HyfHYRiver.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYWaterBody](../classes/HyfHYWaterBody.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYWaterBody](../classes/HyfHYWaterBody.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYWaterBody](../classes/HyfHYWaterBody.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [HyfHYWaterBody](../classes/HyfHYWaterBody.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [IlIsgsISGS-Well](../classes/IlIsgsISGS-Well.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [IlIsgsISGS-Well](../classes/IlIsgsISGS-Well.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
 | [IlIsgsWellDepthInFt](../classes/IlIsgsWellDepthInFt.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
@@ -281,16 +248,16 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
 | [IlIsgsWellYield](../classes/IlIsgsWellYield.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
 | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) | [me_mgs_wellDepth](../slots/me_mgs_wellDepth.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) | [me_mgs_wellOverburden](../slots/me_mgs_wellOverburden.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) | [me_mgs_ofWellType](../slots/me_mgs_ofWellType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) | [me_mgs_wellOverburden](../slots/me_mgs_wellOverburden.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) | [me_mgs_hasUse](../slots/me_mgs_hasUse.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) | [me_mgs_wellDepth](../slots/me_mgs_wellDepth.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [MeMgsWellDepthInFt](../classes/MeMgsWellDepthInFt.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [MeMgsWellDepthInFt](../classes/MeMgsWellDepthInFt.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
 | [MeMgsWellOverburdenThicknessInFt](../classes/MeMgsWellOverburdenThicknessInFt.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
@@ -301,15 +268,11 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
 | [MeMgsWellUse](../classes/MeMgsWellUse.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
 | [OwlDataProperty](../classes/OwlDataProperty.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [OwlDataProperty](../classes/OwlDataProperty.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Sf#MultiPolygon](../classes/Sf#MultiPolygon.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [Sf#MultiPolygon](../classes/Sf#MultiPolygon.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [Sf#Polygon](../classes/Sf#Polygon.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
-| [Sf#Polygon](../classes/Sf#Polygon.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md) | [us_sdwis_serviceAreaType](../slots/us_sdwis_serviceAreaType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPWS-ServiceAreaType](../classes/UsSdwisPWS-ServiceAreaType.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPWS-ServiceAreaType](../classes/UsSdwisPWS-ServiceAreaType.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPWS-SourceWaterType](../classes/UsSdwisPWS-SourceWaterType.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
@@ -318,36 +281,36 @@ URI: [owl:Thing](http://www.w3.org/2002/07/owl#Thing)
 | [UsSdwisPWS-SubFeatureActivity](../classes/UsSdwisPWS-SubFeatureActivity.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPWS-SubFeatureType](../classes/UsSdwisPWS-SubFeatureType.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPWS-SubFeatureType](../classes/UsSdwisPWS-SubFeatureType.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) | [us_sdwis_primarySourceType](../slots/us_sdwis_primarySourceType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
-| [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) | [us_sdwis_serviceArea](../slots/us_sdwis_serviceArea.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) | [us_sdwis_primarySourceType](../slots/us_sdwis_primarySourceType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) | [us_sdwis_primarySourceType](../slots/us_sdwis_primarySourceType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) | [us_sdwis_serviceArea](../slots/us_sdwis_serviceArea.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) | [us_sdwis_primarySourceType](../slots/us_sdwis_primarySourceType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) | [us_sdwis_serviceArea](../slots/us_sdwis_serviceArea.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md) | [us_sdwis_primarySourceType](../slots/us_sdwis_primarySourceType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md) | [us_sdwis_primarySourceType](../slots/us_sdwis_primarySourceType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md) | [us_sdwis_serviceArea](../slots/us_sdwis_serviceArea.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) | [us_sdwis_primarySourceType](../slots/us_sdwis_primarySourceType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) | [us_sdwis_primarySourceType](../slots/us_sdwis_primarySourceType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) | [us_sdwis_serviceArea](../slots/us_sdwis_serviceArea.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md) | [us_sdwis_primarySourceType](../slots/us_sdwis_primarySourceType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md) | [owl_sameAs](../slots/owl_sameAs.md) | domain | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md) | [owl_sameAs](../slots/owl_sameAs.md) | range | [OwlThing](../classes/OwlThing.md) |
+| [UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md) | [us_sdwis_primarySourceType](../slots/us_sdwis_primarySourceType.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
+| [UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 | [UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md) | [us_sdwis_serviceArea](../slots/us_sdwis_serviceArea.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
-| [UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [OwlThing](../classes/OwlThing.md) |
 
 
 

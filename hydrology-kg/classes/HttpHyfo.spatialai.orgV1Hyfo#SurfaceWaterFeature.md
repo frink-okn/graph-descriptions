@@ -62,8 +62,6 @@ URI: [http://hyfo.spatialai.org/v1/hyfo#SurfaceWaterFeature](http://hyfo.spatial
 ```yaml
 name: http___hyfo.spatialai.org_v1_hyfo#SurfaceWaterFeature
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://hyfo.spatialai.org/v1/hyfo#SurfaceWaterFeature
 rank: 1000
 is_a: owl_Thing
 class_uri: http://hyfo.spatialai.org/v1/hyfo#SurfaceWaterFeature
@@ -78,8 +76,6 @@ class_uri: http://hyfo.spatialai.org/v1/hyfo#SurfaceWaterFeature
 ```yaml
 name: http___hyfo.spatialai.org_v1_hyfo#SurfaceWaterFeature
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://hyfo.spatialai.org/v1/hyfo#SurfaceWaterFeature
 rank: 1000
 is_a: owl_Thing
 class_uri: http://hyfo.spatialai.org/v1/hyfo#SurfaceWaterFeature

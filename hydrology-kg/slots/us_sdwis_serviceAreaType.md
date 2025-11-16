@@ -47,17 +47,15 @@ URI: [us_sdwis:serviceAreaType](http://sawgraph.spatialai.org/v1/us-sdwis#servic
 ```yaml
 name: us_sdwis_serviceAreaType
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/us-sdwis#serviceAreaType
 rank: 1000
 slot_uri: us_sdwis:serviceAreaType
 alias: us_sdwis_serviceAreaType
 domain_of:
 - us_sdwis_PWS-ServiceArea
 union_of:
+- geo_Feature
 - owl_Thing
 - geo_SpatialObject
-- geo_Feature
 - us_sdwis_PWS-ServiceArea
 range: Any
 any_of:

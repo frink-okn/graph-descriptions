@@ -46,8 +46,10 @@ URI: [http://hyfo.spatialai.org/v1/hyfo#WaterFeatureRepresentation](http://hyfo.
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [hyf__downstreamFlowPathTC](../slots/hyf__downstreamFlowPathTC.md) | any_of[range] | [HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation](../classes/HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation.md) |
-| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [hyf__downstreamFlowPath](../slots/hyf__downstreamFlowPath.md) | any_of[range] | [HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation](../classes/HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation.md) |
+| [B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md) | [hyf_downstreamFlowPathTC](../slots/hyf_downstreamFlowPathTC.md) | any_of[range] | [HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation](../classes/HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation.md) |
+| [B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md) | [hyf_downstreamFlowPath](../slots/hyf_downstreamFlowPath.md) | any_of[range] | [HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation](../classes/HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation.md) |
+| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [hyf_downstreamFlowPathTC](../slots/hyf_downstreamFlowPathTC.md) | any_of[range] | [HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation](../classes/HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation.md) |
+| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [hyf_downstreamFlowPath](../slots/hyf_downstreamFlowPath.md) | any_of[range] | [HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation](../classes/HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation.md) |
 
 
 
@@ -70,8 +72,6 @@ URI: [http://hyfo.spatialai.org/v1/hyfo#WaterFeatureRepresentation](http://hyfo.
 ```yaml
 name: http___hyfo.spatialai.org_v1_hyfo#WaterFeatureRepresentation
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://hyfo.spatialai.org/v1/hyfo#WaterFeatureRepresentation
 rank: 1000
 is_a: owl_Thing
 class_uri: http://hyfo.spatialai.org/v1/hyfo#WaterFeatureRepresentation
@@ -86,8 +86,6 @@ class_uri: http://hyfo.spatialai.org/v1/hyfo#WaterFeatureRepresentation
 ```yaml
 name: http___hyfo.spatialai.org_v1_hyfo#WaterFeatureRepresentation
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://hyfo.spatialai.org/v1/hyfo#WaterFeatureRepresentation
 rank: 1000
 is_a: owl_Thing
 class_uri: http://hyfo.spatialai.org/v1/hyfo#WaterFeatureRepresentation

@@ -39,8 +39,8 @@ URI: [stad:SingleData](http://purl.org/spatialai/stad/v2/core/SingleData)
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) | [me_mgs_wellOverburden](../slots/me_mgs_wellOverburden.md) | any_of[range] | [StadSingleData](../classes/StadSingleData.md) |
 | [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) | [me_mgs_wellDepth](../slots/me_mgs_wellDepth.md) | any_of[range] | [StadSingleData](../classes/StadSingleData.md) |
+| [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) | [me_mgs_wellOverburden](../slots/me_mgs_wellOverburden.md) | any_of[range] | [StadSingleData](../classes/StadSingleData.md) |
 
 
 
@@ -63,8 +63,6 @@ URI: [stad:SingleData](http://purl.org/spatialai/stad/v2/core/SingleData)
 ```yaml
 name: stad_SingleData
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://purl.org/spatialai/stad/v2/core/SingleData
 rank: 1000
 class_uri: stad:SingleData
 
@@ -78,8 +76,6 @@ class_uri: stad:SingleData
 ```yaml
 name: stad_SingleData
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://purl.org/spatialai/stad/v2/core/SingleData
 rank: 1000
 class_uri: stad:SingleData
 

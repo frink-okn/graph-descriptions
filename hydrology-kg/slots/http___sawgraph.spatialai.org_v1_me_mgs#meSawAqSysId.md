@@ -47,8 +47,6 @@ URI: [http://sawgraph.spatialai.org/v1/me_mgs#meSawAqSysId](http://sawgraph.spat
 ```yaml
 name: http___sawgraph.spatialai.org_v1_me_mgs#meSawAqSysId
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/me_mgs#meSawAqSysId
 rank: 1000
 slot_uri: http://sawgraph.spatialai.org/v1/me_mgs#meSawAqSysId
 alias: http___sawgraph.spatialai.org_v1_me_mgs#meSawAqSysId

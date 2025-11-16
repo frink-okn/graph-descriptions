@@ -47,8 +47,6 @@ URI: [http://gwml2.org/def/gwml2#gwAquiferSystem](http://gwml2.org/def/gwml2#gwA
 ```yaml
 name: http___gwml2.org_def_gwml2#gwAquiferSystem
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://gwml2.org/def/gwml2#gwAquiferSystem
 rank: 1000
 slot_uri: http://gwml2.org/def/gwml2#gwAquiferSystem
 alias: http___gwml2.org_def_gwml2#gwAquiferSystem

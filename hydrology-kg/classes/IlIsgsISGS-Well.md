@@ -111,14 +111,14 @@ URI: [il_isgs:ISGS-Well](http://sawgraph.spatialai.org/v1/il-isgs#ISGS-Well)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [il_isgs_hasOwner](../slots/il_isgs_hasOwner.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 377323 |
-| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/> No occurrences of this slot in the graph. | direct | 379496 |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | A human-readable name for the subject <br/>  | direct | 163029 |
 | [il_isgs_wellYield](../slots/il_isgs_wellYield.md) | 0..1 <br/> [IlIsgsWellYield](../classes/IlIsgsWellYield.md) |  <br/>  | direct | 265368 |
-| [geo_hasGeometry](../slots/geo_hasGeometry.md) | 0..1 <br/> [GeoGeometry](../classes/GeoGeometry.md) | A spatial representation for a given Feature <br/> source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties<br/>source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties<br/>source: http://www.opengis.net/ont/geosparql#<br/>source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties<br/>source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties<br/>description: A spatial representation for a given Feature.<br/>No occurrences of this slot in the graph. | direct | 379496 |
-| [il_isgs_wellPurpose](../slots/il_isgs_wellPurpose.md) | 0..1 <br/> [IlIsgsWellPurpose](../classes/IlIsgsWellPurpose.md) |  <br/>  | direct | 379496 |
-| [il_isgs_hasISWSId](../slots/il_isgs_hasISWSId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 152051 |
+| [il_isgs_hasOwner](../slots/il_isgs_hasOwner.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 377323 |
+| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/>  | direct | 379496 |
 | [il_isgs_wellDepth](../slots/il_isgs_wellDepth.md) | 0..1 <br/> [IlIsgsWellDepthInFt](../classes/IlIsgsWellDepthInFt.md) |  <br/>  | direct | 376687 |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | A human-readable name for the subject <br/>  | direct | 163029 |
+| [il_isgs_hasISWSId](../slots/il_isgs_hasISWSId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 152051 |
+| [il_isgs_wellPurpose](../slots/il_isgs_wellPurpose.md) | 0..1 <br/> [IlIsgsWellPurpose](../classes/IlIsgsWellPurpose.md) |  <br/>  | direct | 379496 |
+| [geo_hasGeometry](../slots/geo_hasGeometry.md) | 0..1 <br/> [GeoGeometry](../classes/GeoGeometry.md) | A spatial representation for a given Feature <br/> source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties<br/>source: http://www.opengis.net/ont/geosparql#<br/>source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties<br/>description: A spatial representation for a given Feature. | direct | 379496 |
 
 
 
@@ -144,19 +144,17 @@ URI: [il_isgs:ISGS-Well](http://sawgraph.spatialai.org/v1/il-isgs#ISGS-Well)
 ```yaml
 name: il_isgs_ISGS-Well
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/il-isgs#ISGS-Well
 rank: 1000
 is_a: owl_Thing
 slots:
+- il_isgs_wellYield
 - il_isgs_hasOwner
 - owl_sameAs
-- rdfs_label
-- il_isgs_wellYield
-- geo_hasGeometry
-- il_isgs_wellPurpose
-- il_isgs_hasISWSId
 - il_isgs_wellDepth
+- rdfs_label
+- il_isgs_hasISWSId
+- il_isgs_wellPurpose
+- geo_hasGeometry
 class_uri: il_isgs:ISGS-Well
 
 ```
@@ -169,16 +167,22 @@ class_uri: il_isgs:ISGS-Well
 ```yaml
 name: il_isgs_ISGS-Well
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/il-isgs#ISGS-Well
 rank: 1000
 is_a: owl_Thing
 attributes:
+  il_isgs_wellYield:
+    name: il_isgs_wellYield
+    from_schema: okns:hydrology-kg
+    rank: 1000
+    slot_uri: il_isgs:wellYield
+    alias: il_isgs_wellYield
+    owner: il_isgs_ISGS-Well
+    domain_of:
+    - il_isgs_ISGS-Well
+    range: il_isgs_WellYield
   il_isgs_hasOwner:
     name: il_isgs_hasOwner
     from_schema: okns:hydrology-kg
-    exact_mappings:
-    - http://sawgraph.spatialai.org/v1/il-isgs#hasOwner
     rank: 1000
     slot_uri: il_isgs:hasOwner
     alias: il_isgs_hasOwner
@@ -190,7 +194,7 @@ attributes:
     name: owl_sameAs
     description: The property that determines that two given individuals are equal.
     title: sameAs
-    comments:
+    notes:
     - No occurrences of this slot in the graph.
     from_schema: okns:owl-rdf-rdfs
     source: http://www.w3.org/2002/07/owl#
@@ -199,12 +203,11 @@ attributes:
     alias: owl_sameAs
     owner: il_isgs_ISGS-Well
     domain_of:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
     - http___gwml2.org_def_gwml2#GW_Aquifer
     - http___gwml2.org_def_gwml2#GW_AquiferSystem
     - http___nhdplusv2.spatialai.org_v1_nhdplusv2#FlowPathLength
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
+    - hyf_HY_ElementaryFlowPath
     - il_isgs_ISGS-Well
     - il_isgs_WellDepthInFt
     - il_isgs_WellPurpose
@@ -216,8 +219,6 @@ attributes:
     - me_mgs_WellType
     - me_mgs_WellUse
     - owl_DataProperty
-    - sf_#MultiPolygon
-    - sf_#Polygon
     - us_sdwis_PWS-ServiceArea
     - us_sdwis_PWS-ServiceAreaType
     - us_sdwis_PWS-SourceWaterType
@@ -229,6 +230,16 @@ attributes:
     - us_sdwis_PublicWaterSystem-SW
     - us_sdwis_PublicWaterSystem-TNCWS
     range: owl_Thing
+  il_isgs_wellDepth:
+    name: il_isgs_wellDepth
+    from_schema: okns:hydrology-kg
+    rank: 1000
+    slot_uri: il_isgs:wellDepth
+    alias: il_isgs_wellDepth
+    owner: il_isgs_ISGS-Well
+    domain_of:
+    - il_isgs_ISGS-Well
+    range: il_isgs_WellDepthInFt
   rdfs_label:
     name: rdfs_label
     description: A human-readable name for the subject.
@@ -240,24 +251,31 @@ attributes:
     alias: rdfs_label
     owner: il_isgs_ISGS-Well
     domain_of:
+    - rdf_List
+    - rdfs_Datatype
     - dcam_VocabularyEncodingScheme
+    - dct_AgentClass
     - qudt_AspectClass
+    - qudt_BinaryPrefix
     - qudt_BitEncodingType
     - qudt_BooleanEncodingType
     - qudt_ByteEncodingType
     - qudt_CardinalityType
     - qudt_CharEncodingType
+    - qudt_ContextualUnit
+    - qudt_CountingUnit
+    - qudt_CurrencyUnit
     - qudt_DateTimeStringEncodingType
+    - qudt_DecimalPrefix
+    - qudt_DerivedUnit
+    - qudt_DimensionlessUnit
     - qudt_EndianType
     - qudt_FloatingPointEncodingType
     - qudt_IntegerEncodingType
+    - qudt_LogarithmicUnit
     - qudt_OrderedType
     - qudt_SignednessType
-    - owl_OntologyProperty
-    - rdf_List
-    - rdfs_Datatype
-    - time_DayOfWeek
-    - time_TemporalUnit
+    - qudt_Unit
     - sdos_ActionStatusType
     - sdos_AdultOrientedEnumeration
     - sdos_BoardingPolicyType
@@ -267,6 +285,7 @@ attributes:
     - sdos_CarUsageType
     - sdos_CertificationStatusEnumeration
     - sdos_ContactPointOption
+    - sdos_DataType
     - sdos_DayOfWeek
     - sdos_DeliveryMethod
     - sdos_DigitalDocumentPermissionType
@@ -338,10 +357,12 @@ attributes:
     - sdos_WearableMeasurementTypeEnumeration
     - sdos_WearableSizeGroupEnumeration
     - sdos_WearableSizeSystemEnumeration
-    - rdf_DatatypeProperty
     - vaem_GraphMetaData
     - vaem_GraphRole
     - vaem_Party
+    - time_DayOfWeek
+    - time_TemporalUnit
+    - rdf_DatatypeProperty
     - vaem_CatalogEntry
     - voag_Attribution
     - voag_AttributionLogo
@@ -387,11 +408,10 @@ attributes:
     - kwgo_StormTrackObservableProperty
     - kwgo_StormTrackletObservableProperty
     - kwgo_VulnerabilityObservableProperty
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
     - http___gwml2.org_def_gwml2#GW_Aquifer
     - http___gwml2.org_def_gwml2#GW_AquiferSystem
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
+    - hyf_HY_ElementaryFlowPath
     - il_isgs_ISGS-Well
     - il_isgs_WellPurpose
     - me_mgs_MGS-Well
@@ -407,64 +427,9 @@ attributes:
     any_of:
     - range: rdfs_Literal
     - range: string
-  il_isgs_wellYield:
-    name: il_isgs_wellYield
-    from_schema: okns:hydrology-kg
-    exact_mappings:
-    - http://sawgraph.spatialai.org/v1/il-isgs#wellYield
-    rank: 1000
-    slot_uri: il_isgs:wellYield
-    alias: il_isgs_wellYield
-    owner: il_isgs_ISGS-Well
-    domain_of:
-    - il_isgs_ISGS-Well
-    range: il_isgs_WellYield
-  geo_hasGeometry:
-    name: geo_hasGeometry
-    description: A spatial representation for a given Feature.
-    title: No slot (predicate) name specified -- this slot is noted as a subproperty
-      of another slot in this graph but has not itself been defined.
-    comments:
-    - 'source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties'
-    - 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties'
-    - 'source: http://www.opengis.net/ont/geosparql#'
-    - 'source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties'
-    - 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties'
-    - 'description: A spatial representation for a given Feature.'
-    - No occurrences of this slot in the graph.
-    from_schema: okns:geo
-    source: http://www.opengis.net/ont/geosparql#
-    domain: geo_Feature
-    slot_uri: geo:hasGeometry
-    alias: geo_hasGeometry
-    owner: il_isgs_ISGS-Well
-    domain_of:
-    - http___gwml2.org_def_gwml2#GW_Aquifer
-    - http___gwml2.org_def_gwml2#GW_AquiferSystem
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
-    - il_isgs_ISGS-Well
-    - me_mgs_MGS-Well
-    - us_sdwis_PWS-ServiceArea
-    range: geo_Geometry
-  il_isgs_wellPurpose:
-    name: il_isgs_wellPurpose
-    from_schema: okns:hydrology-kg
-    exact_mappings:
-    - http://sawgraph.spatialai.org/v1/il-isgs#wellPurpose
-    rank: 1000
-    slot_uri: il_isgs:wellPurpose
-    alias: il_isgs_wellPurpose
-    owner: il_isgs_ISGS-Well
-    domain_of:
-    - il_isgs_ISGS-Well
-    range: il_isgs_WellPurpose
   il_isgs_hasISWSId:
     name: il_isgs_hasISWSId
     from_schema: okns:hydrology-kg
-    exact_mappings:
-    - http://sawgraph.spatialai.org/v1/il-isgs#hasISWSId
     rank: 1000
     slot_uri: il_isgs:hasISWSId
     alias: il_isgs_hasISWSId
@@ -472,18 +437,43 @@ attributes:
     domain_of:
     - il_isgs_ISGS-Well
     range: string
-  il_isgs_wellDepth:
-    name: il_isgs_wellDepth
+  il_isgs_wellPurpose:
+    name: il_isgs_wellPurpose
     from_schema: okns:hydrology-kg
-    exact_mappings:
-    - http://sawgraph.spatialai.org/v1/il-isgs#wellDepth
     rank: 1000
-    slot_uri: il_isgs:wellDepth
-    alias: il_isgs_wellDepth
+    slot_uri: il_isgs:wellPurpose
+    alias: il_isgs_wellPurpose
     owner: il_isgs_ISGS-Well
     domain_of:
     - il_isgs_ISGS-Well
-    range: il_isgs_WellDepthInFt
+    range: il_isgs_WellPurpose
+  geo_hasGeometry:
+    name: geo_hasGeometry
+    description: A spatial representation for a given Feature.
+    title: No slot (predicate) name specified -- this slot is noted as a subproperty
+      of another slot in this graph but has not itself been defined.
+    notes:
+    - No occurrences of this slot in the graph.
+    comments:
+    - 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties'
+    - 'source: http://www.opengis.net/ont/geosparql#'
+    - 'source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties'
+    - 'description: A spatial representation for a given Feature.'
+    from_schema: okns:geo
+    source: http://www.opengis.net/ont/geosparql#
+    domain: geo_Feature
+    slot_uri: geo:hasGeometry
+    alias: geo_hasGeometry
+    owner: il_isgs_ISGS-Well
+    domain_of:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
+    - http___gwml2.org_def_gwml2#GW_Aquifer
+    - http___gwml2.org_def_gwml2#GW_AquiferSystem
+    - hyf_HY_ElementaryFlowPath
+    - il_isgs_ISGS-Well
+    - me_mgs_MGS-Well
+    - us_sdwis_PWS-ServiceArea
+    range: geo_Geometry
 class_uri: il_isgs:ISGS-Well
 
 ```
