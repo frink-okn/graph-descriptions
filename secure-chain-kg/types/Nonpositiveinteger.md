@@ -7,7 +7,7 @@ _An integer that is not positive_
 
 
 
-URI: [xsd:nonPositiveInteger](http://www.w3.org/2001/XMLSchema#nonPositiveInteger)
+URI: [xsd:nonPositiveInteger](xsd:nonPositiveInteger)
 
 * [base](https://w3id.org/linkml/base): int
 

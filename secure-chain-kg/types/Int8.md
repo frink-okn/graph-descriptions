@@ -7,7 +7,7 @@ _An 8-bit signed integer_
 
 
 
-URI: [xsd:byte](http://www.w3.org/2001/XMLSchema#byte)
+URI: [xsd:byte](xsd:byte)
 
 * [base](https://w3id.org/linkml/base): int
 
