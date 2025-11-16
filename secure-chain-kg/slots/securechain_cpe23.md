@@ -32,7 +32,7 @@ URI: [securechain:cpe23](https://w3id.org/secure-chain/cpe23)
 
 ## Properties
 
-* Range: [xsd:string](xsd:string)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
