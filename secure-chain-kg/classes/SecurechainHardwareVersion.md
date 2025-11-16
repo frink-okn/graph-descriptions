@@ -104,13 +104,13 @@ URI: [securechain:HardwareVersion](https://w3id.org/secure-chain/HardwareVersion
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [securechain_cpe23](../slots/securechain_cpe23.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 61042 |
-| [securechain_vulnerableTo](../slots/securechain_vulnerableTo.md) | 0..1 <br/> [SecurechainVulnerability](../classes/SecurechainVulnerability.md) |  <br/>  | direct | 46230 |
-| [securechain_versionName](../slots/securechain_versionName.md) | 0..1 <br/> [xsd:string](xsd:string)&nbsp;or&nbsp;<br />[SdosText](../classes/SdosText.md) |  <br/>  | direct | 59978 |
-| [sdos_name](../slots/sdos_name.md) | 0..1 <br/> [SdosText](../classes/SdosText.md) | The name of the item <br/>  | direct | 60799 |
 | [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/>  | direct | 18094 |
-| [sdos_manufacturer](../slots/sdos_manufacturer.md) | 0..1 <br/> [SdosOrganization](../classes/SdosOrganization.md) | The manufacturer of the product | [SecurechainHardware](../classes/SecurechainHardware.md) |  |
+| [securechain_vulnerableTo](../slots/securechain_vulnerableTo.md) | 0..1 <br/> [SecurechainVulnerability](../classes/SecurechainVulnerability.md) |  <br/>  | direct | 46230 |
+| [sdos_name](../slots/sdos_name.md) | 0..1 <br/> [SdosText](../classes/SdosText.md) | The name of the item <br/>  | direct | 60799 |
+| [securechain_cpe23](../slots/securechain_cpe23.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 61042 |
+| [securechain_versionName](../slots/securechain_versionName.md) | 0..1 <br/> [xsd:string](xsd:string)&nbsp;or&nbsp;<br />[SdosText](../classes/SdosText.md) |  <br/>  | direct | 59978 |
 | [securechain_hasHardwareVersion](../slots/securechain_hasHardwareVersion.md) | 0..1 <br/> [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) |  | [SecurechainHardware](../classes/SecurechainHardware.md) |  |
+| [sdos_manufacturer](../slots/sdos_manufacturer.md) | 0..1 <br/> [SdosOrganization](../classes/SdosOrganization.md) | The manufacturer of the product | [SecurechainHardware](../classes/SecurechainHardware.md) |  |
 
 
 
@@ -147,11 +147,11 @@ from_schema: okns:secure-chain-kg
 rank: 1000
 is_a: securechain_Hardware
 slots:
-- securechain_cpe23
-- securechain_vulnerableTo
-- securechain_versionName
-- sdos_name
 - owl_sameAs
+- securechain_vulnerableTo
+- sdos_name
+- securechain_cpe23
+- securechain_versionName
 class_uri: securechain:HardwareVersion
 
 ```
@@ -167,16 +167,21 @@ from_schema: okns:secure-chain-kg
 rank: 1000
 is_a: securechain_Hardware
 attributes:
-  securechain_cpe23:
-    name: securechain_cpe23
-    from_schema: okns:secure-chain-kg
-    rank: 1000
-    slot_uri: securechain:cpe23
-    alias: securechain_cpe23
+  owl_sameAs:
+    name: owl_sameAs
+    description: The property that determines that two given individuals are equal.
+    title: sameAs
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:owl-rdf-rdfs
+    source: http://www.w3.org/2002/07/owl#
+    domain: owl_Thing
+    slot_uri: owl:sameAs
+    alias: owl_sameAs
     owner: securechain_HardwareVersion
     domain_of:
     - securechain_HardwareVersion
-    range: string
+    range: owl_Thing
   securechain_vulnerableTo:
     name: securechain_vulnerableTo
     from_schema: okns:secure-chain-kg
@@ -188,19 +193,6 @@ attributes:
     domain_of:
     - securechain_HardwareVersion
     range: securechain_Vulnerability
-  securechain_versionName:
-    name: securechain_versionName
-    from_schema: okns:secure-chain-kg
-    rank: 1000
-    slot_uri: securechain:versionName
-    alias: securechain_versionName
-    owner: securechain_HardwareVersion
-    domain_of:
-    - securechain_HardwareVersion
-    range: Any
-    any_of:
-    - range: string
-    - range: sdos_Text
   sdos_name:
     name: sdos_name
     description: The name of the item.
@@ -219,21 +211,40 @@ attributes:
     - securechain_HardwareVersion
     subproperty_of: rdfs_label
     range: sdos_Text
-  owl_sameAs:
-    name: owl_sameAs
-    description: The property that determines that two given individuals are equal.
-    title: sameAs
-    notes:
-    - No occurrences of this slot in the graph.
-    from_schema: okns:owl-rdf-rdfs
-    source: http://www.w3.org/2002/07/owl#
-    domain: owl_Thing
-    slot_uri: owl:sameAs
-    alias: owl_sameAs
+  securechain_cpe23:
+    name: securechain_cpe23
+    from_schema: okns:secure-chain-kg
+    rank: 1000
+    slot_uri: securechain:cpe23
+    alias: securechain_cpe23
     owner: securechain_HardwareVersion
     domain_of:
     - securechain_HardwareVersion
-    range: owl_Thing
+    range: string
+  securechain_versionName:
+    name: securechain_versionName
+    from_schema: okns:secure-chain-kg
+    rank: 1000
+    slot_uri: securechain:versionName
+    alias: securechain_versionName
+    owner: securechain_HardwareVersion
+    domain_of:
+    - securechain_HardwareVersion
+    range: Any
+    any_of:
+    - range: string
+    - range: sdos_Text
+  securechain_hasHardwareVersion:
+    name: securechain_hasHardwareVersion
+    from_schema: okns:secure-chain-kg
+    rank: 1000
+    domain: securechain_Hardware
+    slot_uri: securechain:hasHardwareVersion
+    alias: securechain_hasHardwareVersion
+    owner: securechain_HardwareVersion
+    domain_of:
+    - securechain_Hardware
+    range: securechain_HardwareVersion
   sdos_manufacturer:
     name: sdos_manufacturer
     description: The manufacturer of the product.
@@ -248,17 +259,6 @@ attributes:
     domain_of:
     - securechain_Hardware
     range: sdos_Organization
-  securechain_hasHardwareVersion:
-    name: securechain_hasHardwareVersion
-    from_schema: okns:secure-chain-kg
-    rank: 1000
-    domain: securechain_Hardware
-    slot_uri: securechain:hasHardwareVersion
-    alias: securechain_hasHardwareVersion
-    owner: securechain_HardwareVersion
-    domain_of:
-    - securechain_Hardware
-    range: securechain_HardwareVersion
 class_uri: securechain:HardwareVersion
 
 ```
