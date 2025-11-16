@@ -3437,16 +3437,16 @@ SdosWearableSizeSystemEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
 SecurechainHardware ||--|o SdosOrganization : "sdos_manufacturer"
 SecurechainHardware ||--|o SecurechainHardwareVersion : "securechain_hasHardwareVersion"
 SecurechainHardware ||--|o SdosText : "sdos_name"
-SecurechainHardwareVersion ||--|o SdosText : "sdos_name"
-SecurechainHardwareVersion ||--|o OwlThing : "owl_sameAs"
 SecurechainHardwareVersion ||--|o SdosText : "securechain_versionName"
 SecurechainHardwareVersion ||--|o SecurechainVulnerability : "securechain_vulnerableTo"
+SecurechainHardwareVersion ||--|o SdosText : "sdos_name"
+SecurechainHardwareVersion ||--|o OwlThing : "owl_sameAs"
 SecurechainHardwareVersion ||--|o SdosOrganization : "sdos_manufacturer"
 SecurechainHardwareVersion ||--|o SecurechainHardwareVersion : "securechain_hasHardwareVersion"
+SecurechainVulnerability ||--|o SecurechainVulnerabilityType : "securechain_vulnerabilityType"
 SecurechainVulnerability ||--|o SdosURL : "sdos_identifier"
 SecurechainVulnerability ||--|o SdosPropertyValue : "sdos_identifier"
 SecurechainVulnerability ||--|o SdosText : "sdos_identifier"
-SecurechainVulnerability ||--|o SecurechainVulnerabilityType : "securechain_vulnerabilityType"
 SecurechainVulnerabilityType ||--|o SdosURL : "sdos_identifier"
 SecurechainVulnerabilityType ||--|o SdosPropertyValue : "sdos_identifier"
 SecurechainVulnerabilityType ||--|o SdosText : "sdos_identifier"
@@ -3458,9 +3458,9 @@ SecurechainVulnerabilityType ||--|o SdosText : "sdos_identifier"
 ## Imports
 
 
-* okns:extended_types
 * okns:sdo
 * linkml:types
+* okns:extended_types
 * okns:owl-rdf-rdfs
 
 
