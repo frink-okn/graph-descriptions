@@ -3439,8 +3439,8 @@ SecurechainHardware ||--|o SecurechainHardwareVersion : "securechain_hasHardware
 SecurechainHardware ||--|o SdosText : "sdos_name"
 SecurechainHardwareVersion ||--|o SdosText : "securechain_versionName"
 SecurechainHardwareVersion ||--|o SecurechainVulnerability : "securechain_vulnerableTo"
-SecurechainHardwareVersion ||--|o SdosText : "sdos_name"
 SecurechainHardwareVersion ||--|o OwlThing : "owl_sameAs"
+SecurechainHardwareVersion ||--|o SdosText : "sdos_name"
 SecurechainHardwareVersion ||--|o SdosOrganization : "sdos_manufacturer"
 SecurechainHardwareVersion ||--|o SecurechainHardwareVersion : "securechain_hasHardwareVersion"
 SecurechainVulnerability ||--|o SecurechainVulnerabilityType : "securechain_vulnerabilityType"
@@ -3458,10 +3458,10 @@ SecurechainVulnerabilityType ||--|o SdosText : "sdos_identifier"
 ## Imports
 
 
-* okns:sdo
 * linkml:types
 * okns:extended_types
 * okns:owl-rdf-rdfs
+* okns:sdo
 
 
 
