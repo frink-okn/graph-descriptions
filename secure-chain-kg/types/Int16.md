@@ -7,7 +7,7 @@ _A 16-bit signed integer_
 
 
 
-URI: [xsd:short](http://www.w3.org/2001/XMLSchema#short)
+URI: [xsd:short](xsd:short)
 
 * [base](https://w3id.org/linkml/base): int
 
