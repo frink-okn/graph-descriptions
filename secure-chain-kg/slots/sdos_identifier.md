@@ -10,7 +10,7 @@ _The identifier property represents any kind of identifier for any kind of [[Thi
 
 
 
-This slot occurs 261432 times.
+This slot occurs 313126 times.
 
 
 URI: [sdos:identifier](https://schema.org/identifier)
@@ -27,10 +27,7 @@ URI: [sdos:identifier](https://schema.org/identifier)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SecurechainSoftware](../classes/SecurechainSoftware.md) |  |  no  |
 | [SecurechainVulnerabilityType](../classes/SecurechainVulnerabilityType.md) |  |  no  |
-| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) |  |  no  |
-| [SecurechainLicense](../classes/SecurechainLicense.md) |  |  no  |
 | [SecurechainVulnerability](../classes/SecurechainVulnerability.md) |  |  no  |
 
 
@@ -68,8 +65,6 @@ exact_mappings:
 domain: sdos_Thing
 slot_uri: sdos:identifier
 domain_of:
-- securechain_License
-- securechain_Software
 - securechain_Vulnerability
 - securechain_VulnerabilityType
 range: Any

@@ -10,7 +10,7 @@ _The manufacturer of the product._
 
 
 
-This slot occurs 54369 times.
+This slot occurs 56805 times.
 
 
 URI: [sdos:manufacturer](https://schema.org/manufacturer)
@@ -28,8 +28,6 @@ URI: [sdos:manufacturer](https://schema.org/manufacturer)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [SecurechainHardware](../classes/SecurechainHardware.md) |  |  no  |
-| [SecurechainSoftware](../classes/SecurechainSoftware.md) |  |  no  |
-| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) |  |  no  |
 | [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) |  |  no  |
 
 
@@ -63,7 +61,6 @@ domain: sdos_Product
 slot_uri: sdos:manufacturer
 domain_of:
 - securechain_Hardware
-- securechain_Software
 range: sdos_Organization
 
 ```

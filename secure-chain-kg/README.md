@@ -3094,23 +3094,20 @@ SdosZoo {
 
 }
 SecurechainHardware {
-    string securechain_ecosystem  
+
 }
 SecurechainHardwareVersion {
     string securechain_versionName  
-    string securechain_ecosystem  
+    string securechain_cpe23  
 }
 SecurechainLicense {
 
 }
 SecurechainSoftware {
-    string securechain_ecosystem  
-    uri sdos_contributor  
+
 }
 SecurechainSoftwareVersion {
-    string securechain_versionName  
-    string securechain_ecosystem  
-    uri sdos_contributor  
+
 }
 SecurechainVulnerability {
 
@@ -3437,61 +3434,19 @@ SdosWearableSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosWearableSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosWearableSizeSystemEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosWearableSizeSystemEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SecurechainHardware ||--|o SecurechainSoftwareVersion : "securechain_hasSoftwareVersion"
-SecurechainHardware ||--|o SdosText : "securechain_ecosystem"
 SecurechainHardware ||--|o SdosText : "sdos_name"
-SecurechainHardware ||--|o SdosComputerLanguage : "sdos_programmingLanguage"
-SecurechainHardware ||--|o SdosText : "sdos_programmingLanguage"
 SecurechainHardware ||--|o SecurechainHardwareVersion : "securechain_hasHardwareVersion"
 SecurechainHardware ||--|o SdosOrganization : "sdos_manufacturer"
-SecurechainHardwareVersion ||--|o SecurechainVulnerability : "securechain_vulnerableTo"
+SecurechainHardwareVersion ||--|o OwlThing : "owl_sameAs"
 SecurechainHardwareVersion ||--|o SdosText : "securechain_versionName"
-SecurechainHardwareVersion ||--|o SecurechainSoftwareVersion : "securechain_hasSoftwareVersion"
-SecurechainHardwareVersion ||--|o SdosText : "securechain_ecosystem"
+SecurechainHardwareVersion ||--|o SecurechainVulnerability : "securechain_vulnerableTo"
 SecurechainHardwareVersion ||--|o SdosText : "sdos_name"
-SecurechainHardwareVersion ||--|o SdosComputerLanguage : "sdos_programmingLanguage"
-SecurechainHardwareVersion ||--|o SdosText : "sdos_programmingLanguage"
 SecurechainHardwareVersion ||--|o SecurechainHardwareVersion : "securechain_hasHardwareVersion"
 SecurechainHardwareVersion ||--|o SdosOrganization : "sdos_manufacturer"
-SecurechainLicense ||--|o SdosText : "sdos_name"
-SecurechainLicense ||--|o SdosURL : "sdos_identifier"
-SecurechainLicense ||--|o SdosPropertyValue : "sdos_identifier"
-SecurechainLicense ||--|o SdosText : "sdos_identifier"
-SecurechainSoftware ||--|o SecurechainSoftwareVersion : "securechain_hasSoftwareVersion"
-SecurechainSoftware ||--|o SdosText : "securechain_ecosystem"
-SecurechainSoftware ||--|o SdosURL : "sdos_url"
-SecurechainSoftware ||--|o SdosOrganization : "sdos_contributor"
-SecurechainSoftware ||--|o SdosPerson : "sdos_contributor"
-SecurechainSoftware ||--|o SdosText : "sdos_name"
-SecurechainSoftware ||--|o SdosComputerLanguage : "sdos_programmingLanguage"
-SecurechainSoftware ||--|o SdosText : "sdos_programmingLanguage"
-SecurechainSoftware ||--|o SdosURL : "sdos_identifier"
-SecurechainSoftware ||--|o SdosPropertyValue : "sdos_identifier"
-SecurechainSoftware ||--|o SdosText : "sdos_identifier"
-SecurechainSoftware ||--|o SecurechainHardwareVersion : "securechain_hasHardwareVersion"
-SecurechainSoftware ||--|o SdosOrganization : "sdos_manufacturer"
-SecurechainSoftwareVersion ||--|o SdosText : "securechain_versionName"
-SecurechainSoftwareVersion ||--|o SdosURL : "sdos_url"
-SecurechainSoftwareVersion ||--|o SdosURL : "sdos_license"
-SecurechainSoftwareVersion ||--|o SdosCreativeWork : "sdos_license"
-SecurechainSoftwareVersion ||--|o SecurechainSoftwareVersion : "securechain_dependsOn"
-SecurechainSoftwareVersion ||--|o SecurechainVulnerability : "securechain_vulnerableTo"
-SecurechainSoftwareVersion ||--|o SecurechainSoftwareVersion : "securechain_hasSoftwareVersion"
-SecurechainSoftwareVersion ||--|o SdosText : "securechain_ecosystem"
-SecurechainSoftwareVersion ||--|o SdosOrganization : "sdos_contributor"
-SecurechainSoftwareVersion ||--|o SdosPerson : "sdos_contributor"
-SecurechainSoftwareVersion ||--|o SdosText : "sdos_name"
-SecurechainSoftwareVersion ||--|o SdosComputerLanguage : "sdos_programmingLanguage"
-SecurechainSoftwareVersion ||--|o SdosText : "sdos_programmingLanguage"
-SecurechainSoftwareVersion ||--|o SdosURL : "sdos_identifier"
-SecurechainSoftwareVersion ||--|o SdosPropertyValue : "sdos_identifier"
-SecurechainSoftwareVersion ||--|o SdosText : "sdos_identifier"
-SecurechainSoftwareVersion ||--|o SecurechainHardwareVersion : "securechain_hasHardwareVersion"
-SecurechainSoftwareVersion ||--|o SdosOrganization : "sdos_manufacturer"
+SecurechainVulnerability ||--|o SecurechainVulnerabilityType : "securechain_vulnerabilityType"
 SecurechainVulnerability ||--|o SdosURL : "sdos_identifier"
 SecurechainVulnerability ||--|o SdosPropertyValue : "sdos_identifier"
 SecurechainVulnerability ||--|o SdosText : "sdos_identifier"
-SecurechainVulnerability ||--|o SecurechainVulnerabilityType : "securechain_vulnerabilityType"
 SecurechainVulnerabilityType ||--|o SdosURL : "sdos_identifier"
 SecurechainVulnerabilityType ||--|o SdosPropertyValue : "sdos_identifier"
 SecurechainVulnerabilityType ||--|o SdosText : "sdos_identifier"
@@ -3503,9 +3458,10 @@ SecurechainVulnerabilityType ||--|o SdosText : "sdos_identifier"
 ## Imports
 
 
-* okns:sdo
+* okns:owl-rdf-rdfs
 * linkml:types
 * okns:extended_types
+* okns:sdo
 
 
 
@@ -3516,15 +3472,15 @@ SecurechainVulnerabilityType ||--|o SdosText : "sdos_identifier"
 | [SdosThing](classes/SdosThing.md) | The most generic type of item.<br/>|  | 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SdosCreativeWork](classes/SdosCreativeWork.md) | The most generic kind of creative work, including books, movies, photographs, software programs, etc.<br/>|  | 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SdosSoftwareApplication](classes/SdosSoftwareApplication.md) | A software application.<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SecurechainSoftware](classes/SecurechainSoftware.md) | None<br/>| 803769 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SecurechainSoftwareVersion](classes/SecurechainSoftwareVersion.md) | None<br/>| 8593149 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SecurechainLicense](classes/SecurechainLicense.md) | None<br/>| 294 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SecurechainSoftware](classes/SecurechainSoftware.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SecurechainSoftwareVersion](classes/SecurechainSoftwareVersion.md) | None<br/>|  | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SecurechainLicense](classes/SecurechainLicense.md) | None<br/>|  | 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SdosIntangible](classes/SdosIntangible.md) | A utility class that serves as the umbrella for a number of 'intangible' things such as quantities, structured values, etc.<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SecurechainVulnerability](classes/SecurechainVulnerability.md) | None<br/>| 259806 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SecurechainVulnerabilityType](classes/SecurechainVulnerabilityType.md) | None<br/>| 445 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SecurechainVulnerability](classes/SecurechainVulnerability.md) | None<br/>| 312386 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SecurechainVulnerabilityType](classes/SecurechainVulnerabilityType.md) | None<br/>| 740 | 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SdosProduct](classes/SdosProduct.md) | Any offered product or service. For example: a pair of shoes; a concert ticket; the rental of a car; a haircut; or an episode of a TV show streamed online.<br/>|  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SecurechainHardware](classes/SecurechainHardware.md) | None<br/>| 53378 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SecurechainHardwareVersion](classes/SecurechainHardwareVersion.md) | None<br/>| 57295 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SecurechainHardware](classes/SecurechainHardware.md) | None<br/>| 55764 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SecurechainHardwareVersion](classes/SecurechainHardwareVersion.md) | None<br/>| 59978 | 
 
 
 
@@ -3534,15 +3490,16 @@ SecurechainVulnerabilityType ||--|o SdosText : "sdos_identifier"
 
 | Slot | Description | Occurrences |
 | --- | --- | --- |
-| [securechain_dependsOn](slots/securechain_dependsOn.md) | <br/>| 29787726 |
+| [securechain_cpe23](slots/securechain_cpe23.md) | <br/>| 61042 |
+| [securechain_dependsOn](slots/securechain_dependsOn.md) | <br/>|  |
 | [securechain_discover](slots/securechain_discover.md) | <br/>|  |
-| [securechain_ecosystem](slots/securechain_ecosystem.md) | <br/>| 803769 |
-| [securechain_hasHardwareVersion](slots/securechain_hasHardwareVersion.md) | <br/>| 57295 |
-| [securechain_hasSoftwareVersion](slots/securechain_hasSoftwareVersion.md) | <br/>| 8593149 |
+| [securechain_ecosystem](slots/securechain_ecosystem.md) | <br/>|  |
+| [securechain_hasHardwareVersion](slots/securechain_hasHardwareVersion.md) | <br/>| 59978 |
+| [securechain_hasSoftwareVersion](slots/securechain_hasSoftwareVersion.md) | <br/>|  |
 | [securechain_operatesOn](slots/securechain_operatesOn.md) | <br/>|  |
-| [securechain_versionName](slots/securechain_versionName.md) | <br/>| 8650443 |
-| [securechain_vulnerabilityType](slots/securechain_vulnerabilityType.md) | <br/>| 177404 |
-| [securechain_vulnerableTo](slots/securechain_vulnerableTo.md) | <br/>| 835140 |
+| [securechain_versionName](slots/securechain_versionName.md) | <br/>| 59978 |
+| [securechain_vulnerabilityType](slots/securechain_vulnerabilityType.md) | <br/>| 262828 |
+| [securechain_vulnerableTo](slots/securechain_vulnerableTo.md) | <br/>| 46230 |
 
 
 
@@ -3562,3 +3519,4 @@ SecurechainVulnerabilityType ||--|o SdosText : "sdos_identifier"
 * rdfs: http://www.w3.org/2000/01/rdf-schema#
 * sdos: https://schema.org/
 * securechain: https://w3id.org/secure-chain/
+* sudokn: http://asu.edu/semantics/SUDOKN/

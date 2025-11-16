@@ -1,14 +1,14 @@
 
 
-# Slot: securechain_vulnerableTo
+# Slot: securechain_cpe23
 
 
 
 
-This slot occurs 46230 times.
+This slot occurs 61042 times.
 
 
-URI: [securechain:vulnerableTo](https://w3id.org/secure-chain/vulnerableTo)
+URI: [securechain:cpe23](https://w3id.org/secure-chain/cpe23)
 
 
 
@@ -32,7 +32,7 @@ URI: [securechain:vulnerableTo](https://w3id.org/secure-chain/vulnerableTo)
 
 ## Properties
 
-* Range: [SecurechainVulnerability](../classes/SecurechainVulnerability.md)
+* Range: [xsd:string](xsd:string)
 
 
 
@@ -45,15 +45,14 @@ URI: [securechain:vulnerableTo](https://w3id.org/secure-chain/vulnerableTo)
 <details>
 
 ```yaml
-name: securechain_vulnerableTo
+name: securechain_cpe23
 from_schema: okns:secure-chain-kg
 rank: 1000
-domain: securechain_SoftwareVersion
-slot_uri: securechain:vulnerableTo
-alias: securechain_vulnerableTo
+slot_uri: securechain:cpe23
+alias: securechain_cpe23
 domain_of:
 - securechain_HardwareVersion
-range: securechain_Vulnerability
+range: string
 
 ```
 </details>

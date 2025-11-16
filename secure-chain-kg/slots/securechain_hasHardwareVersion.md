@@ -5,7 +5,7 @@
 
 
 
-This slot occurs 57295 times.
+This slot occurs 59978 times.
 
 
 URI: [securechain:hasHardwareVersion](https://w3id.org/secure-chain/hasHardwareVersion)
@@ -23,8 +23,6 @@ URI: [securechain:hasHardwareVersion](https://w3id.org/secure-chain/hasHardwareV
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [SecurechainHardware](../classes/SecurechainHardware.md) |  |  no  |
-| [SecurechainSoftware](../classes/SecurechainSoftware.md) |  |  no  |
-| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) |  |  no  |
 | [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) |  |  no  |
 
 
@@ -56,7 +54,6 @@ slot_uri: securechain:hasHardwareVersion
 alias: securechain_hasHardwareVersion
 domain_of:
 - securechain_Hardware
-- securechain_Software
 range: securechain_HardwareVersion
 
 ```

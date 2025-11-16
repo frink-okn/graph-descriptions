@@ -10,7 +10,7 @@ _An organization such as a school, NGO, corporation, club, etc._
 
 
 
-This class occurs 22889 times.
+This class occurs 1663 times.
 
 
 URI: [sdos:Organization](https://schema.org/Organization)
@@ -125,10 +125,6 @@ URI: [sdos:Organization](https://schema.org/Organization)
 | [SdosSteeringPositionValue](../classes/SdosSteeringPositionValue.md) | [sdos_contributor](../slots/sdos_contributor.md) | any_of[range] | [SdosOrganization](../classes/SdosOrganization.md) |
 | [SecurechainHardware](../classes/SecurechainHardware.md) | [sdos_manufacturer](../slots/sdos_manufacturer.md) | range | [SdosOrganization](../classes/SdosOrganization.md) |
 | [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) | [sdos_manufacturer](../slots/sdos_manufacturer.md) | range | [SdosOrganization](../classes/SdosOrganization.md) |
-| [SecurechainSoftware](../classes/SecurechainSoftware.md) | [sdos_contributor](../slots/sdos_contributor.md) | any_of[range] | [SdosOrganization](../classes/SdosOrganization.md) |
-| [SecurechainSoftware](../classes/SecurechainSoftware.md) | [sdos_manufacturer](../slots/sdos_manufacturer.md) | range | [SdosOrganization](../classes/SdosOrganization.md) |
-| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | [sdos_contributor](../slots/sdos_contributor.md) | any_of[range] | [SdosOrganization](../classes/SdosOrganization.md) |
-| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) | [sdos_manufacturer](../slots/sdos_manufacturer.md) | range | [SdosOrganization](../classes/SdosOrganization.md) |
 
 
 

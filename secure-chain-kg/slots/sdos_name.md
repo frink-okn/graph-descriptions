@@ -10,7 +10,7 @@ _The name of the item._
 
 
 
-This slot occurs 906771 times.
+This slot occurs 123248 times.
 
 
 URI: [sdos:name](https://schema.org/name)
@@ -29,9 +29,6 @@ URI: [sdos:name](https://schema.org/name)
 | --- | --- | --- |
 | [SecurechainHardware](../classes/SecurechainHardware.md) |  |  no  |
 | [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) |  |  no  |
-| [SecurechainSoftware](../classes/SecurechainSoftware.md) |  |  no  |
-| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) |  |  no  |
-| [SecurechainLicense](../classes/SecurechainLicense.md) |  |  no  |
 
 
 
@@ -66,8 +63,7 @@ domain: sdos_Thing
 slot_uri: sdos:name
 domain_of:
 - securechain_Hardware
-- securechain_License
-- securechain_Software
+- securechain_HardwareVersion
 subproperty_of: rdfs_label
 range: sdos_Text
 
