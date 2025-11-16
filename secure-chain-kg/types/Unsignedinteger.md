@@ -7,7 +7,7 @@ _An integer that is non-negative_
 
 
 
-URI: [xsd:unsignedInt](http://www.w3.org/2001/XMLSchema#unsignedInt)
+URI: [xsd:unsignedInt](xsd:unsignedInt)
 
 * [base](https://w3id.org/linkml/base): int
 
