@@ -32,7 +32,7 @@ URI: [securechain:versionName](https://w3id.org/secure-chain/versionName)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](xsd:string)&nbsp;or&nbsp;<br />[SdosText](../classes/SdosText.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[SdosText](../classes/SdosText.md)
 
 
 

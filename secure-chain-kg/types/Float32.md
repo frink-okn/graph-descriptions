@@ -7,7 +7,7 @@ _A 32-bit floating point number_
 
 
 
-URI: [xsd:float](xsd:float)
+URI: [xsd:float](http://www.w3.org/2001/XMLSchema#float)
 
 * [base](https://w3id.org/linkml/base): float
 

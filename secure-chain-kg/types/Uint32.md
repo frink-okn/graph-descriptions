@@ -7,7 +7,7 @@ _A 32-bit unsigned integer_
 
 
 
-URI: [xsd:unsignedInt](xsd:unsignedInt)
+URI: [xsd:unsignedInt](http://www.w3.org/2001/XMLSchema#unsignedInt)
 
 * [base](https://w3id.org/linkml/base): int
 
