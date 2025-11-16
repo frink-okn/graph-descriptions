@@ -3097,8 +3097,8 @@ SecurechainHardware {
 
 }
 SecurechainHardwareVersion {
-    string securechain_versionName  
     string securechain_cpe23  
+    string securechain_versionName  
 }
 SecurechainLicense {
 
@@ -3434,12 +3434,12 @@ SdosWearableSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosWearableSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosWearableSizeSystemEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosWearableSizeSystemEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SecurechainHardware ||--|o SdosText : "sdos_name"
 SecurechainHardware ||--|o SecurechainHardwareVersion : "securechain_hasHardwareVersion"
 SecurechainHardware ||--|o SdosOrganization : "sdos_manufacturer"
+SecurechainHardware ||--|o SdosText : "sdos_name"
 SecurechainHardwareVersion ||--|o SdosText : "securechain_versionName"
-SecurechainHardwareVersion ||--|o SecurechainVulnerability : "securechain_vulnerableTo"
 SecurechainHardwareVersion ||--|o OwlThing : "owl_sameAs"
+SecurechainHardwareVersion ||--|o SecurechainVulnerability : "securechain_vulnerableTo"
 SecurechainHardwareVersion ||--|o SdosText : "sdos_name"
 SecurechainHardwareVersion ||--|o SecurechainHardwareVersion : "securechain_hasHardwareVersion"
 SecurechainHardwareVersion ||--|o SdosOrganization : "sdos_manufacturer"
@@ -3458,9 +3458,9 @@ SecurechainVulnerabilityType ||--|o SdosText : "sdos_identifier"
 ## Imports
 
 
+* linkml:types
 * okns:extended_types
 * okns:owl-rdf-rdfs
-* linkml:types
 * okns:sdo
 
 
