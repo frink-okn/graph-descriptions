@@ -104,11 +104,11 @@ URI: [securechain:HardwareVersion](https://w3id.org/secure-chain/HardwareVersion
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [sdos_name](../slots/sdos_name.md) | 0..1 <br/> [SdosText](../classes/SdosText.md) | The name of the item <br/>  | direct | 60799 |
 | [securechain_vulnerableTo](../slots/securechain_vulnerableTo.md) | 0..1 <br/> [SecurechainVulnerability](../classes/SecurechainVulnerability.md) |  <br/>  | direct | 46230 |
 | [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/>  | direct | 18094 |
-| [securechain_cpe23](../slots/securechain_cpe23.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 61042 |
-| [securechain_versionName](../slots/securechain_versionName.md) | 0..1 <br/> [xsd:string](xsd:string)&nbsp;or&nbsp;<br />[SdosText](../classes/SdosText.md) |  <br/>  | direct | 59978 |
+| [securechain_versionName](../slots/securechain_versionName.md) | 0..1 <br/> [SdosText](../classes/SdosText.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 59978 |
+| [sdos_name](../slots/sdos_name.md) | 0..1 <br/> [SdosText](../classes/SdosText.md) | The name of the item <br/>  | direct | 60799 |
+| [securechain_cpe23](../slots/securechain_cpe23.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 61042 |
 | [securechain_hasHardwareVersion](../slots/securechain_hasHardwareVersion.md) | 0..1 <br/> [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) |  | [SecurechainHardware](../classes/SecurechainHardware.md) |  |
 | [sdos_manufacturer](../slots/sdos_manufacturer.md) | 0..1 <br/> [SdosOrganization](../classes/SdosOrganization.md) | The manufacturer of the product | [SecurechainHardware](../classes/SecurechainHardware.md) |  |
 
@@ -147,11 +147,11 @@ from_schema: okns:secure-chain-kg
 rank: 1000
 is_a: securechain_Hardware
 slots:
-- sdos_name
 - securechain_vulnerableTo
 - owl_sameAs
-- securechain_cpe23
 - securechain_versionName
+- sdos_name
+- securechain_cpe23
 class_uri: securechain:HardwareVersion
 
 ```
@@ -167,24 +167,6 @@ from_schema: okns:secure-chain-kg
 rank: 1000
 is_a: securechain_Hardware
 attributes:
-  sdos_name:
-    name: sdos_name
-    description: The name of the item.
-    title: name
-    notes:
-    - No occurrences of this slot in the graph.
-    from_schema: okns:sdo
-    exact_mappings:
-    - http://purl.org/dc/terms/title
-    domain: sdos_Thing
-    slot_uri: sdos:name
-    alias: sdos_name
-    owner: securechain_HardwareVersion
-    domain_of:
-    - securechain_Hardware
-    - securechain_HardwareVersion
-    subproperty_of: rdfs_label
-    range: sdos_Text
   securechain_vulnerableTo:
     name: securechain_vulnerableTo
     from_schema: okns:secure-chain-kg
@@ -211,16 +193,6 @@ attributes:
     domain_of:
     - securechain_HardwareVersion
     range: owl_Thing
-  securechain_cpe23:
-    name: securechain_cpe23
-    from_schema: okns:secure-chain-kg
-    rank: 1000
-    slot_uri: securechain:cpe23
-    alias: securechain_cpe23
-    owner: securechain_HardwareVersion
-    domain_of:
-    - securechain_HardwareVersion
-    range: string
   securechain_versionName:
     name: securechain_versionName
     from_schema: okns:secure-chain-kg
@@ -232,8 +204,36 @@ attributes:
     - securechain_HardwareVersion
     range: Any
     any_of:
-    - range: string
     - range: sdos_Text
+    - range: string
+  sdos_name:
+    name: sdos_name
+    description: The name of the item.
+    title: name
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:sdo
+    exact_mappings:
+    - http://purl.org/dc/terms/title
+    domain: sdos_Thing
+    slot_uri: sdos:name
+    alias: sdos_name
+    owner: securechain_HardwareVersion
+    domain_of:
+    - securechain_Hardware
+    - securechain_HardwareVersion
+    subproperty_of: rdfs_label
+    range: sdos_Text
+  securechain_cpe23:
+    name: securechain_cpe23
+    from_schema: okns:secure-chain-kg
+    rank: 1000
+    slot_uri: securechain:cpe23
+    alias: securechain_cpe23
+    owner: securechain_HardwareVersion
+    domain_of:
+    - securechain_HardwareVersion
+    range: string
   securechain_hasHardwareVersion:
     name: securechain_hasHardwareVersion
     from_schema: okns:secure-chain-kg
