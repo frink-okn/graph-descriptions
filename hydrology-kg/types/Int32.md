@@ -7,11 +7,11 @@ _A 32-bit signed integer_
 
 
 
-URI: [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
+URI: [xsd:int](http://www.w3.org/2001/XMLSchema#int)
 
 * [base](https://w3id.org/linkml/base): int
 
-* [uri](https://w3id.org/linkml/uri): xsd:integer
+* [uri](https://w3id.org/linkml/uri): xsd:int
 
 
 * [typeof](https://w3id.org/linkml/typeof): signedinteger
@@ -27,6 +27,10 @@ URI: [xsd:integer](http://www.w3.org/2001/XMLSchema#integer)
 * i
 
 
+
+## Comments
+
+* uri added by Mahir Morshed <mmorshed@scripps.edu>
 
 ## See Also
 

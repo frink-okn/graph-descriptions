@@ -8,7 +8,7 @@
 This class occurs 434501 times.
 
 
-URI: [hyf:/HY_ElementaryFlowPath](https://www.opengis.net/def/schema/hy_features/hyf/HY_ElementaryFlowPath)
+URI: [hyf:HY_ElementaryFlowPath](https://www.opengis.net/def/schema/hy_features/hyf/HY_ElementaryFlowPath)
 
 
 
@@ -94,31 +94,31 @@ URI: [hyf:/HY_ElementaryFlowPath](https://www.opengis.net/def/schema/hy_features
     click String href "../String"
 
         
-      HyfHYElementaryFlowPath : hyf__downstreamFlowPath
+      HyfHYElementaryFlowPath : hyf_downstreamFlowPath
         
           
     
     
-    HyfHYElementaryFlowPath --> "0..1" Any : hyf__downstreamFlowPath
+    HyfHYElementaryFlowPath --> "0..1" Any : hyf_downstreamFlowPath
     click Any href "../Any"
 
         
-      HyfHYElementaryFlowPath : hyf__downstreamFlowPathTC
+      HyfHYElementaryFlowPath : hyf_downstreamFlowPathTC
         
           
     
     
-    HyfHYElementaryFlowPath --> "0..1" Any : hyf__downstreamFlowPathTC
+    HyfHYElementaryFlowPath --> "0..1" Any : hyf_downstreamFlowPathTC
     click Any href "../Any"
 
         
-      HyfHYElementaryFlowPath : hyf__upstreamWaterBody
+      HyfHYElementaryFlowPath : hyf_upstreamWaterBody
         
           
     
     
-    HyfHYElementaryFlowPath --> "0..1" HyfHYElementaryFlowPath : hyf__upstreamWaterBody
-    click HyfHYElementaryFlowPath href "../HyfHYElementaryFlowPath"
+    HyfHYElementaryFlowPath --> "0..1" Any : hyf_upstreamWaterBody
+    click Any href "../Any"
 
         
       HyfHYElementaryFlowPath : kwgo_sfCrosses
@@ -210,10 +210,9 @@ URI: [hyf:/HY_ElementaryFlowPath](https://www.opengis.net/def/schema/hy_features
 
 
 ## Inheritance
-* [OwlThing](../classes/OwlThing.md)
-    * [HyfHYCatchmentRealization](../classes/HyfHYCatchmentRealization.md)
-        * [HyfHYFlowPath](../classes/HyfHYFlowPath.md)
-            * **HyfHYElementaryFlowPath**
+* [HyfHYCatchmentRealization](../classes/HyfHYCatchmentRealization.md)
+    * [HyfHYFlowPath](../classes/HyfHYFlowPath.md)
+        * **HyfHYElementaryFlowPath**
 
 
 
@@ -221,26 +220,26 @@ URI: [hyf:/HY_ElementaryFlowPath](https://www.opengis.net/def/schema/hy_features
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength](../slots/http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[HttpNhdplusv2.spatialai.orgV1Nhdplusv2#FlowPathLength](../classes/HttpNhdplusv2.spatialai.orgV1Nhdplusv2#FlowPathLength.md) |  <br/>  | direct | 869002 |
+| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/>  | direct | 869002 |
 | [http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasCOMID](../slots/http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasCOMID.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 434501 |
-| [http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasReachCode](../slots/http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasReachCode.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 434501 |
-| [spatial_connectedTo](../slots/spatial_connectedTo.md) | 0..1 <br/> [HttpGwml2.orgDefGwml2#GWAquiferSystem](../classes/HttpGwml2.orgDefGwml2#GWAquiferSystem.md)&nbsp;or&nbsp;<br />[KwgoAdministrativeRegion3](../classes/KwgoAdministrativeRegion3.md)&nbsp;or&nbsp;<br />[HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md)&nbsp;or&nbsp;<br />[MeMgsMGS-Well](../classes/MeMgsMGS-Well.md)&nbsp;or&nbsp;<br />[KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md)&nbsp;or&nbsp;<br />[KwgoAdministrativeRegion](../classes/KwgoAdministrativeRegion.md)&nbsp;or&nbsp;<br />[GeoSpatialObject](../classes/GeoSpatialObject.md)&nbsp;or&nbsp;<br />[UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md)&nbsp;or&nbsp;<br />[HyfHYWaterBody](../classes/HyfHYWaterBody.md)&nbsp;or&nbsp;<br />[KwgoRegion](../classes/KwgoRegion.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md)&nbsp;or&nbsp;<br />[KwgoAdministrativeRegion2](../classes/KwgoAdministrativeRegion2.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md)&nbsp;or&nbsp;<br />[HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md)&nbsp;or&nbsp;<br />[HyfHYLake](../classes/HyfHYLake.md) |  <br/>  | direct | 1434419 |
-| [hyf__downstreamFlowPathTC](../slots/hyf__downstreamFlowPathTC.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation](../classes/HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation.md)&nbsp;or&nbsp;<br />[HyfHYFlowPath](../classes/HyfHYFlowPath.md)&nbsp;or&nbsp;<br />[Bf03ad86fab1719a427cbb412f91529fa](../classes/Bf03ad86fab1719a427cbb412f91529fa.md)&nbsp;or&nbsp;<br />[GeoFeature](../classes/GeoFeature.md)&nbsp;or&nbsp;<br />[HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md)&nbsp;or&nbsp;<br />[HyfHYCatchmentRealization](../classes/HyfHYCatchmentRealization.md)&nbsp;or&nbsp;<br />[GeoSpatialObject](../classes/GeoSpatialObject.md) |  <br/>  | direct | 407803007 |
-| [kwgo_sfCrosses](../slots/kwgo_sfCrosses.md) | 0..1 <br/> [Any](../classes/Any.md) | KWG's spatial comment relation <br/> No occurrences of this slot in the graph. | direct | 1397631 |
-| [kwgo_sfWithin](../slots/kwgo_sfWithin.md) | 0..1 <br/> [Any](../classes/Any.md) | KWG's spatial within relation <br/> No occurrences of this slot in the graph. | direct | 16100 |
-| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/> No occurrences of this slot in the graph. | direct | 434501 |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | A human-readable name for the subject <br/>  | direct | 204608 |
-| [dct_title](../slots/dct_title.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | A name given to the resource <br/>  | direct | 204608 |
-| [kwgo_spatialRelation](../slots/kwgo_spatialRelation.md) | 0..1 <br/> [Any](../classes/Any.md) | KWG's general spatial relation <br/> No occurrences of this slot in the graph. | direct | 1434419 |
-| [hyf__upstreamWaterBody](../slots/hyf__upstreamWaterBody.md) | 0..1 <br/> [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |  <br/>  | direct | 865469 |
-| [geo_defaultGeometry](../slots/geo_defaultGeometry.md) | 0..1 <br/> [GeoGeometry](../classes/GeoGeometry.md) | The default Geometry to be used in spatial calculations <br/> source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties<br/>source: http://www.opengis.net/ont/geosparql#<br/>source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties<br/>description: The default Geometry to be used in spatial calculations. It is usually the most detailed Geometry.<br/>No occurrences of this slot in the graph. | direct | 869002 |
-| [kwgo_sfTouches](../slots/kwgo_sfTouches.md) | 0..1 <br/> [Any](../classes/Any.md) | KWG's spatial touches relation <br/> No occurrences of this slot in the graph. | direct | 20688 |
-| [hyf__downstreamFlowPath](../slots/hyf__downstreamFlowPath.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation](../classes/HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation.md)&nbsp;or&nbsp;<br />[HyfHYFlowPath](../classes/HyfHYFlowPath.md)&nbsp;or&nbsp;<br />[Bf03ad86fab1719a427cbb412f91529fa](../classes/Bf03ad86fab1719a427cbb412f91529fa.md)&nbsp;or&nbsp;<br />[GeoFeature](../classes/GeoFeature.md)&nbsp;or&nbsp;<br />[HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md)&nbsp;or&nbsp;<br />[HyfHYCatchmentRealization](../classes/HyfHYCatchmentRealization.md)&nbsp;or&nbsp;<br />[GeoSpatialObject](../classes/GeoSpatialObject.md) |  <br/>  | direct | 865469 |
-| [geo_hasGeometry](../slots/geo_hasGeometry.md) | 0..1 <br/> [GeoGeometry](../classes/GeoGeometry.md) | A spatial representation for a given Feature <br/> source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties<br/>source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties<br/>source: http://www.opengis.net/ont/geosparql#<br/>source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties<br/>source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties<br/>description: A spatial representation for a given Feature.<br/>No occurrences of this slot in the graph. | direct | 869002 |
-| [http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFTYPE](../slots/http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFTYPE.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 434501 |
-| [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | 0..1 <br/> [HttpGwml2.orgDefGwml2#GWAquiferSystem](../classes/HttpGwml2.orgDefGwml2#GWAquiferSystem.md)&nbsp;or&nbsp;<br />[KwgoAdministrativeRegion3](../classes/KwgoAdministrativeRegion3.md)&nbsp;or&nbsp;<br />[HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md)&nbsp;or&nbsp;<br />[MeMgsMGS-Well](../classes/MeMgsMGS-Well.md)&nbsp;or&nbsp;<br />[KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md)&nbsp;or&nbsp;<br />[KwgoAdministrativeRegion](../classes/KwgoAdministrativeRegion.md)&nbsp;or&nbsp;<br />[GeoSpatialObject](../classes/GeoSpatialObject.md)&nbsp;or&nbsp;<br />[UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md)&nbsp;or&nbsp;<br />[HyfHYWaterBody](../classes/HyfHYWaterBody.md)&nbsp;or&nbsp;<br />[KwgoRegion](../classes/KwgoRegion.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md)&nbsp;or&nbsp;<br />[KwgoAdministrativeRegion2](../classes/KwgoAdministrativeRegion2.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md)&nbsp;or&nbsp;<br />[HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md)&nbsp;or&nbsp;<br />[HyfHYLake](../classes/HyfHYLake.md) |  <br/>  | direct | 1434419 |
+| [hyf_upstreamWaterBody](../slots/hyf_upstreamWaterBody.md) | 0..1 <br/> [Any](../classes/Any.md) | identifies another waterbody immediately upstream, allowing network navigatio... <br/>  | direct | 1730938 |
 | [http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFCODE](../slots/http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFCODE.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 434501 |
-| [sdos_name](../slots/sdos_name.md) | 0..1 <br/> [SdosText](../classes/SdosText.md) | The name of the item <br/> No occurrences of this slot in the graph. | direct | 204608 |
+| [kwgo_sfTouches](../slots/kwgo_sfTouches.md) | 0..1 <br/> [Any](../classes/Any.md) | KWG's spatial touches relation <br/>  | direct | 103440 |
+| [http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength](../slots/http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[HttpNhdplusv2.spatialai.orgV1Nhdplusv2#FlowPathLength](../classes/HttpNhdplusv2.spatialai.orgV1Nhdplusv2#FlowPathLength.md) |  <br/>  | direct | 869002 |
+| [dct_title](../slots/dct_title.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[RdfsLiteral](../classes/RdfsLiteral.md) | A name given to the resource <br/>  | direct | 204608 |
+| [kwgo_sfCrosses](../slots/kwgo_sfCrosses.md) | 0..1 <br/> [Any](../classes/Any.md) | KWG's spatial comment relation <br/>  | direct | 1415399 |
+| [hyf_downstreamFlowPathTC](../slots/hyf_downstreamFlowPathTC.md) | 0..1 <br/> [GeoFeature](../classes/GeoFeature.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[HyfHYCatchmentRealization](../classes/HyfHYCatchmentRealization.md)&nbsp;or&nbsp;<br />[GeoSpatialObject](../classes/GeoSpatialObject.md)&nbsp;or&nbsp;<br />[HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation](../classes/HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation.md)&nbsp;or&nbsp;<br />[B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md)&nbsp;or&nbsp;<br />[HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md)&nbsp;or&nbsp;<br />[HyfHYFlowPath](../classes/HyfHYFlowPath.md) |  <br/>  | direct | 815606014 |
+| [http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasReachCode](../slots/http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasReachCode.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 434501 |
+| [kwgo_spatialRelation](../slots/kwgo_spatialRelation.md) | 0..1 <br/> [Any](../classes/Any.md) | KWG's general spatial relation <br/>  | direct | 1599339 |
+| [sdos_name](../slots/sdos_name.md) | 0..1 <br/> [SdosText](../classes/SdosText.md) | The name of the item <br/>  | direct | 204608 |
+| [geo_hasGeometry](../slots/geo_hasGeometry.md) | 0..1 <br/> [GeoGeometry](../classes/GeoGeometry.md) | A spatial representation for a given Feature <br/> source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties<br/>source: http://www.opengis.net/ont/geosparql#<br/>source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties<br/>description: A spatial representation for a given Feature. | direct | 869002 |
+| [hyf_downstreamFlowPath](../slots/hyf_downstreamFlowPath.md) | 0..1 <br/> [GeoFeature](../classes/GeoFeature.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[HyfHYCatchmentRealization](../classes/HyfHYCatchmentRealization.md)&nbsp;or&nbsp;<br />[GeoSpatialObject](../classes/GeoSpatialObject.md)&nbsp;or&nbsp;<br />[HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation](../classes/HttpHyfo.spatialai.orgV1Hyfo#WaterFeatureRepresentation.md)&nbsp;or&nbsp;<br />[B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md)&nbsp;or&nbsp;<br />[HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md)&nbsp;or&nbsp;<br />[HyfHYFlowPath](../classes/HyfHYFlowPath.md) |  <br/>  | direct | 1730938 |
+| [geo_defaultGeometry](../slots/geo_defaultGeometry.md) | 0..1 <br/> [GeoGeometry](../classes/GeoGeometry.md) | The default Geometry to be used in spatial calculations <br/> source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties<br/>source: http://www.opengis.net/ont/geosparql#<br/>description: The default Geometry to be used in spatial calculations. It is usually the most detailed Geometry. | direct | 869002 |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | A human-readable name for the subject <br/>  | direct | 204608 |
+| [http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFTYPE](../slots/http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFTYPE.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 434501 |
+| [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | 0..1 <br/> [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md)&nbsp;or&nbsp;<br />[HttpGwml2.orgDefGwml2#GWAquiferSystem](../classes/HttpGwml2.orgDefGwml2#GWAquiferSystem.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md)&nbsp;or&nbsp;<br />[UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md)&nbsp;or&nbsp;<br />[HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[HyfHYWaterBody](../classes/HyfHYWaterBody.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md)&nbsp;or&nbsp;<br />[MeMgsMGS-Well](../classes/MeMgsMGS-Well.md)&nbsp;or&nbsp;<br />[KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md)&nbsp;or&nbsp;<br />[B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md)&nbsp;or&nbsp;<br />[HyfHYHydroFeature](../classes/HyfHYHydroFeature.md)&nbsp;or&nbsp;<br />[KwgoAdministrativeRegion3](../classes/KwgoAdministrativeRegion3.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md)&nbsp;or&nbsp;<br />[GeoFeature](../classes/GeoFeature.md)&nbsp;or&nbsp;<br />[HyfHYLake](../classes/HyfHYLake.md)&nbsp;or&nbsp;<br />[GeoSpatialObject](../classes/GeoSpatialObject.md)&nbsp;or&nbsp;<br />[HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md)&nbsp;or&nbsp;<br />[KwgoAdministrativeRegion2](../classes/KwgoAdministrativeRegion2.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md)&nbsp;or&nbsp;<br />[KwgoRegion](../classes/KwgoRegion.md)&nbsp;or&nbsp;<br />[KwgoAdministrativeRegion](../classes/KwgoAdministrativeRegion.md) |  <br/>  | direct | 1599339 |
+| [spatial_connectedTo](../slots/spatial_connectedTo.md) | 0..1 <br/> [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md)&nbsp;or&nbsp;<br />[HttpGwml2.orgDefGwml2#GWAquiferSystem](../classes/HttpGwml2.orgDefGwml2#GWAquiferSystem.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md)&nbsp;or&nbsp;<br />[UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md)&nbsp;or&nbsp;<br />[HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[HyfHYWaterBody](../classes/HyfHYWaterBody.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md)&nbsp;or&nbsp;<br />[MeMgsMGS-Well](../classes/MeMgsMGS-Well.md)&nbsp;or&nbsp;<br />[KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md)&nbsp;or&nbsp;<br />[B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md)&nbsp;or&nbsp;<br />[HyfHYHydroFeature](../classes/HyfHYHydroFeature.md)&nbsp;or&nbsp;<br />[KwgoAdministrativeRegion3](../classes/KwgoAdministrativeRegion3.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md)&nbsp;or&nbsp;<br />[GeoFeature](../classes/GeoFeature.md)&nbsp;or&nbsp;<br />[HyfHYLake](../classes/HyfHYLake.md)&nbsp;or&nbsp;<br />[GeoSpatialObject](../classes/GeoSpatialObject.md)&nbsp;or&nbsp;<br />[HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md)&nbsp;or&nbsp;<br />[KwgoAdministrativeRegion2](../classes/KwgoAdministrativeRegion2.md)&nbsp;or&nbsp;<br />[UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md)&nbsp;or&nbsp;<br />[KwgoRegion](../classes/KwgoRegion.md)&nbsp;or&nbsp;<br />[KwgoAdministrativeRegion](../classes/KwgoAdministrativeRegion.md) |  <br/>  | direct | 1599339 |
+| [kwgo_sfWithin](../slots/kwgo_sfWithin.md) | 0..1 <br/> [Any](../classes/Any.md) | KWG's spatial within relation <br/>  | direct | 80500 |
 
 
 
@@ -250,45 +249,34 @@ URI: [hyf:/HY_ElementaryFlowPath](https://www.opengis.net/def/schema/hy_features
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
+| [B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md) | [hyf_downstreamFlowPathTC](../slots/hyf_downstreamFlowPathTC.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
+| [B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md) | [hyf_downstreamFlowPath](../slots/hyf_downstreamFlowPath.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
+| [B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
+| [B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
 | [HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [HttpGwml2.orgDefGwml2#GWAquiferSystem](../classes/HttpGwml2.orgDefGwml2#GWAquiferSystem.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
+| [HttpGwml2.orgDefGwml2#GWAquifer](../classes/HttpGwml2.orgDefGwml2#GWAquifer.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
 | [HttpGwml2.orgDefGwml2#GWAquiferSystem](../classes/HttpGwml2.orgDefGwml2#GWAquiferSystem.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [HyfHYCanal](../classes/HyfHYCanal.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [HyfHYCanal](../classes/HyfHYCanal.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [hyf__downstreamFlowPathTC](../slots/hyf__downstreamFlowPathTC.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [hyf__upstreamWaterBody](../slots/hyf__upstreamWaterBody.md) | range | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [hyf__downstreamFlowPath](../slots/hyf__downstreamFlowPath.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
+| [HttpGwml2.orgDefGwml2#GWAquiferSystem](../classes/HttpGwml2.orgDefGwml2#GWAquiferSystem.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
+| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [hyf_downstreamFlowPathTC](../slots/hyf_downstreamFlowPathTC.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
+| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [hyf_downstreamFlowPath](../slots/hyf_downstreamFlowPath.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
 | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [HyfHYEstuary](../classes/HyfHYEstuary.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [HyfHYEstuary](../classes/HyfHYEstuary.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [HyfHYImpoundment](../classes/HyfHYImpoundment.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [HyfHYImpoundment](../classes/HyfHYImpoundment.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [HyfHYLagoon](../classes/HyfHYLagoon.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [HyfHYLagoon](../classes/HyfHYLagoon.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [HyfHYLake](../classes/HyfHYLake.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [HyfHYLake](../classes/HyfHYLake.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [HyfHYRiver](../classes/HyfHYRiver.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [HyfHYRiver](../classes/HyfHYRiver.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [HyfHYWaterBody](../classes/HyfHYWaterBody.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [HyfHYWaterBody](../classes/HyfHYWaterBody.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
+| [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
 | [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
+| [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
 | [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
+| [MeMgsMGS-Well](../classes/MeMgsMGS-Well.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
 | [UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
+| [UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
 | [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
+| [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
 | [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
+| [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
 | [UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
+| [UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
 | [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
-| [UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
+| [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
 | [UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md) | [spatial_spatiallyRelatedTo](../slots/spatial_spatiallyRelatedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
+| [UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md) | [spatial_connectedTo](../slots/spatial_connectedTo.md) | any_of[range] | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |
 
 
 
@@ -309,34 +297,32 @@ URI: [hyf:/HY_ElementaryFlowPath](https://www.opengis.net/def/schema/hy_features
 <details>
 
 ```yaml
-name: hyf__HY_ElementaryFlowPath
+name: hyf_HY_ElementaryFlowPath
 from_schema: okns:hydrology-kg
-exact_mappings:
-- https://www.opengis.net/def/schema/hy_features/hyf/HY_ElementaryFlowPath
 rank: 1000
-is_a: hyf__HY_FlowPath
+is_a: hyf_HY_FlowPath
 slots:
-- http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength
-- http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasCOMID
-- http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasReachCode
-- spatial_connectedTo
-- hyf__downstreamFlowPathTC
-- kwgo_sfCrosses
-- kwgo_sfWithin
 - owl_sameAs
-- rdfs_label
-- dct_title
-- kwgo_spatialRelation
-- hyf__upstreamWaterBody
-- geo_defaultGeometry
+- http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasCOMID
+- hyf_upstreamWaterBody
+- http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFCODE
 - kwgo_sfTouches
-- hyf__downstreamFlowPath
+- http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength
+- dct_title
+- kwgo_sfCrosses
+- hyf_downstreamFlowPathTC
+- http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasReachCode
+- kwgo_spatialRelation
+- sdos_name
 - geo_hasGeometry
+- hyf_downstreamFlowPath
+- geo_defaultGeometry
+- rdfs_label
 - http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFTYPE
 - spatial_spatiallyRelatedTo
-- http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFCODE
-- sdos_name
-class_uri: hyf:/HY_ElementaryFlowPath
+- spatial_connectedTo
+- kwgo_sfWithin
+class_uri: hyf:HY_ElementaryFlowPath
 
 ```
 </details>
@@ -346,190 +332,29 @@ class_uri: hyf:/HY_ElementaryFlowPath
 <details>
 
 ```yaml
-name: hyf__HY_ElementaryFlowPath
+name: hyf_HY_ElementaryFlowPath
 from_schema: okns:hydrology-kg
-exact_mappings:
-- https://www.opengis.net/def/schema/hy_features/hyf/HY_ElementaryFlowPath
 rank: 1000
-is_a: hyf__HY_FlowPath
+is_a: hyf_HY_FlowPath
 attributes:
-  http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength:
-    name: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength
-    from_schema: okns:hydrology-kg
-    exact_mappings:
-    - http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasFlowPathLength
-    rank: 1000
-    slot_uri: http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasFlowPathLength
-    alias: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength
-    owner: hyf__HY_ElementaryFlowPath
-    domain_of:
-    - hyf__HY_ElementaryFlowPath
-    range: Any
-    any_of:
-    - range: owl_Thing
-    - range: http___nhdplusv2.spatialai.org_v1_nhdplusv2#FlowPathLength
-  http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasCOMID:
-    name: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasCOMID
-    from_schema: okns:hydrology-kg
-    exact_mappings:
-    - http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasCOMID
-    rank: 1000
-    slot_uri: http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasCOMID
-    alias: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasCOMID
-    owner: hyf__HY_ElementaryFlowPath
-    domain_of:
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
-    range: string
-  http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasReachCode:
-    name: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasReachCode
-    from_schema: okns:hydrology-kg
-    exact_mappings:
-    - http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasReachCode
-    rank: 1000
-    slot_uri: http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasReachCode
-    alias: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasReachCode
-    owner: hyf__HY_ElementaryFlowPath
-    domain_of:
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
-    range: string
-  spatial_connectedTo:
-    name: spatial_connectedTo
-    title: topological connection (spatial contact) (sawgraph)
-    from_schema: okns:hydrology-kg
-    exact_mappings:
-    - http://purl.org/spatialai/spatial/spatial-full#connectedTo
-    rank: 1000
-    slot_uri: spatial:connectedTo
-    alias: spatial_connectedTo
-    owner: hyf__HY_ElementaryFlowPath
-    domain_of:
-    - http___gwml2.org_def_gwml2#GW_Aquifer
-    - http___gwml2.org_def_gwml2#GW_AquiferSystem
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
-    - kwgo_S2Cell_Level13
-    - me_mgs_MGS-Well
-    - us_sdwis_PWS-ServiceArea
-    - us_sdwis_PublicWaterSystem-CWS
-    - us_sdwis_PublicWaterSystem-GW
-    - us_sdwis_PublicWaterSystem-NTNCWS
-    - us_sdwis_PublicWaterSystem-SW
-    - us_sdwis_PublicWaterSystem-TNCWS
-    subproperty_of: kwgo_spatialRelation
-    union_of:
-    - owl_Thing
-    - geo_SpatialObject
-    range: Any
-    any_of:
-    - range: http___gwml2.org_def_gwml2#GW_AquiferSystem
-    - range: kwgo_AdministrativeRegion_3
-    - range: hyf__HY_ElementaryFlowPath
-    - range: us_sdwis_PublicWaterSystem-NTNCWS
-    - range: us_sdwis_PublicWaterSystem-TNCWS
-    - range: me_mgs_MGS-Well
-    - range: kwgo_S2Cell_Level13
-    - range: us_sdwis_PublicWaterSystem-SW
-    - range: kwgo_AdministrativeRegion
-    - range: geo_SpatialObject
-    - range: us_sdwis_PWS-ServiceArea
-    - range: hyf__HY_WaterBody
-    - range: kwgo_Region
-    - range: us_sdwis_PublicWaterSystem-CWS
-    - range: kwgo_AdministrativeRegion_2
-    - range: owl_Thing
-    - range: us_sdwis_PublicWaterSystem-GW
-    - range: http___gwml2.org_def_gwml2#GW_Aquifer
-    - range: hyf__HY_Lake
-  hyf__downstreamFlowPathTC:
-    name: hyf__downstreamFlowPathTC
-    title: No slot (predicate) name specified -- this slot is noted as a subproperty
-      of another slot in this graph but has not itself been defined.
-    from_schema: okns:hydrology-kg
-    exact_mappings:
-    - https://www.opengis.net/def/schema/hy_features/hyf/downstreamFlowPathTC
-    rank: 1000
-    slot_uri: hyf:/downstreamFlowPathTC
-    alias: hyf__downstreamFlowPathTC
-    owner: hyf__HY_ElementaryFlowPath
-    domain_of:
-    - hyf__HY_ElementaryFlowPath
-    transitive: true
-    union_of:
-    - owl_Thing
-    - http___hyfo.spatialai.org_v1_hyfo#WaterFeatureRepresentation
-    - hyf__HY_FlowPath
-    - __Bf03ad86fab1719a427cbb412f91529fa
-    - geo_Feature
-    - hyf__HY_CatchmentRealization
-    - geo_SpatialObject
-    range: Any
-    any_of:
-    - range: owl_Thing
-    - range: http___hyfo.spatialai.org_v1_hyfo#WaterFeatureRepresentation
-    - range: hyf__HY_FlowPath
-    - range: __Bf03ad86fab1719a427cbb412f91529fa
-    - range: geo_Feature
-    - range: hyf__HY_ElementaryFlowPath
-    - range: hyf__HY_CatchmentRealization
-    - range: geo_SpatialObject
-  kwgo_sfCrosses:
-    name: kwgo_sfCrosses
-    description: KWG's spatial comment relation
-    title: crosses (simple feature)
-    comments:
-    - No occurrences of this slot in the graph.
-    from_schema: okns:kwg
-    slot_uri: kwgo:sfCrosses
-    alias: kwgo_sfCrosses
-    owner: hyf__HY_ElementaryFlowPath
-    domain_of:
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
-    - kwgo_S2Cell_Level13
-    subproperty_of: kwgo_spatialRelation
-    range: Any
-  kwgo_sfWithin:
-    name: kwgo_sfWithin
-    description: KWG's spatial within relation
-    title: within (simple feature)
-    comments:
-    - No occurrences of this slot in the graph.
-    from_schema: okns:kwg
-    slot_uri: kwgo:sfWithin
-    alias: kwgo_sfWithin
-    owner: hyf__HY_ElementaryFlowPath
-    domain_of:
-    - http___gwml2.org_def_gwml2#GW_Aquifer
-    - hyf__HY_ElementaryFlowPath
-    - kwgo_S2Cell_Level13
-    - me_mgs_MGS-Well
-    subproperty_of: kwgo_spatialRelation
-    range: Any
   owl_sameAs:
     name: owl_sameAs
     description: The property that determines that two given individuals are equal.
     title: sameAs
-    comments:
+    notes:
     - No occurrences of this slot in the graph.
     from_schema: okns:owl-rdf-rdfs
     source: http://www.w3.org/2002/07/owl#
     domain: owl_Thing
     slot_uri: owl:sameAs
     alias: owl_sameAs
-    owner: hyf__HY_ElementaryFlowPath
+    owner: hyf_HY_ElementaryFlowPath
     domain_of:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
     - http___gwml2.org_def_gwml2#GW_Aquifer
     - http___gwml2.org_def_gwml2#GW_AquiferSystem
     - http___nhdplusv2.spatialai.org_v1_nhdplusv2#FlowPathLength
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
+    - hyf_HY_ElementaryFlowPath
     - il_isgs_ISGS-Well
     - il_isgs_WellDepthInFt
     - il_isgs_WellPurpose
@@ -541,8 +366,6 @@ attributes:
     - me_mgs_WellType
     - me_mgs_WellUse
     - owl_DataProperty
-    - sf_#MultiPolygon
-    - sf_#Polygon
     - us_sdwis_PWS-ServiceArea
     - us_sdwis_PWS-ServiceAreaType
     - us_sdwis_PWS-SourceWaterType
@@ -554,6 +377,274 @@ attributes:
     - us_sdwis_PublicWaterSystem-SW
     - us_sdwis_PublicWaterSystem-TNCWS
     range: owl_Thing
+  http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasCOMID:
+    name: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasCOMID
+    from_schema: okns:hydrology-kg
+    rank: 1000
+    slot_uri: http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasCOMID
+    alias: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasCOMID
+    owner: hyf_HY_ElementaryFlowPath
+    domain_of:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
+    - hyf_HY_ElementaryFlowPath
+    range: string
+  hyf_upstreamWaterBody:
+    name: hyf_upstreamWaterBody
+    description: identifies another waterbody immediately upstream, allowing network
+      navigation without knowing an inflow or outflow of the catchment realized by
+      the waterbody.
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:hyf
+    slot_uri: hyf:upstreamWaterBody
+    alias: hyf_upstreamWaterBody
+    owner: hyf_HY_ElementaryFlowPath
+    domain_of:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
+    - hyf_HY_ElementaryFlowPath
+    range: Any
+  http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFCODE:
+    name: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFCODE
+    from_schema: okns:hydrology-kg
+    rank: 1000
+    slot_uri: http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasFCODE
+    alias: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFCODE
+    owner: hyf_HY_ElementaryFlowPath
+    domain_of:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
+    - hyf_HY_ElementaryFlowPath
+    range: string
+  kwgo_sfTouches:
+    name: kwgo_sfTouches
+    description: KWG's spatial touches relation
+    title: touches (simple feature)
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:kwg
+    slot_uri: kwgo:sfTouches
+    alias: kwgo_sfTouches
+    owner: hyf_HY_ElementaryFlowPath
+    domain_of:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
+    - hyf_HY_ElementaryFlowPath
+    subproperty_of: kwgo_spatialRelation
+    range: Any
+  http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength:
+    name: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength
+    from_schema: okns:hydrology-kg
+    rank: 1000
+    slot_uri: http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasFlowPathLength
+    alias: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength
+    owner: hyf_HY_ElementaryFlowPath
+    domain_of:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
+    - hyf_HY_ElementaryFlowPath
+    range: Any
+    any_of:
+    - range: owl_Thing
+    - range: http___nhdplusv2.spatialai.org_v1_nhdplusv2#FlowPathLength
+  dct_title:
+    name: dct_title
+    description: A name given to the resource.
+    title: Title
+    from_schema: okns:dc
+    source: http://purl.org/dc/terms/
+    slot_uri: dct:title
+    alias: dct_title
+    owner: hyf_HY_ElementaryFlowPath
+    domain_of:
+    - vaem_GraphMetaData
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
+    - hyf_HY_ElementaryFlowPath
+    subproperty_of: dc_title
+    range: Any
+    any_of:
+    - range: string
+    - range: rdfs_Literal
+  kwgo_sfCrosses:
+    name: kwgo_sfCrosses
+    description: KWG's spatial comment relation
+    title: crosses (simple feature)
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:kwg
+    slot_uri: kwgo:sfCrosses
+    alias: kwgo_sfCrosses
+    owner: hyf_HY_ElementaryFlowPath
+    domain_of:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
+    - hyf_HY_ElementaryFlowPath
+    - kwgo_S2Cell_Level13
+    subproperty_of: kwgo_spatialRelation
+    range: Any
+  hyf_downstreamFlowPathTC:
+    name: hyf_downstreamFlowPathTC
+    title: No slot (predicate) name specified -- this slot is noted as a subproperty
+      of another slot in this graph but has not itself been defined.
+    from_schema: okns:hydrology-kg
+    rank: 1000
+    slot_uri: hyf:downstreamFlowPathTC
+    alias: hyf_downstreamFlowPathTC
+    owner: hyf_HY_ElementaryFlowPath
+    domain_of:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
+    - hyf_HY_ElementaryFlowPath
+    transitive: true
+    union_of:
+    - geo_Feature
+    - owl_Thing
+    - hyf_HY_CatchmentRealization
+    - geo_SpatialObject
+    - http___hyfo.spatialai.org_v1_hyfo#WaterFeatureRepresentation
+    - hyf_HY_FlowPath
+    range: Any
+    any_of:
+    - range: geo_Feature
+    - range: owl_Thing
+    - range: hyf_HY_CatchmentRealization
+    - range: geo_SpatialObject
+    - range: http___hyfo.spatialai.org_v1_hyfo#WaterFeatureRepresentation
+    - range: __B805a9e7d30eaabcb686b8ce670ed1e95
+    - range: hyf_HY_ElementaryFlowPath
+    - range: hyf_HY_FlowPath
+  http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasReachCode:
+    name: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasReachCode
+    from_schema: okns:hydrology-kg
+    rank: 1000
+    slot_uri: http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasReachCode
+    alias: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasReachCode
+    owner: hyf_HY_ElementaryFlowPath
+    domain_of:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
+    - hyf_HY_ElementaryFlowPath
+    range: string
+  kwgo_spatialRelation:
+    name: kwgo_spatialRelation
+    description: KWG's general spatial relation
+    title: spatial relation
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:kwg
+    slot_uri: kwgo:spatialRelation
+    alias: kwgo_spatialRelation
+    owner: hyf_HY_ElementaryFlowPath
+    domain_of:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
+    - http___gwml2.org_def_gwml2#GW_Aquifer
+    - http___gwml2.org_def_gwml2#GW_AquiferSystem
+    - hyf_HY_ElementaryFlowPath
+    - kwgo_S2Cell_Level13
+    - me_mgs_MGS-Well
+    - us_sdwis_PWS-ServiceArea
+    - us_sdwis_PublicWaterSystem-CWS
+    - us_sdwis_PublicWaterSystem-GW
+    - us_sdwis_PublicWaterSystem-NTNCWS
+    - us_sdwis_PublicWaterSystem-SW
+    - us_sdwis_PublicWaterSystem-TNCWS
+    range: Any
+  sdos_name:
+    name: sdos_name
+    description: The name of the item.
+    title: name
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:sdo
+    exact_mappings:
+    - http://purl.org/dc/terms/title
+    domain: sdos_Thing
+    slot_uri: sdos:name
+    alias: sdos_name
+    owner: hyf_HY_ElementaryFlowPath
+    domain_of:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
+    - hyf_HY_ElementaryFlowPath
+    subproperty_of: rdfs_label
+    range: sdos_Text
+  geo_hasGeometry:
+    name: geo_hasGeometry
+    description: A spatial representation for a given Feature.
+    title: No slot (predicate) name specified -- this slot is noted as a subproperty
+      of another slot in this graph but has not itself been defined.
+    notes:
+    - No occurrences of this slot in the graph.
+    comments:
+    - 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties'
+    - 'source: http://www.opengis.net/ont/geosparql#'
+    - 'source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties'
+    - 'description: A spatial representation for a given Feature.'
+    from_schema: okns:geo
+    source: http://www.opengis.net/ont/geosparql#
+    domain: geo_Feature
+    slot_uri: geo:hasGeometry
+    alias: geo_hasGeometry
+    owner: hyf_HY_ElementaryFlowPath
+    domain_of:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
+    - http___gwml2.org_def_gwml2#GW_Aquifer
+    - http___gwml2.org_def_gwml2#GW_AquiferSystem
+    - hyf_HY_ElementaryFlowPath
+    - il_isgs_ISGS-Well
+    - me_mgs_MGS-Well
+    - us_sdwis_PWS-ServiceArea
+    range: geo_Geometry
+  hyf_downstreamFlowPath:
+    name: hyf_downstreamFlowPath
+    from_schema: okns:hydrology-kg
+    rank: 1000
+    slot_uri: hyf:downstreamFlowPath
+    alias: hyf_downstreamFlowPath
+    owner: hyf_HY_ElementaryFlowPath
+    domain_of:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
+    - hyf_HY_ElementaryFlowPath
+    subproperty_of: hyf_downstreamFlowPathTC
+    inverse: hyf_upstreamWaterBody
+    union_of:
+    - geo_Feature
+    - owl_Thing
+    - hyf_HY_CatchmentRealization
+    - geo_SpatialObject
+    - http___hyfo.spatialai.org_v1_hyfo#WaterFeatureRepresentation
+    - hyf_HY_FlowPath
+    range: Any
+    any_of:
+    - range: geo_Feature
+    - range: owl_Thing
+    - range: hyf_HY_CatchmentRealization
+    - range: geo_SpatialObject
+    - range: http___hyfo.spatialai.org_v1_hyfo#WaterFeatureRepresentation
+    - range: __B805a9e7d30eaabcb686b8ce670ed1e95
+    - range: hyf_HY_ElementaryFlowPath
+    - range: hyf_HY_FlowPath
+  geo_defaultGeometry:
+    name: geo_defaultGeometry
+    description: The default Geometry to be used in spatial calculations. It is usually
+      the most detailed Geometry.
+    notes:
+    - Duplicate properties defaultGeometry and hasDefaultGeometry exist because of
+      an inconsistency between ontology and documentation in GeoSPARQL 1.0. Only hasDefaultGeometry
+      is described in the documention.
+    - No occurrences of this slot in the graph.
+    comments:
+    - 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties'
+    - 'source: http://www.opengis.net/ont/geosparql#'
+    - 'description: The default Geometry to be used in spatial calculations. It is
+      usually the most detailed Geometry.'
+    from_schema: okns:geo
+    source: http://www.opengis.net/ont/geosparql#
+    exact_mappings:
+    - http://www.opengis.net/ont/geosparql#hasDefaultGeometry
+    domain: geo_Feature
+    slot_uri: geo:defaultGeometry
+    alias: geo_defaultGeometry
+    owner: hyf_HY_ElementaryFlowPath
+    domain_of:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
+    - http___gwml2.org_def_gwml2#GW_Aquifer
+    - http___gwml2.org_def_gwml2#GW_AquiferSystem
+    - hyf_HY_ElementaryFlowPath
+    subproperty_of: geo_hasGeometry
+    range: geo_Geometry
   rdfs_label:
     name: rdfs_label
     description: A human-readable name for the subject.
@@ -563,26 +654,33 @@ attributes:
     domain: rdfs_Resource
     slot_uri: rdfs:label
     alias: rdfs_label
-    owner: hyf__HY_ElementaryFlowPath
+    owner: hyf_HY_ElementaryFlowPath
     domain_of:
+    - rdf_List
+    - rdfs_Datatype
     - dcam_VocabularyEncodingScheme
+    - dct_AgentClass
     - qudt_AspectClass
+    - qudt_BinaryPrefix
     - qudt_BitEncodingType
     - qudt_BooleanEncodingType
     - qudt_ByteEncodingType
     - qudt_CardinalityType
     - qudt_CharEncodingType
+    - qudt_ContextualUnit
+    - qudt_CountingUnit
+    - qudt_CurrencyUnit
     - qudt_DateTimeStringEncodingType
+    - qudt_DecimalPrefix
+    - qudt_DerivedUnit
+    - qudt_DimensionlessUnit
     - qudt_EndianType
     - qudt_FloatingPointEncodingType
     - qudt_IntegerEncodingType
+    - qudt_LogarithmicUnit
     - qudt_OrderedType
     - qudt_SignednessType
-    - owl_OntologyProperty
-    - rdf_List
-    - rdfs_Datatype
-    - time_DayOfWeek
-    - time_TemporalUnit
+    - qudt_Unit
     - sdos_ActionStatusType
     - sdos_AdultOrientedEnumeration
     - sdos_BoardingPolicyType
@@ -592,6 +690,7 @@ attributes:
     - sdos_CarUsageType
     - sdos_CertificationStatusEnumeration
     - sdos_ContactPointOption
+    - sdos_DataType
     - sdos_DayOfWeek
     - sdos_DeliveryMethod
     - sdos_DigitalDocumentPermissionType
@@ -663,10 +762,12 @@ attributes:
     - sdos_WearableMeasurementTypeEnumeration
     - sdos_WearableSizeGroupEnumeration
     - sdos_WearableSizeSystemEnumeration
-    - rdf_DatatypeProperty
     - vaem_GraphMetaData
     - vaem_GraphRole
     - vaem_Party
+    - time_DayOfWeek
+    - time_TemporalUnit
+    - rdf_DatatypeProperty
     - vaem_CatalogEntry
     - voag_Attribution
     - voag_AttributionLogo
@@ -712,11 +813,10 @@ attributes:
     - kwgo_StormTrackObservableProperty
     - kwgo_StormTrackletObservableProperty
     - kwgo_VulnerabilityObservableProperty
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
     - http___gwml2.org_def_gwml2#GW_Aquifer
     - http___gwml2.org_def_gwml2#GW_AquiferSystem
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
+    - hyf_HY_ElementaryFlowPath
     - il_isgs_ISGS-Well
     - il_isgs_WellPurpose
     - me_mgs_MGS-Well
@@ -732,201 +832,32 @@ attributes:
     any_of:
     - range: rdfs_Literal
     - range: string
-  dct_title:
-    name: dct_title
-    description: A name given to the resource.
-    title: Title
-    from_schema: okns:dc
-    source: http://purl.org/dc/terms/
-    slot_uri: dct:title
-    alias: dct_title
-    owner: hyf__HY_ElementaryFlowPath
-    domain_of:
-    - vaem_GraphMetaData
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
-    subproperty_of: dc_title
-    range: Any
-    any_of:
-    - range: rdfs_Literal
-    - range: string
-  kwgo_spatialRelation:
-    name: kwgo_spatialRelation
-    description: KWG's general spatial relation
-    title: spatial relation
-    comments:
-    - No occurrences of this slot in the graph.
-    from_schema: okns:kwg
-    slot_uri: kwgo:spatialRelation
-    alias: kwgo_spatialRelation
-    owner: hyf__HY_ElementaryFlowPath
-    domain_of:
-    - http___gwml2.org_def_gwml2#GW_Aquifer
-    - http___gwml2.org_def_gwml2#GW_AquiferSystem
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
-    - kwgo_S2Cell_Level13
-    - me_mgs_MGS-Well
-    - us_sdwis_PWS-ServiceArea
-    - us_sdwis_PublicWaterSystem-CWS
-    - us_sdwis_PublicWaterSystem-GW
-    - us_sdwis_PublicWaterSystem-NTNCWS
-    - us_sdwis_PublicWaterSystem-SW
-    - us_sdwis_PublicWaterSystem-TNCWS
-    range: Any
-  hyf__upstreamWaterBody:
-    name: hyf__upstreamWaterBody
-    from_schema: okns:hydrology-kg
-    exact_mappings:
-    - https://www.opengis.net/def/schema/hy_features/hyf/upstreamWaterBody
-    rank: 1000
-    slot_uri: hyf:/upstreamWaterBody
-    alias: hyf__upstreamWaterBody
-    owner: hyf__HY_ElementaryFlowPath
-    domain_of:
-    - hyf__HY_ElementaryFlowPath
-    inverse: hyf__downstreamFlowPath
-    range: hyf__HY_ElementaryFlowPath
-  geo_defaultGeometry:
-    name: geo_defaultGeometry
-    description: The default Geometry to be used in spatial calculations. It is usually
-      the most detailed Geometry.
-    notes:
-    - Duplicate properties defaultGeometry and hasDefaultGeometry exist because of
-      an inconsistency between ontology and documentation in GeoSPARQL 1.0. Only hasDefaultGeometry
-      is described in the documention.
-    comments:
-    - 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties'
-    - 'source: http://www.opengis.net/ont/geosparql#'
-    - 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties'
-    - 'description: The default Geometry to be used in spatial calculations. It is
-      usually the most detailed Geometry.'
-    - No occurrences of this slot in the graph.
-    from_schema: okns:geo
-    source: http://www.opengis.net/ont/geosparql#
-    exact_mappings:
-    - http://www.opengis.net/ont/geosparql#hasDefaultGeometry
-    domain: geo_Feature
-    slot_uri: geo:defaultGeometry
-    alias: geo_defaultGeometry
-    owner: hyf__HY_ElementaryFlowPath
-    domain_of:
-    - http___gwml2.org_def_gwml2#GW_Aquifer
-    - http___gwml2.org_def_gwml2#GW_AquiferSystem
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
-    subproperty_of: geo_hasGeometry
-    range: geo_Geometry
-  kwgo_sfTouches:
-    name: kwgo_sfTouches
-    description: KWG's spatial touches relation
-    title: touches (simple feature)
-    comments:
-    - No occurrences of this slot in the graph.
-    from_schema: okns:kwg
-    slot_uri: kwgo:sfTouches
-    alias: kwgo_sfTouches
-    owner: hyf__HY_ElementaryFlowPath
-    domain_of:
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
-    subproperty_of: kwgo_spatialRelation
-    range: Any
-  hyf__downstreamFlowPath:
-    name: hyf__downstreamFlowPath
-    from_schema: okns:hydrology-kg
-    exact_mappings:
-    - https://www.opengis.net/def/schema/hy_features/hyf/downstreamFlowPath
-    rank: 1000
-    slot_uri: hyf:/downstreamFlowPath
-    alias: hyf__downstreamFlowPath
-    owner: hyf__HY_ElementaryFlowPath
-    domain_of:
-    - hyf__HY_ElementaryFlowPath
-    subproperty_of: hyf__downstreamFlowPathTC
-    inverse: hyf__upstreamWaterBody
-    union_of:
-    - owl_Thing
-    - http___hyfo.spatialai.org_v1_hyfo#WaterFeatureRepresentation
-    - hyf__HY_FlowPath
-    - __Bf03ad86fab1719a427cbb412f91529fa
-    - geo_Feature
-    - hyf__HY_CatchmentRealization
-    - geo_SpatialObject
-    range: Any
-    any_of:
-    - range: owl_Thing
-    - range: http___hyfo.spatialai.org_v1_hyfo#WaterFeatureRepresentation
-    - range: hyf__HY_FlowPath
-    - range: __Bf03ad86fab1719a427cbb412f91529fa
-    - range: geo_Feature
-    - range: hyf__HY_ElementaryFlowPath
-    - range: hyf__HY_CatchmentRealization
-    - range: geo_SpatialObject
-  geo_hasGeometry:
-    name: geo_hasGeometry
-    description: A spatial representation for a given Feature.
-    title: No slot (predicate) name specified -- this slot is noted as a subproperty
-      of another slot in this graph but has not itself been defined.
-    comments:
-    - 'source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties'
-    - 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties'
-    - 'source: http://www.opengis.net/ont/geosparql#'
-    - 'source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties'
-    - 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties'
-    - 'description: A spatial representation for a given Feature.'
-    - No occurrences of this slot in the graph.
-    from_schema: okns:geo
-    source: http://www.opengis.net/ont/geosparql#
-    domain: geo_Feature
-    slot_uri: geo:hasGeometry
-    alias: geo_hasGeometry
-    owner: hyf__HY_ElementaryFlowPath
-    domain_of:
-    - http___gwml2.org_def_gwml2#GW_Aquifer
-    - http___gwml2.org_def_gwml2#GW_AquiferSystem
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
-    - il_isgs_ISGS-Well
-    - me_mgs_MGS-Well
-    - us_sdwis_PWS-ServiceArea
-    range: geo_Geometry
   http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFTYPE:
     name: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFTYPE
     from_schema: okns:hydrology-kg
-    exact_mappings:
-    - http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasFTYPE
     rank: 1000
     slot_uri: http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasFTYPE
     alias: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFTYPE
-    owner: hyf__HY_ElementaryFlowPath
+    owner: hyf_HY_ElementaryFlowPath
     domain_of:
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
+    - hyf_HY_ElementaryFlowPath
     range: string
   spatial_spatiallyRelatedTo:
     name: spatial_spatiallyRelatedTo
     title: topological connection (spatial contact) (sawgraph)
     from_schema: okns:hydrology-kg
     exact_mappings:
-    - http://purl.org/spatialai/spatial/spatial-full#spatiallyRelatedTo
     - http://stko-kwg.geog.ucsb.edu/lod/ontology/spatialRelation
     rank: 1000
     slot_uri: spatial:spatiallyRelatedTo
     alias: spatial_spatiallyRelatedTo
-    owner: hyf__HY_ElementaryFlowPath
+    owner: hyf_HY_ElementaryFlowPath
     domain_of:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
     - http___gwml2.org_def_gwml2#GW_Aquifer
     - http___gwml2.org_def_gwml2#GW_AquiferSystem
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
+    - hyf_HY_ElementaryFlowPath
     - kwgo_S2Cell_Level13
     - me_mgs_MGS-Well
     - us_sdwis_PWS-ServiceArea
@@ -941,59 +872,96 @@ attributes:
     - geo_SpatialObject
     range: Any
     any_of:
+    - range: us_sdwis_PublicWaterSystem-GW
     - range: http___gwml2.org_def_gwml2#GW_AquiferSystem
-    - range: kwgo_AdministrativeRegion_3
-    - range: hyf__HY_ElementaryFlowPath
+    - range: us_sdwis_PublicWaterSystem-SW
+    - range: us_sdwis_PWS-ServiceArea
+    - range: http___gwml2.org_def_gwml2#GW_Aquifer
+    - range: owl_Thing
+    - range: hyf_HY_WaterBody
     - range: us_sdwis_PublicWaterSystem-NTNCWS
-    - range: us_sdwis_PublicWaterSystem-TNCWS
     - range: me_mgs_MGS-Well
     - range: kwgo_S2Cell_Level13
-    - range: us_sdwis_PublicWaterSystem-SW
-    - range: kwgo_AdministrativeRegion
-    - range: geo_SpatialObject
-    - range: us_sdwis_PWS-ServiceArea
-    - range: hyf__HY_WaterBody
-    - range: kwgo_Region
+    - range: __B805a9e7d30eaabcb686b8ce670ed1e95
+    - range: hyf_HY_HydroFeature
+    - range: kwgo_AdministrativeRegion_3
     - range: us_sdwis_PublicWaterSystem-CWS
+    - range: geo_Feature
+    - range: hyf_HY_Lake
+    - range: geo_SpatialObject
+    - range: hyf_HY_ElementaryFlowPath
     - range: kwgo_AdministrativeRegion_2
-    - range: owl_Thing
-    - range: us_sdwis_PublicWaterSystem-GW
-    - range: http___gwml2.org_def_gwml2#GW_Aquifer
-    - range: hyf__HY_Lake
-  http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFCODE:
-    name: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFCODE
+    - range: us_sdwis_PublicWaterSystem-TNCWS
+    - range: kwgo_Region
+    - range: kwgo_AdministrativeRegion
+  spatial_connectedTo:
+    name: spatial_connectedTo
+    title: topological connection (spatial contact) (sawgraph)
     from_schema: okns:hydrology-kg
-    exact_mappings:
-    - http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasFCODE
     rank: 1000
-    slot_uri: http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasFCODE
-    alias: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFCODE
-    owner: hyf__HY_ElementaryFlowPath
+    slot_uri: spatial:connectedTo
+    alias: spatial_connectedTo
+    owner: hyf_HY_ElementaryFlowPath
     domain_of:
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
-    range: string
-  sdos_name:
-    name: sdos_name
-    description: The name of the item.
-    title: name
-    comments:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
+    - http___gwml2.org_def_gwml2#GW_Aquifer
+    - http___gwml2.org_def_gwml2#GW_AquiferSystem
+    - hyf_HY_ElementaryFlowPath
+    - kwgo_S2Cell_Level13
+    - me_mgs_MGS-Well
+    - us_sdwis_PWS-ServiceArea
+    - us_sdwis_PublicWaterSystem-CWS
+    - us_sdwis_PublicWaterSystem-GW
+    - us_sdwis_PublicWaterSystem-NTNCWS
+    - us_sdwis_PublicWaterSystem-SW
+    - us_sdwis_PublicWaterSystem-TNCWS
+    subproperty_of: kwgo_spatialRelation
+    union_of:
+    - owl_Thing
+    - geo_SpatialObject
+    range: Any
+    any_of:
+    - range: us_sdwis_PublicWaterSystem-GW
+    - range: http___gwml2.org_def_gwml2#GW_AquiferSystem
+    - range: us_sdwis_PublicWaterSystem-SW
+    - range: us_sdwis_PWS-ServiceArea
+    - range: http___gwml2.org_def_gwml2#GW_Aquifer
+    - range: owl_Thing
+    - range: hyf_HY_WaterBody
+    - range: us_sdwis_PublicWaterSystem-NTNCWS
+    - range: me_mgs_MGS-Well
+    - range: kwgo_S2Cell_Level13
+    - range: __B805a9e7d30eaabcb686b8ce670ed1e95
+    - range: hyf_HY_HydroFeature
+    - range: kwgo_AdministrativeRegion_3
+    - range: us_sdwis_PublicWaterSystem-CWS
+    - range: geo_Feature
+    - range: hyf_HY_Lake
+    - range: geo_SpatialObject
+    - range: hyf_HY_ElementaryFlowPath
+    - range: kwgo_AdministrativeRegion_2
+    - range: us_sdwis_PublicWaterSystem-TNCWS
+    - range: kwgo_Region
+    - range: kwgo_AdministrativeRegion
+  kwgo_sfWithin:
+    name: kwgo_sfWithin
+    description: KWG's spatial within relation
+    title: within (simple feature)
+    notes:
     - No occurrences of this slot in the graph.
-    from_schema: okns:sdo
-    exact_mappings:
-    - http://purl.org/dc/terms/title
-    domain: sdos_Thing
-    slot_uri: sdos:name
-    alias: sdos_name
-    owner: hyf__HY_ElementaryFlowPath
+    from_schema: okns:kwg
+    slot_uri: kwgo:sfWithin
+    alias: kwgo_sfWithin
+    owner: hyf_HY_ElementaryFlowPath
     domain_of:
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
-    subproperty_of: rdfs_label
-    range: sdos_Text
-class_uri: hyf:/HY_ElementaryFlowPath
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
+    - http___gwml2.org_def_gwml2#GW_Aquifer
+    - hyf_HY_ElementaryFlowPath
+    - kwgo_S2Cell_Level13
+    - me_mgs_MGS-Well
+    subproperty_of: kwgo_spatialRelation
+    range: Any
+class_uri: hyf:HY_ElementaryFlowPath
 
 ```
 </details>

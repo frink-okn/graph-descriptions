@@ -66,9 +66,9 @@ URI: [il_isgs:WellYield](http://sawgraph.spatialai.org/v1/il-isgs#WellYield)
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [qudt_unit](../slots/qudt_unit.md) | 0..1 <br/> [Any](../classes/Any.md) |  <br/> No occurrences of this slot in the graph. | direct | 265368 |
-| [qudt_numericValue](../slots/qudt_numericValue.md) | 0..1 <br/> [QudtNumericUnion](../types/QudtNumericUnion.md) |  <br/> No occurrences of this slot in the graph. | direct | 265368 |
-| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/> No occurrences of this slot in the graph. | direct | 265368 |
+| [qudt_numericValue](../slots/qudt_numericValue.md) | 0..1 <br/> [QudtNumericUnion](../types/QudtNumericUnion.md) |  <br/>  | direct | 265368 |
+| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/>  | direct | 265368 |
+| [qudt_unit](../slots/qudt_unit.md) | 0..1 <br/> [Any](../classes/Any.md) |  <br/>  | direct | 265368 |
 
 
 
@@ -101,14 +101,12 @@ URI: [il_isgs:WellYield](http://sawgraph.spatialai.org/v1/il-isgs#WellYield)
 ```yaml
 name: il_isgs_WellYield
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/il-isgs#WellYield
 rank: 1000
 is_a: owl_Thing
 slots:
-- qudt_unit
 - qudt_numericValue
 - owl_sameAs
+- qudt_unit
 class_uri: il_isgs:WellYield
 
 ```
@@ -121,26 +119,13 @@ class_uri: il_isgs:WellYield
 ```yaml
 name: il_isgs_WellYield
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/il-isgs#WellYield
 rank: 1000
 is_a: owl_Thing
 attributes:
-  qudt_unit:
-    name: qudt_unit
-    comments:
-    - No occurrences of this slot in the graph.
-    from_schema: okns:kwg
-    slot_uri: qudt:unit
-    alias: qudt_unit
-    owner: il_isgs_WellYield
-    domain_of:
-    - il_isgs_WellYield
-    range: Any
   qudt_numericValue:
     name: qudt_numericValue
     title: numeric value
-    comments:
+    notes:
     - No occurrences of this slot in the graph.
     from_schema: okns:qudt
     source: http://qudt.org/schema/qudt
@@ -157,7 +142,7 @@ attributes:
     name: owl_sameAs
     description: The property that determines that two given individuals are equal.
     title: sameAs
-    comments:
+    notes:
     - No occurrences of this slot in the graph.
     from_schema: okns:owl-rdf-rdfs
     source: http://www.w3.org/2002/07/owl#
@@ -166,12 +151,11 @@ attributes:
     alias: owl_sameAs
     owner: il_isgs_WellYield
     domain_of:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
     - http___gwml2.org_def_gwml2#GW_Aquifer
     - http___gwml2.org_def_gwml2#GW_AquiferSystem
     - http___nhdplusv2.spatialai.org_v1_nhdplusv2#FlowPathLength
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
+    - hyf_HY_ElementaryFlowPath
     - il_isgs_ISGS-Well
     - il_isgs_WellDepthInFt
     - il_isgs_WellPurpose
@@ -183,8 +167,6 @@ attributes:
     - me_mgs_WellType
     - me_mgs_WellUse
     - owl_DataProperty
-    - sf_#MultiPolygon
-    - sf_#Polygon
     - us_sdwis_PWS-ServiceArea
     - us_sdwis_PWS-ServiceAreaType
     - us_sdwis_PWS-SourceWaterType
@@ -196,6 +178,17 @@ attributes:
     - us_sdwis_PublicWaterSystem-SW
     - us_sdwis_PublicWaterSystem-TNCWS
     range: owl_Thing
+  qudt_unit:
+    name: qudt_unit
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:kwg
+    slot_uri: qudt:unit
+    alias: qudt_unit
+    owner: il_isgs_WellYield
+    domain_of:
+    - il_isgs_WellYield
+    range: Any
 class_uri: il_isgs:WellYield
 
 ```

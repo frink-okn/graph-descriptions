@@ -27,10 +27,6 @@ URI: [skos:description](http://www.w3.org/2004/02/skos/core#description)
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -39,11 +35,9 @@ URI: [skos:description](http://www.w3.org/2004/02/skos/core#description)
 
 ```yaml
 name: skos_description
-comments:
+notes:
 - No occurrences of this slot in the graph.
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://www.w3.org/2004/02/skos/core#description
 rank: 1000
 slot_uri: skos:description
 alias: skos_description

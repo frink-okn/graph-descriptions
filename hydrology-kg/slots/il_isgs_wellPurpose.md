@@ -47,8 +47,6 @@ URI: [il_isgs:wellPurpose](http://sawgraph.spatialai.org/v1/il-isgs#wellPurpose)
 ```yaml
 name: il_isgs_wellPurpose
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/il-isgs#wellPurpose
 rank: 1000
 slot_uri: il_isgs:wellPurpose
 alias: il_isgs_wellPurpose

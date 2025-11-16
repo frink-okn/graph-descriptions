@@ -22,13 +22,7 @@ URI: [http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasFCODE](http://nhdplusv2.spa
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HyfHYEstuary](../classes/HyfHYEstuary.md) |  |  no  |
-| [HyfHYCanal](../classes/HyfHYCanal.md) |  |  no  |
-| [HyfHYWaterBody](../classes/HyfHYWaterBody.md) |  |  no  |
-| [HyfHYLagoon](../classes/HyfHYLagoon.md) |  |  no  |
-| [HyfHYRiver](../classes/HyfHYRiver.md) |  |  no  |
-| [HyfHYImpoundment](../classes/HyfHYImpoundment.md) |  |  no  |
-| [HyfHYLake](../classes/HyfHYLake.md) |  |  no  |
+| [B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md) |  |  no  |
 | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |  |  no  |
 
 
@@ -54,15 +48,12 @@ URI: [http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasFCODE](http://nhdplusv2.spa
 ```yaml
 name: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFCODE
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasFCODE
 rank: 1000
 slot_uri: http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasFCODE
 alias: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFCODE
 domain_of:
-- hyf__HY_ElementaryFlowPath
-- hyf__HY_Lake
-- hyf__HY_WaterBody
+- __B805a9e7d30eaabcb686b8ce670ed1e95
+- hyf_HY_ElementaryFlowPath
 range: string
 
 ```

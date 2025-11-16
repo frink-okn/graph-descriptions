@@ -47,17 +47,15 @@ URI: [us_sdwis:hasMethod](http://sawgraph.spatialai.org/v1/us-sdwis#hasMethod)
 ```yaml
 name: us_sdwis_hasMethod
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/us-sdwis#hasMethod
 rank: 1000
 slot_uri: us_sdwis:hasMethod
 alias: us_sdwis_hasMethod
 domain_of:
 - us_sdwis_PWS-ServiceArea
 union_of:
+- geo_Feature
 - owl_Thing
 - geo_SpatialObject
-- geo_Feature
 - us_sdwis_PWS-ServiceArea
 range: string
 

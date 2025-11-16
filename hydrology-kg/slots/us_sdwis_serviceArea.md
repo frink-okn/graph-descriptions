@@ -22,11 +22,11 @@ URI: [us_sdwis:serviceArea](http://sawgraph.spatialai.org/v1/us-sdwis#serviceAre
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) |  |  no  |
-| [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) |  |  no  |
 | [UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md) |  |  no  |
-| [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) |  |  no  |
+| [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) |  |  no  |
 | [UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md) |  |  no  |
+| [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) |  |  no  |
+| [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) |  |  no  |
 
 
 
@@ -36,7 +36,7 @@ URI: [us_sdwis:serviceArea](http://sawgraph.spatialai.org/v1/us-sdwis#serviceAre
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[GeoSpatialObject](../classes/GeoSpatialObject.md)&nbsp;or&nbsp;<br />[GeoFeature](../classes/GeoFeature.md)&nbsp;or&nbsp;<br />[UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[GeoFeature](../classes/GeoFeature.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[GeoSpatialObject](../classes/GeoSpatialObject.md)&nbsp;or&nbsp;<br />[UsSdwisPWS-ServiceArea](../classes/UsSdwisPWS-ServiceArea.md)
 
 
 
@@ -51,8 +51,6 @@ URI: [us_sdwis:serviceArea](http://sawgraph.spatialai.org/v1/us-sdwis#serviceAre
 ```yaml
 name: us_sdwis_serviceArea
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/us-sdwis#serviceArea
 rank: 1000
 slot_uri: us_sdwis:serviceArea
 alias: us_sdwis_serviceArea
@@ -63,16 +61,15 @@ domain_of:
 - us_sdwis_PublicWaterSystem-SW
 - us_sdwis_PublicWaterSystem-TNCWS
 union_of:
-- owl_Thing
-- __B4321a9eb518ec74b0f636677676d03cc
-- us_sdwis_PublicWaterSystem
 - geo_Feature
+- us_sdwis_PublicWaterSystem
 - geo_SpatialObject
+- owl_Thing
 range: Any
 any_of:
+- range: geo_Feature
 - range: owl_Thing
 - range: geo_SpatialObject
-- range: geo_Feature
 - range: us_sdwis_PWS-ServiceArea
 
 ```

@@ -28,14 +28,8 @@ URI: [dct:title](http://purl.org/dc/terms/title)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [VaemGraphMetaData](../classes/VaemGraphMetaData.md) | "vaem:GraphMetaData" defines basic metadata for the registration and publishi... |  no  |
-| [HyfHYEstuary](../classes/HyfHYEstuary.md) |  |  no  |
-| [HyfHYCanal](../classes/HyfHYCanal.md) |  |  no  |
-| [HyfHYWaterBody](../classes/HyfHYWaterBody.md) |  |  no  |
-| [HyfHYLagoon](../classes/HyfHYLagoon.md) |  |  no  |
-| [HyfHYRiver](../classes/HyfHYRiver.md) |  |  no  |
-| [HyfHYImpoundment](../classes/HyfHYImpoundment.md) |  |  no  |
-| [HyfHYLake](../classes/HyfHYLake.md) |  |  no  |
 | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |  |  no  |
+| [B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md) |  |  no  |
 
 
 
@@ -45,7 +39,7 @@ URI: [dct:title](http://purl.org/dc/terms/title)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[RdfsLiteral](../classes/RdfsLiteral.md)
 
 
 
@@ -66,14 +60,13 @@ source: http://purl.org/dc/terms/
 slot_uri: dct:title
 domain_of:
 - vaem_GraphMetaData
-- hyf__HY_ElementaryFlowPath
-- hyf__HY_Lake
-- hyf__HY_WaterBody
+- __B805a9e7d30eaabcb686b8ce670ed1e95
+- hyf_HY_ElementaryFlowPath
 subproperty_of: dc_title
 range: Any
 any_of:
-- range: rdfs_Literal
 - range: string
+- range: rdfs_Literal
 
 ```
 </details>

@@ -50,8 +50,8 @@ URI: [http://nhdplusv2.spatialai.org/v1/nhdplusv2#FlowPathLength](http://nhdplus
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [qudt_quantityValue](../slots/qudt_quantityValue.md) | 0..1 <br/> [QudtQuantityValue](../classes/QudtQuantityValue.md) |  <br/> No occurrences of this slot in the graph. | direct | 869002 |
-| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/> No occurrences of this slot in the graph. | direct | 869002 |
+| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/>  | direct | 869002 |
+| [qudt_quantityValue](../slots/qudt_quantityValue.md) | 0..1 <br/> [QudtQuantityValue](../classes/QudtQuantityValue.md) |  <br/>  | direct | 869002 |
 
 
 
@@ -61,6 +61,7 @@ URI: [http://nhdplusv2.spatialai.org/v1/nhdplusv2#FlowPathLength](http://nhdplus
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
+| [B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md) | [http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength](../slots/http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength.md) | any_of[range] | [HttpNhdplusv2.spatialai.orgV1Nhdplusv2#FlowPathLength](../classes/HttpNhdplusv2.spatialai.orgV1Nhdplusv2#FlowPathLength.md) |
 | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) | [http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength](../slots/http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength.md) | any_of[range] | [HttpNhdplusv2.spatialai.orgV1Nhdplusv2#FlowPathLength](../classes/HttpNhdplusv2.spatialai.orgV1Nhdplusv2#FlowPathLength.md) |
 
 
@@ -84,12 +85,10 @@ URI: [http://nhdplusv2.spatialai.org/v1/nhdplusv2#FlowPathLength](http://nhdplus
 ```yaml
 name: http___nhdplusv2.spatialai.org_v1_nhdplusv2#FlowPathLength
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://nhdplusv2.spatialai.org/v1/nhdplusv2#FlowPathLength
 rank: 1000
 slots:
-- qudt_quantityValue
 - owl_sameAs
+- qudt_quantityValue
 class_uri: http://nhdplusv2.spatialai.org/v1/nhdplusv2#FlowPathLength
 
 ```
@@ -102,28 +101,13 @@ class_uri: http://nhdplusv2.spatialai.org/v1/nhdplusv2#FlowPathLength
 ```yaml
 name: http___nhdplusv2.spatialai.org_v1_nhdplusv2#FlowPathLength
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://nhdplusv2.spatialai.org/v1/nhdplusv2#FlowPathLength
 rank: 1000
 attributes:
-  qudt_quantityValue:
-    name: qudt_quantityValue
-    title: quantity value
-    comments:
-    - No occurrences of this slot in the graph.
-    from_schema: okns:qudt
-    source: http://qudt.org/schema/qudt
-    slot_uri: qudt:quantityValue
-    alias: qudt_quantityValue
-    owner: http___nhdplusv2.spatialai.org_v1_nhdplusv2#FlowPathLength
-    domain_of:
-    - http___nhdplusv2.spatialai.org_v1_nhdplusv2#FlowPathLength
-    range: qudt_QuantityValue
   owl_sameAs:
     name: owl_sameAs
     description: The property that determines that two given individuals are equal.
     title: sameAs
-    comments:
+    notes:
     - No occurrences of this slot in the graph.
     from_schema: okns:owl-rdf-rdfs
     source: http://www.w3.org/2002/07/owl#
@@ -132,12 +116,11 @@ attributes:
     alias: owl_sameAs
     owner: http___nhdplusv2.spatialai.org_v1_nhdplusv2#FlowPathLength
     domain_of:
+    - __B805a9e7d30eaabcb686b8ce670ed1e95
     - http___gwml2.org_def_gwml2#GW_Aquifer
     - http___gwml2.org_def_gwml2#GW_AquiferSystem
     - http___nhdplusv2.spatialai.org_v1_nhdplusv2#FlowPathLength
-    - hyf__HY_ElementaryFlowPath
-    - hyf__HY_Lake
-    - hyf__HY_WaterBody
+    - hyf_HY_ElementaryFlowPath
     - il_isgs_ISGS-Well
     - il_isgs_WellDepthInFt
     - il_isgs_WellPurpose
@@ -149,8 +132,6 @@ attributes:
     - me_mgs_WellType
     - me_mgs_WellUse
     - owl_DataProperty
-    - sf_#MultiPolygon
-    - sf_#Polygon
     - us_sdwis_PWS-ServiceArea
     - us_sdwis_PWS-ServiceAreaType
     - us_sdwis_PWS-SourceWaterType
@@ -162,6 +143,19 @@ attributes:
     - us_sdwis_PublicWaterSystem-SW
     - us_sdwis_PublicWaterSystem-TNCWS
     range: owl_Thing
+  qudt_quantityValue:
+    name: qudt_quantityValue
+    title: quantity value
+    notes:
+    - No occurrences of this slot in the graph.
+    from_schema: okns:qudt
+    source: http://qudt.org/schema/qudt
+    slot_uri: qudt:quantityValue
+    alias: qudt_quantityValue
+    owner: http___nhdplusv2.spatialai.org_v1_nhdplusv2#FlowPathLength
+    domain_of:
+    - http___nhdplusv2.spatialai.org_v1_nhdplusv2#FlowPathLength
+    range: qudt_QuantityValue
 class_uri: http://nhdplusv2.spatialai.org/v1/nhdplusv2#FlowPathLength
 
 ```

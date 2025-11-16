@@ -47,8 +47,6 @@ URI: [il_isgs:hasISWSId](http://sawgraph.spatialai.org/v1/il-isgs#hasISWSId)
 ```yaml
 name: il_isgs_hasISWSId
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/il-isgs#hasISWSId
 rank: 1000
 slot_uri: il_isgs:hasISWSId
 alias: il_isgs_hasISWSId

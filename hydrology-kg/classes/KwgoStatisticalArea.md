@@ -62,8 +62,6 @@ URI: [kwgo:StatisticalArea](http://stko-kwg.geog.ucsb.edu/lod/ontology/Statistic
 ```yaml
 name: kwgo_StatisticalArea
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://stko-kwg.geog.ucsb.edu/lod/ontology/StatisticalArea
 rank: 1000
 is_a: owl_Thing
 class_uri: kwgo:StatisticalArea
@@ -78,8 +76,6 @@ class_uri: kwgo:StatisticalArea
 ```yaml
 name: kwgo_StatisticalArea
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://stko-kwg.geog.ucsb.edu/lod/ontology/StatisticalArea
 rank: 1000
 is_a: owl_Thing
 class_uri: kwgo:StatisticalArea

@@ -62,8 +62,6 @@ URI: [us_sdwis:PWS-SubFeature](http://sawgraph.spatialai.org/v1/us-sdwis#PWS-Sub
 ```yaml
 name: us_sdwis_PWS-SubFeature
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/us-sdwis#PWS-SubFeature
 rank: 1000
 is_a: owl_Thing
 class_uri: us_sdwis:PWS-SubFeature
@@ -78,8 +76,6 @@ class_uri: us_sdwis:PWS-SubFeature
 ```yaml
 name: us_sdwis_PWS-SubFeature
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/us-sdwis#PWS-SubFeature
 rank: 1000
 is_a: owl_Thing
 class_uri: us_sdwis:PWS-SubFeature

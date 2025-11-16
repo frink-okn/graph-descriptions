@@ -38,10 +38,6 @@ URI: [qudt:unit](http://qudt.org/schema/qudt/unit)
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -50,7 +46,7 @@ URI: [qudt:unit](http://qudt.org/schema/qudt/unit)
 
 ```yaml
 name: qudt_unit
-comments:
+notes:
 - No occurrences of this slot in the graph.
 from_schema: okns:kwg
 slot_uri: qudt:unit

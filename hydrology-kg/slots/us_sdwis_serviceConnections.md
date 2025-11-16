@@ -22,11 +22,11 @@ URI: [us_sdwis:serviceConnections](http://sawgraph.spatialai.org/v1/us-sdwis#ser
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) |  |  no  |
-| [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) |  |  no  |
 | [UsSdwisPublicWaterSystem-NTNCWS](../classes/UsSdwisPublicWaterSystem-NTNCWS.md) |  |  no  |
-| [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) |  |  no  |
+| [UsSdwisPublicWaterSystem-SW](../classes/UsSdwisPublicWaterSystem-SW.md) |  |  no  |
 | [UsSdwisPublicWaterSystem-TNCWS](../classes/UsSdwisPublicWaterSystem-TNCWS.md) |  |  no  |
+| [UsSdwisPublicWaterSystem-CWS](../classes/UsSdwisPublicWaterSystem-CWS.md) |  |  no  |
+| [UsSdwisPublicWaterSystem-GW](../classes/UsSdwisPublicWaterSystem-GW.md) |  |  no  |
 
 
 
@@ -51,8 +51,6 @@ URI: [us_sdwis:serviceConnections](http://sawgraph.spatialai.org/v1/us-sdwis#ser
 ```yaml
 name: us_sdwis_serviceConnections
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/us-sdwis#serviceConnections
 rank: 1000
 slot_uri: us_sdwis:serviceConnections
 alias: us_sdwis_serviceConnections

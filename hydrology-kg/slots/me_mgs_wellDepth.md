@@ -47,18 +47,16 @@ URI: [me_mgs:wellDepth](http://sawgraph.spatialai.org/v1/me-mgs#wellDepth)
 ```yaml
 name: me_mgs_wellDepth
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/me-mgs#wellDepth
 rank: 1000
 slot_uri: me_mgs:wellDepth
 alias: me_mgs_wellDepth
 domain_of:
 - me_mgs_MGS-Well
 union_of:
-- owl_Thing
 - me_mgs_MGS-Well
-- geo_Feature
+- owl_Thing
 - geo_SpatialObject
+- geo_Feature
 range: Any
 any_of:
 - range: owl_Thing

@@ -47,8 +47,6 @@ URI: [http://sawgraph.spatialai.org/v1/il_isgs#ilSawAqSysId](http://sawgraph.spa
 ```yaml
 name: http___sawgraph.spatialai.org_v1_il_isgs#ilSawAqSysId
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/il_isgs#ilSawAqSysId
 rank: 1000
 slot_uri: http://sawgraph.spatialai.org/v1/il_isgs#ilSawAqSysId
 alias: http___sawgraph.spatialai.org_v1_il_isgs#ilSawAqSysId

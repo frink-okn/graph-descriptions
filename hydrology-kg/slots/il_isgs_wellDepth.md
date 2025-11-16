@@ -47,8 +47,6 @@ URI: [il_isgs:wellDepth](http://sawgraph.spatialai.org/v1/il-isgs#wellDepth)
 ```yaml
 name: il_isgs_wellDepth
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/il-isgs#wellDepth
 rank: 1000
 slot_uri: il_isgs:wellDepth
 alias: il_isgs_wellDepth

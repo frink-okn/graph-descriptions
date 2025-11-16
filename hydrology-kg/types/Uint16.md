@@ -7,11 +7,11 @@ _A 16-bit unsigned integer_
 
 
 
-URI: [xsd:unsignedInt](http://www.w3.org/2001/XMLSchema#unsignedInt)
+URI: [xsd:unsignedShort](http://www.w3.org/2001/XMLSchema#unsignedShort)
 
 * [base](https://w3id.org/linkml/base): int
 
-* [uri](https://w3id.org/linkml/uri): xsd:unsignedInt
+* [uri](https://w3id.org/linkml/uri): xsd:unsignedShort
 
 
 * [typeof](https://w3id.org/linkml/typeof): unsignedinteger
@@ -27,5 +27,9 @@ URI: [xsd:unsignedInt](http://www.w3.org/2001/XMLSchema#unsignedInt)
 * H
 
 
+
+## Comments
+
+* uri added by Mahir Morshed <mmorshed@scripps.edu>
 
 

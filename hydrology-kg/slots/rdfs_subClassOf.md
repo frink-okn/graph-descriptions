@@ -10,7 +10,7 @@ _The subject is a subclass of a class._
 
 
 
-This slot occurs 34 times.
+This slot occurs 29 times.
 
 
 URI: [rdfs:subClassOf](http://www.w3.org/2000/01/rdf-schema#subClassOf)
@@ -27,9 +27,9 @@ URI: [rdfs:subClassOf](http://www.w3.org/2000/01/rdf-schema#subClassOf)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
+| [QudtAspectClass](../classes/QudtAspectClass.md) |  |  no  |
 | [SdosMedicalSpecialty](../classes/SdosMedicalSpecialty.md) | Any specific branch of medical science or practice |  no  |
 | [OwlDataRange](../classes/OwlDataRange.md) | The class of OWL data ranges, which are special kinds of datatypes |  no  |
-| [QudtAspectClass](../classes/QudtAspectClass.md) |  |  no  |
 | [RdfsDatatype](../classes/RdfsDatatype.md) | The class of RDF datatypes |  no  |
 
 
@@ -61,8 +61,8 @@ source: http://www.w3.org/2000/01/rdf-schema#
 domain: rdfs_Class
 slot_uri: rdfs:subClassOf
 domain_of:
-- qudt_AspectClass
 - rdfs_Datatype
+- qudt_AspectClass
 - sdos_MedicalSpecialty
 range: rdfs_Class
 

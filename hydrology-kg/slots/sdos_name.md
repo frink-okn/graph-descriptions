@@ -27,13 +27,7 @@ URI: [sdos:name](https://schema.org/name)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [HyfHYEstuary](../classes/HyfHYEstuary.md) |  |  no  |
-| [HyfHYCanal](../classes/HyfHYCanal.md) |  |  no  |
-| [HyfHYWaterBody](../classes/HyfHYWaterBody.md) |  |  no  |
-| [HyfHYLagoon](../classes/HyfHYLagoon.md) |  |  no  |
-| [HyfHYRiver](../classes/HyfHYRiver.md) |  |  no  |
-| [HyfHYImpoundment](../classes/HyfHYImpoundment.md) |  |  no  |
-| [HyfHYLake](../classes/HyfHYLake.md) |  |  no  |
+| [B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md) |  |  no  |
 | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |  |  no  |
 
 
@@ -50,10 +44,6 @@ URI: [sdos:name](https://schema.org/name)
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -64,7 +54,7 @@ URI: [sdos:name](https://schema.org/name)
 name: sdos_name
 description: The name of the item.
 title: name
-comments:
+notes:
 - No occurrences of this slot in the graph.
 from_schema: okns:sdo
 exact_mappings:
@@ -72,9 +62,8 @@ exact_mappings:
 domain: sdos_Thing
 slot_uri: sdos:name
 domain_of:
-- hyf__HY_ElementaryFlowPath
-- hyf__HY_Lake
-- hyf__HY_WaterBody
+- __B805a9e7d30eaabcb686b8ce670ed1e95
+- hyf_HY_ElementaryFlowPath
 subproperty_of: rdfs_label
 range: sdos_Text
 

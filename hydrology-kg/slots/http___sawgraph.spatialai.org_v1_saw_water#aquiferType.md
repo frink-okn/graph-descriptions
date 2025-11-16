@@ -47,8 +47,6 @@ URI: [http://sawgraph.spatialai.org/v1/saw_water#aquiferType](http://sawgraph.sp
 ```yaml
 name: http___sawgraph.spatialai.org_v1_saw_water#aquiferType
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/saw_water#aquiferType
 rank: 1000
 slot_uri: http://sawgraph.spatialai.org/v1/saw_water#aquiferType
 alias: http___sawgraph.spatialai.org_v1_saw_water#aquiferType
