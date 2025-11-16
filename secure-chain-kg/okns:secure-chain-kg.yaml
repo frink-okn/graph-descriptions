@@ -457,14 +457,14 @@ annotations:
                         tag: subject
                         value: https://www.google.com/search?q=-+%2A
 title: securechainkg
-created_on: '2025-11-16T06:42:37.473315'
-last_updated_on: '2025-11-16T06:42:37.473315'
+created_on: '2025-11-16T06:50:53.396781'
+last_updated_on: '2025-11-16T06:50:53.396781'
 id: okns:secure-chain-kg
 imports:
-- linkml:types
 - okns:owl-rdf-rdfs
 - okns:sdo
 - okns:extended_types
+- linkml:types
 prefixes:
   linkml:
     prefix_prefix: linkml
@@ -543,8 +543,8 @@ slots:
     slot_uri: securechain:versionName
     range: Any
     any_of:
-    - range: sdos_Text
     - range: string
+    - range: sdos_Text
   securechain_vulnerabilityType:
     name: securechain_vulnerabilityType
     domain: securechain_Vulnerability
@@ -560,18 +560,18 @@ classes:
     name: securechain_Hardware
     is_a: sdos_Product
     slots:
-    - sdos_manufacturer
     - securechain_hasHardwareVersion
     - sdos_name
+    - sdos_manufacturer
     class_uri: securechain:Hardware
   securechain_HardwareVersion:
     name: securechain_HardwareVersion
     is_a: securechain_Hardware
     slots:
-    - securechain_versionName
     - owl_sameAs
-    - securechain_cpe23
+    - securechain_versionName
     - sdos_name
+    - securechain_cpe23
     - securechain_vulnerableTo
     class_uri: securechain:HardwareVersion
   securechain_License:

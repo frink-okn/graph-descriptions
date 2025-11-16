@@ -7,7 +7,7 @@ _Arbitrary hex-encoded binary data._
 
 
 
-URI: [xsd:hexBinary](xsd:hexBinary)
+URI: [xsd:hexBinary](http://www.w3.org/2001/XMLSchema#hexBinary)
 
 * [base](https://w3id.org/linkml/base): string
 
