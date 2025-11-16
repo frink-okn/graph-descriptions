@@ -27,8 +27,8 @@ URI: [sdos:name](https://schema.org/name)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) |  |  no  |
 | [SecurechainHardware](../classes/SecurechainHardware.md) |  |  no  |
+| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) |  |  no  |
 
 
 

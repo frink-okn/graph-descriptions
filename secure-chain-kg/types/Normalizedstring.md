@@ -7,7 +7,7 @@ _Normalized string, one that does not contain the carriage return (#xD), line fe
 
 
 
-URI: [xsd:normalizedString](http://www.w3.org/2001/XMLSchema#normalizedString)
+URI: [xsd:normalizedString](xsd:normalizedString)
 
 * [base](https://w3id.org/linkml/base): str
 
