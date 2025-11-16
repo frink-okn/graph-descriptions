@@ -27,8 +27,8 @@ URI: [sdos:manufacturer](https://schema.org/manufacturer)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) |  |  no  |
 | [SecurechainHardware](../classes/SecurechainHardware.md) |  |  no  |
+| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) |  |  no  |
 
 
 
