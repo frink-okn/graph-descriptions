@@ -3097,8 +3097,8 @@ SecurechainHardware {
 
 }
 SecurechainHardwareVersion {
-    string securechain_cpe23  
     string securechain_versionName  
+    string securechain_cpe23  
 }
 SecurechainLicense {
 
@@ -3434,19 +3434,19 @@ SdosWearableSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosWearableSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosWearableSizeSystemEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosWearableSizeSystemEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+SecurechainHardware ||--|o SecurechainHardwareVersion : "securechain_hasHardwareVersion"
 SecurechainHardware ||--|o SdosOrganization : "sdos_manufacturer"
 SecurechainHardware ||--|o SdosText : "sdos_name"
-SecurechainHardware ||--|o SecurechainHardwareVersion : "securechain_hasHardwareVersion"
-SecurechainHardwareVersion ||--|o OwlThing : "owl_sameAs"
-SecurechainHardwareVersion ||--|o SdosText : "sdos_name"
 SecurechainHardwareVersion ||--|o SecurechainVulnerability : "securechain_vulnerableTo"
 SecurechainHardwareVersion ||--|o SdosText : "securechain_versionName"
-SecurechainHardwareVersion ||--|o SdosOrganization : "sdos_manufacturer"
+SecurechainHardwareVersion ||--|o OwlThing : "owl_sameAs"
+SecurechainHardwareVersion ||--|o SdosText : "sdos_name"
 SecurechainHardwareVersion ||--|o SecurechainHardwareVersion : "securechain_hasHardwareVersion"
-SecurechainVulnerability ||--|o SecurechainVulnerabilityType : "securechain_vulnerabilityType"
+SecurechainHardwareVersion ||--|o SdosOrganization : "sdos_manufacturer"
 SecurechainVulnerability ||--|o SdosURL : "sdos_identifier"
 SecurechainVulnerability ||--|o SdosPropertyValue : "sdos_identifier"
 SecurechainVulnerability ||--|o SdosText : "sdos_identifier"
+SecurechainVulnerability ||--|o SecurechainVulnerabilityType : "securechain_vulnerabilityType"
 SecurechainVulnerabilityType ||--|o SdosURL : "sdos_identifier"
 SecurechainVulnerabilityType ||--|o SdosPropertyValue : "sdos_identifier"
 SecurechainVulnerabilityType ||--|o SdosText : "sdos_identifier"
@@ -3458,10 +3458,10 @@ SecurechainVulnerabilityType ||--|o SdosText : "sdos_identifier"
 ## Imports
 
 
-* okns:owl-rdf-rdfs
-* okns:extended_types
 * okns:sdo
+* okns:owl-rdf-rdfs
 * linkml:types
+* okns:extended_types
 
 
 
@@ -3520,6 +3520,3 @@ SecurechainVulnerabilityType ||--|o SdosText : "sdos_identifier"
 * sdos: https://schema.org/
 * securechain: https://w3id.org/secure-chain/
 * sudokn: http://asu.edu/semantics/SUDOKN/
-* xsd: http://www.w3.org/2001/XMLSchema#
-* shex: http://www.w3.org/ns/shex#
-* schema: http://schema.org/
