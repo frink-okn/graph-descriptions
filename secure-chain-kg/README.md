@@ -3434,19 +3434,19 @@ SdosWearableSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosWearableSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosWearableSizeSystemEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosWearableSizeSystemEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
-SecurechainHardware ||--|o SdosText : "sdos_name"
-SecurechainHardware ||--|o SecurechainHardwareVersion : "securechain_hasHardwareVersion"
 SecurechainHardware ||--|o SdosOrganization : "sdos_manufacturer"
-SecurechainHardwareVersion ||--|o SdosText : "securechain_versionName"
+SecurechainHardware ||--|o SecurechainHardwareVersion : "securechain_hasHardwareVersion"
+SecurechainHardware ||--|o SdosText : "sdos_name"
 SecurechainHardwareVersion ||--|o SecurechainVulnerability : "securechain_vulnerableTo"
 SecurechainHardwareVersion ||--|o OwlThing : "owl_sameAs"
+SecurechainHardwareVersion ||--|o SdosText : "securechain_versionName"
 SecurechainHardwareVersion ||--|o SdosText : "sdos_name"
-SecurechainHardwareVersion ||--|o SecurechainHardwareVersion : "securechain_hasHardwareVersion"
 SecurechainHardwareVersion ||--|o SdosOrganization : "sdos_manufacturer"
-SecurechainVulnerability ||--|o SecurechainVulnerabilityType : "securechain_vulnerabilityType"
+SecurechainHardwareVersion ||--|o SecurechainHardwareVersion : "securechain_hasHardwareVersion"
 SecurechainVulnerability ||--|o SdosURL : "sdos_identifier"
 SecurechainVulnerability ||--|o SdosPropertyValue : "sdos_identifier"
 SecurechainVulnerability ||--|o SdosText : "sdos_identifier"
+SecurechainVulnerability ||--|o SecurechainVulnerabilityType : "securechain_vulnerabilityType"
 SecurechainVulnerabilityType ||--|o SdosURL : "sdos_identifier"
 SecurechainVulnerabilityType ||--|o SdosPropertyValue : "sdos_identifier"
 SecurechainVulnerabilityType ||--|o SdosText : "sdos_identifier"
@@ -3458,9 +3458,9 @@ SecurechainVulnerabilityType ||--|o SdosText : "sdos_identifier"
 ## Imports
 
 
-* okns:sdo
-* okns:extended_types
 * linkml:types
+* okns:extended_types
+* okns:sdo
 * okns:owl-rdf-rdfs
 
 
