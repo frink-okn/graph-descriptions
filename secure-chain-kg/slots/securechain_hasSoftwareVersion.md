@@ -5,8 +5,6 @@
 
 
 
-This slot occurs 8593149 times.
-
 
 URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareVersion)
 
@@ -14,18 +12,6 @@ URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareV
 
 <!-- no inheritance hierarchy -->
 
-
-
-
-
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [SecurechainHardware](../classes/SecurechainHardware.md) |  |  no  |
-| [SecurechainSoftware](../classes/SecurechainSoftware.md) |  |  no  |
-| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) |  |  no  |
-| [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) |  |  no  |
 
 
 
@@ -49,14 +35,13 @@ URI: [securechain:hasSoftwareVersion](https://w3id.org/secure-chain/hasSoftwareV
 
 ```yaml
 name: securechain_hasSoftwareVersion
+notes:
+- No occurrences of this slot in the graph.
 from_schema: okns:secure-chain-kg
 rank: 1000
 domain: securechain_Software
 slot_uri: securechain:hasSoftwareVersion
 alias: securechain_hasSoftwareVersion
-domain_of:
-- securechain_Hardware
-- securechain_Software
 range: securechain_SoftwareVersion
 
 ```

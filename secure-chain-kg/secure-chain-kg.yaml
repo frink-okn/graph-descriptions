@@ -7,85 +7,46 @@ annotations:
         value:
           sdos:Organization:
             tag: sdos:Organization
-            value: 22889
-          sdos:Person:
-            tag: sdos:Person
-            value: 27009
+            value: 1663
           securechain:Hardware:
             tag: securechain:Hardware
-            value: 53378
+            value: 55764
           securechain:HardwareVersion:
             tag: securechain:HardwareVersion
-            value: 57295
-          securechain:License:
-            tag: securechain:License
-            value: 294
-          securechain:Software:
-            tag: securechain:Software
-            value: 803769
-          securechain:SoftwareVersion:
-            tag: securechain:SoftwareVersion
-            value: 8593149
+            value: 59978
           securechain:Vulnerability:
             tag: securechain:Vulnerability
-            value: 259806
+            value: 312386
           securechain:VulnerabilityType:
             tag: securechain:VulnerabilityType
-            value: 445
+            value: 740
       pairs:
         tag: pairs
         value:
-          sdos:contributor:
-            tag: sdos:contributor
+          owl:sameAs:
+            tag: owl:sameAs
             value:
-              securechain:Software:
-                tag: securechain:Software
+              securechain:HardwareVersion:
+                tag: securechain:HardwareVersion
                 value:
-                  sdos:Person:
-                    tag: sdos:Person
-                    value: 32408
+                  uri:
+                    tag: uri
+                    value: 18094
           sdos:identifier:
             tag: sdos:identifier
             value:
-              sdos:Organization:
-                tag: sdos:Organization
-                value:
-                  string:
-                    tag: string
-                    value: 887
-              securechain:License:
-                tag: securechain:License
-                value:
-                  string:
-                    tag: string
-                    value: 294
-              securechain:Software:
-                tag: securechain:Software
-                value:
-                  string:
-                    tag: string
-                    value: 4
               securechain:Vulnerability:
                 tag: securechain:Vulnerability
                 value:
                   string:
                     tag: string
-                    value: 259806
+                    value: 312386
               securechain:VulnerabilityType:
                 tag: securechain:VulnerabilityType
                 value:
                   string:
                     tag: string
-                    value: 445
-          sdos:license:
-            tag: sdos:license
-            value:
-              securechain:SoftwareVersion:
-                tag: securechain:SoftwareVersion
-                value:
-                  securechain:License:
-                    tag: securechain:License
-                    value: 5018025
+                    value: 740
           sdos:manufacturer:
             tag: sdos:manufacturer
             value:
@@ -94,34 +55,19 @@ annotations:
                 value:
                   sdos:Organization:
                     tag: sdos:Organization
-                    value: 53
+                    value: 35
                   securechain:Hardware:
                     tag: securechain:Hardware
-                    value: 23
-                  securechain:Software:
-                    tag: securechain:Software
-                    value: 1
+                    value: 22
               securechain:Hardware:
                 tag: securechain:Hardware
                 value:
                   sdos:Organization:
                     tag: sdos:Organization
-                    value: 54369
+                    value: 56805
                   securechain:Hardware:
                     tag: securechain:Hardware
-                    value: 2372
-                  securechain:Software:
-                    tag: securechain:Software
-                    value: 1252
-              securechain:Software:
-                tag: securechain:Software
-                value:
-                  sdos:Organization:
-                    tag: sdos:Organization
-                    value: 26
-                  securechain:Software:
-                    tag: securechain:Software
-                    value: 1
+                    value: 2633
           sdos:name:
             tag: sdos:name
             value:
@@ -130,109 +76,28 @@ annotations:
                 value:
                   string:
                     tag: string
-                    value: 22889
-              sdos:Person:
-                tag: sdos:Person
-                value:
-                  string:
-                    tag: string
-                    value: 27009
+                    value: 1700
               securechain:Hardware:
                 tag: securechain:Hardware
                 value:
                   string:
                     tag: string
-                    value: 53378
-              securechain:License:
-                tag: securechain:License
+                    value: 60817
+              securechain:HardwareVersion:
+                tag: securechain:HardwareVersion
                 value:
                   string:
                     tag: string
-                    value: 20
-              securechain:Software:
-                tag: securechain:Software
-                value:
-                  string:
-                    tag: string
-                    value: 803766
-          sdos:programmingLanguage:
-            tag: sdos:programmingLanguage
+                    value: 60799
+          securechain:cpe23:
+            tag: securechain:cpe23
             value:
-              sdos:Organization:
-                tag: sdos:Organization
+              securechain:HardwareVersion:
+                tag: securechain:HardwareVersion
                 value:
                   string:
                     tag: string
-                    value: 224
-              securechain:Hardware:
-                tag: securechain:Hardware
-                value:
-                  string:
-                    tag: string
-                    value: 22
-              securechain:Software:
-                tag: securechain:Software
-                value:
-                  string:
-                    tag: string
-                    value: 803769
-          sdos:url:
-            tag: sdos:url
-            value:
-              sdos:Organization:
-                tag: sdos:Organization
-                value:
-                  uri:
-                    tag: uri
-                    value: 887
-              securechain:Software:
-                tag: securechain:Software
-                value:
-                  uri:
-                    tag: uri
-                    value: 4
-              securechain:SoftwareVersion:
-                tag: securechain:SoftwareVersion
-                value:
-                  string:
-                    tag: string
-                    value: 7733913
-          securechain:dependsOn:
-            tag: securechain:dependsOn
-            value:
-              securechain:SoftwareVersion:
-                tag: securechain:SoftwareVersion
-                value:
-                  securechain:SoftwareVersion:
-                    tag: securechain:SoftwareVersion
-                    value: 29574574
-              untyped:
-                tag: untyped
-                value:
-                  securechain:SoftwareVersion:
-                    tag: securechain:SoftwareVersion
-                    value: 213152
-          securechain:ecosystem:
-            tag: securechain:ecosystem
-            value:
-              sdos:Organization:
-                tag: sdos:Organization
-                value:
-                  string:
-                    tag: string
-                    value: 224
-              securechain:Hardware:
-                tag: securechain:Hardware
-                value:
-                  string:
-                    tag: string
-                    value: 22
-              securechain:Software:
-                tag: securechain:Software
-                value:
-                  string:
-                    tag: string
-                    value: 803769
+                    value: 61042
           securechain:hasHardwareVersion:
             tag: securechain:hasHardwareVersion
             value:
@@ -241,40 +106,13 @@ annotations:
                 value:
                   securechain:HardwareVersion:
                     tag: securechain:HardwareVersion
-                    value: 53
+                    value: 34
               securechain:Hardware:
                 tag: securechain:Hardware
                 value:
                   securechain:HardwareVersion:
                     tag: securechain:HardwareVersion
-                    value: 57295
-              securechain:Software:
-                tag: securechain:Software
-                value:
-                  securechain:HardwareVersion:
-                    tag: securechain:HardwareVersion
-                    value: 24
-          securechain:hasSoftwareVersion:
-            tag: securechain:hasSoftwareVersion
-            value:
-              sdos:Organization:
-                tag: sdos:Organization
-                value:
-                  securechain:SoftwareVersion:
-                    tag: securechain:SoftwareVersion
-                    value: 1437
-              securechain:Hardware:
-                tag: securechain:Hardware
-                value:
-                  securechain:SoftwareVersion:
-                    tag: securechain:SoftwareVersion
-                    value: 73
-              securechain:Software:
-                tag: securechain:Software
-                value:
-                  securechain:SoftwareVersion:
-                    tag: securechain:SoftwareVersion
-                    value: 8593149
+                    value: 59978
           securechain:versionName:
             tag: securechain:versionName
             value:
@@ -283,13 +121,7 @@ annotations:
                 value:
                   string:
                     tag: string
-                    value: 57295
-              securechain:SoftwareVersion:
-                tag: securechain:SoftwareVersion
-                value:
-                  string:
-                    tag: string
-                    value: 8593148
+                    value: 59978
           securechain:vulnerabilityType:
             tag: securechain:vulnerabilityType
             value:
@@ -298,7 +130,7 @@ annotations:
                 value:
                   securechain:VulnerabilityType:
                     tag: securechain:VulnerabilityType
-                    value: 177404
+                    value: 262828
           securechain:vulnerableTo:
             tag: securechain:vulnerableTo
             value:
@@ -307,58 +139,37 @@ annotations:
                 value:
                   securechain:Vulnerability:
                     tag: securechain:Vulnerability
-                    value: 451784
-              securechain:SoftwareVersion:
-                tag: securechain:SoftwareVersion
-                value:
-                  securechain:Vulnerability:
-                    tag: securechain:Vulnerability
-                    value: 383356
+                    value: 46230
       slots:
         tag: slots
         value:
-          sdos:contributor:
-            tag: sdos:contributor
-            value: 32408
+          owl:sameAs:
+            tag: owl:sameAs
+            value: 18094
           sdos:identifier:
             tag: sdos:identifier
-            value: 261432
-          sdos:license:
-            tag: sdos:license
-            value: 5018025
+            value: 313126
           sdos:manufacturer:
             tag: sdos:manufacturer
-            value: 54369
+            value: 56805
           sdos:name:
             tag: sdos:name
-            value: 906771
-          sdos:programmingLanguage:
-            tag: sdos:programmingLanguage
-            value: 803769
-          sdos:url:
-            tag: sdos:url
-            value: 7734800
-          securechain:dependsOn:
-            tag: securechain:dependsOn
-            value: 29787726
-          securechain:ecosystem:
-            tag: securechain:ecosystem
-            value: 803769
+            value: 123248
+          securechain:cpe23:
+            tag: securechain:cpe23
+            value: 61042
           securechain:hasHardwareVersion:
             tag: securechain:hasHardwareVersion
-            value: 57295
-          securechain:hasSoftwareVersion:
-            tag: securechain:hasSoftwareVersion
-            value: 8593149
+            value: 59978
           securechain:versionName:
             tag: securechain:versionName
-            value: 8650443
+            value: 59978
           securechain:vulnerabilityType:
             tag: securechain:vulnerabilityType
-            value: 177404
+            value: 262828
           securechain:vulnerableTo:
             tag: securechain:vulnerableTo
-            value: 835140
+            value: 46230
   examples:
     tag: examples
     value:
@@ -367,100 +178,43 @@ annotations:
         value:
           sdos:Organization:
             tag: sdos:Organization
-            value: https://www.google.com/search?q=zzzcms
-          sdos:Person:
-            tag: sdos:Person
-            value: https://github.com/zzzhangqi
+            value: https://www.google.com/search?q=zzinc
           securechain:Hardware:
             tag: securechain:Hardware
             value: https://www.google.com/search?q=zz_qcs605
           securechain:HardwareVersion:
             tag: securechain:HardwareVersion
-            value: https://www.google.com/search?q=zz_qcs605+-
-          securechain:License:
-            tag: securechain:License
-            value: https://spdx.org/licenses/zlib.html
-          securechain:Software:
-            tag: securechain:Software
-            value: https://www.google.com/search?q=zzip
-          securechain:SoftwareVersion:
-            tag: securechain:SoftwareVersion
-            value: https://www.google.com/search?q=zzip+*
+            value: https://www.google.com/search?q=zz_qcs605+%2A
           securechain:Vulnerability:
             tag: securechain:Vulnerability
-            value: https://nvd.nist.gov/vuln/detail/CVE-2024-7585
+            value: https://nvd.nist.gov/vuln/detail/CVE-2025-9999
           securechain:VulnerabilityType:
             tag: securechain:VulnerabilityType
             value: https://cwe.mitre.org/data/definitions/99.html
       pairs:
         tag: pairs
         value:
-          sdos:contributor:
-            tag: sdos:contributor
+          owl:sameAs:
+            tag: owl:sameAs
             value:
-              securechain:Software:
-                tag: securechain:Software
+              securechain:HardwareVersion:
+                tag: securechain:HardwareVersion
                 value:
-                  sdos:Person:
-                    tag: sdos:Person
+                  uri:
+                    tag: uri
                     value:
                       object:
                         tag: object
-                        value: https://github.com/0vercl0k
+                        value: sudokn:intel.com-Intel-product-instance
                       predicate:
                         tag: predicate
-                        value: sdos:contributor
+                        value: owl:sameAs
                       subject:
                         tag: subject
-                        value: https://github.com/0vercl0k/rp
+                        value: https://www.google.com/search?q=-+%2A
           sdos:identifier:
             tag: sdos:identifier
             value:
-              sdos:Organization:
-                tag: sdos:Organization
-                value:
-                  string:
-                    tag: string
-                    value:
-                      object:
-                        tag: object
-                        value: Q2150861
-                      predicate:
-                        tag: predicate
-                        value: sdos:identifier
-                      subject:
-                        tag: subject
-                        value: https://www.google.com/search?q=1Password
-              securechain:License:
-                tag: securechain:License
-                value:
-                  string:
-                    tag: string
-                    value:
-                      object:
-                        tag: object
-                        value: (Apache-2.0
-                      predicate:
-                        tag: predicate
-                        value: sdos:identifier
-                      subject:
-                        tag: subject
-                        value: https://spdx.org/licenses/%28Apache-2.0.html
-              securechain:Software:
-                tag: securechain:Software
-                value:
-                  string:
-                    tag: string
-                    value:
-                      object:
-                        tag: object
-                        value: Q202400
-                      predicate:
-                        tag: predicate
-                        value: sdos:identifier
-                      subject:
-                        tag: subject
-                        value: https://www.google.com/search?q=Kernel
               securechain:Vulnerability:
                 tag: securechain:Vulnerability
                 value:
@@ -491,24 +245,6 @@ annotations:
                       subject:
                         tag: subject
                         value: https://cwe.mitre.org/data/definitions/1.html
-          sdos:license:
-            tag: sdos:license
-            value:
-              securechain:SoftwareVersion:
-                tag: securechain:SoftwareVersion
-                value:
-                  securechain:License:
-                    tag: securechain:License
-                    value:
-                      object:
-                        tag: object
-                        value: https://spdx.org/licenses/BSD-3-Clause.html
-                      predicate:
-                        tag: predicate
-                        value: sdos:license
-                      subject:
-                        tag: subject
-                        value: https://crates.io/crates/a-bot/0.0.1/
           sdos:manufacturer:
             tag: sdos:manufacturer
             value:
@@ -539,18 +275,6 @@ annotations:
                       subject:
                         tag: subject
                         value: https://www.google.com/search?q=arduino
-                  securechain:Software:
-                    tag: securechain:Software
-                    value:
-                      object:
-                        tag: object
-                        value: https://www.google.com/search?q=amd
-                      predicate:
-                        tag: predicate
-                        value: sdos:manufacturer
-                      subject:
-                        tag: subject
-                        value: https://www.google.com/search?q=milan
               securechain:Hardware:
                 tag: securechain:Hardware
                 value:
@@ -578,45 +302,6 @@ annotations:
                       subject:
                         tag: subject
                         value: https://www.google.com/search?q=arduino
-                  securechain:Software:
-                    tag: securechain:Software
-                    value:
-                      object:
-                        tag: object
-                        value: https://www.google.com/search?q=amd
-                      predicate:
-                        tag: predicate
-                        value: sdos:manufacturer
-                      subject:
-                        tag: subject
-                        value: https://www.google.com/search?q=milan
-              securechain:Software:
-                tag: securechain:Software
-                value:
-                  sdos:Organization:
-                    tag: sdos:Organization
-                    value:
-                      object:
-                        tag: object
-                        value: https://www.google.com/search?q=mitel
-                      predicate:
-                        tag: predicate
-                        value: sdos:manufacturer
-                      subject:
-                        tag: subject
-                        value: https://www.google.com/search?q=st
-                  securechain:Software:
-                    tag: securechain:Software
-                    value:
-                      object:
-                        tag: object
-                        value: https://www.google.com/search?q=oculus
-                      predicate:
-                        tag: predicate
-                        value: sdos:manufacturer
-                      subject:
-                        tag: subject
-                        value: https://www.google.com/search?q=rift
           sdos:name:
             tag: sdos:name
             value:
@@ -635,21 +320,6 @@ annotations:
                       subject:
                         tag: subject
                         value: https://www.google.com/search?q=2n
-              sdos:Person:
-                tag: sdos:Person
-                value:
-                  string:
-                    tag: string
-                    value:
-                      object:
-                        tag: object
-                        value: 0----0
-                      predicate:
-                        tag: predicate
-                        value: sdos:name
-                      subject:
-                        tag: subject
-                        value: https://github.com/0----0
               securechain:Hardware:
                 tag: securechain:Hardware
                 value:
@@ -665,215 +335,39 @@ annotations:
                       subject:
                         tag: subject
                         value: https://www.google.com/search?q=360
-              securechain:License:
-                tag: securechain:License
+              securechain:HardwareVersion:
+                tag: securechain:HardwareVersion
                 value:
                   string:
                     tag: string
                     value:
                       object:
                         tag: object
-                        value: Permission to use, copy, modify, and/or distribute
-                          this software for any
+                        value: Intel
                       predicate:
                         tag: predicate
                         value: sdos:name
                       subject:
                         tag: subject
-                        value: https://spdx.org/licenses/0bsd.html
-              securechain:Software:
-                tag: securechain:Software
-                value:
-                  string:
-                    tag: string
-                    value:
-                      object:
-                        tag: object
-                        value: amd
-                      predicate:
-                        tag: predicate
-                        value: sdos:name
-                      subject:
-                        tag: subject
-                        value: https://www.google.com/search?q=amd
-          sdos:programmingLanguage:
-            tag: sdos:programmingLanguage
+                        value: https://www.google.com/search?q=-+%2A
+          securechain:cpe23:
+            tag: securechain:cpe23
             value:
-              sdos:Organization:
-                tag: sdos:Organization
+              securechain:HardwareVersion:
+                tag: securechain:HardwareVersion
                 value:
                   string:
                     tag: string
                     value:
                       object:
                         tag: object
-                        value: C/C++
+                        value: cpe:2.3:h:intel:-:-:*:*:*:*:*:*:*
                       predicate:
                         tag: predicate
-                        value: sdos:programmingLanguage
+                        value: securechain:cpe23
                       subject:
                         tag: subject
-                        value: https://www.google.com/search?q=amd
-              securechain:Hardware:
-                tag: securechain:Hardware
-                value:
-                  string:
-                    tag: string
-                    value:
-                      object:
-                        tag: object
-                        value: C/C++
-                      predicate:
-                        tag: predicate
-                        value: sdos:programmingLanguage
-                      subject:
-                        tag: subject
-                        value: https://www.google.com/search?q=st
-              securechain:Software:
-                tag: securechain:Software
-                value:
-                  string:
-                    tag: string
-                    value:
-                      object:
-                        tag: object
-                        value: C/C++
-                      predicate:
-                        tag: predicate
-                        value: sdos:programmingLanguage
-                      subject:
-                        tag: subject
-                        value: https://www.google.com/search?q=amd
-          sdos:url:
-            tag: sdos:url
-            value:
-              sdos:Organization:
-                tag: sdos:Organization
-                value:
-                  uri:
-                    tag: uri
-                    value:
-                      object:
-                        tag: object
-                        value: '[''https://1password.com'', ''http://1passwd.com'',
-                          ''https://1password.com/zh-tw'', ''https://1password.com/zh-cn'']'
-                      predicate:
-                        tag: predicate
-                        value: sdos:url
-                      subject:
-                        tag: subject
-                        value: https://www.google.com/search?q=1Password
-              securechain:Software:
-                tag: securechain:Software
-                value:
-                  uri:
-                    tag: uri
-                    value:
-                      object:
-                        tag: object
-                        value: '[]'
-                      predicate:
-                        tag: predicate
-                        value: sdos:url
-                      subject:
-                        tag: subject
-                        value: https://www.google.com/search?q=Kernel
-              securechain:SoftwareVersion:
-                tag: securechain:SoftwareVersion
-                value:
-                  string:
-                    tag: string
-                    value:
-                      object:
-                        tag: object
-                        value: https://github.com/ddddddeon/a
-                      predicate:
-                        tag: predicate
-                        value: sdos:url
-                      subject:
-                        tag: subject
-                        value: https://crates.io/crates/a-gpt/0.1.0/
-          securechain:dependsOn:
-            tag: securechain:dependsOn
-            value:
-              securechain:SoftwareVersion:
-                tag: securechain:SoftwareVersion
-                value:
-                  securechain:SoftwareVersion:
-                    tag: securechain:SoftwareVersion
-                    value:
-                      object:
-                        tag: object
-                        value: https://conan.io/center/recipes/taocpp-json?version=1.0.0-beta.14
-                      predicate:
-                        tag: predicate
-                        value: securechain:dependsOn
-                      subject:
-                        tag: subject
-                        value: https://conan.io/center/recipes/7bitconf?version=1.0.0
-              untyped:
-                tag: untyped
-                value:
-                  securechain:SoftwareVersion:
-                    tag: securechain:SoftwareVersion
-                    value:
-                      object:
-                        tag: object
-                        value: https://www.google.com/search?q=arduinojson+*
-                      predicate:
-                        tag: predicate
-                        value: securechain:dependsOn
-                      subject:
-                        tag: subject
-                        value: https://github.com/ArduinoJson/releases/tag/v4.0
-          securechain:ecosystem:
-            tag: securechain:ecosystem
-            value:
-              sdos:Organization:
-                tag: sdos:Organization
-                value:
-                  string:
-                    tag: string
-                    value:
-                      object:
-                        tag: object
-                        value: Unknown
-                      predicate:
-                        tag: predicate
-                        value: securechain:ecosystem
-                      subject:
-                        tag: subject
-                        value: https://www.google.com/search?q=amd
-              securechain:Hardware:
-                tag: securechain:Hardware
-                value:
-                  string:
-                    tag: string
-                    value:
-                      object:
-                        tag: object
-                        value: Unknown
-                      predicate:
-                        tag: predicate
-                        value: securechain:ecosystem
-                      subject:
-                        tag: subject
-                        value: https://www.google.com/search?q=st
-              securechain:Software:
-                tag: securechain:Software
-                value:
-                  string:
-                    tag: string
-                    value:
-                      object:
-                        tag: object
-                        value: Unknown
-                      predicate:
-                        tag: predicate
-                        value: securechain:ecosystem
-                      subject:
-                        tag: subject
-                        value: https://www.google.com/search?q=amd
+                        value: https://www.google.com/search?q=-+%2A
           securechain:hasHardwareVersion:
             tag: securechain:hasHardwareVersion
             value:
@@ -885,7 +379,7 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: https://www.google.com/search?q=360+-
+                        value: https://www.google.com/search?q=360+%2A
                       predicate:
                         tag: predicate
                         value: securechain:hasHardwareVersion
@@ -900,76 +394,13 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: https://www.google.com/search?q=360+-
+                        value: https://www.google.com/search?q=360+%2A
                       predicate:
                         tag: predicate
                         value: securechain:hasHardwareVersion
                       subject:
                         tag: subject
                         value: https://www.google.com/search?q=360
-              securechain:Software:
-                tag: securechain:Software
-                value:
-                  securechain:HardwareVersion:
-                    tag: securechain:HardwareVersion
-                    value:
-                      object:
-                        tag: object
-                        value: https://www.google.com/search?q=st+14.2
-                      predicate:
-                        tag: predicate
-                        value: securechain:hasHardwareVersion
-                      subject:
-                        tag: subject
-                        value: https://www.google.com/search?q=st
-          securechain:hasSoftwareVersion:
-            tag: securechain:hasSoftwareVersion
-            value:
-              sdos:Organization:
-                tag: sdos:Organization
-                value:
-                  securechain:SoftwareVersion:
-                    tag: securechain:SoftwareVersion
-                    value:
-                      object:
-                        tag: object
-                        value: https://www.google.com/search?q=amd+64
-                      predicate:
-                        tag: predicate
-                        value: securechain:hasSoftwareVersion
-                      subject:
-                        tag: subject
-                        value: https://www.google.com/search?q=amd
-              securechain:Hardware:
-                tag: securechain:Hardware
-                value:
-                  securechain:SoftwareVersion:
-                    tag: securechain:SoftwareVersion
-                    value:
-                      object:
-                        tag: object
-                        value: https://www.google.com/search?q=st+*
-                      predicate:
-                        tag: predicate
-                        value: securechain:hasSoftwareVersion
-                      subject:
-                        tag: subject
-                        value: https://www.google.com/search?q=st
-              securechain:Software:
-                tag: securechain:Software
-                value:
-                  securechain:SoftwareVersion:
-                    tag: securechain:SoftwareVersion
-                    value:
-                      object:
-                        tag: object
-                        value: https://www.google.com/search?q=amd+64
-                      predicate:
-                        tag: predicate
-                        value: securechain:hasSoftwareVersion
-                      subject:
-                        tag: subject
-                        value: https://www.google.com/search?q=amd
           securechain:versionName:
             tag: securechain:versionName
             value:
@@ -981,28 +412,13 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: '-'
+                        value: '*'
                       predicate:
                         tag: predicate
                         value: securechain:versionName
                       subject:
                         tag: subject
-                        value: https://www.google.com/search?q=-+-
-              securechain:SoftwareVersion:
-                tag: securechain:SoftwareVersion
-                value:
-                  string:
-                    tag: string
-                    value:
-                      object:
-                        tag: object
-                        value: 1.0.0
-                      predicate:
-                        tag: predicate
-                        value: securechain:versionName
-                      subject:
-                        tag: subject
-                        value: https://conan.io/center/recipes/7bitconf?version=1.0.0
+                        value: https://www.google.com/search?q=-+%2A
           securechain:vulnerabilityType:
             tag: securechain:vulnerabilityType
             value:
@@ -1014,13 +430,13 @@ annotations:
                     value:
                       object:
                         tag: object
-                        value: https://cwe.mitre.org/data/definitions/307.html
+                        value: https://cwe.mitre.org/data/definitions/20.html
                       predicate:
                         tag: predicate
                         value: securechain:vulnerabilityType
                       subject:
                         tag: subject
-                        value: https://nvd.nist.gov/vuln/detail/CVE-1999-1152
+                        value: https://nvd.nist.gov/vuln/detail/CVE-2001-0566
           securechain:vulnerableTo:
             tag: securechain:vulnerableTo
             value:
@@ -1038,93 +454,60 @@ annotations:
                         value: securechain:vulnerableTo
                       subject:
                         tag: subject
-                        value: https://www.google.com/search?q=-+-
-              securechain:SoftwareVersion:
-                tag: securechain:SoftwareVersion
-                value:
-                  securechain:Vulnerability:
-                    tag: securechain:Vulnerability
-                    value:
-                      object:
-                        tag: object
-                        value: https://nvd.nist.gov/vuln/detail/CVE-2017-12966
-                      predicate:
-                        tag: predicate
-                        value: securechain:vulnerableTo
-                      subject:
-                        tag: subject
-                        value: https://conan.io/center/recipes/asn1c?version=0.9.28
+                        value: https://www.google.com/search?q=-+%2A
 classes:
   securechain_Hardware:
     class_uri: securechain:Hardware
     is_a: sdos_Product
     name: securechain_Hardware
     slots:
-    - securechain_hasSoftwareVersion
-    - securechain_ecosystem
-    - sdos_name
-    - sdos_programmingLanguage
-    - securechain_hasHardwareVersion
     - sdos_manufacturer
+    - securechain_hasHardwareVersion
+    - sdos_name
   securechain_HardwareVersion:
     class_uri: securechain:HardwareVersion
     is_a: securechain_Hardware
     name: securechain_HardwareVersion
     slots:
-    - securechain_vulnerableTo
     - securechain_versionName
+    - owl_sameAs
+    - securechain_cpe23
+    - securechain_vulnerableTo
+    - sdos_name
   securechain_License:
     class_uri: securechain:License
     is_a: sdos_CreativeWork
     name: securechain_License
-    slots:
-    - sdos_name
-    - sdos_identifier
   securechain_Software:
     class_uri: securechain:Software
     is_a: sdos_SoftwareApplication
     name: securechain_Software
-    slots:
-    - securechain_hasSoftwareVersion
-    - securechain_ecosystem
-    - sdos_url
-    - sdos_contributor
-    - sdos_name
-    - sdos_programmingLanguage
-    - sdos_identifier
-    - securechain_hasHardwareVersion
-    - sdos_manufacturer
   securechain_SoftwareVersion:
     class_uri: securechain:SoftwareVersion
     is_a: securechain_Software
     name: securechain_SoftwareVersion
-    slots:
-    - securechain_versionName
-    - sdos_url
-    - sdos_license
-    - securechain_dependsOn
-    - securechain_vulnerableTo
   securechain_Vulnerability:
     class_uri: securechain:Vulnerability
     is_a: sdos_Intangible
     name: securechain_Vulnerability
     slots:
-    - sdos_identifier
     - securechain_vulnerabilityType
+    - sdos_identifier
   securechain_VulnerabilityType:
     class_uri: securechain:VulnerabilityType
     is_a: sdos_Intangible
     name: securechain_VulnerabilityType
     slots:
     - sdos_identifier
-created_on: '2025-10-27T21:06:42.650630'
+created_on: '2025-11-16T09:23:29.126398'
 default_prefix: okns
 id: okns:secure-chain-kg
 imports:
-- okns:sdo
+- okns:owl-rdf-rdfs
 - linkml:types
 - okns:extended_types
-last_updated_on: '2025-10-27T21:06:42.650630'
+- okns:sdo
+last_updated_on: '2025-11-16T09:23:29.126398'
 name: secure-chain-kg
 prefixes:
   linkml: https://w3id.org/linkml/
@@ -1135,10 +518,16 @@ prefixes:
   rdfs: http://www.w3.org/2000/01/rdf-schema#
   sdos: https://schema.org/
   securechain: https://w3id.org/secure-chain/
+  sudokn: http://asu.edu/semantics/SUDOKN/
 slots:
+  securechain_cpe23:
+    range: string
+    slot_uri: securechain:cpe23
   securechain_dependsOn:
     domain: securechain_SoftwareVersion
     name: securechain_dependsOn
+    notes:
+    - No occurrences of this slot in the graph.
     range: securechain_SoftwareVersion
     slot_uri: securechain:dependsOn
   securechain_discover:
@@ -1148,12 +537,11 @@ slots:
     range: securechain_Vulnerability
     slot_uri: securechain:discover
   securechain_ecosystem:
-    any_of:
-    - range: sdos_Text
-    - range: string
     domain: securechain_Software
     name: securechain_ecosystem
-    range: Any
+    notes:
+    - No occurrences of this slot in the graph.
+    range: sdos_Text
     slot_uri: securechain:ecosystem
   securechain_hasHardwareVersion:
     domain: securechain_Hardware
@@ -1163,6 +551,8 @@ slots:
   securechain_hasSoftwareVersion:
     domain: securechain_Software
     name: securechain_hasSoftwareVersion
+    notes:
+    - No occurrences of this slot in the graph.
     range: securechain_SoftwareVersion
     slot_uri: securechain:hasSoftwareVersion
   securechain_operatesOn:

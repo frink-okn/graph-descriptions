@@ -5,8 +5,6 @@
 
 
 
-This slot occurs 29787726 times.
-
 
 URI: [securechain:dependsOn](https://w3id.org/secure-chain/dependsOn)
 
@@ -14,15 +12,6 @@ URI: [securechain:dependsOn](https://w3id.org/secure-chain/dependsOn)
 
 <!-- no inheritance hierarchy -->
 
-
-
-
-
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) |  |  no  |
 
 
 
@@ -46,13 +35,13 @@ URI: [securechain:dependsOn](https://w3id.org/secure-chain/dependsOn)
 
 ```yaml
 name: securechain_dependsOn
+notes:
+- No occurrences of this slot in the graph.
 from_schema: okns:secure-chain-kg
 rank: 1000
 domain: securechain_SoftwareVersion
 slot_uri: securechain:dependsOn
 alias: securechain_dependsOn
-domain_of:
-- securechain_SoftwareVersion
 range: securechain_SoftwareVersion
 
 ```
