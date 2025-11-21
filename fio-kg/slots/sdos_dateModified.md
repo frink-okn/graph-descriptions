@@ -10,7 +10,7 @@ _The date on which the CreativeWork was most recently modified or when the item'
 
 
 
-This slot occurs 458427 times.
+This slot occurs 762617 times.
 
 
 URI: [sdos:dateModified](https://schema.org/dateModified)

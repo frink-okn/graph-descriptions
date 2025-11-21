@@ -10,7 +10,7 @@ _The WKT serialization of a Geometry_
 
 
 
-This slot occurs 458427 times.
+This slot occurs 762596 times.
 
 
 URI: [geo:asWKT](http://www.opengis.net/ont/geosparql#asWKT)

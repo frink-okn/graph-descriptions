@@ -10,7 +10,7 @@ _KWG's spatial contains relation_
 
 
 
-This slot occurs 632174 times.
+This slot occurs 2362785 times.
 
 
 URI: [kwgo:sfContains](http://stko-kwg.geog.ucsb.edu/lod/ontology/sfContains)

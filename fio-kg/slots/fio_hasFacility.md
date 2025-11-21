@@ -21,7 +21,7 @@ URI: [fio:hasFacility](http://w3id.org/fio/v1/fio#hasFacility)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[FioFacility](../classes/FioFacility.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[FioFacility](../classes/FioFacility.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)
 
 
 
@@ -43,13 +43,13 @@ rank: 1000
 slot_uri: fio:hasFacility
 alias: fio_hasFacility
 union_of:
-- prov_Agent
 - owl_Thing
+- prov_Agent
 - fio_Organization
 range: Any
 any_of:
-- range: owl_Thing
 - range: fio_Facility
+- range: owl_Thing
 
 ```
 </details>

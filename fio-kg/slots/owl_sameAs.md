@@ -10,7 +10,7 @@ _The property that determines that two given individuals are equal._
 
 
 
-This slot occurs 2594561 times.
+This slot occurs 4167577 times.
 
 
 URI: [owl:sameAs](http://www.w3.org/2002/07/owl#sameAs)
@@ -27,88 +27,89 @@ URI: [owl:sameAs](http://www.w3.org/2002/07/owl#sameAs)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Fio-epa-frsFacilityType](../classes/Fio-epa-frsFacilityType.md) | Type of Facility as defined by EPA FRS facility type controlled vocabulary |  no  |
-| [Fio-epa-frsReportingInterest](../classes/Fio-epa-frsReportingInterest.md) |  |  no  |
-| [Fio-epa-frsReportingRecord](../classes/Fio-epa-frsReportingRecord.md) |  |  no  |
-| [Fio-epa-frsAgency.Energy](../classes/Fio-epa-frsAgency.Energy.md) |  |  no  |
-| [Fio-epa-frsSiteRecord](../classes/Fio-epa-frsSiteRecord.md) | A record that monitors a site, beyond specific ownership of one organization ... |  no  |
-| [NaicsNAICS-IndustryCode](../classes/NaicsNAICS-IndustryCode.md) |  |  no  |
-| [Fio-epa-frsStateSystem](../classes/Fio-epa-frsStateSystem.md) |  |  no  |
-| [Fio-epa-frsAgency.Defense](../classes/Fio-epa-frsAgency.Defense.md) |  |  no  |
-| [Fio-epa-frsSolidWasteProgram](../classes/Fio-epa-frsSolidWasteProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE SOLID WASTES (E |  no  |
-| [Fio-epa-frsProgramInformationSystem](../classes/Fio-epa-frsProgramInformationSystem.md) | An Information System maintained for an environmental program |  no  |
-| [Fio-epa-frsRadiationProtectionProgram](../classes/Fio-epa-frsRadiationProtectionProgram.md) | ENVIRONMENTAL PROGRAMS DESIGNED TO PROTECT PEOPLE AND THE ENVIRONMENT FROM HA... |  no  |
-| [Fio-epa-frsRiskInterest](../classes/Fio-epa-frsRiskInterest.md) |  |  no  |
-| [Fio-epa-frsRegistryInterest](../classes/Fio-epa-frsRegistryInterest.md) |  |  no  |
-| [Fio-epa-frsSiteSystem](../classes/Fio-epa-frsSiteSystem.md) |  |  no  |
+| [Bd7175f49ca206d160fdb4fee4dad2747](../classes/Bd7175f49ca206d160fdb4fee4dad2747.md) |  |  no  |
 | [Fio-epa-frsComplianceSystem](../classes/Fio-epa-frsComplianceSystem.md) |  |  no  |
-| [Fio-epa-frsAgency.Labor](../classes/Fio-epa-frsAgency.Labor.md) |  |  no  |
-| [Fio-epa-frsPesticidesProgram](../classes/Fio-epa-frsPesticidesProgram.md) | ENVIRONMENTAL PROGRAMS THAT MONITOR BUSINESSES, GOVERNMENT AGENCIES, AND INDI... |  no  |
-| [Fio-epa-frsAgency.Interior](../classes/Fio-epa-frsAgency.Interior.md) |  |  no  |
-| [Fio-epa-frsLegalEnforcementActivities](../classes/Fio-epa-frsLegalEnforcementActivities.md) | LEGAL OR ENFORCEMENT ACTIVITIES IN SUPPORT OF OTHER ENVIRONMENTAL PROGRAMS |  no  |
-| [Fio-epa-frsChemicalReleaseProgram](../classes/Fio-epa-frsChemicalReleaseProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE OR MONITOR CHEMICALS RELEASED TO THE ENV... |  no  |
-| [Fio-epa-frsGrantSystem](../classes/Fio-epa-frsGrantSystem.md) |  |  no  |
-| [Fio-epa-frsAirProgram](../classes/Fio-epa-frsAirProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE OR MONITOR AIR EMISSIONS FROM AREA, STAT... |  no  |
-| [Fio-epa-frsPermitInterest](../classes/Fio-epa-frsPermitInterest.md) | Environmental Interests that create records that are permits or licenses |  no  |
-| [Fio-epa-frsComplianceRecord](../classes/Fio-epa-frsComplianceRecord.md) |  |  no  |
-| [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |  |  no  |
-| [Fio-epa-frsGroundWaterProgram](../classes/Fio-epa-frsGroundWaterProgram.md) | ENVIRONMENTAL PROGRAMS DESIGNED TO PROTECT GROUND WATER (E |  no  |
-| [Fio-epa-frsLegacySystem](../classes/Fio-epa-frsLegacySystem.md) |  |  no  |
-| [Fio-epa-frsChemicalStorageProgram](../classes/Fio-epa-frsChemicalStorageProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE OR MONITOR THE STORAGE OF CHEMICALS (E |  no  |
-| [Fio-epa-frsAgency.VeteransAffairs](../classes/Fio-epa-frsAgency.VeteransAffairs.md) |  |  no  |
-| [Fio-epa-frsStateTrackingRecord](../classes/Fio-epa-frsStateTrackingRecord.md) |  |  no  |
-| [NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md) |  |  no  |
-| [Fio-epa-frsEnforcementInterest](../classes/Fio-epa-frsEnforcementInterest.md) |  |  no  |
-| [Fio-epa-frsWaterResourcesProgram](../classes/Fio-epa-frsWaterResourcesProgram.md) | ENVIRONMENTAL PROGRAMS THAT MANAGE WATER RESOURCES TO MEET THE NEEDS OF THE N... |  no  |
-| [Fio-epa-frsEnvironmentalInterestByProgram](../classes/Fio-epa-frsEnvironmentalInterestByProgram.md) |  |  no  |
-| [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) |  |  no  |
-| [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
-| [Fio-epa-frsHazardousWasteProgram](../classes/Fio-epa-frsHazardousWasteProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE HAZARDOUS WASTE, INCLUDING THE GENERATIO... |  no  |
-| [Fio-epa-frsAgency.Commerce](../classes/Fio-epa-frsAgency.Commerce.md) |  |  no  |
-| [Fio-epa-frsAgency.State](../classes/Fio-epa-frsAgency.State.md) |  |  no  |
-| [Fio-epa-frsAgency.Congress](../classes/Fio-epa-frsAgency.Congress.md) |  |  no  |
-| [NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md) |  |  no  |
-| [Fio-epa-frsRemediationRedevelopmentProgram](../classes/Fio-epa-frsRemediationRedevelopmentProgram.md) | ENVIRONMENTAL PROGRAMS AIMED AT CLEANING UP AND/OR REDEVELOPING UNCONTROLLED ... |  no  |
-| [Fio-epa-frsSiteInterest](../classes/Fio-epa-frsSiteInterest.md) |  |  no  |
-| [Fio-epa-frsEnvironmentalInterestType](../classes/Fio-epa-frsEnvironmentalInterestType.md) | The environmental permit or regulatory program type that applies to the facil... |  no  |
-| [Fio-epa-frsAgency.Agriculture](../classes/Fio-epa-frsAgency.Agriculture.md) |  |  no  |
-| [Fio-epa-frsHealthSafetyProgram](../classes/Fio-epa-frsHealthSafetyProgram.md) | PROGRAMS DESIGNED TO REDUCE HAZARDS AND PREVENT INJURIES, ILLNESSES AND DEATH... |  no  |
-| [Fio-epa-frsAnimalOperation](../classes/Fio-epa-frsAnimalOperation.md) | ENVIRONMENTAL PROGRAMS RELATED TO ANIMAL OPERATIONS E |  no  |
-| [Fio-epa-frsElectronicPermitSystem](../classes/Fio-epa-frsElectronicPermitSystem.md) | ELECTRONIC PERMIT SYSTEM |  no  |
-| [Fio-epa-frsAgency](../classes/Fio-epa-frsAgency.md) | Federal Agency as identified in EPA Facility Registry Service |  no  |
-| [Fio-epa-frsEnforcementActivity](../classes/Fio-epa-frsEnforcementActivity.md) | A record that tracks a specific legal, corrective or assistance action taken ... |  no  |
-| [Fio-epa-frsTribalSystem](../classes/Fio-epa-frsTribalSystem.md) |  |  no  |
-| [Fio-epa-frsPermitSystem](../classes/Fio-epa-frsPermitSystem.md) |  |  no  |
-| [Fio-epa-frsAgency.HealthandHumanServices](../classes/Fio-epa-frsAgency.HealthandHumanServices.md) |  |  no  |
-| [Fio-epa-frsAgency.Treasury](../classes/Fio-epa-frsAgency.Treasury.md) |  |  no  |
-| [Fio-epa-frsUndergroundStorageTankProgram](../classes/Fio-epa-frsUndergroundStorageTankProgram.md) | ENVIRONMENTAL PROGRAMS DESIGNED TO REDUCE THE CHANCE OF RELEASES FROM UNDERGR... |  no  |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
-| [NaicsNAICS-IndustryGroup](../classes/NaicsNAICS-IndustryGroup.md) |  |  no  |
-| [Fio-epa-frsRiskPlanRecord](../classes/Fio-epa-frsRiskPlanRecord.md) |  |  no  |
-| [Fio-epa-frsAssistanceSupportProgram](../classes/Fio-epa-frsAssistanceSupportProgram.md) | ENVIRONMENTAL PROGRAMS THAT PROVIDE ASSISTANCE TO THE REGULATED COMMUNITY AND... |  no  |
-| [Fio-epa-frsAgency.HousingandUrbanDevelopment](../classes/Fio-epa-frsAgency.HousingandUrbanDevelopment.md) |  |  no  |
-| [Fio-epa-frsPermitRecord](../classes/Fio-epa-frsPermitRecord.md) | A record that tracks a permit or license awarded to the facility |  no  |
-| [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | Supplemental Record that relates to a facility but primarily identifies somet... |  no  |
-| [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |  |  no  |
-| [Fio-epa-frsAgency.HomelandSecurity](../classes/Fio-epa-frsAgency.HomelandSecurity.md) |  |  no  |
-| [Fio-epa-frsWasteWaterProgram](../classes/Fio-epa-frsWasteWaterProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE DISCHARGES OF POLLUTANTS TO WATERS OF TH... |  no  |
-| [Fio-epa-frsProjectSystem](../classes/Fio-epa-frsProjectSystem.md) |  |  no  |
-| [Fio-epa-frsRegistrySystem](../classes/Fio-epa-frsRegistrySystem.md) |  |  no  |
-| [Fio-epa-frsComplianceInterest](../classes/Fio-epa-frsComplianceInterest.md) |  |  no  |
-| [Fio-epa-frsFacilitySiteIdentification](../classes/Fio-epa-frsFacilitySiteIdentification.md) | INCLUDES SYSTEMS THAT MAINTAIN BASIC IDENTIFICATION INFORMATION ABOUT FACILIT... |  no  |
-| [Fio-epa-frsAgency.Judicial](../classes/Fio-epa-frsAgency.Judicial.md) |  |  no  |
-| [FioIndustry](../classes/FioIndustry.md) | A distinct group of productive or profit-making enterprises |  no  |
-| [Fio-epa-frsTribalTrackingRecord](../classes/Fio-epa-frsTribalTrackingRecord.md) |  |  no  |
-| [Fio-epa-frsProjectRecord](../classes/Fio-epa-frsProjectRecord.md) |  |  no  |
-| [Fio-epa-frsCoastalOceanProgram](../classes/Fio-epa-frsCoastalOceanProgram.md) | ENVIRONMENTAL PROGRAMS THAT IMPROVE THE QUALITY OF COASTAL AND MARINE ECOSYST... |  no  |
-| [Fio-epa-frsAgency.Transportation](../classes/Fio-epa-frsAgency.Transportation.md) |  |  no  |
-| [B78889d67d06fc8a172807dd97a6eabac](../classes/B78889d67d06fc8a172807dd97a6eabac.md) |  |  no  |
-| [Fio-epa-frsEnforcementSystem](../classes/Fio-epa-frsEnforcementSystem.md) |  |  no  |
-| [Fio-epa-frsRegistrationRecord](../classes/Fio-epa-frsRegistrationRecord.md) |  |  no  |
-| [Fio-epa-frsEcologyOperation](../classes/Fio-epa-frsEcologyOperation.md) | PROGRAMS THAT CONCENTRATE ON ECOLOGICAL SYSTEMS SUCH AS FOREST AND TREE EXPER... |  no  |
-| [Fio-epa-frsDrinkingWaterProgram](../classes/Fio-epa-frsDrinkingWaterProgram.md) | ENVIRONMENTAL PROGRAMS THAT PROTECT THE QUALITY OF DRINKING WATER IN THE UNIT... |  no  |
+| [Fio-epa-frsSiteSystem](../classes/Fio-epa-frsSiteSystem.md) |  |  no  |
+| [Fio-epa-frsSolidWasteProgram](../classes/Fio-epa-frsSolidWasteProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE SOLID WASTES (E |  no  |
 | [Fio-epa-frsEnforcementTrackingRecord](../classes/Fio-epa-frsEnforcementTrackingRecord.md) |  |  no  |
+| [Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md) |  |  no  |
+| [Bf500d8a8b0381e9decef451f20ba1677](../classes/Bf500d8a8b0381e9decef451f20ba1677.md) |  |  no  |
+| [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
+| [Fio-epa-frsWaterResourcesProgram](../classes/Fio-epa-frsWaterResourcesProgram.md) | ENVIRONMENTAL PROGRAMS THAT MANAGE WATER RESOURCES TO MEET THE NEEDS OF THE N... |  no  |
+| [NaicsNAICS-IndustryGroup](../classes/NaicsNAICS-IndustryGroup.md) |  |  no  |
+| [Fio-epa-frsAgency.HomelandSecurity](../classes/Fio-epa-frsAgency.HomelandSecurity.md) |  |  no  |
+| [Fio-epa-frsGroundWaterProgram](../classes/Fio-epa-frsGroundWaterProgram.md) | ENVIRONMENTAL PROGRAMS DESIGNED TO PROTECT GROUND WATER (E |  no  |
+| [Fio-epa-frsAgency.Judicial](../classes/Fio-epa-frsAgency.Judicial.md) |  |  no  |
+| [Fio-epa-frsEnforcementInterest](../classes/Fio-epa-frsEnforcementInterest.md) |  |  no  |
+| [Fio-epa-frsCoastalOceanProgram](../classes/Fio-epa-frsCoastalOceanProgram.md) | ENVIRONMENTAL PROGRAMS THAT IMPROVE THE QUALITY OF COASTAL AND MARINE ECOSYST... |  no  |
+| [Fio-epa-frsPermitInterest](../classes/Fio-epa-frsPermitInterest.md) | Environmental Interests that create records that are permits or licenses |  no  |
+| [Fio-epa-frsStateSystem](../classes/Fio-epa-frsStateSystem.md) |  |  no  |
+| [Fio-epa-frsAgency.Commerce](../classes/Fio-epa-frsAgency.Commerce.md) |  |  no  |
+| [FioIndustry](../classes/FioIndustry.md) | A distinct group of productive or profit-making enterprises |  no  |
+| [Fio-epa-frsProjectRecord](../classes/Fio-epa-frsProjectRecord.md) |  |  no  |
+| [Fio-epa-frsSiteRecord](../classes/Fio-epa-frsSiteRecord.md) | A record that monitors a site, beyond specific ownership of one organization ... |  no  |
+| [Fio-epa-frsAgency.Energy](../classes/Fio-epa-frsAgency.Energy.md) |  |  no  |
+| [Fio-epa-frsFacilityType](../classes/Fio-epa-frsFacilityType.md) | Type of Facility as defined by EPA FRS facility type controlled vocabulary |  no  |
+| [NaicsNAICS-IndustryCode](../classes/NaicsNAICS-IndustryCode.md) |  |  no  |
+| [Fio-epa-frsChemicalReleaseProgram](../classes/Fio-epa-frsChemicalReleaseProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE OR MONITOR CHEMICALS RELEASED TO THE ENV... |  no  |
+| [Fio-epa-frsLegalEnforcementActivities](../classes/Fio-epa-frsLegalEnforcementActivities.md) | LEGAL OR ENFORCEMENT ACTIVITIES IN SUPPORT OF OTHER ENVIRONMENTAL PROGRAMS |  no  |
+| [Fio-epa-frsAssistanceSupportProgram](../classes/Fio-epa-frsAssistanceSupportProgram.md) | ENVIRONMENTAL PROGRAMS THAT PROVIDE ASSISTANCE TO THE REGULATED COMMUNITY AND... |  no  |
+| [Fio-epa-frsRiskInterest](../classes/Fio-epa-frsRiskInterest.md) |  |  no  |
+| [Fio-epa-frsEcologyOperation](../classes/Fio-epa-frsEcologyOperation.md) | PROGRAMS THAT CONCENTRATE ON ECOLOGICAL SYSTEMS SUCH AS FOREST AND TREE EXPER... |  no  |
+| [NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md) |  |  no  |
+| [Fio-epa-frsAgency.Treasury](../classes/Fio-epa-frsAgency.Treasury.md) |  |  no  |
+| [Fio-epa-frsAgency.HousingandUrbanDevelopment](../classes/Fio-epa-frsAgency.HousingandUrbanDevelopment.md) |  |  no  |
+| [Fio-epa-frsTribalSystem](../classes/Fio-epa-frsTribalSystem.md) |  |  no  |
+| [Fio-epa-frsElectronicPermitSystem](../classes/Fio-epa-frsElectronicPermitSystem.md) | ELECTRONIC PERMIT SYSTEM |  no  |
+| [Fio-epa-frsSiteInterest](../classes/Fio-epa-frsSiteInterest.md) |  |  no  |
+| [Fio-epa-frsRegistrySystem](../classes/Fio-epa-frsRegistrySystem.md) |  |  no  |
+| [Fio-epa-frsAgency.VeteransAffairs](../classes/Fio-epa-frsAgency.VeteransAffairs.md) |  |  no  |
+| [Fio-epa-frsProgramInformationSystem](../classes/Fio-epa-frsProgramInformationSystem.md) | An Information System maintained for an environmental program |  no  |
+| [Fio-epa-frsRemediationRedevelopmentProgram](../classes/Fio-epa-frsRemediationRedevelopmentProgram.md) | ENVIRONMENTAL PROGRAMS AIMED AT CLEANING UP AND/OR REDEVELOPING UNCONTROLLED ... |  no  |
+| [Fio-epa-frsEnvironmentalInterestByProgram](../classes/Fio-epa-frsEnvironmentalInterestByProgram.md) |  |  no  |
+| [KwgoS2CellLevel13](../classes/KwgoS2CellLevel13.md) |  |  no  |
+| [Fio-epa-frsAgency.Congress](../classes/Fio-epa-frsAgency.Congress.md) |  |  no  |
+| [Fio-epa-frsEnforcementSystem](../classes/Fio-epa-frsEnforcementSystem.md) |  |  no  |
+| [Fio-epa-frsDrinkingWaterProgram](../classes/Fio-epa-frsDrinkingWaterProgram.md) | ENVIRONMENTAL PROGRAMS THAT PROTECT THE QUALITY OF DRINKING WATER IN THE UNIT... |  no  |
+| [Fio-epa-frsRegistrationRecord](../classes/Fio-epa-frsRegistrationRecord.md) |  |  no  |
+| [Fio-epa-frsHealthSafetyProgram](../classes/Fio-epa-frsHealthSafetyProgram.md) | PROGRAMS DESIGNED TO REDUCE HAZARDS AND PREVENT INJURIES, ILLNESSES AND DEATH... |  no  |
 | [Fio-epa-frsAgency.Justice](../classes/Fio-epa-frsAgency.Justice.md) |  |  no  |
+| [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | Supplemental Record that relates to a facility but primarily identifies somet... |  no  |
+| [Fio-epa-frsAgency.State](../classes/Fio-epa-frsAgency.State.md) |  |  no  |
+| [Fio-epa-frsAgency.Interior](../classes/Fio-epa-frsAgency.Interior.md) |  |  no  |
+| [Fio-epa-frsAirProgram](../classes/Fio-epa-frsAirProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE OR MONITOR AIR EMISSIONS FROM AREA, STAT... |  no  |
+| [Fio-epa-frsGrantSystem](../classes/Fio-epa-frsGrantSystem.md) |  |  no  |
+| [Fio-epa-frsHazardousWasteProgram](../classes/Fio-epa-frsHazardousWasteProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE HAZARDOUS WASTE, INCLUDING THE GENERATIO... |  no  |
+| [Fio-epa-frsWasteWaterProgram](../classes/Fio-epa-frsWasteWaterProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE DISCHARGES OF POLLUTANTS TO WATERS OF TH... |  no  |
+| [Fio-epa-frsEnvironmentalInterestType](../classes/Fio-epa-frsEnvironmentalInterestType.md) | The environmental permit or regulatory program type that applies to the facil... |  no  |
+| [Fio-epa-frsAgency.HealthandHumanServices](../classes/Fio-epa-frsAgency.HealthandHumanServices.md) |  |  no  |
+| [Fio-epa-frsTribalTrackingRecord](../classes/Fio-epa-frsTribalTrackingRecord.md) |  |  no  |
+| [Fio-epa-frsEnforcementActivity](../classes/Fio-epa-frsEnforcementActivity.md) | A record that tracks a specific legal, corrective or assistance action taken ... |  no  |
+| [Fio-epa-frsComplianceInterest](../classes/Fio-epa-frsComplianceInterest.md) |  |  no  |
+| [Fio-epa-frsRadiationProtectionProgram](../classes/Fio-epa-frsRadiationProtectionProgram.md) | ENVIRONMENTAL PROGRAMS DESIGNED TO PROTECT PEOPLE AND THE ENVIRONMENT FROM HA... |  no  |
+| [Fio-epa-frsAgency.Labor](../classes/Fio-epa-frsAgency.Labor.md) |  |  no  |
+| [Fio-epa-frsUndergroundStorageTankProgram](../classes/Fio-epa-frsUndergroundStorageTankProgram.md) | ENVIRONMENTAL PROGRAMS DESIGNED TO REDUCE THE CHANCE OF RELEASES FROM UNDERGR... |  no  |
+| [Fio-epa-frsChemicalStorageProgram](../classes/Fio-epa-frsChemicalStorageProgram.md) | ENVIRONMENTAL PROGRAMS THAT REGULATE OR MONITOR THE STORAGE OF CHEMICALS (E |  no  |
+| [Fio-epa-frsRiskPlanRecord](../classes/Fio-epa-frsRiskPlanRecord.md) |  |  no  |
+| [Fio-epa-frsComplianceRecord](../classes/Fio-epa-frsComplianceRecord.md) |  |  no  |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
+| [Fio-epa-frsAgency.Transportation](../classes/Fio-epa-frsAgency.Transportation.md) |  |  no  |
+| [Fio-epa-frsAgency.Defense](../classes/Fio-epa-frsAgency.Defense.md) |  |  no  |
+| [Fio-epa-frsAnimalOperation](../classes/Fio-epa-frsAnimalOperation.md) | ENVIRONMENTAL PROGRAMS RELATED TO ANIMAL OPERATIONS E |  no  |
+| [Fio-epa-frsPesticidesProgram](../classes/Fio-epa-frsPesticidesProgram.md) | ENVIRONMENTAL PROGRAMS THAT MONITOR BUSINESSES, GOVERNMENT AGENCIES, AND INDI... |  no  |
+| [Fio-epa-frsPermitSystem](../classes/Fio-epa-frsPermitSystem.md) |  |  no  |
+| [Fio-epa-frsReportingInterest](../classes/Fio-epa-frsReportingInterest.md) |  |  no  |
+| [Fio-epa-frsLegacySystem](../classes/Fio-epa-frsLegacySystem.md) |  |  no  |
+| [Fio-epa-frsReportingRecord](../classes/Fio-epa-frsReportingRecord.md) |  |  no  |
+| [Fio-epa-frsAgency](../classes/Fio-epa-frsAgency.md) | Federal Agency as identified in EPA Facility Registry Service |  no  |
+| [Fio-epa-frsRecord](../classes/Fio-epa-frsRecord.md) |  |  no  |
+| [Fio-epa-frsPermitRecord](../classes/Fio-epa-frsPermitRecord.md) | A record that tracks a permit or license awarded to the facility |  no  |
+| [NaicsNAICS-IndustrySubsector](../classes/NaicsNAICS-IndustrySubsector.md) |  |  no  |
+| [Fio-epa-frsFacilitySiteIdentification](../classes/Fio-epa-frsFacilitySiteIdentification.md) | INCLUDES SYSTEMS THAT MAINTAIN BASIC IDENTIFICATION INFORMATION ABOUT FACILIT... |  no  |
+| [Fio-epa-frsRegistryInterest](../classes/Fio-epa-frsRegistryInterest.md) |  |  no  |
+| [Fio-epa-frsStateTrackingRecord](../classes/Fio-epa-frsStateTrackingRecord.md) |  |  no  |
+| [Fio-epa-frsProjectSystem](../classes/Fio-epa-frsProjectSystem.md) |  |  no  |
+| [Fio-epa-frsAgency.Agriculture](../classes/Fio-epa-frsAgency.Agriculture.md) |  |  no  |
 
 
 
@@ -141,7 +142,8 @@ source: http://www.w3.org/2002/07/owl#
 domain: owl_Thing
 slot_uri: owl:sameAs
 domain_of:
-- __B78889d67d06fc8a172807dd97a6eabac
+- __Bd7175f49ca206d160fdb4fee4dad2747
+- __Bf500d8a8b0381e9decef451f20ba1677
 - fio-epa-frs_Agency
 - fio-epa-frs_Agency.Agriculture
 - fio-epa-frs_Agency.Commerce
