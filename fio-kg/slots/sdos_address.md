@@ -10,7 +10,7 @@ _Physical address of the item._
 
 
 
-This slot occurs 412720 times.
+This slot occurs 693695 times.
 
 
 URI: [sdos:address](https://schema.org/address)
@@ -27,8 +27,8 @@ URI: [sdos:address](https://schema.org/address)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
 | [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
 
 
 

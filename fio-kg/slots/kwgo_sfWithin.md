@@ -10,7 +10,7 @@ _KWG's spatial within relation_
 
 
 
-This slot occurs 1161079 times.
+This slot occurs 2362785 times.
 
 
 URI: [kwgo:sfWithin](http://stko-kwg.geog.ucsb.edu/lod/ontology/sfWithin)
@@ -27,8 +27,8 @@ URI: [kwgo:sfWithin](http://stko-kwg.geog.ucsb.edu/lod/ontology/sfWithin)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
 | [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
 
 
 

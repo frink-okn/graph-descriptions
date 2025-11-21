@@ -1,6 +1,6 @@
 # fio-kg
 
-The facility registry service ontology developed as part of the AIKnowsPFAS and SAWGraph projects.
+This ontology supports querying the SAWGraph Knowledge Graph and the KnowWhereGraph. It is an adaptation of the spatial ontology originally published by the KnowWhereGraph Project
 
 URI: okns:fio-kg
 

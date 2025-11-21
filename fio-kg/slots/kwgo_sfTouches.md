@@ -10,7 +10,7 @@ _KWG's spatial touches relation_
 
 
 
-This slot occurs 6 times.
+This slot occurs 402 times.
 
 
 URI: [kwgo:sfTouches](http://stko-kwg.geog.ucsb.edu/lod/ontology/sfTouches)

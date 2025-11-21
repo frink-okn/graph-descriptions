@@ -22,15 +22,6 @@ URI: [naics:NAICS-IndustrySector](http://w3id.org/fio/v1/naics#NAICS-IndustrySec
       OwlThing <|-- NaicsNAICS-IndustrySector
         click OwlThing href "../OwlThing"
       
-      NaicsNAICS-IndustrySector : dc_identifier
-        
-          
-    
-    
-    NaicsNAICS-IndustrySector --> "0..1" Any : dc_identifier
-    click Any href "../Any"
-
-        
       NaicsNAICS-IndustrySector : dct_identifier
         
           
@@ -84,11 +75,10 @@ URI: [naics:NAICS-IndustrySector](http://w3id.org/fio/v1/naics#NAICS-IndustrySec
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | A human-readable name for the subject <br/>  | direct | 24 |
 | [dct_identifier](../slots/dct_identifier.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md) | Recommended practice is to identify the resource by means of a string conform... <br/> description: An unambiguous reference to the resource within a given context. | direct | 24 |
 | [fio_ofYear](../slots/fio_ofYear.md) | 0..1 <br/> [XsdGYear](../classes/XsdGYear.md)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date) | A relation between an industry code and the schema year it belongs to <br/>  | direct | 24 |
-| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/>  | direct | 68 |
-| [dc_identifier](../slots/dc_identifier.md) | 0..1 <br/> [Any](../classes/Any.md) | Recommended practice is to identify the resource by means of a string conform... <br/> description: An unambiguous reference to the resource within a given context. | direct | 24 |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | A human-readable name for the subject <br/>  | direct | 24 |
+| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/>  | direct | 102 |
 
 
 
@@ -115,6 +105,8 @@ URI: [naics:NAICS-IndustrySector](http://w3id.org/fio/v1/naics#NAICS-IndustrySec
 | [Fio-epa-frsRegistrationRecord](../classes/Fio-epa-frsRegistrationRecord.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md) |
 | [Fio-epa-frsReportingRecord](../classes/Fio-epa-frsReportingRecord.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md) |
 | [Fio-epa-frsReportingRecord](../classes/Fio-epa-frsReportingRecord.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md) |
+| [Fio-epa-frsSiteRecord](../classes/Fio-epa-frsSiteRecord.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md) |
+| [Fio-epa-frsSiteRecord](../classes/Fio-epa-frsSiteRecord.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md) |
 | [Fio-epa-frsStateTrackingRecord](../classes/Fio-epa-frsStateTrackingRecord.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md) |
 | [Fio-epa-frsStateTrackingRecord](../classes/Fio-epa-frsStateTrackingRecord.md) | [fio_epa_frs_ofPrimaryIndustry](../slots/fio_epa_frs_ofPrimaryIndustry.md) | any_of[range] | [NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md) |
 | [Fio-epa-frsSupplementalRecord](../classes/Fio-epa-frsSupplementalRecord.md) | [fio_ofIndustry](../slots/fio_ofIndustry.md) | any_of[range] | [NaicsNAICS-IndustrySector](../classes/NaicsNAICS-IndustrySector.md) |
@@ -147,11 +139,10 @@ from_schema: okns:fio-kg
 rank: 1000
 is_a: owl_Thing
 slots:
-- rdfs_label
 - dct_identifier
 - fio_ofYear
+- rdfs_label
 - owl_sameAs
-- dc_identifier
 class_uri: naics:NAICS-IndustrySector
 
 ```
@@ -167,6 +158,66 @@ from_schema: okns:fio-kg
 rank: 1000
 is_a: owl_Thing
 attributes:
+  dct_identifier:
+    name: dct_identifier
+    description: Recommended practice is to identify the resource by means of a string
+      conforming to an identification system. Examples include International Standard
+      Book Number (ISBN), Digital Object Identifier (DOI), and Uniform Resource Name
+      (URN).  Persistent identifiers should be provided as HTTP URIs.
+    title: Identifier
+    notes:
+    - No occurrences of this slot in the graph.
+    comments:
+    - 'description: An unambiguous reference to the resource within a given context.'
+    from_schema: okns:dc
+    source: http://purl.org/dc/terms/
+    slot_uri: dct:identifier
+    alias: dct_identifier
+    owner: naics_NAICS-IndustrySector
+    domain_of:
+    - fio-epa-frs_ComplianceRecord
+    - fio-epa-frs_EPA-PFAS-Facility
+    - fio-epa-frs_EnforcementActivity
+    - fio-epa-frs_EnforcementTrackingRecord
+    - fio-epa-frs_FRS-Facility
+    - fio-epa-frs_PermitRecord
+    - fio-epa-frs_ProjectRecord
+    - fio-epa-frs_Record
+    - fio-epa-frs_RegistrationRecord
+    - fio-epa-frs_ReportingRecord
+    - fio-epa-frs_RiskPlanRecord
+    - fio-epa-frs_SiteRecord
+    - fio-epa-frs_StateTrackingRecord
+    - fio-epa-frs_SupplementalRecord
+    - fio-epa-frs_TribalTrackingRecord
+    - naics_NAICS-IndustryCode
+    - naics_NAICS-IndustryGroup
+    - naics_NAICS-IndustrySector
+    - naics_NAICS-IndustrySubsector
+    subproperty_of: dc_identifier
+    range: rdfs_Literal
+  fio_ofYear:
+    name: fio_ofYear
+    description: A relation between an industry code and the schema year it belongs
+      to.
+    title: of Year
+    from_schema: okns:fio-kg
+    rank: 1000
+    slot_uri: fio:ofYear
+    alias: fio_ofYear
+    owner: naics_NAICS-IndustrySector
+    domain_of:
+    - naics_NAICS-IndustryCode
+    - naics_NAICS-IndustryGroup
+    - naics_NAICS-IndustrySector
+    - naics_NAICS-IndustrySubsector
+    union_of:
+    - owl_Thing
+    - fio_Industry
+    range: Any
+    any_of:
+    - range: xsd_gYear
+    - range: date
   rdfs_label:
     name: rdfs_label
     description: A human-readable name for the subject.
@@ -180,13 +231,6 @@ attributes:
     domain_of:
     - time_DayOfWeek
     - time_TemporalUnit
-    - dcam_VocabularyEncodingScheme
-    - dct_AgentClass
-    - rdf_List
-    - rdfs_Datatype
-    - vaem_GraphMetaData
-    - vaem_GraphRole
-    - vaem_Party
     - sdos_ActionStatusType
     - sdos_AdultOrientedEnumeration
     - sdos_BoardingPolicyType
@@ -268,6 +312,13 @@ attributes:
     - sdos_WearableMeasurementTypeEnumeration
     - sdos_WearableSizeGroupEnumeration
     - sdos_WearableSizeSystemEnumeration
+    - rdf_List
+    - rdfs_Datatype
+    - dcam_VocabularyEncodingScheme
+    - dct_AgentClass
+    - vaem_GraphMetaData
+    - vaem_GraphRole
+    - vaem_Party
     - rdf_DatatypeProperty
     - vaem_CatalogEntry
     - voag_Attribution
@@ -335,7 +386,8 @@ attributes:
     - kwgo_StormTrackObservableProperty
     - kwgo_StormTrackletObservableProperty
     - kwgo_VulnerabilityObservableProperty
-    - __B78889d67d06fc8a172807dd97a6eabac
+    - __Bd7175f49ca206d160fdb4fee4dad2747
+    - __Bf500d8a8b0381e9decef451f20ba1677
     - fio-epa-frs_Agency
     - fio-epa-frs_Agency.Agriculture
     - fio-epa-frs_Agency.Commerce
@@ -389,6 +441,7 @@ attributes:
     - fio-epa-frs_ProjectRecord
     - fio-epa-frs_ProjectSystem
     - fio-epa-frs_RadiationProtectionProgram
+    - fio-epa-frs_Record
     - fio-epa-frs_RegistrationRecord
     - fio-epa-frs_RegistryInterest
     - fio-epa-frs_RegistrySystem
@@ -418,66 +471,6 @@ attributes:
     any_of:
     - range: rdfs_Literal
     - range: string
-  dct_identifier:
-    name: dct_identifier
-    description: Recommended practice is to identify the resource by means of a string
-      conforming to an identification system. Examples include International Standard
-      Book Number (ISBN), Digital Object Identifier (DOI), and Uniform Resource Name
-      (URN).  Persistent identifiers should be provided as HTTP URIs.
-    title: Identifier
-    notes:
-    - No occurrences of this slot in the graph.
-    comments:
-    - 'description: An unambiguous reference to the resource within a given context.'
-    from_schema: okns:dc
-    source: http://purl.org/dc/terms/
-    slot_uri: dct:identifier
-    alias: dct_identifier
-    owner: naics_NAICS-IndustrySector
-    domain_of:
-    - fio-epa-frs_ComplianceRecord
-    - fio-epa-frs_EPA-PFAS-Facility
-    - fio-epa-frs_EnforcementActivity
-    - fio-epa-frs_EnforcementTrackingRecord
-    - fio-epa-frs_FRS-Facility
-    - fio-epa-frs_PermitRecord
-    - fio-epa-frs_ProjectRecord
-    - fio-epa-frs_Record
-    - fio-epa-frs_RegistrationRecord
-    - fio-epa-frs_ReportingRecord
-    - fio-epa-frs_RiskPlanRecord
-    - fio-epa-frs_SiteRecord
-    - fio-epa-frs_StateTrackingRecord
-    - fio-epa-frs_SupplementalRecord
-    - fio-epa-frs_TribalTrackingRecord
-    - naics_NAICS-IndustryCode
-    - naics_NAICS-IndustryGroup
-    - naics_NAICS-IndustrySector
-    - naics_NAICS-IndustrySubsector
-    subproperty_of: dc_identifier
-    range: rdfs_Literal
-  fio_ofYear:
-    name: fio_ofYear
-    description: A relation between an industry code and the schema year it belongs
-      to.
-    title: of Year
-    from_schema: okns:fio-kg
-    rank: 1000
-    slot_uri: fio:ofYear
-    alias: fio_ofYear
-    owner: naics_NAICS-IndustrySector
-    domain_of:
-    - naics_NAICS-IndustryCode
-    - naics_NAICS-IndustryGroup
-    - naics_NAICS-IndustrySector
-    - naics_NAICS-IndustrySubsector
-    union_of:
-    - owl_Thing
-    - fio_Industry
-    range: Any
-    any_of:
-    - range: xsd_gYear
-    - range: date
   owl_sameAs:
     name: owl_sameAs
     description: The property that determines that two given individuals are equal.
@@ -491,7 +484,8 @@ attributes:
     alias: owl_sameAs
     owner: naics_NAICS-IndustrySector
     domain_of:
-    - __B78889d67d06fc8a172807dd97a6eabac
+    - __Bd7175f49ca206d160fdb4fee4dad2747
+    - __Bf500d8a8b0381e9decef451f20ba1677
     - fio-epa-frs_Agency
     - fio-epa-frs_Agency.Agriculture
     - fio-epa-frs_Agency.Commerce
@@ -574,45 +568,6 @@ attributes:
     - naics_NAICS-IndustrySector
     - naics_NAICS-IndustrySubsector
     range: owl_Thing
-  dc_identifier:
-    name: dc_identifier
-    description: Recommended practice is to identify the resource by means of a string
-      conforming to an identification system.
-    title: Identifier
-    notes:
-    - 'A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/identifier)
-      with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See
-      the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/)
-      for an explanation.'
-    - No occurrences of this slot in the graph.
-    comments:
-    - 'description: An unambiguous reference to the resource within a given context.'
-    from_schema: okns:dc
-    source: http://purl.org/dc/elements/1.1/
-    slot_uri: dc:identifier
-    alias: dc_identifier
-    owner: naics_NAICS-IndustrySector
-    domain_of:
-    - fio-epa-frs_ComplianceRecord
-    - fio-epa-frs_EPA-PFAS-Facility
-    - fio-epa-frs_EnforcementActivity
-    - fio-epa-frs_EnforcementTrackingRecord
-    - fio-epa-frs_FRS-Facility
-    - fio-epa-frs_PermitRecord
-    - fio-epa-frs_ProjectRecord
-    - fio-epa-frs_Record
-    - fio-epa-frs_RegistrationRecord
-    - fio-epa-frs_ReportingRecord
-    - fio-epa-frs_RiskPlanRecord
-    - fio-epa-frs_SiteRecord
-    - fio-epa-frs_StateTrackingRecord
-    - fio-epa-frs_SupplementalRecord
-    - fio-epa-frs_TribalTrackingRecord
-    - naics_NAICS-IndustryCode
-    - naics_NAICS-IndustryGroup
-    - naics_NAICS-IndustrySector
-    - naics_NAICS-IndustrySubsector
-    range: Any
 class_uri: naics:NAICS-IndustrySector
 
 ```

@@ -77,8 +77,8 @@ URI: [fio-epa-frs:ProjectSystem](http://w3id.org/fio/v1/epa-frs#ProjectSystem)
 | ---  | --- | --- | --- | --- |
 | [dct_description](../slots/dct_description.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | Description may include but is not limited to: an abstract, a table of conten... <br/> description: An account of the resource. | direct | 1 |
 | [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | A human-readable name for the subject <br/>  | direct | 1 |
-| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/>  | direct | 1 |
-| [dct_source](../slots/dct_source.md) | 0..1 <br/> [Any](../classes/Any.md) | This property is intended to be used with non-literal values <br/> description: A related resource from which the described resource is derived. | direct | 1 |
+| [dct_source](../slots/dct_source.md) | 0..1 <br/> [Any](../classes/Any.md) | This property is intended to be used with non-literal values <br/> description: A related resource from which the described resource is derived. | direct | 2 |
+| [owl_sameAs](../slots/owl_sameAs.md) | 0..1 <br/> [OwlThing](../classes/OwlThing.md) | The property that determines that two given individuals are equal <br/>  | direct | 2 |
 
 
 
@@ -129,8 +129,8 @@ is_a: owl_Thing
 slots:
 - dct_description
 - rdfs_label
-- owl_sameAs
 - dct_source
+- owl_sameAs
 class_uri: fio-epa-frs:ProjectSystem
 
 ```
@@ -169,7 +169,8 @@ attributes:
     - qudt_DimensionlessUnit
     - qudt_LogarithmicUnit
     - qudt_Unit
-    - __B78889d67d06fc8a172807dd97a6eabac
+    - __Bd7175f49ca206d160fdb4fee4dad2747
+    - __Bf500d8a8b0381e9decef451f20ba1677
     - fio-epa-frs_AirProgram
     - fio-epa-frs_AnimalOperation
     - fio-epa-frs_AssistanceSupportProgram
@@ -216,6 +217,7 @@ attributes:
     - fio-epa-frs_SiteSystem
     - fio-epa-frs_SolidWasteProgram
     - fio-epa-frs_StateSystem
+    - fio-epa-frs_StateTrackingRecord
     - fio-epa-frs_SupplementalRecord
     - fio-epa-frs_TribalSystem
     - fio-epa-frs_TribalTrackingRecord
@@ -237,13 +239,6 @@ attributes:
     domain_of:
     - time_DayOfWeek
     - time_TemporalUnit
-    - dcam_VocabularyEncodingScheme
-    - dct_AgentClass
-    - rdf_List
-    - rdfs_Datatype
-    - vaem_GraphMetaData
-    - vaem_GraphRole
-    - vaem_Party
     - sdos_ActionStatusType
     - sdos_AdultOrientedEnumeration
     - sdos_BoardingPolicyType
@@ -325,6 +320,13 @@ attributes:
     - sdos_WearableMeasurementTypeEnumeration
     - sdos_WearableSizeGroupEnumeration
     - sdos_WearableSizeSystemEnumeration
+    - rdf_List
+    - rdfs_Datatype
+    - dcam_VocabularyEncodingScheme
+    - dct_AgentClass
+    - vaem_GraphMetaData
+    - vaem_GraphRole
+    - vaem_Party
     - rdf_DatatypeProperty
     - vaem_CatalogEntry
     - voag_Attribution
@@ -392,7 +394,8 @@ attributes:
     - kwgo_StormTrackObservableProperty
     - kwgo_StormTrackletObservableProperty
     - kwgo_VulnerabilityObservableProperty
-    - __B78889d67d06fc8a172807dd97a6eabac
+    - __Bd7175f49ca206d160fdb4fee4dad2747
+    - __Bf500d8a8b0381e9decef451f20ba1677
     - fio-epa-frs_Agency
     - fio-epa-frs_Agency.Agriculture
     - fio-epa-frs_Agency.Commerce
@@ -446,6 +449,7 @@ attributes:
     - fio-epa-frs_ProjectRecord
     - fio-epa-frs_ProjectSystem
     - fio-epa-frs_RadiationProtectionProgram
+    - fio-epa-frs_Record
     - fio-epa-frs_RegistrationRecord
     - fio-epa-frs_RegistryInterest
     - fio-epa-frs_RegistrySystem
@@ -475,6 +479,30 @@ attributes:
     any_of:
     - range: rdfs_Literal
     - range: string
+  dct_source:
+    name: dct_source
+    description: This property is intended to be used with non-literal values. The
+      described resource may be derived from the related resource in whole or in part.
+      Best practice is to identify the related resource by means of a URI or a string
+      conforming to a formal identification system.
+    title: Source
+    notes:
+    - No occurrences of this slot in the graph.
+    comments:
+    - 'description: A related resource from which the described resource is derived.'
+    from_schema: okns:dc
+    source: http://purl.org/dc/terms/
+    slot_uri: dct:source
+    alias: dct_source
+    owner: fio-epa-frs_ProjectSystem
+    domain_of:
+    - qudt_Unit
+    - fio-epa-frs_LegacySystem
+    - fio-epa-frs_ProjectSystem
+    - fio-epa-frs_ReportingSystem
+    - fio-epa-frs_SiteSystem
+    subproperty_of: dct_relation
+    range: Any
   owl_sameAs:
     name: owl_sameAs
     description: The property that determines that two given individuals are equal.
@@ -488,7 +516,8 @@ attributes:
     alias: owl_sameAs
     owner: fio-epa-frs_ProjectSystem
     domain_of:
-    - __B78889d67d06fc8a172807dd97a6eabac
+    - __Bd7175f49ca206d160fdb4fee4dad2747
+    - __Bf500d8a8b0381e9decef451f20ba1677
     - fio-epa-frs_Agency
     - fio-epa-frs_Agency.Agriculture
     - fio-epa-frs_Agency.Commerce
@@ -571,30 +600,6 @@ attributes:
     - naics_NAICS-IndustrySector
     - naics_NAICS-IndustrySubsector
     range: owl_Thing
-  dct_source:
-    name: dct_source
-    description: This property is intended to be used with non-literal values. The
-      described resource may be derived from the related resource in whole or in part.
-      Best practice is to identify the related resource by means of a URI or a string
-      conforming to a formal identification system.
-    title: Source
-    notes:
-    - No occurrences of this slot in the graph.
-    comments:
-    - 'description: A related resource from which the described resource is derived.'
-    from_schema: okns:dc
-    source: http://purl.org/dc/terms/
-    slot_uri: dct:source
-    alias: dct_source
-    owner: fio-epa-frs_ProjectSystem
-    domain_of:
-    - qudt_Unit
-    - fio-epa-frs_LegacySystem
-    - fio-epa-frs_ProjectSystem
-    - fio-epa-frs_ReportingSystem
-    - fio-epa-frs_SiteSystem
-    subproperty_of: dct_relation
-    range: Any
 class_uri: fio-epa-frs:ProjectSystem
 
 ```

@@ -10,7 +10,7 @@ _has Identifier in EPA Facility Registry Service_
 
 
 
-This slot occurs 529535 times.
+This slot occurs 918005 times.
 
 
 URI: [fio-epa-frs:hasFRSId](http://w3id.org/fio/v1/epa-frs#hasFRSId)
@@ -27,8 +27,8 @@ URI: [fio-epa-frs:hasFRSId](http://w3id.org/fio/v1/epa-frs#hasFRSId)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
 | [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
 
 
 
@@ -38,7 +38,7 @@ URI: [fio-epa-frs:hasFRSId](http://w3id.org/fio/v1/epa-frs#hasFRSId)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string)&nbsp;or&nbsp;<br />[RdfsLiteral](../classes/RdfsLiteral.md)
+* Range: [xsd:string](http://www.w3.org/2001/XMLSchema#string)
 
 
 
@@ -63,13 +63,10 @@ domain_of:
 - fio-epa-frs_FRS-Facility
 subproperty_of: dct_identifier
 union_of:
-- owl_Thing
 - fio_Facility
+- owl_Thing
 - fio-epa-frs_FRS-Facility
-range: Any
-any_of:
-- range: string
-- range: rdfs_Literal
+range: string
 
 ```
 </details>

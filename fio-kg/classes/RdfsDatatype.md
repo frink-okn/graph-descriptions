@@ -97,7 +97,7 @@ URI: [rdfs:Datatype](http://www.w3.org/2000/01/rdf-schema#Datatype)
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
 | [rdfs_isDefinedBy](../slots/rdfs_isDefinedBy.md) | 0..1 <br/> [OwlOntology](../classes/OwlOntology.md)&nbsp;or&nbsp;<br />[RdfsResource](../classes/RdfsResource.md) | The definition of the subject resource <br/>  | direct |  |
-| [rdfs_subClassOf](../slots/rdfs_subClassOf.md) | 0..1 <br/> [RdfsClass](../classes/RdfsClass.md) | The subject is a subclass of a class <br/>  | direct | 58 |
+| [rdfs_subClassOf](../slots/rdfs_subClassOf.md) | 0..1 <br/> [RdfsClass](../classes/RdfsClass.md) | The subject is a subclass of a class <br/>  | direct | 60 |
 | [rdfs_seeAlso](../slots/rdfs_seeAlso.md) | 0..1 <br/> [RdfsResource](../classes/RdfsResource.md)&nbsp;or&nbsp;<br />[xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | Further information about the subject resource <br/>  | direct |  |
 | [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | A human-readable name for the subject <br/>  | direct |  |
 | [rdfs_comment](../slots/rdfs_comment.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | A description of the subject resource <br/>  | direct |  |
@@ -164,10 +164,10 @@ attributes:
     alias: rdfs_isDefinedBy
     owner: rdfs_Datatype
     domain_of:
-    - dcam_VocabularyEncodingScheme
-    - dct_AgentClass
     - rdf_List
     - rdfs_Datatype
+    - dcam_VocabularyEncodingScheme
+    - dct_AgentClass
     - vaem_GraphMetaData
     - vaem_GraphRole
     - vaem_Party
@@ -232,8 +232,8 @@ attributes:
     alias: rdfs_subClassOf
     owner: rdfs_Datatype
     domain_of:
-    - rdfs_Datatype
     - sdos_MedicalSpecialty
+    - rdfs_Datatype
     - qudt_AspectClass
     range: rdfs_Class
   rdfs_seeAlso:
@@ -247,8 +247,8 @@ attributes:
     alias: rdfs_seeAlso
     owner: rdfs_Datatype
     domain_of:
-    - dcam_VocabularyEncodingScheme
     - rdfs_Datatype
+    - dcam_VocabularyEncodingScheme
     - qudt_DerivedUnit
     - qudt_Unit
     range: Any
@@ -268,13 +268,6 @@ attributes:
     domain_of:
     - time_DayOfWeek
     - time_TemporalUnit
-    - dcam_VocabularyEncodingScheme
-    - dct_AgentClass
-    - rdf_List
-    - rdfs_Datatype
-    - vaem_GraphMetaData
-    - vaem_GraphRole
-    - vaem_Party
     - sdos_ActionStatusType
     - sdos_AdultOrientedEnumeration
     - sdos_BoardingPolicyType
@@ -356,6 +349,13 @@ attributes:
     - sdos_WearableMeasurementTypeEnumeration
     - sdos_WearableSizeGroupEnumeration
     - sdos_WearableSizeSystemEnumeration
+    - rdf_List
+    - rdfs_Datatype
+    - dcam_VocabularyEncodingScheme
+    - dct_AgentClass
+    - vaem_GraphMetaData
+    - vaem_GraphRole
+    - vaem_Party
     - rdf_DatatypeProperty
     - vaem_CatalogEntry
     - voag_Attribution
@@ -423,7 +423,8 @@ attributes:
     - kwgo_StormTrackObservableProperty
     - kwgo_StormTrackletObservableProperty
     - kwgo_VulnerabilityObservableProperty
-    - __B78889d67d06fc8a172807dd97a6eabac
+    - __Bd7175f49ca206d160fdb4fee4dad2747
+    - __Bf500d8a8b0381e9decef451f20ba1677
     - fio-epa-frs_Agency
     - fio-epa-frs_Agency.Agriculture
     - fio-epa-frs_Agency.Commerce
@@ -477,6 +478,7 @@ attributes:
     - fio-epa-frs_ProjectRecord
     - fio-epa-frs_ProjectSystem
     - fio-epa-frs_RadiationProtectionProgram
+    - fio-epa-frs_Record
     - fio-epa-frs_RegistrationRecord
     - fio-epa-frs_RegistryInterest
     - fio-epa-frs_RegistrySystem
@@ -517,10 +519,6 @@ attributes:
     alias: rdfs_comment
     owner: rdfs_Datatype
     domain_of:
-    - dcam_VocabularyEncodingScheme
-    - dct_AgentClass
-    - rdf_List
-    - rdfs_Datatype
     - sdos_ActionStatusType
     - sdos_AdultOrientedEnumeration
     - sdos_BoardingPolicyType
@@ -602,6 +600,10 @@ attributes:
     - sdos_WearableMeasurementTypeEnumeration
     - sdos_WearableSizeGroupEnumeration
     - sdos_WearableSizeSystemEnumeration
+    - rdf_List
+    - rdfs_Datatype
+    - dcam_VocabularyEncodingScheme
+    - dct_AgentClass
     - rdf_DatatypeProperty
     - qudt_AspectClass
     - qudt_DerivedUnit
