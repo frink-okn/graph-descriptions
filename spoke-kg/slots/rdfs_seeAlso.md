@@ -29,8 +29,8 @@ URI: [rdfs:seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso)
 | --- | --- | --- |
 | [OwlDataRange](../classes/OwlDataRange.md) | The class of OWL data ranges, which are special kinds of datatypes |  no  |
 | [RdfsDatatype](../classes/RdfsDatatype.md) | The class of RDF datatypes |  no  |
-| [HttpsW3id.orgBiolinkVocabDisease](../classes/HttpsW3id.orgBiolinkVocabDisease.md) |  |  no  |
 | [DcamVocabularyEncodingScheme](../classes/DcamVocabularyEncodingScheme.md) | An enumerated set of resources |  no  |
+| [HttpsW3id.orgBiolinkVocabDisease](../classes/HttpsW3id.orgBiolinkVocabDisease.md) |  |  no  |
 
 
 

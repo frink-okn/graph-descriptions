@@ -78,10 +78,10 @@ URI: [https://w3id.org/biolink/vocab/EnvironmentalFeature](https://w3id.org/biol
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
 | [dct_source](../slots/dct_source.md) | 0..1 <br/> [Any](../classes/Any.md) | This property is intended to be used with non-literal values <br/> description: A related resource from which the described resource is derived. | direct | 2 |
-| [https___purl.org_okn_frink_kg_spoke_schema_synonyms](../slots/https___purl.org_okn_frink_kg_spoke_schema_synonyms.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 2 |
 | [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | A human-readable name for the subject <br/>  | direct | 2 |
-| [https___purl.org_okn_frink_kg_spoke_schema_ISA_EiE](../slots/https___purl.org_okn_frink_kg_spoke_schema_ISA_EiE.md) | 0..1 <br/> [HttpsW3id.orgBiolinkVocabEnvironmentalFeature](../classes/HttpsW3id.orgBiolinkVocabEnvironmentalFeature.md) |  <br/>  | direct | 1 |
 | [https___purl.org_okn_frink_kg_spoke_schema_FOUNDIN_EfL](../slots/https___purl.org_okn_frink_kg_spoke_schema_FOUNDIN_EfL.md) | 0..1 <br/> [SdosAdministrativeArea](../classes/SdosAdministrativeArea.md) |  <br/>  | direct | 11367 |
+| [https___purl.org_okn_frink_kg_spoke_schema_synonyms](../slots/https___purl.org_okn_frink_kg_spoke_schema_synonyms.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) |  <br/>  | direct | 2 |
+| [https___purl.org_okn_frink_kg_spoke_schema_ISA_EiE](../slots/https___purl.org_okn_frink_kg_spoke_schema_ISA_EiE.md) | 0..1 <br/> [HttpsW3id.orgBiolinkVocabEnvironmentalFeature](../classes/HttpsW3id.orgBiolinkVocabEnvironmentalFeature.md) |  <br/>  | direct | 1 |
 
 
 
@@ -117,10 +117,10 @@ from_schema: okns:spoke-kg
 rank: 1000
 slots:
 - dct_source
-- https___purl.org_okn_frink_kg_spoke_schema_synonyms
 - rdfs_label
-- https___purl.org_okn_frink_kg_spoke_schema_ISA_EiE
 - https___purl.org_okn_frink_kg_spoke_schema_FOUNDIN_EfL
+- https___purl.org_okn_frink_kg_spoke_schema_synonyms
+- https___purl.org_okn_frink_kg_spoke_schema_ISA_EiE
 class_uri: https://w3id.org/biolink/vocab/EnvironmentalFeature
 
 ```
@@ -159,17 +159,6 @@ attributes:
     - https___w3id.org_biolink_vocab_OrganismTaxon
     subproperty_of: dct_relation
     range: Any
-  https___purl.org_okn_frink_kg_spoke_schema_synonyms:
-    name: https___purl.org_okn_frink_kg_spoke_schema_synonyms
-    from_schema: okns:spoke-kg
-    rank: 1000
-    slot_uri: https://purl.org/okn/frink/kg/spoke/schema/synonyms
-    alias: https___purl.org_okn_frink_kg_spoke_schema_synonyms
-    owner: https___w3id.org_biolink_vocab_EnvironmentalFeature
-    domain_of:
-    - https___w3id.org_biolink_vocab_ChemicalEntity
-    - https___w3id.org_biolink_vocab_EnvironmentalFeature
-    range: string
   rdfs_label:
     name: rdfs_label
     description: A human-readable name for the subject.
@@ -181,10 +170,6 @@ attributes:
     alias: rdfs_label
     owner: https___w3id.org_biolink_vocab_EnvironmentalFeature
     domain_of:
-    - rdf_List
-    - rdfs_Datatype
-    - dcam_VocabularyEncodingScheme
-    - dct_AgentClass
     - sdos_ActionStatusType
     - sdos_AdultOrientedEnumeration
     - sdos_BoardingPolicyType
@@ -266,6 +251,10 @@ attributes:
     - sdos_WearableMeasurementTypeEnumeration
     - sdos_WearableSizeGroupEnumeration
     - sdos_WearableSizeSystemEnumeration
+    - rdf_List
+    - rdfs_Datatype
+    - dcam_VocabularyEncodingScheme
+    - dct_AgentClass
     - time_DayOfWeek
     - time_TemporalUnit
     - https___purl.org_okn_frink_kg_spoke_schema_SDoH
@@ -278,16 +267,6 @@ attributes:
     any_of:
     - range: rdfs_Literal
     - range: string
-  https___purl.org_okn_frink_kg_spoke_schema_ISA_EiE:
-    name: https___purl.org_okn_frink_kg_spoke_schema_ISA_EiE
-    from_schema: okns:spoke-kg
-    rank: 1000
-    slot_uri: https://purl.org/okn/frink/kg/spoke/schema/ISA_EiE
-    alias: https___purl.org_okn_frink_kg_spoke_schema_ISA_EiE
-    owner: https___w3id.org_biolink_vocab_EnvironmentalFeature
-    domain_of:
-    - https___w3id.org_biolink_vocab_EnvironmentalFeature
-    range: https___w3id.org_biolink_vocab_EnvironmentalFeature
   https___purl.org_okn_frink_kg_spoke_schema_FOUNDIN_EfL:
     name: https___purl.org_okn_frink_kg_spoke_schema_FOUNDIN_EfL
     from_schema: okns:spoke-kg
@@ -298,6 +277,27 @@ attributes:
     domain_of:
     - https___w3id.org_biolink_vocab_EnvironmentalFeature
     range: sdos_AdministrativeArea
+  https___purl.org_okn_frink_kg_spoke_schema_synonyms:
+    name: https___purl.org_okn_frink_kg_spoke_schema_synonyms
+    from_schema: okns:spoke-kg
+    rank: 1000
+    slot_uri: https://purl.org/okn/frink/kg/spoke/schema/synonyms
+    alias: https___purl.org_okn_frink_kg_spoke_schema_synonyms
+    owner: https___w3id.org_biolink_vocab_EnvironmentalFeature
+    domain_of:
+    - https___w3id.org_biolink_vocab_ChemicalEntity
+    - https___w3id.org_biolink_vocab_EnvironmentalFeature
+    range: string
+  https___purl.org_okn_frink_kg_spoke_schema_ISA_EiE:
+    name: https___purl.org_okn_frink_kg_spoke_schema_ISA_EiE
+    from_schema: okns:spoke-kg
+    rank: 1000
+    slot_uri: https://purl.org/okn/frink/kg/spoke/schema/ISA_EiE
+    alias: https___purl.org_okn_frink_kg_spoke_schema_ISA_EiE
+    owner: https___w3id.org_biolink_vocab_EnvironmentalFeature
+    domain_of:
+    - https___w3id.org_biolink_vocab_EnvironmentalFeature
+    range: https___w3id.org_biolink_vocab_EnvironmentalFeature
 class_uri: https://w3id.org/biolink/vocab/EnvironmentalFeature
 
 ```
