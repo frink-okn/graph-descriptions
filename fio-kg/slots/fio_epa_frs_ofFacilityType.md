@@ -5,7 +5,7 @@
 
 
 
-This slot occurs 1336346 times.
+This slot occurs 2517791 times.
 
 
 URI: [fio-epa-frs:ofFacilityType](http://w3id.org/fio/v1/epa-frs#ofFacilityType)
@@ -22,8 +22,8 @@ URI: [fio-epa-frs:ofFacilityType](http://w3id.org/fio/v1/epa-frs#ofFacilityType)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
 | [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
 
 
 
@@ -33,7 +33,7 @@ URI: [fio-epa-frs:ofFacilityType](http://w3id.org/fio/v1/epa-frs#ofFacilityType)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)&nbsp;or&nbsp;<br />[Fio-epa-frsFacilityType](../classes/Fio-epa-frsFacilityType.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[Fio-epa-frsFacilityType](../classes/Fio-epa-frsFacilityType.md)&nbsp;or&nbsp;<br />[RdfsResource](../classes/RdfsResource.md)&nbsp;or&nbsp;<br />[OwlThing](../classes/OwlThing.md)
 
 
 
@@ -56,13 +56,14 @@ domain_of:
 - fio-epa-frs_EPA-PFAS-Facility
 - fio-epa-frs_FRS-Facility
 union_of:
-- owl_Thing
 - fio_Facility
+- owl_Thing
 - fio-epa-frs_FRS-Facility
 range: Any
 any_of:
-- range: owl_Thing
 - range: fio-epa-frs_FacilityType
+- range: rdfs_Resource
+- range: owl_Thing
 
 ```
 </details>

@@ -10,7 +10,7 @@ _The distinction between titles and alternative titles is application-specific._
 
 
 
-This slot occurs 529538 times.
+This slot occurs 972237 times.
 
 
 URI: [dct:alternative](http://purl.org/dc/terms/alternative)
@@ -27,8 +27,8 @@ URI: [dct:alternative](http://purl.org/dc/terms/alternative)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
 | [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
 
 
 

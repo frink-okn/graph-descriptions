@@ -10,7 +10,7 @@ _A spatial representation for a given Feature._
 
 
 
-This slot occurs 458427 times.
+This slot occurs 762584 times.
 
 
 URI: [geo:hasGeometry](http://www.opengis.net/ont/geosparql#hasGeometry)
@@ -27,8 +27,8 @@ URI: [geo:hasGeometry](http://www.opengis.net/ont/geosparql#hasGeometry)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
 | [Fio-epa-frsEPA-PFAS-Facility](../classes/Fio-epa-frsEPA-PFAS-Facility.md) | Facility identified as potentially handling PFAS in EPA PFAS Analytic tools b... |  no  |
+| [Fio-epa-frsFRS-Facility](../classes/Fio-epa-frsFRS-Facility.md) | Facility from EPA Facility Registry Service |  no  |
 
 
 

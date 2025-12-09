@@ -33,7 +33,7 @@ URI: [fio-epa-frs:partOf](http://w3id.org/fio/v1/epa-frs#partOf)
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[Fio-epa-frsProgramInformationSystem](../classes/Fio-epa-frsProgramInformationSystem.md)&nbsp;or&nbsp;<br />[Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md)
+* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[RdfsResource](../classes/RdfsResource.md)&nbsp;or&nbsp;<br />[Fio-epa-frsReportingSystem](../classes/Fio-epa-frsReportingSystem.md)&nbsp;or&nbsp;<br />[Fio-epa-frsProgramInformationSystem](../classes/Fio-epa-frsProgramInformationSystem.md)
 
 
 
@@ -56,8 +56,9 @@ domain_of:
 - fio-epa-frs_ReportingSystem
 range: Any
 any_of:
-- range: fio-epa-frs_ProgramInformationSystem
+- range: rdfs_Resource
 - range: fio-epa-frs_ReportingSystem
+- range: fio-epa-frs_ProgramInformationSystem
 
 ```
 </details>
