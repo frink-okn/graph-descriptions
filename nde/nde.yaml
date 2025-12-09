@@ -1,0 +1,1319 @@
+annotations:
+  counts:
+    tag: counts
+    value:
+      classes:
+        tag: classes
+        value:
+          sdos:DataCatalog:
+            tag: sdos:DataCatalog
+            value: 7
+          sdos:Dataset:
+            tag: sdos:Dataset
+            value: 9863
+          sdos:DefinedTerm:
+            tag: sdos:DefinedTerm
+            value: 1275
+          sdos:MonetaryGrant:
+            tag: sdos:MonetaryGrant
+            value: 569
+          sdos:Organization:
+            tag: sdos:Organization
+            value: 413
+          sdos:Person:
+            tag: sdos:Person
+            value: 824
+      pairs:
+        tag: pairs
+        value:
+          owl:sameAs:
+            tag: owl:sameAs
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  uri:
+                    tag: uri
+                    value: 9741
+          rdfs:domain:
+            tag: rdfs:domain
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  rdfs:Class:
+                    tag: rdfs:Class
+                    value: 1
+                  uri:
+                    tag: uri
+                    value: 1
+          rdfs:range:
+            tag: rdfs:range
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  rdfs:Class:
+                    tag: rdfs:Class
+                    value: 1
+                  uri:
+                    tag: uri
+                    value: 1
+          sdos:abstract:
+            tag: sdos:abstract
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  string:
+                    tag: string
+                    value: 1320
+          sdos:affiliation:
+            tag: sdos:affiliation
+            value:
+              sdos:Person:
+                tag: sdos:Person
+                value:
+                  sdos:Organization:
+                    tag: sdos:Organization
+                    value: 665
+          sdos:alternateName:
+            tag: sdos:alternateName
+            value:
+              sdos:Organization:
+                tag: sdos:Organization
+                value:
+                  string:
+                    tag: string
+                    value: 80
+          sdos:archivedAt:
+            tag: sdos:archivedAt
+            value:
+              sdos:DataCatalog:
+                tag: sdos:DataCatalog
+                value:
+                  string:
+                    tag: string
+                    value: 10641
+          sdos:author:
+            tag: sdos:author
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  sdos:Person:
+                    tag: sdos:Person
+                    value: 7691
+                  string:
+                    tag: string
+                    value: 15352
+          sdos:date:
+            tag: sdos:date
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  date:
+                    tag: date
+                    value: 9810
+          sdos:dateCreated:
+            tag: sdos:dateCreated
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  date:
+                    tag: date
+                    value: 8451
+          sdos:dateModified:
+            tag: sdos:dateModified
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  date:
+                    tag: date
+                    value: 7891
+                  datetime:
+                    tag: datetime
+                    value: 1320
+          sdos:datePublished:
+            tag: sdos:datePublished
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  date:
+                    tag: date
+                    value: 8490
+          sdos:description:
+            tag: sdos:description
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  string:
+                    tag: string
+                    value: 8126
+          sdos:endDate:
+            tag: sdos:endDate
+            value:
+              sdos:MonetaryGrant:
+                tag: sdos:MonetaryGrant
+                value:
+                  date:
+                    tag: date
+                    value: 555
+          sdos:familyName:
+            tag: sdos:familyName
+            value:
+              sdos:Person:
+                tag: sdos:Person
+                value:
+                  string:
+                    tag: string
+                    value: 21
+          sdos:funder:
+            tag: sdos:funder
+            value:
+              sdos:MonetaryGrant:
+                tag: sdos:MonetaryGrant
+                value:
+                  sdos:Organization:
+                    tag: sdos:Organization
+                    value: 588
+          sdos:funding:
+            tag: sdos:funding
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  sdos:MonetaryGrant:
+                    tag: sdos:MonetaryGrant
+                    value: 1682
+          sdos:givenName:
+            tag: sdos:givenName
+            value:
+              sdos:Person:
+                tag: sdos:Person
+                value:
+                  string:
+                    tag: string
+                    value: 21
+          sdos:healthCondition:
+            tag: sdos:healthCondition
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  sdos:DefinedTerm:
+                    tag: sdos:DefinedTerm
+                    value: 10771
+          sdos:identifier:
+            tag: sdos:identifier
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  string:
+                    tag: string
+                    value: 12531
+              sdos:MonetaryGrant:
+                tag: sdos:MonetaryGrant
+                value:
+                  string:
+                    tag: string
+                    value: 569
+              sdos:Organization:
+                tag: sdos:Organization
+                value:
+                  string:
+                    tag: string
+                    value: 21
+              sdos:Person:
+                tag: sdos:Person
+                value:
+                  string:
+                    tag: string
+                    value: 4
+          sdos:includedInDataCatalog:
+            tag: sdos:includedInDataCatalog
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  sdos:DataCatalog:
+                    tag: sdos:DataCatalog
+                    value: 10641
+          sdos:infectiousAgent:
+            tag: sdos:infectiousAgent
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  sdos:DefinedTerm:
+                    tag: sdos:DefinedTerm
+                    value: 2427
+          sdos:name:
+            tag: sdos:name
+            value:
+              sdos:DataCatalog:
+                tag: sdos:DataCatalog
+                value:
+                  string:
+                    tag: string
+                    value: 7
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  string:
+                    tag: string
+                    value: 9863
+              sdos:DefinedTerm:
+                tag: sdos:DefinedTerm
+                value:
+                  string:
+                    tag: string
+                    value: 1279
+              sdos:MonetaryGrant:
+                tag: sdos:MonetaryGrant
+                value:
+                  string:
+                    tag: string
+                    value: 569
+              sdos:Organization:
+                tag: sdos:Organization
+                value:
+                  string:
+                    tag: string
+                    value: 427
+              sdos:Person:
+                tag: sdos:Person
+                value:
+                  string:
+                    tag: string
+                    value: 828
+          sdos:parentOrganization:
+            tag: sdos:parentOrganization
+            value:
+              sdos:Organization:
+                tag: sdos:Organization
+                value:
+                  string:
+                    tag: string
+                    value: 20
+          sdos:sameAs:
+            tag: sdos:sameAs
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  string:
+                    tag: string
+                    value: 9761
+                  uri:
+                    tag: uri
+                    value: 9741
+          sdos:species:
+            tag: sdos:species
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  sdos:DefinedTerm:
+                    tag: sdos:DefinedTerm
+                    value: 2842
+          sdos:startDate:
+            tag: sdos:startDate
+            value:
+              sdos:MonetaryGrant:
+                tag: sdos:MonetaryGrant
+                value:
+                  date:
+                    tag: date
+                    value: 556
+          sdos:url:
+            tag: sdos:url
+            value:
+              sdos:DataCatalog:
+                tag: sdos:DataCatalog
+                value:
+                  string:
+                    tag: string
+                    value: 98
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  string:
+                    tag: string
+                    value: 9863
+              sdos:MonetaryGrant:
+                tag: sdos:MonetaryGrant
+                value:
+                  string:
+                    tag: string
+                    value: 569
+              sdos:Person:
+                tag: sdos:Person
+                value:
+                  string:
+                    tag: string
+                    value: 1
+          sdos:versionDate:
+            tag: sdos:versionDate
+            value:
+              sdos:DataCatalog:
+                tag: sdos:DataCatalog
+                value:
+                  date:
+                    tag: date
+                    value: 6
+                  datetime:
+                    tag: datetime
+                    value: 71
+      slots:
+        tag: slots
+        value:
+          owl:sameAs:
+            tag: owl:sameAs
+            value: 9741
+          rdfs:domain:
+            tag: rdfs:domain
+            value: 2
+          rdfs:range:
+            tag: rdfs:range
+            value: 2
+          sdos:abstract:
+            tag: sdos:abstract
+            value: 1320
+          sdos:affiliation:
+            tag: sdos:affiliation
+            value: 665
+          sdos:alternateName:
+            tag: sdos:alternateName
+            value: 80
+          sdos:archivedAt:
+            tag: sdos:archivedAt
+            value: 10641
+          sdos:author:
+            tag: sdos:author
+            value: 23043
+          sdos:date:
+            tag: sdos:date
+            value: 9810
+          sdos:dateCreated:
+            tag: sdos:dateCreated
+            value: 8451
+          sdos:dateModified:
+            tag: sdos:dateModified
+            value: 9211
+          sdos:datePublished:
+            tag: sdos:datePublished
+            value: 8490
+          sdos:description:
+            tag: sdos:description
+            value: 8126
+          sdos:endDate:
+            tag: sdos:endDate
+            value: 555
+          sdos:familyName:
+            tag: sdos:familyName
+            value: 21
+          sdos:funder:
+            tag: sdos:funder
+            value: 588
+          sdos:funding:
+            tag: sdos:funding
+            value: 1682
+          sdos:givenName:
+            tag: sdos:givenName
+            value: 21
+          sdos:healthCondition:
+            tag: sdos:healthCondition
+            value: 10771
+          sdos:identifier:
+            tag: sdos:identifier
+            value: 13125
+          sdos:includedInDataCatalog:
+            tag: sdos:includedInDataCatalog
+            value: 10641
+          sdos:infectiousAgent:
+            tag: sdos:infectiousAgent
+            value: 2427
+          sdos:name:
+            tag: sdos:name
+            value: 12973
+          sdos:parentOrganization:
+            tag: sdos:parentOrganization
+            value: 20
+          sdos:sameAs:
+            tag: sdos:sameAs
+            value: 19502
+          sdos:species:
+            tag: sdos:species
+            value: 2842
+          sdos:startDate:
+            tag: sdos:startDate
+            value: 556
+          sdos:url:
+            tag: sdos:url
+            value: 10531
+          sdos:versionDate:
+            tag: sdos:versionDate
+            value: 77
+  examples:
+    tag: examples
+    value:
+      classes:
+        tag: classes
+        value:
+          sdos:DataCatalog:
+            tag: sdos:DataCatalog
+            value: https://okn.wobd.org/catalog/zenodo
+          sdos:Dataset:
+            tag: sdos:Dataset
+            value: https://okn.wobd.org/dataset/vivli/vivli_fffbacbd-f2da-42a2-a912-008546ef7d0f
+          sdos:DefinedTerm:
+            tag: sdos:DefinedTerm
+            value: https://www.uniprot.org/taxonomy/NA
+          sdos:MonetaryGrant:
+            tag: sdos:MonetaryGrant
+            value: https://okn.wobd.org/grant/N01CP095663-000
+          sdos:Organization:
+            tag: sdos:Organization
+            value: https://ror.org/04xeg9z08
+          sdos:Person:
+            tag: sdos:Person
+            value: https://orcid.org/0000-0003-1707-253X
+      pairs:
+        tag: pairs
+        value:
+          owl:sameAs:
+            tag: owl:sameAs
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: https://doi.org/10.21430/M38Y09R3R9
+                      predicate:
+                        tag: predicate
+                        value: owl:sameAs
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/dataset/immport/sdy1
+          rdfs:domain:
+            tag: rdfs:domain
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  rdfs:Class:
+                    tag: rdfs:Class
+                    value:
+                      object:
+                        tag: object
+                        value: sdos:Dataset
+                      predicate:
+                        tag: predicate
+                        value: rdfs:domain
+                      subject:
+                        tag: subject
+                        value: sdos:species
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: sdos:Thing
+                      predicate:
+                        tag: predicate
+                        value: rdfs:domain
+                      subject:
+                        tag: subject
+                        value: sdos:date
+          rdfs:range:
+            tag: rdfs:range
+            value:
+              untyped:
+                tag: untyped
+                value:
+                  rdfs:Class:
+                    tag: rdfs:Class
+                    value:
+                      object:
+                        tag: object
+                        value: sdos:DefinedTerm
+                      predicate:
+                        tag: predicate
+                        value: rdfs:range
+                      subject:
+                        tag: subject
+                        value: sdos:species
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: xsd:date
+                      predicate:
+                        tag: predicate
+                        value: rdfs:range
+                      subject:
+                        tag: subject
+                        value: sdos:date
+          sdos:abstract:
+            tag: sdos:abstract
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: A series of allergy shots may reduce symptoms of seasonal
+                          ragweed allergies. This study will determine whether taking
+                          a drug called omalizumab (also known as Xolair) before getting
+                          the allergy shots is more effective than allergy shots alone
+                          or other treatments, such as prescription antihistamines.
+                      predicate:
+                        tag: predicate
+                        value: sdos:abstract
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/dataset/immport/sdy1
+          sdos:affiliation:
+            tag: sdos:affiliation
+            value:
+              sdos:Person:
+                tag: sdos:Person
+                value:
+                  sdos:Organization:
+                    tag: sdos:Organization
+                    value:
+                      object:
+                        tag: object
+                        value: https://okn.wobd.org/organization/baylor_reasearch_institute
+                      predicate:
+                        tag: predicate
+                        value: sdos:affiliation
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/person/a_karolina_palucka
+          sdos:alternateName:
+            tag: sdos:alternateName
+            value:
+              sdos:Organization:
+                tag: sdos:Organization
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: "Instituto Nacional de Im\xE1genes Biom\xE9dicas y\
+                          \ Bioingenier\xEDa"
+                      predicate:
+                        tag: predicate
+                        value: sdos:alternateName
+                      subject:
+                        tag: subject
+                        value: https://ror.org/00372qc85
+          sdos:archivedAt:
+            tag: sdos:archivedAt
+            value:
+              sdos:DataCatalog:
+                tag: sdos:DataCatalog
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: https://immport.org/shared/study/SDY1
+                      predicate:
+                        tag: predicate
+                        value: sdos:archivedAt
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/catalog/immport
+          sdos:author:
+            tag: sdos:author
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  sdos:Person:
+                    tag: sdos:Person
+                    value:
+                      object:
+                        tag: object
+                        value: https://okn.wobd.org/person/thomas_casale
+                      predicate:
+                        tag: predicate
+                        value: sdos:author
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/dataset/immport/sdy1
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: '@type'
+                      predicate:
+                        tag: predicate
+                        value: sdos:author
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/dataset/vivli/vivli_00082385-f73e-472b-bf66-81f800e35b11
+          sdos:date:
+            tag: sdos:date
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  date:
+                    tag: date
+                    value:
+                      object:
+                        tag: object
+                        value: '2024-07-25'
+                      predicate:
+                        tag: predicate
+                        value: sdos:date
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/dataset/immport/sdy1
+          sdos:dateCreated:
+            tag: sdos:dateCreated
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  date:
+                    tag: date
+                    value:
+                      object:
+                        tag: object
+                        value: '2013-11-28'
+                      predicate:
+                        tag: predicate
+                        value: sdos:dateCreated
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/dataset/project_tycho/tycho_ad.840539006
+          sdos:dateModified:
+            tag: sdos:dateModified
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  date:
+                    tag: date
+                    value:
+                      object:
+                        tag: object
+                        value: '2024-04-17'
+                      predicate:
+                        tag: predicate
+                        value: sdos:dateModified
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/dataset/radx_data_hub/radx_100
+                  datetime:
+                    tag: datetime
+                    value:
+                      object:
+                        tag: object
+                        value: '2024-07-25T00:00:00'
+                      predicate:
+                        tag: predicate
+                        value: sdos:dateModified
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/dataset/immport/sdy1
+          sdos:datePublished:
+            tag: sdos:datePublished
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  date:
+                    tag: date
+                    value:
+                      object:
+                        tag: object
+                        value: '2022-08-12'
+                      predicate:
+                        tag: predicate
+                        value: sdos:datePublished
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/dataset/project_tycho/tycho_ad.840539006
+          sdos:description:
+            tag: sdos:description
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 'Allergic rhinitis affects 20 to 40 million Americans
+                          annually. Allergy symptoms, which can range from mild to
+                          seriously debilitating, may affect quality of life. Left
+                          untreated, allergic rhinitis can exacerbate or trigger more
+                          serious conditions, such as asthma and sinus inflammation.
+
+                          Individuals with allergies react to harmless particles such
+                          as dust or pollen. Proteins in the blood called IgE antibodies
+                          treat the harmless particles as invaders and trigger an
+                          immune system response. The immune response results in harmful
+                          inflammation of healthy tissues. In ragweed allergy, inflammation
+                          occurs in the airways and causes familiar allergy symptoms
+                          like sneezing, coughing, and general discomfort.
+
+                          Omalizumab is an investigational drug that has been shown
+                          to block the effects of IgE antibodies. The blocking effect
+                          of omalizumab is temporary, but giving the drug to people
+                          before their regular allergy shots may make the shots more
+                          effective.
+
+                          Participants in this study will be randomly assigned to
+                          receive injections of omalizumab or a placebo before an
+                          accelerated course of allergy shots (given over 12 weeks).
+                          The participants will return for follow-up for up to one
+                          year, and they may have as many as 27 study visits.
+
+                          '
+                      predicate:
+                        tag: predicate
+                        value: sdos:description
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/dataset/immport/sdy1
+          sdos:endDate:
+            tag: sdos:endDate
+            value:
+              sdos:MonetaryGrant:
+                tag: sdos:MonetaryGrant
+                value:
+                  date:
+                    tag: date
+                    value:
+                      object:
+                        tag: object
+                        value: '2025-07-31'
+                      predicate:
+                        tag: predicate
+                        value: sdos:endDate
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/grant/1DP1AI158186-01
+          sdos:familyName:
+            tag: sdos:familyName
+            value:
+              sdos:Person:
+                tag: sdos:Person
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Childers
+                      predicate:
+                        tag: predicate
+                        value: sdos:familyName
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/person/bruce_r_childers
+          sdos:funder:
+            tag: sdos:funder
+            value:
+              sdos:MonetaryGrant:
+                tag: sdos:MonetaryGrant
+                value:
+                  sdos:Organization:
+                    tag: sdos:Organization
+                    value:
+                      object:
+                        tag: object
+                        value: https://ror.org/00fj8a872
+                      predicate:
+                        tag: predicate
+                        value: sdos:funder
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/grant/1DP1AI158186-01
+          sdos:funding:
+            tag: sdos:funding
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  sdos:MonetaryGrant:
+                    tag: sdos:MonetaryGrant
+                    value:
+                      object:
+                        tag: object
+                        value: https://okn.wobd.org/grant/N01AI000029-1-0-0
+                      predicate:
+                        tag: predicate
+                        value: sdos:funding
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/dataset/immport/sdy10
+          sdos:givenName:
+            tag: sdos:givenName
+            value:
+              sdos:Person:
+                tag: sdos:Person
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Bruce
+                      predicate:
+                        tag: predicate
+                        value: sdos:givenName
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/person/bruce_r_childers
+          sdos:healthCondition:
+            tag: sdos:healthCondition
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  sdos:DefinedTerm:
+                    tag: sdos:DefinedTerm
+                    value:
+                      object:
+                        tag: object
+                        value: obo:MONDO_0005324
+                      predicate:
+                        tag: predicate
+                        value: sdos:healthCondition
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/dataset/immport/sdy1
+          sdos:identifier:
+            tag: sdos:identifier
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 10.21430/M38Y09R3R9
+                      predicate:
+                        tag: predicate
+                        value: sdos:identifier
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/dataset/immport/sdy1
+              sdos:MonetaryGrant:
+                tag: sdos:MonetaryGrant
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 1DP1AI158186-01
+                      predicate:
+                        tag: predicate
+                        value: sdos:identifier
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/grant/1DP1AI158186-01
+              sdos:Organization:
+                tag: sdos:Organization
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: https://ror.org/00372qc85
+                      predicate:
+                        tag: predicate
+                        value: sdos:identifier
+                      subject:
+                        tag: subject
+                        value: https://ror.org/00372qc85
+              sdos:Person:
+                tag: sdos:Person
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: https://orcid.org/0000-0002-5187-6390
+                      predicate:
+                        tag: predicate
+                        value: sdos:identifier
+                      subject:
+                        tag: subject
+                        value: https://orcid.org/0000-0002-5187-6390
+          sdos:includedInDataCatalog:
+            tag: sdos:includedInDataCatalog
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  sdos:DataCatalog:
+                    tag: sdos:DataCatalog
+                    value:
+                      object:
+                        tag: object
+                        value: https://okn.wobd.org/catalog/immport
+                      predicate:
+                        tag: predicate
+                        value: sdos:includedInDataCatalog
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/dataset/immport/sdy1
+          sdos:infectiousAgent:
+            tag: sdos:infectiousAgent
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  sdos:DefinedTerm:
+                    tag: sdos:DefinedTerm
+                    value:
+                      object:
+                        tag: object
+                        value: https://www.uniprot.org/taxonomy/11052
+                      predicate:
+                        tag: predicate
+                        value: sdos:infectiousAgent
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/dataset/immport/sdy1171
+          sdos:name:
+            tag: sdos:name
+            value:
+              sdos:DataCatalog:
+                tag: sdos:DataCatalog
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: ImmPort
+                      predicate:
+                        tag: predicate
+                        value: sdos:name
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/catalog/immport
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Efficacy and Safety Evaluation of Allergen Immunotherapy
+                          Co-Administered with Omalizumab (an anti-IgE Monoclonal
+                          Antibody) (ITN019AD)
+                      predicate:
+                        tag: predicate
+                        value: sdos:name
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/dataset/immport/sdy1
+              sdos:DefinedTerm:
+                tag: sdos:DefinedTerm
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Streptococcus pneumonia
+                      predicate:
+                        tag: predicate
+                        value: sdos:name
+                      subject:
+                        tag: subject
+                        value: obo:DOID_0040084
+              sdos:MonetaryGrant:
+                tag: sdos:MonetaryGrant
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Unraveling the bat humoral immune response against
+                          zoonotic viruses to guide the design of next-generation
+                          therapeutics
+                      predicate:
+                        tag: predicate
+                        value: sdos:name
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/grant/1DP1AI158186-01
+              sdos:Organization:
+                tag: sdos:Organization
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: "2nd Floor, Borough Wing, Guy\u2019s Hospital, London\
+                          \ SE1 9RT, UK."
+                      predicate:
+                        tag: predicate
+                        value: sdos:name
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/organization/2nd_floor_borough_wing_guy_s_hospital_london_se1_9rt_uk
+              sdos:Person:
+                tag: sdos:Person
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 16th Street Community Health Ctr
+                      predicate:
+                        tag: predicate
+                        value: sdos:name
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/person/16th_street_community_health_ctr
+          sdos:parentOrganization:
+            tag: sdos:parentOrganization
+            value:
+              sdos:Organization:
+                tag: sdos:Organization
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: National Institutes of Health
+                      predicate:
+                        tag: predicate
+                        value: sdos:parentOrganization
+                      subject:
+                        tag: subject
+                        value: https://ror.org/00372qc85
+          sdos:sameAs:
+            tag: sdos:sameAs
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 10.21430/M38Y09R3R9
+                      predicate:
+                        tag: predicate
+                        value: sdos:sameAs
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/dataset/immport/sdy1
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: https://doi.org/10.21430/M38Y09R3R9
+                      predicate:
+                        tag: predicate
+                        value: sdos:sameAs
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/dataset/immport/sdy1
+          sdos:species:
+            tag: sdos:species
+            value:
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  sdos:DefinedTerm:
+                    tag: sdos:DefinedTerm
+                    value:
+                      object:
+                        tag: object
+                        value: https://www.uniprot.org/taxonomy/9606
+                      predicate:
+                        tag: predicate
+                        value: sdos:species
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/dataset/immport/sdy1
+          sdos:startDate:
+            tag: sdos:startDate
+            value:
+              sdos:MonetaryGrant:
+                tag: sdos:MonetaryGrant
+                value:
+                  date:
+                    tag: date
+                    value:
+                      object:
+                        tag: object
+                        value: '2020-09-30'
+                      predicate:
+                        tag: predicate
+                        value: sdos:startDate
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/grant/1DP1AI158186-01
+          sdos:url:
+            tag: sdos:url
+            value:
+              sdos:DataCatalog:
+                tag: sdos:DataCatalog
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: https://immport.org
+                      predicate:
+                        tag: predicate
+                        value: sdos:url
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/catalog/immport
+              sdos:Dataset:
+                tag: sdos:Dataset
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: https://immport.org/shared/study/SDY1
+                      predicate:
+                        tag: predicate
+                        value: sdos:url
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/dataset/immport/sdy1
+              sdos:MonetaryGrant:
+                tag: sdos:MonetaryGrant
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: https://reporter.nih.gov/project-details/10008571
+                      predicate:
+                        tag: predicate
+                        value: sdos:url
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/grant/1DP1AI158186-01
+              sdos:Person:
+                tag: sdos:Person
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: https://midasnetwork.us/
+                      predicate:
+                        tag: predicate
+                        value: sdos:url
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/person/midas_coordination_center
+          sdos:versionDate:
+            tag: sdos:versionDate
+            value:
+              sdos:DataCatalog:
+                tag: sdos:DataCatalog
+                value:
+                  date:
+                    tag: date
+                    value:
+                      object:
+                        tag: object
+                        value: '2025-10-11'
+                      predicate:
+                        tag: predicate
+                        value: sdos:versionDate
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/catalog/immunespace
+                  datetime:
+                    tag: datetime
+                    value:
+                      object:
+                        tag: object
+                        value: '2010-11-14T00:00:00'
+                      predicate:
+                        tag: predicate
+                        value: sdos:versionDate
+                      subject:
+                        tag: subject
+                        value: https://okn.wobd.org/catalog/immport
+classes: {}
+created_on: '2025-12-08T17:39:06.379730'
+default_prefix: okns
+id: okns:nde
+imports:
+- okns:owl-rdf-rdfs
+- linkml:types
+- okns:sdo
+- okns:extended_types
+last_updated_on: '2025-12-08T17:39:06.379730'
+name: nde
+prefixes:
+  linkml: https://w3id.org/linkml/
+  obo: http://purl.obolibrary.org/obo/
+  okn: https://purl.org/okn/
+  okns: https://purl.org/okn/schema/
+  owl: http://www.w3.org/2002/07/owl#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  sdos: https://schema.org/
+  xsd: http://www.w3.org/2001/XMLSchema#
+slots:
+  sdos_date:
+    range: date
+    slot_uri: sdos:date
+  sdos_species:
+    range: sdos_DefinedTerm
+    slot_uri: sdos:species
+  sdos_versionDate:
+    any_of:
+    - range: date
+    - range: datetime
+    range: Any
+    slot_uri: sdos:versionDate
+title: nde
