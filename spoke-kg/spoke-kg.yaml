@@ -4326,118 +4326,118 @@ classes:
     class_uri: https://purl.org/okn/frink/kg/spoke/schema/SDoH
     name: https___purl.org_okn_frink_kg_spoke_schema_SDoH
     slots:
-    - https___purl.org_okn_frink_kg_spoke_schema_topic
     - dct_source
-    - rdfs_comment
-    - https___purl.org_okn_frink_kg_spoke_schema_domain
-    - https___purl.org_okn_frink_kg_spoke_schema_ASSOCIATES_SaD
     - rdfs_label
     - https___purl.org_okn_frink_kg_spoke_schema_data_source
     - https___purl.org_okn_frink_kg_spoke_schema_mesh_ids
     - https___purl.org_okn_frink_kg_spoke_schema_PREVALENCEIN_SpL
     - https___purl.org_okn_frink_kg_spoke_schema_ISA_SiS
+    - https___purl.org_okn_frink_kg_spoke_schema_ASSOCIATES_SaD
+    - https___purl.org_okn_frink_kg_spoke_schema_domain
+    - rdfs_comment
+    - https___purl.org_okn_frink_kg_spoke_schema_topic
   https___w3id.org_biolink_vocab_ChemicalEntity:
     class_uri: https://w3id.org/biolink/vocab/ChemicalEntity
     name: https___w3id.org_biolink_vocab_ChemicalEntity
     slots:
-    - https___purl.org_okn_frink_kg_spoke_schema_PARTOF_CpC
-    - https___purl.org_okn_frink_kg_spoke_schema_standardized_smiles
-    - https___purl.org_okn_frink_kg_spoke_schema_ISA_CiC
-    - https___purl.org_okn_frink_kg_spoke_schema_FOUNDIN_CfL
-    - https___purl.org_okn_frink_kg_spoke_schema_DOWNREGULATES_CdG
     - dct_source
-    - https___purl.org_okn_frink_kg_spoke_schema_INTERACTS_CiC
-    - https___purl.org_okn_frink_kg_spoke_schema_smiles
-    - http___www.geneontology.org_formats_oboInOwl#hasDbXref
+    - rdfs_label
+    - https___purl.org_okn_frink_kg_spoke_schema_FOUNDIN_CfL
     - https___purl.org_okn_frink_kg_spoke_schema_max_phase
     - https___purl.org_okn_frink_kg_spoke_schema_TREATS_CtD
+    - https___purl.org_okn_frink_kg_spoke_schema_smiles
+    - https___purl.org_okn_frink_kg_spoke_schema_DOWNREGULATES_CdG
+    - https___purl.org_okn_frink_kg_spoke_schema_UPREGULATES_CuG
+    - https___purl.org_okn_frink_kg_spoke_schema_ISA_CiC
+    - http___www.geneontology.org_formats_oboInOwl#hasDbXref
+    - https___purl.org_okn_frink_kg_spoke_schema_standardized_smiles
+    - https___purl.org_okn_frink_kg_spoke_schema_INTERACTS_CiC
+    - https___purl.org_okn_frink_kg_spoke_schema_CONTRAINDICATES_CcD
     - https___purl.org_okn_frink_kg_spoke_schema_synonyms
     - https___purl.org_okn_frink_kg_spoke_schema_HASROLE_ChC
-    - rdfs_label
-    - https___purl.org_okn_frink_kg_spoke_schema_UPREGULATES_CuG
-    - https___purl.org_okn_frink_kg_spoke_schema_CONTRAINDICATES_CcD
+    - https___purl.org_okn_frink_kg_spoke_schema_PARTOF_CpC
   https___w3id.org_biolink_vocab_Disease:
     class_uri: https://w3id.org/biolink/vocab/Disease
     name: https___w3id.org_biolink_vocab_Disease
     slots:
-    - https___purl.org_okn_frink_kg_spoke_schema_PREVALENCE_DpL
-    - https___purl.org_okn_frink_kg_spoke_schema_MORTALITY_DmL
     - dct_source
-    - https___purl.org_okn_frink_kg_spoke_schema_mesh_list
-    - https___purl.org_okn_frink_kg_spoke_schema_RESEMBLES_DrD
-    - https___purl.org_okn_frink_kg_spoke_schema_ASSOCIATES_DaG
     - rdfs_label
-    - rdfs_seeAlso
+    - https___purl.org_okn_frink_kg_spoke_schema_RESEMBLES_DrD
     - https___purl.org_okn_frink_kg_spoke_schema_ISA_DiD
+    - https___purl.org_okn_frink_kg_spoke_schema_ASSOCIATES_DaG
     - https___purl.org_okn_frink_kg_spoke_schema_omim_list
+    - https___purl.org_okn_frink_kg_spoke_schema_MORTALITY_DmL
+    - https___purl.org_okn_frink_kg_spoke_schema_PREVALENCE_DpL
+    - https___purl.org_okn_frink_kg_spoke_schema_mesh_list
+    - rdfs_seeAlso
   https___w3id.org_biolink_vocab_EnvironmentalFeature:
     class_uri: https://w3id.org/biolink/vocab/EnvironmentalFeature
     name: https___w3id.org_biolink_vocab_EnvironmentalFeature
     slots:
     - dct_source
-    - https___purl.org_okn_frink_kg_spoke_schema_synonyms
     - rdfs_label
-    - https___purl.org_okn_frink_kg_spoke_schema_ISA_EiE
     - https___purl.org_okn_frink_kg_spoke_schema_FOUNDIN_EfL
+    - https___purl.org_okn_frink_kg_spoke_schema_synonyms
+    - https___purl.org_okn_frink_kg_spoke_schema_ISA_EiE
   https___w3id.org_biolink_vocab_Gene:
     class_uri: https://w3id.org/biolink/vocab/Gene
     name: https___w3id.org_biolink_vocab_Gene
     slots:
-    - https___purl.org_okn_frink_kg_spoke_schema_RESISTANT_TO_mGrC
-    - https___purl.org_okn_frink_kg_spoke_schema_MARKER_POS_GmpD
-    - https___purl.org_okn_frink_kg_spoke_schema_RESPONSE_TO_mGrC
-    - rdfs_comment
     - rdfs_label
-    - https___purl.org_okn_frink_kg_spoke_schema_EXPRESSEDIN_GeiD
     - https___purl.org_okn_frink_kg_spoke_schema_ensembl
-    - https___purl.org_okn_frink_kg_spoke_schema_MARKER_NEG_GmnD
     - https___purl.org_okn_frink_kg_spoke_schema_ADVRESPONSE_TO_mGarC
+    - https___purl.org_okn_frink_kg_spoke_schema_RESPONSE_TO_mGrC
+    - https___purl.org_okn_frink_kg_spoke_schema_EXPRESSEDIN_GeiD
+    - https___purl.org_okn_frink_kg_spoke_schema_RESISTANT_TO_mGrC
+    - rdfs_comment
+    - https___purl.org_okn_frink_kg_spoke_schema_MARKER_NEG_GmnD
+    - https___purl.org_okn_frink_kg_spoke_schema_MARKER_POS_GmpD
   https___w3id.org_biolink_vocab_OrganismTaxon:
     class_uri: https://w3id.org/biolink/vocab/OrganismTaxon
     name: https___w3id.org_biolink_vocab_OrganismTaxon
     slots:
-    - https___purl.org_okn_frink_kg_spoke_schema_antimicrobial_resistance
-    - https___purl.org_okn_frink_kg_spoke_schema_host_is_human
-    - https___purl.org_okn_frink_kg_spoke_schema_isolation_country
-    - https___purl.org_okn_frink_kg_spoke_schema_isolation_source
-    - https___purl.org_okn_frink_kg_spoke_schema_oxygen_requirement
     - rdfs_label
-    - https___purl.org_okn_frink_kg_spoke_schema_collection_date
-    - https___purl.org_okn_frink_kg_spoke_schema_host_health
-    - https___purl.org_okn_frink_kg_spoke_schema_host_gender
-    - https___purl.org_okn_frink_kg_spoke_schema_salinity
-    - https___purl.org_okn_frink_kg_spoke_schema_serovar
-    - https___purl.org_okn_frink_kg_spoke_schema_disease
-    - dct_source
-    - https___purl.org_okn_frink_kg_spoke_schema_genome_size
-    - https___purl.org_okn_frink_kg_spoke_schema_motility
-    - https___purl.org_okn_frink_kg_spoke_schema_sporulation
-    - https___purl.org_okn_frink_kg_spoke_schema_biovar
-    - https___purl.org_okn_frink_kg_spoke_schema_gram_stain
-    - https___purl.org_okn_frink_kg_spoke_schema_usa_isolation_country
-    - https___purl.org_okn_frink_kg_spoke_schema_has_amr_phenotype
+    - https___purl.org_okn_frink_kg_spoke_schema_isolation_source
     - https___purl.org_okn_frink_kg_spoke_schema_temperature_range
-    - https___purl.org_okn_frink_kg_spoke_schema_is_resistant
-    - https___purl.org_okn_frink_kg_spoke_schema_host_age
+    - https___purl.org_okn_frink_kg_spoke_schema_host_health
     - https___purl.org_okn_frink_kg_spoke_schema_RESPONDS_TO_OrC
+    - https___purl.org_okn_frink_kg_spoke_schema_usa_isolation_country
+    - https___purl.org_okn_frink_kg_spoke_schema_gram_stain
     - https___purl.org_okn_frink_kg_spoke_schema_host_name
-    - https___purl.org_okn_frink_kg_spoke_schema_level
-    - https___purl.org_okn_frink_kg_spoke_schema_strain
-    - https___purl.org_okn_frink_kg_spoke_schema_pathovar
+    - https___purl.org_okn_frink_kg_spoke_schema_motility
     - https___purl.org_okn_frink_kg_spoke_schema_genbank_accessions
+    - https___purl.org_okn_frink_kg_spoke_schema_is_resistant
+    - https___purl.org_okn_frink_kg_spoke_schema_isolation_country
+    - https___purl.org_okn_frink_kg_spoke_schema_host_age
+    - dct_source
+    - https___purl.org_okn_frink_kg_spoke_schema_host_is_human
+    - https___purl.org_okn_frink_kg_spoke_schema_collection_date
+    - https___purl.org_okn_frink_kg_spoke_schema_serovar
+    - https___purl.org_okn_frink_kg_spoke_schema_sporulation
+    - https___purl.org_okn_frink_kg_spoke_schema_salinity
+    - https___purl.org_okn_frink_kg_spoke_schema_biovar
+    - https___purl.org_okn_frink_kg_spoke_schema_has_amr_phenotype
+    - https___purl.org_okn_frink_kg_spoke_schema_oxygen_requirement
+    - https___purl.org_okn_frink_kg_spoke_schema_disease
     - https___purl.org_okn_frink_kg_spoke_schema_ISOLATEDIN_OiL
-created_on: '2025-11-10T17:22:38.014142'
+    - https___purl.org_okn_frink_kg_spoke_schema_level
+    - https___purl.org_okn_frink_kg_spoke_schema_antimicrobial_resistance
+    - https___purl.org_okn_frink_kg_spoke_schema_pathovar
+    - https___purl.org_okn_frink_kg_spoke_schema_genome_size
+    - https___purl.org_okn_frink_kg_spoke_schema_strain
+    - https___purl.org_okn_frink_kg_spoke_schema_host_gender
+created_on: '2025-11-22T00:17:07.048581'
 default_prefix: okns
 id: okns:spoke-kg
 imports:
-- okns:dc
-- okns:extended_types
-- linkml:types
-- okns:geo
-- okns:time
 - okns:sdo
 - okns:owl-rdf-rdfs
-last_updated_on: '2025-11-10T17:22:38.014142'
+- okns:extended_types
+- okns:dc
+- okns:geo
+- okns:time
+- linkml:types
+last_updated_on: '2025-11-22T00:17:07.048581'
 name: spoke-kg
 prefixes:
   dct: http://purl.org/dc/terms/

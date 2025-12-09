@@ -8,238 +8,6 @@
 
 ```mermaid
 erDiagram
-OwlAllDifferent {
-
-}
-OwlAllDisjointClasses {
-
-}
-OwlAllDisjointProperties {
-
-}
-OwlAnnotation {
-
-}
-OwlAnnotationProperty {
-
-}
-OwlAsymmetricProperty {
-
-}
-OwlAxiom {
-
-}
-OwlClass {
-
-}
-OwlDataRange {
-    uri rdfs_seeAlso  
-    string rdfs_label  
-    string rdfs_comment  
-}
-OwlDatatypeProperty {
-
-}
-OwlDeprecatedClass {
-
-}
-OwlDeprecatedProperty {
-
-}
-OwlFunctionalProperty {
-
-}
-OwlInverseFunctionalProperty {
-
-}
-OwlIrreflexiveProperty {
-
-}
-OwlNamedIndividual {
-
-}
-OwlNegativePropertyAssertion {
-
-}
-OwlNothing {
-
-}
-OwlObjectProperty {
-
-}
-OwlOntology {
-
-}
-OwlOntologyProperty {
-
-}
-OwlReflexiveProperty {
-
-}
-OwlRestriction {
-
-}
-OwlSymmetricProperty {
-
-}
-OwlThing {
-
-}
-OwlTransitiveProperty {
-
-}
-RdfAlt {
-
-}
-RdfBag {
-
-}
-RdfCompoundLiteral {
-
-}
-RdfList {
-    string rdfs_label  
-    string rdfs_comment  
-}
-RdfProperty {
-
-}
-RdfSeq {
-
-}
-RdfStatement {
-
-}
-RdfsClass {
-
-}
-RdfsContainer {
-
-}
-RdfsContainerMembershipProperty {
-
-}
-RdfsDatatype {
-    uri rdfs_seeAlso  
-    string rdfs_label  
-    string rdfs_comment  
-}
-RdfsLiteral {
-
-}
-RdfsResource {
-
-}
-DcamVocabularyEncodingScheme {
-    date dct_issued  
-    string rdfs_label  
-    string rdfs_comment  
-    uri rdfs_seeAlso  
-}
-DcmitypeCollection {
-
-}
-DcmitypeDataset {
-
-}
-DcmitypeEvent {
-
-}
-DcmitypeImage {
-
-}
-DcmitypeInteractiveResource {
-
-}
-DcmitypeMovingImage {
-
-}
-DcmitypePhysicalObject {
-
-}
-DcmitypeService {
-
-}
-DcmitypeSoftware {
-
-}
-DcmitypeSound {
-
-}
-DcmitypeStillImage {
-
-}
-DcmitypeText {
-
-}
-DctAgent {
-
-}
-DctAgentClass {
-    string rdfs_label  
-    string rdfs_comment  
-    date dct_issued  
-}
-DctBibliographicResource {
-
-}
-DctFileFormat {
-
-}
-DctFrequency {
-
-}
-DctJurisdiction {
-
-}
-DctLicenseDocument {
-
-}
-DctLinguisticSystem {
-
-}
-DctLocation {
-
-}
-DctLocationPeriodOrJurisdiction {
-
-}
-DctMediaType {
-
-}
-DctMediaTypeOrExtent {
-
-}
-DctMethodOfAccrual {
-
-}
-DctMethodOfInstruction {
-
-}
-DctPeriodOfTime {
-
-}
-DctPhysicalMedium {
-
-}
-DctPhysicalResource {
-
-}
-DctPolicy {
-
-}
-DctProvenanceStatement {
-
-}
-DctRightsStatement {
-
-}
-DctSizeOrDuration {
-
-}
-DctStandard {
-
-}
 Sdos3DModel {
 
 }
@@ -3191,6 +2959,238 @@ SdosXPathType {
 SdosZoo {
 
 }
+OwlAllDifferent {
+
+}
+OwlAllDisjointClasses {
+
+}
+OwlAllDisjointProperties {
+
+}
+OwlAnnotation {
+
+}
+OwlAnnotationProperty {
+
+}
+OwlAsymmetricProperty {
+
+}
+OwlAxiom {
+
+}
+OwlClass {
+
+}
+OwlDataRange {
+    uri rdfs_seeAlso  
+    string rdfs_label  
+    string rdfs_comment  
+}
+OwlDatatypeProperty {
+
+}
+OwlDeprecatedClass {
+
+}
+OwlDeprecatedProperty {
+
+}
+OwlFunctionalProperty {
+
+}
+OwlInverseFunctionalProperty {
+
+}
+OwlIrreflexiveProperty {
+
+}
+OwlNamedIndividual {
+
+}
+OwlNegativePropertyAssertion {
+
+}
+OwlNothing {
+
+}
+OwlObjectProperty {
+
+}
+OwlOntology {
+
+}
+OwlOntologyProperty {
+
+}
+OwlReflexiveProperty {
+
+}
+OwlRestriction {
+
+}
+OwlSymmetricProperty {
+
+}
+OwlThing {
+
+}
+OwlTransitiveProperty {
+
+}
+RdfAlt {
+
+}
+RdfBag {
+
+}
+RdfCompoundLiteral {
+
+}
+RdfList {
+    string rdfs_label  
+    string rdfs_comment  
+}
+RdfProperty {
+
+}
+RdfSeq {
+
+}
+RdfStatement {
+
+}
+RdfsClass {
+
+}
+RdfsContainer {
+
+}
+RdfsContainerMembershipProperty {
+
+}
+RdfsDatatype {
+    uri rdfs_seeAlso  
+    string rdfs_label  
+    string rdfs_comment  
+}
+RdfsLiteral {
+
+}
+RdfsResource {
+
+}
+DcamVocabularyEncodingScheme {
+    date dct_issued  
+    string rdfs_label  
+    string rdfs_comment  
+    uri rdfs_seeAlso  
+}
+DcmitypeCollection {
+
+}
+DcmitypeDataset {
+
+}
+DcmitypeEvent {
+
+}
+DcmitypeImage {
+
+}
+DcmitypeInteractiveResource {
+
+}
+DcmitypeMovingImage {
+
+}
+DcmitypePhysicalObject {
+
+}
+DcmitypeService {
+
+}
+DcmitypeSoftware {
+
+}
+DcmitypeSound {
+
+}
+DcmitypeStillImage {
+
+}
+DcmitypeText {
+
+}
+DctAgent {
+
+}
+DctAgentClass {
+    string rdfs_label  
+    string rdfs_comment  
+    date dct_issued  
+}
+DctBibliographicResource {
+
+}
+DctFileFormat {
+
+}
+DctFrequency {
+
+}
+DctJurisdiction {
+
+}
+DctLicenseDocument {
+
+}
+DctLinguisticSystem {
+
+}
+DctLocation {
+
+}
+DctLocationPeriodOrJurisdiction {
+
+}
+DctMediaType {
+
+}
+DctMediaTypeOrExtent {
+
+}
+DctMethodOfAccrual {
+
+}
+DctMethodOfInstruction {
+
+}
+DctPeriodOfTime {
+
+}
+DctPhysicalMedium {
+
+}
+DctPhysicalResource {
+
+}
+DctPolicy {
+
+}
+DctProvenanceStatement {
+
+}
+DctRightsStatement {
+
+}
+DctSizeOrDuration {
+
+}
+DctStandard {
+
+}
 SkosCollection {
 
 }
@@ -3301,93 +3301,66 @@ XsdGYearMonth {
 
 }
 HttpsPurl.orgOknFrinkKgSpokeSchemaSDoH {
-    string https___purl.org_okn_frink_kg_spoke_schema_topic  
-    string rdfs_comment  
-    string https___purl.org_okn_frink_kg_spoke_schema_domain  
     string rdfs_label  
     string https___purl.org_okn_frink_kg_spoke_schema_data_source  
     uri https___purl.org_okn_frink_kg_spoke_schema_mesh_ids  
+    string https___purl.org_okn_frink_kg_spoke_schema_domain  
+    string rdfs_comment  
+    string https___purl.org_okn_frink_kg_spoke_schema_topic  
 }
 HttpsW3id.orgBiolinkVocabChemicalEntity {
-    string https___purl.org_okn_frink_kg_spoke_schema_standardized_smiles  
+    string rdfs_label  
+    double https___purl.org_okn_frink_kg_spoke_schema_max_phase  
     string https___purl.org_okn_frink_kg_spoke_schema_smiles  
     uri http___www.geneontology.org_formats_oboInOwl#hasDbXref  
-    double https___purl.org_okn_frink_kg_spoke_schema_max_phase  
+    string https___purl.org_okn_frink_kg_spoke_schema_standardized_smiles  
     string https___purl.org_okn_frink_kg_spoke_schema_synonyms  
-    string rdfs_label  
 }
 HttpsW3id.orgBiolinkVocabDisease {
-    uri https___purl.org_okn_frink_kg_spoke_schema_mesh_list  
     string rdfs_label  
-    uri rdfs_seeAlso  
     uri https___purl.org_okn_frink_kg_spoke_schema_omim_list  
+    uri https___purl.org_okn_frink_kg_spoke_schema_mesh_list  
+    uri rdfs_seeAlso  
 }
 HttpsW3id.orgBiolinkVocabEnvironmentalFeature {
-    string https___purl.org_okn_frink_kg_spoke_schema_synonyms  
     string rdfs_label  
+    string https___purl.org_okn_frink_kg_spoke_schema_synonyms  
 }
 HttpsW3id.orgBiolinkVocabGene {
-    string rdfs_comment  
     string rdfs_label  
     uri https___purl.org_okn_frink_kg_spoke_schema_ensembl  
+    string rdfs_comment  
 }
 HttpsW3id.orgBiolinkVocabOrganismTaxon {
-    string https___purl.org_okn_frink_kg_spoke_schema_antimicrobial_resistance  
-    string https___purl.org_okn_frink_kg_spoke_schema_host_is_human  
-    string https___purl.org_okn_frink_kg_spoke_schema_isolation_country  
-    string https___purl.org_okn_frink_kg_spoke_schema_isolation_source  
-    string https___purl.org_okn_frink_kg_spoke_schema_oxygen_requirement  
     string rdfs_label  
-    date https___purl.org_okn_frink_kg_spoke_schema_collection_date  
-    string https___purl.org_okn_frink_kg_spoke_schema_host_health  
-    string https___purl.org_okn_frink_kg_spoke_schema_host_gender  
-    string https___purl.org_okn_frink_kg_spoke_schema_salinity  
-    string https___purl.org_okn_frink_kg_spoke_schema_serovar  
-    string https___purl.org_okn_frink_kg_spoke_schema_disease  
-    double https___purl.org_okn_frink_kg_spoke_schema_genome_size  
-    string https___purl.org_okn_frink_kg_spoke_schema_motility  
-    string https___purl.org_okn_frink_kg_spoke_schema_sporulation  
-    string https___purl.org_okn_frink_kg_spoke_schema_biovar  
-    string https___purl.org_okn_frink_kg_spoke_schema_gram_stain  
-    string https___purl.org_okn_frink_kg_spoke_schema_usa_isolation_country  
-    string https___purl.org_okn_frink_kg_spoke_schema_has_amr_phenotype  
+    string https___purl.org_okn_frink_kg_spoke_schema_isolation_source  
     string https___purl.org_okn_frink_kg_spoke_schema_temperature_range  
-    string https___purl.org_okn_frink_kg_spoke_schema_is_resistant  
-    string https___purl.org_okn_frink_kg_spoke_schema_host_age  
+    string https___purl.org_okn_frink_kg_spoke_schema_host_health  
+    string https___purl.org_okn_frink_kg_spoke_schema_usa_isolation_country  
+    string https___purl.org_okn_frink_kg_spoke_schema_gram_stain  
     string https___purl.org_okn_frink_kg_spoke_schema_host_name  
-    string https___purl.org_okn_frink_kg_spoke_schema_level  
-    string https___purl.org_okn_frink_kg_spoke_schema_strain  
-    string https___purl.org_okn_frink_kg_spoke_schema_pathovar  
+    string https___purl.org_okn_frink_kg_spoke_schema_motility  
     uri https___purl.org_okn_frink_kg_spoke_schema_genbank_accessions  
+    string https___purl.org_okn_frink_kg_spoke_schema_is_resistant  
+    string https___purl.org_okn_frink_kg_spoke_schema_isolation_country  
+    string https___purl.org_okn_frink_kg_spoke_schema_host_age  
+    string https___purl.org_okn_frink_kg_spoke_schema_host_is_human  
+    date https___purl.org_okn_frink_kg_spoke_schema_collection_date  
+    string https___purl.org_okn_frink_kg_spoke_schema_serovar  
+    string https___purl.org_okn_frink_kg_spoke_schema_sporulation  
+    string https___purl.org_okn_frink_kg_spoke_schema_salinity  
+    string https___purl.org_okn_frink_kg_spoke_schema_biovar  
+    string https___purl.org_okn_frink_kg_spoke_schema_has_amr_phenotype  
+    string https___purl.org_okn_frink_kg_spoke_schema_oxygen_requirement  
+    string https___purl.org_okn_frink_kg_spoke_schema_disease  
+    string https___purl.org_okn_frink_kg_spoke_schema_level  
+    string https___purl.org_okn_frink_kg_spoke_schema_antimicrobial_resistance  
+    string https___purl.org_okn_frink_kg_spoke_schema_pathovar  
+    double https___purl.org_okn_frink_kg_spoke_schema_genome_size  
+    string https___purl.org_okn_frink_kg_spoke_schema_strain  
+    string https___purl.org_okn_frink_kg_spoke_schema_host_gender  
 }
 
-OwlDataRange ||--|o OwlOntology : "rdfs_isDefinedBy"
-OwlDataRange ||--|o RdfsResource : "rdfs_isDefinedBy"
-OwlDataRange ||--|o RdfsClass : "rdfs_subClassOf"
-OwlDataRange ||--|o RdfsResource : "rdfs_seeAlso"
-OwlDataRange ||--|o RdfsLiteral : "rdfs_label"
-OwlDataRange ||--|o RdfsLiteral : "rdfs_comment"
-RdfList ||--|o RdfsLiteral : "rdfs_label"
-RdfList ||--|o RdfsLiteral : "rdfs_comment"
-RdfList ||--|o OwlOntology : "rdfs_isDefinedBy"
-RdfList ||--|o RdfsResource : "rdfs_isDefinedBy"
-RdfsDatatype ||--|o OwlOntology : "rdfs_isDefinedBy"
-RdfsDatatype ||--|o RdfsResource : "rdfs_isDefinedBy"
-RdfsDatatype ||--|o RdfsClass : "rdfs_subClassOf"
-RdfsDatatype ||--|o RdfsResource : "rdfs_seeAlso"
-RdfsDatatype ||--|o RdfsLiteral : "rdfs_label"
-RdfsDatatype ||--|o RdfsLiteral : "rdfs_comment"
-DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "dct_issued"
-DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "rdfs_label"
-DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "rdfs_comment"
-DcamVocabularyEncodingScheme ||--|o RdfsResource : "rdfs_seeAlso"
-DcamVocabularyEncodingScheme ||--|o OwlOntology : "rdfs_isDefinedBy"
-DcamVocabularyEncodingScheme ||--|o RdfsResource : "rdfs_isDefinedBy"
-DctAgentClass ||--|o RdfsLiteral : "rdfs_label"
-DctAgentClass ||--|o RdfsLiteral : "rdfs_comment"
-DctAgentClass ||--|o RdfsLiteral : "dct_issued"
-DctAgentClass ||--|o OwlOntology : "rdfs_isDefinedBy"
-DctAgentClass ||--|o RdfsResource : "rdfs_isDefinedBy"
 SdosActionStatusType ||--|o RdfsLiteral : "rdfs_comment"
 SdosActionStatusType ||--|o RdfsLiteral : "rdfs_label"
 SdosAdultOrientedEnumeration ||--|o RdfsLiteral : "rdfs_comment"
@@ -3690,41 +3663,68 @@ SdosWearableSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_comment"
 SdosWearableSizeSystemEnumeration ||--|o RdfsLiteral : "rdfs_label"
 SdosWearableSizeSystemEnumeration ||--|o SdosURL : "sdos_isPartOf"
 SdosWearableSizeSystemEnumeration ||--|o SdosCreativeWork : "sdos_isPartOf"
+OwlDataRange ||--|o OwlOntology : "rdfs_isDefinedBy"
+OwlDataRange ||--|o RdfsResource : "rdfs_isDefinedBy"
+OwlDataRange ||--|o RdfsClass : "rdfs_subClassOf"
+OwlDataRange ||--|o RdfsResource : "rdfs_seeAlso"
+OwlDataRange ||--|o RdfsLiteral : "rdfs_label"
+OwlDataRange ||--|o RdfsLiteral : "rdfs_comment"
+RdfList ||--|o RdfsLiteral : "rdfs_label"
+RdfList ||--|o RdfsLiteral : "rdfs_comment"
+RdfList ||--|o OwlOntology : "rdfs_isDefinedBy"
+RdfList ||--|o RdfsResource : "rdfs_isDefinedBy"
+RdfsDatatype ||--|o OwlOntology : "rdfs_isDefinedBy"
+RdfsDatatype ||--|o RdfsResource : "rdfs_isDefinedBy"
+RdfsDatatype ||--|o RdfsClass : "rdfs_subClassOf"
+RdfsDatatype ||--|o RdfsResource : "rdfs_seeAlso"
+RdfsDatatype ||--|o RdfsLiteral : "rdfs_label"
+RdfsDatatype ||--|o RdfsLiteral : "rdfs_comment"
+DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "dct_issued"
+DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "rdfs_label"
+DcamVocabularyEncodingScheme ||--|o RdfsLiteral : "rdfs_comment"
+DcamVocabularyEncodingScheme ||--|o RdfsResource : "rdfs_seeAlso"
+DcamVocabularyEncodingScheme ||--|o OwlOntology : "rdfs_isDefinedBy"
+DcamVocabularyEncodingScheme ||--|o RdfsResource : "rdfs_isDefinedBy"
+DctAgentClass ||--|o RdfsLiteral : "rdfs_label"
+DctAgentClass ||--|o RdfsLiteral : "rdfs_comment"
+DctAgentClass ||--|o RdfsLiteral : "dct_issued"
+DctAgentClass ||--|o OwlOntology : "rdfs_isDefinedBy"
+DctAgentClass ||--|o RdfsResource : "rdfs_isDefinedBy"
 TimeDayOfWeek ||--|o RdfsLiteral : "rdfs_label"
 TimeTemporalUnit ||--|o RdfsLiteral : "rdfs_label"
-HttpsPurl.orgOknFrinkKgSpokeSchemaSDoH ||--|o RdfsLiteral : "rdfs_comment"
-HttpsPurl.orgOknFrinkKgSpokeSchemaSDoH ||--|o HttpsW3id.orgBiolinkVocabDisease : "https___purl.org_okn_frink_kg_spoke_schema_ASSOCIATES_SaD"
 HttpsPurl.orgOknFrinkKgSpokeSchemaSDoH ||--|o RdfsLiteral : "rdfs_label"
 HttpsPurl.orgOknFrinkKgSpokeSchemaSDoH ||--|o SdosAdministrativeArea : "https___purl.org_okn_frink_kg_spoke_schema_PREVALENCEIN_SpL"
 HttpsPurl.orgOknFrinkKgSpokeSchemaSDoH ||--|o HttpsPurl.orgOknFrinkKgSpokeSchemaSDoH : "https___purl.org_okn_frink_kg_spoke_schema_ISA_SiS"
-HttpsW3id.orgBiolinkVocabChemicalEntity ||--|o HttpsW3id.orgBiolinkVocabChemicalEntity : "https___purl.org_okn_frink_kg_spoke_schema_PARTOF_CpC"
-HttpsW3id.orgBiolinkVocabChemicalEntity ||--|o HttpsW3id.orgBiolinkVocabChemicalEntity : "https___purl.org_okn_frink_kg_spoke_schema_ISA_CiC"
-HttpsW3id.orgBiolinkVocabChemicalEntity ||--|o SdosAdministrativeArea : "https___purl.org_okn_frink_kg_spoke_schema_FOUNDIN_CfL"
-HttpsW3id.orgBiolinkVocabChemicalEntity ||--|o HttpsW3id.orgBiolinkVocabGene : "https___purl.org_okn_frink_kg_spoke_schema_DOWNREGULATES_CdG"
-HttpsW3id.orgBiolinkVocabChemicalEntity ||--|o HttpsW3id.orgBiolinkVocabChemicalEntity : "https___purl.org_okn_frink_kg_spoke_schema_INTERACTS_CiC"
-HttpsW3id.orgBiolinkVocabChemicalEntity ||--|o HttpsW3id.orgBiolinkVocabDisease : "https___purl.org_okn_frink_kg_spoke_schema_TREATS_CtD"
-HttpsW3id.orgBiolinkVocabChemicalEntity ||--|o HttpsW3id.orgBiolinkVocabChemicalEntity : "https___purl.org_okn_frink_kg_spoke_schema_HASROLE_ChC"
+HttpsPurl.orgOknFrinkKgSpokeSchemaSDoH ||--|o HttpsW3id.orgBiolinkVocabDisease : "https___purl.org_okn_frink_kg_spoke_schema_ASSOCIATES_SaD"
+HttpsPurl.orgOknFrinkKgSpokeSchemaSDoH ||--|o RdfsLiteral : "rdfs_comment"
 HttpsW3id.orgBiolinkVocabChemicalEntity ||--|o RdfsLiteral : "rdfs_label"
+HttpsW3id.orgBiolinkVocabChemicalEntity ||--|o SdosAdministrativeArea : "https___purl.org_okn_frink_kg_spoke_schema_FOUNDIN_CfL"
+HttpsW3id.orgBiolinkVocabChemicalEntity ||--|o HttpsW3id.orgBiolinkVocabDisease : "https___purl.org_okn_frink_kg_spoke_schema_TREATS_CtD"
+HttpsW3id.orgBiolinkVocabChemicalEntity ||--|o HttpsW3id.orgBiolinkVocabGene : "https___purl.org_okn_frink_kg_spoke_schema_DOWNREGULATES_CdG"
 HttpsW3id.orgBiolinkVocabChemicalEntity ||--|o HttpsW3id.orgBiolinkVocabGene : "https___purl.org_okn_frink_kg_spoke_schema_UPREGULATES_CuG"
+HttpsW3id.orgBiolinkVocabChemicalEntity ||--|o HttpsW3id.orgBiolinkVocabChemicalEntity : "https___purl.org_okn_frink_kg_spoke_schema_ISA_CiC"
+HttpsW3id.orgBiolinkVocabChemicalEntity ||--|o HttpsW3id.orgBiolinkVocabChemicalEntity : "https___purl.org_okn_frink_kg_spoke_schema_INTERACTS_CiC"
 HttpsW3id.orgBiolinkVocabChemicalEntity ||--|o HttpsW3id.orgBiolinkVocabDisease : "https___purl.org_okn_frink_kg_spoke_schema_CONTRAINDICATES_CcD"
-HttpsW3id.orgBiolinkVocabDisease ||--|o SdosAdministrativeArea : "https___purl.org_okn_frink_kg_spoke_schema_PREVALENCE_DpL"
-HttpsW3id.orgBiolinkVocabDisease ||--|o SdosAdministrativeArea : "https___purl.org_okn_frink_kg_spoke_schema_MORTALITY_DmL"
-HttpsW3id.orgBiolinkVocabDisease ||--|o HttpsW3id.orgBiolinkVocabDisease : "https___purl.org_okn_frink_kg_spoke_schema_RESEMBLES_DrD"
-HttpsW3id.orgBiolinkVocabDisease ||--|o HttpsW3id.orgBiolinkVocabGene : "https___purl.org_okn_frink_kg_spoke_schema_ASSOCIATES_DaG"
+HttpsW3id.orgBiolinkVocabChemicalEntity ||--|o HttpsW3id.orgBiolinkVocabChemicalEntity : "https___purl.org_okn_frink_kg_spoke_schema_HASROLE_ChC"
+HttpsW3id.orgBiolinkVocabChemicalEntity ||--|o HttpsW3id.orgBiolinkVocabChemicalEntity : "https___purl.org_okn_frink_kg_spoke_schema_PARTOF_CpC"
 HttpsW3id.orgBiolinkVocabDisease ||--|o RdfsLiteral : "rdfs_label"
-HttpsW3id.orgBiolinkVocabDisease ||--|o RdfsResource : "rdfs_seeAlso"
+HttpsW3id.orgBiolinkVocabDisease ||--|o HttpsW3id.orgBiolinkVocabDisease : "https___purl.org_okn_frink_kg_spoke_schema_RESEMBLES_DrD"
 HttpsW3id.orgBiolinkVocabDisease ||--|o HttpsW3id.orgBiolinkVocabDisease : "https___purl.org_okn_frink_kg_spoke_schema_ISA_DiD"
+HttpsW3id.orgBiolinkVocabDisease ||--|o HttpsW3id.orgBiolinkVocabGene : "https___purl.org_okn_frink_kg_spoke_schema_ASSOCIATES_DaG"
+HttpsW3id.orgBiolinkVocabDisease ||--|o SdosAdministrativeArea : "https___purl.org_okn_frink_kg_spoke_schema_MORTALITY_DmL"
+HttpsW3id.orgBiolinkVocabDisease ||--|o SdosAdministrativeArea : "https___purl.org_okn_frink_kg_spoke_schema_PREVALENCE_DpL"
+HttpsW3id.orgBiolinkVocabDisease ||--|o RdfsResource : "rdfs_seeAlso"
 HttpsW3id.orgBiolinkVocabEnvironmentalFeature ||--|o RdfsLiteral : "rdfs_label"
-HttpsW3id.orgBiolinkVocabEnvironmentalFeature ||--|o HttpsW3id.orgBiolinkVocabEnvironmentalFeature : "https___purl.org_okn_frink_kg_spoke_schema_ISA_EiE"
 HttpsW3id.orgBiolinkVocabEnvironmentalFeature ||--|o SdosAdministrativeArea : "https___purl.org_okn_frink_kg_spoke_schema_FOUNDIN_EfL"
-HttpsW3id.orgBiolinkVocabGene ||--|o HttpsW3id.orgBiolinkVocabChemicalEntity : "https___purl.org_okn_frink_kg_spoke_schema_RESISTANT_TO_mGrC"
-HttpsW3id.orgBiolinkVocabGene ||--|o HttpsW3id.orgBiolinkVocabDisease : "https___purl.org_okn_frink_kg_spoke_schema_MARKER_POS_GmpD"
-HttpsW3id.orgBiolinkVocabGene ||--|o HttpsW3id.orgBiolinkVocabChemicalEntity : "https___purl.org_okn_frink_kg_spoke_schema_RESPONSE_TO_mGrC"
-HttpsW3id.orgBiolinkVocabGene ||--|o RdfsLiteral : "rdfs_comment"
+HttpsW3id.orgBiolinkVocabEnvironmentalFeature ||--|o HttpsW3id.orgBiolinkVocabEnvironmentalFeature : "https___purl.org_okn_frink_kg_spoke_schema_ISA_EiE"
 HttpsW3id.orgBiolinkVocabGene ||--|o RdfsLiteral : "rdfs_label"
-HttpsW3id.orgBiolinkVocabGene ||--|o HttpsW3id.orgBiolinkVocabDisease : "https___purl.org_okn_frink_kg_spoke_schema_EXPRESSEDIN_GeiD"
-HttpsW3id.orgBiolinkVocabGene ||--|o HttpsW3id.orgBiolinkVocabDisease : "https___purl.org_okn_frink_kg_spoke_schema_MARKER_NEG_GmnD"
 HttpsW3id.orgBiolinkVocabGene ||--|o HttpsW3id.orgBiolinkVocabChemicalEntity : "https___purl.org_okn_frink_kg_spoke_schema_ADVRESPONSE_TO_mGarC"
+HttpsW3id.orgBiolinkVocabGene ||--|o HttpsW3id.orgBiolinkVocabChemicalEntity : "https___purl.org_okn_frink_kg_spoke_schema_RESPONSE_TO_mGrC"
+HttpsW3id.orgBiolinkVocabGene ||--|o HttpsW3id.orgBiolinkVocabDisease : "https___purl.org_okn_frink_kg_spoke_schema_EXPRESSEDIN_GeiD"
+HttpsW3id.orgBiolinkVocabGene ||--|o HttpsW3id.orgBiolinkVocabChemicalEntity : "https___purl.org_okn_frink_kg_spoke_schema_RESISTANT_TO_mGrC"
+HttpsW3id.orgBiolinkVocabGene ||--|o RdfsLiteral : "rdfs_comment"
+HttpsW3id.orgBiolinkVocabGene ||--|o HttpsW3id.orgBiolinkVocabDisease : "https___purl.org_okn_frink_kg_spoke_schema_MARKER_NEG_GmnD"
+HttpsW3id.orgBiolinkVocabGene ||--|o HttpsW3id.orgBiolinkVocabDisease : "https___purl.org_okn_frink_kg_spoke_schema_MARKER_POS_GmpD"
 HttpsW3id.orgBiolinkVocabOrganismTaxon ||--|o RdfsLiteral : "rdfs_label"
 HttpsW3id.orgBiolinkVocabOrganismTaxon ||--|o HttpsW3id.orgBiolinkVocabChemicalEntity : "https___purl.org_okn_frink_kg_spoke_schema_RESPONDS_TO_OrC"
 HttpsW3id.orgBiolinkVocabOrganismTaxon ||--|o SdosAdministrativeArea : "https___purl.org_okn_frink_kg_spoke_schema_ISOLATEDIN_OiL"
@@ -3736,13 +3736,13 @@ HttpsW3id.orgBiolinkVocabOrganismTaxon ||--|o SdosAdministrativeArea : "https___
 ## Imports
 
 
-* okns:dc
-* okns:extended_types
-* linkml:types
-* okns:geo
-* okns:time
 * okns:sdo
 * okns:owl-rdf-rdfs
+* okns:extended_types
+* okns:dc
+* okns:geo
+* okns:time
+* linkml:types
 
 
 
@@ -3906,3 +3906,5 @@ HttpsW3id.orgBiolinkVocabOrganismTaxon ||--|o SdosAdministrativeArea : "https___
 * sdos: https://schema.org/
 * wd: http://www.wikidata.org/entity/
 * xsd: http://www.w3.org/2001/XMLSchema#
+* shex: http://www.w3.org/ns/shex#
+* schema: http://schema.org/
