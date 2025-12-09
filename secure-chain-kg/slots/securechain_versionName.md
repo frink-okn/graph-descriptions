@@ -5,7 +5,7 @@
 
 
 
-This slot occurs 8650443 times.
+This slot occurs 59978 times.
 
 
 URI: [securechain:versionName](https://w3id.org/secure-chain/versionName)
@@ -23,7 +23,6 @@ URI: [securechain:versionName](https://w3id.org/secure-chain/versionName)
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
 | [SecurechainHardwareVersion](../classes/SecurechainHardwareVersion.md) |  |  no  |
-| [SecurechainSoftwareVersion](../classes/SecurechainSoftwareVersion.md) |  |  no  |
 
 
 
@@ -53,7 +52,6 @@ slot_uri: securechain:versionName
 alias: securechain_versionName
 domain_of:
 - securechain_HardwareVersion
-- securechain_SoftwareVersion
 range: Any
 any_of:
 - range: sdos_Text
