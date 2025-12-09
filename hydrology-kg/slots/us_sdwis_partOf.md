@@ -27,10 +27,6 @@ URI: [us_sdwis:partOf](http://sawgraph.spatialai.org/v1/us-sdwis#partOf)
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -39,11 +35,9 @@ URI: [us_sdwis:partOf](http://sawgraph.spatialai.org/v1/us-sdwis#partOf)
 
 ```yaml
 name: us_sdwis_partOf
-comments:
+notes:
 - No occurrences of this slot in the graph.
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/us-sdwis#partOf
 rank: 1000
 slot_uri: us_sdwis:partOf
 alias: us_sdwis_partOf

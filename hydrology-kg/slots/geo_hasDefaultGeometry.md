@@ -46,13 +46,10 @@ URI: [geo:hasDefaultGeometry](http://www.opengis.net/ont/geosparql#hasDefaultGeo
 
 ## Comments
 
-* source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties
 * source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties
 * source: http://www.opengis.net/ont/geosparql#
 * source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties
-* source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties
 * description: The default Geometry to be used in spatial calculations. It is usually the most detailed Geometry.
-* No occurrences of this slot in the graph.
 
 
 
@@ -68,15 +65,13 @@ notes:
 - Duplicate properties defaultGeometry and hasDefaultGeometry exist because of an
   inconsistency between ontology and documentation in GeoSPARQL 1.0. Only hasDefaultGeometry
   is described in the documention.
+- No occurrences of this slot in the graph.
 comments:
-- 'source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties'
 - 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties'
 - 'source: http://www.opengis.net/ont/geosparql#'
 - 'source: http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties'
-- 'source: http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties'
 - 'description: The default Geometry to be used in spatial calculations. It is usually
   the most detailed Geometry.'
-- No occurrences of this slot in the graph.
 from_schema: okns:geo
 source: http://www.opengis.net/ont/geosparql#
 exact_mappings:

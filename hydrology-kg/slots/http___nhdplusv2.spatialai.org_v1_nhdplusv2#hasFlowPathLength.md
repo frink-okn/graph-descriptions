@@ -22,6 +22,7 @@ URI: [http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasFlowPathLength](http://nhdp
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
+| [B805a9e7d30eaabcb686b8ce670ed1e95](../classes/B805a9e7d30eaabcb686b8ce670ed1e95.md) |  |  no  |
 | [HyfHYElementaryFlowPath](../classes/HyfHYElementaryFlowPath.md) |  |  no  |
 
 
@@ -47,13 +48,12 @@ URI: [http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasFlowPathLength](http://nhdp
 ```yaml
 name: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasFlowPathLength
 rank: 1000
 slot_uri: http://nhdplusv2.spatialai.org/v1/nhdplusv2#hasFlowPathLength
 alias: http___nhdplusv2.spatialai.org_v1_nhdplusv2#hasFlowPathLength
 domain_of:
-- hyf__HY_ElementaryFlowPath
+- __B805a9e7d30eaabcb686b8ce670ed1e95
+- hyf_HY_ElementaryFlowPath
 range: Any
 any_of:
 - range: owl_Thing

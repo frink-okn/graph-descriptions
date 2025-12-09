@@ -47,8 +47,6 @@ URI: [il_isgs:wellYield](http://sawgraph.spatialai.org/v1/il-isgs#wellYield)
 ```yaml
 name: il_isgs_wellYield
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/il-isgs#wellYield
 rank: 1000
 slot_uri: il_isgs:wellYield
 alias: il_isgs_wellYield

@@ -64,8 +64,6 @@ name: http___hyfo.spatialai.org_v1_hyfo#SubsurfaceWaterFeature
 title: No class (entity type) name specified -- this class is noted as a superclass
   of another class in this graph but has not itself been defined.
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://hyfo.spatialai.org/v1/hyfo#SubsurfaceWaterFeature
 rank: 1000
 is_a: owl_Thing
 class_uri: http://hyfo.spatialai.org/v1/hyfo#SubsurfaceWaterFeature
@@ -82,8 +80,6 @@ name: http___hyfo.spatialai.org_v1_hyfo#SubsurfaceWaterFeature
 title: No class (entity type) name specified -- this class is noted as a superclass
   of another class in this graph but has not itself been defined.
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://hyfo.spatialai.org/v1/hyfo#SubsurfaceWaterFeature
 rank: 1000
 is_a: owl_Thing
 class_uri: http://hyfo.spatialai.org/v1/hyfo#SubsurfaceWaterFeature

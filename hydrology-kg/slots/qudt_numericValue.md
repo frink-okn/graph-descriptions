@@ -22,10 +22,10 @@ URI: [qudt:numericValue](http://qudt.org/schema/qudt/numericValue)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [MeMgsWellDepthInFt](../classes/MeMgsWellDepthInFt.md) |  |  no  |
-| [IlIsgsWellDepthInFt](../classes/IlIsgsWellDepthInFt.md) |  |  no  |
-| [IlIsgsWellYield](../classes/IlIsgsWellYield.md) |  |  no  |
 | [MeMgsWellOverburdenThicknessInFt](../classes/MeMgsWellOverburdenThicknessInFt.md) |  |  no  |
+| [MeMgsWellDepthInFt](../classes/MeMgsWellDepthInFt.md) |  |  no  |
+| [IlIsgsWellYield](../classes/IlIsgsWellYield.md) |  |  no  |
+| [IlIsgsWellDepthInFt](../classes/IlIsgsWellDepthInFt.md) |  |  no  |
 
 
 
@@ -41,10 +41,6 @@ URI: [qudt:numericValue](http://qudt.org/schema/qudt/numericValue)
 
 
 
-## Comments
-
-* No occurrences of this slot in the graph.
-
 
 
 ## LinkML Source
@@ -54,7 +50,7 @@ URI: [qudt:numericValue](http://qudt.org/schema/qudt/numericValue)
 ```yaml
 name: qudt_numericValue
 title: numeric value
-comments:
+notes:
 - No occurrences of this slot in the graph.
 from_schema: okns:qudt
 source: http://qudt.org/schema/qudt

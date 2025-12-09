@@ -62,8 +62,6 @@ URI: [http://hyfo.spatialai.org/v1/hyfo#AquiferWaterFeature](http://hyfo.spatial
 ```yaml
 name: http___hyfo.spatialai.org_v1_hyfo#AquiferWaterFeature
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://hyfo.spatialai.org/v1/hyfo#AquiferWaterFeature
 rank: 1000
 is_a: owl_Thing
 class_uri: http://hyfo.spatialai.org/v1/hyfo#AquiferWaterFeature
@@ -78,8 +76,6 @@ class_uri: http://hyfo.spatialai.org/v1/hyfo#AquiferWaterFeature
 ```yaml
 name: http___hyfo.spatialai.org_v1_hyfo#AquiferWaterFeature
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://hyfo.spatialai.org/v1/hyfo#AquiferWaterFeature
 rank: 1000
 is_a: owl_Thing
 class_uri: http://hyfo.spatialai.org/v1/hyfo#AquiferWaterFeature

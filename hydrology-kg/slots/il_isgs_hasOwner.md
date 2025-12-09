@@ -47,8 +47,6 @@ URI: [il_isgs:hasOwner](http://sawgraph.spatialai.org/v1/il-isgs#hasOwner)
 ```yaml
 name: il_isgs_hasOwner
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/il-isgs#hasOwner
 rank: 1000
 slot_uri: il_isgs:hasOwner
 alias: il_isgs_hasOwner

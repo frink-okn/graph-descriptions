@@ -6,7 +6,7 @@
 
 
 
-URI: [hyf:/HY_MainStem](https://www.opengis.net/def/schema/hy_features/hyf/HY_MainStem)
+URI: [hyf:HY_MainStem](https://www.opengis.net/def/schema/hy_features/hyf/HY_MainStem)
 
 
 
@@ -28,10 +28,9 @@ URI: [hyf:/HY_MainStem](https://www.opengis.net/def/schema/hy_features/hyf/HY_Ma
 
 
 ## Inheritance
-* [OwlThing](../classes/OwlThing.md)
-    * [HyfHYCatchmentRealization](../classes/HyfHYCatchmentRealization.md)
-        * [HyfHYFlowPath](../classes/HyfHYFlowPath.md)
-            * **HyfHYMainStem**
+* [HyfHYCatchmentRealization](../classes/HyfHYCatchmentRealization.md)
+    * [HyfHYFlowPath](../classes/HyfHYFlowPath.md)
+        * **HyfHYMainStem**
 
 
 
@@ -62,13 +61,11 @@ URI: [hyf:/HY_MainStem](https://www.opengis.net/def/schema/hy_features/hyf/HY_Ma
 <details>
 
 ```yaml
-name: hyf__HY_MainStem
+name: hyf_HY_MainStem
 from_schema: okns:hydrology-kg
-exact_mappings:
-- https://www.opengis.net/def/schema/hy_features/hyf/HY_MainStem
 rank: 1000
-is_a: hyf__HY_FlowPath
-class_uri: hyf:/HY_MainStem
+is_a: hyf_HY_FlowPath
+class_uri: hyf:HY_MainStem
 
 ```
 </details>
@@ -78,13 +75,11 @@ class_uri: hyf:/HY_MainStem
 <details>
 
 ```yaml
-name: hyf__HY_MainStem
+name: hyf_HY_MainStem
 from_schema: okns:hydrology-kg
-exact_mappings:
-- https://www.opengis.net/def/schema/hy_features/hyf/HY_MainStem
 rank: 1000
-is_a: hyf__HY_FlowPath
-class_uri: hyf:/HY_MainStem
+is_a: hyf_HY_FlowPath
+class_uri: hyf:HY_MainStem
 
 ```
 </details>

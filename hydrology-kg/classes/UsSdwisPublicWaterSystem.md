@@ -1,6 +1,6 @@
 
 
-# Class: No class (entity type) name specified -- this class is noted as a superclass of another class in this graph but has not itself been defined. (us_sdwis_PublicWaterSystem)
+# Class: UsSdwisPublicWaterSystem
 
 
 
@@ -61,11 +61,7 @@ URI: [us_sdwis:PublicWaterSystem](http://sawgraph.spatialai.org/v1/us-sdwis#Publ
 
 ```yaml
 name: us_sdwis_PublicWaterSystem
-title: No class (entity type) name specified -- this class is noted as a superclass
-  of another class in this graph but has not itself been defined.
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/us-sdwis#PublicWaterSystem
 rank: 1000
 is_a: owl_Thing
 class_uri: us_sdwis:PublicWaterSystem
@@ -79,11 +75,7 @@ class_uri: us_sdwis:PublicWaterSystem
 
 ```yaml
 name: us_sdwis_PublicWaterSystem
-title: No class (entity type) name specified -- this class is noted as a superclass
-  of another class in this graph but has not itself been defined.
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/us-sdwis#PublicWaterSystem
 rank: 1000
 is_a: owl_Thing
 class_uri: us_sdwis:PublicWaterSystem

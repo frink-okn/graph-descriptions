@@ -62,8 +62,6 @@ URI: [us_sdwis:PublicWaterSystem-NCWS](http://sawgraph.spatialai.org/v1/us-sdwis
 ```yaml
 name: us_sdwis_PublicWaterSystem-NCWS
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/us-sdwis#PublicWaterSystem-NCWS
 rank: 1000
 is_a: owl_Thing
 class_uri: us_sdwis:PublicWaterSystem-NCWS
@@ -78,8 +76,6 @@ class_uri: us_sdwis:PublicWaterSystem-NCWS
 ```yaml
 name: us_sdwis_PublicWaterSystem-NCWS
 from_schema: okns:hydrology-kg
-exact_mappings:
-- http://sawgraph.spatialai.org/v1/us-sdwis#PublicWaterSystem-NCWS
 rank: 1000
 is_a: owl_Thing
 class_uri: us_sdwis:PublicWaterSystem-NCWS
