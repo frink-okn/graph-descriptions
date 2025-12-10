@@ -1,0 +1,690 @@
+name: wildlife-kg
+annotations:
+  counts:
+    tag: counts
+    value:
+      classes:
+        tag: classes
+        value:
+          https://wildlife.proto-okn.net/kg/Amphibian_name:
+            tag: https://wildlife.proto-okn.net/kg/Amphibian_name
+            value: 97
+          https://wildlife.proto-okn.net/kg/Bird_name:
+            tag: https://wildlife.proto-okn.net/kg/Bird_name
+            value: 303
+          https://wildlife.proto-okn.net/kg/Location:
+            tag: https://wildlife.proto-okn.net/kg/Location
+            value: 657
+          https://wildlife.proto-okn.net/kg/schema/Amphibian_name:
+            tag: https://wildlife.proto-okn.net/kg/schema/Amphibian_name
+            value: 97
+          https://wildlife.proto-okn.net/kg/schema/Bird_name:
+            tag: https://wildlife.proto-okn.net/kg/schema/Bird_name
+            value: 303
+          https://wildlife.proto-okn.net/kg/schema/Location:
+            tag: https://wildlife.proto-okn.net/kg/schema/Location
+            value: 657
+          rdf:Statement:
+            tag: rdf:Statement
+            value: 10410
+      pairs:
+        tag: pairs
+        value:
+          dct:date:
+            tag: dct:date
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  date:
+                    tag: date
+                    value: 87
+                  datetime:
+                    tag: datetime
+                    value: 10236
+                  string:
+                    tag: string
+                    value: 87
+          https://wildlife.proto-okn.net/kg/OBSERVED_AT:
+            tag: https://wildlife.proto-okn.net/kg/OBSERVED_AT
+            value:
+              https://wildlife.proto-okn.net/kg/Amphibian_name:
+                tag: https://wildlife.proto-okn.net/kg/Amphibian_name
+                value:
+                  https://wildlife.proto-okn.net/kg/Location:
+                    tag: https://wildlife.proto-okn.net/kg/Location
+                    value: 2723
+              https://wildlife.proto-okn.net/kg/Bird_name:
+                tag: https://wildlife.proto-okn.net/kg/Bird_name
+                value:
+                  https://wildlife.proto-okn.net/kg/Location:
+                    tag: https://wildlife.proto-okn.net/kg/Location
+                    value: 2482
+          https://wildlife.proto-okn.net/kg/observed_times:
+            tag: https://wildlife.proto-okn.net/kg/observed_times
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  int32:
+                    tag: int32
+                    value: 5205
+          https://wildlife.proto-okn.net/kg/schema/OBSERVED_AT:
+            tag: https://wildlife.proto-okn.net/kg/schema/OBSERVED_AT
+            value:
+              https://wildlife.proto-okn.net/kg/schema/Amphibian_name:
+                tag: https://wildlife.proto-okn.net/kg/schema/Amphibian_name
+                value:
+                  https://wildlife.proto-okn.net/kg/schema/Location:
+                    tag: https://wildlife.proto-okn.net/kg/schema/Location
+                    value: 2723
+              https://wildlife.proto-okn.net/kg/schema/Bird_name:
+                tag: https://wildlife.proto-okn.net/kg/schema/Bird_name
+                value:
+                  https://wildlife.proto-okn.net/kg/schema/Location:
+                    tag: https://wildlife.proto-okn.net/kg/schema/Location
+                    value: 2482
+          https://wildlife.proto-okn.net/kg/schema/observed_times:
+            tag: https://wildlife.proto-okn.net/kg/schema/observed_times
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  int32:
+                    tag: int32
+                    value: 5205
+          rdf:object:
+            tag: rdf:object
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  https://wildlife.proto-okn.net/kg/Location:
+                    tag: https://wildlife.proto-okn.net/kg/Location
+                    value: 5205
+                  https://wildlife.proto-okn.net/kg/schema/Location:
+                    tag: https://wildlife.proto-okn.net/kg/schema/Location
+                    value: 5205
+          rdf:predicate:
+            tag: rdf:predicate
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  uri:
+                    tag: uri
+                    value: 10410
+          rdf:subject:
+            tag: rdf:subject
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  https://wildlife.proto-okn.net/kg/Amphibian_name:
+                    tag: https://wildlife.proto-okn.net/kg/Amphibian_name
+                    value: 2723
+                  https://wildlife.proto-okn.net/kg/Bird_name:
+                    tag: https://wildlife.proto-okn.net/kg/Bird_name
+                    value: 2482
+                  https://wildlife.proto-okn.net/kg/schema/Amphibian_name:
+                    tag: https://wildlife.proto-okn.net/kg/schema/Amphibian_name
+                    value: 2723
+                  https://wildlife.proto-okn.net/kg/schema/Bird_name:
+                    tag: https://wildlife.proto-okn.net/kg/schema/Bird_name
+                    value: 2482
+          rdfs:label:
+            tag: rdfs:label
+            value:
+              https://wildlife.proto-okn.net/kg/Amphibian_name:
+                tag: https://wildlife.proto-okn.net/kg/Amphibian_name
+                value:
+                  string:
+                    tag: string
+                    value: 97
+              https://wildlife.proto-okn.net/kg/Bird_name:
+                tag: https://wildlife.proto-okn.net/kg/Bird_name
+                value:
+                  string:
+                    tag: string
+                    value: 303
+              https://wildlife.proto-okn.net/kg/Location:
+                tag: https://wildlife.proto-okn.net/kg/Location
+                value:
+                  string:
+                    tag: string
+                    value: 657
+              https://wildlife.proto-okn.net/kg/schema/Amphibian_name:
+                tag: https://wildlife.proto-okn.net/kg/schema/Amphibian_name
+                value:
+                  string:
+                    tag: string
+                    value: 97
+              https://wildlife.proto-okn.net/kg/schema/Bird_name:
+                tag: https://wildlife.proto-okn.net/kg/schema/Bird_name
+                value:
+                  string:
+                    tag: string
+                    value: 303
+              https://wildlife.proto-okn.net/kg/schema/Location:
+                tag: https://wildlife.proto-okn.net/kg/schema/Location
+                value:
+                  string:
+                    tag: string
+                    value: 657
+          sdos:subjectOf:
+            tag: sdos:subjectOf
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  uri:
+                    tag: uri
+                    value: 10410
+      slots:
+        tag: slots
+        value:
+          dct:date:
+            tag: dct:date
+            value: 10410
+          https://wildlife.proto-okn.net/kg/OBSERVED_AT:
+            tag: https://wildlife.proto-okn.net/kg/OBSERVED_AT
+            value: 5205
+          https://wildlife.proto-okn.net/kg/observed_times:
+            tag: https://wildlife.proto-okn.net/kg/observed_times
+            value: 5205
+          https://wildlife.proto-okn.net/kg/schema/OBSERVED_AT:
+            tag: https://wildlife.proto-okn.net/kg/schema/OBSERVED_AT
+            value: 5205
+          https://wildlife.proto-okn.net/kg/schema/observed_times:
+            tag: https://wildlife.proto-okn.net/kg/schema/observed_times
+            value: 5205
+          rdf:object:
+            tag: rdf:object
+            value: 10410
+          rdf:predicate:
+            tag: rdf:predicate
+            value: 10410
+          rdf:subject:
+            tag: rdf:subject
+            value: 10410
+          rdfs:label:
+            tag: rdfs:label
+            value: 2114
+          sdos:subjectOf:
+            tag: sdos:subjectOf
+            value: 10410
+  examples:
+    tag: examples
+    value:
+      classes:
+        tag: classes
+        value:
+          https://wildlife.proto-okn.net/kg/Amphibian_name:
+            tag: https://wildlife.proto-okn.net/kg/Amphibian_name
+            value: https://wildlife.proto-okn.net/kg/3268
+          https://wildlife.proto-okn.net/kg/Bird_name:
+            tag: https://wildlife.proto-okn.net/kg/Bird_name
+            value: https://wildlife.proto-okn.net/kg/2860
+          https://wildlife.proto-okn.net/kg/Location:
+            tag: https://wildlife.proto-okn.net/kg/Location
+            value: https://wildlife.proto-okn.net/kg/3272
+          https://wildlife.proto-okn.net/kg/schema/Amphibian_name:
+            tag: https://wildlife.proto-okn.net/kg/schema/Amphibian_name
+            value: https://wildlife.proto-okn.net/kg/node/3268
+          https://wildlife.proto-okn.net/kg/schema/Bird_name:
+            tag: https://wildlife.proto-okn.net/kg/schema/Bird_name
+            value: https://wildlife.proto-okn.net/kg/node/2860
+          https://wildlife.proto-okn.net/kg/schema/Location:
+            tag: https://wildlife.proto-okn.net/kg/schema/Location
+            value: https://wildlife.proto-okn.net/kg/node/3272
+          rdf:Statement:
+            tag: rdf:Statement
+            value: https://wildlife.proto-okn.net/kg/relationship/6400
+      pairs:
+        tag: pairs
+        value:
+          dct:date:
+            tag: dct:date
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  date:
+                    tag: date
+                    value:
+                      object:
+                        tag: object
+                        value: '2023-10-18'
+                      predicate:
+                        tag: predicate
+                        value: dct:date
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/15004
+                  datetime:
+                    tag: datetime
+                    value:
+                      object:
+                        tag: object
+                        value: '2018-12-26T18:04:00'
+                      predicate:
+                        tag: predicate
+                        value: dct:date
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/14856
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: '2023-10-18'
+                      predicate:
+                        tag: predicate
+                        value: dct:date
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/relationship/15004
+          https://wildlife.proto-okn.net/kg/OBSERVED_AT:
+            tag: https://wildlife.proto-okn.net/kg/OBSERVED_AT
+            value:
+              https://wildlife.proto-okn.net/kg/Amphibian_name:
+                tag: https://wildlife.proto-okn.net/kg/Amphibian_name
+                value:
+                  https://wildlife.proto-okn.net/kg/Location:
+                    tag: https://wildlife.proto-okn.net/kg/Location
+                    value:
+                      object:
+                        tag: object
+                        value: https://wildlife.proto-okn.net/kg/2216
+                      predicate:
+                        tag: predicate
+                        value: https://wildlife.proto-okn.net/kg/OBSERVED_AT
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/2861
+              https://wildlife.proto-okn.net/kg/Bird_name:
+                tag: https://wildlife.proto-okn.net/kg/Bird_name
+                value:
+                  https://wildlife.proto-okn.net/kg/Location:
+                    tag: https://wildlife.proto-okn.net/kg/Location
+                    value:
+                      object:
+                        tag: object
+                        value: https://wildlife.proto-okn.net/kg/2216
+                      predicate:
+                        tag: predicate
+                        value: https://wildlife.proto-okn.net/kg/OBSERVED_AT
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/2217
+          https://wildlife.proto-okn.net/kg/observed_times:
+            tag: https://wildlife.proto-okn.net/kg/observed_times
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  int32:
+                    tag: int32
+                    value:
+                      object:
+                        tag: object
+                        value: '2'
+                      predicate:
+                        tag: predicate
+                        value: https://wildlife.proto-okn.net/kg/observed_times
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/14856
+          https://wildlife.proto-okn.net/kg/schema/OBSERVED_AT:
+            tag: https://wildlife.proto-okn.net/kg/schema/OBSERVED_AT
+            value:
+              https://wildlife.proto-okn.net/kg/schema/Amphibian_name:
+                tag: https://wildlife.proto-okn.net/kg/schema/Amphibian_name
+                value:
+                  https://wildlife.proto-okn.net/kg/schema/Location:
+                    tag: https://wildlife.proto-okn.net/kg/schema/Location
+                    value:
+                      object:
+                        tag: object
+                        value: https://wildlife.proto-okn.net/kg/node/2216
+                      predicate:
+                        tag: predicate
+                        value: https://wildlife.proto-okn.net/kg/schema/OBSERVED_AT
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/node/2861
+              https://wildlife.proto-okn.net/kg/schema/Bird_name:
+                tag: https://wildlife.proto-okn.net/kg/schema/Bird_name
+                value:
+                  https://wildlife.proto-okn.net/kg/schema/Location:
+                    tag: https://wildlife.proto-okn.net/kg/schema/Location
+                    value:
+                      object:
+                        tag: object
+                        value: https://wildlife.proto-okn.net/kg/node/2216
+                      predicate:
+                        tag: predicate
+                        value: https://wildlife.proto-okn.net/kg/schema/OBSERVED_AT
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/node/2217
+          https://wildlife.proto-okn.net/kg/schema/observed_times:
+            tag: https://wildlife.proto-okn.net/kg/schema/observed_times
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  int32:
+                    tag: int32
+                    value:
+                      object:
+                        tag: object
+                        value: '2'
+                      predicate:
+                        tag: predicate
+                        value: https://wildlife.proto-okn.net/kg/schema/observed_times
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/relationship/14856
+          rdf:object:
+            tag: rdf:object
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  https://wildlife.proto-okn.net/kg/Location:
+                    tag: https://wildlife.proto-okn.net/kg/Location
+                    value:
+                      object:
+                        tag: object
+                        value: https://wildlife.proto-okn.net/kg/2426
+                      predicate:
+                        tag: predicate
+                        value: rdf:object
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/14856
+                  https://wildlife.proto-okn.net/kg/schema/Location:
+                    tag: https://wildlife.proto-okn.net/kg/schema/Location
+                    value:
+                      object:
+                        tag: object
+                        value: https://wildlife.proto-okn.net/kg/node/2426
+                      predicate:
+                        tag: predicate
+                        value: rdf:object
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/relationship/14856
+          rdf:predicate:
+            tag: rdf:predicate
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: https://wildlife.proto-okn.net/kg/OBSERVED_AT
+                      predicate:
+                        tag: predicate
+                        value: rdf:predicate
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/14856
+          rdf:subject:
+            tag: rdf:subject
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  https://wildlife.proto-okn.net/kg/Amphibian_name:
+                    tag: https://wildlife.proto-okn.net/kg/Amphibian_name
+                    value:
+                      object:
+                        tag: object
+                        value: https://wildlife.proto-okn.net/kg/2861
+                      predicate:
+                        tag: predicate
+                        value: rdf:subject
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/16140
+                  https://wildlife.proto-okn.net/kg/Bird_name:
+                    tag: https://wildlife.proto-okn.net/kg/Bird_name
+                    value:
+                      object:
+                        tag: object
+                        value: https://wildlife.proto-okn.net/kg/2368
+                      predicate:
+                        tag: predicate
+                        value: rdf:subject
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/14856
+                  https://wildlife.proto-okn.net/kg/schema/Amphibian_name:
+                    tag: https://wildlife.proto-okn.net/kg/schema/Amphibian_name
+                    value:
+                      object:
+                        tag: object
+                        value: https://wildlife.proto-okn.net/kg/node/2861
+                      predicate:
+                        tag: predicate
+                        value: rdf:subject
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/relationship/16140
+                  https://wildlife.proto-okn.net/kg/schema/Bird_name:
+                    tag: https://wildlife.proto-okn.net/kg/schema/Bird_name
+                    value:
+                      object:
+                        tag: object
+                        value: https://wildlife.proto-okn.net/kg/node/2368
+                      predicate:
+                        tag: predicate
+                        value: rdf:subject
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/relationship/14856
+          rdfs:label:
+            tag: rdfs:label
+            value:
+              https://wildlife.proto-okn.net/kg/Amphibian_name:
+                tag: https://wildlife.proto-okn.net/kg/Amphibian_name
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Lithobates sphenocephalus
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/2861
+              https://wildlife.proto-okn.net/kg/Bird_name:
+                tag: https://wildlife.proto-okn.net/kg/Bird_name
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Ardea alba Linnaeus, 1758
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/2217
+              https://wildlife.proto-okn.net/kg/Location:
+                tag: https://wildlife.proto-okn.net/kg/Location
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Saint Petersburg
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/2216
+              https://wildlife.proto-okn.net/kg/schema/Amphibian_name:
+                tag: https://wildlife.proto-okn.net/kg/schema/Amphibian_name
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Lithobates sphenocephalus
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/node/2861
+              https://wildlife.proto-okn.net/kg/schema/Bird_name:
+                tag: https://wildlife.proto-okn.net/kg/schema/Bird_name
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: Ardea alba Linnaeus, 1758
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/node/2217
+              https://wildlife.proto-okn.net/kg/schema/Location:
+                tag: https://wildlife.proto-okn.net/kg/schema/Location
+                value:
+                  string:
+                    tag: string
+                    value:
+                      object:
+                        tag: object
+                        value: 'Saint Petersburg
+
+                          '
+                      predicate:
+                        tag: predicate
+                        value: rdfs:label
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/node/2216
+          sdos:subjectOf:
+            tag: sdos:subjectOf
+            value:
+              rdf:Statement:
+                tag: rdf:Statement
+                value:
+                  uri:
+                    tag: uri
+                    value:
+                      object:
+                        tag: object
+                        value: https://www.inaturalist.org/observations/19259838
+                      predicate:
+                        tag: predicate
+                        value: sdos:subjectOf
+                      subject:
+                        tag: subject
+                        value: https://wildlife.proto-okn.net/kg/14856
+title: wildlifekn
+created_on: '2025-12-10T20:16:31.214547'
+last_updated_on: '2025-12-10T20:16:31.214547'
+id: okns:wildlife-kg
+imports:
+- okns:sdo
+- okns:extended_types
+- okns:dc
+- okns:owl-rdf-rdfs
+- linkml:types
+prefixes:
+  dct:
+    prefix_prefix: dct
+    prefix_reference: http://purl.org/dc/terms/
+  linkml:
+    prefix_prefix: linkml
+    prefix_reference: https://w3id.org/linkml/
+  okn:
+    prefix_prefix: okn
+    prefix_reference: https://purl.org/okn/
+  okns:
+    prefix_prefix: okns
+    prefix_reference: https://purl.org/okn/schema/
+  rdf:
+    prefix_prefix: rdf
+    prefix_reference: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs:
+    prefix_prefix: rdfs
+    prefix_reference: http://www.w3.org/2000/01/rdf-schema#
+  sdos:
+    prefix_prefix: sdos
+    prefix_reference: https://schema.org/
+default_prefix: okns
+slots:
+  https___wildlife.proto-okn.net_kg_OBSERVED_AT:
+    name: https___wildlife.proto-okn.net_kg_OBSERVED_AT
+    slot_uri: https://wildlife.proto-okn.net/kg/OBSERVED_AT
+    range: https___wildlife.proto-okn.net_kg_Location
+  https___wildlife.proto-okn.net_kg_observed_times:
+    name: https___wildlife.proto-okn.net_kg_observed_times
+    slot_uri: https://wildlife.proto-okn.net/kg/observed_times
+    range: int32
+  https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT:
+    name: https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT
+    slot_uri: https://wildlife.proto-okn.net/kg/schema/OBSERVED_AT
+    range: https___wildlife.proto-okn.net_kg_schema_Location
+  https___wildlife.proto-okn.net_kg_schema_observed_times:
+    name: https___wildlife.proto-okn.net_kg_schema_observed_times
+    slot_uri: https://wildlife.proto-okn.net/kg/schema/observed_times
+    range: int32
+classes:
+  https___wildlife.proto-okn.net_kg_Amphibian_name:
+    name: https___wildlife.proto-okn.net_kg_Amphibian_name
+    slots:
+    - https___wildlife.proto-okn.net_kg_OBSERVED_AT
+    - rdfs_label
+    class_uri: https://wildlife.proto-okn.net/kg/Amphibian_name
+  https___wildlife.proto-okn.net_kg_Bird_name:
+    name: https___wildlife.proto-okn.net_kg_Bird_name
+    slots:
+    - https___wildlife.proto-okn.net_kg_OBSERVED_AT
+    - rdfs_label
+    class_uri: https://wildlife.proto-okn.net/kg/Bird_name
+  https___wildlife.proto-okn.net_kg_Location:
+    name: https___wildlife.proto-okn.net_kg_Location
+    slots:
+    - rdfs_label
+    class_uri: https://wildlife.proto-okn.net/kg/Location
+  https___wildlife.proto-okn.net_kg_schema_Amphibian_name:
+    name: https___wildlife.proto-okn.net_kg_schema_Amphibian_name
+    slots:
+    - https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT
+    - rdfs_label
+    class_uri: https://wildlife.proto-okn.net/kg/schema/Amphibian_name
+  https___wildlife.proto-okn.net_kg_schema_Bird_name:
+    name: https___wildlife.proto-okn.net_kg_schema_Bird_name
+    slots:
+    - https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT
+    - rdfs_label
+    class_uri: https://wildlife.proto-okn.net/kg/schema/Bird_name
+  https___wildlife.proto-okn.net_kg_schema_Location:
+    name: https___wildlife.proto-okn.net_kg_schema_Location
+    slots:
+    - rdfs_label
+    class_uri: https://wildlife.proto-okn.net/kg/schema/Location
+source_file: /code/wildlife-kg.yaml
