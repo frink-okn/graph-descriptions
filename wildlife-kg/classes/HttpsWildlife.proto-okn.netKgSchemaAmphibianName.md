@@ -1,11 +1,6 @@
 
 
-# Class: No class (type) name specified (https___wildlife.proto-okn.net_kg_schema_Amphibian_name)
-
-
-_No class (type) description specified_
-
-
+# Class: HttpsWildlife.proto-okn.netKgSchemaAmphibianName
 
 
 
@@ -38,8 +33,8 @@ URI: [https://wildlife.proto-okn.net/kg/schema/Amphibian_name](https://wildlife.
           
     
     
-    HttpsWildlife.proto-okn.netKgSchemaAmphibianName --> "0..1" String : rdfs_label
-    click String href "../String"
+    HttpsWildlife.proto-okn.netKgSchemaAmphibianName --> "0..1" Any : rdfs_label
+    click Any href "../Any"
 
         
       
@@ -55,18 +50,11 @@ URI: [https://wildlife.proto-okn.net/kg/schema/Amphibian_name](https://wildlife.
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 97 |
-| [https___wildlife.proto_okn.net_kg_schema_OBSERVED_AT](../slots/https___wildlife.proto_okn.net_kg_schema_OBSERVED_AT.md) | 0..1 <br/> [HttpsWildlife.proto-okn.netKgSchemaLocation](../classes/HttpsWildlife.proto-okn.netKgSchemaLocation.md) | No slot (predicate) description specified <br/>  | direct | 2723 |
+| [https___wildlife.proto_okn.net_kg_schema_OBSERVED_AT](../slots/https___wildlife.proto_okn.net_kg_schema_OBSERVED_AT.md) | 0..1 <br/> [HttpsWildlife.proto-okn.netKgSchemaLocation](../classes/HttpsWildlife.proto-okn.netKgSchemaLocation.md) |  <br/>  | direct | 2723 |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](http://www.w3.org/2001/XMLSchema#string) | A human-readable name for the subject <br/>  | direct | 97 |
 
 
 
-
-
-## Usages
-
-| used by | used in | type | used |
-| ---  | --- | --- | --- |
-| [RdfStatement](../classes/RdfStatement.md) | [rdf_subject](../slots/rdf_subject.md) | any_of[range] | [HttpsWildlife.proto-okn.netKgSchemaAmphibianName](../classes/HttpsWildlife.proto-okn.netKgSchemaAmphibianName.md) |
 
 
 
@@ -88,31 +76,11 @@ URI: [https://wildlife.proto-okn.net/kg/schema/Amphibian_name](https://wildlife.
 
 ```yaml
 name: https___wildlife.proto-okn.net_kg_schema_Amphibian_name
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 97
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: wildlife-kg
+from_schema: okns:wildlife-kg
 rank: 1000
 slots:
-- rdfs_label
 - https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT
-slot_usage:
-  https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT:
-    name: https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT
-    annotations:
-      https___wildlife.proto-okn.net_kg_schema_Location:
-        tag: https___wildlife.proto-okn.net_kg_schema_Location
-        value: 2723
-  rdfs_label:
-    name: rdfs_label
-    annotations:
-      string:
-        tag: string
-        value: 97
+- rdfs_label
 class_uri: https://wildlife.proto-okn.net/kg/schema/Amphibian_name
 
 ```
@@ -124,86 +92,12 @@ class_uri: https://wildlife.proto-okn.net/kg/schema/Amphibian_name
 
 ```yaml
 name: https___wildlife.proto-okn.net_kg_schema_Amphibian_name
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 97
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: wildlife-kg
+from_schema: okns:wildlife-kg
 rank: 1000
-slot_usage:
-  https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT:
-    name: https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT
-    annotations:
-      https___wildlife.proto-okn.net_kg_schema_Location:
-        tag: https___wildlife.proto-okn.net_kg_schema_Location
-        value: 2723
-  rdfs_label:
-    name: rdfs_label
-    annotations:
-      string:
-        tag: string
-        value: 97
 attributes:
-  rdfs_label:
-    name: rdfs_label
-    annotations:
-      string:
-        tag: string
-        value: 97
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: Saint Petersburg
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: https://wildlife.proto-okn.net/kg/node/2216
-        example_subject_type: https___wildlife.proto-okn.net_kg_schema_Location
-    - object:
-        example_object: Ardea alba Linnaeus, 1758
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: https://wildlife.proto-okn.net/kg/node/2217
-        example_subject_type: https___wildlife.proto-okn.net_kg_schema_Bird_name
-    - object:
-        example_object: Lithobates sphenocephalus
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: https://wildlife.proto-okn.net/kg/node/2861
-        example_subject_type: https___wildlife.proto-okn.net_kg_schema_Amphibian_name
-    from_schema: wildlife-kg
-    rank: 1000
-    slot_uri: rdfs:label
-    alias: rdfs_label
-    owner: https___wildlife.proto-okn.net_kg_schema_Amphibian_name
-    domain_of:
-    - https___wildlife.proto-okn.net_kg_schema_Amphibian_name
-    - https___wildlife.proto-okn.net_kg_schema_Bird_name
-    - https___wildlife.proto-okn.net_kg_schema_Location
-    range: string
   https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT:
     name: https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT
-    annotations:
-      https___wildlife.proto-okn.net_kg_schema_Location:
-        tag: https___wildlife.proto-okn.net_kg_schema_Location
-        value: 2723
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: https://wildlife.proto-okn.net/kg/node/2216
-        example_object_type: https___wildlife.proto-okn.net_kg_schema_Location
-        example_predicate: https://wildlife.proto-okn.net/kg/schema/OBSERVED_AT
-        example_subject: https://wildlife.proto-okn.net/kg/node/2217
-        example_subject_type: https___wildlife.proto-okn.net_kg_schema_Bird_name
-    - object:
-        example_object: https://wildlife.proto-okn.net/kg/node/2216
-        example_object_type: https___wildlife.proto-okn.net_kg_schema_Location
-        example_predicate: https://wildlife.proto-okn.net/kg/schema/OBSERVED_AT
-        example_subject: https://wildlife.proto-okn.net/kg/node/2861
-        example_subject_type: https___wildlife.proto-okn.net_kg_schema_Amphibian_name
-    from_schema: wildlife-kg
+    from_schema: okns:wildlife-kg
     rank: 1000
     slot_uri: https://wildlife.proto-okn.net/kg/schema/OBSERVED_AT
     alias: https___wildlife.proto_okn.net_kg_schema_OBSERVED_AT
@@ -212,6 +106,112 @@ attributes:
     - https___wildlife.proto-okn.net_kg_schema_Amphibian_name
     - https___wildlife.proto-okn.net_kg_schema_Bird_name
     range: https___wildlife.proto-okn.net_kg_schema_Location
+  rdfs_label:
+    name: rdfs_label
+    description: A human-readable name for the subject.
+    title: label
+    from_schema: okns:owl-rdf-rdfs
+    source: http://www.w3.org/2000/01/rdf-schema#
+    domain: rdfs_Resource
+    slot_uri: rdfs:label
+    alias: rdfs_label
+    owner: https___wildlife.proto-okn.net_kg_schema_Amphibian_name
+    domain_of:
+    - rdf_List
+    - rdfs_Datatype
+    - sdos_ActionStatusType
+    - sdos_AdultOrientedEnumeration
+    - sdos_BoardingPolicyType
+    - sdos_BodyMeasurementTypeEnumeration
+    - sdos_BookFormatType
+    - sdos_Boolean
+    - sdos_CarUsageType
+    - sdos_CertificationStatusEnumeration
+    - sdos_ContactPointOption
+    - sdos_DataType
+    - sdos_DayOfWeek
+    - sdos_DeliveryMethod
+    - sdos_DigitalDocumentPermissionType
+    - sdos_DigitalPlatformEnumeration
+    - sdos_DriveWheelConfigurationValue
+    - sdos_DrugCostCategory
+    - sdos_DrugPregnancyCategory
+    - sdos_DrugPrescriptionStatus
+    - sdos_EUEnergyEfficiencyEnumeration
+    - sdos_EnergyStarEnergyEfficiencyEnumeration
+    - sdos_EventAttendanceModeEnumeration
+    - sdos_EventStatusType
+    - sdos_FulfillmentTypeEnumeration
+    - sdos_GameAvailabilityEnumeration
+    - sdos_GamePlayMode
+    - sdos_GameServerStatus
+    - sdos_GenderType
+    - sdos_GovernmentBenefitsType
+    - sdos_HealthAspectEnumeration
+    - sdos_IPTCDigitalSourceEnumeration
+    - sdos_IncentiveQualifiedExpenseType
+    - sdos_IncentiveStatus
+    - sdos_IncentiveType
+    - sdos_InfectiousAgentClass
+    - sdos_ItemAvailability
+    - sdos_ItemListOrderType
+    - sdos_LegalForceStatus
+    - sdos_LegalValueLevel
+    - sdos_MapCategoryType
+    - sdos_MeasurementMethodEnum
+    - sdos_MediaManipulationRatingEnumeration
+    - sdos_MedicalAudienceType
+    - sdos_MedicalDevicePurpose
+    - sdos_MedicalEvidenceLevel
+    - sdos_MedicalImagingTechnique
+    - sdos_MedicalObservationalStudyDesign
+    - sdos_MedicalProcedureType
+    - sdos_MedicalSpecialty
+    - sdos_MedicalStudyStatus
+    - sdos_MedicalTrialDesign
+    - sdos_MedicineSystem
+    - sdos_MerchantReturnEnumeration
+    - sdos_MusicAlbumProductionType
+    - sdos_MusicAlbumReleaseType
+    - sdos_MusicReleaseFormatType
+    - sdos_NLNonprofitType
+    - sdos_OfferItemCondition
+    - sdos_OrderStatus
+    - sdos_PaymentMethodType
+    - sdos_PaymentStatusType
+    - sdos_PhysicalActivityCategory
+    - sdos_PhysicalExam
+    - sdos_PriceComponentTypeEnumeration
+    - sdos_PriceTypeEnumeration
+    - sdos_ProductReturnEnumeration
+    - sdos_PurchaseType
+    - sdos_RefundTypeEnumeration
+    - sdos_ReservationStatusType
+    - sdos_RestrictedDiet
+    - sdos_ReturnFeesEnumeration
+    - sdos_ReturnLabelSourceEnumeration
+    - sdos_ReturnMethodEnumeration
+    - sdos_RsvpResponseType
+    - sdos_SizeSystemEnumeration
+    - sdos_SteeringPositionValue
+    - sdos_TierBenefitEnumeration
+    - sdos_UKNonprofitType
+    - sdos_USNonprofitType
+    - sdos_WearableMeasurementTypeEnumeration
+    - sdos_WearableSizeGroupEnumeration
+    - sdos_WearableSizeSystemEnumeration
+    - dcam_VocabularyEncodingScheme
+    - dct_AgentClass
+    - https___wildlife.proto-okn.net_kg_Amphibian_name
+    - https___wildlife.proto-okn.net_kg_Bird_name
+    - https___wildlife.proto-okn.net_kg_Location
+    - https___wildlife.proto-okn.net_kg_schema_Amphibian_name
+    - https___wildlife.proto-okn.net_kg_schema_Bird_name
+    - https___wildlife.proto-okn.net_kg_schema_Location
+    range: Any
+    any_of:
+    - range: rdfs_Literal
+    - range: string
 class_uri: https://wildlife.proto-okn.net/kg/schema/Amphibian_name
 
 ```

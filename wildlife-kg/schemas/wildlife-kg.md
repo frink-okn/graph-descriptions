@@ -1,6 +1,6 @@
 # wildlife-kg
 
-No schema description specified
+None
 
-URI: wildlife-kg
+URI: okns:wildlife-kg
 

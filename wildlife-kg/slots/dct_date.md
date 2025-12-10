@@ -1,16 +1,16 @@
 
 
-# Slot: dct_date
+# Slot: Date (dct_date)
 
 
-_No slot (predicate) description specified_
-
-
-
+_Date may be used to express temporal information at any level of granularity.  Recommended practice is to express the date, date/time, or period of time according to ISO 8601-1 [[ISO 8601-1](https://www.iso.org/iso-8601-date-and-time-format.html)] or a published profile of the ISO standard, such as the W3C Note on Date and Time Formats [[W3CDTF](https://www.w3.org/TR/NOTE-datetime)] or the Extended Date/Time Format Specification [[EDTF](http://www.loc.gov/standards/datetime/)].  If the full date is unknown, month and year (YYYY-MM) or just year (YYYY) may be used. Date ranges may be specified using ISO 8601 period of time specification in which start and end dates are separated by a '/' (slash) character.  Either the start or end date may be missing._
 
 
 
-This slot occurs 5205 times.
+
+
+
+This slot occurs 10410 times.
 
 
 URI: [dct:date](http://purl.org/dc/terms/date)
@@ -23,34 +23,20 @@ URI: [dct:date](http://purl.org/dc/terms/date)
 
 
 
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [RdfStatement](../classes/RdfStatement.md) | No class (type) description specified |  yes  |
-
-
-
-
 
 
 
 ## Properties
 
-* Range: [Any](../classes/Any.md)&nbsp;or&nbsp;<br />[xsd:dateTime](http://www.w3.org/2001/XMLSchema#dateTime)&nbsp;or&nbsp;<br />[xsd:date](http://www.w3.org/2001/XMLSchema#date)
+* Range: [RdfsLiteral](../classes/RdfsLiteral.md)
 
 
 
 
 
+## Comments
 
-## Examples
-
-| Subject type | Object type | Example subject | Example object | Occurrences |
-| --- | --- | --- | --- | --- |
-| rdf_Statement | datetime | https://wildlife.proto-okn.net/kg/relationship/14856 | 2018-12-26T18:04:00 | 5118 |
-| rdf_Statement | date | https://wildlife.proto-okn.net/kg/relationship/15004 | 2023-10-18 | 87 |
-
+* description: A point or period of time associated with an event in the lifecycle of the resource.
 
 
 
@@ -60,34 +46,26 @@ URI: [dct:date](http://purl.org/dc/terms/date)
 
 ```yaml
 name: dct_date
-annotations:
-  count:
-    tag: count
-    value: 5205
-description: No slot (predicate) description specified
-examples:
-- object:
-    example_object: '2018-12-26T18:04:00'
-    example_object_type: datetime
-    example_predicate: dct:date
-    example_subject: https://wildlife.proto-okn.net/kg/relationship/14856
-    example_subject_type: rdf_Statement
-- object:
-    example_object: '2023-10-18'
-    example_object_type: date
-    example_predicate: dct:date
-    example_subject: https://wildlife.proto-okn.net/kg/relationship/15004
-    example_subject_type: rdf_Statement
-from_schema: wildlife-kg
-rank: 1000
+description: Date may be used to express temporal information at any level of granularity.  Recommended
+  practice is to express the date, date/time, or period of time according to ISO 8601-1
+  [[ISO 8601-1](https://www.iso.org/iso-8601-date-and-time-format.html)] or a published
+  profile of the ISO standard, such as the W3C Note on Date and Time Formats [[W3CDTF](https://www.w3.org/TR/NOTE-datetime)]
+  or the Extended Date/Time Format Specification [[EDTF](http://www.loc.gov/standards/datetime/)].  If
+  the full date is unknown, month and year (YYYY-MM) or just year (YYYY) may be used.
+  Date ranges may be specified using ISO 8601 period of time specification in which
+  start and end dates are separated by a '/' (slash) character.  Either the start
+  or end date may be missing.
+title: Date
+notes:
+- No occurrences of this slot in the graph.
+comments:
+- 'description: A point or period of time associated with an event in the lifecycle
+  of the resource.'
+from_schema: okns:dc
+source: http://purl.org/dc/terms/
 slot_uri: dct:date
-alias: dct_date
-domain_of:
-- rdf_Statement
-range: Any
-any_of:
-- range: datetime
-- range: date
+subproperty_of: dc_date
+range: rdfs_Literal
 
 ```
 </details>

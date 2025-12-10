@@ -1,3 +1,4 @@
+name: wildlife-kg
 annotations:
   counts:
     tag: counts
@@ -601,43 +602,9 @@ annotations:
                       subject:
                         tag: subject
                         value: https://wildlife.proto-okn.net/kg/14856
-classes:
-  https___wildlife.proto-okn.net_kg_Amphibian_name:
-    class_uri: https://wildlife.proto-okn.net/kg/Amphibian_name
-    name: https___wildlife.proto-okn.net_kg_Amphibian_name
-    slots:
-    - https___wildlife.proto-okn.net_kg_OBSERVED_AT
-    - rdfs_label
-  https___wildlife.proto-okn.net_kg_Bird_name:
-    class_uri: https://wildlife.proto-okn.net/kg/Bird_name
-    name: https___wildlife.proto-okn.net_kg_Bird_name
-    slots:
-    - https___wildlife.proto-okn.net_kg_OBSERVED_AT
-    - rdfs_label
-  https___wildlife.proto-okn.net_kg_Location:
-    class_uri: https://wildlife.proto-okn.net/kg/Location
-    name: https___wildlife.proto-okn.net_kg_Location
-    slots:
-    - rdfs_label
-  https___wildlife.proto-okn.net_kg_schema_Amphibian_name:
-    class_uri: https://wildlife.proto-okn.net/kg/schema/Amphibian_name
-    name: https___wildlife.proto-okn.net_kg_schema_Amphibian_name
-    slots:
-    - https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT
-    - rdfs_label
-  https___wildlife.proto-okn.net_kg_schema_Bird_name:
-    class_uri: https://wildlife.proto-okn.net/kg/schema/Bird_name
-    name: https___wildlife.proto-okn.net_kg_schema_Bird_name
-    slots:
-    - https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT
-    - rdfs_label
-  https___wildlife.proto-okn.net_kg_schema_Location:
-    class_uri: https://wildlife.proto-okn.net/kg/schema/Location
-    name: https___wildlife.proto-okn.net_kg_schema_Location
-    slots:
-    - rdfs_label
+title: wildlifekn
 created_on: '2025-12-10T20:16:31.214547'
-default_prefix: okns
+last_updated_on: '2025-12-10T20:16:31.214547'
 id: okns:wildlife-kg
 imports:
 - okns:sdo
@@ -645,27 +612,79 @@ imports:
 - okns:dc
 - okns:owl-rdf-rdfs
 - linkml:types
-last_updated_on: '2025-12-10T20:16:31.214547'
-name: wildlife-kg
 prefixes:
-  dct: http://purl.org/dc/terms/
-  linkml: https://w3id.org/linkml/
-  okn: https://purl.org/okn/
-  okns: https://purl.org/okn/schema/
-  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
-  rdfs: http://www.w3.org/2000/01/rdf-schema#
-  sdos: https://schema.org/
+  dct:
+    prefix_prefix: dct
+    prefix_reference: http://purl.org/dc/terms/
+  linkml:
+    prefix_prefix: linkml
+    prefix_reference: https://w3id.org/linkml/
+  okn:
+    prefix_prefix: okn
+    prefix_reference: https://purl.org/okn/
+  okns:
+    prefix_prefix: okns
+    prefix_reference: https://purl.org/okn/schema/
+  rdf:
+    prefix_prefix: rdf
+    prefix_reference: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs:
+    prefix_prefix: rdfs
+    prefix_reference: http://www.w3.org/2000/01/rdf-schema#
+  sdos:
+    prefix_prefix: sdos
+    prefix_reference: https://schema.org/
+default_prefix: okns
 slots:
   https___wildlife.proto-okn.net_kg_OBSERVED_AT:
-    range: https___wildlife.proto-okn.net_kg_Location
+    name: https___wildlife.proto-okn.net_kg_OBSERVED_AT
     slot_uri: https://wildlife.proto-okn.net/kg/OBSERVED_AT
+    range: https___wildlife.proto-okn.net_kg_Location
   https___wildlife.proto-okn.net_kg_observed_times:
-    range: int32
+    name: https___wildlife.proto-okn.net_kg_observed_times
     slot_uri: https://wildlife.proto-okn.net/kg/observed_times
-  https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT:
-    range: https___wildlife.proto-okn.net_kg_schema_Location
-    slot_uri: https://wildlife.proto-okn.net/kg/schema/OBSERVED_AT
-  https___wildlife.proto-okn.net_kg_schema_observed_times:
     range: int32
+  https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT:
+    name: https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT
+    slot_uri: https://wildlife.proto-okn.net/kg/schema/OBSERVED_AT
+    range: https___wildlife.proto-okn.net_kg_schema_Location
+  https___wildlife.proto-okn.net_kg_schema_observed_times:
+    name: https___wildlife.proto-okn.net_kg_schema_observed_times
     slot_uri: https://wildlife.proto-okn.net/kg/schema/observed_times
-title: wildlifekn
+    range: int32
+classes:
+  https___wildlife.proto-okn.net_kg_Amphibian_name:
+    name: https___wildlife.proto-okn.net_kg_Amphibian_name
+    slots:
+    - https___wildlife.proto-okn.net_kg_OBSERVED_AT
+    - rdfs_label
+    class_uri: https://wildlife.proto-okn.net/kg/Amphibian_name
+  https___wildlife.proto-okn.net_kg_Bird_name:
+    name: https___wildlife.proto-okn.net_kg_Bird_name
+    slots:
+    - https___wildlife.proto-okn.net_kg_OBSERVED_AT
+    - rdfs_label
+    class_uri: https://wildlife.proto-okn.net/kg/Bird_name
+  https___wildlife.proto-okn.net_kg_Location:
+    name: https___wildlife.proto-okn.net_kg_Location
+    slots:
+    - rdfs_label
+    class_uri: https://wildlife.proto-okn.net/kg/Location
+  https___wildlife.proto-okn.net_kg_schema_Amphibian_name:
+    name: https___wildlife.proto-okn.net_kg_schema_Amphibian_name
+    slots:
+    - https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT
+    - rdfs_label
+    class_uri: https://wildlife.proto-okn.net/kg/schema/Amphibian_name
+  https___wildlife.proto-okn.net_kg_schema_Bird_name:
+    name: https___wildlife.proto-okn.net_kg_schema_Bird_name
+    slots:
+    - https___wildlife.proto-okn.net_kg_schema_OBSERVED_AT
+    - rdfs_label
+    class_uri: https://wildlife.proto-okn.net/kg/schema/Bird_name
+  https___wildlife.proto-okn.net_kg_schema_Location:
+    name: https___wildlife.proto-okn.net_kg_schema_Location
+    slots:
+    - rdfs_label
+    class_uri: https://wildlife.proto-okn.net/kg/schema/Location
+source_file: /code/wildlife-kg.yaml

@@ -1,6 +1,6 @@
 
 
-# Class: HttpsWildlife.proto-okn.netKgSchemaLocation
+# Class: HttpsWildlife.proto-okn.netKgLocation
 
 
 
@@ -8,7 +8,7 @@
 This class occurs 657 times.
 
 
-URI: [https://wildlife.proto-okn.net/kg/schema/Location](https://wildlife.proto-okn.net/kg/schema/Location)
+URI: [https://wildlife.proto-okn.net/kg/Location](https://wildlife.proto-okn.net/kg/Location)
 
 
 
@@ -17,14 +17,14 @@ URI: [https://wildlife.proto-okn.net/kg/schema/Location](https://wildlife.proto-
 
 ```mermaid
  classDiagram
-    class HttpsWildlife.proto-okn.netKgSchemaLocation
-    click HttpsWildlife.proto-okn.netKgSchemaLocation href "../HttpsWildlife.proto-okn.netKgSchemaLocation"
-      HttpsWildlife.proto-okn.netKgSchemaLocation : rdfs_label
+    class HttpsWildlife.proto-okn.netKgLocation
+    click HttpsWildlife.proto-okn.netKgLocation href "../HttpsWildlife.proto-okn.netKgLocation"
+      HttpsWildlife.proto-okn.netKgLocation : rdfs_label
         
           
     
     
-    HttpsWildlife.proto-okn.netKgSchemaLocation --> "0..1" Any : rdfs_label
+    HttpsWildlife.proto-okn.netKgLocation --> "0..1" Any : rdfs_label
     click Any href "../Any"
 
         
@@ -51,8 +51,8 @@ URI: [https://wildlife.proto-okn.net/kg/schema/Location](https://wildlife.proto-
 
 | used by | used in | type | used |
 | ---  | --- | --- | --- |
-| [HttpsWildlife.proto-okn.netKgSchemaAmphibianName](../classes/HttpsWildlife.proto-okn.netKgSchemaAmphibianName.md) | [https___wildlife.proto_okn.net_kg_schema_OBSERVED_AT](../slots/https___wildlife.proto_okn.net_kg_schema_OBSERVED_AT.md) | range | [HttpsWildlife.proto-okn.netKgSchemaLocation](../classes/HttpsWildlife.proto-okn.netKgSchemaLocation.md) |
-| [HttpsWildlife.proto-okn.netKgSchemaBirdName](../classes/HttpsWildlife.proto-okn.netKgSchemaBirdName.md) | [https___wildlife.proto_okn.net_kg_schema_OBSERVED_AT](../slots/https___wildlife.proto_okn.net_kg_schema_OBSERVED_AT.md) | range | [HttpsWildlife.proto-okn.netKgSchemaLocation](../classes/HttpsWildlife.proto-okn.netKgSchemaLocation.md) |
+| [HttpsWildlife.proto-okn.netKgAmphibianName](../classes/HttpsWildlife.proto-okn.netKgAmphibianName.md) | [https___wildlife.proto_okn.net_kg_OBSERVED_AT](../slots/https___wildlife.proto_okn.net_kg_OBSERVED_AT.md) | range | [HttpsWildlife.proto-okn.netKgLocation](../classes/HttpsWildlife.proto-okn.netKgLocation.md) |
+| [HttpsWildlife.proto-okn.netKgBirdName](../classes/HttpsWildlife.proto-okn.netKgBirdName.md) | [https___wildlife.proto_okn.net_kg_OBSERVED_AT](../slots/https___wildlife.proto_okn.net_kg_OBSERVED_AT.md) | range | [HttpsWildlife.proto-okn.netKgLocation](../classes/HttpsWildlife.proto-okn.netKgLocation.md) |
 
 
 
@@ -73,12 +73,12 @@ URI: [https://wildlife.proto-okn.net/kg/schema/Location](https://wildlife.proto-
 <details>
 
 ```yaml
-name: https___wildlife.proto-okn.net_kg_schema_Location
+name: https___wildlife.proto-okn.net_kg_Location
 from_schema: okns:wildlife-kg
 rank: 1000
 slots:
 - rdfs_label
-class_uri: https://wildlife.proto-okn.net/kg/schema/Location
+class_uri: https://wildlife.proto-okn.net/kg/Location
 
 ```
 </details>
@@ -88,7 +88,7 @@ class_uri: https://wildlife.proto-okn.net/kg/schema/Location
 <details>
 
 ```yaml
-name: https___wildlife.proto-okn.net_kg_schema_Location
+name: https___wildlife.proto-okn.net_kg_Location
 from_schema: okns:wildlife-kg
 rank: 1000
 attributes:
@@ -101,7 +101,7 @@ attributes:
     domain: rdfs_Resource
     slot_uri: rdfs:label
     alias: rdfs_label
-    owner: https___wildlife.proto-okn.net_kg_schema_Location
+    owner: https___wildlife.proto-okn.net_kg_Location
     domain_of:
     - rdf_List
     - rdfs_Datatype
@@ -198,7 +198,7 @@ attributes:
     any_of:
     - range: rdfs_Literal
     - range: string
-class_uri: https://wildlife.proto-okn.net/kg/schema/Location
+class_uri: https://wildlife.proto-okn.net/kg/Location
 
 ```
 </details>
