@@ -1,6 +1,6 @@
 # nasa-gesdisc
 
-No schema description specified
+None
 
-URI: nasa-gesdisc
+URI: okns:nasa-gesdisc
 

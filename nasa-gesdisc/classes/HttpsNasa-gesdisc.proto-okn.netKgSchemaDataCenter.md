@@ -1,11 +1,6 @@
 
 
-# Class: No class (type) name specified (https___nasa-gesdisc.proto-okn.net_kg_schema_DataCenter)
-
-
-_No class (type) description specified_
-
-
+# Class: HttpsNasa-gesdisc.proto-okn.netKgSchemaDataCenter
 
 
 
@@ -29,8 +24,8 @@ URI: [https://nasa-gesdisc.proto-okn.net/kg/schema/DataCenter](https://nasa-gesd
           
     
     
-    HttpsNasa-gesdisc.proto-okn.netKgSchemaDataCenter --> "0..1" String : dct_subject
-    click String href "../String"
+    HttpsNasa-gesdisc.proto-okn.netKgSchemaDataCenter --> "0..1" Any : dct_subject
+    click Any href "../Any"
 
         
       HttpsNasa-gesdisc.proto-okn.netKgSchemaDataCenter : https___nasa_gesdisc.proto_okn.net_kg_schema_globalId
@@ -65,8 +60,8 @@ URI: [https://nasa-gesdisc.proto-okn.net/kg/schema/DataCenter](https://nasa-gesd
           
     
     
-    HttpsNasa-gesdisc.proto-okn.netKgSchemaDataCenter --> "0..1" String : rdfs_label
-    click String href "../String"
+    HttpsNasa-gesdisc.proto-okn.netKgSchemaDataCenter --> "0..1" Any : rdfs_label
+    click Any href "../Any"
 
         
       
@@ -82,21 +77,14 @@ URI: [https://nasa-gesdisc.proto-okn.net/kg/schema/DataCenter](https://nasa-gesd
 
 | Name | Cardinality and Range | Description | Inheritance | Occurrences |
 | ---  | --- | --- | --- | --- |
-| [https___nasa_gesdisc.proto_okn.net_kg_schema_globalId](../slots/https___nasa_gesdisc.proto_okn.net_kg_schema_globalId.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 197 |
-| [dct_subject](../slots/dct_subject.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 197 |
-| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [xsd:string](http://www.w3.org/2001/XMLSchema#string) | No slot (predicate) description specified <br/>  | direct | 197 |
-| [https___nasa_gesdisc.proto_okn.net_kg_schema_HAS_DATASET](../slots/https___nasa_gesdisc.proto_okn.net_kg_schema_HAS_DATASET.md) | 0..1 <br/> [HttpsNasa-gesdisc.proto-okn.netKgSchemaDataset](../classes/HttpsNasa-gesdisc.proto-okn.netKgSchemaDataset.md) | No slot (predicate) description specified <br/>  | direct | 9834 |
-| [https___nasa_gesdisc.proto_okn.net_kg_schema_url](../slots/https___nasa_gesdisc.proto_okn.net_kg_schema_url.md) | 0..1 <br/> [xsd:anyURI](http://www.w3.org/2001/XMLSchema#anyURI) | No slot (predicate) description specified <br/>  | direct | 197 |
+| [https___nasa_gesdisc.proto_okn.net_kg_schema_globalId](../slots/https___nasa_gesdisc.proto_okn.net_kg_schema_globalId.md) | 0..1 <br/> [xsd:string](xsd:string) |  <br/>  | direct | 197 |
+| [rdfs_label](../slots/rdfs_label.md) | 0..1 <br/> [RdfsLiteral](../classes/RdfsLiteral.md)&nbsp;or&nbsp;<br />[xsd:string](xsd:string) | A human-readable name for the subject <br/>  | direct | 197 |
+| [https___nasa_gesdisc.proto_okn.net_kg_schema_HAS_DATASET](../slots/https___nasa_gesdisc.proto_okn.net_kg_schema_HAS_DATASET.md) | 0..1 <br/> [HttpsNasa-gesdisc.proto-okn.netKgSchemaDataset](../classes/HttpsNasa-gesdisc.proto-okn.netKgSchemaDataset.md) |  <br/>  | direct | 9834 |
+| [https___nasa_gesdisc.proto_okn.net_kg_schema_url](../slots/https___nasa_gesdisc.proto_okn.net_kg_schema_url.md) | 0..1 <br/> [xsd:anyURI](xsd:anyURI) |  <br/>  | direct | 197 |
+| [dct_subject](../slots/dct_subject.md) | 0..1 <br/> [Any](../classes/Any.md) | Recommended practice is to refer to the subject with a URI <br/> description: A topic of the resource. | direct | 197 |
 
 
 
-
-
-## Usages
-
-| used by | used in | type | used |
-| ---  | --- | --- | --- |
-| [RdfStatement](../classes/RdfStatement.md) | [rdf_subject](../slots/rdf_subject.md) | any_of[range] | [HttpsNasa-gesdisc.proto-okn.netKgSchemaDataCenter](../classes/HttpsNasa-gesdisc.proto-okn.netKgSchemaDataCenter.md) |
 
 
 
@@ -118,52 +106,14 @@ URI: [https://nasa-gesdisc.proto-okn.net/kg/schema/DataCenter](https://nasa-gesd
 
 ```yaml
 name: https___nasa-gesdisc.proto-okn.net_kg_schema_DataCenter
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 197
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: nasa-gesdisc
+from_schema: okns:nasa-gesdisc
 rank: 1000
 slots:
 - https___nasa-gesdisc.proto-okn.net_kg_schema_globalId
-- dct_subject
 - rdfs_label
 - https___nasa-gesdisc.proto-okn.net_kg_schema_HAS_DATASET
 - https___nasa-gesdisc.proto-okn.net_kg_schema_url
-slot_usage:
-  dct_subject:
-    name: dct_subject
-    annotations:
-      string:
-        tag: string
-        value: 197
-  https___nasa-gesdisc.proto-okn.net_kg_schema_HAS_DATASET:
-    name: https___nasa-gesdisc.proto-okn.net_kg_schema_HAS_DATASET
-    annotations:
-      https___nasa-gesdisc.proto-okn.net_kg_schema_Dataset:
-        tag: https___nasa-gesdisc.proto-okn.net_kg_schema_Dataset
-        value: 9834
-  https___nasa-gesdisc.proto-okn.net_kg_schema_globalId:
-    name: https___nasa-gesdisc.proto-okn.net_kg_schema_globalId
-    annotations:
-      string:
-        tag: string
-        value: 197
-  https___nasa-gesdisc.proto-okn.net_kg_schema_url:
-    name: https___nasa-gesdisc.proto-okn.net_kg_schema_url
-    annotations:
-      uri:
-        tag: uri
-        value: 197
-  rdfs_label:
-    name: rdfs_label
-    annotations:
-      string:
-        tag: string
-        value: 197
+- dct_subject
 class_uri: https://nasa-gesdisc.proto-okn.net/kg/schema/DataCenter
 
 ```
@@ -175,98 +125,12 @@ class_uri: https://nasa-gesdisc.proto-okn.net/kg/schema/DataCenter
 
 ```yaml
 name: https___nasa-gesdisc.proto-okn.net_kg_schema_DataCenter
-conforms_to: No schema conformance document specified
-annotations:
-  count:
-    tag: count
-    value: 197
-description: No class (type) description specified
-title: No class (type) name specified
-from_schema: nasa-gesdisc
+from_schema: okns:nasa-gesdisc
 rank: 1000
-slot_usage:
-  dct_subject:
-    name: dct_subject
-    annotations:
-      string:
-        tag: string
-        value: 197
-  https___nasa-gesdisc.proto-okn.net_kg_schema_HAS_DATASET:
-    name: https___nasa-gesdisc.proto-okn.net_kg_schema_HAS_DATASET
-    annotations:
-      https___nasa-gesdisc.proto-okn.net_kg_schema_Dataset:
-        tag: https___nasa-gesdisc.proto-okn.net_kg_schema_Dataset
-        value: 9834
-  https___nasa-gesdisc.proto-okn.net_kg_schema_globalId:
-    name: https___nasa-gesdisc.proto-okn.net_kg_schema_globalId
-    annotations:
-      string:
-        tag: string
-        value: 197
-  https___nasa-gesdisc.proto-okn.net_kg_schema_url:
-    name: https___nasa-gesdisc.proto-okn.net_kg_schema_url
-    annotations:
-      uri:
-        tag: uri
-        value: 197
-  rdfs_label:
-    name: rdfs_label
-    annotations:
-      string:
-        tag: string
-        value: 197
 attributes:
   https___nasa-gesdisc.proto-okn.net_kg_schema_globalId:
     name: https___nasa-gesdisc.proto-okn.net_kg_schema_globalId
-    annotations:
-      string:
-        tag: string
-        value: 197
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: dcf602c1-0e51-55f1-97fb-dbfb8a704c0f
-        example_object_type: string
-        example_predicate: https://nasa-gesdisc.proto-okn.net/kg/schema/globalId
-        example_subject: https://nasa-gesdisc.proto-okn.net/kg/node/0
-        example_subject_type: https___nasa-gesdisc.proto-okn.net_kg_schema_Dataset
-    - object:
-        example_object: dd0ff369-99bb-5ea4-87e8-769ead7dd7c2
-        example_object_type: string
-        example_predicate: https://nasa-gesdisc.proto-okn.net/kg/schema/globalId
-        example_subject: https://nasa-gesdisc.proto-okn.net/kg/node/10000
-        example_subject_type: https___nasa-gesdisc.proto-okn.net_kg_schema_Publication
-    - object:
-        example_object: 3133f2fc-268e-50c1-ba3d-ded48c82484b
-        example_object_type: string
-        example_predicate: https://nasa-gesdisc.proto-okn.net/kg/schema/globalId
-        example_subject: https://nasa-gesdisc.proto-okn.net/kg/node/34483
-        example_subject_type: https___nasa-gesdisc.proto-okn.net_kg_schema_ScienceKeyword
-    - object:
-        example_object: 46b38de5-bd0d-5055-a829-27b9bd736e7a
-        example_object_type: string
-        example_predicate: https://nasa-gesdisc.proto-okn.net/kg/schema/globalId
-        example_subject: https://nasa-gesdisc.proto-okn.net/kg/node/6821
-        example_subject_type: https___nasa-gesdisc.proto-okn.net_kg_schema_DataCenter
-    - object:
-        example_object: 7540d35b-6334-52e4-a566-a6b56529bef1
-        example_object_type: string
-        example_predicate: https://nasa-gesdisc.proto-okn.net/kg/schema/globalId
-        example_subject: https://nasa-gesdisc.proto-okn.net/kg/node/7018
-        example_subject_type: https___nasa-gesdisc.proto-okn.net_kg_schema_Project
-    - object:
-        example_object: 5a0c4d6a-8696-5c21-a821-63301ab32ffa
-        example_object_type: string
-        example_predicate: https://nasa-gesdisc.proto-okn.net/kg/schema/globalId
-        example_subject: https://nasa-gesdisc.proto-okn.net/kg/node/7369
-        example_subject_type: https___nasa-gesdisc.proto-okn.net_kg_schema_Platform
-    - object:
-        example_object: f4d62d70-809d-5264-97c2-9fee6f7e54c0
-        example_object_type: string
-        example_predicate: https://nasa-gesdisc.proto-okn.net/kg/schema/globalId
-        example_subject: https://nasa-gesdisc.proto-okn.net/kg/node/7820
-        example_subject_type: https___nasa-gesdisc.proto-okn.net_kg_schema_Instrument
-    from_schema: nasa-gesdisc
+    from_schema: okns:nasa-gesdisc
     rank: 1000
     slot_uri: https://nasa-gesdisc.proto-okn.net/kg/schema/globalId
     alias: https___nasa_gesdisc.proto_okn.net_kg_schema_globalId
@@ -280,128 +144,117 @@ attributes:
     - https___nasa-gesdisc.proto-okn.net_kg_schema_Publication
     - https___nasa-gesdisc.proto-okn.net_kg_schema_ScienceKeyword
     range: string
-  dct_subject:
-    name: dct_subject
-    annotations:
-      string:
-        tag: string
-        value: 197
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: ERS-1 Gridded Level 3 Enhanced Resolution Sigma-0 from BYU
-        example_object_type: string
-        example_predicate: dct:subject
-        example_subject: https://nasa-gesdisc.proto-okn.net/kg/node/0
-        example_subject_type: https___nasa-gesdisc.proto-okn.net_kg_schema_Dataset
-    - object:
-        example_object: N/A
-        example_object_type: string
-        example_predicate: dct:subject
-        example_subject: https://nasa-gesdisc.proto-okn.net/kg/node/6821
-        example_subject_type: https___nasa-gesdisc.proto-okn.net_kg_schema_DataCenter
-    - object:
-        example_object: Scatterometry Climate Record Pathfinder
-        example_object_type: string
-        example_predicate: dct:subject
-        example_subject: https://nasa-gesdisc.proto-okn.net/kg/node/7018
-        example_subject_type: https___nasa-gesdisc.proto-okn.net_kg_schema_Project
-    - object:
-        example_object: European Remote Sensing Satellite-1
-        example_object_type: string
-        example_predicate: dct:subject
-        example_subject: https://nasa-gesdisc.proto-okn.net/kg/node/7369
-        example_subject_type: https___nasa-gesdisc.proto-okn.net_kg_schema_Platform
-    - object:
-        example_object: Active Microwave Instrument
-        example_object_type: string
-        example_predicate: dct:subject
-        example_subject: https://nasa-gesdisc.proto-okn.net/kg/node/7820
-        example_subject_type: https___nasa-gesdisc.proto-okn.net_kg_schema_Instrument
-    from_schema: nasa-gesdisc
-    rank: 1000
-    slot_uri: dct:subject
-    alias: dct_subject
-    owner: https___nasa-gesdisc.proto-okn.net_kg_schema_DataCenter
-    domain_of:
-    - https___nasa-gesdisc.proto-okn.net_kg_schema_DataCenter
-    - https___nasa-gesdisc.proto-okn.net_kg_schema_Dataset
-    - https___nasa-gesdisc.proto-okn.net_kg_schema_Instrument
-    - https___nasa-gesdisc.proto-okn.net_kg_schema_Platform
-    - https___nasa-gesdisc.proto-okn.net_kg_schema_Project
-    range: string
   rdfs_label:
     name: rdfs_label
-    annotations:
-      string:
-        tag: string
-        value: 197
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: ERS-1_BYU_L3_OW_SIGMA0_ENHANCED
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: https://nasa-gesdisc.proto-okn.net/kg/node/0
-        example_subject_type: https___nasa-gesdisc.proto-okn.net_kg_schema_Dataset
-    - object:
-        example_object: DATA ANALYSIS AND VISUALIZATION
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: https://nasa-gesdisc.proto-okn.net/kg/node/34483
-        example_subject_type: https___nasa-gesdisc.proto-okn.net_kg_schema_ScienceKeyword
-    - object:
-        example_object: BYU/SCP
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: https://nasa-gesdisc.proto-okn.net/kg/node/6821
-        example_subject_type: https___nasa-gesdisc.proto-okn.net_kg_schema_DataCenter
-    - object:
-        example_object: SCP
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: https://nasa-gesdisc.proto-okn.net/kg/node/7018
-        example_subject_type: https___nasa-gesdisc.proto-okn.net_kg_schema_Project
-    - object:
-        example_object: ERS-1
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: https://nasa-gesdisc.proto-okn.net/kg/node/7369
-        example_subject_type: https___nasa-gesdisc.proto-okn.net_kg_schema_Platform
-    - object:
-        example_object: AMI
-        example_object_type: string
-        example_predicate: rdfs:label
-        example_subject: https://nasa-gesdisc.proto-okn.net/kg/node/7820
-        example_subject_type: https___nasa-gesdisc.proto-okn.net_kg_schema_Instrument
-    from_schema: nasa-gesdisc
-    rank: 1000
+    description: A human-readable name for the subject.
+    title: label
+    from_schema: okns:owl-rdf-rdfs
+    source: http://www.w3.org/2000/01/rdf-schema#
+    domain: rdfs_Resource
     slot_uri: rdfs:label
     alias: rdfs_label
     owner: https___nasa-gesdisc.proto-okn.net_kg_schema_DataCenter
     domain_of:
+    - rdf_List
+    - rdfs_Datatype
+    - sdos_ActionStatusType
+    - sdos_AdultOrientedEnumeration
+    - sdos_BoardingPolicyType
+    - sdos_BodyMeasurementTypeEnumeration
+    - sdos_BookFormatType
+    - sdos_Boolean
+    - sdos_CarUsageType
+    - sdos_CertificationStatusEnumeration
+    - sdos_ContactPointOption
+    - sdos_DataType
+    - sdos_DayOfWeek
+    - sdos_DeliveryMethod
+    - sdos_DigitalDocumentPermissionType
+    - sdos_DigitalPlatformEnumeration
+    - sdos_DriveWheelConfigurationValue
+    - sdos_DrugCostCategory
+    - sdos_DrugPregnancyCategory
+    - sdos_DrugPrescriptionStatus
+    - sdos_EUEnergyEfficiencyEnumeration
+    - sdos_EnergyStarEnergyEfficiencyEnumeration
+    - sdos_EventAttendanceModeEnumeration
+    - sdos_EventStatusType
+    - sdos_FulfillmentTypeEnumeration
+    - sdos_GameAvailabilityEnumeration
+    - sdos_GamePlayMode
+    - sdos_GameServerStatus
+    - sdos_GenderType
+    - sdos_GovernmentBenefitsType
+    - sdos_HealthAspectEnumeration
+    - sdos_IPTCDigitalSourceEnumeration
+    - sdos_IncentiveQualifiedExpenseType
+    - sdos_IncentiveStatus
+    - sdos_IncentiveType
+    - sdos_InfectiousAgentClass
+    - sdos_ItemAvailability
+    - sdos_ItemListOrderType
+    - sdos_LegalForceStatus
+    - sdos_LegalValueLevel
+    - sdos_MapCategoryType
+    - sdos_MeasurementMethodEnum
+    - sdos_MediaManipulationRatingEnumeration
+    - sdos_MedicalAudienceType
+    - sdos_MedicalDevicePurpose
+    - sdos_MedicalEvidenceLevel
+    - sdos_MedicalImagingTechnique
+    - sdos_MedicalObservationalStudyDesign
+    - sdos_MedicalProcedureType
+    - sdos_MedicalSpecialty
+    - sdos_MedicalStudyStatus
+    - sdos_MedicalTrialDesign
+    - sdos_MedicineSystem
+    - sdos_MerchantReturnEnumeration
+    - sdos_MusicAlbumProductionType
+    - sdos_MusicAlbumReleaseType
+    - sdos_MusicReleaseFormatType
+    - sdos_NLNonprofitType
+    - sdos_OfferItemCondition
+    - sdos_OrderStatus
+    - sdos_PaymentMethodType
+    - sdos_PaymentStatusType
+    - sdos_PhysicalActivityCategory
+    - sdos_PhysicalExam
+    - sdos_PriceComponentTypeEnumeration
+    - sdos_PriceTypeEnumeration
+    - sdos_ProductReturnEnumeration
+    - sdos_PurchaseType
+    - sdos_RefundTypeEnumeration
+    - sdos_ReservationStatusType
+    - sdos_RestrictedDiet
+    - sdos_ReturnFeesEnumeration
+    - sdos_ReturnLabelSourceEnumeration
+    - sdos_ReturnMethodEnumeration
+    - sdos_RsvpResponseType
+    - sdos_SizeSystemEnumeration
+    - sdos_SteeringPositionValue
+    - sdos_TierBenefitEnumeration
+    - sdos_UKNonprofitType
+    - sdos_USNonprofitType
+    - sdos_WearableMeasurementTypeEnumeration
+    - sdos_WearableSizeGroupEnumeration
+    - sdos_WearableSizeSystemEnumeration
+    - dcam_VocabularyEncodingScheme
+    - dct_AgentClass
+    - time_DayOfWeek
+    - time_TemporalUnit
     - https___nasa-gesdisc.proto-okn.net_kg_schema_DataCenter
     - https___nasa-gesdisc.proto-okn.net_kg_schema_Dataset
     - https___nasa-gesdisc.proto-okn.net_kg_schema_Instrument
     - https___nasa-gesdisc.proto-okn.net_kg_schema_Platform
     - https___nasa-gesdisc.proto-okn.net_kg_schema_Project
     - https___nasa-gesdisc.proto-okn.net_kg_schema_ScienceKeyword
-    range: string
+    range: Any
+    any_of:
+    - range: rdfs_Literal
+    - range: string
   https___nasa-gesdisc.proto-okn.net_kg_schema_HAS_DATASET:
     name: https___nasa-gesdisc.proto-okn.net_kg_schema_HAS_DATASET
-    annotations:
-      https___nasa-gesdisc.proto-okn.net_kg_schema_Dataset:
-        tag: https___nasa-gesdisc.proto-okn.net_kg_schema_Dataset
-        value: 9834
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: https://nasa-gesdisc.proto-okn.net/kg/node/0
-        example_object_type: https___nasa-gesdisc.proto-okn.net_kg_schema_Dataset
-        example_predicate: https://nasa-gesdisc.proto-okn.net/kg/schema/HAS_DATASET
-        example_subject: https://nasa-gesdisc.proto-okn.net/kg/node/6821
-        example_subject_type: https___nasa-gesdisc.proto-okn.net_kg_schema_DataCenter
-    from_schema: nasa-gesdisc
+    from_schema: okns:nasa-gesdisc
     rank: 1000
     slot_uri: https://nasa-gesdisc.proto-okn.net/kg/schema/HAS_DATASET
     alias: https___nasa_gesdisc.proto_okn.net_kg_schema_HAS_DATASET
@@ -411,19 +264,7 @@ attributes:
     range: https___nasa-gesdisc.proto-okn.net_kg_schema_Dataset
   https___nasa-gesdisc.proto-okn.net_kg_schema_url:
     name: https___nasa-gesdisc.proto-okn.net_kg_schema_url
-    annotations:
-      uri:
-        tag: uri
-        value: 197
-    description: No slot (predicate) description specified
-    examples:
-    - object:
-        example_object: N/A
-        example_object_type: uri
-        example_predicate: https://nasa-gesdisc.proto-okn.net/kg/schema/url
-        example_subject: https://nasa-gesdisc.proto-okn.net/kg/node/6821
-        example_subject_type: https___nasa-gesdisc.proto-okn.net_kg_schema_DataCenter
-    from_schema: nasa-gesdisc
+    from_schema: okns:nasa-gesdisc
     rank: 1000
     slot_uri: https://nasa-gesdisc.proto-okn.net/kg/schema/url
     alias: https___nasa_gesdisc.proto_okn.net_kg_schema_url
@@ -431,6 +272,29 @@ attributes:
     domain_of:
     - https___nasa-gesdisc.proto-okn.net_kg_schema_DataCenter
     range: uri
+  dct_subject:
+    name: dct_subject
+    description: Recommended practice is to refer to the subject with a URI. If this
+      is not possible or feasible, a literal value that identifies the subject may
+      be provided. Both should preferably refer to a subject in a controlled vocabulary.
+    title: Subject
+    notes:
+    - No occurrences of this slot in the graph.
+    comments:
+    - 'description: A topic of the resource.'
+    from_schema: okns:dc
+    source: http://purl.org/dc/terms/
+    slot_uri: dct:subject
+    alias: dct_subject
+    owner: https___nasa-gesdisc.proto-okn.net_kg_schema_DataCenter
+    domain_of:
+    - https___nasa-gesdisc.proto-okn.net_kg_schema_DataCenter
+    - https___nasa-gesdisc.proto-okn.net_kg_schema_Dataset
+    - https___nasa-gesdisc.proto-okn.net_kg_schema_Instrument
+    - https___nasa-gesdisc.proto-okn.net_kg_schema_Platform
+    - https___nasa-gesdisc.proto-okn.net_kg_schema_Project
+    subproperty_of: dc_subject
+    range: Any
 class_uri: https://nasa-gesdisc.proto-okn.net/kg/schema/DataCenter
 
 ```
